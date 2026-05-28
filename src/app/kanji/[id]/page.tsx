@@ -1,25 +1,33 @@
-import "@/styles/kanji-list.css"
+import "@/styles/kanji.css"
 
-import { kanjis } from "@/data/kanji"
-
-import KanjiCard from "@/components/kanji/KanjiCard"
-
-export default function KanjiPage() {
+export default function KanjiDetailPage() {
     return (
-        <main className="kanji-list-page">
-            <h1 className="kanji-list-title">
-                Kanji
-            </h1>
+        <main className="kanji-page">
+            <div className="kanji-card">
+                <h1 className="kanji-character">
+                    猫
+                </h1>
 
-            <div className="kanji-grid">
-                {kanjis.map((item) => (
-                    <KanjiCard
-                        key={item.id}
-                        id={item.id}
-                        character={item.character}
-                        meaning={item.meaning}
-                    />
-                ))}
+                <p className="kanji-meaning">
+                    Con mèo
+                </p>
+
+                <div className="kanji-info">
+                    <div>
+                        <h3>Onyomi</h3>
+                        <p>ビョウ</p>
+                    </div>
+
+                    <div>
+                        <h3>Kunyomi</h3>
+                        <p>ねこ</p>
+                    </div>
+
+                    <div>
+                        <h3>Số nét</h3>
+                        <p>11</p>
+                    </div>
+                </div>
             </div>
         </main>
     )
