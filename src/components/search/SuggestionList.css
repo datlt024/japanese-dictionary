@@ -1,0 +1,56 @@
+.suggestion-list {
+  margin-top: 12px;
+
+  background: white;
+
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.suggestion-item {
+  width: 100%;
+
+  border: none;
+
+  background: white;
+
+  padding: 16px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.suggestion-item:hover {
+  background: #f3f4f6;
+}
+
+.suggestion-word {
+  font-size: 22px;
+
+  font-weight: bold;
+
+  color: #111827;
+}
+
+.suggestion-kana {
+  color: #4f46e5;
+
+  margin-top: 4px;
+}
+
+.suggestion-meaning {
+  color: #6b7280;
+}
+.suggestion-link {
+  text-decoration: none;
+}

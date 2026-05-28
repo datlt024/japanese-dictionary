@@ -7,6 +7,7 @@ import "@/styles/home.css"
 import SearchBar from "@/components/search/SearchBar"
 import VocabularyCard from "@/components/search/VocabularyCard"
 import Sidebar from "@/components/layout/Sidebar"
+import SuggestionList from "@/components/search/SuggestionList"
 
 import { vocabularies } from "@/data/vocabulary"
 
@@ -14,6 +15,17 @@ export default function HomePage() {
   const [keyword, setKeyword] = useState("")
 
   const filteredWords = vocabularies.filter((item) => {
+    return (
+      item.word.includes(keyword) ||
+      item.kana.includes(keyword) ||
+      item.meaning.includes(keyword)
+    )
+  })
+  const suggestions = vocabularies.filter((item) => {
+    if (!keyword) {
+      return false
+    }
+
     return (
       item.word.includes(keyword) ||
       item.kana.includes(keyword) ||
@@ -46,6 +58,10 @@ export default function HomePage() {
             <SearchBar
               value={keyword}
               onChange={setKeyword}
+            />
+            <SuggestionList
+              items={suggestions}
+              onSelect={(word) => setKeyword(word)}
             />
 
             {/* Tabs */}
