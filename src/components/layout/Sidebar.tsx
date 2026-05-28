@@ -1,6 +1,14 @@
+"use client"
+
 import "./Sidebar.css"
 
+import Link from "next/link"
+
+import { usePathname } from "next/navigation"
+
 export default function Sidebar() {
+    const pathname = usePathname()
+
     return (
         <aside className="sidebar">
             <h2 className="sidebar-logo">
@@ -8,25 +16,38 @@ export default function Sidebar() {
             </h2>
 
             <nav className="sidebar-menu">
-                <button className="sidebar-item active">
+                <Link
+                    href="/"
+                    className={
+                        pathname === "/"
+                            ? "sidebar-item active"
+                            : "sidebar-item"
+                    }
+                >
                     🏠 Home
-                </button>
+                </Link>
 
-                <button className="sidebar-item">
-                    📖 Từ vựng
-                </button>
-
-                <button className="sidebar-item">
+                <Link
+                    href="/kanji"
+                    className={
+                        pathname.startsWith("/kanji")
+                            ? "sidebar-item active"
+                            : "sidebar-item"
+                    }
+                >
                     🈶 Kanji
-                </button>
+                </Link>
 
-                <button className="sidebar-item">
-                    📚 Ngữ pháp
-                </button>
-
-                <button className="sidebar-item">
-                    ⭐ Sổ tay
-                </button>
+                <Link
+                    href="/bookmark"
+                    className={
+                        pathname === "/bookmark"
+                            ? "sidebar-item active"
+                            : "sidebar-item"
+                    }
+                >
+                    ⭐ Bookmark
+                </Link>
             </nav>
         </aside>
     )

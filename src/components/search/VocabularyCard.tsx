@@ -1,4 +1,5 @@
 import "./VocabularyCard.css"
+import useBookmark from "@/features/bookmark/useBookmark"
 
 import Link from "next/link"
 
@@ -15,6 +16,13 @@ export default function VocabularyCard({
     kana,
     meaning,
 }: VocabularyCardProps) {
+    const {
+        bookmarks,
+        toggleBookmark,
+    } = useBookmark()
+
+    const isBookmarked =
+        bookmarks.includes(id)
     return (
         <Link
             href={`/vocabulary/${id}`}
@@ -32,8 +40,15 @@ export default function VocabularyCard({
                         </p>
                     </div>
 
-                    <button className="jlpt-badge">
-                        JLPT
+                    <button
+                        className="jlpt-badge"
+                        onClick={(e) => {
+                            e.preventDefault()
+
+                            toggleBookmark(id)
+                        }}
+                    >
+                        {isBookmarked ? "⭐" : "☆"}
                     </button>
                 </div>
 

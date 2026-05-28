@@ -97,3 +97,26 @@
 .main-content {
   flex: 1;
 }
+.history-container {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 16px;
+}
+
+.history-item {
+  border: none;
+
+  background: #e0e7ff;
+
+  color: #4338ca;
+
+  padding: 8px 12px;
+
+  border-radius: 999px;
+
+  cursor: pointer;
+}

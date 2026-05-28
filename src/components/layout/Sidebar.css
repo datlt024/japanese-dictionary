@@ -53,3 +53,8 @@
 
   color: white;
 }
+.sidebar-item {
+  text-decoration: none;
+
+  color: inherit;
+}
