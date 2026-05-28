@@ -1,0 +1,37 @@
+.kanji-link {
+  text-decoration: none;
+}
+
+.kanji-card {
+  background: white;
+
+  padding: 24px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+
+  transition: 0.2s;
+}
+
+.kanji-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.kanji-character {
+  font-size: 64px;
+
+  color: #1f2937;
+}
+
+.kanji-meaning {
+  margin-top: 10px;
+
+  color: #4f46e5;
+
+  font-size: 18px;
+}

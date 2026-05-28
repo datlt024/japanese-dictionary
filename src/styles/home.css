@@ -90,3 +90,10 @@
 
   gap: 16px;
 }
+.layout {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+}

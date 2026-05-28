@@ -6,6 +6,7 @@ import "@/styles/home.css"
 
 import SearchBar from "@/components/search/SearchBar"
 import VocabularyCard from "@/components/search/VocabularyCard"
+import Sidebar from "@/components/layout/Sidebar"
 
 import { vocabularies } from "@/data/vocabulary"
 
@@ -21,57 +22,62 @@ export default function HomePage() {
   })
 
   return (
-    <main className="page">
-      {/* Header */}
-      <header className="header">
-        <div className="header-container">
-          <h1 className="title">
-            Japanese Dictionary
-          </h1>
+    <div className="layout">
+      <Sidebar />
 
-          <p className="subtitle">
-            Tra cứu tiếng Nhật
-          </p>
-        </div>
-      </header>
+      <main className="main-content">
+        {/* Header */}
+        <header className="header">
+          <div className="header-container">
+            <h1 className="title">
+              Japanese Dictionary
+            </h1>
 
-      {/* Content */}
-      <div className="content">
-        {/* Search */}
-        <div className="search-box">
-          <SearchBar
-            value={keyword}
-            onChange={setKeyword}
-          />
+            <p className="subtitle">
+              Tra cứu tiếng Nhật
+            </p>
+          </div>
+        </header>
 
-          {/* Tabs */}
-          <div className="tab-container">
-            <button className="active-tab">
-              Từ vựng
-            </button>
+        {/* Content */}
+        <div className="content">
+          {/* Search */}
+          <div className="search-box">
+            <SearchBar
+              value={keyword}
+              onChange={setKeyword}
+            />
 
-            <button className="tab">
-              Kanji
-            </button>
+            {/* Tabs */}
+            <div className="tab-container">
+              <button className="active-tab">
+                Từ vựng
+              </button>
 
-            <button className="tab">
-              Ngữ pháp
-            </button>
+              <button className="tab">
+                Kanji
+              </button>
+
+              <button className="tab">
+                Ngữ pháp
+              </button>
+            </div>
+          </div>
+
+          {/* Result */}
+          <div className="result-list">
+            {filteredWords.map((item) => (
+              <VocabularyCard
+                key={item.id}
+                id={item.id}
+                word={item.word}
+                kana={item.kana}
+                meaning={item.meaning}
+              />
+            ))}
           </div>
         </div>
-
-        {/* Result */}
-        <div className="result-list">
-          {filteredWords.map((item) => (
-            <VocabularyCard
-              key={item.id}
-              word={item.word}
-              kana={item.kana}
-              meaning={item.meaning}
-            />
-          ))}
-        </div>
-      </div>
-    </main>
+      </main>
+    </div>
   )
 }
