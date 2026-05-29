@@ -1,7 +1,12 @@
 import "@/styles/detail.css"
 
-import { vocabularies } from "@/data/vocabulary"
 import Link from "next/link"
+import { createClient } from "@supabase/supabase-js"
+
+const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!
+)
 
 type VocabularyDetailPageProps = {
     params: Promise<{
@@ -15,11 +20,13 @@ export default async function VocabularyDetailPage({
 
     const { id } = await params
 
-    const vocabulary = vocabularies.find(
-        (item) => item.id === Number(id)
-    )
+    const { data: vocabulary, error } = await supabase
+        .from("vocabularies")
+        .select("*")
+        .eq("id", Number(id))
+        .single()
 
-    if (!vocabulary) {
+    if (error || !vocabulary) {
         return (
             <main className="detail-page">
                 <div className="detail-card">
@@ -59,15 +66,17 @@ export default async function VocabularyDetailPage({
                 </p>
 
                 <div className="detail-section">
+                    <h2>Từ loại</h2>
+
+                    <p>
+                        {vocabulary.part_of_speech || "Chưa có dữ liệu"}
+                    </p>
+                </div>
+
+                <div className="detail-section">
                     <h2>Ví dụ</h2>
 
-                    <p>
-                        猫が好きです。
-                    </p>
-
-                    <p>
-                        Tôi thích mèo.
-                    </p>
+                    <p>Đang cập nhật...</p>
                 </div>
             </div>
         </main>
