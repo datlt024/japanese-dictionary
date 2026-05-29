@@ -7,7 +7,6 @@ import { useParams } from "next/navigation"
 import "@/styles/detail.css"
 
 import AppLayout from "@/components/layout/AppLayout"
-import Footer from "@/components/layout/Footer"
 import TopSearchBar from "@/components/layout/TopSearchBar"
 import { getVocabularies } from "@/services/vocabulary.service"
 
@@ -38,16 +37,7 @@ export default function VocabularyDetailPage() {
     }, [params.id])
 
     return (
-        <AppLayout>
-            <header className="top-header">
-                <p>Tra cứu</p>
-
-                <div className="header-actions">
-                    <button>Đăng nhập</button>
-                    <button>Đăng ký</button>
-                </div>
-            </header>
-
+        <AppLayout title="Chi tiết từ vựng">
             <main className="detail-page">
                 <TopSearchBar />
 

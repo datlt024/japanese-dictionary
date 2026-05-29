@@ -11,15 +11,7 @@ export default function HomePage() {
   const { histories } = useSearchHistory()
 
   return (
-    <AppLayout>
-      <header className="top-header">
-        <p>Chào ngày mới!</p>
-
-        <div className="header-actions">
-          <button>Đăng nhập</button>
-          <button>Đăng ký</button>
-        </div>
-      </header>
+    <AppLayout title="Tra cứu">
       <TopSearchBar />
       <main className="home-page">
         <div className="home-grid">
