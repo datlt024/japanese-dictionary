@@ -2,52 +2,101 @@
 
 import "./Sidebar.css"
 
+import { useState } from "react"
 import Link from "next/link"
-
 import { usePathname } from "next/navigation"
+
+const menuItems = [
+    {
+        href: "/",
+        icon: "🔎",
+        label: "Tra cứu",
+    },
+    {
+        href: "/study",
+        icon: "📘",
+        label: "Học tập",
+    },
+    {
+        href: "/translate",
+        icon: "🌐",
+        label: "Dịch",
+    },
+    {
+        href: "/kanji",
+        icon: "漢",
+        label: "Hán tự",
+    },
+    {
+        href: "/bookmark",
+        icon: "⭐",
+        label: "Sổ tay",
+    },
+    {
+        href: "/settings",
+        icon: "⚙️",
+        label: "Cài đặt",
+    },
+]
 
 export default function Sidebar() {
     const pathname = usePathname()
+    const [collapsed, setCollapsed] = useState(false)
 
     return (
-        <aside className="sidebar">
-            <h2 className="sidebar-logo">
-                日本語
-            </h2>
+        <aside
+            className={
+                collapsed
+                    ? "sidebar sidebar-collapsed"
+                    : "sidebar"
+            }
+        >
+            <div className="sidebar-header">
+                <button
+                    className="sidebar-toggle"
+                    onClick={() => setCollapsed(!collapsed)}
+                    aria-label="Toggle menu"
+                >
+                    ☰
+                </button>
+
+                {!collapsed && (
+                    <div className="sidebar-logo">
+                        m<span>あ</span>zii
+                    </div>
+                )}
+            </div>
 
             <nav className="sidebar-menu">
-                <Link
-                    href="/"
-                    className={
-                        pathname === "/"
-                            ? "sidebar-item active"
-                            : "sidebar-item"
-                    }
-                >
-                    🏠 Home
-                </Link>
+                {menuItems.map((item) => {
+                    const isActive =
+                        item.href === "/"
+                            ? pathname === "/"
+                            : pathname.startsWith(item.href)
 
-                <Link
-                    href="/kanji"
-                    className={
-                        pathname.startsWith("/kanji")
-                            ? "sidebar-item active"
-                            : "sidebar-item"
-                    }
-                >
-                    🈶 Kanji
-                </Link>
+                    return (
+                        <Link
+                            key={item.href}
+                            href={item.href}
+                            className={
+                                isActive
+                                    ? "sidebar-link active"
+                                    : "sidebar-link"
+                            }
+                            title={collapsed ? item.label : undefined}
+                        >
+                            <span className="sidebar-icon">
+                                {item.icon}
+                            </span>
 
-                <Link
-                    href="/bookmark"
-                    className={
-                        pathname === "/bookmark"
-                            ? "sidebar-item active"
-                            : "sidebar-item"
-                    }
-                >
-                    ⭐ Bookmark
-                </Link>
+                            {!collapsed && (
+                                <span className="sidebar-label">
+                                    {item.label}
+                                </span>
+                            )}
+                        </Link>
+                    )
+                })}
             </nav>
         </aside>
     )

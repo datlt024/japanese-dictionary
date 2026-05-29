@@ -1,205 +1,111 @@
 "use client"
 
-import { useEffect, useState } from "react"
-
 import "@/styles/home.css"
 
-import SearchBar from "@/components/search/SearchBar"
-import VocabularyCard from "@/components/search/VocabularyCard"
-import Sidebar from "@/components/layout/Sidebar"
-import SuggestionList from "@/components/search/SuggestionList"
+import AppLayout from "@/components/layout/AppLayout"
+import TopSearchBar from "@/components/layout/TopSearchBar"
 
 import useSearchHistory from "@/features/history/useSearchHistory"
-import { supabase } from "@/lib/supabase"
-
-type Vocabulary = {
-  id: number
-  word: string
-  kana: string
-  meaning: string
-}
 
 export default function HomePage() {
-  const [keyword, setKeyword] = useState("")
-  const [vocabularies, setVocabularies] = useState<Vocabulary[]>([])
-
-  const { histories, addHistory } = useSearchHistory()
-
-  useEffect(() => {
-    async function searchVocabularies() {
-      const normalizedKeyword = keyword.trim()
-
-      if (!normalizedKeyword) {
-        setVocabularies([])
-        return
-      }
-
-      const exactQuery = supabase
-        .from("vocabularies")
-        .select("id, word, kana, meaning")
-        .or(
-          `word.eq.${normalizedKeyword},kana.eq.${normalizedKeyword}`
-        )
-        .limit(10)
-
-      const prefixQuery = supabase
-        .from("vocabularies")
-        .select("id, word, kana, meaning")
-        .or(
-          `word.ilike.${normalizedKeyword}%,kana.ilike.${normalizedKeyword}%`
-        )
-        .limit(20)
-
-      const containsQuery = supabase
-        .from("vocabularies")
-        .select("id, word, kana, meaning")
-        .or(
-          `word.ilike.%${normalizedKeyword}%,kana.ilike.%${normalizedKeyword}%,meaning.ilike.%${normalizedKeyword}%`
-        )
-        .limit(50)
-
-      const [
-        exactResult,
-        prefixResult,
-        containsResult,
-      ] = await Promise.all([
-        exactQuery,
-        prefixQuery,
-        containsQuery,
-      ])
-
-      if (
-        exactResult.error ||
-        prefixResult.error ||
-        containsResult.error
-      ) {
-        console.error(
-          exactResult.error ||
-          prefixResult.error ||
-          containsResult.error
-        )
-
-        setVocabularies([])
-        return
-      }
-
-      const merged = [
-        ...(exactResult.data || []),
-        ...(prefixResult.data || []),
-        ...(containsResult.data || []),
-      ]
-
-      const unique = merged.filter(
-        (item, index, self) =>
-          index === self.findIndex((v) => v.id === item.id)
-      )
-
-      setVocabularies(unique)
-    }
-
-    searchVocabularies()
-  }, [keyword])
-
-  const suggestions = vocabularies.slice(0, 10).sort((a, b) => {
-    const searchText = keyword.toLowerCase().trim()
-
-    const getScore = (item: Vocabulary) => {
-      const word = item.word.toLowerCase()
-      const kana = item.kana.toLowerCase()
-      const meaning = item.meaning.toLowerCase()
-
-      if (word === searchText) return 1
-      if (kana === searchText) return 2
-
-      if (word.startsWith(searchText)) return 3
-      if (kana.startsWith(searchText)) return 4
-
-      if (word.includes(searchText)) return 5
-      if (kana.includes(searchText)) return 6
-      if (meaning.includes(searchText)) return 7
-
-      return 99
-    }
-
-    return getScore(a) - getScore(b)
-  })
-    .slice(0, 10)
+  const { histories } = useSearchHistory()
 
   return (
-    <div className="layout">
-      <Sidebar />
+    <AppLayout>
+      <header className="top-header">
+        <p>Chào ngày mới!</p>
 
-      <main className="main-content">
-        <header className="header">
-          <div className="header-container">
-            <h1 className="title">
-              Japanese Dictionary
-            </h1>
+        <div className="header-actions">
+          <button>Đăng nhập</button>
+          <button>Đăng ký</button>
+        </div>
+      </header>
+      <TopSearchBar />
+      <main className="home-page">
+        <div className="home-grid">
+          <div className="main-column">
+            <section className="card-section">
+              <div className="section-header">
+                <h2>Từ vựng trong ngày</h2>
+                <button>Xem thêm</button>
+              </div>
 
-            <p className="subtitle">
-              Tra cứu tiếng Nhật
-            </p>
+              <div className="daily-words">
+                <div>
+                  情報
+                  <br />
+                  <span>じょうほう - thông tin</span>
+                </div>
+
+                <div>
+                  経験
+                  <br />
+                  <span>けいけん - kinh nghiệm</span>
+                </div>
+
+                <div>
+                  母
+                  <br />
+                  <span>はは - mẹ</span>
+                </div>
+
+                <div>
+                  父
+                  <br />
+                  <span>ちち - bố</span>
+                </div>
+              </div>
+            </section>
+
+            <section className="card-section banner">
+              Mazii AI+ — Học tiếng Nhật thông minh hơn
+            </section>
+
+            <section className="card-section">
+              <div className="section-header">
+                <h2>Bài học đề xuất</h2>
+                <button>Xem thêm</button>
+              </div>
+
+              <div className="community-grid">
+                <div className="community-card">
+                  <h3>JLPT N5</h3>
+                  <p>Từ vựng cơ bản cho người mới bắt đầu.</p>
+                </div>
+
+                <div className="community-card">
+                  <h3>Kanji cơ bản</h3>
+                  <p>Học các chữ Hán thường gặp nhất.</p>
+                </div>
+              </div>
+            </section>
           </div>
-        </header>
 
-        <div className="content">
-          <div className="search-box">
-            <SearchBar
-              value={keyword}
-              onChange={(value) => {
-                setKeyword(value)
+          <aside className="right-column">
+            <section className="card-section">
+              <div className="section-header">
+                <h2>Lịch sử</h2>
+                <button>Xem thêm</button>
+              </div>
 
-                if (value.trim()) {
-                  addHistory(value)
-                }
-              }}
-            />
+              <div className="history-tags">
+                {histories.map((item) => (
+                  <button key={item}>
+                    {item}
+                  </button>
+                ))}
+              </div>
+            </section>
 
-            <SuggestionList
-              items={suggestions}
-              onSelect={(word) => setKeyword(word)}
-            />
-
-            <div className="tab-container">
-              <button className="active-tab">
-                Từ vựng
-              </button>
-
-              <button className="tab">
-                Kanji
-              </button>
-
-              <button className="tab">
-                Ngữ pháp
-              </button>
-            </div>
-          </div>
-
-          <div className="history-container">
-            {histories.map((item) => (
-              <button
-                key={item}
-                className="history-item"
-                onClick={() => setKeyword(item)}
-              >
-                {item}
-              </button>
-            ))}
-          </div>
-
-          <div className="result-list">
-            {vocabularies.map((item) => (
-              <VocabularyCard
-                key={item.id}
-                id={item.id}
-                word={item.word}
-                kana={item.kana}
-                meaning={item.meaning}
-              />
-            ))}
-          </div>
+            <section className="card-section">
+              <h2>Góp ý</h2>
+              <p>若しも：giả sử</p>
+              <p>果たして：quả nhiên là</p>
+              <p>ポケット：túi</p>
+            </section>
+          </aside>
         </div>
       </main>
-    </div>
+    </AppLayout>
   )
 }
