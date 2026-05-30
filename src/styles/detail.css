@@ -171,3 +171,30 @@
     display: none;
   }
 }
+.kanji-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.kanji-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 72px;
+  height: 72px;
+
+  background: #f8fafc;
+  border-radius: 14px;
+
+  color: #1476e8;
+  font-size: 42px;
+  font-weight: 800;
+
+  text-decoration: none;
+}
+
+.kanji-box:hover {
+  background: #e8f1ff;
+}

@@ -10,10 +10,8 @@
 !.yarn/releases
 !.yarn/versions
 .env.local
-data-import/jmdict-all-3.6.2.json
+data-import/jmdict-eng-3.6.2.json
 data-import/kanjidic2.xml
-data-import/kanji_bank_1.json
-data-import/kanji_bank_2.json
 
 # testing
 /coverage

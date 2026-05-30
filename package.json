@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "eslint",
     "import:jmdict": "tsx scripts/import-jmdict.ts",
-    "import:kanji-bank": "tsx scripts/import-kanji-bank.ts",
     "import:kanjidic": "tsx scripts/import-kanjidic.ts"
   },
   "dependencies": {

@@ -12,78 +12,151 @@ const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!
 )
 
+type JmdictWord = {
+    id: string
+    kanji: {
+        text: string
+        common?: boolean
+    }[]
+    kana: {
+        text: string
+        common?: boolean
+    }[]
+    sense: {
+        partOfSpeech?: string[]
+        gloss?: {
+            lang: string
+            text: string
+            type?: string | null
+        }[]
+    }[]
+}
+
+type VocabularyInsert = {
+    jmdict_id: string
+    word: string
+    kana: string
+    meaning_en: string
+    meaning_vi: string | null
+    part_of_speech: string
+    is_common: boolean
+}
+
 const filePath = path.join(
     process.cwd(),
     "data-import",
-    "jmdict-all-3.6.2.json"
+    "jmdict-eng-3.6.2.json"
 )
 
-const rawData = fs.readFileSync(filePath, "utf-8")
-const jsonData = JSON.parse(rawData)
+function getMainWord(item: JmdictWord) {
+    const commonKanji =
+        item.kanji.find((kanji) => kanji.common)
 
-type VocabularyInsert = {
-    word: string
-    kana: string
-    meaning: string
-    part_of_speech?: string
-    jlpt?: string
+    const firstKanji = item.kanji[0]
+
+    const commonKana =
+        item.kana.find((kana) => kana.common)
+
+    const firstKana = item.kana[0]
+
+    return (
+        commonKanji?.text ||
+        firstKanji?.text ||
+        commonKana?.text ||
+        firstKana?.text ||
+        ""
+    )
 }
 
-const words = jsonData.words
+function getMainKana(item: JmdictWord) {
+    const commonKana =
+        item.kana.find((kana) => kana.common)
 
-const vocabularies: VocabularyInsert[] = words.map((item: any) => {
-    const word =
-        item.kanji?.[0]?.text ||
-        item.kana?.[0]?.text ||
-        ""
+    const firstKana = item.kana[0]
 
-    const kana =
-        item.kana?.[0]?.text ||
-        ""
+    return commonKana?.text || firstKana?.text || ""
+}
 
-    const meaning =
-        item.sense
-            ?.flatMap((sense: any) => {
-                const viGlosses =
-                    sense.gloss?.filter((gloss: any) => gloss.lang === "vie") || []
+function getEnglishMeaning(item: JmdictWord) {
+    const meanings = item.sense.flatMap((sense) => {
+        return (
+            sense.gloss
+                ?.filter((gloss) => gloss.lang === "eng")
+                .map((gloss) => gloss.text) || []
+        )
+    })
 
-                const engGlosses =
-                    sense.gloss?.filter((gloss: any) => gloss.lang === "eng") || []
+    const uniqueMeanings = Array.from(new Set(meanings))
 
-                const selectedGlosses =
-                    viGlosses.length > 0 ? viGlosses : engGlosses
+    return uniqueMeanings
+        .slice(0, 8)
+        .join("; ")
+}
 
-                return selectedGlosses.map((gloss: any) => gloss.text)
-            })
-            .slice(0, 5)
-            .join("; ") || ""
+function getPartOfSpeech(item: JmdictWord) {
+    const parts = item.sense.flatMap((sense) => {
+        return sense.partOfSpeech || []
+    })
 
-    const partOfSpeech =
-        item.sense?.[0]?.partOfSpeech?.join(", ") || ""
+    const uniqueParts = Array.from(new Set(parts))
+
+    return uniqueParts.join(", ")
+}
+
+function getIsCommon(item: JmdictWord) {
+    return (
+        item.kanji.some((kanji) => kanji.common) ||
+        item.kana.some((kana) => kana.common)
+    )
+}
+
+function parseVocabulary(
+    item: JmdictWord
+): VocabularyInsert | null {
+    const word = getMainWord(item)
+    const kana = getMainKana(item)
+    const meaningEn = getEnglishMeaning(item)
+    const partOfSpeech = getPartOfSpeech(item)
+    const isCommon = getIsCommon(item)
+
+    if (!word || !meaningEn) {
+        return null
+    }
 
     return {
+        jmdict_id: item.id,
         word,
         kana,
-        meaning,
+        meaning_en: meaningEn,
+        meaning_vi: null,
         part_of_speech: partOfSpeech,
-        jlpt: "",
+        is_common: isCommon,
     }
-})
-
-const filteredVocabularies = vocabularies.filter((item) => {
-    return item.word && item.kana && item.meaning
-})
-
-console.log("Dữ liệu mẫu:")
-console.log(filteredVocabularies.slice(0, 5))
+}
 
 async function importData() {
-    console.log(`Chuẩn bị import ${filteredVocabularies.length} từ...`)
+    console.log("Đang đọc file JMdict...")
 
-    const chunkSize = 100
+    const rawData = fs.readFileSync(filePath, "utf-8")
+    const jsonData = JSON.parse(rawData)
 
-    for (let i = 0; i < filteredVocabularies.length; i += chunkSize) {
-        const chunk = filteredVocabularies.slice(i, i + chunkSize)
+    const words = jsonData.words as JmdictWord[]
+
+    console.log(`Tổng số entries: ${words.length}`)
+
+    const vocabularies = words
+        .map(parseVocabulary)
+        .filter(Boolean) as VocabularyInsert[]
+
+    console.log(`Số dòng hợp lệ: ${vocabularies.length}`)
+    console.log("Dữ liệu mẫu:")
+    console.log(vocabularies.slice(0, 5))
+
+    const chunkSize = 500
+    let totalImported = 0
+
+    for (let i = 0; i < vocabularies.length; i += chunkSize) {
+        const chunk = vocabularies.slice(i, i + chunkSize)
 
         const { error } = await supabase
             .from("vocabularies")
@@ -94,12 +167,14 @@ async function importData() {
             return
         }
 
+        totalImported += chunk.length
+
         console.log(
-            `Đã import ${i + chunk.length}/${filteredVocabularies.length}`
+            `Đã import ${totalImported}/${vocabularies.length}`
         )
     }
 
-    console.log("Import xong!")
+    console.log("Import JMdict English xong!")
 }
 
 importData()

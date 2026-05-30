@@ -1,4 +1,5 @@
 import { supabase } from "@/lib/supabase"
+
 import { Vocabulary } from "../types/vocabulary.types"
 
 export async function searchVocabularies(
@@ -12,14 +13,22 @@ export async function searchVocabularies(
 
     const { data, error } = await supabase
         .from("vocabularies")
-        .select("id, word, kana, meaning")
+        .select(
+            "id, word, kana, meaning_en, meaning_vi, part_of_speech, jlpt, is_common"
+        )
         .or(
-            `word.ilike.%${normalizedKeyword}%,kana.ilike.%${normalizedKeyword}%,meaning.ilike.%${normalizedKeyword}%`
+            [
+                `word.ilike.%${normalizedKeyword}%`,
+                `kana.ilike.%${normalizedKeyword}%`,
+                `meaning_en.ilike.%${normalizedKeyword}%`,
+                `meaning_vi.ilike.%${normalizedKeyword}%`,
+            ].join(",")
         )
         .limit(50)
 
     if (error) {
-        console.error(error)
+        console.log("Search error message:", error.message)
+        console.log("Search error details:", error.details)
         return []
     }
 

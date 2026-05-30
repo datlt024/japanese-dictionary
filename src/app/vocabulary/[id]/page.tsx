@@ -8,33 +8,34 @@ import "@/styles/detail.css"
 
 import AppLayout from "@/components/layout/AppLayout"
 import TopSearchBar from "@/components/layout/TopSearchBar"
-import { getVocabularies } from "@/services/vocabulary.service"
 
-type Vocabulary = {
-    id: number
-    word: string
-    kana: string
-    meaning: string
-}
+import {
+    getVocabularyById,
+    getVocabularyMeaning,
+    Vocabulary,
+} from "@/services/vocabulary.service"
 
 export default function VocabularyDetailPage() {
     const params = useParams()
+
     const [vocabulary, setVocabulary] =
         useState<Vocabulary | null>(null)
 
     useEffect(() => {
         async function fetchVocabulary() {
-            const data = await getVocabularies()
-
-            const foundVocabulary = data.find(
-                (item) => item.id === Number(params.id)
+            const data = await getVocabularyById(
+                Number(params.id)
             )
 
-            setVocabulary(foundVocabulary || null)
+            setVocabulary(data)
         }
 
         fetchVocabulary()
     }, [params.id])
+
+    const displayMeaning = vocabulary
+        ? getVocabularyMeaning(vocabulary)
+        : ""
 
     return (
         <AppLayout title="Chi tiết từ vựng">
@@ -50,124 +51,119 @@ export default function VocabularyDetailPage() {
                         </Link>
                     </div>
                 ) : (
-                    <>
-                        <div className="detail-layout">
-                            <section className="detail-main">
-                                <div className="detail-header">
-                                    <h1 className="detail-word">
-                                        {vocabulary.word}
-                                    </h1>
+                    <div className="detail-layout">
+                        <section className="detail-main">
+                            <div className="detail-header">
+                                <h1 className="detail-word">
+                                    {vocabulary.word}
+                                </h1>
 
-                                    <p className="detail-kana">
-                                        「{vocabulary.kana}」
-                                    </p>
+                                <p className="detail-kana">
+                                    「{vocabulary.kana || "-"}」
+                                </p>
 
-                                    <p className="detail-meaning">
-                                        {vocabulary.meaning}
-                                    </p>
+                                <p className="detail-meaning">
+                                    {displayMeaning}
+                                </p>
 
-                                    <div className="detail-actions">
-                                        <button>＋</button>
-                                        <button>📋</button>
-                                        <button>🔊</button>
-                                    </div>
-                                    <div className="detail-tools">
-                                        <button>🔗 Kết hợp từ</button>
-                                        <button>🖼 Ảnh minh hoạ</button>
-                                        <button>🎙 Luyện phát âm</button>
-                                    </div>
-
-                                    <div className="jlpt-row">
-                                        <span>JLPT</span>
-                                        <span>N5</span>
-                                    </div>
+                                <div className="detail-actions">
+                                    <button>＋</button>
+                                    <button>📋</button>
+                                    <button>🔊</button>
                                 </div>
 
-                                <div className="detail-section">
-                                    <h2>Từ này có nghĩa là</h2>
-
-                                    <p className="blue-title">
-                                        <strong>{vocabulary.meaning}</strong>
-                                    </p>
-                                    <h2>📌 Tính từ đuôi な</h2>
+                                <div className="detail-tools">
+                                    <button>🔗 Kết hợp từ</button>
+                                    <button>🖼 Ảnh minh hoạ</button>
+                                    <button>🎙 Luyện phát âm</button>
                                 </div>
 
-                                <div className="detail-section">
-                                    <h2>Ví dụ</h2>
+                                <div className="jlpt-row">
+                                    <span>JLPT</span>
+                                    <span>Đang cập nhật</span>
+                                </div>
+                            </div>
 
-                                    <p className="example-jp">
-                                        {vocabulary.word}を勉強しています。
-                                    </p>
+                            <div className="detail-section">
+                                <h2>Từ này có nghĩa là</h2>
 
-                                    <p className="example-vi">
-                                        Tôi đang học từ “{vocabulary.word}”.
-                                    </p>
+                                <p className="blue-title">
+                                    <strong>{displayMeaning}</strong>
+                                </p>
+                            </div>
+
+                            <div className="detail-section">
+                                <h2>Từ loại</h2>
+
+                                <p>
+                                    {vocabulary.part_of_speech ||
+                                        "Đang cập nhật"}
+                                </p>
+                            </div>
+
+                            <div className="detail-section">
+                                <h2>Ví dụ</h2>
+
+                                <p className="example-jp">
+                                    Ví dụ sẽ được cập nhật sau.
+                                </p>
+                            </div>
+                        </section>
+
+                        <aside className="detail-sidebar">
+                            <div className="detail-side-card">
+                                <h3>
+                                    Kết quả tra cứu {vocabulary.word}
+                                </h3>
+
+                                <div className="related-item">
+                                    <strong>{vocabulary.word}</strong>
+                                    <br />
+                                    {vocabulary.kana || "-"} - {displayMeaning}
+                                </div>
+                            </div>
+
+                            <div className="detail-side-card">
+                                <h3>
+                                    Các chữ kanji của {vocabulary.word}
+                                </h3>
+
+                                <div className="kanji-list">
+                                    {Array.from(vocabulary.word)
+                                        .filter((char) => /[\u4e00-\u9faf]/.test(char))
+                                        .map((char) => (
+                                            <Link
+                                                key={char}
+                                                href={`/kanji/${char}`}
+                                                className="kanji-box"
+                                            >
+                                                {char}
+                                            </Link>
+                                        ))}
                                 </div>
 
-                                <div className="detail-section">
-                                    <h2>Ý kiến đóng góp</h2>
+                                <p>
+                                    Hán tự, âm đọc và nét viết sẽ cập nhật sau.
+                                </p>
+                            </div>
 
-                                    <div className="comment-item">
-                                        Nghĩa này cần được kiểm tra thêm.
-                                    </div>
+                            <div className="detail-side-card">
+                                <h3>Các từ liên quan</h3>
 
-                                    <div className="comment-item">
-                                        Có thể bổ sung thêm ví dụ thực tế.
-                                    </div>
+                                <div className="related-item">
+                                    <strong>{vocabulary.word}に</strong>
+                                    <br />
+                                    liên quan đến {displayMeaning}
                                 </div>
 
-                                <div className="detail-section">
-                                    <h2>Từ đồng nghĩa</h2>
-
-                                    <p>Đang cập nhật...</p>
+                                <div className="related-item">
+                                    <strong>{vocabulary.word}な</strong>
+                                    <br />
+                                    dạng bổ nghĩa
                                 </div>
-
-                                <div className="detail-section">
-                                    <h2>Từ trái nghĩa</h2>
-
-                                    <p>Đang cập nhật...</p>
-                                </div>
-                            </section>
-
-                            <aside className="detail-sidebar">
-                                <div className="detail-side-card">
-                                    <h3>Kết quả tra cứu {vocabulary.word}</h3>
-
-                                    <div className="related-item">
-                                        <strong>{vocabulary.word}</strong>
-                                        <br />
-                                        {vocabulary.kana} - {vocabulary.meaning}
-                                    </div>
-                                </div>
-
-                                <div className="detail-side-card">
-                                    <h3>Các chữ kanji của {vocabulary.word}</h3>
-
-                                    <div className="kanji-box">
-                                        {vocabulary.word[0]}
-                                    </div>
-
-                                    <p>Hán tự, âm đọc và nét viết sẽ cập nhật sau.</p>
-                                </div>
-
-                                <div className="detail-side-card">
-                                    <h3>Các từ liên quan</h3>
-
-                                    <div className="related-item">
-                                        <strong>{vocabulary.word}に</strong>
-                                        <br />
-                                        liên quan đến {vocabulary.meaning}
-                                    </div>
-
-                                    <div className="related-item">
-                                        <strong>{vocabulary.word}な</strong>
-                                        <br />
-                                        dạng bổ nghĩa
-                                    </div>
-                                </div>
-                            </aside>
-                        </div>
-                    </>
+                            </div>
+                        </aside>
+                    </div>
                 )}
             </main>
         </AppLayout>
