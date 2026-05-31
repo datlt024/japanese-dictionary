@@ -6,7 +6,6 @@ import { useParams } from "next/navigation"
 import "@/styles/kanji-detail.css"
 
 import AppLayout from "@/components/layout/AppLayout"
-import TopSearchBar from "@/components/layout/TopSearchBar"
 
 import { Kanji } from "@/features/kanji/types/kanji.types"
 import {
@@ -72,9 +71,12 @@ export default function KanjiDetailPage() {
     }, [params.id])
 
     return (
-        <AppLayout title="Hán tự">
+        <AppLayout
+            title="Hán tự"
+            searchKeyword={kanji?.kanji || ""}
+            activeSearchTab="kanji"
+        >
             <main className="kanji-detail-page">
-                <TopSearchBar />
 
                 {loading ? (
                     <section className="kanji-main-card">

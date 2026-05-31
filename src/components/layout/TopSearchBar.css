@@ -9,3 +9,25 @@
   max-width: 100%;
   margin: 0;
 }
+.top-search-tabs {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.top-search-tabs button {
+  border: none;
+  background: transparent;
+
+  padding: 9px 14px;
+  border-radius: 10px;
+
+  color: #64748b;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.top-search-tabs button.active {
+  background: #dbeafe;
+  color: #1476e8;
+}

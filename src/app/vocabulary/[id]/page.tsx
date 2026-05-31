@@ -7,7 +7,6 @@ import { useParams } from "next/navigation"
 import "@/styles/detail.css"
 
 import AppLayout from "@/components/layout/AppLayout"
-import TopSearchBar from "@/components/layout/TopSearchBar"
 
 import {
     getVocabularyById,
@@ -16,18 +15,24 @@ import {
 } from "@/services/vocabulary.service"
 
 export default function VocabularyDetailPage() {
-    const params = useParams()
+    const params = useParams<{ id: string }>()
 
     const [vocabulary, setVocabulary] =
         useState<Vocabulary | null>(null)
 
+    const [loading, setLoading] =
+        useState(true)
+
     useEffect(() => {
         async function fetchVocabulary() {
+            setLoading(true)
+
             const data = await getVocabularyById(
                 Number(params.id)
             )
 
             setVocabulary(data)
+            setLoading(false)
         }
 
         fetchVocabulary()
@@ -38,11 +43,17 @@ export default function VocabularyDetailPage() {
         : ""
 
     return (
-        <AppLayout title="Chi tiết từ vựng">
+        <AppLayout
+            title="Chi tiết từ vựng"
+            searchKeyword={vocabulary?.word || ""}
+            activeSearchTab="vocabulary"
+        >
             <main className="detail-page">
-                <TopSearchBar />
-
-                {!vocabulary ? (
+                {loading ? (
+                    <div className="detail-main">
+                        <h1>Đang tải từ vựng...</h1>
+                    </div>
+                ) : !vocabulary ? (
                     <div className="detail-main">
                         <h1>Không tìm thấy từ vựng</h1>
 
@@ -130,7 +141,9 @@ export default function VocabularyDetailPage() {
 
                                 <div className="kanji-list">
                                     {Array.from(vocabulary.word)
-                                        .filter((char) => /[\u4e00-\u9faf]/.test(char))
+                                        .filter((char) =>
+                                            /[\u4e00-\u9faf]/.test(char)
+                                        )
                                         .map((char) => (
                                             <Link
                                                 key={char}

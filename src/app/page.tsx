@@ -3,7 +3,6 @@
 import "@/styles/home.css"
 
 import AppLayout from "@/components/layout/AppLayout"
-import TopSearchBar from "@/components/layout/TopSearchBar"
 
 import useSearchHistory from "@/features/history/useSearchHistory"
 
@@ -12,7 +11,6 @@ export default function HomePage() {
 
   return (
     <AppLayout title="Tra cứu">
-      <TopSearchBar />
       <main className="home-page">
         <div className="home-grid">
           <div className="main-column">

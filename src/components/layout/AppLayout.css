@@ -11,5 +11,19 @@
 }
 
 .app-content {
-  padding: 16px 24px;
+  background: #eef2f7;
+}
+
+.app-search-area {
+  padding: 24px 32px 0;
+}
+
+.app-search-area .top-search {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.app-page-content {
+  padding: 24px 32px;
+  background: #eef2f7;
 }
