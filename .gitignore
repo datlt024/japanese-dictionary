@@ -12,6 +12,8 @@
 .env.local
 data-import/jmdict-eng-3.6.2.json
 data-import/kanjidic2.xml
+data/grammar/
+data/grammar/gramar-points.json
 
 # testing
 /coverage
