@@ -33,7 +33,7 @@ type GrammarPoint = {
 async function main() {
     const filePath = path.join(
         process.cwd(),
-        "data/grammar/grammar-points.json"
+        "data-import/grammar-points.json"
     )
 
     const raw = fs.readFileSync(filePath, "utf-8")
