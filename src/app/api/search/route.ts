@@ -15,13 +15,13 @@ type VocabularyRow = {
 const VOCABULARY_COLUMNS =
     "id, word, kana, meaning_en, meaning_vi, part_of_speech, is_common"
 
-function uniqueVocabularies(
-    items: VocabularyRow[]
-) {
+const GRAMMAR_COLUMNS =
+    "id, pattern, jlpt_level, meaning_vi, meaning_en, structure, explanation_vi, explanation_en, example_jp, example_vi, source"
+
+function uniqueById<T extends { id: number }>(items: T[]) {
     return items.filter(
         (item, index, self) =>
-            index ===
-            self.findIndex((v) => v.id === item.id)
+            index === self.findIndex((v) => v.id === item.id)
     )
 }
 
@@ -43,6 +43,8 @@ export async function GET(request: NextRequest) {
         prefixVocabularyResult,
         containsVocabularyResult,
         kanjiResult,
+        exactGrammarResult,
+        containsGrammarResult,
     ] = await Promise.all([
         supabase
             .from("vocabularies")
@@ -74,37 +76,65 @@ export async function GET(request: NextRequest) {
             .select("*")
             .eq("kanji", keyword)
             .maybeSingle(),
+
+        supabase
+            .from("grammar_points")
+            .select(GRAMMAR_COLUMNS)
+            .or(
+                [
+                    `pattern.eq.${keyword}`,
+                    `meaning_vi.eq.${keyword}`,
+                    `meaning_en.eq.${keyword}`,
+                ].join(",")
+            )
+            .limit(10),
+
+        supabase
+            .from("grammar_points")
+            .select(GRAMMAR_COLUMNS)
+            .or(
+                [
+                    `pattern.ilike.%${keyword}%`,
+                    `meaning_vi.ilike.%${keyword}%`,
+                    `meaning_en.ilike.%${keyword}%`,
+                    `structure.ilike.%${keyword}%`,
+                    `explanation_vi.ilike.%${keyword}%`,
+                    `explanation_en.ilike.%${keyword}%`,
+                ].join(",")
+            )
+            .limit(30),
     ])
 
-    const vocabularyError =
+    const error =
         exactVocabularyResult.error ||
         prefixVocabularyResult.error ||
-        containsVocabularyResult.error
+        containsVocabularyResult.error ||
+        kanjiResult.error ||
+        exactGrammarResult.error ||
+        containsGrammarResult.error
 
-    if (vocabularyError) {
+    if (error) {
         return NextResponse.json(
-            { error: vocabularyError.message },
+            { error: error.message },
             { status: 500 }
         )
     }
 
-    if (kanjiResult.error) {
-        return NextResponse.json(
-            { error: kanjiResult.error.message },
-            { status: 500 }
-        )
-    }
-
-    const vocabularies = uniqueVocabularies([
+    const vocabularies = uniqueById([
         ...(exactVocabularyResult.data || []),
         ...(prefixVocabularyResult.data || []),
         ...(containsVocabularyResult.data || []),
     ] as VocabularyRow[])
 
+    const grammars = uniqueById([
+        ...(exactGrammarResult.data || []),
+        ...(containsGrammarResult.data || []),
+    ])
+
     return NextResponse.json({
         vocabularies,
         kanjis: kanjiResult.data ? [kanjiResult.data] : [],
-        grammars: [],
+        grammars,
         examples: [],
     })
 }
