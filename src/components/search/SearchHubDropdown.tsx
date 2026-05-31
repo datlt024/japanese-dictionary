@@ -22,6 +22,7 @@ type Props = {
 function getVocabularyMeaning(item: SearchVocabulary) {
     return item.meaning_vi || item.meaning_en || ""
 }
+
 function sortVocabularies(
     items: SearchVocabulary[],
     keyword: string
@@ -33,9 +34,7 @@ function sortVocabularies(
         const kana = (item.kana || "").toLowerCase()
         const meaning = getVocabularyMeaning(item).toLowerCase()
 
-        if (word === searchText && item.word.length === 1) {
-            return 0
-        }
+        if (word === searchText && item.word.length === 1) return 0
         if (word === searchText) return 1
         if (kana === searchText) return 2
 
@@ -58,15 +57,24 @@ function sortVocabularies(
     return [...items].sort((a, b) => getScore(a) - getScore(b))
 }
 
+function extractKanjis(text: string) {
+    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g))
+        .map((match) => match[0])
+}
+
+function uniqueArray(items: string[]) {
+    return Array.from(new Set(items))
+}
+
 export default function SearchHubDropdown({
     result,
     keyword,
     loading,
     activeTab,
 }: Props) {
-    const hasKeyword = keyword.trim().length > 0
+    const cleanKeyword = keyword.trim()
 
-    if (!hasKeyword) {
+    if (!cleanKeyword) {
         return null
     }
 
@@ -78,6 +86,10 @@ export default function SearchHubDropdown({
     if (!shouldShowDropdown) {
         return null
     }
+
+    const kanjiOptions = uniqueArray(
+        extractKanjis(cleanKeyword)
+    )
 
     return (
         <div className="search-hub-dropdown">
@@ -95,7 +107,7 @@ export default function SearchHubDropdown({
                                 Không tìm thấy từ vựng.
                             </p>
                         ) : (
-                            sortVocabularies(result.vocabularies, keyword)
+                            sortVocabularies(result.vocabularies, cleanKeyword)
                                 .slice(0, 10)
                                 .map((item) => (
                                     <Link
@@ -117,7 +129,25 @@ export default function SearchHubDropdown({
 
                 {activeTab === "kanji" && (
                     <>
-                        {result.kanjis.length === 0 && !loading ? (
+                        {kanjiOptions.length > 0 ? (
+                            kanjiOptions.map((item) => {
+                                const matchedKanji = result.kanjis.find(
+                                    (kanji) => kanji.kanji === item
+                                )
+
+                                return (
+                                    <Link
+                                        key={item}
+                                        href={`/kanji/${encodeURIComponent(
+                                            item
+                                        )}?q=${encodeURIComponent(cleanKeyword)}`}
+                                        className="search-hub-kanji"
+                                    >
+                                        <strong>{item}</strong>
+                                    </Link>
+                                )
+                            })
+                        ) : result.kanjis.length === 0 && !loading ? (
                             <p className="search-hub-empty">
                                 Không tìm thấy Hán tự.
                             </p>
@@ -125,7 +155,9 @@ export default function SearchHubDropdown({
                             result.kanjis.map((item: SearchKanji) => (
                                 <Link
                                     key={item.id}
-                                    href={`/kanji/${item.kanji}`}
+                                    href={`/kanji/${encodeURIComponent(
+                                        item.kanji
+                                    )}?q=${encodeURIComponent(cleanKeyword)}`}
                                     className="search-hub-kanji"
                                 >
                                     <strong>{item.kanji}</strong>

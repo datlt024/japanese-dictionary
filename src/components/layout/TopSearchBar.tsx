@@ -28,6 +28,11 @@ type TopSearchBarProps = {
     activeSearchTab?: SearchTab
 }
 
+function extractKanjis(text: string) {
+    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g))
+        .map((match) => match[0])
+}
+
 export default function TopSearchBar({
     searchKeyword = "",
     activeSearchTab = "vocabulary",
@@ -76,13 +81,22 @@ export default function TopSearchBar({
     async function getTargetUrl(tab: SearchTab, q: string) {
         if (!q) return null
 
-        const response = await fetch(
-            `/api/search?q=${encodeURIComponent(q)}`
-        )
+        if (tab === "kanji") {
+            const kanjis = extractKanjis(q)
 
-        const data = await response.json()
+            if (kanjis.length > 0) {
+                return `/kanji/${kanjis[0]}?q=${encodeURIComponent(q)}`
+            }
+
+            return `/search?q=${encodeURIComponent(q)}&tab=kanji`
+        }
 
         if (tab === "vocabulary") {
+            const response = await fetch(
+                `/api/search?q=${encodeURIComponent(q)}`
+            )
+
+            const data = await response.json()
             const firstVocabulary = data.vocabularies?.[0]
 
             if (firstVocabulary) {
@@ -90,16 +104,6 @@ export default function TopSearchBar({
             }
 
             return `/search?q=${encodeURIComponent(q)}&tab=vocabulary`
-        }
-
-        if (tab === "kanji") {
-            const firstKanji = data.kanjis?.[0]
-
-            if (firstKanji) {
-                return `/kanji/${firstKanji.kanji}`
-            }
-
-            return `/search?q=${encodeURIComponent(q)}&tab=kanji`
         }
 
         return `/search?q=${encodeURIComponent(q)}&tab=${tab}`
@@ -127,12 +131,7 @@ export default function TopSearchBar({
 
     function handleChange(value: string) {
         setKeyword(value)
-
-        if (value.trim()) {
-            setIsDropdownOpen(true)
-        } else {
-            setIsDropdownOpen(false)
-        }
+        setIsDropdownOpen(Boolean(value.trim()))
     }
 
     async function handleTabClick(tab: SearchTab) {

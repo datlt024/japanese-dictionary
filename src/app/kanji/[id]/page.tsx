@@ -1,7 +1,8 @@
 "use client"
 
-import { useEffect, useState } from "react"
-import { useParams } from "next/navigation"
+import Link from "next/link"
+import { useEffect, useMemo, useState } from "react"
+import { useParams, useSearchParams } from "next/navigation"
 
 import "@/styles/kanji-detail.css"
 
@@ -15,8 +16,18 @@ import {
     getWordsByReadingGroups,
 } from "@/features/kanji/services/kanji.service"
 
+function extractKanjis(text: string) {
+    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g))
+        .map((match) => match[0])
+}
+
+function uniqueArray(items: string[]) {
+    return Array.from(new Set(items))
+}
+
 export default function KanjiDetailPage() {
     const params = useParams<{ id: string }>()
+    const searchParams = useSearchParams()
 
     const [kanji, setKanji] =
         useState<Kanji | null>(null)
@@ -30,16 +41,28 @@ export default function KanjiDetailPage() {
     const [loading, setLoading] =
         useState(true)
 
+    const currentKanji = useMemo(() => {
+        return decodeURIComponent(params.id).replace(/\0/g, "")
+    }, [params.id])
+
+    const searchKeyword = searchParams.get("q") || currentKanji
+
+    const kanjiOptions = useMemo(() => {
+        const kanjis = extractKanjis(searchKeyword)
+
+        if (kanjis.length === 0) {
+            return currentKanji ? [currentKanji] : []
+        }
+
+        return uniqueArray(kanjis)
+    }, [searchKeyword, currentKanji])
+
     useEffect(() => {
         async function fetchKanji() {
             setLoading(true)
 
-            const character = decodeURIComponent(
-                params.id
-            ).replace(/\0/g, "")
-
             const kanjiData =
-                await getKanjiByCharacter(character)
+                await getKanjiByCharacter(currentKanji)
 
             if (!kanjiData) {
                 setKanji(null)
@@ -52,11 +75,11 @@ export default function KanjiDetailPage() {
             const [kunyomiData, onyomiData] =
                 await Promise.all([
                     getWordsByReadingGroups(
-                        character,
+                        currentKanji,
                         kanjiData.kunyomi
                     ),
                     getWordsByReadingGroups(
-                        character,
+                        currentKanji,
                         kanjiData.onyomi
                     ),
                 ])
@@ -68,16 +91,15 @@ export default function KanjiDetailPage() {
         }
 
         fetchKanji()
-    }, [params.id])
+    }, [currentKanji])
 
     return (
         <AppLayout
             title="Hán tự"
-            searchKeyword={kanji?.kanji || ""}
+            searchKeyword={searchKeyword}
             activeSearchTab="kanji"
         >
             <main className="kanji-detail-page">
-
                 {loading ? (
                     <section className="kanji-main-card">
                         <h1>Đang tải Hán tự...</h1>
@@ -113,16 +135,12 @@ export default function KanjiDetailPage() {
 
                                     <div className="reading-item">
                                         <span>Kunyomi</span>
-                                        <strong>
-                                            {kanji.kunyomi || "-"}
-                                        </strong>
+                                        <strong>{kanji.kunyomi || "-"}</strong>
                                     </div>
 
                                     <div className="reading-item">
                                         <span>Onyomi</span>
-                                        <strong>
-                                            {kanji.onyomi || "-"}
-                                        </strong>
+                                        <strong>{kanji.onyomi || "-"}</strong>
                                     </div>
                                 </div>
 
@@ -136,9 +154,7 @@ export default function KanjiDetailPage() {
                             <div className="kanji-meta-row">
                                 <div>
                                     <span>Số nét</span>
-                                    <strong>
-                                        {kanji.stroke_count || "-"}
-                                    </strong>
+                                    <strong>{kanji.stroke_count || "-"}</strong>
                                 </div>
 
                                 <div>
@@ -150,15 +166,12 @@ export default function KanjiDetailPage() {
 
                                 <div>
                                     <span>Tần suất</span>
-                                    <strong>
-                                        {kanji.frequency || "-"}
-                                    </strong>
+                                    <strong>{kanji.frequency || "-"}</strong>
                                 </div>
                             </div>
 
                             <section className="kanji-section">
                                 <h2>Nghĩa</h2>
-
                                 <ul>
                                     <li>{kanji.meaning || "-"}</li>
                                 </ul>
@@ -166,10 +179,7 @@ export default function KanjiDetailPage() {
 
                             <section className="kanji-section">
                                 <h2>Mẹo</h2>
-
-                                <p>
-                                    Phần mẹo ghi nhớ Hán tự sẽ được bổ sung sau.
-                                </p>
+                                <p>Phần mẹo ghi nhớ Hán tự sẽ được bổ sung sau.</p>
                             </section>
 
                             <section className="kanji-section">
@@ -194,9 +204,7 @@ export default function KanjiDetailPage() {
                                                             <tr key={word.id}>
                                                                 <td>{word.word}</td>
                                                                 <td>{word.kana || "-"}</td>
-                                                                <td>
-                                                                    {getRelatedWordMeaning(word)}
-                                                                </td>
+                                                                <td>{getRelatedWordMeaning(word)}</td>
                                                             </tr>
                                                         ))}
                                                     </tbody>
@@ -225,9 +233,7 @@ export default function KanjiDetailPage() {
                                                             <tr key={word.id}>
                                                                 <td>{word.word}</td>
                                                                 <td>{word.kana || "-"}</td>
-                                                                <td>
-                                                                    {getRelatedWordMeaning(word)}
-                                                                </td>
+                                                                <td>{getRelatedWordMeaning(word)}</td>
                                                             </tr>
                                                         ))}
                                                     </tbody>
@@ -256,7 +262,31 @@ export default function KanjiDetailPage() {
                         </section>
 
                         <aside className="kanji-ad-column">
-                            {/* Quảng cáo đặt ở đây sau */}
+                            {kanjiOptions.length > 1 && (
+                                <div className="kanji-result-box">
+                                    <h3>Kết quả tra cứu kanji</h3>
+
+                                    <div className="kanji-result-list">
+                                        {kanjiOptions.map((item) => (
+                                            <Link
+                                                key={item}
+                                                href={`/kanji/${encodeURIComponent(
+                                                    item
+                                                )}?q=${encodeURIComponent(searchKeyword)}`}
+                                                className={
+                                                    item === currentKanji
+                                                        ? "kanji-result-item active"
+                                                        : "kanji-result-item"
+                                                }
+                                            >
+                                                <span className="kanji-result-char">
+                                                    {item}
+                                                </span>
+                                            </Link>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
                         </aside>
                     </div>
                 )}
