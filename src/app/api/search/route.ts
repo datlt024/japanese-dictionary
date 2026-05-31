@@ -16,7 +16,7 @@ const VOCABULARY_COLUMNS =
     "id, word, kana, meaning_en, meaning_vi, part_of_speech, is_common"
 
 const GRAMMAR_COLUMNS =
-    "id, pattern, jlpt_level, meaning_vi, meaning_en, structure, explanation_vi, explanation_en, example_jp, example_vi, source"
+    "id, pattern, reading, jlpt_level, meaning_vi, meaning_en, short_meaning_vi, explanation_vi, explanation_en, nuance_vi, formation, examples, similar_grammar, differences, notes, tags, frequency, is_common"
 
 function uniqueById<T extends { id: number }>(items: T[]) {
     return items.filter(
@@ -43,8 +43,9 @@ export async function GET(request: NextRequest) {
         prefixVocabularyResult,
         containsVocabularyResult,
         kanjiResult,
-        exactGrammarResult,
-        containsGrammarResult,
+        grammarPatternResult,
+        grammarReadingResult,
+        grammarMeaningResult,
     ] = await Promise.all([
         supabase
             .from("vocabularies")
@@ -78,31 +79,30 @@ export async function GET(request: NextRequest) {
             .maybeSingle(),
 
         supabase
-            .from("grammar_points")
+            .from("grammars")
             .select(GRAMMAR_COLUMNS)
-            .or(
-                [
-                    `pattern.eq.${keyword}`,
-                    `meaning_vi.eq.${keyword}`,
-                    `meaning_en.eq.${keyword}`,
-                ].join(",")
-            )
-            .limit(10),
+            .ilike("pattern", `%${keyword}%`)
+            .limit(20),
 
         supabase
-            .from("grammar_points")
+            .from("grammars")
+            .select(GRAMMAR_COLUMNS)
+            .ilike("reading", `%${keyword}%`)
+            .limit(20),
+
+        supabase
+            .from("grammars")
             .select(GRAMMAR_COLUMNS)
             .or(
                 [
-                    `pattern.ilike.%${keyword}%`,
                     `meaning_vi.ilike.%${keyword}%`,
                     `meaning_en.ilike.%${keyword}%`,
-                    `structure.ilike.%${keyword}%`,
+                    `short_meaning_vi.ilike.%${keyword}%`,
                     `explanation_vi.ilike.%${keyword}%`,
                     `explanation_en.ilike.%${keyword}%`,
                 ].join(",")
             )
-            .limit(30),
+            .limit(20),
     ])
 
     const error =
@@ -110,10 +110,13 @@ export async function GET(request: NextRequest) {
         prefixVocabularyResult.error ||
         containsVocabularyResult.error ||
         kanjiResult.error ||
-        exactGrammarResult.error ||
-        containsGrammarResult.error
+        grammarPatternResult.error ||
+        grammarReadingResult.error ||
+        grammarMeaningResult.error
 
     if (error) {
+        console.error("Search API error:", error)
+
         return NextResponse.json(
             { error: error.message },
             { status: 500 }
@@ -127,8 +130,9 @@ export async function GET(request: NextRequest) {
     ] as VocabularyRow[])
 
     const grammars = uniqueById([
-        ...(exactGrammarResult.data || []),
-        ...(containsGrammarResult.data || []),
+        ...(grammarPatternResult.data || []),
+        ...(grammarReadingResult.data || []),
+        ...(grammarMeaningResult.data || []),
     ])
 
     return NextResponse.json({

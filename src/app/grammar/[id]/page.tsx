@@ -15,7 +15,74 @@ import {
 } from "@/features/grammar/services/grammar.service"
 
 function getGrammarMeaning(grammar: GrammarPoint) {
-    return grammar.meaning_vi || grammar.meaning_en || ""
+    return (
+        grammar.short_meaning_vi ||
+        grammar.meaning_vi ||
+        grammar.meaning_en ||
+        ""
+    )
+}
+
+function RubyText({
+    ruby,
+    fallback,
+}: {
+    ruby?: {
+        text: string
+        reading: string | null
+    }[]
+    fallback: string
+}) {
+    if (!ruby || ruby.length === 0) {
+        return <>{fallback}</>
+    }
+
+    return (
+        <>
+            {ruby.map((item, index) =>
+                item.reading ? (
+                    <ruby key={index}>
+                        {item.text}
+                        <rt>{item.reading}</rt>
+                    </ruby>
+                ) : (
+                    <span key={index}>{item.text}</span>
+                )
+            )}
+        </>
+    )
+}
+
+function FormationText({
+    tokens,
+    fallback,
+}: {
+    tokens?: {
+        text: string
+        type: "text" | "drop"
+    }[]
+    fallback: string
+}) {
+    if (!tokens || tokens.length === 0) {
+        return <>{fallback}</>
+    }
+
+    return (
+        <>
+            {tokens.map((token, index) =>
+                token.type === "drop" ? (
+                    <span
+                        key={index}
+                        className="grammar-drop"
+                    >
+                        {token.text}
+                    </span>
+                ) : (
+                    <span key={index}>{token.text}</span>
+                )
+            )}
+        </>
+    )
 }
 
 export default function GrammarDetailPage() {
@@ -31,8 +98,7 @@ export default function GrammarDetailPage() {
     const [relatedGrammars, setRelatedGrammars] =
         useState<GrammarPoint[]>([])
 
-    const [loading, setLoading] =
-        useState(true)
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         async function fetchGrammar() {
@@ -110,11 +176,53 @@ export default function GrammarDetailPage() {
                                     </div>
                                 )}
 
-                                {grammar.structure && (
+                                {grammar.formation?.length > 0 && (
                                     <section className="grammar-section">
                                         <h2>Cấu trúc</h2>
+
                                         <div className="grammar-structure">
-                                            {grammar.structure}
+                                            {grammar.formation.map(
+                                                (group, groupIndex) => (
+                                                    <div key={groupIndex}>
+                                                        <h3>
+                                                            {group.label}
+                                                        </h3>
+
+                                                        {group.patterns.map(
+                                                            (
+                                                                pattern,
+                                                                patternIndex
+                                                            ) => (
+                                                                <div
+                                                                    key={
+                                                                        patternIndex
+                                                                    }
+                                                                    className="grammar-formation-pattern"
+                                                                >
+                                                                    <p>
+                                                                        <FormationText
+                                                                            tokens={
+                                                                                pattern.tokens
+                                                                            }
+                                                                            fallback={
+                                                                                pattern.structure
+                                                                            }
+                                                                        />
+                                                                    </p>
+
+                                                                    {pattern.note_vi && (
+                                                                        <small>
+                                                                            {
+                                                                                pattern.note_vi
+                                                                            }
+                                                                        </small>
+                                                                    )}
+                                                                </div>
+                                                            )
+                                                        )}
+                                                    </div>
+                                                )
+                                            )}
                                         </div>
                                     </section>
                                 )}
@@ -131,28 +239,81 @@ export default function GrammarDetailPage() {
                                         </section>
                                     )}
 
-                                {grammar.example_jp && (
+                                {grammar.nuance_vi && (
                                     <section className="grammar-section">
-                                        <h2>Ví dụ</h2>
-
-                                        <div className="grammar-example">
-                                            <p className="grammar-example-jp">
-                                                {grammar.example_jp}
-                                            </p>
-
-                                            {grammar.example_vi && (
-                                                <p className="grammar-example-vi">
-                                                    {grammar.example_vi}
-                                                </p>
-                                            )}
-                                        </div>
+                                        <h2>Sắc thái</h2>
+                                        <p>{grammar.nuance_vi}</p>
                                     </section>
                                 )}
 
-                                {grammar.source && (
+                                {grammar.examples?.length > 0 && (
                                     <section className="grammar-section">
-                                        <h2>Nguồn</h2>
-                                        <p>{grammar.source}</p>
+                                        <h2>Ví dụ</h2>
+
+                                        {grammar.examples.map(
+                                            (example, index) => (
+                                                <div
+                                                    key={index}
+                                                    className="grammar-example"
+                                                >
+                                                    <p className="grammar-example-jp">
+                                                        <RubyText
+                                                            ruby={
+                                                                example.ruby
+                                                            }
+                                                            fallback={
+                                                                example.japanese
+                                                            }
+                                                        />
+                                                    </p>
+
+                                                    {example.meaning_vi && (
+                                                        <p className="grammar-example-vi">
+                                                            {
+                                                                example.meaning_vi
+                                                            }
+                                                        </p>
+                                                    )}
+                                                </div>
+                                            )
+                                        )}
+                                    </section>
+                                )}
+
+                                {grammar.differences?.length > 0 && (
+                                    <section className="grammar-section">
+                                        <h2>Dễ nhầm lẫn</h2>
+
+                                        {grammar.differences.map(
+                                            (item, index) => (
+                                                <div key={index}>
+                                                    <strong>
+                                                        {item.grammar}
+                                                    </strong>
+                                                    <p>
+                                                        {
+                                                            item.description_vi
+                                                        }
+                                                    </p>
+                                                </div>
+                                            )
+                                        )}
+                                    </section>
+                                )}
+
+                                {grammar.notes?.length > 0 && (
+                                    <section className="grammar-section">
+                                        <h2>Ghi chú</h2>
+
+                                        <ul>
+                                            {grammar.notes.map(
+                                                (note, index) => (
+                                                    <li key={index}>
+                                                        {note}
+                                                    </li>
+                                                )
+                                            )}
+                                        </ul>
                                     </section>
                                 )}
                             </section>

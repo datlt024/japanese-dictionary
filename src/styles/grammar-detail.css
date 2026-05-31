@@ -190,6 +190,13 @@
     color: #6b7280;
     font-size: 14px;
 }
+.grammar-drop {
+    text-decoration: line-through;
+}
+
+.grammar-formation-pattern {
+    margin-top: 8px;
+}
 
 @media (max-width: 1024px) {
     .grammar-detail-layout {
