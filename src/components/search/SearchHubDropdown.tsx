@@ -10,6 +10,7 @@ import {
     SearchHubResult,
     SearchVocabulary,
     SearchKanji,
+    SearchGrammar,
 } from "@/features/search/hooks/useSearchHub"
 
 type Props = {
@@ -20,6 +21,10 @@ type Props = {
 }
 
 function getVocabularyMeaning(item: SearchVocabulary) {
+    return item.meaning_vi || item.meaning_en || ""
+}
+
+function getGrammarMeaning(item: SearchGrammar) {
     return item.meaning_vi || item.meaning_en || ""
 }
 
@@ -50,6 +55,28 @@ function sortVocabularies(
         if (word.includes(searchText)) return 9
         if (kana.includes(searchText)) return 10
         if (meaning.includes(searchText)) return 11
+
+        return 99
+    }
+
+    return [...items].sort((a, b) => getScore(a) - getScore(b))
+}
+
+function sortGrammars(
+    items: SearchGrammar[],
+    keyword: string
+) {
+    const searchText = keyword.trim().toLowerCase()
+
+    const getScore = (item: SearchGrammar) => {
+        const pattern = item.pattern.toLowerCase()
+        const meaning = getGrammarMeaning(item).toLowerCase()
+        const structure = (item.structure || "").toLowerCase()
+
+        if (pattern === searchText) return 0
+        if (pattern.includes(searchText)) return 1
+        if (structure.includes(searchText)) return 2
+        if (meaning.includes(searchText)) return 3
 
         return 99
     }
@@ -130,23 +157,17 @@ export default function SearchHubDropdown({
                 {activeTab === "kanji" && (
                     <>
                         {kanjiOptions.length > 0 ? (
-                            kanjiOptions.map((item) => {
-                                const matchedKanji = result.kanjis.find(
-                                    (kanji) => kanji.kanji === item
-                                )
-
-                                return (
-                                    <Link
-                                        key={item}
-                                        href={`/kanji/${encodeURIComponent(
-                                            item
-                                        )}?q=${encodeURIComponent(cleanKeyword)}`}
-                                        className="search-hub-kanji"
-                                    >
-                                        <strong>{item}</strong>
-                                    </Link>
-                                )
-                            })
+                            kanjiOptions.map((item) => (
+                                <Link
+                                    key={item}
+                                    href={`/kanji/${encodeURIComponent(
+                                        item
+                                    )}?q=${encodeURIComponent(cleanKeyword)}`}
+                                    className="search-hub-kanji"
+                                >
+                                    <strong>{item}</strong>
+                                </Link>
+                            ))
                         ) : result.kanjis.length === 0 && !loading ? (
                             <p className="search-hub-empty">
                                 Không tìm thấy Hán tự.
@@ -177,9 +198,32 @@ export default function SearchHubDropdown({
                 )}
 
                 {activeTab === "grammar" && (
-                    <p className="search-hub-empty">
-                        Gợi ý ngữ pháp sẽ cập nhật sau.
-                    </p>
+                    <>
+                        {result.grammars.length === 0 && !loading ? (
+                            <p className="search-hub-empty">
+                                Không tìm thấy ngữ pháp.
+                            </p>
+                        ) : (
+                            sortGrammars(result.grammars, cleanKeyword)
+                                .slice(0, 10)
+                                .map((item) => (
+                                    <Link
+                                        key={item.id}
+                                        href={`/grammar/${item.id}?q=${encodeURIComponent(
+                                            cleanKeyword
+                                        )}`}
+                                        className="search-hub-item"
+                                    >
+                                        <div>
+                                            <strong>{item.pattern}</strong>
+                                            <span>{item.jlpt_level || "-"}</span>
+                                        </div>
+
+                                        <p>{getGrammarMeaning(item)}</p>
+                                    </Link>
+                                ))
+                        )}
+                    </>
                 )}
             </div>
         </div>

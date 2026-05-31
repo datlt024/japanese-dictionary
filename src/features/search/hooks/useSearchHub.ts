@@ -22,10 +22,24 @@ export type SearchKanji = {
     frequency: number | null
 }
 
+export type SearchGrammar = {
+    id: number
+    pattern: string
+    jlpt_level: string | null
+    meaning_vi: string | null
+    meaning_en: string | null
+    structure: string | null
+    explanation_vi: string | null
+    explanation_en: string | null
+    example_jp: string | null
+    example_vi: string | null
+    source: string | null
+}
+
 export type SearchHubResult = {
     vocabularies: SearchVocabulary[]
     kanjis: SearchKanji[]
-    grammars: unknown[]
+    grammars: SearchGrammar[]
     examples: unknown[]
 }
 
@@ -44,44 +58,51 @@ export default function useSearchHub(keyword: string) {
         useState(false)
 
     useEffect(() => {
-        const timer = setTimeout(() => {
-            async function fetchSearchHub() {
-                const normalizedKeyword = keyword.trim()
+        const normalizedKeyword = keyword.trim()
 
-                if (!normalizedKeyword) {
-                    setResult(emptyResult)
+        if (!normalizedKeyword) {
+            setResult(emptyResult)
+            setLoading(false)
+            return
+        }
+
+        const controller = new AbortController()
+
+        const timer = setTimeout(async () => {
+            setLoading(true)
+
+            try {
+                const response = await fetch(
+                    `/api/search?q=${encodeURIComponent(normalizedKeyword)}`,
+                    {
+                        signal: controller.signal,
+                    }
+                )
+
+                const data = await response.json()
+
+                setResult({
+                    vocabularies: data.vocabularies || [],
+                    kanjis: data.kanjis || [],
+                    grammars: data.grammars || [],
+                    examples: data.examples || [],
+                })
+            } catch (error) {
+                if (error instanceof DOMException && error.name === "AbortError") {
                     return
                 }
 
-                setLoading(true)
-
-                try {
-                    const response = await fetch(
-                        `/api/search?q=${encodeURIComponent(
-                            normalizedKeyword
-                        )}`
-                    )
-
-                    const data = await response.json()
-
-                    setResult({
-                        vocabularies: data.vocabularies || [],
-                        kanjis: data.kanjis || [],
-                        grammars: data.grammars || [],
-                        examples: data.examples || [],
-                    })
-                } catch (error) {
-                    console.error(error)
-                    setResult(emptyResult)
-                } finally {
-                    setLoading(false)
-                }
+                console.error(error)
+                setResult(emptyResult)
+            } finally {
+                setLoading(false)
             }
-
-            fetchSearchHub()
         }, 250)
 
-        return () => clearTimeout(timer)
+        return () => {
+            clearTimeout(timer)
+            controller.abort()
+        }
     }, [keyword])
 
     return {

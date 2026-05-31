@@ -105,7 +105,20 @@ export default function TopSearchBar({
 
             return `/search?q=${encodeURIComponent(q)}&tab=vocabulary`
         }
+        if (tab === "grammar") {
+            const response = await fetch(
+                `/api/search?q=${encodeURIComponent(q)}`
+            )
 
+            const data = await response.json()
+            const firstGrammar = data.grammars?.[0]
+
+            if (firstGrammar) {
+                return `/grammar/${firstGrammar.id}?q=${encodeURIComponent(q)}`
+            }
+
+            return `/search?q=${encodeURIComponent(q)}&tab=grammar`
+        }
         return `/search?q=${encodeURIComponent(q)}&tab=${tab}`
     }
 
