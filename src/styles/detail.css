@@ -198,3 +198,99 @@
 .kanji-box:hover {
   background: #e8f1ff;
 }
+.sense-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sense-item {
+    padding: 12px 14px;
+    border-radius: 12px;
+}
+
+.sense-en {
+    margin-top: 4px;
+    color: #64748b;
+    font-size: 14px;
+}
+.conjugation-table {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.conjugation-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.conjugation-row span {
+    color: #64748b;
+}
+
+.conjugation-row strong {
+    color: #0f172a;
+    font-weight: 700;
+}
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.detail-tag {
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: #3730a3;
+    font-size: 14px;
+    font-weight: 600;
+}
+.lookup-result-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lookup-result-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    background: #f8fafc;
+    border: 1px solid transparent;
+}
+
+.lookup-result-item:hover {
+    background: #eef6ff;
+    border-color: #bfdbfe;
+}
+
+.lookup-result-item.active {
+    background: #eff6ff;
+    border-color: #3b82f6;
+}
+
+.lookup-result-item strong {
+    color: #2563eb;
+    font-size: 16px;
+}
+
+.lookup-result-item span {
+    color: #475569;
+    font-size: 13px;
+}
+
+.lookup-result-item small {
+    color: #64748b;
+    font-size: 12px;
+    line-height: 1.4;
+}

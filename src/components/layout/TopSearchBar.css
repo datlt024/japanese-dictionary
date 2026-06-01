@@ -31,3 +31,6 @@
   background: #dbeafe;
   color: #1476e8;
 }
+.search-dropdown-wrapper {
+    position: relative;
+}

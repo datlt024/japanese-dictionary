@@ -7,12 +7,22 @@ import { useParams } from "next/navigation"
 import "@/styles/detail.css"
 
 import AppLayout from "@/components/layout/AppLayout"
+import { conjugateVerb } from "@/utils/verbConjugation"
 
 import {
     getVocabularyById,
     getVocabularyMeaning,
+    getVocabularyPartOfSpeech,
     Vocabulary,
 } from "@/services/vocabulary.service"
+
+type RelatedVocabulary = {
+    id: number
+    word: string
+    kana: string | null
+    meaning: string
+    priority_score: number | null
+}
 
 export default function VocabularyDetailPage() {
     const params = useParams<{ id: string }>()
@@ -20,18 +30,43 @@ export default function VocabularyDetailPage() {
     const [vocabulary, setVocabulary] =
         useState<Vocabulary | null>(null)
 
-    const [loading, setLoading] =
-        useState(true)
+    const [relatedVocabularies, setRelatedVocabularies] =
+        useState<RelatedVocabulary[]>([])
+
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         async function fetchVocabulary() {
             setLoading(true)
+            setRelatedVocabularies([])
 
             const data = await getVocabularyById(
                 Number(params.id)
             )
 
             setVocabulary(data)
+
+            if (data) {
+                try {
+                    const response = await fetch(
+                        `/api/vocabulary/related?q=${encodeURIComponent(
+                            data.word
+                        )}`
+                    )
+
+                    const result = await response.json()
+
+                    setRelatedVocabularies(
+                        result.results || []
+                    )
+                } catch (error) {
+                    console.error(
+                        "Fetch related vocabularies error:",
+                        error
+                    )
+                }
+            }
+
             setLoading(false)
         }
 
@@ -41,6 +76,23 @@ export default function VocabularyDetailPage() {
     const displayMeaning = vocabulary
         ? getVocabularyMeaning(vocabulary)
         : ""
+
+    const conjugations = vocabulary
+        ? conjugateVerb(vocabulary.word, vocabulary.verb_group)
+        : []
+
+    function getVerbGroupLabel(verbGroup: string | null) {
+        switch (verbGroup) {
+            case "group_1":
+                return "Động từ nhóm 1 - 五段動詞"
+            case "group_2":
+                return "Động từ nhóm 2 - 一段動詞"
+            case "group_3":
+                return "Động từ nhóm 3 - 不規則動詞"
+            default:
+                return null
+        }
+    }
 
     return (
         <AppLayout
@@ -91,26 +143,140 @@ export default function VocabularyDetailPage() {
 
                                 <div className="jlpt-row">
                                     <span>JLPT</span>
-                                    <span>Đang cập nhật</span>
+                                    <span>
+                                        {vocabulary.jlpt ||
+                                            "Đang cập nhật"}
+                                    </span>
                                 </div>
                             </div>
 
                             <div className="detail-section">
                                 <h2>Từ này có nghĩa là</h2>
 
-                                <p className="blue-title">
-                                    <strong>{displayMeaning}</strong>
-                                </p>
+                                {vocabulary.senses.length > 0 ? (
+                                    <div className="sense-list">
+                                        {vocabulary.senses.map(
+                                            (sense, index) => (
+                                                <div
+                                                    key={sense.id}
+                                                    className="sense-item"
+                                                >
+                                                    <p className="blue-title">
+                                                        <strong>
+                                                            {index + 1}.{" "}
+                                                            {sense.meaning_vi ||
+                                                                sense.meaning_en ||
+                                                                "Đang cập nhật"}
+                                                        </strong>
+                                                    </p>
+
+                                                    {sense.meaning_en && (
+                                                        <p className="sense-en">
+                                                            {
+                                                                sense.meaning_en
+                                                            }
+                                                        </p>
+                                                    )}
+                                                </div>
+                                            )
+                                        )}
+                                    </div>
+                                ) : (
+                                    <p>Đang cập nhật</p>
+                                )}
                             </div>
 
                             <div className="detail-section">
                                 <h2>Từ loại</h2>
 
                                 <p>
-                                    {vocabulary.part_of_speech ||
-                                        "Đang cập nhật"}
+                                    {getVocabularyPartOfSpeech(
+                                        vocabulary
+                                    ) || "Đang cập nhật"}
                                 </p>
                             </div>
+
+                            {vocabulary.writings.length > 1 && (
+                                <div className="detail-section">
+                                    <h2>Cách viết khác</h2>
+
+                                    <div className="tag-list">
+                                        {vocabulary.writings
+                                            .filter(
+                                                (item) =>
+                                                    item.writing !==
+                                                    vocabulary.word
+                                            )
+                                            .map((item) => (
+                                                <span
+                                                    key={item.id}
+                                                    className="detail-tag"
+                                                >
+                                                    {item.writing}
+                                                </span>
+                                            ))}
+                                    </div>
+                                </div>
+                            )}
+
+                            {vocabulary.readings.length > 1 && (
+                                <div className="detail-section">
+                                    <h2>Cách đọc khác</h2>
+
+                                    <div className="tag-list">
+                                        {vocabulary.readings
+                                            .filter(
+                                                (item) =>
+                                                    item.reading !==
+                                                    vocabulary.kana
+                                            )
+                                            .map((item) => (
+                                                <span
+                                                    key={item.id}
+                                                    className="detail-tag"
+                                                >
+                                                    {item.reading}
+                                                </span>
+                                            ))}
+                                    </div>
+                                </div>
+                            )}
+
+                            {getVerbGroupLabel(
+                                vocabulary.verb_group
+                            ) && (
+                                    <div className="detail-section">
+                                        <h2>Nhóm động từ</h2>
+
+                                        <p>
+                                            {getVerbGroupLabel(
+                                                vocabulary.verb_group
+                                            )}
+                                        </p>
+                                    </div>
+                                )}
+
+                            {conjugations.length > 0 && (
+                                <div className="detail-section">
+                                    <h2>Chia động từ</h2>
+
+                                    <div className="conjugation-table">
+                                        {conjugations.map((item) => (
+                                            <div
+                                                key={item.label}
+                                                className="conjugation-row"
+                                            >
+                                                <span>
+                                                    {item.label}
+                                                </span>
+                                                <strong>
+                                                    {item.form}
+                                                </strong>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
 
                             <div className="detail-section">
                                 <h2>Ví dụ</h2>
@@ -124,25 +290,62 @@ export default function VocabularyDetailPage() {
                         <aside className="detail-sidebar">
                             <div className="detail-side-card">
                                 <h3>
-                                    Kết quả tra cứu {vocabulary.word}
+                                    Kết quả tra cứu{" "}
+                                    {vocabulary.word}
                                 </h3>
 
-                                <div className="related-item">
-                                    <strong>{vocabulary.word}</strong>
-                                    <br />
-                                    {vocabulary.kana || "-"} - {displayMeaning}
+                                <div className="lookup-result-list">
+                                    {relatedVocabularies.length >
+                                        0 ? (
+                                        relatedVocabularies.map(
+                                            (item) => (
+                                                <Link
+                                                    key={item.id}
+                                                    href={`/vocabulary/${item.id}`}
+                                                    className={
+                                                        item.id ===
+                                                            vocabulary.id
+                                                            ? "lookup-result-item active"
+                                                            : "lookup-result-item"
+                                                    }
+                                                >
+                                                    <strong>
+                                                        {item.word}
+                                                    </strong>
+
+                                                    <span>
+                                                        {item.kana ||
+                                                            "-"}
+                                                    </span>
+
+                                                    <small>
+                                                        {item.meaning ||
+                                                            "Đang cập nhật"}
+                                                    </small>
+                                                </Link>
+                                            )
+                                        )
+                                    ) : (
+                                        <p>
+                                            Không có kết quả liên
+                                            quan.
+                                        </p>
+                                    )}
                                 </div>
                             </div>
 
                             <div className="detail-side-card">
                                 <h3>
-                                    Các chữ kanji của {vocabulary.word}
+                                    Các chữ kanji của{" "}
+                                    {vocabulary.word}
                                 </h3>
 
                                 <div className="kanji-list">
                                     {Array.from(vocabulary.word)
                                         .filter((char) =>
-                                            /[\u4e00-\u9faf]/.test(char)
+                                            /[\u4e00-\u9faf]/.test(
+                                                char
+                                            )
                                         )
                                         .map((char) => (
                                             <Link
@@ -156,24 +359,18 @@ export default function VocabularyDetailPage() {
                                 </div>
 
                                 <p>
-                                    Hán tự, âm đọc và nét viết sẽ cập nhật sau.
+                                    Hán tự, âm đọc và nét viết sẽ
+                                    cập nhật sau.
                                 </p>
                             </div>
 
                             <div className="detail-side-card">
                                 <h3>Các từ liên quan</h3>
 
-                                <div className="related-item">
-                                    <strong>{vocabulary.word}に</strong>
-                                    <br />
-                                    liên quan đến {displayMeaning}
-                                </div>
-
-                                <div className="related-item">
-                                    <strong>{vocabulary.word}な</strong>
-                                    <br />
-                                    dạng bổ nghĩa
-                                </div>
+                                <p>
+                                    Đồng nghĩa, trái nghĩa và từ dễ
+                                    nhầm sẽ được cập nhật sau.
+                                </p>
                             </div>
                         </aside>
                     </div>

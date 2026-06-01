@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 export type SearchVocabulary = {
     id: number
     word: string
-    kana: string | null
+    kana: string | string[] | null
     meaning_en: string | null
     meaning_vi: string | null
     part_of_speech: string | null

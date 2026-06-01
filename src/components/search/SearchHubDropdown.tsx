@@ -24,6 +24,16 @@ function getVocabularyMeaning(item: SearchVocabulary) {
     return item.meaning_vi || item.meaning_en || ""
 }
 
+function getVocabularyKana(item: SearchVocabulary) {
+    if (Array.isArray(item.kana)) {
+        return item.kana.length > 0
+            ? item.kana.join(" ")
+            : "-"
+    }
+
+    return item.kana || "-"
+}
+
 function getGrammarMeaning(item: SearchGrammar) {
     return item.meaning_vi || item.meaning_en || ""
 }
@@ -36,21 +46,45 @@ function sortVocabularies(
 
     const getScore = (item: SearchVocabulary) => {
         const word = item.word.toLowerCase()
-        const kana = (item.kana || "").toLowerCase()
+
+        const kana = Array.isArray(item.kana)
+            ? item.kana.join(" ").toLowerCase()
+            : (item.kana || "").toLowerCase()
+
         const meaning = getVocabularyMeaning(item).toLowerCase()
 
-        if (word === searchText && item.word.length === 1) return 0
+        if (word === searchText && item.word.length === 1)
+            return 0
+
         if (word === searchText) return 1
         if (kana === searchText) return 2
 
-        if (item.is_common && word.startsWith(searchText)) return 3
-        if (item.is_common && kana.startsWith(searchText)) return 4
+        if (
+            item.is_common &&
+            word.startsWith(searchText)
+        )
+            return 3
+
+        if (
+            item.is_common &&
+            kana.startsWith(searchText)
+        )
+            return 4
 
         if (word.startsWith(searchText)) return 5
         if (kana.startsWith(searchText)) return 6
 
-        if (item.is_common && word.includes(searchText)) return 7
-        if (item.is_common && kana.includes(searchText)) return 8
+        if (
+            item.is_common &&
+            word.includes(searchText)
+        )
+            return 7
+
+        if (
+            item.is_common &&
+            kana.includes(searchText)
+        )
+            return 8
 
         if (word.includes(searchText)) return 9
         if (kana.includes(searchText)) return 10
@@ -59,7 +93,9 @@ function sortVocabularies(
         return 99
     }
 
-    return [...items].sort((a, b) => getScore(a) - getScore(b))
+    return [...items].sort(
+        (a, b) => getScore(a) - getScore(b)
+    )
 }
 
 function sortGrammars(
@@ -70,23 +106,35 @@ function sortGrammars(
 
     const getScore = (item: SearchGrammar) => {
         const pattern = item.pattern.toLowerCase()
-        const meaning = getGrammarMeaning(item).toLowerCase()
-        const structure = (item.structure || "").toLowerCase()
+
+        const meaning = getGrammarMeaning(
+            item
+        ).toLowerCase()
+
+        const structure = (
+            item.structure || ""
+        ).toLowerCase()
 
         if (pattern === searchText) return 0
+
         if (pattern.includes(searchText)) return 1
+
         if (structure.includes(searchText)) return 2
+
         if (meaning.includes(searchText)) return 3
 
         return 99
     }
 
-    return [...items].sort((a, b) => getScore(a) - getScore(b))
+    return [...items].sort(
+        (a, b) => getScore(a) - getScore(b)
+    )
 }
 
 function extractKanjis(text: string) {
-    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g))
-        .map((match) => match[0])
+    return Array.from(
+        text.matchAll(/[\u4e00-\u9faf]/g)
+    ).map((match) => match[0])
 }
 
 function uniqueArray(items: string[]) {
@@ -120,21 +168,21 @@ export default function SearchHubDropdown({
 
     return (
         <div className="search-hub-dropdown">
-            {loading && (
-                <div className="search-hub-loading">
-                    Đang tìm kiếm...
-                </div>
-            )}
+
 
             <div className="search-hub-content">
                 {activeTab === "vocabulary" && (
                     <>
-                        {result.vocabularies.length === 0 && !loading ? (
+                        {result.vocabularies.length === 0 &&
+                            !loading ? (
                             <p className="search-hub-empty">
                                 Không tìm thấy từ vựng.
                             </p>
                         ) : (
-                            sortVocabularies(result.vocabularies, cleanKeyword)
+                            sortVocabularies(
+                                result.vocabularies,
+                                cleanKeyword
+                            )
                                 .slice(0, 10)
                                 .map((item) => (
                                     <Link
@@ -143,11 +191,22 @@ export default function SearchHubDropdown({
                                         className="search-hub-item"
                                     >
                                         <div>
-                                            <strong>{item.word}</strong>
-                                            <span>{item.kana || "-"}</span>
+                                            <strong>
+                                                {item.word}
+                                            </strong>
+
+                                            <span>
+                                                {getVocabularyKana(
+                                                    item
+                                                )}
+                                            </span>
                                         </div>
 
-                                        <p>{getVocabularyMeaning(item)}</p>
+                                        <p>
+                                            {getVocabularyMeaning(
+                                                item
+                                            )}
+                                        </p>
                                     </Link>
                                 ))
                         )}
@@ -162,49 +221,69 @@ export default function SearchHubDropdown({
                                     key={item}
                                     href={`/kanji/${encodeURIComponent(
                                         item
-                                    )}?q=${encodeURIComponent(cleanKeyword)}`}
+                                    )}?q=${encodeURIComponent(
+                                        cleanKeyword
+                                    )}`}
                                     className="search-hub-kanji"
                                 >
                                     <strong>{item}</strong>
                                 </Link>
                             ))
-                        ) : result.kanjis.length === 0 && !loading ? (
+                        ) : result.kanjis.length === 0 &&
+                            !loading ? (
                             <p className="search-hub-empty">
                                 Không tìm thấy Hán tự.
                             </p>
                         ) : (
-                            result.kanjis.map((item: SearchKanji) => (
-                                <Link
-                                    key={item.id}
-                                    href={`/kanji/${encodeURIComponent(
-                                        item.kanji
-                                    )}?q=${encodeURIComponent(cleanKeyword)}`}
-                                    className="search-hub-kanji"
-                                >
-                                    <strong>{item.kanji}</strong>
+                            result.kanjis.map(
+                                (item: SearchKanji) => (
+                                    <Link
+                                        key={item.id}
+                                        href={`/kanji/${encodeURIComponent(
+                                            item.kanji
+                                        )}?q=${encodeURIComponent(
+                                            cleanKeyword
+                                        )}`}
+                                        className="search-hub-kanji"
+                                    >
+                                        <strong>
+                                            {item.kanji}
+                                        </strong>
 
-                                    <div>
-                                        <p>{item.meaning || "-"}</p>
+                                        <div>
+                                            <p>
+                                                {item.meaning ||
+                                                    "-"}
+                                            </p>
 
-                                        <span>
-                                            On: {item.onyomi || "-"} / Kun:{" "}
-                                            {item.kunyomi || "-"}
-                                        </span>
-                                    </div>
-                                </Link>
-                            ))
+                                            <span>
+                                                On:{" "}
+                                                {item.onyomi ||
+                                                    "-"}{" "}
+                                                / Kun:{" "}
+                                                {item.kunyomi ||
+                                                    "-"}
+                                            </span>
+                                        </div>
+                                    </Link>
+                                )
+                            )
                         )}
                     </>
                 )}
 
                 {activeTab === "grammar" && (
                     <>
-                        {result.grammars.length === 0 && !loading ? (
+                        {result.grammars.length === 0 &&
+                            !loading ? (
                             <p className="search-hub-empty">
                                 Không tìm thấy ngữ pháp.
                             </p>
                         ) : (
-                            sortGrammars(result.grammars, cleanKeyword)
+                            sortGrammars(
+                                result.grammars,
+                                cleanKeyword
+                            )
                                 .slice(0, 10)
                                 .map((item) => (
                                     <Link
@@ -215,11 +294,21 @@ export default function SearchHubDropdown({
                                         className="search-hub-item"
                                     >
                                         <div>
-                                            <strong>{item.pattern}</strong>
-                                            <span>{item.jlpt_level || "-"}</span>
+                                            <strong>
+                                                {item.pattern}
+                                            </strong>
+
+                                            <span>
+                                                {item.jlpt_level ||
+                                                    "-"}
+                                            </span>
                                         </div>
 
-                                        <p>{getGrammarMeaning(item)}</p>
+                                        <p>
+                                            {getGrammarMeaning(
+                                                item
+                                            )}
+                                        </p>
                                     </Link>
                                 ))
                         )}

@@ -156,10 +156,21 @@ export default function TopSearchBar({
         <div className="top-search" ref={wrapperRef}>
             <div className="top-search-inner">
                 <form onSubmit={handleSubmit}>
-                    <SearchBar
-                        value={keyword}
-                        onChange={handleChange}
-                    />
+                    <div className="search-dropdown-wrapper">
+                        <SearchBar
+                            value={keyword}
+                            onChange={handleChange}
+                        />
+
+                        {isDropdownOpen && keyword.trim() && (
+                            <SearchHubDropdown
+                                result={result}
+                                keyword={keyword}
+                                loading={loading}
+                                activeTab={activeTab}
+                            />
+                        )}
+                    </div>
 
                     <div className="top-search-tabs">
                         <button
@@ -203,17 +214,6 @@ export default function TopSearchBar({
                         </button>
                     </div>
                 </form>
-
-                {isDropdownOpen && keyword.trim() && (
-                    <div onClick={closeDropdown}>
-                        <SearchHubDropdown
-                            result={result}
-                            keyword={keyword}
-                            loading={loading}
-                            activeTab={activeTab}
-                        />
-                    </div>
-                )}
             </div>
         </div>
     )
