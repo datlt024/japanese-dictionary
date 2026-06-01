@@ -29,8 +29,9 @@ type TopSearchBarProps = {
 }
 
 function extractKanjis(text: string) {
-    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g))
-        .map((match) => match[0])
+    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g)).map(
+        (match) => match[0]
+    )
 }
 
 export default function TopSearchBar({
@@ -46,7 +47,7 @@ export default function TopSearchBar({
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
     const { addHistory } = useSearchHistory()
-    const { result, loading } = useSearchHub(keyword)
+    const { result, loading } = useSearchHub(keyword, activeTab)
 
     useEffect(() => {
         setKeyword(searchKeyword)
@@ -61,7 +62,9 @@ export default function TopSearchBar({
         function handleClickOutside(event: MouseEvent) {
             if (
                 wrapperRef.current &&
-                !wrapperRef.current.contains(event.target as Node)
+                !wrapperRef.current.contains(
+                    event.target as Node
+                )
             ) {
                 setIsDropdownOpen(false)
             }
@@ -70,12 +73,23 @@ export default function TopSearchBar({
         document.addEventListener("mousedown", handleClickOutside)
 
         return () => {
-            document.removeEventListener("mousedown", handleClickOutside)
+            document.removeEventListener(
+                "mousedown",
+                handleClickOutside
+            )
         }
     }, [])
 
     function closeDropdown() {
         setIsDropdownOpen(false)
+    }
+
+    async function fetchSearchResult(q: string, tab: SearchTab) {
+        const response = await fetch(
+            `/api/search?q=${encodeURIComponent(q)}&tab=${tab}`
+        )
+
+        return response.json()
     }
 
     async function getTargetUrl(tab: SearchTab, q: string) {
@@ -85,40 +99,40 @@ export default function TopSearchBar({
             const kanjis = extractKanjis(q)
 
             if (kanjis.length > 0) {
-                return `/kanji/${kanjis[0]}?q=${encodeURIComponent(q)}`
+                return `/kanji/${kanjis[0]}?q=${encodeURIComponent(
+                    q
+                )}`
             }
 
             return `/search?q=${encodeURIComponent(q)}&tab=kanji`
         }
 
         if (tab === "vocabulary") {
-            const response = await fetch(
-                `/api/search?q=${encodeURIComponent(q)}`
-            )
-
-            const data = await response.json()
+            const data = await fetchSearchResult(q, tab)
             const firstVocabulary = data.vocabularies?.[0]
 
             if (firstVocabulary) {
                 return `/vocabulary/${firstVocabulary.id}`
             }
 
-            return `/search?q=${encodeURIComponent(q)}&tab=vocabulary`
+            return `/search?q=${encodeURIComponent(
+                q
+            )}&tab=vocabulary`
         }
-        if (tab === "grammar") {
-            const response = await fetch(
-                `/api/search?q=${encodeURIComponent(q)}`
-            )
 
-            const data = await response.json()
+        if (tab === "grammar") {
+            const data = await fetchSearchResult(q, tab)
             const firstGrammar = data.grammars?.[0]
 
             if (firstGrammar) {
-                return `/grammar/${firstGrammar.id}?q=${encodeURIComponent(q)}`
+                return `/grammar/${firstGrammar.id}?q=${encodeURIComponent(
+                    q
+                )}`
             }
 
             return `/search?q=${encodeURIComponent(q)}&tab=grammar`
         }
+
         return `/search?q=${encodeURIComponent(q)}&tab=${tab}`
     }
 
@@ -175,15 +189,23 @@ export default function TopSearchBar({
                     <div className="top-search-tabs">
                         <button
                             type="button"
-                            className={activeTab === "vocabulary" ? "active" : ""}
-                            onClick={() => handleTabClick("vocabulary")}
+                            className={
+                                activeTab === "vocabulary"
+                                    ? "active"
+                                    : ""
+                            }
+                            onClick={() =>
+                                handleTabClick("vocabulary")
+                            }
                         >
                             Từ vựng
                         </button>
 
                         <button
                             type="button"
-                            className={activeTab === "kanji" ? "active" : ""}
+                            className={
+                                activeTab === "kanji" ? "active" : ""
+                            }
                             onClick={() => handleTabClick("kanji")}
                         >
                             Hán tự
@@ -191,7 +213,11 @@ export default function TopSearchBar({
 
                         <button
                             type="button"
-                            className={activeTab === "example" ? "active" : ""}
+                            className={
+                                activeTab === "example"
+                                    ? "active"
+                                    : ""
+                            }
                             onClick={() => handleTabClick("example")}
                         >
                             Mẫu câu
@@ -199,15 +225,23 @@ export default function TopSearchBar({
 
                         <button
                             type="button"
-                            className={activeTab === "grammar" ? "active" : ""}
-                            onClick={() => handleTabClick("grammar")}
+                            className={
+                                activeTab === "grammar"
+                                    ? "active"
+                                    : ""
+                            }
+                            onClick={() =>
+                                handleTabClick("grammar")
+                            }
                         >
                             Ngữ pháp
                         </button>
 
                         <button
                             type="button"
-                            className={activeTab === "jpjp" ? "active" : ""}
+                            className={
+                                activeTab === "jpjp" ? "active" : ""
+                            }
                             onClick={() => handleTabClick("jpjp")}
                         >
                             Nhật - Nhật

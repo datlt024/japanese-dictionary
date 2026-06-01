@@ -1,12 +1,20 @@
 import { useEffect, useState } from "react"
 
+export type SearchTab =
+    | "vocabulary"
+    | "kanji"
+    | "grammar"
+    | "example"
+    | "jpjp"
+
 export type SearchVocabulary = {
     id: number
     word: string
     kana: string | string[] | null
-    meaning_en: string | null
-    meaning_vi: string | null
-    part_of_speech: string | null
+    meaning: string | null
+    meaning_en?: string | null
+    meaning_vi?: string | null
+    part_of_speech?: string | null
     is_common: boolean | null
 }
 
@@ -50,15 +58,28 @@ const emptyResult: SearchHubResult = {
     examples: [],
 }
 
-export default function useSearchHub(keyword: string) {
+export default function useSearchHub(
+    keyword: string,
+    activeTab: SearchTab
+) {
     const [result, setResult] =
         useState<SearchHubResult>(emptyResult)
 
-    const [loading, setLoading] =
-        useState(false)
+    const [loading, setLoading] = useState(false)
+
+    const [debouncedKeyword, setDebouncedKeyword] =
+        useState(keyword)
 
     useEffect(() => {
-        const normalizedKeyword = keyword.trim()
+        const timer = setTimeout(() => {
+            setDebouncedKeyword(keyword)
+        }, 300)
+
+        return () => clearTimeout(timer)
+    }, [keyword])
+
+    useEffect(() => {
+        const normalizedKeyword = debouncedKeyword.trim()
 
         if (!normalizedKeyword) {
             setResult(emptyResult)
@@ -68,12 +89,14 @@ export default function useSearchHub(keyword: string) {
 
         const controller = new AbortController()
 
-        const timer = setTimeout(async () => {
+        async function fetchSearchResult() {
             setLoading(true)
 
             try {
                 const response = await fetch(
-                    `/api/search?q=${encodeURIComponent(normalizedKeyword)}`,
+                    `/api/search?q=${encodeURIComponent(
+                        normalizedKeyword
+                    )}&tab=${activeTab}`,
                     {
                         signal: controller.signal,
                     }
@@ -88,7 +111,10 @@ export default function useSearchHub(keyword: string) {
                     examples: data.examples || [],
                 })
             } catch (error) {
-                if (error instanceof DOMException && error.name === "AbortError") {
+                if (
+                    error instanceof DOMException &&
+                    error.name === "AbortError"
+                ) {
                     return
                 }
 
@@ -97,13 +123,14 @@ export default function useSearchHub(keyword: string) {
             } finally {
                 setLoading(false)
             }
-        }, 250)
+        }
+
+        fetchSearchResult()
 
         return () => {
-            clearTimeout(timer)
             controller.abort()
         }
-    }, [keyword])
+    }, [debouncedKeyword, activeTab])
 
     return {
         result,

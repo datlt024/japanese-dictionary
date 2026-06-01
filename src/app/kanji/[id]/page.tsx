@@ -17,12 +17,17 @@ import {
 } from "@/features/kanji/services/kanji.service"
 
 function extractKanjis(text: string) {
-    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g))
-        .map((match) => match[0])
+    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g)).map(
+        (match) => match[0]
+    )
 }
 
 function uniqueArray(items: string[]) {
     return Array.from(new Set(items))
+}
+
+function getKanjiMeaning(kanji: Kanji) {
+    return kanji.meaning_vi || kanji.meaning_en || "-"
 }
 
 export default function KanjiDetailPage() {
@@ -118,7 +123,7 @@ export default function KanjiDetailPage() {
                                     </h1>
 
                                     <p className="kanji-main-meaning">
-                                        {kanji.meaning}
+                                        {getKanjiMeaning(kanji)}
                                     </p>
                                 </div>
 
@@ -172,14 +177,28 @@ export default function KanjiDetailPage() {
 
                             <section className="kanji-section">
                                 <h2>Nghĩa</h2>
+
                                 <ul>
-                                    <li>{kanji.meaning || "-"}</li>
+                                    {kanji.meaning_vi && (
+                                        <li>{kanji.meaning_vi}</li>
+                                    )}
+
+                                    {kanji.meaning_en && (
+                                        <li>{kanji.meaning_en}</li>
+                                    )}
+
+                                    {!kanji.meaning_vi &&
+                                        !kanji.meaning_en && (
+                                            <li>-</li>
+                                        )}
                                 </ul>
                             </section>
 
                             <section className="kanji-section">
                                 <h2>Mẹo</h2>
-                                <p>Phần mẹo ghi nhớ Hán tự sẽ được bổ sung sau.</p>
+                                <p>
+                                    Phần mẹo ghi nhớ Hán tự sẽ được bổ sung sau.
+                                </p>
                             </section>
 
                             <section className="kanji-section">
@@ -204,7 +223,9 @@ export default function KanjiDetailPage() {
                                                             <tr key={word.id}>
                                                                 <td>{word.word}</td>
                                                                 <td>{word.kana || "-"}</td>
-                                                                <td>{getRelatedWordMeaning(word)}</td>
+                                                                <td>
+                                                                    {getRelatedWordMeaning(word)}
+                                                                </td>
                                                             </tr>
                                                         ))}
                                                     </tbody>
@@ -233,7 +254,9 @@ export default function KanjiDetailPage() {
                                                             <tr key={word.id}>
                                                                 <td>{word.word}</td>
                                                                 <td>{word.kana || "-"}</td>
-                                                                <td>{getRelatedWordMeaning(word)}</td>
+                                                                <td>
+                                                                    {getRelatedWordMeaning(word)}
+                                                                </td>
                                                             </tr>
                                                         ))}
                                                     </tbody>

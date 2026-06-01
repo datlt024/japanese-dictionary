@@ -64,7 +64,8 @@ function groupByWord(items: VocabularyResult[]) {
         )
 
         existing.is_common =
-            Boolean(existing.is_common) || Boolean(item.is_common)
+            Boolean(existing.is_common) ||
+            Boolean(item.is_common)
 
         if (!existing.meaning && item.meaning) {
             existing.meaning = item.meaning
@@ -74,7 +75,9 @@ function groupByWord(items: VocabularyResult[]) {
     return Array.from(map.values())
 }
 
-function getFirstSenseMap(senses: SenseRow[]) {
+function getFirstSenseMap(
+    senses: SenseRow[]
+) {
     const map = new Map<number, SenseRow>()
 
     for (const sense of senses) {
@@ -86,9 +89,17 @@ function getFirstSenseMap(senses: SenseRow[]) {
     return map
 }
 
-export async function GET(request: NextRequest) {
+export async function GET(
+    request: NextRequest
+) {
     const keyword =
-        request.nextUrl.searchParams.get("q")?.trim() || ""
+        request.nextUrl.searchParams
+            .get("q")
+            ?.trim() || ""
+
+    const tab =
+        request.nextUrl.searchParams
+            .get("tab") || "all"
 
     if (!keyword) {
         return NextResponse.json({
@@ -99,207 +110,262 @@ export async function GET(request: NextRequest) {
         })
     }
 
-    const [
-        exactWordResult,
-        exactKanaResult,
-        containsResult,
-        kanjiResult,
-        grammarPatternResult,
-        grammarReadingResult,
-        grammarMeaningResult,
-    ] = await Promise.all([
-        supabase
-            .from("vocabulary_search_index")
-            .select("vocabulary_id, priority_score")
-            .eq("word_text", keyword)
-            .order("priority_score", { ascending: false })
-            .limit(10),
-
-        supabase
-            .from("vocabulary_search_index")
-            .select("vocabulary_id, priority_score")
-            .eq("kana_text", keyword)
-            .order("priority_score", { ascending: false })
-            .limit(10),
-
-        supabase
-            .from("vocabulary_search_index")
-            .select("vocabulary_id, priority_score")
-            .ilike("search_text", `%${keyword}%`)
-            .order("priority_score", { ascending: false })
-            .limit(50),
-
-        supabase
-            .from("kanjis")
-            .select("*")
-            .eq("kanji", keyword)
-            .maybeSingle(),
-
-        supabase
-            .from("grammars")
-            .select(GRAMMAR_COLUMNS)
-            .ilike("pattern", `%${keyword}%`)
-            .limit(20),
-
-        supabase
-            .from("grammars")
-            .select(GRAMMAR_COLUMNS)
-            .ilike("reading", `%${keyword}%`)
-            .limit(20),
-
-        supabase
-            .from("grammars")
-            .select(GRAMMAR_COLUMNS)
-            .or(
-                [
-                    `meaning_vi.ilike.%${keyword}%`,
-                    `meaning_en.ilike.%${keyword}%`,
-                    `short_meaning_vi.ilike.%${keyword}%`,
-                    `explanation_vi.ilike.%${keyword}%`,
-                    `explanation_en.ilike.%${keyword}%`,
-                ].join(",")
-            )
-            .limit(20),
-    ])
-
-    const error =
-        exactWordResult.error ||
-        exactKanaResult.error ||
-        containsResult.error ||
-        kanjiResult.error ||
-        grammarPatternResult.error ||
-        grammarReadingResult.error ||
-        grammarMeaningResult.error
-
-    if (error) {
-        console.error("Search API error:", error)
-
-        return NextResponse.json(
-            { error: error.message },
-            { status: 500 }
-        )
-    }
-
-    const searchRows = [
-        ...((exactWordResult.data || []) as SearchIndexRow[]),
-        ...((exactKanaResult.data || []) as SearchIndexRow[]),
-        ...((containsResult.data || []) as SearchIndexRow[]),
-    ]
-
-    const uniqueSearchRows = searchRows.filter(
-        (item, index, self) =>
-            index ===
-            self.findIndex(
-                (v) => v.vocabulary_id === item.vocabulary_id
-            )
-    )
-
-    const vocabularyIds = uniqueSearchRows.map(
-        (item) => item.vocabulary_id
-    )
-
     let vocabularies: VocabularyResult[] = []
+    let grammars: any[] = []
+    let kanjis: any[] = []
 
-    if (vocabularyIds.length > 0) {
-        const [vocabularyResult, sensesResult] =
-            await Promise.all([
+    if (
+        tab === "vocabulary" ||
+        tab === "all"
+    ) {
+        const [
+            exactWordResult,
+            exactKanaResult,
+            containsResult,
+        ] = await Promise.all([
+            supabase
+                .from(
+                    "vocabulary_search_index"
+                )
+                .select(
+                    "vocabulary_id, priority_score"
+                )
+                .eq("word_text", keyword)
+                .order("priority_score", {
+                    ascending: false,
+                })
+                .limit(10),
+
+            supabase
+                .from(
+                    "vocabulary_search_index"
+                )
+                .select(
+                    "vocabulary_id, priority_score"
+                )
+                .eq("kana_text", keyword)
+                .order("priority_score", {
+                    ascending: false,
+                })
+                .limit(10),
+
+            supabase
+                .from("vocabulary_search_index")
+                .select("vocabulary_id, priority_score")
+                .or(`word_text.ilike.${keyword}%,kana_text.ilike.${keyword}%`)
+                .order("priority_score", { ascending: false })
+                .limit(20)
+        ])
+
+        const searchRows = [
+            ...((exactWordResult.data ||
+                []) as SearchIndexRow[]),
+            ...((exactKanaResult.data ||
+                []) as SearchIndexRow[]),
+            ...((containsResult.data ||
+                []) as SearchIndexRow[]),
+        ]
+
+        const uniqueSearchRows =
+            searchRows.filter(
+                (item, index, self) =>
+                    index ===
+                    self.findIndex(
+                        (v) =>
+                            v.vocabulary_id ===
+                            item.vocabulary_id
+                    )
+            )
+
+        const vocabularyIds =
+            uniqueSearchRows.map(
+                (item) =>
+                    item.vocabulary_id
+            )
+
+        if (vocabularyIds.length > 0) {
+            const [
+                vocabularyResult,
+                sensesResult,
+            ] = await Promise.all([
                 supabase
                     .from("vocabularies")
                     .select(
                         "id, primary_word, primary_kana, jlpt, verb_group, is_common"
                     )
-                    .in("id", vocabularyIds),
+                    .in(
+                        "id",
+                        vocabularyIds
+                    ),
 
                 supabase
-                    .from("vocabulary_senses")
+                    .from(
+                        "vocabulary_senses"
+                    )
                     .select(
                         "vocabulary_id, meaning_vi, meaning_en"
                     )
-                    .in("vocabulary_id", vocabularyIds)
-                    .order("sense_index", { ascending: true }),
+                    .in(
+                        "vocabulary_id",
+                        vocabularyIds
+                    )
+                    .order(
+                        "sense_index",
+                        {
+                            ascending: true,
+                        }
+                    ),
             ])
 
-        if (vocabularyResult.error) {
-            console.error(
-                "Vocabulary fetch error:",
-                vocabularyResult.error
-            )
+            const vocabularyRows =
+                (vocabularyResult.data ||
+                    []) as VocabularyRow[]
 
-            return NextResponse.json(
-                { error: vocabularyResult.error.message },
-                { status: 500 }
-            )
-        }
-
-        if (sensesResult.error) {
-            console.error(
-                "Vocabulary senses fetch error:",
-                sensesResult.error
-            )
-
-            return NextResponse.json(
-                { error: sensesResult.error.message },
-                { status: 500 }
-            )
-        }
-
-        const vocabularyRows =
-            (vocabularyResult.data || []) as VocabularyRow[]
-
-        const senseMap = getFirstSenseMap(
-            (sensesResult.data || []) as SenseRow[]
-        )
-
-        const mappedVocabularies = uniqueSearchRows
-            .map((searchRow) => {
-                const vocabulary = vocabularyRows.find(
-                    (item) =>
-                        item.id === searchRow.vocabulary_id
+            const senseMap =
+                getFirstSenseMap(
+                    (sensesResult.data ||
+                        []) as SenseRow[]
                 )
 
-                if (!vocabulary) return null
+            const mappedVocabularies =
+                uniqueSearchRows
+                    .map(
+                        (
+                            searchRow
+                        ) => {
+                            const vocabulary =
+                                vocabularyRows.find(
+                                    (
+                                        item
+                                    ) =>
+                                        item.id ===
+                                        searchRow.vocabulary_id
+                                )
 
-                const sense = senseMap.get(vocabulary.id)
+                            if (
+                                !vocabulary
+                            )
+                                return null
 
-                return {
-                    id: vocabulary.id,
-                    word: vocabulary.primary_word,
-                    kana: vocabulary.primary_kana
-                        ? [vocabulary.primary_kana]
-                        : [],
-                    meaning:
-                        sense?.meaning_vi ||
-                        sense?.meaning_en ||
-                        "",
-                    jlpt: vocabulary.jlpt,
-                    verb_group: vocabulary.verb_group,
-                    is_common: vocabulary.is_common,
-                    priority_score: searchRow.priority_score,
-                }
-            })
-            .filter((item): item is VocabularyResult => item !== null)
+                            const sense =
+                                senseMap.get(
+                                    vocabulary.id
+                                )
 
-        vocabularies = groupByWord(mappedVocabularies)
+                            return {
+                                id: vocabulary.id,
+                                word: vocabulary.primary_word,
+                                kana:
+                                    vocabulary.primary_kana
+                                        ? [
+                                            vocabulary.primary_kana,
+                                        ]
+                                        : [],
+                                meaning:
+                                    sense?.meaning_vi ||
+                                    sense?.meaning_en ||
+                                    "",
+                                jlpt:
+                                    vocabulary.jlpt,
+                                verb_group:
+                                    vocabulary.verb_group,
+                                is_common:
+                                    vocabulary.is_common,
+                                priority_score:
+                                    searchRow.priority_score,
+                            }
+                        }
+                    )
+                    .filter(
+                        (
+                            item
+                        ): item is VocabularyResult =>
+                            item !== null
+                    )
+
+            vocabularies =
+                groupByWord(
+                    mappedVocabularies
+                )
+        }
     }
 
-    const grammars = uniqueById([
-        ...(grammarPatternResult.data || []),
-        ...(grammarReadingResult.data || []),
-        ...(grammarMeaningResult.data || []),
-    ])
+    if (
+        tab === "kanji" ||
+        tab === "all"
+    ) {
+        const { data } =
+            await supabase
+                .from("kanjis")
+                .select("*")
+                .eq("kanji", keyword)
+                .maybeSingle()
 
-    return new NextResponse(
-        JSON.stringify({
-            vocabularies,
-            kanjis: kanjiResult.data ? [kanjiResult.data] : [],
-            grammars,
-            examples: [],
-        }),
-        {
-            status: 200,
-            headers: {
-                "Content-Type": "application/json; charset=utf-8",
-            },
-        }
-    )
+        kanjis = data ? [data] : []
+    }
+
+    if (
+        tab === "grammar" ||
+        tab === "all"
+    ) {
+        const [
+            grammarPatternResult,
+            grammarReadingResult,
+            grammarMeaningResult,
+        ] = await Promise.all([
+            supabase
+                .from("grammars")
+                .select(
+                    GRAMMAR_COLUMNS
+                )
+                .ilike(
+                    "pattern",
+                    `%${keyword}%`
+                )
+                .limit(20),
+
+            supabase
+                .from("grammars")
+                .select(
+                    GRAMMAR_COLUMNS
+                )
+                .ilike(
+                    "reading",
+                    `%${keyword}%`
+                )
+                .limit(20),
+
+            supabase
+                .from("grammars")
+                .select(
+                    GRAMMAR_COLUMNS
+                )
+                .or(
+                    [
+                        `meaning_vi.ilike.%${keyword}%`,
+                        `meaning_en.ilike.%${keyword}%`,
+                        `short_meaning_vi.ilike.%${keyword}%`,
+                        `explanation_vi.ilike.%${keyword}%`,
+                        `explanation_en.ilike.%${keyword}%`,
+                    ].join(",")
+                )
+                .limit(20),
+        ])
+
+        grammars = uniqueById([
+            ...(grammarPatternResult.data ||
+                []),
+            ...(grammarReadingResult.data ||
+                []),
+            ...(grammarMeaningResult.data ||
+                []),
+        ])
+    }
+
+    return NextResponse.json({
+        vocabularies,
+        kanjis,
+        grammars,
+        examples: [],
+    })
 }

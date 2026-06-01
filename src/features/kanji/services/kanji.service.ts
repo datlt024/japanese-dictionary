@@ -21,6 +21,11 @@ type VocabularySenseRow = {
     meaning_vi: string | null
 }
 
+type KanjiVocabularyLinkRow = {
+    vocabulary_id: number
+    priority: number
+}
+
 export type KanjiReadingGroup = {
     reading: string
     words: KanjiRelatedWord[]
@@ -88,6 +93,78 @@ async function attachMeanings(
     })
 }
 
+async function getVocabularyIdsByKanji(
+    character: string,
+    limit = 20
+) {
+    const { data: kanji, error: kanjiError } = await supabase
+        .from("kanjis")
+        .select("id")
+        .eq("kanji", character)
+        .maybeSingle()
+
+    if (kanjiError) {
+        console.error(kanjiError)
+        return []
+    }
+
+    if (!kanji) {
+        return []
+    }
+
+    const { data, error } = await supabase
+        .from("kanji_vocabulary_links")
+        .select("vocabulary_id, priority")
+        .eq("kanji_id", kanji.id)
+        .order("priority", { ascending: false })
+        .limit(limit)
+
+    if (error) {
+        console.error(error)
+        return []
+    }
+
+    return (data || []) as KanjiVocabularyLinkRow[]
+}
+
+async function getVocabulariesByIds(
+    vocabularyIds: number[]
+) {
+    if (vocabularyIds.length === 0) {
+        return []
+    }
+
+    const { data, error } = await supabase
+        .from("vocabularies")
+        .select("id, primary_word, primary_kana")
+        .in("id", vocabularyIds)
+
+    if (error) {
+        console.error(error)
+        return []
+    }
+
+    return (data || []) as VocabularyRow[]
+}
+
+function sortWordsByLinkOrder(
+    words: KanjiRelatedWord[],
+    links: KanjiVocabularyLinkRow[]
+) {
+    const orderMap = new Map(
+        links.map((item, index) => [
+            item.vocabulary_id,
+            index,
+        ])
+    )
+
+    return words.sort(
+        (a, b) =>
+            (orderMap.get(a.id) ?? 9999) -
+            (orderMap.get(b.id) ?? 9999)
+    )
+}
+
 export async function getKanjiByCharacter(
     character: string
 ): Promise<Kanji | null> {
@@ -117,18 +194,21 @@ export async function getKanjiByCharacter(
 export async function getWordsByKanji(
     character: string
 ): Promise<KanjiRelatedWord[]> {
-    const { data, error } = await supabase
-        .from("vocabularies")
-        .select("id, primary_word, primary_kana")
-        .ilike("primary_word", `%${character}%`)
-        .limit(20)
+    const links = await getVocabularyIdsByKanji(
+        character,
+        20
+    )
 
-    if (error) {
-        console.error(error)
-        return []
-    }
+    const vocabularyIds = links.map(
+        (item) => item.vocabulary_id
+    )
 
-    return attachMeanings((data || []) as VocabularyRow[])
+    const vocabularyRows =
+        await getVocabulariesByIds(vocabularyIds)
+
+    const words = await attachMeanings(vocabularyRows)
+
+    return sortWordsByLinkOrder(words, links)
 }
 
 export function getRelatedWordMeaning(
@@ -160,9 +240,7 @@ export async function getWordsByReadingGroups(
     character: string,
     readingsText: string | null
 ): Promise<KanjiReadingGroup[]> {
-    if (!readingsText) {
-        return []
-    }
+    if (!readingsText) return []
 
     const cacheKey = `reading:${character}:${readingsText}`
 
@@ -174,8 +252,7 @@ export async function getWordsByReadingGroups(
         .split(";")
         .map((item) => {
             const displayReading = item.trim()
-            const searchReading =
-                cleanReading(displayReading)
+            const searchReading = cleanReading(displayReading)
 
             return {
                 displayReading,
@@ -187,7 +264,7 @@ export async function getWordsByReadingGroups(
                 item.displayReading &&
                 item.searchReading
         )
-        .slice(0, 3)
+        .slice(0, 5)
 
     const groups: KanjiReadingGroup[] = []
 
@@ -208,10 +285,12 @@ export async function getWordsByReadingGroups(
             (data || []) as VocabularyRow[]
         )
 
-        groups.push({
-            reading: reading.displayReading,
-            words,
-        })
+        if (words.length > 0) {
+            groups.push({
+                reading: reading.displayReading,
+                words,
+            })
+        }
     }
 
     readingGroupCache.set(cacheKey, groups)
