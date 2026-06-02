@@ -1,39 +1,88 @@
-import { useState } from "react"
+import {
+    useCallback,
+    useSyncExternalStore,
+} from "react"
+
+const STORAGE_KEY = "searchHistories"
+const CHANGE_EVENT = "searchHistoriesChanged"
+
+function getStoredHistories(): string[] {
+    if (typeof window === "undefined") {
+        return []
+    }
+
+    try {
+        const storedHistories =
+            localStorage.getItem(STORAGE_KEY)
+
+        return storedHistories
+            ? JSON.parse(storedHistories)
+            : []
+    } catch {
+        return []
+    }
+}
+
+function getSnapshot() {
+    return JSON.stringify(getStoredHistories())
+}
+
+function getServerSnapshot() {
+    return "[]"
+}
+
+function subscribe(callback: () => void) {
+    if (typeof window === "undefined") {
+        return () => { }
+    }
+
+    const handleStorage = (event: StorageEvent) => {
+        if (event.key === STORAGE_KEY) {
+            callback()
+        }
+    }
+
+    window.addEventListener("storage", handleStorage)
+    window.addEventListener(CHANGE_EVENT, callback)
+
+    return () => {
+        window.removeEventListener("storage", handleStorage)
+        window.removeEventListener(CHANGE_EVENT, callback)
+    }
+}
 
 export default function useSearchHistory() {
-    const [histories, setHistories] =
-        useState<string[]>(() => {
-            if (typeof window === "undefined") {
-                return []
-            }
+    const snapshot = useSyncExternalStore(
+        subscribe,
+        getSnapshot,
+        getServerSnapshot
+    )
 
-            const storedHistories =
-                localStorage.getItem("searchHistories")
+    const histories = JSON.parse(snapshot) as string[]
 
-            return storedHistories
-                ? JSON.parse(storedHistories)
-                : []
-        })
+    const addHistory = useCallback((keyword: string) => {
+        const trimmedKeyword = keyword.trim()
 
-    const addHistory = (keyword: string) => {
-        if (!keyword.trim()) {
+        if (!trimmedKeyword) {
             return
         }
 
+        const currentHistories = getStoredHistories()
+
         const newHistories = [
-            keyword,
-            ...histories.filter(
-                (item) => item !== keyword
+            trimmedKeyword,
+            ...currentHistories.filter(
+                (item) => item !== trimmedKeyword
             ),
         ].slice(0, 10)
 
-        setHistories(newHistories)
-
         localStorage.setItem(
-            "searchHistories",
+            STORAGE_KEY,
             JSON.stringify(newHistories)
         )
-    }
+
+        window.dispatchEvent(new Event(CHANGE_EVENT))
+    }, [])
 
     return {
         histories,

@@ -41,17 +41,6 @@ type GrammarRow = {
     meaning_vi: string | null
     meaning_en: string | null
     short_meaning_vi: string | null
-    explanation_vi: string | null
-    explanation_en: string | null
-    nuance_vi: string | null
-    formation: unknown
-    examples: unknown
-    similar_grammar: unknown
-    differences: unknown
-    notes: string | null
-    tags: string[] | null
-    frequency: number | null
-    is_common: boolean | null
 }
 
 type KanjiRow = {
@@ -67,7 +56,7 @@ type KanjiRow = {
 }
 
 const GRAMMAR_COLUMNS =
-    "id, pattern, reading, jlpt_level, meaning_vi, meaning_en, short_meaning_vi, explanation_vi, explanation_en, nuance_vi, formation, examples, similar_grammar, differences, notes, tags, frequency, is_common"
+    "id, pattern, reading, jlpt_level, meaning_vi, meaning_en, short_meaning_vi"
 
 function uniqueById<T extends { id: number }>(items: T[]) {
     return items.filter(
@@ -176,7 +165,7 @@ export async function GET(request: NextRequest) {
                 .order("priority_score", {
                     ascending: false,
                 })
-                .limit(20),
+                .limit(8),
         ])
 
         const searchRows = [
@@ -273,7 +262,9 @@ export async function GET(request: NextRequest) {
     if (tab === "kanji" || tab === "all") {
         const { data } = await supabase
             .from("kanjis")
-            .select("*")
+            .select(
+                "id, kanji, meaning, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
+            )
             .eq("kanji", keyword)
             .maybeSingle()
 
@@ -290,13 +281,13 @@ export async function GET(request: NextRequest) {
                 .from("grammars")
                 .select(GRAMMAR_COLUMNS)
                 .ilike("pattern", `%${keyword}%`)
-                .limit(20),
+                .limit(8),
 
             supabase
                 .from("grammars")
                 .select(GRAMMAR_COLUMNS)
                 .ilike("reading", `%${keyword}%`)
-                .limit(20),
+                .limit(8),
 
             supabase
                 .from("grammars")
@@ -310,7 +301,7 @@ export async function GET(request: NextRequest) {
                         `explanation_en.ilike.%${keyword}%`,
                     ].join(",")
                 )
-                .limit(20),
+                .limit(8),
         ])
 
         grammars = uniqueById([
