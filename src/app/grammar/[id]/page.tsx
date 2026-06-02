@@ -6,7 +6,7 @@ import Link from "next/link"
 
 import "@/styles/grammar-detail.css"
 
-import AppLayout from "@/components/layout/AppLayout"
+import AppLayout from "@/shared/components/layout/AppLayout"
 
 import {
     getGrammarPointById,

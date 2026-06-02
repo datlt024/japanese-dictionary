@@ -4,7 +4,7 @@ import Link from "next/link"
 
 import "./SearchHubDropdown.css"
 
-import { SearchTab } from "@/components/layout/TopSearchBar"
+import { SearchTab } from "@/features/search/hooks/useSearchHub"
 
 import {
     SearchHubResult,
