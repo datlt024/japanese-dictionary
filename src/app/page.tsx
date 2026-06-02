@@ -79,11 +79,17 @@ export default function HomePage() {
               </div>
 
               <div className="history-tags">
-                {histories.map((item) => (
-                  <button key={item}>
-                    {item}
-                  </button>
-                ))}
+                {histories.length > 0 ? (
+                  histories.map((item) => (
+                    <button key={item}>
+                      {item}
+                    </button>
+                  ))
+                ) : (
+                  <span className="history-empty">
+                    Chưa có lịch sử tìm kiếm
+                  </span>
+                )}
               </div>
             </section>
 

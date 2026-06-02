@@ -34,8 +34,7 @@ export default function KanjiDetailPage() {
     const params = useParams<{ id: string }>()
     const searchParams = useSearchParams()
 
-    const [kanji, setKanji] =
-        useState<Kanji | null>(null)
+    const [kanji, setKanji] = useState<Kanji | null>(null)
 
     const [kunyomiGroups, setKunyomiGroups] =
         useState<KanjiReadingGroup[]>([])
@@ -43,8 +42,8 @@ export default function KanjiDetailPage() {
     const [onyomiGroups, setOnyomiGroups] =
         useState<KanjiReadingGroup[]>([])
 
-    const [loading, setLoading] =
-        useState(true)
+    const [loading, setLoading] = useState(true)
+    const [examplesLoading, setExamplesLoading] = useState(false)
 
     const currentKanji = useMemo(() => {
         return decodeURIComponent(params.id).replace(/\0/g, "")
@@ -63,19 +62,31 @@ export default function KanjiDetailPage() {
     }, [searchKeyword, currentKanji])
 
     useEffect(() => {
+        let cancelled = false
+
         async function fetchKanji() {
             setLoading(true)
+            setExamplesLoading(false)
+            setKanji(null)
+            setKunyomiGroups([])
+            setOnyomiGroups([])
 
             const kanjiData =
                 await getKanjiByCharacter(currentKanji)
 
+            if (cancelled) {
+                return
+            }
+
             if (!kanjiData) {
                 setKanji(null)
-                setKunyomiGroups([])
-                setOnyomiGroups([])
                 setLoading(false)
                 return
             }
+
+            setKanji(kanjiData)
+            setLoading(false)
+            setExamplesLoading(true)
 
             const [kunyomiData, onyomiData] =
                 await Promise.all([
@@ -89,13 +100,20 @@ export default function KanjiDetailPage() {
                     ),
                 ])
 
-            setKanji(kanjiData)
+            if (cancelled) {
+                return
+            }
+
             setKunyomiGroups(kunyomiData)
             setOnyomiGroups(onyomiData)
-            setLoading(false)
+            setExamplesLoading(false)
         }
 
         fetchKanji()
+
+        return () => {
+            cancelled = true
+        }
     }, [currentKanji])
 
     return (
@@ -106,9 +124,17 @@ export default function KanjiDetailPage() {
         >
             <main className="kanji-detail-page">
                 {loading ? (
-                    <section className="kanji-main-card">
-                        <h1>Đang tải Hán tự...</h1>
-                    </section>
+                    <div className="kanji-page-layout">
+                        <section className="kanji-main-card kanji-skeleton-card">
+                            <div className="kanji-skeleton-title" />
+                            <div className="kanji-skeleton-line" />
+                            <div className="kanji-skeleton-box" />
+                        </section>
+
+                        <aside className="kanji-ad-column">
+                            <div className="kanji-result-box kanji-skeleton-side" />
+                        </aside>
+                    </div>
                 ) : !kanji ? (
                     <section className="kanji-main-card">
                         <h1>Không tìm thấy Hán tự</h1>
@@ -204,67 +230,73 @@ export default function KanjiDetailPage() {
                             <section className="kanji-section">
                                 <h2>Ví dụ phân loại theo cách đọc</h2>
 
-                                <div className="reading-group-block">
-                                    <h3>Kunyomi</h3>
+                                {examplesLoading ? (
+                                    <p>Đang tải ví dụ...</p>
+                                ) : (
+                                    <>
+                                        <div className="reading-group-block">
+                                            <h3>Kunyomi</h3>
 
-                                    {kunyomiGroups.length === 0 ? (
-                                        <p>Chưa có ví dụ Kunyomi.</p>
-                                    ) : (
-                                        kunyomiGroups.map((group) => (
-                                            <div
-                                                key={group.reading}
-                                                className="reading-group"
-                                            >
-                                                <h4>{group.reading}</h4>
+                                            {kunyomiGroups.length === 0 ? (
+                                                <p>Chưa có ví dụ Kunyomi.</p>
+                                            ) : (
+                                                kunyomiGroups.map((group) => (
+                                                    <div
+                                                        key={group.reading}
+                                                        className="reading-group"
+                                                    >
+                                                        <h4>{group.reading}</h4>
 
-                                                <table className="reading-word-table">
-                                                    <tbody>
-                                                        {group.words.map((word) => (
-                                                            <tr key={word.id}>
-                                                                <td>{word.word}</td>
-                                                                <td>{word.kana || "-"}</td>
-                                                                <td>
-                                                                    {getRelatedWordMeaning(word)}
-                                                                </td>
-                                                            </tr>
-                                                        ))}
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        ))
-                                    )}
-                                </div>
+                                                        <table className="reading-word-table">
+                                                            <tbody>
+                                                                {group.words.map((word) => (
+                                                                    <tr key={word.id}>
+                                                                        <td>{word.word}</td>
+                                                                        <td>{word.kana || "-"}</td>
+                                                                        <td>
+                                                                            {getRelatedWordMeaning(word)}
+                                                                        </td>
+                                                                    </tr>
+                                                                ))}
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                ))
+                                            )}
+                                        </div>
 
-                                <div className="reading-group-block">
-                                    <h3>Onyomi</h3>
+                                        <div className="reading-group-block">
+                                            <h3>Onyomi</h3>
 
-                                    {onyomiGroups.length === 0 ? (
-                                        <p>Chưa có ví dụ Onyomi.</p>
-                                    ) : (
-                                        onyomiGroups.map((group) => (
-                                            <div
-                                                key={group.reading}
-                                                className="reading-group"
-                                            >
-                                                <h4>{group.reading}</h4>
+                                            {onyomiGroups.length === 0 ? (
+                                                <p>Chưa có ví dụ Onyomi.</p>
+                                            ) : (
+                                                onyomiGroups.map((group) => (
+                                                    <div
+                                                        key={group.reading}
+                                                        className="reading-group"
+                                                    >
+                                                        <h4>{group.reading}</h4>
 
-                                                <table className="reading-word-table">
-                                                    <tbody>
-                                                        {group.words.map((word) => (
-                                                            <tr key={word.id}>
-                                                                <td>{word.word}</td>
-                                                                <td>{word.kana || "-"}</td>
-                                                                <td>
-                                                                    {getRelatedWordMeaning(word)}
-                                                                </td>
-                                                            </tr>
-                                                        ))}
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        ))
-                                    )}
-                                </div>
+                                                        <table className="reading-word-table">
+                                                            <tbody>
+                                                                {group.words.map((word) => (
+                                                                    <tr key={word.id}>
+                                                                        <td>{word.word}</td>
+                                                                        <td>{word.kana || "-"}</td>
+                                                                        <td>
+                                                                            {getRelatedWordMeaning(word)}
+                                                                        </td>
+                                                                    </tr>
+                                                                ))}
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                ))
+                                            )}
+                                        </div>
+                                    </>
+                                )}
                             </section>
 
                             <section className="kanji-section">

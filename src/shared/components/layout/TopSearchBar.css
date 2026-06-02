@@ -34,3 +34,19 @@
 .search-dropdown-wrapper {
     position: relative;
 }
+.app-search-area {
+  min-height: 132px;
+}
+
+.search-dropdown-wrapper {
+  position: relative;
+}
+
+.search-hub-dropdown,
+.suggestion-list {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 50;
+}

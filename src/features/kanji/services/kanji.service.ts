@@ -35,6 +35,14 @@ const kanjiCache = new Map<string, Kanji | null>()
 const readingGroupCache =
     new Map<string, KanjiReadingGroup[]>()
 
+const meaningCache = new Map<
+    number,
+    {
+        meaning_en: string | null
+        meaning_vi: string | null
+    }
+>()
+
 function getFirstSenseByVocabularyId(
     senses: VocabularySenseRow[]
 ) {
@@ -52,43 +60,53 @@ function getFirstSenseByVocabularyId(
 async function attachMeanings(
     vocabularies: VocabularyRow[]
 ): Promise<KanjiRelatedWord[]> {
-    const ids = vocabularies.map((item) => item.id)
+    const ids = vocabularies
+        .map((item) => item.id)
+        .filter((id) => !meaningCache.has(id))
 
-    if (ids.length === 0) {
-        return []
+    if (ids.length > 0) {
+        const { data: senses, error } = await supabase
+            .from("vocabulary_senses")
+            .select(
+                "vocabulary_id, meaning_en, meaning_vi"
+            )
+            .in("vocabulary_id", ids)
+            .order("sense_index", {
+                ascending: true,
+            })
+
+        if (error) {
+            console.error(error)
+        } else {
+            const senseMap = getFirstSenseByVocabularyId(
+                (senses || []) as VocabularySenseRow[]
+            )
+
+            for (const id of ids) {
+                const sense = senseMap.get(id)
+
+                meaningCache.set(id, {
+                    meaning_en:
+                        sense?.meaning_en || null,
+                    meaning_vi:
+                        sense?.meaning_vi || null,
+                })
+            }
+        }
     }
-
-    const { data: senses, error } = await supabase
-        .from("vocabulary_senses")
-        .select("vocabulary_id, meaning_en, meaning_vi")
-        .in("vocabulary_id", ids)
-        .order("sense_index", { ascending: true })
-
-    if (error) {
-        console.error(error)
-
-        return vocabularies.map((item) => ({
-            id: item.id,
-            word: item.primary_word,
-            kana: item.primary_kana,
-            meaning_en: null,
-            meaning_vi: null,
-        }))
-    }
-
-    const senseMap = getFirstSenseByVocabularyId(
-        (senses || []) as VocabularySenseRow[]
-    )
 
     return vocabularies.map((item) => {
-        const sense = senseMap.get(item.id)
+        const meaning =
+            meaningCache.get(item.id)
 
         return {
             id: item.id,
             word: item.primary_word,
             kana: item.primary_kana,
-            meaning_en: sense?.meaning_en || null,
-            meaning_vi: sense?.meaning_vi || null,
+            meaning_en:
+                meaning?.meaning_en || null,
+            meaning_vi:
+                meaning?.meaning_vi || null,
         }
     })
 }
@@ -116,7 +134,9 @@ async function getVocabularyIdsByKanji(
         .from("kanji_vocabulary_links")
         .select("vocabulary_id, priority")
         .eq("kanji_id", kanji.id)
-        .order("priority", { ascending: false })
+        .order("priority", {
+            ascending: false,
+        })
         .limit(limit)
 
     if (error) {
@@ -240,7 +260,9 @@ export async function getWordsByReadingGroups(
     character: string,
     readingsText: string | null
 ): Promise<KanjiReadingGroup[]> {
-    if (!readingsText) return []
+    if (!readingsText) {
+        return []
+    }
 
     const cacheKey = `reading:${character}:${readingsText}`
 
@@ -252,7 +274,8 @@ export async function getWordsByReadingGroups(
         .split(";")
         .map((item) => {
             const displayReading = item.trim()
-            const searchReading = cleanReading(displayReading)
+            const searchReading =
+                cleanReading(displayReading)
 
             return {
                 displayReading,
@@ -266,32 +289,48 @@ export async function getWordsByReadingGroups(
         )
         .slice(0, 5)
 
-    const groups: KanjiReadingGroup[] = []
+    const results = await Promise.all(
+        readings.map(async (reading) => {
+            const { data, error } = await supabase
+                .from("vocabularies")
+                .select("id, primary_word, primary_kana")
+                .ilike(
+                    "primary_word",
+                    `%${character}%`
+                )
+                .ilike(
+                    "primary_kana",
+                    `%${reading.searchReading}%`
+                )
+                .limit(5)
 
-    for (const reading of readings) {
-        const { data, error } = await supabase
-            .from("vocabularies")
-            .select("id, primary_word, primary_kana")
-            .ilike("primary_word", `%${character}%`)
-            .ilike("primary_kana", `%${reading.searchReading}%`)
-            .limit(5)
+            if (error) {
+                console.error(error)
+                return null
+            }
 
-        if (error) {
-            console.error(error)
-            continue
-        }
+            const words = await attachMeanings(
+                (data || []) as VocabularyRow[]
+            )
 
-        const words = await attachMeanings(
-            (data || []) as VocabularyRow[]
-        )
+            if (words.length === 0) {
+                return null
+            }
 
-        if (words.length > 0) {
-            groups.push({
-                reading: reading.displayReading,
+            return {
+                reading:
+                    reading.displayReading,
                 words,
-            })
-        }
-    }
+            }
+        })
+    )
+
+    const groups = results.filter(
+        (
+            item
+        ): item is KanjiReadingGroup =>
+            item !== null
+    )
 
     readingGroupCache.set(cacheKey, groups)
 
