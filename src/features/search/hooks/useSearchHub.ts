@@ -85,7 +85,7 @@ export default function useSearchHub(
 
             try {
                 await new Promise((resolve) => {
-                    setTimeout(resolve, 300)
+                    setTimeout(resolve, 150)
                 })
 
                 if (controller.signal.aborted) {
