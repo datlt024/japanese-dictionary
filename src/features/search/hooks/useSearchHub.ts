@@ -33,15 +33,17 @@ export type SearchKanji = {
 export type SearchGrammar = {
     id: number
     pattern: string
+    reading?: string | null
     jlpt_level: string | null
     meaning_vi: string | null
     meaning_en: string | null
-    structure: string | null
-    explanation_vi: string | null
-    explanation_en: string | null
-    example_jp: string | null
-    example_vi: string | null
-    source: string | null
+    short_meaning_vi?: string | null
+    structure?: string | null
+    explanation_vi?: string | null
+    explanation_en?: string | null
+    example_jp?: string | null
+    example_vi?: string | null
+    source?: string | null
 }
 
 export type SearchHubResult = {
@@ -60,6 +62,19 @@ const emptyResult: SearchHubResult = {
 
 type SearchResponse = Partial<SearchHubResult>
 
+const searchCache = new Map<string, SearchHubResult>()
+
+function normalizeSearchResponse(
+    data: SearchResponse
+): SearchHubResult {
+    return {
+        vocabularies: data.vocabularies || [],
+        kanjis: data.kanjis || [],
+        grammars: data.grammars || [],
+        examples: data.examples || [],
+    }
+}
+
 export default function useSearchHub(
     keyword: string,
     activeTab: SearchTab
@@ -68,13 +83,29 @@ export default function useSearchHub(
         return keyword.trim()
     }, [keyword])
 
+    const cacheKey = useMemo(() => {
+        return `${normalizedKeyword}:${activeTab}`
+    }, [normalizedKeyword, activeTab])
+
+    const initialResult = useMemo(() => {
+        if (!normalizedKeyword) {
+            return emptyResult
+        }
+
+        return searchCache.get(cacheKey) || emptyResult
+    }, [normalizedKeyword, cacheKey])
+
     const [result, setResult] =
-        useState<SearchHubResult>(emptyResult)
+        useState<SearchHubResult>(initialResult)
 
     const [loading, setLoading] = useState(false)
 
     useEffect(() => {
         if (!normalizedKeyword) {
+            return
+        }
+
+        if (searchCache.has(cacheKey)) {
             return
         }
 
@@ -104,12 +135,11 @@ export default function useSearchHub(
                 const data =
                     (await response.json()) as SearchResponse
 
-                setResult({
-                    vocabularies: data.vocabularies || [],
-                    kanjis: data.kanjis || [],
-                    grammars: data.grammars || [],
-                    examples: data.examples || [],
-                })
+                const normalizedResult =
+                    normalizeSearchResponse(data)
+
+                searchCache.set(cacheKey, normalizedResult)
+                setResult(normalizedResult)
             } catch (error) {
                 if (
                     error instanceof DOMException &&
@@ -132,7 +162,7 @@ export default function useSearchHub(
         return () => {
             controller.abort()
         }
-    }, [normalizedKeyword, activeTab])
+    }, [normalizedKeyword, activeTab, cacheKey])
 
     return {
         result: normalizedKeyword ? result : emptyResult,
