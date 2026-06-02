@@ -6,7 +6,7 @@ import { useParams, useSearchParams } from "next/navigation"
 
 import "@/styles/kanji-detail.css"
 
-import AppLayout from "@/components/layout/AppLayout"
+import AppLayout from "@/shared/components/layout/AppLayout"
 
 import { Kanji } from "@/features/kanji/types/kanji.types"
 import {

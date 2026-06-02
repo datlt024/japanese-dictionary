@@ -4,17 +4,17 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useParams } from "next/navigation"
 
-import "@/styles/detail.css"
+import "@/styles/vocabulary-detail.css"
 
-import AppLayout from "@/components/layout/AppLayout"
-import { conjugateVerb } from "@/utils/verbConjugation"
+import AppLayout from "@/shared/components/layout/AppLayout"
+import { conjugateVerb } from "@/shared/utils/verbConjugation"
 
 import {
     getVocabularyById,
     getVocabularyMeaning,
     getVocabularyPartOfSpeech,
     Vocabulary,
-} from "@/services/vocabulary.service"
+} from "@/features/vocabulary/services/vocabulary.service"
 
 type RelatedVocabulary = {
     id: number

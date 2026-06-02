@@ -32,7 +32,7 @@ const parser = new XMLParser({
     textNodeName: "text",
 })
 
-const jsonData = parser.parse(xml)
+const jsonData = parser.parse(xml) as KanjidicXml
 
 console.log("Đã parse XML")
 
@@ -46,6 +46,40 @@ type KanjiInsert = {
     grade: number | null
     frequency: number | null
 }
+
+type KanjidicXml = {
+    kanjidic2?: {
+        character?: KanjidicCharacter | KanjidicCharacter[]
+    }
+}
+
+type KanjidicCharacter = {
+    literal?: string
+    misc?: {
+        stroke_count?: string | number
+        jlpt?: string | number
+        grade?: string | number
+        freq?: string | number
+    }
+    reading_meaning?: {
+        rmgroup?: {
+            reading?: KanjidicReading | KanjidicReading[]
+            meaning?: KanjidicMeaning | KanjidicMeaning[]
+        }
+    }
+}
+
+type KanjidicReading = {
+    r_type?: string
+    text?: string
+}
+
+type KanjidicMeaning =
+    | string
+    | {
+        m_lang?: string
+        text?: string
+    }
 
 function toArray<T>(value: T | T[] | undefined): T[] {
     if (!value) {
@@ -71,7 +105,7 @@ const characters = toArray(jsonData.kanjidic2?.character)
 
 console.log("Số kanji đọc được:", characters.length)
 
-const kanjis: KanjiInsert[] = characters.map((item: any) => {
+const kanjis: KanjiInsert[] = characters.map((item) => {
     const readingMeaning = item.reading_meaning?.rmgroup
 
     const readings = toArray(readingMeaning?.reading)
@@ -79,25 +113,25 @@ const kanjis: KanjiInsert[] = characters.map((item: any) => {
     const meanings = toArray(readingMeaning?.meaning)
 
     const onyomi = readings
-        .filter((reading: any) => reading.r_type === "ja_on")
-        .map((reading: any) => reading.text)
-        .filter(Boolean)
+        .filter((reading) => reading.r_type === "ja_on")
+        .map((reading) => reading.text)
+        .filter((text): text is string => Boolean(text))
         .join("; ")
 
     const kunyomi = readings
-        .filter((reading: any) => reading.r_type === "ja_kun")
-        .map((reading: any) => reading.text)
-        .filter(Boolean)
+        .filter((reading) => reading.r_type === "ja_kun")
+        .map((reading) => reading.text)
+        .filter((text): text is string => Boolean(text))
         .join("; ")
 
     const meaning = meanings
-        .filter((item: any) => {
-            return typeof item === "string"
+        .filter((meaningItem): meaningItem is string => {
+            return typeof meaningItem === "string"
         })
         .join("; ")
 
     return {
-        kanji: item.literal,
+        kanji: item.literal || "",
         meaning,
         onyomi,
         kunyomi,

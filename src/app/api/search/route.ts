@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 
-import { supabase } from "@/lib/supabase"
+import { supabase } from "@/shared/lib/supabase"
 
 type SearchIndexRow = {
     vocabulary_id: number
@@ -31,6 +31,39 @@ type VocabularyResult = {
     verb_group: string | null
     is_common: boolean | null
     priority_score: number | null
+}
+
+type GrammarRow = {
+    id: number
+    pattern: string
+    reading: string | null
+    jlpt_level: string | null
+    meaning_vi: string | null
+    meaning_en: string | null
+    short_meaning_vi: string | null
+    explanation_vi: string | null
+    explanation_en: string | null
+    nuance_vi: string | null
+    formation: unknown
+    examples: unknown
+    similar_grammar: unknown
+    differences: unknown
+    notes: string | null
+    tags: string[] | null
+    frequency: number | null
+    is_common: boolean | null
+}
+
+type KanjiRow = {
+    id: number
+    kanji: string
+    meaning: string | null
+    onyomi: string | null
+    kunyomi: string | null
+    stroke_count: number | null
+    jlpt: number | null
+    grade: number | null
+    frequency: number | null
 }
 
 const GRAMMAR_COLUMNS =
@@ -75,9 +108,7 @@ function groupByWord(items: VocabularyResult[]) {
     return Array.from(map.values())
 }
 
-function getFirstSenseMap(
-    senses: SenseRow[]
-) {
+function getFirstSenseMap(senses: SenseRow[]) {
     const map = new Map<number, SenseRow>()
 
     for (const sense of senses) {
@@ -89,9 +120,7 @@ function getFirstSenseMap(
     return map
 }
 
-export async function GET(
-    request: NextRequest
-) {
+export async function GET(request: NextRequest) {
     const keyword =
         request.nextUrl.searchParams
             .get("q")
@@ -111,25 +140,18 @@ export async function GET(
     }
 
     let vocabularies: VocabularyResult[] = []
-    let grammars: any[] = []
-    let kanjis: any[] = []
+    let grammars: GrammarRow[] = []
+    let kanjis: KanjiRow[] = []
 
-    if (
-        tab === "vocabulary" ||
-        tab === "all"
-    ) {
+    if (tab === "vocabulary" || tab === "all") {
         const [
             exactWordResult,
             exactKanaResult,
             containsResult,
         ] = await Promise.all([
             supabase
-                .from(
-                    "vocabulary_search_index"
-                )
-                .select(
-                    "vocabulary_id, priority_score"
-                )
+                .from("vocabulary_search_index")
+                .select("vocabulary_id, priority_score")
                 .eq("word_text", keyword)
                 .order("priority_score", {
                     ascending: false,
@@ -137,12 +159,8 @@ export async function GET(
                 .limit(10),
 
             supabase
-                .from(
-                    "vocabulary_search_index"
-                )
-                .select(
-                    "vocabulary_id, priority_score"
-                )
+                .from("vocabulary_search_index")
+                .select("vocabulary_id, priority_score")
                 .eq("kana_text", keyword)
                 .order("priority_score", {
                     ascending: false,
@@ -152,130 +170,95 @@ export async function GET(
             supabase
                 .from("vocabulary_search_index")
                 .select("vocabulary_id, priority_score")
-                .or(`word_text.ilike.${keyword}%,kana_text.ilike.${keyword}%`)
-                .order("priority_score", { ascending: false })
-                .limit(20)
+                .or(
+                    `word_text.ilike.${keyword}%,kana_text.ilike.${keyword}%`
+                )
+                .order("priority_score", {
+                    ascending: false,
+                })
+                .limit(20),
         ])
 
         const searchRows = [
-            ...((exactWordResult.data ||
-                []) as SearchIndexRow[]),
-            ...((exactKanaResult.data ||
-                []) as SearchIndexRow[]),
-            ...((containsResult.data ||
-                []) as SearchIndexRow[]),
+            ...((exactWordResult.data || []) as SearchIndexRow[]),
+            ...((exactKanaResult.data || []) as SearchIndexRow[]),
+            ...((containsResult.data || []) as SearchIndexRow[]),
         ]
 
-        const uniqueSearchRows =
-            searchRows.filter(
-                (item, index, self) =>
-                    index ===
-                    self.findIndex(
-                        (v) =>
-                            v.vocabulary_id ===
-                            item.vocabulary_id
-                    )
-            )
+        const uniqueSearchRows = searchRows.filter(
+            (item, index, self) =>
+                index ===
+                self.findIndex(
+                    (v) =>
+                        v.vocabulary_id === item.vocabulary_id
+                )
+        )
 
-        const vocabularyIds =
-            uniqueSearchRows.map(
-                (item) =>
-                    item.vocabulary_id
-            )
+        const vocabularyIds = uniqueSearchRows.map(
+            (item) => item.vocabulary_id
+        )
 
         if (vocabularyIds.length > 0) {
-            const [
-                vocabularyResult,
-                sensesResult,
-            ] = await Promise.all([
-                supabase
-                    .from("vocabularies")
-                    .select(
-                        "id, primary_word, primary_kana, jlpt, verb_group, is_common"
-                    )
-                    .in(
-                        "id",
-                        vocabularyIds
-                    ),
+            const [vocabularyResult, sensesResult] =
+                await Promise.all([
+                    supabase
+                        .from("vocabularies")
+                        .select(
+                            "id, primary_word, primary_kana, jlpt, verb_group, is_common"
+                        )
+                        .in("id", vocabularyIds),
 
-                supabase
-                    .from(
-                        "vocabulary_senses"
-                    )
-                    .select(
-                        "vocabulary_id, meaning_vi, meaning_en"
-                    )
-                    .in(
-                        "vocabulary_id",
-                        vocabularyIds
-                    )
-                    .order(
-                        "sense_index",
-                        {
+                    supabase
+                        .from("vocabulary_senses")
+                        .select(
+                            "vocabulary_id, meaning_vi, meaning_en"
+                        )
+                        .in("vocabulary_id", vocabularyIds)
+                        .order("sense_index", {
                             ascending: true,
-                        }
-                    ),
-            ])
+                        }),
+                ])
 
             const vocabularyRows =
-                (vocabularyResult.data ||
-                    []) as VocabularyRow[]
+                (vocabularyResult.data || []) as VocabularyRow[]
 
-            const senseMap =
-                getFirstSenseMap(
-                    (sensesResult.data ||
-                        []) as SenseRow[]
-                )
+            const senseMap = getFirstSenseMap(
+                (sensesResult.data || []) as SenseRow[]
+            )
 
             const mappedVocabularies =
                 uniqueSearchRows
-                    .map(
-                        (
-                            searchRow
-                        ) => {
-                            const vocabulary =
-                                vocabularyRows.find(
-                                    (
-                                        item
-                                    ) =>
-                                        item.id ===
-                                        searchRow.vocabulary_id
-                                )
-
-                            if (
-                                !vocabulary
+                    .map((searchRow) => {
+                        const vocabulary =
+                            vocabularyRows.find(
+                                (item) =>
+                                    item.id ===
+                                    searchRow.vocabulary_id
                             )
-                                return null
 
-                            const sense =
-                                senseMap.get(
-                                    vocabulary.id
-                                )
-
-                            return {
-                                id: vocabulary.id,
-                                word: vocabulary.primary_word,
-                                kana:
-                                    vocabulary.primary_kana
-                                        ? [
-                                            vocabulary.primary_kana,
-                                        ]
-                                        : [],
-                                meaning:
-                                    sense?.meaning_vi ||
-                                    sense?.meaning_en ||
-                                    "",
-                                jlpt:
-                                    vocabulary.jlpt,
-                                verb_group:
-                                    vocabulary.verb_group,
-                                is_common:
-                                    vocabulary.is_common,
-                                priority_score:
-                                    searchRow.priority_score,
-                            }
+                        if (!vocabulary) {
+                            return null
                         }
-                    )
+
+                        const sense = senseMap.get(vocabulary.id)
+
+                        return {
+                            id: vocabulary.id,
+                            word: vocabulary.primary_word,
+                            kana: vocabulary.primary_kana
+                                ? [vocabulary.primary_kana]
+                                : [],
+                            meaning:
+                                sense?.meaning_vi ||
+                                sense?.meaning_en ||
+                                "",
+                            jlpt: vocabulary.jlpt,
+                            verb_group: vocabulary.verb_group,
+                            is_common: vocabulary.is_common,
+                            priority_score:
+                                searchRow.priority_score,
+                        }
+                    })
                     .filter(
                         (
                             item
@@ -283,31 +266,21 @@ export async function GET(
                             item !== null
                     )
 
-            vocabularies =
-                groupByWord(
-                    mappedVocabularies
-                )
+            vocabularies = groupByWord(mappedVocabularies)
         }
     }
 
-    if (
-        tab === "kanji" ||
-        tab === "all"
-    ) {
-        const { data } =
-            await supabase
-                .from("kanjis")
-                .select("*")
-                .eq("kanji", keyword)
-                .maybeSingle()
+    if (tab === "kanji" || tab === "all") {
+        const { data } = await supabase
+            .from("kanjis")
+            .select("*")
+            .eq("kanji", keyword)
+            .maybeSingle()
 
-        kanjis = data ? [data] : []
+        kanjis = data ? ([data] as KanjiRow[]) : []
     }
 
-    if (
-        tab === "grammar" ||
-        tab === "all"
-    ) {
+    if (tab === "grammar" || tab === "all") {
         const [
             grammarPatternResult,
             grammarReadingResult,
@@ -315,31 +288,19 @@ export async function GET(
         ] = await Promise.all([
             supabase
                 .from("grammars")
-                .select(
-                    GRAMMAR_COLUMNS
-                )
-                .ilike(
-                    "pattern",
-                    `%${keyword}%`
-                )
+                .select(GRAMMAR_COLUMNS)
+                .ilike("pattern", `%${keyword}%`)
                 .limit(20),
 
             supabase
                 .from("grammars")
-                .select(
-                    GRAMMAR_COLUMNS
-                )
-                .ilike(
-                    "reading",
-                    `%${keyword}%`
-                )
+                .select(GRAMMAR_COLUMNS)
+                .ilike("reading", `%${keyword}%`)
                 .limit(20),
 
             supabase
                 .from("grammars")
-                .select(
-                    GRAMMAR_COLUMNS
-                )
+                .select(GRAMMAR_COLUMNS)
                 .or(
                     [
                         `meaning_vi.ilike.%${keyword}%`,
@@ -353,12 +314,9 @@ export async function GET(
         ])
 
         grammars = uniqueById([
-            ...(grammarPatternResult.data ||
-                []),
-            ...(grammarReadingResult.data ||
-                []),
-            ...(grammarMeaningResult.data ||
-                []),
+            ...((grammarPatternResult.data || []) as GrammarRow[]),
+            ...((grammarReadingResult.data || []) as GrammarRow[]),
+            ...((grammarMeaningResult.data || []) as GrammarRow[]),
         ])
     }
 

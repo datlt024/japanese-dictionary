@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
 export type SearchTab =
     | "vocabulary"
@@ -58,32 +58,23 @@ const emptyResult: SearchHubResult = {
     examples: [],
 }
 
+type SearchResponse = Partial<SearchHubResult>
+
 export default function useSearchHub(
     keyword: string,
     activeTab: SearchTab
 ) {
+    const normalizedKeyword = useMemo(() => {
+        return keyword.trim()
+    }, [keyword])
+
     const [result, setResult] =
         useState<SearchHubResult>(emptyResult)
 
     const [loading, setLoading] = useState(false)
 
-    const [debouncedKeyword, setDebouncedKeyword] =
-        useState(keyword)
-
     useEffect(() => {
-        const timer = setTimeout(() => {
-            setDebouncedKeyword(keyword)
-        }, 300)
-
-        return () => clearTimeout(timer)
-    }, [keyword])
-
-    useEffect(() => {
-        const normalizedKeyword = debouncedKeyword.trim()
-
         if (!normalizedKeyword) {
-            setResult(emptyResult)
-            setLoading(false)
             return
         }
 
@@ -93,6 +84,14 @@ export default function useSearchHub(
             setLoading(true)
 
             try {
+                await new Promise((resolve) => {
+                    setTimeout(resolve, 300)
+                })
+
+                if (controller.signal.aborted) {
+                    return
+                }
+
                 const response = await fetch(
                     `/api/search?q=${encodeURIComponent(
                         normalizedKeyword
@@ -102,7 +101,8 @@ export default function useSearchHub(
                     }
                 )
 
-                const data = await response.json()
+                const data =
+                    (await response.json()) as SearchResponse
 
                 setResult({
                     vocabularies: data.vocabularies || [],
@@ -121,7 +121,9 @@ export default function useSearchHub(
                 console.error(error)
                 setResult(emptyResult)
             } finally {
-                setLoading(false)
+                if (!controller.signal.aborted) {
+                    setLoading(false)
+                }
             }
         }
 
@@ -130,10 +132,10 @@ export default function useSearchHub(
         return () => {
             controller.abort()
         }
-    }, [debouncedKeyword, activeTab])
+    }, [normalizedKeyword, activeTab])
 
     return {
-        result,
-        loading,
+        result: normalizedKeyword ? result : emptyResult,
+        loading: normalizedKeyword ? loading : false,
     }
 }

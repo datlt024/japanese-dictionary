@@ -10,12 +10,10 @@ type SuggestionItem = {
 
 type SuggestionListProps = {
     items: SuggestionItem[]
-    onSelect: (word: string) => void
 }
 
 export default function SuggestionList({
     items,
-    onSelect,
 }: SuggestionListProps) {
     if (items.length === 0) {
         return null

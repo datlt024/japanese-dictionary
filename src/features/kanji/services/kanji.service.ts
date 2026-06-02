@@ -1,4 +1,4 @@
-import { supabase } from "@/lib/supabase"
+import { supabase } from "@/shared/lib/supabase"
 import { Kanji } from "../types/kanji.types"
 
 export type KanjiRelatedWord = {

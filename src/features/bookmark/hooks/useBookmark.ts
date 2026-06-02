@@ -1,20 +1,22 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 export default function useBookmark() {
     const [bookmarks, setBookmarks] =
-        useState<number[]>([])
+        useState<number[]>(() => {
+            if (typeof window === "undefined") {
+                return []
+            }
 
-    useEffect(() => {
-        const storedBookmarks =
-            localStorage.getItem("bookmarks")
+            const storedBookmarks =
+                localStorage.getItem("bookmarks")
 
-        if (storedBookmarks) {
-            setBookmarks(JSON.parse(storedBookmarks))
-        }
-    }, [])
+            return storedBookmarks
+                ? JSON.parse(storedBookmarks)
+                : []
+        })
 
     const toggleBookmark = (id: number) => {
-        let newBookmarks = []
+        let newBookmarks: number[]
 
         if (bookmarks.includes(id)) {
             newBookmarks = bookmarks.filter(

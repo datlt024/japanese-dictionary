@@ -2,9 +2,9 @@
 
 import "@/styles/home.css"
 
-import AppLayout from "@/components/layout/AppLayout"
+import AppLayout from "@/shared/components/layout/AppLayout"
 
-import useSearchHistory from "@/features/history/useSearchHistory"
+import useSearchHistory from "@/features/history/hooks/useSearchHistory"
 
 export default function HomePage() {
   const { histories } = useSearchHistory()

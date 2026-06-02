@@ -1,5 +1,5 @@
 import "./VocabularyCard.css"
-import useBookmark from "@/features/bookmark/useBookmark"
+import useBookmark from "@/features/bookmark/hooks/useBookmark"
 
 import Link from "next/link"
 

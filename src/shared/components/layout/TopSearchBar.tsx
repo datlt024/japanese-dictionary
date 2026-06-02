@@ -10,10 +10,10 @@ import {
 } from "react"
 import { useRouter } from "next/navigation"
 
-import SearchBar from "@/components/search/SearchBar"
-import SearchHubDropdown from "@/components/search/SearchHubDropdown"
+import SearchBar from "@/features/search/components/SearchBar"
+import SearchHubDropdown from "@/features/search/components/SearchHubDropdown"
 
-import useSearchHistory from "@/features/history/useSearchHistory"
+import useSearchHistory from "@/features/history/hooks/useSearchHistory"
 import useSearchHub from "@/features/search/hooks/useSearchHub"
 
 export type SearchTab =
@@ -28,16 +28,25 @@ type TopSearchBarProps = {
     activeSearchTab?: SearchTab
 }
 
+type SearchApiResponse = {
+    vocabularies?: {
+        id: number
+    }[]
+    grammars?: {
+        id: number
+    }[]
+}
+
 function extractKanjis(text: string) {
     return Array.from(text.matchAll(/[\u4e00-\u9faf]/g)).map(
         (match) => match[0]
     )
 }
 
-export default function TopSearchBar({
-    searchKeyword = "",
-    activeSearchTab = "vocabulary",
-}: TopSearchBarProps) {
+function TopSearchBarContent({
+    searchKeyword,
+    activeSearchTab,
+}: Required<TopSearchBarProps>) {
     const router = useRouter()
     const wrapperRef = useRef<HTMLDivElement>(null)
 
@@ -48,15 +57,6 @@ export default function TopSearchBar({
 
     const { addHistory } = useSearchHistory()
     const { result, loading } = useSearchHub(keyword, activeTab)
-
-    useEffect(() => {
-        setKeyword(searchKeyword)
-        setIsDropdownOpen(false)
-    }, [searchKeyword])
-
-    useEffect(() => {
-        setActiveTab(activeSearchTab)
-    }, [activeSearchTab])
 
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
@@ -84,16 +84,21 @@ export default function TopSearchBar({
         setIsDropdownOpen(false)
     }
 
-    async function fetchSearchResult(q: string, tab: SearchTab) {
+    async function fetchSearchResult(
+        q: string,
+        tab: SearchTab
+    ): Promise<SearchApiResponse> {
         const response = await fetch(
             `/api/search?q=${encodeURIComponent(q)}&tab=${tab}`
         )
 
-        return response.json()
+        return response.json() as Promise<SearchApiResponse>
     }
 
     async function getTargetUrl(tab: SearchTab, q: string) {
-        if (!q) return null
+        if (!q) {
+            return null
+        }
 
         if (tab === "kanji") {
             const kanjis = extractKanjis(q)
@@ -139,7 +144,9 @@ export default function TopSearchBar({
     async function navigateSearch(tab: SearchTab) {
         const q = keyword.trim()
 
-        if (!q) return
+        if (!q) {
+            return
+        }
 
         closeDropdown()
         addHistory(q)
@@ -250,5 +257,18 @@ export default function TopSearchBar({
                 </form>
             </div>
         </div>
+    )
+}
+
+export default function TopSearchBar({
+    searchKeyword = "",
+    activeSearchTab = "vocabulary",
+}: TopSearchBarProps) {
+    return (
+        <TopSearchBarContent
+            key={`${searchKeyword}-${activeSearchTab}`}
+            searchKeyword={searchKeyword}
+            activeSearchTab={activeSearchTab}
+        />
     )
 }

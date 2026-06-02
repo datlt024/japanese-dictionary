@@ -1,16 +1,19 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 export default function useSearchHistory() {
-    const [histories, setHistories] = useState<string[]>([])
+    const [histories, setHistories] =
+        useState<string[]>(() => {
+            if (typeof window === "undefined") {
+                return []
+            }
 
-    useEffect(() => {
-        const storedHistories =
-            localStorage.getItem("searchHistories")
+            const storedHistories =
+                localStorage.getItem("searchHistories")
 
-        if (storedHistories) {
-            setHistories(JSON.parse(storedHistories))
-        }
-    }, [])
+            return storedHistories
+                ? JSON.parse(storedHistories)
+                : []
+        })
 
     const addHistory = (keyword: string) => {
         if (!keyword.trim()) {
