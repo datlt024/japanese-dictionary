@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react"
+import useSWR from "swr"
 
 export type SearchTab =
     | "vocabulary"
@@ -21,7 +21,9 @@ export type SearchVocabulary = {
 export type SearchKanji = {
     id: number
     kanji: string
-    meaning: string | null
+    meaning?: string | null
+    meaning_vi?: string | null
+    meaning_en?: string | null
     onyomi: string | null
     kunyomi: string | null
     stroke_count: number | null
@@ -62,8 +64,6 @@ const emptyResult: SearchHubResult = {
 
 type SearchResponse = Partial<SearchHubResult>
 
-const searchCache = new Map<string, SearchHubResult>()
-
 function normalizeSearchResponse(
     data: SearchResponse
 ): SearchHubResult {
@@ -75,97 +75,51 @@ function normalizeSearchResponse(
     }
 }
 
+async function fetchSearchResult(
+    url: string
+): Promise<SearchHubResult> {
+    const response = await fetch(url)
+
+    if (!response.ok) {
+        throw new Error("Search request failed")
+    }
+
+    const data = (await response.json()) as SearchResponse
+
+    return normalizeSearchResponse(data)
+}
+
 export default function useSearchHub(
     keyword: string,
     activeTab: SearchTab
 ) {
-    const normalizedKeyword = useMemo(() => {
-        return keyword.trim()
-    }, [keyword])
+    const normalizedKeyword = keyword.trim()
 
-    const cacheKey = useMemo(() => {
-        return `${normalizedKeyword}:${activeTab}`
-    }, [normalizedKeyword, activeTab])
+    const shouldSearch = Boolean(normalizedKeyword)
 
-    const initialResult = useMemo(() => {
-        if (!normalizedKeyword) {
-            return emptyResult
+    const searchUrl = shouldSearch
+        ? `/api/search?q=${encodeURIComponent(
+            normalizedKeyword
+        )}&tab=${activeTab}`
+        : null
+
+    const { data, isLoading, error } = useSWR(
+        searchUrl,
+        fetchSearchResult,
+        {
+            dedupingInterval: 10_000,
+            keepPreviousData: true,
+            revalidateOnFocus: false,
+            revalidateOnReconnect: false,
         }
+    )
 
-        return searchCache.get(cacheKey) || emptyResult
-    }, [normalizedKeyword, cacheKey])
-
-    const [result, setResult] =
-        useState<SearchHubResult>(initialResult)
-
-    const [loading, setLoading] = useState(false)
-
-    useEffect(() => {
-        if (!normalizedKeyword) {
-            return
-        }
-
-        if (searchCache.has(cacheKey)) {
-            return
-        }
-
-        const controller = new AbortController()
-
-        async function fetchSearchResult() {
-            setLoading(true)
-
-            try {
-                await new Promise((resolve) => {
-                    setTimeout(resolve, 150)
-                })
-
-                if (controller.signal.aborted) {
-                    return
-                }
-
-                const response = await fetch(
-                    `/api/search?q=${encodeURIComponent(
-                        normalizedKeyword
-                    )}&tab=${activeTab}`,
-                    {
-                        signal: controller.signal,
-                    }
-                )
-
-                const data =
-                    (await response.json()) as SearchResponse
-
-                const normalizedResult =
-                    normalizeSearchResponse(data)
-
-                searchCache.set(cacheKey, normalizedResult)
-                setResult(normalizedResult)
-            } catch (error) {
-                if (
-                    error instanceof DOMException &&
-                    error.name === "AbortError"
-                ) {
-                    return
-                }
-
-                console.error(error)
-                setResult(emptyResult)
-            } finally {
-                if (!controller.signal.aborted) {
-                    setLoading(false)
-                }
-            }
-        }
-
-        fetchSearchResult()
-
-        return () => {
-            controller.abort()
-        }
-    }, [normalizedKeyword, activeTab, cacheKey])
+    if (error) {
+        console.error(error)
+    }
 
     return {
-        result: normalizedKeyword ? result : emptyResult,
-        loading: normalizedKeyword ? loading : false,
+        result: shouldSearch ? data || emptyResult : emptyResult,
+        loading: shouldSearch ? isLoading : false,
     }
 }
