@@ -1,7 +1,10 @@
 import { supabase } from "@/shared/lib/supabase"
 
-const GRAMMAR_COLUMNS =
+const SEARCH_GRAMMAR_COLUMNS =
     "id, pattern, reading, jlpt_level, meaning_vi, meaning_en, short_meaning_vi"
+
+const SEARCH_KANJI_COLUMNS =
+    "id, kanji, meaning_vi, meaning_en, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
 
 export function searchVocabulariesByKeyword(keyword: string) {
     return supabase.rpc("search_vocabularies_rpc", {
@@ -12,11 +15,34 @@ export function searchVocabulariesByKeyword(keyword: string) {
 export function searchKanjiByKeyword(keyword: string) {
     return supabase
         .from("kanjis")
-        .select(
-            "id, kanji, meaning_vi, meaning_en, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
-        )
+        .select(SEARCH_KANJI_COLUMNS)
         .eq("kanji", keyword)
         .maybeSingle()
+}
+
+function searchGrammarsByColumn(
+    column: "pattern" | "reading",
+    keyword: string
+) {
+    return supabase
+        .from("grammars")
+        .select(SEARCH_GRAMMAR_COLUMNS)
+        .ilike(column, `%${keyword}%`)
+        .limit(8)
+}
+
+function searchGrammarsByMeaning(keyword: string) {
+    return supabase
+        .from("grammars")
+        .select(SEARCH_GRAMMAR_COLUMNS)
+        .or(
+            [
+                `meaning_vi.ilike.%${keyword}%`,
+                `meaning_en.ilike.%${keyword}%`,
+                `short_meaning_vi.ilike.%${keyword}%`,
+            ].join(",")
+        )
+        .limit(8)
 }
 
 export async function searchGrammarsByKeyword(keyword: string) {
@@ -25,29 +51,9 @@ export async function searchGrammarsByKeyword(keyword: string) {
         grammarReadingResult,
         grammarMeaningResult,
     ] = await Promise.all([
-        supabase
-            .from("grammars")
-            .select(GRAMMAR_COLUMNS)
-            .ilike("pattern", `%${keyword}%`)
-            .limit(8),
-
-        supabase
-            .from("grammars")
-            .select(GRAMMAR_COLUMNS)
-            .ilike("reading", `%${keyword}%`)
-            .limit(8),
-
-        supabase
-            .from("grammars")
-            .select(GRAMMAR_COLUMNS)
-            .or(
-                [
-                    `meaning_vi.ilike.%${keyword}%`,
-                    `meaning_en.ilike.%${keyword}%`,
-                    `short_meaning_vi.ilike.%${keyword}%`,
-                ].join(",")
-            )
-            .limit(8),
+        searchGrammarsByColumn("pattern", keyword),
+        searchGrammarsByColumn("reading", keyword),
+        searchGrammarsByMeaning(keyword),
     ])
 
     return {

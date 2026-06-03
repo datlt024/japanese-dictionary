@@ -1,58 +1,21 @@
-import { supabase } from "@/shared/lib/supabase"
-import { Tables } from "@/shared/types/database.generated"
+import type { Vocabulary } from "../types/vocabulary.type"
 
-export type VocabularySense = Pick<
-    Tables<"vocabulary_senses">,
-    | "id"
-    | "sense_index"
-    | "meaning_en"
-    | "meaning_vi"
-    | "part_of_speech"
->
-
-export type VocabularyWriting = Pick<
-    Tables<"vocabulary_writings">,
-    | "id"
-    | "writing"
-    | "is_primary"
-    | "priority"
-    | "info"
->
-
-export type VocabularyReading = Pick<
-    Tables<"vocabulary_readings">,
-    | "id"
-    | "reading"
-    | "romaji"
-    | "is_primary"
-    | "priority"
-    | "info"
->
-
-export type Vocabulary = {
-    id: number
-    jmdict_id: string | null
-    word: string
-    kana: string | null
-    jlpt: string | null
-    verb_group: string | null
-    is_common: boolean | null
-    senses: VocabularySense[]
-    writings: VocabularyWriting[]
-    readings: VocabularyReading[]
-}
+import {
+    findVocabularyBaseById,
+    findVocabularyReadingsByVocabularyId,
+    findVocabularySensesByVocabularyId,
+    findVocabularyWritingsByVocabularyId,
+} from "../repositories/vocabulary.repository"
 
 export async function getVocabularyById(
     id: number
 ): Promise<Vocabulary | null> {
+    if (!Number.isFinite(id)) {
+        return null
+    }
+
     const { data: vocabulary, error: vocabularyError } =
-        await supabase
-            .from("vocabularies")
-            .select(
-                "id, jmdict_id, primary_word, primary_kana, jlpt, verb_group, is_common"
-            )
-            .eq("id", id)
-            .maybeSingle()
+        await findVocabularyBaseById(id)
 
     if (vocabularyError) {
         console.error("Get vocabulary error:", vocabularyError)
@@ -68,25 +31,9 @@ export async function getVocabularyById(
         writingsResult,
         readingsResult,
     ] = await Promise.all([
-        supabase
-            .from("vocabulary_senses")
-            .select(
-                "id, sense_index, meaning_en, meaning_vi, part_of_speech"
-            )
-            .eq("vocabulary_id", id)
-            .order("sense_index", { ascending: true }),
-
-        supabase
-            .from("vocabulary_writings")
-            .select("id, writing, is_primary, priority, info")
-            .eq("vocabulary_id", id)
-            .order("priority", { ascending: true }),
-
-        supabase
-            .from("vocabulary_readings")
-            .select("id, reading, romaji, is_primary, priority, info")
-            .eq("vocabulary_id", id)
-            .order("priority", { ascending: true }),
+        findVocabularySensesByVocabularyId(id),
+        findVocabularyWritingsByVocabularyId(id),
+        findVocabularyReadingsByVocabularyId(id),
     ])
 
     if (sensesResult.error) {
@@ -125,24 +72,4 @@ export async function getVocabularyById(
         writings: writingsResult.data || [],
         readings: readingsResult.data || [],
     }
-}
-
-export function getVocabularyMeaning(vocabulary: Vocabulary) {
-    const firstSense = vocabulary.senses[0]
-
-    return (
-        firstSense?.meaning_vi ||
-        firstSense?.meaning_en ||
-        ""
-    )
-}
-
-export function getVocabularyPartOfSpeech(
-    vocabulary: Vocabulary
-) {
-    const partOfSpeechList = vocabulary.senses
-        .flatMap((sense) => sense.part_of_speech || [])
-        .filter(Boolean)
-
-    return Array.from(new Set(partOfSpeechList)).join(", ")
 }

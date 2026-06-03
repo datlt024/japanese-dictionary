@@ -1,4 +1,4 @@
-import { Tables } from "@/shared/types/database.generated"
+import type { Tables } from "@/shared/types/database.generated"
 
 export type VocabularyResult = {
     id: number
@@ -35,3 +35,10 @@ export type KanjiSearchItem = Pick<
     | "grade"
     | "frequency"
 >
+
+export type SearchResult = {
+    vocabularies: VocabularyResult[]
+    kanjis: KanjiSearchItem[]
+    grammars: GrammarSearchItem[]
+    examples: unknown[]
+}

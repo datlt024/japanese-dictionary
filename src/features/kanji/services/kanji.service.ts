@@ -8,14 +8,10 @@ import {
     findVocabulariesByIds,
     findVocabularySenses,
 } from "../repositories/kanji.repository"
-
-export type KanjiRelatedWord = {
-    id: number
-    word: string
-    kana: string | null
-    meaning_en: string | null
-    meaning_vi: string | null
-}
+import type {
+    KanjiRelatedWord,
+    KanjiReadingGroup,
+} from "../types"
 
 type VocabularySummary = Pick<
     Database["public"]["Tables"]["vocabularies"]["Row"],
@@ -31,11 +27,6 @@ type VocabularySense = {
 type KanjiVocabularyLink = {
     vocabulary_id: number
     priority: number | null
-}
-
-export type KanjiReadingGroup = {
-    reading: string
-    words: KanjiRelatedWord[]
 }
 
 const kanjiCache = new Map<string, Kanji | null>()
@@ -238,11 +229,6 @@ export async function getWordsByKanji(
     return sortWordsByLinkOrder(words, links)
 }
 
-export function getRelatedWordMeaning(
-    word: KanjiRelatedWord
-) {
-    return word.meaning_vi || word.meaning_en || ""
-}
 
 function katakanaToHiragana(text: string) {
     return text.replace(

@@ -8,27 +8,23 @@ import "@/styles/kanji-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 
-import { Kanji } from "@/features/kanji/types/kanji.types"
+import { uniqueArray } from "@/shared/utils/uniqueArray"
+
+import type {
+    Kanji,
+    KanjiReadingGroup,
+} from "@/features/kanji/types"
+
 import {
     getKanjiByCharacter,
-    getRelatedWordMeaning,
-    KanjiReadingGroup,
     getWordsByReadingGroups,
 } from "@/features/kanji/services/kanji.service"
 
-function extractKanjis(text: string) {
-    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g)).map(
-        (match) => match[0]
-    )
-}
-
-function uniqueArray(items: string[]) {
-    return Array.from(new Set(items))
-}
-
-function getKanjiMeaning(kanji: Kanji) {
-    return kanji.meaning_vi || kanji.meaning_en || "-"
-}
+import {
+    extractKanjis,
+    getKanjiMeaning,
+    getRelatedWordMeaning,
+} from "@/features/kanji/utils"
 
 export default function KanjiDetailPage() {
     const params = useParams<{ id: string }>()

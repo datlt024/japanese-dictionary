@@ -8,21 +8,21 @@ import "@/styles/vocabulary-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import { conjugateVerb } from "@/shared/utils/verbConjugation"
+import {
+    getVocabularyMeaning,
+    getVocabularyPartOfSpeech,
+    getVerbGroupLabel,
+} from "@/features/vocabulary/utils"
 
 import {
     getVocabularyById,
-    getVocabularyMeaning,
-    getVocabularyPartOfSpeech,
-    Vocabulary,
-} from "@/features/vocabulary/services/vocabulary.service"
+    getRelatedVocabularies,
+} from "@/features/vocabulary/services"
 
-type RelatedVocabulary = {
-    id: number
-    word: string
-    kana: string | null
-    meaning: string
-    priority_score: number | null
-}
+import type {
+    Vocabulary,
+    RelatedVocabulary,
+} from "@/features/vocabulary/types"
 
 export default function VocabularyDetailPage() {
     const params = useParams<{ id: string }>()
@@ -47,24 +47,10 @@ export default function VocabularyDetailPage() {
             setVocabulary(data)
 
             if (data) {
-                try {
-                    const response = await fetch(
-                        `/api/vocabulary/related?q=${encodeURIComponent(
-                            data.word
-                        )}`
-                    )
+                const related =
+                    await getRelatedVocabularies(data.word)
 
-                    const result = await response.json()
-
-                    setRelatedVocabularies(
-                        result.results || []
-                    )
-                } catch (error) {
-                    console.error(
-                        "Fetch related vocabularies error:",
-                        error
-                    )
-                }
+                setRelatedVocabularies(related)
             }
 
             setLoading(false)
@@ -81,18 +67,9 @@ export default function VocabularyDetailPage() {
         ? conjugateVerb(vocabulary.word, vocabulary.verb_group)
         : []
 
-    function getVerbGroupLabel(verbGroup: string | null) {
-        switch (verbGroup) {
-            case "group_1":
-                return "Động từ nhóm 1 - 五段動詞"
-            case "group_2":
-                return "Động từ nhóm 2 - 一段動詞"
-            case "group_3":
-                return "Động từ nhóm 3 - 不規則動詞"
-            default:
-                return null
-        }
-    }
+    const verbGroupLabel = vocabulary
+        ? getVerbGroupLabel(vocabulary.verb_group)
+        : null
 
     return (
         <AppLayout
@@ -242,19 +219,13 @@ export default function VocabularyDetailPage() {
                                 </div>
                             )}
 
-                            {getVerbGroupLabel(
-                                vocabulary.verb_group
-                            ) && (
-                                    <div className="detail-section">
-                                        <h2>Nhóm động từ</h2>
+                            {verbGroupLabel && (
+                                <div className="detail-section">
+                                    <h2>Nhóm động từ</h2>
 
-                                        <p>
-                                            {getVerbGroupLabel(
-                                                vocabulary.verb_group
-                                            )}
-                                        </p>
-                                    </div>
-                                )}
+                                    <p>{verbGroupLabel}</p>
+                                </div>
+                            )}
 
                             {conjugations.length > 0 && (
                                 <div className="detail-section">

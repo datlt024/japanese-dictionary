@@ -1,9 +1,8 @@
 import { NextRequest, NextResponse } from "next/server"
 
-import {
-    SearchTab,
-    searchDictionary,
-} from "@/features/search/services/search.service"
+import { searchDictionary } from "@/features/search/services/search.service"
+
+import type { SearchTab } from "@/features/search/types"
 
 function normalizeSearchTab(tab: string | null): SearchTab {
     if (

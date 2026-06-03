@@ -1,36 +1,18 @@
 import { NextRequest, NextResponse } from "next/server"
 
-import { supabase } from "@/shared/lib/supabase"
-
-type RelatedVocabularyResult = {
-    id: number
-    word: string
-    kana: string | null
-    meaning: string
-    priority_score: number | null
-}
+import { getRelatedVocabulariesFromDatabase } from "@/features/vocabulary/services/related-vocabulary.server.service"
 
 export async function GET(request: NextRequest) {
     const keyword =
         request.nextUrl.searchParams.get("q")?.trim() || ""
 
-    if (!keyword) {
-        return NextResponse.json({
-            results: [],
-        })
-    }
-
-    const { data, error } = await supabase.rpc(
-        "get_related_vocabularies_rpc",
-        {
-            search_keyword: keyword,
-        }
-    )
+    const { results, error } =
+        await getRelatedVocabulariesFromDatabase(keyword)
 
     if (error) {
         return NextResponse.json(
             {
-                error: error.message,
+                error,
             },
             {
                 status: 500,
@@ -39,6 +21,6 @@ export async function GET(request: NextRequest) {
     }
 
     return NextResponse.json({
-        results: (data || []) as RelatedVocabularyResult[],
+        results,
     })
 }

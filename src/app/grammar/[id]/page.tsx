@@ -7,21 +7,16 @@ import Link from "next/link"
 import "@/styles/grammar-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
+import { getGrammarMeaning } from "@/features/grammar/utils"
 
 import {
     getGrammarPointById,
     searchGrammarPoints,
-    GrammarPoint,
 } from "@/features/grammar/services/grammar.service"
 
-function getGrammarMeaning(grammar: GrammarPoint) {
-    return (
-        grammar.short_meaning_vi ||
-        grammar.meaning_vi ||
-        grammar.meaning_en ||
-        ""
-    )
-}
+import type {
+    GrammarPoint,
+} from "@/features/grammar/types"
 
 function RubyText({
     ruby,
