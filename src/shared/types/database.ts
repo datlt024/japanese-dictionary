@@ -22,7 +22,8 @@ export type GrammarSearchRow = {
 export type KanjiRow = {
     id: number
     kanji: string
-    meaning: string | null
+    meaning_vi: string | null
+    meaning_en: string | null
     onyomi: string | null
     kunyomi: string | null
     stroke_count: number | null

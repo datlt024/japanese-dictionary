@@ -62,7 +62,7 @@ export async function GET(request: NextRequest) {
         const { data } = await supabase
             .from("kanjis")
             .select(
-                "id, kanji, meaning, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
+                "id, kanji, meaning_vi, meaning_en, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
             )
             .eq("kanji", keyword)
             .maybeSingle()
