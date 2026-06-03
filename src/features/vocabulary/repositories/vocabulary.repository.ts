@@ -16,7 +16,7 @@ export async function findVocabularySensesByVocabularyId(
     return supabase
         .from("vocabulary_senses")
         .select(
-            "id, sense_index, meaning_en, meaning_vi, part_of_speech"
+            "id, sense_index, meaning_en, meaning_vi, meaning_vi_glosses, part_of_speech"
         )
         .eq("vocabulary_id", vocabularyId)
         .order("sense_index", { ascending: true })

@@ -6,6 +6,7 @@ export type VocabularySense = Pick<
     | "sense_index"
     | "meaning_en"
     | "meaning_vi"
+    | "meaning_vi_glosses"
     | "part_of_speech"
 >
 

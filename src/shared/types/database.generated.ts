@@ -110,6 +110,44 @@ export type Database = {
         }
         Relationships: []
       }
+      kanji_reading_examples: {
+        Row: {
+          created_at: string | null
+          id: number
+          kanji: string
+          priority: number | null
+          reading: string
+          reading_type: string
+          vocabulary_id: number
+        }
+        Insert: {
+          created_at?: string | null
+          id?: number
+          kanji: string
+          priority?: number | null
+          reading: string
+          reading_type: string
+          vocabulary_id: number
+        }
+        Update: {
+          created_at?: string | null
+          id?: number
+          kanji?: string
+          priority?: number | null
+          reading?: string
+          reading_type?: string
+          vocabulary_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "kanji_reading_examples_vocabulary_id_fkey"
+            columns: ["vocabulary_id"]
+            isOneToOne: false
+            referencedRelation: "vocabularies"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       kanji_vocabulary_links: {
         Row: {
           id: number
@@ -519,6 +557,7 @@ export type Database = {
           info: string[] | null
           meaning_en: string | null
           meaning_vi: string | null
+          meaning_vi_glosses: Json | null
           meaning_vi_status: string | null
           misc: string[] | null
           part_of_speech: string[] | null
@@ -533,6 +572,7 @@ export type Database = {
           info?: string[] | null
           meaning_en?: string | null
           meaning_vi?: string | null
+          meaning_vi_glosses?: Json | null
           meaning_vi_status?: string | null
           misc?: string[] | null
           part_of_speech?: string[] | null
@@ -547,6 +587,7 @@ export type Database = {
           info?: string[] | null
           meaning_en?: string | null
           meaning_vi?: string | null
+          meaning_vi_glosses?: Json | null
           meaning_vi_status?: string | null
           misc?: string[] | null
           part_of_speech?: string[] | null
@@ -607,6 +648,21 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      get_kanji_reading_examples_rpc: {
+        Args: {
+          search_kanji: string
+          search_reading: string
+          search_reading_type: string
+        }
+        Returns: {
+          id: number
+          kana: string
+          meaning_en: string
+          meaning_vi: string
+          priority: number
+          word: string
+        }[]
+      }
       get_kanji_related_words_rpc: {
         Args: { search_kanji: string }
         Returns: {
@@ -628,6 +684,7 @@ export type Database = {
           word: string
         }[]
       }
+      normalize_japanese_reading: { Args: { input: string }; Returns: string }
       search_kanji_reading_words_rpc: {
         Args: { search_kanji: string; search_reading: string }
         Returns: {
