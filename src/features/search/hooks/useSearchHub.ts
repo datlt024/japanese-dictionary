@@ -21,7 +21,6 @@ export type SearchVocabulary = {
 export type SearchKanji = {
     id: number
     kanji: string
-    meaning?: string | null
     meaning_vi?: string | null
     meaning_en?: string | null
     onyomi: string | null

@@ -252,7 +252,8 @@ export default function SearchHubDropdown({
 
                                         <div>
                                             <p>
-                                                {item.meaning ||
+                                                {item.meaning_vi ||
+                                                    item.meaning_en ||
                                                     "-"}
                                             </p>
 
