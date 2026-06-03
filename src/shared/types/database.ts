@@ -1,3 +1,5 @@
+import { Tables } from "@/shared/types/database.generated"
+
 export type VocabularyResult = {
     id: number
     word: string
@@ -9,25 +11,27 @@ export type VocabularyResult = {
     priority_score: number | null
 }
 
-export type GrammarSearchRow = {
-    id: number
-    pattern: string
-    reading: string | null
-    jlpt_level: string | null
-    meaning_vi: string | null
-    meaning_en: string | null
-    short_meaning_vi: string | null
-}
+export type GrammarSearchRow = Pick<
+    Tables<"grammars">,
+    | "id"
+    | "pattern"
+    | "reading"
+    | "jlpt_level"
+    | "meaning_vi"
+    | "meaning_en"
+    | "short_meaning_vi"
+>
 
-export type KanjiRow = {
-    id: number
-    kanji: string
-    meaning_vi: string | null
-    meaning_en: string | null
-    onyomi: string | null
-    kunyomi: string | null
-    stroke_count: number | null
-    jlpt: number | null
-    grade: number | null
-    frequency: number | null
-}
+export type KanjiRow = Pick<
+    Tables<"kanjis">,
+    | "id"
+    | "kanji"
+    | "meaning_vi"
+    | "meaning_en"
+    | "onyomi"
+    | "kunyomi"
+    | "stroke_count"
+    | "jlpt"
+    | "grade"
+    | "frequency"
+>

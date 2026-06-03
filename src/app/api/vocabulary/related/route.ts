@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 import { supabase } from "@/shared/lib/supabase"
 
-type RelatedVocabularyRow = {
+type RelatedVocabularyResult = {
     id: number
     word: string
     kana: string | null
@@ -39,6 +39,6 @@ export async function GET(request: NextRequest) {
     }
 
     return NextResponse.json({
-        results: (data || []) as RelatedVocabularyRow[],
+        results: (data || []) as RelatedVocabularyResult[],
     })
 }
