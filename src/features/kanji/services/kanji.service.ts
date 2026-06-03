@@ -1,5 +1,11 @@
-import { supabase } from "@/shared/lib/supabase"
 import { Kanji } from "../types/kanji.types"
+import {
+    findKanjiByCharacter,
+    findKanjiLinks,
+    findReadingWords,
+    findVocabulariesByIds,
+    findVocabularySenses,
+} from "../repositories/kanji.repository"
 
 export type KanjiRelatedWord = {
     id: number
@@ -65,15 +71,8 @@ async function attachMeanings(
         .filter((id) => !meaningCache.has(id))
 
     if (ids.length > 0) {
-        const { data: senses, error } = await supabase
-            .from("vocabulary_senses")
-            .select(
-                "vocabulary_id, meaning_en, meaning_vi"
-            )
-            .in("vocabulary_id", ids)
-            .order("sense_index", {
-                ascending: true,
-            })
+        const { data: senses, error } =
+            await findVocabularySenses(ids)
 
         if (error) {
             console.error(error)
@@ -115,11 +114,10 @@ async function getVocabularyIdsByKanji(
     character: string,
     limit = 20
 ) {
-    const { data: kanji, error: kanjiError } = await supabase
-        .from("kanjis")
-        .select("id")
-        .eq("kanji", character)
-        .maybeSingle()
+    const {
+        data: kanji,
+        error: kanjiError,
+    } = await findKanjiByCharacter(character)
 
     if (kanjiError) {
         console.error(kanjiError)
@@ -130,14 +128,11 @@ async function getVocabularyIdsByKanji(
         return []
     }
 
-    const { data, error } = await supabase
-        .from("kanji_vocabulary_links")
-        .select("vocabulary_id, priority")
-        .eq("kanji_id", kanji.id)
-        .order("priority", {
-            ascending: false,
-        })
-        .limit(limit)
+    const { data, error } =
+        await findKanjiLinks(
+            Number(kanji.id),
+            limit
+        )
 
     if (error) {
         console.error(error)
@@ -154,10 +149,10 @@ async function getVocabulariesByIds(
         return []
     }
 
-    const { data, error } = await supabase
-        .from("vocabularies")
-        .select("id, primary_word, primary_kana")
-        .in("id", vocabularyIds)
+    const { data, error } =
+        await findVocabulariesByIds(
+            vocabularyIds
+        )
 
     if (error) {
         console.error(error)
@@ -194,11 +189,8 @@ export async function getKanjiByCharacter(
         return kanjiCache.get(cacheKey) || null
     }
 
-    const { data, error } = await supabase
-        .from("kanjis")
-        .select("*")
-        .eq("kanji", character)
-        .maybeSingle()
+    const { data, error } =
+        await findKanjiByCharacter(character)
 
     if (error) {
         console.error(error)
@@ -291,18 +283,11 @@ export async function getWordsByReadingGroups(
 
     const results = await Promise.all(
         readings.map(async (reading) => {
-            const { data, error } = await supabase
-                .from("vocabularies")
-                .select("id, primary_word, primary_kana")
-                .ilike(
-                    "primary_word",
-                    `%${character}%`
+            const { data, error } =
+                await findReadingWords(
+                    character,
+                    reading.searchReading
                 )
-                .ilike(
-                    "primary_kana",
-                    `%${reading.searchReading}%`
-                )
-                .limit(5)
 
             if (error) {
                 console.error(error)
