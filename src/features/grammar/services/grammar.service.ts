@@ -1,6 +1,9 @@
-import { supabase } from "@/shared/lib/supabase"
-
 import type { GrammarPoint } from "../types"
+
+import {
+    findGrammarPointById,
+    searchGrammarPointsByKeyword,
+} from "../repositories/grammar.repository"
 
 export async function searchGrammarPoints(
     keyword: string
@@ -11,22 +14,8 @@ export async function searchGrammarPoints(
         return []
     }
 
-    const { data, error } = await supabase
-        .from("grammars")
-        .select("*")
-        .or(
-            [
-                `pattern.ilike.%${value}%`,
-                `reading.ilike.%${value}%`,
-                `meaning_vi.ilike.%${value}%`,
-                `meaning_en.ilike.%${value}%`,
-                `short_meaning_vi.ilike.%${value}%`,
-                `explanation_vi.ilike.%${value}%`,
-                `explanation_en.ilike.%${value}%`,
-            ].join(",")
-        )
-        .order("id", { ascending: true })
-        .limit(20)
+    const { data, error } =
+        await searchGrammarPointsByKeyword(value)
 
     if (error) {
         console.error("Supabase grammar search error:", error)
@@ -45,11 +34,8 @@ export async function getGrammarPointById(
         return null
     }
 
-    const { data, error } = await supabase
-        .from("grammars")
-        .select("*")
-        .eq("id", grammarId)
-        .maybeSingle()
+    const { data, error } =
+        await findGrammarPointById(grammarId)
 
     if (error) {
         console.error("Supabase grammar detail error:", error)

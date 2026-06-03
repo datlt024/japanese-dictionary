@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useParams } from "next/navigation"
 
-import "@/styles/vocabulary-detail.css"
+import "@/styles/pages/vocabulary-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import { conjugateVerb } from "@/shared/utils/verbConjugation"

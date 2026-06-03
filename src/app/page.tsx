@@ -1,6 +1,6 @@
 "use client"
 
-import "@/styles/home.css"
+import "@/styles/pages/home.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { useParams, useSearchParams } from "next/navigation"
 import Link from "next/link"
 
-import "@/styles/grammar-detail.css"
+import "@/styles/pages/grammar-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import { getGrammarMeaning } from "@/features/grammar/utils"

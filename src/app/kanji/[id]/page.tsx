@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useEffect, useMemo, useState } from "react"
 import { useParams, useSearchParams } from "next/navigation"
 
-import "@/styles/kanji-detail.css"
+import "@/styles/pages/kanji-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 
