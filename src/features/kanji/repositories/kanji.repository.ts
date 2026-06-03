@@ -29,9 +29,7 @@ export async function findVocabulariesByIds(
 ) {
     return supabase
         .from("vocabularies")
-        .select(
-            "id, primary_word, primary_kana"
-        )
+        .select("id, primary_word, primary_kana")
         .in("id", vocabularyIds)
 }
 
@@ -40,9 +38,7 @@ export async function findVocabularySenses(
 ) {
     return supabase
         .from("vocabulary_senses")
-        .select(
-            "vocabulary_id, meaning_en, meaning_vi"
-        )
+        .select("vocabulary_id, meaning_en, meaning_vi")
         .in("vocabulary_id", vocabularyIds)
         .order("sense_index", {
             ascending: true,
@@ -55,16 +51,8 @@ export async function findReadingWords(
 ) {
     return supabase
         .from("vocabularies")
-        .select(
-            "id, primary_word, primary_kana"
-        )
-        .ilike(
-            "primary_word",
-            `%${character}%`
-        )
-        .ilike(
-            "primary_kana",
-            `%${reading}%`
-        )
+        .select("id, primary_word, primary_kana")
+        .ilike("primary_word", `%${character}%`)
+        .ilike("primary_kana", `%${reading}%`)
         .limit(5)
 }

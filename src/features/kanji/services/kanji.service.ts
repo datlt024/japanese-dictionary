@@ -1,4 +1,5 @@
 import { Kanji } from "../types/kanji.types"
+import { Database } from "@/shared/types/database.generated"
 import {
     findKanjiByCharacter,
     findKanjiLinks,
@@ -15,11 +16,10 @@ export type KanjiRelatedWord = {
     meaning_vi: string | null
 }
 
-type VocabularyRow = {
-    id: number
-    primary_word: string
-    primary_kana: string | null
-}
+type VocabularyRow = Pick<
+    Database["public"]["Tables"]["vocabularies"]["Row"],
+    "id" | "primary_word" | "primary_kana"
+>
 
 type VocabularySenseRow = {
     vocabulary_id: number
@@ -29,7 +29,7 @@ type VocabularySenseRow = {
 
 type KanjiVocabularyLinkRow = {
     vocabulary_id: number
-    priority: number
+    priority: number | null
 }
 
 export type KanjiReadingGroup = {
@@ -77,9 +77,18 @@ async function attachMeanings(
         if (error) {
             console.error(error)
         } else {
-            const senseMap = getFirstSenseByVocabularyId(
-                (senses || []) as VocabularySenseRow[]
-            )
+            const validSenses = (senses || [])
+                .filter(
+                    (sense): sense is VocabularySenseRow =>
+                        sense.vocabulary_id !== null
+                )
+                .map((sense) => ({
+                    vocabulary_id: sense.vocabulary_id,
+                    meaning_en: sense.meaning_en,
+                    meaning_vi: sense.meaning_vi,
+                }))
+
+            const senseMap = getFirstSenseByVocabularyId(validSenses)
 
             for (const id of ids) {
                 const sense = senseMap.get(id)
@@ -139,7 +148,15 @@ async function getVocabularyIdsByKanji(
         return []
     }
 
-    return (data || []) as KanjiVocabularyLinkRow[]
+    return (data || [])
+        .filter(
+            (item): item is KanjiVocabularyLinkRow =>
+                item.vocabulary_id !== null
+        )
+        .map((item) => ({
+            vocabulary_id: item.vocabulary_id,
+            priority: item.priority,
+        }))
 }
 
 async function getVocabulariesByIds(
