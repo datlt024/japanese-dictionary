@@ -29,17 +29,6 @@ export type VocabularyReading = Pick<
     | "info"
 >
 
-type VocabularyTableRow = Pick<
-    Tables<"vocabularies">,
-    | "id"
-    | "jmdict_id"
-    | "primary_word"
-    | "primary_kana"
-    | "jlpt"
-    | "verb_group"
-    | "is_common"
->
-
 export type Vocabulary = {
     id: number
     jmdict_id: string | null
@@ -124,21 +113,17 @@ export async function getVocabularyById(
         return null
     }
 
-    const row = vocabulary as VocabularyTableRow
-
     return {
-        id: row.id,
-        jmdict_id: row.jmdict_id,
-        word: row.primary_word,
-        kana: row.primary_kana,
-        jlpt: row.jlpt,
-        verb_group: row.verb_group,
-        is_common: row.is_common,
-        senses: (sensesResult.data || []) as VocabularySense[],
-        writings:
-            (writingsResult.data || []) as VocabularyWriting[],
-        readings:
-            (readingsResult.data || []) as VocabularyReading[],
+        id: vocabulary.id,
+        jmdict_id: vocabulary.jmdict_id,
+        word: vocabulary.primary_word,
+        kana: vocabulary.primary_kana,
+        jlpt: vocabulary.jlpt,
+        verb_group: vocabulary.verb_group,
+        is_common: vocabulary.is_common,
+        senses: sensesResult.data || [],
+        writings: writingsResult.data || [],
+        readings: readingsResult.data || [],
     }
 }
 

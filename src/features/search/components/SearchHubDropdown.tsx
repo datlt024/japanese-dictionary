@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 
-import "./SearchHubDropdown.css"
+import styles from "./SearchHubDropdown.module.css"
 
 import { SearchTab } from "@/features/search/hooks/useSearchHub"
 
@@ -53,38 +53,31 @@ function sortVocabularies(
 
         const meaning = getVocabularyMeaning(item).toLowerCase()
 
-        if (word === searchText && item.word.length === 1)
+        if (word === searchText && item.word.length === 1) {
             return 0
+        }
 
         if (word === searchText) return 1
         if (kana === searchText) return 2
 
-        if (
-            item.is_common &&
-            word.startsWith(searchText)
-        )
+        if (item.is_common && word.startsWith(searchText)) {
             return 3
+        }
 
-        if (
-            item.is_common &&
-            kana.startsWith(searchText)
-        )
+        if (item.is_common && kana.startsWith(searchText)) {
             return 4
+        }
 
         if (word.startsWith(searchText)) return 5
         if (kana.startsWith(searchText)) return 6
 
-        if (
-            item.is_common &&
-            word.includes(searchText)
-        )
+        if (item.is_common && word.includes(searchText)) {
             return 7
+        }
 
-        if (
-            item.is_common &&
-            kana.includes(searchText)
-        )
+        if (item.is_common && kana.includes(searchText)) {
             return 8
+        }
 
         if (word.includes(searchText)) return 9
         if (kana.includes(searchText)) return 10
@@ -106,21 +99,14 @@ function sortGrammars(
 
     const getScore = (item: SearchGrammar) => {
         const pattern = item.pattern.toLowerCase()
-
-        const meaning = getGrammarMeaning(
-            item
-        ).toLowerCase()
-
+        const meaning = getGrammarMeaning(item).toLowerCase()
         const structure = (
             item.structure || ""
         ).toLowerCase()
 
         if (pattern === searchText) return 0
-
         if (pattern.includes(searchText)) return 1
-
         if (structure.includes(searchText)) return 2
-
         if (meaning.includes(searchText)) return 3
 
         return 99
@@ -167,15 +153,13 @@ export default function SearchHubDropdown({
     )
 
     return (
-        <div className="search-hub-dropdown">
-
-
-            <div className="search-hub-content">
+        <div className={styles.searchHubDropdown}>
+            <div className={styles.searchHubContent}>
                 {activeTab === "vocabulary" && (
                     <>
                         {result.vocabularies.length === 0 &&
                             !loading ? (
-                            <p className="search-hub-empty">
+                            <p className={styles.searchHubEmpty}>
                                 Không tìm thấy từ vựng.
                             </p>
                         ) : (
@@ -188,7 +172,7 @@ export default function SearchHubDropdown({
                                     <Link
                                         key={item.id}
                                         href={`/vocabulary/${item.id}`}
-                                        className="search-hub-item"
+                                        className={styles.searchHubItem}
                                     >
                                         <div>
                                             <strong>
@@ -224,14 +208,14 @@ export default function SearchHubDropdown({
                                     )}?q=${encodeURIComponent(
                                         cleanKeyword
                                     )}`}
-                                    className="search-hub-kanji"
+                                    className={styles.searchHubKanji}
                                 >
                                     <strong>{item}</strong>
                                 </Link>
                             ))
                         ) : result.kanjis.length === 0 &&
                             !loading ? (
-                            <p className="search-hub-empty">
+                            <p className={styles.searchHubEmpty}>
                                 Không tìm thấy Hán tự.
                             </p>
                         ) : (
@@ -244,7 +228,7 @@ export default function SearchHubDropdown({
                                         )}?q=${encodeURIComponent(
                                             cleanKeyword
                                         )}`}
-                                        className="search-hub-kanji"
+                                        className={styles.searchHubKanji}
                                     >
                                         <strong>
                                             {item.kanji}
@@ -277,7 +261,7 @@ export default function SearchHubDropdown({
                     <>
                         {result.grammars.length === 0 &&
                             !loading ? (
-                            <p className="search-hub-empty">
+                            <p className={styles.searchHubEmpty}>
                                 Không tìm thấy ngữ pháp.
                             </p>
                         ) : (
@@ -292,7 +276,7 @@ export default function SearchHubDropdown({
                                         href={`/grammar/${item.id}?q=${encodeURIComponent(
                                             cleanKeyword
                                         )}`}
-                                        className="search-hub-item"
+                                        className={styles.searchHubItem}
                                     >
                                         <div>
                                             <strong>

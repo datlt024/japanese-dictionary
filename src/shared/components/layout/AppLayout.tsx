@@ -1,4 +1,4 @@
-import "./AppLayout.css"
+import styles from "./AppLayout.module.css"
 
 import Sidebar from "./Sidebar"
 import Header from "./Header"
@@ -9,7 +9,12 @@ type AppLayoutProps = {
     children: React.ReactNode
     title?: string
     searchKeyword?: string
-    activeSearchTab?: "vocabulary" | "kanji" | "grammar" | "example" | "jpjp"
+    activeSearchTab?:
+    | "vocabulary"
+    | "kanji"
+    | "grammar"
+    | "example"
+    | "jpjp"
 }
 
 export default function AppLayout({
@@ -19,21 +24,21 @@ export default function AppLayout({
     activeSearchTab,
 }: AppLayoutProps) {
     return (
-        <div className="app-layout">
+        <div className={styles.appLayout}>
             <Sidebar />
 
-            <div className="app-main">
+            <div className={styles.appMain}>
                 <Header title={title} />
 
-                <div className="app-content">
-                    <section className="app-search-area">
+                <div className={styles.appContent}>
+                    <section className={styles.appSearchArea}>
                         <TopSearchBar
                             searchKeyword={searchKeyword}
                             activeSearchTab={activeSearchTab}
                         />
                     </section>
 
-                    <main className="app-page-content">
+                    <main className={styles.appPageContent}>
                         {children}
                     </main>
                 </div>

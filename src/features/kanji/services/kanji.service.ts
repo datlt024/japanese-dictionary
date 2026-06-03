@@ -1,5 +1,6 @@
-import { Kanji } from "../types/kanji.types"
 import { Database } from "@/shared/types/database.generated"
+
+import { Kanji } from "../types/kanji.types"
 import {
     findKanjiByCharacter,
     findKanjiLinks,
@@ -16,18 +17,18 @@ export type KanjiRelatedWord = {
     meaning_vi: string | null
 }
 
-type VocabularyRow = Pick<
+type VocabularySummary = Pick<
     Database["public"]["Tables"]["vocabularies"]["Row"],
     "id" | "primary_word" | "primary_kana"
 >
 
-type VocabularySenseRow = {
+type VocabularySense = {
     vocabulary_id: number
     meaning_en: string | null
     meaning_vi: string | null
 }
 
-type KanjiVocabularyLinkRow = {
+type KanjiVocabularyLink = {
     vocabulary_id: number
     priority: number | null
 }
@@ -50,9 +51,9 @@ const meaningCache = new Map<
 >()
 
 function getFirstSenseByVocabularyId(
-    senses: VocabularySenseRow[]
+    senses: VocabularySense[]
 ) {
-    const map = new Map<number, VocabularySenseRow>()
+    const map = new Map<number, VocabularySense>()
 
     for (const sense of senses) {
         if (!map.has(sense.vocabulary_id)) {
@@ -64,7 +65,7 @@ function getFirstSenseByVocabularyId(
 }
 
 async function attachMeanings(
-    vocabularies: VocabularyRow[]
+    vocabularies: VocabularySummary[]
 ): Promise<KanjiRelatedWord[]> {
     const ids = vocabularies
         .map((item) => item.id)
@@ -79,7 +80,7 @@ async function attachMeanings(
         } else {
             const validSenses = (senses || [])
                 .filter(
-                    (sense): sense is VocabularySenseRow =>
+                    (sense): sense is VocabularySense =>
                         sense.vocabulary_id !== null
                 )
                 .map((sense) => ({
@@ -88,7 +89,8 @@ async function attachMeanings(
                     meaning_vi: sense.meaning_vi,
                 }))
 
-            const senseMap = getFirstSenseByVocabularyId(validSenses)
+            const senseMap =
+                getFirstSenseByVocabularyId(validSenses)
 
             for (const id of ids) {
                 const sense = senseMap.get(id)
@@ -104,8 +106,7 @@ async function attachMeanings(
     }
 
     return vocabularies.map((item) => {
-        const meaning =
-            meaningCache.get(item.id)
+        const meaning = meaningCache.get(item.id)
 
         return {
             id: item.id,
@@ -122,7 +123,7 @@ async function attachMeanings(
 async function getVocabularyIdsByKanji(
     character: string,
     limit = 20
-) {
+): Promise<KanjiVocabularyLink[]> {
     const {
         data: kanji,
         error: kanjiError,
@@ -138,10 +139,7 @@ async function getVocabularyIdsByKanji(
     }
 
     const { data, error } =
-        await findKanjiLinks(
-            Number(kanji.id),
-            limit
-        )
+        await findKanjiLinks(Number(kanji.id), limit)
 
     if (error) {
         console.error(error)
@@ -150,7 +148,9 @@ async function getVocabularyIdsByKanji(
 
     return (data || [])
         .filter(
-            (item): item is KanjiVocabularyLinkRow =>
+            (
+                item
+            ): item is KanjiVocabularyLink =>
                 item.vocabulary_id !== null
         )
         .map((item) => ({
@@ -161,27 +161,25 @@ async function getVocabularyIdsByKanji(
 
 async function getVocabulariesByIds(
     vocabularyIds: number[]
-) {
+): Promise<VocabularySummary[]> {
     if (vocabularyIds.length === 0) {
         return []
     }
 
     const { data, error } =
-        await findVocabulariesByIds(
-            vocabularyIds
-        )
+        await findVocabulariesByIds(vocabularyIds)
 
     if (error) {
         console.error(error)
         return []
     }
 
-    return (data || []) as VocabularyRow[]
+    return data || []
 }
 
 function sortWordsByLinkOrder(
     words: KanjiRelatedWord[],
-    links: KanjiVocabularyLinkRow[]
+    links: KanjiVocabularyLink[]
 ) {
     const orderMap = new Map(
         links.map((item, index) => [
@@ -311,9 +309,7 @@ export async function getWordsByReadingGroups(
                 return null
             }
 
-            const words = await attachMeanings(
-                (data || []) as VocabularyRow[]
-            )
+            const words = await attachMeanings(data || [])
 
             if (words.length === 0) {
                 return null

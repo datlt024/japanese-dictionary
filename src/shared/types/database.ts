@@ -11,7 +11,7 @@ export type VocabularyResult = {
     priority_score: number | null
 }
 
-export type GrammarSearchRow = Pick<
+export type GrammarSearchItem = Pick<
     Tables<"grammars">,
     | "id"
     | "pattern"
@@ -22,7 +22,7 @@ export type GrammarSearchRow = Pick<
     | "short_meaning_vi"
 >
 
-export type KanjiRow = Pick<
+export type KanjiSearchItem = Pick<
     Tables<"kanjis">,
     | "id"
     | "kanji"

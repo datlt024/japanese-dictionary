@@ -1,6 +1,6 @@
 "use client"
 
-import "./TopSearchBar.css"
+import styles from "./TopSearchBar.module.css"
 
 import {
     FormEvent,
@@ -41,6 +41,15 @@ function extractKanjis(text: string) {
     return Array.from(text.matchAll(/[\u4e00-\u9faf]/g)).map(
         (match) => match[0]
     )
+}
+
+function getTabButtonClass(
+    currentTab: SearchTab,
+    targetTab: SearchTab
+) {
+    return currentTab === targetTab
+        ? `${styles.tabButton} ${styles.activeTab}`
+        : styles.tabButton
 }
 
 function TopSearchBarContent({
@@ -174,10 +183,10 @@ function TopSearchBarContent({
     }
 
     return (
-        <div className="top-search" ref={wrapperRef}>
-            <div className="top-search-inner">
+        <div className={styles.topSearch} ref={wrapperRef}>
+            <div className={styles.topSearchInner}>
                 <form onSubmit={handleSubmit}>
-                    <div className="search-dropdown-wrapper">
+                    <div className={styles.searchDropdownWrapper}>
                         <SearchBar
                             value={keyword}
                             onChange={handleChange}
@@ -193,14 +202,13 @@ function TopSearchBarContent({
                         )}
                     </div>
 
-                    <div className="top-search-tabs">
+                    <div className={styles.topSearchTabs}>
                         <button
                             type="button"
-                            className={
-                                activeTab === "vocabulary"
-                                    ? "active"
-                                    : ""
-                            }
+                            className={getTabButtonClass(
+                                activeTab,
+                                "vocabulary"
+                            )}
                             onClick={() =>
                                 handleTabClick("vocabulary")
                             }
@@ -210,9 +218,10 @@ function TopSearchBarContent({
 
                         <button
                             type="button"
-                            className={
-                                activeTab === "kanji" ? "active" : ""
-                            }
+                            className={getTabButtonClass(
+                                activeTab,
+                                "kanji"
+                            )}
                             onClick={() => handleTabClick("kanji")}
                         >
                             Hán tự
@@ -220,11 +229,10 @@ function TopSearchBarContent({
 
                         <button
                             type="button"
-                            className={
-                                activeTab === "example"
-                                    ? "active"
-                                    : ""
-                            }
+                            className={getTabButtonClass(
+                                activeTab,
+                                "example"
+                            )}
                             onClick={() => handleTabClick("example")}
                         >
                             Mẫu câu
@@ -232,11 +240,10 @@ function TopSearchBarContent({
 
                         <button
                             type="button"
-                            className={
-                                activeTab === "grammar"
-                                    ? "active"
-                                    : ""
-                            }
+                            className={getTabButtonClass(
+                                activeTab,
+                                "grammar"
+                            )}
                             onClick={() =>
                                 handleTabClick("grammar")
                             }
@@ -246,9 +253,10 @@ function TopSearchBarContent({
 
                         <button
                             type="button"
-                            className={
-                                activeTab === "jpjp" ? "active" : ""
-                            }
+                            className={getTabButtonClass(
+                                activeTab,
+                                "jpjp"
+                            )}
                             onClick={() => handleTabClick("jpjp")}
                         >
                             Nhật - Nhật

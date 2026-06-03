@@ -1,0 +1,48 @@
+.topSearch {
+    background: white;
+    border-radius: 14px;
+    padding: 18px;
+    margin: 0 auto 18px;
+    max-width: 1400px;
+}
+
+.topSearchInner {
+    max-width: 100%;
+    margin: 0;
+}
+
+.searchDropdownWrapper {
+    position: relative;
+}
+
+.topSearchTabs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.tabButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    background: transparent;
+
+    padding: 9px 14px;
+    border-radius: 10px;
+
+    color: #64748b;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.activeTab {
+    background: #dbeafe;
+    color: #1476e8;
+}

@@ -1,4 +1,4 @@
-import "./SearchBar.css"
+import styles from "./SearchBar.module.css"
 
 import { Search } from "lucide-react"
 
@@ -12,15 +12,20 @@ export default function SearchBar({
   onChange,
 }: SearchBarProps) {
   return (
-    <div className="search-container">
-      <Search size={20} className="search-icon" />
+    <div className={styles.searchContainer}>
+      <Search
+        size={20}
+        className={styles.searchIcon}
+      />
 
       <input
         type="text"
         placeholder="Tìm từ tiếng Nhật..."
         value={value}
-        onChange={(e) => onChange(e.target.value)}
-        className="search-input"
+        onChange={(e) =>
+          onChange(e.target.value)
+        }
+        className={styles.searchInput}
       />
     </div>
   )

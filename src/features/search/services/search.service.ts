@@ -1,6 +1,6 @@
 import {
-    GrammarSearchRow,
-    KanjiRow,
+    GrammarSearchItem,
+    KanjiSearchItem,
     VocabularyResult,
 } from "@/shared/types/database"
 
@@ -20,8 +20,8 @@ export type SearchTab =
 
 export type SearchResult = {
     vocabularies: VocabularyResult[]
-    kanjis: KanjiRow[]
-    grammars: GrammarSearchRow[]
+    kanjis: KanjiSearchItem[]
+    grammars: GrammarSearchItem[]
     examples: unknown[]
 }
 
@@ -48,8 +48,8 @@ export async function searchDictionary(
     }
 
     let vocabularies: VocabularyResult[] = []
-    let kanjis: KanjiRow[] = []
-    let grammars: GrammarSearchRow[] = []
+    let kanjis: KanjiSearchItem[] = []
+    let grammars: GrammarSearchItem[] = []
 
     if (tab === "vocabulary" || tab === "all") {
         const { data, error } =
@@ -70,7 +70,7 @@ export async function searchDictionary(
             console.error("Kanji search error:", error)
         }
 
-        kanjis = data ? ([data] as KanjiRow[]) : []
+        kanjis = data ? ([data] as KanjiSearchItem[]) : []
     }
 
     if (tab === "grammar" || tab === "all") {
@@ -81,9 +81,9 @@ export async function searchDictionary(
         } = await searchGrammarsByKeyword(keyword)
 
         grammars = uniqueById([
-            ...((grammarPatternResult.data || []) as GrammarSearchRow[]),
-            ...((grammarReadingResult.data || []) as GrammarSearchRow[]),
-            ...((grammarMeaningResult.data || []) as GrammarSearchRow[]),
+            ...((grammarPatternResult.data || []) as GrammarSearchItem[]),
+            ...((grammarReadingResult.data || []) as GrammarSearchItem[]),
+            ...((grammarMeaningResult.data || []) as GrammarSearchItem[]),
         ])
     }
 

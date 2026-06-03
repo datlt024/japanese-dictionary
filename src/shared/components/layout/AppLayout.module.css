@@ -1,0 +1,25 @@
+.appLayout {
+    display: flex;
+    min-height: 100vh;
+    background: #eef2f7;
+}
+
+.appMain {
+    flex: 1;
+    min-width: 0;
+    background: #eef2f7;
+}
+
+.appContent {
+    background: #eef2f7;
+}
+
+.appSearchArea {
+    padding: 24px 32px 0;
+    min-height: 132px;
+}
+
+.appPageContent {
+    padding: 24px 32px;
+    background: #eef2f7;
+}

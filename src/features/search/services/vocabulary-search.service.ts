@@ -1,23 +1,17 @@
 import { supabase } from "@/shared/lib/supabase"
-import { Tables } from "@/shared/types/database.generated"
 
 import { Vocabulary } from "../types/vocabulary.types"
 
-type SearchVocabularyRow = Pick<
-    Tables<"vocabularies">,
-    "id" | "primary_word" | "primary_kana" | "jlpt" | "is_common"
->
-
-type VocabularySenseRow = {
+type VocabularySense = {
     vocabulary_id: number
     meaning_en: string | null
     meaning_vi: string | null
 }
 
 function getFirstSenseByVocabularyId(
-    senses: VocabularySenseRow[]
+    senses: VocabularySense[]
 ) {
-    const map = new Map<number, VocabularySenseRow>()
+    const map = new Map<number, VocabularySense>()
 
     for (const sense of senses) {
         if (!map.has(sense.vocabulary_id)) {
@@ -37,7 +31,7 @@ export async function searchVocabularies(
         return []
     }
 
-    const { data: vocabularyData, error: vocabularyError } =
+    const { data: vocabularyRows, error: vocabularyError } =
         await supabase
             .from("vocabularies")
             .select(
@@ -63,10 +57,9 @@ export async function searchVocabularies(
         return []
     }
 
-    const vocabularyRows =
-        (vocabularyData || []) as SearchVocabularyRow[]
-
-    const vocabularyIds = vocabularyRows.map((item) => item.id)
+    const vocabularyIds = vocabularyRows.map(
+        (item) => item.id
+    )
 
     if (vocabularyIds.length === 0) {
         return []
@@ -96,7 +89,7 @@ export async function searchVocabularies(
 
     const validSenses = (senseData || [])
         .filter(
-            (sense): sense is VocabularySenseRow =>
+            (sense): sense is VocabularySense =>
                 sense.vocabulary_id !== null
         )
         .map((sense) => ({
