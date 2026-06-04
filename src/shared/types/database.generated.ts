@@ -558,6 +558,7 @@ export type Database = {
           meaning_en: string | null
           meaning_vi: string | null
           meaning_vi_glosses: Json | null
+          meaning_vi_source: string | null
           meaning_vi_status: string | null
           misc: string[] | null
           part_of_speech: string[] | null
@@ -573,6 +574,7 @@ export type Database = {
           meaning_en?: string | null
           meaning_vi?: string | null
           meaning_vi_glosses?: Json | null
+          meaning_vi_source?: string | null
           meaning_vi_status?: string | null
           misc?: string[] | null
           part_of_speech?: string[] | null
@@ -588,6 +590,7 @@ export type Database = {
           meaning_en?: string | null
           meaning_vi?: string | null
           meaning_vi_glosses?: Json | null
+          meaning_vi_source?: string | null
           meaning_vi_status?: string | null
           misc?: string[] | null
           part_of_speech?: string[] | null

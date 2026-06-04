@@ -8,13 +8,21 @@ import {
     useRef,
     useState,
 } from "react"
-import { useRouter } from "next/navigation"
+import {
+    useRouter,
+    useSearchParams,
+} from "next/navigation"
 
 import SearchBar from "@/features/search/components/SearchBar"
 import SearchHubDropdown from "@/features/search/components/SearchHubDropdown"
 
 import useSearchHistory from "@/features/history/hooks/useSearchHistory"
 import useSearchHub from "@/features/search/hooks/useSearchHub"
+
+import {
+    DictionaryLanguage,
+    normalizeDictionaryLanguage,
+} from "@/shared/types/dictionaryLanguage"
 
 export type SearchTab =
     | "vocabulary"
@@ -52,12 +60,26 @@ function getTabButtonClass(
         : styles.tabButton
 }
 
+function createUrlWithLanguage(
+    path: string,
+    language: DictionaryLanguage
+) {
+    const separator = path.includes("?") ? "&" : "?"
+
+    return `${path}${separator}lang=${language}`
+}
+
 function TopSearchBarContent({
     searchKeyword,
     activeSearchTab,
 }: Required<TopSearchBarProps>) {
     const router = useRouter()
+    const searchParams = useSearchParams()
     const wrapperRef = useRef<HTMLDivElement>(null)
+
+    const language = normalizeDictionaryLanguage(
+        searchParams.get("lang")
+    )
 
     const [keyword, setKeyword] = useState(searchKeyword)
     const [activeTab, setActiveTab] =
@@ -98,7 +120,9 @@ function TopSearchBarContent({
         tab: SearchTab
     ): Promise<SearchApiResponse> {
         const response = await fetch(
-            `/api/search?q=${encodeURIComponent(q)}&tab=${tab}`
+            `/api/search?q=${encodeURIComponent(
+                q
+            )}&tab=${tab}&lang=${language}`
         )
 
         return response.json() as Promise<SearchApiResponse>
@@ -113,12 +137,20 @@ function TopSearchBarContent({
             const kanjis = extractKanjis(q)
 
             if (kanjis.length > 0) {
-                return `/kanji/${kanjis[0]}?q=${encodeURIComponent(
-                    q
-                )}`
+                return createUrlWithLanguage(
+                    `/kanji/${kanjis[0]}?q=${encodeURIComponent(
+                        q
+                    )}`,
+                    language
+                )
             }
 
-            return `/search?q=${encodeURIComponent(q)}&tab=kanji`
+            return createUrlWithLanguage(
+                `/search?q=${encodeURIComponent(
+                    q
+                )}&tab=kanji`,
+                language
+            )
         }
 
         if (tab === "vocabulary") {
@@ -126,12 +158,18 @@ function TopSearchBarContent({
             const firstVocabulary = data.vocabularies?.[0]
 
             if (firstVocabulary) {
-                return `/vocabulary/${firstVocabulary.id}`
+                return createUrlWithLanguage(
+                    `/vocabulary/${firstVocabulary.id}`,
+                    language
+                )
             }
 
-            return `/search?q=${encodeURIComponent(
-                q
-            )}&tab=vocabulary`
+            return createUrlWithLanguage(
+                `/search?q=${encodeURIComponent(
+                    q
+                )}&tab=vocabulary`,
+                language
+            )
         }
 
         if (tab === "grammar") {
@@ -139,15 +177,26 @@ function TopSearchBarContent({
             const firstGrammar = data.grammars?.[0]
 
             if (firstGrammar) {
-                return `/grammar/${firstGrammar.id}?q=${encodeURIComponent(
-                    q
-                )}`
+                return createUrlWithLanguage(
+                    `/grammar/${firstGrammar.id}?q=${encodeURIComponent(
+                        q
+                    )}`,
+                    language
+                )
             }
 
-            return `/search?q=${encodeURIComponent(q)}&tab=grammar`
+            return createUrlWithLanguage(
+                `/search?q=${encodeURIComponent(
+                    q
+                )}&tab=grammar`,
+                language
+            )
         }
 
-        return `/search?q=${encodeURIComponent(q)}&tab=${tab}`
+        return createUrlWithLanguage(
+            `/search?q=${encodeURIComponent(q)}&tab=${tab}`,
+            language
+        )
     }
 
     async function navigateSearch(tab: SearchTab) {

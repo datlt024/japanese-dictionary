@@ -1,3 +1,5 @@
+import { Suspense } from "react"
+
 import styles from "./AppLayout.module.css"
 
 import Sidebar from "./Sidebar"
@@ -28,14 +30,20 @@ export default function AppLayout({
             <Sidebar />
 
             <div className={styles.appMain}>
-                <Header title={title} />
+                <Suspense fallback={null}>
+                    <Header title={title} />
+                </Suspense>
 
                 <div className={styles.appContent}>
                     <section className={styles.appSearchArea}>
-                        <TopSearchBar
-                            searchKeyword={searchKeyword}
-                            activeSearchTab={activeSearchTab}
-                        />
+                        <Suspense fallback={null}>
+                            <TopSearchBar
+                                searchKeyword={searchKeyword}
+                                activeSearchTab={
+                                    activeSearchTab
+                                }
+                            />
+                        </Suspense>
                     </section>
 
                     <main className={styles.appPageContent}>

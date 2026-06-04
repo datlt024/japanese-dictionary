@@ -2,30 +2,54 @@
 
 import { useEffect, useState } from "react"
 import Link from "next/link"
-import { useParams } from "next/navigation"
+import { useParams, useSearchParams } from "next/navigation"
 
 import "@/styles/pages/vocabulary-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import { conjugateVerb } from "@/shared/utils/verbConjugation"
+
 import {
+    capitalizeFirstLetter,
+    formatMeaningEn,
     getVocabularyMeaning,
     getVocabularyPartOfSpeech,
     getVerbGroupLabel,
 } from "@/features/vocabulary/utils"
 
 import {
-    getVocabularyById,
     getRelatedVocabularies,
+    getVocabularyById,
 } from "@/features/vocabulary/services"
 
 import type {
-    Vocabulary,
     RelatedVocabulary,
+    Vocabulary,
 } from "@/features/vocabulary/types"
+
+function formatMeaningVi(text: string) {
+    const normalized = text.trim()
+
+    const dictionaryPairs: Record<string, string> = {
+        "sặc sỡ lòe loẹt": "sặc sỡ; lòe loẹt",
+        "công khai trắng trợn": "công khai; trắng trợn",
+    }
+
+    const replaced = dictionaryPairs[normalized] || normalized
+
+    return capitalizeFirstLetter(replaced)
+}
+
+function formatGlossMeaning(text: string) {
+    return capitalizeFirstLetter(text.trim())
+}
 
 export default function VocabularyDetailPage() {
     const params = useParams<{ id: string }>()
+    const searchParams = useSearchParams()
+
+    const language =
+        searchParams.get("lang") === "en" ? "en" : "vi"
 
     const [vocabulary, setVocabulary] =
         useState<Vocabulary | null>(null)
@@ -103,7 +127,20 @@ export default function VocabularyDetailPage() {
                                 </p>
 
                                 <p className="detail-meaning">
-                                    {displayMeaning}
+                                    {language === "en"
+                                        ? capitalizeFirstLetter(
+                                            formatMeaningEn(
+                                                vocabulary
+                                                    .senses?.[0]
+                                                    ?.meaning_en
+                                            ) || "Updating..."
+                                        )
+                                        : formatMeaningVi(
+                                            vocabulary.senses?.[0]
+                                                ?.meaning_vi ||
+                                            displayMeaning ||
+                                            "Đang cập nhật"
+                                        )}
                                 </p>
 
                                 <div className="detail-actions">
@@ -128,34 +165,88 @@ export default function VocabularyDetailPage() {
                             </div>
 
                             <div className="detail-section">
-                                <h2>Từ này có nghĩa là</h2>
+                                <h2>
+                                    {language === "en"
+                                        ? "Meaning"
+                                        : "Từ này có nghĩa là"}
+                                </h2>
 
                                 {vocabulary.senses.length > 0 ? (
                                     <div className="sense-list">
                                         {vocabulary.senses.map(
-                                            (sense, index) => (
-                                                <div
-                                                    key={sense.id}
-                                                    className="sense-item"
-                                                >
-                                                    <p className="blue-title">
-                                                        <strong>
-                                                            {index + 1}.{" "}
-                                                            {sense.meaning_vi ||
-                                                                sense.meaning_en ||
-                                                                "Đang cập nhật"}
-                                                        </strong>
-                                                    </p>
+                                            (sense, index) => {
+                                                const meaning =
+                                                    language === "en"
+                                                        ? formatMeaningEn(
+                                                            sense.meaning_en
+                                                        ) ||
+                                                        "Updating..."
+                                                        : sense.meaning_vi ||
+                                                        formatMeaningEn(
+                                                            sense.meaning_en
+                                                        ) ||
+                                                        "Đang cập nhật"
 
-                                                    {sense.meaning_en && (
-                                                        <p className="sense-en">
-                                                            {
-                                                                sense.meaning_en
-                                                            }
+                                                const glosses =
+                                                    Array.isArray(
+                                                        sense.meaning_vi_glosses
+                                                    )
+                                                        ? sense.meaning_vi_glosses
+                                                        : []
+
+                                                return (
+                                                    <div
+                                                        key={sense.id}
+                                                        className="sense-item"
+                                                    >
+                                                        <p className="blue-title">
+                                                            <strong>
+                                                                {index +
+                                                                    1}
+                                                                .{" "}
+                                                                {language ===
+                                                                    "en"
+                                                                    ? capitalizeFirstLetter(
+                                                                        meaning
+                                                                    )
+                                                                    : formatMeaningVi(
+                                                                        meaning
+                                                                    )}
+                                                            </strong>
                                                         </p>
-                                                    )}
-                                                </div>
-                                            )
+
+                                                        {language ===
+                                                            "vi" &&
+                                                            glosses.length >
+                                                            0 && (
+                                                                <ul className="sense-gloss-list">
+                                                                    {glosses.map(
+                                                                        (
+                                                                            gloss
+                                                                        ) => (
+                                                                            <li
+                                                                                key={
+                                                                                    gloss.index
+                                                                                }
+                                                                                className="sense-gloss-item"
+                                                                            >
+                                                                                <span className="sense-gloss-bullet">
+                                                                                    •
+                                                                                </span>
+
+                                                                                <span>
+                                                                                    {formatGlossMeaning(
+                                                                                        gloss.meaning
+                                                                                    )}
+                                                                                </span>
+                                                                            </li>
+                                                                        )
+                                                                    )}
+                                                                </ul>
+                                                            )}
+                                                    </div>
+                                                )
+                                            }
                                         )}
                                     </div>
                                 ) : (
@@ -272,7 +363,7 @@ export default function VocabularyDetailPage() {
                                             (item) => (
                                                 <Link
                                                     key={item.id}
-                                                    href={`/vocabulary/${item.id}`}
+                                                    href={`/vocabulary/${item.id}?lang=${language}`}
                                                     className={
                                                         item.id ===
                                                             vocabulary.id
@@ -321,7 +412,7 @@ export default function VocabularyDetailPage() {
                                         .map((char) => (
                                             <Link
                                                 key={char}
-                                                href={`/kanji/${char}`}
+                                                href={`/kanji/${char}?lang=${language}`}
                                                 className="kanji-box"
                                             >
                                                 {char}

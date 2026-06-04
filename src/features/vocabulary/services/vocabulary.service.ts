@@ -1,4 +1,4 @@
-import type { Vocabulary } from "../types/vocabulary.type"
+import type { Vocabulary, VocabularySense } from "../types/vocabulary.type"
 
 import {
     findVocabularyBaseById,
@@ -68,7 +68,8 @@ export async function getVocabularyById(
         jlpt: vocabulary.jlpt,
         verb_group: vocabulary.verb_group,
         is_common: vocabulary.is_common,
-        senses: sensesResult.data || [],
+        senses:
+            (sensesResult.data as VocabularySense[]) || [],
         writings: writingsResult.data || [],
         readings: readingsResult.data || [],
     }

@@ -1,14 +1,25 @@
 import { Tables } from "@/shared/types/database.generated"
 
-export type VocabularySense = Pick<
-    Tables<"vocabulary_senses">,
-    | "id"
-    | "sense_index"
-    | "meaning_en"
-    | "meaning_vi"
-    | "meaning_vi_glosses"
-    | "part_of_speech"
->
+export type MeaningGloss = {
+    index: number
+    meaning: string
+    examples: string[]
+}
+
+export type VocabularySense =
+    Omit<
+        Pick<
+            Tables<"vocabulary_senses">,
+            | "id"
+            | "sense_index"
+            | "meaning_en"
+            | "meaning_vi"
+            | "part_of_speech"
+        >,
+        never
+    > & {
+        meaning_vi_glosses: MeaningGloss[] | null
+    }
 
 export type VocabularyWriting = Pick<
     Tables<"vocabulary_writings">,
