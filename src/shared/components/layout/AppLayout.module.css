@@ -18,10 +18,9 @@
 
 .appSearchArea,
 .appPageContent {
-    width: 100%;
-    max-width: min(1720px, calc(100vw - 48px));
+    width: min(100% - clamp(32px, 4vw, 72px), 1560px);
 
-    margin: 0 auto;
+    margin-inline: auto;
     box-sizing: border-box;
 }
 
@@ -38,7 +37,7 @@
 @media (max-width: 1280px) {
     .appSearchArea,
     .appPageContent {
-        max-width: calc(100vw - 32px);
+        width: min(100% - 32px, 1280px);
     }
 
     .appSearchArea {
@@ -55,7 +54,7 @@
 @media (max-width: 768px) {
     .appSearchArea,
     .appPageContent {
-        max-width: calc(100vw - 24px);
+        width: calc(100% - 24px);
     }
 
     .appSearchArea {
