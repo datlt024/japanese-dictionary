@@ -1,9 +1,9 @@
 .topSearch {
     width: 100%;
-    max-width: none;
+    min-width: 0;
 
     margin: 0 auto 18px;
-    padding: 18px;
+    padding: clamp(14px, 1.2vw, 18px);
 
     background: white;
     border-radius: 14px;
@@ -13,9 +13,7 @@
 
 .topSearchInner {
     width: 100%;
-    max-width: 100%;
     min-width: 0;
-
     margin: 0;
 }
 
@@ -26,7 +24,6 @@
 
 .searchDropdownWrapper {
     position: relative;
-
     width: 100%;
     min-width: 0;
 }
@@ -73,4 +70,20 @@
 .activeTab {
     background: #dbeafe;
     color: #1476e8;
+}
+
+@media (max-width: 768px) {
+    .topSearch {
+        margin-bottom: 12px;
+        border-radius: 12px;
+    }
+
+    .topSearchTabs {
+        gap: 6px;
+    }
+
+    .tabButton {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
 }

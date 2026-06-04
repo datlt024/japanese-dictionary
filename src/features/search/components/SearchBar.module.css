@@ -19,7 +19,7 @@
     border: 1px solid #d1d5db;
     border-radius: 16px;
 
-    font-size: 18px;
+    font-size: clamp(15px, 1vw, 18px);
 
     outline: none;
     transition: 0.2s;
@@ -39,4 +39,15 @@
     transform: translateY(-50%);
 
     color: #9ca3af;
+}
+
+@media (max-width: 768px) {
+    .searchInput {
+        padding: 13px 14px 13px 44px;
+        border-radius: 14px;
+    }
+
+    .searchIcon {
+        left: 14px;
+    }
 }
