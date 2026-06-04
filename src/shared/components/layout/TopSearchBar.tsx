@@ -72,14 +72,12 @@ function createUrlWithLanguage(
 function TopSearchBarContent({
     searchKeyword,
     activeSearchTab,
-}: Required<TopSearchBarProps>) {
+    language,
+}: Required<TopSearchBarProps> & {
+    language: DictionaryLanguage
+}) {
     const router = useRouter()
-    const searchParams = useSearchParams()
     const wrapperRef = useRef<HTMLDivElement>(null)
-
-    const language = normalizeDictionaryLanguage(
-        searchParams.get("lang")
-    )
 
     const [keyword, setKeyword] = useState(searchKeyword)
     const [activeTab, setActiveTab] =
@@ -87,7 +85,11 @@ function TopSearchBarContent({
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
     const { addHistory } = useSearchHistory()
-    const { result, loading } = useSearchHub(keyword, activeTab)
+    const { result, loading } = useSearchHub(
+        keyword,
+        activeTab,
+        language
+    )
 
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
@@ -247,6 +249,7 @@ function TopSearchBarContent({
                                 keyword={keyword}
                                 loading={loading}
                                 activeTab={activeTab}
+                                language={language}
                             />
                         )}
                     </div>
@@ -271,7 +274,9 @@ function TopSearchBarContent({
                                 activeTab,
                                 "kanji"
                             )}
-                            onClick={() => handleTabClick("kanji")}
+                            onClick={() =>
+                                handleTabClick("kanji")
+                            }
                         >
                             Hán tự
                         </button>
@@ -282,7 +287,9 @@ function TopSearchBarContent({
                                 activeTab,
                                 "example"
                             )}
-                            onClick={() => handleTabClick("example")}
+                            onClick={() =>
+                                handleTabClick("example")
+                            }
                         >
                             Mẫu câu
                         </button>
@@ -306,7 +313,9 @@ function TopSearchBarContent({
                                 activeTab,
                                 "jpjp"
                             )}
-                            onClick={() => handleTabClick("jpjp")}
+                            onClick={() =>
+                                handleTabClick("jpjp")
+                            }
                         >
                             Nhật - Nhật
                         </button>
@@ -321,11 +330,18 @@ export default function TopSearchBar({
     searchKeyword = "",
     activeSearchTab = "vocabulary",
 }: TopSearchBarProps) {
+    const searchParams = useSearchParams()
+
+    const language = normalizeDictionaryLanguage(
+        searchParams.get("lang")
+    )
+
     return (
         <TopSearchBarContent
-            key={`${searchKeyword}-${activeSearchTab}`}
+            key={`${searchKeyword}-${activeSearchTab}-${language}`}
             searchKeyword={searchKeyword}
             activeSearchTab={activeSearchTab}
+            language={language}
         />
     )
 }

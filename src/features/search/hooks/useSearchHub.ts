@@ -1,5 +1,7 @@
 import useSWR from "swr"
 
+import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
+
 export type SearchTab =
     | "vocabulary"
     | "kanji"
@@ -90,16 +92,16 @@ async function fetchSearchResult(
 
 export default function useSearchHub(
     keyword: string,
-    activeTab: SearchTab
+    activeTab: SearchTab,
+    language: DictionaryLanguage = "vi"
 ) {
     const normalizedKeyword = keyword.trim()
-
     const shouldSearch = Boolean(normalizedKeyword)
 
     const searchUrl = shouldSearch
         ? `/api/search?q=${encodeURIComponent(
             normalizedKeyword
-        )}&tab=${activeTab}`
+        )}&tab=${activeTab}&lang=${language}`
         : null
 
     const { data, isLoading, error } = useSWR(

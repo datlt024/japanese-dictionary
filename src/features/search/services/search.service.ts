@@ -12,6 +12,8 @@ import {
     searchVocabulariesByKeyword,
 } from "../repositories/search.repository"
 
+import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
+
 function createEmptySearchResult(): SearchResult {
     return {
         vocabularies: [],
@@ -33,7 +35,8 @@ function normalizeKeyword(keyword: string) {
 
 export async function searchDictionary(
     keyword: string,
-    tab: SearchTab
+    tab: SearchTab,
+    language: DictionaryLanguage = "vi"
 ): Promise<SearchResult> {
     const normalizedKeyword = normalizeKeyword(keyword)
 
@@ -45,7 +48,10 @@ export async function searchDictionary(
 
     if (tab === "vocabulary" || tab === "all") {
         const { data, error } =
-            await searchVocabulariesByKeyword(normalizedKeyword)
+            await searchVocabulariesByKeyword(
+                normalizedKeyword,
+                language
+            )
 
         if (error) {
             console.error("Vocabulary search error:", error)
@@ -73,7 +79,10 @@ export async function searchDictionary(
             grammarPatternResult,
             grammarReadingResult,
             grammarMeaningResult,
-        } = await searchGrammarsByKeyword(normalizedKeyword)
+        } = await searchGrammarsByKeyword(
+            normalizedKeyword,
+            language
+        )
 
         result.grammars = uniqueById([
             ...((grammarPatternResult.data || []) as GrammarSearchItem[]),

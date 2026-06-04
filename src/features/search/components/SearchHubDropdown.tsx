@@ -4,13 +4,14 @@ import Link from "next/link"
 
 import styles from "./SearchHubDropdown.module.css"
 
-import { SearchTab } from "@/features/search/hooks/useSearchHub"
+import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
 import {
     SearchHubResult,
     SearchVocabulary,
     SearchKanji,
     SearchGrammar,
+    SearchTab,
 } from "@/features/search/hooks/useSearchHub"
 
 type Props = {
@@ -18,9 +19,17 @@ type Props = {
     keyword: string
     loading: boolean
     activeTab: SearchTab
+    language: DictionaryLanguage
 }
 
-function getVocabularyMeaning(item: SearchVocabulary) {
+function getVocabularyMeaning(
+    item: SearchVocabulary,
+    language: DictionaryLanguage
+) {
+    if (language === "en") {
+        return item.meaning_en || item.meaning_vi || ""
+    }
+
     return item.meaning_vi || item.meaning_en || ""
 }
 
@@ -34,13 +43,32 @@ function getVocabularyKana(item: SearchVocabulary) {
     return item.kana || "-"
 }
 
-function getGrammarMeaning(item: SearchGrammar) {
+function getGrammarMeaning(
+    item: SearchGrammar,
+    language: DictionaryLanguage
+) {
+    if (language === "en") {
+        return item.meaning_en || item.meaning_vi || ""
+    }
+
     return item.meaning_vi || item.meaning_en || ""
+}
+
+function getKanjiMeaning(
+    item: SearchKanji,
+    language: DictionaryLanguage
+) {
+    if (language === "en") {
+        return item.meaning_en || item.meaning_vi || "-"
+    }
+
+    return item.meaning_vi || item.meaning_en || "-"
 }
 
 function sortVocabularies(
     items: SearchVocabulary[],
-    keyword: string
+    keyword: string,
+    language: DictionaryLanguage
 ) {
     const searchText = keyword.trim().toLowerCase()
 
@@ -51,7 +79,10 @@ function sortVocabularies(
             ? item.kana.join(" ").toLowerCase()
             : (item.kana || "").toLowerCase()
 
-        const meaning = getVocabularyMeaning(item).toLowerCase()
+        const meaning = getVocabularyMeaning(
+            item,
+            language
+        ).toLowerCase()
 
         if (word === searchText && item.word.length === 1) {
             return 0
@@ -93,13 +124,17 @@ function sortVocabularies(
 
 function sortGrammars(
     items: SearchGrammar[],
-    keyword: string
+    keyword: string,
+    language: DictionaryLanguage
 ) {
     const searchText = keyword.trim().toLowerCase()
 
     const getScore = (item: SearchGrammar) => {
         const pattern = item.pattern.toLowerCase()
-        const meaning = getGrammarMeaning(item).toLowerCase()
+        const meaning = getGrammarMeaning(
+            item,
+            language
+        ).toLowerCase()
         const structure = (
             item.structure || ""
         ).toLowerCase()
@@ -132,6 +167,7 @@ export default function SearchHubDropdown({
     keyword,
     loading,
     activeTab,
+    language,
 }: Props) {
     const cleanKeyword = keyword.trim()
 
@@ -165,14 +201,17 @@ export default function SearchHubDropdown({
                         ) : (
                             sortVocabularies(
                                 result.vocabularies,
-                                cleanKeyword
+                                cleanKeyword,
+                                language
                             )
                                 .slice(0, 10)
-                                .map((item) => (
+                                .map((item, index) => (
                                     <Link
-                                        key={item.id}
-                                        href={`/vocabulary/${item.id}`}
-                                        className={styles.searchHubItem}
+                                        key={`vocabulary-${item.id}-${index}`}
+                                        href={`/vocabulary/${item.id}?lang=${language}`}
+                                        className={
+                                            styles.searchHubItem
+                                        }
                                     >
                                         <div>
                                             <strong>
@@ -188,8 +227,9 @@ export default function SearchHubDropdown({
 
                                         <p>
                                             {getVocabularyMeaning(
-                                                item
-                                            )}
+                                                item,
+                                                language
+                                            ) || "Đang cập nhật"}
                                         </p>
                                     </Link>
                                 ))
@@ -200,15 +240,17 @@ export default function SearchHubDropdown({
                 {activeTab === "kanji" && (
                     <>
                         {kanjiOptions.length > 0 ? (
-                            kanjiOptions.map((item) => (
+                            kanjiOptions.map((item, index) => (
                                 <Link
-                                    key={item}
+                                    key={`kanji-option-${item}-${index}`}
                                     href={`/kanji/${encodeURIComponent(
                                         item
                                     )}?q=${encodeURIComponent(
                                         cleanKeyword
-                                    )}`}
-                                    className={styles.searchHubKanji}
+                                    )}&lang=${language}`}
+                                    className={
+                                        styles.searchHubKanji
+                                    }
                                 >
                                     <strong>{item}</strong>
                                 </Link>
@@ -220,15 +262,20 @@ export default function SearchHubDropdown({
                             </p>
                         ) : (
                             result.kanjis.map(
-                                (item: SearchKanji) => (
+                                (
+                                    item: SearchKanji,
+                                    index
+                                ) => (
                                     <Link
-                                        key={item.id}
+                                        key={`kanji-${item.id}-${index}`}
                                         href={`/kanji/${encodeURIComponent(
                                             item.kanji
                                         )}?q=${encodeURIComponent(
                                             cleanKeyword
-                                        )}`}
-                                        className={styles.searchHubKanji}
+                                        )}&lang=${language}`}
+                                        className={
+                                            styles.searchHubKanji
+                                        }
                                     >
                                         <strong>
                                             {item.kanji}
@@ -236,9 +283,10 @@ export default function SearchHubDropdown({
 
                                         <div>
                                             <p>
-                                                {item.meaning_vi ||
-                                                    item.meaning_en ||
-                                                    "-"}
+                                                {getKanjiMeaning(
+                                                    item,
+                                                    language
+                                                )}
                                             </p>
 
                                             <span>
@@ -267,16 +315,19 @@ export default function SearchHubDropdown({
                         ) : (
                             sortGrammars(
                                 result.grammars,
-                                cleanKeyword
+                                cleanKeyword,
+                                language
                             )
                                 .slice(0, 10)
-                                .map((item) => (
+                                .map((item, index) => (
                                     <Link
-                                        key={item.id}
+                                        key={`grammar-${item.id}-${index}`}
                                         href={`/grammar/${item.id}?q=${encodeURIComponent(
                                             cleanKeyword
-                                        )}`}
-                                        className={styles.searchHubItem}
+                                        )}&lang=${language}`}
+                                        className={
+                                            styles.searchHubItem
+                                        }
                                     >
                                         <div>
                                             <strong>
@@ -291,8 +342,9 @@ export default function SearchHubDropdown({
 
                                         <p>
                                             {getGrammarMeaning(
-                                                item
-                                            )}
+                                                item,
+                                                language
+                                            ) || "Đang cập nhật"}
                                         </p>
                                     </Link>
                                 ))
