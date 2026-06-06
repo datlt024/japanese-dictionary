@@ -28,13 +28,23 @@ export async function searchVocabulariesByKeyword(
         }
     }
 
-    const escapedValue = escapeLikePattern(value)
-
     if (isJapaneseKeyword(value)) {
+        const startedAt = performance.now()
+
         const { data, error } = await supabaseServer.rpc(
             "search_vocabularies_rpc",
             {
                 search_keyword: value,
+            }
+        )
+
+        console.log(
+            "[search_vocabularies_rpc]",
+            Math.round(performance.now() - startedAt),
+            "ms",
+            {
+                keyword: value,
+                count: data?.length || 0,
             }
         )
 
@@ -44,8 +54,11 @@ export async function searchVocabulariesByKeyword(
         }
     }
 
+    const escapedValue = escapeLikePattern(value)
     const meaningColumn =
         language === "en" ? "meaning_en" : "meaning_vi"
+
+    const startedAt = performance.now()
 
     const senseResult = await supabaseServer
         .from("vocabulary_senses")
@@ -68,6 +81,17 @@ export async function searchVocabulariesByKeyword(
         .ilike(meaningColumn, `%${escapedValue}%`)
         .not(meaningColumn, "is", null)
         .limit(SEARCH_VOCABULARY_LIMIT)
+
+    console.log(
+        "[search_vocabulary_meaning]",
+        Math.round(performance.now() - startedAt),
+        "ms",
+        {
+            keyword: value,
+            language,
+            count: senseResult.data?.length || 0,
+        }
+    )
 
     if (senseResult.error) {
         return {

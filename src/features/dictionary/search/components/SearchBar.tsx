@@ -1,8 +1,16 @@
+"use client"
+
+import {
+  useRef,
+  useState,
+  type ChangeEvent,
+} from "react"
+import { Search } from "lucide-react"
+
 import styles from "./SearchBar.module.css"
 
-import type { ChangeEvent } from "react"
-
-import { Search } from "lucide-react"
+import HandwritingButton from "@/features/dictionary/handwriting/components/HandwritingButton"
+import HandwritingModal from "@/features/dictionary/handwriting/components/HandwritingModal"
 
 type SearchBarProps = {
   value: string
@@ -15,26 +23,56 @@ export default function SearchBar({
   onChange,
   placeholder = "Tìm từ tiếng Nhật...",
 }: SearchBarProps) {
-  function handleChange(
-    event: ChangeEvent<HTMLInputElement>
-  ) {
+  const inputRef = useRef<HTMLInputElement | null>(null)
+  const [handwritingOpen, setHandwritingOpen] = useState(false)
+
+  function handleChange(event: ChangeEvent<HTMLInputElement>) {
     onChange(event.target.value)
   }
 
-  return (
-    <div className={styles.searchContainer}>
-      <Search
-        size={20}
-        className={styles.searchIcon}
-      />
+  function handleOpenHandwriting() {
+    inputRef.current?.blur()
+    setHandwritingOpen(true)
+  }
 
-      <input
-        type="text"
-        value={value}
-        placeholder={placeholder}
-        onChange={handleChange}
-        className={styles.searchInput}
+  function handleCloseHandwriting() {
+    setHandwritingOpen(false)
+  }
+
+  function handleSelectHandwriting(text: string) {
+    inputRef.current?.blur()
+    onChange(`${value}${text}`)
+  }
+
+  return (
+    <>
+      <div className={styles.searchContainer}>
+        <Search
+          size={20}
+          className={styles.searchIcon}
+        />
+
+        <input
+          ref={inputRef}
+          type="text"
+          value={value}
+          placeholder={placeholder}
+          onChange={handleChange}
+          className={styles.searchInput}
+        />
+
+        <div className={styles.handwritingAction}>
+          <HandwritingButton
+            onClick={handleOpenHandwriting}
+          />
+        </div>
+      </div>
+
+      <HandwritingModal
+        open={handwritingOpen}
+        onClose={handleCloseHandwriting}
+        onSelect={handleSelectHandwriting}
       />
-    </div>
+    </>
   )
 }

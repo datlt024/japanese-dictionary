@@ -1,0 +1,46 @@
+.button {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #dbe3ef;
+    border-radius: 10px;
+    background: #f8fafc;
+    color: #4f46e5;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #eef2ff;
+    border-color: #4f7cff;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.tooltip {
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 10px);
+    transform: translateX(-50%);
+    padding: 6px 10px;
+    border-radius: 6px;
+    background: #222;
+    color: #fff;
+    font-size: 13px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.button:hover .tooltip {
+    opacity: 1;
+}
+
+.tooltip::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-bottom-color: #222;
+}

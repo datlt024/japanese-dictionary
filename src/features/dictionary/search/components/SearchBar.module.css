@@ -5,6 +5,9 @@
     width: 100%;
     min-width: 0;
 
+    display: flex;
+    align-items: center;
+
     box-sizing: border-box;
 }
 
@@ -14,7 +17,7 @@
     width: 100%;
     min-width: 0;
 
-    padding: 16px 16px 16px 50px;
+    padding: 16px 68px 16px 50px;
 
     border: 1px solid #d1d5db;
     border-radius: 16px;
@@ -22,13 +25,16 @@
     font-size: clamp(15px, 1vw, 18px);
 
     outline: none;
-    transition: 0.2s;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
 
     box-sizing: border-box;
 }
 
 .searchInput:focus {
     border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
 }
 
 .searchIcon {
@@ -39,15 +45,32 @@
     transform: translateY(-50%);
 
     color: #9ca3af;
+    pointer-events: none;
+}
+
+.handwritingAction {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateY(-50%);
 }
 
 @media (max-width: 768px) {
     .searchInput {
-        padding: 13px 14px 13px 44px;
+        padding: 13px 60px 13px 44px;
         border-radius: 14px;
     }
 
     .searchIcon {
         left: 14px;
+    }
+
+    .handwritingAction {
+        right: 10px;
     }
 }
