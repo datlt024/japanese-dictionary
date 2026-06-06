@@ -1,0 +1,110 @@
+.appHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 64px;
+    padding: 0 24px;
+
+    border-bottom: 1px solid #e5e7eb;
+    background: white;
+}
+
+.appHeaderLeft {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.headerLogo {
+    color: #1476e8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.headerLogo span {
+    margin: 0 2px;
+    padding: 0 4px;
+
+    border-radius: 50%;
+    background: white;
+
+    color: #e11d48;
+}
+
+.appHeaderLeft h1 {
+    color: #111827;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.appHeaderActions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.loginButton,
+.registerButton,
+.iconButton {
+    height: 36px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.loginButton {
+    padding: 0 14px;
+
+    background: #1476e8;
+    color: white;
+
+    font-weight: 700;
+}
+
+.registerButton {
+    padding: 0 14px;
+
+    background: #e8f1ff;
+    color: #1476e8;
+
+    font-weight: 700;
+}
+
+.iconButton {
+    width: 36px;
+    background: #f8fafc;
+}
+
+.languageSelect {
+    height: 40px;
+    padding: 0 12px;
+
+    border: 1px solid #dbe3ef;
+    border-radius: 10px;
+    background: white;
+
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.languageSelect:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+
+@media (max-width: 700px) {
+    .headerLogo {
+        display: none;
+    }
+
+    .appHeaderLeft h1 {
+        font-size: 18px;
+    }
+}

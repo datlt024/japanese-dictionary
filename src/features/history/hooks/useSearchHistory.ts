@@ -5,6 +5,18 @@ import {
 
 const STORAGE_KEY = "searchHistories"
 const CHANGE_EVENT = "searchHistoriesChanged"
+const MAX_HISTORY_ITEMS = 10
+
+function isStringArray(value: unknown): value is string[] {
+    return (
+        Array.isArray(value) &&
+        value.every((item) => typeof item === "string")
+    )
+}
+
+function emitHistoriesChanged() {
+    window.dispatchEvent(new Event(CHANGE_EVENT))
+}
 
 function getStoredHistories(): string[] {
     if (typeof window === "undefined") {
@@ -15,11 +27,32 @@ function getStoredHistories(): string[] {
         const storedHistories =
             localStorage.getItem(STORAGE_KEY)
 
-        return storedHistories
-            ? JSON.parse(storedHistories)
-            : []
+        if (!storedHistories) {
+            return []
+        }
+
+        const parsed = JSON.parse(storedHistories)
+
+        return isStringArray(parsed) ? parsed : []
     } catch {
         return []
+    }
+}
+
+function setStoredHistories(histories: string[]) {
+    if (typeof window === "undefined") {
+        return
+    }
+
+    try {
+        localStorage.setItem(
+            STORAGE_KEY,
+            JSON.stringify(histories)
+        )
+
+        emitHistoriesChanged()
+    } catch {
+        // Ignore localStorage errors.
     }
 }
 
@@ -74,18 +107,35 @@ export default function useSearchHistory() {
             ...currentHistories.filter(
                 (item) => item !== trimmedKeyword
             ),
-        ].slice(0, 10)
+        ].slice(0, MAX_HISTORY_ITEMS)
 
-        localStorage.setItem(
-            STORAGE_KEY,
-            JSON.stringify(newHistories)
+        setStoredHistories(newHistories)
+    }, [])
+
+    const removeHistory = useCallback((keyword: string) => {
+        const trimmedKeyword = keyword.trim()
+
+        if (!trimmedKeyword) {
+            return
+        }
+
+        const currentHistories = getStoredHistories()
+
+        setStoredHistories(
+            currentHistories.filter(
+                (item) => item !== trimmedKeyword
+            )
         )
+    }, [])
 
-        window.dispatchEvent(new Event(CHANGE_EVENT))
+    const clearHistories = useCallback(() => {
+        setStoredHistories([])
     }, [])
 
     return {
         histories,
         addHistory,
+        removeHistory,
+        clearHistories,
     }
 }

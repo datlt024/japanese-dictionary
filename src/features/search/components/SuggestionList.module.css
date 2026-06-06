@@ -1,0 +1,50 @@
+.suggestionList {
+    margin-top: 12px;
+
+    overflow: hidden;
+
+    background: #ffffff;
+    border-radius: 16px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.suggestionLink {
+    text-decoration: none;
+}
+
+.suggestionItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 16px;
+
+    border: none;
+    background: #ffffff;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+.suggestionItem:hover {
+    background: #f3f4f6;
+}
+
+.suggestionWord {
+    color: #111827;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.suggestionKana {
+    margin-top: 4px;
+
+    color: #4f46e5;
+}
+
+.suggestionMeaning {
+    color: #6b7280;
+}

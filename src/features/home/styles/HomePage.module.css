@@ -1,0 +1,112 @@
+.homePage {
+    padding: 0;
+}
+
+.homeGrid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 18px;
+}
+
+.mainColumn,
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.cardSection {
+    background: var(--color-surface);
+    border-radius: 14px;
+    padding: 18px;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.sectionHeader h2 {
+    font-size: 18px;
+}
+
+.sectionHeader button {
+    border: none;
+    background: transparent;
+    color: #334155;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dailyWords {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.dailyWords div {
+    padding: 10px;
+    border-bottom: 1px solid var(--color-border);
+    font-weight: 700;
+}
+
+.dailyWords span {
+    color: #64748b;
+    font-weight: 400;
+}
+
+.banner {
+    background: linear-gradient(90deg, #0f6bff, #42a5ff);
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.communityGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.communityCard {
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.historyTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-height: 42px;
+    align-content: flex-start;
+}
+
+.historyEmpty {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.historyTags button {
+    border: none;
+    background: #eef2ff;
+    color: var(--color-primary);
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .homeGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .rightColumn {
+        display: none;
+    }
+}

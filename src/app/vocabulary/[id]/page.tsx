@@ -4,11 +4,11 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useParams, useSearchParams } from "next/navigation"
 
-import "@/styles/pages/vocabulary-detail.css"
+import styles from "@/features/vocabulary/styles/VocabularyDetail.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import KanjiStrokeOrder from "@/features/kanji/components/KanjiStrokeOrder"
-import { conjugateVerb } from "@/shared/utils/verbConjugation"
+import { conjugateVerb } from "@/features/vocabulary/utils/verbConjugation"
 
 import {
     capitalizeFirstLetter,
@@ -92,9 +92,7 @@ export default function VocabularyDetailPage() {
             setRelatedVocabularies([])
             setKanjiDetails([])
 
-            const data = await getVocabularyById(
-                Number(params.id)
-            )
+            const data = await getVocabularyById(Number(params.id))
 
             if (cancelled) {
                 return
@@ -144,37 +142,36 @@ export default function VocabularyDetailPage() {
             searchKeyword={vocabulary?.word || ""}
             activeSearchTab="vocabulary"
         >
-            <main className="detail-page">
+            <main className={styles.vocabularyDetail}>
                 {loading ? (
-                    <div className="detail-main">
+                    <div className={styles.detailMain}>
                         <h1>Đang tải từ vựng...</h1>
                     </div>
                 ) : !vocabulary ? (
-                    <div className="detail-main">
+                    <div className={styles.detailMain}>
                         <h1>Không tìm thấy từ vựng</h1>
 
-                        <Link href="/" className="back-button">
+                        <Link href="/" className={styles.backButton}>
                             ← Quay lại
                         </Link>
                     </div>
                 ) : (
-                    <div className="detail-layout">
-                        <section className="detail-main">
-                            <div className="detail-header">
-                                <h1 className="detail-word">
+                    <div className={styles.detailLayout}>
+                        <section className={styles.detailMain}>
+                            <div className={styles.detailHeader}>
+                                <h1 className={styles.detailWord}>
                                     {vocabulary.word}
                                 </h1>
 
-                                <p className="detail-kana">
+                                <p className={styles.detailKana}>
                                     「{vocabulary.kana || "-"}」
                                 </p>
 
-                                <p className="detail-meaning">
+                                <p className={styles.detailMeaning}>
                                     {language === "en"
                                         ? capitalizeFirstLetter(
                                             formatMeaningEn(
-                                                vocabulary
-                                                    .senses?.[0]
+                                                vocabulary.senses?.[0]
                                                     ?.meaning_en
                                             ) || "Updating..."
                                         )
@@ -186,19 +183,19 @@ export default function VocabularyDetailPage() {
                                         )}
                                 </p>
 
-                                <div className="detail-actions">
+                                <div className={styles.detailActions}>
                                     <button>＋</button>
                                     <button>📋</button>
                                     <button>🔊</button>
                                 </div>
 
-                                <div className="detail-tools">
+                                <div className={styles.detailTools}>
                                     <button>🔗 Kết hợp từ</button>
                                     <button>🖼 Ảnh minh hoạ</button>
                                     <button>🎙 Luyện phát âm</button>
                                 </div>
 
-                                <div className="jlpt-row">
+                                <div className={styles.jlptRow}>
                                     <span>JLPT</span>
                                     <span>
                                         {vocabulary.jlpt ||
@@ -207,7 +204,7 @@ export default function VocabularyDetailPage() {
                                 </div>
                             </div>
 
-                            <div className="detail-section">
+                            <div className={styles.detailSection}>
                                 <h2>
                                     {language === "en"
                                         ? "Meaning"
@@ -215,7 +212,7 @@ export default function VocabularyDetailPage() {
                                 </h2>
 
                                 {vocabulary.senses.length > 0 ? (
-                                    <div className="sense-list">
+                                    <div className={styles.senseList}>
                                         {vocabulary.senses.map(
                                             (sense, index) => {
                                                 const meaning =
@@ -240,12 +237,17 @@ export default function VocabularyDetailPage() {
                                                 return (
                                                     <div
                                                         key={sense.id}
-                                                        className="sense-item"
+                                                        className={
+                                                            styles.senseItem
+                                                        }
                                                     >
-                                                        <p className="blue-title">
+                                                        <p
+                                                            className={
+                                                                styles.blueTitle
+                                                            }
+                                                        >
                                                             <strong>
-                                                                {index +
-                                                                    1}
+                                                                {index + 1}
                                                                 .{" "}
                                                                 {language ===
                                                                     "en"
@@ -258,11 +260,14 @@ export default function VocabularyDetailPage() {
                                                             </strong>
                                                         </p>
 
-                                                        {language ===
-                                                            "vi" &&
+                                                        {language === "vi" &&
                                                             glosses.length >
                                                             0 && (
-                                                                <ul className="sense-gloss-list">
+                                                                <ul
+                                                                    className={
+                                                                        styles.senseGlossList
+                                                                    }
+                                                                >
                                                                     {glosses.map(
                                                                         (
                                                                             gloss
@@ -271,9 +276,15 @@ export default function VocabularyDetailPage() {
                                                                                 key={
                                                                                     gloss.index
                                                                                 }
-                                                                                className="sense-gloss-item"
+                                                                                className={
+                                                                                    styles.senseGlossItem
+                                                                                }
                                                                             >
-                                                                                <span className="sense-gloss-bullet">
+                                                                                <span
+                                                                                    className={
+                                                                                        styles.senseGlossBullet
+                                                                                    }
+                                                                                >
                                                                                     •
                                                                                 </span>
 
@@ -297,7 +308,7 @@ export default function VocabularyDetailPage() {
                                 )}
                             </div>
 
-                            <div className="detail-section">
+                            <div className={styles.detailSection}>
                                 <h2>Từ loại</h2>
 
                                 <p>
@@ -308,10 +319,10 @@ export default function VocabularyDetailPage() {
                             </div>
 
                             {vocabulary.writings.length > 1 && (
-                                <div className="detail-section">
+                                <div className={styles.detailSection}>
                                     <h2>Cách viết khác</h2>
 
-                                    <div className="tag-list">
+                                    <div className={styles.tagList}>
                                         {vocabulary.writings
                                             .filter(
                                                 (item) =>
@@ -321,7 +332,9 @@ export default function VocabularyDetailPage() {
                                             .map((item) => (
                                                 <span
                                                     key={item.id}
-                                                    className="detail-tag"
+                                                    className={
+                                                        styles.detailTag
+                                                    }
                                                 >
                                                     {item.writing}
                                                 </span>
@@ -331,10 +344,10 @@ export default function VocabularyDetailPage() {
                             )}
 
                             {vocabulary.readings.length > 1 && (
-                                <div className="detail-section">
+                                <div className={styles.detailSection}>
                                     <h2>Cách đọc khác</h2>
 
-                                    <div className="tag-list">
+                                    <div className={styles.tagList}>
                                         {vocabulary.readings
                                             .filter(
                                                 (item) =>
@@ -344,7 +357,9 @@ export default function VocabularyDetailPage() {
                                             .map((item) => (
                                                 <span
                                                     key={item.id}
-                                                    className="detail-tag"
+                                                    className={
+                                                        styles.detailTag
+                                                    }
                                                 >
                                                     {item.reading}
                                                 </span>
@@ -354,21 +369,27 @@ export default function VocabularyDetailPage() {
                             )}
 
                             {verbGroupLabel && (
-                                <div className="detail-section">
+                                <div className={styles.detailSection}>
                                     <h2>Nhóm động từ</h2>
                                     <p>{verbGroupLabel}</p>
                                 </div>
                             )}
 
                             {conjugations.length > 0 && (
-                                <div className="detail-section">
+                                <div className={styles.detailSection}>
                                     <h2>Chia động từ</h2>
 
-                                    <div className="conjugation-table">
+                                    <div
+                                        className={
+                                            styles.conjugationTable
+                                        }
+                                    >
                                         {conjugations.map((item) => (
                                             <div
                                                 key={item.label}
-                                                className="conjugation-row"
+                                                className={
+                                                    styles.conjugationRow
+                                                }
                                             >
                                                 <span>
                                                     {item.label}
@@ -382,25 +403,28 @@ export default function VocabularyDetailPage() {
                                 </div>
                             )}
 
-                            <div className="detail-section">
+                            <div className={styles.detailSection}>
                                 <h2>Ví dụ</h2>
 
-                                <p className="example-jp">
+                                <p className={styles.exampleJp}>
                                     Ví dụ sẽ được cập nhật sau.
                                 </p>
                             </div>
                         </section>
 
-                        <aside className="detail-sidebar">
-                            <div className="detail-side-card">
+                        <aside className={styles.detailSidebar}>
+                            <div className={styles.detailSideCard}>
                                 <h3>
                                     Kết quả tra cứu{" "}
                                     {vocabulary.word}
                                 </h3>
 
-                                <div className="lookup-result-list">
-                                    {relatedVocabularies.length >
-                                        0 ? (
+                                <div
+                                    className={
+                                        styles.lookupResultList
+                                    }
+                                >
+                                    {relatedVocabularies.length > 0 ? (
                                         relatedVocabularies.map(
                                             (item) => (
                                                 <Link
@@ -409,8 +433,8 @@ export default function VocabularyDetailPage() {
                                                     className={
                                                         item.id ===
                                                             vocabulary.id
-                                                            ? "lookup-result-item active"
-                                                            : "lookup-result-item"
+                                                            ? `${styles.lookupResultItem} ${styles.active}`
+                                                            : styles.lookupResultItem
                                                     }
                                                 >
                                                     <strong>
@@ -439,7 +463,9 @@ export default function VocabularyDetailPage() {
                             </div>
 
                             {kanjiDetails.length > 0 && (
-                                <div className="detail-side-card vocabulary-kanji-card">
+                                <div
+                                    className={`${styles.detailSideCard} ${styles.vocabularyKanjiCard}`}
+                                >
                                     <h3>
                                         Các chữ kanji của{" "}
                                         {vocabulary.word}
@@ -448,19 +474,31 @@ export default function VocabularyDetailPage() {
                                     {kanjiDetails.map((item) => (
                                         <div
                                             key={item.kanji}
-                                            className="vocabulary-kanji-item"
+                                            className={
+                                                styles.vocabularyKanjiItem
+                                            }
                                         >
-                                            <div className="vocabulary-kanji-head">
+                                            <div
+                                                className={
+                                                    styles.vocabularyKanjiHead
+                                                }
+                                            >
                                                 <Link
                                                     href={`/kanji/${item.kanji}?q=${encodeURIComponent(
                                                         vocabulary.word
                                                     )}&lang=${language}`}
-                                                    className="vocabulary-kanji-char"
+                                                    className={
+                                                        styles.vocabularyKanjiChar
+                                                    }
                                                 >
                                                     {item.kanji}
                                                 </Link>
 
-                                                <span className="vocabulary-kanji-reading">
+                                                <span
+                                                    className={
+                                                        styles.vocabularyKanjiReading
+                                                    }
+                                                >
                                                     「
                                                     {getKanjiReadingText(
                                                         item
@@ -469,7 +507,11 @@ export default function VocabularyDetailPage() {
                                                 </span>
                                             </div>
 
-                                            <p className="vocabulary-kanji-meaning">
+                                            <p
+                                                className={
+                                                    styles.vocabularyKanjiMeaning
+                                                }
+                                            >
                                                 {getKanjiDisplayMeaning(
                                                     item,
                                                     language
@@ -478,10 +520,16 @@ export default function VocabularyDetailPage() {
 
                                             <KanjiStrokeOrder
                                                 kanji={item.kanji}
-                                                className="vocabulary-kanji-stroke"
+                                                className={
+                                                    styles.vocabularyKanjiStroke
+                                                }
                                             />
 
-                                            <div className="vocabulary-kanji-info">
+                                            <div
+                                                className={
+                                                    styles.vocabularyKanjiInfo
+                                                }
+                                            >
                                                 <p>
                                                     Hán tự:{" "}
                                                     {item.kanji} -{" "}
@@ -508,7 +556,9 @@ export default function VocabularyDetailPage() {
                                                 href={`/kanji/${item.kanji}?q=${encodeURIComponent(
                                                     vocabulary.word
                                                 )}&lang=${language}`}
-                                                className="vocabulary-kanji-more"
+                                                className={
+                                                    styles.vocabularyKanjiMore
+                                                }
                                             >
                                                 Xem chi tiết hơn
                                             </Link>
@@ -517,14 +567,20 @@ export default function VocabularyDetailPage() {
                                 </div>
                             )}
 
-                            <div className="detail-side-card vocabulary-related-card">
+                            <div
+                                className={`${styles.detailSideCard} ${styles.vocabularyRelatedCard}`}
+                            >
                                 <h3>
                                     Các từ liên quan tới{" "}
                                     {vocabulary.word}
                                 </h3>
 
                                 {relatedVocabularies.length > 0 ? (
-                                    <div className="vocabulary-related-list">
+                                    <div
+                                        className={
+                                            styles.vocabularyRelatedList
+                                        }
+                                    >
                                         {relatedVocabularies
                                             .filter(
                                                 (item) =>
@@ -536,7 +592,9 @@ export default function VocabularyDetailPage() {
                                                 <Link
                                                     key={item.id}
                                                     href={`/vocabulary/${item.id}?lang=${language}`}
-                                                    className="vocabulary-related-item"
+                                                    className={
+                                                        styles.vocabularyRelatedItem
+                                                    }
                                                 >
                                                     <strong>
                                                         {item.word}

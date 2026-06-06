@@ -7,31 +7,28 @@
 .appMain {
     flex: 1;
     min-width: 0;
-    background: #eef2f7;
+    box-sizing: border-box;
 }
 
 .appContent {
     width: 100%;
     min-width: 0;
-    background: #eef2f7;
 }
 
 .appSearchArea,
 .appPageContent {
     width: min(100% - clamp(32px, 4vw, 72px), 1560px);
-
     margin-inline: auto;
     box-sizing: border-box;
 }
 
 .appSearchArea {
-    padding-top: 24px;
     min-height: 132px;
+    padding-top: 24px;
 }
 
 .appPageContent {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-block: 24px;
 }
 
 @media (max-width: 1280px) {
@@ -41,13 +38,12 @@
     }
 
     .appSearchArea {
-        padding-top: 20px;
         min-height: auto;
+        padding-top: 20px;
     }
 
     .appPageContent {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-block: 20px;
     }
 }
 
@@ -62,7 +58,6 @@
     }
 
     .appPageContent {
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding-block: 16px;
     }
 }

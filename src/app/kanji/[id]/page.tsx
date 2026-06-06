@@ -4,7 +4,7 @@ import Link from "next/link"
 import { useEffect, useMemo, useState } from "react"
 import { useParams, useSearchParams } from "next/navigation"
 
-import "@/styles/pages/kanji-detail.css"
+import styles from "@/features/kanji/styles/KanjiDetail.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import KanjiStrokeOrder from "@/features/kanji/components/KanjiStrokeOrder"
@@ -119,82 +119,138 @@ export default function KanjiDetailPage() {
             searchKeyword={searchKeyword}
             activeSearchTab="kanji"
         >
-            <main className="kanji-detail-page">
+            <main className={styles.kanjiDetailPage}>
                 {loading ? (
-                    <div className="kanji-page-layout">
-                        <section className="kanji-main-card kanji-skeleton-card">
-                            <div className="kanji-skeleton-title" />
-                            <div className="kanji-skeleton-line" />
-                            <div className="kanji-skeleton-box" />
+                    <div className={styles.kanjiPageLayout}>
+                        <section
+                            className={`${styles.kanjiMainCard} ${styles.kanjiSkeletonCard}`}
+                        >
+                            <div
+                                className={
+                                    styles.kanjiSkeletonTitle
+                                }
+                            />
+                            <div
+                                className={
+                                    styles.kanjiSkeletonLine
+                                }
+                            />
+                            <div
+                                className={styles.kanjiSkeletonBox}
+                            />
                         </section>
 
-                        <aside className="kanji-ad-column">
-                            <div className="kanji-result-box kanji-skeleton-side" />
+                        <aside className={styles.kanjiAdColumn}>
+                            <div
+                                className={`${styles.kanjiResultBox} ${styles.kanjiSkeletonSide}`}
+                            />
                         </aside>
                     </div>
                 ) : !kanji ? (
-                    <section className="kanji-main-card">
+                    <section className={styles.kanjiMainCard}>
                         <h1>Không tìm thấy Hán tự</h1>
                     </section>
                 ) : (
-                    <div className="kanji-page-layout">
-                        <section className="kanji-main-card">
-                            <div className="kanji-summary">
-                                <div className="kanji-summary-left">
-                                    <h1 className="kanji-character">
+                    <div className={styles.kanjiPageLayout}>
+                        <section className={styles.kanjiMainCard}>
+                            <div className={styles.kanjiSummary}>
+                                <div
+                                    className={
+                                        styles.kanjiSummaryLeft
+                                    }
+                                >
+                                    <h1
+                                        className={
+                                            styles.kanjiCharacter
+                                        }
+                                    >
                                         {kanji.kanji}
                                     </h1>
 
-                                    <p className="kanji-main-meaning">
+                                    <p
+                                        className={
+                                            styles.kanjiMainMeaning
+                                        }
+                                    >
                                         {getKanjiMeaning(kanji)}
                                     </p>
                                 </div>
 
-                                <div className="kanji-action-group">
+                                <div
+                                    className={
+                                        styles.kanjiActionGroup
+                                    }
+                                >
                                     <button>🔗</button>
                                     <button>📋</button>
                                     <button>＋</button>
                                 </div>
                             </div>
 
-                            <div className="kanji-reading-section">
-                                <div className="kanji-reading-block">
+                            <div
+                                className={
+                                    styles.kanjiReadingSection
+                                }
+                            >
+                                <div
+                                    className={
+                                        styles.kanjiReadingBlock
+                                    }
+                                >
                                     <h3>Phát âm</h3>
 
-                                    <div className="reading-item">
+                                    <div
+                                        className={
+                                            styles.readingItem
+                                        }
+                                    >
                                         <span>Kunyomi</span>
-                                        <strong>{kanji.kunyomi || "-"}</strong>
+                                        <strong>
+                                            {kanji.kunyomi || "-"}
+                                        </strong>
                                     </div>
 
-                                    <div className="reading-item">
+                                    <div
+                                        className={
+                                            styles.readingItem
+                                        }
+                                    >
                                         <span>Onyomi</span>
-                                        <strong>{kanji.onyomi || "-"}</strong>
+                                        <strong>
+                                            {kanji.onyomi || "-"}
+                                        </strong>
                                     </div>
                                 </div>
 
                                 <KanjiStrokeOrder kanji={kanji.kanji} />
                             </div>
 
-                            <div className="kanji-meta-row">
+                            <div className={styles.kanjiMetaRow}>
                                 <div>
                                     <span>Số nét</span>
-                                    <strong>{kanji.stroke_count || "-"}</strong>
+                                    <strong>
+                                        {kanji.stroke_count || "-"}
+                                    </strong>
                                 </div>
 
                                 <div>
                                     <span>JLPT</span>
                                     <strong>
-                                        {kanji.jlpt ? `N${kanji.jlpt}` : "-"}
+                                        {kanji.jlpt
+                                            ? `N${kanji.jlpt}`
+                                            : "-"}
                                     </strong>
                                 </div>
 
                                 <div>
                                     <span>Tần suất</span>
-                                    <strong>{kanji.frequency || "-"}</strong>
+                                    <strong>
+                                        {kanji.frequency || "-"}
+                                    </strong>
                                 </div>
                             </div>
 
-                            <section className="kanji-section">
+                            <section className={styles.kanjiSection}>
                                 <h2>Nghĩa</h2>
 
                                 <ul>
@@ -213,95 +269,178 @@ export default function KanjiDetailPage() {
                                 </ul>
                             </section>
 
-                            <section className="kanji-section">
+                            <section className={styles.kanjiSection}>
                                 <h2>Mẹo</h2>
                                 <p>
                                     Phần mẹo ghi nhớ Hán tự sẽ được bổ sung sau.
                                 </p>
                             </section>
 
-                            <section className="kanji-section">
+                            <section className={styles.kanjiSection}>
                                 <h2>Ví dụ phân loại theo cách đọc</h2>
 
                                 {examplesLoading ? (
                                     <p>Đang tải ví dụ...</p>
                                 ) : (
                                     <>
-                                        <div className="reading-group-block">
+                                        <div
+                                            className={
+                                                styles.readingGroupBlock
+                                            }
+                                        >
                                             <h3>Kunyomi</h3>
 
-                                            {kunyomiGroups.length === 0 ? (
-                                                <p>Chưa có ví dụ Kunyomi.</p>
+                                            {kunyomiGroups.length ===
+                                                0 ? (
+                                                <p>
+                                                    Chưa có ví dụ
+                                                    Kunyomi.
+                                                </p>
                                             ) : (
-                                                kunyomiGroups.map((group) => (
-                                                    <div
-                                                        key={group.reading}
-                                                        className="reading-group"
-                                                    >
-                                                        <h4>{group.reading}</h4>
+                                                kunyomiGroups.map(
+                                                    (group) => (
+                                                        <div
+                                                            key={
+                                                                group.reading
+                                                            }
+                                                            className={
+                                                                styles.readingGroup
+                                                            }
+                                                        >
+                                                            <h4>
+                                                                {
+                                                                    group.reading
+                                                                }
+                                                            </h4>
 
-                                                        <table className="reading-word-table">
-                                                            <tbody>
-                                                                {group.words.map((word) => (
-                                                                    <tr key={word.id}>
-                                                                        <td>{word.word}</td>
-                                                                        <td>{word.kana || "-"}</td>
-                                                                        <td>
-                                                                            {getRelatedWordMeaning(word)}
-                                                                        </td>
-                                                                    </tr>
-                                                                ))}
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                ))
+                                                            <table
+                                                                className={
+                                                                    styles.readingWordTable
+                                                                }
+                                                            >
+                                                                <tbody>
+                                                                    {group.words.map(
+                                                                        (
+                                                                            word
+                                                                        ) => (
+                                                                            <tr
+                                                                                key={
+                                                                                    word.id
+                                                                                }
+                                                                            >
+                                                                                <td>
+                                                                                    {
+                                                                                        word.word
+                                                                                    }
+                                                                                </td>
+                                                                                <td>
+                                                                                    {word.kana ||
+                                                                                        "-"}
+                                                                                </td>
+                                                                                <td>
+                                                                                    {getRelatedWordMeaning(
+                                                                                        word
+                                                                                    )}
+                                                                                </td>
+                                                                            </tr>
+                                                                        )
+                                                                    )}
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    )
+                                                )
                                             )}
                                         </div>
 
-                                        <div className="reading-group-block">
+                                        <div
+                                            className={
+                                                styles.readingGroupBlock
+                                            }
+                                        >
                                             <h3>Onyomi</h3>
 
-                                            {onyomiGroups.length === 0 ? (
-                                                <p>Chưa có ví dụ Onyomi.</p>
+                                            {onyomiGroups.length ===
+                                                0 ? (
+                                                <p>
+                                                    Chưa có ví dụ
+                                                    Onyomi.
+                                                </p>
                                             ) : (
-                                                onyomiGroups.map((group) => (
-                                                    <div
-                                                        key={group.reading}
-                                                        className="reading-group"
-                                                    >
-                                                        <h4>{group.reading}</h4>
+                                                onyomiGroups.map(
+                                                    (group) => (
+                                                        <div
+                                                            key={
+                                                                group.reading
+                                                            }
+                                                            className={
+                                                                styles.readingGroup
+                                                            }
+                                                        >
+                                                            <h4>
+                                                                {
+                                                                    group.reading
+                                                                }
+                                                            </h4>
 
-                                                        <table className="reading-word-table">
-                                                            <tbody>
-                                                                {group.words.map((word) => (
-                                                                    <tr key={word.id}>
-                                                                        <td>{word.word}</td>
-                                                                        <td>{word.kana || "-"}</td>
-                                                                        <td>
-                                                                            {getRelatedWordMeaning(word)}
-                                                                        </td>
-                                                                    </tr>
-                                                                ))}
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                ))
+                                                            <table
+                                                                className={
+                                                                    styles.readingWordTable
+                                                                }
+                                                            >
+                                                                <tbody>
+                                                                    {group.words.map(
+                                                                        (
+                                                                            word
+                                                                        ) => (
+                                                                            <tr
+                                                                                key={
+                                                                                    word.id
+                                                                                }
+                                                                            >
+                                                                                <td>
+                                                                                    {
+                                                                                        word.word
+                                                                                    }
+                                                                                </td>
+                                                                                <td>
+                                                                                    {word.kana ||
+                                                                                        "-"}
+                                                                                </td>
+                                                                                <td>
+                                                                                    {getRelatedWordMeaning(
+                                                                                        word
+                                                                                    )}
+                                                                                </td>
+                                                                            </tr>
+                                                                        )
+                                                                    )}
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    )
+                                                )
                                             )}
                                         </div>
                                     </>
                                 )}
                             </section>
 
-                            <section className="kanji-section">
+                            <section className={styles.kanjiSection}>
                                 <h2>Ví dụ</h2>
 
-                                <div className="kanji-example-list">
-                                    <div className="kanji-example-item">
-                                        <p className="example-jp">
-                                            {kanji.kanji}を勉強しています。
+                                <div className={styles.kanjiExampleList}>
+                                    <div
+                                        className={
+                                            styles.kanjiExampleItem
+                                        }
+                                    >
+                                        <p className={styles.exampleJp}>
+                                            {kanji.kanji}
+                                            を勉強しています。
                                         </p>
 
-                                        <p className="example-vi">
+                                        <p className={styles.exampleVi}>
                                             Tôi đang học chữ {kanji.kanji}.
                                         </p>
                                     </div>
@@ -309,25 +448,36 @@ export default function KanjiDetailPage() {
                             </section>
                         </section>
 
-                        <aside className="kanji-ad-column">
+                        <aside className={styles.kanjiAdColumn}>
                             {kanjiOptions.length > 1 && (
-                                <div className="kanji-result-box">
+                                <div className={styles.kanjiResultBox}>
                                     <h3>Kết quả tra cứu kanji</h3>
 
-                                    <div className="kanji-result-list">
+                                    <div
+                                        className={
+                                            styles.kanjiResultList
+                                        }
+                                    >
                                         {kanjiOptions.map((item) => (
                                             <Link
                                                 key={item}
                                                 href={`/kanji/${encodeURIComponent(
                                                     item
-                                                )}?q=${encodeURIComponent(searchKeyword)}`}
+                                                )}?q=${encodeURIComponent(
+                                                    searchKeyword
+                                                )}`}
                                                 className={
-                                                    item === currentKanji
-                                                        ? "kanji-result-item active"
-                                                        : "kanji-result-item"
+                                                    item ===
+                                                        currentKanji
+                                                        ? `${styles.kanjiResultItem} ${styles.active}`
+                                                        : styles.kanjiResultItem
                                                 }
                                             >
-                                                <span className="kanji-result-char">
+                                                <span
+                                                    className={
+                                                        styles.kanjiResultChar
+                                                    }
+                                                >
                                                     {item}
                                                 </span>
                                             </Link>

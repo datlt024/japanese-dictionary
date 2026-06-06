@@ -2,9 +2,12 @@ import type {
     GrammarSearchItem,
     KanjiSearchItem,
     SearchResult,
-    SearchTab,
     VocabularyResult,
 } from "../types"
+
+import type {
+    SearchTabWithAll,
+} from "@/shared/constants/search-tabs"
 
 import {
     searchGrammarsByKeyword,
@@ -13,6 +16,8 @@ import {
 } from "../repositories/search.repository"
 
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
+import { uniqueById } from "@/shared/utils/array"
+import { normalizeKeyword } from "@/shared/utils/string"
 
 function createEmptySearchResult(): SearchResult {
     return {
@@ -23,73 +28,165 @@ function createEmptySearchResult(): SearchResult {
     }
 }
 
-function uniqueById<T extends { id: number }>(items: T[]) {
-    return Array.from(
-        new Map(items.map((item) => [item.id, item])).values()
-    )
+async function searchVocabularyResult(
+    keyword: string,
+    language: DictionaryLanguage
+): Promise<VocabularyResult[]> {
+    const { data, error } =
+        await searchVocabulariesByKeyword(
+            keyword,
+            language
+        )
+
+    if (error) {
+        console.error(
+            "Vocabulary search error:",
+            error
+        )
+
+        return []
+    }
+
+    return (data || []) as VocabularyResult[]
 }
 
-function normalizeKeyword(keyword: string) {
-    return keyword.trim()
+async function searchKanjiResult(
+    keyword: string
+): Promise<KanjiSearchItem[]> {
+    const { data, error } =
+        await searchKanjiByKeyword(keyword)
+
+    if (error) {
+        console.error(
+            "Kanji search error:",
+            error
+        )
+
+        return []
+    }
+
+    return data
+        ? ([data] as KanjiSearchItem[])
+        : []
+}
+
+async function searchGrammarResult(
+    keyword: string,
+    language: DictionaryLanguage
+): Promise<GrammarSearchItem[]> {
+    const {
+        grammarPatternResult,
+        grammarReadingResult,
+        grammarMeaningResult,
+    } = await searchGrammarsByKeyword(
+        keyword,
+        language
+    )
+
+    if (grammarPatternResult.error) {
+        console.error(
+            "Grammar pattern search error:",
+            grammarPatternResult.error
+        )
+    }
+
+    if (grammarReadingResult.error) {
+        console.error(
+            "Grammar reading search error:",
+            grammarReadingResult.error
+        )
+    }
+
+    if (grammarMeaningResult.error) {
+        console.error(
+            "Grammar meaning search error:",
+            grammarMeaningResult.error
+        )
+    }
+
+    return uniqueById([
+        ...((grammarPatternResult.data ||
+            []) as GrammarSearchItem[]),
+
+        ...((grammarReadingResult.data ||
+            []) as GrammarSearchItem[]),
+
+        ...((grammarMeaningResult.data ||
+            []) as GrammarSearchItem[]),
+    ])
 }
 
 export async function searchDictionary(
     keyword: string,
-    tab: SearchTab,
+    tab: SearchTabWithAll,
     language: DictionaryLanguage = "vi"
 ): Promise<SearchResult> {
-    const normalizedKeyword = normalizeKeyword(keyword)
+    const normalizedKeyword =
+        normalizeKeyword(keyword)
 
     if (!normalizedKeyword) {
         return createEmptySearchResult()
     }
 
-    const result = createEmptySearchResult()
+    if (tab === "vocabulary") {
+        return {
+            ...createEmptySearchResult(),
+            vocabularies:
+                await searchVocabularyResult(
+                    normalizedKeyword,
+                    language
+                ),
+        }
+    }
 
-    if (tab === "vocabulary" || tab === "all") {
-        const { data, error } =
-            await searchVocabulariesByKeyword(
+    if (tab === "kanji") {
+        return {
+            ...createEmptySearchResult(),
+            kanjis: await searchKanjiResult(
+                normalizedKeyword
+            ),
+        }
+    }
+
+    if (tab === "grammar") {
+        return {
+            ...createEmptySearchResult(),
+            grammars:
+                await searchGrammarResult(
+                    normalizedKeyword,
+                    language
+                ),
+        }
+    }
+
+    if (tab === "all") {
+        const [
+            vocabularies,
+            kanjis,
+            grammars,
+        ] = await Promise.all([
+            searchVocabularyResult(
                 normalizedKeyword,
                 language
-            )
+            ),
 
-        if (error) {
-            console.error("Vocabulary search error:", error)
-        } else {
-            result.vocabularies =
-                (data || []) as VocabularyResult[]
-        }
-    }
+            searchKanjiResult(
+                normalizedKeyword
+            ),
 
-    if (tab === "kanji" || tab === "all") {
-        const { data, error } =
-            await searchKanjiByKeyword(normalizedKeyword)
-
-        if (error) {
-            console.error("Kanji search error:", error)
-        } else {
-            result.kanjis = data
-                ? ([data] as KanjiSearchItem[])
-                : []
-        }
-    }
-
-    if (tab === "grammar" || tab === "all") {
-        const {
-            grammarPatternResult,
-            grammarReadingResult,
-            grammarMeaningResult,
-        } = await searchGrammarsByKeyword(
-            normalizedKeyword,
-            language
-        )
-
-        result.grammars = uniqueById([
-            ...((grammarPatternResult.data || []) as GrammarSearchItem[]),
-            ...((grammarReadingResult.data || []) as GrammarSearchItem[]),
-            ...((grammarMeaningResult.data || []) as GrammarSearchItem[]),
+            searchGrammarResult(
+                normalizedKeyword,
+                language
+            ),
         ])
+
+        return {
+            vocabularies,
+            kanjis,
+            grammars,
+            examples: [],
+        }
     }
 
-    return result
+    return createEmptySearchResult()
 }

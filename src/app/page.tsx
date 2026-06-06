@@ -1,26 +1,26 @@
 "use client"
 
-import "@/styles/pages/home.css"
-
-import AppLayout from "@/shared/components/layout/AppLayout"
+import styles from "@/features/home/styles/HomePage.module.css"
 
 import useSearchHistory from "@/features/history/hooks/useSearchHistory"
+
+import AppLayout from "@/shared/components/layout/AppLayout"
 
 export default function HomePage() {
   const { histories } = useSearchHistory()
 
   return (
     <AppLayout title="Tra cứu">
-      <main className="home-page">
-        <div className="home-grid">
-          <div className="main-column">
-            <section className="card-section">
-              <div className="section-header">
+      <main className={styles.homePage}>
+        <div className={styles.homeGrid}>
+          <div className={styles.mainColumn}>
+            <section className={styles.cardSection}>
+              <div className={styles.sectionHeader}>
                 <h2>Từ vựng trong ngày</h2>
                 <button>Xem thêm</button>
               </div>
 
-              <div className="daily-words">
+              <div className={styles.dailyWords}>
                 <div>
                   情報
                   <br />
@@ -47,23 +47,23 @@ export default function HomePage() {
               </div>
             </section>
 
-            <section className="card-section banner">
+            <section className={`${styles.cardSection} ${styles.banner}`}>
               Mazii AI+ — Học tiếng Nhật thông minh hơn
             </section>
 
-            <section className="card-section">
-              <div className="section-header">
+            <section className={styles.cardSection}>
+              <div className={styles.sectionHeader}>
                 <h2>Bài học đề xuất</h2>
                 <button>Xem thêm</button>
               </div>
 
-              <div className="community-grid">
-                <div className="community-card">
+              <div className={styles.communityGrid}>
+                <div className={styles.communityCard}>
                   <h3>JLPT N5</h3>
                   <p>Từ vựng cơ bản cho người mới bắt đầu.</p>
                 </div>
 
-                <div className="community-card">
+                <div className={styles.communityCard}>
                   <h3>Kanji cơ bản</h3>
                   <p>Học các chữ Hán thường gặp nhất.</p>
                 </div>
@@ -71,29 +71,27 @@ export default function HomePage() {
             </section>
           </div>
 
-          <aside className="right-column">
-            <section className="card-section">
-              <div className="section-header">
+          <aside className={styles.rightColumn}>
+            <section className={styles.cardSection}>
+              <div className={styles.sectionHeader}>
                 <h2>Lịch sử</h2>
                 <button>Xem thêm</button>
               </div>
 
-              <div className="history-tags">
+              <div className={styles.historyTags}>
                 {histories.length > 0 ? (
                   histories.map((item) => (
-                    <button key={item}>
-                      {item}
-                    </button>
+                    <button key={item}>{item}</button>
                   ))
                 ) : (
-                  <span className="history-empty">
+                  <span className={styles.historyEmpty}>
                     Chưa có lịch sử tìm kiếm
                   </span>
                 )}
               </div>
             </section>
 
-            <section className="card-section">
+            <section className={styles.cardSection}>
               <h2>Góp ý</h2>
               <p>若しも：giả sử</p>
               <p>果たして：quả nhiên là</p>

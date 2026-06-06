@@ -1,11 +1,29 @@
-import { supabase } from "@/shared/lib/supabase"
+import { supabaseServer as supabase } from "@/shared/lib/supabase/server"
+
+const KANJI_DETAIL_COLUMNS =
+    "id, kanji, meaning_vi, meaning_en, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
+
+const KANJI_LINK_COLUMNS =
+    "vocabulary_id, priority"
+
+const VOCABULARY_SUMMARY_COLUMNS =
+    "id, primary_word, primary_kana"
+
+const VOCABULARY_SENSE_COLUMNS =
+    "vocabulary_id, meaning_en, meaning_vi"
+
+const READING_WORD_LIMIT = 5
+
+function escapeLikePattern(keyword: string) {
+    return keyword.replace(/[%_]/g, "\\$&")
+}
 
 export async function findKanjiByCharacter(
     character: string
 ) {
     return supabase
         .from("kanjis")
-        .select("*")
+        .select(KANJI_DETAIL_COLUMNS)
         .eq("kanji", character)
         .maybeSingle()
 }
@@ -16,7 +34,7 @@ export async function findKanjiLinks(
 ) {
     return supabase
         .from("kanji_vocabulary_links")
-        .select("vocabulary_id, priority")
+        .select(KANJI_LINK_COLUMNS)
         .eq("kanji_id", kanjiId)
         .order("priority", {
             ascending: false,
@@ -27,18 +45,32 @@ export async function findKanjiLinks(
 export async function findVocabulariesByIds(
     vocabularyIds: number[]
 ) {
+    if (vocabularyIds.length === 0) {
+        return Promise.resolve({
+            data: [],
+            error: null,
+        })
+    }
+
     return supabase
         .from("vocabularies")
-        .select("id, primary_word, primary_kana")
+        .select(VOCABULARY_SUMMARY_COLUMNS)
         .in("id", vocabularyIds)
 }
 
 export async function findVocabularySenses(
     vocabularyIds: number[]
 ) {
+    if (vocabularyIds.length === 0) {
+        return Promise.resolve({
+            data: [],
+            error: null,
+        })
+    }
+
     return supabase
         .from("vocabulary_senses")
-        .select("vocabulary_id, meaning_en, meaning_vi")
+        .select(VOCABULARY_SENSE_COLUMNS)
         .in("vocabulary_id", vocabularyIds)
         .order("sense_index", {
             ascending: true,
@@ -49,10 +81,13 @@ export async function findReadingWords(
     character: string,
     reading: string
 ) {
+    const escapedCharacter = escapeLikePattern(character)
+    const escapedReading = escapeLikePattern(reading)
+
     return supabase
         .from("vocabularies")
-        .select("id, primary_word, primary_kana")
-        .ilike("primary_word", `%${character}%`)
-        .ilike("primary_kana", `%${reading}%`)
-        .limit(5)
+        .select(VOCABULARY_SUMMARY_COLUMNS)
+        .ilike("primary_word", `%${escapedCharacter}%`)
+        .ilike("primary_kana", `%${escapedReading}%`)
+        .limit(READING_WORD_LIMIT)
 }

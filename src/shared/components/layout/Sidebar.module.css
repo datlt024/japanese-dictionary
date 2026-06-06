@@ -1,0 +1,116 @@
+.sidebar {
+    position: sticky;
+    top: 0;
+
+    width: 230px;
+    min-height: 100vh;
+    padding: 16px;
+
+    background: linear-gradient(180deg, #1476e8, #0757b5);
+    color: white;
+
+    transition: width 0.2s ease;
+}
+
+.sidebarCollapsed {
+    width: 72px;
+    padding: 16px 10px;
+}
+
+.sidebarHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.sidebarLogo {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.sidebarLogo span {
+    margin: 0 2px;
+    padding: 0 4px;
+
+    border-radius: 50%;
+    background: white;
+
+    color: #e11d48;
+}
+
+.sidebarToggle {
+    width: 48px;
+    min-width: 48px;
+    height: 44px;
+
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.18);
+
+    color: white;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.sidebarToggle:hover {
+    background: rgba(255, 255, 255, 0.28);
+}
+
+.sidebarMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebarLink {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 12px 14px;
+    border-radius: 10px;
+
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: background 0.2s ease;
+}
+
+.sidebarLink:hover,
+.active {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.sidebarIcon {
+    width: 48px;
+    min-width: 48px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.sidebarLabel {
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.sidebarCollapsed .sidebarLink {
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.sidebarCollapsed .sidebarIcon {
+    font-size: 20px;
+}
+
+.sidebarCollapsed .sidebarLabel {
+    width: 0;
+    opacity: 0;
+}

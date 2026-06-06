@@ -1,8 +1,12 @@
 "use client"
 
-import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import {
+    usePathname,
+    useRouter,
+    useSearchParams,
+} from "next/navigation"
 
-import "./Header.css"
+import styles from "./Header.module.css"
 
 import {
     DictionaryLanguage,
@@ -25,9 +29,7 @@ export default function Header({
         searchParams.get("lang")
     )
 
-    function handleLanguageChange(
-        value: DictionaryLanguage
-    ) {
+    function handleLanguageChange(value: DictionaryLanguage) {
         const params = new URLSearchParams(
             searchParams.toString()
         )
@@ -38,26 +40,26 @@ export default function Header({
     }
 
     return (
-        <header className="app-header">
-            <div className="app-header-left">
-                <span className="header-logo">
+        <header className={styles.appHeader}>
+            <div className={styles.appHeaderLeft}>
+                <span className={styles.headerLogo}>
                     m<span>あ</span>zii
                 </span>
 
                 <h1>{title}</h1>
             </div>
 
-            <div className="app-header-actions">
-                <button className="login-button">
+            <div className={styles.appHeaderActions}>
+                <button className={styles.loginButton}>
                     Đăng nhập
                 </button>
 
-                <button className="register-button">
+                <button className={styles.registerButton}>
                     Đăng ký
                 </button>
 
                 <select
-                    className="language-select"
+                    className={styles.languageSelect}
                     value={language}
                     onChange={(event) =>
                         handleLanguageChange(
@@ -75,11 +77,11 @@ export default function Header({
                     </option>
                 </select>
 
-                <button className="icon-button">
+                <button className={styles.iconButton}>
                     🔔
                 </button>
 
-                <button className="icon-button">
+                <button className={styles.iconButton}>
                     🔥
                 </button>
             </div>

@@ -1,11 +1,22 @@
-import { supabase } from "@/shared/lib/supabase"
+import { supabaseServer as supabase } from "@/shared/lib/supabase/server"
 
-import { Vocabulary } from "../types/vocabulary.types"
+import { Vocabulary } from "@/features/search/types"
+
+const SEARCH_LIMIT = 50
 
 type VocabularySense = {
     vocabulary_id: number
     meaning_en: string | null
     meaning_vi: string | null
+    part_of_speech: string[] | null
+}
+
+function normalizeKeyword(keyword: string) {
+    return keyword.trim()
+}
+
+function escapeLikePattern(keyword: string) {
+    return keyword.replace(/[%_]/g, "\\$&")
 }
 
 function getFirstSenseByVocabularyId(
@@ -25,11 +36,13 @@ function getFirstSenseByVocabularyId(
 export async function searchVocabularies(
     keyword: string
 ): Promise<Vocabulary[]> {
-    const normalizedKeyword = keyword.trim()
+    const normalizedKeyword = normalizeKeyword(keyword)
 
     if (!normalizedKeyword) {
         return []
     }
+
+    const escapedKeyword = escapeLikePattern(normalizedKeyword)
 
     const { data: vocabularyRows, error: vocabularyError } =
         await supabase
@@ -39,27 +52,18 @@ export async function searchVocabularies(
             )
             .or(
                 [
-                    `primary_word.ilike.%${normalizedKeyword}%`,
-                    `primary_kana.ilike.%${normalizedKeyword}%`,
+                    `primary_word.ilike.%${escapedKeyword}%`,
+                    `primary_kana.ilike.%${escapedKeyword}%`,
                 ].join(",")
             )
-            .limit(50)
+            .limit(SEARCH_LIMIT)
 
     if (vocabularyError) {
-        console.log(
-            "Search error message:",
-            vocabularyError.message
-        )
-        console.log(
-            "Search error details:",
-            vocabularyError.details
-        )
+        console.error("Vocabulary search error:", vocabularyError)
         return []
     }
 
-    const vocabularyIds = vocabularyRows.map(
-        (item) => item.id
-    )
+    const vocabularyIds = vocabularyRows.map((item) => item.id)
 
     if (vocabularyIds.length === 0) {
         return []
@@ -69,7 +73,7 @@ export async function searchVocabularies(
         await supabase
             .from("vocabulary_senses")
             .select(
-                "vocabulary_id, meaning_en, meaning_vi"
+                "vocabulary_id, meaning_en, meaning_vi, part_of_speech"
             )
             .in("vocabulary_id", vocabularyIds)
             .order("sense_index", {
@@ -77,14 +81,7 @@ export async function searchVocabularies(
             })
 
     if (senseError) {
-        console.log(
-            "Sense error message:",
-            senseError.message
-        )
-        console.log(
-            "Sense error details:",
-            senseError.details
-        )
+        console.error("Vocabulary sense search error:", senseError)
     }
 
     const validSenses = (senseData || [])
@@ -96,6 +93,7 @@ export async function searchVocabularies(
             vocabulary_id: sense.vocabulary_id,
             meaning_en: sense.meaning_en,
             meaning_vi: sense.meaning_vi,
+            part_of_speech: sense.part_of_speech,
         }))
 
     const senseMap = getFirstSenseByVocabularyId(validSenses)
@@ -109,7 +107,8 @@ export async function searchVocabularies(
             kana: item.primary_kana || "",
             meaning_en: sense?.meaning_en || null,
             meaning_vi: sense?.meaning_vi || null,
-            part_of_speech: null,
+            part_of_speech:
+                sense?.part_of_speech?.join(", ") || null,
             jlpt: item.jlpt,
             is_common: item.is_common,
         }

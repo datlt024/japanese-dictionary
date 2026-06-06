@@ -1,4 +1,4 @@
-import { supabase } from "@/shared/lib/supabase"
+import { supabaseServer as supabase } from "@/shared/lib/supabase/server"
 
 export function findRelatedVocabulariesByKeyword(
     keyword: string

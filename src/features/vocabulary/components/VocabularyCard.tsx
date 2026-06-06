@@ -1,7 +1,8 @@
-import "./VocabularyCard.css"
-import useBookmark from "@/features/bookmark/hooks/useBookmark"
-
 import Link from "next/link"
+
+import styles from "./VocabularyCard.module.css"
+
+import useBookmark from "@/features/bookmark/hooks/useBookmark"
 
 type VocabularyCardProps = {
     id: number
@@ -23,27 +24,28 @@ export default function VocabularyCard({
 
     const isBookmarked =
         bookmarks.includes(id)
+
     return (
         <Link
             href={`/vocabulary/${id}`}
-            className="vocabulary-link"
+            className={styles.vocabularyLink}
         >
-            <div className="vocabulary-card">
-                <div className="vocabulary-top">
+            <div className={styles.vocabularyCard}>
+                <div className={styles.vocabularyTop}>
                     <div>
-                        <h2 className="vocabulary-word">
+                        <h2 className={styles.vocabularyWord}>
                             {word}
                         </h2>
 
-                        <p className="vocabulary-kana">
+                        <p className={styles.vocabularyKana}>
                             {kana}
                         </p>
                     </div>
 
                     <button
-                        className="jlpt-badge"
-                        onClick={(e) => {
-                            e.preventDefault()
+                        className={styles.bookmarkButton}
+                        onClick={(event) => {
+                            event.preventDefault()
 
                             toggleBookmark(id)
                         }}
@@ -52,7 +54,7 @@ export default function VocabularyCard({
                     </button>
                 </div>
 
-                <p className="vocabulary-meaning">
+                <p className={styles.vocabularyMeaning}>
                     {meaning}
                 </p>
             </div>

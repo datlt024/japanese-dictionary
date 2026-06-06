@@ -1,17 +1,18 @@
 "use client"
 
+import { useMemo } from "react"
 import Link from "next/link"
 
 import styles from "./SearchHubDropdown.module.css"
 
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
-import {
-    SearchHubResult,
-    SearchVocabulary,
-    SearchKanji,
+import type {
     SearchGrammar,
+    SearchHubResult,
+    SearchKanji,
     SearchTab,
+    SearchVocabulary,
 } from "@/features/search/hooks/useSearchHub"
 
 type Props = {
@@ -22,15 +23,21 @@ type Props = {
     language: DictionaryLanguage
 }
 
+const MAX_DROPDOWN_ITEMS = 10
+
+function getSafeText(value: string | null | undefined) {
+    return value || ""
+}
+
 function getVocabularyMeaning(
     item: SearchVocabulary,
     language: DictionaryLanguage
 ) {
     if (language === "en") {
-        return item.meaning_en || item.meaning_vi || ""
+        return item.meaning_en || item.meaning_vi || item.meaning || ""
     }
 
-    return item.meaning_vi || item.meaning_en || ""
+    return item.meaning_vi || item.meaning_en || item.meaning || ""
 }
 
 function getVocabularyKana(item: SearchVocabulary) {
@@ -65,6 +72,23 @@ function getKanjiMeaning(
     return item.meaning_vi || item.meaning_en || "-"
 }
 
+function uniqueByKey<T>(
+    items: T[],
+    getKey: (item: T) => string | number
+) {
+    const map = new Map<string | number, T>()
+
+    for (const item of items) {
+        const key = getKey(item)
+
+        if (!map.has(key)) {
+            map.set(key, item)
+        }
+    }
+
+    return Array.from(map.values())
+}
+
 function sortVocabularies(
     items: SearchVocabulary[],
     keyword: string,
@@ -73,43 +97,29 @@ function sortVocabularies(
     const searchText = keyword.trim().toLowerCase()
 
     const getScore = (item: SearchVocabulary) => {
-        const word = item.word.toLowerCase()
+        const word = getSafeText(item.word).toLowerCase()
 
         const kana = Array.isArray(item.kana)
             ? item.kana.join(" ").toLowerCase()
-            : (item.kana || "").toLowerCase()
+            : getSafeText(item.kana).toLowerCase()
 
         const meaning = getVocabularyMeaning(
             item,
             language
         ).toLowerCase()
 
-        if (word === searchText && item.word.length === 1) {
+        if (word === searchText && word.length === 1) {
             return 0
         }
 
         if (word === searchText) return 1
         if (kana === searchText) return 2
-
-        if (item.is_common && word.startsWith(searchText)) {
-            return 3
-        }
-
-        if (item.is_common && kana.startsWith(searchText)) {
-            return 4
-        }
-
+        if (item.is_common && word.startsWith(searchText)) return 3
+        if (item.is_common && kana.startsWith(searchText)) return 4
         if (word.startsWith(searchText)) return 5
         if (kana.startsWith(searchText)) return 6
-
-        if (item.is_common && word.includes(searchText)) {
-            return 7
-        }
-
-        if (item.is_common && kana.includes(searchText)) {
-            return 8
-        }
-
+        if (item.is_common && word.includes(searchText)) return 7
+        if (item.is_common && kana.includes(searchText)) return 8
         if (word.includes(searchText)) return 9
         if (kana.includes(searchText)) return 10
         if (meaning.includes(searchText)) return 11
@@ -130,19 +140,18 @@ function sortGrammars(
     const searchText = keyword.trim().toLowerCase()
 
     const getScore = (item: SearchGrammar) => {
-        const pattern = item.pattern.toLowerCase()
+        const pattern = getSafeText(item.pattern).toLowerCase()
+        const reading = getSafeText(item.reading).toLowerCase()
         const meaning = getGrammarMeaning(
             item,
             language
         ).toLowerCase()
-        const structure = (
-            item.structure || ""
-        ).toLowerCase()
 
         if (pattern === searchText) return 0
-        if (pattern.includes(searchText)) return 1
-        if (structure.includes(searchText)) return 2
-        if (meaning.includes(searchText)) return 3
+        if (reading === searchText) return 1
+        if (pattern.includes(searchText)) return 2
+        if (reading.includes(searchText)) return 3
+        if (meaning.includes(searchText)) return 4
 
         return 99
     }
@@ -158,10 +167,6 @@ function extractKanjis(text: string) {
     ).map((match) => match[0])
 }
 
-function uniqueArray(items: string[]) {
-    return Array.from(new Set(items))
-}
-
 export default function SearchHubDropdown({
     result,
     keyword,
@@ -171,68 +176,115 @@ export default function SearchHubDropdown({
 }: Props) {
     const cleanKeyword = keyword.trim()
 
-    if (!cleanKeyword) {
-        return null
-    }
-
     const shouldShowDropdown =
-        activeTab === "vocabulary" ||
-        activeTab === "kanji" ||
-        activeTab === "grammar"
+        Boolean(cleanKeyword) &&
+        (activeTab === "vocabulary" ||
+            activeTab === "kanji" ||
+            activeTab === "grammar")
+
+    const sortedVocabularies = useMemo(() => {
+        if (!shouldShowDropdown || activeTab !== "vocabulary") {
+            return []
+        }
+
+        return uniqueByKey(
+            sortVocabularies(
+                result.vocabularies,
+                cleanKeyword,
+                language
+            ),
+            (item) => item.id
+        ).slice(0, MAX_DROPDOWN_ITEMS)
+    }, [
+        shouldShowDropdown,
+        activeTab,
+        result.vocabularies,
+        cleanKeyword,
+        language,
+    ])
+
+    const sortedGrammars = useMemo(() => {
+        if (!shouldShowDropdown || activeTab !== "grammar") {
+            return []
+        }
+
+        return uniqueByKey(
+            sortGrammars(
+                result.grammars,
+                cleanKeyword,
+                language
+            ),
+            (item) => item.id
+        ).slice(0, MAX_DROPDOWN_ITEMS)
+    }, [
+        shouldShowDropdown,
+        activeTab,
+        result.grammars,
+        cleanKeyword,
+        language,
+    ])
+
+    const kanjiOptions = useMemo(() => {
+        if (!shouldShowDropdown || activeTab !== "kanji") {
+            return []
+        }
+
+        return Array.from(new Set(extractKanjis(cleanKeyword)))
+    }, [shouldShowDropdown, activeTab, cleanKeyword])
+
+    const kanjiResults = useMemo(() => {
+        if (!shouldShowDropdown || activeTab !== "kanji") {
+            return []
+        }
+
+        return uniqueByKey(
+            result.kanjis,
+            (item) => item.kanji
+        ).slice(0, MAX_DROPDOWN_ITEMS)
+    }, [shouldShowDropdown, activeTab, result.kanjis])
 
     if (!shouldShowDropdown) {
         return null
     }
-
-    const kanjiOptions = uniqueArray(
-        extractKanjis(cleanKeyword)
-    )
 
     return (
         <div className={styles.searchHubDropdown}>
             <div className={styles.searchHubContent}>
                 {activeTab === "vocabulary" && (
                     <>
-                        {result.vocabularies.length === 0 &&
-                            !loading ? (
+                        {loading && sortedVocabularies.length === 0 ? (
+                            <p className={styles.searchHubEmpty}>
+                                Đang tìm kiếm...
+                            </p>
+                        ) : sortedVocabularies.length === 0 ? (
                             <p className={styles.searchHubEmpty}>
                                 Không tìm thấy từ vựng.
                             </p>
                         ) : (
-                            sortVocabularies(
-                                result.vocabularies,
-                                cleanKeyword,
-                                language
-                            )
-                                .slice(0, 10)
-                                .map((item, index) => (
-                                    <Link
-                                        key={`vocabulary-${item.id}-${index}`}
-                                        href={`/vocabulary/${item.id}?lang=${language}`}
-                                        className={
-                                            styles.searchHubItem
-                                        }
-                                    >
-                                        <div>
-                                            <strong>
-                                                {item.word}
-                                            </strong>
+                            sortedVocabularies.map((item) => (
+                                <Link
+                                    key={`vocabulary-${item.id}`}
+                                    href={`/vocabulary/${item.id}?lang=${encodeURIComponent(
+                                        language
+                                    )}`}
+                                    className={styles.searchHubItem}
+                                >
+                                    <div>
+                                        <strong>{item.word}</strong>
 
-                                            <span>
-                                                {getVocabularyKana(
-                                                    item
-                                                )}
-                                            </span>
-                                        </div>
+                                        <span>
+                                            {getVocabularyKana(item)}
+                                        </span>
+                                    </div>
 
-                                        <p>
-                                            {getVocabularyMeaning(
-                                                item,
-                                                language
-                                            ) || "Đang cập nhật"}
-                                        </p>
-                                    </Link>
-                                ))
+                                    <p>
+                                        {getVocabularyMeaning(
+                                            item,
+                                            language
+                                        ) || "Đang cập nhật"}
+                                    </p>
+                                </Link>
+                            ))
                         )}
                     </>
                 )}
@@ -240,114 +292,100 @@ export default function SearchHubDropdown({
                 {activeTab === "kanji" && (
                     <>
                         {kanjiOptions.length > 0 ? (
-                            kanjiOptions.map((item, index) => (
+                            kanjiOptions.map((item) => (
                                 <Link
-                                    key={`kanji-option-${item}-${index}`}
+                                    key={`kanji-option-${item}`}
                                     href={`/kanji/${encodeURIComponent(
                                         item
                                     )}?q=${encodeURIComponent(
                                         cleanKeyword
-                                    )}&lang=${language}`}
-                                    className={
-                                        styles.searchHubKanji
-                                    }
+                                    )}&lang=${encodeURIComponent(
+                                        language
+                                    )}`}
+                                    className={styles.searchHubKanji}
                                 >
                                     <strong>{item}</strong>
                                 </Link>
                             ))
-                        ) : result.kanjis.length === 0 &&
-                            !loading ? (
+                        ) : loading && kanjiResults.length === 0 ? (
+                            <p className={styles.searchHubEmpty}>
+                                Đang tìm kiếm...
+                            </p>
+                        ) : kanjiResults.length === 0 ? (
                             <p className={styles.searchHubEmpty}>
                                 Không tìm thấy Hán tự.
                             </p>
                         ) : (
-                            result.kanjis.map(
-                                (
-                                    item: SearchKanji,
-                                    index
-                                ) => (
-                                    <Link
-                                        key={`kanji-${item.id}-${index}`}
-                                        href={`/kanji/${encodeURIComponent(
-                                            item.kanji
-                                        )}?q=${encodeURIComponent(
-                                            cleanKeyword
-                                        )}&lang=${language}`}
-                                        className={
-                                            styles.searchHubKanji
-                                        }
-                                    >
-                                        <strong>
-                                            {item.kanji}
-                                        </strong>
+                            kanjiResults.map((item) => (
+                                <Link
+                                    key={`kanji-${item.kanji}`}
+                                    href={`/kanji/${encodeURIComponent(
+                                        item.kanji
+                                    )}?q=${encodeURIComponent(
+                                        cleanKeyword
+                                    )}&lang=${encodeURIComponent(
+                                        language
+                                    )}`}
+                                    className={styles.searchHubKanji}
+                                >
+                                    <strong>{item.kanji}</strong>
 
-                                        <div>
-                                            <p>
-                                                {getKanjiMeaning(
-                                                    item,
-                                                    language
-                                                )}
-                                            </p>
+                                    <div>
+                                        <p>
+                                            {getKanjiMeaning(
+                                                item,
+                                                language
+                                            )}
+                                        </p>
 
-                                            <span>
-                                                On:{" "}
-                                                {item.onyomi ||
-                                                    "-"}{" "}
-                                                / Kun:{" "}
-                                                {item.kunyomi ||
-                                                    "-"}
-                                            </span>
-                                        </div>
-                                    </Link>
-                                )
-                            )
+                                        <span>
+                                            On: {item.onyomi || "-"} / Kun:{" "}
+                                            {item.kunyomi || "-"}
+                                        </span>
+                                    </div>
+                                </Link>
+                            ))
                         )}
                     </>
                 )}
 
                 {activeTab === "grammar" && (
                     <>
-                        {result.grammars.length === 0 &&
-                            !loading ? (
+                        {loading && sortedGrammars.length === 0 ? (
+                            <p className={styles.searchHubEmpty}>
+                                Đang tìm kiếm...
+                            </p>
+                        ) : sortedGrammars.length === 0 ? (
                             <p className={styles.searchHubEmpty}>
                                 Không tìm thấy ngữ pháp.
                             </p>
                         ) : (
-                            sortGrammars(
-                                result.grammars,
-                                cleanKeyword,
-                                language
-                            )
-                                .slice(0, 10)
-                                .map((item, index) => (
-                                    <Link
-                                        key={`grammar-${item.id}-${index}`}
-                                        href={`/grammar/${item.id}?q=${encodeURIComponent(
-                                            cleanKeyword
-                                        )}&lang=${language}`}
-                                        className={
-                                            styles.searchHubItem
-                                        }
-                                    >
-                                        <div>
-                                            <strong>
-                                                {item.pattern}
-                                            </strong>
+                            sortedGrammars.map((item) => (
+                                <Link
+                                    key={`grammar-${item.id}`}
+                                    href={`/grammar/${item.id}?q=${encodeURIComponent(
+                                        cleanKeyword
+                                    )}&lang=${encodeURIComponent(
+                                        language
+                                    )}`}
+                                    className={styles.searchHubItem}
+                                >
+                                    <div>
+                                        <strong>{item.pattern}</strong>
 
-                                            <span>
-                                                {item.jlpt_level ||
-                                                    "-"}
-                                            </span>
-                                        </div>
+                                        <span>
+                                            {item.jlpt_level || "-"}
+                                        </span>
+                                    </div>
 
-                                        <p>
-                                            {getGrammarMeaning(
-                                                item,
-                                                language
-                                            ) || "Đang cập nhật"}
-                                        </p>
-                                    </Link>
-                                ))
+                                    <p>
+                                        {getGrammarMeaning(
+                                            item,
+                                            language
+                                        ) || "Đang cập nhật"}
+                                    </p>
+                                </Link>
+                            ))
                         )}
                     </>
                 )}

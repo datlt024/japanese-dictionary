@@ -1,5 +1,6 @@
-import "./SuggestionList.css"
 import Link from "next/link"
+
+import styles from "./SuggestionList.module.css"
 
 type SuggestionItem = {
     id: number
@@ -20,25 +21,25 @@ export default function SuggestionList({
     }
 
     return (
-        <div className="suggestion-list">
+        <div className={styles.suggestionList}>
             {items.map((item) => (
                 <Link
                     key={item.id}
                     href={`/vocabulary/${item.id}`}
-                    className="suggestion-link"
+                    className={styles.suggestionLink}
                 >
-                    <div className="suggestion-item">
+                    <div className={styles.suggestionItem}>
                         <div>
-                            <p className="suggestion-word">
+                            <p className={styles.suggestionWord}>
                                 {item.word}
                             </p>
 
-                            <p className="suggestion-kana">
+                            <p className={styles.suggestionKana}>
                                 {item.kana}
                             </p>
                         </div>
 
-                        <p className="suggestion-meaning">
+                        <p className={styles.suggestionMeaning}>
                             {item.meaning}
                         </p>
                     </div>

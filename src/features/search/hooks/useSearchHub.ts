@@ -2,12 +2,13 @@ import useSWR from "swr"
 
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
-export type SearchTab =
-    | "vocabulary"
-    | "kanji"
-    | "grammar"
-    | "example"
-    | "jpjp"
+import type {
+    SearchTab,
+} from "@/shared/constants/search-tabs"
+
+export type {
+    SearchTab,
+} from "@/shared/constants/search-tabs"
 
 export type SearchVocabulary = {
     id: number
@@ -41,12 +42,8 @@ export type SearchGrammar = {
     meaning_vi: string | null
     meaning_en: string | null
     short_meaning_vi?: string | null
-    structure?: string | null
     explanation_vi?: string | null
     explanation_en?: string | null
-    example_jp?: string | null
-    example_vi?: string | null
-    source?: string | null
 }
 
 export type SearchHubResult = {
@@ -85,7 +82,8 @@ async function fetchSearchResult(
         throw new Error("Search request failed")
     }
 
-    const data = (await response.json()) as SearchResponse
+    const data =
+        (await response.json()) as SearchResponse
 
     return normalizeSearchResponse(data)
 }
@@ -96,15 +94,22 @@ export default function useSearchHub(
     language: DictionaryLanguage = "vi"
 ) {
     const normalizedKeyword = keyword.trim()
+
     const shouldSearch = Boolean(normalizedKeyword)
 
     const searchUrl = shouldSearch
         ? `/api/search?q=${encodeURIComponent(
             normalizedKeyword
-        )}&tab=${activeTab}&lang=${language}`
+        )}&tab=${encodeURIComponent(
+            activeTab
+        )}&lang=${encodeURIComponent(language)}`
         : null
 
-    const { data, isLoading, error } = useSWR(
+    const {
+        data,
+        isLoading,
+        error,
+    } = useSWR<SearchHubResult>(
         searchUrl,
         fetchSearchResult,
         {
@@ -116,11 +121,17 @@ export default function useSearchHub(
     )
 
     if (error) {
-        console.error(error)
+        console.error("Search hub error:", error)
     }
 
     return {
-        result: shouldSearch ? data || emptyResult : emptyResult,
+        result:
+            shouldSearch
+                ? data || emptyResult
+                : emptyResult,
+
         loading: shouldSearch ? isLoading : false,
+
+        error,
     }
 }

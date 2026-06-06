@@ -1,6 +1,6 @@
-import { Database } from "@/shared/types/database.generated"
+import type { Database } from "@/shared/types/database.generated"
 
-import { Kanji } from "../types/kanji.types"
+import type { Kanji } from "../types/kanji.types"
 import {
     findKanjiByCharacter,
     findKanjiLinks,
@@ -12,6 +12,7 @@ import type {
     KanjiRelatedWord,
     KanjiReadingGroup,
 } from "../types"
+import { cleanReading } from "@/shared/utils/japanese"
 
 type VocabularySummary = Pick<
     Database["public"]["Tables"]["vocabularies"]["Row"],
@@ -69,19 +70,22 @@ async function attachMeanings(
         if (error) {
             console.error(error)
         } else {
-            const validSenses = (senses || [])
-                .filter(
-                    (sense): sense is VocabularySense =>
-                        sense.vocabulary_id !== null
-                )
-                .map((sense) => ({
-                    vocabulary_id: sense.vocabulary_id,
-                    meaning_en: sense.meaning_en,
-                    meaning_vi: sense.meaning_vi,
-                }))
+            const validSenses: VocabularySense[] = (senses || [])
+                .flatMap((sense) => {
+                    if (sense.vocabulary_id === null) {
+                        return []
+                    }
 
-            const senseMap =
-                getFirstSenseByVocabularyId(validSenses)
+                    return [
+                        {
+                            vocabulary_id: sense.vocabulary_id,
+                            meaning_en: sense.meaning_en,
+                            meaning_vi: sense.meaning_vi,
+                        },
+                    ]
+                })
+
+            const senseMap = getFirstSenseByVocabularyId(validSenses)
 
             for (const id of ids) {
                 const sense = senseMap.get(id)
@@ -227,26 +231,6 @@ export async function getWordsByKanji(
     const words = await attachMeanings(vocabularyRows)
 
     return sortWordsByLinkOrder(words, links)
-}
-
-
-function katakanaToHiragana(text: string) {
-    return text.replace(
-        /[\u30a1-\u30f6]/g,
-        (char) =>
-            String.fromCharCode(
-                char.charCodeAt(0) - 0x60
-            )
-    )
-}
-
-function cleanReading(reading: string) {
-    return katakanaToHiragana(
-        reading
-            .replace(/\./g, "")
-            .replace(/-/g, "")
-            .trim()
-    )
 }
 
 export async function getWordsByReadingGroups(

@@ -1,10 +1,8 @@
 "use client"
 
-import styles from "./TopSearchBar.module.css"
-
 import {
     FormEvent,
-    useEffect,
+    useCallback,
     useRef,
     useState,
 } from "react"
@@ -13,23 +11,30 @@ import {
     useSearchParams,
 } from "next/navigation"
 
+import styles from "./TopSearchBar.module.css"
+
 import SearchBar from "@/features/search/components/SearchBar"
 import SearchHubDropdown from "@/features/search/components/SearchHubDropdown"
 
 import useSearchHistory from "@/features/history/hooks/useSearchHistory"
 import useSearchHub from "@/features/search/hooks/useSearchHub"
 
+import { useClickOutside } from "@/shared/hooks/useClickOutside"
+import { useDebounce } from "@/shared/hooks/useDebounce"
+import { extractKanjis } from "@/shared/utils/japanese"
+
 import {
     DictionaryLanguage,
     normalizeDictionaryLanguage,
 } from "@/shared/types/dictionaryLanguage"
 
-export type SearchTab =
-    | "vocabulary"
-    | "kanji"
-    | "grammar"
-    | "example"
-    | "jpjp"
+import {
+    SEARCH_TAB_LABELS,
+} from "@/shared/constants/search-tabs"
+
+import type {
+    SearchTab,
+} from "@/shared/constants/search-tabs"
 
 type TopSearchBarProps = {
     searchKeyword?: string
@@ -45,11 +50,14 @@ type SearchApiResponse = {
     }[]
 }
 
-function extractKanjis(text: string) {
-    return Array.from(text.matchAll(/[\u4e00-\u9faf]/g)).map(
-        (match) => match[0]
-    )
-}
+const SEARCH_TABS: SearchTab[] = [
+    "vocabulary",
+    "kanji",
+    "example",
+    "grammar",
+    "jpjp",
+]
+
 
 function getTabButtonClass(
     currentTab: SearchTab,
@@ -66,7 +74,7 @@ function createUrlWithLanguage(
 ) {
     const separator = path.includes("?") ? "&" : "?"
 
-    return `${path}${separator}lang=${language}`
+    return `${path}${separator}lang=${encodeURIComponent(language)}`
 }
 
 function TopSearchBarContent({
@@ -84,34 +92,26 @@ function TopSearchBarContent({
         useState<SearchTab>(activeSearchTab)
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
+    const debouncedKeyword = useDebounce(keyword, 300)
+
     const { addHistory } = useSearchHistory()
+
     const { result, loading } = useSearchHub(
-        keyword,
+        debouncedKeyword,
         activeTab,
         language
     )
 
-    useEffect(() => {
-        function handleClickOutside(event: MouseEvent) {
-            if (
-                wrapperRef.current &&
-                !wrapperRef.current.contains(
-                    event.target as Node
-                )
-            ) {
-                setIsDropdownOpen(false)
-            }
-        }
+    const isDebouncing =
+        keyword.trim() !== debouncedKeyword.trim()
 
-        document.addEventListener("mousedown", handleClickOutside)
+    const isSearchLoading = loading || isDebouncing
 
-        return () => {
-            document.removeEventListener(
-                "mousedown",
-                handleClickOutside
-            )
-        }
+    const handleClickOutside = useCallback(() => {
+        setIsDropdownOpen(false)
     }, [])
+
+    useClickOutside(wrapperRef, handleClickOutside)
 
     function closeDropdown() {
         setIsDropdownOpen(false)
@@ -121,13 +121,24 @@ function TopSearchBarContent({
         q: string,
         tab: SearchTab
     ): Promise<SearchApiResponse> {
-        const response = await fetch(
-            `/api/search?q=${encodeURIComponent(
-                q
-            )}&tab=${tab}&lang=${language}`
-        )
+        try {
+            const response = await fetch(
+                `/api/search?q=${encodeURIComponent(
+                    q
+                )}&tab=${encodeURIComponent(
+                    tab
+                )}&lang=${encodeURIComponent(language)}`
+            )
 
-        return response.json() as Promise<SearchApiResponse>
+            if (!response.ok) {
+                return {}
+            }
+
+            return response.json() as Promise<SearchApiResponse>
+        } catch (error) {
+            console.error("Search request failed:", error)
+            return {}
+        }
     }
 
     async function getTargetUrl(tab: SearchTab, q: string) {
@@ -140,9 +151,9 @@ function TopSearchBarContent({
 
             if (kanjis.length > 0) {
                 return createUrlWithLanguage(
-                    `/kanji/${kanjis[0]}?q=${encodeURIComponent(
-                        q
-                    )}`,
+                    `/kanji/${encodeURIComponent(
+                        kanjis[0]
+                    )}?q=${encodeURIComponent(q)}`,
                     language
                 )
             }
@@ -196,7 +207,9 @@ function TopSearchBarContent({
         }
 
         return createUrlWithLanguage(
-            `/search?q=${encodeURIComponent(q)}&tab=${tab}`,
+            `/search?q=${encodeURIComponent(
+                q
+            )}&tab=${encodeURIComponent(tab)}`,
             language
         )
     }
@@ -230,6 +243,11 @@ function TopSearchBarContent({
 
     async function handleTabClick(tab: SearchTab) {
         setActiveTab(tab)
+
+        if (!keyword.trim()) {
+            return
+        }
+
         await navigateSearch(tab)
     }
 
@@ -246,8 +264,8 @@ function TopSearchBarContent({
                         {isDropdownOpen && keyword.trim() && (
                             <SearchHubDropdown
                                 result={result}
-                                keyword={keyword}
-                                loading={loading}
+                                keyword={debouncedKeyword}
+                                loading={isSearchLoading}
                                 activeTab={activeTab}
                                 language={language}
                             />
@@ -255,70 +273,21 @@ function TopSearchBarContent({
                     </div>
 
                     <div className={styles.topSearchTabs}>
-                        <button
-                            type="button"
-                            className={getTabButtonClass(
-                                activeTab,
-                                "vocabulary"
-                            )}
-                            onClick={() =>
-                                handleTabClick("vocabulary")
-                            }
-                        >
-                            Từ vựng
-                        </button>
-
-                        <button
-                            type="button"
-                            className={getTabButtonClass(
-                                activeTab,
-                                "kanji"
-                            )}
-                            onClick={() =>
-                                handleTabClick("kanji")
-                            }
-                        >
-                            Hán tự
-                        </button>
-
-                        <button
-                            type="button"
-                            className={getTabButtonClass(
-                                activeTab,
-                                "example"
-                            )}
-                            onClick={() =>
-                                handleTabClick("example")
-                            }
-                        >
-                            Mẫu câu
-                        </button>
-
-                        <button
-                            type="button"
-                            className={getTabButtonClass(
-                                activeTab,
-                                "grammar"
-                            )}
-                            onClick={() =>
-                                handleTabClick("grammar")
-                            }
-                        >
-                            Ngữ pháp
-                        </button>
-
-                        <button
-                            type="button"
-                            className={getTabButtonClass(
-                                activeTab,
-                                "jpjp"
-                            )}
-                            onClick={() =>
-                                handleTabClick("jpjp")
-                            }
-                        >
-                            Nhật - Nhật
-                        </button>
+                        {SEARCH_TABS.map((tab) => (
+                            <button
+                                key={tab}
+                                type="button"
+                                className={getTabButtonClass(
+                                    activeTab,
+                                    tab
+                                )}
+                                onClick={() =>
+                                    handleTabClick(tab)
+                                }
+                            >
+                                {SEARCH_TAB_LABELS[tab]}
+                            </button>
+                        ))}
                     </div>
                 </form>
             </div>

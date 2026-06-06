@@ -1,2 +1,7 @@
 export * from "./search-result.type"
-export * from "./search-tab.type"
+export * from "./vocabulary-search.type"
+
+export type {
+    SearchTab,
+    SearchTabWithAll,
+} from "@/shared/constants/search-tabs"

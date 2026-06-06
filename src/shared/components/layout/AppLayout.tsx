@@ -7,16 +7,20 @@ import Header from "./Header"
 import Footer from "./Footer"
 import TopSearchBar from "./TopSearchBar"
 
-type AppLayoutProps = {
-    children: React.ReactNode
-    title?: string
-    searchKeyword?: string
-    activeSearchTab?:
+import type { ReactNode } from "react"
+
+type ActiveSearchTab =
     | "vocabulary"
     | "kanji"
     | "grammar"
     | "example"
     | "jpjp"
+
+type AppLayoutProps = {
+    children: ReactNode
+    title?: string
+    searchKeyword?: string
+    activeSearchTab?: ActiveSearchTab
 }
 
 export default function AppLayout({
@@ -39,9 +43,7 @@ export default function AppLayout({
                         <Suspense fallback={null}>
                             <TopSearchBar
                                 searchKeyword={searchKeyword}
-                                activeSearchTab={
-                                    activeSearchTab
-                                }
+                                activeSearchTab={activeSearchTab}
                             />
                         </Suspense>
                     </section>

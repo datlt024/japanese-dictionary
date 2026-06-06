@@ -1,10 +1,10 @@
 "use client"
 
-import "./Sidebar.css"
-
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+
+import styles from "./Sidebar.module.css"
 
 const menuItems = [
     {
@@ -47,13 +47,13 @@ export default function Sidebar() {
         <aside
             className={
                 collapsed
-                    ? "sidebar sidebar-collapsed"
-                    : "sidebar"
+                    ? `${styles.sidebar} ${styles.sidebarCollapsed}`
+                    : styles.sidebar
             }
         >
-            <div className="sidebar-header">
+            <div className={styles.sidebarHeader}>
                 <button
-                    className="sidebar-toggle"
+                    className={styles.sidebarToggle}
                     onClick={() => setCollapsed(!collapsed)}
                     aria-label="Toggle menu"
                 >
@@ -61,13 +61,13 @@ export default function Sidebar() {
                 </button>
 
                 {!collapsed && (
-                    <div className="sidebar-logo">
+                    <div className={styles.sidebarLogo}>
                         m<span>あ</span>zii
                     </div>
                 )}
             </div>
 
-            <nav className="sidebar-menu">
+            <nav className={styles.sidebarMenu}>
                 {menuItems.map((item) => {
                     const isActive =
                         item.href === "/"
@@ -80,17 +80,21 @@ export default function Sidebar() {
                             href={item.href}
                             className={
                                 isActive
-                                    ? "sidebar-link active"
-                                    : "sidebar-link"
+                                    ? `${styles.sidebarLink} ${styles.active}`
+                                    : styles.sidebarLink
                             }
-                            title={collapsed ? item.label : undefined}
+                            title={
+                                collapsed
+                                    ? item.label
+                                    : undefined
+                            }
                         >
-                            <span className="sidebar-icon">
+                            <span className={styles.sidebarIcon}>
                                 {item.icon}
                             </span>
 
                             {!collapsed && (
-                                <span className="sidebar-label">
+                                <span className={styles.sidebarLabel}>
                                     {item.label}
                                 </span>
                             )}

@@ -1,38 +1,23 @@
 "use client"
 
-import "@/styles/pages/search.css"
-
 import { Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 
+import styles from "@/features/search/styles/SearchPage.module.css"
+
 import AppLayout from "@/shared/components/layout/AppLayout"
-import EmptyState from "@/shared/components/EmptyState"
+import EmptyState from "@/shared/components/EmptyState/EmptyState"
 
-import type { SearchTab } from "@/features/search/types"
+import {
+    normalizeSearchTab,
+} from "@/shared/constants/search-tabs"
 
-type AppSearchTab =
-    | "vocabulary"
-    | "kanji"
-    | "grammar"
-    | "example"
-    | "jpjp"
+import type {
+    SearchTab,
+    SearchTabWithAll,
+} from "@/shared/constants/search-tabs"
 
-function normalizeSearchTab(tab: string | null): SearchTab {
-    if (
-        tab === "vocabulary" ||
-        tab === "kanji" ||
-        tab === "grammar" ||
-        tab === "example" ||
-        tab === "jpjp" ||
-        tab === "all"
-    ) {
-        return tab
-    }
-
-    return "all"
-}
-
-function getActiveSearchTab(tab: SearchTab): AppSearchTab {
+function getActiveSearchTab(tab: SearchTabWithAll): SearchTab {
     if (tab === "all") {
         return "vocabulary"
     }
@@ -40,7 +25,7 @@ function getActiveSearchTab(tab: SearchTab): AppSearchTab {
     return tab
 }
 
-function getEmptyTitle(tab: SearchTab) {
+function getEmptyTitle(tab: SearchTabWithAll) {
     switch (tab) {
         case "vocabulary":
             return "Không có dữ liệu từ vựng"
@@ -57,6 +42,10 @@ function getEmptyTitle(tab: SearchTab) {
     }
 }
 
+function SearchFallback() {
+    return null
+}
+
 function SearchContent() {
     const searchParams = useSearchParams()
 
@@ -69,7 +58,7 @@ function SearchContent() {
             searchKeyword={keyword}
             activeSearchTab={getActiveSearchTab(tab)}
         >
-            <main className="search-page">
+            <main className={styles.searchPage}>
                 <EmptyState
                     title={getEmptyTitle(tab)}
                     keyword={keyword}
@@ -88,7 +77,7 @@ function SearchContent() {
 
 export default function SearchPage() {
     return (
-        <Suspense fallback={null}>
+        <Suspense fallback={<SearchFallback />}>
             <SearchContent />
         </Suspense>
     )

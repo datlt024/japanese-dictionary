@@ -1,11 +1,10 @@
-import { supabase } from "@/shared/lib/supabase"
-
 import type {
     Vocabulary,
     VocabularySense,
 } from "../types/vocabulary.type"
 
 import {
+    findKanjisByCharacters,
     findVocabularyBaseById,
     findVocabularyReadingsByVocabularyId,
     findVocabularySensesByVocabularyId,
@@ -112,12 +111,7 @@ export async function getVocabularyKanjis(
         return []
     }
 
-    const { data, error } = await supabase
-        .from("kanjis")
-        .select(
-            "id, kanji, meaning_vi, meaning_en, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
-        )
-        .in("kanji", kanjis)
+    const { data, error } = await findKanjisByCharacters(kanjis)
 
     if (error) {
         console.error("Get vocabulary kanjis error:", error)
