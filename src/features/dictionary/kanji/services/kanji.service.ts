@@ -1,6 +1,6 @@
 import type { Database } from "@/shared/types/database.generated"
-import { cleanReading } from "@/shared/utils/japanese"
 
+import type { Kanji } from "../types/kanji.types"
 import {
     findKanjiByCharacter,
     findKanjiLinks,
@@ -8,10 +8,11 @@ import {
     findVocabulariesByIds,
     findVocabularySenses,
 } from "@/server/repositories/kanji/kanji.repository"
-
-import type { Kanji } from "@/features/dictionary/kanji/types/kanji.types"
-import type { KanjiRelatedWord } from "@/features/dictionary/kanji/types/kanji-related-word.type"
-import type { KanjiReadingGroup } from "@/features/dictionary/kanji/types/kanji-reading-group.type"
+import type {
+    KanjiRelatedWord,
+    KanjiReadingGroup,
+} from "../types"
+import { cleanReading } from "@/shared/utils/japanese"
 
 type VocabularySummary = Pick<
     Database["public"]["Tables"]["vocabularies"]["Row"],
@@ -30,8 +31,8 @@ type KanjiVocabularyLink = {
 }
 
 const kanjiCache = new Map<string, Kanji | null>()
-
-const readingGroupCache = new Map<string, KanjiReadingGroup[]>()
+const readingGroupCache =
+    new Map<string, KanjiReadingGroup[]>()
 
 const meaningCache = new Map<
     number,
@@ -41,7 +42,9 @@ const meaningCache = new Map<
     }
 >()
 
-function getFirstSenseByVocabularyId(senses: VocabularySense[]) {
+function getFirstSenseByVocabularyId(
+    senses: VocabularySense[]
+) {
     const map = new Map<number, VocabularySense>()
 
     for (const sense of senses) {
@@ -61,13 +64,14 @@ async function attachMeanings(
         .filter((id) => !meaningCache.has(id))
 
     if (ids.length > 0) {
-        const { data: senses, error } = await findVocabularySenses(ids)
+        const { data: senses, error } =
+            await findVocabularySenses(ids)
 
         if (error) {
             console.error(error)
         } else {
-            const validSenses: VocabularySense[] = (senses || []).flatMap(
-                (sense) => {
+            const validSenses: VocabularySense[] = (senses || [])
+                .flatMap((sense) => {
                     if (sense.vocabulary_id === null) {
                         return []
                     }
@@ -79,8 +83,7 @@ async function attachMeanings(
                             meaning_vi: sense.meaning_vi,
                         },
                     ]
-                }
-            )
+                })
 
             const senseMap = getFirstSenseByVocabularyId(validSenses)
 
@@ -88,8 +91,10 @@ async function attachMeanings(
                 const sense = senseMap.get(id)
 
                 meaningCache.set(id, {
-                    meaning_en: sense?.meaning_en || null,
-                    meaning_vi: sense?.meaning_vi || null,
+                    meaning_en:
+                        sense?.meaning_en || null,
+                    meaning_vi:
+                        sense?.meaning_vi || null,
                 })
             }
         }
@@ -102,8 +107,10 @@ async function attachMeanings(
             id: item.id,
             word: item.primary_word,
             kana: item.primary_kana,
-            meaning_en: meaning?.meaning_en || null,
-            meaning_vi: meaning?.meaning_vi || null,
+            meaning_en:
+                meaning?.meaning_en || null,
+            meaning_vi:
+                meaning?.meaning_vi || null,
         }
     })
 }
@@ -112,8 +119,10 @@ async function getVocabularyIdsByKanji(
     character: string,
     limit = 20
 ): Promise<KanjiVocabularyLink[]> {
-    const { data: kanji, error: kanjiError } =
-        await findKanjiByCharacter(character)
+    const {
+        data: kanji,
+        error: kanjiError,
+    } = await findKanjiByCharacter(character)
 
     if (kanjiError) {
         console.error(kanjiError)
@@ -124,7 +133,8 @@ async function getVocabularyIdsByKanji(
         return []
     }
 
-    const { data, error } = await findKanjiLinks(Number(kanji.id), limit)
+    const { data, error } =
+        await findKanjiLinks(Number(kanji.id), limit)
 
     if (error) {
         console.error(error)
@@ -133,7 +143,9 @@ async function getVocabularyIdsByKanji(
 
     return (data || [])
         .filter(
-            (item): item is KanjiVocabularyLink =>
+            (
+                item
+            ): item is KanjiVocabularyLink =>
                 item.vocabulary_id !== null
         )
         .map((item) => ({
@@ -149,7 +161,8 @@ async function getVocabulariesByIds(
         return []
     }
 
-    const { data, error } = await findVocabulariesByIds(vocabularyIds)
+    const { data, error } =
+        await findVocabulariesByIds(vocabularyIds)
 
     if (error) {
         console.error(error)
@@ -164,7 +177,10 @@ function sortWordsByLinkOrder(
     links: KanjiVocabularyLink[]
 ) {
     const orderMap = new Map(
-        links.map((item, index) => [item.vocabulary_id, index])
+        links.map((item, index) => [
+            item.vocabulary_id,
+            index,
+        ])
     )
 
     return words.sort(
@@ -183,7 +199,8 @@ export async function getKanjiByCharacter(
         return kanjiCache.get(cacheKey) || null
     }
 
-    const { data, error } = await findKanjiByCharacter(character)
+    const { data, error } =
+        await findKanjiByCharacter(character)
 
     if (error) {
         console.error(error)
@@ -199,11 +216,17 @@ export async function getKanjiByCharacter(
 export async function getWordsByKanji(
     character: string
 ): Promise<KanjiRelatedWord[]> {
-    const links = await getVocabularyIdsByKanji(character, 20)
+    const links = await getVocabularyIdsByKanji(
+        character,
+        20
+    )
 
-    const vocabularyIds = links.map((item) => item.vocabulary_id)
+    const vocabularyIds = links.map(
+        (item) => item.vocabulary_id
+    )
 
-    const vocabularyRows = await getVocabulariesByIds(vocabularyIds)
+    const vocabularyRows =
+        await getVocabulariesByIds(vocabularyIds)
 
     const words = await attachMeanings(vocabularyRows)
 
@@ -228,22 +251,28 @@ export async function getWordsByReadingGroups(
         .split(";")
         .map((item) => {
             const displayReading = item.trim()
-            const searchReading = cleanReading(displayReading)
+            const searchReading =
+                cleanReading(displayReading)
 
             return {
                 displayReading,
                 searchReading,
             }
         })
-        .filter((item) => item.displayReading && item.searchReading)
+        .filter(
+            (item) =>
+                item.displayReading &&
+                item.searchReading
+        )
         .slice(0, 5)
 
     const results = await Promise.all(
         readings.map(async (reading) => {
-            const { data, error } = await findReadingWords(
-                character,
-                reading.searchReading
-            )
+            const { data, error } =
+                await findReadingWords(
+                    character,
+                    reading.searchReading
+                )
 
             if (error) {
                 console.error(error)
@@ -257,14 +286,18 @@ export async function getWordsByReadingGroups(
             }
 
             return {
-                reading: reading.displayReading,
+                reading:
+                    reading.displayReading,
                 words,
             }
         })
     )
 
     const groups = results.filter(
-        (item): item is KanjiReadingGroup => item !== null
+        (
+            item
+        ): item is KanjiReadingGroup =>
+            item !== null
     )
 
     readingGroupCache.set(cacheKey, groups)

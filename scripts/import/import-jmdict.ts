@@ -2,7 +2,7 @@ import dotenv from "dotenv"
 import fs from "fs"
 import path from "path"
 
-import { supabaseAdmin } from "../../src/shared/lib/supabase/admin"
+import { supabaseAdmin } from "@/server/supabase/admin"
 
 dotenv.config({
     path: ".env.local",

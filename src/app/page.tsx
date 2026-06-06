@@ -2,7 +2,8 @@
 
 import styles from "@/features/home/styles/HomePage.module.css"
 
-import useSearchHistory from "@/features/history/hooks/useSearchHistory"
+import useSearchHistory
+  from "@/features/user/search-history/hooks/useSearchHistory"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 

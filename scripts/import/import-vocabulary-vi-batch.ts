@@ -6,7 +6,7 @@ import type {
     Json,
     TablesUpdate,
 } from "../../src/shared/types/database.generated"
-import { supabaseAdmin } from "../../src/shared/lib/supabase/admin"
+import { supabaseAdmin } from "@/server/supabase/admin"
 
 dotenv.config({
     path: ".env.local",

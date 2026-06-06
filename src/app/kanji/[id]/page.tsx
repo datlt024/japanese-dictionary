@@ -4,28 +4,28 @@ import Link from "next/link"
 import { useEffect, useMemo, useState } from "react"
 import { useParams, useSearchParams } from "next/navigation"
 
-import styles from "@/features/kanji/styles/KanjiDetail.module.css"
+import styles from "@/features/dictionary/kanji/styles/KanjiDetail.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
-import KanjiStrokeOrder from "@/features/kanji/components/KanjiStrokeOrder"
+import KanjiStrokeOrder from "@/features/dictionary/kanji/components/KanjiStrokeOrder"
 
 import { uniqueArray } from "@/shared/utils/uniqueArray"
 
 import type {
     Kanji,
     KanjiReadingGroup,
-} from "@/features/kanji/types"
+} from "@/features/dictionary/kanji/types"
 
 import {
     getKanjiByCharacter,
     getWordsByReadingGroups,
-} from "@/features/kanji/services/kanji.service"
+} from "@/features/dictionary/kanji/services/kanji.service"
 
 import {
     extractKanjis,
     getKanjiMeaning,
     getRelatedWordMeaning,
-} from "@/features/kanji/utils"
+} from "@/features/dictionary/kanji/utils"
 
 export default function KanjiDetailPage() {
     const params = useParams<{ id: string }>()

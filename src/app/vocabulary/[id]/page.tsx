@@ -4,11 +4,11 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useParams, useSearchParams } from "next/navigation"
 
-import styles from "@/features/vocabulary/styles/VocabularyDetail.module.css"
+import styles from "@/features/dictionary/vocabulary/styles/VocabularyDetail.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
-import KanjiStrokeOrder from "@/features/kanji/components/KanjiStrokeOrder"
-import { conjugateVerb } from "@/features/vocabulary/utils/verbConjugation"
+import KanjiStrokeOrder from "@/features/dictionary/kanji/components/KanjiStrokeOrder"
+import { conjugateVerb } from "@/features/dictionary/vocabulary/utils/verbConjugation"
 
 import {
     capitalizeFirstLetter,
@@ -16,20 +16,20 @@ import {
     getVocabularyMeaning,
     getVocabularyPartOfSpeech,
     getVerbGroupLabel,
-} from "@/features/vocabulary/utils"
+} from "@/features/dictionary/vocabulary/utils"
 
 import {
     getRelatedVocabularies,
     getVocabularyById,
     getVocabularyKanjis,
-} from "@/features/vocabulary/services"
+} from "@/features/dictionary/vocabulary/services"
 
 import type {
     RelatedVocabulary,
     Vocabulary,
-} from "@/features/vocabulary/types"
+} from "@/features/dictionary/vocabulary/types"
 
-import type { VocabularyKanjiDetail } from "@/features/vocabulary/services/vocabulary.service"
+import type { VocabularyKanjiDetail } from "@/features/dictionary/vocabulary/services/vocabulary.service"
 
 function formatMeaningVi(text: string) {
     const normalized = text.trim()

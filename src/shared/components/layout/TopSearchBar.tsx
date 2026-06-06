@@ -13,11 +13,11 @@ import {
 
 import styles from "./TopSearchBar.module.css"
 
-import SearchBar from "@/features/search/components/SearchBar"
-import SearchHubDropdown from "@/features/search/components/SearchHubDropdown"
+import SearchBar from "@/features/dictionary/search/components/SearchBar"
+import SearchHubDropdown from "@/features/dictionary/search/components/SearchHubDropdown"
 
-import useSearchHistory from "@/features/history/hooks/useSearchHistory"
-import useSearchHub from "@/features/search/hooks/useSearchHub"
+import useSearchHistory from "@/features/user/search-history/hooks/useSearchHistory"
+import useSearchHub from "@/features/dictionary/search/hooks/useSearchHub"
 
 import { useClickOutside } from "@/shared/hooks/useClickOutside"
 import { useDebounce } from "@/shared/hooks/useDebounce"

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 
-import { searchDictionary } from "@/features/search/services/search.service"
+import { searchDictionary } from "@/features/dictionary/search/services/search.service"
 
 import {
     normalizeSearchTab,

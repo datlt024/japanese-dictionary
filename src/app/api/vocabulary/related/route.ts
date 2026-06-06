@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 
-import { getRelatedVocabulariesFromDatabase } from "@/features/vocabulary/services/related-vocabulary.server.service"
+import { getRelatedVocabulariesFromDatabase } from "@/features/dictionary/vocabulary/services/related-vocabulary.server.service"
 
 export async function GET(request: NextRequest) {
     const keyword =

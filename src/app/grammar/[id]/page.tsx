@@ -4,17 +4,17 @@ import { useEffect, useState } from "react"
 import { useParams, useSearchParams } from "next/navigation"
 import Link from "next/link"
 
-import styles from "@/features/grammar/styles/GrammarDetail.module.css"
+import styles from "@/features/dictionary/grammar/styles/GrammarDetail.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
-import { getGrammarMeaning } from "@/features/grammar/utils"
+import { getGrammarMeaning } from "@/features/dictionary/grammar/utils"
 
 import {
     getGrammarPointById,
     searchGrammarPoints,
-} from "@/features/grammar/services/grammar.service"
+} from "@/features/dictionary/grammar/services/grammar.service"
 
-import type { GrammarPoint } from "@/features/grammar/types"
+import type { GrammarPoint } from "@/features/dictionary/grammar/types"
 
 function RubyText({
     ruby,
