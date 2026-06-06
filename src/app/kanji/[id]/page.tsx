@@ -14,7 +14,7 @@ import { uniqueArray } from "@/shared/utils/uniqueArray"
 import type {
     Kanji,
     KanjiReadingGroup,
-} from "@/features/dictionary/kanji/types"
+} from "@/domain/kanji"
 
 import {
     getKanjiByCharacter,

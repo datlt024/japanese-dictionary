@@ -2,7 +2,7 @@ import { findRelatedVocabulariesByKeyword } from "@/server/repositories/vocabula
 
 import type {
     RelatedVocabulary,
-} from "../types/related-vocabulary.type"
+} from "@/domain/vocabulary/related-vocabulary.type"
 
 export async function getRelatedVocabulariesFromDatabase(
     keyword: string

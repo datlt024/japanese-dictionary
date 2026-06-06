@@ -1,4 +1,4 @@
-import type { GrammarPoint } from "../types"
+import type { GrammarPoint } from "@/domain/grammar"
 
 export function getGrammarMeaning(
     grammar: GrammarPoint

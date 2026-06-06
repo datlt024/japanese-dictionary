@@ -1,8 +1,4 @@
-"use client"
-
-import { useEffect, useState } from "react"
 import Link from "next/link"
-import { useParams, useSearchParams } from "next/navigation"
 
 import styles from "@/features/dictionary/vocabulary/styles/VocabularyDetail.module.css"
 
@@ -19,17 +15,21 @@ import {
 } from "@/features/dictionary/vocabulary/utils"
 
 import {
-    getRelatedVocabularies,
     getVocabularyById,
     getVocabularyKanjis,
-} from "@/features/dictionary/vocabulary/services"
+    type VocabularyKanjiDetail,
+} from "@/server/services/vocabulary/vocabulary.service"
 
-import type {
-    RelatedVocabulary,
-    Vocabulary,
-} from "@/features/dictionary/vocabulary/types"
+import { getRelatedVocabulariesFromDatabase } from "@/server/services/vocabulary/related-vocabulary.service"
 
-import type { VocabularyKanjiDetail } from "@/features/dictionary/vocabulary/services/vocabulary.service"
+type Props = {
+    params: Promise<{
+        id: string
+    }>
+    searchParams?: Promise<{
+        lang?: string
+    }>
+}
 
 function formatMeaningVi(text: string) {
     const normalized = text.trim()
@@ -65,64 +65,33 @@ function getKanjiDisplayMeaning(
     return kanji.meaning_vi || kanji.meaning_en || "-"
 }
 
-export default function VocabularyDetailPage() {
-    const params = useParams<{ id: string }>()
-    const searchParams = useSearchParams()
+export default async function VocabularyDetailPage({
+    params,
+    searchParams,
+}: Props) {
+    const resolvedParams = await params
+    const resolvedSearchParams = searchParams
+        ? await searchParams
+        : {}
 
-    const language =
-        searchParams.get("lang") === "en" ? "en" : "vi"
+    const language: "vi" | "en" =
+        resolvedSearchParams.lang === "en" ? "en" : "vi"
 
-    const [vocabulary, setVocabulary] =
-        useState<Vocabulary | null>(null)
+    const vocabularyId = Number(resolvedParams.id)
+    const vocabulary = await getVocabularyById(vocabularyId)
 
-    const [relatedVocabularies, setRelatedVocabularies] =
-        useState<RelatedVocabulary[]>([])
-
-    const [kanjiDetails, setKanjiDetails] = useState<
-        VocabularyKanjiDetail[]
-    >([])
-
-    const [loading, setLoading] = useState(true)
-
-    useEffect(() => {
-        let cancelled = false
-
-        async function fetchVocabulary() {
-            setLoading(true)
-            setRelatedVocabularies([])
-            setKanjiDetails([])
-
-            const data = await getVocabularyById(Number(params.id))
-
-            if (cancelled) {
-                return
-            }
-
-            setVocabulary(data)
-
-            if (data) {
-                const [related, kanjis] = await Promise.all([
-                    getRelatedVocabularies(data.word),
-                    getVocabularyKanjis(data.word),
-                ])
-
-                if (!cancelled) {
-                    setRelatedVocabularies(related)
-                    setKanjiDetails(kanjis)
-                }
-            }
-
-            if (!cancelled) {
-                setLoading(false)
-            }
+    const relatedResult = vocabulary
+        ? await getRelatedVocabulariesFromDatabase(vocabulary.word)
+        : {
+            results: [],
+            error: null,
         }
 
-        fetchVocabulary()
+    const kanjiDetails = vocabulary
+        ? await getVocabularyKanjis(vocabulary.word)
+        : []
 
-        return () => {
-            cancelled = true
-        }
-    }, [params.id])
+    const relatedVocabularies = relatedResult.results
 
     const displayMeaning = vocabulary
         ? getVocabularyMeaning(vocabulary)
@@ -143,11 +112,7 @@ export default function VocabularyDetailPage() {
             activeSearchTab="vocabulary"
         >
             <main className={styles.vocabularyDetail}>
-                {loading ? (
-                    <div className={styles.detailMain}>
-                        <h1>Đang tải từ vựng...</h1>
-                    </div>
-                ) : !vocabulary ? (
+                {!vocabulary ? (
                     <div className={styles.detailMain}>
                         <h1>Không tìm thấy từ vựng</h1>
 
@@ -219,8 +184,7 @@ export default function VocabularyDetailPage() {
                                                     language === "en"
                                                         ? formatMeaningEn(
                                                             sense.meaning_en
-                                                        ) ||
-                                                        "Updating..."
+                                                        ) || "Updating..."
                                                         : sense.meaning_vi ||
                                                         formatMeaningEn(
                                                             sense.meaning_en
@@ -247,8 +211,7 @@ export default function VocabularyDetailPage() {
                                                             }
                                                         >
                                                             <strong>
-                                                                {index + 1}
-                                                                .{" "}
+                                                                {index + 1}.{" "}
                                                                 {language ===
                                                                     "en"
                                                                     ? capitalizeFirstLetter(
@@ -391,12 +354,8 @@ export default function VocabularyDetailPage() {
                                                     styles.conjugationRow
                                                 }
                                             >
-                                                <span>
-                                                    {item.label}
-                                                </span>
-                                                <strong>
-                                                    {item.form}
-                                                </strong>
+                                                <span>{item.label}</span>
+                                                <strong>{item.form}</strong>
                                             </div>
                                         ))}
                                     </div>
@@ -415,8 +374,7 @@ export default function VocabularyDetailPage() {
                         <aside className={styles.detailSidebar}>
                             <div className={styles.detailSideCard}>
                                 <h3>
-                                    Kết quả tra cứu{" "}
-                                    {vocabulary.word}
+                                    Kết quả tra cứu {vocabulary.word}
                                 </h3>
 
                                 <div
@@ -455,8 +413,7 @@ export default function VocabularyDetailPage() {
                                         )
                                     ) : (
                                         <p>
-                                            Không có kết quả liên
-                                            quan.
+                                            Không có kết quả liên quan.
                                         </p>
                                     )}
                                 </div>
@@ -531,8 +488,7 @@ export default function VocabularyDetailPage() {
                                                 }
                                             >
                                                 <p>
-                                                    Hán tự:{" "}
-                                                    {item.kanji} -{" "}
+                                                    Hán tự: {item.kanji} -{" "}
                                                     {getKanjiDisplayMeaning(
                                                         item,
                                                         language
@@ -541,14 +497,12 @@ export default function VocabularyDetailPage() {
 
                                                 <p>
                                                     訓:{" "}
-                                                    {item.kunyomi ||
-                                                        "-"}
+                                                    {item.kunyomi || "-"}
                                                 </p>
 
                                                 <p>
                                                     音:{" "}
-                                                    {item.onyomi ||
-                                                        "-"}
+                                                    {item.onyomi || "-"}
                                                 </p>
                                             </div>
 

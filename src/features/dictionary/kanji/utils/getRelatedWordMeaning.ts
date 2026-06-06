@@ -1,6 +1,4 @@
-import type {
-    KanjiRelatedWord,
-} from "../types"
+import type { KanjiRelatedWord } from "@/domain/kanji"
 
 export function getRelatedWordMeaning(
     word: KanjiRelatedWord

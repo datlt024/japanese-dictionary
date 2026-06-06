@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-import { Vocabulary } from "@/features/dictionary/search/types"
+import { Vocabulary } from "@/domain/search"
 import { searchVocabularies } from "../services/vocabulary-search.service"
 
 export default function useVocabularySearch(keyword: string) {

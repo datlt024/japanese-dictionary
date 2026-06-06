@@ -1,6 +1,6 @@
 import { supabaseServer } from "@/server/supabase/server"
 
-import { Vocabulary } from "@/features/dictionary/search/types"
+import { Vocabulary } from "@/domain/search"
 
 const SEARCH_LIMIT = 50
 

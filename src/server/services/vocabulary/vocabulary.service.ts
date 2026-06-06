@@ -1,7 +1,7 @@
 import type {
     Vocabulary,
     VocabularySense,
-} from "../types/vocabulary.type"
+} from "@/domain/vocabulary/vocabulary.type"
 
 import {
     findKanjisByCharacters,

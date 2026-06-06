@@ -1,4 +1,4 @@
-import type { Vocabulary } from "../types/vocabulary.type"
+import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
 
 export function getVocabularyPartOfSpeech(
     vocabulary: Vocabulary

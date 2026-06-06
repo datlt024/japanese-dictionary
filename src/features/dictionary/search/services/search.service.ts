@@ -3,7 +3,7 @@ import type {
     KanjiSearchItem,
     SearchResult,
     VocabularyResult,
-} from "../types"
+} from "@/domain/search"
 
 import type {
     SearchTabWithAll,
@@ -30,18 +30,13 @@ async function searchVocabularyResult(
     keyword: string,
     language: DictionaryLanguage
 ): Promise<VocabularyResult[]> {
-    const { data, error } =
-        await searchVocabulariesByKeyword(
-            keyword,
-            language
-        )
+    const { data, error } = await searchVocabulariesByKeyword(
+        keyword,
+        language
+    )
 
     if (error) {
-        console.error(
-            "Vocabulary search error:",
-            error
-        )
-
+        console.error("Vocabulary search error:", error)
         return []
     }
 
@@ -51,21 +46,14 @@ async function searchVocabularyResult(
 async function searchKanjiResult(
     keyword: string
 ): Promise<KanjiSearchItem[]> {
-    const { data, error } =
-        await searchKanjiByKeyword(keyword)
+    const { data, error } = await searchKanjiByKeyword(keyword)
 
     if (error) {
-        console.error(
-            "Kanji search error:",
-            error
-        )
-
+        console.error("Kanji search error:", error)
         return []
     }
 
-    return data
-        ? ([data] as KanjiSearchItem[])
-        : []
+    return data ? ([data] as KanjiSearchItem[]) : []
 }
 
 async function searchGrammarResult(
@@ -76,10 +64,7 @@ async function searchGrammarResult(
         grammarPatternResult,
         grammarReadingResult,
         grammarMeaningResult,
-    } = await searchGrammarsByKeyword(
-        keyword,
-        language
-    )
+    } = await searchGrammarsByKeyword(keyword, language)
 
     if (grammarPatternResult.error) {
         console.error(
@@ -103,14 +88,9 @@ async function searchGrammarResult(
     }
 
     return uniqueById([
-        ...((grammarPatternResult.data ||
-            []) as GrammarSearchItem[]),
-
-        ...((grammarReadingResult.data ||
-            []) as GrammarSearchItem[]),
-
-        ...((grammarMeaningResult.data ||
-            []) as GrammarSearchItem[]),
+        ...((grammarPatternResult.data || []) as GrammarSearchItem[]),
+        ...((grammarReadingResult.data || []) as GrammarSearchItem[]),
+        ...((grammarMeaningResult.data || []) as GrammarSearchItem[]),
     ])
 }
 
@@ -119,8 +99,7 @@ export async function searchDictionary(
     tab: SearchTabWithAll,
     language: DictionaryLanguage = "vi"
 ): Promise<SearchResult> {
-    const normalizedKeyword =
-        normalizeKeyword(keyword)
+    const normalizedKeyword = normalizeKeyword(keyword)
 
     if (!normalizedKeyword) {
         return createEmptySearchResult()
@@ -129,53 +108,35 @@ export async function searchDictionary(
     if (tab === "vocabulary") {
         return {
             ...createEmptySearchResult(),
-            vocabularies:
-                await searchVocabularyResult(
-                    normalizedKeyword,
-                    language
-                ),
+            vocabularies: await searchVocabularyResult(
+                normalizedKeyword,
+                language
+            ),
         }
     }
 
     if (tab === "kanji") {
         return {
             ...createEmptySearchResult(),
-            kanjis: await searchKanjiResult(
-                normalizedKeyword
-            ),
+            kanjis: await searchKanjiResult(normalizedKeyword),
         }
     }
 
     if (tab === "grammar") {
         return {
             ...createEmptySearchResult(),
-            grammars:
-                await searchGrammarResult(
-                    normalizedKeyword,
-                    language
-                ),
+            grammars: await searchGrammarResult(
+                normalizedKeyword,
+                language
+            ),
         }
     }
 
     if (tab === "all") {
-        const [
-            vocabularies,
-            kanjis,
-            grammars,
-        ] = await Promise.all([
-            searchVocabularyResult(
-                normalizedKeyword,
-                language
-            ),
-
-            searchKanjiResult(
-                normalizedKeyword
-            ),
-
-            searchGrammarResult(
-                normalizedKeyword,
-                language
-            ),
+        const [vocabularies, kanjis, grammars] = await Promise.all([
+            searchVocabularyResult(normalizedKeyword, language),
+            searchKanjiResult(normalizedKeyword),
+            searchGrammarResult(normalizedKeyword, language),
         ])
 
         return {

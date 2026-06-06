@@ -1,4 +1,4 @@
-import type { Vocabulary } from "../types/vocabulary.type"
+import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
 
 export function getVocabularyMeaning(vocabulary: Vocabulary) {
     const firstSense = vocabulary.senses[0]

@@ -1,6 +1,6 @@
 import type {
     RelatedVocabulary,
-} from "../types/related-vocabulary.type"
+} from "@/domain/vocabulary/related-vocabulary.type"
 
 type RelatedVocabularyResponse = {
     results?: RelatedVocabulary[]

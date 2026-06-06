@@ -14,7 +14,7 @@ import {
     searchGrammarPoints,
 } from "@/features/dictionary/grammar/services/grammar.service"
 
-import type { GrammarPoint } from "@/features/dictionary/grammar/types"
+import type { GrammarPoint } from "@/domain/grammar"
 
 function RubyText({
     ruby,
