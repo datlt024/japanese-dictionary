@@ -1,0 +1,126 @@
+.strokeOrder {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 260px;
+    aspect-ratio: 1 / 1;
+
+    margin: 0 auto;
+
+    border-radius: 18px;
+    background: #f8fafc;
+
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.svg {
+    display: block;
+    width: 92%;
+    height: 92%;
+}
+
+.guide {
+    stroke: #bfdbfe;
+    stroke-width: 0.75;
+    stroke-dasharray: 4 4;
+    opacity: 0.85;
+}
+
+.path {
+    fill: none;
+    stroke-width: 3.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    stroke-dasharray: 180;
+    stroke-dashoffset: 180;
+
+    animation: kanjiStrokeDraw 0.9s ease-in-out forwards;
+}
+
+.number {
+    font-size: 8.2px;
+    font-weight: 650;
+    user-select: none;
+
+    paint-order: stroke;
+    stroke: #f8fafc;
+    stroke-width: 1.1px;
+
+    opacity: 0;
+    animation: kanjiStrokeNumberShow 0.2s ease forwards;
+}
+
+.replayButton {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    border: 1.5px solid #60a5fa;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.94);
+
+    color: #64748b;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1;
+
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.08);
+
+    transition: 0.15s ease;
+}
+
+.replayButton:hover {
+    border-color: #3b82f6;
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.replayButton:active {
+    transform: scale(0.95);
+}
+
+.loading {
+    color: #64748b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.fallback {
+    color: #111827;
+    font-size: 96px;
+    font-weight: 800;
+}
+
+@keyframes kanjiStrokeDraw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes kanjiStrokeNumberShow {
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 900px) {
+    .strokeOrder {
+        max-width: 240px;
+        margin: 16px auto 0;
+    }
+}

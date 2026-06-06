@@ -7,6 +7,7 @@ import { useParams, useSearchParams } from "next/navigation"
 import "@/styles/pages/kanji-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
+import KanjiStrokeOrder from "@/features/kanji/components/KanjiStrokeOrder"
 
 import { uniqueArray } from "@/shared/utils/uniqueArray"
 
@@ -171,11 +172,7 @@ export default function KanjiDetailPage() {
                                     </div>
                                 </div>
 
-                                <div className="kanji-stroke-preview">
-                                    <div className="stroke-box">
-                                        {kanji.kanji}
-                                    </div>
-                                </div>
+                                <KanjiStrokeOrder kanji={kanji.kanji} />
                             </div>
 
                             <div className="kanji-meta-row">

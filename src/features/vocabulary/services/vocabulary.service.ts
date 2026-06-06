@@ -1,4 +1,9 @@
-import type { Vocabulary, VocabularySense } from "../types/vocabulary.type"
+import { supabase } from "@/shared/lib/supabase"
+
+import type {
+    Vocabulary,
+    VocabularySense,
+} from "../types/vocabulary.type"
 
 import {
     findVocabularyBaseById,
@@ -6,6 +11,29 @@ import {
     findVocabularySensesByVocabularyId,
     findVocabularyWritingsByVocabularyId,
 } from "../repositories/vocabulary.repository"
+
+export type VocabularyKanjiDetail = {
+    id: number
+    kanji: string
+    meaning_vi: string | null
+    meaning_en: string | null
+    onyomi: string | null
+    kunyomi: string | null
+    stroke_count: number | null
+    jlpt: number | null
+    grade: number | null
+    frequency: number | null
+}
+
+function extractUniqueKanjis(text: string) {
+    return Array.from(
+        new Set(
+            Array.from(text).filter((char) =>
+                /[\u4e00-\u9faf]/.test(char)
+            )
+        )
+    )
+}
 
 export async function getVocabularyById(
     id: number
@@ -73,4 +101,34 @@ export async function getVocabularyById(
         writings: writingsResult.data || [],
         readings: readingsResult.data || [],
     }
+}
+
+export async function getVocabularyKanjis(
+    word: string
+): Promise<VocabularyKanjiDetail[]> {
+    const kanjis = extractUniqueKanjis(word)
+
+    if (kanjis.length === 0) {
+        return []
+    }
+
+    const { data, error } = await supabase
+        .from("kanjis")
+        .select(
+            "id, kanji, meaning_vi, meaning_en, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
+        )
+        .in("kanji", kanjis)
+
+    if (error) {
+        console.error("Get vocabulary kanjis error:", error)
+        return []
+    }
+
+    const rows = (data || []) as VocabularyKanjiDetail[]
+
+    return kanjis
+        .map((kanji) =>
+            rows.find((item) => item.kanji === kanji)
+        )
+        .filter(Boolean) as VocabularyKanjiDetail[]
 }

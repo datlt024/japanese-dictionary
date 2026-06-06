@@ -7,6 +7,7 @@ import { useParams, useSearchParams } from "next/navigation"
 import "@/styles/pages/vocabulary-detail.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
+import KanjiStrokeOrder from "@/features/kanji/components/KanjiStrokeOrder"
 import { conjugateVerb } from "@/shared/utils/verbConjugation"
 
 import {
@@ -20,12 +21,15 @@ import {
 import {
     getRelatedVocabularies,
     getVocabularyById,
+    getVocabularyKanjis,
 } from "@/features/vocabulary/services"
 
 import type {
     RelatedVocabulary,
     Vocabulary,
 } from "@/features/vocabulary/types"
+
+import type { VocabularyKanjiDetail } from "@/features/vocabulary/services/vocabulary.service"
 
 function formatMeaningVi(text: string) {
     const normalized = text.trim()
@@ -44,6 +48,23 @@ function formatGlossMeaning(text: string) {
     return capitalizeFirstLetter(text.trim())
 }
 
+function getKanjiReadingText(kanji: VocabularyKanjiDetail) {
+    return [kanji.onyomi, kanji.kunyomi]
+        .filter(Boolean)
+        .join(" ")
+}
+
+function getKanjiDisplayMeaning(
+    kanji: VocabularyKanjiDetail,
+    language: "vi" | "en"
+) {
+    if (language === "en") {
+        return kanji.meaning_en || kanji.meaning_vi || "-"
+    }
+
+    return kanji.meaning_vi || kanji.meaning_en || "-"
+}
+
 export default function VocabularyDetailPage() {
     const params = useParams<{ id: string }>()
     const searchParams = useSearchParams()
@@ -57,30 +78,52 @@ export default function VocabularyDetailPage() {
     const [relatedVocabularies, setRelatedVocabularies] =
         useState<RelatedVocabulary[]>([])
 
+    const [kanjiDetails, setKanjiDetails] = useState<
+        VocabularyKanjiDetail[]
+    >([])
+
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
+        let cancelled = false
+
         async function fetchVocabulary() {
             setLoading(true)
             setRelatedVocabularies([])
+            setKanjiDetails([])
 
             const data = await getVocabularyById(
                 Number(params.id)
             )
 
+            if (cancelled) {
+                return
+            }
+
             setVocabulary(data)
 
             if (data) {
-                const related =
-                    await getRelatedVocabularies(data.word)
+                const [related, kanjis] = await Promise.all([
+                    getRelatedVocabularies(data.word),
+                    getVocabularyKanjis(data.word),
+                ])
 
-                setRelatedVocabularies(related)
+                if (!cancelled) {
+                    setRelatedVocabularies(related)
+                    setKanjiDetails(kanjis)
+                }
             }
 
-            setLoading(false)
+            if (!cancelled) {
+                setLoading(false)
+            }
         }
 
         fetchVocabulary()
+
+        return () => {
+            cancelled = true
+        }
     }, [params.id])
 
     const displayMeaning = vocabulary
@@ -313,7 +356,6 @@ export default function VocabularyDetailPage() {
                             {verbGroupLabel && (
                                 <div className="detail-section">
                                     <h2>Nhóm động từ</h2>
-
                                     <p>{verbGroupLabel}</p>
                                 </div>
                             )}
@@ -396,43 +438,125 @@ export default function VocabularyDetailPage() {
                                 </div>
                             </div>
 
-                            <div className="detail-side-card">
+                            {kanjiDetails.length > 0 && (
+                                <div className="detail-side-card vocabulary-kanji-card">
+                                    <h3>
+                                        Các chữ kanji của{" "}
+                                        {vocabulary.word}
+                                    </h3>
+
+                                    {kanjiDetails.map((item) => (
+                                        <div
+                                            key={item.kanji}
+                                            className="vocabulary-kanji-item"
+                                        >
+                                            <div className="vocabulary-kanji-head">
+                                                <Link
+                                                    href={`/kanji/${item.kanji}?q=${encodeURIComponent(
+                                                        vocabulary.word
+                                                    )}&lang=${language}`}
+                                                    className="vocabulary-kanji-char"
+                                                >
+                                                    {item.kanji}
+                                                </Link>
+
+                                                <span className="vocabulary-kanji-reading">
+                                                    「
+                                                    {getKanjiReadingText(
+                                                        item
+                                                    ) || "-"}
+                                                    」
+                                                </span>
+                                            </div>
+
+                                            <p className="vocabulary-kanji-meaning">
+                                                {getKanjiDisplayMeaning(
+                                                    item,
+                                                    language
+                                                )}
+                                            </p>
+
+                                            <KanjiStrokeOrder
+                                                kanji={item.kanji}
+                                                className="vocabulary-kanji-stroke"
+                                            />
+
+                                            <div className="vocabulary-kanji-info">
+                                                <p>
+                                                    Hán tự:{" "}
+                                                    {item.kanji} -{" "}
+                                                    {getKanjiDisplayMeaning(
+                                                        item,
+                                                        language
+                                                    )}
+                                                </p>
+
+                                                <p>
+                                                    訓:{" "}
+                                                    {item.kunyomi ||
+                                                        "-"}
+                                                </p>
+
+                                                <p>
+                                                    音:{" "}
+                                                    {item.onyomi ||
+                                                        "-"}
+                                                </p>
+                                            </div>
+
+                                            <Link
+                                                href={`/kanji/${item.kanji}?q=${encodeURIComponent(
+                                                    vocabulary.word
+                                                )}&lang=${language}`}
+                                                className="vocabulary-kanji-more"
+                                            >
+                                                Xem chi tiết hơn
+                                            </Link>
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
+
+                            <div className="detail-side-card vocabulary-related-card">
                                 <h3>
-                                    Các chữ kanji của{" "}
+                                    Các từ liên quan tới{" "}
                                     {vocabulary.word}
                                 </h3>
 
-                                <div className="kanji-list">
-                                    {Array.from(vocabulary.word)
-                                        .filter((char) =>
-                                            /[\u4e00-\u9faf]/.test(
-                                                char
+                                {relatedVocabularies.length > 0 ? (
+                                    <div className="vocabulary-related-list">
+                                        {relatedVocabularies
+                                            .filter(
+                                                (item) =>
+                                                    item.id !==
+                                                    vocabulary.id
                                             )
-                                        )
-                                        .map((char) => (
-                                            <Link
-                                                key={char}
-                                                href={`/kanji/${char}?lang=${language}`}
-                                                className="kanji-box"
-                                            >
-                                                {char}
-                                            </Link>
-                                        ))}
-                                </div>
+                                            .slice(0, 8)
+                                            .map((item) => (
+                                                <Link
+                                                    key={item.id}
+                                                    href={`/vocabulary/${item.id}?lang=${language}`}
+                                                    className="vocabulary-related-item"
+                                                >
+                                                    <strong>
+                                                        {item.word}
+                                                    </strong>
 
-                                <p>
-                                    Hán tự, âm đọc và nét viết sẽ
-                                    cập nhật sau.
-                                </p>
-                            </div>
+                                                    <span>
+                                                        {item.kana ||
+                                                            "-"}
+                                                    </span>
 
-                            <div className="detail-side-card">
-                                <h3>Các từ liên quan</h3>
-
-                                <p>
-                                    Đồng nghĩa, trái nghĩa và từ dễ
-                                    nhầm sẽ được cập nhật sau.
-                                </p>
+                                                    <p>
+                                                        {item.meaning ||
+                                                            "Đang cập nhật"}
+                                                    </p>
+                                                </Link>
+                                            ))}
+                                    </div>
+                                ) : (
+                                    <p>Chưa có từ liên quan.</p>
+                                )}
                             </div>
                         </aside>
                     </div>

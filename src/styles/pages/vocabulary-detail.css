@@ -387,3 +387,136 @@
     font-size: 18px;
   }
 }
+.vocabulary-kanji-card {
+  overflow: hidden;
+}
+
+.vocabulary-kanji-item {
+  padding-top: 14px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.vocabulary-kanji-item:first-of-type {
+  border-top: none;
+}
+
+.vocabulary-kanji-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 8px;
+}
+
+.vocabulary-kanji-char {
+  color: #1476e8;
+  font-size: 22px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.vocabulary-kanji-char:hover {
+  text-decoration: underline;
+}
+
+.vocabulary-kanji-reading {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.vocabulary-kanji-meaning {
+  margin-bottom: 14px;
+
+  color: #111827;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.vocabulary-kanji-card .kanji-stroke-order {
+  max-width: 230px;
+  margin: 0 auto 14px;
+}
+
+.vocabulary-kanji-info {
+  margin-top: 12px;
+
+  color: #111827;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.vocabulary-kanji-info p {
+  margin: 2px 0;
+}
+
+.vocabulary-kanji-more {
+  display: block;
+
+  margin-top: 12px;
+
+  color: #475569;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.vocabulary-related-card {
+  overflow: hidden;
+}
+
+.vocabulary-related-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.vocabulary-related-item {
+  display: block;
+
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.vocabulary-related-item:first-child {
+  border-top: none;
+}
+
+.vocabulary-related-item strong {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #1476e8;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.vocabulary-related-item span {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.vocabulary-related-item p {
+  color: #111827;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.vocabulary-related-item:hover strong {
+  text-decoration: underline;
+}
+.vocabulary-kanji-stroke {
+  max-width: 230px;
+  margin: 16px auto;
+}
