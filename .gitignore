@@ -10,9 +10,7 @@
 !.yarn/releases
 !.yarn/versions
 .env.local
-data-import/jmdict-eng-3.6.2.json
-data-import/kanjidic2.xml
-data-import/grammar-n5.json
+data-import/
 data/
 public/kanjivg
 
