@@ -58,7 +58,6 @@ const SEARCH_TABS: SearchTab[] = [
     "jpjp",
 ]
 
-
 function getTabButtonClass(
     currentTab: SearchTab,
     targetTab: SearchTab
@@ -91,6 +90,7 @@ function TopSearchBarContent({
     const [activeTab, setActiveTab] =
         useState<SearchTab>(activeSearchTab)
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+    const [handwritingOpen, setHandwritingOpen] = useState(false)
 
     const debouncedKeyword = useDebounce(keyword, 300)
 
@@ -135,8 +135,7 @@ function TopSearchBarContent({
             }
 
             return response.json() as Promise<SearchApiResponse>
-        } catch (error) {
-            console.error("Search request failed:", error)
+        } catch {
             return {}
         }
     }
@@ -251,6 +250,14 @@ function TopSearchBarContent({
         await navigateSearch(tab)
     }
 
+    function handleHandwritingOpenChange(open: boolean) {
+        setHandwritingOpen(open)
+
+        if (open) {
+            setIsDropdownOpen(Boolean(keyword.trim()))
+        }
+    }
+
     return (
         <div className={styles.topSearch} ref={wrapperRef}>
             <div className={styles.topSearchInner}>
@@ -259,6 +266,10 @@ function TopSearchBarContent({
                         <SearchBar
                             value={keyword}
                             onChange={handleChange}
+                            handwritingOpen={handwritingOpen}
+                            onHandwritingOpenChange={
+                                handleHandwritingOpenChange
+                            }
                         />
 
                         {isDropdownOpen && keyword.trim() && (

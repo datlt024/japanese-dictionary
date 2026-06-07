@@ -6,6 +6,7 @@ import {
     useRef,
     useState,
 } from "react"
+import { createPortal } from "react-dom"
 import Script from "next/script"
 import { X } from "lucide-react"
 
@@ -92,10 +93,15 @@ export default function HandwritingModal({
     const kanjiCanvasLoadedRef = useRef(false)
     const refPatternsLoadedRef = useRef(false)
 
+    const [mounted, setMounted] = useState(false)
     const [scriptsReady, setScriptsReady] = useState(false)
     const [suggestions, setSuggestions] = useState<string[]>([])
     const [hasDrawing, setHasDrawing] = useState(false)
     const [isRecognizing, setIsRecognizing] = useState(false)
+
+    useEffect(() => {
+        setMounted(true)
+    }, [])
 
     const updateScriptsReady = useCallback(() => {
         setScriptsReady(
@@ -206,10 +212,114 @@ export default function HandwritingModal({
         }
     }, [scriptsReady])
 
+    const modal = (
+        <div
+            className={
+                open
+                    ? styles.overlay
+                    : `${styles.overlay} ${styles.overlayHidden}`
+            }
+            aria-hidden={!open}
+        >
+            <div className={styles.modal}>
+                <div className={styles.header}>
+                    <h2>Nhận dạng nét vẽ</h2>
+
+                    <button
+                        type="button"
+                        className={styles.closeButton}
+                        onClick={handleClose}
+                        aria-label="Đóng"
+                    >
+                        <X size={20} />
+                    </button>
+                </div>
+
+                <div className={styles.body}>
+                    <div className={styles.drawArea}>
+                        <div className={styles.canvasWrap}>
+                            <canvas
+                                id={CANVAS_ID}
+                                className={styles.canvas}
+                                width={330}
+                                height={330}
+                                data-stroke-numbers="false"
+                                onMouseDown={handleStartDrawing}
+                                onMouseUp={handleEndDrawing}
+                                onTouchStart={handleStartDrawing}
+                                onTouchEnd={handleEndDrawing}
+                            />
+                        </div>
+
+                        <div className={styles.actions}>
+                            <button
+                                type="button"
+                                onClick={handleClear}
+                                disabled={!hasDrawing}
+                            >
+                                <span>🗑</span>
+                                <span>Xóa tất cả</span>
+                            </button>
+
+                            <button
+                                type="button"
+                                onClick={handleUndo}
+                                disabled={!hasDrawing}
+                            >
+                                <span>↩</span>
+                                <span>Hoàn tác</span>
+                            </button>
+
+                            <button
+                                type="button"
+                                className={styles.searchButton}
+                                onClick={handleSearch}
+                                disabled={!scriptsReady}
+                            >
+                                <span>🔍</span>
+                                <span>
+                                    {isRecognizing
+                                        ? "Đang nhận dạng..."
+                                        : "Tra cứu"}
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className={styles.resultArea}>
+                        <h3>Kết quả gợi ý</h3>
+
+                        {suggestions.length > 0 ? (
+                            <div className={styles.suggestions}>
+                                {suggestions.map((item) => (
+                                    <button
+                                        key={item}
+                                        type="button"
+                                        onClick={() =>
+                                            handleSelect(item)
+                                        }
+                                    >
+                                        {item}
+                                    </button>
+                                ))}
+                            </div>
+                        ) : (
+                            <p className={styles.emptyHint}>
+                                {scriptsReady
+                                    ? "Vẽ một chữ kanji, chọn chữ gợi ý để viết tiếp."
+                                    : "Đang tải bộ nhận dạng chữ viết tay..."}
+                            </p>
+                        )}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+
     return (
         <>
             <Script
-                src="/vendor/kanji-canvas/kanji-canvas.min.js?v=9"
+                src="/vendor/kanji-canvas/kanji-canvas.min.js?v=10"
                 strategy="afterInteractive"
                 onLoad={() => {
                     kanjiCanvasLoadedRef.current = true
@@ -218,7 +328,7 @@ export default function HandwritingModal({
             />
 
             <Script
-                src="/vendor/kanji-canvas/ref-patterns.js?v=9"
+                src="/vendor/kanji-canvas/ref-patterns.js?v=10"
                 strategy="afterInteractive"
                 onLoad={() => {
                     refPatternsLoadedRef.current = true
@@ -226,103 +336,7 @@ export default function HandwritingModal({
                 }}
             />
 
-            <div
-                className={
-                    open
-                        ? styles.overlay
-                        : `${styles.overlay} ${styles.overlayHidden}`
-                }
-                aria-hidden={!open}
-            >
-                <div className={styles.modal}>
-                    <div className={styles.header}>
-                        <h2>Nhận dạng nét vẽ</h2>
-
-                        <button
-                            type="button"
-                            className={styles.closeButton}
-                            onClick={handleClose}
-                            aria-label="Đóng"
-                        >
-                            <X size={20} />
-                        </button>
-                    </div>
-
-                    <div className={styles.body}>
-                        <div className={styles.drawArea}>
-                            <div className={styles.canvasWrap}>
-                                <canvas
-                                    id={CANVAS_ID}
-                                    className={styles.canvas}
-                                    width={330}
-                                    height={330}
-                                    data-stroke-numbers="false"
-                                    onMouseDown={handleStartDrawing}
-                                    onMouseUp={handleEndDrawing}
-                                    onTouchStart={handleStartDrawing}
-                                    onTouchEnd={handleEndDrawing}
-                                />
-                            </div>
-
-                            <div className={styles.actions}>
-                                <button
-                                    type="button"
-                                    onClick={handleClear}
-                                    disabled={!hasDrawing}
-                                >
-                                    <span>🗑</span>
-                                    <span>Xóa tất cả</span>
-                                </button>
-
-                                <button
-                                    type="button"
-                                    onClick={handleUndo}
-                                    disabled={!hasDrawing}
-                                >
-                                    <span>↩</span>
-                                    <span>Hoàn tác</span>
-                                </button>
-
-                                <button
-                                    type="button"
-                                    className={styles.searchButton}
-                                    onClick={handleSearch}
-                                    disabled={!scriptsReady}
-                                >
-                                    <span>🔍</span>
-                                    <span>Tra cứu</span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <div className={styles.resultArea}>
-                            <h3>Kết quả gợi ý</h3>
-
-                            {suggestions.length > 0 ? (
-                                <div className={styles.suggestions}>
-                                    {suggestions.map((item) => (
-                                        <button
-                                            key={item}
-                                            type="button"
-                                            onClick={() =>
-                                                handleSelect(item)
-                                            }
-                                        >
-                                            {item}
-                                        </button>
-                                    ))}
-                                </div>
-                            ) : (
-                                <p className={styles.emptyHint}>
-                                    {scriptsReady
-                                        ? "Vẽ một chữ kanji, chọn chữ gợi ý để viết tiếp."
-                                        : "Đang tải bộ nhận dạng chữ viết tay..."}
-                                </p>
-                            )}
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {mounted ? createPortal(modal, document.body) : null}
         </>
     )
 }

@@ -266,3 +266,6 @@
     visibility: hidden;
     pointer-events: none;
 }
+.overlay {
+    z-index: 9999;
+}

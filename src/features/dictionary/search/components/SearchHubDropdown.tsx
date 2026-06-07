@@ -21,6 +21,7 @@ type Props = {
     loading: boolean
     activeTab: SearchTab
     language: DictionaryLanguage
+    disabled?: boolean
 }
 
 const MAX_DROPDOWN_ITEMS = 10
@@ -173,6 +174,7 @@ export default function SearchHubDropdown({
     loading,
     activeTab,
     language,
+    disabled = false,
 }: Props) {
     const cleanKeyword = keyword.trim()
 
@@ -183,7 +185,11 @@ export default function SearchHubDropdown({
             activeTab === "grammar")
 
     const sortedVocabularies = useMemo(() => {
-        if (!shouldShowDropdown || activeTab !== "vocabulary") {
+        if (
+            disabled ||
+            !shouldShowDropdown ||
+            activeTab !== "vocabulary"
+        ) {
             return []
         }
 
@@ -196,6 +202,7 @@ export default function SearchHubDropdown({
             (item) => item.id
         ).slice(0, MAX_DROPDOWN_ITEMS)
     }, [
+        disabled,
         shouldShowDropdown,
         activeTab,
         result.vocabularies,
@@ -204,7 +211,11 @@ export default function SearchHubDropdown({
     ])
 
     const sortedGrammars = useMemo(() => {
-        if (!shouldShowDropdown || activeTab !== "grammar") {
+        if (
+            disabled ||
+            !shouldShowDropdown ||
+            activeTab !== "grammar"
+        ) {
             return []
         }
 
@@ -217,6 +228,7 @@ export default function SearchHubDropdown({
             (item) => item.id
         ).slice(0, MAX_DROPDOWN_ITEMS)
     }, [
+        disabled,
         shouldShowDropdown,
         activeTab,
         result.grammars,
@@ -225,15 +237,28 @@ export default function SearchHubDropdown({
     ])
 
     const kanjiOptions = useMemo(() => {
-        if (!shouldShowDropdown || activeTab !== "kanji") {
+        if (
+            disabled ||
+            !shouldShowDropdown ||
+            activeTab !== "kanji"
+        ) {
             return []
         }
 
         return Array.from(new Set(extractKanjis(cleanKeyword)))
-    }, [shouldShowDropdown, activeTab, cleanKeyword])
+    }, [
+        disabled,
+        shouldShowDropdown,
+        activeTab,
+        cleanKeyword,
+    ])
 
     const kanjiResults = useMemo(() => {
-        if (!shouldShowDropdown || activeTab !== "kanji") {
+        if (
+            disabled ||
+            !shouldShowDropdown ||
+            activeTab !== "kanji"
+        ) {
             return []
         }
 
@@ -241,9 +266,14 @@ export default function SearchHubDropdown({
             result.kanjis,
             (item) => item.kanji
         ).slice(0, MAX_DROPDOWN_ITEMS)
-    }, [shouldShowDropdown, activeTab, result.kanjis])
+    }, [
+        disabled,
+        shouldShowDropdown,
+        activeTab,
+        result.kanjis,
+    ])
 
-    if (!shouldShowDropdown) {
+    if (disabled || !shouldShowDropdown) {
         return null
     }
 

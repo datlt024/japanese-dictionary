@@ -2,7 +2,6 @@
 
 import {
   useRef,
-  useState,
   type ChangeEvent,
 } from "react"
 import { Search } from "lucide-react"
@@ -16,15 +15,18 @@ type SearchBarProps = {
   value: string
   onChange: (value: string) => void
   placeholder?: string
+  handwritingOpen: boolean
+  onHandwritingOpenChange: (open: boolean) => void
 }
 
 export default function SearchBar({
   value,
   onChange,
   placeholder = "Tìm từ tiếng Nhật...",
+  handwritingOpen,
+  onHandwritingOpenChange,
 }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement | null>(null)
-  const [handwritingOpen, setHandwritingOpen] = useState(false)
 
   function handleChange(event: ChangeEvent<HTMLInputElement>) {
     onChange(event.target.value)
@@ -32,11 +34,11 @@ export default function SearchBar({
 
   function handleOpenHandwriting() {
     inputRef.current?.blur()
-    setHandwritingOpen(true)
+    onHandwritingOpenChange(true)
   }
 
   function handleCloseHandwriting() {
-    setHandwritingOpen(false)
+    onHandwritingOpenChange(false)
   }
 
   function handleSelectHandwriting(text: string) {
