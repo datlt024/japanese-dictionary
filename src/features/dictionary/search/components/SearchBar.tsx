@@ -3,12 +3,17 @@
 import {
   useRef,
   type ChangeEvent,
+  type ReactNode,
 } from "react"
-import { ImageIcon, Mic, Search } from "lucide-react"
+import {
+  ImageIcon,
+  Mic,
+  PenLine,
+  Search,
+} from "lucide-react"
 
 import styles from "./SearchBar.module.css"
 
-import HandwritingButton from "@/features/dictionary/handwriting/components/HandwritingButton"
 import HandwritingModal from "@/features/dictionary/handwriting/components/HandwritingModal"
 
 type SearchBarProps = {
@@ -19,6 +24,30 @@ type SearchBarProps = {
   onHandwritingOpenChange: (open: boolean) => void
   onVoiceSearchOpen?: () => void
   onImageScanOpen?: () => void
+}
+
+type ActionButtonProps = {
+  label: string
+  onClick: () => void
+  children: ReactNode
+}
+
+function ActionButton({
+  label,
+  onClick,
+  children,
+}: ActionButtonProps) {
+  return (
+    <button
+      type="button"
+      className={styles.actionButton}
+      onClick={onClick}
+      aria-label={label}
+    >
+      {children}
+      <span className={styles.tooltip}>{label}</span>
+    </button>
+  )
 }
 
 export default function SearchBar({
@@ -78,30 +107,26 @@ export default function SearchBar({
         />
 
         <div className={styles.actions}>
-          <button
-            type="button"
-            className={styles.imageScanButton}
+          <ActionButton
+            label="Dịch ảnh"
             onClick={handleOpenImageScan}
-            aria-label="Dịch ảnh"
           >
             <ImageIcon size={18} />
-            <span className={styles.tooltip}>Dịch ảnh</span>
-          </button>
+          </ActionButton>
 
-          <div className={styles.actionItem}>
-            <HandwritingButton
-              onClick={handleOpenHandwriting}
-            />
-          </div>
+          <ActionButton
+            label="Viết tay"
+            onClick={handleOpenHandwriting}
+          >
+            <PenLine size={18} />
+          </ActionButton>
 
-          <button
-            type="button"
-            className={styles.voiceButton}
+          <ActionButton
+            label="Thu âm"
             onClick={handleOpenVoiceSearch}
-            aria-label="Tra cứu bằng giọng nói"
           >
             <Mic size={18} />
-          </button>
+          </ActionButton>
         </div>
       </div>
 

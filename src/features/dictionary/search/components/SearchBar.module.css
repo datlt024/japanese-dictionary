@@ -60,14 +60,7 @@
     transform: translateY(-50%);
 }
 
-.actionItem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.imageScanButton,
-.voiceButton {
+.actionButton {
     position: relative;
 
     display: inline-flex;
@@ -92,15 +85,13 @@
         box-shadow 0.2s ease;
 }
 
-.imageScanButton:hover,
-.voiceButton:hover {
+.actionButton:hover {
     border-color: #93c5fd;
     background: #dbeafe;
     color: #1d4ed8;
 }
 
-.imageScanButton:active,
-.voiceButton:active {
+.actionButton:active {
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.16);
 }
 
@@ -108,25 +99,25 @@
     position: absolute;
     left: 50%;
     bottom: calc(100% + 8px);
-
     z-index: 20;
 
     padding: 6px 9px;
 
     border-radius: 8px;
 
-    background: #111827;
+    background: #0f172a;
     color: #ffffff;
 
+    font-family: inherit;
     font-size: 12px;
     font-weight: 700;
     line-height: 1;
     white-space: nowrap;
 
     opacity: 0;
-
-    transform: translateX(-50%);
     pointer-events: none;
+
+    transform: translateX(-50%) translateY(4px);
 
     transition:
         opacity 0.15s ease,
@@ -140,17 +131,17 @@
     left: 50%;
     top: 100%;
 
-    border-width: 5px;
+    border-width: 5px 5px 0;
     border-style: solid;
-    border-color: #111827 transparent transparent transparent;
+    border-color: #0f172a transparent transparent;
 
     transform: translateX(-50%);
 }
 
-.imageScanButton:hover .tooltip,
-.imageScanButton:focus-visible .tooltip {
+.actionButton:hover .tooltip,
+.actionButton:focus-visible .tooltip {
     opacity: 1;
-    transform: translateX(-50%) translateY(-2px);
+    transform: translateX(-50%) translateY(0);
 }
 
 @media (max-width: 768px) {
@@ -168,8 +159,7 @@
         gap: 6px;
     }
 
-    .imageScanButton,
-    .voiceButton {
+    .actionButton {
         width: 34px;
         height: 34px;
 
