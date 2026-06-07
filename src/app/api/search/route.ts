@@ -79,21 +79,5 @@ export async function GET(request: NextRequest) {
             Date.now() + SEARCH_CACHE_TTL,
         data: result,
     })
-
-    console.log("[api/search]", {
-        keyword,
-        tab,
-        language,
-        searchMs,
-        totalMs,
-        counts: {
-            vocabularies:
-                result.vocabularies.length,
-            kanjis: result.kanjis.length,
-            grammars: result.grammars.length,
-            examples: result.examples.length,
-        },
-    })
-
     return NextResponse.json(result)
 }
