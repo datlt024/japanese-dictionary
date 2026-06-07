@@ -15,6 +15,7 @@ import styles from "./TopSearchBar.module.css"
 
 import SearchBar from "@/features/dictionary/search/components/SearchBar"
 import SearchHubDropdown from "@/features/dictionary/search/components/SearchHubDropdown"
+import VoiceSearchModal from "@/features/dictionary/search/components/VoiceSearchModal"
 
 import useSearchHistory from "@/features/user/search-history/hooks/useSearchHistory"
 import useSearchHub from "@/features/dictionary/search/hooks/useSearchHub"
@@ -91,6 +92,7 @@ function TopSearchBarContent({
         useState<SearchTab>(activeSearchTab)
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
     const [handwritingOpen, setHandwritingOpen] = useState(false)
+    const [voiceSearchOpen, setVoiceSearchOpen] = useState(false)
 
     const debouncedKeyword = useDebounce(keyword, 300)
 
@@ -213,8 +215,11 @@ function TopSearchBarContent({
         )
     }
 
-    async function navigateSearch(tab: SearchTab) {
-        const q = keyword.trim()
+    async function navigateSearch(
+        tab: SearchTab,
+        searchText = keyword
+    ) {
+        const q = searchText.trim()
 
         if (!q) {
             return
@@ -258,51 +263,77 @@ function TopSearchBarContent({
         }
     }
 
+    async function handleVoiceSearchResult(text: string) {
+        const q = text.trim()
+
+        if (!q) {
+            return
+        }
+
+        setKeyword(q)
+        setIsDropdownOpen(false)
+
+        await navigateSearch(activeTab, q)
+    }
+
     return (
-        <div className={styles.topSearch} ref={wrapperRef}>
-            <div className={styles.topSearchInner}>
-                <form onSubmit={handleSubmit}>
-                    <div className={styles.searchDropdownWrapper}>
-                        <SearchBar
-                            value={keyword}
-                            onChange={handleChange}
-                            handwritingOpen={handwritingOpen}
-                            onHandwritingOpenChange={
-                                handleHandwritingOpenChange
-                            }
-                        />
-
-                        {isDropdownOpen && keyword.trim() && (
-                            <SearchHubDropdown
-                                result={result}
-                                keyword={debouncedKeyword}
-                                loading={isSearchLoading}
-                                activeTab={activeTab}
-                                language={language}
-                            />
-                        )}
-                    </div>
-
-                    <div className={styles.topSearchTabs}>
-                        {SEARCH_TABS.map((tab) => (
-                            <button
-                                key={tab}
-                                type="button"
-                                className={getTabButtonClass(
-                                    activeTab,
-                                    tab
-                                )}
-                                onClick={() =>
-                                    handleTabClick(tab)
+        <>
+            <div className={styles.topSearch} ref={wrapperRef}>
+                <div className={styles.topSearchInner}>
+                    <form onSubmit={handleSubmit}>
+                        <div className={styles.searchDropdownWrapper}>
+                            <SearchBar
+                                value={keyword}
+                                onChange={handleChange}
+                                handwritingOpen={handwritingOpen}
+                                onHandwritingOpenChange={
+                                    handleHandwritingOpenChange
                                 }
-                            >
-                                {SEARCH_TAB_LABELS[tab]}
-                            </button>
-                        ))}
-                    </div>
-                </form>
+                                onVoiceSearchOpen={() =>
+                                    setVoiceSearchOpen(true)
+                                }
+                            />
+
+                            {isDropdownOpen && keyword.trim() && (
+                                <SearchHubDropdown
+                                    result={result}
+                                    keyword={debouncedKeyword}
+                                    loading={isSearchLoading}
+                                    activeTab={activeTab}
+                                    language={language}
+                                />
+                            )}
+                        </div>
+
+                        <div className={styles.topSearchTabs}>
+                            {SEARCH_TABS.map((tab) => (
+                                <button
+                                    key={tab}
+                                    type="button"
+                                    className={getTabButtonClass(
+                                        activeTab,
+                                        tab
+                                    )}
+                                    onClick={() =>
+                                        handleTabClick(tab)
+                                    }
+                                >
+                                    {SEARCH_TAB_LABELS[tab]}
+                                </button>
+                            ))}
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
+
+            <VoiceSearchModal
+                open={voiceSearchOpen}
+                activeTab={activeTab}
+                dictionaryLanguage={language}
+                onClose={() => setVoiceSearchOpen(false)}
+                onResult={handleVoiceSearchResult}
+            />
+        </>
     )
 }
 

@@ -86,15 +86,15 @@ function getEnglishMeaning(item: JmdictWord) {
         .join("; ")
 }
 
-function getPartOfSpeech(item: JmdictWord) {
-    const parts = item.sense.flatMap((sense) => {
-        return sense.partOfSpeech || []
-    })
+//function getPartOfSpeech(item: JmdictWord) {
+//    const parts = item.sense.flatMap((sense) => {
+//       return sense.partOfSpeech || []
+// })
 
-    const uniqueParts = Array.from(new Set(parts))
+// const uniqueParts = Array.from(new Set(parts))
 
-    return uniqueParts.join(", ")
-}
+//   return uniqueParts.join(", ")
+//}
 
 function getIsCommon(item: JmdictWord) {
     return (

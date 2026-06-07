@@ -25,7 +25,6 @@ const searchCache = new Map<
 >()
 
 export async function GET(request: NextRequest) {
-    const startedAt = performance.now()
 
     const keyword =
         request.nextUrl.searchParams
@@ -58,20 +57,10 @@ export async function GET(request: NextRequest) {
         return NextResponse.json(cached.data)
     }
 
-    const searchStartedAt = performance.now()
-
     const result = await searchDictionary(
         keyword,
         tab,
         language
-    )
-
-    const searchMs = Math.round(
-        performance.now() - searchStartedAt
-    )
-
-    const totalMs = Math.round(
-        performance.now() - startedAt
     )
 
     searchCache.set(cacheKey, {

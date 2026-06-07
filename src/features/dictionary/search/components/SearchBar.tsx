@@ -4,7 +4,7 @@ import {
   useRef,
   type ChangeEvent,
 } from "react"
-import { Search } from "lucide-react"
+import { Mic, Search } from "lucide-react"
 
 import styles from "./SearchBar.module.css"
 
@@ -17,6 +17,7 @@ type SearchBarProps = {
   placeholder?: string
   handwritingOpen: boolean
   onHandwritingOpenChange: (open: boolean) => void
+  onVoiceSearchOpen?: () => void
 }
 
 export default function SearchBar({
@@ -25,6 +26,7 @@ export default function SearchBar({
   placeholder = "Tìm từ tiếng Nhật...",
   handwritingOpen,
   onHandwritingOpenChange,
+  onVoiceSearchOpen,
 }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement | null>(null)
 
@@ -46,6 +48,11 @@ export default function SearchBar({
     onChange(`${value}${text}`)
   }
 
+  function handleOpenVoiceSearch() {
+    inputRef.current?.blur()
+    onVoiceSearchOpen?.()
+  }
+
   return (
     <>
       <div className={styles.searchContainer}>
@@ -63,10 +70,21 @@ export default function SearchBar({
           className={styles.searchInput}
         />
 
-        <div className={styles.handwritingAction}>
-          <HandwritingButton
-            onClick={handleOpenHandwriting}
-          />
+        <div className={styles.actions}>
+          <div className={styles.actionItem}>
+            <HandwritingButton
+              onClick={handleOpenHandwriting}
+            />
+          </div>
+
+          <button
+            type="button"
+            className={styles.voiceButton}
+            onClick={handleOpenVoiceSearch}
+            aria-label="Tra cứu bằng giọng nói"
+          >
+            <Mic size={18} />
+          </button>
         </div>
       </div>
 
