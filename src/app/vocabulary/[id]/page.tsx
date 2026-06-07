@@ -61,6 +61,7 @@ export default async function VocabularyDetailPage({
                     ? `${styles.vocabularyDetail} ${styles.embeddedVocabularyDetail}`
                     : styles.vocabularyDetail
             }
+            data-quick-lookup-root="true"
         >
             {!vocabulary ? (
                 <div className={styles.detailMain}>

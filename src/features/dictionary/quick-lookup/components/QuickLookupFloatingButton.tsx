@@ -18,12 +18,14 @@ export default function QuickLookupFloatingButton({
     return (
         <button
             type="button"
+            data-quick-lookup="true"
             className={styles.button}
-            style={{
-                top,
-                left,
+            style={{ top, left }}
+            onMouseDown={(event) => {
+                event.preventDefault()
+                event.stopPropagation()
+                onClick()
             }}
-            onClick={onClick}
             aria-label="Tra từ đã chọn"
         >
             <Search size={20} />

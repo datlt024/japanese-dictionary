@@ -50,7 +50,10 @@ export default function AppLayout({
                         </Suspense>
                     </section>
 
-                    <main className={styles.appPageContent}>
+                    <main
+                        className={styles.appPageContent}
+                        data-quick-lookup-root="true"
+                    >
                         {children}
                     </main>
                 </div>

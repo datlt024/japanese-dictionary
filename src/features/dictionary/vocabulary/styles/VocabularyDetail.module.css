@@ -17,7 +17,7 @@
 
 .detailMain,
 .detailSideCard {
-  background: white;
+  background: #ffffff;
   border-radius: 18px;
   box-sizing: border-box;
 }
@@ -73,8 +73,10 @@
   position: absolute;
   top: 0;
   right: 0;
+
   display: flex;
   overflow: hidden;
+
   border: 1px solid #e5e7eb;
   border-radius: 10px;
 }
@@ -82,9 +84,12 @@
 .detailActions button {
   width: 48px;
   height: 44px;
+
   border: none;
   border-right: 1px solid #e5e7eb;
-  background: white;
+
+  background: #ffffff;
+
   font-size: 20px;
   cursor: pointer;
 }
@@ -97,8 +102,11 @@
   display: flex;
   gap: 10px;
   min-width: 0;
+
   padding: 18px 0;
+
   border-bottom: 1px solid #e5e7eb;
+
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -109,10 +117,14 @@
 
 .detailTools button {
   flex: 0 0 auto;
+
   padding: 10px 14px;
+
   border: 1px solid #e5e7eb;
   border-radius: 8px;
+
   background: #f8fafc;
+
   font-weight: 600;
   white-space: nowrap;
 }
@@ -121,8 +133,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+
   padding: 18px 0;
+
   border-bottom: 1px solid #e5e7eb;
+
   font-weight: 700;
 }
 
@@ -150,10 +165,13 @@
 
 .blueTitle {
   margin-bottom: 10px;
+
   color: #1476e8;
+
   font-size: clamp(18px, 1.2vw, 20px);
   font-weight: 800;
   line-height: 1.5;
+
   word-break: break-word;
 }
 
@@ -161,8 +179,10 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+
   margin: 10px 0 12px;
   padding: 0;
+
   list-style: none;
 }
 
@@ -170,7 +190,9 @@
   display: flex;
   align-items: flex-start;
   gap: 8px;
+
   color: #334155;
+
   font-size: 15px;
   font-weight: 600;
   line-height: 1.8;
@@ -178,7 +200,9 @@
 
 .senseGlossBullet {
   flex: 0 0 auto;
+
   color: #2563eb;
+
   font-weight: 900;
   line-height: 1.8;
 }
@@ -198,7 +222,9 @@
   display: flex;
   justify-content: space-between;
   gap: 16px;
+
   padding: 10px 12px;
+
   border-radius: 10px;
   background: #f8fafc;
 }
@@ -220,9 +246,12 @@
 
 .detailTag {
   padding: 6px 12px;
+
   border-radius: 999px;
+
   background: #eef2ff;
   color: #3730a3;
+
   font-size: 14px;
   font-weight: 600;
 }
@@ -237,9 +266,12 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
+
   padding: 10px 12px;
+
   border: 1px solid transparent;
   border-radius: 12px;
+
   background: #f8fafc;
   color: inherit;
   text-decoration: none;
@@ -251,7 +283,8 @@
 }
 
 .lookupResultItem.active,
-.lookupResultItemActive {
+.lookupResultItemActive,
+.active {
   border-color: #3b82f6;
   background: #eff6ff;
 }
@@ -272,7 +305,8 @@
   line-height: 1.4;
 }
 
-.vocabularyKanjiCard {
+.vocabularyKanjiCard,
+.vocabularyRelatedCard {
   overflow: hidden;
 }
 
@@ -289,11 +323,13 @@
   display: flex;
   align-items: center;
   gap: 8px;
+
   margin-bottom: 8px;
 }
 
 .vocabularyKanjiChar {
   color: #1476e8;
+
   font-size: 22px;
   font-weight: 800;
   text-decoration: none;
@@ -305,13 +341,16 @@
 
 .vocabularyKanjiReading {
   color: #475569;
+
   font-size: 14px;
   font-weight: 600;
 }
 
 .vocabularyKanjiMeaning {
   margin-bottom: 14px;
+
   color: #111827;
+
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -324,7 +363,9 @@
 
 .vocabularyKanjiInfo {
   margin-top: 12px;
+
   color: #111827;
+
   font-size: 14px;
   line-height: 1.7;
 }
@@ -335,16 +376,15 @@
 
 .vocabularyKanjiMore {
   display: block;
+
   margin-top: 12px;
+
   color: #475569;
+
   font-size: 15px;
   font-weight: 700;
   text-align: center;
   text-decoration: underline;
-}
-
-.vocabularyRelatedCard {
-  overflow: hidden;
 }
 
 .vocabularyRelatedList {
@@ -355,8 +395,11 @@
 
 .vocabularyRelatedItem {
   display: block;
+
   padding-top: 12px;
+
   border-top: 1px solid #e5e7eb;
+
   color: inherit;
   text-decoration: none;
 }
@@ -367,22 +410,29 @@
 
 .vocabularyRelatedItem strong {
   display: block;
+
   margin-bottom: 4px;
+
   color: #1476e8;
+
   font-size: 18px;
   font-weight: 800;
 }
 
 .vocabularyRelatedItem span {
   display: block;
+
   margin-bottom: 6px;
+
   color: #475569;
+
   font-size: 14px;
   font-weight: 600;
 }
 
 .vocabularyRelatedItem p {
   color: #111827;
+
   font-size: 15px;
   line-height: 1.6;
 }
@@ -393,8 +443,11 @@
 
 .backButton {
   display: inline-flex;
+
   margin-top: 16px;
+
   color: #2563eb;
+
   font-weight: 700;
   text-decoration: none;
 }
@@ -403,9 +456,79 @@
   text-decoration: underline;
 }
 
-.active {
-  border-color: #3b82f6;
-  background: #eff6ff;
+/* =========================
+   Embedded Quick Lookup
+========================= */
+
+.embeddedVocabularyDetail {
+  padding: 0;
+  background: transparent;
+}
+
+.embeddedVocabularyDetail .detailLayout {
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 18px;
+}
+
+.embeddedVocabularyDetail .detailMain,
+.embeddedVocabularyDetail .detailSideCard {
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.embeddedVocabularyDetail .detailMain {
+  padding: 26px;
+}
+
+.embeddedVocabularyDetail .detailSideCard {
+  padding: 18px;
+}
+
+.embeddedVocabularyDetail .detailHeader {
+  padding-bottom: 20px;
+}
+
+.embeddedVocabularyDetail .detailWord {
+  font-size: 46px;
+}
+
+.embeddedVocabularyDetail .detailKana {
+  font-size: 17px;
+}
+
+.embeddedVocabularyDetail .detailMeaning {
+  max-width: calc(100% - 150px);
+  font-size: 17px;
+}
+
+.embeddedVocabularyDetail .detailTools {
+  padding: 16px 0;
+}
+
+.embeddedVocabularyDetail .detailSection {
+  padding: 24px 0;
+}
+
+.embeddedVocabularyDetail .detailSection h2 {
+  margin-bottom: 18px;
+
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.embeddedVocabularyDetail .lookupResultItem {
+  border-radius: 14px;
+}
+
+.embeddedVocabularyDetail .vocabularyKanjiStroke {
+  max-width: 180px;
+}
+
+.embeddedVocabularyDetail .vocabularyRelatedItem strong {
+  font-size: 20px;
 }
 
 @media (max-width: 1100px) {
@@ -415,6 +538,14 @@
 
   .detailSidebar {
     display: none;
+  }
+
+  .embeddedVocabularyDetail .detailLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .embeddedVocabularyDetail .detailSidebar {
+    display: flex;
   }
 }
 
@@ -453,86 +584,16 @@
   .blueTitle {
     font-size: 18px;
   }
-}
-/* =========================
-   Embedded Quick Lookup
-========================= */
 
-.embeddedVocabularyDetail {
-  padding: 18px;
-  background: #f1f5f9;
-}
-
-.embeddedVocabularyDetail .detailLayout {
-  grid-template-columns: minmax(0, 1fr) 250px;
-  gap: 16px;
-}
-
-.embeddedVocabularyDetail .detailMain,
-.embeddedVocabularyDetail .detailSideCard {
-  border-radius: 16px;
-  box-shadow:
-    0 1px 2px rgba(15, 23, 42, 0.04),
-    0 8px 24px rgba(15, 23, 42, 0.05);
-}
-
-.embeddedVocabularyDetail .detailMain {
-  padding: 24px;
-}
-
-.embeddedVocabularyDetail .detailSideCard {
-  padding: 18px;
-}
-
-.embeddedVocabularyDetail .detailHeader {
-  padding-bottom: 18px;
-}
-
-.embeddedVocabularyDetail .detailWord {
-  font-size: 48px;
-}
-
-.embeddedVocabularyDetail .detailKana {
-  font-size: 18px;
-}
-
-.embeddedVocabularyDetail .detailMeaning {
-  max-width: calc(100% - 150px);
-  font-size: 17px;
-}
-
-.embeddedVocabularyDetail .detailTools {
-  padding: 16px 0;
-}
-
-.embeddedVocabularyDetail .detailSection {
-  padding: 26px 0;
-}
-
-.embeddedVocabularyDetail .detailSection h2 {
-  margin-bottom: 18px;
-  font-size: 22px;
-  font-weight: 800;
-}
-
-.embeddedVocabularyDetail .lookupResultItem {
-  border-radius: 14px;
-}
-
-.embeddedVocabularyDetail .vocabularyKanjiStroke {
-  max-width: 180px;
-}
-
-.embeddedVocabularyDetail .vocabularyRelatedItem strong {
-  font-size: 22px;
-}
-
-@media (max-width: 900px) {
-  .embeddedVocabularyDetail .detailLayout {
-    grid-template-columns: 1fr;
+  .embeddedVocabularyDetail .detailMain {
+    padding: 18px;
   }
 
-  .embeddedVocabularyDetail .detailSidebar {
-    display: flex;
+  .embeddedVocabularyDetail .detailWord {
+    font-size: 36px;
+  }
+
+  .embeddedVocabularyDetail .detailMeaning {
+    max-width: 100%;
   }
 }

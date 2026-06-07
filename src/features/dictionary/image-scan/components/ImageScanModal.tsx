@@ -11,22 +11,11 @@ import { ImageIcon, X } from "lucide-react"
 
 import styles from "./ImageScanModal.module.css"
 
-import QuickLookupFloatingButton from "@/features/dictionary/quick-lookup/components/QuickLookupFloatingButton"
-import QuickLookupModal from "@/features/dictionary/quick-lookup/components/QuickLookupModal"
-import {
-    getQuickLookupTarget,
-} from "@/features/dictionary/quick-lookup/services/quick-lookup.service"
-
 import useImageScan from "../hooks/useImageScan"
 
 type ImageScanModalProps = {
     open: boolean
     onClose: () => void
-}
-
-type FloatingPosition = {
-    top: number
-    left: number
 }
 
 function removeJapaneseInnerSpaces(text: string) {
@@ -55,20 +44,6 @@ function normalizeRecognizedText(text: string) {
         .trim()
 }
 
-function normalizeSelectedText(text: string) {
-    return removeJapaneseInnerSpaces(text)
-        .replace(/[\n\r\t 　]+/g, "")
-        .trim()
-}
-
-function getSelectionText() {
-    if (typeof window === "undefined") {
-        return ""
-    }
-
-    return window.getSelection()?.toString().trim() || ""
-}
-
 export default function ImageScanModal({
     open,
     onClose,
@@ -77,13 +52,6 @@ export default function ImageScanModal({
 
     const [imageUrl, setImageUrl] = useState<string | null>(null)
     const [recognizedText, setRecognizedText] = useState("")
-    const [selectedText, setSelectedText] = useState("")
-    const [floatingPosition, setFloatingPosition] =
-        useState<FloatingPosition | null>(null)
-
-    const [detailOpen, setDetailOpen] = useState(false)
-    const [detailTitle, setDetailTitle] = useState("")
-    const [detailUrl, setDetailUrl] = useState("")
 
     const {
         loading,
@@ -121,51 +89,13 @@ export default function ImageScanModal({
 
         setImageUrl(URL.createObjectURL(file))
         setRecognizedText("")
-        setSelectedText("")
-        setFloatingPosition(null)
-        setDetailOpen(false)
-        setDetailTitle("")
-        setDetailUrl("")
 
         const text = await recognizeImage(file)
 
         setRecognizedText(normalizeRecognizedText(text))
     }
 
-    function handleTextSelection() {
-        if (typeof window === "undefined") {
-            return
-        }
-
-        const selection = window.getSelection()
-        const text = normalizeSelectedText(getSelectionText())
-
-        if (
-            !selection ||
-            !text ||
-            selection.rangeCount === 0
-        ) {
-            setSelectedText("")
-            setFloatingPosition(null)
-            return
-        }
-
-        const rect = selection
-            .getRangeAt(0)
-            .getBoundingClientRect()
-
-        setSelectedText(text)
-        setFloatingPosition({
-            top: Math.max(rect.top - 48, 12),
-            left: Math.max(rect.left, 12),
-        })
-    }
-
     function handleClose() {
-        setSelectedText("")
-        setFloatingPosition(null)
-        setDetailOpen(false)
-
         if (typeof window !== "undefined") {
             window.getSelection()?.removeAllRanges()
         }
@@ -173,209 +103,156 @@ export default function ImageScanModal({
         onClose()
     }
 
-    async function handleOpenQuickLookup() {
-        if (!selectedText) {
-            return
-        }
-
-        const target = await getQuickLookupTarget(
-            selectedText,
-            "vi"
-        )
-
-        setDetailTitle(target.title)
-        setDetailUrl(target.url)
-        setDetailOpen(true)
-    }
-
     return (
-        <>
-            <div className={styles.overlay}>
-                <div className={styles.modal}>
-                    <div className={styles.header}>
-                        <h2>Dịch ảnh</h2>
+        <div className={styles.overlay}>
+            <div
+                className={styles.modal}
+                data-quick-lookup-root="true"
+            >
+                <div
+                    className={styles.header}
+                    data-disable-quick-lookup="true"
+                >
+                    <h2>Dịch ảnh</h2>
 
+                    <button
+                        type="button"
+                        className={styles.closeButton}
+                        onClick={handleClose}
+                        aria-label="Đóng"
+                    >
+                        <X size={20} />
+                    </button>
+                </div>
+
+                <div className={styles.body}>
+                    <input
+                        ref={inputRef}
+                        type="file"
+                        accept="image/*"
+                        className={styles.fileInput}
+                        onChange={handleFileChange}
+                    />
+
+                    {!imageUrl && (
                         <button
                             type="button"
-                            className={styles.closeButton}
-                            onClick={handleClose}
-                            aria-label="Đóng"
+                            className={styles.uploadBox}
+                            onClick={() => inputRef.current?.click()}
                         >
-                            <X size={20} />
+                            <ImageIcon size={34} />
+                            <span>
+                                Chọn ảnh có chữ tiếng Nhật
+                            </span>
+                            <small>
+                                Nên chọn ảnh rõ chữ hoặc crop gần vùng cần tra
+                            </small>
                         </button>
-                    </div>
+                    )}
 
-                    <div className={styles.body}>
-                        <input
-                            ref={inputRef}
-                            type="file"
-                            accept="image/*"
-                            className={styles.fileInput}
-                            onChange={handleFileChange}
-                        />
-
-                        {!imageUrl && (
-                            <button
-                                type="button"
-                                className={styles.uploadBox}
-                                onClick={() =>
-                                    inputRef.current?.click()
-                                }
+                    {imageUrl && (
+                        <div className={styles.previewGrid}>
+                            <div
+                                className={styles.previewBox}
+                                data-disable-quick-lookup="true"
                             >
-                                <ImageIcon size={34} />
-                                <span>
-                                    Chọn ảnh có chữ tiếng Nhật
-                                </span>
-                                <small>
-                                    Nên chọn ảnh rõ chữ hoặc crop gần vùng cần tra
-                                </small>
-                            </button>
-                        )}
-
-                        {imageUrl && (
-                            <div className={styles.previewGrid}>
-                                <div className={styles.previewBox}>
-                                    <NextImage
-                                        src={imageUrl}
-                                        alt="Ảnh cần dịch"
-                                        fill
-                                        unoptimized
-                                        className={styles.previewImage}
-                                    />
-
-                                    <button
-                                        type="button"
-                                        className={
-                                            styles.changeImageButton
-                                        }
-                                        onClick={() =>
-                                            inputRef.current?.click()
-                                        }
-                                    >
-                                        Chọn ảnh khác
-                                    </button>
-                                </div>
-
-                                <div className={styles.resultBox}>
-                                    {loading ? (
-                                        <div
-                                            className={
-                                                styles.loadingBox
-                                            }
-                                        >
-                                            <p>
-                                                Đang nhận diện chữ...
-                                            </p>
-
-                                            <div
-                                                className={
-                                                    styles.progressTrack
-                                                }
-                                            >
-                                                <div
-                                                    className={
-                                                        styles.progressBar
-                                                    }
-                                                    style={{
-                                                        width: `${Math.round(
-                                                            progress *
-                                                            100
-                                                        )}%`,
-                                                    }}
-                                                />
-                                            </div>
-
-                                            <span>
-                                                {Math.round(
-                                                    progress * 100
-                                                )}
-                                                %
-                                            </span>
-                                        </div>
-                                    ) : recognizedText ? (
-                                        <div
-                                            className={
-                                                styles.ocrPanel
-                                            }
-                                        >
-                                            <p
-                                                className={
-                                                    styles.ocrHint
-                                                }
-                                            >
-                                                Bôi đen chữ hoặc cụm từ cần tra
-                                            </p>
-
-                                            <div
-                                                className={
-                                                    styles.ocrText
-                                                }
-                                                onMouseUp={
-                                                    handleTextSelection
-                                                }
-                                                onTouchEnd={
-                                                    handleTextSelection
-                                                }
-                                            >
-                                                {recognizedText}
-                                            </div>
-                                        </div>
-                                    ) : (
-                                        <div
-                                            className={
-                                                styles.emptyText
-                                            }
-                                        >
-                                            Chưa có kết quả nhận diện
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-                        )}
-
-                        {recognizedText && (
-                            <div className={styles.rawTextBox}>
-                                <p>Muốn tra cả đoạn?</p>
+                                <NextImage
+                                    src={imageUrl}
+                                    alt="Ảnh cần dịch"
+                                    fill
+                                    unoptimized
+                                    className={styles.previewImage}
+                                />
 
                                 <button
                                     type="button"
-                                    onClick={() => {
-                                        setSelectedText(
-                                            normalizeSelectedText(
-                                                recognizedText
-                                            )
-                                        )
-                                        setFloatingPosition(null)
-                                    }}
+                                    className={
+                                        styles.changeImageButton
+                                    }
+                                    onClick={() =>
+                                        inputRef.current?.click()
+                                    }
                                 >
-                                    Chọn toàn bộ đoạn này
+                                    Chọn ảnh khác
                                 </button>
                             </div>
-                        )}
 
-                        {error && (
-                            <div className={styles.error}>
-                                {error}
+                            <div className={styles.resultBox}>
+                                {loading ? (
+                                    <div
+                                        className={styles.loadingBox}
+                                        data-disable-quick-lookup="true"
+                                    >
+                                        <p>Đang nhận diện chữ...</p>
+
+                                        <div
+                                            className={
+                                                styles.progressTrack
+                                            }
+                                        >
+                                            <div
+                                                className={
+                                                    styles.progressBar
+                                                }
+                                                style={{
+                                                    width: `${Math.round(
+                                                        progress * 100
+                                                    )}%`,
+                                                }}
+                                            />
+                                        </div>
+
+                                        <span>
+                                            {Math.round(progress * 100)}
+                                            %
+                                        </span>
+                                    </div>
+                                ) : recognizedText ? (
+                                    <div className={styles.ocrPanel}>
+                                        <p className={styles.ocrHint}>
+                                            Bôi đen chữ hoặc cụm từ cần tra rồi bấm biểu tượng kính lúp
+                                        </p>
+
+                                        <div
+                                            className={styles.ocrText}
+                                            data-quick-lookup-root="true"
+                                        >
+                                            {recognizedText}
+                                        </div>
+                                    </div>
+                                ) : (
+                                    <div
+                                        className={styles.emptyText}
+                                        data-disable-quick-lookup="true"
+                                    >
+                                        Chưa có kết quả nhận diện
+                                    </div>
+                                )}
                             </div>
-                        )}
-                    </div>
+                        </div>
+                    )}
+
+                    {recognizedText && (
+                        <div
+                            className={styles.rawTextBox}
+                            data-disable-quick-lookup="true"
+                        >
+                            <p>
+                                Bôi đen từ/cụm trong văn bản nhận diện để tra nhanh.
+                            </p>
+                        </div>
+                    )}
+
+                    {error && (
+                        <div
+                            className={styles.error}
+                            data-disable-quick-lookup="true"
+                        >
+                            {error}
+                        </div>
+                    )}
                 </div>
             </div>
-
-            {floatingPosition && selectedText && (
-                <QuickLookupFloatingButton
-                    top={floatingPosition.top}
-                    left={floatingPosition.left}
-                    onClick={handleOpenQuickLookup}
-                />
-            )}
-
-            <QuickLookupModal
-                open={detailOpen}
-                title={detailTitle}
-                url={detailUrl}
-                onClose={() => setDetailOpen(false)}
-            />
-        </>
+        </div>
     )
 }

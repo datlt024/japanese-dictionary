@@ -7,6 +7,10 @@ import useSearchHistory
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 
+function getHistoryLabel(text: string) {
+  return text.length > 18 ? `${text.slice(0, 18)}…` : text
+}
+
 export default function HomePage() {
   const { histories } = useSearchHistory()
 
@@ -82,7 +86,13 @@ export default function HomePage() {
               <div className={styles.historyTags}>
                 {histories.length > 0 ? (
                   histories.map((item) => (
-                    <button key={item}>{item}</button>
+                    <button
+                      key={item}
+                      title={item}
+                      className={styles.historyTag}
+                    >
+                      {getHistoryLabel(item)}
+                    </button>
                   ))
                 ) : (
                   <span className={styles.historyEmpty}>
