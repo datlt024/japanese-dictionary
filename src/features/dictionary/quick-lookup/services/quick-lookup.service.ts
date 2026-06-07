@@ -1,3 +1,8 @@
+import type {
+    Kanji,
+    KanjiReadingGroup,
+} from "@/domain/kanji"
+
 import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
 import type { VocabularyKanjiDetail } from "@/server/services/vocabulary/vocabulary.service"
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
@@ -9,6 +14,17 @@ type RelatedVocabulary = {
     meaning: string | null
 }
 
+export type QuickLookupKanjiTarget = {
+    type: "kanji"
+    title: string
+    kanji: Kanji
+    kunyomiGroups: KanjiReadingGroup[]
+    onyomiGroups: KanjiReadingGroup[]
+    currentKanji: string
+    kanjiOptions: string[]
+    searchKeyword: string
+}
+
 export type QuickLookupTarget =
     | {
         type: "vocabulary"
@@ -16,7 +32,9 @@ export type QuickLookupTarget =
         vocabulary: Vocabulary
         relatedVocabularies: RelatedVocabulary[]
         kanjiDetails: VocabularyKanjiDetail[]
+        kanjiTargets: QuickLookupKanjiTarget[]
     }
+    | QuickLookupKanjiTarget
     | {
         type: "not_found"
         title: string
