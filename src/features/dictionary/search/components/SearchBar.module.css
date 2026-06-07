@@ -2,11 +2,11 @@
     position: relative;
     z-index: 100;
 
-    width: 100%;
-    min-width: 0;
-
     display: flex;
     align-items: center;
+
+    width: 100%;
+    min-width: 0;
 
     box-sizing: border-box;
 }
@@ -17,7 +17,7 @@
     width: 100%;
     min-width: 0;
 
-    padding: 16px 124px 16px 50px;
+    padding: 16px 174px 16px 50px;
 
     border: 1px solid #d1d5db;
     border-radius: 16px;
@@ -25,11 +25,11 @@
     font-size: clamp(15px, 1vw, 18px);
 
     outline: none;
+    box-sizing: border-box;
+
     transition:
         border-color 0.2s ease,
         box-shadow 0.2s ease;
-
-    box-sizing: border-box;
 }
 
 .searchInput:focus {
@@ -42,9 +42,9 @@
     left: 16px;
     top: 50%;
 
-    transform: translateY(-50%);
-
     color: #9ca3af;
+
+    transform: translateY(-50%);
     pointer-events: none;
 }
 
@@ -66,7 +66,10 @@
     justify-content: center;
 }
 
+.imageScanButton,
 .voiceButton {
+    position: relative;
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -89,19 +92,70 @@
         box-shadow 0.2s ease;
 }
 
+.imageScanButton:hover,
 .voiceButton:hover {
     border-color: #93c5fd;
     background: #dbeafe;
     color: #1d4ed8;
 }
 
+.imageScanButton:active,
 .voiceButton:active {
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.16);
 }
 
+.tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 8px);
+
+    z-index: 20;
+
+    padding: 6px 9px;
+
+    border-radius: 8px;
+
+    background: #111827;
+    color: #ffffff;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+
+    opacity: 0;
+
+    transform: translateX(-50%);
+    pointer-events: none;
+
+    transition:
+        opacity 0.15s ease,
+        transform 0.15s ease;
+}
+
+.tooltip::after {
+    content: "";
+
+    position: absolute;
+    left: 50%;
+    top: 100%;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: #111827 transparent transparent transparent;
+
+    transform: translateX(-50%);
+}
+
+.imageScanButton:hover .tooltip,
+.imageScanButton:focus-visible .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-2px);
+}
+
 @media (max-width: 768px) {
     .searchInput {
-        padding: 13px 108px 13px 44px;
+        padding: 13px 148px 13px 44px;
         border-radius: 14px;
     }
 
@@ -114,9 +168,15 @@
         gap: 6px;
     }
 
+    .imageScanButton,
     .voiceButton {
         width: 34px;
         height: 34px;
+
         border-radius: 10px;
+    }
+
+    .tooltip {
+        display: none;
     }
 }

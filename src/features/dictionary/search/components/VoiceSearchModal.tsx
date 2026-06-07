@@ -43,15 +43,6 @@ function getKanaText(kana: SearchVocabulary["kana"]) {
     return kana || null
 }
 
-function isVocabulary(item: unknown): item is SearchVocabulary {
-    return (
-        typeof item === "object" &&
-        item !== null &&
-        "word" in item &&
-        typeof item.word === "string"
-    )
-}
-
 function isKanji(item: unknown): item is SearchKanji {
     return (
         typeof item === "object" &&

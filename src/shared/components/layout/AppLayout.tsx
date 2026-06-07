@@ -7,6 +7,8 @@ import Header from "./Header"
 import Footer from "./Footer"
 import TopSearchBar from "./TopSearchBar"
 
+import QuickLookupLayer from "@/features/dictionary/quick-lookup/components/QuickLookupLayer"
+
 import type { ReactNode } from "react"
 
 type ActiveSearchTab =
@@ -55,6 +57,8 @@ export default function AppLayout({
 
                 <Footer />
             </div>
+
+            <QuickLookupLayer />
         </div>
     )
 }

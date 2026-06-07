@@ -16,6 +16,7 @@ import styles from "./TopSearchBar.module.css"
 import SearchBar from "@/features/dictionary/search/components/SearchBar"
 import SearchHubDropdown from "@/features/dictionary/search/components/SearchHubDropdown"
 import VoiceSearchModal from "@/features/dictionary/search/components/VoiceSearchModal"
+import ImageScanModal from "@/features/dictionary/image-scan/components/ImageScanModal"
 
 import useSearchHistory from "@/features/user/search-history/hooks/useSearchHistory"
 import useSearchHub from "@/features/dictionary/search/hooks/useSearchHub"
@@ -93,6 +94,7 @@ function TopSearchBarContent({
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
     const [handwritingOpen, setHandwritingOpen] = useState(false)
     const [voiceSearchOpen, setVoiceSearchOpen] = useState(false)
+    const [imageScanOpen, setImageScanOpen] = useState(false)
 
     const debouncedKeyword = useDebounce(keyword, 300)
 
@@ -276,6 +278,15 @@ function TopSearchBarContent({
         await navigateSearch(activeTab, q)
     }
 
+    function handleImageScanOpen() {
+        setImageScanOpen(true)
+        setIsDropdownOpen(false)
+    }
+
+    function handleImageScanClose() {
+        setImageScanOpen(false)
+    }
+
     return (
         <>
             <div className={styles.topSearch} ref={wrapperRef}>
@@ -292,6 +303,7 @@ function TopSearchBarContent({
                                 onVoiceSearchOpen={() =>
                                     setVoiceSearchOpen(true)
                                 }
+                                onImageScanOpen={handleImageScanOpen}
                             />
 
                             {isDropdownOpen && keyword.trim() && (
@@ -332,6 +344,11 @@ function TopSearchBarContent({
                 dictionaryLanguage={language}
                 onClose={() => setVoiceSearchOpen(false)}
                 onResult={handleVoiceSearchResult}
+            />
+
+            <ImageScanModal
+                open={imageScanOpen}
+                onClose={handleImageScanClose}
             />
         </>
     )

@@ -1,0 +1,188 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+
+    background: rgba(15, 23, 42, 0.48);
+}
+
+.modal {
+    width: min(1120px, 100%);
+    height: min(820px, calc(100vh - 48px));
+
+    overflow: hidden;
+
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 0 28px 90px rgba(15, 23, 42, 0.28);
+}
+
+.header {
+    height: 62px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 18px;
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.header h2 {
+    margin: 0;
+
+    color: #111827;
+
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.header h2 span {
+    color: #1476e8;
+}
+
+.closeButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 999px;
+
+    background: #f8fafc;
+    color: #64748b;
+
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background: #eef2f7;
+    color: #111827;
+}
+
+.tabs {
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 0 18px;
+
+    border-bottom: 1px solid #e5e7eb;
+    background: #ffffff;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.tabButton {
+    flex: 0 0 auto;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    padding: 9px 14px;
+
+    background: transparent;
+    color: #64748b;
+
+    font-size: 15px;
+    font-weight: 800;
+
+    cursor: pointer;
+}
+
+.tabButton:hover {
+    background: #f1f5f9;
+    color: #1476e8;
+}
+
+.activeTab {
+    border-color: #e5e7eb;
+    background: #ffffff;
+    color: #111827;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+.frame {
+    width: 100%;
+    height: calc(100% - 118px);
+
+    border: none;
+    background: #f1f5f9;
+}
+
+@media (max-width: 768px) {
+    .overlay {
+        padding: 12px;
+    }
+
+    .modal {
+        height: calc(100vh - 24px);
+        border-radius: 16px;
+    }
+
+    .header h2 {
+        font-size: 17px;
+    }
+
+    .tabs {
+        height: 52px;
+        padding: 0 12px;
+    }
+
+    .tabButton {
+        padding: 8px 11px;
+        font-size: 14px;
+    }
+
+    .frame {
+        height: calc(100% - 114px);
+    }
+}
+.emptyTab {
+    height: calc(100% - 118px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 32px;
+
+    background: #f1f5f9;
+    color: #64748b;
+
+    text-align: center;
+}
+
+.emptyTab h3 {
+    margin: 0 0 8px;
+
+    color: #111827;
+
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.emptyTab p {
+    margin: 0;
+
+    font-size: 15px;
+    font-weight: 600;
+}

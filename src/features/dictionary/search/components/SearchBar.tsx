@@ -4,7 +4,7 @@ import {
   useRef,
   type ChangeEvent,
 } from "react"
-import { Mic, Search } from "lucide-react"
+import { ImageIcon, Mic, Search } from "lucide-react"
 
 import styles from "./SearchBar.module.css"
 
@@ -18,6 +18,7 @@ type SearchBarProps = {
   handwritingOpen: boolean
   onHandwritingOpenChange: (open: boolean) => void
   onVoiceSearchOpen?: () => void
+  onImageScanOpen?: () => void
 }
 
 export default function SearchBar({
@@ -27,6 +28,7 @@ export default function SearchBar({
   handwritingOpen,
   onHandwritingOpenChange,
   onVoiceSearchOpen,
+  onImageScanOpen,
 }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement | null>(null)
 
@@ -53,6 +55,11 @@ export default function SearchBar({
     onVoiceSearchOpen?.()
   }
 
+  function handleOpenImageScan() {
+    inputRef.current?.blur()
+    onImageScanOpen?.()
+  }
+
   return (
     <>
       <div className={styles.searchContainer}>
@@ -71,6 +78,16 @@ export default function SearchBar({
         />
 
         <div className={styles.actions}>
+          <button
+            type="button"
+            className={styles.imageScanButton}
+            onClick={handleOpenImageScan}
+            aria-label="Dịch ảnh"
+          >
+            <ImageIcon size={18} />
+            <span className={styles.tooltip}>Dịch ảnh</span>
+          </button>
+
           <div className={styles.actionItem}>
             <HandwritingButton
               onClick={handleOpenHandwriting}
