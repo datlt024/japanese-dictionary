@@ -9,7 +9,7 @@ import {
     findVocabularySenses,
 } from "@/server/repositories/kanji/kanji.repository"
 
-import type { Kanji } from "@/domain/kanji/kanji.types"
+import type { Kanji } from "@/domain/kanji/kanji.type"
 import type { KanjiRelatedWord } from "@/domain/kanji/kanji-related-word.type"
 import type { KanjiReadingGroup } from "@/domain/kanji/kanji-reading-group.type"
 
