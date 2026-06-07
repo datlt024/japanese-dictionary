@@ -74,6 +74,9 @@ export default function SearchBar({
         open={handwritingOpen}
         onClose={handleCloseHandwriting}
         onSelect={handleSelectHandwriting}
+        onSearch={() => {
+          inputRef.current?.form?.requestSubmit()
+        }}
       />
     </>
   )

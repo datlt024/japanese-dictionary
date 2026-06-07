@@ -16,6 +16,7 @@ type Props = {
     open: boolean
     onClose: () => void
     onSelect: (text: string) => void
+    onSearch: () => void
 }
 
 type KanjiCanvasResult =
@@ -33,6 +34,7 @@ type KanjiCanvasRecognizeResult =
     | undefined
 
 type KanjiCanvasApi = {
+    refPatterns?: unknown[]
     init: (canvasId: string) => void
     erase: (canvasId: string) => void
     deleteLast: (canvasId: string) => void
@@ -45,7 +47,11 @@ declare global {
     }
 }
 
-const CANVAS_ID = "handwriting-kanji-canvas"
+const DEFAULT_CANVAS_ID = "handwriting-kanji-canvas"
+
+function createCanvasId() {
+    return `${DEFAULT_CANVAS_ID}-${Date.now()}`
+}
 
 function normalizeCandidates(result: KanjiCanvasRecognizeResult) {
     if (!result) {
@@ -88,20 +94,18 @@ export default function HandwritingModal({
     open,
     onClose,
     onSelect,
+    onSearch,
 }: Props) {
     const initializedRef = useRef(false)
     const kanjiCanvasLoadedRef = useRef(false)
     const refPatternsLoadedRef = useRef(false)
 
     const [mounted, setMounted] = useState(false)
+    const [canvasId, setCanvasId] = useState(DEFAULT_CANVAS_ID)
     const [scriptsReady, setScriptsReady] = useState(false)
     const [suggestions, setSuggestions] = useState<string[]>([])
     const [hasDrawing, setHasDrawing] = useState(false)
     const [isRecognizing, setIsRecognizing] = useState(false)
-
-    useEffect(() => {
-        setMounted(true)
-    }, [])
 
     const updateScriptsReady = useCallback(() => {
         setScriptsReady(
@@ -123,11 +127,11 @@ export default function HandwritingModal({
         }
 
         try {
-            window.KanjiCanvas.erase(CANVAS_ID)
+            window.KanjiCanvas.erase(canvasId)
         } catch {
             // ignore vendor canvas errors
         }
-    }, [])
+    }, [canvasId])
 
     const resetWritingArea = useCallback(() => {
         clearCanvas()
@@ -135,6 +139,7 @@ export default function HandwritingModal({
     }, [clearCanvas, resetState])
 
     const handleClose = useCallback(() => {
+        initializedRef.current = false
         resetWritingArea()
         onClose()
     }, [onClose, resetWritingArea])
@@ -148,14 +153,14 @@ export default function HandwritingModal({
         setIsRecognizing(true)
 
         try {
-            const result = window.KanjiCanvas.recognize(CANVAS_ID)
+            const result = window.KanjiCanvas.recognize(canvasId)
             setSuggestions(normalizeCandidates(result))
         } catch {
             setSuggestions([])
         } finally {
             setIsRecognizing(false)
         }
-    }, [hasDrawing])
+    }, [canvasId, hasDrawing])
 
     function handleStartDrawing() {
         setHasDrawing(true)
@@ -178,7 +183,7 @@ export default function HandwritingModal({
         }
 
         try {
-            window.KanjiCanvas.deleteLast(CANVAS_ID)
+            window.KanjiCanvas.deleteLast(canvasId)
             setSuggestions([])
 
             window.setTimeout(() => {
@@ -190,6 +195,7 @@ export default function HandwritingModal({
     }
 
     function handleSearch() {
+        onSearch()
         handleClose()
     }
 
@@ -199,18 +205,69 @@ export default function HandwritingModal({
     }
 
     useEffect(() => {
-        if (!scriptsReady || !window.KanjiCanvas || initializedRef.current) {
+        const timer = window.setTimeout(() => {
+            setMounted(true)
+        }, 0)
+
+        return () => {
+            window.clearTimeout(timer)
+        }
+    }, [])
+
+    useEffect(() => {
+        if (!window.KanjiCanvas) {
+            return
+        }
+
+        const timer = window.setTimeout(() => {
+            kanjiCanvasLoadedRef.current = true
+            refPatternsLoadedRef.current = true
+            setScriptsReady(true)
+        }, 0)
+
+        return () => {
+            window.clearTimeout(timer)
+        }
+    }, [])
+
+    useEffect(() => {
+        if (!open) {
+            return
+        }
+
+        initializedRef.current = false
+
+        const timer = window.setTimeout(() => {
+            setCanvasId(createCanvasId())
+            resetState()
+        }, 0)
+
+        return () => {
+            window.clearTimeout(timer)
+        }
+    }, [open, resetState])
+
+    useEffect(() => {
+        if (
+            !open ||
+            !scriptsReady ||
+            !window.KanjiCanvas ||
+            initializedRef.current
+        ) {
             return
         }
 
         try {
-            window.KanjiCanvas.init(CANVAS_ID)
-            window.KanjiCanvas.erase(CANVAS_ID)
-            initializedRef.current = true
+            window.KanjiCanvas.init(canvasId)
+
+            window.setTimeout(() => {
+                window.KanjiCanvas?.erase(canvasId)
+                initializedRef.current = true
+            }, 50)
         } catch {
             // ignore vendor canvas errors
         }
-    }, [scriptsReady])
+    }, [canvasId, open, scriptsReady])
 
     const modal = (
         <div
@@ -239,7 +296,8 @@ export default function HandwritingModal({
                     <div className={styles.drawArea}>
                         <div className={styles.canvasWrap}>
                             <canvas
-                                id={CANVAS_ID}
+                                key={canvasId}
+                                id={canvasId}
                                 className={styles.canvas}
                                 width={330}
                                 height={330}
@@ -319,7 +377,7 @@ export default function HandwritingModal({
     return (
         <>
             <Script
-                src="/vendor/kanji-canvas/kanji-canvas.min.js?v=10"
+                src="/vendor/kanji-canvas/kanji-canvas.min.js?v=12"
                 strategy="afterInteractive"
                 onLoad={() => {
                     kanjiCanvasLoadedRef.current = true
@@ -328,7 +386,7 @@ export default function HandwritingModal({
             />
 
             <Script
-                src="/vendor/kanji-canvas/ref-patterns.js?v=10"
+                src="/vendor/kanji-canvas/ref-patterns.js?v=12"
                 strategy="afterInteractive"
                 onLoad={() => {
                     refPatternsLoadedRef.current = true
