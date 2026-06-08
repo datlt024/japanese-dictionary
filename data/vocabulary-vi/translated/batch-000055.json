@@ -1,0 +1,518 @@
+[
+{
+"vocabulary_id": 1498,
+"word": "アドオン",
+"kana": "アドオン",
+"senses": [
+{
+"sense_id": 219624,
+"meaning_vi": "tiện ích bổ sung",
+"confidence": "high",
+"search_keywords": [
+"tiện ích bổ sung",
+"phần bổ sung",
+"add-on"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "phần hoặc chức năng được bổ sung thêm",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1499,
+"word": "アドオンモジュール",
+"kana": "アドオンモジュール",
+"senses": [
+{
+"sense_id": 219625,
+"meaning_vi": "mô-đun bổ sung",
+"confidence": "high",
+"search_keywords": [
+"mô-đun bổ sung",
+"module mở rộng",
+"add-on module"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "mô-đun được thêm vào để mở rộng chức năng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1500,
+"word": "アドオン電話",
+"kana": "アドオンでんわ",
+"senses": [
+{
+"sense_id": 219626,
+"meaning_vi": "điện thoại phụ",
+"confidence": "medium",
+"search_keywords": [
+"điện thoại phụ",
+"điện thoại mở rộng"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "điện thoại được nối thêm vào hệ thống chính",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1501,
+"word": "アドキャンペーン",
+"kana": "アドキャンペーン",
+"senses": [
+{
+"sense_id": 219627,
+"meaning_vi": "chiến dịch quảng cáo",
+"confidence": "high",
+"search_keywords": [
+"chiến dịch quảng cáo",
+"quảng bá sản phẩm"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chiến dịch quảng bá hoặc tiếp thị",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1502,
+"word": "アドバイザー",
+"kana": "アドバイザー",
+"senses": [
+{
+"sense_id": 219628,
+"meaning_vi": "cố vấn",
+"confidence": "high",
+"search_keywords": [
+"cố vấn",
+"người tư vấn",
+"advisor"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người đưa ra lời khuyên hoặc hướng dẫn chuyên môn",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1503,
+"word": "アドバイス",
+"kana": "アドバイス",
+"senses": [
+{
+"sense_id": 219629,
+"meaning_vi": "lời khuyên",
+"confidence": "high",
+"search_keywords": [
+"lời khuyên",
+"tư vấn",
+"góp ý"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "lời khuyên; góp ý; đưa ra lời khuyên",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1504,
+"word": "アドバタイジング",
+"kana": "アドバタイジング",
+"senses": [
+{
+"sense_id": 219630,
+"meaning_vi": "quảng cáo",
+"confidence": "high",
+"search_keywords": [
+"quảng cáo",
+"hoạt động quảng cáo",
+"advertising"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "hoạt động quảng cáo và tiếp thị",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1505,
+"word": "アドバタイズメント",
+"kana": "アドバタイズメント",
+"senses": [
+{
+"sense_id": 219631,
+"meaning_vi": "quảng cáo",
+"confidence": "high",
+"search_keywords": [
+"quảng cáo",
+"mẫu quảng cáo"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "mẫu hoặc nội dung quảng cáo",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1506,
+"word": "アドバルーン",
+"kana": "アドバルーン",
+"senses": [
+{
+"sense_id": 219632,
+"meaning_vi": "khinh khí cầu quảng cáo",
+"confidence": "high",
+"search_keywords": [
+"khinh khí cầu quảng cáo",
+"bóng quảng cáo"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "khinh khí cầu dùng cho mục đích quảng cáo",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1507,
+"word": "アドバンス",
+"kana": "アドバンス",
+"senses": [
+{
+"sense_id": 219633,
+"meaning_vi": "tiến lên",
+"confidence": "high",
+"search_keywords": [
+"tiến lên",
+"phát triển"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "sự tiến lên hoặc tiến triển",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219634,
+"meaning_vi": "trả trước",
+"confidence": "high",
+"search_keywords": [
+"trả trước",
+"ứng trước",
+"tiền đặt trước"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "khoản thanh toán hoặc ứng trước",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1508,
+"word": "アドバンテージ",
+"kana": "アドバンテージ",
+"senses": [
+{
+"sense_id": 219635,
+"meaning_vi": "lợi thế",
+"confidence": "high",
+"search_keywords": [
+"lợi thế",
+"ưu thế"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "điểm thuận lợi; ưu thế",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219636,
+"meaning_vi": "luật lợi thế",
+"confidence": "high",
+"search_keywords": [
+"luật lợi thế",
+"advantage rule"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "quy tắc áp dụng lợi thế trong bóng đá, bóng bầu dục...",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219637,
+"meaning_vi": "điểm lợi thế",
+"confidence": "high",
+"search_keywords": [
+"điểm lợi thế",
+"advantage tennis"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "điểm lợi thế trong quần vợt",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1509,
+"word": "アドバンテージルール",
+"kana": "アドバンテージルール",
+"senses": [
+{
+"sense_id": 219638,
+"meaning_vi": "luật lợi thế",
+"confidence": "high",
+"search_keywords": [
+"luật lợi thế",
+"advantage rule"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "quy tắc lợi thế trong các môn thể thao đối kháng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1510,
+"word": "アドベンチャー",
+"kana": "アドベンチャー",
+"senses": [
+{
+"sense_id": 219639,
+"meaning_vi": "cuộc phiêu lưu",
+"confidence": "high",
+"search_keywords": [
+"cuộc phiêu lưu",
+"phiêu lưu"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chuyến đi hoặc trải nghiệm mạo hiểm",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1511,
+"word": "アドホクラシー",
+"kana": "アドホクラシー",
+"senses": [
+{
+"sense_id": 219640,
+"meaning_vi": "tổ chức linh hoạt",
+"confidence": "medium",
+"search_keywords": [
+"adhocracy",
+"tổ chức linh hoạt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "mô hình tổ chức linh hoạt, ít phân cấp",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1512,
+"word": "アドホック",
+"kana": "アドホック",
+"senses": [
+{
+"sense_id": 219641,
+"meaning_vi": "đặc biệt tạm thời",
+"confidence": "high",
+"search_keywords": [
+"ad hoc",
+"tạm thời",
+"đặc biệt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "được lập ra cho một mục đích cụ thể; mang tính tạm thời",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1513,
+"word": "アドマン",
+"kana": "アドマン",
+"senses": [
+{
+"sense_id": 219642,
+"meaning_vi": "nhân viên quảng cáo",
+"confidence": "high",
+"search_keywords": [
+"nhân viên quảng cáo",
+"người làm quảng cáo"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người làm việc trong ngành quảng cáo",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1514,
+"word": "吉報",
+"kana": "きっぽう",
+"senses": [
+{
+"sense_id": 243460,
+"meaning_vi": "tin vui",
+"confidence": "high",
+"search_keywords": [
+"tin vui",
+"tin tốt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tin tức tốt lành; tin vui",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1515,
+"word": "アドミタンス",
+"kana": "アドミタンス",
+"senses": [
+{
+"sense_id": 219643,
+"meaning_vi": "độ dẫn nạp",
+"confidence": "medium",
+"search_keywords": [
+"độ dẫn nạp",
+"admittance"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đại lượng nghịch đảo của trở kháng trong điện học",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1516,
+"word": "アドミッション",
+"kana": "アドミッション",
+"senses": [
+{
+"sense_id": 219644,
+"meaning_vi": "sự tiếp nhận",
+"confidence": "medium",
+"search_keywords": [
+"tiếp nhận",
+"tuyển sinh",
+"admission"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "sự chấp nhận hoặc tiếp nhận vào một tổ chức",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1517,
+"word": "アドミッションフリー",
+"kana": "アドミッションフリー",
+"senses": [
+{
+"sense_id": 219645,
+"meaning_vi": "miễn phí vào cửa",
+"confidence": "high",
+"search_keywords": [
+"miễn phí vào cửa",
+"vào cửa tự do"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không thu phí khi vào tham dự hoặc sử dụng",
+"examples": []
+}
+]
+}
+]
+}
+]

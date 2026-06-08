@@ -1,0 +1,388 @@
+[
+{
+"vocabulary_id": 1098,
+"word": "若し",
+"kana": "もし",
+"senses": [
+{
+"sense_id": 219102,
+"meaning_vi": "nếu",
+"confidence": "high",
+"search_keywords": [
+"nếu",
+"trong trường hợp"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nếu; trong trường hợp",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1099,
+"word": "若しかしたら",
+"kana": "もしかしたら",
+"senses": [
+{
+"sense_id": 219103,
+"meaning_vi": "có lẽ",
+"confidence": "high",
+"search_keywords": [
+"có lẽ",
+"biết đâu"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "có lẽ; biết đâu; có khả năng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1100,
+"word": "若しかして",
+"kana": "もしかして",
+"senses": [
+{
+"sense_id": 219104,
+"meaning_vi": "chẳng lẽ",
+"confidence": "high",
+"search_keywords": [
+"chẳng lẽ",
+"có phải"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chẳng lẽ; có phải là",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219105,
+"meaning_vi": "nếu như",
+"confidence": "high",
+"search_keywords": [
+"nếu như",
+"phòng khi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nếu; trong trường hợp",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1101,
+"word": "若しかすると",
+"kana": "もしかすると",
+"senses": [
+{
+"sense_id": 219106,
+"meaning_vi": "có thể",
+"confidence": "high",
+"search_keywords": [
+"có thể",
+"có lẽ"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "có lẽ; có khả năng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1102,
+"word": "もしそうなら",
+"kana": "もしそうなら",
+"senses": [
+{
+"sense_id": 219107,
+"meaning_vi": "nếu vậy",
+"confidence": "high",
+"search_keywords": [
+"nếu vậy",
+"trong trường hợp đó"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nếu đúng như vậy; trong trường hợp đó",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1103,
+"word": "もしもし",
+"kana": "もしもし",
+"senses": [
+{
+"sense_id": 219108,
+"meaning_vi": "a lô",
+"confidence": "high",
+"search_keywords": [
+"a lô",
+"xin nghe"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "lời chào khi nói chuyện điện thoại",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219109,
+"meaning_vi": "xin lỗi",
+"confidence": "high",
+"search_keywords": [
+"này",
+"xin lỗi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "gọi để thu hút sự chú ý của người khác",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1104,
+"word": "もし可能ならば",
+"kana": "もしかのうならば",
+"senses": [
+{
+"sense_id": 219110,
+"meaning_vi": "nếu có thể",
+"confidence": "high",
+"search_keywords": [
+"nếu có thể",
+"nếu được"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nếu điều đó khả thi",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1105,
+"word": "もじもじ",
+"kana": "もじもじ",
+"senses": [
+{
+"sense_id": 219111,
+"meaning_vi": "rụt rè",
+"confidence": "high",
+"search_keywords": [
+"rụt rè",
+"ngượng ngùng"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ngượng ngùng; lúng túng; cử động không yên",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1106,
+"word": "捩り",
+"kana": "もじり",
+"senses": [
+{
+"sense_id": 219112,
+"meaning_vi": "nhại lại",
+"confidence": "high",
+"search_keywords": [
+"nhại",
+"phỏng theo"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tác phẩm nhại theo một tác phẩm nổi tiếng",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219113,
+"meaning_vi": "chơi chữ",
+"confidence": "high",
+"search_keywords": [
+"chơi chữ",
+"nói lái"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách diễn đạt mang tính chơi chữ",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1107,
+"word": "もたもた",
+"kana": "もたもた",
+"senses": [
+{
+"sense_id": 219114,
+"meaning_vi": "lề mề",
+"confidence": "high",
+"search_keywords": [
+"lề mề",
+"chậm chạp"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chậm chạp; thiếu nhanh nhẹn",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1108,
+"word": "冠詞",
+"kana": "かんし",
+"senses": [
+{
+"sense_id": 241437,
+"meaning_vi": "mạo từ",
+"confidence": "high",
+"search_keywords": [
+"mạo từ",
+"article"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "mạo từ trong ngữ pháp",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1109,
+"word": "持て成し",
+"kana": "もてなし",
+"senses": [
+{
+"sense_id": 219117,
+"meaning_vi": "lòng hiếu khách",
+"confidence": "high",
+"search_keywords": [
+"hiếu khách",
+"tiếp đãi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "sự tiếp đón và phục vụ chu đáo",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219118,
+"meaning_vi": "khoản đãi khách",
+"confidence": "high",
+"search_keywords": [
+"đãi khách",
+"chiêu đãi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đồ ăn thức uống dùng để tiếp khách",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1110,
+"word": "もどかしい",
+"kana": "もどかしい",
+"senses": [
+{
+"sense_id": 219119,
+"meaning_vi": "sốt ruột",
+"confidence": "high",
+"search_keywords": [
+"sốt ruột",
+"bực bội"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "bực bội vì mọi việc tiến triển quá chậm hoặc không như ý",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1111,
+"word": "ものである",
+"kana": "ものである",
+"senses": [
+{
+"sense_id": 219120,
+"meaning_vi": "vốn là",
+"confidence": "medium",
+"search_keywords": [
+"vốn là",
+"là thứ"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "mang tính chất vốn có hoặc lẽ thường",
+"examples": []
+}
+]
+}
+]
+}
+]

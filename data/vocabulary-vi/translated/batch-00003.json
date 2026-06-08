@@ -1,0 +1,813 @@
+[
+{
+"vocabulary_id": 41,
+"word": "彼",
+"kana": "あれ",
+"senses": [
+{
+"sense_id": 217257,
+"meaning_vi": "cái kia",
+"confidence": "high",
+"search_keywords": [
+"cái kia",
+"điều kia",
+"thứ kia",
+"cái đó"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "vật, sự việc hoặc điều được hiểu ngầm, ở xa cả người nói lẫn người nghe",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217258,
+"meaning_vi": "người kia",
+"confidence": "high",
+"search_keywords": [
+"người kia",
+"người đó",
+"anh ta",
+"cô ta"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người được nhắc tới, thường ngang hàng hoặc thấp hơn người nói",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217259,
+"meaning_vi": "lúc đó",
+"confidence": "high",
+"search_keywords": [
+"lúc đó",
+"khi đó",
+"hồi đó"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thời điểm đã nhắc tới trước đó",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217260,
+"meaning_vi": "chỗ kia",
+"confidence": "high",
+"search_keywords": [
+"chỗ kia",
+"nơi kia",
+"đằng kia"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "địa điểm ở xa cả người nói lẫn người nghe",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217261,
+"meaning_vi": "vùng kín",
+"confidence": "high",
+"search_keywords": [
+"vùng kín",
+"bộ phận sinh dục",
+"chỗ kín"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách nói uyển chuyển chỉ cơ quan sinh dục",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217262,
+"meaning_vi": "kinh nguyệt",
+"confidence": "high",
+"search_keywords": [
+"kinh nguyệt",
+"đèn đỏ",
+"chu kỳ kinh"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách nói uyển chuyển chỉ kỳ kinh nguyệt",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 42,
+"word": "あんな",
+"kana": "あんな",
+"senses": [
+{
+"sense_id": 217263,
+"meaning_vi": "như thế kia",
+"confidence": "high",
+"search_keywords": [
+"như thế kia",
+"kiểu đó",
+"loại đó",
+"như vậy"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chỉ người, vật hoặc tình huống có tính chất như thế",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 43,
+"word": "いい加減にしなさい",
+"kana": "いいかげんにしなさい",
+"senses": [
+{
+"sense_id": 217264,
+"meaning_vi": "đủ rồi đấy",
+"confidence": "high",
+"search_keywords": [
+"đủ rồi đấy",
+"ngừng lại đi",
+"cư xử cho đúng"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "lời quở trách yêu cầu ai đó dừng hành động hoặc cư xử đàng hoàng hơn",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 44,
+"word": "いい年をして",
+"kana": "いいとしをして",
+"senses": [
+{
+"sense_id": 217265,
+"meaning_vi": "lớn rồi mà",
+"confidence": "high",
+"search_keywords": [
+"lớn rồi mà",
+"ngần ấy tuổi rồi",
+"đủ tuổi rồi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "dùng để chê trách ai đó hành động không phù hợp với độ tuổi",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 45,
+"word": "否々",
+"kana": "いやいや",
+"senses": [
+{
+"sense_id": 217266,
+"meaning_vi": "không đâu",
+"confidence": "high",
+"search_keywords": [
+"không đâu",
+"không không",
+"đâu có"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thán từ phủ định hoặc khiêm tốn bác bỏ lời người khác",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 46,
+"word": "如何わしい",
+"kana": "いかがわしい",
+"senses": [
+{
+"sense_id": 217267,
+"meaning_vi": "đáng ngờ",
+"confidence": "high",
+"search_keywords": [
+"đáng ngờ",
+"mờ ám",
+"không đáng tin",
+"khả nghi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đáng nghi ngờ, không đáng tin cậy",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217268,
+"meaning_vi": "dâm tục",
+"confidence": "high",
+"search_keywords": [
+"dâm tục",
+"khiếm nhã",
+"không đứng đắn",
+"tục tĩu"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "mang tính tình dục hoặc không phù hợp với chuẩn mực đạo đức",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 47,
+"word": "いかす",
+"kana": "いかす",
+"senses": [
+{
+"sense_id": 217269,
+"meaning_vi": "ngầu",
+"confidence": "high",
+"search_keywords": [
+"ngầu",
+"chất",
+"sành điệu",
+"bảnh"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "khẩu ngữ chỉ người hoặc vật rất phong cách, hấp dẫn",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 48,
+"word": "いかなる場合でも",
+"kana": "いかなるばあいでも",
+"senses": [
+{
+"sense_id": 217270,
+"meaning_vi": "trong mọi trường hợp",
+"confidence": "high",
+"search_keywords": [
+"trong mọi trường hợp",
+"dù thế nào",
+"bất kể trường hợp nào"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không phụ thuộc vào hoàn cảnh hay tình huống nào",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 49,
+"word": "如何にも",
+"kana": "いかにも",
+"senses": [
+{
+"sense_id": 217271,
+"meaning_vi": "quả thật",
+"confidence": "high",
+"search_keywords": [
+"quả thật",
+"đúng là",
+"thật sự"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nhấn mạnh cảm giác hoàn toàn đúng như vậy",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217272,
+"meaning_vi": "cực kỳ",
+"confidence": "high",
+"search_keywords": [
+"cực kỳ",
+"rất",
+"vô cùng"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ở mức độ rất cao",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217273,
+"meaning_vi": "chắc chắn rồi",
+"confidence": "high",
+"search_keywords": [
+"chắc chắn rồi",
+"đương nhiên",
+"tất nhiên"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "dùng để bày tỏ sự đồng ý hoặc khẳng định mạnh mẽ",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 50,
+"word": "幾つも",
+"kana": "いくつも",
+"senses": [
+{
+"sense_id": 217274,
+"meaning_vi": "nhiều",
+"confidence": "high",
+"search_keywords": [
+"nhiều",
+"rất nhiều",
+"hàng loạt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "số lượng lớn, nhiều hơn một vài",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217275,
+"meaning_vi": "mấy",
+"confidence": "medium",
+"search_keywords": [
+"mấy",
+"bao nhiêu",
+"hầu như không"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "trong câu phủ định: không có nhiều, hầu như không",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 51,
+"word": "行けない",
+"kana": "いけない",
+"senses": [
+{
+"sense_id": 217276,
+"meaning_vi": "không ngoan",
+"confidence": "high",
+"search_keywords": [
+"không ngoan",
+"hư",
+"sai"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "xấu, sai hoặc không đúng mực",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217277,
+"meaning_vi": "không được phép",
+"confidence": "high",
+"search_keywords": [
+"không được phép",
+"cấm",
+"không nên"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không được làm hoặc không nên làm",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217278,
+"meaning_vi": "không ổn",
+"confidence": "high",
+"search_keywords": [
+"không ổn",
+"vô dụng",
+"không tốt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không có tác dụng hoặc không đạt yêu cầu",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217279,
+"meaning_vi": "hết hy vọng",
+"confidence": "high",
+"search_keywords": [
+"hết hy vọng",
+"vô vọng",
+"không cứu vãn được"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không còn khả năng thành công hoặc cải thiện",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217280,
+"meaning_vi": "đáng tiếc",
+"confidence": "high",
+"search_keywords": [
+"đáng tiếc",
+"tiếc quá",
+"thật tiếc"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "dùng để bày tỏ sự cảm thông hoặc tiếc nuối",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217281,
+"meaning_vi": "không uống được rượu",
+"confidence": "high",
+"search_keywords": [
+"không uống được rượu",
+"không biết uống rượu"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không có khả năng uống đồ uống có cồn",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217282,
+"meaning_vi": "để khỏi",
+"confidence": "medium",
+"search_keywords": [
+"để khỏi",
+"để tránh",
+"phòng khi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "dùng để diễn tả mục đích tránh một kết quả không mong muốn",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 52,
+"word": "いごっそう",
+"kana": "いごっそう",
+"senses": [
+{
+"sense_id": 217283,
+"meaning_vi": "người bướng bỉnh",
+"confidence": "high",
+"search_keywords": [
+"người bướng bỉnh",
+"cứng đầu",
+"kiên định"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người có ý chí mạnh, không dễ thay đổi quan điểm",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 53,
+"word": "将又",
+"kana": "はたまた",
+"senses": [
+{
+"sense_id": 218699,
+"meaning_vi": "hay là",
+"confidence": "high",
+"search_keywords": [
+"hay là",
+"hoặc",
+"hay"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "liên từ dùng để đưa ra một khả năng khác",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 54,
+"word": "いざ",
+"kana": "いざ",
+"senses": [
+{
+"sense_id": 217284,
+"meaning_vi": "nào",
+"confidence": "high",
+"search_keywords": [
+"nào",
+"thôi nào",
+"được rồi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thán từ dùng để thúc giục hoặc bắt đầu hành động",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 55,
+"word": "いざこざ",
+"kana": "いざこざ",
+"senses": [
+{
+"sense_id": 217285,
+"meaning_vi": "rắc rối",
+"confidence": "high",
+"search_keywords": [
+"rắc rối",
+"tranh cãi",
+"xích mích",
+"phiền phức"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "sự bất hòa, tranh chấp hoặc tình huống phức tạp",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 56,
+"word": "イジイジ",
+"kana": "イジイジ",
+"senses": [
+{
+"sense_id": 217286,
+"meaning_vi": "rụt rè",
+"confidence": "high",
+"search_keywords": [
+"rụt rè",
+"do dự",
+"nhút nhát",
+"e dè"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "hành động hoặc thái độ thiếu tự tin, không quyết đoán",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 57,
+"word": "いじける",
+"kana": "いじける",
+"senses": [
+{
+"sense_id": 217287,
+"meaning_vi": "co rúm lại",
+"confidence": "high",
+"search_keywords": [
+"co rúm lại",
+"nhút nhát",
+"mất tự tin"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "trở nên sợ hãi hoặc mất can đảm",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217288,
+"meaning_vi": "trở nên khép kín",
+"confidence": "high",
+"search_keywords": [
+"khép kín",
+"cáu kỉnh",
+"lệch lạc"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "trở nên khó gần, chống đối hoặc thu mình",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217289,
+"meaning_vi": "bị gò bó",
+"confidence": "medium",
+"search_keywords": [
+"bị gò bó",
+"bị ràng buộc",
+"không thoải mái"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ở trong trạng thái bị hạn chế hoặc bó buộc",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 58,
+"word": "いじましい",
+"kana": "いじましい",
+"senses": [
+{
+"sense_id": 217290,
+"meaning_vi": "ti tiện",
+"confidence": "medium",
+"search_keywords": [
+"ti tiện",
+"nhỏ nhen",
+"đáng thương"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nhỏ nhen, bủn xỉn hoặc đáng thương hại",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217291,
+"meaning_vi": "đáng yêu",
+"confidence": "medium",
+"search_keywords": [
+"đáng yêu",
+"dễ mến",
+"cảm động"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "khẩu ngữ: dễ thương, khiến người khác yêu mến hoặc xúc động",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 59,
+"word": "可憐しい",
+"kana": "いじらしい",
+"senses": [
+{
+"sense_id": 217292,
+"meaning_vi": "đáng yêu",
+"confidence": "high",
+"search_keywords": [
+"đáng yêu",
+"dễ mến",
+"đáng quý"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "dễ thương và khiến người khác có thiện cảm",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217293,
+"meaning_vi": "đáng thương",
+"confidence": "high",
+"search_keywords": [
+"đáng thương",
+"cảm động",
+"xót xa"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "khiến người khác cảm động hoặc thương cảm",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 60,
+"word": "いじり回す",
+"kana": "いじりまわす",
+"senses": [
+{
+"sense_id": 217294,
+"meaning_vi": "mày mò",
+"confidence": "high",
+"search_keywords": [
+"mày mò",
+"nghịch",
+"sửa vọc",
+"loay hoay với"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "liên tục sờ, chỉnh hoặc thử nghiệm với một vật gì đó",
+"examples": []
+}
+]
+}
+]
+}
+]
