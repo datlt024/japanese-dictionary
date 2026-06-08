@@ -18,6 +18,11 @@ import type {
 } from "@/domain/vocabulary/vocabulary.type"
 
 import type {
+    VocabularyRelation,
+    VocabularyRelationType,
+} from "@/domain/vocabulary/vocabulary-relation.type"
+
+import type {
     VocabularyKanjiDetail,
 } from "@/server/services/vocabulary/vocabulary.service"
 
@@ -131,6 +136,57 @@ function createKanjiHref(
     return `/kanji/${encodeURIComponent(kanji)}?${params.toString()}`
 }
 
+function getRelationsByType(
+    relations: VocabularyRelation[],
+    type: VocabularyRelationType
+) {
+    return relations.filter((item) => item.relation_type === type)
+}
+
+function renderRelationSection(
+    title: string,
+    relations: VocabularyRelation[],
+    language: "vi" | "en",
+    embedded: boolean
+) {
+    if (relations.length === 0) {
+        return null
+    }
+
+    return (
+        <div className={styles.detailSection}>
+            <h2>{title}</h2>
+
+            <div className={styles.tagList}>
+                {relations.map((item) => {
+                    const relatedVocabulary =
+                        item.related_vocabulary
+
+                    if (!relatedVocabulary) {
+                        return null
+                    }
+
+                    return (
+                        <Link
+                            key={item.id}
+                            href={createVocabularyHref(
+                                relatedVocabulary.id,
+                                language,
+                                embedded
+                            )}
+                            className={styles.detailTag}
+                        >
+                            {relatedVocabulary.primary_word ||
+                                relatedVocabulary.primary_kana ||
+                                "Đang cập nhật"}
+                        </Link>
+                    )
+                })}
+            </div>
+        </div>
+    )
+}
+
 export default function VocabularyDetailContent({
     vocabulary,
     language,
@@ -147,6 +203,21 @@ export default function VocabularyDetailContent({
 
     const verbGroupLabel = getVerbGroupLabel(
         vocabulary.verb_group
+    )
+
+    const synonyms = getRelationsByType(
+        vocabulary.relations,
+        "synonym"
+    )
+
+    const antonyms = getRelationsByType(
+        vocabulary.relations,
+        "antonym"
+    )
+
+    const relatedWords = getRelationsByType(
+        vocabulary.relations,
+        "related"
     )
 
     return (
@@ -225,7 +296,9 @@ export default function VocabularyDetailContent({
                                 return (
                                     <div
                                         key={sense.id}
-                                        className={styles.senseItem}
+                                        className={
+                                            styles.senseItem
+                                        }
                                     >
                                         <p
                                             className={
@@ -372,6 +445,64 @@ export default function VocabularyDetailContent({
                             ))}
                         </div>
                     </div>
+                )}
+
+                {vocabulary.collocations.length > 0 && (
+                    <div className={styles.detailSection}>
+                        <h2>Cụm từ thường dùng</h2>
+
+                        <div className={styles.senseList}>
+                            {vocabulary.collocations.map((item) => (
+                                <div
+                                    key={item.id}
+                                    className={styles.senseItem}
+                                >
+                                    <p className={styles.blueTitle}>
+                                        <strong>
+                                            {item.expression_jp}
+                                        </strong>
+                                    </p>
+
+                                    <p>
+                                        {language === "en"
+                                            ? item.meaning_en ||
+                                            item.meaning_vi ||
+                                            "Updating..."
+                                            : item.meaning_vi ||
+                                            item.meaning_en ||
+                                            "Đang cập nhật nghĩa tiếng Việt"}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
+                {renderRelationSection(
+                    language === "en"
+                        ? "Synonyms"
+                        : "Từ đồng nghĩa",
+                    synonyms,
+                    language,
+                    embedded
+                )}
+
+                {renderRelationSection(
+                    language === "en"
+                        ? "Antonyms"
+                        : "Từ trái nghĩa",
+                    antonyms,
+                    language,
+                    embedded
+                )}
+
+                {renderRelationSection(
+                    language === "en"
+                        ? "Related words"
+                        : "Từ liên quan",
+                    relatedWords,
+                    language,
+                    embedded
                 )}
 
                 <div className={styles.detailSection}>

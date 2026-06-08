@@ -1,6 +1,9 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import {
+    useMemo,
+    useState,
+} from "react"
 import { X } from "lucide-react"
 
 import styles from "./QuickLookupModal.module.css"
@@ -37,12 +40,22 @@ const TABS: {
         { key: "jpjp", label: "Nhật - Nhật" },
     ]
 
-function getInitialTab(target: QuickLookupTarget): QuickLookupTab {
-    if (target.type === "kanji") {
+function getInitialTab(
+    target: QuickLookupTarget | null
+): QuickLookupTab {
+    if (target?.type === "kanji") {
         return "kanji"
     }
 
     return "vocabulary"
+}
+
+function getTargetKey(target: QuickLookupTarget | null) {
+    if (!target) {
+        return "empty"
+    }
+
+    return `${target.type}:${target.title}`
 }
 
 function getKanjiTargets(
@@ -64,20 +77,36 @@ export default function QuickLookupModal({
     target,
     onClose,
 }: QuickLookupModalProps) {
+    const targetKey = useMemo(
+        () => getTargetKey(target),
+        [target]
+    )
+
+    return (
+        <QuickLookupModalInner
+            key={targetKey}
+            open={open}
+            target={target}
+            onClose={onClose}
+        />
+    )
+}
+
+function QuickLookupModalInner({
+    open,
+    target,
+    onClose,
+}: QuickLookupModalProps) {
+    const initialTab = useMemo(
+        () => getInitialTab(target),
+        [target]
+    )
+
     const [activeTab, setActiveTab] =
-        useState<QuickLookupTab>("vocabulary")
+        useState<QuickLookupTab>(initialTab)
 
     const [activeKanjiIndex, setActiveKanjiIndex] =
         useState(0)
-
-    useEffect(() => {
-        if (!target) {
-            return
-        }
-
-        setActiveTab(getInitialTab(target))
-        setActiveKanjiIndex(0)
-    }, [target])
 
     if (!open || !target) {
         return null

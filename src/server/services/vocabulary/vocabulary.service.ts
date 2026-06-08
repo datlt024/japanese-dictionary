@@ -1,7 +1,9 @@
 import type {
     Vocabulary,
+    VocabularyCollocation,
+    VocabularyRelation,
     VocabularySense,
-} from "@/domain/vocabulary/vocabulary.type"
+} from "@/domain/vocabulary"
 
 import {
     findKanjisByCharacters,
@@ -10,6 +12,14 @@ import {
     findVocabularySensesByVocabularyId,
     findVocabularyWritingsByVocabularyId,
 } from "@/server/repositories/vocabulary/vocabulary.repository"
+
+import {
+    findVocabularyCollocationsByVocabularyId,
+} from "@/server/repositories/vocabulary/vocabulary-collocation.repository"
+
+import {
+    findVocabularyRelationsByVocabularyId,
+} from "@/server/repositories/vocabulary/vocabulary-relation.repository"
 
 export type VocabularyKanjiDetail = {
     id: number
@@ -57,10 +67,14 @@ export async function getVocabularyById(
         sensesResult,
         writingsResult,
         readingsResult,
+        collocationsResult,
+        relationsResult,
     ] = await Promise.all([
         findVocabularySensesByVocabularyId(id),
         findVocabularyWritingsByVocabularyId(id),
         findVocabularyReadingsByVocabularyId(id),
+        findVocabularyCollocationsByVocabularyId(id),
+        findVocabularyRelationsByVocabularyId(id),
     ])
 
     if (sensesResult.error) {
@@ -87,6 +101,20 @@ export async function getVocabularyById(
         return null
     }
 
+    if (collocationsResult.error) {
+        console.error(
+            "Get vocabulary collocations error:",
+            collocationsResult.error
+        )
+    }
+
+    if (relationsResult.error) {
+        console.error(
+            "Get vocabulary relations error:",
+            relationsResult.error
+        )
+    }
+
     return {
         id: vocabulary.id,
         jmdict_id: vocabulary.jmdict_id,
@@ -99,6 +127,12 @@ export async function getVocabularyById(
             (sensesResult.data as VocabularySense[]) || [],
         writings: writingsResult.data || [],
         readings: readingsResult.data || [],
+        collocations: collocationsResult.error
+            ? []
+            : (collocationsResult.data as VocabularyCollocation[]) || [],
+        relations: relationsResult.error
+            ? []
+            : (relationsResult.data as VocabularyRelation[]) || [],
     }
 }
 

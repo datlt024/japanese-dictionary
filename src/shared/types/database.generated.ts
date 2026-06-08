@@ -250,7 +250,6 @@ export type Database = {
           is_common: boolean | null
           jlpt: string | null
           jmdict_id: string | null
-          old_id: number | null
           primary_kana: string | null
           primary_word: string
           romaji: string | null
@@ -264,7 +263,6 @@ export type Database = {
           is_common?: boolean | null
           jlpt?: string | null
           jmdict_id?: string | null
-          old_id?: number | null
           primary_kana?: string | null
           primary_word: string
           romaji?: string | null
@@ -278,7 +276,6 @@ export type Database = {
           is_common?: boolean | null
           jlpt?: string | null
           jmdict_id?: string | null
-          old_id?: number | null
           primary_kana?: string | null
           primary_word?: string
           romaji?: string | null
@@ -288,47 +285,52 @@ export type Database = {
         }
         Relationships: []
       }
-      vocabularies_old: {
+      vocabulary_collocations: {
         Row: {
+          collocation_type: string | null
+          confidence: number | null
           created_at: string | null
-          frequency: number | null
+          expression_jp: string
           id: number
-          is_common: boolean | null
-          jlpt: string | null
-          jmdict_id: string | null
-          kana: string | null
           meaning_en: string | null
           meaning_vi: string | null
-          part_of_speech: string | null
-          word: string
+          reading: string | null
+          source: string | null
+          vocabulary_id: number
         }
         Insert: {
+          collocation_type?: string | null
+          confidence?: number | null
           created_at?: string | null
-          frequency?: number | null
-          id?: never
-          is_common?: boolean | null
-          jlpt?: string | null
-          jmdict_id?: string | null
-          kana?: string | null
+          expression_jp: string
+          id?: number
           meaning_en?: string | null
           meaning_vi?: string | null
-          part_of_speech?: string | null
-          word: string
+          reading?: string | null
+          source?: string | null
+          vocabulary_id: number
         }
         Update: {
+          collocation_type?: string | null
+          confidence?: number | null
           created_at?: string | null
-          frequency?: number | null
-          id?: never
-          is_common?: boolean | null
-          jlpt?: string | null
-          jmdict_id?: string | null
-          kana?: string | null
+          expression_jp?: string
+          id?: number
           meaning_en?: string | null
           meaning_vi?: string | null
-          part_of_speech?: string | null
-          word?: string
+          reading?: string | null
+          source?: string | null
+          vocabulary_id?: number
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "vocabulary_collocations_vocabulary_id_fkey"
+            columns: ["vocabulary_id"]
+            isOneToOne: false
+            referencedRelation: "vocabularies"
+            referencedColumns: ["id"]
+          },
+        ]
       }
       vocabulary_examples: {
         Row: {
@@ -459,6 +461,7 @@ export type Database = {
       }
       vocabulary_relations: {
         Row: {
+          confidence: number | null
           created_at: string | null
           id: number
           note_vi: string | null
@@ -469,6 +472,7 @@ export type Database = {
           vocabulary_id: number | null
         }
         Insert: {
+          confidence?: number | null
           created_at?: string | null
           id?: number
           note_vi?: string | null
@@ -479,6 +483,7 @@ export type Database = {
           vocabulary_id?: number | null
         }
         Update: {
+          confidence?: number | null
           created_at?: string | null
           id?: number
           note_vi?: string | null
@@ -557,6 +562,7 @@ export type Database = {
           info: string[] | null
           meaning_en: string | null
           meaning_vi: string | null
+          meaning_vi_confidence: string | null
           meaning_vi_glosses: Json | null
           meaning_vi_source: string | null
           meaning_vi_status: string | null
@@ -573,6 +579,7 @@ export type Database = {
           info?: string[] | null
           meaning_en?: string | null
           meaning_vi?: string | null
+          meaning_vi_confidence?: string | null
           meaning_vi_glosses?: Json | null
           meaning_vi_source?: string | null
           meaning_vi_status?: string | null
@@ -589,6 +596,7 @@ export type Database = {
           info?: string[] | null
           meaning_en?: string | null
           meaning_vi?: string | null
+          meaning_vi_confidence?: string | null
           meaning_vi_glosses?: Json | null
           meaning_vi_source?: string | null
           meaning_vi_status?: string | null

@@ -29,7 +29,6 @@ export async function searchVocabulariesByKeyword(
     }
 
     if (isJapaneseKeyword(value)) {
-        const startedAt = performance.now()
 
         const { data, error } = await supabaseServer.rpc(
             "search_vocabularies_rpc",
@@ -47,8 +46,6 @@ export async function searchVocabulariesByKeyword(
     const escapedValue = escapeLikePattern(value)
     const meaningColumn =
         language === "en" ? "meaning_en" : "meaning_vi"
-
-    const startedAt = performance.now()
 
     const senseResult = await supabaseServer
         .from("vocabulary_senses")

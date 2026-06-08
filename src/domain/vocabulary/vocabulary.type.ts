@@ -1,5 +1,8 @@
 import { Tables } from "@/shared/types/database.generated"
 
+import { VocabularyCollocation } from "./vocabulary-collocation.type"
+import { VocabularyRelation } from "./vocabulary-relation.type"
+
 export type MeaningGloss = {
     index: number
     meaning: string
@@ -51,4 +54,6 @@ export type Vocabulary = {
     senses: VocabularySense[]
     writings: VocabularyWriting[]
     readings: VocabularyReading[]
+    collocations: VocabularyCollocation[]
+    relations: VocabularyRelation[]
 }
