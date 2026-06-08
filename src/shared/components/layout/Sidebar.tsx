@@ -17,34 +17,41 @@ const menuItems = [
     { href: "/settings", icon: "⚙️", label: "Cài đặt" },
 ]
 
-function getInitialCollapsed() {
-    if (typeof window === "undefined") {
-        return false
-    }
-
-    return localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
-}
-
 export default function Sidebar() {
     const pathname = usePathname()
 
-    const [collapsed, setCollapsed] = useState(getInitialCollapsed)
+    const [mounted, setMounted] = useState(false)
+    const [collapsed, setCollapsed] = useState(false)
 
     useEffect(() => {
+        const savedCollapsed =
+            localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
+
+        setCollapsed(savedCollapsed)
+        setMounted(true)
+    }, [])
+
+    useEffect(() => {
+        if (!mounted) {
+            return
+        }
+
         localStorage.setItem(
             SIDEBAR_COLLAPSED_KEY,
             String(collapsed)
         )
-    }, [collapsed])
+    }, [collapsed, mounted])
 
     function toggleSidebar() {
         setCollapsed((current) => !current)
     }
 
+    const isCollapsed = mounted ? collapsed : false
+
     return (
         <aside
             className={
-                collapsed
+                isCollapsed
                     ? `${styles.sidebar} ${styles.sidebarCollapsed}`
                     : styles.sidebar
             }
@@ -55,16 +62,16 @@ export default function Sidebar() {
                     className={styles.sidebarToggle}
                     onClick={toggleSidebar}
                     aria-label={
-                        collapsed
+                        isCollapsed
                             ? "Mở rộng menu"
                             : "Thu gọn menu"
                     }
-                    aria-expanded={!collapsed}
+                    aria-expanded={!isCollapsed}
                 >
                     ☰
                 </button>
 
-                {!collapsed && (
+                {!isCollapsed && (
                     <div className={styles.sidebarLogo}>
                         m<span>あ</span>zii
                     </div>
@@ -87,13 +94,17 @@ export default function Sidebar() {
                                     ? `${styles.sidebarLink} ${styles.active}`
                                     : styles.sidebarLink
                             }
-                            title={collapsed ? item.label : undefined}
+                            title={
+                                isCollapsed
+                                    ? item.label
+                                    : undefined
+                            }
                         >
                             <span className={styles.sidebarIcon}>
                                 {item.icon}
                             </span>
 
-                            {!collapsed && (
+                            {!isCollapsed && (
                                 <span className={styles.sidebarLabel}>
                                     {item.label}
                                 </span>
