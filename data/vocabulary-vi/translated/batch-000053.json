@@ -1,0 +1,627 @@
+[
+{
+"vocabulary_id": 1458,
+"word": "アット",
+"kana": "アット",
+"senses": [
+{
+"sense_id": 219573,
+"meaning_vi": "ký hiệu @",
+"confidence": "high",
+"search_keywords": [
+"@",
+"ký hiệu @",
+"at sign"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu @ dùng trong địa chỉ email và internet",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1459,
+"word": "アットバット",
+"kana": "アットバット",
+"senses": [
+{
+"sense_id": 219574,
+"meaning_vi": "lượt đánh bóng",
+"confidence": "high",
+"search_keywords": [
+"lượt đánh bóng",
+"at bat",
+"bóng chày"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "lượt đứng đánh bóng trong bóng chày",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1460,
+"word": "アットホーム",
+"kana": "アットホーム",
+"senses": [
+{
+"sense_id": 219575,
+"meaning_vi": "ấm cúng",
+"confidence": "high",
+"search_keywords": [
+"ấm cúng",
+"thân mật",
+"gần gũi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ấm cúng; tạo cảm giác thân mật, gần gũi như ở nhà",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1461,
+"word": "アッパー",
+"kana": "アッパー",
+"senses": [
+{
+"sense_id": 219576,
+"meaning_vi": "phía trên",
+"confidence": "high",
+"search_keywords": [
+"phía trên",
+"upper"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ở phía trên; hướng lên trên",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219577,
+"meaning_vi": "phần thân giày",
+"confidence": "high",
+"search_keywords": [
+"phần thân giày",
+"upper giày"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "phần thân trên của giày dép",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219578,
+"meaning_vi": "đòn móc ngược",
+"confidence": "high",
+"search_keywords": [
+"đòn móc ngược",
+"uppercut"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách gọi tắt của đòn uppercut trong quyền anh",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219579,
+"meaning_vi": "chất kích thích",
+"confidence": "medium",
+"search_keywords": [
+"chất kích thích",
+"thuốc kích thích"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tiếng khẩu ngữ chỉ chất kích thích làm tăng hưng phấn",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1462,
+"word": "アッパーカット",
+"kana": "アッパーカット",
+"senses": [
+{
+"sense_id": 219580,
+"meaning_vi": "đòn móc ngược",
+"confidence": "high",
+"search_keywords": [
+"đòn móc ngược",
+"uppercut"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đòn đấm từ dưới lên trong quyền anh",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1463,
+"word": "アッパーミドル",
+"kana": "アッパーミドル",
+"senses": [
+{
+"sense_id": 219581,
+"meaning_vi": "tầng lớp trung lưu cao",
+"confidence": "high",
+"search_keywords": [
+"trung lưu cao",
+"upper middle class"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tầng lớp trung lưu khá giả",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1464,
+"word": "アップ",
+"kana": "アップ",
+"senses": [
+{
+"sense_id": 219582,
+"meaning_vi": "tăng lên",
+"confidence": "high",
+"search_keywords": [
+"tăng lên",
+"đi lên",
+"nâng lên"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tăng lên; nâng lên; đi lên",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219583,
+"meaning_vi": "đăng lên mạng",
+"confidence": "high",
+"search_keywords": [
+"đăng lên mạng",
+"upload",
+"đăng bài"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đưa dữ liệu hoặc nội dung lên internet",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219584,
+"meaning_vi": "cận cảnh",
+"confidence": "high",
+"search_keywords": [
+"cận cảnh",
+"close-up"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ảnh hoặc cảnh quay cận cảnh",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219585,
+"meaning_vi": "đóng máy",
+"confidence": "medium",
+"search_keywords": [
+"đóng máy",
+"kết thúc quay"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "hoàn tất việc quay phim hoặc chương trình truyền hình",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219586,
+"meaning_vi": "tóc búi cao",
+"confidence": "high",
+"search_keywords": [
+"tóc búi cao",
+"kiểu tóc búi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kiểu tóc được búi hoặc vén lên cao",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219587,
+"meaning_vi": "dẫn trước",
+"confidence": "high",
+"search_keywords": [
+"dẫn trước",
+"vượt lên"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ở thế dẫn trước về điểm số hoặc thành tích",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219588,
+"meaning_vi": "khởi động",
+"confidence": "high",
+"search_keywords": [
+"khởi động",
+"warm-up"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "giai đoạn khởi động trước khi hoạt động chính",
+"examples": []
+}
+]
+},
+{
+"sense_id": 219589,
+"meaning_vi": "hoàn tất",
+"confidence": "high",
+"search_keywords": [
+"hoàn tất",
+"kết thúc"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "hoàn thành; kết thúc công việc hoặc quá trình",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1465,
+"word": "アップスタイル",
+"kana": "アップスタイル",
+"senses": [
+{
+"sense_id": 219590,
+"meaning_vi": "tóc búi cao",
+"confidence": "high",
+"search_keywords": [
+"tóc búi cao",
+"upstyle"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kiểu tóc búi hoặc vén cao",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1466,
+"word": "アップダウン",
+"kana": "アップダウン",
+"senses": [
+{
+"sense_id": 219591,
+"meaning_vi": "thăng trầm",
+"confidence": "high",
+"search_keywords": [
+"thăng trầm",
+"lên xuống"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "những biến động hoặc thay đổi lên xuống",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1467,
+"word": "アップツーデート",
+"kana": "アップツーデート",
+"senses": [
+{
+"sense_id": 219592,
+"meaning_vi": "mới nhất",
+"confidence": "high",
+"search_keywords": [
+"mới nhất",
+"cập nhật"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "được cập nhật theo thông tin mới nhất",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1468,
+"word": "アップデート",
+"kana": "アップデート",
+"senses": [
+{
+"sense_id": 219593,
+"meaning_vi": "cập nhật",
+"confidence": "high",
+"search_keywords": [
+"cập nhật",
+"update"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cập nhật phần mềm hoặc dữ liệu",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1469,
+"word": "アップライト",
+"kana": "アップライト",
+"senses": [
+{
+"sense_id": 219594,
+"meaning_vi": "dạng đứng",
+"confidence": "medium",
+"search_keywords": [
+"dạng đứng",
+"upright"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kiểu hoặc trạng thái thẳng đứng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1470,
+"word": "アップライトピアノ",
+"kana": "アップライトピアノ",
+"senses": [
+{
+"sense_id": 219595,
+"meaning_vi": "đàn piano đứng",
+"confidence": "high",
+"search_keywords": [
+"đàn piano đứng",
+"upright piano"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "loại piano có dây đàn bố trí theo chiều đứng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1471,
+"word": "アップリケ",
+"kana": "アップリケ",
+"senses": [
+{
+"sense_id": 219596,
+"meaning_vi": "thêu đắp vải",
+"confidence": "medium",
+"search_keywords": [
+"thêu đắp vải",
+"appliqué"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kỹ thuật trang trí bằng cách đắp và may thêm vải",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1472,
+"word": "アップル",
+"kana": "アップル",
+"senses": [
+{
+"sense_id": 219597,
+"meaning_vi": "táo",
+"confidence": "high",
+"search_keywords": [
+"táo",
+"apple"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "quả táo",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1473,
+"word": "アップロード",
+"kana": "アップロード",
+"senses": [
+{
+"sense_id": 219598,
+"meaning_vi": "tải lên",
+"confidence": "high",
+"search_keywords": [
+"tải lên",
+"upload"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đưa dữ liệu từ thiết bị lên máy chủ hoặc internet",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1474,
+"word": "アッペ",
+"kana": "アッペ",
+"senses": [
+{
+"sense_id": 219599,
+"meaning_vi": "viêm ruột thừa",
+"confidence": "high",
+"search_keywords": [
+"viêm ruột thừa",
+"appendicitis"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách gọi tắt của bệnh viêm ruột thừa",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1475,
+"word": "アテスト",
+"kana": "アテスト",
+"senses": [
+{
+"sense_id": 219600,
+"meaning_vi": "ký xác nhận",
+"confidence": "high",
+"search_keywords": [
+"ký xác nhận",
+"ký tên"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký xác nhận bảng điểm hoặc kết quả trong golf",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1476,
+"word": "アテンション",
+"kana": "アテンション",
+"senses": [
+{
+"sense_id": 219601,
+"meaning_vi": "sự chú ý",
+"confidence": "high",
+"search_keywords": [
+"sự chú ý",
+"attention"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "sự quan tâm hoặc chú ý",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 1477,
+"word": "アテンションバリュー",
+"kana": "アテンションバリュー",
+"senses": [
+{
+"sense_id": 219602,
+"meaning_vi": "giá trị thu hút",
+"confidence": "medium",
+"search_keywords": [
+"giá trị thu hút",
+"attention value"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "mức độ thu hút sự chú ý của người khác",
+"examples": []
+}
+]
+}
+]
+}
+]

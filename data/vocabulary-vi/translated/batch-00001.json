@@ -1,0 +1,584 @@
+[
+{
+"vocabulary_id": 1,
+"word": "ヽ",
+"kana": "ヽ",
+"senses": [
+{
+"sense_id": 217202,
+"meaning_vi": "ký hiệu lặp katakana",
+"confidence": "high",
+"search_keywords": [
+"ký hiệu lặp katakana",
+"dấu lặp katakana"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu dùng để lặp lại ký tự katakana đứng trước",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 2,
+"word": "ヾ",
+"kana": "ヾ",
+"senses": [
+{
+"sense_id": 217203,
+"meaning_vi": "ký hiệu lặp katakana hữu thanh",
+"confidence": "high",
+"search_keywords": [
+"ký hiệu lặp katakana hữu thanh",
+"dấu lặp katakana hữu thanh"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu dùng để lặp lại ký tự katakana có biến âm hữu thanh",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3,
+"word": "ゝ",
+"kana": "ゝ",
+"senses": [
+{
+"sense_id": 217204,
+"meaning_vi": "ký hiệu lặp hiragana",
+"confidence": "high",
+"search_keywords": [
+"ký hiệu lặp hiragana",
+"dấu lặp hiragana"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu dùng để lặp lại ký tự hiragana đứng trước",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 4,
+"word": "ゞ",
+"kana": "ゞ",
+"senses": [
+{
+"sense_id": 217205,
+"meaning_vi": "ký hiệu lặp hiragana hữu thanh",
+"confidence": "high",
+"search_keywords": [
+"ký hiệu lặp hiragana hữu thanh",
+"dấu lặp hiragana hữu thanh"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu dùng để lặp lại ký tự hiragana có biến âm hữu thanh",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 5,
+"word": "〃",
+"kana": "おなじ",
+"senses": [
+{
+"sense_id": 217206,
+"meaning_vi": "dấu lặp lại",
+"confidence": "high",
+"search_keywords": [
+"dấu lặp lại",
+"ditto mark",
+"ký hiệu như trên"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu chỉ nội dung giống dòng hoặc mục phía trên",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 6,
+"word": "仝",
+"kana": "どう",
+"senses": [
+{
+"sense_id": 217207,
+"meaning_vi": "ký hiệu như trên",
+"confidence": "high",
+"search_keywords": [
+"ký hiệu như trên",
+"giống phía trên",
+"đồng trên"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu mang nghĩa giống nội dung đã nêu phía trên",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 7,
+"word": "々",
+"kana": "のま",
+"senses": [
+{
+"sense_id": 217208,
+"meaning_vi": "ký hiệu lặp kanji",
+"confidence": "high",
+"search_keywords": [
+"ký hiệu lặp kanji",
+"dấu lặp kanji"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu dùng để lặp lại chữ Hán đứng trước",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 8,
+"word": "○",
+"kana": "まる",
+"senses": [
+{
+"sense_id": 217209,
+"meaning_vi": "hình tròn",
+"confidence": "high",
+"search_keywords": [
+"hình tròn",
+"vòng tròn",
+"số không"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "hình tròn; vòng tròn",
+"examples": []
+},
+{
+"index": 2,
+"meaning": "đôi khi được dùng để chỉ số không",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217210,
+"meaning_vi": "đúng",
+"confidence": "high",
+"search_keywords": [
+"đúng",
+"chính xác",
+"đạt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu đánh dấu đáp án đúng hoặc đạt yêu cầu",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217211,
+"meaning_vi": "ký hiệu thay thế",
+"confidence": "high",
+"search_keywords": [
+"ký hiệu thay thế",
+"ký tự che",
+"chỗ trống"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ký hiệu dùng để che ký tự hoặc biểu thị vị trí cần điền",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217212,
+"meaning_vi": "dấu chấm câu",
+"confidence": "medium",
+"search_keywords": [
+"dấu chấm câu",
+"dấu kết câu"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "dấu kết thúc câu; dấu chấm",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217213,
+"meaning_vi": "dấu bán đục",
+"confidence": "high",
+"search_keywords": [
+"dấu bán đục",
+"handakuten"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "dấu phụ âm bán đục trong tiếng Nhật",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 9,
+"word": "ＡＢＣ順",
+"kana": "エービーシーじゅん",
+"senses": [
+{
+"sense_id": 217214,
+"meaning_vi": "thứ tự bảng chữ cái",
+"confidence": "high",
+"search_keywords": [
+"thứ tự bảng chữ cái",
+"sắp xếp alphabet",
+"alphabetical order"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thứ tự sắp xếp theo bảng chữ cái",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 10,
+"word": "ＣＤプレーヤー",
+"kana": "シーディープレーヤー",
+"senses": [
+{
+"sense_id": 217215,
+"meaning_vi": "máy nghe CD",
+"confidence": "high",
+"search_keywords": [
+"máy nghe CD",
+"đầu CD",
+"CD player"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thiết bị dùng để phát đĩa CD",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 11,
+"word": "Ｎ響",
+"kana": "エヌきょう",
+"senses": [
+{
+"sense_id": 217216,
+"meaning_vi": "Dàn nhạc Giao hưởng NHK",
+"confidence": "high",
+"search_keywords": [
+"Dàn nhạc Giao hưởng NHK",
+"NHK Symphony Orchestra",
+"N響"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tên viết tắt của Dàn nhạc Giao hưởng NHK Nhật Bản",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 12,
+"word": "Ｏバック",
+"kana": "オーバック",
+"senses": [
+{
+"sense_id": 217217,
+"meaning_vi": "váy hở mông",
+"confidence": "medium",
+"search_keywords": [
+"váy hở mông",
+"O-back"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kiểu váy có lỗ hở ở phần mông để lộ da",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 13,
+"word": "Ｔシャツ",
+"kana": "ティーシャツ",
+"senses": [
+{
+"sense_id": 217218,
+"meaning_vi": "áo thun",
+"confidence": "high",
+"search_keywords": [
+"áo thun",
+"áo phông",
+"T-shirt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "áo thun ngắn tay kiểu chữ T",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 14,
+"word": "Ｔバック",
+"kana": "ティーバック",
+"senses": [
+{
+"sense_id": 217219,
+"meaning_vi": "quần lọt khe",
+"confidence": "high",
+"search_keywords": [
+"quần lọt khe",
+"quần thong",
+"T-back"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "quần lót kiểu dây chữ T ở phía sau",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 15,
+"word": "阿吽の呼吸",
+"kana": "あうんのこきゅう",
+"senses": [
+{
+"sense_id": 217220,
+"meaning_vi": "ăn ý hoàn hảo",
+"confidence": "high",
+"search_keywords": [
+"ăn ý",
+"phối hợp nhịp nhàng",
+"hiểu ý nhau"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "hai bên phối hợp nhịp nhàng, hiểu ý nhau mà không cần nói rõ",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 16,
+"word": "あおば",
+"kana": "あおば",
+"senses": [
+{
+"sense_id": 217221,
+"meaning_vi": "tàu Shinkansen Aoba",
+"confidence": "medium",
+"search_keywords": [
+"Aoba",
+"tàu Shinkansen Aoba"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tên cũ của tuyến Shinkansen Tohoku dừng ở mọi ga",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 17,
+"word": "明白",
+"kana": "めいはく",
+"senses": [
+{
+"sense_id": 217222,
+"meaning_vi": "rõ ràng",
+"confidence": "high",
+"search_keywords": [
+"rõ ràng",
+"minh bạch",
+"hiển nhiên",
+"rành mạch"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "rõ ràng; hiển nhiên; không mập mờ",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 18,
+"word": "明白",
+"kana": "あからさま",
+"senses": [
+{
+"sense_id": 217223,
+"meaning_vi": "công khai trắng trợn",
+"confidence": "high",
+"search_keywords": [
+"công khai",
+"trắng trợn",
+"lộ liễu",
+"thẳng thừng"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thẳng thắn; công khai; bộc lộ rõ ràng, không che giấu",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 19,
+"word": "明かん",
+"kana": "あかん",
+"senses": [
+{
+"sense_id": 217224,
+"meaning_vi": "không ổn",
+"confidence": "high",
+"search_keywords": [
+"không ổn",
+"vô vọng",
+"không được",
+"hỏng rồi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không tốt; không ổn; vô vọng; không có triển vọng",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217225,
+"meaning_vi": "không được phép",
+"confidence": "high",
+"search_keywords": [
+"không được phép",
+"cấm",
+"không thể"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không được làm; bị cấm; không thể",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 20,
+"word": "悪どい",
+"kana": "あくどい",
+"senses": [
+{
+"sense_id": 217226,
+"meaning_vi": "sặc sỡ lòe loẹt",
+"confidence": "high",
+"search_keywords": [
+"lòe loẹt",
+"sặc sỡ",
+"phô trương"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "màu sắc hoặc kiểu dáng quá nổi bật, gây cảm giác chói mắt",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217227,
+"meaning_vi": "gian xảo",
+"confidence": "high",
+"search_keywords": [
+"gian xảo",
+"bất lương",
+"vô lương tâm",
+"xảo quyệt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "xấu xa; bất lương; hành xử không trung thực, không có đạo đức",
+"examples": []
+}
+]
+}
+]
+}
+]

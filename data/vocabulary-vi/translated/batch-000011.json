@@ -1,0 +1,751 @@
+[
+{
+"vocabulary_id": 201,
+"word": "お袋",
+"kana": "おふくろ",
+"senses": [
+{
+"sense_id": 217496,
+"meaning_vi": "má",
+"confidence": "high",
+"search_keywords": [
+"má",
+"mẹ",
+"mẹ ruột"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "mẹ; cách gọi thân mật, khẩu ngữ về mẹ mình",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 202,
+"word": "お大事に",
+"kana": "おだいじに",
+"senses": [
+{
+"sense_id": 217497,
+"meaning_vi": "mau khỏe nhé",
+"confidence": "high",
+"search_keywords": [
+"mau khỏe nhé",
+"giữ gìn sức khỏe",
+"chúc mau bình phục"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "giữ gìn sức khỏe; chúc mau bình phục khi bị bệnh hoặc không khỏe",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 203,
+"word": "お宅",
+"kana": "おたく",
+"senses": [
+{
+"sense_id": 217498,
+"meaning_vi": "nhà anh/chị",
+"confidence": "high",
+"search_keywords": [
+"nhà anh chị",
+"gia đình anh chị",
+"quý gia"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nhà ở; gia đình của người đối diện hoặc người được nhắc tới",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217499,
+"meaning_vi": "ông nhà",
+"confidence": "high",
+"search_keywords": [
+"ông nhà",
+"chồng anh chị",
+"phu quân"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chồng của người đối diện; cách nói lịch sự",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217500,
+"meaning_vi": "quý công ty",
+"confidence": "high",
+"search_keywords": [
+"quý công ty",
+"quý tổ chức",
+"đơn vị anh chị"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "công ty hoặc tổ chức của người đối diện",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217501,
+"meaning_vi": "anh/chị",
+"confidence": "high",
+"search_keywords": [
+"anh",
+"chị",
+"quý vị"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đại từ xưng hô lịch sự với người ngang hàng nhưng không thân thiết",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 204,
+"word": "お誕生日おめでとうございます",
+"kana": "おたんじょうびおめでとうございます",
+"senses": [
+{
+"sense_id": 217502,
+"meaning_vi": "chúc mừng sinh nhật",
+"confidence": "high",
+"search_keywords": [
+"chúc mừng sinh nhật",
+"happy birthday"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "lời chúc mừng sinh nhật lịch sự",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 205,
+"word": "お知らせ",
+"kana": "おしらせ",
+"senses": [
+{
+"sense_id": 217503,
+"meaning_vi": "thông báo",
+"confidence": "high",
+"search_keywords": [
+"thông báo",
+"tin báo",
+"thông tin"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thông báo; thông tin được gửi đến nhiều người",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 206,
+"word": "お茶",
+"kana": "おちゃ",
+"senses": [
+{
+"sense_id": 217504,
+"meaning_vi": "trà",
+"confidence": "high",
+"search_keywords": [
+"trà",
+"trà xanh",
+"trà lúa mạch"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "trà, đặc biệt là trà xanh hoặc trà lúa mạch của Nhật",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217505,
+"meaning_vi": "giờ giải lao",
+"confidence": "high",
+"search_keywords": [
+"giờ giải lao",
+"uống trà",
+"nghỉ trà"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thời gian nghỉ ngắn để uống trà hoặc trò chuyện",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217506,
+"meaning_vi": "trà đạo",
+"confidence": "high",
+"search_keywords": [
+"trà đạo",
+"nghi thức trà",
+"tea ceremony"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nghi thức pha và thưởng trà truyền thống của Nhật Bản",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 207,
+"word": "お猪口",
+"kana": "おちょこ",
+"senses": [
+{
+"sense_id": 217507,
+"meaning_vi": "chén sake",
+"confidence": "high",
+"search_keywords": [
+"chén sake",
+"ly sake nhỏ",
+"cốc sake"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chiếc chén nhỏ dùng để uống rượu sake",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 208,
+"word": "お喋り",
+"kana": "おしゃべり",
+"senses": [
+{
+"sense_id": 217508,
+"meaning_vi": "tán gẫu",
+"confidence": "high",
+"search_keywords": [
+"tán gẫu",
+"trò chuyện",
+"buôn chuyện"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "trò chuyện; tán gẫu; buôn chuyện",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217509,
+"meaning_vi": "hay nói",
+"confidence": "high",
+"search_keywords": [
+"hay nói",
+"lắm lời",
+"nhiều chuyện"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người hay nói; lắm lời; thích trò chuyện",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 209,
+"word": "お天気",
+"kana": "おてんき",
+"senses": [
+{
+"sense_id": 217510,
+"meaning_vi": "thời tiết",
+"confidence": "high",
+"search_keywords": [
+"thời tiết",
+"khí hậu"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tình trạng thời tiết tại một thời điểm hoặc khu vực",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217511,
+"meaning_vi": "tâm trạng",
+"confidence": "high",
+"search_keywords": [
+"tâm trạng",
+"tính khí",
+"cảm xúc"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tâm trạng hoặc tính khí của một người",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 210,
+"word": "お転婆",
+"kana": "おてんば",
+"senses": [
+{
+"sense_id": 217512,
+"meaning_vi": "con gái nghịch ngợm",
+"confidence": "high",
+"search_keywords": [
+"con gái nghịch ngợm",
+"tomboy",
+"cá tính mạnh"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "bé gái hoặc phụ nữ trẻ hiếu động, nghịch ngợm như con trai",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 211,
+"word": "お屠蘇",
+"kana": "おとそ",
+"senses": [
+{
+"sense_id": 217513,
+"meaning_vi": "rượu toso",
+"confidence": "medium",
+"search_keywords": [
+"rượu toso",
+"rượu năm mới",
+"otoso"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "rượu sake pha thảo dược dùng trong dịp năm mới của Nhật",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 212,
+"word": "お土産",
+"kana": "おみやげ",
+"senses": [
+{
+"sense_id": 217514,
+"meaning_vi": "quà lưu niệm",
+"confidence": "high",
+"search_keywords": [
+"quà lưu niệm",
+"đặc sản làm quà",
+"omiyage"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đặc sản hoặc quà mua khi đi du lịch để tặng người khác",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217515,
+"meaning_vi": "quà mang đến",
+"confidence": "high",
+"search_keywords": [
+"quà mang đến",
+"quà biếu",
+"quà tặng"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "món quà mang theo khi đến thăm ai đó",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217516,
+"meaning_vi": "món quà không mong muốn",
+"confidence": "high",
+"search_keywords": [
+"món quà không mong muốn",
+"hệ quả xấu",
+"vạ lây"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "thứ không mong muốn nhận được, như bệnh tật hoặc rắc rối",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 213,
+"word": "お湯",
+"kana": "おゆ",
+"senses": [
+{
+"sense_id": 217517,
+"meaning_vi": "nước nóng",
+"confidence": "high",
+"search_keywords": [
+"nước nóng",
+"nước sôi để nguội"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nước được đun nóng",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217518,
+"meaning_vi": "bồn tắm nóng",
+"confidence": "high",
+"search_keywords": [
+"bồn tắm nóng",
+"nước tắm nóng",
+"tắm nước nóng"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nước tắm nóng hoặc bồn tắm nước nóng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 214,
+"word": "お得",
+"kana": "おとく",
+"senses": [
+{
+"sense_id": 217519,
+"meaning_vi": "có lợi",
+"confidence": "high",
+"search_keywords": [
+"có lợi",
+"hời",
+"đáng tiền",
+"giá tốt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "có lợi; đáng tiền; mang lại giá trị tốt so với chi phí",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 215,
+"word": "お凸",
+"kana": "おでこ",
+"senses": [
+{
+"sense_id": 217520,
+"meaning_vi": "trán",
+"confidence": "high",
+"search_keywords": [
+"trán",
+"vầng trán"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "phần phía trên mắt và dưới chân tóc",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217521,
+"meaning_vi": "trán dô",
+"confidence": "high",
+"search_keywords": [
+"trán dô",
+"trán nhô"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "vầng trán nhô ra rõ rệt",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217522,
+"meaning_vi": "trắng tay",
+"confidence": "medium",
+"search_keywords": [
+"trắng tay",
+"không câu được gì",
+"không có cá"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "không bắt hoặc câu được con cá nào",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 216,
+"word": "お婆ん",
+"kana": "おばん",
+"senses": [
+{
+"sense_id": 217523,
+"meaning_vi": "bà già",
+"confidence": "high",
+"search_keywords": [
+"bà già",
+"mụ già",
+"gái ế",
+"đàn bà già"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "phụ nữ lớn tuổi; có thể mang sắc thái coi thường hoặc chê bai",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 217,
+"word": "お疲れ様",
+"kana": "おつかれさま",
+"senses": [
+{
+"sense_id": 217524,
+"meaning_vi": "cảm ơn đã vất vả",
+"confidence": "high",
+"search_keywords": [
+"cảm ơn đã vất vả",
+"làm tốt lắm",
+"vất vả rồi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "câu ghi nhận hoặc cảm ơn công sức làm việc của người khác",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217525,
+"meaning_vi": "hẹn gặp lại",
+"confidence": "high",
+"search_keywords": [
+"hẹn gặp lại",
+"chào nhé",
+"tạm biệt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "câu chào khi kết thúc công việc hoặc lúc ra về",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 218,
+"word": "お付き",
+"kana": "おつき",
+"senses": [
+{
+"sense_id": 217526,
+"meaning_vi": "tùy tùng",
+"confidence": "high",
+"search_keywords": [
+"tùy tùng",
+"người hộ tống",
+"cận vệ"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người đi theo phục vụ hoặc hộ tống một người có địa vị",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 219,
+"word": "お父さん",
+"kana": "おとうさん",
+"senses": [
+{
+"sense_id": 217527,
+"meaning_vi": "bố",
+"confidence": "high",
+"search_keywords": [
+"bố",
+"cha",
+"ba"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cha; cách gọi hoặc nhắc đến cha của ai đó",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217528,
+"meaning_vi": "ông xã",
+"confidence": "high",
+"search_keywords": [
+"ông xã",
+"chồng",
+"ba của bọn trẻ"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách người vợ gọi hoặc nhắc đến chồng",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217529,
+"meaning_vi": "bác",
+"confidence": "medium",
+"search_keywords": [
+"bác",
+"ông",
+"chú lớn tuổi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách gọi hoặc chỉ một người đàn ông lớn tuổi",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 220,
+"word": "お風呂に入る",
+"kana": "おふろにはいる",
+"senses": [
+{
+"sense_id": 217530,
+"meaning_vi": "tắm bồn",
+"confidence": "high",
+"search_keywords": [
+"tắm bồn",
+"ngâm mình",
+"đi tắm"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "ngâm mình hoặc tắm trong bồn nước",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217531,
+"meaning_vi": "tắm vòi sen",
+"confidence": "high",
+"search_keywords": [
+"tắm vòi sen",
+"đi tắm",
+"tắm"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách nói khẩu ngữ chỉ việc đi tắm bằng vòi sen",
+"examples": []
+}
+]
+}
+]
+}
+]

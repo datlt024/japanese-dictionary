@@ -1,0 +1,669 @@
+[
+{
+"vocabulary_id": 161,
+"word": "お仕舞い",
+"kana": "おしまい",
+"senses": [
+{
+"sense_id": 217435,
+"meaning_vi": "kết thúc",
+"confidence": "high",
+"search_keywords": [
+"kết thúc",
+"chấm dứt",
+"hết rồi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "sự kết thúc; chấm dứt; không còn tiếp tục được nữa",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217436,
+"meaning_vi": "đủ rồi",
+"confidence": "high",
+"search_keywords": [
+"đủ rồi",
+"hết rồi",
+"vậy thôi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "đủ rồi; vậy thôi; đến đây là hết",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 162,
+"word": "お使い",
+"kana": "おつかい",
+"senses": [
+{
+"sense_id": 217437,
+"meaning_vi": "việc sai vặt",
+"confidence": "high",
+"search_keywords": [
+"việc sai vặt",
+"chạy việc",
+"đi mua hộ"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "việc được nhờ làm; việc sai vặt; đi mua hoặc chuyển đồ giúp",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217438,
+"meaning_vi": "người sai vặt",
+"confidence": "high",
+"search_keywords": [
+"người sai vặt",
+"người đưa tin",
+"người được sai đi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người được giao làm việc vặt hoặc chuyển lời nhắn",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217439,
+"meaning_vi": "linh sai",
+"confidence": "medium",
+"search_keywords": [
+"linh sai",
+"linh hầu",
+"linh thể phục vụ"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "linh thể hoặc thần linh phục vụ theo lệnh của chủ nhân",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 163,
+"word": "お姉さん",
+"kana": "おねえさん",
+"senses": [
+{
+"sense_id": 217440,
+"meaning_vi": "chị gái",
+"confidence": "high",
+"search_keywords": [
+"chị gái",
+"chị"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chị gái; cách gọi kính trọng chị của người khác",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217441,
+"meaning_vi": "cô gái",
+"confidence": "high",
+"search_keywords": [
+"cô gái",
+"cô",
+"chị ơi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách gọi hoặc xưng hô với một phụ nữ trẻ",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217442,
+"meaning_vi": "cô phục vụ",
+"confidence": "high",
+"search_keywords": [
+"cô phục vụ",
+"chị phục vụ",
+"nhân viên nữ"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách gọi nữ nhân viên phục vụ hoặc tiếp viên",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217443,
+"meaning_vi": "chị cả",
+"confidence": "medium",
+"search_keywords": [
+"chị cả",
+"đàn chị",
+"chị lớn"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách các geisha gọi người có vị trí cao hơn mình",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217444,
+"meaning_vi": "chị lớn",
+"confidence": "high",
+"search_keywords": [
+"chị lớn",
+"chị gái lớn",
+"con gái lớn"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "bé gái hoặc thiếu nữ lớn tuổi hơn những trẻ khác",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 164,
+"word": "お子さん",
+"kana": "おこさん",
+"senses": [
+{
+"sense_id": 217445,
+"meaning_vi": "con của anh/chị",
+"confidence": "high",
+"search_keywords": [
+"con của anh chị",
+"con",
+"em bé"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách nói kính trọng về con của người khác",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 165,
+"word": "お子様",
+"kana": "おこさま",
+"senses": [
+{
+"sense_id": 217446,
+"meaning_vi": "quý tử ái nữ",
+"confidence": "high",
+"search_keywords": [
+"quý tử ái nữ",
+"con của anh chị",
+"quý khách nhỏ tuổi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách nói rất kính trọng về con của người khác",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217447,
+"meaning_vi": "trẻ em",
+"confidence": "high",
+"search_keywords": [
+"trẻ em",
+"trẻ nhỏ",
+"con nít"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "trẻ em; trẻ nhỏ",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 166,
+"word": "お歯黒",
+"kana": "おはぐろ",
+"senses": [
+{
+"sense_id": 217448,
+"meaning_vi": "tục nhuộm răng đen",
+"confidence": "medium",
+"search_keywords": [
+"nhuộm răng đen",
+"tục nhuộm răng",
+"ohaguro"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tục nhuộm răng đen trong Nhật Bản thời xưa",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217449,
+"meaning_vi": "thuốc nhuộm răng đen",
+"confidence": "medium",
+"search_keywords": [
+"thuốc nhuộm răng đen",
+"mực nhuộm răng",
+"ohaguro"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chất nhuộm dùng để nhuộm răng đen theo phong tục cổ",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 167,
+"word": "お辞儀",
+"kana": "おじぎ",
+"senses": [
+{
+"sense_id": 217450,
+"meaning_vi": "cúi chào",
+"confidence": "high",
+"search_keywords": [
+"cúi chào",
+"chào bằng cách cúi đầu",
+"khom người chào"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "hành động cúi đầu hoặc khom người để chào hỏi, cảm ơn hoặc xin lỗi",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 168,
+"word": "お七夜",
+"kana": "おしちや",
+"senses": [
+{
+"sense_id": 217451,
+"meaning_vi": "lễ đặt tên",
+"confidence": "medium",
+"search_keywords": [
+"lễ đặt tên",
+"oshichiya",
+"lễ đặt tên cho trẻ sơ sinh"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nghi lễ đặt tên cho trẻ sơ sinh vào khoảng ngày thứ bảy sau khi sinh",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 169,
+"word": "お邪魔します",
+"kana": "おじゃまします",
+"senses": [
+{
+"sense_id": 217452,
+"meaning_vi": "xin phép làm phiền",
+"confidence": "high",
+"search_keywords": [
+"xin phép làm phiền",
+"xin thất lễ",
+"xin vào"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "câu chào lịch sự khi bước vào nhà hoặc không gian của người khác",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 170,
+"word": "お守り",
+"kana": "おまもり",
+"senses": [
+{
+"sense_id": 217453,
+"meaning_vi": "bùa hộ mệnh",
+"confidence": "high",
+"search_keywords": [
+"bùa hộ mệnh",
+"bùa may mắn",
+"lá bùa"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "bùa cầu may hoặc cầu bình an được bán tại đền chùa, thần xã",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 171,
+"word": "お手玉",
+"kana": "おてだま",
+"senses": [
+{
+"sense_id": 217454,
+"meaning_vi": "túi chuyền",
+"confidence": "high",
+"search_keywords": [
+"túi chuyền",
+"trò tung túi đậu",
+"beanbag"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "túi vải nhồi hạt dùng trong trò tung hứng dân gian",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217455,
+"meaning_vi": "bắt bóng hụt",
+"confidence": "high",
+"search_keywords": [
+"bắt bóng hụt",
+"làm rơi bóng",
+"lỗi bắt bóng"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "lỗi làm rơi hoặc xử lý bóng không gọn trong bóng chày",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 172,
+"word": "お手上げ",
+"kana": "おてあげ",
+"senses": [
+{
+"sense_id": 217456,
+"meaning_vi": "bó tay",
+"confidence": "high",
+"search_keywords": [
+"bó tay",
+"chịu thua",
+"hết cách"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chịu thua; hết cách giải quyết; rơi vào tình thế vô vọng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 173,
+"word": "お手盛り",
+"kana": "おてもり",
+"senses": [
+{
+"sense_id": 217457,
+"meaning_vi": "tự ưu ái mình",
+"confidence": "medium",
+"search_keywords": [
+"tự ưu ái mình",
+"thiên vị bản thân",
+"vừa đá bóng vừa thổi còi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tự đưa ra quyết định có lợi cho bản thân; tự thiên vị mình",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 174,
+"word": "お手洗い",
+"kana": "おてあらい",
+"senses": [
+{
+"sense_id": 217458,
+"meaning_vi": "nhà vệ sinh",
+"confidence": "high",
+"search_keywords": [
+"nhà vệ sinh",
+"toilet",
+"phòng vệ sinh"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "nhà vệ sinh; phòng vệ sinh; toilet",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 175,
+"word": "お手伝いさん",
+"kana": "おてつだいさん",
+"senses": [
+{
+"sense_id": 217459,
+"meaning_vi": "người giúp việc",
+"confidence": "high",
+"search_keywords": [
+"người giúp việc",
+"người làm công",
+"osin"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người giúp việc nhà; người làm việc gia đình",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 176,
+"word": "お巡りさん",
+"kana": "おまわりさん",
+"senses": [
+{
+"sense_id": 217460,
+"meaning_vi": "chú cảnh sát",
+"confidence": "high",
+"search_keywords": [
+"cảnh sát",
+"chú cảnh sát",
+"công an"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách gọi thân mật hoặc gần gũi đối với cảnh sát",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 177,
+"word": "お召し",
+"kana": "おめし",
+"senses": [
+{
+"sense_id": 217461,
+"meaning_vi": "kính dùng",
+"confidence": "medium",
+"search_keywords": [
+"kính dùng",
+"kính mặc",
+"kính gọi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cách nói kính ngữ của việc gọi đến, sử dụng phương tiện hoặc mặc quần áo",
+"examples": []
+}
+]
+},
+{
+"sense_id": 217462,
+"meaning_vi": "lụa crepe cao cấp",
+"confidence": "medium",
+"search_keywords": [
+"lụa crepe",
+"vải crepe",
+"lụa cao cấp"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "loại vải lụa crepe chất lượng cao",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 178,
+"word": "お召し物",
+"kana": "おめしもの",
+"senses": [
+{
+"sense_id": 217463,
+"meaning_vi": "trang phục",
+"confidence": "high",
+"search_keywords": [
+"trang phục",
+"quần áo",
+"y phục"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "quần áo; y phục; cách nói lịch sự về trang phục của người khác",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 179,
+"word": "お勧め",
+"kana": "おすすめ",
+"senses": [
+{
+"sense_id": 217464,
+"meaning_vi": "đề xuất",
+"confidence": "high",
+"search_keywords": [
+"đề xuất",
+"gợi ý",
+"khuyên dùng",
+"khuyến nghị"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "sự giới thiệu hoặc khuyên dùng; điều được đề xuất",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 180,
+"word": "お上りさん",
+"kana": "おのぼりさん",
+"senses": [
+{
+"sense_id": 217465,
+"meaning_vi": "nhà quê lên phố",
+"confidence": "high",
+"search_keywords": [
+"nhà quê lên phố",
+"người tỉnh lẻ",
+"dân quê"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người từ nông thôn hoặc tỉnh lẻ lên thành phố lớn, thường mang sắc thái trêu chọc nhẹ",
+"examples": []
+}
+]
+}
+]
+}
+]
