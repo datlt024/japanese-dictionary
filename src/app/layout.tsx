@@ -12,8 +12,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={notoSansJP.className}>
+    <html lang="vi" translate="no">
+      <body
+        className={notoSansJP.className}
+        translate="no"
+      >
         {children}
       </body>
     </html>

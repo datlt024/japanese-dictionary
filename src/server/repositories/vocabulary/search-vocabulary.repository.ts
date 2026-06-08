@@ -38,16 +38,6 @@ export async function searchVocabulariesByKeyword(
             }
         )
 
-        console.log(
-            "[search_vocabularies_rpc]",
-            Math.round(performance.now() - startedAt),
-            "ms",
-            {
-                keyword: value,
-                count: data?.length || 0,
-            }
-        )
-
         return {
             data: data || [],
             error,
@@ -81,17 +71,6 @@ export async function searchVocabulariesByKeyword(
         .ilike(meaningColumn, `%${escapedValue}%`)
         .not(meaningColumn, "is", null)
         .limit(SEARCH_VOCABULARY_LIMIT)
-
-    console.log(
-        "[search_vocabulary_meaning]",
-        Math.round(performance.now() - startedAt),
-        "ms",
-        {
-            keyword: value,
-            language,
-            count: senseResult.data?.length || 0,
-        }
-    )
 
     if (senseResult.error) {
         return {

@@ -130,6 +130,21 @@
     box-sizing: border-box;
 }
 
+.kanjiContentScroll {
+    padding: 0 18px 18px;
+    background: #ffffff;
+}
+
+.embeddedContentInner {
+    min-width: 0;
+}
+
+.kanjiContentScroll .embeddedContentInner {
+    width: 100%;
+    min-width: 0;
+    background: #ffffff;
+}
+
 .emptyTab {
     height: calc(100% - 118px);
 
@@ -140,7 +155,7 @@
 
     padding: 32px;
 
-    background: #f1f5f9;
+    background: #ffffff;
     color: #64748b;
 
     text-align: center;
@@ -161,6 +176,57 @@
 
     font-size: 15px;
     font-weight: 600;
+}
+
+.kanjiTabs {
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+    margin: 0 -18px 0;
+    padding: 0 18px;
+
+    border-bottom: 1px solid #e5e7eb;
+    background: #ffffff;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.kanjiTabs::-webkit-scrollbar {
+    display: none;
+}
+
+.kanjiTabButton {
+    position: relative;
+
+    flex: 0 0 auto;
+
+    border: none;
+
+    background: transparent;
+    color: #1476e8;
+
+    font-size: 18px;
+    font-weight: 900;
+
+    cursor: pointer;
+}
+
+.activeKanjiTab::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -11px;
+
+    height: 3px;
+
+    border-radius: 999px;
+    background: #1476e8;
 }
 
 @media (max-width: 768px) {
@@ -194,5 +260,14 @@
 
     .contentScroll {
         padding: 12px;
+    }
+
+    .kanjiContentScroll {
+        padding: 0 12px 12px;
+    }
+
+    .kanjiTabs {
+        margin: 0 -12px 0;
+        padding: 0 12px;
     }
 }
