@@ -9,12 +9,11 @@ import type {
     SearchTabWithAll,
 } from "@/shared/constants/search-tabs"
 
-import { searchKanjiByKeyword } from "@/server/repositories/search/kanji-search.repository"
-import { searchGrammarsByKeyword } from "@/server/repositories/search/grammar-search.repository"
-import { searchVocabulariesByKeyword } from "@/server/repositories/search/vocabulary-search.repository"
+import { searchKanjiByKeyword } from "@/server/repositories/kanji/search-kanji.repository"
+import { searchGrammarsByKeyword } from "@/server/repositories/grammar/search-grammar.repository"
+import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
 
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
-import { uniqueById } from "@/shared/utils/array"
 import { normalizeKeyword } from "@/shared/utils/string"
 
 function createEmptySearchResult(): SearchResult {
@@ -60,38 +59,17 @@ async function searchGrammarResult(
     keyword: string,
     language: DictionaryLanguage
 ): Promise<GrammarSearchItem[]> {
-    const {
-        grammarPatternResult,
-        grammarReadingResult,
-        grammarMeaningResult,
-    } = await searchGrammarsByKeyword(keyword, language)
+    const { data, error } = await searchGrammarsByKeyword(
+        keyword,
+        language
+    )
 
-    if (grammarPatternResult.error) {
-        console.error(
-            "Grammar pattern search error:",
-            grammarPatternResult.error
-        )
+    if (error) {
+        console.error("Grammar search error:", error)
+        return []
     }
 
-    if (grammarReadingResult.error) {
-        console.error(
-            "Grammar reading search error:",
-            grammarReadingResult.error
-        )
-    }
-
-    if (grammarMeaningResult.error) {
-        console.error(
-            "Grammar meaning search error:",
-            grammarMeaningResult.error
-        )
-    }
-
-    return uniqueById([
-        ...((grammarPatternResult.data || []) as GrammarSearchItem[]),
-        ...((grammarReadingResult.data || []) as GrammarSearchItem[]),
-        ...((grammarMeaningResult.data || []) as GrammarSearchItem[]),
-    ])
+    return (data || []) as GrammarSearchItem[]
 }
 
 export async function searchDictionary(

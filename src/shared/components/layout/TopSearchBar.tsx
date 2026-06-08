@@ -21,13 +21,14 @@ import ImageScanModal from "@/features/dictionary/image-scan/components/ImageSca
 import useSearchHistory from "@/features/user/search-history/hooks/useSearchHistory"
 import useSearchHub from "@/features/dictionary/search/hooks/useSearchHub"
 
+import { getSearchTargetUrl } from "@/features/dictionary/search/utils"
+
 import { useClickOutside } from "@/shared/hooks/useClickOutside"
 import { useDebounce } from "@/shared/hooks/useDebounce"
-import { extractKanjis } from "@/shared/utils/japanese"
 
 import {
-    DictionaryLanguage,
     normalizeDictionaryLanguage,
+    type DictionaryLanguage,
 } from "@/shared/types/dictionaryLanguage"
 
 import {
@@ -41,15 +42,6 @@ import type {
 type TopSearchBarProps = {
     searchKeyword?: string
     activeSearchTab?: SearchTab
-}
-
-type SearchApiResponse = {
-    vocabularies?: {
-        id: number
-    }[]
-    grammars?: {
-        id: number
-    }[]
 }
 
 const SEARCH_TABS: SearchTab[] = [
@@ -67,15 +59,6 @@ function getTabButtonClass(
     return currentTab === targetTab
         ? `${styles.tabButton} ${styles.activeTab}`
         : styles.tabButton
-}
-
-function createUrlWithLanguage(
-    path: string,
-    language: DictionaryLanguage
-) {
-    const separator = path.includes("?") ? "&" : "?"
-
-    return `${path}${separator}lang=${encodeURIComponent(language)}`
 }
 
 function TopSearchBarContent({
@@ -121,102 +104,6 @@ function TopSearchBarContent({
         setIsDropdownOpen(false)
     }
 
-    async function fetchSearchResult(
-        q: string,
-        tab: SearchTab
-    ): Promise<SearchApiResponse> {
-        try {
-            const response = await fetch(
-                `/api/search?q=${encodeURIComponent(
-                    q
-                )}&tab=${encodeURIComponent(
-                    tab
-                )}&lang=${encodeURIComponent(language)}`
-            )
-
-            if (!response.ok) {
-                return {}
-            }
-
-            return response.json() as Promise<SearchApiResponse>
-        } catch {
-            return {}
-        }
-    }
-
-    async function getTargetUrl(tab: SearchTab, q: string) {
-        if (!q) {
-            return null
-        }
-
-        if (tab === "kanji") {
-            const kanjis = extractKanjis(q)
-
-            if (kanjis.length > 0) {
-                return createUrlWithLanguage(
-                    `/kanji/${encodeURIComponent(
-                        kanjis[0]
-                    )}?q=${encodeURIComponent(q)}`,
-                    language
-                )
-            }
-
-            return createUrlWithLanguage(
-                `/search?q=${encodeURIComponent(
-                    q
-                )}&tab=kanji`,
-                language
-            )
-        }
-
-        if (tab === "vocabulary") {
-            const data = await fetchSearchResult(q, tab)
-            const firstVocabulary = data.vocabularies?.[0]
-
-            if (firstVocabulary) {
-                return createUrlWithLanguage(
-                    `/vocabulary/${firstVocabulary.id}`,
-                    language
-                )
-            }
-
-            return createUrlWithLanguage(
-                `/search?q=${encodeURIComponent(
-                    q
-                )}&tab=vocabulary`,
-                language
-            )
-        }
-
-        if (tab === "grammar") {
-            const data = await fetchSearchResult(q, tab)
-            const firstGrammar = data.grammars?.[0]
-
-            if (firstGrammar) {
-                return createUrlWithLanguage(
-                    `/grammar/${firstGrammar.id}?q=${encodeURIComponent(
-                        q
-                    )}`,
-                    language
-                )
-            }
-
-            return createUrlWithLanguage(
-                `/search?q=${encodeURIComponent(
-                    q
-                )}&tab=grammar`,
-                language
-            )
-        }
-
-        return createUrlWithLanguage(
-            `/search?q=${encodeURIComponent(
-                q
-            )}&tab=${encodeURIComponent(tab)}`,
-            language
-        )
-    }
-
     async function navigateSearch(
         tab: SearchTab,
         searchText = keyword
@@ -230,7 +117,11 @@ function TopSearchBarContent({
         closeDropdown()
         addHistory(q)
 
-        const targetUrl = await getTargetUrl(tab, q)
+        const targetUrl = await getSearchTargetUrl(
+            tab,
+            q,
+            language
+        )
 
         if (targetUrl) {
             router.push(targetUrl)

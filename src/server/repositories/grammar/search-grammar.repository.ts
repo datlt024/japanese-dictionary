@@ -19,26 +19,7 @@ function createEmptyRepositoryResult<T>() {
     })
 }
 
-function searchGrammarsByColumn(
-    column: "pattern" | "reading",
-    keyword: string
-) {
-    const value = escapeLikePattern(
-        normalizeKeyword(keyword)
-    )
-
-    if (!value) {
-        return createEmptyRepositoryResult()
-    }
-
-    return supabaseServer
-        .from("grammars")
-        .select(SEARCH_GRAMMAR_COLUMNS)
-        .ilike(column, `%${value}%`)
-        .limit(SEARCH_GRAMMAR_LIMIT)
-}
-
-function searchGrammarsByMeaning(
+export function searchGrammarsByKeyword(
     keyword: string,
     language: DictionaryLanguage = "vi"
 ) {
@@ -50,7 +31,7 @@ function searchGrammarsByMeaning(
         return createEmptyRepositoryResult()
     }
 
-    const columns =
+    const meaningColumns =
         language === "en"
             ? [
                 `meaning_en.ilike.%${value}%`,
@@ -63,32 +44,15 @@ function searchGrammarsByMeaning(
                 `meaning_en.ilike.%${value}%`,
             ]
 
+    const filters = [
+        `pattern.ilike.%${value}%`,
+        `reading.ilike.%${value}%`,
+        ...meaningColumns,
+    ]
+
     return supabaseServer
         .from("grammars")
         .select(SEARCH_GRAMMAR_COLUMNS)
-        .or(columns.join(","))
+        .or(filters.join(","))
         .limit(SEARCH_GRAMMAR_LIMIT)
-}
-
-export async function searchGrammarsByKeyword(
-    keyword: string,
-    language: DictionaryLanguage = "vi"
-) {
-    const value = normalizeKeyword(keyword)
-
-    const [
-        grammarPatternResult,
-        grammarReadingResult,
-        grammarMeaningResult,
-    ] = await Promise.all([
-        searchGrammarsByColumn("pattern", value),
-        searchGrammarsByColumn("reading", value),
-        searchGrammarsByMeaning(value, language),
-    ])
-
-    return {
-        grammarPatternResult,
-        grammarReadingResult,
-        grammarMeaningResult,
-    }
 }

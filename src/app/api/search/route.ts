@@ -25,7 +25,6 @@ const searchCache = new Map<
 >()
 
 export async function GET(request: NextRequest) {
-
     const keyword =
         request.nextUrl.searchParams
             .get("q")
@@ -39,21 +38,20 @@ export async function GET(request: NextRequest) {
         request.nextUrl.searchParams.get("lang")
     )
 
-    const cacheKey =
-        `${keyword}:${tab}:${language}`
+    if (!keyword) {
+        return NextResponse.json({
+            vocabularies: [],
+            kanjis: [],
+            grammars: [],
+            examples: [],
+        })
+    }
+
+    const cacheKey = `${keyword}:${tab}:${language}`
 
     const cached = searchCache.get(cacheKey)
 
-    if (
-        cached &&
-        cached.expiresAt > Date.now()
-    ) {
-        console.log("[api/search cache hit]", {
-            keyword,
-            tab,
-            language,
-        })
-
+    if (cached && cached.expiresAt > Date.now()) {
         return NextResponse.json(cached.data)
     }
 
@@ -64,9 +62,9 @@ export async function GET(request: NextRequest) {
     )
 
     searchCache.set(cacheKey, {
-        expiresAt:
-            Date.now() + SEARCH_CACHE_TTL,
+        expiresAt: Date.now() + SEARCH_CACHE_TTL,
         data: result,
     })
+
     return NextResponse.json(result)
 }
