@@ -1,0 +1,206 @@
+.detailSideCard {
+    padding: 18px;
+
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+
+    box-shadow: 0 1px 2px rgba(0,0,0,.03);
+}
+
+.detailSideCard h3 {
+    margin: 0 0 16px;
+
+    color: var(--text-primary);
+
+    font-size: 15px;
+    font-weight: 900;
+
+    text-transform: uppercase;
+}
+
+.kanjiAnalysisCard {
+    min-width: 0;
+}
+
+.kanjiTileList {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 12px;
+
+    margin-bottom: 16px;
+}
+
+.kanjiTile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 92px;
+
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    color: var(--primary-dark);
+    text-decoration: none;
+
+    transition: all .2s ease;
+}
+
+.kanjiTile:hover {
+    border-color: #b9cdf7;
+    background: #fbfdff;
+}
+
+.kanjiTileActive {
+    border-color: var(--primary);
+    box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.kanjiTileChar {
+    font-family: "Noto Serif JP", serif;
+    font-size: 34px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.kanjiTile small {
+    margin-top: 6px;
+
+    color: var(--text-secondary);
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.selectedKanjiPanel {
+    overflow: hidden;
+
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+
+    background: #ffffff;
+}
+
+.selectedKanjiHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px 14px;
+
+    border-bottom: 1px solid var(--border-color);
+}
+
+.selectedKanjiHeader strong {
+    color: var(--primary-dark);
+
+    font-size: 16px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.selectedKanjiHeader span {
+    color: var(--text-secondary);
+    font-size: 13px;
+}
+
+.strokePreviewGrid {
+    display: grid;
+    grid-template-columns: 128px minmax(0,1fr);
+    gap: 16px;
+
+    padding: 16px;
+}
+
+.vocabularyKanjiStroke {
+    width: 128px;
+    max-width: 128px;
+
+    margin: 0;
+}
+
+.strokeStepGrid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+
+    align-content: start;
+}
+
+.strokeStep {
+    position: relative;
+
+    display: grid;
+    place-items: center;
+
+    height: 42px;
+
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+
+    background: #ffffff;
+}
+
+.strokeStep small {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+
+    color: var(--primary-dark);
+
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.strokeStep span {
+    color: var(--primary-dark);
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 20px;
+}
+
+.kanjiInfoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+
+    padding: 0 16px 16px;
+}
+
+.kanjiInfoGrid h4 {
+    margin: 0 0 10px;
+
+    color: var(--primary-dark);
+
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.kanjiInfoGrid p {
+    margin: 0 0 6px;
+
+    color: var(--text-secondary);
+
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.kanjiInfoGrid strong {
+    color: var(--success);
+}
+
+.kanjiDetailLink {
+    display: inline-flex;
+
+    margin: 0 16px 16px;
+
+    color: var(--primary);
+
+    font-size: 13px;
+    font-weight: 800;
+
+    text-decoration: none;
+}

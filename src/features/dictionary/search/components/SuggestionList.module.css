@@ -1,15 +1,17 @@
 .suggestionList {
-    margin-top: 12px;
-
     overflow: hidden;
 
     background: #ffffff;
-    border-radius: 16px;
 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eceef2;
+    border-radius: 20px;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, .04);
 }
 
 .suggestionLink {
+    display: block;
     text-decoration: none;
 }
 
@@ -18,33 +20,102 @@
     align-items: center;
     justify-content: space-between;
 
-    width: 100%;
-    padding: 16px;
+    gap: 20px;
 
-    border: none;
+    width: 100%;
+    min-height: 76px;
+
+    padding: 18px 20px;
+
+    border: 0;
+    border-bottom: 1px solid #f0f2f5;
+
     background: #ffffff;
 
     cursor: pointer;
 
-    transition: background 0.2s ease;
+    transition: all .2s ease;
+}
+
+.suggestionLink:last-child .suggestionItem {
+    border-bottom: 0;
 }
 
 .suggestionItem:hover {
-    background: #f3f4f6;
+    background: #fafcff;
+}
+
+.suggestionLeft {
+    min-width: 0;
 }
 
 .suggestionWord {
-    color: #111827;
-    font-size: 22px;
-    font-weight: 700;
+    color: #1f2937;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 800;
 }
 
 .suggestionKana {
-    margin-top: 4px;
+    margin-top: 6px;
 
-    color: #4f46e5;
+    color: #2563eb;
+
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .suggestionMeaning {
+    margin-top: 8px;
+
     color: #6b7280;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.suggestionRight {
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.suggestionBadge {
+    display: inline-flex;
+    align-items: center;
+
+    height: 26px;
+    padding: 0 10px;
+
+    border-radius: 999px;
+
+    background: #edf4ff;
+    color: #2563eb;
+
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.suggestionCommonBadge {
+    background: #ecfdf3;
+    color: #16a34a;
+}
+
+@media (max-width: 768px) {
+    .suggestionItem {
+        min-height: 68px;
+        padding: 16px;
+    }
+
+    .suggestionWord {
+        font-size: 20px;
+    }
+
+    .suggestionMeaning {
+        font-size: 13px;
+    }
 }

@@ -4,101 +4,195 @@
 
 .homeGrid {
     display: grid;
-    grid-template-columns: 1fr 300px;
-    gap: 18px;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 24px;
 }
 
 .mainColumn,
 .rightColumn {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 24px;
 }
 
 .cardSection {
-    background: var(--color-surface);
-    border-radius: 14px;
-    padding: 18px;
+    padding: 24px;
+
+    border: 1px solid #eceef2;
+    border-radius: 20px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 1px 2px rgba(0,0,0,.03);
 }
 
 .sectionHeader {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
 }
 
 .sectionHeader h2 {
-    font-size: 18px;
+    margin: 0;
+
+    color: #1f2937;
+
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 800;
 }
 
 .sectionHeader button {
-    border: none;
+    border: 0;
     background: transparent;
-    color: #334155;
+
+    color: #6b7280;
+
+    font-size: 14px;
+    font-weight: 700;
+
     cursor: pointer;
-    text-decoration: underline;
+
+    transition: all .2s ease;
+}
+
+.sectionHeader button:hover {
+    color: #2563eb;
 }
 
 .dailyWords {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
 }
 
 .dailyWords div {
-    padding: 10px;
-    border-bottom: 1px solid var(--color-border);
-    font-weight: 700;
+    padding: 16px;
+
+    border: 1px solid #eceef2;
+    border-radius: 16px;
+
+    background: #ffffff;
+
+    color: #1f2937;
+
+    font-size: 16px;
+    font-weight: 800;
+
+    transition: all .2s ease;
+}
+
+.dailyWords div:hover {
+    background: #fafcff;
 }
 
 .dailyWords span {
-    color: #64748b;
-    font-weight: 400;
+    display: block;
+
+    margin-top: 6px;
+
+    color: #6b7280;
+
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 500;
 }
 
 .banner {
-    background: linear-gradient(90deg, #0f6bff, #42a5ff);
-    color: white;
-    font-size: 28px;
-    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 180px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #3b82f6
+    );
+
+    color: #ffffff;
+
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 900;
+
     text-align: center;
 }
 
 .communityGrid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
 }
 
 .communityCard {
-    border: 1px solid var(--color-border);
-    border-radius: 12px;
-    padding: 14px;
+    padding: 16px;
+
+    border: 1px solid #eceef2;
+    border-radius: 16px;
+
+    background: #ffffff;
+
+    transition: all .2s ease;
+}
+
+.communityCard:hover {
+    background: #fafcff;
 }
 
 .historyTags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
+
     min-height: 42px;
     align-content: flex-start;
 }
 
 .historyEmpty {
-    color: #94a3b8;
+    color: #9ca3af;
+
     font-size: 14px;
-    line-height: 36px;
+    line-height: 1.6;
 }
 
-.historyTags button {
-    border: none;
-    background: #eef2ff;
-    color: var(--color-primary);
-    padding: 8px 12px;
+.historyTags button,
+.historyTag {
+    display: inline-flex;
+    align-items: center;
+
+    height: 34px;
+    max-width: 100%;
+
+    padding: 0 14px;
+
+    border: 1px solid #eceef2;
     border-radius: 999px;
-    font-weight: 600;
+
+    background: #ffffff;
+    color: #2563eb;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
     cursor: pointer;
+
+    transition: all .2s ease;
+}
+
+.historyTags button:hover,
+.historyTag:hover {
+    background: #edf4ff;
 }
 
 @media (max-width: 900px) {
@@ -109,12 +203,12 @@
     .rightColumn {
         display: none;
     }
-}
-.historyTag {
-    max-width: 100%;
 
-    overflow: hidden;
+    .dailyWords {
+        grid-template-columns: 1fr;
+    }
 
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    .communityGrid {
+        grid-template-columns: 1fr;
+    }
 }

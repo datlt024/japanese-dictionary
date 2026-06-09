@@ -36,11 +36,11 @@ export default function AppLayout({
             <Sidebar />
 
             <div className={styles.appMain}>
-                <Suspense fallback={null}>
-                    <Header title={title} />
-                </Suspense>
+                <div className={styles.appShell}>
+                    <Suspense fallback={null}>
+                        <Header title={title} />
+                    </Suspense>
 
-                <div className={styles.appContent}>
                     <section className={styles.appSearchArea}>
                         <Suspense fallback={null}>
                             <TopSearchBar

@@ -6,7 +6,10 @@
     align-items: center;
 
     width: 100%;
+    max-width: 900px;
     min-width: 0;
+
+    margin: 0 auto;
 
     box-sizing: border-box;
 }
@@ -16,30 +19,46 @@
 
     width: 100%;
     min-width: 0;
+    height: 52px;
 
-    padding: 16px 174px 16px 50px;
+    padding: 0 174px 0 50px;
 
-    border: 1px solid #d1d5db;
-    border-radius: 16px;
+    border: 1px solid #e5eaf2;
+    border-radius: 14px;
 
-    font-size: clamp(15px, 1vw, 18px);
+    background: #ffffff;
+    color: #1f2937;
+
+    font-size: 16px;
+    line-height: 52px;
 
     outline: none;
     box-sizing: border-box;
 
-    transition:
-        border-color 0.2s ease,
-        box-shadow 0.2s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
+
+    transition: all .2s ease;
+}
+
+.searchInput::placeholder {
+    color: #9ca3af;
+}
+
+.searchInput:hover {
+    border-color: #d7deeb;
+    background: #ffffff;
 }
 
 .searchInput:focus {
-    border-color: #4f46e5;
-    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+    border-color: #c7d7f3;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, .03),
+        0 0 0 3px rgba(37, 99, 235, .08);
 }
 
 .searchIcon {
     position: absolute;
-    left: 16px;
+    left: 18px;
     top: 50%;
 
     color: #9ca3af;
@@ -50,7 +69,7 @@
 
 .actions {
     position: absolute;
-    right: 12px;
+    right: 10px;
     top: 50%;
 
     display: flex;
@@ -67,32 +86,28 @@
     align-items: center;
     justify-content: center;
 
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
 
-    border: 1px solid #dbeafe;
+    border: 1px solid transparent;
     border-radius: 12px;
 
-    background: #eff6ff;
-    color: #2563eb;
+    background: transparent;
+    color: #6b7280;
 
     cursor: pointer;
 
-    transition:
-        background 0.2s ease,
-        border-color 0.2s ease,
-        color 0.2s ease,
-        box-shadow 0.2s ease;
+    transition: all .2s ease;
 }
 
 .actionButton:hover {
-    border-color: #93c5fd;
-    background: #dbeafe;
-    color: #1d4ed8;
+    border-color: #e5eaf2;
+    background: #f7f8fa;
+    color: #2563eb;
 }
 
 .actionButton:active {
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.16);
+    transform: scale(.96);
 }
 
 .tooltip {
@@ -105,7 +120,7 @@
 
     border-radius: 8px;
 
-    background: #0f172a;
+    background: #111827;
     color: #ffffff;
 
     font-family: inherit;
@@ -119,9 +134,7 @@
 
     transform: translateX(-50%) translateY(4px);
 
-    transition:
-        opacity 0.15s ease,
-        transform 0.15s ease;
+    transition: all .15s ease;
 }
 
 .tooltip::after {
@@ -133,7 +146,7 @@
 
     border-width: 5px 5px 0;
     border-style: solid;
-    border-color: #0f172a transparent transparent;
+    border-color: #111827 transparent transparent;
 
     transform: translateX(-50%);
 }
@@ -145,9 +158,18 @@
 }
 
 @media (max-width: 768px) {
+    .searchContainer {
+        max-width: none;
+    }
+
     .searchInput {
-        padding: 13px 148px 13px 44px;
+        height: 48px;
+        padding: 0 144px 0 44px;
+
         border-radius: 14px;
+
+        font-size: 15px;
+        line-height: 48px;
     }
 
     .searchIcon {
@@ -155,14 +177,13 @@
     }
 
     .actions {
-        right: 10px;
-        gap: 6px;
+        right: 8px;
+        gap: 4px;
     }
 
     .actionButton {
         width: 34px;
         height: 34px;
-
         border-radius: 10px;
     }
 

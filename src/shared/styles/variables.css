@@ -1,31 +1,47 @@
 :root {
-    --color-bg: #f8fafc;
+    --color-bg: #ffffff;
     --color-surface: #ffffff;
-    --color-border: #e5e7eb;
+    --color-surface-muted: #ffffff;
+    --color-surface-soft: #ffffff;
 
-    --color-text-primary: #111827;
+    --color-border: #eceef2;
+    --color-border-strong: #e5eaf2;
+
+    --color-text-primary: #1f2937;
     --color-text-secondary: #6b7280;
     --color-text-muted: #9ca3af;
 
     --color-primary: #2563eb;
     --color-primary-hover: #1d4ed8;
-    --color-primary-soft: #eff6ff;
+    --color-primary-soft: #edf4ff;
+
+    --color-success: #16a34a;
+    --color-success-soft: #ecfdf3;
 
     --color-danger: #ef4444;
-    --color-success: #22c55e;
+    --color-danger-soft: #ffe8e8;
+
     --color-warning: #f59e0b;
+    --color-warning-soft: #fff7ed;
 
-    --radius-sm: 6px;
-    --radius-md: 10px;
+    --radius-sm: 8px;
+    --radius-md: 12px;
     --radius-lg: 16px;
-    --radius-xl: 24px;
+    --radius-xl: 20px;
+    --radius-pill: 999px;
 
-    --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
-    --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, .03);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, .04);
 
-    --header-height: 64px;
-    --sidebar-width: 260px;
+    --header-height: 72px;
+    --sidebar-width: 220px;
     --sidebar-collapsed-width: 72px;
+
+    --content-max-width: 1600px;
+    --content-padding-x: 32px;
+    --content-padding-y: 24px;
+
+    --transition-fast: all .2s ease;
 
     --z-dropdown: 50;
     --z-header: 100;

@@ -1,63 +1,77 @@
 .appLayout {
     display: flex;
+
     min-height: 100vh;
-    background: #eef2f7;
+
+    background: #ffffff;
+    color: #1f2937;
 }
 
 .appMain {
     flex: 1;
     min-width: 0;
+
     box-sizing: border-box;
 }
 
-.appContent {
-    width: 100%;
-    min-width: 0;
-}
+.appShell {
+    width: min(100% - 64px, 1600px);
+    margin: 0 auto;
 
-.appSearchArea,
-.appPageContent {
-    width: min(100% - clamp(32px, 4vw, 72px), 1560px);
-    margin-inline: auto;
     box-sizing: border-box;
 }
 
 .appSearchArea {
-    min-height: 132px;
-    padding-top: 24px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+
+    padding: 24px 0 16px;
+
+    background: rgba(255, 255, 255, .92);
+
+    backdrop-filter: blur(18px);
 }
 
 .appPageContent {
-    padding-block: 24px;
+    width: 100%;
+    min-width: 0;
+
+    padding: 8px 0 40px;
+
+    box-sizing: border-box;
 }
 
 @media (max-width: 1280px) {
-    .appSearchArea,
-    .appPageContent {
-        width: min(100% - 32px, 1280px);
+    .appShell {
+        width: calc(100% - 48px);
     }
 
     .appSearchArea {
-        min-height: auto;
         padding-top: 20px;
-    }
-
-    .appPageContent {
-        padding-block: 20px;
+        padding-bottom: 14px;
     }
 }
 
 @media (max-width: 768px) {
-    .appSearchArea,
-    .appPageContent {
-        width: calc(100% - 24px);
+    .appLayout {
+        display: block;
+    }
+
+    .appShell {
+        width: calc(100% - 32px);
     }
 
     .appSearchArea {
-        padding-top: 16px;
+        position: static;
+
+        padding: 16px 0 12px;
+
+        background: #ffffff;
+        backdrop-filter: none;
     }
 
     .appPageContent {
-        padding-block: 16px;
+        padding: 4px 0 32px;
     }
 }

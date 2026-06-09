@@ -6,34 +6,40 @@
     justify-content: center;
 
     width: 100%;
-    max-width: 260px;
+    max-width: 280px;
     aspect-ratio: 1 / 1;
 
-    margin: 0 auto;
+    margin: 20px auto;
 
-    border-radius: 18px;
-    background: #f8fafc;
+    border: 1px solid #eceef2;
+    border-radius: 20px;
+    background: #ffffff;
 
     overflow: hidden;
     box-sizing: border-box;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
 }
 
 .svg {
     display: block;
-    width: 92%;
-    height: 92%;
+
+    width: 88%;
+    height: 88%;
+
+    transform: translateX(-1px);
 }
 
 .guide {
-    stroke: #bfdbfe;
-    stroke-width: 0.75;
+    stroke: #dbe7ff;
+    stroke-width: 0.7;
     stroke-dasharray: 4 4;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .path {
     fill: none;
-    stroke-width: 3.2;
+    stroke-width: 3.1;
     stroke-linecap: round;
     stroke-linejoin: round;
 
@@ -44,13 +50,13 @@
 }
 
 .number {
-    font-size: 8.2px;
-    font-weight: 650;
+    font-size: 8px;
+    font-weight: 700;
     user-select: none;
 
     paint-order: stroke;
-    stroke: #f8fafc;
-    stroke-width: 1.1px;
+    stroke: #ffffff;
+    stroke-width: 1.2px;
 
     opacity: 0;
     animation: kanjiStrokeNumberShow 0.2s ease forwards;
@@ -58,51 +64,55 @@
 
 .replayButton {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 10px;
+    right: 10px;
     z-index: 2;
 
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    width: 36px;
-    height: 36px;
+    width: 34px;
+    height: 34px;
 
-    border: 1.5px solid #60a5fa;
+    border: 1px solid #dbe4f2;
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.94);
 
-    color: #64748b;
-    font-size: 23px;
-    font-weight: 700;
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: 800;
     line-height: 1;
 
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.08);
 
-    transition: 0.15s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
+
+    transition: all .2s ease;
 }
 
 .replayButton:hover {
-    border-color: #3b82f6;
-    background: #eff6ff;
-    color: #2563eb;
+    border-color: #c7d7f3;
+    background: #edf4ff;
+    color: #1d4ed8;
 }
 
 .replayButton:active {
-    transform: scale(0.95);
+    transform: scale(0.96);
 }
 
 .loading {
-    color: #64748b;
+    color: #6b7280;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .fallback {
-    color: #111827;
+    color: #1f335f;
+
+    font-family: "Noto Serif JP", "Noto Sans JP", serif;
     font-size: 96px;
+    line-height: 1;
     font-weight: 800;
 }
 
@@ -121,6 +131,10 @@
 @media (max-width: 900px) {
     .strokeOrder {
         max-width: 240px;
-        margin: 16px auto 0;
+        margin: 16px auto;
+    }
+
+    .fallback {
+        font-size: 84px;
     }
 }

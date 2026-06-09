@@ -1,0 +1,160 @@
+.detailSideCard {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
+    padding: 18px;
+}
+
+.detailSideCard h3 {
+    margin: 0 0 16px;
+
+    color: var(--text-primary);
+
+    font-size: 15px;
+    line-height: 1.35;
+    font-weight: 900;
+
+    text-transform: uppercase;
+}
+
+.communityCard {
+    min-width: 0;
+}
+
+.communityInput {
+    display: flex;
+    align-items: center;
+
+    height: 34px;
+    padding: 0 12px;
+    margin-bottom: 12px;
+
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+
+    background: #ffffff;
+    color: var(--text-muted);
+
+    font-size: 12px;
+}
+
+.commentSort {
+    margin-bottom: 12px;
+
+    color: var(--text-secondary);
+
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.commentSort strong {
+    color: var(--primary-dark);
+    font-weight: 800;
+}
+
+.commentList {
+    display: grid;
+    gap: 8px;
+}
+
+.commentItem {
+    display: grid;
+    grid-template-columns: 28px minmax(0, 1fr);
+    gap: 10px;
+
+    padding: 6px 0;
+}
+
+.commentAvatar {
+    display: grid;
+    place-items: center;
+
+    width: 28px;
+    height: 28px;
+
+    border-radius: 999px;
+
+    background: var(--primary-soft);
+
+    font-size: 14px;
+}
+
+.commentBody {
+    min-width: 0;
+}
+
+.commentBody p {
+    margin: 0;
+
+    color: var(--primary-dark);
+
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.commentMeta {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    margin-bottom: 4px;
+}
+
+.commentMeta strong {
+    color: var(--primary);
+
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.commentMeta span {
+    color: var(--primary);
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.commentMeta small {
+    color: var(--text-muted);
+
+    font-size: 11px;
+}
+
+.commentActions {
+    display: flex;
+    gap: 16px;
+
+    margin-top: 4px;
+}
+
+.commentActions button {
+    border: 0;
+    background: transparent;
+
+    color: var(--primary-dark);
+
+    font-size: 11px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.allCommentButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 12px;
+    margin-left: auto;
+
+    border: 0;
+    background: transparent;
+
+    color: var(--primary);
+
+    font-size: 14px;
+    font-weight: 800;
+
+    cursor: pointer;
+}

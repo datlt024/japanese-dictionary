@@ -1,459 +1,30 @@
 .vocabularyDetail {
-  width: 100%;
-  min-width: 0;
-  padding: 0;
-  background: #eef2f7;
-  box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    padding: 0;
+    background: #ffffff;
+    box-sizing: border-box;
 }
 
 .detailLayout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(300px, 22vw, 380px);
-  gap: clamp(18px, 1.5vw, 28px);
-  align-items: start;
-  width: 100%;
-  min-width: 0;
-}
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 430px;
+    gap: 24px;
+    align-items: start;
 
-.detailMain,
-.detailSideCard {
-  background: #ffffff;
-  border-radius: 18px;
-  box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
 }
 
 .detailMain {
-  min-width: 0;
-  padding: clamp(20px, 1.5vw, 28px);
+    min-width: 0;
 }
 
 .detailSidebar {
-  display: flex;
-  flex-direction: column;
-  gap: clamp(18px, 1.4vw, 24px);
-  min-width: 0;
-}
-
-.detailSideCard {
-  padding: clamp(16px, 1.2vw, 20px);
-}
-
-.detailHeader {
-  position: relative;
-  min-width: 0;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-.detailWord {
-  margin-bottom: 14px;
-  color: #1476e8;
-  font-size: clamp(34px, 2.6vw, 44px);
-  font-weight: 800;
-  line-height: 1.2;
-  word-break: break-word;
-}
-
-.detailKana {
-  margin-bottom: 8px;
-  color: #64748b;
-  font-size: clamp(16px, 1.1vw, 18px);
-}
-
-.detailMeaning {
-  max-width: calc(100% - 170px);
-  color: #111827;
-  font-size: clamp(16px, 1.1vw, 18px);
-  font-weight: 700;
-  line-height: 1.6;
-  word-break: break-word;
-}
-
-.detailActions {
-  position: absolute;
-  top: 0;
-  right: 0;
-
-  display: flex;
-  overflow: hidden;
-
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-}
-
-.detailActions button {
-  width: 48px;
-  height: 44px;
-
-  border: none;
-  border-right: 1px solid #e5e7eb;
-
-  background: #ffffff;
-
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.detailActions button:last-child {
-  border-right: none;
-}
-
-.detailTools {
-  display: flex;
-  gap: 10px;
-  min-width: 0;
-
-  padding: 18px 0;
-
-  border-bottom: 1px solid #e5e7eb;
-
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.detailTools::-webkit-scrollbar {
-  display: none;
-}
-
-.detailTools button {
-  flex: 0 0 auto;
-
-  padding: 10px 14px;
-
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-
-  background: #f8fafc;
-
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.jlptRow {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-
-  padding: 18px 0;
-
-  border-bottom: 1px solid #e5e7eb;
-
-  font-weight: 700;
-}
-
-.detailSection {
-  padding: 22px 0;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-.detailSection h2 {
-  margin-bottom: 14px;
-  font-size: 18px;
-}
-
-.senseList {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.senseItem {
-  min-width: 0;
-  padding: 12px 14px;
-  border-radius: 12px;
-}
-
-.blueTitle {
-  margin-bottom: 10px;
-
-  color: #1476e8;
-
-  font-size: clamp(18px, 1.2vw, 20px);
-  font-weight: 800;
-  line-height: 1.5;
-
-  word-break: break-word;
-}
-
-.senseGlossList {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-
-  margin: 10px 0 12px;
-  padding: 0;
-
-  list-style: none;
-}
-
-.senseGlossItem {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
-
-  color: #334155;
-
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.8;
-}
-
-.senseGlossBullet {
-  flex: 0 0 auto;
-
-  color: #2563eb;
-
-  font-weight: 900;
-  line-height: 1.8;
-}
-
-.exampleJp {
-  font-weight: 700;
-  line-height: 1.8;
-}
-
-.conjugationTable {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.conjugationRow {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-
-  padding: 10px 12px;
-
-  border-radius: 10px;
-  background: #f8fafc;
-}
-
-.conjugationRow span {
-  color: #64748b;
-}
-
-.conjugationRow strong {
-  color: #0f172a;
-  font-weight: 700;
-}
-
-.tagList {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.detailTag {
-  padding: 6px 12px;
-
-  border-radius: 999px;
-
-  background: #eef2ff;
-  color: #3730a3;
-
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.lookupResultList {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.lookupResultItem {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-
-  padding: 10px 12px;
-
-  border: 1px solid transparent;
-  border-radius: 12px;
-
-  background: #f8fafc;
-  color: inherit;
-  text-decoration: none;
-}
-
-.lookupResultItem:hover {
-  border-color: #bfdbfe;
-  background: #eef6ff;
-}
-
-.lookupResultItem.active,
-.lookupResultItemActive,
-.active {
-  border-color: #3b82f6;
-  background: #eff6ff;
-}
-
-.lookupResultItem strong {
-  color: #2563eb;
-  font-size: 16px;
-}
-
-.lookupResultItem span {
-  color: #475569;
-  font-size: 13px;
-}
-
-.lookupResultItem small {
-  color: #64748b;
-  font-size: 12px;
-  line-height: 1.4;
-}
-
-.vocabularyKanjiCard,
-.vocabularyRelatedCard {
-  overflow: hidden;
-}
-
-.vocabularyKanjiItem {
-  padding-top: 14px;
-  border-top: 1px solid #e5e7eb;
-}
-
-.vocabularyKanjiItem:first-of-type {
-  border-top: none;
-}
-
-.vocabularyKanjiHead {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  margin-bottom: 8px;
-}
-
-.vocabularyKanjiChar {
-  color: #1476e8;
-
-  font-size: 22px;
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.vocabularyKanjiChar:hover {
-  text-decoration: underline;
-}
-
-.vocabularyKanjiReading {
-  color: #475569;
-
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.vocabularyKanjiMeaning {
-  margin-bottom: 14px;
-
-  color: #111827;
-
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.vocabularyKanjiStroke {
-  max-width: 230px;
-  margin: 16px auto;
-}
-
-.vocabularyKanjiInfo {
-  margin-top: 12px;
-
-  color: #111827;
-
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-.vocabularyKanjiInfo p {
-  margin: 2px 0;
-}
-
-.vocabularyKanjiMore {
-  display: block;
-
-  margin-top: 12px;
-
-  color: #475569;
-
-  font-size: 15px;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: underline;
-}
-
-.vocabularyRelatedList {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.vocabularyRelatedItem {
-  display: block;
-
-  padding-top: 12px;
-
-  border-top: 1px solid #e5e7eb;
-
-  color: inherit;
-  text-decoration: none;
-}
-
-.vocabularyRelatedItem:first-child {
-  border-top: none;
-}
-
-.vocabularyRelatedItem strong {
-  display: block;
-
-  margin-bottom: 4px;
-
-  color: #1476e8;
-
-  font-size: 18px;
-  font-weight: 800;
-}
-
-.vocabularyRelatedItem span {
-  display: block;
-
-  margin-bottom: 6px;
-
-  color: #475569;
-
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.vocabularyRelatedItem p {
-  color: #111827;
-
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-.vocabularyRelatedItem:hover strong {
-  text-decoration: underline;
-}
-
-.backButton {
-  display: inline-flex;
-
-  margin-top: 16px;
-
-  color: #2563eb;
-
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.backButton:hover {
-  text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 0;
 }
 
 /* =========================
@@ -461,139 +32,39 @@
 ========================= */
 
 .embeddedVocabularyDetail {
-  padding: 0;
-  background: transparent;
+    padding: 0;
+    background: transparent;
 }
 
 .embeddedVocabularyDetail .detailLayout {
-  grid-template-columns: minmax(0, 1fr) 300px;
-  gap: 18px;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 20px;
 }
 
-.embeddedVocabularyDetail .detailMain,
-.embeddedVocabularyDetail .detailSideCard {
-  border-radius: 18px;
-  background: #ffffff;
-  box-shadow:
-    0 1px 2px rgba(15, 23, 42, 0.04),
-    0 8px 24px rgba(15, 23, 42, 0.05);
-}
+@media (max-width: 1180px) {
+    .detailLayout {
+        grid-template-columns: 1fr;
+    }
 
-.embeddedVocabularyDetail .detailMain {
-  padding: 26px;
-}
+    .detailSidebar {
+        display: none;
+    }
 
-.embeddedVocabularyDetail .detailSideCard {
-  padding: 18px;
-}
+    .embeddedVocabularyDetail .detailLayout {
+        grid-template-columns: 1fr;
+    }
 
-.embeddedVocabularyDetail .detailHeader {
-  padding-bottom: 20px;
-}
-
-.embeddedVocabularyDetail .detailWord {
-  font-size: 46px;
-}
-
-.embeddedVocabularyDetail .detailKana {
-  font-size: 17px;
-}
-
-.embeddedVocabularyDetail .detailMeaning {
-  max-width: calc(100% - 150px);
-  font-size: 17px;
-}
-
-.embeddedVocabularyDetail .detailTools {
-  padding: 16px 0;
-}
-
-.embeddedVocabularyDetail .detailSection {
-  padding: 24px 0;
-}
-
-.embeddedVocabularyDetail .detailSection h2 {
-  margin-bottom: 18px;
-
-  font-size: 22px;
-  font-weight: 800;
-}
-
-.embeddedVocabularyDetail .lookupResultItem {
-  border-radius: 14px;
-}
-
-.embeddedVocabularyDetail .vocabularyKanjiStroke {
-  max-width: 180px;
-}
-
-.embeddedVocabularyDetail .vocabularyRelatedItem strong {
-  font-size: 20px;
-}
-
-@media (max-width: 1100px) {
-  .detailLayout {
-    grid-template-columns: 1fr;
-  }
-
-  .detailSidebar {
-    display: none;
-  }
-
-  .embeddedVocabularyDetail .detailLayout {
-    grid-template-columns: 1fr;
-  }
-
-  .embeddedVocabularyDetail .detailSidebar {
-    display: flex;
-  }
+    .embeddedVocabularyDetail .detailSidebar {
+        display: flex;
+    }
 }
 
 @media (max-width: 768px) {
-  .detailMain {
-    padding: 18px;
-    border-radius: 14px;
-  }
+    .detailLayout {
+        gap: 20px;
+    }
 
-  .detailHeader {
-    padding-bottom: 20px;
-  }
-
-  .detailWord {
-    font-size: 34px;
-  }
-
-  .detailMeaning {
-    max-width: 100%;
-  }
-
-  .detailActions {
-    position: static;
-    width: fit-content;
-    margin-top: 16px;
-  }
-
-  .detailTools {
-    padding: 16px 0;
-  }
-
-  .senseItem {
-    padding: 10px 0;
-  }
-
-  .blueTitle {
-    font-size: 18px;
-  }
-
-  .embeddedVocabularyDetail .detailMain {
-    padding: 18px;
-  }
-
-  .embeddedVocabularyDetail .detailWord {
-    font-size: 36px;
-  }
-
-  .embeddedVocabularyDetail .detailMeaning {
-    max-width: 100%;
-  }
+    .embeddedVocabularyDetail .detailLayout {
+        gap: 16px;
+    }
 }

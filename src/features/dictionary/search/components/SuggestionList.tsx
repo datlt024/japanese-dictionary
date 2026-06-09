@@ -7,6 +7,8 @@ type SuggestionItem = {
     word: string
     kana: string
     meaning: string
+    jlpt?: string | null
+    is_common?: boolean | null
 }
 
 type SuggestionListProps = {
@@ -29,7 +31,7 @@ export default function SuggestionList({
                     className={styles.suggestionLink}
                 >
                     <div className={styles.suggestionItem}>
-                        <div>
+                        <div className={styles.suggestionLeft}>
                             <p className={styles.suggestionWord}>
                                 {item.word}
                             </p>
@@ -37,11 +39,27 @@ export default function SuggestionList({
                             <p className={styles.suggestionKana}>
                                 {item.kana}
                             </p>
+
+                            <p className={styles.suggestionMeaning}>
+                                {item.meaning}
+                            </p>
                         </div>
 
-                        <p className={styles.suggestionMeaning}>
-                            {item.meaning}
-                        </p>
+                        <div className={styles.suggestionRight}>
+                            {item.is_common && (
+                                <span
+                                    className={`${styles.suggestionBadge} ${styles.suggestionCommonBadge}`}
+                                >
+                                    Common
+                                </span>
+                            )}
+
+                            {item.jlpt && (
+                                <span className={styles.suggestionBadge}>
+                                    {item.jlpt}
+                                </span>
+                            )}
+                        </div>
                     </div>
                 </Link>
             ))}
