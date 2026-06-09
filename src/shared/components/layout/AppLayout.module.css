@@ -1,6 +1,5 @@
 .appLayout {
     display: flex;
-
     min-height: 100vh;
 
     background: #ffffff;
@@ -10,14 +9,12 @@
 .appMain {
     flex: 1;
     min-width: 0;
-
     box-sizing: border-box;
 }
 
 .appShell {
     width: min(100% - 64px, 1600px);
     margin: 0 auto;
-
     box-sizing: border-box;
 }
 
@@ -26,10 +23,9 @@
     top: 0;
     z-index: 50;
 
-    padding: 24px 0 16px;
+    padding: 16px 0 8px;
 
-    background: rgba(255, 255, 255, .92);
-
+    background: rgba(255, 255, 255, .94);
     backdrop-filter: blur(18px);
 }
 
@@ -37,8 +33,9 @@
     width: 100%;
     min-width: 0;
 
-    padding: 8px 0 40px;
+    padding: 0 0 40px;
 
+    background: #ffffff;
     box-sizing: border-box;
 }
 
@@ -48,8 +45,8 @@
     }
 
     .appSearchArea {
-        padding-top: 20px;
-        padding-bottom: 14px;
+        padding-top: 14px;
+        padding-bottom: 8px;
     }
 }
 
@@ -65,13 +62,13 @@
     .appSearchArea {
         position: static;
 
-        padding: 16px 0 12px;
+        padding: 12px 0 8px;
 
         background: #ffffff;
         backdrop-filter: none;
     }
 
     .appPageContent {
-        padding: 4px 0 32px;
+        padding: 0 0 32px;
     }
 }
