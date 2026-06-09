@@ -215,11 +215,6 @@ export default function VocabularyDetailContent({
         "antonym"
     )
 
-    const relatedWords = getRelationsByType(
-        vocabulary.relations,
-        "related"
-    )
-
     return (
         <div className={styles.detailLayout}>
             <section className={styles.detailMain}>
@@ -395,31 +390,6 @@ export default function VocabularyDetailContent({
                     </div>
                 )}
 
-                {vocabulary.readings.length > 1 && (
-                    <div className={styles.detailSection}>
-                        <h2>Cách đọc khác</h2>
-
-                        <div className={styles.tagList}>
-                            {vocabulary.readings
-                                .filter(
-                                    (item) =>
-                                        item.reading !==
-                                        vocabulary.kana
-                                )
-                                .map((item) => (
-                                    <span
-                                        key={item.id}
-                                        className={
-                                            styles.detailTag
-                                        }
-                                    >
-                                        {item.reading}
-                                    </span>
-                                ))}
-                        </div>
-                    </div>
-                )}
-
                 {verbGroupLabel && (
                     <div className={styles.detailSection}>
                         <h2>Nhóm động từ</h2>
@@ -492,15 +462,6 @@ export default function VocabularyDetailContent({
                         ? "Antonyms"
                         : "Từ trái nghĩa",
                     antonyms,
-                    language,
-                    embedded
-                )}
-
-                {renderRelationSection(
-                    language === "en"
-                        ? "Related words"
-                        : "Từ liên quan",
-                    relatedWords,
                     language,
                     embedded
                 )}

@@ -15,6 +15,34 @@ import {
     isJapaneseKeyword,
 } from "@/shared/utils/japanese"
 
+type VocabularySearchRow = {
+    id: number
+}
+
+function getJapaneseSearchKeywords(value: string) {
+    const keywords = [value]
+
+    if (value.endsWith("する") && value.length > 2) {
+        keywords.push(value.slice(0, -2))
+    }
+
+    return Array.from(new Set(keywords))
+}
+
+function mergeSearchResults<T extends VocabularySearchRow>(
+    results: T[]
+) {
+    const map = new Map<number, T>()
+
+    for (const item of results) {
+        if (!map.has(item.id)) {
+            map.set(item.id, item)
+        }
+    }
+
+    return Array.from(map.values())
+}
+
 export async function searchVocabulariesByKeyword(
     keyword: string,
     language: DictionaryLanguage = "vi"
@@ -29,17 +57,34 @@ export async function searchVocabulariesByKeyword(
     }
 
     if (isJapaneseKeyword(value)) {
+        const keywords = getJapaneseSearchKeywords(value)
 
-        const { data, error } = await supabaseServer.rpc(
-            "search_vocabularies_rpc",
-            {
-                search_keyword: value,
+        const results = await Promise.all(
+            keywords.map((searchKeyword) =>
+                supabaseServer.rpc("search_vocabularies_rpc", {
+                    search_keyword: searchKeyword,
+                })
+            )
+        )
+
+        const firstError = results.find(
+            (result) => result.error
+        )?.error
+
+        if (firstError) {
+            return {
+                data: [],
+                error: firstError,
             }
+        }
+
+        const data = mergeSearchResults(
+            results.flatMap((result) => result.data || [])
         )
 
         return {
-            data: data || [],
-            error,
+            data: data.slice(0, SEARCH_VOCABULARY_LIMIT),
+            error: null,
         }
     }
 
