@@ -9,6 +9,11 @@ export type MeaningGloss = {
     examples: string[]
 }
 
+export type VocabularyRubyItem = {
+    text: string
+    reading: string | null
+}
+
 export type VocabularySense =
     Omit<
         Pick<
@@ -48,6 +53,7 @@ export type Vocabulary = {
     jmdict_id: string | null
     word: string
     kana: string | null
+    ruby: VocabularyRubyItem[]
     jlpt: string | null
     verb_group: string | null
     is_common: boolean | null

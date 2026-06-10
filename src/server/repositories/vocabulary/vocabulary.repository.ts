@@ -1,18 +1,54 @@
 import { supabaseServer } from "@/server/supabase/server"
 
-const VOCABULARY_BASE_COLUMNS =
-    "id, jmdict_id, primary_word, primary_kana, jlpt, verb_group, is_common"
+const VOCABULARY_BASE_COLUMNS = `
+id,
+jmdict_id,
+primary_word,
+primary_kana,
+ruby,
+jlpt,
+verb_group,
+is_common
+` as const
 
-const VOCABULARY_SENSE_COLUMNS =
-    "id, sense_index, meaning_en, meaning_vi, meaning_vi_glosses, part_of_speech"
+const VOCABULARY_SENSE_COLUMNS = `
+id,
+sense_index,
+meaning_en,
+meaning_vi,
+meaning_vi_glosses,
+part_of_speech
+` as const
 
-const VOCABULARY_WRITING_COLUMNS =
-    "id, writing, is_primary, priority, info"
+const VOCABULARY_WRITING_COLUMNS = `
+id,
+writing,
+is_primary,
+priority,
+info
+` as const
 
-const VOCABULARY_READING_COLUMNS =
-    "id, reading, romaji, is_primary, priority, info"
-const VOCABULARY_KANJI_COLUMNS =
-    "id, kanji, meaning_vi, meaning_en, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
+const VOCABULARY_READING_COLUMNS = `
+id,
+reading,
+romaji,
+is_primary,
+priority,
+info
+` as const
+
+const VOCABULARY_KANJI_COLUMNS = `
+id,
+kanji,
+meaning_vi,
+meaning_en,
+onyomi,
+kunyomi,
+stroke_count,
+jlpt,
+grade,
+frequency
+` as const
 
 const VOCABULARY_CHILD_LIMIT = 100
 

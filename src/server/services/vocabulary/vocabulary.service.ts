@@ -2,6 +2,7 @@ import type {
     Vocabulary,
     VocabularyCollocation,
     VocabularyRelation,
+    VocabularyRubyItem,
     VocabularySense,
 } from "@/domain/vocabulary"
 
@@ -34,6 +35,54 @@ export type VocabularyKanjiDetail = {
     frequency: number | null
 }
 
+function isVocabularyRubyItem(
+    value: unknown
+): value is VocabularyRubyItem {
+    if (
+        typeof value !== "object" ||
+        value === null ||
+        !("text" in value) ||
+        !("reading" in value)
+    ) {
+        return false
+    }
+
+    const item = value as {
+        text: unknown
+        reading: unknown
+    }
+
+    return (
+        typeof item.text === "string" &&
+        (typeof item.reading === "string" ||
+            item.reading === null)
+    )
+}
+
+function normalizeVocabularyRuby(
+    value: unknown
+): VocabularyRubyItem[] {
+    if (typeof value === "string") {
+        try {
+            const parsed = JSON.parse(value)
+
+            if (Array.isArray(parsed)) {
+                return parsed.filter(isVocabularyRubyItem)
+            }
+        } catch {
+            return []
+        }
+
+        return []
+    }
+
+    if (!Array.isArray(value)) {
+        return []
+    }
+
+    return value.filter(isVocabularyRubyItem)
+}
+
 function extractUniqueKanjis(text: string) {
     return Array.from(
         new Set(
@@ -62,6 +111,8 @@ export async function getVocabularyById(
     if (!vocabulary) {
         return null
     }
+    console.log("RAW RUBY FROM DB:", vocabulary.ruby)
+    console.log("NORMALIZED RUBY:", normalizeVocabularyRuby(vocabulary.ruby))
 
     const [
         sensesResult,
@@ -120,6 +171,7 @@ export async function getVocabularyById(
         jmdict_id: vocabulary.jmdict_id,
         word: vocabulary.primary_word,
         kana: vocabulary.primary_kana,
+        ruby: normalizeVocabularyRuby(vocabulary.ruby),
         jlpt: vocabulary.jlpt,
         verb_group: vocabulary.verb_group,
         is_common: vocabulary.is_common,

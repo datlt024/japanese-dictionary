@@ -253,6 +253,7 @@ export type Database = {
           primary_kana: string | null
           primary_word: string
           romaji: string | null
+          ruby: Json
           source: string | null
           updated_at: string | null
           verb_group: string | null
@@ -266,6 +267,7 @@ export type Database = {
           primary_kana?: string | null
           primary_word: string
           romaji?: string | null
+          ruby?: Json
           source?: string | null
           updated_at?: string | null
           verb_group?: string | null
@@ -279,6 +281,7 @@ export type Database = {
           primary_kana?: string | null
           primary_word?: string
           romaji?: string | null
+          ruby?: Json
           source?: string | null
           updated_at?: string | null
           verb_group?: string | null
@@ -721,6 +724,10 @@ export type Database = {
       }
       show_limit: { Args: never; Returns: number }
       show_trgm: { Args: { "": string }; Returns: string[] }
+      update_vocabulary_ruby_missing: {
+        Args: { payload: Json }
+        Returns: number
+      }
     }
     Enums: {
       [_ in never]: never

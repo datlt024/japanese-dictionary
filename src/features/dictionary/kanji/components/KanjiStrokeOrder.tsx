@@ -9,6 +9,11 @@ type Props = {
     className?: string
 }
 
+type Point = {
+    x: number
+    y: number
+}
+
 type StrokePath = {
     id: string
     d: string
@@ -34,22 +39,32 @@ const STROKE_COLORS = [
     "#f59e0b",
 ]
 
-const FALLBACK_NUMBER_POSITIONS = [
-    ["14", "22"],
-    ["14", "38"],
-    ["26", "35"],
-    ["27", "49"],
-    ["38", "33"],
-    ["55", "34"],
-    ["13", "67"],
-    ["15", "82"],
-    ["31", "82"],
-    ["48", "77"],
-    ["76", "76"],
-    ["86", "33"],
-    ["62", "60"],
-    ["70", "50"],
-    ["50", "50"],
+const CENTER = {
+    x: 54.5,
+    y: 54.5,
+}
+
+const NUMBER_RADIUS = 7
+const STROKE_SAFE_DISTANCE = 8
+const NUMBER_SAFE_DISTANCE = 11
+
+const NUMBER_OFFSET_CANDIDATES = [
+    { x: -12, y: -10 },
+    { x: 12, y: -10 },
+    { x: -12, y: 12 },
+    { x: 12, y: 12 },
+    { x: -18, y: 0 },
+    { x: 18, y: 0 },
+    { x: 0, y: -18 },
+    { x: 0, y: 18 },
+    { x: -22, y: -12 },
+    { x: 22, y: -12 },
+    { x: -22, y: 14 },
+    { x: 22, y: 14 },
+    { x: -28, y: 0 },
+    { x: 28, y: 0 },
+    { x: 0, y: -28 },
+    { x: 0, y: 28 },
 ]
 
 function getKanjiSvgFileName(kanji: string) {
@@ -62,69 +77,187 @@ function getKanjiSvgFileName(kanji: string) {
     return `${codePoint.toString(16).padStart(5, "0")}.svg`
 }
 
-function getStrokeNumberTexts(document: Document) {
-    const strokeNumberTexts = Array.from(
-        document.querySelectorAll('text[id*="StrokeNumbers"]')
-    )
-
-    if (strokeNumberTexts.length > 0) {
-        return strokeNumberTexts
-    }
-
-    return Array.from(document.querySelectorAll("text")).filter(
-        (text) => {
-            const content = text.textContent?.trim() || ""
-
-            return /^\d+$/.test(content)
-        }
-    )
+function roundCoordinate(value: number) {
+    return String(Math.round(value * 10) / 10)
 }
 
-function moveNumberAwayFromCenter(x: number, y: number) {
-    const centerX = 54.5
-    const centerY = 54.5
+function clamp(value: number, min: number, max: number) {
+    return Math.min(Math.max(value, min), max)
+}
 
-    const dx = x - centerX
-    const dy = y - centerY
+function getDistance(a: Point, b: Point) {
+    const dx = a.x - b.x
+    const dy = a.y - b.y
 
-    const distance = Math.sqrt(dx * dx + dy * dy) || 1
-    const offset = 7
+    return Math.sqrt(dx * dx + dy * dy)
+}
 
-    const movedX = x + (dx / distance) * offset
-    const movedY = y + (dy / distance) * offset
+function parseFirstMovePoint(d: string): Point | null {
+    const match = d.match(
+        /[Mm]\s*(-?\d+(?:\.\d+)?)\s*,?\s*(-?\d+(?:\.\d+)?)/
+    )
+
+    if (!match) {
+        return null
+    }
 
     return {
-        x: String(Math.round(movedX * 10) / 10),
-        y: String(Math.round(movedY * 10) / 10),
+        x: Number(match[1]),
+        y: Number(match[2]),
     }
 }
 
-function normalizeNumberPosition(
-    number: SVGTextElement | undefined,
-    fallbackPosition: string[]
-) {
-    const rawX = number?.getAttribute("x") || fallbackPosition[0]
-    const rawY = number?.getAttribute("y") || fallbackPosition[1]
+function parsePathPoints(d: string): Point[] {
+    const pointMatches = d.matchAll(
+        /[-+]?\d*\.?\d+(?:e[-+]?\d+)?/gi
+    )
 
-    const x = Number(rawX)
-    const y = Number(rawY)
+    const values = Array.from(pointMatches)
+        .map((match) => Number(match[0]))
+        .filter((value) => !Number.isNaN(value))
 
-    if (Number.isNaN(x) || Number.isNaN(y)) {
-        return {
-            x: rawX,
-            y: rawY,
-        }
+    const points: Point[] = []
+
+    for (let index = 0; index < values.length - 1; index += 2) {
+        points.push({
+            x: values[index],
+            y: values[index + 1],
+        })
     }
 
-    return moveNumberAwayFromCenter(x, y)
+    return points.filter(
+        (point) =>
+            point.x >= -20 &&
+            point.x <= 129 &&
+            point.y >= -20 &&
+            point.y <= 129
+    )
+}
+
+function normalizeNumberPoint(point: Point): Point {
+    return {
+        x: clamp(point.x, 8, 101),
+        y: clamp(point.y, 12, 101),
+    }
+}
+
+function getOutwardOffset(startPoint: Point) {
+    const dx = startPoint.x - CENTER.x
+    const dy = startPoint.y - CENTER.y
+    const distance = Math.sqrt(dx * dx + dy * dy) || 1
+
+    return {
+        x: (dx / distance) * 16,
+        y: (dy / distance) * 16,
+    }
+}
+
+function isTooCloseToStroke(
+    candidate: Point,
+    allStrokePoints: Point[]
+) {
+    return allStrokePoints.some(
+        (point) => getDistance(candidate, point) < STROKE_SAFE_DISTANCE
+    )
+}
+
+function isTooCloseToPlacedNumber(
+    candidate: Point,
+    placedNumbers: Point[]
+) {
+    return placedNumbers.some(
+        (point) => getDistance(candidate, point) < NUMBER_SAFE_DISTANCE
+    )
+}
+
+function getCandidateScore(
+    candidate: Point,
+    startPoint: Point,
+    allStrokePoints: Point[],
+    placedNumbers: Point[]
+) {
+    const nearestStrokeDistance = Math.min(
+        ...allStrokePoints.map((point) => getDistance(candidate, point))
+    )
+
+    const nearestNumberDistance =
+        placedNumbers.length > 0
+            ? Math.min(
+                ...placedNumbers.map((point) =>
+                    getDistance(candidate, point)
+                )
+            )
+            : 32
+
+    const distanceFromStart = getDistance(candidate, startPoint)
+
+    return (
+        nearestStrokeDistance * 2 +
+        nearestNumberDistance * 3 -
+        distanceFromStart * 0.5
+    )
+}
+
+function getNumberCandidates(startPoint: Point) {
+    const outwardOffset = getOutwardOffset(startPoint)
+
+    return [
+        {
+            x: startPoint.x + outwardOffset.x,
+            y: startPoint.y + outwardOffset.y,
+        },
+        ...NUMBER_OFFSET_CANDIDATES.map((offset) => ({
+            x: startPoint.x + offset.x,
+            y: startPoint.y + offset.y,
+        })),
+    ].map(normalizeNumberPoint)
+}
+
+function getNumberPosition(
+    pathD: string,
+    allStrokePoints: Point[],
+    placedNumbers: Point[]
+) {
+    const startPoint =
+        parseFirstMovePoint(pathD) ||
+        parsePathPoints(pathD)[0] ||
+        CENTER
+
+    const candidates = getNumberCandidates(startPoint)
+
+    const safeCandidate = candidates.find(
+        (candidate) =>
+            !isTooCloseToStroke(candidate, allStrokePoints) &&
+            !isTooCloseToPlacedNumber(candidate, placedNumbers)
+    )
+
+    if (safeCandidate) {
+        return safeCandidate
+    }
+
+    const sortedCandidates = [...candidates].sort((a, b) => {
+        return (
+            getCandidateScore(
+                b,
+                startPoint,
+                allStrokePoints,
+                placedNumbers
+            ) -
+            getCandidateScore(
+                a,
+                startPoint,
+                allStrokePoints,
+                placedNumbers
+            )
+        )
+    })
+
+    return sortedCandidates[0]
 }
 
 function extractStrokePaths(svgText: string): StrokePath[] {
     const parser = new DOMParser()
-    const document = parser.parseFromString(
-        svgText,
-        "image/svg+xml"
-    )
+    const document = parser.parseFromString(svgText, "image/svg+xml")
 
     const strokePaths = Array.from(
         document.querySelectorAll('g[id*="StrokePaths"] path')
@@ -135,35 +268,35 @@ function extractStrokePaths(svgText: string): StrokePath[] {
             ? strokePaths
             : Array.from(document.querySelectorAll("path"))
 
-    const numbers = getStrokeNumberTexts(document)
-
-    return paths
-        .map((path, index) => {
-            const number = numbers[index] as
-                | SVGTextElement
-                | undefined
-
-            const fallbackPosition =
-                FALLBACK_NUMBER_POSITIONS[
-                index %
-                FALLBACK_NUMBER_POSITIONS.length
-                ]
-
-            const numberPosition = normalizeNumberPosition(
-                number,
-                fallbackPosition
-            )
-
-            return {
-                id:
-                    path.getAttribute("id") ||
-                    `stroke-${index}`,
-                d: path.getAttribute("d") || "",
-                numberX: numberPosition.x,
-                numberY: numberPosition.y,
-            }
-        })
+    const pathDataList = paths
+        .map((path, index) => ({
+            id: path.getAttribute("id") || `stroke-${index}`,
+            d: path.getAttribute("d") || "",
+        }))
         .filter((path) => path.d)
+
+    const allStrokePoints = pathDataList.flatMap((path) =>
+        parsePathPoints(path.d)
+    )
+
+    const placedNumbers: Point[] = []
+
+    return pathDataList.map((path) => {
+        const numberPosition = getNumberPosition(
+            path.d,
+            allStrokePoints,
+            placedNumbers
+        )
+
+        placedNumbers.push(numberPosition)
+
+        return {
+            id: path.id,
+            d: path.d,
+            numberX: roundCoordinate(numberPosition.x),
+            numberY: roundCoordinate(numberPosition.y),
+        }
+    })
 }
 
 function getRootClassName(className?: string) {
@@ -195,17 +328,14 @@ export default function KanjiStrokeOrder({
             setLoading(true)
 
             try {
-                const response = await fetch(
-                    `/kanjivg/${fileName}`
-                )
+                const response = await fetch(`/kanjivg/${fileName}`)
 
                 if (!response.ok) {
                     throw new Error("SVG not found")
                 }
 
                 const svgText = await response.text()
-                const strokePaths =
-                    extractStrokePaths(svgText)
+                const strokePaths = extractStrokePaths(svgText)
 
                 if (!cancelled) {
                     setPaths(strokePaths)
@@ -252,9 +382,7 @@ export default function KanjiStrokeOrder({
     if (paths.length === 0) {
         return (
             <div className={getRootClassName(className)}>
-                <span className={styles.fallback}>
-                    {kanji}
-                </span>
+                <span className={styles.fallback}>{kanji}</span>
             </div>
         )
     }

@@ -12,10 +12,10 @@ import {
 
 import VocabularyCommunityCard from "./VocabularyCommunityCard"
 import VocabularyExampleSection from "./VocabularyExampleSection"
-import VocabularyKanjiAnalysis from "./VocabularyKanjiAnalysis"
+import VocabularyKanjiAnalysis from "./VocabularyKanjiAnalysis/VocabularyKanjiAnalysis"
 import VocabularyMeaningCards from "./VocabularyMeaningCards"
 import VocabularyRelatedWords from "./VocabularyRelatedWords"
-import VocabularyWordHeader from "./VocabularyWordHeader"
+import VocabularyWordHeader from "./VocabularyWordHeader/VocabularyWordHeader"
 
 import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
 import type {
@@ -90,28 +90,6 @@ export default function VocabularyDetailContent({
                     suruVerbSenses={suruVerbSenses}
                     hasSuruVerb={hasSuruVerb}
                 />
-
-                {vocabulary.writings.length > 1 && (
-                    <div className={styles.detailSection}>
-                        <h2>Cách viết khác</h2>
-
-                        <div className={styles.tagList}>
-                            {vocabulary.writings
-                                .filter(
-                                    (item) =>
-                                        item.writing !== vocabulary.word
-                                )
-                                .map((item) => (
-                                    <span
-                                        key={item.id}
-                                        className={styles.detailTag}
-                                    >
-                                        {item.writing}
-                                    </span>
-                                ))}
-                        </div>
-                    </div>
-                )}
 
                 {conjugations.length > 0 && (
                     <div className={styles.detailSection}>

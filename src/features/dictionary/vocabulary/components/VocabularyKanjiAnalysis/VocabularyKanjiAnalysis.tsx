@@ -1,3 +1,6 @@
+"use client"
+
+import { useState } from "react"
 import Link from "next/link"
 
 import styles from "./VocabularyKanjiAnalysis.module.css"
@@ -21,13 +24,29 @@ type Props = {
     embedded: boolean
 }
 
+function getKanjiTileListClassName(
+    count: number
+) {
+    return [
+        styles.kanjiTileList,
+        count <= 1 ? styles.kanjiTileListOne : "",
+        count === 2 ? styles.kanjiTileListTwo : "",
+        count === 3 ? styles.kanjiTileListThree : "",
+        count >= 4 ? styles.kanjiTileListFour : "",
+    ]
+        .filter(Boolean)
+        .join(" ")
+}
+
 export default function VocabularyKanjiAnalysis({
     vocabularyWord,
     kanjiDetails,
     language,
     embedded,
 }: Props) {
-    const selectedKanji = kanjiDetails[0]
+    const [selectedIndex, setSelectedIndex] = useState(0)
+
+    const selectedKanji = kanjiDetails[selectedIndex]
 
     return (
         <div
@@ -35,18 +54,18 @@ export default function VocabularyKanjiAnalysis({
         >
             <h3>PHÂN TÍCH KANJI</h3>
 
-            <div className={styles.kanjiTileList}>
+            <div
+                className={getKanjiTileListClassName(
+                    kanjiDetails.length
+                )}
+            >
                 {kanjiDetails.map((item, index) => (
-                    <Link
+                    <button
                         key={item.kanji}
-                        href={createKanjiHref(
-                            item.kanji,
-                            vocabularyWord,
-                            language,
-                            embedded
-                        )}
+                        type="button"
+                        onClick={() => setSelectedIndex(index)}
                         className={
-                            index === 0
+                            index === selectedIndex
                                 ? `${styles.kanjiTile} ${styles.kanjiTileActive}`
                                 : styles.kanjiTile
                         }
@@ -54,12 +73,13 @@ export default function VocabularyKanjiAnalysis({
                         <span className={styles.kanjiTileChar}>
                             {item.kanji}
                         </span>
+
                         <small>
                             {getKanjiStrokeCount(item)
                                 ? `${getKanjiStrokeCount(item)} nét`
                                 : "— nét"}
                         </small>
-                    </Link>
+                    </button>
                 ))}
             </div>
 
@@ -86,7 +106,7 @@ export default function VocabularyKanjiAnalysis({
                         <div className={styles.strokeStepGrid}>
                             {[1, 2, 3, 4, 5, 6, 7].map((step) => (
                                 <div
-                                    key={step}
+                                    key={`${selectedKanji.kanji}-${step}`}
                                     className={styles.strokeStep}
                                 >
                                     <small>{step}</small>
@@ -99,12 +119,14 @@ export default function VocabularyKanjiAnalysis({
                     <div className={styles.kanjiInfoGrid}>
                         <div>
                             <h4>CÁCH ĐỌC</h4>
+
                             <p>
                                 Onyomi (Âm Hán):{" "}
                                 <strong>
                                     {selectedKanji.onyomi || "-"}
                                 </strong>
                             </p>
+
                             <p>
                                 Kunyomi (Âm Nhật):{" "}
                                 <strong>
@@ -115,6 +137,7 @@ export default function VocabularyKanjiAnalysis({
 
                         <div>
                             <h4>Ý NGHĨA GỐC</h4>
+
                             <p>
                                 {getKanjiDisplayMeaning(
                                     selectedKanji,
