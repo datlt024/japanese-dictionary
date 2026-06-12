@@ -1,4 +1,8 @@
+"use client"
+
 import styles from "./VocabularyExampleSection.module.css"
+
+import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
 
 const EXAMPLES = [
     {
@@ -42,15 +46,36 @@ export default function VocabularyExampleSection() {
                             <p className={styles.exampleJp}>
                                 {example.jp}
                             </p>
+
                             <p className={styles.exampleVi}>
                                 {example.vi}
                             </p>
                         </div>
 
                         <div className={styles.exampleActions}>
-                            <button type="button">🔊</button>
-                            <button type="button">☆</button>
-                            <button type="button">⋯</button>
+                            <button
+                                type="button"
+                                aria-label="Phát âm ví dụ"
+                                onClick={() =>
+                                    speakJapanese(example.jp)
+                                }
+                            >
+                                🔊
+                            </button>
+
+                            <button
+                                type="button"
+                                aria-label="Lưu ví dụ"
+                            >
+                                ☆
+                            </button>
+
+                            <button
+                                type="button"
+                                aria-label="Thêm tùy chọn"
+                            >
+                                ⋯
+                            </button>
                         </div>
                     </div>
                 ))}

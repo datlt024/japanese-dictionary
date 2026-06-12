@@ -1,4 +1,8 @@
+"use client"
+
 import styles from "./VocabularyWordHeader.module.css"
+
+import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
 
 import type {
     Vocabulary,
@@ -54,15 +58,11 @@ function WordWithFurigana({
 }) {
     if (ruby.length === 0) {
         return (
-            <h1
-                className={styles.detailWord}
-                title="ruby is empty"
-            >
+            <h1 className={styles.detailWord}>
                 {fallback}
             </h1>
         )
     }
-
 
     return (
         <h1 className={styles.detailWord}>
@@ -94,6 +94,10 @@ export default function VocabularyWordHeader({
 }: Props) {
     const ruby = vocabulary.ruby ?? []
 
+    function handleSpeak() {
+        speakJapanese(vocabulary.kana || vocabulary.word)
+    }
+
     return (
         <div className={styles.detailHeader}>
             <div className={styles.headerContent}>
@@ -108,6 +112,7 @@ export default function VocabularyWordHeader({
                             type="button"
                             className={styles.soundButton}
                             aria-label="Phát âm"
+                            onClick={handleSpeak}
                         >
                             <SpeakerIcon />
                         </button>
@@ -175,6 +180,7 @@ export default function VocabularyWordHeader({
                             type="button"
                             className={styles.pitchPlayButton}
                             aria-label="Phát âm pitch accent"
+                            onClick={handleSpeak}
                         >
                             ▶
                         </button>
