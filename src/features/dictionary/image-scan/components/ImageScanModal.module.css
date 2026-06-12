@@ -1,7 +1,7 @@
 .overlay {
     position: fixed;
     inset: 0;
-    z-index: 9999;
+    z-index: 99999;
 
     display: flex;
     align-items: center;
@@ -10,17 +10,22 @@
     padding: 20px;
 
     background: rgba(15, 23, 42, 0.38);
+
+    animation: fadeIn 0.18s ease;
 }
 
 .modal {
-    width: min(880px, 100%);
+    width: min(880px, calc(100vw - 40px));
     max-height: calc(100vh - 40px);
 
     overflow: hidden;
 
-    border-radius: 16px;
+    border-radius: 20px;
     background: #ffffff;
+
     box-shadow: 0 24px 80px rgba(15, 23, 42, 0.22);
+
+    animation: popupIn 0.2s ease;
 }
 
 .header {
@@ -139,7 +144,6 @@
 
 .previewBox {
     position: relative;
-
     overflow: hidden;
 }
 
@@ -164,6 +168,7 @@
     font-weight: 800;
 
     box-shadow: 0 8px 24px rgba(15, 23, 42, 0.16);
+
     cursor: pointer;
 
     transition:
@@ -417,22 +422,43 @@
     text-align: center;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes popupIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
 @media (max-width: 768px) {
     .overlay {
         align-items: flex-end;
-
         padding: 12px;
     }
 
     .modal {
+        width: 100%;
         max-height: calc(100vh - 24px);
 
-        border-radius: 16px;
+        border-radius: 20px 20px 0 0;
     }
 
     .body {
         max-height: calc(100vh - 94px);
-
         padding: 14px;
     }
 

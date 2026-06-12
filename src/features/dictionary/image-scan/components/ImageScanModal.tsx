@@ -6,6 +6,7 @@ import {
     useRef,
     useState,
 } from "react"
+import { createPortal } from "react-dom"
 import NextImage from "next/image"
 import { ImageIcon, X } from "lucide-react"
 
@@ -50,6 +51,7 @@ export default function ImageScanModal({
 }: ImageScanModalProps) {
     const inputRef = useRef<HTMLInputElement | null>(null)
 
+    const [mounted, setMounted] = useState(false)
     const [imageUrl, setImageUrl] = useState<string | null>(null)
     const [recognizedText, setRecognizedText] = useState("")
 
@@ -61,6 +63,14 @@ export default function ImageScanModal({
     } = useImageScan()
 
     useEffect(() => {
+        setMounted(true)
+
+        return () => {
+            setMounted(false)
+        }
+    }, [])
+
+    useEffect(() => {
         return () => {
             if (imageUrl) {
                 URL.revokeObjectURL(imageUrl)
@@ -68,7 +78,11 @@ export default function ImageScanModal({
         }
     }, [imageUrl])
 
-    if (!open) {
+    if (
+        !open ||
+        !mounted ||
+        typeof document === "undefined"
+    ) {
         return null
     }
 
@@ -103,11 +117,19 @@ export default function ImageScanModal({
         onClose()
     }
 
-    return (
-        <div className={styles.overlay}>
+    const modal = (
+        <div
+            className={styles.overlay}
+            onClick={handleClose}
+            role="presentation"
+        >
             <div
                 className={styles.modal}
                 data-quick-lookup-root="true"
+                onClick={(event) => event.stopPropagation()}
+                role="dialog"
+                aria-modal="true"
+                aria-label="Dịch ảnh"
             >
                 <div
                     className={styles.header}
@@ -255,4 +277,13 @@ export default function ImageScanModal({
             </div>
         </div>
     )
+
+    const portalRoot =
+        document.getElementById("portal-root") || document.body
+
+    if (!portalRoot) {
+        return null
+    }
+
+    return createPortal(modal, portalRoot)
 }

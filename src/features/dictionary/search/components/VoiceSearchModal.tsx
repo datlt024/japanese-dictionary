@@ -1,6 +1,12 @@
 "use client"
 
-import { useCallback, useMemo, useState } from "react"
+import {
+    useCallback,
+    useEffect,
+    useMemo,
+    useState,
+} from "react"
+import { createPortal } from "react-dom"
 import { Mic, Pause, Search } from "lucide-react"
 
 import styles from "./VoiceSearchModal.module.css"
@@ -106,8 +112,17 @@ export default function VoiceSearchModal({
     onClose,
     onResult,
 }: VoiceSearchModalProps) {
+    const [mounted, setMounted] = useState(false)
     const [voiceLanguage, setVoiceLanguage] =
         useState<VoiceSearchLanguage>("ja-JP")
+
+    useEffect(() => {
+        setMounted(true)
+
+        return () => {
+            setMounted(false)
+        }
+    }, [])
 
     const handleFinalResult = useCallback(() => {
         // Không tự động tra.
@@ -147,9 +162,7 @@ export default function VoiceSearchModal({
         inferredKana !== normalizedTranscript
 
     const { result: homophoneResult } = useSearchHub(
-        shouldSearchHomophones
-            ? inferredKana
-            : "",
+        shouldSearchHomophones ? inferredKana : "",
         "vocabulary",
         dictionaryLanguage
     )
@@ -182,7 +195,11 @@ export default function VoiceSearchModal({
         ]).slice(0, 6)
     }, [homophoneResult, transcriptResult])
 
-    if (!open) {
+    if (
+        !open ||
+        !mounted ||
+        typeof document === "undefined"
+    ) {
         return null
     }
 
@@ -212,9 +229,19 @@ export default function VoiceSearchModal({
     const shouldShowTranscriptOnly =
         normalizedTranscript && suggestions.length === 0
 
-    return (
-        <div className={styles.overlay}>
-            <div className={styles.modal}>
+    const modal = (
+        <div
+            className={styles.overlay}
+            onClick={onClose}
+            role="presentation"
+        >
+            <div
+                className={styles.modal}
+                onClick={(event) => event.stopPropagation()}
+                role="dialog"
+                aria-modal="true"
+                aria-label="Tra cứu bằng giọng nói"
+            >
                 <div className={styles.header}>
                     <h2>Tra cứu bằng giọng nói</h2>
 
@@ -371,4 +398,13 @@ export default function VoiceSearchModal({
             </div>
         </div>
     )
+
+    const portalRoot =
+        document.getElementById("portal-root") || document.body
+
+    if (!portalRoot) {
+        return null
+    }
+
+    return createPortal(modal, portalRoot)
 }
