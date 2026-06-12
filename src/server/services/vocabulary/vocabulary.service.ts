@@ -111,8 +111,6 @@ export async function getVocabularyById(
     if (!vocabulary) {
         return null
     }
-    console.log("RAW RUBY FROM DB:", vocabulary.ruby)
-    console.log("NORMALIZED RUBY:", normalizeVocabularyRuby(vocabulary.ruby))
 
     const [
         sensesResult,

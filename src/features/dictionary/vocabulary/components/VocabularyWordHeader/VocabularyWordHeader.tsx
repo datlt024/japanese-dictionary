@@ -93,8 +93,6 @@ export default function VocabularyWordHeader({
     verbGroupLabel,
 }: Props) {
     const ruby = vocabulary.ruby ?? []
-    console.log("vocabulary =", vocabulary)
-    console.log("ruby =", vocabulary.ruby)
 
     return (
         <div className={styles.detailHeader}>
