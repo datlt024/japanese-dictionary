@@ -5,7 +5,7 @@ import Link from "next/link"
 
 import styles from "./VocabularyKanjiAnalysis.module.css"
 
-import KanjiStrokeOrder from "@/features/dictionary/kanji/components/KanjiStrokeOrder"
+import KanjiStrokeOrder from "@/features/dictionary/kanji/components/KanjiStrokeOrder/KanjiStrokeOrder"
 
 import {
     createKanjiHref,

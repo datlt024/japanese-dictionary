@@ -10,7 +10,8 @@ import {
     hasPartOfSpeech,
 } from "@/features/dictionary/vocabulary/utils"
 
-import VocabularyCommunityCard from "./VocabularyCommunityCard"
+import DictionaryCommunityCard
+    from "@/shared/components/DictionaryCommunityCard/DictionaryCommunityCard"
 import VocabularyExampleSection from "./VocabularyExampleSection"
 import VocabularyKanjiAnalysis from "./VocabularyKanjiAnalysis/VocabularyKanjiAnalysis"
 import VocabularyMeaningCards from "./VocabularyMeaningCards"
@@ -163,7 +164,7 @@ export default function VocabularyDetailContent({
                     />
                 )}
 
-                <VocabularyCommunityCard />
+                <DictionaryCommunityCard />
 
                 <VocabularyRelatedWords
                     language={language}

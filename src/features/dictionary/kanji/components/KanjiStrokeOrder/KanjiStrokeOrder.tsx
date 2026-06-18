@@ -44,7 +44,6 @@ const CENTER = {
     y: 54.5,
 }
 
-const NUMBER_RADIUS = 7
 const STROKE_SAFE_DISTANCE = 8
 const NUMBER_SAFE_DISTANCE = 11
 

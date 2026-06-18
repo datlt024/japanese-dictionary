@@ -1,0 +1,153 @@
+.section {
+    padding: 24px;
+
+    border: 1px solid #e5eaf2;
+    border-radius: 18px;
+
+    background: #ffffff;
+}
+
+.title {
+    margin: 0 0 18px;
+
+    color: #1f2937;
+
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.mutedText {
+    margin: 0;
+    color: #6b7280;
+}
+
+.vocabReadingList {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.vocabReadingBlock {
+    overflow: hidden;
+
+    border: 1px solid #e5eaf2;
+    border-radius: 16px;
+
+    background: #ffffff;
+}
+
+.vocabReadingHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 14px 16px;
+
+    border-bottom: 1px solid #e5eaf2;
+
+    background: #f8fafc;
+}
+
+.vocabReadingHeader span {
+    padding: 5px 9px;
+
+    border-radius: 999px;
+
+    background: #eff6ff;
+    color: #2563eb;
+
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.vocabReadingHeader strong {
+    color: #1f2937;
+
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.vocabTable {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.vocabTable th,
+.vocabTable td {
+    padding: 14px 16px;
+
+    border-bottom: 1px solid #eef2f7;
+
+    color: #374151;
+
+    font-size: 15px;
+    line-height: 1.65;
+    vertical-align: top;
+    text-align: left;
+}
+
+.vocabTable th {
+    background: #fbfbfa;
+    color: #6b7280;
+
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.vocabTable tr:last-child td {
+    border-bottom: none;
+}
+
+/* Từ vựng */
+.vocabTable th:nth-child(1),
+.vocabTable td:nth-child(1) {
+    width: 18%;
+
+    color: #1f2937;
+
+    font-family: "Noto Serif JP", serif;
+    font-size: 18px;
+    font-weight: 900;
+
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
+
+/* Cách đọc */
+.vocabTable th:nth-child(2),
+.vocabTable td:nth-child(2) {
+    width: 22%;
+
+    font-family: "Noto Sans JP", sans-serif;
+
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
+
+/* Âm Hán Việt */
+.vocabTable th:nth-child(3),
+.vocabTable td:nth-child(3) {
+    width: 90px;
+
+    color: #2563eb;
+    font-weight: 800;
+
+    white-space: nowrap;
+}
+
+/* Ý nghĩa */
+.vocabTable th:nth-child(4),
+.vocabTable td:nth-child(4) {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .vocabReadingBlock {
+        overflow-x: auto;
+    }
+
+    .vocabTable {
+        min-width: 760px;
+    }
+}

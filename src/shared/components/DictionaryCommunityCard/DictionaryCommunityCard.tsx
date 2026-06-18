@@ -1,4 +1,4 @@
-import styles from "./VocabularyCommunityCard.module.css"
+import styles from "./DictionaryCommunityCard.module.css"
 
 const COMMENTS = [
     {
@@ -27,7 +27,7 @@ const COMMENTS = [
     },
 ]
 
-export default function VocabularyCommunityCard() {
+export default function DictionaryCommunityCard() {
     return (
         <div
             className={`${styles.detailSideCard} ${styles.communityCard}`}

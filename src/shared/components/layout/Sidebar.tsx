@@ -24,36 +24,42 @@ export default function Sidebar() {
     const [collapsed, setCollapsed] = useState(false)
 
     useEffect(() => {
-        const savedCollapsed =
-            localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
+        const timer = window.setTimeout(() => {
+            const savedCollapsed =
+                localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
 
-        setCollapsed(savedCollapsed)
-        setMounted(true)
+            setCollapsed(savedCollapsed)
+            setMounted(true)
+        }, 0)
+
+        return () => {
+            window.clearTimeout(timer)
+        }
     }, [])
 
-    useEffect(() => {
-        if (!mounted) {
-            return
-        }
-
-        localStorage.setItem(
-            SIDEBAR_COLLAPSED_KEY,
-            String(collapsed)
-        )
-    }, [collapsed, mounted])
-
     function toggleSidebar() {
-        setCollapsed((current) => !current)
+        setCollapsed((current) => {
+            const next = !current
+
+            localStorage.setItem(
+                SIDEBAR_COLLAPSED_KEY,
+                String(next)
+            )
+
+            return next
+        })
     }
 
-    const isCollapsed = mounted ? collapsed : false
+    const isCollapsed = mounted && collapsed
 
     return (
         <aside
             className={
                 isCollapsed
                     ? `${styles.sidebar} ${styles.sidebarCollapsed}`
-                    : styles.sidebar
+                    : mounted
+                        ? styles.sidebar
+                        : `${styles.sidebar} ${styles.noTransition}`
             }
         >
             <div className={styles.sidebarHeader}>
@@ -71,11 +77,9 @@ export default function Sidebar() {
                     ☰
                 </button>
 
-                {!isCollapsed && (
-                    <div className={styles.sidebarLogo}>
-                        m<span>あ</span>zii
-                    </div>
-                )}
+                <div className={styles.sidebarLogo}>
+                    m<span>あ</span>zii
+                </div>
             </div>
 
             <nav className={styles.sidebarMenu}>
@@ -94,21 +98,15 @@ export default function Sidebar() {
                                     ? `${styles.sidebarLink} ${styles.active}`
                                     : styles.sidebarLink
                             }
-                            title={
-                                isCollapsed
-                                    ? item.label
-                                    : undefined
-                            }
+                            title={isCollapsed ? item.label : undefined}
                         >
                             <span className={styles.sidebarIcon}>
                                 {item.icon}
                             </span>
 
-                            {!isCollapsed && (
-                                <span className={styles.sidebarLabel}>
-                                    {item.label}
-                                </span>
-                            )}
+                            <span className={styles.sidebarLabel}>
+                                {item.label}
+                            </span>
                         </Link>
                     )
                 })}

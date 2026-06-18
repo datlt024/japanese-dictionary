@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react"
 import { useParams, useSearchParams } from "next/navigation"
 
-import styles from "@/features/dictionary/kanji/styles/KanjiDetail.module.css"
+import styles from "@/features/dictionary/kanji/components/KanjiDetailContent.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import KanjiDetailContent from "@/features/dictionary/kanji/components/KanjiDetailContent"

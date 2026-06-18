@@ -2,7 +2,6 @@
 
 import {
     useCallback,
-    useEffect,
     useMemo,
     useState,
 } from "react"
@@ -112,17 +111,8 @@ export default function VoiceSearchModal({
     onClose,
     onResult,
 }: VoiceSearchModalProps) {
-    const [mounted, setMounted] = useState(false)
     const [voiceLanguage, setVoiceLanguage] =
         useState<VoiceSearchLanguage>("ja-JP")
-
-    useEffect(() => {
-        setMounted(true)
-
-        return () => {
-            setMounted(false)
-        }
-    }, [])
 
     const handleFinalResult = useCallback(() => {
         // Không tự động tra.
@@ -195,11 +185,7 @@ export default function VoiceSearchModal({
         ]).slice(0, 6)
     }, [homophoneResult, transcriptResult])
 
-    if (
-        !open ||
-        !mounted ||
-        typeof document === "undefined"
-    ) {
+    if (!open || typeof document === "undefined") {
         return null
     }
 
@@ -282,9 +268,7 @@ export default function VoiceSearchModal({
                                                     styles.suggestionKana
                                                 }
                                             >
-                                                {
-                                                    suggestion.subText
-                                                }
+                                                {suggestion.subText}
                                             </span>
                                         )}
                                     </span>
@@ -299,9 +283,7 @@ export default function VoiceSearchModal({
 
                             <button
                                 type="button"
-                                className={
-                                    styles.transcriptButton
-                                }
+                                className={styles.transcriptButton}
                                 onClick={() =>
                                     handleSuggestionClick(
                                         normalizedTranscript
@@ -401,10 +383,6 @@ export default function VoiceSearchModal({
 
     const portalRoot =
         document.getElementById("portal-root") || document.body
-
-    if (!portalRoot) {
-        return null
-    }
 
     return createPortal(modal, portalRoot)
 }

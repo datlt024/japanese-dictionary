@@ -1,0 +1,31 @@
+.section {
+  padding: 24px;
+
+  border: 1px solid #e5eaf2;
+  border-radius: 18px;
+
+  background: #ffffff;
+}
+
+.title {
+  margin: 0 0 18px;
+
+  color: #1f2937;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.meaningList {
+  margin: 0;
+  padding-left: 22px;
+
+  color: #1f2937;
+}
+
+.meaningList li {
+  margin-bottom: 12px;
+
+  color: #374151;
+  font-size: 16px;
+  line-height: 1.8;
+}

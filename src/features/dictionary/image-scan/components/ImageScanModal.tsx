@@ -51,24 +51,10 @@ export default function ImageScanModal({
 }: ImageScanModalProps) {
     const inputRef = useRef<HTMLInputElement | null>(null)
 
-    const [mounted, setMounted] = useState(false)
     const [imageUrl, setImageUrl] = useState<string | null>(null)
     const [recognizedText, setRecognizedText] = useState("")
 
-    const {
-        loading,
-        progress,
-        error,
-        recognizeImage,
-    } = useImageScan()
-
-    useEffect(() => {
-        setMounted(true)
-
-        return () => {
-            setMounted(false)
-        }
-    }, [])
+    const { loading, progress, error, recognizeImage } = useImageScan()
 
     useEffect(() => {
         return () => {
@@ -78,11 +64,7 @@ export default function ImageScanModal({
         }
     }, [imageUrl])
 
-    if (
-        !open ||
-        !mounted ||
-        typeof document === "undefined"
-    ) {
+    if (!open || typeof document === "undefined") {
         return null
     }
 
@@ -163,9 +145,11 @@ export default function ImageScanModal({
                             onClick={() => inputRef.current?.click()}
                         >
                             <ImageIcon size={34} />
+
                             <span>
                                 Chọn ảnh có chữ tiếng Nhật
                             </span>
+
                             <small>
                                 Nên chọn ảnh rõ chữ hoặc crop gần vùng cần tra
                             </small>
@@ -188,9 +172,7 @@ export default function ImageScanModal({
 
                                 <button
                                     type="button"
-                                    className={
-                                        styles.changeImageButton
-                                    }
+                                    className={styles.changeImageButton}
                                     onClick={() =>
                                         inputRef.current?.click()
                                     }
@@ -208,14 +190,10 @@ export default function ImageScanModal({
                                         <p>Đang nhận diện chữ...</p>
 
                                         <div
-                                            className={
-                                                styles.progressTrack
-                                            }
+                                            className={styles.progressTrack}
                                         >
                                             <div
-                                                className={
-                                                    styles.progressBar
-                                                }
+                                                className={styles.progressBar}
                                                 style={{
                                                     width: `${Math.round(
                                                         progress * 100
@@ -280,10 +258,6 @@ export default function ImageScanModal({
 
     const portalRoot =
         document.getElementById("portal-root") || document.body
-
-    if (!portalRoot) {
-        return null
-    }
 
     return createPortal(modal, portalRoot)
 }
