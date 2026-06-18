@@ -12,10 +12,10 @@ import {
 
 import DictionaryCommunityCard
     from "@/shared/components/DictionaryCommunityCard/DictionaryCommunityCard"
-import VocabularyExampleSection from "./VocabularyExampleSection"
+import VocabularyExampleSection from "./VocabularyExampleSection/VocabularyExampleSection"
 import VocabularyKanjiAnalysis from "./VocabularyKanjiAnalysis/VocabularyKanjiAnalysis"
-import VocabularyMeaningCards from "./VocabularyMeaningCards"
-import VocabularyRelatedWords from "./VocabularyRelatedWords"
+import VocabularyMeaningCards from "./VocabularyMeaningCards/VocabularyMeaningCards"
+import VocabularyRelatedWords from "./VocabularyRelatedWords/VocabularyRelatedWords"
 import VocabularyWordHeader from "./VocabularyWordHeader/VocabularyWordHeader"
 
 import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
