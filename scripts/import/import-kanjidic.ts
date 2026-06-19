@@ -3,9 +3,7 @@ import fs from "fs"
 import path from "path"
 import { XMLParser } from "fast-xml-parser"
 
-import {
-    TablesInsert,
-} from "../../src/shared/types/database.generated"
+import type { TablesInsert } from "../../src/shared/types/database.generated"
 import { supabaseAdmin } from "@/server/supabase/admin"
 
 dotenv.config({
@@ -63,22 +61,29 @@ function toArray<T>(value: T | T[] | undefined): T[] {
 }
 
 function toNumber(value: unknown): number | null {
-    if (!value) {
+    if (value === null || value === undefined || value === "") {
         return null
     }
 
     const numberValue = Number(value)
 
-    return Number.isNaN(numberValue)
-        ? null
-        : numberValue
+    return Number.isNaN(numberValue) ? null : numberValue
 }
 
 function getEnglishMeanings(meanings: KanjidicMeaning[]) {
     return meanings
-        .filter((meaningItem): meaningItem is string => {
-            return typeof meaningItem === "string"
+        .flatMap((meaningItem) => {
+            if (typeof meaningItem === "string") {
+                return [meaningItem]
+            }
+
+            if (meaningItem.m_lang) {
+                return []
+            }
+
+            return meaningItem.text ? [meaningItem.text] : []
         })
+        .filter(Boolean)
         .join("; ")
 }
 
@@ -107,7 +112,7 @@ function parseKanji(item: KanjidicCharacter): KanjiInsert | null {
 
     return {
         kanji,
-        meaning_en: getEnglishMeanings(meanings),
+        meaning_en: getEnglishMeanings(meanings) || null,
         meaning_vi: null,
         onyomi: onyomi || null,
         kunyomi: kunyomi || null,
@@ -115,11 +120,11 @@ function parseKanji(item: KanjidicCharacter): KanjiInsert | null {
         jlpt: toNumber(item.misc?.jlpt),
         grade: toNumber(item.misc?.grade),
         frequency: toNumber(item.misc?.freq),
-        radical_id: null,
-        unicode: kanji
-            .codePointAt(0)
-            ?.toString(16)
-            .toUpperCase() || null,
+        unicode:
+            kanji
+                .codePointAt(0)
+                ?.toString(16)
+                .toUpperCase() || null,
     }
 }
 

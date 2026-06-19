@@ -12,10 +12,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="vi" translate="no">
+    <html lang="vi" translate="no" suppressHydrationWarning>
       <body
         className={notoSansJP.className}
         translate="no"
+        suppressHydrationWarning
       >
         {children}
         <div id="portal-root" />

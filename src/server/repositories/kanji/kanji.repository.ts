@@ -1,16 +1,42 @@
 import { supabaseServer } from "@/server/supabase/server"
 
-const KANJI_DETAIL_COLUMNS =
-    "id, kanji, meaning_vi, meaning_en, onyomi, kunyomi, stroke_count, jlpt, grade, frequency"
+const KANJI_DETAIL_COLUMNS = `
+id,
+kanji,
+meaning_vi,
+meaning_en,
+onyomi,
+kunyomi,
+han_viet,
+radical,
+radical_number,
+radical_name_vi,
+radical_name_ja,
+stroke_count,
+jlpt,
+grade,
+frequency,
+unicode,
+created_at,
+updated_at
+` as const
 
-const KANJI_LINK_COLUMNS =
-    "vocabulary_id, priority"
+const KANJI_LINK_COLUMNS = `
+vocabulary_id,
+priority
+` as const
 
-const VOCABULARY_SUMMARY_COLUMNS =
-    "id, primary_word, primary_kana"
+const VOCABULARY_SUMMARY_COLUMNS = `
+id,
+primary_word,
+primary_kana
+` as const
 
-const VOCABULARY_SENSE_COLUMNS =
-    "vocabulary_id, meaning_en, meaning_vi"
+const VOCABULARY_SENSE_COLUMNS = `
+vocabulary_id,
+meaning_en,
+meaning_vi
+` as const
 
 const READING_WORD_LIMIT = 5
 
@@ -18,9 +44,7 @@ function escapeLikePattern(keyword: string) {
     return keyword.replace(/[%_]/g, "\\$&")
 }
 
-export async function findKanjiByCharacter(
-    character: string
-) {
+export async function findKanjiByCharacter(character: string) {
     return supabaseServer
         .from("kanjis")
         .select(KANJI_DETAIL_COLUMNS)

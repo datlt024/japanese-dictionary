@@ -8,11 +8,13 @@
 }
 
 .title {
-  margin: 0 0 18px;
+    margin: 0 0 18px;
 
-  color: #1f2937;
-  font-size: 22px;
-  font-weight: 800;
+    color: #1f2937;
+
+    font-size: 17px;
+    line-height: 1.35;
+    font-weight: 900;
 }
 
 .meaningList {
@@ -28,4 +30,8 @@
   color: #374151;
   font-size: 16px;
   line-height: 1.8;
+}
+.mutedText {
+    margin: 0;
+    color: #6b7280;
 }

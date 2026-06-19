@@ -26,7 +26,7 @@ export default function KanjiVocabularyByReadingSection({
     return (
         <section className={styles.section}>
             <h2 className={styles.title}>
-                4. Từ vựng theo cách đọc
+                Từ vựng theo cách đọc
             </h2>
 
             {examplesLoading ? (

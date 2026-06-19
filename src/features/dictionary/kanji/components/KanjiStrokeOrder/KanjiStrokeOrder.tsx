@@ -1,8 +1,11 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
+import { RotateCcw } from "lucide-react"
 
 import styles from "./KanjiStrokeOrder.module.css"
+
+import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
 
 type Props = {
     kanji: string
@@ -44,28 +47,6 @@ const CENTER = {
     y: 54.5,
 }
 
-const STROKE_SAFE_DISTANCE = 8
-const NUMBER_SAFE_DISTANCE = 11
-
-const NUMBER_OFFSET_CANDIDATES = [
-    { x: -12, y: -10 },
-    { x: 12, y: -10 },
-    { x: -12, y: 12 },
-    { x: 12, y: 12 },
-    { x: -18, y: 0 },
-    { x: 18, y: 0 },
-    { x: 0, y: -18 },
-    { x: 0, y: 18 },
-    { x: -22, y: -12 },
-    { x: 22, y: -12 },
-    { x: -22, y: 14 },
-    { x: 22, y: 14 },
-    { x: -28, y: 0 },
-    { x: 28, y: 0 },
-    { x: 0, y: -28 },
-    { x: 0, y: 28 },
-]
-
 function getKanjiSvgFileName(kanji: string) {
     const codePoint = kanji.codePointAt(0)
 
@@ -82,13 +63,6 @@ function roundCoordinate(value: number) {
 
 function clamp(value: number, min: number, max: number) {
     return Math.min(Math.max(value, min), max)
-}
-
-function getDistance(a: Point, b: Point) {
-    const dx = a.x - b.x
-    const dy = a.y - b.y
-
-    return Math.sqrt(dx * dx + dy * dy)
 }
 
 function parseFirstMovePoint(d: string): Point | null {
@@ -133,125 +107,16 @@ function parsePathPoints(d: string): Point[] {
     )
 }
 
-function normalizeNumberPoint(point: Point): Point {
-    return {
-        x: clamp(point.x, 8, 101),
-        y: clamp(point.y, 12, 101),
-    }
-}
-
-function getOutwardOffset(startPoint: Point) {
-    const dx = startPoint.x - CENTER.x
-    const dy = startPoint.y - CENTER.y
-    const distance = Math.sqrt(dx * dx + dy * dy) || 1
-
-    return {
-        x: (dx / distance) * 16,
-        y: (dy / distance) * 16,
-    }
-}
-
-function isTooCloseToStroke(
-    candidate: Point,
-    allStrokePoints: Point[]
-) {
-    return allStrokePoints.some(
-        (point) => getDistance(candidate, point) < STROKE_SAFE_DISTANCE
-    )
-}
-
-function isTooCloseToPlacedNumber(
-    candidate: Point,
-    placedNumbers: Point[]
-) {
-    return placedNumbers.some(
-        (point) => getDistance(candidate, point) < NUMBER_SAFE_DISTANCE
-    )
-}
-
-function getCandidateScore(
-    candidate: Point,
-    startPoint: Point,
-    allStrokePoints: Point[],
-    placedNumbers: Point[]
-) {
-    const nearestStrokeDistance = Math.min(
-        ...allStrokePoints.map((point) => getDistance(candidate, point))
-    )
-
-    const nearestNumberDistance =
-        placedNumbers.length > 0
-            ? Math.min(
-                ...placedNumbers.map((point) =>
-                    getDistance(candidate, point)
-                )
-            )
-            : 32
-
-    const distanceFromStart = getDistance(candidate, startPoint)
-
-    return (
-        nearestStrokeDistance * 2 +
-        nearestNumberDistance * 3 -
-        distanceFromStart * 0.5
-    )
-}
-
-function getNumberCandidates(startPoint: Point) {
-    const outwardOffset = getOutwardOffset(startPoint)
-
-    return [
-        {
-            x: startPoint.x + outwardOffset.x,
-            y: startPoint.y + outwardOffset.y,
-        },
-        ...NUMBER_OFFSET_CANDIDATES.map((offset) => ({
-            x: startPoint.x + offset.x,
-            y: startPoint.y + offset.y,
-        })),
-    ].map(normalizeNumberPoint)
-}
-
-function getNumberPosition(
-    pathD: string,
-    allStrokePoints: Point[],
-    placedNumbers: Point[]
-) {
+function getNumberPosition(pathD: string) {
     const startPoint =
         parseFirstMovePoint(pathD) ||
         parsePathPoints(pathD)[0] ||
         CENTER
 
-    const candidates = getNumberCandidates(startPoint)
-
-    const safeCandidate = candidates.find(
-        (candidate) =>
-            !isTooCloseToStroke(candidate, allStrokePoints) &&
-            !isTooCloseToPlacedNumber(candidate, placedNumbers)
-    )
-
-    if (safeCandidate) {
-        return safeCandidate
+    return {
+        x: clamp(startPoint.x - 3, 6, 103),
+        y: clamp(startPoint.y - 3, 8, 103),
     }
-
-    const sortedCandidates = [...candidates].sort((a, b) => {
-        return (
-            getCandidateScore(
-                b,
-                startPoint,
-                allStrokePoints,
-                placedNumbers
-            ) -
-            getCandidateScore(
-                a,
-                startPoint,
-                allStrokePoints,
-                placedNumbers
-            )
-        )
-    })
-
-    return sortedCandidates[0]
 }
 
 function extractStrokePaths(svgText: string): StrokePath[] {
@@ -274,20 +139,8 @@ function extractStrokePaths(svgText: string): StrokePath[] {
         }))
         .filter((path) => path.d)
 
-    const allStrokePoints = pathDataList.flatMap((path) =>
-        parsePathPoints(path.d)
-    )
-
-    const placedNumbers: Point[] = []
-
     return pathDataList.map((path) => {
-        const numberPosition = getNumberPosition(
-            path.d,
-            allStrokePoints,
-            placedNumbers
-        )
-
-        placedNumbers.push(numberPosition)
+        const numberPosition = getNumberPosition(path.d)
 
         return {
             id: path.id,
@@ -388,15 +241,18 @@ export default function KanjiStrokeOrder({
 
     return (
         <div className={getRootClassName(className)}>
-            <button
-                type="button"
-                className={styles.replayButton}
-                onClick={replay}
-                aria-label="Phát lại thứ tự nét"
-                title="Phát lại"
-            >
-                ↻
-            </button>
+            <div className={styles.replayAction}>
+                <ActionButtons
+                    items={[
+                        {
+                            key: "replay",
+                            label: "Phát lại thứ tự nét",
+                            icon: <RotateCcw />,
+                            onClick: replay,
+                        },
+                    ]}
+                />
+            </div>
 
             <svg
                 className={styles.svg}

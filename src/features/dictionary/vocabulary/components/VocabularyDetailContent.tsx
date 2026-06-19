@@ -12,7 +12,7 @@ import {
 
 import DictionaryCommunityCard
     from "@/shared/components/DictionaryCommunityCard/DictionaryCommunityCard"
-import VocabularyExampleSection from "./VocabularyExampleSection/VocabularyExampleSection"
+import ExampleSection from "../../../../shared/components/ExampleSection/ExampleSection"
 import VocabularyKanjiAnalysis from "./VocabularyKanjiAnalysis/VocabularyKanjiAnalysis"
 import VocabularyMeaningCards from "./VocabularyMeaningCards/VocabularyMeaningCards"
 import VocabularyRelatedWords from "./VocabularyRelatedWords/VocabularyRelatedWords"
@@ -151,7 +151,7 @@ export default function VocabularyDetailContent({
                     </div>
                 )}
 
-                <VocabularyExampleSection />
+                <ExampleSection />
             </section>
 
             <aside className={styles.detailSidebar}>

@@ -8,10 +8,8 @@ import type {
 import KanjiHeroCard from "./KanjiHeroCard/KanjiHeroCard"
 
 import KanjiMeaningSection from "./KanjiMeaningSection/KanjiMeaningSection"
-import KanjiReadingSection from "./KanjiReadingSection/KanjiReadingSection"
-import KanjiStrokeOrderSection from "./KanjiStrokeOrderSection/KanjiStrokeOrderSection"
 import KanjiVocabularyByReadingSection from "./KanjiVocabularyByReadingSection/KanjiVocabularyByReadingSection"
-import KanjiExampleSection from "./KanjiExampleSection/KanjiExampleSection"
+import ExampleSection from "@/shared/components/ExampleSection/ExampleSection"
 
 import KanjiAnalysisCard from "./sidebar/KanjiAnalysisCard"
 import KanjiMemoryTipCard from "./sidebar/KanjiMemoryTipCard"
@@ -77,10 +75,6 @@ export default function KanjiDetailContent({
                     language={language}
                 />
 
-                <KanjiReadingSection kanji={kanji} />
-
-                <KanjiStrokeOrderSection kanji={kanji} />
-
                 <KanjiVocabularyByReadingSection
                     language={language}
                     examplesLoading={examplesLoading}
@@ -88,7 +82,7 @@ export default function KanjiDetailContent({
                     onyomiGroups={onyomiGroups}
                 />
 
-                <KanjiExampleSection language={language} />
+                <ExampleSection />
             </main>
 
             {!embedded && (

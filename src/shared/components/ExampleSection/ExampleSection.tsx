@@ -1,6 +1,10 @@
 "use client"
 
-import styles from "./VocabularyExampleSection.module.css"
+import styles from "./ExampleSection.module.css"
+
+import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
+
+import { Volume2 } from "lucide-react"
 
 import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
 
@@ -19,7 +23,7 @@ const EXAMPLES = [
     },
 ]
 
-export default function VocabularyExampleSection() {
+export default function ExampleSection() {
     return (
         <div className={styles.detailSection}>
             <div className={styles.sectionHeaderRow}>
@@ -53,29 +57,22 @@ export default function VocabularyExampleSection() {
                         </div>
 
                         <div className={styles.exampleActions}>
-                            <button
-                                type="button"
-                                aria-label="Phát âm ví dụ"
-                                onClick={() =>
-                                    speakJapanese(example.jp)
-                                }
-                            >
-                                🔊
-                            </button>
-
-                            <button
-                                type="button"
-                                aria-label="Lưu ví dụ"
-                            >
-                                ☆
-                            </button>
-
-                            <button
-                                type="button"
-                                aria-label="Thêm tùy chọn"
-                            >
-                                ⋯
-                            </button>
+                            <ActionButtons
+                                items={[
+                                    {
+                                        key: "speak",
+                                        label: "Phát âm ví dụ",
+                                        icon: (
+                                            <Volume2 />
+                                        ),
+                                        onClick: () =>
+                                            speakJapanese(
+                                                example.jp,
+                                            ),
+                                    },
+                                ]}
+                                align="end"
+                            />
                         </div>
                     </div>
                 ))}

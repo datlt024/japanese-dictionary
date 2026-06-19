@@ -2,48 +2,126 @@ import styles from "./KanjiHeroCard.module.css"
 
 import type { Kanji } from "@/domain/kanji"
 
-import { DEFAULT_HAN_VIET } from "@/features/dictionary/kanji/constants/kanji-detail.constants"
+import KanjiStrokeOrder from "@/features/dictionary/kanji/components/KanjiStrokeOrder/KanjiStrokeOrder"
+import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
+
+import {
+    BookOpen,
+    FilePenLine,
+    Star,
+} from "lucide-react"
+
+import {
+    DEFAULT_KUNYOMI,
+    DEFAULT_ONYOMI,
+} from "@/features/dictionary/kanji/constants/kanji-detail.constants"
 
 import {
     formatKanjiJlpt,
-    speakJapanese,
+    splitKanjiReadings,
 } from "@/features/dictionary/kanji/utils"
 
 type Props = {
     kanji: Kanji
 }
 
+function formatHanViet(value?: string | null) {
+    if (!value) {
+        return "Đang cập nhật"
+    }
+
+    return value
+        .split(/[;；・,、]/)
+        .map((item) => item.trim())
+        .filter(Boolean)
+        .join("・")
+}
+
 export default function KanjiHeroCard({ kanji }: Props) {
+    const onyomi = splitKanjiReadings(kanji.onyomi)
+    const kunyomi = splitKanjiReadings(kanji.kunyomi)
+
+    const displayOnyomi =
+        onyomi.length > 0 ? onyomi : DEFAULT_ONYOMI
+
+    const displayKunyomi =
+        kunyomi.length > 0 ? kunyomi : DEFAULT_KUNYOMI
+
+    const displayHanViet = formatHanViet(kanji.han_viet)
+
     return (
-        <section className={styles.heroCard}>
-            <div className={styles.heroTop}>
-                <div className={styles.heroKanjiWrap}>
-                    <h1 className={styles.heroKanji}>
-                        {kanji.kanji}
-                    </h1>
+        <div className={styles.detailHeader}>
+            <div className={styles.headerContent}>
+                <div className={styles.wordBlock}>
+                    <div className={styles.wordRow}>
+                        <h1 className={styles.detailWord}>
+                            {kanji.kanji}
+                        </h1>
+                    </div>
 
-                    <button
-                        type="button"
-                        className={styles.soundButton}
-                        onClick={() => speakJapanese(kanji.kanji)}
-                        aria-label="Phát âm chữ Hán"
-                        title="Phát âm"
-                    >
-                        🔊
-                    </button>
+                    <div className={styles.hanVietBlock}>
+                        <span>Âm Hán Việt</span>
+
+                        <strong>「{displayHanViet}」</strong>
+                    </div>
+
+                    <div className={styles.readingBox}>
+                        <p className={styles.readingTitle}>
+                            Phát âm
+                        </p>
+
+                        <div className={styles.readingItem}>
+                            <span>Kunyomi</span>
+                            <strong>
+                                {displayKunyomi.join("；")}
+                            </strong>
+                        </div>
+
+                        <div className={styles.readingItem}>
+                            <span>Onyomi</span>
+                            <strong>
+                                {displayOnyomi.join("；")}
+                            </strong>
+                        </div>
+                    </div>
+
+                    <div className={styles.badgeRow}>
+                        <span className={styles.neutralBadge}>
+                            {kanji.stroke_count || 10} nét
+                        </span>
+
+                        <span className={styles.levelBadge}>
+                            {formatKanjiJlpt(kanji.jlpt)}
+                        </span>
+                    </div>
                 </div>
 
-                <div className={styles.tagList}>
-                    <span>{formatKanjiJlpt(kanji.jlpt)}</span>
-                    <span>{kanji.stroke_count || 10} nét</span>
-                    <span>Thường dùng</span>
+                <div className={styles.headerAside}>
+                    <ActionButtons
+                        items={[
+                            {
+                                key: "practice",
+                                label: "Luyện viết kanji",
+                                icon: <BookOpen />,
+                            },
+                            {
+                                key: "note",
+                                label: "Ghi chú",
+                                icon: <FilePenLine />,
+                            },
+                            {
+                                key: "bookmark",
+                                label: "Thêm vào sổ tay",
+                                icon: <Star />,
+                            },
+                        ]}
+                    />
+
+                    <div className={styles.strokeBox}>
+                        <KanjiStrokeOrder kanji={kanji.kanji} />
+                    </div>
                 </div>
             </div>
-
-            <div className={styles.hanVietBlock}>
-                <span>Âm Hán Việt</span>
-                <strong>{DEFAULT_HAN_VIET.join("・")}</strong>
-            </div>
-        </section>
+        </div>
     )
 }

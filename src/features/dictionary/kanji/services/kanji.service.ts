@@ -18,19 +18,17 @@ type VocabularySummary = Pick<
     "id" | "primary_word" | "primary_kana"
 >
 
-type VocabularySense = {
-    vocabulary_id: number
-    meaning_en: string | null
-    meaning_vi: string | null
-}
+type VocabularySense = Pick<
+    Database["public"]["Tables"]["vocabulary_senses"]["Row"],
+    "vocabulary_id" | "meaning_en" | "meaning_vi"
+>
 
-type KanjiVocabularyLink = {
-    vocabulary_id: number
-    priority: number | null
-}
+type KanjiVocabularyLink = Pick<
+    Database["public"]["Tables"]["kanji_vocabulary_links"]["Row"],
+    "vocabulary_id" | "priority"
+>
 
 const kanjiCache = new Map<string, Kanji | null>()
-
 const readingGroupCache = new Map<string, KanjiReadingGroup[]>()
 
 const meaningCache = new Map<
@@ -45,6 +43,10 @@ function getFirstSenseByVocabularyId(senses: VocabularySense[]) {
     const map = new Map<number, VocabularySense>()
 
     for (const sense of senses) {
+        if (sense.vocabulary_id === null) {
+            continue
+        }
+
         if (!map.has(sense.vocabulary_id)) {
             map.set(sense.vocabulary_id, sense)
         }
@@ -64,25 +66,14 @@ async function attachMeanings(
         const { data: senses, error } = await findVocabularySenses(ids)
 
         if (error) {
-            console.error(error)
+            console.error("findVocabularySenses error", {
+                message: error.message,
+                details: error.details,
+                hint: error.hint,
+                code: error.code,
+            })
         } else {
-            const validSenses: VocabularySense[] = (senses || []).flatMap(
-                (sense) => {
-                    if (sense.vocabulary_id === null) {
-                        return []
-                    }
-
-                    return [
-                        {
-                            vocabulary_id: sense.vocabulary_id,
-                            meaning_en: sense.meaning_en,
-                            meaning_vi: sense.meaning_vi,
-                        },
-                    ]
-                }
-            )
-
-            const senseMap = getFirstSenseByVocabularyId(validSenses)
+            const senseMap = getFirstSenseByVocabularyId(senses || [])
 
             for (const id of ids) {
                 const sense = senseMap.get(id)
@@ -116,7 +107,13 @@ async function getVocabularyIdsByKanji(
         await findKanjiByCharacter(character)
 
     if (kanjiError) {
-        console.error(kanjiError)
+        console.error("findKanjiByCharacter error", {
+            message: kanjiError.message,
+            details: kanjiError.details,
+            hint: kanjiError.hint,
+            code: kanjiError.code,
+        })
+
         return []
     }
 
@@ -124,22 +121,20 @@ async function getVocabularyIdsByKanji(
         return []
     }
 
-    const { data, error } = await findKanjiLinks(Number(kanji.id), limit)
+    const { data, error } = await findKanjiLinks(kanji.id, limit)
 
     if (error) {
-        console.error(error)
+        console.error("findKanjiLinks error", {
+            message: error.message,
+            details: error.details,
+            hint: error.hint,
+            code: error.code,
+        })
+
         return []
     }
 
-    return (data || [])
-        .filter(
-            (item): item is KanjiVocabularyLink =>
-                item.vocabulary_id !== null
-        )
-        .map((item) => ({
-            vocabulary_id: item.vocabulary_id,
-            priority: item.priority,
-        }))
+    return data || []
 }
 
 async function getVocabulariesByIds(
@@ -152,7 +147,13 @@ async function getVocabulariesByIds(
     const { data, error } = await findVocabulariesByIds(vocabularyIds)
 
     if (error) {
-        console.error(error)
+        console.error("findVocabulariesByIds error", {
+            message: error.message,
+            details: error.details,
+            hint: error.hint,
+            code: error.code,
+        })
+
         return []
     }
 
@@ -186,7 +187,13 @@ export async function getKanjiByCharacter(
     const { data, error } = await findKanjiByCharacter(character)
 
     if (error) {
-        console.error(error)
+        console.error("findKanjiByCharacter error", {
+            message: error.message,
+            details: error.details,
+            hint: error.hint,
+            code: error.code,
+        })
+
         kanjiCache.set(cacheKey, null)
         return null
     }
@@ -200,11 +207,8 @@ export async function getWordsByKanji(
     character: string
 ): Promise<KanjiRelatedWord[]> {
     const links = await getVocabularyIdsByKanji(character, 20)
-
     const vocabularyIds = links.map((item) => item.vocabulary_id)
-
     const vocabularyRows = await getVocabulariesByIds(vocabularyIds)
-
     const words = await attachMeanings(vocabularyRows)
 
     return sortWordsByLinkOrder(words, links)
@@ -246,7 +250,13 @@ export async function getWordsByReadingGroups(
             )
 
             if (error) {
-                console.error(error)
+                console.error("findReadingWords error", {
+                    message: error.message,
+                    details: error.details,
+                    hint: error.hint,
+                    code: error.code,
+                })
+
                 return null
             }
 

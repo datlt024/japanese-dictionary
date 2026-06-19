@@ -12,8 +12,9 @@
 
     color: #1f2937;
 
-    font-size: 22px;
-    font-weight: 800;
+    font-size: 17px;
+    line-height: 1.35;
+    font-weight: 900;
 }
 
 .mutedText {

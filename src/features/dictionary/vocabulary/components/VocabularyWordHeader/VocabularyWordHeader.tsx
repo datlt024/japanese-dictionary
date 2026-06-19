@@ -2,6 +2,14 @@
 
 import styles from "./VocabularyWordHeader.module.css"
 
+import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
+
+import {
+    Star,
+    FilePenLine,
+    Volume2,
+} from "lucide-react"
+
 import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
 
 import type {
@@ -14,39 +22,6 @@ type Props = {
     meaning: string
     hasSuruVerb: boolean
     verbGroupLabel: string | null
-}
-
-function SpeakerIcon() {
-    return (
-        <svg
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            aria-hidden="true"
-        >
-            <path
-                d="M4 9.5V14.5H8L13 19V5L8 9.5H4Z"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinejoin="round"
-            />
-
-            <path
-                d="M16 9C17 10 17.5 11 17.5 12C17.5 13 17 14 16 15"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-            />
-
-            <path
-                d="M18.5 6.5C20 8 21 10 21 12C21 14 20 16 18.5 17.5"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-            />
-        </svg>
-    )
 }
 
 function WordWithFurigana({
@@ -107,15 +82,6 @@ export default function VocabularyWordHeader({
                             ruby={ruby}
                             fallback={vocabulary.word}
                         />
-
-                        <button
-                            type="button"
-                            className={styles.soundButton}
-                            aria-label="Phát âm"
-                            onClick={handleSpeak}
-                        >
-                            <SpeakerIcon />
-                        </button>
                     </div>
 
                     <div className={styles.badgeRow}>
@@ -150,19 +116,26 @@ export default function VocabularyWordHeader({
                 </div>
 
                 <div className={styles.headerAside}>
-                    <div className={styles.detailActions}>
-                        <button type="button" aria-label="Lưu">
-                            ☆
-                        </button>
-
-                        <button type="button" aria-label="Thêm">
-                            ＋
-                        </button>
-
-                        <button type="button" aria-label="Menu">
-                            ☷
-                        </button>
-                    </div>
+                    <ActionButtons
+                        items={[
+                            {
+                                key: "speak",
+                                label: "Phát âm",
+                                icon: <Volume2 />,
+                                onClick: handleSpeak,
+                            },
+                            {
+                                key: "note",
+                                label: "Ghi chú",
+                                icon: <FilePenLine />,
+                            },
+                            {
+                                key: "bookmark",
+                                label: "Thêm vào sổ tay",
+                                icon: <Star />,
+                            },
+                        ]}
+                    />
 
                     <div className={styles.pitchBox}>
                         <span className={styles.pitchLabel}>

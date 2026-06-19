@@ -83,71 +83,6 @@ export type Database = {
         }
         Relationships: []
       }
-      kanji_radicals: {
-        Row: {
-          created_at: string | null
-          id: number
-          meaning_en: string | null
-          meaning_vi: string | null
-          radical: string
-          stroke_count: number | null
-        }
-        Insert: {
-          created_at?: string | null
-          id?: number
-          meaning_en?: string | null
-          meaning_vi?: string | null
-          radical: string
-          stroke_count?: number | null
-        }
-        Update: {
-          created_at?: string | null
-          id?: number
-          meaning_en?: string | null
-          meaning_vi?: string | null
-          radical?: string
-          stroke_count?: number | null
-        }
-        Relationships: []
-      }
-      kanji_reading_examples: {
-        Row: {
-          created_at: string | null
-          id: number
-          kanji: string
-          priority: number | null
-          reading: string
-          reading_type: string
-          vocabulary_id: number
-        }
-        Insert: {
-          created_at?: string | null
-          id?: number
-          kanji: string
-          priority?: number | null
-          reading: string
-          reading_type: string
-          vocabulary_id: number
-        }
-        Update: {
-          created_at?: string | null
-          id?: number
-          kanji?: string
-          priority?: number | null
-          reading?: string
-          reading_type?: string
-          vocabulary_id?: number
-        }
-        Relationships: [
-          {
-            foreignKeyName: "kanji_reading_examples_vocabulary_id_fkey"
-            columns: ["vocabulary_id"]
-            isOneToOne: false
-            referencedRelation: "vocabularies"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
       kanji_vocabulary_links: {
         Row: {
           id: number
@@ -189,6 +124,7 @@ export type Database = {
           created_at: string | null
           frequency: number | null
           grade: number | null
+          han_viet: string | null
           id: number
           jlpt: number | null
           kanji: string
@@ -196,7 +132,10 @@ export type Database = {
           meaning_en: string | null
           meaning_vi: string | null
           onyomi: string | null
-          radical_id: number | null
+          radical: string | null
+          radical_name_ja: string | null
+          radical_name_vi: string | null
+          radical_number: number | null
           stroke_count: number | null
           unicode: string | null
           updated_at: string | null
@@ -205,6 +144,7 @@ export type Database = {
           created_at?: string | null
           frequency?: number | null
           grade?: number | null
+          han_viet?: string | null
           id?: never
           jlpt?: number | null
           kanji: string
@@ -212,7 +152,10 @@ export type Database = {
           meaning_en?: string | null
           meaning_vi?: string | null
           onyomi?: string | null
-          radical_id?: number | null
+          radical?: string | null
+          radical_name_ja?: string | null
+          radical_name_vi?: string | null
+          radical_number?: number | null
           stroke_count?: number | null
           unicode?: string | null
           updated_at?: string | null
@@ -221,6 +164,7 @@ export type Database = {
           created_at?: string | null
           frequency?: number | null
           grade?: number | null
+          han_viet?: string | null
           id?: never
           jlpt?: number | null
           kanji?: string
@@ -228,20 +172,15 @@ export type Database = {
           meaning_en?: string | null
           meaning_vi?: string | null
           onyomi?: string | null
-          radical_id?: number | null
+          radical?: string | null
+          radical_name_ja?: string | null
+          radical_name_vi?: string | null
+          radical_number?: number | null
           stroke_count?: number | null
           unicode?: string | null
           updated_at?: string | null
         }
-        Relationships: [
-          {
-            foreignKeyName: "fk_kanjis_radical"
-            columns: ["radical_id"]
-            isOneToOne: false
-            referencedRelation: "kanji_radicals"
-            referencedColumns: ["id"]
-          },
-        ]
+        Relationships: []
       }
       vocabularies: {
         Row: {
@@ -328,92 +267,6 @@ export type Database = {
         Relationships: [
           {
             foreignKeyName: "vocabulary_collocations_vocabulary_id_fkey"
-            columns: ["vocabulary_id"]
-            isOneToOne: false
-            referencedRelation: "vocabularies"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      vocabulary_examples: {
-        Row: {
-          created_at: string | null
-          id: number
-          quality_status: string | null
-          ruby: Json | null
-          sense_id: number | null
-          sentence_jp: string
-          sentence_vi: string | null
-          source: string | null
-          vocabulary_id: number | null
-        }
-        Insert: {
-          created_at?: string | null
-          id?: number
-          quality_status?: string | null
-          ruby?: Json | null
-          sense_id?: number | null
-          sentence_jp: string
-          sentence_vi?: string | null
-          source?: string | null
-          vocabulary_id?: number | null
-        }
-        Update: {
-          created_at?: string | null
-          id?: number
-          quality_status?: string | null
-          ruby?: Json | null
-          sense_id?: number | null
-          sentence_jp?: string
-          sentence_vi?: string | null
-          source?: string | null
-          vocabulary_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "vocabulary_examples_sense_id_fkey"
-            columns: ["sense_id"]
-            isOneToOne: false
-            referencedRelation: "vocabulary_senses"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "vocabulary_examples_vocabulary_id_fkey"
-            columns: ["vocabulary_id"]
-            isOneToOne: false
-            referencedRelation: "vocabularies"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      vocabulary_frequencies: {
-        Row: {
-          created_at: string | null
-          frequency_rank: number | null
-          frequency_score: number | null
-          id: number
-          source: string
-          vocabulary_id: number | null
-        }
-        Insert: {
-          created_at?: string | null
-          frequency_rank?: number | null
-          frequency_score?: number | null
-          id?: number
-          source: string
-          vocabulary_id?: number | null
-        }
-        Update: {
-          created_at?: string | null
-          frequency_rank?: number | null
-          frequency_score?: number | null
-          id?: number
-          source?: string
-          vocabulary_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "vocabulary_frequencies_vocabulary_id_fkey"
             columns: ["vocabulary_id"]
             isOneToOne: false
             referencedRelation: "vocabularies"
@@ -724,6 +577,9 @@ export type Database = {
       }
       show_limit: { Args: never; Returns: number }
       show_trgm: { Args: { "": string }; Returns: string[] }
+      update_vocabulary_ruby_bulk:
+      | { Args: { payload: Json }; Returns: number }
+      | { Args: { force_update?: boolean; payload: Json }; Returns: number }
       update_vocabulary_ruby_missing: {
         Args: { payload: Json }
         Returns: number
@@ -744,116 +600,116 @@ type DefaultSchema = DatabaseWithoutInternals[Extract<keyof Database, "public">]
 
 export type Tables<
   DefaultSchemaTableNameOrOptions extends
-    | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
-    | { schema: keyof DatabaseWithoutInternals },
+  | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
+  | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
-        DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
-    : never = never,
+  ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+    DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
+  : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
-      DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
+    DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
       Row: infer R
     }
-    ? R
-    : never
+  ? R
+  : never
   : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema["Tables"] &
-        DefaultSchema["Views"])
-    ? (DefaultSchema["Tables"] &
-        DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
-        Row: infer R
-      }
-      ? R
-      : never
-    : never
+    DefaultSchema["Views"])
+  ? (DefaultSchema["Tables"] &
+    DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
+      Row: infer R
+    }
+  ? R
+  : never
+  : never
 
 export type TablesInsert<
   DefaultSchemaTableNameOrOptions extends
-    | keyof DefaultSchema["Tables"]
-    | { schema: keyof DatabaseWithoutInternals },
+  | keyof DefaultSchema["Tables"]
+  | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
-    : never = never,
+  ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+  : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
-      Insert: infer I
-    }
-    ? I
-    : never
+    Insert: infer I
+  }
+  ? I
+  : never
   : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
-    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
-        Insert: infer I
-      }
-      ? I
-      : never
-    : never
+  ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+    Insert: infer I
+  }
+  ? I
+  : never
+  : never
 
 export type TablesUpdate<
   DefaultSchemaTableNameOrOptions extends
-    | keyof DefaultSchema["Tables"]
-    | { schema: keyof DatabaseWithoutInternals },
+  | keyof DefaultSchema["Tables"]
+  | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
-    : never = never,
+  ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+  : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
-      Update: infer U
-    }
-    ? U
-    : never
+    Update: infer U
+  }
+  ? U
+  : never
   : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
-    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
-        Update: infer U
-      }
-      ? U
-      : never
-    : never
+  ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+    Update: infer U
+  }
+  ? U
+  : never
+  : never
 
 export type Enums<
   DefaultSchemaEnumNameOrOptions extends
-    | keyof DefaultSchema["Enums"]
-    | { schema: keyof DatabaseWithoutInternals },
+  | keyof DefaultSchema["Enums"]
+  | { schema: keyof DatabaseWithoutInternals },
   EnumName extends DefaultSchemaEnumNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
-    : never = never,
+  ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
+  : never = never,
 > = DefaultSchemaEnumNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
   : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
-    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
-    : never
+  ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+  : never
 
 export type CompositeTypes<
   PublicCompositeTypeNameOrOptions extends
-    | keyof DefaultSchema["CompositeTypes"]
-    | { schema: keyof DatabaseWithoutInternals },
+  | keyof DefaultSchema["CompositeTypes"]
+  | { schema: keyof DatabaseWithoutInternals },
   CompositeTypeName extends PublicCompositeTypeNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-    ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
-    : never = never,
+  ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
+  : never = never,
 > = PublicCompositeTypeNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
   : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
-    ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
-    : never
+  ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
+  : never
 
 export const Constants = {
   public: {
