@@ -401,7 +401,7 @@ export default function SearchHubDropdown({
                                     className={styles.searchHubItem}
                                 >
                                     <div>
-                                        <strong>{item.pattern}</strong>
+                                        <strong>{item.display_pattern ?? item.pattern}</strong>
 
                                         <span>
                                             {item.jlpt_level || "-"}

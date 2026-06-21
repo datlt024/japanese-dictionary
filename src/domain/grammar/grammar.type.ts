@@ -14,16 +14,28 @@ export type GrammarFormation = {
     patterns: GrammarFormationPattern[]
 }
 
-export type GrammarRuby = {
-    text: string
-    reading: string | null
+export type GrammarRubyItem = {
+    base: string
+    reading: string
 }
 
 export type GrammarExample = {
-    japanese: string
-    ruby?: GrammarRuby[]
-    meaning_vi?: string
-    meaning_en?: string
+    jp: string
+    vi: string
+    ruby: GrammarRubyItem[]
+}
+
+export type GrammarSense = {
+    sense_index: number
+    meaning_vi: string
+    explanation_vi: string | null
+    nuance_vi: string | null
+}
+
+export type GrammarSpecialCase = {
+    from: string
+    to: string
+    note?: string | null
 }
 
 export type GrammarDifference = {
@@ -35,6 +47,7 @@ export type GrammarPoint = {
     id: number
 
     pattern: string
+    display_pattern: string | null
     reading: string | null
 
     jlpt_level: "N5" | "N4" | "N3" | "N2" | "N1" | null
@@ -47,8 +60,12 @@ export type GrammarPoint = {
     explanation_en: string | null
     nuance_vi: string | null
 
+    register: string | null
+
     formation: GrammarFormation[]
     examples: GrammarExample[]
+    senses: GrammarSense[]
+    special_cases: GrammarSpecialCase[]
 
     similar_grammar: string[]
     differences: GrammarDifference[]

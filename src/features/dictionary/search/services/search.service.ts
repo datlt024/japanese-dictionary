@@ -66,12 +66,9 @@ async function searchKanjiResult(
 
 async function searchGrammarResult(
     keyword: string,
-    language: DictionaryLanguage
+    _language: DictionaryLanguage
 ): Promise<GrammarSearchItem[]> {
-    const { data, error } = await searchGrammarsByKeyword(
-        keyword,
-        language
-    )
+    const { data, error } = await searchGrammarsByKeyword(keyword)
 
     if (error) {
         console.error("Grammar search error:", error)

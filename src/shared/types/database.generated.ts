@@ -75,6 +75,7 @@ export type Database = {
           grammar_id: number
           id: number
           japanese: string
+          ruby: Json
           translation_vi: string | null
         }
         Insert: {
@@ -82,6 +83,7 @@ export type Database = {
           grammar_id: number
           id?: never
           japanese: string
+          ruby?: Json
           translation_vi?: string | null
         }
         Update: {
@@ -89,6 +91,7 @@ export type Database = {
           grammar_id?: number
           id?: never
           japanese?: string
+          ruby?: Json
           translation_vi?: string | null
         }
         Relationships: [
@@ -158,6 +161,44 @@ export type Database = {
         Relationships: [
           {
             foreignKeyName: "grammar_notes_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_senses: {
+        Row: {
+          created_at: string
+          explanation_vi: string | null
+          grammar_id: number
+          id: number
+          meaning_vi: string
+          nuance_vi: string | null
+          sense_index: number
+        }
+        Insert: {
+          created_at?: string
+          explanation_vi?: string | null
+          grammar_id: number
+          id?: number
+          meaning_vi: string
+          nuance_vi?: string | null
+          sense_index: number
+        }
+        Update: {
+          created_at?: string
+          explanation_vi?: string | null
+          grammar_id?: number
+          id?: number
+          meaning_vi?: string
+          nuance_vi?: string | null
+          sense_index?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_senses_grammar_id_fkey"
             columns: ["grammar_id"]
             isOneToOne: false
             referencedRelation: "grammars"
@@ -278,61 +319,103 @@ export type Database = {
       }
       grammars: {
         Row: {
+          ai_status: string | null
+          common_pairs: Json | null
           created_at: string | null
+          differences: Json | null
+          display_pattern: string | null
+          examples: Json | null
           explanation_en: string | null
           explanation_vi: string | null
+          formation: Json | null
           frequency: string | null
           id: number
           is_common: boolean | null
           jlpt_level: string
           meaning_en: string | null
           meaning_vi: string
+          notes: Json | null
           nuance_vi: string | null
           pattern: string
           reading: string | null
+          reading_rules: Json | null
+          register: string | null
+          short_forms: Json | null
           short_meaning_vi: string | null
+          similar_grammar: string[] | null
           slug: string
           sort_order: number | null
           source_id: string
+          special_cases: Json
+          tags: string[] | null
           updated_at: string | null
+          variants: Json | null
         }
         Insert: {
+          ai_status?: string | null
+          common_pairs?: Json | null
           created_at?: string | null
+          differences?: Json | null
+          display_pattern?: string | null
+          examples?: Json | null
           explanation_en?: string | null
           explanation_vi?: string | null
+          formation?: Json | null
           frequency?: string | null
           id?: never
           is_common?: boolean | null
           jlpt_level: string
           meaning_en?: string | null
           meaning_vi: string
+          notes?: Json | null
           nuance_vi?: string | null
           pattern: string
           reading?: string | null
+          reading_rules?: Json | null
+          register?: string | null
+          short_forms?: Json | null
           short_meaning_vi?: string | null
+          similar_grammar?: string[] | null
           slug: string
           sort_order?: number | null
           source_id: string
+          special_cases?: Json
+          tags?: string[] | null
           updated_at?: string | null
+          variants?: Json | null
         }
         Update: {
+          ai_status?: string | null
+          common_pairs?: Json | null
           created_at?: string | null
+          differences?: Json | null
+          display_pattern?: string | null
+          examples?: Json | null
           explanation_en?: string | null
           explanation_vi?: string | null
+          formation?: Json | null
           frequency?: string | null
           id?: never
           is_common?: boolean | null
           jlpt_level?: string
           meaning_en?: string | null
           meaning_vi?: string
+          notes?: Json | null
           nuance_vi?: string | null
           pattern?: string
           reading?: string | null
+          reading_rules?: Json | null
+          register?: string | null
+          short_forms?: Json | null
           short_meaning_vi?: string | null
+          similar_grammar?: string[] | null
           slug?: string
           sort_order?: number | null
           source_id?: string
+          special_cases?: Json
+          tags?: string[] | null
           updated_at?: string | null
+          variants?: Json | null
         }
         Relationships: []
       }

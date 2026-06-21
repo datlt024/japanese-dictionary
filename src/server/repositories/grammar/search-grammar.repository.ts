@@ -1,7 +1,5 @@
 import { supabaseServer } from "@/server/supabase/server"
 
-import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
-
 const SEARCH_GRAMMAR_LIMIT = 20
 
 const SEARCH_GRAMMAR_COLUMNS = `
@@ -9,6 +7,7 @@ const SEARCH_GRAMMAR_COLUMNS = `
     source_id,
     slug,
     pattern,
+    display_pattern,
     reading,
     jlpt_level,
     meaning_vi,
@@ -21,28 +20,19 @@ const SEARCH_GRAMMAR_COLUMNS = `
     sort_order
 `
 
-function createEmptyRepositoryResult<T>() {
-    return Promise.resolve({
-        data: [] as T[],
-        error: null,
-    })
-}
-
 function escapeLikePattern(value: string) {
     return value.replace(/[%_]/g, "\\$&")
 }
 
-export async function searchGrammarsByKeyword(
-    keyword: string,
-    _language: DictionaryLanguage = "vi"
-) {
+export async function searchGrammarsByKeyword(keyword: string) {
     const value = escapeLikePattern(keyword.trim())
 
     if (!value) {
-        return createEmptyRepositoryResult()
+        return { data: [], error: null }
     }
 
-    return (supabaseServer.from("grammars") as any)
+    return supabaseServer
+        .from("grammars")
         .select(SEARCH_GRAMMAR_COLUMNS)
         .or(
             [

@@ -1,77 +1,40 @@
-"use client"
-
-import { useEffect, useState } from "react"
-import { useParams, useSearchParams } from "next/navigation"
-
-import type { GrammarPoint } from "@/domain/grammar"
+import { notFound } from "next/navigation"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 
 import GrammarDetailContent from "@/features/dictionary/grammar/components/GrammarDetailContent"
-
 import {
     getGrammarPointById,
     searchGrammarPoints,
 } from "@/features/dictionary/grammar/services/grammar.service"
 
-export default function GrammarDetailPage() {
-    const params = useParams<{ id: string }>()
-    const searchParams = useSearchParams()
+type Props = {
+    params: Promise<{ id: string }>
+    searchParams: Promise<{ q?: string }>
+}
 
-    const id = params.id
-    const keywordFromUrl = searchParams.get("q") || ""
+export default async function GrammarDetailPage({ params, searchParams }: Props) {
+    const { id } = await params
+    const { q: keyword = "" } = await searchParams
 
-    const [grammar, setGrammar] = useState<GrammarPoint | null>(null)
-    const [relatedGrammars, setRelatedGrammars] = useState<GrammarPoint[]>([])
-    const [loading, setLoading] = useState(true)
+    const grammar = await getGrammarPointById(id)
 
-    useEffect(() => {
-        async function fetchGrammar() {
-            setLoading(true)
+    if (!grammar) notFound()
 
-            try {
-                const data = await getGrammarPointById(id)
-
-                if (!data) {
-                    setGrammar(null)
-                    setRelatedGrammars([])
-                    return
-                }
-
-                setGrammar(data)
-
-                const related = await searchGrammarPoints(
-                    keywordFromUrl || data.pattern
-                )
-
-                setRelatedGrammars(
-                    related.filter((item) => item.id !== data.id)
-                )
-            } catch (error) {
-                console.error("Failed to fetch grammar:", error)
-                setGrammar(null)
-                setRelatedGrammars([])
-            } finally {
-                setLoading(false)
-            }
-        }
-
-        if (id) {
-            fetchGrammar()
-        }
-    }, [id, keywordFromUrl])
+    const relatedGrammars = (
+        await searchGrammarPoints(keyword || grammar.pattern)
+    ).filter((g) => g.id !== grammar.id)
 
     return (
         <AppLayout
             title="Tra cứu"
-            searchKeyword={keywordFromUrl || grammar?.pattern || ""}
+            searchKeyword={keyword || grammar.pattern}
             activeSearchTab="grammar"
         >
             <GrammarDetailContent
                 grammar={grammar}
                 relatedGrammars={relatedGrammars}
-                loading={loading}
-                keyword={keywordFromUrl}
+                keyword={keyword}
             />
         </AppLayout>
     )

@@ -15,6 +15,7 @@ export type GrammarSearchItem = Pick<
     Tables<"grammars">,
     | "id"
     | "pattern"
+    | "display_pattern"
     | "reading"
     | "jlpt_level"
     | "meaning_vi"

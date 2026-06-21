@@ -44,7 +44,7 @@ export default function RelatedGrammarSection({
                             )}`}
                             className={styles.relatedPill}
                         >
-                            {item.pattern}
+                            {item.display_pattern ?? item.pattern}
                         </Link>
                     ))}
             </div>

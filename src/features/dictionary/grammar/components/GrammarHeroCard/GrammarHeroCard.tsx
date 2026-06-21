@@ -20,12 +20,14 @@ export default function GrammarHeroCard({ grammar }: Props) {
         speakJapanese(grammar.pattern)
     }
 
+    const displayPattern = grammar.display_pattern ?? grammar.pattern
+
     return (
         <section className={styles.heroCard}>
             <div className={styles.heroMain}>
                 <div>
                     <div className={styles.patternRow}>
-                        <h1>{grammar.pattern}</h1>
+                        <h1>{displayPattern}</h1>
                     </div>
 
                     <div className={styles.badgeRow}>
@@ -48,6 +50,15 @@ export default function GrammarHeroCard({ grammar }: Props) {
                 </div>
 
                 <div className={styles.heroActions}>
+                    <button
+                        type="button"
+                        className={styles.actionButton}
+                        aria-label="Phát âm"
+                        onClick={handleSpeak}
+                    >
+                        <Volume2 size={18} aria-hidden="true" />
+                    </button>
+
                     <button
                         type="button"
                         className={styles.actionButton}

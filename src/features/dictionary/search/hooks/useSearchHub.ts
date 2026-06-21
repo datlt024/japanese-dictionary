@@ -37,6 +37,7 @@ export type SearchKanji = {
 export type SearchGrammar = {
     id: number
     pattern: string
+    display_pattern?: string | null
     reading?: string | null
     jlpt_level: string | null
     meaning_vi: string | null

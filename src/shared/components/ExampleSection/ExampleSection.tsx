@@ -1,29 +1,51 @@
 "use client"
 
-import styles from "./ExampleSection.module.css"
-
-import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
-
 import { Volume2 } from "lucide-react"
 
+import type { GrammarExample, GrammarRubyItem } from "@/domain/grammar"
+
+import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
 import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
 
-const EXAMPLES = [
-    {
-        jp: "日本語を勉強し始めて、もう半年になります。",
-        vi: "Tôi đã bắt đầu học tiếng Nhật và đã được nửa năm rồi.",
-    },
-    {
-        jp: "もっと勉強して、試験に合格したいです。",
-        vi: "Tôi muốn học nhiều hơn để vượt qua kỳ thi.",
-    },
-    {
-        jp: "彼は図書館で一生懸命勉強しています。",
-        vi: "Anh ấy đang học rất chăm chỉ ở thư viện.",
-    },
-]
+import styles from "./ExampleSection.module.css"
 
-export default function ExampleSection() {
+type Props = {
+    examples?: GrammarExample[]
+}
+
+function renderWithRuby(text: string, ruby: GrammarRubyItem[]) {
+    if (!ruby || ruby.length === 0) {
+        return text
+    }
+
+    const result: React.ReactNode[] = []
+    let remaining = text
+    let key = 0
+
+    while (remaining.length > 0) {
+        const match = ruby.find((item) => remaining.startsWith(item.base))
+
+        if (match) {
+            result.push(
+                <ruby key={key++}>
+                    {match.base}
+                    <rt>{match.reading}</rt>
+                </ruby>
+            )
+            remaining = remaining.slice(match.base.length)
+        } else {
+            result.push(remaining[0])
+            remaining = remaining.slice(1)
+            key++
+        }
+    }
+
+    return result
+}
+
+export default function ExampleSection({ examples = [] }: Props) {
+    if (examples.length === 0) return null
+
     return (
         <div className={styles.detailSection}>
             <div className={styles.sectionHeaderRow}>
@@ -37,7 +59,7 @@ export default function ExampleSection() {
             </div>
 
             <div className={styles.exampleList}>
-                {EXAMPLES.map((example, index) => (
+                {examples.map((example, index) => (
                     <div
                         key={example.jp}
                         className={styles.exampleRow}
@@ -48,7 +70,7 @@ export default function ExampleSection() {
 
                         <div className={styles.exampleContent}>
                             <p className={styles.exampleJp}>
-                                {example.jp}
+                                {renderWithRuby(example.jp, example.ruby)}
                             </p>
 
                             <p className={styles.exampleVi}>
@@ -62,13 +84,9 @@ export default function ExampleSection() {
                                     {
                                         key: "speak",
                                         label: "Phát âm ví dụ",
-                                        icon: (
-                                            <Volume2 />
-                                        ),
+                                        icon: <Volume2 />,
                                         onClick: () =>
-                                            speakJapanese(
-                                                example.jp,
-                                            ),
+                                            speakJapanese(example.jp),
                                     },
                                 ]}
                                 align="end"
@@ -77,13 +95,6 @@ export default function ExampleSection() {
                     </div>
                 ))}
             </div>
-
-            <button
-                type="button"
-                className={styles.moreExampleButton}
-            >
-                Xem thêm 12 ví dụ⌄
-            </button>
         </div>
     )
 }

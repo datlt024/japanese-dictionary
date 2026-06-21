@@ -18,10 +18,29 @@ type FormationPattern = {
     right?: string | null
 }
 
+type RawRubyItem = {
+    base?: string | null
+    reading?: string | null
+}
+
+type RawSense = {
+    sense_index?: number | null
+    meaning_vi?: string | null
+    explanation_vi?: string | null
+    nuance_vi?: string | null
+}
+
+type RawSpecialCase = {
+    from?: string | null
+    to?: string | null
+    note?: string | null
+}
+
 type RawGrammar = {
     id: string
     slug: string
     pattern: string
+    display_pattern?: string | null
     reading?: string | null
     jlpt_level: string
     meaning_vi: string
@@ -30,6 +49,7 @@ type RawGrammar = {
     explanation_vi?: string | null
     explanation_en?: string | null
     nuance_vi?: string | null
+    register?: string | null
     formation?: {
         patterns?: FormationPattern[]
     }[]
@@ -50,20 +70,27 @@ type RawGrammar = {
             pattern?: string | null
         }
     )[]
+    senses?: RawSense[]
+    special_cases?: RawSpecialCase[]
     notes?: string[]
     tags?: string[]
     examples?: {
+        sentence_jp?: string | null
         japanese?: string | null
         jp?: string | null
         translation_vi?: string | null
         vi?: string | null
+        ruby?: RawRubyItem[]
     }[]
     differences?: {
         compared_pattern?: string | null
         pattern?: string | null
+        grammar?: string | null
         difference_text?: string | null
         explanation_vi?: string | null
+        description_vi?: string | null
     }[]
+    similar_grammar?: string[]
 }
 
 function normalizeText(value: unknown): string | null {
@@ -74,7 +101,7 @@ function normalizeText(value: unknown): string | null {
     return trimmed.length > 0 ? trimmed : null
 }
 
-async function insertMany(table: string, rows: any[]) {
+async function insertMany(table: string, rows: Record<string, unknown>[]) {
     if (rows.length === 0) return
 
     const { error } = await supabase.from(table).insert(rows)
@@ -111,6 +138,7 @@ async function main() {
     await supabase.from("grammar_common_pairs").delete().neq("id", 0)
     await supabase.from("grammar_tags").delete().neq("id", 0)
     await supabase.from("grammar_notes").delete().neq("id", 0)
+    await supabase.from("grammar_senses").delete().neq("id", 0)
     await supabase.from("grammar_examples").delete().neq("id", 0)
     await supabase.from("grammar_variants").delete().neq("id", 0)
     await supabase.from("grammar_formations").delete().neq("id", 0)
@@ -120,6 +148,7 @@ async function main() {
         source_id: g.id,
         slug: g.slug,
         pattern: g.pattern,
+        display_pattern: g.display_pattern ?? null,
         reading: g.reading ?? null,
         jlpt_level: g.jlpt_level,
         meaning_vi: g.meaning_vi,
@@ -128,6 +157,8 @@ async function main() {
         explanation_vi: g.explanation_vi ?? null,
         explanation_en: g.explanation_en ?? null,
         nuance_vi: g.nuance_vi ?? null,
+        register: g.register ?? null,
+        special_cases: g.special_cases ?? [],
         frequency: "medium",
         is_common: true,
         sort_order: index + 1,
@@ -144,14 +175,15 @@ async function main() {
         insertedGrammars.map((g) => [g.source_id, g.id])
     )
 
-    const formationRows: any[] = []
-    const variantRows: any[] = []
-    const exampleRows: any[] = []
-    const noteRows: any[] = []
-    const tagRows: any[] = []
-    const commonPairRows: any[] = []
-    const shortFormRows: any[] = []
-    const differenceRows: any[] = []
+    const formationRows: Record<string, unknown>[] = []
+    const variantRows: Record<string, unknown>[] = []
+    const exampleRows: Record<string, unknown>[] = []
+    const senseRows: Record<string, unknown>[] = []
+    const noteRows: Record<string, unknown>[] = []
+    const tagRows: Record<string, unknown>[] = []
+    const commonPairRows: Record<string, unknown>[] = []
+    const shortFormRows: Record<string, unknown>[] = []
+    const differenceRows: Record<string, unknown>[] = []
 
     for (const g of data) {
         const grammarId = grammarIdMap.get(g.id)
@@ -187,15 +219,36 @@ async function main() {
         })
 
         g.examples?.forEach((ex, index) => {
-            const japanese = normalizeText(ex.japanese) ?? normalizeText(ex.jp)
+            const japanese =
+                normalizeText(ex.sentence_jp) ??
+                normalizeText(ex.japanese) ??
+                normalizeText(ex.jp)
             if (!japanese) return
+
+            const ruby = (ex.ruby ?? [])
+                .filter((r) => r.base && r.reading)
+                .map((r) => ({ base: r.base!, reading: r.reading! }))
 
             exampleRows.push({
                 grammar_id: grammarId,
                 japanese,
+                ruby,
                 translation_vi:
                     normalizeText(ex.translation_vi) ?? normalizeText(ex.vi),
                 example_order: index + 1,
+            })
+        })
+
+        g.senses?.forEach((s, index) => {
+            const meaning_vi = normalizeText(s.meaning_vi)
+            if (!meaning_vi) return
+
+            senseRows.push({
+                grammar_id: grammarId,
+                sense_index: s.sense_index ?? index + 1,
+                meaning_vi,
+                explanation_vi: normalizeText(s.explanation_vi),
+                nuance_vi: normalizeText(s.nuance_vi),
             })
         })
 
@@ -250,10 +303,12 @@ async function main() {
 
         g.differences?.forEach((diff) => {
             const comparedPattern =
+                normalizeText(diff.grammar) ??
                 normalizeText(diff.compared_pattern) ??
                 normalizeText(diff.pattern)
 
             const differenceText =
+                normalizeText(diff.description_vi) ??
                 normalizeText(diff.difference_text) ??
                 normalizeText(diff.explanation_vi)
 
@@ -270,11 +325,36 @@ async function main() {
     await insertMany("grammar_formations", formationRows)
     await insertMany("grammar_variants", variantRows)
     await insertMany("grammar_examples", exampleRows)
+    await insertMany("grammar_senses", senseRows)
     await insertMany("grammar_notes", noteRows)
     await insertMany("grammar_tags", tagRows)
     await insertMany("grammar_common_pairs", commonPairRows)
     await insertMany("grammar_short_forms", shortFormRows)
     await insertMany("grammar_differences", differenceRows)
+
+    // Resolve similar_grammar: pattern strings → DB IDs
+    const patternToDbId = new Map(
+        insertedGrammars.map((r) => {
+            const item = data.find((d) => d.id === r.source_id)
+            return [item?.pattern ?? "", r.id]
+        })
+    )
+
+    const resolvedSimilarRows: Record<string, unknown>[] = []
+    for (const g of data) {
+        if (!g.similar_grammar?.length) continue
+        const grammarId = grammarIdMap.get(g.id)
+        if (!grammarId) continue
+
+        for (const pattern of g.similar_grammar) {
+            const similarId = patternToDbId.get(pattern)
+            if (similarId && similarId !== grammarId) {
+                resolvedSimilarRows.push({ grammar_id: grammarId, similar_grammar_id: similarId })
+            }
+        }
+    }
+
+    await insertMany("grammar_similar", resolvedSimilarRows)
 
     console.log("Import completed")
     console.log({
@@ -282,7 +362,9 @@ async function main() {
         formations: formationRows.length,
         variants: variantRows.length,
         examples: exampleRows.length,
+        senses: senseRows.length,
         notes: noteRows.length,
+        similar: resolvedSimilarRows.length,
         tags: tagRows.length,
         common_pairs: commonPairRows.length,
         short_forms: shortFormRows.length,

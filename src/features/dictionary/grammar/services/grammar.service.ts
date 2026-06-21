@@ -22,7 +22,7 @@ export async function searchGrammarPoints(
         return []
     }
 
-    return (data ?? []) as GrammarPoint[]
+    return (data ?? []) as unknown as GrammarPoint[]
 }
 
 export async function getGrammarPointById(
