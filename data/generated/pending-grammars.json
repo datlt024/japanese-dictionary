@@ -1,0 +1,702 @@
+[
+  {
+    "id": 193,
+    "pattern": "A が いちばん",
+    "jlpt_level": "N5",
+    "meaning_en": "Express the superlative degree; 'the most', 'the best', 'the least'.",
+    "explanation_en": "The A が いちばん～ grammar point is used to express a superlative degree or the highest rank. It can be translated as 'the most', 'the best', or 'the least' in English. The formation is used with various adjectives and verbs, and can also be used in comparison with other items or people.",
+    "formation": [
+      {
+        "raw": "Noun + が + いちばん + Adjective/Verb",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "この中で、寿司が一番好きです。",
+        "translation_en": "Of all these, I like sushi the most.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼女はクラスで一番速く泳げます。",
+        "translation_en": "She can swim the fastest in the class.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "この町では、この公園が一番きれいです。",
+        "translation_en": "In this town, this park is the most beautiful.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "飲み物の中では、紅茶が一番好きです。",
+        "translation_en": "Among all drinks, I like tea the most.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "pattern": "けれども",
+    "jlpt_level": "N5",
+    "meaning_en": "Used to express a contrast between two statements. It can be translated as 'but' or 'however'.",
+    "explanation_en": "The grammar point A。けれども、～B。 is used to express a contrast or contradiction between statement A and statement B. It can be translated as 'but' or 'however' in English. けれども is a conjunction that links two clauses to show there is a conflicting or opposing idea between them.",
+    "formation": [
+      {
+        "raw": "Statement A + けれども、+ Statement B",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "今日は晴れている。けれども、寒いです。",
+        "translation_en": "It is sunny today. However, it is cold.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼女はうるさい。けれども、面白いです。",
+        "translation_en": "She is noisy. But, she is interesting.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "その映画は長かった。けれども、退屈じゃなかった。",
+        "translation_en": "The movie was long. But, it wasn't boring.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼は運動が得意だ。けれども、勉強は苦手だ。",
+        "translation_en": "He is good at sports. However, he is not good at studying.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "pattern": "しかし",
+    "jlpt_level": "N5",
+    "meaning_en": "Expresses contrast or contradiction between two clauses; 'A, but B', 'A, however B'.",
+    "explanation_en": "The grammar point A。しかし、～B。 is used to show contrast or contradiction between two clauses. It can be translated as 'A, but B' or 'A, however B' in English. しかし is placed between two sentences to indicate a contrast between them.",
+    "formation": [
+      {
+        "raw": "Sentence A + しかし + Sentence B.",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "今日は忙しい。しかし、時間があるなら、コーヒーを飲もう。",
+        "translation_en": "I'm busy today. However, if I have time, let's have coffee.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "その映画は面白かった。しかし、長すぎました。",
+        "translation_en": "The movie was interesting. But, it was too long.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼は疲れていた。しかし、宿題を終わらせた。",
+        "translation_en": "He was tired. However, he finished his homework.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "部屋は狭いです。しかし、便利な場所にあります。",
+        "translation_en": "The room is small. But, it is in a convenient location.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "pattern": "じゃ",
+    "jlpt_level": "N5",
+    "meaning_en": "Indicates a decision or suggestion; 'well then', 'in that case', 'so'.",
+    "explanation_en": "The A。じゃ、～B。grammar point is used to express a decision, suggestion, or course of action based on a given situation or information. It can be translated as 'well then', 'in that case', or 'so' in English. This grammar works with any form of sentence, whether it's a verb, noun, い-adjective, or な-adjective in both parts (A and B).",
+    "formation": [
+      {
+        "raw": "A: Sentence, B: Sentence (A and B can be any sentence type)",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "映画は時間がない。じゃ、また今度行こう。",
+        "translation_en": "There's no time for a movie. Well then, let's go another time.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "お腹がすいた。じゃ、レストランに行こう。",
+        "translation_en": "I'm hungry. In that case, let's go to a restaurant.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "電車が遅れた。じゃ、バスで行こう。",
+        "translation_en": "The train is late. So, let's go by bus.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "このシャツは高い。じゃ、別のを買おう。",
+        "translation_en": "This shirt is expensive. Well then, let's buy a different one.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "pattern": "それじゃ",
+    "jlpt_level": "N5",
+    "meaning_en": "Connect two sentences; 'A, so/in that case, B'",
+    "explanation_en": "The A。それじゃ、～B。grammar point is used to connect two sentences or ideas. It translates to 'A, so/in that case, B' in English. This expression is used when the first sentence (A) creates a situation or context and the second sentence (B) indicates the consequence or response to that situation.",
+    "formation": [
+      {
+        "raw": "Sentence A + 。それじゃ、 + Sentence B",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "今日は休みです。それじゃ、映画を観に行きましょう。",
+        "translation_en": "Today is a day off. In that case, let's go watch a movie.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "電気が切れた。それじゃ、ろうそくを使いましょう。",
+        "translation_en": "The electricity went out. In that case, let's use candles.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "レストランが混んでいます。それじゃ、別の場所で食べましょう。",
+        "translation_en": "The restaurant is crowded. In that case, let's eat somewhere else.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "明日は雨が降るらしい。それじゃ、ピクニックは中止しましょう。",
+        "translation_en": "It seems it will rain tomorrow. In that case, let's cancel the picnic.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "pattern": "それでは",
+    "jlpt_level": "N5",
+    "meaning_en": "Express a change in situation; 'then', 'in that case', 'so'.",
+    "explanation_en": "The A。それでは、～B。grammar point is used to express a change in situation or transition from one action to another. It can be translated as 'then', 'in that case', or 'so' in English. The formation consists of two sentences or clauses, with それでは connecting them and reflecting a change based on the previous statement (A).",
+    "formation": [
+      {
+        "raw": "A (Statement) + 。それでは、 + B (Follow-up action or statement)",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "今日は休みだ。それでは、映画を見に行こう。",
+        "translation_en": "Today is a day off. In that case, let's go see a movie.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "このパンはもう古いです。それでは、捨てましょう。",
+        "translation_en": "This bread is already old. Then, let's throw it away.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "雨が降ってきた。それでは、室内で遊ぼう。",
+        "translation_en": "It started raining. In that case, let's play indoors.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "お腹が空いた。それでは、何か食べに行きましょう。",
+        "translation_en": "I'm hungry. So, let's go eat something.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "pattern": "では",
+    "jlpt_level": "N5",
+    "meaning_en": "Indicates a contrast or comparison between A and B; 'As for A, ~B'.",
+    "explanation_en": "The A では、～B grammar point is used to indicate a contrast or comparison between A and B. It is used to express that 'As for A, ~ B' or 'Regarding A, ~ B'. This grammar structure is often used for contrasting or comparing different subjects/topics.",
+    "formation": [
+      {
+        "raw": "Noun A + では、 + Subject + Predicate B",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "果物では、リンゴが一番好きです。",
+        "translation_en": "As for fruits, apples are my favorite.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "スポーツでは、サッカーが一番人気です。",
+        "translation_en": "As for sports, soccer is the most popular.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "今日の天気では、雨が降りそうです。",
+        "translation_en": "As for today's weather, it looks like it will rain.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "料理では、和食が一番得意です。",
+        "translation_en": "As for cooking, I am best at Japanese cuisine.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "pattern": "でも",
+    "jlpt_level": "N5",
+    "meaning_en": "Used to express contrast between two statements; 'A, but B', 'A, however B'.",
+    "explanation_en": "The A。でも、～B。grammar point is used to express contrast or an unexpected continuation from statement A to statement B. It can be translated as 'A, but B' or 'A, however B' in English. The formation simply places でも at the beginning of the second sentence to show contrast with the first sentence.",
+    "formation": [
+      {
+        "raw": "Clause A + でも + Clause B",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "昨日は寒かった。でも、今日は暖かいです。",
+        "translation_en": "Yesterday was cold. But today it's warm.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼は忙しい。でも、友達と遊ぶ時間がある。",
+        "translation_en": "He is busy. However, he still has time to hang out with friends.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "試験に合格した。でも、まだ勉強を続けています。",
+        "translation_en": "I passed the exam. But I'm still continuing to study.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼女は有名だ。でも、とても謙虚です。",
+        "translation_en": "She is famous. However, she's very humble.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "pattern": "A と B と どちら",
+    "jlpt_level": "N5",
+    "meaning_en": "Used to ask which of two alternatives is preferred or to compare two things",
+    "explanation_en": "The grammar pattern Aと Bと どちら～ is used to compare two alternatives A and B, and ask which one is preferred, better, or more suitable. It can be used with verbs, adjectives, or nouns.",
+    "formation": [
+      {
+        "raw": "Aと Bと どちら + Verb/Adjective/Noun",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "りんごとみかんとどちらが好きですか。",
+        "translation_en": "Which do you like, apples or oranges?",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "電車とバスとどちらで行くべきですか。",
+        "translation_en": "Should I go by train or bus?",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "赤いワンピースと青いワンピースとどちらが似合うと思いますか。",
+        "translation_en": "Which do you think suits me better, the red dress or the blue dress?",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "このカメラとあのカメラとどちらのほうが使いやすいですか。",
+        "translation_en": "Which one is easier to use, this camera or that camera?",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "pattern": "A と B と どっち",
+    "jlpt_level": "N5",
+    "meaning_en": "Asking which one; 'which', 'A or B'.",
+    "explanation_en": "The  AとBと どっち〜 grammar point is used to ask which one to choose between two options, A and B. It can be translated as 'which', 'A or B' in English. This is often used in casual speech and can be shortened to  AかBか どっち〜.",
+    "formation": [
+      {
+        "raw": "AとBと どっち + Verb, AかBか どっち + Verb",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "コーヒーと紅茶とどっちが好き？",
+        "translation_en": "Which do you like, coffee or tea?",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "映画と音楽とどっちを楽しむ？",
+        "translation_en": "Which do you enjoy, movies or music?",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "赤いシャツと青いシャツとどっちを買う？",
+        "translation_en": "Which one will you buy, the red shirt or the blue shirt?",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "日本語と韓国語とどっちを勉強したい？",
+        "translation_en": "Which do you want to study, Japanese or Korean?",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "pattern": "はが",
+    "jlpt_level": "N5",
+    "meaning_en": "Indicates that there is something unique or different about A and describes what is special about it.",
+    "explanation_en": "The A は B が〜 grammar point is used to emphasize the uniqueness or difference of 'A' by describing a characteristic or feature 'B' that is specific to 'A'. This structure is used to convey that there is something notable or special about 'A' when compared to others.",
+    "formation": [
+      {
+        "raw": "A は (Topic) + B が (Characteristic/Feature) + Description/Action",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "彼女は髪が長いです。",
+        "translation_en": "What's special about her is that she has long hair.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "このレストランは雰囲気が良いです。",
+        "translation_en": "What's great about this restaurant is the atmosphere.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "私は朝ごはんが一番好きです。",
+        "translation_en": "What I like the most is breakfast.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼は英語が得意です。",
+        "translation_en": "He is particularly good at English.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "pattern": "はより",
+    "jlpt_level": "N5",
+    "meaning_en": "Express a comparison between A and B; 'A is more/less than B'.",
+    "explanation_en": "The A は B より grammar point is used to express a comparison between two items or subjects (A and B). It can be translated as 'A is more/less than B' in English. This structure is followed by an adjective that describes the comparison.",
+    "formation": [
+      {
+        "raw": "A は B より + Adjective",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "このジュースはあのジュースより甘いです。",
+        "translation_en": "This juice is sweeter than that juice.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "夏は冬より暑いです。",
+        "translation_en": "Summer is hotter than winter.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼女は私より速く走ります。",
+        "translation_en": "She runs faster than me.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "スーパーはコンビニより安いです。",
+        "translation_en": "The supermarket is cheaper than the convenience store.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "pattern": "よりのほうが",
+    "jlpt_level": "N5",
+    "meaning_en": "Used to compare two items; 'B is more ～ than A'.",
+    "explanation_en": "The grammar point A より B のほうが～ is used to compare two items or situations and indicate that one is more (adjective) than the other. It can be translated as 'B is more ～ than A' in English. It is used with both い-adjectives and な-adjectives.",
+    "formation": [
+      {
+        "raw": "A + より + B + のほうが + Adjective",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "ピザよりハンバーガーのほうが美味しい。",
+        "translation_en": "Hamburgers are more delicious than pizza.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "夏より冬のほうが寒い。",
+        "translation_en": "Winter is colder than summer.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "ここよりそこのほうが静かです。",
+        "translation_en": "There is quieter than here.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "車より電車のほうが速い。",
+        "translation_en": "Trains are faster than cars.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "pattern": "A-い + く + V",
+    "jlpt_level": "N5",
+    "meaning_en": "Used to connect an い-adjective to a verb, modifying the verb (adverbial usage).",
+    "explanation_en": "The い-Adjective + く + Verb grammar point transforms an い-adjective into its adverbial form, describing how the verb is performed. In English, this often corresponds to '-ly' adverbs (e.g., 'quickly', 'slowly').",
+    "formation": [
+      {
+        "raw": "い-Adjective (remove い) + く + Verb",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "彼は速く走りました。",
+        "translation_en": "He ran quickly.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "この料理は美味しく食べました。",
+        "translation_en": "I enjoyed eating this dish.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼女は優しく話します。",
+        "translation_en": "She speaks kindly.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "母は忙しく仕事をしています。",
+        "translation_en": "My mother is working busily.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "pattern": "A-い + くします",
+    "jlpt_level": "N5",
+    "meaning_en": "Use an い-adjective to express 'to make' or 'to become'.",
+    "explanation_en": "By adding くします to an い-adjective, you express making something (or causing something to become) the quality of that adjective. In English, this often corresponds to phrases like 'make something more ADJECTIVE.'",
+    "formation": [
+      {
+        "raw": "い-Adjective (remove い) + くします",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "部屋を明るくします。",
+        "translation_en": "I will make the room brighter.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "友達の気分を楽しくします。",
+        "translation_en": "I will make my friend’s mood more pleasant.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "仕事が簡単になるように、やり方を早くします。",
+        "translation_en": "I will make the way of doing things faster so that the work becomes easier.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "食べ物を美味しくします。",
+        "translation_en": "I will make the food delicious.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "pattern": "A-い phủ định lịch sự",
+    "jlpt_level": "N5",
+    "meaning_en": "Change an い-adjective into a polite negative form with ～くないです (or ～くありません).",
+    "explanation_en": "To make an い-adjective negative and polite, remove the final い and add くないです. An alternative more formal style is くありません. For example, 美味しい → 美味しくないです / 美味しくありません。",
+    "formation": [
+      {
+        "raw": "い-Adjective (remove い) + くないです",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "このピザは美味しくないです。",
+        "translation_en": "This pizza is not delicious.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "この部屋は広くないです。",
+        "translation_en": "This room is not spacious.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼の意見は面白くないです。",
+        "translation_en": "His opinion is not interesting.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "その映画は楽しくありません。",
+        "translation_en": "That movie is not enjoyable.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "pattern": "A-い + て",
+    "jlpt_level": "N5",
+    "meaning_en": "Used to connect two or more い-adjectives to describe something.",
+    "explanation_en": "The い-Adjective て form is used to connect two or more い-adjectives when listing attributes of something or someone. To form it, replace the final い with くて. For example, かわいい → かわいくて, おいしい → おいしくて.",
+    "formation": [
+      {
+        "raw": "い-Adjective (remove い) + くて + い-Adjective",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "このリンゴは甘くて美味しいです。",
+        "translation_en": "This apple is sweet and delicious.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼女は優しくてかわいいです。",
+        "translation_en": "She is kind and cute.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "映画は面白くて感動的でした。",
+        "translation_en": "The movie was interesting and moving.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "この部屋は広くて明るいです。",
+        "translation_en": "This room is spacious and bright.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "pattern": "A-な + に + V",
+    "jlpt_level": "N5",
+    "meaning_en": "Turn a な-adjective into an adverb by adding に.",
+    "explanation_en": "To make a な-adjective modify a verb, remove the な and add に. This form describes how an action is performed. For instance, 静か（な） → 静かに, 親切（な） → 親切に.",
+    "formation": [
+      {
+        "raw": "な-Adjective (remove な) + に + Verb",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "彼は静かに話す。",
+        "translation_en": "He speaks quietly.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "部屋をきれいに掃除した。",
+        "translation_en": "I cleaned the room neatly.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼女は元気に働いています。",
+        "translation_en": "She works energetically.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "先生は親切に説明してくれる。",
+        "translation_en": "The teacher explains kindly.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "pattern": "A-な + で",
+    "jlpt_level": "N5",
+    "meaning_en": "Usage of で to connect or add information with a な-adjective.",
+    "explanation_en": "Use な-adjective + で to connect it to another quality, action, or description. It can combine a な-adjective with another adjective, verb, or clause.",
+    "formation": [
+      {
+        "raw": "な-Adjective + で",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "彼は綺麗で優しい女性が好きです。",
+        "translation_en": "He likes women who are beautiful and kind.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "この料理は健康的で、元気な気分になります。",
+        "translation_en": "This dish is healthy and makes you feel energetic.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "彼は静かで落ち着いた環境で仕事をしたい。",
+        "translation_en": "He wants to work in a quiet and calm environment.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "この部屋は清潔で気持ちがいいです。",
+        "translation_en": "This room is clean and feels good.",
+        "translation_vi": ""
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "pattern": "A-な + にします",
+    "jlpt_level": "N5",
+    "meaning_en": "Expressing a decision or preference with a な-adjective.",
+    "explanation_en": "The な-adjective に します pattern is used to express a decision or choice based on a な-adjective. It often translates as 'I’ll make it ...,' 'I will choose ...,' or 'I’ve decided on ...'.",
+    "formation": [
+      {
+        "raw": "な-Adjective + に + します",
+        "source": "hanabira"
+      }
+    ],
+    "examples": [
+      {
+        "japanese": "静かにします。",
+        "translation_en": "I will be quiet.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "部屋をきれいにします。",
+        "translation_en": "I will make the room clean.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "明日の会議は簡単にします。",
+        "translation_en": "I will make tomorrow’s meeting simple.",
+        "translation_vi": ""
+      },
+      {
+        "japanese": "健康的な食事にします。",
+        "translation_en": "I will choose a healthy meal.",
+        "translation_vi": ""
+      }
+    ]
+  }
+]

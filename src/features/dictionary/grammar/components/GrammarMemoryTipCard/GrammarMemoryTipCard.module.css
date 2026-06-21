@@ -1,0 +1,110 @@
+.memoryCard {
+    padding: 24px;
+
+    border: 1px solid #f7dca8;
+    border-radius: 18px;
+
+    background: #fff9ec;
+}
+
+.memoryCard h3 {
+    margin: 0 0 18px;
+
+    color: var(--text-primary);
+
+    font-size: 15px;
+    line-height: 1.35;
+    font-weight: 900;
+}
+
+.rememberBox {
+    display: grid;
+    gap: 6px;
+
+    padding-bottom: 18px;
+    border-bottom: 1px solid #f7dca8;
+}
+
+.rememberBox span {
+    color: var(--text-secondary);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.rememberBox strong {
+    color: #ea580c;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.memoryExample {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 86px;
+    gap: 12px;
+    align-items: center;
+
+    padding: 18px 0;
+    border-bottom: 1px solid #f7dca8;
+}
+
+.memoryExample p {
+    margin: 0 0 6px;
+
+    color: var(--primary-dark);
+
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.memoryExample span {
+    color: var(--text-secondary);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.emojiIllustration {
+    display: grid;
+    place-items: center;
+
+    width: 86px;
+    height: 86px;
+
+    border-radius: 18px;
+
+    background: #ffffff;
+
+    font-size: 36px;
+}
+
+.shortenBox {
+    display: grid;
+    gap: 8px;
+
+    padding-top: 18px;
+}
+
+.shortenBox p {
+    margin: 0 0 4px;
+
+    color: var(--text-secondary);
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.shortenBox div {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 8px;
+    align-items: center;
+
+    color: #ea580c;
+
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.shortenBox strong {
+    color: var(--primary);
+}

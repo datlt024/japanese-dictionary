@@ -4,7 +4,7 @@ import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
 import {
     SEARCH_VOCABULARY_LIMIT,
-} from "@/features/dictionary/search/constants/search.constants"
+} from "@/shared/constants/search.constants"
 
 import {
     normalizeKeyword,

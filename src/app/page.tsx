@@ -1,6 +1,6 @@
 "use client"
 
-import styles from "@/features/home/styles/HomePage.module.css"
+import styles from "./page.module.css"
 
 import useSearchHistory
   from "@/features/user/search-history/hooks/useSearchHistory"

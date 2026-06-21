@@ -1,0 +1,134 @@
+.grammarDetailPage {
+    width: 100%;
+    background: transparent;
+}
+
+.grammarDetailLayout {
+    --bg-card: #ffffff;
+    --bg-soft: #ffffff;
+
+    --border-color: #eceef2;
+    --border-strong: #e5eaf2;
+
+    --text-primary: #15213a;
+    --text-secondary: #6b7280;
+    --text-muted: #9ca3af;
+
+    --primary: #2563eb;
+    --primary-dark: #142957;
+    --primary-soft: #edf4ff;
+
+    --success: #16a34a;
+    --success-soft: #ecfdf3;
+
+    --danger: #ef4444;
+    --danger-soft: #ffe8e8;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 430px;
+    gap: 24px;
+    align-items: start;
+
+    width: 100%;
+    background: transparent;
+}
+
+.mainColumn {
+    display: grid;
+    gap: 16px;
+
+    min-width: 0;
+}
+
+.mainColumn > * {
+    margin-bottom: 0;
+}
+
+.sideColumn {
+    position: sticky;
+    top: 112px;
+
+    display: grid;
+    gap: 16px;
+
+    min-width: 0;
+}
+
+.section {
+    padding: 20px 24px;
+
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+
+    background: var(--bg-card);
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
+}
+
+.sectionTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 18px;
+}
+
+.sectionTitleRow span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28px;
+    height: 28px;
+
+    border-radius: 999px;
+
+    background: var(--primary-soft);
+    color: var(--primary);
+
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.sectionTitleRow h2 {
+    margin: 0;
+
+    color: var(--text-primary);
+
+    font-size: 20px;
+    line-height: 1.35;
+    font-weight: 900;
+}
+
+.stateCard {
+    padding: 32px;
+
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+
+    background: var(--bg-card);
+    color: var(--text-secondary);
+
+    text-align: center;
+}
+
+@media (max-width: 1180px) {
+    .grammarDetailLayout {
+        grid-template-columns: 1fr;
+    }
+
+    .sideColumn {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .grammarDetailLayout {
+        gap: 20px;
+    }
+
+    .section {
+        padding: 18px;
+        border-radius: 16px;
+    }
+}

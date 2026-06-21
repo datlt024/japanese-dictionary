@@ -20,6 +20,9 @@
 .mutedText {
     margin: 0;
     color: #6b7280;
+
+    font-size: 15px;
+    line-height: 1.65;
 }
 
 .vocabReadingList {
@@ -58,13 +61,16 @@
     color: #2563eb;
 
     font-size: 12px;
+    line-height: 1;
     font-weight: 900;
 }
 
 .vocabReadingHeader strong {
     color: #1f2937;
 
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 18px;
+    line-height: 1.35;
     font-weight: 900;
 }
 
@@ -72,6 +78,12 @@
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
+
+    color: #374151;
+
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.65;
 }
 
 .vocabTable th,
@@ -80,10 +92,11 @@
 
     border-bottom: 1px solid #eef2f7;
 
-    color: #374151;
+    color: inherit;
 
-    font-size: 15px;
-    line-height: 1.65;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
     vertical-align: top;
     text-align: left;
 }
@@ -93,6 +106,7 @@
     color: #6b7280;
 
     font-size: 13px;
+    line-height: 1.45;
     font-weight: 800;
 }
 
@@ -103,44 +117,45 @@
 /* Từ vựng */
 .vocabTable th:nth-child(1),
 .vocabTable td:nth-child(1) {
-    width: 18%;
-
-    color: #1f2937;
-
-    font-family: "Noto Serif JP", serif;
-    font-size: 18px;
-    font-weight: 900;
+    width: 22%;
 
     word-break: keep-all;
-    overflow-wrap: normal;
+    overflow-wrap: anywhere;
 }
 
 /* Cách đọc */
 .vocabTable th:nth-child(2),
 .vocabTable td:nth-child(2) {
-    width: 22%;
-
-    font-family: "Noto Sans JP", sans-serif;
+    width: 24%;
 
     word-break: keep-all;
-    overflow-wrap: normal;
-}
-
-/* Âm Hán Việt */
-.vocabTable th:nth-child(3),
-.vocabTable td:nth-child(3) {
-    width: 90px;
-
-    color: #2563eb;
-    font-weight: 800;
-
-    white-space: nowrap;
+    overflow-wrap: anywhere;
 }
 
 /* Ý nghĩa */
-.vocabTable th:nth-child(4),
-.vocabTable td:nth-child(4) {
-    width: 50%;
+.vocabTable th:nth-child(3),
+.vocabTable td:nth-child(3) {
+    width: 54%;
+}
+
+.vocabTable td:nth-child(1) {
+    color: #1f2937;
+
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 800;
+}
+
+.vocabTable td:nth-child(2) {
+    color: #374151;
+
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 600;
+}
+
+.vocabTable td:nth-child(3) {
+    color: #374151;
+
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -149,6 +164,6 @@
     }
 
     .vocabTable {
-        min-width: 760px;
+        min-width: 680px;
     }
 }

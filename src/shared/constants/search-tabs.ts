@@ -12,6 +12,7 @@ export const SEARCH_TABS_WITH_ALL = [
 ] as const
 
 export type SearchTab = typeof SEARCH_TABS[number]
+
 export type SearchTabWithAll =
     typeof SEARCH_TABS_WITH_ALL[number]
 

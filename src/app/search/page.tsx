@@ -3,7 +3,7 @@
 import { Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 
-import styles from "@/features/dictionary/search/styles/SearchPage.module.css"
+import styles from "./page.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import EmptyState from "@/shared/components/EmptyState/EmptyState"

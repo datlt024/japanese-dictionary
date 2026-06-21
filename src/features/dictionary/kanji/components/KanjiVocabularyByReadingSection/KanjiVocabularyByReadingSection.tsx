@@ -84,7 +84,6 @@ function ReadingGroupTable({
                         <tr>
                             <th>Từ vựng</th>
                             <th>Cách đọc</th>
-                            <th>Âm Hán Việt</th>
                             <th>Ý nghĩa</th>
                         </tr>
                     </thead>
@@ -97,8 +96,6 @@ function ReadingGroupTable({
                                 <td>
                                     {word.kana || group.reading || "-"}
                                 </td>
-
-                                <td>-</td>
 
                                 <td>
                                     {getRelatedWordMeaning(word)}

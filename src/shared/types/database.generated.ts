@@ -14,72 +14,325 @@ export type Database = {
   }
   public: {
     Tables: {
+      grammar_common_pairs: {
+        Row: {
+          expression: string
+          grammar_id: number
+          id: number
+        }
+        Insert: {
+          expression: string
+          grammar_id: number
+          id?: never
+        }
+        Update: {
+          expression?: string
+          grammar_id?: number
+          id?: never
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_common_pairs_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_differences: {
+        Row: {
+          compared_pattern: string
+          difference_text: string
+          grammar_id: number
+          id: number
+        }
+        Insert: {
+          compared_pattern: string
+          difference_text: string
+          grammar_id: number
+          id?: never
+        }
+        Update: {
+          compared_pattern?: string
+          difference_text?: string
+          grammar_id?: number
+          id?: never
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_differences_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_examples: {
+        Row: {
+          example_order: number | null
+          grammar_id: number
+          id: number
+          japanese: string
+          translation_vi: string | null
+        }
+        Insert: {
+          example_order?: number | null
+          grammar_id: number
+          id?: never
+          japanese: string
+          translation_vi?: string | null
+        }
+        Update: {
+          example_order?: number | null
+          grammar_id?: number
+          id?: never
+          japanese?: string
+          translation_vi?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_examples_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_formations: {
+        Row: {
+          grammar_id: number
+          group_index: number
+          id: number
+          left_text: string | null
+          remove_text: string | null
+          right_text: string | null
+        }
+        Insert: {
+          grammar_id: number
+          group_index?: number
+          id?: never
+          left_text?: string | null
+          remove_text?: string | null
+          right_text?: string | null
+        }
+        Update: {
+          grammar_id?: number
+          group_index?: number
+          id?: never
+          left_text?: string | null
+          remove_text?: string | null
+          right_text?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_formations_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_notes: {
+        Row: {
+          grammar_id: number
+          id: number
+          note_text: string
+          sort_order: number | null
+        }
+        Insert: {
+          grammar_id: number
+          id?: never
+          note_text: string
+          sort_order?: number | null
+        }
+        Update: {
+          grammar_id?: number
+          id?: never
+          note_text?: string
+          sort_order?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_notes_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_short_forms: {
+        Row: {
+          grammar_id: number
+          id: number
+          pattern: string
+        }
+        Insert: {
+          grammar_id: number
+          id?: never
+          pattern: string
+        }
+        Update: {
+          grammar_id?: number
+          id?: never
+          pattern?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_short_forms_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_similar: {
+        Row: {
+          grammar_id: number
+          similar_grammar_id: number
+        }
+        Insert: {
+          grammar_id: number
+          similar_grammar_id: number
+        }
+        Update: {
+          grammar_id?: number
+          similar_grammar_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_similar_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "grammar_similar_similar_grammar_id_fkey"
+            columns: ["similar_grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_tags: {
+        Row: {
+          grammar_id: number
+          id: number
+          tag: string
+        }
+        Insert: {
+          grammar_id: number
+          id?: never
+          tag: string
+        }
+        Update: {
+          grammar_id?: number
+          id?: never
+          tag?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_tags_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      grammar_variants: {
+        Row: {
+          grammar_id: number
+          id: number
+          pattern: string
+          variant_type: string | null
+        }
+        Insert: {
+          grammar_id: number
+          id?: never
+          pattern: string
+          variant_type?: string | null
+        }
+        Update: {
+          grammar_id?: number
+          id?: never
+          pattern?: string
+          variant_type?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "grammar_variants_grammar_id_fkey"
+            columns: ["grammar_id"]
+            isOneToOne: false
+            referencedRelation: "grammars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       grammars: {
         Row: {
-          created_at: string
-          differences: Json
-          examples: Json
+          created_at: string | null
           explanation_en: string | null
           explanation_vi: string | null
-          formation: Json
-          frequency: string
+          frequency: string | null
           id: number
-          is_common: boolean
+          is_common: boolean | null
           jlpt_level: string
           meaning_en: string | null
           meaning_vi: string
-          notes: Json
           nuance_vi: string | null
           pattern: string
           reading: string | null
           short_meaning_vi: string | null
-          similar_grammar: Json
-          tags: Json
-          updated_at: string
+          slug: string
+          sort_order: number | null
+          source_id: string
+          updated_at: string | null
         }
         Insert: {
-          created_at?: string
-          differences?: Json
-          examples?: Json
+          created_at?: string | null
           explanation_en?: string | null
           explanation_vi?: string | null
-          formation?: Json
-          frequency?: string
+          frequency?: string | null
           id?: never
-          is_common?: boolean
+          is_common?: boolean | null
           jlpt_level: string
           meaning_en?: string | null
           meaning_vi: string
-          notes?: Json
           nuance_vi?: string | null
           pattern: string
           reading?: string | null
           short_meaning_vi?: string | null
-          similar_grammar?: Json
-          tags?: Json
-          updated_at?: string
+          slug: string
+          sort_order?: number | null
+          source_id: string
+          updated_at?: string | null
         }
         Update: {
-          created_at?: string
-          differences?: Json
-          examples?: Json
+          created_at?: string | null
           explanation_en?: string | null
           explanation_vi?: string | null
-          formation?: Json
-          frequency?: string
+          frequency?: string | null
           id?: never
-          is_common?: boolean
+          is_common?: boolean | null
           jlpt_level?: string
           meaning_en?: string | null
           meaning_vi?: string
-          notes?: Json
           nuance_vi?: string | null
           pattern?: string
           reading?: string | null
           short_meaning_vi?: string | null
-          similar_grammar?: Json
-          tags?: Json
-          updated_at?: string
+          slug?: string
+          sort_order?: number | null
+          source_id?: string
+          updated_at?: string | null
         }
         Relationships: []
       }
@@ -578,8 +831,8 @@ export type Database = {
       show_limit: { Args: never; Returns: number }
       show_trgm: { Args: { "": string }; Returns: string[] }
       update_vocabulary_ruby_bulk:
-      | { Args: { payload: Json }; Returns: number }
-      | { Args: { force_update?: boolean; payload: Json }; Returns: number }
+        | { Args: { payload: Json }; Returns: number }
+        | { Args: { force_update?: boolean; payload: Json }; Returns: number }
       update_vocabulary_ruby_missing: {
         Args: { payload: Json }
         Returns: number
@@ -600,116 +853,116 @@ type DefaultSchema = DatabaseWithoutInternals[Extract<keyof Database, "public">]
 
 export type Tables<
   DefaultSchemaTableNameOrOptions extends
-  | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
-  | { schema: keyof DatabaseWithoutInternals },
+    | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
+    | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-  ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
-    DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
-  : never = never,
+    ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+        DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
+    : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
-    DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
+      DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
       Row: infer R
     }
-  ? R
-  : never
+    ? R
+    : never
   : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema["Tables"] &
-    DefaultSchema["Views"])
-  ? (DefaultSchema["Tables"] &
-    DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
-      Row: infer R
-    }
-  ? R
-  : never
-  : never
+        DefaultSchema["Views"])
+    ? (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
+        Row: infer R
+      }
+      ? R
+      : never
+    : never
 
 export type TablesInsert<
   DefaultSchemaTableNameOrOptions extends
-  | keyof DefaultSchema["Tables"]
-  | { schema: keyof DatabaseWithoutInternals },
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-  ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
-  : never = never,
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
-    Insert: infer I
-  }
-  ? I
-  : never
+      Insert: infer I
+    }
+    ? I
+    : never
   : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
-  ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
-    Insert: infer I
-  }
-  ? I
-  : never
-  : never
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Insert: infer I
+      }
+      ? I
+      : never
+    : never
 
 export type TablesUpdate<
   DefaultSchemaTableNameOrOptions extends
-  | keyof DefaultSchema["Tables"]
-  | { schema: keyof DatabaseWithoutInternals },
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
   TableName extends DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-  ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
-  : never = never,
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
-    Update: infer U
-  }
-  ? U
-  : never
+      Update: infer U
+    }
+    ? U
+    : never
   : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
-  ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
-    Update: infer U
-  }
-  ? U
-  : never
-  : never
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Update: infer U
+      }
+      ? U
+      : never
+    : never
 
 export type Enums<
   DefaultSchemaEnumNameOrOptions extends
-  | keyof DefaultSchema["Enums"]
-  | { schema: keyof DatabaseWithoutInternals },
+    | keyof DefaultSchema["Enums"]
+    | { schema: keyof DatabaseWithoutInternals },
   EnumName extends DefaultSchemaEnumNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-  ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
-  : never = never,
+    ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
+    : never = never,
 > = DefaultSchemaEnumNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
   : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
-  ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
-  : never
+    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+    : never
 
 export type CompositeTypes<
   PublicCompositeTypeNameOrOptions extends
-  | keyof DefaultSchema["CompositeTypes"]
-  | { schema: keyof DatabaseWithoutInternals },
+    | keyof DefaultSchema["CompositeTypes"]
+    | { schema: keyof DatabaseWithoutInternals },
   CompositeTypeName extends PublicCompositeTypeNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
-  ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
-  : never = never,
+    ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
+    : never = never,
 > = PublicCompositeTypeNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
   ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
   : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
-  ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
-  : never
+    ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
+    : never
 
 export const Constants = {
   public: {

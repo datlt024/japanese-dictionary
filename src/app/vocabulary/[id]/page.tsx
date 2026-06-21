@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import styles from "@/features/dictionary/vocabulary/styles/VocabularyDetail.module.css"
+import styles from "./page.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import VocabularyDetailContent from "@/features/dictionary/vocabulary/components/VocabularyDetailContent"

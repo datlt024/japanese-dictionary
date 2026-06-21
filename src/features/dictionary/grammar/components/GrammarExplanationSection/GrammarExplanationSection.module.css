@@ -1,0 +1,106 @@
+.section {
+    padding: 20px 24px;
+
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+
+    background: var(--bg-card);
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
+}
+
+.sectionTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 16px;
+}
+
+.sectionTitleRow span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28px;
+    height: 28px;
+
+    border-radius: 999px;
+
+    background: var(--primary-soft);
+    color: var(--primary);
+
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.sectionTitleRow h2 {
+    margin: 0;
+
+    color: var(--primary);
+
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 900;
+}
+
+.explanationList {
+    display: grid;
+    gap: 8px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.explanationList li {
+    display: grid;
+    grid-template-columns: 18px minmax(0, 1fr);
+    gap: 4px;
+
+    color: var(--text-primary);
+
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.explanationList li span {
+    color: var(--primary-dark);
+    font-weight: 900;
+}
+
+.explanationList li p {
+    margin: 0;
+}
+
+.nuanceBox {
+    margin-top: 14px;
+    padding: 14px 16px;
+
+    border: 1px solid #bfdbfe;
+    border-radius: 14px;
+
+    background: #f8fbff;
+}
+
+.nuanceBox strong {
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.nuanceBox p {
+    margin: 6px 0 0;
+
+    color: var(--text-primary);
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+@media (max-width: 640px) {
+    .section {
+        padding: 18px;
+    }
+}

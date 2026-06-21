@@ -5,7 +5,7 @@ import { isSingleKanji } from "@/shared/utils/japanese"
 
 import {
     SEARCH_KANJI_COLUMNS,
-} from "@/features/dictionary/search/constants/search.constants"
+} from "@/shared/constants/search.constants"
 
 export function searchKanjiByKeyword(keyword: string) {
     const value = normalizeKeyword(keyword)

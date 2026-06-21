@@ -2,15 +2,24 @@ import { supabaseServer } from "@/server/supabase/server"
 
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
-import {
-    SEARCH_GRAMMAR_COLUMNS,
-    SEARCH_GRAMMAR_LIMIT,
-} from "@/features/dictionary/search/constants/search.constants"
+const SEARCH_GRAMMAR_LIMIT = 20
 
-import {
-    normalizeKeyword,
-    escapeLikePattern,
-} from "@/shared/utils/string"
+const SEARCH_GRAMMAR_COLUMNS = `
+    id,
+    source_id,
+    slug,
+    pattern,
+    reading,
+    jlpt_level,
+    meaning_vi,
+    meaning_en,
+    short_meaning_vi,
+    explanation_vi,
+    nuance_vi,
+    frequency,
+    is_common,
+    sort_order
+`
 
 function createEmptyRepositoryResult<T>() {
     return Promise.resolve({
@@ -19,40 +28,34 @@ function createEmptyRepositoryResult<T>() {
     })
 }
 
-export function searchGrammarsByKeyword(
+function escapeLikePattern(value: string) {
+    return value.replace(/[%_]/g, "\\$&")
+}
+
+export async function searchGrammarsByKeyword(
     keyword: string,
-    language: DictionaryLanguage = "vi"
+    _language: DictionaryLanguage = "vi"
 ) {
-    const value = escapeLikePattern(
-        normalizeKeyword(keyword)
-    )
+    const value = escapeLikePattern(keyword.trim())
 
     if (!value) {
         return createEmptyRepositoryResult()
     }
 
-    const meaningColumns =
-        language === "en"
-            ? [
-                `meaning_en.ilike.%${value}%`,
-                `meaning_vi.ilike.%${value}%`,
-                `short_meaning_vi.ilike.%${value}%`,
-            ]
-            : [
-                `meaning_vi.ilike.%${value}%`,
-                `short_meaning_vi.ilike.%${value}%`,
-                `meaning_en.ilike.%${value}%`,
-            ]
-
-    const filters = [
-        `pattern.ilike.%${value}%`,
-        `reading.ilike.%${value}%`,
-        ...meaningColumns,
-    ]
-
-    return supabaseServer
-        .from("grammars")
+    return (supabaseServer.from("grammars") as any)
         .select(SEARCH_GRAMMAR_COLUMNS)
-        .or(filters.join(","))
+        .or(
+            [
+                `pattern.ilike.%${value}%`,
+                `reading.ilike.%${value}%`,
+                `slug.ilike.%${value}%`,
+                `source_id.ilike.%${value}%`,
+                `meaning_vi.ilike.%${value}%`,
+                `meaning_en.ilike.%${value}%`,
+                `short_meaning_vi.ilike.%${value}%`,
+                `explanation_vi.ilike.%${value}%`,
+            ].join(",")
+        )
+        .order("sort_order", { ascending: true })
         .limit(SEARCH_GRAMMAR_LIMIT)
 }

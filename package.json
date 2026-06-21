@@ -10,8 +10,8 @@
     "import:jmdict": "tsx scripts/import/import-jmdict.ts",
     "import:kanjidic": "tsx scripts/import/import-kanjidic.ts",
     "import:grammars": "tsx scripts/import/import-grammars.ts",
-    "build:kanji-links": "tsx scripts/import/build-kanji-links.ts",
-    "build:kanji-readings": "tsx scripts/import/build-kanji-reading-examples.ts"
+    "build:kanji-links": "tsx scripts/build/build-kanji-links.ts",
+    "build:kanji-readings": "tsx scripts/build/build-kanji-reading-examples.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.106.2",
