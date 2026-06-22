@@ -79,7 +79,7 @@ function TopSearchBarContent({
     const [voiceSearchOpen, setVoiceSearchOpen] = useState(false)
     const [imageScanOpen, setImageScanOpen] = useState(false)
 
-    const debouncedKeyword = useDebounce(keyword, 300)
+    const debouncedKeyword = useDebounce(keyword, 150)
 
     const { addHistory } = useSearchHistory()
 

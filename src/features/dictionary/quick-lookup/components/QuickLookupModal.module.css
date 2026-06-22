@@ -9,7 +9,9 @@
 
     padding: 24px;
 
-    background: rgba(15, 23, 42, 0.48);
+    background: rgba(15, 23, 42, 0.45);
+
+    animation: fadeIn 0.18s ease;
 }
 
 .modal {
@@ -18,10 +20,19 @@
 
     overflow: hidden;
 
-    border-radius: 18px;
+    border: 1px solid #eceef2;
+    border-radius: 20px;
+
     background: #ffffff;
-    box-shadow: 0 28px 90px rgba(15, 23, 42, 0.28);
+
+    box-shadow:
+        0 16px 48px rgba(15, 23, 42, 0.16),
+        0 4px 16px rgba(15, 23, 42, 0.06);
+
+    animation: popupIn 0.2s ease;
 }
+
+/* ── Header ── */
 
 .header {
     height: 62px;
@@ -30,22 +41,22 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 0 18px;
+    padding: 0 20px;
 
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #eceef2;
 }
 
 .header h2 {
     margin: 0;
 
-    color: #111827;
+    color: #15213a;
 
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
 }
 
 .header h2 span {
-    color: #1476e8;
+    color: #2563eb;
 }
 
 .closeButton {
@@ -56,19 +67,23 @@
     width: 36px;
     height: 36px;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid #eceef2;
     border-radius: 999px;
 
-    background: #f8fafc;
-    color: #64748b;
+    background: #f6f9ff;
+    color: #6b7280;
 
     cursor: pointer;
+
+    transition: background 0.15s ease, color 0.15s ease;
 }
 
 .closeButton:hover {
-    background: #eef2f7;
-    color: #111827;
+    background: #edf4ff;
+    color: #15213a;
 }
+
+/* ── Main tabs ── */
 
 .tabs {
     height: 56px;
@@ -77,9 +92,9 @@
     align-items: center;
     gap: 8px;
 
-    padding: 0 18px;
+    padding: 0 20px;
 
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #eceef2;
     background: #ffffff;
 
     overflow-x: auto;
@@ -96,28 +111,33 @@
     border: 1px solid transparent;
     border-radius: 10px;
 
-    padding: 9px 14px;
+    padding: 8px 14px;
 
     background: transparent;
-    color: #64748b;
+    color: #6b7280;
 
-    font-size: 15px;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 700;
 
     cursor: pointer;
+
+    transition: background 0.15s ease, color 0.15s ease;
 }
 
 .tabButton:hover {
-    background: #f1f5f9;
-    color: #1476e8;
+    background: #f4f7ff;
+    color: #2563eb;
 }
 
 .activeTab {
-    border-color: #e5e7eb;
+    border-color: #eceef2;
     background: #ffffff;
-    color: #111827;
+    color: #15213a;
+
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
 }
+
+/* ── Content area ── */
 
 .contentScroll {
     height: calc(100% - 118px);
@@ -126,7 +146,7 @@
 
     padding: 18px;
 
-    background: #f1f5f9;
+    background: #F7F8FA;
     box-sizing: border-box;
 }
 
@@ -145,6 +165,8 @@
     background: #ffffff;
 }
 
+/* ── Empty state ── */
+
 .emptyTab {
     height: calc(100% - 118px);
 
@@ -156,7 +178,7 @@
     padding: 32px;
 
     background: #ffffff;
-    color: #64748b;
+    color: #6b7280;
 
     text-align: center;
     box-sizing: border-box;
@@ -165,9 +187,9 @@
 .emptyTab h3 {
     margin: 0 0 8px;
 
-    color: #111827;
+    color: #15213a;
 
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
 }
 
@@ -175,8 +197,10 @@
     margin: 0;
 
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
 }
+
+/* ── Kanji inner tabs ── */
 
 .kanjiTabs {
     height: 44px;
@@ -185,10 +209,10 @@
     align-items: center;
     gap: 26px;
 
-    margin: 0 -18px 0;
+    margin: 0 -18px;
     padding: 0 18px;
 
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #eceef2;
     background: #ffffff;
 
     overflow-x: auto;
@@ -207,7 +231,7 @@
     border: none;
 
     background: transparent;
-    color: #1476e8;
+    color: #2563eb;
 
     font-size: 18px;
     font-weight: 900;
@@ -226,8 +250,28 @@
     height: 3px;
 
     border-radius: 999px;
-    background: #1476e8;
+    background: #2563eb;
 }
+
+/* ── Animations ── */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes popupIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* ── Responsive ── */
 
 @media (max-width: 768px) {
     .overlay {
@@ -236,21 +280,26 @@
 
     .modal {
         height: calc(100vh - 24px);
-        border-radius: 16px;
+        border-radius: 18px;
+    }
+
+    .header {
+        padding: 0 14px;
     }
 
     .header h2 {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .tabs {
         height: 52px;
-        padding: 0 12px;
+        padding: 0 14px;
+        gap: 6px;
     }
 
     .tabButton {
-        padding: 8px 11px;
-        font-size: 14px;
+        padding: 7px 11px;
+        font-size: 13px;
     }
 
     .contentScroll,
@@ -267,7 +316,7 @@
     }
 
     .kanjiTabs {
-        margin: 0 -12px 0;
+        margin: 0 -12px;
         padding: 0 12px;
     }
 }

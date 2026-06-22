@@ -9,7 +9,7 @@
 
     padding: 20px;
 
-    background: rgba(15, 23, 42, 0.38);
+    background: rgba(15, 23, 42, 0.45);
 
     animation: fadeIn 0.18s ease;
 }
@@ -20,30 +20,36 @@
 
     overflow: hidden;
 
+    border: 1px solid #eceef2;
     border-radius: 20px;
+
     background: #ffffff;
 
-    box-shadow: 0 24px 80px rgba(15, 23, 42, 0.22);
+    box-shadow:
+        0 16px 48px rgba(15, 23, 42, 0.16),
+        0 4px 16px rgba(15, 23, 42, 0.06);
 
     animation: popupIn 0.2s ease;
 }
+
+/* ── Header ── */
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    padding: 16px 18px;
+    padding: 16px 20px;
 
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #eceef2;
 }
 
 .header h2 {
     margin: 0;
 
-    color: #111827;
+    color: #15213a;
 
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
 }
 
@@ -52,28 +58,26 @@
     align-items: center;
     justify-content: center;
 
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid #eceef2;
     border-radius: 999px;
 
-    background: #f8fafc;
-    color: #64748b;
+    background: #f6f9ff;
+    color: #6b7280;
 
     cursor: pointer;
 
-    transition:
-        background 0.2s ease,
-        color 0.2s ease,
-        border-color 0.2s ease;
+    transition: background 0.15s ease, color 0.15s ease;
 }
 
 .closeButton:hover {
-    border-color: #cbd5e1;
-    background: #eef2f7;
-    color: #111827;
+    background: #edf4ff;
+    color: #15213a;
 }
+
+/* ── Body ── */
 
 .body {
     max-height: calc(100vh - 110px);
@@ -81,6 +85,8 @@
 
     padding: 18px;
 }
+
+/* ── Upload box ── */
 
 .fileInput {
     display: none;
@@ -99,14 +105,12 @@
     border: 2px dashed #bfdbfe;
     border-radius: 16px;
 
-    background: #eff6ff;
+    background: #edf4ff;
     color: #2563eb;
 
     cursor: pointer;
 
-    transition:
-        background 0.2s ease,
-        border-color 0.2s ease;
+    transition: background 0.15s ease, border-color 0.15s ease;
 }
 
 .uploadBox:hover {
@@ -115,16 +119,18 @@
 }
 
 .uploadBox span {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 800;
 }
 
 .uploadBox small {
-    color: #64748b;
+    color: #6b7280;
 
     font-size: 13px;
     font-weight: 600;
 }
+
+/* ── Preview & result grid ── */
 
 .previewGrid {
     display: grid;
@@ -136,10 +142,10 @@
 .resultBox {
     min-height: 320px;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid #eceef2;
     border-radius: 14px;
 
-    background: #f8fafc;
+    background: #F7F8FA;
 }
 
 .previewBox {
@@ -159,7 +165,7 @@
     border: none;
     border-radius: 10px;
 
-    padding: 9px 12px;
+    padding: 8px 12px;
 
     background: #ffffff;
     color: #2563eb;
@@ -167,17 +173,15 @@
     font-size: 14px;
     font-weight: 800;
 
-    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.16);
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.12);
 
     cursor: pointer;
 
-    transition:
-        background 0.2s ease,
-        color 0.2s ease;
+    transition: background 0.15s ease, color 0.15s ease;
 }
 
 .changeImageButton:hover {
-    background: #eff6ff;
+    background: #edf4ff;
     color: #1d4ed8;
 }
 
@@ -196,9 +200,9 @@
     align-items: center;
     justify-content: center;
 
-    color: #64748b;
+    color: #6b7280;
 
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -209,14 +213,14 @@
 
 .progressTrack {
     width: 80%;
-    height: 8px;
+    height: 6px;
 
     margin: 12px 0;
 
     overflow: hidden;
 
     border-radius: 999px;
-    background: #e5e7eb;
+    background: #eceef2;
 }
 
 .progressBar {
@@ -227,6 +231,8 @@
 
     transition: width 0.2s ease;
 }
+
+/* ── OCR panel ── */
 
 .ocrPanel {
     height: 100%;
@@ -240,7 +246,7 @@
 .ocrHint {
     margin: 0;
 
-    color: #64748b;
+    color: #6b7280;
 
     font-size: 13px;
     font-weight: 700;
@@ -256,11 +262,11 @@
 
     padding: 14px;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid #eceef2;
     border-radius: 12px;
 
     background: #ffffff;
-    color: #111827;
+    color: #15213a;
 
     font-size: 16px;
     font-weight: 600;
@@ -274,8 +280,10 @@
 
 .ocrText::selection {
     background: #bfdbfe;
-    color: #111827;
+    color: #15213a;
 }
+
+/* ── Selection bar ── */
 
 .selectionBar {
     display: flex;
@@ -289,7 +297,7 @@
     border: 1px solid #bfdbfe;
     border-radius: 12px;
 
-    background: #eff6ff;
+    background: #edf4ff;
 }
 
 .selectedText {
@@ -301,16 +309,16 @@
 }
 
 .selectedText span {
-    color: #64748b;
+    color: #6b7280;
 
     font-size: 13px;
     font-weight: 700;
 }
 
 .selectedText strong {
-    color: #111827;
+    color: #15213a;
 
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 800;
 
     word-break: break-word;
@@ -324,6 +332,8 @@
     gap: 8px;
 }
 
+/* ── Buttons ── */
+
 .primaryButton,
 .secondaryButton {
     display: inline-flex;
@@ -334,16 +344,14 @@
     border: none;
     border-radius: 10px;
 
-    padding: 9px 12px;
+    padding: 9px 14px;
 
     font-size: 14px;
     font-weight: 800;
 
     cursor: pointer;
 
-    transition:
-        background 0.2s ease,
-        color 0.2s ease;
+    transition: background 0.15s ease;
 }
 
 .primaryButton {
@@ -361,7 +369,7 @@
 }
 
 .secondaryButton:hover {
-    background: #dbeafe;
+    background: #edf4ff;
 }
 
 .rawTextBox {
@@ -373,7 +381,7 @@
     margin-top: 14px;
     padding: 12px 14px;
 
-    border: 1px solid #e5e7eb;
+    border: 1px solid #eceef2;
     border-radius: 12px;
 
     background: #ffffff;
@@ -382,19 +390,19 @@
 .rawTextBox p {
     margin: 0;
 
-    color: #64748b;
+    color: #6b7280;
 
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .rawTextBox button {
     border: none;
     border-radius: 10px;
 
-    padding: 9px 12px;
+    padding: 8px 12px;
 
-    background: #eff6ff;
+    background: #edf4ff;
     color: #2563eb;
 
     font-size: 14px;
@@ -402,9 +410,7 @@
 
     cursor: pointer;
 
-    transition:
-        background 0.2s ease,
-        color 0.2s ease;
+    transition: background 0.15s ease;
 }
 
 .rawTextBox button:hover {
@@ -422,14 +428,11 @@
     text-align: center;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+/* ── Animations ── */
 
-    to {
-        opacity: 1;
-    }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 @keyframes popupIn {
@@ -437,12 +440,13 @@
         opacity: 0;
         transform: translateY(12px) scale(0.98);
     }
-
     to {
         opacity: 1;
         transform: translateY(0) scale(1);
     }
 }
+
+/* ── Responsive ── */
 
 @media (max-width: 768px) {
     .overlay {
@@ -455,6 +459,11 @@
         max-height: calc(100vh - 24px);
 
         border-radius: 20px 20px 0 0;
+        border-bottom: none;
+    }
+
+    .header {
+        padding: 14px 16px;
     }
 
     .body {

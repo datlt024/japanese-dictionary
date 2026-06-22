@@ -1,62 +1,88 @@
 .overlay {
     position: fixed;
     inset: 0;
-    z-index: 1000;
+    z-index: 9999;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     background: rgba(15, 23, 42, 0.45);
+
+    animation: fadeIn 0.18s ease;
+}
+
+.overlayHidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .modal {
     width: min(780px, calc(100vw - 32px));
-    border-radius: 18px;
-    background: #fff;
-    box-shadow: 0 24px 80px rgba(15, 23, 42, 0.25);
+
     overflow: hidden;
+
+    border: 1px solid #eceef2;
+    border-radius: 20px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 16px 48px rgba(15, 23, 42, 0.16),
+        0 4px 16px rgba(15, 23, 42, 0.06);
+
+    animation: popupIn 0.2s ease;
 }
 
+/* ── Header ── */
+
 .header {
-    height: 64px;
-    padding: 0 22px;
+    height: 62px;
+
+    padding: 0 20px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #e5e7eb;
+
+    border-bottom: 1px solid #eceef2;
 }
 
 .header h2 {
-    font-size: 20px;
-    font-weight: 700;
+    margin: 0;
+
+    color: #15213a;
+
+    font-size: 18px;
+    font-weight: 800;
 }
 
 .closeButton {
-    width: 40px;
-    height: 40px;
-    border: none;
-    border-radius: 50%;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: transparent;
-    color: #64748b;
-    font-size: 18px;
-    font-weight: 500;
+
+    width: 36px;
+    height: 36px;
+
+    border: 1px solid #eceef2;
+    border-radius: 999px;
+
+    background: #f6f9ff;
+    color: #6b7280;
+
     cursor: pointer;
-    transition:
-        background-color 0.2s ease,
-        color 0.2s ease,
-        transform 0.2s ease;
+
+    transition: background 0.15s ease, color 0.15s ease;
 }
 
 .closeButton:hover {
-    background: #f1f5f9;
-    color: #0f172a;
+    background: #edf4ff;
+    color: #15213a;
 }
 
-.closeButton:active {
-    transform: scale(0.95);
-}
+/* ── Body layout ── */
 
 .body {
     display: grid;
@@ -64,9 +90,13 @@
     min-height: 430px;
 }
 
+/* ── Draw area ── */
+
 .drawArea {
-    padding: 18px 22px;
-    border-right: 1px solid #e5e7eb;
+    padding: 20px 22px;
+
+    border-right: 1px solid #eceef2;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,57 +104,67 @@
 
 .canvasWrap {
     position: relative;
+
     width: 330px;
     height: 330px;
-    border: 1px solid #dfe6f0;
-    border-radius: 10px;
+
     overflow: hidden;
+
+    border: 1px solid #eceef2;
+    border-radius: 12px;
+
     background:
-        linear-gradient(to right, transparent 49.8%, #e5e7eb 50%, transparent 50.2%),
-        linear-gradient(to bottom, transparent 49.8%, #e5e7eb 50%, transparent 50.2%),
-        #fff;
+        linear-gradient(to right, transparent 49.8%, #eceef2 50%, transparent 50.2%),
+        linear-gradient(to bottom, transparent 49.8%, #eceef2 50%, transparent 50.2%),
+        #ffffff;
 }
 
 .canvas {
     width: 330px;
     height: 330px;
+
     display: block;
+
     touch-action: none;
     cursor: crosshair;
 }
 
+/* ── Action buttons ── */
+
 .actions {
     width: 330px;
-    margin-top: 18px;
+
+    margin-top: 16px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
 .actions button {
-    height: 48px;
+    height: 46px;
     min-width: 0;
+
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 6px;
-    border: 1px solid #dbe3ef;
+
+    border: 1px solid #eceef2;
     border-radius: 12px;
-    background: #fff;
-    color: #374151;
+
+    background: #ffffff;
+    color: #15213a;
+
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1;
     white-space: nowrap;
+
     cursor: pointer;
     user-select: none;
-    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.06);
-    transition:
-        background-color 0.18s ease,
-        border-color 0.18s ease,
-        color 0.18s ease,
-        box-shadow 0.18s ease,
-        transform 0.18s ease;
+
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
 .actions button span {
@@ -132,104 +172,127 @@
 }
 
 .actions button:hover {
-    background: #f3f7ff;
-    border-color: #4f7cff;
+    background: #f4f7ff;
+    border-color: #bfdbfe;
     color: #2563eb;
-    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.14);
-    transform: translateY(-1px);
 }
 
 .actions button:active {
-    transform: translateY(1px);
-    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+    background: #edf4ff;
 }
 
 .actions button:disabled {
-    opacity: 0.55;
+    opacity: 0.45;
     cursor: not-allowed;
-    transform: none;
-    box-shadow: none;
 }
 
 .actions button:disabled:hover {
-    background: #fff;
-    border-color: #dbe3ef;
-    color: #374151;
-    transform: none;
-    box-shadow: none;
+    background: #ffffff;
+    border-color: #eceef2;
+    color: #15213a;
 }
 
 .searchButton {
-    background: #1677ff !important;
-    border-color: #1677ff !important;
-    color: #fff !important;
-    box-shadow: 0 6px 16px rgba(22, 119, 255, 0.22);
+    background: #2563eb !important;
+    border-color: #2563eb !important;
+    color: #ffffff !important;
 }
 
 .searchButton:hover {
-    background: #0958d9 !important;
-    border-color: #0958d9 !important;
-    color: #fff !important;
-    box-shadow: 0 8px 20px rgba(9, 88, 217, 0.28);
+    background: #1d4ed8 !important;
+    border-color: #1d4ed8 !important;
+    color: #ffffff !important;
 }
 
 .searchButton:disabled,
 .searchButton:disabled:hover {
     background: #93c5fd !important;
     border-color: #93c5fd !important;
-    color: #fff !important;
-    box-shadow: none;
+    color: #ffffff !important;
 }
 
+/* ── Result area ── */
+
 .resultArea {
-    padding: 22px;
+    padding: 20px 22px;
 }
 
 .resultArea h3 {
-    margin-bottom: 16px;
-    font-size: 16px;
-    font-weight: 700;
+    margin: 0 0 16px;
+
+    color: #15213a;
+
+    font-size: 15px;
+    font-weight: 800;
 }
 
 .suggestions {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 10px;
 }
 
 .suggestions button {
     min-width: 48px;
     height: 48px;
+
     padding: 0 14px;
-    border: 1px solid #dfe6f0;
-    border-radius: 10px;
-    background: #fff;
+
+    border: 1px solid #eceef2;
+    border-radius: 12px;
+
+    background: #ffffff;
+
+    color: #142957;
+
     font-size: 24px;
     font-weight: 700;
+
     cursor: pointer;
-    transition:
-        background-color 0.18s ease,
-        border-color 0.18s ease,
-        color 0.18s ease,
-        transform 0.18s ease;
+
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
 .suggestions button:hover {
-    background: #f3f7ff;
-    border-color: #2563eb;
+    background: #f4f7ff;
+    border-color: #bfdbfe;
     color: #2563eb;
-    transform: translateY(-1px);
 }
 
 .emptyHint {
-    color: #64748b;
+    color: #6b7280;
+
     font-size: 14px;
     line-height: 1.6;
 }
 
+/* ── Animations ── */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes popupIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* ── Responsive ── */
+
 @media (max-width: 768px) {
     .modal {
         width: calc(100vw - 24px);
+    }
+
+    .header {
+        padding: 0 14px;
     }
 
     .body {
@@ -238,7 +301,7 @@
 
     .drawArea {
         border-right: none;
-        border-bottom: 1px solid #e5e7eb;
+        border-bottom: 1px solid #eceef2;
     }
 
     .canvasWrap,
@@ -252,20 +315,8 @@
         height: min(360px, calc(100vw - 72px));
     }
 
-    .actions {
-        gap: 10px;
-    }
-
     .actions button {
-        height: 46px;
-        font-size: 14px;
+        height: 44px;
+        font-size: 13px;
     }
-}
-.overlayHidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-.overlay {
-    z-index: 9999;
 }

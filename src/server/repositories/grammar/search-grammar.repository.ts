@@ -39,11 +39,8 @@ export async function searchGrammarsByKeyword(keyword: string) {
                 `pattern.ilike.%${value}%`,
                 `reading.ilike.%${value}%`,
                 `slug.ilike.%${value}%`,
-                `source_id.ilike.%${value}%`,
                 `meaning_vi.ilike.%${value}%`,
-                `meaning_en.ilike.%${value}%`,
                 `short_meaning_vi.ilike.%${value}%`,
-                `explanation_vi.ilike.%${value}%`,
             ].join(",")
         )
         .order("sort_order", { ascending: true })
