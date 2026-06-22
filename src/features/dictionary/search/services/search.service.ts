@@ -11,7 +11,7 @@ import type {
 
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
-import { searchKanjiByKeyword } from "@/server/repositories/kanji/search-kanji.repository"
+import { getKanjisByCharacters, searchKanjiByKeyword } from "@/server/repositories/kanji/search-kanji.repository"
 import { searchGrammarsByKeyword } from "@/server/repositories/grammar/search-grammar.repository"
 import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
 
@@ -55,13 +55,29 @@ async function searchKanjiResult(
         return []
     }
 
-    if (!data) {
+    if (data) {
+        return Array.isArray(data)
+            ? data as KanjiSearchItem[]
+            : [data] as KanjiSearchItem[]
+    }
+
+    // keyword is multi-char or single kanji not found — extract individual kanji and batch-lookup
+    const chars = Array.from(
+        new Set(
+            Array.from(keyword.matchAll(/[一-龯]/g)).map((m) => m[0])
+        )
+    )
+
+    if (chars.length === 0) return []
+
+    const { data: batchData, error: batchError } = await getKanjisByCharacters(chars)
+
+    if (batchError) {
+        console.error("Kanji batch search error:", batchError)
         return []
     }
 
-    return Array.isArray(data)
-        ? data as KanjiSearchItem[]
-        : [data] as KanjiSearchItem[]
+    return (batchData || []) as KanjiSearchItem[]
 }
 
 async function searchGrammarResult(

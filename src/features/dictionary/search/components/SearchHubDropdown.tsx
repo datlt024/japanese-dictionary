@@ -322,21 +322,38 @@ export default function SearchHubDropdown({
                 {activeTab === "kanji" && (
                     <>
                         {kanjiOptions.length > 0 ? (
-                            kanjiOptions.map((item) => (
-                                <Link
-                                    key={`kanji-option-${item}`}
-                                    href={`/kanji/${encodeURIComponent(
-                                        item
-                                    )}?q=${encodeURIComponent(
-                                        cleanKeyword
-                                    )}&lang=${encodeURIComponent(
-                                        language
-                                    )}`}
-                                    className={styles.searchHubKanji}
-                                >
-                                    <strong>{item}</strong>
-                                </Link>
-                            ))
+                            loading && !kanjiResults.some((r) => kanjiOptions.includes(r.kanji)) ? (
+                                <p className={styles.searchHubEmpty}>
+                                    Đang tìm kiếm...
+                                </p>
+                            ) : (
+                                kanjiOptions.map((char) => {
+                                    const matched = kanjiResults.find(
+                                        (r) => r.kanji === char
+                                    )
+                                    return (
+                                        <Link
+                                            key={`kanji-option-${char}`}
+                                            href={`/kanji/${encodeURIComponent(
+                                                char
+                                            )}?q=${encodeURIComponent(
+                                                cleanKeyword
+                                            )}&lang=${encodeURIComponent(
+                                                language
+                                            )}`}
+                                            className={styles.searchHubKanji}
+                                        >
+                                            <strong>{char}</strong>
+
+                                            {matched?.han_viet && (
+                                                <div>
+                                                    <p>{matched.han_viet}</p>
+                                                </div>
+                                            )}
+                                        </Link>
+                                    )
+                                })
+                            )
                         ) : loading && kanjiResults.length === 0 ? (
                             <p className={styles.searchHubEmpty}>
                                 Đang tìm kiếm...
@@ -360,19 +377,11 @@ export default function SearchHubDropdown({
                                 >
                                     <strong>{item.kanji}</strong>
 
-                                    <div>
-                                        <p>
-                                            {getKanjiMeaning(
-                                                item,
-                                                language
-                                            )}
-                                        </p>
-
-                                        <span>
-                                            On: {item.onyomi || "-"} / Kun:{" "}
-                                            {item.kunyomi || "-"}
-                                        </span>
-                                    </div>
+                                    {item.han_viet && (
+                                        <div>
+                                            <p>{item.han_viet}</p>
+                                        </div>
+                                    )}
                                 </Link>
                             ))
                         )}

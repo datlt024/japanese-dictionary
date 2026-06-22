@@ -23,3 +23,10 @@ export function searchKanjiByKeyword(keyword: string) {
         .eq("kanji", value)
         .maybeSingle()
 }
+
+export function getKanjisByCharacters(chars: string[]) {
+    return supabaseServer
+        .from("kanjis")
+        .select(SEARCH_KANJI_COLUMNS)
+        .in("kanji", chars)
+}

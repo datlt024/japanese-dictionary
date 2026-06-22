@@ -27,6 +27,7 @@ export type KanjiSearchItem = Pick<
     Tables<"kanjis">,
     | "id"
     | "kanji"
+    | "han_viet"
     | "meaning_vi"
     | "meaning_en"
     | "onyomi"

@@ -24,6 +24,7 @@ export type SearchVocabulary = {
 export type SearchKanji = {
     id: number
     kanji: string
+    han_viet?: string | null
     meaning_vi?: string | null
     meaning_en?: string | null
     onyomi: string | null
@@ -109,6 +110,7 @@ export default function useSearchHub(
     const {
         data,
         isLoading,
+        isValidating,
         error,
     } = useSWR<SearchHubResult>(
         searchUrl,
@@ -131,7 +133,7 @@ export default function useSearchHub(
                 ? data || emptyResult
                 : emptyResult,
 
-        loading: shouldSearch ? isLoading : false,
+        loading: shouldSearch ? (isLoading || isValidating) : false,
 
         error,
     }
