@@ -99,36 +99,6 @@ const GRAMMAR_DETAIL_COLUMNS = `
     )
 `
 
-const SEARCH_GRAMMAR_COLUMNS = `
-    id,
-    source_id,
-    slug,
-    pattern,
-    display_pattern,
-    reading,
-    jlpt_level,
-    meaning_vi,
-    meaning_en,
-    short_meaning_vi,
-    explanation_vi,
-    explanation_en,
-    nuance_vi,
-    frequency,
-    is_common,
-    sort_order,
-    created_at,
-    updated_at
-`
-
-const SEARCH_LIMIT = 20
-
-function normalizeKeyword(keyword: string) {
-    return keyword.trim()
-}
-
-function escapeLikePattern(keyword: string) {
-    return keyword.replace(/[%_]/g, "\\$&")
-}
 
 async function fetchSimilarGrammarPatterns(grammarId: number): Promise<string[]> {
     const { data: links } = await supabaseServer
@@ -240,34 +210,6 @@ function mapGrammarDetail(row: GrammarDetailRow | null, similar_grammar: string[
     }
 }
 
-export async function searchGrammarPointsByKeyword(keyword: string) {
-    const value = escapeLikePattern(normalizeKeyword(keyword))
-
-    if (!value) {
-        return { data: [], error: null }
-    }
-
-    const { data, error } = await supabaseServer
-        .from("grammars")
-        .select(SEARCH_GRAMMAR_COLUMNS)
-        .or(
-            [
-                `pattern.ilike.%${value}%`,
-                `reading.ilike.%${value}%`,
-                `slug.ilike.%${value}%`,
-                `source_id.ilike.%${value}%`,
-                `meaning_vi.ilike.%${value}%`,
-                `meaning_en.ilike.%${value}%`,
-                `short_meaning_vi.ilike.%${value}%`,
-                `explanation_vi.ilike.%${value}%`,
-                `explanation_en.ilike.%${value}%`,
-            ].join(",")
-        )
-        .order("sort_order", { ascending: true })
-        .limit(SEARCH_LIMIT)
-
-    return { data: data ?? [], error }
-}
 
 export async function findGrammarPointById(id: number) {
     const { data: rawData, error } = await supabaseServer

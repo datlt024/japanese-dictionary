@@ -66,7 +66,6 @@ async function searchKanjiResult(
 
 async function searchGrammarResult(
     keyword: string,
-    _language: DictionaryLanguage
 ): Promise<GrammarSearchItem[]> {
     const { data, error } = await searchGrammarsByKeyword(keyword)
 
@@ -113,7 +112,6 @@ export async function searchDictionary(
     if (tab === "grammar") {
         const grammars = await searchGrammarResult(
             normalizedKeyword,
-            language
         )
 
         return {
@@ -132,7 +130,6 @@ export async function searchDictionary(
                 searchKanjiResult(normalizedKeyword),
                 searchGrammarResult(
                     normalizedKeyword,
-                    language
                 ),
             ])
 

@@ -12,7 +12,7 @@ import {
 
 import DictionaryCommunityCard
     from "@/shared/components/DictionaryCommunityCard/DictionaryCommunityCard"
-import ExampleSection from "../../../../shared/components/ExampleSection/ExampleSection"
+import ExampleSection from "@/shared/components/ExampleSection/ExampleSection"
 import VocabularyKanjiAnalysis from "./VocabularyKanjiAnalysis/VocabularyKanjiAnalysis"
 import VocabularyMeaningCards from "./VocabularyMeaningCards/VocabularyMeaningCards"
 import VocabularyRelatedWords from "./VocabularyRelatedWords/VocabularyRelatedWords"

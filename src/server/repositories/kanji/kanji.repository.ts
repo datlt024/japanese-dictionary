@@ -38,12 +38,6 @@ meaning_en,
 meaning_vi
 ` as const
 
-const READING_WORD_LIMIT = 5
-
-function escapeLikePattern(keyword: string) {
-    return keyword.replace(/[%_]/g, "\\$&")
-}
-
 export async function findKanjiByCharacter(character: string) {
     return supabaseServer
         .from("kanjis")
@@ -101,17 +95,14 @@ export async function findVocabularySenses(
         })
 }
 
-export async function findReadingWords(
-    character: string,
-    reading: string
+export async function findReadingExamples(
+    kanji: string,
+    reading: string,
+    readingType: "onyomi" | "kunyomi"
 ) {
-    const escapedCharacter = escapeLikePattern(character)
-    const escapedReading = escapeLikePattern(reading)
-
-    return supabaseServer
-        .from("vocabularies")
-        .select(VOCABULARY_SUMMARY_COLUMNS)
-        .ilike("primary_word", `%${escapedCharacter}%`)
-        .ilike("primary_kana", `%${escapedReading}%`)
-        .limit(READING_WORD_LIMIT)
+    return supabaseServer.rpc("get_kanji_reading_examples_rpc", {
+        search_kanji: kanji,
+        search_reading: reading,
+        search_reading_type: readingType,
+    })
 }

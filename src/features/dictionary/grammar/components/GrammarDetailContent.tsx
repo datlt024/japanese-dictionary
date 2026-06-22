@@ -1,4 +1,5 @@
 import type { GrammarPoint } from "@/domain/grammar"
+import type { GrammarSearchItem } from "@/domain/search"
 
 import DictionaryCommunityCard from "@/shared/components/DictionaryCommunityCard/DictionaryCommunityCard"
 
@@ -16,7 +17,7 @@ import styles from "./GrammarDetailContent.module.css"
 
 type Props = {
     grammar: GrammarPoint
-    relatedGrammars: GrammarPoint[]
+    relatedGrammars: GrammarSearchItem[]
     keyword: string
 }
 

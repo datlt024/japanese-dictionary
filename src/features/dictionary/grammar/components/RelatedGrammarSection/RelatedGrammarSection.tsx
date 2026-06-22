@@ -1,12 +1,13 @@
 import Link from "next/link"
 
 import type { GrammarPoint } from "@/domain/grammar"
+import type { GrammarSearchItem } from "@/domain/search"
 
 import styles from "./RelatedGrammarSection.module.css"
 
 type Props = {
     grammar: GrammarPoint
-    relatedGrammars: GrammarPoint[]
+    relatedGrammars: GrammarSearchItem[]
     keyword: string
 }
 

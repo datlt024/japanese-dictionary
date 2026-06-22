@@ -33,8 +33,8 @@ async function createKanjiTarget(
     }
 
     const [kunyomiGroups, onyomiGroups] = await Promise.all([
-        getWordsByReadingGroups(kanjiCharacter, kanji.kunyomi),
-        getWordsByReadingGroups(kanjiCharacter, kanji.onyomi),
+        getWordsByReadingGroups(kanjiCharacter, kanji.kunyomi, "kunyomi"),
+        getWordsByReadingGroups(kanjiCharacter, kanji.onyomi, "onyomi"),
     ])
 
     return {

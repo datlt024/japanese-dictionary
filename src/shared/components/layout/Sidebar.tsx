@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useLayoutEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
@@ -20,46 +20,29 @@ const menuItems = [
 export default function Sidebar() {
     const pathname = usePathname()
 
-    const [mounted, setMounted] = useState(false)
     const [collapsed, setCollapsed] = useState(false)
 
-    useEffect(() => {
-        const timer = window.setTimeout(() => {
-            const savedCollapsed =
-                localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
-
-            setCollapsed(savedCollapsed)
-            setMounted(true)
-        }, 0)
-
-        return () => {
-            window.clearTimeout(timer)
-        }
+    useLayoutEffect(() => {
+        const savedCollapsed =
+            localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setCollapsed(savedCollapsed)
     }, [])
 
     function toggleSidebar() {
         setCollapsed((current) => {
             const next = !current
-
-            localStorage.setItem(
-                SIDEBAR_COLLAPSED_KEY,
-                String(next)
-            )
-
+            localStorage.setItem(SIDEBAR_COLLAPSED_KEY, String(next))
             return next
         })
     }
 
-    const isCollapsed = mounted && collapsed
-
     return (
         <aside
             className={
-                isCollapsed
+                collapsed
                     ? `${styles.sidebar} ${styles.sidebarCollapsed}`
-                    : mounted
-                        ? styles.sidebar
-                        : `${styles.sidebar} ${styles.noTransition}`
+                    : styles.sidebar
             }
         >
             <div className={styles.sidebarHeader}>
@@ -68,11 +51,11 @@ export default function Sidebar() {
                     className={styles.sidebarToggle}
                     onClick={toggleSidebar}
                     aria-label={
-                        isCollapsed
+                        collapsed
                             ? "Mở rộng menu"
                             : "Thu gọn menu"
                     }
-                    aria-expanded={!isCollapsed}
+                    aria-expanded={!collapsed}
                 >
                     ☰
                 </button>
@@ -98,7 +81,7 @@ export default function Sidebar() {
                                     ? `${styles.sidebarLink} ${styles.active}`
                                     : styles.sidebarLink
                             }
-                            title={isCollapsed ? item.label : undefined}
+                            title={collapsed ? item.label : undefined}
                         >
                             <span className={styles.sidebarIcon}>
                                 {item.icon}

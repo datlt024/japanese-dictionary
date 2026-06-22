@@ -1,10 +1,11 @@
 import type { Database } from "@/shared/types/database.generated"
 import { cleanReading } from "@/shared/utils/japanese"
+import { katakanaToHiragana } from "@/shared/utils/string"
 
 import {
     findKanjiByCharacter,
     findKanjiLinks,
-    findReadingWords,
+    findReadingExamples,
     findVocabulariesByIds,
     findVocabularySenses,
 } from "@/server/repositories/kanji/kanji.repository"
@@ -214,15 +215,58 @@ export async function getWordsByKanji(
     return sortWordsByLinkOrder(words, links)
 }
 
-export async function getWordsByReadingGroups(
+function mapRpcItem(item: {
+    id: number
+    word: string
+    kana: string
+    meaning_en: string
+    meaning_vi: string
+}): KanjiRelatedWord {
+    return {
+        id: item.id,
+        word: item.word,
+        kana: item.kana,
+        meaning_en: item.meaning_en,
+        meaning_vi: item.meaning_vi,
+    }
+}
+
+async function buildReadingGroupsFromVocabulary(
     character: string,
-    readingsText: string | null
+    readings: { displayReading: string; searchReading: string }[]
 ): Promise<KanjiReadingGroup[]> {
-    if (!readingsText) {
-        return []
+    const links = await getVocabularyIdsByKanji(character, 150)
+    if (links.length === 0) return []
+
+    const vocabularyIds = links
+        .map((l) => l.vocabulary_id)
+        .filter((id): id is number => id !== null)
+
+    const vocabularies = await getVocabulariesByIds(vocabularyIds)
+    const words = await attachMeanings(vocabularies)
+
+    const groups: KanjiReadingGroup[] = []
+
+    for (const reading of readings) {
+        const matched = words.filter(
+            (w) => w.kana && katakanaToHiragana(w.kana).includes(reading.searchReading)
+        )
+        if (matched.length > 0) {
+            groups.push({ reading: reading.displayReading, words: matched.slice(0, 5) })
+        }
     }
 
-    const cacheKey = `reading:${character}:${readingsText}`
+    return groups
+}
+
+export async function getWordsByReadingGroups(
+    character: string,
+    readingsText: string | null,
+    readingType: "onyomi" | "kunyomi"
+): Promise<KanjiReadingGroup[]> {
+    if (!readingsText) return []
+
+    const cacheKey = `reading:${character}:${readingType}:${readingsText}`
 
     if (readingGroupCache.has(cacheKey)) {
         return readingGroupCache.get(cacheKey) || []
@@ -233,51 +277,51 @@ export async function getWordsByReadingGroups(
         .map((item) => {
             const displayReading = item.trim()
             const searchReading = cleanReading(displayReading)
-
-            return {
-                displayReading,
-                searchReading,
-            }
+            return { displayReading, searchReading }
         })
         .filter((item) => item.displayReading && item.searchReading)
         .slice(0, 5)
 
-    const results = await Promise.all(
-        readings.map(async (reading) => {
-            const { data, error } = await findReadingWords(
+    if (readings.length === 0) {
+        readingGroupCache.set(cacheKey, [])
+        return []
+    }
+
+    // Try RPC for all readings in parallel
+    const rpcResults = await Promise.all(
+        readings.map(async (reading): Promise<KanjiReadingGroup | null> => {
+            const { data, error } = await findReadingExamples(
                 character,
-                reading.searchReading
+                reading.searchReading,
+                readingType
             )
 
+            // Table doesn't exist — signal fallback needed
+            if (error?.code === "42P01") return null
+
             if (error) {
-                console.error("findReadingWords error", {
-                    message: error.message,
-                    details: error.details,
-                    hint: error.hint,
-                    code: error.code,
-                })
-
+                console.error("findReadingExamples error", error.message, error.code)
                 return null
             }
 
-            const words = await attachMeanings(data || [])
+            if (!data?.length) return null
 
-            if (words.length === 0) {
-                return null
-            }
-
-            return {
-                reading: reading.displayReading,
-                words,
-            }
+            return { reading: reading.displayReading, words: data.slice(0, 5).map(mapRpcItem) }
         })
     )
 
-    const groups = results.filter(
+    const rpcGroups = rpcResults.filter(
         (item): item is KanjiReadingGroup => item !== null
     )
 
-    readingGroupCache.set(cacheKey, groups)
+    // If RPC returned results, use them
+    if (rpcGroups.length > 0) {
+        readingGroupCache.set(cacheKey, rpcGroups)
+        return rpcGroups
+    }
 
+    // RPC returned nothing (table missing or empty) — fall back to vocabulary data
+    const groups = await buildReadingGroupsFromVocabulary(character, readings)
+    readingGroupCache.set(cacheKey, groups)
     return groups
 }

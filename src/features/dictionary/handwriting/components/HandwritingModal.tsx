@@ -378,7 +378,7 @@ export default function HandwritingModal({
         <>
             <Script
                 src="/vendor/kanji-canvas/kanji-canvas.min.js?v=12"
-                strategy="afterInteractive"
+                strategy="lazyOnload"
                 onLoad={() => {
                     kanjiCanvasLoadedRef.current = true
                     updateScriptsReady()
@@ -387,7 +387,7 @@ export default function HandwritingModal({
 
             <Script
                 src="/vendor/kanji-canvas/ref-patterns.js?v=12"
-                strategy="afterInteractive"
+                strategy="lazyOnload"
                 onLoad={() => {
                     refPatternsLoadedRef.current = true
                     updateScriptsReady()

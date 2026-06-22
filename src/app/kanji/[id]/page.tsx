@@ -1,8 +1,3 @@
-"use client"
-
-import { useEffect, useMemo, useState } from "react"
-import { useParams, useSearchParams } from "next/navigation"
-
 import styles from "@/features/dictionary/kanji/components/KanjiDetailContent.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
@@ -10,105 +5,38 @@ import KanjiDetailContent from "@/features/dictionary/kanji/components/KanjiDeta
 
 import { uniqueArray } from "@/shared/utils/uniqueArray"
 
-import type {
-    Kanji,
-    KanjiReadingGroup,
-} from "@/domain/kanji"
-
 import {
     getKanjiByCharacter,
     getWordsByReadingGroups,
 } from "@/features/dictionary/kanji/services/kanji.service"
 
-import {
-    extractKanjis,
-} from "@/features/dictionary/kanji/utils"
+import { extractKanjis } from "@/features/dictionary/kanji/utils"
 
-export default function KanjiDetailPage() {
-    const params = useParams<{ id: string }>()
-    const searchParams = useSearchParams()
+type Props = {
+    params: Promise<{ id: string }>
+    searchParams: Promise<{ q?: string }>
+}
 
-    const [kanji, setKanji] = useState<Kanji | null>(null)
+export default async function KanjiDetailPage({ params, searchParams }: Props) {
+    const { id } = await params
+    const { q } = await searchParams
 
-    const [kunyomiGroups, setKunyomiGroups] =
-        useState<KanjiReadingGroup[]>([])
+    const currentKanji = decodeURIComponent(id).replace(/\0/g, "")
+    const searchKeyword = q || currentKanji
 
-    const [onyomiGroups, setOnyomiGroups] =
-        useState<KanjiReadingGroup[]>([])
+    const kanjis = extractKanjis(searchKeyword)
+    const kanjiOptions = uniqueArray(
+        kanjis.length > 0 ? kanjis : currentKanji ? [currentKanji] : []
+    )
 
-    const [loading, setLoading] = useState(true)
-    const [examplesLoading, setExamplesLoading] = useState(false)
+    const kanjiData = await getKanjiByCharacter(currentKanji)
 
-    const currentKanji = useMemo(() => {
-        return decodeURIComponent(params.id).replace(/\0/g, "")
-    }, [params.id])
-
-    const searchKeyword = searchParams.get("q") || currentKanji
-
-    const kanjiOptions = useMemo(() => {
-        const kanjis = extractKanjis(searchKeyword)
-
-        if (kanjis.length === 0) {
-            return currentKanji ? [currentKanji] : []
-        }
-
-        return uniqueArray(kanjis)
-    }, [searchKeyword, currentKanji])
-
-    useEffect(() => {
-        let cancelled = false
-
-        async function fetchKanji() {
-            setLoading(true)
-            setExamplesLoading(false)
-            setKanji(null)
-            setKunyomiGroups([])
-            setOnyomiGroups([])
-
-            const kanjiData =
-                await getKanjiByCharacter(currentKanji)
-
-            if (cancelled) {
-                return
-            }
-
-            if (!kanjiData) {
-                setKanji(null)
-                setLoading(false)
-                return
-            }
-
-            setKanji(kanjiData)
-            setLoading(false)
-            setExamplesLoading(true)
-
-            const [kunyomiData, onyomiData] =
-                await Promise.all([
-                    getWordsByReadingGroups(
-                        currentKanji,
-                        kanjiData.kunyomi
-                    ),
-                    getWordsByReadingGroups(
-                        currentKanji,
-                        kanjiData.onyomi
-                    ),
-                ])
-
-            if (cancelled) {
-                return
-            }
-
-            setKunyomiGroups(kunyomiData)
-            setOnyomiGroups(onyomiData)
-            setExamplesLoading(false)
-        }
-
-        fetchKanji()
-
-        return () => {
-            cancelled = true
-        }
-    }, [currentKanji])
+    const [kunyomiGroups, onyomiGroups] = kanjiData
+        ? await Promise.all([
+              getWordsByReadingGroups(currentKanji, kanjiData.kunyomi, "kunyomi"),
+              getWordsByReadingGroups(currentKanji, kanjiData.onyomi, "onyomi"),
+          ])
+        : [[], []]
 
     return (
         <AppLayout
@@ -121,9 +49,9 @@ export default function KanjiDetailPage() {
                 data-quick-lookup-root="true"
             >
                 <KanjiDetailContent
-                    kanji={kanji}
-                    loading={loading}
-                    examplesLoading={examplesLoading}
+                    kanji={kanjiData}
+                    loading={false}
+                    examplesLoading={false}
                     kunyomiGroups={kunyomiGroups}
                     onyomiGroups={onyomiGroups}
                     currentKanji={currentKanji}

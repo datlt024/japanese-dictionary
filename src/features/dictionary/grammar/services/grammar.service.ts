@@ -1,28 +1,26 @@
 import type { GrammarPoint } from "@/domain/grammar"
+import type { GrammarSearchItem } from "@/domain/search"
 
-import {
-    findGrammarPointById,
-    searchGrammarPointsByKeyword,
-} from "@/server/repositories/grammar/grammar.repository"
+import { findGrammarPointById } from "@/server/repositories/grammar/grammar.repository"
+import { searchGrammarsByKeyword } from "@/server/repositories/grammar/search-grammar.repository"
 
 export async function searchGrammarPoints(
     keyword: string
-): Promise<GrammarPoint[]> {
+): Promise<GrammarSearchItem[]> {
     const value = keyword.trim()
 
     if (!value) {
         return []
     }
 
-    const { data, error } =
-        await searchGrammarPointsByKeyword(value)
+    const { data, error } = await searchGrammarsByKeyword(value)
 
     if (error) {
         console.error("Supabase grammar search error:", error)
         return []
     }
 
-    return (data ?? []) as unknown as GrammarPoint[]
+    return (data ?? []) as GrammarSearchItem[]
 }
 
 export async function getGrammarPointById(

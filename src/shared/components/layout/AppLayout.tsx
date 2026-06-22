@@ -2,12 +2,9 @@ import { Suspense } from "react"
 
 import styles from "./AppLayout.module.css"
 
-import Sidebar from "./Sidebar"
 import Header from "./Header"
 import Footer from "./Footer"
 import TopSearchBar from "./TopSearchBar"
-
-import QuickLookupLayer from "@/features/dictionary/quick-lookup/components/QuickLookupLayer"
 
 import type { ReactNode } from "react"
 
@@ -32,36 +29,30 @@ export default function AppLayout({
     activeSearchTab,
 }: AppLayoutProps) {
     return (
-        <div className={styles.appLayout}>
-            <Sidebar />
+        <>
+            <div className={styles.appShell}>
+                <Suspense fallback={null}>
+                    <Header title={title} />
+                </Suspense>
 
-            <div className={styles.appMain}>
-                <div className={styles.appShell}>
+                <section className={styles.appSearchArea}>
                     <Suspense fallback={null}>
-                        <Header title={title} />
+                        <TopSearchBar
+                            searchKeyword={searchKeyword}
+                            activeSearchTab={activeSearchTab}
+                        />
                     </Suspense>
+                </section>
 
-                    <section className={styles.appSearchArea}>
-                        <Suspense fallback={null}>
-                            <TopSearchBar
-                                searchKeyword={searchKeyword}
-                                activeSearchTab={activeSearchTab}
-                            />
-                        </Suspense>
-                    </section>
-
-                    <main
-                        className={styles.appPageContent}
-                        data-quick-lookup-root="true"
-                    >
-                        {children}
-                    </main>
-                </div>
-
-                <Footer />
+                <main
+                    className={styles.appPageContent}
+                    data-quick-lookup-root="true"
+                >
+                    {children}
+                </main>
             </div>
 
-            <QuickLookupLayer />
-        </div>
+            <Footer />
+        </>
     )
 }
