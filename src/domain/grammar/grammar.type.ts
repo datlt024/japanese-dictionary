@@ -4,13 +4,16 @@ export type FormationToken = {
 }
 
 export type GrammarFormationPattern = {
-    structure: string
-    tokens: FormationToken[]
-    note_vi?: string
+    left?: string | null
+    remove?: string | null
+    right?: string | null
+    structure?: string | null
+    tokens?: FormationToken[]
+    note_vi?: string | null
 }
 
 export type GrammarFormation = {
-    label: string
+    label?: string
     patterns: GrammarFormationPattern[]
 }
 
@@ -43,6 +46,19 @@ export type GrammarDifference = {
     description_vi: string
 }
 
+export type GrammarVariant = {
+    pattern: string
+    type: string | null
+}
+
+export type GrammarCommonPair = {
+    expression: string
+}
+
+export type GrammarShortForm = {
+    pattern: string
+}
+
 export type GrammarPoint = {
     id: number
 
@@ -66,6 +82,9 @@ export type GrammarPoint = {
     examples: GrammarExample[]
     senses: GrammarSense[]
     special_cases: GrammarSpecialCase[]
+    variants: GrammarVariant[]
+    common_pairs: GrammarCommonPair[]
+    short_forms: GrammarShortForm[]
 
     similar_grammar: string[]
     differences: GrammarDifference[]

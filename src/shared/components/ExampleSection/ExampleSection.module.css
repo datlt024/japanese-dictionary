@@ -70,6 +70,17 @@
     border-radius: 999px;
 
     background: #ffffff;
+
+    transition: right 0.15s ease, left 0.15s ease;
+}
+
+.translationToggleOff i {
+    background: #d1d5db;
+}
+
+.translationToggleOff i::after {
+    right: auto;
+    left: 2px;
 }
 
 .exampleList {

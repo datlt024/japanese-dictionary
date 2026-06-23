@@ -1,5 +1,7 @@
 "use client"
 
+import { useState } from "react"
+
 import { Volume2 } from "lucide-react"
 
 import type { GrammarExample, GrammarRubyItem } from "@/domain/grammar"
@@ -44,6 +46,8 @@ function renderWithRuby(text: string, ruby: GrammarRubyItem[]) {
 }
 
 export default function ExampleSection({ examples = [] }: Props) {
+    const [showTranslation, setShowTranslation] = useState(true)
+
     if (examples.length === 0) return null
 
     return (
@@ -51,9 +55,15 @@ export default function ExampleSection({ examples = [] }: Props) {
             <div className={styles.sectionHeaderRow}>
                 <h2>Ví dụ</h2>
 
-                <label className={styles.translationToggle}>
+                <label
+                    className={`${styles.translationToggle}${showTranslation ? "" : ` ${styles.translationToggleOff}`}`}
+                >
                     <span>Hiện dịch nghĩa</span>
-                    <input type="checkbox" defaultChecked />
+                    <input
+                        type="checkbox"
+                        checked={showTranslation}
+                        onChange={(e) => setShowTranslation(e.target.checked)}
+                    />
                     <i />
                 </label>
             </div>
@@ -61,7 +71,7 @@ export default function ExampleSection({ examples = [] }: Props) {
             <div className={styles.exampleList}>
                 {examples.map((example, index) => (
                     <div
-                        key={example.jp}
+                        key={index}
                         className={styles.exampleRow}
                     >
                         <span className={styles.exampleIndex}>
@@ -73,9 +83,11 @@ export default function ExampleSection({ examples = [] }: Props) {
                                 {renderWithRuby(example.jp, example.ruby)}
                             </p>
 
-                            <p className={styles.exampleVi}>
-                                {example.vi}
-                            </p>
+                            {showTranslation && (
+                                <p className={styles.exampleVi}>
+                                    {example.vi}
+                                </p>
+                            )}
                         </div>
 
                         <div className={styles.exampleActions}>

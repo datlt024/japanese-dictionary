@@ -22,11 +22,6 @@ type SplitStructureResult = {
     isLinear: boolean
 }
 
-type RawFormationPattern = GrammarFormationPattern & {
-    left?: string | null
-    remove?: string | null
-    right?: string | null
-}
 
 type FlatPattern = {
     left: string
@@ -186,7 +181,7 @@ function createDropAwareTokens(
     }
 }
 
-function parsePattern(pattern: RawFormationPattern): FlatPattern | null {
+function parsePattern(pattern: GrammarFormationPattern): FlatPattern | null {
     const newLeft = normalizeText(pattern.left)
     const newRemove = normalizeText(pattern.remove)
     const newRight = normalizeText(pattern.right)
@@ -203,7 +198,7 @@ function parsePattern(pattern: RawFormationPattern): FlatPattern | null {
             right: newRight,
             leftTokens,
             rightTokens,
-            note: pattern.note_vi,
+            note: pattern.note_vi ?? undefined,
             isLinear: !newRight,
         }
     }
@@ -223,7 +218,7 @@ function parsePattern(pattern: RawFormationPattern): FlatPattern | null {
         right,
         leftTokens,
         rightTokens,
-        note: pattern.note_vi,
+        note: pattern.note_vi ?? undefined,
         isLinear,
     }
 }
@@ -277,7 +272,7 @@ function groupAllPatterns(grammar: GrammarPoint) {
     const flatPatterns = formation.flatMap((group) =>
         (group.patterns ?? [])
             .map((pattern) =>
-                parsePattern(pattern as RawFormationPattern)
+                parsePattern(pattern)
             )
             .filter((pattern): pattern is FlatPattern =>
                 Boolean(pattern)
