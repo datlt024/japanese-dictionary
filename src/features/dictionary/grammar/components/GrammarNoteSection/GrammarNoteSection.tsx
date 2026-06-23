@@ -1,6 +1,6 @@
 import type { GrammarPoint } from "@/domain/grammar"
 
-import { hasItems, isTeShimau } from "../../utils/grammarDetail"
+import { hasItems, isTeShimau } from "@/features/dictionary/grammar/utils"
 
 import styles from "./GrammarNoteSection.module.css"
 
