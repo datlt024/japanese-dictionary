@@ -64,7 +64,7 @@ const MANUAL_PATTERN_MAP: Record<string, string> = {
 }
 
 function extractPattern(title: string) {
-    let value = title
+    const value = title
         .replace(/\(.+?\)/g, "")
         .replace(/[～〜]/g, "")
         .replace(/[。．、,.]/g, "")
@@ -78,7 +78,7 @@ function extractPattern(title: string) {
     return value
 }
 
-function extractReading(_title: string) {
+function extractReading() {
     return null
 }
 
@@ -144,7 +144,7 @@ for (const file of INPUT_FILES) {
 
         const item: GrammarSeed = {
             pattern,
-            reading: extractReading(row.title),
+            reading: extractReading(),
             jlpt_level: toJlptLevel(row.p_tag),
             source: "hanabira",
             source_title: row.title,

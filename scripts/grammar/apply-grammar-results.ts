@@ -3,9 +3,11 @@ import fs from "fs"
 import path from "path"
 import { createClient } from "@supabase/supabase-js"
 
+import type { Database } from "../../src/shared/types/database.generated"
+
 dotenv.config({ path: ".env.local" })
 
-const supabase = createClient(
+const supabase = createClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.SUPABASE_SERVICE_ROLE_KEY!
 )
@@ -56,8 +58,19 @@ function isStructurePattern(p: FormationPattern): p is { structure: string; toke
     return "structure" in p
 }
 
+type GrammarChildTable =
+    | "grammar_formations"
+    | "grammar_variants"
+    | "grammar_examples"
+    | "grammar_notes"
+    | "grammar_tags"
+    | "grammar_common_pairs"
+    | "grammar_short_forms"
+    | "grammar_differences"
+    | "grammar_similar"
+
 async function deleteChildRows(grammarId: number) {
-    const tables = [
+    const tables: GrammarChildTable[] = [
         "grammar_formations",
         "grammar_variants",
         "grammar_examples",
@@ -71,7 +84,7 @@ async function deleteChildRows(grammarId: number) {
 
     for (const table of tables) {
         const { error } = await supabase
-            .from(table as any)
+            .from(table)
             .delete()
             .eq("grammar_id", grammarId)
 
@@ -84,7 +97,7 @@ async function deleteChildRows(grammarId: number) {
 
 async function insertChildRows(grammarId: number, grammar: EnrichedGrammar) {
     if (grammar.formation?.length) {
-        const formationRows: any[] = []
+        const formationRows: Database["public"]["Tables"]["grammar_formations"]["Insert"][] = []
 
         grammar.formation.forEach((group, groupIndex) => {
             group.patterns?.forEach((p) => {
@@ -222,19 +235,20 @@ async function insertChildRows(grammarId: number, grammar: EnrichedGrammar) {
         const patterns = grammar.similar_grammar.filter((p) => normalizeText(p))
 
         if (patterns.length > 0) {
-            const { data: matched, error: lookupError } = await (supabase.from("grammars") as any)
+            const { data: matched, error: lookupError } = await supabase
+                .from("grammars")
                 .select("id")
                 .in("pattern", patterns)
 
             if (lookupError) throw lookupError
 
             if (matched?.length) {
-                const rows = (matched as { id: number }[]).map((g) => ({
+                const rows = matched.map((g) => ({
                     grammar_id: grammarId,
                     similar_grammar_id: g.id,
                 }))
 
-                const { error } = await (supabase.from("grammar_similar") as any).insert(rows)
+                const { error } = await supabase.from("grammar_similar").insert(rows)
                 if (error) throw error
             }
         }
@@ -242,7 +256,8 @@ async function insertChildRows(grammarId: number, grammar: EnrichedGrammar) {
 }
 
 async function applyGrammar(grammar: EnrichedGrammar) {
-    const { error: updateError } = await (supabase.from("grammars") as any)
+    const { error: updateError } = await supabase
+        .from("grammars")
         .update({
             meaning_vi: grammar.meaning_vi,
             short_meaning_vi: grammar.short_meaning_vi,

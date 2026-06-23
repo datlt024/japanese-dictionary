@@ -4,9 +4,11 @@ import path from "path"
 import { createClient } from "@supabase/supabase-js"
 import Anthropic from "@anthropic-ai/sdk"
 
+import type { Database } from "../../src/shared/types/database.generated"
+
 dotenv.config({ path: ".env.local" })
 
-const supabase = createClient(
+const supabase = createClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.SUPABASE_SERVICE_ROLE_KEY!
 )
@@ -50,7 +52,8 @@ async function main() {
 
     const promptPrefix = promptTemplate.slice(0, markerIndex + PROMPT_MARKER.length)
 
-    const { data: grammars, error } = await (supabase.from("grammars") as any)
+    const { data: grammars, error } = await supabase
+        .from("grammars")
         .select("id, pattern, jlpt_level, meaning_en, explanation_en, formation, examples")
         .eq("ai_status", "pending")
         .order("sort_order")
@@ -67,7 +70,8 @@ async function main() {
 
     const grammarIds: number[] = grammars.map((g: GrammarInput) => g.id)
 
-    const { error: updateError } = await (supabase.from("grammars") as any)
+    const { error: updateError } = await supabase
+        .from("grammars")
         .update({ ai_status: "processing" })
         .in("id", grammarIds)
 
@@ -155,7 +159,8 @@ async function main() {
         })
 
         if (failedIds.length > 0) {
-            await (supabase.from("grammars") as any)
+            await supabase
+                .from("grammars")
                 .update({ ai_status: "pending" })
                 .in("id", failedIds)
 

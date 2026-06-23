@@ -10,7 +10,6 @@ import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 import type {
     SearchGrammar,
     SearchHubResult,
-    SearchKanji,
     SearchTab,
     SearchVocabulary,
 } from "@/features/dictionary/search/hooks/useSearchHub"
@@ -60,17 +59,6 @@ function getGrammarMeaning(
     }
 
     return item.meaning_vi || item.meaning_en || ""
-}
-
-function getKanjiMeaning(
-    item: SearchKanji,
-    language: DictionaryLanguage
-) {
-    if (language === "en") {
-        return item.meaning_en || item.meaning_vi || "-"
-    }
-
-    return item.meaning_vi || item.meaning_en || "-"
 }
 
 function uniqueByKey<T>(

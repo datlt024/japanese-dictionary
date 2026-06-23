@@ -5,6 +5,8 @@ import path from "node:path"
 import { createClient } from "@supabase/supabase-js"
 import { XMLParser } from "fast-xml-parser"
 
+import type { Database } from "../../src/shared/types/database.generated"
+
 import { RADICALS } from "./radicals"
 
 dotenv.config({
@@ -19,7 +21,7 @@ if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) {
     throw new Error("Missing Supabase env")
 }
 
-const supabase = createClient<any>(
+const supabase = createClient<Database>(
     SUPABASE_URL,
     SUPABASE_SERVICE_ROLE_KEY
 )
@@ -202,12 +204,18 @@ function toArray<T>(value: T | T[] | undefined): T[] {
     return Array.isArray(value) ? value : [value]
 }
 
-function getClassicalRadicalNumber(character: any) {
+type KanjidicRadValue = string | { "@_rad_type"?: string; "#text"?: string }
+
+type KanjidicCharacterXml = {
+    radical?: { rad_value?: KanjidicRadValue | KanjidicRadValue[] }
+}
+
+function getClassicalRadicalNumber(character: KanjidicCharacterXml) {
     const radicalValues = character?.radical?.rad_value
     const values = toArray(radicalValues)
 
-    const classical = values.find((item: any) => {
-        return item?.["@_rad_type"] === "classical"
+    const classical = values.find((item) => {
+        return typeof item !== "string" && item?.["@_rad_type"] === "classical"
     })
 
     if (!classical) return null
@@ -414,9 +422,11 @@ function buildPayload(
     return payload
 }
 
+type KanjiUpdate = Database["public"]["Tables"]["kanjis"]["Update"]
+
 async function updateKanjiWithRetry(
     kanji: string,
-    payload: Record<string, unknown>,
+    payload: KanjiUpdate,
     maxRetries = 3
 ) {
     for (let attempt = 1; attempt <= maxRetries; attempt += 1) {
