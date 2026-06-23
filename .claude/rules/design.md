@@ -258,6 +258,27 @@ Avoid fixed widths unless necessary.
 
 ---
 
+## Page content width
+
+Use the vocabulary detail page content width as the standard for all full-page layouts.
+
+The content area should be constrained to:
+
+```css
+max-width: min(calc(100% - 64px), 1600px);
+margin: 0 auto;
+```
+
+This matches `AppLayout.appShell` behavior.
+
+Pages that use `AppLayout` inherit this automatically.
+
+Pages with custom layouts (e.g. `/notebooks`) must apply this constraint manually to their body content wrapper.
+
+Do not let content stretch to full viewport width on wide screens.
+
+---
+
 ## Modification rules
 
 When adding new UI:

@@ -154,7 +154,7 @@ export default function VocabularyDetailContent({
                 <ExampleSection />
             </section>
 
-            <aside className={styles.detailSidebar}>
+            <aside className={`${styles.detailSidebar} ${embedded ? styles.detailSidebarEmbedded : ""}`}>
                 {kanjiDetails.length > 0 && (
                     <VocabularyKanjiAnalysis
                         vocabularyWord={vocabulary.word}

@@ -1,8 +1,12 @@
 "use client"
 
+import { useState } from "react"
+
 import styles from "./VocabularyWordHeader.module.css"
 
 import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
+import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
+import AddToNotebookModal from "@/features/notebook/components/AddToNotebookModal/AddToNotebookModal"
 
 import {
     Star,
@@ -69,11 +73,20 @@ export default function VocabularyWordHeader({
 }: Props) {
     const ruby = vocabulary.ruby ?? []
 
+    const [notebookOpen, setNotebookOpen] = useState(false)
+    const [authOpen, setAuthOpen] = useState(false)
+
     function handleSpeak() {
         speakJapanese(vocabulary.kana || vocabulary.word)
     }
 
+    function handleLoginRequired() {
+        setNotebookOpen(false)
+        setAuthOpen(true)
+    }
+
     return (
+        <>
         <div className={styles.detailHeader}>
             <div className={styles.headerContent}>
                 <div className={styles.wordBlock}>
@@ -133,6 +146,7 @@ export default function VocabularyWordHeader({
                                 key: "bookmark",
                                 label: "Thêm vào sổ tay",
                                 icon: <Star />,
+                                onClick: () => setNotebookOpen(true),
                             },
                         ]}
                     />
@@ -161,5 +175,19 @@ export default function VocabularyWordHeader({
                 </div>
             </div>
         </div>
+
+        <AddToNotebookModal
+            open={notebookOpen}
+            onClose={() => setNotebookOpen(false)}
+            itemType="vocabulary"
+            itemId={String(vocabulary.id)}
+            onLoginRequired={handleLoginRequired}
+        />
+
+        <AuthModal
+            open={authOpen}
+            onClose={() => setAuthOpen(false)}
+        />
+        </>
     )
 }

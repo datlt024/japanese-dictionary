@@ -11,9 +11,8 @@
 
     background: #ffffff;
 
-    transition:
-        width .2s ease,
-        padding .2s ease;
+    will-change: width;
+    transition: width .2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sidebarCollapsed {
@@ -33,7 +32,6 @@
     display: inline-flex;
     align-items: center;
 
-    max-width: 140px;
     overflow: hidden;
 
     color: #1f2937;
@@ -45,10 +43,11 @@
     letter-spacing: -.02em;
 
     opacity: 1;
+    transform: translateX(0);
 
     transition:
-        max-width .2s ease,
-        opacity .16s ease;
+        opacity .15s ease,
+        transform .2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sidebarLogo span {
@@ -124,8 +123,7 @@
 
     transition:
         background .2s ease,
-        color .2s ease,
-        padding .2s ease;
+        color .2s ease;
 }
 
 .sidebarLink:hover {
@@ -148,27 +146,27 @@
 
     font-size: 18px;
 
-    transition: font-size .2s ease;
+    transition: transform .2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sidebarLabel {
     display: inline-block;
 
-    max-width: 120px;
     overflow: hidden;
 
     white-space: nowrap;
 
     opacity: 1;
+    transform: translateX(0);
 
     transition:
-        max-width .2s ease,
-        opacity .16s ease;
+        opacity .15s ease,
+        transform .2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sidebarCollapsed .sidebarLogo {
-    max-width: 0;
     opacity: 0;
+    transform: translateX(-12px);
     pointer-events: none;
 }
 
@@ -179,13 +177,13 @@
 }
 
 .sidebarCollapsed .sidebarLabel {
-    max-width: 0;
     opacity: 0;
+    transform: translateX(-10px);
     pointer-events: none;
 }
 
 .sidebarCollapsed .sidebarIcon {
-    font-size: 20px;
+    transform: scale(1.1);
 }
 .noTransition,
 .noTransition * {

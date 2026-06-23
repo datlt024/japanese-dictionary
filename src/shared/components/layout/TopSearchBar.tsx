@@ -42,6 +42,7 @@ import type {
 type TopSearchBarProps = {
     searchKeyword?: string
     activeSearchTab?: SearchTab
+    hideTabs?: boolean
 }
 
 const SEARCH_TABS: SearchTab[] = [
@@ -65,8 +66,10 @@ function TopSearchBarContent({
     searchKeyword,
     activeSearchTab,
     language,
-}: Required<TopSearchBarProps> & {
+    hideTabs = false,
+}: Required<Omit<TopSearchBarProps, "hideTabs">> & {
     language: DictionaryLanguage
+    hideTabs?: boolean
 }) {
     const router = useRouter()
     const wrapperRef = useRef<HTMLDivElement>(null)
@@ -208,23 +211,25 @@ function TopSearchBarContent({
                             )}
                         </div>
 
-                        <div className={styles.topSearchTabs}>
-                            {SEARCH_TABS.map((tab) => (
-                                <button
-                                    key={tab}
-                                    type="button"
-                                    className={getTabButtonClass(
-                                        activeTab,
-                                        tab
-                                    )}
-                                    onClick={() =>
-                                        handleTabClick(tab)
-                                    }
-                                >
-                                    {SEARCH_TAB_LABELS[tab]}
-                                </button>
-                            ))}
-                        </div>
+                        {!hideTabs && (
+                            <div className={styles.topSearchTabs}>
+                                {SEARCH_TABS.map((tab) => (
+                                    <button
+                                        key={tab}
+                                        type="button"
+                                        className={getTabButtonClass(
+                                            activeTab,
+                                            tab
+                                        )}
+                                        onClick={() =>
+                                            handleTabClick(tab)
+                                        }
+                                    >
+                                        {SEARCH_TAB_LABELS[tab]}
+                                    </button>
+                                ))}
+                            </div>
+                        )}
                     </form>
                 </div>
             </div>
@@ -248,6 +253,7 @@ function TopSearchBarContent({
 export default function TopSearchBar({
     searchKeyword = "",
     activeSearchTab = "vocabulary",
+    hideTabs = false,
 }: TopSearchBarProps) {
     const searchParams = useSearchParams()
 
@@ -261,6 +267,7 @@ export default function TopSearchBar({
             searchKeyword={searchKeyword}
             activeSearchTab={activeSearchTab}
             language={language}
+            hideTabs={hideTabs}
         />
     )
 }

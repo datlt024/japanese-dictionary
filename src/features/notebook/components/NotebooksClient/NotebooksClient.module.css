@@ -1,0 +1,1717 @@
+/* ── Design tokens ── */
+.page {
+    --border: #e5eaf2;
+    --border2: #eceef2;
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --primary: #2563eb;
+    --primary-lt: #eff6ff;
+    --success: #16a34a;
+    --orange: #ea580c;
+    --danger: #ef4444;
+    --text: #1f2937;
+    --text2: #6b7280;
+    --text3: #9ca3af;
+    --radius: 16px;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--card);
+}
+
+/* ── Top bar ── */
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 56px;
+    padding: 0 32px;
+
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    flex-shrink: 0;
+}
+
+.topBarLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--primary);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.logoCaret {
+    color: var(--border);
+}
+
+.pageTitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.topBarRight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.authBtns {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.userRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.userEmail {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text2);
+}
+
+.iconBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text2);
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+}
+
+.iconBtn:hover {
+    background: var(--bg);
+    color: var(--text);
+}
+
+.loginBtn {
+    height: 36px;
+    padding: 0 18px;
+    border: none;
+    border-radius: 10px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.loginBtn:hover {
+    background: #1d4ed8;
+}
+
+.registerBtn {
+    height: 36px;
+    padding: 0 18px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    background: transparent;
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: border-color 0.12s, color 0.12s;
+}
+
+.registerBtn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* ── Tab bar ── */
+.tabBar {
+    display: flex;
+    padding: 0 32px;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+
+    position: sticky;
+    top: 56px;
+    z-index: 40;
+    overflow-x: auto;
+}
+
+.tabBar::-webkit-scrollbar {
+    display: none;
+}
+
+.tab {
+    height: 46px;
+    padding: 0 18px;
+    border: none;
+    border-bottom: 2.5px solid transparent;
+    margin-bottom: -1px;
+    background: transparent;
+    color: var(--text2);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.12s, border-color 0.12s;
+}
+
+.tab:hover {
+    color: var(--text);
+}
+
+.tabActive {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+    font-weight: 700;
+}
+
+/* ── Body ── */
+.body {
+    flex: 1;
+    display: flex;
+    background: var(--card);
+}
+
+.bodyWrap {
+    display: flex;
+    align-items: stretch;
+    flex: 1;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.mainCol {
+    flex: 1;
+    min-width: 0;
+    padding: 28px 32px 48px;
+    background: var(--bg);
+}
+
+.rightCol {
+    width: 380px;
+    flex-shrink: 0;
+    border-left: 1px solid var(--border);
+    background: var(--card);
+    padding: 20px 32px 32px;
+
+    position: sticky;
+    top: 103px;
+    max-height: calc(100vh - 103px);
+    overflow-y: auto;
+}
+
+.rightCol::-webkit-scrollbar {
+    width: 4px;
+}
+
+.rightCol::-webkit-scrollbar-thumb {
+    background: var(--border2);
+    border-radius: 999px;
+}
+
+/* ── Tổng quan section ── */
+.overviewSection {
+    margin-bottom: 28px;
+}
+
+.overviewTitle {
+    margin: 0 0 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.statsRow {
+    display: flex;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.statItem {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 24px;
+    border-right: 1px solid var(--border);
+}
+
+.statItem:last-child {
+    border-right: none;
+}
+
+.statIcon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+
+.statNum {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 3px;
+}
+
+.statLabel {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text2);
+}
+
+/* ── Notebooks section ── */
+.notebooksSection {
+    margin-bottom: 24px;
+}
+
+.sectionHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.sectionTitle {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.addBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    height: 32px;
+    padding: 0 12px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.addBtn:hover {
+    background: var(--primary-lt);
+}
+
+/* ── Create form ── */
+.createForm {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 16px;
+}
+
+.createInput {
+    flex: 1;
+    height: 36px;
+    padding: 0 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.12s;
+}
+
+.createInput:focus {
+    border-color: var(--primary);
+}
+
+.createActions {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.createSubmit {
+    height: 36px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 8px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.createSubmit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.createSubmit:not(:disabled):hover {
+    background: #1d4ed8;
+}
+
+.createCancel {
+    height: 36px;
+    padding: 0 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text2);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.createCancel:hover {
+    background: var(--bg);
+}
+
+/* ── Cards grid ── */
+.cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 16px;
+}
+
+/* ── Notebook card ── */
+.card {
+    display: flex;
+    flex-direction: column;
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: box-shadow 0.15s, border-color 0.15s;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    border-color: #d1d5db;
+}
+
+.cardFirst {
+    border-color: var(--primary);
+}
+
+/* Bookmark ribbon at top-right */
+.cardBookmark {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid currentColor;
+    pointer-events: none;
+}
+
+.cardTop {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 16px 12px;
+    cursor: pointer;
+}
+
+.cardIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 4px;
+}
+
+.cardName {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.cardCount {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text2);
+}
+
+.cardReviewLine {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text2);
+}
+
+.reviewDot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.cardFooter {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 12px 12px;
+    border-top: 1px solid var(--border2);
+}
+
+.cardOntapBtn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.12s;
+}
+
+.cardOntapBtn:hover {
+    opacity: 0.8;
+}
+
+.cardDeleteBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text3);
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.cardDeleteBtn:hover {
+    background: #fef2f2;
+    color: var(--danger);
+    border-color: #fca5a5;
+}
+
+.cardDeleteBtn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* ── Create new card ── */
+.cardNew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px 16px;
+    min-height: 160px;
+    border: 2px dashed #d1d5db;
+    border-radius: 14px;
+    background: transparent;
+    color: var(--text3);
+    cursor: pointer;
+    transition: border-color 0.12s, color 0.12s, background 0.12s;
+}
+
+.cardNew:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: var(--primary-lt);
+}
+
+.cardNewIcon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.12s;
+}
+
+.cardNew:hover .cardNewIcon {
+    background: #dbeafe;
+}
+
+.cardNewLabel {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* ── Tip card ── */
+.tipCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 24px;
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: var(--radius);
+}
+
+.tipLeft {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.tipIcon {
+    color: #d97706;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.tipTitle {
+    margin: 0 0 4px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #d97706;
+}
+
+.tipBody {
+    margin: 0;
+    font-size: 13px;
+    color: #78350f;
+    line-height: 1.6;
+}
+
+.tipIllustration {
+    font-size: 52px;
+    flex-shrink: 0;
+    user-select: none;
+    opacity: 0.85;
+}
+
+/* ── Right sidebar widgets ── */
+.widget {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.widget:last-child {
+    margin-bottom: 0;
+}
+
+.widgetTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.widgetEmoji {
+    font-size: 16px;
+}
+
+.widgetTitle {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.widgetBigNum {
+    font-size: 34px;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.widgetSub {
+    margin: 0 0 14px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text2);
+}
+
+.widgetBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.widgetBtn:hover {
+    background: #1d4ed8;
+}
+
+.widgetLink {
+    display: block;
+    width: 100%;
+    padding: 10px 0 0;
+    border: none;
+    background: transparent;
+    color: var(--text2);
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.12s;
+}
+
+.widgetLink:hover {
+    color: var(--primary);
+}
+
+/* ── Streak days ── */
+.streakDays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin-top: 12px;
+}
+
+.streakDayCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.streakFire {
+    font-size: 18px;
+    opacity: 0.35;
+}
+
+.streakDayLabel {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text3);
+}
+
+/* ── JLPT list ── */
+.jlptList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.jlptRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.jlptDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.jlptLevel {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--text);
+    width: 24px;
+    flex-shrink: 0;
+}
+
+.jlptBar {
+    flex: 1;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--border2);
+    overflow: hidden;
+}
+
+.jlptBarFill {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 0.4s ease;
+    min-width: 4px;
+}
+
+.jlptCount {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text2);
+    width: 36px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+/* ── Thống kê nhanh ── */
+.quickStats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin-top: 12px;
+}
+
+.quickStatItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 12px 4px;
+    background: var(--bg);
+    border-radius: 10px;
+}
+
+.quickStatIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quickNum {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1;
+}
+
+.quickLabel {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text3);
+    text-align: center;
+    line-height: 1.3;
+}
+
+/* ── Back button ── */
+.backBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 34px;
+    padding: 0 12px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--card);
+    color: var(--text2);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: border-color 0.12s, color 0.12s;
+}
+
+.backBtn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* ── Detail view ── */
+.detailWrap { /* inherits from mainCol padding */ }
+
+.detailHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.detailLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.detailTitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.countBadge {
+    display: inline-flex;
+    align-items: center;
+    height: 22px;
+    padding: 0 10px;
+    border-radius: 999px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text2);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.detailRight {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.practiceBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 36px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 10px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.practiceBtn:hover {
+    background: #1d4ed8;
+}
+
+.disabledBtn {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.deleteNbBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 36px;
+    padding: 0 14px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: transparent;
+    color: var(--danger);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.12s, border-color 0.12s;
+}
+
+.deleteNbBtn:hover {
+    background: #fef2f2;
+    border-color: #fca5a5;
+}
+
+/* ── Items grid ── */
+.itemGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.itemCard {
+    position: relative;
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: var(--radius);
+    background: var(--card);
+    overflow: hidden;
+    transition: box-shadow 0.15s;
+}
+
+.itemCard:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.accent_vocabulary { border-left-color: var(--primary); }
+.accent_kanji      { border-left-color: var(--orange); }
+.accent_grammar    { border-left-color: var(--success); }
+
+.itemLink {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px 14px 14px 16px;
+    text-decoration: none;
+}
+
+.typeBadge {
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+    padding: 0 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 800;
+    width: fit-content;
+}
+
+.vocabulary { background: #eff6ff; color: var(--primary); }
+.kanji      { background: #fff7ed; color: var(--orange); }
+.grammar    { background: #f0fdf4; color: var(--success); }
+
+.itemTitle {
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.itemSubtitle {
+    color: var(--text2);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.itemMeaning {
+    color: #374151;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.removeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.12s, color 0.12s;
+}
+
+.itemCard:hover .removeBtn {
+    color: var(--text3);
+}
+
+.removeBtn:hover {
+    background: #fef2f2;
+    color: var(--danger) !important;
+}
+
+/* ── Empty state ── */
+.emptyItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.emptyItemsIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d1d5db;
+}
+
+.emptyItems p {
+    margin: 0;
+    color: var(--text2);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.emptyItemsHint {
+    color: var(--text3) !important;
+    font-size: 13px !important;
+}
+
+/* ── Login wall ── */
+.loginWall {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 20px;
+}
+
+.loginCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 400px;
+    width: 100%;
+    padding: 40px 32px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.loginIconWrap {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+    background: var(--primary-lt);
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginTitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.loginDesc {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text2);
+    line-height: 1.7;
+}
+
+.loginFeatures {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    text-align: left;
+}
+
+.featureRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.featureDot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--primary);
+    flex-shrink: 0;
+}
+
+/* ── Coming soon ── */
+.comingSoon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 320px;
+    gap: 16px;
+}
+
+.comingSoonEmoji {
+    font-size: 40px;
+}
+
+.comingSoonText {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text2);
+}
+
+/* ── Loading ── */
+.fullCenter {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner {
+    display: block;
+    width: 28px;
+    height: 28px;
+    border: 3px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.hint {
+    font-size: 14px;
+    color: var(--text3);
+    font-weight: 600;
+}
+
+/* ── Responsive ── */
+
+/* 1200px: ẩn sidebar phải */
+@media (max-width: 1200px) {
+    .rightCol {
+        display: none;
+    }
+}
+
+/* 900px: tablet — thu padding, stats 2×2 */
+@media (max-width: 900px) {
+    .topBar {
+        padding: 0 20px;
+    }
+
+    .tabBar {
+        padding: 0 20px;
+    }
+
+    .mainCol {
+        padding: 24px 20px 40px;
+    }
+
+    .statsRow {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .statItem {
+        flex: none;
+        border-right: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+    }
+
+    /* Override last-child no-border từ desktop */
+    .statItem:last-child {
+        border-right: 1px solid var(--border);
+    }
+
+    /* Cột phải (item chẵn): bỏ border-right */
+    .statItem:nth-child(even) {
+        border-right: none;
+    }
+
+    /* Hàng cuối (2 item cuối): bỏ border-bottom */
+    .statItem:nth-last-child(-n+2) {
+        border-bottom: none;
+    }
+
+    .cardsGrid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+}
+
+/* 640px: mobile — padding nhỏ, ẩn email, tipCard gọn */
+@media (max-width: 640px) {
+    .topBar {
+        padding: 0 16px;
+    }
+
+    .tabBar {
+        padding: 0 16px;
+    }
+
+    .mainCol {
+        padding: 20px 16px 32px;
+    }
+
+    .userEmail {
+        display: none;
+    }
+
+    .statItem {
+        padding: 14px 16px;
+        gap: 10px;
+    }
+
+    .statIcon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .statNum {
+        font-size: 22px;
+    }
+
+    .statLabel {
+        font-size: 11px;
+    }
+
+    .cardsGrid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 12px;
+    }
+
+    .tipCard {
+        gap: 12px;
+    }
+
+    .tipIllustration {
+        display: none;
+    }
+
+    .detailHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .detailRight {
+        width: 100%;
+    }
+
+    .practiceBtn,
+    .deleteNbBtn {
+        flex: 1;
+        justify-content: center;
+    }
+
+    .itemGrid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+/* 480px: màn nhỏ — padding tối thiểu, ẩn nút đăng ký, cố định 2 cột card */
+@media (max-width: 480px) {
+    .topBar {
+        padding: 0 12px;
+    }
+
+    .tabBar {
+        padding: 0 12px;
+    }
+
+    .mainCol {
+        padding: 16px 12px 24px;
+    }
+
+    .registerBtn {
+        display: none;
+    }
+
+    .statItem {
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .statIcon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .statNum {
+        font-size: 20px;
+    }
+
+    .cardsGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .cardTop {
+        padding: 16px 12px 10px;
+    }
+
+    .cardIcon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .tipCard {
+        padding: 16px;
+    }
+
+    .createForm {
+        flex-wrap: wrap;
+    }
+
+    .createActions {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .itemGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ── Confirm delete dialog ───────────────────────────────────────────────── */
+
+.confirmOverlay {
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background: rgba(15, 23, 42, 0.45);
+
+    animation: fadeIn 0.15s ease;
+}
+
+.confirmBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    max-width: 360px;
+
+    padding: 28px 24px 24px;
+
+    border: 1.5px solid #fca5a5;
+    border-radius: 20px;
+
+    background: #ffffff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+
+    text-align: center;
+
+    animation: slideUp 0.15s ease;
+}
+
+.confirmIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    background: #fef2f2;
+    color: #ef4444;
+
+    margin-bottom: 4px;
+}
+
+.confirmTitle {
+    margin: 0;
+
+    color: #1f2937;
+
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.confirmDesc {
+    margin: 0;
+
+    color: #6b7280;
+
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.confirmActions {
+    display: flex;
+    gap: 8px;
+
+    margin-top: 8px;
+    width: 100%;
+}
+
+.confirmCancel {
+    flex: 1;
+    height: 40px;
+
+    border: 1.5px solid #e5eaf2;
+    border-radius: 12px;
+
+    background: #ffffff;
+    color: #374151;
+
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition: background 0.12s ease;
+}
+
+.confirmCancel:hover {
+    background: #f7f8fa;
+}
+
+.confirmDelete {
+    flex: 1;
+    height: 40px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #ef4444;
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition: background 0.12s ease, opacity 0.12s ease;
+}
+
+.confirmDelete:hover:not(:disabled) {
+    background: #dc2626;
+}
+
+.confirmDelete:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* ── Practice mode modal ─────────────────────────────────────────────────── */
+
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background: rgba(15, 23, 42, 0.45);
+
+    animation: fadeIn 0.15s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.modalBox {
+    width: 100%;
+    max-width: 480px;
+
+    padding: 24px;
+
+    border: 1.5px solid #e5eaf2;
+    border-radius: 20px;
+
+    background: #ffffff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+
+    animation: slideUp 0.15s ease;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.modalTitle {
+    margin: 0;
+
+    color: #1f2937;
+
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.modalClose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #f3f4f6;
+    color: #6b7280;
+
+    cursor: pointer;
+
+    transition: background 0.12s ease, color 0.12s ease;
+}
+
+.modalClose:hover {
+    background: #e5e7eb;
+    color: #1f2937;
+}
+
+.modalGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.modalModeCard {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 14px 14px;
+
+    border: 1.5px solid #eceef2;
+    border-radius: 14px;
+
+    background: #ffffff;
+
+    font-family: inherit;
+    text-align: left;
+
+    cursor: pointer;
+
+    transition: border-color 0.12s ease, box-shadow 0.12s ease, transform 0.12s ease;
+}
+
+.modalModeCard:hover {
+    border-color: #c7d7f3;
+    box-shadow: 0 2px 12px rgba(37, 99, 235, 0.08);
+    transform: translateY(-1px);
+}
+
+.modalModeIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+}
+
+.modalModeContent {
+    min-width: 0;
+}
+
+.modalModeTitle {
+    color: #1f2937;
+
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.modalModeDesc {
+    margin-top: 2px;
+
+    color: #6b7280;
+
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+    .modalGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .modalBox {
+        padding: 20px;
+    }
+}

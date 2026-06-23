@@ -42,6 +42,10 @@
     min-width: 0;
 }
 
+.detailSidebarEmbedded {
+    position: static;
+}
+
 /* Shared section card used only in this parent file */
 .detailSection {
     padding: 20px 24px;

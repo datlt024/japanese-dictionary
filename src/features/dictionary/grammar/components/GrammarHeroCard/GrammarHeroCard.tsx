@@ -1,11 +1,15 @@
 "use client"
 
+import { useState } from "react"
+
 import { Bookmark, MoreHorizontal, Plus, Volume2 } from "lucide-react"
 
 import type { GrammarPoint } from "@/domain/grammar"
 
 import { getShortMeaning } from "@/features/dictionary/grammar/utils"
 import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
+import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
+import AddToNotebookModal from "@/features/notebook/components/AddToNotebookModal/AddToNotebookModal"
 
 import styles from "./GrammarHeroCard.module.css"
 
@@ -14,15 +18,24 @@ type Props = {
 }
 
 export default function GrammarHeroCard({ grammar }: Props) {
+    const [notebookOpen, setNotebookOpen] = useState(false)
+    const [authOpen, setAuthOpen] = useState(false)
+
     function handleSpeak() {
         if (!grammar.pattern) return
 
         speakJapanese(grammar.pattern)
     }
 
+    function handleLoginRequired() {
+        setNotebookOpen(false)
+        setAuthOpen(true)
+    }
+
     const displayPattern = grammar.display_pattern ?? grammar.pattern
 
     return (
+        <>
         <section className={styles.heroCard}>
             <div className={styles.heroMain}>
                 <div>
@@ -70,7 +83,8 @@ export default function GrammarHeroCard({ grammar }: Props) {
                     <button
                         type="button"
                         className={styles.actionButton}
-                        aria-label="Thêm vào danh sách"
+                        aria-label="Thêm vào sổ tay"
+                        onClick={() => setNotebookOpen(true)}
                     >
                         <Plus size={18} aria-hidden="true" />
                     </button>
@@ -85,5 +99,19 @@ export default function GrammarHeroCard({ grammar }: Props) {
                 </div>
             </div>
         </section>
+
+        <AddToNotebookModal
+            open={notebookOpen}
+            onClose={() => setNotebookOpen(false)}
+            itemType="grammar"
+            itemId={String(grammar.id)}
+            onLoginRequired={handleLoginRequired}
+        />
+
+        <AuthModal
+            open={authOpen}
+            onClose={() => setAuthOpen(false)}
+        />
+        </>
     )
 }

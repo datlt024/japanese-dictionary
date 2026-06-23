@@ -381,16 +381,13 @@ export default function HandwritingModal({
                 strategy="lazyOnload"
                 onLoad={() => {
                     kanjiCanvasLoadedRef.current = true
-                    updateScriptsReady()
-                }}
-            />
-
-            <Script
-                src="/vendor/kanji-canvas/ref-patterns.js?v=12"
-                strategy="lazyOnload"
-                onLoad={() => {
-                    refPatternsLoadedRef.current = true
-                    updateScriptsReady()
+                    const script = document.createElement("script")
+                    script.src = "/vendor/kanji-canvas/ref-patterns.js?v=12"
+                    script.onload = () => {
+                        refPatternsLoadedRef.current = true
+                        updateScriptsReady()
+                    }
+                    document.head.appendChild(script)
                 }}
             />
 

@@ -3,13 +3,7 @@ import styles from "./KanjiHeroCard.module.css"
 import type { Kanji } from "@/domain/kanji"
 
 import KanjiStrokeOrder from "@/features/dictionary/kanji/components/KanjiStrokeOrder/KanjiStrokeOrder"
-import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
-
-import {
-    BookOpen,
-    FilePenLine,
-    Star,
-} from "lucide-react"
+import KanjiActionButtons from "@/features/dictionary/kanji/components/KanjiActionButtons/KanjiActionButtons"
 
 import {
     DEFAULT_KUNYOMI,
@@ -97,25 +91,7 @@ export default function KanjiHeroCard({ kanji }: Props) {
                 </div>
 
                 <div className={styles.headerAside}>
-                    <ActionButtons
-                        items={[
-                            {
-                                key: "practice",
-                                label: "Luyện viết kanji",
-                                icon: <BookOpen />,
-                            },
-                            {
-                                key: "note",
-                                label: "Ghi chú",
-                                icon: <FilePenLine />,
-                            },
-                            {
-                                key: "bookmark",
-                                label: "Thêm vào sổ tay",
-                                icon: <Star />,
-                            },
-                        ]}
-                    />
+                    <KanjiActionButtons kanjiChar={kanji.kanji} />
 
                     <div className={styles.strokeBox}>
                         <KanjiStrokeOrder kanji={kanji.kanji} />

@@ -20,6 +20,8 @@ type AppLayoutProps = {
     title?: string
     searchKeyword?: string
     activeSearchTab?: ActiveSearchTab
+    hideSearchTabs?: boolean
+    disableQuickLookup?: boolean
 }
 
 export default function AppLayout({
@@ -27,6 +29,8 @@ export default function AppLayout({
     title,
     searchKeyword,
     activeSearchTab,
+    hideSearchTabs = false,
+    disableQuickLookup = false,
 }: AppLayoutProps) {
     return (
         <>
@@ -40,13 +44,14 @@ export default function AppLayout({
                         <TopSearchBar
                             searchKeyword={searchKeyword}
                             activeSearchTab={activeSearchTab}
+                            hideTabs={hideSearchTabs}
                         />
                     </Suspense>
                 </section>
 
                 <main
                     className={styles.appPageContent}
-                    data-quick-lookup-root="true"
+                    {...(!disableQuickLookup && { "data-quick-lookup-root": "true" })}
                 >
                     {children}
                 </main>

@@ -13,7 +13,7 @@ const menuItems = [
     { href: "/study", icon: "📘", label: "Học tập" },
     { href: "/translate", icon: "🌐", label: "Dịch" },
     { href: "/kanji", icon: "漢", label: "Hán tự" },
-    { href: "/bookmark", icon: "⭐", label: "Sổ tay" },
+    { href: "/notebooks", icon: "⭐", label: "Sổ tay" },
     { href: "/settings", icon: "⚙️", label: "Cài đặt" },
 ]
 

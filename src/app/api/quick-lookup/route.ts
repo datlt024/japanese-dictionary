@@ -1,3 +1,4 @@
+import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 
 import {
@@ -12,14 +13,16 @@ import {
     getWordsByReadingGroups,
 } from "@/features/dictionary/kanji/services/kanji.service"
 
+import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
 import { extractKanjis } from "@/features/dictionary/kanji/utils"
 import { uniqueArray } from "@/shared/utils/uniqueArray"
 
-type SearchApiResponse = {
-    vocabularies?: {
-        id: number
-    }[]
-}
+// Direct function call with cache — avoids internal HTTP round-trip to /api/search
+const cachedSearchVocabularies = unstable_cache(
+    (keyword: string) => searchVocabulariesByKeyword(keyword, "vi"),
+    ["quick-lookup-vocab-search"],
+    { revalidate: 300 }
+)
 
 async function createKanjiTarget(
     kanjiCharacter: string,
@@ -71,42 +74,19 @@ async function createKanjiTargets(keyword: string) {
     )
 }
 
-async function getVocabularyTarget(
-    keyword: string,
-    requestUrl: string
-) {
-    const searchResponse = await fetch(
-        new URL(
-            `/api/search?q=${encodeURIComponent(
-                keyword
-            )}&tab=vocabulary&lang=vi`,
-            requestUrl
-        )
-    )
+async function getVocabularyTarget(keyword: string) {
+    const { data, error } = await cachedSearchVocabularies(keyword)
 
-    if (!searchResponse.ok) {
-        return null
-    }
+    if (error || !data?.length) return null
 
-    const searchData =
-        (await searchResponse.json()) as SearchApiResponse
-
-    const firstVocabulary = searchData.vocabularies?.[0]
-
-    if (!firstVocabulary) {
-        return null
-    }
-
+    const firstVocabulary = data[0]
     const vocabulary = await getVocabularyById(firstVocabulary.id)
 
-    if (!vocabulary) {
-        return null
-    }
+    if (!vocabulary) return null
 
-    const relatedResult =
-        await getRelatedVocabulariesFromDatabase(vocabulary.word)
-
-    const [kanjiDetails, kanjiTargets] = await Promise.all([
+    // Run all three in parallel — they only need vocabulary.word
+    const [relatedResult, kanjiDetails, kanjiTargets] = await Promise.all([
+        getRelatedVocabulariesFromDatabase(vocabulary.word),
         getVocabularyKanjis(vocabulary.word),
         createKanjiTargets(vocabulary.word),
     ])
@@ -129,12 +109,26 @@ async function getKanjiTarget(keyword: string) {
         return null
     }
 
-    return createKanjiTarget(
-        firstKanji,
-        keyword,
-        kanjiOptions
-    )
+    return createKanjiTarget(firstKanji, keyword, kanjiOptions)
 }
+
+// Cache the full lookup result to make repeated lookups instant
+const cachedQuickLookup = unstable_cache(
+    async (keyword: string) => {
+        // Run vocabulary and kanji lookups in parallel — for kanji-only searches
+        // this saves the full vocabulary search latency instead of running sequentially
+        const [vocabularyTarget, kanjiTarget] = await Promise.all([
+            getVocabularyTarget(keyword),
+            getKanjiTarget(keyword),
+        ])
+
+        if (vocabularyTarget) return vocabularyTarget
+        if (kanjiTarget) return kanjiTarget
+        return { type: "not_found" as const, title: keyword }
+    },
+    ["quick-lookup-result"],
+    { revalidate: 3600 }
+)
 
 export async function GET(request: NextRequest) {
     const keyword =
@@ -147,23 +141,11 @@ export async function GET(request: NextRequest) {
         })
     }
 
-    const vocabularyTarget = await getVocabularyTarget(
-        keyword,
-        request.url
-    )
+    const result = await cachedQuickLookup(keyword)
 
-    if (vocabularyTarget) {
-        return NextResponse.json(vocabularyTarget)
-    }
-
-    const kanjiTarget = await getKanjiTarget(keyword)
-
-    if (kanjiTarget) {
-        return NextResponse.json(kanjiTarget)
-    }
-
-    return NextResponse.json({
-        type: "not_found",
-        title: keyword,
+    return NextResponse.json(result, {
+        headers: {
+            "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
+        },
     })
 }
