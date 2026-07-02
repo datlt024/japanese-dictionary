@@ -165,6 +165,7 @@ export default function NotebooksClient() {
                                     {user.email?.split("@")[0]}
                                 </span>
                                 <button
+                                    type="button"
                                     className={styles.iconBtn}
                                     onClick={signOut}
                                     title="Đăng xuất"
@@ -175,12 +176,14 @@ export default function NotebooksClient() {
                         ) : (
                             <div className={styles.authBtns}>
                                 <button
+                                    type="button"
                                     className={styles.loginBtn}
                                     onClick={() => setAuthOpen(true)}
                                 >
                                     Đăng nhập
                                 </button>
                                 <button
+                                    type="button"
                                     className={styles.registerBtn}
                                     onClick={() => setAuthOpen(true)}
                                 >
@@ -207,6 +210,7 @@ export default function NotebooksClient() {
                             {view === "detail" && selectedNotebook ? (
                                 <>
                                     <button
+                                        type="button"
                                         className={styles.backBtn}
                                         onClick={() => setView("grid")}
                                     >
@@ -289,6 +293,7 @@ export default function NotebooksClient() {
                                             <h2 className={styles.sectionTitle}>Danh sách sổ tay</h2>
                                             {!creating && (
                                                 <button
+                                                    type="button"
                                                     className={styles.addBtn}
                                                     onClick={() => setCreating(true)}
                                                 >
@@ -374,6 +379,7 @@ export default function NotebooksClient() {
                                                                 </div>
                                                                 <div className={styles.cardFooter}>
                                                                     <button
+                                                                        type="button"
                                                                         className={styles.cardOntapBtn}
                                                                         style={{
                                                                             background: color.bg,
@@ -384,6 +390,7 @@ export default function NotebooksClient() {
                                                                         Ôn tập
                                                                     </button>
                                                                     <button
+                                                                        type="button"
                                                                         className={styles.cardDeleteBtn}
                                                                         onClick={() => setConfirmDeleteId(nb.id)}
                                                                         disabled={deletingNotebookId === nb.id}
@@ -397,6 +404,7 @@ export default function NotebooksClient() {
                                                     })}
 
                                                     <button
+                                                        type="button"
                                                         className={styles.cardNew}
                                                         onClick={() => setCreating(true)}
                                                     >
@@ -443,6 +451,7 @@ export default function NotebooksClient() {
                                 </div>
                                 <p className={styles.widgetSub}>từ cần ôn</p>
                                 <button
+                                    type="button"
                                     className={styles.widgetBtn}
                                     onClick={() => notebooks.length > 0 && openPracticeModal(notebooks[0].id)}
                                     disabled={notebooks.length === 0}
@@ -452,6 +461,7 @@ export default function NotebooksClient() {
                                 </button>
                                 {notebooks.length > 0 && (
                                     <button
+                                        type="button"
                                         className={styles.widgetLink}
                                         onClick={() => {
                                             setSelectedId(notebooks[0].id)
@@ -529,12 +539,14 @@ export default function NotebooksClient() {
                         </p>
                         <div className={styles.confirmActions}>
                             <button
+                                type="button"
                                 className={styles.confirmCancel}
                                 onClick={() => setConfirmDeleteId(null)}
                             >
                                 Hủy
                             </button>
                             <button
+                                type="button"
                                 className={styles.confirmDelete}
                                 disabled={deletingNotebookId === confirmDeleteId}
                                 onClick={async () => {
@@ -616,7 +628,7 @@ function PracticeModeModal({
             <div className={styles.modalBox} onClick={(e) => e.stopPropagation()}>
                 <div className={styles.modalHeader}>
                     <h2 className={styles.modalTitle}>Chọn chế độ ôn tập</h2>
-                    <button className={styles.modalClose} onClick={onClose}>
+                    <button type="button" className={styles.modalClose} onClick={onClose}>
                         <X size={18} />
                     </button>
                 </div>
@@ -625,6 +637,7 @@ function PracticeModeModal({
                     {PRACTICE_MODES.map(({ id, Icon, title, desc, color, bg }) => (
                         <button
                             key={id}
+                            type="button"
                             className={styles.modalModeCard}
                             onClick={() => onSelect(id)}
                         >
@@ -664,7 +677,7 @@ function LoginWall({ onLogin }: { onLogin: () => void }) {
                         </div>
                     ))}
                 </div>
-                <button className={styles.loginBtn} onClick={onLogin}>
+                <button type="button" className={styles.loginBtn} onClick={onLogin}>
                     Đăng nhập để bắt đầu
                 </button>
             </div>
@@ -710,6 +723,7 @@ function NotebookDetail({ notebook, onDelete, onPractice }: NotebookDetailProps)
                 </div>
                 <div className={styles.detailRight}>
                     <button
+                        type="button"
                         className={`${styles.practiceBtn} ${items.length === 0 ? styles.disabledBtn : ""}`}
                         onClick={onPractice}
                         disabled={items.length === 0}
@@ -717,7 +731,7 @@ function NotebookDetail({ notebook, onDelete, onPractice }: NotebookDetailProps)
                         <Zap size={14} />
                         Luyện tập
                     </button>
-                    <button className={styles.deleteNbBtn} onClick={onDelete}>
+                    <button type="button" className={styles.deleteNbBtn} onClick={onDelete}>
                         <Trash2 size={14} />
                         Xóa sổ tay
                     </button>
@@ -756,6 +770,7 @@ function NotebookDetail({ notebook, onDelete, onPractice }: NotebookDetailProps)
                                 )}
                             </Link>
                             <button
+                                type="button"
                                 className={styles.removeBtn}
                                 onClick={() => handleRemoveItem(item)}
                                 disabled={removingId === item.id}

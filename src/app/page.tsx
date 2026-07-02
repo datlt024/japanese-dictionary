@@ -1,9 +1,13 @@
 "use client"
 
+import { useRouter } from "next/navigation"
+
 import styles from "./page.module.css"
 
 import useSearchHistory
   from "@/features/user/search-history/hooks/useSearchHistory"
+
+import { getSearchTargetUrl } from "@/features/dictionary/search/utils/getSearchTargetUrl"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 
@@ -12,7 +16,13 @@ function getHistoryLabel(text: string) {
 }
 
 export default function HomePage() {
+  const router = useRouter()
   const { histories } = useSearchHistory()
+
+  async function handleHistoryClick(keyword: string) {
+    const url = await getSearchTargetUrl("vocabulary", keyword, "vi")
+    if (url) router.push(url)
+  }
 
   return (
     <AppLayout title="Tra cứu">
@@ -22,7 +32,7 @@ export default function HomePage() {
             <section className={styles.cardSection}>
               <div className={styles.sectionHeader}>
                 <h2>Từ vựng trong ngày</h2>
-                <button>Xem thêm</button>
+                <button type="button">Xem thêm</button>
               </div>
 
               <div className={styles.dailyWords}>
@@ -59,7 +69,7 @@ export default function HomePage() {
             <section className={styles.cardSection}>
               <div className={styles.sectionHeader}>
                 <h2>Bài học đề xuất</h2>
-                <button>Xem thêm</button>
+                <button type="button">Xem thêm</button>
               </div>
 
               <div className={styles.communityGrid}>
@@ -80,7 +90,7 @@ export default function HomePage() {
             <section className={styles.cardSection}>
               <div className={styles.sectionHeader}>
                 <h2>Lịch sử</h2>
-                <button>Xem thêm</button>
+                <button type="button">Xem thêm</button>
               </div>
 
               <div className={styles.historyTags}>
@@ -88,8 +98,10 @@ export default function HomePage() {
                   histories.map((item) => (
                     <button
                       key={item}
+                      type="button"
                       title={item}
                       className={styles.historyTag}
+                      onClick={() => handleHistoryClick(item)}
                     >
                       {getHistoryLabel(item)}
                     </button>

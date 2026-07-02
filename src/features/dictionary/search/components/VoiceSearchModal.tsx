@@ -36,8 +36,8 @@ type Suggestion = {
 }
 
 const LANGUAGE_LABELS: Record<VoiceSearchLanguage, string> = {
-    "ja-JP": "Japanese",
-    "vi-VN": "Vietnamese",
+    "ja-JP": "Tiếng Nhật",
+    "vi-VN": "Tiếng Việt",
 }
 
 function getKanaText(kana: SearchVocabulary["kana"]) {
@@ -338,7 +338,7 @@ export default function VoiceSearchModal({
                                 : styles.language
                         }
                     >
-                        Japanese
+                        Tiếng Nhật
                     </span>
 
                     <button
@@ -356,7 +356,7 @@ export default function VoiceSearchModal({
                                 : styles.language
                         }
                     >
-                        Vietnamese
+                        Tiếng Việt
                     </span>
                 </div>
 

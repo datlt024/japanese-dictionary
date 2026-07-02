@@ -157,6 +157,7 @@ export default function AddToNotebookModal({
                 <div className={styles.header}>
                     <h2>Thêm vào sổ tay</h2>
                     <button
+                        type="button"
                         className={styles.closeButton}
                         onClick={handleClose}
                         aria-label="Đóng"
@@ -183,6 +184,7 @@ export default function AddToNotebookModal({
                                     return (
                                         <li key={nb.id}>
                                             <button
+                                                type="button"
                                                 className={`${styles.notebookRow} ${checked ? styles.checked : ""}`}
                                                 onClick={() => toggleNotebook(nb.id)}
                                                 disabled={pending}
@@ -236,6 +238,7 @@ export default function AddToNotebookModal({
                                 </form>
                             ) : (
                                 <button
+                                    type="button"
                                     className={styles.addNotebookButton}
                                     onClick={() => setCreating(true)}
                                 >
@@ -255,7 +258,7 @@ function LoginPrompt({ onLogin }: { onLogin: () => void }) {
     return (
         <div className={styles.loginPrompt}>
             <p>Đăng nhập để lưu từ vựng, hán tự và ngữ pháp vào sổ tay cá nhân.</p>
-            <button className={styles.loginButton} onClick={onLogin}>
+            <button type="button" className={styles.loginButton} onClick={onLogin}>
                 Đăng nhập
             </button>
         </div>
@@ -266,7 +269,7 @@ function EmptyState({ onCreateClick }: { onCreateClick: () => void }) {
     return (
         <div className={styles.emptyState}>
             <p>Bạn chưa có sổ tay nào.</p>
-            <button className={styles.loginButton} onClick={onCreateClick}>
+            <button type="button" className={styles.loginButton} onClick={onCreateClick}>
                 <Plus size={15} />
                 Tạo sổ tay đầu tiên
             </button>

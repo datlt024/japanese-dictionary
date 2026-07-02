@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json(
             {
                 candidates: [],
-                error: "Cannot recognize handwriting",
+                error: "Không thể nhận diện chữ viết tay",
             },
             { status: 500 }
         )

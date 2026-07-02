@@ -50,7 +50,7 @@ export default function SuggestionList({
                                 <span
                                     className={`${styles.suggestionBadge} ${styles.suggestionCommonBadge}`}
                                 >
-                                    Common
+                                    Thông dụng
                                 </span>
                             )}
 

@@ -76,6 +76,7 @@ export default function Header({
                                     {userInitial}
                                 </div>
                                 <button
+                                    type="button"
                                     className={styles.registerButton}
                                     onClick={signOut}
                                 >
@@ -85,12 +86,14 @@ export default function Header({
                         ) : (
                             <>
                                 <button
+                                    type="button"
                                     className={styles.loginButton}
                                     onClick={() => setAuthOpen(true)}
                                 >
                                     Đăng nhập
                                 </button>
                                 <button
+                                    type="button"
                                     className={styles.registerButton}
                                     onClick={() => setAuthOpen(true)}
                                 >
@@ -119,11 +122,11 @@ export default function Header({
                         </option>
                     </select>
 
-                    <button className={styles.iconButton}>
+                    <button type="button" className={styles.iconButton} aria-label="Thông báo">
                         🔔
                     </button>
 
-                    <button className={styles.iconButton}>
+                    <button type="button" className={styles.iconButton} aria-label="Chuỗi học">
                         🔥
                     </button>
                 </div>

@@ -217,7 +217,7 @@ function PracticeHeader({
 }) {
     return (
         <div className={styles.practiceHeader}>
-            <button className={styles.backBtn} onClick={onBack}>
+            <button type="button" className={styles.backBtn} onClick={onBack}>
                 <ArrowLeft size={16} />
                 Đổi chế độ
             </button>
@@ -367,7 +367,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
         <div className={styles.fcLayout}>
             {/* Top bar */}
             <div className={styles.fcTopBar}>
-                <button className={styles.fcBackBtn} onClick={onBack}>
+                <button type="button" className={styles.fcBackBtn} onClick={onBack}>
                     <ArrowLeft size={15} />
                     Quay lại
                 </button>
@@ -375,6 +375,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                 <div className={styles.fcTitleArea} ref={switcherRef}>
                     <BookOpen size={15} className={styles.fcTitleIcon} />
                     <button
+                        type="button"
                         className={styles.fcNotebookBtn}
                         onClick={() => setSwitcherOpen((v) => !v)}
                     >
@@ -390,6 +391,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                             {notebooks.map((nb) => (
                                 <button
                                     key={nb.id}
+                                    type="button"
                                     className={`${styles.fcNotebookDropdownItem} ${nb.id === notebookId ? styles.fcNotebookDropdownItemActive : ""}`}
                                     onClick={() => {
                                         setSwitcherOpen(false)
@@ -404,7 +406,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                     )}
                 </div>
 
-                <button className={styles.fcEndBtn} onClick={handleEndSession}>
+                <button type="button" className={styles.fcEndBtn} onClick={handleEndSession}>
                     <Timer size={14} />
                     Kết thúc ôn tập
                 </button>
@@ -417,6 +419,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                     {/* Card row with arrows */}
                     <div className={styles.fcCardRow}>
                         <button
+                            type="button"
                             className={styles.fcNavArrow}
                             onClick={goPrev}
                             disabled={index === 0}
@@ -443,10 +446,10 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                                             {index + 1} / {shuffled.length}
                                         </span>
                                         <div className={styles.fcCardControls}>
-                                            <button className={styles.fcIconBtn}>
+                                            <button type="button" className={styles.fcIconBtn}>
                                                 <Star size={16} />
                                             </button>
-                                            <button className={styles.fcIconBtn}>
+                                            <button type="button" className={styles.fcIconBtn}>
                                                 <MoreHorizontal size={16} />
                                             </button>
                                         </div>
@@ -471,6 +474,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                                         </span>
                                         <div className={styles.fcCardControls}>
                                             <button
+                                                type="button"
                                                 className={styles.fcIconBtn}
                                                 onClick={(e) => {
                                                     e.stopPropagation()
@@ -479,10 +483,10 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                                             >
                                                 <Volume2 size={16} />
                                             </button>
-                                            <button className={styles.fcIconBtn} onClick={(e) => e.stopPropagation()}>
+                                            <button type="button" className={styles.fcIconBtn} onClick={(e) => e.stopPropagation()}>
                                                 <Star size={16} />
                                             </button>
-                                            <button className={styles.fcIconBtn} onClick={(e) => e.stopPropagation()}>
+                                            <button type="button" className={styles.fcIconBtn} onClick={(e) => e.stopPropagation()}>
                                                 <MoreHorizontal size={16} />
                                             </button>
                                         </div>
@@ -521,6 +525,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                         </div>
 
                         <button
+                            type="button"
                             className={styles.fcNavArrow}
                             onClick={handleSkip}
                         >
@@ -533,6 +538,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                         {RATINGS.map((r) => (
                             <button
                                 key={r.id}
+                                type="button"
                                 className={styles.fcRatingBtn}
                                 style={{
                                     background: r.bg,
@@ -552,7 +558,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                         ))}
                     </div>
 
-                    <button className={styles.fcSkipBtn} onClick={handleSkip}>
+                    <button type="button" className={styles.fcSkipBtn} onClick={handleSkip}>
                         ▷ Bỏ qua từ này
                     </button>
                 </div>
@@ -648,7 +654,7 @@ function FlashCardMode({ items, onFinish, onBack, notebookId }: ModeProps & { no
                                     ))}
                                 </ul>
                                 {history.length > 5 && (
-                                    <button className={styles.fcSeeAllBtn}>Xem tất cả</button>
+                                    <button type="button" className={styles.fcSeeAllBtn}>Xem tất cả</button>
                                 )}
                             </>
                         )}
@@ -732,7 +738,7 @@ function QuizMode({ items, onFinish, onBack }: ModeProps) {
                         else cls += ` ${styles.optionDimmed}`
                     }
                     return (
-                        <button key={i} className={cls} onClick={() => handleSelect(opt)}>
+                        <button key={i} type="button" className={cls} onClick={() => handleSelect(opt)}>
                             <span className={styles.optionLabel}>
                                 {String.fromCharCode(65 + i)}
                             </span>
@@ -844,10 +850,11 @@ function WritingMode({ items, onFinish, onBack }: ModeProps) {
             <div className={styles.actions}>
                 {!submitted ? (
                     <div className={styles.writingActions}>
-                        <button className={styles.skipBtn} onClick={handleSkip}>
+                        <button type="button" className={styles.skipBtn} onClick={handleSkip}>
                             Bỏ qua
                         </button>
                         <button
+                            type="button"
                             className={styles.submitBtn}
                             onClick={handleSubmit}
                             disabled={!input.trim()}
@@ -856,7 +863,7 @@ function WritingMode({ items, onFinish, onBack }: ModeProps) {
                         </button>
                     </div>
                 ) : (
-                    <button className={styles.nextBtn} onClick={() => advance()}>
+                    <button type="button" className={styles.nextBtn} onClick={() => advance()}>
                         {index + 1 >= shuffled.length ? "Xem kết quả" : "Tiếp theo"}
                         <ChevronRight size={16} />
                     </button>
@@ -979,7 +986,7 @@ function MiniTestMode({ items, onFinish, onBack }: ModeProps) {
                         else cls += ` ${styles.optionDimmed}`
                     }
                     return (
-                        <button key={i} className={cls} onClick={() => handleSelect(opt)}>
+                        <button key={i} type="button" className={cls} onClick={() => handleSelect(opt)}>
                             <span className={styles.optionLabel}>
                                 {String.fromCharCode(65 + i)}
                             </span>
@@ -1078,11 +1085,11 @@ function Summary({
                 )}
 
                 <div className={styles.summaryActions}>
-                    <button className={styles.restartBtn} onClick={onRestart}>
+                    <button type="button" className={styles.restartBtn} onClick={onRestart}>
                         <RotateCcw size={15} />
                         Luyện lại
                     </button>
-                    <button className={styles.changeModeBtn} onClick={onChangeMode}>
+                    <button type="button" className={styles.changeModeBtn} onClick={onChangeMode}>
                         <ClipboardList size={15} />
                         Đổi chế độ
                     </button>

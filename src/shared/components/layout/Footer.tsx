@@ -1,17 +1,17 @@
-import "./Footer.css"
+import styles from "./Footer.module.css"
 
 export default function Footer() {
     return (
-        <footer className="footer">
-            <div className="footer-container">
+        <footer className={styles.footer}>
+            <div className={styles.footerContainer}>
 
-                <div className="footer-top">
+                <div className={styles.footerTop}>
                     <div>
-                        <h2 className="footer-logo">
+                        <h2 className={styles.footerLogo}>
                             Japanese Dictionary
                         </h2>
 
-                        <p className="footer-description">
+                        <p className={styles.footerDescription}>
                             Từ điển tiếng Nhật đa nền tảng,
                             hỗ trợ tra cứu từ vựng, kanji,
                             ngữ pháp, mẫu câu và học tập.
@@ -19,7 +19,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="footer-grid">
+                <div className={styles.footerGrid}>
 
                     <div>
                         <h3>Giới thiệu</h3>
@@ -66,7 +66,7 @@ export default function Footer() {
 
                 </div>
 
-                <div className="footer-bottom">
+                <div className={styles.footerBottom}>
                     © 2026 Japanese Dictionary
                 </div>
 
