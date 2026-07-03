@@ -100,25 +100,16 @@ export async function getVocabularyById(
         return null
     }
 
-    const { data: vocabulary, error: vocabularyError } =
-        await findVocabularyBaseById(id)
-
-    if (vocabularyError) {
-        console.error("Get vocabulary error:", vocabularyError)
-        return null
-    }
-
-    if (!vocabulary) {
-        return null
-    }
-
+    // All 6 queries use only `id` — run fully in parallel, zero sequential steps
     const [
+        baseResult,
         sensesResult,
         writingsResult,
         readingsResult,
         collocationsResult,
         relationsResult,
     ] = await Promise.all([
+        findVocabularyBaseById(id),
         findVocabularySensesByVocabularyId(id),
         findVocabularyWritingsByVocabularyId(id),
         findVocabularyReadingsByVocabularyId(id),
@@ -126,42 +117,35 @@ export async function getVocabularyById(
         findVocabularyRelationsByVocabularyId(id),
     ])
 
+    if (baseResult.error) {
+        console.error("Get vocabulary error:", baseResult.error)
+        return null
+    }
+
+    const vocabulary = baseResult.data
+    if (!vocabulary) return null
+
     if (sensesResult.error) {
-        console.error(
-            "Get vocabulary senses error:",
-            sensesResult.error
-        )
+        console.error("Get vocabulary senses error:", sensesResult.error)
         return null
     }
 
     if (writingsResult.error) {
-        console.error(
-            "Get vocabulary writings error:",
-            writingsResult.error
-        )
+        console.error("Get vocabulary writings error:", writingsResult.error)
         return null
     }
 
     if (readingsResult.error) {
-        console.error(
-            "Get vocabulary readings error:",
-            readingsResult.error
-        )
+        console.error("Get vocabulary readings error:", readingsResult.error)
         return null
     }
 
     if (collocationsResult.error) {
-        console.error(
-            "Get vocabulary collocations error:",
-            collocationsResult.error
-        )
+        console.error("Get vocabulary collocations error:", collocationsResult.error)
     }
 
     if (relationsResult.error) {
-        console.error(
-            "Get vocabulary relations error:",
-            relationsResult.error
-        )
+        console.error("Get vocabulary relations error:", relationsResult.error)
     }
 
     return {
@@ -173,8 +157,7 @@ export async function getVocabularyById(
         jlpt: vocabulary.jlpt,
         verb_group: vocabulary.verb_group,
         is_common: vocabulary.is_common,
-        senses:
-            (sensesResult.data as VocabularySense[]) || [],
+        senses: (sensesResult.data as VocabularySense[]) || [],
         writings: writingsResult.data || [],
         readings: readingsResult.data || [],
         collocations: collocationsResult.error

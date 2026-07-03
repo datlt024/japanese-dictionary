@@ -7,7 +7,9 @@ import Sidebar from "@/shared/components/layout/Sidebar"
 import QuickLookupLayer from "@/features/dictionary/quick-lookup/components/QuickLookupLayer"
 
 const notoSansJP = Noto_Sans_JP({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext", "vietnamese"],
+  display: "swap",
+  preload: true,
 })
 
 export default function RootLayout({

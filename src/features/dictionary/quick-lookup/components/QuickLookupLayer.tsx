@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useEffect, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 
 import QuickLookupFloatingButton from "./QuickLookupFloatingButton"
 import QuickLookupModal from "./QuickLookupModal"
@@ -111,6 +111,8 @@ export default function QuickLookupLayer() {
     const [detailOpen, setDetailOpen] = useState(false)
     const [target, setTarget] =
         useState<QuickLookupTarget | null>(null)
+    const [loadingWord, setLoadingWord] = useState<string | null>(null)
+    const abortRef = useRef<AbortController | null>(null)
 
     const clearSelection = useCallback(() => {
         setSelectedText("")
@@ -179,18 +181,40 @@ export default function QuickLookupLayer() {
     }, [handleSelection])
 
     async function handleOpenQuickLookup() {
-        if (!selectedText) {
-            return
-        }
+        if (!selectedText) return
 
-        const lookupTarget = await getQuickLookupTarget(
-            selectedText,
-            "vi"
-        )
+        // Cancel any in-flight previous request
+        abortRef.current?.abort()
+        const controller = new AbortController()
+        abortRef.current = controller
 
-        setTarget(lookupTarget)
+        // Open modal immediately with skeleton, don't wait for data
+        setTarget(null)
+        setLoadingWord(selectedText)
         setDetailOpen(true)
         setFloatingPosition(null)
+
+        try {
+            const lookupTarget = await getQuickLookupTarget(selectedText, "vi")
+
+            if (!controller.signal.aborted) {
+                setTarget(lookupTarget)
+                setLoadingWord(null)
+            }
+        } catch {
+            if (!controller.signal.aborted) {
+                setDetailOpen(false)
+                setLoadingWord(null)
+            }
+        }
+    }
+
+    function handleClose() {
+        abortRef.current?.abort()
+        abortRef.current = null
+        setDetailOpen(false)
+        setTarget(null)
+        setLoadingWord(null)
     }
 
     return (
@@ -206,7 +230,8 @@ export default function QuickLookupLayer() {
             <QuickLookupModal
                 open={detailOpen}
                 target={target}
-                onClose={() => setDetailOpen(false)}
+                loadingTitle={loadingWord ?? undefined}
+                onClose={handleClose}
             />
         </>
     )

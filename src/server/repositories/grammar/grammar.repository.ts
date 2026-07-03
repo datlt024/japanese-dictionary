@@ -212,13 +212,15 @@ function mapGrammarDetail(row: GrammarDetailRow | null, similar_grammar: string[
 
 
 export async function findGrammarPointById(id: number) {
-    const { data: rawData, error } = await supabaseServer
-        .from("grammars")
-        .select(GRAMMAR_DETAIL_COLUMNS)
-        .eq("id", id)
-        .maybeSingle()
-
-    const similar_grammar = rawData ? await fetchSimilarGrammarPatterns(id) : []
+    // Run main query and similar-patterns lookup in parallel — both only need `id`
+    const [{ data: rawData, error }, similar_grammar] = await Promise.all([
+        supabaseServer
+            .from("grammars")
+            .select(GRAMMAR_DETAIL_COLUMNS)
+            .eq("id", id)
+            .maybeSingle(),
+        fetchSimilarGrammarPatterns(id),
+    ])
 
     return {
         data: mapGrammarDetail(rawData as unknown as GrammarDetailRow | null, similar_grammar),

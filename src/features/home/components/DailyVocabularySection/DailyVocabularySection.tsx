@@ -1,3 +1,5 @@
+import { unstable_cache } from "next/cache"
+
 import { findVocabularyIdsByPrimaryWords } from "@/server/repositories/vocabulary/vocabulary.repository"
 
 import DailyVocabularySectionClient from "./DailyVocabularySectionClient"
@@ -26,9 +28,16 @@ const WORD_CONFIGS = [
     { word: "技術",   reading: "ぎじゅつ",   meaning: "kỹ thuật, công nghệ",    type: "Danh từ" },
 ]
 
+// Word configs are static — cache DB result indefinitely (revalidate on deploy)
+const cachedFindVocabularyIds = unstable_cache(
+    (words: string[]) => findVocabularyIdsByPrimaryWords(words),
+    ["daily-vocabulary-ids"],
+    { revalidate: 86400 }
+)
+
 export default async function DailyVocabularySection() {
     const words = WORD_CONFIGS.map((w) => w.word)
-    const { data: rows } = await findVocabularyIdsByPrimaryWords(words)
+    const { data: rows } = await cachedFindVocabularyIds(words)
 
     const idMap = new Map<string, number>()
     const jlptMap = new Map<string, string | null>()

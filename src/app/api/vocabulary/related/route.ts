@@ -1,26 +1,30 @@
+import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 
 import { getRelatedVocabulariesFromDatabase } from "@/server/services/vocabulary/related-vocabulary.service"
+
+const cachedRelatedVocabularies = unstable_cache(
+    (keyword: string) => getRelatedVocabulariesFromDatabase(keyword),
+    ["related-vocabularies"],
+    { revalidate: 3600 }
+)
 
 export async function GET(request: NextRequest) {
     const keyword =
         request.nextUrl.searchParams.get("q")?.trim() || ""
 
-    const { results, error } =
-        await getRelatedVocabulariesFromDatabase(keyword)
+    const { results, error } = await cachedRelatedVocabularies(keyword)
 
     if (error) {
-        return NextResponse.json(
-            {
-                error,
-            },
-            {
-                status: 500,
-            }
-        )
+        return NextResponse.json({ error }, { status: 500 })
     }
 
-    return NextResponse.json({
-        results,
-    })
+    return NextResponse.json(
+        { results },
+        {
+            headers: {
+                "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
+            },
+        }
+    )
 }

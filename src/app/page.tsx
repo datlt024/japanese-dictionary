@@ -1,8 +1,30 @@
+import { Suspense } from "react"
+
 import styles from "./page.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import DailyVocabularySection from "@/features/home/components/DailyVocabularySection/DailyVocabularySection"
 import SearchHistorySection from "@/features/home/components/SearchHistorySection/SearchHistorySection"
+
+function DailyVocabularySkeleton() {
+  return (
+    <div className={styles.dailySkeleton}>
+      <div className={styles.dailySkeletonHeader}>
+        <div className={styles.dailySkeletonTitle} />
+        <div className={styles.dailySkeletonBtn} />
+      </div>
+      <div className={styles.dailySkeletonGrid}>
+        {[0, 1, 2, 3].map((i) => (
+          <div key={i} className={styles.dailySkeletonCard}>
+            <div className={styles.dailySkeletonWord} />
+            <div className={styles.dailySkeletonLine} />
+            <div className={`${styles.dailySkeletonLine} ${styles.dailySkeletonMeaning}`} />
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
 
 export default function HomePage() {
   return (
@@ -10,7 +32,9 @@ export default function HomePage() {
       <main className={styles.homePage}>
         <div className={styles.homeGrid}>
           <div className={styles.mainColumn}>
-            <DailyVocabularySection />
+            <Suspense fallback={<DailyVocabularySkeleton />}>
+              <DailyVocabularySection />
+            </Suspense>
 
             <section className={`${styles.cardSection} ${styles.banner}`}>
               Mazii AI+ — Học tiếng Nhật thông minh hơn
