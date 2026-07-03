@@ -99,3 +99,11 @@ export function findKanjisByCharacters(kanjis: string[]) {
         .select(VOCABULARY_KANJI_COLUMNS)
         .in("kanji", kanjis)
 }
+
+export function findVocabularyIdsByPrimaryWords(words: string[]) {
+    return supabaseServer
+        .from("vocabularies")
+        .select("id, primary_word, primary_kana, jlpt")
+        .in("primary_word", words)
+        .limit(words.length * 3)
+}

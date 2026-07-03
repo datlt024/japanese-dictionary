@@ -19,6 +19,7 @@ import type {
 type QuickLookupModalProps = {
     open: boolean
     target: QuickLookupTarget | null
+    loadingTitle?: string
     onClose: () => void
 }
 
@@ -75,12 +76,50 @@ function getKanjiTargets(
 export default function QuickLookupModal({
     open,
     target,
+    loadingTitle,
     onClose,
 }: QuickLookupModalProps) {
     const targetKey = useMemo(
         () => getTargetKey(target),
         [target]
     )
+
+    if (!open) return null
+
+    if (!target) {
+        return (
+            <div className={styles.overlay} onClick={onClose} role="presentation">
+                <div
+                    className={styles.modal}
+                    onClick={(e) => e.stopPropagation()}
+                    role="dialog"
+                    aria-modal="true"
+                >
+                    <div className={styles.header} data-disable-quick-lookup="true">
+                        <h2>
+                            Chi tiết từ{" "}
+                            {loadingTitle && <span>{loadingTitle}</span>}
+                        </h2>
+                        <button
+                            type="button"
+                            className={styles.closeButton}
+                            onClick={onClose}
+                            aria-label="Đóng"
+                        >
+                            <X size={20} />
+                        </button>
+                    </div>
+                    <div className={styles.loadingContent}>
+                        <div className={`${styles.skeleton} ${styles.skeletonHeading}`} />
+                        <div className={`${styles.skeleton} ${styles.skeletonLine}`} />
+                        <div className={`${styles.skeleton} ${styles.skeletonLine}`} style={{ width: "70%" }} />
+                        <div className={`${styles.skeleton} ${styles.skeletonLine}`} style={{ width: "85%" }} />
+                        <div className={`${styles.skeleton} ${styles.skeletonLine}`} style={{ width: "55%" }} />
+                    </div>
+                </div>
+            </div>
+        )
+    }
 
     return (
         <QuickLookupModalInner
