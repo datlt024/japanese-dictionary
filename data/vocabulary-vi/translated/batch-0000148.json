@@ -1,0 +1,582 @@
+[
+{
+"vocabulary_id": 3741,
+"word": "基督",
+"kana": "キリスト",
+"senses": [
+{
+"sense_id": 222251,
+"meaning_vi": "Chúa Kitô",
+"confidence": "high",
+"search_keywords": [
+"Chúa Kitô",
+"Đức Kitô",
+"Christ"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "Chúa Kitô; Đức Kitô",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3742,
+"word": "キリスト教",
+"kana": "キリストきょう",
+"senses": [
+{
+"sense_id": 222252,
+"meaning_vi": "Kitô giáo",
+"confidence": "high",
+"search_keywords": [
+"Kitô giáo",
+"Cơ Đốc giáo",
+"Christianity"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "Kitô giáo; Cơ Đốc giáo",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3743,
+"word": "キリスト教徒",
+"kana": "キリストきょうと",
+"senses": [
+{
+"sense_id": 222253,
+"meaning_vi": "tín đồ Kitô giáo",
+"confidence": "high",
+"search_keywords": [
+"tín đồ Kitô giáo",
+"Kitô hữu",
+"Christian"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tín đồ Kitô giáo; Kitô hữu",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3744,
+"word": "キリル",
+"kana": "キリル",
+"senses": [
+{
+"sense_id": 222254,
+"meaning_vi": "chữ Kirin",
+"confidence": "high",
+"search_keywords": [
+"chữ Kirin",
+"Cyrillic",
+"Kiril"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chữ Kirin; hệ chữ Cyrillic",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3745,
+"word": "キリル文字",
+"kana": "キリルもじ",
+"senses": [
+{
+"sense_id": 222255,
+"meaning_vi": "chữ Kirin",
+"confidence": "high",
+"search_keywords": [
+"chữ Kirin",
+"chữ Cyrillic",
+"bảng chữ cái Kirin"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "chữ Kirin; bảng chữ cái Cyrillic",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3746,
+"word": "キル",
+"kana": "キル",
+"senses": [
+{
+"sense_id": 222256,
+"meaning_vi": "hạ gục",
+"confidence": "high",
+"search_keywords": [
+"hạ gục",
+"kill",
+"tiêu diệt"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "hạ gục; tiêu diệt, thường trong trò chơi hoặc thi đấu",
+"examples": []
+}
+]
+},
+{
+"sense_id": 222257,
+"meaning_vi": "cú đập bóng",
+"confidence": "high",
+"search_keywords": [
+"cú đập bóng",
+"smash",
+"spike"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cú đập hoặc đòn tấn công quyết định trong thể thao",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3747,
+"word": "キルティング",
+"kana": "キルティング",
+"senses": [
+{
+"sense_id": 222258,
+"meaning_vi": "chần bông",
+"confidence": "high",
+"search_keywords": [
+"chần bông",
+"may chần",
+"quilting"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kỹ thuật may chần nhiều lớp vải có lớp đệm",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3748,
+"word": "キルビメーター",
+"kana": "キルビメーター",
+"senses": [
+{
+"sense_id": 222259,
+"meaning_vi": "thước đo đường cong",
+"confidence": "medium",
+"search_keywords": [
+"curvimeter",
+"thước đo đường cong"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "dụng cụ đo chiều dài đường cong trên bản đồ",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3749,
+"word": "キロ",
+"kana": "キロ",
+"senses": [
+{
+"sense_id": 222260,
+"meaning_vi": "kilo-",
+"confidence": "high",
+"search_keywords": [
+"kilo",
+"nghìn",
+"1000"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tiền tố kilo-, nghĩa là một nghìn",
+"examples": []
+}
+]
+},
+{
+"sense_id": 222261,
+"meaning_vi": "kilôgam",
+"confidence": "high",
+"search_keywords": [
+"kilôgam",
+"kg",
+"ký"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kilôgam; đơn vị đo khối lượng",
+"examples": []
+}
+]
+},
+{
+"sense_id": 222262,
+"meaning_vi": "kilômét",
+"confidence": "high",
+"search_keywords": [
+"kilômét",
+"km",
+"cây số"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kilômét; đơn vị đo chiều dài",
+"examples": []
+}
+]
+},
+{
+"sense_id": 222263,
+"meaning_vi": "kibi-",
+"confidence": "medium",
+"search_keywords": [
+"kilo máy tính",
+"1024",
+"kibi"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tiền tố chỉ 1024 trong tin học",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3750,
+"word": "瓩",
+"kana": "キログラム",
+"senses": [
+{
+"sense_id": 222264,
+"meaning_vi": "kilôgam",
+"confidence": "high",
+"search_keywords": [
+"kilôgam",
+"kg",
+"ký"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kilôgam; đơn vị đo khối lượng",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3751,
+"word": "キロバイト",
+"kana": "キロバイト",
+"senses": [
+{
+"sense_id": 222265,
+"meaning_vi": "kilobyte",
+"confidence": "high",
+"search_keywords": [
+"kilobyte",
+"kB",
+"KB"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kilobyte; đơn vị dung lượng dữ liệu",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3752,
+"word": "粁",
+"kana": "キロメートル",
+"senses": [
+{
+"sense_id": 222266,
+"meaning_vi": "kilômét",
+"confidence": "high",
+"search_keywords": [
+"kilômét",
+"km",
+"cây số"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kilômét; đơn vị đo chiều dài",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3753,
+"word": "キロワット",
+"kana": "キロワット",
+"senses": [
+{
+"sense_id": 222267,
+"meaning_vi": "kilowatt",
+"confidence": "high",
+"search_keywords": [
+"kilowatt",
+"kW",
+"kilô oát"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "kilowatt; đơn vị đo công suất",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3754,
+"word": "キンキールック",
+"kana": "キンキールック",
+"senses": [
+{
+"sense_id": 222268,
+"meaning_vi": "phong cách kinky",
+"confidence": "medium",
+"search_keywords": [
+"phong cách kinky",
+"kinky look"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "phong cách thời trang hoặc diện mạo có nét táo bạo, khác thường",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3755,
+"word": "キング",
+"kana": "キング",
+"senses": [
+{
+"sense_id": 222269,
+"meaning_vi": "vua",
+"confidence": "high",
+"search_keywords": [
+"vua",
+"quốc vương",
+"king"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "vua; quốc vương",
+"examples": []
+}
+]
+},
+{
+"sense_id": 222270,
+"meaning_vi": "quân K",
+"confidence": "high",
+"search_keywords": [
+"quân K",
+"king bài",
+"bài tây"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "quân K trong bộ bài tây",
+"examples": []
+}
+]
+},
+{
+"sense_id": 222271,
+"meaning_vi": "quân vua",
+"confidence": "high",
+"search_keywords": [
+"quân vua",
+"vua cờ vua",
+"king chess"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "quân vua trong cờ vua",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3756,
+"word": "キングサーモン",
+"kana": "キングサーモン",
+"senses": [
+{
+"sense_id": 222272,
+"meaning_vi": "cá hồi vua",
+"confidence": "high",
+"search_keywords": [
+"cá hồi vua",
+"king salmon",
+"chinook salmon"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cá hồi vua; cá hồi Chinook",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3757,
+"word": "キングサイズ",
+"kana": "キングサイズ",
+"senses": [
+{
+"sense_id": 222273,
+"meaning_vi": "cỡ king",
+"confidence": "high",
+"search_keywords": [
+"cỡ king",
+"king-size",
+"cỡ lớn"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "cỡ king; kích thước lớn hơn tiêu chuẩn",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3758,
+"word": "キングズイングリッシュ",
+"kana": "キングズイングリッシュ",
+"senses": [
+{
+"sense_id": 222274,
+"meaning_vi": "tiếng Anh chuẩn Anh",
+"confidence": "medium",
+"search_keywords": [
+"King's English",
+"tiếng Anh chuẩn Anh",
+"Anh ngữ chuẩn"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "tiếng Anh chuẩn mực của Anh quốc",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3759,
+"word": "キングメーカー",
+"kana": "キングメーカー",
+"senses": [
+{
+"sense_id": 222275,
+"meaning_vi": "người tạo vua",
+"confidence": "high",
+"search_keywords": [
+"kingmaker",
+"người tạo vua",
+"người đứng sau quyền lực"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "người có ảnh hưởng quyết định trong việc đưa ai đó lên nắm quyền",
+"examples": []
+}
+]
+}
+]
+},
+{
+"vocabulary_id": 3760,
+"word": "ギア",
+"kana": "ギア",
+"senses": [
+{
+"sense_id": 222276,
+"meaning_vi": "bánh răng",
+"confidence": "high",
+"search_keywords": [
+"bánh răng",
+"số xe",
+"gear"
+],
+"meaning_vi_glosses": [
+{
+"index": 1,
+"meaning": "bánh răng; cơ cấu truyền động hoặc số xe",
+"examples": []
+}
+]
+}
+]
+}
+]
