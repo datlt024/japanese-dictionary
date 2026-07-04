@@ -42,23 +42,20 @@
     font-weight: 800;
 }
 
-.detailWord span,
-.detailWord ruby {
+.detailWord span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 
-.detailWord ruby {
-    position: relative;
-    flex-direction: column-reverse;
+.rubyChar {
+    flex-direction: column;
 
     min-width: 1em;
-
-    ruby-position: over;
 }
 
-.detailWord rt {
+.rubyChar::before {
+    content: attr(data-ruby);
     display: block;
 
     min-width: 100%;
@@ -139,10 +136,11 @@
 }
 
 .pitchBox {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 
-    min-width: 190px;
-    padding: 16px 56px 16px 16px;
+    padding: 14px 16px;
 
     border: 1px solid var(--border-color);
     border-radius: 16px;
@@ -150,79 +148,43 @@
     background: #ffffff;
 }
 
+.pitchTopRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
 .pitchLabel {
     color: var(--text-secondary);
 
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
+
+    white-space: nowrap;
 }
 
-.pitchGraph {
-    position: relative;
-
-    display: flex;
-    align-items: center;
-    gap: 18px;
-
-    width: 132px;
-    height: 36px;
+.pitchSvg {
+    display: block;
+    overflow: visible;
 }
 
-.pitchGraph::before {
-    content: "";
-
-    position: absolute;
-    left: 4px;
-    right: 4px;
-    top: 18px;
-
-    height: 2px;
-
-    background: var(--primary);
-}
-
-.pitchGraph span {
-    position: relative;
-    z-index: 1;
-
-    width: 6px;
-    height: 6px;
-
-    border-radius: 999px;
-
-    background: var(--primary);
-}
-
-.pitchPlayButton {
-    position: absolute;
-    right: 14px;
-    bottom: 14px;
-
+.pitchNumber {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    width: 40px;
-    height: 40px;
+    min-width: 22px;
+    height: 22px;
+    padding: 0 6px;
 
-    border: 1px solid var(--border-color);
     border-radius: 999px;
 
-    background: #ffffff;
-    color: var(--primary-dark);
-
-    cursor: pointer;
-
-    transition:
-        border-color .2s ease,
-        background .2s ease,
-        color .2s ease;
-}
-
-.pitchPlayButton:hover {
-    border-color: #c7d7f3;
-    background: var(--primary-soft);
+    background: #eff6ff;
     color: var(--primary);
+
+    font-size: 12px;
+    font-weight: 800;
 }
 
 @media (max-width: 900px) {

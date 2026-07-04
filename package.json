@@ -13,7 +13,8 @@
     "build:kanji-links": "tsx scripts/build/build-kanji-links.ts",
     "build:kanji-readings": "tsx scripts/build/build-kanji-reading-examples.ts",
     "grammar:enrich": "tsx scripts/grammar/enrich-grammars.ts",
-    "grammar:apply": "tsx scripts/grammar/apply-grammar-results.ts"
+    "grammar:apply": "tsx scripts/grammar/apply-grammar-results.ts",
+    "import:pitch-accents": "tsx scripts/import/import-pitch-accents.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.105.0",

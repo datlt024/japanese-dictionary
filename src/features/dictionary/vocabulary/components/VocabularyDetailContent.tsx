@@ -78,6 +78,11 @@ export default function VocabularyDetailContent({
                     meaning={getHeaderMeaning(vocabulary, language)}
                     hasSuruVerb={hasSuruVerb}
                     verbGroupLabel={verbGroupLabel}
+                    pitch={
+                        vocabulary.readings.find((r) => r.is_primary)?.pitch
+                        ?? vocabulary.readings[0]?.pitch
+                        ?? null
+                    }
                 />
 
                 <VocabularyMeaningCards

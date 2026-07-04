@@ -46,6 +46,7 @@ export type VocabularyReading = Pick<
     | "is_primary"
     | "priority"
     | "info"
+    | "pitch"
 >
 
 export type Vocabulary = {

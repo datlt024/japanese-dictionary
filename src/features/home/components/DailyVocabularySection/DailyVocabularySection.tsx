@@ -28,16 +28,18 @@ const WORD_CONFIGS = [
     { word: "技術",   reading: "ぎじゅつ",   meaning: "kỹ thuật, công nghệ",    type: "Danh từ" },
 ]
 
-// Word configs are static — cache DB result indefinitely (revalidate on deploy)
 const cachedFindVocabularyIds = unstable_cache(
-    (words: string[]) => findVocabularyIdsByPrimaryWords(words),
+    async (words: string[]) => {
+        const { data } = await findVocabularyIdsByPrimaryWords(words)
+        return data
+    },
     ["daily-vocabulary-ids"],
     { revalidate: 86400 }
 )
 
 export default async function DailyVocabularySection() {
     const words = WORD_CONFIGS.map((w) => w.word)
-    const { data: rows } = await cachedFindVocabularyIds(words)
+    const rows = await cachedFindVocabularyIds(words)
 
     const idMap = new Map<string, number>()
     const jlptMap = new Map<string, string | null>()

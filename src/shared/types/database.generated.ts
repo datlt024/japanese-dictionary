@@ -419,6 +419,41 @@ export type Database = {
         }
         Relationships: []
       }
+      kanji_reading_examples: {
+        Row: {
+          id: number
+          kanji: string
+          priority: number
+          reading: string
+          reading_type: string
+          vocabulary_id: number
+        }
+        Insert: {
+          id?: number
+          kanji: string
+          priority?: number
+          reading: string
+          reading_type: string
+          vocabulary_id: number
+        }
+        Update: {
+          id?: number
+          kanji?: string
+          priority?: number
+          reading?: string
+          reading_type?: string
+          vocabulary_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "kanji_reading_examples_vocabulary_id_fkey"
+            columns: ["vocabulary_id"]
+            isOneToOne: false
+            referencedRelation: "vocabularies"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       kanji_vocabulary_links: {
         Row: {
           id: number
@@ -515,6 +550,68 @@ export type Database = {
           stroke_count?: number | null
           unicode?: string | null
           updated_at?: string | null
+        }
+        Relationships: []
+      }
+      notebook_items: {
+        Row: {
+          added_at: string
+          id: string
+          item_id: string
+          item_type: string
+          notebook_id: string
+          user_id: string
+        }
+        Insert: {
+          added_at?: string
+          id?: string
+          item_id: string
+          item_type: string
+          notebook_id: string
+          user_id: string
+        }
+        Update: {
+          added_at?: string
+          id?: string
+          item_id?: string
+          item_type?: string
+          notebook_id?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "notebook_items_notebook_id_fkey"
+            columns: ["notebook_id"]
+            isOneToOne: false
+            referencedRelation: "notebooks"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      notebooks: {
+        Row: {
+          created_at: string
+          description: string | null
+          id: string
+          name: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          id?: string
+          name: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          id?: string
+          name?: string
+          updated_at?: string
+          user_id?: string
         }
         Relationships: []
       }
@@ -616,6 +713,7 @@ export type Database = {
           id: number
           info: string[] | null
           is_primary: boolean | null
+          pitch: number | null
           priority: number | null
           reading: string
           romaji: string | null
@@ -626,6 +724,7 @@ export type Database = {
           id?: number
           info?: string[] | null
           is_primary?: boolean | null
+          pitch?: number | null
           priority?: number | null
           reading: string
           romaji?: string | null
@@ -636,6 +735,7 @@ export type Database = {
           id?: number
           info?: string[] | null
           is_primary?: boolean | null
+          pitch?: number | null
           priority?: number | null
           reading?: string
           romaji?: string | null
@@ -842,83 +942,6 @@ export type Database = {
             columns: ["vocabulary_id"]
             isOneToOne: false
             referencedRelation: "vocabularies"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      notebook_items: {
-        Row: {
-          added_at: string
-          id: string
-          item_id: string
-          item_type: string
-          notebook_id: string
-          user_id: string
-        }
-        Insert: {
-          added_at?: string
-          id?: string
-          item_id: string
-          item_type: string
-          notebook_id: string
-          user_id: string
-        }
-        Update: {
-          added_at?: string
-          id?: string
-          item_id?: string
-          item_type?: string
-          notebook_id?: string
-          user_id?: string
-        }
-        Relationships: [
-          {
-            foreignKeyName: "notebook_items_notebook_id_fkey"
-            columns: ["notebook_id"]
-            isOneToOne: false
-            referencedRelation: "notebooks"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "notebook_items_user_id_fkey"
-            columns: ["user_id"]
-            isOneToOne: false
-            referencedRelation: "users"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      notebooks: {
-        Row: {
-          created_at: string
-          description: string | null
-          id: string
-          name: string
-          updated_at: string
-          user_id: string
-        }
-        Insert: {
-          created_at?: string
-          description?: string | null
-          id?: string
-          name: string
-          updated_at?: string
-          user_id: string
-        }
-        Update: {
-          created_at?: string
-          description?: string | null
-          id?: string
-          name?: string
-          updated_at?: string
-          user_id?: string
-        }
-        Relationships: [
-          {
-            foreignKeyName: "notebooks_user_id_fkey"
-            columns: ["user_id"]
-            isOneToOne: false
-            referencedRelation: "users"
             referencedColumns: ["id"]
           },
         ]

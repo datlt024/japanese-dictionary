@@ -34,7 +34,8 @@ reading,
 romaji,
 is_primary,
 priority,
-info
+info,
+pitch
 ` as const
 
 const VOCABULARY_KANJI_COLUMNS = `
