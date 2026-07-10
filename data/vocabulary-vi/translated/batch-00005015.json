@@ -1,0 +1,631 @@
+[
+  {
+    "vocabulary_id": 120793,
+    "word": "ビュー平面",
+    "kana": "ビューへいめん",
+    "senses": [
+      {
+        "sense_id": 364376,
+        "meaning_vi": "xem mặt phẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "xem mặt phẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem mặt phẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120794,
+    "word": "ビュー平面法線",
+    "kana": "ビューへいめんほうせん",
+    "senses": [
+      {
+        "sense_id": 364377,
+        "meaning_vi": "xem mặt phẳng bình thường",
+        "confidence": "high",
+        "search_keywords": [
+          "xem mặt phẳng bình thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem mặt phẳng bình thường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120795,
+    "word": "ビュー変換入力優先度",
+    "kana": "ビューへんかんにゅうりょくゆうせんど",
+    "senses": [
+      {
+        "sense_id": 364378,
+        "meaning_vi": "xem mức độ ưu tiên đầu vào chuyển đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "xem mức độ ưu tiên đầu vào chuyển đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem mức độ ưu tiên đầu vào chuyển đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120796,
+    "word": "ビュー方向変換行列",
+    "kana": "ビューほうこうへんかんぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 364379,
+        "meaning_vi": "xem ma trận định hướng",
+        "confidence": "high",
+        "search_keywords": [
+          "xem ma trận định hướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem ma trận định hướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120797,
+    "word": "ビュー立体",
+    "kana": "ビューりったい",
+    "senses": [
+      {
+        "sense_id": 364380,
+        "meaning_vi": "lượt xem",
+        "confidence": "high",
+        "search_keywords": [
+          "lượt xem"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lượt xem",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120798,
+    "word": "ビルド",
+    "kana": "ビルド",
+    "senses": [
+      {
+        "sense_id": 364381,
+        "meaning_vi": "xây dựng",
+        "confidence": "high",
+        "search_keywords": [
+          "xây dựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xây dựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120799,
+    "word": "ビルド番号",
+    "kana": "ビルドばんごう",
+    "senses": [
+      {
+        "sense_id": 364382,
+        "meaning_vi": "số xây dựng",
+        "confidence": "high",
+        "search_keywords": [
+          "số xây dựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số xây dựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120800,
+    "word": "ＰｎＰ",
+    "kana": "ピー・エヌ・ピー",
+    "senses": [
+      {
+        "sense_id": 364383,
+        "meaning_vi": "cắm và chạy; PnP",
+        "confidence": "high",
+        "search_keywords": [
+          "cắm và chạy",
+          "PnP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắm và chạy; PnP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120801,
+    "word": "ピークセルレート",
+    "kana": "ピークセルレート",
+    "senses": [
+      {
+        "sense_id": 364384,
+        "meaning_vi": "tốc độ tế bào cao nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ tế bào cao nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ tế bào cao nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120802,
+    "word": "ピークセル速度",
+    "kana": "ピークセルそくど",
+    "senses": [
+      {
+        "sense_id": 364385,
+        "meaning_vi": "tỷ lệ tế bào cao điểm; PCR",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ tế bào cao điểm",
+          "PCR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ tế bào cao điểm; PCR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120803,
+    "word": "ピークトラヒック",
+    "kana": "ピークトラヒック",
+    "senses": [
+      {
+        "sense_id": 364386,
+        "meaning_vi": "giao thông cao điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "giao thông cao điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao thông cao điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120804,
+    "word": "ピークレート",
+    "kana": "ピークレート",
+    "senses": [
+      {
+        "sense_id": 364387,
+        "meaning_vi": "tỷ lệ cao điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ cao điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ cao điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120805,
+    "word": "ピークレベルメータ",
+    "kana": "ピークレベルメータ",
+    "senses": [
+      {
+        "sense_id": 364388,
+        "meaning_vi": "máy đo mật độ; máy đo mức đỉnh",
+        "confidence": "high",
+        "search_keywords": [
+          "máy đo mật độ",
+          "máy đo mức đỉnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy đo mật độ; máy đo mức đỉnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120806,
+    "word": "ピーク速度",
+    "kana": "ピークそくど",
+    "senses": [
+      {
+        "sense_id": 364389,
+        "meaning_vi": "tốc độ cao nhất; tỷ lệ cao điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ cao nhất",
+          "tỷ lệ cao điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ cao nhất; tỷ lệ cao điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120807,
+    "word": "ピーク帯域幅",
+    "kana": "ピークたいいきはば",
+    "senses": [
+      {
+        "sense_id": 364390,
+        "meaning_vi": "băng thông đỉnh cao",
+        "confidence": "high",
+        "search_keywords": [
+          "băng thông đỉnh cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "băng thông đỉnh cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120808,
+    "word": "ＰＣ",
+    "kana": "ピー・シー",
+    "senses": [
+      {
+        "sense_id": 364391,
+        "meaning_vi": "máy tính cá nhân; máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "máy tính cá nhân",
+          "máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy tính cá nhân; máy tính",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364392,
+        "meaning_vi": "bê tông dự ứng lực",
+        "confidence": "high",
+        "search_keywords": [
+          "bê tông dự ứng lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bê tông dự ứng lực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364393,
+        "meaning_vi": "bê tông đúc sẵn",
+        "confidence": "high",
+        "search_keywords": [
+          "bê tông đúc sẵn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bê tông đúc sẵn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364394,
+        "meaning_vi": "polycacbonat",
+        "confidence": "high",
+        "search_keywords": [
+          "polycacbonat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "polycacbonat",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364395,
+        "meaning_vi": "sự đúng đắn về mặt chính trị",
+        "confidence": "high",
+        "search_keywords": [
+          "sự đúng đắn về mặt chính trị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự đúng đắn về mặt chính trị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364396,
+        "meaning_vi": "xe tuần tra; xe cảnh sát",
+        "confidence": "high",
+        "search_keywords": [
+          "xe tuần tra",
+          "xe cảnh sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe tuần tra; xe cảnh sát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364397,
+        "meaning_vi": "bình luận công khai",
+        "confidence": "high",
+        "search_keywords": [
+          "bình luận công khai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bình luận công khai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364398,
+        "meaning_vi": "nhân vật người chơi; nhân vật có thể chơi được",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật người chơi",
+          "nhân vật có thể chơi được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật người chơi; nhân vật có thể chơi được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120809,
+    "word": "ＰＣＩ",
+    "kana": "ピー・シー・アイ",
+    "senses": [
+      {
+        "sense_id": 364399,
+        "meaning_vi": "PCI; Kết nối thành phần ngoại vi",
+        "confidence": "high",
+        "search_keywords": [
+          "PCI",
+          "Kết nối thành phần ngoại vi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "PCI; Kết nối thành phần ngoại vi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120810,
+    "word": "ＰＣＭ",
+    "kana": "ピー・シー・エム",
+    "senses": [
+      {
+        "sense_id": 364400,
+        "meaning_vi": "điều chế mã xung; PCM",
+        "confidence": "high",
+        "search_keywords": [
+          "điều chế mã xung",
+          "PCM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều chế mã xung; PCM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120811,
+    "word": "ＰＣＤＯＳ",
+    "kana": "ピーシードス",
+    "senses": [
+      {
+        "sense_id": 364401,
+        "meaning_vi": "PC DOS",
+        "confidence": "low",
+        "search_keywords": [
+          "PC DOS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "PC DOS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120812,
+    "word": "ＰＤ",
+    "kana": "ピー・ディー",
+    "senses": [
+      {
+        "sense_id": 364402,
+        "meaning_vi": "nhà sản xuất (phim, truyền hình, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà sản xuất (phim, truyền hình, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà sản xuất (phim, truyền hình, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364403,
+        "meaning_vi": "giám đốc chương trình",
+        "confidence": "high",
+        "search_keywords": [
+          "giám đốc chương trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giám đốc chương trình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364404,
+        "meaning_vi": "thẩm phân phúc mạc",
+        "confidence": "high",
+        "search_keywords": [
+          "thẩm phân phúc mạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẩm phân phúc mạc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364405,
+        "meaning_vi": "rối loạn hoảng sợ",
+        "confidence": "high",
+        "search_keywords": [
+          "rối loạn hoảng sợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rối loạn hoảng sợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364406,
+        "meaning_vi": "phạm vi công cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "phạm vi công cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phạm vi công cộng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364407,
+        "meaning_vi": "phân phối vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "phân phối vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân phối vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

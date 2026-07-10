@@ -1,752 +1,726 @@
 [
-{
-"vocabulary_id": 221,
-"word": "お腹",
-"kana": "おなか",
-"senses": [
-{
-"sense_id": 217532,
-"meaning_vi": "bụng",
-"confidence": "high",
-"search_keywords": [
-"bụng",
-"dạ dày",
-"bụng dưới"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bụng; vùng bụng; dạ dày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 222,
-"word": "お別れ",
-"kana": "おわかれ",
-"senses": [
-{
-"sense_id": 217533,
-"meaning_vi": "chia tay",
-"confidence": "high",
-"search_keywords": [
-"chia tay",
-"từ biệt",
-"tạm biệt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự chia tay; từ biệt; lời tạm biệt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 223,
-"word": "お返し",
-"kana": "おかえし",
-"senses": [
-{
-"sense_id": 217534,
-"meaning_vi": "đáp lễ",
-"confidence": "high",
-"search_keywords": [
-"đáp lễ",
-"quà đáp lễ",
-"đền đáp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quà hoặc hành động đáp lại ân huệ, quà tặng hay sự giúp đỡ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217535,
-"meaning_vi": "trả thù",
-"confidence": "high",
-"search_keywords": [
-"trả thù",
-"báo thù",
-"phục thù"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hành động trả đũa hoặc báo thù",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217536,
-"meaning_vi": "tiền thối lại",
-"confidence": "high",
-"search_keywords": [
-"tiền thối lại",
-"tiền trả lại",
-"tiền dư"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "số tiền được trả lại sau khi thanh toán",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 224,
-"word": "お母さん",
-"kana": "おかあさん",
-"senses": [
-{
-"sense_id": 217537,
-"meaning_vi": "mẹ",
-"confidence": "high",
-"search_keywords": [
-"mẹ",
-"má",
-"mẹ ruột"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mẹ; cách gọi hoặc nhắc đến mẹ của người khác",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217538,
-"meaning_vi": "bà xã",
-"confidence": "high",
-"search_keywords": [
-"bà xã",
-"vợ",
-"mẹ bọn trẻ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi hoặc nhắc đến vợ trong gia đình",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217539,
-"meaning_vi": "bác gái",
-"confidence": "medium",
-"search_keywords": [
-"bác gái",
-"cô",
-"bà"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi hoặc chỉ một phụ nữ lớn tuổi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 225,
-"word": "お母様",
-"kana": "おかあさま",
-"senses": [
-{
-"sense_id": 217540,
-"meaning_vi": "thân mẫu",
-"confidence": "high",
-"search_keywords": [
-"thân mẫu",
-"mẹ",
-"mẫu thân"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi rất kính trọng đối với mẹ của người khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 226,
-"word": "お坊ちゃん",
-"kana": "おぼっちゃん",
-"senses": [
-{
-"sense_id": 217541,
-"meaning_vi": "cậu ấm",
-"confidence": "high",
-"search_keywords": [
-"cậu ấm",
-"thiếu gia",
-"cậu chủ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "con trai của gia đình khá giả; cậu chủ nhỏ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217542,
-"meaning_vi": "thiếu gia ngây ngô",
-"confidence": "high",
-"search_keywords": [
-"thiếu gia ngây ngô",
-"cậu ấm",
-"gà mờ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người trẻ xuất thân giàu có nhưng thiếu kinh nghiệm sống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 227,
-"word": "お墨付き",
-"kana": "おすみつき",
-"senses": [
-{
-"sense_id": 217543,
-"meaning_vi": "chứng nhận",
-"confidence": "high",
-"search_keywords": [
-"chứng nhận",
-"giấy chứng nhận",
-"ủy quyền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giấy chứng nhận hoặc văn bản xác nhận chính thức",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217544,
-"meaning_vi": "bảo chứng",
-"confidence": "high",
-"search_keywords": [
-"bảo chứng",
-"tán thành",
-"phê duyệt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự công nhận, tán thành hoặc bảo đảm về chất lượng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217545,
-"meaning_vi": "sắc thư",
-"confidence": "medium",
-"search_keywords": [
-"sắc thư",
-"văn thư của tướng quân",
-"chiếu thư"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "văn thư có chữ ký của tướng quân hoặc lãnh chúa thời phong kiến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 228,
-"word": "お盆",
-"kana": "おぼん",
-"senses": [
-{
-"sense_id": 217546,
-"meaning_vi": "lễ Obon",
-"confidence": "high",
-"search_keywords": [
-"lễ Obon",
-"lễ Vu Lan Nhật Bản",
-"Obon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lễ hội Phật giáo tưởng nhớ và cúng tổ tiên tại Nhật Bản",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217547,
-"meaning_vi": "cái khay",
-"confidence": "high",
-"search_keywords": [
-"cái khay",
-"mâm",
-"khay đựng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khay dùng để bưng hoặc đựng đồ vật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 229,
-"word": "お餅",
-"kana": "おもち",
-"senses": [
-{
-"sense_id": 217548,
-"meaning_vi": "bánh mochi",
-"confidence": "high",
-"search_keywords": [
-"bánh mochi",
-"mochi",
-"bánh gạo nếp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bánh gạo nếp giã dẻo truyền thống của Nhật Bản",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 230,
-"word": "お冷",
-"kana": "おひや",
-"senses": [
-{
-"sense_id": 217549,
-"meaning_vi": "nước lạnh",
-"confidence": "high",
-"search_keywords": [
-"nước lạnh",
-"ly nước lạnh",
-"nước uống lạnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nước uống lạnh thường được phục vụ tại nhà hàng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217550,
-"meaning_vi": "cơm nguội",
-"confidence": "medium",
-"search_keywords": [
-"cơm nguội",
-"cơm để nguội"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơm đã nấu chín và để nguội",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 231,
-"word": "お漏らし",
-"kana": "おもらし",
-"senses": [
-{
-"sense_id": 217551,
-"meaning_vi": "đái ra quần",
-"confidence": "high",
-"search_keywords": [
-"đái ra quần",
-"tiểu không tự chủ",
-"đái dầm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đi tiểu ngoài ý muốn làm ướt quần áo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 232,
-"word": "お話中",
-"kana": "おはなしちゅう",
-"senses": [
-{
-"sense_id": 217552,
-"meaning_vi": "máy bận",
-"confidence": "high",
-"search_keywords": [
-"máy bận",
-"đang gọi",
-"đang bận điện thoại"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trạng thái đường dây điện thoại đang được sử dụng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 233,
-"word": "お碗",
-"kana": "おわん",
-"senses": [
-{
-"sense_id": 217553,
-"meaning_vi": "cái bát",
-"confidence": "high",
-"search_keywords": [
-"cái bát",
-"cái chén",
-"bát ăn cơm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bát hoặc chén bằng gốm sứ dùng để đựng thức ăn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 234,
-"word": "お洒落",
-"kana": "おしゃれ",
-"senses": [
-{
-"sense_id": 217554,
-"meaning_vi": "sành điệu",
-"confidence": "high",
-"search_keywords": [
-"sành điệu",
-"thời trang",
-"đẹp mắt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thời trang; hợp mốt; chú ý đến ngoại hình",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217555,
-"meaning_vi": "ăn diện",
-"confidence": "high",
-"search_keywords": [
-"ăn diện",
-"chưng diện",
-"làm đẹp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc ăn mặc hoặc làm đẹp để trở nên hấp dẫn hơn",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217556,
-"meaning_vi": "người sành điệu",
-"confidence": "high",
-"search_keywords": [
-"người sành điệu",
-"fashionista",
-"người có gu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người ăn mặc đẹp và có gu thời trang",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 235,
-"word": "畏まりました",
-"kana": "かしこまりました",
-"senses": [
-{
-"sense_id": 217557,
-"meaning_vi": "vâng, tôi hiểu rồi",
-"confidence": "high",
-"search_keywords": [
-"vâng tôi hiểu rồi",
-"xin tuân lệnh",
-"đã rõ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách đáp rất lịch sự với khách hàng hoặc cấp trên khi đã hiểu và sẽ thực hiện yêu cầu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 236,
-"word": "かしら",
-"kana": "かしら",
-"senses": [
-{
-"sense_id": 217558,
-"meaning_vi": "không biết nhỉ",
-"confidence": "high",
-"search_keywords": [
-"không biết nhỉ",
-"liệu có",
-"không biết có phải"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trợ từ cuối câu, thường do nữ giới dùng để bày tỏ sự băn khoăn hoặc tự hỏi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217559,
-"meaning_vi": "đâu đó",
-"confidence": "medium",
-"search_keywords": [
-"đâu đó",
-"nào đó",
-"mơ hồ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "biểu thị sự không xác định hoặc không chính xác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 237,
-"word": "悴む",
-"kana": "かじかむ",
-"senses": [
-{
-"sense_id": 217560,
-"meaning_vi": "tê cóng",
-"confidence": "high",
-"search_keywords": [
-"tê cóng",
-"cóng cứng",
-"tê buốt vì lạnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bị tê hoặc cứng lại do giá lạnh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 238,
-"word": "梶木",
-"kana": "かじき",
-"senses": [
-{
-"sense_id": 217561,
-"meaning_vi": "cá kiếm",
-"confidence": "medium",
-"search_keywords": [
-"cá kiếm",
-"cá cờ",
-"cá marlin"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhóm cá biển lớn gồm cá kiếm, cá cờ và các loài tương tự",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 239,
-"word": "片口鰯",
-"kana": "かたくちいわし",
-"senses": [
-{
-"sense_id": 217562,
-"meaning_vi": "cá cơm Nhật",
-"confidence": "high",
-"search_keywords": [
-"cá cơm Nhật",
-"anchovy Nhật",
-"cá cơm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loài cá cơm Nhật Bản (Engraulis japonica)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 240,
-"word": "カチカチ",
-"kana": "カチカチ",
-"senses": [
-{
-"sense_id": 217563,
-"meaning_vi": "tích tắc",
-"confidence": "high",
-"search_keywords": [
-"tích tắc",
-"tiếng đồng hồ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "âm thanh tích tắc như tiếng đồng hồ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217564,
-"meaning_vi": "lách cách",
-"confidence": "high",
-"search_keywords": [
-"lách cách",
-"cạch cạch",
-"tiếng va chạm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "âm thanh va đập hoặc gõ cứng vào nhau",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217565,
-"meaning_vi": "cứng đờ",
-"confidence": "high",
-"search_keywords": [
-"cứng đờ",
-"khô cứng",
-"đông cứng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khô cứng, cứng ngắc hoặc đông cứng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217566,
-"meaning_vi": "cứng nhắc",
-"confidence": "high",
-"search_keywords": [
-"cứng nhắc",
-"bảo thủ",
-"cố chấp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bảo thủ, cố chấp, không linh hoạt trong suy nghĩ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217567,
-"meaning_vi": "căng cứng",
-"confidence": "high",
-"search_keywords": [
-"căng cứng",
-"run sợ",
-"cứng người"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá lo lắng hoặc sợ hãi đến mức cứng người",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 221,
+    "word": "お腹",
+    "kana": "おなか",
+    "senses": [
+      {
+        "sense_id": 217532,
+        "meaning_vi": "bụng; bụng; dạ dày",
+        "confidence": "high",
+        "search_keywords": [
+          "bụng",
+          "dạ dày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bụng; bụng; dạ dày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 222,
+    "word": "お別れ",
+    "kana": "おわかれ",
+    "senses": [
+      {
+        "sense_id": 217533,
+        "meaning_vi": "chia tay; tạm biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "chia tay",
+          "tạm biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chia tay; tạm biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 223,
+    "word": "お返し",
+    "kana": "おかえし",
+    "senses": [
+      {
+        "sense_id": 217534,
+        "meaning_vi": "trả lại quà; trả ơn",
+        "confidence": "high",
+        "search_keywords": [
+          "trả lại quà",
+          "trả ơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trả lại quà; trả ơn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217535,
+        "meaning_vi": "trả thù",
+        "confidence": "high",
+        "search_keywords": [
+          "trả thù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trả thù",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217536,
+        "meaning_vi": "thay đổi (trong giao dịch tiền mặt)",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi (trong giao dịch tiền mặt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi (trong giao dịch tiền mặt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 224,
+    "word": "お母さん",
+    "kana": "おかあさん",
+    "senses": [
+      {
+        "sense_id": 217537,
+        "meaning_vi": "mẹ; mẹ; mẹ; mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẹ; mẹ; mẹ; mẹ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217538,
+        "meaning_vi": "vợ",
+        "confidence": "high",
+        "search_keywords": [
+          "vợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217539,
+        "meaning_vi": "bạn (của một người lớn tuổi hơn người nói); cô ấy; cô ấy",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn (của một người lớn tuổi hơn người nói)",
+          "cô ấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn (của một người lớn tuổi hơn người nói); cô ấy; cô ấy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 225,
+    "word": "お母様",
+    "kana": "おかあさま",
+    "senses": [
+      {
+        "sense_id": 217540,
+        "meaning_vi": "mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 226,
+    "word": "お坊ちゃん",
+    "kana": "おぼっちゃん",
+    "senses": [
+      {
+        "sense_id": 217541,
+        "meaning_vi": "con trai (của người khác); con trai; cậu chủ trẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "con trai (của người khác)",
+          "con trai",
+          "cậu chủ trẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con trai (của người khác); con trai; cậu chủ trẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217542,
+        "meaning_vi": "chàng trai trẻ xanh trong một gia đình khá giả; chàng trai trẻ hồn nhiên trước cách sống của thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "chàng trai trẻ xanh trong một gia đình khá giả",
+          "chàng trai trẻ hồn nhiên trước cách sống của thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chàng trai trẻ xanh trong một gia đình khá giả; chàng trai trẻ hồn nhiên trước cách sống của thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 227,
+    "word": "お墨付き",
+    "kana": "おすみつき",
+    "senses": [
+      {
+        "sense_id": 217543,
+        "meaning_vi": "giấy chứng nhận; tài liệu được chứng thực; ủy quyền; ủy quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy chứng nhận",
+          "tài liệu được chứng thực",
+          "ủy quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy chứng nhận; tài liệu được chứng thực; ủy quyền; ủy quyền",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217544,
+        "meaning_vi": "(the) đồng ý; con dấu phê duyệt",
+        "confidence": "high",
+        "search_keywords": [
+          "(the) đồng ý",
+          "con dấu phê duyệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(the) đồng ý; con dấu phê duyệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217545,
+        "meaning_vi": "giấy có chữ ký của tướng quân hoặc lãnh chúa",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy có chữ ký của tướng quân hoặc lãnh chúa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy có chữ ký của tướng quân hoặc lãnh chúa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 228,
+    "word": "お盆",
+    "kana": "おぼん",
+    "senses": [
+      {
+        "sense_id": 217546,
+        "meaning_vi": "Obon; lễ hội Bon; Lễ hội Phật giáo nhằm tưởng nhớ tổ tiên, được tổ chức vào giữa tháng 8 hoặc giữa tháng 7 ở một số vùng",
+        "confidence": "high",
+        "search_keywords": [
+          "Obon",
+          "lễ hội Bon",
+          "Lễ hội Phật giáo nhằm tưởng nhớ tổ tiên, được tổ chức vào giữa tháng 8 hoặc giữa tháng 7 ở một số vùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Obon; lễ hội Bon; Lễ hội Phật giáo nhằm tưởng nhớ tổ tiên, được tổ chức vào giữa tháng 8 hoặc giữa tháng 7 ở một số vùng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217547,
+        "meaning_vi": "cái khay",
+        "confidence": "high",
+        "search_keywords": [
+          "cái khay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái khay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 229,
+    "word": "お餅",
+    "kana": "おもち",
+    "senses": [
+      {
+        "sense_id": 217548,
+        "meaning_vi": "mochi; bánh gạo nhỏ làm từ gạo nếp",
+        "confidence": "high",
+        "search_keywords": [
+          "mochi",
+          "bánh gạo nhỏ làm từ gạo nếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mochi; bánh gạo nhỏ làm từ gạo nếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 230,
+    "word": "お冷",
+    "kana": "おひや",
+    "senses": [
+      {
+        "sense_id": 217549,
+        "meaning_vi": "nước lạnh (uống); (ly) nước lạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "nước lạnh (uống)",
+          "(ly) nước lạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước lạnh (uống); (ly) nước lạnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217550,
+        "meaning_vi": "cơm nguội",
+        "confidence": "high",
+        "search_keywords": [
+          "cơm nguội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơm nguội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 231,
+    "word": "お漏らし",
+    "kana": "おもらし",
+    "senses": [
+      {
+        "sense_id": 217551,
+        "meaning_vi": "làm ướt mình; tè vào quần",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ướt mình",
+          "tè vào quần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ướt mình; tè vào quần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 232,
+    "word": "お話中",
+    "kana": "おはなしちゅう",
+    "senses": [
+      {
+        "sense_id": 217552,
+        "meaning_vi": "bận (điện thoại)",
+        "confidence": "high",
+        "search_keywords": [
+          "bận (điện thoại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bận (điện thoại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 233,
+    "word": "お碗",
+    "kana": "おわん",
+    "senses": [
+      {
+        "sense_id": 217553,
+        "meaning_vi": "bát (gốm, sứ)",
+        "confidence": "high",
+        "search_keywords": [
+          "bát (gốm, sứ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bát (gốm, sứ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 234,
+    "word": "お洒落",
+    "kana": "おしゃれ",
+    "senses": [
+      {
+        "sense_id": 217554,
+        "meaning_vi": "sành điệu; thời trang; hợp thời trang; sang trọng; ăn mặc lịch sự; cẩn thận về ngoại hình của mình",
+        "confidence": "high",
+        "search_keywords": [
+          "sành điệu",
+          "thời trang",
+          "hợp thời trang",
+          "sang trọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sành điệu; thời trang; hợp thời trang; sang trọng; ăn mặc lịch sự; cẩn thận về ngoại hình của mình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217555,
+        "meaning_vi": "mặc quần áo cho (bản thân); ăn mặc lịch sự; ăn mặc đẹp; khiến bản thân trông hấp dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "mặc quần áo cho (bản thân)",
+          "ăn mặc lịch sự",
+          "ăn mặc đẹp",
+          "khiến bản thân trông hấp dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặc quần áo cho (bản thân); ăn mặc lịch sự; ăn mặc đẹp; khiến bản thân trông hấp dẫn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217556,
+        "meaning_vi": "tủ quần áo thời trang; người ăn mặc lịch sự",
+        "confidence": "high",
+        "search_keywords": [
+          "tủ quần áo thời trang",
+          "người ăn mặc lịch sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tủ quần áo thời trang; người ăn mặc lịch sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 235,
+    "word": "畏まりました",
+    "kana": "かしこまりました",
+    "senses": [
+      {
+        "sense_id": 217557,
+        "meaning_vi": "chắc chắn!; rất tốt; với niềm vui; đã hiểu!",
+        "confidence": "high",
+        "search_keywords": [
+          "chắc chắn!",
+          "rất tốt",
+          "với niềm vui",
+          "đã hiểu!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chắc chắn!; rất tốt; với niềm vui; đã hiểu!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 236,
+    "word": "かしら",
+    "kana": "かしら",
+    "senses": [
+      {
+        "sense_id": 217558,
+        "meaning_vi": "Tôi tự hỏi; bạn có nghĩ vậy không?; tôi có thể; thế còn",
+        "confidence": "high",
+        "search_keywords": [
+          "Tôi tự hỏi",
+          "bạn có nghĩ vậy không?",
+          "tôi có thể",
+          "thế còn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tôi tự hỏi; bạn có nghĩ vậy không?; tôi có thể; thế còn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217559,
+        "meaning_vi": "một số loại; giai đoạn nào đó; bằng cách nào đó; ở đâu đó",
+        "confidence": "high",
+        "search_keywords": [
+          "một số loại",
+          "giai đoạn nào đó",
+          "bằng cách nào đó",
+          "ở đâu đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một số loại; giai đoạn nào đó; bằng cách nào đó; ở đâu đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 237,
+    "word": "悴む",
+    "kana": "かじかむ",
+    "senses": [
+      {
+        "sense_id": 217560,
+        "meaning_vi": "tê cóng vì lạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "tê cóng vì lạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tê cóng vì lạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 238,
+    "word": "梶木",
+    "kana": "かじき",
+    "senses": [
+      {
+        "sense_id": 217561,
+        "meaning_vi": "cá marlin; cá kiếm; cá giáo; cá cờ",
+        "confidence": "high",
+        "search_keywords": [
+          "cá marlin",
+          "cá kiếm",
+          "cá giáo",
+          "cá cờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá marlin; cá kiếm; cá giáo; cá cờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 239,
+    "word": "片口鰯",
+    "kana": "かたくちいわし",
+    "senses": [
+      {
+        "sense_id": 217562,
+        "meaning_vi": "Cá cơm Nhật Bản (Engraulis japonica)",
+        "confidence": "high",
+        "search_keywords": [
+          "Cá cơm Nhật Bản (Engraulis japonica)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cá cơm Nhật Bản (Engraulis japonica)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 240,
+    "word": "カチカチ",
+    "kana": "カチカチ",
+    "senses": [
+      {
+        "sense_id": 217563,
+        "meaning_vi": "tiếng tích tắc",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng tích tắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng tích tắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217564,
+        "meaning_vi": "tiếng gõ (ví dụ như tiếng búa đập vào đá); gõ cửa; nhấp chuột; lạch cạch; lạch cạch",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng gõ (ví dụ như tiếng búa đập vào đá)",
+          "gõ cửa",
+          "nhấp chuột",
+          "lạch cạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng gõ (ví dụ như tiếng búa đập vào đá); gõ cửa; nhấp chuột; lạch cạch; lạch cạch",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217565,
+        "meaning_vi": "khô và cứng; (đông lạnh) cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "khô và cứng",
+          "(đông lạnh) cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khô và cứng; (đông lạnh) cứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217566,
+        "meaning_vi": "nơi ẩn náu; chết cứng; bướng bỉnh; cố chấp; tin mù quáng",
+        "confidence": "high",
+        "search_keywords": [
+          "nơi ẩn náu",
+          "chết cứng",
+          "bướng bỉnh",
+          "cố chấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nơi ẩn náu; chết cứng; bướng bỉnh; cố chấp; tin mù quáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217567,
+        "meaning_vi": "sợ hãi cứng đơ; căng thẳng; lo lắng; sợ sệt",
+        "confidence": "high",
+        "search_keywords": [
+          "sợ hãi cứng đơ",
+          "căng thẳng",
+          "lo lắng",
+          "sợ sệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sợ hãi cứng đơ; căng thẳng; lo lắng; sợ sệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 65108,
+    "word": "癒合",
+    "kana": "ゆごう",
+    "senses": [
+      {
+        "sense_id": 302571,
+        "meaning_vi": "sự kết tụ; sự kết hợp; (chữa bệnh bằng) ý định; sự kết hợp; sự hợp nhất; bản giao hưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kết tụ",
+          "sự kết hợp",
+          "(chữa bệnh bằng) ý định",
+          "sự hợp nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kết tụ; sự kết hợp; (chữa bệnh bằng) ý định; sự kết hợp; sự hợp nhất; bản giao hưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65109,
+    "word": "諭告",
+    "kana": "ゆこく",
+    "senses": [
+      {
+        "sense_id": 302572,
+        "meaning_vi": "lời khuyên nhủ; thông báo công khai",
+        "confidence": "high",
+        "search_keywords": [
+          "lời khuyên nhủ",
+          "thông báo công khai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời khuyên nhủ; thông báo công khai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65110,
+    "word": "輸入手形",
+    "kana": "ゆにゅうてがた",
+    "senses": [
+      {
+        "sense_id": 302573,
+        "meaning_vi": "hóa đơn nhập khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "hóa đơn nhập khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hóa đơn nhập khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65111,
+    "word": "輸入制限",
+    "kana": "ゆにゅうせいげん",
+    "senses": [
+      {
+        "sense_id": 302574,
+        "meaning_vi": "hạn chế nhập khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "hạn chế nhập khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạn chế nhập khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65112,
+    "word": "輸入品",
+    "kana": "ゆにゅうひん",
+    "senses": [
+      {
+        "sense_id": 302575,
+        "meaning_vi": "hàng nhập khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng nhập khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng nhập khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65113,
+    "word": "輸入港",
+    "kana": "ゆにゅうこう",
+    "senses": [
+      {
+        "sense_id": 302576,
+        "meaning_vi": "cảng nhập cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "cảng nhập cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảng nhập cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65114,
+    "word": "輸入割り当て制度",
+    "kana": "ゆにゅうわりあてせいど",
+    "senses": [
+      {
+        "sense_id": 302577,
+        "meaning_vi": "hệ thống hạn ngạch nhập khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống hạn ngạch nhập khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống hạn ngạch nhập khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65115,
+    "word": "輸入割り当て制",
+    "kana": "ゆにゅうわりあてせい",
+    "senses": [
+      {
+        "sense_id": 302578,
+        "meaning_vi": "hệ thống hạn ngạch nhập khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống hạn ngạch nhập khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống hạn ngạch nhập khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65116,
+    "word": "輸入税",
+    "kana": "ゆにゅうぜい",
+    "senses": [
+      {
+        "sense_id": 302579,
+        "meaning_vi": "thuế nhập khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "thuế nhập khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuế nhập khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65117,
+    "word": "輸入超過",
+    "kana": "ゆにゅうちょうか",
+    "senses": [
+      {
+        "sense_id": 302580,
+        "meaning_vi": "nhập khẩu vượt mức",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập khẩu vượt mức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập khẩu vượt mức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65118,
+    "word": "輸入課徴金",
+    "kana": "ゆにゅうかちょうきん",
+    "senses": [
+      {
+        "sense_id": 302581,
+        "meaning_vi": "phụ phí nhập khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "phụ phí nhập khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phụ phí nhập khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65119,
+    "word": "輸出手形",
+    "kana": "ゆしゅつてがた",
+    "senses": [
+      {
+        "sense_id": 302582,
+        "meaning_vi": "hóa đơn xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "hóa đơn xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hóa đơn xuất khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65120,
+    "word": "輸出制限",
+    "kana": "ゆしゅつせいげん",
+    "senses": [
+      {
+        "sense_id": 302583,
+        "meaning_vi": "hạn chế xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "hạn chế xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạn chế xuất khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65121,
+    "word": "輸出保険",
+    "kana": "ゆしゅつほけん",
+    "senses": [
+      {
+        "sense_id": 302584,
+        "meaning_vi": "bảo hiểm xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo hiểm xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo hiểm xuất khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65122,
+    "word": "輸出信用状",
+    "kana": "ゆしゅつしんようじょう",
+    "senses": [
+      {
+        "sense_id": 302585,
+        "meaning_vi": "thư tín dụng xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "thư tín dụng xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư tín dụng xuất khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65123,
+    "word": "輸出品",
+    "kana": "ゆしゅつひん",
+    "senses": [
+      {
+        "sense_id": 302586,
+        "meaning_vi": "hàng hóa xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng hóa xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng hóa xuất khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65124,
+    "word": "輸出港",
+    "kana": "ゆしゅつこう",
+    "senses": [
+      {
+        "sense_id": 302587,
+        "meaning_vi": "cảng xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "cảng xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảng xuất khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65125,
+    "word": "輸出検査",
+    "kana": "ゆしゅつけんさ",
+    "senses": [
+      {
+        "sense_id": 302588,
+        "meaning_vi": "kiểm tra xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra xuất khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65126,
+    "word": "輸出税",
+    "kana": "ゆしゅつぜい",
+    "senses": [
+      {
+        "sense_id": 302589,
+        "meaning_vi": "thuế xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "thuế xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuế xuất khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65127,
+    "word": "輸出超過",
+    "kana": "ゆしゅつちょうか",
+    "senses": [
+      {
+        "sense_id": 302590,
+        "meaning_vi": "xuất khẩu vượt mức",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất khẩu vượt mức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất khẩu vượt mức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

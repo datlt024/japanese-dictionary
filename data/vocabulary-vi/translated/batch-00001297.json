@@ -1,0 +1,711 @@
+[
+  {
+    "vocabulary_id": 33218,
+    "word": "色流れ",
+    "kana": "いろながれ",
+    "senses": [
+      {
+        "sense_id": 260245,
+        "meaning_vi": "chảy máu thuốc nhuộm (trong nhuộm vải)",
+        "confidence": "high",
+        "search_keywords": [
+          "chảy máu thuốc nhuộm (trong nhuộm vải)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chảy máu thuốc nhuộm (trong nhuộm vải)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33219,
+    "word": "色恋",
+    "kana": "いろこい",
+    "senses": [
+      {
+        "sense_id": 260246,
+        "meaning_vi": "tình yêu gợi cảm; chuyện tình",
+        "confidence": "high",
+        "search_keywords": [
+          "tình yêu gợi cảm",
+          "chuyện tình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình yêu gợi cảm; chuyện tình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33220,
+    "word": "色褪める",
+    "kana": "いろざめる",
+    "senses": [
+      {
+        "sense_id": 260247,
+        "meaning_vi": "phai màu; phai màu",
+        "confidence": "high",
+        "search_keywords": [
+          "phai màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phai màu; phai màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33221,
+    "word": "触る",
+    "kana": "さわる",
+    "senses": [
+      {
+        "sense_id": 260248,
+        "meaning_vi": "chạm vào; cảm nhận; để xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "chạm vào",
+          "cảm nhận",
+          "để xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạm vào; cảm nhận; để xử lý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260249,
+        "meaning_vi": "tham gia (với); tiếp cận",
+        "confidence": "high",
+        "search_keywords": [
+          "tham gia (với)",
+          "tiếp cận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham gia (với); tiếp cận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260250,
+        "meaning_vi": "có hại cho; cản trở ; can thiệp vào; chọc tức",
+        "confidence": "high",
+        "search_keywords": [
+          "có hại cho",
+          "cản trở",
+          "can thiệp vào",
+          "chọc tức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có hại cho; cản trở ; can thiệp vào; chọc tức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33222,
+    "word": "触れる",
+    "kana": "ふれる",
+    "senses": [
+      {
+        "sense_id": 260251,
+        "meaning_vi": "chạm vào; cảm nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "chạm vào",
+          "cảm nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạm vào; cảm nhận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260252,
+        "meaning_vi": "chạm vào (với)",
+        "confidence": "high",
+        "search_keywords": [
+          "chạm vào (với)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạm vào (với)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260253,
+        "meaning_vi": "để trải nghiệm; tiếp xúc với; để nhận thức",
+        "confidence": "high",
+        "search_keywords": [
+          "để trải nghiệm",
+          "tiếp xúc với",
+          "để nhận thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trải nghiệm; tiếp xúc với; để nhận thức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260254,
+        "meaning_vi": "chạm vào (một chủ đề); ám chỉ đến ; để tham khảo; đề cập đến ; để đưa lên",
+        "confidence": "high",
+        "search_keywords": [
+          "chạm vào (một chủ đề)",
+          "ám chỉ đến",
+          "để tham khảo",
+          "đề cập đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạm vào (một chủ đề); ám chỉ đến ; để tham khảo; đề cập đến ; để đưa lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260255,
+        "meaning_vi": "xung đột với; vi phạm (luật pháp, bản quyền, v.v.); xâm phạm",
+        "confidence": "high",
+        "search_keywords": [
+          "xung đột với",
+          "vi phạm (luật pháp, bản quyền, v.v.)",
+          "xâm phạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xung đột với; vi phạm (luật pháp, bản quyền, v.v.); xâm phạm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260256,
+        "meaning_vi": "tuyên bố ; để làm cho được biết đến; lan truyền (ví dụ: một tin đồn)",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên bố",
+          "để làm cho được biết đến",
+          "lan truyền (ví dụ: một tin đồn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên bố ; để làm cho được biết đến; lan truyền (ví dụ: một tin đồn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33223,
+    "word": "触れ回る",
+    "kana": "ふれまわる",
+    "senses": [
+      {
+        "sense_id": 260257,
+        "meaning_vi": "đi khắp nơi lan truyền (tin tức, tin đồn, v.v.); khóc về ; lưu hành; phát sóng",
+        "confidence": "high",
+        "search_keywords": [
+          "đi khắp nơi lan truyền (tin tức, tin đồn, v.v.)",
+          "khóc về",
+          "lưu hành",
+          "phát sóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi khắp nơi lan truyền (tin tức, tin đồn, v.v.); khóc về ; lưu hành; phát sóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33224,
+    "word": "触れ合う",
+    "kana": "ふれあう",
+    "senses": [
+      {
+        "sense_id": 260258,
+        "meaning_vi": "tiếp xúc với; chạm vào (lẫn nhau); để có một bàn chải với",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp xúc với",
+          "chạm vào (lẫn nhau)",
+          "để có một bàn chải với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp xúc với; chạm vào (lẫn nhau); để có một bàn chải với",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33225,
+    "word": "触れ込む",
+    "kana": "ふれこむ",
+    "senses": [
+      {
+        "sense_id": 260259,
+        "meaning_vi": "tuyên bố là; vượt qua chính mình (như); để quảng cáo chính mình (như)",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên bố là",
+          "vượt qua chính mình (như)",
+          "để quảng cáo chính mình (như)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên bố là; vượt qua chính mình (như); để quảng cáo chính mình (như)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260260,
+        "meaning_vi": "để quảng cáo; thông báo; để công chúng biết đến",
+        "confidence": "high",
+        "search_keywords": [
+          "để quảng cáo",
+          "thông báo",
+          "để công chúng biết đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để quảng cáo; thông báo; để công chúng biết đến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33226,
+    "word": "触覚",
+    "kana": "しょっかく",
+    "senses": [
+      {
+        "sense_id": 260261,
+        "meaning_vi": "cảm giác chạm",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm giác chạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm giác chạm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260262,
+        "meaning_vi": "xúc giác; xúc giác",
+        "confidence": "high",
+        "search_keywords": [
+          "xúc giác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xúc giác; xúc giác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260263,
+        "meaning_vi": "kiểu tóc với tóc mái dài",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu tóc với tóc mái dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu tóc với tóc mái dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33227,
+    "word": "触感",
+    "kana": "しょっかん",
+    "senses": [
+      {
+        "sense_id": 260264,
+        "meaning_vi": "(xúc giác) cảm giác",
+        "confidence": "high",
+        "search_keywords": [
+          "(xúc giác) cảm giác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(xúc giác) cảm giác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260265,
+        "meaning_vi": "cảm giác chạm",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm giác chạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm giác chạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33228,
+    "word": "触手",
+    "kana": "しょくしゅ",
+    "senses": [
+      {
+        "sense_id": 260266,
+        "meaning_vi": "người cảm nhận; tua; ăng-ten",
+        "confidence": "high",
+        "search_keywords": [
+          "người cảm nhận",
+          "tua",
+          "ăng-ten"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người cảm nhận; tua; ăng-ten",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260267,
+        "meaning_vi": "chạm vào (bằng tay); cảm giác; cảm nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "chạm vào (bằng tay)",
+          "cảm giác",
+          "cảm nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạm vào (bằng tay); cảm giác; cảm nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33229,
+    "word": "触媒",
+    "kana": "しょくばい",
+    "senses": [
+      {
+        "sense_id": 260268,
+        "meaning_vi": "chất xúc tác",
+        "confidence": "high",
+        "search_keywords": [
+          "chất xúc tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất xúc tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33230,
+    "word": "触媒作用",
+    "kana": "しょくばいさよう",
+    "senses": [
+      {
+        "sense_id": 260269,
+        "meaning_vi": "hành động xúc tác; xúc tác",
+        "confidence": "high",
+        "search_keywords": [
+          "hành động xúc tác",
+          "xúc tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành động xúc tác; xúc tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33231,
+    "word": "触発",
+    "kana": "しょくはつ",
+    "senses": [
+      {
+        "sense_id": 260270,
+        "meaning_vi": "phát nổ do tiếp xúc; kích nổ tiếp xúc",
+        "confidence": "high",
+        "search_keywords": [
+          "phát nổ do tiếp xúc",
+          "kích nổ tiếp xúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát nổ do tiếp xúc; kích nổ tiếp xúc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260271,
+        "meaning_vi": "chạm tắt (cái gì đó); kích hoạt; lấp lánh; khiêu khích; nguồn cảm hứng",
+        "confidence": "high",
+        "search_keywords": [
+          "chạm tắt (cái gì đó)",
+          "kích hoạt",
+          "lấp lánh",
+          "khiêu khích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạm tắt (cái gì đó); kích hoạt; lấp lánh; khiêu khích; nguồn cảm hứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33232,
+    "word": "食いしん坊",
+    "kana": "くいしんぼう",
+    "senses": [
+      {
+        "sense_id": 260272,
+        "meaning_vi": "háu ăn; người sành ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "háu ăn",
+          "người sành ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "háu ăn; người sành ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33233,
+    "word": "食い違い",
+    "kana": "くいちがい",
+    "senses": [
+      {
+        "sense_id": 260273,
+        "meaning_vi": "sự khác biệt; bất đồng; xung đột; xung đột; sự khác biệt; sự không nhất quán",
+        "confidence": "high",
+        "search_keywords": [
+          "sự khác biệt",
+          "bất đồng",
+          "xung đột",
+          "sự không nhất quán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự khác biệt; bất đồng; xung đột; xung đột; sự khác biệt; sự không nhất quán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33234,
+    "word": "食い違う",
+    "kana": "くいちがう",
+    "senses": [
+      {
+        "sense_id": 260274,
+        "meaning_vi": "không khớp lắm (ví dụ: ở các đường nối); không ăn khớp đúng cách (của bánh răng)",
+        "confidence": "high",
+        "search_keywords": [
+          "không khớp lắm (ví dụ: ở các đường nối)",
+          "không ăn khớp đúng cách (của bánh răng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không khớp lắm (ví dụ: ở các đường nối); không ăn khớp đúng cách (của bánh răng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260275,
+        "meaning_vi": "khác biệt (ví dụ: ý kiến); xung đột; xung đột (ví dụ: với sự thật); chạy truy cập (đến); không nhất quán (với); mâu thuẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "khác biệt (ví dụ: ý kiến)",
+          "xung đột",
+          "xung đột (ví dụ: với sự thật)",
+          "chạy truy cập (đến)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khác biệt (ví dụ: ý kiến); xung đột; xung đột (ví dụ: với sự thật); chạy truy cập (đến); không nhất quán (với); mâu thuẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33235,
+    "word": "食い逸れ",
+    "kana": "くいはぐれ",
+    "senses": [
+      {
+        "sense_id": 260276,
+        "meaning_vi": "thiếu một bữa ăn; mất đi phương tiện kiếm kế sinh nhai",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu một bữa ăn",
+          "mất đi phương tiện kiếm kế sinh nhai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu một bữa ăn; mất đi phương tiện kiếm kế sinh nhai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33236,
+    "word": "食い逸れる",
+    "kana": "くいはぐれる",
+    "senses": [
+      {
+        "sense_id": 260277,
+        "meaning_vi": "bỏ lỡ một bữa ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ lỡ một bữa ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ lỡ một bữa ăn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260278,
+        "meaning_vi": "mất phương tiện kiếm kế sinh nhai",
+        "confidence": "high",
+        "search_keywords": [
+          "mất phương tiện kiếm kế sinh nhai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất phương tiện kiếm kế sinh nhai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33237,
+    "word": "食い気",
+    "kana": "くいけ",
+    "senses": [
+      {
+        "sense_id": 260279,
+        "meaning_vi": "thèm ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "thèm ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thèm ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

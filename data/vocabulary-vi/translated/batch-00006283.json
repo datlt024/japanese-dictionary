@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 147867,
+    "word": "被用者保険",
+    "kana": "ひようしゃほけん",
+    "senses": [
+      {
+        "sense_id": 393447,
+        "meaning_vi": "bảo hiểm nhân viên",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo hiểm nhân viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo hiểm nhân viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147868,
+    "word": "夫婦保険",
+    "kana": "ふうふほけん",
+    "senses": [
+      {
+        "sense_id": 393448,
+        "meaning_vi": "bảo hiểm của cặp vợ chồng (tức là hợp đồng bảo hiểm nhân thọ cho vợ và chồng)",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo hiểm của cặp vợ chồng (tức là hợp đồng bảo hiểm nhân thọ cho vợ và chồng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo hiểm của cặp vợ chồng (tức là hợp đồng bảo hiểm nhân thọ cho vợ và chồng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147869,
+    "word": "不動産保険",
+    "kana": "ふどうさんほけん",
+    "senses": [
+      {
+        "sense_id": 393449,
+        "meaning_vi": "bảo hiểm bất động sản",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo hiểm bất động sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo hiểm bất động sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147870,
+    "word": "保険価額",
+    "kana": "ほけんかがく",
+    "senses": [
+      {
+        "sense_id": 393450,
+        "meaning_vi": "giá trị có thể bảo hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị có thể bảo hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị có thể bảo hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147871,
+    "word": "保険掛金",
+    "kana": "ほけんかけきん",
+    "senses": [
+      {
+        "sense_id": 393451,
+        "meaning_vi": "phí bảo hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "phí bảo hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phí bảo hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147872,
+    "word": "保険契約者",
+    "kana": "ほけんけいやくしゃ",
+    "senses": [
+      {
+        "sense_id": 393452,
+        "meaning_vi": "bên mua bảo hiểm; người mua bảo hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "bên mua bảo hiểm",
+          "người mua bảo hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên mua bảo hiểm; người mua bảo hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147873,
+    "word": "保険事故",
+    "kana": "ほけんじこ",
+    "senses": [
+      {
+        "sense_id": 393453,
+        "meaning_vi": "sự kiện được bảo hiểm chống lại",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kiện được bảo hiểm chống lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kiện được bảo hiểm chống lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147874,
+    "word": "保険診療",
+    "kana": "ほけんしんりょう",
+    "senses": [
+      {
+        "sense_id": 393454,
+        "meaning_vi": "dịch vụ chăm sóc sức khoẻ do bảo hiểm y tế cung cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ chăm sóc sức khoẻ do bảo hiểm y tế cung cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ chăm sóc sức khoẻ do bảo hiểm y tế cung cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147875,
+    "word": "保険薬",
+    "kana": "ほけんやく",
+    "senses": [
+      {
+        "sense_id": 393455,
+        "meaning_vi": "thuốc có sẵn theo bảo hiểm y tế",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc có sẵn theo bảo hiểm y tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc có sẵn theo bảo hiểm y tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147876,
+    "word": "保証保険",
+    "kana": "ほしょうほけん",
+    "senses": [
+      {
+        "sense_id": 393456,
+        "meaning_vi": "bảo hiểm đảm bảo",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo hiểm đảm bảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo hiểm đảm bảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147877,
+    "word": "預金保険制度",
+    "kana": "よきんほけんせいど",
+    "senses": [
+      {
+        "sense_id": 393457,
+        "meaning_vi": "hệ thống bảo hiểm tiền gửi",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống bảo hiểm tiền gửi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống bảo hiểm tiền gửi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147878,
+    "word": "陸上運送保険",
+    "kana": "りくじょううんそうほけん",
+    "senses": [
+      {
+        "sense_id": 393458,
+        "meaning_vi": "bảo hiểm vận tải đường bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo hiểm vận tải đường bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo hiểm vận tải đường bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147879,
+    "word": "オーシャニックホワイトティップシャーク",
+    "kana": "オーシャニックホワイトティップシャーク",
+    "senses": [
+      {
+        "sense_id": 393459,
+        "meaning_vi": "cá mập đầu trắng đại dương (Carcharhinus longimanus)",
+        "confidence": "high",
+        "search_keywords": [
+          "cá mập đầu trắng đại dương (Carcharhinus longimanus)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá mập đầu trắng đại dương (Carcharhinus longimanus)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147880,
+    "word": "汚鮫",
+    "kana": "よごれざめ",
+    "senses": [
+      {
+        "sense_id": 393460,
+        "meaning_vi": "cá mập đầu trắng đại dương (Carcharhinus longimanus)",
+        "confidence": "high",
+        "search_keywords": [
+          "cá mập đầu trắng đại dương (Carcharhinus longimanus)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá mập đầu trắng đại dương (Carcharhinus longimanus)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147881,
+    "word": "お惚け",
+    "kana": "おとぼけ",
+    "senses": [
+      {
+        "sense_id": 393461,
+        "meaning_vi": "giả vờ không biết",
+        "confidence": "high",
+        "search_keywords": [
+          "giả vờ không biết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả vờ không biết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147882,
+    "word": "自国民",
+    "kana": "じこくみん",
+    "senses": [
+      {
+        "sense_id": 393462,
+        "meaning_vi": "công dân của đất nước mình; đồng bào; đồng bào",
+        "confidence": "high",
+        "search_keywords": [
+          "công dân của đất nước mình",
+          "đồng bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công dân của đất nước mình; đồng bào; đồng bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147883,
+    "word": "電気設備",
+    "kana": "でんきせつび",
+    "senses": [
+      {
+        "sense_id": 393463,
+        "meaning_vi": "thiết bị điện",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147884,
+    "word": "外国語指導助手",
+    "kana": "がいこくごしどうじょしゅ",
+    "senses": [
+      {
+        "sense_id": 393464,
+        "meaning_vi": "trợ lý giáo viên ngôn ngữ; ALT; người nước ngoài làm trợ giảng tiếng Anh trong lớp học tiếng Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "trợ lý giáo viên ngôn ngữ",
+          "ALT",
+          "người nước ngoài làm trợ giảng tiếng Anh trong lớp học tiếng Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trợ lý giáo viên ngôn ngữ; ALT; người nước ngoài làm trợ giảng tiếng Anh trong lớp học tiếng Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147885,
+    "word": "ＮＥＥＴ",
+    "kana": "ニート",
+    "senses": [
+      {
+        "sense_id": 393465,
+        "meaning_vi": "NEET (thanh niên không đi học, làm việc hoặc đào tạo)",
+        "confidence": "high",
+        "search_keywords": [
+          "NEET (thanh niên không đi học, làm việc hoặc đào tạo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "NEET (thanh niên không đi học, làm việc hoặc đào tạo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147886,
+    "word": "スピナーシャーク",
+    "kana": "スピナーシャーク",
+    "senses": [
+      {
+        "sense_id": 393466,
+        "meaning_vi": "cá mập quay (Carcharhinus brevipinna); cá mập xám mũi dài",
+        "confidence": "high",
+        "search_keywords": [
+          "cá mập quay (Carcharhinus brevipinna)",
+          "cá mập xám mũi dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá mập quay (Carcharhinus brevipinna); cá mập xám mũi dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

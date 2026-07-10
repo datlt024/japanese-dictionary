@@ -1,0 +1,602 @@
+[
+  {
+    "vocabulary_id": 25024,
+    "word": "候文",
+    "kana": "そうろうぶん",
+    "senses": [
+      {
+        "sense_id": 249338,
+        "meaning_vi": "phong cách thư từ sử dụng phụ trợ \"sōrō\" thay cho \"aru\"",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách thư từ sử dụng phụ trợ \"sōrō\" thay cho \"aru\""
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách thư từ sử dụng phụ trợ \"sōrō\" thay cho \"aru\"",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25025,
+    "word": "候補",
+    "kana": "こうほ",
+    "senses": [
+      {
+        "sense_id": 249339,
+        "meaning_vi": "ứng viên; đối thủ; triển vọng; nhặt; sự lựa chọn; danh sách",
+        "confidence": "high",
+        "search_keywords": [
+          "ứng viên",
+          "đối thủ",
+          "triển vọng",
+          "nhặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ứng viên; đối thủ; triển vọng; nhặt; sự lựa chọn; danh sách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249340,
+        "meaning_vi": "ứng cử; ứng cử; đề cử",
+        "confidence": "high",
+        "search_keywords": [
+          "ứng cử",
+          "đề cử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ứng cử; ứng cử; đề cử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25026,
+    "word": "候補者",
+    "kana": "こうほしゃ",
+    "senses": [
+      {
+        "sense_id": 249341,
+        "meaning_vi": "ứng viên; người nộp đơn",
+        "confidence": "high",
+        "search_keywords": [
+          "ứng viên",
+          "người nộp đơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ứng viên; người nộp đơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25027,
+    "word": "候補生",
+    "kana": "こうほせい",
+    "senses": [
+      {
+        "sense_id": 249342,
+        "meaning_vi": "thiếu sinh quân",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu sinh quân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu sinh quân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25028,
+    "word": "候補地",
+    "kana": "こうほち",
+    "senses": [
+      {
+        "sense_id": 249343,
+        "meaning_vi": "địa điểm được đề xuất; địa điểm đã chọn",
+        "confidence": "high",
+        "search_keywords": [
+          "địa điểm được đề xuất",
+          "địa điểm đã chọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa điểm được đề xuất; địa điểm đã chọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25029,
+    "word": "光",
+    "kana": "ひかり",
+    "senses": [
+      {
+        "sense_id": 249344,
+        "meaning_vi": "ánh sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh sáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249345,
+        "meaning_vi": "chiếu sáng; tia; chùm tia; tia; phát sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "chiếu sáng",
+          "tia",
+          "chùm tia",
+          "phát sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiếu sáng; tia; chùm tia; tia; phát sáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249346,
+        "meaning_vi": "niềm hạnh phúc; hy vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "niềm hạnh phúc",
+          "hy vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "niềm hạnh phúc; hy vọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249347,
+        "meaning_vi": "ảnh hưởng; quyền lực",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh hưởng",
+          "quyền lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh hưởng; quyền lực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249348,
+        "meaning_vi": "tầm nhìn; thị lực",
+        "confidence": "high",
+        "search_keywords": [
+          "tầm nhìn",
+          "thị lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tầm nhìn; thị lực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249349,
+        "meaning_vi": "cáp quang; sợi quang",
+        "confidence": "high",
+        "search_keywords": [
+          "cáp quang",
+          "sợi quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cáp quang; sợi quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25030,
+    "word": "光の速さ",
+    "kana": "ひかりのはやさ",
+    "senses": [
+      {
+        "sense_id": 249350,
+        "meaning_vi": "tốc độ ánh sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ ánh sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ ánh sáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25031,
+    "word": "光り輝く",
+    "kana": "ひかりかがやく",
+    "senses": [
+      {
+        "sense_id": 249351,
+        "meaning_vi": "tỏa sáng; lấp lánh",
+        "confidence": "high",
+        "search_keywords": [
+          "tỏa sáng",
+          "lấp lánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỏa sáng; lấp lánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25032,
+    "word": "光り物",
+    "kana": "ひかりもの",
+    "senses": [
+      {
+        "sense_id": 249352,
+        "meaning_vi": "vật thể phát sáng (ví dụ như một ngôi sao băng)",
+        "confidence": "high",
+        "search_keywords": [
+          "vật thể phát sáng (ví dụ như một ngôi sao băng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vật thể phát sáng (ví dụ như một ngôi sao băng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249353,
+        "meaning_vi": "kim loại sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "kim loại sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kim loại sáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249354,
+        "meaning_vi": "cá có ánh xanh bạc (ví dụ: cá mòi, cá thu)",
+        "confidence": "high",
+        "search_keywords": [
+          "cá có ánh xanh bạc (ví dụ: cá mòi, cá thu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá có ánh xanh bạc (ví dụ: cá mòi, cá thu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249355,
+        "meaning_vi": "thẻ 20 điểm; sáng; ánh sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ 20 điểm",
+          "sáng",
+          "ánh sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ 20 điểm; sáng; ánh sáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25033,
+    "word": "光る",
+    "kana": "ひかる",
+    "senses": [
+      {
+        "sense_id": 249356,
+        "meaning_vi": "tỏa sáng; lấp lánh; trở nên tươi sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "tỏa sáng",
+          "lấp lánh",
+          "trở nên tươi sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỏa sáng; lấp lánh; trở nên tươi sáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25034,
+    "word": "光ディスク",
+    "kana": "ひかりディスク",
+    "senses": [
+      {
+        "sense_id": 249357,
+        "meaning_vi": "đĩa quang; đĩa quang kỹ thuật số",
+        "confidence": "high",
+        "search_keywords": [
+          "đĩa quang",
+          "đĩa quang kỹ thuật số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đĩa quang; đĩa quang kỹ thuật số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25035,
+    "word": "光ファイバー",
+    "kana": "ひかりファイバー",
+    "senses": [
+      {
+        "sense_id": 249358,
+        "meaning_vi": "cáp quang; sợi quang",
+        "confidence": "high",
+        "search_keywords": [
+          "cáp quang",
+          "sợi quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cáp quang; sợi quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25036,
+    "word": "光陰",
+    "kana": "こういん",
+    "senses": [
+      {
+        "sense_id": 249359,
+        "meaning_vi": "thời gian; Giờ của Cha",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian",
+          "Giờ của Cha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian; Giờ của Cha",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25037,
+    "word": "光陰矢のごとし",
+    "kana": "こういんやのごとし",
+    "senses": [
+      {
+        "sense_id": 249360,
+        "meaning_vi": "thời gian trôi đi như một mũi tên; thời gian và thủy triều không chờ đợi ai; cuộc sống rất ngắn ngủi",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian trôi đi như một mũi tên",
+          "thời gian và thủy triều không chờ đợi ai",
+          "cuộc sống rất ngắn ngủi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian trôi đi như một mũi tên; thời gian và thủy triều không chờ đợi ai; cuộc sống rất ngắn ngủi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25038,
+    "word": "光栄",
+    "kana": "こうえい",
+    "senses": [
+      {
+        "sense_id": 249361,
+        "meaning_vi": "tôn kính; tôn kính; vinh quang; đặc quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "tôn kính",
+          "vinh quang",
+          "đặc quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tôn kính; tôn kính; vinh quang; đặc quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25039,
+    "word": "光炎",
+    "kana": "こうえん",
+    "senses": [
+      {
+        "sense_id": 249362,
+        "meaning_vi": "ánh sáng và ngọn lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh sáng và ngọn lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh sáng và ngọn lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25040,
+    "word": "光化学",
+    "kana": "こうかがく",
+    "senses": [
+      {
+        "sense_id": 249363,
+        "meaning_vi": "quang hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "quang hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quang hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25041,
+    "word": "光学",
+    "kana": "こうがく",
+    "senses": [
+      {
+        "sense_id": 249364,
+        "meaning_vi": "quang học",
+        "confidence": "high",
+        "search_keywords": [
+          "quang học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quang học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25042,
+    "word": "光学繊維",
+    "kana": "こうがくせんい",
+    "senses": [
+      {
+        "sense_id": 249365,
+        "meaning_vi": "sợi quang",
+        "confidence": "high",
+        "search_keywords": [
+          "sợi quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sợi quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25043,
+    "word": "光学文字",
+    "kana": "こうがくもじ",
+    "senses": [
+      {
+        "sense_id": 249366,
+        "meaning_vi": "ký tự quang học",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự quang học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự quang học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

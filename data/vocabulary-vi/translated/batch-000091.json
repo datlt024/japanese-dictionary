@@ -1,338 +1,695 @@
 [
-{
-"vocabulary_id": 2462,
-"word": "エコシステム",
-"kana": "エコシステム",
-"senses": [
-{
-"sense_id": 220717,
-"meaning_vi": "hệ sinh thái",
-"confidence": "high",
-"search_keywords": [
-"hệ sinh thái",
-"ecosystem"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hệ sinh thái",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2463,
-"word": "エコノミー",
-"kana": "エコノミー",
-"senses": [
-{
-"sense_id": 220718,
-"meaning_vi": "kinh tế",
-"confidence": "high",
-"search_keywords": [
-"kinh tế",
-"kinh tế học",
-"tài chính"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kinh tế; kinh tế học; tài chính",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220719,
-"meaning_vi": "tiết kiệm",
-"confidence": "high",
-"search_keywords": [
-"tiết kiệm",
-"tiết giảm chi phí"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiết kiệm; giảm chi tiêu",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220720,
-"meaning_vi": "hạng phổ thông",
-"confidence": "high",
-"search_keywords": [
-"hạng phổ thông",
-"economy class"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hạng phổ thông trên máy bay",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2464,
-"word": "エコノミークラス",
-"kana": "エコノミークラス",
-"senses": [
-{
-"sense_id": 220721,
-"meaning_vi": "hạng phổ thông",
-"confidence": "high",
-"search_keywords": [
-"hạng phổ thông",
-"economy class"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hạng phổ thông trên máy bay",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2465,
-"word": "エコノミカル",
-"kana": "エコノミカル",
-"senses": [
-{
-"sense_id": 220722,
-"meaning_vi": "tiết kiệm",
-"confidence": "high",
-"search_keywords": [
-"tiết kiệm",
-"kinh tế",
-"ít tốn kém"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiết kiệm; ít tốn kém",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2466,
-"word": "エコノミスト",
-"kana": "エコノミスト",
-"senses": [
-{
-"sense_id": 220723,
-"meaning_vi": "nhà kinh tế học",
-"confidence": "high",
-"search_keywords": [
-"nhà kinh tế học",
-"chuyên gia kinh tế"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhà kinh tế học",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2467,
-"word": "エコノミックアニマル",
-"kana": "エコノミックアニマル",
-"senses": [
-{
-"sense_id": 220724,
-"meaning_vi": "kẻ chỉ biết lợi nhuận",
-"confidence": "medium",
-"search_keywords": [
-"kẻ chỉ biết lợi nhuận",
-"con người kinh tế",
-"tham lợi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người chỉ theo đuổi lợi nhuận, mang sắc thái miệt thị",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2468,
-"word": "エコノミクス",
-"kana": "エコノミクス",
-"senses": [
-{
-"sense_id": 220725,
-"meaning_vi": "kinh tế học",
-"confidence": "high",
-"search_keywords": [
-"kinh tế học",
-"economics"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kinh tế học",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2469,
-"word": "エコノメトリックス",
-"kana": "エコノメトリックス",
-"senses": [
-{
-"sense_id": 220726,
-"meaning_vi": "kinh tế lượng",
-"confidence": "medium",
-"search_keywords": [
-"kinh tế lượng",
-"econometrics"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kinh tế lượng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2470,
-"word": "エコロジー",
-"kana": "エコロジー",
-"senses": [
-{
-"sense_id": 220727,
-"meaning_vi": "sinh thái học",
-"confidence": "high",
-"search_keywords": [
-"sinh thái học",
-"ecology"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sinh thái học",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220728,
-"meaning_vi": "chủ nghĩa môi trường",
-"confidence": "high",
-"search_keywords": [
-"chủ nghĩa môi trường",
-"phong trào môi trường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phong trào bảo vệ môi trường; chủ nghĩa môi trường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2471,
-"word": "エコロジー運動",
-"kana": "エコロジーうんどう",
-"senses": [
-{
-"sense_id": 220729,
-"meaning_vi": "phong trào môi trường",
-"confidence": "high",
-"search_keywords": [
-"phong trào môi trường",
-"phong trào sinh thái"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phong trào bảo vệ môi trường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2472,
-"word": "エゴ",
-"kana": "エゴ",
-"senses": [
-{
-"sense_id": 220730,
-"meaning_vi": "bản ngã",
-"confidence": "high",
-"search_keywords": [
-"bản ngã",
-"cái tôi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bản ngã; cái tôi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220731,
-"meaning_vi": "chủ nghĩa vị kỷ",
-"confidence": "high",
-"search_keywords": [
-"chủ nghĩa vị kỷ",
-"ích kỷ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chủ nghĩa vị kỷ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220732,
-"meaning_vi": "người ích kỷ",
-"confidence": "high",
-"search_keywords": [
-"người ích kỷ",
-"kẻ vị kỷ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người có tính vị kỷ",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2462,
+    "word": "エコシステム",
+    "kana": "エコシステム",
+    "senses": [
+      {
+        "sense_id": 220717,
+        "meaning_vi": "hệ sinh thái",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ sinh thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ sinh thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2463,
+    "word": "エコノミー",
+    "kana": "エコノミー",
+    "senses": [
+      {
+        "sense_id": 220718,
+        "meaning_vi": "kinh tế; kinh tế; tài chính",
+        "confidence": "high",
+        "search_keywords": [
+          "kinh tế",
+          "tài chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kinh tế; kinh tế; tài chính",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220719,
+        "meaning_vi": "tiết kiệm; tiết kiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "tiết kiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiết kiệm; tiết kiệm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220720,
+        "meaning_vi": "nền kinh tế (giai cấp)",
+        "confidence": "high",
+        "search_keywords": [
+          "nền kinh tế (giai cấp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nền kinh tế (giai cấp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2464,
+    "word": "エコノミークラス",
+    "kana": "エコノミークラス",
+    "senses": [
+      {
+        "sense_id": 220721,
+        "meaning_vi": "hạng phổ thông",
+        "confidence": "high",
+        "search_keywords": [
+          "hạng phổ thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạng phổ thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2465,
+    "word": "エコノミカル",
+    "kana": "エコノミカル",
+    "senses": [
+      {
+        "sense_id": 220722,
+        "meaning_vi": "tiết kiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "tiết kiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiết kiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2466,
+    "word": "エコノミスト",
+    "kana": "エコノミスト",
+    "senses": [
+      {
+        "sense_id": 220723,
+        "meaning_vi": "nhà kinh tế học",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà kinh tế học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà kinh tế học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2467,
+    "word": "エコノミックアニマル",
+    "kana": "エコノミックアニマル",
+    "senses": [
+      {
+        "sense_id": 220724,
+        "meaning_vi": "động vật kinh tế; người hoặc những người chỉ phấn đấu vì lợi nhuận",
+        "confidence": "high",
+        "search_keywords": [
+          "động vật kinh tế",
+          "người hoặc những người chỉ phấn đấu vì lợi nhuận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động vật kinh tế; người hoặc những người chỉ phấn đấu vì lợi nhuận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2468,
+    "word": "エコノミクス",
+    "kana": "エコノミクス",
+    "senses": [
+      {
+        "sense_id": 220725,
+        "meaning_vi": "kinh tế",
+        "confidence": "high",
+        "search_keywords": [
+          "kinh tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kinh tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2469,
+    "word": "エコノメトリックス",
+    "kana": "エコノメトリックス",
+    "senses": [
+      {
+        "sense_id": 220726,
+        "meaning_vi": "kinh tế lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "kinh tế lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kinh tế lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2470,
+    "word": "エコロジー",
+    "kana": "エコロジー",
+    "senses": [
+      {
+        "sense_id": 220727,
+        "meaning_vi": "sinh thái",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh thái",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220728,
+        "meaning_vi": "phong trào môi trường; chủ nghĩa môi trường",
+        "confidence": "high",
+        "search_keywords": [
+          "phong trào môi trường",
+          "chủ nghĩa môi trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong trào môi trường; chủ nghĩa môi trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2471,
+    "word": "エコロジー運動",
+    "kana": "エコロジーうんどう",
+    "senses": [
+      {
+        "sense_id": 220729,
+        "meaning_vi": "phong trào sinh thái",
+        "confidence": "high",
+        "search_keywords": [
+          "phong trào sinh thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong trào sinh thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2472,
+    "word": "エゴ",
+    "kana": "エゴ",
+    "senses": [
+      {
+        "sense_id": 220730,
+        "meaning_vi": "cái tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "cái tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái tôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220731,
+        "meaning_vi": "sự ích kỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự ích kỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự ích kỷ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220732,
+        "meaning_vi": "người ích kỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "người ích kỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ích kỷ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2473,
+    "word": "エゴイスティック",
+    "kana": "エゴイスティック",
+    "senses": [
+      {
+        "sense_id": 220733,
+        "meaning_vi": "ích kỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "ích kỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ích kỷ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2474,
+    "word": "エゴイスト",
+    "kana": "エゴイスト",
+    "senses": [
+      {
+        "sense_id": 220734,
+        "meaning_vi": "người ích kỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "người ích kỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ích kỷ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2475,
+    "word": "エゴイズム",
+    "kana": "エゴイズム",
+    "senses": [
+      {
+        "sense_id": 220735,
+        "meaning_vi": "sự ích kỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự ích kỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự ích kỷ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2476,
+    "word": "エサキダイオード",
+    "kana": "エサキダイオード",
+    "senses": [
+      {
+        "sense_id": 220736,
+        "meaning_vi": "điốt Esaki; điốt đường hầm",
+        "confidence": "high",
+        "search_keywords": [
+          "điốt Esaki",
+          "điốt đường hầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điốt Esaki; điốt đường hầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2477,
+    "word": "エシャロット",
+    "kana": "エシャロット",
+    "senses": [
+      {
+        "sense_id": 220737,
+        "meaning_vi": "củ hẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "củ hẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "củ hẹ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220738,
+        "meaning_vi": "Hành tây (thu hoạch khi còn non; Allium chinense); hành lá Trung Quốc",
+        "confidence": "high",
+        "search_keywords": [
+          "Hành tây (thu hoạch khi còn non",
+          "Allium chinense)",
+          "hành lá Trung Quốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hành tây (thu hoạch khi còn non; Allium chinense); hành lá Trung Quốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2478,
+    "word": "埃及",
+    "kana": "エジプト",
+    "senses": [
+      {
+        "sense_id": 220739,
+        "meaning_vi": "Ai Cập",
+        "confidence": "high",
+        "search_keywords": [
+          "Ai Cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ai Cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2479,
+    "word": "Ｓ",
+    "kana": "エス",
+    "senses": [
+      {
+        "sense_id": 220740,
+        "meaning_vi": "S; s",
+        "confidence": "low",
+        "search_keywords": [
+          "S",
+          "s"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "S; s",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220741,
+        "meaning_vi": "miền nam",
+        "confidence": "high",
+        "search_keywords": [
+          "miền nam"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "miền nam",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220742,
+        "meaning_vi": "lưu huỳnh",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu huỳnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu huỳnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220743,
+        "meaning_vi": "Năm thứ n trong thời đại Shōwa (1926.12.25-1989.1.7)",
+        "confidence": "high",
+        "search_keywords": [
+          "Năm thứ n trong thời đại Shōwa (1926.12.25-1989.1.7)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Năm thứ n trong thời đại Shōwa (1926.12.25-1989.1.7)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220744,
+        "meaning_vi": "nhỏ bé",
+        "confidence": "high",
+        "search_keywords": [
+          "nhỏ bé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhỏ bé",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220745,
+        "meaning_vi": "thứ hai",
+        "confidence": "high",
+        "search_keywords": [
+          "thứ hai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thứ hai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220746,
+        "meaning_vi": "chủ đề",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ đề",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220747,
+        "meaning_vi": "kẻ tàn bạo; tàn ác",
+        "confidence": "high",
+        "search_keywords": [
+          "kẻ tàn bạo",
+          "tàn ác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẻ tàn bạo; tàn ác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220748,
+        "meaning_vi": "chị gái (bạn tình nữ trong mối quan hệ đồng giới)",
+        "confidence": "high",
+        "search_keywords": [
+          "chị gái (bạn tình nữ trong mối quan hệ đồng giới)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chị gái (bạn tình nữ trong mối quan hệ đồng giới)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220749,
+        "meaning_vi": "Xếp hạng S (thứ hạng cao nhất trên thang SABCDEF); lớp S; lớp học tốt nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "Xếp hạng S (thứ hạng cao nhất trên thang SABCDEF)",
+          "lớp S",
+          "lớp học tốt nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Xếp hạng S (thứ hạng cao nhất trên thang SABCDEF); lớp S; lớp học tốt nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2480,
+    "word": "ＳＦ",
+    "kana": "エス・エフ",
+    "senses": [
+      {
+        "sense_id": 220750,
+        "meaning_vi": "khoa học viễn tưởng; khoa học viễn tưởng; SF",
+        "confidence": "high",
+        "search_keywords": [
+          "khoa học viễn tưởng",
+          "SF"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoa học viễn tưởng; khoa học viễn tưởng; SF",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2481,
+    "word": "ＳＭ",
+    "kana": "エス・エム",
+    "senses": [
+      {
+        "sense_id": 220751,
+        "meaning_vi": "SM; S&M; khổ dâm",
+        "confidence": "high",
+        "search_keywords": [
+          "SM",
+          "S&M",
+          "khổ dâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "SM; S&M; khổ dâm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220752,
+        "meaning_vi": "trung tâm mua sắm",
+        "confidence": "high",
+        "search_keywords": [
+          "trung tâm mua sắm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung tâm mua sắm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

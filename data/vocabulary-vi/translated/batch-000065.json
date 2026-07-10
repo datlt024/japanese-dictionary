@@ -1,532 +1,491 @@
 [
-{
-"vocabulary_id": 1698,
-"word": "アルゴル",
-"kana": "アルゴル",
-"senses": [
-{
-"sense_id": 219855,
-"meaning_vi": "ALGOL",
-"confidence": "high",
-"search_keywords": [
-"ALGOL",
-"ngôn ngữ ALGOL",
-"algorithmic language"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ALGOL, ngôn ngữ lập trình thuật toán",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219856,
-"meaning_vi": "sao Algol",
-"confidence": "high",
-"search_keywords": [
-"sao Algol",
-"Beta Persei",
-"chòm Perseus"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sao Algol, tức Beta Persei trong chòm Anh Tiên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1699,
-"word": "アルゴン",
-"kana": "アルゴン",
-"senses": [
-{
-"sense_id": 219857,
-"meaning_vi": "argon",
-"confidence": "high",
-"search_keywords": [
-"argon",
-"khí argon",
-"Ar"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nguyên tố hóa học argon, ký hiệu Ar",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1700,
-"word": "アルシオーネ",
-"kana": "アルシオーネ",
-"senses": [
-{
-"sense_id": 219858,
-"meaning_vi": "sao Alcyone",
-"confidence": "high",
-"search_keywords": [
-"sao Alcyone",
-"Eta Tauri",
-"Pleiades"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sao Alcyone, sao sáng nhất trong cụm sao Pleiades",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1701,
-"word": "アルチザン",
-"kana": "アルチザン",
-"senses": [
-{
-"sense_id": 219859,
-"meaning_vi": "nghệ nhân",
-"confidence": "high",
-"search_keywords": [
-"nghệ nhân",
-"thợ thủ công",
-"artisan"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghệ nhân; thợ thủ công lành nghề",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1702,
-"word": "アルツハイマー病",
-"kana": "アルツハイマーびょう",
-"senses": [
-{
-"sense_id": 219860,
-"meaning_vi": "bệnh Alzheimer",
-"confidence": "high",
-"search_keywords": [
-"bệnh Alzheimer",
-"Alzheimer",
-"sa sút trí tuệ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bệnh Alzheimer, dạng sa sút trí tuệ tiến triển",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1703,
-"word": "アルデヒド",
-"kana": "アルデヒド",
-"senses": [
-{
-"sense_id": 219861,
-"meaning_vi": "aldehyde",
-"confidence": "high",
-"search_keywords": [
-"aldehyde",
-"andehit",
-"nhóm aldehyde"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "aldehyde, hợp chất hữu cơ có nhóm -CHO",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1704,
-"word": "アルト",
-"kana": "アルト",
-"senses": [
-{
-"sense_id": 219862,
-"meaning_vi": "giọng alto",
-"confidence": "high",
-"search_keywords": [
-"giọng alto",
-"alto",
-"giọng trầm nữ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "alto; giọng hát thấp trong bè nữ hoặc bè trẻ em",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1705,
-"word": "アルバイト",
-"kana": "アルバイト",
-"senses": [
-{
-"sense_id": 219863,
-"meaning_vi": "việc làm thêm",
-"confidence": "high",
-"search_keywords": [
-"việc làm thêm",
-"làm thêm",
-"part-time job"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc làm bán thời gian; việc làm thêm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219864,
-"meaning_vi": "nhân viên làm thêm",
-"confidence": "high",
-"search_keywords": [
-"nhân viên làm thêm",
-"người làm thêm",
-"part-time worker"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người làm việc bán thời gian",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1706,
-"word": "アルバトロス",
-"kana": "アルバトロス",
-"senses": [
-{
-"sense_id": 219865,
-"meaning_vi": "chim hải âu lớn",
-"confidence": "high",
-"search_keywords": [
-"chim hải âu lớn",
-"albatross",
-"hải âu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chim hải âu lớn sống ngoài biển",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219866,
-"meaning_vi": "điểm albatross",
-"confidence": "high",
-"search_keywords": [
-"điểm albatross",
-"double eagle",
-"golf"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điểm golf thấp hơn chuẩn ba gậy; double eagle",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1707,
-"word": "アルバム",
-"kana": "アルバム",
-"senses": [
-{
-"sense_id": 219867,
-"meaning_vi": "album",
-"confidence": "high",
-"search_keywords": [
-"album",
-"tập ảnh",
-"đĩa nhạc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "album; tập ảnh hoặc tuyển tập nhạc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1708,
-"word": "アルパイン",
-"kana": "アルパイン",
-"senses": [
-{
-"sense_id": 219868,
-"meaning_vi": "núi cao",
-"confidence": "high",
-"search_keywords": [
-"núi cao",
-"alpine",
-"dãy Alps"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thuộc núi cao hoặc dãy Alps",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1709,
-"word": "羊駱駝",
-"kana": "アルパカ",
-"senses": [
-{
-"sense_id": 219869,
-"meaning_vi": "lạc đà alpaca",
-"confidence": "high",
-"search_keywords": [
-"alpaca",
-"lạc đà alpaca",
-"lạc đà không bướu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "alpaca, loài lạc đà không bướu Nam Mỹ nuôi lấy lông",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1710,
-"word": "アルビノ",
-"kana": "アルビノ",
-"senses": [
-{
-"sense_id": 219870,
-"meaning_vi": "bạch tạng",
-"confidence": "high",
-"search_keywords": [
-"bạch tạng",
-"albino"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người hoặc động vật mắc chứng bạch tạng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1711,
-"word": "アルビレオ",
-"kana": "アルビレオ",
-"senses": [
-{
-"sense_id": 219871,
-"meaning_vi": "sao Albireo",
-"confidence": "high",
-"search_keywords": [
-"sao Albireo",
-"Beta Cygni",
-"chòm Thiên Nga"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sao Albireo, còn gọi là Beta Cygni",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1712,
-"word": "アルピニスト",
-"kana": "アルピニスト",
-"senses": [
-{
-"sense_id": 219872,
-"meaning_vi": "nhà leo núi",
-"confidence": "high",
-"search_keywords": [
-"nhà leo núi",
-"người leo núi",
-"alpinist"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người chuyên leo núi cao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1713,
-"word": "アルピニズム",
-"kana": "アルピニズム",
-"senses": [
-{
-"sense_id": 219873,
-"meaning_vi": "leo núi cao",
-"confidence": "high",
-"search_keywords": [
-"leo núi cao",
-"alpinism",
-"chủ nghĩa leo núi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hoạt động hoặc tinh thần leo núi cao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1714,
-"word": "Α",
-"kana": "アルファ",
-"senses": [
-{
-"sense_id": 219874,
-"meaning_vi": "alpha",
-"confidence": "high",
-"search_keywords": [
-"alpha",
-"chữ alpha",
-"Α"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "alpha, chữ cái đầu tiên trong bảng chữ cái Hy Lạp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1715,
-"word": "アルファベット",
-"kana": "アルファベット",
-"senses": [
-{
-"sense_id": 219875,
-"meaning_vi": "bảng chữ cái",
-"confidence": "high",
-"search_keywords": [
-"bảng chữ cái",
-"alphabet",
-"chữ cái Latin"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bảng chữ cái; hệ thống chữ cái",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1716,
-"word": "アルファルド",
-"kana": "アルファルド",
-"senses": [
-{
-"sense_id": 219876,
-"meaning_vi": "sao Alphard",
-"confidence": "high",
-"search_keywords": [
-"sao Alphard",
-"Alpha Hydrae",
-"chòm Trường Xà"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sao Alphard, còn gọi là Alpha Hydrae",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1717,
-"word": "アルファ線",
-"kana": "アルファせん",
-"senses": [
-{
-"sense_id": 219877,
-"meaning_vi": "tia alpha",
-"confidence": "high",
-"search_keywords": [
-"tia alpha",
-"alpha ray",
-"bức xạ alpha"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tia alpha; bức xạ gồm các hạt alpha",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1698,
+    "word": "アルゴル",
+    "kana": "アルゴル",
+    "senses": [
+      {
+        "sense_id": 219855,
+        "meaning_vi": "Algol (ngôn ngữ thuật toán)",
+        "confidence": "high",
+        "search_keywords": [
+          "Algol (ngôn ngữ thuật toán)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Algol (ngôn ngữ thuật toán)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219856,
+        "meaning_vi": "Algol (ngôi sao trong chòm sao Perseus); Beta Persei",
+        "confidence": "high",
+        "search_keywords": [
+          "Algol (ngôi sao trong chòm sao Perseus)",
+          "Beta Persei"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Algol (ngôi sao trong chòm sao Perseus); Beta Persei",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1699,
+    "word": "アルゴン",
+    "kana": "アルゴン",
+    "senses": [
+      {
+        "sense_id": 219857,
+        "meaning_vi": "argon (Ar)",
+        "confidence": "low",
+        "search_keywords": [
+          "argon (Ar)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "argon (Ar)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1700,
+    "word": "アルシオーネ",
+    "kana": "アルシオーネ",
+    "senses": [
+      {
+        "sense_id": 219858,
+        "meaning_vi": "Alcyone (ngôi sao trong chòm sao Kim Ngưu, sáng nhất trong dãy Thất Nữ); Eta Tauri",
+        "confidence": "high",
+        "search_keywords": [
+          "Alcyone (ngôi sao trong chòm sao Kim Ngưu, sáng nhất trong dãy Thất Nữ)",
+          "Eta Tauri"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Alcyone (ngôi sao trong chòm sao Kim Ngưu, sáng nhất trong dãy Thất Nữ); Eta Tauri",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1701,
+    "word": "アルチザン",
+    "kana": "アルチザン",
+    "senses": [
+      {
+        "sense_id": 219859,
+        "meaning_vi": "thợ thủ công",
+        "confidence": "high",
+        "search_keywords": [
+          "thợ thủ công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thợ thủ công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1702,
+    "word": "アルツハイマー病",
+    "kana": "アルツハイマーびょう",
+    "senses": [
+      {
+        "sense_id": 219860,
+        "meaning_vi": "bệnh Alzheimer",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh Alzheimer"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh Alzheimer",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1703,
+    "word": "アルデヒド",
+    "kana": "アルデヒド",
+    "senses": [
+      {
+        "sense_id": 219861,
+        "meaning_vi": "andehit",
+        "confidence": "high",
+        "search_keywords": [
+          "andehit"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "andehit",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1704,
+    "word": "アルト",
+    "kana": "アルト",
+    "senses": [
+      {
+        "sense_id": 219862,
+        "meaning_vi": "giọng alto",
+        "confidence": "high",
+        "search_keywords": [
+          "giọng alto"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giọng alto",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1705,
+    "word": "アルバイト",
+    "kana": "アルバイト",
+    "senses": [
+      {
+        "sense_id": 219863,
+        "meaning_vi": "công việc bán thời gian; công việc phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "công việc bán thời gian",
+          "công việc phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công việc bán thời gian; công việc phụ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219864,
+        "meaning_vi": "nhân viên bán thời gian",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân viên bán thời gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân viên bán thời gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1706,
+    "word": "アルバトロス",
+    "kana": "アルバトロス",
+    "senses": [
+      {
+        "sense_id": 219865,
+        "meaning_vi": "chim hải âu (chim biển)",
+        "confidence": "high",
+        "search_keywords": [
+          "chim hải âu (chim biển)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chim hải âu (chim biển)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219866,
+        "meaning_vi": "chim hải âu (điểm); đại bàng đôi",
+        "confidence": "high",
+        "search_keywords": [
+          "chim hải âu (điểm)",
+          "đại bàng đôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chim hải âu (điểm); đại bàng đôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1707,
+    "word": "アルバム",
+    "kana": "アルバム",
+    "senses": [
+      {
+        "sense_id": 219867,
+        "meaning_vi": "album",
+        "confidence": "low",
+        "search_keywords": [
+          "album"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "album",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1708,
+    "word": "アルパイン",
+    "kana": "アルパイン",
+    "senses": [
+      {
+        "sense_id": 219868,
+        "meaning_vi": "núi cao",
+        "confidence": "high",
+        "search_keywords": [
+          "núi cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "núi cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1709,
+    "word": "羊駱駝",
+    "kana": "アルパカ",
+    "senses": [
+      {
+        "sense_id": 219869,
+        "meaning_vi": "lạc đà alpaca (Vicugna pacos)",
+        "confidence": "high",
+        "search_keywords": [
+          "lạc đà alpaca (Vicugna pacos)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lạc đà alpaca (Vicugna pacos)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1710,
+    "word": "アルビノ",
+    "kana": "アルビノ",
+    "senses": [
+      {
+        "sense_id": 219870,
+        "meaning_vi": "người bạch tạng",
+        "confidence": "high",
+        "search_keywords": [
+          "người bạch tạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người bạch tạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1711,
+    "word": "アルビレオ",
+    "kana": "アルビレオ",
+    "senses": [
+      {
+        "sense_id": 219871,
+        "meaning_vi": "Albireo (còn gọi là Beta Cygni)",
+        "confidence": "high",
+        "search_keywords": [
+          "Albireo (còn gọi là Beta Cygni)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Albireo (còn gọi là Beta Cygni)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1712,
+    "word": "アルピニスト",
+    "kana": "アルピニスト",
+    "senses": [
+      {
+        "sense_id": 219872,
+        "meaning_vi": "người leo núi",
+        "confidence": "high",
+        "search_keywords": [
+          "người leo núi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người leo núi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1713,
+    "word": "アルピニズム",
+    "kana": "アルピニズム",
+    "senses": [
+      {
+        "sense_id": 219873,
+        "meaning_vi": "môn leo núi",
+        "confidence": "high",
+        "search_keywords": [
+          "môn leo núi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môn leo núi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1714,
+    "word": "Α",
+    "kana": "アルファ",
+    "senses": [
+      {
+        "sense_id": 219874,
+        "meaning_vi": "alpha",
+        "confidence": "low",
+        "search_keywords": [
+          "alpha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "alpha",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1715,
+    "word": "アルファベット",
+    "kana": "アルファベット",
+    "senses": [
+      {
+        "sense_id": 219875,
+        "meaning_vi": "bảng chữ cái",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng chữ cái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng chữ cái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1716,
+    "word": "アルファルド",
+    "kana": "アルファルド",
+    "senses": [
+      {
+        "sense_id": 219876,
+        "meaning_vi": "Alphard (hay còn gọi là Alpha Hydra)",
+        "confidence": "high",
+        "search_keywords": [
+          "Alphard (hay còn gọi là Alpha Hydra)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Alphard (hay còn gọi là Alpha Hydra)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1717,
+    "word": "アルファ線",
+    "kana": "アルファせん",
+    "senses": [
+      {
+        "sense_id": 219877,
+        "meaning_vi": "tia alpha",
+        "confidence": "high",
+        "search_keywords": [
+          "tia alpha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tia alpha",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

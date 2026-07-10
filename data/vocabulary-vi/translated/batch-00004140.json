@@ -1,0 +1,512 @@
+[
+  {
+    "vocabulary_id": 101472,
+    "word": "差別発言",
+    "kana": "さべつはつげん",
+    "senses": [
+      {
+        "sense_id": 343081,
+        "meaning_vi": "nhận xét phân biệt đối xử; lời nói căm thù",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận xét phân biệt đối xử",
+          "lời nói căm thù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận xét phân biệt đối xử; lời nói căm thù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101473,
+    "word": "合計数",
+    "kana": "ごうけいすう",
+    "senses": [
+      {
+        "sense_id": 343082,
+        "meaning_vi": "tổng số",
+        "confidence": "high",
+        "search_keywords": [
+          "tổng số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổng số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101474,
+    "word": "中間考査",
+    "kana": "ちゅうかんこうさ",
+    "senses": [
+      {
+        "sense_id": 343083,
+        "meaning_vi": "kiểm tra giữa kỳ",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra giữa kỳ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra giữa kỳ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101475,
+    "word": "戦意高揚",
+    "kana": "せんいこうよう",
+    "senses": [
+      {
+        "sense_id": 343084,
+        "meaning_vi": "nâng cao tinh thần chiến đấu",
+        "confidence": "high",
+        "search_keywords": [
+          "nâng cao tinh thần chiến đấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nâng cao tinh thần chiến đấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101476,
+    "word": "回想記",
+    "kana": "かいそうき",
+    "senses": [
+      {
+        "sense_id": 343085,
+        "meaning_vi": "hồi ký",
+        "confidence": "high",
+        "search_keywords": [
+          "hồi ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồi ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101477,
+    "word": "除斥期間",
+    "kana": "じょせききかん",
+    "senses": [
+      {
+        "sense_id": 343086,
+        "meaning_vi": "(thời hạn do pháp luật quy định) thời hiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "(thời hạn do pháp luật quy định) thời hiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(thời hạn do pháp luật quy định) thời hiệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101478,
+    "word": "武勇談",
+    "kana": "ぶゆうだん",
+    "senses": [
+      {
+        "sense_id": 343087,
+        "meaning_vi": "câu chuyện về chủ nghĩa anh hùng",
+        "confidence": "high",
+        "search_keywords": [
+          "câu chuyện về chủ nghĩa anh hùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu chuyện về chủ nghĩa anh hùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101479,
+    "word": "共同通信",
+    "kana": "きょうどうつうしん",
+    "senses": [
+      {
+        "sense_id": 343088,
+        "meaning_vi": "truyền thông chung",
+        "confidence": "high",
+        "search_keywords": [
+          "truyền thông chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truyền thông chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101480,
+    "word": "土壇",
+    "kana": "どだん",
+    "senses": [
+      {
+        "sense_id": 343089,
+        "meaning_vi": "gò đất",
+        "confidence": "high",
+        "search_keywords": [
+          "gò đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gò đất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 343090,
+        "meaning_vi": "những bức tường đất bên trong lò sưởi chìm trong phòng trà",
+        "confidence": "high",
+        "search_keywords": [
+          "những bức tường đất bên trong lò sưởi chìm trong phòng trà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "những bức tường đất bên trong lò sưởi chìm trong phòng trà",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 343091,
+        "meaning_vi": "bệ làm bằng đất dùng để thực hiện các vụ hành quyết (chặt đầu) trong thời Edo",
+        "confidence": "high",
+        "search_keywords": [
+          "bệ làm bằng đất dùng để thực hiện các vụ hành quyết (chặt đầu) trong thời Edo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệ làm bằng đất dùng để thực hiện các vụ hành quyết (chặt đầu) trong thời Edo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101481,
+    "word": "据え物",
+    "kana": "すえもの",
+    "senses": [
+      {
+        "sense_id": 343092,
+        "meaning_vi": "vật trang trí",
+        "confidence": "high",
+        "search_keywords": [
+          "vật trang trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vật trang trí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 343093,
+        "meaning_vi": "xác chết dùng để thử lưỡi dao",
+        "confidence": "high",
+        "search_keywords": [
+          "xác chết dùng để thử lưỡi dao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xác chết dùng để thử lưỡi dao",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 343094,
+        "meaning_vi": "gái mại dâm không có giấy phép luôn làm việc ở cùng một nhà thờ",
+        "confidence": "high",
+        "search_keywords": [
+          "gái mại dâm không có giấy phép luôn làm việc ở cùng một nhà thờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gái mại dâm không có giấy phép luôn làm việc ở cùng một nhà thờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101482,
+    "word": "貧富の差",
+    "kana": "ひんぷのさ",
+    "senses": [
+      {
+        "sense_id": 343095,
+        "meaning_vi": "sự chênh lệch về sự giàu có; bất bình đẳng giàu nghèo; bất bình đẳng xã hội",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chênh lệch về sự giàu có",
+          "bất bình đẳng giàu nghèo",
+          "bất bình đẳng xã hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chênh lệch về sự giàu có; bất bình đẳng giàu nghèo; bất bình đẳng xã hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101483,
+    "word": "情報漏れ",
+    "kana": "じょうほうもれ",
+    "senses": [
+      {
+        "sense_id": 343096,
+        "meaning_vi": "rò rỉ thông tin; rò rỉ thông tin tình báo",
+        "confidence": "high",
+        "search_keywords": [
+          "rò rỉ thông tin",
+          "rò rỉ thông tin tình báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rò rỉ thông tin; rò rỉ thông tin tình báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101484,
+    "word": "ペールホワイト",
+    "kana": "ペールホワイト",
+    "senses": [
+      {
+        "sense_id": 343097,
+        "meaning_vi": "trắng nhạt",
+        "confidence": "high",
+        "search_keywords": [
+          "trắng nhạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trắng nhạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101485,
+    "word": "良かれと思う",
+    "kana": "よかれとおもう",
+    "senses": [
+      {
+        "sense_id": 343098,
+        "meaning_vi": "mong muốn mọi việc suôn sẻ; có ý định tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "mong muốn mọi việc suôn sẻ",
+          "có ý định tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mong muốn mọi việc suôn sẻ; có ý định tốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101486,
+    "word": "シングルルーム",
+    "kana": "シングルルーム",
+    "senses": [
+      {
+        "sense_id": 343099,
+        "meaning_vi": "phòng đơn",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng đơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng đơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101487,
+    "word": "青年客気",
+    "kana": "せいねんかっき",
+    "senses": [
+      {
+        "sense_id": 343100,
+        "meaning_vi": "nhiệt huyết tuổi trẻ; sự bốc đồng hấp tấp của tuổi trẻ thiếu kinh nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt huyết tuổi trẻ",
+          "sự bốc đồng hấp tấp của tuổi trẻ thiếu kinh nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt huyết tuổi trẻ; sự bốc đồng hấp tấp của tuổi trẻ thiếu kinh nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101488,
+    "word": "年少客気",
+    "kana": "ねんしょうかっき",
+    "senses": [
+      {
+        "sense_id": 343101,
+        "meaning_vi": "nhiệt huyết tuổi trẻ; sự bốc đồng hấp tấp của tuổi trẻ thiếu kinh nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt huyết tuổi trẻ",
+          "sự bốc đồng hấp tấp của tuổi trẻ thiếu kinh nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt huyết tuổi trẻ; sự bốc đồng hấp tấp của tuổi trẻ thiếu kinh nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101489,
+    "word": "客気",
+    "kana": "かっき",
+    "senses": [
+      {
+        "sense_id": 343102,
+        "meaning_vi": "nhiệt huyết tuổi trẻ; sự liều lĩnh",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt huyết tuổi trẻ",
+          "sự liều lĩnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt huyết tuổi trẻ; sự liều lĩnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101490,
+    "word": "姦夫姦婦",
+    "kana": "かんぷかんぷ",
+    "senses": [
+      {
+        "sense_id": 343103,
+        "meaning_vi": "kẻ ngoại tình và kẻ ngoại tình; cặp đôi ngoại tình",
+        "confidence": "high",
+        "search_keywords": [
+          "kẻ ngoại tình và kẻ ngoại tình",
+          "cặp đôi ngoại tình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẻ ngoại tình và kẻ ngoại tình; cặp đôi ngoại tình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101491,
+    "word": "本人負担",
+    "kana": "ほんにんふたん",
+    "senses": [
+      {
+        "sense_id": 343104,
+        "meaning_vi": "trả tiền mua (chi phí) bằng tiền túi của mình; chịu trách nhiệm thanh toán phần giá mua, chi phí, v.v. của mình.",
+        "confidence": "high",
+        "search_keywords": [
+          "trả tiền mua (chi phí) bằng tiền túi của mình",
+          "chịu trách nhiệm thanh toán phần giá mua, chi phí, v.v. của mình."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trả tiền mua (chi phí) bằng tiền túi của mình; chịu trách nhiệm thanh toán phần giá mua, chi phí, v.v. của mình.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

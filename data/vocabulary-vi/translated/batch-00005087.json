@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 122271,
+    "word": "暗号技術",
+    "kana": "あんごうぎじゅつ",
+    "senses": [
+      {
+        "sense_id": 365888,
+        "meaning_vi": "mật mã; công nghệ mã hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "mật mã",
+          "công nghệ mã hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mật mã; công nghệ mã hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122272,
+    "word": "暗号検査値",
+    "kana": "あんごうけんさち",
+    "senses": [
+      {
+        "sense_id": 365889,
+        "meaning_vi": "giá trị kiểm tra mật mã",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị kiểm tra mật mã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị kiểm tra mật mã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122273,
+    "word": "暗号同期",
+    "kana": "あんごうどうき",
+    "senses": [
+      {
+        "sense_id": 365890,
+        "meaning_vi": "đồng bộ hóa mật mã",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng bộ hóa mật mã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng bộ hóa mật mã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122274,
+    "word": "暗示宣言",
+    "kana": "あんじせんげん",
+    "senses": [
+      {
+        "sense_id": 365891,
+        "meaning_vi": "khai báo ngầm",
+        "confidence": "high",
+        "search_keywords": [
+          "khai báo ngầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai báo ngầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122275,
+    "word": "暗示番地指定",
+    "kana": "あんじばんちしてい",
+    "senses": [
+      {
+        "sense_id": 365892,
+        "meaning_vi": "địa chỉ ngụ ý",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ ngụ ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ ngụ ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122276,
+    "word": "暗示表現",
+    "kana": "あんじひょうげん",
+    "senses": [
+      {
+        "sense_id": 365893,
+        "meaning_vi": "biểu hiện ngụ ý",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu hiện ngụ ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu hiện ngụ ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122277,
+    "word": "暗証フレーズ",
+    "kana": "あんしょうフレーズ",
+    "senses": [
+      {
+        "sense_id": 365894,
+        "meaning_vi": "cụm từ truyền đạt",
+        "confidence": "high",
+        "search_keywords": [
+          "cụm từ truyền đạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cụm từ truyền đạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122278,
+    "word": "暗黙アドレシング",
+    "kana": "あんもくアドレシング",
+    "senses": [
+      {
+        "sense_id": 365895,
+        "meaning_vi": "địa chỉ ngầm",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ ngầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ ngầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122279,
+    "word": "暗黙アドレス指定",
+    "kana": "あんもくアドレスしてい",
+    "senses": [
+      {
+        "sense_id": 365896,
+        "meaning_vi": "địa chỉ ngầm",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ ngầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ ngầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122280,
+    "word": "暗黙的",
+    "kana": "あんもくてき",
+    "senses": [
+      {
+        "sense_id": 365897,
+        "meaning_vi": "ngầm",
+        "confidence": "high",
+        "search_keywords": [
+          "ngầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122281,
+    "word": "暗黙的引用仕様",
+    "kana": "あんもくてきいんようしよう",
+    "senses": [
+      {
+        "sense_id": 365898,
+        "meaning_vi": "giao diện ngầm",
+        "confidence": "high",
+        "search_keywords": [
+          "giao diện ngầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao diện ngầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122282,
+    "word": "暗黙範囲符",
+    "kana": "あんもくはんいふ",
+    "senses": [
+      {
+        "sense_id": 365899,
+        "meaning_vi": "bộ kết thúc phạm vi tiềm ẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ kết thúc phạm vi tiềm ẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ kết thúc phạm vi tiềm ẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122283,
+    "word": "暗黙変換",
+    "kana": "あんもくへんかん",
+    "senses": [
+      {
+        "sense_id": 365900,
+        "meaning_vi": "chuyển đổi ngầm",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi ngầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi ngầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122284,
+    "word": "暗黙連結",
+    "kana": "あんもくれんけつ",
+    "senses": [
+      {
+        "sense_id": 365901,
+        "meaning_vi": "liên kết ngầm (định nghĩa quy trình)",
+        "confidence": "high",
+        "search_keywords": [
+          "liên kết ngầm (định nghĩa quy trình)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên kết ngầm (định nghĩa quy trình)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122285,
+    "word": "位取り表記法",
+    "kana": "くらいどりひょうきほう",
+    "senses": [
+      {
+        "sense_id": 365902,
+        "meaning_vi": "hệ thống vị trí (đại diện); ký hiệu vị trí",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống vị trí (đại diện)",
+          "ký hiệu vị trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống vị trí (đại diện); ký hiệu vị trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122286,
+    "word": "位取り表現",
+    "kana": "くらいどりひょうげん",
+    "senses": [
+      {
+        "sense_id": 365903,
+        "meaning_vi": "đại diện vị trí",
+        "confidence": "high",
+        "search_keywords": [
+          "đại diện vị trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại diện vị trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122287,
+    "word": "位取り表現法",
+    "kana": "くらいどりひょうげんほう",
+    "senses": [
+      {
+        "sense_id": 365904,
+        "meaning_vi": "hệ thống vị trí (đại diện); ký hiệu vị trí",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống vị trí (đại diện)",
+          "ký hiệu vị trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống vị trí (đại diện); ký hiệu vị trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122288,
+    "word": "位相コード化",
+    "kana": "いそうコードか",
+    "senses": [
+      {
+        "sense_id": 365905,
+        "meaning_vi": "ghi điều chế pha; mã hóa pha",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi điều chế pha",
+          "mã hóa pha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi điều chế pha; mã hóa pha",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122289,
+    "word": "位相シフトキーイング",
+    "kana": "いそうシフトキーイング",
+    "senses": [
+      {
+        "sense_id": 365906,
+        "meaning_vi": "khóa dịch pha; PSK",
+        "confidence": "high",
+        "search_keywords": [
+          "khóa dịch pha",
+          "PSK"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóa dịch pha; PSK",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122290,
+    "word": "位相誤差",
+    "kana": "いそうごさ",
+    "senses": [
+      {
+        "sense_id": 365907,
+        "meaning_vi": "lỗi pha",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi pha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi pha",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

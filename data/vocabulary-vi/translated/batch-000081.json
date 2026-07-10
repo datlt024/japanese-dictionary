@@ -1,496 +1,464 @@
 [
-{
-"vocabulary_id": 2262,
-"word": "ウエスタングリップ",
-"kana": "ウエスタングリップ",
-"senses": [
-{
-"sense_id": 220495,
-"meaning_vi": "kiểu cầm vợt Western",
-"confidence": "high",
-"search_keywords": [
-"kiểu cầm vợt Western",
-"Western grip",
-"cách cầm vợt tennis"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu cầm vợt tennis giúp tạo nhiều topspin",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2263,
-"word": "ウエスタンリーグ",
-"kana": "ウエスタンリーグ",
-"senses": [
-{
-"sense_id": 220496,
-"meaning_vi": "Western League",
-"confidence": "high",
-"search_keywords": [
-"Western League",
-"giải Western League",
-"bóng chày Nhật"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "một trong hai giải hạng dưới của bóng chày chuyên nghiệp Nhật Bản",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2264,
-"word": "ウエスト",
-"kana": "ウエスト",
-"senses": [
-{
-"sense_id": 220497,
-"meaning_vi": "vòng eo",
-"confidence": "high",
-"search_keywords": [
-"vòng eo",
-"eo",
-"số đo eo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "eo; vòng eo hoặc số đo quanh eo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2265,
-"word": "ウエストエンド",
-"kana": "ウエストエンド",
-"senses": [
-{
-"sense_id": 220498,
-"meaning_vi": "West End",
-"confidence": "high",
-"search_keywords": [
-"West End",
-"khu West End",
-"London"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu West End ở London, nổi tiếng với nhà hát và thương mại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2266,
-"word": "ウエストコースト",
-"kana": "ウエストコースト",
-"senses": [
-{
-"sense_id": 220499,
-"meaning_vi": "Bờ Tây Hoa Kỳ",
-"confidence": "high",
-"search_keywords": [
-"Bờ Tây Hoa Kỳ",
-"West Coast",
-"bờ Tây Mỹ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vùng Bờ Tây của Hoa Kỳ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2267,
-"word": "ウエストコート",
-"kana": "ウエストコート",
-"senses": [
-{
-"sense_id": 220500,
-"meaning_vi": "áo gi-lê",
-"confidence": "high",
-"search_keywords": [
-"áo gi-lê",
-"waistcoat",
-"áo vest không tay"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "áo gi-lê mặc bên trong áo vest",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2268,
-"word": "ウエストサイド",
-"kana": "ウエストサイド",
-"senses": [
-{
-"sense_id": 220501,
-"meaning_vi": "West Side",
-"confidence": "medium",
-"search_keywords": [
-"West Side",
-"khu phía Tây",
-"New York"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu West Side ở New York",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2269,
-"word": "ウエストニッパー",
-"kana": "ウエストニッパー",
-"senses": [
-{
-"sense_id": 220502,
-"meaning_vi": "đai nịt eo",
-"confidence": "high",
-"search_keywords": [
-"đai nịt eo",
-"gen nịt bụng",
-"waist nipper"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đai hoặc đồ lót định hình dùng để siết eo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2270,
-"word": "ウエストボール",
-"kana": "ウエストボール",
-"senses": [
-{
-"sense_id": 220503,
-"meaning_vi": "bóng ném dụ",
-"confidence": "medium",
-"search_keywords": [
-"bóng ném dụ",
-"waste pitch",
-"bóng chày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cú ném bóng cố ý ra ngoài vùng strike để dụ người đánh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2271,
-"word": "ウエストライン",
-"kana": "ウエストライン",
-"senses": [
-{
-"sense_id": 220504,
-"meaning_vi": "đường eo",
-"confidence": "high",
-"search_keywords": [
-"đường eo",
-"vòng eo",
-"waistline"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đường hoặc số đo quanh eo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2272,
-"word": "ウェッジソール",
-"kana": "ウェッジソール",
-"senses": [
-{
-"sense_id": 220505,
-"meaning_vi": "đế xuồng",
-"confidence": "high",
-"search_keywords": [
-"đế xuồng",
-"đế giày xuồng",
-"wedge sole"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu đế giày liền khối, dày dần từ mũi đến gót",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2273,
-"word": "ウエット",
-"kana": "ウエット",
-"senses": [
-{
-"sense_id": 220506,
-"meaning_vi": "ẩm ướt",
-"confidence": "high",
-"search_keywords": [
-"ẩm ướt",
-"ướt",
-"wet"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ướt hoặc có độ ẩm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220507,
-"meaning_vi": "đa cảm",
-"confidence": "high",
-"search_keywords": [
-"đa cảm",
-"dễ xúc động",
-"sentimental"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mềm lòng; đa cảm; dễ bị cảm xúc chi phối",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2274,
-"word": "ウェットカット",
-"kana": "ウェットカット",
-"senses": [
-{
-"sense_id": 220508,
-"meaning_vi": "cắt tóc ướt",
-"confidence": "high",
-"search_keywords": [
-"cắt tóc ướt",
-"wet cut",
-"wet haircut"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kỹ thuật cắt tóc khi tóc đang ướt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2275,
-"word": "ウェットスーツ",
-"kana": "ウェットスーツ",
-"senses": [
-{
-"sense_id": 220509,
-"meaning_vi": "đồ lặn giữ nhiệt",
-"confidence": "high",
-"search_keywords": [
-"đồ lặn giữ nhiệt",
-"bộ đồ lặn",
-"wetsuit"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bộ đồ bó sát giữ nhiệt khi lặn hoặc chơi thể thao dưới nước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2276,
-"word": "ウェディングケーキ",
-"kana": "ウェディングケーキ",
-"senses": [
-{
-"sense_id": 220510,
-"meaning_vi": "bánh cưới",
-"confidence": "high",
-"search_keywords": [
-"bánh cưới",
-"wedding cake"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bánh dùng trong lễ cưới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2277,
-"word": "ウェディングドレス",
-"kana": "ウェディングドレス",
-"senses": [
-{
-"sense_id": 220511,
-"meaning_vi": "váy cưới",
-"confidence": "high",
-"search_keywords": [
-"váy cưới",
-"áo cưới",
-"wedding dress"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "váy hoặc áo cưới cô dâu mặc trong lễ cưới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2278,
-"word": "ウェディングベール",
-"kana": "ウェディングベール",
-"senses": [
-{
-"sense_id": 220512,
-"meaning_vi": "khăn voan cưới",
-"confidence": "high",
-"search_keywords": [
-"khăn voan cưới",
-"mạng che mặt cô dâu",
-"wedding veil"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khăn voan cô dâu đội hoặc che mặt trong lễ cưới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2279,
-"word": "ウェディングベル",
-"kana": "ウェディングベル",
-"senses": [
-{
-"sense_id": 220513,
-"meaning_vi": "chuông cưới",
-"confidence": "high",
-"search_keywords": [
-"chuông cưới",
-"wedding bell"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiếng chuông báo hoặc tượng trưng cho lễ cưới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2280,
-"word": "ウェディングマーチ",
-"kana": "ウェディングマーチ",
-"senses": [
-{
-"sense_id": 220514,
-"meaning_vi": "nhạc cưới hành khúc",
-"confidence": "high",
-"search_keywords": [
-"nhạc cưới hành khúc",
-"wedding march",
-"hành khúc đám cưới"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bản hành khúc được chơi trong lễ cưới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2281,
-"word": "ウェディングリング",
-"kana": "ウェディングリング",
-"senses": [
-{
-"sense_id": 220515,
-"meaning_vi": "nhẫn cưới",
-"confidence": "high",
-"search_keywords": [
-"nhẫn cưới",
-"wedding ring"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhẫn trao hoặc đeo khi kết hôn",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2262,
+    "word": "ウエスタングリップ",
+    "kana": "ウエスタングリップ",
+    "senses": [
+      {
+        "sense_id": 220495,
+        "meaning_vi": "Tay cầm phương Tây (quần vợt)",
+        "confidence": "high",
+        "search_keywords": [
+          "Tay cầm phương Tây (quần vợt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tay cầm phương Tây (quần vợt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2263,
+    "word": "ウエスタンリーグ",
+    "kana": "ウエスタンリーグ",
+    "senses": [
+      {
+        "sense_id": 220496,
+        "meaning_vi": "Western League (một trong hai giải đấu nhỏ của bóng chày chuyên nghiệp Nhật Bản)",
+        "confidence": "high",
+        "search_keywords": [
+          "Western League (một trong hai giải đấu nhỏ của bóng chày chuyên nghiệp Nhật Bản)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Western League (một trong hai giải đấu nhỏ của bóng chày chuyên nghiệp Nhật Bản)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2264,
+    "word": "ウエスト",
+    "kana": "ウエスト",
+    "senses": [
+      {
+        "sense_id": 220497,
+        "meaning_vi": "thắt lưng; vòng eo; số đo vòng eo",
+        "confidence": "high",
+        "search_keywords": [
+          "thắt lưng",
+          "vòng eo",
+          "số đo vòng eo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thắt lưng; vòng eo; số đo vòng eo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2265,
+    "word": "ウエストエンド",
+    "kana": "ウエストエンド",
+    "senses": [
+      {
+        "sense_id": 220498,
+        "meaning_vi": "Đầu Tây (Luân Đôn)",
+        "confidence": "high",
+        "search_keywords": [
+          "Đầu Tây (Luân Đôn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đầu Tây (Luân Đôn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2266,
+    "word": "ウエストコースト",
+    "kana": "ウエストコースト",
+    "senses": [
+      {
+        "sense_id": 220499,
+        "meaning_vi": "Bờ Tây (của Hoa Kỳ)",
+        "confidence": "high",
+        "search_keywords": [
+          "Bờ Tây (của Hoa Kỳ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bờ Tây (của Hoa Kỳ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2267,
+    "word": "ウエストコート",
+    "kana": "ウエストコート",
+    "senses": [
+      {
+        "sense_id": 220500,
+        "meaning_vi": "áo ghi lê",
+        "confidence": "high",
+        "search_keywords": [
+          "áo ghi lê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo ghi lê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2268,
+    "word": "ウエストサイド",
+    "kana": "ウエストサイド",
+    "senses": [
+      {
+        "sense_id": 220501,
+        "meaning_vi": "Phía Tây (New York)",
+        "confidence": "high",
+        "search_keywords": [
+          "Phía Tây (New York)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phía Tây (New York)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2269,
+    "word": "ウエストニッパー",
+    "kana": "ウエストニッパー",
+    "senses": [
+      {
+        "sense_id": 220502,
+        "meaning_vi": "kềm thắt lưng",
+        "confidence": "high",
+        "search_keywords": [
+          "kềm thắt lưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kềm thắt lưng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2270,
+    "word": "ウエストボール",
+    "kana": "ウエストボール",
+    "senses": [
+      {
+        "sense_id": 220503,
+        "meaning_vi": "sân thải",
+        "confidence": "high",
+        "search_keywords": [
+          "sân thải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sân thải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2271,
+    "word": "ウエストライン",
+    "kana": "ウエストライン",
+    "senses": [
+      {
+        "sense_id": 220504,
+        "meaning_vi": "vòng eo",
+        "confidence": "high",
+        "search_keywords": [
+          "vòng eo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vòng eo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2272,
+    "word": "ウェッジソール",
+    "kana": "ウェッジソール",
+    "senses": [
+      {
+        "sense_id": 220505,
+        "meaning_vi": "Đế nêm",
+        "confidence": "high",
+        "search_keywords": [
+          "Đế nêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đế nêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2273,
+    "word": "ウエット",
+    "kana": "ウエット",
+    "senses": [
+      {
+        "sense_id": 220506,
+        "meaning_vi": "ướt; ẩm ướt",
+        "confidence": "high",
+        "search_keywords": [
+          "ướt",
+          "ẩm ướt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ướt; ẩm ướt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220507,
+        "meaning_vi": "mềm lòng; dịu dàng; đa cảm",
+        "confidence": "high",
+        "search_keywords": [
+          "mềm lòng",
+          "dịu dàng",
+          "đa cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mềm lòng; dịu dàng; đa cảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2274,
+    "word": "ウェットカット",
+    "kana": "ウェットカット",
+    "senses": [
+      {
+        "sense_id": 220508,
+        "meaning_vi": "cắt ướt; cắt tóc ướt",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt ướt",
+          "cắt tóc ướt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt ướt; cắt tóc ướt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2275,
+    "word": "ウェットスーツ",
+    "kana": "ウェットスーツ",
+    "senses": [
+      {
+        "sense_id": 220509,
+        "meaning_vi": "bộ đồ lặn; bộ đồ ướt",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đồ lặn",
+          "bộ đồ ướt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đồ lặn; bộ đồ ướt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2276,
+    "word": "ウェディングケーキ",
+    "kana": "ウェディングケーキ",
+    "senses": [
+      {
+        "sense_id": 220510,
+        "meaning_vi": "bánh cưới",
+        "confidence": "high",
+        "search_keywords": [
+          "bánh cưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bánh cưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2277,
+    "word": "ウェディングドレス",
+    "kana": "ウェディングドレス",
+    "senses": [
+      {
+        "sense_id": 220511,
+        "meaning_vi": "váy cưới",
+        "confidence": "high",
+        "search_keywords": [
+          "váy cưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "váy cưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2278,
+    "word": "ウェディングベール",
+    "kana": "ウェディングベール",
+    "senses": [
+      {
+        "sense_id": 220512,
+        "meaning_vi": "mạng che mặt đám cưới",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng che mặt đám cưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng che mặt đám cưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2279,
+    "word": "ウェディングベル",
+    "kana": "ウェディングベル",
+    "senses": [
+      {
+        "sense_id": 220513,
+        "meaning_vi": "chuông đám cưới",
+        "confidence": "high",
+        "search_keywords": [
+          "chuông đám cưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuông đám cưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2280,
+    "word": "ウェディングマーチ",
+    "kana": "ウェディングマーチ",
+    "senses": [
+      {
+        "sense_id": 220514,
+        "meaning_vi": "diễu hành đám cưới",
+        "confidence": "high",
+        "search_keywords": [
+          "diễu hành đám cưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "diễu hành đám cưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2281,
+    "word": "ウェディングリング",
+    "kana": "ウェディングリング",
+    "senses": [
+      {
+        "sense_id": 220515,
+        "meaning_vi": "nhẫn cưới",
+        "confidence": "high",
+        "search_keywords": [
+          "nhẫn cưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhẫn cưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

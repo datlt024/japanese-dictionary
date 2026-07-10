@@ -1,529 +1,494 @@
 [
-{
-"vocabulary_id": 1558,
-"word": "アネクメーネ",
-"kana": "アネクメーネ",
-"senses": [
-{
-"sense_id": 219691,
-"meaning_vi": "vùng không cư trú",
-"confidence": "medium",
-"search_keywords": [
-"vùng không cư trú",
-"anecumene",
-"anoekumene"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vùng đất không có người cư trú hoặc khó sinh sống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1559,
-"word": "アノード",
-"kana": "アノード",
-"senses": [
-{
-"sense_id": 219692,
-"meaning_vi": "cực dương",
-"confidence": "high",
-"search_keywords": [
-"cực dương",
-"anode",
-"điện cực dương"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "anode; điện cực dương",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1560,
-"word": "アノニマス",
-"kana": "アノニマス",
-"senses": [
-{
-"sense_id": 219693,
-"meaning_vi": "ẩn danh",
-"confidence": "high",
-"search_keywords": [
-"ẩn danh",
-"vô danh",
-"anonymous"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không nêu tên; ẩn danh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1561,
-"word": "アノニム",
-"kana": "アノニム",
-"senses": [
-{
-"sense_id": 219694,
-"meaning_vi": "tên ẩn danh",
-"confidence": "medium",
-"search_keywords": [
-"tên ẩn danh",
-"ẩn danh",
-"anonym"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tên hoặc danh tính ẩn danh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1562,
-"word": "アノラック",
-"kana": "アノラック",
-"senses": [
-{
-"sense_id": 219695,
-"meaning_vi": "áo anorak",
-"confidence": "high",
-"search_keywords": [
-"áo anorak",
-"áo khoác chống gió",
-"anorak"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "áo khoác có mũ, thường chống gió hoặc chống lạnh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1563,
-"word": "アノレクシア",
-"kana": "アノレクシア",
-"senses": [
-{
-"sense_id": 219696,
-"meaning_vi": "chán ăn",
-"confidence": "high",
-"search_keywords": [
-"chán ăn",
-"biếng ăn",
-"anorexia"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chứng chán ăn; rối loạn ăn uống gây sụt cân nghiêm trọng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1564,
-"word": "アバウト",
-"kana": "アバウト",
-"senses": [
-{
-"sense_id": 219697,
-"meaning_vi": "ước chừng",
-"confidence": "high",
-"search_keywords": [
-"ước chừng",
-"xấp xỉ",
-"đại khái"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xấp xỉ; đại khái; không chính xác tuyệt đối",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219698,
-"meaning_vi": "qua loa",
-"confidence": "high",
-"search_keywords": [
-"qua loa",
-"cẩu thả",
-"sơ sài"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cẩu thả; qua loa; thiếu cẩn thận",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1565,
-"word": "アバンギャルド",
-"kana": "アバンギャルド",
-"senses": [
-{
-"sense_id": 219699,
-"meaning_vi": "tiên phong",
-"confidence": "high",
-"search_keywords": [
-"tiên phong",
-"avant-garde",
-"nghệ thuật tiên phong"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trào lưu hoặc phong cách tiên phong, cách tân trong nghệ thuật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1566,
-"word": "アバンゲール",
-"kana": "アバンゲール",
-"senses": [
-{
-"sense_id": 219700,
-"meaning_vi": "thế hệ trước Thế chiến II",
-"confidence": "medium",
-"search_keywords": [
-"thế hệ trước Thế chiến II",
-"thế hệ tiền chiến"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thế hệ trước Chiến tranh thế giới thứ hai",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219701,
-"meaning_vi": "tư tưởng nghệ thuật tiền chiến",
-"confidence": "medium",
-"search_keywords": [
-"tư tưởng nghệ thuật tiền chiến",
-"nghệ thuật trước Thế chiến I"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tư tưởng nghệ thuật trước Chiến tranh thế giới thứ nhất",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1567,
-"word": "アバンチュール",
-"kana": "アバンチュール",
-"senses": [
-{
-"sense_id": 219702,
-"meaning_vi": "cuộc tình phiêu lưu",
-"confidence": "high",
-"search_keywords": [
-"cuộc tình phiêu lưu",
-"chuyện tình thoáng qua",
-"ngoại tình"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cuộc tình phiêu lưu; chuyện tình thoáng qua",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1568,
-"word": "アパーチャ",
-"kana": "アパーチャ",
-"senses": [
-{
-"sense_id": 219703,
-"meaning_vi": "khẩu độ",
-"confidence": "high",
-"search_keywords": [
-"khẩu độ",
-"aperture",
-"độ mở ống kính"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khẩu độ; độ mở cho ánh sáng hoặc tín hiệu đi qua",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1569,
-"word": "アパート",
-"kana": "アパート",
-"senses": [
-{
-"sense_id": 219704,
-"meaning_vi": "chung cư nhỏ",
-"confidence": "high",
-"search_keywords": [
-"chung cư nhỏ",
-"nhà trọ",
-"apartment building"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tòa nhà căn hộ cho thuê, thường quy mô nhỏ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219705,
-"meaning_vi": "căn hộ",
-"confidence": "high",
-"search_keywords": [
-"căn hộ",
-"phòng trọ",
-"apartment"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "căn hộ hoặc phòng thuê trong nhà căn hộ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1570,
-"word": "アパート荒らし",
-"kana": "アパートあらし",
-"senses": [
-{
-"sense_id": 219706,
-"meaning_vi": "trộm căn hộ",
-"confidence": "high",
-"search_keywords": [
-"trộm căn hộ",
-"đột nhập căn hộ",
-"trộm nhà trọ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kẻ trộm đột nhập căn hộ; hành vi trộm trong khu căn hộ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1571,
-"word": "アパシー",
-"kana": "アパシー",
-"senses": [
-{
-"sense_id": 219707,
-"meaning_vi": "thờ ơ",
-"confidence": "high",
-"search_keywords": [
-"thờ ơ",
-"lãnh đạm",
-"apathy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trạng thái thờ ơ, thiếu quan tâm hoặc động lực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1572,
-"word": "アペタイト",
-"kana": "アペタイト",
-"senses": [
-{
-"sense_id": 219708,
-"meaning_vi": "cảm giác thèm ăn",
-"confidence": "high",
-"search_keywords": [
-"cảm giác thèm ăn",
-"khẩu vị",
-"appetite"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm giác thèm ăn; khẩu vị",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1573,
-"word": "アパッシュ",
-"kana": "アパッシュ",
-"senses": [
-{
-"sense_id": 219709,
-"meaning_vi": "Apache",
-"confidence": "medium",
-"search_keywords": [
-"Apache",
-"apache"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Apache; tên riêng hoặc cách gọi liên quan đến Apache",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1574,
-"word": "アパッチ",
-"kana": "アパッチ",
-"senses": [
-{
-"sense_id": 219710,
-"meaning_vi": "người Apache",
-"confidence": "high",
-"search_keywords": [
-"người Apache",
-"Apache"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người Apache; nhóm dân tộc bản địa Bắc Mỹ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1575,
-"word": "アパルトヘイト",
-"kana": "アパルトヘイト",
-"senses": [
-{
-"sense_id": 219711,
-"meaning_vi": "chế độ apartheid",
-"confidence": "high",
-"search_keywords": [
-"apartheid",
-"chế độ phân biệt chủng tộc",
-"phân biệt chủng tộc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chế độ phân biệt chủng tộc apartheid ở Nam Phi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1576,
-"word": "アビタシオン",
-"kana": "アビタシオン",
-"senses": [
-{
-"sense_id": 219712,
-"meaning_vi": "nơi cư trú",
-"confidence": "medium",
-"search_keywords": [
-"nơi cư trú",
-"chỗ ở",
-"habitation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nơi ở; chỗ cư trú",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1577,
-"word": "アビリティー",
-"kana": "アビリティー",
-"senses": [
-{
-"sense_id": 219713,
-"meaning_vi": "năng lực",
-"confidence": "high",
-"search_keywords": [
-"năng lực",
-"khả năng",
-"ability"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "năng lực; khả năng thực hiện việc gì",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1558,
+    "word": "アネクメーネ",
+    "kana": "アネクメーネ",
+    "senses": [
+      {
+        "sense_id": 219691,
+        "meaning_vi": "anoekumene; thiếu máu",
+        "confidence": "high",
+        "search_keywords": [
+          "anoekumene",
+          "thiếu máu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anoekumene; thiếu máu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1559,
+    "word": "アノード",
+    "kana": "アノード",
+    "senses": [
+      {
+        "sense_id": 219692,
+        "meaning_vi": "cực dương",
+        "confidence": "high",
+        "search_keywords": [
+          "cực dương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cực dương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1560,
+    "word": "アノニマス",
+    "kana": "アノニマス",
+    "senses": [
+      {
+        "sense_id": 219693,
+        "meaning_vi": "vô danh",
+        "confidence": "high",
+        "search_keywords": [
+          "vô danh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô danh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1561,
+    "word": "アノニム",
+    "kana": "アノニム",
+    "senses": [
+      {
+        "sense_id": 219694,
+        "meaning_vi": "ẩn danh",
+        "confidence": "high",
+        "search_keywords": [
+          "ẩn danh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ẩn danh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1562,
+    "word": "アノラック",
+    "kana": "アノラック",
+    "senses": [
+      {
+        "sense_id": 219695,
+        "meaning_vi": "áo khoác có mũ trùm đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "áo khoác có mũ trùm đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo khoác có mũ trùm đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1563,
+    "word": "アノレクシア",
+    "kana": "アノレクシア",
+    "senses": [
+      {
+        "sense_id": 219696,
+        "meaning_vi": "chán ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "chán ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chán ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1564,
+    "word": "アバウト",
+    "kana": "アバウト",
+    "senses": [
+      {
+        "sense_id": 219697,
+        "meaning_vi": "gần đúng (số); thô (tính toán)",
+        "confidence": "high",
+        "search_keywords": [
+          "gần đúng (số)",
+          "thô (tính toán)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gần đúng (số); thô (tính toán)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219698,
+        "meaning_vi": "cẩu thả; thiếu nhiệt tình; thô",
+        "confidence": "high",
+        "search_keywords": [
+          "cẩu thả",
+          "thiếu nhiệt tình",
+          "thô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cẩu thả; thiếu nhiệt tình; thô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1565,
+    "word": "アバンギャルド",
+    "kana": "アバンギャルド",
+    "senses": [
+      {
+        "sense_id": 219699,
+        "meaning_vi": "tiên phong",
+        "confidence": "high",
+        "search_keywords": [
+          "tiên phong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiên phong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1566,
+    "word": "アバンゲール",
+    "kana": "アバンゲール",
+    "senses": [
+      {
+        "sense_id": 219700,
+        "meaning_vi": "thế hệ trước Thế chiến thứ hai",
+        "confidence": "high",
+        "search_keywords": [
+          "thế hệ trước Thế chiến thứ hai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thế hệ trước Thế chiến thứ hai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219701,
+        "meaning_vi": "tư tưởng nghệ thuật trước Thế chiến I",
+        "confidence": "high",
+        "search_keywords": [
+          "tư tưởng nghệ thuật trước Thế chiến I"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tư tưởng nghệ thuật trước Thế chiến I",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1567,
+    "word": "アバンチュール",
+    "kana": "アバンチュール",
+    "senses": [
+      {
+        "sense_id": 219702,
+        "meaning_vi": "cuộc phiêu lưu đa tình; chuyện tình",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc phiêu lưu đa tình",
+          "chuyện tình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc phiêu lưu đa tình; chuyện tình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1568,
+    "word": "アパーチャ",
+    "kana": "アパーチャ",
+    "senses": [
+      {
+        "sense_id": 219703,
+        "meaning_vi": "khẩu độ",
+        "confidence": "high",
+        "search_keywords": [
+          "khẩu độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khẩu độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1569,
+    "word": "アパート",
+    "kana": "アパート",
+    "senses": [
+      {
+        "sense_id": 219704,
+        "meaning_vi": "chung cư; khu chung cư; nhà chung cư",
+        "confidence": "high",
+        "search_keywords": [
+          "chung cư",
+          "khu chung cư",
+          "nhà chung cư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chung cư; khu chung cư; nhà chung cư",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219705,
+        "meaning_vi": "căn hộ",
+        "confidence": "high",
+        "search_keywords": [
+          "căn hộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn hộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1570,
+    "word": "アパート荒らし",
+    "kana": "アパートあらし",
+    "senses": [
+      {
+        "sense_id": 219706,
+        "meaning_vi": "cướp nhà chung cư (cướp)",
+        "confidence": "high",
+        "search_keywords": [
+          "cướp nhà chung cư (cướp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cướp nhà chung cư (cướp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1571,
+    "word": "アパシー",
+    "kana": "アパシー",
+    "senses": [
+      {
+        "sense_id": 219707,
+        "meaning_vi": "thờ ơ",
+        "confidence": "high",
+        "search_keywords": [
+          "thờ ơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thờ ơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1572,
+    "word": "アペタイト",
+    "kana": "アペタイト",
+    "senses": [
+      {
+        "sense_id": 219708,
+        "meaning_vi": "thèm ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "thèm ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thèm ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1573,
+    "word": "アパッシュ",
+    "kana": "アパッシュ",
+    "senses": [
+      {
+        "sense_id": 219709,
+        "meaning_vi": "apache",
+        "confidence": "low",
+        "search_keywords": [
+          "apache"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "apache",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1574,
+    "word": "アパッチ",
+    "kana": "アパッチ",
+    "senses": [
+      {
+        "sense_id": 219710,
+        "meaning_vi": "Apache (người)",
+        "confidence": "high",
+        "search_keywords": [
+          "Apache (người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Apache (người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1575,
+    "word": "アパルトヘイト",
+    "kana": "アパルトヘイト",
+    "senses": [
+      {
+        "sense_id": 219711,
+        "meaning_vi": "chế độ phân biệt chủng tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ phân biệt chủng tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ phân biệt chủng tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1576,
+    "word": "アビタシオン",
+    "kana": "アビタシオン",
+    "senses": [
+      {
+        "sense_id": 219712,
+        "meaning_vi": "chỗ ở",
+        "confidence": "high",
+        "search_keywords": [
+          "chỗ ở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỗ ở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1577,
+    "word": "アビリティー",
+    "kana": "アビリティー",
+    "senses": [
+      {
+        "sense_id": 219713,
+        "meaning_vi": "khả năng",
+        "confidence": "high",
+        "search_keywords": [
+          "khả năng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khả năng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

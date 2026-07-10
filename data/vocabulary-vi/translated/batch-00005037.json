@@ -1,0 +1,442 @@
+[
+  {
+    "vocabulary_id": 121260,
+    "word": "プロセスグループＩＤ",
+    "kana": "プロセスグループアイディー",
+    "senses": [
+      {
+        "sense_id": 364865,
+        "meaning_vi": "ID nhóm quy trình",
+        "confidence": "high",
+        "search_keywords": [
+          "ID nhóm quy trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ID nhóm quy trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121261,
+    "word": "プロセスグループリーダ",
+    "kana": "プロセスグループリーダ",
+    "senses": [
+      {
+        "sense_id": 364866,
+        "meaning_vi": "trưởng nhóm quy trình",
+        "confidence": "high",
+        "search_keywords": [
+          "trưởng nhóm quy trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trưởng nhóm quy trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121262,
+    "word": "プロセス割込み信号",
+    "kana": "プロセスわりこみしんごう",
+    "senses": [
+      {
+        "sense_id": 364867,
+        "meaning_vi": "tín hiệu ngắt quá trình",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu ngắt quá trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu ngắt quá trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121263,
+    "word": "プロセス間通信",
+    "kana": "プロセスかんつうしん",
+    "senses": [
+      {
+        "sense_id": 364868,
+        "meaning_vi": "Giao tiếp liên tiến trình",
+        "confidence": "high",
+        "search_keywords": [
+          "Giao tiếp liên tiến trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giao tiếp liên tiến trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121264,
+    "word": "プロセス制御装置",
+    "kana": "プロセスせいぎょそうち",
+    "senses": [
+      {
+        "sense_id": 364869,
+        "meaning_vi": "thiết bị điều khiển quá trình",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị điều khiển quá trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị điều khiển quá trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121265,
+    "word": "プロセス番号",
+    "kana": "プロセスばんごう",
+    "senses": [
+      {
+        "sense_id": 364870,
+        "meaning_vi": "số quy trình",
+        "confidence": "high",
+        "search_keywords": [
+          "số quy trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số quy trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121266,
+    "word": "プロセッサカード",
+    "kana": "プロセッサカード",
+    "senses": [
+      {
+        "sense_id": 364871,
+        "meaning_vi": "thẻ xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121267,
+    "word": "プロセッサバウンド",
+    "kana": "プロセッサバウンド",
+    "senses": [
+      {
+        "sense_id": 364872,
+        "meaning_vi": "bộ xử lý bị ràng buộc",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ xử lý bị ràng buộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ xử lý bị ràng buộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121268,
+    "word": "プロセッサバス",
+    "kana": "プロセッサバス",
+    "senses": [
+      {
+        "sense_id": 364873,
+        "meaning_vi": "bus bộ xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "bus bộ xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bus bộ xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121269,
+    "word": "プロセッサボード",
+    "kana": "プロセッサボード",
+    "senses": [
+      {
+        "sense_id": 364874,
+        "meaning_vi": "bo mạch xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "bo mạch xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bo mạch xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121270,
+    "word": "プロダクションルール",
+    "kana": "プロダクションルール",
+    "senses": [
+      {
+        "sense_id": 364875,
+        "meaning_vi": "quy luật sản xuất",
+        "confidence": "high",
+        "search_keywords": [
+          "quy luật sản xuất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy luật sản xuất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121271,
+    "word": "プロッタフォント",
+    "kana": "プロッタフォント",
+    "senses": [
+      {
+        "sense_id": 364876,
+        "meaning_vi": "phông chữ máy vẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "phông chữ máy vẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phông chữ máy vẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121272,
+    "word": "プロッタ増分量",
+    "kana": "プロッタぞうぶんりょう",
+    "senses": [
+      {
+        "sense_id": 364877,
+        "meaning_vi": "kích thước bước vẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước bước vẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước bước vẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121273,
+    "word": "プロッティングヘッド",
+    "kana": "プロッティングヘッド",
+    "senses": [
+      {
+        "sense_id": 364878,
+        "meaning_vi": "đầu vẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu vẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu vẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121274,
+    "word": "プロテクティブＭＢＲ",
+    "kana": "プロテクティブエムビーアール",
+    "senses": [
+      {
+        "sense_id": 364879,
+        "meaning_vi": "MBR bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "MBR bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "MBR bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121275,
+    "word": "プロテクトメモリー",
+    "kana": "プロテクトメモリー",
+    "senses": [
+      {
+        "sense_id": 364880,
+        "meaning_vi": "bộ nhớ được bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ được bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ được bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121276,
+    "word": "プロテクトモード",
+    "kana": "プロテクトモード",
+    "senses": [
+      {
+        "sense_id": 364881,
+        "meaning_vi": "chế độ bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121277,
+    "word": "プロディジー",
+    "kana": "プロディジー",
+    "senses": [
+      {
+        "sense_id": 364882,
+        "meaning_vi": "thần đồng",
+        "confidence": "high",
+        "search_keywords": [
+          "thần đồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thần đồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121278,
+    "word": "プロトコルアナライザ",
+    "kana": "プロトコルアナライザ",
+    "senses": [
+      {
+        "sense_id": 364883,
+        "meaning_vi": "máy phân tích giao thức",
+        "confidence": "high",
+        "search_keywords": [
+          "máy phân tích giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy phân tích giao thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121279,
+    "word": "プロトコルスイート",
+    "kana": "プロトコルスイート",
+    "senses": [
+      {
+        "sense_id": 364884,
+        "meaning_vi": "bộ giao thức",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ giao thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

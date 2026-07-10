@@ -1,0 +1,520 @@
+[
+  {
+    "vocabulary_id": 33258,
+    "word": "食べ物屋",
+    "kana": "たべものや",
+    "senses": [
+      {
+        "sense_id": 260310,
+        "meaning_vi": "quán ăn; nhà hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "quán ăn",
+          "nhà hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quán ăn; nhà hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33259,
+    "word": "食べ放題",
+    "kana": "たべほうだい",
+    "senses": [
+      {
+        "sense_id": 260311,
+        "meaning_vi": "ăn thỏa thích; ăn bao nhiêu tùy thích",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn thỏa thích",
+          "ăn bao nhiêu tùy thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn thỏa thích; ăn bao nhiêu tùy thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33260,
+    "word": "食べ方",
+    "kana": "たべかた",
+    "senses": [
+      {
+        "sense_id": 260312,
+        "meaning_vi": "cách ăn uống; cách ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "cách ăn uống",
+          "cách ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách ăn uống; cách ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33261,
+    "word": "はみ出る",
+    "kana": "はみでる",
+    "senses": [
+      {
+        "sense_id": 260313,
+        "meaning_vi": "nhô ra; để dính ra; nhô ra ngoài; đi chơi; phình ra",
+        "confidence": "high",
+        "search_keywords": [
+          "nhô ra",
+          "để dính ra",
+          "nhô ra ngoài",
+          "đi chơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhô ra; để dính ra; nhô ra ngoài; đi chơi; phình ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260314,
+        "meaning_vi": "bị buộc phải ra ngoài; bị đẩy ra ngoài; trở nên đông đúc",
+        "confidence": "high",
+        "search_keywords": [
+          "bị buộc phải ra ngoài",
+          "bị đẩy ra ngoài",
+          "trở nên đông đúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị buộc phải ra ngoài; bị đẩy ra ngoài; trở nên đông đúc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260315,
+        "meaning_vi": "vượt qua (ví dụ: ngân sách); vượt xa hơn; vượt quá",
+        "confidence": "high",
+        "search_keywords": [
+          "vượt qua (ví dụ: ngân sách)",
+          "vượt xa hơn",
+          "vượt quá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vượt qua (ví dụ: ngân sách); vượt xa hơn; vượt quá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33262,
+    "word": "食らわす",
+    "kana": "くらわす",
+    "senses": [
+      {
+        "sense_id": 260316,
+        "meaning_vi": "làm cho ai đó ăn; để đối phó (một đòn); chơi (một trò lừa)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm cho ai đó ăn",
+          "để đối phó (một đòn)",
+          "chơi (một trò lừa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm cho ai đó ăn; để đối phó (một đòn); chơi (một trò lừa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33263,
+    "word": "食パン",
+    "kana": "しょくパン",
+    "senses": [
+      {
+        "sense_id": 260317,
+        "meaning_vi": "(ổ) bánh mì; bánh mì có hình chữ nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "(ổ) bánh mì",
+          "bánh mì có hình chữ nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(ổ) bánh mì; bánh mì có hình chữ nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33264,
+    "word": "食塩",
+    "kana": "しょくえん",
+    "senses": [
+      {
+        "sense_id": 260318,
+        "meaning_vi": "muối ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "muối ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "muối ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33265,
+    "word": "食管法",
+    "kana": "しょっかんほう",
+    "senses": [
+      {
+        "sense_id": 260319,
+        "meaning_vi": "luật quản lý chất lượng thực phẩm",
+        "confidence": "high",
+        "search_keywords": [
+          "luật quản lý chất lượng thực phẩm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luật quản lý chất lượng thực phẩm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33266,
+    "word": "食器",
+    "kana": "しょっき",
+    "senses": [
+      {
+        "sense_id": 260320,
+        "meaning_vi": "bộ đồ ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đồ ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đồ ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33267,
+    "word": "食券",
+    "kana": "しょっけん",
+    "senses": [
+      {
+        "sense_id": 260321,
+        "meaning_vi": "phiếu ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "phiếu ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiếu ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33268,
+    "word": "食後",
+    "kana": "しょくご",
+    "senses": [
+      {
+        "sense_id": 260322,
+        "meaning_vi": "sau bữa ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "sau bữa ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau bữa ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33269,
+    "word": "食刻",
+    "kana": "しょっこく",
+    "senses": [
+      {
+        "sense_id": 260323,
+        "meaning_vi": "khắc",
+        "confidence": "high",
+        "search_keywords": [
+          "khắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33270,
+    "word": "食指",
+    "kana": "しょくし",
+    "senses": [
+      {
+        "sense_id": 260324,
+        "meaning_vi": "ngón trỏ; ngón trỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "ngón trỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngón trỏ; ngón trỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33271,
+    "word": "食指が動く",
+    "kana": "しょくしがうごく",
+    "senses": [
+      {
+        "sense_id": 260325,
+        "meaning_vi": "bị ngứa; có một sự thèm muốn; có một sự thôi thúc; có mong muốn; háo hức; muốn",
+        "confidence": "high",
+        "search_keywords": [
+          "bị ngứa",
+          "có một sự thèm muốn",
+          "có một sự thôi thúc",
+          "có mong muốn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị ngứa; có một sự thèm muốn; có một sự thôi thúc; có mong muốn; háo hức; muốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33272,
+    "word": "食事",
+    "kana": "しょくじ",
+    "senses": [
+      {
+        "sense_id": 260326,
+        "meaning_vi": "bữa ăn (ví dụ: bữa trưa, bữa tối)",
+        "confidence": "high",
+        "search_keywords": [
+          "bữa ăn (ví dụ: bữa trưa, bữa tối)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bữa ăn (ví dụ: bữa trưa, bữa tối)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260327,
+        "meaning_vi": "chế độ ăn uống",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ ăn uống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ ăn uống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33273,
+    "word": "食事付き",
+    "kana": "しょくじつき",
+    "senses": [
+      {
+        "sense_id": 260328,
+        "meaning_vi": "có bao gồm các bữa ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "có bao gồm các bữa ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có bao gồm các bữa ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33274,
+    "word": "食生活",
+    "kana": "しょくせいかつ",
+    "senses": [
+      {
+        "sense_id": 260329,
+        "meaning_vi": "thói quen ăn uống; ăn kiêng; mô hình ăn kiêng",
+        "confidence": "high",
+        "search_keywords": [
+          "thói quen ăn uống",
+          "ăn kiêng",
+          "mô hình ăn kiêng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thói quen ăn uống; ăn kiêng; mô hình ăn kiêng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33275,
+    "word": "食前",
+    "kana": "しょくぜん",
+    "senses": [
+      {
+        "sense_id": 260330,
+        "meaning_vi": "trước bữa ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "trước bữa ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trước bữa ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33276,
+    "word": "食卓",
+    "kana": "しょくたく",
+    "senses": [
+      {
+        "sense_id": 260331,
+        "meaning_vi": "bàn ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "bàn ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bàn ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33277,
+    "word": "食通",
+    "kana": "しょくつう",
+    "senses": [
+      {
+        "sense_id": 260332,
+        "meaning_vi": "tính sành ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "tính sành ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính sành ăn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260333,
+        "meaning_vi": "người sành ăn; người sành ăn; người sành ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "người sành ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người sành ăn; người sành ăn; người sành ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

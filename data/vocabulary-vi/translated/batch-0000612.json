@@ -1,0 +1,481 @@
+[
+  {
+    "vocabulary_id": 15175,
+    "word": "飲酒運転",
+    "kana": "いんしゅうんてん",
+    "senses": [
+      {
+        "sense_id": 236346,
+        "meaning_vi": "lái xe say rượu; uống rượu lái xe; lái xe trong tình trạng say rượu; uống rượu và lái xe; lái xe dưới ảnh hưởng (của rượu)",
+        "confidence": "high",
+        "search_keywords": [
+          "lái xe say rượu",
+          "uống rượu lái xe",
+          "lái xe trong tình trạng say rượu",
+          "uống rượu và lái xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lái xe say rượu; uống rượu lái xe; lái xe trong tình trạng say rượu; uống rượu và lái xe; lái xe dưới ảnh hưởng (của rượu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15176,
+    "word": "飲酒癖",
+    "kana": "いんしゅへき",
+    "senses": [
+      {
+        "sense_id": 236347,
+        "meaning_vi": "thói quen uống rượu; vấn đề uống rượu; sự không khoan nhượng",
+        "confidence": "high",
+        "search_keywords": [
+          "thói quen uống rượu",
+          "vấn đề uống rượu",
+          "sự không khoan nhượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thói quen uống rượu; vấn đề uống rượu; sự không khoan nhượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15177,
+    "word": "飲助",
+    "kana": "のみすけ",
+    "senses": [
+      {
+        "sense_id": 236348,
+        "meaning_vi": "người say rượu; người say rượu; người nghiện rượu nặng",
+        "confidence": "high",
+        "search_keywords": [
+          "người say rượu",
+          "người nghiện rượu nặng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người say rượu; người say rượu; người nghiện rượu nặng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15178,
+    "word": "飲食",
+    "kana": "いんしょく",
+    "senses": [
+      {
+        "sense_id": 236349,
+        "meaning_vi": "thức ăn và đồ uống; ăn và uống",
+        "confidence": "high",
+        "search_keywords": [
+          "thức ăn và đồ uống",
+          "ăn và uống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thức ăn và đồ uống; ăn và uống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15179,
+    "word": "飲食店",
+    "kana": "いんしょくてん",
+    "senses": [
+      {
+        "sense_id": 236350,
+        "meaning_vi": "nhà hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15180,
+    "word": "飲食物",
+    "kana": "いんしょくぶつ",
+    "senses": [
+      {
+        "sense_id": 236351,
+        "meaning_vi": "thức ăn và đồ uống",
+        "confidence": "high",
+        "search_keywords": [
+          "thức ăn và đồ uống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thức ăn và đồ uống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15181,
+    "word": "飲水量",
+    "kana": "いんすいりょう",
+    "senses": [
+      {
+        "sense_id": 236352,
+        "meaning_vi": "lượng uống",
+        "confidence": "high",
+        "search_keywords": [
+          "lượng uống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lượng uống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15182,
+    "word": "飲用",
+    "kana": "いんよう",
+    "senses": [
+      {
+        "sense_id": 236353,
+        "meaning_vi": "uống rượu",
+        "confidence": "high",
+        "search_keywords": [
+          "uống rượu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "uống rượu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15183,
+    "word": "飲料",
+    "kana": "いんりょう",
+    "senses": [
+      {
+        "sense_id": 236354,
+        "meaning_vi": "đồ uống; uống",
+        "confidence": "high",
+        "search_keywords": [
+          "đồ uống",
+          "uống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồ uống; uống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15184,
+    "word": "飲料水",
+    "kana": "いんりょうすい",
+    "senses": [
+      {
+        "sense_id": 236355,
+        "meaning_vi": "nước uống",
+        "confidence": "high",
+        "search_keywords": [
+          "nước uống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước uống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15185,
+    "word": "淫ら",
+    "kana": "みだら",
+    "senses": [
+      {
+        "sense_id": 236356,
+        "meaning_vi": "tục tĩu; không đứng đắn; dâm dục; dâm đãng; lỏng lẻo; không đúng cách; dơ bẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "tục tĩu",
+          "không đứng đắn",
+          "dâm dục",
+          "dâm đãng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tục tĩu; không đứng đắn; dâm dục; dâm đãng; lỏng lẻo; không đúng cách; dơ bẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15186,
+    "word": "淫行",
+    "kana": "いんこう",
+    "senses": [
+      {
+        "sense_id": 236357,
+        "meaning_vi": "tục tĩu; sự đĩ điếm",
+        "confidence": "high",
+        "search_keywords": [
+          "tục tĩu",
+          "sự đĩ điếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tục tĩu; sự đĩ điếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15187,
+    "word": "淫事",
+    "kana": "いんじ",
+    "senses": [
+      {
+        "sense_id": 236358,
+        "meaning_vi": "hành động dâm đãng",
+        "confidence": "high",
+        "search_keywords": [
+          "hành động dâm đãng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành động dâm đãng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15188,
+    "word": "淫心",
+    "kana": "いんしん",
+    "senses": [
+      {
+        "sense_id": 236359,
+        "meaning_vi": "niềm đam mê tình dục",
+        "confidence": "high",
+        "search_keywords": [
+          "niềm đam mê tình dục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "niềm đam mê tình dục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15189,
+    "word": "淫蕩",
+    "kana": "いんとう",
+    "senses": [
+      {
+        "sense_id": 236360,
+        "meaning_vi": "đồi trụy; tiêu tán; dâm ô; sự dâm đãng",
+        "confidence": "high",
+        "search_keywords": [
+          "đồi trụy",
+          "tiêu tán",
+          "dâm ô",
+          "sự dâm đãng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồi trụy; tiêu tán; dâm ô; sự dâm đãng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15190,
+    "word": "淫売",
+    "kana": "いんばい",
+    "senses": [
+      {
+        "sense_id": 236361,
+        "meaning_vi": "mại dâm; gái điếm",
+        "confidence": "high",
+        "search_keywords": [
+          "mại dâm",
+          "gái điếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mại dâm; gái điếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15191,
+    "word": "淫婦",
+    "kana": "いんぷ",
+    "senses": [
+      {
+        "sense_id": 236362,
+        "meaning_vi": "người đàn bà đạo đức buông thả; người phụ nữ dâm đãng",
+        "confidence": "high",
+        "search_keywords": [
+          "người đàn bà đạo đức buông thả",
+          "người phụ nữ dâm đãng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đàn bà đạo đức buông thả; người phụ nữ dâm đãng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236363,
+        "meaning_vi": "gái mại dâm; con điếm; gái điếm",
+        "confidence": "high",
+        "search_keywords": [
+          "gái mại dâm",
+          "con điếm",
+          "gái điếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gái mại dâm; con điếm; gái điếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15192,
+    "word": "淫風",
+    "kana": "いんぷう",
+    "senses": [
+      {
+        "sense_id": 236364,
+        "meaning_vi": "cách cư xử dâm ô; sự vô đạo đức",
+        "confidence": "high",
+        "search_keywords": [
+          "cách cư xử dâm ô",
+          "sự vô đạo đức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách cư xử dâm ô; sự vô đạo đức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15193,
+    "word": "淫奔",
+    "kana": "いんぽん",
+    "senses": [
+      {
+        "sense_id": 236365,
+        "meaning_vi": "dâm dục; sự dâm đãng",
+        "confidence": "high",
+        "search_keywords": [
+          "dâm dục",
+          "sự dâm đãng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dâm dục; sự dâm đãng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15194,
+    "word": "淫乱",
+    "kana": "いんらん",
+    "senses": [
+      {
+        "sense_id": 236366,
+        "meaning_vi": "đồi trụy; dâm dục; đa dâm; dâm đãng; dâm ô; hoang dã",
+        "confidence": "high",
+        "search_keywords": [
+          "đồi trụy",
+          "dâm dục",
+          "đa dâm",
+          "dâm đãng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồi trụy; dâm dục; đa dâm; dâm đãng; dâm ô; hoang dã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

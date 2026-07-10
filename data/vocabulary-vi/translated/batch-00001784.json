@@ -1,0 +1,548 @@
+[
+  {
+    "vocabulary_id": 46331,
+    "word": "不等号",
+    "kana": "ふとうごう",
+    "senses": [
+      {
+        "sense_id": 277906,
+        "meaning_vi": "dấu nhỏ hơn hoặc dấu lớn hơn (< hoặc >); dấu hiệu bất đẳng thức",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu nhỏ hơn hoặc dấu lớn hơn (< hoặc >)",
+          "dấu hiệu bất đẳng thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu nhỏ hơn hoặc dấu lớn hơn (< hoặc >); dấu hiệu bất đẳng thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46332,
+    "word": "無風流",
+    "kana": "ぶふうりゅう",
+    "senses": [
+      {
+        "sense_id": 277907,
+        "meaning_vi": "chưa tinh chế; vô vị; không lịch sự; tầm thường; không có tính thi ca; không lãng mạn; thô lỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "chưa tinh chế",
+          "vô vị",
+          "không lịch sự",
+          "tầm thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chưa tinh chế; vô vị; không lịch sự; tầm thường; không có tính thi ca; không lãng mạn; thô lỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46333,
+    "word": "不服",
+    "kana": "ふふく",
+    "senses": [
+      {
+        "sense_id": 277908,
+        "meaning_vi": "không hài lòng; bất mãn; không chấp thuận; phản đối; lời phàn nàn; phản kháng; bất đồng",
+        "confidence": "high",
+        "search_keywords": [
+          "không hài lòng",
+          "bất mãn",
+          "không chấp thuận",
+          "phản đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không hài lòng; bất mãn; không chấp thuận; phản đối; lời phàn nàn; phản kháng; bất đồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46334,
+    "word": "不服従",
+    "kana": "ふふくじゅう",
+    "senses": [
+      {
+        "sense_id": 277909,
+        "meaning_vi": "không phục tùng; sự bất tuân",
+        "confidence": "high",
+        "search_keywords": [
+          "không phục tùng",
+          "sự bất tuân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không phục tùng; sự bất tuân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46335,
+    "word": "不払い",
+    "kana": "ふばらい",
+    "senses": [
+      {
+        "sense_id": 277910,
+        "meaning_vi": "không thanh toán; mặc định",
+        "confidence": "high",
+        "search_keywords": [
+          "không thanh toán",
+          "mặc định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thanh toán; mặc định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46336,
+    "word": "不分割",
+    "kana": "ふぶんかつ",
+    "senses": [
+      {
+        "sense_id": 277911,
+        "meaning_vi": "tính không thể chia cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "tính không thể chia cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính không thể chia cắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46337,
+    "word": "不文",
+    "kana": "ふぶん",
+    "senses": [
+      {
+        "sense_id": 277912,
+        "meaning_vi": "bất thành văn",
+        "confidence": "high",
+        "search_keywords": [
+          "bất thành văn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất thành văn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 277913,
+        "meaning_vi": "mù chữ; thất học",
+        "confidence": "high",
+        "search_keywords": [
+          "mù chữ",
+          "thất học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mù chữ; thất học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 277914,
+        "meaning_vi": "viết kém",
+        "confidence": "high",
+        "search_keywords": [
+          "viết kém"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết kém",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46338,
+    "word": "不文法",
+    "kana": "ふぶんほう",
+    "senses": [
+      {
+        "sense_id": 277915,
+        "meaning_vi": "luật bất thành văn; luật chung",
+        "confidence": "high",
+        "search_keywords": [
+          "luật bất thành văn",
+          "luật chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luật bất thành văn; luật chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46339,
+    "word": "不文明",
+    "kana": "ふぶんめい",
+    "senses": [
+      {
+        "sense_id": 277916,
+        "meaning_vi": "không rõ ràng; mơ hồ",
+        "confidence": "high",
+        "search_keywords": [
+          "không rõ ràng",
+          "mơ hồ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không rõ ràng; mơ hồ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46340,
+    "word": "不文律",
+    "kana": "ふぶんりつ",
+    "senses": [
+      {
+        "sense_id": 277917,
+        "meaning_vi": "luật bất thành văn; luật chung",
+        "confidence": "high",
+        "search_keywords": [
+          "luật bất thành văn",
+          "luật chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luật bất thành văn; luật chung",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 277918,
+        "meaning_vi": "quy tắc bất thành văn",
+        "confidence": "high",
+        "search_keywords": [
+          "quy tắc bất thành văn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy tắc bất thành văn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46341,
+    "word": "不平",
+    "kana": "ふへい",
+    "senses": [
+      {
+        "sense_id": 277919,
+        "meaning_vi": "bất mãn; không hài lòng; lời phàn nàn; than phiền",
+        "confidence": "high",
+        "search_keywords": [
+          "bất mãn",
+          "không hài lòng",
+          "lời phàn nàn",
+          "than phiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất mãn; không hài lòng; lời phàn nàn; than phiền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46342,
+    "word": "不平等",
+    "kana": "ふびょうどう",
+    "senses": [
+      {
+        "sense_id": 277920,
+        "meaning_vi": "bất bình đẳng; sự bất công",
+        "confidence": "high",
+        "search_keywords": [
+          "bất bình đẳng",
+          "sự bất công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất bình đẳng; sự bất công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46343,
+    "word": "不平不満",
+    "kana": "ふへいふまん",
+    "senses": [
+      {
+        "sense_id": 277921,
+        "meaning_vi": "bất mãn và càu nhàu",
+        "confidence": "high",
+        "search_keywords": [
+          "bất mãn và càu nhàu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất mãn và càu nhàu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46344,
+    "word": "不偏",
+    "kana": "ふへん",
+    "senses": [
+      {
+        "sense_id": 277922,
+        "meaning_vi": "vô tư; tính trung lập; sự công bằng",
+        "confidence": "high",
+        "search_keywords": [
+          "vô tư",
+          "tính trung lập",
+          "sự công bằng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô tư; tính trung lập; sự công bằng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46345,
+    "word": "不偏不党",
+    "kana": "ふへんふとう",
+    "senses": [
+      {
+        "sense_id": 277923,
+        "meaning_vi": "vô tư; tính trung lập; độc lập",
+        "confidence": "high",
+        "search_keywords": [
+          "vô tư",
+          "tính trung lập",
+          "độc lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô tư; tính trung lập; độc lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46346,
+    "word": "不変",
+    "kana": "ふへん",
+    "senses": [
+      {
+        "sense_id": 277924,
+        "meaning_vi": "vĩnh cửu; vĩnh viễn; không thể thay đổi; bất biến; bất động; không thay đổi; Vĩnh viễn; không thể phá hủy",
+        "confidence": "high",
+        "search_keywords": [
+          "vĩnh cửu",
+          "vĩnh viễn",
+          "không thể thay đổi",
+          "bất biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vĩnh cửu; vĩnh viễn; không thể thay đổi; bất biến; bất động; không thay đổi; Vĩnh viễn; không thể phá hủy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 277925,
+        "meaning_vi": "bất biến",
+        "confidence": "high",
+        "search_keywords": [
+          "bất biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất biến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46347,
+    "word": "不変性",
+    "kana": "ふへんせい",
+    "senses": [
+      {
+        "sense_id": 277926,
+        "meaning_vi": "sự bất biến",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bất biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bất biến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46348,
+    "word": "不便",
+    "kana": "ふべん",
+    "senses": [
+      {
+        "sense_id": 277927,
+        "meaning_vi": "sự bất tiện; thiếu hiệu quả; sự vụng về",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bất tiện",
+          "thiếu hiệu quả",
+          "sự vụng về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bất tiện; thiếu hiệu quả; sự vụng về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46349,
+    "word": "不勉強",
+    "kana": "ふべんきょう",
+    "senses": [
+      {
+        "sense_id": 277928,
+        "meaning_vi": "sự nhàn rỗi; thiếu ứng dụng; thói quen học tập lười biếng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự nhàn rỗi",
+          "thiếu ứng dụng",
+          "thói quen học tập lười biếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự nhàn rỗi; thiếu ứng dụng; thói quen học tập lười biếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 46350,
+    "word": "不法",
+    "kana": "ふほう",
+    "senses": [
+      {
+        "sense_id": 277929,
+        "meaning_vi": "bất hợp pháp; bất hợp pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "bất hợp pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất hợp pháp; bất hợp pháp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 277930,
+        "meaning_vi": "vô lý; thái quá; bất công; không chính đáng",
+        "confidence": "high",
+        "search_keywords": [
+          "vô lý",
+          "thái quá",
+          "bất công",
+          "không chính đáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô lý; thái quá; bất công; không chính đáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

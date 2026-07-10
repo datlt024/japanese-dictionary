@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 118848,
+    "word": "コマンドシーケンス",
+    "kana": "コマンドシーケンス",
+    "senses": [
+      {
+        "sense_id": 362394,
+        "meaning_vi": "trình tự lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118849,
+    "word": "コマンドシンタックス",
+    "kana": "コマンドシンタックス",
+    "senses": [
+      {
+        "sense_id": 362395,
+        "meaning_vi": "cú pháp lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "cú pháp lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cú pháp lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118850,
+    "word": "コマンドタイムアウト",
+    "kana": "コマンドタイムアウト",
+    "senses": [
+      {
+        "sense_id": 362396,
+        "meaning_vi": "lệnh hết thời gian",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh hết thời gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh hết thời gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118851,
+    "word": "コマンドパラメータ",
+    "kana": "コマンドパラメータ",
+    "senses": [
+      {
+        "sense_id": 362397,
+        "meaning_vi": "tham số lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "tham số lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham số lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118852,
+    "word": "コマンドフレーム",
+    "kana": "コマンドフレーム",
+    "senses": [
+      {
+        "sense_id": 362398,
+        "meaning_vi": "khung lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "khung lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khung lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118853,
+    "word": "コマンドプロセッサ",
+    "kana": "コマンドプロセッサ",
+    "senses": [
+      {
+        "sense_id": 362399,
+        "meaning_vi": "bộ xử lý lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ xử lý lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ xử lý lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118854,
+    "word": "コマンドプロンプトウィンドウ",
+    "kana": "コマンドプロンプトウィンドウ",
+    "senses": [
+      {
+        "sense_id": 362400,
+        "meaning_vi": "cửa sổ nhắc lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa sổ nhắc lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa sổ nhắc lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118855,
+    "word": "コマンドボタン",
+    "kana": "コマンドボタン",
+    "senses": [
+      {
+        "sense_id": 362401,
+        "meaning_vi": "nút lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "nút lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nút lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118856,
+    "word": "コマンドモード",
+    "kana": "コマンドモード",
+    "senses": [
+      {
+        "sense_id": 362402,
+        "meaning_vi": "chế độ lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118857,
+    "word": "コマンドライン",
+    "kana": "コマンドライン",
+    "senses": [
+      {
+        "sense_id": 362403,
+        "meaning_vi": "dòng lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118858,
+    "word": "コマンドラインインターフェイス",
+    "kana": "コマンドラインインターフェイス",
+    "senses": [
+      {
+        "sense_id": 362404,
+        "meaning_vi": "giao diện dòng lệnh; giao diện dòng lệnh; CLI",
+        "confidence": "high",
+        "search_keywords": [
+          "giao diện dòng lệnh",
+          "CLI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao diện dòng lệnh; giao diện dòng lệnh; CLI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118859,
+    "word": "コマンドレット",
+    "kana": "コマンドレット",
+    "senses": [
+      {
+        "sense_id": 362405,
+        "meaning_vi": "lệnh nhỏ; lệnh ghép ngắn",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh nhỏ",
+          "lệnh ghép ngắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh nhỏ; lệnh ghép ngắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118860,
+    "word": "コマンドレットプロバイダ",
+    "kana": "コマンドレットプロバイダ",
+    "senses": [
+      {
+        "sense_id": 362406,
+        "meaning_vi": "nhà cung cấp lệnh; nhà cung cấp lệnh ghép ngắn",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà cung cấp lệnh",
+          "nhà cung cấp lệnh ghép ngắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà cung cấp lệnh; nhà cung cấp lệnh ghép ngắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118861,
+    "word": "コマンドレベル",
+    "kana": "コマンドレベル",
+    "senses": [
+      {
+        "sense_id": 362407,
+        "meaning_vi": "cấp độ lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "cấp độ lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấp độ lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118862,
+    "word": "コマンド記述ブロック",
+    "kana": "コマンドきじゅつブロック",
+    "senses": [
+      {
+        "sense_id": 362408,
+        "meaning_vi": "khối mô tả lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "khối mô tả lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khối mô tả lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118863,
+    "word": "サイバーパンク",
+    "kana": "サイバーパンク",
+    "senses": [
+      {
+        "sense_id": 362572,
+        "meaning_vi": "cyberpunk",
+        "confidence": "low",
+        "search_keywords": [
+          "cyberpunk"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cyberpunk",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118864,
+    "word": "コマンド駆動型システム",
+    "kana": "コマンドくどうがたシステム",
+    "senses": [
+      {
+        "sense_id": 362409,
+        "meaning_vi": "phương pháp điều khiển bằng lệnh; hệ thống điều khiển bằng lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp điều khiển bằng lệnh",
+          "hệ thống điều khiển bằng lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp điều khiển bằng lệnh; hệ thống điều khiển bằng lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118865,
+    "word": "コマンド検索パス",
+    "kana": "コマンドけんさくパス",
+    "senses": [
+      {
+        "sense_id": 362410,
+        "meaning_vi": "đường dẫn tìm kiếm lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "đường dẫn tìm kiếm lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường dẫn tìm kiếm lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118866,
+    "word": "コマンド行",
+    "kana": "コマンドぎょう",
+    "senses": [
+      {
+        "sense_id": 362411,
+        "meaning_vi": "dòng lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118867,
+    "word": "コマンド行引数",
+    "kana": "コマンドぎょうひきすう",
+    "senses": [
+      {
+        "sense_id": 362412,
+        "meaning_vi": "đối số dòng lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "đối số dòng lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối số dòng lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

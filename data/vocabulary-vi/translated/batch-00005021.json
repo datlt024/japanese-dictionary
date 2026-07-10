@@ -1,0 +1,450 @@
+[
+  {
+    "vocabulary_id": 120913,
+    "word": "ファイル始めラベル",
+    "kana": "ファイルはじめラベル",
+    "senses": [
+      {
+        "sense_id": 364511,
+        "meaning_vi": "nhãn đầu tập tin; nhãn tiêu đề; HDR",
+        "confidence": "high",
+        "search_keywords": [
+          "nhãn đầu tập tin",
+          "nhãn tiêu đề",
+          "HDR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhãn đầu tập tin; nhãn tiêu đề; HDR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120914,
+    "word": "ファイル指定",
+    "kana": "ファイルしてい",
+    "senses": [
+      {
+        "sense_id": 364512,
+        "meaning_vi": "đặc tả tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "đặc tả tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặc tả tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120915,
+    "word": "ファイル終わりマーク",
+    "kana": "ファイルおわりマーク",
+    "senses": [
+      {
+        "sense_id": 364513,
+        "meaning_vi": "dấu cuối tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu cuối tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu cuối tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120916,
+    "word": "ファイル終わりラベル",
+    "kana": "ファイルおわりラベル",
+    "senses": [
+      {
+        "sense_id": 364514,
+        "meaning_vi": "nhãn cuối tập tin; nhãn xe kéo; EOF",
+        "confidence": "high",
+        "search_keywords": [
+          "nhãn cuối tập tin",
+          "nhãn xe kéo",
+          "EOF"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhãn cuối tập tin; nhãn xe kéo; EOF",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120917,
+    "word": "ファイル終了条件",
+    "kana": "ファイルしゅうりょうじょうけん",
+    "senses": [
+      {
+        "sense_id": 364515,
+        "meaning_vi": "ở điều kiện cuối",
+        "confidence": "high",
+        "search_keywords": [
+          "ở điều kiện cuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở điều kiện cuối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120918,
+    "word": "ファイル処理ルーチン",
+    "kana": "ファイルしょりルーチン",
+    "senses": [
+      {
+        "sense_id": 364516,
+        "meaning_vi": "thủ tục xử lý tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "thủ tục xử lý tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ tục xử lý tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120919,
+    "word": "ファイル所有者クラス",
+    "kana": "ファイルしょゆうしゃクラス",
+    "senses": [
+      {
+        "sense_id": 364517,
+        "meaning_vi": "lớp chủ sở hữu tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp chủ sở hữu tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp chủ sở hữu tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120920,
+    "word": "ファイル節",
+    "kana": "ファイルせつ",
+    "senses": [
+      {
+        "sense_id": 364518,
+        "meaning_vi": "phần tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "phần tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120921,
+    "word": "ファイル掃除",
+    "kana": "ファイルそうじ",
+    "senses": [
+      {
+        "sense_id": 364519,
+        "meaning_vi": "dọn dẹp tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "dọn dẹp tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dọn dẹp tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120922,
+    "word": "ファイル送信",
+    "kana": "ファイルそうしん",
+    "senses": [
+      {
+        "sense_id": 364520,
+        "meaning_vi": "truyền tập tin, truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "truyền tập tin, truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truyền tập tin, truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120923,
+    "word": "ファイル属性",
+    "kana": "ファイルぞくせい",
+    "senses": [
+      {
+        "sense_id": 364521,
+        "meaning_vi": "thuộc tính tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120924,
+    "word": "ファイル属性不整合条件",
+    "kana": "ファイルぞくせいふせいごうじょうけん",
+    "senses": [
+      {
+        "sense_id": 364522,
+        "meaning_vi": "tình trạng xung đột thuộc tính tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng xung đột thuộc tính tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng xung đột thuộc tính tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120925,
+    "word": "ファイル他者クラス",
+    "kana": "ファイルたしゃクラス",
+    "senses": [
+      {
+        "sense_id": 364523,
+        "meaning_vi": "tập tin lớp khác",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin lớp khác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin lớp khác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120926,
+    "word": "ファイル通し番号",
+    "kana": "ファイルとおしばんごう",
+    "senses": [
+      {
+        "sense_id": 364524,
+        "meaning_vi": "số sê-ri tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "số sê-ri tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số sê-ri tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120927,
+    "word": "ファイル転送",
+    "kana": "ファイルてんそう",
+    "senses": [
+      {
+        "sense_id": 364525,
+        "meaning_vi": "chuyển tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120928,
+    "word": "ファイル転送プロトコル",
+    "kana": "ファイルてんそうプロトコル",
+    "senses": [
+      {
+        "sense_id": 364526,
+        "meaning_vi": "Giao thức truyền tệp; FTP",
+        "confidence": "high",
+        "search_keywords": [
+          "Giao thức truyền tệp",
+          "FTP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giao thức truyền tệp; FTP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120929,
+    "word": "ファイル入出力",
+    "kana": "ファイルにゅうしゅつりょく",
+    "senses": [
+      {
+        "sense_id": 364527,
+        "meaning_vi": "tập tin đầu vào-đầu ra",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin đầu vào-đầu ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin đầu vào-đầu ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120930,
+    "word": "ファイル分割",
+    "kana": "ファイルぶんかつ",
+    "senses": [
+      {
+        "sense_id": 364528,
+        "meaning_vi": "phần tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "phần tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120931,
+    "word": "ファイル編成",
+    "kana": "ファイルへんせい",
+    "senses": [
+      {
+        "sense_id": 364529,
+        "meaning_vi": "tổ chức tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "tổ chức tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổ chức tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120932,
+    "word": "ファイル保護リング",
+    "kana": "ファイルほごリング",
+    "senses": [
+      {
+        "sense_id": 364530,
+        "meaning_vi": "vòng cho phép ghi; viết vòng; vòng bảo vệ tập tin; vòng bảo vệ tập tin; vòng an toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "vòng cho phép ghi",
+          "viết vòng",
+          "vòng bảo vệ tập tin",
+          "vòng an toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vòng cho phép ghi; viết vòng; vòng bảo vệ tập tin; vòng bảo vệ tập tin; vòng an toàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

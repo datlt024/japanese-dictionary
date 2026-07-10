@@ -1,0 +1,469 @@
+[
+  {
+    "vocabulary_id": 102861,
+    "word": "医療事故",
+    "kana": "いりょうじこ",
+    "senses": [
+      {
+        "sense_id": 344630,
+        "meaning_vi": "lỗi y khoa",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi y khoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi y khoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102862,
+    "word": "病原微生物",
+    "kana": "びょうげんびせいぶつ",
+    "senses": [
+      {
+        "sense_id": 344631,
+        "meaning_vi": "vi khuẩn gây bệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "vi khuẩn gây bệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vi khuẩn gây bệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102863,
+    "word": "セラチア菌",
+    "kana": "セラチアきん",
+    "senses": [
+      {
+        "sense_id": 344632,
+        "meaning_vi": "Serratia marcescens",
+        "confidence": "low",
+        "search_keywords": [
+          "Serratia marcescens"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Serratia marcescens",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102864,
+    "word": "日和見感染",
+    "kana": "ひよりみかんせん",
+    "senses": [
+      {
+        "sense_id": 344633,
+        "meaning_vi": "nhiễm trùng cơ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiễm trùng cơ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiễm trùng cơ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102865,
+    "word": "日和見菌",
+    "kana": "ひよりみきん",
+    "senses": [
+      {
+        "sense_id": 344634,
+        "meaning_vi": "mầm bệnh cơ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "mầm bệnh cơ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mầm bệnh cơ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102866,
+    "word": "ＭＲＳＡ",
+    "kana": "エム・アール・エス・エー",
+    "senses": [
+      {
+        "sense_id": 344635,
+        "meaning_vi": "tụ cầu vàng kháng methicillin; MRSA",
+        "confidence": "high",
+        "search_keywords": [
+          "tụ cầu vàng kháng methicillin",
+          "MRSA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tụ cầu vàng kháng methicillin; MRSA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102867,
+    "word": "ＶＲＥ",
+    "kana": "ブイ・アール・イー",
+    "senses": [
+      {
+        "sense_id": 344636,
+        "meaning_vi": "enterococcus kháng vancomycin; VRE",
+        "confidence": "high",
+        "search_keywords": [
+          "enterococcus kháng vancomycin",
+          "VRE"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "enterococcus kháng vancomycin; VRE",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102868,
+    "word": "輸入感染症",
+    "kana": "ゆにゅうかんせんしょう",
+    "senses": [
+      {
+        "sense_id": 344637,
+        "meaning_vi": "bệnh truyền nhiễm có nguồn gốc từ nước ngoài xâm nhập vào nước này thông qua khách du lịch hoặc hàng hóa bị nhiễm bệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh truyền nhiễm có nguồn gốc từ nước ngoài xâm nhập vào nước này thông qua khách du lịch hoặc hàng hóa bị nhiễm bệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh truyền nhiễm có nguồn gốc từ nước ngoài xâm nhập vào nước này thông qua khách du lịch hoặc hàng hóa bị nhiễm bệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102869,
+    "word": "エボラ出血熱",
+    "kana": "エボラしゅっけつねつ",
+    "senses": [
+      {
+        "sense_id": 344638,
+        "meaning_vi": "Sốt xuất huyết Ebola",
+        "confidence": "high",
+        "search_keywords": [
+          "Sốt xuất huyết Ebola"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sốt xuất huyết Ebola",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102870,
+    "word": "牛海綿状脳症",
+    "kana": "うしかいめんじょうのうしょう",
+    "senses": [
+      {
+        "sense_id": 344639,
+        "meaning_vi": "bệnh não xốp dạng bò; BSE; bệnh bò điên",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh não xốp dạng bò",
+          "BSE",
+          "bệnh bò điên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh não xốp dạng bò; BSE; bệnh bò điên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102871,
+    "word": "菌血症",
+    "kana": "きんけつしょう",
+    "senses": [
+      {
+        "sense_id": 344640,
+        "meaning_vi": "nhiễm khuẩn huyết (sự hiện diện của vi khuẩn trong máu); nhiễm khuẩn huyết",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiễm khuẩn huyết (sự hiện diện của vi khuẩn trong máu)",
+          "nhiễm khuẩn huyết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiễm khuẩn huyết (sự hiện diện của vi khuẩn trong máu); nhiễm khuẩn huyết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102872,
+    "word": "心内膜炎",
+    "kana": "しんないまくえん",
+    "senses": [
+      {
+        "sense_id": 344641,
+        "meaning_vi": "viêm nội tâm mạc",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm nội tâm mạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm nội tâm mạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102873,
+    "word": "抗菌剤",
+    "kana": "こうきんざい",
+    "senses": [
+      {
+        "sense_id": 344642,
+        "meaning_vi": "kháng khuẩn; kháng khuẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "kháng khuẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kháng khuẩn; kháng khuẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102874,
+    "word": "予防接種法",
+    "kana": "よぼうせっしゅほう",
+    "senses": [
+      {
+        "sense_id": 344643,
+        "meaning_vi": "Đạo luật tiêm chủng",
+        "confidence": "high",
+        "search_keywords": [
+          "Đạo luật tiêm chủng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đạo luật tiêm chủng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102875,
+    "word": "縦挽き",
+    "kana": "たてびき",
+    "senses": [
+      {
+        "sense_id": 344915,
+        "meaning_vi": "cưa máy",
+        "confidence": "high",
+        "search_keywords": [
+          "cưa máy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cưa máy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102876,
+    "word": "急性散在性脳脊髄炎",
+    "kana": "きゅうせいさんざいせいのうせきずいえん",
+    "senses": [
+      {
+        "sense_id": 344644,
+        "meaning_vi": "viêm não tủy lan tỏa cấp tính; ADEM",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm não tủy lan tỏa cấp tính",
+          "ADEM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm não tủy lan tỏa cấp tính; ADEM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102877,
+    "word": "ベータラクタム系",
+    "kana": "ベータラクタムけい",
+    "senses": [
+      {
+        "sense_id": 344645,
+        "meaning_vi": "beta-lactam (var. của kháng sinh)",
+        "confidence": "high",
+        "search_keywords": [
+          "beta-lactam (var. của kháng sinh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "beta-lactam (var. của kháng sinh)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102878,
+    "word": "世界各地",
+    "kana": "せかいかくち",
+    "senses": [
+      {
+        "sense_id": 344646,
+        "meaning_vi": "mọi nơi trên thế giới; trên toàn thế giới; bốn góc của thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "mọi nơi trên thế giới",
+          "trên toàn thế giới",
+          "bốn góc của thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mọi nơi trên thế giới; trên toàn thế giới; bốn góc của thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102879,
+    "word": "日本各地",
+    "kana": "にほんかくち",
+    "senses": [
+      {
+        "sense_id": 344647,
+        "meaning_vi": "trên khắp nước Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "trên khắp nước Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trên khắp nước Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102880,
+    "word": "大流行",
+    "kana": "だいりゅうこう",
+    "senses": [
+      {
+        "sense_id": 344648,
+        "meaning_vi": "cơn sốt lớn; bùng nổ; xu hướng phổ biến; sự nổi tiếng to lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "cơn sốt lớn",
+          "bùng nổ",
+          "xu hướng phổ biến",
+          "sự nổi tiếng to lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơn sốt lớn; bùng nổ; xu hướng phổ biến; sự nổi tiếng to lớn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 344649,
+        "meaning_vi": "lây lan rộng rãi; ổ dịch lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "lây lan rộng rãi",
+          "ổ dịch lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lây lan rộng rãi; ổ dịch lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

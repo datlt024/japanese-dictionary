@@ -1,0 +1,492 @@
+[
+  {
+    "vocabulary_id": 35076,
+    "word": "正社員",
+    "kana": "せいしゃいん",
+    "senses": [
+      {
+        "sense_id": 262722,
+        "meaning_vi": "nhân viên thường xuyên; nhân viên cố định; nhân viên toàn thời gian",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân viên thường xuyên",
+          "nhân viên cố định",
+          "nhân viên toàn thời gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân viên thường xuyên; nhân viên cố định; nhân viên toàn thời gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35077,
+    "word": "正邪",
+    "kana": "せいじゃ",
+    "senses": [
+      {
+        "sense_id": 262723,
+        "meaning_vi": "đúng và sai; đúng hay sai",
+        "confidence": "high",
+        "search_keywords": [
+          "đúng và sai",
+          "đúng hay sai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đúng và sai; đúng hay sai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35078,
+    "word": "正方行列",
+    "kana": "せいほうぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 262795,
+        "meaning_vi": "ma trận vuông",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận vuông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận vuông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35079,
+    "word": "正宗",
+    "kana": "まさむね",
+    "senses": [
+      {
+        "sense_id": 262724,
+        "meaning_vi": "thanh kiếm nổi tiếng; lưỡi kiếm của Masamune",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh kiếm nổi tiếng",
+          "lưỡi kiếm của Masamune"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh kiếm nổi tiếng; lưỡi kiếm của Masamune",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262725,
+        "meaning_vi": "lợi ích; rượu gạo Nhật; nhãn hiệu rượu sake từ vùng Nada trong thời Tenpō (1830-1844)",
+        "confidence": "high",
+        "search_keywords": [
+          "lợi ích",
+          "rượu gạo Nhật",
+          "nhãn hiệu rượu sake từ vùng Nada trong thời Tenpō (1830-1844)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lợi ích; rượu gạo Nhật; nhãn hiệu rượu sake từ vùng Nada trong thời Tenpō (1830-1844)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35080,
+    "word": "正出",
+    "kana": "せいしゅつ",
+    "senses": [
+      {
+        "sense_id": 262726,
+        "meaning_vi": "đứa con hợp pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "đứa con hợp pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứa con hợp pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35081,
+    "word": "正書",
+    "kana": "せいしょ",
+    "senses": [
+      {
+        "sense_id": 262727,
+        "meaning_vi": "kiểu chữ in (chữ Hán); kiểu vuông; kiểu khối; phong cách tiêu chuẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu chữ in (chữ Hán)",
+          "kiểu vuông",
+          "kiểu khối",
+          "phong cách tiêu chuẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu chữ in (chữ Hán); kiểu vuông; kiểu khối; phong cách tiêu chuẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35082,
+    "word": "正書法",
+    "kana": "せいしょほう",
+    "senses": [
+      {
+        "sense_id": 262728,
+        "meaning_vi": "chính tả",
+        "confidence": "high",
+        "search_keywords": [
+          "chính tả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính tả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35083,
+    "word": "正常",
+    "kana": "せいじょう",
+    "senses": [
+      {
+        "sense_id": 262729,
+        "meaning_vi": "Bình thường; đều đặn",
+        "confidence": "high",
+        "search_keywords": [
+          "Bình thường",
+          "đều đặn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bình thường; đều đặn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35084,
+    "word": "正常化",
+    "kana": "せいじょうか",
+    "senses": [
+      {
+        "sense_id": 262730,
+        "meaning_vi": "bình thường hóa; bình thường hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "bình thường hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bình thường hóa; bình thường hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35085,
+    "word": "正常終了",
+    "kana": "せいじょうしゅうりょう",
+    "senses": [
+      {
+        "sense_id": 262731,
+        "meaning_vi": "chấm dứt bình thường; chấm dứt thành công",
+        "confidence": "high",
+        "search_keywords": [
+          "chấm dứt bình thường",
+          "chấm dứt thành công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấm dứt bình thường; chấm dứt thành công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35086,
+    "word": "正色",
+    "kana": "せいしょく",
+    "senses": [
+      {
+        "sense_id": 262732,
+        "meaning_vi": "màu cơ bản; màu cơ bản",
+        "confidence": "high",
+        "search_keywords": [
+          "màu cơ bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu cơ bản; màu cơ bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35087,
+    "word": "正真正銘",
+    "kana": "しょうしんしょうめい",
+    "senses": [
+      {
+        "sense_id": 262733,
+        "meaning_vi": "thành thật; thật; ĐÚNG VẬY; thực",
+        "confidence": "high",
+        "search_keywords": [
+          "thành thật",
+          "thật",
+          "ĐÚNG VẬY",
+          "thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành thật; thật; ĐÚNG VẬY; thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35088,
+    "word": "正数",
+    "kana": "せいすう",
+    "senses": [
+      {
+        "sense_id": 262734,
+        "meaning_vi": "số dương",
+        "confidence": "high",
+        "search_keywords": [
+          "số dương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số dương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35089,
+    "word": "正西",
+    "kana": "せいせい",
+    "senses": [
+      {
+        "sense_id": 262735,
+        "meaning_vi": "hướng tây",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng tây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng tây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35090,
+    "word": "正接",
+    "kana": "せいせつ",
+    "senses": [
+      {
+        "sense_id": 262736,
+        "meaning_vi": "tiếp tuyến (hàm lượng giác)",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp tuyến (hàm lượng giác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp tuyến (hàm lượng giác)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35091,
+    "word": "正装",
+    "kana": "せいそう",
+    "senses": [
+      {
+        "sense_id": 262737,
+        "meaning_vi": "trang phục đầy đủ; trang phục trang trọng; đồng phục",
+        "confidence": "high",
+        "search_keywords": [
+          "trang phục đầy đủ",
+          "trang phục trang trọng",
+          "đồng phục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang phục đầy đủ; trang phục trang trọng; đồng phục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35092,
+    "word": "正則",
+    "kana": "せいそく",
+    "senses": [
+      {
+        "sense_id": 262738,
+        "meaning_vi": "Chính xác; thích hợp; chính thức; thường xuyên; có tính hệ thống; bình thường",
+        "confidence": "high",
+        "search_keywords": [
+          "Chính xác",
+          "thích hợp",
+          "chính thức",
+          "thường xuyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chính xác; thích hợp; chính thức; thường xuyên; có tính hệ thống; bình thường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262739,
+        "meaning_vi": "khả nghịch (ma trận); chỉnh hình",
+        "confidence": "high",
+        "search_keywords": [
+          "khả nghịch (ma trận)",
+          "chỉnh hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khả nghịch (ma trận); chỉnh hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35093,
+    "word": "正則化",
+    "kana": "せいそくか",
+    "senses": [
+      {
+        "sense_id": 262740,
+        "meaning_vi": "chính quy hóa; chính quy hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "chính quy hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính quy hóa; chính quy hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35094,
+    "word": "正続",
+    "kana": "せいぞく",
+    "senses": [
+      {
+        "sense_id": 262741,
+        "meaning_vi": "sách hoặc tài liệu và phần bổ sung của nó",
+        "confidence": "high",
+        "search_keywords": [
+          "sách hoặc tài liệu và phần bổ sung của nó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sách hoặc tài liệu và phần bổ sung của nó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35095,
+    "word": "正多角形",
+    "kana": "せいたかくけい",
+    "senses": [
+      {
+        "sense_id": 262742,
+        "meaning_vi": "đa giác đều",
+        "confidence": "high",
+        "search_keywords": [
+          "đa giác đều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đa giác đều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

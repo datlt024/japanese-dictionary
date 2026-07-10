@@ -1,0 +1,635 @@
+[
+  {
+    "vocabulary_id": 29639,
+    "word": "質素",
+    "kana": "しっそ",
+    "senses": [
+      {
+        "sense_id": 255335,
+        "meaning_vi": "đơn giản; đồng bằng",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn giản",
+          "đồng bằng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn giản; đồng bằng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255336,
+        "meaning_vi": "khiêm tốn; tiết kiệm; dành riêng",
+        "confidence": "high",
+        "search_keywords": [
+          "khiêm tốn",
+          "tiết kiệm",
+          "dành riêng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khiêm tốn; tiết kiệm; dành riêng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29640,
+    "word": "質的",
+    "kana": "しつてき",
+    "senses": [
+      {
+        "sense_id": 255337,
+        "meaning_vi": "chất lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "chất lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29641,
+    "word": "質点",
+    "kana": "しつてん",
+    "senses": [
+      {
+        "sense_id": 255338,
+        "meaning_vi": "khối lượng điểm; hạt; điểm vật chất",
+        "confidence": "high",
+        "search_keywords": [
+          "khối lượng điểm",
+          "hạt",
+          "điểm vật chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khối lượng điểm; hạt; điểm vật chất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29642,
+    "word": "質点系",
+    "kana": "しつてんけい",
+    "senses": [
+      {
+        "sense_id": 255339,
+        "meaning_vi": "hệ hạt; hệ thống điểm vật chất",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ hạt",
+          "hệ thống điểm vật chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ hạt; hệ thống điểm vật chất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29643,
+    "word": "質朴",
+    "kana": "しつぼく",
+    "senses": [
+      {
+        "sense_id": 255340,
+        "meaning_vi": "đơn giản (và trung thực); đơn giản; không phức tạp",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn giản (và trung thực)",
+          "đơn giản",
+          "không phức tạp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn giản (và trung thực); đơn giản; không phức tạp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29644,
+    "word": "質問",
+    "kana": "しつもん",
+    "senses": [
+      {
+        "sense_id": 255341,
+        "meaning_vi": "câu hỏi; cuộc điều tra; cuộc điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "câu hỏi",
+          "cuộc điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu hỏi; cuộc điều tra; cuộc điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29645,
+    "word": "質問者",
+    "kana": "しつもんしゃ",
+    "senses": [
+      {
+        "sense_id": 255342,
+        "meaning_vi": "người hỏi; người thẩm vấn; người thẩm vấn",
+        "confidence": "high",
+        "search_keywords": [
+          "người hỏi",
+          "người thẩm vấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người hỏi; người thẩm vấn; người thẩm vấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29646,
+    "word": "質問用紙",
+    "kana": "しつもんようし",
+    "senses": [
+      {
+        "sense_id": 255343,
+        "meaning_vi": "bảng câu hỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng câu hỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng câu hỏi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29647,
+    "word": "質量",
+    "kana": "しつりょう",
+    "senses": [
+      {
+        "sense_id": 255344,
+        "meaning_vi": "khối lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "khối lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khối lượng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255345,
+        "meaning_vi": "chất lượng và số lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "chất lượng và số lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất lượng và số lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29648,
+    "word": "実",
+    "kana": "じつ",
+    "senses": [
+      {
+        "sense_id": 255346,
+        "meaning_vi": "sự thật; thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thật",
+          "thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thật; thực tế",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255347,
+        "meaning_vi": "sự chân thành; trung thực; sự chung thủy",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chân thành",
+          "trung thực",
+          "sự chung thủy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chân thành; trung thực; sự chung thủy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255348,
+        "meaning_vi": "nội dung; chất",
+        "confidence": "high",
+        "search_keywords": [
+          "nội dung",
+          "chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội dung; chất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255349,
+        "meaning_vi": "kết quả (tốt)",
+        "confidence": "high",
+        "search_keywords": [
+          "kết quả (tốt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết quả (tốt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29649,
+    "word": "実",
+    "kana": "み",
+    "senses": [
+      {
+        "sense_id": 255350,
+        "meaning_vi": "hoa quả; hạt dẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "hoa quả",
+          "hạt dẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoa quả; hạt dẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255351,
+        "meaning_vi": "hạt giống",
+        "confidence": "high",
+        "search_keywords": [
+          "hạt giống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạt giống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255352,
+        "meaning_vi": "(trong nước dùng) miếng thịt, rau, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "(trong nước dùng) miếng thịt, rau, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(trong nước dùng) miếng thịt, rau, v.v.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255353,
+        "meaning_vi": "nội dung; chất",
+        "confidence": "high",
+        "search_keywords": [
+          "nội dung",
+          "chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội dung; chất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29650,
+    "word": "実のところ",
+    "kana": "じつのところ",
+    "senses": [
+      {
+        "sense_id": 255354,
+        "meaning_vi": "thực tế là vậy; nói sự thật",
+        "confidence": "high",
+        "search_keywords": [
+          "thực tế là vậy",
+          "nói sự thật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực tế là vậy; nói sự thật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29651,
+    "word": "実は",
+    "kana": "じつは",
+    "senses": [
+      {
+        "sense_id": 255355,
+        "meaning_vi": "thực tế là vậy; Nhân tiện; nói cho bạn biết sự thật; thành thật mà nói; thẳng thắn; thực sự",
+        "confidence": "high",
+        "search_keywords": [
+          "thực tế là vậy",
+          "Nhân tiện",
+          "nói cho bạn biết sự thật",
+          "thành thật mà nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực tế là vậy; Nhân tiện; nói cho bạn biết sự thật; thành thật mà nói; thẳng thắn; thực sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29652,
+    "word": "実り",
+    "kana": "みのり",
+    "senses": [
+      {
+        "sense_id": 255356,
+        "meaning_vi": "sự chín (của một loại cây trồng)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chín (của một loại cây trồng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chín (của một loại cây trồng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255357,
+        "meaning_vi": "mùa vụ; thu hoạch",
+        "confidence": "high",
+        "search_keywords": [
+          "mùa vụ",
+          "thu hoạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mùa vụ; thu hoạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29653,
+    "word": "実る",
+    "kana": "みのる",
+    "senses": [
+      {
+        "sense_id": 255358,
+        "meaning_vi": "sinh hoa trái; chín",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh hoa trái",
+          "chín"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh hoa trái; chín",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255359,
+        "meaning_vi": "để tạo ra kết quả (tốt); để hiển thị kết quả; sinh hoa trái",
+        "confidence": "high",
+        "search_keywords": [
+          "để tạo ra kết quả (tốt)",
+          "để hiển thị kết quả",
+          "sinh hoa trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tạo ra kết quả (tốt); để hiển thị kết quả; sinh hoa trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29654,
+    "word": "実を言えば",
+    "kana": "じつをいえば",
+    "senses": [
+      {
+        "sense_id": 255360,
+        "meaning_vi": "thực tế là vậy; nói sự thật",
+        "confidence": "high",
+        "search_keywords": [
+          "thực tế là vậy",
+          "nói sự thật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực tế là vậy; nói sự thật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29655,
+    "word": "実意",
+    "kana": "じつい",
+    "senses": [
+      {
+        "sense_id": 255361,
+        "meaning_vi": "sự chân thành; ý định thực sự",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chân thành",
+          "ý định thực sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chân thành; ý định thực sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29656,
+    "word": "実印",
+    "kana": "じついん",
+    "senses": [
+      {
+        "sense_id": 255362,
+        "meaning_vi": "con dấu đăng ký chính thức",
+        "confidence": "high",
+        "search_keywords": [
+          "con dấu đăng ký chính thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con dấu đăng ký chính thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29657,
+    "word": "実演",
+    "kana": "じつえん",
+    "senses": [
+      {
+        "sense_id": 255363,
+        "meaning_vi": "cuộc biểu tình; trình bày",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc biểu tình",
+          "trình bày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc biểu tình; trình bày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255364,
+        "meaning_vi": "trình diễn sân khấu; hiệu suất",
+        "confidence": "high",
+        "search_keywords": [
+          "trình diễn sân khấu",
+          "hiệu suất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình diễn sân khấu; hiệu suất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29658,
+    "word": "実家",
+    "kana": "じっか",
+    "senses": [
+      {
+        "sense_id": 255365,
+        "meaning_vi": "(cha mẹ của một người) nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "(cha mẹ của một người) nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cha mẹ của một người) nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,548 +1,510 @@
 [
-{
-"vocabulary_id": 2542,
-"word": "エディター",
-"kana": "エディター",
-"senses": [
-{
-"sense_id": 220829,
-"meaning_vi": "trình soạn thảo",
-"confidence": "high",
-"search_keywords": [
-"trình soạn thảo",
-"text editor",
-"editor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trình soạn thảo văn bản trong máy tính",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220830,
-"meaning_vi": "biên tập viên",
-"confidence": "high",
-"search_keywords": [
-"biên tập viên",
-"người biên tập",
-"editor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "biên tập viên; người chỉnh sửa, biên tập nội dung",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2543,
-"word": "エディット",
-"kana": "エディット",
-"senses": [
-{
-"sense_id": 220831,
-"meaning_vi": "chỉnh sửa",
-"confidence": "high",
-"search_keywords": [
-"chỉnh sửa",
-"biên tập",
-"edit"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc chỉnh sửa hoặc biên tập nội dung",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2544,
-"word": "エディティング",
-"kana": "エディティング",
-"senses": [
-{
-"sense_id": 220832,
-"meaning_vi": "biên tập",
-"confidence": "high",
-"search_keywords": [
-"biên tập",
-"chỉnh sửa",
-"editing"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc biên tập hoặc chỉnh sửa nội dung",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2545,
-"word": "エディトリアル",
-"kana": "エディトリアル",
-"senses": [
-{
-"sense_id": 220833,
-"meaning_vi": "bài xã luận",
-"confidence": "medium",
-"search_keywords": [
-"bài xã luận",
-"xã luận",
-"editorial"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xã luận; nội dung mang tính biên tập",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2546,
-"word": "エディトリアルデザイン",
-"kana": "エディトリアルデザイン",
-"senses": [
-{
-"sense_id": 220834,
-"meaning_vi": "thiết kế dàn trang",
-"confidence": "high",
-"search_keywords": [
-"thiết kế dàn trang",
-"thiết kế biên tập",
-"editorial design"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết kế bố cục cho sách, tạp chí hoặc ấn phẩm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2547,
-"word": "エディプスコンプレックス",
-"kana": "エディプスコンプレックス",
-"senses": [
-{
-"sense_id": 220835,
-"meaning_vi": "mặc cảm Oedipus",
-"confidence": "high",
-"search_keywords": [
-"mặc cảm Oedipus",
-"phức cảm Oedipus",
-"Oedipus complex"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phức cảm Oedipus; ham muốn tình dục vô thức với mẹ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2548,
-"word": "エジンバラ",
-"kana": "エジンバラ",
-"senses": [
-{
-"sense_id": 220836,
-"meaning_vi": "Edinburgh",
-"confidence": "high",
-"search_keywords": [
-"Edinburgh",
-"Ê-đin-bớc",
-"Scotland"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thành phố Edinburgh ở Scotland, Vương quốc Anh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2549,
-"word": "エデュケーション",
-"kana": "エデュケーション",
-"senses": [
-{
-"sense_id": 220837,
-"meaning_vi": "giáo dục",
-"confidence": "high",
-"search_keywords": [
-"giáo dục",
-"đào tạo",
-"education"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giáo dục; sự đào tạo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2550,
-"word": "エデン",
-"kana": "エデン",
-"senses": [
-{
-"sense_id": 220838,
-"meaning_vi": "vườn Eden",
-"confidence": "high",
-"search_keywords": [
-"vườn Eden",
-"Eden",
-"thiên đường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Eden; vườn địa đàng trong Kinh Thánh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2551,
-"word": "エートス",
-"kana": "エートス",
-"senses": [
-{
-"sense_id": 220839,
-"meaning_vi": "đặc tính tinh thần",
-"confidence": "medium",
-"search_keywords": [
-"đặc tính tinh thần",
-"ethos",
-"tinh thần chung"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tinh thần, giá trị hoặc đặc tính chung của một cộng đồng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2552,
-"word": "ｅｔｃ．",
-"kana": "エトセトラ",
-"senses": [
-{
-"sense_id": 220840,
-"meaning_vi": "vân vân",
-"confidence": "high",
-"search_keywords": [
-"vân vân",
-"v.v.",
-"etc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vân vân; và những thứ tương tự",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2553,
-"word": "エトランゼ",
-"kana": "エトランゼ",
-"senses": [
-{
-"sense_id": 220841,
-"meaning_vi": "người xa lạ",
-"confidence": "high",
-"search_keywords": [
-"người xa lạ",
-"người ngoài",
-"người nước ngoài"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người xa lạ; người ngoài; người nước ngoài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2554,
-"word": "エトワール",
-"kana": "エトワール",
-"senses": [
-{
-"sense_id": 220842,
-"meaning_vi": "ngôi sao",
-"confidence": "high",
-"search_keywords": [
-"ngôi sao",
-"sao",
-"etoile"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngôi sao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2555,
-"word": "エトワス",
-"kana": "エトワス",
-"senses": [
-{
-"sense_id": 220843,
-"meaning_vi": "phần nào",
-"confidence": "low",
-"search_keywords": [
-"phần nào",
-"hơi",
-"somewhat"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hơi; phần nào; ở mức độ nào đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2556,
-"word": "エナジー",
-"kana": "エナジー",
-"senses": [
-{
-"sense_id": 220844,
-"meaning_vi": "năng lượng",
-"confidence": "high",
-"search_keywords": [
-"năng lượng",
-"sinh lực",
-"energy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "năng lượng; sinh lực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2557,
-"word": "エナメル",
-"kana": "エナメル",
-"senses": [
-{
-"sense_id": 220845,
-"meaning_vi": "men sứ",
-"confidence": "high",
-"search_keywords": [
-"men sứ",
-"men răng",
-"enamel"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "men sứ; lớp men bóng hoặc men răng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220846,
-"meaning_vi": "sơn men",
-"confidence": "high",
-"search_keywords": [
-"sơn men",
-"sơn enamel"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sơn men có bề mặt bóng, cứng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220847,
-"meaning_vi": "da bóng",
-"confidence": "high",
-"search_keywords": [
-"da bóng",
-"da patent",
-"patent leather"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "da tráng men bóng; da patent",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2558,
-"word": "エナメルペイント",
-"kana": "エナメルペイント",
-"senses": [
-{
-"sense_id": 220848,
-"meaning_vi": "sơn men",
-"confidence": "high",
-"search_keywords": [
-"sơn men",
-"sơn enamel",
-"enamel paint"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loại sơn men tạo bề mặt bóng, cứng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2559,
-"word": "エニグマ",
-"kana": "エニグマ",
-"senses": [
-{
-"sense_id": 220849,
-"meaning_vi": "điều bí ẩn",
-"confidence": "high",
-"search_keywords": [
-"điều bí ẩn",
-"bí ẩn",
-"enigma"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điều bí ẩn, khó giải thích",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2560,
-"word": "ＮＧ",
-"kana": "エヌ・ジー",
-"senses": [
-{
-"sense_id": 220850,
-"meaning_vi": "không được",
-"confidence": "high",
-"search_keywords": [
-"không được",
-"không ổn",
-"không chấp nhận"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không được; không ổn; không chấp nhận được",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220851,
-"meaning_vi": "cảnh quay lỗi",
-"confidence": "high",
-"search_keywords": [
-"cảnh quay lỗi",
-"blooper",
-"quay lại"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảnh quay hỏng; cảnh lỗi cần quay lại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2561,
-"word": "エネ",
-"kana": "エネ",
-"senses": [
-{
-"sense_id": 220852,
-"meaning_vi": "năng lượng",
-"confidence": "high",
-"search_keywords": [
-"năng lượng",
-"energy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "năng lượng; viết tắt của energy",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2542,
+    "word": "エディター",
+    "kana": "エディター",
+    "senses": [
+      {
+        "sense_id": 220829,
+        "meaning_vi": "soạn thảo văn bản",
+        "confidence": "high",
+        "search_keywords": [
+          "soạn thảo văn bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "soạn thảo văn bản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220830,
+        "meaning_vi": "biên tập viên",
+        "confidence": "high",
+        "search_keywords": [
+          "biên tập viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biên tập viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2543,
+    "word": "エディット",
+    "kana": "エディット",
+    "senses": [
+      {
+        "sense_id": 220831,
+        "meaning_vi": "chỉnh sửa",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉnh sửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉnh sửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2544,
+    "word": "エディティング",
+    "kana": "エディティング",
+    "senses": [
+      {
+        "sense_id": 220832,
+        "meaning_vi": "chỉnh sửa",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉnh sửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉnh sửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2545,
+    "word": "エディトリアル",
+    "kana": "エディトリアル",
+    "senses": [
+      {
+        "sense_id": 220833,
+        "meaning_vi": "biên tập",
+        "confidence": "high",
+        "search_keywords": [
+          "biên tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biên tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2546,
+    "word": "エディトリアルデザイン",
+    "kana": "エディトリアルデザイン",
+    "senses": [
+      {
+        "sense_id": 220834,
+        "meaning_vi": "thiết kế biên tập",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết kế biên tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết kế biên tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2547,
+    "word": "エディプスコンプレックス",
+    "kana": "エディプスコンプレックス",
+    "senses": [
+      {
+        "sense_id": 220835,
+        "meaning_vi": "phức hợp Oedipus; sự hấp dẫn tình dục đối với mẹ của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "phức hợp Oedipus",
+          "sự hấp dẫn tình dục đối với mẹ của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phức hợp Oedipus; sự hấp dẫn tình dục đối với mẹ của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2548,
+    "word": "エジンバラ",
+    "kana": "エジンバラ",
+    "senses": [
+      {
+        "sense_id": 220836,
+        "meaning_vi": "Edinburgh (Scotland, Vương quốc Anh)",
+        "confidence": "high",
+        "search_keywords": [
+          "Edinburgh (Scotland, Vương quốc Anh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Edinburgh (Scotland, Vương quốc Anh)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2549,
+    "word": "エデュケーション",
+    "kana": "エデュケーション",
+    "senses": [
+      {
+        "sense_id": 220837,
+        "meaning_vi": "giáo dục",
+        "confidence": "high",
+        "search_keywords": [
+          "giáo dục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giáo dục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2550,
+    "word": "エデン",
+    "kana": "エデン",
+    "senses": [
+      {
+        "sense_id": 220838,
+        "meaning_vi": "vườn địa đàng",
+        "confidence": "high",
+        "search_keywords": [
+          "vườn địa đàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vườn địa đàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2551,
+    "word": "エートス",
+    "kana": "エートス",
+    "senses": [
+      {
+        "sense_id": 220839,
+        "meaning_vi": "đặc tính",
+        "confidence": "high",
+        "search_keywords": [
+          "đặc tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặc tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2552,
+    "word": "ｅｔｃ．",
+    "kana": "エトセトラ",
+    "senses": [
+      {
+        "sense_id": 220840,
+        "meaning_vi": "vân vân; vân vân",
+        "confidence": "high",
+        "search_keywords": [
+          "vân vân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vân vân; vân vân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2553,
+    "word": "エトランゼ",
+    "kana": "エトランゼ",
+    "senses": [
+      {
+        "sense_id": 220841,
+        "meaning_vi": "người lạ; người ngoài cuộc; người nước ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "người lạ",
+          "người ngoài cuộc",
+          "người nước ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lạ; người ngoài cuộc; người nước ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2554,
+    "word": "エトワール",
+    "kana": "エトワール",
+    "senses": [
+      {
+        "sense_id": 220842,
+        "meaning_vi": "ngôi sao",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôi sao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôi sao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2555,
+    "word": "エトワス",
+    "kana": "エトワス",
+    "senses": [
+      {
+        "sense_id": 220843,
+        "meaning_vi": "phần nào",
+        "confidence": "high",
+        "search_keywords": [
+          "phần nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần nào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2556,
+    "word": "エナジー",
+    "kana": "エナジー",
+    "senses": [
+      {
+        "sense_id": 220844,
+        "meaning_vi": "năng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "năng lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năng lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2557,
+    "word": "エナメル",
+    "kana": "エナメル",
+    "senses": [
+      {
+        "sense_id": 220845,
+        "meaning_vi": "men răng",
+        "confidence": "high",
+        "search_keywords": [
+          "men răng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "men răng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220846,
+        "meaning_vi": "sơn men",
+        "confidence": "high",
+        "search_keywords": [
+          "sơn men"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơn men",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220847,
+        "meaning_vi": "da tráng men; da sáng chế",
+        "confidence": "high",
+        "search_keywords": [
+          "da tráng men",
+          "da sáng chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "da tráng men; da sáng chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2558,
+    "word": "エナメルペイント",
+    "kana": "エナメルペイント",
+    "senses": [
+      {
+        "sense_id": 220848,
+        "meaning_vi": "sơn men",
+        "confidence": "high",
+        "search_keywords": [
+          "sơn men"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơn men",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2559,
+    "word": "エニグマ",
+    "kana": "エニグマ",
+    "senses": [
+      {
+        "sense_id": 220849,
+        "meaning_vi": "bí ẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "bí ẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bí ẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2560,
+    "word": "ＮＧ",
+    "kana": "エヌ・ジー",
+    "senses": [
+      {
+        "sense_id": 220850,
+        "meaning_vi": "không tốt; không được phép; không thể chấp nhận được",
+        "confidence": "high",
+        "search_keywords": [
+          "không tốt",
+          "không được phép",
+          "không thể chấp nhận được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không tốt; không được phép; không thể chấp nhận được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220851,
+        "meaning_vi": "vượt qua; lỗi; thi lại",
+        "confidence": "high",
+        "search_keywords": [
+          "vượt qua",
+          "lỗi",
+          "thi lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vượt qua; lỗi; thi lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2561,
+    "word": "エネ",
+    "kana": "エネ",
+    "senses": [
+      {
+        "sense_id": 220852,
+        "meaning_vi": "năng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "năng lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năng lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

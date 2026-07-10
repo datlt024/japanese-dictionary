@@ -14,7 +14,10 @@
     "build:kanji-readings": "tsx scripts/build/build-kanji-reading-examples.ts",
     "grammar:enrich": "tsx scripts/grammar/enrich-grammars.ts",
     "grammar:apply": "tsx scripts/grammar/apply-grammar-results.ts",
-    "import:pitch-accents": "tsx scripts/import/import-pitch-accents.ts"
+    "import:pitch-accents": "tsx scripts/import/import-pitch-accents.ts",
+    "vocab:generate-vi": "tsx scripts/generate/generate-vocabulary-vi.ts",
+    "vocab:apply-vi": "tsx scripts/generate/apply-vocabulary-vi-results.ts",
+    "vocab:import-vi": "tsx --env-file=.env.local scripts/import/bulk-import-vocabulary-vi.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.105.0",

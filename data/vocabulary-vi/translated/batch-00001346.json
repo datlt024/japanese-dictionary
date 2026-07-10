@@ -1,0 +1,577 @@
+[
+  {
+    "vocabulary_id": 34480,
+    "word": "推薦",
+    "kana": "すいせん",
+    "senses": [
+      {
+        "sense_id": 261904,
+        "meaning_vi": "sự giới thiệu; giới thiệu; sự chứng thực",
+        "confidence": "high",
+        "search_keywords": [
+          "sự giới thiệu",
+          "giới thiệu",
+          "sự chứng thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự giới thiệu; giới thiệu; sự chứng thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34481,
+    "word": "推薦者",
+    "kana": "すいせんしゃ",
+    "senses": [
+      {
+        "sense_id": 261905,
+        "meaning_vi": "người giới thiệu; người đề cử; trọng tài",
+        "confidence": "high",
+        "search_keywords": [
+          "người giới thiệu",
+          "người đề cử",
+          "trọng tài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người giới thiệu; người đề cử; trọng tài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34482,
+    "word": "推薦状",
+    "kana": "すいせんじょう",
+    "senses": [
+      {
+        "sense_id": 261906,
+        "meaning_vi": "thư mời; thư giới thiệu; tài liệu tham khảo",
+        "confidence": "high",
+        "search_keywords": [
+          "thư mời",
+          "thư giới thiệu",
+          "tài liệu tham khảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư mời; thư giới thiệu; tài liệu tham khảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34483,
+    "word": "推測",
+    "kana": "すいそく",
+    "senses": [
+      {
+        "sense_id": 261907,
+        "meaning_vi": "đoán; phỏng đoán",
+        "confidence": "high",
+        "search_keywords": [
+          "đoán",
+          "phỏng đoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đoán; phỏng đoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34484,
+    "word": "推定",
+    "kana": "すいてい",
+    "senses": [
+      {
+        "sense_id": 261908,
+        "meaning_vi": "giả định; giả định",
+        "confidence": "high",
+        "search_keywords": [
+          "giả định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả định; giả định",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261909,
+        "meaning_vi": "ước lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "ước lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ước lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34485,
+    "word": "推理",
+    "kana": "すいり",
+    "senses": [
+      {
+        "sense_id": 261910,
+        "meaning_vi": "lý luận; suy luận; khấu trừ",
+        "confidence": "high",
+        "search_keywords": [
+          "lý luận",
+          "suy luận",
+          "khấu trừ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý luận; suy luận; khấu trừ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261911,
+        "meaning_vi": "thể loại bí ẩn; thể loại trinh thám",
+        "confidence": "high",
+        "search_keywords": [
+          "thể loại bí ẩn",
+          "thể loại trinh thám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thể loại bí ẩn; thể loại trinh thám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34486,
+    "word": "推量",
+    "kana": "すいりょう",
+    "senses": [
+      {
+        "sense_id": 261912,
+        "meaning_vi": "đoán; đoán; giả định; suy luận",
+        "confidence": "high",
+        "search_keywords": [
+          "đoán",
+          "giả định",
+          "suy luận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đoán; đoán; giả định; suy luận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34487,
+    "word": "推論",
+    "kana": "すいろん",
+    "senses": [
+      {
+        "sense_id": 261913,
+        "meaning_vi": "suy luận; khấu trừ; cảm ứng; lý luận",
+        "confidence": "high",
+        "search_keywords": [
+          "suy luận",
+          "khấu trừ",
+          "cảm ứng",
+          "lý luận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "suy luận; khấu trừ; cảm ứng; lý luận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34488,
+    "word": "推敲",
+    "kana": "すいこう",
+    "senses": [
+      {
+        "sense_id": 261914,
+        "meaning_vi": "đánh bóng (một đoạn văn bản); sự cải tiến; ôn tập; sàng lọc",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh bóng (một đoạn văn bản)",
+          "sự cải tiến",
+          "ôn tập",
+          "sàng lọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh bóng (một đoạn văn bản); sự cải tiến; ôn tập; sàng lọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34489,
+    "word": "水",
+    "kana": "みず",
+    "senses": [
+      {
+        "sense_id": 261915,
+        "meaning_vi": "nước (đặc biệt là mát hoặc lạnh)",
+        "confidence": "high",
+        "search_keywords": [
+          "nước (đặc biệt là mát hoặc lạnh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước (đặc biệt là mát hoặc lạnh)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261916,
+        "meaning_vi": "chất lỏng (đặc biệt trong mô động vật); chất lỏng",
+        "confidence": "high",
+        "search_keywords": [
+          "chất lỏng (đặc biệt trong mô động vật)",
+          "chất lỏng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất lỏng (đặc biệt trong mô động vật); chất lỏng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261917,
+        "meaning_vi": "lụt; nước lũ",
+        "confidence": "high",
+        "search_keywords": [
+          "lụt",
+          "nước lũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lụt; nước lũ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261918,
+        "meaning_vi": "nước được cung cấp cho đô vật ngay trước trận đấu",
+        "confidence": "high",
+        "search_keywords": [
+          "nước được cung cấp cho đô vật ngay trước trận đấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước được cung cấp cho đô vật ngay trước trận đấu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261919,
+        "meaning_vi": "dành cho đô vật tham gia vào một trận đấu kéo dài",
+        "confidence": "high",
+        "search_keywords": [
+          "dành cho đô vật tham gia vào một trận đấu kéo dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dành cho đô vật tham gia vào một trận đấu kéo dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34490,
+    "word": "がっこ",
+    "kana": "がっこ",
+    "senses": [
+      {
+        "sense_id": 261920,
+        "meaning_vi": "tsukemono; Rau củ muối Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "tsukemono",
+          "Rau củ muối Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tsukemono; Rau củ muối Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34491,
+    "word": "水掛け論",
+    "kana": "みずかけろん",
+    "senses": [
+      {
+        "sense_id": 261921,
+        "meaning_vi": "tranh luận bất tận; tranh luận vô nghĩa; tranh chấp không có kết quả; thảo luận vô ích; tranh luận ruộng của ai lấy nước (trong một đợt hạn hán)",
+        "confidence": "high",
+        "search_keywords": [
+          "tranh luận bất tận",
+          "tranh luận vô nghĩa",
+          "tranh chấp không có kết quả",
+          "thảo luận vô ích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tranh luận bất tận; tranh luận vô nghĩa; tranh chấp không có kết quả; thảo luận vô ích; tranh luận ruộng của ai lấy nước (trong một đợt hạn hán)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34492,
+    "word": "水たまり",
+    "kana": "みずたまり",
+    "senses": [
+      {
+        "sense_id": 261922,
+        "meaning_vi": "vũng nước; hồ nước",
+        "confidence": "high",
+        "search_keywords": [
+          "vũng nước",
+          "hồ nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vũng nước; hồ nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34493,
+    "word": "水を差す",
+    "kana": "みずをさす",
+    "senses": [
+      {
+        "sense_id": 261923,
+        "meaning_vi": "đổ nước (vào); pha loãng với nước",
+        "confidence": "high",
+        "search_keywords": [
+          "đổ nước (vào)",
+          "pha loãng với nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đổ nước (vào); pha loãng với nước",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261924,
+        "meaning_vi": "cản trở ; cản trở; tạt nước lạnh vào; để đặt một van điều tiết vào; xa lánh (mọi người)",
+        "confidence": "high",
+        "search_keywords": [
+          "cản trở",
+          "tạt nước lạnh vào",
+          "để đặt một van điều tiết vào",
+          "xa lánh (mọi người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cản trở ; cản trở; tạt nước lạnh vào; để đặt một van điều tiết vào; xa lánh (mọi người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34494,
+    "word": "水域",
+    "kana": "すいいき",
+    "senses": [
+      {
+        "sense_id": 261925,
+        "meaning_vi": "nước; vùng nước",
+        "confidence": "high",
+        "search_keywords": [
+          "nước",
+          "vùng nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước; vùng nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34495,
+    "word": "水稲",
+    "kana": "すいとう",
+    "senses": [
+      {
+        "sense_id": 261926,
+        "meaning_vi": "lúa nước",
+        "confidence": "high",
+        "search_keywords": [
+          "lúa nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lúa nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34496,
+    "word": "水泳",
+    "kana": "すいえい",
+    "senses": [
+      {
+        "sense_id": 261927,
+        "meaning_vi": "bơi lội",
+        "confidence": "high",
+        "search_keywords": [
+          "bơi lội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bơi lội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34497,
+    "word": "水温",
+    "kana": "すいおん",
+    "senses": [
+      {
+        "sense_id": 261928,
+        "meaning_vi": "nhiệt độ nước",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt độ nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt độ nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34498,
+    "word": "水化",
+    "kana": "すいか",
+    "senses": [
+      {
+        "sense_id": 261929,
+        "meaning_vi": "hydrat hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "hydrat hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hydrat hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34499,
+    "word": "水化物",
+    "kana": "すいかぶつ",
+    "senses": [
+      {
+        "sense_id": 261930,
+        "meaning_vi": "ngậm nước",
+        "confidence": "high",
+        "search_keywords": [
+          "ngậm nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngậm nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

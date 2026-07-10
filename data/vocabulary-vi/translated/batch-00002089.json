@@ -1,0 +1,832 @@
+[
+  {
+    "vocabulary_id": 54292,
+    "word": "甲虫",
+    "kana": "こうちゅう",
+    "senses": [
+      {
+        "sense_id": 288492,
+        "meaning_vi": "bọ cánh cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "bọ cánh cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bọ cánh cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54293,
+    "word": "甲板",
+    "kana": "かんぱん",
+    "senses": [
+      {
+        "sense_id": 288493,
+        "meaning_vi": "boong (của một con tàu)",
+        "confidence": "high",
+        "search_keywords": [
+          "boong (của một con tàu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "boong (của một con tàu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54294,
+    "word": "紅",
+    "kana": "くれない",
+    "senses": [
+      {
+        "sense_id": 288494,
+        "meaning_vi": "màu đỏ đậm; màu đỏ thẫm",
+        "confidence": "high",
+        "search_keywords": [
+          "màu đỏ đậm",
+          "màu đỏ thẫm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu đỏ đậm; màu đỏ thẫm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288495,
+        "meaning_vi": "hồng hào; son môi",
+        "confidence": "high",
+        "search_keywords": [
+          "hồng hào",
+          "son môi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồng hào; son môi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54295,
+    "word": "紅色",
+    "kana": "べにいろ",
+    "senses": [
+      {
+        "sense_id": 288496,
+        "meaning_vi": "màu đỏ; màu đỏ thẫm; màu đỏ son",
+        "confidence": "high",
+        "search_keywords": [
+          "màu đỏ",
+          "màu đỏ thẫm",
+          "màu đỏ son"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu đỏ; màu đỏ thẫm; màu đỏ son",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54296,
+    "word": "紅葉",
+    "kana": "こうよう",
+    "senses": [
+      {
+        "sense_id": 288497,
+        "meaning_vi": "lá chuyển sang màu đỏ (vào mùa thu); lá đỏ; màu sắc mùa thu; màu sắc mùa thu",
+        "confidence": "high",
+        "search_keywords": [
+          "lá chuyển sang màu đỏ (vào mùa thu)",
+          "lá đỏ",
+          "màu sắc mùa thu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lá chuyển sang màu đỏ (vào mùa thu); lá đỏ; màu sắc mùa thu; màu sắc mùa thu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54297,
+    "word": "行き",
+    "kana": "いき",
+    "senses": [
+      {
+        "sense_id": 288498,
+        "meaning_vi": "đường tới đó; chặng đi; chuyến đi nước ngoài; chân khởi hành",
+        "confidence": "high",
+        "search_keywords": [
+          "đường tới đó",
+          "chặng đi",
+          "chuyến đi nước ngoài",
+          "chân khởi hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường tới đó; chặng đi; chuyến đi nước ngoài; chân khởi hành",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288499,
+        "meaning_vi": "ràng buộc cho...",
+        "confidence": "high",
+        "search_keywords": [
+          "ràng buộc cho..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ràng buộc cho...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288500,
+        "meaning_vi": "vé đi",
+        "confidence": "high",
+        "search_keywords": [
+          "vé đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vé đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54298,
+    "word": "行き違い",
+    "kana": "いきちがい",
+    "senses": [
+      {
+        "sense_id": 288501,
+        "meaning_vi": "qua đường mà không gặp nhau (ví dụ: thư trong bưu điện, người đi đường); đi lạc lối",
+        "confidence": "high",
+        "search_keywords": [
+          "qua đường mà không gặp nhau (ví dụ: thư trong bưu điện, người đi đường)",
+          "đi lạc lối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "qua đường mà không gặp nhau (ví dụ: thư trong bưu điện, người đi đường); đi lạc lối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288502,
+        "meaning_vi": "sự khác biệt về quan điểm; hiểu lầm; ghẻ lạnh; bất đồng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự khác biệt về quan điểm",
+          "hiểu lầm",
+          "ghẻ lạnh",
+          "bất đồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự khác biệt về quan điểm; hiểu lầm; ghẻ lạnh; bất đồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54299,
+    "word": "行き詰まり",
+    "kana": "いきづまり",
+    "senses": [
+      {
+        "sense_id": 288503,
+        "meaning_vi": "bế tắc; bế tắc; bế tắc; ngõ cụt",
+        "confidence": "high",
+        "search_keywords": [
+          "bế tắc",
+          "ngõ cụt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bế tắc; bế tắc; bế tắc; ngõ cụt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54300,
+    "word": "行き止まり",
+    "kana": "いきどまり",
+    "senses": [
+      {
+        "sense_id": 288504,
+        "meaning_vi": "ngõ cụt; ngõ cụt; cấm đi qua đường (tức là trên biển báo); ngõ cụt",
+        "confidence": "high",
+        "search_keywords": [
+          "ngõ cụt",
+          "cấm đi qua đường (tức là trên biển báo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngõ cụt; ngõ cụt; cấm đi qua đường (tức là trên biển báo); ngõ cụt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288505,
+        "meaning_vi": "kết thúc; cuối đường; điểm cuối; xa nhất có thể",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc",
+          "cuối đường",
+          "điểm cuối",
+          "xa nhất có thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc; cuối đường; điểm cuối; xa nhất có thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54301,
+    "word": "行き方",
+    "kana": "いきかた",
+    "senses": [
+      {
+        "sense_id": 288506,
+        "meaning_vi": "con đường (đi); tuyến đường",
+        "confidence": "high",
+        "search_keywords": [
+          "con đường (đi)",
+          "tuyến đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con đường (đi); tuyến đường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288507,
+        "meaning_vi": "cách (làm); phương pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "cách (làm)",
+          "phương pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách (làm); phương pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54302,
+    "word": "行き来",
+    "kana": "ゆきき",
+    "senses": [
+      {
+        "sense_id": 288508,
+        "meaning_vi": "đến và đi; giữ liên lạc; thăm nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "đến và đi",
+          "giữ liên lạc",
+          "thăm nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến và đi; giữ liên lạc; thăm nhau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288509,
+        "meaning_vi": "giao thông đường phố; đường cao tốc",
+        "confidence": "high",
+        "search_keywords": [
+          "giao thông đường phố",
+          "đường cao tốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao thông đường phố; đường cao tốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54303,
+    "word": "行く",
+    "kana": "いく",
+    "senses": [
+      {
+        "sense_id": 288510,
+        "meaning_vi": "đi ; di chuyển (về phía); hướng tới (hướng tới); rời đi (vì)",
+        "confidence": "high",
+        "search_keywords": [
+          "đi",
+          "di chuyển (về phía)",
+          "hướng tới (hướng tới)",
+          "rời đi (vì)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi ; di chuyển (về phía); hướng tới (hướng tới); rời đi (vì)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288511,
+        "meaning_vi": "để di chuyển qua; đi qua; đi bộ dọc theo (ví dụ: một con đường)",
+        "confidence": "high",
+        "search_keywords": [
+          "để di chuyển qua",
+          "đi qua",
+          "đi bộ dọc theo (ví dụ: một con đường)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để di chuyển qua; đi qua; đi bộ dọc theo (ví dụ: một con đường)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288512,
+        "meaning_vi": "đi (tốt, xấu, v.v.); tiến hành; hóa ra ; để hòa hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "đi (tốt, xấu, v.v.)",
+          "tiến hành",
+          "hóa ra",
+          "để hòa hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi (tốt, xấu, v.v.); tiến hành; hóa ra ; để hòa hợp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288513,
+        "meaning_vi": "để làm (theo một cách cụ thể); đi (với; một sự lựa chọn); để thử",
+        "confidence": "high",
+        "search_keywords": [
+          "để làm (theo một cách cụ thể)",
+          "đi (với",
+          "một sự lựa chọn)",
+          "để thử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để làm (theo một cách cụ thể); đi (với; một sự lựa chọn); để thử",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288514,
+        "meaning_vi": "trôi qua (về thời gian, mùa, v.v.); đi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "trôi qua (về thời gian, mùa, v.v.)",
+          "đi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trôi qua (về thời gian, mùa, v.v.); đi qua",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288515,
+        "meaning_vi": "phát trực tuyến; chảy",
+        "confidence": "high",
+        "search_keywords": [
+          "phát trực tuyến",
+          "chảy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát trực tuyến; chảy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288516,
+        "meaning_vi": "chết; qua đời",
+        "confidence": "high",
+        "search_keywords": [
+          "chết",
+          "qua đời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết; qua đời",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288517,
+        "meaning_vi": "đạt được (một giai đoạn, mức độ, tuổi tác, v.v.); đến được ; đi (cho đến nay ...)",
+        "confidence": "high",
+        "search_keywords": [
+          "đạt được (một giai đoạn, mức độ, tuổi tác, v.v.)",
+          "đến được",
+          "đi (cho đến nay ...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đạt được (một giai đoạn, mức độ, tuổi tác, v.v.); đến được ; đi (cho đến nay ...)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288518,
+        "meaning_vi": "để tiếp cận (thông tin, chỉ dẫn, gió, v.v.); đến",
+        "confidence": "high",
+        "search_keywords": [
+          "để tiếp cận (thông tin, chỉ dẫn, gió, v.v.)",
+          "đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tiếp cận (thông tin, chỉ dẫn, gió, v.v.); đến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288519,
+        "meaning_vi": "tiếp tục ...; tiếp tục ...; (tiến bộ) đều đặn; dần dần...; để dần dần...",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp tục ...",
+          "(tiến bộ) đều đặn",
+          "dần dần...",
+          "để dần dần..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp tục ...; tiếp tục ...; (tiến bộ) đều đặn; dần dần...; để dần dần...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288520,
+        "meaning_vi": "đạt cực khoái; đến ; để kiêm",
+        "confidence": "high",
+        "search_keywords": [
+          "đạt cực khoái",
+          "đến",
+          "để kiêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đạt cực khoái; đến ; để kiêm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288521,
+        "meaning_vi": "đi du lịch; để đạt được cao; bị ảo giác do ma túy",
+        "confidence": "high",
+        "search_keywords": [
+          "đi du lịch",
+          "để đạt được cao",
+          "bị ảo giác do ma túy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi du lịch; để đạt được cao; bị ảo giác do ma túy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54304,
+    "word": "行く末",
+    "kana": "ゆくすえ",
+    "senses": [
+      {
+        "sense_id": 288522,
+        "meaning_vi": "tương lai của một người; số phận của một người; triển vọng; lời hứa",
+        "confidence": "high",
+        "search_keywords": [
+          "tương lai của một người",
+          "số phận của một người",
+          "triển vọng",
+          "lời hứa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương lai của một người; số phận của một người; triển vọng; lời hứa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288523,
+        "meaning_vi": "cách của một người; con đường của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "cách của một người",
+          "con đường của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách của một người; con đường của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54305,
+    "word": "鋼板",
+    "kana": "こうはん",
+    "senses": [
+      {
+        "sense_id": 288524,
+        "meaning_vi": "tấm thép; tấm thép",
+        "confidence": "high",
+        "search_keywords": [
+          "tấm thép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tấm thép; tấm thép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54306,
+    "word": "香ばしい",
+    "kana": "こうばしい",
+    "senses": [
+      {
+        "sense_id": 288525,
+        "meaning_vi": "thơm (đậu rang, trà rang, v.v.); thơm (ví dụ như đốt củi); mùi dễ chịu; có mùi thơm (ví dụ: thịt nướng); ngon; ngon miệng",
+        "confidence": "high",
+        "search_keywords": [
+          "thơm (đậu rang, trà rang, v.v.)",
+          "thơm (ví dụ như đốt củi)",
+          "mùi dễ chịu",
+          "có mùi thơm (ví dụ: thịt nướng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thơm (đậu rang, trà rang, v.v.); thơm (ví dụ như đốt củi); mùi dễ chịu; có mùi thơm (ví dụ: thịt nướng); ngon; ngon miệng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54307,
+    "word": "芳しい",
+    "kana": "かんばしい",
+    "senses": [
+      {
+        "sense_id": 288526,
+        "meaning_vi": "có mùi thơm; thơm; thơm",
+        "confidence": "high",
+        "search_keywords": [
+          "có mùi thơm",
+          "thơm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có mùi thơm; thơm; thơm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288527,
+        "meaning_vi": "tốt (danh tiếng, điều kiện, kết quả, v.v.); thuận lợi",
+        "confidence": "high",
+        "search_keywords": [
+          "tốt (danh tiếng, điều kiện, kết quả, v.v.)",
+          "thuận lợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốt (danh tiếng, điều kiện, kết quả, v.v.); thuận lợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54308,
+    "word": "高層建築",
+    "kana": "こうそうけんちく",
+    "senses": [
+      {
+        "sense_id": 288528,
+        "meaning_vi": "nhà cao tầng; tòa nhà cao tầng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà cao tầng",
+          "tòa nhà cao tầng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà cao tầng; tòa nhà cao tầng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54309,
+    "word": "高名",
+    "kana": "こうめい",
+    "senses": [
+      {
+        "sense_id": 288529,
+        "meaning_vi": "nổi tiếng; nổi tiếng; nổi tiếng; phân biệt; ăn mừng",
+        "confidence": "high",
+        "search_keywords": [
+          "nổi tiếng",
+          "phân biệt",
+          "ăn mừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nổi tiếng; nổi tiếng; nổi tiếng; phân biệt; ăn mừng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288530,
+        "meaning_vi": "tên của bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "tên của bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên của bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54310,
+    "word": "劫",
+    "kana": "こう",
+    "senses": [
+      {
+        "sense_id": 288531,
+        "meaning_vi": "kalpa (eon, aeon)",
+        "confidence": "low",
+        "search_keywords": [
+          "kalpa (eon, aeon)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kalpa (eon, aeon)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288532,
+        "meaning_vi": "ko; vị trí cho phép nắm bắt vĩnh viễn và lấy lại những viên đá giống nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "ko",
+          "vị trí cho phép nắm bắt vĩnh viễn và lấy lại những viên đá giống nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ko; vị trí cho phép nắm bắt vĩnh viễn và lấy lại những viên đá giống nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54311,
+    "word": "劫掠",
+    "kana": "きょうりゃく",
+    "senses": [
+      {
+        "sense_id": 288533,
+        "meaning_vi": "cướp bóc; cướp bóc",
+        "confidence": "high",
+        "search_keywords": [
+          "cướp bóc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cướp bóc; cướp bóc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

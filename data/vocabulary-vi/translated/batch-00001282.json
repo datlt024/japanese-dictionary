@@ -1,0 +1,517 @@
+[
+  {
+    "vocabulary_id": 32602,
+    "word": "証印",
+    "kana": "しょういん",
+    "senses": [
+      {
+        "sense_id": 259323,
+        "meaning_vi": "một con dấu được dán vào một tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "một con dấu được dán vào một tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một con dấu được dán vào một tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32603,
+    "word": "証拠",
+    "kana": "しょうこ",
+    "senses": [
+      {
+        "sense_id": 259324,
+        "meaning_vi": "chứng cớ; bằng chứng",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng cớ",
+          "bằng chứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng cớ; bằng chứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32604,
+    "word": "証券",
+    "kana": "しょうけん",
+    "senses": [
+      {
+        "sense_id": 259325,
+        "meaning_vi": "trái phiếu; hóa đơn; giấy chứng nhận; an ninh",
+        "confidence": "high",
+        "search_keywords": [
+          "trái phiếu",
+          "hóa đơn",
+          "giấy chứng nhận",
+          "an ninh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái phiếu; hóa đơn; giấy chứng nhận; an ninh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32605,
+    "word": "証券取引委員会",
+    "kana": "しょうけんとりひきいいんかい",
+    "senses": [
+      {
+        "sense_id": 259326,
+        "meaning_vi": "Ủy ban Chứng khoán và Giao dịch; GIÂY",
+        "confidence": "high",
+        "search_keywords": [
+          "Ủy ban Chứng khoán và Giao dịch",
+          "GIÂY"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ủy ban Chứng khoán và Giao dịch; GIÂY",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32606,
+    "word": "証券取引所",
+    "kana": "しょうけんとりひきじょ",
+    "senses": [
+      {
+        "sense_id": 259327,
+        "meaning_vi": "sàn giao dịch chứng khoán; sàn giao dịch chứng khoán; thị trường chứng khoán",
+        "confidence": "high",
+        "search_keywords": [
+          "sàn giao dịch chứng khoán",
+          "thị trường chứng khoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sàn giao dịch chứng khoán; sàn giao dịch chứng khoán; thị trường chứng khoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32607,
+    "word": "証言",
+    "kana": "しょうげん",
+    "senses": [
+      {
+        "sense_id": 259328,
+        "meaning_vi": "lời khai; (bằng lời nói) bằng chứng",
+        "confidence": "high",
+        "search_keywords": [
+          "lời khai",
+          "(bằng lời nói) bằng chứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời khai; (bằng lời nói) bằng chứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32608,
+    "word": "証書",
+    "kana": "しょうしょ",
+    "senses": [
+      {
+        "sense_id": 259329,
+        "meaning_vi": "tài liệu (bằng chứng); giấy chứng nhận; giấy; trái phiếu; chứng thư",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu (bằng chứng)",
+          "giấy chứng nhận",
+          "giấy",
+          "trái phiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu (bằng chứng); giấy chứng nhận; giấy; trái phiếu; chứng thư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32609,
+    "word": "証人",
+    "kana": "しょうにん",
+    "senses": [
+      {
+        "sense_id": 259330,
+        "meaning_vi": "nhân chứng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân chứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân chứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32610,
+    "word": "証人喚問",
+    "kana": "しょうにんかんもん",
+    "senses": [
+      {
+        "sense_id": 259331,
+        "meaning_vi": "triệu tập nhân chứng tuyên thệ (tòa án, Diet); trát đòi hầu tòa",
+        "confidence": "high",
+        "search_keywords": [
+          "triệu tập nhân chứng tuyên thệ (tòa án, Diet)",
+          "trát đòi hầu tòa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triệu tập nhân chứng tuyên thệ (tòa án, Diet); trát đòi hầu tòa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32611,
+    "word": "証明",
+    "kana": "しょうめい",
+    "senses": [
+      {
+        "sense_id": 259332,
+        "meaning_vi": "bằng chứng; lời khai; cuộc biểu tình; xác minh; chứng nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "bằng chứng",
+          "lời khai",
+          "cuộc biểu tình",
+          "xác minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bằng chứng; lời khai; cuộc biểu tình; xác minh; chứng nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32612,
+    "word": "証明済み",
+    "kana": "しょうめいずみ",
+    "senses": [
+      {
+        "sense_id": 259333,
+        "meaning_vi": "đã được chứng minh rồi",
+        "confidence": "high",
+        "search_keywords": [
+          "đã được chứng minh rồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đã được chứng minh rồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32613,
+    "word": "証明書",
+    "kana": "しょうめいしょ",
+    "senses": [
+      {
+        "sense_id": 259334,
+        "meaning_vi": "giấy chứng nhận; thông tin xác thực; lời chứng thực",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy chứng nhận",
+          "thông tin xác thực",
+          "lời chứng thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy chứng nhận; thông tin xác thực; lời chứng thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32614,
+    "word": "詔書",
+    "kana": "しょうしょ",
+    "senses": [
+      {
+        "sense_id": 259335,
+        "meaning_vi": "sắc lệnh của triều đình; sắc lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "sắc lệnh của triều đình",
+          "sắc lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắc lệnh của triều đình; sắc lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32615,
+    "word": "詔勅",
+    "kana": "しょうちょく",
+    "senses": [
+      {
+        "sense_id": 259336,
+        "meaning_vi": "sắc lệnh của triều đình; sắc lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "sắc lệnh của triều đình",
+          "sắc lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắc lệnh của triều đình; sắc lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32616,
+    "word": "詳しい",
+    "kana": "くわしい",
+    "senses": [
+      {
+        "sense_id": 259337,
+        "meaning_vi": "chi tiết; đầy; phút",
+        "confidence": "high",
+        "search_keywords": [
+          "chi tiết",
+          "đầy",
+          "phút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi tiết; đầy; phút",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259338,
+        "meaning_vi": "biết rất rõ; am hiểu (về); quen biết rõ (với); đầy đủ thông tin (về); quen thuộc (với)",
+        "confidence": "high",
+        "search_keywords": [
+          "biết rất rõ",
+          "am hiểu (về)",
+          "quen biết rõ (với)",
+          "đầy đủ thông tin (về)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biết rất rõ; am hiểu (về); quen biết rõ (với); đầy đủ thông tin (về); quen thuộc (với)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32617,
+    "word": "詳しく",
+    "kana": "くわしく",
+    "senses": [
+      {
+        "sense_id": 259339,
+        "meaning_vi": "một cách chi tiết; đầy đủ; tỉ mỉ; ở độ dài",
+        "confidence": "high",
+        "search_keywords": [
+          "một cách chi tiết",
+          "đầy đủ",
+          "tỉ mỉ",
+          "ở độ dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cách chi tiết; đầy đủ; tỉ mỉ; ở độ dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32618,
+    "word": "詳解",
+    "kana": "しょうかい",
+    "senses": [
+      {
+        "sense_id": 259340,
+        "meaning_vi": "giải thích chi tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "giải thích chi tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải thích chi tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32619,
+    "word": "詳細",
+    "kana": "しょうさい",
+    "senses": [
+      {
+        "sense_id": 259341,
+        "meaning_vi": "chi tiết; chi tiết; chi tiết cụ thể",
+        "confidence": "high",
+        "search_keywords": [
+          "chi tiết",
+          "chi tiết cụ thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi tiết; chi tiết; chi tiết cụ thể",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259342,
+        "meaning_vi": "chi tiết; cụ thể; phút",
+        "confidence": "high",
+        "search_keywords": [
+          "chi tiết",
+          "cụ thể",
+          "phút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi tiết; cụ thể; phút",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259343,
+        "meaning_vi": "chế độ xem cận cảnh (của bản đồ hiển thị kỹ thuật số); chế độ xem phóng to",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ xem cận cảnh (của bản đồ hiển thị kỹ thuật số)",
+          "chế độ xem phóng to"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ xem cận cảnh (của bản đồ hiển thị kỹ thuật số); chế độ xem phóng to",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32620,
+    "word": "詳細情報",
+    "kana": "しょうさいじょうほう",
+    "senses": [
+      {
+        "sense_id": 259344,
+        "meaning_vi": "thông tin chi tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin chi tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin chi tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32621,
+    "word": "詳述",
+    "kana": "しょうじゅつ",
+    "senses": [
+      {
+        "sense_id": 259345,
+        "meaning_vi": "giải thích chi tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "giải thích chi tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải thích chi tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

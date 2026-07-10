@@ -1,0 +1,536 @@
+[
+  {
+    "vocabulary_id": 90072,
+    "word": "アップグレード",
+    "kana": "アップグレード",
+    "senses": [
+      {
+        "sense_id": 330171,
+        "meaning_vi": "nâng cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "nâng cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nâng cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90073,
+    "word": "移り住む",
+    "kana": "うつりすむ",
+    "senses": [
+      {
+        "sense_id": 330172,
+        "meaning_vi": "di chuyển (đến khu vực, quốc gia khác, v.v.); di cư",
+        "confidence": "high",
+        "search_keywords": [
+          "di chuyển (đến khu vực, quốc gia khác, v.v.)",
+          "di cư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di chuyển (đến khu vực, quốc gia khác, v.v.); di cư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90074,
+    "word": "飲ます",
+    "kana": "のます",
+    "senses": [
+      {
+        "sense_id": 330173,
+        "meaning_vi": "làm cho (ai) uống; ép uống; để uống",
+        "confidence": "high",
+        "search_keywords": [
+          "làm cho (ai) uống",
+          "ép uống",
+          "để uống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm cho (ai) uống; ép uống; để uống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 330174,
+        "meaning_vi": "phục vụ (rượu); đãi ai đó (uống)",
+        "confidence": "high",
+        "search_keywords": [
+          "phục vụ (rượu)",
+          "đãi ai đó (uống)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục vụ (rượu); đãi ai đó (uống)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 330175,
+        "meaning_vi": "có thể uống được (đặc biệt là rượu); trở nên ngon miệng",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể uống được (đặc biệt là rượu)",
+          "trở nên ngon miệng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể uống được (đặc biệt là rượu); trở nên ngon miệng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90075,
+    "word": "隠る",
+    "kana": "なまる",
+    "senses": [
+      {
+        "sense_id": 330176,
+        "meaning_vi": "che giấu; được ẩn giấu; để che giấu bản thân; biến mất",
+        "confidence": "high",
+        "search_keywords": [
+          "che giấu",
+          "được ẩn giấu",
+          "để che giấu bản thân",
+          "biến mất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "che giấu; được ẩn giấu; để che giấu bản thân; biến mất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90076,
+    "word": "棚からぼた餅",
+    "kana": "たなからぼたもち",
+    "senses": [
+      {
+        "sense_id": 330177,
+        "meaning_vi": "cơn gió bất ngờ; điều may mắn bất ngờ; Mochi phủ azuki (rơi) từ kệ",
+        "confidence": "high",
+        "search_keywords": [
+          "cơn gió bất ngờ",
+          "điều may mắn bất ngờ",
+          "Mochi phủ azuki (rơi) từ kệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơn gió bất ngờ; điều may mắn bất ngờ; Mochi phủ azuki (rơi) từ kệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90077,
+    "word": "踊らされる",
+    "kana": "おどらされる",
+    "senses": [
+      {
+        "sense_id": 330178,
+        "meaning_vi": "bị thao túng; được làm để nhảy",
+        "confidence": "high",
+        "search_keywords": [
+          "bị thao túng",
+          "được làm để nhảy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị thao túng; được làm để nhảy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90078,
+    "word": "健常者",
+    "kana": "けんじょうしゃ",
+    "senses": [
+      {
+        "sense_id": 330179,
+        "meaning_vi": "người không có khuyết tật về thể chất hoặc tinh thần; người khỏe mạnh; người không khuyết tật",
+        "confidence": "high",
+        "search_keywords": [
+          "người không có khuyết tật về thể chất hoặc tinh thần",
+          "người khỏe mạnh",
+          "người không khuyết tật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người không có khuyết tật về thể chất hoặc tinh thần; người khỏe mạnh; người không khuyết tật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90079,
+    "word": "多国間",
+    "kana": "たこくかん",
+    "senses": [
+      {
+        "sense_id": 330180,
+        "meaning_vi": "đa phương; đa quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "đa phương",
+          "đa quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đa phương; đa quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90080,
+    "word": "多国間協議",
+    "kana": "たこくかんきょうぎ",
+    "senses": [
+      {
+        "sense_id": 330181,
+        "meaning_vi": "hội nghị đa phương; đàm phán đa phương",
+        "confidence": "high",
+        "search_keywords": [
+          "hội nghị đa phương",
+          "đàm phán đa phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội nghị đa phương; đàm phán đa phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90081,
+    "word": "水平展開",
+    "kana": "すいへいてんかい",
+    "senses": [
+      {
+        "sense_id": 330182,
+        "meaning_vi": "sự tham gia của các nhóm ngang hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tham gia của các nhóm ngang hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tham gia của các nhóm ngang hàng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 330183,
+        "meaning_vi": "ứng dụng cho các sản phẩm tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "ứng dụng cho các sản phẩm tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ứng dụng cho các sản phẩm tương tự",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 330184,
+        "meaning_vi": "cơ sở (tổ chức, phát triển, phong trào)",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở (tổ chức, phát triển, phong trào)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở (tổ chức, phát triển, phong trào)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90082,
+    "word": "ここん所",
+    "kana": "ここんとこ",
+    "senses": [
+      {
+        "sense_id": 330185,
+        "meaning_vi": "gần đây; gần đây; những ngày này",
+        "confidence": "high",
+        "search_keywords": [
+          "gần đây",
+          "những ngày này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gần đây; gần đây; những ngày này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90083,
+    "word": "再生速度",
+    "kana": "さいせいそくど",
+    "senses": [
+      {
+        "sense_id": 330186,
+        "meaning_vi": "tốc độ phát lại; tốc độ phát lại",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ phát lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ phát lại; tốc độ phát lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 330187,
+        "meaning_vi": "tốc độ làm mới",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ làm mới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ làm mới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90084,
+    "word": "四人",
+    "kana": "よにん",
+    "senses": [
+      {
+        "sense_id": 330188,
+        "meaning_vi": "bốn người",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90085,
+    "word": "パンチライン",
+    "kana": "パンチライン",
+    "senses": [
+      {
+        "sense_id": 330189,
+        "meaning_vi": "điểm mấu chốt (của câu chuyện hoặc trò đùa)",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm mấu chốt (của câu chuyện hoặc trò đùa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm mấu chốt (của câu chuyện hoặc trò đùa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90086,
+    "word": "少年愛嗜好",
+    "kana": "しょうねんあいしこう",
+    "senses": [
+      {
+        "sense_id": 330190,
+        "meaning_vi": "ấu dâm",
+        "confidence": "high",
+        "search_keywords": [
+          "ấu dâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ấu dâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90087,
+    "word": "キャッシュベルト",
+    "kana": "キャッシュベルト",
+    "senses": [
+      {
+        "sense_id": 330191,
+        "meaning_vi": "vành đai tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "vành đai tiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vành đai tiền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90088,
+    "word": "簪",
+    "kana": "かんざし",
+    "senses": [
+      {
+        "sense_id": 330192,
+        "meaning_vi": "kẹp tóc trang trí",
+        "confidence": "high",
+        "search_keywords": [
+          "kẹp tóc trang trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẹp tóc trang trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90089,
+    "word": "バラ肉",
+    "kana": "ばらにく",
+    "senses": [
+      {
+        "sense_id": 330193,
+        "meaning_vi": "sườn không xương (đặc biệt là thịt lợn hoặc thịt bò); xương sườn",
+        "confidence": "high",
+        "search_keywords": [
+          "sườn không xương (đặc biệt là thịt lợn hoặc thịt bò)",
+          "xương sườn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sườn không xương (đặc biệt là thịt lợn hoặc thịt bò); xương sườn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90090,
+    "word": "闡明",
+    "kana": "せんめい",
+    "senses": [
+      {
+        "sense_id": 330194,
+        "meaning_vi": "làm rõ; làm sáng tỏ; lời giải thích",
+        "confidence": "high",
+        "search_keywords": [
+          "làm rõ",
+          "làm sáng tỏ",
+          "lời giải thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm rõ; làm sáng tỏ; lời giải thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90091,
+    "word": "内鮮一体",
+    "kana": "ないせんいったい",
+    "senses": [
+      {
+        "sense_id": 330195,
+        "meaning_vi": "Nhật Bản và Hàn Quốc là một",
+        "confidence": "high",
+        "search_keywords": [
+          "Nhật Bản và Hàn Quốc là một"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nhật Bản và Hàn Quốc là một",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

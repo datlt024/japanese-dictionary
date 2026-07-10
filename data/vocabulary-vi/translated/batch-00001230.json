@@ -1,0 +1,978 @@
+[
+  {
+    "vocabulary_id": 31309,
+    "word": "出し遅れ",
+    "kana": "だしおくれ",
+    "senses": [
+      {
+        "sense_id": 257560,
+        "meaning_vi": "muộn màng",
+        "confidence": "high",
+        "search_keywords": [
+          "muộn màng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "muộn màng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31310,
+    "word": "出し入れ",
+    "kana": "だしいれ",
+    "senses": [
+      {
+        "sense_id": 257561,
+        "meaning_vi": "gửi và rút tiền; đưa vào và ra",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi và rút tiền",
+          "đưa vào và ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi và rút tiền; đưa vào và ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31311,
+    "word": "出し抜く",
+    "kana": "だしぬく",
+    "senses": [
+      {
+        "sense_id": 257562,
+        "meaning_vi": "đánh lừa ; vượt trội hơn; để ăn trộm một cuộc hành quân; để bắt đầu nhảy; đoán trước ; ngăn chặn",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh lừa",
+          "vượt trội hơn",
+          "để ăn trộm một cuộc hành quân",
+          "để bắt đầu nhảy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh lừa ; vượt trội hơn; để ăn trộm một cuộc hành quân; để bắt đầu nhảy; đoán trước ; ngăn chặn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31312,
+    "word": "出し抜け",
+    "kana": "だしぬけ",
+    "senses": [
+      {
+        "sense_id": 257563,
+        "meaning_vi": "đột nhiên; không ngờ tới; đột ngột; đột ngột",
+        "confidence": "high",
+        "search_keywords": [
+          "đột nhiên",
+          "không ngờ tới",
+          "đột ngột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đột nhiên; không ngờ tới; đột ngột; đột ngột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31313,
+    "word": "出し物",
+    "kana": "だしもの",
+    "senses": [
+      {
+        "sense_id": 257564,
+        "meaning_vi": "chương trình (ví dụ: rạp hát, rạp hát); chương trình",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình (ví dụ: rạp hát, rạp hát)",
+          "chương trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình (ví dụ: rạp hát, rạp hát); chương trình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257565,
+        "meaning_vi": "tác phẩm (sân khấu); con số; hiệu suất; đặc điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "tác phẩm (sân khấu)",
+          "con số",
+          "hiệu suất",
+          "đặc điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tác phẩm (sân khấu); con số; hiệu suất; đặc điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31314,
+    "word": "出し分",
+    "kana": "だしぶん",
+    "senses": [
+      {
+        "sense_id": 257566,
+        "meaning_vi": "phần của một người (trong chi phí)",
+        "confidence": "high",
+        "search_keywords": [
+          "phần của một người (trong chi phí)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần của một người (trong chi phí)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31315,
+    "word": "出し放題",
+    "kana": "だしほうだい",
+    "senses": [
+      {
+        "sense_id": 257567,
+        "meaning_vi": "dòng nước tự do",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng nước tự do"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng nước tự do",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31316,
+    "word": "出す",
+    "kana": "だす",
+    "senses": [
+      {
+        "sense_id": 257568,
+        "meaning_vi": "lấy ra ; để thoát ra",
+        "confidence": "high",
+        "search_keywords": [
+          "lấy ra",
+          "để thoát ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lấy ra ; để thoát ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257569,
+        "meaning_vi": "đưa ra ngoài; tiết lộ; để hiển thị",
+        "confidence": "high",
+        "search_keywords": [
+          "đưa ra ngoài",
+          "tiết lộ",
+          "để hiển thị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đưa ra ngoài; tiết lộ; để hiển thị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257570,
+        "meaning_vi": "để nộp (ví dụ: luận án); nộp vào",
+        "confidence": "high",
+        "search_keywords": [
+          "để nộp (ví dụ: luận án)",
+          "nộp vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nộp (ví dụ: luận án); nộp vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257571,
+        "meaning_vi": "xuất bản; công khai",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất bản",
+          "công khai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất bản; công khai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257572,
+        "meaning_vi": "để gửi (ví dụ: lá thư)",
+        "confidence": "high",
+        "search_keywords": [
+          "để gửi (ví dụ: lá thư)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để gửi (ví dụ: lá thư)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257573,
+        "meaning_vi": "để tạo ra (một âm thanh); bắt đầu (cháy)",
+        "confidence": "high",
+        "search_keywords": [
+          "để tạo ra (một âm thanh)",
+          "bắt đầu (cháy)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tạo ra (một âm thanh); bắt đầu (cháy)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257574,
+        "meaning_vi": "phục vụ (thức ăn)",
+        "confidence": "high",
+        "search_keywords": [
+          "phục vụ (thức ăn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục vụ (thức ăn)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257575,
+        "meaning_vi": "... out (ví dụ: nhảy ra, thực hiện)",
+        "confidence": "high",
+        "search_keywords": [
+          "... out (ví dụ: nhảy ra, thực hiện)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "... out (ví dụ: nhảy ra, thực hiện)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257576,
+        "meaning_vi": "bắt đầu ...; để bắt đầu ...; xông vào...",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu ...",
+          "để bắt đầu ...",
+          "xông vào..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu ...; để bắt đầu ...; xông vào...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31317,
+    "word": "出たとこ勝負",
+    "kana": "でたとこしょうぶ",
+    "senses": [
+      {
+        "sense_id": 257577,
+        "meaning_vi": "để lại một vấn đề có cơ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "để lại một vấn đề có cơ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để lại một vấn đề có cơ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31318,
+    "word": "出っ歯",
+    "kana": "でっぱ",
+    "senses": [
+      {
+        "sense_id": 257578,
+        "meaning_vi": "răng nhô ra; cắn quá mức; răng thỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "răng nhô ra",
+          "cắn quá mức",
+          "răng thỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "răng nhô ra; cắn quá mức; răng thỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31319,
+    "word": "出っ張り",
+    "kana": "でっぱり",
+    "senses": [
+      {
+        "sense_id": 257579,
+        "meaning_vi": "phép chiếu; nhô ra; cục u; phình ra",
+        "confidence": "high",
+        "search_keywords": [
+          "phép chiếu",
+          "nhô ra",
+          "cục u",
+          "phình ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phép chiếu; nhô ra; cục u; phình ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31320,
+    "word": "出っ張る",
+    "kana": "でっぱる",
+    "senses": [
+      {
+        "sense_id": 257580,
+        "meaning_vi": "để dự án; nổi bật; nhô ra ngoài; nhô ra",
+        "confidence": "high",
+        "search_keywords": [
+          "để dự án",
+          "nổi bật",
+          "nhô ra ngoài",
+          "nhô ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để dự án; nổi bật; nhô ra ngoài; nhô ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31321,
+    "word": "出で立つ",
+    "kana": "いでたつ",
+    "senses": [
+      {
+        "sense_id": 257581,
+        "meaning_vi": "bắt đầu; rời đi",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu",
+          "rời đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu; rời đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31322,
+    "word": "出る",
+    "kana": "でる",
+    "senses": [
+      {
+        "sense_id": 257582,
+        "meaning_vi": "rời đi; để thoát ra; đi ra ngoài; đi ra; để thoát ra",
+        "confidence": "high",
+        "search_keywords": [
+          "rời đi",
+          "để thoát ra",
+          "đi ra ngoài",
+          "đi ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời đi; để thoát ra; đi ra ngoài; đi ra; để thoát ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257583,
+        "meaning_vi": "rời đi (trên một cuộc hành trình); khởi hành; để bắt đầu; khởi hành",
+        "confidence": "high",
+        "search_keywords": [
+          "rời đi (trên một cuộc hành trình)",
+          "khởi hành",
+          "để bắt đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời đi (trên một cuộc hành trình); khởi hành; để bắt đầu; khởi hành",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257584,
+        "meaning_vi": "để tiến về phía trước",
+        "confidence": "high",
+        "search_keywords": [
+          "để tiến về phía trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tiến về phía trước",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257585,
+        "meaning_vi": "đến ; đến được ; dẫn tới; để đạt được",
+        "confidence": "high",
+        "search_keywords": [
+          "đến",
+          "đến được",
+          "dẫn tới",
+          "để đạt được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến ; đến được ; dẫn tới; để đạt được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257586,
+        "meaning_vi": "xuất hiện; đi ra; nổi lên; lên bề mặt; đi ra ; bật lên; được tìm thấy; được phát hiện; được khám phá; được tiếp xúc; để hiển thị; được trưng bày; được trưng bày",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất hiện",
+          "đi ra",
+          "nổi lên",
+          "lên bề mặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất hiện; đi ra; nổi lên; lên bề mặt; đi ra ; bật lên; được tìm thấy; được phát hiện; được khám phá; được tiếp xúc; để hiển thị; được trưng bày; được trưng bày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257587,
+        "meaning_vi": "xuất hiện (trong bản in); được xuất bản; được công bố; được ban hành; được liệt kê; đi ra",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất hiện (trong bản in)",
+          "được xuất bản",
+          "được công bố",
+          "được ban hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất hiện (trong bản in); được xuất bản; được công bố; được ban hành; được liệt kê; đi ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257588,
+        "meaning_vi": "tham dự; tham gia; tham gia; để tham gia (một sự kiện); để chơi; để thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "tham dự",
+          "tham gia",
+          "để tham gia (một sự kiện)",
+          "để chơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham dự; tham gia; tham gia; để tham gia (một sự kiện); để chơi; để thực hiện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257589,
+        "meaning_vi": "được nêu rõ; được thể hiện; đi lên ; được nuôi dưỡng; được nâng lên",
+        "confidence": "high",
+        "search_keywords": [
+          "được nêu rõ",
+          "được thể hiện",
+          "đi lên",
+          "được nuôi dưỡng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được nêu rõ; được thể hiện; đi lên ; được nuôi dưỡng; được nâng lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257590,
+        "meaning_vi": "bán",
+        "confidence": "high",
+        "search_keywords": [
+          "bán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bán",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257591,
+        "meaning_vi": "vượt quá ; đi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "vượt quá",
+          "đi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vượt quá ; đi qua",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257592,
+        "meaning_vi": "để dính ra; nhô ra",
+        "confidence": "high",
+        "search_keywords": [
+          "để dính ra",
+          "nhô ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để dính ra; nhô ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257593,
+        "meaning_vi": "bùng phát; xảy ra; bắt đầu; bắt nguồn",
+        "confidence": "high",
+        "search_keywords": [
+          "bùng phát",
+          "xảy ra",
+          "bắt đầu",
+          "bắt nguồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bùng phát; xảy ra; bắt đầu; bắt nguồn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257594,
+        "meaning_vi": "được sản xuất",
+        "confidence": "high",
+        "search_keywords": [
+          "được sản xuất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được sản xuất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257595,
+        "meaning_vi": "đến từ ; bắt nguồn từ",
+        "confidence": "high",
+        "search_keywords": [
+          "đến từ",
+          "bắt nguồn từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến từ ; bắt nguồn từ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257596,
+        "meaning_vi": "được cho; để có được ; nhận được; được cung cấp; được cung cấp; được trình bày; phải nộp; được giao nộp; được nộp vào; được trả tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "được cho",
+          "để có được",
+          "nhận được",
+          "được cung cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được cho; để có được ; nhận được; được cung cấp; được cung cấp; được trình bày; phải nộp; được giao nộp; được nộp vào; được trả tiền",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257597,
+        "meaning_vi": "để trả lời (điện thoại, cửa, v.v.); để có được",
+        "confidence": "high",
+        "search_keywords": [
+          "để trả lời (điện thoại, cửa, v.v.)",
+          "để có được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trả lời (điện thoại, cửa, v.v.); để có được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257598,
+        "meaning_vi": "giả định (một thái độ); hành động; cư xử",
+        "confidence": "high",
+        "search_keywords": [
+          "giả định (một thái độ)",
+          "hành động",
+          "cư xử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả định (một thái độ); hành động; cư xử",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257599,
+        "meaning_vi": "để nhận (tốc độ, vv); để đạt được",
+        "confidence": "high",
+        "search_keywords": [
+          "để nhận (tốc độ, vv)",
+          "để đạt được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nhận (tốc độ, vv); để đạt được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257600,
+        "meaning_vi": "chảy (ví dụ như nước mắt); chạy ; chảy máu",
+        "confidence": "high",
+        "search_keywords": [
+          "chảy (ví dụ như nước mắt)",
+          "chạy",
+          "chảy máu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chảy (ví dụ như nước mắt); chạy ; chảy máu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257601,
+        "meaning_vi": "tốt nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "tốt nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốt nghiệp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257602,
+        "meaning_vi": "xuất tinh; để kiêm",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất tinh",
+          "để kiêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất tinh; để kiêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31323,
+    "word": "出る釘は打たれる",
+    "kana": "でるくぎはうたれる",
+    "senses": [
+      {
+        "sense_id": 257603,
+        "meaning_vi": "chiếc đinh nhô ra sẽ bị đóng xuống; những người dính vào quá nhiều sẽ bị trừng phạt",
+        "confidence": "high",
+        "search_keywords": [
+          "chiếc đinh nhô ra sẽ bị đóng xuống",
+          "những người dính vào quá nhiều sẽ bị trừng phạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiếc đinh nhô ra sẽ bị đóng xuống; những người dính vào quá nhiều sẽ bị trừng phạt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257604,
+        "meaning_vi": "cây cao đón nhiều gió; những người nổi trội ở một cái gì đó trở nên không thích",
+        "confidence": "high",
+        "search_keywords": [
+          "cây cao đón nhiều gió",
+          "những người nổi trội ở một cái gì đó trở nên không thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây cao đón nhiều gió; những người nổi trội ở một cái gì đó trở nên không thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31324,
+    "word": "出違う",
+    "kana": "でちがう",
+    "senses": [
+      {
+        "sense_id": 257605,
+        "meaning_vi": "bỏ lỡ một vị khách",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ lỡ một vị khách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ lỡ một vị khách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31325,
+    "word": "出演",
+    "kana": "しゅつえん",
+    "senses": [
+      {
+        "sense_id": 257606,
+        "meaning_vi": "sự xuất hiện (trong một bộ phim, vở kịch, chương trình truyền hình, v.v.); hiệu suất",
+        "confidence": "high",
+        "search_keywords": [
+          "sự xuất hiện (trong một bộ phim, vở kịch, chương trình truyền hình, v.v.)",
+          "hiệu suất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự xuất hiện (trong một bộ phim, vở kịch, chương trình truyền hình, v.v.); hiệu suất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31326,
+    "word": "出演者",
+    "kana": "しゅつえんしゃ",
+    "senses": [
+      {
+        "sense_id": 257607,
+        "meaning_vi": "người biểu diễn; diễn viên; nữ diễn viên; đúc",
+        "confidence": "high",
+        "search_keywords": [
+          "người biểu diễn",
+          "diễn viên",
+          "nữ diễn viên",
+          "đúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người biểu diễn; diễn viên; nữ diễn viên; đúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31327,
+    "word": "出家",
+    "kana": "しゅっけ",
+    "senses": [
+      {
+        "sense_id": 257608,
+        "meaning_vi": "bước vào chức linh mục",
+        "confidence": "high",
+        "search_keywords": [
+          "bước vào chức linh mục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bước vào chức linh mục",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257609,
+        "meaning_vi": "linh mục; nhà sư; tu sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "linh mục",
+          "nhà sư",
+          "tu sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "linh mục; nhà sư; tu sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31328,
+    "word": "出家遁世",
+    "kana": "しゅっけとんせい",
+    "senses": [
+      {
+        "sense_id": 257610,
+        "meaning_vi": "tu viện ẩn dật",
+        "confidence": "high",
+        "search_keywords": [
+          "tu viện ẩn dật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tu viện ẩn dật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

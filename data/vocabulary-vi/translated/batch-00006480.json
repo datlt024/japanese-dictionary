@@ -1,0 +1,507 @@
+[
+  {
+    "vocabulary_id": 152219,
+    "word": "衝撃的",
+    "kana": "しょうげきてき",
+    "senses": [
+      {
+        "sense_id": 398164,
+        "meaning_vi": "tàn phá; đau ruột; gây sốc; đáng ngạc nhiên; giật gân; đáng kinh ngạc; đáng kinh ngạc",
+        "confidence": "high",
+        "search_keywords": [
+          "tàn phá",
+          "đau ruột",
+          "gây sốc",
+          "đáng ngạc nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tàn phá; đau ruột; gây sốc; đáng ngạc nhiên; giật gân; đáng kinh ngạc; đáng kinh ngạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152220,
+    "word": "公文書館",
+    "kana": "こうぶんしょかん",
+    "senses": [
+      {
+        "sense_id": 398165,
+        "meaning_vi": "văn phòng hồ sơ công cộng; kho lưu trữ",
+        "confidence": "high",
+        "search_keywords": [
+          "văn phòng hồ sơ công cộng",
+          "kho lưu trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "văn phòng hồ sơ công cộng; kho lưu trữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152221,
+    "word": "インターネット掲示板",
+    "kana": "インターネットけいじばん",
+    "senses": [
+      {
+        "sense_id": 398166,
+        "meaning_vi": "diễn đàn Internet; Bảng thông báo Internet",
+        "confidence": "high",
+        "search_keywords": [
+          "diễn đàn Internet",
+          "Bảng thông báo Internet"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "diễn đàn Internet; Bảng thông báo Internet",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152222,
+    "word": "飼育員",
+    "kana": "しいくいん",
+    "senses": [
+      {
+        "sense_id": 398167,
+        "meaning_vi": "người chăm sóc (tại vườn thú hoặc thủy cung); người giữ; tiếp viên; nhân viên chăn nuôi",
+        "confidence": "high",
+        "search_keywords": [
+          "người chăm sóc (tại vườn thú hoặc thủy cung)",
+          "người giữ",
+          "tiếp viên",
+          "nhân viên chăn nuôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người chăm sóc (tại vườn thú hoặc thủy cung); người giữ; tiếp viên; nhân viên chăn nuôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152223,
+    "word": "回答選択肢",
+    "kana": "かいとうせんたくし",
+    "senses": [
+      {
+        "sense_id": 398168,
+        "meaning_vi": "các lựa chọn trả lời (ví dụ: đối với một bảng câu hỏi); khung trả lời",
+        "confidence": "high",
+        "search_keywords": [
+          "các lựa chọn trả lời (ví dụ: đối với một bảng câu hỏi)",
+          "khung trả lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "các lựa chọn trả lời (ví dụ: đối với một bảng câu hỏi); khung trả lời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152224,
+    "word": "敵将",
+    "kana": "てきしょう",
+    "senses": [
+      {
+        "sense_id": 398169,
+        "meaning_vi": "tướng địch",
+        "confidence": "high",
+        "search_keywords": [
+          "tướng địch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tướng địch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152225,
+    "word": "堪ったものではない",
+    "kana": "たまったものではない",
+    "senses": [
+      {
+        "sense_id": 398170,
+        "meaning_vi": "không thể chịu đựng được; không thể chịu nổi; không thể chịu đựng được",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể chịu đựng được",
+          "không thể chịu nổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể chịu đựng được; không thể chịu nổi; không thể chịu đựng được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 398171,
+        "meaning_vi": "to lớn; ra khỏi thế giới này; không thể cưỡng lại được",
+        "confidence": "high",
+        "search_keywords": [
+          "to lớn",
+          "ra khỏi thế giới này",
+          "không thể cưỡng lại được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "to lớn; ra khỏi thế giới này; không thể cưỡng lại được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 398172,
+        "meaning_vi": "không thể giúp được (làm); không thể không làm; lo lắng để làm",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể giúp được (làm)",
+          "không thể không làm",
+          "lo lắng để làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể giúp được (làm); không thể không làm; lo lắng để làm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152226,
+    "word": "インターネット調査",
+    "kana": "インターネットちょうさ",
+    "senses": [
+      {
+        "sense_id": 398173,
+        "meaning_vi": "Khảo sát trên Internet; khảo sát trực tuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "Khảo sát trên Internet",
+          "khảo sát trực tuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Khảo sát trên Internet; khảo sát trực tuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152227,
+    "word": "印欧語",
+    "kana": "いんおうご",
+    "senses": [
+      {
+        "sense_id": 398174,
+        "meaning_vi": "(Các) ngôn ngữ Ấn-Âu",
+        "confidence": "high",
+        "search_keywords": [
+          "(Các) ngôn ngữ Ấn-Âu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(Các) ngôn ngữ Ấn-Âu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152228,
+    "word": "印欧",
+    "kana": "いんおう",
+    "senses": [
+      {
+        "sense_id": 398175,
+        "meaning_vi": "Ấn Độ và Châu Âu; Ấn-Âu",
+        "confidence": "high",
+        "search_keywords": [
+          "Ấn Độ và Châu Âu",
+          "Ấn-Âu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ấn Độ và Châu Âu; Ấn-Âu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152229,
+    "word": "利用客",
+    "kana": "りようきゃく",
+    "senses": [
+      {
+        "sense_id": 398176,
+        "meaning_vi": "người dùng; khách hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "người dùng",
+          "khách hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người dùng; khách hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152230,
+    "word": "接続便",
+    "kana": "せつぞくびん",
+    "senses": [
+      {
+        "sense_id": 398177,
+        "meaning_vi": "chuyến bay nối chuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyến bay nối chuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyến bay nối chuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152231,
+    "word": "公立校",
+    "kana": "こうりつこう",
+    "senses": [
+      {
+        "sense_id": 398178,
+        "meaning_vi": "trường công lập",
+        "confidence": "high",
+        "search_keywords": [
+          "trường công lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường công lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152232,
+    "word": "私立校",
+    "kana": "しりつこう",
+    "senses": [
+      {
+        "sense_id": 398179,
+        "meaning_vi": "trường tư thục",
+        "confidence": "high",
+        "search_keywords": [
+          "trường tư thục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường tư thục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152233,
+    "word": "玉串料",
+    "kana": "たまぐしりょう",
+    "senses": [
+      {
+        "sense_id": 398180,
+        "meaning_vi": "cúng dường tiền mặt nhân dịp một người đến thăm đền thờ; tiền cúng dường cho các vị thần Shinto; phí dâng một cành cây thiêng lên thần linh",
+        "confidence": "high",
+        "search_keywords": [
+          "cúng dường tiền mặt nhân dịp một người đến thăm đền thờ",
+          "tiền cúng dường cho các vị thần Shinto",
+          "phí dâng một cành cây thiêng lên thần linh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cúng dường tiền mặt nhân dịp một người đến thăm đền thờ; tiền cúng dường cho các vị thần Shinto; phí dâng một cành cây thiêng lên thần linh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152234,
+    "word": "店を構える",
+    "kana": "みせをかまえる",
+    "senses": [
+      {
+        "sense_id": 398181,
+        "meaning_vi": "để điều hành một cửa hàng; có một cửa hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "để điều hành một cửa hàng",
+          "có một cửa hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để điều hành một cửa hàng; có một cửa hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152235,
+    "word": "指パッチン",
+    "kana": "ゆびぱっちん",
+    "senses": [
+      {
+        "sense_id": 398182,
+        "meaning_vi": "búng ngón tay; búng ngón tay",
+        "confidence": "high",
+        "search_keywords": [
+          "búng ngón tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "búng ngón tay; búng ngón tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152236,
+    "word": "大甘",
+    "kana": "おおあま",
+    "senses": [
+      {
+        "sense_id": 398183,
+        "meaning_vi": "khoan dung",
+        "confidence": "high",
+        "search_keywords": [
+          "khoan dung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoan dung",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 398184,
+        "meaning_vi": "quá lạc quan",
+        "confidence": "high",
+        "search_keywords": [
+          "quá lạc quan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá lạc quan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152237,
+    "word": "円椎",
+    "kana": "つぶらじい",
+    "senses": [
+      {
+        "sense_id": 398185,
+        "meaning_vi": "Castanopsis cuspidata (loài chinquapin)",
+        "confidence": "high",
+        "search_keywords": [
+          "Castanopsis cuspidata (loài chinquapin)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Castanopsis cuspidata (loài chinquapin)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152238,
+    "word": "小椎",
+    "kana": "こじい",
+    "senses": [
+      {
+        "sense_id": 398186,
+        "meaning_vi": "Castanopsis cuspidata (loài chinquapin)",
+        "confidence": "high",
+        "search_keywords": [
+          "Castanopsis cuspidata (loài chinquapin)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Castanopsis cuspidata (loài chinquapin)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

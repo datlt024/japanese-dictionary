@@ -1,0 +1,719 @@
+[
+  {
+    "vocabulary_id": 25684,
+    "word": "構いません",
+    "kana": "かまいません",
+    "senses": [
+      {
+        "sense_id": 250168,
+        "meaning_vi": "Không vấn đề; nó không quan trọng",
+        "confidence": "high",
+        "search_keywords": [
+          "Không vấn đề",
+          "nó không quan trọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Không vấn đề; nó không quan trọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25685,
+    "word": "構う",
+    "kana": "かまう",
+    "senses": [
+      {
+        "sense_id": 250169,
+        "meaning_vi": "để tâm ; quan tâm đến; được quan tâm; để có một sự quan tâm đến",
+        "confidence": "high",
+        "search_keywords": [
+          "để tâm",
+          "quan tâm đến",
+          "được quan tâm",
+          "để có một sự quan tâm đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tâm ; quan tâm đến; được quan tâm; để có một sự quan tâm đến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250170,
+        "meaning_vi": "là một vấn đề; quan trọng ; tạo ra sự bất tiện",
+        "confidence": "high",
+        "search_keywords": [
+          "là một vấn đề",
+          "quan trọng",
+          "tạo ra sự bất tiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là một vấn đề; quan trọng ; tạo ra sự bất tiện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250171,
+        "meaning_vi": "để giữ công ty; chăm sóc; chăm sóc; để giải trí; chú ý tới; dành thời gian với",
+        "confidence": "high",
+        "search_keywords": [
+          "để giữ công ty",
+          "chăm sóc",
+          "để giải trí",
+          "chú ý tới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để giữ công ty; chăm sóc; chăm sóc; để giải trí; chú ý tới; dành thời gian với",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250172,
+        "meaning_vi": "can thiệp vào; can thiệp vào",
+        "confidence": "high",
+        "search_keywords": [
+          "can thiệp vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "can thiệp vào; can thiệp vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250173,
+        "meaning_vi": "trêu chọc",
+        "confidence": "high",
+        "search_keywords": [
+          "trêu chọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trêu chọc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250174,
+        "meaning_vi": "trục xuất; cấm",
+        "confidence": "high",
+        "search_keywords": [
+          "trục xuất",
+          "cấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trục xuất; cấm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25686,
+    "word": "構え",
+    "kana": "かまえ",
+    "senses": [
+      {
+        "sense_id": 250175,
+        "meaning_vi": "kết cấu; sự thi công; sự xuất hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "kết cấu",
+          "sự thi công",
+          "sự xuất hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết cấu; sự thi công; sự xuất hiện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250176,
+        "meaning_vi": "tư thế (ví dụ: trong võ thuật); tư thế; lập trường",
+        "confidence": "high",
+        "search_keywords": [
+          "tư thế (ví dụ: trong võ thuật)",
+          "tư thế",
+          "lập trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tư thế (ví dụ: trong võ thuật); tư thế; lập trường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250177,
+        "meaning_vi": "sẵn sàng; sự quyết tâm; sự chuẩn bị",
+        "confidence": "high",
+        "search_keywords": [
+          "sẵn sàng",
+          "sự quyết tâm",
+          "sự chuẩn bị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sẵn sàng; sự quyết tâm; sự chuẩn bị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250178,
+        "meaning_vi": "Kiểu bao vây kanji có gốc (phải bao gồm ít nhất 2 cạnh của chữ kanji)",
+        "confidence": "high",
+        "search_keywords": [
+          "Kiểu bao vây kanji có gốc (phải bao gồm ít nhất 2 cạnh của chữ kanji)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kiểu bao vây kanji có gốc (phải bao gồm ít nhất 2 cạnh của chữ kanji)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25687,
+    "word": "構える",
+    "kana": "かまえる",
+    "senses": [
+      {
+        "sense_id": 250179,
+        "meaning_vi": "để thiết lập (một ngôi nhà, cửa hàng, vv); xây dựng; thành lập; chạy ; để duy trì",
+        "confidence": "high",
+        "search_keywords": [
+          "để thiết lập (một ngôi nhà, cửa hàng, vv)",
+          "xây dựng",
+          "thành lập",
+          "chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thiết lập (một ngôi nhà, cửa hàng, vv); xây dựng; thành lập; chạy ; để duy trì",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250180,
+        "meaning_vi": "có sẵn (ví dụ: một khẩu súng); cầm để chuẩn bị (ví dụ: máy ảnh); chuẩn bị trước (ví dụ: một bữa ăn)",
+        "confidence": "high",
+        "search_keywords": [
+          "có sẵn (ví dụ: một khẩu súng)",
+          "cầm để chuẩn bị (ví dụ: máy ảnh)",
+          "chuẩn bị trước (ví dụ: một bữa ăn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có sẵn (ví dụ: một khẩu súng); cầm để chuẩn bị (ví dụ: máy ảnh); chuẩn bị trước (ví dụ: một bữa ăn)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250181,
+        "meaning_vi": "áp dụng một tư thế; đảm nhận một lập trường; sẵn sàng; sẵn sàng cho",
+        "confidence": "high",
+        "search_keywords": [
+          "áp dụng một tư thế",
+          "đảm nhận một lập trường",
+          "sẵn sàng",
+          "sẵn sàng cho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áp dụng một tư thế; đảm nhận một lập trường; sẵn sàng; sẵn sàng cho",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250182,
+        "meaning_vi": "để tạo không khí; có một thái độ",
+        "confidence": "high",
+        "search_keywords": [
+          "để tạo không khí",
+          "có một thái độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tạo không khí; có một thái độ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250183,
+        "meaning_vi": "cứng lại; căng thẳng lên; trở nên chính thức",
+        "confidence": "high",
+        "search_keywords": [
+          "cứng lại",
+          "căng thẳng lên",
+          "trở nên chính thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cứng lại; căng thẳng lên; trở nên chính thức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250184,
+        "meaning_vi": "bịa đặt để lừa dối; trang điểm; giả vờ",
+        "confidence": "high",
+        "search_keywords": [
+          "bịa đặt để lừa dối",
+          "trang điểm",
+          "giả vờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bịa đặt để lừa dối; trang điểm; giả vờ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250185,
+        "meaning_vi": "lập kế hoạch; lên kế hoạch",
+        "confidence": "high",
+        "search_keywords": [
+          "lập kế hoạch",
+          "lên kế hoạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lập kế hoạch; lên kế hoạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25688,
+    "word": "構外",
+    "kana": "こうがい",
+    "senses": [
+      {
+        "sense_id": 250186,
+        "meaning_vi": "ngoài căn cứ; bên ngoài khuôn viên",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoài căn cứ",
+          "bên ngoài khuôn viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoài căn cứ; bên ngoài khuôn viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25689,
+    "word": "構図",
+    "kana": "こうず",
+    "senses": [
+      {
+        "sense_id": 250187,
+        "meaning_vi": "bố cục (của hội họa); phác thảo cấu trúc; sự sắp xếp thành phần",
+        "confidence": "high",
+        "search_keywords": [
+          "bố cục (của hội họa)",
+          "phác thảo cấu trúc",
+          "sự sắp xếp thành phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bố cục (của hội họa); phác thảo cấu trúc; sự sắp xếp thành phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25690,
+    "word": "構成",
+    "kana": "こうせい",
+    "senses": [
+      {
+        "sense_id": 250188,
+        "meaning_vi": "thành phần; sự thi công; sự hình thành; trang điểm; kết cấu; tổ chức; tổ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần",
+          "sự thi công",
+          "sự hình thành",
+          "trang điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần; sự thi công; sự hình thành; trang điểm; kết cấu; tổ chức; tổ chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25691,
+    "word": "構成可能",
+    "kana": "こうせいかのう",
+    "senses": [
+      {
+        "sense_id": 250189,
+        "meaning_vi": "có thể cấu hình",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể cấu hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể cấu hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25692,
+    "word": "構成子",
+    "kana": "こうせいし",
+    "senses": [
+      {
+        "sense_id": 250190,
+        "meaning_vi": "thành phần",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25693,
+    "word": "構成単位",
+    "kana": "こうせいたんい",
+    "senses": [
+      {
+        "sense_id": 250191,
+        "meaning_vi": "phần tử",
+        "confidence": "high",
+        "search_keywords": [
+          "phần tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25694,
+    "word": "構成要素",
+    "kana": "こうせいようそ",
+    "senses": [
+      {
+        "sense_id": 250192,
+        "meaning_vi": "thành phần; yếu tố; một phần",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần",
+          "yếu tố",
+          "một phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần; yếu tố; một phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25695,
+    "word": "構想",
+    "kana": "こうそう",
+    "senses": [
+      {
+        "sense_id": 250193,
+        "meaning_vi": "kế hoạch; kịch bản; ý tưởng; thụ thai; tầm nhìn; kế hoạch",
+        "confidence": "high",
+        "search_keywords": [
+          "kế hoạch",
+          "kịch bản",
+          "ý tưởng",
+          "thụ thai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kế hoạch; kịch bản; ý tưởng; thụ thai; tầm nhìn; kế hoạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25696,
+    "word": "構造",
+    "kana": "こうぞう",
+    "senses": [
+      {
+        "sense_id": 250194,
+        "meaning_vi": "kết cấu; sự thi công; trang điểm; khuôn khổ; tổ chức; hoa văn",
+        "confidence": "high",
+        "search_keywords": [
+          "kết cấu",
+          "sự thi công",
+          "trang điểm",
+          "khuôn khổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết cấu; sự thi công; trang điểm; khuôn khổ; tổ chức; hoa văn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25697,
+    "word": "構造体",
+    "kana": "こうぞうたい",
+    "senses": [
+      {
+        "sense_id": 250195,
+        "meaning_vi": "cấu trúc",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25698,
+    "word": "構築",
+    "kana": "こうちく",
+    "senses": [
+      {
+        "sense_id": 250196,
+        "meaning_vi": "sự thi công; xây dựng; đưa lên; dựng lên; sáng tạo; công thức; kiến trúc (hệ thống, thỏa thuận, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thi công",
+          "xây dựng",
+          "đưa lên",
+          "dựng lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thi công; xây dựng; đưa lên; dựng lên; sáng tạo; công thức; kiến trúc (hệ thống, thỏa thuận, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25699,
+    "word": "構内",
+    "kana": "こうない",
+    "senses": [
+      {
+        "sense_id": 250197,
+        "meaning_vi": "cơ sở; căn cứ; khuôn viên đại học; hợp chất; khu vực bầu cử",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở",
+          "căn cứ",
+          "khuôn viên đại học",
+          "hợp chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở; căn cứ; khuôn viên đại học; hợp chất; khu vực bầu cử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25700,
+    "word": "構文",
+    "kana": "こうぶん",
+    "senses": [
+      {
+        "sense_id": 250198,
+        "meaning_vi": "cấu trúc câu; xây dựng ngữ pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc câu",
+          "xây dựng ngữ pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc câu; xây dựng ngữ pháp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250199,
+        "meaning_vi": "cú pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "cú pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cú pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25701,
+    "word": "構文法",
+    "kana": "こうぶんぽう",
+    "senses": [
+      {
+        "sense_id": 250200,
+        "meaning_vi": "cú pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "cú pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cú pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25702,
+    "word": "構文木",
+    "kana": "こうぶんぎ",
+    "senses": [
+      {
+        "sense_id": 250201,
+        "meaning_vi": "cây cú pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "cây cú pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây cú pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25703,
+    "word": "江",
+    "kana": "え",
+    "senses": [
+      {
+        "sense_id": 250202,
+        "meaning_vi": "đầu vào; vịnh",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu vào",
+          "vịnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu vào; vịnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

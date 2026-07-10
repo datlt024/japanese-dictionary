@@ -1,0 +1,513 @@
+[
+  {
+    "vocabulary_id": 152519,
+    "word": "高齢者福祉",
+    "kana": "こうれいしゃふくし",
+    "senses": [
+      {
+        "sense_id": 398487,
+        "meaning_vi": "chăm sóc người già; chăm sóc người già",
+        "confidence": "high",
+        "search_keywords": [
+          "chăm sóc người già"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chăm sóc người già; chăm sóc người già",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152520,
+    "word": "手札判",
+    "kana": "てふだばん",
+    "senses": [
+      {
+        "sense_id": 398488,
+        "meaning_vi": "cỡ ví (ảnh)",
+        "confidence": "high",
+        "search_keywords": [
+          "cỡ ví (ảnh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cỡ ví (ảnh)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152521,
+    "word": "手札代わり",
+    "kana": "てふだがわり",
+    "senses": [
+      {
+        "sense_id": 398489,
+        "meaning_vi": "tặng quà",
+        "confidence": "high",
+        "search_keywords": [
+          "tặng quà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tặng quà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152522,
+    "word": "ＤＩ",
+    "kana": "ディー・アイ",
+    "senses": [
+      {
+        "sense_id": 398490,
+        "meaning_vi": "chỉ số khuếch tán",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ số khuếch tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ số khuếch tán",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 398491,
+        "meaning_vi": "chỉ số khó chịu",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ số khó chịu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ số khó chịu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 398492,
+        "meaning_vi": "thông tin thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin thuốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152523,
+    "word": "年頭挨拶",
+    "kana": "ねんとうあいさつ",
+    "senses": [
+      {
+        "sense_id": 398493,
+        "meaning_vi": "Lời chúc mừng năm mới",
+        "confidence": "high",
+        "search_keywords": [
+          "Lời chúc mừng năm mới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Lời chúc mừng năm mới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152524,
+    "word": "談話会",
+    "kana": "だんわかい",
+    "senses": [
+      {
+        "sense_id": 398494,
+        "meaning_vi": "hội thảo; hội nghị chuyên đề; tập hợp để thảo luận",
+        "confidence": "high",
+        "search_keywords": [
+          "hội thảo",
+          "hội nghị chuyên đề",
+          "tập hợp để thảo luận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội thảo; hội nghị chuyên đề; tập hợp để thảo luận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152525,
+    "word": "旧石器文化",
+    "kana": "きゅうせっきぶんか",
+    "senses": [
+      {
+        "sense_id": 398495,
+        "meaning_vi": "Văn hóa thời kỳ đồ đá cũ; Văn hóa thời kỳ đồ đá cũ",
+        "confidence": "high",
+        "search_keywords": [
+          "Văn hóa thời kỳ đồ đá cũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Văn hóa thời kỳ đồ đá cũ; Văn hóa thời kỳ đồ đá cũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152526,
+    "word": "石器文化",
+    "kana": "せっきぶんか",
+    "senses": [
+      {
+        "sense_id": 398496,
+        "meaning_vi": "văn hóa thời kỳ đồ đá",
+        "confidence": "high",
+        "search_keywords": [
+          "văn hóa thời kỳ đồ đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "văn hóa thời kỳ đồ đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152527,
+    "word": "産業用",
+    "kana": "さんぎょうよう",
+    "senses": [
+      {
+        "sense_id": 398497,
+        "meaning_vi": "công nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "công nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152528,
+    "word": "三分の二",
+    "kana": "さんぶんのに",
+    "senses": [
+      {
+        "sense_id": 398498,
+        "meaning_vi": "hai phần ba",
+        "confidence": "high",
+        "search_keywords": [
+          "hai phần ba"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hai phần ba",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152529,
+    "word": "注意力散漫",
+    "kana": "ちゅういりょくさんまん",
+    "senses": [
+      {
+        "sense_id": 398499,
+        "meaning_vi": "thiếu chú ý; mất tập trung; tâm trí lang thang",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu chú ý",
+          "mất tập trung",
+          "tâm trí lang thang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu chú ý; mất tập trung; tâm trí lang thang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152530,
+    "word": "日齢",
+    "kana": "にちれい",
+    "senses": [
+      {
+        "sense_id": 398500,
+        "meaning_vi": "tuổi tính theo ngày; số ngày tuổi",
+        "confidence": "high",
+        "search_keywords": [
+          "tuổi tính theo ngày",
+          "số ngày tuổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuổi tính theo ngày; số ngày tuổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152531,
+    "word": "丸菅",
+    "kana": "まるすげ",
+    "senses": [
+      {
+        "sense_id": 398501,
+        "meaning_vi": "Cây bồ hoàng thân mềm (Scirpus tabernaemontani)",
+        "confidence": "high",
+        "search_keywords": [
+          "Cây bồ hoàng thân mềm (Scirpus tabernaemontani)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cây bồ hoàng thân mềm (Scirpus tabernaemontani)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152532,
+    "word": "羽子板市",
+    "kana": "はごいたいち",
+    "senses": [
+      {
+        "sense_id": 398502,
+        "meaning_vi": "hội chợ battledore",
+        "confidence": "high",
+        "search_keywords": [
+          "hội chợ battledore"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội chợ battledore",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152533,
+    "word": "Ｐ３Ｃ",
+    "kana": "ピーさんシー",
+    "senses": [
+      {
+        "sense_id": 398503,
+        "meaning_vi": "Lockheed P-3 Orion (máy bay chống ngầm và giám sát hàng hải); P3C",
+        "confidence": "high",
+        "search_keywords": [
+          "Lockheed P-3 Orion (máy bay chống ngầm và giám sát hàng hải)",
+          "P3C"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Lockheed P-3 Orion (máy bay chống ngầm và giám sát hàng hải); P3C",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152534,
+    "word": "ＩＯＣ",
+    "kana": "アイ・オー・シー",
+    "senses": [
+      {
+        "sense_id": 398504,
+        "meaning_vi": "Ủy ban Olympic quốc tế; IOC",
+        "confidence": "high",
+        "search_keywords": [
+          "Ủy ban Olympic quốc tế",
+          "IOC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ủy ban Olympic quốc tế; IOC",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 398505,
+        "meaning_vi": "Ủy ban Hải dương học liên Chính phủ; IOC",
+        "confidence": "high",
+        "search_keywords": [
+          "Ủy ban Hải dương học liên Chính phủ",
+          "IOC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ủy ban Hải dương học liên Chính phủ; IOC",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 398506,
+        "meaning_vi": "bộ điều khiển đầu vào-đầu ra; IOC",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ điều khiển đầu vào-đầu ra",
+          "IOC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ điều khiển đầu vào-đầu ra; IOC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152535,
+    "word": "対外純資産",
+    "kana": "たいがいじゅんしさん",
+    "senses": [
+      {
+        "sense_id": 398507,
+        "meaning_vi": "tài sản ròng bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "tài sản ròng bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài sản ròng bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152536,
+    "word": "戸当たり",
+    "kana": "とあたり",
+    "senses": [
+      {
+        "sense_id": 398508,
+        "meaning_vi": "chặn cửa; chặn cửa; chặn cửa",
+        "confidence": "high",
+        "search_keywords": [
+          "chặn cửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chặn cửa; chặn cửa; chặn cửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152537,
+    "word": "人間ドラマ",
+    "kana": "にんげんドラマ",
+    "senses": [
+      {
+        "sense_id": 398509,
+        "meaning_vi": "vở kịch về con người",
+        "confidence": "high",
+        "search_keywords": [
+          "vở kịch về con người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vở kịch về con người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152538,
+    "word": "総合経済対策",
+    "kana": "そうごうけいざいたいさく",
+    "senses": [
+      {
+        "sense_id": 398510,
+        "meaning_vi": "gói biện pháp kích thích kinh tế; các biện pháp kinh tế toàn diện; gói kích thích kinh tế toàn diện",
+        "confidence": "high",
+        "search_keywords": [
+          "gói biện pháp kích thích kinh tế",
+          "các biện pháp kinh tế toàn diện",
+          "gói kích thích kinh tế toàn diện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gói biện pháp kích thích kinh tế; các biện pháp kinh tế toàn diện; gói kích thích kinh tế toàn diện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

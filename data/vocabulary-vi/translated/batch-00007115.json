@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 166205,
+    "word": "頻度依存選択",
+    "kana": "ひんどいぞんせんたく",
+    "senses": [
+      {
+        "sense_id": 413562,
+        "meaning_vi": "lựa chọn phụ thuộc vào tần số",
+        "confidence": "high",
+        "search_keywords": [
+          "lựa chọn phụ thuộc vào tần số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lựa chọn phụ thuộc vào tần số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166206,
+    "word": "標識再捕法",
+    "kana": "ひょうしきさいほほう",
+    "senses": [
+      {
+        "sense_id": 413563,
+        "meaning_vi": "phương pháp đánh dấu và lấy lại",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp đánh dấu và lấy lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp đánh dấu và lấy lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166207,
+    "word": "実験計画法",
+    "kana": "じっけんけいかくほう",
+    "senses": [
+      {
+        "sense_id": 413564,
+        "meaning_vi": "thiết kế thử nghiệm; thiết kế thí nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết kế thử nghiệm",
+          "thiết kế thí nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết kế thử nghiệm; thiết kế thí nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166208,
+    "word": "疎行列",
+    "kana": "そぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 413565,
+        "meaning_vi": "ma trận thưa thớt",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận thưa thớt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận thưa thớt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166209,
+    "word": "主対角線",
+    "kana": "しゅたいかくせん",
+    "senses": [
+      {
+        "sense_id": 413566,
+        "meaning_vi": "đường chéo chính; đường chéo chính",
+        "confidence": "high",
+        "search_keywords": [
+          "đường chéo chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường chéo chính; đường chéo chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166210,
+    "word": "三角行列",
+    "kana": "さんかくぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 413567,
+        "meaning_vi": "ma trận tam giác",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận tam giác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận tam giác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166211,
+    "word": "上三角行列",
+    "kana": "うえさんかくぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 413568,
+        "meaning_vi": "ma trận tam giác trên",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận tam giác trên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận tam giác trên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166212,
+    "word": "下三角行列",
+    "kana": "したさんかくぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 413569,
+        "meaning_vi": "ma trận tam giác dưới",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận tam giác dưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận tam giác dưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166213,
+    "word": "線形性",
+    "kana": "せんけいせい",
+    "senses": [
+      {
+        "sense_id": 413570,
+        "meaning_vi": "sự tuyến tính",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tuyến tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tuyến tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166214,
+    "word": "ベクトル解析",
+    "kana": "ベクトルかいせき",
+    "senses": [
+      {
+        "sense_id": 413571,
+        "meaning_vi": "phân tích vectơ; phép tính véc tơ",
+        "confidence": "high",
+        "search_keywords": [
+          "phân tích vectơ",
+          "phép tính véc tơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân tích vectơ; phép tính véc tơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166215,
+    "word": "母性効果",
+    "kana": "ぼせいこうか",
+    "senses": [
+      {
+        "sense_id": 413572,
+        "meaning_vi": "tác dụng của mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "tác dụng của mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tác dụng của mẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166216,
+    "word": "反復測定",
+    "kana": "はんぷくそくてい",
+    "senses": [
+      {
+        "sense_id": 413573,
+        "meaning_vi": "biện pháp lặp đi lặp lại",
+        "confidence": "high",
+        "search_keywords": [
+          "biện pháp lặp đi lặp lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biện pháp lặp đi lặp lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166217,
+    "word": "コピー数多型",
+    "kana": "コピーすうたけい",
+    "senses": [
+      {
+        "sense_id": 413574,
+        "meaning_vi": "sao chép biến thể số; CNV",
+        "confidence": "high",
+        "search_keywords": [
+          "sao chép biến thể số",
+          "CNV"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sao chép biến thể số; CNV",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166218,
+    "word": "選択的スプライシング",
+    "kana": "せんたくてきスプライシング",
+    "senses": [
+      {
+        "sense_id": 413575,
+        "meaning_vi": "nối thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "nối thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nối thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166219,
+    "word": "翻訳後修飾",
+    "kana": "ほんやくごしゅうしょく",
+    "senses": [
+      {
+        "sense_id": 413576,
+        "meaning_vi": "sửa đổi sau dịch mã; PTM",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa đổi sau dịch mã",
+          "PTM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa đổi sau dịch mã; PTM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166220,
+    "word": "相加",
+    "kana": "そうか",
+    "senses": [
+      {
+        "sense_id": 413577,
+        "meaning_vi": "phụ gia",
+        "confidence": "high",
+        "search_keywords": [
+          "phụ gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phụ gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166221,
+    "word": "回帰係数",
+    "kana": "かいきけいすう",
+    "senses": [
+      {
+        "sense_id": 413578,
+        "meaning_vi": "hệ số hồi quy",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số hồi quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số hồi quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166222,
+    "word": "部分行列",
+    "kana": "ぶぶんぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 413579,
+        "meaning_vi": "ma trận con",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận con",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166223,
+    "word": "ブロック行列",
+    "kana": "ブロックぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 413580,
+        "meaning_vi": "khối ma trận",
+        "confidence": "high",
+        "search_keywords": [
+          "khối ma trận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khối ma trận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166224,
+    "word": "回転行列",
+    "kana": "かいてんぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 413581,
+        "meaning_vi": "ma trận xoay",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận xoay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận xoay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

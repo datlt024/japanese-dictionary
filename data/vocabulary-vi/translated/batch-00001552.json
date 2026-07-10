@@ -1,0 +1,637 @@
+[
+  {
+    "vocabulary_id": 40141,
+    "word": "長方体",
+    "kana": "ちょうほうたい",
+    "senses": [
+      {
+        "sense_id": 269610,
+        "meaning_vi": "vuông góc song song; hình khối; chất rắn hình chữ nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "vuông góc song song",
+          "hình khối",
+          "chất rắn hình chữ nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vuông góc song song; hình khối; chất rắn hình chữ nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40142,
+    "word": "長野県",
+    "kana": "ながのけん",
+    "senses": [
+      {
+        "sense_id": 269611,
+        "meaning_vi": "Tỉnh Nagano (khu vực Chūbu)",
+        "confidence": "high",
+        "search_keywords": [
+          "Tỉnh Nagano (khu vực Chūbu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tỉnh Nagano (khu vực Chūbu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40143,
+    "word": "長粒米",
+    "kana": "ちょうりゅうまい",
+    "senses": [
+      {
+        "sense_id": 269612,
+        "meaning_vi": "gạo hạt dài",
+        "confidence": "high",
+        "search_keywords": [
+          "gạo hạt dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gạo hạt dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40144,
+    "word": "長旅",
+    "kana": "ながたび",
+    "senses": [
+      {
+        "sense_id": 269613,
+        "meaning_vi": "cuộc hành trình dài; chuyến đi dài",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc hành trình dài",
+          "chuyến đi dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc hành trình dài; chuyến đi dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40145,
+    "word": "長老",
+    "kana": "ちょうろう",
+    "senses": [
+      {
+        "sense_id": 269614,
+        "meaning_vi": "đàn anh; cao cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "đàn anh",
+          "cao cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đàn anh; cao cấp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269615,
+        "meaning_vi": "nhà sư cao cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà sư cao cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà sư cao cấp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269616,
+        "meaning_vi": "trưởng khoa; linh mục; tộc trưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "trưởng khoa",
+          "linh mục",
+          "tộc trưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trưởng khoa; linh mục; tộc trưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40146,
+    "word": "長話",
+    "kana": "ながばなし",
+    "senses": [
+      {
+        "sense_id": 269617,
+        "meaning_vi": "nói chuyện dài",
+        "confidence": "high",
+        "search_keywords": [
+          "nói chuyện dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói chuyện dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40147,
+    "word": "頂",
+    "kana": "いただき",
+    "senses": [
+      {
+        "sense_id": 269618,
+        "meaning_vi": "vương miện (ở đầu); đỉnh (núi); ngọn lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "vương miện (ở đầu)",
+          "đỉnh (núi)",
+          "ngọn lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vương miện (ở đầu); đỉnh (núi); ngọn lửa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269619,
+        "meaning_vi": "chiến thắng dễ dàng cho một người",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến thắng dễ dàng cho một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến thắng dễ dàng cho một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269620,
+        "meaning_vi": "thứ gì đó đã nhận được",
+        "confidence": "high",
+        "search_keywords": [
+          "thứ gì đó đã nhận được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thứ gì đó đã nhận được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40148,
+    "word": "頂き物",
+    "kana": "いただきもの",
+    "senses": [
+      {
+        "sense_id": 269621,
+        "meaning_vi": "hiện tại (người đó đã nhận được); quà tặng",
+        "confidence": "high",
+        "search_keywords": [
+          "hiện tại (người đó đã nhận được)",
+          "quà tặng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiện tại (người đó đã nhận được); quà tặng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40149,
+    "word": "頂上",
+    "kana": "ちょうじょう",
+    "senses": [
+      {
+        "sense_id": 269622,
+        "meaning_vi": "đứng đầu; hội nghị thượng đỉnh; đỉnh cao",
+        "confidence": "high",
+        "search_keywords": [
+          "đứng đầu",
+          "hội nghị thượng đỉnh",
+          "đỉnh cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứng đầu; hội nghị thượng đỉnh; đỉnh cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40150,
+    "word": "頂戴",
+    "kana": "ちょうだい",
+    "senses": [
+      {
+        "sense_id": 269623,
+        "meaning_vi": "nhận; nhận; chấp nhận; được đưa ra",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận",
+          "chấp nhận",
+          "được đưa ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận; nhận; chấp nhận; được đưa ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269624,
+        "meaning_vi": "ăn uống; uống rượu; có",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn uống",
+          "uống rượu",
+          "có"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn uống; uống rượu; có",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269625,
+        "meaning_vi": "làm ơn (cho tôi; làm giúp tôi)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ơn (cho tôi",
+          "làm giúp tôi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ơn (cho tôi; làm giúp tôi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40151,
+    "word": "頂点",
+    "kana": "ちょうてん",
+    "senses": [
+      {
+        "sense_id": 269626,
+        "meaning_vi": "đỉnh; đỉnh cao",
+        "confidence": "high",
+        "search_keywords": [
+          "đỉnh",
+          "đỉnh cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỉnh; đỉnh cao",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269627,
+        "meaning_vi": "đỉnh (ví dụ: một ngọn núi); hội nghị thượng đỉnh; đỉnh cao",
+        "confidence": "high",
+        "search_keywords": [
+          "đỉnh (ví dụ: một ngọn núi)",
+          "hội nghị thượng đỉnh",
+          "đỉnh cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỉnh (ví dụ: một ngọn núi); hội nghị thượng đỉnh; đỉnh cao",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269628,
+        "meaning_vi": "đỉnh cao (nghề nghiệp, lĩnh vực...); đỉnh cao",
+        "confidence": "high",
+        "search_keywords": [
+          "đỉnh cao (nghề nghiệp, lĩnh vực...)",
+          "đỉnh cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỉnh cao (nghề nghiệp, lĩnh vực...); đỉnh cao",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269629,
+        "meaning_vi": "đỉnh cao (sự nổi tiếng, sự bùng nổ, v.v.); chiều cao (ví dụ: sự thịnh vượng); đỉnh; thiên đỉnh; đỉnh điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "đỉnh cao (sự nổi tiếng, sự bùng nổ, v.v.)",
+          "chiều cao (ví dụ: sự thịnh vượng)",
+          "đỉnh",
+          "thiên đỉnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỉnh cao (sự nổi tiếng, sự bùng nổ, v.v.); chiều cao (ví dụ: sự thịnh vượng); đỉnh; thiên đỉnh; đỉnh điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40152,
+    "word": "鳥",
+    "kana": "とり",
+    "senses": [
+      {
+        "sense_id": 269630,
+        "meaning_vi": "chim",
+        "confidence": "high",
+        "search_keywords": [
+          "chim"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chim",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269631,
+        "meaning_vi": "thịt chim (đặc biệt là thịt gà); gia cầm; gia cầm",
+        "confidence": "high",
+        "search_keywords": [
+          "thịt chim (đặc biệt là thịt gà)",
+          "gia cầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thịt chim (đặc biệt là thịt gà); gia cầm; gia cầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40153,
+    "word": "鳥屋",
+    "kana": "とや",
+    "senses": [
+      {
+        "sense_id": 269632,
+        "meaning_vi": "chuồng gà; chuồng gà",
+        "confidence": "high",
+        "search_keywords": [
+          "chuồng gà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuồng gà; chuồng gà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40154,
+    "word": "鳥屋",
+    "kana": "とりや",
+    "senses": [
+      {
+        "sense_id": 269633,
+        "meaning_vi": "người buôn chim; người chăn gia cầm",
+        "confidence": "high",
+        "search_keywords": [
+          "người buôn chim",
+          "người chăn gia cầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người buôn chim; người chăn gia cầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40155,
+    "word": "鳥居",
+    "kana": "とりい",
+    "senses": [
+      {
+        "sense_id": 269634,
+        "meaning_vi": "torii (cổng vòm của đền thờ Thần đạo)",
+        "confidence": "high",
+        "search_keywords": [
+          "torii (cổng vòm của đền thờ Thần đạo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "torii (cổng vòm của đền thờ Thần đạo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40156,
+    "word": "鳥取県",
+    "kana": "とっとりけん",
+    "senses": [
+      {
+        "sense_id": 269635,
+        "meaning_vi": "Tỉnh Tottori (khu vực Chūgoku)",
+        "confidence": "high",
+        "search_keywords": [
+          "Tỉnh Tottori (khu vực Chūgoku)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tỉnh Tottori (khu vực Chūgoku)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40157,
+    "word": "鳥獣保護区域",
+    "kana": "ちょうじゅうほごくいき",
+    "senses": [
+      {
+        "sense_id": 269636,
+        "meaning_vi": "khu bảo vệ động vật hoang dã",
+        "confidence": "high",
+        "search_keywords": [
+          "khu bảo vệ động vật hoang dã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu bảo vệ động vật hoang dã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40158,
+    "word": "鳥肌",
+    "kana": "とりはだ",
+    "senses": [
+      {
+        "sense_id": 269637,
+        "meaning_vi": "nổi da gà; nổi da gà; nổi mụn",
+        "confidence": "high",
+        "search_keywords": [
+          "nổi da gà",
+          "nổi mụn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nổi da gà; nổi da gà; nổi mụn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269638,
+        "meaning_vi": "da thô ráp; da thô",
+        "confidence": "high",
+        "search_keywords": [
+          "da thô ráp",
+          "da thô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "da thô ráp; da thô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40159,
+    "word": "鳥類",
+    "kana": "ちょうるい",
+    "senses": [
+      {
+        "sense_id": 269639,
+        "meaning_vi": "chim",
+        "confidence": "high",
+        "search_keywords": [
+          "chim"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chim",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40160,
+    "word": "鳥瞰",
+    "kana": "ちょうかん",
+    "senses": [
+      {
+        "sense_id": 269640,
+        "meaning_vi": "nhìn ra; nhìn xuống; có tầm nhìn từ trên cao; có tầm nhìn toàn cảnh; có góc nhìn cao",
+        "confidence": "high",
+        "search_keywords": [
+          "nhìn ra",
+          "nhìn xuống",
+          "có tầm nhìn từ trên cao",
+          "có tầm nhìn toàn cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhìn ra; nhìn xuống; có tầm nhìn từ trên cao; có tầm nhìn toàn cảnh; có góc nhìn cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

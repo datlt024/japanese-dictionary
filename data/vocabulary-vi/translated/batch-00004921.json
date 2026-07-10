@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 118868,
+    "word": "コマンド待ち状態",
+    "kana": "コマンドまちじょうたい",
+    "senses": [
+      {
+        "sense_id": 362413,
+        "meaning_vi": "trạng thái lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "trạng thái lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạng thái lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118869,
+    "word": "コマンド入力",
+    "kana": "コマンドにゅうりょく",
+    "senses": [
+      {
+        "sense_id": 362414,
+        "meaning_vi": "nhập lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118870,
+    "word": "コマンド入力型インタフェース",
+    "kana": "コマンドにゅうりょくがたインタフェース",
+    "senses": [
+      {
+        "sense_id": 362415,
+        "meaning_vi": "giao diện người dùng hướng lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "giao diện người dùng hướng lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao diện người dùng hướng lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118871,
+    "word": "コマンド名",
+    "kana": "コマンドめい",
+    "senses": [
+      {
+        "sense_id": 362416,
+        "meaning_vi": "tên lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "tên lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118872,
+    "word": "コマンド要求",
+    "kana": "コマンドようきゅう",
+    "senses": [
+      {
+        "sense_id": 362417,
+        "meaning_vi": "yêu cầu lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "yêu cầu lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yêu cầu lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118873,
+    "word": "コマンド履歴",
+    "kana": "コマンドりれき",
+    "senses": [
+      {
+        "sense_id": 362418,
+        "meaning_vi": "lịch sử lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "lịch sử lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lịch sử lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118874,
+    "word": "コミットメント単位",
+    "kana": "コミットメントたんい",
+    "senses": [
+      {
+        "sense_id": 362419,
+        "meaning_vi": "đơn vị cam kết",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị cam kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị cam kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118875,
+    "word": "コミットメント調整者",
+    "kana": "コミットメントちょうせいしゃ",
+    "senses": [
+      {
+        "sense_id": 362420,
+        "meaning_vi": "điều phối viên cam kết",
+        "confidence": "high",
+        "search_keywords": [
+          "điều phối viên cam kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều phối viên cam kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118876,
+    "word": "コミットログ記録",
+    "kana": "コミットログきろく",
+    "senses": [
+      {
+        "sense_id": 362421,
+        "meaning_vi": "bản ghi cam kết đăng nhập",
+        "confidence": "high",
+        "search_keywords": [
+          "bản ghi cam kết đăng nhập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản ghi cam kết đăng nhập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118877,
+    "word": "コミット準備完了状態",
+    "kana": "コミットじゅんびかんりょうじょうたい",
+    "senses": [
+      {
+        "sense_id": 362422,
+        "meaning_vi": "trạng thái sẵn sàng cam kết",
+        "confidence": "high",
+        "search_keywords": [
+          "trạng thái sẵn sàng cam kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạng thái sẵn sàng cam kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118878,
+    "word": "コミット調整担当",
+    "kana": "コミットちょうせいたんとう",
+    "senses": [
+      {
+        "sense_id": 362423,
+        "meaning_vi": "điều phối viên cam kết",
+        "confidence": "high",
+        "search_keywords": [
+          "điều phối viên cam kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều phối viên cam kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118879,
+    "word": "コミュニケーションサーバー",
+    "kana": "コミュニケーションサーバー",
+    "senses": [
+      {
+        "sense_id": 362424,
+        "meaning_vi": "máy chủ truyền thông",
+        "confidence": "high",
+        "search_keywords": [
+          "máy chủ truyền thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy chủ truyền thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118880,
+    "word": "コミュニケーションシステム",
+    "kana": "コミュニケーションシステム",
+    "senses": [
+      {
+        "sense_id": 362425,
+        "meaning_vi": "hệ thống thông tin liên lạc",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống thông tin liên lạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống thông tin liên lạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118881,
+    "word": "コミュニケーション理論",
+    "kana": "コミュニケーションりろん",
+    "senses": [
+      {
+        "sense_id": 362426,
+        "meaning_vi": "lý thuyết truyền thông",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết truyền thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết truyền thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118882,
+    "word": "コモドール",
+    "kana": "コモドール",
+    "senses": [
+      {
+        "sense_id": 362427,
+        "meaning_vi": "Hàng hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "Hàng hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hàng hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118883,
+    "word": "コモンリスプ",
+    "kana": "コモンリスプ",
+    "senses": [
+      {
+        "sense_id": 362428,
+        "meaning_vi": "ngọng thông thường",
+        "confidence": "high",
+        "search_keywords": [
+          "ngọng thông thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngọng thông thường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118884,
+    "word": "コルーチン",
+    "kana": "コルーチン",
+    "senses": [
+      {
+        "sense_id": 362429,
+        "meaning_vi": "đội quân tuần tra",
+        "confidence": "high",
+        "search_keywords": [
+          "đội quân tuần tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đội quân tuần tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118885,
+    "word": "ＣＯＲＢＡ",
+    "kana": "コルバ",
+    "senses": [
+      {
+        "sense_id": 362430,
+        "meaning_vi": "Kiến trúc môi giới yêu cầu đối tượng chung; CORBA",
+        "confidence": "high",
+        "search_keywords": [
+          "Kiến trúc môi giới yêu cầu đối tượng chung",
+          "CORBA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kiến trúc môi giới yêu cầu đối tượng chung; CORBA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118886,
+    "word": "コロケーションサービス",
+    "kana": "コロケーションサービス",
+    "senses": [
+      {
+        "sense_id": 362431,
+        "meaning_vi": "dịch vụ colocation",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ colocation"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ colocation",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118887,
+    "word": "コンカレントアクセス",
+    "kana": "コンカレントアクセス",
+    "senses": [
+      {
+        "sense_id": 362432,
+        "meaning_vi": "truy cập đồng thời",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập đồng thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập đồng thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

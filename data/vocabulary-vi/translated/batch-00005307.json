@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 126704,
+    "word": "矛盾データ",
+    "kana": "むじゅんデータ",
+    "senses": [
+      {
+        "sense_id": 370354,
+        "meaning_vi": "dữ liệu không nhất quán",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu không nhất quán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu không nhất quán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126705,
+    "word": "名称変更",
+    "kana": "めいしょうへんこう",
+    "senses": [
+      {
+        "sense_id": 370355,
+        "meaning_vi": "đổi tên; đổi tên",
+        "confidence": "high",
+        "search_keywords": [
+          "đổi tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đổi tên; đổi tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126706,
+    "word": "名前コンテキスト",
+    "kana": "なまえコンテキスト",
+    "senses": [
+      {
+        "sense_id": 370356,
+        "meaning_vi": "bối cảnh đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "bối cảnh đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bối cảnh đặt tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126707,
+    "word": "名前解決",
+    "kana": "なまえかいけつ",
+    "senses": [
+      {
+        "sense_id": 370357,
+        "meaning_vi": "độ phân giải tên",
+        "confidence": "high",
+        "search_keywords": [
+          "độ phân giải tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ phân giải tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126708,
+    "word": "名前解析",
+    "kana": "なまえかいせき",
+    "senses": [
+      {
+        "sense_id": 370358,
+        "meaning_vi": "độ phân giải tên",
+        "confidence": "high",
+        "search_keywords": [
+          "độ phân giải tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ phân giải tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126709,
+    "word": "名前開始文字",
+    "kana": "なまえかいしもじ",
+    "senses": [
+      {
+        "sense_id": 370359,
+        "meaning_vi": "ký tự bắt đầu tên",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự bắt đầu tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự bắt đầu tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126710,
+    "word": "名前群",
+    "kana": "なまえぐん",
+    "senses": [
+      {
+        "sense_id": 370360,
+        "meaning_vi": "nhóm tên",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126711,
+    "word": "名前結合",
+    "kana": "なまえけつごう",
+    "senses": [
+      {
+        "sense_id": 370361,
+        "meaning_vi": "hiệp hội tên",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệp hội tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệp hội tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126712,
+    "word": "名前指定実体参照",
+    "kana": "なまえしていじったいさんしょう",
+    "senses": [
+      {
+        "sense_id": 370362,
+        "meaning_vi": "tham chiếu thực thể được đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "tham chiếu thực thể được đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham chiếu thực thể được đặt tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126713,
+    "word": "名前指定文字参照",
+    "kana": "なまえしていもじさんしょう",
+    "senses": [
+      {
+        "sense_id": 370363,
+        "meaning_vi": "tham chiếu ký tự được đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "tham chiếu ký tự được đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham chiếu ký tự được đặt tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126714,
+    "word": "名前字句",
+    "kana": "なまえじく",
+    "senses": [
+      {
+        "sense_id": 370364,
+        "meaning_vi": "mã thông báo tên",
+        "confidence": "high",
+        "search_keywords": [
+          "mã thông báo tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã thông báo tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126715,
+    "word": "名前字句群",
+    "kana": "なまえじくぐん",
+    "senses": [
+      {
+        "sense_id": 370365,
+        "meaning_vi": "nhóm mã thông báo tên",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm mã thông báo tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm mã thông báo tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126716,
+    "word": "名前集合",
+    "kana": "なまえしゅうごう",
+    "senses": [
+      {
+        "sense_id": 370366,
+        "meaning_vi": "đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126717,
+    "word": "名前付き定数",
+    "kana": "なまえつきていすう",
+    "senses": [
+      {
+        "sense_id": 370367,
+        "meaning_vi": "được đặt tên là hằng số",
+        "confidence": "high",
+        "search_keywords": [
+          "được đặt tên là hằng số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được đặt tên là hằng số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126718,
+    "word": "名前文字",
+    "kana": "なまえもじ",
+    "senses": [
+      {
+        "sense_id": 370368,
+        "meaning_vi": "nhân vật tên",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126719,
+    "word": "名目転送速度",
+    "kana": "めいもくてんそうそくど",
+    "senses": [
+      {
+        "sense_id": 370369,
+        "meaning_vi": "tỷ giá chuyển nhượng danh nghĩa",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ giá chuyển nhượng danh nghĩa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ giá chuyển nhượng danh nghĩa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126720,
+    "word": "名礼",
+    "kana": "なれ",
+    "senses": [
+      {
+        "sense_id": 370370,
+        "meaning_vi": "nhãn (ví dụ: trong ngôn ngữ lập trình)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhãn (ví dụ: trong ngôn ngữ lập trình)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhãn (ví dụ: trong ngôn ngữ lập trình)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126721,
+    "word": "命名機関",
+    "kana": "めいめいきかん",
+    "senses": [
+      {
+        "sense_id": 370371,
+        "meaning_vi": "quyền đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền đặt tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126722,
+    "word": "命名規則",
+    "kana": "めいめいきそく",
+    "senses": [
+      {
+        "sense_id": 370372,
+        "meaning_vi": "quy ước đặt tên; quy tắc đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "quy ước đặt tên",
+          "quy tắc đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy ước đặt tên; quy tắc đặt tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126723,
+    "word": "命名副領域",
+    "kana": "めいめいふくりょういき",
+    "senses": [
+      {
+        "sense_id": 370373,
+        "meaning_vi": "đặt tên tên miền phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt tên tên miền phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt tên tên miền phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

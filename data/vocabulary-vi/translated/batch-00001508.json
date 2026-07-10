@@ -1,0 +1,488 @@
+[
+  {
+    "vocabulary_id": 38702,
+    "word": "大量生産",
+    "kana": "たいりょうせいさん",
+    "senses": [
+      {
+        "sense_id": 267658,
+        "meaning_vi": "sản xuất hàng loạt",
+        "confidence": "high",
+        "search_keywords": [
+          "sản xuất hàng loạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sản xuất hàng loạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38703,
+    "word": "大量破壊兵器",
+    "kana": "たいりょうはかいへいき",
+    "senses": [
+      {
+        "sense_id": 267659,
+        "meaning_vi": "vũ khí hủy diệt hàng loạt; WMD",
+        "confidence": "high",
+        "search_keywords": [
+          "vũ khí hủy diệt hàng loạt",
+          "WMD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vũ khí hủy diệt hàng loạt; WMD",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38704,
+    "word": "大和絵",
+    "kana": "やまとえ",
+    "senses": [
+      {
+        "sense_id": 267660,
+        "meaning_vi": "Yamato-e (tranh trang trí cổ điển Nhật Bản)",
+        "confidence": "high",
+        "search_keywords": [
+          "Yamato-e (tranh trang trí cổ điển Nhật Bản)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Yamato-e (tranh trang trí cổ điển Nhật Bản)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38705,
+    "word": "大和魂",
+    "kana": "やまとだましい",
+    "senses": [
+      {
+        "sense_id": 267661,
+        "meaning_vi": "tinh thần Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38706,
+    "word": "大和時代",
+    "kana": "やまとじだい",
+    "senses": [
+      {
+        "sense_id": 267662,
+        "meaning_vi": "Thời kỳ Yamato (300-550 CN)",
+        "confidence": "high",
+        "search_keywords": [
+          "Thời kỳ Yamato (300-550 CN)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thời kỳ Yamato (300-550 CN)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38707,
+    "word": "大嘴",
+    "kana": "おおはし",
+    "senses": [
+      {
+        "sense_id": 267663,
+        "meaning_vi": "toucan",
+        "confidence": "low",
+        "search_keywords": [
+          "toucan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toucan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38708,
+    "word": "第",
+    "kana": "だい",
+    "senses": [
+      {
+        "sense_id": 267664,
+        "meaning_vi": "tiền tố để tạo thành số thứ tự",
+        "confidence": "high",
+        "search_keywords": [
+          "tiền tố để tạo thành số thứ tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiền tố để tạo thành số thứ tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38709,
+    "word": "第一",
+    "kana": "だいいち",
+    "senses": [
+      {
+        "sense_id": 267665,
+        "meaning_vi": "Đầu tiên; quan trọng nhất; số một",
+        "confidence": "high",
+        "search_keywords": [
+          "Đầu tiên",
+          "quan trọng nhất",
+          "số một"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đầu tiên; quan trọng nhất; số một",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267666,
+        "meaning_vi": "quan trọng nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "quan trọng nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan trọng nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39001,
+    "word": "探求者",
+    "kana": "たんきゅうしゃ",
+    "senses": [
+      {
+        "sense_id": 268061,
+        "meaning_vi": "người tìm kiếm; người theo đuổi",
+        "confidence": "high",
+        "search_keywords": [
+          "người tìm kiếm",
+          "người theo đuổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người tìm kiếm; người theo đuổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39002,
+    "word": "探究",
+    "kana": "たんきゅう",
+    "senses": [
+      {
+        "sense_id": 268062,
+        "meaning_vi": "nghiên cứu; cuộc điều tra; cuộc điều tra; cuộc điều tra; học tập",
+        "confidence": "high",
+        "search_keywords": [
+          "nghiên cứu",
+          "cuộc điều tra",
+          "học tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghiên cứu; cuộc điều tra; cuộc điều tra; cuộc điều tra; học tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39003,
+    "word": "探検隊",
+    "kana": "たんけんたい",
+    "senses": [
+      {
+        "sense_id": 268063,
+        "meaning_vi": "bên thăm dò; đội thám hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "bên thăm dò",
+          "đội thám hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên thăm dò; đội thám hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39004,
+    "word": "探鉱",
+    "kana": "たんこう",
+    "senses": [
+      {
+        "sense_id": 268064,
+        "meaning_vi": "thăm dò khoáng sản",
+        "confidence": "high",
+        "search_keywords": [
+          "thăm dò khoáng sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thăm dò khoáng sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39005,
+    "word": "探査",
+    "kana": "たんさ",
+    "senses": [
+      {
+        "sense_id": 268065,
+        "meaning_vi": "thăm dò; cuộc điều tra; cuộc điều tra; điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "thăm dò",
+          "cuộc điều tra",
+          "điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thăm dò; cuộc điều tra; cuộc điều tra; điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39006,
+    "word": "探査機",
+    "kana": "たんさき",
+    "senses": [
+      {
+        "sense_id": 268066,
+        "meaning_vi": "(không gian) máy dò",
+        "confidence": "high",
+        "search_keywords": [
+          "(không gian) máy dò"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(không gian) máy dò",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39007,
+    "word": "探索",
+    "kana": "たんさく",
+    "senses": [
+      {
+        "sense_id": 268067,
+        "meaning_vi": "tìm kiếm; tra cứu; săn bắn; (mục) nghiên cứu; thăm dò; điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "tìm kiếm",
+          "tra cứu",
+          "săn bắn",
+          "(mục) nghiên cứu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tìm kiếm; tra cứu; săn bắn; (mục) nghiên cứu; thăm dò; điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39008,
+    "word": "探索木",
+    "kana": "たんさくぎ",
+    "senses": [
+      {
+        "sense_id": 268068,
+        "meaning_vi": "cây tìm kiếm; cây quyết định",
+        "confidence": "high",
+        "search_keywords": [
+          "cây tìm kiếm",
+          "cây quyết định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây tìm kiếm; cây quyết định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39009,
+    "word": "探知",
+    "kana": "たんち",
+    "senses": [
+      {
+        "sense_id": 268069,
+        "meaning_vi": "phát hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "phát hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39010,
+    "word": "探知機",
+    "kana": "たんちき",
+    "senses": [
+      {
+        "sense_id": 268070,
+        "meaning_vi": "máy dò; máy định vị",
+        "confidence": "high",
+        "search_keywords": [
+          "máy dò",
+          "máy định vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy dò; máy định vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39011,
+    "word": "探偵",
+    "kana": "たんてい",
+    "senses": [
+      {
+        "sense_id": 268071,
+        "meaning_vi": "thám tử; điều tra viên; thám tử",
+        "confidence": "high",
+        "search_keywords": [
+          "thám tử",
+          "điều tra viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thám tử; điều tra viên; thám tử",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268072,
+        "meaning_vi": "công việc thám tử; điều tra bí mật",
+        "confidence": "high",
+        "search_keywords": [
+          "công việc thám tử",
+          "điều tra bí mật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công việc thám tử; điều tra bí mật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39012,
+    "word": "探偵小説",
+    "kana": "たんていしょうせつ",
+    "senses": [
+      {
+        "sense_id": 268073,
+        "meaning_vi": "truyện trinh thám",
+        "confidence": "high",
+        "search_keywords": [
+          "truyện trinh thám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truyện trinh thám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

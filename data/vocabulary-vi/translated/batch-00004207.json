@@ -1,0 +1,454 @@
+[
+  {
+    "vocabulary_id": 103025,
+    "word": "引きも切らず",
+    "kana": "ひきもきらず",
+    "senses": [
+      {
+        "sense_id": 344803,
+        "meaning_vi": "không ngừng ; liên tục; liên tục; không ngừng ; không nghỉ ngơi",
+        "confidence": "high",
+        "search_keywords": [
+          "không ngừng",
+          "liên tục",
+          "không nghỉ ngơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không ngừng ; liên tục; liên tục; không ngừng ; không nghỉ ngơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103026,
+    "word": "ヒト白血球抗原",
+    "kana": "ヒトはっけっきゅうこうげん",
+    "senses": [
+      {
+        "sense_id": 344804,
+        "meaning_vi": "kháng nguyên bạch cầu của con người; HLA",
+        "confidence": "high",
+        "search_keywords": [
+          "kháng nguyên bạch cầu của con người",
+          "HLA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kháng nguyên bạch cầu của con người; HLA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103027,
+    "word": "造血幹細胞",
+    "kana": "ぞうけつかんさいぼう",
+    "senses": [
+      {
+        "sense_id": 344805,
+        "meaning_vi": "tế bào gốc tạo máu; tế bào gốc tạo máu",
+        "confidence": "high",
+        "search_keywords": [
+          "tế bào gốc tạo máu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tế bào gốc tạo máu; tế bào gốc tạo máu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103028,
+    "word": "臍帯血移植",
+    "kana": "さいたいけついしょく",
+    "senses": [
+      {
+        "sense_id": 344806,
+        "meaning_vi": "ghép máu cuống rốn",
+        "confidence": "high",
+        "search_keywords": [
+          "ghép máu cuống rốn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghép máu cuống rốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103029,
+    "word": "慎重論",
+    "kana": "しんちょうろん",
+    "senses": [
+      {
+        "sense_id": 344807,
+        "meaning_vi": "lý thuyết thận trọng; lý thuyết bảo thủ",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết thận trọng",
+          "lý thuyết bảo thủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết thận trọng; lý thuyết bảo thủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103030,
+    "word": "脳損傷",
+    "kana": "のうそんしょう",
+    "senses": [
+      {
+        "sense_id": 344808,
+        "meaning_vi": "tổn thương não",
+        "confidence": "high",
+        "search_keywords": [
+          "tổn thương não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổn thương não",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103031,
+    "word": "臨床データ",
+    "kana": "りんしょうデータ",
+    "senses": [
+      {
+        "sense_id": 344809,
+        "meaning_vi": "dữ liệu lâm sàng",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu lâm sàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu lâm sàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103032,
+    "word": "冷凍保存",
+    "kana": "れいとうほぞん",
+    "senses": [
+      {
+        "sense_id": 344810,
+        "meaning_vi": "kho lạnh; đóng băng sâu; bảo quản lạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "kho lạnh",
+          "đóng băng sâu",
+          "bảo quản lạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kho lạnh; đóng băng sâu; bảo quản lạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103033,
+    "word": "頭部外傷",
+    "kana": "とうぶがいしょう",
+    "senses": [
+      {
+        "sense_id": 344811,
+        "meaning_vi": "chấn thương đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "chấn thương đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấn thương đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103034,
+    "word": "脳低体温療法",
+    "kana": "のうていたいおんりょうほう",
+    "senses": [
+      {
+        "sense_id": 344812,
+        "meaning_vi": "hạ thân nhiệt trị liệu chấn thương sọ não",
+        "confidence": "high",
+        "search_keywords": [
+          "hạ thân nhiệt trị liệu chấn thương sọ não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạ thân nhiệt trị liệu chấn thương sọ não",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103035,
+    "word": "診断法",
+    "kana": "しんだんほう",
+    "senses": [
+      {
+        "sense_id": 344813,
+        "meaning_vi": "phương tiện chẩn đoán",
+        "confidence": "high",
+        "search_keywords": [
+          "phương tiện chẩn đoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương tiện chẩn đoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103036,
+    "word": "臨床研究",
+    "kana": "りんしょうけんきゅう",
+    "senses": [
+      {
+        "sense_id": 344814,
+        "meaning_vi": "nghiên cứu lâm sàng; nghiên cứu lâm sàng",
+        "confidence": "high",
+        "search_keywords": [
+          "nghiên cứu lâm sàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghiên cứu lâm sàng; nghiên cứu lâm sàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103037,
+    "word": "ＥＢＭ",
+    "kana": "イー・ビー・エム",
+    "senses": [
+      {
+        "sense_id": 344815,
+        "meaning_vi": "y học dựa trên bằng chứng; EBM",
+        "confidence": "high",
+        "search_keywords": [
+          "y học dựa trên bằng chứng",
+          "EBM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "y học dựa trên bằng chứng; EBM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103038,
+    "word": "ホルモン補充療法",
+    "kana": "ホルモンほじゅうりょうほう",
+    "senses": [
+      {
+        "sense_id": 344816,
+        "meaning_vi": "liệu pháp thay thế hormone",
+        "confidence": "high",
+        "search_keywords": [
+          "liệu pháp thay thế hormone"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liệu pháp thay thế hormone",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103039,
+    "word": "松果体",
+    "kana": "しょうかたい",
+    "senses": [
+      {
+        "sense_id": 344817,
+        "meaning_vi": "tuyến tùng; thể tùng; tuyến tùng",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyến tùng",
+          "thể tùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyến tùng; thể tùng; tuyến tùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103040,
+    "word": "喘鳴",
+    "kana": "ぜんめい",
+    "senses": [
+      {
+        "sense_id": 344818,
+        "meaning_vi": "hành lang; thở khò khè; hơi thở ồn ào",
+        "confidence": "high",
+        "search_keywords": [
+          "hành lang",
+          "thở khò khè",
+          "hơi thở ồn ào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành lang; thở khò khè; hơi thở ồn ào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103041,
+    "word": "侘び寂び",
+    "kana": "わびさび",
+    "senses": [
+      {
+        "sense_id": 344819,
+        "meaning_vi": "wabi-sabi; cảm quan thẩm mỹ trong nghệ thuật Nhật Bản tập trung vào việc chấp nhận sự nhất thời và sự không hoàn hảo",
+        "confidence": "high",
+        "search_keywords": [
+          "wabi-sabi",
+          "cảm quan thẩm mỹ trong nghệ thuật Nhật Bản tập trung vào việc chấp nhận sự nhất thời và sự không hoàn hảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "wabi-sabi; cảm quan thẩm mỹ trong nghệ thuật Nhật Bản tập trung vào việc chấp nhận sự nhất thời và sự không hoàn hảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103042,
+    "word": "モッツァレラチーズ",
+    "kana": "モッツァレラチーズ",
+    "senses": [
+      {
+        "sense_id": 344820,
+        "meaning_vi": "phô mai mozzarella",
+        "confidence": "high",
+        "search_keywords": [
+          "phô mai mozzarella"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phô mai mozzarella",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103043,
+    "word": "ミートローフ",
+    "kana": "ミートローフ",
+    "senses": [
+      {
+        "sense_id": 344821,
+        "meaning_vi": "ổ bánh mì thịt; bánh mì thịt",
+        "confidence": "high",
+        "search_keywords": [
+          "ổ bánh mì thịt",
+          "bánh mì thịt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ổ bánh mì thịt; bánh mì thịt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103044,
+    "word": "ネゲット",
+    "kana": "ネゲット",
+    "senses": [
+      {
+        "sense_id": 344822,
+        "meaning_vi": "có mối quan hệ thể chất với một người quen trực tuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "có mối quan hệ thể chất với một người quen trực tuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có mối quan hệ thể chất với một người quen trực tuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

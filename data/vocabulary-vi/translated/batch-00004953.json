@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 119529,
+    "word": "セル間の到着時間",
+    "kana": "セルかんのとうちゃくじかん",
+    "senses": [
+      {
+        "sense_id": 363087,
+        "meaning_vi": "thời gian giữa các tế bào đến",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian giữa các tế bào đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian giữa các tế bào đến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119530,
+    "word": "セル交換",
+    "kana": "セルこうかん",
+    "senses": [
+      {
+        "sense_id": 363088,
+        "meaning_vi": "chuyển đổi tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119531,
+    "word": "セルラー電話",
+    "kana": "セルラーでんわ",
+    "senses": [
+      {
+        "sense_id": 363089,
+        "meaning_vi": "điện thoại di động; điện thoại di động",
+        "confidence": "high",
+        "search_keywords": [
+          "điện thoại di động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điện thoại di động; điện thoại di động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119532,
+    "word": "セル処理",
+    "kana": "セルしょり",
+    "senses": [
+      {
+        "sense_id": 363090,
+        "meaning_vi": "xử lý tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119533,
+    "word": "セル組立分解",
+    "kana": "セルくみたてぶんかい",
+    "senses": [
+      {
+        "sense_id": 363091,
+        "meaning_vi": "lắp ráp và tháo gỡ tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "lắp ráp và tháo gỡ tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lắp ráp và tháo gỡ tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119534,
+    "word": "セル損失",
+    "kana": "セルそんしつ",
+    "senses": [
+      {
+        "sense_id": 363092,
+        "meaning_vi": "mất tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "mất tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119535,
+    "word": "セル損失プライオリティ",
+    "kana": "セルそんしつプライオリティ",
+    "senses": [
+      {
+        "sense_id": 363093,
+        "meaning_vi": "ưu tiên mất tế bào; CLP",
+        "confidence": "high",
+        "search_keywords": [
+          "ưu tiên mất tế bào",
+          "CLP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ưu tiên mất tế bào; CLP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119536,
+    "word": "セル損失比",
+    "kana": "セルそんしつひ",
+    "senses": [
+      {
+        "sense_id": 363094,
+        "meaning_vi": "tỷ lệ mất tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ mất tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ mất tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119537,
+    "word": "セル損失率",
+    "kana": "セルそんしつりつ",
+    "senses": [
+      {
+        "sense_id": 363095,
+        "meaning_vi": "tỷ lệ mất tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ mất tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ mất tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119538,
+    "word": "セル遅延変動",
+    "kana": "セルちえんへんどう",
+    "senses": [
+      {
+        "sense_id": 363096,
+        "meaning_vi": "biến thể độ trễ của tế bào; CDV",
+        "confidence": "high",
+        "search_keywords": [
+          "biến thể độ trễ của tế bào",
+          "CDV"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến thể độ trễ của tế bào; CDV",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119539,
+    "word": "セル廃棄",
+    "kana": "セルはいき",
+    "senses": [
+      {
+        "sense_id": 363097,
+        "meaning_vi": "loại bỏ tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "loại bỏ tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại bỏ tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119540,
+    "word": "セル廃棄率",
+    "kana": "セルはいきりつ",
+    "senses": [
+      {
+        "sense_id": 363098,
+        "meaning_vi": "tỷ lệ mất tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ mất tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ mất tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119541,
+    "word": "セル配列",
+    "kana": "セルはいれつ",
+    "senses": [
+      {
+        "sense_id": 363099,
+        "meaning_vi": "mảng ô",
+        "confidence": "high",
+        "search_keywords": [
+          "mảng ô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mảng ô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119542,
+    "word": "セル分割",
+    "kana": "セルぶんかつ",
+    "senses": [
+      {
+        "sense_id": 363100,
+        "meaning_vi": "chia tách tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "chia tách tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chia tách tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119543,
+    "word": "セレクタチャネル",
+    "kana": "セレクタチャネル",
+    "senses": [
+      {
+        "sense_id": 363101,
+        "meaning_vi": "kênh chọn",
+        "confidence": "high",
+        "search_keywords": [
+          "kênh chọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kênh chọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119544,
+    "word": "セレクティング",
+    "kana": "セレクティング",
+    "senses": [
+      {
+        "sense_id": 363102,
+        "meaning_vi": "lựa chọn",
+        "confidence": "high",
+        "search_keywords": [
+          "lựa chọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lựa chọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119545,
+    "word": "センシティブ",
+    "kana": "センシティブ",
+    "senses": [
+      {
+        "sense_id": 363103,
+        "meaning_vi": "nhạy cảm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhạy cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhạy cảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119546,
+    "word": "センスデータ",
+    "kana": "センスデータ",
+    "senses": [
+      {
+        "sense_id": 363104,
+        "meaning_vi": "dữ liệu giác quan",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu giác quan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu giác quan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119547,
+    "word": "センタノード",
+    "kana": "センタノード",
+    "senses": [
+      {
+        "sense_id": 363105,
+        "meaning_vi": "nút trung tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "nút trung tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nút trung tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119548,
+    "word": "セントラルプロセシングユニット",
+    "kana": "セントラルプロセシングユニット",
+    "senses": [
+      {
+        "sense_id": 363106,
+        "meaning_vi": "bộ xử lý trung tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ xử lý trung tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ xử lý trung tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

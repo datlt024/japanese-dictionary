@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 119889,
+    "word": "データ処理ノード",
+    "kana": "データしょりノード",
+    "senses": [
+      {
+        "sense_id": 363456,
+        "meaning_vi": "nút xử lý dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "nút xử lý dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nút xử lý dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119890,
+    "word": "データ処理機械",
+    "kana": "データしょりきかい",
+    "senses": [
+      {
+        "sense_id": 363457,
+        "meaning_vi": "máy xử lý dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "máy xử lý dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy xử lý dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119891,
+    "word": "データ信号速度",
+    "kana": "データしんごうそくど",
+    "senses": [
+      {
+        "sense_id": 363458,
+        "meaning_vi": "tốc độ báo hiệu dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ báo hiệu dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ báo hiệu dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119892,
+    "word": "データ整合性",
+    "kana": "データせいごうせい",
+    "senses": [
+      {
+        "sense_id": 363459,
+        "meaning_vi": "tính nhất quán của dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "tính nhất quán của dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính nhất quán của dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119893,
+    "word": "データ精度",
+    "kana": "データせいど",
+    "senses": [
+      {
+        "sense_id": 363460,
+        "meaning_vi": "độ chính xác của dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "độ chính xác của dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ chính xác của dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119894,
+    "word": "データ専用文字",
+    "kana": "データせんようもじ",
+    "senses": [
+      {
+        "sense_id": 363461,
+        "meaning_vi": "ký tự dữ liệu chuyên dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự dữ liệu chuyên dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự dữ liệu chuyên dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119895,
+    "word": "データ操作言語",
+    "kana": "データそうさげんご",
+    "senses": [
+      {
+        "sense_id": 363462,
+        "meaning_vi": "ngôn ngữ thao tác dữ liệu; DML",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ thao tác dữ liệu",
+          "DML"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ thao tác dữ liệu; DML",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119896,
+    "word": "データ送信装置",
+    "kana": "データそうしんそうち",
+    "senses": [
+      {
+        "sense_id": 363463,
+        "meaning_vi": "nguồn dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119897,
+    "word": "データ属性",
+    "kana": "データぞくせい",
+    "senses": [
+      {
+        "sense_id": 363464,
+        "meaning_vi": "thuộc tính dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119898,
+    "word": "データ損失",
+    "kana": "データそんしつ",
+    "senses": [
+      {
+        "sense_id": 363465,
+        "meaning_vi": "mất dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "mất dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119899,
+    "word": "データ多重変換装置",
+    "kana": "データたじゅうへんかんそうち",
+    "senses": [
+      {
+        "sense_id": 363466,
+        "meaning_vi": "bộ ghép dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ ghép dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ ghép dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119900,
+    "word": "データ対象",
+    "kana": "データたいしょう",
+    "senses": [
+      {
+        "sense_id": 363467,
+        "meaning_vi": "đối tượng dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "đối tượng dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối tượng dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119901,
+    "word": "データ単位",
+    "kana": "データたんい",
+    "senses": [
+      {
+        "sense_id": 363468,
+        "meaning_vi": "đơn vị dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119902,
+    "word": "データ端末装置",
+    "kana": "データたんまつそうち",
+    "senses": [
+      {
+        "sense_id": 363469,
+        "meaning_vi": "thiết bị đầu cuối dữ liệu; DTE",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối dữ liệu",
+          "DTE"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối dữ liệu; DTE",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119903,
+    "word": "データ段階化",
+    "kana": "データだんかいか",
+    "senses": [
+      {
+        "sense_id": 363470,
+        "meaning_vi": "dàn dựng dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "dàn dựng dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dàn dựng dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119904,
+    "word": "データ値",
+    "kana": "データち",
+    "senses": [
+      {
+        "sense_id": 363471,
+        "meaning_vi": "giá trị dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119905,
+    "word": "データ抽象化",
+    "kana": "データちゅうしょうか",
+    "senses": [
+      {
+        "sense_id": 363472,
+        "meaning_vi": "trừu tượng hóa dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "trừu tượng hóa dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trừu tượng hóa dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119906,
+    "word": "データ通信機器",
+    "kana": "データつうしんきき",
+    "senses": [
+      {
+        "sense_id": 363473,
+        "meaning_vi": "Thiết bị Truyền thông Dữ liệu; DCE",
+        "confidence": "high",
+        "search_keywords": [
+          "Thiết bị Truyền thông Dữ liệu",
+          "DCE"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thiết bị Truyền thông Dữ liệu; DCE",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119907,
+    "word": "データ通信装置",
+    "kana": "データつうしんそうち",
+    "senses": [
+      {
+        "sense_id": 363474,
+        "meaning_vi": "thiết bị truyền thông dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị truyền thông dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị truyền thông dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119908,
+    "word": "データ定義言語",
+    "kana": "データていぎげんご",
+    "senses": [
+      {
+        "sense_id": 363475,
+        "meaning_vi": "ngôn ngữ định nghĩa dữ liệu; DDL",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ định nghĩa dữ liệu",
+          "DDL"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ định nghĩa dữ liệu; DDL",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

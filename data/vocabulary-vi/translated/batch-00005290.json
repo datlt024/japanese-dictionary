@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 126364,
+    "word": "分岐予測",
+    "kana": "ぶんきよそく",
+    "senses": [
+      {
+        "sense_id": 370012,
+        "meaning_vi": "dự đoán nhánh",
+        "confidence": "high",
+        "search_keywords": [
+          "dự đoán nhánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dự đoán nhánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126365,
+    "word": "分散ＣＯＭ",
+    "kana": "ぶんさんシーオーエム",
+    "senses": [
+      {
+        "sense_id": 370013,
+        "meaning_vi": "Mô hình đối tượng thành phần phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "Mô hình đối tượng thành phần phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mô hình đối tượng thành phần phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126366,
+    "word": "分散ＤｏＳ攻撃",
+    "kana": "ぶんさんディーオーエスこうげき",
+    "senses": [
+      {
+        "sense_id": 370014,
+        "meaning_vi": "Tấn công từ chối dịch vụ phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "Tấn công từ chối dịch vụ phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tấn công từ chối dịch vụ phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126367,
+    "word": "分散コンピューティング",
+    "kana": "ぶんさんコンピューティング",
+    "senses": [
+      {
+        "sense_id": 370015,
+        "meaning_vi": "tính toán phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "tính toán phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính toán phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126368,
+    "word": "分散コンピューティング環境",
+    "kana": "ぶんさんコンピューティングかんきょう",
+    "senses": [
+      {
+        "sense_id": 370016,
+        "meaning_vi": "Môi trường tính toán phân tán; DCE",
+        "confidence": "high",
+        "search_keywords": [
+          "Môi trường tính toán phân tán",
+          "DCE"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Môi trường tính toán phân tán; DCE",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126369,
+    "word": "分散データベース",
+    "kana": "ぶんさんデータベース",
+    "senses": [
+      {
+        "sense_id": 370017,
+        "meaning_vi": "cơ sở dữ liệu phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở dữ liệu phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở dữ liệu phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126370,
+    "word": "分散データ処理",
+    "kana": "ぶんさんデータしょり",
+    "senses": [
+      {
+        "sense_id": 370018,
+        "meaning_vi": "xử lý dữ liệu phân tán; DDP",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý dữ liệu phân tán",
+          "DDP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý dữ liệu phân tán; DDP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126371,
+    "word": "分散化",
+    "kana": "ぶんさんか",
+    "senses": [
+      {
+        "sense_id": 370019,
+        "meaning_vi": "sự phân cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phân cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phân cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126372,
+    "word": "分散協調処理",
+    "kana": "ぶんさんきょうちょうしょり",
+    "senses": [
+      {
+        "sense_id": 370020,
+        "meaning_vi": "xử lý hợp tác phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý hợp tác phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý hợp tác phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126373,
+    "word": "分散型データベース",
+    "kana": "ぶんさんがたデータベース",
+    "senses": [
+      {
+        "sense_id": 370021,
+        "meaning_vi": "cơ sở dữ liệu phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở dữ liệu phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở dữ liệu phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126374,
+    "word": "分散型データベース管理システム",
+    "kana": "ぶんさんがたデータベースかんりシステム",
+    "senses": [
+      {
+        "sense_id": 370022,
+        "meaning_vi": "Hệ thống quản lý DataBase phân tán; DDBMS",
+        "confidence": "high",
+        "search_keywords": [
+          "Hệ thống quản lý DataBase phân tán",
+          "DDBMS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hệ thống quản lý DataBase phân tán; DDBMS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126375,
+    "word": "分散型トランザクション",
+    "kana": "ぶんさんがたトランザクション",
+    "senses": [
+      {
+        "sense_id": 370023,
+        "meaning_vi": "giao dịch phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "giao dịch phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao dịch phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126376,
+    "word": "分散試験法",
+    "kana": "ぶんさんしけんほう",
+    "senses": [
+      {
+        "sense_id": 370024,
+        "meaning_vi": "phương pháp thử nghiệm phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp thử nghiệm phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp thử nghiệm phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126377,
+    "word": "分散処理システム",
+    "kana": "ぶんさんしょりシステム",
+    "senses": [
+      {
+        "sense_id": 370025,
+        "meaning_vi": "hệ thống xử lý phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống xử lý phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống xử lý phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126378,
+    "word": "分散処理環境",
+    "kana": "ぶんさんしょりかんきょう",
+    "senses": [
+      {
+        "sense_id": 370026,
+        "meaning_vi": "DCE; Môi trường tính toán phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "DCE",
+          "Môi trường tính toán phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "DCE; Môi trường tính toán phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126379,
+    "word": "分散制御",
+    "kana": "ぶんさんせいぎょ",
+    "senses": [
+      {
+        "sense_id": 370027,
+        "meaning_vi": "kiểm soát phi tập trung",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát phi tập trung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát phi tập trung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126380,
+    "word": "分散配置",
+    "kana": "ぶんさんはいち",
+    "senses": [
+      {
+        "sense_id": 370028,
+        "meaning_vi": "sự sắp xếp phân tán, phi tập trung",
+        "confidence": "high",
+        "search_keywords": [
+          "sự sắp xếp phân tán, phi tập trung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự sắp xếp phân tán, phi tập trung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126381,
+    "word": "分散分析法",
+    "kana": "ぶんさんぶんせきほう",
+    "senses": [
+      {
+        "sense_id": 370029,
+        "meaning_vi": "phân tích phương sai",
+        "confidence": "high",
+        "search_keywords": [
+          "phân tích phương sai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân tích phương sai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126382,
+    "word": "分散名前解析",
+    "kana": "ぶんさんなまえかいせき",
+    "senses": [
+      {
+        "sense_id": 370030,
+        "meaning_vi": "độ phân giải tên phân phối",
+        "confidence": "high",
+        "search_keywords": [
+          "độ phân giải tên phân phối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ phân giải tên phân phối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126383,
+    "word": "分周器",
+    "kana": "ぶんしゅうき",
+    "senses": [
+      {
+        "sense_id": 370031,
+        "meaning_vi": "bộ phân tần; bộ chia tần số",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ phân tần",
+          "bộ chia tần số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ phân tần; bộ chia tần số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

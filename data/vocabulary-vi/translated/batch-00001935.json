@@ -1,0 +1,738 @@
+[
+  {
+    "vocabulary_id": 50288,
+    "word": "戻り道",
+    "kana": "もどりみち",
+    "senses": [
+      {
+        "sense_id": 283155,
+        "meaning_vi": "đường về",
+        "confidence": "high",
+        "search_keywords": [
+          "đường về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50289,
+    "word": "戻る",
+    "kana": "もどる",
+    "senses": [
+      {
+        "sense_id": 283156,
+        "meaning_vi": "quay trở lại (ví dụ: nửa đường)",
+        "confidence": "high",
+        "search_keywords": [
+          "quay trở lại (ví dụ: nửa đường)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quay trở lại (ví dụ: nửa đường)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283157,
+        "meaning_vi": "quay trở lại ; quay trở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "quay trở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quay trở lại ; quay trở lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283158,
+        "meaning_vi": "để phục hồi (ví dụ như một cái gì đó bị mất); được trả lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để phục hồi (ví dụ như một cái gì đó bị mất)",
+          "được trả lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để phục hồi (ví dụ như một cái gì đó bị mất); được trả lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283159,
+        "meaning_vi": "để phục hồi; xuân trở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để phục hồi",
+          "xuân trở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để phục hồi; xuân trở lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50290,
+    "word": "籾",
+    "kana": "もみ",
+    "senses": [
+      {
+        "sense_id": 283160,
+        "meaning_vi": "gạo không vỏ; gạo còn trấu; thóc",
+        "confidence": "high",
+        "search_keywords": [
+          "gạo không vỏ",
+          "gạo còn trấu",
+          "thóc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gạo không vỏ; gạo còn trấu; thóc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283161,
+        "meaning_vi": "trấu; trấu",
+        "confidence": "high",
+        "search_keywords": [
+          "trấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trấu; trấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50291,
+    "word": "もらい物",
+    "kana": "もらいもの",
+    "senses": [
+      {
+        "sense_id": 283162,
+        "meaning_vi": "(đã nhận) hiện tại; quà tặng",
+        "confidence": "high",
+        "search_keywords": [
+          "(đã nhận) hiện tại",
+          "quà tặng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đã nhận) hiện tại; quà tặng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50292,
+    "word": "貰う",
+    "kana": "もらう",
+    "senses": [
+      {
+        "sense_id": 283163,
+        "meaning_vi": "nhận được; lấy ; chấp nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận được",
+          "lấy",
+          "chấp nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận được; lấy ; chấp nhận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283164,
+        "meaning_vi": "bắt ai đó làm gì đó",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt ai đó làm gì đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt ai đó làm gì đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283165,
+        "meaning_vi": "có trong túi (một cuộc chiến, trận đấu)",
+        "confidence": "high",
+        "search_keywords": [
+          "có trong túi (một cuộc chiến, trận đấu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có trong túi (một cuộc chiến, trận đấu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283166,
+        "meaning_vi": "mắc phải (một căn bệnh); để bắt ; bị ảnh hưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "mắc phải (một căn bệnh)",
+          "để bắt",
+          "bị ảnh hưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mắc phải (một căn bệnh); để bắt ; bị ảnh hưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50293,
+    "word": "もらい泣き",
+    "kana": "もらいなき",
+    "senses": [
+      {
+        "sense_id": 283167,
+        "meaning_vi": "khóc thương cảm; khóc truyền nhiễm",
+        "confidence": "high",
+        "search_keywords": [
+          "khóc thương cảm",
+          "khóc truyền nhiễm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóc thương cảm; khóc truyền nhiễm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50294,
+    "word": "問い",
+    "kana": "とい",
+    "senses": [
+      {
+        "sense_id": 283168,
+        "meaning_vi": "câu hỏi; truy vấn",
+        "confidence": "high",
+        "search_keywords": [
+          "câu hỏi",
+          "truy vấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu hỏi; truy vấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50295,
+    "word": "問いかける",
+    "kana": "といかける",
+    "senses": [
+      {
+        "sense_id": 283169,
+        "meaning_vi": "để hỏi một câu hỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "để hỏi một câu hỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hỏi một câu hỏi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283170,
+        "meaning_vi": "bắt đầu hỏi một câu hỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu hỏi một câu hỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu hỏi một câu hỏi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50296,
+    "word": "問い詰める",
+    "kana": "といつめる",
+    "senses": [
+      {
+        "sense_id": 283171,
+        "meaning_vi": "để nhấn một câu hỏi; để kiểm tra chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "để nhấn một câu hỏi",
+          "để kiểm tra chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nhấn một câu hỏi; để kiểm tra chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50297,
+    "word": "問い合わせる",
+    "kana": "といあわせる",
+    "senses": [
+      {
+        "sense_id": 283172,
+        "meaning_vi": "hỏi ; để hỏi ; để tìm kiếm thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "hỏi",
+          "để hỏi",
+          "để tìm kiếm thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỏi ; để hỏi ; để tìm kiếm thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50298,
+    "word": "問いただす",
+    "kana": "といただす",
+    "senses": [
+      {
+        "sense_id": 283173,
+        "meaning_vi": "để hỏi (về); hỏi ; hỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "để hỏi (về)",
+          "hỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hỏi (về); hỏi ; hỏi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283174,
+        "meaning_vi": "để thẩm vấn; đặt câu hỏi một cách mãnh liệt; nướng (ai đó về điều gì đó); yêu cầu (ai đó) giải thích",
+        "confidence": "high",
+        "search_keywords": [
+          "để thẩm vấn",
+          "đặt câu hỏi một cách mãnh liệt",
+          "nướng (ai đó về điều gì đó)",
+          "yêu cầu (ai đó) giải thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thẩm vấn; đặt câu hỏi một cách mãnh liệt; nướng (ai đó về điều gì đó); yêu cầu (ai đó) giải thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50299,
+    "word": "問い返す",
+    "kana": "といかえす",
+    "senses": [
+      {
+        "sense_id": 283175,
+        "meaning_vi": "hỏi lại; lặp lại câu hỏi của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "hỏi lại",
+          "lặp lại câu hỏi của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỏi lại; lặp lại câu hỏi của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283176,
+        "meaning_vi": "hỏi lại; để hỏi lại; để truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "hỏi lại",
+          "để hỏi lại",
+          "để truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỏi lại; để hỏi lại; để truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50300,
+    "word": "問う",
+    "kana": "とう",
+    "senses": [
+      {
+        "sense_id": 283177,
+        "meaning_vi": "hỏi ; hỏi thăm",
+        "confidence": "high",
+        "search_keywords": [
+          "hỏi",
+          "hỏi thăm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỏi ; hỏi thăm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283178,
+        "meaning_vi": "đổ lỗi cho (ai đó); buộc tội ; theo đuổi (câu hỏi về trách nhiệm); để sạc với",
+        "confidence": "high",
+        "search_keywords": [
+          "đổ lỗi cho (ai đó)",
+          "buộc tội",
+          "theo đuổi (câu hỏi về trách nhiệm)",
+          "để sạc với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đổ lỗi cho (ai đó); buộc tội ; theo đuổi (câu hỏi về trách nhiệm); để sạc với",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283179,
+        "meaning_vi": "quan tâm đến; coi là quan trọng",
+        "confidence": "high",
+        "search_keywords": [
+          "quan tâm đến",
+          "coi là quan trọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan tâm đến; coi là quan trọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283180,
+        "meaning_vi": "để đặt câu hỏi; nghi ngờ; đặt câu hỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "để đặt câu hỏi",
+          "nghi ngờ",
+          "đặt câu hỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đặt câu hỏi; nghi ngờ; đặt câu hỏi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50301,
+    "word": "問題",
+    "kana": "もんだい",
+    "senses": [
+      {
+        "sense_id": 283181,
+        "meaning_vi": "câu hỏi (ví dụ: trong bài kiểm tra); vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "câu hỏi (ví dụ: trong bài kiểm tra)",
+          "vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu hỏi (ví dụ: trong bài kiểm tra); vấn đề",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283182,
+        "meaning_vi": "vấn đề (ví dụ: xã hội, chính trị); câu hỏi; vấn đề; chủ đề (ví dụ: nghiên cứu); trường hợp; vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "vấn đề (ví dụ: xã hội, chính trị)",
+          "câu hỏi",
+          "vấn đề",
+          "chủ đề (ví dụ: nghiên cứu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vấn đề (ví dụ: xã hội, chính trị); câu hỏi; vấn đề; chủ đề (ví dụ: nghiên cứu); trường hợp; vấn đề",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283183,
+        "meaning_vi": "câu hỏi (tức là nghi ngờ)",
+        "confidence": "high",
+        "search_keywords": [
+          "câu hỏi (tức là nghi ngờ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu hỏi (tức là nghi ngờ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283184,
+        "meaning_vi": "thảo luận công khai; tranh cãi",
+        "confidence": "high",
+        "search_keywords": [
+          "thảo luận công khai",
+          "tranh cãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thảo luận công khai; tranh cãi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283185,
+        "meaning_vi": "rắc rối; vấn đề; sự bất tiện; khó khăn",
+        "confidence": "high",
+        "search_keywords": [
+          "rắc rối",
+          "vấn đề",
+          "sự bất tiện",
+          "khó khăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rắc rối; vấn đề; sự bất tiện; khó khăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50302,
+    "word": "問題を取り上げる",
+    "kana": "もんだいをとりあげる",
+    "senses": [
+      {
+        "sense_id": 283186,
+        "meaning_vi": "để giải quyết một vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "để giải quyết một vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để giải quyết một vấn đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50303,
+    "word": "問題解決",
+    "kana": "もんだいかいけつ",
+    "senses": [
+      {
+        "sense_id": 283187,
+        "meaning_vi": "giải quyết vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "giải quyết vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải quyết vấn đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50304,
+    "word": "問題児",
+    "kana": "もんだいじ",
+    "senses": [
+      {
+        "sense_id": 283188,
+        "meaning_vi": "đứa trẻ có vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "đứa trẻ có vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứa trẻ có vấn đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50305,
+    "word": "問題点",
+    "kana": "もんだいてん",
+    "senses": [
+      {
+        "sense_id": 283189,
+        "meaning_vi": "vấn đề (đang được đề cập); điểm đang được đề cập; vấn đề có vấn đề; vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "vấn đề (đang được đề cập)",
+          "điểm đang được đề cập",
+          "vấn đề có vấn đề",
+          "vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vấn đề (đang được đề cập); điểm đang được đề cập; vấn đề có vấn đề; vấn đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50306,
+    "word": "問答",
+    "kana": "もんどう",
+    "senses": [
+      {
+        "sense_id": 283190,
+        "meaning_vi": "câu hỏi và câu trả lời; đối thoại",
+        "confidence": "high",
+        "search_keywords": [
+          "câu hỏi và câu trả lời",
+          "đối thoại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu hỏi và câu trả lời; đối thoại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50307,
+    "word": "問答無用",
+    "kana": "もんどうむよう",
+    "senses": [
+      {
+        "sense_id": 283191,
+        "meaning_vi": "không có ích gì khi tranh cãi (về nó); không có ý định thảo luận",
+        "confidence": "high",
+        "search_keywords": [
+          "không có ích gì khi tranh cãi (về nó)",
+          "không có ý định thảo luận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có ích gì khi tranh cãi (về nó); không có ý định thảo luận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

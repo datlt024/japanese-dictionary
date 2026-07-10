@@ -1,0 +1,624 @@
+[
+  {
+    "vocabulary_id": 92704,
+    "word": "ぷにぷに",
+    "kana": "ぷにぷに",
+    "senses": [
+      {
+        "sense_id": 333061,
+        "meaning_vi": "yếu đuối; đàn hồi; nảy lên",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu đuối",
+          "đàn hồi",
+          "nảy lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu đuối; đàn hồi; nảy lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92705,
+    "word": "乗り乗り",
+    "kana": "のりのり",
+    "senses": [
+      {
+        "sense_id": 333062,
+        "meaning_vi": "với tinh thần cao độ; hào hứng; tràn đầy năng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "với tinh thần cao độ",
+          "hào hứng",
+          "tràn đầy năng lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "với tinh thần cao độ; hào hứng; tràn đầy năng lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92706,
+    "word": "丸一晩",
+    "kana": "まるひとばん",
+    "senses": [
+      {
+        "sense_id": 333063,
+        "meaning_vi": "cả đêm; cả đêm",
+        "confidence": "high",
+        "search_keywords": [
+          "cả đêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cả đêm; cả đêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92707,
+    "word": "溶存",
+    "kana": "ようぞん",
+    "senses": [
+      {
+        "sense_id": 333064,
+        "meaning_vi": "hòa tan",
+        "confidence": "high",
+        "search_keywords": [
+          "hòa tan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hòa tan",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333065,
+        "meaning_vi": "hòa tan; giải thể",
+        "confidence": "high",
+        "search_keywords": [
+          "hòa tan",
+          "giải thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hòa tan; giải thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92708,
+    "word": "溶存酸素",
+    "kana": "ようぞんさんそ",
+    "senses": [
+      {
+        "sense_id": 333066,
+        "meaning_vi": "oxy hòa tan",
+        "confidence": "high",
+        "search_keywords": [
+          "oxy hòa tan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "oxy hòa tan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92709,
+    "word": "ちゃう",
+    "kana": "ちゃう",
+    "senses": [
+      {
+        "sense_id": 333067,
+        "meaning_vi": "làm hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "làm hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm hoàn toàn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333068,
+        "meaning_vi": "vô tình làm điều đó; làm mà không có ý định; xảy ra để làm",
+        "confidence": "high",
+        "search_keywords": [
+          "vô tình làm điều đó",
+          "làm mà không có ý định",
+          "xảy ra để làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô tình làm điều đó; làm mà không có ý định; xảy ra để làm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92710,
+    "word": "ちゃう",
+    "kana": "ちゃう",
+    "senses": [
+      {
+        "sense_id": 333069,
+        "meaning_vi": "KHÔNG; điều đó sai; nó không phải như thế",
+        "confidence": "high",
+        "search_keywords": [
+          "KHÔNG",
+          "điều đó sai",
+          "nó không phải như thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "KHÔNG; điều đó sai; nó không phải như thế",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333070,
+        "meaning_vi": "phải không?; phải không?",
+        "confidence": "high",
+        "search_keywords": [
+          "phải không?"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phải không?; phải không?",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92711,
+    "word": "現地調達",
+    "kana": "げんちちょうたつ",
+    "senses": [
+      {
+        "sense_id": 333071,
+        "meaning_vi": "mua sắm địa phương; nội dung địa phương; tìm nguồn cung ứng tại địa phương",
+        "confidence": "high",
+        "search_keywords": [
+          "mua sắm địa phương",
+          "nội dung địa phương",
+          "tìm nguồn cung ứng tại địa phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mua sắm địa phương; nội dung địa phương; tìm nguồn cung ứng tại địa phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92712,
+    "word": "現調",
+    "kana": "げんちょう",
+    "senses": [
+      {
+        "sense_id": 333072,
+        "meaning_vi": "mua sắm địa phương; nội dung địa phương; tìm nguồn cung ứng tại địa phương",
+        "confidence": "high",
+        "search_keywords": [
+          "mua sắm địa phương",
+          "nội dung địa phương",
+          "tìm nguồn cung ứng tại địa phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mua sắm địa phương; nội dung địa phương; tìm nguồn cung ứng tại địa phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92713,
+    "word": "叫びだす",
+    "kana": "さけびだす",
+    "senses": [
+      {
+        "sense_id": 333073,
+        "meaning_vi": "bật ra một tiếng kêu; đột phá",
+        "confidence": "high",
+        "search_keywords": [
+          "bật ra một tiếng kêu",
+          "đột phá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bật ra một tiếng kêu; đột phá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92714,
+    "word": "馬鹿な真似",
+    "kana": "ばかなまね",
+    "senses": [
+      {
+        "sense_id": 333074,
+        "meaning_vi": "hành vi ngu xuẩn; kinh doanh khỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "hành vi ngu xuẩn",
+          "kinh doanh khỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành vi ngu xuẩn; kinh doanh khỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92715,
+    "word": "怒りっぽい",
+    "kana": "おこりっぽい",
+    "senses": [
+      {
+        "sense_id": 333075,
+        "meaning_vi": "nóng tính; nhanh chóng phạm tội; nhanh chóng phạm tội; nóng nảy; nhạy cảm",
+        "confidence": "high",
+        "search_keywords": [
+          "nóng tính",
+          "nhanh chóng phạm tội",
+          "nóng nảy",
+          "nhạy cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nóng tính; nhanh chóng phạm tội; nhanh chóng phạm tội; nóng nảy; nhạy cảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92716,
+    "word": "現先",
+    "kana": "げんさき",
+    "senses": [
+      {
+        "sense_id": 333076,
+        "meaning_vi": "mua lại (đặc biệt là trái phiếu, nợ, v.v.); mua lại",
+        "confidence": "high",
+        "search_keywords": [
+          "mua lại (đặc biệt là trái phiếu, nợ, v.v.)",
+          "mua lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mua lại (đặc biệt là trái phiếu, nợ, v.v.); mua lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92717,
+    "word": "現先取引",
+    "kana": "げんさきとりひき",
+    "senses": [
+      {
+        "sense_id": 333077,
+        "meaning_vi": "giao dịch có hợp đồng mua lại",
+        "confidence": "high",
+        "search_keywords": [
+          "giao dịch có hợp đồng mua lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao dịch có hợp đồng mua lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92718,
+    "word": "キャッシュバック",
+    "kana": "キャッシュバック",
+    "senses": [
+      {
+        "sense_id": 333078,
+        "meaning_vi": "hoàn lại tiền; giảm giá",
+        "confidence": "high",
+        "search_keywords": [
+          "hoàn lại tiền",
+          "giảm giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoàn lại tiền; giảm giá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92719,
+    "word": "仕損ずる",
+    "kana": "しそんずる",
+    "senses": [
+      {
+        "sense_id": 333079,
+        "meaning_vi": "phạm sai lầm; thất bại; phạm sai lầm",
+        "confidence": "high",
+        "search_keywords": [
+          "phạm sai lầm",
+          "thất bại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phạm sai lầm; thất bại; phạm sai lầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92720,
+    "word": "赤",
+    "kana": "あか",
+    "senses": [
+      {
+        "sense_id": 333080,
+        "meaning_vi": "màu đỏ; màu đỏ thẫm; màu đỏ tươi",
+        "confidence": "high",
+        "search_keywords": [
+          "màu đỏ",
+          "màu đỏ thẫm",
+          "màu đỏ tươi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu đỏ; màu đỏ thẫm; màu đỏ tươi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333081,
+        "meaning_vi": "màu có chứa màu đỏ (ví dụ: nâu, hồng, cam)",
+        "confidence": "high",
+        "search_keywords": [
+          "màu có chứa màu đỏ (ví dụ: nâu, hồng, cam)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu có chứa màu đỏ (ví dụ: nâu, hồng, cam)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333082,
+        "meaning_vi": "Đỏ (tức là cộng sản)",
+        "confidence": "high",
+        "search_keywords": [
+          "Đỏ (tức là cộng sản)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đỏ (tức là cộng sản)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333083,
+        "meaning_vi": "đèn đỏ (giao thông)",
+        "confidence": "high",
+        "search_keywords": [
+          "đèn đỏ (giao thông)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đèn đỏ (giao thông)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333084,
+        "meaning_vi": "mực đỏ (tức là trong tài chính hoặc đọc soát); (trong) màu đỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "mực đỏ (tức là trong tài chính hoặc đọc soát)",
+          "(trong) màu đỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mực đỏ (tức là trong tài chính hoặc đọc soát); (trong) màu đỏ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333085,
+        "meaning_vi": "hoàn thành; tổng cộng; hoàn hảo; hiển nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "hoàn thành",
+          "tổng cộng",
+          "hoàn hảo",
+          "hiển nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoàn thành; tổng cộng; hoàn hảo; hiển nhiên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333086,
+        "meaning_vi": "đồng",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333087,
+        "meaning_vi": "thẻ 5 điểm màu đỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ 5 điểm màu đỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ 5 điểm màu đỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92721,
+    "word": "に渡って",
+    "kana": "にわたって",
+    "senses": [
+      {
+        "sense_id": 333088,
+        "meaning_vi": "khắp; trong khoảng thời gian ...; trong một khoảng thời gian...",
+        "confidence": "high",
+        "search_keywords": [
+          "khắp",
+          "trong khoảng thời gian ...",
+          "trong một khoảng thời gian..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khắp; trong khoảng thời gian ...; trong một khoảng thời gian...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92722,
+    "word": "みみっちい",
+    "kana": "みみっちい",
+    "senses": [
+      {
+        "sense_id": 333089,
+        "meaning_vi": "chặt chẽ; keo kiệt; keo kiệt; nhỏ nhen",
+        "confidence": "high",
+        "search_keywords": [
+          "chặt chẽ",
+          "keo kiệt",
+          "nhỏ nhen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chặt chẽ; keo kiệt; keo kiệt; nhỏ nhen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 92723,
+    "word": "来年度",
+    "kana": "らいねんど",
+    "senses": [
+      {
+        "sense_id": 333090,
+        "meaning_vi": "năm tới; năm tài chính tiếp theo",
+        "confidence": "high",
+        "search_keywords": [
+          "năm tới",
+          "năm tài chính tiếp theo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năm tới; năm tài chính tiếp theo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

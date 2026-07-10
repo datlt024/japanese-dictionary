@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 171106,
+    "word": "部分積分法",
+    "kana": "ぶぶんせきぶんほう",
+    "senses": [
+      {
+        "sense_id": 418896,
+        "meaning_vi": "tích hợp từng phần",
+        "confidence": "high",
+        "search_keywords": [
+          "tích hợp từng phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tích hợp từng phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171107,
+    "word": "部分分数分解",
+    "kana": "ぶぶんぶんすうぶんかい",
+    "senses": [
+      {
+        "sense_id": 418897,
+        "meaning_vi": "phân hủy một phần; phân hủy thành các phân số một phần",
+        "confidence": "high",
+        "search_keywords": [
+          "phân hủy một phần",
+          "phân hủy thành các phân số một phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân hủy một phần; phân hủy thành các phân số một phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171108,
+    "word": "絶対収束",
+    "kana": "ぜったいしゅうそく",
+    "senses": [
+      {
+        "sense_id": 418898,
+        "meaning_vi": "sự hội tụ tuyệt đối",
+        "confidence": "high",
+        "search_keywords": [
+          "sự hội tụ tuyệt đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự hội tụ tuyệt đối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171109,
+    "word": "条件収束",
+    "kana": "じょうけんしゅうそく",
+    "senses": [
+      {
+        "sense_id": 418899,
+        "meaning_vi": "hội tụ có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "hội tụ có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội tụ có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171110,
+    "word": "部分和",
+    "kana": "ぶぶんわ",
+    "senses": [
+      {
+        "sense_id": 418900,
+        "meaning_vi": "tổng một phần (của một chuỗi)",
+        "confidence": "high",
+        "search_keywords": [
+          "tổng một phần (của một chuỗi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổng một phần (của một chuỗi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171111,
+    "word": "畳み込み級数",
+    "kana": "たたみこみきゅうすう",
+    "senses": [
+      {
+        "sense_id": 418901,
+        "meaning_vi": "loạt kính thiên văn",
+        "confidence": "high",
+        "search_keywords": [
+          "loạt kính thiên văn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loạt kính thiên văn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171112,
+    "word": "望遠鏡級数",
+    "kana": "ぼうえんきょうきゅうすう",
+    "senses": [
+      {
+        "sense_id": 418902,
+        "meaning_vi": "loạt kính thiên văn",
+        "confidence": "high",
+        "search_keywords": [
+          "loạt kính thiên văn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loạt kính thiên văn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171113,
+    "word": "交項級数",
+    "kana": "こうこうきゅうすう",
+    "senses": [
+      {
+        "sense_id": 418903,
+        "meaning_vi": "loạt xen kẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "loạt xen kẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loạt xen kẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171114,
+    "word": "整級数",
+    "kana": "せいきゅうすう",
+    "senses": [
+      {
+        "sense_id": 418904,
+        "meaning_vi": "loạt điện",
+        "confidence": "high",
+        "search_keywords": [
+          "loạt điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loạt điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171115,
+    "word": "ウニコール",
+    "kana": "ウニコール",
+    "senses": [
+      {
+        "sense_id": 418905,
+        "meaning_vi": "kỳ lân",
+        "confidence": "high",
+        "search_keywords": [
+          "kỳ lân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỳ lân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171116,
+    "word": "交代級数",
+    "kana": "こうたいきゅうすう",
+    "senses": [
+      {
+        "sense_id": 418906,
+        "meaning_vi": "loạt xen kẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "loạt xen kẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loạt xen kẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171117,
+    "word": "重力定数",
+    "kana": "じゅうりょくていすう",
+    "senses": [
+      {
+        "sense_id": 418907,
+        "meaning_vi": "hằng số hấp dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "hằng số hấp dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hằng số hấp dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171118,
+    "word": "単調関数",
+    "kana": "たんちょうかんすう",
+    "senses": [
+      {
+        "sense_id": 418908,
+        "meaning_vi": "chức năng đơn điệu; hàm đơn điệu",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng đơn điệu",
+          "hàm đơn điệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng đơn điệu; hàm đơn điệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171119,
+    "word": "関手",
+    "kana": "かんしゅ",
+    "senses": [
+      {
+        "sense_id": 418909,
+        "meaning_vi": "hàm số",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171120,
+    "word": "籠鳥檻猿",
+    "kana": "ろうちょうかんえん",
+    "senses": [
+      {
+        "sense_id": 418910,
+        "meaning_vi": "bị từ chối tự do (về cách sống); sống như một con chim bị nhốt trong lồng",
+        "confidence": "high",
+        "search_keywords": [
+          "bị từ chối tự do (về cách sống)",
+          "sống như một con chim bị nhốt trong lồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị từ chối tự do (về cách sống); sống như một con chim bị nhốt trong lồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171121,
+    "word": "基本群",
+    "kana": "きほんぐん",
+    "senses": [
+      {
+        "sense_id": 418911,
+        "meaning_vi": "nhóm cơ bản",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm cơ bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm cơ bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171122,
+    "word": "熱化学",
+    "kana": "ねつかがく",
+    "senses": [
+      {
+        "sense_id": 418912,
+        "meaning_vi": "nhiệt hóa học",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt hóa học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt hóa học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171123,
+    "word": "句例",
+    "kana": "くれい",
+    "senses": [
+      {
+        "sense_id": 418913,
+        "meaning_vi": "ví dụ về cụm từ; ví dụ haiku",
+        "confidence": "high",
+        "search_keywords": [
+          "ví dụ về cụm từ",
+          "ví dụ haiku"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ví dụ về cụm từ; ví dụ haiku",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171124,
+    "word": "実数値関数",
+    "kana": "じっすうちかんすう",
+    "senses": [
+      {
+        "sense_id": 418914,
+        "meaning_vi": "hàm có giá trị thực; chức năng thực sự",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm có giá trị thực",
+          "chức năng thực sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm có giá trị thực; chức năng thực sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 171125,
+    "word": "分割統治法",
+    "kana": "ぶんかつとうちほう",
+    "senses": [
+      {
+        "sense_id": 418915,
+        "meaning_vi": "chia và chinh phục",
+        "confidence": "high",
+        "search_keywords": [
+          "chia và chinh phục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chia và chinh phục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

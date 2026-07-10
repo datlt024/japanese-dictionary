@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 125059,
+    "word": "走査器",
+    "kana": "そうさき",
+    "senses": [
+      {
+        "sense_id": 368698,
+        "meaning_vi": "máy quét",
+        "confidence": "high",
+        "search_keywords": [
+          "máy quét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy quét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125060,
+    "word": "走査周波数",
+    "kana": "そうさしゅうはすう",
+    "senses": [
+      {
+        "sense_id": 368699,
+        "meaning_vi": "tần số quét",
+        "confidence": "high",
+        "search_keywords": [
+          "tần số quét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tần số quét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125061,
+    "word": "走査状態リスト",
+    "kana": "そうさじょうたいリスト",
+    "senses": [
+      {
+        "sense_id": 368700,
+        "meaning_vi": "danh sách trạng thái truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "danh sách trạng thái truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh sách trạng thái truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125062,
+    "word": "送りレジスタ",
+    "kana": "おくりレジスタ",
+    "senses": [
+      {
+        "sense_id": 368701,
+        "meaning_vi": "đăng ký ca",
+        "confidence": "high",
+        "search_keywords": [
+          "đăng ký ca"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đăng ký ca",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125063,
+    "word": "送り孔",
+    "kana": "おくりこう",
+    "senses": [
+      {
+        "sense_id": 368702,
+        "meaning_vi": "lỗ nạp",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗ nạp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗ nạp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125064,
+    "word": "送り込み",
+    "kana": "おくりこみ",
+    "senses": [
+      {
+        "sense_id": 368703,
+        "meaning_vi": "thức ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "thức ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thức ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125065,
+    "word": "送り側ドライブ",
+    "kana": "おくりがわドライブ",
+    "senses": [
+      {
+        "sense_id": 368704,
+        "meaning_vi": "ổ nguồn",
+        "confidence": "high",
+        "search_keywords": [
+          "ổ nguồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ổ nguồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125066,
+    "word": "送り点",
+    "kana": "おくりてん",
+    "senses": [
+      {
+        "sense_id": 368705,
+        "meaning_vi": "điểm thoát",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm thoát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm thoát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125067,
+    "word": "送受信装置",
+    "kana": "そうじゅしんそうち",
+    "senses": [
+      {
+        "sense_id": 368706,
+        "meaning_vi": "máy thu phát",
+        "confidence": "high",
+        "search_keywords": [
+          "máy thu phát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy thu phát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125068,
+    "word": "送信ウィンドウ",
+    "kana": "そうしんウィンドウ",
+    "senses": [
+      {
+        "sense_id": 368707,
+        "meaning_vi": "cửa sổ truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa sổ truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa sổ truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125069,
+    "word": "送信レート",
+    "kana": "そうしんレート",
+    "senses": [
+      {
+        "sense_id": 368708,
+        "meaning_vi": "tốc độ truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125070,
+    "word": "送信器",
+    "kana": "そうしんき",
+    "senses": [
+      {
+        "sense_id": 368709,
+        "meaning_vi": "máy phát",
+        "confidence": "high",
+        "search_keywords": [
+          "máy phát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy phát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125071,
+    "word": "送信者",
+    "kana": "そうしんしゃ",
+    "senses": [
+      {
+        "sense_id": 368710,
+        "meaning_vi": "người gửi",
+        "confidence": "high",
+        "search_keywords": [
+          "người gửi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người gửi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125072,
+    "word": "送信側",
+    "kana": "そうしんがわ",
+    "senses": [
+      {
+        "sense_id": 368711,
+        "meaning_vi": "đơn vị gửi; người gửi",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị gửi",
+          "người gửi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị gửi; người gửi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125073,
+    "word": "送信側ＳＰＭ",
+    "kana": "そうしんがわエスピーエム",
+    "senses": [
+      {
+        "sense_id": 368712,
+        "meaning_vi": "gửi SPM",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi SPM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi SPM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125074,
+    "word": "送信側ＳＳ利用者",
+    "kana": "そうしんがわエスエスりようしゃ",
+    "senses": [
+      {
+        "sense_id": 368713,
+        "meaning_vi": "gửi người dùng SS",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi người dùng SS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi người dùng SS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125075,
+    "word": "送信側ＴＳ利用者",
+    "kana": "そうしんがわティーエスりようしゃ",
+    "senses": [
+      {
+        "sense_id": 368714,
+        "meaning_vi": "gửi TS người dùng",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi TS người dùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi TS người dùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125076,
+    "word": "送信側エンティティ",
+    "kana": "そうしんがわエンティティ",
+    "senses": [
+      {
+        "sense_id": 368715,
+        "meaning_vi": "đơn vị gửi; người gửi",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị gửi",
+          "người gửi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị gửi; người gửi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125077,
+    "word": "送信側トランスポートエンティティ",
+    "kana": "そうしんがわトランスポートエンティティ",
+    "senses": [
+      {
+        "sense_id": 368716,
+        "meaning_vi": "thực thể vận chuyển gửi",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể vận chuyển gửi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể vận chuyển gửi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125078,
+    "word": "送信要求",
+    "kana": "そうしんようきゅう",
+    "senses": [
+      {
+        "sense_id": 368717,
+        "meaning_vi": "Yêu cầu gửi; RTS",
+        "confidence": "high",
+        "search_keywords": [
+          "Yêu cầu gửi",
+          "RTS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Yêu cầu gửi; RTS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,451 @@
+[
+  {
+    "vocabulary_id": 123223,
+    "word": "鏡面反射指数",
+    "kana": "きょうめんはんしゃしすう",
+    "senses": [
+      {
+        "sense_id": 366845,
+        "meaning_vi": "số mũ cụ thể",
+        "confidence": "high",
+        "search_keywords": [
+          "số mũ cụ thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số mũ cụ thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123224,
+    "word": "鏡面反射色",
+    "kana": "きょうめんはんしゃしょく",
+    "senses": [
+      {
+        "sense_id": 366846,
+        "meaning_vi": "màu sắc đặc trưng",
+        "confidence": "high",
+        "search_keywords": [
+          "màu sắc đặc trưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu sắc đặc trưng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123225,
+    "word": "業界規範",
+    "kana": "ぎょうかいきはん",
+    "senses": [
+      {
+        "sense_id": 366847,
+        "meaning_vi": "tiêu chuẩn ngành; định mức ngành",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu chuẩn ngành",
+          "định mức ngành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu chuẩn ngành; định mức ngành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123226,
+    "word": "業界精通者",
+    "kana": "ぎょうかいせいつうしゃ",
+    "senses": [
+      {
+        "sense_id": 366848,
+        "meaning_vi": "chuyên gia trong ngành",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyên gia trong ngành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyên gia trong ngành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123227,
+    "word": "業界標準アーキテクチャ",
+    "kana": "ぎょうかいひょうじゅんアーキテクチャ",
+    "senses": [
+      {
+        "sense_id": 366849,
+        "meaning_vi": "Kiến trúc tiêu chuẩn ngành; ISA",
+        "confidence": "high",
+        "search_keywords": [
+          "Kiến trúc tiêu chuẩn ngành",
+          "ISA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kiến trúc tiêu chuẩn ngành; ISA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123228,
+    "word": "業界標準化",
+    "kana": "ぎょうかいひょうじゅんか",
+    "senses": [
+      {
+        "sense_id": 366850,
+        "meaning_vi": "tiêu chuẩn hóa ngành",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu chuẩn hóa ngành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu chuẩn hóa ngành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123229,
+    "word": "業務アプリケーション",
+    "kana": "ぎょうむアプリケーション",
+    "senses": [
+      {
+        "sense_id": 366851,
+        "meaning_vi": "ứng dụng kinh doanh; phần mềm định hướng kinh doanh",
+        "confidence": "high",
+        "search_keywords": [
+          "ứng dụng kinh doanh",
+          "phần mềm định hướng kinh doanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ứng dụng kinh doanh; phần mềm định hướng kinh doanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123230,
+    "word": "業務スケジュール",
+    "kana": "ぎょうむスケジュール",
+    "senses": [
+      {
+        "sense_id": 366852,
+        "meaning_vi": "lịch trình nhiệm vụ",
+        "confidence": "high",
+        "search_keywords": [
+          "lịch trình nhiệm vụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lịch trình nhiệm vụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123231,
+    "word": "業務概要",
+    "kana": "ぎょうむがいよう",
+    "senses": [
+      {
+        "sense_id": 366853,
+        "meaning_vi": "tổng quan về nhiệm vụ",
+        "confidence": "high",
+        "search_keywords": [
+          "tổng quan về nhiệm vụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổng quan về nhiệm vụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123232,
+    "word": "局コード",
+    "kana": "きょくコード",
+    "senses": [
+      {
+        "sense_id": 366854,
+        "meaning_vi": "mã văn phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "mã văn phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã văn phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123233,
+    "word": "局データ",
+    "kana": "きょくデータ",
+    "senses": [
+      {
+        "sense_id": 366855,
+        "meaning_vi": "dữ liệu văn phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu văn phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu văn phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123234,
+    "word": "局管理",
+    "kana": "きょくかんり",
+    "senses": [
+      {
+        "sense_id": 366856,
+        "meaning_vi": "SMT; Quản lý trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "SMT",
+          "Quản lý trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "SMT; Quản lý trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123235,
+    "word": "局間回線",
+    "kana": "きょくかんかいせん",
+    "senses": [
+      {
+        "sense_id": 366857,
+        "meaning_vi": "thân cây; đường dây liên văn phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "thân cây",
+          "đường dây liên văn phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thân cây; đường dây liên văn phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123236,
+    "word": "局建",
+    "kana": "きょくげん",
+    "senses": [
+      {
+        "sense_id": 366858,
+        "meaning_vi": "thiết lập văn phòng; thành lập văn phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết lập văn phòng",
+          "thành lập văn phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết lập văn phòng; thành lập văn phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123237,
+    "word": "局所アドレス管理",
+    "kana": "きょくしょアドレスかんり",
+    "senses": [
+      {
+        "sense_id": 366859,
+        "meaning_vi": "quản lý địa chỉ cục bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý địa chỉ cục bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý địa chỉ cục bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123238,
+    "word": "局所モデリング変換",
+    "kana": "きょくしょモデリングへんかん",
+    "senses": [
+      {
+        "sense_id": 366860,
+        "meaning_vi": "chuyển đổi mô hình cục bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi mô hình cục bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi mô hình cục bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123239,
+    "word": "局所レベル",
+    "kana": "きょくしょレベル",
+    "senses": [
+      {
+        "sense_id": 366861,
+        "meaning_vi": "cấp địa phương",
+        "confidence": "high",
+        "search_keywords": [
+          "cấp địa phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấp địa phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123240,
+    "word": "局所線形計画法",
+    "kana": "きょくしょせんけいけいかくほう",
+    "senses": [
+      {
+        "sense_id": 366862,
+        "meaning_vi": "lập trình tuyến tính cục bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "lập trình tuyến tính cục bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lập trình tuyến tính cục bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123241,
+    "word": "局所的",
+    "kana": "きょくしょてき",
+    "senses": [
+      {
+        "sense_id": 366863,
+        "meaning_vi": "địa phương; bản địa hóa; một phần; chuyên đề (ứng dụng)",
+        "confidence": "high",
+        "search_keywords": [
+          "địa phương",
+          "bản địa hóa",
+          "một phần",
+          "chuyên đề (ứng dụng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa phương; bản địa hóa; một phần; chuyên đề (ứng dụng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123242,
+    "word": "局所的試験法",
+    "kana": "きょくしょてきしけんほう",
+    "senses": [
+      {
+        "sense_id": 366864,
+        "meaning_vi": "phương pháp thử nghiệm địa phương",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp thử nghiệm địa phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp thử nghiệm địa phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "vocabulary_id": 36369,
+    "word": "洗い立てる",
+    "kana": "あらいたてる",
+    "senses": [
+      {
+        "sense_id": 264525,
+        "meaning_vi": "kiểm tra chặt chẽ; để kiểm tra; để tìm ra",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra chặt chẽ",
+          "để kiểm tra",
+          "để tìm ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra chặt chẽ; để kiểm tra; để tìm ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264526,
+        "meaning_vi": "rửa cẩn thận",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa cẩn thận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa cẩn thận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36370,
+    "word": "洗い流す",
+    "kana": "あらいながす",
+    "senses": [
+      {
+        "sense_id": 264527,
+        "meaning_vi": "rửa sạch; để rửa sạch",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa sạch",
+          "để rửa sạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa sạch; để rửa sạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36371,
+    "word": "洗う",
+    "kana": "あらう",
+    "senses": [
+      {
+        "sense_id": 264528,
+        "meaning_vi": "rửa; để làm sạch; rửa sạch",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa",
+          "để làm sạch",
+          "rửa sạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa; để làm sạch; rửa sạch",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264529,
+        "meaning_vi": "để hỏi thăm ; để điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "để hỏi thăm",
+          "để điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hỏi thăm ; để điều tra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264530,
+        "meaning_vi": "thanh lọc (trái tim của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh lọc (trái tim của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh lọc (trái tim của một người)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264531,
+        "meaning_vi": "để lave (ví dụ: bờ); để rửa sạch (ví dụ: boong); quét",
+        "confidence": "high",
+        "search_keywords": [
+          "để lave (ví dụ: bờ)",
+          "để rửa sạch (ví dụ: boong)",
+          "quét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để lave (ví dụ: bờ); để rửa sạch (ví dụ: boong); quét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36372,
+    "word": "洗顔",
+    "kana": "せんがん",
+    "senses": [
+      {
+        "sense_id": 264532,
+        "meaning_vi": "rửa mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa mặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa mặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36373,
+    "word": "洗剤",
+    "kana": "せんざい",
+    "senses": [
+      {
+        "sense_id": 264533,
+        "meaning_vi": "chất tẩy rửa; chất tẩy rửa; chất tẩy rửa; vật liệu giặt",
+        "confidence": "high",
+        "search_keywords": [
+          "chất tẩy rửa",
+          "vật liệu giặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất tẩy rửa; chất tẩy rửa; chất tẩy rửa; vật liệu giặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36374,
+    "word": "洗車",
+    "kana": "せんしゃ",
+    "senses": [
+      {
+        "sense_id": 264534,
+        "meaning_vi": "rửa xe",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa xe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36375,
+    "word": "洗浄",
+    "kana": "せんじょう",
+    "senses": [
+      {
+        "sense_id": 264535,
+        "meaning_vi": "rửa; làm sạch; làm sạch; giặt giũ",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa",
+          "làm sạch",
+          "giặt giũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa; làm sạch; làm sạch; giặt giũ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264536,
+        "meaning_vi": "làm sạch (tâm trí và cơ thể của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm sạch (tâm trí và cơ thể của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm sạch (tâm trí và cơ thể của một người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36376,
+    "word": "洗濯",
+    "kana": "せんたく",
+    "senses": [
+      {
+        "sense_id": 264537,
+        "meaning_vi": "rửa; giặt ủi",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa",
+          "giặt ủi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa; giặt ủi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264538,
+        "meaning_vi": "thư giãn; trẻ hóa; làm tan biến (lo lắng, mệt mỏi, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "thư giãn",
+          "trẻ hóa",
+          "làm tan biến (lo lắng, mệt mỏi, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư giãn; trẻ hóa; làm tan biến (lo lắng, mệt mỏi, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36377,
+    "word": "洗濯機",
+    "kana": "せんたくき",
+    "senses": [
+      {
+        "sense_id": 264539,
+        "meaning_vi": "máy giặt; (quần áo) máy giặt",
+        "confidence": "high",
+        "search_keywords": [
+          "máy giặt",
+          "(quần áo) máy giặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy giặt; (quần áo) máy giặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36378,
+    "word": "洗濯バサミ",
+    "kana": "せんたくバサミ",
+    "senses": [
+      {
+        "sense_id": 264540,
+        "meaning_vi": "kẹp quần áo; kẹp quần áo",
+        "confidence": "high",
+        "search_keywords": [
+          "kẹp quần áo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẹp quần áo; kẹp quần áo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36379,
+    "word": "洗濯糊",
+    "kana": "せんたくのり",
+    "senses": [
+      {
+        "sense_id": 264541,
+        "meaning_vi": "tinh bột giặt",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh bột giặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh bột giặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36380,
+    "word": "洗濯物",
+    "kana": "せんたくもの",
+    "senses": [
+      {
+        "sense_id": 264542,
+        "meaning_vi": "giặt ủi; việc giặt giũ",
+        "confidence": "high",
+        "search_keywords": [
+          "giặt ủi",
+          "việc giặt giũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giặt ủi; việc giặt giũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36381,
+    "word": "洗脳",
+    "kana": "せんのう",
+    "senses": [
+      {
+        "sense_id": 264543,
+        "meaning_vi": "tẩy não",
+        "confidence": "high",
+        "search_keywords": [
+          "tẩy não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tẩy não",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36382,
+    "word": "洗髪",
+    "kana": "せんぱつ",
+    "senses": [
+      {
+        "sense_id": 264544,
+        "meaning_vi": "gội đầu; đang gội đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "gội đầu",
+          "đang gội đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gội đầu; đang gội đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36383,
+    "word": "洗面",
+    "kana": "せんめん",
+    "senses": [
+      {
+        "sense_id": 264545,
+        "meaning_vi": "rửa mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa mặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa mặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36384,
+    "word": "洗面器",
+    "kana": "せんめんき",
+    "senses": [
+      {
+        "sense_id": 264546,
+        "meaning_vi": "chậu rửa; bồn rửa (bao gồm bồn rửa di động trong nhà tắm công cộng)",
+        "confidence": "high",
+        "search_keywords": [
+          "chậu rửa",
+          "bồn rửa (bao gồm bồn rửa di động trong nhà tắm công cộng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chậu rửa; bồn rửa (bao gồm bồn rửa di động trong nhà tắm công cộng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36385,
+    "word": "洗面所",
+    "kana": "せんめんじょ",
+    "senses": [
+      {
+        "sense_id": 264547,
+        "meaning_vi": "nhà vệ sinh; phòng tắm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà vệ sinh",
+          "phòng tắm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà vệ sinh; phòng tắm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36386,
+    "word": "洗礼",
+    "kana": "せんれい",
+    "senses": [
+      {
+        "sense_id": 264548,
+        "meaning_vi": "lễ rửa tội; lễ rửa tội",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ rửa tội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ rửa tội; lễ rửa tội",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264549,
+        "meaning_vi": "sự bắt đầu (vào một xã hội, một nhóm, v.v.); lễ rửa tội",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bắt đầu (vào một xã hội, một nhóm, v.v.)",
+          "lễ rửa tội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bắt đầu (vào một xã hội, một nhóm, v.v.); lễ rửa tội",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264550,
+        "meaning_vi": "trải nghiệm đầu tiên của một người về điều gì đó; lễ rửa tội (bằng lửa, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "trải nghiệm đầu tiên của một người về điều gì đó",
+          "lễ rửa tội (bằng lửa, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trải nghiệm đầu tiên của một người về điều gì đó; lễ rửa tội (bằng lửa, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36387,
+    "word": "洗練",
+    "kana": "せんれん",
+    "senses": [
+      {
+        "sense_id": 264551,
+        "meaning_vi": "sàng lọc; đánh bóng",
+        "confidence": "high",
+        "search_keywords": [
+          "sàng lọc",
+          "đánh bóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sàng lọc; đánh bóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 36388,
+    "word": "染まる",
+    "kana": "そまる",
+    "senses": [
+      {
+        "sense_id": 264552,
+        "meaning_vi": "được nhuộm",
+        "confidence": "high",
+        "search_keywords": [
+          "được nhuộm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được nhuộm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 264553,
+        "meaning_vi": "bị nhiễm độc; bị lây nhiễm; bị vấy bẩn; được ngâm",
+        "confidence": "high",
+        "search_keywords": [
+          "bị nhiễm độc",
+          "bị lây nhiễm",
+          "bị vấy bẩn",
+          "được ngâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị nhiễm độc; bị lây nhiễm; bị vấy bẩn; được ngâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

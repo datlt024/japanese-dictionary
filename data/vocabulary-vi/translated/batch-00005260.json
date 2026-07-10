@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 125759,
+    "word": "読み出し端末",
+    "kana": "よみだしたんまつ",
+    "senses": [
+      {
+        "sense_id": 369402,
+        "meaning_vi": "thiết bị đầu cuối đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối đọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125760,
+    "word": "読み出し保護",
+    "kana": "よみだしほご",
+    "senses": [
+      {
+        "sense_id": 369403,
+        "meaning_vi": "bảo vệ đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo vệ đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo vệ đọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125761,
+    "word": "読取りサイクル時間",
+    "kana": "よみとりサイクルじかん",
+    "senses": [
+      {
+        "sense_id": 369404,
+        "meaning_vi": "thời gian chu kỳ đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian chu kỳ đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian chu kỳ đọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125762,
+    "word": "読み取りヘッド",
+    "kana": "よみとりヘッド",
+    "senses": [
+      {
+        "sense_id": 369405,
+        "meaning_vi": "đầu đọc (băng, đĩa, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu đọc (băng, đĩa, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu đọc (băng, đĩa, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125763,
+    "word": "読取り書込みサイクル時間",
+    "kana": "よみとりかきこみサイクルじかん",
+    "senses": [
+      {
+        "sense_id": 369406,
+        "meaning_vi": "thời gian chu kỳ đọc-ghi",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian chu kỳ đọc-ghi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian chu kỳ đọc-ghi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125764,
+    "word": "読取り書込みスロット",
+    "kana": "よみとりかきこみスロット",
+    "senses": [
+      {
+        "sense_id": 369407,
+        "meaning_vi": "khe đọc-ghi; mở đầu đọc-ghi",
+        "confidence": "high",
+        "search_keywords": [
+          "khe đọc-ghi",
+          "mở đầu đọc-ghi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khe đọc-ghi; mở đầu đọc-ghi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125765,
+    "word": "読取り書込みヘッド",
+    "kana": "よみとりかきこみヘッド",
+    "senses": [
+      {
+        "sense_id": 369408,
+        "meaning_vi": "đầu đọc ghi",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu đọc ghi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu đọc ghi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125766,
+    "word": "読取り書込み開口部",
+    "kana": "よみとりかきこみかいこうぶ",
+    "senses": [
+      {
+        "sense_id": 369409,
+        "meaning_vi": "khe đọc-ghi; mở đầu đọc-ghi",
+        "confidence": "high",
+        "search_keywords": [
+          "khe đọc-ghi",
+          "mở đầu đọc-ghi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khe đọc-ghi; mở đầu đọc-ghi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125767,
+    "word": "読取り書込み記憶装置",
+    "kana": "よみとりかきこみきおくそうち",
+    "senses": [
+      {
+        "sense_id": 369410,
+        "meaning_vi": "RAM",
+        "confidence": "low",
+        "search_keywords": [
+          "RAM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "RAM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125768,
+    "word": "読取り専用ファイルシステム",
+    "kana": "よみとりせんようファイルシステム",
+    "senses": [
+      {
+        "sense_id": 369411,
+        "meaning_vi": "hệ thống tập tin chỉ đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống tập tin chỉ đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống tập tin chỉ đọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125769,
+    "word": "読取り専用記憶装置",
+    "kana": "よみとりせんようきおくそうち",
+    "senses": [
+      {
+        "sense_id": 369412,
+        "meaning_vi": "bộ nhớ chỉ đọc; rom",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ chỉ đọc",
+          "rom"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ chỉ đọc; rom",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125770,
+    "word": "読取り通路",
+    "kana": "よみとりつうろ",
+    "senses": [
+      {
+        "sense_id": 369413,
+        "meaning_vi": "đọc đường dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc đường dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc đường dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125771,
+    "word": "読取り部",
+    "kana": "よみとりぶ",
+    "senses": [
+      {
+        "sense_id": 369414,
+        "meaning_vi": "trạm đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "trạm đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạm đọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125772,
+    "word": "内字",
+    "kana": "ないじ",
+    "senses": [
+      {
+        "sense_id": 369415,
+        "meaning_vi": "nhân vật bên trong",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật bên trong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật bên trong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125773,
+    "word": "内蔵オーディオ回路",
+    "kana": "ないぞうオーディオかいろ",
+    "senses": [
+      {
+        "sense_id": 369416,
+        "meaning_vi": "mạch âm thanh tích hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch âm thanh tích hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch âm thanh tích hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125774,
+    "word": "内蔵モデム",
+    "kana": "ないぞうモデム",
+    "senses": [
+      {
+        "sense_id": 369417,
+        "meaning_vi": "tích hợp modem",
+        "confidence": "high",
+        "search_keywords": [
+          "tích hợp modem"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tích hợp modem",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125775,
+    "word": "内蔵型アレイプロセッサー",
+    "kana": "ないぞうがたアレイプロセッサー",
+    "senses": [
+      {
+        "sense_id": 369418,
+        "meaning_vi": "IAP; Bộ xử lý mảng tích hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "IAP",
+          "Bộ xử lý mảng tích hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "IAP; Bộ xử lý mảng tích hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125776,
+    "word": "内蔵装置",
+    "kana": "ないぞうそうち",
+    "senses": [
+      {
+        "sense_id": 369419,
+        "meaning_vi": "thiết bị tích hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị tích hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị tích hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125777,
+    "word": "内部キャッシュ",
+    "kana": "ないぶキャッシュ",
+    "senses": [
+      {
+        "sense_id": 369420,
+        "meaning_vi": "bộ nhớ đệm nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ đệm nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ đệm nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125778,
+    "word": "内部クロック",
+    "kana": "ないぶクロック",
+    "senses": [
+      {
+        "sense_id": 369421,
+        "meaning_vi": "đồng hồ nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng hồ nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng hồ nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

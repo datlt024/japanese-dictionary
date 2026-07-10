@@ -1,0 +1,453 @@
+[
+  {
+    "vocabulary_id": 179831,
+    "word": "紙の辞書",
+    "kana": "かみのじしょ",
+    "senses": [
+      {
+        "sense_id": 428331,
+        "meaning_vi": "từ điển giấy; từ điển in",
+        "confidence": "high",
+        "search_keywords": [
+          "từ điển giấy",
+          "từ điển in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ điển giấy; từ điển in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179832,
+    "word": "大辞典",
+    "kana": "だいじてん",
+    "senses": [
+      {
+        "sense_id": 428332,
+        "meaning_vi": "từ điển lớn; từ điển toàn diện; từ điển không rút gọn",
+        "confidence": "high",
+        "search_keywords": [
+          "từ điển lớn",
+          "từ điển toàn diện",
+          "từ điển không rút gọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ điển lớn; từ điển toàn diện; từ điển không rút gọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179833,
+    "word": "小辞典",
+    "kana": "しょうじてん",
+    "senses": [
+      {
+        "sense_id": 428333,
+        "meaning_vi": "từ điển nhỏ; từ điển rút gọn; từ điển bỏ túi; bảng thuật ngữ",
+        "confidence": "high",
+        "search_keywords": [
+          "từ điển nhỏ",
+          "từ điển rút gọn",
+          "từ điển bỏ túi",
+          "bảng thuật ngữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ điển nhỏ; từ điển rút gọn; từ điển bỏ túi; bảng thuật ngữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179834,
+    "word": "仏和辞典",
+    "kana": "ふつわじてん",
+    "senses": [
+      {
+        "sense_id": 428334,
+        "meaning_vi": "Từ điển Pháp-Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "Từ điển Pháp-Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Từ điển Pháp-Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179835,
+    "word": "露和辞典",
+    "kana": "ろわじてん",
+    "senses": [
+      {
+        "sense_id": 428335,
+        "meaning_vi": "Từ điển Nga-Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "Từ điển Nga-Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Từ điển Nga-Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179836,
+    "word": "和露辞典",
+    "kana": "わろじてん",
+    "senses": [
+      {
+        "sense_id": 428336,
+        "meaning_vi": "Từ điển Nhật-Nga",
+        "confidence": "high",
+        "search_keywords": [
+          "Từ điển Nhật-Nga"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Từ điển Nhật-Nga",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179837,
+    "word": "独和辞典",
+    "kana": "どくわじてん",
+    "senses": [
+      {
+        "sense_id": 428337,
+        "meaning_vi": "Từ điển Đức-Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "Từ điển Đức-Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Từ điển Đức-Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179838,
+    "word": "辞書アプリ",
+    "kana": "じしょアプリ",
+    "senses": [
+      {
+        "sense_id": 428338,
+        "meaning_vi": "ứng dụng từ điển; ứng dụng từ điển",
+        "confidence": "high",
+        "search_keywords": [
+          "ứng dụng từ điển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ứng dụng từ điển; ứng dụng từ điển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179839,
+    "word": "ちょっとしか",
+    "kana": "ちょっとしか",
+    "senses": [
+      {
+        "sense_id": 428339,
+        "meaning_vi": "(không có gì) nhưng một chút",
+        "confidence": "high",
+        "search_keywords": [
+          "(không có gì) nhưng một chút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(không có gì) nhưng một chút",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179840,
+    "word": "少ししか",
+    "kana": "すこししか",
+    "senses": [
+      {
+        "sense_id": 428340,
+        "meaning_vi": "(không có gì) nhưng một chút",
+        "confidence": "high",
+        "search_keywords": [
+          "(không có gì) nhưng một chút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(không có gì) nhưng một chút",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179841,
+    "word": "僅かしか",
+    "kana": "わずかしか",
+    "senses": [
+      {
+        "sense_id": 428341,
+        "meaning_vi": "(không có gì) nhưng một chút",
+        "confidence": "high",
+        "search_keywords": [
+          "(không có gì) nhưng một chút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(không có gì) nhưng một chút",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179842,
+    "word": "みなし再入国許可",
+    "kana": "みなしさいにゅうこくきょか",
+    "senses": [
+      {
+        "sense_id": 428342,
+        "meaning_vi": "giấy phép tái nhập cảnh đặc biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy phép tái nhập cảnh đặc biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy phép tái nhập cảnh đặc biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179843,
+    "word": "勝手が違う",
+    "kana": "かってがちがう",
+    "senses": [
+      {
+        "sense_id": 428343,
+        "meaning_vi": "gây nhầm lẫn; khác với những gì người ta đã quen",
+        "confidence": "high",
+        "search_keywords": [
+          "gây nhầm lẫn",
+          "khác với những gì người ta đã quen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gây nhầm lẫn; khác với những gì người ta đã quen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179844,
+    "word": "調子物",
+    "kana": "ちょうしもの",
+    "senses": [
+      {
+        "sense_id": 428344,
+        "meaning_vi": "vấn đề cơ hội; chạm và đi",
+        "confidence": "high",
+        "search_keywords": [
+          "vấn đề cơ hội",
+          "chạm và đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vấn đề cơ hội; chạm và đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179845,
+    "word": "満足保証",
+    "kana": "まんぞくほしょう",
+    "senses": [
+      {
+        "sense_id": 428345,
+        "meaning_vi": "đảm bảo hoàn lại tiền; đảm bảo sự hài lòng",
+        "confidence": "high",
+        "search_keywords": [
+          "đảm bảo hoàn lại tiền",
+          "đảm bảo sự hài lòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đảm bảo hoàn lại tiền; đảm bảo sự hài lòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179846,
+    "word": "再インストール",
+    "kana": "さいインストール",
+    "senses": [
+      {
+        "sense_id": 428346,
+        "meaning_vi": "cài đặt lại; cài đặt lại",
+        "confidence": "high",
+        "search_keywords": [
+          "cài đặt lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cài đặt lại; cài đặt lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179847,
+    "word": "ＫＧＤ",
+    "kana": "ケー・ジー・ディー",
+    "senses": [
+      {
+        "sense_id": 428347,
+        "meaning_vi": "biết tốt chết; chip được kiểm tra đầy đủ; KGD",
+        "confidence": "high",
+        "search_keywords": [
+          "biết tốt chết",
+          "chip được kiểm tra đầy đủ",
+          "KGD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biết tốt chết; chip được kiểm tra đầy đủ; KGD",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179848,
+    "word": "セーフモード",
+    "kana": "セーフモード",
+    "senses": [
+      {
+        "sense_id": 428348,
+        "meaning_vi": "chế độ an toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ an toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ an toàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179849,
+    "word": "リグレッション",
+    "kana": "リグレッション",
+    "senses": [
+      {
+        "sense_id": 428349,
+        "meaning_vi": "(phần mềm) hồi quy",
+        "confidence": "high",
+        "search_keywords": [
+          "(phần mềm) hồi quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(phần mềm) hồi quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 179850,
+    "word": "ベアチップ",
+    "kana": "ベアチップ",
+    "senses": [
+      {
+        "sense_id": 428350,
+        "meaning_vi": "chip trần",
+        "confidence": "high",
+        "search_keywords": [
+          "chip trần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chip trần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

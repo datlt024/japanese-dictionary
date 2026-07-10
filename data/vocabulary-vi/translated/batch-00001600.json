@@ -1,0 +1,527 @@
+[
+  {
+    "vocabulary_id": 41405,
+    "word": "電源",
+    "kana": "でんげん",
+    "senses": [
+      {
+        "sense_id": 271348,
+        "meaning_vi": "nguồn điện; năng lượng điện",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn điện",
+          "năng lượng điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn điện; năng lượng điện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271349,
+        "meaning_vi": "nguồn (nút trên TV, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn (nút trên TV, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn (nút trên TV, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41406,
+    "word": "電源を切る",
+    "kana": "でんげんをきる",
+    "senses": [
+      {
+        "sense_id": 271350,
+        "meaning_vi": "để tắt nguồn",
+        "confidence": "high",
+        "search_keywords": [
+          "để tắt nguồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tắt nguồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41407,
+    "word": "電源を入れる",
+    "kana": "でんげんをいれる",
+    "senses": [
+      {
+        "sense_id": 271351,
+        "meaning_vi": "để bật nguồn",
+        "confidence": "high",
+        "search_keywords": [
+          "để bật nguồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bật nguồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41408,
+    "word": "電源供給",
+    "kana": "でんげんきょうきゅう",
+    "senses": [
+      {
+        "sense_id": 271352,
+        "meaning_vi": "cung cấp điện",
+        "confidence": "high",
+        "search_keywords": [
+          "cung cấp điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cung cấp điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41409,
+    "word": "電光",
+    "kana": "でんこう",
+    "senses": [
+      {
+        "sense_id": 271353,
+        "meaning_vi": "tia sét",
+        "confidence": "high",
+        "search_keywords": [
+          "tia sét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tia sét",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271354,
+        "meaning_vi": "chiếu sáng điện; ánh sáng từ nguồn điện",
+        "confidence": "high",
+        "search_keywords": [
+          "chiếu sáng điện",
+          "ánh sáng từ nguồn điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiếu sáng điện; ánh sáng từ nguồn điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41410,
+    "word": "電光石火",
+    "kana": "でんこうせっか",
+    "senses": [
+      {
+        "sense_id": 271355,
+        "meaning_vi": "nhấp nháy; lập tức; tia chớp (tốc độ)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhấp nháy",
+          "lập tức",
+          "tia chớp (tốc độ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhấp nháy; lập tức; tia chớp (tốc độ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41411,
+    "word": "電工",
+    "kana": "でんこう",
+    "senses": [
+      {
+        "sense_id": 271356,
+        "meaning_vi": "thợ điện",
+        "confidence": "high",
+        "search_keywords": [
+          "thợ điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thợ điện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271357,
+        "meaning_vi": "kỹ thuật điện",
+        "confidence": "high",
+        "search_keywords": [
+          "kỹ thuật điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỹ thuật điện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271358,
+        "meaning_vi": "công trình điện (theo tên công ty)",
+        "confidence": "high",
+        "search_keywords": [
+          "công trình điện (theo tên công ty)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công trình điện (theo tên công ty)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41412,
+    "word": "電算",
+    "kana": "でんさん",
+    "senses": [
+      {
+        "sense_id": 271359,
+        "meaning_vi": "máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41413,
+    "word": "電算機",
+    "kana": "でんさんき",
+    "senses": [
+      {
+        "sense_id": 271360,
+        "meaning_vi": "máy tính điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "máy tính điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy tính điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41414,
+    "word": "電子",
+    "kana": "でんし",
+    "senses": [
+      {
+        "sense_id": 271361,
+        "meaning_vi": "điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điện tử",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271362,
+        "meaning_vi": "điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41415,
+    "word": "電子データ処理",
+    "kana": "でんしデータしょり",
+    "senses": [
+      {
+        "sense_id": 271363,
+        "meaning_vi": "xử lý dữ liệu điện tử; EDP",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý dữ liệu điện tử",
+          "EDP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý dữ liệu điện tử; EDP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41416,
+    "word": "電子ブック",
+    "kana": "でんしブック",
+    "senses": [
+      {
+        "sense_id": 271364,
+        "meaning_vi": "sách điện tử; sách điện tử; sách điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "sách điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sách điện tử; sách điện tử; sách điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41417,
+    "word": "電子メール",
+    "kana": "でんしメール",
+    "senses": [
+      {
+        "sense_id": 271365,
+        "meaning_vi": "e-mail; e-mail; thư điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "e-mail",
+          "thư điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "e-mail; e-mail; thư điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41418,
+    "word": "電子レンジ",
+    "kana": "でんしレンジ",
+    "senses": [
+      {
+        "sense_id": 271366,
+        "meaning_vi": "lò vi sóng",
+        "confidence": "high",
+        "search_keywords": [
+          "lò vi sóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò vi sóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41419,
+    "word": "電子化",
+    "kana": "でんしか",
+    "senses": [
+      {
+        "sense_id": 271367,
+        "meaning_vi": "điện tử hóa; số hóa; tin học hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "điện tử hóa",
+          "số hóa",
+          "tin học hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điện tử hóa; số hóa; tin học hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41420,
+    "word": "電子回路",
+    "kana": "でんしかいろ",
+    "senses": [
+      {
+        "sense_id": 271368,
+        "meaning_vi": "mạch điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41421,
+    "word": "電子殻",
+    "kana": "でんしかく",
+    "senses": [
+      {
+        "sense_id": 271369,
+        "meaning_vi": "vỏ điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "vỏ điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vỏ điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41422,
+    "word": "電子計算機",
+    "kana": "でんしけいさんき",
+    "senses": [
+      {
+        "sense_id": 271370,
+        "meaning_vi": "máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41423,
+    "word": "電子工学",
+    "kana": "でんしこうがく",
+    "senses": [
+      {
+        "sense_id": 271371,
+        "meaning_vi": "điện tử; kỹ thuật điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "điện tử",
+          "kỹ thuật điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điện tử; kỹ thuật điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41424,
+    "word": "電子資金振替",
+    "kana": "でんししきんふりかえ",
+    "senses": [
+      {
+        "sense_id": 271372,
+        "meaning_vi": "chuyển tiền điện tử; EFT",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển tiền điện tử",
+          "EFT"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển tiền điện tử; EFT",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

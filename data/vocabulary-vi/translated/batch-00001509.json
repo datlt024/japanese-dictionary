@@ -1,0 +1,580 @@
+[
+  {
+    "vocabulary_id": 39013,
+    "word": "探訪",
+    "kana": "たんぼう",
+    "senses": [
+      {
+        "sense_id": 268074,
+        "meaning_vi": "tìm kiếm; săn lùng tin tức; nhà báo",
+        "confidence": "high",
+        "search_keywords": [
+          "tìm kiếm",
+          "săn lùng tin tức",
+          "nhà báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tìm kiếm; săn lùng tin tức; nhà báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39014,
+    "word": "旦那",
+    "kana": "だんな",
+    "senses": [
+      {
+        "sense_id": 268075,
+        "meaning_vi": "chủ (của một ngôi nhà, cửa hàng, vv)",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ (của một ngôi nhà, cửa hàng, vv)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ (của một ngôi nhà, cửa hàng, vv)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268076,
+        "meaning_vi": "chồng",
+        "confidence": "high",
+        "search_keywords": [
+          "chồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chồng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268077,
+        "meaning_vi": "thưa ông; ông chủ; bậc thầy; thống đốc",
+        "confidence": "high",
+        "search_keywords": [
+          "thưa ông",
+          "ông chủ",
+          "bậc thầy",
+          "thống đốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thưa ông; ông chủ; bậc thầy; thống đốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268078,
+        "meaning_vi": "người bảo trợ của tình nhân, geisha, bà chủ quán bar hoặc hộp đêm; bố nuôi",
+        "confidence": "high",
+        "search_keywords": [
+          "người bảo trợ của tình nhân, geisha, bà chủ quán bar hoặc hộp đêm",
+          "bố nuôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người bảo trợ của tình nhân, geisha, bà chủ quán bar hoặc hộp đêm; bố nuôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268079,
+        "meaning_vi": "bố thí; bố thí; người bố thí",
+        "confidence": "high",
+        "search_keywords": [
+          "bố thí",
+          "người bố thí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bố thí; bố thí; người bố thí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39015,
+    "word": "淡い",
+    "kana": "あわい",
+    "senses": [
+      {
+        "sense_id": 268080,
+        "meaning_vi": "ánh sáng; ngất xỉu; tái nhợt; thoáng qua",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh sáng",
+          "ngất xỉu",
+          "tái nhợt",
+          "thoáng qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh sáng; ngất xỉu; tái nhợt; thoáng qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39016,
+    "word": "淡黄色",
+    "kana": "たんこうしょく",
+    "senses": [
+      {
+        "sense_id": 268081,
+        "meaning_vi": "màu vàng nhạt; màu vàng nhạt",
+        "confidence": "high",
+        "search_keywords": [
+          "màu vàng nhạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu vàng nhạt; màu vàng nhạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39017,
+    "word": "淡紅色",
+    "kana": "たんこうしょく",
+    "senses": [
+      {
+        "sense_id": 268082,
+        "meaning_vi": "hồng; hoa hồng",
+        "confidence": "high",
+        "search_keywords": [
+          "hồng",
+          "hoa hồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồng; hoa hồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39018,
+    "word": "淡彩",
+    "kana": "たんさい",
+    "senses": [
+      {
+        "sense_id": 268083,
+        "meaning_vi": "màu sáng; tô màu nhẹ nhàng",
+        "confidence": "high",
+        "search_keywords": [
+          "màu sáng",
+          "tô màu nhẹ nhàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu sáng; tô màu nhẹ nhàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39019,
+    "word": "淡水",
+    "kana": "たんすい",
+    "senses": [
+      {
+        "sense_id": 268084,
+        "meaning_vi": "nước ngọt (tức là không phải nước mặn)",
+        "confidence": "high",
+        "search_keywords": [
+          "nước ngọt (tức là không phải nước mặn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước ngọt (tức là không phải nước mặn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39020,
+    "word": "淡雪",
+    "kana": "あわゆき",
+    "senses": [
+      {
+        "sense_id": 268085,
+        "meaning_vi": "tuyết nhẹ; tuyết rơi nhẹ; lớp tuyết mỏng",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyết nhẹ",
+          "tuyết rơi nhẹ",
+          "lớp tuyết mỏng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyết nhẹ; tuyết rơi nhẹ; lớp tuyết mỏng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268086,
+        "meaning_vi": "món tráng miệng có thạch làm từ lòng trắng trứng đánh bông, thạch và đường",
+        "confidence": "high",
+        "search_keywords": [
+          "món tráng miệng có thạch làm từ lòng trắng trứng đánh bông, thạch và đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "món tráng miệng có thạch làm từ lòng trắng trứng đánh bông, thạch và đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39021,
+    "word": "炭",
+    "kana": "すみ",
+    "senses": [
+      {
+        "sense_id": 268087,
+        "meaning_vi": "than củi",
+        "confidence": "high",
+        "search_keywords": [
+          "than củi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "than củi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268088,
+        "meaning_vi": "hài cốt cháy đen",
+        "confidence": "high",
+        "search_keywords": [
+          "hài cốt cháy đen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hài cốt cháy đen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39022,
+    "word": "炭化",
+    "kana": "たんか",
+    "senses": [
+      {
+        "sense_id": 268089,
+        "meaning_vi": "cacbon hóa; sự cacbon hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "cacbon hóa",
+          "sự cacbon hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cacbon hóa; sự cacbon hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39023,
+    "word": "炭化水素",
+    "kana": "たんかすいそ",
+    "senses": [
+      {
+        "sense_id": 268090,
+        "meaning_vi": "hidrocacbon",
+        "confidence": "high",
+        "search_keywords": [
+          "hidrocacbon"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hidrocacbon",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39024,
+    "word": "炭化物",
+    "kana": "たんかぶつ",
+    "senses": [
+      {
+        "sense_id": 268091,
+        "meaning_vi": "cacbua",
+        "confidence": "high",
+        "search_keywords": [
+          "cacbua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cacbua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39025,
+    "word": "炭鉱労働者",
+    "kana": "たんこうろうどうしゃ",
+    "senses": [
+      {
+        "sense_id": 268092,
+        "meaning_vi": "thợ mỏ than",
+        "confidence": "high",
+        "search_keywords": [
+          "thợ mỏ than"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thợ mỏ than",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39026,
+    "word": "炭酸",
+    "kana": "たんさん",
+    "senses": [
+      {
+        "sense_id": 268093,
+        "meaning_vi": "axit cacbonic",
+        "confidence": "high",
+        "search_keywords": [
+          "axit cacbonic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "axit cacbonic",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268094,
+        "meaning_vi": "nước có ga; đồ uống có ga",
+        "confidence": "high",
+        "search_keywords": [
+          "nước có ga",
+          "đồ uống có ga"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước có ga; đồ uống có ga",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 268095,
+        "meaning_vi": "baking soda; natri cacbonat",
+        "confidence": "high",
+        "search_keywords": [
+          "baking soda",
+          "natri cacbonat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "baking soda; natri cacbonat",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39027,
+    "word": "炭酸塩",
+    "kana": "たんさんえん",
+    "senses": [
+      {
+        "sense_id": 268096,
+        "meaning_vi": "cacbonat",
+        "confidence": "high",
+        "search_keywords": [
+          "cacbonat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cacbonat",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39028,
+    "word": "炭酸水",
+    "kana": "たんさんすい",
+    "senses": [
+      {
+        "sense_id": 268097,
+        "meaning_vi": "nước có ga; nước có ga; nước có ga; nước ngọt",
+        "confidence": "high",
+        "search_keywords": [
+          "nước có ga",
+          "nước ngọt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước có ga; nước có ga; nước có ga; nước ngọt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39029,
+    "word": "炭水化物",
+    "kana": "たんすいかぶつ",
+    "senses": [
+      {
+        "sense_id": 268098,
+        "meaning_vi": "cacbohydrat",
+        "confidence": "high",
+        "search_keywords": [
+          "cacbohydrat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cacbohydrat",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39030,
+    "word": "炭素",
+    "kana": "たんそ",
+    "senses": [
+      {
+        "sense_id": 268099,
+        "meaning_vi": "cacbon (C)",
+        "confidence": "high",
+        "search_keywords": [
+          "cacbon (C)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cacbon (C)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39031,
+    "word": "炭素鋼",
+    "kana": "たんそこう",
+    "senses": [
+      {
+        "sense_id": 268100,
+        "meaning_vi": "thép cacbon",
+        "confidence": "high",
+        "search_keywords": [
+          "thép cacbon"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thép cacbon",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 39032,
+    "word": "炭素繊維",
+    "kana": "たんそせんい",
+    "senses": [
+      {
+        "sense_id": 268101,
+        "meaning_vi": "sợi carbon; sợi carbon",
+        "confidence": "high",
+        "search_keywords": [
+          "sợi carbon"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sợi carbon; sợi carbon",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

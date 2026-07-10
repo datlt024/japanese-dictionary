@@ -1,0 +1,452 @@
+[
+  {
+    "vocabulary_id": 125959,
+    "word": "媒体アクセス制御プロトコル",
+    "kana": "ばいたいアクセスせいぎょプロトコル",
+    "senses": [
+      {
+        "sense_id": 369603,
+        "meaning_vi": "Giao thức MAC; Giao thức kiểm soát truy cập phương tiện",
+        "confidence": "high",
+        "search_keywords": [
+          "Giao thức MAC",
+          "Giao thức kiểm soát truy cập phương tiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giao thức MAC; Giao thức kiểm soát truy cập phương tiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125960,
+    "word": "媒体アクセス制御副層",
+    "kana": "ばいたいアクセスせいぎょふくそう",
+    "senses": [
+      {
+        "sense_id": 369604,
+        "meaning_vi": "Lớp con Kiểm soát truy cập phương tiện",
+        "confidence": "high",
+        "search_keywords": [
+          "Lớp con Kiểm soát truy cập phương tiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Lớp con Kiểm soát truy cập phương tiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125961,
+    "word": "媒体インタフェースコネクタ",
+    "kana": "ばいたいインタフェースコネクタ",
+    "senses": [
+      {
+        "sense_id": 369605,
+        "meaning_vi": "đầu nối giao diện đa phương tiện; MIC",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu nối giao diện đa phương tiện",
+          "MIC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu nối giao diện đa phương tiện; MIC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125962,
+    "word": "媒体依存インタフェース",
+    "kana": "ばいたいいぞんインタフェース",
+    "senses": [
+      {
+        "sense_id": 369606,
+        "meaning_vi": "giao diện phụ thuộc trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "giao diện phụ thuộc trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao diện phụ thuộc trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125963,
+    "word": "媒体接続機構",
+    "kana": "ばいたいせつぞくきこう",
+    "senses": [
+      {
+        "sense_id": 369607,
+        "meaning_vi": "đơn vị đính kèm trung bình; MAU",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị đính kèm trung bình",
+          "MAU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị đính kèm trung bình; MAU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125964,
+    "word": "博物館学",
+    "kana": "はくぶつかんがく",
+    "senses": [
+      {
+        "sense_id": 369608,
+        "meaning_vi": "bảo tàng học; nghiên cứu bảo tàng",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo tàng học",
+          "nghiên cứu bảo tàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo tàng học; nghiên cứu bảo tàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125965,
+    "word": "博物館資料",
+    "kana": "はくぶつかんしりょう",
+    "senses": [
+      {
+        "sense_id": 369609,
+        "meaning_vi": "tài liệu bảo tàng; mảnh bảo tàng",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu bảo tàng",
+          "mảnh bảo tàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu bảo tàng; mảnh bảo tàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125966,
+    "word": "白黒ディスプレイ",
+    "kana": "しろくろディスプレイ",
+    "senses": [
+      {
+        "sense_id": 369610,
+        "meaning_vi": "màn hình đơn sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "màn hình đơn sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màn hình đơn sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125967,
+    "word": "白黒反転",
+    "kana": "しろくろはんてん",
+    "senses": [
+      {
+        "sense_id": 369611,
+        "meaning_vi": "video đảo ngược; trắng trên đen; đảo ngược trắng và đen",
+        "confidence": "high",
+        "search_keywords": [
+          "video đảo ngược",
+          "trắng trên đen",
+          "đảo ngược trắng và đen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "video đảo ngược; trắng trên đen; đảo ngược trắng và đen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125968,
+    "word": "白色雑音",
+    "kana": "はくしょくざつおん",
+    "senses": [
+      {
+        "sense_id": 369612,
+        "meaning_vi": "tiếng ồn trắng",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng ồn trắng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng ồn trắng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125969,
+    "word": "薄膜トランジスタ",
+    "kana": "うすまくトランジスタ",
+    "senses": [
+      {
+        "sense_id": 369613,
+        "meaning_vi": "bóng bán dẫn màng mỏng; màn hình LCD",
+        "confidence": "high",
+        "search_keywords": [
+          "bóng bán dẫn màng mỏng",
+          "màn hình LCD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bóng bán dẫn màng mỏng; màn hình LCD",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125970,
+    "word": "爆弾マーク",
+    "kana": "ばくだんマーク",
+    "senses": [
+      {
+        "sense_id": 369614,
+        "meaning_vi": "quả bom",
+        "confidence": "high",
+        "search_keywords": [
+          "quả bom"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quả bom",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125971,
+    "word": "八進細分記号",
+    "kana": "はちしんさいぶんきごう",
+    "senses": [
+      {
+        "sense_id": 369615,
+        "meaning_vi": "thiết bị quãng tám",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị quãng tám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị quãng tám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125972,
+    "word": "発加入者",
+    "kana": "はっかにゅうしゃ",
+    "senses": [
+      {
+        "sense_id": 369616,
+        "meaning_vi": "thuê bao gọi; bên gọi điện",
+        "confidence": "high",
+        "search_keywords": [
+          "thuê bao gọi",
+          "bên gọi điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuê bao gọi; bên gọi điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125973,
+    "word": "発局",
+    "kana": "はっきょく",
+    "senses": [
+      {
+        "sense_id": 369617,
+        "meaning_vi": "cơ quan cử đi; văn phòng truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ quan cử đi",
+          "văn phòng truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ quan cử đi; văn phòng truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125974,
+    "word": "発見的",
+    "kana": "はっけんてき",
+    "senses": [
+      {
+        "sense_id": 369618,
+        "meaning_vi": "theo kinh nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "theo kinh nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo kinh nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125975,
+    "word": "発見的方法",
+    "kana": "はっけんてきほうほう",
+    "senses": [
+      {
+        "sense_id": 369619,
+        "meaning_vi": "phương pháp heuristic",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp heuristic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp heuristic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125976,
+    "word": "発呼",
+    "kana": "はっこ",
+    "senses": [
+      {
+        "sense_id": 369620,
+        "meaning_vi": "cuộc gọi đi",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc gọi đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc gọi đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125977,
+    "word": "発光素子",
+    "kana": "はっこうそし",
+    "senses": [
+      {
+        "sense_id": 369621,
+        "meaning_vi": "bộ phát ánh sáng (sợi quang học)",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ phát ánh sáng (sợi quang học)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ phát ánh sáng (sợi quang học)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125978,
+    "word": "発行と引用",
+    "kana": "はっこうといんよう",
+    "senses": [
+      {
+        "sense_id": 369622,
+        "meaning_vi": "xuất bản và đăng ký",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất bản và đăng ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất bản và đăng ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

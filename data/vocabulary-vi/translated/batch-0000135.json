@@ -1,479 +1,446 @@
 [
-{
-"vocabulary_id": 3481,
-"word": "ガーデンスモーカー",
-"kana": "ガーデンスモーカー",
-"senses": [
-{
-"sense_id": 221930,
-"meaning_vi": "lò hun khói sân vườn",
-"confidence": "high",
-"search_keywords": [
-"lò hun khói sân vườn",
-"bếp nướng hun khói",
-"smoker barbecue"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lò hoặc bếp nướng hun khói dùng ngoài vườn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3482,
-"word": "ガーデンパーティー",
-"kana": "ガーデンパーティー",
-"senses": [
-{
-"sense_id": 221931,
-"meaning_vi": "tiệc ngoài vườn",
-"confidence": "high",
-"search_keywords": [
-"tiệc ngoài vườn",
-"garden party"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "buổi tiệc được tổ chức trong vườn hoặc ngoài trời",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3483,
-"word": "ガード",
-"kana": "ガード",
-"senses": [
-{
-"sense_id": 221932,
-"meaning_vi": "phòng thủ",
-"confidence": "high",
-"search_keywords": [
-"phòng thủ",
-"bảo vệ",
-"canh giữ",
-"guard"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bảo vệ; canh giữ; phòng thủ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3484,
-"word": "ガードケーブル",
-"kana": "ガードケーブル",
-"senses": [
-{
-"sense_id": 221933,
-"meaning_vi": "cáp chắn bảo vệ",
-"confidence": "medium",
-"search_keywords": [
-"cáp chắn bảo vệ",
-"guard cable"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cáp dùng làm hàng rào hoặc thiết bị chắn bảo vệ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3485,
-"word": "ガードバンカー",
-"kana": "ガードバンカー",
-"senses": [
-{
-"sense_id": 221934,
-"meaning_vi": "bẫy cát chắn",
-"confidence": "medium",
-"search_keywords": [
-"bẫy cát chắn",
-"guard bunker",
-"bunker golf"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bẫy cát bố trí để bảo vệ khu vực mục tiêu trong golf",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3486,
-"word": "ガードマン",
-"kana": "ガードマン",
-"senses": [
-{
-"sense_id": 221935,
-"meaning_vi": "bảo vệ",
-"confidence": "high",
-"search_keywords": [
-"bảo vệ",
-"nhân viên bảo vệ",
-"security guard"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhân viên bảo vệ; người canh giữ an ninh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3487,
-"word": "ガードル",
-"kana": "ガードル",
-"senses": [
-{
-"sense_id": 221936,
-"meaning_vi": "quần gen",
-"confidence": "high",
-"search_keywords": [
-"quần gen",
-"đồ gen định hình",
-"girdle"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đồ lót định hình ôm quanh eo và hông",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3488,
-"word": "ガードレール",
-"kana": "ガードレール",
-"senses": [
-{
-"sense_id": 221937,
-"meaning_vi": "lan can chắn đường",
-"confidence": "high",
-"search_keywords": [
-"lan can chắn đường",
-"rào chắn đường",
-"guardrail"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rào chắn bảo vệ đặt dọc đường hoặc cầu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3489,
-"word": "ガーネット",
-"kana": "ガーネット",
-"senses": [
-{
-"sense_id": 221938,
-"meaning_vi": "ngọc hồng lựu",
-"confidence": "high",
-"search_keywords": [
-"ngọc hồng lựu",
-"garnet"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khoáng vật garnet; ngọc hồng lựu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3490,
-"word": "ガベージ",
-"kana": "ガベージ",
-"senses": [
-{
-"sense_id": 221939,
-"meaning_vi": "rác",
-"confidence": "high",
-"search_keywords": [
-"rác",
-"rác thải",
-"garbage"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rác; rác thải",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3491,
-"word": "ガーベラ",
-"kana": "ガーベラ",
-"senses": [
-{
-"sense_id": 221940,
-"meaning_vi": "hoa đồng tiền",
-"confidence": "high",
-"search_keywords": [
-"hoa đồng tiền",
-"gerbera",
-"cúc đồng tiền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hoa đồng tiền; một loài cúc cảnh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3492,
-"word": "ガーボロジー",
-"kana": "ガーボロジー",
-"senses": [
-{
-"sense_id": 221941,
-"meaning_vi": "rác học",
-"confidence": "medium",
-"search_keywords": [
-"rác học",
-"nghiên cứu rác thải",
-"garbology"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngành nghiên cứu rác thải để tìm hiểu xã hội hoặc hành vi con người",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3493,
-"word": "ガーリック",
-"kana": "ガーリック",
-"senses": [
-{
-"sense_id": 221942,
-"meaning_vi": "tỏi",
-"confidence": "high",
-"search_keywords": [
-"tỏi",
-"garlic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tỏi; gia vị tỏi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3494,
-"word": "ガール",
-"kana": "ガール",
-"senses": [
-{
-"sense_id": 221943,
-"meaning_vi": "cô gái",
-"confidence": "high",
-"search_keywords": [
-"cô gái",
-"con gái",
-"girl"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cô gái; nữ giới trẻ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3495,
-"word": "ガールスカウト",
-"kana": "ガールスカウト",
-"senses": [
-{
-"sense_id": 221944,
-"meaning_vi": "Nữ Hướng đạo sinh",
-"confidence": "high",
-"search_keywords": [
-"Nữ Hướng đạo sinh",
-"Girl Scouts",
-"hướng đạo nữ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tổ chức hoặc thành viên Nữ Hướng đạo sinh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3496,
-"word": "ガールハント",
-"kana": "ガールハント",
-"senses": [
-{
-"sense_id": 221945,
-"meaning_vi": "tán gái",
-"confidence": "high",
-"search_keywords": [
-"tán gái",
-"săn bạn gái",
-"kiếm bạn gái"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tìm cách làm quen hoặc tán tỉnh con gái",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3497,
-"word": "ガールフレンド",
-"kana": "ガールフレンド",
-"senses": [
-{
-"sense_id": 221946,
-"meaning_vi": "bạn gái",
-"confidence": "high",
-"search_keywords": [
-"bạn gái",
-"người yêu",
-"girlfriend"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bạn gái; người yêu nữ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3498,
-"word": "ガイ",
-"kana": "ガイ",
-"senses": [
-{
-"sense_id": 221947,
-"meaning_vi": "anh chàng",
-"confidence": "high",
-"search_keywords": [
-"anh chàng",
-"gã",
-"guy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "anh chàng; gã; người đàn ông",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3499,
-"word": "ガイガーカウンター",
-"kana": "ガイガーカウンター",
-"senses": [
-{
-"sense_id": 221948,
-"meaning_vi": "máy đếm Geiger",
-"confidence": "high",
-"search_keywords": [
-"máy đếm Geiger",
-"máy đo phóng xạ",
-"Geiger counter"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị phát hiện và đo bức xạ ion hóa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3500,
-"word": "ガイスト",
-"kana": "ガイスト",
-"senses": [
-{
-"sense_id": 221949,
-"meaning_vi": "linh hồn",
-"confidence": "medium",
-"search_keywords": [
-"linh hồn",
-"tinh thần",
-"spirit"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "linh hồn; tinh thần",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3481,
+    "word": "ガーデンスモーカー",
+    "kana": "ガーデンスモーカー",
+    "senses": [
+      {
+        "sense_id": 221930,
+        "meaning_vi": "người hút thuốc trong vườn; thịt nướng hút thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "người hút thuốc trong vườn",
+          "thịt nướng hút thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người hút thuốc trong vườn; thịt nướng hút thuốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3482,
+    "word": "ガーデンパーティー",
+    "kana": "ガーデンパーティー",
+    "senses": [
+      {
+        "sense_id": 221931,
+        "meaning_vi": "bữa tiệc sân vườn",
+        "confidence": "high",
+        "search_keywords": [
+          "bữa tiệc sân vườn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bữa tiệc sân vườn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3483,
+    "word": "ガード",
+    "kana": "ガード",
+    "senses": [
+      {
+        "sense_id": 221932,
+        "meaning_vi": "canh gác; canh gác",
+        "confidence": "high",
+        "search_keywords": [
+          "canh gác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "canh gác; canh gác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3484,
+    "word": "ガードケーブル",
+    "kana": "ガードケーブル",
+    "senses": [
+      {
+        "sense_id": 221933,
+        "meaning_vi": "cáp bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "cáp bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cáp bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3485,
+    "word": "ガードバンカー",
+    "kana": "ガードバンカー",
+    "senses": [
+      {
+        "sense_id": 221934,
+        "meaning_vi": "hầm bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "hầm bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hầm bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3486,
+    "word": "ガードマン",
+    "kana": "ガードマン",
+    "senses": [
+      {
+        "sense_id": 221935,
+        "meaning_vi": "nhân viên bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân viên bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân viên bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3487,
+    "word": "ガードル",
+    "kana": "ガードル",
+    "senses": [
+      {
+        "sense_id": 221936,
+        "meaning_vi": "thắt lưng",
+        "confidence": "high",
+        "search_keywords": [
+          "thắt lưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thắt lưng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3488,
+    "word": "ガードレール",
+    "kana": "ガードレール",
+    "senses": [
+      {
+        "sense_id": 221937,
+        "meaning_vi": "lan can",
+        "confidence": "high",
+        "search_keywords": [
+          "lan can"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lan can",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3489,
+    "word": "ガーネット",
+    "kana": "ガーネット",
+    "senses": [
+      {
+        "sense_id": 221938,
+        "meaning_vi": "ngọc hồng lựu",
+        "confidence": "high",
+        "search_keywords": [
+          "ngọc hồng lựu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngọc hồng lựu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3490,
+    "word": "ガベージ",
+    "kana": "ガベージ",
+    "senses": [
+      {
+        "sense_id": 221939,
+        "meaning_vi": "rác thải",
+        "confidence": "high",
+        "search_keywords": [
+          "rác thải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rác thải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3491,
+    "word": "ガーベラ",
+    "kana": "ガーベラ",
+    "senses": [
+      {
+        "sense_id": 221940,
+        "meaning_vi": "hoa đồng tiền; hoa cúc châu phi",
+        "confidence": "high",
+        "search_keywords": [
+          "hoa đồng tiền",
+          "hoa cúc châu phi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoa đồng tiền; hoa cúc châu phi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3492,
+    "word": "ガーボロジー",
+    "kana": "ガーボロジー",
+    "senses": [
+      {
+        "sense_id": 221941,
+        "meaning_vi": "rác thải",
+        "confidence": "high",
+        "search_keywords": [
+          "rác thải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rác thải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3493,
+    "word": "ガーリック",
+    "kana": "ガーリック",
+    "senses": [
+      {
+        "sense_id": 221942,
+        "meaning_vi": "tỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "tỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỏi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3494,
+    "word": "ガール",
+    "kana": "ガール",
+    "senses": [
+      {
+        "sense_id": 221943,
+        "meaning_vi": "cô gái",
+        "confidence": "high",
+        "search_keywords": [
+          "cô gái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cô gái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3495,
+    "word": "ガールスカウト",
+    "kana": "ガールスカウト",
+    "senses": [
+      {
+        "sense_id": 221944,
+        "meaning_vi": "Nữ Hướng đạo",
+        "confidence": "high",
+        "search_keywords": [
+          "Nữ Hướng đạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nữ Hướng đạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3496,
+    "word": "ガールハント",
+    "kana": "ガールハント",
+    "senses": [
+      {
+        "sense_id": 221945,
+        "meaning_vi": "săn gái; cố gắng đón một cô gái; tìm bạn gái",
+        "confidence": "high",
+        "search_keywords": [
+          "săn gái",
+          "cố gắng đón một cô gái",
+          "tìm bạn gái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "săn gái; cố gắng đón một cô gái; tìm bạn gái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3497,
+    "word": "ガールフレンド",
+    "kana": "ガールフレンド",
+    "senses": [
+      {
+        "sense_id": 221946,
+        "meaning_vi": "bạn gái; bạn gái",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn gái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn gái; bạn gái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3498,
+    "word": "ガイ",
+    "kana": "ガイ",
+    "senses": [
+      {
+        "sense_id": 221947,
+        "meaning_vi": "anh chàng",
+        "confidence": "high",
+        "search_keywords": [
+          "anh chàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anh chàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3499,
+    "word": "ガイガーカウンター",
+    "kana": "ガイガーカウンター",
+    "senses": [
+      {
+        "sense_id": 221948,
+        "meaning_vi": "Máy đếm Geiger",
+        "confidence": "high",
+        "search_keywords": [
+          "Máy đếm Geiger"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Máy đếm Geiger",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3500,
+    "word": "ガイスト",
+    "kana": "ガイスト",
+    "senses": [
+      {
+        "sense_id": 221949,
+        "meaning_vi": "tinh thần",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

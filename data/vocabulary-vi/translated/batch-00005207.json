@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 124687,
+    "word": "水平磁気記録",
+    "kana": "すいへいじききろく",
+    "senses": [
+      {
+        "sense_id": 368324,
+        "meaning_vi": "ghi từ tính theo chiều dọc",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi từ tính theo chiều dọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi từ tính theo chiều dọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124688,
+    "word": "水平情報検査",
+    "kana": "すいへいじょうほうけんさ",
+    "senses": [
+      {
+        "sense_id": 368325,
+        "meaning_vi": "Kiểm tra dự phòng theo chiều ngang",
+        "confidence": "high",
+        "search_keywords": [
+          "Kiểm tra dự phòng theo chiều ngang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kiểm tra dự phòng theo chiều ngang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124689,
+    "word": "水平走査周波数",
+    "kana": "すいへいそうさしゅうはすう",
+    "senses": [
+      {
+        "sense_id": 368326,
+        "meaning_vi": "tần số quét ngang",
+        "confidence": "high",
+        "search_keywords": [
+          "tần số quét ngang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tần số quét ngang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124690,
+    "word": "水平方向",
+    "kana": "すいへいほうこう",
+    "senses": [
+      {
+        "sense_id": 368327,
+        "meaning_vi": "hướng ngang",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng ngang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng ngang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124691,
+    "word": "水平方向奇偶検査",
+    "kana": "すいへいほうこうきぐうけんさ",
+    "senses": [
+      {
+        "sense_id": 368328,
+        "meaning_vi": "LRC; Kiểm tra dự phòng theo chiều dọc",
+        "confidence": "high",
+        "search_keywords": [
+          "LRC",
+          "Kiểm tra dự phòng theo chiều dọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "LRC; Kiểm tra dự phòng theo chiều dọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124692,
+    "word": "数学モデル",
+    "kana": "すうがくモデル",
+    "senses": [
+      {
+        "sense_id": 368329,
+        "meaning_vi": "mô hình toán học",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình toán học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình toán học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124693,
+    "word": "数学関数",
+    "kana": "すうがくかんすう",
+    "senses": [
+      {
+        "sense_id": 368330,
+        "meaning_vi": "hàm toán học",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm toán học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm toán học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124694,
+    "word": "数学的モデル化",
+    "kana": "すうがくてきモデルか",
+    "senses": [
+      {
+        "sense_id": 368331,
+        "meaning_vi": "mô hình toán học",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình toán học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình toán học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124695,
+    "word": "数字コード",
+    "kana": "すうじコード",
+    "senses": [
+      {
+        "sense_id": 368332,
+        "meaning_vi": "mã số",
+        "confidence": "high",
+        "search_keywords": [
+          "mã số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124696,
+    "word": "数字コード化集合",
+    "kana": "すうじコードかしゅうごう",
+    "senses": [
+      {
+        "sense_id": 368333,
+        "meaning_vi": "bộ mã số",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ mã số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ mã số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124697,
+    "word": "数字シフト",
+    "kana": "すうじシフト",
+    "senses": [
+      {
+        "sense_id": 368334,
+        "meaning_vi": "dịch chuyển hình",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch chuyển hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch chuyển hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124698,
+    "word": "数字位置",
+    "kana": "すうじいち",
+    "senses": [
+      {
+        "sense_id": 368335,
+        "meaning_vi": "vị trí chữ số; vị trí chữ số",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí chữ số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí chữ số; vị trí chữ số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124699,
+    "word": "数字句",
+    "kana": "すうじく",
+    "senses": [
+      {
+        "sense_id": 368336,
+        "meaning_vi": "mã thông báo số",
+        "confidence": "high",
+        "search_keywords": [
+          "mã thông báo số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã thông báo số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124700,
+    "word": "数字項目",
+    "kana": "すうじこうもく",
+    "senses": [
+      {
+        "sense_id": 368337,
+        "meaning_vi": "mục số",
+        "confidence": "high",
+        "search_keywords": [
+          "mục số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124701,
+    "word": "数字集合",
+    "kana": "すうじしゅうごう",
+    "senses": [
+      {
+        "sense_id": 368338,
+        "meaning_vi": "bộ ký tự số",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ ký tự số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ ký tự số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124702,
+    "word": "数字定数",
+    "kana": "すうじていすう",
+    "senses": [
+      {
+        "sense_id": 368339,
+        "meaning_vi": "chữ số",
+        "confidence": "high",
+        "search_keywords": [
+          "chữ số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chữ số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124703,
+    "word": "数字表記法",
+    "kana": "すうじひょうきほう",
+    "senses": [
+      {
+        "sense_id": 368340,
+        "meaning_vi": "ký hiệu số",
+        "confidence": "high",
+        "search_keywords": [
+          "ký hiệu số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký hiệu số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124704,
+    "word": "数字利用者識別子",
+    "kana": "すうじりようしゃしきべつし",
+    "senses": [
+      {
+        "sense_id": 368341,
+        "meaning_vi": "định danh người dùng bằng số",
+        "confidence": "high",
+        "search_keywords": [
+          "định danh người dùng bằng số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định danh người dùng bằng số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124705,
+    "word": "数体系",
+    "kana": "すうたいけい",
+    "senses": [
+      {
+        "sense_id": 368342,
+        "meaning_vi": "hệ thống số",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124706,
+    "word": "数値キーパッド",
+    "kana": "すうちキーパッド",
+    "senses": [
+      {
+        "sense_id": 368343,
+        "meaning_vi": "bàn phím số",
+        "confidence": "high",
+        "search_keywords": [
+          "bàn phím số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bàn phím số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

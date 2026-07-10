@@ -1,497 +1,459 @@
 [
-{
-"vocabulary_id": 2602,
-"word": "エマージェンシー",
-"kana": "エマージェンシー",
-"senses": [
-{
-"sense_id": 220900,
-"meaning_vi": "tình huống khẩn cấp",
-"confidence": "high",
-"search_keywords": [
-"tình huống khẩn cấp",
-"khẩn cấp",
-"emergency"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tình huống khẩn cấp; trường hợp cấp cứu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2603,
-"word": "エマージェンシーランディング",
-"kana": "エマージェンシーランディング",
-"senses": [
-{
-"sense_id": 220901,
-"meaning_vi": "hạ cánh khẩn cấp",
-"confidence": "high",
-"search_keywords": [
-"hạ cánh khẩn cấp",
-"emergency landing",
-"đáp khẩn cấp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc máy bay hạ cánh khẩn cấp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2604,
-"word": "エミグラント",
-"kana": "エミグラント",
-"senses": [
-{
-"sense_id": 220902,
-"meaning_vi": "người di cư ra nước ngoài",
-"confidence": "medium",
-"search_keywords": [
-"người di cư",
-"người xuất cư",
-"emigrant"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người rời quê hương để di cư sang nước khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2605,
-"word": "エミグレーション",
-"kana": "エミグレーション",
-"senses": [
-{
-"sense_id": 220903,
-"meaning_vi": "sự xuất cư",
-"confidence": "medium",
-"search_keywords": [
-"sự xuất cư",
-"di cư ra nước ngoài",
-"emigration"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc rời một nước để sang nước khác sinh sống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2606,
-"word": "エミネント",
-"kana": "エミネント",
-"senses": [
-{
-"sense_id": 220904,
-"meaning_vi": "xuất chúng",
-"confidence": "medium",
-"search_keywords": [
-"xuất chúng",
-"ưu tú",
-"eminent"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xuất chúng; nổi bật; có địa vị cao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2607,
-"word": "エミュレータ",
-"kana": "エミュレータ",
-"senses": [
-{
-"sense_id": 220905,
-"meaning_vi": "trình giả lập",
-"confidence": "high",
-"search_keywords": [
-"trình giả lập",
-"emulator",
-"giả lập"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần mềm hoặc thiết bị mô phỏng hệ thống khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2608,
-"word": "エミュレート",
-"kana": "エミュレート",
-"senses": [
-{
-"sense_id": 220906,
-"meaning_vi": "giả lập",
-"confidence": "high",
-"search_keywords": [
-"giả lập",
-"mô phỏng",
-"emulate"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giả lập hoặc mô phỏng hoạt động của hệ thống khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2609,
-"word": "Ｍサイズ",
-"kana": "エムサイズ",
-"senses": [
-{
-"sense_id": 220907,
-"meaning_vi": "cỡ M",
-"confidence": "high",
-"search_keywords": [
-"cỡ M",
-"size M",
-"cỡ vừa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kích cỡ vừa, size M",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2610,
-"word": "エメラルド",
-"kana": "エメラルド",
-"senses": [
-{
-"sense_id": 220908,
-"meaning_vi": "ngọc lục bảo",
-"confidence": "high",
-"search_keywords": [
-"ngọc lục bảo",
-"emerald",
-"đá emerald"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngọc lục bảo; đá quý màu xanh lục",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2611,
-"word": "エメラルドグリーン",
-"kana": "エメラルドグリーン",
-"senses": [
-{
-"sense_id": 220909,
-"meaning_vi": "xanh ngọc lục bảo",
-"confidence": "high",
-"search_keywords": [
-"xanh ngọc lục bảo",
-"xanh emerald",
-"emerald green"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "màu xanh lục giống màu ngọc lục bảo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2612,
-"word": "エメリーボード",
-"kana": "エメリーボード",
-"senses": [
-{
-"sense_id": 220910,
-"meaning_vi": "dũa móng tay",
-"confidence": "high",
-"search_keywords": [
-"dũa móng tay",
-"emery board"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "miếng dũa móng tay phủ hạt nhám",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2613,
-"word": "エモーショナリスム",
-"kana": "エモーショナリスム",
-"senses": [
-{
-"sense_id": 220911,
-"meaning_vi": "chủ nghĩa cảm xúc",
-"confidence": "medium",
-"search_keywords": [
-"chủ nghĩa cảm xúc",
-"cảm tính",
-"emotionalism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khuynh hướng đề cao cảm xúc hơn lý trí",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2614,
-"word": "エモーション",
-"kana": "エモーション",
-"senses": [
-{
-"sense_id": 220912,
-"meaning_vi": "cảm xúc",
-"confidence": "high",
-"search_keywords": [
-"cảm xúc",
-"tình cảm",
-"emotion"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm xúc; tình cảm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2615,
-"word": "エヤクラチオン",
-"kana": "エヤクラチオン",
-"senses": [
-{
-"sense_id": 220913,
-"meaning_vi": "sự xuất tinh",
-"confidence": "medium",
-"search_keywords": [
-"sự xuất tinh",
-"xuất tinh",
-"ejaculation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự phóng tinh dịch ra ngoài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2616,
-"word": "エラー",
-"kana": "エラー",
-"senses": [
-{
-"sense_id": 220914,
-"meaning_vi": "lỗi",
-"confidence": "high",
-"search_keywords": [
-"lỗi",
-"sai sót",
-"error"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi; sai sót; trạng thái phát sinh lỗi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220915,
-"meaning_vi": "lỗi bắt bóng",
-"confidence": "high",
-"search_keywords": [
-"lỗi bắt bóng",
-"lỗi phòng thủ",
-"error bóng chày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi phòng thủ khiến không loại được người chạy trong bóng chày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2617,
-"word": "エラーシグナル",
-"kana": "エラーシグナル",
-"senses": [
-{
-"sense_id": 220916,
-"meaning_vi": "tín hiệu lỗi",
-"confidence": "high",
-"search_keywords": [
-"tín hiệu lỗi",
-"error signal"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tín hiệu báo lỗi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2618,
-"word": "エラーメッセージ",
-"kana": "エラーメッセージ",
-"senses": [
-{
-"sense_id": 220917,
-"meaning_vi": "thông báo lỗi",
-"confidence": "high",
-"search_keywords": [
-"thông báo lỗi",
-"error message",
-"lỗi hệ thống"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thông báo hiển thị khi xảy ra lỗi trong máy tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2619,
-"word": "エライザ法",
-"kana": "エライザほう",
-"senses": [
-{
-"sense_id": 220918,
-"meaning_vi": "phương pháp ELISA",
-"confidence": "high",
-"search_keywords": [
-"phương pháp ELISA",
-"xét nghiệm ELISA",
-"enzyme-linked immunosorbent assay"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương pháp xét nghiệm miễn dịch gắn enzyme dùng để phát hiện virus hoặc kháng thể",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2620,
-"word": "エラスティック",
-"kana": "エラスティック",
-"senses": [
-{
-"sense_id": 220919,
-"meaning_vi": "đàn hồi",
-"confidence": "high",
-"search_keywords": [
-"đàn hồi",
-"co giãn",
-"elastic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có tính đàn hồi hoặc co giãn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2621,
-"word": "エリート",
-"kana": "エリート",
-"senses": [
-{
-"sense_id": 220920,
-"meaning_vi": "tinh hoa",
-"confidence": "high",
-"search_keywords": [
-"tinh hoa",
-"ưu tú",
-"elite"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người hoặc tầng lớp ưu tú trong xã hội, tổ chức",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2602,
+    "word": "エマージェンシー",
+    "kana": "エマージェンシー",
+    "senses": [
+      {
+        "sense_id": 220900,
+        "meaning_vi": "trường hợp khẩn cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "trường hợp khẩn cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường hợp khẩn cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2603,
+    "word": "エマージェンシーランディング",
+    "kana": "エマージェンシーランディング",
+    "senses": [
+      {
+        "sense_id": 220901,
+        "meaning_vi": "hạ cánh khẩn cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "hạ cánh khẩn cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạ cánh khẩn cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2604,
+    "word": "エミグラント",
+    "kana": "エミグラント",
+    "senses": [
+      {
+        "sense_id": 220902,
+        "meaning_vi": "người di cư",
+        "confidence": "high",
+        "search_keywords": [
+          "người di cư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người di cư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2605,
+    "word": "エミグレーション",
+    "kana": "エミグレーション",
+    "senses": [
+      {
+        "sense_id": 220903,
+        "meaning_vi": "di cư",
+        "confidence": "high",
+        "search_keywords": [
+          "di cư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di cư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2606,
+    "word": "エミネント",
+    "kana": "エミネント",
+    "senses": [
+      {
+        "sense_id": 220904,
+        "meaning_vi": "lỗi lạc",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi lạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi lạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2607,
+    "word": "エミュレータ",
+    "kana": "エミュレータ",
+    "senses": [
+      {
+        "sense_id": 220905,
+        "meaning_vi": "giả lập",
+        "confidence": "high",
+        "search_keywords": [
+          "giả lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2608,
+    "word": "エミュレート",
+    "kana": "エミュレート",
+    "senses": [
+      {
+        "sense_id": 220906,
+        "meaning_vi": "thi đua",
+        "confidence": "high",
+        "search_keywords": [
+          "thi đua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thi đua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2609,
+    "word": "Ｍサイズ",
+    "kana": "エムサイズ",
+    "senses": [
+      {
+        "sense_id": 220907,
+        "meaning_vi": "cỡ M; kích thước trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "cỡ M",
+          "kích thước trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cỡ M; kích thước trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2610,
+    "word": "エメラルド",
+    "kana": "エメラルド",
+    "senses": [
+      {
+        "sense_id": 220908,
+        "meaning_vi": "ngọc lục bảo",
+        "confidence": "high",
+        "search_keywords": [
+          "ngọc lục bảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngọc lục bảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2611,
+    "word": "エメラルドグリーン",
+    "kana": "エメラルドグリーン",
+    "senses": [
+      {
+        "sense_id": 220909,
+        "meaning_vi": "xanh ngọc lục bảo",
+        "confidence": "high",
+        "search_keywords": [
+          "xanh ngọc lục bảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xanh ngọc lục bảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2612,
+    "word": "エメリーボード",
+    "kana": "エメリーボード",
+    "senses": [
+      {
+        "sense_id": 220910,
+        "meaning_vi": "bảng nhám",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng nhám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng nhám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2613,
+    "word": "エモーショナリスム",
+    "kana": "エモーショナリスム",
+    "senses": [
+      {
+        "sense_id": 220911,
+        "meaning_vi": "chủ nghĩa cảm tính",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa cảm tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa cảm tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2614,
+    "word": "エモーション",
+    "kana": "エモーション",
+    "senses": [
+      {
+        "sense_id": 220912,
+        "meaning_vi": "cảm xúc",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm xúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm xúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2615,
+    "word": "エヤクラチオン",
+    "kana": "エヤクラチオン",
+    "senses": [
+      {
+        "sense_id": 220913,
+        "meaning_vi": "xuất tinh",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất tinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất tinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2616,
+    "word": "エラー",
+    "kana": "エラー",
+    "senses": [
+      {
+        "sense_id": 220914,
+        "meaning_vi": "lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220915,
+        "meaning_vi": "lóng ngóng dẫn tới việc không thể đưa ra được người chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "lóng ngóng dẫn tới việc không thể đưa ra được người chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lóng ngóng dẫn tới việc không thể đưa ra được người chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2617,
+    "word": "エラーシグナル",
+    "kana": "エラーシグナル",
+    "senses": [
+      {
+        "sense_id": 220916,
+        "meaning_vi": "tín hiệu lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2618,
+    "word": "エラーメッセージ",
+    "kana": "エラーメッセージ",
+    "senses": [
+      {
+        "sense_id": 220917,
+        "meaning_vi": "thông báo lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "thông báo lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông báo lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2619,
+    "word": "エライザ法",
+    "kana": "エライザほう",
+    "senses": [
+      {
+        "sense_id": 220918,
+        "meaning_vi": "xét nghiệm hấp thụ miễn dịch liên kết với enzyme (phương pháp phát hiện virus); ELISA",
+        "confidence": "high",
+        "search_keywords": [
+          "xét nghiệm hấp thụ miễn dịch liên kết với enzyme (phương pháp phát hiện virus)",
+          "ELISA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xét nghiệm hấp thụ miễn dịch liên kết với enzyme (phương pháp phát hiện virus); ELISA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2620,
+    "word": "エラスティック",
+    "kana": "エラスティック",
+    "senses": [
+      {
+        "sense_id": 220919,
+        "meaning_vi": "đàn hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "đàn hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đàn hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2621,
+    "word": "エリート",
+    "kana": "エリート",
+    "senses": [
+      {
+        "sense_id": 220920,
+        "meaning_vi": "ưu tú",
+        "confidence": "high",
+        "search_keywords": [
+          "ưu tú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ưu tú",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

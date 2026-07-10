@@ -1,0 +1,595 @@
+[
+  {
+    "vocabulary_id": 33138,
+    "word": "嘱託",
+    "kana": "しょくたく",
+    "senses": [
+      {
+        "sense_id": 260122,
+        "meaning_vi": "nhiệm vụ; giao phó (công việc)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệm vụ",
+          "giao phó (công việc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệm vụ; giao phó (công việc)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260123,
+        "meaning_vi": "nhân viên bán thời gian; công việc tạm thời",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân viên bán thời gian",
+          "công việc tạm thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân viên bán thời gian; công việc tạm thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33139,
+    "word": "嘱望",
+    "kana": "しょくぼう",
+    "senses": [
+      {
+        "sense_id": 260124,
+        "meaning_vi": "có hy vọng lớn lao về (tương lai của ai đó); mong đợi nhiều; đặt hy vọng vào",
+        "confidence": "high",
+        "search_keywords": [
+          "có hy vọng lớn lao về (tương lai của ai đó)",
+          "mong đợi nhiều",
+          "đặt hy vọng vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có hy vọng lớn lao về (tương lai của ai đó); mong đợi nhiều; đặt hy vọng vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33140,
+    "word": "飾り",
+    "kana": "かざり",
+    "senses": [
+      {
+        "sense_id": 260125,
+        "meaning_vi": "trang trí; trang trí; đồ trang trí",
+        "confidence": "high",
+        "search_keywords": [
+          "trang trí",
+          "đồ trang trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang trí; trang trí; đồ trang trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33141,
+    "word": "飾り気",
+    "kana": "かざりけ",
+    "senses": [
+      {
+        "sense_id": 260126,
+        "meaning_vi": "ảnh hưởng; sự phô trương; giả vờ",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh hưởng",
+          "sự phô trương",
+          "giả vờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh hưởng; sự phô trương; giả vờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33142,
+    "word": "飾り皿",
+    "kana": "かざりざら",
+    "senses": [
+      {
+        "sense_id": 260127,
+        "meaning_vi": "đĩa trang trí",
+        "confidence": "high",
+        "search_keywords": [
+          "đĩa trang trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đĩa trang trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33143,
+    "word": "飾り付ける",
+    "kana": "かざりつける",
+    "senses": [
+      {
+        "sense_id": 260128,
+        "meaning_vi": "để trang trí; để hiển thị",
+        "confidence": "high",
+        "search_keywords": [
+          "để trang trí",
+          "để hiển thị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trang trí; để hiển thị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33144,
+    "word": "飾り立てる",
+    "kana": "かざりたてる",
+    "senses": [
+      {
+        "sense_id": 260129,
+        "meaning_vi": "trang trí cầu kỳ; trang trí quá mức; để trang hoàng; để tô điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "trang trí cầu kỳ",
+          "trang trí quá mức",
+          "để trang hoàng",
+          "để tô điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang trí cầu kỳ; trang trí quá mức; để trang hoàng; để tô điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33145,
+    "word": "飾る",
+    "kana": "かざる",
+    "senses": [
+      {
+        "sense_id": 260130,
+        "meaning_vi": "để trang trí; để trang trí; để tô điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "để trang trí",
+          "để tô điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trang trí; để trang trí; để tô điểm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260131,
+        "meaning_vi": "để hiển thị; để triển lãm; để trưng bày; sắp xếp",
+        "confidence": "high",
+        "search_keywords": [
+          "để hiển thị",
+          "để triển lãm",
+          "để trưng bày",
+          "sắp xếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hiển thị; để triển lãm; để trưng bày; sắp xếp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260132,
+        "meaning_vi": "để đánh dấu (ví dụ: ngày có chiến thắng); để tô điểm (ví dụ: trang đầu); để ân sủng (ví dụ: trang bìa)",
+        "confidence": "high",
+        "search_keywords": [
+          "để đánh dấu (ví dụ: ngày có chiến thắng)",
+          "để tô điểm (ví dụ: trang đầu)",
+          "để ân sủng (ví dụ: trang bìa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đánh dấu (ví dụ: ngày có chiến thắng); để tô điểm (ví dụ: trang đầu); để ân sủng (ví dụ: trang bìa)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260133,
+        "meaning_vi": "ảnh hưởng đến (một cách); để theo kịp (xuất hiện); để tô điểm; ăn mặc; sặc sỡ; tự phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh hưởng đến (một cách)",
+          "để theo kịp (xuất hiện)",
+          "để tô điểm",
+          "ăn mặc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh hưởng đến (một cách); để theo kịp (xuất hiện); để tô điểm; ăn mặc; sặc sỡ; tự phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33146,
+    "word": "拭う",
+    "kana": "ぬぐう",
+    "senses": [
+      {
+        "sense_id": 260134,
+        "meaning_vi": "lau; để lau chùi",
+        "confidence": "high",
+        "search_keywords": [
+          "lau",
+          "để lau chùi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lau; để lau chùi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260135,
+        "meaning_vi": "loại bỏ (ấn tượng, cảm giác, khuyết điểm, v.v.); xua tan (ví dụ: xấu hổ); để xóa; để loại bỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "loại bỏ (ấn tượng, cảm giác, khuyết điểm, v.v.)",
+          "xua tan (ví dụ: xấu hổ)",
+          "để xóa",
+          "để loại bỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại bỏ (ấn tượng, cảm giác, khuyết điểm, v.v.); xua tan (ví dụ: xấu hổ); để xóa; để loại bỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33147,
+    "word": "拭き取る",
+    "kana": "ふきとる",
+    "senses": [
+      {
+        "sense_id": 260136,
+        "meaning_vi": "lau sạch; để lau sạch",
+        "confidence": "high",
+        "search_keywords": [
+          "lau sạch",
+          "để lau sạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lau sạch; để lau sạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33148,
+    "word": "拭く",
+    "kana": "ふく",
+    "senses": [
+      {
+        "sense_id": 260137,
+        "meaning_vi": "lau; làm khô",
+        "confidence": "high",
+        "search_keywords": [
+          "lau",
+          "làm khô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lau; làm khô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33149,
+    "word": "植える",
+    "kana": "うえる",
+    "senses": [
+      {
+        "sense_id": 260138,
+        "meaning_vi": "để trồng; phát triển; nâng cao",
+        "confidence": "high",
+        "search_keywords": [
+          "để trồng",
+          "phát triển",
+          "nâng cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trồng; phát triển; nâng cao",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260139,
+        "meaning_vi": "để chèn; để cấy ghép; để cấy ghép; để thiết lập (loại)",
+        "confidence": "high",
+        "search_keywords": [
+          "để chèn",
+          "để cấy ghép",
+          "để thiết lập (loại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để chèn; để cấy ghép; để cấy ghép; để thiết lập (loại)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260140,
+        "meaning_vi": "để tiêm chủng (ví dụ như một tác nhân truyền nhiễm)",
+        "confidence": "high",
+        "search_keywords": [
+          "để tiêm chủng (ví dụ như một tác nhân truyền nhiễm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tiêm chủng (ví dụ như một tác nhân truyền nhiễm)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260141,
+        "meaning_vi": "để thấm nhuần (ý tưởng, giá trị, v.v.); để khắc sâu",
+        "confidence": "high",
+        "search_keywords": [
+          "để thấm nhuần (ý tưởng, giá trị, v.v.)",
+          "để khắc sâu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thấm nhuần (ý tưởng, giá trị, v.v.); để khắc sâu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33150,
+    "word": "植わる",
+    "kana": "うわる",
+    "senses": [
+      {
+        "sense_id": 260142,
+        "meaning_vi": "được trồng",
+        "confidence": "high",
+        "search_keywords": [
+          "được trồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được trồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33151,
+    "word": "植字",
+    "kana": "しょくじ",
+    "senses": [
+      {
+        "sense_id": 260143,
+        "meaning_vi": "sắp chữ",
+        "confidence": "high",
+        "search_keywords": [
+          "sắp chữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắp chữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33152,
+    "word": "植樹",
+    "kana": "しょくじゅ",
+    "senses": [
+      {
+        "sense_id": 260144,
+        "meaning_vi": "trồng cây",
+        "confidence": "high",
+        "search_keywords": [
+          "trồng cây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trồng cây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33153,
+    "word": "植物",
+    "kana": "しょくぶつ",
+    "senses": [
+      {
+        "sense_id": 260145,
+        "meaning_vi": "thực vật; thảm thực vật",
+        "confidence": "high",
+        "search_keywords": [
+          "thực vật",
+          "thảm thực vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực vật; thảm thực vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33154,
+    "word": "植物園",
+    "kana": "しょくぶつえん",
+    "senses": [
+      {
+        "sense_id": 260146,
+        "meaning_vi": "vườn thực vật",
+        "confidence": "high",
+        "search_keywords": [
+          "vườn thực vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vườn thực vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33155,
+    "word": "植物人間",
+    "kana": "しょくぶつにんげん",
+    "senses": [
+      {
+        "sense_id": 260147,
+        "meaning_vi": "con người thực vật (tức là ai đó ở trạng thái thực vật)",
+        "confidence": "high",
+        "search_keywords": [
+          "con người thực vật (tức là ai đó ở trạng thái thực vật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con người thực vật (tức là ai đó ở trạng thái thực vật)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33156,
+    "word": "植物性脂肪",
+    "kana": "しょくぶつせいしぼう",
+    "senses": [
+      {
+        "sense_id": 260148,
+        "meaning_vi": "chất béo thực vật",
+        "confidence": "high",
+        "search_keywords": [
+          "chất béo thực vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất béo thực vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33157,
+    "word": "植民",
+    "kana": "しょくみん",
+    "senses": [
+      {
+        "sense_id": 260149,
+        "meaning_vi": "thuộc địa hóa; sự thuộc địa hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc địa hóa",
+          "sự thuộc địa hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc địa hóa; sự thuộc địa hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

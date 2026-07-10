@@ -1,0 +1,462 @@
+[
+  {
+    "vocabulary_id": 131322,
+    "word": "リスケジューリング",
+    "kana": "リスケジューリング",
+    "senses": [
+      {
+        "sense_id": 375459,
+        "meaning_vi": "gia hạn (nợ)",
+        "confidence": "high",
+        "search_keywords": [
+          "gia hạn (nợ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gia hạn (nợ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131323,
+    "word": "ボブキャット",
+    "kana": "ボブキャット",
+    "senses": [
+      {
+        "sense_id": 375460,
+        "meaning_vi": "linh miêu (Lynx rufus)",
+        "confidence": "high",
+        "search_keywords": [
+          "linh miêu (Lynx rufus)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "linh miêu (Lynx rufus)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131324,
+    "word": "カラカル",
+    "kana": "カラカル",
+    "senses": [
+      {
+        "sense_id": 375461,
+        "meaning_vi": "caracal (Caracal caracal); Linh miêu châu Phi",
+        "confidence": "high",
+        "search_keywords": [
+          "caracal (Caracal caracal)",
+          "Linh miêu châu Phi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "caracal (Caracal caracal); Linh miêu châu Phi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131325,
+    "word": "カラカラ",
+    "kana": "カラカラ",
+    "senses": [
+      {
+        "sense_id": 375462,
+        "meaning_vi": "caracara mào (Polyborus plancus)",
+        "confidence": "high",
+        "search_keywords": [
+          "caracara mào (Polyborus plancus)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "caracara mào (Polyborus plancus)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131326,
+    "word": "ピルビン酸",
+    "kana": "ピルビンさん",
+    "senses": [
+      {
+        "sense_id": 375463,
+        "meaning_vi": "axit pyruvic; pyruvat",
+        "confidence": "high",
+        "search_keywords": [
+          "axit pyruvic",
+          "pyruvat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "axit pyruvic; pyruvat",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131327,
+    "word": "クエン酸回路",
+    "kana": "クエンさんかいろ",
+    "senses": [
+      {
+        "sense_id": 375464,
+        "meaning_vi": "chu trình axit citric",
+        "confidence": "high",
+        "search_keywords": [
+          "chu trình axit citric"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chu trình axit citric",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131328,
+    "word": "ＴＣＡ回路",
+    "kana": "ティーシーエーかいろ",
+    "senses": [
+      {
+        "sense_id": 375465,
+        "meaning_vi": "Chu trình TCA (axit tricarboxylic)",
+        "confidence": "high",
+        "search_keywords": [
+          "Chu trình TCA (axit tricarboxylic)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chu trình TCA (axit tricarboxylic)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131329,
+    "word": "基質",
+    "kana": "きしつ",
+    "senses": [
+      {
+        "sense_id": 375466,
+        "meaning_vi": "chất nền (tức là trong hóa sinh)",
+        "confidence": "high",
+        "search_keywords": [
+          "chất nền (tức là trong hóa sinh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất nền (tức là trong hóa sinh)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 375467,
+        "meaning_vi": "ma trận (tức là trong sinh học); chất nền",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận (tức là trong sinh học)",
+          "chất nền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận (tức là trong sinh học); chất nền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131330,
+    "word": "空胞",
+    "kana": "くうほう",
+    "senses": [
+      {
+        "sense_id": 375468,
+        "meaning_vi": "không bào (đặc biệt ở tế bào động vật)",
+        "confidence": "high",
+        "search_keywords": [
+          "không bào (đặc biệt ở tế bào động vật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không bào (đặc biệt ở tế bào động vật)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131331,
+    "word": "細胞周期",
+    "kana": "さいぼうしゅうき",
+    "senses": [
+      {
+        "sense_id": 375469,
+        "meaning_vi": "chu kỳ tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "chu kỳ tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chu kỳ tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131332,
+    "word": "細胞運動",
+    "kana": "さいぼううんどう",
+    "senses": [
+      {
+        "sense_id": 375470,
+        "meaning_vi": "sự vận động của tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "sự vận động của tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự vận động của tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131333,
+    "word": "細胞骨格",
+    "kana": "さいぼうこっかく",
+    "senses": [
+      {
+        "sense_id": 375471,
+        "meaning_vi": "bộ xương tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ xương tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ xương tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131334,
+    "word": "細胞分画法",
+    "kana": "さいぼうぶんかくほう",
+    "senses": [
+      {
+        "sense_id": 375472,
+        "meaning_vi": "phân chia tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "phân chia tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân chia tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131335,
+    "word": "細胞内消化",
+    "kana": "さいぼうないしょうか",
+    "senses": [
+      {
+        "sense_id": 375473,
+        "meaning_vi": "tiêu hóa nội bào",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu hóa nội bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu hóa nội bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131336,
+    "word": "細胞性粘菌",
+    "kana": "さいぼうせいねんきん",
+    "senses": [
+      {
+        "sense_id": 375474,
+        "meaning_vi": "khuôn chất nhờn di động",
+        "confidence": "high",
+        "search_keywords": [
+          "khuôn chất nhờn di động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuôn chất nhờn di động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131337,
+    "word": "細胞診",
+    "kana": "さいぼうしん",
+    "senses": [
+      {
+        "sense_id": 375475,
+        "meaning_vi": "chẩn đoán tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "chẩn đoán tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chẩn đoán tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131338,
+    "word": "細胞検査",
+    "kana": "さいぼうけんさ",
+    "senses": [
+      {
+        "sense_id": 375476,
+        "meaning_vi": "chẩn đoán tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "chẩn đoán tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chẩn đoán tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131339,
+    "word": "細胞工学",
+    "kana": "さいぼうこうがく",
+    "senses": [
+      {
+        "sense_id": 375477,
+        "meaning_vi": "kỹ thuật tế bào",
+        "confidence": "high",
+        "search_keywords": [
+          "kỹ thuật tế bào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỹ thuật tế bào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131340,
+    "word": "卵原細胞",
+    "kana": "らんげんさいぼう",
+    "senses": [
+      {
+        "sense_id": 375478,
+        "meaning_vi": "oogonium",
+        "confidence": "low",
+        "search_keywords": [
+          "oogonium"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "oogonium",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131341,
+    "word": "遊走細胞",
+    "kana": "ゆうそうさいぼう",
+    "senses": [
+      {
+        "sense_id": 375479,
+        "meaning_vi": "tế bào kế hoạch; tế bào lang thang; tế bào bầy đàn",
+        "confidence": "high",
+        "search_keywords": [
+          "tế bào kế hoạch",
+          "tế bào lang thang",
+          "tế bào bầy đàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tế bào kế hoạch; tế bào lang thang; tế bào bầy đàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

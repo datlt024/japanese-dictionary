@@ -1,0 +1,735 @@
+[
+  {
+    "vocabulary_id": 99114,
+    "word": "虎穴に入らずんば虎子を得ず",
+    "kana": "こけつにいらずんばこじをえず",
+    "senses": [
+      {
+        "sense_id": 340388,
+        "meaning_vi": "không có gì mạo hiểm, không có gì đạt được; vào hang cọp thì không bắt được hổ con",
+        "confidence": "high",
+        "search_keywords": [
+          "không có gì mạo hiểm, không có gì đạt được",
+          "vào hang cọp thì không bắt được hổ con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có gì mạo hiểm, không có gì đạt được; vào hang cọp thì không bắt được hổ con",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99115,
+    "word": "フランス人",
+    "kana": "フランスじん",
+    "senses": [
+      {
+        "sense_id": 340389,
+        "meaning_vi": "người Pháp; người Pháp; người phụ nữ Pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "người Pháp",
+          "người phụ nữ Pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người Pháp; người Pháp; người phụ nữ Pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99116,
+    "word": "武",
+    "kana": "ぶ",
+    "senses": [
+      {
+        "sense_id": 340390,
+        "meaning_vi": "nghệ thuật chiến tranh; võ thuật; nghệ thuật quân sự",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ thuật chiến tranh",
+          "võ thuật",
+          "nghệ thuật quân sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ thuật chiến tranh; võ thuật; nghệ thuật quân sự",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340391,
+        "meaning_vi": "lực lượng quân sự; thanh kiếm",
+        "confidence": "high",
+        "search_keywords": [
+          "lực lượng quân sự",
+          "thanh kiếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lực lượng quân sự; thanh kiếm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340392,
+        "meaning_vi": "dũng cảm; lòng dũng cảm",
+        "confidence": "high",
+        "search_keywords": [
+          "dũng cảm",
+          "lòng dũng cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dũng cảm; lòng dũng cảm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340393,
+        "meaning_vi": "sĩ quan quân đội; quân nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "sĩ quan quân đội",
+          "quân nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sĩ quan quân đội; quân nhân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99117,
+    "word": "忍",
+    "kana": "にん",
+    "senses": [
+      {
+        "sense_id": 340394,
+        "meaning_vi": "sức chịu đựng; nhẫn nại; tính kiên nhẫn; tự kiềm chế",
+        "confidence": "high",
+        "search_keywords": [
+          "sức chịu đựng",
+          "nhẫn nại",
+          "tính kiên nhẫn",
+          "tự kiềm chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức chịu đựng; nhẫn nại; tính kiên nhẫn; tự kiềm chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99118,
+    "word": "小京都",
+    "kana": "しょうきょうと",
+    "senses": [
+      {
+        "sense_id": 340395,
+        "meaning_vi": "Tiểu Kyoto; thị trấn nhỏ với những nét lịch sử gợi nhớ đến Kyoto",
+        "confidence": "high",
+        "search_keywords": [
+          "Tiểu Kyoto",
+          "thị trấn nhỏ với những nét lịch sử gợi nhớ đến Kyoto"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tiểu Kyoto; thị trấn nhỏ với những nét lịch sử gợi nhớ đến Kyoto",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99119,
+    "word": "小",
+    "kana": "しょう",
+    "senses": [
+      {
+        "sense_id": 340396,
+        "meaning_vi": "sự nhỏ bé; món đồ nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự nhỏ bé",
+          "món đồ nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự nhỏ bé; món đồ nhỏ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340397,
+        "meaning_vi": "tháng ngắn (tức là có ít hơn 31 ngày)",
+        "confidence": "high",
+        "search_keywords": [
+          "tháng ngắn (tức là có ít hơn 31 ngày)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tháng ngắn (tức là có ít hơn 31 ngày)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340398,
+        "meaning_vi": "trường tiểu học",
+        "confidence": "high",
+        "search_keywords": [
+          "trường tiểu học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường tiểu học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340399,
+        "meaning_vi": "nhỏ hơn (của hai thứ, địa điểm, v.v. có cùng tên); kém cỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "nhỏ hơn (của hai thứ, địa điểm, v.v. có cùng tên)",
+          "kém cỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhỏ hơn (của hai thứ, địa điểm, v.v. có cùng tên); kém cỏi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340400,
+        "meaning_vi": "trẻ hơn (của hai người có cùng tên); đàn em",
+        "confidence": "high",
+        "search_keywords": [
+          "trẻ hơn (của hai người có cùng tên)",
+          "đàn em"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trẻ hơn (của hai người có cùng tên); đàn em",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340401,
+        "meaning_vi": "đơn vị diện tích cánh đồng (khoảng 400 m2)",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị diện tích cánh đồng (khoảng 400 m2)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị diện tích cánh đồng (khoảng 400 m2)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99120,
+    "word": "スキージャンプ",
+    "kana": "スキージャンプ",
+    "senses": [
+      {
+        "sense_id": 340402,
+        "meaning_vi": "nhảy trượt tuyết",
+        "confidence": "high",
+        "search_keywords": [
+          "nhảy trượt tuyết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhảy trượt tuyết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99121,
+    "word": "トルコ人",
+    "kana": "トルコじん",
+    "senses": [
+      {
+        "sense_id": 340403,
+        "meaning_vi": "Thổ Nhĩ Kỳ",
+        "confidence": "high",
+        "search_keywords": [
+          "Thổ Nhĩ Kỳ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thổ Nhĩ Kỳ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99122,
+    "word": "中",
+    "kana": "じゅう",
+    "senses": [
+      {
+        "sense_id": 340404,
+        "meaning_vi": "(tất cả) xuyên qua (ví dụ: đêm); trong suốt (ví dụ: năm); tất cả ... dài",
+        "confidence": "high",
+        "search_keywords": [
+          "(tất cả) xuyên qua (ví dụ: đêm)",
+          "trong suốt (ví dụ: năm)",
+          "tất cả ... dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tất cả) xuyên qua (ví dụ: đêm); trong suốt (ví dụ: năm); tất cả ... dài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340405,
+        "meaning_vi": "trong (ví dụ: tuần); trong quá trình (ví dụ: hôm nay); vào cuối",
+        "confidence": "high",
+        "search_keywords": [
+          "trong (ví dụ: tuần)",
+          "trong quá trình (ví dụ: hôm nay)",
+          "vào cuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong (ví dụ: tuần); trong quá trình (ví dụ: hôm nay); vào cuối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340406,
+        "meaning_vi": "khắp nơi ; khắp nơi (ví dụ: thế giới)",
+        "confidence": "high",
+        "search_keywords": [
+          "khắp nơi",
+          "khắp nơi (ví dụ: thế giới)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khắp nơi ; khắp nơi (ví dụ: thế giới)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340407,
+        "meaning_vi": "tất cả (của một nhóm); toàn bộ (gia đình, trường học, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "tất cả (của một nhóm)",
+          "toàn bộ (gia đình, trường học, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tất cả (của một nhóm); toàn bộ (gia đình, trường học, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99123,
+    "word": "認知症",
+    "kana": "にんちしょう",
+    "senses": [
+      {
+        "sense_id": 340408,
+        "meaning_vi": "mất trí nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "mất trí nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất trí nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99124,
+    "word": "転石苔生さず",
+    "kana": "てんせきこけむさず",
+    "senses": [
+      {
+        "sense_id": 340409,
+        "meaning_vi": "hòn đá lăn không bám được rêu",
+        "confidence": "high",
+        "search_keywords": [
+          "hòn đá lăn không bám được rêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hòn đá lăn không bám được rêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99125,
+    "word": "すまん",
+    "kana": "すまん",
+    "senses": [
+      {
+        "sense_id": 340410,
+        "meaning_vi": "Xin lỗi; xin lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "Xin lỗi",
+          "xin lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Xin lỗi; xin lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99126,
+    "word": "べた",
+    "kana": "べた",
+    "senses": [
+      {
+        "sense_id": 340411,
+        "meaning_vi": "khắp nơi ; điền vào; chất rắn; không có khe hở",
+        "confidence": "high",
+        "search_keywords": [
+          "khắp nơi",
+          "điền vào",
+          "chất rắn",
+          "không có khe hở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khắp nơi ; điền vào; chất rắn; không có khe hở",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340412,
+        "meaning_vi": "hoàn thành; tổng cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "hoàn thành",
+          "tổng cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoàn thành; tổng cộng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340413,
+        "meaning_vi": "sáo rỗng; bị hackneyed; xưa; có thể dự đoán được",
+        "confidence": "high",
+        "search_keywords": [
+          "sáo rỗng",
+          "bị hackneyed",
+          "xưa",
+          "có thể dự đoán được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sáo rỗng; bị hackneyed; xưa; có thể dự đoán được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340414,
+        "meaning_vi": "bản rõ",
+        "confidence": "high",
+        "search_keywords": [
+          "bản rõ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản rõ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340415,
+        "meaning_vi": "in ấn chắc chắn; sắp chữ vững chắc",
+        "confidence": "high",
+        "search_keywords": [
+          "in ấn chắc chắn",
+          "sắp chữ vững chắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "in ấn chắc chắn; sắp chữ vững chắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340416,
+        "meaning_vi": "liên hệ in",
+        "confidence": "high",
+        "search_keywords": [
+          "liên hệ in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên hệ in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99127,
+    "word": "乗り間違える",
+    "kana": "のりまちがえる",
+    "senses": [
+      {
+        "sense_id": 340417,
+        "meaning_vi": "lên nhầm phương tiện (xe buýt, xe lửa, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "lên nhầm phương tiện (xe buýt, xe lửa, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lên nhầm phương tiện (xe buýt, xe lửa, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99128,
+    "word": "探しに",
+    "kana": "さがしに",
+    "senses": [
+      {
+        "sense_id": 340418,
+        "meaning_vi": "đang tìm kiếm; để tìm kiếm",
+        "confidence": "high",
+        "search_keywords": [
+          "đang tìm kiếm",
+          "để tìm kiếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang tìm kiếm; để tìm kiếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99129,
+    "word": "気を失う",
+    "kana": "きをうしなう",
+    "senses": [
+      {
+        "sense_id": 340419,
+        "meaning_vi": "mất ý thức; ngất xỉu; bôi đen",
+        "confidence": "high",
+        "search_keywords": [
+          "mất ý thức",
+          "ngất xỉu",
+          "bôi đen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất ý thức; ngất xỉu; bôi đen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99130,
+    "word": "親代代",
+    "kana": "おやだいだい",
+    "senses": [
+      {
+        "sense_id": 340420,
+        "meaning_vi": "sự kế thừa",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kế thừa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kế thừa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99131,
+    "word": "間が悪い",
+    "kana": "まがわるい",
+    "senses": [
+      {
+        "sense_id": 340421,
+        "meaning_vi": "vụng về; lúng túng; đáng xấu hổ",
+        "confidence": "high",
+        "search_keywords": [
+          "vụng về",
+          "lúng túng",
+          "đáng xấu hổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vụng về; lúng túng; đáng xấu hổ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340422,
+        "meaning_vi": "bất tiện; không thích hợp; không kịp thời; không may; không may mắn",
+        "confidence": "high",
+        "search_keywords": [
+          "bất tiện",
+          "không thích hợp",
+          "không kịp thời",
+          "không may"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất tiện; không thích hợp; không kịp thời; không may; không may mắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99132,
+    "word": "円関数",
+    "kana": "えんかんすう",
+    "senses": [
+      {
+        "sense_id": 340423,
+        "meaning_vi": "chức năng tuần hoàn; hàm lượng giác",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng tuần hoàn",
+          "hàm lượng giác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng tuần hoàn; hàm lượng giác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99133,
+    "word": "楕円関数",
+    "kana": "だえんかんすう",
+    "senses": [
+      {
+        "sense_id": 340424,
+        "meaning_vi": "hàm elip",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm elip"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm elip",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

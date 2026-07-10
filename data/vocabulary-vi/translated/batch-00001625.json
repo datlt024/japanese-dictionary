@@ -1,0 +1,798 @@
+[
+  {
+    "vocabulary_id": 42144,
+    "word": "働き",
+    "kana": "はたらき",
+    "senses": [
+      {
+        "sense_id": 272386,
+        "meaning_vi": "công việc; nhân công; lao động",
+        "confidence": "high",
+        "search_keywords": [
+          "công việc",
+          "nhân công",
+          "lao động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công việc; nhân công; lao động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272387,
+        "meaning_vi": "thành tích; hiệu suất; khả năng; tài năng",
+        "confidence": "high",
+        "search_keywords": [
+          "thành tích",
+          "hiệu suất",
+          "khả năng",
+          "tài năng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành tích; hiệu suất; khả năng; tài năng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272388,
+        "meaning_vi": "lương; thu nhập; thu nhập",
+        "confidence": "high",
+        "search_keywords": [
+          "lương",
+          "thu nhập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lương; thu nhập; thu nhập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272389,
+        "meaning_vi": "hoạt động; hoạt động; hoạt động; chức năng; hoạt động; sự chuyển động; chuyển động",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động",
+          "chức năng",
+          "sự chuyển động",
+          "chuyển động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động; hoạt động; hoạt động; chức năng; hoạt động; sự chuyển động; chuyển động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272390,
+        "meaning_vi": "chia động từ; sự uốn cong",
+        "confidence": "high",
+        "search_keywords": [
+          "chia động từ",
+          "sự uốn cong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chia động từ; sự uốn cong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42145,
+    "word": "働きすぎる",
+    "kana": "はたらきすぎる",
+    "senses": [
+      {
+        "sense_id": 272391,
+        "meaning_vi": "làm việc quá sức",
+        "confidence": "high",
+        "search_keywords": [
+          "làm việc quá sức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm việc quá sức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42146,
+    "word": "働きかける",
+    "kana": "はたらきかける",
+    "senses": [
+      {
+        "sense_id": 272392,
+        "meaning_vi": "để làm việc trên (ai đó); để kháng cáo; để thực hiện các cách tiếp cận; gây áp lực; để gây ảnh hưởng; tìm kiếm hành động từ",
+        "confidence": "high",
+        "search_keywords": [
+          "để làm việc trên (ai đó)",
+          "để kháng cáo",
+          "để thực hiện các cách tiếp cận",
+          "gây áp lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để làm việc trên (ai đó); để kháng cáo; để thực hiện các cách tiếp cận; gây áp lực; để gây ảnh hưởng; tìm kiếm hành động từ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272393,
+        "meaning_vi": "bắt đầu làm việc",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu làm việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu làm việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42147,
+    "word": "働き口",
+    "kana": "はたらきぐち",
+    "senses": [
+      {
+        "sense_id": 272394,
+        "meaning_vi": "chức vụ; công việc; thuê người làm; khai mạc",
+        "confidence": "high",
+        "search_keywords": [
+          "chức vụ",
+          "công việc",
+          "thuê người làm",
+          "khai mạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức vụ; công việc; thuê người làm; khai mạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42148,
+    "word": "働き者",
+    "kana": "はたらきもの",
+    "senses": [
+      {
+        "sense_id": 272395,
+        "meaning_vi": "người chăm chỉ; người chăm chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "người chăm chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người chăm chỉ; người chăm chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42149,
+    "word": "働き振り",
+    "kana": "はたらきぶり",
+    "senses": [
+      {
+        "sense_id": 272396,
+        "meaning_vi": "cách làm việc; xả nhiệm vụ",
+        "confidence": "high",
+        "search_keywords": [
+          "cách làm việc",
+          "xả nhiệm vụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách làm việc; xả nhiệm vụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42150,
+    "word": "働き人",
+    "kana": "はたらきびと",
+    "senses": [
+      {
+        "sense_id": 272397,
+        "meaning_vi": "công nhân; công nhân giỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "công nhân",
+          "công nhân giỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công nhân; công nhân giỏi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42151,
+    "word": "働き盛り",
+    "kana": "はたらきざかり",
+    "senses": [
+      {
+        "sense_id": 272398,
+        "meaning_vi": "điều quan trọng nhất trong cuộc đời làm việc của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "điều quan trọng nhất trong cuộc đời làm việc của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều quan trọng nhất trong cuộc đời làm việc của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42152,
+    "word": "働き中毒",
+    "kana": "はたらきちゅうどく",
+    "senses": [
+      {
+        "sense_id": 272399,
+        "meaning_vi": "người nghiện công việc",
+        "confidence": "high",
+        "search_keywords": [
+          "người nghiện công việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nghiện công việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42153,
+    "word": "働き通しで",
+    "kana": "はたらきとおしで",
+    "senses": [
+      {
+        "sense_id": 272400,
+        "meaning_vi": "làm việc ngay thông qua",
+        "confidence": "high",
+        "search_keywords": [
+          "làm việc ngay thông qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm việc ngay thông qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42154,
+    "word": "働き蜂",
+    "kana": "はたらきばち",
+    "senses": [
+      {
+        "sense_id": 272401,
+        "meaning_vi": "ong thợ",
+        "confidence": "high",
+        "search_keywords": [
+          "ong thợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ong thợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272402,
+        "meaning_vi": "công nhân chăm chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "công nhân chăm chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công nhân chăm chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42155,
+    "word": "働く",
+    "kana": "はたらく",
+    "senses": [
+      {
+        "sense_id": 272403,
+        "meaning_vi": "đi làm; lao động; lao động",
+        "confidence": "high",
+        "search_keywords": [
+          "đi làm",
+          "lao động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi làm; lao động; lao động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272404,
+        "meaning_vi": "hoạt động; để hoạt động; có hiệu quả; làm việc (tức là ... làm việc); đi vào chơi",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động",
+          "để hoạt động",
+          "có hiệu quả",
+          "làm việc (tức là ... làm việc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động; để hoạt động; có hiệu quả; làm việc (tức là ... làm việc); đi vào chơi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272405,
+        "meaning_vi": "phạm tội (ví dụ: một tội ác); phạm tội; làm ; hành động; luyện tập; luyện tập",
+        "confidence": "high",
+        "search_keywords": [
+          "phạm tội (ví dụ: một tội ác)",
+          "phạm tội",
+          "làm",
+          "hành động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phạm tội (ví dụ: một tội ác); phạm tội; làm ; hành động; luyện tập; luyện tập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272406,
+        "meaning_vi": "được liên hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "được liên hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được liên hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42156,
+    "word": "動",
+    "kana": "どう",
+    "senses": [
+      {
+        "sense_id": 272407,
+        "meaning_vi": "chuyển động",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42157,
+    "word": "動かす",
+    "kana": "うごかす",
+    "senses": [
+      {
+        "sense_id": 272408,
+        "meaning_vi": "di chuyển; thay đổi; khuấy động; nhúc nhích; để thay đổi vị trí",
+        "confidence": "high",
+        "search_keywords": [
+          "di chuyển",
+          "thay đổi",
+          "khuấy động",
+          "nhúc nhích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di chuyển; thay đổi; khuấy động; nhúc nhích; để thay đổi vị trí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272409,
+        "meaning_vi": "để truyền cảm hứng; đánh thức; để di chuyển (ví dụ như cảm giác); ảnh hưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "để truyền cảm hứng",
+          "đánh thức",
+          "để di chuyển (ví dụ như cảm giác)",
+          "ảnh hưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để truyền cảm hứng; đánh thức; để di chuyển (ví dụ như cảm giác); ảnh hưởng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272410,
+        "meaning_vi": "thay đổi; thay đổi; phủ nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi",
+          "phủ nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi; thay đổi; phủ nhận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272411,
+        "meaning_vi": "để hoạt động; để bắt đầu chuyển động; để bắt đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "để hoạt động",
+          "để bắt đầu chuyển động",
+          "để bắt đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hoạt động; để bắt đầu chuyển động; để bắt đầu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272412,
+        "meaning_vi": "huy động (ví dụ: quân đội); huy động; triển khai",
+        "confidence": "high",
+        "search_keywords": [
+          "huy động (ví dụ: quân đội)",
+          "huy động",
+          "triển khai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "huy động (ví dụ: quân đội); huy động; triển khai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272413,
+        "meaning_vi": "để quản lý (ví dụ như quỹ)",
+        "confidence": "high",
+        "search_keywords": [
+          "để quản lý (ví dụ như quỹ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để quản lý (ví dụ như quỹ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42158,
+    "word": "動き",
+    "kana": "うごき",
+    "senses": [
+      {
+        "sense_id": 272414,
+        "meaning_vi": "sự chuyển động; di chuyển; chuyển động",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chuyển động",
+          "di chuyển",
+          "chuyển động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chuyển động; di chuyển; chuyển động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272415,
+        "meaning_vi": "xu hướng; phát triển; thay đổi; sự dao động",
+        "confidence": "high",
+        "search_keywords": [
+          "xu hướng",
+          "phát triển",
+          "thay đổi",
+          "sự dao động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xu hướng; phát triển; thay đổi; sự dao động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42159,
+    "word": "動き回る",
+    "kana": "うごきまわる",
+    "senses": [
+      {
+        "sense_id": 272416,
+        "meaning_vi": "để di chuyển xung quanh; di chuyển về; để đi lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để di chuyển xung quanh",
+          "di chuyển về",
+          "để đi lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để di chuyển xung quanh; di chuyển về; để đi lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42160,
+    "word": "動く",
+    "kana": "うごく",
+    "senses": [
+      {
+        "sense_id": 272417,
+        "meaning_vi": "di chuyển; khuấy động; thay đổi; lắc ; đu đưa",
+        "confidence": "high",
+        "search_keywords": [
+          "di chuyển",
+          "khuấy động",
+          "thay đổi",
+          "lắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di chuyển; khuấy động; thay đổi; lắc ; đu đưa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272418,
+        "meaning_vi": "để hoạt động; chạy ; đi ; đi làm",
+        "confidence": "high",
+        "search_keywords": [
+          "để hoạt động",
+          "chạy",
+          "đi",
+          "đi làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hoạt động; chạy ; đi ; đi làm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272419,
+        "meaning_vi": "để thực hiện một động thái; hành động; hành động; đi vào hành động",
+        "confidence": "high",
+        "search_keywords": [
+          "để thực hiện một động thái",
+          "hành động",
+          "đi vào hành động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thực hiện một động thái; hành động; hành động; đi vào hành động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272420,
+        "meaning_vi": "được chạm vào; bị ảnh hưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "được chạm vào",
+          "bị ảnh hưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được chạm vào; bị ảnh hưởng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272421,
+        "meaning_vi": "thay đổi; thay đổi; dao động; dao động",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi",
+          "dao động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi; thay đổi; dao động; dao động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272422,
+        "meaning_vi": "được chuyển giao",
+        "confidence": "high",
+        "search_keywords": [
+          "được chuyển giao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được chuyển giao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42161,
+    "word": "動じる",
+    "kana": "どうじる",
+    "senses": [
+      {
+        "sense_id": 272423,
+        "meaning_vi": "bị xáo trộn; bị kích động",
+        "confidence": "high",
+        "search_keywords": [
+          "bị xáo trộn",
+          "bị kích động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị xáo trộn; bị kích động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42162,
+    "word": "動ずる",
+    "kana": "どうずる",
+    "senses": [
+      {
+        "sense_id": 272424,
+        "meaning_vi": "bị xáo trộn; bị kích động",
+        "confidence": "high",
+        "search_keywords": [
+          "bị xáo trộn",
+          "bị kích động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị xáo trộn; bị kích động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42163,
+    "word": "動ともすれば",
+    "kana": "ややともすれば",
+    "senses": [
+      {
+        "sense_id": 272425,
+        "meaning_vi": "có khuynh hướng ; chịu trách nhiệm; có khuynh hướng",
+        "confidence": "high",
+        "search_keywords": [
+          "có khuynh hướng",
+          "chịu trách nhiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có khuynh hướng ; chịu trách nhiệm; có khuynh hướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

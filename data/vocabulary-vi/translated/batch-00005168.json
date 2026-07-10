@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 123903,
+    "word": "算術乗算",
+    "kana": "さんじゅつじょうざん",
+    "senses": [
+      {
+        "sense_id": 367529,
+        "meaning_vi": "phép nhân số học",
+        "confidence": "high",
+        "search_keywords": [
+          "phép nhân số học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phép nhân số học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123904,
+    "word": "算術文",
+    "kana": "さんじゅつぶん",
+    "senses": [
+      {
+        "sense_id": 367530,
+        "meaning_vi": "câu lệnh số học",
+        "confidence": "high",
+        "search_keywords": [
+          "câu lệnh số học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu lệnh số học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123905,
+    "word": "算術命令",
+    "kana": "さんじゅつめいれい",
+    "senses": [
+      {
+        "sense_id": 367531,
+        "meaning_vi": "hướng dẫn số học; câu lệnh số học",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn số học",
+          "câu lệnh số học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn số học; câu lệnh số học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123906,
+    "word": "算術論理演算機構",
+    "kana": "さんじゅつろんりえんざんきこう",
+    "senses": [
+      {
+        "sense_id": 367532,
+        "meaning_vi": "đơn vị số học và logic; ALU",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị số học và logic",
+          "ALU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị số học và logic; ALU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123907,
+    "word": "算術論理演算装置",
+    "kana": "さんじゅつろんりえんざんそうち",
+    "senses": [
+      {
+        "sense_id": 367533,
+        "meaning_vi": "đơn vị số học và logic; ALU",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị số học và logic",
+          "ALU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị số học và logic; ALU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123908,
+    "word": "算術和",
+    "kana": "さんじゅつわ",
+    "senses": [
+      {
+        "sense_id": 367534,
+        "meaning_vi": "tổng số học",
+        "confidence": "high",
+        "search_keywords": [
+          "tổng số học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổng số học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123909,
+    "word": "算法言語",
+    "kana": "さんぽうげんご",
+    "senses": [
+      {
+        "sense_id": 367535,
+        "meaning_vi": "ngôn ngữ thuật toán",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ thuật toán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ thuật toán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123910,
+    "word": "仕様作成",
+    "kana": "しようさくせい",
+    "senses": [
+      {
+        "sense_id": 367536,
+        "meaning_vi": "tác giả tiêu chuẩn; người viết tiêu chuẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "tác giả tiêu chuẩn",
+          "người viết tiêu chuẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tác giả tiêu chuẩn; người viết tiêu chuẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123911,
+    "word": "使い捨てパスワード",
+    "kana": "つかいすてパスワード",
+    "senses": [
+      {
+        "sense_id": 367537,
+        "meaning_vi": "mật khẩu dùng một lần",
+        "confidence": "high",
+        "search_keywords": [
+          "mật khẩu dùng một lần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mật khẩu dùng một lần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123912,
+    "word": "使い捨て装置",
+    "kana": "つかいすてそうち",
+    "senses": [
+      {
+        "sense_id": 367538,
+        "meaning_vi": "thiết bị vứt đi",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị vứt đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị vứt đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123913,
+    "word": "使用パラメータ制御",
+    "kana": "しようパラメータせいぎょ",
+    "senses": [
+      {
+        "sense_id": 367539,
+        "meaning_vi": "kiểm soát tham số người dùng; UPC",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát tham số người dùng",
+          "UPC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát tham số người dùng; UPC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123914,
+    "word": "使用ベース",
+    "kana": "しようベース",
+    "senses": [
+      {
+        "sense_id": 367540,
+        "meaning_vi": "dựa trên việc sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "dựa trên việc sử dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dựa trên việc sử dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123915,
+    "word": "使用メモリ",
+    "kana": "しようメモリ",
+    "senses": [
+      {
+        "sense_id": 367541,
+        "meaning_vi": "bộ nhớ đã sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ đã sử dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ đã sử dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123916,
+    "word": "使用可能時間",
+    "kana": "しようかのうじかん",
+    "senses": [
+      {
+        "sense_id": 367542,
+        "meaning_vi": "thời gian có sẵn",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian có sẵn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian có sẵn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123917,
+    "word": "使用可能性",
+    "kana": "しようかのうせい",
+    "senses": [
+      {
+        "sense_id": 367543,
+        "meaning_vi": "sẵn có",
+        "confidence": "high",
+        "search_keywords": [
+          "sẵn có"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sẵn có",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123918,
+    "word": "使用規制",
+    "kana": "しようきせい",
+    "senses": [
+      {
+        "sense_id": 367544,
+        "meaning_vi": "hạn chế sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "hạn chế sử dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạn chế sử dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123919,
+    "word": "使用許諾契約",
+    "kana": "しようきょだくけいやく",
+    "senses": [
+      {
+        "sense_id": 367545,
+        "meaning_vi": "(phần mềm) thỏa thuận cấp phép",
+        "confidence": "high",
+        "search_keywords": [
+          "(phần mềm) thỏa thuận cấp phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(phần mềm) thỏa thuận cấp phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123920,
+    "word": "使用距離",
+    "kana": "しようきょり",
+    "senses": [
+      {
+        "sense_id": 367546,
+        "meaning_vi": "khoảng cách có thể sử dụng (của một sợi quang)",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng cách có thể sử dụng (của một sợi quang)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng cách có thể sử dụng (của một sợi quang)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123921,
+    "word": "使用契約",
+    "kana": "しようけいやく",
+    "senses": [
+      {
+        "sense_id": 367547,
+        "meaning_vi": "thỏa thuận cấp phép",
+        "confidence": "high",
+        "search_keywords": [
+          "thỏa thuận cấp phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thỏa thuận cấp phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123922,
+    "word": "使用条件",
+    "kana": "しようじょうけん",
+    "senses": [
+      {
+        "sense_id": 367548,
+        "meaning_vi": "yêu cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "yêu cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yêu cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

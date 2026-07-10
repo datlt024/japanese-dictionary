@@ -1,0 +1,461 @@
+[
+  {
+    "vocabulary_id": 84058,
+    "word": "水平応力",
+    "kana": "すいへいおうりょく",
+    "senses": [
+      {
+        "sense_id": 323697,
+        "meaning_vi": "căng thẳng bên",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng bên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng bên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84059,
+    "word": "静止土圧係数",
+    "kana": "せいしどあつけいすう",
+    "senses": [
+      {
+        "sense_id": 323698,
+        "meaning_vi": "hệ số áp lực đất ở trạng thái nghỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số áp lực đất ở trạng thái nghỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số áp lực đất ở trạng thái nghỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84060,
+    "word": "受働土圧係数",
+    "kana": "じゅどうどあつけいすう",
+    "senses": [
+      {
+        "sense_id": 323699,
+        "meaning_vi": "hệ số áp lực đất thụ động",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số áp lực đất thụ động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số áp lực đất thụ động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84061,
+    "word": "主働土圧係数",
+    "kana": "しゅどうどあつけいすう",
+    "senses": [
+      {
+        "sense_id": 323700,
+        "meaning_vi": "hệ số áp lực đất chủ động",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số áp lực đất chủ động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số áp lực đất chủ động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84062,
+    "word": "地表面",
+    "kana": "ちひょうめん",
+    "senses": [
+      {
+        "sense_id": 323701,
+        "meaning_vi": "mặt đất",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt đất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84063,
+    "word": "過圧密比",
+    "kana": "かあつみつひ",
+    "senses": [
+      {
+        "sense_id": 323702,
+        "meaning_vi": "tỷ lệ cố kết quá mức",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ cố kết quá mức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ cố kết quá mức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84064,
+    "word": "間隙比",
+    "kana": "かんげきひ",
+    "senses": [
+      {
+        "sense_id": 323703,
+        "meaning_vi": "tỷ lệ trống",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ trống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ trống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84065,
+    "word": "脆弱",
+    "kana": "ぜいじゃく",
+    "senses": [
+      {
+        "sense_id": 323704,
+        "meaning_vi": "yếu đuối; yếu đuối; mong manh",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu đuối",
+          "mong manh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu đuối; yếu đuối; mong manh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84066,
+    "word": "粒度分布",
+    "kana": "りゅうどぶんぷ",
+    "senses": [
+      {
+        "sense_id": 323705,
+        "meaning_vi": "phân bố kích thước hạt",
+        "confidence": "high",
+        "search_keywords": [
+          "phân bố kích thước hạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân bố kích thước hạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84067,
+    "word": "等方的",
+    "kana": "とうほうてき",
+    "senses": [
+      {
+        "sense_id": 323706,
+        "meaning_vi": "đẳng hướng",
+        "confidence": "high",
+        "search_keywords": [
+          "đẳng hướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẳng hướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84068,
+    "word": "篩",
+    "kana": "ふるい",
+    "senses": [
+      {
+        "sense_id": 323707,
+        "meaning_vi": "sàng; người sàng lọc; màn hình",
+        "confidence": "high",
+        "search_keywords": [
+          "sàng",
+          "người sàng lọc",
+          "màn hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sàng; người sàng lọc; màn hình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 323708,
+        "meaning_vi": "sàng lọc (việc làm, ứng viên, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "sàng lọc (việc làm, ứng viên, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sàng lọc (việc làm, ứng viên, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84069,
+    "word": "細粒分",
+    "kana": "さいりゅうぶん",
+    "senses": [
+      {
+        "sense_id": 323709,
+        "meaning_vi": "phần hạt mịn",
+        "confidence": "high",
+        "search_keywords": [
+          "phần hạt mịn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần hạt mịn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84070,
+    "word": "液性限界",
+    "kana": "えきせいげんかい",
+    "senses": [
+      {
+        "sense_id": 323710,
+        "meaning_vi": "giới hạn chất lỏng",
+        "confidence": "high",
+        "search_keywords": [
+          "giới hạn chất lỏng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giới hạn chất lỏng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84071,
+    "word": "塑性限界",
+    "kana": "そせいげんかい",
+    "senses": [
+      {
+        "sense_id": 323711,
+        "meaning_vi": "giới hạn nhựa",
+        "confidence": "high",
+        "search_keywords": [
+          "giới hạn nhựa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giới hạn nhựa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84072,
+    "word": "塑性指数",
+    "kana": "そせいしすう",
+    "senses": [
+      {
+        "sense_id": 323712,
+        "meaning_vi": "chỉ số dẻo",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ số dẻo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ số dẻo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84073,
+    "word": "圧密",
+    "kana": "あつみつ",
+    "senses": [
+      {
+        "sense_id": 323713,
+        "meaning_vi": "sự hợp nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "sự hợp nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự hợp nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84074,
+    "word": "圧密降伏応力",
+    "kana": "あつみつこうふくおうりょく",
+    "senses": [
+      {
+        "sense_id": 323714,
+        "meaning_vi": "căng thẳng năng suất hợp nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng năng suất hợp nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng năng suất hợp nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84075,
+    "word": "空中落下",
+    "kana": "くうちゅうらっか",
+    "senses": [
+      {
+        "sense_id": 323715,
+        "meaning_vi": "bồi lắng không khí; làm mưa phùn",
+        "confidence": "high",
+        "search_keywords": [
+          "bồi lắng không khí",
+          "làm mưa phùn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bồi lắng không khí; làm mưa phùn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84076,
+    "word": "背圧",
+    "kana": "はいあつ",
+    "senses": [
+      {
+        "sense_id": 323716,
+        "meaning_vi": "áp lực ngược",
+        "confidence": "high",
+        "search_keywords": [
+          "áp lực ngược"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áp lực ngược",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84077,
+    "word": "脱気水",
+    "kana": "だっきすい",
+    "senses": [
+      {
+        "sense_id": 323717,
+        "meaning_vi": "nước khử khí",
+        "confidence": "high",
+        "search_keywords": [
+          "nước khử khí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước khử khí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

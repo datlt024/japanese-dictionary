@@ -1,0 +1,448 @@
+[
+  {
+    "vocabulary_id": 126524,
+    "word": "並直列変換器",
+    "kana": "へいちょくれつへんかんき",
+    "senses": [
+      {
+        "sense_id": 370171,
+        "meaning_vi": "bộ tuần tự hóa; bộ chuyển đổi nối tiếp song song; chất động lực",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ tuần tự hóa",
+          "bộ chuyển đổi nối tiếp song song",
+          "chất động lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ tuần tự hóa; bộ chuyển đổi nối tiếp song song; chất động lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126525,
+    "word": "並列運転",
+    "kana": "へいれつうんてん",
+    "senses": [
+      {
+        "sense_id": 370172,
+        "meaning_vi": "chạy song song",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy song song"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy song song",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126526,
+    "word": "並列加算",
+    "kana": "へいれつかさん",
+    "senses": [
+      {
+        "sense_id": 370173,
+        "meaning_vi": "phép cộng song song",
+        "confidence": "high",
+        "search_keywords": [
+          "phép cộng song song"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phép cộng song song",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126527,
+    "word": "並列加算器",
+    "kana": "へいれつかさんき",
+    "senses": [
+      {
+        "sense_id": 370174,
+        "meaning_vi": "bộ cộng song song",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ cộng song song"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ cộng song song",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126528,
+    "word": "並列処理",
+    "kana": "へいれつしょり",
+    "senses": [
+      {
+        "sense_id": 370175,
+        "meaning_vi": "xử lý song song; xử lý mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý song song",
+          "xử lý mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý song song; xử lý mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126529,
+    "word": "並列転送",
+    "kana": "へいれつてんそう",
+    "senses": [
+      {
+        "sense_id": 370176,
+        "meaning_vi": "chuyển song song",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển song song"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển song song",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126530,
+    "word": "並列伝送",
+    "kana": "へいれつでんそう",
+    "senses": [
+      {
+        "sense_id": 370177,
+        "meaning_vi": "truyền song song",
+        "confidence": "high",
+        "search_keywords": [
+          "truyền song song"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truyền song song",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126531,
+    "word": "閉じたシステム",
+    "kana": "とじたシステム",
+    "senses": [
+      {
+        "sense_id": 370178,
+        "meaning_vi": "hệ thống khép kín",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống khép kín"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống khép kín",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126532,
+    "word": "閉ループ",
+    "kana": "へいループ",
+    "senses": [
+      {
+        "sense_id": 370179,
+        "meaning_vi": "vòng khép kín",
+        "confidence": "high",
+        "search_keywords": [
+          "vòng khép kín"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vòng khép kín",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126533,
+    "word": "閉域",
+    "kana": "へいいき",
+    "senses": [
+      {
+        "sense_id": 370180,
+        "meaning_vi": "đã đóng (mạng, ví dụ)",
+        "confidence": "high",
+        "search_keywords": [
+          "đã đóng (mạng, ví dụ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đã đóng (mạng, ví dụ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126534,
+    "word": "閉域接続",
+    "kana": "へいいきせつぞく",
+    "senses": [
+      {
+        "sense_id": 370181,
+        "meaning_vi": "dịch vụ nhóm người dùng đã đóng",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ nhóm người dùng đã đóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ nhóm người dùng đã đóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126535,
+    "word": "閉域利用者グループ",
+    "kana": "へいいきりようしゃグループ",
+    "senses": [
+      {
+        "sense_id": 370182,
+        "meaning_vi": "nhóm người dùng đã đóng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm người dùng đã đóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm người dùng đã đóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126536,
+    "word": "閉塞ウィンドウ",
+    "kana": "へいそくウィンドウ",
+    "senses": [
+      {
+        "sense_id": 370183,
+        "meaning_vi": "cửa sổ đóng",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa sổ đóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa sổ đóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126537,
+    "word": "閉塞状態",
+    "kana": "へいそくじょうたい",
+    "senses": [
+      {
+        "sense_id": 370184,
+        "meaning_vi": "trạng thái bị chặn; trạng thái đóng",
+        "confidence": "high",
+        "search_keywords": [
+          "trạng thái bị chặn",
+          "trạng thái đóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạng thái bị chặn; trạng thái đóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126538,
+    "word": "米政府",
+    "kana": "べいせいふ",
+    "senses": [
+      {
+        "sense_id": 370185,
+        "meaning_vi": "chính phủ Mỹ",
+        "confidence": "high",
+        "search_keywords": [
+          "chính phủ Mỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính phủ Mỹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126539,
+    "word": "頁送り",
+    "kana": "ページおくり",
+    "senses": [
+      {
+        "sense_id": 370186,
+        "meaning_vi": "thức ăn hình thức; FF",
+        "confidence": "high",
+        "search_keywords": [
+          "thức ăn hình thức",
+          "FF"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thức ăn hình thức; FF",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126540,
+    "word": "偏り誤差",
+    "kana": "かたよりごさ",
+    "senses": [
+      {
+        "sense_id": 370187,
+        "meaning_vi": "lỗi sai lệch",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi sai lệch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi sai lệch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126541,
+    "word": "偏向関係",
+    "kana": "へんこうかんけい",
+    "senses": [
+      {
+        "sense_id": 370188,
+        "meaning_vi": "mối quan hệ thiên vị",
+        "confidence": "high",
+        "search_keywords": [
+          "mối quan hệ thiên vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mối quan hệ thiên vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126542,
+    "word": "偏向抄録",
+    "kana": "へんこうしょうろく",
+    "senses": [
+      {
+        "sense_id": 370189,
+        "meaning_vi": "trừu tượng có chọn lọc; nghiêng trừu tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "trừu tượng có chọn lọc",
+          "nghiêng trừu tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trừu tượng có chọn lọc; nghiêng trừu tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126543,
+    "word": "変換パイプライン",
+    "kana": "へんかんパイプライン",
+    "senses": [
+      {
+        "sense_id": 370190,
+        "meaning_vi": "đường ống chuyển đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "đường ống chuyển đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường ống chuyển đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

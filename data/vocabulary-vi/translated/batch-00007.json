@@ -1,616 +1,597 @@
 [
-{
-"vocabulary_id": 121,
-"word": "お襁褓気触れ",
-"kana": "おむつかぶれ",
-"senses": [
-{
-"sense_id": 217382,
-"meaning_vi": "hăm tã",
-"confidence": "high",
-"search_keywords": [
-"hăm tã",
-"viêm da do tã",
-"hăm bỉm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hăm tã; viêm da do tã lót",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 122,
-"word": "お粧し",
-"kana": "おめかし",
-"senses": [
-{
-"sense_id": 217383,
-"meaning_vi": "diện đẹp",
-"confidence": "high",
-"search_keywords": [
-"diện đẹp",
-"ăn diện",
-"trang điểm",
-"chưng diện"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ăn diện; chưng diện; trang điểm làm đẹp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 123,
-"word": "おめでとう御座います",
-"kana": "おめでとうございます",
-"senses": [
-{
-"sense_id": 217384,
-"meaning_vi": "xin chúc mừng",
-"confidence": "high",
-"search_keywords": [
-"chúc mừng",
-"xin chúc mừng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xin chúc mừng; chúc mừng một cách lịch sự",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 124,
-"word": "おや",
-"kana": "おや",
-"senses": [
-{
-"sense_id": 217385,
-"meaning_vi": "ồ",
-"confidence": "high",
-"search_keywords": [
-"ồ",
-"ơ",
-"ôi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ồ; ơ; biểu thị ngạc nhiên hoặc chú ý",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 125,
-"word": "おやおや",
-"kana": "おやおや",
-"senses": [
-{
-"sense_id": 217386,
-"meaning_vi": "ôi chà",
-"confidence": "high",
-"search_keywords": [
-"ôi chà",
-"ôi trời",
-"ôi thôi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ôi chà; ôi trời; biểu thị ngạc nhiên hoặc lo ngại nhẹ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 126,
-"word": "おろおろ",
-"kana": "おろおろ",
-"senses": [
-{
-"sense_id": 217387,
-"meaning_vi": "luống cuống",
-"confidence": "high",
-"search_keywords": [
-"luống cuống",
-"bối rối",
-"hoảng hốt",
-"rối trí"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "luống cuống; bối rối; hoảng hốt; không biết phải làm gì",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217388,
-"meaning_vi": "sụt sùi",
-"confidence": "high",
-"search_keywords": [
-"sụt sùi",
-"nức nở",
-"run giọng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sụt sùi khóc; nức nở; giọng nói run run",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 127,
-"word": "おデブさん",
-"kana": "おデブさん",
-"senses": [
-{
-"sense_id": 217389,
-"meaning_vi": "người mũm mĩm",
-"confidence": "high",
-"search_keywords": [
-"người mũm mĩm",
-"người béo",
-"tròn trịa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người mũm mĩm; cách gọi đùa người béo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 128,
-"word": "お握り",
-"kana": "おにぎり",
-"senses": [
-{
-"sense_id": 217390,
-"meaning_vi": "cơm nắm",
-"confidence": "high",
-"search_keywords": [
-"cơm nắm",
-"onigiri"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơm nắm kiểu Nhật; thường có nhân và bọc rong biển",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 129,
-"word": "お陰",
-"kana": "おかげ",
-"senses": [
-{
-"sense_id": 217391,
-"meaning_vi": "ơn phước",
-"confidence": "high",
-"search_keywords": [
-"ơn phước",
-"ân huệ",
-"phúc lành"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ơn phước; ân huệ; phúc lành từ thần Phật",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217392,
-"meaning_vi": "nhờ ơn",
-"confidence": "high",
-"search_keywords": [
-"nhờ ơn",
-"sự giúp đỡ",
-"hỗ trợ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự giúp đỡ; hỗ trợ; công lao của ai đó",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217393,
-"meaning_vi": "ảnh hưởng",
-"confidence": "high",
-"search_keywords": [
-"ảnh hưởng",
-"tác động"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ảnh hưởng; tác động gây ra kết quả nào đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 130,
-"word": "お陰様",
-"kana": "おかげさま",
-"senses": [
-{
-"sense_id": 217394,
-"meaning_vi": "nhờ ơn anh/chị",
-"confidence": "high",
-"search_keywords": [
-"nhờ ơn",
-"nhờ sự giúp đỡ",
-"cảm ơn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhờ sự giúp đỡ, lòng tốt hoặc quan tâm của người khác",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217395,
-"meaning_vi": "ơn phước",
-"confidence": "high",
-"search_keywords": [
-"ơn phước",
-"ân huệ",
-"phúc lành"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ơn phước; ân huệ; phúc lành từ thần Phật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 131,
-"word": "お下げ",
-"kana": "おさげ",
-"senses": [
-{
-"sense_id": 217396,
-"meaning_vi": "tóc tết bím",
-"confidence": "high",
-"search_keywords": [
-"tóc tết bím",
-"bím tóc",
-"tóc bím"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu tóc tết thành bím",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 132,
-"word": "お化け",
-"kana": "おばけ",
-"senses": [
-{
-"sense_id": 217397,
-"meaning_vi": "ma quỷ",
-"confidence": "high",
-"search_keywords": [
-"ma quỷ",
-"hồn ma",
-"ma"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ma quỷ; hồn ma; linh hồn hiện hình",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217398,
-"meaning_vi": "quái vật",
-"confidence": "high",
-"search_keywords": [
-"quái vật",
-"yêu quái",
-"ác quỷ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quái vật; yêu quái; sinh vật đáng sợ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217399,
-"meaning_vi": "đồ khổng lồ",
-"confidence": "high",
-"search_keywords": [
-"đồ khổng lồ",
-"cực lớn",
-"to bất thường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vật hoặc người có kích thước lớn bất thường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 133,
-"word": "お化け屋敷",
-"kana": "おばけやしき",
-"senses": [
-{
-"sense_id": 217400,
-"meaning_vi": "nhà ma ám",
-"confidence": "high",
-"search_keywords": [
-"nhà ma ám",
-"biệt thự ma"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngôi nhà được cho là có ma ám",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217401,
-"meaning_vi": "nhà ma",
-"confidence": "high",
-"search_keywords": [
-"nhà ma",
-"khu nhà ma",
-"haunted house"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trò chơi hoặc khu tham quan nhà ma",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 134,
-"word": "お嫁さん",
-"kana": "およめさん",
-"senses": [
-{
-"sense_id": 217402,
-"meaning_vi": "vợ",
-"confidence": "high",
-"search_keywords": [
-"vợ",
-"bà xã"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vợ; cách gọi lịch sự hoặc thân mật về vợ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 135,
-"word": "お菓子",
-"kana": "おかし",
-"senses": [
-{
-"sense_id": 217403,
-"meaning_vi": "bánh kẹo",
-"confidence": "high",
-"search_keywords": [
-"bánh kẹo",
-"kẹo",
-"đồ ngọt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bánh kẹo; đồ ngọt; món tráng miệng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 136,
-"word": "お願いします",
-"kana": "おねがいします",
-"senses": [
-{
-"sense_id": 217404,
-"meaning_vi": "xin vui lòng",
-"confidence": "high",
-"search_keywords": [
-"xin vui lòng",
-"làm ơn",
-"nhờ giúp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làm ơn; xin vui lòng; cách nhờ vả lịch sự",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 137,
-"word": "お願いいたします",
-"kana": "おねがいいたします",
-"senses": [
-{
-"sense_id": 217405,
-"meaning_vi": "xin vui lòng",
-"confidence": "high",
-"search_keywords": [
-"xin vui lòng",
-"làm ơn",
-"kính nhờ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làm ơn; kính nhờ; cách nhờ vả rất lịch sự và khiêm nhường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 138,
-"word": "お帰りなさい",
-"kana": "おかえりなさい",
-"senses": [
-{
-"sense_id": 217406,
-"meaning_vi": "mừng về nhà",
-"confidence": "high",
-"search_keywords": [
-"mừng về nhà",
-"chào mừng về nhà",
-"về rồi à"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chào mừng về nhà; câu nói với người vừa trở về",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 139,
-"word": "お気の毒",
-"kana": "おきのどく",
-"senses": [
-{
-"sense_id": 217407,
-"meaning_vi": "thật đáng tiếc",
-"confidence": "high",
-"search_keywords": [
-"đáng tiếc",
-"thật tội nghiệp",
-"lấy làm tiếc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thật đáng tiếc; xin chia buồn; bày tỏ sự cảm thông lịch sự",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 140,
-"word": "お客さん",
-"kana": "おきゃくさん",
-"senses": [
-{
-"sense_id": 217408,
-"meaning_vi": "khách",
-"confidence": "high",
-"search_keywords": [
-"khách",
-"khách viếng",
-"khách đến chơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khách; khách viếng; người đến thăm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217409,
-"meaning_vi": "khách hàng",
-"confidence": "high",
-"search_keywords": [
-"khách hàng",
-"khách",
-"người mua",
-"du khách"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khách hàng; người mua; khán giả; hành khách; du khách",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 121,
+    "word": "お襁褓気触れ",
+    "kana": "おむつかぶれ",
+    "senses": [
+      {
+        "sense_id": 217382,
+        "meaning_vi": "hăm tã; hăm tã",
+        "confidence": "high",
+        "search_keywords": [
+          "hăm tã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hăm tã; hăm tã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122,
+    "word": "お粧し",
+    "kana": "おめかし",
+    "senses": [
+      {
+        "sense_id": 217383,
+        "meaning_vi": "mặc quần áo; trang điểm; nâng đỡ (bản thân) lên",
+        "confidence": "high",
+        "search_keywords": [
+          "mặc quần áo",
+          "trang điểm",
+          "nâng đỡ (bản thân) lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặc quần áo; trang điểm; nâng đỡ (bản thân) lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123,
+    "word": "おめでとう御座います",
+    "kana": "おめでとうございます",
+    "senses": [
+      {
+        "sense_id": 217384,
+        "meaning_vi": "xin chúc mừng",
+        "confidence": "high",
+        "search_keywords": [
+          "xin chúc mừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xin chúc mừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124,
+    "word": "おや",
+    "kana": "おや",
+    "senses": [
+      {
+        "sense_id": 217385,
+        "meaning_vi": "Ồ!; Ồ?; Của tôi!",
+        "confidence": "high",
+        "search_keywords": [
+          "Ồ!",
+          "Ồ?",
+          "Của tôi!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ồ!; Ồ?; Của tôi!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125,
+    "word": "おやおや",
+    "kana": "おやおや",
+    "senses": [
+      {
+        "sense_id": 217386,
+        "meaning_vi": "trời ơi!; ôi trời!; ôi trời ơi!",
+        "confidence": "high",
+        "search_keywords": [
+          "trời ơi!",
+          "ôi trời!",
+          "ôi trời ơi!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trời ơi!; ôi trời!; ôi trời ơi!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126,
+    "word": "おろおろ",
+    "kana": "おろおろ",
+    "senses": [
+      {
+        "sense_id": 217387,
+        "meaning_vi": "trong sự bối rối; trong sự bối rối; trong sự hoang mang; trong trạng thái hoà sắc; trong cơn hoảng loạn; tất cả đều rung chuyển; bất lực",
+        "confidence": "high",
+        "search_keywords": [
+          "trong sự bối rối",
+          "trong sự hoang mang",
+          "trong trạng thái hoà sắc",
+          "trong cơn hoảng loạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong sự bối rối; trong sự bối rối; trong sự hoang mang; trong trạng thái hoà sắc; trong cơn hoảng loạn; tất cả đều rung chuyển; bất lực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217388,
+        "meaning_vi": "thổn thức; đầy nước mắt; run rẩy (giọng nói)",
+        "confidence": "high",
+        "search_keywords": [
+          "thổn thức",
+          "đầy nước mắt",
+          "run rẩy (giọng nói)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thổn thức; đầy nước mắt; run rẩy (giọng nói)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127,
+    "word": "おデブさん",
+    "kana": "おデブさん",
+    "senses": [
+      {
+        "sense_id": 217389,
+        "meaning_vi": "người mũm mĩm",
+        "confidence": "high",
+        "search_keywords": [
+          "người mũm mĩm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người mũm mĩm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 128,
+    "word": "お握り",
+    "kana": "おにぎり",
+    "senses": [
+      {
+        "sense_id": 217390,
+        "meaning_vi": "cơm nắm; cơm nắm (thường có hình tam giác, đôi khi có nhân và được bọc trong nori)",
+        "confidence": "high",
+        "search_keywords": [
+          "cơm nắm",
+          "cơm nắm (thường có hình tam giác, đôi khi có nhân và được bọc trong nori)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơm nắm; cơm nắm (thường có hình tam giác, đôi khi có nhân và được bọc trong nori)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 129,
+    "word": "お陰",
+    "kana": "おかげ",
+    "senses": [
+      {
+        "sense_id": 217391,
+        "meaning_vi": "ân sủng (của Thiên Chúa); lòng nhân từ (của Đức Phật); phước lành",
+        "confidence": "high",
+        "search_keywords": [
+          "ân sủng (của Thiên Chúa)",
+          "lòng nhân từ (của Đức Phật)",
+          "phước lành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ân sủng (của Thiên Chúa); lòng nhân từ (của Đức Phật); phước lành",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217392,
+        "meaning_vi": "hỗ trợ; giúp đỡ; viện trợ",
+        "confidence": "high",
+        "search_keywords": [
+          "hỗ trợ",
+          "giúp đỡ",
+          "viện trợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỗ trợ; giúp đỡ; viện trợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217393,
+        "meaning_vi": "các hiệu ứng; ảnh hưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "các hiệu ứng",
+          "ảnh hưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "các hiệu ứng; ảnh hưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 130,
+    "word": "お陰様",
+    "kana": "おかげさま",
+    "senses": [
+      {
+        "sense_id": 217394,
+        "meaning_vi": "sự giúp đỡ của (ai đó); giúp đỡ; sự giúp đỡ; lòng tốt; thiện chí",
+        "confidence": "high",
+        "search_keywords": [
+          "sự giúp đỡ của (ai đó)",
+          "giúp đỡ",
+          "sự giúp đỡ",
+          "lòng tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự giúp đỡ của (ai đó); giúp đỡ; sự giúp đỡ; lòng tốt; thiện chí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217395,
+        "meaning_vi": "ân sủng (của Thiên Chúa); lòng nhân từ (của Đức Phật); phước lành",
+        "confidence": "high",
+        "search_keywords": [
+          "ân sủng (của Thiên Chúa)",
+          "lòng nhân từ (của Đức Phật)",
+          "phước lành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ân sủng (của Thiên Chúa); lòng nhân từ (của Đức Phật); phước lành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 131,
+    "word": "お下げ",
+    "kana": "おさげ",
+    "senses": [
+      {
+        "sense_id": 217396,
+        "meaning_vi": "tết tóc thành bím",
+        "confidence": "high",
+        "search_keywords": [
+          "tết tóc thành bím"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tết tóc thành bím",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132,
+    "word": "お化け",
+    "kana": "おばけ",
+    "senses": [
+      {
+        "sense_id": 217397,
+        "meaning_vi": "bóng ma; sự hiện ra",
+        "confidence": "high",
+        "search_keywords": [
+          "bóng ma",
+          "sự hiện ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bóng ma; sự hiện ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217398,
+        "meaning_vi": "yêu tinh; quái vật; con quỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "yêu tinh",
+          "quái vật",
+          "con quỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yêu tinh; quái vật; con quỷ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217399,
+        "meaning_vi": "một cái gì đó lớn bất thường",
+        "confidence": "high",
+        "search_keywords": [
+          "một cái gì đó lớn bất thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cái gì đó lớn bất thường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 133,
+    "word": "お化け屋敷",
+    "kana": "おばけやしき",
+    "senses": [
+      {
+        "sense_id": 217400,
+        "meaning_vi": "ngôi nhà ma ám; ngôi nhà ma quái",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôi nhà ma ám",
+          "ngôi nhà ma quái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôi nhà ma ám; ngôi nhà ma quái",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217401,
+        "meaning_vi": "ngôi nhà ma ám (thu hút); điểm tham quan ma ám",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôi nhà ma ám (thu hút)",
+          "điểm tham quan ma ám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôi nhà ma ám (thu hút); điểm tham quan ma ám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 134,
+    "word": "お嫁さん",
+    "kana": "およめさん",
+    "senses": [
+      {
+        "sense_id": 217402,
+        "meaning_vi": "vợ",
+        "confidence": "high",
+        "search_keywords": [
+          "vợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vợ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 135,
+    "word": "お菓子",
+    "kana": "おかし",
+    "senses": [
+      {
+        "sense_id": 217403,
+        "meaning_vi": "bánh kẹo; đồ ngọt; kẹo; bánh ngọt",
+        "confidence": "high",
+        "search_keywords": [
+          "bánh kẹo",
+          "đồ ngọt",
+          "kẹo",
+          "bánh ngọt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bánh kẹo; đồ ngọt; kẹo; bánh ngọt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 136,
+    "word": "お願いします",
+    "kana": "おねがいします",
+    "senses": [
+      {
+        "sense_id": 217404,
+        "meaning_vi": "làm ơn",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 137,
+    "word": "お願いいたします",
+    "kana": "おねがいいたします",
+    "senses": [
+      {
+        "sense_id": 217405,
+        "meaning_vi": "làm ơn",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 138,
+    "word": "お帰りなさい",
+    "kana": "おかえりなさい",
+    "senses": [
+      {
+        "sense_id": 217406,
+        "meaning_vi": "chào mừng về nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "chào mừng về nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chào mừng về nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 139,
+    "word": "お気の毒",
+    "kana": "おきのどく",
+    "senses": [
+      {
+        "sense_id": 217407,
+        "meaning_vi": "Tôi xin lỗi (nghe, nói, v.v.); thật đáng tiếc",
+        "confidence": "high",
+        "search_keywords": [
+          "Tôi xin lỗi (nghe, nói, v.v.)",
+          "thật đáng tiếc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tôi xin lỗi (nghe, nói, v.v.); thật đáng tiếc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 140,
+    "word": "お客さん",
+    "kana": "おきゃくさん",
+    "senses": [
+      {
+        "sense_id": 217408,
+        "meaning_vi": "khách mời; du khách",
+        "confidence": "high",
+        "search_keywords": [
+          "khách mời",
+          "du khách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khách mời; du khách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217409,
+        "meaning_vi": "khách hàng; khách hàng; người mua sắm; khán giả; khán giả; du khách; người ngắm cảnh; hành khách",
+        "confidence": "high",
+        "search_keywords": [
+          "khách hàng",
+          "người mua sắm",
+          "khán giả",
+          "du khách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khách hàng; khách hàng; người mua sắm; khán giả; khán giả; du khách; người ngắm cảnh; hành khách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,458 @@
+[
+  {
+    "vocabulary_id": 122131,
+    "word": "レジスタ長",
+    "kana": "レジスタちょう",
+    "senses": [
+      {
+        "sense_id": 365745,
+        "meaning_vi": "chiều dài đăng ký",
+        "confidence": "high",
+        "search_keywords": [
+          "chiều dài đăng ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiều dài đăng ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122132,
+    "word": "レジスタ変数",
+    "kana": "レジスタへんすう",
+    "senses": [
+      {
+        "sense_id": 365746,
+        "meaning_vi": "đăng ký biến",
+        "confidence": "high",
+        "search_keywords": [
+          "đăng ký biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đăng ký biến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122133,
+    "word": "レジストリ",
+    "kana": "レジストリ",
+    "senses": [
+      {
+        "sense_id": 365747,
+        "meaning_vi": "đăng ký (trong hệ điều hành Windows)",
+        "confidence": "high",
+        "search_keywords": [
+          "đăng ký (trong hệ điều hành Windows)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đăng ký (trong hệ điều hành Windows)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 365748,
+        "meaning_vi": "đăng ký; đăng ký; thu thập hồ sơ",
+        "confidence": "high",
+        "search_keywords": [
+          "đăng ký",
+          "thu thập hồ sơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đăng ký; đăng ký; thu thập hồ sơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122134,
+    "word": "レジストリエディタ",
+    "kana": "レジストリエディタ",
+    "senses": [
+      {
+        "sense_id": 365749,
+        "meaning_vi": "biên tập sổ đăng ký",
+        "confidence": "high",
+        "search_keywords": [
+          "biên tập sổ đăng ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biên tập sổ đăng ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122135,
+    "word": "レジストレーション",
+    "kana": "レジストレーション",
+    "senses": [
+      {
+        "sense_id": 365750,
+        "meaning_vi": "đăng ký",
+        "confidence": "high",
+        "search_keywords": [
+          "đăng ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đăng ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122136,
+    "word": "レジューム",
+    "kana": "レジューム",
+    "senses": [
+      {
+        "sense_id": 365751,
+        "meaning_vi": "sơ yếu lý lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ yếu lý lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ yếu lý lịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122137,
+    "word": "レジューム機能",
+    "kana": "レジュームきのう",
+    "senses": [
+      {
+        "sense_id": 365752,
+        "meaning_vi": "tiếp tục chức năng",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp tục chức năng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp tục chức năng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122138,
+    "word": "レスポンスＰＤＵ",
+    "kana": "レスポンスピーディーユー",
+    "senses": [
+      {
+        "sense_id": 365753,
+        "meaning_vi": "phản hồi PDU",
+        "confidence": "high",
+        "search_keywords": [
+          "phản hồi PDU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản hồi PDU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122139,
+    "word": "レスポンスタイム",
+    "kana": "レスポンスタイム",
+    "senses": [
+      {
+        "sense_id": 365754,
+        "meaning_vi": "thời gian đáp ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian đáp ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian đáp ứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122140,
+    "word": "レスポンスフレーム",
+    "kana": "レスポンスフレーム",
+    "senses": [
+      {
+        "sense_id": 365755,
+        "meaning_vi": "khung phản hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "khung phản hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khung phản hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122141,
+    "word": "レスポンダ",
+    "kana": "レスポンダ",
+    "senses": [
+      {
+        "sense_id": 365756,
+        "meaning_vi": "người trả lời",
+        "confidence": "high",
+        "search_keywords": [
+          "người trả lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người trả lời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122142,
+    "word": "レセプタクル",
+    "kana": "レセプタクル",
+    "senses": [
+      {
+        "sense_id": 365757,
+        "meaning_vi": "ổ cắm kết nối",
+        "confidence": "high",
+        "search_keywords": [
+          "ổ cắm kết nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ổ cắm kết nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122143,
+    "word": "レターサイズ",
+    "kana": "レターサイズ",
+    "senses": [
+      {
+        "sense_id": 365758,
+        "meaning_vi": "kích thước chữ",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước chữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước chữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122144,
+    "word": "レディング",
+    "kana": "レディング",
+    "senses": [
+      {
+        "sense_id": 365759,
+        "meaning_vi": "dẫn đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "dẫn đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dẫn đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122145,
+    "word": "リバースリンク",
+    "kana": "リバースリンク",
+    "senses": [
+      {
+        "sense_id": 365760,
+        "meaning_vi": "liên kết ngược",
+        "confidence": "high",
+        "search_keywords": [
+          "liên kết ngược"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên kết ngược",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122146,
+    "word": "レフェラルセンタ",
+    "kana": "レフェラルセンタ",
+    "senses": [
+      {
+        "sense_id": 365761,
+        "meaning_vi": "trung tâm giới thiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "trung tâm giới thiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung tâm giới thiệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122147,
+    "word": "レプリカセット",
+    "kana": "レプリカセット",
+    "senses": [
+      {
+        "sense_id": 365762,
+        "meaning_vi": "bộ bản sao",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ bản sao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ bản sao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122148,
+    "word": "レプリケーション",
+    "kana": "レプリケーション",
+    "senses": [
+      {
+        "sense_id": 365763,
+        "meaning_vi": "sự sao chép",
+        "confidence": "high",
+        "search_keywords": [
+          "sự sao chép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự sao chép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122149,
+    "word": "レベルセット",
+    "kana": "レベルセット",
+    "senses": [
+      {
+        "sense_id": 365764,
+        "meaning_vi": "thiết lập cấp độ",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết lập cấp độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết lập cấp độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122150,
+    "word": "レベルセンス方式",
+    "kana": "レベルセンスほうしき",
+    "senses": [
+      {
+        "sense_id": 365765,
+        "meaning_vi": "phương pháp cảm nhận mức độ",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp cảm nhận mức độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp cảm nhận mức độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

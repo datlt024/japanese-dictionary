@@ -1,0 +1,628 @@
+[
+  {
+    "vocabulary_id": 27308,
+    "word": "在日米陸軍",
+    "kana": "ざいにちべいりくぐん",
+    "senses": [
+      {
+        "sense_id": 252297,
+        "meaning_vi": "Quân đội Mỹ, Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "Quân đội Mỹ, Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Quân đội Mỹ, Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27309,
+    "word": "在任",
+    "kana": "ざいにん",
+    "senses": [
+      {
+        "sense_id": 252298,
+        "meaning_vi": "đang ở văn phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "đang ở văn phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang ở văn phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27310,
+    "word": "在米邦人",
+    "kana": "ざいべいほうじん",
+    "senses": [
+      {
+        "sense_id": 252299,
+        "meaning_vi": "Người Nhật định cư tại Hoa Kỳ",
+        "confidence": "high",
+        "search_keywords": [
+          "Người Nhật định cư tại Hoa Kỳ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Người Nhật định cư tại Hoa Kỳ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27311,
+    "word": "在来",
+    "kana": "ざいらい",
+    "senses": [
+      {
+        "sense_id": 252300,
+        "meaning_vi": "tồn tại từ trước; đã ở đó rồi; truyền thống",
+        "confidence": "high",
+        "search_keywords": [
+          "tồn tại từ trước",
+          "đã ở đó rồi",
+          "truyền thống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tồn tại từ trước; đã ở đó rồi; truyền thống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27312,
+    "word": "在留",
+    "kana": "ざいりゅう",
+    "senses": [
+      {
+        "sense_id": 252301,
+        "meaning_vi": "cư trú (đặc biệt ở nước ngoài); ở lại; sống",
+        "confidence": "high",
+        "search_keywords": [
+          "cư trú (đặc biệt ở nước ngoài)",
+          "ở lại",
+          "sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cư trú (đặc biệt ở nước ngoài); ở lại; sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27313,
+    "word": "在留期間更新許可",
+    "kana": "ざいりゅうきかんこうしんきょか",
+    "senses": [
+      {
+        "sense_id": 252302,
+        "meaning_vi": "gia hạn giấy phép thị thực",
+        "confidence": "high",
+        "search_keywords": [
+          "gia hạn giấy phép thị thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gia hạn giấy phép thị thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27314,
+    "word": "在留邦人",
+    "kana": "ざいりゅうほうじん",
+    "senses": [
+      {
+        "sense_id": 252303,
+        "meaning_vi": "Cư dân Nhật Bản ở nước khác; người Nhật ở nước ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "Cư dân Nhật Bản ở nước khác",
+          "người Nhật ở nước ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cư dân Nhật Bản ở nước khác; người Nhật ở nước ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27315,
+    "word": "材質",
+    "kana": "ざいしつ",
+    "senses": [
+      {
+        "sense_id": 252304,
+        "meaning_vi": "vật chất",
+        "confidence": "high",
+        "search_keywords": [
+          "vật chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vật chất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252305,
+        "meaning_vi": "tính chất vật liệu; chất lượng vật liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "tính chất vật liệu",
+          "chất lượng vật liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính chất vật liệu; chất lượng vật liệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252306,
+        "meaning_vi": "chất lượng gỗ; chất lượng gỗ xẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "chất lượng gỗ",
+          "chất lượng gỗ xẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất lượng gỗ; chất lượng gỗ xẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27316,
+    "word": "材木",
+    "kana": "ざいもく",
+    "senses": [
+      {
+        "sense_id": 252307,
+        "meaning_vi": "gỗ (để xây dựng); gỗ xẻ; gỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "gỗ (để xây dựng)",
+          "gỗ xẻ",
+          "gỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gỗ (để xây dựng); gỗ xẻ; gỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27317,
+    "word": "材料",
+    "kana": "ざいりょう",
+    "senses": [
+      {
+        "sense_id": 252308,
+        "meaning_vi": "nguyên vật liệu; thành phần",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên vật liệu",
+          "thành phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên vật liệu; thành phần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252309,
+        "meaning_vi": "tài liệu (cho một cuốn tiểu thuyết, thử nghiệm, v.v.); chủ đề",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu (cho một cuốn tiểu thuyết, thử nghiệm, v.v.)",
+          "chủ đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu (cho một cuốn tiểu thuyết, thử nghiệm, v.v.); chủ đề",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252310,
+        "meaning_vi": "căn cứ (để ra quyết định, phán quyết, v.v.); cơ sở; chứng cớ; dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "căn cứ (để ra quyết định, phán quyết, v.v.)",
+          "cơ sở",
+          "chứng cớ",
+          "dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn cứ (để ra quyết định, phán quyết, v.v.); cơ sở; chứng cớ; dữ liệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252311,
+        "meaning_vi": "yếu tố (thị trường)",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu tố (thị trường)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu tố (thị trường)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27318,
+    "word": "罪",
+    "kana": "つみ",
+    "senses": [
+      {
+        "sense_id": 252312,
+        "meaning_vi": "tội phạm; tội lỗi; hành vi sai trái; sự bừa bãi",
+        "confidence": "high",
+        "search_keywords": [
+          "tội phạm",
+          "tội lỗi",
+          "hành vi sai trái",
+          "sự bừa bãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tội phạm; tội lỗi; hành vi sai trái; sự bừa bãi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252313,
+        "meaning_vi": "hình phạt; câu; hình phạt",
+        "confidence": "high",
+        "search_keywords": [
+          "hình phạt",
+          "câu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình phạt; câu; hình phạt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252314,
+        "meaning_vi": "lỗi; trách nhiệm; tội lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi",
+          "trách nhiệm",
+          "tội lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi; trách nhiệm; tội lỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252315,
+        "meaning_vi": "thiếu suy nghĩ; thiếu cân nhắc",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu suy nghĩ",
+          "thiếu cân nhắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu suy nghĩ; thiếu cân nhắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27319,
+    "word": "罪悪",
+    "kana": "ざいあく",
+    "senses": [
+      {
+        "sense_id": 252316,
+        "meaning_vi": "tội phạm; tội lỗi; phó",
+        "confidence": "high",
+        "search_keywords": [
+          "tội phạm",
+          "tội lỗi",
+          "phó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tội phạm; tội lỗi; phó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27320,
+    "word": "罪悪感",
+    "kana": "ざいあくかん",
+    "senses": [
+      {
+        "sense_id": 252317,
+        "meaning_vi": "cảm giác tội lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm giác tội lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm giác tội lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27321,
+    "word": "罪科",
+    "kana": "ざいか",
+    "senses": [
+      {
+        "sense_id": 252318,
+        "meaning_vi": "hành vi phạm tội; hành vi phạm tội; tội phạm; cảm giác tội lỗi; hình phạt",
+        "confidence": "high",
+        "search_keywords": [
+          "hành vi phạm tội",
+          "tội phạm",
+          "cảm giác tội lỗi",
+          "hình phạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành vi phạm tội; hành vi phạm tội; tội phạm; cảm giác tội lỗi; hình phạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27322,
+    "word": "罪過",
+    "kana": "ざいか",
+    "senses": [
+      {
+        "sense_id": 252319,
+        "meaning_vi": "hành vi phạm tội; hành vi phạm tội; lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "hành vi phạm tội",
+          "lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành vi phạm tội; hành vi phạm tội; lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27323,
+    "word": "罪業",
+    "kana": "ざいごう",
+    "senses": [
+      {
+        "sense_id": 252320,
+        "meaning_vi": "tội lỗi; sự gian ác; tội ác",
+        "confidence": "high",
+        "search_keywords": [
+          "tội lỗi",
+          "sự gian ác",
+          "tội ác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tội lỗi; sự gian ác; tội ác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27324,
+    "word": "罪状",
+    "kana": "ざいじょう",
+    "senses": [
+      {
+        "sense_id": 252321,
+        "meaning_vi": "(bản chất của a) tội phạm; (hình sự) tội buộc tội",
+        "confidence": "high",
+        "search_keywords": [
+          "(bản chất của a) tội phạm",
+          "(hình sự) tội buộc tội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(bản chất của a) tội phạm; (hình sự) tội buộc tội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27325,
+    "word": "罪人",
+    "kana": "ざいにん",
+    "senses": [
+      {
+        "sense_id": 252322,
+        "meaning_vi": "tội phạm; người vi phạm pháp luật; người làm sai; người phạm tội",
+        "confidence": "high",
+        "search_keywords": [
+          "tội phạm",
+          "người vi phạm pháp luật",
+          "người làm sai",
+          "người phạm tội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tội phạm; người vi phạm pháp luật; người làm sai; người phạm tội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27326,
+    "word": "罪人",
+    "kana": "つみびと",
+    "senses": [
+      {
+        "sense_id": 252323,
+        "meaning_vi": "tội nhân; kẻ ác; người làm điều sai trái",
+        "confidence": "high",
+        "search_keywords": [
+          "tội nhân",
+          "kẻ ác",
+          "người làm điều sai trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tội nhân; kẻ ác; người làm điều sai trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27327,
+    "word": "財",
+    "kana": "ざい",
+    "senses": [
+      {
+        "sense_id": 252324,
+        "meaning_vi": "vận may; sự giàu có",
+        "confidence": "high",
+        "search_keywords": [
+          "vận may",
+          "sự giàu có"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vận may; sự giàu có",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252325,
+        "meaning_vi": "hàng hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng hóa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252326,
+        "meaning_vi": "nền tảng hợp nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "nền tảng hợp nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nền tảng hợp nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 123983,
+    "word": "試験事象",
+    "kana": "しけんじしょう",
+    "senses": [
+      {
+        "sense_id": 367610,
+        "meaning_vi": "sự kiện thử nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kiện thử nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kiện thử nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123984,
+    "word": "試験実現者",
+    "kana": "しけんじつげんしゃ",
+    "senses": [
+      {
+        "sense_id": 367611,
+        "meaning_vi": "người thực hiện kiểm tra",
+        "confidence": "high",
+        "search_keywords": [
+          "người thực hiện kiểm tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thực hiện kiểm tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123985,
+    "word": "試験条件",
+    "kana": "しけんじょうけん",
+    "senses": [
+      {
+        "sense_id": 367612,
+        "meaning_vi": "điều kiện thử nghiệm; môi trường thử nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện thử nghiệm",
+          "môi trường thử nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện thử nghiệm; môi trường thử nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123986,
+    "word": "試験体",
+    "kana": "しけんたい",
+    "senses": [
+      {
+        "sense_id": 367613,
+        "meaning_vi": "mẫu thử; đối tượng thử nghiệm; mẫu vật",
+        "confidence": "high",
+        "search_keywords": [
+          "mẫu thử",
+          "đối tượng thử nghiệm",
+          "mẫu vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẫu thử; đối tượng thử nghiệm; mẫu vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123987,
+    "word": "試験対象",
+    "kana": "しけんたいしょう",
+    "senses": [
+      {
+        "sense_id": 367614,
+        "meaning_vi": "triển khai đang được thử nghiệm; IUT",
+        "confidence": "high",
+        "search_keywords": [
+          "triển khai đang được thử nghiệm",
+          "IUT"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triển khai đang được thử nghiệm; IUT",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123988,
+    "word": "試験対象システム",
+    "kana": "しけんたいしょうシステム",
+    "senses": [
+      {
+        "sense_id": 367615,
+        "meaning_vi": "hệ thống đang được thử nghiệm; SUT",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống đang được thử nghiệm",
+          "SUT"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống đang được thử nghiệm; SUT",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123989,
+    "word": "試験端末",
+    "kana": "しけんたんまつ",
+    "senses": [
+      {
+        "sense_id": 367616,
+        "meaning_vi": "thiết bị đầu cuối thử nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối thử nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối thử nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123990,
+    "word": "試験目的",
+    "kana": "しけんもくてき",
+    "senses": [
+      {
+        "sense_id": 367617,
+        "meaning_vi": "mục đích kiểm tra",
+        "confidence": "high",
+        "search_keywords": [
+          "mục đích kiểm tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục đích kiểm tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123991,
+    "word": "試作環境",
+    "kana": "しさくかんきょう",
+    "senses": [
+      {
+        "sense_id": 367618,
+        "meaning_vi": "môi trường thử nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "môi trường thử nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môi trường thử nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123992,
+    "word": "資源割振り",
+    "kana": "しげんわりふり",
+    "senses": [
+      {
+        "sense_id": 367619,
+        "meaning_vi": "phân bổ nguồn lực",
+        "confidence": "high",
+        "search_keywords": [
+          "phân bổ nguồn lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân bổ nguồn lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123993,
+    "word": "資源管理",
+    "kana": "しげんかんり",
+    "senses": [
+      {
+        "sense_id": 367620,
+        "meaning_vi": "quản lý tài nguyên",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý tài nguyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý tài nguyên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123994,
+    "word": "資源共有",
+    "kana": "しげんきょうゆう",
+    "senses": [
+      {
+        "sense_id": 367621,
+        "meaning_vi": "chia sẻ tài nguyên",
+        "confidence": "high",
+        "search_keywords": [
+          "chia sẻ tài nguyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chia sẻ tài nguyên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123995,
+    "word": "資源分配",
+    "kana": "しげんぶんぱい",
+    "senses": [
+      {
+        "sense_id": 367622,
+        "meaning_vi": "chia sẻ tài nguyên",
+        "confidence": "high",
+        "search_keywords": [
+          "chia sẻ tài nguyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chia sẻ tài nguyên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123996,
+    "word": "資源文書",
+    "kana": "しげんぶんしょ",
+    "senses": [
+      {
+        "sense_id": 367623,
+        "meaning_vi": "tài liệu tài nguyên",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu tài nguyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu tài nguyên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124001,
+    "word": "事後保守",
+    "kana": "じごほしゅ",
+    "senses": [
+      {
+        "sense_id": 367628,
+        "meaning_vi": "bảo trì khắc phục",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo trì khắc phục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo trì khắc phục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124002,
+    "word": "事後保全",
+    "kana": "じごほぜん",
+    "senses": [
+      {
+        "sense_id": 367629,
+        "meaning_vi": "bảo trì khắc phục",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo trì khắc phục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo trì khắc phục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124003,
+    "word": "事実上の標準",
+    "kana": "じじつじょうのひょうじゅん",
+    "senses": [
+      {
+        "sense_id": 367630,
+        "meaning_vi": "tiêu chuẩn thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu chuẩn thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu chuẩn thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124004,
+    "word": "事実上標準",
+    "kana": "じじつじょうひょうじゅん",
+    "senses": [
+      {
+        "sense_id": 367631,
+        "meaning_vi": "tiêu chuẩn thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu chuẩn thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu chuẩn thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124005,
+    "word": "事象待ち行列",
+    "kana": "じしょうまちぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 367632,
+        "meaning_vi": "hàng đợi sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng đợi sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng đợi sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124006,
+    "word": "事象投影",
+    "kana": "じしょうとうえい",
+    "senses": [
+      {
+        "sense_id": 367633,
+        "meaning_vi": "chiếu sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "chiếu sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiếu sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

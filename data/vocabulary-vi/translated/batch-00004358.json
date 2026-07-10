@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 106333,
+    "word": "マイ箸",
+    "kana": "マイばし",
+    "senses": [
+      {
+        "sense_id": 348463,
+        "meaning_vi": "đôi đũa của chính mình; Đũa có thể giặt được đựng trong hộp (dùng thay cho đũa dùng một lần)",
+        "confidence": "high",
+        "search_keywords": [
+          "đôi đũa của chính mình",
+          "Đũa có thể giặt được đựng trong hộp (dùng thay cho đũa dùng một lần)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đôi đũa của chính mình; Đũa có thể giặt được đựng trong hộp (dùng thay cho đũa dùng một lần)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106334,
+    "word": "ポアソン",
+    "kana": "ポアソン",
+    "senses": [
+      {
+        "sense_id": 348464,
+        "meaning_vi": "cá (trong ẩm thực Pháp)",
+        "confidence": "high",
+        "search_keywords": [
+          "cá (trong ẩm thực Pháp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá (trong ẩm thực Pháp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106335,
+    "word": "限界効用逓減の法則",
+    "kana": "げんかいこうようていげんのほうそく",
+    "senses": [
+      {
+        "sense_id": 348465,
+        "meaning_vi": "quy luật hữu dụng cận biên giảm dần",
+        "confidence": "high",
+        "search_keywords": [
+          "quy luật hữu dụng cận biên giảm dần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy luật hữu dụng cận biên giảm dần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106336,
+    "word": "限界効用均等の法則",
+    "kana": "げんかいこうようきんとうのほうそく",
+    "senses": [
+      {
+        "sense_id": 348466,
+        "meaning_vi": "định luật tiện ích đẳng biên",
+        "confidence": "high",
+        "search_keywords": [
+          "định luật tiện ích đẳng biên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định luật tiện ích đẳng biên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106337,
+    "word": "限界費用",
+    "kana": "げんかいひよう",
+    "senses": [
+      {
+        "sense_id": 348467,
+        "meaning_vi": "chi phí cận biên",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí cận biên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí cận biên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106338,
+    "word": "限界利潤",
+    "kana": "げんかいりじゅん",
+    "senses": [
+      {
+        "sense_id": 348468,
+        "meaning_vi": "lợi nhuận cận biên",
+        "confidence": "high",
+        "search_keywords": [
+          "lợi nhuận cận biên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lợi nhuận cận biên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106339,
+    "word": "限界利益",
+    "kana": "げんかいりえき",
+    "senses": [
+      {
+        "sense_id": 348469,
+        "meaning_vi": "lợi nhuận cận biên; thu nhập cận biên",
+        "confidence": "high",
+        "search_keywords": [
+          "lợi nhuận cận biên",
+          "thu nhập cận biên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lợi nhuận cận biên; thu nhập cận biên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106340,
+    "word": "限界消費性向",
+    "kana": "げんかいしょうひせいこう",
+    "senses": [
+      {
+        "sense_id": 348470,
+        "meaning_vi": "xu hướng tiêu dùng cận biên",
+        "confidence": "high",
+        "search_keywords": [
+          "xu hướng tiêu dùng cận biên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xu hướng tiêu dùng cận biên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106341,
+    "word": "限界貯蓄性向",
+    "kana": "げんかいちょちくせいこう",
+    "senses": [
+      {
+        "sense_id": 348471,
+        "meaning_vi": "xu hướng tiết kiệm cận biên",
+        "confidence": "high",
+        "search_keywords": [
+          "xu hướng tiết kiệm cận biên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xu hướng tiết kiệm cận biên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106342,
+    "word": "限界収入",
+    "kana": "げんかいしゅうにゅう",
+    "senses": [
+      {
+        "sense_id": 348472,
+        "meaning_vi": "doanh thu cận biên",
+        "confidence": "high",
+        "search_keywords": [
+          "doanh thu cận biên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "doanh thu cận biên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106343,
+    "word": "収穫逓減の法則",
+    "kana": "しゅうかくていげんのほうそく",
+    "senses": [
+      {
+        "sense_id": 348473,
+        "meaning_vi": "quy luật lợi nhuận giảm dần; quy luật lợi nhuận cận biên giảm dần",
+        "confidence": "high",
+        "search_keywords": [
+          "quy luật lợi nhuận giảm dần",
+          "quy luật lợi nhuận cận biên giảm dần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy luật lợi nhuận giảm dần; quy luật lợi nhuận cận biên giảm dần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106344,
+    "word": "無差別曲線",
+    "kana": "むさべつきょくせん",
+    "senses": [
+      {
+        "sense_id": 348474,
+        "meaning_vi": "đường cong thờ ơ",
+        "confidence": "high",
+        "search_keywords": [
+          "đường cong thờ ơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường cong thờ ơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106345,
+    "word": "生産要素",
+    "kana": "せいさんようそ",
+    "senses": [
+      {
+        "sense_id": 348475,
+        "meaning_vi": "yếu tố sản xuất",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu tố sản xuất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu tố sản xuất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106346,
+    "word": "需要の弾力性",
+    "kana": "じゅようのだんりょくせい",
+    "senses": [
+      {
+        "sense_id": 348476,
+        "meaning_vi": "độ co giãn của nhu cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "độ co giãn của nhu cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ co giãn của nhu cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106347,
+    "word": "供給の弾力性",
+    "kana": "きょうきゅうのだんりょくせい",
+    "senses": [
+      {
+        "sense_id": 348477,
+        "meaning_vi": "độ co giãn của cung",
+        "confidence": "high",
+        "search_keywords": [
+          "độ co giãn của cung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ co giãn của cung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106348,
+    "word": "需要の所得弾力性",
+    "kana": "じゅようのしょとくだんりょくせい",
+    "senses": [
+      {
+        "sense_id": 348478,
+        "meaning_vi": "độ co giãn của cầu theo thu nhập",
+        "confidence": "high",
+        "search_keywords": [
+          "độ co giãn của cầu theo thu nhập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ co giãn của cầu theo thu nhập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106349,
+    "word": "非常食",
+    "kana": "ひじょうしょく",
+    "senses": [
+      {
+        "sense_id": 348479,
+        "meaning_vi": "thực phẩm khẩn cấp; khẩu phần khẩn cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "thực phẩm khẩn cấp",
+          "khẩu phần khẩn cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực phẩm khẩn cấp; khẩu phần khẩn cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106350,
+    "word": "寝ぼすけ",
+    "kana": "ねぼすけ",
+    "senses": [
+      {
+        "sense_id": 348480,
+        "meaning_vi": "buồn ngủ; người ngủ quên",
+        "confidence": "high",
+        "search_keywords": [
+          "buồn ngủ",
+          "người ngủ quên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buồn ngủ; người ngủ quên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106351,
+    "word": "蒼穹",
+    "kana": "そうきゅう",
+    "senses": [
+      {
+        "sense_id": 348481,
+        "meaning_vi": "bầu trời xanh",
+        "confidence": "high",
+        "search_keywords": [
+          "bầu trời xanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bầu trời xanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 106352,
+    "word": "計画を実行する",
+    "kana": "けいかくをじっこうする",
+    "senses": [
+      {
+        "sense_id": 348482,
+        "meaning_vi": "để thực hiện một kế hoạch",
+        "confidence": "high",
+        "search_keywords": [
+          "để thực hiện một kế hoạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thực hiện một kế hoạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

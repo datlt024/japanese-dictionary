@@ -1,0 +1,455 @@
+[
+  {
+    "vocabulary_id": 126024,
+    "word": "版数管理",
+    "kana": "はんすうかんり",
+    "senses": [
+      {
+        "sense_id": 369667,
+        "meaning_vi": "quản lý phiên bản; quản lý sửa đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý phiên bản",
+          "quản lý sửa đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý phiên bản; quản lý sửa đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126025,
+    "word": "販売時点",
+    "kana": "はんばいじてん",
+    "senses": [
+      {
+        "sense_id": 369668,
+        "meaning_vi": "điểm bán hàng; POS",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm bán hàng",
+          "POS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm bán hàng; POS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126026,
+    "word": "販売時点管理",
+    "kana": "はんばいじてんかんり",
+    "senses": [
+      {
+        "sense_id": 369669,
+        "meaning_vi": "POS; Điểm bán hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "POS",
+          "Điểm bán hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "POS; Điểm bán hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126027,
+    "word": "範囲演算子",
+    "kana": "はんいえんざんし",
+    "senses": [
+      {
+        "sense_id": 369670,
+        "meaning_vi": "toán tử phạm vi (..)",
+        "confidence": "high",
+        "search_keywords": [
+          "toán tử phạm vi (..)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán tử phạm vi (..)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126028,
+    "word": "範囲検査",
+    "kana": "はんいけんさ",
+    "senses": [
+      {
+        "sense_id": 369671,
+        "meaning_vi": "kiểm tra phạm vi",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra phạm vi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra phạm vi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126029,
+    "word": "範囲内",
+    "kana": "はんいない",
+    "senses": [
+      {
+        "sense_id": 369672,
+        "meaning_vi": "trong phạm vi; trong giới hạn (của...); trong (a) phạm vi",
+        "confidence": "high",
+        "search_keywords": [
+          "trong phạm vi",
+          "trong giới hạn (của...)",
+          "trong (a) phạm vi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong phạm vi; trong giới hạn (của...); trong (a) phạm vi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126030,
+    "word": "範囲名",
+    "kana": "はんいめい",
+    "senses": [
+      {
+        "sense_id": 369673,
+        "meaning_vi": "tên phạm vi",
+        "confidence": "high",
+        "search_keywords": [
+          "tên phạm vi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên phạm vi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126031,
+    "word": "範囲明示文",
+    "kana": "はんいめいじぶん",
+    "senses": [
+      {
+        "sense_id": 369674,
+        "meaning_vi": "tuyên bố phạm vi giới hạn",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên bố phạm vi giới hạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên bố phạm vi giới hạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126032,
+    "word": "番号案内",
+    "kana": "ばんごうあんない",
+    "senses": [
+      {
+        "sense_id": 369675,
+        "meaning_vi": "hỗ trợ thư mục",
+        "confidence": "high",
+        "search_keywords": [
+          "hỗ trợ thư mục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỗ trợ thư mục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126033,
+    "word": "番号計画",
+    "kana": "ばんごうけいかく",
+    "senses": [
+      {
+        "sense_id": 369676,
+        "meaning_vi": "kế hoạch đánh số",
+        "confidence": "high",
+        "search_keywords": [
+          "kế hoạch đánh số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kế hoạch đánh số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126034,
+    "word": "番号通話",
+    "kana": "ばんごうつうわ",
+    "senses": [
+      {
+        "sense_id": 369677,
+        "meaning_vi": "trạm đến trạm (comms)",
+        "confidence": "high",
+        "search_keywords": [
+          "trạm đến trạm (comms)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạm đến trạm (comms)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126035,
+    "word": "否定積",
+    "kana": "ひていせき",
+    "senses": [
+      {
+        "sense_id": 369678,
+        "meaning_vi": "không liên hợp; Hoạt động NAND; KHÔNG-Cả hai hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "không liên hợp",
+          "Hoạt động NAND",
+          "KHÔNG-Cả hai hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không liên hợp; Hoạt động NAND; KHÔNG-Cả hai hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126036,
+    "word": "否定素子",
+    "kana": "ひていそし",
+    "senses": [
+      {
+        "sense_id": 369679,
+        "meaning_vi": "KHÔNG cổng; KHÔNG phải là phần tử",
+        "confidence": "high",
+        "search_keywords": [
+          "KHÔNG cổng",
+          "KHÔNG phải là phần tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "KHÔNG cổng; KHÔNG phải là phần tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126037,
+    "word": "否定組合せ条件",
+    "kana": "ひていくみあわせじょうけん",
+    "senses": [
+      {
+        "sense_id": 369680,
+        "meaning_vi": "điều kiện kết hợp phủ định",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện kết hợp phủ định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện kết hợp phủ định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126038,
+    "word": "否定単純条件",
+    "kana": "ひていたんじゅんじょうけん",
+    "senses": [
+      {
+        "sense_id": 369681,
+        "meaning_vi": "điều kiện đơn giản phủ định",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện đơn giản phủ định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện đơn giản phủ định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126039,
+    "word": "否定論理積",
+    "kana": "ひていろんりせき",
+    "senses": [
+      {
+        "sense_id": 369682,
+        "meaning_vi": "không liên hợp; Hoạt động NAND; KHÔNG-Cả hai hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "không liên hợp",
+          "Hoạt động NAND",
+          "KHÔNG-Cả hai hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không liên hợp; Hoạt động NAND; KHÔNG-Cả hai hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126040,
+    "word": "否定論理積演算",
+    "kana": "ひていろんりせきえんざん",
+    "senses": [
+      {
+        "sense_id": 369683,
+        "meaning_vi": "Hoạt động AND âm",
+        "confidence": "high",
+        "search_keywords": [
+          "Hoạt động AND âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hoạt động AND âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126041,
+    "word": "否定論理和",
+    "kana": "ひていろんりわ",
+    "senses": [
+      {
+        "sense_id": 369684,
+        "meaning_vi": "không phân ly; Hoạt động NOR; Hoạt động KHÔNG CŨNG KHÔNG",
+        "confidence": "high",
+        "search_keywords": [
+          "không phân ly",
+          "Hoạt động NOR",
+          "Hoạt động KHÔNG CŨNG KHÔNG"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không phân ly; Hoạt động NOR; Hoạt động KHÔNG CŨNG KHÔNG",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126042,
+    "word": "否定論理和演算",
+    "kana": "ひていろんりわえんざん",
+    "senses": [
+      {
+        "sense_id": 369685,
+        "meaning_vi": "Phép toán OR âm",
+        "confidence": "high",
+        "search_keywords": [
+          "Phép toán OR âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phép toán OR âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126043,
+    "word": "否定論理和素子",
+    "kana": "ひていろんりわそし",
+    "senses": [
+      {
+        "sense_id": 369686,
+        "meaning_vi": "Cổng NOR; phần tử NOR",
+        "confidence": "high",
+        "search_keywords": [
+          "Cổng NOR",
+          "phần tử NOR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cổng NOR; phần tử NOR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

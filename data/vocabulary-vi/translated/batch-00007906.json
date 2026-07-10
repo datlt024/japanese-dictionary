@@ -1,0 +1,653 @@
+[
+  {
+    "vocabulary_id": 183320,
+    "word": "一声かける",
+    "kana": "ひとこえかける",
+    "senses": [
+      {
+        "sense_id": 432127,
+        "meaning_vi": "nói một lời; nói điều gì đó; nói ngắn gọn; để hét lên nhanh chóng; để cho (ai đó) biết",
+        "confidence": "high",
+        "search_keywords": [
+          "nói một lời",
+          "nói điều gì đó",
+          "nói ngắn gọn",
+          "để hét lên nhanh chóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói một lời; nói điều gì đó; nói ngắn gọn; để hét lên nhanh chóng; để cho (ai đó) biết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183321,
+    "word": "関",
+    "kana": "かん",
+    "senses": [
+      {
+        "sense_id": 432128,
+        "meaning_vi": "rào cản; cánh cổng",
+        "confidence": "high",
+        "search_keywords": [
+          "rào cản",
+          "cánh cổng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rào cản; cánh cổng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183322,
+    "word": "緘",
+    "kana": "かん",
+    "senses": [
+      {
+        "sense_id": 432129,
+        "meaning_vi": "đường may; con dấu (ví dụ: phong bì)",
+        "confidence": "high",
+        "search_keywords": [
+          "đường may",
+          "con dấu (ví dụ: phong bì)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường may; con dấu (ví dụ: phong bì)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432130,
+        "meaning_vi": "viết trên con dấu của một phong bì",
+        "confidence": "high",
+        "search_keywords": [
+          "viết trên con dấu của một phong bì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết trên con dấu của một phong bì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183323,
+    "word": "綬を釈く",
+    "kana": "じゅをとく",
+    "senses": [
+      {
+        "sense_id": 432131,
+        "meaning_vi": "rời bỏ công việc của chính phủ; từ chức khỏi một vị trí công cộng; để tháo dải ruy băng",
+        "confidence": "high",
+        "search_keywords": [
+          "rời bỏ công việc của chính phủ",
+          "từ chức khỏi một vị trí công cộng",
+          "để tháo dải ruy băng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời bỏ công việc của chính phủ; từ chức khỏi một vị trí công cộng; để tháo dải ruy băng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183324,
+    "word": "眼",
+    "kana": "がん",
+    "senses": [
+      {
+        "sense_id": 432132,
+        "meaning_vi": "mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mắt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432133,
+        "meaning_vi": "cái nhìn thấu suốt; tầm nhìn; sức mạnh quan sát",
+        "confidence": "high",
+        "search_keywords": [
+          "cái nhìn thấu suốt",
+          "tầm nhìn",
+          "sức mạnh quan sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái nhìn thấu suốt; tầm nhìn; sức mạnh quan sát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432134,
+        "meaning_vi": "ý chính; điểm chính",
+        "confidence": "high",
+        "search_keywords": [
+          "ý chính",
+          "điểm chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý chính; điểm chính",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432135,
+        "meaning_vi": "lỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432136,
+        "meaning_vi": "quầy kiểm tra mắt của một nhóm đá",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy kiểm tra mắt của một nhóm đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy kiểm tra mắt của một nhóm đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183325,
+    "word": "偶",
+    "kana": "ぐう",
+    "senses": [
+      {
+        "sense_id": 432137,
+        "meaning_vi": "số chẵn; thậm chí",
+        "confidence": "high",
+        "search_keywords": [
+          "số chẵn",
+          "thậm chí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số chẵn; thậm chí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432138,
+        "meaning_vi": "vợ chồng; bạn đời",
+        "confidence": "high",
+        "search_keywords": [
+          "vợ chồng",
+          "bạn đời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vợ chồng; bạn đời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183326,
+    "word": "軌",
+    "kana": "き",
+    "senses": [
+      {
+        "sense_id": 432139,
+        "meaning_vi": "đường mòn; vết bánh xe",
+        "confidence": "high",
+        "search_keywords": [
+          "đường mòn",
+          "vết bánh xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường mòn; vết bánh xe",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432140,
+        "meaning_vi": "khoảng cách giữa hai bánh xe; máy đo",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng cách giữa hai bánh xe",
+          "máy đo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng cách giữa hai bánh xe; máy đo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183327,
+    "word": "奇薬",
+    "kana": "きやく",
+    "senses": [
+      {
+        "sense_id": 432141,
+        "meaning_vi": "thần dược; phép lạ chữa bệnh; thuốc tiên",
+        "confidence": "high",
+        "search_keywords": [
+          "thần dược",
+          "phép lạ chữa bệnh",
+          "thuốc tiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thần dược; phép lạ chữa bệnh; thuốc tiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183328,
+    "word": "仰向き",
+    "kana": "あおむき",
+    "senses": [
+      {
+        "sense_id": 432142,
+        "meaning_vi": "hướng lên trên",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng lên trên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng lên trên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183329,
+    "word": "紙店",
+    "kana": "かみてん",
+    "senses": [
+      {
+        "sense_id": 432143,
+        "meaning_vi": "cửa hàng giấy; người buôn giấy; người bán giấy; nhà sản xuất giấy",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa hàng giấy",
+          "người buôn giấy",
+          "người bán giấy",
+          "nhà sản xuất giấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa hàng giấy; người buôn giấy; người bán giấy; nhà sản xuất giấy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183330,
+    "word": "びっくりした",
+    "kana": "びっくりした",
+    "senses": [
+      {
+        "sense_id": 432144,
+        "meaning_vi": "Ôi chúa ơi!; ôi chúa ơi!; bạn hiểu tôi rồi!; Ồ!",
+        "confidence": "high",
+        "search_keywords": [
+          "Ôi chúa ơi!",
+          "ôi chúa ơi!",
+          "bạn hiểu tôi rồi!",
+          "Ồ!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ôi chúa ơi!; ôi chúa ơi!; bạn hiểu tôi rồi!; Ồ!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183331,
+    "word": "覬覦",
+    "kana": "きゆ",
+    "senses": [
+      {
+        "sense_id": 432145,
+        "meaning_vi": "sự tham lam",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tham lam"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tham lam",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183332,
+    "word": "笈",
+    "kana": "きゅう",
+    "senses": [
+      {
+        "sense_id": 432146,
+        "meaning_vi": "hộp mang trên lưng để lưu trữ sách",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp mang trên lưng để lưu trữ sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp mang trên lưng để lưu trữ sách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432147,
+        "meaning_vi": "hộp gỗ đeo sau lưng để đựng đồ đi hành hương",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp gỗ đeo sau lưng để đựng đồ đi hành hương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp gỗ đeo sau lưng để đựng đồ đi hành hương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183333,
+    "word": "笈を負う",
+    "kana": "きゅうをおう",
+    "senses": [
+      {
+        "sense_id": 432148,
+        "meaning_vi": "rời quê hương đi học; mang theo một cặp sách",
+        "confidence": "high",
+        "search_keywords": [
+          "rời quê hương đi học",
+          "mang theo một cặp sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời quê hương đi học; mang theo một cặp sách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183334,
+    "word": "タウンニュース",
+    "kana": "タウンニュース",
+    "senses": [
+      {
+        "sense_id": 432149,
+        "meaning_vi": "báo cộng đồng địa phương",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cộng đồng địa phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cộng đồng địa phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183335,
+    "word": "唐絵",
+    "kana": "からえ",
+    "senses": [
+      {
+        "sense_id": 432150,
+        "meaning_vi": "tranh Trung Quốc; vẽ tranh với chủ đề Trung Quốc; Tranh phong cách Trung Hoa",
+        "confidence": "high",
+        "search_keywords": [
+          "tranh Trung Quốc",
+          "vẽ tranh với chủ đề Trung Quốc",
+          "Tranh phong cách Trung Hoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tranh Trung Quốc; vẽ tranh với chủ đề Trung Quốc; Tranh phong cách Trung Hoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183336,
+    "word": "作絵",
+    "kana": "つくりえ",
+    "senses": [
+      {
+        "sense_id": 432151,
+        "meaning_vi": "tsukuri-e; kỹ thuật vẽ tranh với những nét vẽ ban đầu được tô bằng màu đục và vẽ lại sau đó",
+        "confidence": "high",
+        "search_keywords": [
+          "tsukuri-e",
+          "kỹ thuật vẽ tranh với những nét vẽ ban đầu được tô bằng màu đục và vẽ lại sau đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tsukuri-e; kỹ thuật vẽ tranh với những nét vẽ ban đầu được tô bằng màu đục và vẽ lại sau đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183337,
+    "word": "挙",
+    "kana": "きょ",
+    "senses": [
+      {
+        "sense_id": 432152,
+        "meaning_vi": "hoạt động; hành vi; hành vi; di chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động",
+          "hành vi",
+          "di chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động; hành vi; hành vi; di chuyển",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432153,
+        "meaning_vi": "sự tiến cử (của một người cho một chức vụ)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tiến cử (của một người cho một chức vụ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tiến cử (của một người cho một chức vụ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183338,
+    "word": "吟",
+    "kana": "ぎん",
+    "senses": [
+      {
+        "sense_id": 432154,
+        "meaning_vi": "đọc thuộc lòng (một bài thơ); tụng kinh; ca hát",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc thuộc lòng (một bài thơ)",
+          "tụng kinh",
+          "ca hát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc thuộc lòng (một bài thơ); tụng kinh; ca hát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432155,
+        "meaning_vi": "bố cục (của một bài thơ); bài thơ sáng tác",
+        "confidence": "high",
+        "search_keywords": [
+          "bố cục (của một bài thơ)",
+          "bài thơ sáng tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bố cục (của một bài thơ); bài thơ sáng tác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432156,
+        "meaning_vi": "thể thơ cổ điển Trung Quốc",
+        "confidence": "high",
+        "search_keywords": [
+          "thể thơ cổ điển Trung Quốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thể thơ cổ điển Trung Quốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 432157,
+        "meaning_vi": "sự căng thẳng của âm thanh trong bài hát noh",
+        "confidence": "high",
+        "search_keywords": [
+          "sự căng thẳng của âm thanh trong bài hát noh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự căng thẳng của âm thanh trong bài hát noh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183339,
+    "word": "笥",
+    "kana": "け",
+    "senses": [
+      {
+        "sense_id": 432158,
+        "meaning_vi": "đồ đựng (đặc biệt là đồ ăn)",
+        "confidence": "high",
+        "search_keywords": [
+          "đồ đựng (đặc biệt là đồ ăn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồ đựng (đặc biệt là đồ ăn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

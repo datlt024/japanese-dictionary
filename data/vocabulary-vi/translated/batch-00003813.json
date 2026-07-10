@@ -1,0 +1,907 @@
+[
+  {
+    "vocabulary_id": 94092,
+    "word": "たり",
+    "kana": "たり",
+    "senses": [
+      {
+        "sense_id": 334726,
+        "meaning_vi": "-ing và -ing (ví dụ: “đến và đi”)",
+        "confidence": "high",
+        "search_keywords": [
+          "-ing và -ing (ví dụ: “đến và đi”)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "-ing và -ing (ví dụ: “đến và đi”)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334727,
+        "meaning_vi": "làm những việc như...",
+        "confidence": "high",
+        "search_keywords": [
+          "làm những việc như..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm những việc như...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334728,
+        "meaning_vi": "thể hiện một mệnh lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thể hiện một mệnh lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thể hiện một mệnh lệnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334729,
+        "meaning_vi": "được",
+        "confidence": "high",
+        "search_keywords": [
+          "được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334730,
+        "meaning_vi": "biểu thị sự hoàn thành hoặc tiếp tục của một hành động",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu thị sự hoàn thành hoặc tiếp tục của một hành động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu thị sự hoàn thành hoặc tiếp tục của một hành động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94093,
+    "word": "なり",
+    "kana": "なり",
+    "senses": [
+      {
+        "sense_id": 334731,
+        "meaning_vi": "hoặc cái gì đó; chẳng hạn ... (mặc dù có những lựa chọn phù hợp khác)",
+        "confidence": "high",
+        "search_keywords": [
+          "hoặc cái gì đó",
+          "chẳng hạn ... (mặc dù có những lựa chọn phù hợp khác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoặc cái gì đó; chẳng hạn ... (mặc dù có những lựa chọn phù hợp khác)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334732,
+        "meaning_vi": "... hoặc ...",
+        "confidence": "high",
+        "search_keywords": [
+          "... hoặc ..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "... hoặc ...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334733,
+        "meaning_vi": "càng sớm càng; ngay sau đó",
+        "confidence": "high",
+        "search_keywords": [
+          "càng sớm càng",
+          "ngay sau đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "càng sớm càng; ngay sau đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334734,
+        "meaning_vi": "trong khi vẫn còn; với trạng thái trước đó vẫn còn hiệu lực",
+        "confidence": "high",
+        "search_keywords": [
+          "trong khi vẫn còn",
+          "với trạng thái trước đó vẫn còn hiệu lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong khi vẫn còn; với trạng thái trước đó vẫn còn hiệu lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94094,
+    "word": "ね",
+    "kana": "ね",
+    "senses": [
+      {
+        "sense_id": 334735,
+        "meaning_vi": "Phải?; phải không?; phải không?; phải không?; bạn có nghĩ vậy không?",
+        "confidence": "high",
+        "search_keywords": [
+          "Phải?",
+          "phải không?",
+          "bạn có nghĩ vậy không?"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phải?; phải không?; phải không?; phải không?; bạn có nghĩ vậy không?",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334736,
+        "meaning_vi": "Chào; nói; Nghe; Nhìn; thôi nào",
+        "confidence": "high",
+        "search_keywords": [
+          "Chào",
+          "nói",
+          "Nghe",
+          "Nhìn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chào; nói; Nghe; Nhìn; thôi nào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334737,
+        "meaning_vi": "Bạn biết; bạn thấy đấy; Tôi phải nói; tôi nên nghĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "Bạn biết",
+          "bạn thấy đấy",
+          "Tôi phải nói",
+          "tôi nên nghĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bạn biết; bạn thấy đấy; Tôi phải nói; tôi nên nghĩ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334738,
+        "meaning_vi": "bạn sẽ chứ?; làm ơn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn sẽ chứ?",
+          "làm ơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn sẽ chứ?; làm ơn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334739,
+        "meaning_vi": "Vì thế, ...; Tốt, ...; bạn thấy đấy, ...; bạn hiểu không?",
+        "confidence": "high",
+        "search_keywords": [
+          "Vì thế, ...",
+          "Tốt, ...",
+          "bạn thấy đấy, ...",
+          "bạn hiểu không?"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Vì thế, ...; Tốt, ...; bạn thấy đấy, ...; bạn hiểu không?",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334740,
+        "meaning_vi": "Tôi không chắc liệu ...; Tôi có những nghi ngờ về việc liệu...",
+        "confidence": "high",
+        "search_keywords": [
+          "Tôi không chắc liệu ...",
+          "Tôi có những nghi ngờ về việc liệu..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tôi không chắc liệu ...; Tôi có những nghi ngờ về việc liệu...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94095,
+    "word": "よ",
+    "kana": "よ",
+    "senses": [
+      {
+        "sense_id": 334741,
+        "meaning_vi": "Chào; bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "Chào",
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chào; bạn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334742,
+        "meaning_vi": "này",
+        "confidence": "high",
+        "search_keywords": [
+          "này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "này",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334743,
+        "meaning_vi": "Chào; chờ đã",
+        "confidence": "high",
+        "search_keywords": [
+          "Chào",
+          "chờ đã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chào; chờ đã",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334744,
+        "meaning_vi": "yo; này",
+        "confidence": "high",
+        "search_keywords": [
+          "yo",
+          "này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yo; này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94096,
+    "word": "わ",
+    "kana": "わ",
+    "senses": [
+      {
+        "sense_id": 334745,
+        "meaning_vi": "biểu thị cảm xúc hoặc sự ngưỡng mộ",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu thị cảm xúc hoặc sự ngưỡng mộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu thị cảm xúc hoặc sự ngưỡng mộ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334746,
+        "meaning_vi": "biểu thị sự nhấn mạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu thị sự nhấn mạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu thị sự nhấn mạnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334747,
+        "meaning_vi": "TÔI; tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "TÔI",
+          "tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "TÔI; tôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334748,
+        "meaning_vi": "ôi!",
+        "confidence": "high",
+        "search_keywords": [
+          "ôi!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ôi!",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334749,
+        "meaning_vi": "ù!",
+        "confidence": "high",
+        "search_keywords": [
+          "ù!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ù!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94097,
+    "word": "な",
+    "kana": "な",
+    "senses": [
+      {
+        "sense_id": 334750,
+        "meaning_vi": "đừng",
+        "confidence": "high",
+        "search_keywords": [
+          "đừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đừng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334751,
+        "meaning_vi": "làm",
+        "confidence": "high",
+        "search_keywords": [
+          "làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334752,
+        "meaning_vi": "Chào; Nghe; Nhìn; nói",
+        "confidence": "high",
+        "search_keywords": [
+          "Chào",
+          "Nghe",
+          "Nhìn",
+          "nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chào; Nghe; Nhìn; nói",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334753,
+        "meaning_vi": "Hiện nay, ...; Tốt, ...; Tôi nói cho bạn biết!; bạn biết đấy",
+        "confidence": "high",
+        "search_keywords": [
+          "Hiện nay, ...",
+          "Tốt, ...",
+          "Tôi nói cho bạn biết!",
+          "bạn biết đấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hiện nay, ...; Tốt, ...; Tôi nói cho bạn biết!; bạn biết đấy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334754,
+        "meaning_vi": "Ồ; ôi",
+        "confidence": "high",
+        "search_keywords": [
+          "Ồ",
+          "ôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ồ; ôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334755,
+        "meaning_vi": "Phải?; phải không?; phải không?; phải không?; bạn có nghĩ vậy không?",
+        "confidence": "high",
+        "search_keywords": [
+          "Phải?",
+          "phải không?",
+          "bạn có nghĩ vậy không?"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phải?; phải không?; phải không?; phải không?; bạn có nghĩ vậy không?",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94098,
+    "word": "さ",
+    "kana": "さ",
+    "senses": [
+      {
+        "sense_id": 334756,
+        "meaning_vi": "- tính chất",
+        "confidence": "high",
+        "search_keywords": [
+          "- tính chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "- tính chất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334757,
+        "meaning_vi": "biểu thị sự khẳng định",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu thị sự khẳng định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu thị sự khẳng định",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334758,
+        "meaning_vi": "đến; đến ngay bây giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "đến",
+          "đến ngay bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến; đến ngay bây giờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94099,
+    "word": "ぞ",
+    "kana": "ぞ",
+    "senses": [
+      {
+        "sense_id": 334759,
+        "meaning_vi": "thêm lực hoặc chỉ ra lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thêm lực hoặc chỉ ra lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thêm lực hoặc chỉ ra lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94100,
+    "word": "バーコード頭",
+    "kana": "バーコードあたま",
+    "senses": [
+      {
+        "sense_id": 334760,
+        "meaning_vi": "ai đó có mái tóc chải thành sọc trên chỗ hói của họ",
+        "confidence": "high",
+        "search_keywords": [
+          "ai đó có mái tóc chải thành sọc trên chỗ hói của họ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ai đó có mái tóc chải thành sọc trên chỗ hói của họ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94101,
+    "word": "自宅謹慎",
+    "kana": "じたくきんしん",
+    "senses": [
+      {
+        "sense_id": 334761,
+        "meaning_vi": "giam giữ tại nhà của một người; bị buộc phải ở nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "giam giữ tại nhà của một người",
+          "bị buộc phải ở nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giam giữ tại nhà của một người; bị buộc phải ở nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94102,
+    "word": "サメヒレ",
+    "kana": "サメヒレ",
+    "senses": [
+      {
+        "sense_id": 334763,
+        "meaning_vi": "vây cá mập",
+        "confidence": "high",
+        "search_keywords": [
+          "vây cá mập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vây cá mập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94103,
+    "word": "ごろりと横になる",
+    "kana": "ごろりとよこになる",
+    "senses": [
+      {
+        "sense_id": 334764,
+        "meaning_vi": "ném mình xuống; nằm xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "ném mình xuống",
+          "nằm xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ném mình xuống; nằm xuống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94104,
+    "word": "ごろんと",
+    "kana": "ごろんと",
+    "senses": [
+      {
+        "sense_id": 334765,
+        "meaning_vi": "(đất) với một cú đập mạnh; sự sụt giảm (của một cái gì đó nặng nề); ngã nhào xuống; nặng nề (xoay, xoay, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "(đất) với một cú đập mạnh",
+          "sự sụt giảm (của một cái gì đó nặng nề)",
+          "ngã nhào xuống",
+          "nặng nề (xoay, xoay, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đất) với một cú đập mạnh; sự sụt giảm (của một cái gì đó nặng nề); ngã nhào xuống; nặng nề (xoay, xoay, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334766,
+        "meaning_vi": "(nằm xuống) với một cú ngã; một cách dễ dàng (ném vào)",
+        "confidence": "high",
+        "search_keywords": [
+          "(nằm xuống) với một cú ngã",
+          "một cách dễ dàng (ném vào)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(nằm xuống) với một cú ngã; một cách dễ dàng (ném vào)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 334767,
+        "meaning_vi": "tròn trịa (có hình dạng; của cái gì đó lớn)",
+        "confidence": "high",
+        "search_keywords": [
+          "tròn trịa (có hình dạng",
+          "của cái gì đó lớn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tròn trịa (có hình dạng; của cái gì đó lớn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94105,
+    "word": "アクを取る",
+    "kana": "あくをとる",
+    "senses": [
+      {
+        "sense_id": 334768,
+        "meaning_vi": "để loại bỏ cặn (từ nước dùng hoặc chất lỏng); lướt qua (chất lỏng)",
+        "confidence": "high",
+        "search_keywords": [
+          "để loại bỏ cặn (từ nước dùng hoặc chất lỏng)",
+          "lướt qua (chất lỏng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để loại bỏ cặn (từ nước dùng hoặc chất lỏng); lướt qua (chất lỏng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94106,
+    "word": "不可算名詞",
+    "kana": "ふかさんめいし",
+    "senses": [
+      {
+        "sense_id": 334769,
+        "meaning_vi": "danh từ không đếm được",
+        "confidence": "high",
+        "search_keywords": [
+          "danh từ không đếm được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh từ không đếm được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94107,
+    "word": "痺れを切らす",
+    "kana": "しびれをきらす",
+    "senses": [
+      {
+        "sense_id": 334770,
+        "meaning_vi": "mệt mỏi vì chờ đợi; trở nên mất kiên nhẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "mệt mỏi vì chờ đợi",
+          "trở nên mất kiên nhẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mệt mỏi vì chờ đợi; trở nên mất kiên nhẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94108,
+    "word": "貴信",
+    "kana": "きしん",
+    "senses": [
+      {
+        "sense_id": 334771,
+        "meaning_vi": "thư, v.v. từ một bên khác; thư từ",
+        "confidence": "high",
+        "search_keywords": [
+          "thư, v.v. từ một bên khác",
+          "thư từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư, v.v. từ một bên khác; thư từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94109,
+    "word": "とぎまぎ",
+    "kana": "とぎまぎ",
+    "senses": [
+      {
+        "sense_id": 334772,
+        "meaning_vi": "lú lẫn; hoang mang; bối rối",
+        "confidence": "high",
+        "search_keywords": [
+          "lú lẫn",
+          "hoang mang",
+          "bối rối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lú lẫn; hoang mang; bối rối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94110,
+    "word": "身を引く",
+    "kana": "みをひく",
+    "senses": [
+      {
+        "sense_id": 334773,
+        "meaning_vi": "từ chức; từ bỏ; bước sang một bên; rút lui; nghỉ hưu; để thoát khỏi; tựa lưng; lùi lại; kéo lại",
+        "confidence": "high",
+        "search_keywords": [
+          "từ chức",
+          "từ bỏ",
+          "bước sang một bên",
+          "rút lui"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ chức; từ bỏ; bước sang một bên; rút lui; nghỉ hưu; để thoát khỏi; tựa lưng; lùi lại; kéo lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 94111,
+    "word": "共依存",
+    "kana": "きょういぞん",
+    "senses": [
+      {
+        "sense_id": 334774,
+        "meaning_vi": "sự phụ thuộc lẫn nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phụ thuộc lẫn nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phụ thuộc lẫn nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

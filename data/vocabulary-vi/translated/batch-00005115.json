@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 122831,
+    "word": "確率密度",
+    "kana": "かくりつみつど",
+    "senses": [
+      {
+        "sense_id": 366454,
+        "meaning_vi": "mật độ xác suất",
+        "confidence": "high",
+        "search_keywords": [
+          "mật độ xác suất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mật độ xác suất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122832,
+    "word": "確率理論",
+    "kana": "かくりつりろん",
+    "senses": [
+      {
+        "sense_id": 366455,
+        "meaning_vi": "lý thuyết xác suất",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết xác suất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết xác suất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122833,
+    "word": "学習プログラム",
+    "kana": "がくしゅうプログラム",
+    "senses": [
+      {
+        "sense_id": 366456,
+        "meaning_vi": "chương trình học tập; hướng dẫn trên màn hình",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình học tập",
+          "hướng dẫn trên màn hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình học tập; hướng dẫn trên màn hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122834,
+    "word": "学習機械",
+    "kana": "がくしゅうきかい",
+    "senses": [
+      {
+        "sense_id": 366457,
+        "meaning_vi": "máy học tập",
+        "confidence": "high",
+        "search_keywords": [
+          "máy học tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy học tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122835,
+    "word": "学習機能",
+    "kana": "がくしゅうきのう",
+    "senses": [
+      {
+        "sense_id": 366458,
+        "meaning_vi": "chức năng học tập",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng học tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng học tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122836,
+    "word": "割り込みコントローラ",
+    "kana": "わりこみコントローラ",
+    "senses": [
+      {
+        "sense_id": 366459,
+        "meaning_vi": "bộ điều khiển ngắt",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ điều khiển ngắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ điều khiển ngắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122837,
+    "word": "割り込みサービスルーチン",
+    "kana": "わりこみサービスルーチン",
+    "senses": [
+      {
+        "sense_id": 366460,
+        "meaning_vi": "gián đoạn dịch vụ thường lệ",
+        "confidence": "high",
+        "search_keywords": [
+          "gián đoạn dịch vụ thường lệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gián đoạn dịch vụ thường lệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122838,
+    "word": "割り込みハンドラ",
+    "kana": "わりこみハンドラ",
+    "senses": [
+      {
+        "sense_id": 366461,
+        "meaning_vi": "xử lý ngắt",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý ngắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý ngắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122839,
+    "word": "割り込みベクタ",
+    "kana": "わりこみベクタ",
+    "senses": [
+      {
+        "sense_id": 366462,
+        "meaning_vi": "vectơ ngắt",
+        "confidence": "high",
+        "search_keywords": [
+          "vectơ ngắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vectơ ngắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122840,
+    "word": "割り込みベクトル",
+    "kana": "わりこみベクトル",
+    "senses": [
+      {
+        "sense_id": 366463,
+        "meaning_vi": "vectơ ngắt",
+        "confidence": "high",
+        "search_keywords": [
+          "vectơ ngắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vectơ ngắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122841,
+    "word": "割り込み信号",
+    "kana": "わりこみしんごう",
+    "senses": [
+      {
+        "sense_id": 366464,
+        "meaning_vi": "tín hiệu ngắt",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu ngắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu ngắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122842,
+    "word": "割り込み方式",
+    "kana": "わりこみほうしき",
+    "senses": [
+      {
+        "sense_id": 366465,
+        "meaning_vi": "điều khiển bằng ngắt",
+        "confidence": "high",
+        "search_keywords": [
+          "điều khiển bằng ngắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều khiển bằng ngắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122843,
+    "word": "割り込み要求",
+    "kana": "わりこみようきゅう",
+    "senses": [
+      {
+        "sense_id": 366466,
+        "meaning_vi": "Yêu cầu ngắt; IRQ",
+        "confidence": "high",
+        "search_keywords": [
+          "Yêu cầu ngắt",
+          "IRQ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Yêu cầu ngắt; IRQ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122844,
+    "word": "割引サービス",
+    "kana": "わりびきサービス",
+    "senses": [
+      {
+        "sense_id": 366467,
+        "meaning_vi": "dịch vụ giảm giá; dịch vụ giảm giá",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ giảm giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ giảm giá; dịch vụ giảm giá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122845,
+    "word": "割込みレジスタ",
+    "kana": "わりこみレジスタ",
+    "senses": [
+      {
+        "sense_id": 366468,
+        "meaning_vi": "đăng ký ngắt",
+        "confidence": "high",
+        "search_keywords": [
+          "đăng ký ngắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đăng ký ngắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122846,
+    "word": "割込み記号",
+    "kana": "わりこみきごう",
+    "senses": [
+      {
+        "sense_id": 366469,
+        "meaning_vi": "máy xen kẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "máy xen kẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy xen kẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122847,
+    "word": "割込み分類",
+    "kana": "わりこみぶんるい",
+    "senses": [
+      {
+        "sense_id": 366470,
+        "meaning_vi": "xen vào",
+        "confidence": "high",
+        "search_keywords": [
+          "xen vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xen vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122848,
+    "word": "割付けの流れ",
+    "kana": "わりつけのながれ",
+    "senses": [
+      {
+        "sense_id": 366471,
+        "meaning_vi": "luồng bố cục",
+        "confidence": "high",
+        "search_keywords": [
+          "luồng bố cục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luồng bố cục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122849,
+    "word": "割付け構造",
+    "kana": "わりつけこうぞう",
+    "senses": [
+      {
+        "sense_id": 366472,
+        "meaning_vi": "cấu trúc bố trí",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc bố trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc bố trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122850,
+    "word": "割付け順番",
+    "kana": "わりつけじゅんばん",
+    "senses": [
+      {
+        "sense_id": 366473,
+        "meaning_vi": "thứ tự bố trí tuần tự",
+        "confidence": "high",
+        "search_keywords": [
+          "thứ tự bố trí tuần tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thứ tự bố trí tuần tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

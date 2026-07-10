@@ -1,0 +1,558 @@
+[
+  {
+    "vocabulary_id": 19387,
+    "word": "看板倒れ",
+    "kana": "かんばんだおれ",
+    "senses": [
+      {
+        "sense_id": 241865,
+        "meaning_vi": "phô trương",
+        "confidence": "high",
+        "search_keywords": [
+          "phô trương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phô trương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19388,
+    "word": "看板娘",
+    "kana": "かんばんむすめ",
+    "senses": [
+      {
+        "sense_id": 241866,
+        "meaning_vi": "cô gái xinh đẹp thu hút khách hàng vào cửa hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "cô gái xinh đẹp thu hút khách hàng vào cửa hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cô gái xinh đẹp thu hút khách hàng vào cửa hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19389,
+    "word": "看病",
+    "kana": "かんびょう",
+    "senses": [
+      {
+        "sense_id": 241867,
+        "meaning_vi": "điều dưỡng (bệnh nhân)",
+        "confidence": "high",
+        "search_keywords": [
+          "điều dưỡng (bệnh nhân)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều dưỡng (bệnh nhân)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19390,
+    "word": "看病人",
+    "kana": "かんびょうにん",
+    "senses": [
+      {
+        "sense_id": 241868,
+        "meaning_vi": "y tá",
+        "confidence": "high",
+        "search_keywords": [
+          "y tá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "y tá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19391,
+    "word": "看病疲れ",
+    "kana": "かんびょうづかれ",
+    "senses": [
+      {
+        "sense_id": 241869,
+        "meaning_vi": "điều dưỡng mệt mỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "điều dưỡng mệt mỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều dưỡng mệt mỏi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19392,
+    "word": "竿",
+    "kana": "さお",
+    "senses": [
+      {
+        "sense_id": 241870,
+        "meaning_vi": "thanh; cực",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh",
+          "cực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh; cực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 241871,
+        "meaning_vi": "cổ (của đàn shamisen, v.v.); đàn shamisen",
+        "confidence": "high",
+        "search_keywords": [
+          "cổ (của đàn shamisen, v.v.)",
+          "đàn shamisen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cổ (của đàn shamisen, v.v.); đàn shamisen",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 241872,
+        "meaning_vi": "chùm (tức là thanh ngang của cân)",
+        "confidence": "high",
+        "search_keywords": [
+          "chùm (tức là thanh ngang của cân)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chùm (tức là thanh ngang của cân)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 241873,
+        "meaning_vi": "đường đơn (đặc biệt là đội hình bay của ngỗng)",
+        "confidence": "high",
+        "search_keywords": [
+          "đường đơn (đặc biệt là đội hình bay của ngỗng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường đơn (đặc biệt là đội hình bay của ngỗng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 241874,
+        "meaning_vi": "dương vật",
+        "confidence": "high",
+        "search_keywords": [
+          "dương vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dương vật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 241875,
+        "meaning_vi": "quầy đựng cờ (trên cột); quầy bán đồ ngọt Nhật Bản dài và mỏng (ví dụ: yōkan)",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy đựng cờ (trên cột)",
+          "quầy bán đồ ngọt Nhật Bản dài và mỏng (ví dụ: yōkan)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy đựng cờ (trên cột); quầy bán đồ ngọt Nhật Bản dài và mỏng (ví dụ: yōkan)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19393,
+    "word": "さお竹",
+    "kana": "さおだけ",
+    "senses": [
+      {
+        "sense_id": 241876,
+        "meaning_vi": "cọc tre",
+        "confidence": "high",
+        "search_keywords": [
+          "cọc tre"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cọc tre",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19394,
+    "word": "管楽器",
+    "kana": "かんがっき",
+    "senses": [
+      {
+        "sense_id": 241877,
+        "meaning_vi": "nhạc cụ hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "nhạc cụ hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhạc cụ hơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19395,
+    "word": "管轄",
+    "kana": "かんかつ",
+    "senses": [
+      {
+        "sense_id": 241878,
+        "meaning_vi": "quyền tài phán; kiểm soát",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền tài phán",
+          "kiểm soát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền tài phán; kiểm soát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19396,
+    "word": "管轄官庁",
+    "kana": "かんかつかんちょう",
+    "senses": [
+      {
+        "sense_id": 241879,
+        "meaning_vi": "văn phòng kiểm soát; cơ quan có thẩm quyền (chính phủ)",
+        "confidence": "high",
+        "search_keywords": [
+          "văn phòng kiểm soát",
+          "cơ quan có thẩm quyền (chính phủ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "văn phòng kiểm soát; cơ quan có thẩm quyền (chính phủ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19397,
+    "word": "管区",
+    "kana": "かんく",
+    "senses": [
+      {
+        "sense_id": 241880,
+        "meaning_vi": "thẩm quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "thẩm quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẩm quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19398,
+    "word": "管弦",
+    "kana": "かんげん",
+    "senses": [
+      {
+        "sense_id": 241881,
+        "meaning_vi": "nhạc cụ gió và dây; âm nhạc",
+        "confidence": "high",
+        "search_keywords": [
+          "nhạc cụ gió và dây",
+          "âm nhạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhạc cụ gió và dây; âm nhạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19399,
+    "word": "管弦楽",
+    "kana": "かんげんがく",
+    "senses": [
+      {
+        "sense_id": 241882,
+        "meaning_vi": "dàn nhạc",
+        "confidence": "high",
+        "search_keywords": [
+          "dàn nhạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dàn nhạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19400,
+    "word": "管弦楽団",
+    "kana": "かんげんがくだん",
+    "senses": [
+      {
+        "sense_id": 241883,
+        "meaning_vi": "dàn nhạc",
+        "confidence": "high",
+        "search_keywords": [
+          "dàn nhạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dàn nhạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19401,
+    "word": "管掌",
+    "kana": "かんしょう",
+    "senses": [
+      {
+        "sense_id": 241884,
+        "meaning_vi": "phụ trách; quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "phụ trách",
+          "quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phụ trách; quản lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19402,
+    "word": "管制",
+    "kana": "かんせい",
+    "senses": [
+      {
+        "sense_id": 241885,
+        "meaning_vi": "kiểm soát (của nhà nước); kiểm soát; phối hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát (của nhà nước)",
+          "kiểm soát",
+          "phối hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát (của nhà nước); kiểm soát; phối hợp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 241886,
+        "meaning_vi": "kiểm soát không lưu",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát không lưu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát không lưu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19403,
+    "word": "管制塔",
+    "kana": "かんせいとう",
+    "senses": [
+      {
+        "sense_id": 241887,
+        "meaning_vi": "tháp điều khiển",
+        "confidence": "high",
+        "search_keywords": [
+          "tháp điều khiển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tháp điều khiển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19404,
+    "word": "管端",
+    "kana": "かんたん",
+    "senses": [
+      {
+        "sense_id": 241888,
+        "meaning_vi": "phần cuối của nhạc cụ hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "phần cuối của nhạc cụ hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần cuối của nhạc cụ hơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19405,
+    "word": "管内",
+    "kana": "かんない",
+    "senses": [
+      {
+        "sense_id": 241889,
+        "meaning_vi": "trong phạm vi quyền hạn (của); quyền tài phán của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "trong phạm vi quyền hạn (của)",
+          "quyền tài phán của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong phạm vi quyền hạn (của); quyền tài phán của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 241890,
+        "meaning_vi": "trong một đường ống",
+        "confidence": "high",
+        "search_keywords": [
+          "trong một đường ống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong một đường ống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 19406,
+    "word": "管理",
+    "kana": "かんり",
+    "senses": [
+      {
+        "sense_id": 241891,
+        "meaning_vi": "điều khiển; quản lý (ví dụ: của một doanh nghiệp)",
+        "confidence": "high",
+        "search_keywords": [
+          "điều khiển",
+          "quản lý (ví dụ: của một doanh nghiệp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều khiển; quản lý (ví dụ: của một doanh nghiệp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

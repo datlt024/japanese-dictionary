@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 126844,
+    "word": "要素集合",
+    "kana": "ようそしゅうごう",
+    "senses": [
+      {
+        "sense_id": 370494,
+        "meaning_vi": "bộ phần tử",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ phần tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ phần tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126845,
+    "word": "要素数",
+    "kana": "ようそすう",
+    "senses": [
+      {
+        "sense_id": 370495,
+        "meaning_vi": "số phần tử (ví dụ: trong một ma trận)",
+        "confidence": "high",
+        "search_keywords": [
+          "số phần tử (ví dụ: trong một ma trận)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số phần tử (ví dụ: trong một ma trận)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126846,
+    "word": "要素宣言",
+    "kana": "ようそせんげん",
+    "senses": [
+      {
+        "sense_id": 370496,
+        "meaning_vi": "khai báo phần tử",
+        "confidence": "high",
+        "search_keywords": [
+          "khai báo phần tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai báo phần tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126847,
+    "word": "要素別処理",
+    "kana": "ようそべつしょり",
+    "senses": [
+      {
+        "sense_id": 370497,
+        "meaning_vi": "nguyên tố",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên tố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên tố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126848,
+    "word": "要望クラス",
+    "kana": "ようぼうクラス",
+    "senses": [
+      {
+        "sense_id": 370498,
+        "meaning_vi": "lớp học ưa thích",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp học ưa thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp học ưa thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126849,
+    "word": "抑止信号",
+    "kana": "よくししんごう",
+    "senses": [
+      {
+        "sense_id": 370499,
+        "meaning_vi": "tín hiệu ức chế",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu ức chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu ức chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126850,
+    "word": "乱呼出し",
+    "kana": "らんよびだし",
+    "senses": [
+      {
+        "sense_id": 370500,
+        "meaning_vi": "truy cập ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126851,
+    "word": "乱数生成",
+    "kana": "らんすうせいせい",
+    "senses": [
+      {
+        "sense_id": 370501,
+        "meaning_vi": "tạo số ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "tạo số ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạo số ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126852,
+    "word": "乱数列",
+    "kana": "らんすうれつ",
+    "senses": [
+      {
+        "sense_id": 370502,
+        "meaning_vi": "dãy số ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "dãy số ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dãy số ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126853,
+    "word": "利用可能",
+    "kana": "りようかのう",
+    "senses": [
+      {
+        "sense_id": 370503,
+        "meaning_vi": "có sẵn; có thể sử dụng được",
+        "confidence": "high",
+        "search_keywords": [
+          "có sẵn",
+          "có thể sử dụng được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có sẵn; có thể sử dụng được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126854,
+    "word": "利用可能ビットレート",
+    "kana": "りようかのうビットレート",
+    "senses": [
+      {
+        "sense_id": 370504,
+        "meaning_vi": "tốc độ bit có sẵn; ABR",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ bit có sẵn",
+          "ABR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ bit có sẵn; ABR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126855,
+    "word": "利用可能時間",
+    "kana": "りようかのうじかん",
+    "senses": [
+      {
+        "sense_id": 370505,
+        "meaning_vi": "thời gian chịu trách nhiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian chịu trách nhiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian chịu trách nhiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126856,
+    "word": "利用可能領域",
+    "kana": "りようかのうりょういき",
+    "senses": [
+      {
+        "sense_id": 370506,
+        "meaning_vi": "khu vực có sẵn",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực có sẵn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực có sẵn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126857,
+    "word": "利用者ＡＳＥ",
+    "kana": "りようしゃエーエスイー",
+    "senses": [
+      {
+        "sense_id": 370507,
+        "meaning_vi": "người dùng-ASE",
+        "confidence": "high",
+        "search_keywords": [
+          "người dùng-ASE"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người dùng-ASE",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126858,
+    "word": "利用者ＩＤ",
+    "kana": "りようしゃアイディー",
+    "senses": [
+      {
+        "sense_id": 370508,
+        "meaning_vi": "ID người dùng",
+        "confidence": "high",
+        "search_keywords": [
+          "ID người dùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ID người dùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126859,
+    "word": "利用者の登録",
+    "kana": "りようしゃのとうろく",
+    "senses": [
+      {
+        "sense_id": 370509,
+        "meaning_vi": "đăng ký người dùng",
+        "confidence": "high",
+        "search_keywords": [
+          "đăng ký người dùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đăng ký người dùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126860,
+    "word": "利用者の認証",
+    "kana": "りようしゃのにんしょう",
+    "senses": [
+      {
+        "sense_id": 370510,
+        "meaning_vi": "xác thực người dùng",
+        "confidence": "high",
+        "search_keywords": [
+          "xác thực người dùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xác thực người dùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126861,
+    "word": "利用者マニュアル",
+    "kana": "りようしゃマニュアル",
+    "senses": [
+      {
+        "sense_id": 370511,
+        "meaning_vi": "hướng dẫn sử dụng; hướng dẫn sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn sử dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn sử dụng; hướng dẫn sử dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126862,
+    "word": "利用者機能",
+    "kana": "りようしゃきのう",
+    "senses": [
+      {
+        "sense_id": 370512,
+        "meaning_vi": "cơ sở người dùng",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở người dùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở người dùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126863,
+    "word": "利用者機能体",
+    "kana": "りようしゃきのうたい",
+    "senses": [
+      {
+        "sense_id": 370513,
+        "meaning_vi": "Tác nhân người dùng; UA",
+        "confidence": "high",
+        "search_keywords": [
+          "Tác nhân người dùng",
+          "UA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tác nhân người dùng; UA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

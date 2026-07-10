@@ -1,0 +1,534 @@
+[
+  {
+    "vocabulary_id": 104305,
+    "word": "ん",
+    "kana": "ん",
+    "senses": [
+      {
+        "sense_id": 346198,
+        "meaning_vi": "Đúng; vâng; ừ ừ",
+        "confidence": "high",
+        "search_keywords": [
+          "Đúng",
+          "vâng",
+          "ừ ừ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đúng; vâng; ừ ừ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346199,
+        "meaning_vi": "hả?; Gì?",
+        "confidence": "high",
+        "search_keywords": [
+          "hả?",
+          "Gì?"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hả?; Gì?",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346200,
+        "meaning_vi": "'S; của; thuộc về",
+        "confidence": "high",
+        "search_keywords": [
+          "'S",
+          "của",
+          "thuộc về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "'S; của; thuộc về",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346201,
+        "meaning_vi": "tại (địa điểm, thời gian); TRONG; TRÊN; trong thời gian",
+        "confidence": "high",
+        "search_keywords": [
+          "tại (địa điểm, thời gian)",
+          "TRONG",
+          "TRÊN",
+          "trong thời gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tại (địa điểm, thời gian); TRONG; TRÊN; trong thời gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104306,
+    "word": "黒人兵",
+    "kana": "こくじんへい",
+    "senses": [
+      {
+        "sense_id": 346202,
+        "meaning_vi": "người lính da đen (tức là người Mỹ gốc Phi); lính trâu",
+        "confidence": "high",
+        "search_keywords": [
+          "người lính da đen (tức là người Mỹ gốc Phi)",
+          "lính trâu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lính da đen (tức là người Mỹ gốc Phi); lính trâu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104307,
+    "word": "力を貸す",
+    "kana": "ちからをかす",
+    "senses": [
+      {
+        "sense_id": 346203,
+        "meaning_vi": "để hỗ trợ; để giúp đỡ",
+        "confidence": "high",
+        "search_keywords": [
+          "để hỗ trợ",
+          "để giúp đỡ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hỗ trợ; để giúp đỡ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104308,
+    "word": "禁固刑",
+    "kana": "きんこけい",
+    "senses": [
+      {
+        "sense_id": 346204,
+        "meaning_vi": "(hình phạt) phạt tù",
+        "confidence": "high",
+        "search_keywords": [
+          "(hình phạt) phạt tù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(hình phạt) phạt tù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104309,
+    "word": "直線補間",
+    "kana": "ちょくせんほかん",
+    "senses": [
+      {
+        "sense_id": 346205,
+        "meaning_vi": "nội suy tuyến tính; nội suy đường thẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "nội suy tuyến tính",
+          "nội suy đường thẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội suy tuyến tính; nội suy đường thẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104310,
+    "word": "ゴカイ類",
+    "kana": "ゴカイるい",
+    "senses": [
+      {
+        "sense_id": 346206,
+        "meaning_vi": "sâu lông; nhựa polychaete",
+        "confidence": "high",
+        "search_keywords": [
+          "sâu lông",
+          "nhựa polychaete"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sâu lông; nhựa polychaete",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104311,
+    "word": "多毛類",
+    "kana": "たもうるい",
+    "senses": [
+      {
+        "sense_id": 346207,
+        "meaning_vi": "sâu lông; nhựa polychaete",
+        "confidence": "high",
+        "search_keywords": [
+          "sâu lông",
+          "nhựa polychaete"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sâu lông; nhựa polychaete",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104312,
+    "word": "頼りになる",
+    "kana": "たよりになる",
+    "senses": [
+      {
+        "sense_id": 346208,
+        "meaning_vi": "đáng tin cậy",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng tin cậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng tin cậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104313,
+    "word": "頼りにする",
+    "kana": "たよりにする",
+    "senses": [
+      {
+        "sense_id": 346209,
+        "meaning_vi": "dựa vào",
+        "confidence": "high",
+        "search_keywords": [
+          "dựa vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dựa vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104314,
+    "word": "頼りに出来る",
+    "kana": "たよりにできる",
+    "senses": [
+      {
+        "sense_id": 346210,
+        "meaning_vi": "đáng tin cậy; đáng tin cậy",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng tin cậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng tin cậy; đáng tin cậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104315,
+    "word": "非常持ち出し袋",
+    "kana": "ひじょうもちだしぶくろ",
+    "senses": [
+      {
+        "sense_id": 346211,
+        "meaning_vi": "túi khẩn cấp; bộ dụng cụ sinh tồn",
+        "confidence": "high",
+        "search_keywords": [
+          "túi khẩn cấp",
+          "bộ dụng cụ sinh tồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "túi khẩn cấp; bộ dụng cụ sinh tồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104316,
+    "word": "角力",
+    "kana": "かくりょく",
+    "senses": [
+      {
+        "sense_id": 346212,
+        "meaning_vi": "so sánh sức mạnh; cuộc thi sức mạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "so sánh sức mạnh",
+          "cuộc thi sức mạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "so sánh sức mạnh; cuộc thi sức mạnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346213,
+        "meaning_vi": "sumo (đấu vật)",
+        "confidence": "high",
+        "search_keywords": [
+          "sumo (đấu vật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sumo (đấu vật)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104317,
+    "word": "腕",
+    "kana": "かいな",
+    "senses": [
+      {
+        "sense_id": 346214,
+        "meaning_vi": "cánh tay",
+        "confidence": "high",
+        "search_keywords": [
+          "cánh tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cánh tay",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346215,
+        "meaning_vi": "cánh tay trên",
+        "confidence": "high",
+        "search_keywords": [
+          "cánh tay trên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cánh tay trên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104318,
+    "word": "ローリエ",
+    "kana": "ローリエ",
+    "senses": [
+      {
+        "sense_id": 346268,
+        "meaning_vi": "lá nguyệt quế",
+        "confidence": "high",
+        "search_keywords": [
+          "lá nguyệt quế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lá nguyệt quế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104319,
+    "word": "ワイン色",
+    "kana": "ワインいろ",
+    "senses": [
+      {
+        "sense_id": 346269,
+        "meaning_vi": "đỏ tía (đỏ)",
+        "confidence": "high",
+        "search_keywords": [
+          "đỏ tía (đỏ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỏ tía (đỏ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104320,
+    "word": "腕を返す",
+    "kana": "かいなをかえす",
+    "senses": [
+      {
+        "sense_id": 346216,
+        "meaning_vi": "đặt cánh tay của một người bên dưới cánh tay của đối phương và nâng chúng lên, để tránh việc nắm quá tay vào mawashi của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt cánh tay của một người bên dưới cánh tay của đối phương và nâng chúng lên, để tránh việc nắm quá tay vào mawashi của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt cánh tay của một người bên dưới cánh tay của đối phương và nâng chúng lên, để tránh việc nắm quá tay vào mawashi của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104321,
+    "word": "柝が入る",
+    "kana": "きがはいる",
+    "senses": [
+      {
+        "sense_id": 346217,
+        "meaning_vi": "vỗ tay bằng gỗ (để báo hiệu sự bắt đầu hoặc kết thúc của buổi biểu diễn)",
+        "confidence": "high",
+        "search_keywords": [
+          "vỗ tay bằng gỗ (để báo hiệu sự bắt đầu hoặc kết thúc của buổi biểu diễn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vỗ tay bằng gỗ (để báo hiệu sự bắt đầu hoặc kết thúc của buổi biểu diễn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104322,
+    "word": "アジア象",
+    "kana": "アジアぞう",
+    "senses": [
+      {
+        "sense_id": 346218,
+        "meaning_vi": "voi châu Á; voi Ấn Độ",
+        "confidence": "high",
+        "search_keywords": [
+          "voi châu Á",
+          "voi Ấn Độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "voi châu Á; voi Ấn Độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104323,
+    "word": "激戦地",
+    "kana": "げきせんち",
+    "senses": [
+      {
+        "sense_id": 346219,
+        "meaning_vi": "nơi diễn ra trận chiến đẫm máu",
+        "confidence": "high",
+        "search_keywords": [
+          "nơi diễn ra trận chiến đẫm máu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nơi diễn ra trận chiến đẫm máu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104324,
+    "word": "脱走者",
+    "kana": "だっそうしゃ",
+    "senses": [
+      {
+        "sense_id": 346220,
+        "meaning_vi": "người trốn thoát; kẻ chạy trốn",
+        "confidence": "high",
+        "search_keywords": [
+          "người trốn thoát",
+          "kẻ chạy trốn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người trốn thoát; kẻ chạy trốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

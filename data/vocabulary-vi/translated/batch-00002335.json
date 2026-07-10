@@ -1,0 +1,515 @@
+[
+  {
+    "vocabulary_id": 61249,
+    "word": "手間賃",
+    "kana": "てまちん",
+    "senses": [
+      {
+        "sense_id": 298150,
+        "meaning_vi": "thanh toán (cho lao động); chi trả; thù lao; tiền lương",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh toán (cho lao động)",
+          "chi trả",
+          "thù lao",
+          "tiền lương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh toán (cho lao động); chi trả; thù lao; tiền lương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61250,
+    "word": "手旗",
+    "kana": "てばた",
+    "senses": [
+      {
+        "sense_id": 298151,
+        "meaning_vi": "cờ semaphore (tay)",
+        "confidence": "high",
+        "search_keywords": [
+          "cờ semaphore (tay)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cờ semaphore (tay)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61251,
+    "word": "手練",
+    "kana": "しゅれん",
+    "senses": [
+      {
+        "sense_id": 298152,
+        "meaning_vi": "kỹ năng; sự khéo léo; bàn tay chủ",
+        "confidence": "high",
+        "search_keywords": [
+          "kỹ năng",
+          "sự khéo léo",
+          "bàn tay chủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỹ năng; sự khéo léo; bàn tay chủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61252,
+    "word": "囚徒",
+    "kana": "しゅうと",
+    "senses": [
+      {
+        "sense_id": 298153,
+        "meaning_vi": "tù nhân; kết án",
+        "confidence": "high",
+        "search_keywords": [
+          "tù nhân",
+          "kết án"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tù nhân; kết án",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61253,
+    "word": "船人",
+    "kana": "ふなびと",
+    "senses": [
+      {
+        "sense_id": 298154,
+        "meaning_vi": "thủy thủ; người chèo thuyền; hành khách",
+        "confidence": "high",
+        "search_keywords": [
+          "thủy thủ",
+          "người chèo thuyền",
+          "hành khách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủy thủ; người chèo thuyền; hành khách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61254,
+    "word": "舟行",
+    "kana": "しゅうこう",
+    "senses": [
+      {
+        "sense_id": 298155,
+        "meaning_vi": "chèo thuyền; đi thuyền; điều hướng",
+        "confidence": "high",
+        "search_keywords": [
+          "chèo thuyền",
+          "đi thuyền",
+          "điều hướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chèo thuyền; đi thuyền; điều hướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61255,
+    "word": "舟運",
+    "kana": "しゅううん",
+    "senses": [
+      {
+        "sense_id": 298156,
+        "meaning_vi": "vận chuyển bằng đường thủy (ví dụ bằng tàu)",
+        "confidence": "high",
+        "search_keywords": [
+          "vận chuyển bằng đường thủy (ví dụ bằng tàu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vận chuyển bằng đường thủy (ví dụ bằng tàu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61256,
+    "word": "逐日",
+    "kana": "ちくじつ",
+    "senses": [
+      {
+        "sense_id": 298157,
+        "meaning_vi": "ngày này qua ngày khác; mỗi ngày; với mỗi ngày trôi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày này qua ngày khác",
+          "mỗi ngày",
+          "với mỗi ngày trôi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày này qua ngày khác; mỗi ngày; với mỗi ngày trôi qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61257,
+    "word": "衆徒",
+    "kana": "しゅと",
+    "senses": [
+      {
+        "sense_id": 298158,
+        "meaning_vi": "nhiều linh mục",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiều linh mục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiều linh mục",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298159,
+        "meaning_vi": "(thời Heian) tu sĩ-binh lính",
+        "confidence": "high",
+        "search_keywords": [
+          "(thời Heian) tu sĩ-binh lính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(thời Heian) tu sĩ-binh lính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61258,
+    "word": "翠玉",
+    "kana": "すいぎょく",
+    "senses": [
+      {
+        "sense_id": 298160,
+        "meaning_vi": "ngọc lục bảo",
+        "confidence": "high",
+        "search_keywords": [
+          "ngọc lục bảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngọc lục bảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61259,
+    "word": "酔い覚め",
+    "kana": "よいざめ",
+    "senses": [
+      {
+        "sense_id": 298161,
+        "meaning_vi": "phục hồi sau cơn say; tỉnh táo",
+        "confidence": "high",
+        "search_keywords": [
+          "phục hồi sau cơn say",
+          "tỉnh táo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục hồi sau cơn say; tỉnh táo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61260,
+    "word": "酔漢",
+    "kana": "すいかん",
+    "senses": [
+      {
+        "sense_id": 298162,
+        "meaning_vi": "người say rượu; gã say rượu",
+        "confidence": "high",
+        "search_keywords": [
+          "người say rượu",
+          "gã say rượu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người say rượu; gã say rượu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61261,
+    "word": "酔いしれる",
+    "kana": "よいしれる",
+    "senses": [
+      {
+        "sense_id": 298163,
+        "meaning_vi": "bị mê hoặc (với rượu); bị say",
+        "confidence": "high",
+        "search_keywords": [
+          "bị mê hoặc (với rượu)",
+          "bị say"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị mê hoặc (với rượu); bị say",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298164,
+        "meaning_vi": "bị mê đắm; bị mê hoặc; được mang đi",
+        "confidence": "high",
+        "search_keywords": [
+          "bị mê đắm",
+          "bị mê hoặc",
+          "được mang đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị mê đắm; bị mê hoặc; được mang đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61262,
+    "word": "酔態",
+    "kana": "すいたい",
+    "senses": [
+      {
+        "sense_id": 298165,
+        "meaning_vi": "say rượu; sự say sưa",
+        "confidence": "high",
+        "search_keywords": [
+          "say rượu",
+          "sự say sưa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "say rượu; sự say sưa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61263,
+    "word": "峻嶺",
+    "kana": "しゅんれい",
+    "senses": [
+      {
+        "sense_id": 298166,
+        "meaning_vi": "đỉnh dốc; sườn dốc; núi cao hiểm trở",
+        "confidence": "high",
+        "search_keywords": [
+          "đỉnh dốc",
+          "sườn dốc",
+          "núi cao hiểm trở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỉnh dốc; sườn dốc; núi cao hiểm trở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61264,
+    "word": "寸描",
+    "kana": "すんびょう",
+    "senses": [
+      {
+        "sense_id": 298167,
+        "meaning_vi": "phác thảo hình thu nhỏ; phác thảo ngắn gọn",
+        "confidence": "high",
+        "search_keywords": [
+          "phác thảo hình thu nhỏ",
+          "phác thảo ngắn gọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phác thảo hình thu nhỏ; phác thảo ngắn gọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61265,
+    "word": "寸鉄",
+    "kana": "すんてつ",
+    "senses": [
+      {
+        "sense_id": 298168,
+        "meaning_vi": "lưỡi ngắn; vũ khí nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "lưỡi ngắn",
+          "vũ khí nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưỡi ngắn; vũ khí nhỏ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298169,
+        "meaning_vi": "biểu tượng; câu nói súc tích",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng",
+          "câu nói súc tích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng; câu nói súc tích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61266,
+    "word": "村落",
+    "kana": "そんらく",
+    "senses": [
+      {
+        "sense_id": 298170,
+        "meaning_vi": "làng bản; thôn; giải quyết",
+        "confidence": "high",
+        "search_keywords": [
+          "làng bản",
+          "thôn",
+          "giải quyết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làng bản; thôn; giải quyết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61267,
+    "word": "存外",
+    "kana": "ぞんがい",
+    "senses": [
+      {
+        "sense_id": 298171,
+        "meaning_vi": "ngoài mong đợi; trái với mong đợi; bất ngờ",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoài mong đợi",
+          "trái với mong đợi",
+          "bất ngờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoài mong đợi; trái với mong đợi; bất ngờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61268,
+    "word": "存立",
+    "kana": "そんりつ",
+    "senses": [
+      {
+        "sense_id": 298172,
+        "meaning_vi": "sự tồn tại; sinh kế",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tồn tại",
+          "sinh kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tồn tại; sinh kế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

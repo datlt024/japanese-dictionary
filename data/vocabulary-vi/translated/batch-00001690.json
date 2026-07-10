@@ -1,0 +1,665 @@
+[
+  {
+    "vocabulary_id": 43714,
+    "word": "忍従",
+    "kana": "にんじゅう",
+    "senses": [
+      {
+        "sense_id": 274463,
+        "meaning_vi": "trình; từ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "trình",
+          "từ chức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình; từ chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43715,
+    "word": "忍術",
+    "kana": "にんじゅつ",
+    "senses": [
+      {
+        "sense_id": 274464,
+        "meaning_vi": "nhẫn thuật; kỹ thuật chiến đấu và lén lút được ninja sử dụng để làm gián điệp, phá hoại, ám sát, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "nhẫn thuật",
+          "kỹ thuật chiến đấu và lén lút được ninja sử dụng để làm gián điệp, phá hoại, ám sát, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhẫn thuật; kỹ thuật chiến đấu và lén lút được ninja sử dụng để làm gián điệp, phá hoại, ám sát, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43716,
+    "word": "忍耐",
+    "kana": "にんたい",
+    "senses": [
+      {
+        "sense_id": 274465,
+        "meaning_vi": "sức chịu đựng; sự kiên trì; kiên nhẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "sức chịu đựng",
+          "sự kiên trì",
+          "kiên nhẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức chịu đựng; sự kiên trì; kiên nhẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43717,
+    "word": "忍法",
+    "kana": "にんぽう",
+    "senses": [
+      {
+        "sense_id": 274466,
+        "meaning_vi": "nghệ thuật ninja",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ thuật ninja"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ thuật ninja",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43718,
+    "word": "認める",
+    "kana": "したためる",
+    "senses": [
+      {
+        "sense_id": 274467,
+        "meaning_vi": "để viết (ví dụ: một lá thư); soạn thảo (một tài liệu); gỡ xuống (ví dụ: ghi chú)",
+        "confidence": "high",
+        "search_keywords": [
+          "để viết (ví dụ: một lá thư)",
+          "soạn thảo (một tài liệu)",
+          "gỡ xuống (ví dụ: ghi chú)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để viết (ví dụ: một lá thư); soạn thảo (một tài liệu); gỡ xuống (ví dụ: ghi chú)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274468,
+        "meaning_vi": "để có (bữa trưa, bữa tối, v.v.); ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "để có (bữa trưa, bữa tối, v.v.)",
+          "ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để có (bữa trưa, bữa tối, v.v.); ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43719,
+    "word": "認める",
+    "kana": "みとめる",
+    "senses": [
+      {
+        "sense_id": 274469,
+        "meaning_vi": "để nhận ra; để nhận ra; quan sát; để ý",
+        "confidence": "high",
+        "search_keywords": [
+          "để nhận ra",
+          "quan sát",
+          "để ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nhận ra; để nhận ra; quan sát; để ý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274470,
+        "meaning_vi": "cho rằng ; phán xét; để đánh giá",
+        "confidence": "high",
+        "search_keywords": [
+          "cho rằng",
+          "phán xét",
+          "để đánh giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cho rằng ; phán xét; để đánh giá",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274471,
+        "meaning_vi": "phê duyệt; được cho là có thể chấp nhận được; cho phép",
+        "confidence": "high",
+        "search_keywords": [
+          "phê duyệt",
+          "được cho là có thể chấp nhận được",
+          "cho phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phê duyệt; được cho là có thể chấp nhận được; cho phép",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274472,
+        "meaning_vi": "thừa nhận ; chấp nhận; thú nhận (một tội lỗi)",
+        "confidence": "high",
+        "search_keywords": [
+          "thừa nhận",
+          "chấp nhận",
+          "thú nhận (một tội lỗi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thừa nhận ; chấp nhận; thú nhận (một tội lỗi)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274473,
+        "meaning_vi": "để xem đều đặn; quan sát cẩn thận",
+        "confidence": "high",
+        "search_keywords": [
+          "để xem đều đặn",
+          "quan sát cẩn thận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để xem đều đặn; quan sát cẩn thận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274474,
+        "meaning_vi": "để nổi tiếng; mang lại danh tiếng cho; đánh giá cao; thừa nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "để nổi tiếng",
+          "mang lại danh tiếng cho",
+          "đánh giá cao",
+          "thừa nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nổi tiếng; mang lại danh tiếng cho; đánh giá cao; thừa nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43720,
+    "word": "認可",
+    "kana": "にんか",
+    "senses": [
+      {
+        "sense_id": 274475,
+        "meaning_vi": "sự chấp thuận; giấy phép; giấy phép; sự cho phép",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chấp thuận",
+          "giấy phép",
+          "sự cho phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chấp thuận; giấy phép; giấy phép; sự cho phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43721,
+    "word": "認識",
+    "kana": "にんしき",
+    "senses": [
+      {
+        "sense_id": 274476,
+        "meaning_vi": "sự công nhận; nhận thức; sự nhận thức; sự hiểu biết; kiến thức; nhận thức; nhận thức; nhận thức",
+        "confidence": "high",
+        "search_keywords": [
+          "sự công nhận",
+          "nhận thức",
+          "sự nhận thức",
+          "sự hiểu biết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự công nhận; nhận thức; sự nhận thức; sự hiểu biết; kiến thức; nhận thức; nhận thức; nhận thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43722,
+    "word": "認証",
+    "kana": "にんしょう",
+    "senses": [
+      {
+        "sense_id": 274477,
+        "meaning_vi": "chứng nhận; chứng thực; xác thực; xác nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng nhận",
+          "chứng thực",
+          "xác thực",
+          "xác nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng nhận; chứng thực; xác thực; xác nhận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274478,
+        "meaning_vi": "chứng thực của hoàng gia",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng thực của hoàng gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng thực của hoàng gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43723,
+    "word": "認証者",
+    "kana": "にんしょうしゃ",
+    "senses": [
+      {
+        "sense_id": 274479,
+        "meaning_vi": "người chứng nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "người chứng nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người chứng nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43724,
+    "word": "認知",
+    "kana": "にんち",
+    "senses": [
+      {
+        "sense_id": 274480,
+        "meaning_vi": "thừa nhận; sự thừa nhận; sự công nhận; nhận thức",
+        "confidence": "high",
+        "search_keywords": [
+          "thừa nhận",
+          "sự thừa nhận",
+          "sự công nhận",
+          "nhận thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thừa nhận; sự thừa nhận; sự công nhận; nhận thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43725,
+    "word": "認定",
+    "kana": "にんてい",
+    "senses": [
+      {
+        "sense_id": 274481,
+        "meaning_vi": "ủy quyền; ủy quyền; sự thừa nhận; thừa nhận; chứng nhận; sự công nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy quyền",
+          "sự thừa nhận",
+          "thừa nhận",
+          "chứng nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy quyền; ủy quyền; sự thừa nhận; thừa nhận; chứng nhận; sự công nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43726,
+    "word": "認否",
+    "kana": "にんぴ",
+    "senses": [
+      {
+        "sense_id": 274482,
+        "meaning_vi": "chấp thuận hoặc không chấp thuận; thừa nhận hoặc từ chối",
+        "confidence": "high",
+        "search_keywords": [
+          "chấp thuận hoặc không chấp thuận",
+          "thừa nhận hoặc từ chối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấp thuận hoặc không chấp thuận; thừa nhận hoặc từ chối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43727,
+    "word": "濡らす",
+    "kana": "ぬらす",
+    "senses": [
+      {
+        "sense_id": 274483,
+        "meaning_vi": "làm ướt; làm ẩm; làm ẩm; ngâm; nhúng",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ướt",
+          "làm ẩm",
+          "ngâm",
+          "nhúng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ướt; làm ẩm; làm ẩm; ngâm; nhúng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43728,
+    "word": "濡れる",
+    "kana": "ぬれる",
+    "senses": [
+      {
+        "sense_id": 274484,
+        "meaning_vi": "bị ướt",
+        "confidence": "high",
+        "search_keywords": [
+          "bị ướt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị ướt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43729,
+    "word": "葱",
+    "kana": "ねぎ",
+    "senses": [
+      {
+        "sense_id": 274485,
+        "meaning_vi": "Hành tây xứ Wales (Allium fisulosum); bó hành Nhật; hành lá; hành lá; hành lá",
+        "confidence": "high",
+        "search_keywords": [
+          "Hành tây xứ Wales (Allium fisulosum)",
+          "bó hành Nhật",
+          "hành lá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hành tây xứ Wales (Allium fisulosum); bó hành Nhật; hành lá; hành lá; hành lá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43730,
+    "word": "猫",
+    "kana": "ねこ",
+    "senses": [
+      {
+        "sense_id": 274486,
+        "meaning_vi": "mèo (đặc biệt là mèo nhà, Felis catus); giống mèo",
+        "confidence": "high",
+        "search_keywords": [
+          "mèo (đặc biệt là mèo nhà, Felis catus)",
+          "giống mèo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mèo (đặc biệt là mèo nhà, Felis catus); giống mèo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274487,
+        "meaning_vi": "đàn shamisen",
+        "confidence": "high",
+        "search_keywords": [
+          "đàn shamisen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đàn shamisen",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274488,
+        "meaning_vi": "geisha",
+        "confidence": "low",
+        "search_keywords": [
+          "geisha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "geisha",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274489,
+        "meaning_vi": "xe cút kít",
+        "confidence": "high",
+        "search_keywords": [
+          "xe cút kít"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe cút kít",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274490,
+        "meaning_vi": "máy sưởi giường bằng đất sét",
+        "confidence": "high",
+        "search_keywords": [
+          "máy sưởi giường bằng đất sét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy sưởi giường bằng đất sét",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274491,
+        "meaning_vi": "phía dưới (đối tác phục tùng của một mối quan hệ đồng giới)",
+        "confidence": "high",
+        "search_keywords": [
+          "phía dưới (đối tác phục tùng của một mối quan hệ đồng giới)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phía dưới (đối tác phục tùng của một mối quan hệ đồng giới)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43731,
+    "word": "猫に小判",
+    "kana": "ねこにこばん",
+    "senses": [
+      {
+        "sense_id": 274492,
+        "meaning_vi": "ném ngọc trai trước mặt lợn; (tặng) một đồng tiền vàng cho một con mèo",
+        "confidence": "high",
+        "search_keywords": [
+          "ném ngọc trai trước mặt lợn",
+          "(tặng) một đồng tiền vàng cho một con mèo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ném ngọc trai trước mặt lợn; (tặng) một đồng tiền vàng cho một con mèo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43732,
+    "word": "猫の額のような",
+    "kana": "ねこのひたいのような",
+    "senses": [
+      {
+        "sense_id": 274493,
+        "meaning_vi": "rất nhỏ (đặc biệt là trong một căn phòng hoặc căn hộ)",
+        "confidence": "high",
+        "search_keywords": [
+          "rất nhỏ (đặc biệt là trong một căn phòng hoặc căn hộ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất nhỏ (đặc biệt là trong một căn phòng hoặc căn hộ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43733,
+    "word": "年少者",
+    "kana": "ねんしょうしゃ",
+    "senses": [
+      {
+        "sense_id": 274638,
+        "meaning_vi": "thiếu niên; người vị thành niên; giới trẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu niên",
+          "người vị thành niên",
+          "giới trẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu niên; người vị thành niên; giới trẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

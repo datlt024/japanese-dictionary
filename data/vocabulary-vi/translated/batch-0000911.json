@@ -1,0 +1,587 @@
+[
+  {
+    "vocabulary_id": 22747,
+    "word": "刑事",
+    "kana": "けいじ",
+    "senses": [
+      {
+        "sense_id": 246371,
+        "meaning_vi": "(cảnh sát) thám tử",
+        "confidence": "high",
+        "search_keywords": [
+          "(cảnh sát) thám tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cảnh sát) thám tử",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246372,
+        "meaning_vi": "vấn đề hình sự",
+        "confidence": "high",
+        "search_keywords": [
+          "vấn đề hình sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vấn đề hình sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22748,
+    "word": "軍容",
+    "kana": "ぐんよう",
+    "senses": [
+      {
+        "sense_id": 246296,
+        "meaning_vi": "trang bị quân sự; trang bị quân sự; sự hình thành quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "trang bị quân sự",
+          "sự hình thành quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang bị quân sự; trang bị quân sự; sự hình thành quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22749,
+    "word": "軍用",
+    "kana": "ぐんよう",
+    "senses": [
+      {
+        "sense_id": 246297,
+        "meaning_vi": "dùng cho quân sự",
+        "confidence": "high",
+        "search_keywords": [
+          "dùng cho quân sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dùng cho quân sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22750,
+    "word": "軍用艦",
+    "kana": "ぐんようかん",
+    "senses": [
+      {
+        "sense_id": 246298,
+        "meaning_vi": "tàu quân sự",
+        "confidence": "high",
+        "search_keywords": [
+          "tàu quân sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tàu quân sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22751,
+    "word": "軍用機",
+    "kana": "ぐんようき",
+    "senses": [
+      {
+        "sense_id": 246299,
+        "meaning_vi": "máy bay quân sự",
+        "confidence": "high",
+        "search_keywords": [
+          "máy bay quân sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy bay quân sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23001,
+    "word": "経理",
+    "kana": "けいり",
+    "senses": [
+      {
+        "sense_id": 246638,
+        "meaning_vi": "kế toán; quản lý (tiền)",
+        "confidence": "high",
+        "search_keywords": [
+          "kế toán",
+          "quản lý (tiền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kế toán; quản lý (tiền)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23002,
+    "word": "経歴",
+    "kana": "けいれき",
+    "senses": [
+      {
+        "sense_id": 246639,
+        "meaning_vi": "lịch sử cá nhân; lý lịch; sự nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "lịch sử cá nhân",
+          "lý lịch",
+          "sự nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lịch sử cá nhân; lý lịch; sự nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23003,
+    "word": "経路",
+    "kana": "けいろ",
+    "senses": [
+      {
+        "sense_id": 246640,
+        "meaning_vi": "khóa học; tuyến đường; con đường; kênh",
+        "confidence": "high",
+        "search_keywords": [
+          "khóa học",
+          "tuyến đường",
+          "con đường",
+          "kênh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóa học; tuyến đường; con đường; kênh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246641,
+        "meaning_vi": "quá trình; giai đoạn",
+        "confidence": "high",
+        "search_keywords": [
+          "quá trình",
+          "giai đoạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình; giai đoạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23004,
+    "word": "経路積分",
+    "kana": "けいろせきぶん",
+    "senses": [
+      {
+        "sense_id": 246642,
+        "meaning_vi": "tích phân đường dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "tích phân đường dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tích phân đường dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23005,
+    "word": "継ぎ合わせる",
+    "kana": "つぎあわせる",
+    "senses": [
+      {
+        "sense_id": 246643,
+        "meaning_vi": "tham gia cùng nhau; để vá lại với nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "tham gia cùng nhau",
+          "để vá lại với nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham gia cùng nhau; để vá lại với nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23006,
+    "word": "継ぎ接ぎ",
+    "kana": "つぎはぎ",
+    "senses": [
+      {
+        "sense_id": 246644,
+        "meaning_vi": "vá (quần áo); sự nguyền rủa",
+        "confidence": "high",
+        "search_keywords": [
+          "vá (quần áo)",
+          "sự nguyền rủa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vá (quần áo); sự nguyền rủa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246645,
+        "meaning_vi": "cùng nhau viết lách (bài viết, suy nghĩ của người khác, v.v.); tụ tập",
+        "confidence": "high",
+        "search_keywords": [
+          "cùng nhau viết lách (bài viết, suy nghĩ của người khác, v.v.)",
+          "tụ tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cùng nhau viết lách (bài viết, suy nghĩ của người khác, v.v.); tụ tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23007,
+    "word": "継ぎ足す",
+    "kana": "つぎたす",
+    "senses": [
+      {
+        "sense_id": 246646,
+        "meaning_vi": "để mở rộng (ví dụ: một ngôi nhà); thêm vào (ví dụ: thêm than vào lửa)",
+        "confidence": "high",
+        "search_keywords": [
+          "để mở rộng (ví dụ: một ngôi nhà)",
+          "thêm vào (ví dụ: thêm than vào lửa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để mở rộng (ví dụ: một ngôi nhà); thêm vào (ví dụ: thêm than vào lửa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23008,
+    "word": "継ぐ",
+    "kana": "つぐ",
+    "senses": [
+      {
+        "sense_id": 246647,
+        "meaning_vi": "để thành công (một người, một vị trí, v.v.); kế thừa; tiếp quản; đi theo",
+        "confidence": "high",
+        "search_keywords": [
+          "để thành công (một người, một vị trí, v.v.)",
+          "kế thừa",
+          "tiếp quản",
+          "đi theo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thành công (một người, một vị trí, v.v.); kế thừa; tiếp quản; đi theo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246648,
+        "meaning_vi": "vá (quần áo); sửa chữa ; sửa chữa",
+        "confidence": "high",
+        "search_keywords": [
+          "vá (quần áo)",
+          "sửa chữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vá (quần áo); sửa chữa ; sửa chữa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246649,
+        "meaning_vi": "thêm (ví dụ: than vào lửa); để bổ sung; để cho ăn; để theo dõi (ví dụ: nhận xét); thu thập (hơi thở của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "thêm (ví dụ: than vào lửa)",
+          "để bổ sung",
+          "để cho ăn",
+          "để theo dõi (ví dụ: nhận xét)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thêm (ví dụ: than vào lửa); để bổ sung; để cho ăn; để theo dõi (ví dụ: nhận xét); thu thập (hơi thở của một người)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246650,
+        "meaning_vi": "để kết nối (đá)",
+        "confidence": "high",
+        "search_keywords": [
+          "để kết nối (đá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kết nối (đá)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23009,
+    "word": "継嗣",
+    "kana": "けいし",
+    "senses": [
+      {
+        "sense_id": 246651,
+        "meaning_vi": "người kế nhiệm; người thừa kế; người thừa kế",
+        "confidence": "high",
+        "search_keywords": [
+          "người kế nhiệm",
+          "người thừa kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người kế nhiệm; người thừa kế; người thừa kế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23010,
+    "word": "継子",
+    "kana": "ままこ",
+    "senses": [
+      {
+        "sense_id": 246652,
+        "meaning_vi": "con riêng",
+        "confidence": "high",
+        "search_keywords": [
+          "con riêng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con riêng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23011,
+    "word": "継承",
+    "kana": "けいしょう",
+    "senses": [
+      {
+        "sense_id": 246653,
+        "meaning_vi": "thừa kế; kế thừa; sự gia nhập",
+        "confidence": "high",
+        "search_keywords": [
+          "thừa kế",
+          "kế thừa",
+          "sự gia nhập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thừa kế; kế thừa; sự gia nhập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246654,
+        "meaning_vi": "chia sẻ tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "chia sẻ tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chia sẻ tương tự",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246655,
+        "meaning_vi": "sự kế thừa",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kế thừa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kế thừa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23012,
+    "word": "継承者",
+    "kana": "けいしょうしゃ",
+    "senses": [
+      {
+        "sense_id": 246656,
+        "meaning_vi": "người kế vị",
+        "confidence": "high",
+        "search_keywords": [
+          "người kế vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người kế vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23013,
+    "word": "継走",
+    "kana": "けいそう",
+    "senses": [
+      {
+        "sense_id": 246657,
+        "meaning_vi": "cuộc đua tiếp sức",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc đua tiếp sức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc đua tiếp sức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23014,
+    "word": "継続",
+    "kana": "けいぞく",
+    "senses": [
+      {
+        "sense_id": 246658,
+        "meaning_vi": "tiếp tục; tiếp tục; BẢO TRÌ; sự kiên trì; đang diễn ra",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp tục",
+          "BẢO TRÌ",
+          "sự kiên trì",
+          "đang diễn ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp tục; tiếp tục; BẢO TRÌ; sự kiên trì; đang diễn ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23015,
+    "word": "継電器",
+    "kana": "けいでんき",
+    "senses": [
+      {
+        "sense_id": 246659,
+        "meaning_vi": "rơ-le (điện)",
+        "confidence": "high",
+        "search_keywords": [
+          "rơ-le (điện)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rơ-le (điện)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

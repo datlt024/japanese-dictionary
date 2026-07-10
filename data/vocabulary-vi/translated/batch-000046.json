@@ -1,549 +1,507 @@
 [
-{
-"vocabulary_id": 1318,
-"word": "アカウント",
-"kana": "アカウント",
-"senses": [
-{
-"sense_id": 219410,
-"meaning_vi": "tài khoản",
-"confidence": "high",
-"search_keywords": [
-"tài khoản",
-"account"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tài khoản; account trong dịch vụ, hệ thống hoặc mạng xã hội",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1319,
-"word": "アカシア",
-"kana": "アカシア",
-"senses": [
-{
-"sense_id": 219411,
-"meaning_vi": "cây keo",
-"confidence": "high",
-"search_keywords": [
-"cây keo",
-"keo",
-"acacia"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cây keo; cây acacia",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1320,
-"word": "アカデミー",
-"kana": "アカデミー",
-"senses": [
-{
-"sense_id": 219412,
-"meaning_vi": "học viện",
-"confidence": "high",
-"search_keywords": [
-"học viện",
-"viện hàn lâm",
-"academy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "học viện; viện hàn lâm; tổ chức học thuật hoặc đào tạo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219413,
-"meaning_vi": "giới học thuật",
-"confidence": "high",
-"search_keywords": [
-"giới học thuật",
-"học giới",
-"academia"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giới học thuật; môi trường nghiên cứu và giáo dục bậc cao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1321,
-"word": "アカデミシズム",
-"kana": "アカデミシズム",
-"senses": [
-{
-"sense_id": 219414,
-"meaning_vi": "chủ nghĩa hàn lâm",
-"confidence": "high",
-"search_keywords": [
-"chủ nghĩa hàn lâm",
-"tính hàn lâm",
-"academicism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chủ nghĩa hàn lâm; khuynh hướng coi trọng chuẩn mực học viện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1322,
-"word": "アカデミシャン",
-"kana": "アカデミシャン",
-"senses": [
-{
-"sense_id": 219415,
-"meaning_vi": "viện sĩ",
-"confidence": "high",
-"search_keywords": [
-"viện sĩ",
-"học giả",
-"academician"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "viện sĩ; thành viên của viện hàn lâm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1323,
-"word": "アカデミズム",
-"kana": "アカデミズム",
-"senses": [
-{
-"sense_id": 219416,
-"meaning_vi": "tính hàn lâm",
-"confidence": "high",
-"search_keywords": [
-"tính hàn lâm",
-"chủ nghĩa hàn lâm",
-"academism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tính hàn lâm; khuynh hướng coi trọng học thuật chính thống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1324,
-"word": "アカデミック",
-"kana": "アカデミック",
-"senses": [
-{
-"sense_id": 219417,
-"meaning_vi": "học thuật",
-"confidence": "high",
-"search_keywords": [
-"học thuật",
-"hàn lâm",
-"academic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "học thuật; hàn lâm; thuộc môi trường nghiên cứu hoặc giáo dục",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1325,
-"word": "アガペー",
-"kana": "アガペー",
-"senses": [
-{
-"sense_id": 219418,
-"meaning_vi": "tình yêu Agape",
-"confidence": "high",
-"search_keywords": [
-"tình yêu Agape",
-"tình yêu bác ái",
-"agape"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tình yêu Agape; tình yêu bác ái, vị tha trong Kitô giáo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219419,
-"meaning_vi": "tiệc Agape",
-"confidence": "high",
-"search_keywords": [
-"tiệc Agape",
-"tiệc bác ái",
-"love feast"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiệc Agape; bữa ăn bác ái trong truyền thống Kitô giáo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1326,
-"word": "アカペラ",
-"kana": "アカペラ",
-"senses": [
-{
-"sense_id": 219420,
-"meaning_vi": "hát không nhạc đệm",
-"confidence": "high",
-"search_keywords": [
-"hát không nhạc đệm",
-"a cappella",
-"hát chay"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hát không có nhạc cụ đệm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1327,
-"word": "アキュムレータ",
-"kana": "アキュムレータ",
-"senses": [
-{
-"sense_id": 219421,
-"meaning_vi": "bình tích áp",
-"confidence": "high",
-"search_keywords": [
-"bình tích áp",
-"bộ tích áp",
-"accumulator"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bình tích áp trong hệ thống thủy lực",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219422,
-"meaning_vi": "thanh ghi tích lũy",
-"confidence": "high",
-"search_keywords": [
-"thanh ghi tích lũy",
-"bộ tích lũy",
-"accumulator"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thanh ghi hoặc biến dùng để tích lũy giá trị trong máy tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1328,
-"word": "アキレス腱",
-"kana": "アキレスけん",
-"senses": [
-{
-"sense_id": 219423,
-"meaning_vi": "gân Achilles",
-"confidence": "high",
-"search_keywords": [
-"gân Achilles",
-"gân gót chân",
-"gân gót"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gân Achilles; gân nối cơ bắp chân với xương gót",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219424,
-"meaning_vi": "điểm yếu chí mạng",
-"confidence": "high",
-"search_keywords": [
-"điểm yếu chí mạng",
-"gót chân Achilles",
-"điểm yếu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điểm yếu chí mạng; nhược điểm dễ bị tấn công",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1329,
-"word": "アコースティック",
-"kana": "アコースティック",
-"senses": [
-{
-"sense_id": 219425,
-"meaning_vi": "acoustic",
-"confidence": "high",
-"search_keywords": [
-"acoustic",
-"nhạc mộc",
-"âm học"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "acoustic; dùng âm thanh tự nhiên, không qua điện tử hóa mạnh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1330,
-"word": "アクアトロン",
-"kana": "アクアトロン",
-"senses": [
-{
-"sense_id": 219426,
-"meaning_vi": "hệ nuôi thủy sinh",
-"confidence": "medium",
-"search_keywords": [
-"hệ nuôi thủy sinh",
-"môi trường thủy sinh nhân tạo",
-"aquatron"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hệ thống điều khiển môi trường nhân tạo cho sinh vật thủy sinh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1331,
-"word": "アクアノート",
-"kana": "アクアノート",
-"senses": [
-{
-"sense_id": 219427,
-"meaning_vi": "nhà thám hiểm biển",
-"confidence": "medium",
-"search_keywords": [
-"nhà thám hiểm biển",
-"người sống dưới biển",
-"aquanaut"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người lặn hoặc sống trong môi trường dưới nước để nghiên cứu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1332,
-"word": "アクアマリン",
-"kana": "アクアマリン",
-"senses": [
-{
-"sense_id": 219428,
-"meaning_vi": "ngọc aquamarine",
-"confidence": "high",
-"search_keywords": [
-"ngọc aquamarine",
-"ngọc xanh biển",
-"aquamarine"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngọc aquamarine; đá quý màu xanh biển nhạt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1333,
-"word": "アクアラング",
-"kana": "アクアラング",
-"senses": [
-{
-"sense_id": 219429,
-"meaning_vi": "bình lặn scuba",
-"confidence": "high",
-"search_keywords": [
-"bình lặn scuba",
-"thiết bị lặn",
-"aqualung"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị lặn scuba, gồm bình khí và bộ thở dưới nước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1334,
-"word": "アクサングラーブ",
-"kana": "アクサングラーブ",
-"senses": [
-{
-"sense_id": 219430,
-"meaning_vi": "dấu huyền",
-"confidence": "high",
-"search_keywords": [
-"dấu huyền",
-"grave accent",
-"accent grave"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dấu huyền trong chữ viết Latinh, như à, è, ù",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1335,
-"word": "アクシデント",
-"kana": "アクシデント",
-"senses": [
-{
-"sense_id": 219431,
-"meaning_vi": "sự cố",
-"confidence": "high",
-"search_keywords": [
-"sự cố",
-"tai nạn",
-"accident"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự cố; tai nạn bất ngờ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1336,
-"word": "アクション",
-"kana": "アクション",
-"senses": [
-{
-"sense_id": 219432,
-"meaning_vi": "hành động",
-"confidence": "high",
-"search_keywords": [
-"hành động",
-"động tác",
-"action"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hành động; động tác; thể loại phim hoặc game hành động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1337,
-"word": "アクションスター",
-"kana": "アクションスター",
-"senses": [
-{
-"sense_id": 219433,
-"meaning_vi": "ngôi sao hành động",
-"confidence": "high",
-"search_keywords": [
-"ngôi sao hành động",
-"diễn viên hành động",
-"action star"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "diễn viên nổi tiếng với phim hành động",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1318,
+    "word": "アカウント",
+    "kana": "アカウント",
+    "senses": [
+      {
+        "sense_id": 219410,
+        "meaning_vi": "tài khoản",
+        "confidence": "high",
+        "search_keywords": [
+          "tài khoản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài khoản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1319,
+    "word": "アカシア",
+    "kana": "アカシア",
+    "senses": [
+      {
+        "sense_id": 219411,
+        "meaning_vi": "keo",
+        "confidence": "high",
+        "search_keywords": [
+          "keo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "keo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1320,
+    "word": "アカデミー",
+    "kana": "アカデミー",
+    "senses": [
+      {
+        "sense_id": 219412,
+        "meaning_vi": "học viện",
+        "confidence": "high",
+        "search_keywords": [
+          "học viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "học viện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219413,
+        "meaning_vi": "học viện",
+        "confidence": "high",
+        "search_keywords": [
+          "học viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "học viện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1321,
+    "word": "アカデミシズム",
+    "kana": "アカデミシズム",
+    "senses": [
+      {
+        "sense_id": 219414,
+        "meaning_vi": "chủ nghĩa hàn lâm",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa hàn lâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa hàn lâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1322,
+    "word": "アカデミシャン",
+    "kana": "アカデミシャン",
+    "senses": [
+      {
+        "sense_id": 219415,
+        "meaning_vi": "học giả",
+        "confidence": "high",
+        "search_keywords": [
+          "học giả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "học giả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1323,
+    "word": "アカデミズム",
+    "kana": "アカデミズム",
+    "senses": [
+      {
+        "sense_id": 219416,
+        "meaning_vi": "học thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "học thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "học thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1324,
+    "word": "アカデミック",
+    "kana": "アカデミック",
+    "senses": [
+      {
+        "sense_id": 219417,
+        "meaning_vi": "học thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "học thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "học thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1325,
+    "word": "アガペー",
+    "kana": "アガペー",
+    "senses": [
+      {
+        "sense_id": 219418,
+        "meaning_vi": "agape",
+        "confidence": "low",
+        "search_keywords": [
+          "agape"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "agape",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219419,
+        "meaning_vi": "lễ agape; bữa tiệc tình yêu; bữa tiệc tình ái",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ agape",
+          "bữa tiệc tình yêu",
+          "bữa tiệc tình ái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ agape; bữa tiệc tình yêu; bữa tiệc tình ái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1326,
+    "word": "アカペラ",
+    "kana": "アカペラ",
+    "senses": [
+      {
+        "sense_id": 219420,
+        "meaning_vi": "một cappella",
+        "confidence": "high",
+        "search_keywords": [
+          "một cappella"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cappella",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1327,
+    "word": "アキュムレータ",
+    "kana": "アキュムレータ",
+    "senses": [
+      {
+        "sense_id": 219421,
+        "meaning_vi": "(thủy lực) ắc quy",
+        "confidence": "high",
+        "search_keywords": [
+          "(thủy lực) ắc quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(thủy lực) ắc quy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219422,
+        "meaning_vi": "ắc quy",
+        "confidence": "high",
+        "search_keywords": [
+          "ắc quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ắc quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1328,
+    "word": "アキレス腱",
+    "kana": "アキレスけん",
+    "senses": [
+      {
+        "sense_id": 219423,
+        "meaning_vi": "gân Achilles; gân xương gót",
+        "confidence": "high",
+        "search_keywords": [
+          "gân Achilles",
+          "gân xương gót"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gân Achilles; gân xương gót",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219424,
+        "meaning_vi": "gót chân Achilles; điểm dễ bị tổn thương",
+        "confidence": "high",
+        "search_keywords": [
+          "gót chân Achilles",
+          "điểm dễ bị tổn thương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gót chân Achilles; điểm dễ bị tổn thương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1329,
+    "word": "アコースティック",
+    "kana": "アコースティック",
+    "senses": [
+      {
+        "sense_id": 219425,
+        "meaning_vi": "âm thanh (nhạc cụ, âm nhạc, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "âm thanh (nhạc cụ, âm nhạc, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm thanh (nhạc cụ, âm nhạc, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1330,
+    "word": "アクアトロン",
+    "kana": "アクアトロン",
+    "senses": [
+      {
+        "sense_id": 219426,
+        "meaning_vi": "Kiểm soát môi trường nhân tạo đối với thực vật, động vật thủy sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "Kiểm soát môi trường nhân tạo đối với thực vật, động vật thủy sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kiểm soát môi trường nhân tạo đối với thực vật, động vật thủy sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1331,
+    "word": "アクアノート",
+    "kana": "アクアノート",
+    "senses": [
+      {
+        "sense_id": 219427,
+        "meaning_vi": "thủy thủ",
+        "confidence": "high",
+        "search_keywords": [
+          "thủy thủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủy thủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1332,
+    "word": "アクアマリン",
+    "kana": "アクアマリン",
+    "senses": [
+      {
+        "sense_id": 219428,
+        "meaning_vi": "aquamarine",
+        "confidence": "low",
+        "search_keywords": [
+          "aquamarine"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "aquamarine",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1333,
+    "word": "アクアラング",
+    "kana": "アクアラング",
+    "senses": [
+      {
+        "sense_id": 219429,
+        "meaning_vi": "lặn biển; thiết bị lặn",
+        "confidence": "high",
+        "search_keywords": [
+          "lặn biển",
+          "thiết bị lặn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lặn biển; thiết bị lặn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1334,
+    "word": "アクサングラーブ",
+    "kana": "アクサングラーブ",
+    "senses": [
+      {
+        "sense_id": 219430,
+        "meaning_vi": "giọng trầm",
+        "confidence": "high",
+        "search_keywords": [
+          "giọng trầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giọng trầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1335,
+    "word": "アクシデント",
+    "kana": "アクシデント",
+    "senses": [
+      {
+        "sense_id": 219431,
+        "meaning_vi": "tai nạn",
+        "confidence": "high",
+        "search_keywords": [
+          "tai nạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tai nạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1336,
+    "word": "アクション",
+    "kana": "アクション",
+    "senses": [
+      {
+        "sense_id": 219432,
+        "meaning_vi": "hành động",
+        "confidence": "high",
+        "search_keywords": [
+          "hành động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1337,
+    "word": "アクションスター",
+    "kana": "アクションスター",
+    "senses": [
+      {
+        "sense_id": 219433,
+        "meaning_vi": "ngôi sao hành động (phim)",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôi sao hành động (phim)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôi sao hành động (phim)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

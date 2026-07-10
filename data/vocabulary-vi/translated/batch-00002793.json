@@ -1,0 +1,466 @@
+[
+  {
+    "vocabulary_id": 71558,
+    "word": "神色自若",
+    "kana": "しんしょくじじゃく",
+    "senses": [
+      {
+        "sense_id": 309796,
+        "meaning_vi": "sự điềm tĩnh hoàn hảo; bình tĩnh và thu thập",
+        "confidence": "high",
+        "search_keywords": [
+          "sự điềm tĩnh hoàn hảo",
+          "bình tĩnh và thu thập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự điềm tĩnh hoàn hảo; bình tĩnh và thu thập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71559,
+    "word": "神灯",
+    "kana": "しんとう",
+    "senses": [
+      {
+        "sense_id": 309797,
+        "meaning_vi": "ánh sáng thiêng liêng",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh sáng thiêng liêng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh sáng thiêng liêng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71560,
+    "word": "神体",
+    "kana": "しんたい",
+    "senses": [
+      {
+        "sense_id": 309798,
+        "meaning_vi": "shintai; đối tượng thờ cúng được cho là chứa đựng linh hồn của một vị thần, thường được đặt trong một ngôi đền",
+        "confidence": "high",
+        "search_keywords": [
+          "shintai",
+          "đối tượng thờ cúng được cho là chứa đựng linh hồn của một vị thần, thường được đặt trong một ngôi đền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "shintai; đối tượng thờ cúng được cho là chứa đựng linh hồn của một vị thần, thường được đặt trong một ngôi đền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71561,
+    "word": "神助",
+    "kana": "しんじょ",
+    "senses": [
+      {
+        "sense_id": 309799,
+        "meaning_vi": "sự giúp đỡ từ các vị thần",
+        "confidence": "high",
+        "search_keywords": [
+          "sự giúp đỡ từ các vị thần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự giúp đỡ từ các vị thần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71562,
+    "word": "神技",
+    "kana": "しんぎ",
+    "senses": [
+      {
+        "sense_id": 309800,
+        "meaning_vi": "chiến công siêu phàm; kỹ năng hoàn hảo",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến công siêu phàm",
+          "kỹ năng hoàn hảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến công siêu phàm; kỹ năng hoàn hảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71563,
+    "word": "神学士",
+    "kana": "しんがくし",
+    "senses": [
+      {
+        "sense_id": 309801,
+        "meaning_vi": "Tiến sĩ Thần học",
+        "confidence": "high",
+        "search_keywords": [
+          "Tiến sĩ Thần học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tiến sĩ Thần học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71564,
+    "word": "神学校",
+    "kana": "しんがっこう",
+    "senses": [
+      {
+        "sense_id": 309802,
+        "meaning_vi": "trường thần học; chủng viện",
+        "confidence": "high",
+        "search_keywords": [
+          "trường thần học",
+          "chủng viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường thần học; chủng viện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71565,
+    "word": "神宝",
+    "kana": "しんぽう",
+    "senses": [
+      {
+        "sense_id": 309803,
+        "meaning_vi": "kho báu thiêng liêng",
+        "confidence": "high",
+        "search_keywords": [
+          "kho báu thiêng liêng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kho báu thiêng liêng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71566,
+    "word": "神国",
+    "kana": "しんこく",
+    "senses": [
+      {
+        "sense_id": 309804,
+        "meaning_vi": "vùng đất của các vị thần; Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "vùng đất của các vị thần",
+          "Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vùng đất của các vị thần; Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71567,
+    "word": "神苑",
+    "kana": "しんえん",
+    "senses": [
+      {
+        "sense_id": 309805,
+        "meaning_vi": "vườn đền thờ",
+        "confidence": "high",
+        "search_keywords": [
+          "vườn đền thờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vườn đền thờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71568,
+    "word": "神信心",
+    "kana": "かみしんじん",
+    "senses": [
+      {
+        "sense_id": 309806,
+        "meaning_vi": "niềm tin vào Chúa",
+        "confidence": "high",
+        "search_keywords": [
+          "niềm tin vào Chúa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "niềm tin vào Chúa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71569,
+    "word": "神変",
+    "kana": "しんぺん",
+    "senses": [
+      {
+        "sense_id": 309807,
+        "meaning_vi": "phép lạ",
+        "confidence": "high",
+        "search_keywords": [
+          "phép lạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phép lạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71570,
+    "word": "神前",
+    "kana": "しんぜん",
+    "senses": [
+      {
+        "sense_id": 309808,
+        "meaning_vi": "trước thần; trước bàn thờ",
+        "confidence": "high",
+        "search_keywords": [
+          "trước thần",
+          "trước bàn thờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trước thần; trước bàn thờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71571,
+    "word": "神前結婚",
+    "kana": "しんぜんけっこん",
+    "senses": [
+      {
+        "sense_id": 309809,
+        "meaning_vi": "Đám cưới đạo Shinto",
+        "confidence": "high",
+        "search_keywords": [
+          "Đám cưới đạo Shinto"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đám cưới đạo Shinto",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71572,
+    "word": "神品",
+    "kana": "しんぴん",
+    "senses": [
+      {
+        "sense_id": 309810,
+        "meaning_vi": "công việc đầy cảm hứng; kiệt tác",
+        "confidence": "high",
+        "search_keywords": [
+          "công việc đầy cảm hứng",
+          "kiệt tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công việc đầy cảm hứng; kiệt tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71573,
+    "word": "神祇",
+    "kana": "じんぎ",
+    "senses": [
+      {
+        "sense_id": 309811,
+        "meaning_vi": "thần của trời và đất",
+        "confidence": "high",
+        "search_keywords": [
+          "thần của trời và đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thần của trời và đất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71574,
+    "word": "神祇官",
+    "kana": "じんぎかん",
+    "senses": [
+      {
+        "sense_id": 309812,
+        "meaning_vi": "Sở Thần học (1868-1871)",
+        "confidence": "high",
+        "search_keywords": [
+          "Sở Thần học (1868-1871)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sở Thần học (1868-1871)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 309813,
+        "meaning_vi": "Bộ thờ cúng (theo hệ thống ritsuryō)",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ thờ cúng (theo hệ thống ritsuryō)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ thờ cúng (theo hệ thống ritsuryō)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71575,
+    "word": "神政",
+    "kana": "しんせい",
+    "senses": [
+      {
+        "sense_id": 309814,
+        "meaning_vi": "thần quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "thần quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thần quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71576,
+    "word": "神威",
+    "kana": "しんい",
+    "senses": [
+      {
+        "sense_id": 309815,
+        "meaning_vi": "sự uy nghiêm của Chúa; thẩm quyền của thần; sức mạnh của thiên đường",
+        "confidence": "high",
+        "search_keywords": [
+          "sự uy nghiêm của Chúa",
+          "thẩm quyền của thần",
+          "sức mạnh của thiên đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự uy nghiêm của Chúa; thẩm quyền của thần; sức mạnh của thiên đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71577,
+    "word": "神剣",
+    "kana": "しんけん",
+    "senses": [
+      {
+        "sense_id": 309816,
+        "meaning_vi": "thần kiếm (một trong ba báu vật thiêng liêng)",
+        "confidence": "high",
+        "search_keywords": [
+          "thần kiếm (một trong ba báu vật thiêng liêng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thần kiếm (một trong ba báu vật thiêng liêng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

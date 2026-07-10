@@ -1,0 +1,546 @@
+[
+  {
+    "vocabulary_id": 35196,
+    "word": "生きがい",
+    "kana": "いきがい",
+    "senses": [
+      {
+        "sense_id": 262890,
+        "meaning_vi": "lý do sống; một cái gì đó người ta sống vì nó; mục đích trong cuộc sống; lý do tồn tại; ikigai",
+        "confidence": "high",
+        "search_keywords": [
+          "lý do sống",
+          "một cái gì đó người ta sống vì nó",
+          "mục đích trong cuộc sống",
+          "lý do tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý do sống; một cái gì đó người ta sống vì nó; mục đích trong cuộc sống; lý do tồn tại; ikigai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35197,
+    "word": "生き残る",
+    "kana": "いきのこる",
+    "senses": [
+      {
+        "sense_id": 262891,
+        "meaning_vi": "để tồn tại",
+        "confidence": "high",
+        "search_keywords": [
+          "để tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tồn tại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35198,
+    "word": "行き場",
+    "kana": "ゆきば",
+    "senses": [
+      {
+        "sense_id": 262892,
+        "meaning_vi": "nơi để đi; điểm đến",
+        "confidence": "high",
+        "search_keywords": [
+          "nơi để đi",
+          "điểm đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nơi để đi; điểm đến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35199,
+    "word": "生きながらえる",
+    "kana": "いきながらえる",
+    "senses": [
+      {
+        "sense_id": 262893,
+        "meaning_vi": "sống lâu; để tồn tại",
+        "confidence": "high",
+        "search_keywords": [
+          "sống lâu",
+          "để tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sống lâu; để tồn tại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35200,
+    "word": "生き物",
+    "kana": "いきもの",
+    "senses": [
+      {
+        "sense_id": 262894,
+        "meaning_vi": "sinh vật sống; sinh vật sống; động vật; cuộc sống",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh vật sống",
+          "động vật",
+          "cuộc sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh vật sống; sinh vật sống; động vật; cuộc sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35201,
+    "word": "生き返る",
+    "kana": "いきかえる",
+    "senses": [
+      {
+        "sense_id": 262895,
+        "meaning_vi": "hồi sinh; đến với chính mình; được phục hồi sự sống",
+        "confidence": "high",
+        "search_keywords": [
+          "hồi sinh",
+          "đến với chính mình",
+          "được phục hồi sự sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồi sinh; đến với chính mình; được phục hồi sự sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35202,
+    "word": "生き埋める",
+    "kana": "いきうめる",
+    "senses": [
+      {
+        "sense_id": 262896,
+        "meaning_vi": "chôn sống (ai đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "chôn sống (ai đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chôn sống (ai đó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35203,
+    "word": "生け捕り",
+    "kana": "いけどり",
+    "senses": [
+      {
+        "sense_id": 262897,
+        "meaning_vi": "bắt sống (động vật hoặc người); thứ gì đó bị bắt sống",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt sống (động vật hoặc người)",
+          "thứ gì đó bị bắt sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt sống (động vật hoặc người); thứ gì đó bị bắt sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35204,
+    "word": "生け方",
+    "kana": "いけかた",
+    "senses": [
+      {
+        "sense_id": 262898,
+        "meaning_vi": "cách cắm hoa",
+        "confidence": "high",
+        "search_keywords": [
+          "cách cắm hoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách cắm hoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35205,
+    "word": "生ゴミ",
+    "kana": "なまごみ",
+    "senses": [
+      {
+        "sense_id": 262899,
+        "meaning_vi": "chất thải nhà bếp; phế liệu thực phẩm; rác thô",
+        "confidence": "high",
+        "search_keywords": [
+          "chất thải nhà bếp",
+          "phế liệu thực phẩm",
+          "rác thô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất thải nhà bếp; phế liệu thực phẩm; rác thô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35206,
+    "word": "生じる",
+    "kana": "しょうじる",
+    "senses": [
+      {
+        "sense_id": 262900,
+        "meaning_vi": "để sản xuất; mang lại lợi nhuận; gây ra",
+        "confidence": "high",
+        "search_keywords": [
+          "để sản xuất",
+          "mang lại lợi nhuận",
+          "gây ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để sản xuất; mang lại lợi nhuận; gây ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262901,
+        "meaning_vi": "là kết quả của ; phát sinh; được tạo ra",
+        "confidence": "high",
+        "search_keywords": [
+          "là kết quả của",
+          "phát sinh",
+          "được tạo ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là kết quả của ; phát sinh; được tạo ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35207,
+    "word": "生ずる",
+    "kana": "しょうずる",
+    "senses": [
+      {
+        "sense_id": 262902,
+        "meaning_vi": "để sản xuất; mang lại lợi nhuận; gây ra",
+        "confidence": "high",
+        "search_keywords": [
+          "để sản xuất",
+          "mang lại lợi nhuận",
+          "gây ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để sản xuất; mang lại lợi nhuận; gây ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262903,
+        "meaning_vi": "là kết quả của ; phát sinh; được tạo ra",
+        "confidence": "high",
+        "search_keywords": [
+          "là kết quả của",
+          "phát sinh",
+          "được tạo ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là kết quả của ; phát sinh; được tạo ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35208,
+    "word": "生まれた場所",
+    "kana": "うまれたばしょ",
+    "senses": [
+      {
+        "sense_id": 262904,
+        "meaning_vi": "nơi sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "nơi sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nơi sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35209,
+    "word": "生まれつく",
+    "kana": "うまれつく",
+    "senses": [
+      {
+        "sense_id": 262905,
+        "meaning_vi": "được sinh ra (với); được sinh ra (được); định mệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "được sinh ra (với)",
+          "được sinh ra (được)",
+          "định mệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được sinh ra (với); được sinh ra (được); định mệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35210,
+    "word": "生まれる",
+    "kana": "うまれる",
+    "senses": [
+      {
+        "sense_id": 262906,
+        "meaning_vi": "được sinh ra",
+        "confidence": "high",
+        "search_keywords": [
+          "được sinh ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được sinh ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35211,
+    "word": "生まれ変わり",
+    "kana": "うまれかわり",
+    "senses": [
+      {
+        "sense_id": 262907,
+        "meaning_vi": "tái sinh; tái sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "tái sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tái sinh; tái sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35212,
+    "word": "生まれ変わる",
+    "kana": "うまれかわる",
+    "senses": [
+      {
+        "sense_id": 262908,
+        "meaning_vi": "được sinh ra lần nữa; để thực hiện một khởi đầu mới trong cuộc sống",
+        "confidence": "high",
+        "search_keywords": [
+          "được sinh ra lần nữa",
+          "để thực hiện một khởi đầu mới trong cuộc sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được sinh ra lần nữa; để thực hiện một khởi đầu mới trong cuộc sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35213,
+    "word": "生み出す",
+    "kana": "うみだす",
+    "senses": [
+      {
+        "sense_id": 262909,
+        "meaning_vi": "để tạo ra; mang lại ; để sản xuất",
+        "confidence": "high",
+        "search_keywords": [
+          "để tạo ra",
+          "mang lại",
+          "để sản xuất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tạo ra; mang lại ; để sản xuất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262910,
+        "meaning_vi": "để phát minh ra; để nghĩ ra và đưa vào hiện hữu",
+        "confidence": "high",
+        "search_keywords": [
+          "để phát minh ra",
+          "để nghĩ ra và đưa vào hiện hữu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để phát minh ra; để nghĩ ra và đưa vào hiện hữu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262911,
+        "meaning_vi": "sinh con; chịu đựng",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh con",
+          "chịu đựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh con; chịu đựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35214,
+    "word": "生み付ける",
+    "kana": "うみつける",
+    "senses": [
+      {
+        "sense_id": 262912,
+        "meaning_vi": "nằm; sinh sản",
+        "confidence": "high",
+        "search_keywords": [
+          "nằm",
+          "sinh sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nằm; sinh sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35215,
+    "word": "生やす",
+    "kana": "はやす",
+    "senses": [
+      {
+        "sense_id": 262913,
+        "meaning_vi": "phát triển; trồng trọt",
+        "confidence": "high",
+        "search_keywords": [
+          "phát triển",
+          "trồng trọt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát triển; trồng trọt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262914,
+        "meaning_vi": "để cho phát triển (ví dụ: cỏ dại)",
+        "confidence": "high",
+        "search_keywords": [
+          "để cho phát triển (ví dụ: cỏ dại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để cho phát triển (ví dụ: cỏ dại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,565 +1,537 @@
 [
-{
-"vocabulary_id": 3221,
-"word": "カーリング",
-"kana": "カーリング",
-"senses": [
-{
-"sense_id": 221612,
-"meaning_vi": "môn curling",
-"confidence": "high",
-"search_keywords": [
-"curling",
-"môn curling"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "môn thể thao trên băng với các viên đá trượt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3222,
-"word": "カール",
-"kana": "カール",
-"senses": [
-{
-"sense_id": 221613,
-"meaning_vi": "lọn tóc xoăn",
-"confidence": "high",
-"search_keywords": [
-"lọn tóc xoăn",
-"tóc xoăn",
-"uốn tóc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lọn tóc xoăn; tóc quăn",
-"examples": []
-},
-{
-"index": 2,
-"meaning": "uốn tóc; làm xoăn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3223,
-"word": "カーレース",
-"kana": "カーレース",
-"senses": [
-{
-"sense_id": 221614,
-"meaning_vi": "đua xe ô tô",
-"confidence": "high",
-"search_keywords": [
-"đua xe ô tô",
-"car race"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cuộc thi đua xe ô tô",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3224,
-"word": "カーン",
-"kana": "カーン",
-"senses": [
-{
-"sense_id": 221615,
-"meaning_vi": "gờ chữ",
-"confidence": "low",
-"search_keywords": [
-"gờ chữ",
-"kern"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần nhô ra của ký tự trong kỹ thuật in",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221616,
-"meaning_vi": "Kahn",
-"confidence": "medium",
-"search_keywords": [
-"Kahn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "họ hoặc tên riêng Kahn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3225,
-"word": "カイト",
-"kana": "カイト",
-"senses": [
-{
-"sense_id": 221617,
-"meaning_vi": "diều",
-"confidence": "high",
-"search_keywords": [
-"diều",
-"cánh diều"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đồ chơi bay nhờ sức gió",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3226,
-"word": "カイネシクス",
-"kana": "カイネシクス",
-"senses": [
-{
-"sense_id": 221618,
-"meaning_vi": "ngôn ngữ cơ thể học",
-"confidence": "medium",
-"search_keywords": [
-"ngôn ngữ cơ thể",
-"kinesics"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghiên cứu cử chỉ và chuyển động trong giao tiếp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3227,
-"word": "カイモグラフ",
-"kana": "カイモグラフ",
-"senses": [
-{
-"sense_id": 221619,
-"meaning_vi": "máy ghi dao động",
-"confidence": "medium",
-"search_keywords": [
-"máy ghi dao động",
-"kymograph"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị ghi lại sự biến đổi theo thời gian",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3228,
-"word": "カイロテック",
-"kana": "カイロテック",
-"senses": [
-{
-"sense_id": 221620,
-"meaning_vi": "nắn chỉnh cột sống",
-"confidence": "medium",
-"search_keywords": [
-"nắn chỉnh cột sống",
-"chiropractic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi tắt hiếm gặp của liệu pháp chiropractic",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3229,
-"word": "カイロプラクティック",
-"kana": "カイロプラクティック",
-"senses": [
-{
-"sense_id": 221621,
-"meaning_vi": "nắn chỉnh cột sống",
-"confidence": "high",
-"search_keywords": [
-"nắn chỉnh cột sống",
-"chiropractic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương pháp trị liệu bằng điều chỉnh hệ cơ xương khớp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3230,
-"word": "カイロプラクター",
-"kana": "カイロプラクター",
-"senses": [
-{
-"sense_id": 221622,
-"meaning_vi": "chuyên gia nắn chỉnh",
-"confidence": "high",
-"search_keywords": [
-"chiropractor",
-"chuyên gia nắn chỉnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người hành nghề chiropractic",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3231,
-"word": "カウチポテト",
-"kana": "カウチポテト",
-"senses": [
-{
-"sense_id": 221623,
-"meaning_vi": "người lười vận động",
-"confidence": "high",
-"search_keywords": [
-"người lười vận động",
-"mọt truyền hình",
-"couch potato"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người chỉ thích nằm xem TV, ít vận động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3232,
-"word": "カウハイド",
-"kana": "カウハイド",
-"senses": [
-{
-"sense_id": 221624,
-"meaning_vi": "da bò",
-"confidence": "high",
-"search_keywords": [
-"da bò",
-"cowhide"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "da thuộc từ da bò",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3233,
-"word": "カウボーイ",
-"kana": "カウボーイ",
-"senses": [
-{
-"sense_id": 221625,
-"meaning_vi": "cao bồi",
-"confidence": "high",
-"search_keywords": [
-"cao bồi",
-"cowboy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người chăn gia súc miền viễn Tây",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3234,
-"word": "カウボーイハット",
-"kana": "カウボーイハット",
-"senses": [
-{
-"sense_id": 221626,
-"meaning_vi": "mũ cao bồi",
-"confidence": "high",
-"search_keywords": [
-"mũ cao bồi",
-"cowboy hat"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loại mũ đặc trưng của cao bồi miền Tây",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3235,
-"word": "カウンセラー",
-"kana": "カウンセラー",
-"senses": [
-{
-"sense_id": 221627,
-"meaning_vi": "chuyên viên tư vấn",
-"confidence": "high",
-"search_keywords": [
-"chuyên viên tư vấn",
-"cố vấn",
-"counselor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người tư vấn tâm lý, học tập hoặc nghề nghiệp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3236,
-"word": "カウンセリング",
-"kana": "カウンセリング",
-"senses": [
-{
-"sense_id": 221628,
-"meaning_vi": "tư vấn tâm lý",
-"confidence": "high",
-"search_keywords": [
-"tư vấn tâm lý",
-"counseling"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá trình tư vấn và hỗ trợ về tâm lý hoặc định hướng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3237,
-"word": "カウンター",
-"kana": "カウンター",
-"senses": [
-{
-"sense_id": 221629,
-"meaning_vi": "bộ đếm",
-"confidence": "high",
-"search_keywords": [
-"bộ đếm",
-"counter"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị hoặc cơ cấu dùng để đếm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221630,
-"meaning_vi": "quầy giao dịch",
-"confidence": "high",
-"search_keywords": [
-"quầy giao dịch",
-"quầy dịch vụ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quầy phục vụ tại ngân hàng, cửa hàng...",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221631,
-"meaning_vi": "quầy bar",
-"confidence": "high",
-"search_keywords": [
-"quầy bar",
-"quầy cafe"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mặt quầy hoặc chỗ ngồi sát quầy trong quán",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221632,
-"meaning_vi": "phản công nhanh",
-"confidence": "high",
-"search_keywords": [
-"phản công",
-"counter attack"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đòn phản công trong thể thao",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221633,
-"meaning_vi": "đòn phản đấm",
-"confidence": "high",
-"search_keywords": [
-"đòn phản đấm",
-"counterpunch"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cú phản đòn trong quyền anh",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221634,
-"meaning_vi": "suất tải đáp lại",
-"confidence": "low",
-"search_keywords": [
-"counter P2P",
-"suất tải đáp lại"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơ chế chia sẻ lại băng thông trong hệ thống P2P",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3238,
-"word": "カウンターアタック",
-"kana": "カウンターアタック",
-"senses": [
-{
-"sense_id": 221635,
-"meaning_vi": "phản công",
-"confidence": "high",
-"search_keywords": [
-"phản công",
-"counter attack"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đòn phản công trong chiến thuật hoặc thể thao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3239,
-"word": "カウンターディスプレー",
-"kana": "カウンターディスプレー",
-"senses": [
-{
-"sense_id": 221636,
-"meaning_vi": "kệ trưng bày quầy",
-"confidence": "medium",
-"search_keywords": [
-"kệ trưng bày quầy",
-"counter display"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giá hoặc kệ trưng bày đặt trên quầy bán hàng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3240,
-"word": "カウンターパーチェス",
-"kana": "カウンターパーチェス",
-"senses": [
-{
-"sense_id": 221637,
-"meaning_vi": "mua đối lưu",
-"confidence": "medium",
-"search_keywords": [
-"mua đối lưu",
-"counterpurchase"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hình thức thương mại yêu cầu mua hàng đáp ứng lại",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3221,
+    "word": "カーリング",
+    "kana": "カーリング",
+    "senses": [
+      {
+        "sense_id": 221612,
+        "meaning_vi": "uốn tóc",
+        "confidence": "high",
+        "search_keywords": [
+          "uốn tóc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "uốn tóc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3222,
+    "word": "カール",
+    "kana": "カール",
+    "senses": [
+      {
+        "sense_id": 221613,
+        "meaning_vi": "lọn tóc (tóc); vòng nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "lọn tóc (tóc)",
+          "vòng nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lọn tóc (tóc); vòng nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3223,
+    "word": "カーレース",
+    "kana": "カーレース",
+    "senses": [
+      {
+        "sense_id": 221614,
+        "meaning_vi": "cuộc đua xe",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc đua xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc đua xe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3224,
+    "word": "カーン",
+    "kana": "カーン",
+    "senses": [
+      {
+        "sense_id": 221615,
+        "meaning_vi": "hạt nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "hạt nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạt nhân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221616,
+        "meaning_vi": "Kahn",
+        "confidence": "low",
+        "search_keywords": [
+          "Kahn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kahn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3225,
+    "word": "カイト",
+    "kana": "カイト",
+    "senses": [
+      {
+        "sense_id": 221617,
+        "meaning_vi": "diều",
+        "confidence": "high",
+        "search_keywords": [
+          "diều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "diều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3226,
+    "word": "カイネシクス",
+    "kana": "カイネシクス",
+    "senses": [
+      {
+        "sense_id": 221618,
+        "meaning_vi": "động học",
+        "confidence": "high",
+        "search_keywords": [
+          "động học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3227,
+    "word": "カイモグラフ",
+    "kana": "カイモグラフ",
+    "senses": [
+      {
+        "sense_id": 221619,
+        "meaning_vi": "kymograph",
+        "confidence": "low",
+        "search_keywords": [
+          "kymograph"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kymograph",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3228,
+    "word": "カイロテック",
+    "kana": "カイロテック",
+    "senses": [
+      {
+        "sense_id": 221620,
+        "meaning_vi": "nắn khớp xương",
+        "confidence": "high",
+        "search_keywords": [
+          "nắn khớp xương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nắn khớp xương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3229,
+    "word": "カイロプラクティック",
+    "kana": "カイロプラクティック",
+    "senses": [
+      {
+        "sense_id": 221621,
+        "meaning_vi": "nắn khớp xương",
+        "confidence": "high",
+        "search_keywords": [
+          "nắn khớp xương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nắn khớp xương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3230,
+    "word": "カイロプラクター",
+    "kana": "カイロプラクター",
+    "senses": [
+      {
+        "sense_id": 221622,
+        "meaning_vi": "bác sĩ nắn khớp xương",
+        "confidence": "high",
+        "search_keywords": [
+          "bác sĩ nắn khớp xương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bác sĩ nắn khớp xương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3231,
+    "word": "カウチポテト",
+    "kana": "カウチポテト",
+    "senses": [
+      {
+        "sense_id": 221623,
+        "meaning_vi": "khoai tây đi văng; người nghiện tivi",
+        "confidence": "high",
+        "search_keywords": [
+          "khoai tây đi văng",
+          "người nghiện tivi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoai tây đi văng; người nghiện tivi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3232,
+    "word": "カウハイド",
+    "kana": "カウハイド",
+    "senses": [
+      {
+        "sense_id": 221624,
+        "meaning_vi": "da bò",
+        "confidence": "high",
+        "search_keywords": [
+          "da bò"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "da bò",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3233,
+    "word": "カウボーイ",
+    "kana": "カウボーイ",
+    "senses": [
+      {
+        "sense_id": 221625,
+        "meaning_vi": "cao bồi",
+        "confidence": "high",
+        "search_keywords": [
+          "cao bồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cao bồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3234,
+    "word": "カウボーイハット",
+    "kana": "カウボーイハット",
+    "senses": [
+      {
+        "sense_id": 221626,
+        "meaning_vi": "mũ cao bồi",
+        "confidence": "high",
+        "search_keywords": [
+          "mũ cao bồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mũ cao bồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3235,
+    "word": "カウンセラー",
+    "kana": "カウンセラー",
+    "senses": [
+      {
+        "sense_id": 221627,
+        "meaning_vi": "cố vấn; cố vấn",
+        "confidence": "high",
+        "search_keywords": [
+          "cố vấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cố vấn; cố vấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3236,
+    "word": "カウンセリング",
+    "kana": "カウンセリング",
+    "senses": [
+      {
+        "sense_id": 221628,
+        "meaning_vi": "tư vấn",
+        "confidence": "high",
+        "search_keywords": [
+          "tư vấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tư vấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3237,
+    "word": "カウンター",
+    "kana": "カウンター",
+    "senses": [
+      {
+        "sense_id": 221629,
+        "meaning_vi": "quầy tính tiền; thiết bị đếm",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy tính tiền",
+          "thiết bị đếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy tính tiền; thiết bị đếm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221630,
+        "meaning_vi": "(dịch vụ) quầy (ở ngân hàng, cửa hàng...)",
+        "confidence": "high",
+        "search_keywords": [
+          "(dịch vụ) quầy (ở ngân hàng, cửa hàng...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(dịch vụ) quầy (ở ngân hàng, cửa hàng...)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221631,
+        "meaning_vi": "quầy (tại quán bar, quán cà phê, v.v.); thanh",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy (tại quán bar, quán cà phê, v.v.)",
+          "thanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy (tại quán bar, quán cà phê, v.v.); thanh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221632,
+        "meaning_vi": "phản công (trong bóng đá)",
+        "confidence": "high",
+        "search_keywords": [
+          "phản công (trong bóng đá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản công (trong bóng đá)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221633,
+        "meaning_vi": "quầy tính tiền; cú đấm phản đòn",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy tính tiền",
+          "cú đấm phản đòn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy tính tiền; cú đấm phản đòn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221634,
+        "meaning_vi": "tự động phản hồi bằng khe tải lên cho người cho phép bạn tải xuống (ví dụ: trong hệ thống P2P)",
+        "confidence": "high",
+        "search_keywords": [
+          "tự động phản hồi bằng khe tải lên cho người cho phép bạn tải xuống (ví dụ: trong hệ thống P2P)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tự động phản hồi bằng khe tải lên cho người cho phép bạn tải xuống (ví dụ: trong hệ thống P2P)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3238,
+    "word": "カウンターアタック",
+    "kana": "カウンターアタック",
+    "senses": [
+      {
+        "sense_id": 221635,
+        "meaning_vi": "phản công",
+        "confidence": "high",
+        "search_keywords": [
+          "phản công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3239,
+    "word": "カウンターディスプレー",
+    "kana": "カウンターディスプレー",
+    "senses": [
+      {
+        "sense_id": 221636,
+        "meaning_vi": "quầy hiển thị",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy hiển thị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy hiển thị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3240,
+    "word": "カウンターパーチェス",
+    "kana": "カウンターパーチェス",
+    "senses": [
+      {
+        "sense_id": 221637,
+        "meaning_vi": "mua lại",
+        "confidence": "high",
+        "search_keywords": [
+          "mua lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mua lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

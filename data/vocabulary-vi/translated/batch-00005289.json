@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 126344,
+    "word": "物理的配達アクセス単位",
+    "kana": "ぶつりてきはいたつアクセスたんい",
+    "senses": [
+      {
+        "sense_id": 369992,
+        "meaning_vi": "Đơn vị truy cập phân phối vật lý; PDAU",
+        "confidence": "high",
+        "search_keywords": [
+          "Đơn vị truy cập phân phối vật lý",
+          "PDAU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đơn vị truy cập phân phối vật lý; PDAU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126345,
+    "word": "物理的配達アドレス構成要素",
+    "kana": "ぶつりてきはいたつアドレスこうせいようそ",
+    "senses": [
+      {
+        "sense_id": 369993,
+        "meaning_vi": "thành phần địa chỉ giao hàng vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần địa chỉ giao hàng vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần địa chỉ giao hàng vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126346,
+    "word": "物理的配達サービス",
+    "kana": "ぶつりてきはいたつサービス",
+    "senses": [
+      {
+        "sense_id": 369994,
+        "meaning_vi": "dịch vụ giao hàng vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ giao hàng vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ giao hàng vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126347,
+    "word": "物理的配達サービス名",
+    "kana": "ぶつりてきはいたつサービスめい",
+    "senses": [
+      {
+        "sense_id": 369995,
+        "meaning_vi": "tên dịch vụ giao hàng thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "tên dịch vụ giao hàng thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên dịch vụ giao hàng thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126348,
+    "word": "物理的配達システム",
+    "kana": "ぶつりてきはいたつシステム",
+    "senses": [
+      {
+        "sense_id": 369996,
+        "meaning_vi": "Hệ thống phân phối vật lý; PDS",
+        "confidence": "high",
+        "search_keywords": [
+          "Hệ thống phân phối vật lý",
+          "PDS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hệ thống phân phối vật lý; PDS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126349,
+    "word": "物理的配達個人名",
+    "kana": "ぶつりてきはいたつこじんめい",
+    "senses": [
+      {
+        "sense_id": 369997,
+        "meaning_vi": "tên cá nhân giao hàng thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "tên cá nhân giao hàng thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên cá nhân giao hàng thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126350,
+    "word": "物理的配達国名",
+    "kana": "ぶつりてきはいたつこくめい",
+    "senses": [
+      {
+        "sense_id": 369998,
+        "meaning_vi": "tên quốc gia giao hàng thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "tên quốc gia giao hàng thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên quốc gia giao hàng thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126351,
+    "word": "物理的配達組織名",
+    "kana": "ぶつりてきはいたつそしきめい",
+    "senses": [
+      {
+        "sense_id": 369999,
+        "meaning_vi": "tên tổ chức giao hàng thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "tên tổ chức giao hàng thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên tổ chức giao hàng thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126352,
+    "word": "物理的配達郵便局アドレス構成要素",
+    "kana": "ぶつりてきはいたつゆうびんきょくアドレスこうせいようそ",
+    "senses": [
+      {
+        "sense_id": 370000,
+        "meaning_vi": "thành phần địa chỉ văn phòng giao hàng vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần địa chỉ văn phòng giao hàng vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần địa chỉ văn phòng giao hàng vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126353,
+    "word": "物理的配達郵便局番号",
+    "kana": "ぶつりてきはいたつゆうびんきょくばんごう",
+    "senses": [
+      {
+        "sense_id": 370001,
+        "meaning_vi": "số văn phòng giao hàng thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "số văn phòng giao hàng thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số văn phòng giao hàng thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126354,
+    "word": "物理的配達郵便局名",
+    "kana": "ぶつりてきはいたつゆうびんきょくめい",
+    "senses": [
+      {
+        "sense_id": 370002,
+        "meaning_vi": "tên văn phòng giao hàng thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "tên văn phòng giao hàng thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên văn phòng giao hàng thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126355,
+    "word": "物理的配達領域",
+    "kana": "ぶつりてきはいたつりょういき",
+    "senses": [
+      {
+        "sense_id": 370003,
+        "meaning_vi": "miền phân phối vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "miền phân phối vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "miền phân phối vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126356,
+    "word": "物理的媒体",
+    "kana": "ぶつりてきばいたい",
+    "senses": [
+      {
+        "sense_id": 370004,
+        "meaning_vi": "phương tiện vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "phương tiện vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương tiện vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126357,
+    "word": "物理伝送路",
+    "kana": "ぶつりでんそうろ",
+    "senses": [
+      {
+        "sense_id": 370005,
+        "meaning_vi": "liên kết vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "liên kết vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên kết vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126358,
+    "word": "物理入力装置",
+    "kana": "ぶつりにゅうりょくそうち",
+    "senses": [
+      {
+        "sense_id": 370006,
+        "meaning_vi": "thiết bị đầu vào vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu vào vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu vào vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126359,
+    "word": "物理番地",
+    "kana": "ぶつりばんち",
+    "senses": [
+      {
+        "sense_id": 370007,
+        "meaning_vi": "địa chỉ vật lý",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ vật lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ vật lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126360,
+    "word": "分割バー",
+    "kana": "ぶんかつバー",
+    "senses": [
+      {
+        "sense_id": 370008,
+        "meaning_vi": "thanh chia",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh chia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh chia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126361,
+    "word": "分割プロット",
+    "kana": "ぶんかつプロット",
+    "senses": [
+      {
+        "sense_id": 370009,
+        "meaning_vi": "tình tiết phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "tình tiết phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình tiết phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126362,
+    "word": "分間",
+    "kana": "ふんかん",
+    "senses": [
+      {
+        "sense_id": 370010,
+        "meaning_vi": "phút (khoảng thời gian)",
+        "confidence": "high",
+        "search_keywords": [
+          "phút (khoảng thời gian)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phút (khoảng thời gian)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126363,
+    "word": "分岐接続",
+    "kana": "ぶんきせつぞく",
+    "senses": [
+      {
+        "sense_id": 370011,
+        "meaning_vi": "kết nối đa điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối đa điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối đa điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

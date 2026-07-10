@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 90472,
+    "word": "閣議決定",
+    "kana": "かくぎけってい",
+    "senses": [
+      {
+        "sense_id": 330589,
+        "meaning_vi": "quyết định nội các",
+        "confidence": "high",
+        "search_keywords": [
+          "quyết định nội các"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyết định nội các",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90473,
+    "word": "隔離命令",
+    "kana": "かくりめいれい",
+    "senses": [
+      {
+        "sense_id": 330590,
+        "meaning_vi": "lệnh cách ly",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh cách ly"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh cách ly",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90474,
+    "word": "学習障害",
+    "kana": "がくしゅうしょうがい",
+    "senses": [
+      {
+        "sense_id": 330591,
+        "meaning_vi": "khuyết tật học tập",
+        "confidence": "high",
+        "search_keywords": [
+          "khuyết tật học tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuyết tật học tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90475,
+    "word": "額面超過額",
+    "kana": "がくめんちょうかがく",
+    "senses": [
+      {
+        "sense_id": 330592,
+        "meaning_vi": "phí bảo hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "phí bảo hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phí bảo hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90476,
+    "word": "株の持ち合い",
+    "kana": "かぶのもちあい",
+    "senses": [
+      {
+        "sense_id": 330593,
+        "meaning_vi": "sở hữu chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "sở hữu chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sở hữu chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90477,
+    "word": "株価の反発",
+    "kana": "かぶかのはんぱつ",
+    "senses": [
+      {
+        "sense_id": 330594,
+        "meaning_vi": "sự phục hồi (của giá cổ phiếu)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phục hồi (của giá cổ phiếu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phục hồi (của giá cổ phiếu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90478,
+    "word": "株価維持操作",
+    "kana": "かぶかいじそうさ",
+    "senses": [
+      {
+        "sense_id": 330595,
+        "meaning_vi": "hoạt động giữ giá; PKO",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động giữ giá",
+          "PKO"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động giữ giá; PKO",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90479,
+    "word": "株価操作",
+    "kana": "かぶかそうさ",
+    "senses": [
+      {
+        "sense_id": 330596,
+        "meaning_vi": "thao túng giá cổ phiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "thao túng giá cổ phiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thao túng giá cổ phiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90480,
+    "word": "株式オプション",
+    "kana": "かぶしきオプション",
+    "senses": [
+      {
+        "sense_id": 330597,
+        "meaning_vi": "quyền chọn cổ phiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền chọn cổ phiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền chọn cổ phiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90481,
+    "word": "株式スワップ",
+    "kana": "かぶしきスワップ",
+    "senses": [
+      {
+        "sense_id": 330598,
+        "meaning_vi": "hoán đổi cổ phiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "hoán đổi cổ phiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoán đổi cổ phiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90482,
+    "word": "株式交換",
+    "kana": "かぶしきこうかん",
+    "senses": [
+      {
+        "sense_id": 330599,
+        "meaning_vi": "hoán đổi cổ phiếu; trao đổi cổ phiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "hoán đổi cổ phiếu",
+          "trao đổi cổ phiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoán đổi cổ phiếu; trao đổi cổ phiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90483,
+    "word": "株式交換率",
+    "kana": "かぶしきこうかんりつ",
+    "senses": [
+      {
+        "sense_id": 330600,
+        "meaning_vi": "tỷ lệ trao đổi chứng khoán",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ trao đổi chứng khoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ trao đổi chứng khoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90484,
+    "word": "株式投資",
+    "kana": "かぶしきとうし",
+    "senses": [
+      {
+        "sense_id": 330601,
+        "meaning_vi": "đầu tư vào cổ phiếu; đầu tư chứng khoán; đầu tư cổ phần",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu tư vào cổ phiếu",
+          "đầu tư chứng khoán",
+          "đầu tư cổ phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu tư vào cổ phiếu; đầu tư chứng khoán; đầu tư cổ phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90485,
+    "word": "株式発行",
+    "kana": "かぶしきはっこう",
+    "senses": [
+      {
+        "sense_id": 330602,
+        "meaning_vi": "phát hành cổ phiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "phát hành cổ phiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát hành cổ phiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90486,
+    "word": "株式併合",
+    "kana": "かぶしきへいごう",
+    "senses": [
+      {
+        "sense_id": 330603,
+        "meaning_vi": "chia cổ phiếu ngược",
+        "confidence": "high",
+        "search_keywords": [
+          "chia cổ phiếu ngược"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chia cổ phiếu ngược",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90487,
+    "word": "株主資本利益率",
+    "kana": "かぶぬししほんりえきりつ",
+    "senses": [
+      {
+        "sense_id": 330604,
+        "meaning_vi": "lợi nhuận trên vốn chủ sở hữu; ROE",
+        "confidence": "high",
+        "search_keywords": [
+          "lợi nhuận trên vốn chủ sở hữu",
+          "ROE"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lợi nhuận trên vốn chủ sở hữu; ROE",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90488,
+    "word": "株主代表訴訟",
+    "kana": "かぶぬしだいひょうそしょう",
+    "senses": [
+      {
+        "sense_id": 330605,
+        "meaning_vi": "vụ kiện cổ đông",
+        "confidence": "high",
+        "search_keywords": [
+          "vụ kiện cổ đông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vụ kiện cổ đông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90489,
+    "word": "株主投票",
+    "kana": "かぶぬしとうひょう",
+    "senses": [
+      {
+        "sense_id": 330606,
+        "meaning_vi": "phiếu bầu của cổ đông",
+        "confidence": "high",
+        "search_keywords": [
+          "phiếu bầu của cổ đông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiếu bầu của cổ đông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90490,
+    "word": "鎌槍",
+    "kana": "かまやり",
+    "senses": [
+      {
+        "sense_id": 330607,
+        "meaning_vi": "giáo có lưỡi chéo cong hoặc thẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "giáo có lưỡi chéo cong hoặc thẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giáo có lưỡi chéo cong hoặc thẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 90491,
+    "word": "冠状動脈疾患",
+    "kana": "かんじょうどうみゃくしっかん",
+    "senses": [
+      {
+        "sense_id": 330608,
+        "meaning_vi": "bệnh động mạch vành",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh động mạch vành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh động mạch vành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

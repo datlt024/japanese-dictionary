@@ -1,279 +1,621 @@
 [
-{
-"vocabulary_id": 3181,
-"word": "カーテンアンテナ",
-"kana": "カーテンアンテナ",
-"senses": [
-{
-"sense_id": 221560,
-"meaning_vi": "ăng-ten màn chắn",
-"confidence": "medium",
-"search_keywords": [
-"ăng-ten màn chắn",
-"curtain antenna"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ăng-ten màn chắn dùng cho phát sóng vô tuyến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3182,
-"word": "カーテンウォール",
-"kana": "カーテンウォール",
-"senses": [
-{
-"sense_id": 221561,
-"meaning_vi": "tường kính bao che",
-"confidence": "high",
-"search_keywords": [
-"tường kính",
-"tường bao che",
-"curtain wall"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kết cấu tường bao che không chịu lực của công trình",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3183,
-"word": "カーテンコール",
-"kana": "カーテンコール",
-"senses": [
-{
-"sense_id": 221562,
-"meaning_vi": "màn chào kết thúc",
-"confidence": "high",
-"search_keywords": [
-"màn chào kết thúc",
-"curtain call"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần nghệ sĩ ra chào khán giả sau khi biểu diễn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3184,
-"word": "カーテンレクチャー",
-"kana": "カーテンレクチャー",
-"senses": [
-{
-"sense_id": 221563,
-"meaning_vi": "lời trách mắng kín đáo",
-"confidence": "medium",
-"search_keywords": [
-"trách mắng kín đáo",
-"curtain lecture"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lời quở trách riêng tư, thường từ vợ hoặc người thân",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3185,
-"word": "カーディガン",
-"kana": "カーディガン",
-"senses": [
-{
-"sense_id": 221564,
-"meaning_vi": "áo cardigan",
-"confidence": "high",
-"search_keywords": [
-"áo cardigan",
-"áo len cài khuy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "áo len khoác cài khuy phía trước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3186,
-"word": "カーディナル",
-"kana": "カーディナル",
-"senses": [
-{
-"sense_id": 221565,
-"meaning_vi": "hồng y giáo chủ",
-"confidence": "high",
-"search_keywords": [
-"hồng y",
-"hồng y giáo chủ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chức sắc Hồng y của Công giáo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221566,
-"meaning_vi": "điều cốt lõi",
-"confidence": "medium",
-"search_keywords": [
-"điều cốt lõi",
-"số đếm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điều cơ bản, quan trọng nhất",
-"examples": []
-},
-{
-"index": 2,
-"meaning": "số đếm trong toán học",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221567,
-"meaning_vi": "đỏ thẫm",
-"confidence": "medium",
-"search_keywords": [
-"đỏ thẫm",
-"đỏ hồng y"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "màu đỏ thẫm kiểu hồng y",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221568,
-"meaning_vi": "chim hồng y",
-"confidence": "high",
-"search_keywords": [
-"chim hồng y",
-"cardinal bird"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loài chim cardinal có bộ lông đỏ nổi bật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3187,
-"word": "カート",
-"kana": "カート",
-"senses": [
-{
-"sense_id": 221569,
-"meaning_vi": "xe đẩy hàng",
-"confidence": "high",
-"search_keywords": [
-"xe đẩy hàng",
-"xe đẩy siêu thị"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xe đẩy dùng trong mua sắm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221570,
-"meaning_vi": "xe kart",
-"confidence": "high",
-"search_keywords": [
-"xe kart",
-"go-kart"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xe đua cỡ nhỏ kiểu go-kart",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3188,
-"word": "カートゥーン",
-"kana": "カートゥーン",
-"senses": [
-{
-"sense_id": 221571,
-"meaning_vi": "phim hoạt hình",
-"confidence": "high",
-"search_keywords": [
-"phim hoạt hình",
-"cartoon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hoạt hình hoặc tranh biếm họa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3189,
-"word": "カートリッジ",
-"kana": "カートリッジ",
-"senses": [
-{
-"sense_id": 221572,
-"meaning_vi": "hộp mực",
-"confidence": "high",
-"search_keywords": [
-"hộp mực",
-"cartridge"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hộp chứa mực hoặc bộ phận thay thế dạng cartridge",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3181,
+    "word": "カーテンアンテナ",
+    "kana": "カーテンアンテナ",
+    "senses": [
+      {
+        "sense_id": 221560,
+        "meaning_vi": "ăng-ten rèm",
+        "confidence": "high",
+        "search_keywords": [
+          "ăng-ten rèm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăng-ten rèm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3182,
+    "word": "カーテンウォール",
+    "kana": "カーテンウォール",
+    "senses": [
+      {
+        "sense_id": 221561,
+        "meaning_vi": "bức tường rèm",
+        "confidence": "high",
+        "search_keywords": [
+          "bức tường rèm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bức tường rèm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3183,
+    "word": "カーテンコール",
+    "kana": "カーテンコール",
+    "senses": [
+      {
+        "sense_id": 221562,
+        "meaning_vi": "gọi màn",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi màn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi màn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3184,
+    "word": "カーテンレクチャー",
+    "kana": "カーテンレクチャー",
+    "senses": [
+      {
+        "sense_id": 221563,
+        "meaning_vi": "bài giảng rèm",
+        "confidence": "high",
+        "search_keywords": [
+          "bài giảng rèm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài giảng rèm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3185,
+    "word": "カーディガン",
+    "kana": "カーディガン",
+    "senses": [
+      {
+        "sense_id": 221564,
+        "meaning_vi": "áo len",
+        "confidence": "high",
+        "search_keywords": [
+          "áo len"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo len",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3186,
+    "word": "カーディナル",
+    "kana": "カーディナル",
+    "senses": [
+      {
+        "sense_id": 221565,
+        "meaning_vi": "hồng y (giám mục Công giáo)",
+        "confidence": "high",
+        "search_keywords": [
+          "hồng y (giám mục Công giáo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồng y (giám mục Công giáo)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221566,
+        "meaning_vi": "điều chính; điều cơ bản; hồng y (số)",
+        "confidence": "high",
+        "search_keywords": [
+          "điều chính",
+          "điều cơ bản",
+          "hồng y (số)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều chính; điều cơ bản; hồng y (số)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221567,
+        "meaning_vi": "hồng y (màu sắc); màu đỏ thẫm",
+        "confidence": "high",
+        "search_keywords": [
+          "hồng y (màu sắc)",
+          "màu đỏ thẫm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồng y (màu sắc); màu đỏ thẫm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221568,
+        "meaning_vi": "hồng y (chim)",
+        "confidence": "high",
+        "search_keywords": [
+          "hồng y (chim)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồng y (chim)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3187,
+    "word": "カート",
+    "kana": "カート",
+    "senses": [
+      {
+        "sense_id": 221569,
+        "meaning_vi": "(mua sắm) xe đẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "(mua sắm) xe đẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(mua sắm) xe đẩy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221570,
+        "meaning_vi": "xe kart; xe go-kart",
+        "confidence": "high",
+        "search_keywords": [
+          "xe kart",
+          "xe go-kart"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe kart; xe go-kart",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3188,
+    "word": "カートゥーン",
+    "kana": "カートゥーン",
+    "senses": [
+      {
+        "sense_id": 221571,
+        "meaning_vi": "phim hoạt hình",
+        "confidence": "high",
+        "search_keywords": [
+          "phim hoạt hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phim hoạt hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3189,
+    "word": "カートリッジ",
+    "kana": "カートリッジ",
+    "senses": [
+      {
+        "sense_id": 221572,
+        "meaning_vi": "hộp mực",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp mực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp mực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3190,
+    "word": "カートレイン",
+    "kana": "カートレイン",
+    "senses": [
+      {
+        "sense_id": 221573,
+        "meaning_vi": "tàu ô tô; tàu chở cả hành khách và phương tiện",
+        "confidence": "high",
+        "search_keywords": [
+          "tàu ô tô",
+          "tàu chở cả hành khách và phương tiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tàu ô tô; tàu chở cả hành khách và phương tiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3191,
+    "word": "カード",
+    "kana": "カード",
+    "senses": [
+      {
+        "sense_id": 221574,
+        "meaning_vi": "thẻ (thông tin, hồ sơ, vv)",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ (thông tin, hồ sơ, vv)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ (thông tin, hồ sơ, vv)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221575,
+        "meaning_vi": "thiệp (chúc mừng, chúc mừng, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "thiệp (chúc mừng, chúc mừng, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiệp (chúc mừng, chúc mừng, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221576,
+        "meaning_vi": "(phương Tây) chơi bài",
+        "confidence": "high",
+        "search_keywords": [
+          "(phương Tây) chơi bài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(phương Tây) chơi bài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221577,
+        "meaning_vi": "thẻ tín dụng; thẻ ghi nợ",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ tín dụng",
+          "thẻ ghi nợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ tín dụng; thẻ ghi nợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221578,
+        "meaning_vi": "thẻ; chương trình; trận đấu; ghép nối",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ",
+          "chương trình",
+          "trận đấu",
+          "ghép nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ; chương trình; trận đấu; ghép nối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221579,
+        "meaning_vi": "thẻ (để chơi); (của một) bàn tay; con chip thương lượng; đòn bẩy; chiến thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ (để chơi)",
+          "(của một) bàn tay",
+          "con chip thương lượng",
+          "đòn bẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ (để chơi); (của một) bàn tay; con chip thương lượng; đòn bẩy; chiến thuật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221580,
+        "meaning_vi": "máy cạo bột; thìa",
+        "confidence": "high",
+        "search_keywords": [
+          "máy cạo bột",
+          "thìa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy cạo bột; thìa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3192,
+    "word": "カードシステム",
+    "kana": "カードシステム",
+    "senses": [
+      {
+        "sense_id": 221581,
+        "meaning_vi": "hệ thống thẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống thẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống thẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3193,
+    "word": "カードローン",
+    "kana": "カードローン",
+    "senses": [
+      {
+        "sense_id": 221582,
+        "meaning_vi": "vay thẻ tín dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "vay thẻ tín dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vay thẻ tín dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3194,
+    "word": "カード会員",
+    "kana": "カードかいいん",
+    "senses": [
+      {
+        "sense_id": 221583,
+        "meaning_vi": "(tín dụng) chủ thẻ; chủ thẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "(tín dụng) chủ thẻ",
+          "chủ thẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tín dụng) chủ thẻ; chủ thẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3195,
+    "word": "カーニバル",
+    "kana": "カーニバル",
+    "senses": [
+      {
+        "sense_id": 221584,
+        "meaning_vi": "lễ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3196,
+    "word": "カーネーション",
+    "kana": "カーネーション",
+    "senses": [
+      {
+        "sense_id": 221585,
+        "meaning_vi": "cẩm chướng (Dianthus caryophyllus)",
+        "confidence": "high",
+        "search_keywords": [
+          "cẩm chướng (Dianthus caryophyllus)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cẩm chướng (Dianthus caryophyllus)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3197,
+    "word": "カーネル",
+    "kana": "カーネル",
+    "senses": [
+      {
+        "sense_id": 221586,
+        "meaning_vi": "hạt nhân (của một hệ điều hành)",
+        "confidence": "high",
+        "search_keywords": [
+          "hạt nhân (của một hệ điều hành)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạt nhân (của một hệ điều hành)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221587,
+        "meaning_vi": "hạt nhân (của một loại hạt hoặc hạt)",
+        "confidence": "high",
+        "search_keywords": [
+          "hạt nhân (của một loại hạt hoặc hạt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạt nhân (của một loại hạt hoặc hạt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3198,
+    "word": "カーバ",
+    "kana": "カーバ",
+    "senses": [
+      {
+        "sense_id": 221588,
+        "meaning_vi": "Kaaba",
+        "confidence": "low",
+        "search_keywords": [
+          "Kaaba"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kaaba",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3199,
+    "word": "カーヒーター",
+    "kana": "カーヒーター",
+    "senses": [
+      {
+        "sense_id": 221589,
+        "meaning_vi": "máy sưởi xe",
+        "confidence": "high",
+        "search_keywords": [
+          "máy sưởi xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy sưởi xe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3200,
+    "word": "カービン",
+    "kana": "カービン",
+    "senses": [
+      {
+        "sense_id": 221590,
+        "meaning_vi": "cacbin",
+        "confidence": "high",
+        "search_keywords": [
+          "cacbin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cacbin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

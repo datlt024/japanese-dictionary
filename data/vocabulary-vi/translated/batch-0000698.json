@@ -1,0 +1,558 @@
+[
+  {
+    "vocabulary_id": 17382,
+    "word": "果物",
+    "kana": "くだもの",
+    "senses": [
+      {
+        "sense_id": 239188,
+        "meaning_vi": "trái cây",
+        "confidence": "high",
+        "search_keywords": [
+          "trái cây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái cây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17383,
+    "word": "果物屋",
+    "kana": "くだものや",
+    "senses": [
+      {
+        "sense_id": 239189,
+        "meaning_vi": "cửa hàng trái cây; đại lý trái cây; người bán trái cây; người hái quả; người bán rau",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa hàng trái cây",
+          "đại lý trái cây",
+          "người bán trái cây",
+          "người hái quả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa hàng trái cây; đại lý trái cây; người bán trái cây; người hái quả; người bán rau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17384,
+    "word": "果報",
+    "kana": "かほう",
+    "senses": [
+      {
+        "sense_id": 239190,
+        "meaning_vi": "may mắn; may mắn; hạnh phúc",
+        "confidence": "high",
+        "search_keywords": [
+          "may mắn",
+          "hạnh phúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "may mắn; may mắn; hạnh phúc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 239191,
+        "meaning_vi": "vipaka (quả báo)",
+        "confidence": "high",
+        "search_keywords": [
+          "vipaka (quả báo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vipaka (quả báo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17385,
+    "word": "果報は寝て待て",
+    "kana": "かほうはねてまて",
+    "senses": [
+      {
+        "sense_id": 239192,
+        "meaning_vi": "những điều tốt đẹp sẽ đến với những người biết chờ đợi",
+        "confidence": "high",
+        "search_keywords": [
+          "những điều tốt đẹp sẽ đến với những người biết chờ đợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "những điều tốt đẹp sẽ đến với những người biết chờ đợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17386,
+    "word": "果報者",
+    "kana": "かほうもの",
+    "senses": [
+      {
+        "sense_id": 239193,
+        "meaning_vi": "(rất) người may mắn; đồng nghiệp may mắn; tài sản yêu thích",
+        "confidence": "high",
+        "search_keywords": [
+          "(rất) người may mắn",
+          "đồng nghiệp may mắn",
+          "tài sản yêu thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(rất) người may mắn; đồng nghiệp may mắn; tài sản yêu thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17387,
+    "word": "架かる",
+    "kana": "かかる",
+    "senses": [
+      {
+        "sense_id": 239194,
+        "meaning_vi": "trải rộng; làm cầu; vượt qua; ngồi trên chân",
+        "confidence": "high",
+        "search_keywords": [
+          "trải rộng",
+          "làm cầu",
+          "vượt qua",
+          "ngồi trên chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trải rộng; làm cầu; vượt qua; ngồi trên chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17388,
+    "word": "架空",
+    "kana": "かくう",
+    "senses": [
+      {
+        "sense_id": 239195,
+        "meaning_vi": "hư cấu; tưởng tượng; huyền ảo; bịa đặt",
+        "confidence": "high",
+        "search_keywords": [
+          "hư cấu",
+          "tưởng tượng",
+          "huyền ảo",
+          "bịa đặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hư cấu; tưởng tượng; huyền ảo; bịa đặt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 239196,
+        "meaning_vi": "trên không; trên cao",
+        "confidence": "high",
+        "search_keywords": [
+          "trên không",
+          "trên cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trên không; trên cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17389,
+    "word": "架上",
+    "kana": "かじょう",
+    "senses": [
+      {
+        "sense_id": 239197,
+        "meaning_vi": "trên kệ",
+        "confidence": "high",
+        "search_keywords": [
+          "trên kệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trên kệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17390,
+    "word": "架設",
+    "kana": "かせつ",
+    "senses": [
+      {
+        "sense_id": 239198,
+        "meaning_vi": "sự thi công; tòa nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thi công",
+          "tòa nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thi công; tòa nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17391,
+    "word": "架線",
+    "kana": "かせん",
+    "senses": [
+      {
+        "sense_id": 239199,
+        "meaning_vi": "đường dây điện trên không; hệ thống dây điện trên không",
+        "confidence": "high",
+        "search_keywords": [
+          "đường dây điện trên không",
+          "hệ thống dây điện trên không"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường dây điện trên không; hệ thống dây điện trên không",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 239200,
+        "meaning_vi": "đường dây trên không (đối với tàu hỏa, xe điện, v.v.); dây điện trên không",
+        "confidence": "high",
+        "search_keywords": [
+          "đường dây trên không (đối với tàu hỏa, xe điện, v.v.)",
+          "dây điện trên không"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường dây trên không (đối với tàu hỏa, xe điện, v.v.); dây điện trên không",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17392,
+    "word": "架台",
+    "kana": "かだい",
+    "senses": [
+      {
+        "sense_id": 239201,
+        "meaning_vi": "đứng; khung; trụ cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "đứng",
+          "khung",
+          "trụ cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứng; khung; trụ cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17393,
+    "word": "歌",
+    "kana": "うた",
+    "senses": [
+      {
+        "sense_id": 239202,
+        "meaning_vi": "bài hát; ca hát",
+        "confidence": "high",
+        "search_keywords": [
+          "bài hát",
+          "ca hát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài hát; ca hát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 239203,
+        "meaning_vi": "bài thơ cổ điển Nhật Bản (đặc biệt là tanka)",
+        "confidence": "high",
+        "search_keywords": [
+          "bài thơ cổ điển Nhật Bản (đặc biệt là tanka)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài thơ cổ điển Nhật Bản (đặc biệt là tanka)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 239204,
+        "meaning_vi": "thơ hiện đại",
+        "confidence": "high",
+        "search_keywords": [
+          "thơ hiện đại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thơ hiện đại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17394,
+    "word": "歌い合う",
+    "kana": "うたいあう",
+    "senses": [
+      {
+        "sense_id": 239205,
+        "meaning_vi": "hát đáp lại",
+        "confidence": "high",
+        "search_keywords": [
+          "hát đáp lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hát đáp lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17395,
+    "word": "歌い上げる",
+    "kana": "うたいあげる",
+    "senses": [
+      {
+        "sense_id": 239206,
+        "meaning_vi": "hát hết giọng; để hát một bài hát",
+        "confidence": "high",
+        "search_keywords": [
+          "hát hết giọng",
+          "để hát một bài hát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hát hết giọng; để hát một bài hát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 239207,
+        "meaning_vi": "thể hiện trọn vẹn cảm xúc của mình trong một bài thơ; khen ngợi trong thơ",
+        "confidence": "high",
+        "search_keywords": [
+          "thể hiện trọn vẹn cảm xúc của mình trong một bài thơ",
+          "khen ngợi trong thơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thể hiện trọn vẹn cảm xúc của mình trong một bài thơ; khen ngợi trong thơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17396,
+    "word": "歌詠み",
+    "kana": "うたよみ",
+    "senses": [
+      {
+        "sense_id": 239208,
+        "meaning_vi": "nhà soạn nhạc tanka",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà soạn nhạc tanka"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà soạn nhạc tanka",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17397,
+    "word": "歌会",
+    "kana": "うたかい",
+    "senses": [
+      {
+        "sense_id": 239209,
+        "meaning_vi": "tiệc thơ; cuộc thi tanka; tập hợp các nhà thơ tanka",
+        "confidence": "high",
+        "search_keywords": [
+          "tiệc thơ",
+          "cuộc thi tanka",
+          "tập hợp các nhà thơ tanka"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiệc thơ; cuộc thi tanka; tập hợp các nhà thơ tanka",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17398,
+    "word": "歌格",
+    "kana": "かかく",
+    "senses": [
+      {
+        "sense_id": 239210,
+        "meaning_vi": "phong cách thơ; quy tắc thơ",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách thơ",
+          "quy tắc thơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách thơ; quy tắc thơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17399,
+    "word": "歌学",
+    "kana": "かがく",
+    "senses": [
+      {
+        "sense_id": 239211,
+        "meaning_vi": "thơ; sự đa dạng hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "thơ",
+          "sự đa dạng hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thơ; sự đa dạng hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17400,
+    "word": "歌曲",
+    "kana": "かきょく",
+    "senses": [
+      {
+        "sense_id": 239212,
+        "meaning_vi": "giai điệu; giai điệu; bài hát",
+        "confidence": "high",
+        "search_keywords": [
+          "giai điệu",
+          "bài hát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giai điệu; giai điệu; bài hát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17401,
+    "word": "歌劇",
+    "kana": "かげき",
+    "senses": [
+      {
+        "sense_id": 239213,
+        "meaning_vi": "opera",
+        "confidence": "low",
+        "search_keywords": [
+          "opera"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "opera",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

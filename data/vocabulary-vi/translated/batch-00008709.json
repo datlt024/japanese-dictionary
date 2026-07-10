@@ -1,0 +1,511 @@
+[
+  {
+    "vocabulary_id": 200697,
+    "word": "ＩＦ",
+    "kana": "アイ・エフ",
+    "senses": [
+      {
+        "sense_id": 450949,
+        "meaning_vi": "tần số trung gian",
+        "confidence": "high",
+        "search_keywords": [
+          "tần số trung gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tần số trung gian",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 450950,
+        "meaning_vi": "interferon",
+        "confidence": "low",
+        "search_keywords": [
+          "interferon"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "interferon",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 450951,
+        "meaning_vi": "hệ số tác động (của một tạp chí học thuật)",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số tác động (của một tạp chí học thuật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số tác động (của một tạp chí học thuật)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 450952,
+        "meaning_vi": "giao diện",
+        "confidence": "high",
+        "search_keywords": [
+          "giao diện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao diện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 450953,
+        "meaning_vi": "quỹ chỉ số",
+        "confidence": "high",
+        "search_keywords": [
+          "quỹ chỉ số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quỹ chỉ số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200698,
+    "word": "火起こし",
+    "kana": "ひおこし",
+    "senses": [
+      {
+        "sense_id": 450954,
+        "meaning_vi": "đốt lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "đốt lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đốt lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200699,
+    "word": "公共トイレ",
+    "kana": "こうきょうトイレ",
+    "senses": [
+      {
+        "sense_id": 450955,
+        "meaning_vi": "nhà vệ sinh công cộng; nhà vệ sinh công cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà vệ sinh công cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà vệ sinh công cộng; nhà vệ sinh công cộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200700,
+    "word": "京染",
+    "kana": "きょうぞめ",
+    "senses": [
+      {
+        "sense_id": 450956,
+        "meaning_vi": "Nhuộm Kyoto; hàng dệt nhuộm từ Kyoto",
+        "confidence": "high",
+        "search_keywords": [
+          "Nhuộm Kyoto",
+          "hàng dệt nhuộm từ Kyoto"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nhuộm Kyoto; hàng dệt nhuộm từ Kyoto",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200701,
+    "word": "騎獣",
+    "kana": "きじゅう",
+    "senses": [
+      {
+        "sense_id": 450957,
+        "meaning_vi": "thú cưỡi (trừ ngựa); quái thú kỵ binh",
+        "confidence": "high",
+        "search_keywords": [
+          "thú cưỡi (trừ ngựa)",
+          "quái thú kỵ binh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thú cưỡi (trừ ngựa); quái thú kỵ binh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200702,
+    "word": "シールドマシン",
+    "kana": "シールドマシン",
+    "senses": [
+      {
+        "sense_id": 450958,
+        "meaning_vi": "máy khiên (đào hầm)",
+        "confidence": "high",
+        "search_keywords": [
+          "máy khiên (đào hầm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy khiên (đào hầm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200703,
+    "word": "舵なしペア",
+    "kana": "かじなしペア",
+    "senses": [
+      {
+        "sense_id": 450959,
+        "meaning_vi": "cặp coxless (chèo thuyền)",
+        "confidence": "high",
+        "search_keywords": [
+          "cặp coxless (chèo thuyền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cặp coxless (chèo thuyền)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200704,
+    "word": "舵なしフォア",
+    "kana": "かじなしフォア",
+    "senses": [
+      {
+        "sense_id": 450960,
+        "meaning_vi": "coxless bốn (chèo thuyền); thẳng bốn",
+        "confidence": "high",
+        "search_keywords": [
+          "coxless bốn (chèo thuyền)",
+          "thẳng bốn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "coxless bốn (chèo thuyền); thẳng bốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200705,
+    "word": "かじ付きペア",
+    "kana": "かじつきペア",
+    "senses": [
+      {
+        "sense_id": 450961,
+        "meaning_vi": "cặp coxed (chèo thuyền)",
+        "confidence": "high",
+        "search_keywords": [
+          "cặp coxed (chèo thuyền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cặp coxed (chèo thuyền)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200706,
+    "word": "学級新聞",
+    "kana": "がっきゅうしんぶん",
+    "senses": [
+      {
+        "sense_id": 450962,
+        "meaning_vi": "(trường) bản tin lớp",
+        "confidence": "high",
+        "search_keywords": [
+          "(trường) bản tin lớp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(trường) bản tin lớp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200707,
+    "word": "ブランケット判",
+    "kana": "ブランケットばん",
+    "senses": [
+      {
+        "sense_id": 450963,
+        "meaning_vi": "ga trải giường (kích thước của báo khổ rộng Nhật Bản; 406x545 mm)",
+        "confidence": "high",
+        "search_keywords": [
+          "ga trải giường (kích thước của báo khổ rộng Nhật Bản",
+          "406x545 mm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ga trải giường (kích thước của báo khổ rộng Nhật Bản; 406x545 mm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200708,
+    "word": "デデキントの切断",
+    "kana": "デデキントのせつだん",
+    "senses": [
+      {
+        "sense_id": 450964,
+        "meaning_vi": "cắt giảm",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt giảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt giảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200709,
+    "word": "サイコロステーキ",
+    "kana": "サイコロステーキ",
+    "senses": [
+      {
+        "sense_id": 450965,
+        "meaning_vi": "bít tết thái hạt lựu; bít tết hình khối",
+        "confidence": "high",
+        "search_keywords": [
+          "bít tết thái hạt lựu",
+          "bít tết hình khối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bít tết thái hạt lựu; bít tết hình khối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200710,
+    "word": "副垢",
+    "kana": "ふくアカ",
+    "senses": [
+      {
+        "sense_id": 450966,
+        "meaning_vi": "tài khoản phụ (trên mạng xã hội, v.v.); tài khoản thứ hai; tài khoản phụ; tài khoản dự phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "tài khoản phụ (trên mạng xã hội, v.v.)",
+          "tài khoản thứ hai",
+          "tài khoản phụ",
+          "tài khoản dự phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài khoản phụ (trên mạng xã hội, v.v.); tài khoản thứ hai; tài khoản phụ; tài khoản dự phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200711,
+    "word": "テックス",
+    "kana": "テックス",
+    "senses": [
+      {
+        "sense_id": 450967,
+        "meaning_vi": "tex (đơn vị đo mật độ khối lượng tuyến tính của sợi)",
+        "confidence": "high",
+        "search_keywords": [
+          "tex (đơn vị đo mật độ khối lượng tuyến tính của sợi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tex (đơn vị đo mật độ khối lượng tuyến tính của sợi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200712,
+    "word": "農業専門学校",
+    "kana": "のうぎょうせんもんがっこう",
+    "senses": [
+      {
+        "sense_id": 450968,
+        "meaning_vi": "trường dạy nghề nông nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "trường dạy nghề nông nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường dạy nghề nông nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200713,
+    "word": "スポーツ科学",
+    "kana": "スポーツかがく",
+    "senses": [
+      {
+        "sense_id": 450969,
+        "meaning_vi": "khoa học thể thao",
+        "confidence": "high",
+        "search_keywords": [
+          "khoa học thể thao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoa học thể thao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200714,
+    "word": "シールブック",
+    "kana": "シールブック",
+    "senses": [
+      {
+        "sense_id": 450970,
+        "meaning_vi": "cuốn sách dán",
+        "confidence": "high",
+        "search_keywords": [
+          "cuốn sách dán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuốn sách dán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200715,
+    "word": "ダイソン球",
+    "kana": "ダイソンきゅう",
+    "senses": [
+      {
+        "sense_id": 450971,
+        "meaning_vi": "Quả cầu Dyson",
+        "confidence": "high",
+        "search_keywords": [
+          "Quả cầu Dyson"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Quả cầu Dyson",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200716,
+    "word": "すり鉢状",
+    "kana": "すりばちじょう",
+    "senses": [
+      {
+        "sense_id": 450972,
+        "meaning_vi": "hình vữa; hình nón; hình nón",
+        "confidence": "high",
+        "search_keywords": [
+          "hình vữa",
+          "hình nón"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình vữa; hình nón; hình nón",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

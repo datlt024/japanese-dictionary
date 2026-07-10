@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 125179,
+    "word": "帯域制限",
+    "kana": "たいいきせいげん",
+    "senses": [
+      {
+        "sense_id": 368818,
+        "meaning_vi": "bị giới hạn băng thông",
+        "confidence": "high",
+        "search_keywords": [
+          "bị giới hạn băng thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị giới hạn băng thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125180,
+    "word": "帯域制限信号",
+    "kana": "たいいきせいげんしんごう",
+    "senses": [
+      {
+        "sense_id": 368819,
+        "meaning_vi": "tín hiệu giới hạn băng tần",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu giới hạn băng tần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu giới hạn băng tần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125181,
+    "word": "帯域制御",
+    "kana": "たいいきせいぎょ",
+    "senses": [
+      {
+        "sense_id": 368820,
+        "meaning_vi": "kiểm soát băng thông",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát băng thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát băng thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125182,
+    "word": "帯域通過フィルタ",
+    "kana": "たいいきつうかフィルタ",
+    "senses": [
+      {
+        "sense_id": 368821,
+        "meaning_vi": "bộ lọc thông dải; BPF",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ lọc thông dải",
+          "BPF"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ lọc thông dải; BPF",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125183,
+    "word": "帯域幅利用",
+    "kana": "たいいきはばりよう",
+    "senses": [
+      {
+        "sense_id": 368822,
+        "meaning_vi": "sử dụng băng thông",
+        "confidence": "high",
+        "search_keywords": [
+          "sử dụng băng thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sử dụng băng thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125184,
+    "word": "帯域予約",
+    "kana": "たいいきよやく",
+    "senses": [
+      {
+        "sense_id": 368823,
+        "meaning_vi": "dự trữ băng thông; hợp đồng băng thông",
+        "confidence": "high",
+        "search_keywords": [
+          "dự trữ băng thông",
+          "hợp đồng băng thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dự trữ băng thông; hợp đồng băng thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125185,
+    "word": "帯状連結三角形",
+    "kana": "おびじょうれんけつさんかくけい",
+    "senses": [
+      {
+        "sense_id": 368824,
+        "meaning_vi": "dải tam giác",
+        "confidence": "high",
+        "search_keywords": [
+          "dải tam giác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dải tam giác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125186,
+    "word": "待ち行列",
+    "kana": "まちぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 368825,
+        "meaning_vi": "xếp hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "xếp hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xếp hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125187,
+    "word": "待ち行列に入れる",
+    "kana": "まちぎょうれつにいれる",
+    "senses": [
+      {
+        "sense_id": 368826,
+        "meaning_vi": "xếp hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "xếp hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xếp hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125188,
+    "word": "待ち行列方式",
+    "kana": "まちぎょうれつほうしき",
+    "senses": [
+      {
+        "sense_id": 368827,
+        "meaning_vi": "theo hàng đợi",
+        "confidence": "high",
+        "search_keywords": [
+          "theo hàng đợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo hàng đợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125189,
+    "word": "待ち行列名",
+    "kana": "まちぎょうれつめい",
+    "senses": [
+      {
+        "sense_id": 368828,
+        "meaning_vi": "tên hàng đợi",
+        "confidence": "high",
+        "search_keywords": [
+          "tên hàng đợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên hàng đợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125190,
+    "word": "待ち行列理論",
+    "kana": "まちぎょうれつりろん",
+    "senses": [
+      {
+        "sense_id": 368829,
+        "meaning_vi": "lý thuyết xếp hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết xếp hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết xếp hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125191,
+    "word": "待ち状態",
+    "kana": "まちじょうたい",
+    "senses": [
+      {
+        "sense_id": 368830,
+        "meaning_vi": "trạng thái chờ",
+        "confidence": "high",
+        "search_keywords": [
+          "trạng thái chờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạng thái chờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125192,
+    "word": "袋文字",
+    "kana": "ふくろもじ",
+    "senses": [
+      {
+        "sense_id": 368831,
+        "meaning_vi": "mặt cởi mở",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt cởi mở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt cởi mở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125193,
+    "word": "退行テスト",
+    "kana": "たいこうテスト",
+    "senses": [
+      {
+        "sense_id": 368832,
+        "meaning_vi": "kiểm tra hồi quy",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra hồi quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra hồi quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125194,
+    "word": "代行受信者",
+    "kana": "だいこうじゅしんしゃ",
+    "senses": [
+      {
+        "sense_id": 368833,
+        "meaning_vi": "người nhận thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "người nhận thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nhận thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125195,
+    "word": "代行受信者許可",
+    "kana": "だいこうじゅしんしゃきょか",
+    "senses": [
+      {
+        "sense_id": 368834,
+        "meaning_vi": "người nhận thay thế được phép",
+        "confidence": "high",
+        "search_keywords": [
+          "người nhận thay thế được phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nhận thay thế được phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125196,
+    "word": "代行受信者登録",
+    "kana": "だいこうじゅしんしゃとうろく",
+    "senses": [
+      {
+        "sense_id": 368835,
+        "meaning_vi": "chỉ định người nhận thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ định người nhận thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ định người nhận thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125197,
+    "word": "代行送信",
+    "kana": "だいこうそうしん",
+    "senses": [
+      {
+        "sense_id": 368836,
+        "meaning_vi": "giao hàng chậm trễ",
+        "confidence": "high",
+        "search_keywords": [
+          "giao hàng chậm trễ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao hàng chậm trễ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125198,
+    "word": "代数演算子",
+    "kana": "だいすうえんざんし",
+    "senses": [
+      {
+        "sense_id": 368837,
+        "meaning_vi": "toán tử đại số",
+        "confidence": "high",
+        "search_keywords": [
+          "toán tử đại số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán tử đại số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

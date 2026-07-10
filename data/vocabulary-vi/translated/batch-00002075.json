@@ -1,0 +1,625 @@
+[
+  {
+    "vocabulary_id": 54012,
+    "word": "悪馬",
+    "kana": "あくば",
+    "senses": [
+      {
+        "sense_id": 288042,
+        "meaning_vi": "ngựa hoang; con ngựa không thể quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "ngựa hoang",
+          "con ngựa không thể quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngựa hoang; con ngựa không thể quản lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54013,
+    "word": "悪癖",
+    "kana": "あくへき",
+    "senses": [
+      {
+        "sense_id": 288043,
+        "meaning_vi": "thói quen xấu; phó",
+        "confidence": "high",
+        "search_keywords": [
+          "thói quen xấu",
+          "phó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thói quen xấu; phó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54014,
+    "word": "悪名",
+    "kana": "あくめい",
+    "senses": [
+      {
+        "sense_id": 288044,
+        "meaning_vi": "mang tiếng xấu; mang tiếng xấu; tên xấu; tai tiếng",
+        "confidence": "high",
+        "search_keywords": [
+          "mang tiếng xấu",
+          "tên xấu",
+          "tai tiếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mang tiếng xấu; mang tiếng xấu; tên xấu; tai tiếng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288045,
+        "meaning_vi": "hành động xấu xa; hành vi sai trái; người làm điều sai trái",
+        "confidence": "high",
+        "search_keywords": [
+          "hành động xấu xa",
+          "hành vi sai trái",
+          "người làm điều sai trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành động xấu xa; hành vi sai trái; người làm điều sai trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54015,
+    "word": "悪名高い",
+    "kana": "あくめいたかい",
+    "senses": [
+      {
+        "sense_id": 288046,
+        "meaning_vi": "khét tiếng; khét tiếng",
+        "confidence": "high",
+        "search_keywords": [
+          "khét tiếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khét tiếng; khét tiếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54016,
+    "word": "悪霊",
+    "kana": "あくりょう",
+    "senses": [
+      {
+        "sense_id": 288047,
+        "meaning_vi": "linh hồn ác quỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "linh hồn ác quỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "linh hồn ác quỷ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54017,
+    "word": "粟粒",
+    "kana": "あわつぶ",
+    "senses": [
+      {
+        "sense_id": 288048,
+        "meaning_vi": "hạt kê",
+        "confidence": "high",
+        "search_keywords": [
+          "hạt kê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạt kê",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288049,
+        "meaning_vi": "một cái gì đó cực kỳ nhỏ bé",
+        "confidence": "high",
+        "search_keywords": [
+          "một cái gì đó cực kỳ nhỏ bé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cái gì đó cực kỳ nhỏ bé",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54018,
+    "word": "案文",
+    "kana": "あんぶん",
+    "senses": [
+      {
+        "sense_id": 288050,
+        "meaning_vi": "bản nháp; dự thảo đề xuất",
+        "confidence": "high",
+        "search_keywords": [
+          "bản nháp",
+          "dự thảo đề xuất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản nháp; dự thảo đề xuất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54019,
+    "word": "闇夜",
+    "kana": "やみよ",
+    "senses": [
+      {
+        "sense_id": 288051,
+        "meaning_vi": "đêm tối; đêm không trăng",
+        "confidence": "high",
+        "search_keywords": [
+          "đêm tối",
+          "đêm không trăng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đêm tối; đêm không trăng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54020,
+    "word": "依存",
+    "kana": "いぞん",
+    "senses": [
+      {
+        "sense_id": 288052,
+        "meaning_vi": "sự phụ thuộc; sự trông cậy",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phụ thuộc",
+          "sự trông cậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phụ thuộc; sự trông cậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54021,
+    "word": "依頼人",
+    "kana": "いらいにん",
+    "senses": [
+      {
+        "sense_id": 288053,
+        "meaning_vi": "khách hàng; người yêu cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "khách hàng",
+          "người yêu cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khách hàng; người yêu cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54022,
+    "word": "横糸",
+    "kana": "よこいと",
+    "senses": [
+      {
+        "sense_id": 288054,
+        "meaning_vi": "sợi ngang; gâu (sợi ngang trên khung cửi)",
+        "confidence": "high",
+        "search_keywords": [
+          "sợi ngang",
+          "gâu (sợi ngang trên khung cửi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sợi ngang; gâu (sợi ngang trên khung cửi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54023,
+    "word": "医学博士",
+    "kana": "いがくはかせ",
+    "senses": [
+      {
+        "sense_id": 288055,
+        "meaning_vi": "bác sĩ y khoa; MD",
+        "confidence": "high",
+        "search_keywords": [
+          "bác sĩ y khoa",
+          "MD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bác sĩ y khoa; MD",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54024,
+    "word": "亥",
+    "kana": "い",
+    "senses": [
+      {
+        "sense_id": 288056,
+        "meaning_vi": "Heo Rừng (cung hoàng đạo thứ mười hai của Trung Quốc); con lợn",
+        "confidence": "high",
+        "search_keywords": [
+          "Heo Rừng (cung hoàng đạo thứ mười hai của Trung Quốc)",
+          "con lợn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Heo Rừng (cung hoàng đạo thứ mười hai của Trung Quốc); con lợn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288057,
+        "meaning_vi": "giờ Hợi (khoảng 22h, 9-11h, hoặc 10h-12h đêm)",
+        "confidence": "high",
+        "search_keywords": [
+          "giờ Hợi (khoảng 22h, 9-11h, hoặc 10h-12h đêm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giờ Hợi (khoảng 22h, 9-11h, hoặc 10h-12h đêm)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288058,
+        "meaning_vi": "bắc-tây bắc",
+        "confidence": "high",
+        "search_keywords": [
+          "bắc-tây bắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắc-tây bắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288059,
+        "meaning_vi": "tháng mười âm lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "tháng mười âm lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tháng mười âm lịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54025,
+    "word": "一つずつ",
+    "kana": "ひとつずつ",
+    "senses": [
+      {
+        "sense_id": 288060,
+        "meaning_vi": "từng cái một; mỗi người một cái; từng cái một",
+        "confidence": "high",
+        "search_keywords": [
+          "từng cái một",
+          "mỗi người một cái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từng cái một; mỗi người một cái; từng cái một",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54026,
+    "word": "一家",
+    "kana": "いっか",
+    "senses": [
+      {
+        "sense_id": 288061,
+        "meaning_vi": "một gia đình; một hộ gia đình; một ngôi nhà; gia đình của một người; cả gia đình",
+        "confidence": "high",
+        "search_keywords": [
+          "một gia đình",
+          "một hộ gia đình",
+          "một ngôi nhà",
+          "gia đình của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một gia đình; một hộ gia đình; một ngôi nhà; gia đình của một người; cả gia đình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288062,
+        "meaning_vi": "phong cách (của riêng mình); trường học",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách (của riêng mình)",
+          "trường học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách (của riêng mình); trường học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288063,
+        "meaning_vi": "băng nhóm; (yakuza) gia đình",
+        "confidence": "high",
+        "search_keywords": [
+          "băng nhóm",
+          "(yakuza) gia đình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "băng nhóm; (yakuza) gia đình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54027,
+    "word": "一家言",
+    "kana": "いっかげん",
+    "senses": [
+      {
+        "sense_id": 288064,
+        "meaning_vi": "ý kiến ​​riêng; quan điểm cá nhân; ý kiến cá nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "ý kiến ​​riêng",
+          "quan điểm cá nhân",
+          "ý kiến cá nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý kiến ​​riêng; quan điểm cá nhân; ý kiến cá nhân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54028,
+    "word": "一回転",
+    "kana": "いっかいてん",
+    "senses": [
+      {
+        "sense_id": 288065,
+        "meaning_vi": "một cuộc cách mạng; một vòng quay",
+        "confidence": "high",
+        "search_keywords": [
+          "một cuộc cách mạng",
+          "một vòng quay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cuộc cách mạng; một vòng quay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54029,
+    "word": "一筋",
+    "kana": "ひとすじ",
+    "senses": [
+      {
+        "sense_id": 288066,
+        "meaning_vi": "một dòng; một đoạn (ví dụ: đường); một sợi (ví dụ như tóc); một chùm tia (ví dụ: ánh sáng); một tia; một chiều dài (ví dụ: dây thừng)",
+        "confidence": "high",
+        "search_keywords": [
+          "một dòng",
+          "một đoạn (ví dụ: đường)",
+          "một sợi (ví dụ như tóc)",
+          "một chùm tia (ví dụ: ánh sáng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một dòng; một đoạn (ví dụ: đường); một sợi (ví dụ như tóc); một chùm tia (ví dụ: ánh sáng); một tia; một chiều dài (ví dụ: dây thừng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288067,
+        "meaning_vi": "nghiêm trang; kiên quyết; ý định; tận tâm; độc thân",
+        "confidence": "high",
+        "search_keywords": [
+          "nghiêm trang",
+          "kiên quyết",
+          "ý định",
+          "tận tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghiêm trang; kiên quyết; ý định; tận tâm; độc thân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288068,
+        "meaning_vi": "một dòng máu; một gia tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "một dòng máu",
+          "một gia tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một dòng máu; một gia tộc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288069,
+        "meaning_vi": "bình thường; chung",
+        "confidence": "high",
+        "search_keywords": [
+          "bình thường",
+          "chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bình thường; chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54030,
+    "word": "一隅",
+    "kana": "いちぐう",
+    "senses": [
+      {
+        "sense_id": 288070,
+        "meaning_vi": "góc; ngóc ngách",
+        "confidence": "high",
+        "search_keywords": [
+          "góc",
+          "ngóc ngách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "góc; ngóc ngách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54031,
+    "word": "一言",
+    "kana": "ひとこと",
+    "senses": [
+      {
+        "sense_id": 288071,
+        "meaning_vi": "từ đơn; một vài từ; bình luận ngắn gọn",
+        "confidence": "high",
+        "search_keywords": [
+          "từ đơn",
+          "một vài từ",
+          "bình luận ngắn gọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ đơn; một vài từ; bình luận ngắn gọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

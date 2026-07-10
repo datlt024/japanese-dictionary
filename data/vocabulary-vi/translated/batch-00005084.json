@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 122211,
+    "word": "ワークステーションビューポート",
+    "kana": "ワークステーションビューポート",
+    "senses": [
+      {
+        "sense_id": 365828,
+        "meaning_vi": "khung nhìn máy trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "khung nhìn máy trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khung nhìn máy trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122212,
+    "word": "ワークステーション依存セグメント記憶域",
+    "kana": "ワークステーションいぞんセグメントきおくいき",
+    "senses": [
+      {
+        "sense_id": 365829,
+        "meaning_vi": "lưu trữ phân khúc phụ thuộc vào máy trạm; WDSS",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ phân khúc phụ thuộc vào máy trạm",
+          "WDSS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ phân khúc phụ thuộc vào máy trạm; WDSS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122213,
+    "word": "ワークステーション記述表",
+    "kana": "ワークステーションきじゅつひょう",
+    "senses": [
+      {
+        "sense_id": 365830,
+        "meaning_vi": "bảng mô tả máy trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng mô tả máy trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng mô tả máy trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122214,
+    "word": "ワークステーション型式",
+    "kana": "ワークステーションけいしき",
+    "senses": [
+      {
+        "sense_id": 365831,
+        "meaning_vi": "loại máy trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "loại máy trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại máy trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122215,
+    "word": "ワークステーション光源",
+    "kana": "ワークステーションこうげん",
+    "senses": [
+      {
+        "sense_id": 365832,
+        "meaning_vi": "nguồn sáng máy trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn sáng máy trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn sáng máy trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122216,
+    "word": "ワークステーション識別子",
+    "kana": "ワークステーションしきべつし",
+    "senses": [
+      {
+        "sense_id": 365833,
+        "meaning_vi": "mã định danh máy trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "mã định danh máy trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã định danh máy trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122217,
+    "word": "ワークステーション種別",
+    "kana": "ワークステーションしゅべつ",
+    "senses": [
+      {
+        "sense_id": 365834,
+        "meaning_vi": "hạng mục máy trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "hạng mục máy trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạng mục máy trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122218,
+    "word": "ワークステーション状態リスト",
+    "kana": "ワークステーションじょうたいリスト",
+    "senses": [
+      {
+        "sense_id": 365835,
+        "meaning_vi": "danh sách trạng thái máy trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "danh sách trạng thái máy trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh sách trạng thái máy trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122219,
+    "word": "ワークステーション独立セグメント記憶域",
+    "kana": "ワークステーションどくりつセグメントきおくいき",
+    "senses": [
+      {
+        "sense_id": 365836,
+        "meaning_vi": "lưu trữ phân đoạn độc lập của máy trạm; WISS",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ phân đoạn độc lập của máy trạm",
+          "WISS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ phân đoạn độc lập của máy trạm; WISS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122220,
+    "word": "ワークステーション変換",
+    "kana": "ワークステーションへんかん",
+    "senses": [
+      {
+        "sense_id": 365837,
+        "meaning_vi": "chuyển đổi máy trạm",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi máy trạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi máy trạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122221,
+    "word": "ワークスペース",
+    "kana": "ワークスペース",
+    "senses": [
+      {
+        "sense_id": 365838,
+        "meaning_vi": "không gian làm việc",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian làm việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian làm việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122222,
+    "word": "ワークフロー",
+    "kana": "ワークフロー",
+    "senses": [
+      {
+        "sense_id": 365839,
+        "meaning_vi": "quy trình làm việc; dòng chảy kinh doanh; luồng hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "quy trình làm việc",
+          "dòng chảy kinh doanh",
+          "luồng hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy trình làm việc; dòng chảy kinh doanh; luồng hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122223,
+    "word": "ワーク環境",
+    "kana": "ワークかんきょう",
+    "senses": [
+      {
+        "sense_id": 365840,
+        "meaning_vi": "môi trường làm việc",
+        "confidence": "high",
+        "search_keywords": [
+          "môi trường làm việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môi trường làm việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122224,
+    "word": "ワード境界",
+    "kana": "ワードきょうかい",
+    "senses": [
+      {
+        "sense_id": 365841,
+        "meaning_vi": "ranh giới từ",
+        "confidence": "high",
+        "search_keywords": [
+          "ranh giới từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ranh giới từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122225,
+    "word": "ワードプロセッシング",
+    "kana": "ワードプロセッシング",
+    "senses": [
+      {
+        "sense_id": 365842,
+        "meaning_vi": "xử lý văn bản",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý văn bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý văn bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122226,
+    "word": "ワードラップ",
+    "kana": "ワードラップ",
+    "senses": [
+      {
+        "sense_id": 365843,
+        "meaning_vi": "bọc từ",
+        "confidence": "high",
+        "search_keywords": [
+          "bọc từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bọc từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122227,
+    "word": "ワード数",
+    "kana": "ワードすう",
+    "senses": [
+      {
+        "sense_id": 365844,
+        "meaning_vi": "số từ",
+        "confidence": "high",
+        "search_keywords": [
+          "số từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122228,
+    "word": "ワープロ通信",
+    "kana": "ワープロつうしん",
+    "senses": [
+      {
+        "sense_id": 365845,
+        "meaning_vi": "giao tiếp xử lý văn bản",
+        "confidence": "high",
+        "search_keywords": [
+          "giao tiếp xử lý văn bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao tiếp xử lý văn bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122229,
+    "word": "ワールド座標",
+    "kana": "ワールドざひょう",
+    "senses": [
+      {
+        "sense_id": 365846,
+        "meaning_vi": "tọa độ thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "tọa độ thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tọa độ thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122230,
+    "word": "ワールド座標系",
+    "kana": "ワールドざひょうけい",
+    "senses": [
+      {
+        "sense_id": 365847,
+        "meaning_vi": "hệ tọa độ thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ tọa độ thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ tọa độ thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

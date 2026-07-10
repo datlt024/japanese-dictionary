@@ -1,565 +1,524 @@
 [
-{
-"vocabulary_id": 1438,
-"word": "アセテート",
-"kana": "アセテート",
-"senses": [
-{
-"sense_id": 219548,
-"meaning_vi": "acetat",
-"confidence": "high",
-"search_keywords": [
-"acetat",
-"acetate"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "acetat; muối hoặc este của axit axetic",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1439,
-"word": "アセトン",
-"kana": "アセトン",
-"senses": [
-{
-"sense_id": 219549,
-"meaning_vi": "acetone",
-"confidence": "high",
-"search_keywords": [
-"acetone",
-"axeton",
-"dung môi acetone"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "acetone; dung môi hữu cơ dễ bay hơi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1440,
-"word": "アセンブラ",
-"kana": "アセンブラ",
-"senses": [
-{
-"sense_id": 219550,
-"meaning_vi": "trình hợp dịch",
-"confidence": "high",
-"search_keywords": [
-"trình hợp dịch",
-"assembler",
-"hợp dịch"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trình hợp dịch; chương trình chuyển mã assembly sang mã máy",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1441,
-"word": "アセンブリ",
-"kana": "アセンブリ",
-"senses": [
-{
-"sense_id": 219551,
-"meaning_vi": "lắp ráp",
-"confidence": "high",
-"search_keywords": [
-"lắp ráp",
-"cụm lắp ráp",
-"assembly"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự lắp ráp; cụm chi tiết đã được lắp",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219552,
-"meaning_vi": "hợp ngữ",
-"confidence": "high",
-"search_keywords": [
-"hợp ngữ",
-"assembly",
-"ngôn ngữ assembly"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hợp ngữ; ngôn ngữ lập trình cấp thấp gần với mã máy",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1442,
-"word": "アセンブル",
-"kana": "アセンブル",
-"senses": [
-{
-"sense_id": 219553,
-"meaning_vi": "lắp ráp",
-"confidence": "high",
-"search_keywords": [
-"lắp ráp",
-"tập hợp",
-"assemble"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lắp ráp; tập hợp các bộ phận lại thành một chỉnh thể",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1443,
-"word": "アソシエーション",
-"kana": "アソシエーション",
-"senses": [
-{
-"sense_id": 219554,
-"meaning_vi": "hiệp hội",
-"confidence": "high",
-"search_keywords": [
-"hiệp hội",
-"liên kết",
-"association"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hiệp hội; sự liên kết hoặc tổ chức liên kết",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1444,
-"word": "アタッカー",
-"kana": "アタッカー",
-"senses": [
-{
-"sense_id": 219555,
-"meaning_vi": "tay tấn công",
-"confidence": "high",
-"search_keywords": [
-"tay tấn công",
-"cầu thủ tấn công",
-"attacker"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cầu thủ chuyên tấn công, nhất là trong bóng chuyền",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1445,
-"word": "アタック",
-"kana": "アタック",
-"senses": [
-{
-"sense_id": 219556,
-"meaning_vi": "tấn công",
-"confidence": "high",
-"search_keywords": [
-"tấn công",
-"đòn tấn công",
-"attack"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tấn công trong thể thao",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219557,
-"meaning_vi": "thử sức",
-"confidence": "high",
-"search_keywords": [
-"thử sức",
-"chinh phục",
-"tackle"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thử sức với việc khó; đối mặt và tìm cách giải quyết",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219558,
-"meaning_vi": "chinh phục đỉnh núi",
-"confidence": "high",
-"search_keywords": [
-"chinh phục đỉnh núi",
-"leo lên đỉnh",
-"summit attack"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nỗ lực tấn công, chinh phục đỉnh núi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219559,
-"meaning_vi": "độ bật âm",
-"confidence": "medium",
-"search_keywords": [
-"độ bật âm",
-"attack âm nhạc",
-"attack"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần khởi đầu của âm thanh khi nốt nhạc vang lên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1446,
-"word": "アタッシュケース",
-"kana": "アタッシュケース",
-"senses": [
-{
-"sense_id": 219560,
-"meaning_vi": "cặp tài liệu",
-"confidence": "high",
-"search_keywords": [
-"cặp tài liệu",
-"cặp attaché",
-"attaché case"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cặp tài liệu cứng, thường dùng trong công việc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1447,
-"word": "アタッチ",
-"kana": "アタッチ",
-"senses": [
-{
-"sense_id": 219561,
-"meaning_vi": "đính kèm",
-"confidence": "high",
-"search_keywords": [
-"đính kèm",
-"gắn kèm",
-"attach"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đính kèm hoặc gắn tập tin trong máy tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1448,
-"word": "アタッチメント",
-"kana": "アタッチメント",
-"senses": [
-{
-"sense_id": 219562,
-"meaning_vi": "phụ kiện gắn kèm",
-"confidence": "high",
-"search_keywords": [
-"phụ kiện gắn kèm",
-"tệp đính kèm",
-"attachment"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phụ kiện gắn kèm; tệp đính kèm; sự gắn bó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1449,
-"word": "アダージョ",
-"kana": "アダージョ",
-"senses": [
-{
-"sense_id": 219563,
-"meaning_vi": "adagio",
-"confidence": "high",
-"search_keywords": [
-"adagio",
-"nhịp chậm",
-"chậm rãi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "adagio; chỉ tốc độ chậm, khoan thai trong âm nhạc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1450,
-"word": "アダプター",
-"kana": "アダプター",
-"senses": [
-{
-"sense_id": 219564,
-"meaning_vi": "bộ chuyển đổi",
-"confidence": "high",
-"search_keywords": [
-"bộ chuyển đổi",
-"adapter",
-"cục sạc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bộ chuyển đổi hoặc thiết bị nối trung gian",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1451,
-"word": "アダプティブ",
-"kana": "アダプティブ",
-"senses": [
-{
-"sense_id": 219565,
-"meaning_vi": "thích ứng",
-"confidence": "high",
-"search_keywords": [
-"thích ứng",
-"adaptive",
-"có khả năng thích nghi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có khả năng thích ứng hoặc điều chỉnh theo điều kiện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1452,
-"word": "アダルト",
-"kana": "アダルト",
-"senses": [
-{
-"sense_id": 219566,
-"meaning_vi": "người lớn",
-"confidence": "high",
-"search_keywords": [
-"người lớn",
-"trưởng thành",
-"adult"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người lớn; thuộc về người trưởng thành",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219567,
-"meaning_vi": "người lớn",
-"confidence": "high",
-"search_keywords": [
-"người lớn",
-"khiêu dâm",
-"nội dung 18+"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nội dung người lớn; khiêu dâm hoặc có yếu tố tình dục rõ ràng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1453,
-"word": "アダルトエデュケーション",
-"kana": "アダルトエデュケーション",
-"senses": [
-{
-"sense_id": 219568,
-"meaning_vi": "giáo dục người lớn",
-"confidence": "high",
-"search_keywords": [
-"giáo dục người lớn",
-"giáo dục người trưởng thành",
-"adult education"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giáo dục dành cho người trưởng thành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1454,
-"word": "アダルトショップ",
-"kana": "アダルトショップ",
-"senses": [
-{
-"sense_id": 219569,
-"meaning_vi": "cửa hàng người lớn",
-"confidence": "high",
-"search_keywords": [
-"cửa hàng người lớn",
-"sex shop",
-"shop 18+"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cửa hàng bán sản phẩm tình dục hoặc nội dung người lớn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1455,
-"word": "アチーブ",
-"kana": "アチーブ",
-"senses": [
-{
-"sense_id": 219570,
-"meaning_vi": "bài kiểm tra thành tích",
-"confidence": "medium",
-"search_keywords": [
-"bài kiểm tra thành tích",
-"achievement test"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách nói tắt của achievement test; bài kiểm tra thành tích học tập",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1456,
-"word": "アチーブメントテスト",
-"kana": "アチーブメントテスト",
-"senses": [
-{
-"sense_id": 219571,
-"meaning_vi": "bài kiểm tra thành tích",
-"confidence": "high",
-"search_keywords": [
-"bài kiểm tra thành tích",
-"kiểm tra học lực",
-"achievement test"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bài kiểm tra đánh giá thành tích hoặc mức đạt được trong học tập",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1457,
-"word": "アッチェレランド",
-"kana": "アッチェレランド",
-"senses": [
-{
-"sense_id": 219572,
-"meaning_vi": "accelerando",
-"confidence": "high",
-"search_keywords": [
-"accelerando",
-"nhanh dần",
-"tăng tốc độ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "accelerando; chỉ dẫn chơi nhạc nhanh dần",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1438,
+    "word": "アセテート",
+    "kana": "アセテート",
+    "senses": [
+      {
+        "sense_id": 219548,
+        "meaning_vi": "axetat",
+        "confidence": "high",
+        "search_keywords": [
+          "axetat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "axetat",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1439,
+    "word": "アセトン",
+    "kana": "アセトン",
+    "senses": [
+      {
+        "sense_id": 219549,
+        "meaning_vi": "axeton",
+        "confidence": "high",
+        "search_keywords": [
+          "axeton"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "axeton",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1440,
+    "word": "アセンブラ",
+    "kana": "アセンブラ",
+    "senses": [
+      {
+        "sense_id": 219550,
+        "meaning_vi": "người lắp ráp",
+        "confidence": "high",
+        "search_keywords": [
+          "người lắp ráp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lắp ráp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1441,
+    "word": "アセンブリ",
+    "kana": "アセンブリ",
+    "senses": [
+      {
+        "sense_id": 219551,
+        "meaning_vi": "lắp ráp",
+        "confidence": "high",
+        "search_keywords": [
+          "lắp ráp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lắp ráp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219552,
+        "meaning_vi": "lắp ráp (ngôn ngữ)",
+        "confidence": "high",
+        "search_keywords": [
+          "lắp ráp (ngôn ngữ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lắp ráp (ngôn ngữ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1442,
+    "word": "アセンブル",
+    "kana": "アセンブル",
+    "senses": [
+      {
+        "sense_id": 219553,
+        "meaning_vi": "tập hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "tập hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1443,
+    "word": "アソシエーション",
+    "kana": "アソシエーション",
+    "senses": [
+      {
+        "sense_id": 219554,
+        "meaning_vi": "hiệp hội",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệp hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệp hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1444,
+    "word": "アタッカー",
+    "kana": "アタッカー",
+    "senses": [
+      {
+        "sense_id": 219555,
+        "meaning_vi": "kẻ tấn công (đặc biệt trong bóng chuyền)",
+        "confidence": "high",
+        "search_keywords": [
+          "kẻ tấn công (đặc biệt trong bóng chuyền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẻ tấn công (đặc biệt trong bóng chuyền)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1445,
+    "word": "アタック",
+    "kana": "アタック",
+    "senses": [
+      {
+        "sense_id": 219556,
+        "meaning_vi": "tấn công",
+        "confidence": "high",
+        "search_keywords": [
+          "tấn công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tấn công",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219557,
+        "meaning_vi": "tấn công (vào một nhiệm vụ khó khăn); giải quyết; đương đầu; nỗ lực; thử",
+        "confidence": "high",
+        "search_keywords": [
+          "tấn công (vào một nhiệm vụ khó khăn)",
+          "giải quyết",
+          "đương đầu",
+          "nỗ lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tấn công (vào một nhiệm vụ khó khăn); giải quyết; đương đầu; nỗ lực; thử",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219558,
+        "meaning_vi": "tấn công (trên đỉnh)",
+        "confidence": "high",
+        "search_keywords": [
+          "tấn công (trên đỉnh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tấn công (trên đỉnh)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219559,
+        "meaning_vi": "tấn công",
+        "confidence": "high",
+        "search_keywords": [
+          "tấn công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tấn công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1446,
+    "word": "アタッシュケース",
+    "kana": "アタッシュケース",
+    "senses": [
+      {
+        "sense_id": 219560,
+        "meaning_vi": "trường hợp tùy viên",
+        "confidence": "high",
+        "search_keywords": [
+          "trường hợp tùy viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường hợp tùy viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1447,
+    "word": "アタッチ",
+    "kana": "アタッチ",
+    "senses": [
+      {
+        "sense_id": 219561,
+        "meaning_vi": "đính kèm",
+        "confidence": "high",
+        "search_keywords": [
+          "đính kèm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đính kèm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1448,
+    "word": "アタッチメント",
+    "kana": "アタッチメント",
+    "senses": [
+      {
+        "sense_id": 219562,
+        "meaning_vi": "tập tin đính kèm",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin đính kèm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin đính kèm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1449,
+    "word": "アダージョ",
+    "kana": "アダージョ",
+    "senses": [
+      {
+        "sense_id": 219563,
+        "meaning_vi": "adagio",
+        "confidence": "low",
+        "search_keywords": [
+          "adagio"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "adagio",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1450,
+    "word": "アダプター",
+    "kana": "アダプター",
+    "senses": [
+      {
+        "sense_id": 219564,
+        "meaning_vi": "bộ chuyển đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ chuyển đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ chuyển đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1451,
+    "word": "アダプティブ",
+    "kana": "アダプティブ",
+    "senses": [
+      {
+        "sense_id": 219565,
+        "meaning_vi": "thích nghi",
+        "confidence": "high",
+        "search_keywords": [
+          "thích nghi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thích nghi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1452,
+    "word": "アダルト",
+    "kana": "アダルト",
+    "senses": [
+      {
+        "sense_id": 219566,
+        "meaning_vi": "người lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "người lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lớn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219567,
+        "meaning_vi": "người lớn; khiêu dâm; rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "người lớn",
+          "khiêu dâm",
+          "rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lớn; khiêu dâm; rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1453,
+    "word": "アダルトエデュケーション",
+    "kana": "アダルトエデュケーション",
+    "senses": [
+      {
+        "sense_id": 219568,
+        "meaning_vi": "giáo dục người lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "giáo dục người lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giáo dục người lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1454,
+    "word": "アダルトショップ",
+    "kana": "アダルトショップ",
+    "senses": [
+      {
+        "sense_id": 219569,
+        "meaning_vi": "cửa hàng tình dục; cửa hàng người lớn; cửa hàng khiêu dâm",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa hàng tình dục",
+          "cửa hàng người lớn",
+          "cửa hàng khiêu dâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa hàng tình dục; cửa hàng người lớn; cửa hàng khiêu dâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1455,
+    "word": "アチーブ",
+    "kana": "アチーブ",
+    "senses": [
+      {
+        "sense_id": 219570,
+        "meaning_vi": "kiểm tra thành tích",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra thành tích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra thành tích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1456,
+    "word": "アチーブメントテスト",
+    "kana": "アチーブメントテスト",
+    "senses": [
+      {
+        "sense_id": 219571,
+        "meaning_vi": "kiểm tra thành tích",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra thành tích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra thành tích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1457,
+    "word": "アッチェレランド",
+    "kana": "アッチェレランド",
+    "senses": [
+      {
+        "sense_id": 219572,
+        "meaning_vi": "tăng tốc",
+        "confidence": "high",
+        "search_keywords": [
+          "tăng tốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tăng tốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

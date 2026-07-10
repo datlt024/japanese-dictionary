@@ -1,0 +1,474 @@
+[
+  {
+    "vocabulary_id": 66199,
+    "word": "澄明",
+    "kana": "ちょうめい",
+    "senses": [
+      {
+        "sense_id": 303782,
+        "meaning_vi": "rõ ràng và tươi sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "rõ ràng và tươi sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rõ ràng và tươi sáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66200,
+    "word": "証人席",
+    "kana": "しょうにんせき",
+    "senses": [
+      {
+        "sense_id": 303783,
+        "meaning_vi": "quầy hoặc hộp nhân chứng",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy hoặc hộp nhân chứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy hoặc hộp nhân chứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66201,
+    "word": "証文",
+    "kana": "しょうもん",
+    "senses": [
+      {
+        "sense_id": 303784,
+        "meaning_vi": "trái phiếu; chứng thư; hợp đồng",
+        "confidence": "high",
+        "search_keywords": [
+          "trái phiếu",
+          "chứng thư",
+          "hợp đồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái phiếu; chứng thư; hợp đồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66202,
+    "word": "証券市場",
+    "kana": "しょうけんしじょう",
+    "senses": [
+      {
+        "sense_id": 303785,
+        "meaning_vi": "thị trường chứng khoán",
+        "confidence": "high",
+        "search_keywords": [
+          "thị trường chứng khoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thị trường chứng khoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66203,
+    "word": "証券会社",
+    "kana": "しょうけんがいしゃ",
+    "senses": [
+      {
+        "sense_id": 303786,
+        "meaning_vi": "môi giới; công ty môi giới; nhà môi giới; công ty chứng khoán",
+        "confidence": "high",
+        "search_keywords": [
+          "môi giới",
+          "công ty môi giới",
+          "nhà môi giới",
+          "công ty chứng khoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môi giới; công ty môi giới; nhà môi giới; công ty chứng khoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66204,
+    "word": "証拠物件",
+    "kana": "しょうこぶっけん",
+    "senses": [
+      {
+        "sense_id": 303787,
+        "meaning_vi": "chứng cớ; một cuộc triển lãm",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng cớ",
+          "một cuộc triển lãm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng cớ; một cuộc triển lãm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66205,
+    "word": "証拠金",
+    "kana": "しょうこきん",
+    "senses": [
+      {
+        "sense_id": 303788,
+        "meaning_vi": "tiền đặt cọc (ví dụ: mua nhà); tiền nghiêm túc; tiền bảo đảm",
+        "confidence": "high",
+        "search_keywords": [
+          "tiền đặt cọc (ví dụ: mua nhà)",
+          "tiền nghiêm túc",
+          "tiền bảo đảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiền đặt cọc (ví dụ: mua nhà); tiền nghiêm túc; tiền bảo đảm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 303789,
+        "meaning_vi": "ký quỹ (thanh toán); tiền bảo đảm; che",
+        "confidence": "high",
+        "search_keywords": [
+          "ký quỹ (thanh toán)",
+          "tiền bảo đảm",
+          "che"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký quỹ (thanh toán); tiền bảo đảm; che",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66206,
+    "word": "証跡",
+    "kana": "しょうせき",
+    "senses": [
+      {
+        "sense_id": 303790,
+        "meaning_vi": "bằng chứng; chứng cớ; dấu vết",
+        "confidence": "high",
+        "search_keywords": [
+          "bằng chứng",
+          "chứng cớ",
+          "dấu vết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bằng chứng; chứng cớ; dấu vết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66207,
+    "word": "症例",
+    "kana": "しょうれい",
+    "senses": [
+      {
+        "sense_id": 303791,
+        "meaning_vi": "trường hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "trường hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66208,
+    "word": "徴兵忌避",
+    "kana": "ちょうへいきひ",
+    "senses": [
+      {
+        "sense_id": 303792,
+        "meaning_vi": "trốn quân dịch; trốn nghĩa vụ quân sự",
+        "confidence": "high",
+        "search_keywords": [
+          "trốn quân dịch",
+          "trốn nghĩa vụ quân sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trốn quân dịch; trốn nghĩa vụ quân sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66209,
+    "word": "徴兵忌避者",
+    "kana": "ちょうへいきひしゃ",
+    "senses": [
+      {
+        "sense_id": 303793,
+        "meaning_vi": "người trốn quân dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "người trốn quân dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người trốn quân dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66210,
+    "word": "徴兵制度",
+    "kana": "ちょうへいせいど",
+    "senses": [
+      {
+        "sense_id": 303794,
+        "meaning_vi": "sự bắt buộc; hệ thống dự thảo",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bắt buộc",
+          "hệ thống dự thảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bắt buộc; hệ thống dự thảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66211,
+    "word": "徴兵免除",
+    "kana": "ちょうへいめんじょ",
+    "senses": [
+      {
+        "sense_id": 303795,
+        "meaning_vi": "miễn nghĩa vụ quân sự; miễn dự thảo",
+        "confidence": "high",
+        "search_keywords": [
+          "miễn nghĩa vụ quân sự",
+          "miễn dự thảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "miễn nghĩa vụ quân sự; miễn dự thảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66212,
+    "word": "徴兵検査",
+    "kana": "ちょうへいけんさ",
+    "senses": [
+      {
+        "sense_id": 303796,
+        "meaning_vi": "khám sức khỏe (được thực hiện khi nhập ngũ)",
+        "confidence": "high",
+        "search_keywords": [
+          "khám sức khỏe (được thực hiện khi nhập ngũ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khám sức khỏe (được thực hiện khi nhập ngũ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66213,
+    "word": "徴発令",
+    "kana": "ちょうはつれい",
+    "senses": [
+      {
+        "sense_id": 303797,
+        "meaning_vi": "lệnh trưng dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh trưng dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh trưng dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66214,
+    "word": "懲戒処分",
+    "kana": "ちょうかいしょぶん",
+    "senses": [
+      {
+        "sense_id": 303798,
+        "meaning_vi": "biện pháp kỷ luật; (tư pháp) sự trừng phạt",
+        "confidence": "high",
+        "search_keywords": [
+          "biện pháp kỷ luật",
+          "(tư pháp) sự trừng phạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biện pháp kỷ luật; (tư pháp) sự trừng phạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66215,
+    "word": "懲罰委員会",
+    "kana": "ちょうばついいんかい",
+    "senses": [
+      {
+        "sense_id": 303799,
+        "meaning_vi": "ủy ban kỷ luật",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy ban kỷ luật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy ban kỷ luật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66216,
+    "word": "蒸気圧",
+    "kana": "じょうきあつ",
+    "senses": [
+      {
+        "sense_id": 303800,
+        "meaning_vi": "áp suất hơi nước",
+        "confidence": "high",
+        "search_keywords": [
+          "áp suất hơi nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áp suất hơi nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66217,
+    "word": "蒸気船",
+    "kana": "じょうきせん",
+    "senses": [
+      {
+        "sense_id": 303801,
+        "meaning_vi": "tàu hơi nước; tàu hơi nước; nồi hấp",
+        "confidence": "high",
+        "search_keywords": [
+          "tàu hơi nước",
+          "nồi hấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tàu hơi nước; tàu hơi nước; nồi hấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66218,
+    "word": "蒸気機関",
+    "kana": "じょうききかん",
+    "senses": [
+      {
+        "sense_id": 303802,
+        "meaning_vi": "động cơ hơi nước",
+        "confidence": "high",
+        "search_keywords": [
+          "động cơ hơi nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động cơ hơi nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

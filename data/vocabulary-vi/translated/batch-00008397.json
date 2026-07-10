@@ -1,0 +1,547 @@
+[
+  {
+    "vocabulary_id": 194019,
+    "word": "詐欺メール",
+    "kana": "さぎメール",
+    "senses": [
+      {
+        "sense_id": 443760,
+        "meaning_vi": "email lừa đảo; email lừa đảo",
+        "confidence": "high",
+        "search_keywords": [
+          "email lừa đảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "email lừa đảo; email lừa đảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194020,
+    "word": "都合上",
+    "kana": "つごうじょう",
+    "senses": [
+      {
+        "sense_id": 443761,
+        "meaning_vi": "như một vấn đề thuận tiện; vì sự thuận tiện; xét về hoàn cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "như một vấn đề thuận tiện",
+          "vì sự thuận tiện",
+          "xét về hoàn cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "như một vấn đề thuận tiện; vì sự thuận tiện; xét về hoàn cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194021,
+    "word": "幸薄い",
+    "kana": "さちうすい",
+    "senses": [
+      {
+        "sense_id": 443762,
+        "meaning_vi": "không may; không vui; xui xẻo; không may mắn",
+        "confidence": "high",
+        "search_keywords": [
+          "không may",
+          "không vui",
+          "xui xẻo",
+          "không may mắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không may; không vui; xui xẻo; không may mắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194022,
+    "word": "夕勤",
+    "kana": "ゆうきん",
+    "senses": [
+      {
+        "sense_id": 443763,
+        "meaning_vi": "ca tối",
+        "confidence": "high",
+        "search_keywords": [
+          "ca tối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ca tối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194023,
+    "word": "皇朝",
+    "kana": "こうちょう",
+    "senses": [
+      {
+        "sense_id": 443764,
+        "meaning_vi": "triều đình; Tòa án Hoàng gia Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "triều đình",
+          "Tòa án Hoàng gia Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triều đình; Tòa án Hoàng gia Nhật Bản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 443765,
+        "meaning_vi": "Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194024,
+    "word": "朝代",
+    "kana": "ちょうだい",
+    "senses": [
+      {
+        "sense_id": 443766,
+        "meaning_vi": "thời đại triều đại",
+        "confidence": "high",
+        "search_keywords": [
+          "thời đại triều đại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời đại triều đại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194025,
+    "word": "塞外",
+    "kana": "さいがい",
+    "senses": [
+      {
+        "sense_id": 443767,
+        "meaning_vi": "bên ngoài một pháo đài",
+        "confidence": "high",
+        "search_keywords": [
+          "bên ngoài một pháo đài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên ngoài một pháo đài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 443768,
+        "meaning_vi": "bên ngoài Vạn Lý Trường Thành của Trung Quốc",
+        "confidence": "high",
+        "search_keywords": [
+          "bên ngoài Vạn Lý Trường Thành của Trung Quốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên ngoài Vạn Lý Trường Thành của Trung Quốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194026,
+    "word": "塞内",
+    "kana": "さいない",
+    "senses": [
+      {
+        "sense_id": 443769,
+        "meaning_vi": "bên trong một pháo đài",
+        "confidence": "high",
+        "search_keywords": [
+          "bên trong một pháo đài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên trong một pháo đài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 443770,
+        "meaning_vi": "(khu vực) bên trong Vạn Lý Trường Thành của Trung Quốc",
+        "confidence": "high",
+        "search_keywords": [
+          "(khu vực) bên trong Vạn Lý Trường Thành của Trung Quốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(khu vực) bên trong Vạn Lý Trường Thành của Trung Quốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194027,
+    "word": "産地ロンダリング",
+    "kana": "さんちロンダリング",
+    "senses": [
+      {
+        "sense_id": 443771,
+        "meaning_vi": "ngụy trang quốc gia xuất xứ của sản phẩm (ví dụ: bằng cách xuất khẩu qua nước thứ ba)",
+        "confidence": "high",
+        "search_keywords": [
+          "ngụy trang quốc gia xuất xứ của sản phẩm (ví dụ: bằng cách xuất khẩu qua nước thứ ba)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngụy trang quốc gia xuất xứ của sản phẩm (ví dụ: bằng cách xuất khẩu qua nước thứ ba)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194028,
+    "word": "よだれ鶏",
+    "kana": "よだれどり",
+    "senses": [
+      {
+        "sense_id": 443772,
+        "meaning_vi": "gà ngon miệng (món gà hấp sốt cay của Trung Quốc)",
+        "confidence": "high",
+        "search_keywords": [
+          "gà ngon miệng (món gà hấp sốt cay của Trung Quốc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gà ngon miệng (món gà hấp sốt cay của Trung Quốc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194029,
+    "word": "鯖落ち",
+    "kana": "サバおち",
+    "senses": [
+      {
+        "sense_id": 443773,
+        "meaning_vi": "ngừng hoạt động máy chủ (ví dụ: trong trò chơi trực tuyến)",
+        "confidence": "high",
+        "search_keywords": [
+          "ngừng hoạt động máy chủ (ví dụ: trong trò chơi trực tuyến)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngừng hoạt động máy chủ (ví dụ: trong trò chơi trực tuyến)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194030,
+    "word": "リモートマッチ",
+    "kana": "リモートマッチ",
+    "senses": [
+      {
+        "sense_id": 443774,
+        "meaning_vi": "sự kiện thể thao được tổ chức mà không có khán giả (đặc biệt là trong đại dịch COVID-19)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kiện thể thao được tổ chức mà không có khán giả (đặc biệt là trong đại dịch COVID-19)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kiện thể thao được tổ chức mà không có khán giả (đặc biệt là trong đại dịch COVID-19)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194031,
+    "word": "オンライン飲み会",
+    "kana": "オンラインのみかい",
+    "senses": [
+      {
+        "sense_id": 443775,
+        "meaning_vi": "tiệc uống trực tuyến; tiệc uống sử dụng nền tảng video (Skype, Zoom, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "tiệc uống trực tuyến",
+          "tiệc uống sử dụng nền tảng video (Skype, Zoom, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiệc uống trực tuyến; tiệc uống sử dụng nền tảng video (Skype, Zoom, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194032,
+    "word": "此処許",
+    "kana": "ここもと",
+    "senses": [
+      {
+        "sense_id": 443776,
+        "meaning_vi": "đây; khu vực này; quanh đây",
+        "confidence": "high",
+        "search_keywords": [
+          "đây",
+          "khu vực này",
+          "quanh đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đây; khu vực này; quanh đây",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 443777,
+        "meaning_vi": "TÔI; tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "TÔI",
+          "tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "TÔI; tôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194033,
+    "word": "有症者",
+    "kana": "ゆうしょうしゃ",
+    "senses": [
+      {
+        "sense_id": 443778,
+        "meaning_vi": "người có triệu chứng; người có triệu chứng (ví dụ như bệnh truyền nhiễm); người nghi ngờ nhiễm trùng",
+        "confidence": "high",
+        "search_keywords": [
+          "người có triệu chứng",
+          "người có triệu chứng (ví dụ như bệnh truyền nhiễm)",
+          "người nghi ngờ nhiễm trùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người có triệu chứng; người có triệu chứng (ví dụ như bệnh truyền nhiễm); người nghi ngờ nhiễm trùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194034,
+    "word": "開放型ヘッドホン",
+    "kana": "かいほうがたヘッドホン",
+    "senses": [
+      {
+        "sense_id": 443779,
+        "meaning_vi": "tai nghe mở phía sau",
+        "confidence": "high",
+        "search_keywords": [
+          "tai nghe mở phía sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tai nghe mở phía sau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194035,
+    "word": "巴結び",
+    "kana": "ともえむすび",
+    "senses": [
+      {
+        "sense_id": 443780,
+        "meaning_vi": "dây cung nhanh (nút thắt)",
+        "confidence": "high",
+        "search_keywords": [
+          "dây cung nhanh (nút thắt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dây cung nhanh (nút thắt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194036,
+    "word": "期初",
+    "kana": "きしょ",
+    "senses": [
+      {
+        "sense_id": 443781,
+        "meaning_vi": "bắt đầu một giai đoạn (đặc biệt là tài chính); đầu một học kỳ",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu một giai đoạn (đặc biệt là tài chính)",
+          "đầu một học kỳ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu một giai đoạn (đặc biệt là tài chính); đầu một học kỳ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194037,
+    "word": "つわる",
+    "kana": "つわる",
+    "senses": [
+      {
+        "sense_id": 443782,
+        "meaning_vi": "đâm chồi; nảy mầm",
+        "confidence": "high",
+        "search_keywords": [
+          "đâm chồi",
+          "nảy mầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đâm chồi; nảy mầm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 443783,
+        "meaning_vi": "bị ốm nghén",
+        "confidence": "high",
+        "search_keywords": [
+          "bị ốm nghén"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị ốm nghén",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 443784,
+        "meaning_vi": "để vết lún; đi vào nhiệt độ",
+        "confidence": "high",
+        "search_keywords": [
+          "để vết lún",
+          "đi vào nhiệt độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để vết lún; đi vào nhiệt độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194038,
+    "word": "目押し",
+    "kana": "めおし",
+    "senses": [
+      {
+        "sense_id": 443785,
+        "meaning_vi": "dừng kỹ năng (máy đánh bạc)",
+        "confidence": "high",
+        "search_keywords": [
+          "dừng kỹ năng (máy đánh bạc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dừng kỹ năng (máy đánh bạc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

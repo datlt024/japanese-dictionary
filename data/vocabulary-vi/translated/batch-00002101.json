@@ -1,0 +1,582 @@
+[
+  {
+    "vocabulary_id": 54532,
+    "word": "良し悪し",
+    "kana": "よしあし",
+    "senses": [
+      {
+        "sense_id": 288872,
+        "meaning_vi": "đúng hay sai; tốt hay xấu; chất lượng; sự thích hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "đúng hay sai",
+          "tốt hay xấu",
+          "chất lượng",
+          "sự thích hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đúng hay sai; tốt hay xấu; chất lượng; sự thích hợp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288873,
+        "meaning_vi": "có cả ưu và nhược điểm; có cả ưu điểm và nhược điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "có cả ưu và nhược điểm",
+          "có cả ưu điểm và nhược điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có cả ưu và nhược điểm; có cả ưu điểm và nhược điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54533,
+    "word": "全国",
+    "kana": "ぜんこく",
+    "senses": [
+      {
+        "sense_id": 288874,
+        "meaning_vi": "cả nước",
+        "confidence": "high",
+        "search_keywords": [
+          "cả nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cả nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54534,
+    "word": "全治",
+    "kana": "ぜんち",
+    "senses": [
+      {
+        "sense_id": 288875,
+        "meaning_vi": "phục hồi hoàn toàn; chữa bệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "phục hồi hoàn toàn",
+          "chữa bệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục hồi hoàn toàn; chữa bệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54535,
+    "word": "曾",
+    "kana": "ひい",
+    "senses": [
+      {
+        "sense_id": 288876,
+        "meaning_vi": "tuyệt vời (tức là chắt, bà cố)",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyệt vời (tức là chắt, bà cố)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyệt vời (tức là chắt, bà cố)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54536,
+    "word": "嘗て",
+    "kana": "かつて",
+    "senses": [
+      {
+        "sense_id": 288877,
+        "meaning_vi": "một lần; trước; trước đây; bao giờ; trước; cựu",
+        "confidence": "high",
+        "search_keywords": [
+          "một lần",
+          "trước",
+          "trước đây",
+          "bao giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một lần; trước; trước đây; bao giờ; trước; cựu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288878,
+        "meaning_vi": "chưa bao giờ; chưa bao giờ trước đây; lần đầu tiên; vẫn chưa xảy ra",
+        "confidence": "high",
+        "search_keywords": [
+          "chưa bao giờ",
+          "chưa bao giờ trước đây",
+          "lần đầu tiên",
+          "vẫn chưa xảy ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chưa bao giờ; chưa bao giờ trước đây; lần đầu tiên; vẫn chưa xảy ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54537,
+    "word": "曽祖父",
+    "kana": "そうそふ",
+    "senses": [
+      {
+        "sense_id": 288879,
+        "meaning_vi": "ông cố; ông cố; ông cố",
+        "confidence": "high",
+        "search_keywords": [
+          "ông cố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ông cố; ông cố; ông cố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54538,
+    "word": "曾祖母",
+    "kana": "そうそぼ",
+    "senses": [
+      {
+        "sense_id": 288880,
+        "meaning_vi": "bà cố; bà cố",
+        "confidence": "high",
+        "search_keywords": [
+          "bà cố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bà cố; bà cố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54539,
+    "word": "遡及",
+    "kana": "そきゅう",
+    "senses": [
+      {
+        "sense_id": 288881,
+        "meaning_vi": "hồi tố; hồi tố; có hiệu lực hồi tố (để)",
+        "confidence": "high",
+        "search_keywords": [
+          "hồi tố",
+          "có hiệu lực hồi tố (để)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồi tố; hồi tố; có hiệu lực hồi tố (để)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54540,
+    "word": "創造主",
+    "kana": "そうぞうしゅ",
+    "senses": [
+      {
+        "sense_id": 288882,
+        "meaning_vi": "Người sáng tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "Người sáng tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Người sáng tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54541,
+    "word": "祠",
+    "kana": "ほこら",
+    "senses": [
+      {
+        "sense_id": 288883,
+        "meaning_vi": "hokora; ngôi miếu nhỏ ven đường",
+        "confidence": "high",
+        "search_keywords": [
+          "hokora",
+          "ngôi miếu nhỏ ven đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hokora; ngôi miếu nhỏ ven đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54542,
+    "word": "早急",
+    "kana": "そうきゅう",
+    "senses": [
+      {
+        "sense_id": 288884,
+        "meaning_vi": "ngay lập tức; nhắc nhở; nhanh; nhanh; cấp bách; ép",
+        "confidence": "high",
+        "search_keywords": [
+          "ngay lập tức",
+          "nhắc nhở",
+          "nhanh",
+          "cấp bách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngay lập tức; nhắc nhở; nhanh; nhanh; cấp bách; ép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54543,
+    "word": "早合点",
+    "kana": "はやがてん",
+    "senses": [
+      {
+        "sense_id": 288885,
+        "meaning_vi": "đi đến một kết luận vội vàng; phán xét sớm",
+        "confidence": "high",
+        "search_keywords": [
+          "đi đến một kết luận vội vàng",
+          "phán xét sớm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi đến một kết luận vội vàng; phán xét sớm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54544,
+    "word": "相反",
+    "kana": "そうはん",
+    "senses": [
+      {
+        "sense_id": 288886,
+        "meaning_vi": "sự phản đối lẫn nhau; sự trái ngược; mâu thuẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phản đối lẫn nhau",
+          "sự trái ngược",
+          "mâu thuẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phản đối lẫn nhau; sự trái ngược; mâu thuẫn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288887,
+        "meaning_vi": "lực đẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "lực đẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lực đẩy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54545,
+    "word": "相反する",
+    "kana": "あいはんする",
+    "senses": [
+      {
+        "sense_id": 288888,
+        "meaning_vi": "trái ngược; chạy truy cập (đến); xung đột (với); không đồng ý (với)",
+        "confidence": "high",
+        "search_keywords": [
+          "trái ngược",
+          "chạy truy cập (đến)",
+          "xung đột (với)",
+          "không đồng ý (với)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái ngược; chạy truy cập (đến); xung đột (với); không đồng ý (với)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54546,
+    "word": "草木",
+    "kana": "くさき",
+    "senses": [
+      {
+        "sense_id": 288889,
+        "meaning_vi": "thực vật; thảm thực vật",
+        "confidence": "high",
+        "search_keywords": [
+          "thực vật",
+          "thảm thực vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực vật; thảm thực vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54547,
+    "word": "側",
+    "kana": "がわ",
+    "senses": [
+      {
+        "sense_id": 288890,
+        "meaning_vi": "phe (của một cái gì đó, hoặc đứng về phía ai đó); một phần",
+        "confidence": "high",
+        "search_keywords": [
+          "phe (của một cái gì đó, hoặc đứng về phía ai đó)",
+          "một phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phe (của một cái gì đó, hoặc đứng về phía ai đó); một phần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288891,
+        "meaning_vi": "(đồng hồ) hộp đựng",
+        "confidence": "high",
+        "search_keywords": [
+          "(đồng hồ) hộp đựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đồng hồ) hộp đựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54548,
+    "word": "束ねる",
+    "kana": "たばねる",
+    "senses": [
+      {
+        "sense_id": 288892,
+        "meaning_vi": "buộc thành bó (ví dụ: rơm, tóc, hóa đơn, thư); bó lại; để bọc",
+        "confidence": "high",
+        "search_keywords": [
+          "buộc thành bó (ví dụ: rơm, tóc, hóa đơn, thư)",
+          "bó lại",
+          "để bọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buộc thành bó (ví dụ: rơm, tóc, hóa đơn, thư); bó lại; để bọc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288893,
+        "meaning_vi": "cai trị; để quản lý; để kiểm soát; quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "cai trị",
+          "để quản lý",
+          "để kiểm soát",
+          "quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cai trị; để quản lý; để kiểm soát; quản lý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288894,
+        "meaning_vi": "khoanh (tay); để đặt lại với nhau (tay của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "khoanh (tay)",
+          "để đặt lại với nhau (tay của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoanh (tay); để đặt lại với nhau (tay của một người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54549,
+    "word": "足跡",
+    "kana": "あしあと",
+    "senses": [
+      {
+        "sense_id": 288895,
+        "meaning_vi": "dấu chân",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu chân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288896,
+        "meaning_vi": "hồ sơ về khách truy cập trang (ví dụ: trên các trang mạng xã hội)",
+        "confidence": "high",
+        "search_keywords": [
+          "hồ sơ về khách truy cập trang (ví dụ: trên các trang mạng xã hội)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồ sơ về khách truy cập trang (ví dụ: trên các trang mạng xã hội)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54550,
+    "word": "俗気",
+    "kana": "ぞっき",
+    "senses": [
+      {
+        "sense_id": 288897,
+        "meaning_vi": "thô tục; tính trần tục; tham vọng trần thế",
+        "confidence": "high",
+        "search_keywords": [
+          "thô tục",
+          "tính trần tục",
+          "tham vọng trần thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thô tục; tính trần tục; tham vọng trần thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54551,
+    "word": "俗名",
+    "kana": "ぞくみょう",
+    "senses": [
+      {
+        "sense_id": 288898,
+        "meaning_vi": "tên chung; tên phổ biến; tên thế tục; mang tiếng xấu",
+        "confidence": "high",
+        "search_keywords": [
+          "tên chung",
+          "tên phổ biến",
+          "tên thế tục",
+          "mang tiếng xấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên chung; tên phổ biến; tên thế tục; mang tiếng xấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

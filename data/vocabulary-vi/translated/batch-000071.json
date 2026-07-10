@@ -1,498 +1,458 @@
 [
-{
-"vocabulary_id": 2062,
-"word": "インテリアデザイナー",
-"kana": "インテリアデザイナー",
-"senses": [
-{
-"sense_id": 220276,
-"meaning_vi": "nhà thiết kế nội thất",
-"confidence": "high",
-"search_keywords": [
-"nhà thiết kế nội thất",
-"thiết kế nội thất",
-"interior designer"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người chuyên thiết kế không gian nội thất",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2063,
-"word": "インテリアデザイン",
-"kana": "インテリアデザイン",
-"senses": [
-{
-"sense_id": 220277,
-"meaning_vi": "thiết kế nội thất",
-"confidence": "high",
-"search_keywords": [
-"thiết kế nội thất",
-"trang trí nội thất",
-"interior design"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết kế và bố trí không gian nội thất",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2064,
-"word": "インテリゲンチャ",
-"kana": "インテリゲンチャ",
-"senses": [
-{
-"sense_id": 220278,
-"meaning_vi": "tầng lớp trí thức",
-"confidence": "high",
-"search_keywords": [
-"tầng lớp trí thức",
-"giới trí thức",
-"intelligentsia"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giới trí thức; tầng lớp có học thức trong xã hội",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2065,
-"word": "インテリジェンス",
-"kana": "インテリジェンス",
-"senses": [
-{
-"sense_id": 220279,
-"meaning_vi": "trí tuệ",
-"confidence": "high",
-"search_keywords": [
-"trí tuệ",
-"tin tình báo",
-"intelligence"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trí tuệ; năng lực hiểu biết; thông tin tình báo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2066,
-"word": "インテリジェンスサービス",
-"kana": "インテリジェンスサービス",
-"senses": [
-{
-"sense_id": 220280,
-"meaning_vi": "cơ quan tình báo",
-"confidence": "high",
-"search_keywords": [
-"cơ quan tình báo",
-"dịch vụ tình báo",
-"intelligence service"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơ quan hoặc tổ chức chuyên thu thập thông tin tình báo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2067,
-"word": "インテリジェンステスト",
-"kana": "インテリジェンステスト",
-"senses": [
-{
-"sense_id": 220281,
-"meaning_vi": "bài kiểm tra trí tuệ",
-"confidence": "high",
-"search_keywords": [
-"bài kiểm tra trí tuệ",
-"kiểm tra IQ",
-"intelligence test"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bài kiểm tra đo năng lực trí tuệ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2068,
-"word": "インテリジェント",
-"kana": "インテリジェント",
-"senses": [
-{
-"sense_id": 220282,
-"meaning_vi": "thông minh",
-"confidence": "high",
-"search_keywords": [
-"thông minh",
-"có trí tuệ",
-"intelligent"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thông minh; có khả năng xử lý thông tin một cách linh hoạt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2069,
-"word": "インテリジェントシティー",
-"kana": "インテリジェントシティー",
-"senses": [
-{
-"sense_id": 220283,
-"meaning_vi": "thành phố thông minh",
-"confidence": "high",
-"search_keywords": [
-"thành phố thông minh",
-"smart city",
-"intelligent city"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thành phố ứng dụng công nghệ để quản lý và vận hành hiệu quả",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2070,
-"word": "インテリジェントターミナル",
-"kana": "インテリジェントターミナル",
-"senses": [
-{
-"sense_id": 220284,
-"meaning_vi": "thiết bị đầu cuối thông minh",
-"confidence": "high",
-"search_keywords": [
-"thiết bị đầu cuối thông minh",
-"terminal thông minh",
-"intelligent terminal"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị đầu cuối có khả năng xử lý dữ liệu độc lập",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2071,
-"word": "インテリジェントビル",
-"kana": "インテリジェントビル",
-"senses": [
-{
-"sense_id": 220285,
-"meaning_vi": "tòa nhà thông minh",
-"confidence": "high",
-"search_keywords": [
-"tòa nhà thông minh",
-"building thông minh",
-"intelligent building"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tòa nhà có hệ thống quản lý, điều khiển và thông tin tự động hóa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2072,
-"word": "インテル",
-"kana": "インテル",
-"senses": [
-{
-"sense_id": 220286,
-"meaning_vi": "miếng chì chèn chữ",
-"confidence": "medium",
-"search_keywords": [
-"miếng chì chèn chữ",
-"lead in printing",
-"chữ in"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "miếng chì dùng để chèn khoảng cách trong kỹ thuật in chữ rời",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2073,
-"word": "インテレクチュアル",
-"kana": "インテレクチュアル",
-"senses": [
-{
-"sense_id": 220287,
-"meaning_vi": "thuộc trí thức",
-"confidence": "high",
-"search_keywords": [
-"thuộc trí thức",
-"trí tuệ",
-"intellectual"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mang tính trí thức; liên quan đến trí tuệ hoặc học thuật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2074,
-"word": "インテンシティ",
-"kana": "インテンシティ",
-"senses": [
-{
-"sense_id": 220288,
-"meaning_vi": "cường độ",
-"confidence": "high",
-"search_keywords": [
-"cường độ",
-"mức độ mạnh",
-"intensity"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cường độ; mức độ mạnh yếu của hiện tượng hoặc tác động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2075,
-"word": "インテンシブ",
-"kana": "インテンシブ",
-"senses": [
-{
-"sense_id": 220289,
-"meaning_vi": "chuyên sâu",
-"confidence": "high",
-"search_keywords": [
-"chuyên sâu",
-"tập trung cao độ",
-"intensive"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mang tính chuyên sâu; tập trung cao độ trong thời gian ngắn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2076,
-"word": "インテンショナル",
-"kana": "インテンショナル",
-"senses": [
-{
-"sense_id": 220290,
-"meaning_vi": "cố ý",
-"confidence": "high",
-"search_keywords": [
-"cố ý",
-"có chủ ý",
-"intentional"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cố ý; có chủ ý từ trước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2077,
-"word": "インディアナ",
-"kana": "インディアナ",
-"senses": [
-{
-"sense_id": 220291,
-"meaning_vi": "Indiana",
-"confidence": "high",
-"search_keywords": [
-"Indiana",
-"bang Indiana"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bang Indiana của Hoa Kỳ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2078,
-"word": "インディアペーパー",
-"kana": "インディアペーパー",
-"senses": [
-{
-"sense_id": 220292,
-"meaning_vi": "giấy India",
-"confidence": "medium",
-"search_keywords": [
-"giấy India",
-"India paper",
-"giấy mỏng cao cấp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loại giấy mỏng, nhẹ, chất lượng cao dùng cho sách dày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2079,
-"word": "インディアン",
-"kana": "インディアン",
-"senses": [
-{
-"sense_id": 220293,
-"meaning_vi": "người bản địa châu Mỹ",
-"confidence": "high",
-"search_keywords": [
-"người bản địa châu Mỹ",
-"người Mỹ bản địa",
-"Native American"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người bản địa châu Mỹ; người Mỹ bản địa",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220294,
-"meaning_vi": "Ấn Độ",
-"confidence": "medium",
-"search_keywords": [
-"Ấn Độ",
-"thuộc Ấn Độ",
-"Indian"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thuộc Ấn Độ; mang phong cách hoặc nguồn gốc Ấn Độ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2080,
-"word": "インディアンサマー",
-"kana": "インディアンサマー",
-"senses": [
-{
-"sense_id": 220295,
-"meaning_vi": "nắng ấm cuối thu",
-"confidence": "high",
-"search_keywords": [
-"nắng ấm cuối thu",
-"Indian summer",
-"thời tiết ấm cuối thu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đợt thời tiết ấm bất thường vào cuối thu hoặc đầu đông",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2081,
-"word": "インディアンジュエリー",
-"kana": "インディアンジュエリー",
-"senses": [
-{
-"sense_id": 220296,
-"meaning_vi": "trang sức bản địa Mỹ",
-"confidence": "high",
-"search_keywords": [
-"trang sức bản địa Mỹ",
-"trang sức Native American",
-"Indian jewelry"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trang sức theo phong cách của người bản địa châu Mỹ",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2062,
+    "word": "インテリアデザイナー",
+    "kana": "インテリアデザイナー",
+    "senses": [
+      {
+        "sense_id": 220276,
+        "meaning_vi": "nhà thiết kế nội thất",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà thiết kế nội thất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà thiết kế nội thất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2063,
+    "word": "インテリアデザイン",
+    "kana": "インテリアデザイン",
+    "senses": [
+      {
+        "sense_id": 220277,
+        "meaning_vi": "thiết kế nội thất",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết kế nội thất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết kế nội thất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2064,
+    "word": "インテリゲンチャ",
+    "kana": "インテリゲンチャ",
+    "senses": [
+      {
+        "sense_id": 220278,
+        "meaning_vi": "giới trí thức",
+        "confidence": "high",
+        "search_keywords": [
+          "giới trí thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giới trí thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2065,
+    "word": "インテリジェンス",
+    "kana": "インテリジェンス",
+    "senses": [
+      {
+        "sense_id": 220279,
+        "meaning_vi": "trí thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "trí thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trí thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2066,
+    "word": "インテリジェンスサービス",
+    "kana": "インテリジェンスサービス",
+    "senses": [
+      {
+        "sense_id": 220280,
+        "meaning_vi": "dịch vụ tình báo",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ tình báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ tình báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2067,
+    "word": "インテリジェンステスト",
+    "kana": "インテリジェンステスト",
+    "senses": [
+      {
+        "sense_id": 220281,
+        "meaning_vi": "kiểm tra trí thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra trí thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra trí thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2068,
+    "word": "インテリジェント",
+    "kana": "インテリジェント",
+    "senses": [
+      {
+        "sense_id": 220282,
+        "meaning_vi": "thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2069,
+    "word": "インテリジェントシティー",
+    "kana": "インテリジェントシティー",
+    "senses": [
+      {
+        "sense_id": 220283,
+        "meaning_vi": "thành phố thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phố thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phố thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2070,
+    "word": "インテリジェントターミナル",
+    "kana": "インテリジェントターミナル",
+    "senses": [
+      {
+        "sense_id": 220284,
+        "meaning_vi": "thiết bị đầu cuối thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2071,
+    "word": "インテリジェントビル",
+    "kana": "インテリジェントビル",
+    "senses": [
+      {
+        "sense_id": 220285,
+        "meaning_vi": "tòa nhà thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "tòa nhà thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tòa nhà thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2072,
+    "word": "インテル",
+    "kana": "インテル",
+    "senses": [
+      {
+        "sense_id": 220286,
+        "meaning_vi": "chì",
+        "confidence": "high",
+        "search_keywords": [
+          "chì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2073,
+    "word": "インテレクチュアル",
+    "kana": "インテレクチュアル",
+    "senses": [
+      {
+        "sense_id": 220287,
+        "meaning_vi": "trí tuệ",
+        "confidence": "high",
+        "search_keywords": [
+          "trí tuệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trí tuệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2074,
+    "word": "インテンシティ",
+    "kana": "インテンシティ",
+    "senses": [
+      {
+        "sense_id": 220288,
+        "meaning_vi": "cường độ",
+        "confidence": "high",
+        "search_keywords": [
+          "cường độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cường độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2075,
+    "word": "インテンシブ",
+    "kana": "インテンシブ",
+    "senses": [
+      {
+        "sense_id": 220289,
+        "meaning_vi": "chuyên sâu",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyên sâu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyên sâu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2076,
+    "word": "インテンショナル",
+    "kana": "インテンショナル",
+    "senses": [
+      {
+        "sense_id": 220290,
+        "meaning_vi": "cố ý",
+        "confidence": "high",
+        "search_keywords": [
+          "cố ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cố ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2077,
+    "word": "インディアナ",
+    "kana": "インディアナ",
+    "senses": [
+      {
+        "sense_id": 220291,
+        "meaning_vi": "Indiana",
+        "confidence": "low",
+        "search_keywords": [
+          "Indiana"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Indiana",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2078,
+    "word": "インディアペーパー",
+    "kana": "インディアペーパー",
+    "senses": [
+      {
+        "sense_id": 220292,
+        "meaning_vi": "giấy ấn độ",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy ấn độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy ấn độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2079,
+    "word": "インディアン",
+    "kana": "インディアン",
+    "senses": [
+      {
+        "sense_id": 220293,
+        "meaning_vi": "(Mỹ) Ấn Độ; người Mỹ bản xứ",
+        "confidence": "high",
+        "search_keywords": [
+          "(Mỹ) Ấn Độ",
+          "người Mỹ bản xứ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(Mỹ) Ấn Độ; người Mỹ bản xứ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220294,
+        "meaning_vi": "người Ấn Độ",
+        "confidence": "high",
+        "search_keywords": [
+          "người Ấn Độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người Ấn Độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2080,
+    "word": "インディアンサマー",
+    "kana": "インディアンサマー",
+    "senses": [
+      {
+        "sense_id": 220295,
+        "meaning_vi": "mùa hè Ấn Độ",
+        "confidence": "high",
+        "search_keywords": [
+          "mùa hè Ấn Độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mùa hè Ấn Độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2081,
+    "word": "インディアンジュエリー",
+    "kana": "インディアンジュエリー",
+    "senses": [
+      {
+        "sense_id": 220296,
+        "meaning_vi": "Đồ trang sức Ấn Độ (đồ trang sức)",
+        "confidence": "high",
+        "search_keywords": [
+          "Đồ trang sức Ấn Độ (đồ trang sức)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đồ trang sức Ấn Độ (đồ trang sức)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,623 @@
+[
+  {
+    "vocabulary_id": 33238,
+    "word": "食い詰める",
+    "kana": "くいつめる",
+    "senses": [
+      {
+        "sense_id": 260280,
+        "meaning_vi": "bị phá sản",
+        "confidence": "high",
+        "search_keywords": [
+          "bị phá sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị phá sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33239,
+    "word": "食い荒らす",
+    "kana": "くいあらす",
+    "senses": [
+      {
+        "sense_id": 260281,
+        "meaning_vi": "ăn hết và hư hỏng (ví dụ: cây trồng); ăn đi; nuốt chửng; sói xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn hết và hư hỏng (ví dụ: cây trồng)",
+          "ăn đi",
+          "nuốt chửng",
+          "sói xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn hết và hư hỏng (ví dụ: cây trồng); ăn đi; nuốt chửng; sói xuống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260282,
+        "meaning_vi": "ăn mỗi thứ một ít",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn mỗi thứ một ít"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn mỗi thứ một ít",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260283,
+        "meaning_vi": "lấn chiếm; tiếp quản; ăn trộm (ví dụ: hỗ trợ)",
+        "confidence": "high",
+        "search_keywords": [
+          "lấn chiếm",
+          "tiếp quản",
+          "ăn trộm (ví dụ: hỗ trợ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lấn chiếm; tiếp quản; ăn trộm (ví dụ: hỗ trợ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33240,
+    "word": "食い合わす",
+    "kana": "くいあわす",
+    "senses": [
+      {
+        "sense_id": 260284,
+        "meaning_vi": "siết chặt",
+        "confidence": "high",
+        "search_keywords": [
+          "siết chặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siết chặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33241,
+    "word": "食い込む",
+    "kana": "くいこむ",
+    "senses": [
+      {
+        "sense_id": 260285,
+        "meaning_vi": "cắn vào (ví dụ: dây vào da); cắt vào; đào sâu vào (ví dụ như móng tay)",
+        "confidence": "high",
+        "search_keywords": [
+          "cắn vào (ví dụ: dây vào da)",
+          "cắt vào",
+          "đào sâu vào (ví dụ như móng tay)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắn vào (ví dụ: dây vào da); cắt vào; đào sâu vào (ví dụ như móng tay)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260286,
+        "meaning_vi": "ăn vào; lấn chiếm; để xâm nhập; thâm nhập (ví dụ: một thị trường); đột nhập vào (ví dụ: vị trí đầu tiên); xói mòn; cắt giảm (ví dụ: thời gian, tiết kiệm)",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn vào",
+          "lấn chiếm",
+          "để xâm nhập",
+          "thâm nhập (ví dụ: một thị trường)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn vào; lấn chiếm; để xâm nhập; thâm nhập (ví dụ: một thị trường); đột nhập vào (ví dụ: vị trí đầu tiên); xói mòn; cắt giảm (ví dụ: thời gian, tiết kiệm)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260287,
+        "meaning_vi": "bị nhét vào (tức là đồ lót bị kéo từ phía sau, đẩy nó vào giữa hai mông)",
+        "confidence": "high",
+        "search_keywords": [
+          "bị nhét vào (tức là đồ lót bị kéo từ phía sau, đẩy nó vào giữa hai mông)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị nhét vào (tức là đồ lót bị kéo từ phía sau, đẩy nó vào giữa hai mông)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33242,
+    "word": "食い殺す",
+    "kana": "くいころす",
+    "senses": [
+      {
+        "sense_id": 260288,
+        "meaning_vi": "nuốt chửng; cắn đến chết",
+        "confidence": "high",
+        "search_keywords": [
+          "nuốt chửng",
+          "cắn đến chết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nuốt chửng; cắn đến chết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33243,
+    "word": "食い散らす",
+    "kana": "くいちらす",
+    "senses": [
+      {
+        "sense_id": 260289,
+        "meaning_vi": "ăn bừa bãi",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn bừa bãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn bừa bãi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260290,
+        "meaning_vi": "ăn mỗi thứ một ít",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn mỗi thứ một ít"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn mỗi thứ một ít",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260291,
+        "meaning_vi": "học hỏi (trong một cái gì đó); thử sức mình ở nhiều thứ khác nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "học hỏi (trong một cái gì đó)",
+          "thử sức mình ở nhiều thứ khác nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "học hỏi (trong một cái gì đó); thử sức mình ở nhiều thứ khác nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33244,
+    "word": "食い止める",
+    "kana": "くいとめる",
+    "senses": [
+      {
+        "sense_id": 260292,
+        "meaning_vi": "để kiểm tra; giữ lại; để tránh xa; dừng lại; để ngăn chặn; có gốc ; kiềm chế; dừng lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để kiểm tra",
+          "giữ lại",
+          "để tránh xa",
+          "dừng lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kiểm tra; giữ lại; để tránh xa; dừng lại; để ngăn chặn; có gốc ; kiềm chế; dừng lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33245,
+    "word": "食いつぶす",
+    "kana": "くいつぶす",
+    "senses": [
+      {
+        "sense_id": 260293,
+        "meaning_vi": "ăn mình ra khỏi nhà và nhà; ăn hết hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn mình ra khỏi nhà và nhà",
+          "ăn hết hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn mình ra khỏi nhà và nhà; ăn hết hoàn toàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33246,
+    "word": "食い倒す",
+    "kana": "くいたおす",
+    "senses": [
+      {
+        "sense_id": 260294,
+        "meaning_vi": "để bik; ăn hết vận may của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "để bik",
+          "ăn hết vận may của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bik; ăn hết vận may của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33247,
+    "word": "食い逃げ",
+    "kana": "くいにげ",
+    "senses": [
+      {
+        "sense_id": 260295,
+        "meaning_vi": "rời khỏi nhà hàng mà không trả tiền; ăn tối và lao vào; đi xe hai bánh",
+        "confidence": "high",
+        "search_keywords": [
+          "rời khỏi nhà hàng mà không trả tiền",
+          "ăn tối và lao vào",
+          "đi xe hai bánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời khỏi nhà hàng mà không trả tiền; ăn tối và lao vào; đi xe hai bánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33248,
+    "word": "食い入る",
+    "kana": "くいいる",
+    "senses": [
+      {
+        "sense_id": 260296,
+        "meaning_vi": "ăn vào",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33249,
+    "word": "食らいつく",
+    "kana": "くらいつく",
+    "senses": [
+      {
+        "sense_id": 260297,
+        "meaning_vi": "cắn vào; để chụp vào; nhấm nháp",
+        "confidence": "high",
+        "search_keywords": [
+          "cắn vào",
+          "để chụp vào",
+          "nhấm nháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắn vào; để chụp vào; nhấm nháp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260298,
+        "meaning_vi": "nhét răng vào (ẩn dụ); để nắm bắt được; để thực sự hòa nhập",
+        "confidence": "high",
+        "search_keywords": [
+          "nhét răng vào (ẩn dụ)",
+          "để nắm bắt được",
+          "để thực sự hòa nhập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhét răng vào (ẩn dụ); để nắm bắt được; để thực sự hòa nhập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33250,
+    "word": "食えない",
+    "kana": "くえない",
+    "senses": [
+      {
+        "sense_id": 260299,
+        "meaning_vi": "thông minh; thông minh (và tỉnh táo); xảo quyệt; xảo quyệt",
+        "confidence": "high",
+        "search_keywords": [
+          "thông minh",
+          "thông minh (và tỉnh táo)",
+          "xảo quyệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông minh; thông minh (và tỉnh táo); xảo quyệt; xảo quyệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260300,
+        "meaning_vi": "không ăn được; không thể ăn được",
+        "confidence": "high",
+        "search_keywords": [
+          "không ăn được",
+          "không thể ăn được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không ăn được; không thể ăn được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260301,
+        "meaning_vi": "không thể tự nuôi sống bản thân; không thể giữ thể xác và tâm hồn cùng nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể tự nuôi sống bản thân",
+          "không thể giữ thể xác và tâm hồn cùng nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể tự nuôi sống bản thân; không thể giữ thể xác và tâm hồn cùng nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33251,
+    "word": "食べる",
+    "kana": "たべる",
+    "senses": [
+      {
+        "sense_id": 260302,
+        "meaning_vi": "ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260303,
+        "meaning_vi": "để sống (ví dụ: tiền lương); sống nhờ vào; để tồn tại",
+        "confidence": "high",
+        "search_keywords": [
+          "để sống (ví dụ: tiền lương)",
+          "sống nhờ vào",
+          "để tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để sống (ví dụ: tiền lương); sống nhờ vào; để tồn tại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33252,
+    "word": "食べ過ぎ",
+    "kana": "たべすぎ",
+    "senses": [
+      {
+        "sense_id": 260304,
+        "meaning_vi": "ăn quá nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn quá nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn quá nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33253,
+    "word": "食べ過ぎる",
+    "kana": "たべすぎる",
+    "senses": [
+      {
+        "sense_id": 260305,
+        "meaning_vi": "ăn quá nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn quá nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn quá nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33254,
+    "word": "食べ散らす",
+    "kana": "たべちらす",
+    "senses": [
+      {
+        "sense_id": 260306,
+        "meaning_vi": "ăn mỗi thứ một ít",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn mỗi thứ một ít"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn mỗi thứ một ít",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33255,
+    "word": "食べ残し",
+    "kana": "たべのこし",
+    "senses": [
+      {
+        "sense_id": 260307,
+        "meaning_vi": "thức ăn thừa; thức ăn ăn dở; thức ăn thừa",
+        "confidence": "high",
+        "search_keywords": [
+          "thức ăn thừa",
+          "thức ăn ăn dở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thức ăn thừa; thức ăn ăn dở; thức ăn thừa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33256,
+    "word": "食べにくい",
+    "kana": "たべにくい",
+    "senses": [
+      {
+        "sense_id": 260308,
+        "meaning_vi": "khó ăn; khó chịu",
+        "confidence": "high",
+        "search_keywords": [
+          "khó ăn",
+          "khó chịu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khó ăn; khó chịu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33257,
+    "word": "食べ物",
+    "kana": "たべもの",
+    "senses": [
+      {
+        "sense_id": 260309,
+        "meaning_vi": "đồ ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "đồ ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồ ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

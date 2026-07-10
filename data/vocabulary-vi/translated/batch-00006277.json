@@ -1,0 +1,465 @@
+[
+  {
+    "vocabulary_id": 147747,
+    "word": "放射線検出器",
+    "kana": "ほうしゃせんけんしゅつき",
+    "senses": [
+      {
+        "sense_id": 393326,
+        "meaning_vi": "máy dò bức xạ",
+        "confidence": "high",
+        "search_keywords": [
+          "máy dò bức xạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy dò bức xạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147748,
+    "word": "バックグラウンド放射線",
+    "kana": "バックグラウンドほうしゃせん",
+    "senses": [
+      {
+        "sense_id": 393327,
+        "meaning_vi": "bức xạ nền",
+        "confidence": "high",
+        "search_keywords": [
+          "bức xạ nền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bức xạ nền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147749,
+    "word": "放射線病",
+    "kana": "ほうしゃせんびょう",
+    "senses": [
+      {
+        "sense_id": 393328,
+        "meaning_vi": "bệnh phóng xạ; bệnh phóng xạ",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh phóng xạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh phóng xạ; bệnh phóng xạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147750,
+    "word": "チャイナシンドローム",
+    "kana": "チャイナシンドローム",
+    "senses": [
+      {
+        "sense_id": 393329,
+        "meaning_vi": "Hội chứng Trung Quốc (giả định tai nạn lò phản ứng hạt nhân)",
+        "confidence": "high",
+        "search_keywords": [
+          "Hội chứng Trung Quốc (giả định tai nạn lò phản ứng hạt nhân)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hội chứng Trung Quốc (giả định tai nạn lò phản ứng hạt nhân)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147751,
+    "word": "ＥＣＣＳ",
+    "kana": "イー・シー・シー・エス",
+    "senses": [
+      {
+        "sense_id": 393330,
+        "meaning_vi": "hệ thống làm mát lõi khẩn cấp; ECCS",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống làm mát lõi khẩn cấp",
+          "ECCS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống làm mát lõi khẩn cấp; ECCS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147752,
+    "word": "ＥＴＲ",
+    "kana": "イー・ティー・アール",
+    "senses": [
+      {
+        "sense_id": 393331,
+        "meaning_vi": "lò phản ứng thử nghiệm kỹ thuật; ETR",
+        "confidence": "high",
+        "search_keywords": [
+          "lò phản ứng thử nghiệm kỹ thuật",
+          "ETR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò phản ứng thử nghiệm kỹ thuật; ETR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147753,
+    "word": "インターロッキングシステム",
+    "kana": "インターロッキングシステム",
+    "senses": [
+      {
+        "sense_id": 393332,
+        "meaning_vi": "hệ thống liên khóa",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống liên khóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống liên khóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147754,
+    "word": "工業用テレビジョン",
+    "kana": "こうぎょうようテレビジョン",
+    "senses": [
+      {
+        "sense_id": 393333,
+        "meaning_vi": "tivi công nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "tivi công nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tivi công nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147755,
+    "word": "重水炉",
+    "kana": "じゅうすいろ",
+    "senses": [
+      {
+        "sense_id": 393334,
+        "meaning_vi": "lò phản ứng nước nặng",
+        "confidence": "high",
+        "search_keywords": [
+          "lò phản ứng nước nặng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò phản ứng nước nặng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147756,
+    "word": "新型転換炉",
+    "kana": "しんがたてんかんろ",
+    "senses": [
+      {
+        "sense_id": 393335,
+        "meaning_vi": "lò phản ứng chuyển đổi nhiệt tiên tiến",
+        "confidence": "high",
+        "search_keywords": [
+          "lò phản ứng chuyển đổi nhiệt tiên tiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò phản ứng chuyển đổi nhiệt tiên tiến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147757,
+    "word": "ＮａＫ",
+    "kana": "ナック",
+    "senses": [
+      {
+        "sense_id": 393336,
+        "meaning_vi": "NaK (hợp kim natri-kali)",
+        "confidence": "high",
+        "search_keywords": [
+          "NaK (hợp kim natri-kali)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "NaK (hợp kim natri-kali)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147758,
+    "word": "熱中性子炉",
+    "kana": "ねつちゅうせいしろ",
+    "senses": [
+      {
+        "sense_id": 393337,
+        "meaning_vi": "lò phản ứng neutron nhiệt",
+        "confidence": "high",
+        "search_keywords": [
+          "lò phản ứng neutron nhiệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò phản ứng neutron nhiệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147759,
+    "word": "ヘルスモニタリング",
+    "kana": "ヘルスモニタリング",
+    "senses": [
+      {
+        "sense_id": 393338,
+        "meaning_vi": "theo dõi sức khỏe",
+        "confidence": "high",
+        "search_keywords": [
+          "theo dõi sức khỏe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo dõi sức khỏe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147760,
+    "word": "ＬＷＲ",
+    "kana": "エル・ダブリュー・アール",
+    "senses": [
+      {
+        "sense_id": 393339,
+        "meaning_vi": "lò phản ứng nước nhẹ; LWR",
+        "confidence": "high",
+        "search_keywords": [
+          "lò phản ứng nước nhẹ",
+          "LWR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò phản ứng nước nhẹ; LWR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147761,
+    "word": "マグノックス炉",
+    "kana": "マグノックスろ",
+    "senses": [
+      {
+        "sense_id": 393340,
+        "meaning_vi": "lò phản ứng magnox",
+        "confidence": "high",
+        "search_keywords": [
+          "lò phản ứng magnox"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò phản ứng magnox",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147762,
+    "word": "ＡＧＲ",
+    "kana": "エー・ジー・アール",
+    "senses": [
+      {
+        "sense_id": 393341,
+        "meaning_vi": "lò phản ứng làm mát bằng khí tiên tiến; AGR",
+        "confidence": "high",
+        "search_keywords": [
+          "lò phản ứng làm mát bằng khí tiên tiến",
+          "AGR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò phản ứng làm mát bằng khí tiên tiến; AGR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147763,
+    "word": "ＮＲＣ",
+    "kana": "エヌ・アール・シー",
+    "senses": [
+      {
+        "sense_id": 393342,
+        "meaning_vi": "Ủy ban điều tiết hạt nhân; NRC",
+        "confidence": "high",
+        "search_keywords": [
+          "Ủy ban điều tiết hạt nhân",
+          "NRC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ủy ban điều tiết hạt nhân; NRC",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 393343,
+        "meaning_vi": "Hội đồng nghiên cứu quốc gia; NRC",
+        "confidence": "high",
+        "search_keywords": [
+          "Hội đồng nghiên cứu quốc gia",
+          "NRC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hội đồng nghiên cứu quốc gia; NRC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147764,
+    "word": "ＭＴＲ",
+    "kana": "エム・ティー・アール",
+    "senses": [
+      {
+        "sense_id": 393344,
+        "meaning_vi": "lò phản ứng thử nghiệm vật liệu; MTR",
+        "confidence": "high",
+        "search_keywords": [
+          "lò phản ứng thử nghiệm vật liệu",
+          "MTR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lò phản ứng thử nghiệm vật liệu; MTR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147765,
+    "word": "ギロチン破断",
+    "kana": "ギロチンはだん",
+    "senses": [
+      {
+        "sense_id": 393345,
+        "meaning_vi": "đứt máy chém (tổn thất chất làm mát trong nhà máy điện hạt nhân); máy chém vỡ",
+        "confidence": "high",
+        "search_keywords": [
+          "đứt máy chém (tổn thất chất làm mát trong nhà máy điện hạt nhân)",
+          "máy chém vỡ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứt máy chém (tổn thất chất làm mát trong nhà máy điện hạt nhân); máy chém vỡ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147766,
+    "word": "クリプトン８５",
+    "kana": "クリプトンはちじゅうご",
+    "senses": [
+      {
+        "sense_id": 393346,
+        "meaning_vi": "krypton-85",
+        "confidence": "low",
+        "search_keywords": [
+          "krypton-85"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "krypton-85",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

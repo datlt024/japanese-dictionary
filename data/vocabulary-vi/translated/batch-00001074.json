@@ -1,0 +1,617 @@
+[
+  {
+    "vocabulary_id": 27188,
+    "word": "祭祀",
+    "kana": "さいし",
+    "senses": [
+      {
+        "sense_id": 252146,
+        "meaning_vi": "nghi thức; dịch vụ tôn giáo; lễ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "nghi thức",
+          "dịch vụ tôn giáo",
+          "lễ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghi thức; dịch vụ tôn giáo; lễ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27189,
+    "word": "斎",
+    "kana": "とき",
+    "senses": [
+      {
+        "sense_id": 252147,
+        "meaning_vi": "bữa ăn trao đổi giữa giáo dân và linh mục",
+        "confidence": "high",
+        "search_keywords": [
+          "bữa ăn trao đổi giữa giáo dân và linh mục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bữa ăn trao đổi giữa giáo dân và linh mục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27190,
+    "word": "斎く",
+    "kana": "いつく",
+    "senses": [
+      {
+        "sense_id": 252148,
+        "meaning_vi": "để thờ phượng; cất giữ",
+        "confidence": "high",
+        "search_keywords": [
+          "để thờ phượng",
+          "cất giữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thờ phượng; cất giữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27191,
+    "word": "斎み垣",
+    "kana": "いみがき",
+    "senses": [
+      {
+        "sense_id": 252149,
+        "meaning_vi": "hàng rào đền thờ",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng rào đền thờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng rào đền thờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27192,
+    "word": "忌み日",
+    "kana": "いみび",
+    "senses": [
+      {
+        "sense_id": 252150,
+        "meaning_vi": "ngày không may mắn (theo chiêm tinh); (trước đây a) ngày giỗ; thanh lọc và ngày ăn chay",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày không may mắn (theo chiêm tinh)",
+          "(trước đây a) ngày giỗ",
+          "thanh lọc và ngày ăn chay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày không may mắn (theo chiêm tinh); (trước đây a) ngày giỗ; thanh lọc và ngày ăn chay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27193,
+    "word": "斎戒",
+    "kana": "さいかい",
+    "senses": [
+      {
+        "sense_id": 252151,
+        "meaning_vi": "thanh lọc",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh lọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh lọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27194,
+    "word": "斎戒沐浴",
+    "kana": "さいかいもくよく",
+    "senses": [
+      {
+        "sense_id": 252152,
+        "meaning_vi": "thanh lọc; rửa",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh lọc",
+          "rửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh lọc; rửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27195,
+    "word": "斎垣",
+    "kana": "いがき",
+    "senses": [
+      {
+        "sense_id": 252153,
+        "meaning_vi": "hàng rào xung quanh một ngôi đền (hoặc khu vực linh thiêng khác)",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng rào xung quanh một ngôi đền (hoặc khu vực linh thiêng khác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng rào xung quanh một ngôi đền (hoặc khu vực linh thiêng khác)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27196,
+    "word": "斎宮",
+    "kana": "さいぐう",
+    "senses": [
+      {
+        "sense_id": 252154,
+        "meaning_vi": "công chúa hoàng gia chưa lập gia đình phục vụ tại Đại đền Ise thay cho Hoàng đế",
+        "confidence": "high",
+        "search_keywords": [
+          "công chúa hoàng gia chưa lập gia đình phục vụ tại Đại đền Ise thay cho Hoàng đế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công chúa hoàng gia chưa lập gia đình phục vụ tại Đại đền Ise thay cho Hoàng đế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27197,
+    "word": "斎主",
+    "kana": "さいしゅ",
+    "senses": [
+      {
+        "sense_id": 252155,
+        "meaning_vi": "người chủ trì nghi lễ tôn giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "người chủ trì nghi lễ tôn giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người chủ trì nghi lễ tôn giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27198,
+    "word": "斎場",
+    "kana": "さいじょう",
+    "senses": [
+      {
+        "sense_id": 252156,
+        "meaning_vi": "nhà tang lễ",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà tang lễ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà tang lễ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252157,
+        "meaning_vi": "địa điểm tổ chức buổi lễ",
+        "confidence": "high",
+        "search_keywords": [
+          "địa điểm tổ chức buổi lễ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa điểm tổ chức buổi lễ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27199,
+    "word": "斎日",
+    "kana": "さいじつ",
+    "senses": [
+      {
+        "sense_id": 252158,
+        "meaning_vi": "ngày ăn chay",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày ăn chay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày ăn chay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27200,
+    "word": "斎服",
+    "kana": "さいふく",
+    "senses": [
+      {
+        "sense_id": 252159,
+        "meaning_vi": "lễ phục linh mục, đặc biệt. áo lụa trắng mặc trong lễ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ phục linh mục, đặc biệt. áo lụa trắng mặc trong lễ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ phục linh mục, đặc biệt. áo lụa trắng mặc trong lễ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27201,
+    "word": "細々",
+    "kana": "こまごま",
+    "senses": [
+      {
+        "sense_id": 252160,
+        "meaning_vi": "tỉ mỉ; một cách chi tiết; với sự chú ý đặc biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "tỉ mỉ",
+          "một cách chi tiết",
+          "với sự chú ý đặc biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỉ mỉ; một cách chi tiết; với sự chú ý đặc biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27202,
+    "word": "細々",
+    "kana": "ほそぼそ",
+    "senses": [
+      {
+        "sense_id": 252161,
+        "meaning_vi": "nghèo (sống)",
+        "confidence": "high",
+        "search_keywords": [
+          "nghèo (sống)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghèo (sống)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252162,
+        "meaning_vi": "hầu như không tiếp tục; chỉ cần cạo theo",
+        "confidence": "high",
+        "search_keywords": [
+          "hầu như không tiếp tục",
+          "chỉ cần cạo theo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hầu như không tiếp tục; chỉ cần cạo theo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252163,
+        "meaning_vi": "rất hẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "rất hẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất hẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27203,
+    "word": "細い",
+    "kana": "ほそい",
+    "senses": [
+      {
+        "sense_id": 252164,
+        "meaning_vi": "gầy; mảnh khảnh; ổn",
+        "confidence": "high",
+        "search_keywords": [
+          "gầy",
+          "mảnh khảnh",
+          "ổn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gầy; mảnh khảnh; ổn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252165,
+        "meaning_vi": "không may mắn",
+        "confidence": "high",
+        "search_keywords": [
+          "không may mắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không may mắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27204,
+    "word": "細か",
+    "kana": "こまか",
+    "senses": [
+      {
+        "sense_id": 252166,
+        "meaning_vi": "bé nhỏ; khỏe; chi tiết; keo kiệt",
+        "confidence": "high",
+        "search_keywords": [
+          "bé nhỏ",
+          "khỏe",
+          "chi tiết",
+          "keo kiệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bé nhỏ; khỏe; chi tiết; keo kiệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27205,
+    "word": "細かい",
+    "kana": "こまかい",
+    "senses": [
+      {
+        "sense_id": 252167,
+        "meaning_vi": "nhỏ bé",
+        "confidence": "high",
+        "search_keywords": [
+          "nhỏ bé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhỏ bé",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252168,
+        "meaning_vi": "khỏe; phút",
+        "confidence": "high",
+        "search_keywords": [
+          "khỏe",
+          "phút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khỏe; phút",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252169,
+        "meaning_vi": "người vị thành niên; tầm thường",
+        "confidence": "high",
+        "search_keywords": [
+          "người vị thành niên",
+          "tầm thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người vị thành niên; tầm thường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252170,
+        "meaning_vi": "nhạy cảm; chú ý",
+        "confidence": "high",
+        "search_keywords": [
+          "nhạy cảm",
+          "chú ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhạy cảm; chú ý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252171,
+        "meaning_vi": "cẩn thận; tiết kiệm; keo kiệt",
+        "confidence": "high",
+        "search_keywords": [
+          "cẩn thận",
+          "tiết kiệm",
+          "keo kiệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cẩn thận; tiết kiệm; keo kiệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27206,
+    "word": "細める",
+    "kana": "ほそめる",
+    "senses": [
+      {
+        "sense_id": 252172,
+        "meaning_vi": "làm cho thu hẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "làm cho thu hẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm cho thu hẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27207,
+    "word": "細やか",
+    "kana": "こまやか",
+    "senses": [
+      {
+        "sense_id": 252173,
+        "meaning_vi": "mềm; ấm; quan tâm; chu đáo",
+        "confidence": "high",
+        "search_keywords": [
+          "mềm",
+          "ấm",
+          "quan tâm",
+          "chu đáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mềm; ấm; quan tâm; chu đáo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252174,
+        "meaning_vi": "tỉ mỉ; chi tiết; chú ý",
+        "confidence": "high",
+        "search_keywords": [
+          "tỉ mỉ",
+          "chi tiết",
+          "chú ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỉ mỉ; chi tiết; chú ý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252175,
+        "meaning_vi": "sâu (có màu); dày (ví dụ như sương mù)",
+        "confidence": "high",
+        "search_keywords": [
+          "sâu (có màu)",
+          "dày (ví dụ như sương mù)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sâu (có màu); dày (ví dụ như sương mù)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

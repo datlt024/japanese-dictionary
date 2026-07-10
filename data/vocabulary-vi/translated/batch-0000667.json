@@ -1,0 +1,856 @@
+[
+  {
+    "vocabulary_id": 16520,
+    "word": "音力",
+    "kana": "おんりょく",
+    "senses": [
+      {
+        "sense_id": 238090,
+        "meaning_vi": "sức mạnh của giọng nói",
+        "confidence": "high",
+        "search_keywords": [
+          "sức mạnh của giọng nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức mạnh của giọng nói",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16521,
+    "word": "下",
+    "kana": "した",
+    "senses": [
+      {
+        "sense_id": 238091,
+        "meaning_vi": "dưới; xuống; dưới; trẻ hơn (ví dụ: con gái)",
+        "confidence": "high",
+        "search_keywords": [
+          "dưới",
+          "xuống",
+          "trẻ hơn (ví dụ: con gái)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dưới; xuống; dưới; trẻ hơn (ví dụ: con gái)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238092,
+        "meaning_vi": "đáy",
+        "confidence": "high",
+        "search_keywords": [
+          "đáy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238093,
+        "meaning_vi": "bên dưới; bên dưới",
+        "confidence": "high",
+        "search_keywords": [
+          "bên dưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên dưới; bên dưới",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238094,
+        "meaning_vi": "ngay sau đó ; ngay sau đó",
+        "confidence": "high",
+        "search_keywords": [
+          "ngay sau đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngay sau đó ; ngay sau đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238095,
+        "meaning_vi": "sự thấp kém; một người kém hơn (tức là đàn em của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thấp kém",
+          "một người kém hơn (tức là đàn em của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thấp kém; một người kém hơn (tức là đàn em của một người)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238096,
+        "meaning_vi": "trao đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "trao đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trao đổi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238097,
+        "meaning_vi": "sơ bộ; chuẩn bị",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ bộ",
+          "chuẩn bị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ bộ; chuẩn bị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16522,
+    "word": "下がり松",
+    "kana": "さがりまつ",
+    "senses": [
+      {
+        "sense_id": 238098,
+        "meaning_vi": "cây thông rũ xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "cây thông rũ xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây thông rũ xuống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16523,
+    "word": "下がる",
+    "kana": "さがる",
+    "senses": [
+      {
+        "sense_id": 238099,
+        "meaning_vi": "đi xuống; đi xuống; ngã; thả ; chìm; để có được thấp hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "đi xuống",
+          "ngã",
+          "thả",
+          "chìm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi xuống; đi xuống; ngã; thả ; chìm; để có được thấp hơn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238100,
+        "meaning_vi": "treo; treo lủng lẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "treo",
+          "treo lủng lẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "treo; treo lủng lẳng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238101,
+        "meaning_vi": "quay trở lại; lùi lại; rút lui; nghỉ hưu",
+        "confidence": "high",
+        "search_keywords": [
+          "quay trở lại",
+          "lùi lại",
+          "rút lui",
+          "nghỉ hưu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quay trở lại; lùi lại; rút lui; nghỉ hưu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238102,
+        "meaning_vi": "xấu đi; rơi ra; bị hạ cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "xấu đi",
+          "rơi ra",
+          "bị hạ cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xấu đi; rơi ra; bị hạ cấp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238103,
+        "meaning_vi": "để đến gần hơn với ngày nay",
+        "confidence": "high",
+        "search_keywords": [
+          "để đến gần hơn với ngày nay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đến gần hơn với ngày nay",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238104,
+        "meaning_vi": "chơi sagari; kéo dài xuống dưới",
+        "confidence": "high",
+        "search_keywords": [
+          "chơi sagari",
+          "kéo dài xuống dưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chơi sagari; kéo dài xuống dưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16524,
+    "word": "下げる",
+    "kana": "さげる",
+    "senses": [
+      {
+        "sense_id": 238105,
+        "meaning_vi": "treo; đình chỉ; để mặc (ví dụ: trang trí)",
+        "confidence": "high",
+        "search_keywords": [
+          "treo",
+          "đình chỉ",
+          "để mặc (ví dụ: trang trí)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "treo; đình chỉ; để mặc (ví dụ: trang trí)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238106,
+        "meaning_vi": "hạ xuống; giảm bớt; hạ xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "hạ xuống",
+          "giảm bớt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạ xuống; giảm bớt; hạ xuống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238107,
+        "meaning_vi": "giáng chức; quay trở lại; kéo lại",
+        "confidence": "high",
+        "search_keywords": [
+          "giáng chức",
+          "quay trở lại",
+          "kéo lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giáng chức; quay trở lại; kéo lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238108,
+        "meaning_vi": "dọn (đĩa); dọn (thức ăn, v.v. ra khỏi bàn hoặc bàn thờ)",
+        "confidence": "high",
+        "search_keywords": [
+          "dọn (đĩa)",
+          "dọn (thức ăn, v.v. ra khỏi bàn hoặc bàn thờ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dọn (đĩa); dọn (thức ăn, v.v. ra khỏi bàn hoặc bàn thờ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238109,
+        "meaning_vi": "tiếp tục chơi sau khi đã hình thành được sự kết hợp tính điểm với các lá bài đã bắt được",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp tục chơi sau khi đã hình thành được sự kết hợp tính điểm với các lá bài đã bắt được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp tục chơi sau khi đã hình thành được sự kết hợp tính điểm với các lá bài đã bắt được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16525,
+    "word": "下げ札",
+    "kana": "さげふだ",
+    "senses": [
+      {
+        "sense_id": 238110,
+        "meaning_vi": "nhãn; nhãn",
+        "confidence": "high",
+        "search_keywords": [
+          "nhãn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhãn; nhãn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16526,
+    "word": "下げ振り",
+    "kana": "さげふり",
+    "senses": [
+      {
+        "sense_id": 238111,
+        "meaning_vi": "giảm mạnh; bob thẳng đứng",
+        "confidence": "high",
+        "search_keywords": [
+          "giảm mạnh",
+          "bob thẳng đứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giảm mạnh; bob thẳng đứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16527,
+    "word": "下げ相場",
+    "kana": "さげそうば",
+    "senses": [
+      {
+        "sense_id": 238112,
+        "meaning_vi": "thị trường giảm giá",
+        "confidence": "high",
+        "search_keywords": [
+          "thị trường giảm giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thị trường giảm giá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16528,
+    "word": "下げ足",
+    "kana": "さげあし",
+    "senses": [
+      {
+        "sense_id": 238113,
+        "meaning_vi": "sự suy thoái (trên thị trường)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự suy thoái (trên thị trường)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự suy thoái (trên thị trường)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16529,
+    "word": "下げ潮",
+    "kana": "さげしお",
+    "senses": [
+      {
+        "sense_id": 238114,
+        "meaning_vi": "thủy triều xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "thủy triều xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủy triều xuống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16530,
+    "word": "下げ渡す",
+    "kana": "さげわたす",
+    "senses": [
+      {
+        "sense_id": 238115,
+        "meaning_vi": "thực hiện một khoản trợ cấp (chính phủ)",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện một khoản trợ cấp (chính phủ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện một khoản trợ cấp (chính phủ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238116,
+        "meaning_vi": "thả (tội phạm)",
+        "confidence": "high",
+        "search_keywords": [
+          "thả (tội phạm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thả (tội phạm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16531,
+    "word": "下げ髪",
+    "kana": "さげがみ",
+    "senses": [
+      {
+        "sense_id": 238117,
+        "meaning_vi": "bím tóc; tóc đuôi ngựa; tóc (thả xuống phía sau)",
+        "confidence": "high",
+        "search_keywords": [
+          "bím tóc",
+          "tóc đuôi ngựa",
+          "tóc (thả xuống phía sau)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bím tóc; tóc đuôi ngựa; tóc (thả xuống phía sau)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16532,
+    "word": "下げ幕",
+    "kana": "さげまく",
+    "senses": [
+      {
+        "sense_id": 238118,
+        "meaning_vi": "thả rèm",
+        "confidence": "high",
+        "search_keywords": [
+          "thả rèm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thả rèm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16533,
+    "word": "下げ翼",
+    "kana": "さげよく",
+    "senses": [
+      {
+        "sense_id": 238119,
+        "meaning_vi": "vạt cánh",
+        "confidence": "high",
+        "search_keywords": [
+          "vạt cánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vạt cánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16534,
+    "word": "下さい",
+    "kana": "ください",
+    "senses": [
+      {
+        "sense_id": 238120,
+        "meaning_vi": "làm ơn (cho tôi)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ơn (cho tôi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ơn (cho tôi)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238121,
+        "meaning_vi": "làm ơn (làm cho tôi)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ơn (làm cho tôi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ơn (làm cho tôi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16535,
+    "word": "下さる",
+    "kana": "くださる",
+    "senses": [
+      {
+        "sense_id": 238122,
+        "meaning_vi": "cho ; trao tặng; ban cho",
+        "confidence": "high",
+        "search_keywords": [
+          "cho",
+          "trao tặng",
+          "ban cho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cho ; trao tặng; ban cho",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238123,
+        "meaning_vi": "vui lòng làm cho một; bắt buộc; ủng hộ ; ủng hộ",
+        "confidence": "high",
+        "search_keywords": [
+          "vui lòng làm cho một",
+          "bắt buộc",
+          "ủng hộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vui lòng làm cho một; bắt buộc; ủng hộ ; ủng hộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16536,
+    "word": "下し",
+    "kana": "くだし",
+    "senses": [
+      {
+        "sense_id": 238124,
+        "meaning_vi": "sơ tán; sự thanh tẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ tán",
+          "sự thanh tẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ tán; sự thanh tẩy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16537,
+    "word": "下し大根",
+    "kana": "おろしだいこん",
+    "senses": [
+      {
+        "sense_id": 238125,
+        "meaning_vi": "củ cải nghiền; daikon bào sợi",
+        "confidence": "high",
+        "search_keywords": [
+          "củ cải nghiền",
+          "daikon bào sợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "củ cải nghiền; daikon bào sợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16538,
+    "word": "下し薬",
+    "kana": "くだしぐすり",
+    "senses": [
+      {
+        "sense_id": 238126,
+        "meaning_vi": "nhuận tràng; tẩy; người sơ tán",
+        "confidence": "high",
+        "search_keywords": [
+          "nhuận tràng",
+          "tẩy",
+          "người sơ tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhuận tràng; tẩy; người sơ tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16539,
+    "word": "下す",
+    "kana": "くだす",
+    "senses": [
+      {
+        "sense_id": 238127,
+        "meaning_vi": "để đưa ra quyết định; để rút ra kết luận",
+        "confidence": "high",
+        "search_keywords": [
+          "để đưa ra quyết định",
+          "để rút ra kết luận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đưa ra quyết định; để rút ra kết luận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238128,
+        "meaning_vi": "đưa ra phán quyết; đưa ra bản án; để vượt qua một câu; ra lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "đưa ra phán quyết",
+          "đưa ra bản án",
+          "để vượt qua một câu",
+          "ra lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đưa ra phán quyết; đưa ra bản án; để vượt qua một câu; ra lệnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238129,
+        "meaning_vi": "buông xuống; hạ thấp",
+        "confidence": "high",
+        "search_keywords": [
+          "buông xuống",
+          "hạ thấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buông xuống; hạ thấp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238130,
+        "meaning_vi": "tự làm; tự làm",
+        "confidence": "high",
+        "search_keywords": [
+          "tự làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tự làm; tự làm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238131,
+        "meaning_vi": "đánh bại; đánh bại",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh bại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh bại; đánh bại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238132,
+        "meaning_vi": "đi tiêu phân lỏng; bị tiêu chảy",
+        "confidence": "high",
+        "search_keywords": [
+          "đi tiêu phân lỏng",
+          "bị tiêu chảy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi tiêu phân lỏng; bị tiêu chảy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238133,
+        "meaning_vi": "đi đại tiện (trong phân); thải ra khỏi cơ thể",
+        "confidence": "high",
+        "search_keywords": [
+          "đi đại tiện (trong phân)",
+          "thải ra khỏi cơ thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi đại tiện (trong phân); thải ra khỏi cơ thể",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238134,
+        "meaning_vi": "làm một lần; làm đến cùng mà không dừng lại",
+        "confidence": "high",
+        "search_keywords": [
+          "làm một lần",
+          "làm đến cùng mà không dừng lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm một lần; làm đến cùng mà không dừng lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,657 @@
+[
+  {
+    "vocabulary_id": 16100,
+    "word": "奥様",
+    "kana": "おくさま",
+    "senses": [
+      {
+        "sense_id": 237545,
+        "meaning_vi": "vợ; vợ của bạn; vợ anh ta; quý cô đã có chồng; bà",
+        "confidence": "high",
+        "search_keywords": [
+          "vợ",
+          "vợ của bạn",
+          "vợ anh ta",
+          "quý cô đã có chồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vợ; vợ của bạn; vợ anh ta; quý cô đã có chồng; bà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16101,
+    "word": "往き返り",
+    "kana": "ゆきかえり",
+    "senses": [
+      {
+        "sense_id": 237546,
+        "meaning_vi": "chuyến đi khứ hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyến đi khứ hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyến đi khứ hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16102,
+    "word": "往なす",
+    "kana": "いなす",
+    "senses": [
+      {
+        "sense_id": 237547,
+        "meaning_vi": "đỡ đòn; tránh né; né tránh",
+        "confidence": "high",
+        "search_keywords": [
+          "đỡ đòn",
+          "tránh né",
+          "né tránh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỡ đòn; tránh né; né tránh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16103,
+    "word": "往還",
+    "kana": "おうかん",
+    "senses": [
+      {
+        "sense_id": 237548,
+        "meaning_vi": "giao thông; đến và đi; đường cao tốc",
+        "confidence": "high",
+        "search_keywords": [
+          "giao thông",
+          "đến và đi",
+          "đường cao tốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao thông; đến và đi; đường cao tốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16104,
+    "word": "往航",
+    "kana": "おうこう",
+    "senses": [
+      {
+        "sense_id": 237549,
+        "meaning_vi": "chuyến đi ra nước ngoài; chuyến bay đi",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyến đi ra nước ngoài",
+          "chuyến bay đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyến đi ra nước ngoài; chuyến bay đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16105,
+    "word": "往事",
+    "kana": "おうじ",
+    "senses": [
+      {
+        "sense_id": 237550,
+        "meaning_vi": "quá khứ; sự kiện trong quá khứ",
+        "confidence": "high",
+        "search_keywords": [
+          "quá khứ",
+          "sự kiện trong quá khứ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá khứ; sự kiện trong quá khứ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16106,
+    "word": "往時",
+    "kana": "おうじ",
+    "senses": [
+      {
+        "sense_id": 237551,
+        "meaning_vi": "quá khứ; ngày xưa; thời gian đã qua; ngày xưa",
+        "confidence": "high",
+        "search_keywords": [
+          "quá khứ",
+          "ngày xưa",
+          "thời gian đã qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá khứ; ngày xưa; thời gian đã qua; ngày xưa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16107,
+    "word": "往信",
+    "kana": "おうしん",
+    "senses": [
+      {
+        "sense_id": 237552,
+        "meaning_vi": "nửa đầu của thẻ trả lời",
+        "confidence": "high",
+        "search_keywords": [
+          "nửa đầu của thẻ trả lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nửa đầu của thẻ trả lời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16108,
+    "word": "往診",
+    "kana": "おうしん",
+    "senses": [
+      {
+        "sense_id": 237553,
+        "meaning_vi": "chuyến thăm của bác sĩ; cuộc gọi về nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyến thăm của bác sĩ",
+          "cuộc gọi về nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyến thăm của bác sĩ; cuộc gọi về nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16109,
+    "word": "往生",
+    "kana": "おうじょう",
+    "senses": [
+      {
+        "sense_id": 237554,
+        "meaning_vi": "chuyển sang đời sau",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển sang đời sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển sang đời sau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237555,
+        "meaning_vi": "cái chết",
+        "confidence": "high",
+        "search_keywords": [
+          "cái chết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái chết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237556,
+        "meaning_vi": "từ bỏ một cuộc đấu tranh; trình",
+        "confidence": "high",
+        "search_keywords": [
+          "từ bỏ một cuộc đấu tranh",
+          "trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ bỏ một cuộc đấu tranh; trình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237557,
+        "meaning_vi": "đang ở trong tình thế nguy hiểm; bị bối rối",
+        "confidence": "high",
+        "search_keywords": [
+          "đang ở trong tình thế nguy hiểm",
+          "bị bối rối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang ở trong tình thế nguy hiểm; bị bối rối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237558,
+        "meaning_vi": "sự ép buộc",
+        "confidence": "high",
+        "search_keywords": [
+          "sự ép buộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự ép buộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16110,
+    "word": "往昔",
+    "kana": "おうせき",
+    "senses": [
+      {
+        "sense_id": 237559,
+        "meaning_vi": "thời cổ đại",
+        "confidence": "high",
+        "search_keywords": [
+          "thời cổ đại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời cổ đại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16111,
+    "word": "往日",
+    "kana": "おうじつ",
+    "senses": [
+      {
+        "sense_id": 237560,
+        "meaning_vi": "thời cổ đại",
+        "confidence": "high",
+        "search_keywords": [
+          "thời cổ đại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời cổ đại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16112,
+    "word": "往年",
+    "kana": "おうねん",
+    "senses": [
+      {
+        "sense_id": 237561,
+        "meaning_vi": "năm trôi qua; những năm trước đó; những năm trước; quá khứ",
+        "confidence": "high",
+        "search_keywords": [
+          "năm trôi qua",
+          "những năm trước đó",
+          "những năm trước",
+          "quá khứ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năm trôi qua; những năm trước đó; những năm trước; quá khứ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16113,
+    "word": "往復",
+    "kana": "おうふく",
+    "senses": [
+      {
+        "sense_id": 237562,
+        "meaning_vi": "thực hiện một chuyến đi khứ hồi; đi và về; đến và đi",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện một chuyến đi khứ hồi",
+          "đi và về",
+          "đến và đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện một chuyến đi khứ hồi; đi và về; đến và đi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237563,
+        "meaning_vi": "vé khứ hồi; vé khứ hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "vé khứ hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vé khứ hồi; vé khứ hồi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237564,
+        "meaning_vi": "thư từ; trao đổi (thư từ)",
+        "confidence": "high",
+        "search_keywords": [
+          "thư từ",
+          "trao đổi (thư từ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư từ; trao đổi (thư từ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237565,
+        "meaning_vi": "giữ công ty (với); xã hội hóa; thăm nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "giữ công ty (với)",
+          "xã hội hóa",
+          "thăm nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giữ công ty (với); xã hội hóa; thăm nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16114,
+    "word": "往返",
+    "kana": "おうへん",
+    "senses": [
+      {
+        "sense_id": 237566,
+        "meaning_vi": "chuyến đi khứ hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyến đi khứ hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyến đi khứ hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16115,
+    "word": "往訪",
+    "kana": "おうほう",
+    "senses": [
+      {
+        "sense_id": 237567,
+        "meaning_vi": "đi thăm (ai đó); kêu gọi",
+        "confidence": "high",
+        "search_keywords": [
+          "đi thăm (ai đó)",
+          "kêu gọi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi thăm (ai đó); kêu gọi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16116,
+    "word": "往来",
+    "kana": "おうらい",
+    "senses": [
+      {
+        "sense_id": 237568,
+        "meaning_vi": "đến và đi; giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "đến và đi",
+          "giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến và đi; giao thông",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237569,
+        "meaning_vi": "đường; đường phố",
+        "confidence": "high",
+        "search_keywords": [
+          "đường",
+          "đường phố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường; đường phố",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237570,
+        "meaning_vi": "sự kết hợp; xã hội hóa; xã hội hóa; học bổng; chuyến thăm lẫn nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kết hợp",
+          "xã hội hóa",
+          "học bổng",
+          "chuyến thăm lẫn nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kết hợp; xã hội hóa; xã hội hóa; học bổng; chuyến thăm lẫn nhau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237571,
+        "meaning_vi": "định kỳ (ví dụ: suy nghĩ)",
+        "confidence": "high",
+        "search_keywords": [
+          "định kỳ (ví dụ: suy nghĩ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định kỳ (ví dụ: suy nghĩ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237572,
+        "meaning_vi": "thư từ",
+        "confidence": "high",
+        "search_keywords": [
+          "thư từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16117,
+    "word": "往路",
+    "kana": "おうろ",
+    "senses": [
+      {
+        "sense_id": 237573,
+        "meaning_vi": "cuộc hành trình ra ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc hành trình ra ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc hành trình ra ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16118,
+    "word": "応える",
+    "kana": "こたえる",
+    "senses": [
+      {
+        "sense_id": 237574,
+        "meaning_vi": "để đáp lại; để trả lời; để đáp ứng (ví dụ: nhu cầu, mong đợi)",
+        "confidence": "high",
+        "search_keywords": [
+          "để đáp lại",
+          "để trả lời",
+          "để đáp ứng (ví dụ: nhu cầu, mong đợi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đáp lại; để trả lời; để đáp ứng (ví dụ: nhu cầu, mong đợi)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237575,
+        "meaning_vi": "ảnh hưởng đến; phải trả phí; tấn công nhà; có tác dụng; làm khó ai đó (ví dụ: nóng, lạnh, làm việc, bệnh tật, v.v.); trở thành một sự căng thẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh hưởng đến",
+          "phải trả phí",
+          "tấn công nhà",
+          "có tác dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh hưởng đến; phải trả phí; tấn công nhà; có tác dụng; làm khó ai đó (ví dụ: nóng, lạnh, làm việc, bệnh tật, v.v.); trở thành một sự căng thẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16119,
+    "word": "応じて",
+    "kana": "おうじて",
+    "senses": [
+      {
+        "sense_id": 237576,
+        "meaning_vi": "tương ứng với; theo ; tùy thuộc vào",
+        "confidence": "high",
+        "search_keywords": [
+          "tương ứng với",
+          "theo",
+          "tùy thuộc vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương ứng với; theo ; tùy thuộc vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

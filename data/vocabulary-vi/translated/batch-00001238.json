@@ -1,0 +1,590 @@
+[
+  {
+    "vocabulary_id": 31469,
+    "word": "出直す",
+    "kana": "でなおす",
+    "senses": [
+      {
+        "sense_id": 257787,
+        "meaning_vi": "để thực hiện một khởi đầu mới; lật một chiếc lá mới",
+        "confidence": "high",
+        "search_keywords": [
+          "để thực hiện một khởi đầu mới",
+          "lật một chiếc lá mới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thực hiện một khởi đầu mới; lật một chiếc lá mới",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257788,
+        "meaning_vi": "gọi lại; đến thăm lại; đến lần nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi lại",
+          "đến thăm lại",
+          "đến lần nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi lại; đến thăm lại; đến lần nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31470,
+    "word": "出直る",
+    "kana": "でなおる",
+    "senses": [
+      {
+        "sense_id": 257789,
+        "meaning_vi": "khởi hành lần nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "khởi hành lần nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khởi hành lần nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31471,
+    "word": "出廷",
+    "kana": "しゅってい",
+    "senses": [
+      {
+        "sense_id": 257790,
+        "meaning_vi": "xuất hiện tại tòa án",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất hiện tại tòa án"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất hiện tại tòa án",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31472,
+    "word": "出廷日",
+    "kana": "しゅっていび",
+    "senses": [
+      {
+        "sense_id": 257791,
+        "meaning_vi": "ngày ra tòa",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày ra tòa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày ra tòa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31473,
+    "word": "出典",
+    "kana": "しゅってん",
+    "senses": [
+      {
+        "sense_id": 257792,
+        "meaning_vi": "nguồn (ví dụ: trích dẫn); thẩm quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn (ví dụ: trích dẫn)",
+          "thẩm quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn (ví dụ: trích dẫn); thẩm quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31474,
+    "word": "出展",
+    "kana": "しゅってん",
+    "senses": [
+      {
+        "sense_id": 257793,
+        "meaning_vi": "triển lãm; trưng bày",
+        "confidence": "high",
+        "search_keywords": [
+          "triển lãm",
+          "trưng bày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triển lãm; trưng bày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31475,
+    "word": "出展者",
+    "kana": "しゅってんしゃ",
+    "senses": [
+      {
+        "sense_id": 257794,
+        "meaning_vi": "người triển lãm (tại một triển lãm thương mại, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "người triển lãm (tại một triển lãm thương mại, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người triển lãm (tại một triển lãm thương mại, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31476,
+    "word": "出店",
+    "kana": "でみせ",
+    "senses": [
+      {
+        "sense_id": 257795,
+        "meaning_vi": "chi nhánh (cửa hàng)",
+        "confidence": "high",
+        "search_keywords": [
+          "chi nhánh (cửa hàng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi nhánh (cửa hàng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257796,
+        "meaning_vi": "(đường phố) quầy hàng; đứng",
+        "confidence": "high",
+        "search_keywords": [
+          "(đường phố) quầy hàng",
+          "đứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đường phố) quầy hàng; đứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31477,
+    "word": "出土",
+    "kana": "しゅつど",
+    "senses": [
+      {
+        "sense_id": 257797,
+        "meaning_vi": "khai quật khảo cổ (khảo cổ)",
+        "confidence": "high",
+        "search_keywords": [
+          "khai quật khảo cổ (khảo cổ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai quật khảo cổ (khảo cổ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31478,
+    "word": "出土品",
+    "kana": "しゅつどひん",
+    "senses": [
+      {
+        "sense_id": 257798,
+        "meaning_vi": "hiện vật; hiện vật; bài viết khai quật được; phát hiện khảo cổ",
+        "confidence": "high",
+        "search_keywords": [
+          "hiện vật",
+          "bài viết khai quật được",
+          "phát hiện khảo cổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiện vật; hiện vật; bài viết khai quật được; phát hiện khảo cổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31479,
+    "word": "いで湯",
+    "kana": "いでゆ",
+    "senses": [
+      {
+        "sense_id": 257799,
+        "meaning_vi": "suối nước nóng",
+        "confidence": "high",
+        "search_keywords": [
+          "suối nước nóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "suối nước nóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31480,
+    "word": "出頭",
+    "kana": "しゅっとう",
+    "senses": [
+      {
+        "sense_id": 257800,
+        "meaning_vi": "vẻ bề ngoài; sự hiện diện; sự tham dự",
+        "confidence": "high",
+        "search_keywords": [
+          "vẻ bề ngoài",
+          "sự hiện diện",
+          "sự tham dự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vẻ bề ngoài; sự hiện diện; sự tham dự",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257801,
+        "meaning_vi": "đầu hàng (ví dụ: với cảnh sát); quay đầu lại",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu hàng (ví dụ: với cảnh sát)",
+          "quay đầu lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu hàng (ví dụ: với cảnh sát); quay đầu lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31481,
+    "word": "出動",
+    "kana": "しゅつどう",
+    "senses": [
+      {
+        "sense_id": 257802,
+        "meaning_vi": "huy động; bắt đầu hành động; được phái đi; được gửi đi; được gọi vào; hóa ra",
+        "confidence": "high",
+        "search_keywords": [
+          "huy động",
+          "bắt đầu hành động",
+          "được phái đi",
+          "được gửi đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "huy động; bắt đầu hành động; được phái đi; được gửi đi; được gọi vào; hóa ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31482,
+    "word": "出動命令",
+    "kana": "しゅつどうめいれい",
+    "senses": [
+      {
+        "sense_id": 257803,
+        "meaning_vi": "lệnh hành quân; lệnh đi thuyền",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh hành quân",
+          "lệnh đi thuyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh hành quân; lệnh đi thuyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31483,
+    "word": "出入",
+    "kana": "しゅつにゅう",
+    "senses": [
+      {
+        "sense_id": 257804,
+        "meaning_vi": "vào và ra; thu nhập và chi phí; các hiệp hội tự do; chạy khỏi nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "vào và ra",
+          "thu nhập và chi phí",
+          "các hiệp hội tự do",
+          "chạy khỏi nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vào và ra; thu nhập và chi phí; các hiệp hội tự do; chạy khỏi nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31484,
+    "word": "出入り",
+    "kana": "でいり",
+    "senses": [
+      {
+        "sense_id": 257805,
+        "meaning_vi": "đi vào và đi ra; vào và ra",
+        "confidence": "high",
+        "search_keywords": [
+          "đi vào và đi ra",
+          "vào và ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi vào và đi ra; vào và ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257806,
+        "meaning_vi": "thăm viếng thường xuyên; thường xuyên; có quan hệ thường xuyên với",
+        "confidence": "high",
+        "search_keywords": [
+          "thăm viếng thường xuyên",
+          "thường xuyên",
+          "có quan hệ thường xuyên với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thăm viếng thường xuyên; thường xuyên; có quan hệ thường xuyên với",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257807,
+        "meaning_vi": "thu nhập và chi tiêu; đầu vào và đầu ra",
+        "confidence": "high",
+        "search_keywords": [
+          "thu nhập và chi tiêu",
+          "đầu vào và đầu ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thu nhập và chi tiêu; đầu vào và đầu ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257808,
+        "meaning_vi": "tăng và giảm; thặng dư và thâm hụt; sự dao động",
+        "confidence": "high",
+        "search_keywords": [
+          "tăng và giảm",
+          "thặng dư và thâm hụt",
+          "sự dao động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tăng và giảm; thặng dư và thâm hụt; sự dao động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257809,
+        "meaning_vi": "trận đánh; rắc rối; cãi nhau; tranh chấp",
+        "confidence": "high",
+        "search_keywords": [
+          "trận đánh",
+          "rắc rối",
+          "cãi nhau",
+          "tranh chấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận đánh; rắc rối; cãi nhau; tranh chấp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257810,
+        "meaning_vi": "vết lõm (ví dụ: đường bờ biển)",
+        "confidence": "high",
+        "search_keywords": [
+          "vết lõm (ví dụ: đường bờ biển)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vết lõm (ví dụ: đường bờ biển)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31485,
+    "word": "出入りの商人",
+    "kana": "でいりのしょうにん",
+    "senses": [
+      {
+        "sense_id": 257811,
+        "meaning_vi": "người buôn bán thường xuyên của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "người buôn bán thường xuyên của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người buôn bán thường xuyên của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31486,
+    "word": "出入国",
+    "kana": "しゅつにゅうこく",
+    "senses": [
+      {
+        "sense_id": 257812,
+        "meaning_vi": "di cư và nhập cư",
+        "confidence": "high",
+        "search_keywords": [
+          "di cư và nhập cư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di cư và nhập cư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31487,
+    "word": "出任せ",
+    "kana": "でまかせ",
+    "senses": [
+      {
+        "sense_id": 257813,
+        "meaning_vi": "nói mà không suy nghĩ; lời nói không cần suy nghĩ nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "nói mà không suy nghĩ",
+          "lời nói không cần suy nghĩ nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói mà không suy nghĩ; lời nói không cần suy nghĩ nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31488,
+    "word": "出納",
+    "kana": "すいとう",
+    "senses": [
+      {
+        "sense_id": 257814,
+        "meaning_vi": "các khoản thu và chi (chi tiêu)",
+        "confidence": "high",
+        "search_keywords": [
+          "các khoản thu và chi (chi tiêu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "các khoản thu và chi (chi tiêu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

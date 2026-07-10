@@ -1,0 +1,450 @@
+[
+  {
+    "vocabulary_id": 122671,
+    "word": "回線帯域",
+    "kana": "かいせんたいいき",
+    "senses": [
+      {
+        "sense_id": 366293,
+        "meaning_vi": "băng thông đường truyền",
+        "confidence": "high",
+        "search_keywords": [
+          "băng thông đường truyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "băng thông đường truyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122672,
+    "word": "回線追跡",
+    "kana": "かいせんついせき",
+    "senses": [
+      {
+        "sense_id": 366294,
+        "meaning_vi": "dấu vết dòng",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu vết dòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu vết dòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122673,
+    "word": "回線費用",
+    "kana": "かいせんひよう",
+    "senses": [
+      {
+        "sense_id": 366295,
+        "meaning_vi": "chi phí đường dây",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí đường dây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí đường dây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122674,
+    "word": "回線網",
+    "kana": "かいせんもう",
+    "senses": [
+      {
+        "sense_id": 366296,
+        "meaning_vi": "mạng đường dây; mạng trung kế",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng đường dây",
+          "mạng trung kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng đường dây; mạng trung kế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122675,
+    "word": "回線容量",
+    "kana": "かいせんようりょう",
+    "senses": [
+      {
+        "sense_id": 366297,
+        "meaning_vi": "công suất đường dây; công suất mạch",
+        "confidence": "high",
+        "search_keywords": [
+          "công suất đường dây",
+          "công suất mạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công suất đường dây; công suất mạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122676,
+    "word": "回線利用効率",
+    "kana": "かいせんりようこうりつ",
+    "senses": [
+      {
+        "sense_id": 366298,
+        "meaning_vi": "tỷ lệ sử dụng đường dây",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ sử dụng đường dây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ sử dụng đường dây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122677,
+    "word": "回送ＩＰメッセージ表示",
+    "kana": "かいそうアイピーメッセージひょうじ",
+    "senses": [
+      {
+        "sense_id": 366299,
+        "meaning_vi": "chỉ báo tin nhắn IP được chuyển tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo tin nhắn IP được chuyển tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo tin nhắn IP được chuyển tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122678,
+    "word": "回送先住所要求",
+    "kana": "かいそうさきじゅうしょようきゅう",
+    "senses": [
+      {
+        "sense_id": 366300,
+        "meaning_vi": "yêu cầu địa chỉ chuyển tiếp; PD PR",
+        "confidence": "high",
+        "search_keywords": [
+          "yêu cầu địa chỉ chuyển tiếp",
+          "PD PR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yêu cầu địa chỉ chuyển tiếp; PD PR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122679,
+    "word": "回送要求",
+    "kana": "かいそうようきゅう",
+    "senses": [
+      {
+        "sense_id": 366301,
+        "meaning_vi": "yêu cầu chuyển tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "yêu cầu chuyển tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yêu cầu chuyển tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122680,
+    "word": "回転位置感知",
+    "kana": "かいてんいちかんち",
+    "senses": [
+      {
+        "sense_id": 366302,
+        "meaning_vi": "cảm biến vị trí quay; RPS",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm biến vị trí quay",
+          "RPS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm biến vị trí quay; RPS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122681,
+    "word": "回転位置検出",
+    "kana": "かいてんいちけんしゅつ",
+    "senses": [
+      {
+        "sense_id": 366303,
+        "meaning_vi": "cảm biến vị trí quay; RPS",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm biến vị trí quay",
+          "RPS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm biến vị trí quay; RPS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122682,
+    "word": "回転位置検出機構",
+    "kana": "かいてんいちけんしゅつきこう",
+    "senses": [
+      {
+        "sense_id": 366304,
+        "meaning_vi": "RPS; Cảm biến vị trí quay",
+        "confidence": "high",
+        "search_keywords": [
+          "RPS",
+          "Cảm biến vị trí quay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "RPS; Cảm biến vị trí quay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122683,
+    "word": "回転待ち時間",
+    "kana": "かいてんまちじかん",
+    "senses": [
+      {
+        "sense_id": 366305,
+        "meaning_vi": "thời gian trễ quay; thời gian tìm kiếm",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian trễ quay",
+          "thời gian tìm kiếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian trễ quay; thời gian tìm kiếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122684,
+    "word": "回避番号",
+    "kana": "かいひばんごう",
+    "senses": [
+      {
+        "sense_id": 366306,
+        "meaning_vi": "số bị xa lánh",
+        "confidence": "high",
+        "search_keywords": [
+          "số bị xa lánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số bị xa lánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122685,
+    "word": "回避文字",
+    "kana": "かいひもじ",
+    "senses": [
+      {
+        "sense_id": 366307,
+        "meaning_vi": "nhân vật bị xa lánh",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật bị xa lánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật bị xa lánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122686,
+    "word": "回復ログ",
+    "kana": "かいふくログ",
+    "senses": [
+      {
+        "sense_id": 366308,
+        "meaning_vi": "nhật ký phục hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "nhật ký phục hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhật ký phục hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122687,
+    "word": "回復管理機能",
+    "kana": "かいふくかんりきのう",
+    "senses": [
+      {
+        "sense_id": 366309,
+        "meaning_vi": "RMS; Hỗ trợ quản lý phục hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "RMS",
+          "Hỗ trợ quản lý phục hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "RMS; Hỗ trợ quản lý phục hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122688,
+    "word": "回復機能",
+    "kana": "かいふくきのう",
+    "senses": [
+      {
+        "sense_id": 366310,
+        "meaning_vi": "chức năng phục hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng phục hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng phục hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122689,
+    "word": "回復時間",
+    "kana": "かいふくじかん",
+    "senses": [
+      {
+        "sense_id": 366311,
+        "meaning_vi": "thời gian phục hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian phục hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian phục hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122690,
+    "word": "回復不能誤り",
+    "kana": "かいふくふのうあやまり",
+    "senses": [
+      {
+        "sense_id": 366312,
+        "meaning_vi": "lỗi không thể khắc phục",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi không thể khắc phục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi không thể khắc phục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

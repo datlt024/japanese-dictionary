@@ -1,0 +1,495 @@
+[
+  {
+    "vocabulary_id": 22707,
+    "word": "軍船",
+    "kana": "ぐんせん",
+    "senses": [
+      {
+        "sense_id": 246253,
+        "meaning_vi": "tàu chiến (gió hoặc sức người)",
+        "confidence": "high",
+        "search_keywords": [
+          "tàu chiến (gió hoặc sức người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tàu chiến (gió hoặc sức người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22708,
+    "word": "軍僧",
+    "kana": "ぐんそう",
+    "senses": [
+      {
+        "sense_id": 246254,
+        "meaning_vi": "giáo sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "giáo sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giáo sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22709,
+    "word": "軍曹",
+    "kana": "ぐんそう",
+    "senses": [
+      {
+        "sense_id": 246255,
+        "meaning_vi": "trung sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "trung sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22710,
+    "word": "軍装",
+    "kana": "ぐんそう",
+    "senses": [
+      {
+        "sense_id": 246256,
+        "meaning_vi": "trang bị của người lính; trang phục chiến tranh; mệt mỏi vì chiến tranh; trang bị cho chiến tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "trang bị của người lính",
+          "trang phục chiến tranh",
+          "mệt mỏi vì chiến tranh",
+          "trang bị cho chiến tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang bị của người lính; trang phục chiến tranh; mệt mỏi vì chiến tranh; trang bị cho chiến tranh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246257,
+        "meaning_vi": "(mặc) quần áo lính",
+        "confidence": "high",
+        "search_keywords": [
+          "(mặc) quần áo lính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(mặc) quần áo lính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22711,
+    "word": "軍属",
+    "kana": "ぐんぞく",
+    "senses": [
+      {
+        "sense_id": 246258,
+        "meaning_vi": "dân sự trong quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "dân sự trong quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dân sự trong quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22712,
+    "word": "軍卒",
+    "kana": "ぐんそつ",
+    "senses": [
+      {
+        "sense_id": 246259,
+        "meaning_vi": "người lính",
+        "confidence": "high",
+        "search_keywords": [
+          "người lính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22713,
+    "word": "軍隊",
+    "kana": "ぐんたい",
+    "senses": [
+      {
+        "sense_id": 246260,
+        "meaning_vi": "lực lượng vũ trang; quân đội; quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "lực lượng vũ trang",
+          "quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lực lượng vũ trang; quân đội; quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22714,
+    "word": "軍隊化",
+    "kana": "ぐんたいか",
+    "senses": [
+      {
+        "sense_id": 246261,
+        "meaning_vi": "quân sự hóa; quân sự hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "quân sự hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quân sự hóa; quân sự hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22715,
+    "word": "軍隊行進曲",
+    "kana": "ぐんたいこうしんきょく",
+    "senses": [
+      {
+        "sense_id": 246262,
+        "meaning_vi": "hành quân",
+        "confidence": "high",
+        "search_keywords": [
+          "hành quân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành quân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22716,
+    "word": "軍隊式",
+    "kana": "ぐんたいしき",
+    "senses": [
+      {
+        "sense_id": 246263,
+        "meaning_vi": "phong cách quân sự; phong cách quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách quân sự",
+          "phong cách quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách quân sự; phong cách quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22717,
+    "word": "軍隊生活",
+    "kana": "ぐんたいせいかつ",
+    "senses": [
+      {
+        "sense_id": 246264,
+        "meaning_vi": "cuộc sống quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc sống quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc sống quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22718,
+    "word": "軍隊葬",
+    "kana": "ぐんたいそう",
+    "senses": [
+      {
+        "sense_id": 246265,
+        "meaning_vi": "tang lễ quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "tang lễ quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tang lễ quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22719,
+    "word": "軍団",
+    "kana": "ぐんだん",
+    "senses": [
+      {
+        "sense_id": 246266,
+        "meaning_vi": "quân đoàn; quân đoàn",
+        "confidence": "high",
+        "search_keywords": [
+          "quân đoàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quân đoàn; quân đoàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22720,
+    "word": "軍団長",
+    "kana": "ぐんだんちょう",
+    "senses": [
+      {
+        "sense_id": 246267,
+        "meaning_vi": "tư lệnh quân đoàn",
+        "confidence": "high",
+        "search_keywords": [
+          "tư lệnh quân đoàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tư lệnh quân đoàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22721,
+    "word": "軍談",
+    "kana": "ぐんだん",
+    "senses": [
+      {
+        "sense_id": 246268,
+        "meaning_vi": "câu chuyện chiến tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "câu chuyện chiến tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu chuyện chiến tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22722,
+    "word": "軍長",
+    "kana": "ぐんちょう",
+    "senses": [
+      {
+        "sense_id": 246269,
+        "meaning_vi": "chỉ huy chiến đấu",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ huy chiến đấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ huy chiến đấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22723,
+    "word": "軍刀",
+    "kana": "ぐんとう",
+    "senses": [
+      {
+        "sense_id": 246270,
+        "meaning_vi": "thanh kiếm quân sự; thanh kiếm; thanh kiếm",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh kiếm quân sự",
+          "thanh kiếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh kiếm quân sự; thanh kiếm; thanh kiếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22724,
+    "word": "軍道",
+    "kana": "ぐんどう",
+    "senses": [
+      {
+        "sense_id": 246271,
+        "meaning_vi": "đường quân sự",
+        "confidence": "high",
+        "search_keywords": [
+          "đường quân sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường quân sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22725,
+    "word": "軍馬",
+    "kana": "ぐんば",
+    "senses": [
+      {
+        "sense_id": 246272,
+        "meaning_vi": "ngựa chiến; ngựa quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "ngựa chiến",
+          "ngựa quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngựa chiến; ngựa quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22726,
+    "word": "軍配",
+    "kana": "ぐんばい",
+    "senses": [
+      {
+        "sense_id": 246273,
+        "meaning_vi": "quạt chiến hình quả bầu",
+        "confidence": "high",
+        "search_keywords": [
+          "quạt chiến hình quả bầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quạt chiến hình quả bầu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246274,
+        "meaning_vi": "fan của trọng tài",
+        "confidence": "high",
+        "search_keywords": [
+          "fan của trọng tài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "fan của trọng tài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246275,
+        "meaning_vi": "mưu kế; chiến thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "mưu kế",
+          "chiến thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mưu kế; chiến thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "vocabulary_id": 154731,
+    "word": "特別活動",
+    "kana": "とくべつかつどう",
+    "senses": [
+      {
+        "sense_id": 400899,
+        "meaning_vi": "hoạt động ngoại khóa; hoạt động đặc biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động ngoại khóa",
+          "hoạt động đặc biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động ngoại khóa; hoạt động đặc biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154732,
+    "word": "教科外活動",
+    "kana": "きょうかがいかつどう",
+    "senses": [
+      {
+        "sense_id": 400900,
+        "meaning_vi": "hoạt động ngoại khóa",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động ngoại khóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động ngoại khóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154733,
+    "word": "外部リンク",
+    "kana": "がいぶリンク",
+    "senses": [
+      {
+        "sense_id": 400901,
+        "meaning_vi": "liên kết bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "liên kết bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên kết bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154734,
+    "word": "内部リンク",
+    "kana": "ないぶリンク",
+    "senses": [
+      {
+        "sense_id": 400902,
+        "meaning_vi": "liên kết nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "liên kết nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên kết nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154735,
+    "word": "リンク集",
+    "kana": "リンクしゅう",
+    "senses": [
+      {
+        "sense_id": 400903,
+        "meaning_vi": "bộ sưu tập liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ sưu tập liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ sưu tập liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154736,
+    "word": "東京式アクセント",
+    "kana": "とうきょうしきアクセント",
+    "senses": [
+      {
+        "sense_id": 400904,
+        "meaning_vi": "Giọng nói kiểu Tokyo, được sử dụng rộng rãi ở Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "Giọng nói kiểu Tokyo, được sử dụng rộng rãi ở Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giọng nói kiểu Tokyo, được sử dụng rộng rãi ở Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154737,
+    "word": "京阪式アクセント",
+    "kana": "けいはんしきアクセント",
+    "senses": [
+      {
+        "sense_id": 400905,
+        "meaning_vi": "Giọng kiểu Keihan; Giọng Kyoto-Osaka",
+        "confidence": "high",
+        "search_keywords": [
+          "Giọng kiểu Keihan",
+          "Giọng Kyoto-Osaka"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giọng kiểu Keihan; Giọng Kyoto-Osaka",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154738,
+    "word": "垂井式アクセント",
+    "kana": "たるいしきアクセント",
+    "senses": [
+      {
+        "sense_id": 400906,
+        "meaning_vi": "Giọng Tarui, được sử dụng ở vùng Kinki và một phần Hokuriku",
+        "confidence": "high",
+        "search_keywords": [
+          "Giọng Tarui, được sử dụng ở vùng Kinki và một phần Hokuriku"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giọng Tarui, được sử dụng ở vùng Kinki và một phần Hokuriku",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154739,
+    "word": "讃岐式アクセント",
+    "kana": "さぬきしきアクセント",
+    "senses": [
+      {
+        "sense_id": 400907,
+        "meaning_vi": "Giọng Sanuki, được sử dụng ở miền bắc Shikoku",
+        "confidence": "high",
+        "search_keywords": [
+          "Giọng Sanuki, được sử dụng ở miền bắc Shikoku"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giọng Sanuki, được sử dụng ở miền bắc Shikoku",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154740,
+    "word": "超豪華",
+    "kana": "ちょうごうか",
+    "senses": [
+      {
+        "sense_id": 400908,
+        "meaning_vi": "cực kỳ sang trọng; xa hoa",
+        "confidence": "high",
+        "search_keywords": [
+          "cực kỳ sang trọng",
+          "xa hoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cực kỳ sang trọng; xa hoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154741,
+    "word": "枝る",
+    "kana": "えだる",
+    "senses": [
+      {
+        "sense_id": 400909,
+        "meaning_vi": "làm việc mà không ngủ hoặc nghỉ ngơi",
+        "confidence": "high",
+        "search_keywords": [
+          "làm việc mà không ngủ hoặc nghỉ ngơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm việc mà không ngủ hoặc nghỉ ngơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154742,
+    "word": "秋入学",
+    "kana": "あきにゅうがく",
+    "senses": [
+      {
+        "sense_id": 400910,
+        "meaning_vi": "bắt đầu năm học mới từ mùa thu (thay vì mùa xuân); nhập học mùa thu; trúng tuyển mùa thu",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu năm học mới từ mùa thu (thay vì mùa xuân)",
+          "nhập học mùa thu",
+          "trúng tuyển mùa thu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu năm học mới từ mùa thu (thay vì mùa xuân); nhập học mùa thu; trúng tuyển mùa thu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154743,
+    "word": "第三者委員会",
+    "kana": "だいさんしゃいいんかい",
+    "senses": [
+      {
+        "sense_id": 400911,
+        "meaning_vi": "ủy ban độc lập; bảng điều khiển của bên thứ ba",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy ban độc lập",
+          "bảng điều khiển của bên thứ ba"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy ban độc lập; bảng điều khiển của bên thứ ba",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154744,
+    "word": "森ガール",
+    "kana": "もりガール",
+    "senses": [
+      {
+        "sense_id": 400912,
+        "meaning_vi": "phong cách thời trang dành cho thiếu nữ gợi lên cảm giác mềm mại như rừng cây",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách thời trang dành cho thiếu nữ gợi lên cảm giác mềm mại như rừng cây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách thời trang dành cho thiếu nữ gợi lên cảm giác mềm mại như rừng cây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154745,
+    "word": "脱法ハーブ",
+    "kana": "だっぽうハーブ",
+    "senses": [
+      {
+        "sense_id": 400913,
+        "meaning_vi": "loại thảo dược gây ảo giác trốn tránh pháp luật (ví dụ: cần sa tổng hợp, \"nồi giả\")",
+        "confidence": "high",
+        "search_keywords": [
+          "loại thảo dược gây ảo giác trốn tránh pháp luật (ví dụ: cần sa tổng hợp, \"nồi giả\")"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại thảo dược gây ảo giác trốn tránh pháp luật (ví dụ: cần sa tổng hợp, \"nồi giả\")",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154746,
+    "word": "ネームロンダリング",
+    "kana": "ネームロンダリング",
+    "senses": [
+      {
+        "sense_id": 400914,
+        "meaning_vi": "liên tục thay đổi tên của một người thông qua việc nhận con nuôi của người lớn hoặc các cuộc hôn nhân giả",
+        "confidence": "high",
+        "search_keywords": [
+          "liên tục thay đổi tên của một người thông qua việc nhận con nuôi của người lớn hoặc các cuộc hôn nhân giả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên tục thay đổi tên của một người thông qua việc nhận con nuôi của người lớn hoặc các cuộc hôn nhân giả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154747,
+    "word": "砂時計経済",
+    "kana": "すなどけいけいざい",
+    "senses": [
+      {
+        "sense_id": 400915,
+        "meaning_vi": "nền kinh tế đồng hồ cát; nền kinh tế có tầng lớp thượng lưu và hạ lưu lớn và tầng lớp trung lưu nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "nền kinh tế đồng hồ cát",
+          "nền kinh tế có tầng lớp thượng lưu và hạ lưu lớn và tầng lớp trung lưu nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nền kinh tế đồng hồ cát; nền kinh tế có tầng lớp thượng lưu và hạ lưu lớn và tầng lớp trung lưu nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154748,
+    "word": "トンコリ",
+    "kana": "トンコリ",
+    "senses": [
+      {
+        "sense_id": 400916,
+        "meaning_vi": "Nhạc cụ gảy dây Ainu",
+        "confidence": "high",
+        "search_keywords": [
+          "Nhạc cụ gảy dây Ainu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nhạc cụ gảy dây Ainu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154749,
+    "word": "月一",
+    "kana": "つきいち",
+    "senses": [
+      {
+        "sense_id": 400917,
+        "meaning_vi": "(ở mức) mỗi tháng một lần",
+        "confidence": "high",
+        "search_keywords": [
+          "(ở mức) mỗi tháng một lần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(ở mức) mỗi tháng một lần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 400918,
+        "meaning_vi": "Lãi suất hàng tháng 10%",
+        "confidence": "high",
+        "search_keywords": [
+          "Lãi suất hàng tháng 10%"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Lãi suất hàng tháng 10%",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154750,
+    "word": "異所形成",
+    "kana": "いしょけいせい",
+    "senses": [
+      {
+        "sense_id": 400919,
+        "meaning_vi": "dị hình; dị hình",
+        "confidence": "high",
+        "search_keywords": [
+          "dị hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dị hình; dị hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

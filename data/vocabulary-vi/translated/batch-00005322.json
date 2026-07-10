@@ -1,0 +1,471 @@
+[
+  {
+    "vocabulary_id": 127010,
+    "word": "論理矛盾",
+    "kana": "ろんりむじゅん",
+    "senses": [
+      {
+        "sense_id": 370660,
+        "meaning_vi": "sự không nhất quán logic; mâu thuẫn logic",
+        "confidence": "high",
+        "search_keywords": [
+          "sự không nhất quán logic",
+          "mâu thuẫn logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự không nhất quán logic; mâu thuẫn logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127011,
+    "word": "論理和素子",
+    "kana": "ろんりわそし",
+    "senses": [
+      {
+        "sense_id": 370661,
+        "meaning_vi": "(đã bao gồm) cổng HOẶC; (bao gồm) phần tử HOẶC",
+        "confidence": "high",
+        "search_keywords": [
+          "(đã bao gồm) cổng HOẶC",
+          "(bao gồm) phần tử HOẶC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đã bao gồm) cổng HOẶC; (bao gồm) phần tử HOẶC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127012,
+    "word": "冪乗演算子",
+    "kana": "べきじょうえんざんし",
+    "senses": [
+      {
+        "sense_id": 370662,
+        "meaning_vi": "toán tử mũ (**)",
+        "confidence": "high",
+        "search_keywords": [
+          "toán tử mũ (**)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán tử mũ (**)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127013,
+    "word": "輻輳状態",
+    "kana": "ふくそうじょうたい",
+    "senses": [
+      {
+        "sense_id": 370663,
+        "meaning_vi": "tình trạng tắc nghẽn (của mạng); ùn tắc",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng tắc nghẽn (của mạng)",
+          "ùn tắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng tắc nghẽn (của mạng); ùn tắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127014,
+    "word": "輻輳制御",
+    "kana": "ふくそうせいぎょ",
+    "senses": [
+      {
+        "sense_id": 370664,
+        "meaning_vi": "kiểm soát tắc nghẽn (trong mạng)",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát tắc nghẽn (trong mạng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát tắc nghẽn (trong mạng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127015,
+    "word": "読み解く",
+    "kana": "よみとく",
+    "senses": [
+      {
+        "sense_id": 370665,
+        "meaning_vi": "để đọc và hiểu; để giải thích (ví dụ: một văn bản khó); đọc sâu; đọc kỹ; để phân tích",
+        "confidence": "high",
+        "search_keywords": [
+          "để đọc và hiểu",
+          "để giải thích (ví dụ: một văn bản khó)",
+          "đọc sâu",
+          "đọc kỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đọc và hiểu; để giải thích (ví dụ: một văn bản khó); đọc sâu; đọc kỹ; để phân tích",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 370666,
+        "meaning_vi": "để giải mã; để giải mã",
+        "confidence": "high",
+        "search_keywords": [
+          "để giải mã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để giải mã; để giải mã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127016,
+    "word": "交際中",
+    "kana": "こうさいちゅう",
+    "senses": [
+      {
+        "sense_id": 370667,
+        "meaning_vi": "trong một mối quan hệ",
+        "confidence": "high",
+        "search_keywords": [
+          "trong một mối quan hệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong một mối quan hệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127017,
+    "word": "読み飛ばす",
+    "kana": "よみとばす",
+    "senses": [
+      {
+        "sense_id": 370668,
+        "meaning_vi": "bỏ qua (trong khi đọc); lướt qua",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ qua (trong khi đọc)",
+          "lướt qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ qua (trong khi đọc); lướt qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127018,
+    "word": "ナイトクラス",
+    "kana": "ナイトクラス",
+    "senses": [
+      {
+        "sense_id": 370669,
+        "meaning_vi": "lớp học ban đêm",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp học ban đêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp học ban đêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127019,
+    "word": "方位磁石",
+    "kana": "ほういじしゃく",
+    "senses": [
+      {
+        "sense_id": 370670,
+        "meaning_vi": "la bàn",
+        "confidence": "high",
+        "search_keywords": [
+          "la bàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "la bàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127020,
+    "word": "度胸を据える",
+    "kana": "どきょうをすえる",
+    "senses": [
+      {
+        "sense_id": 370671,
+        "meaning_vi": "để tập trung lòng can đảm của một người; để tự giải quyết; chuẩn bị sẵn sàng cho những gì sắp đến",
+        "confidence": "high",
+        "search_keywords": [
+          "để tập trung lòng can đảm của một người",
+          "để tự giải quyết",
+          "chuẩn bị sẵn sàng cho những gì sắp đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tập trung lòng can đảm của một người; để tự giải quyết; chuẩn bị sẵn sàng cho những gì sắp đến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127021,
+    "word": "覚悟を決める",
+    "kana": "かくごをきめる",
+    "senses": [
+      {
+        "sense_id": 370672,
+        "meaning_vi": "chuẩn bị cho mình (cho điều tồi tệ nhất); để tự giải quyết",
+        "confidence": "high",
+        "search_keywords": [
+          "chuẩn bị cho mình (cho điều tồi tệ nhất)",
+          "để tự giải quyết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuẩn bị cho mình (cho điều tồi tệ nhất); để tự giải quyết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127022,
+    "word": "ウィッケット",
+    "kana": "ウィッケット",
+    "senses": [
+      {
+        "sense_id": 370673,
+        "meaning_vi": "vợt (dế)",
+        "confidence": "high",
+        "search_keywords": [
+          "vợt (dế)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vợt (dế)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127023,
+    "word": "知り尽くす",
+    "kana": "しりつくす",
+    "senses": [
+      {
+        "sense_id": 370674,
+        "meaning_vi": "biết tường tận; có đầy đủ kiến thức về",
+        "confidence": "high",
+        "search_keywords": [
+          "biết tường tận",
+          "có đầy đủ kiến thức về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biết tường tận; có đầy đủ kiến thức về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127024,
+    "word": "通信経路",
+    "kana": "つうしんけいろ",
+    "senses": [
+      {
+        "sense_id": 370675,
+        "meaning_vi": "đường truyền thông; kênh liên lạc",
+        "confidence": "high",
+        "search_keywords": [
+          "đường truyền thông",
+          "kênh liên lạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường truyền thông; kênh liên lạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127025,
+    "word": "粗炊き",
+    "kana": "あらだき",
+    "senses": [
+      {
+        "sense_id": 370676,
+        "meaning_vi": "cá luộc",
+        "confidence": "high",
+        "search_keywords": [
+          "cá luộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá luộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127026,
+    "word": "荒布",
+    "kana": "あらめ",
+    "senses": [
+      {
+        "sense_id": 370677,
+        "meaning_vi": "arame (loài tảo bẹ, Eisenia bicyclis)",
+        "confidence": "high",
+        "search_keywords": [
+          "arame (loài tảo bẹ, Eisenia bicyclis)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "arame (loài tảo bẹ, Eisenia bicyclis)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127027,
+    "word": "鬣犬",
+    "kana": "たてがみいぬ",
+    "senses": [
+      {
+        "sense_id": 370678,
+        "meaning_vi": "linh cẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "linh cẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "linh cẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127028,
+    "word": "ファイアリング",
+    "kana": "ファイアリング",
+    "senses": [
+      {
+        "sense_id": 370679,
+        "meaning_vi": "bắn; bốc cháy; đang nhóm lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "bắn",
+          "bốc cháy",
+          "đang nhóm lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắn; bốc cháy; đang nhóm lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127029,
+    "word": "サスティーン",
+    "kana": "サスティーン",
+    "senses": [
+      {
+        "sense_id": 370680,
+        "meaning_vi": "duy trì",
+        "confidence": "high",
+        "search_keywords": [
+          "duy trì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "duy trì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

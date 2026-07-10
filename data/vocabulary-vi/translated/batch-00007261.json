@@ -1,0 +1,472 @@
+[
+  {
+    "vocabulary_id": 169386,
+    "word": "焼きそばパン",
+    "kana": "やきそばパン",
+    "senses": [
+      {
+        "sense_id": 417039,
+        "meaning_vi": "bánh mì yakisoba",
+        "confidence": "high",
+        "search_keywords": [
+          "bánh mì yakisoba"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bánh mì yakisoba",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169387,
+    "word": "味噌煮込みうどん",
+    "kana": "みそにこみうどん",
+    "senses": [
+      {
+        "sense_id": 417040,
+        "meaning_vi": "udon nấu trong nước dùng có tương miso",
+        "confidence": "high",
+        "search_keywords": [
+          "udon nấu trong nước dùng có tương miso"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "udon nấu trong nước dùng có tương miso",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169388,
+    "word": "内縁の夫",
+    "kana": "ないえんのおっと",
+    "senses": [
+      {
+        "sense_id": 417041,
+        "meaning_vi": "chồng trên thực tế; chồng chung thủy",
+        "confidence": "high",
+        "search_keywords": [
+          "chồng trên thực tế",
+          "chồng chung thủy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chồng trên thực tế; chồng chung thủy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169389,
+    "word": "条件表",
+    "kana": "じょうけんひょう",
+    "senses": [
+      {
+        "sense_id": 417042,
+        "meaning_vi": "biểu đồ tình trạng; danh sách điều kiện; biểu đồ trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu đồ tình trạng",
+          "danh sách điều kiện",
+          "biểu đồ trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu đồ tình trạng; danh sách điều kiện; biểu đồ trạng thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169390,
+    "word": "中戦車",
+    "kana": "ちゅうせんしゃ",
+    "senses": [
+      {
+        "sense_id": 417043,
+        "meaning_vi": "xe tăng hạng trung",
+        "confidence": "high",
+        "search_keywords": [
+          "xe tăng hạng trung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe tăng hạng trung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169391,
+    "word": "豆戦車",
+    "kana": "まめせんしゃ",
+    "senses": [
+      {
+        "sense_id": 417044,
+        "meaning_vi": "xe tăng cỡ ô tô; bình nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "xe tăng cỡ ô tô",
+          "bình nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe tăng cỡ ô tô; bình nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169392,
+    "word": "軽戦車",
+    "kana": "けいせんしゃ",
+    "senses": [
+      {
+        "sense_id": 417045,
+        "meaning_vi": "xe tăng hạng nhẹ; xe tăng roi",
+        "confidence": "high",
+        "search_keywords": [
+          "xe tăng hạng nhẹ",
+          "xe tăng roi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe tăng hạng nhẹ; xe tăng roi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169393,
+    "word": "主力戦車",
+    "kana": "しゅりょくせんしゃ",
+    "senses": [
+      {
+        "sense_id": 417046,
+        "meaning_vi": "xe tăng chiến đấu chủ lực; MBT",
+        "confidence": "high",
+        "search_keywords": [
+          "xe tăng chiến đấu chủ lực",
+          "MBT"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe tăng chiến đấu chủ lực; MBT",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169394,
+    "word": "対戦車兵器",
+    "kana": "たいせんしゃへいき",
+    "senses": [
+      {
+        "sense_id": 417047,
+        "meaning_vi": "vũ khí chống tăng",
+        "confidence": "high",
+        "search_keywords": [
+          "vũ khí chống tăng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vũ khí chống tăng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169395,
+    "word": "火炎放射戦車",
+    "kana": "かえんほうしゃせんしゃ",
+    "senses": [
+      {
+        "sense_id": 417048,
+        "meaning_vi": "bể phun lửa; bể chứa lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "bể phun lửa",
+          "bể chứa lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bể phun lửa; bể chứa lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169396,
+    "word": "対戦車車両",
+    "kana": "たいせんしゃしゃりょう",
+    "senses": [
+      {
+        "sense_id": 417049,
+        "meaning_vi": "tàu diệt tăng",
+        "confidence": "high",
+        "search_keywords": [
+          "tàu diệt tăng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tàu diệt tăng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169397,
+    "word": "携帯式防空ミサイルシステム",
+    "kana": "けいたいしきぼうくうミサイルシステム",
+    "senses": [
+      {
+        "sense_id": 417050,
+        "meaning_vi": "hệ thống phòng không cầm tay; MANPAD",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống phòng không cầm tay",
+          "MANPAD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống phòng không cầm tay; MANPAD",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169398,
+    "word": "壊死性筋膜炎",
+    "kana": "えしせいきんまくえん",
+    "senses": [
+      {
+        "sense_id": 417051,
+        "meaning_vi": "viêm cân hoại tử; viêm cân hoại tử; hội chứng vi khuẩn ăn thịt",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm cân hoại tử",
+          "hội chứng vi khuẩn ăn thịt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm cân hoại tử; viêm cân hoại tử; hội chứng vi khuẩn ăn thịt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169399,
+    "word": "長衫",
+    "kana": "ちょうさん",
+    "senses": [
+      {
+        "sense_id": 417052,
+        "meaning_vi": "sườn xám; áo choàng quýt; váy quýt",
+        "confidence": "high",
+        "search_keywords": [
+          "sườn xám",
+          "áo choàng quýt",
+          "váy quýt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sườn xám; áo choàng quýt; váy quýt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169400,
+    "word": "預流",
+    "kana": "よる",
+    "senses": [
+      {
+        "sense_id": 417053,
+        "meaning_vi": "sotāpanna; śrotāpanna; người chiến thắng luồng; người vào luồng",
+        "confidence": "high",
+        "search_keywords": [
+          "sotāpanna",
+          "śrotāpanna",
+          "người chiến thắng luồng",
+          "người vào luồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sotāpanna; śrotāpanna; người chiến thắng luồng; người vào luồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169401,
+    "word": "兀立",
+    "kana": "こつりつ",
+    "senses": [
+      {
+        "sense_id": 417054,
+        "meaning_vi": "cao chót vót",
+        "confidence": "high",
+        "search_keywords": [
+          "cao chót vót"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cao chót vót",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 417055,
+        "meaning_vi": "đứng bất động",
+        "confidence": "high",
+        "search_keywords": [
+          "đứng bất động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứng bất động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169402,
+    "word": "ジカ熱",
+    "kana": "ジカねつ",
+    "senses": [
+      {
+        "sense_id": 417056,
+        "meaning_vi": "sốt virus zika",
+        "confidence": "high",
+        "search_keywords": [
+          "sốt virus zika"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sốt virus zika",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169403,
+    "word": "ジカウィルス",
+    "kana": "ジカウィルス",
+    "senses": [
+      {
+        "sense_id": 417057,
+        "meaning_vi": "virus zika",
+        "confidence": "high",
+        "search_keywords": [
+          "virus zika"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "virus zika",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169404,
+    "word": "無目",
+    "kana": "むめ",
+    "senses": [
+      {
+        "sense_id": 417058,
+        "meaning_vi": "cây ngang; đèn quạt",
+        "confidence": "high",
+        "search_keywords": [
+          "cây ngang",
+          "đèn quạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây ngang; đèn quạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 169405,
+    "word": "トランサム",
+    "kana": "トランサム",
+    "senses": [
+      {
+        "sense_id": 417059,
+        "meaning_vi": "cây ngang (thuyền, ô cửa, cửa sổ)",
+        "confidence": "high",
+        "search_keywords": [
+          "cây ngang (thuyền, ô cửa, cửa sổ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây ngang (thuyền, ô cửa, cửa sổ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

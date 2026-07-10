@@ -1,0 +1,458 @@
+[
+  {
+    "vocabulary_id": 123763,
+    "word": "差し替え表示",
+    "kana": "さしかえひょうじ",
+    "senses": [
+      {
+        "sense_id": 367386,
+        "meaning_vi": "dấu hiệu lỗi thời",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu hiệu lỗi thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu hiệu lỗi thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123764,
+    "word": "差動増幅器",
+    "kana": "さどうぞうふくき",
+    "senses": [
+      {
+        "sense_id": 367387,
+        "meaning_vi": "khuếch đại vi sai",
+        "confidence": "high",
+        "search_keywords": [
+          "khuếch đại vi sai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuếch đại vi sai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123765,
+    "word": "差分ファイル",
+    "kana": "さぶんファイル",
+    "senses": [
+      {
+        "sense_id": 367388,
+        "meaning_vi": "tập tin khác biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin khác biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin khác biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123766,
+    "word": "差分法",
+    "kana": "さぶんほう",
+    "senses": [
+      {
+        "sense_id": 367389,
+        "meaning_vi": "phương pháp khác biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp khác biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp khác biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123767,
+    "word": "差別化フィーチャ",
+    "kana": "さべつかフィーチャ",
+    "senses": [
+      {
+        "sense_id": 367390,
+        "meaning_vi": "đặc điểm phân biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "đặc điểm phân biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặc điểm phân biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123768,
+    "word": "座標格子",
+    "kana": "ざひょうこうし",
+    "senses": [
+      {
+        "sense_id": 367391,
+        "meaning_vi": "lưới tọa độ",
+        "confidence": "high",
+        "search_keywords": [
+          "lưới tọa độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưới tọa độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123769,
+    "word": "座標図形処理",
+    "kana": "ざひょうずけいしょり",
+    "senses": [
+      {
+        "sense_id": 367392,
+        "meaning_vi": "phối hợp đồ họa; đồ họa đường nét",
+        "confidence": "high",
+        "search_keywords": [
+          "phối hợp đồ họa",
+          "đồ họa đường nét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phối hợp đồ họa; đồ họa đường nét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123770,
+    "word": "座標点",
+    "kana": "ざひょうてん",
+    "senses": [
+      {
+        "sense_id": 367393,
+        "meaning_vi": "điểm tọa độ",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm tọa độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm tọa độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123771,
+    "word": "再コンパイル",
+    "kana": "さいコンパイル",
+    "senses": [
+      {
+        "sense_id": 367394,
+        "meaning_vi": "biên dịch lại",
+        "confidence": "high",
+        "search_keywords": [
+          "biên dịch lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biên dịch lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123772,
+    "word": "再ルーチング",
+    "kana": "さいルーチング",
+    "senses": [
+      {
+        "sense_id": 367395,
+        "meaning_vi": "định tuyến lại",
+        "confidence": "high",
+        "search_keywords": [
+          "định tuyến lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định tuyến lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123773,
+    "word": "再ロード",
+    "kana": "さいロード",
+    "senses": [
+      {
+        "sense_id": 367396,
+        "meaning_vi": "tải lại",
+        "confidence": "high",
+        "search_keywords": [
+          "tải lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tải lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123774,
+    "word": "再割当",
+    "kana": "さいわりあて",
+    "senses": [
+      {
+        "sense_id": 367397,
+        "meaning_vi": "tái bổ nhiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "tái bổ nhiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tái bổ nhiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123775,
+    "word": "再帰関数",
+    "kana": "さいきかんすう",
+    "senses": [
+      {
+        "sense_id": 367398,
+        "meaning_vi": "hàm đệ quy",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm đệ quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm đệ quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123776,
+    "word": "再帰呼び出し",
+    "kana": "さいきよびだし",
+    "senses": [
+      {
+        "sense_id": 367399,
+        "meaning_vi": "cuộc gọi đệ quy",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc gọi đệ quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc gọi đệ quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123777,
+    "word": "再帰的",
+    "kana": "さいきてき",
+    "senses": [
+      {
+        "sense_id": 367400,
+        "meaning_vi": "đệ quy",
+        "confidence": "high",
+        "search_keywords": [
+          "đệ quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đệ quy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 367401,
+        "meaning_vi": "phản xạ",
+        "confidence": "high",
+        "search_keywords": [
+          "phản xạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản xạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123778,
+    "word": "再帰的に呼ぶ",
+    "kana": "さいきてきによぶ",
+    "senses": [
+      {
+        "sense_id": 367402,
+        "meaning_vi": "gọi đệ quy",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi đệ quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi đệ quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123779,
+    "word": "再帰的サブルーチン",
+    "kana": "さいきてきサブルーチン",
+    "senses": [
+      {
+        "sense_id": 367403,
+        "meaning_vi": "chương trình con đệ quy",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình con đệ quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình con đệ quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123780,
+    "word": "再帰的定義",
+    "kana": "さいきてきていぎ",
+    "senses": [
+      {
+        "sense_id": 367404,
+        "meaning_vi": "định nghĩa đệ quy",
+        "confidence": "high",
+        "search_keywords": [
+          "định nghĩa đệ quy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định nghĩa đệ quy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123781,
+    "word": "再計算",
+    "kana": "さいけいさん",
+    "senses": [
+      {
+        "sense_id": 367405,
+        "meaning_vi": "tính toán lại; tính toán lại",
+        "confidence": "high",
+        "search_keywords": [
+          "tính toán lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính toán lại; tính toán lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123782,
+    "word": "再使用",
+    "kana": "さいしよう",
+    "senses": [
+      {
+        "sense_id": 367406,
+        "meaning_vi": "tái sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "tái sử dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tái sử dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

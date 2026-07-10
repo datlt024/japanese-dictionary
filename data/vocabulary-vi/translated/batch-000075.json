@@ -1,498 +1,458 @@
 [
-{
-"vocabulary_id": 2142,
-"word": "インフォメーションリトリーバル",
-"kana": "インフォメーションリトリーバル",
-"senses": [
-{
-"sense_id": 220359,
-"meaning_vi": "truy hồi thông tin",
-"confidence": "high",
-"search_keywords": [
-"truy hồi thông tin",
-"tìm kiếm thông tin",
-"information retrieval"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá trình tìm kiếm và lấy lại thông tin từ hệ thống lưu trữ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2143,
-"word": "インフォメーションレボリューション",
-"kana": "インフォメーションレボリューション",
-"senses": [
-{
-"sense_id": 220360,
-"meaning_vi": "cách mạng thông tin",
-"confidence": "high",
-"search_keywords": [
-"cách mạng thông tin",
-"information revolution"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự thay đổi lớn do công nghệ và lưu thông thông tin tạo ra",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2144,
-"word": "インフラ",
-"kana": "インフラ",
-"senses": [
-{
-"sense_id": 220361,
-"meaning_vi": "cơ sở hạ tầng",
-"confidence": "high",
-"search_keywords": [
-"cơ sở hạ tầng",
-"hạ tầng",
-"infrastructure"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơ sở hạ tầng; hệ thống nền tảng phục vụ xã hội hoặc tổ chức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2145,
-"word": "インフラストラクチャー",
-"kana": "インフラストラクチャー",
-"senses": [
-{
-"sense_id": 220362,
-"meaning_vi": "cơ sở hạ tầng",
-"confidence": "high",
-"search_keywords": [
-"cơ sở hạ tầng",
-"hạ tầng",
-"infrastructure"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hệ thống cơ sở hạ tầng nền tảng của xã hội, kinh tế hoặc công nghệ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2146,
-"word": "インフラ開発",
-"kana": "インフラかいはつ",
-"senses": [
-{
-"sense_id": 220363,
-"meaning_vi": "phát triển hạ tầng",
-"confidence": "high",
-"search_keywords": [
-"phát triển hạ tầng",
-"phát triển cơ sở hạ tầng",
-"infrastructure development"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc xây dựng, nâng cấp hoặc mở rộng cơ sở hạ tầng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2147,
-"word": "インフルエンザ",
-"kana": "インフルエンザ",
-"senses": [
-{
-"sense_id": 220364,
-"meaning_vi": "cúm",
-"confidence": "high",
-"search_keywords": [
-"cúm",
-"bệnh cúm",
-"influenza"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bệnh cúm do virus influenza gây ra",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2148,
-"word": "インフルエンザウイルス",
-"kana": "インフルエンザウイルス",
-"senses": [
-{
-"sense_id": 220365,
-"meaning_vi": "virus cúm",
-"confidence": "high",
-"search_keywords": [
-"virus cúm",
-"vi-rút cúm",
-"influenza virus"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "virus gây bệnh cúm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2149,
-"word": "インフルエンス",
-"kana": "インフルエンス",
-"senses": [
-{
-"sense_id": 220366,
-"meaning_vi": "ảnh hưởng",
-"confidence": "high",
-"search_keywords": [
-"ảnh hưởng",
-"tác động",
-"influence"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự ảnh hưởng hoặc tác động đến người khác, sự việc khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2150,
-"word": "インフレ",
-"kana": "インフレ",
-"senses": [
-{
-"sense_id": 220367,
-"meaning_vi": "lạm phát",
-"confidence": "high",
-"search_keywords": [
-"lạm phát",
-"inflation",
-"giá cả tăng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lạm phát; tình trạng mức giá chung tăng liên tục",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2151,
-"word": "インフレーション",
-"kana": "インフレーション",
-"senses": [
-{
-"sense_id": 220368,
-"meaning_vi": "lạm phát",
-"confidence": "high",
-"search_keywords": [
-"lạm phát",
-"inflation",
-"giá cả tăng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lạm phát; sự tăng kéo dài của mức giá chung",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2152,
-"word": "インフレギャップ",
-"kana": "インフレギャップ",
-"senses": [
-{
-"sense_id": 220369,
-"meaning_vi": "khoảng cách lạm phát",
-"confidence": "high",
-"search_keywords": [
-"khoảng cách lạm phát",
-"inflationary gap",
-"chênh lệch lạm phát"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mức cầu vượt quá sản lượng tiềm năng, gây áp lực lạm phát",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2153,
-"word": "インフレヘッジ",
-"kana": "インフレヘッジ",
-"senses": [
-{
-"sense_id": 220370,
-"meaning_vi": "phòng ngừa lạm phát",
-"confidence": "high",
-"search_keywords": [
-"phòng ngừa lạm phát",
-"chống lạm phát",
-"inflation hedge"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "biện pháp hoặc tài sản giúp bảo vệ giá trị trước lạm phát",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2154,
-"word": "インプット",
-"kana": "インプット",
-"senses": [
-{
-"sense_id": 220371,
-"meaning_vi": "nhập vào",
-"confidence": "high",
-"search_keywords": [
-"nhập vào",
-"đầu vào",
-"input"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đầu vào; việc nhập dữ liệu, thông tin hoặc kiến thức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2155,
-"word": "インプリケーション",
-"kana": "インプリケーション",
-"senses": [
-{
-"sense_id": 220372,
-"meaning_vi": "hàm ý",
-"confidence": "high",
-"search_keywords": [
-"hàm ý",
-"ngụ ý",
-"implication"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hàm ý; điều được suy ra hoặc kéo theo từ một sự việc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2156,
-"word": "インプリメンタ",
-"kana": "インプリメンタ",
-"senses": [
-{
-"sense_id": 220373,
-"meaning_vi": "người triển khai",
-"confidence": "medium",
-"search_keywords": [
-"người triển khai",
-"người thực hiện",
-"implementor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người hoặc bộ phận chịu trách nhiệm triển khai, thực hiện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2157,
-"word": "インプリメンテーション",
-"kana": "インプリメンテーション",
-"senses": [
-{
-"sense_id": 220374,
-"meaning_vi": "triển khai",
-"confidence": "high",
-"search_keywords": [
-"triển khai",
-"thực hiện",
-"implementation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc triển khai, thực hiện hoặc hiện thực hóa một kế hoạch, hệ thống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2158,
-"word": "インプリメント",
-"kana": "インプリメント",
-"senses": [
-{
-"sense_id": 220375,
-"meaning_vi": "triển khai",
-"confidence": "high",
-"search_keywords": [
-"triển khai",
-"thực hiện",
-"implementation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc triển khai hoặc thực hiện một kế hoạch, chức năng, hệ thống",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220376,
-"meaning_vi": "dụng cụ",
-"confidence": "medium",
-"search_keywords": [
-"dụng cụ",
-"thiết bị",
-"implement"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dụng cụ hoặc thiết bị dùng để thực hiện một công việc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2159,
-"word": "インプレー",
-"kana": "インプレー",
-"senses": [
-{
-"sense_id": 220377,
-"meaning_vi": "đang trong cuộc",
-"confidence": "high",
-"search_keywords": [
-"đang trong cuộc",
-"bóng trong cuộc",
-"in play"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trạng thái bóng vẫn đang trong cuộc chơi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2160,
-"word": "インプレッシブ",
-"kana": "インプレッシブ",
-"senses": [
-{
-"sense_id": 220378,
-"meaning_vi": "ấn tượng",
-"confidence": "high",
-"search_keywords": [
-"ấn tượng",
-"gây ấn tượng",
-"impressive"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gây ấn tượng mạnh; đáng chú ý",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2161,
-"word": "インプレッション",
-"kana": "インプレッション",
-"senses": [
-{
-"sense_id": 220379,
-"meaning_vi": "ấn tượng",
-"confidence": "high",
-"search_keywords": [
-"ấn tượng",
-"cảm nhận",
-"impression"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ấn tượng hoặc cảm nhận để lại sau khi tiếp xúc",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2142,
+    "word": "インフォメーションリトリーバル",
+    "kana": "インフォメーションリトリーバル",
+    "senses": [
+      {
+        "sense_id": 220359,
+        "meaning_vi": "truy xuất thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "truy xuất thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy xuất thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2143,
+    "word": "インフォメーションレボリューション",
+    "kana": "インフォメーションレボリューション",
+    "senses": [
+      {
+        "sense_id": 220360,
+        "meaning_vi": "cuộc cách mạng thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc cách mạng thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc cách mạng thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2144,
+    "word": "インフラ",
+    "kana": "インフラ",
+    "senses": [
+      {
+        "sense_id": 220361,
+        "meaning_vi": "cơ sở hạ tầng",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở hạ tầng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở hạ tầng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2145,
+    "word": "インフラストラクチャー",
+    "kana": "インフラストラクチャー",
+    "senses": [
+      {
+        "sense_id": 220362,
+        "meaning_vi": "cơ sở hạ tầng",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở hạ tầng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở hạ tầng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2146,
+    "word": "インフラ開発",
+    "kana": "インフラかいはつ",
+    "senses": [
+      {
+        "sense_id": 220363,
+        "meaning_vi": "phát triển cơ sở hạ tầng",
+        "confidence": "high",
+        "search_keywords": [
+          "phát triển cơ sở hạ tầng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát triển cơ sở hạ tầng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2147,
+    "word": "インフルエンザ",
+    "kana": "インフルエンザ",
+    "senses": [
+      {
+        "sense_id": 220364,
+        "meaning_vi": "cúm; cúm",
+        "confidence": "high",
+        "search_keywords": [
+          "cúm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cúm; cúm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2148,
+    "word": "インフルエンザウイルス",
+    "kana": "インフルエンザウイルス",
+    "senses": [
+      {
+        "sense_id": 220365,
+        "meaning_vi": "virus cúm",
+        "confidence": "high",
+        "search_keywords": [
+          "virus cúm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "virus cúm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2149,
+    "word": "インフルエンス",
+    "kana": "インフルエンス",
+    "senses": [
+      {
+        "sense_id": 220366,
+        "meaning_vi": "ảnh hưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh hưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh hưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2150,
+    "word": "インフレ",
+    "kana": "インフレ",
+    "senses": [
+      {
+        "sense_id": 220367,
+        "meaning_vi": "lạm phát",
+        "confidence": "high",
+        "search_keywords": [
+          "lạm phát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lạm phát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2151,
+    "word": "インフレーション",
+    "kana": "インフレーション",
+    "senses": [
+      {
+        "sense_id": 220368,
+        "meaning_vi": "lạm phát",
+        "confidence": "high",
+        "search_keywords": [
+          "lạm phát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lạm phát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2152,
+    "word": "インフレギャップ",
+    "kana": "インフレギャップ",
+    "senses": [
+      {
+        "sense_id": 220369,
+        "meaning_vi": "khoảng cách lạm phát",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng cách lạm phát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng cách lạm phát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2153,
+    "word": "インフレヘッジ",
+    "kana": "インフレヘッジ",
+    "senses": [
+      {
+        "sense_id": 220370,
+        "meaning_vi": "Phòng ngừa lạm phát (phòng ngừa lạm phát)",
+        "confidence": "high",
+        "search_keywords": [
+          "Phòng ngừa lạm phát (phòng ngừa lạm phát)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phòng ngừa lạm phát (phòng ngừa lạm phát)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2154,
+    "word": "インプット",
+    "kana": "インプット",
+    "senses": [
+      {
+        "sense_id": 220371,
+        "meaning_vi": "đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2155,
+    "word": "インプリケーション",
+    "kana": "インプリケーション",
+    "senses": [
+      {
+        "sense_id": 220372,
+        "meaning_vi": "hàm ý",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2156,
+    "word": "インプリメンタ",
+    "kana": "インプリメンタ",
+    "senses": [
+      {
+        "sense_id": 220373,
+        "meaning_vi": "người thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "người thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2157,
+    "word": "インプリメンテーション",
+    "kana": "インプリメンテーション",
+    "senses": [
+      {
+        "sense_id": 220374,
+        "meaning_vi": "thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2158,
+    "word": "インプリメント",
+    "kana": "インプリメント",
+    "senses": [
+      {
+        "sense_id": 220375,
+        "meaning_vi": "thực hiện; thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện; thực hiện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220376,
+        "meaning_vi": "thực hiện; thiết bị",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện",
+          "thiết bị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện; thiết bị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2159,
+    "word": "インプレー",
+    "kana": "インプレー",
+    "senses": [
+      {
+        "sense_id": 220377,
+        "meaning_vi": "đang chơi (bóng)",
+        "confidence": "high",
+        "search_keywords": [
+          "đang chơi (bóng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang chơi (bóng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2160,
+    "word": "インプレッシブ",
+    "kana": "インプレッシブ",
+    "senses": [
+      {
+        "sense_id": 220378,
+        "meaning_vi": "ấn tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "ấn tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ấn tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2161,
+    "word": "インプレッション",
+    "kana": "インプレッション",
+    "senses": [
+      {
+        "sense_id": 220379,
+        "meaning_vi": "ấn tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "ấn tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ấn tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

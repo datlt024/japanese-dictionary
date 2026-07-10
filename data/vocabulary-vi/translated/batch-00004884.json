@@ -1,0 +1,494 @@
+[
+  {
+    "vocabulary_id": 118128,
+    "word": "エラー訂正プロトコル",
+    "kana": "エラーていせいプロトコル",
+    "senses": [
+      {
+        "sense_id": 361666,
+        "meaning_vi": "giao thức sửa lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "giao thức sửa lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao thức sửa lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118129,
+    "word": "エラー訂正メモリ",
+    "kana": "エラーていせいメモリ",
+    "senses": [
+      {
+        "sense_id": 361667,
+        "meaning_vi": "bộ nhớ sửa lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ sửa lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ sửa lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118130,
+    "word": "エラー訂正符号",
+    "kana": "エラーていせいふごう",
+    "senses": [
+      {
+        "sense_id": 361668,
+        "meaning_vi": "Mã sửa lỗi; ECC",
+        "confidence": "high",
+        "search_keywords": [
+          "Mã sửa lỗi",
+          "ECC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mã sửa lỗi; ECC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118131,
+    "word": "エラー表示",
+    "kana": "エラーひょうじ",
+    "senses": [
+      {
+        "sense_id": 361669,
+        "meaning_vi": "chỉ báo lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118132,
+    "word": "エラー補正",
+    "kana": "エラーほせい",
+    "senses": [
+      {
+        "sense_id": 361670,
+        "meaning_vi": "sửa lỗi; phát hiện và sửa lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa lỗi",
+          "phát hiện và sửa lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa lỗi; phát hiện và sửa lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118133,
+    "word": "エラー履歴",
+    "kana": "エラーりれき",
+    "senses": [
+      {
+        "sense_id": 361671,
+        "meaning_vi": "lịch sử lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "lịch sử lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lịch sử lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118134,
+    "word": "エリアコード",
+    "kana": "エリアコード",
+    "senses": [
+      {
+        "sense_id": 361672,
+        "meaning_vi": "mã vùng",
+        "confidence": "high",
+        "search_keywords": [
+          "mã vùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã vùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118135,
+    "word": "エリア境界",
+    "kana": "エリアきょうかい",
+    "senses": [
+      {
+        "sense_id": 361673,
+        "meaning_vi": "ranh giới khu vực",
+        "confidence": "high",
+        "search_keywords": [
+          "ranh giới khu vực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ranh giới khu vực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118136,
+    "word": "エリクソン",
+    "kana": "エリクソン",
+    "senses": [
+      {
+        "sense_id": 361674,
+        "meaning_vi": "Ericsson",
+        "confidence": "low",
+        "search_keywords": [
+          "Ericsson"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ericsson",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118137,
+    "word": "ＬＬＣ",
+    "kana": "エル・エル・シー",
+    "senses": [
+      {
+        "sense_id": 361675,
+        "meaning_vi": "công ty trách nhiệm hữu hạn; Công ty TNHH",
+        "confidence": "high",
+        "search_keywords": [
+          "công ty trách nhiệm hữu hạn",
+          "Công ty TNHH"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công ty trách nhiệm hữu hạn; Công ty TNHH",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361676,
+        "meaning_vi": "kiểm soát liên kết logic; Công ty TNHH",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát liên kết logic",
+          "Công ty TNHH"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát liên kết logic; Công ty TNHH",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361677,
+        "meaning_vi": "chất làm mát có tuổi thọ cao; Công ty TNHH",
+        "confidence": "high",
+        "search_keywords": [
+          "chất làm mát có tuổi thọ cao",
+          "Công ty TNHH"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất làm mát có tuổi thọ cao; Công ty TNHH",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118138,
+    "word": "エルゴード的",
+    "kana": "エルゴードてき",
+    "senses": [
+      {
+        "sense_id": 361678,
+        "meaning_vi": "ergodic",
+        "confidence": "low",
+        "search_keywords": [
+          "ergodic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ergodic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118139,
+    "word": "エルゴノミクス",
+    "kana": "エルゴノミクス",
+    "senses": [
+      {
+        "sense_id": 361679,
+        "meaning_vi": "công thái học",
+        "confidence": "high",
+        "search_keywords": [
+          "công thái học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công thái học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361680,
+        "meaning_vi": "công thái học",
+        "confidence": "high",
+        "search_keywords": [
+          "công thái học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công thái học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118140,
+    "word": "エルゴノミックキーボード",
+    "kana": "エルゴノミックキーボード",
+    "senses": [
+      {
+        "sense_id": 361681,
+        "meaning_vi": "bàn phím tiện dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "bàn phím tiện dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bàn phím tiện dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118141,
+    "word": "ＬＺＨ",
+    "kana": "エル・ゼット・エイチ",
+    "senses": [
+      {
+        "sense_id": 361682,
+        "meaning_vi": "LZH; Thuật toán nén Lempel-Ziv và Haruyasu",
+        "confidence": "high",
+        "search_keywords": [
+          "LZH",
+          "Thuật toán nén Lempel-Ziv và Haruyasu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "LZH; Thuật toán nén Lempel-Ziv và Haruyasu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118142,
+    "word": "ＬＤＡＰ",
+    "kana": "エルダップ",
+    "senses": [
+      {
+        "sense_id": 361683,
+        "meaning_vi": "LDAP; Giao thức truy cập thư mục nhẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "LDAP",
+          "Giao thức truy cập thư mục nhẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "LDAP; Giao thức truy cập thư mục nhẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118143,
+    "word": "ＬＵ分解",
+    "kana": "エルユーぶんかい",
+    "senses": [
+      {
+        "sense_id": 361684,
+        "meaning_vi": "phân hủy LU",
+        "confidence": "high",
+        "search_keywords": [
+          "phân hủy LU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân hủy LU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118144,
+    "word": "エレクトリカルキー",
+    "kana": "エレクトリカルキー",
+    "senses": [
+      {
+        "sense_id": 361685,
+        "meaning_vi": "chìa khóa điện",
+        "confidence": "high",
+        "search_keywords": [
+          "chìa khóa điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chìa khóa điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118145,
+    "word": "エレクトリックコマース",
+    "kana": "エレクトリックコマース",
+    "senses": [
+      {
+        "sense_id": 361686,
+        "meaning_vi": "thương mại điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "thương mại điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thương mại điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118146,
+    "word": "エレクトロニックカフェ",
+    "kana": "エレクトロニックカフェ",
+    "senses": [
+      {
+        "sense_id": 361687,
+        "meaning_vi": "quán cà phê điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "quán cà phê điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quán cà phê điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118147,
+    "word": "エレクトロニックコマース",
+    "kana": "エレクトロニックコマース",
+    "senses": [
+      {
+        "sense_id": 361688,
+        "meaning_vi": "thương mại điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "thương mại điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thương mại điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

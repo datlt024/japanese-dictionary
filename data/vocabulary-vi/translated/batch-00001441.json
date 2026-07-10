@@ -1,0 +1,485 @@
+[
+  {
+    "vocabulary_id": 37102,
+    "word": "創世記",
+    "kana": "そうせいき",
+    "senses": [
+      {
+        "sense_id": 265480,
+        "meaning_vi": "Sáng thế ký (cuốn sách Kinh thánh)",
+        "confidence": "high",
+        "search_keywords": [
+          "Sáng thế ký (cuốn sách Kinh thánh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sáng thế ký (cuốn sách Kinh thánh)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37103,
+    "word": "創製",
+    "kana": "そうせい",
+    "senses": [
+      {
+        "sense_id": 265481,
+        "meaning_vi": "sự phát minh; nguồn gốc; khám phá",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phát minh",
+          "nguồn gốc",
+          "khám phá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phát minh; nguồn gốc; khám phá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37104,
+    "word": "創設",
+    "kana": "そうせつ",
+    "senses": [
+      {
+        "sense_id": 265482,
+        "meaning_vi": "thành lập; thành lập; tổ chức; tổ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "thành lập",
+          "tổ chức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành lập; thành lập; tổ chức; tổ chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37105,
+    "word": "創設者",
+    "kana": "そうせつしゃ",
+    "senses": [
+      {
+        "sense_id": 265483,
+        "meaning_vi": "người sáng lập",
+        "confidence": "high",
+        "search_keywords": [
+          "người sáng lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người sáng lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37106,
+    "word": "創造",
+    "kana": "そうぞう",
+    "senses": [
+      {
+        "sense_id": 265484,
+        "meaning_vi": "sự sáng tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "sự sáng tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự sáng tạo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265485,
+        "meaning_vi": "Sự sáng tạo (của Chúa)",
+        "confidence": "high",
+        "search_keywords": [
+          "Sự sáng tạo (của Chúa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sự sáng tạo (của Chúa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37107,
+    "word": "創造者",
+    "kana": "そうぞうしゃ",
+    "senses": [
+      {
+        "sense_id": 265486,
+        "meaning_vi": "người sáng tạo; Người sáng tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "người sáng tạo",
+          "Người sáng tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người sáng tạo; Người sáng tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37108,
+    "word": "創造性",
+    "kana": "そうぞうせい",
+    "senses": [
+      {
+        "sense_id": 265487,
+        "meaning_vi": "sự sáng tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "sự sáng tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự sáng tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37109,
+    "word": "創造説",
+    "kana": "そうぞうせつ",
+    "senses": [
+      {
+        "sense_id": 265488,
+        "meaning_vi": "chủ nghĩa sáng tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa sáng tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa sáng tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37110,
+    "word": "創造的",
+    "kana": "そうぞうてき",
+    "senses": [
+      {
+        "sense_id": 265489,
+        "meaning_vi": "sáng tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "sáng tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sáng tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37111,
+    "word": "創造物",
+    "kana": "そうぞうぶつ",
+    "senses": [
+      {
+        "sense_id": 265490,
+        "meaning_vi": "sinh vật; sự sáng tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh vật",
+          "sự sáng tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh vật; sự sáng tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37112,
+    "word": "創造力",
+    "kana": "そうぞうりょく",
+    "senses": [
+      {
+        "sense_id": 265491,
+        "meaning_vi": "sức mạnh sáng tạo; sự sáng tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "sức mạnh sáng tạo",
+          "sự sáng tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức mạnh sáng tạo; sự sáng tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37113,
+    "word": "創面",
+    "kana": "そうめん",
+    "senses": [
+      {
+        "sense_id": 265492,
+        "meaning_vi": "bề mặt vết thương",
+        "confidence": "high",
+        "search_keywords": [
+          "bề mặt vết thương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bề mặt vết thương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37114,
+    "word": "創立",
+    "kana": "そうりつ",
+    "senses": [
+      {
+        "sense_id": 265493,
+        "meaning_vi": "thành lập; thành lập; tổ chức; tổ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "thành lập",
+          "tổ chức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành lập; thành lập; tổ chức; tổ chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37115,
+    "word": "創立者",
+    "kana": "そうりつしゃ",
+    "senses": [
+      {
+        "sense_id": 265494,
+        "meaning_vi": "người sáng lập; người tổ chức; người tổ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "người sáng lập",
+          "người tổ chức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người sáng lập; người tổ chức; người tổ chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37116,
+    "word": "創痍",
+    "kana": "そうい",
+    "senses": [
+      {
+        "sense_id": 265495,
+        "meaning_vi": "vết thương (từ một vũ khí có lưỡi); cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "vết thương (từ một vũ khí có lưỡi)",
+          "cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vết thương (từ một vũ khí có lưỡi); cắt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265496,
+        "meaning_vi": "hư hại; chấn thương; mất mát",
+        "confidence": "high",
+        "search_keywords": [
+          "hư hại",
+          "chấn thương",
+          "mất mát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hư hại; chấn thương; mất mát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37117,
+    "word": "双",
+    "kana": "そう",
+    "senses": [
+      {
+        "sense_id": 265497,
+        "meaning_vi": "cặp",
+        "confidence": "high",
+        "search_keywords": [
+          "cặp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cặp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37118,
+    "word": "双暗車",
+    "kana": "そうあんしゃ",
+    "senses": [
+      {
+        "sense_id": 265498,
+        "meaning_vi": "cánh quạt đôi",
+        "confidence": "high",
+        "search_keywords": [
+          "cánh quạt đôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cánh quạt đôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37119,
+    "word": "双殻類",
+    "kana": "そうかくるい",
+    "senses": [
+      {
+        "sense_id": 265499,
+        "meaning_vi": "hai mảnh vỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "hai mảnh vỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hai mảnh vỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37120,
+    "word": "双眼",
+    "kana": "そうがん",
+    "senses": [
+      {
+        "sense_id": 265500,
+        "meaning_vi": "cả hai mắt; ống nhòm",
+        "confidence": "high",
+        "search_keywords": [
+          "cả hai mắt",
+          "ống nhòm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cả hai mắt; ống nhòm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37121,
+    "word": "双眼鏡",
+    "kana": "そうがんきょう",
+    "senses": [
+      {
+        "sense_id": 265501,
+        "meaning_vi": "ống nhòm; kính thực địa",
+        "confidence": "high",
+        "search_keywords": [
+          "ống nhòm",
+          "kính thực địa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ống nhòm; kính thực địa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

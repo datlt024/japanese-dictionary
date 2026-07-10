@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 124167,
+    "word": "実行時エラー",
+    "kana": "じっこうじエラー",
+    "senses": [
+      {
+        "sense_id": 367795,
+        "meaning_vi": "lỗi thời gian chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi thời gian chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi thời gian chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124168,
+    "word": "実行時間",
+    "kana": "じっこうじかん",
+    "senses": [
+      {
+        "sense_id": 367796,
+        "meaning_vi": "thời gian thực hiện; thời gian chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian thực hiện",
+          "thời gian chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian thực hiện; thời gian chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124169,
+    "word": "実行順序",
+    "kana": "じっこうじゅんじょ",
+    "senses": [
+      {
+        "sense_id": 367797,
+        "meaning_vi": "lệnh thi hành; trình tự thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh thi hành",
+          "trình tự thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh thi hành; trình tự thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124170,
+    "word": "実行制御ファイル",
+    "kana": "じっこうせいぎょファイル",
+    "senses": [
+      {
+        "sense_id": 367798,
+        "meaning_vi": "chạy tập tin điều khiển (*rc)",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy tập tin điều khiển (*rc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy tập tin điều khiển (*rc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124171,
+    "word": "実行側ＣＭＩＳＥサービス利用者",
+    "kana": "じっこうがわシーエムアイエスイーサービスりようしゃ",
+    "senses": [
+      {
+        "sense_id": 367799,
+        "meaning_vi": "thực hiện CMISE-service-user",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện CMISE-service-user"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện CMISE-service-user",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124172,
+    "word": "実行側応用エンティティ",
+    "kana": "じっこうがわおうようエンティティ",
+    "senses": [
+      {
+        "sense_id": 367800,
+        "meaning_vi": "thực thể ứng dụng thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể ứng dụng thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể ứng dụng thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124173,
+    "word": "実行速度",
+    "kana": "じっこうそくど",
+    "senses": [
+      {
+        "sense_id": 367801,
+        "meaning_vi": "tốc độ thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124174,
+    "word": "実行単位",
+    "kana": "じっこうたんい",
+    "senses": [
+      {
+        "sense_id": 367802,
+        "meaning_vi": "đơn vị chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124175,
+    "word": "実行不成功",
+    "kana": "じっこうふせいこう",
+    "senses": [
+      {
+        "sense_id": 367803,
+        "meaning_vi": "thực hiện không thành công",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện không thành công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện không thành công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124176,
+    "word": "実行不能文",
+    "kana": "じっこうふのうぶん",
+    "senses": [
+      {
+        "sense_id": 367804,
+        "meaning_vi": "tuyên bố không thể thực hiện được",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên bố không thể thực hiện được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên bố không thể thực hiện được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124177,
+    "word": "実行文",
+    "kana": "じっこうぶん",
+    "senses": [
+      {
+        "sense_id": 367805,
+        "meaning_vi": "câu lệnh thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "câu lệnh thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu lệnh thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124178,
+    "word": "実行優先順位",
+    "kana": "じっこうゆうせんじゅんい",
+    "senses": [
+      {
+        "sense_id": 367806,
+        "meaning_vi": "ưu tiên điều động",
+        "confidence": "high",
+        "search_keywords": [
+          "ưu tiên điều động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ưu tiên điều động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124179,
+    "word": "実行用プログラム",
+    "kana": "じっこうようプログラム",
+    "senses": [
+      {
+        "sense_id": 367807,
+        "meaning_vi": "chương trình đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124180,
+    "word": "実行用計算機",
+    "kana": "じっこうようけいさんき",
+    "senses": [
+      {
+        "sense_id": 367808,
+        "meaning_vi": "máy tính đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "máy tính đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy tính đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124181,
+    "word": "実行用計算機記述項",
+    "kana": "じっこうようけいさんききじゅつこう",
+    "senses": [
+      {
+        "sense_id": 367809,
+        "meaning_vi": "mục nhập máy tính đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "mục nhập máy tính đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục nhập máy tính đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124182,
+    "word": "実際の小数点",
+    "kana": "じっさいのしょうすうてん",
+    "senses": [
+      {
+        "sense_id": 367810,
+        "meaning_vi": "dấu thập phân thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu thập phân thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu thập phân thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124183,
+    "word": "実施項目",
+    "kana": "じっしこうもく",
+    "senses": [
+      {
+        "sense_id": 367811,
+        "meaning_vi": "mục làm việc",
+        "confidence": "high",
+        "search_keywords": [
+          "mục làm việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục làm việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124184,
+    "word": "実試験手段",
+    "kana": "じつしけんしゅだん",
+    "senses": [
+      {
+        "sense_id": 367812,
+        "meaning_vi": "người thử nghiệm thực sự",
+        "confidence": "high",
+        "search_keywords": [
+          "người thử nghiệm thực sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thử nghiệm thực sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124185,
+    "word": "実時間演算",
+    "kana": "じつじかんえんざん",
+    "senses": [
+      {
+        "sense_id": 367813,
+        "meaning_vi": "hoạt động thời gian thực (ví dụ: trong điện toán tương tự)",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động thời gian thực (ví dụ: trong điện toán tương tự)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động thời gian thực (ví dụ: trong điện toán tương tự)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124186,
+    "word": "実受信者",
+    "kana": "じつじゅしんしゃ",
+    "senses": [
+      {
+        "sense_id": 367814,
+        "meaning_vi": "người nhận thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "người nhận thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nhận thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

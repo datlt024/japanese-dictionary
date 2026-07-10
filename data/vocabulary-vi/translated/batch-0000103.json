@@ -1,511 +1,476 @@
 [
-{
-"vocabulary_id": 2702,
-"word": "エンジン発動機",
-"kana": "エンジンはつどうき",
-"senses": [
-{
-"sense_id": 221011,
-"meaning_vi": "động cơ",
-"confidence": "high",
-"search_keywords": [
-"động cơ",
-"máy phát động",
-"engine"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "động cơ; máy phát động lực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2703,
-"word": "エンスト",
-"kana": "エンスト",
-"senses": [
-{
-"sense_id": 221012,
-"meaning_vi": "chết máy",
-"confidence": "high",
-"search_keywords": [
-"chết máy",
-"tắt máy",
-"engine stall"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "động cơ bị chết máy; xe bị tắt máy đột ngột",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2704,
-"word": "小路",
-"kana": "こうじ",
-"senses": [
-{
-"sense_id": 297772,
-"meaning_vi": "ngõ nhỏ",
-"confidence": "high",
-"search_keywords": [
-"ngõ nhỏ",
-"hẻm",
-"ngõ hẻm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngõ nhỏ; hẻm; lối đi hẹp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2705,
-"word": "エンゼルフィッシュ",
-"kana": "エンゼルフィッシュ",
-"senses": [
-{
-"sense_id": 221015,
-"meaning_vi": "cá ông tiên",
-"confidence": "high",
-"search_keywords": [
-"cá ông tiên",
-"cá thần tiên",
-"angelfish"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cá ông tiên; cá thần tiên nước ngọt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2706,
-"word": "エンター",
-"kana": "エンター",
-"senses": [
-{
-"sense_id": 221016,
-"meaning_vi": "phím Enter",
-"confidence": "medium",
-"search_keywords": [
-"phím Enter",
-"Enter",
-"nhập"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phím Enter; thao tác nhập hoặc xác nhận",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2707,
-"word": "エンターテイナー",
-"kana": "エンターテイナー",
-"senses": [
-{
-"sense_id": 221017,
-"meaning_vi": "nghệ sĩ giải trí",
-"confidence": "high",
-"search_keywords": [
-"nghệ sĩ giải trí",
-"người biểu diễn",
-"entertainer"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người biểu diễn để mua vui; nghệ sĩ giải trí",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2708,
-"word": "エンターテインメント",
-"kana": "エンターテインメント",
-"senses": [
-{
-"sense_id": 221018,
-"meaning_vi": "giải trí",
-"confidence": "high",
-"search_keywords": [
-"giải trí",
-"ngành giải trí",
-"entertainment"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hoạt động hoặc ngành giải trí",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2709,
-"word": "エンタープライズ",
-"kana": "エンタープライズ",
-"senses": [
-{
-"sense_id": 221019,
-"meaning_vi": "doanh nghiệp",
-"confidence": "high",
-"search_keywords": [
-"doanh nghiệp",
-"xí nghiệp",
-"enterprise"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "doanh nghiệp; tổ chức kinh doanh quy mô lớn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2710,
-"word": "エンタイトル",
-"kana": "エンタイトル",
-"senses": [
-{
-"sense_id": 221020,
-"meaning_vi": "quyền tiến gôn",
-"confidence": "medium",
-"search_keywords": [
-"quyền tiến gôn",
-"bóng chày",
-"entitled base"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quyền của người đánh hoặc người chạy được tiến thêm một gôn trong bóng chày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2711,
-"word": "エンタシス",
-"kana": "エンタシス",
-"senses": [
-{
-"sense_id": 221021,
-"meaning_vi": "độ phình cột",
-"confidence": "medium",
-"search_keywords": [
-"độ phình cột",
-"entasis",
-"kiến trúc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "độ phình nhẹ ở thân cột trong kiến trúc cổ điển",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2712,
-"word": "エンダイブ",
-"kana": "エンダイブ",
-"senses": [
-{
-"sense_id": 221022,
-"meaning_vi": "rau diếp xoăn",
-"confidence": "high",
-"search_keywords": [
-"rau diếp xoăn",
-"endive"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rau diếp xoăn; endive",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2713,
-"word": "エンティティ",
-"kana": "エンティティ",
-"senses": [
-{
-"sense_id": 221023,
-"meaning_vi": "thực thể",
-"confidence": "high",
-"search_keywords": [
-"thực thể",
-"entity"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thực thể; đối tượng tồn tại độc lập trong một hệ thống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2714,
-"word": "エンディアン",
-"kana": "エンディアン",
-"senses": [
-{
-"sense_id": 221024,
-"meaning_vi": "kiểu endian",
-"confidence": "high",
-"search_keywords": [
-"kiểu endian",
-"big-endian",
-"little-endian"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hậu tố chỉ thứ tự byte như big-endian hoặc little-endian",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2715,
-"word": "エンディング",
-"kana": "エンディング",
-"senses": [
-{
-"sense_id": 221025,
-"meaning_vi": "phần kết",
-"confidence": "high",
-"search_keywords": [
-"phần kết",
-"kết thúc",
-"ending"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần kết; đoạn kết của tác phẩm hoặc chương trình",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2716,
-"word": "エントランス",
-"kana": "エントランス",
-"senses": [
-{
-"sense_id": 221026,
-"meaning_vi": "lối vào",
-"confidence": "high",
-"search_keywords": [
-"lối vào",
-"cửa vào",
-"sảnh vào"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lối vào; cửa vào; khu sảnh vào",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2717,
-"word": "エントリー",
-"kana": "エントリー",
-"senses": [
-{
-"sense_id": 221027,
-"meaning_vi": "đăng ký tham gia",
-"confidence": "high",
-"search_keywords": [
-"đăng ký tham gia",
-"ghi danh",
-"entry"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đăng ký tham gia sự kiện, cuộc thi hoặc hoạt động",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221028,
-"meaning_vi": "mục đăng",
-"confidence": "high",
-"search_keywords": [
-"mục đăng",
-"bài đăng",
-"entry"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mục dữ liệu; bài đăng trên blog hoặc hệ thống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2718,
-"word": "エントロピー",
-"kana": "エントロピー",
-"senses": [
-{
-"sense_id": 221029,
-"meaning_vi": "entropy",
-"confidence": "high",
-"search_keywords": [
-"entropy",
-"độ hỗn loạn",
-"nhiệt động lực học"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "entropy; đại lượng biểu thị mức độ hỗn loạn trong vật lý",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221030,
-"meaning_vi": "entropy thông tin",
-"confidence": "high",
-"search_keywords": [
-"entropy thông tin",
-"information entropy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "entropy trong lý thuyết thông tin; mức độ bất định của thông tin",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2719,
-"word": "エンド",
-"kana": "エンド",
-"senses": [
-{
-"sense_id": 221031,
-"meaning_vi": "kết thúc",
-"confidence": "high",
-"search_keywords": [
-"kết thúc",
-"phần cuối",
-"end"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần cuối; sự kết thúc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2720,
-"word": "エンドカーラー",
-"kana": "エンドカーラー",
-"senses": [
-{
-"sense_id": 221032,
-"meaning_vi": "lô uốn đuôi tóc",
-"confidence": "medium",
-"search_keywords": [
-"lô uốn đuôi tóc",
-"end curler"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dụng cụ uốn phần đuôi tóc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2721,
-"word": "エンドユーザー",
-"kana": "エンドユーザー",
-"senses": [
-{
-"sense_id": 221033,
-"meaning_vi": "người dùng cuối",
-"confidence": "high",
-"search_keywords": [
-"người dùng cuối",
-"end user"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người trực tiếp sử dụng sản phẩm hoặc dịch vụ cuối cùng",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2702,
+    "word": "エンジン発動機",
+    "kana": "エンジンはつどうき",
+    "senses": [
+      {
+        "sense_id": 221011,
+        "meaning_vi": "động cơ",
+        "confidence": "high",
+        "search_keywords": [
+          "động cơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động cơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2703,
+    "word": "エンスト",
+    "kana": "エンスト",
+    "senses": [
+      {
+        "sense_id": 221012,
+        "meaning_vi": "chết máy",
+        "confidence": "high",
+        "search_keywords": [
+          "chết máy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết máy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2704,
+    "word": "小路",
+    "kana": "こうじ",
+    "senses": [
+      {
+        "sense_id": 297772,
+        "meaning_vi": "làn đường; hẻm",
+        "confidence": "high",
+        "search_keywords": [
+          "làn đường",
+          "hẻm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làn đường; hẻm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2705,
+    "word": "エンゼルフィッシュ",
+    "kana": "エンゼルフィッシュ",
+    "senses": [
+      {
+        "sense_id": 221015,
+        "meaning_vi": "cá thần tiên (Pterophyllum scalare)",
+        "confidence": "high",
+        "search_keywords": [
+          "cá thần tiên (Pterophyllum scalare)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá thần tiên (Pterophyllum scalare)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2706,
+    "word": "エンター",
+    "kana": "エンター",
+    "senses": [
+      {
+        "sense_id": 221016,
+        "meaning_vi": "nhập",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2707,
+    "word": "エンターテイナー",
+    "kana": "エンターテイナー",
+    "senses": [
+      {
+        "sense_id": 221017,
+        "meaning_vi": "nghệ sĩ giải trí",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ sĩ giải trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ sĩ giải trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2708,
+    "word": "エンターテインメント",
+    "kana": "エンターテインメント",
+    "senses": [
+      {
+        "sense_id": 221018,
+        "meaning_vi": "sự giải trí",
+        "confidence": "high",
+        "search_keywords": [
+          "sự giải trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự giải trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2709,
+    "word": "エンタープライズ",
+    "kana": "エンタープライズ",
+    "senses": [
+      {
+        "sense_id": 221019,
+        "meaning_vi": "doanh nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "doanh nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "doanh nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2710,
+    "word": "エンタイトル",
+    "kana": "エンタイトル",
+    "senses": [
+      {
+        "sense_id": 221020,
+        "meaning_vi": "quyền của người đánh bóng hoặc người chạy cơ bản để tiến lên cơ sở",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền của người đánh bóng hoặc người chạy cơ bản để tiến lên cơ sở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền của người đánh bóng hoặc người chạy cơ bản để tiến lên cơ sở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2711,
+    "word": "エンタシス",
+    "kana": "エンタシス",
+    "senses": [
+      {
+        "sense_id": 221021,
+        "meaning_vi": "vướng víu",
+        "confidence": "high",
+        "search_keywords": [
+          "vướng víu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vướng víu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2712,
+    "word": "エンダイブ",
+    "kana": "エンダイブ",
+    "senses": [
+      {
+        "sense_id": 221022,
+        "meaning_vi": "dai dẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "dai dẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dai dẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2713,
+    "word": "エンティティ",
+    "kana": "エンティティ",
+    "senses": [
+      {
+        "sense_id": 221023,
+        "meaning_vi": "thực thể",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2714,
+    "word": "エンディアン",
+    "kana": "エンディアン",
+    "senses": [
+      {
+        "sense_id": 221024,
+        "meaning_vi": "-endian (tức là endian lớn hoặc endian nhỏ)",
+        "confidence": "high",
+        "search_keywords": [
+          "-endian (tức là endian lớn hoặc endian nhỏ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "-endian (tức là endian lớn hoặc endian nhỏ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2715,
+    "word": "エンディング",
+    "kana": "エンディング",
+    "senses": [
+      {
+        "sense_id": 221025,
+        "meaning_vi": "kết thúc",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2716,
+    "word": "エントランス",
+    "kana": "エントランス",
+    "senses": [
+      {
+        "sense_id": 221026,
+        "meaning_vi": "lối vào",
+        "confidence": "high",
+        "search_keywords": [
+          "lối vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lối vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2717,
+    "word": "エントリー",
+    "kana": "エントリー",
+    "senses": [
+      {
+        "sense_id": 221027,
+        "meaning_vi": "tham gia (trong một sự kiện, cuộc thi, v.v.); xin nhập cảnh; đăng ký tham gia",
+        "confidence": "high",
+        "search_keywords": [
+          "tham gia (trong một sự kiện, cuộc thi, v.v.)",
+          "xin nhập cảnh",
+          "đăng ký tham gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham gia (trong một sự kiện, cuộc thi, v.v.); xin nhập cảnh; đăng ký tham gia",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221028,
+        "meaning_vi": "mục nhập (trên blog, trong cơ sở dữ liệu, v.v.); bài đăng",
+        "confidence": "high",
+        "search_keywords": [
+          "mục nhập (trên blog, trong cơ sở dữ liệu, v.v.)",
+          "bài đăng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục nhập (trên blog, trong cơ sở dữ liệu, v.v.); bài đăng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2718,
+    "word": "エントロピー",
+    "kana": "エントロピー",
+    "senses": [
+      {
+        "sense_id": 221029,
+        "meaning_vi": "entropy",
+        "confidence": "low",
+        "search_keywords": [
+          "entropy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "entropy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221030,
+        "meaning_vi": "entropy (lý thuyết thông tin)",
+        "confidence": "high",
+        "search_keywords": [
+          "entropy (lý thuyết thông tin)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "entropy (lý thuyết thông tin)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2719,
+    "word": "エンド",
+    "kana": "エンド",
+    "senses": [
+      {
+        "sense_id": 221031,
+        "meaning_vi": "kết thúc; kết thúc",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc; kết thúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2720,
+    "word": "エンドカーラー",
+    "kana": "エンドカーラー",
+    "senses": [
+      {
+        "sense_id": 221032,
+        "meaning_vi": "dụng cụ uốn cuối",
+        "confidence": "high",
+        "search_keywords": [
+          "dụng cụ uốn cuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dụng cụ uốn cuối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2721,
+    "word": "エンドユーザー",
+    "kana": "エンドユーザー",
+    "senses": [
+      {
+        "sense_id": 221033,
+        "meaning_vi": "người dùng cuối",
+        "confidence": "high",
+        "search_keywords": [
+          "người dùng cuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người dùng cuối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

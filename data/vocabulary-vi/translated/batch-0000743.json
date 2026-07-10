@@ -1,0 +1,491 @@
+[
+  {
+    "vocabulary_id": 18488,
+    "word": "街",
+    "kana": "がい",
+    "senses": [
+      {
+        "sense_id": 240654,
+        "meaning_vi": "đường phố; một phần tư; huyện; khu vực",
+        "confidence": "high",
+        "search_keywords": [
+          "đường phố",
+          "một phần tư",
+          "huyện",
+          "khu vực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường phố; một phần tư; huyện; khu vực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18489,
+    "word": "街角",
+    "kana": "まちかど",
+    "senses": [
+      {
+        "sense_id": 240655,
+        "meaning_vi": "góc phố",
+        "confidence": "high",
+        "search_keywords": [
+          "góc phố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "góc phố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18490,
+    "word": "街区",
+    "kana": "がいく",
+    "senses": [
+      {
+        "sense_id": 240656,
+        "meaning_vi": "khối (đất)",
+        "confidence": "high",
+        "search_keywords": [
+          "khối (đất)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khối (đất)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18491,
+    "word": "街娼",
+    "kana": "がいしょう",
+    "senses": [
+      {
+        "sense_id": 240657,
+        "meaning_vi": "gái mại dâm; con điếm; người đi đường",
+        "confidence": "high",
+        "search_keywords": [
+          "gái mại dâm",
+          "con điếm",
+          "người đi đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gái mại dâm; con điếm; người đi đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18492,
+    "word": "街図",
+    "kana": "まちず",
+    "senses": [
+      {
+        "sense_id": 240658,
+        "meaning_vi": "bản đồ đường phố",
+        "confidence": "high",
+        "search_keywords": [
+          "bản đồ đường phố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản đồ đường phố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18493,
+    "word": "街灯",
+    "kana": "がいとう",
+    "senses": [
+      {
+        "sense_id": 240659,
+        "meaning_vi": "đèn đường; đèn đường",
+        "confidence": "high",
+        "search_keywords": [
+          "đèn đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đèn đường; đèn đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18494,
+    "word": "街頭",
+    "kana": "がいとう",
+    "senses": [
+      {
+        "sense_id": 240660,
+        "meaning_vi": "(trên) đường phố",
+        "confidence": "high",
+        "search_keywords": [
+          "(trên) đường phố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(trên) đường phố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18495,
+    "word": "街道",
+    "kana": "かいどう",
+    "senses": [
+      {
+        "sense_id": 240661,
+        "meaning_vi": "đường cao tốc (đặc biệt là đường có từ thời Edo); đường chính",
+        "confidence": "high",
+        "search_keywords": [
+          "đường cao tốc (đặc biệt là đường có từ thời Edo)",
+          "đường chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường cao tốc (đặc biệt là đường có từ thời Edo); đường chính",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240662,
+        "meaning_vi": "đường cao tốc (ví dụ để thành công); con đường (để trở thành...)",
+        "confidence": "high",
+        "search_keywords": [
+          "đường cao tốc (ví dụ để thành công)",
+          "con đường (để trở thành...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường cao tốc (ví dụ để thành công); con đường (để trở thành...)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240663,
+        "meaning_vi": "tiểu khu (ở Trung Quốc)",
+        "confidence": "high",
+        "search_keywords": [
+          "tiểu khu (ở Trung Quốc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiểu khu (ở Trung Quốc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18496,
+    "word": "街路",
+    "kana": "がいろ",
+    "senses": [
+      {
+        "sense_id": 240664,
+        "meaning_vi": "đường; đường phố; đại lộ",
+        "confidence": "high",
+        "search_keywords": [
+          "đường",
+          "đường phố",
+          "đại lộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường; đường phố; đại lộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18497,
+    "word": "街路アドレス",
+    "kana": "がいろアドレス",
+    "senses": [
+      {
+        "sense_id": 240665,
+        "meaning_vi": "địa chỉ đường phố",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ đường phố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ đường phố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18498,
+    "word": "街路樹",
+    "kana": "がいろじゅ",
+    "senses": [
+      {
+        "sense_id": 240666,
+        "meaning_vi": "cây ven đường",
+        "confidence": "high",
+        "search_keywords": [
+          "cây ven đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây ven đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18499,
+    "word": "街衢",
+    "kana": "がいく",
+    "senses": [
+      {
+        "sense_id": 240667,
+        "meaning_vi": "thị trấn",
+        "confidence": "high",
+        "search_keywords": [
+          "thị trấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thị trấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18500,
+    "word": "該当",
+    "kana": "がいとう",
+    "senses": [
+      {
+        "sense_id": 240668,
+        "meaning_vi": "tương ứng với; được áp dụng cho; có liên quan tới; sắp tới; rơi xuống; đáp ứng (yêu cầu); cuộc họp (điều kiện); đủ điều kiện cho",
+        "confidence": "high",
+        "search_keywords": [
+          "tương ứng với",
+          "được áp dụng cho",
+          "có liên quan tới",
+          "sắp tới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương ứng với; được áp dụng cho; có liên quan tới; sắp tới; rơi xuống; đáp ứng (yêu cầu); cuộc họp (điều kiện); đủ điều kiện cho",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18501,
+    "word": "該当者",
+    "kana": "がいとうしゃ",
+    "senses": [
+      {
+        "sense_id": 240669,
+        "meaning_vi": "người liên quan; người có trình độ; người được đề cập; buổi tiệc; đương sự (hợp pháp)",
+        "confidence": "high",
+        "search_keywords": [
+          "người liên quan",
+          "người có trình độ",
+          "người được đề cập",
+          "buổi tiệc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người liên quan; người có trình độ; người được đề cập; buổi tiệc; đương sự (hợp pháp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18502,
+    "word": "該博",
+    "kana": "がいはく",
+    "senses": [
+      {
+        "sense_id": 240670,
+        "meaning_vi": "sự sâu sắc; (kiến thức) sâu rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự sâu sắc",
+          "(kiến thức) sâu rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự sâu sắc; (kiến thức) sâu rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18503,
+    "word": "該博な知識",
+    "kana": "がいはくなちしき",
+    "senses": [
+      {
+        "sense_id": 240671,
+        "meaning_vi": "kiến thức sâu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "kiến thức sâu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiến thức sâu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18504,
+    "word": "鎧",
+    "kana": "よろい",
+    "senses": [
+      {
+        "sense_id": 240672,
+        "meaning_vi": "áo giáp; áo giáp",
+        "confidence": "high",
+        "search_keywords": [
+          "áo giáp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo giáp; áo giáp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18505,
+    "word": "骸骨",
+    "kana": "がいこつ",
+    "senses": [
+      {
+        "sense_id": 240673,
+        "meaning_vi": "bộ xương",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ xương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ xương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18506,
+    "word": "蛙の子は蛙",
+    "kana": "かえるのこはかえる",
+    "senses": [
+      {
+        "sense_id": 240674,
+        "meaning_vi": "cha nào, con nấy; quả táo không rơi xa cây; con ếch là con ếch",
+        "confidence": "high",
+        "search_keywords": [
+          "cha nào, con nấy",
+          "quả táo không rơi xa cây",
+          "con ếch là con ếch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cha nào, con nấy; quả táo không rơi xa cây; con ếch là con ếch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18507,
+    "word": "蛙飛び",
+    "kana": "かえるとび",
+    "senses": [
+      {
+        "sense_id": 240675,
+        "meaning_vi": "(trò chơi) nhảy vọt; nhảy vọt",
+        "confidence": "high",
+        "search_keywords": [
+          "(trò chơi) nhảy vọt",
+          "nhảy vọt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(trò chơi) nhảy vọt; nhảy vọt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 117503,
+    "word": "２進数字",
+    "kana": "にしんすうじ",
+    "senses": [
+      {
+        "sense_id": 361010,
+        "meaning_vi": "chữ số nhị phân",
+        "confidence": "high",
+        "search_keywords": [
+          "chữ số nhị phân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chữ số nhị phân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117504,
+    "word": "２変量補間",
+    "kana": "にへんりょうほかん",
+    "senses": [
+      {
+        "sense_id": 361011,
+        "meaning_vi": "nội suy hai biến",
+        "confidence": "high",
+        "search_keywords": [
+          "nội suy hai biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội suy hai biến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117505,
+    "word": "８進数",
+    "kana": "はちしんすう",
+    "senses": [
+      {
+        "sense_id": 361012,
+        "meaning_vi": "bát phân; cơ sở 8",
+        "confidence": "high",
+        "search_keywords": [
+          "bát phân",
+          "cơ sở 8"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bát phân; cơ sở 8",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117506,
+    "word": "ＡＴ互換機",
+    "kana": "エーティーごかんき",
+    "senses": [
+      {
+        "sense_id": 361013,
+        "meaning_vi": "Tương thích AT",
+        "confidence": "high",
+        "search_keywords": [
+          "Tương thích AT"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tương thích AT",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117507,
+    "word": "Ｂスプライン関数",
+    "kana": "ビースプラインかんすう",
+    "senses": [
+      {
+        "sense_id": 361014,
+        "meaning_vi": "đường B-spline",
+        "confidence": "high",
+        "search_keywords": [
+          "đường B-spline"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường B-spline",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117508,
+    "word": "Ｅメール",
+    "kana": "イーメール",
+    "senses": [
+      {
+        "sense_id": 361015,
+        "meaning_vi": "email",
+        "confidence": "low",
+        "search_keywords": [
+          "email"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "email",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117509,
+    "word": "Ｅメールアドレス",
+    "kana": "イーメールアドレス",
+    "senses": [
+      {
+        "sense_id": 361016,
+        "meaning_vi": "địa chỉ email",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ email"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ email",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117510,
+    "word": "Ｉノード",
+    "kana": "アイノード",
+    "senses": [
+      {
+        "sense_id": 361017,
+        "meaning_vi": "nút i (Unix)",
+        "confidence": "high",
+        "search_keywords": [
+          "nút i (Unix)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nút i (Unix)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117511,
+    "word": "ＬＡＮエミュレーション",
+    "kana": "ランエミュレーション",
+    "senses": [
+      {
+        "sense_id": 361018,
+        "meaning_vi": "mô phỏng mạng LAN",
+        "confidence": "high",
+        "search_keywords": [
+          "mô phỏng mạng LAN"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô phỏng mạng LAN",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117512,
+    "word": "Ｘ端末",
+    "kana": "エックスたんまつ",
+    "senses": [
+      {
+        "sense_id": 361019,
+        "meaning_vi": "Xterm; Xterminal",
+        "confidence": "low",
+        "search_keywords": [
+          "Xterm",
+          "Xterminal"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Xterm; Xterminal",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117513,
+    "word": "あいまい検索",
+    "kana": "あいまいけんさく",
+    "senses": [
+      {
+        "sense_id": 361020,
+        "meaning_vi": "tham chiếu mờ; tìm kiếm mơ hồ; truy xuất mơ hồ",
+        "confidence": "high",
+        "search_keywords": [
+          "tham chiếu mờ",
+          "tìm kiếm mơ hồ",
+          "truy xuất mơ hồ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham chiếu mờ; tìm kiếm mơ hồ; truy xuất mơ hồ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117514,
+    "word": "あいまい制御",
+    "kana": "あいまいせいぎょ",
+    "senses": [
+      {
+        "sense_id": 361021,
+        "meaning_vi": "điều khiển mờ",
+        "confidence": "high",
+        "search_keywords": [
+          "điều khiển mờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều khiển mờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117515,
+    "word": "あいまい度",
+    "kana": "あいまいど",
+    "senses": [
+      {
+        "sense_id": 361022,
+        "meaning_vi": "sự mập mờ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự mập mờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự mập mờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117516,
+    "word": "あいまい理論",
+    "kana": "あいまいりろん",
+    "senses": [
+      {
+        "sense_id": 361023,
+        "meaning_vi": "lý thuyết mờ",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết mờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết mờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117517,
+    "word": "あいまい量",
+    "kana": "あいまいりょう",
+    "senses": [
+      {
+        "sense_id": 361024,
+        "meaning_vi": "sự mập mờ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự mập mờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự mập mờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117518,
+    "word": "あいまい論理",
+    "kana": "あいまいろんり",
+    "senses": [
+      {
+        "sense_id": 361025,
+        "meaning_vi": "logic mờ",
+        "confidence": "high",
+        "search_keywords": [
+          "logic mờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "logic mờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117519,
+    "word": "あて先変更",
+    "kana": "あてさきへんこう",
+    "senses": [
+      {
+        "sense_id": 361026,
+        "meaning_vi": "chuyển hướng",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển hướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển hướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117520,
+    "word": "いもづる接続",
+    "kana": "いもづるせつぞく",
+    "senses": [
+      {
+        "sense_id": 361027,
+        "meaning_vi": "kết nối chuỗi hoa cúc",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối chuỗi hoa cúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối chuỗi hoa cúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117521,
+    "word": "かな入力",
+    "kana": "かなにゅうりょく",
+    "senses": [
+      {
+        "sense_id": 361028,
+        "meaning_vi": "đầu vào kana",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu vào kana"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu vào kana",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117522,
+    "word": "けた位置",
+    "kana": "けたいち",
+    "senses": [
+      {
+        "sense_id": 361029,
+        "meaning_vi": "vị trí chữ số",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí chữ số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí chữ số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

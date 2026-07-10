@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 100500,
+    "word": "裁判官訴追委員会",
+    "kana": "さいばんかんそついいいんかい",
+    "senses": [
+      {
+        "sense_id": 341995,
+        "meaning_vi": "Ủy ban luận tội Thẩm phán",
+        "confidence": "high",
+        "search_keywords": [
+          "Ủy ban luận tội Thẩm phán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ủy ban luận tội Thẩm phán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100501,
+    "word": "訴追委員会",
+    "kana": "そついいいんかい",
+    "senses": [
+      {
+        "sense_id": 341996,
+        "meaning_vi": "ủy ban cáo trạng",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy ban cáo trạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy ban cáo trạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100502,
+    "word": "国立国会図書館",
+    "kana": "こくりつこっかいとしょかん",
+    "senses": [
+      {
+        "sense_id": 341997,
+        "meaning_vi": "Thư viện chế độ ăn uống quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "Thư viện chế độ ăn uống quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thư viện chế độ ăn uống quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100503,
+    "word": "総務大臣",
+    "kana": "そうむだいじん",
+    "senses": [
+      {
+        "sense_id": 341998,
+        "meaning_vi": "Bộ trưởng Bộ Nội vụ và Truyền thông",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Bộ Nội vụ và Truyền thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Bộ Nội vụ và Truyền thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100504,
+    "word": "財務大臣",
+    "kana": "ざいむだいじん",
+    "senses": [
+      {
+        "sense_id": 341999,
+        "meaning_vi": "Bộ trưởng Bộ Tài chính",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Bộ Tài chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Bộ Tài chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100505,
+    "word": "文部科学大臣",
+    "kana": "もんぶかがくだいじん",
+    "senses": [
+      {
+        "sense_id": 342000,
+        "meaning_vi": "Bộ trưởng Bộ Giáo dục, Văn hóa, Thể thao, Khoa học và Công nghệ",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Bộ Giáo dục, Văn hóa, Thể thao, Khoa học và Công nghệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Bộ Giáo dục, Văn hóa, Thể thao, Khoa học và Công nghệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100506,
+    "word": "厚生労働大臣",
+    "kana": "こうせいろうどうだいじん",
+    "senses": [
+      {
+        "sense_id": 342001,
+        "meaning_vi": "Bộ trưởng Bộ Y tế, Lao động và Phúc lợi",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Bộ Y tế, Lao động và Phúc lợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Bộ Y tế, Lao động và Phúc lợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100507,
+    "word": "経済産業大臣",
+    "kana": "けいざいさんぎょうだいじん",
+    "senses": [
+      {
+        "sense_id": 342002,
+        "meaning_vi": "Bộ trưởng Bộ Kinh tế, Thương mại và Công nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Bộ Kinh tế, Thương mại và Công nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Bộ Kinh tế, Thương mại và Công nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100508,
+    "word": "国土交通大臣",
+    "kana": "こくどこうつうだいじん",
+    "senses": [
+      {
+        "sense_id": 342003,
+        "meaning_vi": "Bộ trưởng Bộ Đất đai, Cơ sở hạ tầng và Giao thông vận tải",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Bộ Đất đai, Cơ sở hạ tầng và Giao thông vận tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Bộ Đất đai, Cơ sở hạ tầng và Giao thông vận tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100509,
+    "word": "沖縄北方対策担当大臣",
+    "kana": "おきなわほっぽうたいさくたんとうだいじん",
+    "senses": [
+      {
+        "sense_id": 342004,
+        "meaning_vi": "Bộ trưởng Nhà nước phụ trách các vấn đề của Okinawa và Lãnh thổ phía Bắc",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Nhà nước phụ trách các vấn đề của Okinawa và Lãnh thổ phía Bắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Nhà nước phụ trách các vấn đề của Okinawa và Lãnh thổ phía Bắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100510,
+    "word": "金融担当大臣",
+    "kana": "きんゆうたんとうだいじん",
+    "senses": [
+      {
+        "sense_id": 342005,
+        "meaning_vi": "Bộ trưởng Nhà nước phụ trách các vấn đề tài chính",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Nhà nước phụ trách các vấn đề tài chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Nhà nước phụ trách các vấn đề tài chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100511,
+    "word": "経済財政政策担当大臣",
+    "kana": "けいざいざいせいせいさくたんとうだいじん",
+    "senses": [
+      {
+        "sense_id": 342006,
+        "meaning_vi": "Bộ trưởng Nhà nước phụ trách chính sách kinh tế và tài chính",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Nhà nước phụ trách chính sách kinh tế và tài chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Nhà nước phụ trách chính sách kinh tế và tài chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100512,
+    "word": "郵政民営化担当大臣",
+    "kana": "ゆうせいみんえいかたんとうだいじん",
+    "senses": [
+      {
+        "sense_id": 342007,
+        "meaning_vi": "Bộ trưởng Nhà nước phụ trách tư nhân hóa dịch vụ bưu chính",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Nhà nước phụ trách tư nhân hóa dịch vụ bưu chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Nhà nước phụ trách tư nhân hóa dịch vụ bưu chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100513,
+    "word": "規制改革担当大臣",
+    "kana": "きせいかいかくたんとうだいじん",
+    "senses": [
+      {
+        "sense_id": 342008,
+        "meaning_vi": "Bộ trưởng Nhà nước phụ trách cải cách quy định",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Nhà nước phụ trách cải cách quy định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Nhà nước phụ trách cải cách quy định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100514,
+    "word": "規制改革",
+    "kana": "きせいかいかく",
+    "senses": [
+      {
+        "sense_id": 342009,
+        "meaning_vi": "cải cách pháp lý",
+        "confidence": "high",
+        "search_keywords": [
+          "cải cách pháp lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cải cách pháp lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100515,
+    "word": "科学技術政策担当大臣",
+    "kana": "かがくぎじゅつせいさくたんとうだいじん",
+    "senses": [
+      {
+        "sense_id": 342010,
+        "meaning_vi": "Bộ trưởng Nhà nước phụ trách chính sách khoa học và công nghệ",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Nhà nước phụ trách chính sách khoa học và công nghệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Nhà nước phụ trách chính sách khoa học và công nghệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100516,
+    "word": "特別抗告",
+    "kana": "とくべつこうこく",
+    "senses": [
+      {
+        "sense_id": 342011,
+        "meaning_vi": "lời kêu gọi kokoku đặc biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "lời kêu gọi kokoku đặc biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời kêu gọi kokoku đặc biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100517,
+    "word": "即時抗告",
+    "kana": "そくじこうこく",
+    "senses": [
+      {
+        "sense_id": 342012,
+        "meaning_vi": "kháng cáo ngay lập tức; khiếu nại ngay lập tức",
+        "confidence": "high",
+        "search_keywords": [
+          "kháng cáo ngay lập tức",
+          "khiếu nại ngay lập tức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kháng cáo ngay lập tức; khiếu nại ngay lập tức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100518,
+    "word": "高検",
+    "kana": "こうけん",
+    "senses": [
+      {
+        "sense_id": 342013,
+        "meaning_vi": "Văn phòng công tố viên cấp cao",
+        "confidence": "high",
+        "search_keywords": [
+          "Văn phòng công tố viên cấp cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Văn phòng công tố viên cấp cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 100519,
+    "word": "野戦砲",
+    "kana": "やせんほう",
+    "senses": [
+      {
+        "sense_id": 342014,
+        "meaning_vi": "súng dã chiến",
+        "confidence": "high",
+        "search_keywords": [
+          "súng dã chiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "súng dã chiến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

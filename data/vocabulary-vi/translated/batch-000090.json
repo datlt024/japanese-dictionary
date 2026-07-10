@@ -1,533 +1,492 @@
 [
-{
-"vocabulary_id": 2442,
-"word": "エクスプロージョン",
-"kana": "エクスプロージョン",
-"senses": [
-{
-"sense_id": 220694,
-"meaning_vi": "vụ nổ",
-"confidence": "high",
-"search_keywords": [
-"vụ nổ",
-"sự bùng nổ",
-"explosion"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vụ nổ hoặc sự bùng phát mạnh mẽ, đột ngột",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2443,
-"word": "エクスプロージョンショット",
-"kana": "エクスプロージョンショット",
-"senses": [
-{
-"sense_id": 220695,
-"meaning_vi": "cú đánh nổ cát",
-"confidence": "medium",
-"search_keywords": [
-"cú đánh nổ cát",
-"explosion shot",
-"bunker shot"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cú đánh golf trong bẫy cát, hất cát cùng bóng ra ngoài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2444,
-"word": "エクスプローラ",
-"kana": "エクスプローラ",
-"senses": [
-{
-"sense_id": 220696,
-"meaning_vi": "trình khám phá",
-"confidence": "medium",
-"search_keywords": [
-"trình khám phá",
-"trình duyệt tệp",
-"explorer"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người thám hiểm hoặc phần mềm dùng để duyệt, khám phá tệp và tài nguyên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2445,
-"word": "エクスペディション",
-"kana": "エクスペディション",
-"senses": [
-{
-"sense_id": 220697,
-"meaning_vi": "chuyến thám hiểm",
-"confidence": "high",
-"search_keywords": [
-"chuyến thám hiểm",
-"đoàn thám hiểm",
-"expedition"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chuyến đi hoặc đoàn đi thám hiểm, khảo sát",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2446,
-"word": "エクスペンシブ",
-"kana": "エクスペンシブ",
-"senses": [
-{
-"sense_id": 220698,
-"meaning_vi": "đắt đỏ",
-"confidence": "high",
-"search_keywords": [
-"đắt đỏ",
-"đắt tiền",
-"expensive"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có giá cao; đắt tiền",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2447,
-"word": "エクスペンス",
-"kana": "エクスペンス",
-"senses": [
-{
-"sense_id": 220699,
-"meaning_vi": "chi phí",
-"confidence": "high",
-"search_keywords": [
-"chi phí",
-"phí tổn",
-"expense"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khoản chi phí hoặc phí tổn phải trả",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2448,
-"word": "エクスポート",
-"kana": "エクスポート",
-"senses": [
-{
-"sense_id": 220700,
-"meaning_vi": "xuất khẩu",
-"confidence": "high",
-"search_keywords": [
-"xuất khẩu",
-"hàng xuất khẩu",
-"export"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc xuất khẩu hoặc hàng hóa được xuất ra nước ngoài",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220701,
-"meaning_vi": "xuất dữ liệu",
-"confidence": "high",
-"search_keywords": [
-"xuất dữ liệu",
-"export dữ liệu",
-"xuất file"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xuất dữ liệu từ chương trình hoặc hệ thống ra tệp, định dạng khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2449,
-"word": "エクセレント",
-"kana": "エクセレント",
-"senses": [
-{
-"sense_id": 220702,
-"meaning_vi": "xuất sắc",
-"confidence": "high",
-"search_keywords": [
-"xuất sắc",
-"tuyệt vời",
-"excellent"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rất tốt; xuất sắc; vượt trội",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2450,
-"word": "エクソシスト",
-"kana": "エクソシスト",
-"senses": [
-{
-"sense_id": 220703,
-"meaning_vi": "người trừ tà",
-"confidence": "high",
-"search_keywords": [
-"người trừ tà",
-"thầy trừ tà",
-"exorcist"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người thực hiện nghi thức trừ tà hoặc xua đuổi tà ma",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2451,
-"word": "エクメーネ",
-"kana": "エクメーネ",
-"senses": [
-{
-"sense_id": 220704,
-"meaning_vi": "phong trào đại kết",
-"confidence": "medium",
-"search_keywords": [
-"phong trào đại kết",
-"ecumenism",
-"đại kết Kitô giáo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tư tưởng hoặc phong trào hướng tới hiệp nhất giữa các giáo hội Kitô giáo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2452,
-"word": "エクリチュール",
-"kana": "エクリチュール",
-"senses": [
-{
-"sense_id": 220705,
-"meaning_vi": "lối viết",
-"confidence": "medium",
-"search_keywords": [
-"lối viết",
-"văn bản",
-"écriture"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lối viết, văn bản hoặc tác phẩm viết trong phê bình văn học",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2453,
-"word": "エクレア",
-"kana": "エクレア",
-"senses": [
-{
-"sense_id": 220706,
-"meaning_vi": "bánh éclair",
-"confidence": "high",
-"search_keywords": [
-"bánh éclair",
-"bánh su kem dài",
-"eclair"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bánh éclair, loại bánh su dài có nhân kem và phủ socola",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2454,
-"word": "エグジスタンス",
-"kana": "エグジスタンス",
-"senses": [
-{
-"sense_id": 220707,
-"meaning_vi": "sự tồn tại",
-"confidence": "high",
-"search_keywords": [
-"sự tồn tại",
-"hiện hữu",
-"existence"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự tồn tại hoặc trạng thái hiện hữu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2455,
-"word": "エグジット",
-"kana": "エグジット",
-"senses": [
-{
-"sense_id": 220708,
-"meaning_vi": "lối ra",
-"confidence": "high",
-"search_keywords": [
-"lối ra",
-"thoát",
-"exit"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lối ra hoặc việc thoát khỏi nơi, trạng thái, chương trình",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2456,
-"word": "エグゼクティブクラス",
-"kana": "エグゼクティブクラス",
-"senses": [
-{
-"sense_id": 220709,
-"meaning_vi": "hạng thương gia",
-"confidence": "medium",
-"search_keywords": [
-"hạng thương gia",
-"executive class",
-"hạng cao cấp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hạng dịch vụ cao cấp dành cho khách doanh nhân hoặc điều hành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2457,
-"word": "エグゼクティブ",
-"kana": "エグゼクティブ",
-"senses": [
-{
-"sense_id": 220710,
-"meaning_vi": "giám đốc điều hành",
-"confidence": "high",
-"search_keywords": [
-"giám đốc điều hành",
-"nhà quản lý cấp cao",
-"executive"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người giữ vị trí quản lý, điều hành cấp cao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2458,
-"word": "エコー",
-"kana": "エコー",
-"senses": [
-{
-"sense_id": 220711,
-"meaning_vi": "tiếng vang",
-"confidence": "high",
-"search_keywords": [
-"tiếng vang",
-"âm vang",
-"echo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "âm thanh dội lại; tiếng vang",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220712,
-"meaning_vi": "phản hồi echo",
-"confidence": "high",
-"search_keywords": [
-"phản hồi echo",
-"echo",
-"lặp lại dữ liệu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc gửi trả hoặc hiển thị lại dữ liệu đầu vào trong máy tính",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220713,
-"meaning_vi": "siêu âm",
-"confidence": "high",
-"search_keywords": [
-"siêu âm",
-"khám siêu âm",
-"ultrasound"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khám hoặc hình ảnh siêu âm trong y học",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2459,
-"word": "エコーバック",
-"kana": "エコーバック",
-"senses": [
-{
-"sense_id": 220714,
-"meaning_vi": "phản hồi echo",
-"confidence": "high",
-"search_keywords": [
-"phản hồi echo",
-"echo back",
-"gửi trả dữ liệu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chức năng gửi trả dữ liệu nhận được để kiểm tra hoặc hiển thị lại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2460,
-"word": "エコールドパリ",
-"kana": "エコールドパリ",
-"senses": [
-{
-"sense_id": 220715,
-"meaning_vi": "Trường phái Paris",
-"confidence": "high",
-"search_keywords": [
-"Trường phái Paris",
-"École de Paris",
-"School of Paris"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trường phái nghệ thuật Paris, gồm các nghệ sĩ hoạt động tại Paris đầu thế kỷ 20",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2461,
-"word": "エコサイド",
-"kana": "エコサイド",
-"senses": [
-{
-"sense_id": 220716,
-"meaning_vi": "hủy diệt môi trường",
-"confidence": "high",
-"search_keywords": [
-"hủy diệt môi trường",
-"ecocide",
-"tàn phá hệ sinh thái"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự tàn phá nghiêm trọng hệ sinh thái hoặc môi trường tự nhiên",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2442,
+    "word": "エクスプロージョン",
+    "kana": "エクスプロージョン",
+    "senses": [
+      {
+        "sense_id": 220694,
+        "meaning_vi": "vụ nổ",
+        "confidence": "high",
+        "search_keywords": [
+          "vụ nổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vụ nổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2443,
+    "word": "エクスプロージョンショット",
+    "kana": "エクスプロージョンショット",
+    "senses": [
+      {
+        "sense_id": 220695,
+        "meaning_vi": "phát nổ",
+        "confidence": "high",
+        "search_keywords": [
+          "phát nổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát nổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2444,
+    "word": "エクスプローラ",
+    "kana": "エクスプローラ",
+    "senses": [
+      {
+        "sense_id": 220696,
+        "meaning_vi": "nhà thám hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà thám hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà thám hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2445,
+    "word": "エクスペディション",
+    "kana": "エクスペディション",
+    "senses": [
+      {
+        "sense_id": 220697,
+        "meaning_vi": "cuộc thám hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc thám hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc thám hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2446,
+    "word": "エクスペンシブ",
+    "kana": "エクスペンシブ",
+    "senses": [
+      {
+        "sense_id": 220698,
+        "meaning_vi": "đắt tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "đắt tiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đắt tiền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2447,
+    "word": "エクスペンス",
+    "kana": "エクスペンス",
+    "senses": [
+      {
+        "sense_id": 220699,
+        "meaning_vi": "chi phí",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2448,
+    "word": "エクスポート",
+    "kana": "エクスポート",
+    "senses": [
+      {
+        "sense_id": 220700,
+        "meaning_vi": "xuất khẩu; hàng hóa xuất khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất khẩu",
+          "hàng hóa xuất khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất khẩu; hàng hóa xuất khẩu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220701,
+        "meaning_vi": "xuất (dữ liệu)",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất (dữ liệu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất (dữ liệu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2449,
+    "word": "エクセレント",
+    "kana": "エクセレント",
+    "senses": [
+      {
+        "sense_id": 220702,
+        "meaning_vi": "xuất sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2450,
+    "word": "エクソシスト",
+    "kana": "エクソシスト",
+    "senses": [
+      {
+        "sense_id": 220703,
+        "meaning_vi": "nhà trừ tà",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà trừ tà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà trừ tà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2451,
+    "word": "エクメーネ",
+    "kana": "エクメーネ",
+    "senses": [
+      {
+        "sense_id": 220704,
+        "meaning_vi": "chủ nghĩa đại kết",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa đại kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa đại kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2452,
+    "word": "エクリチュール",
+    "kana": "エクリチュール",
+    "senses": [
+      {
+        "sense_id": 220705,
+        "meaning_vi": "văn học; viết; tác phẩm viết",
+        "confidence": "high",
+        "search_keywords": [
+          "văn học",
+          "viết",
+          "tác phẩm viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "văn học; viết; tác phẩm viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2453,
+    "word": "エクレア",
+    "kana": "エクレア",
+    "senses": [
+      {
+        "sense_id": 220706,
+        "meaning_vi": "éclair; eclair",
+        "confidence": "low",
+        "search_keywords": [
+          "éclair",
+          "eclair"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "éclair; eclair",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2454,
+    "word": "エグジスタンス",
+    "kana": "エグジスタンス",
+    "senses": [
+      {
+        "sense_id": 220707,
+        "meaning_vi": "sự tồn tại",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tồn tại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2455,
+    "word": "エグジット",
+    "kana": "エグジット",
+    "senses": [
+      {
+        "sense_id": 220708,
+        "meaning_vi": "lối ra",
+        "confidence": "high",
+        "search_keywords": [
+          "lối ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lối ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2456,
+    "word": "エグゼクティブクラス",
+    "kana": "エグゼクティブクラス",
+    "senses": [
+      {
+        "sense_id": 220709,
+        "meaning_vi": "lớp điều hành",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp điều hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp điều hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2457,
+    "word": "エグゼクティブ",
+    "kana": "エグゼクティブ",
+    "senses": [
+      {
+        "sense_id": 220710,
+        "meaning_vi": "điều hành",
+        "confidence": "high",
+        "search_keywords": [
+          "điều hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2458,
+    "word": "エコー",
+    "kana": "エコー",
+    "senses": [
+      {
+        "sense_id": 220711,
+        "meaning_vi": "tiếng vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng vọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220712,
+        "meaning_vi": "tiếng vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng vọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220713,
+        "meaning_vi": "siêu âm (quét)",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu âm (quét)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu âm (quét)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2459,
+    "word": "エコーバック",
+    "kana": "エコーバック",
+    "senses": [
+      {
+        "sense_id": 220714,
+        "meaning_vi": "phản hồi lại",
+        "confidence": "high",
+        "search_keywords": [
+          "phản hồi lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản hồi lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2460,
+    "word": "エコールドパリ",
+    "kana": "エコールドパリ",
+    "senses": [
+      {
+        "sense_id": 220715,
+        "meaning_vi": "École de Paris; Trường học Paris",
+        "confidence": "high",
+        "search_keywords": [
+          "École de Paris",
+          "Trường học Paris"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "École de Paris; Trường học Paris",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2461,
+    "word": "エコサイド",
+    "kana": "エコサイド",
+    "senses": [
+      {
+        "sense_id": 220716,
+        "meaning_vi": "chất diệt khuẩn sinh thái",
+        "confidence": "high",
+        "search_keywords": [
+          "chất diệt khuẩn sinh thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất diệt khuẩn sinh thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

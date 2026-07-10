@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 121780,
+    "word": "メモリモジュール",
+    "kana": "メモリモジュール",
+    "senses": [
+      {
+        "sense_id": 365390,
+        "meaning_vi": "mô-đun bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "mô-đun bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô-đun bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121781,
+    "word": "メモリリーク",
+    "kana": "メモリリーク",
+    "senses": [
+      {
+        "sense_id": 365391,
+        "meaning_vi": "rò rỉ bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "rò rỉ bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rò rỉ bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121782,
+    "word": "メモリリフレッシュ",
+    "kana": "メモリリフレッシュ",
+    "senses": [
+      {
+        "sense_id": 365392,
+        "meaning_vi": "làm mới bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "làm mới bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm mới bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121783,
+    "word": "メモリロケーション",
+    "kana": "メモリロケーション",
+    "senses": [
+      {
+        "sense_id": 365393,
+        "meaning_vi": "vị trí bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121784,
+    "word": "メモリ拡張カード",
+    "kana": "メモリかくちょうカード",
+    "senses": [
+      {
+        "sense_id": 365394,
+        "meaning_vi": "thẻ mở rộng bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ mở rộng bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ mở rộng bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121785,
+    "word": "メモリ拡張ボード",
+    "kana": "メモリかくちょうボード",
+    "senses": [
+      {
+        "sense_id": 365395,
+        "meaning_vi": "bo mạch mở rộng bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "bo mạch mở rộng bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bo mạch mở rộng bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121786,
+    "word": "メモリ割り当て",
+    "kana": "メモリわりあて",
+    "senses": [
+      {
+        "sense_id": 365396,
+        "meaning_vi": "cấp phát bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "cấp phát bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấp phát bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121787,
+    "word": "メモリ管理ユニット",
+    "kana": "メモリかんりユニット",
+    "senses": [
+      {
+        "sense_id": 365397,
+        "meaning_vi": "Đơn vị quản lý bộ nhớ; MMU",
+        "confidence": "high",
+        "search_keywords": [
+          "Đơn vị quản lý bộ nhớ",
+          "MMU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đơn vị quản lý bộ nhớ; MMU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121788,
+    "word": "メモリ管理装置",
+    "kana": "メモリかんりそうち",
+    "senses": [
+      {
+        "sense_id": 365398,
+        "meaning_vi": "Đơn vị quản lý bộ nhớ; MMU",
+        "confidence": "high",
+        "search_keywords": [
+          "Đơn vị quản lý bộ nhớ",
+          "MMU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đơn vị quản lý bộ nhớ; MMU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121789,
+    "word": "メモリ効果",
+    "kana": "メモリこうか",
+    "senses": [
+      {
+        "sense_id": 365399,
+        "meaning_vi": "hiệu ứng ký ức",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệu ứng ký ức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệu ứng ký ức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121790,
+    "word": "メモリ構成",
+    "kana": "メモリこうせい",
+    "senses": [
+      {
+        "sense_id": 365400,
+        "meaning_vi": "cấu hình bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu hình bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu hình bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121791,
+    "word": "メモリ消去機能",
+    "kana": "メモリしょうきょきのう",
+    "senses": [
+      {
+        "sense_id": 365401,
+        "meaning_vi": "chức năng bộ nhớ rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng bộ nhớ rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng bộ nhớ rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121792,
+    "word": "メモリ常駐",
+    "kana": "メモリじょうちゅう",
+    "senses": [
+      {
+        "sense_id": 365402,
+        "meaning_vi": "cư trú trong ký ức",
+        "confidence": "high",
+        "search_keywords": [
+          "cư trú trong ký ức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cư trú trong ký ức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121793,
+    "word": "メモリ表示",
+    "kana": "メモリひょうじ",
+    "senses": [
+      {
+        "sense_id": 365403,
+        "meaning_vi": "chỉ báo bộ nhớ; chỉ dẫn lưu trữ",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo bộ nhớ",
+          "chỉ dẫn lưu trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo bộ nhớ; chỉ dẫn lưu trữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121794,
+    "word": "メモリ分割",
+    "kana": "メモリぶんかつ",
+    "senses": [
+      {
+        "sense_id": 365404,
+        "meaning_vi": "phân vùng bộ nhớ; phân vùng lưu trữ",
+        "confidence": "high",
+        "search_keywords": [
+          "phân vùng bộ nhớ",
+          "phân vùng lưu trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân vùng bộ nhớ; phân vùng lưu trữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121795,
+    "word": "メモリ保護",
+    "kana": "メモリほご",
+    "senses": [
+      {
+        "sense_id": 365405,
+        "meaning_vi": "bảo vệ bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo vệ bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo vệ bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121796,
+    "word": "メモリ容量",
+    "kana": "メモリようりょう",
+    "senses": [
+      {
+        "sense_id": 365406,
+        "meaning_vi": "dung lượng bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "dung lượng bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dung lượng bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121797,
+    "word": "メモリ領域",
+    "kana": "メモリりょういき",
+    "senses": [
+      {
+        "sense_id": 365407,
+        "meaning_vi": "không gian bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121798,
+    "word": "メンバー関数",
+    "kana": "メンバーかんすう",
+    "senses": [
+      {
+        "sense_id": 365408,
+        "meaning_vi": "hàm thành viên",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm thành viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm thành viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121799,
+    "word": "メンバセット",
+    "kana": "メンバセット",
+    "senses": [
+      {
+        "sense_id": 365409,
+        "meaning_vi": "tập hợp thành viên",
+        "confidence": "high",
+        "search_keywords": [
+          "tập hợp thành viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập hợp thành viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

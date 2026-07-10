@@ -1,0 +1,448 @@
+[
+  {
+    "vocabulary_id": 124527,
+    "word": "冗長電源",
+    "kana": "じょうちょうでんげん",
+    "senses": [
+      {
+        "sense_id": 368159,
+        "meaning_vi": "nguồn điện dự phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn điện dự phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn điện dự phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124528,
+    "word": "冗長符号",
+    "kana": "じょうちょうふごう",
+    "senses": [
+      {
+        "sense_id": 368160,
+        "meaning_vi": "mã dự phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "mã dự phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã dự phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124529,
+    "word": "冗長量",
+    "kana": "じょうちょうりょう",
+    "senses": [
+      {
+        "sense_id": 368161,
+        "meaning_vi": "sự dư thừa (trong lý thuyết thông tin)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự dư thừa (trong lý thuyết thông tin)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự dư thừa (trong lý thuyết thông tin)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124530,
+    "word": "剰余検査",
+    "kana": "じょうよけんさ",
+    "senses": [
+      {
+        "sense_id": 368162,
+        "meaning_vi": "kiểm tra modulo N; kiểm tra dư lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra modulo N",
+          "kiểm tra dư lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra modulo N; kiểm tra dư lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124531,
+    "word": "常駐型プログラム",
+    "kana": "じょうちゅうがたプログラム",
+    "senses": [
+      {
+        "sense_id": 368163,
+        "meaning_vi": "chấm dứt và ở lại chương trình thường trú",
+        "confidence": "high",
+        "search_keywords": [
+          "chấm dứt và ở lại chương trình thường trú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấm dứt và ở lại chương trình thường trú",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124532,
+    "word": "常駐終了型プログラム",
+    "kana": "じょうちゅうしゅうりょうけいプログラム",
+    "senses": [
+      {
+        "sense_id": 368164,
+        "meaning_vi": "chương trình chấm dứt và lưu trú; chương trình TSR",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình chấm dứt và lưu trú",
+          "chương trình TSR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình chấm dứt và lưu trú; chương trình TSR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124533,
+    "word": "情報オブジェクト",
+    "kana": "じょうほうオブジェクト",
+    "senses": [
+      {
+        "sense_id": 368165,
+        "meaning_vi": "đối tượng thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "đối tượng thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối tượng thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124534,
+    "word": "情報センター",
+    "kana": "じょうほうセンター",
+    "senses": [
+      {
+        "sense_id": 368166,
+        "meaning_vi": "trung tâm thông tin; trung tâm tài liệu; cơ quan thanh toán bù trừ thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "trung tâm thông tin",
+          "trung tâm tài liệu",
+          "cơ quan thanh toán bù trừ thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung tâm thông tin; trung tâm tài liệu; cơ quan thanh toán bù trừ thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124535,
+    "word": "情報ソース",
+    "kana": "じょうほうソース",
+    "senses": [
+      {
+        "sense_id": 368167,
+        "meaning_vi": "nguồn thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124536,
+    "word": "情報チャネル",
+    "kana": "じょうほうチャネル",
+    "senses": [
+      {
+        "sense_id": 368168,
+        "meaning_vi": "kênh mang (trong ISDN); kênh liên lạc",
+        "confidence": "high",
+        "search_keywords": [
+          "kênh mang (trong ISDN)",
+          "kênh liên lạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kênh mang (trong ISDN); kênh liên lạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124537,
+    "word": "情報トラック",
+    "kana": "じょうほうトラック",
+    "senses": [
+      {
+        "sense_id": 368169,
+        "meaning_vi": "theo dõi thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "theo dõi thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo dõi thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124538,
+    "word": "情報ハイウェイ",
+    "kana": "じょうほうハイウェイ",
+    "senses": [
+      {
+        "sense_id": 368170,
+        "meaning_vi": "đường cao tốc thông tin; siêu xa lộ thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "đường cao tốc thông tin",
+          "siêu xa lộ thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường cao tốc thông tin; siêu xa lộ thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124539,
+    "word": "情報フロー",
+    "kana": "じょうほうフロー",
+    "senses": [
+      {
+        "sense_id": 368171,
+        "meaning_vi": "luồng thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "luồng thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luồng thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124540,
+    "word": "情報ブロック",
+    "kana": "じょうほうブロック",
+    "senses": [
+      {
+        "sense_id": 368172,
+        "meaning_vi": "khối thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "khối thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khối thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124541,
+    "word": "情報ベース",
+    "kana": "じょうほうベース",
+    "senses": [
+      {
+        "sense_id": 368173,
+        "meaning_vi": "cơ sở thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124542,
+    "word": "情報革命",
+    "kana": "じょうほうかくめい",
+    "senses": [
+      {
+        "sense_id": 368174,
+        "meaning_vi": "cuộc cách mạng thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc cách mạng thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc cách mạng thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124543,
+    "word": "情報管理",
+    "kana": "じょうほうかんり",
+    "senses": [
+      {
+        "sense_id": 368175,
+        "meaning_vi": "quản lý thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124544,
+    "word": "情報基盤",
+    "kana": "じょうほうきばん",
+    "senses": [
+      {
+        "sense_id": 368176,
+        "meaning_vi": "cơ sở thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124545,
+    "word": "情報群",
+    "kana": "じょうほうぐん",
+    "senses": [
+      {
+        "sense_id": 368177,
+        "meaning_vi": "nhóm thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124546,
+    "word": "情報検索代行業者",
+    "kana": "じょうほうけんさくだいこうぎょうしゃ",
+    "senses": [
+      {
+        "sense_id": 368178,
+        "meaning_vi": "môi giới thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "môi giới thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môi giới thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,634 +1,590 @@
 [
-{
-"vocabulary_id": 1278,
-"word": "アイラッシュカーラー",
-"kana": "アイラッシュカーラー",
-"senses": [
-{
-"sense_id": 219360,
-"meaning_vi": "kẹp mi",
-"confidence": "high",
-"search_keywords": [
-"kẹp mi",
-"dụng cụ uốn mi",
-"eyelash curler"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dụng cụ dùng để kẹp và uốn cong lông mi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1279,
-"word": "アイリス",
-"kana": "アイリス",
-"senses": [
-{
-"sense_id": 219361,
-"meaning_vi": "hoa diên vĩ",
-"confidence": "medium",
-"search_keywords": [
-"hoa diên vĩ",
-"mống mắt",
-"iris"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hoa diên vĩ; mống mắt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1280,
-"word": "アイロニー",
-"kana": "アイロニー",
-"senses": [
-{
-"sense_id": 219362,
-"meaning_vi": "mỉa mai",
-"confidence": "high",
-"search_keywords": [
-"mỉa mai",
-"châm biếm",
-"irony"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự mỉa mai; lời nói hoặc tình huống mang tính châm biếm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1281,
-"word": "アイロニカル",
-"kana": "アイロニカル",
-"senses": [
-{
-"sense_id": 219363,
-"meaning_vi": "mỉa mai",
-"confidence": "high",
-"search_keywords": [
-"mỉa mai",
-"châm biếm",
-"ironic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có tính mỉa mai; mang sắc thái châm biếm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1282,
-"word": "アイロン",
-"kana": "アイロン",
-"senses": [
-{
-"sense_id": 219364,
-"meaning_vi": "bàn là",
-"confidence": "high",
-"search_keywords": [
-"bàn là",
-"bàn ủi",
-"iron"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bàn là; dụng cụ dùng để ủi quần áo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219365,
-"meaning_vi": "máy uốn tóc",
-"confidence": "high",
-"search_keywords": [
-"máy uốn tóc",
-"máy kẹp tóc",
-"hair iron"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "máy uốn hoặc kẹp tóc bằng nhiệt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1283,
-"word": "アインスタイニウム",
-"kana": "アインスタイニウム",
-"senses": [
-{
-"sense_id": 219366,
-"meaning_vi": "einsteini",
-"confidence": "high",
-"search_keywords": [
-"einsteini",
-"einsteinium",
-"Es"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "einsteini; nguyên tố hóa học ký hiệu Es",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1284,
-"word": "アウストラロピテクス",
-"kana": "アウストラロピテクス",
-"senses": [
-{
-"sense_id": 219367,
-"meaning_vi": "Australopithecus",
-"confidence": "high",
-"search_keywords": [
-"Australopithecus",
-"người vượn phương Nam"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Australopithecus; chi người vượn phương Nam thời tiền sử",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1285,
-"word": "アウター",
-"kana": "アウター",
-"senses": [
-{
-"sense_id": 219368,
-"meaning_vi": "bên ngoài",
-"confidence": "high",
-"search_keywords": [
-"bên ngoài",
-"ngoài",
-"outer"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bên ngoài; thuộc phần ngoài",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219369,
-"meaning_vi": "áo khoác ngoài",
-"confidence": "high",
-"search_keywords": [
-"áo khoác ngoài",
-"áo ngoài",
-"outerwear"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "áo mặc ngoài như áo khoác, áo jacket",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1286,
-"word": "アウターウェア",
-"kana": "アウターウェア",
-"senses": [
-{
-"sense_id": 219370,
-"meaning_vi": "áo khoác ngoài",
-"confidence": "high",
-"search_keywords": [
-"áo khoác ngoài",
-"áo ngoài",
-"outerwear"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trang phục mặc ngoài như áo khoác, áo jacket",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1287,
-"word": "アウタースペース",
-"kana": "アウタースペース",
-"senses": [
-{
-"sense_id": 219371,
-"meaning_vi": "không gian vũ trụ",
-"confidence": "high",
-"search_keywords": [
-"không gian vũ trụ",
-"vũ trụ",
-"outer space"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không gian bên ngoài khí quyển Trái Đất",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1288,
-"word": "アウタルキー",
-"kana": "アウタルキー",
-"senses": [
-{
-"sense_id": 219372,
-"meaning_vi": "tự cấp tự túc",
-"confidence": "medium",
-"search_keywords": [
-"tự cấp tự túc",
-"nền kinh tế tự cung tự cấp",
-"autarchy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chế độ hoặc chính sách tự cấp tự túc, ít phụ thuộc bên ngoài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1289,
-"word": "アウテリア",
-"kana": "アウテリア",
-"senses": [
-{
-"sense_id": 219373,
-"meaning_vi": "ngoại thất",
-"confidence": "medium",
-"search_keywords": [
-"ngoại thất",
-"bên ngoài công trình",
-"exterior"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngoại thất; phần bên ngoài của tòa nhà, từ hiếm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1290,
-"word": "ＯＵＴ",
-"kana": "アウト",
-"senses": [
-{
-"sense_id": 219374,
-"meaning_vi": "bóng ngoài sân",
-"confidence": "high",
-"search_keywords": [
-"bóng ngoài sân",
-"bóng ra ngoài",
-"out"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bóng ra ngoài vạch trong tennis hoặc các môn thể thao tương tự",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219375,
-"meaning_vi": "out",
-"confidence": "high",
-"search_keywords": [
-"out bóng chày",
-"loại người đánh",
-"putout"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "out trong bóng chày; tình huống người đánh hoặc người chạy bị loại",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219376,
-"meaning_vi": "bên ngoài",
-"confidence": "high",
-"search_keywords": [
-"bên ngoài",
-"ngoài",
-"external"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bên ngoài; thuộc phía ngoài",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219377,
-"meaning_vi": "lối ra",
-"confidence": "high",
-"search_keywords": [
-"lối ra",
-"đường ra",
-"exit"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lối ra; thường thấy trên biển báo lối ra bãi đỗ xe",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219378,
-"meaning_vi": "chín hố đầu",
-"confidence": "high",
-"search_keywords": [
-"chín hố đầu",
-"front nine",
-"golf"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chín hố đầu trong sân golf 18 hố",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219379,
-"meaning_vi": "không được",
-"confidence": "high",
-"search_keywords": [
-"không được",
-"không chấp nhận được",
-"bị loại"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không được; không chấp nhận được; quá giới hạn; bị loại",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219380,
-"meaning_vi": "giờ trả phòng",
-"confidence": "high",
-"search_keywords": [
-"giờ trả phòng",
-"check-out",
-"trả phòng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giờ trả phòng; cách nói tắt của check-out time",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1291,
-"word": "アウトウェア",
-"kana": "アウトウェア",
-"senses": [
-{
-"sense_id": 219381,
-"meaning_vi": "áo khoác ngoài",
-"confidence": "medium",
-"search_keywords": [
-"áo khoác ngoài",
-"áo ngoài",
-"outerwear"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trang phục mặc ngoài; từ hiếm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1292,
-"word": "アウトオブデート",
-"kana": "アウトオブデート",
-"senses": [
-{
-"sense_id": 219382,
-"meaning_vi": "lỗi thời",
-"confidence": "high",
-"search_keywords": [
-"lỗi thời",
-"cũ kỹ",
-"outdated"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi thời; không còn hợp thời hoặc cập nhật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1293,
-"word": "アウトオブバウンズ",
-"kana": "アウトオブバウンズ",
-"senses": [
-{
-"sense_id": 219383,
-"meaning_vi": "ngoài biên",
-"confidence": "high",
-"search_keywords": [
-"ngoài biên",
-"ra ngoài sân",
-"out of bounds"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngoài biên; ra khỏi phạm vi sân hoặc khu vực hợp lệ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1294,
-"word": "アウトオブファッション",
-"kana": "アウトオブファッション",
-"senses": [
-{
-"sense_id": 219384,
-"meaning_vi": "lỗi mốt",
-"confidence": "high",
-"search_keywords": [
-"lỗi mốt",
-"hết thời trang",
-"out of fashion"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi mốt; không còn hợp thời trang",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1295,
-"word": "アウトカウント",
-"kana": "アウトカウント",
-"senses": [
-{
-"sense_id": 219385,
-"meaning_vi": "số out",
-"confidence": "high",
-"search_keywords": [
-"số out",
-"số lượt bị loại",
-"out count"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "số người đánh hoặc người chạy đã bị loại trong bóng chày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1296,
-"word": "アウトコース",
-"kana": "アウトコース",
-"senses": [
-{
-"sense_id": 219386,
-"meaning_vi": "làn ngoài",
-"confidence": "high",
-"search_keywords": [
-"làn ngoài",
-"đường chạy ngoài",
-"outside track"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làn hoặc đường chạy phía ngoài",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219387,
-"meaning_vi": "bóng ngoài",
-"confidence": "high",
-"search_keywords": [
-"bóng ngoài",
-"cú ném ngoài",
-"outside pitch"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cú ném bóng ở phía ngoài vùng đánh trong bóng chày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1297,
-"word": "アウトサイダー",
-"kana": "アウトサイダー",
-"senses": [
-{
-"sense_id": 219388,
-"meaning_vi": "người ngoài cuộc",
-"confidence": "high",
-"search_keywords": [
-"người ngoài cuộc",
-"người ngoài",
-"outsider"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người ngoài cuộc; người không thuộc nhóm hoặc tổ chức",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1278,
+    "word": "アイラッシュカーラー",
+    "kana": "アイラッシュカーラー",
+    "senses": [
+      {
+        "sense_id": 219360,
+        "meaning_vi": "dụng cụ uốn mi",
+        "confidence": "high",
+        "search_keywords": [
+          "dụng cụ uốn mi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dụng cụ uốn mi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1279,
+    "word": "アイリス",
+    "kana": "アイリス",
+    "senses": [
+      {
+        "sense_id": 219361,
+        "meaning_vi": "mống mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "mống mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mống mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1280,
+    "word": "アイロニー",
+    "kana": "アイロニー",
+    "senses": [
+      {
+        "sense_id": 219362,
+        "meaning_vi": "sự mỉa mai",
+        "confidence": "high",
+        "search_keywords": [
+          "sự mỉa mai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự mỉa mai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1281,
+    "word": "アイロニカル",
+    "kana": "アイロニカル",
+    "senses": [
+      {
+        "sense_id": 219363,
+        "meaning_vi": "mỉa mai; mỉa mai",
+        "confidence": "high",
+        "search_keywords": [
+          "mỉa mai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỉa mai; mỉa mai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1282,
+    "word": "アイロン",
+    "kana": "アイロン",
+    "senses": [
+      {
+        "sense_id": 219364,
+        "meaning_vi": "bàn ủi (để ủi quần áo)",
+        "confidence": "high",
+        "search_keywords": [
+          "bàn ủi (để ủi quần áo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bàn ủi (để ủi quần áo)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219365,
+        "meaning_vi": "sắt tóc; kẹp tóc; kẹp uốn tóc",
+        "confidence": "high",
+        "search_keywords": [
+          "sắt tóc",
+          "kẹp tóc",
+          "kẹp uốn tóc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắt tóc; kẹp tóc; kẹp uốn tóc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1283,
+    "word": "アインスタイニウム",
+    "kana": "アインスタイニウム",
+    "senses": [
+      {
+        "sense_id": 219366,
+        "meaning_vi": "einsteini (Es)",
+        "confidence": "high",
+        "search_keywords": [
+          "einsteini (Es)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "einsteini (Es)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1284,
+    "word": "アウストラロピテクス",
+    "kana": "アウストラロピテクス",
+    "senses": [
+      {
+        "sense_id": 219367,
+        "meaning_vi": "Australopithecus",
+        "confidence": "low",
+        "search_keywords": [
+          "Australopithecus"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Australopithecus",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1285,
+    "word": "アウター",
+    "kana": "アウター",
+    "senses": [
+      {
+        "sense_id": 219368,
+        "meaning_vi": "bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên ngoài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219369,
+        "meaning_vi": "áo khoác ngoài; áo ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "áo khoác ngoài",
+          "áo ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo khoác ngoài; áo ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1286,
+    "word": "アウターウェア",
+    "kana": "アウターウェア",
+    "senses": [
+      {
+        "sense_id": 219370,
+        "meaning_vi": "áo khoác ngoài; áo ngoài; áo choàng; áo khoác",
+        "confidence": "high",
+        "search_keywords": [
+          "áo khoác ngoài",
+          "áo ngoài",
+          "áo choàng",
+          "áo khoác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo khoác ngoài; áo ngoài; áo choàng; áo khoác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1287,
+    "word": "アウタースペース",
+    "kana": "アウタースペース",
+    "senses": [
+      {
+        "sense_id": 219371,
+        "meaning_vi": "không gian bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1288,
+    "word": "アウタルキー",
+    "kana": "アウタルキー",
+    "senses": [
+      {
+        "sense_id": 219372,
+        "meaning_vi": "chế độ tự trị",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ tự trị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ tự trị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1289,
+    "word": "アウテリア",
+    "kana": "アウテリア",
+    "senses": [
+      {
+        "sense_id": 219373,
+        "meaning_vi": "bên ngoài (của một tòa nhà)",
+        "confidence": "high",
+        "search_keywords": [
+          "bên ngoài (của một tòa nhà)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên ngoài (của một tòa nhà)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1290,
+    "word": "ＯＵＴ",
+    "kana": "アウト",
+    "senses": [
+      {
+        "sense_id": 219374,
+        "meaning_vi": "ra ngoài (của một quả bóng; trong quần vợt, v.v.); bên ngoài dòng",
+        "confidence": "high",
+        "search_keywords": [
+          "ra ngoài (của một quả bóng",
+          "trong quần vợt, v.v.)",
+          "bên ngoài dòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ra ngoài (của một quả bóng; trong quần vợt, v.v.); bên ngoài dòng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219375,
+        "meaning_vi": "ngoài; bỏ đi",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoài",
+          "bỏ đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoài; bỏ đi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219376,
+        "meaning_vi": "bên ngoài; bên ngoài; bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên ngoài; bên ngoài; bên ngoài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219377,
+        "meaning_vi": "ra; thoát khỏi đây",
+        "confidence": "high",
+        "search_keywords": [
+          "ra",
+          "thoát khỏi đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ra; thoát khỏi đây",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219378,
+        "meaning_vi": "chín phía trước",
+        "confidence": "high",
+        "search_keywords": [
+          "chín phía trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chín phía trước",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219379,
+        "meaning_vi": "không tốt; không thể chấp nhận được; ngoài dòng; qua; hoàn thành; bị loại",
+        "confidence": "high",
+        "search_keywords": [
+          "không tốt",
+          "không thể chấp nhận được",
+          "ngoài dòng",
+          "qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không tốt; không thể chấp nhận được; ngoài dòng; qua; hoàn thành; bị loại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219380,
+        "meaning_vi": "giờ trả phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "giờ trả phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giờ trả phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1291,
+    "word": "アウトウェア",
+    "kana": "アウトウェア",
+    "senses": [
+      {
+        "sense_id": 219381,
+        "meaning_vi": "áo khoác ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "áo khoác ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo khoác ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1292,
+    "word": "アウトオブデート",
+    "kana": "アウトオブデート",
+    "senses": [
+      {
+        "sense_id": 219382,
+        "meaning_vi": "lỗi thời; lỗi thời",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi thời; lỗi thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1293,
+    "word": "アウトオブバウンズ",
+    "kana": "アウトオブバウンズ",
+    "senses": [
+      {
+        "sense_id": 219383,
+        "meaning_vi": "ngoài giới hạn",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoài giới hạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoài giới hạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1294,
+    "word": "アウトオブファッション",
+    "kana": "アウトオブファッション",
+    "senses": [
+      {
+        "sense_id": 219384,
+        "meaning_vi": "lỗi thời",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1295,
+    "word": "アウトカウント",
+    "kana": "アウトカウント",
+    "senses": [
+      {
+        "sense_id": 219385,
+        "meaning_vi": "số lượng người đánh đã hết",
+        "confidence": "high",
+        "search_keywords": [
+          "số lượng người đánh đã hết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số lượng người đánh đã hết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1296,
+    "word": "アウトコース",
+    "kana": "アウトコース",
+    "senses": [
+      {
+        "sense_id": 219386,
+        "meaning_vi": "đường ray bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "đường ray bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường ray bên ngoài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219387,
+        "meaning_vi": "sân ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "sân ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sân ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1297,
+    "word": "アウトサイダー",
+    "kana": "アウトサイダー",
+    "senses": [
+      {
+        "sense_id": 219388,
+        "meaning_vi": "người ngoài cuộc",
+        "confidence": "high",
+        "search_keywords": [
+          "người ngoài cuộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ngoài cuộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

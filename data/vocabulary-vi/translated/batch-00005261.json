@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 125779,
+    "word": "内部クロック同期",
+    "kana": "ないぶクロックどうき",
+    "senses": [
+      {
+        "sense_id": 369422,
+        "meaning_vi": "xung nhịp nội bộ (đồng bộ hóa đồng hồ)",
+        "confidence": "high",
+        "search_keywords": [
+          "xung nhịp nội bộ (đồng bộ hóa đồng hồ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xung nhịp nội bộ (đồng bộ hóa đồng hồ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125780,
+    "word": "内部コマンド",
+    "kana": "ないぶコマンド",
+    "senses": [
+      {
+        "sense_id": 369423,
+        "meaning_vi": "lệnh nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125781,
+    "word": "内部データ",
+    "kana": "ないぶデータ",
+    "senses": [
+      {
+        "sense_id": 369424,
+        "meaning_vi": "dữ liệu nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125782,
+    "word": "内部データ項目",
+    "kana": "ないぶデータこうもく",
+    "senses": [
+      {
+        "sense_id": 369425,
+        "meaning_vi": "mục dữ liệu nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "mục dữ liệu nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục dữ liệu nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125783,
+    "word": "内部バッファ",
+    "kana": "ないぶバッファ",
+    "senses": [
+      {
+        "sense_id": 369426,
+        "meaning_vi": "bộ đệm nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đệm nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đệm nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125784,
+    "word": "内部ファイル",
+    "kana": "ないぶファイル",
+    "senses": [
+      {
+        "sense_id": 369427,
+        "meaning_vi": "tập tin nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125785,
+    "word": "内部ファイルサービス",
+    "kana": "ないぶファイルサービス",
+    "senses": [
+      {
+        "sense_id": 369428,
+        "meaning_vi": "dịch vụ tập tin nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ tập tin nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ tập tin nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125786,
+    "word": "内部ファイル結合子",
+    "kana": "ないぶファイルけつごうし",
+    "senses": [
+      {
+        "sense_id": 369429,
+        "meaning_vi": "trình kết nối tập tin nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "trình kết nối tập tin nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình kết nối tập tin nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125787,
+    "word": "内部メモリ",
+    "kana": "ないぶメモリ",
+    "senses": [
+      {
+        "sense_id": 369430,
+        "meaning_vi": "lưu trữ nội bộ; bộ nhớ trong",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ nội bộ",
+          "bộ nhớ trong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ nội bộ; bộ nhớ trong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125788,
+    "word": "内部ラベル",
+    "kana": "ないぶラベル",
+    "senses": [
+      {
+        "sense_id": 369431,
+        "meaning_vi": "nhãn nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "nhãn nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhãn nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125789,
+    "word": "内部割り込み",
+    "kana": "ないぶわりこみ",
+    "senses": [
+      {
+        "sense_id": 369432,
+        "meaning_vi": "ngắt nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "ngắt nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngắt nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125790,
+    "word": "内部記憶",
+    "kana": "ないぶきおく",
+    "senses": [
+      {
+        "sense_id": 369433,
+        "meaning_vi": "lưu trữ nội bộ; bộ nhớ trong",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ nội bộ",
+          "bộ nhớ trong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ nội bộ; bộ nhớ trong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125791,
+    "word": "内部記憶装置",
+    "kana": "ないぶきおくそうち",
+    "senses": [
+      {
+        "sense_id": 369434,
+        "meaning_vi": "thiết bị lưu trữ nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị lưu trữ nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị lưu trữ nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125792,
+    "word": "内部参照",
+    "kana": "ないぶさんしょう",
+    "senses": [
+      {
+        "sense_id": 369435,
+        "meaning_vi": "tham khảo nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "tham khảo nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham khảo nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125793,
+    "word": "内部手続",
+    "kana": "ないぶてつづき",
+    "senses": [
+      {
+        "sense_id": 369436,
+        "meaning_vi": "thủ tục nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "thủ tục nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ tục nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125794,
+    "word": "内部処理",
+    "kana": "ないぶしょり",
+    "senses": [
+      {
+        "sense_id": 369437,
+        "meaning_vi": "xử lý nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125795,
+    "word": "内部詳細",
+    "kana": "ないぶしょうさい",
+    "senses": [
+      {
+        "sense_id": 369438,
+        "meaning_vi": "nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125796,
+    "word": "内部状態",
+    "kana": "ないぶじょうたい",
+    "senses": [
+      {
+        "sense_id": 369439,
+        "meaning_vi": "trạng thái nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "trạng thái nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạng thái nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125797,
+    "word": "内部副プログラム",
+    "kana": "ないぶふくプログラム",
+    "senses": [
+      {
+        "sense_id": 369440,
+        "meaning_vi": "chương trình con nội bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình con nội bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình con nội bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125798,
+    "word": "内部変数",
+    "kana": "ないぶへんすう",
+    "senses": [
+      {
+        "sense_id": 369441,
+        "meaning_vi": "biến cục bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "biến cục bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến cục bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

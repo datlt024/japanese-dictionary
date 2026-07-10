@@ -1,0 +1,476 @@
+[
+  {
+    "vocabulary_id": 159031,
+    "word": "成り行き任せ",
+    "kana": "なりゆきまかせ",
+    "senses": [
+      {
+        "sense_id": 405638,
+        "meaning_vi": "để lại một cái gì đó cho cơ hội; trôi dạt; (được) hạnh phúc-may mắn",
+        "confidence": "high",
+        "search_keywords": [
+          "để lại một cái gì đó cho cơ hội",
+          "trôi dạt",
+          "(được) hạnh phúc-may mắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để lại một cái gì đó cho cơ hội; trôi dạt; (được) hạnh phúc-may mắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159032,
+    "word": "米株",
+    "kana": "べいかぶ",
+    "senses": [
+      {
+        "sense_id": 405639,
+        "meaning_vi": "chứng khoán Mỹ",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng khoán Mỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng khoán Mỹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159033,
+    "word": "券文",
+    "kana": "けんもん",
+    "senses": [
+      {
+        "sense_id": 405640,
+        "meaning_vi": "trái phiếu; chứng thư; hợp đồng",
+        "confidence": "high",
+        "search_keywords": [
+          "trái phiếu",
+          "chứng thư",
+          "hợp đồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái phiếu; chứng thư; hợp đồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159034,
+    "word": "本券",
+    "kana": "ほんけん",
+    "senses": [
+      {
+        "sense_id": 405641,
+        "meaning_vi": "chứng chỉ cổ phiếu; trái phiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng chỉ cổ phiếu",
+          "trái phiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng chỉ cổ phiếu; trái phiếu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 405642,
+        "meaning_vi": "vé này; vé chính thức",
+        "confidence": "high",
+        "search_keywords": [
+          "vé này",
+          "vé chính thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vé này; vé chính thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159035,
+    "word": "外国株",
+    "kana": "がいこくかぶ",
+    "senses": [
+      {
+        "sense_id": 405643,
+        "meaning_vi": "chứng khoán nước ngoài; vốn cổ phần nước ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng khoán nước ngoài",
+          "vốn cổ phần nước ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng khoán nước ngoài; vốn cổ phần nước ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159036,
+    "word": "外国米",
+    "kana": "がいこくまい",
+    "senses": [
+      {
+        "sense_id": 405644,
+        "meaning_vi": "gạo nhập khẩu; gạo ngoại",
+        "confidence": "high",
+        "search_keywords": [
+          "gạo nhập khẩu",
+          "gạo ngoại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gạo nhập khẩu; gạo ngoại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159037,
+    "word": "外国為替及び外国貿易管理法",
+    "kana": "がいこくかわせおよびがいこくぼうえきかんりほう",
+    "senses": [
+      {
+        "sense_id": 405646,
+        "meaning_vi": "Luật ngoại hối và kiểm soát ngoại thương",
+        "confidence": "high",
+        "search_keywords": [
+          "Luật ngoại hối và kiểm soát ngoại thương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Luật ngoại hối và kiểm soát ngoại thương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159038,
+    "word": "外国使節",
+    "kana": "がいこくしせつ",
+    "senses": [
+      {
+        "sense_id": 405647,
+        "meaning_vi": "phái đoàn nước ngoài; cơ quan đại diện nước ngoài; đặc phái viên ngoại giao",
+        "confidence": "high",
+        "search_keywords": [
+          "phái đoàn nước ngoài",
+          "cơ quan đại diện nước ngoài",
+          "đặc phái viên ngoại giao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phái đoàn nước ngoài; cơ quan đại diện nước ngoài; đặc phái viên ngoại giao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159039,
+    "word": "外国人持ち株比率",
+    "kana": "がいこくじんもちかぶひりつ",
+    "senses": [
+      {
+        "sense_id": 405648,
+        "meaning_vi": "tỷ lệ sở hữu cổ phần nước ngoài; tỷ lệ sở hữu nước ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ sở hữu cổ phần nước ngoài",
+          "tỷ lệ sở hữu nước ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ sở hữu cổ phần nước ngoài; tỷ lệ sở hữu nước ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159040,
+    "word": "在留カード",
+    "kana": "ざいりゅうカード",
+    "senses": [
+      {
+        "sense_id": 405649,
+        "meaning_vi": "thẻ cư trú; thẻ cư trú",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ cư trú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ cư trú; thẻ cư trú",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159041,
+    "word": "金属灰",
+    "kana": "きんぞくかい",
+    "senses": [
+      {
+        "sense_id": 405650,
+        "meaning_vi": "calx; dư lượng kim loại",
+        "confidence": "high",
+        "search_keywords": [
+          "calx",
+          "dư lượng kim loại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "calx; dư lượng kim loại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159042,
+    "word": "エクステンダー",
+    "kana": "エクステンダー",
+    "senses": [
+      {
+        "sense_id": 405651,
+        "meaning_vi": "bộ mở rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ mở rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ mở rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159043,
+    "word": "在庫状況",
+    "kana": "ざいこじょうきょう",
+    "senses": [
+      {
+        "sense_id": 405652,
+        "meaning_vi": "tình trạng hàng tồn kho; tình trạng hàng tồn kho; mức tồn kho",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng hàng tồn kho",
+          "mức tồn kho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng hàng tồn kho; tình trạng hàng tồn kho; mức tồn kho",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159044,
+    "word": "尖み",
+    "kana": "コスミ",
+    "senses": [
+      {
+        "sense_id": 405653,
+        "meaning_vi": "kosumi; di chuyển chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "kosumi",
+          "di chuyển chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kosumi; di chuyển chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159045,
+    "word": "尖む",
+    "kana": "コスむ",
+    "senses": [
+      {
+        "sense_id": 405654,
+        "meaning_vi": "để thực hiện một di chuyển theo đường chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "để thực hiện một di chuyển theo đường chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thực hiện một di chuyển theo đường chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159046,
+    "word": "撮棒",
+    "kana": "さいぼう",
+    "senses": [
+      {
+        "sense_id": 405655,
+        "meaning_vi": "cây gậy dùng để xua đuổi tai họa (thường làm bằng ô liu nhựa ruồi)",
+        "confidence": "high",
+        "search_keywords": [
+          "cây gậy dùng để xua đuổi tai họa (thường làm bằng ô liu nhựa ruồi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây gậy dùng để xua đuổi tai họa (thường làm bằng ô liu nhựa ruồi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159047,
+    "word": "尖圭コンジローマ",
+    "kana": "せんけいコンジローマ",
+    "senses": [
+      {
+        "sense_id": 405656,
+        "meaning_vi": "mụn cóc sinh dục; mụn cóc hoa liễu; mụn cóc hậu môn; condylomata acuminata",
+        "confidence": "high",
+        "search_keywords": [
+          "mụn cóc sinh dục",
+          "mụn cóc hoa liễu",
+          "mụn cóc hậu môn",
+          "condylomata acuminata"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mụn cóc sinh dục; mụn cóc hoa liễu; mụn cóc hậu môn; condylomata acuminata",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159048,
+    "word": "尖形",
+    "kana": "せんけい",
+    "senses": [
+      {
+        "sense_id": 405657,
+        "meaning_vi": "nhọn; nhọn; nhọn hoắt",
+        "confidence": "high",
+        "search_keywords": [
+          "nhọn",
+          "nhọn hoắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhọn; nhọn; nhọn hoắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159049,
+    "word": "尖晶石",
+    "kana": "せんしょうせき",
+    "senses": [
+      {
+        "sense_id": 405658,
+        "meaning_vi": "đá Spinel",
+        "confidence": "high",
+        "search_keywords": [
+          "đá Spinel"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đá Spinel",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159050,
+    "word": "舌尖",
+    "kana": "ぜっせん",
+    "senses": [
+      {
+        "sense_id": 405659,
+        "meaning_vi": "đầu lưỡi; đầu lưỡi; đỉnh ngôn ngữ",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu lưỡi",
+          "đỉnh ngôn ngữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu lưỡi; đầu lưỡi; đỉnh ngôn ngữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

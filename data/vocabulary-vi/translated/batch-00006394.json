@@ -1,0 +1,550 @@
+[
+  {
+    "vocabulary_id": 150307,
+    "word": "薬物投与",
+    "kana": "やくぶつとうよ",
+    "senses": [
+      {
+        "sense_id": 396044,
+        "meaning_vi": "quản lý thuốc; cho thuốc; thuốc men",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý thuốc",
+          "cho thuốc",
+          "thuốc men"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý thuốc; cho thuốc; thuốc men",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150308,
+    "word": "だって",
+    "kana": "だって",
+    "senses": [
+      {
+        "sense_id": 396045,
+        "meaning_vi": "xét cho cùng; bởi vì",
+        "confidence": "high",
+        "search_keywords": [
+          "xét cho cùng",
+          "bởi vì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xét cho cùng; bởi vì",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 396046,
+        "meaning_vi": "nhưng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhưng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 396047,
+        "meaning_vi": "thậm chí",
+        "confidence": "high",
+        "search_keywords": [
+          "thậm chí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thậm chí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 396048,
+        "meaning_vi": "cũng vậy; cũng vậy; cũng",
+        "confidence": "high",
+        "search_keywords": [
+          "cũng vậy",
+          "cũng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cũng vậy; cũng vậy; cũng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 396049,
+        "meaning_vi": "họ nói; tôi nghe thấy; ý bạn là",
+        "confidence": "high",
+        "search_keywords": [
+          "họ nói",
+          "tôi nghe thấy",
+          "ý bạn là"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "họ nói; tôi nghe thấy; ý bạn là",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150309,
+    "word": "たって",
+    "kana": "たって",
+    "senses": [
+      {
+        "sense_id": 396050,
+        "meaning_vi": "ngay cả khi; mặc dù",
+        "confidence": "high",
+        "search_keywords": [
+          "ngay cả khi",
+          "mặc dù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngay cả khi; mặc dù",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 396051,
+        "meaning_vi": "Tuy nhiên; dù thế nào đi chăng nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "Tuy nhiên",
+          "dù thế nào đi chăng nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tuy nhiên; dù thế nào đi chăng nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150310,
+    "word": "重軽傷者",
+    "kana": "じゅうけいしょうしゃ",
+    "senses": [
+      {
+        "sense_id": 396052,
+        "meaning_vi": "người bị thương (nghiêm trọng và nhẹ); người bị thương nặng và nhẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "người bị thương (nghiêm trọng và nhẹ)",
+          "người bị thương nặng và nhẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người bị thương (nghiêm trọng và nhẹ); người bị thương nặng và nhẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150311,
+    "word": "大手柄",
+    "kana": "おおてがら",
+    "senses": [
+      {
+        "sense_id": 396053,
+        "meaning_vi": "thành tích vẻ vang; dịch vụ nổi bật",
+        "confidence": "high",
+        "search_keywords": [
+          "thành tích vẻ vang",
+          "dịch vụ nổi bật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành tích vẻ vang; dịch vụ nổi bật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150312,
+    "word": "でもしか先生",
+    "kana": "でもしかせんせい",
+    "senses": [
+      {
+        "sense_id": 396054,
+        "meaning_vi": "một người đã trở thành giáo viên vì không có việc gì tốt hơn để làm",
+        "confidence": "high",
+        "search_keywords": [
+          "một người đã trở thành giáo viên vì không có việc gì tốt hơn để làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một người đã trở thành giáo viên vì không có việc gì tốt hơn để làm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150313,
+    "word": "腋窩動脈",
+    "kana": "えきかどうみゃく",
+    "senses": [
+      {
+        "sense_id": 396055,
+        "meaning_vi": "động mạch nách; động mạch nách",
+        "confidence": "high",
+        "search_keywords": [
+          "động mạch nách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động mạch nách; động mạch nách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150314,
+    "word": "上腕動脈",
+    "kana": "じょうわんどうみゃく",
+    "senses": [
+      {
+        "sense_id": 396056,
+        "meaning_vi": "động mạch cánh tay; động mạch cánh tay",
+        "confidence": "high",
+        "search_keywords": [
+          "động mạch cánh tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động mạch cánh tay; động mạch cánh tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150315,
+    "word": "群発頭痛",
+    "kana": "ぐんぱつずつう",
+    "senses": [
+      {
+        "sense_id": 396057,
+        "meaning_vi": "đau đầu chùm",
+        "confidence": "high",
+        "search_keywords": [
+          "đau đầu chùm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đau đầu chùm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150316,
+    "word": "指揮系統",
+    "kana": "しきけいとう",
+    "senses": [
+      {
+        "sense_id": 396058,
+        "meaning_vi": "chuỗi mệnh lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "chuỗi mệnh lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuỗi mệnh lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150317,
+    "word": "南海岸",
+    "kana": "みなみかいがん",
+    "senses": [
+      {
+        "sense_id": 396059,
+        "meaning_vi": "bờ biển phía nam; bờ phía nam",
+        "confidence": "high",
+        "search_keywords": [
+          "bờ biển phía nam",
+          "bờ phía nam"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bờ biển phía nam; bờ phía nam",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150318,
+    "word": "情報将校",
+    "kana": "じょうほうしょうこう",
+    "senses": [
+      {
+        "sense_id": 396060,
+        "meaning_vi": "sĩ quan tình báo",
+        "confidence": "high",
+        "search_keywords": [
+          "sĩ quan tình báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sĩ quan tình báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150319,
+    "word": "命令系統",
+    "kana": "めいれいけいとう",
+    "senses": [
+      {
+        "sense_id": 396061,
+        "meaning_vi": "chuỗi mệnh lệnh; dòng lệnh; cấu trúc lệnh; hệ thống lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "chuỗi mệnh lệnh",
+          "dòng lệnh",
+          "cấu trúc lệnh",
+          "hệ thống lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuỗi mệnh lệnh; dòng lệnh; cấu trúc lệnh; hệ thống lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150320,
+    "word": "長期休暇",
+    "kana": "ちょうききゅうか",
+    "senses": [
+      {
+        "sense_id": 396062,
+        "meaning_vi": "nghỉ phép kéo dài; kỳ nghỉ dài",
+        "confidence": "high",
+        "search_keywords": [
+          "nghỉ phép kéo dài",
+          "kỳ nghỉ dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghỉ phép kéo dài; kỳ nghỉ dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150321,
+    "word": "常灯明",
+    "kana": "じょうとうみょう",
+    "senses": [
+      {
+        "sense_id": 396063,
+        "meaning_vi": "ánh sáng cháy liên tục (ví dụ: ở bàn thờ Phật)",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh sáng cháy liên tục (ví dụ: ở bàn thờ Phật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh sáng cháy liên tục (ví dụ: ở bàn thờ Phật)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150322,
+    "word": "聖水盤",
+    "kana": "せいすいばん",
+    "senses": [
+      {
+        "sense_id": 396064,
+        "meaning_vi": "buồn nôn; cá piscina; aspersorium",
+        "confidence": "high",
+        "search_keywords": [
+          "buồn nôn",
+          "cá piscina",
+          "aspersorium"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buồn nôn; cá piscina; aspersorium",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150323,
+    "word": "医方",
+    "kana": "いほう",
+    "senses": [
+      {
+        "sense_id": 396065,
+        "meaning_vi": "phương pháp chữa bệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp chữa bệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp chữa bệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150324,
+    "word": "白癩",
+    "kana": "しらはたけ",
+    "senses": [
+      {
+        "sense_id": 396066,
+        "meaning_vi": "bệnh bạch biến; bệnh bạch cầu; bệnh bạch cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh bạch biến",
+          "bệnh bạch cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh bạch biến; bệnh bạch cầu; bệnh bạch cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150325,
+    "word": "冥護",
+    "kana": "みょうご",
+    "senses": [
+      {
+        "sense_id": 396067,
+        "meaning_vi": "sự trợ giúp bí mật của các vị thần",
+        "confidence": "high",
+        "search_keywords": [
+          "sự trợ giúp bí mật của các vị thần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự trợ giúp bí mật của các vị thần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150326,
+    "word": "常灯",
+    "kana": "じょうとう",
+    "senses": [
+      {
+        "sense_id": 396068,
+        "meaning_vi": "ánh sáng cháy liên tục (ví dụ: ở bàn thờ Phật)",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh sáng cháy liên tục (ví dụ: ở bàn thờ Phật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh sáng cháy liên tục (ví dụ: ở bàn thờ Phật)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 396069,
+        "meaning_vi": "Ngọn đèn bên đường vẫn sáng suốt đêm",
+        "confidence": "high",
+        "search_keywords": [
+          "Ngọn đèn bên đường vẫn sáng suốt đêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ngọn đèn bên đường vẫn sáng suốt đêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

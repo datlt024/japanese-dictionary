@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 122471,
+    "word": "遠隔保守",
+    "kana": "えんかくほしゅ",
+    "senses": [
+      {
+        "sense_id": 366092,
+        "meaning_vi": "bảo trì từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo trì từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo trì từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122472,
+    "word": "遠隔保守システム",
+    "kana": "えんかくほしゅシステム",
+    "senses": [
+      {
+        "sense_id": 366093,
+        "meaning_vi": "HỖ TRỢ; Dịch vụ nâng cao Hỗ trợ Công nghệ Hệ thống Thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "HỖ TRỢ",
+          "Dịch vụ nâng cao Hỗ trợ Công nghệ Hệ thống Thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "HỖ TRỢ; Dịch vụ nâng cao Hỗ trợ Công nghệ Hệ thống Thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122473,
+    "word": "奥行き表現",
+    "kana": "おくゆきひょうげん",
+    "senses": [
+      {
+        "sense_id": 366094,
+        "meaning_vi": "tín hiệu chiều sâu",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu chiều sâu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu chiều sâu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122474,
+    "word": "奥行き表現モード",
+    "kana": "おくゆきひょうげんモード",
+    "senses": [
+      {
+        "sense_id": 366095,
+        "meaning_vi": "chế độ tín hiệu độ sâu",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ tín hiệu độ sâu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ tín hiệu độ sâu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122475,
+    "word": "奥行き表現定義表",
+    "kana": "おくゆきひょうげんていぎひょう",
+    "senses": [
+      {
+        "sense_id": 366096,
+        "meaning_vi": "bảng tín hiệu độ sâu",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng tín hiệu độ sâu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng tín hiệu độ sâu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122476,
+    "word": "往復伝搬時間",
+    "kana": "おうふくでんぱんじかん",
+    "senses": [
+      {
+        "sense_id": 366097,
+        "meaning_vi": "thời gian lan truyền khứ hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian lan truyền khứ hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian lan truyền khứ hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122477,
+    "word": "応答メッセージ",
+    "kana": "おうとうメッセージ",
+    "senses": [
+      {
+        "sense_id": 366098,
+        "meaning_vi": "lời chào",
+        "confidence": "high",
+        "search_keywords": [
+          "lời chào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời chào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122478,
+    "word": "応答確認",
+    "kana": "おうとうかくにん",
+    "senses": [
+      {
+        "sense_id": 366099,
+        "meaning_vi": "xác nhận phản hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "xác nhận phản hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xác nhận phản hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122479,
+    "word": "応答時間",
+    "kana": "おうとうじかん",
+    "senses": [
+      {
+        "sense_id": 366100,
+        "meaning_vi": "thời gian đáp ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian đáp ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian đáp ứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122480,
+    "word": "応答時間ウインドウ",
+    "kana": "おうとうじかんウインドウ",
+    "senses": [
+      {
+        "sense_id": 366101,
+        "meaning_vi": "cửa sổ thời gian phản hồi; cửa sổ phản hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa sổ thời gian phản hồi",
+          "cửa sổ phản hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa sổ thời gian phản hồi; cửa sổ phản hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122481,
+    "word": "応答側",
+    "kana": "おうとうがわ",
+    "senses": [
+      {
+        "sense_id": 366102,
+        "meaning_vi": "người trả lời",
+        "confidence": "high",
+        "search_keywords": [
+          "người trả lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người trả lời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122482,
+    "word": "応用ＢＯＳ",
+    "kana": "おうようビーオーエス",
+    "senses": [
+      {
+        "sense_id": 366103,
+        "meaning_vi": "ứng dụng BOS",
+        "confidence": "high",
+        "search_keywords": [
+          "ứng dụng BOS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ứng dụng BOS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122483,
+    "word": "応用アソシエーション",
+    "kana": "おうようアソシエーション",
+    "senses": [
+      {
+        "sense_id": 366104,
+        "meaning_vi": "hiệp hội ứng dụng; hiệp hội",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệp hội ứng dụng",
+          "hiệp hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệp hội ứng dụng; hiệp hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122484,
+    "word": "応用コンテキスト",
+    "kana": "おうようコンテキスト",
+    "senses": [
+      {
+        "sense_id": 366105,
+        "meaning_vi": "bối cảnh ứng dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "bối cảnh ứng dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bối cảnh ứng dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122485,
+    "word": "応用ソフトウェア",
+    "kana": "おうようソフトウェア",
+    "senses": [
+      {
+        "sense_id": 366106,
+        "meaning_vi": "phần mềm ứng dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "phần mềm ứng dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần mềm ứng dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122486,
+    "word": "応用ソフトウェアプログラム",
+    "kana": "おうようソフトウェアプログラム",
+    "senses": [
+      {
+        "sense_id": 366107,
+        "meaning_vi": "chương trình phần mềm ứng dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình phần mềm ứng dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình phần mềm ứng dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122487,
+    "word": "応用データ",
+    "kana": "おうようデータ",
+    "senses": [
+      {
+        "sense_id": 366108,
+        "meaning_vi": "dữ liệu ứng dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu ứng dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu ứng dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122488,
+    "word": "応用パッケージ",
+    "kana": "おうようパッケージ",
+    "senses": [
+      {
+        "sense_id": 366109,
+        "meaning_vi": "gói ứng dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "gói ứng dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gói ứng dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122489,
+    "word": "応用プログラム",
+    "kana": "おうようプログラム",
+    "senses": [
+      {
+        "sense_id": 366110,
+        "meaning_vi": "chương trình ứng dụng; phần mềm ứng dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình ứng dụng",
+          "phần mềm ứng dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình ứng dụng; phần mềm ứng dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122490,
+    "word": "応用プロセス",
+    "kana": "おうようプロセス",
+    "senses": [
+      {
+        "sense_id": 366111,
+        "meaning_vi": "quy trình ứng dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "quy trình ứng dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy trình ứng dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

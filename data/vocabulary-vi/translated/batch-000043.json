@@ -1,533 +1,495 @@
 [
-{
-"vocabulary_id": 1258,
-"word": "アイデンティフィケーションカード",
-"kana": "アイデンティフィケーションカード",
-"senses": [
-{
-"sense_id": 219337,
-"meaning_vi": "thẻ nhận dạng",
-"confidence": "high",
-"search_keywords": [
-"thẻ nhận dạng",
-"thẻ căn cước",
-"ID card"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thẻ nhận dạng; giấy tờ dùng để xác minh danh tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1259,
-"word": "アイドリング",
-"kana": "アイドリング",
-"senses": [
-{
-"sense_id": 219338,
-"meaning_vi": "chạy không tải",
-"confidence": "high",
-"search_keywords": [
-"chạy không tải",
-"nổ máy không tải",
-"idling"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trạng thái động cơ chạy không tải",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1260,
-"word": "アイドル",
-"kana": "アイドル",
-"senses": [
-{
-"sense_id": 219339,
-"meaning_vi": "idol Nhật",
-"confidence": "high",
-"search_keywords": [
-"idol Nhật",
-"thần tượng Nhật",
-"ca sĩ thần tượng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "idol Nhật; nghệ sĩ thần tượng được xây dựng hình tượng để thu hút fan",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219340,
-"meaning_vi": "thần tượng",
-"confidence": "high",
-"search_keywords": [
-"thần tượng",
-"ngôi sao",
-"người nổi tiếng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thần tượng; biểu tượng văn hóa; người được nhiều người ngưỡng mộ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219341,
-"meaning_vi": "tượng thờ",
-"confidence": "high",
-"search_keywords": [
-"tượng thờ",
-"thần tượng",
-"hình tượng thờ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tượng thờ; hình tượng được tôn thờ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1261,
-"word": "アイドルキャピタル",
-"kana": "アイドルキャピタル",
-"senses": [
-{
-"sense_id": 219342,
-"meaning_vi": "vốn nhàn rỗi",
-"confidence": "high",
-"search_keywords": [
-"vốn nhàn rỗi",
-"vốn không hoạt động",
-"idle capital"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vốn nhàn rỗi; nguồn vốn chưa được đưa vào sử dụng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1262,
-"word": "アイドルコスト",
-"kana": "アイドルコスト",
-"senses": [
-{
-"sense_id": 219343,
-"meaning_vi": "chi phí nhàn rỗi",
-"confidence": "high",
-"search_keywords": [
-"chi phí nhàn rỗi",
-"chi phí không hoạt động",
-"idle cost"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chi phí phát sinh trong thời gian thiết bị, lao động hoặc vốn không hoạt động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1263,
-"word": "アイドルシステム",
-"kana": "アイドルシステム",
-"senses": [
-{
-"sense_id": 219344,
-"meaning_vi": "hệ thống nhàn rỗi",
-"confidence": "medium",
-"search_keywords": [
-"hệ thống nhàn rỗi",
-"hệ thống không hoạt động",
-"idle system"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hệ thống ở trạng thái chờ hoặc không hoạt động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1264,
-"word": "アイドルタイム",
-"kana": "アイドルタイム",
-"senses": [
-{
-"sense_id": 219345,
-"meaning_vi": "thời gian nhàn rỗi",
-"confidence": "high",
-"search_keywords": [
-"thời gian nhàn rỗi",
-"thời gian chờ",
-"idle time"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thời gian không hoạt động hoặc không được sử dụng hiệu quả",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1265,
-"word": "アイヌ",
-"kana": "アイヌ",
-"senses": [
-{
-"sense_id": 219346,
-"meaning_vi": "người Ainu",
-"confidence": "high",
-"search_keywords": [
-"người Ainu",
-"dân tộc Ainu",
-"Ainu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người Ainu; dân tộc bản địa ở Hokkaido và vùng lân cận",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1266,
-"word": "アイヌ族",
-"kana": "アイヌぞく",
-"senses": [
-{
-"sense_id": 219347,
-"meaning_vi": "dân tộc Ainu",
-"confidence": "high",
-"search_keywords": [
-"dân tộc Ainu",
-"người Ainu",
-"Ainu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dân tộc Ainu; cộng đồng người Ainu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1267,
-"word": "アイバンク",
-"kana": "アイバンク",
-"senses": [
-{
-"sense_id": 219348,
-"meaning_vi": "ngân hàng mắt",
-"confidence": "high",
-"search_keywords": [
-"ngân hàng mắt",
-"eye bank",
-"ngân hàng giác mạc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngân hàng mắt; cơ sở lưu trữ và cung cấp giác mạc hiến tặng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1268,
-"word": "アイビースタイル",
-"kana": "アイビースタイル",
-"senses": [
-{
-"sense_id": 219349,
-"meaning_vi": "phong cách Ivy",
-"confidence": "high",
-"search_keywords": [
-"phong cách Ivy",
-"phong cách Ivy League",
-"thời trang Ivy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phong cách thời trang Ivy League, gọn gàng và cổ điển kiểu sinh viên Mỹ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1269,
-"word": "アイビーリーグ",
-"kana": "アイビーリーグ",
-"senses": [
-{
-"sense_id": 219350,
-"meaning_vi": "Ivy League",
-"confidence": "high",
-"search_keywords": [
-"Ivy League",
-"Liên đoàn Ivy",
-"đại học Ivy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Ivy League; nhóm các đại học danh giá ở miền Đông Bắc Hoa Kỳ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1270,
-"word": "アイビールック",
-"kana": "アイビールック",
-"senses": [
-{
-"sense_id": 219351,
-"meaning_vi": "kiểu Ivy League",
-"confidence": "high",
-"search_keywords": [
-"kiểu Ivy League",
-"phong cách Ivy",
-"Ivy look"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu ăn mặc Ivy League; phong cách thời trang sinh viên Mỹ cổ điển",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1271,
-"word": "アイブロウ",
-"kana": "アイブロウ",
-"senses": [
-{
-"sense_id": 219352,
-"meaning_vi": "lông mày",
-"confidence": "high",
-"search_keywords": [
-"lông mày",
-"chân mày",
-"eyebrow"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lông mày; phần trang điểm liên quan đến chân mày",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219353,
-"meaning_vi": "chì kẻ mày",
-"confidence": "high",
-"search_keywords": [
-"chì kẻ mày",
-"bút kẻ mày",
-"eyebrow pencil"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chì kẻ mày; cách nói tắt của eyebrow pencil",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1272,
-"word": "アイブローシェープ",
-"kana": "アイブローシェープ",
-"senses": [
-{
-"sense_id": 219354,
-"meaning_vi": "dáng lông mày",
-"confidence": "high",
-"search_keywords": [
-"dáng lông mày",
-"dáng chân mày",
-"eyebrow shape"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dáng lông mày; hình dạng chân mày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1273,
-"word": "アイブロウペンシル",
-"kana": "アイブロウペンシル",
-"senses": [
-{
-"sense_id": 219355,
-"meaning_vi": "chì kẻ mày",
-"confidence": "high",
-"search_keywords": [
-"chì kẻ mày",
-"bút kẻ mày",
-"eyebrow pencil"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bút hoặc chì dùng để kẻ lông mày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1274,
-"word": "アイボリー",
-"kana": "アイボリー",
-"senses": [
-{
-"sense_id": 219356,
-"meaning_vi": "màu ngà",
-"confidence": "high",
-"search_keywords": [
-"màu ngà",
-"ngà voi",
-"ivory"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngà voi; màu trắng ngà",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1275,
-"word": "アイボリーホワイト",
-"kana": "アイボリーホワイト",
-"senses": [
-{
-"sense_id": 219357,
-"meaning_vi": "trắng ngà",
-"confidence": "high",
-"search_keywords": [
-"trắng ngà",
-"màu trắng ngà",
-"ivory white"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "màu trắng ngà, hơi ngả vàng nhẹ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1276,
-"word": "アイメイト",
-"kana": "アイメイト",
-"senses": [
-{
-"sense_id": 219358,
-"meaning_vi": "chó dẫn đường",
-"confidence": "high",
-"search_keywords": [
-"chó dẫn đường",
-"chó hỗ trợ người mù",
-"guide dog"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chó dẫn đường hỗ trợ người khiếm thị",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1277,
-"word": "アイライン",
-"kana": "アイライン",
-"senses": [
-{
-"sense_id": 219359,
-"meaning_vi": "kẻ mắt",
-"confidence": "high",
-"search_keywords": [
-"kẻ mắt",
-"đường kẻ mắt",
-"eyeliner"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đường kẻ mắt hoặc mỹ phẩm dùng để kẻ viền mắt",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1258,
+    "word": "アイデンティフィケーションカード",
+    "kana": "アイデンティフィケーションカード",
+    "senses": [
+      {
+        "sense_id": 219337,
+        "meaning_vi": "thẻ căn cước",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ căn cước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ căn cước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1259,
+    "word": "アイドリング",
+    "kana": "アイドリング",
+    "senses": [
+      {
+        "sense_id": 219338,
+        "meaning_vi": "chạy không tải",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy không tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy không tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1260,
+    "word": "アイドル",
+    "kana": "アイドル",
+    "senses": [
+      {
+        "sense_id": 219339,
+        "meaning_vi": "nghệ sĩ biểu diễn (thường là trong một nhóm nhạc nam hoặc nhóm nhạc nữ) với hình ảnh được trau dồi để thu hút lượng người hâm mộ tận tâm theo dõi; thần tượng nhật bản",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ sĩ biểu diễn (thường là trong một nhóm nhạc nam hoặc nhóm nhạc nữ) với hình ảnh được trau dồi để thu hút lượng người hâm mộ tận tâm theo dõi",
+          "thần tượng nhật bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ sĩ biểu diễn (thường là trong một nhóm nhạc nam hoặc nhóm nhạc nữ) với hình ảnh được trau dồi để thu hút lượng người hâm mộ tận tâm theo dõi; thần tượng nhật bản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219340,
+        "meaning_vi": "biểu tượng (văn hóa); thần tượng; ngôi sao; người nổi tiếng; người được nhiều người ngưỡng mộ",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng (văn hóa)",
+          "thần tượng",
+          "ngôi sao",
+          "người nổi tiếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng (văn hóa); thần tượng; ngôi sao; người nổi tiếng; người được nhiều người ngưỡng mộ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219341,
+        "meaning_vi": "thần tượng (đối tượng thờ cúng); hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thần tượng (đối tượng thờ cúng)",
+          "hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thần tượng (đối tượng thờ cúng); hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1261,
+    "word": "アイドルキャピタル",
+    "kana": "アイドルキャピタル",
+    "senses": [
+      {
+        "sense_id": 219342,
+        "meaning_vi": "vốn nhàn rỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "vốn nhàn rỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vốn nhàn rỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1262,
+    "word": "アイドルコスト",
+    "kana": "アイドルコスト",
+    "senses": [
+      {
+        "sense_id": 219343,
+        "meaning_vi": "chi phí nhàn rỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí nhàn rỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí nhàn rỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1263,
+    "word": "アイドルシステム",
+    "kana": "アイドルシステム",
+    "senses": [
+      {
+        "sense_id": 219344,
+        "meaning_vi": "hệ thống nhàn rỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống nhàn rỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống nhàn rỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1264,
+    "word": "アイドルタイム",
+    "kana": "アイドルタイム",
+    "senses": [
+      {
+        "sense_id": 219345,
+        "meaning_vi": "thời gian nhàn rỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian nhàn rỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian nhàn rỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1265,
+    "word": "アイヌ",
+    "kana": "アイヌ",
+    "senses": [
+      {
+        "sense_id": 219346,
+        "meaning_vi": "người Ainu",
+        "confidence": "high",
+        "search_keywords": [
+          "người Ainu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người Ainu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1266,
+    "word": "アイヌ族",
+    "kana": "アイヌぞく",
+    "senses": [
+      {
+        "sense_id": 219347,
+        "meaning_vi": "chủng tộc Ainu; người Ainu",
+        "confidence": "high",
+        "search_keywords": [
+          "chủng tộc Ainu",
+          "người Ainu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủng tộc Ainu; người Ainu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1267,
+    "word": "アイバンク",
+    "kana": "アイバンク",
+    "senses": [
+      {
+        "sense_id": 219348,
+        "meaning_vi": "ngân hàng mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "ngân hàng mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngân hàng mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1268,
+    "word": "アイビースタイル",
+    "kana": "アイビースタイル",
+    "senses": [
+      {
+        "sense_id": 219349,
+        "meaning_vi": "Phong cách Ivy League (quần áo)",
+        "confidence": "high",
+        "search_keywords": [
+          "Phong cách Ivy League (quần áo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phong cách Ivy League (quần áo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1269,
+    "word": "アイビーリーグ",
+    "kana": "アイビーリーグ",
+    "senses": [
+      {
+        "sense_id": 219350,
+        "meaning_vi": "Ivy League",
+        "confidence": "low",
+        "search_keywords": [
+          "Ivy League"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ivy League",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1270,
+    "word": "アイビールック",
+    "kana": "アイビールック",
+    "senses": [
+      {
+        "sense_id": 219351,
+        "meaning_vi": "Ivy League nhìn; Phong cách Ivy League",
+        "confidence": "high",
+        "search_keywords": [
+          "Ivy League nhìn",
+          "Phong cách Ivy League"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ivy League nhìn; Phong cách Ivy League",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1271,
+    "word": "アイブロウ",
+    "kana": "アイブロウ",
+    "senses": [
+      {
+        "sense_id": 219352,
+        "meaning_vi": "lông mày (trong bối cảnh trang điểm)",
+        "confidence": "high",
+        "search_keywords": [
+          "lông mày (trong bối cảnh trang điểm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lông mày (trong bối cảnh trang điểm)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219353,
+        "meaning_vi": "bút chì lông mày",
+        "confidence": "high",
+        "search_keywords": [
+          "bút chì lông mày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bút chì lông mày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1272,
+    "word": "アイブローシェープ",
+    "kana": "アイブローシェープ",
+    "senses": [
+      {
+        "sense_id": 219354,
+        "meaning_vi": "hình dạng lông mày",
+        "confidence": "high",
+        "search_keywords": [
+          "hình dạng lông mày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình dạng lông mày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1273,
+    "word": "アイブロウペンシル",
+    "kana": "アイブロウペンシル",
+    "senses": [
+      {
+        "sense_id": 219355,
+        "meaning_vi": "bút chì lông mày",
+        "confidence": "high",
+        "search_keywords": [
+          "bút chì lông mày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bút chì lông mày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1274,
+    "word": "アイボリー",
+    "kana": "アイボリー",
+    "senses": [
+      {
+        "sense_id": 219356,
+        "meaning_vi": "ngà voi",
+        "confidence": "high",
+        "search_keywords": [
+          "ngà voi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngà voi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1275,
+    "word": "アイボリーホワイト",
+    "kana": "アイボリーホワイト",
+    "senses": [
+      {
+        "sense_id": 219357,
+        "meaning_vi": "màu trắng ngà",
+        "confidence": "high",
+        "search_keywords": [
+          "màu trắng ngà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu trắng ngà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1276,
+    "word": "アイメイト",
+    "kana": "アイメイト",
+    "senses": [
+      {
+        "sense_id": 219358,
+        "meaning_vi": "con chó có mắt nhìn thấy; chó dẫn đường",
+        "confidence": "high",
+        "search_keywords": [
+          "con chó có mắt nhìn thấy",
+          "chó dẫn đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con chó có mắt nhìn thấy; chó dẫn đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1277,
+    "word": "アイライン",
+    "kana": "アイライン",
+    "senses": [
+      {
+        "sense_id": 219359,
+        "meaning_vi": "bút kẻ mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "bút kẻ mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bút kẻ mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

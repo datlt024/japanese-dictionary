@@ -1,787 +1,767 @@
-{
-"file_name": "batch-000015.json",
-"data": [
-{
-"vocabulary_id": 341,
-"word": "くわ入れ式",
-"kana": "くわいれしき",
-"senses": [
-{
-"sense_id": 217778,
-"meaning_vi": "lễ động thổ",
-"confidence": "high",
-"search_keywords": [
-"lễ động thổ",
-"khởi công xây dựng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghi lễ động thổ trước khi khởi công công trình",
-"examples": []
-}
+[
+  {
+    "vocabulary_id": 341,
+    "word": "くわ入れ式",
+    "kana": "くわいれしき",
+    "senses": [
+      {
+        "sense_id": 217778,
+        "meaning_vi": "lễ khởi công",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ khởi công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ khởi công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 342,
+    "word": "クンクン鳴く",
+    "kana": "クンクンなく",
+    "senses": [
+      {
+        "sense_id": 217779,
+        "meaning_vi": "rên rỉ (của một con chó)",
+        "confidence": "high",
+        "search_keywords": [
+          "rên rỉ (của một con chó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rên rỉ (của một con chó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 343,
+    "word": "ぐいぐい",
+    "kana": "ぐいぐい",
+    "senses": [
+      {
+        "sense_id": 217780,
+        "meaning_vi": "không do dự; với sự lạc quan tuyệt vời; mạnh mẽ; với sức sống mãnh liệt; tích cực",
+        "confidence": "high",
+        "search_keywords": [
+          "không do dự",
+          "với sự lạc quan tuyệt vời",
+          "mạnh mẽ",
+          "với sức sống mãnh liệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không do dự; với sự lạc quan tuyệt vời; mạnh mẽ; với sức sống mãnh liệt; tích cực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217781,
+        "meaning_vi": "(đẩy hoặc kéo) mạnh mẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "(đẩy hoặc kéo) mạnh mẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đẩy hoặc kéo) mạnh mẽ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217782,
+        "meaning_vi": "(uống rượu) say sưa",
+        "confidence": "high",
+        "search_keywords": [
+          "(uống rượu) say sưa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(uống rượu) say sưa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 344,
+    "word": "ぐうぐう",
+    "kana": "ぐうぐう",
+    "senses": [
+      {
+        "sense_id": 217783,
+        "meaning_vi": "nhanh (ngủ); tiếng ngáy hoặc tiếng càu nhàu",
+        "confidence": "high",
+        "search_keywords": [
+          "nhanh (ngủ)",
+          "tiếng ngáy hoặc tiếng càu nhàu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhanh (ngủ); tiếng ngáy hoặc tiếng càu nhàu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 345,
+    "word": "愚図愚図",
+    "kana": "ぐずぐず",
+    "senses": [
+      {
+        "sense_id": 217784,
+        "meaning_vi": "chậm; chậm trễ; lảng vảng; kéo dài; ngập ngừng",
+        "confidence": "high",
+        "search_keywords": [
+          "chậm",
+          "chậm trễ",
+          "lảng vảng",
+          "kéo dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chậm; chậm trễ; lảng vảng; kéo dài; ngập ngừng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217785,
+        "meaning_vi": "phàn nàn; càu nhàu",
+        "confidence": "high",
+        "search_keywords": [
+          "phàn nàn",
+          "càu nhàu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phàn nàn; càu nhàu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217786,
+        "meaning_vi": "không ổn định (ví dụ: thời tiết)",
+        "confidence": "high",
+        "search_keywords": [
+          "không ổn định (ví dụ: thời tiết)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không ổn định (ví dụ: thời tiết)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217787,
+        "meaning_vi": "lỏng lẻo; thả lỏng",
+        "confidence": "high",
+        "search_keywords": [
+          "lỏng lẻo",
+          "thả lỏng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỏng lẻo; thả lỏng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 346,
+    "word": "ぐちゃぐちゃ",
+    "kana": "ぐちゃぐちゃ",
+    "senses": [
+      {
+        "sense_id": 217788,
+        "meaning_vi": "giòn; ướt sũng",
+        "confidence": "high",
+        "search_keywords": [
+          "giòn",
+          "ướt sũng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giòn; ướt sũng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217789,
+        "meaning_vi": "cẩu thả; bừa bộn; trong tình trạng hỗn loạn; hỗn loạn",
+        "confidence": "high",
+        "search_keywords": [
+          "cẩu thả",
+          "bừa bộn",
+          "trong tình trạng hỗn loạn",
+          "hỗn loạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cẩu thả; bừa bộn; trong tình trạng hỗn loạn; hỗn loạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 347,
+    "word": "ぐっすり",
+    "kana": "ぐっすり",
+    "senses": [
+      {
+        "sense_id": 217790,
+        "meaning_vi": "ngon lành (ngủ); nhanh (ngủ)",
+        "confidence": "high",
+        "search_keywords": [
+          "ngon lành (ngủ)",
+          "nhanh (ngủ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngon lành (ngủ); nhanh (ngủ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 348,
+    "word": "ぐったり",
+    "kana": "ぐったり",
+    "senses": [
+      {
+        "sense_id": 217791,
+        "meaning_vi": "khập khiễng; mệt mỏi; bơ phờ; một cách uể oải; kiệt sức; một cách thiếu năng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "khập khiễng",
+          "mệt mỏi",
+          "bơ phờ",
+          "một cách uể oải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khập khiễng; mệt mỏi; bơ phờ; một cách uể oải; kiệt sức; một cách thiếu năng lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 349,
+    "word": "ぐっと",
+    "kana": "ぐっと",
+    "senses": [
+      {
+        "sense_id": 217792,
+        "meaning_vi": "đột nhiên; cùng một lúc; trong một lần; với một kẻ giật mình; với một ngụm",
+        "confidence": "high",
+        "search_keywords": [
+          "đột nhiên",
+          "cùng một lúc",
+          "trong một lần",
+          "với một kẻ giật mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đột nhiên; cùng một lúc; trong một lần; với một kẻ giật mình; với một ngụm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217793,
+        "meaning_vi": "đáng kể; rất nhiều; rất nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng kể",
+          "rất nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng kể; rất nhiều; rất nhiều",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217794,
+        "meaning_vi": "vững chắc; với một nỗ lực; chặt chẽ; gây áp lực",
+        "confidence": "high",
+        "search_keywords": [
+          "vững chắc",
+          "với một nỗ lực",
+          "chặt chẽ",
+          "gây áp lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vững chắc; với một nỗ lực; chặt chẽ; gây áp lực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217795,
+        "meaning_vi": "hoàn toàn (ví dụ như bị thua lỗ)",
+        "confidence": "high",
+        "search_keywords": [
+          "hoàn toàn (ví dụ như bị thua lỗ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoàn toàn (ví dụ như bị thua lỗ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217796,
+        "meaning_vi": "sâu sắc (ví dụ: cảm động)",
+        "confidence": "high",
+        "search_keywords": [
+          "sâu sắc (ví dụ: cảm động)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sâu sắc (ví dụ: cảm động)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 350,
+    "word": "ぐにゃぐにゃ",
+    "kana": "ぐにゃぐにゃ",
+    "senses": [
+      {
+        "sense_id": 217797,
+        "meaning_vi": "nhão; khập khiễng; mềm và dẻo",
+        "confidence": "high",
+        "search_keywords": [
+          "nhão",
+          "khập khiễng",
+          "mềm và dẻo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhão; khập khiễng; mềm và dẻo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 351,
+    "word": "ぐぶぐぶ",
+    "kana": "ぐぶぐぶ",
+    "senses": [
+      {
+        "sense_id": 217798,
+        "meaning_vi": "ríu rít; âm thanh súc miệng",
+        "confidence": "high",
+        "search_keywords": [
+          "ríu rít",
+          "âm thanh súc miệng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ríu rít; âm thanh súc miệng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 352,
+    "word": "グラグラ",
+    "kana": "グラグラ",
+    "senses": [
+      {
+        "sense_id": 217799,
+        "meaning_vi": "lung lay; lung lay; rung chuyển; không ổn định; không vững chắc",
+        "confidence": "high",
+        "search_keywords": [
+          "lung lay",
+          "rung chuyển",
+          "không ổn định",
+          "không vững chắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lung lay; lung lay; rung chuyển; không ổn định; không vững chắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217800,
+        "meaning_vi": "dao động (ví dụ: về một quyết định); phối màu; thiếu quyết đoán",
+        "confidence": "high",
+        "search_keywords": [
+          "dao động (ví dụ: về một quyết định)",
+          "phối màu",
+          "thiếu quyết đoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dao động (ví dụ: về một quyết định); phối màu; thiếu quyết đoán",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217801,
+        "meaning_vi": "sôi lên",
+        "confidence": "high",
+        "search_keywords": [
+          "sôi lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sôi lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217802,
+        "meaning_vi": "chóng mặt; choáng váng",
+        "confidence": "high",
+        "search_keywords": [
+          "chóng mặt",
+          "choáng váng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chóng mặt; choáng váng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 353,
+    "word": "ぐら付く",
+    "kana": "ぐらつく",
+    "senses": [
+      {
+        "sense_id": 217803,
+        "meaning_vi": "không ổn định; quay cuồng; lắc",
+        "confidence": "high",
+        "search_keywords": [
+          "không ổn định",
+          "quay cuồng",
+          "lắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không ổn định; quay cuồng; lắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217804,
+        "meaning_vi": "dao động; không ổn định (cảm xúc, suy nghĩ, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "dao động",
+          "không ổn định (cảm xúc, suy nghĩ, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dao động; không ổn định (cảm xúc, suy nghĩ, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 354,
+    "word": "グル",
+    "kana": "グル",
+    "senses": [
+      {
+        "sense_id": 217805,
+        "meaning_vi": "đồng phạm; kẻ chủ mưu; đoàn hệ",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng phạm",
+          "kẻ chủ mưu",
+          "đoàn hệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng phạm; kẻ chủ mưu; đoàn hệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 355,
+    "word": "ぐるぐる",
+    "kana": "ぐるぐる",
+    "senses": [
+      {
+        "sense_id": 217806,
+        "meaning_vi": "(xoay) vòng tròn; trong vòng tròn",
+        "confidence": "high",
+        "search_keywords": [
+          "(xoay) vòng tròn",
+          "trong vòng tròn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(xoay) vòng tròn; trong vòng tròn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217807,
+        "meaning_vi": "quấn quanh; quanh co",
+        "confidence": "high",
+        "search_keywords": [
+          "quấn quanh",
+          "quanh co"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quấn quanh; quanh co",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 356,
+    "word": "ぐれる",
+    "kana": "ぐれる",
+    "senses": [
+      {
+        "sense_id": 217808,
+        "meaning_vi": "đi lạc khỏi con đường đúng đắn; đi sai hướng; đi chệch khỏi đường ray; trở thành phạm pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "đi lạc khỏi con đường đúng đắn",
+          "đi sai hướng",
+          "đi chệch khỏi đường ray",
+          "trở thành phạm pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi lạc khỏi con đường đúng đắn; đi sai hướng; đi chệch khỏi đường ray; trở thành phạm pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 357,
+    "word": "ぐんぐん",
+    "kana": "ぐんぐん",
+    "senses": [
+      {
+        "sense_id": 217809,
+        "meaning_vi": "liên tục; mạnh mẽ; bằng những bước nhảy vọt; đều đặn",
+        "confidence": "high",
+        "search_keywords": [
+          "liên tục",
+          "mạnh mẽ",
+          "bằng những bước nhảy vọt",
+          "đều đặn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên tục; mạnh mẽ; bằng những bước nhảy vọt; đều đặn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 358,
+    "word": "けじめ",
+    "kana": "けじめ",
+    "senses": [
+      {
+        "sense_id": 217810,
+        "meaning_vi": "sự khác biệt; sự khác biệt (giữa hai thứ)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự khác biệt",
+          "sự khác biệt (giữa hai thứ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự khác biệt; sự khác biệt (giữa hai thứ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217811,
+        "meaning_vi": "ý thức đúng đắn; hành vi đúng đắn (theo chuẩn mực xã hội hoặc đạo đức)",
+        "confidence": "high",
+        "search_keywords": [
+          "ý thức đúng đắn",
+          "hành vi đúng đắn (theo chuẩn mực xã hội hoặc đạo đức)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý thức đúng đắn; hành vi đúng đắn (theo chuẩn mực xã hội hoặc đạo đức)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217812,
+        "meaning_vi": "trách nhiệm giải trình; chịu trách nhiệm rõ ràng (về một lỗi hoặc thất bại)",
+        "confidence": "high",
+        "search_keywords": [
+          "trách nhiệm giải trình",
+          "chịu trách nhiệm rõ ràng (về một lỗi hoặc thất bại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trách nhiệm giải trình; chịu trách nhiệm rõ ràng (về một lỗi hoặc thất bại)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217813,
+        "meaning_vi": "ranh giới; điểm chia",
+        "confidence": "high",
+        "search_keywords": [
+          "ranh giới",
+          "điểm chia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ranh giới; điểm chia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 359,
+    "word": "けたたましい",
+    "kana": "けたたましい",
+    "senses": [
+      {
+        "sense_id": 217814,
+        "meaning_vi": "xỏ lỗ; chói tai; ồn ào; ồn ào; la vang; hoang dã",
+        "confidence": "high",
+        "search_keywords": [
+          "xỏ lỗ",
+          "chói tai",
+          "ồn ào",
+          "la vang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xỏ lỗ; chói tai; ồn ào; ồn ào; la vang; hoang dã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 360,
+    "word": "ケツの穴",
+    "kana": "けつのあな",
+    "senses": [
+      {
+        "sense_id": 217815,
+        "meaning_vi": "hậu môn; thằng khốn nạn; lỗ đít",
+        "confidence": "high",
+        "search_keywords": [
+          "hậu môn",
+          "thằng khốn nạn",
+          "lỗ đít"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hậu môn; thằng khốn nạn; lỗ đít",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]
-}
-]
-},
-{
-"vocabulary_id": 342,
-"word": "クンクン鳴く",
-"kana": "クンクンなく",
-"senses": [
-{
-"sense_id": 217779,
-"meaning_vi": "rên ư ử",
-"confidence": "high",
-"search_keywords": [
-"rên ư ử",
-"ẳng ẳng",
-"chó rên"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chó kêu ư ử hoặc rên rỉ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 343,
-"word": "ぐいぐい",
-"kana": "ぐいぐい",
-"senses": [
-{
-"sense_id": 217780,
-"meaning_vi": "hăng hái tiến tới",
-"confidence": "high",
-"search_keywords": [
-"hăng hái",
-"quyết liệt",
-"xông xáo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mạnh dạn tiến lên, không do dự",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217781,
-"meaning_vi": "đẩy kéo mạnh",
-"confidence": "high",
-"search_keywords": [
-"đẩy mạnh",
-"kéo mạnh",
-"lôi mạnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đẩy hoặc kéo với lực mạnh",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217782,
-"meaning_vi": "uống ừng ực",
-"confidence": "high",
-"search_keywords": [
-"uống ừng ực",
-"uống liên tục",
-"nốc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "uống nhiều và nhanh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 344,
-"word": "ぐうぐう",
-"kana": "ぐうぐう",
-"senses": [
-{
-"sense_id": 217783,
-"meaning_vi": "ngáy khò khò",
-"confidence": "high",
-"search_keywords": [
-"ngáy",
-"khò khò",
-"ngủ say"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiếng ngáy hoặc tiếng càu nhàu phát ra liên tục",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 345,
-"word": "愚図愚図",
-"kana": "ぐずぐず",
-"senses": [
-{
-"sense_id": 217784,
-"meaning_vi": "lề mề",
-"confidence": "high",
-"search_keywords": [
-"lề mề",
-"chần chừ",
-"do dự"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chậm chạp, không dứt khoát",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217785,
-"meaning_vi": "cằn nhằn",
-"confidence": "high",
-"search_keywords": [
-"cằn nhằn",
-"than vãn",
-"lẩm bẩm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "liên tục than phiền hoặc càm ràm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217786,
-"meaning_vi": "u ám thất thường",
-"confidence": "medium",
-"search_keywords": [
-"u ám",
-"thời tiết xấu",
-"âm u"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trạng thái thời tiết không ổn định, âm u",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217787,
-"meaning_vi": "lỏng lẻo",
-"confidence": "high",
-"search_keywords": [
-"lỏng lẻo",
-"chùng",
-"không căng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bị nới lỏng hoặc không còn căng chặt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 346,
-"word": "ぐちゃぐちゃ",
-"kana": "ぐちゃぐちゃ",
-"senses": [
-{
-"sense_id": 217788,
-"meaning_vi": "nhão nhoét",
-"confidence": "high",
-"search_keywords": [
-"nhão nhoét",
-"nát bét",
-"sũng nước"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mềm nhũn, nát hoặc sũng nước",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217789,
-"meaning_vi": "bừa bộn",
-"confidence": "high",
-"search_keywords": [
-"bừa bộn",
-"lộn xộn",
-"hỗn loạn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không ngăn nắp; rối tung lên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 347,
-"word": "ぐっすり",
-"kana": "ぐっすり",
-"senses": [
-{
-"sense_id": 217790,
-"meaning_vi": "ngủ say",
-"confidence": "high",
-"search_keywords": [
-"ngủ say",
-"ngủ ngon",
-"ngủ mê mệt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngủ rất sâu và ngon giấc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 348,
-"word": "ぐったり",
-"kana": "ぐったり",
-"senses": [
-{
-"sense_id": 217791,
-"meaning_vi": "rã rời",
-"confidence": "high",
-"search_keywords": [
-"rã rời",
-"kiệt sức",
-"uể oải"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mệt mỏi đến mức không còn sức lực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 349,
-"word": "ぐっと",
-"kana": "ぐっと",
-"senses": [
-{
-"sense_id": 217792,
-"meaning_vi": "một cái mạnh",
-"confidence": "medium",
-"search_keywords": [
-"một hơi",
-"một cái",
-"đột ngột"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đột ngột hoặc thực hiện một lần dứt khoát",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217793,
-"meaning_vi": "đáng kể",
-"confidence": "high",
-"search_keywords": [
-"đáng kể",
-"rất nhiều",
-"rõ rệt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tăng hoặc thay đổi rõ rệt",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217794,
-"meaning_vi": "ghì chặt",
-"confidence": "high",
-"search_keywords": [
-"ghì chặt",
-"siết chặt",
-"dồn sức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dùng lực mạnh để giữ hoặc ép",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217795,
-"meaning_vi": "hoàn toàn",
-"confidence": "medium",
-"search_keywords": [
-"hoàn toàn",
-"triệt để"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rơi vào trạng thái hoàn toàn như mất phương hướng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217796,
-"meaning_vi": "xúc động sâu sắc",
-"confidence": "high",
-"search_keywords": [
-"xúc động",
-"cảm động",
-"rung động"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm nhận mạnh mẽ trong lòng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 350,
-"word": "ぐにゃぐにゃ",
-"kana": "ぐにゃぐにゃ",
-"senses": [
-{
-"sense_id": 217797,
-"meaning_vi": "mềm nhũn",
-"confidence": "high",
-"search_keywords": [
-"mềm nhũn",
-"oặt ẹo",
-"mềm oặt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mềm và dễ uốn cong",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 351,
-"word": "ぐぶぐぶ",
-"kana": "ぐぶぐぶ",
-"senses": [
-{
-"sense_id": 217798,
-"meaning_vi": "ục ục",
-"confidence": "high",
-"search_keywords": [
-"ục ục",
-"súc miệng",
-"òng ọc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiếng nước hoặc tiếng súc miệng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 352,
-"word": "グラグラ",
-"kana": "グラグラ",
-"senses": [
-{
-"sense_id": 217799,
-"meaning_vi": "lung lay",
-"confidence": "high",
-"search_keywords": [
-"lung lay",
-"lắc lư",
-"chao đảo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không vững, lắc lư qua lại",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217800,
-"meaning_vi": "dao động",
-"confidence": "high",
-"search_keywords": [
-"dao động",
-"phân vân",
-"lung lay"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "do dự hoặc không quyết đoán",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217801,
-"meaning_vi": "sôi sùng sục",
-"confidence": "high",
-"search_keywords": [
-"sôi sùng sục",
-"sôi mạnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sôi mạnh và liên tục",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217802,
-"meaning_vi": "choáng váng",
-"confidence": "high",
-"search_keywords": [
-"choáng váng",
-"hoa mắt",
-"chóng mặt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm giác đầu óc quay cuồng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 353,
-"word": "ぐら付く",
-"kana": "ぐらつく",
-"senses": [
-{
-"sense_id": 217803,
-"meaning_vi": "lung lay",
-"confidence": "high",
-"search_keywords": [
-"lung lay",
-"chao đảo",
-"lắc lư"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bị rung lắc hoặc mất ổn định",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217804,
-"meaning_vi": "dao động",
-"confidence": "high",
-"search_keywords": [
-"dao động",
-"lung lay",
-"phân vân"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tâm trạng hoặc suy nghĩ không ổn định",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 354,
-"word": "グル",
-"kana": "グル",
-"senses": [
-{
-"sense_id": 217805,
-"meaning_vi": "đồng phạm",
-"confidence": "high",
-"search_keywords": [
-"đồng phạm",
-"tay trong",
-"cùng phe"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người cùng tham gia hoặc cấu kết thực hiện hành vi nào đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 355,
-"word": "ぐるぐる",
-"kana": "ぐるぐる",
-"senses": [
-{
-"sense_id": 217806,
-"meaning_vi": "quay vòng vòng",
-"confidence": "high",
-"search_keywords": [
-"quay vòng",
-"xoay vòng",
-"vòng tròn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quay tròn liên tục quanh một điểm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217807,
-"meaning_vi": "quấn quanh",
-"confidence": "high",
-"search_keywords": [
-"quấn quanh",
-"cuốn quanh",
-"quấn chặt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quấn hoặc cuộn quanh vật khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 356,
-"word": "ぐれる",
-"kana": "ぐれる",
-"senses": [
-{
-"sense_id": 217808,
-"meaning_vi": "sa ngã",
-"confidence": "high",
-"search_keywords": [
-"sa ngã",
-"hư hỏng",
-"lầm đường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đi chệch khỏi con đường đúng đắn; trở nên hư hỏng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 357,
-"word": "ぐんぐん",
-"kana": "ぐんぐん",
-"senses": [
-{
-"sense_id": 217809,
-"meaning_vi": "vùn vụt",
-"confidence": "high",
-"search_keywords": [
-"vùn vụt",
-"nhanh chóng",
-"vượt bậc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phát triển hoặc tiến triển rất nhanh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 358,
-"word": "けじめ",
-"kana": "けじめ",
-"senses": [
-{
-"sense_id": 217810,
-"meaning_vi": "sự phân biệt",
-"confidence": "high",
-"search_keywords": [
-"phân biệt",
-"ranh giới",
-"khác biệt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự khác biệt hoặc phân định rõ ràng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217811,
-"meaning_vi": "chừng mực",
-"confidence": "high",
-"search_keywords": [
-"chừng mực",
-"đúng mực",
-"đạo lý"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách cư xử phù hợp với chuẩn mực xã hội",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217812,
-"meaning_vi": "trách nhiệm rõ ràng",
-"confidence": "high",
-"search_keywords": [
-"trách nhiệm",
-"chịu trách nhiệm",
-"chịu lỗi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thể hiện trách nhiệm rõ ràng đối với sai sót",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217813,
-"meaning_vi": "ranh giới",
-"confidence": "high",
-"search_keywords": [
-"ranh giới",
-"mốc phân chia"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điểm hoặc đường phân cách",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 359,
-"word": "けたたましい",
-"kana": "けたたましい",
-"senses": [
-{
-"sense_id": 217814,
-"meaning_vi": "ầm ĩ chói tai",
-"confidence": "high",
-"search_keywords": [
-"ầm ĩ",
-"chói tai",
-"inh ỏi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rất to, chói tai và náo động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 360,
-"word": "ケツの穴",
-"kana": "けつのあな",
-"senses": [
-{
-"sense_id": 217815,
-"meaning_vi": "lỗ đít",
-"confidence": "high",
-"search_keywords": [
-"hậu môn",
-"lỗ đít",
-"đít"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hậu môn; cách nói thô tục về hậu môn",
-"examples": []
-}
-]
-}
-]
-}
-]
-}

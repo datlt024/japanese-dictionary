@@ -1,0 +1,501 @@
+[
+  {
+    "vocabulary_id": 31349,
+    "word": "出願書類",
+    "kana": "しゅつがんしょるい",
+    "senses": [
+      {
+        "sense_id": 257637,
+        "meaning_vi": "mẫu đơn; giấy tờ ứng tuyển; trình bao bọc tập tin (bằng sáng chế)",
+        "confidence": "high",
+        "search_keywords": [
+          "mẫu đơn",
+          "giấy tờ ứng tuyển",
+          "trình bao bọc tập tin (bằng sáng chế)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẫu đơn; giấy tờ ứng tuyển; trình bao bọc tập tin (bằng sáng chế)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31350,
+    "word": "出願人",
+    "kana": "しゅつがんにん",
+    "senses": [
+      {
+        "sense_id": 257638,
+        "meaning_vi": "người nộp đơn",
+        "confidence": "high",
+        "search_keywords": [
+          "người nộp đơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nộp đơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31351,
+    "word": "出渠",
+    "kana": "しゅっきょ",
+    "senses": [
+      {
+        "sense_id": 257639,
+        "meaning_vi": "rời khỏi bến tàu (sửa chữa)",
+        "confidence": "high",
+        "search_keywords": [
+          "rời khỏi bến tàu (sửa chữa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời khỏi bến tàu (sửa chữa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31352,
+    "word": "出漁期",
+    "kana": "しゅつぎょき",
+    "senses": [
+      {
+        "sense_id": 257640,
+        "meaning_vi": "mùa đánh cá",
+        "confidence": "high",
+        "search_keywords": [
+          "mùa đánh cá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mùa đánh cá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31353,
+    "word": "出漁区域",
+    "kana": "しゅつぎょくいき",
+    "senses": [
+      {
+        "sense_id": 257641,
+        "meaning_vi": "khu vực câu cá",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực câu cá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực câu cá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31354,
+    "word": "出漁権",
+    "kana": "しゅつぎょけん",
+    "senses": [
+      {
+        "sense_id": 257642,
+        "meaning_vi": "quyền đánh cá",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền đánh cá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền đánh cá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31355,
+    "word": "出京",
+    "kana": "しゅっきょう",
+    "senses": [
+      {
+        "sense_id": 257643,
+        "meaning_vi": "rời khỏi thủ đô; đi đến thủ đô",
+        "confidence": "high",
+        "search_keywords": [
+          "rời khỏi thủ đô",
+          "đi đến thủ đô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời khỏi thủ đô; đi đến thủ đô",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257644,
+        "meaning_vi": "rời thủ đô",
+        "confidence": "high",
+        "search_keywords": [
+          "rời thủ đô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời thủ đô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31356,
+    "word": "出郷",
+    "kana": "しゅっきょう",
+    "senses": [
+      {
+        "sense_id": 257645,
+        "meaning_vi": "rời bỏ quê hương; linh mục đi dạy",
+        "confidence": "high",
+        "search_keywords": [
+          "rời bỏ quê hương",
+          "linh mục đi dạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rời bỏ quê hương; linh mục đi dạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31357,
+    "word": "出勤",
+    "kana": "しゅっきん",
+    "senses": [
+      {
+        "sense_id": 257646,
+        "meaning_vi": "đi làm; đi làm; tham dự (tại nơi làm việc); đang ở nơi làm việc; sự hiện diện (tại văn phòng); báo cáo công việc",
+        "confidence": "high",
+        "search_keywords": [
+          "đi làm",
+          "tham dự (tại nơi làm việc)",
+          "đang ở nơi làm việc",
+          "sự hiện diện (tại văn phòng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi làm; đi làm; tham dự (tại nơi làm việc); đang ở nơi làm việc; sự hiện diện (tại văn phòng); báo cáo công việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31358,
+    "word": "出勤時間",
+    "kana": "しゅっきんじかん",
+    "senses": [
+      {
+        "sense_id": 257647,
+        "meaning_vi": "thời gian báo cáo công việc",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian báo cáo công việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian báo cáo công việc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257648,
+        "meaning_vi": "thời gian một người rời khỏi nhà để đi làm",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian một người rời khỏi nhà để đi làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian một người rời khỏi nhà để đi làm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31359,
+    "word": "出勤者",
+    "kana": "しゅっきんしゃ",
+    "senses": [
+      {
+        "sense_id": 257649,
+        "meaning_vi": "công nhân đang làm việc",
+        "confidence": "high",
+        "search_keywords": [
+          "công nhân đang làm việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công nhân đang làm việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31360,
+    "word": "出勤日",
+    "kana": "しゅっきんび",
+    "senses": [
+      {
+        "sense_id": 257650,
+        "meaning_vi": "ngày làm việc của nhân viên",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày làm việc của nhân viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày làm việc của nhân viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31361,
+    "word": "出勤簿",
+    "kana": "しゅっきんぼ",
+    "senses": [
+      {
+        "sense_id": 257651,
+        "meaning_vi": "hồ sơ tham dự của nhân viên",
+        "confidence": "high",
+        "search_keywords": [
+          "hồ sơ tham dự của nhân viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồ sơ tham dự của nhân viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31362,
+    "word": "出金",
+    "kana": "しゅっきん",
+    "senses": [
+      {
+        "sense_id": 257652,
+        "meaning_vi": "rút tiền (tiền); sự chi trả; sự đóng góp; sự đầu tư; tài chính",
+        "confidence": "high",
+        "search_keywords": [
+          "rút tiền (tiền)",
+          "sự chi trả",
+          "sự đóng góp",
+          "sự đầu tư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rút tiền (tiền); sự chi trả; sự đóng góp; sự đầu tư; tài chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31363,
+    "word": "出金額",
+    "kana": "しゅっきんがく",
+    "senses": [
+      {
+        "sense_id": 257653,
+        "meaning_vi": "số tiền đầu tư hoặc đóng góp",
+        "confidence": "high",
+        "search_keywords": [
+          "số tiền đầu tư hoặc đóng góp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số tiền đầu tư hoặc đóng góp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31364,
+    "word": "出金者",
+    "kana": "しゅっきんしゃ",
+    "senses": [
+      {
+        "sense_id": 257654,
+        "meaning_vi": "người đóng góp; nhà đầu tư; nhà tài chính",
+        "confidence": "high",
+        "search_keywords": [
+          "người đóng góp",
+          "nhà đầu tư",
+          "nhà tài chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đóng góp; nhà đầu tư; nhà tài chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31365,
+    "word": "出群",
+    "kana": "しゅつぐん",
+    "senses": [
+      {
+        "sense_id": 257655,
+        "meaning_vi": "sự xuất sắc; sự ưu việt",
+        "confidence": "high",
+        "search_keywords": [
+          "sự xuất sắc",
+          "sự ưu việt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự xuất sắc; sự ưu việt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31366,
+    "word": "出軍",
+    "kana": "しゅつぐん",
+    "senses": [
+      {
+        "sense_id": 257656,
+        "meaning_vi": "cuộc thám hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc thám hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc thám hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31367,
+    "word": "出稽古",
+    "kana": "でげいこ",
+    "senses": [
+      {
+        "sense_id": 257657,
+        "meaning_vi": "dạy học tại nhà học sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "dạy học tại nhà học sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dạy học tại nhà học sinh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 257658,
+        "meaning_vi": "sẽ tập luyện ở chuồng ngựa khác ngoài chuồng của bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "sẽ tập luyện ở chuồng ngựa khác ngoài chuồng của bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sẽ tập luyện ở chuồng ngựa khác ngoài chuồng của bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 31368,
+    "word": "出迎え",
+    "kana": "でむかえ",
+    "senses": [
+      {
+        "sense_id": 257659,
+        "meaning_vi": "cuộc họp; thu nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc họp",
+          "thu nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc họp; thu nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

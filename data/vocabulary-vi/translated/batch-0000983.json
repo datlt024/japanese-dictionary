@@ -1,0 +1,633 @@
+[
+  {
+    "vocabulary_id": 24693,
+    "word": "吾人",
+    "kana": "ごじん",
+    "senses": [
+      {
+        "sense_id": 248883,
+        "meaning_vi": "chúng tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "chúng tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chúng tôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24694,
+    "word": "吾妹",
+    "kana": "わぎも",
+    "senses": [
+      {
+        "sense_id": 248884,
+        "meaning_vi": "Tình yêu của tôi; Em yêu của tôi; em yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "Tình yêu của tôi",
+          "Em yêu của tôi",
+          "em yêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tình yêu của tôi; Em yêu của tôi; em yêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24695,
+    "word": "吾木香",
+    "kana": "われもこう",
+    "senses": [
+      {
+        "sense_id": 248885,
+        "meaning_vi": "vết bỏng lớn (Sanguisorba officinalis)",
+        "confidence": "high",
+        "search_keywords": [
+          "vết bỏng lớn (Sanguisorba officinalis)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vết bỏng lớn (Sanguisorba officinalis)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24696,
+    "word": "娯楽",
+    "kana": "ごらく",
+    "senses": [
+      {
+        "sense_id": 248886,
+        "meaning_vi": "vui chơi giải trí; sự giải trí; giải trí; vinh hạnh; trò tiêu khiển; sở thích",
+        "confidence": "high",
+        "search_keywords": [
+          "vui chơi giải trí",
+          "sự giải trí",
+          "giải trí",
+          "vinh hạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vui chơi giải trí; sự giải trí; giải trí; vinh hạnh; trò tiêu khiển; sở thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24697,
+    "word": "娯楽室",
+    "kana": "ごらくしつ",
+    "senses": [
+      {
+        "sense_id": 248887,
+        "meaning_vi": "phòng giải trí",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng giải trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng giải trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24698,
+    "word": "娯楽番組",
+    "kana": "ごらくばんぐみ",
+    "senses": [
+      {
+        "sense_id": 248888,
+        "meaning_vi": "chương trình vui chơi giải trí; chương trình giải trí",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình vui chơi giải trí",
+          "chương trình giải trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình vui chơi giải trí; chương trình giải trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24699,
+    "word": "後",
+    "kana": "あと",
+    "senses": [
+      {
+        "sense_id": 248889,
+        "meaning_vi": "phía sau; phía sau",
+        "confidence": "high",
+        "search_keywords": [
+          "phía sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phía sau; phía sau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248890,
+        "meaning_vi": "sau đó; sau này",
+        "confidence": "high",
+        "search_keywords": [
+          "sau đó",
+          "sau này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau đó; sau này",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248891,
+        "meaning_vi": "phần còn lại; phần còn lại",
+        "confidence": "high",
+        "search_keywords": [
+          "phần còn lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần còn lại; phần còn lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248892,
+        "meaning_vi": "nhiều hơn (ví dụ: thêm năm phút nữa); trái",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiều hơn (ví dụ: thêm năm phút nữa)",
+          "trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiều hơn (ví dụ: thêm năm phút nữa); trái",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248893,
+        "meaning_vi": "Mà còn; ngoài ra",
+        "confidence": "high",
+        "search_keywords": [
+          "Mà còn",
+          "ngoài ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mà còn; ngoài ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248894,
+        "meaning_vi": "hậu duệ; người kế nhiệm; người thừa kế",
+        "confidence": "high",
+        "search_keywords": [
+          "hậu duệ",
+          "người kế nhiệm",
+          "người thừa kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hậu duệ; người kế nhiệm; người thừa kế",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248895,
+        "meaning_vi": "sau cái chết của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "sau cái chết của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau cái chết của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248896,
+        "meaning_vi": "quá khứ; trước đó",
+        "confidence": "high",
+        "search_keywords": [
+          "quá khứ",
+          "trước đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá khứ; trước đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24700,
+    "word": "後",
+    "kana": "のち",
+    "senses": [
+      {
+        "sense_id": 248897,
+        "meaning_vi": "sau đó; sau đó",
+        "confidence": "high",
+        "search_keywords": [
+          "sau đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau đó; sau đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248898,
+        "meaning_vi": "tương lai",
+        "confidence": "high",
+        "search_keywords": [
+          "tương lai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương lai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248899,
+        "meaning_vi": "sau cái chết của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "sau cái chết của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau cái chết của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248900,
+        "meaning_vi": "hậu duệ",
+        "confidence": "high",
+        "search_keywords": [
+          "hậu duệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hậu duệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24701,
+    "word": "後から後から",
+    "kana": "あとからあとから",
+    "senses": [
+      {
+        "sense_id": 248901,
+        "meaning_vi": "cái này đến cái khác; liên tiếp nhanh chóng",
+        "confidence": "high",
+        "search_keywords": [
+          "cái này đến cái khác",
+          "liên tiếp nhanh chóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái này đến cái khác; liên tiếp nhanh chóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24702,
+    "word": "後で",
+    "kana": "あとで",
+    "senses": [
+      {
+        "sense_id": 248902,
+        "meaning_vi": "sau này (trên); sau đó",
+        "confidence": "high",
+        "search_keywords": [
+          "sau này (trên)",
+          "sau đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau này (trên); sau đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24703,
+    "word": "後の方",
+    "kana": "あとのほう",
+    "senses": [
+      {
+        "sense_id": 248903,
+        "meaning_vi": "sau này",
+        "confidence": "high",
+        "search_keywords": [
+          "sau này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24704,
+    "word": "遅れを取る",
+    "kana": "おくれをとる",
+    "senses": [
+      {
+        "sense_id": 248904,
+        "meaning_vi": "tụt lại phía sau; tụt lại phía sau; bị bỏ xa; bị đánh",
+        "confidence": "high",
+        "search_keywords": [
+          "tụt lại phía sau",
+          "bị bỏ xa",
+          "bị đánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tụt lại phía sau; tụt lại phía sau; bị bỏ xa; bị đánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24705,
+    "word": "後れ毛",
+    "kana": "おくれげ",
+    "senses": [
+      {
+        "sense_id": 248905,
+        "meaning_vi": "tóc lộn xộn",
+        "confidence": "high",
+        "search_keywords": [
+          "tóc lộn xộn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tóc lộn xộn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24706,
+    "word": "後ろ",
+    "kana": "うしろ",
+    "senses": [
+      {
+        "sense_id": 248906,
+        "meaning_vi": "mặt sau; phía sau; phía sau",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt sau",
+          "phía sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt sau; phía sau; phía sau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24707,
+    "word": "後ろ姿",
+    "kana": "うしろすがた",
+    "senses": [
+      {
+        "sense_id": 248907,
+        "meaning_vi": "(của một người) xuất hiện từ phía sau; người nhìn từ phía sau; xem lại; hình rút lui",
+        "confidence": "high",
+        "search_keywords": [
+          "(của một người) xuất hiện từ phía sau",
+          "người nhìn từ phía sau",
+          "xem lại",
+          "hình rút lui"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(của một người) xuất hiện từ phía sau; người nhìn từ phía sau; xem lại; hình rút lui",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24708,
+    "word": "後ろ盾",
+    "kana": "うしろだて",
+    "senses": [
+      {
+        "sense_id": 248908,
+        "meaning_vi": "ủng hộ; ủng hộ; người ủng hộ; người ủng hộ; người bảo trợ; nhà tài trợ",
+        "confidence": "high",
+        "search_keywords": [
+          "ủng hộ",
+          "người ủng hộ",
+          "người bảo trợ",
+          "nhà tài trợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủng hộ; ủng hộ; người ủng hộ; người ủng hộ; người bảo trợ; nhà tài trợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 248909,
+        "meaning_vi": "lá chắn bảo vệ lưng của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "lá chắn bảo vệ lưng của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lá chắn bảo vệ lưng của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24709,
+    "word": "後ろ足",
+    "kana": "うしろあし",
+    "senses": [
+      {
+        "sense_id": 248910,
+        "meaning_vi": "chân sau; chân sau",
+        "confidence": "high",
+        "search_keywords": [
+          "chân sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chân sau; chân sau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24710,
+    "word": "後遺症",
+    "kana": "こういしょう",
+    "senses": [
+      {
+        "sense_id": 248911,
+        "meaning_vi": "triệu chứng tiên lượng; hậu quả; di chứng",
+        "confidence": "high",
+        "search_keywords": [
+          "triệu chứng tiên lượng",
+          "hậu quả",
+          "di chứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triệu chứng tiên lượng; hậu quả; di chứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24711,
+    "word": "後胤",
+    "kana": "こういん",
+    "senses": [
+      {
+        "sense_id": 248912,
+        "meaning_vi": "hậu duệ; cành ghép",
+        "confidence": "high",
+        "search_keywords": [
+          "hậu duệ",
+          "cành ghép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hậu duệ; cành ghép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 24712,
+    "word": "後援",
+    "kana": "こうえん",
+    "senses": [
+      {
+        "sense_id": 248913,
+        "meaning_vi": "ủng hộ; ủng hộ",
+        "confidence": "high",
+        "search_keywords": [
+          "ủng hộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủng hộ; ủng hộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

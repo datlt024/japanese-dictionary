@@ -1,550 +1,511 @@
 [
-{
-"vocabulary_id": 2222,
-"word": "ウイルス",
-"kana": "ウイルス",
-"senses": [
-{
-"sense_id": 220447,
-"meaning_vi": "virus",
-"confidence": "high",
-"search_keywords": [
-"virus",
-"vi-rút",
-"mầm bệnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "virus; vi-rút gây bệnh hoặc lây nhiễm hệ thống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2223,
-"word": "ウインク",
-"kana": "ウインク",
-"senses": [
-{
-"sense_id": 220448,
-"meaning_vi": "nháy mắt",
-"confidence": "high",
-"search_keywords": [
-"nháy mắt",
-"đá lông nheo",
-"wink"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nháy một mắt để ra hiệu hoặc biểu lộ tình cảm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2224,
-"word": "ウイング",
-"kana": "ウイング",
-"senses": [
-{
-"sense_id": 220449,
-"meaning_vi": "cánh",
-"confidence": "high",
-"search_keywords": [
-"cánh",
-"cánh máy bay",
-"wing"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cánh của chim, máy bay hoặc vật thể tương tự",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220450,
-"meaning_vi": "tiền vệ cánh",
-"confidence": "high",
-"search_keywords": [
-"tiền vệ cánh",
-"cầu thủ chạy cánh",
-"winger"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vị trí cầu thủ chơi ở biên trong bóng đá, rugby",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220451,
-"meaning_vi": "cánh nhà",
-"confidence": "high",
-"search_keywords": [
-"cánh nhà",
-"dãy nhà phụ",
-"wing"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần cánh hoặc khu nhà nhánh của một tòa nhà",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220452,
-"meaning_vi": "cạnh mất cân bằng",
-"confidence": "medium",
-"search_keywords": [
-"cạnh mất cân bằng",
-"othello",
-"wing"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thế cạnh mất cân bằng trong trò Othello",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2225,
-"word": "ウイングカラー",
-"kana": "ウイングカラー",
-"senses": [
-{
-"sense_id": 220453,
-"meaning_vi": "cổ áo cánh én",
-"confidence": "high",
-"search_keywords": [
-"cổ áo cánh én",
-"wing collar",
-"cổ áo lễ phục"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu cổ áo trang trọng có hai đầu cổ bẻ nhỏ như cánh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2226,
-"word": "ウィンザーチェア",
-"kana": "ウィンザーチェア",
-"senses": [
-{
-"sense_id": 220454,
-"meaning_vi": "ghế Windsor",
-"confidence": "high",
-"search_keywords": [
-"ghế Windsor",
-"Windsor chair",
-"ghế tựa gỗ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loại ghế gỗ có lưng tựa gồm nhiều thanh song",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2227,
-"word": "ウインタースポーツ",
-"kana": "ウインタースポーツ",
-"senses": [
-{
-"sense_id": 220455,
-"meaning_vi": "thể thao mùa đông",
-"confidence": "high",
-"search_keywords": [
-"thể thao mùa đông",
-"winter sports",
-"môn thể thao tuyết"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "các môn thể thao chơi trên tuyết hoặc băng vào mùa đông",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2228,
-"word": "ウインターリゾート",
-"kana": "ウインターリゾート",
-"senses": [
-{
-"sense_id": 220456,
-"meaning_vi": "khu nghỉ dưỡng mùa đông",
-"confidence": "high",
-"search_keywords": [
-"khu nghỉ dưỡng mùa đông",
-"winter resort",
-"khu trượt tuyết"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu nghỉ dưỡng phục vụ du lịch và thể thao mùa đông",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2229,
-"word": "ウインチ",
-"kana": "ウインチ",
-"senses": [
-{
-"sense_id": 220457,
-"meaning_vi": "tời kéo",
-"confidence": "high",
-"search_keywords": [
-"tời kéo",
-"máy tời",
-"winch"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị cuốn dây dùng để kéo hoặc nâng vật nặng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2230,
-"word": "ウィンドウショッピング",
-"kana": "ウィンドウショッピング",
-"senses": [
-{
-"sense_id": 220458,
-"meaning_vi": "ngắm hàng qua cửa kính",
-"confidence": "high",
-"search_keywords": [
-"ngắm hàng qua cửa kính",
-"xem hàng không mua",
-"window shopping"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đi xem hàng trưng bày mà không nhất thiết mua",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2231,
-"word": "ウィンドウディスプレイ",
-"kana": "ウィンドウディスプレイ",
-"senses": [
-{
-"sense_id": 220459,
-"meaning_vi": "trưng bày cửa kính",
-"confidence": "high",
-"search_keywords": [
-"trưng bày cửa kính",
-"window display",
-"trưng bày cửa hàng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách trưng bày hàng hóa trong cửa kính cửa hàng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2232,
-"word": "ウインドードレッシング",
-"kana": "ウインドードレッシング",
-"senses": [
-{
-"sense_id": 220460,
-"meaning_vi": "trang trí cửa kính",
-"confidence": "medium",
-"search_keywords": [
-"trang trí cửa kính",
-"window dressing",
-"trưng bày cửa hàng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc trang trí hoặc sắp đặt hàng hóa ở cửa kính trưng bày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2233,
-"word": "ウインドサーファー",
-"kana": "ウインドサーファー",
-"senses": [
-{
-"sense_id": 220461,
-"meaning_vi": "người lướt ván buồm",
-"confidence": "high",
-"search_keywords": [
-"người lướt ván buồm",
-"windsurfer",
-"vận động viên lướt ván buồm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người chơi môn lướt ván buồm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2234,
-"word": "ウインドサーフィン",
-"kana": "ウインドサーフィン",
-"senses": [
-{
-"sense_id": 220462,
-"meaning_vi": "lướt ván buồm",
-"confidence": "high",
-"search_keywords": [
-"lướt ván buồm",
-"windsurfing",
-"ván buồm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "môn thể thao dùng ván có buồm để di chuyển trên mặt nước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2235,
-"word": "ウインドフォール",
-"kana": "ウインドフォール",
-"senses": [
-{
-"sense_id": 220463,
-"meaning_vi": "khoản lợi bất ngờ",
-"confidence": "high",
-"search_keywords": [
-"khoản lợi bất ngờ",
-"may mắn bất ngờ",
-"windfall"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khoản tiền hoặc lợi ích nhận được bất ngờ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2236,
-"word": "ウインドブレーカー",
-"kana": "ウインドブレーカー",
-"senses": [
-{
-"sense_id": 220464,
-"meaning_vi": "áo gió",
-"confidence": "high",
-"search_keywords": [
-"áo gió",
-"áo khoác gió",
-"windbreaker"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "áo khoác nhẹ dùng để chắn gió",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2237,
-"word": "ウインドヤッケ",
-"kana": "ウインドヤッケ",
-"senses": [
-{
-"sense_id": 220465,
-"meaning_vi": "áo khoác gió",
-"confidence": "high",
-"search_keywords": [
-"áo khoác gió",
-"áo gió",
-"wind jacket"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "áo khoác nhẹ dùng để chắn gió khi đi ngoài trời",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2238,
-"word": "ウインナーソーセージ",
-"kana": "ウインナーソーセージ",
-"senses": [
-{
-"sense_id": 220466,
-"meaning_vi": "xúc xích Vienna",
-"confidence": "high",
-"search_keywords": [
-"xúc xích Vienna",
-"xúc xích wiener",
-"Vienna sausage"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loại xúc xích nhỏ kiểu Vienna",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2239,
-"word": "ウィンブルドン",
-"kana": "ウィンブルドン",
-"senses": [
-{
-"sense_id": 220467,
-"meaning_vi": "Wimbledon",
-"confidence": "high",
-"search_keywords": [
-"Wimbledon",
-"giải Wimbledon",
-"quần vợt Wimbledon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giải quần vợt Wimbledon tại Anh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2240,
-"word": "ウェイター",
-"kana": "ウェイター",
-"senses": [
-{
-"sense_id": 220468,
-"meaning_vi": "nam phục vụ bàn",
-"confidence": "high",
-"search_keywords": [
-"nam phục vụ bàn",
-"bồi bàn nam",
-"waiter"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nam nhân viên phục vụ khách tại nhà hàng, quán ăn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2241,
-"word": "ウェイト",
-"kana": "ウェイト",
-"senses": [
-{
-"sense_id": 220469,
-"meaning_vi": "cân nặng",
-"confidence": "high",
-"search_keywords": [
-"cân nặng",
-"trọng lượng",
-"weight"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cân nặng hoặc trọng lượng cơ thể",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220470,
-"meaning_vi": "mức độ ưu tiên",
-"confidence": "high",
-"search_keywords": [
-"mức độ ưu tiên",
-"tầm quan trọng",
-"trọng số"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tầm quan trọng, trọng số hoặc mức độ nhấn mạnh",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2222,
+    "word": "ウイルス",
+    "kana": "ウイルス",
+    "senses": [
+      {
+        "sense_id": 220447,
+        "meaning_vi": "virus",
+        "confidence": "low",
+        "search_keywords": [
+          "virus"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "virus",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2223,
+    "word": "ウインク",
+    "kana": "ウインク",
+    "senses": [
+      {
+        "sense_id": 220448,
+        "meaning_vi": "nháy mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "nháy mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nháy mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2224,
+    "word": "ウイング",
+    "kana": "ウイング",
+    "senses": [
+      {
+        "sense_id": 220449,
+        "meaning_vi": "cánh (của chim, máy bay...)",
+        "confidence": "high",
+        "search_keywords": [
+          "cánh (của chim, máy bay...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cánh (của chim, máy bay...)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220450,
+        "meaning_vi": "cánh (trong bóng đá, bóng bầu dục, v.v.); cầu thủ chạy cánh",
+        "confidence": "high",
+        "search_keywords": [
+          "cánh (trong bóng đá, bóng bầu dục, v.v.)",
+          "cầu thủ chạy cánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cánh (trong bóng đá, bóng bầu dục, v.v.); cầu thủ chạy cánh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220451,
+        "meaning_vi": "cánh (của một tòa nhà)",
+        "confidence": "high",
+        "search_keywords": [
+          "cánh (của một tòa nhà)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cánh (của một tòa nhà)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220452,
+        "meaning_vi": "cạnh không cân bằng (trong othello)",
+        "confidence": "high",
+        "search_keywords": [
+          "cạnh không cân bằng (trong othello)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cạnh không cân bằng (trong othello)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2225,
+    "word": "ウイングカラー",
+    "kana": "ウイングカラー",
+    "senses": [
+      {
+        "sense_id": 220453,
+        "meaning_vi": "cổ áo cánh",
+        "confidence": "high",
+        "search_keywords": [
+          "cổ áo cánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cổ áo cánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2226,
+    "word": "ウィンザーチェア",
+    "kana": "ウィンザーチェア",
+    "senses": [
+      {
+        "sense_id": 220454,
+        "meaning_vi": "ghế Windsor",
+        "confidence": "high",
+        "search_keywords": [
+          "ghế Windsor"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghế Windsor",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2227,
+    "word": "ウインタースポーツ",
+    "kana": "ウインタースポーツ",
+    "senses": [
+      {
+        "sense_id": 220455,
+        "meaning_vi": "thể thao mùa đông",
+        "confidence": "high",
+        "search_keywords": [
+          "thể thao mùa đông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thể thao mùa đông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2228,
+    "word": "ウインターリゾート",
+    "kana": "ウインターリゾート",
+    "senses": [
+      {
+        "sense_id": 220456,
+        "meaning_vi": "khu nghỉ dưỡng mùa đông",
+        "confidence": "high",
+        "search_keywords": [
+          "khu nghỉ dưỡng mùa đông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu nghỉ dưỡng mùa đông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2229,
+    "word": "ウインチ",
+    "kana": "ウインチ",
+    "senses": [
+      {
+        "sense_id": 220457,
+        "meaning_vi": "tời",
+        "confidence": "high",
+        "search_keywords": [
+          "tời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2230,
+    "word": "ウィンドウショッピング",
+    "kana": "ウィンドウショッピング",
+    "senses": [
+      {
+        "sense_id": 220458,
+        "meaning_vi": "mua sắm qua cửa sổ; nhìn qua cửa sổ",
+        "confidence": "high",
+        "search_keywords": [
+          "mua sắm qua cửa sổ",
+          "nhìn qua cửa sổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mua sắm qua cửa sổ; nhìn qua cửa sổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2231,
+    "word": "ウィンドウディスプレイ",
+    "kana": "ウィンドウディスプレイ",
+    "senses": [
+      {
+        "sense_id": 220459,
+        "meaning_vi": "cửa sổ hiển thị",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa sổ hiển thị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa sổ hiển thị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2232,
+    "word": "ウインドードレッシング",
+    "kana": "ウインドードレッシング",
+    "senses": [
+      {
+        "sense_id": 220460,
+        "meaning_vi": "thay đồ cửa sổ",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đồ cửa sổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đồ cửa sổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2233,
+    "word": "ウインドサーファー",
+    "kana": "ウインドサーファー",
+    "senses": [
+      {
+        "sense_id": 220461,
+        "meaning_vi": "người lướt ván buồm",
+        "confidence": "high",
+        "search_keywords": [
+          "người lướt ván buồm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lướt ván buồm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2234,
+    "word": "ウインドサーフィン",
+    "kana": "ウインドサーフィン",
+    "senses": [
+      {
+        "sense_id": 220462,
+        "meaning_vi": "lướt ván buồm",
+        "confidence": "high",
+        "search_keywords": [
+          "lướt ván buồm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lướt ván buồm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2235,
+    "word": "ウインドフォール",
+    "kana": "ウインドフォール",
+    "senses": [
+      {
+        "sense_id": 220463,
+        "meaning_vi": "trời cho",
+        "confidence": "high",
+        "search_keywords": [
+          "trời cho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trời cho",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2236,
+    "word": "ウインドブレーカー",
+    "kana": "ウインドブレーカー",
+    "senses": [
+      {
+        "sense_id": 220464,
+        "meaning_vi": "áo gió (áo khoác); áo gió",
+        "confidence": "high",
+        "search_keywords": [
+          "áo gió (áo khoác)",
+          "áo gió"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo gió (áo khoác); áo gió",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2237,
+    "word": "ウインドヤッケ",
+    "kana": "ウインドヤッケ",
+    "senses": [
+      {
+        "sense_id": 220465,
+        "meaning_vi": "áo gió; áo gió; áo khoác gió",
+        "confidence": "high",
+        "search_keywords": [
+          "áo gió",
+          "áo khoác gió"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo gió; áo gió; áo khoác gió",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2238,
+    "word": "ウインナーソーセージ",
+    "kana": "ウインナーソーセージ",
+    "senses": [
+      {
+        "sense_id": 220466,
+        "meaning_vi": "xúc xích Viên; xúc xích",
+        "confidence": "high",
+        "search_keywords": [
+          "xúc xích Viên",
+          "xúc xích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xúc xích Viên; xúc xích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2239,
+    "word": "ウィンブルドン",
+    "kana": "ウィンブルドン",
+    "senses": [
+      {
+        "sense_id": 220467,
+        "meaning_vi": "Wimbledon (giải quần vợt)",
+        "confidence": "high",
+        "search_keywords": [
+          "Wimbledon (giải quần vợt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Wimbledon (giải quần vợt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2240,
+    "word": "ウェイター",
+    "kana": "ウェイター",
+    "senses": [
+      {
+        "sense_id": 220468,
+        "meaning_vi": "bồi bàn",
+        "confidence": "high",
+        "search_keywords": [
+          "bồi bàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bồi bàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2241,
+    "word": "ウェイト",
+    "kana": "ウェイト",
+    "senses": [
+      {
+        "sense_id": 220469,
+        "meaning_vi": "cân nặng; trọng lượng cơ thể",
+        "confidence": "high",
+        "search_keywords": [
+          "cân nặng",
+          "trọng lượng cơ thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cân nặng; trọng lượng cơ thể",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220470,
+        "meaning_vi": "tầm quan trọng; cân nặng; nhấn mạnh; sự ưu tiên",
+        "confidence": "high",
+        "search_keywords": [
+          "tầm quan trọng",
+          "cân nặng",
+          "nhấn mạnh",
+          "sự ưu tiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tầm quan trọng; cân nặng; nhấn mạnh; sự ưu tiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

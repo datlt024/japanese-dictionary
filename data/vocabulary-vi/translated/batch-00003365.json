@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 84318,
+    "word": "情報可視化",
+    "kana": "じょうほうかしか",
+    "senses": [
+      {
+        "sense_id": 323979,
+        "meaning_vi": "trực quan hóa thông tin; trực quan hóa thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "trực quan hóa thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trực quan hóa thông tin; trực quan hóa thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84319,
+    "word": "情報量が多い",
+    "kana": "じょうほうりょうがおおい",
+    "senses": [
+      {
+        "sense_id": 323980,
+        "meaning_vi": "có hàm lượng thông tin cao; nhiều thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "có hàm lượng thông tin cao",
+          "nhiều thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có hàm lượng thông tin cao; nhiều thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84320,
+    "word": "瞬時獲得モデル",
+    "kana": "しゅんじかくとくモデル",
+    "senses": [
+      {
+        "sense_id": 323981,
+        "meaning_vi": "mô hình thu thập tức thời",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình thu thập tức thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình thu thập tức thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84321,
+    "word": "心的表示",
+    "kana": "しんてきひょうじ",
+    "senses": [
+      {
+        "sense_id": 323982,
+        "meaning_vi": "đại diện tinh thần",
+        "confidence": "high",
+        "search_keywords": [
+          "đại diện tinh thần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại diện tinh thần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84322,
+    "word": "心理主義",
+    "kana": "しんりしゅぎ",
+    "senses": [
+      {
+        "sense_id": 323983,
+        "meaning_vi": "chủ nghĩa tâm lý",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa tâm lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa tâm lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84323,
+    "word": "推移的",
+    "kana": "すいいてき",
+    "senses": [
+      {
+        "sense_id": 323984,
+        "meaning_vi": "chuyển tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84324,
+    "word": "生物情報学",
+    "kana": "せいぶつじょうほうがく",
+    "senses": [
+      {
+        "sense_id": 323985,
+        "meaning_vi": "tin sinh học",
+        "confidence": "high",
+        "search_keywords": [
+          "tin sinh học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tin sinh học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84325,
+    "word": "説明的妥当性",
+    "kana": "せつめいてきだとうせい",
+    "senses": [
+      {
+        "sense_id": 323986,
+        "meaning_vi": "sự giải thích thỏa đáng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự giải thích thỏa đáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự giải thích thỏa đáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84326,
+    "word": "先行詞",
+    "kana": "せんこうし",
+    "senses": [
+      {
+        "sense_id": 323987,
+        "meaning_vi": "tiền thân",
+        "confidence": "high",
+        "search_keywords": [
+          "tiền thân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiền thân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84327,
+    "word": "先行条件",
+    "kana": "せんこうじょうけん",
+    "senses": [
+      {
+        "sense_id": 323988,
+        "meaning_vi": "điều kiện trước đó",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện trước đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện trước đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84328,
+    "word": "線形順序",
+    "kana": "せんけいじゅんじょ",
+    "senses": [
+      {
+        "sense_id": 323989,
+        "meaning_vi": "ưu tiên tuyến tính; LP",
+        "confidence": "high",
+        "search_keywords": [
+          "ưu tiên tuyến tính",
+          "LP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ưu tiên tuyến tính; LP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84329,
+    "word": "宣言的",
+    "kana": "せんげんてき",
+    "senses": [
+      {
+        "sense_id": 323990,
+        "meaning_vi": "khai báo",
+        "confidence": "high",
+        "search_keywords": [
+          "khai báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84330,
+    "word": "相関ルール",
+    "kana": "そうかんルール",
+    "senses": [
+      {
+        "sense_id": 323991,
+        "meaning_vi": "quy tắc liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "quy tắc liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy tắc liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84331,
+    "word": "挿入文",
+    "kana": "そうにゅうぶん",
+    "senses": [
+      {
+        "sense_id": 323992,
+        "meaning_vi": "câu trong ngoặc",
+        "confidence": "high",
+        "search_keywords": [
+          "câu trong ngoặc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu trong ngoặc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84332,
+    "word": "属性値行列",
+    "kana": "ぞくせいちぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 323993,
+        "meaning_vi": "ma trận giá trị thuộc tính; AVM",
+        "confidence": "high",
+        "search_keywords": [
+          "ma trận giá trị thuộc tính",
+          "AVM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma trận giá trị thuộc tính; AVM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84333,
+    "word": "束縛継承原理",
+    "kana": "そくばくけいしょうげんり",
+    "senses": [
+      {
+        "sense_id": 323994,
+        "meaning_vi": "nguyên tắc thừa kế ràng buộc; BIP",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên tắc thừa kế ràng buộc",
+          "BIP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên tắc thừa kế ràng buộc; BIP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84334,
+    "word": "束縛理論",
+    "kana": "そくばくりろん",
+    "senses": [
+      {
+        "sense_id": 323995,
+        "meaning_vi": "lý thuyết ràng buộc",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết ràng buộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết ràng buộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84335,
+    "word": "束縛変項",
+    "kana": "そくばくへんこう",
+    "senses": [
+      {
+        "sense_id": 323996,
+        "meaning_vi": "biến ràng buộc",
+        "confidence": "high",
+        "search_keywords": [
+          "biến ràng buộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến ràng buộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84336,
+    "word": "素出力条件",
+    "kana": "そしゅつりょくじょうけん",
+    "senses": [
+      {
+        "sense_id": 323997,
+        "meaning_vi": "điều kiện đầu ra trần",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện đầu ra trần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện đầu ra trần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84337,
+    "word": "素性構造",
+    "kana": "そせいこうぞう",
+    "senses": [
+      {
+        "sense_id": 323998,
+        "meaning_vi": "cấu trúc đặc trưng",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc đặc trưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc đặc trưng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

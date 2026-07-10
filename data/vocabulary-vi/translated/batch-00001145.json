@@ -1,0 +1,527 @@
+[
+  {
+    "vocabulary_id": 29099,
+    "word": "字義",
+    "kana": "じぎ",
+    "senses": [
+      {
+        "sense_id": 254633,
+        "meaning_vi": "nghĩa của một từ; ý nghĩa của chữ kanji (tạo nên một từ)",
+        "confidence": "high",
+        "search_keywords": [
+          "nghĩa của một từ",
+          "ý nghĩa của chữ kanji (tạo nên một từ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghĩa của một từ; ý nghĩa của chữ kanji (tạo nên một từ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29100,
+    "word": "字句",
+    "kana": "じく",
+    "senses": [
+      {
+        "sense_id": 254634,
+        "meaning_vi": "cách diễn đạt; từ và cụm từ; cách diễn đạt; mã thông báo",
+        "confidence": "high",
+        "search_keywords": [
+          "cách diễn đạt",
+          "từ và cụm từ",
+          "mã thông báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách diễn đạt; từ và cụm từ; cách diễn đạt; mã thông báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29101,
+    "word": "字形",
+    "kana": "じけい",
+    "senses": [
+      {
+        "sense_id": 254635,
+        "meaning_vi": "phong cách nhân vật; dạng ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách nhân vật",
+          "dạng ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách nhân vật; dạng ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29102,
+    "word": "字源",
+    "kana": "じげん",
+    "senses": [
+      {
+        "sense_id": 254636,
+        "meaning_vi": "nguồn gốc của một nhân vật",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn gốc của một nhân vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn gốc của một nhân vật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254637,
+        "meaning_vi": "thành phần của một ký tự Trung Quốc",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần của một ký tự Trung Quốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần của một ký tự Trung Quốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254638,
+        "meaning_vi": "Ký tự Trung Quốc mà từ đó ký tự kana được bắt nguồn",
+        "confidence": "high",
+        "search_keywords": [
+          "Ký tự Trung Quốc mà từ đó ký tự kana được bắt nguồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ký tự Trung Quốc mà từ đó ký tự kana được bắt nguồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29103,
+    "word": "字体",
+    "kana": "じたい",
+    "senses": [
+      {
+        "sense_id": 254639,
+        "meaning_vi": "dạng của một ký tự (ví dụ: đơn giản hóa, truyền thống)",
+        "confidence": "high",
+        "search_keywords": [
+          "dạng của một ký tự (ví dụ: đơn giản hóa, truyền thống)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dạng của một ký tự (ví dụ: đơn giản hóa, truyền thống)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254640,
+        "meaning_vi": "kiểu; kiểu chữ; phông chữ",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu",
+          "kiểu chữ",
+          "phông chữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu; kiểu chữ; phông chữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29104,
+    "word": "字典",
+    "kana": "じてん",
+    "senses": [
+      {
+        "sense_id": 254641,
+        "meaning_vi": "từ điển chữ Hán; từ điển kanji",
+        "confidence": "high",
+        "search_keywords": [
+          "từ điển chữ Hán",
+          "từ điển kanji"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ điển chữ Hán; từ điển kanji",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29105,
+    "word": "字幕",
+    "kana": "じまく",
+    "senses": [
+      {
+        "sense_id": 254642,
+        "meaning_vi": "phụ đề; chú thích",
+        "confidence": "high",
+        "search_keywords": [
+          "phụ đề",
+          "chú thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phụ đề; chú thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29106,
+    "word": "字訳",
+    "kana": "じやく",
+    "senses": [
+      {
+        "sense_id": 254643,
+        "meaning_vi": "phiên âm",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29107,
+    "word": "寺",
+    "kana": "てら",
+    "senses": [
+      {
+        "sense_id": 254644,
+        "meaning_vi": "ngôi chùa (Phật giáo)",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôi chùa (Phật giáo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôi chùa (Phật giáo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29108,
+    "word": "寺院",
+    "kana": "じいん",
+    "senses": [
+      {
+        "sense_id": 254645,
+        "meaning_vi": "chùa phật giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "chùa phật giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chùa phật giáo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254646,
+        "meaning_vi": "công trình tôn giáo; nhà thờ; thánh đường; nhà thờ Hồi giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "công trình tôn giáo",
+          "nhà thờ",
+          "thánh đường",
+          "nhà thờ Hồi giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công trình tôn giáo; nhà thờ; thánh đường; nhà thờ Hồi giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29109,
+    "word": "慈しみ",
+    "kana": "いつくしみ",
+    "senses": [
+      {
+        "sense_id": 254647,
+        "meaning_vi": "sự yêu mến; yêu; sự yêu thích; dịu dàng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự yêu mến",
+          "yêu",
+          "sự yêu thích",
+          "dịu dàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự yêu mến; yêu; sự yêu thích; dịu dàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29110,
+    "word": "慈しむ",
+    "kana": "いつくしむ",
+    "senses": [
+      {
+        "sense_id": 254648,
+        "meaning_vi": "có tình cảm hướng tới; thể hiện sự dịu dàng đối với; đối xử dịu dàng; yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "có tình cảm hướng tới",
+          "thể hiện sự dịu dàng đối với",
+          "đối xử dịu dàng",
+          "yêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có tình cảm hướng tới; thể hiện sự dịu dàng đối với; đối xử dịu dàng; yêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29111,
+    "word": "慈愛",
+    "kana": "じあい",
+    "senses": [
+      {
+        "sense_id": 254649,
+        "meaning_vi": "tình cảm (đặc biệt là cha mẹ); yêu; sự yêu mến",
+        "confidence": "high",
+        "search_keywords": [
+          "tình cảm (đặc biệt là cha mẹ)",
+          "yêu",
+          "sự yêu mến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình cảm (đặc biệt là cha mẹ); yêu; sự yêu mến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29112,
+    "word": "磁気浮上",
+    "kana": "じきふじょう",
+    "senses": [
+      {
+        "sense_id": 254878,
+        "meaning_vi": "đệm từ; bay lên từ",
+        "confidence": "high",
+        "search_keywords": [
+          "đệm từ",
+          "bay lên từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đệm từ; bay lên từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29113,
+    "word": "慈雨",
+    "kana": "じう",
+    "senses": [
+      {
+        "sense_id": 254650,
+        "meaning_vi": "đón mưa; mưa có ích; mưa may mắn; cơn mưa đến sau hạn hán",
+        "confidence": "high",
+        "search_keywords": [
+          "đón mưa",
+          "mưa có ích",
+          "mưa may mắn",
+          "cơn mưa đến sau hạn hán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đón mưa; mưa có ích; mưa may mắn; cơn mưa đến sau hạn hán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29114,
+    "word": "慈眼",
+    "kana": "じげん",
+    "senses": [
+      {
+        "sense_id": 254651,
+        "meaning_vi": "con mắt từ bi (của một vị Phật, một vị Bồ Tát đang quan sát nhân loại)",
+        "confidence": "high",
+        "search_keywords": [
+          "con mắt từ bi (của một vị Phật, một vị Bồ Tát đang quan sát nhân loại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con mắt từ bi (của một vị Phật, một vị Bồ Tát đang quan sát nhân loại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29115,
+    "word": "慈訓",
+    "kana": "じくん",
+    "senses": [
+      {
+        "sense_id": 254652,
+        "meaning_vi": "lời khuyên tử tế; lời khuyên của mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "lời khuyên tử tế",
+          "lời khuyên của mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời khuyên tử tế; lời khuyên của mẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29116,
+    "word": "慈兄",
+    "kana": "じけい",
+    "senses": [
+      {
+        "sense_id": 254653,
+        "meaning_vi": "anh trai tình cảm",
+        "confidence": "high",
+        "search_keywords": [
+          "anh trai tình cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anh trai tình cảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29117,
+    "word": "慈恵",
+    "kana": "じけい",
+    "senses": [
+      {
+        "sense_id": 254654,
+        "meaning_vi": "lòng thương xót và tình yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "lòng thương xót và tình yêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lòng thương xót và tình yêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29118,
+    "word": "慈心",
+    "kana": "じしん",
+    "senses": [
+      {
+        "sense_id": 254655,
+        "meaning_vi": "lòng nhân từ; lòng thương xót",
+        "confidence": "high",
+        "search_keywords": [
+          "lòng nhân từ",
+          "lòng thương xót"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lòng nhân từ; lòng thương xót",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "vocabulary_id": 29519,
+    "word": "七宝",
+    "kana": "しっぽう",
+    "senses": [
+      {
+        "sense_id": 255179,
+        "meaning_vi": "bảy báu vật (vàng, bạc, ngọc trai, mã não, pha lê, san hô, lưu ly)",
+        "confidence": "high",
+        "search_keywords": [
+          "bảy báu vật (vàng, bạc, ngọc trai, mã não, pha lê, san hô, lưu ly)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảy báu vật (vàng, bạc, ngọc trai, mã não, pha lê, san hô, lưu ly)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255180,
+        "meaning_vi": "đồ cloisonne",
+        "confidence": "high",
+        "search_keywords": [
+          "đồ cloisonne"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồ cloisonne",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255181,
+        "meaning_vi": "mẫu shippō (của các vòng tròn chồng lên nhau)",
+        "confidence": "high",
+        "search_keywords": [
+          "mẫu shippō (của các vòng tròn chồng lên nhau)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẫu shippō (của các vòng tròn chồng lên nhau)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255182,
+        "meaning_vi": "biểu tượng shippo",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng shippo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng shippo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29520,
+    "word": "七面鳥",
+    "kana": "しちめんちょう",
+    "senses": [
+      {
+        "sense_id": 255183,
+        "meaning_vi": "gà tây (Meleagris gallopavo)",
+        "confidence": "high",
+        "search_keywords": [
+          "gà tây (Meleagris gallopavo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gà tây (Meleagris gallopavo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29521,
+    "word": "七面倒",
+    "kana": "しちめんどう",
+    "senses": [
+      {
+        "sense_id": 255184,
+        "meaning_vi": "rất rắc rối; cực kỳ khó chịu; cực kỳ phức tạp; tẻ nhạt và khó chịu",
+        "confidence": "high",
+        "search_keywords": [
+          "rất rắc rối",
+          "cực kỳ khó chịu",
+          "cực kỳ phức tạp",
+          "tẻ nhạt và khó chịu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất rắc rối; cực kỳ khó chịu; cực kỳ phức tạp; tẻ nhạt và khó chịu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29522,
+    "word": "七夜",
+    "kana": "しちや",
+    "senses": [
+      {
+        "sense_id": 255185,
+        "meaning_vi": "lễ kỷ niệm ngày thứ bảy của một đứa trẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ kỷ niệm ngày thứ bảy của một đứa trẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ kỷ niệm ngày thứ bảy của một đứa trẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29523,
+    "word": "七曜",
+    "kana": "しちよう",
+    "senses": [
+      {
+        "sense_id": 255186,
+        "meaning_vi": "bảy ngôi sao sáng (mặt trời, mặt trăng, sao Thủy, sao Kim, sao Hỏa, sao Mộc và sao Thổ)",
+        "confidence": "high",
+        "search_keywords": [
+          "bảy ngôi sao sáng (mặt trời, mặt trăng, sao Thủy, sao Kim, sao Hỏa, sao Mộc và sao Thổ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảy ngôi sao sáng (mặt trời, mặt trăng, sao Thủy, sao Kim, sao Hỏa, sao Mộc và sao Thổ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255187,
+        "meaning_vi": "bảy ngày trong tuần",
+        "confidence": "high",
+        "search_keywords": [
+          "bảy ngày trong tuần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảy ngày trong tuần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29524,
+    "word": "叱り飛ばす",
+    "kana": "しかりとばす",
+    "senses": [
+      {
+        "sense_id": 255188,
+        "meaning_vi": "quở trách mạnh mẽ; để nói ra",
+        "confidence": "high",
+        "search_keywords": [
+          "quở trách mạnh mẽ",
+          "để nói ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quở trách mạnh mẽ; để nói ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29525,
+    "word": "叱り付ける",
+    "kana": "しかりつける",
+    "senses": [
+      {
+        "sense_id": 255189,
+        "meaning_vi": "quở trách; mắng mỏ một cách gay gắt",
+        "confidence": "high",
+        "search_keywords": [
+          "quở trách",
+          "mắng mỏ một cách gay gắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quở trách; mắng mỏ một cách gay gắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29526,
+    "word": "叱る",
+    "kana": "しかる",
+    "senses": [
+      {
+        "sense_id": 255190,
+        "meaning_vi": "mắng mỏ; khiển trách; quở trách; khiển trách",
+        "confidence": "high",
+        "search_keywords": [
+          "mắng mỏ",
+          "khiển trách",
+          "quở trách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mắng mỏ; khiển trách; quở trách; khiển trách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29527,
+    "word": "叱責",
+    "kana": "しっせき",
+    "senses": [
+      {
+        "sense_id": 255191,
+        "meaning_vi": "khiển trách; quở trách; khiển trách; la mắng",
+        "confidence": "high",
+        "search_keywords": [
+          "khiển trách",
+          "quở trách",
+          "la mắng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khiển trách; quở trách; khiển trách; la mắng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29528,
+    "word": "叱咤",
+    "kana": "しった",
+    "senses": [
+      {
+        "sense_id": 255192,
+        "meaning_vi": "la mắng; quở trách; khiển trách",
+        "confidence": "high",
+        "search_keywords": [
+          "la mắng",
+          "quở trách",
+          "khiển trách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "la mắng; quở trách; khiển trách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255193,
+        "meaning_vi": "sự khích lệ mãnh liệt; khuyến khích",
+        "confidence": "high",
+        "search_keywords": [
+          "sự khích lệ mãnh liệt",
+          "khuyến khích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự khích lệ mãnh liệt; khuyến khích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29529,
+    "word": "執り行う",
+    "kana": "とりおこなう",
+    "senses": [
+      {
+        "sense_id": 255194,
+        "meaning_vi": "tổ chức (một buổi lễ); để thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "tổ chức (một buổi lễ)",
+          "để thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổ chức (một buổi lễ); để thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29530,
+    "word": "執権",
+    "kana": "しっけん",
+    "senses": [
+      {
+        "sense_id": 255195,
+        "meaning_vi": "nhiếp chính cho Mạc phủ",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiếp chính cho Mạc phủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiếp chính cho Mạc phủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29531,
+    "word": "執行",
+    "kana": "しっこう",
+    "senses": [
+      {
+        "sense_id": 255196,
+        "meaning_vi": "thực hiện; thực hiện; hiệu suất; thực thi; bài tập; dịch vụ; tiến hành",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện",
+          "hiệu suất",
+          "thực thi",
+          "bài tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện; thực hiện; hiệu suất; thực thi; bài tập; dịch vụ; tiến hành",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255197,
+        "meaning_vi": "thi hành án",
+        "confidence": "high",
+        "search_keywords": [
+          "thi hành án"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thi hành án",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255198,
+        "meaning_vi": "nhà sư dẫn đầu thực hiện nhiều nhiệm vụ khác nhau trong một ngôi chùa",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà sư dẫn đầu thực hiện nhiều nhiệm vụ khác nhau trong một ngôi chùa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà sư dẫn đầu thực hiện nhiều nhiệm vụ khác nhau trong một ngôi chùa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29532,
+    "word": "執行猶予",
+    "kana": "しっこうゆうよ",
+    "senses": [
+      {
+        "sense_id": 255199,
+        "meaning_vi": "hoãn thi hành án; án treo",
+        "confidence": "high",
+        "search_keywords": [
+          "hoãn thi hành án",
+          "án treo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoãn thi hành án; án treo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29533,
+    "word": "執事",
+    "kana": "しつじ",
+    "senses": [
+      {
+        "sense_id": 255200,
+        "meaning_vi": "người quản lý; quản gia",
+        "confidence": "high",
+        "search_keywords": [
+          "người quản lý",
+          "quản gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người quản lý; quản gia",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255201,
+        "meaning_vi": "quan chức tòa án",
+        "confidence": "high",
+        "search_keywords": [
+          "quan chức tòa án"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan chức tòa án",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 255202,
+        "meaning_vi": "phó tế (Anh giáo, Lutheran, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "phó tế (Anh giáo, Lutheran, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phó tế (Anh giáo, Lutheran, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29534,
+    "word": "執心",
+    "kana": "しゅうしん",
+    "senses": [
+      {
+        "sense_id": 255203,
+        "meaning_vi": "sự tận tâm; đính kèm; sự mê đắm",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tận tâm",
+          "đính kèm",
+          "sự mê đắm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tận tâm; đính kèm; sự mê đắm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29535,
+    "word": "執達吏",
+    "kana": "しったつり",
+    "senses": [
+      {
+        "sense_id": 255204,
+        "meaning_vi": "thừa phát lại",
+        "confidence": "high",
+        "search_keywords": [
+          "thừa phát lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thừa phát lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29536,
+    "word": "執刀",
+    "kana": "しっとう",
+    "senses": [
+      {
+        "sense_id": 255205,
+        "meaning_vi": "thực hiện một ca phẫu thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện một ca phẫu thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện một ca phẫu thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29537,
+    "word": "執念",
+    "kana": "しゅうねん",
+    "senses": [
+      {
+        "sense_id": 255206,
+        "meaning_vi": "sự kiên trì; sự kiên trì; nỗi ám ảnh; sự không thể lay chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kiên trì",
+          "nỗi ám ảnh",
+          "sự không thể lay chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kiên trì; sự kiên trì; nỗi ám ảnh; sự không thể lay chuyển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29538,
+    "word": "執念深い",
+    "kana": "しゅうねんぶかい",
+    "senses": [
+      {
+        "sense_id": 255207,
+        "meaning_vi": "ngoan cường; kiên trì; bướng bỉnh; báo thù; cay nghiệt; báo thù",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoan cường",
+          "kiên trì",
+          "bướng bỉnh",
+          "báo thù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoan cường; kiên trì; bướng bỉnh; báo thù; cay nghiệt; báo thù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

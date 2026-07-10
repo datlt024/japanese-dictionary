@@ -1,0 +1,448 @@
+[
+  {
+    "vocabulary_id": 124487,
+    "word": "省略タグ最小化引数",
+    "kana": "しょうりゃくタグさいしょうかひきすう",
+    "senses": [
+      {
+        "sense_id": 368117,
+        "meaning_vi": "tham số giảm thiểu thẻ bị bỏ qua",
+        "confidence": "high",
+        "search_keywords": [
+          "tham số giảm thiểu thẻ bị bỏ qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham số giảm thiểu thẻ bị bỏ qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124488,
+    "word": "省略時コンテキスト",
+    "kana": "しょうりゃくじコンテキスト",
+    "senses": [
+      {
+        "sense_id": 368118,
+        "meaning_vi": "bối cảnh mặc định",
+        "confidence": "high",
+        "search_keywords": [
+          "bối cảnh mặc định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bối cảnh mặc định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124489,
+    "word": "省略時実体",
+    "kana": "しょうりゃくじじったい",
+    "senses": [
+      {
+        "sense_id": 368119,
+        "meaning_vi": "thực thể mặc định",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể mặc định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể mặc định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124490,
+    "word": "省略時値",
+    "kana": "しょうりゃくじち",
+    "senses": [
+      {
+        "sense_id": 368120,
+        "meaning_vi": "giá trị mặc định",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị mặc định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị mặc định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124491,
+    "word": "衝突検出",
+    "kana": "しょうとつけんしゅつ",
+    "senses": [
+      {
+        "sense_id": 368121,
+        "meaning_vi": "phát hiện va chạm; đĩa CD",
+        "confidence": "high",
+        "search_keywords": [
+          "phát hiện va chạm",
+          "đĩa CD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát hiện va chạm; đĩa CD",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124492,
+    "word": "証明機関",
+    "kana": "しょうめいきかん",
+    "senses": [
+      {
+        "sense_id": 368122,
+        "meaning_vi": "cơ quan chứng nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ quan chứng nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ quan chứng nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124493,
+    "word": "証明証",
+    "kana": "しょうめいしょう",
+    "senses": [
+      {
+        "sense_id": 368123,
+        "meaning_vi": "chứng chỉ người dùng; giấy chứng nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng chỉ người dùng",
+          "giấy chứng nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng chỉ người dùng; giấy chứng nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124494,
+    "word": "証明証経路",
+    "kana": "しょうめいしょうけいろ",
+    "senses": [
+      {
+        "sense_id": 368124,
+        "meaning_vi": "lộ trình chứng nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "lộ trình chứng nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lộ trình chứng nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124495,
+    "word": "証明証通し番号",
+    "kana": "しょうめいしょうとおしばんごう",
+    "senses": [
+      {
+        "sense_id": 368125,
+        "meaning_vi": "số sê-ri chứng chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "số sê-ri chứng chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số sê-ri chứng chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124496,
+    "word": "詳細課金データ",
+    "kana": "しょうさいかきんデータ",
+    "senses": [
+      {
+        "sense_id": 368126,
+        "meaning_vi": "dữ liệu thanh toán chi tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu thanh toán chi tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu thanh toán chi tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124497,
+    "word": "詳細設計",
+    "kana": "しょうさいせっけい",
+    "senses": [
+      {
+        "sense_id": 368127,
+        "meaning_vi": "thiết kế chi tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết kế chi tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết kế chi tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124498,
+    "word": "詳細説明",
+    "kana": "しょうさいせつめい",
+    "senses": [
+      {
+        "sense_id": 368128,
+        "meaning_vi": "giải thích chi tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "giải thích chi tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải thích chi tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124499,
+    "word": "障害しきい値",
+    "kana": "しょうがいしきいち",
+    "senses": [
+      {
+        "sense_id": 368129,
+        "meaning_vi": "ngưỡng lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "ngưỡng lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngưỡng lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124500,
+    "word": "障害セクタ",
+    "kana": "しょうがいセクタ",
+    "senses": [
+      {
+        "sense_id": 368130,
+        "meaning_vi": "khu vực bị lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực bị lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực bị lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124501,
+    "word": "障害回復",
+    "kana": "しょうがいかいふく",
+    "senses": [
+      {
+        "sense_id": 368131,
+        "meaning_vi": "phục hồi lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "phục hồi lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục hồi lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124502,
+    "word": "障害地点",
+    "kana": "しょうがいちてん",
+    "senses": [
+      {
+        "sense_id": 368132,
+        "meaning_vi": "điểm chặn; điểm tắc nghẽn",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm chặn",
+          "điểm tắc nghẽn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm chặn; điểm tắc nghẽn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124503,
+    "word": "障害追跡",
+    "kana": "しょうがいついせき",
+    "senses": [
+      {
+        "sense_id": 368133,
+        "meaning_vi": "dấu vết lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu vết lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu vết lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124504,
+    "word": "障害復旧",
+    "kana": "しょうがいふっきゅう",
+    "senses": [
+      {
+        "sense_id": 368134,
+        "meaning_vi": "khắc phục thảm họa; xóa lỗi; phục hồi lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "khắc phục thảm họa",
+          "xóa lỗi",
+          "phục hồi lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khắc phục thảm họa; xóa lỗi; phục hồi lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124505,
+    "word": "障害率しきい値",
+    "kana": "しょうがいりつしきいち",
+    "senses": [
+      {
+        "sense_id": 368135,
+        "meaning_vi": "ngưỡng tỷ lệ lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "ngưỡng tỷ lệ lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngưỡng tỷ lệ lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124506,
+    "word": "上りリンク",
+    "kana": "のぼりリンク",
+    "senses": [
+      {
+        "sense_id": 368136,
+        "meaning_vi": "liên kết ngược; đường lên",
+        "confidence": "high",
+        "search_keywords": [
+          "liên kết ngược",
+          "đường lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên kết ngược; đường lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

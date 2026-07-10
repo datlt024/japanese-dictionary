@@ -1,0 +1,472 @@
+[
+  {
+    "vocabulary_id": 101652,
+    "word": "襤褸っちい",
+    "kana": "ぼろっちい",
+    "senses": [
+      {
+        "sense_id": 343278,
+        "meaning_vi": "mòn mỏi; chạy xuống; đánh đập; tồi tàn; đổ nát",
+        "confidence": "high",
+        "search_keywords": [
+          "mòn mỏi",
+          "chạy xuống",
+          "đánh đập",
+          "tồi tàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mòn mỏi; chạy xuống; đánh đập; tồi tàn; đổ nát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101653,
+    "word": "緩速",
+    "kana": "かんそく",
+    "senses": [
+      {
+        "sense_id": 343279,
+        "meaning_vi": "tốc độ chậm",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ chậm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ chậm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101654,
+    "word": "がめる",
+    "kana": "がめる",
+    "senses": [
+      {
+        "sense_id": 343280,
+        "meaning_vi": "vuốt; để đặt biệt danh; ăn trộm",
+        "confidence": "high",
+        "search_keywords": [
+          "vuốt",
+          "để đặt biệt danh",
+          "ăn trộm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vuốt; để đặt biệt danh; ăn trộm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 343281,
+        "meaning_vi": "cố gắng thắng lớn một cách tham lam (ví dụ như trong mạt chược)",
+        "confidence": "high",
+        "search_keywords": [
+          "cố gắng thắng lớn một cách tham lam (ví dụ như trong mạt chược)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cố gắng thắng lớn một cách tham lam (ví dụ như trong mạt chược)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101655,
+    "word": "香母酢",
+    "kana": "かぼす",
+    "senses": [
+      {
+        "sense_id": 343282,
+        "meaning_vi": "kabosu (loại quả thuộc họ cam quýt) (Citrus sphaerocarpa)",
+        "confidence": "high",
+        "search_keywords": [
+          "kabosu (loại quả thuộc họ cam quýt) (Citrus sphaerocarpa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kabosu (loại quả thuộc họ cam quýt) (Citrus sphaerocarpa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101656,
+    "word": "伊予柑",
+    "kana": "いよかん",
+    "senses": [
+      {
+        "sense_id": 343283,
+        "meaning_vi": "iyokan (Citrus iyo)",
+        "confidence": "low",
+        "search_keywords": [
+          "iyokan (Citrus iyo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "iyokan (Citrus iyo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101657,
+    "word": "温州みかん",
+    "kana": "うんしゅうみかん",
+    "senses": [
+      {
+        "sense_id": 343284,
+        "meaning_vi": "quýt satsuma (Citrus unshiu)",
+        "confidence": "high",
+        "search_keywords": [
+          "quýt satsuma (Citrus unshiu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quýt satsuma (Citrus unshiu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101658,
+    "word": "清見オレンジ",
+    "kana": "きよみオレンジ",
+    "senses": [
+      {
+        "sense_id": 343285,
+        "meaning_vi": "Cam Kiyomi (Citrus unshiu sinensis); loại tangor (lai quýt-cam)",
+        "confidence": "high",
+        "search_keywords": [
+          "Cam Kiyomi (Citrus unshiu sinensis)",
+          "loại tangor (lai quýt-cam)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cam Kiyomi (Citrus unshiu sinensis); loại tangor (lai quýt-cam)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101659,
+    "word": "晩白柚",
+    "kana": "ばんぺいゆ",
+    "senses": [
+      {
+        "sense_id": 343286,
+        "meaning_vi": "giống bưởi (Citrus maxima, Citrus grandis)",
+        "confidence": "high",
+        "search_keywords": [
+          "giống bưởi (Citrus maxima, Citrus grandis)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giống bưởi (Citrus maxima, Citrus grandis)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101660,
+    "word": "デコポン",
+    "kana": "デコポン",
+    "senses": [
+      {
+        "sense_id": 343287,
+        "meaning_vi": "dekopon quýt; quan sumo; cam quýt sumo",
+        "confidence": "high",
+        "search_keywords": [
+          "dekopon quýt",
+          "quan sumo",
+          "cam quýt sumo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dekopon quýt; quan sumo; cam quýt sumo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101661,
+    "word": "茶葉",
+    "kana": "ちゃば",
+    "senses": [
+      {
+        "sense_id": 343288,
+        "meaning_vi": "lá trà; lá trà",
+        "confidence": "high",
+        "search_keywords": [
+          "lá trà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lá trà; lá trà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101662,
+    "word": "東方帰一教会",
+    "kana": "とうほうきいつきょうかい",
+    "senses": [
+      {
+        "sense_id": 343289,
+        "meaning_vi": "Giáo hội Công giáo Đông phương; Giáo hội thống nhất; Nhà thờ Công giáo nghi thức Đông phương",
+        "confidence": "high",
+        "search_keywords": [
+          "Giáo hội Công giáo Đông phương",
+          "Giáo hội thống nhất",
+          "Nhà thờ Công giáo nghi thức Đông phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giáo hội Công giáo Đông phương; Giáo hội thống nhất; Nhà thờ Công giáo nghi thức Đông phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101663,
+    "word": "アルメニア教会",
+    "kana": "アルメニアきょうかい",
+    "senses": [
+      {
+        "sense_id": 343290,
+        "meaning_vi": "Nhà thờ Armenia; Nhà thờ Chính thống Tông đồ Armenia",
+        "confidence": "high",
+        "search_keywords": [
+          "Nhà thờ Armenia",
+          "Nhà thờ Chính thống Tông đồ Armenia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nhà thờ Armenia; Nhà thờ Chính thống Tông đồ Armenia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101664,
+    "word": "ルヴィ語",
+    "kana": "ルヴィご",
+    "senses": [
+      {
+        "sense_id": 343291,
+        "meaning_vi": "Luwian; Luvian (ngôn ngữ)",
+        "confidence": "high",
+        "search_keywords": [
+          "Luwian",
+          "Luvian (ngôn ngữ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Luwian; Luvian (ngôn ngữ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101665,
+    "word": "セム人",
+    "kana": "セムじん",
+    "senses": [
+      {
+        "sense_id": 343292,
+        "meaning_vi": "Semite (người nói ngôn ngữ Semitic, đặc biệt là người Do Thái và người Ả Rập)",
+        "confidence": "high",
+        "search_keywords": [
+          "Semite (người nói ngôn ngữ Semitic, đặc biệt là người Do Thái và người Ả Rập)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Semite (người nói ngôn ngữ Semitic, đặc biệt là người Do Thái và người Ả Rập)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101666,
+    "word": "反ユダヤ主義",
+    "kana": "はんユダヤしゅぎ",
+    "senses": [
+      {
+        "sense_id": 343293,
+        "meaning_vi": "chủ nghĩa bài Do Thái; chủ nghĩa bài Do Thái",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa bài Do Thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa bài Do Thái; chủ nghĩa bài Do Thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101667,
+    "word": "メノナイト",
+    "kana": "メノナイト",
+    "senses": [
+      {
+        "sense_id": 343294,
+        "meaning_vi": "mennonit",
+        "confidence": "high",
+        "search_keywords": [
+          "mennonit"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mennonit",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101668,
+    "word": "ペンシルベニアダッチ",
+    "kana": "ペンシルベニアダッチ",
+    "senses": [
+      {
+        "sense_id": 343295,
+        "meaning_vi": "Người Hà Lan Pennsylvania; Tiếng Đức ở Pennsylvania",
+        "confidence": "high",
+        "search_keywords": [
+          "Người Hà Lan Pennsylvania",
+          "Tiếng Đức ở Pennsylvania"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Người Hà Lan Pennsylvania; Tiếng Đức ở Pennsylvania",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101669,
+    "word": "アーミッシュ",
+    "kana": "アーミッシュ",
+    "senses": [
+      {
+        "sense_id": 343296,
+        "meaning_vi": "người Amish",
+        "confidence": "high",
+        "search_keywords": [
+          "người Amish"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người Amish",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101670,
+    "word": "舟形",
+    "kana": "ふながた",
+    "senses": [
+      {
+        "sense_id": 343297,
+        "meaning_vi": "tàu thuyền; hình thuyền",
+        "confidence": "high",
+        "search_keywords": [
+          "tàu thuyền",
+          "hình thuyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tàu thuyền; hình thuyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 101671,
+    "word": "舟状骨",
+    "kana": "しゅうじょうこつ",
+    "senses": [
+      {
+        "sense_id": 343298,
+        "meaning_vi": "xương thuyền (của bàn chân); xương thuyền (của bàn tay)",
+        "confidence": "high",
+        "search_keywords": [
+          "xương thuyền (của bàn chân)",
+          "xương thuyền (của bàn tay)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xương thuyền (của bàn chân); xương thuyền (của bàn tay)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

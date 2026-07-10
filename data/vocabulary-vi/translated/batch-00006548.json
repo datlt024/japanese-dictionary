@@ -1,0 +1,463 @@
+[
+  {
+    "vocabulary_id": 153661,
+    "word": "神経体液",
+    "kana": "しんけいたいえき",
+    "senses": [
+      {
+        "sense_id": 399716,
+        "meaning_vi": "thần kinh hài hước; thần kinh hài hước",
+        "confidence": "high",
+        "search_keywords": [
+          "thần kinh hài hước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thần kinh hài hước; thần kinh hài hước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153662,
+    "word": "気管炎",
+    "kana": "きかんえん",
+    "senses": [
+      {
+        "sense_id": 399717,
+        "meaning_vi": "viêm khí quản",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm khí quản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm khí quản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153663,
+    "word": "灌流圧",
+    "kana": "かんりゅうあつ",
+    "senses": [
+      {
+        "sense_id": 399718,
+        "meaning_vi": "áp lực tưới máu",
+        "confidence": "high",
+        "search_keywords": [
+          "áp lực tưới máu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áp lực tưới máu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153664,
+    "word": "灌流",
+    "kana": "かんりゅう",
+    "senses": [
+      {
+        "sense_id": 399719,
+        "meaning_vi": "sự tưới máu",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tưới máu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tưới máu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153665,
+    "word": "パシャリ",
+    "kana": "パシャリ",
+    "senses": [
+      {
+        "sense_id": 399720,
+        "meaning_vi": "âm thanh của màn trập máy ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "âm thanh của màn trập máy ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm thanh của màn trập máy ảnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 399721,
+        "meaning_vi": "tiếng nước bắn tung tóe",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng nước bắn tung tóe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng nước bắn tung tóe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153666,
+    "word": "圧受容体反射",
+    "kana": "あつじゅようたいはんしゃ",
+    "senses": [
+      {
+        "sense_id": 399722,
+        "meaning_vi": "phản xạ baroreceptor; phản xạ áp lực",
+        "confidence": "high",
+        "search_keywords": [
+          "phản xạ baroreceptor",
+          "phản xạ áp lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản xạ baroreceptor; phản xạ áp lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153667,
+    "word": "理学的所見",
+    "kana": "りがくてきしょけん",
+    "senses": [
+      {
+        "sense_id": 399723,
+        "meaning_vi": "phát hiện vật lý; kết quả khám thực thể",
+        "confidence": "high",
+        "search_keywords": [
+          "phát hiện vật lý",
+          "kết quả khám thực thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát hiện vật lý; kết quả khám thực thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153668,
+    "word": "腐食性",
+    "kana": "ふしょくせい",
+    "senses": [
+      {
+        "sense_id": 399724,
+        "meaning_vi": "ăn mòn; tính ăn da",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn mòn",
+          "tính ăn da"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn mòn; tính ăn da",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153669,
+    "word": "腐敗性",
+    "kana": "ふはいせい",
+    "senses": [
+      {
+        "sense_id": 399725,
+        "meaning_vi": "nhiễm trùng; thối rữa",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiễm trùng",
+          "thối rữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiễm trùng; thối rữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153670,
+    "word": "腎静脈",
+    "kana": "じんじょうみゃく",
+    "senses": [
+      {
+        "sense_id": 399726,
+        "meaning_vi": "tĩnh mạch thận",
+        "confidence": "high",
+        "search_keywords": [
+          "tĩnh mạch thận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tĩnh mạch thận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153671,
+    "word": "腎盂腎炎",
+    "kana": "じんうじんえん",
+    "senses": [
+      {
+        "sense_id": 399727,
+        "meaning_vi": "viêm bể thận",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm bể thận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm bể thận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153672,
+    "word": "腎",
+    "kana": "じん",
+    "senses": [
+      {
+        "sense_id": 399728,
+        "meaning_vi": "thận",
+        "confidence": "high",
+        "search_keywords": [
+          "thận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153673,
+    "word": "脾臓摘出",
+    "kana": "ひぞうてきしゅつ",
+    "senses": [
+      {
+        "sense_id": 399729,
+        "meaning_vi": "cắt lách",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt lách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt lách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153674,
+    "word": "炭疽",
+    "kana": "たんそ",
+    "senses": [
+      {
+        "sense_id": 399730,
+        "meaning_vi": "bệnh than",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh than"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh than",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153675,
+    "word": "脾脱疽",
+    "kana": "ひだっそ",
+    "senses": [
+      {
+        "sense_id": 399731,
+        "meaning_vi": "bệnh than",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh than"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh than",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153676,
+    "word": "脾動脈",
+    "kana": "ひどうみゃく",
+    "senses": [
+      {
+        "sense_id": 399732,
+        "meaning_vi": "động mạch lách; động mạch nằm",
+        "confidence": "high",
+        "search_keywords": [
+          "động mạch lách",
+          "động mạch nằm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động mạch lách; động mạch nằm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153677,
+    "word": "脳造影法",
+    "kana": "のうぞうえいほう",
+    "senses": [
+      {
+        "sense_id": 399733,
+        "meaning_vi": "chụp não",
+        "confidence": "high",
+        "search_keywords": [
+          "chụp não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chụp não",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153678,
+    "word": "脳脊髄炎",
+    "kana": "のうせきずいえん",
+    "senses": [
+      {
+        "sense_id": 399734,
+        "meaning_vi": "viêm não tuỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm não tuỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm não tuỷ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153679,
+    "word": "脳浮腫",
+    "kana": "のうふしゅ",
+    "senses": [
+      {
+        "sense_id": 399735,
+        "meaning_vi": "phù não; phù não",
+        "confidence": "high",
+        "search_keywords": [
+          "phù não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phù não; phù não",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153680,
+    "word": "脳弓",
+    "kana": "のうきゅう",
+    "senses": [
+      {
+        "sense_id": 399736,
+        "meaning_vi": "fornix (của não); não fornix",
+        "confidence": "high",
+        "search_keywords": [
+          "fornix (của não)",
+          "não fornix"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "fornix (của não); não fornix",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

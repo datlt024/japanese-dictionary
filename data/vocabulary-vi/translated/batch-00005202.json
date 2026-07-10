@@ -1,0 +1,488 @@
+[
+  {
+    "vocabulary_id": 124587,
+    "word": "状態遷移図",
+    "kana": "じょうたいせんいず",
+    "senses": [
+      {
+        "sense_id": 368220,
+        "meaning_vi": "sơ đồ trạng thái; sơ đồ chuyển trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ đồ trạng thái",
+          "sơ đồ chuyển trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ đồ trạng thái; sơ đồ chuyển trạng thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124588,
+    "word": "状態変化",
+    "kana": "じょうたいへんか",
+    "senses": [
+      {
+        "sense_id": 368221,
+        "meaning_vi": "thay đổi pha",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi pha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi pha",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 368222,
+        "meaning_vi": "thay đổi trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi trạng thái",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 368223,
+        "meaning_vi": "sự biến đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "sự biến đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự biến đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124589,
+    "word": "状態変数",
+    "kana": "じょうたいへんすう",
+    "senses": [
+      {
+        "sense_id": 368224,
+        "meaning_vi": "không gian trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian trạng thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124590,
+    "word": "畳み込み",
+    "kana": "たたみこみ",
+    "senses": [
+      {
+        "sense_id": 368225,
+        "meaning_vi": "tích chập",
+        "confidence": "high",
+        "search_keywords": [
+          "tích chập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tích chập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 368226,
+        "meaning_vi": "căng buồm; căng buồm",
+        "confidence": "high",
+        "search_keywords": [
+          "căng buồm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng buồm; căng buồm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124591,
+    "word": "畳み込み定理",
+    "kana": "たたみこみていり",
+    "senses": [
+      {
+        "sense_id": 368227,
+        "meaning_vi": "định lý tích chập",
+        "confidence": "high",
+        "search_keywords": [
+          "định lý tích chập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định lý tích chập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124592,
+    "word": "畳み込み符号",
+    "kana": "たたみこみふごう",
+    "senses": [
+      {
+        "sense_id": 368228,
+        "meaning_vi": "mã xoắn",
+        "confidence": "high",
+        "search_keywords": [
+          "mã xoắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã xoắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124593,
+    "word": "色テーブル",
+    "kana": "いろテーブル",
+    "senses": [
+      {
+        "sense_id": 368229,
+        "meaning_vi": "bảng màu",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124594,
+    "word": "色モデル",
+    "kana": "いろモデル",
+    "senses": [
+      {
+        "sense_id": 368230,
+        "meaning_vi": "mô hình màu",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124595,
+    "word": "色温度",
+    "kana": "いろおんど",
+    "senses": [
+      {
+        "sense_id": 368231,
+        "meaning_vi": "nhiệt độ màu",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt độ màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt độ màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124596,
+    "word": "色空間",
+    "kana": "いろくうかん",
+    "senses": [
+      {
+        "sense_id": 368232,
+        "meaning_vi": "không gian màu; không gian màu",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian màu; không gian màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124597,
+    "word": "色座標系",
+    "kana": "いろざひょうけい",
+    "senses": [
+      {
+        "sense_id": 368233,
+        "meaning_vi": "hệ màu",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124598,
+    "word": "色指標",
+    "kana": "いろしひょう",
+    "senses": [
+      {
+        "sense_id": 368234,
+        "meaning_vi": "chỉ số màu",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ số màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ số màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124599,
+    "word": "色写像",
+    "kana": "いろしゃぞう",
+    "senses": [
+      {
+        "sense_id": 368235,
+        "meaning_vi": "ánh xạ màu",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh xạ màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh xạ màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124600,
+    "word": "色値",
+    "kana": "しきち",
+    "senses": [
+      {
+        "sense_id": 368236,
+        "meaning_vi": "giá trị màu",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124601,
+    "word": "色定義スプライン",
+    "kana": "いろていぎスプライン",
+    "senses": [
+      {
+        "sense_id": 368237,
+        "meaning_vi": "đường viền màu",
+        "confidence": "high",
+        "search_keywords": [
+          "đường viền màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường viền màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124602,
+    "word": "色定義表",
+    "kana": "いろていぎひょう",
+    "senses": [
+      {
+        "sense_id": 368238,
+        "meaning_vi": "bảng màu",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124603,
+    "word": "色度信号",
+    "kana": "しきどしんごう",
+    "senses": [
+      {
+        "sense_id": 368239,
+        "meaning_vi": "tín hiệu sắc độ",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu sắc độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu sắc độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124604,
+    "word": "色分解",
+    "kana": "いろぶんかい",
+    "senses": [
+      {
+        "sense_id": 368240,
+        "meaning_vi": "tách màu",
+        "confidence": "high",
+        "search_keywords": [
+          "tách màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tách màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124605,
+    "word": "色補正",
+    "kana": "いろほせい",
+    "senses": [
+      {
+        "sense_id": 368241,
+        "meaning_vi": "chỉnh màu",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉnh màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉnh màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124606,
+    "word": "信号チャネル",
+    "kana": "しんごうチャネル",
+    "senses": [
+      {
+        "sense_id": 368242,
+        "meaning_vi": "kênh báo hiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "kênh báo hiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kênh báo hiệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

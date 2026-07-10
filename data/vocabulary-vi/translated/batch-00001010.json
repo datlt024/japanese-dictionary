@@ -1,0 +1,642 @@
+[
+  {
+    "vocabulary_id": 25464,
+    "word": "坑道",
+    "kana": "こうどう",
+    "senses": [
+      {
+        "sense_id": 249891,
+        "meaning_vi": "đường hầm; (khai thác) phòng trưng bày; mức độ; trục; cái hố",
+        "confidence": "high",
+        "search_keywords": [
+          "đường hầm",
+          "(khai thác) phòng trưng bày",
+          "mức độ",
+          "trục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường hầm; (khai thác) phòng trưng bày; mức độ; trục; cái hố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25465,
+    "word": "坑内",
+    "kana": "こうない",
+    "senses": [
+      {
+        "sense_id": 249892,
+        "meaning_vi": "trong hố hoặc trục (mỏ)",
+        "confidence": "high",
+        "search_keywords": [
+          "trong hố hoặc trục (mỏ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong hố hoặc trục (mỏ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25466,
+    "word": "坑内事故",
+    "kana": "こうないじこ",
+    "senses": [
+      {
+        "sense_id": 249893,
+        "meaning_vi": "tai nạn mỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "tai nạn mỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tai nạn mỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25467,
+    "word": "垢",
+    "kana": "あか",
+    "senses": [
+      {
+        "sense_id": 249894,
+        "meaning_vi": "bụi bẩn; rác rưởi; bụi bẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "bụi bẩn",
+          "rác rưởi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bụi bẩn; rác rưởi; bụi bẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25468,
+    "word": "いい加減",
+    "kana": "いいかげん",
+    "senses": [
+      {
+        "sense_id": 249895,
+        "meaning_vi": "vô trách nhiệm; chiếu lệ; bất cẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "vô trách nhiệm",
+          "chiếu lệ",
+          "bất cẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô trách nhiệm; chiếu lệ; bất cẩn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249896,
+        "meaning_vi": "ấm áp; nướng một nửa; nửa vời; mơ hồ",
+        "confidence": "high",
+        "search_keywords": [
+          "ấm áp",
+          "nướng một nửa",
+          "nửa vời",
+          "mơ hồ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ấm áp; nướng một nửa; nửa vời; mơ hồ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249897,
+        "meaning_vi": "(đã) đủ rồi",
+        "confidence": "high",
+        "search_keywords": [
+          "(đã) đủ rồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đã) đủ rồi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249898,
+        "meaning_vi": "đáng kể; khá; hơn là; xinh đẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng kể",
+          "khá",
+          "hơn là",
+          "xinh đẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng kể; khá; hơn là; xinh đẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25469,
+    "word": "好き",
+    "kana": "すき",
+    "senses": [
+      {
+        "sense_id": 249899,
+        "meaning_vi": "thích; được yêu thích; theo ý thích của một người; theo sở thích của mỗi người; ưa thích; yêu thích",
+        "confidence": "high",
+        "search_keywords": [
+          "thích",
+          "được yêu thích",
+          "theo ý thích của một người",
+          "theo sở thích của mỗi người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thích; được yêu thích; theo ý thích của một người; theo sở thích của mỗi người; ưa thích; yêu thích",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249900,
+        "meaning_vi": "thích (lãng mạn); đang yêu; người yêu dấu",
+        "confidence": "high",
+        "search_keywords": [
+          "thích (lãng mạn)",
+          "đang yêu",
+          "người yêu dấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thích (lãng mạn); đang yêu; người yêu dấu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249901,
+        "meaning_vi": "chủ nghĩa mốt nhất thời; sự lệch tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa mốt nhất thời",
+          "sự lệch tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa mốt nhất thời; sự lệch tâm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249902,
+        "meaning_vi": "tùy thích; vì nó phù hợp với một",
+        "confidence": "high",
+        "search_keywords": [
+          "tùy thích",
+          "vì nó phù hợp với một"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tùy thích; vì nó phù hợp với một",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249903,
+        "meaning_vi": "dâm đãng; dâm đãng; dâm ô",
+        "confidence": "high",
+        "search_keywords": [
+          "dâm đãng",
+          "dâm ô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dâm đãng; dâm đãng; dâm ô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25470,
+    "word": "好き嫌い",
+    "kana": "すききらい",
+    "senses": [
+      {
+        "sense_id": 249904,
+        "meaning_vi": "thích và không thích; thị hiếu; sở thích; kén chọn (đặc biệt là về đồ ăn); sự kén chọn; tính quấy khóc",
+        "confidence": "high",
+        "search_keywords": [
+          "thích và không thích",
+          "thị hiếu",
+          "sở thích",
+          "kén chọn (đặc biệt là về đồ ăn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thích và không thích; thị hiếu; sở thích; kén chọn (đặc biệt là về đồ ăn); sự kén chọn; tính quấy khóc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25471,
+    "word": "好き勝手",
+    "kana": "すきかって",
+    "senses": [
+      {
+        "sense_id": 249905,
+        "meaning_vi": "làm bất cứ điều gì mình muốn; ích kỷ; sự buông thả bản thân",
+        "confidence": "high",
+        "search_keywords": [
+          "làm bất cứ điều gì mình muốn",
+          "ích kỷ",
+          "sự buông thả bản thân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm bất cứ điều gì mình muốn; ích kỷ; sự buông thả bản thân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25472,
+    "word": "好く",
+    "kana": "すく",
+    "senses": [
+      {
+        "sense_id": 249906,
+        "meaning_vi": "thích ; yêu ; được yêu thích",
+        "confidence": "high",
+        "search_keywords": [
+          "thích",
+          "yêu",
+          "được yêu thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thích ; yêu ; được yêu thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25473,
+    "word": "好ましい",
+    "kana": "このましい",
+    "senses": [
+      {
+        "sense_id": 249907,
+        "meaning_vi": "Đẹp; dễ mến; mong muốn",
+        "confidence": "high",
+        "search_keywords": [
+          "Đẹp",
+          "dễ mến",
+          "mong muốn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đẹp; dễ mến; mong muốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25474,
+    "word": "好み",
+    "kana": "このみ",
+    "senses": [
+      {
+        "sense_id": 249908,
+        "meaning_vi": "thích; nếm; si mê; sự yêu mến",
+        "confidence": "high",
+        "search_keywords": [
+          "thích",
+          "nếm",
+          "si mê",
+          "sự yêu mến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thích; nếm; si mê; sự yêu mến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249909,
+        "meaning_vi": "ước; sự mong muốn; sự lựa chọn; sở thích",
+        "confidence": "high",
+        "search_keywords": [
+          "ước",
+          "sự mong muốn",
+          "sự lựa chọn",
+          "sở thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ước; sự mong muốn; sự lựa chọn; sở thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25475,
+    "word": "好む",
+    "kana": "このむ",
+    "senses": [
+      {
+        "sense_id": 249910,
+        "meaning_vi": "thích ; thích hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "thích",
+          "thích hơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thích ; thích hơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25476,
+    "word": "好意",
+    "kana": "こうい",
+    "senses": [
+      {
+        "sense_id": 249911,
+        "meaning_vi": "lòng tốt; ưu ái; ủng hộ; sự thân thiện",
+        "confidence": "high",
+        "search_keywords": [
+          "lòng tốt",
+          "ưu ái",
+          "ủng hộ",
+          "sự thân thiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lòng tốt; ưu ái; ủng hộ; sự thân thiện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249912,
+        "meaning_vi": "thiện chí; sự yêu mến; thích (đối với ai đó); tình yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "thiện chí",
+          "sự yêu mến",
+          "thích (đối với ai đó)",
+          "tình yêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiện chí; sự yêu mến; thích (đối với ai đó); tình yêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25477,
+    "word": "好餌",
+    "kana": "こうじ",
+    "senses": [
+      {
+        "sense_id": 249913,
+        "meaning_vi": "mồi; mồi nhử; thu hút",
+        "confidence": "high",
+        "search_keywords": [
+          "mồi",
+          "mồi nhử",
+          "thu hút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mồi; mồi nhử; thu hút",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249914,
+        "meaning_vi": "con mồi dễ dàng; nạn nhân dễ dàng; kẻ ngu ngốc",
+        "confidence": "high",
+        "search_keywords": [
+          "con mồi dễ dàng",
+          "nạn nhân dễ dàng",
+          "kẻ ngu ngốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con mồi dễ dàng; nạn nhân dễ dàng; kẻ ngu ngốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25478,
+    "word": "好演",
+    "kana": "こうえん",
+    "senses": [
+      {
+        "sense_id": 249915,
+        "meaning_vi": "hiệu suất tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệu suất tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệu suất tốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25479,
+    "word": "好学",
+    "kana": "こうがく",
+    "senses": [
+      {
+        "sense_id": 249916,
+        "meaning_vi": "tình yêu học tập",
+        "confidence": "high",
+        "search_keywords": [
+          "tình yêu học tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình yêu học tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25480,
+    "word": "好感",
+    "kana": "こうかん",
+    "senses": [
+      {
+        "sense_id": 249917,
+        "meaning_vi": "cảm giác tốt; thiện chí; ấn tượng thuận lợi; ấn tượng tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm giác tốt",
+          "thiện chí",
+          "ấn tượng thuận lợi",
+          "ấn tượng tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm giác tốt; thiện chí; ấn tượng thuận lợi; ấn tượng tốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25481,
+    "word": "好漢",
+    "kana": "こうかん",
+    "senses": [
+      {
+        "sense_id": 249918,
+        "meaning_vi": "anh bạn tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "anh bạn tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anh bạn tốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25482,
+    "word": "好奇心",
+    "kana": "こうきしん",
+    "senses": [
+      {
+        "sense_id": 249919,
+        "meaning_vi": "sự tò mò; sự tò mò",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tò mò"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tò mò; sự tò mò",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25483,
+    "word": "好機",
+    "kana": "こうき",
+    "senses": [
+      {
+        "sense_id": 249920,
+        "meaning_vi": "cơ hội tốt; cơ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ hội tốt",
+          "cơ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ hội tốt; cơ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

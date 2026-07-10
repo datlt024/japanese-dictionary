@@ -1,0 +1,448 @@
+[
+  {
+    "vocabulary_id": 146580,
+    "word": "火山作用",
+    "kana": "かざんさよう",
+    "senses": [
+      {
+        "sense_id": 392037,
+        "meaning_vi": "hoạt động núi lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động núi lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động núi lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146581,
+    "word": "火山性微動",
+    "kana": "かざんせいびどう",
+    "senses": [
+      {
+        "sense_id": 392038,
+        "meaning_vi": "chấn động núi lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "chấn động núi lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấn động núi lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146582,
+    "word": "火山灰地",
+    "kana": "かざんばいち",
+    "senses": [
+      {
+        "sense_id": 392039,
+        "meaning_vi": "khu vực bị bao phủ bởi tro núi lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực bị bao phủ bởi tro núi lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực bị bao phủ bởi tro núi lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146583,
+    "word": "火山情報",
+    "kana": "かざんじょうほう",
+    "senses": [
+      {
+        "sense_id": 392040,
+        "meaning_vi": "báo cáo hoạt động núi lửa; thông tin về hoạt động núi lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo hoạt động núi lửa",
+          "thông tin về hoạt động núi lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo hoạt động núi lửa; thông tin về hoạt động núi lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146584,
+    "word": "緊急火山情報",
+    "kana": "きんきゅうかざんじょうほう",
+    "senses": [
+      {
+        "sense_id": 392041,
+        "meaning_vi": "cảnh báo khẩn cấp về núi lửa (ví dụ: cảnh báo phun trào); thông tin khẩn cấp về hoạt động núi lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "cảnh báo khẩn cấp về núi lửa (ví dụ: cảnh báo phun trào)",
+          "thông tin khẩn cấp về hoạt động núi lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảnh báo khẩn cấp về núi lửa (ví dụ: cảnh báo phun trào); thông tin khẩn cấp về hoạt động núi lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146585,
+    "word": "花粉情報",
+    "kana": "かふんじょうほう",
+    "senses": [
+      {
+        "sense_id": 392042,
+        "meaning_vi": "báo cáo phấn hoa",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo phấn hoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo phấn hoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146586,
+    "word": "地震予知情報",
+    "kana": "じしんよちじょうほう",
+    "senses": [
+      {
+        "sense_id": 392043,
+        "meaning_vi": "thông tin dự báo động đất",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin dự báo động đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin dự báo động đất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146587,
+    "word": "警戒宣言",
+    "kana": "けいかいせんげん",
+    "senses": [
+      {
+        "sense_id": 392044,
+        "meaning_vi": "cảnh báo chính thức (đặc biệt là về một trận động đất sắp xảy ra)",
+        "confidence": "high",
+        "search_keywords": [
+          "cảnh báo chính thức (đặc biệt là về một trận động đất sắp xảy ra)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảnh báo chính thức (đặc biệt là về một trận động đất sắp xảy ra)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146588,
+    "word": "大規模地震対策特別措置法",
+    "kana": "だいきぼじしんたいさくとくべつそちほう",
+    "senses": [
+      {
+        "sense_id": 392045,
+        "meaning_vi": "Đạo luật về các biện pháp đặc biệt liên quan đến các biện pháp đối phó với trận động đất quy mô lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "Đạo luật về các biện pháp đặc biệt liên quan đến các biện pháp đối phó với trận động đất quy mô lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đạo luật về các biện pháp đặc biệt liên quan đến các biện pháp đối phó với trận động đất quy mô lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146589,
+    "word": "大震法",
+    "kana": "たいしんほう",
+    "senses": [
+      {
+        "sense_id": 392046,
+        "meaning_vi": "Đạo luật về các biện pháp đặc biệt liên quan đến các biện pháp đối phó với trận động đất quy mô lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "Đạo luật về các biện pháp đặc biệt liên quan đến các biện pháp đối phó với trận động đất quy mô lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đạo luật về các biện pháp đặc biệt liên quan đến các biện pháp đối phó với trận động đất quy mô lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146590,
+    "word": "地震モーメント",
+    "kana": "じしんモーメント",
+    "senses": [
+      {
+        "sense_id": 392047,
+        "meaning_vi": "khoảnh khắc địa chấn",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảnh khắc địa chấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảnh khắc địa chấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146591,
+    "word": "極微小地震",
+    "kana": "ごくびしょうじしん",
+    "senses": [
+      {
+        "sense_id": 392048,
+        "meaning_vi": "trận động đất siêu nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "trận động đất siêu nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận động đất siêu nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146592,
+    "word": "小地震",
+    "kana": "しょうじしん",
+    "senses": [
+      {
+        "sense_id": 392049,
+        "meaning_vi": "trận động đất nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "trận động đất nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận động đất nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146593,
+    "word": "中地震",
+    "kana": "ちゅうじしん",
+    "senses": [
+      {
+        "sense_id": 392050,
+        "meaning_vi": "trận động đất vừa phải",
+        "confidence": "high",
+        "search_keywords": [
+          "trận động đất vừa phải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận động đất vừa phải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146594,
+    "word": "鳥飼病",
+    "kana": "とりかいびょう",
+    "senses": [
+      {
+        "sense_id": 392051,
+        "meaning_vi": "phổi của người thích chim; bệnh của người nuôi chim",
+        "confidence": "high",
+        "search_keywords": [
+          "phổi của người thích chim",
+          "bệnh của người nuôi chim"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phổi của người thích chim; bệnh của người nuôi chim",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146595,
+    "word": "ザルガイ科",
+    "kana": "ザルガイか",
+    "senses": [
+      {
+        "sense_id": 392052,
+        "meaning_vi": "Cardiidae (họ động vật thân mềm hai mảnh bao gồm sò)",
+        "confidence": "high",
+        "search_keywords": [
+          "Cardiidae (họ động vật thân mềm hai mảnh bao gồm sò)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cardiidae (họ động vật thân mềm hai mảnh bao gồm sò)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146596,
+    "word": "マルスダレガイ科",
+    "kana": "マルスダレガイか",
+    "senses": [
+      {
+        "sense_id": 392053,
+        "meaning_vi": "Veneridae (họ động vật thân mềm hai mảnh bao gồm trai Venus)",
+        "confidence": "high",
+        "search_keywords": [
+          "Veneridae (họ động vật thân mềm hai mảnh bao gồm trai Venus)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Veneridae (họ động vật thân mềm hai mảnh bao gồm trai Venus)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146597,
+    "word": "ホンビノス貝",
+    "kana": "ほんびのすがい",
+    "senses": [
+      {
+        "sense_id": 392054,
+        "meaning_vi": "quahog (Mercenaria mercenaria); quahaug; nghêu cứng; nghêu vỏ cứng; nghêu tròn; cổ nhỏ; cổ cao; đá anh đào; nghêu ngao",
+        "confidence": "high",
+        "search_keywords": [
+          "quahog (Mercenaria mercenaria)",
+          "quahaug",
+          "nghêu cứng",
+          "nghêu vỏ cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quahog (Mercenaria mercenaria); quahaug; nghêu cứng; nghêu vỏ cứng; nghêu tròn; cổ nhỏ; cổ cao; đá anh đào; nghêu ngao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146598,
+    "word": "笊貝",
+    "kana": "ざるがい",
+    "senses": [
+      {
+        "sense_id": 392055,
+        "meaning_vi": "Sò huyết Burchard (Vasticardium burchardi)",
+        "confidence": "high",
+        "search_keywords": [
+          "Sò huyết Burchard (Vasticardium burchardi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sò huyết Burchard (Vasticardium burchardi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146599,
+    "word": "沈水海岸",
+    "kana": "ちんすいかいがん",
+    "senses": [
+      {
+        "sense_id": 392056,
+        "meaning_vi": "bờ biển ngập nước; bờ biển ngập nước; bờ biển ngập nước",
+        "confidence": "high",
+        "search_keywords": [
+          "bờ biển ngập nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bờ biển ngập nước; bờ biển ngập nước; bờ biển ngập nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

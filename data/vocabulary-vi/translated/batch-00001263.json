@@ -1,0 +1,591 @@
+[
+  {
+    "vocabulary_id": 32222,
+    "word": "奨励金",
+    "kana": "しょうれいきん",
+    "senses": [
+      {
+        "sense_id": 258795,
+        "meaning_vi": "trợ cấp; khích lệ; tiền thưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "trợ cấp",
+          "khích lệ",
+          "tiền thưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trợ cấp; khích lệ; tiền thưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32223,
+    "word": "妾",
+    "kana": "わらわ",
+    "senses": [
+      {
+        "sense_id": 258796,
+        "meaning_vi": "TÔI; tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "TÔI",
+          "tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "TÔI; tôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32224,
+    "word": "娼妓",
+    "kana": "しょうぎ",
+    "senses": [
+      {
+        "sense_id": 258797,
+        "meaning_vi": "gái mại dâm; gái điếm",
+        "confidence": "high",
+        "search_keywords": [
+          "gái mại dâm",
+          "gái điếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gái mại dâm; gái điếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32225,
+    "word": "宵",
+    "kana": "よい",
+    "senses": [
+      {
+        "sense_id": 258798,
+        "meaning_vi": "buổi tối; giờ đêm sớm",
+        "confidence": "high",
+        "search_keywords": [
+          "buổi tối",
+          "giờ đêm sớm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buổi tối; giờ đêm sớm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32226,
+    "word": "宵の口",
+    "kana": "よいのくち",
+    "senses": [
+      {
+        "sense_id": 258799,
+        "meaning_vi": "màn đêm buông xuống; đầu giờ tối",
+        "confidence": "high",
+        "search_keywords": [
+          "màn đêm buông xuống",
+          "đầu giờ tối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màn đêm buông xuống; đầu giờ tối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32227,
+    "word": "宵越し",
+    "kana": "よいごし",
+    "senses": [
+      {
+        "sense_id": 258800,
+        "meaning_vi": "(giữ) qua đêm",
+        "confidence": "high",
+        "search_keywords": [
+          "(giữ) qua đêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(giữ) qua đêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32228,
+    "word": "将官",
+    "kana": "しょうかん",
+    "senses": [
+      {
+        "sense_id": 258801,
+        "meaning_vi": "tổng quan; đô đốc",
+        "confidence": "high",
+        "search_keywords": [
+          "tổng quan",
+          "đô đốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổng quan; đô đốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32229,
+    "word": "将棋",
+    "kana": "しょうぎ",
+    "senses": [
+      {
+        "sense_id": 258802,
+        "meaning_vi": "shogi; cờ vua nhật bản",
+        "confidence": "high",
+        "search_keywords": [
+          "shogi",
+          "cờ vua nhật bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "shogi; cờ vua nhật bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32230,
+    "word": "将棋倒し",
+    "kana": "しょうぎだおし",
+    "senses": [
+      {
+        "sense_id": 258803,
+        "meaning_vi": "lần lượt rơi xuống (như domino)",
+        "confidence": "high",
+        "search_keywords": [
+          "lần lượt rơi xuống (như domino)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lần lượt rơi xuống (như domino)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 258804,
+        "meaning_vi": "lật đổ các quân cờ shogi (xếp thành một hàng)",
+        "confidence": "high",
+        "search_keywords": [
+          "lật đổ các quân cờ shogi (xếp thành một hàng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lật đổ các quân cờ shogi (xếp thành một hàng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32231,
+    "word": "将棋盤",
+    "kana": "しょうぎばん",
+    "senses": [
+      {
+        "sense_id": 258805,
+        "meaning_vi": "bàn cờ shogi",
+        "confidence": "high",
+        "search_keywords": [
+          "bàn cờ shogi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bàn cờ shogi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32232,
+    "word": "将軍",
+    "kana": "しょうぐん",
+    "senses": [
+      {
+        "sense_id": 258806,
+        "meaning_vi": "chung",
+        "confidence": "high",
+        "search_keywords": [
+          "chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chung",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 258807,
+        "meaning_vi": "tướng quân",
+        "confidence": "high",
+        "search_keywords": [
+          "tướng quân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tướng quân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32233,
+    "word": "将校",
+    "kana": "しょうこう",
+    "senses": [
+      {
+        "sense_id": 258808,
+        "meaning_vi": "hạ sĩ quan; sĩ quan quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "hạ sĩ quan",
+          "sĩ quan quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạ sĩ quan; sĩ quan quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32234,
+    "word": "将補",
+    "kana": "しょうほ",
+    "senses": [
+      {
+        "sense_id": 258809,
+        "meaning_vi": "thiếu tướng (JSDF)",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu tướng (JSDF)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu tướng (JSDF)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32235,
+    "word": "将来",
+    "kana": "しょうらい",
+    "senses": [
+      {
+        "sense_id": 258810,
+        "meaning_vi": "tương lai; (tương lai) triển vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "tương lai",
+          "(tương lai) triển vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương lai; (tương lai) triển vọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 258811,
+        "meaning_vi": "mang (từ nước ngoài, vùng khác, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "mang (từ nước ngoài, vùng khác, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mang (từ nước ngoài, vùng khác, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 258812,
+        "meaning_vi": "mang lại ; làm phát sinh; gây ra; phát sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "mang lại",
+          "làm phát sinh",
+          "gây ra",
+          "phát sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mang lại ; làm phát sinh; gây ra; phát sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32236,
+    "word": "将来性",
+    "kana": "しょうらいせい",
+    "senses": [
+      {
+        "sense_id": 258813,
+        "meaning_vi": "triển vọng tương lai; lời hứa",
+        "confidence": "high",
+        "search_keywords": [
+          "triển vọng tương lai",
+          "lời hứa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triển vọng tương lai; lời hứa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32237,
+    "word": "将来像",
+    "kana": "しょうらいぞう",
+    "senses": [
+      {
+        "sense_id": 258814,
+        "meaning_vi": "tầm nhìn về tương lai",
+        "confidence": "high",
+        "search_keywords": [
+          "tầm nhìn về tương lai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tầm nhìn về tương lai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32238,
+    "word": "将来展望",
+    "kana": "しょうらいてんぼう",
+    "senses": [
+      {
+        "sense_id": 258815,
+        "meaning_vi": "triển vọng tương lai; triển vọng cho tương lai",
+        "confidence": "high",
+        "search_keywords": [
+          "triển vọng tương lai",
+          "triển vọng cho tương lai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triển vọng tương lai; triển vọng cho tương lai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32239,
+    "word": "小さい",
+    "kana": "ちいさい",
+    "senses": [
+      {
+        "sense_id": 258816,
+        "meaning_vi": "bé nhỏ; nhỏ bé; nhỏ bé",
+        "confidence": "high",
+        "search_keywords": [
+          "bé nhỏ",
+          "nhỏ bé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bé nhỏ; nhỏ bé; nhỏ bé",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 258817,
+        "meaning_vi": "nhẹ; dưới mức trung bình (về mức độ, số lượng, v.v.); người vị thành niên; nhỏ bé",
+        "confidence": "high",
+        "search_keywords": [
+          "nhẹ",
+          "dưới mức trung bình (về mức độ, số lượng, v.v.)",
+          "người vị thành niên",
+          "nhỏ bé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhẹ; dưới mức trung bình (về mức độ, số lượng, v.v.); người vị thành niên; nhỏ bé",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 258818,
+        "meaning_vi": "thấp (ví dụ: âm thanh); mềm mại (ví dụ như giọng nói)",
+        "confidence": "high",
+        "search_keywords": [
+          "thấp (ví dụ: âm thanh)",
+          "mềm mại (ví dụ như giọng nói)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thấp (ví dụ: âm thanh); mềm mại (ví dụ như giọng nói)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 258819,
+        "meaning_vi": "không quan trọng; nhỏ mọn; không đáng kể; chuyện vặt vãnh; tầm thường",
+        "confidence": "high",
+        "search_keywords": [
+          "không quan trọng",
+          "nhỏ mọn",
+          "không đáng kể",
+          "chuyện vặt vãnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không quan trọng; nhỏ mọn; không đáng kể; chuyện vặt vãnh; tầm thường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 258820,
+        "meaning_vi": "trẻ; vị thành niên",
+        "confidence": "high",
+        "search_keywords": [
+          "trẻ",
+          "vị thành niên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trẻ; vị thành niên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32240,
+    "word": "小さっぱりした",
+    "kana": "こさっぱりした",
+    "senses": [
+      {
+        "sense_id": 258821,
+        "meaning_vi": "gọn gàng; ngăn nắp; cắt tỉa",
+        "confidence": "high",
+        "search_keywords": [
+          "gọn gàng",
+          "ngăn nắp",
+          "cắt tỉa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọn gàng; ngăn nắp; cắt tỉa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32241,
+    "word": "小じんまり",
+    "kana": "こじんまり",
+    "senses": [
+      {
+        "sense_id": 258822,
+        "meaning_vi": "vừa khít; gọn gàng; gọn nhẹ; ấm cúng",
+        "confidence": "high",
+        "search_keywords": [
+          "vừa khít",
+          "gọn gàng",
+          "gọn nhẹ",
+          "ấm cúng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vừa khít; gọn gàng; gọn nhẹ; ấm cúng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

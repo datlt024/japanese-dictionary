@@ -1,0 +1,626 @@
+[
+  {
+    "vocabulary_id": 17142,
+    "word": "加盟国",
+    "kana": "かめいこく",
+    "senses": [
+      {
+        "sense_id": 238894,
+        "meaning_vi": "quốc gia thành viên; nước thành viên; người ký kết",
+        "confidence": "high",
+        "search_keywords": [
+          "quốc gia thành viên",
+          "nước thành viên",
+          "người ký kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quốc gia thành viên; nước thành viên; người ký kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17143,
+    "word": "加盟者",
+    "kana": "かめいしゃ",
+    "senses": [
+      {
+        "sense_id": 238895,
+        "meaning_vi": "người tham gia; thành viên",
+        "confidence": "high",
+        "search_keywords": [
+          "người tham gia",
+          "thành viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người tham gia; thành viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17144,
+    "word": "加盟店",
+    "kana": "かめいてん",
+    "senses": [
+      {
+        "sense_id": 238896,
+        "meaning_vi": "cửa hàng tham gia; thương gia tham gia; cửa hàng thành viên; cửa hàng nhượng quyền; bên nhượng quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa hàng tham gia",
+          "thương gia tham gia",
+          "cửa hàng thành viên",
+          "cửa hàng nhượng quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa hàng tham gia; thương gia tham gia; cửa hàng thành viên; cửa hàng nhượng quyền; bên nhượng quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17145,
+    "word": "加役",
+    "kana": "かやく",
+    "senses": [
+      {
+        "sense_id": 238897,
+        "meaning_vi": "công việc làm thêm tạm thời",
+        "confidence": "high",
+        "search_keywords": [
+          "công việc làm thêm tạm thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công việc làm thêm tạm thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17146,
+    "word": "加薬",
+    "kana": "かやく",
+    "senses": [
+      {
+        "sense_id": 238898,
+        "meaning_vi": "gia vị; gia vị; gia vị",
+        "confidence": "high",
+        "search_keywords": [
+          "gia vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gia vị; gia vị; gia vị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238899,
+        "meaning_vi": "tá dược (trong y học Trung Quốc); bổ sung chất bổ trợ",
+        "confidence": "high",
+        "search_keywords": [
+          "tá dược (trong y học Trung Quốc)",
+          "bổ sung chất bổ trợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tá dược (trong y học Trung Quốc); bổ sung chất bổ trợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238900,
+        "meaning_vi": "thịt, cá, rau, v.v. được thêm vào cơm hoặc udon (ví dụ: để làm gomoku meshi)",
+        "confidence": "high",
+        "search_keywords": [
+          "thịt, cá, rau, v.v. được thêm vào cơm hoặc udon (ví dụ: để làm gomoku meshi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thịt, cá, rau, v.v. được thêm vào cơm hoặc udon (ví dụ: để làm gomoku meshi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17147,
+    "word": "加養",
+    "kana": "かよう",
+    "senses": [
+      {
+        "sense_id": 238901,
+        "meaning_vi": "chăm sóc người bệnh; chăm sóc bản thân",
+        "confidence": "high",
+        "search_keywords": [
+          "chăm sóc người bệnh",
+          "chăm sóc bản thân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chăm sóc người bệnh; chăm sóc bản thân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17148,
+    "word": "加里",
+    "kana": "カリ",
+    "senses": [
+      {
+        "sense_id": 238902,
+        "meaning_vi": "kali",
+        "confidence": "high",
+        "search_keywords": [
+          "kali"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kali",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238903,
+        "meaning_vi": "kali; kali cacbonat",
+        "confidence": "high",
+        "search_keywords": [
+          "kali",
+          "kali cacbonat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kali; kali cacbonat",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17149,
+    "word": "加硫",
+    "kana": "かりゅう",
+    "senses": [
+      {
+        "sense_id": 238904,
+        "meaning_vi": "lưu hóa (cao su)",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu hóa (cao su)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu hóa (cao su)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17150,
+    "word": "加硫法",
+    "kana": "かりゅうほう",
+    "senses": [
+      {
+        "sense_id": 238905,
+        "meaning_vi": "lưu hóa; lưu hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu hóa; lưu hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17151,
+    "word": "加療",
+    "kana": "かりょう",
+    "senses": [
+      {
+        "sense_id": 238906,
+        "meaning_vi": "điều trị y tế; chăm sóc y tế",
+        "confidence": "high",
+        "search_keywords": [
+          "điều trị y tế",
+          "chăm sóc y tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều trị y tế; chăm sóc y tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17152,
+    "word": "加齢",
+    "kana": "かれい",
+    "senses": [
+      {
+        "sense_id": 238907,
+        "meaning_vi": "lão hóa; lão hóa; lớn lên",
+        "confidence": "high",
+        "search_keywords": [
+          "lão hóa",
+          "lớn lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lão hóa; lão hóa; lớn lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17153,
+    "word": "加禄",
+    "kana": "かろく",
+    "senses": [
+      {
+        "sense_id": 238908,
+        "meaning_vi": "tăng lương cho samurai",
+        "confidence": "high",
+        "search_keywords": [
+          "tăng lương cho samurai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tăng lương cho samurai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17154,
+    "word": "可",
+    "kana": "か",
+    "senses": [
+      {
+        "sense_id": 238909,
+        "meaning_vi": "chấp nhận được; thỏa đáng; cho phép; được phép",
+        "confidence": "high",
+        "search_keywords": [
+          "chấp nhận được",
+          "thỏa đáng",
+          "cho phép",
+          "được phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấp nhận được; thỏa đáng; cho phép; được phép",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238910,
+        "meaning_vi": "sự chấp thuận; được ưu ái; (a) bỏ phiếu ủng hộ; vâng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chấp thuận",
+          "được ưu ái",
+          "(a) bỏ phiếu ủng hộ",
+          "vâng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chấp thuận; được ưu ái; (a) bỏ phiếu ủng hộ; vâng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238911,
+        "meaning_vi": "Đạt (lớp); Hội chợ; C; D",
+        "confidence": "high",
+        "search_keywords": [
+          "Đạt (lớp)",
+          "Hội chợ",
+          "C",
+          "D"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đạt (lớp); Hội chợ; C; D",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17155,
+    "word": "可からず",
+    "kana": "べからず",
+    "senses": [
+      {
+        "sense_id": 238912,
+        "meaning_vi": "không được (làm); không nên; không",
+        "confidence": "high",
+        "search_keywords": [
+          "không được (làm)",
+          "không nên",
+          "không"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không được (làm); không nên; không",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238913,
+        "meaning_vi": "không thể",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17156,
+    "word": "可愛がる",
+    "kana": "かわいがる",
+    "senses": [
+      {
+        "sense_id": 238914,
+        "meaning_vi": "có tình cảm với; đối xử dịu dàng; để say mê; thể hiện tình yêu của một người (đối với); trân trọng",
+        "confidence": "high",
+        "search_keywords": [
+          "có tình cảm với",
+          "đối xử dịu dàng",
+          "để say mê",
+          "thể hiện tình yêu của một người (đối với)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có tình cảm với; đối xử dịu dàng; để say mê; thể hiện tình yêu của một người (đối với); trân trọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238915,
+        "meaning_vi": "tỏ ra thiên vị; là một phần của",
+        "confidence": "high",
+        "search_keywords": [
+          "tỏ ra thiên vị",
+          "là một phần của"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỏ ra thiên vị; là một phần của",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238916,
+        "meaning_vi": "vuốt ve; vuốt ve; nuôi thú cưng",
+        "confidence": "high",
+        "search_keywords": [
+          "vuốt ve",
+          "nuôi thú cưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vuốt ve; vuốt ve; nuôi thú cưng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238917,
+        "meaning_vi": "phải cứng rắn; thô bạo với; hành hạ; luyện tập khắc nghiệt",
+        "confidence": "high",
+        "search_keywords": [
+          "phải cứng rắn",
+          "thô bạo với",
+          "hành hạ",
+          "luyện tập khắc nghiệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phải cứng rắn; thô bạo với; hành hạ; luyện tập khắc nghiệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17157,
+    "word": "可愛らしい",
+    "kana": "かわいらしい",
+    "senses": [
+      {
+        "sense_id": 238918,
+        "meaning_vi": "đáng yêu; ngọt; đẹp; dễ thương; đáng yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng yêu",
+          "ngọt",
+          "đẹp",
+          "dễ thương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng yêu; ngọt; đẹp; dễ thương; đáng yêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17158,
+    "word": "可圧性",
+    "kana": "かあつせい",
+    "senses": [
+      {
+        "sense_id": 238919,
+        "meaning_vi": "khả năng nén",
+        "confidence": "high",
+        "search_keywords": [
+          "khả năng nén"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khả năng nén",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17159,
+    "word": "可換群",
+    "kana": "かかんぐん",
+    "senses": [
+      {
+        "sense_id": 238920,
+        "meaning_vi": "nhóm Abel; nhóm giao hoán",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm Abel",
+          "nhóm giao hoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm Abel; nhóm giao hoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17160,
+    "word": "可逆",
+    "kana": "かぎゃく",
+    "senses": [
+      {
+        "sense_id": 238921,
+        "meaning_vi": "có thể đảo ngược",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể đảo ngược"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể đảo ngược",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 238922,
+        "meaning_vi": "có thể đảo ngược",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể đảo ngược"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể đảo ngược",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 17161,
+    "word": "可逆反応",
+    "kana": "かぎゃくはんのう",
+    "senses": [
+      {
+        "sense_id": 238923,
+        "meaning_vi": "phản ứng thuận nghịch",
+        "confidence": "high",
+        "search_keywords": [
+          "phản ứng thuận nghịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản ứng thuận nghịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

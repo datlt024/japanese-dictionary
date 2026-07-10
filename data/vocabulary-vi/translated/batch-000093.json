@@ -1,483 +1,461 @@
 [
-{
-"vocabulary_id": 2502,
-"word": "ＳＴＯＬ",
-"kana": "ストール",
-"senses": [
-{
-"sense_id": 220778,
-"meaning_vi": "cất hạ cánh đường ngắn",
-"confidence": "medium",
-"search_keywords": [
-"STOL",
-"cất hạ cánh đường ngắn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khả năng cất cánh và hạ cánh trên đường băng ngắn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2503,
-"word": "エストニア",
-"kana": "エストニア",
-"senses": [
-{
-"sense_id": 220779,
-"meaning_vi": "Estonia",
-"confidence": "high",
-"search_keywords": [
-"Estonia",
-"Estônia"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Cộng hòa Estonia",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2504,
-"word": "エストロゲン",
-"kana": "エストロゲン",
-"senses": [
-{
-"sense_id": 220780,
-"meaning_vi": "estrogen",
-"confidence": "high",
-"search_keywords": [
-"estrogen",
-"hormone nữ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hormone sinh dục nữ estrogen",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2505,
-"word": "エストロン",
-"kana": "エストロン",
-"senses": [
-{
-"sense_id": 220781,
-"meaning_vi": "estrone",
-"confidence": "medium",
-"search_keywords": [
-"estrone",
-"hormone estrone"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hormone estrone thuộc nhóm estrogen",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2506,
-"word": "エスニシズム",
-"kana": "エスニシズム",
-"senses": [
-{
-"sense_id": 220782,
-"meaning_vi": "chủ nghĩa sắc tộc",
-"confidence": "medium",
-"search_keywords": [
-"chủ nghĩa sắc tộc",
-"ethnicism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tư tưởng đề cao bản sắc hoặc quyền lợi sắc tộc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2507,
-"word": "エスニシティ",
-"kana": "エスニシティ",
-"senses": [
-{
-"sense_id": 220783,
-"meaning_vi": "tính sắc tộc",
-"confidence": "high",
-"search_keywords": [
-"tính sắc tộc",
-"sắc tộc",
-"ethnicity"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đặc tính hoặc bản sắc sắc tộc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2508,
-"word": "エスニック",
-"kana": "エスニック",
-"senses": [
-{
-"sense_id": 220784,
-"meaning_vi": "mang tính sắc tộc",
-"confidence": "high",
-"search_keywords": [
-"mang tính sắc tộc",
-"dân tộc học",
-"ethnic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thuộc về sắc tộc hoặc văn hóa dân tộc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2509,
-"word": "エスニックグループ",
-"kana": "エスニックグループ",
-"senses": [
-{
-"sense_id": 220785,
-"meaning_vi": "nhóm sắc tộc",
-"confidence": "high",
-"search_keywords": [
-"nhóm sắc tộc",
-"cộng đồng sắc tộc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhóm người cùng nguồn gốc hoặc bản sắc sắc tộc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2510,
-"word": "エスニックフード",
-"kana": "エスニックフード",
-"senses": [
-{
-"sense_id": 220786,
-"meaning_vi": "ẩm thực dân tộc",
-"confidence": "high",
-"search_keywords": [
-"ẩm thực dân tộc",
-"món ăn dân tộc",
-"ethnic food"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "món ăn mang đặc trưng văn hóa dân tộc hoặc quốc gia",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2511,
-"word": "エスニックファッション",
-"kana": "エスニックファッション",
-"senses": [
-{
-"sense_id": 220787,
-"meaning_vi": "thời trang dân tộc",
-"confidence": "high",
-"search_keywords": [
-"thời trang dân tộc",
-"ethnic fashion"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phong cách thời trang lấy cảm hứng từ trang phục dân tộc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2512,
-"word": "エスニックルック",
-"kana": "エスニックルック",
-"senses": [
-{
-"sense_id": 220788,
-"meaning_vi": "phong cách dân tộc",
-"confidence": "high",
-"search_keywords": [
-"phong cách dân tộc",
-"ethnic look"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "diện mạo hoặc phong cách mang màu sắc dân tộc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2513,
-"word": "エスノ",
-"kana": "エスノ",
-"senses": [
-{
-"sense_id": 220789,
-"meaning_vi": "tiền tố dân tộc",
-"confidence": "medium",
-"search_keywords": [
-"ethno",
-"tiền tố dân tộc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiền tố chỉ sắc tộc hoặc dân tộc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2514,
-"word": "エスノロジー",
-"kana": "エスノロジー",
-"senses": [
-{
-"sense_id": 220790,
-"meaning_vi": "dân tộc học",
-"confidence": "high",
-"search_keywords": [
-"dân tộc học",
-"ethnology"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngành nghiên cứu các dân tộc và văn hóa của họ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2515,
-"word": "エスパー",
-"kana": "エスパー",
-"senses": [
-{
-"sense_id": 220791,
-"meaning_vi": "người có ngoại cảm",
-"confidence": "medium",
-"search_keywords": [
-"người có ngoại cảm",
-"ESP",
-"siêu cảm giác"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người được cho là có khả năng nhận thức siêu cảm giác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2516,
-"word": "エスプリ",
-"kana": "エスプリ",
-"senses": [
-{
-"sense_id": 220792,
-"meaning_vi": "tinh thần",
-"confidence": "high",
-"search_keywords": [
-"tinh thần",
-"khí chất"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tinh thần; khí chất",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220793,
-"meaning_vi": "sự hóm hỉnh",
-"confidence": "high",
-"search_keywords": [
-"sự hóm hỉnh",
-"trí dí dỏm",
-"esprit"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự hóm hỉnh; trí thông minh sắc sảo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2517,
-"word": "エスプリヌーボー",
-"kana": "エスプリヌーボー",
-"senses": [
-{
-"sense_id": 220794,
-"meaning_vi": "tinh thần mới",
-"confidence": "medium",
-"search_keywords": [
-"tinh thần mới",
-"esprit nouveau"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tinh thần mới; tư tưởng đổi mới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2518,
-"word": "エスプレッソ",
-"kana": "エスプレッソ",
-"senses": [
-{
-"sense_id": 220795,
-"meaning_vi": "cà phê espresso",
-"confidence": "high",
-"search_keywords": [
-"espresso",
-"cà phê espresso"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loại cà phê pha bằng áp suất cao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2519,
-"word": "エスペラント",
-"kana": "エスペラント",
-"senses": [
-{
-"sense_id": 220796,
-"meaning_vi": "Esperanto",
-"confidence": "high",
-"search_keywords": [
-"Esperanto",
-"tiếng Esperanto"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngôn ngữ quốc tế nhân tạo Esperanto",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2520,
-"word": "エスポワール",
-"kana": "エスポワール",
-"senses": [
-{
-"sense_id": 220797,
-"meaning_vi": "hy vọng",
-"confidence": "high",
-"search_keywords": [
-"hy vọng",
-"mong đợi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hy vọng; niềm hy vọng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2521,
-"word": "エソロジー",
-"kana": "エソロジー",
-"senses": [
-{
-"sense_id": 220798,
-"meaning_vi": "tập tính học",
-"confidence": "medium",
-"search_keywords": [
-"tập tính học",
-"ethology"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngành nghiên cứu hành vi động vật",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2502,
+    "word": "ＳＴＯＬ",
+    "kana": "ストール",
+    "senses": [
+      {
+        "sense_id": 220778,
+        "meaning_vi": "cất cánh và hạ cánh ngắn; STOL",
+        "confidence": "high",
+        "search_keywords": [
+          "cất cánh và hạ cánh ngắn",
+          "STOL"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cất cánh và hạ cánh ngắn; STOL",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2503,
+    "word": "エストニア",
+    "kana": "エストニア",
+    "senses": [
+      {
+        "sense_id": 220779,
+        "meaning_vi": "Estonia",
+        "confidence": "low",
+        "search_keywords": [
+          "Estonia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Estonia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2504,
+    "word": "エストロゲン",
+    "kana": "エストロゲン",
+    "senses": [
+      {
+        "sense_id": 220780,
+        "meaning_vi": "estrogen",
+        "confidence": "low",
+        "search_keywords": [
+          "estrogen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "estrogen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2505,
+    "word": "エストロン",
+    "kana": "エストロン",
+    "senses": [
+      {
+        "sense_id": 220781,
+        "meaning_vi": "estron",
+        "confidence": "high",
+        "search_keywords": [
+          "estron"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "estron",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2506,
+    "word": "エスニシズム",
+    "kana": "エスニシズム",
+    "senses": [
+      {
+        "sense_id": 220782,
+        "meaning_vi": "chủ nghĩa dân tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa dân tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa dân tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2507,
+    "word": "エスニシティ",
+    "kana": "エスニシティ",
+    "senses": [
+      {
+        "sense_id": 220783,
+        "meaning_vi": "chủng tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "chủng tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủng tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2508,
+    "word": "エスニック",
+    "kana": "エスニック",
+    "senses": [
+      {
+        "sense_id": 220784,
+        "meaning_vi": "dân tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "dân tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dân tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2509,
+    "word": "エスニックグループ",
+    "kana": "エスニックグループ",
+    "senses": [
+      {
+        "sense_id": 220785,
+        "meaning_vi": "nhóm dân tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm dân tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm dân tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2510,
+    "word": "エスニックフード",
+    "kana": "エスニックフード",
+    "senses": [
+      {
+        "sense_id": 220786,
+        "meaning_vi": "món ăn dân tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "món ăn dân tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "món ăn dân tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2511,
+    "word": "エスニックファッション",
+    "kana": "エスニックファッション",
+    "senses": [
+      {
+        "sense_id": 220787,
+        "meaning_vi": "thời trang dân tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "thời trang dân tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời trang dân tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2512,
+    "word": "エスニックルック",
+    "kana": "エスニックルック",
+    "senses": [
+      {
+        "sense_id": 220788,
+        "meaning_vi": "vẻ ngoài dân tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "vẻ ngoài dân tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vẻ ngoài dân tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2513,
+    "word": "エスノ",
+    "kana": "エスノ",
+    "senses": [
+      {
+        "sense_id": 220789,
+        "meaning_vi": "dân tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "dân tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dân tộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2514,
+    "word": "エスノロジー",
+    "kana": "エスノロジー",
+    "senses": [
+      {
+        "sense_id": 220790,
+        "meaning_vi": "dân tộc học",
+        "confidence": "high",
+        "search_keywords": [
+          "dân tộc học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dân tộc học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2515,
+    "word": "エスパー",
+    "kana": "エスパー",
+    "senses": [
+      {
+        "sense_id": 220791,
+        "meaning_vi": "Người siêu âm; người có ESP (ngoại cảm)",
+        "confidence": "high",
+        "search_keywords": [
+          "Người siêu âm",
+          "người có ESP (ngoại cảm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Người siêu âm; người có ESP (ngoại cảm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2516,
+    "word": "エスプリ",
+    "kana": "エスプリ",
+    "senses": [
+      {
+        "sense_id": 220792,
+        "meaning_vi": "tinh thần",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220793,
+        "meaning_vi": "tinh thần; trí thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần",
+          "trí thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần; trí thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2517,
+    "word": "エスプリヌーボー",
+    "kana": "エスプリヌーボー",
+    "senses": [
+      {
+        "sense_id": 220794,
+        "meaning_vi": "tinh thần mới",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần mới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần mới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2518,
+    "word": "エスプレッソ",
+    "kana": "エスプレッソ",
+    "senses": [
+      {
+        "sense_id": 220795,
+        "meaning_vi": "cà phê espresso (cà phê); chuyển phát nhanh",
+        "confidence": "high",
+        "search_keywords": [
+          "cà phê espresso (cà phê)",
+          "chuyển phát nhanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cà phê espresso (cà phê); chuyển phát nhanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2519,
+    "word": "エスペラント",
+    "kana": "エスペラント",
+    "senses": [
+      {
+        "sense_id": 220796,
+        "meaning_vi": "Quốc tế ngữ",
+        "confidence": "high",
+        "search_keywords": [
+          "Quốc tế ngữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Quốc tế ngữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2520,
+    "word": "エスポワール",
+    "kana": "エスポワール",
+    "senses": [
+      {
+        "sense_id": 220797,
+        "meaning_vi": "hy vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "hy vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hy vọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2521,
+    "word": "エソロジー",
+    "kana": "エソロジー",
+    "senses": [
+      {
+        "sense_id": 220798,
+        "meaning_vi": "đạo đức học",
+        "confidence": "high",
+        "search_keywords": [
+          "đạo đức học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đạo đức học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

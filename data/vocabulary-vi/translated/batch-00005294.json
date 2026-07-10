@@ -1,0 +1,442 @@
+[
+  {
+    "vocabulary_id": 126444,
+    "word": "文字幅",
+    "kana": "もじはば",
+    "senses": [
+      {
+        "sense_id": 370092,
+        "meaning_vi": "chiều rộng ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "chiều rộng ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiều rộng ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126445,
+    "word": "文字幅拡大率",
+    "kana": "もじはばかくだいりつ",
+    "senses": [
+      {
+        "sense_id": 370093,
+        "meaning_vi": "hệ số mở rộng ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số mở rộng ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số mở rộng ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126446,
+    "word": "文字落ち",
+    "kana": "もじおち",
+    "senses": [
+      {
+        "sense_id": 370094,
+        "meaning_vi": "ký tự bị thiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự bị thiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự bị thiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126447,
+    "word": "文字立ち上がり方向",
+    "kana": "もじたちあがりほうこう",
+    "senses": [
+      {
+        "sense_id": 370095,
+        "meaning_vi": "nhân vật lên vector",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật lên vector"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật lên vector",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126448,
+    "word": "文字列の長さ",
+    "kana": "もじれつのながさ",
+    "senses": [
+      {
+        "sense_id": 370096,
+        "meaning_vi": "độ dài của một chuỗi ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "độ dài của một chuỗi ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ dài của một chuỗi ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126449,
+    "word": "文字列型",
+    "kana": "もじれつがた",
+    "senses": [
+      {
+        "sense_id": 370097,
+        "meaning_vi": "kiểu chuỗi ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu chuỗi ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu chuỗi ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126450,
+    "word": "文字列束表",
+    "kana": "もじれつたばひょう",
+    "senses": [
+      {
+        "sense_id": 370098,
+        "meaning_vi": "bảng bó văn bản",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng bó văn bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng bó văn bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126451,
+    "word": "文字列入力装置",
+    "kana": "もじれつにゅうりょくそうち",
+    "senses": [
+      {
+        "sense_id": 370099,
+        "meaning_vi": "thiết bị chuỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị chuỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị chuỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126452,
+    "word": "文字枠",
+    "kana": "もじわく",
+    "senses": [
+      {
+        "sense_id": 370100,
+        "meaning_vi": "cơ thể nhân vật",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ thể nhân vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ thể nhân vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126453,
+    "word": "文識別子",
+    "kana": "ぶんしきべつし",
+    "senses": [
+      {
+        "sense_id": 370101,
+        "meaning_vi": "định danh văn bản",
+        "confidence": "high",
+        "search_keywords": [
+          "định danh văn bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định danh văn bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126454,
+    "word": "文書アイコン",
+    "kana": "ぶんしょアイコン",
+    "senses": [
+      {
+        "sense_id": 370102,
+        "meaning_vi": "biểu tượng tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126455,
+    "word": "文書クラス",
+    "kana": "ぶんしょクラス",
+    "senses": [
+      {
+        "sense_id": 370103,
+        "meaning_vi": "lớp tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126456,
+    "word": "文書クラス記述部",
+    "kana": "ぶんしょクラスきじゅつぶ",
+    "senses": [
+      {
+        "sense_id": 370104,
+        "meaning_vi": "mô tả lớp tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "mô tả lớp tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô tả lớp tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126457,
+    "word": "文書ファイル",
+    "kana": "ぶんしょファイル",
+    "senses": [
+      {
+        "sense_id": 370105,
+        "meaning_vi": "tập tin tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126458,
+    "word": "文書応用仕様",
+    "kana": "ぶんしょおうようしよう",
+    "senses": [
+      {
+        "sense_id": 370106,
+        "meaning_vi": "hồ sơ xin tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "hồ sơ xin tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồ sơ xin tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126459,
+    "word": "文書化",
+    "kana": "ぶんしょか",
+    "senses": [
+      {
+        "sense_id": 370107,
+        "meaning_vi": "tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126460,
+    "word": "文書概要",
+    "kana": "ぶんしょがいよう",
+    "senses": [
+      {
+        "sense_id": 370108,
+        "meaning_vi": "hồ sơ tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "hồ sơ tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồ sơ tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126461,
+    "word": "文書概要水準",
+    "kana": "ぶんしょがいようすいじゅん",
+    "senses": [
+      {
+        "sense_id": 370109,
+        "meaning_vi": "cấp độ hồ sơ tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "cấp độ hồ sơ tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấp độ hồ sơ tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126462,
+    "word": "文書割付け根",
+    "kana": "ぶんしょわりつけこん",
+    "senses": [
+      {
+        "sense_id": 370110,
+        "meaning_vi": "gốc bố cục tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "gốc bố cục tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gốc bố cục tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126463,
+    "word": "文書割付け処理",
+    "kana": "ぶんしょわりつけしょり",
+    "senses": [
+      {
+        "sense_id": 370111,
+        "meaning_vi": "quá trình bố trí tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "quá trình bố trí tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình bố trí tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

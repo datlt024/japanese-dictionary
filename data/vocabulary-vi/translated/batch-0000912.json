@@ -1,0 +1,758 @@
+[
+  {
+    "vocabulary_id": 23016,
+    "word": "継投",
+    "kana": "けいとう",
+    "senses": [
+      {
+        "sense_id": 246660,
+        "meaning_vi": "hạ gục người ném bóng (bắt đầu)",
+        "confidence": "high",
+        "search_keywords": [
+          "hạ gục người ném bóng (bắt đầu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạ gục người ném bóng (bắt đầu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23017,
+    "word": "継父",
+    "kana": "けいふ",
+    "senses": [
+      {
+        "sense_id": 246661,
+        "meaning_vi": "cha dượng",
+        "confidence": "high",
+        "search_keywords": [
+          "cha dượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cha dượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23018,
+    "word": "継母",
+    "kana": "ままはは",
+    "senses": [
+      {
+        "sense_id": 246662,
+        "meaning_vi": "mẹ kế",
+        "confidence": "high",
+        "search_keywords": [
+          "mẹ kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẹ kế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23019,
+    "word": "継ぎ目",
+    "kana": "つぎめ",
+    "senses": [
+      {
+        "sense_id": 246663,
+        "meaning_vi": "chung; đường may; điểm nối",
+        "confidence": "high",
+        "search_keywords": [
+          "chung",
+          "đường may",
+          "điểm nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chung; đường may; điểm nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23020,
+    "word": "繋がり",
+    "kana": "つながり",
+    "senses": [
+      {
+        "sense_id": 246664,
+        "meaning_vi": "sự liên quan; liên kết; mối quan hệ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự liên quan",
+          "liên kết",
+          "mối quan hệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự liên quan; liên kết; mối quan hệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23021,
+    "word": "繋がる",
+    "kana": "つながる",
+    "senses": [
+      {
+        "sense_id": 246665,
+        "meaning_vi": "được gắn kết với nhau; được kết nối tới; được liên kết với",
+        "confidence": "high",
+        "search_keywords": [
+          "được gắn kết với nhau",
+          "được kết nối tới",
+          "được liên kết với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được gắn kết với nhau; được kết nối tới; được liên kết với",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246666,
+        "meaning_vi": "dẫn tới; có liên quan đến",
+        "confidence": "high",
+        "search_keywords": [
+          "dẫn tới",
+          "có liên quan đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dẫn tới; có liên quan đến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246667,
+        "meaning_vi": "có quan hệ họ hàng (máu mủ)",
+        "confidence": "high",
+        "search_keywords": [
+          "có quan hệ họ hàng (máu mủ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có quan hệ họ hàng (máu mủ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23022,
+    "word": "繋ぎ",
+    "kana": "つなぎ",
+    "senses": [
+      {
+        "sense_id": 246668,
+        "meaning_vi": "liên kết; sự liên quan; cà vạt; trái phiếu; liên hệ",
+        "confidence": "high",
+        "search_keywords": [
+          "liên kết",
+          "sự liên quan",
+          "cà vạt",
+          "trái phiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên kết; sự liên quan; cà vạt; trái phiếu; liên hệ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246669,
+        "meaning_vi": "chất độn; điểm dừng (công việc, ngân sách, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "chất độn",
+          "điểm dừng (công việc, ngân sách, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất độn; điểm dừng (công việc, ngân sách, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246670,
+        "meaning_vi": "chất làm đặc (ví dụ: trong nấu ăn); dày lên; người liên lạc",
+        "confidence": "high",
+        "search_keywords": [
+          "chất làm đặc (ví dụ: trong nấu ăn)",
+          "dày lên",
+          "người liên lạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất làm đặc (ví dụ: trong nấu ăn); dày lên; người liên lạc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246671,
+        "meaning_vi": "phòng ngừa rủi ro; hàng rào",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng ngừa rủi ro",
+          "hàng rào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng ngừa rủi ro; hàng rào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246672,
+        "meaning_vi": "quần yếm; quần yếm; bộ đồ nồi hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "quần yếm",
+          "bộ đồ nồi hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quần yếm; quần yếm; bộ đồ nồi hơi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246673,
+        "meaning_vi": "tạm dừng; khoảng thời gian",
+        "confidence": "high",
+        "search_keywords": [
+          "tạm dừng",
+          "khoảng thời gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạm dừng; khoảng thời gian",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246674,
+        "meaning_vi": "kết nối",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23023,
+    "word": "繋ぐ",
+    "kana": "つなぐ",
+    "senses": [
+      {
+        "sense_id": 246675,
+        "meaning_vi": "để kết nối; liên kết với nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "để kết nối",
+          "liên kết với nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kết nối; liên kết với nhau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246676,
+        "meaning_vi": "buộc; buộc chặt; kiềm chế",
+        "confidence": "high",
+        "search_keywords": [
+          "buộc",
+          "buộc chặt",
+          "kiềm chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buộc; buộc chặt; kiềm chế",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246677,
+        "meaning_vi": "để duy trì; để bảo tồn; để giữ",
+        "confidence": "high",
+        "search_keywords": [
+          "để duy trì",
+          "để bảo tồn",
+          "để giữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để duy trì; để bảo tồn; để giữ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246678,
+        "meaning_vi": "để chuyển (gọi điện thoại); để đưa một người vượt qua",
+        "confidence": "high",
+        "search_keywords": [
+          "để chuyển (gọi điện thoại)",
+          "để đưa một người vượt qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để chuyển (gọi điện thoại); để đưa một người vượt qua",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246679,
+        "meaning_vi": "để phòng ngừa; mua hoặc bán kỳ hạn",
+        "confidence": "high",
+        "search_keywords": [
+          "để phòng ngừa",
+          "mua hoặc bán kỳ hạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để phòng ngừa; mua hoặc bán kỳ hạn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246680,
+        "meaning_vi": "để kết nối (đá)",
+        "confidence": "high",
+        "search_keywords": [
+          "để kết nối (đá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kết nối (đá)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23024,
+    "word": "繋げる",
+    "kana": "つなげる",
+    "senses": [
+      {
+        "sense_id": 246681,
+        "meaning_vi": "để kết nối",
+        "confidence": "high",
+        "search_keywords": [
+          "để kết nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kết nối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246682,
+        "meaning_vi": "buộc; buộc chặt",
+        "confidence": "high",
+        "search_keywords": [
+          "buộc",
+          "buộc chặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buộc; buộc chặt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246683,
+        "meaning_vi": "chuyển (cuộc gọi điện thoại)",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển (cuộc gọi điện thoại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển (cuộc gọi điện thoại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23025,
+    "word": "罫線",
+    "kana": "けいせん",
+    "senses": [
+      {
+        "sense_id": 246684,
+        "meaning_vi": "đường cai trị; cai trị",
+        "confidence": "high",
+        "search_keywords": [
+          "đường cai trị",
+          "cai trị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường cai trị; cai trị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246685,
+        "meaning_vi": "biểu đồ",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu đồ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu đồ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246686,
+        "meaning_vi": "nếp nhăn; ghi điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "nếp nhăn",
+          "ghi điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nếp nhăn; ghi điểm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246687,
+        "meaning_vi": "biên giới",
+        "confidence": "high",
+        "search_keywords": [
+          "biên giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biên giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23026,
+    "word": "罫線を引く",
+    "kana": "けいせんをひく",
+    "senses": [
+      {
+        "sense_id": 246688,
+        "meaning_vi": "để cai trị một dòng; để vẽ một đường",
+        "confidence": "high",
+        "search_keywords": [
+          "để cai trị một dòng",
+          "để vẽ một đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để cai trị một dòng; để vẽ một đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23027,
+    "word": "罫線表",
+    "kana": "けいせんひょう",
+    "senses": [
+      {
+        "sense_id": 246689,
+        "meaning_vi": "biểu đồ (hiển thị biến động giá)",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu đồ (hiển thị biến động giá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu đồ (hiển thị biến động giá)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23028,
+    "word": "茎",
+    "kana": "くき",
+    "senses": [
+      {
+        "sense_id": 246690,
+        "meaning_vi": "rình rập; thân cây",
+        "confidence": "high",
+        "search_keywords": [
+          "rình rập",
+          "thân cây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rình rập; thân cây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23029,
+    "word": "荊冠",
+    "kana": "けいかん",
+    "senses": [
+      {
+        "sense_id": 246691,
+        "meaning_vi": "vương miện gai",
+        "confidence": "high",
+        "search_keywords": [
+          "vương miện gai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vương miện gai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23030,
+    "word": "荊妻",
+    "kana": "けいさい",
+    "senses": [
+      {
+        "sense_id": 246692,
+        "meaning_vi": "vợ của chính mình",
+        "confidence": "high",
+        "search_keywords": [
+          "vợ của chính mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vợ của chính mình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23031,
+    "word": "蛍",
+    "kana": "ほたる",
+    "senses": [
+      {
+        "sense_id": 246693,
+        "meaning_vi": "đom đóm (Luciola cruciata); lỗi sét; con đom đóm",
+        "confidence": "high",
+        "search_keywords": [
+          "đom đóm (Luciola cruciata)",
+          "lỗi sét",
+          "con đom đóm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đom đóm (Luciola cruciata); lỗi sét; con đom đóm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23032,
+    "word": "蛍光塗料",
+    "kana": "けいこうとりょう",
+    "senses": [
+      {
+        "sense_id": 246694,
+        "meaning_vi": "sơn huỳnh quang",
+        "confidence": "high",
+        "search_keywords": [
+          "sơn huỳnh quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơn huỳnh quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23033,
+    "word": "蛍光物質",
+    "kana": "けいこうぶっしつ",
+    "senses": [
+      {
+        "sense_id": 246695,
+        "meaning_vi": "chất huỳnh quang; phốt pho",
+        "confidence": "high",
+        "search_keywords": [
+          "chất huỳnh quang",
+          "phốt pho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất huỳnh quang; phốt pho",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23034,
+    "word": "蛍狩り",
+    "kana": "ほたるがり",
+    "senses": [
+      {
+        "sense_id": 246696,
+        "meaning_vi": "ngắm đom đóm",
+        "confidence": "high",
+        "search_keywords": [
+          "ngắm đom đóm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngắm đom đóm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 246697,
+        "meaning_vi": "bắt đom đóm",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đom đóm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đom đóm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23035,
+    "word": "蛍雪の功",
+    "kana": "けいせつのこう",
+    "senses": [
+      {
+        "sense_id": 246698,
+        "meaning_vi": "thành quả của sự siêng năng học tập",
+        "confidence": "high",
+        "search_keywords": [
+          "thành quả của sự siêng năng học tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành quả của sự siêng năng học tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

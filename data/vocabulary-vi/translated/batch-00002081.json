@@ -1,0 +1,887 @@
+[
+  {
+    "vocabulary_id": 54132,
+    "word": "仮名",
+    "kana": "かめい",
+    "senses": [
+      {
+        "sense_id": 288232,
+        "meaning_vi": "bí danh; bút danh; bút danh; tên của chùm lông",
+        "confidence": "high",
+        "search_keywords": [
+          "bí danh",
+          "bút danh",
+          "tên của chùm lông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bí danh; bút danh; bút danh; tên của chùm lông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54133,
+    "word": "何",
+    "kana": "なに",
+    "senses": [
+      {
+        "sense_id": 288233,
+        "meaning_vi": "cái gì",
+        "confidence": "high",
+        "search_keywords": [
+          "cái gì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái gì",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288234,
+        "meaning_vi": "bạn-biết-gì; thứ đó",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn-biết-gì",
+          "thứ đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn-biết-gì; thứ đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288235,
+        "meaning_vi": "cái gì vậy; cái gì vậy; tên anh ấy là gì; tên cô ấy là gì",
+        "confidence": "high",
+        "search_keywords": [
+          "cái gì vậy",
+          "tên anh ấy là gì",
+          "tên cô ấy là gì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái gì vậy; cái gì vậy; tên anh ấy là gì; tên cô ấy là gì",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288236,
+        "meaning_vi": "dương vật; điều (của một người); tinh ranh",
+        "confidence": "high",
+        "search_keywords": [
+          "dương vật",
+          "điều (của một người)",
+          "tinh ranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dương vật; điều (của một người); tinh ranh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288237,
+        "meaning_vi": "(không có gì; (không) một chút nào",
+        "confidence": "high",
+        "search_keywords": [
+          "(không có gì",
+          "(không) một chút nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(không có gì; (không) một chút nào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288238,
+        "meaning_vi": "Gì?; hả?",
+        "confidence": "high",
+        "search_keywords": [
+          "Gì?",
+          "hả?"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Gì?; hả?",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288239,
+        "meaning_vi": "Chào!; Thôi nào!",
+        "confidence": "high",
+        "search_keywords": [
+          "Chào!",
+          "Thôi nào!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chào!; Thôi nào!",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288240,
+        "meaning_vi": "ồ, không (không sao đâu); tại sao (không có gì); ồ (chắc chắn là không)",
+        "confidence": "high",
+        "search_keywords": [
+          "ồ, không (không sao đâu)",
+          "tại sao (không có gì)",
+          "ồ (chắc chắn là không)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ồ, không (không sao đâu); tại sao (không có gì); ồ (chắc chắn là không)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54134,
+    "word": "何せ",
+    "kana": "なにせ",
+    "senses": [
+      {
+        "sense_id": 288241,
+        "meaning_vi": "trong mọi trường hợp; bằng mọi giá; dù sao đi nữa; Dẫu sao thì; như bạn đã biết; cho bạn thấy; đặc biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "trong mọi trường hợp",
+          "bằng mọi giá",
+          "dù sao đi nữa",
+          "Dẫu sao thì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong mọi trường hợp; bằng mọi giá; dù sao đi nữa; Dẫu sao thì; như bạn đã biết; cho bạn thấy; đặc biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54135,
+    "word": "何故",
+    "kana": "なぜ",
+    "senses": [
+      {
+        "sense_id": 288242,
+        "meaning_vi": "Tại sao; Làm sao; vì lý do gì",
+        "confidence": "high",
+        "search_keywords": [
+          "Tại sao",
+          "Làm sao",
+          "vì lý do gì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tại sao; Làm sao; vì lý do gì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54136,
+    "word": "何時でも",
+    "kana": "いつでも",
+    "senses": [
+      {
+        "sense_id": 288243,
+        "meaning_vi": "luôn luôn; mọi lúc; mọi lúc",
+        "confidence": "high",
+        "search_keywords": [
+          "luôn luôn",
+          "mọi lúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luôn luôn; mọi lúc; mọi lúc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288244,
+        "meaning_vi": "(vào) bất cứ lúc nào; bất cứ khi nào (bạn thích)",
+        "confidence": "high",
+        "search_keywords": [
+          "(vào) bất cứ lúc nào",
+          "bất cứ khi nào (bạn thích)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(vào) bất cứ lúc nào; bất cứ khi nào (bạn thích)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54137,
+    "word": "何処",
+    "kana": "どこ",
+    "senses": [
+      {
+        "sense_id": 288245,
+        "meaning_vi": "Ở đâu; nơi nào",
+        "confidence": "high",
+        "search_keywords": [
+          "Ở đâu",
+          "nơi nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ở đâu; nơi nào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288246,
+        "meaning_vi": "bao nhiêu (dài, xa); mức độ nào",
+        "confidence": "high",
+        "search_keywords": [
+          "bao nhiêu (dài, xa)",
+          "mức độ nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bao nhiêu (dài, xa); mức độ nào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54138,
+    "word": "何人も",
+    "kana": "なにびとも",
+    "senses": [
+      {
+        "sense_id": 288247,
+        "meaning_vi": "(không quan trọng) ai; mọi người; bất cứ ai",
+        "confidence": "high",
+        "search_keywords": [
+          "(không quan trọng) ai",
+          "mọi người",
+          "bất cứ ai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(không quan trọng) ai; mọi người; bất cứ ai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288248,
+        "meaning_vi": "không ai",
+        "confidence": "high",
+        "search_keywords": [
+          "không ai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không ai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54139,
+    "word": "どれ程",
+    "kana": "どれほど",
+    "senses": [
+      {
+        "sense_id": 288249,
+        "meaning_vi": "bao nhiêu; bao nhiêu",
+        "confidence": "high",
+        "search_keywords": [
+          "bao nhiêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bao nhiêu; bao nhiêu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288250,
+        "meaning_vi": "dù thế nào đi nữa (nhiều); tuy nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "dù thế nào đi nữa (nhiều)",
+          "tuy nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dù thế nào đi nữa (nhiều); tuy nhiên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288251,
+        "meaning_vi": "(không) nhiều; (không) nhiều; gần như (không có); khắc nghiệt; hầu như không",
+        "confidence": "high",
+        "search_keywords": [
+          "(không) nhiều",
+          "gần như (không có)",
+          "khắc nghiệt",
+          "hầu như không"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(không) nhiều; (không) nhiều; gần như (không có); khắc nghiệt; hầu như không",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54140,
+    "word": "何がし",
+    "kana": "なにがし",
+    "senses": [
+      {
+        "sense_id": 288252,
+        "meaning_vi": "số tiền nhất định; một số",
+        "confidence": "high",
+        "search_keywords": [
+          "số tiền nhất định",
+          "một số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số tiền nhất định; một số",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288253,
+        "meaning_vi": "người nào đó; Ông này nọ; một cái gì đó...",
+        "confidence": "high",
+        "search_keywords": [
+          "người nào đó",
+          "Ông này nọ",
+          "một cái gì đó..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nào đó; Ông này nọ; một cái gì đó...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288254,
+        "meaning_vi": "TÔI; tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "TÔI",
+          "tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "TÔI; tôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54141,
+    "word": "加重",
+    "kana": "かじゅう",
+    "senses": [
+      {
+        "sense_id": 288255,
+        "meaning_vi": "trọng số (tính trung bình); tình tiết tăng nặng",
+        "confidence": "high",
+        "search_keywords": [
+          "trọng số (tính trung bình)",
+          "tình tiết tăng nặng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trọng số (tính trung bình); tình tiết tăng nặng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54142,
+    "word": "可愛い",
+    "kana": "かわいい",
+    "senses": [
+      {
+        "sense_id": 288256,
+        "meaning_vi": "dễ thương; đáng yêu; quyến rũ; đáng yêu; xinh đẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "dễ thương",
+          "đáng yêu",
+          "quyến rũ",
+          "xinh đẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dễ thương; đáng yêu; quyến rũ; đáng yêu; xinh đẹp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288257,
+        "meaning_vi": "Thân mến; quý giá; Người thân yêu; thú cưng",
+        "confidence": "high",
+        "search_keywords": [
+          "Thân mến",
+          "quý giá",
+          "Người thân yêu",
+          "thú cưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thân mến; quý giá; Người thân yêu; thú cưng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288258,
+        "meaning_vi": "vô tội; ngây thơ; trẻ con; đáng yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "vô tội",
+          "ngây thơ",
+          "trẻ con",
+          "đáng yêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô tội; ngây thơ; trẻ con; đáng yêu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288259,
+        "meaning_vi": "ngo; nhỏ bé; nhỏ bé",
+        "confidence": "high",
+        "search_keywords": [
+          "ngo",
+          "nhỏ bé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngo; nhỏ bé; nhỏ bé",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54143,
+    "word": "可惜",
+    "kana": "あたら",
+    "senses": [
+      {
+        "sense_id": 288260,
+        "meaning_vi": "than ôi; thật đáng tiếc ; tôi vô cùng hối tiếc; một cách bi thảm",
+        "confidence": "high",
+        "search_keywords": [
+          "than ôi",
+          "thật đáng tiếc",
+          "tôi vô cùng hối tiếc",
+          "một cách bi thảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "than ôi; thật đáng tiếc ; tôi vô cùng hối tiếc; một cách bi thảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54144,
+    "word": "夏時",
+    "kana": "かじ",
+    "senses": [
+      {
+        "sense_id": 288261,
+        "meaning_vi": "mùa hè",
+        "confidence": "high",
+        "search_keywords": [
+          "mùa hè"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mùa hè",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54145,
+    "word": "夏草",
+    "kana": "なつくさ",
+    "senses": [
+      {
+        "sense_id": 288262,
+        "meaning_vi": "cỏ mùa hè",
+        "confidence": "high",
+        "search_keywords": [
+          "cỏ mùa hè"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cỏ mùa hè",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54146,
+    "word": "家居",
+    "kana": "いえい",
+    "senses": [
+      {
+        "sense_id": 288263,
+        "meaning_vi": "ở nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "ở nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54147,
+    "word": "家君",
+    "kana": "いえぎみ",
+    "senses": [
+      {
+        "sense_id": 288264,
+        "meaning_vi": "chủ nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54148,
+    "word": "家訓",
+    "kana": "かくん",
+    "senses": [
+      {
+        "sense_id": 288265,
+        "meaning_vi": "giới luật gia đình; phương châm gia đình; quy tắc của nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "giới luật gia đình",
+          "phương châm gia đình",
+          "quy tắc của nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giới luật gia đình; phương châm gia đình; quy tắc của nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54149,
+    "word": "台詞",
+    "kana": "せりふ",
+    "senses": [
+      {
+        "sense_id": 288266,
+        "meaning_vi": "(nói) lời thoại (trong vở kịch, phim, truyện tranh, v.v.); dòng của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "(nói) lời thoại (trong vở kịch, phim, truyện tranh, v.v.)",
+          "dòng của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(nói) lời thoại (trong vở kịch, phim, truyện tranh, v.v.); dòng của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288267,
+        "meaning_vi": "bình luận; nhận xét; cụm từ; lời nói",
+        "confidence": "high",
+        "search_keywords": [
+          "bình luận",
+          "nhận xét",
+          "cụm từ",
+          "lời nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bình luận; nhận xét; cụm từ; lời nói",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288268,
+        "meaning_vi": "cụm từ chứng khoán; đặt cụm từ; sáo rỗng; sự tầm thường",
+        "confidence": "high",
+        "search_keywords": [
+          "cụm từ chứng khoán",
+          "đặt cụm từ",
+          "sáo rỗng",
+          "sự tầm thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cụm từ chứng khoán; đặt cụm từ; sáo rỗng; sự tầm thường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54150,
+    "word": "暇",
+    "kana": "ひま",
+    "senses": [
+      {
+        "sense_id": 288269,
+        "meaning_vi": "thời gian rảnh rỗi; thời gian rảnh rỗi; giải trí",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian rảnh rỗi",
+          "giải trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian rảnh rỗi; thời gian rảnh rỗi; giải trí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288270,
+        "meaning_vi": "thời gian (cần phải làm điều gì đó); thời gian cần thiết",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian (cần phải làm điều gì đó)",
+          "thời gian cần thiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian (cần phải làm điều gì đó); thời gian cần thiết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288271,
+        "meaning_vi": "thời gian nghỉ; rời khỏi; kì nghỉ; kỳ nghỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian nghỉ",
+          "rời khỏi",
+          "kì nghỉ",
+          "kỳ nghỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian nghỉ; rời khỏi; kì nghỉ; kỳ nghỉ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288272,
+        "meaning_vi": "sa thải; bắn; thôi việc; ly hôn",
+        "confidence": "high",
+        "search_keywords": [
+          "sa thải",
+          "bắn",
+          "thôi việc",
+          "ly hôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sa thải; bắn; thôi việc; ly hôn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288273,
+        "meaning_vi": "miễn phí; không bận rộn; không có người ở; nhàn rỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "miễn phí",
+          "không bận rộn",
+          "không có người ở",
+          "nhàn rỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "miễn phí; không bận rộn; không có người ở; nhàn rỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288274,
+        "meaning_vi": "chậm (kinh doanh); chùng xuống; đần độn",
+        "confidence": "high",
+        "search_keywords": [
+          "chậm (kinh doanh)",
+          "chùng xuống",
+          "đần độn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chậm (kinh doanh); chùng xuống; đần độn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 288275,
+        "meaning_vi": "được tự do; không bận rộn; sẵn có; không làm gì cả",
+        "confidence": "high",
+        "search_keywords": [
+          "được tự do",
+          "không bận rộn",
+          "sẵn có",
+          "không làm gì cả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được tự do; không bận rộn; sẵn có; không làm gì cả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 54151,
+    "word": "河口",
+    "kana": "かこう",
+    "senses": [
+      {
+        "sense_id": 288276,
+        "meaning_vi": "cửa sông; cửa sông",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa sông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa sông; cửa sông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

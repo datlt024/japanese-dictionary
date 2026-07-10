@@ -1,560 +1,527 @@
 [
-{
-"vocabulary_id": 2562,
-"word": "エネーブル",
-"kana": "エネーブル",
-"senses": [
-{
-"sense_id": 220853,
-"meaning_vi": "kích hoạt",
-"confidence": "high",
-"search_keywords": [
-"kích hoạt",
-"cho phép hoạt động",
-"enable"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kích hoạt; cho phép một chức năng hoặc thiết bị hoạt động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2563,
-"word": "エネミー",
-"kana": "エネミー",
-"senses": [
-{
-"sense_id": 220854,
-"meaning_vi": "kẻ thù",
-"confidence": "high",
-"search_keywords": [
-"kẻ thù",
-"địch thủ",
-"enemy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kẻ thù; đối thủ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2564,
-"word": "エネルギー",
-"kana": "エネルギー",
-"senses": [
-{
-"sense_id": 220855,
-"meaning_vi": "năng lượng",
-"confidence": "high",
-"search_keywords": [
-"năng lượng",
-"energy",
-"vật lý"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "năng lượng trong vật lý",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220856,
-"meaning_vi": "sinh lực",
-"confidence": "high",
-"search_keywords": [
-"sinh lực",
-"sức sống",
-"sức mạnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sinh lực; sức mạnh; sức sống; sự nhiệt huyết",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220857,
-"meaning_vi": "nguồn năng lượng",
-"confidence": "high",
-"search_keywords": [
-"nguồn năng lượng",
-"tài nguyên năng lượng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nguồn hoặc tài nguyên năng lượng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220858,
-"meaning_vi": "calo",
-"confidence": "high",
-"search_keywords": [
-"calo",
-"năng lượng thực phẩm",
-"calories"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "năng lượng từ thực phẩm; calo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2565,
-"word": "エネルギッシュ",
-"kana": "エネルギッシュ",
-"senses": [
-{
-"sense_id": 220859,
-"meaning_vi": "tràn đầy năng lượng",
-"confidence": "high",
-"search_keywords": [
-"tràn đầy năng lượng",
-"nhiệt huyết",
-"năng động"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đầy năng lượng; nhiệt huyết; năng động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2566,
-"word": "エバー",
-"kana": "エバー",
-"senses": [
-{
-"sense_id": 220860,
-"meaning_vi": "luôn luôn",
-"confidence": "medium",
-"search_keywords": [
-"luôn luôn",
-"mãi mãi",
-"ever"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "luôn luôn; từng; mãi mãi (tùy ngữ cảnh)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2567,
-"word": "エバーオンワード",
-"kana": "エバーオンワード",
-"senses": [
-{
-"sense_id": 220861,
-"meaning_vi": "tiến mãi",
-"confidence": "medium",
-"search_keywords": [
-"tiến mãi",
-"không ngừng tiến lên",
-"ever onward"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "luôn tiến về phía trước; không ngừng phát triển",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2568,
-"word": "エバーグリーン",
-"kana": "エバーグリーン",
-"senses": [
-{
-"sense_id": 220862,
-"meaning_vi": "cây thường xanh",
-"confidence": "high",
-"search_keywords": [
-"cây thường xanh",
-"evergreen"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loại cây giữ lá xanh quanh năm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220863,
-"meaning_vi": "tác phẩm kinh điển",
-"confidence": "high",
-"search_keywords": [
-"tác phẩm kinh điển",
-"bất hủ",
-"evergreen"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tác phẩm bất hủ, không lỗi thời theo thời gian",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2569,
-"word": "エバーソフト",
-"kana": "エバーソフト",
-"senses": [
-{
-"sense_id": 220864,
-"meaning_vi": "cao su xốp",
-"confidence": "medium",
-"search_keywords": [
-"cao su xốp",
-"foam rubber"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cao su bọt; cao su xốp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2570,
-"word": "エバポレーテッドミルク",
-"kana": "エバポレーテッドミルク",
-"senses": [
-{
-"sense_id": 220865,
-"meaning_vi": "sữa cô đặc không đường",
-"confidence": "high",
-"search_keywords": [
-"sữa cô đặc không đường",
-"evaporated milk"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sữa được cô đặc bằng cách loại bỏ một phần nước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2571,
-"word": "エバミルク",
-"kana": "エバミルク",
-"senses": [
-{
-"sense_id": 220866,
-"meaning_vi": "sữa cô đặc không đường",
-"confidence": "high",
-"search_keywords": [
-"sữa cô đặc không đường",
-"evaporated milk"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi tắt của evaporated milk",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2572,
-"word": "エバリュエーション",
-"kana": "エバリュエーション",
-"senses": [
-{
-"sense_id": 220867,
-"meaning_vi": "đánh giá",
-"confidence": "high",
-"search_keywords": [
-"đánh giá",
-"thẩm định",
-"evaluation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự đánh giá hoặc thẩm định",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2573,
-"word": "エバリュエータ",
-"kana": "エバリュエータ",
-"senses": [
-{
-"sense_id": 220868,
-"meaning_vi": "người đánh giá",
-"confidence": "high",
-"search_keywords": [
-"người đánh giá",
-"thẩm định viên",
-"evaluator"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người thực hiện việc đánh giá hoặc thẩm định",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2574,
-"word": "エバンジェリスト",
-"kana": "エバンジェリスト",
-"senses": [
-{
-"sense_id": 220869,
-"meaning_vi": "nhà truyền giáo",
-"confidence": "high",
-"search_keywords": [
-"nhà truyền giáo",
-"evangelist"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người truyền bá tôn giáo hoặc tư tưởng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2575,
-"word": "エピキュリアン",
-"kana": "エピキュリアン",
-"senses": [
-{
-"sense_id": 220870,
-"meaning_vi": "người sành hưởng thụ",
-"confidence": "medium",
-"search_keywords": [
-"người sành hưởng thụ",
-"epicurean",
-"người sành ăn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người yêu thích hưởng thụ cuộc sống, đặc biệt là ẩm thực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2576,
-"word": "エピグラフ",
-"kana": "エピグラフ",
-"senses": [
-{
-"sense_id": 220871,
-"meaning_vi": "đề từ",
-"confidence": "medium",
-"search_keywords": [
-"đề từ",
-"epigraph",
-"lời đề dẫn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "câu trích dẫn hoặc lời đề dẫn ở đầu tác phẩm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2577,
-"word": "エピグラム",
-"kana": "エピグラム",
-"senses": [
-{
-"sense_id": 220872,
-"meaning_vi": "châm ngôn ngắn",
-"confidence": "medium",
-"search_keywords": [
-"châm ngôn ngắn",
-"epigram",
-"câu văn châm biếm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "câu văn ngắn gọn, sắc sảo hoặc châm biếm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2578,
-"word": "エピゴーネン",
-"kana": "エピゴーネン",
-"senses": [
-{
-"sense_id": 220873,
-"meaning_vi": "kẻ bắt chước",
-"confidence": "medium",
-"search_keywords": [
-"kẻ bắt chước",
-"người noi theo",
-"epigone"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người chỉ mô phỏng hoặc đi theo thành tựu của người khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2579,
-"word": "エピステーメー",
-"kana": "エピステーメー",
-"senses": [
-{
-"sense_id": 220874,
-"meaning_vi": "episteme",
-"confidence": "low",
-"search_keywords": [
-"episteme",
-"hệ hình tri thức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khái niệm triết học chỉ hệ thống tri thức nền tảng của một thời đại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2580,
-"word": "エピソード",
-"kana": "エピソード",
-"senses": [
-{
-"sense_id": 220875,
-"meaning_vi": "giai thoại",
-"confidence": "high",
-"search_keywords": [
-"giai thoại",
-"câu chuyện",
-"tình tiết"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giai thoại; câu chuyện hoặc tình tiết đáng nhớ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220876,
-"meaning_vi": "đoạn nhạc xen",
-"confidence": "medium",
-"search_keywords": [
-"đoạn nhạc xen",
-"episode",
-"âm nhạc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đoạn nhạc xen trong một tác phẩm âm nhạc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2581,
-"word": "エピタキシー",
-"kana": "エピタキシー",
-"senses": [
-{
-"sense_id": 220877,
-"meaning_vi": "tăng trưởng biểu mô",
-"confidence": "medium",
-"search_keywords": [
-"epitaxy",
-"tăng trưởng epitaxy",
-"epitaxial growth"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá trình tăng trưởng tinh thể theo định hướng trên bề mặt tinh thể khác",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2562,
+    "word": "エネーブル",
+    "kana": "エネーブル",
+    "senses": [
+      {
+        "sense_id": 220853,
+        "meaning_vi": "kích hoạt",
+        "confidence": "high",
+        "search_keywords": [
+          "kích hoạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích hoạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2563,
+    "word": "エネミー",
+    "kana": "エネミー",
+    "senses": [
+      {
+        "sense_id": 220854,
+        "meaning_vi": "kẻ thù",
+        "confidence": "high",
+        "search_keywords": [
+          "kẻ thù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẻ thù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2564,
+    "word": "エネルギー",
+    "kana": "エネルギー",
+    "senses": [
+      {
+        "sense_id": 220855,
+        "meaning_vi": "năng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "năng lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năng lượng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220856,
+        "meaning_vi": "năng lượng; sức mạnh; quyền lực; sự bền bỉ; đứng dậy và đi",
+        "confidence": "high",
+        "search_keywords": [
+          "năng lượng",
+          "sức mạnh",
+          "quyền lực",
+          "sự bền bỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năng lượng; sức mạnh; quyền lực; sự bền bỉ; đứng dậy và đi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220857,
+        "meaning_vi": "nguồn năng lượng; tài nguyên năng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn năng lượng",
+          "tài nguyên năng lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn năng lượng; tài nguyên năng lượng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220858,
+        "meaning_vi": "năng lượng thực phẩm; calo",
+        "confidence": "high",
+        "search_keywords": [
+          "năng lượng thực phẩm",
+          "calo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năng lượng thực phẩm; calo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2565,
+    "word": "エネルギッシュ",
+    "kana": "エネルギッシュ",
+    "senses": [
+      {
+        "sense_id": 220859,
+        "meaning_vi": "tràn đầy năng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "tràn đầy năng lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tràn đầy năng lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2566,
+    "word": "エバー",
+    "kana": "エバー",
+    "senses": [
+      {
+        "sense_id": 220860,
+        "meaning_vi": "bao giờ hết",
+        "confidence": "high",
+        "search_keywords": [
+          "bao giờ hết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bao giờ hết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2567,
+    "word": "エバーオンワード",
+    "kana": "エバーオンワード",
+    "senses": [
+      {
+        "sense_id": 220861,
+        "meaning_vi": "mãi mãi trở đi",
+        "confidence": "high",
+        "search_keywords": [
+          "mãi mãi trở đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mãi mãi trở đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2568,
+    "word": "エバーグリーン",
+    "kana": "エバーグリーン",
+    "senses": [
+      {
+        "sense_id": 220862,
+        "meaning_vi": "thường xanh (cây)",
+        "confidence": "high",
+        "search_keywords": [
+          "thường xanh (cây)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thường xanh (cây)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220863,
+        "meaning_vi": "thường xanh (công việc); kiệt tác vượt thời gian; tác phẩm bất tử",
+        "confidence": "high",
+        "search_keywords": [
+          "thường xanh (công việc)",
+          "kiệt tác vượt thời gian",
+          "tác phẩm bất tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thường xanh (công việc); kiệt tác vượt thời gian; tác phẩm bất tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2569,
+    "word": "エバーソフト",
+    "kana": "エバーソフト",
+    "senses": [
+      {
+        "sense_id": 220864,
+        "meaning_vi": "cao su xốp",
+        "confidence": "high",
+        "search_keywords": [
+          "cao su xốp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cao su xốp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2570,
+    "word": "エバポレーテッドミルク",
+    "kana": "エバポレーテッドミルク",
+    "senses": [
+      {
+        "sense_id": 220865,
+        "meaning_vi": "sữa bay hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "sữa bay hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sữa bay hơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2571,
+    "word": "エバミルク",
+    "kana": "エバミルク",
+    "senses": [
+      {
+        "sense_id": 220866,
+        "meaning_vi": "sữa bay hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "sữa bay hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sữa bay hơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2572,
+    "word": "エバリュエーション",
+    "kana": "エバリュエーション",
+    "senses": [
+      {
+        "sense_id": 220867,
+        "meaning_vi": "đánh giá",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh giá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2573,
+    "word": "エバリュエータ",
+    "kana": "エバリュエータ",
+    "senses": [
+      {
+        "sense_id": 220868,
+        "meaning_vi": "người đánh giá",
+        "confidence": "high",
+        "search_keywords": [
+          "người đánh giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đánh giá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2574,
+    "word": "エバンジェリスト",
+    "kana": "エバンジェリスト",
+    "senses": [
+      {
+        "sense_id": 220869,
+        "meaning_vi": "nhà truyền giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà truyền giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà truyền giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2575,
+    "word": "エピキュリアン",
+    "kana": "エピキュリアン",
+    "senses": [
+      {
+        "sense_id": 220870,
+        "meaning_vi": "hưởng thụ",
+        "confidence": "high",
+        "search_keywords": [
+          "hưởng thụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hưởng thụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2576,
+    "word": "エピグラフ",
+    "kana": "エピグラフ",
+    "senses": [
+      {
+        "sense_id": 220871,
+        "meaning_vi": "chữ khắc",
+        "confidence": "high",
+        "search_keywords": [
+          "chữ khắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chữ khắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2577,
+    "word": "エピグラム",
+    "kana": "エピグラム",
+    "senses": [
+      {
+        "sense_id": 220872,
+        "meaning_vi": "biểu tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2578,
+    "word": "エピゴーネン",
+    "kana": "エピゴーネン",
+    "senses": [
+      {
+        "sense_id": 220873,
+        "meaning_vi": "epigone",
+        "confidence": "low",
+        "search_keywords": [
+          "epigone"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "epigone",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2579,
+    "word": "エピステーメー",
+    "kana": "エピステーメー",
+    "senses": [
+      {
+        "sense_id": 220874,
+        "meaning_vi": "nhận thức",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2580,
+    "word": "エピソード",
+    "kana": "エピソード",
+    "senses": [
+      {
+        "sense_id": 220875,
+        "meaning_vi": "tập phim; giai thoại; họa tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "tập phim",
+          "giai thoại",
+          "họa tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập phim; giai thoại; họa tiết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220876,
+        "meaning_vi": "tập phim",
+        "confidence": "high",
+        "search_keywords": [
+          "tập phim"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập phim",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2581,
+    "word": "エピタキシー",
+    "kana": "エピタキシー",
+    "senses": [
+      {
+        "sense_id": 220877,
+        "meaning_vi": "epitaxy; tăng trưởng epiticular",
+        "confidence": "high",
+        "search_keywords": [
+          "epitaxy",
+          "tăng trưởng epiticular"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "epitaxy; tăng trưởng epiticular",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,688 +1,668 @@
-{
-"file_name": "batch-000015.json",
-"data": [
-{
-"vocabulary_id": 301,
-"word": "キラキラ",
-"kana": "キラキラ",
-"senses": [
-{
-"sense_id": 217709,
-"meaning_vi": "lấp lánh",
-"confidence": "high",
-"search_keywords": [
-"lấp lánh",
-"lung linh",
-"lóe sáng",
-"ánh kim"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lấp lánh; lung linh; sáng lóa; nhấp nháy",
-"examples": []
-}
+[
+  {
+    "vocabulary_id": 301,
+    "word": "キラキラ",
+    "kana": "キラキラ",
+    "senses": [
+      {
+        "sense_id": 217709,
+        "meaning_vi": "lấp lánh; lấp lánh; lấp lánh; lấp lánh",
+        "confidence": "high",
+        "search_keywords": [
+          "lấp lánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lấp lánh; lấp lánh; lấp lánh; lấp lánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 302,
+    "word": "きんきん",
+    "kana": "きんきん",
+    "senses": [
+      {
+        "sense_id": 217710,
+        "meaning_vi": "chói tai; kêu to; xỏ lỗ; leng keng; âm thanh kim loại",
+        "confidence": "high",
+        "search_keywords": [
+          "chói tai",
+          "kêu to",
+          "xỏ lỗ",
+          "leng keng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chói tai; kêu to; xỏ lỗ; leng keng; âm thanh kim loại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217711,
+        "meaning_vi": "sắc nét (đau, ví dụ như nhức đầu, đau tai)",
+        "confidence": "high",
+        "search_keywords": [
+          "sắc nét (đau, ví dụ như nhức đầu, đau tai)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắc nét (đau, ví dụ như nhức đầu, đau tai)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217712,
+        "meaning_vi": "lạnh như băng; rất lạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "lạnh như băng",
+          "rất lạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lạnh như băng; rất lạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 303,
+    "word": "ギクシャク",
+    "kana": "ギクシャク",
+    "senses": [
+      {
+        "sense_id": 217713,
+        "meaning_vi": "lúng túng (cử động, lời nói, v.v.); giật; cứng nhắc; đi cà kheo",
+        "confidence": "high",
+        "search_keywords": [
+          "lúng túng (cử động, lời nói, v.v.)",
+          "giật",
+          "cứng nhắc",
+          "đi cà kheo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lúng túng (cử động, lời nói, v.v.); giật; cứng nhắc; đi cà kheo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217714,
+        "meaning_vi": "căng thẳng (quan hệ); chua",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng (quan hệ)",
+          "chua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng (quan hệ); chua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 304,
+    "word": "ぎこちない",
+    "kana": "ぎこちない",
+    "senses": [
+      {
+        "sense_id": 217715,
+        "meaning_vi": "vụng về; hậu đậu; cứng nhắc; thô; chưa tinh chế; bị hạn chế",
+        "confidence": "high",
+        "search_keywords": [
+          "vụng về",
+          "hậu đậu",
+          "cứng nhắc",
+          "thô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vụng về; hậu đậu; cứng nhắc; thô; chưa tinh chế; bị hạn chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 305,
+    "word": "刻々",
+    "kana": "ギザギザ",
+    "senses": [
+      {
+        "sense_id": 217716,
+        "meaning_vi": "khía; răng cưa; thụt lề; răng cưa (tạo tác bậc thang trong hình ảnh máy tính)",
+        "confidence": "high",
+        "search_keywords": [
+          "khía",
+          "răng cưa",
+          "thụt lề",
+          "răng cưa (tạo tác bậc thang trong hình ảnh máy tính)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khía; răng cưa; thụt lề; răng cưa (tạo tác bậc thang trong hình ảnh máy tính)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217717,
+        "meaning_vi": "khía; có răng cưa; lởm chởm; tôn; xay xát",
+        "confidence": "high",
+        "search_keywords": [
+          "khía",
+          "có răng cưa",
+          "lởm chởm",
+          "tôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khía; có răng cưa; lởm chởm; tôn; xay xát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 306,
+    "word": "ギスギス",
+    "kana": "ギスギス",
+    "senses": [
+      {
+        "sense_id": 217718,
+        "meaning_vi": "cứng nhắc (không khí, cách thức, v.v.); lạnh lẽo; không thân thiện; khó gần; sắc sảo",
+        "confidence": "high",
+        "search_keywords": [
+          "cứng nhắc (không khí, cách thức, v.v.)",
+          "lạnh lẽo",
+          "không thân thiện",
+          "khó gần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cứng nhắc (không khí, cách thức, v.v.); lạnh lẽo; không thân thiện; khó gần; sắc sảo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217719,
+        "meaning_vi": "gầy và xương xẩu; gầy gò",
+        "confidence": "high",
+        "search_keywords": [
+          "gầy và xương xẩu",
+          "gầy gò"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gầy và xương xẩu; gầy gò",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 307,
+    "word": "ぎっくり腰",
+    "kana": "ぎっくりごし",
+    "senses": [
+      {
+        "sense_id": 217720,
+        "meaning_vi": "căng thẳng trở lại; trượt đĩa; căng thắt lưng cùng",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng trở lại",
+          "trượt đĩa",
+          "căng thắt lưng cùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng trở lại; trượt đĩa; căng thắt lưng cùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 308,
+    "word": "ぎっしり",
+    "kana": "ぎっしり",
+    "senses": [
+      {
+        "sense_id": 217721,
+        "meaning_vi": "chặt chẽ (đóng gói); dày đặc; chặt chẽ; nhồi nhét",
+        "confidence": "high",
+        "search_keywords": [
+          "chặt chẽ (đóng gói)",
+          "dày đặc",
+          "chặt chẽ",
+          "nhồi nhét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chặt chẽ (đóng gói); dày đặc; chặt chẽ; nhồi nhét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 309,
+    "word": "ぎゅうぎゅう",
+    "kana": "ぎゅうぎゅう",
+    "senses": [
+      {
+        "sense_id": 217722,
+        "meaning_vi": "cọt kẹt; kêu cót két",
+        "confidence": "high",
+        "search_keywords": [
+          "cọt kẹt",
+          "kêu cót két"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cọt kẹt; kêu cót két",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217723,
+        "meaning_vi": "đóng gói chặt chẽ; nhồi nhét; ép",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng gói chặt chẽ",
+          "nhồi nhét",
+          "ép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng gói chặt chẽ; nhồi nhét; ép",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217724,
+        "meaning_vi": "cứng (ép, buộc, xoắn, v.v.); chặt chẽ; bằng vũ lực",
+        "confidence": "high",
+        "search_keywords": [
+          "cứng (ép, buộc, xoắn, v.v.)",
+          "chặt chẽ",
+          "bằng vũ lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cứng (ép, buộc, xoắn, v.v.); chặt chẽ; bằng vũ lực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217725,
+        "meaning_vi": "làm khó (với ai đó); hành hạ (ví dụ: với câu hỏi)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm khó (với ai đó)",
+          "hành hạ (ví dụ: với câu hỏi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm khó (với ai đó); hành hạ (ví dụ: với câu hỏi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 310,
+    "word": "ぎゅぎゅ",
+    "kana": "ぎゅぎゅ",
+    "senses": [
+      {
+        "sense_id": 217726,
+        "meaning_vi": "ngáy",
+        "confidence": "high",
+        "search_keywords": [
+          "ngáy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngáy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 311,
+    "word": "ぎゅっと",
+    "kana": "ぎゅっと",
+    "senses": [
+      {
+        "sense_id": 217727,
+        "meaning_vi": "chặt (giữ, bóp, v.v.); vững chắc; một cách mạnh mẽ (ví dụ: đẩy); cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "chặt (giữ, bóp, v.v.)",
+          "vững chắc",
+          "một cách mạnh mẽ (ví dụ: đẩy)",
+          "cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chặt (giữ, bóp, v.v.); vững chắc; một cách mạnh mẽ (ví dụ: đẩy); cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 312,
+    "word": "ぎょっと",
+    "kana": "ぎょっと",
+    "senses": [
+      {
+        "sense_id": 217728,
+        "meaning_vi": "bị giật mình",
+        "confidence": "high",
+        "search_keywords": [
+          "bị giật mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị giật mình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 313,
+    "word": "ぎょろぎょろ",
+    "kana": "ぎょろぎょろ",
+    "senses": [
+      {
+        "sense_id": 217729,
+        "meaning_vi": "đang đeo kính; đảo (mắt của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "đang đeo kính",
+          "đảo (mắt của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang đeo kính; đảo (mắt của một người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 314,
+    "word": "ギラギラ",
+    "kana": "ギラギラ",
+    "senses": [
+      {
+        "sense_id": 217730,
+        "meaning_vi": "rõ ràng; rực rỡ; rực rỡ",
+        "confidence": "high",
+        "search_keywords": [
+          "rõ ràng",
+          "rực rỡ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rõ ràng; rực rỡ; rực rỡ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 315,
+    "word": "限り限り",
+    "kana": "ぎりぎり",
+    "senses": [
+      {
+        "sense_id": 217731,
+        "meaning_vi": "vừa đủ; chỉ mà thôi; ở mức giới hạn nhất; vào giây phút cuối cùng",
+        "confidence": "high",
+        "search_keywords": [
+          "vừa đủ",
+          "chỉ mà thôi",
+          "ở mức giới hạn nhất",
+          "vào giây phút cuối cùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vừa đủ; chỉ mà thôi; ở mức giới hạn nhất; vào giây phút cuối cùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 316,
+    "word": "くさくさ",
+    "kana": "くさくさ",
+    "senses": [
+      {
+        "sense_id": 217732,
+        "meaning_vi": "cảm thấy chán nản; cảm thấy u ám; cảm thấy chán nản",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm thấy chán nản",
+          "cảm thấy u ám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm thấy chán nản; cảm thấy u ám; cảm thấy chán nản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 317,
+    "word": "くしゃくしゃ",
+    "kana": "くしゃくしゃ",
+    "senses": [
+      {
+        "sense_id": 217733,
+        "meaning_vi": "nhàu nát; nhàu nát; nhăn; nhàu; rối bù; nhếch nhác; nhếch nhác",
+        "confidence": "high",
+        "search_keywords": [
+          "nhàu nát",
+          "nhăn",
+          "nhàu",
+          "rối bù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhàu nát; nhàu nát; nhăn; nhàu; rối bù; nhếch nhác; nhếch nhác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217734,
+        "meaning_vi": "khó chịu; bị kích thích; buồn bã",
+        "confidence": "high",
+        "search_keywords": [
+          "khó chịu",
+          "bị kích thích",
+          "buồn bã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khó chịu; bị kích thích; buồn bã",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217735,
+        "meaning_vi": "ồn ào (nhai)",
+        "confidence": "high",
+        "search_keywords": [
+          "ồn ào (nhai)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ồn ào (nhai)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 318,
+    "word": "嚏",
+    "kana": "くしゃみ",
+    "senses": [
+      {
+        "sense_id": 217736,
+        "meaning_vi": "hắt hơi; hắt hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "hắt hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hắt hơi; hắt hơi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217737,
+        "meaning_vi": "được nói hai lần để đáp lại việc ai đó hắt hơi như một lá bùa chống lại cái chết sớm",
+        "confidence": "high",
+        "search_keywords": [
+          "được nói hai lần để đáp lại việc ai đó hắt hơi như một lá bùa chống lại cái chết sớm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được nói hai lần để đáp lại việc ai đó hắt hơi như một lá bùa chống lại cái chết sớm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 319,
+    "word": "くすくす笑う",
+    "kana": "くすくすわらう",
+    "senses": [
+      {
+        "sense_id": 217738,
+        "meaning_vi": "cười khúc khích",
+        "confidence": "high",
+        "search_keywords": [
+          "cười khúc khích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cười khúc khích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 320,
+    "word": "擽ったい",
+    "kana": "くすぐったい",
+    "senses": [
+      {
+        "sense_id": 217739,
+        "meaning_vi": "nhột",
+        "confidence": "high",
+        "search_keywords": [
+          "nhột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhột",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217740,
+        "meaning_vi": "xấu hổ",
+        "confidence": "high",
+        "search_keywords": [
+          "xấu hổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xấu hổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]
-}
-]
-},
-{
-"vocabulary_id": 302,
-"word": "きんきん",
-"kana": "きんきん",
-"senses": [
-{
-"sense_id": 217710,
-"meaning_vi": "the thé chói tai",
-"confidence": "high",
-"search_keywords": [
-"chói tai",
-"the thé",
-"lanh lảnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vang lên the thé; lanh lảnh; chói tai",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217711,
-"meaning_vi": "đau nhói",
-"confidence": "high",
-"search_keywords": [
-"đau nhói",
-"đau buốt",
-"đau nhức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơn đau buốt hoặc đau nhói dữ dội",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217712,
-"meaning_vi": "lạnh buốt",
-"confidence": "high",
-"search_keywords": [
-"lạnh buốt",
-"lạnh cóng",
-"ướp lạnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rất lạnh; lạnh buốt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 303,
-"word": "ギクシャク",
-"kana": "ギクシャク",
-"senses": [
-{
-"sense_id": 217713,
-"meaning_vi": "gượng gạo",
-"confidence": "high",
-"search_keywords": [
-"gượng gạo",
-"cứng nhắc",
-"vụng về"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cử động hoặc lời nói thiếu tự nhiên, gượng gạo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217714,
-"meaning_vi": "căng thẳng",
-"confidence": "high",
-"search_keywords": [
-"căng thẳng",
-"rạn nứt",
-"không hòa hợp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quan hệ trở nên căng thẳng hoặc không hòa thuận",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 304,
-"word": "ぎこちない",
-"kana": "ぎこちない",
-"senses": [
-{
-"sense_id": 217715,
-"meaning_vi": "gượng gạo",
-"confidence": "high",
-"search_keywords": [
-"gượng gạo",
-"vụng về",
-"cứng nhắc",
-"thiếu tự nhiên"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vụng về; cứng nhắc; thiếu tự nhiên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 305,
-"word": "刻々",
-"kana": "ギザギザ",
-"senses": [
-{
-"sense_id": 217716,
-"meaning_vi": "răng cưa",
-"confidence": "high",
-"search_keywords": [
-"răng cưa",
-"khía răng cưa",
-"lởm chởm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vết khía hoặc cạnh có dạng răng cưa",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217717,
-"meaning_vi": "lởm chởm",
-"confidence": "high",
-"search_keywords": [
-"lởm chởm",
-"răng cưa",
-"gồ ghề"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có hình răng cưa; mép nhọn lởm chởm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 306,
-"word": "ギスギス",
-"kana": "ギスギス",
-"senses": [
-{
-"sense_id": 217718,
-"meaning_vi": "căng thẳng lạnh nhạt",
-"confidence": "high",
-"search_keywords": [
-"căng thẳng",
-"lạnh nhạt",
-"khó gần"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bầu không khí hoặc thái độ lạnh nhạt, căng thẳng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217719,
-"meaning_vi": "gầy trơ xương",
-"confidence": "high",
-"search_keywords": [
-"gầy trơ xương",
-"ốm nhom",
-"cò hương"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá gầy, chỉ còn da bọc xương",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 307,
-"word": "ぎっくり腰",
-"kana": "ぎっくりごし",
-"senses": [
-{
-"sense_id": 217720,
-"meaning_vi": "đau lưng cấp",
-"confidence": "high",
-"search_keywords": [
-"đau lưng cấp",
-"trẹo lưng",
-"đau thắt lưng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đau thắt lưng đột ngột do tổn thương cơ hoặc đĩa đệm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 308,
-"word": "ぎっしり",
-"kana": "ぎっしり",
-"senses": [
-{
-"sense_id": 217721,
-"meaning_vi": "chật kín",
-"confidence": "high",
-"search_keywords": [
-"chật kín",
-"đầy ắp",
-"ken đặc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "được nhồi hoặc xếp kín đặc không còn khoảng trống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 309,
-"word": "ぎゅうぎゅう",
-"kana": "ぎゅうぎゅう",
-"senses": [
-{
-"sense_id": 217722,
-"meaning_vi": "kẽo kẹt",
-"confidence": "high",
-"search_keywords": [
-"kẽo kẹt",
-"cót két",
-"rít lên"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phát ra tiếng kẽo kẹt hoặc cót két",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217723,
-"meaning_vi": "chen chúc",
-"confidence": "high",
-"search_keywords": [
-"chen chúc",
-"nhồi nhét",
-"chật kín"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhồi hoặc ép chặt vào nhau",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217724,
-"meaning_vi": "siết chặt",
-"confidence": "high",
-"search_keywords": [
-"siết chặt",
-"ép mạnh",
-"vặn mạnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dùng lực mạnh để ép, buộc hoặc vặn",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217725,
-"meaning_vi": "tra khảo dồn dập",
-"confidence": "medium",
-"search_keywords": [
-"tra khảo",
-"dồn ép",
-"gặng hỏi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "liên tục ép buộc hoặc chất vấn người khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 310,
-"word": "ぎゅぎゅ",
-"kana": "ぎゅぎゅ",
-"senses": [
-{
-"sense_id": 217726,
-"meaning_vi": "ngáy khò khò",
-"confidence": "medium",
-"search_keywords": [
-"ngáy",
-"ngáy khò khò"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phát tiếng ngáy khi ngủ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 311,
-"word": "ぎゅっと",
-"kana": "ぎゅっと",
-"senses": [
-{
-"sense_id": 217727,
-"meaning_vi": "siết chặt",
-"confidence": "high",
-"search_keywords": [
-"siết chặt",
-"ôm chặt",
-"nắm chặt",
-"ép mạnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giữ, bóp hoặc ép thật chặt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 312,
-"word": "ぎょっと",
-"kana": "ぎょっと",
-"senses": [
-{
-"sense_id": 217728,
-"meaning_vi": "giật mình",
-"confidence": "high",
-"search_keywords": [
-"giật mình",
-"kinh hãi",
-"sửng sốt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bất ngờ hoảng hốt hoặc giật mình",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 313,
-"word": "ぎょろぎょろ",
-"kana": "ぎょろぎょろ",
-"senses": [
-{
-"sense_id": 217729,
-"meaning_vi": "đảo mắt liên tục",
-"confidence": "high",
-"search_keywords": [
-"đảo mắt",
-"liếc nhìn quanh",
-"trợn mắt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đảo hoặc trợn mắt nhìn khắp nơi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 314,
-"word": "ギラギラ",
-"kana": "ギラギラ",
-"senses": [
-{
-"sense_id": 217730,
-"meaning_vi": "chói lóa",
-"confidence": "high",
-"search_keywords": [
-"chói lóa",
-"gay gắt",
-"rực cháy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phát sáng gay gắt, chói mắt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 315,
-"word": "限り限り",
-"kana": "ぎりぎり",
-"senses": [
-{
-"sense_id": 217731,
-"meaning_vi": "sát nút",
-"confidence": "high",
-"search_keywords": [
-"sát nút",
-"vừa kịp",
-"sát giới hạn",
-"phút chót"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vừa đủ; sát giới hạn; đúng vào phút cuối",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 316,
-"word": "くさくさ",
-"kana": "くさくさ",
-"senses": [
-{
-"sense_id": 217732,
-"meaning_vi": "buồn bực",
-"confidence": "high",
-"search_keywords": [
-"buồn bực",
-"chán nản",
-"u sầu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm thấy chán nản, buồn bực hoặc thất vọng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 317,
-"word": "くしゃくしゃ",
-"kana": "くしゃくしゃ",
-"senses": [
-{
-"sense_id": 217733,
-"meaning_vi": "nhăn nhúm",
-"confidence": "high",
-"search_keywords": [
-"nhăn nhúm",
-"nhàu nát",
-"rối bù"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhăn nheo; nhàu nát; rối tung",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217734,
-"meaning_vi": "bực bội",
-"confidence": "high",
-"search_keywords": [
-"bực bội",
-"cáu kỉnh",
-"khó chịu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm thấy khó chịu hoặc bực tức",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217735,
-"meaning_vi": "nhai nhóp nhép",
-"confidence": "high",
-"search_keywords": [
-"nhóp nhép",
-"nhai tóp tép"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phát tiếng động khi nhai",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 318,
-"word": "嚏",
-"kana": "くしゃみ",
-"senses": [
-{
-"sense_id": 217736,
-"meaning_vi": "hắt hơi",
-"confidence": "high",
-"search_keywords": [
-"hắt hơi",
-"nhảy mũi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hành động hắt hơi; cái hắt hơi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217737,
-"meaning_vi": "khẩu quyết tránh xui",
-"confidence": "medium",
-"search_keywords": [
-"hắt hơi",
-"câu tránh xui"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "câu nói lặp lại sau khi ai đó hắt hơi để tránh điềm xấu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 319,
-"word": "くすくす笑う",
-"kana": "くすくすわらう",
-"senses": [
-{
-"sense_id": 217738,
-"meaning_vi": "cười khúc khích",
-"confidence": "high",
-"search_keywords": [
-"cười khúc khích",
-"cười tủm tỉm",
-"cười giggle"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cười nhỏ, khúc khích vì thích thú",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 320,
-"word": "擽ったい",
-"kana": "くすぐったい",
-"senses": [
-{
-"sense_id": 217739,
-"meaning_vi": "nhột",
-"confidence": "high",
-"search_keywords": [
-"nhột",
-"buồn nhột"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có cảm giác nhột khi bị chạm hoặc cù",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217740,
-"meaning_vi": "ngượng ngùng",
-"confidence": "high",
-"search_keywords": [
-"ngượng ngùng",
-"xấu hổ",
-"khó xử"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm thấy ngượng hoặc khó xử",
-"examples": []
-}
-]
-}
-]
-}
-]
-}

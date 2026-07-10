@@ -1,0 +1,648 @@
+[
+  {
+    "vocabulary_id": 26115,
+    "word": "剛直",
+    "kana": "ごうちょく",
+    "senses": [
+      {
+        "sense_id": 250730,
+        "meaning_vi": "chính trực; lòng dũng cảm đạo đức; độ cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "chính trực",
+          "lòng dũng cảm đạo đức",
+          "độ cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính trực; lòng dũng cảm đạo đức; độ cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26116,
+    "word": "剛毛",
+    "kana": "ごうもう",
+    "senses": [
+      {
+        "sense_id": 250731,
+        "meaning_vi": "lông; seta; tóc cứng; tóc thô",
+        "confidence": "high",
+        "search_keywords": [
+          "lông",
+          "seta",
+          "tóc cứng",
+          "tóc thô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lông; seta; tóc cứng; tóc thô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26117,
+    "word": "強力",
+    "kana": "ごうりき",
+    "senses": [
+      {
+        "sense_id": 250732,
+        "meaning_vi": "sức mạnh phi thường",
+        "confidence": "high",
+        "search_keywords": [
+          "sức mạnh phi thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức mạnh phi thường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250733,
+        "meaning_vi": "hướng dẫn vận chuyển núi",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn vận chuyển núi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn vận chuyển núi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26118,
+    "word": "劫火",
+    "kana": "ごうか",
+    "senses": [
+      {
+        "sense_id": 250734,
+        "meaning_vi": "trận hỏa hoạn hủy diệt thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "trận hỏa hoạn hủy diệt thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận hỏa hoạn hủy diệt thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26119,
+    "word": "劫盗",
+    "kana": "ごうとう",
+    "senses": [
+      {
+        "sense_id": 250735,
+        "meaning_vi": "cướp; tên cướp",
+        "confidence": "high",
+        "search_keywords": [
+          "cướp",
+          "tên cướp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cướp; tên cướp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26120,
+    "word": "劫罰",
+    "kana": "ごうばつ",
+    "senses": [
+      {
+        "sense_id": 250736,
+        "meaning_vi": "hình phạt vĩnh viễn",
+        "confidence": "high",
+        "search_keywords": [
+          "hình phạt vĩnh viễn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình phạt vĩnh viễn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26121,
+    "word": "号",
+    "kana": "ごう",
+    "senses": [
+      {
+        "sense_id": 250737,
+        "meaning_vi": "con số; ấn bản; làm; người mẫu; vấn đề; một phần của nhóm đó",
+        "confidence": "high",
+        "search_keywords": [
+          "con số",
+          "ấn bản",
+          "làm",
+          "người mẫu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con số; ấn bản; làm; người mẫu; vấn đề; một phần của nhóm đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250738,
+        "meaning_vi": "tỉnh rượu; bút danh",
+        "confidence": "high",
+        "search_keywords": [
+          "tỉnh rượu",
+          "bút danh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỉnh rượu; bút danh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250739,
+        "meaning_vi": "kích thước (của loại in, canvas, kim đan, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước (của loại in, canvas, kim đan, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước (của loại in, canvas, kim đan, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250740,
+        "meaning_vi": "hậu tố gắn liền với tên tàu, tàu, máy bay, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "hậu tố gắn liền với tên tàu, tàu, máy bay, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hậu tố gắn liền với tên tàu, tàu, máy bay, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26122,
+    "word": "号外",
+    "kana": "ごうがい",
+    "senses": [
+      {
+        "sense_id": 250741,
+        "meaning_vi": "báo thêm",
+        "confidence": "high",
+        "search_keywords": [
+          "báo thêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo thêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26123,
+    "word": "号館",
+    "kana": "ごうかん",
+    "senses": [
+      {
+        "sense_id": 250742,
+        "meaning_vi": "hậu tố cho số tòa nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "hậu tố cho số tòa nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hậu tố cho số tòa nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26124,
+    "word": "号泣",
+    "kana": "ごうきゅう",
+    "senses": [
+      {
+        "sense_id": 250743,
+        "meaning_vi": "khóc to; gào thét; than khóc; sự than thở",
+        "confidence": "high",
+        "search_keywords": [
+          "khóc to",
+          "gào thét",
+          "than khóc",
+          "sự than thở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóc to; gào thét; than khóc; sự than thở",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250744,
+        "meaning_vi": "khóc hết nước mắt (không gây tiếng động); vỡ òa trong nước mắt; xô khóc; khóc lóc",
+        "confidence": "high",
+        "search_keywords": [
+          "khóc hết nước mắt (không gây tiếng động)",
+          "vỡ òa trong nước mắt",
+          "xô khóc",
+          "khóc lóc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóc hết nước mắt (không gây tiếng động); vỡ òa trong nước mắt; xô khóc; khóc lóc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26125,
+    "word": "号室",
+    "kana": "ごうしつ",
+    "senses": [
+      {
+        "sense_id": 250745,
+        "meaning_vi": "hậu tố cho số phòng; hậu tố số căn hộ",
+        "confidence": "high",
+        "search_keywords": [
+          "hậu tố cho số phòng",
+          "hậu tố số căn hộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hậu tố cho số phòng; hậu tố số căn hộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26126,
+    "word": "号車",
+    "kana": "ごうしゃ",
+    "senses": [
+      {
+        "sense_id": 250746,
+        "meaning_vi": "hậu tố cho số toa tàu",
+        "confidence": "high",
+        "search_keywords": [
+          "hậu tố cho số toa tàu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hậu tố cho số toa tàu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26127,
+    "word": "号数",
+    "kana": "ごうすう",
+    "senses": [
+      {
+        "sense_id": 250747,
+        "meaning_vi": "số lượng hoặc kích thước của tạp chí định kỳ hoặc hình ảnh; kích thước loại",
+        "confidence": "high",
+        "search_keywords": [
+          "số lượng hoặc kích thước của tạp chí định kỳ hoặc hình ảnh",
+          "kích thước loại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số lượng hoặc kích thước của tạp chí định kỳ hoặc hình ảnh; kích thước loại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26128,
+    "word": "号俸",
+    "kana": "ごうほう",
+    "senses": [
+      {
+        "sense_id": 250748,
+        "meaning_vi": "lương tăng dần",
+        "confidence": "high",
+        "search_keywords": [
+          "lương tăng dần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lương tăng dần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26129,
+    "word": "号砲",
+    "kana": "ごうほう",
+    "senses": [
+      {
+        "sense_id": 250749,
+        "meaning_vi": "súng tín hiệu; súng khởi động",
+        "confidence": "high",
+        "search_keywords": [
+          "súng tín hiệu",
+          "súng khởi động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "súng tín hiệu; súng khởi động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26130,
+    "word": "号令",
+    "kana": "ごうれい",
+    "senses": [
+      {
+        "sense_id": 250750,
+        "meaning_vi": "trật tự (đặc biệt đối với một số người); lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "trật tự (đặc biệt đối với một số người)",
+          "lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trật tự (đặc biệt đối với một số người); lệnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250751,
+        "meaning_vi": "nghi thức cúi chào khi bắt đầu và kết thúc giờ học",
+        "confidence": "high",
+        "search_keywords": [
+          "nghi thức cúi chào khi bắt đầu và kết thúc giờ học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghi thức cúi chào khi bắt đầu và kết thúc giờ học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26131,
+    "word": "合い",
+    "kana": "あい",
+    "senses": [
+      {
+        "sense_id": 250752,
+        "meaning_vi": "mặc giữa mùa; quần áo mùa xuân và mùa thu; quần áo mùa xuân và mùa thu",
+        "confidence": "high",
+        "search_keywords": [
+          "mặc giữa mùa",
+          "quần áo mùa xuân và mùa thu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặc giữa mùa; quần áo mùa xuân và mùa thu; quần áo mùa xuân và mùa thu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250753,
+        "meaning_vi": "cùng với nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "cùng với nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cùng với nhau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250754,
+        "meaning_vi": "tình trạng; tình huống; tiểu bang",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng",
+          "tình huống",
+          "tiểu bang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng; tình huống; tiểu bang",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250755,
+        "meaning_vi": "-ish",
+        "confidence": "low",
+        "search_keywords": [
+          "-ish"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "-ish",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26132,
+    "word": "合い口",
+    "kana": "あいくち",
+    "senses": [
+      {
+        "sense_id": 250756,
+        "meaning_vi": "bạn thân; bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn thân",
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn thân; bạn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250757,
+        "meaning_vi": "dao găm; mũi nhọn",
+        "confidence": "high",
+        "search_keywords": [
+          "dao găm",
+          "mũi nhọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dao găm; mũi nhọn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250758,
+        "meaning_vi": "Kỷ lục chiến thắng không cân bằng giữa hai đô vật",
+        "confidence": "high",
+        "search_keywords": [
+          "Kỷ lục chiến thắng không cân bằng giữa hai đô vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kỷ lục chiến thắng không cân bằng giữa hai đô vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26133,
+    "word": "合い釘",
+    "kana": "あいくぎ",
+    "senses": [
+      {
+        "sense_id": 250759,
+        "meaning_vi": "móng tay hai cánh; chốt",
+        "confidence": "high",
+        "search_keywords": [
+          "móng tay hai cánh",
+          "chốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "móng tay hai cánh; chốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26134,
+    "word": "合い判",
+    "kana": "あいばん",
+    "senses": [
+      {
+        "sense_id": 250760,
+        "meaning_vi": "giấy cỡ trung bình (khoảng 15x21 cm, dùng làm sổ tay)",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy cỡ trung bình (khoảng 15x21 cm, dùng làm sổ tay)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy cỡ trung bình (khoảng 15x21 cm, dùng làm sổ tay)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250761,
+        "meaning_vi": "ảnh in cỡ trung bình (khoảng 10x13 cm)",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh in cỡ trung bình (khoảng 10x13 cm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh in cỡ trung bình (khoảng 10x13 cm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

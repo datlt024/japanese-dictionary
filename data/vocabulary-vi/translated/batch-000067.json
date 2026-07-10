@@ -1,634 +1,587 @@
 [
-{
-"vocabulary_id": 1738,
-"word": "アレンジャー",
-"kana": "アレンジャー",
-"senses": [
-{
-"sense_id": 219901,
-"meaning_vi": "người phối khí",
-"confidence": "high",
-"search_keywords": [
-"người phối khí",
-"người chuyển soạn",
-"arranger"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người chuyển soạn hoặc phối khí bản nhạc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1739,
-"word": "アロエ",
-"kana": "アロエ",
-"senses": [
-{
-"sense_id": 219902,
-"meaning_vi": "lô hội",
-"confidence": "high",
-"search_keywords": [
-"lô hội",
-"nha đam",
-"aloe"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cây lô hội; nha đam",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1740,
-"word": "アロケーション",
-"kana": "アロケーション",
-"senses": [
-{
-"sense_id": 219903,
-"meaning_vi": "phân bổ",
-"confidence": "high",
-"search_keywords": [
-"phân bổ",
-"cấp phát",
-"allocation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự phân bổ hoặc cấp phát tài nguyên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1741,
-"word": "アロケート",
-"kana": "アロケート",
-"senses": [
-{
-"sense_id": 219904,
-"meaning_vi": "cấp phát",
-"confidence": "high",
-"search_keywords": [
-"cấp phát",
-"phân bổ",
-"allocate"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cấp phát hoặc phân bổ tài nguyên trong máy tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1742,
-"word": "アロハ",
-"kana": "アロハ",
-"senses": [
-{
-"sense_id": 219905,
-"meaning_vi": "aloha",
-"confidence": "high",
-"search_keywords": [
-"aloha",
-"xin chào",
-"tạm biệt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lời chào hoặc tạm biệt trong tiếng Hawaii",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219906,
-"meaning_vi": "áo aloha",
-"confidence": "high",
-"search_keywords": [
-"áo aloha",
-"áo Hawaii",
-"aloha shirt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "viết tắt của aloha shirt; áo sơ mi Hawaii",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1743,
-"word": "アロハシャツ",
-"kana": "アロハシャツ",
-"senses": [
-{
-"sense_id": 219907,
-"meaning_vi": "áo Hawaii",
-"confidence": "high",
-"search_keywords": [
-"áo Hawaii",
-"áo aloha",
-"Hawaiian shirt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "áo sơ mi Hawaii họa tiết sặc sỡ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1744,
-"word": "アワー",
-"kana": "アワー",
-"senses": [
-{
-"sense_id": 219908,
-"meaning_vi": "giờ",
-"confidence": "high",
-"search_keywords": [
-"giờ",
-"hour"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giờ; khoảng thời gian một giờ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1745,
-"word": "アンカー",
-"kana": "アンカー",
-"senses": [
-{
-"sense_id": 219909,
-"meaning_vi": "mỏ neo",
-"confidence": "high",
-"search_keywords": [
-"mỏ neo",
-"neo tàu",
-"anchor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mỏ neo của tàu thuyền",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219910,
-"meaning_vi": "người chạy cuối",
-"confidence": "high",
-"search_keywords": [
-"người chạy cuối",
-"vận động viên cuối",
-"anchor relay"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vận động viên chạy hoặc bơi lượt cuối trong tiếp sức",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219911,
-"meaning_vi": "người dẫn tin",
-"confidence": "high",
-"search_keywords": [
-"người dẫn tin",
-"phát thanh viên chính",
-"anchor news"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người dẫn chính trong chương trình tin tức",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219912,
-"meaning_vi": "anchor HTML",
-"confidence": "high",
-"search_keywords": [
-"anchor HTML",
-"thẻ neo",
-"liên kết HTML"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "anchor trong HTML; điểm neo hoặc liên kết trong trang web",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219913,
-"meaning_vi": "liên kết bài trước",
-"confidence": "high",
-"search_keywords": [
-"liên kết bài trước",
-"anchor diễn đàn",
-"アンカ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "liên kết trỏ đến bài đăng trước trên diễn đàn",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219914,
-"meaning_vi": "tiền vệ mỏ neo",
-"confidence": "high",
-"search_keywords": [
-"tiền vệ mỏ neo",
-"anchor bóng đá",
-"tiền vệ phòng ngự"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vị trí tiền vệ phòng ngự làm điểm neo trong bóng đá",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219915,
-"meaning_vi": "bu lông neo",
-"confidence": "high",
-"search_keywords": [
-"bu lông neo",
-"anchor bolt",
-"ốc neo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "viết tắt của anchor bolt; bu lông dùng để neo cố định",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219916,
-"meaning_vi": "càng neo đồng hồ",
-"confidence": "medium",
-"search_keywords": [
-"càng neo đồng hồ",
-"anchor escapement",
-"bộ thoát đồng hồ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bộ phận neo trong cơ cấu thoát của đồng hồ cơ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1746,
-"word": "アンカーマン",
-"kana": "アンカーマン",
-"senses": [
-{
-"sense_id": 219917,
-"meaning_vi": "người dẫn tin chính",
-"confidence": "high",
-"search_keywords": [
-"người dẫn tin chính",
-"anchorman",
-"MC tin tức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người dẫn chính trong chương trình tin tức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1747,
-"word": "アンクレット",
-"kana": "アンクレット",
-"senses": [
-{
-"sense_id": 219918,
-"meaning_vi": "lắc chân",
-"confidence": "high",
-"search_keywords": [
-"lắc chân",
-"vòng chân",
-"anklet"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vòng trang sức đeo ở cổ chân",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1748,
-"word": "アングラ",
-"kana": "アングラ",
-"senses": [
-{
-"sense_id": 219919,
-"meaning_vi": "ngầm thử nghiệm",
-"confidence": "high",
-"search_keywords": [
-"ngầm thử nghiệm",
-"underground",
-"alternative"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thuộc dòng underground; phi chính thống, thử nghiệm hoặc cấp tiến",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219920,
-"meaning_vi": "ngầm phi pháp",
-"confidence": "high",
-"search_keywords": [
-"ngầm phi pháp",
-"tiền đen",
-"underground economy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngầm, không chính thức hoặc bất hợp pháp; đáng ngờ, tiền đen",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1749,
-"word": "アングラマネー",
-"kana": "アングラマネー",
-"senses": [
-{
-"sense_id": 219921,
-"meaning_vi": "tiền ngầm",
-"confidence": "high",
-"search_keywords": [
-"tiền ngầm",
-"tiền đen",
-"underground money"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiền lưu thông trong kinh tế ngầm hoặc nguồn không minh bạch",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1750,
-"word": "アングル",
-"kana": "アングル",
-"senses": [
-{
-"sense_id": 219922,
-"meaning_vi": "góc độ",
-"confidence": "high",
-"search_keywords": [
-"góc độ",
-"góc máy",
-"angle"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "góc; góc nhìn hoặc góc máy",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1751,
-"word": "アングロアメリカ",
-"kana": "アングロアメリカ",
-"senses": [
-{
-"sense_id": 219923,
-"meaning_vi": "Anglo-America",
-"confidence": "high",
-"search_keywords": [
-"Anglo-America",
-"Bắc Mỹ nói tiếng Anh",
-"Mỹ và Canada"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu vực châu Mỹ nói tiếng Anh, chủ yếu là Hoa Kỳ và Canada",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1752,
-"word": "アングロアラブ",
-"kana": "アングロアラブ",
-"senses": [
-{
-"sense_id": 219924,
-"meaning_vi": "ngựa Anglo-Arab",
-"confidence": "medium",
-"search_keywords": [
-"ngựa Anglo-Arab",
-"Anglo-Arab",
-"ngựa lai Ả Rập"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giống ngựa lai giữa ngựa thuần chủng Anh và ngựa Ả Rập",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1753,
-"word": "アングロサクソン",
-"kana": "アングロサクソン",
-"senses": [
-{
-"sense_id": 219925,
-"meaning_vi": "Anglo-Saxon",
-"confidence": "high",
-"search_keywords": [
-"Anglo-Saxon",
-"người Anglo-Saxon",
-"Ăng-lô Xắc-xông"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người hoặc văn hóa Anglo-Saxon",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1754,
-"word": "アンケート",
-"kana": "アンケート",
-"senses": [
-{
-"sense_id": 219926,
-"meaning_vi": "khảo sát",
-"confidence": "high",
-"search_keywords": [
-"khảo sát",
-"bảng hỏi",
-"phiếu điều tra"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bảng hỏi; khảo sát hoặc thăm dò ý kiến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1755,
-"word": "アンコール",
-"kana": "アンコール",
-"senses": [
-{
-"sense_id": 219927,
-"meaning_vi": "diễn lại",
-"confidence": "high",
-"search_keywords": [
-"diễn lại",
-"encore",
-"yêu cầu diễn thêm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "yêu cầu hoặc phần biểu diễn thêm sau chương trình chính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1756,
-"word": "アンコールアワー",
-"kana": "アンコールアワー",
-"senses": [
-{
-"sense_id": 219928,
-"meaning_vi": "khung giờ phát lại",
-"confidence": "high",
-"search_keywords": [
-"khung giờ phát lại",
-"phát lại chương trình",
-"rerun"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khung giờ phát lại các chương trình truyền hình được yêu thích",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2001,
-"word": "インスペクション",
-"kana": "インスペクション",
-"senses": [
-{
-"sense_id": 220206,
-"meaning_vi": "kiểm tra",
-"confidence": "high",
-"search_keywords": [
-"kiểm tra",
-"thanh tra",
-"inspection"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự kiểm tra, giám định hoặc thanh tra",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1738,
+    "word": "アレンジャー",
+    "kana": "アレンジャー",
+    "senses": [
+      {
+        "sense_id": 219901,
+        "meaning_vi": "người sắp xếp (âm nhạc)",
+        "confidence": "high",
+        "search_keywords": [
+          "người sắp xếp (âm nhạc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người sắp xếp (âm nhạc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1739,
+    "word": "アロエ",
+    "kana": "アロエ",
+    "senses": [
+      {
+        "sense_id": 219902,
+        "meaning_vi": "lô hội (đặc biệt là arborescens)",
+        "confidence": "high",
+        "search_keywords": [
+          "lô hội (đặc biệt là arborescens)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lô hội (đặc biệt là arborescens)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1740,
+    "word": "アロケーション",
+    "kana": "アロケーション",
+    "senses": [
+      {
+        "sense_id": 219903,
+        "meaning_vi": "phân bổ",
+        "confidence": "high",
+        "search_keywords": [
+          "phân bổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân bổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1741,
+    "word": "アロケート",
+    "kana": "アロケート",
+    "senses": [
+      {
+        "sense_id": 219904,
+        "meaning_vi": "phân bổ",
+        "confidence": "high",
+        "search_keywords": [
+          "phân bổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân bổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1742,
+    "word": "アロハ",
+    "kana": "アロハ",
+    "senses": [
+      {
+        "sense_id": 219905,
+        "meaning_vi": "aloha",
+        "confidence": "low",
+        "search_keywords": [
+          "aloha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "aloha",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219906,
+        "meaning_vi": "áo sơ mi aloha",
+        "confidence": "high",
+        "search_keywords": [
+          "áo sơ mi aloha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo sơ mi aloha",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1743,
+    "word": "アロハシャツ",
+    "kana": "アロハシャツ",
+    "senses": [
+      {
+        "sense_id": 219907,
+        "meaning_vi": "áo sơ mi aloha; áo sơ mi Hawaii",
+        "confidence": "high",
+        "search_keywords": [
+          "áo sơ mi aloha",
+          "áo sơ mi Hawaii"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo sơ mi aloha; áo sơ mi Hawaii",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1744,
+    "word": "アワー",
+    "kana": "アワー",
+    "senses": [
+      {
+        "sense_id": 219908,
+        "meaning_vi": "giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1745,
+    "word": "アンカー",
+    "kana": "アンカー",
+    "senses": [
+      {
+        "sense_id": 219909,
+        "meaning_vi": "(tàu) mỏ neo",
+        "confidence": "high",
+        "search_keywords": [
+          "(tàu) mỏ neo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tàu) mỏ neo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219910,
+        "meaning_vi": "mỏ neo (người chạy cuối cùng hoặc vận động viên bơi lội trong cuộc đua tiếp sức)",
+        "confidence": "high",
+        "search_keywords": [
+          "mỏ neo (người chạy cuối cùng hoặc vận động viên bơi lội trong cuộc đua tiếp sức)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỏ neo (người chạy cuối cùng hoặc vận động viên bơi lội trong cuộc đua tiếp sức)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219911,
+        "meaning_vi": "(tin tức) người dẫn chương trình; người dẫn chương trình",
+        "confidence": "high",
+        "search_keywords": [
+          "(tin tức) người dẫn chương trình",
+          "người dẫn chương trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tin tức) người dẫn chương trình; người dẫn chương trình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219912,
+        "meaning_vi": "neo (trong HTML)",
+        "confidence": "high",
+        "search_keywords": [
+          "neo (trong HTML)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "neo (trong HTML)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219913,
+        "meaning_vi": "liên kết đến bài viết trước đó (trên bảng tin)",
+        "confidence": "high",
+        "search_keywords": [
+          "liên kết đến bài viết trước đó (trên bảng tin)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên kết đến bài viết trước đó (trên bảng tin)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219914,
+        "meaning_vi": "mỏ neo (vị trí bóng đá)",
+        "confidence": "high",
+        "search_keywords": [
+          "mỏ neo (vị trí bóng đá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỏ neo (vị trí bóng đá)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219915,
+        "meaning_vi": "bu lông neo",
+        "confidence": "high",
+        "search_keywords": [
+          "bu lông neo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bu lông neo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219916,
+        "meaning_vi": "neo (thoát)",
+        "confidence": "high",
+        "search_keywords": [
+          "neo (thoát)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "neo (thoát)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1746,
+    "word": "アンカーマン",
+    "kana": "アンカーマン",
+    "senses": [
+      {
+        "sense_id": 219917,
+        "meaning_vi": "người dẫn chương trình",
+        "confidence": "high",
+        "search_keywords": [
+          "người dẫn chương trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người dẫn chương trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1747,
+    "word": "アンクレット",
+    "kana": "アンクレット",
+    "senses": [
+      {
+        "sense_id": 219918,
+        "meaning_vi": "vòng chân",
+        "confidence": "high",
+        "search_keywords": [
+          "vòng chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vòng chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1748,
+    "word": "アングラ",
+    "kana": "アングラ",
+    "senses": [
+      {
+        "sense_id": 219919,
+        "meaning_vi": "ngầm (phim, sân khấu, v.v.); độc đáo; thay thế; thực nghiệm; cấp tiến",
+        "confidence": "high",
+        "search_keywords": [
+          "ngầm (phim, sân khấu, v.v.)",
+          "độc đáo",
+          "thay thế",
+          "thực nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngầm (phim, sân khấu, v.v.); độc đáo; thay thế; thực nghiệm; cấp tiến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219920,
+        "meaning_vi": "ngầm (kinh tế, báo chí, v.v.); không chính thức; bất hợp pháp; đen (tiền); râm; không rõ nguồn gốc",
+        "confidence": "high",
+        "search_keywords": [
+          "ngầm (kinh tế, báo chí, v.v.)",
+          "không chính thức",
+          "bất hợp pháp",
+          "đen (tiền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngầm (kinh tế, báo chí, v.v.); không chính thức; bất hợp pháp; đen (tiền); râm; không rõ nguồn gốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1749,
+    "word": "アングラマネー",
+    "kana": "アングラマネー",
+    "senses": [
+      {
+        "sense_id": 219921,
+        "meaning_vi": "tiền ngầm",
+        "confidence": "high",
+        "search_keywords": [
+          "tiền ngầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiền ngầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1750,
+    "word": "アングル",
+    "kana": "アングル",
+    "senses": [
+      {
+        "sense_id": 219922,
+        "meaning_vi": "góc",
+        "confidence": "high",
+        "search_keywords": [
+          "góc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "góc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1751,
+    "word": "アングロアメリカ",
+    "kana": "アングロアメリカ",
+    "senses": [
+      {
+        "sense_id": 219923,
+        "meaning_vi": "Anh-Mỹ (khu vực nói tiếng Anh ở châu Mỹ, tức là Hoa Kỳ và Canada)",
+        "confidence": "high",
+        "search_keywords": [
+          "Anh-Mỹ (khu vực nói tiếng Anh ở châu Mỹ, tức là Hoa Kỳ và Canada)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Anh-Mỹ (khu vực nói tiếng Anh ở châu Mỹ, tức là Hoa Kỳ và Canada)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1752,
+    "word": "アングロアラブ",
+    "kana": "アングロアラブ",
+    "senses": [
+      {
+        "sense_id": 219924,
+        "meaning_vi": "Anh-Ả Rập",
+        "confidence": "high",
+        "search_keywords": [
+          "Anh-Ả Rập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Anh-Ả Rập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1753,
+    "word": "アングロサクソン",
+    "kana": "アングロサクソン",
+    "senses": [
+      {
+        "sense_id": 219925,
+        "meaning_vi": "người Anglo-Saxon",
+        "confidence": "high",
+        "search_keywords": [
+          "người Anglo-Saxon"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người Anglo-Saxon",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1754,
+    "word": "アンケート",
+    "kana": "アンケート",
+    "senses": [
+      {
+        "sense_id": 219926,
+        "meaning_vi": "bảng câu hỏi; sự khảo sát; thăm dò ý kiến",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng câu hỏi",
+          "sự khảo sát",
+          "thăm dò ý kiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng câu hỏi; sự khảo sát; thăm dò ý kiến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1755,
+    "word": "アンコール",
+    "kana": "アンコール",
+    "senses": [
+      {
+        "sense_id": 219927,
+        "meaning_vi": "encore",
+        "confidence": "low",
+        "search_keywords": [
+          "encore"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "encore",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1756,
+    "word": "アンコールアワー",
+    "kana": "アンコールアワー",
+    "senses": [
+      {
+        "sense_id": 219928,
+        "meaning_vi": "khe thời gian để phát lại các chương trình truyền hình nổi tiếng",
+        "confidence": "high",
+        "search_keywords": [
+          "khe thời gian để phát lại các chương trình truyền hình nổi tiếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khe thời gian để phát lại các chương trình truyền hình nổi tiếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2001,
+    "word": "インスペクション",
+    "kana": "インスペクション",
+    "senses": [
+      {
+        "sense_id": 220206,
+        "meaning_vi": "điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

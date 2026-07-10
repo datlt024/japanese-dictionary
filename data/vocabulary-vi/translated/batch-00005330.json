@@ -1,0 +1,489 @@
+[
+  {
+    "vocabulary_id": 127170,
+    "word": "顕微授精",
+    "kana": "けんびじゅせい",
+    "senses": [
+      {
+        "sense_id": 370831,
+        "meaning_vi": "vi trùng; bón phân vi lượng; tiêm tinh trùng vào tế bào chất; ICSI",
+        "confidence": "high",
+        "search_keywords": [
+          "vi trùng",
+          "bón phân vi lượng",
+          "tiêm tinh trùng vào tế bào chất",
+          "ICSI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vi trùng; bón phân vi lượng; tiêm tinh trùng vào tế bào chất; ICSI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127171,
+    "word": "生殖工学",
+    "kana": "せいしょくこうがく",
+    "senses": [
+      {
+        "sense_id": 370832,
+        "meaning_vi": "công nghệ sinh sản",
+        "confidence": "high",
+        "search_keywords": [
+          "công nghệ sinh sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công nghệ sinh sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127172,
+    "word": "ヒト疾患モデルマウス",
+    "kana": "ヒトしっかんモデルマウス",
+    "senses": [
+      {
+        "sense_id": 370833,
+        "meaning_vi": "mô hình chuột gây bệnh cho người",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình chuột gây bệnh cho người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình chuột gây bệnh cho người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127173,
+    "word": "ヒト疾患モデル",
+    "kana": "ヒトしっかんモデル",
+    "senses": [
+      {
+        "sense_id": 370834,
+        "meaning_vi": "mô hình bệnh ở người (ví dụ: sử dụng động vật thí nghiệm)",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình bệnh ở người (ví dụ: sử dụng động vật thí nghiệm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình bệnh ở người (ví dụ: sử dụng động vật thí nghiệm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127174,
+    "word": "卒業アルバム",
+    "kana": "そつぎょうアルバム",
+    "senses": [
+      {
+        "sense_id": 370835,
+        "meaning_vi": "sách lớp; kỷ yếu; album tốt nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "sách lớp",
+          "kỷ yếu",
+          "album tốt nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sách lớp; kỷ yếu; album tốt nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127175,
+    "word": "ハーフウェイ",
+    "kana": "ハーフウェイ",
+    "senses": [
+      {
+        "sense_id": 370836,
+        "meaning_vi": "nửa chừng",
+        "confidence": "high",
+        "search_keywords": [
+          "nửa chừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nửa chừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127176,
+    "word": "ハーフサイズ",
+    "kana": "ハーフサイズ",
+    "senses": [
+      {
+        "sense_id": 370837,
+        "meaning_vi": "nửa cỡ",
+        "confidence": "high",
+        "search_keywords": [
+          "nửa cỡ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nửa cỡ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127177,
+    "word": "個人線量計",
+    "kana": "こじんせんりょうけい",
+    "senses": [
+      {
+        "sense_id": 370838,
+        "meaning_vi": "liều kế cá nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "liều kế cá nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liều kế cá nhân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127178,
+    "word": "脳ドック",
+    "kana": "のうドック",
+    "senses": [
+      {
+        "sense_id": 370839,
+        "meaning_vi": "kiểm tra não toàn diện",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra não toàn diện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra não toàn diện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127179,
+    "word": "脳外科医",
+    "kana": "のうげかい",
+    "senses": [
+      {
+        "sense_id": 370840,
+        "meaning_vi": "bác sĩ phẫu thuật não",
+        "confidence": "high",
+        "search_keywords": [
+          "bác sĩ phẫu thuật não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bác sĩ phẫu thuật não",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127180,
+    "word": "プリナップ",
+    "kana": "プリナップ",
+    "senses": [
+      {
+        "sense_id": 370841,
+        "meaning_vi": "thỏa thuận tiền hôn nhân; cuộc hôn nhân trước",
+        "confidence": "high",
+        "search_keywords": [
+          "thỏa thuận tiền hôn nhân",
+          "cuộc hôn nhân trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thỏa thuận tiền hôn nhân; cuộc hôn nhân trước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127181,
+    "word": "婚前契約書",
+    "kana": "こんぜんけいやくしょ",
+    "senses": [
+      {
+        "sense_id": 370842,
+        "meaning_vi": "thỏa thuận tiền hôn nhân; cuộc hôn nhân trước",
+        "confidence": "high",
+        "search_keywords": [
+          "thỏa thuận tiền hôn nhân",
+          "cuộc hôn nhân trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thỏa thuận tiền hôn nhân; cuộc hôn nhân trước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127182,
+    "word": "婚前契約",
+    "kana": "こんぜんけいやく",
+    "senses": [
+      {
+        "sense_id": 370843,
+        "meaning_vi": "thỏa thuận tiền hôn nhân; cuộc hôn nhân trước",
+        "confidence": "high",
+        "search_keywords": [
+          "thỏa thuận tiền hôn nhân",
+          "cuộc hôn nhân trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thỏa thuận tiền hôn nhân; cuộc hôn nhân trước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127183,
+    "word": "明か",
+    "kana": "さやか",
+    "senses": [
+      {
+        "sense_id": 370844,
+        "meaning_vi": "thông thoáng; tươi; tươi sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "thông thoáng",
+          "tươi",
+          "tươi sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông thoáng; tươi; tươi sáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127184,
+    "word": "ロードローラー",
+    "kana": "ロードローラー",
+    "senses": [
+      {
+        "sense_id": 370845,
+        "meaning_vi": "xe lu; xe lăn hơi nước",
+        "confidence": "high",
+        "search_keywords": [
+          "xe lu",
+          "xe lăn hơi nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe lu; xe lăn hơi nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127185,
+    "word": "配架法",
+    "kana": "はいかほう",
+    "senses": [
+      {
+        "sense_id": 370846,
+        "meaning_vi": "sắp xếp thư viện; sắp xếp sách trong thư viện",
+        "confidence": "high",
+        "search_keywords": [
+          "sắp xếp thư viện",
+          "sắp xếp sách trong thư viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắp xếp thư viện; sắp xếp sách trong thư viện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127186,
+    "word": "メタボ",
+    "kana": "メタボ",
+    "senses": [
+      {
+        "sense_id": 370847,
+        "meaning_vi": "hội chứng chuyển hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "hội chứng chuyển hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội chứng chuyển hóa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 370848,
+        "meaning_vi": "thừa cân",
+        "confidence": "high",
+        "search_keywords": [
+          "thừa cân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thừa cân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127187,
+    "word": "メタボリックシンドローム",
+    "kana": "メタボリックシンドローム",
+    "senses": [
+      {
+        "sense_id": 370849,
+        "meaning_vi": "hội chứng chuyển hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "hội chứng chuyển hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội chứng chuyển hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127188,
+    "word": "角印",
+    "kana": "かくいん",
+    "senses": [
+      {
+        "sense_id": 370850,
+        "meaning_vi": "con dấu vuông (công ty, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "con dấu vuông (công ty, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con dấu vuông (công ty, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127189,
+    "word": "ばっさり",
+    "kana": "ばっさり",
+    "senses": [
+      {
+        "sense_id": 370851,
+        "meaning_vi": "(cắt) bằng một nét duy nhất; chặt bỏ (cành cây, v.v.); (cắt tóc) ngắn",
+        "confidence": "high",
+        "search_keywords": [
+          "(cắt) bằng một nét duy nhất",
+          "chặt bỏ (cành cây, v.v.)",
+          "(cắt tóc) ngắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cắt) bằng một nét duy nhất; chặt bỏ (cành cây, v.v.); (cắt tóc) ngắn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 370852,
+        "meaning_vi": "quyết liệt (cắt giảm ngân sách, v.v.); kiên quyết; một cách tàn nhẫn (loại bỏ, v.v.); hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "quyết liệt (cắt giảm ngân sách, v.v.)",
+          "kiên quyết",
+          "một cách tàn nhẫn (loại bỏ, v.v.)",
+          "hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyết liệt (cắt giảm ngân sách, v.v.); kiên quyết; một cách tàn nhẫn (loại bỏ, v.v.); hoàn toàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

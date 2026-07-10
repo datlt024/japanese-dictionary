@@ -1,0 +1,615 @@
+[
+  {
+    "vocabulary_id": 55366,
+    "word": "香る",
+    "kana": "かおる",
+    "senses": [
+      {
+        "sense_id": 290211,
+        "meaning_vi": "có mùi ngọt ngào; có mùi thơm",
+        "confidence": "high",
+        "search_keywords": [
+          "có mùi ngọt ngào",
+          "có mùi thơm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có mùi ngọt ngào; có mùi thơm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55367,
+    "word": "係",
+    "kana": "かかり",
+    "senses": [
+      {
+        "sense_id": 290212,
+        "meaning_vi": "thù lao; nhiệm vụ; người phụ trách; chính thức; thư ký",
+        "confidence": "high",
+        "search_keywords": [
+          "thù lao",
+          "nhiệm vụ",
+          "người phụ trách",
+          "chính thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thù lao; nhiệm vụ; người phụ trách; chính thức; thư ký",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290213,
+        "meaning_vi": "sự liên quan; liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "sự liên quan",
+          "liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự liên quan; liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55368,
+    "word": "係員",
+    "kana": "かかりいん",
+    "senses": [
+      {
+        "sense_id": 290214,
+        "meaning_vi": "người phụ trách; chính thức; tiếp viên",
+        "confidence": "high",
+        "search_keywords": [
+          "người phụ trách",
+          "chính thức",
+          "tiếp viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người phụ trách; chính thức; tiếp viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55369,
+    "word": "関わらず",
+    "kana": "かかわらず",
+    "senses": [
+      {
+        "sense_id": 290215,
+        "meaning_vi": "mặc dù; cho dù; mặc dù",
+        "confidence": "high",
+        "search_keywords": [
+          "mặc dù",
+          "cho dù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặc dù; cho dù; mặc dù",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290216,
+        "meaning_vi": "bất kể ; bất kể",
+        "confidence": "high",
+        "search_keywords": [
+          "bất kể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất kể ; bất kể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55370,
+    "word": "関わり",
+    "kana": "かかわり",
+    "senses": [
+      {
+        "sense_id": 290217,
+        "meaning_vi": "mối quan hệ; kết nối",
+        "confidence": "high",
+        "search_keywords": [
+          "mối quan hệ",
+          "kết nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mối quan hệ; kết nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55371,
+    "word": "関わる",
+    "kana": "かかわる",
+    "senses": [
+      {
+        "sense_id": 290218,
+        "meaning_vi": "được tham gia (vào); tham gia (vào); quan tâm đến chính mình (với); tham gia (vào); can thiệp (vào)",
+        "confidence": "high",
+        "search_keywords": [
+          "được tham gia (vào)",
+          "tham gia (vào)",
+          "quan tâm đến chính mình (với)",
+          "can thiệp (vào)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được tham gia (vào); tham gia (vào); quan tâm đến chính mình (với); tham gia (vào); can thiệp (vào)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290219,
+        "meaning_vi": "liên quan đến (một vấn đề); liên quan đến; quan tâm; phải làm với",
+        "confidence": "high",
+        "search_keywords": [
+          "liên quan đến (một vấn đề)",
+          "liên quan đến",
+          "quan tâm",
+          "phải làm với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên quan đến (một vấn đề); liên quan đến; quan tâm; phải làm với",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290220,
+        "meaning_vi": "ảnh hưởng (nghiêm trọng); quan tâm; có ý nghĩa nghiêm túc (trên)",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh hưởng (nghiêm trọng)",
+          "quan tâm",
+          "có ý nghĩa nghiêm túc (trên)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh hưởng (nghiêm trọng); quan tâm; có ý nghĩa nghiêm túc (trên)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290221,
+        "meaning_vi": "dính vào (vào); tuân thủ (vào); cụ thể là (về)",
+        "confidence": "high",
+        "search_keywords": [
+          "dính vào (vào)",
+          "tuân thủ (vào)",
+          "cụ thể là (về)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dính vào (vào); tuân thủ (vào); cụ thể là (về)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55372,
+    "word": "花期",
+    "kana": "かき",
+    "senses": [
+      {
+        "sense_id": 290222,
+        "meaning_vi": "mùa hoa",
+        "confidence": "high",
+        "search_keywords": [
+          "mùa hoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mùa hoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55373,
+    "word": "夏季",
+    "kana": "かき",
+    "senses": [
+      {
+        "sense_id": 290223,
+        "meaning_vi": "mùa hè; mùa hè; mùa hè",
+        "confidence": "high",
+        "search_keywords": [
+          "mùa hè"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mùa hè; mùa hè; mùa hè",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55374,
+    "word": "書き入れ時",
+    "kana": "かきいれどき",
+    "senses": [
+      {
+        "sense_id": 290224,
+        "meaning_vi": "thời kỳ kinh doanh bận rộn và có lợi nhuận cao nhất; mùa cao điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "thời kỳ kinh doanh bận rộn và có lợi nhuận cao nhất",
+          "mùa cao điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời kỳ kinh doanh bận rộn và có lợi nhuận cao nhất; mùa cao điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55375,
+    "word": "書き換える",
+    "kana": "かきかえる",
+    "senses": [
+      {
+        "sense_id": 290225,
+        "meaning_vi": "viết lại; ghi đè lên; đổi mới; chuyển giao",
+        "confidence": "high",
+        "search_keywords": [
+          "viết lại",
+          "ghi đè lên",
+          "đổi mới",
+          "chuyển giao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết lại; ghi đè lên; đổi mới; chuyển giao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55376,
+    "word": "書き込み",
+    "kana": "かきこみ",
+    "senses": [
+      {
+        "sense_id": 290226,
+        "meaning_vi": "viết",
+        "confidence": "high",
+        "search_keywords": [
+          "viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290227,
+        "meaning_vi": "mục nhập (ví dụ: vào một biểu mẫu)",
+        "confidence": "high",
+        "search_keywords": [
+          "mục nhập (ví dụ: vào một biểu mẫu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục nhập (ví dụ: vào một biểu mẫu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290228,
+        "meaning_vi": "đăng bài (ví dụ: lên blog)",
+        "confidence": "high",
+        "search_keywords": [
+          "đăng bài (ví dụ: lên blog)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đăng bài (ví dụ: lên blog)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55377,
+    "word": "書き添える",
+    "kana": "かきそえる",
+    "senses": [
+      {
+        "sense_id": 290229,
+        "meaning_vi": "thêm vào; để viết một bài tái bút",
+        "confidence": "high",
+        "search_keywords": [
+          "thêm vào",
+          "để viết một bài tái bút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thêm vào; để viết một bài tái bút",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55378,
+    "word": "書き初め",
+    "kana": "かきぞめ",
+    "senses": [
+      {
+        "sense_id": 290230,
+        "meaning_vi": "thư pháp đầu năm",
+        "confidence": "high",
+        "search_keywords": [
+          "thư pháp đầu năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư pháp đầu năm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55379,
+    "word": "書留",
+    "kana": "かきとめ",
+    "senses": [
+      {
+        "sense_id": 290231,
+        "meaning_vi": "thư đã đăng ký; bài đăng đã đăng ký; sự đăng ký (của thư)",
+        "confidence": "high",
+        "search_keywords": [
+          "thư đã đăng ký",
+          "bài đăng đã đăng ký",
+          "sự đăng ký (của thư)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư đã đăng ký; bài đăng đã đăng ký; sự đăng ký (của thư)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290232,
+        "meaning_vi": "(đeo) hồ sơ; viết ra; ghi chú lại; sổ đăng ký",
+        "confidence": "high",
+        "search_keywords": [
+          "(đeo) hồ sơ",
+          "viết ra",
+          "ghi chú lại",
+          "sổ đăng ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đeo) hồ sơ; viết ra; ghi chú lại; sổ đăng ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55380,
+    "word": "書き取り",
+    "kana": "かきとり",
+    "senses": [
+      {
+        "sense_id": 290233,
+        "meaning_vi": "viết ra từ tài liệu viết khác; viết văn bản kanji từ hiragana",
+        "confidence": "high",
+        "search_keywords": [
+          "viết ra từ tài liệu viết khác",
+          "viết văn bản kanji từ hiragana"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết ra từ tài liệu viết khác; viết văn bản kanji từ hiragana",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 290234,
+        "meaning_vi": "phiên âm (của tài liệu nói); sự đọc chính tả",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên âm (của tài liệu nói)",
+          "sự đọc chính tả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên âm (của tài liệu nói); sự đọc chính tả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55381,
+    "word": "かき混ぜる",
+    "kana": "かきまぜる",
+    "senses": [
+      {
+        "sense_id": 290235,
+        "meaning_vi": "trộn ; khuấy động; tranh giành; khuấy động",
+        "confidence": "high",
+        "search_keywords": [
+          "trộn",
+          "khuấy động",
+          "tranh giành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trộn ; khuấy động; tranh giành; khuấy động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55382,
+    "word": "画一",
+    "kana": "かくいつ",
+    "senses": [
+      {
+        "sense_id": 290236,
+        "meaning_vi": "tính đồng nhất; tiêu chuẩn hóa; tiêu chuẩn hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "tính đồng nhất",
+          "tiêu chuẩn hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính đồng nhất; tiêu chuẩn hóa; tiêu chuẩn hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55383,
+    "word": "赫々",
+    "kana": "かくかく",
+    "senses": [
+      {
+        "sense_id": 290237,
+        "meaning_vi": "xuất sắc; sáng; huy hoàng",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất sắc",
+          "sáng",
+          "huy hoàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất sắc; sáng; huy hoàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55384,
+    "word": "拡声器",
+    "kana": "かくせいき",
+    "senses": [
+      {
+        "sense_id": 290238,
+        "meaning_vi": "loa; loa kèn; loa phóng thanh",
+        "confidence": "high",
+        "search_keywords": [
+          "loa",
+          "loa kèn",
+          "loa phóng thanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loa; loa kèn; loa phóng thanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55385,
+    "word": "画引",
+    "kana": "かくびき",
+    "senses": [
+      {
+        "sense_id": 290239,
+        "meaning_vi": "sắp xếp theo nét",
+        "confidence": "high",
+        "search_keywords": [
+          "sắp xếp theo nét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắp xếp theo nét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

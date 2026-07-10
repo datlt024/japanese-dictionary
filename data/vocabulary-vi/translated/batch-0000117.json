@@ -1,510 +1,477 @@
 [
-{
-"vocabulary_id": 3121,
-"word": "オリジナル",
-"kana": "オリジナル",
-"senses": [
-{
-"sense_id": 221493,
-"meaning_vi": "nguyên bản",
-"confidence": "high",
-"search_keywords": [
-"nguyên bản",
-"bản gốc",
-"original"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bản gốc; không phải bản sao hoặc phái sinh",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221494,
-"meaning_vi": "độc quyền",
-"confidence": "high",
-"search_keywords": [
-"độc quyền",
-"độc đáo",
-"đặt riêng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "độc đáo; riêng biệt; được làm riêng hoặc chỉ có ở một nơi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3122,
-"word": "オリジナルカロリー",
-"kana": "オリジナルカロリー",
-"senses": [
-{
-"sense_id": 221495,
-"meaning_vi": "calo nguyên liệu",
-"confidence": "medium",
-"search_keywords": [
-"calo nguyên liệu",
-"calo thành phần",
-"calories in ingredients"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lượng calo có trong nguyên liệu của thực phẩm chế biến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3123,
-"word": "オリジナルシナリオ",
-"kana": "オリジナルシナリオ",
-"senses": [
-{
-"sense_id": 221496,
-"meaning_vi": "kịch bản gốc",
-"confidence": "high",
-"search_keywords": [
-"kịch bản gốc",
-"original scenario",
-"kịch bản nguyên tác"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kịch bản được sáng tác mới, không chuyển thể từ tác phẩm khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3124,
-"word": "オリジナルプリント",
-"kana": "オリジナルプリント",
-"senses": [
-{
-"sense_id": 221497,
-"meaning_vi": "bản in gốc",
-"confidence": "high",
-"search_keywords": [
-"bản in gốc",
-"original print"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bản in gốc hoặc bản in nguyên bản",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3125,
-"word": "オリジン",
-"kana": "オリジン",
-"senses": [
-{
-"sense_id": 221498,
-"meaning_vi": "nguồn gốc",
-"confidence": "high",
-"search_keywords": [
-"nguồn gốc",
-"xuất xứ",
-"origin"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nguồn gốc; điểm bắt đầu hoặc xuất xứ của sự vật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3126,
-"word": "オリンピアード",
-"kana": "オリンピアード",
-"senses": [
-{
-"sense_id": 221499,
-"meaning_vi": "Olympiad",
-"confidence": "medium",
-"search_keywords": [
-"Olympiad",
-"kỳ Olympic",
-"cuộc thi Olympic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kỳ Olympic hoặc cuộc thi mang tên Olympiad",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3127,
-"word": "オリンピック",
-"kana": "オリンピック",
-"senses": [
-{
-"sense_id": 221500,
-"meaning_vi": "Thế vận hội",
-"confidence": "high",
-"search_keywords": [
-"Thế vận hội",
-"Olympic",
-"Olympics"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Thế vận hội Olympic",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3128,
-"word": "オリンピックデー",
-"kana": "オリンピックデー",
-"senses": [
-{
-"sense_id": 221501,
-"meaning_vi": "Ngày Olympic",
-"confidence": "high",
-"search_keywords": [
-"Ngày Olympic",
-"Olympic Day",
-"23 tháng 6"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Ngày Olympic, được tổ chức vào ngày 23 tháng 6",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3129,
-"word": "オーガズム",
-"kana": "オーガズム",
-"senses": [
-{
-"sense_id": 221502,
-"meaning_vi": "cực khoái",
-"confidence": "high",
-"search_keywords": [
-"cực khoái",
-"orgasm",
-"khoái cảm tình dục"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đỉnh điểm khoái cảm trong hoạt động tình dục",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3130,
-"word": "オルガン",
-"kana": "オルガン",
-"senses": [
-{
-"sense_id": 221503,
-"meaning_vi": "đàn organ",
-"confidence": "high",
-"search_keywords": [
-"đàn organ",
-"organ",
-"đàn đại phong cầm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhạc cụ phím tạo âm bằng ống hơi hoặc mạch điện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3131,
-"word": "オルグ",
-"kana": "オルグ",
-"senses": [
-{
-"sense_id": 221504,
-"meaning_vi": "người tổ chức",
-"confidence": "medium",
-"search_keywords": [
-"người tổ chức",
-"organizer",
-"cán bộ tổ chức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người phụ trách tổ chức hoặc vận động trong đoàn thể",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221505,
-"meaning_vi": "tổ chức vận động",
-"confidence": "medium",
-"search_keywords": [
-"tổ chức vận động",
-"organizing",
-"vận động tổ chức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tổ chức, vận động hoặc kết nạp người vào đoàn thể",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3132,
-"word": "オルゴール",
-"kana": "オルゴール",
-"senses": [
-{
-"sense_id": 221506,
-"meaning_vi": "hộp nhạc",
-"confidence": "high",
-"search_keywords": [
-"hộp nhạc",
-"music box"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hộp cơ khí phát ra giai điệu khi lên dây cót",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3133,
-"word": "オルゴン",
-"kana": "オルゴン",
-"senses": [
-{
-"sense_id": 221507,
-"meaning_vi": "năng lượng orgone",
-"confidence": "medium",
-"search_keywords": [
-"năng lượng orgone",
-"orgone energy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khái niệm năng lượng sinh học giả thuyết gọi là orgone",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3134,
-"word": "オルタナティブ",
-"kana": "オルタナティブ",
-"senses": [
-{
-"sense_id": 221508,
-"meaning_vi": "thay thế",
-"confidence": "high",
-"search_keywords": [
-"thay thế",
-"lựa chọn khác",
-"alternative"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương án hoặc phong cách thay thế cho cái phổ biến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3135,
-"word": "オルタネイト",
-"kana": "オルタネイト",
-"senses": [
-{
-"sense_id": 221509,
-"meaning_vi": "xen kẽ",
-"confidence": "medium",
-"search_keywords": [
-"xen kẽ",
-"luân phiên",
-"alternate"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự luân phiên hoặc thay thế xen kẽ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3136,
-"word": "オルトフェニルフェノール",
-"kana": "オルトフェニルフェノール",
-"senses": [
-{
-"sense_id": 221510,
-"meaning_vi": "orthophenyl phenol",
-"confidence": "medium",
-"search_keywords": [
-"orthophenyl phenol",
-"OPP",
-"o-phenylphenol"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hợp chất orthophenyl phenol, thường viết tắt là OPP",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3137,
-"word": "オレゴン",
-"kana": "オレゴン",
-"senses": [
-{
-"sense_id": 221511,
-"meaning_vi": "Oregon",
-"confidence": "high",
-"search_keywords": [
-"Oregon",
-"bang Oregon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bang Oregon của Hoa Kỳ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3138,
-"word": "オレンジ",
-"kana": "オレンジ",
-"senses": [
-{
-"sense_id": 221512,
-"meaning_vi": "cam",
-"confidence": "high",
-"search_keywords": [
-"cam",
-"màu cam",
-"orange"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quả cam; màu cam",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3139,
-"word": "オレンジエード",
-"kana": "オレンジエード",
-"senses": [
-{
-"sense_id": 221513,
-"meaning_vi": "nước cam pha",
-"confidence": "high",
-"search_keywords": [
-"nước cam pha",
-"orangeade"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đồ uống pha từ nước cam, đường và nước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3140,
-"word": "オレンジジュース",
-"kana": "オレンジジュース",
-"senses": [
-{
-"sense_id": 221514,
-"meaning_vi": "nước cam",
-"confidence": "high",
-"search_keywords": [
-"nước cam",
-"orange juice"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nước ép từ quả cam",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3121,
+    "word": "オリジナル",
+    "kana": "オリジナル",
+    "senses": [
+      {
+        "sense_id": 221493,
+        "meaning_vi": "nguyên bản",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên bản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221494,
+        "meaning_vi": "duy nhất (ví dụ: sản phẩm); chữ ký; loại trừ; có một không hai; tùy chỉnh",
+        "confidence": "high",
+        "search_keywords": [
+          "duy nhất (ví dụ: sản phẩm)",
+          "chữ ký",
+          "loại trừ",
+          "có một không hai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "duy nhất (ví dụ: sản phẩm); chữ ký; loại trừ; có một không hai; tùy chỉnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3122,
+    "word": "オリジナルカロリー",
+    "kana": "オリジナルカロリー",
+    "senses": [
+      {
+        "sense_id": 221495,
+        "meaning_vi": "calo trong thành phần của thực phẩm chế biến",
+        "confidence": "high",
+        "search_keywords": [
+          "calo trong thành phần của thực phẩm chế biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "calo trong thành phần của thực phẩm chế biến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3123,
+    "word": "オリジナルシナリオ",
+    "kana": "オリジナルシナリオ",
+    "senses": [
+      {
+        "sense_id": 221496,
+        "meaning_vi": "kịch bản ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "kịch bản ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kịch bản ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3124,
+    "word": "オリジナルプリント",
+    "kana": "オリジナルプリント",
+    "senses": [
+      {
+        "sense_id": 221497,
+        "meaning_vi": "bản in gốc",
+        "confidence": "high",
+        "search_keywords": [
+          "bản in gốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản in gốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3125,
+    "word": "オリジン",
+    "kana": "オリジン",
+    "senses": [
+      {
+        "sense_id": 221498,
+        "meaning_vi": "nguồn gốc",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn gốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn gốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3126,
+    "word": "オリンピアード",
+    "kana": "オリンピアード",
+    "senses": [
+      {
+        "sense_id": 221499,
+        "meaning_vi": "Thế vận hội",
+        "confidence": "high",
+        "search_keywords": [
+          "Thế vận hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thế vận hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3127,
+    "word": "オリンピック",
+    "kana": "オリンピック",
+    "senses": [
+      {
+        "sense_id": 221500,
+        "meaning_vi": "Thế vận hội; Thế vận hội Olympic",
+        "confidence": "high",
+        "search_keywords": [
+          "Thế vận hội",
+          "Thế vận hội Olympic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thế vận hội; Thế vận hội Olympic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3128,
+    "word": "オリンピックデー",
+    "kana": "オリンピックデー",
+    "senses": [
+      {
+        "sense_id": 221501,
+        "meaning_vi": "Ngày Olympic (23 tháng 6)",
+        "confidence": "high",
+        "search_keywords": [
+          "Ngày Olympic (23 tháng 6)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ngày Olympic (23 tháng 6)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3129,
+    "word": "オーガズム",
+    "kana": "オーガズム",
+    "senses": [
+      {
+        "sense_id": 221502,
+        "meaning_vi": "cực khoái",
+        "confidence": "high",
+        "search_keywords": [
+          "cực khoái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cực khoái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3130,
+    "word": "オルガン",
+    "kana": "オルガン",
+    "senses": [
+      {
+        "sense_id": 221503,
+        "meaning_vi": "đàn organ (nhạc cụ)",
+        "confidence": "high",
+        "search_keywords": [
+          "đàn organ (nhạc cụ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đàn organ (nhạc cụ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3131,
+    "word": "オルグ",
+    "kana": "オルグ",
+    "senses": [
+      {
+        "sense_id": 221504,
+        "meaning_vi": "người tổ chức; người tổ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "người tổ chức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người tổ chức; người tổ chức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221505,
+        "meaning_vi": "tổ chức; tổ chức; tổ chức; tổ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "tổ chức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổ chức; tổ chức; tổ chức; tổ chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3132,
+    "word": "オルゴール",
+    "kana": "オルゴール",
+    "senses": [
+      {
+        "sense_id": 221506,
+        "meaning_vi": "hộp nhạc; hộp nhạc",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp nhạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp nhạc; hộp nhạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3133,
+    "word": "オルゴン",
+    "kana": "オルゴン",
+    "senses": [
+      {
+        "sense_id": 221507,
+        "meaning_vi": "năng lượng orgone",
+        "confidence": "high",
+        "search_keywords": [
+          "năng lượng orgone"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năng lượng orgone",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3134,
+    "word": "オルタナティブ",
+    "kana": "オルタナティブ",
+    "senses": [
+      {
+        "sense_id": 221508,
+        "meaning_vi": "thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3135,
+    "word": "オルタネイト",
+    "kana": "オルタネイト",
+    "senses": [
+      {
+        "sense_id": 221509,
+        "meaning_vi": "thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3136,
+    "word": "オルトフェニルフェノール",
+    "kana": "オルトフェニルフェノール",
+    "senses": [
+      {
+        "sense_id": 221510,
+        "meaning_vi": "orthophenylphenol; OPP",
+        "confidence": "high",
+        "search_keywords": [
+          "orthophenylphenol",
+          "OPP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "orthophenylphenol; OPP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3137,
+    "word": "オレゴン",
+    "kana": "オレゴン",
+    "senses": [
+      {
+        "sense_id": 221511,
+        "meaning_vi": "Oregon",
+        "confidence": "low",
+        "search_keywords": [
+          "Oregon"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Oregon",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3138,
+    "word": "オレンジ",
+    "kana": "オレンジ",
+    "senses": [
+      {
+        "sense_id": 221512,
+        "meaning_vi": "cam (trái cây, màu sắc)",
+        "confidence": "high",
+        "search_keywords": [
+          "cam (trái cây, màu sắc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cam (trái cây, màu sắc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3139,
+    "word": "オレンジエード",
+    "kana": "オレンジエード",
+    "senses": [
+      {
+        "sense_id": 221513,
+        "meaning_vi": "nước cam",
+        "confidence": "high",
+        "search_keywords": [
+          "nước cam"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước cam",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3140,
+    "word": "オレンジジュース",
+    "kana": "オレンジジュース",
+    "senses": [
+      {
+        "sense_id": 221514,
+        "meaning_vi": "nước cam",
+        "confidence": "high",
+        "search_keywords": [
+          "nước cam"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước cam",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

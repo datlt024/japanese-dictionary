@@ -1,0 +1,536 @@
+[
+  {
+    "vocabulary_id": 14265,
+    "word": "井戸水",
+    "kana": "いどみず",
+    "senses": [
+      {
+        "sense_id": 235014,
+        "meaning_vi": "nước giếng",
+        "confidence": "high",
+        "search_keywords": [
+          "nước giếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước giếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14266,
+    "word": "井戸側",
+    "kana": "いどがわ",
+    "senses": [
+      {
+        "sense_id": 235015,
+        "meaning_vi": "giếng lề đường",
+        "confidence": "high",
+        "search_keywords": [
+          "giếng lề đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giếng lề đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14267,
+    "word": "井戸替え",
+    "kana": "いどがえ",
+    "senses": [
+      {
+        "sense_id": 235016,
+        "meaning_vi": "làm sạch giếng",
+        "confidence": "high",
+        "search_keywords": [
+          "làm sạch giếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm sạch giếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14268,
+    "word": "井戸端",
+    "kana": "いどばた",
+    "senses": [
+      {
+        "sense_id": 235017,
+        "meaning_vi": "bên giếng",
+        "confidence": "high",
+        "search_keywords": [
+          "bên giếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên giếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14269,
+    "word": "井戸端会議",
+    "kana": "いどばたかいぎ",
+    "senses": [
+      {
+        "sense_id": 235018,
+        "meaning_vi": "trò chuyện không có nội dung; chuyện tầm phào nhàn rỗi; nói chuyện về máy làm mát nước",
+        "confidence": "high",
+        "search_keywords": [
+          "trò chuyện không có nội dung",
+          "chuyện tầm phào nhàn rỗi",
+          "nói chuyện về máy làm mát nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trò chuyện không có nội dung; chuyện tầm phào nhàn rỗi; nói chuyện về máy làm mát nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14270,
+    "word": "井戸浚え",
+    "kana": "いどさらえ",
+    "senses": [
+      {
+        "sense_id": 235019,
+        "meaning_vi": "làm sạch giếng",
+        "confidence": "high",
+        "search_keywords": [
+          "làm sạch giếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm sạch giếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14271,
+    "word": "井守",
+    "kana": "いもり",
+    "senses": [
+      {
+        "sense_id": 235021,
+        "meaning_vi": "sa giông (đặc biệt là sa giông bụng lửa Nhật Bản, Cynops pyrrhoster)",
+        "confidence": "high",
+        "search_keywords": [
+          "sa giông (đặc biệt là sa giông bụng lửa Nhật Bản, Cynops pyrrhoster)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sa giông (đặc biệt là sa giông bụng lửa Nhật Bản, Cynops pyrrhoster)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14272,
+    "word": "井泉",
+    "kana": "せいせん",
+    "senses": [
+      {
+        "sense_id": 235022,
+        "meaning_vi": "(nước) giếng",
+        "confidence": "high",
+        "search_keywords": [
+          "(nước) giếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(nước) giếng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 235023,
+        "meaning_vi": "nước giếng",
+        "confidence": "high",
+        "search_keywords": [
+          "nước giếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước giếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14273,
+    "word": "井底",
+    "kana": "せいてい",
+    "senses": [
+      {
+        "sense_id": 235024,
+        "meaning_vi": "đáy giếng; nơi chật hẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "đáy giếng",
+          "nơi chật hẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáy giếng; nơi chật hẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14274,
+    "word": "井筒",
+    "kana": "いづつ",
+    "senses": [
+      {
+        "sense_id": 235025,
+        "meaning_vi": "cũng lề đường; giếng lề đường",
+        "confidence": "high",
+        "search_keywords": [
+          "cũng lề đường",
+          "giếng lề đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cũng lề đường; giếng lề đường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 235026,
+        "meaning_vi": "thiết kế đỉnh gia đình dựa trên lề đường giếng gỗ hình vuông",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết kế đỉnh gia đình dựa trên lề đường giếng gỗ hình vuông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết kế đỉnh gia đình dựa trên lề đường giếng gỗ hình vuông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14275,
+    "word": "亥年",
+    "kana": "いどし",
+    "senses": [
+      {
+        "sense_id": 235027,
+        "meaning_vi": "năm Hợi; năm con heo",
+        "confidence": "high",
+        "search_keywords": [
+          "năm Hợi",
+          "năm con heo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năm Hợi; năm con heo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14276,
+    "word": "域外",
+    "kana": "いきがい",
+    "senses": [
+      {
+        "sense_id": 235028,
+        "meaning_vi": "bên ngoài khu vực",
+        "confidence": "high",
+        "search_keywords": [
+          "bên ngoài khu vực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên ngoài khu vực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14277,
+    "word": "域内",
+    "kana": "いきない",
+    "senses": [
+      {
+        "sense_id": 235029,
+        "meaning_vi": "bên trong khu vực",
+        "confidence": "high",
+        "search_keywords": [
+          "bên trong khu vực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên trong khu vực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14278,
+    "word": "育ち",
+    "kana": "そだち",
+    "senses": [
+      {
+        "sense_id": 235030,
+        "meaning_vi": "sự phát triển; chăn nuôi",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phát triển",
+          "chăn nuôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phát triển; chăn nuôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 235031,
+        "meaning_vi": "lớn lên (trong, như); giáo dục",
+        "confidence": "high",
+        "search_keywords": [
+          "lớn lên (trong, như)",
+          "giáo dục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớn lên (trong, như); giáo dục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14279,
+    "word": "育ち行く",
+    "kana": "そだちゆく",
+    "senses": [
+      {
+        "sense_id": 235032,
+        "meaning_vi": "lớn lên",
+        "confidence": "high",
+        "search_keywords": [
+          "lớn lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớn lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14280,
+    "word": "育つ",
+    "kana": "そだつ",
+    "senses": [
+      {
+        "sense_id": 235033,
+        "meaning_vi": "được nuôi dưỡng (ví dụ như một đứa trẻ); được nuôi dưỡng; lớn lên (lớn lên)",
+        "confidence": "high",
+        "search_keywords": [
+          "được nuôi dưỡng (ví dụ như một đứa trẻ)",
+          "được nuôi dưỡng",
+          "lớn lên (lớn lên)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được nuôi dưỡng (ví dụ như một đứa trẻ); được nuôi dưỡng; lớn lên (lớn lên)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14281,
+    "word": "育て",
+    "kana": "そだて",
+    "senses": [
+      {
+        "sense_id": 235034,
+        "meaning_vi": "nuôi dưỡng; nâng cao",
+        "confidence": "high",
+        "search_keywords": [
+          "nuôi dưỡng",
+          "nâng cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nuôi dưỡng; nâng cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14282,
+    "word": "育ての親",
+    "kana": "そだてのおや",
+    "senses": [
+      {
+        "sense_id": 235035,
+        "meaning_vi": "cha mẹ nuôi",
+        "confidence": "high",
+        "search_keywords": [
+          "cha mẹ nuôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cha mẹ nuôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14283,
+    "word": "育てる",
+    "kana": "そだてる",
+    "senses": [
+      {
+        "sense_id": 235036,
+        "meaning_vi": "nâng cao; để phía sau; để đưa lên",
+        "confidence": "high",
+        "search_keywords": [
+          "nâng cao",
+          "để phía sau",
+          "để đưa lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nâng cao; để phía sau; để đưa lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 235037,
+        "meaning_vi": "đào tạo; dạy dỗ; để giáo dục",
+        "confidence": "high",
+        "search_keywords": [
+          "đào tạo",
+          "dạy dỗ",
+          "để giáo dục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đào tạo; dạy dỗ; để giáo dục",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 235038,
+        "meaning_vi": "để thúc đẩy sự phát triển của; nuôi dưỡng; nuôi dưỡng; để phát triển",
+        "confidence": "high",
+        "search_keywords": [
+          "để thúc đẩy sự phát triển của",
+          "nuôi dưỡng",
+          "để phát triển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thúc đẩy sự phát triển của; nuôi dưỡng; nuôi dưỡng; để phát triển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14284,
+    "word": "育て上げる",
+    "kana": "そだてあげる",
+    "senses": [
+      {
+        "sense_id": 235039,
+        "meaning_vi": "nâng cao (đến ngày đáo hạn); nuôi dưỡng; để phía sau; đào tạo; để giáo dục",
+        "confidence": "high",
+        "search_keywords": [
+          "nâng cao (đến ngày đáo hạn)",
+          "nuôi dưỡng",
+          "để phía sau",
+          "đào tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nâng cao (đến ngày đáo hạn); nuôi dưỡng; để phía sau; đào tạo; để giáo dục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

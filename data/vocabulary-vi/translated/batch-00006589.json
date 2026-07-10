@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 154551,
+    "word": "遺伝子頻度",
+    "kana": "いでんしひんど",
+    "senses": [
+      {
+        "sense_id": 400697,
+        "meaning_vi": "tần số gen",
+        "confidence": "high",
+        "search_keywords": [
+          "tần số gen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tần số gen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154552,
+    "word": "進化速度",
+    "kana": "しんかそくど",
+    "senses": [
+      {
+        "sense_id": 400698,
+        "meaning_vi": "tốc độ tiến hóa; tốc độ tiến hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ tiến hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ tiến hóa; tốc độ tiến hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154553,
+    "word": "化石種",
+    "kana": "かせきしゅ",
+    "senses": [
+      {
+        "sense_id": 400699,
+        "meaning_vi": "loài hóa thạch",
+        "confidence": "high",
+        "search_keywords": [
+          "loài hóa thạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loài hóa thạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154554,
+    "word": "生きている化石",
+    "kana": "いきているかせき",
+    "senses": [
+      {
+        "sense_id": 400700,
+        "meaning_vi": "hóa thạch sống",
+        "confidence": "high",
+        "search_keywords": [
+          "hóa thạch sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hóa thạch sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154555,
+    "word": "塩基置換",
+    "kana": "えんきちかん",
+    "senses": [
+      {
+        "sense_id": 400701,
+        "meaning_vi": "thay thế bazơ",
+        "confidence": "high",
+        "search_keywords": [
+          "thay thế bazơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay thế bazơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154556,
+    "word": "六線星形",
+    "kana": "ろくせんほしがた",
+    "senses": [
+      {
+        "sense_id": 400702,
+        "meaning_vi": "quẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "quẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154557,
+    "word": "アミノ酸配列",
+    "kana": "アミノさんはいれつ",
+    "senses": [
+      {
+        "sense_id": 400704,
+        "meaning_vi": "trình tự axit amin",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự axit amin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự axit amin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154558,
+    "word": "生殖能力",
+    "kana": "せいしょくのうりょく",
+    "senses": [
+      {
+        "sense_id": 400705,
+        "meaning_vi": "khả năng sinh sản; khả năng sinh sản; khả năng sinh sản; tiềm năng sinh học",
+        "confidence": "high",
+        "search_keywords": [
+          "khả năng sinh sản",
+          "tiềm năng sinh học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khả năng sinh sản; khả năng sinh sản; khả năng sinh sản; tiềm năng sinh học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154559,
+    "word": "ノンコーディングＲＮＡ",
+    "kana": "ノンコーディングアールエヌエー",
+    "senses": [
+      {
+        "sense_id": 400706,
+        "meaning_vi": "RNA không mã hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "RNA không mã hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "RNA không mã hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154560,
+    "word": "非コードＲＮＡ",
+    "kana": "ひコードアールエヌエー",
+    "senses": [
+      {
+        "sense_id": 400707,
+        "meaning_vi": "RNA không mã hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "RNA không mã hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "RNA không mã hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154561,
+    "word": "一次構造",
+    "kana": "いちじこうぞう",
+    "senses": [
+      {
+        "sense_id": 400708,
+        "meaning_vi": "cấu trúc bậc một (ví dụ: của protein)",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc bậc một (ví dụ: của protein)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc bậc một (ví dụ: của protein)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154562,
+    "word": "開始コドン",
+    "kana": "かいしコドン",
+    "senses": [
+      {
+        "sense_id": 400709,
+        "meaning_vi": "codon bắt đầu; codon khởi đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "codon bắt đầu",
+          "codon khởi đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "codon bắt đầu; codon khởi đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154563,
+    "word": "終止コドン",
+    "kana": "しゅうしコドン",
+    "senses": [
+      {
+        "sense_id": 400710,
+        "meaning_vi": "dừng codon; codon kết thúc",
+        "confidence": "high",
+        "search_keywords": [
+          "dừng codon",
+          "codon kết thúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dừng codon; codon kết thúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154564,
+    "word": "核ゲノム",
+    "kana": "かくゲノム",
+    "senses": [
+      {
+        "sense_id": 400711,
+        "meaning_vi": "bộ gen hạt nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ gen hạt nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ gen hạt nhân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154565,
+    "word": "フレームシフト突然変異",
+    "kana": "フレームシフトとつぜんへんい",
+    "senses": [
+      {
+        "sense_id": 400712,
+        "meaning_vi": "đột biến dịch khung",
+        "confidence": "high",
+        "search_keywords": [
+          "đột biến dịch khung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đột biến dịch khung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154566,
+    "word": "ＤＮＡ修復",
+    "kana": "ディーエヌエーしゅうふく",
+    "senses": [
+      {
+        "sense_id": 400713,
+        "meaning_vi": "sửa chữa DNA",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa chữa DNA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa chữa DNA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154567,
+    "word": "ＤＮＡ修復酵素",
+    "kana": "ディーエヌエーしゅうふくこうそ",
+    "senses": [
+      {
+        "sense_id": 400714,
+        "meaning_vi": "enzyme sửa chữa DNA",
+        "confidence": "high",
+        "search_keywords": [
+          "enzyme sửa chữa DNA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "enzyme sửa chữa DNA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154568,
+    "word": "シットコム",
+    "kana": "シットコム",
+    "senses": [
+      {
+        "sense_id": 400715,
+        "meaning_vi": "phim sitcom",
+        "confidence": "high",
+        "search_keywords": [
+          "phim sitcom"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phim sitcom",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154569,
+    "word": "冷凍装置",
+    "kana": "れいとうそうち",
+    "senses": [
+      {
+        "sense_id": 400716,
+        "meaning_vi": "tủ lạnh; thiết bị làm lạnh; tủ đông",
+        "confidence": "high",
+        "search_keywords": [
+          "tủ lạnh",
+          "thiết bị làm lạnh",
+          "tủ đông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tủ lạnh; thiết bị làm lạnh; tủ đông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154570,
+    "word": "仮想世界",
+    "kana": "かそうせかい",
+    "senses": [
+      {
+        "sense_id": 400717,
+        "meaning_vi": "thế giới ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "thế giới ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thế giới ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

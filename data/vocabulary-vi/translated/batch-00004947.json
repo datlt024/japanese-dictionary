@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 119409,
+    "word": "ストリーミングテープ",
+    "kana": "ストリーミングテープ",
+    "senses": [
+      {
+        "sense_id": 362964,
+        "meaning_vi": "băng trực tuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "băng trực tuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "băng trực tuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119410,
+    "word": "ストリーミングテープ駆動機構",
+    "kana": "ストリーミングテープくどうきこう",
+    "senses": [
+      {
+        "sense_id": 362965,
+        "meaning_vi": "ổ băng trực tuyến; người truyền phát",
+        "confidence": "high",
+        "search_keywords": [
+          "ổ băng trực tuyến",
+          "người truyền phát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ổ băng trực tuyến; người truyền phát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119411,
+    "word": "ストリング変数",
+    "kana": "ストリングへんすう",
+    "senses": [
+      {
+        "sense_id": 362966,
+        "meaning_vi": "biến chuỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "biến chuỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến chuỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119412,
+    "word": "ストレージ",
+    "kana": "ストレージ",
+    "senses": [
+      {
+        "sense_id": 362967,
+        "meaning_vi": "lưu trữ",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119413,
+    "word": "ストレージベイ",
+    "kana": "ストレージベイ",
+    "senses": [
+      {
+        "sense_id": 362968,
+        "meaning_vi": "khoang chứa đồ",
+        "confidence": "high",
+        "search_keywords": [
+          "khoang chứa đồ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoang chứa đồ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119414,
+    "word": "ストレージ構造",
+    "kana": "ストレージこうぞう",
+    "senses": [
+      {
+        "sense_id": 362969,
+        "meaning_vi": "cấu trúc lưu trữ",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc lưu trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc lưu trữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119415,
+    "word": "ストレートケーブル",
+    "kana": "ストレートケーブル",
+    "senses": [
+      {
+        "sense_id": 362970,
+        "meaning_vi": "cáp thẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "cáp thẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cáp thẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119416,
+    "word": "ストレステスト",
+    "kana": "ストレステスト",
+    "senses": [
+      {
+        "sense_id": 362971,
+        "meaning_vi": "kiểm tra căng thẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra căng thẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra căng thẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119417,
+    "word": "ストロークフォント",
+    "kana": "ストロークフォント",
+    "senses": [
+      {
+        "sense_id": 362972,
+        "meaning_vi": "phông chữ đột quỵ",
+        "confidence": "high",
+        "search_keywords": [
+          "phông chữ đột quỵ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phông chữ đột quỵ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119418,
+    "word": "ストローク入力装置",
+    "kana": "ストロークにゅうりょくそうち",
+    "senses": [
+      {
+        "sense_id": 362973,
+        "meaning_vi": "thiết bị đột quỵ",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đột quỵ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đột quỵ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119419,
+    "word": "ストローク文字発生器",
+    "kana": "ストロークもじはっせいき",
+    "senses": [
+      {
+        "sense_id": 362974,
+        "meaning_vi": "trình tạo ký tự đột quỵ",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tạo ký tự đột quỵ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tạo ký tự đột quỵ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119420,
+    "word": "スナップイン",
+    "kana": "スナップイン",
+    "senses": [
+      {
+        "sense_id": 362975,
+        "meaning_vi": "snap-in (công cụ quản trị được lưu trữ trong Bảng điều khiển quản lý Microsoft)",
+        "confidence": "high",
+        "search_keywords": [
+          "snap-in (công cụ quản trị được lưu trữ trong Bảng điều khiển quản lý Microsoft)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "snap-in (công cụ quản trị được lưu trữ trong Bảng điều khiển quản lý Microsoft)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119421,
+    "word": "スナップショットスライド",
+    "kana": "スナップショットスライド",
+    "senses": [
+      {
+        "sense_id": 362976,
+        "meaning_vi": "ảnh chụp nhanh",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh chụp nhanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh chụp nhanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119422,
+    "word": "スニファ",
+    "kana": "スニファ",
+    "senses": [
+      {
+        "sense_id": 362977,
+        "meaning_vi": "người đánh hơi; máy phân tích gói",
+        "confidence": "high",
+        "search_keywords": [
+          "người đánh hơi",
+          "máy phân tích gói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đánh hơi; máy phân tích gói",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119423,
+    "word": "ＳＮＯＢＯＬ",
+    "kana": "スノボル",
+    "senses": [
+      {
+        "sense_id": 362978,
+        "meaning_vi": "SNOBOL (loạt ngôn ngữ lập trình)",
+        "confidence": "high",
+        "search_keywords": [
+          "SNOBOL (loạt ngôn ngữ lập trình)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "SNOBOL (loạt ngôn ngữ lập trình)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119424,
+    "word": "スパークル",
+    "kana": "スパークル",
+    "senses": [
+      {
+        "sense_id": 362979,
+        "meaning_vi": "lấp lánh",
+        "confidence": "high",
+        "search_keywords": [
+          "lấp lánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lấp lánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119425,
+    "word": "スパゲッティコード",
+    "kana": "スパゲッティコード",
+    "senses": [
+      {
+        "sense_id": 362980,
+        "meaning_vi": "mã spaghetti",
+        "confidence": "high",
+        "search_keywords": [
+          "mã spaghetti"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã spaghetti",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119426,
+    "word": "スパゲッティプログラム",
+    "kana": "スパゲッティプログラム",
+    "senses": [
+      {
+        "sense_id": 362981,
+        "meaning_vi": "chương trình spaghetti",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình spaghetti"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình spaghetti",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119427,
+    "word": "スパニング",
+    "kana": "スパニング",
+    "senses": [
+      {
+        "sense_id": 362982,
+        "meaning_vi": "kéo dài",
+        "confidence": "high",
+        "search_keywords": [
+          "kéo dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kéo dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119428,
+    "word": "スパニングツリー",
+    "kana": "スパニングツリー",
+    "senses": [
+      {
+        "sense_id": 362983,
+        "meaning_vi": "cây bao trùm",
+        "confidence": "high",
+        "search_keywords": [
+          "cây bao trùm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây bao trùm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

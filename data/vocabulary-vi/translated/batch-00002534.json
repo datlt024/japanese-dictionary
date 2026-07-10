@@ -1,0 +1,514 @@
+[
+  {
+    "vocabulary_id": 65708,
+    "word": "書林",
+    "kana": "しょりん",
+    "senses": [
+      {
+        "sense_id": 303233,
+        "meaning_vi": "kho sách khổng lồ; hiệu sách; hiệu sách",
+        "confidence": "high",
+        "search_keywords": [
+          "kho sách khổng lồ",
+          "hiệu sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kho sách khổng lồ; hiệu sách; hiệu sách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65709,
+    "word": "書き物",
+    "kana": "かきもの",
+    "senses": [
+      {
+        "sense_id": 303234,
+        "meaning_vi": "(đoạn) bài viết; tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "(đoạn) bài viết",
+          "tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đoạn) bài viết; tài liệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 303235,
+        "meaning_vi": "(hành động) viết",
+        "confidence": "high",
+        "search_keywords": [
+          "(hành động) viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(hành động) viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65710,
+    "word": "書信",
+    "kana": "しょしん",
+    "senses": [
+      {
+        "sense_id": 303236,
+        "meaning_vi": "lá thư",
+        "confidence": "high",
+        "search_keywords": [
+          "lá thư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lá thư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65711,
+    "word": "書風",
+    "kana": "しょふう",
+    "senses": [
+      {
+        "sense_id": 303237,
+        "meaning_vi": "phong cách viết tay; phong cách thư pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách viết tay",
+          "phong cách thư pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách viết tay; phong cách thư pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65712,
+    "word": "書面審理",
+    "kana": "しょめんしんり",
+    "senses": [
+      {
+        "sense_id": 303238,
+        "meaning_vi": "kiểm tra tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65713,
+    "word": "書き残す",
+    "kana": "かきのこす",
+    "senses": [
+      {
+        "sense_id": 303239,
+        "meaning_vi": "để lại (một ghi chú, di chúc, v.v.) phía sau",
+        "confidence": "high",
+        "search_keywords": [
+          "để lại (một ghi chú, di chúc, v.v.) phía sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để lại (một ghi chú, di chúc, v.v.) phía sau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 303240,
+        "meaning_vi": "để lại (một bản thảo, v.v.) chưa hoàn thành; để lại một nửa văn bản",
+        "confidence": "high",
+        "search_keywords": [
+          "để lại (một bản thảo, v.v.) chưa hoàn thành",
+          "để lại một nửa văn bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để lại (một bản thảo, v.v.) chưa hoàn thành; để lại một nửa văn bản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 303241,
+        "meaning_vi": "quên viết; bỏ đi",
+        "confidence": "high",
+        "search_keywords": [
+          "quên viết",
+          "bỏ đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quên viết; bỏ đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65714,
+    "word": "書き起こし",
+    "kana": "かきおこし",
+    "senses": [
+      {
+        "sense_id": 303242,
+        "meaning_vi": "lời mở đầu; câu mở đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "lời mở đầu",
+          "câu mở đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời mở đầu; câu mở đầu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 303243,
+        "meaning_vi": "phiên âm (ví dụ: giọng nói thành văn bản); bảng điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên âm (ví dụ: giọng nói thành văn bản)",
+          "bảng điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên âm (ví dụ: giọng nói thành văn bản); bảng điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65715,
+    "word": "書きぶり",
+    "kana": "かきぶり",
+    "senses": [
+      {
+        "sense_id": 303244,
+        "meaning_vi": "phong cách viết; cách viết",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách viết",
+          "cách viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách viết; cách viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65716,
+    "word": "書留料",
+    "kana": "かきとめりょう",
+    "senses": [
+      {
+        "sense_id": 303245,
+        "meaning_vi": "tính phí cho thư đã đăng ký",
+        "confidence": "high",
+        "search_keywords": [
+          "tính phí cho thư đã đăng ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính phí cho thư đã đăng ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65717,
+    "word": "書記局",
+    "kana": "しょききょく",
+    "senses": [
+      {
+        "sense_id": 303246,
+        "meaning_vi": "ban thư ký",
+        "confidence": "high",
+        "search_keywords": [
+          "ban thư ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ban thư ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65718,
+    "word": "書記官",
+    "kana": "しょきかん",
+    "senses": [
+      {
+        "sense_id": 303247,
+        "meaning_vi": "thư ký",
+        "confidence": "high",
+        "search_keywords": [
+          "thư ký"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư ký",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65719,
+    "word": "書き連ねる",
+    "kana": "かきつらねる",
+    "senses": [
+      {
+        "sense_id": 303248,
+        "meaning_vi": "để lập một danh sách; liệt kê",
+        "confidence": "high",
+        "search_keywords": [
+          "để lập một danh sách",
+          "liệt kê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để lập một danh sách; liệt kê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65720,
+    "word": "書院造り",
+    "kana": "しょいんづくり",
+    "senses": [
+      {
+        "sense_id": 303249,
+        "meaning_vi": "phong cách truyền thống của kiến trúc nhà ở Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách truyền thống của kiến trúc nhà ở Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách truyền thống của kiến trúc nhà ở Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65721,
+    "word": "書き終わる",
+    "kana": "かきおわる",
+    "senses": [
+      {
+        "sense_id": 303250,
+        "meaning_vi": "để viết xong",
+        "confidence": "high",
+        "search_keywords": [
+          "để viết xong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để viết xong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65722,
+    "word": "書経",
+    "kana": "しょきょう",
+    "senses": [
+      {
+        "sense_id": 303251,
+        "meaning_vi": "Sách Tài Liệu; Sách Lịch sử; Thư Tĩnh; Thư Thanh",
+        "confidence": "high",
+        "search_keywords": [
+          "Sách Tài Liệu",
+          "Sách Lịch sử",
+          "Thư Tĩnh",
+          "Thư Thanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sách Tài Liệu; Sách Lịch sử; Thư Tĩnh; Thư Thanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65723,
+    "word": "書割",
+    "kana": "かきわり",
+    "senses": [
+      {
+        "sense_id": 303252,
+        "meaning_vi": "bức tranh di động được sử dụng làm một phần của phông nền (trong kabuki, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "bức tranh di động được sử dụng làm một phần của phông nền (trong kabuki, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bức tranh di động được sử dụng làm một phần của phông nền (trong kabuki, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65724,
+    "word": "書評欄",
+    "kana": "しょひょうらん",
+    "senses": [
+      {
+        "sense_id": 303253,
+        "meaning_vi": "chuyên mục đánh giá sách",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyên mục đánh giá sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyên mục đánh giá sách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65725,
+    "word": "書証",
+    "kana": "しょしょう",
+    "senses": [
+      {
+        "sense_id": 303254,
+        "meaning_vi": "bằng chứng tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "bằng chứng tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bằng chứng tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65726,
+    "word": "書き集める",
+    "kana": "かきあつめる",
+    "senses": [
+      {
+        "sense_id": 303255,
+        "meaning_vi": "sưu tầm (văn bản)",
+        "confidence": "high",
+        "search_keywords": [
+          "sưu tầm (văn bản)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sưu tầm (văn bản)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65727,
+    "word": "書肆",
+    "kana": "しょし",
+    "senses": [
+      {
+        "sense_id": 303256,
+        "meaning_vi": "hiệu sách; hiệu sách",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệu sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệu sách; hiệu sách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

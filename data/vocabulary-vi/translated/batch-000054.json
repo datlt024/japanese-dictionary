@@ -1,483 +1,462 @@
 [
-{
-"vocabulary_id": 1478,
-"word": "アディオス",
-"kana": "アディオス",
-"senses": [
-{
-"sense_id": 219603,
-"meaning_vi": "tạm biệt",
-"confidence": "high",
-"search_keywords": [
-"tạm biệt",
-"chia tay",
-"adios"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tạm biệt; chào tạm biệt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1479,
-"word": "アデノイド",
-"kana": "アデノイド",
-"senses": [
-{
-"sense_id": 219604,
-"meaning_vi": "VA",
-"confidence": "high",
-"search_keywords": [
-"VA",
-"amidan"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "VA; amidan",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1480,
-"word": "アデノウイルス",
-"kana": "アデノウイルス",
-"senses": [
-{
-"sense_id": 219605,
-"meaning_vi": "virus adeno",
-"confidence": "high",
-"search_keywords": [
-"virus adeno",
-"adenovirus"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "virus adeno",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1481,
-"word": "アデュー",
-"kana": "アデュー",
-"senses": [
-{
-"sense_id": 219606,
-"meaning_vi": "tạm biệt",
-"confidence": "high",
-"search_keywords": [
-"tạm biệt",
-"adieu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tạm biệt; lời từ biệt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1482,
-"word": "アト",
-"kana": "アト",
-"senses": [
-{
-"sense_id": 219607,
-"meaning_vi": "atto-",
-"confidence": "high",
-"search_keywords": [
-"atto",
-"10^-18"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiền tố atto- biểu thị 10 mũ âm 18",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1483,
-"word": "アトニー",
-"kana": "アトニー",
-"senses": [
-{
-"sense_id": 219608,
-"meaning_vi": "chứng giảm trương lực",
-"confidence": "medium",
-"search_keywords": [
-"giảm trương lực",
-"atony"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tình trạng giảm hoặc mất trương lực sinh lý",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1484,
-"word": "アトピー",
-"kana": "アトピー",
-"senses": [
-{
-"sense_id": 219609,
-"meaning_vi": "cơ địa dị ứng",
-"confidence": "high",
-"search_keywords": [
-"cơ địa dị ứng",
-"atopy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thể trạng dễ bị dị ứng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219610,
-"meaning_vi": "viêm da cơ địa",
-"confidence": "high",
-"search_keywords": [
-"viêm da cơ địa",
-"eczema",
-"atopic dermatitis"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "viêm da cơ địa; chàm thể tạng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1485,
-"word": "アトミック",
-"kana": "アトミック",
-"senses": [
-{
-"sense_id": 219611,
-"meaning_vi": "nguyên tử",
-"confidence": "high",
-"search_keywords": [
-"nguyên tử",
-"atomic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thuộc nguyên tử",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1486,
-"word": "アトム",
-"kana": "アトム",
-"senses": [
-{
-"sense_id": 219612,
-"meaning_vi": "nguyên tử",
-"confidence": "high",
-"search_keywords": [
-"nguyên tử",
-"atom"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nguyên tử",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1487,
-"word": "アトモスフィア",
-"kana": "アトモスフィア",
-"senses": [
-{
-"sense_id": 219613,
-"meaning_vi": "bầu không khí",
-"confidence": "high",
-"search_keywords": [
-"bầu không khí",
-"không khí",
-"atmosphere"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khí quyển; bầu không khí; bầu không khí xung quanh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1488,
-"word": "アトラクション",
-"kana": "アトラクション",
-"senses": [
-{
-"sense_id": 219614,
-"meaning_vi": "trò giải trí",
-"confidence": "high",
-"search_keywords": [
-"trò giải trí",
-"tiết mục",
-"attraction"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trò chơi hoặc tiết mục thu hút khách tham quan",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1489,
-"word": "アトラクタ",
-"kana": "アトラクタ",
-"senses": [
-{
-"sense_id": 219615,
-"meaning_vi": "điểm hút",
-"confidence": "medium",
-"search_keywords": [
-"điểm hút",
-"attractor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điểm hút trong lý thuyết hệ động lực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1490,
-"word": "アトラクティブ",
-"kana": "アトラクティブ",
-"senses": [
-{
-"sense_id": 219616,
-"meaning_vi": "hấp dẫn",
-"confidence": "high",
-"search_keywords": [
-"hấp dẫn",
-"thu hút"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có sức hấp dẫn; thu hút",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1491,
-"word": "アトランダム",
-"kana": "アトランダム",
-"senses": [
-{
-"sense_id": 219617,
-"meaning_vi": "ngẫu nhiên",
-"confidence": "high",
-"search_keywords": [
-"ngẫu nhiên",
-"tùy ý"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "một cách ngẫu nhiên; không theo quy tắc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1492,
-"word": "アトリウム",
-"kana": "アトリウム",
-"senses": [
-{
-"sense_id": 219618,
-"meaning_vi": "giếng trời",
-"confidence": "high",
-"search_keywords": [
-"giếng trời",
-"atrium"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không gian thông tầng hoặc giếng trời trong công trình",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1493,
-"word": "アトリエ",
-"kana": "アトリエ",
-"senses": [
-{
-"sense_id": 219619,
-"meaning_vi": "xưởng nghệ thuật",
-"confidence": "high",
-"search_keywords": [
-"atelier",
-"xưởng nghệ thuật",
-"studio"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xưởng sáng tác; phòng làm việc của nghệ sĩ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1494,
-"word": "アトリビュート",
-"kana": "アトリビュート",
-"senses": [
-{
-"sense_id": 219620,
-"meaning_vi": "thuộc tính",
-"confidence": "high",
-"search_keywords": [
-"thuộc tính",
-"attribute"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thuộc tính; đặc tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1495,
-"word": "アド",
-"kana": "アド",
-"senses": [
-{
-"sense_id": 219621,
-"meaning_vi": "quảng cáo",
-"confidence": "high",
-"search_keywords": [
-"quảng cáo",
-"ad"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quảng cáo; mẫu quảng cáo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1496,
-"word": "アドベ",
-"kana": "アドベ",
-"senses": [
-{
-"sense_id": 219622,
-"meaning_vi": "gạch đất phơi khô",
-"confidence": "medium",
-"search_keywords": [
-"gạch adobe",
-"gạch đất phơi khô"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gạch đất phơi khô dùng trong xây dựng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1497,
-"word": "アドインパクト",
-"kana": "アドインパクト",
-"senses": [
-{
-"sense_id": 219623,
-"meaning_vi": "hiệu quả quảng cáo",
-"confidence": "medium",
-"search_keywords": [
-"hiệu quả quảng cáo",
-"tác động quảng cáo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mức độ tác động của quảng cáo đến người xem",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1478,
+    "word": "アディオス",
+    "kana": "アディオス",
+    "senses": [
+      {
+        "sense_id": 219603,
+        "meaning_vi": "tạm biệt; tạm biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "tạm biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạm biệt; tạm biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1479,
+    "word": "アデノイド",
+    "kana": "アデノイド",
+    "senses": [
+      {
+        "sense_id": 219604,
+        "meaning_vi": "adenoid",
+        "confidence": "low",
+        "search_keywords": [
+          "adenoid"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "adenoid",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1480,
+    "word": "アデノウイルス",
+    "kana": "アデノウイルス",
+    "senses": [
+      {
+        "sense_id": 219605,
+        "meaning_vi": "adenovirus",
+        "confidence": "low",
+        "search_keywords": [
+          "adenovirus"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "adenovirus",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1481,
+    "word": "アデュー",
+    "kana": "アデュー",
+    "senses": [
+      {
+        "sense_id": 219606,
+        "meaning_vi": "tạm biệt; tạm biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "tạm biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạm biệt; tạm biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1482,
+    "word": "アト",
+    "kana": "アト",
+    "senses": [
+      {
+        "sense_id": 219607,
+        "meaning_vi": "atto-; 10^-18",
+        "confidence": "low",
+        "search_keywords": [
+          "atto-",
+          "10^-18"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "atto-; 10^-18",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1483,
+    "word": "アトニー",
+    "kana": "アトニー",
+    "senses": [
+      {
+        "sense_id": 219608,
+        "meaning_vi": "(sinh lý) sự mất trương lực",
+        "confidence": "high",
+        "search_keywords": [
+          "(sinh lý) sự mất trương lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(sinh lý) sự mất trương lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1484,
+    "word": "アトピー",
+    "kana": "アトピー",
+    "senses": [
+      {
+        "sense_id": 219609,
+        "meaning_vi": "dị ứng; khuynh hướng dị ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "dị ứng",
+          "khuynh hướng dị ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dị ứng; khuynh hướng dị ứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219610,
+        "meaning_vi": "viêm da dị ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm da dị ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm da dị ứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1485,
+    "word": "アトミック",
+    "kana": "アトミック",
+    "senses": [
+      {
+        "sense_id": 219611,
+        "meaning_vi": "nguyên tử",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1486,
+    "word": "アトム",
+    "kana": "アトム",
+    "senses": [
+      {
+        "sense_id": 219612,
+        "meaning_vi": "nguyên tử",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1487,
+    "word": "アトモスフィア",
+    "kana": "アトモスフィア",
+    "senses": [
+      {
+        "sense_id": 219613,
+        "meaning_vi": "bầu không khí",
+        "confidence": "high",
+        "search_keywords": [
+          "bầu không khí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bầu không khí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1488,
+    "word": "アトラクション",
+    "kana": "アトラクション",
+    "senses": [
+      {
+        "sense_id": 219614,
+        "meaning_vi": "sự hấp dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "sự hấp dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự hấp dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1489,
+    "word": "アトラクタ",
+    "kana": "アトラクタ",
+    "senses": [
+      {
+        "sense_id": 219615,
+        "meaning_vi": "người thu hút",
+        "confidence": "high",
+        "search_keywords": [
+          "người thu hút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thu hút",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1490,
+    "word": "アトラクティブ",
+    "kana": "アトラクティブ",
+    "senses": [
+      {
+        "sense_id": 219616,
+        "meaning_vi": "hấp dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "hấp dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hấp dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1491,
+    "word": "アトランダム",
+    "kana": "アトランダム",
+    "senses": [
+      {
+        "sense_id": 219617,
+        "meaning_vi": "ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1492,
+    "word": "アトリウム",
+    "kana": "アトリウム",
+    "senses": [
+      {
+        "sense_id": 219618,
+        "meaning_vi": "tâm nhĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "tâm nhĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tâm nhĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1493,
+    "word": "アトリエ",
+    "kana": "アトリエ",
+    "senses": [
+      {
+        "sense_id": 219619,
+        "meaning_vi": "xưởng may; phòng thu; xưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "xưởng may",
+          "phòng thu",
+          "xưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xưởng may; phòng thu; xưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1494,
+    "word": "アトリビュート",
+    "kana": "アトリビュート",
+    "senses": [
+      {
+        "sense_id": 219620,
+        "meaning_vi": "thuộc tính",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1495,
+    "word": "アド",
+    "kana": "アド",
+    "senses": [
+      {
+        "sense_id": 219621,
+        "meaning_vi": "quảng cáo; quảng cáo",
+        "confidence": "high",
+        "search_keywords": [
+          "quảng cáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quảng cáo; quảng cáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1496,
+    "word": "アドベ",
+    "kana": "アドベ",
+    "senses": [
+      {
+        "sense_id": 219622,
+        "meaning_vi": "adobe; gạch không nung",
+        "confidence": "high",
+        "search_keywords": [
+          "adobe",
+          "gạch không nung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "adobe; gạch không nung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1497,
+    "word": "アドインパクト",
+    "kana": "アドインパクト",
+    "senses": [
+      {
+        "sense_id": 219623,
+        "meaning_vi": "tác động của quảng cáo",
+        "confidence": "high",
+        "search_keywords": [
+          "tác động của quảng cáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tác động của quảng cáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

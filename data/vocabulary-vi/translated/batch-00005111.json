@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 122751,
+    "word": "外形寸法",
+    "kana": "がいけいすんぽう",
+    "senses": [
+      {
+        "sense_id": 366373,
+        "meaning_vi": "kích thước bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122752,
+    "word": "外字ファイル",
+    "kana": "がいじファイル",
+    "senses": [
+      {
+        "sense_id": 366374,
+        "meaning_vi": "tập tin ký tự bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin ký tự bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin ký tự bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122753,
+    "word": "外字番号",
+    "kana": "がいじばんごう",
+    "senses": [
+      {
+        "sense_id": 366375,
+        "meaning_vi": "số ký tự bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "số ký tự bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số ký tự bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122754,
+    "word": "外字符号",
+    "kana": "がいじふごう",
+    "senses": [
+      {
+        "sense_id": 366376,
+        "meaning_vi": "mã ký tự bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "mã ký tự bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã ký tự bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122755,
+    "word": "外寸",
+    "kana": "がいすん",
+    "senses": [
+      {
+        "sense_id": 366377,
+        "meaning_vi": "kích thước bên ngoài; kích thước bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước bên ngoài; kích thước bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122756,
+    "word": "外部アクセス",
+    "kana": "がいぶアクセス",
+    "senses": [
+      {
+        "sense_id": 366378,
+        "meaning_vi": "truy cập bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122757,
+    "word": "外部キー",
+    "kana": "がいぶキー",
+    "senses": [
+      {
+        "sense_id": 366379,
+        "meaning_vi": "khóa ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "khóa ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóa ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122758,
+    "word": "外部キャッシュ",
+    "kana": "がいぶキャッシュ",
+    "senses": [
+      {
+        "sense_id": 366380,
+        "meaning_vi": "bộ đệm ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đệm ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đệm ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122759,
+    "word": "外部クロック",
+    "kana": "がいぶクロック",
+    "senses": [
+      {
+        "sense_id": 366381,
+        "meaning_vi": "đồng hồ bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng hồ bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng hồ bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122760,
+    "word": "外部クロック同期",
+    "kana": "がいぶクロックどうき",
+    "senses": [
+      {
+        "sense_id": 366382,
+        "meaning_vi": "đồng hồ bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng hồ bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng hồ bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122761,
+    "word": "外部ゲートウェイプロトコル",
+    "kana": "がいぶゲートウェイプロトコル",
+    "senses": [
+      {
+        "sense_id": 366383,
+        "meaning_vi": "Giao thức cổng bên ngoài; EGP",
+        "confidence": "high",
+        "search_keywords": [
+          "Giao thức cổng bên ngoài",
+          "EGP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giao thức cổng bên ngoài; EGP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122762,
+    "word": "外部コマンド",
+    "kana": "がいぶコマンド",
+    "senses": [
+      {
+        "sense_id": 366384,
+        "meaning_vi": "lệnh bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122763,
+    "word": "外部コンポーネント",
+    "kana": "がいぶコンポーネント",
+    "senses": [
+      {
+        "sense_id": 366385,
+        "meaning_vi": "thành phần bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122764,
+    "word": "外部スイッチ",
+    "kana": "がいぶスイッチ",
+    "senses": [
+      {
+        "sense_id": 366386,
+        "meaning_vi": "công tắc bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "công tắc bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công tắc bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122765,
+    "word": "外部データ",
+    "kana": "がいぶデータ",
+    "senses": [
+      {
+        "sense_id": 366387,
+        "meaning_vi": "dữ liệu bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122766,
+    "word": "外部データレコード",
+    "kana": "がいぶデータレコード",
+    "senses": [
+      {
+        "sense_id": 366388,
+        "meaning_vi": "bản ghi dữ liệu bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "bản ghi dữ liệu bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản ghi dữ liệu bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122767,
+    "word": "外部データ項目",
+    "kana": "がいぶデータこうもく",
+    "senses": [
+      {
+        "sense_id": 366389,
+        "meaning_vi": "mục dữ liệu ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "mục dữ liệu ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục dữ liệu ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122768,
+    "word": "外部ファイル",
+    "kana": "がいぶファイル",
+    "senses": [
+      {
+        "sense_id": 366390,
+        "meaning_vi": "tập tin bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122769,
+    "word": "外部ファイルサービス",
+    "kana": "がいぶファイルサービス",
+    "senses": [
+      {
+        "sense_id": 366391,
+        "meaning_vi": "dịch vụ tập tin bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ tập tin bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ tập tin bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122770,
+    "word": "外部ファイル結合子",
+    "kana": "がいぶファイルけつごうし",
+    "senses": [
+      {
+        "sense_id": 366392,
+        "meaning_vi": "trình kết nối tập tin bên ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "trình kết nối tập tin bên ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình kết nối tập tin bên ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,465 @@
+[
+  {
+    "vocabulary_id": 71238,
+    "word": "教育費",
+    "kana": "きょういくひ",
+    "senses": [
+      {
+        "sense_id": 309425,
+        "meaning_vi": "chi phí giáo dục hoặc trường học",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí giáo dục hoặc trường học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí giáo dục hoặc trường học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71239,
+    "word": "教育課程",
+    "kana": "きょういくかてい",
+    "senses": [
+      {
+        "sense_id": 309426,
+        "meaning_vi": "chương trình giảng dạy",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình giảng dạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình giảng dạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71240,
+    "word": "教卓",
+    "kana": "きょうたく",
+    "senses": [
+      {
+        "sense_id": 309427,
+        "meaning_vi": "bàn giáo viên; bục giảng của giáo viên",
+        "confidence": "high",
+        "search_keywords": [
+          "bàn giáo viên",
+          "bục giảng của giáo viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bàn giáo viên; bục giảng của giáo viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71241,
+    "word": "教法",
+    "kana": "きょうほう",
+    "senses": [
+      {
+        "sense_id": 309428,
+        "meaning_vi": "lời dạy của Đức Phật",
+        "confidence": "high",
+        "search_keywords": [
+          "lời dạy của Đức Phật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời dạy của Đức Phật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 309429,
+        "meaning_vi": "phương pháp giảng dạy; cách giảng dạy",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp giảng dạy",
+          "cách giảng dạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp giảng dạy; cách giảng dạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71242,
+    "word": "教具",
+    "kana": "きょうぐ",
+    "senses": [
+      {
+        "sense_id": 309430,
+        "meaning_vi": "dụng cụ giảng dạy",
+        "confidence": "high",
+        "search_keywords": [
+          "dụng cụ giảng dạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dụng cụ giảng dạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71243,
+    "word": "教門",
+    "kana": "きょうもん",
+    "senses": [
+      {
+        "sense_id": 309431,
+        "meaning_vi": "nghiên cứu lý thuyết Phật giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "nghiên cứu lý thuyết Phật giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghiên cứu lý thuyết Phật giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71244,
+    "word": "教皇庁",
+    "kana": "きょうこうちょう",
+    "senses": [
+      {
+        "sense_id": 309432,
+        "meaning_vi": "Giáo triều",
+        "confidence": "high",
+        "search_keywords": [
+          "Giáo triều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giáo triều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71245,
+    "word": "教則本",
+    "kana": "きょうそくぼん",
+    "senses": [
+      {
+        "sense_id": 309433,
+        "meaning_vi": "thủ công; sách thực hành",
+        "confidence": "high",
+        "search_keywords": [
+          "thủ công",
+          "sách thực hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ công; sách thực hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71246,
+    "word": "教唆者",
+    "kana": "きょうさしゃ",
+    "senses": [
+      {
+        "sense_id": 309434,
+        "meaning_vi": "kẻ xúi giục",
+        "confidence": "high",
+        "search_keywords": [
+          "kẻ xúi giục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẻ xúi giục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71247,
+    "word": "教員組合",
+    "kana": "きょういんくみあい",
+    "senses": [
+      {
+        "sense_id": 309435,
+        "meaning_vi": "hiệp hội giáo viên",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệp hội giáo viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệp hội giáo viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71248,
+    "word": "教案",
+    "kana": "きょうあん",
+    "senses": [
+      {
+        "sense_id": 309436,
+        "meaning_vi": "bài học hoặc kế hoạch giảng dạy",
+        "confidence": "high",
+        "search_keywords": [
+          "bài học hoặc kế hoạch giảng dạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài học hoặc kế hoạch giảng dạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71249,
+    "word": "教訓的",
+    "kana": "きょうくんてき",
+    "senses": [
+      {
+        "sense_id": 309437,
+        "meaning_vi": "mang tính hướng dẫn; mang tính mô phạm",
+        "confidence": "high",
+        "search_keywords": [
+          "mang tính hướng dẫn",
+          "mang tính mô phạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mang tính hướng dẫn; mang tính mô phạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71250,
+    "word": "教授会",
+    "kana": "きょうじゅかい",
+    "senses": [
+      {
+        "sense_id": 309438,
+        "meaning_vi": "cuộc họp khoa",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc họp khoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc họp khoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71251,
+    "word": "教授法",
+    "kana": "きょうじゅほう",
+    "senses": [
+      {
+        "sense_id": 309439,
+        "meaning_vi": "phương pháp giảng dạy; sư phạm",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp giảng dạy",
+          "sư phạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp giảng dạy; sư phạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71252,
+    "word": "教場",
+    "kana": "きょうじょう",
+    "senses": [
+      {
+        "sense_id": 309440,
+        "meaning_vi": "lớp học",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71253,
+    "word": "教程",
+    "kana": "きょうてい",
+    "senses": [
+      {
+        "sense_id": 309441,
+        "meaning_vi": "chương trình giảng dạy; sách giáo khoa",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình giảng dạy",
+          "sách giáo khoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình giảng dạy; sách giáo khoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71254,
+    "word": "教養学部",
+    "kana": "きょうようがくぶ",
+    "senses": [
+      {
+        "sense_id": 309442,
+        "meaning_vi": "khoa nghệ thuật tự do; trường cao đẳng nghệ thuật tự do",
+        "confidence": "high",
+        "search_keywords": [
+          "khoa nghệ thuật tự do",
+          "trường cao đẳng nghệ thuật tự do"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoa nghệ thuật tự do; trường cao đẳng nghệ thuật tự do",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71255,
+    "word": "教養小説",
+    "kana": "きょうようしょうせつ",
+    "senses": [
+      {
+        "sense_id": 309443,
+        "meaning_vi": "tiểu thuyết về trình độ học vấn, sự phát triển tinh thần của một người, v.v.; Bildungsroman",
+        "confidence": "high",
+        "search_keywords": [
+          "tiểu thuyết về trình độ học vấn, sự phát triển tinh thần của một người, v.v.",
+          "Bildungsroman"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiểu thuyết về trình độ học vấn, sự phát triển tinh thần của một người, v.v.; Bildungsroman",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71256,
+    "word": "教範",
+    "kana": "きょうはん",
+    "senses": [
+      {
+        "sense_id": 309444,
+        "meaning_vi": "phương pháp giảng dạy",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp giảng dạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp giảng dạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71257,
+    "word": "教権",
+    "kana": "きょうけん",
+    "senses": [
+      {
+        "sense_id": 309445,
+        "meaning_vi": "cơ quan giáo hội hoặc giáo dục",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ quan giáo hội hoặc giáo dục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ quan giáo hội hoặc giáo dục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

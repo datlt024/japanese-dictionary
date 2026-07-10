@@ -1,0 +1,461 @@
+[
+  {
+    "vocabulary_id": 166145,
+    "word": "混合モデル",
+    "kana": "こんごうモデル",
+    "senses": [
+      {
+        "sense_id": 413501,
+        "meaning_vi": "mô hình hỗn hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình hỗn hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình hỗn hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166146,
+    "word": "一般線形モデル",
+    "kana": "いっぱんせんけいモデル",
+    "senses": [
+      {
+        "sense_id": 413502,
+        "meaning_vi": "mô hình tuyến tính tổng quát",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình tuyến tính tổng quát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình tuyến tính tổng quát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166147,
+    "word": "一般化線形モデル",
+    "kana": "いっぱんかせんけいモデル",
+    "senses": [
+      {
+        "sense_id": 413503,
+        "meaning_vi": "mô hình tuyến tính tổng quát",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình tuyến tính tổng quát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình tuyến tính tổng quát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166148,
+    "word": "対数尤度",
+    "kana": "たいすうゆうど",
+    "senses": [
+      {
+        "sense_id": 413504,
+        "meaning_vi": "khả năng đăng nhập",
+        "confidence": "high",
+        "search_keywords": [
+          "khả năng đăng nhập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khả năng đăng nhập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166149,
+    "word": "行動圏",
+    "kana": "こうどうけん",
+    "senses": [
+      {
+        "sense_id": 413505,
+        "meaning_vi": "phạm vi nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "phạm vi nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phạm vi nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166150,
+    "word": "縄張り行動",
+    "kana": "なわばりこうどう",
+    "senses": [
+      {
+        "sense_id": 413506,
+        "meaning_vi": "hành vi lãnh thổ; hành vi lãnh thổ",
+        "confidence": "high",
+        "search_keywords": [
+          "hành vi lãnh thổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành vi lãnh thổ; hành vi lãnh thổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166151,
+    "word": "育種価",
+    "kana": "いくしゅか",
+    "senses": [
+      {
+        "sense_id": 413507,
+        "meaning_vi": "giá trị chăn nuôi",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị chăn nuôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị chăn nuôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166152,
+    "word": "尤",
+    "kana": "ゆう",
+    "senses": [
+      {
+        "sense_id": 413508,
+        "meaning_vi": "tuyệt vời; xuất sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyệt vời",
+          "xuất sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyệt vời; xuất sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166153,
+    "word": "決定係数",
+    "kana": "けっていけいすう",
+    "senses": [
+      {
+        "sense_id": 413509,
+        "meaning_vi": "hệ số xác định",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số xác định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số xác định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166154,
+    "word": "相律",
+    "kana": "そうりつ",
+    "senses": [
+      {
+        "sense_id": 413510,
+        "meaning_vi": "quy tắc pha",
+        "confidence": "high",
+        "search_keywords": [
+          "quy tắc pha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy tắc pha",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166155,
+    "word": "等分散性",
+    "kana": "とうぶんさんせい",
+    "senses": [
+      {
+        "sense_id": 413511,
+        "meaning_vi": "sự đồng tính luyến ái",
+        "confidence": "high",
+        "search_keywords": [
+          "sự đồng tính luyến ái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự đồng tính luyến ái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166156,
+    "word": "分散性",
+    "kana": "ぶんさんせい",
+    "senses": [
+      {
+        "sense_id": 413512,
+        "meaning_vi": "sự phân tán",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phân tán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phân tán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166157,
+    "word": "不偏分散",
+    "kana": "ふへんぶんさん",
+    "senses": [
+      {
+        "sense_id": 413513,
+        "meaning_vi": "ước tính không thiên vị về phương sai dân số",
+        "confidence": "high",
+        "search_keywords": [
+          "ước tính không thiên vị về phương sai dân số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ước tính không thiên vị về phương sai dân số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166158,
+    "word": "相談室",
+    "kana": "そうだんしつ",
+    "senses": [
+      {
+        "sense_id": 413514,
+        "meaning_vi": "phòng tư vấn; phòng tư vấn; phòng tư vấn; trung tâm tư vấn",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng tư vấn",
+          "trung tâm tư vấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng tư vấn; phòng tư vấn; phòng tư vấn; trung tâm tư vấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166159,
+    "word": "標本分散",
+    "kana": "ひょうほんぶんさん",
+    "senses": [
+      {
+        "sense_id": 413515,
+        "meaning_vi": "phương sai mẫu",
+        "confidence": "high",
+        "search_keywords": [
+          "phương sai mẫu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương sai mẫu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166160,
+    "word": "母分散",
+    "kana": "ぼぶんさん",
+    "senses": [
+      {
+        "sense_id": 413516,
+        "meaning_vi": "phương sai dân số",
+        "confidence": "high",
+        "search_keywords": [
+          "phương sai dân số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương sai dân số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166161,
+    "word": "超音波処理",
+    "kana": "ちょうおんぱしょり",
+    "senses": [
+      {
+        "sense_id": 413517,
+        "meaning_vi": "siêu âm; siêu âm; điều trị siêu âm",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu âm",
+          "điều trị siêu âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu âm; siêu âm; điều trị siêu âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166162,
+    "word": "トランスクリプトーム",
+    "kana": "トランスクリプトーム",
+    "senses": [
+      {
+        "sense_id": 413518,
+        "meaning_vi": "bản ghi chép",
+        "confidence": "high",
+        "search_keywords": [
+          "bản ghi chép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản ghi chép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166163,
+    "word": "マイクロアレイ",
+    "kana": "マイクロアレイ",
+    "senses": [
+      {
+        "sense_id": 413519,
+        "meaning_vi": "mảng vi mô",
+        "confidence": "high",
+        "search_keywords": [
+          "mảng vi mô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mảng vi mô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 166164,
+    "word": "相関図",
+    "kana": "そうかんず",
+    "senses": [
+      {
+        "sense_id": 413520,
+        "meaning_vi": "sơ đồ tương quan; biểu đồ tương quan",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ đồ tương quan",
+          "biểu đồ tương quan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ đồ tương quan; biểu đồ tương quan",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 413521,
+        "meaning_vi": "biểu đồ mối quan hệ (của các nhân vật trong phim truyền hình, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu đồ mối quan hệ (của các nhân vật trong phim truyền hình, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu đồ mối quan hệ (của các nhân vật trong phim truyền hình, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

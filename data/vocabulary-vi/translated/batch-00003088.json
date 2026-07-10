@@ -1,0 +1,601 @@
+[
+  {
+    "vocabulary_id": 78251,
+    "word": "立ち毛",
+    "kana": "たちげ",
+    "senses": [
+      {
+        "sense_id": 317356,
+        "meaning_vi": "cây trồng chưa thu hoạch",
+        "confidence": "high",
+        "search_keywords": [
+          "cây trồng chưa thu hoạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây trồng chưa thu hoạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78252,
+    "word": "立ち木",
+    "kana": "たちき",
+    "senses": [
+      {
+        "sense_id": 317357,
+        "meaning_vi": "cây đứng; gỗ đứng",
+        "confidence": "high",
+        "search_keywords": [
+          "cây đứng",
+          "gỗ đứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây đứng; gỗ đứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78253,
+    "word": "立方根",
+    "kana": "りっぽうこん",
+    "senses": [
+      {
+        "sense_id": 317358,
+        "meaning_vi": "căn bậc ba",
+        "confidence": "high",
+        "search_keywords": [
+          "căn bậc ba"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn bậc ba",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78254,
+    "word": "立て付け",
+    "kana": "たてつけ",
+    "senses": [
+      {
+        "sense_id": 317359,
+        "meaning_vi": "lắp (ví dụ: cửa ra vào, cửa sổ); phù hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "lắp (ví dụ: cửa ra vào, cửa sổ)",
+          "phù hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lắp (ví dụ: cửa ra vào, cửa sổ); phù hợp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317360,
+        "meaning_vi": "kế thừa; tiếp tục; loạt; trình tự",
+        "confidence": "high",
+        "search_keywords": [
+          "kế thừa",
+          "tiếp tục",
+          "loạt",
+          "trình tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kế thừa; tiếp tục; loạt; trình tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78255,
+    "word": "立て石",
+    "kana": "たていし",
+    "senses": [
+      {
+        "sense_id": 317361,
+        "meaning_vi": "cột mốc quan trọng; biển chỉ dẫn bằng đá",
+        "confidence": "high",
+        "search_keywords": [
+          "cột mốc quan trọng",
+          "biển chỉ dẫn bằng đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cột mốc quan trọng; biển chỉ dẫn bằng đá",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317362,
+        "meaning_vi": "đá đứng (ví dụ: trong vườn)",
+        "confidence": "high",
+        "search_keywords": [
+          "đá đứng (ví dụ: trong vườn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đá đứng (ví dụ: trong vườn)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317363,
+        "meaning_vi": "menhir",
+        "confidence": "low",
+        "search_keywords": [
+          "menhir"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "menhir",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78256,
+    "word": "立会い",
+    "kana": "たちあい",
+    "senses": [
+      {
+        "sense_id": 317364,
+        "meaning_vi": "sự hiện diện (ví dụ của một người quan sát); quan sát; người quan sát; nhân chứng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự hiện diện (ví dụ của một người quan sát)",
+          "quan sát",
+          "người quan sát",
+          "nhân chứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự hiện diện (ví dụ của một người quan sát); quan sát; người quan sát; nhân chứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317365,
+        "meaning_vi": "phiên giao dịch (tại một sàn giao dịch)",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên giao dịch (tại một sàn giao dịch)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên giao dịch (tại một sàn giao dịch)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317366,
+        "meaning_vi": "đứng dậy từ tư thế cúi người để lao tới; phí ban đầu; đối mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "đứng dậy từ tư thế cúi người để lao tới",
+          "phí ban đầu",
+          "đối mặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứng dậy từ tư thế cúi người để lao tới; phí ban đầu; đối mặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78257,
+    "word": "立会人",
+    "kana": "たちあいにん",
+    "senses": [
+      {
+        "sense_id": 317367,
+        "meaning_vi": "nhân chứng; người quan sát",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân chứng",
+          "người quan sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân chứng; người quan sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78258,
+    "word": "立会演説",
+    "kana": "たちあいえんぜつ",
+    "senses": [
+      {
+        "sense_id": 317368,
+        "meaning_vi": "bài phát biểu chiến dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "bài phát biểu chiến dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài phát biểu chiến dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78259,
+    "word": "立地",
+    "kana": "りっち",
+    "senses": [
+      {
+        "sense_id": 317369,
+        "meaning_vi": "chọn địa điểm (ví dụ: cho ngành công nghiệp); quyết định một địa điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "chọn địa điểm (ví dụ: cho ngành công nghiệp)",
+          "quyết định một địa điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chọn địa điểm (ví dụ: cho ngành công nghiệp); quyết định một địa điểm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317370,
+        "meaning_vi": "quan điểm; vị trí",
+        "confidence": "high",
+        "search_keywords": [
+          "quan điểm",
+          "vị trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan điểm; vị trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78260,
+    "word": "立地条件",
+    "kana": "りっちじょうけん",
+    "senses": [
+      {
+        "sense_id": 317371,
+        "meaning_vi": "điều kiện của một địa điểm; sự phù hợp của một địa điểm; sự thuận tiện của một vị trí",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện của một địa điểm",
+          "sự phù hợp của một địa điểm",
+          "sự thuận tiện của một vị trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện của một địa điểm; sự phù hợp của một địa điểm; sự thuận tiện của một vị trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78261,
+    "word": "立て行司",
+    "kana": "たてぎょうじ",
+    "senses": [
+      {
+        "sense_id": 317372,
+        "meaning_vi": "trọng tài trưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "trọng tài trưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trọng tài trưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78262,
+    "word": "立ち回り",
+    "kana": "たちまわり",
+    "senses": [
+      {
+        "sense_id": 317373,
+        "meaning_vi": "trận đánh; xô xát",
+        "confidence": "high",
+        "search_keywords": [
+          "trận đánh",
+          "xô xát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận đánh; xô xát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317374,
+        "meaning_vi": "đi dạo; đi dạo xung quanh",
+        "confidence": "high",
+        "search_keywords": [
+          "đi dạo",
+          "đi dạo xung quanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi dạo; đi dạo xung quanh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317375,
+        "meaning_vi": "tiến hành chính mình",
+        "confidence": "high",
+        "search_keywords": [
+          "tiến hành chính mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiến hành chính mình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317376,
+        "meaning_vi": "đi dạo (trong noh, một hành động liên quan đến việc đi vòng quanh sân khấu)",
+        "confidence": "high",
+        "search_keywords": [
+          "đi dạo (trong noh, một hành động liên quan đến việc đi vòng quanh sân khấu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi dạo (trong noh, một hành động liên quan đến việc đi vòng quanh sân khấu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78263,
+    "word": "立身出世",
+    "kana": "りっしんしゅっせ",
+    "senses": [
+      {
+        "sense_id": 317377,
+        "meaning_vi": "thành công trong cuộc sống",
+        "confidence": "high",
+        "search_keywords": [
+          "thành công trong cuộc sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành công trong cuộc sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78264,
+    "word": "立体写真",
+    "kana": "りったいしゃしん",
+    "senses": [
+      {
+        "sense_id": 317378,
+        "meaning_vi": "ảnh lập thể",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh lập thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh lập thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78265,
+    "word": "立体交差",
+    "kana": "りったいこうさ",
+    "senses": [
+      {
+        "sense_id": 317379,
+        "meaning_vi": "đường ngang nhiều tầng (của đường tránh giao cắt); đường ngang hai tầng; nút giao cỏ ba lá; tách lớp",
+        "confidence": "high",
+        "search_keywords": [
+          "đường ngang nhiều tầng (của đường tránh giao cắt)",
+          "đường ngang hai tầng",
+          "nút giao cỏ ba lá",
+          "tách lớp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường ngang nhiều tầng (của đường tránh giao cắt); đường ngang hai tầng; nút giao cỏ ba lá; tách lớp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78266,
+    "word": "立体的",
+    "kana": "りったいてき",
+    "senses": [
+      {
+        "sense_id": 317380,
+        "meaning_vi": "ba chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "ba chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ba chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78267,
+    "word": "立体放送",
+    "kana": "りったいほうそう",
+    "senses": [
+      {
+        "sense_id": 317381,
+        "meaning_vi": "phát sóng âm thanh nổi",
+        "confidence": "high",
+        "search_keywords": [
+          "phát sóng âm thanh nổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát sóng âm thanh nổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78268,
+    "word": "立体映画",
+    "kana": "りったいえいが",
+    "senses": [
+      {
+        "sense_id": 317382,
+        "meaning_vi": "phim ba chiều; phim 3-D",
+        "confidence": "high",
+        "search_keywords": [
+          "phim ba chiều",
+          "phim 3-D"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phim ba chiều; phim 3-D",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78269,
+    "word": "立体音響",
+    "kana": "りったいおんきょう",
+    "senses": [
+      {
+        "sense_id": 317383,
+        "meaning_vi": "âm thanh nổi; âm thanh ba chiều; âm thanh không gian",
+        "confidence": "high",
+        "search_keywords": [
+          "âm thanh nổi",
+          "âm thanh ba chiều",
+          "âm thanh không gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm thanh nổi; âm thanh ba chiều; âm thanh không gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78270,
+    "word": "立体裁断",
+    "kana": "りったいさいだん",
+    "senses": [
+      {
+        "sense_id": 317384,
+        "meaning_vi": "xếp nếp",
+        "confidence": "high",
+        "search_keywords": [
+          "xếp nếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xếp nếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 121280,
+    "word": "プロトコルスタック",
+    "kana": "プロトコルスタック",
+    "senses": [
+      {
+        "sense_id": 364885,
+        "meaning_vi": "ngăn xếp giao thức",
+        "confidence": "high",
+        "search_keywords": [
+          "ngăn xếp giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngăn xếp giao thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121281,
+    "word": "プロトコルデータ単位",
+    "kana": "プロトコルデータたんい",
+    "senses": [
+      {
+        "sense_id": 364886,
+        "meaning_vi": "PDU; Đơn vị dữ liệu giao thức",
+        "confidence": "high",
+        "search_keywords": [
+          "PDU",
+          "Đơn vị dữ liệu giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "PDU; Đơn vị dữ liệu giao thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121282,
+    "word": "プロトコル階層",
+    "kana": "プロトコルかいそう",
+    "senses": [
+      {
+        "sense_id": 364887,
+        "meaning_vi": "phân cấp giao thức",
+        "confidence": "high",
+        "search_keywords": [
+          "phân cấp giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân cấp giao thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121283,
+    "word": "プロトコル機械",
+    "kana": "プロトコルきかい",
+    "senses": [
+      {
+        "sense_id": 364888,
+        "meaning_vi": "Máy giao thức; Thủ tướng",
+        "confidence": "high",
+        "search_keywords": [
+          "Máy giao thức",
+          "Thủ tướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Máy giao thức; Thủ tướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121284,
+    "word": "プロトコル群",
+    "kana": "プロトコルぐん",
+    "senses": [
+      {
+        "sense_id": 364889,
+        "meaning_vi": "bộ giao thức; bộ giao thức",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ giao thức; bộ giao thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121285,
+    "word": "プロトコル実装適合性宣言",
+    "kana": "プロトコルじっそうてきごうせいせんげん",
+    "senses": [
+      {
+        "sense_id": 364890,
+        "meaning_vi": "tuyên bố tuân thủ thực hiện giao thức; HÌNH ẢNH",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên bố tuân thủ thực hiện giao thức",
+          "HÌNH ẢNH"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên bố tuân thủ thực hiện giao thức; HÌNH ẢNH",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121286,
+    "word": "プロトコル適合性試験報告書",
+    "kana": "プロトコルてきごうせいしけんほうこくしょ",
+    "senses": [
+      {
+        "sense_id": 364891,
+        "meaning_vi": "báo cáo kiểm tra sự phù hợp giao thức; PCTR",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo kiểm tra sự phù hợp giao thức",
+          "PCTR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo kiểm tra sự phù hợp giao thức; PCTR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121287,
+    "word": "プロトコル変換",
+    "kana": "プロトコルへんかん",
+    "senses": [
+      {
+        "sense_id": 364892,
+        "meaning_vi": "chuyển đổi giao thức",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi giao thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121288,
+    "word": "プロトタイプシステム",
+    "kana": "プロトタイプシステム",
+    "senses": [
+      {
+        "sense_id": 364893,
+        "meaning_vi": "hệ thống nguyên mẫu",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống nguyên mẫu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống nguyên mẫu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121289,
+    "word": "プロパティエディタ",
+    "kana": "プロパティエディタ",
+    "senses": [
+      {
+        "sense_id": 364894,
+        "meaning_vi": "biên tập thuộc tính",
+        "confidence": "high",
+        "search_keywords": [
+          "biên tập thuộc tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biên tập thuộc tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121290,
+    "word": "プロパティキャッシュ",
+    "kana": "プロパティキャッシュ",
+    "senses": [
+      {
+        "sense_id": 364895,
+        "meaning_vi": "bộ đệm thuộc tính",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đệm thuộc tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đệm thuộc tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121291,
+    "word": "プロパティセット",
+    "kana": "プロパティセット",
+    "senses": [
+      {
+        "sense_id": 364896,
+        "meaning_vi": "tập thuộc tính",
+        "confidence": "high",
+        "search_keywords": [
+          "tập thuộc tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập thuộc tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121292,
+    "word": "プロパティバッグ",
+    "kana": "プロパティバッグ",
+    "senses": [
+      {
+        "sense_id": 364897,
+        "meaning_vi": "túi tài sản",
+        "confidence": "high",
+        "search_keywords": [
+          "túi tài sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "túi tài sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121293,
+    "word": "プロパティマッピング",
+    "kana": "プロパティマッピング",
+    "senses": [
+      {
+        "sense_id": 364898,
+        "meaning_vi": "bản đồ tài sản",
+        "confidence": "high",
+        "search_keywords": [
+          "bản đồ tài sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản đồ tài sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121294,
+    "word": "プロビジョニング",
+    "kana": "プロビジョニング",
+    "senses": [
+      {
+        "sense_id": 364899,
+        "meaning_vi": "cung cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "cung cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cung cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121295,
+    "word": "プロファイル",
+    "kana": "プロファイル",
+    "senses": [
+      {
+        "sense_id": 364900,
+        "meaning_vi": "hồ sơ",
+        "confidence": "high",
+        "search_keywords": [
+          "hồ sơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồ sơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121296,
+    "word": "プロファイルチケット",
+    "kana": "プロファイルチケット",
+    "senses": [
+      {
+        "sense_id": 364901,
+        "meaning_vi": "phiếu hồ sơ",
+        "confidence": "high",
+        "search_keywords": [
+          "phiếu hồ sơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiếu hồ sơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121297,
+    "word": "プロファイルプロパティ",
+    "kana": "プロファイルプロパティ",
+    "senses": [
+      {
+        "sense_id": 364902,
+        "meaning_vi": "thuộc tính hồ sơ",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính hồ sơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính hồ sơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121298,
+    "word": "プロプライエタリ",
+    "kana": "プロプライエタリ",
+    "senses": [
+      {
+        "sense_id": 364903,
+        "meaning_vi": "độc quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "độc quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độc quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121299,
+    "word": "プロポーショナルフォント",
+    "kana": "プロポーショナルフォント",
+    "senses": [
+      {
+        "sense_id": 364904,
+        "meaning_vi": "phông chữ tỷ lệ",
+        "confidence": "high",
+        "search_keywords": [
+          "phông chữ tỷ lệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phông chữ tỷ lệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

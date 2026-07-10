@@ -1,653 +1,610 @@
 [
-{
-"vocabulary_id": 181,
-"word": "お嬢さん",
-"kana": "おじょうさん",
-"senses": [
-{
-"sense_id": 217466,
-"meaning_vi": "con gái anh/chị",
-"confidence": "high",
-"search_keywords": [
-"con gái",
-"ái nữ",
-"con gái anh chị"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "con gái của người khác; cách nói lịch sự",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217467,
-"meaning_vi": "cô gái trẻ",
-"confidence": "high",
-"search_keywords": [
-"cô gái trẻ",
-"thiếu nữ",
-"cô gái"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiếu nữ; cô gái trẻ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 182,
-"word": "お食い初め",
-"kana": "おくいぞめ",
-"senses": [
-{
-"sense_id": 217468,
-"meaning_vi": "lễ okuizome",
-"confidence": "medium",
-"search_keywords": [
-"okuizome",
-"lễ ăn dặm tượng trưng",
-"nghi lễ 100 ngày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghi lễ truyền thống cho trẻ khoảng 100 ngày tuổi, cầu mong không thiếu ăn suốt đời",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 183,
-"word": "お尻",
-"kana": "おしり",
-"senses": [
-{
-"sense_id": 217469,
-"meaning_vi": "mông",
-"confidence": "high",
-"search_keywords": [
-"mông",
-"vòng ba",
-"đít"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mông; phần sau của cơ thể dùng để ngồi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217470,
-"meaning_vi": "rửa hậu môn",
-"confidence": "high",
-"search_keywords": [
-"rửa hậu môn",
-"vòi xịt vệ sinh",
-"chức năng bidet"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chức năng rửa hậu môn trên bảng điều khiển bồn cầu điện tử",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 184,
-"word": "お寝小",
-"kana": "おねしょ",
-"senses": [
-{
-"sense_id": 217471,
-"meaning_vi": "đái dầm",
-"confidence": "high",
-"search_keywords": [
-"đái dầm",
-"tiểu dầm",
-"đái dầm ban đêm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đi tiểu không kiểm soát khi đang ngủ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 185,
-"word": "お新香",
-"kana": "おしんこ",
-"senses": [
-{
-"sense_id": 217472,
-"meaning_vi": "đồ muối chua",
-"confidence": "high",
-"search_keywords": [
-"đồ muối chua",
-"rau củ muối",
-"tsukemono"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rau củ muối chua ăn kèm trong bữa cơm Nhật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 186,
-"word": "お浸し",
-"kana": "おひたし",
-"senses": [
-{
-"sense_id": 217473,
-"meaning_vi": "ohitashi",
-"confidence": "medium",
-"search_keywords": [
-"ohitashi",
-"rau luộc nước tương",
-"món rau Nhật"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "món rau luộc trộn hoặc ngâm nước tương dashi kiểu Nhật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 187,
-"word": "お神酒",
-"kana": "おみき",
-"senses": [
-{
-"sense_id": 217474,
-"meaning_vi": "rượu cúng thần",
-"confidence": "high",
-"search_keywords": [
-"rượu cúng thần",
-"rượu tế lễ",
-"sake cúng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rượu sake dâng cúng thần linh trong nghi lễ Thần đạo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217475,
-"meaning_vi": "rượu sake",
-"confidence": "high",
-"search_keywords": [
-"rượu sake",
-"sake",
-"rượu Nhật"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi đùa hoặc trang trọng của rượu sake",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 188,
-"word": "お尋ね者",
-"kana": "おたずねもの",
-"senses": [
-{
-"sense_id": 217476,
-"meaning_vi": "tội phạm truy nã",
-"confidence": "high",
-"search_keywords": [
-"tội phạm truy nã",
-"người bị truy nã",
-"kẻ đào tẩu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người đang bị cảnh sát truy nã hoặc truy tìm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 189,
-"word": "お世辞",
-"kana": "おせじ",
-"senses": [
-{
-"sense_id": 217477,
-"meaning_vi": "nịnh nọt",
-"confidence": "high",
-"search_keywords": [
-"nịnh nọt",
-"lời nịnh",
-"khen xã giao"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lời khen nhằm lấy lòng; lời tâng bốc; xã giao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 190,
-"word": "お世話になる",
-"kana": "おせわになる",
-"senses": [
-{
-"sense_id": 217478,
-"meaning_vi": "được giúp đỡ",
-"confidence": "high",
-"search_keywords": [
-"được giúp đỡ",
-"được chăm sóc",
-"mang ơn",
-"chịu ơn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhận được sự giúp đỡ, chăm sóc hoặc hỗ trợ; thường dùng để bày tỏ lòng biết ơn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 191,
-"word": "お生憎様",
-"kana": "おあいにくさま",
-"senses": [
-{
-"sense_id": 217479,
-"meaning_vi": "rất tiếc",
-"confidence": "high",
-"search_keywords": [
-"rất tiếc",
-"xin lỗi",
-"đáng tiếc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách nói lịch sự khi từ chối hoặc thông báo tin không mong muốn",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217480,
-"meaning_vi": "đáng đời nhé",
-"confidence": "high",
-"search_keywords": [
-"đáng đời nhé",
-"xui cho anh",
-"chịu thôi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách nói mỉa mai mang ý 'xui cho anh rồi'",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 192,
-"word": "お先に",
-"kana": "おさきに",
-"senses": [
-{
-"sense_id": 217481,
-"meaning_vi": "trước đó",
-"confidence": "high",
-"search_keywords": [
-"trước đó",
-"trước",
-"sớm hơn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ở thời điểm trước; trước đó",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217482,
-"meaning_vi": "đi trước",
-"confidence": "high",
-"search_keywords": [
-"đi trước",
-"ở phía trước",
-"đi ahead"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ở phía trước; đi trước người khác",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217483,
-"meaning_vi": "xin phép về trước",
-"confidence": "high",
-"search_keywords": [
-"xin phép về trước",
-"tôi về trước nhé",
-"ra về trước"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "câu lịch sự dùng khi rời đi trước người khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 193,
-"word": "お前",
-"kana": "おまえ",
-"senses": [
-{
-"sense_id": 217484,
-"meaning_vi": "mày",
-"confidence": "high",
-"search_keywords": [
-"mày",
-"cậu",
-"anh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đại từ ngôi thứ hai rất thân mật, chủ yếu do nam giới dùng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217485,
-"meaning_vi": "trước mặt",
-"confidence": "medium",
-"search_keywords": [
-"trước mặt",
-"phía trước",
-"trước điện thờ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phía trước thần linh, quý tộc hoặc người có địa vị cao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 194,
-"word": "お前さん",
-"kana": "おまえさん",
-"senses": [
-{
-"sense_id": 217486,
-"meaning_vi": "ông",
-"confidence": "medium",
-"search_keywords": [
-"ông",
-"anh",
-"bạn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi người đối diện mang sắc thái lịch sự hoặc cổ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217487,
-"meaning_vi": "ông xã",
-"confidence": "high",
-"search_keywords": [
-"ông xã",
-"chồng yêu",
-"mình ơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi thân mật dành cho chồng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 195,
-"word": "お膳",
-"kana": "おぜん",
-"senses": [
-{
-"sense_id": 217488,
-"meaning_vi": "mâm thức ăn",
-"confidence": "medium",
-"search_keywords": [
-"mâm thức ăn",
-"khay thức ăn",
-"mâm lễ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khay hoặc mâm thấp có chân dùng để bày món ăn trong dịp lễ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 196,
-"word": "お祖父さん",
-"kana": "おじいさん",
-"senses": [
-{
-"sense_id": 217489,
-"meaning_vi": "ông nội",
-"confidence": "high",
-"search_keywords": [
-"ông nội",
-"ông ngoại",
-"ông"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ông; cách gọi hoặc nhắc đến ông của ai đó",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217490,
-"meaning_vi": "ông lão",
-"confidence": "high",
-"search_keywords": [
-"ông lão",
-"cụ ông",
-"người già"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người đàn ông cao tuổi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 197,
-"word": "お祖母さん",
-"kana": "おばあさん",
-"senses": [
-{
-"sense_id": 217491,
-"meaning_vi": "bà nội",
-"confidence": "high",
-"search_keywords": [
-"bà nội",
-"bà ngoại",
-"bà"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bà; cách gọi hoặc nhắc đến bà của ai đó",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217492,
-"meaning_vi": "bà lão",
-"confidence": "high",
-"search_keywords": [
-"bà lão",
-"cụ bà",
-"người già"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người phụ nữ cao tuổi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 198,
-"word": "お早うございます",
-"kana": "おはようございます",
-"senses": [
-{
-"sense_id": 217493,
-"meaning_vi": "chào buổi sáng",
-"confidence": "high",
-"search_keywords": [
-"chào buổi sáng",
-"chào sáng",
-"good morning"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lời chào lịch sự vào buổi sáng; trong một số ngành nghề còn dùng vào thời điểm khác trong ngày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 199,
-"word": "お孫さん",
-"kana": "おまごさん",
-"senses": [
-{
-"sense_id": 217494,
-"meaning_vi": "cháu của anh/chị",
-"confidence": "high",
-"search_keywords": [
-"cháu",
-"cháu nội",
-"cháu ngoại"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách nói kính trọng về cháu của người khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 200,
-"word": "お待ちどおさま",
-"kana": "おまちどおさま",
-"senses": [
-{
-"sense_id": 217495,
-"meaning_vi": "xin lỗi đã để chờ",
-"confidence": "high",
-"search_keywords": [
-"xin lỗi đã để chờ",
-"cảm ơn đã đợi",
-"đợi lâu rồi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "câu nói với người đã phải chờ đợi mình",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 181,
+    "word": "お嬢さん",
+    "kana": "おじょうさん",
+    "senses": [
+      {
+        "sense_id": 217466,
+        "meaning_vi": "con gái (của người khác)",
+        "confidence": "high",
+        "search_keywords": [
+          "con gái (của người khác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con gái (của người khác)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217467,
+        "meaning_vi": "cô gái trẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "cô gái trẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cô gái trẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 182,
+    "word": "お食い初め",
+    "kana": "おくいぞめ",
+    "senses": [
+      {
+        "sense_id": 217468,
+        "meaning_vi": "okuizome; lễ cai sữa; Bữa cơm cúng cho trẻ sơ sinh 100 ngày tuổi",
+        "confidence": "high",
+        "search_keywords": [
+          "okuizome",
+          "lễ cai sữa",
+          "Bữa cơm cúng cho trẻ sơ sinh 100 ngày tuổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "okuizome; lễ cai sữa; Bữa cơm cúng cho trẻ sơ sinh 100 ngày tuổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 183,
+    "word": "お尻",
+    "kana": "おしり",
+    "senses": [
+      {
+        "sense_id": 217469,
+        "meaning_vi": "đáy; mông",
+        "confidence": "high",
+        "search_keywords": [
+          "đáy",
+          "mông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáy; mông",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217470,
+        "meaning_vi": "chức năng bidet (để làm sạch hậu môn)",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng bidet (để làm sạch hậu môn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng bidet (để làm sạch hậu môn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 184,
+    "word": "お寝小",
+    "kana": "おねしょ",
+    "senses": [
+      {
+        "sense_id": 217471,
+        "meaning_vi": "đái dầm",
+        "confidence": "high",
+        "search_keywords": [
+          "đái dầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đái dầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 185,
+    "word": "お新香",
+    "kana": "おしんこ",
+    "senses": [
+      {
+        "sense_id": 217472,
+        "meaning_vi": "rau muối; dưa chua",
+        "confidence": "high",
+        "search_keywords": [
+          "rau muối",
+          "dưa chua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rau muối; dưa chua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 186,
+    "word": "お浸し",
+    "kana": "おひたし",
+    "senses": [
+      {
+        "sense_id": 217473,
+        "meaning_vi": "rau luộc trong nước tương vị cá ngừ (món rau ăn kèm)",
+        "confidence": "high",
+        "search_keywords": [
+          "rau luộc trong nước tương vị cá ngừ (món rau ăn kèm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rau luộc trong nước tương vị cá ngừ (món rau ăn kèm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187,
+    "word": "お神酒",
+    "kana": "おみき",
+    "senses": [
+      {
+        "sense_id": 217474,
+        "meaning_vi": "rượu thiêng; lợi ích thiêng liêng; rượu sake dâng lên các vị thần",
+        "confidence": "high",
+        "search_keywords": [
+          "rượu thiêng",
+          "lợi ích thiêng liêng",
+          "rượu sake dâng lên các vị thần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rượu thiêng; lợi ích thiêng liêng; rượu sake dâng lên các vị thần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217475,
+        "meaning_vi": "vì lợi ích",
+        "confidence": "high",
+        "search_keywords": [
+          "vì lợi ích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vì lợi ích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 188,
+    "word": "お尋ね者",
+    "kana": "おたずねもの",
+    "senses": [
+      {
+        "sense_id": 217476,
+        "meaning_vi": "người bị cảnh sát truy lùng; người bị truy nã; kẻ chạy trốn công lý",
+        "confidence": "high",
+        "search_keywords": [
+          "người bị cảnh sát truy lùng",
+          "người bị truy nã",
+          "kẻ chạy trốn công lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người bị cảnh sát truy lùng; người bị truy nã; kẻ chạy trốn công lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 189,
+    "word": "お世辞",
+    "kana": "おせじ",
+    "senses": [
+      {
+        "sense_id": 217477,
+        "meaning_vi": "nịnh nọt; khen ngợi",
+        "confidence": "high",
+        "search_keywords": [
+          "nịnh nọt",
+          "khen ngợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nịnh nọt; khen ngợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 190,
+    "word": "お世話になる",
+    "kana": "おせわになる",
+    "senses": [
+      {
+        "sense_id": 217478,
+        "meaning_vi": "để nhận được sự ưu ái; để nhận được sự hỗ trợ; để nhận được sự giúp đỡ; được chăm sóc; được chăm sóc; trở nên phụ thuộc (vào); trở nên có ơn nhiều (với ai đó); trở nên mắc nợ",
+        "confidence": "high",
+        "search_keywords": [
+          "để nhận được sự ưu ái",
+          "để nhận được sự hỗ trợ",
+          "để nhận được sự giúp đỡ",
+          "được chăm sóc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nhận được sự ưu ái; để nhận được sự hỗ trợ; để nhận được sự giúp đỡ; được chăm sóc; được chăm sóc; trở nên phụ thuộc (vào); trở nên có ơn nhiều (với ai đó); trở nên mắc nợ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 191,
+    "word": "お生憎様",
+    "kana": "おあいにくさま",
+    "senses": [
+      {
+        "sense_id": 217479,
+        "meaning_vi": "xin lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "xin lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xin lỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217480,
+        "meaning_vi": "quá tệ (đối với bạn)!; thật may mắn!",
+        "confidence": "high",
+        "search_keywords": [
+          "quá tệ (đối với bạn)!",
+          "thật may mắn!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá tệ (đối với bạn)!; thật may mắn!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 192,
+    "word": "お先に",
+    "kana": "おさきに",
+    "senses": [
+      {
+        "sense_id": 217481,
+        "meaning_vi": "trước; trước đó",
+        "confidence": "high",
+        "search_keywords": [
+          "trước",
+          "trước đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trước; trước đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217482,
+        "meaning_vi": "phía trước",
+        "confidence": "high",
+        "search_keywords": [
+          "phía trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phía trước",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217483,
+        "meaning_vi": "thứ lỗi cho tôi vì đã rời đi (trước bạn)",
+        "confidence": "high",
+        "search_keywords": [
+          "thứ lỗi cho tôi vì đã rời đi (trước bạn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thứ lỗi cho tôi vì đã rời đi (trước bạn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 193,
+    "word": "お前",
+    "kana": "おまえ",
+    "senses": [
+      {
+        "sense_id": 217484,
+        "meaning_vi": "bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217485,
+        "meaning_vi": "trước (một vị thần, một nhà quý tộc, v.v.); trước mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "trước (một vị thần, một nhà quý tộc, v.v.)",
+          "trước mặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trước (một vị thần, một nhà quý tộc, v.v.); trước mặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 194,
+    "word": "お前さん",
+    "kana": "おまえさん",
+    "senses": [
+      {
+        "sense_id": 217486,
+        "meaning_vi": "bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217487,
+        "meaning_vi": "chồng; em yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "chồng",
+          "em yêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chồng; em yêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 195,
+    "word": "お膳",
+    "kana": "おぜん",
+    "senses": [
+      {
+        "sense_id": 217488,
+        "meaning_vi": "khay bốn chân đựng đồ ăn lễ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "khay bốn chân đựng đồ ăn lễ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khay bốn chân đựng đồ ăn lễ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 196,
+    "word": "お祖父さん",
+    "kana": "おじいさん",
+    "senses": [
+      {
+        "sense_id": 217489,
+        "meaning_vi": "ông nội",
+        "confidence": "high",
+        "search_keywords": [
+          "ông nội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ông nội",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217490,
+        "meaning_vi": "nam công dân cao tuổi; ông già",
+        "confidence": "high",
+        "search_keywords": [
+          "nam công dân cao tuổi",
+          "ông già"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nam công dân cao tuổi; ông già",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197,
+    "word": "お祖母さん",
+    "kana": "おばあさん",
+    "senses": [
+      {
+        "sense_id": 217491,
+        "meaning_vi": "bà nội",
+        "confidence": "high",
+        "search_keywords": [
+          "bà nội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bà nội",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217492,
+        "meaning_vi": "bà già; nữ công dân cao tuổi",
+        "confidence": "high",
+        "search_keywords": [
+          "bà già",
+          "nữ công dân cao tuổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bà già; nữ công dân cao tuổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 198,
+    "word": "お早うございます",
+    "kana": "おはようございます",
+    "senses": [
+      {
+        "sense_id": 217493,
+        "meaning_vi": "chào buổi sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "chào buổi sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chào buổi sáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 199,
+    "word": "お孫さん",
+    "kana": "おまごさん",
+    "senses": [
+      {
+        "sense_id": 217494,
+        "meaning_vi": "cháu nội",
+        "confidence": "high",
+        "search_keywords": [
+          "cháu nội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cháu nội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200,
+    "word": "お待ちどおさま",
+    "kana": "おまちどおさま",
+    "senses": [
+      {
+        "sense_id": 217495,
+        "meaning_vi": "Tôi xin lỗi vì đã để bạn phải chờ đợi",
+        "confidence": "high",
+        "search_keywords": [
+          "Tôi xin lỗi vì đã để bạn phải chờ đợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tôi xin lỗi vì đã để bạn phải chờ đợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

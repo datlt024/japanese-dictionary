@@ -1,0 +1,578 @@
+[
+  {
+    "vocabulary_id": 40001,
+    "word": "潮時",
+    "kana": "しおどき",
+    "senses": [
+      {
+        "sense_id": 269411,
+        "meaning_vi": "giờ thủy triều",
+        "confidence": "high",
+        "search_keywords": [
+          "giờ thủy triều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giờ thủy triều",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269412,
+        "meaning_vi": "đúng thời điểm (để làm điều gì đó); cơ hội; cơ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "đúng thời điểm (để làm điều gì đó)",
+          "cơ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đúng thời điểm (để làm điều gì đó); cơ hội; cơ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40002,
+    "word": "潮汐",
+    "kana": "ちょうせき",
+    "senses": [
+      {
+        "sense_id": 269413,
+        "meaning_vi": "thủy triều",
+        "confidence": "high",
+        "search_keywords": [
+          "thủy triều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủy triều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40003,
+    "word": "潮吹き",
+    "kana": "しおふき",
+    "senses": [
+      {
+        "sense_id": 269414,
+        "meaning_vi": "phun ra (của một con cá voi); thổi (nước và không khí)",
+        "confidence": "high",
+        "search_keywords": [
+          "phun ra (của một con cá voi)",
+          "thổi (nước và không khí)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phun ra (của một con cá voi); thổi (nước và không khí)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269415,
+        "meaning_vi": "Mactra veneriformis (loài vỏ máng)",
+        "confidence": "high",
+        "search_keywords": [
+          "Mactra veneriformis (loài vỏ máng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mactra veneriformis (loài vỏ máng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269416,
+        "meaning_vi": "xuất tinh nữ; xuất tinh",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất tinh nữ",
+          "xuất tinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất tinh nữ; xuất tinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40004,
+    "word": "潮騒",
+    "kana": "しおさい",
+    "senses": [
+      {
+        "sense_id": 269417,
+        "meaning_vi": "tiếng gầm của biển; âm thanh của sóng",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng gầm của biển",
+          "âm thanh của sóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng gầm của biển; âm thanh của sóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40005,
+    "word": "潮風",
+    "kana": "しおかぜ",
+    "senses": [
+      {
+        "sense_id": 269418,
+        "meaning_vi": "gió biển; gió mặn; không khí mặn",
+        "confidence": "high",
+        "search_keywords": [
+          "gió biển",
+          "gió mặn",
+          "không khí mặn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gió biển; gió mặn; không khí mặn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40006,
+    "word": "潮流",
+    "kana": "ちょうりゅう",
+    "senses": [
+      {
+        "sense_id": 269419,
+        "meaning_vi": "thủy triều; dòng thủy triều",
+        "confidence": "high",
+        "search_keywords": [
+          "thủy triều",
+          "dòng thủy triều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủy triều; dòng thủy triều",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269420,
+        "meaning_vi": "xu hướng; trôi dạt; xu hướng",
+        "confidence": "high",
+        "search_keywords": [
+          "xu hướng",
+          "trôi dạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xu hướng; trôi dạt; xu hướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40007,
+    "word": "町家",
+    "kana": "まちや",
+    "senses": [
+      {
+        "sense_id": 269421,
+        "meaning_vi": "machiya; nhà phố gỗ truyền thống",
+        "confidence": "high",
+        "search_keywords": [
+          "machiya",
+          "nhà phố gỗ truyền thống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "machiya; nhà phố gỗ truyền thống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269422,
+        "meaning_vi": "nhà của người buôn bán (đặc biệt là nhà có cửa hàng phía trước); nhà của thương gia; gia đình thương gia",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà của người buôn bán (đặc biệt là nhà có cửa hàng phía trước)",
+          "nhà của thương gia",
+          "gia đình thương gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà của người buôn bán (đặc biệt là nhà có cửa hàng phía trước); nhà của thương gia; gia đình thương gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40008,
+    "word": "町会",
+    "kana": "ちょうかい",
+    "senses": [
+      {
+        "sense_id": 269423,
+        "meaning_vi": "hội đồng thị trấn",
+        "confidence": "high",
+        "search_keywords": [
+          "hội đồng thị trấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội đồng thị trấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40009,
+    "word": "町外れ",
+    "kana": "まちはずれ",
+    "senses": [
+      {
+        "sense_id": 269424,
+        "meaning_vi": "vùng ngoại ô (của một thị trấn); rìa (của một thị trấn); ngay bên ngoài giới hạn thành phố",
+        "confidence": "high",
+        "search_keywords": [
+          "vùng ngoại ô (của một thị trấn)",
+          "rìa (của một thị trấn)",
+          "ngay bên ngoài giới hạn thành phố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vùng ngoại ô (của một thị trấn); rìa (của một thị trấn); ngay bên ngoài giới hạn thành phố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40010,
+    "word": "町人",
+    "kana": "ちょうにん",
+    "senses": [
+      {
+        "sense_id": 269425,
+        "meaning_vi": "chōnin (tầng lớp xã hội thời Edo gồm những thường dân sống ở thị trấn, đặc biệt là thương nhân địa chủ); người dân thị trấn; người dân thị trấn; người buôn bán",
+        "confidence": "high",
+        "search_keywords": [
+          "chōnin (tầng lớp xã hội thời Edo gồm những thường dân sống ở thị trấn, đặc biệt là thương nhân địa chủ)",
+          "người dân thị trấn",
+          "người buôn bán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chōnin (tầng lớp xã hội thời Edo gồm những thường dân sống ở thị trấn, đặc biệt là thương nhân địa chủ); người dân thị trấn; người dân thị trấn; người buôn bán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40011,
+    "word": "町村",
+    "kana": "ちょうそん",
+    "senses": [
+      {
+        "sense_id": 269426,
+        "meaning_vi": "thị trấn và làng mạc",
+        "confidence": "high",
+        "search_keywords": [
+          "thị trấn và làng mạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thị trấn và làng mạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40012,
+    "word": "町長",
+    "kana": "ちょうちょう",
+    "senses": [
+      {
+        "sense_id": 269427,
+        "meaning_vi": "thị trưởng thị trấn",
+        "confidence": "high",
+        "search_keywords": [
+          "thị trưởng thị trấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thị trưởng thị trấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40013,
+    "word": "町内",
+    "kana": "ちょうない",
+    "senses": [
+      {
+        "sense_id": 269428,
+        "meaning_vi": "hàng xóm; hàng xóm; đường phố; khối; thị trấn",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng xóm",
+          "đường phố",
+          "khối",
+          "thị trấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng xóm; hàng xóm; đường phố; khối; thị trấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40014,
+    "word": "町歩",
+    "kana": "ちょうぶ",
+    "senses": [
+      {
+        "sense_id": 269429,
+        "meaning_vi": "ha (2,471 mẫu Anh)",
+        "confidence": "high",
+        "search_keywords": [
+          "ha (2,471 mẫu Anh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ha (2,471 mẫu Anh)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40015,
+    "word": "町民",
+    "kana": "ちょうみん",
+    "senses": [
+      {
+        "sense_id": 269430,
+        "meaning_vi": "người dân thị trấn; bà thị trấn; cư dân của một thị trấn; người dân thị trấn; người dân thị trấn",
+        "confidence": "high",
+        "search_keywords": [
+          "người dân thị trấn",
+          "bà thị trấn",
+          "cư dân của một thị trấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người dân thị trấn; bà thị trấn; cư dân của một thị trấn; người dân thị trấn; người dân thị trấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40016,
+    "word": "眺める",
+    "kana": "ながめる",
+    "senses": [
+      {
+        "sense_id": 269431,
+        "meaning_vi": "nhìn vào; nhìn vào; để xem; nhìn chằm chằm vào",
+        "confidence": "high",
+        "search_keywords": [
+          "nhìn vào",
+          "để xem",
+          "nhìn chằm chằm vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhìn vào; nhìn vào; để xem; nhìn chằm chằm vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269432,
+        "meaning_vi": "để nhìn ra ngoài; để có được một cái nhìn về; để ngưỡng mộ (ví dụ: phong cảnh)",
+        "confidence": "high",
+        "search_keywords": [
+          "để nhìn ra ngoài",
+          "để có được một cái nhìn về",
+          "để ngưỡng mộ (ví dụ: phong cảnh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nhìn ra ngoài; để có được một cái nhìn về; để ngưỡng mộ (ví dụ: phong cảnh)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269433,
+        "meaning_vi": "để nhìn vào (từ bên lề); đứng bên cạnh và quan sát; quan sát",
+        "confidence": "high",
+        "search_keywords": [
+          "để nhìn vào (từ bên lề)",
+          "đứng bên cạnh và quan sát",
+          "quan sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nhìn vào (từ bên lề); đứng bên cạnh và quan sát; quan sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40017,
+    "word": "眺望",
+    "kana": "ちょうぼう",
+    "senses": [
+      {
+        "sense_id": 269434,
+        "meaning_vi": "xem; tầm nhìn; toàn cảnh; triển vọng; triển vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "xem",
+          "tầm nhìn",
+          "toàn cảnh",
+          "triển vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem; tầm nhìn; toàn cảnh; triển vọng; triển vọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40018,
+    "word": "聴き込む",
+    "kana": "ききこむ",
+    "senses": [
+      {
+        "sense_id": 269435,
+        "meaning_vi": "chăm chú lắng nghe; tập trung vào (âm nhạc, lời nói...)",
+        "confidence": "high",
+        "search_keywords": [
+          "chăm chú lắng nghe",
+          "tập trung vào (âm nhạc, lời nói...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chăm chú lắng nghe; tập trung vào (âm nhạc, lời nói...)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40019,
+    "word": "聴解",
+    "kana": "ちょうかい",
+    "senses": [
+      {
+        "sense_id": 269436,
+        "meaning_vi": "nghe hiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "nghe hiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghe hiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40020,
+    "word": "聴覚",
+    "kana": "ちょうかく",
+    "senses": [
+      {
+        "sense_id": 269437,
+        "meaning_vi": "(cảm giác) thính giác; nhận thức thính giác",
+        "confidence": "high",
+        "search_keywords": [
+          "(cảm giác) thính giác",
+          "nhận thức thính giác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cảm giác) thính giác; nhận thức thính giác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

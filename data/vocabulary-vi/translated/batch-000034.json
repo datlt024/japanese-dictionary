@@ -1,407 +1,648 @@
 [
-{
-"vocabulary_id": 1078,
-"word": "見す見す",
-"kana": "みすみす",
-"senses": [
-{
-"sense_id": 219072,
-"meaning_vi": "trơ mắt nhìn",
-"confidence": "high",
-"search_keywords": [
-"trơ mắt nhìn",
-"đành bất lực",
-"ngay trước mắt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đành bất lực nhìn sự việc xảy ra ngay trước mắt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1079,
-"word": "ミンミン",
-"kana": "ミンミン",
-"senses": [
-{
-"sense_id": 219073,
-"meaning_vi": "ve kêu râm ran",
-"confidence": "high",
-"search_keywords": [
-"tiếng ve",
-"râm ran"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiếng ve kêu râm ran",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1080,
-"word": "ミンミン蝉",
-"kana": "ミンミンゼミ",
-"senses": [
-{
-"sense_id": 219074,
-"meaning_vi": "ve Minmin",
-"confidence": "medium",
-"search_keywords": [
-"ve Minmin",
-"ve sầu Nhật Bản"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loài ve Minmin của Nhật Bản",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1081,
-"word": "み使い",
-"kana": "みつかい",
-"senses": [
-{
-"sense_id": 219075,
-"meaning_vi": "thiên sứ",
-"confidence": "high",
-"search_keywords": [
-"thiên thần",
-"thiên sứ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiên sứ trong Kitô giáo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1082,
-"word": "むかつく",
-"kana": "むかつく",
-"senses": [
-{
-"sense_id": 219076,
-"meaning_vi": "bực mình",
-"confidence": "high",
-"search_keywords": [
-"cáu",
-"bực tức",
-"khó chịu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm thấy bực tức; nổi cáu",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219077,
-"meaning_vi": "buồn nôn",
-"confidence": "high",
-"search_keywords": [
-"buồn nôn",
-"khó chịu dạ dày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm thấy buồn nôn; khó chịu trong bụng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1083,
-"word": "ムカムカ",
-"kana": "ムカムカ",
-"senses": [
-{
-"sense_id": 219078,
-"meaning_vi": "nôn nao",
-"confidence": "high",
-"search_keywords": [
-"buồn nôn",
-"nôn nao"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm giác buồn nôn; khó chịu trong dạ dày",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219079,
-"meaning_vi": "bực bội",
-"confidence": "high",
-"search_keywords": [
-"bực bội",
-"khó chịu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm thấy tức giận hoặc khó chịu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1084,
-"word": "向きになる",
-"kana": "ムキになる",
-"senses": [
-{
-"sense_id": 219080,
-"meaning_vi": "nóng máu",
-"confidence": "high",
-"search_keywords": [
-"nghiêm túc quá mức",
-"nóng máu",
-"cáu thật"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trở nên quá nghiêm túc hoặc nổi nóng vì chuyện nhỏ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1085,
-"word": "剥れる",
-"kana": "むくれる",
-"senses": [
-{
-"sense_id": 219081,
-"meaning_vi": "hờn dỗi",
-"confidence": "high",
-"search_keywords": [
-"giận dỗi",
-"phật ý"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giận dỗi; mặt nặng mày nhẹ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219082,
-"meaning_vi": "bong ra",
-"confidence": "high",
-"search_keywords": [
-"tróc ra",
-"bóc ra"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lớp bên ngoài bị bong hoặc tróc ra",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1086,
-"word": "鼯鼠",
-"kana": "むささび",
-"senses": [
-{
-"sense_id": 219083,
-"meaning_vi": "sóc bay khổng lồ",
-"confidence": "medium",
-"search_keywords": [
-"sóc bay",
-"sóc bay Nhật Bản"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sóc bay khổng lồ Nhật Bản",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1087,
-"word": "ムズムズ",
-"kana": "ムズムズ",
-"senses": [
-{
-"sense_id": 219084,
-"meaning_vi": "ngứa ngáy",
-"confidence": "high",
-"search_keywords": [
-"ngứa",
-"khó chịu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm giác ngứa ngáy hoặc khó chịu",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219085,
-"meaning_vi": "nôn nóng",
-"confidence": "high",
-"search_keywords": [
-"nôn nóng",
-"háo hức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rất muốn làm điều gì đó ngay lập tức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1088,
-"word": "無駄にする",
-"kana": "むだにする",
-"senses": [
-{
-"sense_id": 219086,
-"meaning_vi": "lãng phí",
-"confidence": "high",
-"search_keywords": [
-"lãng phí",
-"uổng phí"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không tận dụng được; làm trở nên vô ích",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1089,
-"word": "むっつり",
-"kana": "むっつり",
-"senses": [
-{
-"sense_id": 219087,
-"meaning_vi": "lầm lì",
-"confidence": "high",
-"search_keywords": [
-"ít nói",
-"u sầu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "im lặng; mặt mày cau có; ít nói",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219088,
-"meaning_vi": "người ít nói",
-"confidence": "high",
-"search_keywords": [
-"người ít nói",
-"người lầm lì"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người trầm lặng, ít giao tiếp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1090,
-"word": "むにゃむにゃ",
-"kana": "むにゃむにゃ",
-"senses": [
-{
-"sense_id": 219089,
-"meaning_vi": "lẩm bẩm",
-"confidence": "high",
-"search_keywords": [
-"lẩm bẩm",
-"nói ú ớ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nói lẩm bẩm khó nghe rõ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1091,
-"word": "むんむん",
-"kana": "むんむん",
-"senses": [
-{
-"sense_id": 219090,
-"meaning_vi": "ngột ngạt",
-"confidence": "high",
-"search_keywords": [
-"oi bức",
-"hầm hập"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không khí nóng và ngột ngạt",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1078,
+    "word": "見す見す",
+    "kana": "みすみす",
+    "senses": [
+      {
+        "sense_id": 219072,
+        "meaning_vi": "trước mắt chính mình; từ ngay dưới mũi của một người; mà không làm gì cả; không có sức đề kháng; bất lực; cẩu thả ; cố ý",
+        "confidence": "high",
+        "search_keywords": [
+          "trước mắt chính mình",
+          "từ ngay dưới mũi của một người",
+          "mà không làm gì cả",
+          "không có sức đề kháng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trước mắt chính mình; từ ngay dưới mũi của một người; mà không làm gì cả; không có sức đề kháng; bất lực; cẩu thả ; cố ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1079,
+    "word": "ミンミン",
+    "kana": "ミンミン",
+    "senses": [
+      {
+        "sense_id": 219073,
+        "meaning_vi": "buzz buzz (âm thanh của ve sầu mạnh mẽ)",
+        "confidence": "high",
+        "search_keywords": [
+          "buzz buzz (âm thanh của ve sầu mạnh mẽ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buzz buzz (âm thanh của ve sầu mạnh mẽ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1080,
+    "word": "ミンミン蝉",
+    "kana": "ミンミンゼミ",
+    "senses": [
+      {
+        "sense_id": 219074,
+        "meaning_vi": "ve sầu khỏe mạnh (Oncotympana maculaticollis); ve sầu trộn lẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "ve sầu khỏe mạnh (Oncotympana maculaticollis)",
+          "ve sầu trộn lẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ve sầu khỏe mạnh (Oncotympana maculaticollis); ve sầu trộn lẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1081,
+    "word": "み使い",
+    "kana": "みつかい",
+    "senses": [
+      {
+        "sense_id": 219075,
+        "meaning_vi": "thiên thần",
+        "confidence": "high",
+        "search_keywords": [
+          "thiên thần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiên thần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1082,
+    "word": "むかつく",
+    "kana": "むかつく",
+    "senses": [
+      {
+        "sense_id": 219076,
+        "meaning_vi": "cảm thấy khó chịu; cảm thấy bị xúc phạm; cảm thấy tức giận",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm thấy khó chịu",
+          "cảm thấy bị xúc phạm",
+          "cảm thấy tức giận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm thấy khó chịu; cảm thấy bị xúc phạm; cảm thấy tức giận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219077,
+        "meaning_vi": "cảm thấy ốm yếu; cảm thấy buồn nôn",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm thấy ốm yếu",
+          "cảm thấy buồn nôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm thấy ốm yếu; cảm thấy buồn nôn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1083,
+    "word": "ムカムカ",
+    "kana": "ムカムカ",
+    "senses": [
+      {
+        "sense_id": 219078,
+        "meaning_vi": "cảm thấy ốm yếu; cảm thấy buồn nôn; cảm thấy buồn nôn",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm thấy ốm yếu",
+          "cảm thấy buồn nôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm thấy ốm yếu; cảm thấy buồn nôn; cảm thấy buồn nôn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219079,
+        "meaning_vi": "tức giận; bị xúc phạm; bị chán ghét",
+        "confidence": "high",
+        "search_keywords": [
+          "tức giận",
+          "bị xúc phạm",
+          "bị chán ghét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tức giận; bị xúc phạm; bị chán ghét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1084,
+    "word": "向きになる",
+    "kana": "ムキになる",
+    "senses": [
+      {
+        "sense_id": 219080,
+        "meaning_vi": "trở nên nghiêm túc; coi trọng điều gì đó (ví dụ: một trò đùa, trêu chọc); trở nên cáu kỉnh hoặc tức giận (đặc biệt là vì điều gì đó tầm thường); để làm việc lên",
+        "confidence": "high",
+        "search_keywords": [
+          "trở nên nghiêm túc",
+          "coi trọng điều gì đó (ví dụ: một trò đùa, trêu chọc)",
+          "trở nên cáu kỉnh hoặc tức giận (đặc biệt là vì điều gì đó tầm thường)",
+          "để làm việc lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở nên nghiêm túc; coi trọng điều gì đó (ví dụ: một trò đùa, trêu chọc); trở nên cáu kỉnh hoặc tức giận (đặc biệt là vì điều gì đó tầm thường); để làm việc lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1085,
+    "word": "剥れる",
+    "kana": "むくれる",
+    "senses": [
+      {
+        "sense_id": 219081,
+        "meaning_vi": "trở nên ủ rũ; hờn dỗi; tức giận; phạm tội; bị khó chịu; buồn bã",
+        "confidence": "high",
+        "search_keywords": [
+          "trở nên ủ rũ",
+          "hờn dỗi",
+          "tức giận",
+          "phạm tội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở nên ủ rũ; hờn dỗi; tức giận; phạm tội; bị khó chịu; buồn bã",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219082,
+        "meaning_vi": "bóc (tắt); đi ra",
+        "confidence": "high",
+        "search_keywords": [
+          "bóc (tắt)",
+          "đi ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bóc (tắt); đi ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1086,
+    "word": "鼯鼠",
+    "kana": "むささび",
+    "senses": [
+      {
+        "sense_id": 219083,
+        "meaning_vi": "Sóc bay khổng lồ Nhật Bản (Petaurista leucogenys)",
+        "confidence": "high",
+        "search_keywords": [
+          "Sóc bay khổng lồ Nhật Bản (Petaurista leucogenys)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sóc bay khổng lồ Nhật Bản (Petaurista leucogenys)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1087,
+    "word": "ムズムズ",
+    "kana": "ムズムズ",
+    "senses": [
+      {
+        "sense_id": 219084,
+        "meaning_vi": "ngứa; cảm thấy ngứa ngáy; cảm thấy đáng sợ",
+        "confidence": "high",
+        "search_keywords": [
+          "ngứa",
+          "cảm thấy ngứa ngáy",
+          "cảm thấy đáng sợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngứa; cảm thấy ngứa ngáy; cảm thấy đáng sợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219085,
+        "meaning_vi": "thiếu kiên nhẫn; ngứa (làm gì đó); háo hức",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu kiên nhẫn",
+          "ngứa (làm gì đó)",
+          "háo hức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu kiên nhẫn; ngứa (làm gì đó); háo hức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1088,
+    "word": "無駄にする",
+    "kana": "むだにする",
+    "senses": [
+      {
+        "sense_id": 219086,
+        "meaning_vi": "làm cho vô ích; mang lại sự vô ích; lãng phí; không tận dụng tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "làm cho vô ích",
+          "mang lại sự vô ích",
+          "lãng phí",
+          "không tận dụng tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm cho vô ích; mang lại sự vô ích; lãng phí; không tận dụng tốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1089,
+    "word": "むっつり",
+    "kana": "むっつり",
+    "senses": [
+      {
+        "sense_id": 219087,
+        "meaning_vi": "ủ rũ; ngầm; ủ rũ; ảm đạm; âm thầm",
+        "confidence": "high",
+        "search_keywords": [
+          "ủ rũ",
+          "ngầm",
+          "ảm đạm",
+          "âm thầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủ rũ; ngầm; ủ rũ; ảm đạm; âm thầm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219088,
+        "meaning_vi": "người ít nói; người không giao tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "người ít nói",
+          "người không giao tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ít nói; người không giao tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1090,
+    "word": "むにゃむにゃ",
+    "kana": "むにゃむにゃ",
+    "senses": [
+      {
+        "sense_id": 219089,
+        "meaning_vi": "(lẩm bẩm) không thể hiểu được; trong khi lầm bầm; thì thầm ; thì thầm",
+        "confidence": "high",
+        "search_keywords": [
+          "(lẩm bẩm) không thể hiểu được",
+          "trong khi lầm bầm",
+          "thì thầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(lẩm bẩm) không thể hiểu được; trong khi lầm bầm; thì thầm ; thì thầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1091,
+    "word": "むんむん",
+    "kana": "むんむん",
+    "senses": [
+      {
+        "sense_id": 219090,
+        "meaning_vi": "ngột ngạt; ướt át; oi bức",
+        "confidence": "high",
+        "search_keywords": [
+          "ngột ngạt",
+          "ướt át",
+          "oi bức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngột ngạt; ướt át; oi bức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1092,
+    "word": "メキメキ",
+    "kana": "メキメキ",
+    "senses": [
+      {
+        "sense_id": 219091,
+        "meaning_vi": "đáng chú ý; rõ rệt; nhanh chóng",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng chú ý",
+          "rõ rệt",
+          "nhanh chóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng chú ý; rõ rệt; nhanh chóng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219092,
+        "meaning_vi": "âm thanh vỡ hoặc ọp ẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "âm thanh vỡ hoặc ọp ẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm thanh vỡ hoặc ọp ẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1093,
+    "word": "めく",
+    "kana": "めく",
+    "senses": [
+      {
+        "sense_id": 219093,
+        "meaning_vi": "có dấu hiệu ...; để có vẻ ngoài của...",
+        "confidence": "high",
+        "search_keywords": [
+          "có dấu hiệu ...",
+          "để có vẻ ngoài của..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có dấu hiệu ...; để có vẻ ngoài của...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1094,
+    "word": "メソメソ",
+    "kana": "メソメソ",
+    "senses": [
+      {
+        "sense_id": 219094,
+        "meaning_vi": "thổn thức; khóc lóc; rên rỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "thổn thức",
+          "khóc lóc",
+          "rên rỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thổn thức; khóc lóc; rên rỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1095,
+    "word": "めっきり",
+    "kana": "めっきり",
+    "senses": [
+      {
+        "sense_id": 219095,
+        "meaning_vi": "đáng chú ý; đáng chú ý; rõ ràng; đáng kể; có thể cảm nhận được; đáng kể ; rất nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng chú ý",
+          "rõ ràng",
+          "đáng kể",
+          "có thể cảm nhận được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng chú ý; đáng chú ý; rõ ràng; đáng kể; có thể cảm nhận được; đáng kể ; rất nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1096,
+    "word": "もう",
+    "kana": "もう",
+    "senses": [
+      {
+        "sense_id": 219096,
+        "meaning_vi": "đã; chưa; đến bây giờ; Hiện nay; (không) nữa; (không) nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "đã",
+          "chưa",
+          "đến bây giờ",
+          "Hiện nay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đã; chưa; đến bây giờ; Hiện nay; (không) nữa; (không) nữa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219097,
+        "meaning_vi": "sớm; trong thời gian ngắn; chẳng bao lâu nữa; hiện tại",
+        "confidence": "high",
+        "search_keywords": [
+          "sớm",
+          "trong thời gian ngắn",
+          "chẳng bao lâu nữa",
+          "hiện tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sớm; trong thời gian ngắn; chẳng bao lâu nữa; hiện tại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219098,
+        "meaning_vi": "hơn nữa; hơn; lại; khác; cái khác",
+        "confidence": "high",
+        "search_keywords": [
+          "hơn nữa",
+          "hơn",
+          "lại",
+          "khác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hơn nữa; hơn; lại; khác; cái khác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219099,
+        "meaning_vi": "trời ơi; ôi; ôi; con trai; Thôi nào; chết tiệt; nghiêm túc",
+        "confidence": "high",
+        "search_keywords": [
+          "trời ơi",
+          "ôi",
+          "con trai",
+          "Thôi nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trời ơi; ôi; ôi; con trai; Thôi nào; chết tiệt; nghiêm túc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1097,
+    "word": "藻掻く",
+    "kana": "もがく",
+    "senses": [
+      {
+        "sense_id": 219100,
+        "meaning_vi": "đấu tranh; quằn quại; luồn lách; vặn vẹo",
+        "confidence": "high",
+        "search_keywords": [
+          "đấu tranh",
+          "quằn quại",
+          "luồn lách",
+          "vặn vẹo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đấu tranh; quằn quại; luồn lách; vặn vẹo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219101,
+        "meaning_vi": "hành động điên cuồng; thực hiện những nỗ lực tuyệt vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "hành động điên cuồng",
+          "thực hiện những nỗ lực tuyệt vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành động điên cuồng; thực hiện những nỗ lực tuyệt vọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,451 @@
+[
+  {
+    "vocabulary_id": 122631,
+    "word": "画素進行方向",
+    "kana": "がそしんこうほうこう",
+    "senses": [
+      {
+        "sense_id": 366253,
+        "meaning_vi": "đường dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "đường dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122632,
+    "word": "画素配列",
+    "kana": "がそはいれつ",
+    "senses": [
+      {
+        "sense_id": 366254,
+        "meaning_vi": "mảng mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "mảng mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mảng mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122633,
+    "word": "画像データ",
+    "kana": "がぞうデータ",
+    "senses": [
+      {
+        "sense_id": 366255,
+        "meaning_vi": "dữ liệu hình ảnh; dữ liệu đồ họa; hình ảnh kỹ thuật số",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu hình ảnh",
+          "dữ liệu đồ họa",
+          "hình ảnh kỹ thuật số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu hình ảnh; dữ liệu đồ họa; hình ảnh kỹ thuật số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122634,
+    "word": "画像パターン認識",
+    "kana": "がぞうパターンにんしき",
+    "senses": [
+      {
+        "sense_id": 366256,
+        "meaning_vi": "nhận dạng mẫu hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận dạng mẫu hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận dạng mẫu hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122635,
+    "word": "画像ファイル",
+    "kana": "がぞうファイル",
+    "senses": [
+      {
+        "sense_id": 366257,
+        "meaning_vi": "tập tin đồ họa",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin đồ họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin đồ họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122636,
+    "word": "画像圧縮",
+    "kana": "がぞうあっしゅく",
+    "senses": [
+      {
+        "sense_id": 366258,
+        "meaning_vi": "nén hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "nén hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nén hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122637,
+    "word": "画像圧縮技術",
+    "kana": "がぞうあっしゅくぎじゅつ",
+    "senses": [
+      {
+        "sense_id": 366259,
+        "meaning_vi": "công nghệ nén ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "công nghệ nén ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công nghệ nén ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122638,
+    "word": "画像資料",
+    "kana": "がぞうしりょう",
+    "senses": [
+      {
+        "sense_id": 366260,
+        "meaning_vi": "dữ liệu hình ảnh; tài liệu có chứa hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu hình ảnh",
+          "tài liệu có chứa hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu hình ảnh; tài liệu có chứa hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122639,
+    "word": "画像情報",
+    "kana": "がぞうじょうほう",
+    "senses": [
+      {
+        "sense_id": 366261,
+        "meaning_vi": "thông tin hình ảnh; dữ liệu hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin hình ảnh",
+          "dữ liệu hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin hình ảnh; dữ liệu hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122640,
+    "word": "画像要素",
+    "kana": "がぞうようそ",
+    "senses": [
+      {
+        "sense_id": 366262,
+        "meaning_vi": "yếu tố hình ảnh; Pel",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu tố hình ảnh",
+          "Pel"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu tố hình ảnh; Pel",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122641,
+    "word": "画像劣化",
+    "kana": "がぞうれっか",
+    "senses": [
+      {
+        "sense_id": 366263,
+        "meaning_vi": "suy thoái hình ảnh, video",
+        "confidence": "high",
+        "search_keywords": [
+          "suy thoái hình ảnh, video"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "suy thoái hình ảnh, video",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122642,
+    "word": "画面サイズ",
+    "kana": "がめんサイズ",
+    "senses": [
+      {
+        "sense_id": 366264,
+        "meaning_vi": "kích thước màn hình",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước màn hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước màn hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122643,
+    "word": "画面取り込み",
+    "kana": "がめんとりこみ",
+    "senses": [
+      {
+        "sense_id": 366265,
+        "meaning_vi": "chụp màn hình",
+        "confidence": "high",
+        "search_keywords": [
+          "chụp màn hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chụp màn hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122644,
+    "word": "画面上",
+    "kana": "がめんじょう",
+    "senses": [
+      {
+        "sense_id": 366266,
+        "meaning_vi": "trên màn hình",
+        "confidence": "high",
+        "search_keywords": [
+          "trên màn hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trên màn hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122645,
+    "word": "画面分割",
+    "kana": "がめんぶんかつ",
+    "senses": [
+      {
+        "sense_id": 366267,
+        "meaning_vi": "tách màn hình",
+        "confidence": "high",
+        "search_keywords": [
+          "tách màn hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tách màn hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122646,
+    "word": "会議資料",
+    "kana": "かいぎしりょう",
+    "senses": [
+      {
+        "sense_id": 366268,
+        "meaning_vi": "hồ sơ; giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "hồ sơ",
+          "giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồ sơ; giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122647,
+    "word": "会計処理",
+    "kana": "かいけいしょり",
+    "senses": [
+      {
+        "sense_id": 366269,
+        "meaning_vi": "kế toán; (các) quy trình kế toán; xử lý tài khoản",
+        "confidence": "high",
+        "search_keywords": [
+          "kế toán",
+          "(các) quy trình kế toán",
+          "xử lý tài khoản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kế toán; (các) quy trình kế toán; xử lý tài khoản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122648,
+    "word": "会話型言語",
+    "kana": "かいわけいげんご",
+    "senses": [
+      {
+        "sense_id": 366270,
+        "meaning_vi": "ngôn ngữ đàm thoại",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ đàm thoại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ đàm thoại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122649,
+    "word": "会話型処理",
+    "kana": "かいわがたしょり",
+    "senses": [
+      {
+        "sense_id": 366271,
+        "meaning_vi": "xử lý đàm thoại",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý đàm thoại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý đàm thoại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122650,
+    "word": "会話形",
+    "kana": "かいわがた",
+    "senses": [
+      {
+        "sense_id": 366272,
+        "meaning_vi": "chế độ đàm thoại; chế độ tương tác",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ đàm thoại",
+          "chế độ tương tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ đàm thoại; chế độ tương tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "vocabulary_id": 126404,
+    "word": "文献集",
+    "kana": "ぶんけんしゅう",
+    "senses": [
+      {
+        "sense_id": 370052,
+        "meaning_vi": "tài liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126405,
+    "word": "文字の高さ",
+    "kana": "もじのたかさ",
+    "senses": [
+      {
+        "sense_id": 370053,
+        "meaning_vi": "chiều cao của nhân vật",
+        "confidence": "high",
+        "search_keywords": [
+          "chiều cao của nhân vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiều cao của nhân vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126406,
+    "word": "文字の大きさ",
+    "kana": "もじのおおきさ",
+    "senses": [
+      {
+        "sense_id": 370054,
+        "meaning_vi": "kích thước đồ họa",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước đồ họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước đồ họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126407,
+    "word": "文字の大小順序",
+    "kana": "もじのだいしょうじゅんじょ",
+    "senses": [
+      {
+        "sense_id": 370055,
+        "meaning_vi": "trình tự đối chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự đối chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự đối chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126408,
+    "word": "文字の幅",
+    "kana": "もじのはば",
+    "senses": [
+      {
+        "sense_id": 370056,
+        "meaning_vi": "chiều rộng của ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "chiều rộng của ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiều rộng của ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126409,
+    "word": "文字クラス",
+    "kana": "もじクラス",
+    "senses": [
+      {
+        "sense_id": 370057,
+        "meaning_vi": "lớp nhân vật",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp nhân vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp nhân vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126410,
+    "word": "文字セット",
+    "kana": "もじセット",
+    "senses": [
+      {
+        "sense_id": 370058,
+        "meaning_vi": "bộ ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126411,
+    "word": "文字テキスト",
+    "kana": "もじテキスト",
+    "senses": [
+      {
+        "sense_id": 370059,
+        "meaning_vi": "văn bản ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "văn bản ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "văn bản ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126412,
+    "word": "文字データ",
+    "kana": "もじデータ",
+    "senses": [
+      {
+        "sense_id": 370060,
+        "meaning_vi": "dữ liệu ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126413,
+    "word": "文字データ実体",
+    "kana": "もじデータじったい",
+    "senses": [
+      {
+        "sense_id": 370061,
+        "meaning_vi": "thực thể dữ liệu ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể dữ liệu ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể dữ liệu ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126414,
+    "word": "文字ピッチ",
+    "kana": "もじピッチ",
+    "senses": [
+      {
+        "sense_id": 370062,
+        "meaning_vi": "cao độ ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "cao độ ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cao độ ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126415,
+    "word": "文字レパートリ",
+    "kana": "もじレパートリ",
+    "senses": [
+      {
+        "sense_id": 370063,
+        "meaning_vi": "tiết mục nhân vật",
+        "confidence": "high",
+        "search_keywords": [
+          "tiết mục nhân vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiết mục nhân vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126416,
+    "word": "文字位置",
+    "kana": "もじいち",
+    "senses": [
+      {
+        "sense_id": 370064,
+        "meaning_vi": "vị trí nhân vật",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí nhân vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí nhân vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126417,
+    "word": "文字回転",
+    "kana": "もじかいてん",
+    "senses": [
+      {
+        "sense_id": 370065,
+        "meaning_vi": "xoay ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "xoay ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xoay ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126418,
+    "word": "文字回転角",
+    "kana": "もじかいてんかく",
+    "senses": [
+      {
+        "sense_id": 370066,
+        "meaning_vi": "hướng ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126419,
+    "word": "文字間隔",
+    "kana": "もじかんかく",
+    "senses": [
+      {
+        "sense_id": 370067,
+        "meaning_vi": "khoảng cách ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng cách ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng cách ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126420,
+    "word": "文字基準線",
+    "kana": "もじきじゅんせん",
+    "senses": [
+      {
+        "sense_id": 370068,
+        "meaning_vi": "dòng cơ sở ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng cơ sở ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng cơ sở ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126421,
+    "word": "文字基準方向",
+    "kana": "もじきじゅんほうこう",
+    "senses": [
+      {
+        "sense_id": 370069,
+        "meaning_vi": "vectơ cơ sở ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "vectơ cơ sở ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vectơ cơ sở ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126422,
+    "word": "文字記憶単位",
+    "kana": "もじきおくたんい",
+    "senses": [
+      {
+        "sense_id": 370070,
+        "meaning_vi": "bộ lưu trữ ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ lưu trữ ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ lưu trữ ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126423,
+    "word": "文字境界",
+    "kana": "もじきょうかい",
+    "senses": [
+      {
+        "sense_id": 370071,
+        "meaning_vi": "ranh giới ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "ranh giới ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ranh giới ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

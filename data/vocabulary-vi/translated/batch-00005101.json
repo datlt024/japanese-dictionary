@@ -1,0 +1,449 @@
+[
+  {
+    "vocabulary_id": 122551,
+    "word": "仮想コネクション",
+    "kana": "かそうコネクション",
+    "senses": [
+      {
+        "sense_id": 366173,
+        "meaning_vi": "kết nối ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122552,
+    "word": "仮想コネクション識別子",
+    "kana": "かそうコネクションしきべつし",
+    "senses": [
+      {
+        "sense_id": 366174,
+        "meaning_vi": "định danh kết nối ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "định danh kết nối ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định danh kết nối ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122553,
+    "word": "仮想ステム",
+    "kana": "かそうステム",
+    "senses": [
+      {
+        "sense_id": 366175,
+        "meaning_vi": "thân cây ma",
+        "confidence": "high",
+        "search_keywords": [
+          "thân cây ma"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thân cây ma",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122554,
+    "word": "仮想チャネル",
+    "kana": "かそうチャネル",
+    "senses": [
+      {
+        "sense_id": 366176,
+        "meaning_vi": "kênh ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "kênh ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kênh ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122555,
+    "word": "仮想チャネル識別子",
+    "kana": "かそうチャネルしきべつし",
+    "senses": [
+      {
+        "sense_id": 366177,
+        "meaning_vi": "định danh kênh ảo; VCI",
+        "confidence": "high",
+        "search_keywords": [
+          "định danh kênh ảo",
+          "VCI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định danh kênh ảo; VCI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122556,
+    "word": "仮想デバイスドライバ",
+    "kana": "かそうデバイスドライバ",
+    "senses": [
+      {
+        "sense_id": 366178,
+        "meaning_vi": "trình điều khiển thiết bị ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "trình điều khiển thiết bị ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình điều khiển thiết bị ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122557,
+    "word": "仮想ドライブ",
+    "kana": "かそうドライブ",
+    "senses": [
+      {
+        "sense_id": 366179,
+        "meaning_vi": "ổ đĩa ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "ổ đĩa ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ổ đĩa ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122558,
+    "word": "仮想パス",
+    "kana": "かそうパス",
+    "senses": [
+      {
+        "sense_id": 366180,
+        "meaning_vi": "đường dẫn ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "đường dẫn ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường dẫn ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122559,
+    "word": "仮想パス識別子",
+    "kana": "かそうパスしきべつし",
+    "senses": [
+      {
+        "sense_id": 366181,
+        "meaning_vi": "định danh đường dẫn ảo; VPI",
+        "confidence": "high",
+        "search_keywords": [
+          "định danh đường dẫn ảo",
+          "VPI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định danh đường dẫn ảo; VPI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122560,
+    "word": "仮想ファイル",
+    "kana": "かそうファイル",
+    "senses": [
+      {
+        "sense_id": 366182,
+        "meaning_vi": "tập tin ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122561,
+    "word": "仮想ファイルストア",
+    "kana": "かそうファイルストア",
+    "senses": [
+      {
+        "sense_id": 366183,
+        "meaning_vi": "kho tập tin ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "kho tập tin ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kho tập tin ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122562,
+    "word": "仮想マシン",
+    "kana": "かそうマシン",
+    "senses": [
+      {
+        "sense_id": 366184,
+        "meaning_vi": "máy ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "máy ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122563,
+    "word": "仮想メモリ",
+    "kana": "かそうメモリ",
+    "senses": [
+      {
+        "sense_id": 366185,
+        "meaning_vi": "bộ nhớ ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122564,
+    "word": "仮想押しボタン",
+    "kana": "かそうおしボタン",
+    "senses": [
+      {
+        "sense_id": 366186,
+        "meaning_vi": "nút ấn ảo; nút đèn",
+        "confidence": "high",
+        "search_keywords": [
+          "nút ấn ảo",
+          "nút đèn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nút ấn ảo; nút đèn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122565,
+    "word": "仮想回線",
+    "kana": "かそうかいせん",
+    "senses": [
+      {
+        "sense_id": 366187,
+        "meaning_vi": "mạch ảo; VC",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch ảo",
+          "VC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch ảo; VC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122566,
+    "word": "仮想回路",
+    "kana": "かそうかいろ",
+    "senses": [
+      {
+        "sense_id": 366188,
+        "meaning_vi": "mạch ảo; VC",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch ảo",
+          "VC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch ảo; VC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122567,
+    "word": "仮想企業",
+    "kana": "かそうきぎょう",
+    "senses": [
+      {
+        "sense_id": 366189,
+        "meaning_vi": "công ty ảo; tập đoàn ảo; doanh nghiệp ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "công ty ảo",
+          "tập đoàn ảo",
+          "doanh nghiệp ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công ty ảo; tập đoàn ảo; doanh nghiệp ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122568,
+    "word": "仮想機械",
+    "kana": "かそうきかい",
+    "senses": [
+      {
+        "sense_id": 366190,
+        "meaning_vi": "máy ảo; máy ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "máy ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy ảo; máy ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122569,
+    "word": "仮想記憶システム",
+    "kana": "かそうきおくシステム",
+    "senses": [
+      {
+        "sense_id": 366191,
+        "meaning_vi": "hệ thống lưu trữ ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống lưu trữ ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống lưu trữ ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122570,
+    "word": "仮想記憶装置",
+    "kana": "かそうきおくそうち",
+    "senses": [
+      {
+        "sense_id": 366192,
+        "meaning_vi": "lưu trữ ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

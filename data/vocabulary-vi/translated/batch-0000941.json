@@ -1,0 +1,589 @@
+[
+  {
+    "vocabulary_id": 23596,
+    "word": "検閲",
+    "kana": "けんえつ",
+    "senses": [
+      {
+        "sense_id": 247442,
+        "meaning_vi": "sự kiểm duyệt",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kiểm duyệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kiểm duyệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 247443,
+        "meaning_vi": "điều tra; kiểm tra",
+        "confidence": "high",
+        "search_keywords": [
+          "điều tra",
+          "kiểm tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều tra; kiểm tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23597,
+    "word": "検温器",
+    "kana": "けんおんき",
+    "senses": [
+      {
+        "sense_id": 247444,
+        "meaning_vi": "(lâm sàng) nhiệt kế",
+        "confidence": "high",
+        "search_keywords": [
+          "(lâm sàng) nhiệt kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(lâm sàng) nhiệt kế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23598,
+    "word": "検眼",
+    "kana": "けんがん",
+    "senses": [
+      {
+        "sense_id": 247445,
+        "meaning_vi": "khám mắt; phép đo thị lực",
+        "confidence": "high",
+        "search_keywords": [
+          "khám mắt",
+          "phép đo thị lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khám mắt; phép đo thị lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23599,
+    "word": "検眼医",
+    "kana": "けんがんい",
+    "senses": [
+      {
+        "sense_id": 247446,
+        "meaning_vi": "bác sĩ đo thị lực",
+        "confidence": "high",
+        "search_keywords": [
+          "bác sĩ đo thị lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bác sĩ đo thị lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23600,
+    "word": "検挙",
+    "kana": "けんきょ",
+    "senses": [
+      {
+        "sense_id": 247447,
+        "meaning_vi": "bắt giữ; tóm gọn",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt giữ",
+          "tóm gọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt giữ; tóm gọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23601,
+    "word": "検査",
+    "kana": "けんさ",
+    "senses": [
+      {
+        "sense_id": 247448,
+        "meaning_vi": "kiểm tra (ví dụ: hải quan, nhà máy); bài kiểm tra; Bài kiểm tra; kiểm tra; quét (ví dụ: MRI, PET); kiểm toán",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra (ví dụ: hải quan, nhà máy)",
+          "bài kiểm tra",
+          "Bài kiểm tra",
+          "kiểm tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra (ví dụ: hải quan, nhà máy); bài kiểm tra; Bài kiểm tra; kiểm tra; quét (ví dụ: MRI, PET); kiểm toán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23602,
+    "word": "検索",
+    "kana": "けんさく",
+    "senses": [
+      {
+        "sense_id": 247449,
+        "meaning_vi": "tra cứu (ví dụ: một từ trong từ điển); tìm kiếm (ví dụ: trên Internet); truy xuất (thông tin); tài liệu tham khảo",
+        "confidence": "high",
+        "search_keywords": [
+          "tra cứu (ví dụ: một từ trong từ điển)",
+          "tìm kiếm (ví dụ: trên Internet)",
+          "truy xuất (thông tin)",
+          "tài liệu tham khảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tra cứu (ví dụ: một từ trong từ điển); tìm kiếm (ví dụ: trên Internet); truy xuất (thông tin); tài liệu tham khảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23603,
+    "word": "検察",
+    "kana": "けんさつ",
+    "senses": [
+      {
+        "sense_id": 247450,
+        "meaning_vi": "điều tra tội phạm; truy tố",
+        "confidence": "high",
+        "search_keywords": [
+          "điều tra tội phạm",
+          "truy tố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều tra tội phạm; truy tố",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 247451,
+        "meaning_vi": "bài kiểm tra; điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "bài kiểm tra",
+          "điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài kiểm tra; điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23604,
+    "word": "検札",
+    "kana": "けんさつ",
+    "senses": [
+      {
+        "sense_id": 247452,
+        "meaning_vi": "kiểm tra vé",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra vé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra vé",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23605,
+    "word": "検事",
+    "kana": "けんじ",
+    "senses": [
+      {
+        "sense_id": 247453,
+        "meaning_vi": "công tố viên",
+        "confidence": "high",
+        "search_keywords": [
+          "công tố viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công tố viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23606,
+    "word": "検出",
+    "kana": "けんしゅつ",
+    "senses": [
+      {
+        "sense_id": 247454,
+        "meaning_vi": "phát hiện; giác quan (ví dụ: cảm biến)",
+        "confidence": "high",
+        "search_keywords": [
+          "phát hiện",
+          "giác quan (ví dụ: cảm biến)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát hiện; giác quan (ví dụ: cảm biến)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23607,
+    "word": "検証",
+    "kana": "けんしょう",
+    "senses": [
+      {
+        "sense_id": 247455,
+        "meaning_vi": "xác minh; xác nhận; sự chứng minh",
+        "confidence": "high",
+        "search_keywords": [
+          "xác minh",
+          "xác nhận",
+          "sự chứng minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xác minh; xác nhận; sự chứng minh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 247456,
+        "meaning_vi": "kiểm tra tại chỗ (bởi thẩm phán, điều tra viên, v.v.) để thu thập bằng chứng vật chất",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra tại chỗ (bởi thẩm phán, điều tra viên, v.v.) để thu thập bằng chứng vật chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra tại chỗ (bởi thẩm phán, điều tra viên, v.v.) để thu thập bằng chứng vật chất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 247457,
+        "meaning_vi": "xác minh",
+        "confidence": "high",
+        "search_keywords": [
+          "xác minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xác minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23608,
+    "word": "検針",
+    "kana": "けんしん",
+    "senses": [
+      {
+        "sense_id": 247458,
+        "meaning_vi": "kiểm tra đồng hồ; đọc một mét",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra đồng hồ",
+          "đọc một mét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra đồng hồ; đọc một mét",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 247459,
+        "meaning_vi": "phát hiện kim (trong quần áo, v.v.); kiểm tra kim",
+        "confidence": "high",
+        "search_keywords": [
+          "phát hiện kim (trong quần áo, v.v.)",
+          "kiểm tra kim"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát hiện kim (trong quần áo, v.v.); kiểm tra kim",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23609,
+    "word": "検束",
+    "kana": "けんそく",
+    "senses": [
+      {
+        "sense_id": 247460,
+        "meaning_vi": "bắt giữ; quyền giám hộ; giam giữ",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt giữ",
+          "quyền giám hộ",
+          "giam giữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt giữ; quyền giám hộ; giam giữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23610,
+    "word": "検定",
+    "kana": "けんてい",
+    "senses": [
+      {
+        "sense_id": 247461,
+        "meaning_vi": "chứng nhận chính thức; phê duyệt chính thức; điều tra; xác minh; kiểm tra",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng nhận chính thức",
+          "phê duyệt chính thức",
+          "điều tra",
+          "xác minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng nhận chính thức; phê duyệt chính thức; điều tra; xác minh; kiểm tra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 247462,
+        "meaning_vi": "thi cấp chứng chỉ; thi cấp giấy phép; kiểm tra trình độ",
+        "confidence": "high",
+        "search_keywords": [
+          "thi cấp chứng chỉ",
+          "thi cấp giấy phép",
+          "kiểm tra trình độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thi cấp chứng chỉ; thi cấp giấy phép; kiểm tra trình độ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 247463,
+        "meaning_vi": "kiểm tra giả thuyết",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra giả thuyết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra giả thuyết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23611,
+    "word": "検討",
+    "kana": "けんとう",
+    "senses": [
+      {
+        "sense_id": 247464,
+        "meaning_vi": "xem xét; bài kiểm tra; cuộc điều tra; học; sự giám sát; cuộc thảo luận; Phân tích; đánh giá",
+        "confidence": "high",
+        "search_keywords": [
+          "xem xét",
+          "bài kiểm tra",
+          "cuộc điều tra",
+          "học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem xét; bài kiểm tra; cuộc điều tra; học; sự giám sát; cuộc thảo luận; Phân tích; đánh giá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23612,
+    "word": "検討委員会",
+    "kana": "けんとういいんかい",
+    "senses": [
+      {
+        "sense_id": 247465,
+        "meaning_vi": "ủy ban điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy ban điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy ban điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23613,
+    "word": "検尿",
+    "kana": "けんにょう",
+    "senses": [
+      {
+        "sense_id": 247466,
+        "meaning_vi": "phân tích nước tiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "phân tích nước tiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân tích nước tiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23614,
+    "word": "検波",
+    "kana": "けんぱ",
+    "senses": [
+      {
+        "sense_id": 247467,
+        "meaning_vi": "phát hiện (ví dụ: sóng vô tuyến); phát hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "phát hiện (ví dụ: sóng vô tuyến)",
+          "phát hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát hiện (ví dụ: sóng vô tuyến); phát hiện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 247468,
+        "meaning_vi": "giải điều chế",
+        "confidence": "high",
+        "search_keywords": [
+          "giải điều chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải điều chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 23615,
+    "word": "検便",
+    "kana": "けんべん",
+    "senses": [
+      {
+        "sense_id": 247469,
+        "meaning_vi": "xét nghiệm phân (phân)",
+        "confidence": "high",
+        "search_keywords": [
+          "xét nghiệm phân (phân)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xét nghiệm phân (phân)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

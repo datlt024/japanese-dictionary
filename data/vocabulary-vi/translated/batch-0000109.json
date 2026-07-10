@@ -1,650 +1,601 @@
 [
-{
-"vocabulary_id": 2822,
-"word": "オーナメント",
-"kana": "オーナメント",
-"senses": [
-{
-"sense_id": 221149,
-"meaning_vi": "đồ trang trí",
-"confidence": "high",
-"search_keywords": [
-"đồ trang trí",
-"vật trang trí",
-"ornament"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đồ vật dùng để trang trí",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2823,
-"word": "オーニング",
-"kana": "オーニング",
-"senses": [
-{
-"sense_id": 221150,
-"meaning_vi": "mái hiên vải",
-"confidence": "high",
-"search_keywords": [
-"mái hiên vải",
-"mái che",
-"awning"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mái che bằng vải hoặc vật liệu nhẹ gắn ngoài cửa, cửa sổ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2824,
-"word": "利比亜",
-"kana": "リビア",
-"senses": [
-{
-"sense_id": 298819,
-"meaning_vi": "Libya",
-"confidence": "high",
-"search_keywords": [
-"Libya",
-"Li-bi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Libya; thường viết bằng kana là リビア",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2825,
-"word": "オーバー",
-"kana": "オーバー",
-"senses": [
-{
-"sense_id": 221151,
-"meaning_vi": "áo khoác ngoài",
-"confidence": "high",
-"search_keywords": [
-"áo khoác ngoài",
-"áo măng tô",
-"overcoat"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "áo khoác ngoài; áo măng tô",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221152,
-"meaning_vi": "vượt quá",
-"confidence": "high",
-"search_keywords": [
-"vượt quá",
-"vượt mức",
-"quá"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vượt quá giới hạn, số lượng hoặc phạm vi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221153,
-"meaning_vi": "quá lố",
-"confidence": "high",
-"search_keywords": [
-"quá lố",
-"phóng đại",
-"làm quá"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá mức; phóng đại; làm quá lên",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221154,
-"meaning_vi": "trên chuẩn par",
-"confidence": "high",
-"search_keywords": [
-"trên chuẩn par",
-"over par",
-"golf"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "số gậy vượt quá chuẩn par trong golf",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221155,
-"meaning_vi": "phơi sáng quá mức",
-"confidence": "high",
-"search_keywords": [
-"phơi sáng quá mức",
-"cháy sáng",
-"overexposure"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tình trạng ảnh bị phơi sáng quá mức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2826,
-"word": "オーバーアクション",
-"kana": "オーバーアクション",
-"senses": [
-{
-"sense_id": 221156,
-"meaning_vi": "diễn quá lố",
-"confidence": "high",
-"search_keywords": [
-"diễn quá lố",
-"diễn cường điệu",
-"overacting"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lối diễn xuất hoặc hành động cường điệu quá mức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2827,
-"word": "オーバーウェイト",
-"kana": "オーバーウェイト",
-"senses": [
-{
-"sense_id": 221157,
-"meaning_vi": "thừa cân",
-"confidence": "high",
-"search_keywords": [
-"thừa cân",
-"quá cân",
-"overweight"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tình trạng cân nặng vượt mức tiêu chuẩn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2828,
-"word": "オーバーオール",
-"kana": "オーバーオール",
-"senses": [
-{
-"sense_id": 221158,
-"meaning_vi": "quần yếm",
-"confidence": "medium",
-"search_keywords": [
-"quần yếm",
-"áo liền quần",
-"overall"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quần áo liền thân hoặc quần yếm lao động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2829,
-"word": "オーバーキル",
-"kana": "オーバーキル",
-"senses": [
-{
-"sense_id": 221159,
-"meaning_vi": "quá mức cần thiết",
-"confidence": "high",
-"search_keywords": [
-"quá mức cần thiết",
-"làm quá tay",
-"overkill"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mức độ vượt xa nhu cầu hoặc mục đích cần thiết",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2830,
-"word": "オーバースキル",
-"kana": "オーバースキル",
-"senses": [
-{
-"sense_id": 221160,
-"meaning_vi": "dư thừa lao động tay nghề",
-"confidence": "medium",
-"search_keywords": [
-"dư thừa lao động tay nghề",
-"thừa nhân lực kỹ năng",
-"over-skill"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tình trạng dư thừa lao động có tay nghề",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2831,
-"word": "オーバーステップ",
-"kana": "オーバーステップ",
-"senses": [
-{
-"sense_id": 221161,
-"meaning_vi": "lỗi bước",
-"confidence": "high",
-"search_keywords": [
-"lỗi bước",
-"walking",
-"handball"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi đi quá ba bước mà không dẫn bóng trong bóng ném",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2832,
-"word": "オーバースライド",
-"kana": "オーバースライド",
-"senses": [
-{
-"sense_id": 221162,
-"meaning_vi": "trượt quá gôn",
-"confidence": "medium",
-"search_keywords": [
-"trượt quá gôn",
-"overslide",
-"bóng chày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trượt quá gôn khi chạy gôn trong bóng chày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2833,
-"word": "オーバースロー",
-"kana": "オーバースロー",
-"senses": [
-{
-"sense_id": 221163,
-"meaning_vi": "ném qua vai",
-"confidence": "high",
-"search_keywords": [
-"ném qua vai",
-"overhand throw",
-"overhand pitch"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu ném bóng từ trên vai trong bóng chày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2834,
-"word": "オーバーゾーン",
-"kana": "オーバーゾーン",
-"senses": [
-{
-"sense_id": 221164,
-"meaning_vi": "trao gậy ngoài khu vực",
-"confidence": "high",
-"search_keywords": [
-"trao gậy ngoài khu vực",
-"vượt vùng trao gậy",
-"relay zone"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi trao gậy tiếp sức ngoài khu vực quy định",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2835,
-"word": "オーバータイム",
-"kana": "オーバータイム",
-"senses": [
-{
-"sense_id": 221165,
-"meaning_vi": "làm thêm giờ",
-"confidence": "high",
-"search_keywords": [
-"làm thêm giờ",
-"tăng ca",
-"overtime"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thời gian làm thêm ngoài giờ quy định",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221166,
-"meaning_vi": "lỗi chạm bóng bốn lần",
-"confidence": "high",
-"search_keywords": [
-"lỗi chạm bóng bốn lần",
-"four contacts",
-"bóng chuyền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi một đội chạm bóng bốn lần trong bóng chuyền",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221167,
-"meaning_vi": "lỗi ba giây",
-"confidence": "high",
-"search_keywords": [
-"lỗi ba giây",
-"three-second violation",
-"bóng ném"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi giữ bóng hoặc đứng quá ba giây trong bóng ném",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221168,
-"meaning_vi": "lỗi thời gian",
-"confidence": "high",
-"search_keywords": [
-"lỗi thời gian",
-"time violation",
-"bóng rổ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi vi phạm thời gian trong bóng rổ, như lỗi ba giây",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221169,
-"meaning_vi": "hiệp phụ",
-"confidence": "high",
-"search_keywords": [
-"hiệp phụ",
-"overtime",
-"thời gian phụ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thời gian thi đấu thêm, nhất là trong bóng bầu dục Mỹ hoặc bóng rổ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2836,
-"word": "オーバーダブ",
-"kana": "オーバーダブ",
-"senses": [
-{
-"sense_id": 221170,
-"meaning_vi": "thu chồng âm",
-"confidence": "high",
-"search_keywords": [
-"thu chồng âm",
-"thu đè",
-"overdub"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kỹ thuật thu thêm âm thanh chồng lên bản thu sẵn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2837,
-"word": "オーバーチャージ",
-"kana": "オーバーチャージ",
-"senses": [
-{
-"sense_id": 221171,
-"meaning_vi": "tính phí quá mức",
-"confidence": "high",
-"search_keywords": [
-"tính phí quá mức",
-"thu quá giá",
-"overcharge"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc tính giá hoặc thu phí cao hơn mức đúng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2838,
-"word": "オーバーチュア",
-"kana": "オーバーチュア",
-"senses": [
-{
-"sense_id": 221172,
-"meaning_vi": "khúc dạo đầu",
-"confidence": "high",
-"search_keywords": [
-"khúc dạo đầu",
-"overture"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khúc nhạc mở màn cho opera, kịch hoặc tác phẩm âm nhạc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2839,
-"word": "オーバードクター",
-"kana": "オーバードクター",
-"senses": [
-{
-"sense_id": 221173,
-"meaning_vi": "tiến sĩ thất nghiệp",
-"confidence": "high",
-"search_keywords": [
-"tiến sĩ thất nghiệp",
-"người có bằng tiến sĩ thất nghiệp",
-"overdoctor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người có bằng tiến sĩ nhưng chưa có việc làm ổn định",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221174,
-"meaning_vi": "nghiên cứu viên sau tiến sĩ",
-"confidence": "high",
-"search_keywords": [
-"nghiên cứu viên sau tiến sĩ",
-"postdoc",
-"hậu tiến sĩ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghiên cứu viên sau tiến sĩ; postdoc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2840,
-"word": "オーバードライブ",
-"kana": "オーバードライブ",
-"senses": [
-{
-"sense_id": 221175,
-"meaning_vi": "overdrive",
-"confidence": "medium",
-"search_keywords": [
-"overdrive",
-"số truyền tăng",
-"ép xung"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chế độ truyền tăng hoặc vận hành vượt mức trong xe, bộ xử lý, v.v.",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221176,
-"meaning_vi": "đánh xa hơn đối thủ",
-"confidence": "high",
-"search_keywords": [
-"đánh xa hơn đối thủ",
-"outdrive",
-"golf"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đánh bóng xa hơn người chơi khác trong golf",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2841,
-"word": "オーバードラフト",
-"kana": "オーバードラフト",
-"senses": [
-{
-"sense_id": 221177,
-"meaning_vi": "thấu chi",
-"confidence": "high",
-"search_keywords": [
-"thấu chi",
-"rút quá số dư",
-"overdraft"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc rút hoặc chi vượt quá số dư tài khoản",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2822,
+    "word": "オーナメント",
+    "kana": "オーナメント",
+    "senses": [
+      {
+        "sense_id": 221149,
+        "meaning_vi": "vật trang trí",
+        "confidence": "high",
+        "search_keywords": [
+          "vật trang trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vật trang trí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2823,
+    "word": "オーニング",
+    "kana": "オーニング",
+    "senses": [
+      {
+        "sense_id": 221150,
+        "meaning_vi": "mái hiên",
+        "confidence": "high",
+        "search_keywords": [
+          "mái hiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mái hiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2824,
+    "word": "利比亜",
+    "kana": "リビア",
+    "senses": [
+      {
+        "sense_id": 298819,
+        "meaning_vi": "Lybia",
+        "confidence": "high",
+        "search_keywords": [
+          "Lybia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Lybia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2825,
+    "word": "オーバー",
+    "kana": "オーバー",
+    "senses": [
+      {
+        "sense_id": 221151,
+        "meaning_vi": "áo khoác ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "áo khoác ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áo khoác ngoài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221152,
+        "meaning_vi": "vượt quá; đi qua; vượt xa hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "vượt quá",
+          "đi qua",
+          "vượt xa hơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vượt quá; đi qua; vượt xa hơn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221153,
+        "meaning_vi": "phóng đại; quá mức; trên đầu trang",
+        "confidence": "high",
+        "search_keywords": [
+          "phóng đại",
+          "quá mức",
+          "trên đầu trang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phóng đại; quá mức; trên đầu trang",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221154,
+        "meaning_vi": "vượt quá mệnh giá",
+        "confidence": "high",
+        "search_keywords": [
+          "vượt quá mệnh giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vượt quá mệnh giá",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221155,
+        "meaning_vi": "tiếp xúc quá mức",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp xúc quá mức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp xúc quá mức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2826,
+    "word": "オーバーアクション",
+    "kana": "オーバーアクション",
+    "senses": [
+      {
+        "sense_id": 221156,
+        "meaning_vi": "hoạt động quá mức; haming",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động quá mức",
+          "haming"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động quá mức; haming",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2827,
+    "word": "オーバーウェイト",
+    "kana": "オーバーウェイト",
+    "senses": [
+      {
+        "sense_id": 221157,
+        "meaning_vi": "thừa cân",
+        "confidence": "high",
+        "search_keywords": [
+          "thừa cân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thừa cân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2828,
+    "word": "オーバーオール",
+    "kana": "オーバーオール",
+    "senses": [
+      {
+        "sense_id": 221158,
+        "meaning_vi": "tổng thể",
+        "confidence": "high",
+        "search_keywords": [
+          "tổng thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổng thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2829,
+    "word": "オーバーキル",
+    "kana": "オーバーキル",
+    "senses": [
+      {
+        "sense_id": 221159,
+        "meaning_vi": "quá mức cần thiết",
+        "confidence": "high",
+        "search_keywords": [
+          "quá mức cần thiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá mức cần thiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2830,
+    "word": "オーバースキル",
+    "kana": "オーバースキル",
+    "senses": [
+      {
+        "sense_id": 221160,
+        "meaning_vi": "dư thừa lao động có tay nghề",
+        "confidence": "high",
+        "search_keywords": [
+          "dư thừa lao động có tay nghề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dư thừa lao động có tay nghề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2831,
+    "word": "オーバーステップ",
+    "kana": "オーバーステップ",
+    "senses": [
+      {
+        "sense_id": 221161,
+        "meaning_vi": "đi nhiều hơn ba bước mà không rê bóng (trong môn bóng ném); đi bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "đi nhiều hơn ba bước mà không rê bóng (trong môn bóng ném)",
+          "đi bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi nhiều hơn ba bước mà không rê bóng (trong môn bóng ném); đi bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2832,
+    "word": "オーバースライド",
+    "kana": "オーバースライド",
+    "senses": [
+      {
+        "sense_id": 221162,
+        "meaning_vi": "trượt quá mức",
+        "confidence": "high",
+        "search_keywords": [
+          "trượt quá mức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trượt quá mức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2833,
+    "word": "オーバースロー",
+    "kana": "オーバースロー",
+    "senses": [
+      {
+        "sense_id": 221163,
+        "meaning_vi": "ném quá tay; ném bóng quá tay; giao hàng tận tay",
+        "confidence": "high",
+        "search_keywords": [
+          "ném quá tay",
+          "ném bóng quá tay",
+          "giao hàng tận tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ném quá tay; ném bóng quá tay; giao hàng tận tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2834,
+    "word": "オーバーゾーン",
+    "kana": "オーバーゾーン",
+    "senses": [
+      {
+        "sense_id": 221164,
+        "meaning_vi": "chuyền dùi cui bên ngoài khu vực trao đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyền dùi cui bên ngoài khu vực trao đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyền dùi cui bên ngoài khu vực trao đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2835,
+    "word": "オーバータイム",
+    "kana": "オーバータイム",
+    "senses": [
+      {
+        "sense_id": 221165,
+        "meaning_vi": "làm thêm giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "làm thêm giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm thêm giờ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221166,
+        "meaning_vi": "bốn lần tiếp xúc (phạm lỗi trong bóng chuyền)",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn lần tiếp xúc (phạm lỗi trong bóng chuyền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn lần tiếp xúc (phạm lỗi trong bóng chuyền)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221167,
+        "meaning_vi": "vi phạm ba giây (trong bóng ném)",
+        "confidence": "high",
+        "search_keywords": [
+          "vi phạm ba giây (trong bóng ném)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vi phạm ba giây (trong bóng ném)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221168,
+        "meaning_vi": "vi phạm thời gian (trong bóng rổ, ví dụ: vi phạm 3 giây)",
+        "confidence": "high",
+        "search_keywords": [
+          "vi phạm thời gian (trong bóng rổ, ví dụ: vi phạm 3 giây)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vi phạm thời gian (trong bóng rổ, ví dụ: vi phạm 3 giây)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221169,
+        "meaning_vi": "làm thêm giờ (đặc biệt trong bóng đá Mỹ hoặc bóng rổ)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm thêm giờ (đặc biệt trong bóng đá Mỹ hoặc bóng rổ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm thêm giờ (đặc biệt trong bóng đá Mỹ hoặc bóng rổ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2836,
+    "word": "オーバーダブ",
+    "kana": "オーバーダブ",
+    "senses": [
+      {
+        "sense_id": 221170,
+        "meaning_vi": "hát quá nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "hát quá nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hát quá nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2837,
+    "word": "オーバーチャージ",
+    "kana": "オーバーチャージ",
+    "senses": [
+      {
+        "sense_id": 221171,
+        "meaning_vi": "nạp tiền quá mức",
+        "confidence": "high",
+        "search_keywords": [
+          "nạp tiền quá mức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nạp tiền quá mức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2838,
+    "word": "オーバーチュア",
+    "kana": "オーバーチュア",
+    "senses": [
+      {
+        "sense_id": 221172,
+        "meaning_vi": "khúc dạo đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "khúc dạo đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khúc dạo đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2839,
+    "word": "オーバードクター",
+    "kana": "オーバードクター",
+    "senses": [
+      {
+        "sense_id": 221173,
+        "meaning_vi": "người thất nghiệp có bằng tiến sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "người thất nghiệp có bằng tiến sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thất nghiệp có bằng tiến sĩ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221174,
+        "meaning_vi": "nghiên cứu sinh sau tiến sĩ; postdoc",
+        "confidence": "high",
+        "search_keywords": [
+          "nghiên cứu sinh sau tiến sĩ",
+          "postdoc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghiên cứu sinh sau tiến sĩ; postdoc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2840,
+    "word": "オーバードライブ",
+    "kana": "オーバードライブ",
+    "senses": [
+      {
+        "sense_id": 221175,
+        "meaning_vi": "tăng tốc (hộp số xe, bộ xử lý máy tính, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "tăng tốc (hộp số xe, bộ xử lý máy tính, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tăng tốc (hộp số xe, bộ xử lý máy tính, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221176,
+        "meaning_vi": "lái xe ra ngoài (người chơi khác)",
+        "confidence": "high",
+        "search_keywords": [
+          "lái xe ra ngoài (người chơi khác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lái xe ra ngoài (người chơi khác)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2841,
+    "word": "オーバードラフト",
+    "kana": "オーバードラフト",
+    "senses": [
+      {
+        "sense_id": 221177,
+        "meaning_vi": "thấu chi",
+        "confidence": "high",
+        "search_keywords": [
+          "thấu chi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thấu chi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,630 @@
+[
+  {
+    "vocabulary_id": 41225,
+    "word": "転落",
+    "kana": "てんらく",
+    "senses": [
+      {
+        "sense_id": 271126,
+        "meaning_vi": "ngã; nhào lộn; đổ tràn; lao xuống; lặn",
+        "confidence": "high",
+        "search_keywords": [
+          "ngã",
+          "nhào lộn",
+          "đổ tràn",
+          "lao xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngã; nhào lộn; đổ tràn; lao xuống; lặn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271127,
+        "meaning_vi": "ngã (ở vị trí, đứng, v.v.); sự sụp đổ; đi xuống; suy thoái; hài kịch; giáng chức",
+        "confidence": "high",
+        "search_keywords": [
+          "ngã (ở vị trí, đứng, v.v.)",
+          "sự sụp đổ",
+          "đi xuống",
+          "suy thoái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngã (ở vị trí, đứng, v.v.); sự sụp đổ; đi xuống; suy thoái; hài kịch; giáng chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41226,
+    "word": "顛末",
+    "kana": "てんまつ",
+    "senses": [
+      {
+        "sense_id": 271128,
+        "meaning_vi": "chi tiết (về một sự cố, sự kiện, v.v.); toàn bộ câu chuyện; diễn biến sự kiện; sự thật; trường hợp; chi tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "chi tiết (về một sự cố, sự kiện, v.v.)",
+          "toàn bộ câu chuyện",
+          "diễn biến sự kiện",
+          "sự thật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi tiết (về một sự cố, sự kiện, v.v.); toàn bộ câu chuyện; diễn biến sự kiện; sự thật; trường hợp; chi tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41227,
+    "word": "点",
+    "kana": "てん",
+    "senses": [
+      {
+        "sense_id": 271129,
+        "meaning_vi": "dấu chấm; điểm; điểm; đốm; đánh dấu",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu chấm",
+          "điểm",
+          "đốm",
+          "đánh dấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu chấm; điểm; điểm; đốm; đánh dấu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271130,
+        "meaning_vi": "chấm điểm (trong một kỳ thi, v.v.); cấp; điểm; điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "chấm điểm (trong một kỳ thi, v.v.)",
+          "cấp",
+          "điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấm điểm (trong một kỳ thi, v.v.); cấp; điểm; điểm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271131,
+        "meaning_vi": "điểm (trong một trò chơi); điểm; mục tiêu; chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm (trong một trò chơi)",
+          "điểm",
+          "mục tiêu",
+          "chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm (trong một trò chơi); điểm; mục tiêu; chạy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271132,
+        "meaning_vi": "điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271133,
+        "meaning_vi": "điểm; diện mạo; vấn đề; chi tiết; phần; sự tôn trọng; đường; quan điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm",
+          "diện mạo",
+          "vấn đề",
+          "chi tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm; diện mạo; vấn đề; chi tiết; phần; sự tôn trọng; đường; quan điểm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271134,
+        "meaning_vi": "(dấu câu) dấu (ví dụ: dấu phẩy, dấu chấm, dấu thập phân); dấu chấm",
+        "confidence": "high",
+        "search_keywords": [
+          "(dấu câu) dấu (ví dụ: dấu phẩy, dấu chấm, dấu thập phân)",
+          "dấu chấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(dấu câu) dấu (ví dụ: dấu phẩy, dấu chấm, dấu thập phân); dấu chấm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271135,
+        "meaning_vi": "nét \"chấm\" (trong chữ Hán)",
+        "confidence": "high",
+        "search_keywords": [
+          "nét \"chấm\" (trong chữ Hán)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nét \"chấm\" (trong chữ Hán)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271136,
+        "meaning_vi": "bộ đếm điểm, điểm, bàn thắng, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đếm điểm, điểm, bàn thắng, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đếm điểm, điểm, bàn thắng, v.v.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271137,
+        "meaning_vi": "quầy bán hàng hóa, đồ vật, quần áo, tác phẩm nghệ thuật, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy bán hàng hóa, đồ vật, quần áo, tác phẩm nghệ thuật, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy bán hàng hóa, đồ vật, quần áo, tác phẩm nghệ thuật, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41228,
+    "word": "点く",
+    "kana": "つく",
+    "senses": [
+      {
+        "sense_id": 271138,
+        "meaning_vi": "được thắp sáng (đèn, đầu đốt, v.v.); bắt lửa; đốt cháy; bắt đầu cháy",
+        "confidence": "high",
+        "search_keywords": [
+          "được thắp sáng (đèn, đầu đốt, v.v.)",
+          "bắt lửa",
+          "đốt cháy",
+          "bắt đầu cháy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được thắp sáng (đèn, đầu đốt, v.v.); bắt lửa; đốt cháy; bắt đầu cháy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271139,
+        "meaning_vi": "được bật (của đèn, thiết bị, v.v.); tiếp tục",
+        "confidence": "high",
+        "search_keywords": [
+          "được bật (của đèn, thiết bị, v.v.)",
+          "tiếp tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được bật (của đèn, thiết bị, v.v.); tiếp tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41229,
+    "word": "点じる",
+    "kana": "てんじる",
+    "senses": [
+      {
+        "sense_id": 271140,
+        "meaning_vi": "thả ; thắp sáng; để thắp sáng; pha trà",
+        "confidence": "high",
+        "search_keywords": [
+          "thả",
+          "thắp sáng",
+          "để thắp sáng",
+          "pha trà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thả ; thắp sáng; để thắp sáng; pha trà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41230,
+    "word": "点ずる",
+    "kana": "てんずる",
+    "senses": [
+      {
+        "sense_id": 271141,
+        "meaning_vi": "thả ; thắp sáng; để thắp sáng; pha trà",
+        "confidence": "high",
+        "search_keywords": [
+          "thả",
+          "thắp sáng",
+          "để thắp sáng",
+          "pha trà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thả ; thắp sáng; để thắp sáng; pha trà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41231,
+    "word": "点火",
+    "kana": "てんか",
+    "senses": [
+      {
+        "sense_id": 271142,
+        "meaning_vi": "đánh lửa; chiếu sáng; bắn; khởi hành",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh lửa",
+          "chiếu sáng",
+          "bắn",
+          "khởi hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh lửa; chiếu sáng; bắn; khởi hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41232,
+    "word": "点火系",
+    "kana": "てんかけい",
+    "senses": [
+      {
+        "sense_id": 271143,
+        "meaning_vi": "hệ thống đánh lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống đánh lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống đánh lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41233,
+    "word": "点火栓",
+    "kana": "てんかせん",
+    "senses": [
+      {
+        "sense_id": 271144,
+        "meaning_vi": "bugi đánh lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "bugi đánh lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bugi đánh lửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41234,
+    "word": "点火薬",
+    "kana": "てんかやく",
+    "senses": [
+      {
+        "sense_id": 271145,
+        "meaning_vi": "bột lót",
+        "confidence": "high",
+        "search_keywords": [
+          "bột lót"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bột lót",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41235,
+    "word": "点画",
+    "kana": "てんかく",
+    "senses": [
+      {
+        "sense_id": 271146,
+        "meaning_vi": "dấu chấm và nét của ký tự kanji",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu chấm và nét của ký tự kanji"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu chấm và nét của ký tự kanji",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41236,
+    "word": "点画",
+    "kana": "てんが",
+    "senses": [
+      {
+        "sense_id": 271147,
+        "meaning_vi": "chấm nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "chấm nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấm nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41237,
+    "word": "点眼",
+    "kana": "てんがん",
+    "senses": [
+      {
+        "sense_id": 271148,
+        "meaning_vi": "nhỏ thuốc vào mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "nhỏ thuốc vào mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhỏ thuốc vào mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41238,
+    "word": "点眼器",
+    "kana": "てんがんき",
+    "senses": [
+      {
+        "sense_id": 271149,
+        "meaning_vi": "thuốc nhỏ mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc nhỏ mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc nhỏ mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41239,
+    "word": "点眼水",
+    "kana": "てんがんすい",
+    "senses": [
+      {
+        "sense_id": 271150,
+        "meaning_vi": "kem dưỡng mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "kem dưỡng mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kem dưỡng mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41240,
+    "word": "点景",
+    "kana": "てんけい",
+    "senses": [
+      {
+        "sense_id": 271151,
+        "meaning_vi": "người hoặc động vật được thêm vào một bức tranh; chi tiết ngẫu nhiên của một bức tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "người hoặc động vật được thêm vào một bức tranh",
+          "chi tiết ngẫu nhiên của một bức tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người hoặc động vật được thêm vào một bức tranh; chi tiết ngẫu nhiên của một bức tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41241,
+    "word": "点検",
+    "kana": "てんけん",
+    "senses": [
+      {
+        "sense_id": 271152,
+        "meaning_vi": "kiểm tra chi tiết; kiểm tra kỹ lưỡng; kiểm tra",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra chi tiết",
+          "kiểm tra kỹ lưỡng",
+          "kiểm tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra chi tiết; kiểm tra kỹ lưỡng; kiểm tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41242,
+    "word": "点呼",
+    "kana": "てんこ",
+    "senses": [
+      {
+        "sense_id": 271153,
+        "meaning_vi": "điểm danh; tập hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm danh",
+          "tập hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm danh; tập hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41243,
+    "word": "点光",
+    "kana": "てんこう",
+    "senses": [
+      {
+        "sense_id": 271154,
+        "meaning_vi": "ánh đèn sân khấu",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh đèn sân khấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh đèn sân khấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41244,
+    "word": "点光源",
+    "kana": "てんこうげん",
+    "senses": [
+      {
+        "sense_id": 271155,
+        "meaning_vi": "nguồn sáng định vị",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn sáng định vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn sáng định vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

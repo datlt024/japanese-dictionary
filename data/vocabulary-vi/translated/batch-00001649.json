@@ -1,0 +1,632 @@
+[
+  {
+    "vocabulary_id": 42624,
+    "word": "独走",
+    "kana": "どくそう",
+    "senses": [
+      {
+        "sense_id": 273001,
+        "meaning_vi": "chạy một mình; chạy một mình",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy một mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy một mình; chạy một mình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273002,
+        "meaning_vi": "có vị trí dẫn đầu lớn (so với những người khác); đi trước (so với mọi người khác) rất xa",
+        "confidence": "high",
+        "search_keywords": [
+          "có vị trí dẫn đầu lớn (so với những người khác)",
+          "đi trước (so với mọi người khác) rất xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có vị trí dẫn đầu lớn (so với những người khác); đi trước (so với mọi người khác) rất xa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273003,
+        "meaning_vi": "có cách riêng của mình; phớt lờ ý kiến ​​của người khác và hành động theo ý mình; hành động tùy ý",
+        "confidence": "high",
+        "search_keywords": [
+          "có cách riêng của mình",
+          "phớt lờ ý kiến ​​của người khác và hành động theo ý mình",
+          "hành động tùy ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có cách riêng của mình; phớt lờ ý kiến ​​của người khác và hành động theo ý mình; hành động tùy ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42625,
+    "word": "独断",
+    "kana": "どくだん",
+    "senses": [
+      {
+        "sense_id": 273004,
+        "meaning_vi": "sự phán xét của chính mình (sự phán xét); quyết định được đưa ra mà không hỏi ý kiến ​​người khác; quyết định tùy tiện",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phán xét của chính mình (sự phán xét)",
+          "quyết định được đưa ra mà không hỏi ý kiến ​​người khác",
+          "quyết định tùy tiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phán xét của chính mình (sự phán xét); quyết định được đưa ra mà không hỏi ý kiến ​​người khác; quyết định tùy tiện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273005,
+        "meaning_vi": "chủ nghĩa giáo điều",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa giáo điều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa giáo điều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42626,
+    "word": "独特",
+    "kana": "どくとく",
+    "senses": [
+      {
+        "sense_id": 273006,
+        "meaning_vi": "tính đặc thù; tính độc đáo; đặc trưng",
+        "confidence": "high",
+        "search_keywords": [
+          "tính đặc thù",
+          "tính độc đáo",
+          "đặc trưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính đặc thù; tính độc đáo; đặc trưng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273007,
+        "meaning_vi": "chỉ mình mình hiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ mình mình hiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ mình mình hiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42627,
+    "word": "独房",
+    "kana": "どくぼう",
+    "senses": [
+      {
+        "sense_id": 273008,
+        "meaning_vi": "tế bào đơn người; tế bào cách ly; tế bào đơn độc; phòng biệt giam",
+        "confidence": "high",
+        "search_keywords": [
+          "tế bào đơn người",
+          "tế bào cách ly",
+          "tế bào đơn độc",
+          "phòng biệt giam"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tế bào đơn người; tế bào cách ly; tế bào đơn độc; phòng biệt giam",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42628,
+    "word": "独枕",
+    "kana": "ひとりまくら",
+    "senses": [
+      {
+        "sense_id": 273009,
+        "meaning_vi": "cô đơn trên giường",
+        "confidence": "high",
+        "search_keywords": [
+          "cô đơn trên giường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cô đơn trên giường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42629,
+    "word": "独立",
+    "kana": "どくりつ",
+    "senses": [
+      {
+        "sense_id": 273010,
+        "meaning_vi": "độc lập; tự lực cánh sinh; hỗ trợ bản thân; ở một mình",
+        "confidence": "high",
+        "search_keywords": [
+          "độc lập",
+          "tự lực cánh sinh",
+          "hỗ trợ bản thân",
+          "ở một mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độc lập; tự lực cánh sinh; hỗ trợ bản thân; ở một mình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273011,
+        "meaning_vi": "sự độc lập (ví dụ của một quốc gia); sự tự do",
+        "confidence": "high",
+        "search_keywords": [
+          "sự độc lập (ví dụ của một quốc gia)",
+          "sự tự do"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự độc lập (ví dụ của một quốc gia); sự tự do",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273012,
+        "meaning_vi": "sự tách biệt; sự cô lập",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tách biệt",
+          "sự cô lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tách biệt; sự cô lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42630,
+    "word": "独立運動",
+    "kana": "どくりつうんどう",
+    "senses": [
+      {
+        "sense_id": 273013,
+        "meaning_vi": "phong trào độc lập",
+        "confidence": "high",
+        "search_keywords": [
+          "phong trào độc lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong trào độc lập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273014,
+        "meaning_vi": "độc lập lẫn nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "độc lập lẫn nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độc lập lẫn nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42631,
+    "word": "独立記念日",
+    "kana": "どくりつきねんび",
+    "senses": [
+      {
+        "sense_id": 273015,
+        "meaning_vi": "ngày độc lập",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày độc lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày độc lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42632,
+    "word": "独立心",
+    "kana": "どくりつしん",
+    "senses": [
+      {
+        "sense_id": 273016,
+        "meaning_vi": "tinh thần độc lập",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần độc lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần độc lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42633,
+    "word": "独立性",
+    "kana": "どくりつせい",
+    "senses": [
+      {
+        "sense_id": 273017,
+        "meaning_vi": "độc lập",
+        "confidence": "high",
+        "search_keywords": [
+          "độc lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độc lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42634,
+    "word": "独立宣言",
+    "kana": "どくりつせんげん",
+    "senses": [
+      {
+        "sense_id": 273018,
+        "meaning_vi": "tuyên bố độc lập",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên bố độc lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên bố độc lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42635,
+    "word": "独立独歩",
+    "kana": "どくりつどっぽ",
+    "senses": [
+      {
+        "sense_id": 273019,
+        "meaning_vi": "tự lực cánh sinh; tự lực",
+        "confidence": "high",
+        "search_keywords": [
+          "tự lực cánh sinh",
+          "tự lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tự lực cánh sinh; tự lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42636,
+    "word": "独立班",
+    "kana": "どくりつはん",
+    "senses": [
+      {
+        "sense_id": 273020,
+        "meaning_vi": "biệt đội",
+        "confidence": "high",
+        "search_keywords": [
+          "biệt đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biệt đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42637,
+    "word": "独立変数",
+    "kana": "どくりつへんすう",
+    "senses": [
+      {
+        "sense_id": 273021,
+        "meaning_vi": "biến độc lập",
+        "confidence": "high",
+        "search_keywords": [
+          "biến độc lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến độc lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42638,
+    "word": "読み",
+    "kana": "よみ",
+    "senses": [
+      {
+        "sense_id": 273022,
+        "meaning_vi": "đọc sách",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc sách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273023,
+        "meaning_vi": "cách đọc (của chữ kanji, đặc biệt là cách đọc kun)",
+        "confidence": "high",
+        "search_keywords": [
+          "cách đọc (của chữ kanji, đặc biệt là cách đọc kun)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách đọc (của chữ kanji, đặc biệt là cách đọc kun)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273024,
+        "meaning_vi": "đọc (ví dụ về một tình huống); cái nhìn thấu suốt; phán xét; giải thích; dự đoán; tính toán",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc (ví dụ về một tình huống)",
+          "cái nhìn thấu suốt",
+          "phán xét",
+          "giải thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc (ví dụ về một tình huống); cái nhìn thấu suốt; phán xét; giải thích; dự đoán; tính toán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42639,
+    "word": "読みやすい",
+    "kana": "よみやすい",
+    "senses": [
+      {
+        "sense_id": 273025,
+        "meaning_vi": "dễ đọc; dễ đọc; rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "dễ đọc",
+          "rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dễ đọc; dễ đọc; rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42640,
+    "word": "読みやすさ",
+    "kana": "よみやすさ",
+    "senses": [
+      {
+        "sense_id": 273026,
+        "meaning_vi": "dễ đọc; tính dễ đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "dễ đọc",
+          "tính dễ đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dễ đọc; tính dễ đọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42641,
+    "word": "読み下す",
+    "kana": "よみくだす",
+    "senses": [
+      {
+        "sense_id": 273027,
+        "meaning_vi": "đọc (một văn bản) từ đầu đến cuối",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc (một văn bản) từ đầu đến cuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc (một văn bản) từ đầu đến cuối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273028,
+        "meaning_vi": "phiên âm tiếng Trung cổ sang tiếng Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên âm tiếng Trung cổ sang tiếng Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên âm tiếng Trung cổ sang tiếng Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42642,
+    "word": "読みすぎる",
+    "kana": "よみすぎる",
+    "senses": [
+      {
+        "sense_id": 273029,
+        "meaning_vi": "đọc quá nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc quá nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc quá nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42643,
+    "word": "読み誤る",
+    "kana": "よみあやまる",
+    "senses": [
+      {
+        "sense_id": 273030,
+        "meaning_vi": "đọc sai (tên, chữ kanji, v.v.); đọc sai; phát âm sai (khi đọc)",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc sai (tên, chữ kanji, v.v.)",
+          "đọc sai",
+          "phát âm sai (khi đọc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc sai (tên, chữ kanji, v.v.); đọc sai; phát âm sai (khi đọc)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273031,
+        "meaning_vi": "hiểu sai (một tình huống, xu hướng, v.v.); giải thích sai; đánh giá sai",
+        "confidence": "high",
+        "search_keywords": [
+          "hiểu sai (một tình huống, xu hướng, v.v.)",
+          "giải thích sai",
+          "đánh giá sai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiểu sai (một tình huống, xu hướng, v.v.); giải thích sai; đánh giá sai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

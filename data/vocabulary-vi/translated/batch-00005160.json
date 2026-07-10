@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 123743,
+    "word": "国際標準逐次刊行物番号",
+    "kana": "こくさいひょうじゅんちくじかんこうぶつばんごう",
+    "senses": [
+      {
+        "sense_id": 367366,
+        "meaning_vi": "Số sê-ri tiêu chuẩn quốc tế; ISSN",
+        "confidence": "high",
+        "search_keywords": [
+          "Số sê-ri tiêu chuẩn quốc tế",
+          "ISSN"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Số sê-ri tiêu chuẩn quốc tế; ISSN",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123744,
+    "word": "国際符号化文字集合",
+    "kana": "こくさいふごうかもじしゅうごう",
+    "senses": [
+      {
+        "sense_id": 367367,
+        "meaning_vi": "Bộ ký tự phổ quát; UCS",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ ký tự phổ quát",
+          "UCS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ ký tự phổ quát; UCS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123745,
+    "word": "国番号",
+    "kana": "くにばんごう",
+    "senses": [
+      {
+        "sense_id": 367368,
+        "meaning_vi": "mã quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "mã quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123746,
+    "word": "国別コード",
+    "kana": "こくべつコード",
+    "senses": [
+      {
+        "sense_id": 367369,
+        "meaning_vi": "mã quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "mã quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123747,
+    "word": "国名コード",
+    "kana": "こくめいコード",
+    "senses": [
+      {
+        "sense_id": 367370,
+        "meaning_vi": "mã quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "mã quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123748,
+    "word": "根コンテキスト",
+    "kana": "ねコンテキスト",
+    "senses": [
+      {
+        "sense_id": 367371,
+        "meaning_vi": "bối cảnh gốc",
+        "confidence": "high",
+        "search_keywords": [
+          "bối cảnh gốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bối cảnh gốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123749,
+    "word": "混合基数記数法",
+    "kana": "こんごうきすうきすうほう",
+    "senses": [
+      {
+        "sense_id": 367372,
+        "meaning_vi": "hệ thống cơ số (đánh số) hỗn hợp; ký hiệu cơ số hỗn hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống cơ số (đánh số) hỗn hợp",
+          "ký hiệu cơ số hỗn hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống cơ số (đánh số) hỗn hợp; ký hiệu cơ số hỗn hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123750,
+    "word": "混合基底記数法",
+    "kana": "こんごうきていきすうほう",
+    "senses": [
+      {
+        "sense_id": 367373,
+        "meaning_vi": "hệ thống cơ sở hỗn hợp (đánh số); ký hiệu cơ sở hỗn hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống cơ sở hỗn hợp (đánh số)",
+          "ký hiệu cơ sở hỗn hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống cơ sở hỗn hợp (đánh số); ký hiệu cơ sở hỗn hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123751,
+    "word": "混合基底表記法",
+    "kana": "こんごうきていひょうきほう",
+    "senses": [
+      {
+        "sense_id": 367374,
+        "meaning_vi": "hệ thống cơ sở hỗn hợp (đánh số); ký hiệu cơ sở hỗn hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống cơ sở hỗn hợp (đánh số)",
+          "ký hiệu cơ sở hỗn hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống cơ sở hỗn hợp (đánh số); ký hiệu cơ sở hỗn hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123752,
+    "word": "混合指定表",
+    "kana": "こんごうしていひょう",
+    "senses": [
+      {
+        "sense_id": 367375,
+        "meaning_vi": "bảng nhập hỗn hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng nhập hỗn hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng nhập hỗn hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123753,
+    "word": "左シフト",
+    "kana": "ひだりシフト",
+    "senses": [
+      {
+        "sense_id": 367376,
+        "meaning_vi": "dịch trái (bitwise, số học)",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch trái (bitwise, số học)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch trái (bitwise, số học)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123754,
+    "word": "左マウスボタン",
+    "kana": "ひだりマウスボタン",
+    "senses": [
+      {
+        "sense_id": 367377,
+        "meaning_vi": "nút chuột bên trái",
+        "confidence": "high",
+        "search_keywords": [
+          "nút chuột bên trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nút chuột bên trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123755,
+    "word": "左右突出部",
+    "kana": "さゆうとっしゅつぶ",
+    "senses": [
+      {
+        "sense_id": 367378,
+        "meaning_vi": "hạt nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "hạt nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạt nhân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123756,
+    "word": "左下隅",
+    "kana": "ひだりしたすみ",
+    "senses": [
+      {
+        "sense_id": 367379,
+        "meaning_vi": "góc dưới bên trái",
+        "confidence": "high",
+        "search_keywords": [
+          "góc dưới bên trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "góc dưới bên trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123757,
+    "word": "左手座標系",
+    "kana": "ひだりてざひょうけい",
+    "senses": [
+      {
+        "sense_id": 367380,
+        "meaning_vi": "hệ tọa độ thuận tay trái",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ tọa độ thuận tay trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ tọa độ thuận tay trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123758,
+    "word": "左上隅",
+    "kana": "ひだりうえすみ",
+    "senses": [
+      {
+        "sense_id": 367381,
+        "meaning_vi": "góc trên bên trái",
+        "confidence": "high",
+        "search_keywords": [
+          "góc trên bên trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "góc trên bên trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123759,
+    "word": "左揃え",
+    "kana": "ひだりぞろえ",
+    "senses": [
+      {
+        "sense_id": 367382,
+        "meaning_vi": "căn lề trái; căn lề trái",
+        "confidence": "high",
+        "search_keywords": [
+          "căn lề trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn lề trái; căn lề trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123760,
+    "word": "左辺値",
+    "kana": "さへんち",
+    "senses": [
+      {
+        "sense_id": 367383,
+        "meaning_vi": "giá trị bên trái (của một phương trình)",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị bên trái (của một phương trình)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị bên trái (của một phương trình)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123761,
+    "word": "左方端",
+    "kana": "さほうたん",
+    "senses": [
+      {
+        "sense_id": 367384,
+        "meaning_vi": "mép bên trái",
+        "confidence": "high",
+        "search_keywords": [
+          "mép bên trái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mép bên trái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123762,
+    "word": "差し込み印刷",
+    "kana": "さしこみいんさつ",
+    "senses": [
+      {
+        "sense_id": 367385,
+        "meaning_vi": "hợp nhất in",
+        "confidence": "high",
+        "search_keywords": [
+          "hợp nhất in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hợp nhất in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,568 +1,543 @@
 [
-{
-"vocabulary_id": 141,
-"word": "お客様",
-"kana": "おきゃくさま",
-"senses": [
-{
-"sense_id": 217410,
-"meaning_vi": "quý khách",
-"confidence": "high",
-"search_keywords": [
-"quý khách",
-"khách quý",
-"khách"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quý khách; khách đến thăm được gọi một cách kính trọng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217411,
-"meaning_vi": "quý khách hàng",
-"confidence": "high",
-"search_keywords": [
-"quý khách hàng",
-"khách hàng",
-"du khách",
-"hành khách"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quý khách hàng; khách mua hàng; khán giả; du khách; hành khách",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 142,
-"word": "お休みなさい",
-"kana": "おやすみなさい",
-"senses": [
-{
-"sense_id": 217412,
-"meaning_vi": "chúc ngủ ngon",
-"confidence": "high",
-"search_keywords": [
-"chúc ngủ ngon",
-"ngủ ngon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chúc ngủ ngon; lời chào trước khi đi ngủ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 143,
-"word": "お宮",
-"kana": "おみや",
-"senses": [
-{
-"sense_id": 217413,
-"meaning_vi": "đền Thần đạo",
-"confidence": "high",
-"search_keywords": [
-"đền Thần đạo",
-"thần xã",
-"đền Shinto"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đền Thần đạo; thần xã trong tín ngưỡng Shinto",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 144,
-"word": "お宮参り",
-"kana": "おみやまいり",
-"senses": [
-{
-"sense_id": 217414,
-"meaning_vi": "lễ ra mắt thần xã",
-"confidence": "high",
-"search_keywords": [
-"lễ ra mắt thần xã",
-"miyamairi",
-"lễ cầu phúc cho trẻ sơ sinh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghi lễ đưa trẻ sơ sinh đến thần xã lần đầu để cầu phúc",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217415,
-"meaning_vi": "viếng thần xã",
-"confidence": "high",
-"search_keywords": [
-"viếng thần xã",
-"đi đền",
-"tham bái thần xã"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đến thần xã để tham bái hoặc cầu nguyện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 145,
-"word": "お供",
-"kana": "おとも",
-"senses": [
-{
-"sense_id": 217416,
-"meaning_vi": "tháp tùng",
-"confidence": "high",
-"search_keywords": [
-"tháp tùng",
-"người đi cùng",
-"bạn đồng hành"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc hoặc người đi theo tháp tùng; bạn đồng hành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 146,
-"word": "お金",
-"kana": "おかね",
-"senses": [
-{
-"sense_id": 217417,
-"meaning_vi": "tiền",
-"confidence": "high",
-"search_keywords": [
-"tiền",
-"tiền bạc",
-"tiền mặt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiền; tiền bạc; tài sản dùng để thanh toán",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 147,
-"word": "お兄さん",
-"kana": "おにいさん",
-"senses": [
-{
-"sense_id": 217418,
-"meaning_vi": "anh trai",
-"confidence": "high",
-"search_keywords": [
-"anh trai",
-"anh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "anh trai; cách gọi kính trọng anh của người khác",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217419,
-"meaning_vi": "anh bạn",
-"confidence": "high",
-"search_keywords": [
-"anh bạn",
-"cậu thanh niên",
-"anh chàng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi thân mật một nam thanh niên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 148,
-"word": "お兄ちゃん",
-"kana": "おにいちゃん",
-"senses": [
-{
-"sense_id": 217420,
-"meaning_vi": "anh hai",
-"confidence": "high",
-"search_keywords": [
-"anh hai",
-"anh trai",
-"anh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi thân mật anh trai",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217421,
-"meaning_vi": "cậu bé",
-"confidence": "high",
-"search_keywords": [
-"cậu bé",
-"nhóc",
-"cậu nhóc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi thân mật một cậu bé hoặc thiếu niên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 149,
-"word": "お結び",
-"kana": "おむすび",
-"senses": [
-{
-"sense_id": 217422,
-"meaning_vi": "cơm nắm",
-"confidence": "high",
-"search_keywords": [
-"cơm nắm",
-"onigiri",
-"cơm nắm Nhật"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơm nắm kiểu Nhật; cách gọi lịch sự của onigiri",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 150,
-"word": "お見えになる",
-"kana": "おみえになる",
-"senses": [
-{
-"sense_id": 217423,
-"meaning_vi": "quang lâm",
-"confidence": "high",
-"search_keywords": [
-"quang lâm",
-"đến",
-"ghé đến",
-"kính ngữ của đến"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đến; ghé đến; cách nói kính ngữ của 来る",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 151,
-"word": "お見舞い",
-"kana": "おみまい",
-"senses": [
-{
-"sense_id": 217424,
-"meaning_vi": "thăm hỏi",
-"confidence": "high",
-"search_keywords": [
-"thăm hỏi",
-"thăm bệnh",
-"chia buồn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đến thăm hỏi người bệnh hoặc người gặp bất hạnh; bày tỏ sự cảm thông",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217425,
-"meaning_vi": "quà thăm hỏi",
-"confidence": "high",
-"search_keywords": [
-"quà thăm hỏi",
-"thư thăm hỏi",
-"thư hỏi thăm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thư hoặc quà gửi để thăm hỏi, động viên hoặc chia buồn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 152,
-"word": "お古",
-"kana": "おふる",
-"senses": [
-{
-"sense_id": 217426,
-"meaning_vi": "đồ cũ",
-"confidence": "high",
-"search_keywords": [
-"đồ cũ",
-"đồ đã qua sử dụng",
-"quần áo cũ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đồ đã qua sử dụng, đặc biệt là quần áo cũ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 153,
-"word": "お好み焼き",
-"kana": "おこのみやき",
-"senses": [
-{
-"sense_id": 217427,
-"meaning_vi": "bánh xèo Nhật",
-"confidence": "high",
-"search_keywords": [
-"okonomiyaki",
-"bánh xèo Nhật",
-"bánh Nhật áp chảo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "okonomiyaki; món bánh áp chảo của Nhật với rau, thịt hoặc hải sản",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 154,
-"word": "お構いなく",
-"kana": "おかまいなく",
-"senses": [
-{
-"sense_id": 217428,
-"meaning_vi": "xin đừng khách sáo",
-"confidence": "high",
-"search_keywords": [
-"đừng khách sáo",
-"đừng bận tâm",
-"không cần phiền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xin đừng khách sáo; không cần phải bận tâm hay mất công vì tôi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 155,
-"word": "お絞り",
-"kana": "おしぼり",
-"senses": [
-{
-"sense_id": 217429,
-"meaning_vi": "khăn lau tay",
-"confidence": "high",
-"search_keywords": [
-"khăn lau tay",
-"oshibori",
-"khăn nóng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khăn ướt hoặc khăn nóng dùng lau tay trước bữa ăn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 156,
-"word": "お札",
-"kana": "おさつ",
-"senses": [
-{
-"sense_id": 217430,
-"meaning_vi": "tiền giấy",
-"confidence": "high",
-"search_keywords": [
-"tiền giấy",
-"tờ tiền",
-"giấy bạc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiền giấy; giấy bạc; ngân phiếu lưu hành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 157,
-"word": "お雑煮",
-"kana": "おぞうに",
-"senses": [
-{
-"sense_id": 217431,
-"meaning_vi": "canh ozoni",
-"confidence": "high",
-"search_keywords": [
-"ozoni",
-"canh ozoni",
-"canh bánh gạo năm mới"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "món canh năm mới của Nhật có bánh gạo và rau củ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 158,
-"word": "お三時",
-"kana": "おさんじ",
-"senses": [
-{
-"sense_id": 217432,
-"meaning_vi": "bữa xế",
-"confidence": "high",
-"search_keywords": [
-"bữa xế",
-"ăn nhẹ buổi chiều",
-"trà chiều"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bữa ăn nhẹ hoặc trà chiều khoảng ba giờ chiều",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 159,
-"word": "お参り",
-"kana": "おまいり",
-"senses": [
-{
-"sense_id": 217433,
-"meaning_vi": "đi lễ",
-"confidence": "high",
-"search_keywords": [
-"đi lễ",
-"tham bái",
-"viếng mộ",
-"đi đền chùa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đi lễ tại đền, chùa, thần xã hoặc viếng mộ để cầu nguyện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 160,
-"word": "お産",
-"kana": "おさん",
-"senses": [
-{
-"sense_id": 217434,
-"meaning_vi": "sinh nở",
-"confidence": "high",
-"search_keywords": [
-"sinh nở",
-"sinh con",
-"sinh đẻ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sinh nở; quá trình sinh con; ca sinh",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 141,
+    "word": "お客様",
+    "kana": "おきゃくさま",
+    "senses": [
+      {
+        "sense_id": 217410,
+        "meaning_vi": "khách mời; du khách",
+        "confidence": "high",
+        "search_keywords": [
+          "khách mời",
+          "du khách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khách mời; du khách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217411,
+        "meaning_vi": "khách hàng; khách hàng; người mua sắm; khán giả; khán giả; du khách; người ngắm cảnh; hành khách",
+        "confidence": "high",
+        "search_keywords": [
+          "khách hàng",
+          "người mua sắm",
+          "khán giả",
+          "du khách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khách hàng; khách hàng; người mua sắm; khán giả; khán giả; du khách; người ngắm cảnh; hành khách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 142,
+    "word": "お休みなさい",
+    "kana": "おやすみなさい",
+    "senses": [
+      {
+        "sense_id": 217412,
+        "meaning_vi": "chúc ngủ ngon",
+        "confidence": "high",
+        "search_keywords": [
+          "chúc ngủ ngon"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chúc ngủ ngon",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 143,
+    "word": "お宮",
+    "kana": "おみや",
+    "senses": [
+      {
+        "sense_id": 217413,
+        "meaning_vi": "Đền thờ Thần đạo",
+        "confidence": "high",
+        "search_keywords": [
+          "Đền thờ Thần đạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đền thờ Thần đạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 144,
+    "word": "お宮参り",
+    "kana": "おみやまいり",
+    "senses": [
+      {
+        "sense_id": 217414,
+        "meaning_vi": "miyamairi; Lần đầu tiên trẻ sơ sinh đến thăm đền thờ (trong vòng khoảng 30 ngày sau khi sinh)",
+        "confidence": "high",
+        "search_keywords": [
+          "miyamairi",
+          "Lần đầu tiên trẻ sơ sinh đến thăm đền thờ (trong vòng khoảng 30 ngày sau khi sinh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "miyamairi; Lần đầu tiên trẻ sơ sinh đến thăm đền thờ (trong vòng khoảng 30 ngày sau khi sinh)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217415,
+        "meaning_vi": "thăm một ngôi đền",
+        "confidence": "high",
+        "search_keywords": [
+          "thăm một ngôi đền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thăm một ngôi đền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 145,
+    "word": "お供",
+    "kana": "おとも",
+    "senses": [
+      {
+        "sense_id": 217416,
+        "meaning_vi": "tiếp viên; bạn đồng hành",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp viên",
+          "bạn đồng hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp viên; bạn đồng hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 146,
+    "word": "お金",
+    "kana": "おかね",
+    "senses": [
+      {
+        "sense_id": 217417,
+        "meaning_vi": "tiền bạc",
+        "confidence": "high",
+        "search_keywords": [
+          "tiền bạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiền bạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 147,
+    "word": "お兄さん",
+    "kana": "おにいさん",
+    "senses": [
+      {
+        "sense_id": 217418,
+        "meaning_vi": "anh trai; anh trai",
+        "confidence": "high",
+        "search_keywords": [
+          "anh trai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anh trai; anh trai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217419,
+        "meaning_vi": "chàng trai trẻ; bạn bè; anh bạn; cậu bé",
+        "confidence": "high",
+        "search_keywords": [
+          "chàng trai trẻ",
+          "bạn bè",
+          "anh bạn",
+          "cậu bé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chàng trai trẻ; bạn bè; anh bạn; cậu bé",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 148,
+    "word": "お兄ちゃん",
+    "kana": "おにいちゃん",
+    "senses": [
+      {
+        "sense_id": 217420,
+        "meaning_vi": "(của một người) anh trai",
+        "confidence": "high",
+        "search_keywords": [
+          "(của một người) anh trai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(của một người) anh trai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217421,
+        "meaning_vi": "thanh niên; nhóc con",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh niên",
+          "nhóc con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh niên; nhóc con",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 149,
+    "word": "お結び",
+    "kana": "おむすび",
+    "senses": [
+      {
+        "sense_id": 217422,
+        "meaning_vi": "cơm nắm; cơm nắm",
+        "confidence": "high",
+        "search_keywords": [
+          "cơm nắm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơm nắm; cơm nắm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 150,
+    "word": "お見えになる",
+    "kana": "おみえになる",
+    "senses": [
+      {
+        "sense_id": 217423,
+        "meaning_vi": "đến ; đến",
+        "confidence": "high",
+        "search_keywords": [
+          "đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến ; đến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151,
+    "word": "お見舞い",
+    "kana": "おみまい",
+    "senses": [
+      {
+        "sense_id": 217424,
+        "meaning_vi": "thăm (người bị ảnh hưởng bởi bệnh tật hoặc bất hạnh); gọi; hỏi thăm (về sức khỏe của ai đó); bày tỏ sự đồng cảm",
+        "confidence": "high",
+        "search_keywords": [
+          "thăm (người bị ảnh hưởng bởi bệnh tật hoặc bất hạnh)",
+          "gọi",
+          "hỏi thăm (về sức khỏe của ai đó)",
+          "bày tỏ sự đồng cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thăm (người bị ảnh hưởng bởi bệnh tật hoặc bất hạnh); gọi; hỏi thăm (về sức khỏe của ai đó); bày tỏ sự đồng cảm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217425,
+        "meaning_vi": "thư hỏi thăm; thư chia buồn; thư chúc sức khỏe; món quà (để thể hiện sự cảm thông của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "thư hỏi thăm",
+          "thư chia buồn",
+          "thư chúc sức khỏe",
+          "món quà (để thể hiện sự cảm thông của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư hỏi thăm; thư chia buồn; thư chúc sức khỏe; món quà (để thể hiện sự cảm thông của một người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 152,
+    "word": "お古",
+    "kana": "おふる",
+    "senses": [
+      {
+        "sense_id": 217426,
+        "meaning_vi": "đồ đã qua sử dụng (đặc biệt là quần áo)",
+        "confidence": "high",
+        "search_keywords": [
+          "đồ đã qua sử dụng (đặc biệt là quần áo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồ đã qua sử dụng (đặc biệt là quần áo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 153,
+    "word": "お好み焼き",
+    "kana": "おこのみやき",
+    "senses": [
+      {
+        "sense_id": 217427,
+        "meaning_vi": "okonomiyaki; bánh pancake mặn chiên trên vỉ sắt với rau, thịt và/hoặc hải sản và phủ nhiều loại nước sốt và gia vị khác nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "okonomiyaki",
+          "bánh pancake mặn chiên trên vỉ sắt với rau, thịt và/hoặc hải sản và phủ nhiều loại nước sốt và gia vị khác nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "okonomiyaki; bánh pancake mặn chiên trên vỉ sắt với rau, thịt và/hoặc hải sản và phủ nhiều loại nước sốt và gia vị khác nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 154,
+    "word": "お構いなく",
+    "kana": "おかまいなく",
+    "senses": [
+      {
+        "sense_id": 217428,
+        "meaning_vi": "xin đừng bận tâm đến tôi; đừng gặp rắc rối nào; đừng bận tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "xin đừng bận tâm đến tôi",
+          "đừng gặp rắc rối nào",
+          "đừng bận tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xin đừng bận tâm đến tôi; đừng gặp rắc rối nào; đừng bận tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 155,
+    "word": "お絞り",
+    "kana": "おしぼり",
+    "senses": [
+      {
+        "sense_id": 217429,
+        "meaning_vi": "khăn ướt (cung cấp tại bàn); khăn tay nóng và ẩm",
+        "confidence": "high",
+        "search_keywords": [
+          "khăn ướt (cung cấp tại bàn)",
+          "khăn tay nóng và ẩm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khăn ướt (cung cấp tại bàn); khăn tay nóng và ẩm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 156,
+    "word": "お札",
+    "kana": "おさつ",
+    "senses": [
+      {
+        "sense_id": 217430,
+        "meaning_vi": "tiền giấy; hóa đơn; ghi chú",
+        "confidence": "high",
+        "search_keywords": [
+          "tiền giấy",
+          "hóa đơn",
+          "ghi chú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiền giấy; hóa đơn; ghi chú",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 157,
+    "word": "お雑煮",
+    "kana": "おぞうに",
+    "senses": [
+      {
+        "sense_id": 217431,
+        "meaning_vi": "Canh bánh gạo và rau củ (món ăn ngày Tết)",
+        "confidence": "high",
+        "search_keywords": [
+          "Canh bánh gạo và rau củ (món ăn ngày Tết)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Canh bánh gạo và rau củ (món ăn ngày Tết)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 158,
+    "word": "お三時",
+    "kana": "おさんじ",
+    "senses": [
+      {
+        "sense_id": 217432,
+        "meaning_vi": "bữa ăn nhẹ buổi chiều (ăn khoảng 3 giờ); trà chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "bữa ăn nhẹ buổi chiều (ăn khoảng 3 giờ)",
+          "trà chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bữa ăn nhẹ buổi chiều (ăn khoảng 3 giờ); trà chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 159,
+    "word": "お参り",
+    "kana": "おまいり",
+    "senses": [
+      {
+        "sense_id": 217433,
+        "meaning_vi": "thăm (đến đền thờ, mộ, v.v.); tôn sùng",
+        "confidence": "high",
+        "search_keywords": [
+          "thăm (đến đền thờ, mộ, v.v.)",
+          "tôn sùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thăm (đến đền thờ, mộ, v.v.); tôn sùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 160,
+    "word": "お産",
+    "kana": "おさん",
+    "senses": [
+      {
+        "sense_id": 217434,
+        "meaning_vi": "(sinh) sinh; sinh con; vận chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "(sinh) sinh",
+          "sinh con",
+          "vận chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(sinh) sinh; sinh con; vận chuyển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

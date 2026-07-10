@@ -1,0 +1,541 @@
+[
+  {
+    "vocabulary_id": 25524,
+    "word": "工業",
+    "kana": "こうぎょう",
+    "senses": [
+      {
+        "sense_id": 249964,
+        "meaning_vi": "(sản xuất) ngành công nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "(sản xuất) ngành công nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(sản xuất) ngành công nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25525,
+    "word": "工業規格",
+    "kana": "こうぎょうきかく",
+    "senses": [
+      {
+        "sense_id": 249965,
+        "meaning_vi": "tiêu chuẩn công nghiệp; tiêu chuẩn kỹ thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu chuẩn công nghiệp",
+          "tiêu chuẩn kỹ thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu chuẩn công nghiệp; tiêu chuẩn kỹ thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25526,
+    "word": "工業地区",
+    "kana": "こうぎょうちく",
+    "senses": [
+      {
+        "sense_id": 249966,
+        "meaning_vi": "khu công nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "khu công nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu công nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25527,
+    "word": "工具",
+    "kana": "こうぐ",
+    "senses": [
+      {
+        "sense_id": 249967,
+        "meaning_vi": "dụng cụ; thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "dụng cụ",
+          "thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dụng cụ; thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25528,
+    "word": "工具入",
+    "kana": "こうぐいれ",
+    "senses": [
+      {
+        "sense_id": 249968,
+        "meaning_vi": "hộp công cụ",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp công cụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp công cụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25529,
+    "word": "工芸",
+    "kana": "こうげい",
+    "senses": [
+      {
+        "sense_id": 249969,
+        "meaning_vi": "nghệ thuật công nghiệp; thủ công",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ thuật công nghiệp",
+          "thủ công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ thuật công nghiệp; thủ công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25530,
+    "word": "工作",
+    "kana": "こうさく",
+    "senses": [
+      {
+        "sense_id": 249970,
+        "meaning_vi": "thủ công mỹ nghệ",
+        "confidence": "high",
+        "search_keywords": [
+          "thủ công mỹ nghệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ công mỹ nghệ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249971,
+        "meaning_vi": "công việc; sự thi công; sản xuất",
+        "confidence": "high",
+        "search_keywords": [
+          "công việc",
+          "sự thi công",
+          "sản xuất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công việc; sự thi công; sản xuất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249972,
+        "meaning_vi": "điều động; sự điều động",
+        "confidence": "high",
+        "search_keywords": [
+          "điều động",
+          "sự điều động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều động; sự điều động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25531,
+    "word": "工作機械",
+    "kana": "こうさくきかい",
+    "senses": [
+      {
+        "sense_id": 249973,
+        "meaning_vi": "máy công cụ",
+        "confidence": "high",
+        "search_keywords": [
+          "máy công cụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy công cụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25532,
+    "word": "工作物",
+    "kana": "こうさくぶつ",
+    "senses": [
+      {
+        "sense_id": 249974,
+        "meaning_vi": "mặt hàng được sản xuất; làm việc",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt hàng được sản xuất",
+          "làm việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt hàng được sản xuất; làm việc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249975,
+        "meaning_vi": "(a) xây dựng; cấu trúc",
+        "confidence": "high",
+        "search_keywords": [
+          "(a) xây dựng",
+          "cấu trúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(a) xây dựng; cấu trúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25533,
+    "word": "工事",
+    "kana": "こうじ",
+    "senses": [
+      {
+        "sense_id": 249976,
+        "meaning_vi": "công trình xây dựng",
+        "confidence": "high",
+        "search_keywords": [
+          "công trình xây dựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công trình xây dựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25534,
+    "word": "工事現場",
+    "kana": "こうじげんば",
+    "senses": [
+      {
+        "sense_id": 249977,
+        "meaning_vi": "công trường xây dựng",
+        "confidence": "high",
+        "search_keywords": [
+          "công trường xây dựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công trường xây dựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25535,
+    "word": "工事中",
+    "kana": "こうじちゅう",
+    "senses": [
+      {
+        "sense_id": 249978,
+        "meaning_vi": "đang được xây dựng",
+        "confidence": "high",
+        "search_keywords": [
+          "đang được xây dựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang được xây dựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25536,
+    "word": "工匠",
+    "kana": "こうしょう",
+    "senses": [
+      {
+        "sense_id": 249979,
+        "meaning_vi": "nghệ nhân; thợ cơ khí",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ nhân",
+          "thợ cơ khí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ nhân; thợ cơ khí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25537,
+    "word": "工場実習",
+    "kana": "こうじょうじっしゅう",
+    "senses": [
+      {
+        "sense_id": 249980,
+        "meaning_vi": "chuồng; thực tập",
+        "confidence": "high",
+        "search_keywords": [
+          "chuồng",
+          "thực tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuồng; thực tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25538,
+    "word": "工数",
+    "kana": "こうすう",
+    "senses": [
+      {
+        "sense_id": 249981,
+        "meaning_vi": "khối lượng công việc; giờ công",
+        "confidence": "high",
+        "search_keywords": [
+          "khối lượng công việc",
+          "giờ công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khối lượng công việc; giờ công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25539,
+    "word": "工賃",
+    "kana": "こうちん",
+    "senses": [
+      {
+        "sense_id": 249982,
+        "meaning_vi": "chi phí lao động; thù lao; tiền lương; trả tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí lao động",
+          "thù lao",
+          "tiền lương",
+          "trả tiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí lao động; thù lao; tiền lương; trả tiền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25540,
+    "word": "工程",
+    "kana": "こうてい",
+    "senses": [
+      {
+        "sense_id": 249983,
+        "meaning_vi": "quá trình; hoạt động; giai đoạn của một quá trình; tiến độ công việc",
+        "confidence": "high",
+        "search_keywords": [
+          "quá trình",
+          "hoạt động",
+          "giai đoạn của một quá trình",
+          "tiến độ công việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình; hoạt động; giai đoạn của một quá trình; tiến độ công việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25541,
+    "word": "工費",
+    "kana": "こうひ",
+    "senses": [
+      {
+        "sense_id": 249984,
+        "meaning_vi": "chi phí xây dựng",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí xây dựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí xây dựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25542,
+    "word": "工夫",
+    "kana": "くふう",
+    "senses": [
+      {
+        "sense_id": 249985,
+        "meaning_vi": "nghĩ ra (một cách); đang cố gắng ; phát minh; suy nghĩ; tìm ra ; nghĩ ra ; tập thể dục",
+        "confidence": "high",
+        "search_keywords": [
+          "nghĩ ra (một cách)",
+          "đang cố gắng",
+          "phát minh",
+          "suy nghĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghĩ ra (một cách); đang cố gắng ; phát minh; suy nghĩ; tìm ra ; nghĩ ra ; tập thể dục",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249986,
+        "meaning_vi": "thiết bị; thiết kế; ý tưởng; kế hoạch; phát minh",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị",
+          "thiết kế",
+          "ý tưởng",
+          "kế hoạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị; thiết kế; ý tưởng; kế hoạch; phát minh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 249987,
+        "meaning_vi": "cống hiến cho việc cải thiện tinh thần (đặc biệt thông qua thiền Zen)",
+        "confidence": "high",
+        "search_keywords": [
+          "cống hiến cho việc cải thiện tinh thần (đặc biệt thông qua thiền Zen)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cống hiến cho việc cải thiện tinh thần (đặc biệt thông qua thiền Zen)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 25543,
+    "word": "工夫",
+    "kana": "こうふ",
+    "senses": [
+      {
+        "sense_id": 249988,
+        "meaning_vi": "người lao động; người lao động; công nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "người lao động",
+          "công nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lao động; người lao động; công nhân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

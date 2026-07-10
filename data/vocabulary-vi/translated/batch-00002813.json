@@ -1,0 +1,513 @@
+[
+  {
+    "vocabulary_id": 72072,
+    "word": "道中",
+    "kana": "どうちゅう",
+    "senses": [
+      {
+        "sense_id": 310375,
+        "meaning_vi": "hành trình; chuyến đi; chuyến đi",
+        "confidence": "high",
+        "search_keywords": [
+          "hành trình",
+          "chuyến đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành trình; chuyến đi; chuyến đi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 310376,
+        "meaning_vi": "trong cuộc hành trình; trên đường đi; trong khi đi du lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "trong cuộc hành trình",
+          "trên đường đi",
+          "trong khi đi du lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong cuộc hành trình; trên đường đi; trong khi đi du lịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72073,
+    "word": "道中記",
+    "kana": "どうちゅうき",
+    "senses": [
+      {
+        "sense_id": 310377,
+        "meaning_vi": "tạp chí du lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "tạp chí du lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạp chí du lịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72074,
+    "word": "道化方",
+    "kana": "どうけがた",
+    "senses": [
+      {
+        "sense_id": 310378,
+        "meaning_vi": "dōkegata (anh hề kabuki)",
+        "confidence": "high",
+        "search_keywords": [
+          "dōkegata (anh hề kabuki)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dōkegata (anh hề kabuki)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72075,
+    "word": "道化者",
+    "kana": "どうけもの",
+    "senses": [
+      {
+        "sense_id": 310379,
+        "meaning_vi": "thằng hề; gã hề",
+        "confidence": "high",
+        "search_keywords": [
+          "thằng hề",
+          "gã hề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thằng hề; gã hề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72076,
+    "word": "道化師",
+    "kana": "どうけし",
+    "senses": [
+      {
+        "sense_id": 310380,
+        "meaning_vi": "thằng hề",
+        "confidence": "high",
+        "search_keywords": [
+          "thằng hề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thằng hề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72077,
+    "word": "道心",
+    "kana": "どうしん",
+    "senses": [
+      {
+        "sense_id": 310381,
+        "meaning_vi": "ý thức đạo đức",
+        "confidence": "high",
+        "search_keywords": [
+          "ý thức đạo đức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý thức đạo đức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72078,
+    "word": "道学",
+    "kana": "どうがく",
+    "senses": [
+      {
+        "sense_id": 310382,
+        "meaning_vi": "đạo đức; triết lý đạo đức",
+        "confidence": "high",
+        "search_keywords": [
+          "đạo đức",
+          "triết lý đạo đức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đạo đức; triết lý đạo đức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 310383,
+        "meaning_vi": "(nghiên cứu về) Nho giáo (đặc biệt là trường phái Tân Nho giáo Cheng-Zhu)",
+        "confidence": "high",
+        "search_keywords": [
+          "(nghiên cứu về) Nho giáo (đặc biệt là trường phái Tân Nho giáo Cheng-Zhu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(nghiên cứu về) Nho giáo (đặc biệt là trường phái Tân Nho giáo Cheng-Zhu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 310384,
+        "meaning_vi": "(nghiên cứu) Đạo giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "(nghiên cứu) Đạo giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(nghiên cứu) Đạo giáo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 310385,
+        "meaning_vi": "Shingaku (Triết học đạo đức thời Edo)",
+        "confidence": "high",
+        "search_keywords": [
+          "Shingaku (Triết học đạo đức thời Edo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Shingaku (Triết học đạo đức thời Edo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72079,
+    "word": "道学者",
+    "kana": "どうがくしゃ",
+    "senses": [
+      {
+        "sense_id": 310386,
+        "meaning_vi": "Đạo giáo; nhà đạo đức học",
+        "confidence": "high",
+        "search_keywords": [
+          "Đạo giáo",
+          "nhà đạo đức học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đạo giáo; nhà đạo đức học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72080,
+    "word": "道床",
+    "kana": "どうしょう",
+    "senses": [
+      {
+        "sense_id": 310387,
+        "meaning_vi": "nền đường",
+        "confidence": "high",
+        "search_keywords": [
+          "nền đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nền đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72081,
+    "word": "道糸",
+    "kana": "みちいと",
+    "senses": [
+      {
+        "sense_id": 310388,
+        "meaning_vi": "dây câu",
+        "confidence": "high",
+        "search_keywords": [
+          "dây câu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dây câu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72082,
+    "word": "道念",
+    "kana": "どうねん",
+    "senses": [
+      {
+        "sense_id": 310389,
+        "meaning_vi": "ý thức đạo đức; vợ của một nhà sư",
+        "confidence": "high",
+        "search_keywords": [
+          "ý thức đạo đức",
+          "vợ của một nhà sư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý thức đạo đức; vợ của một nhà sư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72083,
+    "word": "道具方",
+    "kana": "どうぐかた",
+    "senses": [
+      {
+        "sense_id": 310390,
+        "meaning_vi": "người ủng hộ; người chuyển cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "người ủng hộ",
+          "người chuyển cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ủng hộ; người chuyển cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72084,
+    "word": "道具立て",
+    "kana": "どうぐだて",
+    "senses": [
+      {
+        "sense_id": 310391,
+        "meaning_vi": "chuẩn bị dụng cụ",
+        "confidence": "high",
+        "search_keywords": [
+          "chuẩn bị dụng cụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuẩn bị dụng cụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72085,
+    "word": "道具屋",
+    "kana": "どうぐや",
+    "senses": [
+      {
+        "sense_id": 310392,
+        "meaning_vi": "cửa hàng đồ cũ; cửa hàng đồ cổ",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa hàng đồ cũ",
+          "cửa hàng đồ cổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa hàng đồ cũ; cửa hàng đồ cổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72086,
+    "word": "道具箱",
+    "kana": "どうぐばこ",
+    "senses": [
+      {
+        "sense_id": 310393,
+        "meaning_vi": "hộp công cụ",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp công cụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp công cụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72087,
+    "word": "道俗",
+    "kana": "どうぞく",
+    "senses": [
+      {
+        "sense_id": 310394,
+        "meaning_vi": "tu sĩ và cư sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "tu sĩ và cư sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tu sĩ và cư sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72088,
+    "word": "道祖神",
+    "kana": "どうそじん",
+    "senses": [
+      {
+        "sense_id": 310395,
+        "meaning_vi": "vị thần hộ mệnh của du khách (du khách)",
+        "confidence": "high",
+        "search_keywords": [
+          "vị thần hộ mệnh của du khách (du khách)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị thần hộ mệnh của du khách (du khách)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72089,
+    "word": "道家",
+    "kana": "どうか",
+    "senses": [
+      {
+        "sense_id": 310396,
+        "meaning_vi": "Đạo giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "Đạo giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đạo giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72090,
+    "word": "道普請",
+    "kana": "みちぶしん",
+    "senses": [
+      {
+        "sense_id": 310397,
+        "meaning_vi": "sửa chữa đường; xây dựng đường; công việc làm đường",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa chữa đường",
+          "xây dựng đường",
+          "công việc làm đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa chữa đường; xây dựng đường; công việc làm đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72091,
+    "word": "道場破り",
+    "kana": "どうじょうやぶり",
+    "senses": [
+      {
+        "sense_id": 310398,
+        "meaning_vi": "đến thăm một trường học khác (ví dụ: kendo) và đánh bại từng thành viên trong một trận chiến",
+        "confidence": "high",
+        "search_keywords": [
+          "đến thăm một trường học khác (ví dụ: kendo) và đánh bại từng thành viên trong một trận chiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến thăm một trường học khác (ví dụ: kendo) và đánh bại từng thành viên trong một trận chiến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

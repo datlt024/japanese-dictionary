@@ -1,0 +1,573 @@
+[
+  {
+    "vocabulary_id": 21666,
+    "word": "狭心症",
+    "kana": "きょうしんしょう",
+    "senses": [
+      {
+        "sense_id": 244842,
+        "meaning_vi": "đau thắt ngực",
+        "confidence": "high",
+        "search_keywords": [
+          "đau thắt ngực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đau thắt ngực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21667,
+    "word": "狭量",
+    "kana": "きょうりょう",
+    "senses": [
+      {
+        "sense_id": 244843,
+        "meaning_vi": "hẹp hòi; không khoan dung; nhỏ mọn",
+        "confidence": "high",
+        "search_keywords": [
+          "hẹp hòi",
+          "không khoan dung",
+          "nhỏ mọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hẹp hòi; không khoan dung; nhỏ mọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21668,
+    "word": "矯める",
+    "kana": "ためる",
+    "senses": [
+      {
+        "sense_id": 244844,
+        "meaning_vi": "làm thẳng; sửa chữa; chữa bệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "làm thẳng",
+          "sửa chữa",
+          "chữa bệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm thẳng; sửa chữa; chữa bệnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 244845,
+        "meaning_vi": "làm sai lệch",
+        "confidence": "high",
+        "search_keywords": [
+          "làm sai lệch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm sai lệch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21669,
+    "word": "矯め直す",
+    "kana": "ためなおす",
+    "senses": [
+      {
+        "sense_id": 244846,
+        "meaning_vi": "để thiết lập lại; sửa chữa; chữa bệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "để thiết lập lại",
+          "sửa chữa",
+          "chữa bệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thiết lập lại; sửa chữa; chữa bệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21670,
+    "word": "矯激",
+    "kana": "きょうげき",
+    "senses": [
+      {
+        "sense_id": 244847,
+        "meaning_vi": "cấp tiến; vô cùng; lập dị",
+        "confidence": "high",
+        "search_keywords": [
+          "cấp tiến",
+          "vô cùng",
+          "lập dị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấp tiến; vô cùng; lập dị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21671,
+    "word": "矯正",
+    "kana": "きょうせい",
+    "senses": [
+      {
+        "sense_id": 244848,
+        "meaning_vi": "sửa chữa (lỗi, khiếm khuyết, thiếu sót, v.v.); biện pháp khắc phục; cải chính; khắc phục; cải cách; làm thẳng (răng)",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa chữa (lỗi, khiếm khuyết, thiếu sót, v.v.)",
+          "biện pháp khắc phục",
+          "cải chính",
+          "khắc phục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa chữa (lỗi, khiếm khuyết, thiếu sót, v.v.); biện pháp khắc phục; cải chính; khắc phục; cải cách; làm thẳng (răng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21672,
+    "word": "矯風",
+    "kana": "きょうふう",
+    "senses": [
+      {
+        "sense_id": 244849,
+        "meaning_vi": "cải cách đạo đức",
+        "confidence": "high",
+        "search_keywords": [
+          "cải cách đạo đức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cải cách đạo đức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21673,
+    "word": "胸",
+    "kana": "むね",
+    "senses": [
+      {
+        "sense_id": 244850,
+        "meaning_vi": "ngực; vú",
+        "confidence": "high",
+        "search_keywords": [
+          "ngực",
+          "vú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngực; vú",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 244851,
+        "meaning_vi": "ngực; ngực; bức tượng bán thân",
+        "confidence": "high",
+        "search_keywords": [
+          "ngực",
+          "bức tượng bán thân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngực; ngực; bức tượng bán thân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 244852,
+        "meaning_vi": "trái tim",
+        "confidence": "high",
+        "search_keywords": [
+          "trái tim"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái tim",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 244853,
+        "meaning_vi": "phổi",
+        "confidence": "high",
+        "search_keywords": [
+          "phổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phổi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 244854,
+        "meaning_vi": "dạ dày",
+        "confidence": "high",
+        "search_keywords": [
+          "dạ dày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dạ dày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 244855,
+        "meaning_vi": "trái tim; tâm trí; cảm xúc",
+        "confidence": "high",
+        "search_keywords": [
+          "trái tim",
+          "tâm trí",
+          "cảm xúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái tim; tâm trí; cảm xúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21674,
+    "word": "胸囲",
+    "kana": "きょうい",
+    "senses": [
+      {
+        "sense_id": 244856,
+        "meaning_vi": "đo ngực",
+        "confidence": "high",
+        "search_keywords": [
+          "đo ngực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đo ngực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21675,
+    "word": "胸奥",
+    "kana": "きょうおう",
+    "senses": [
+      {
+        "sense_id": 244857,
+        "meaning_vi": "trái tim của trái tim; chiều sâu tâm trí của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "trái tim của trái tim",
+          "chiều sâu tâm trí của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái tim của trái tim; chiều sâu tâm trí của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21676,
+    "word": "胸郭",
+    "kana": "きょうかく",
+    "senses": [
+      {
+        "sense_id": 244858,
+        "meaning_vi": "ngực; ngực",
+        "confidence": "high",
+        "search_keywords": [
+          "ngực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngực; ngực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21677,
+    "word": "胸襟",
+    "kana": "きょうきん",
+    "senses": [
+      {
+        "sense_id": 244859,
+        "meaning_vi": "trái tim của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "trái tim của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái tim của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21678,
+    "word": "胸元",
+    "kana": "むなもと",
+    "senses": [
+      {
+        "sense_id": 244860,
+        "meaning_vi": "nhũ hoa; ngực",
+        "confidence": "high",
+        "search_keywords": [
+          "nhũ hoa",
+          "ngực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhũ hoa; ngực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 244861,
+        "meaning_vi": "hố dạ dày; đám rối mặt trời; thượng vị",
+        "confidence": "high",
+        "search_keywords": [
+          "hố dạ dày",
+          "đám rối mặt trời",
+          "thượng vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hố dạ dày; đám rối mặt trời; thượng vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21679,
+    "word": "胸腔",
+    "kana": "きょうこう",
+    "senses": [
+      {
+        "sense_id": 244862,
+        "meaning_vi": "ngực; khoang ngực",
+        "confidence": "high",
+        "search_keywords": [
+          "ngực",
+          "khoang ngực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngực; khoang ngực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21680,
+    "word": "胸骨",
+    "kana": "きょうこつ",
+    "senses": [
+      {
+        "sense_id": 244863,
+        "meaning_vi": "xương ức; xương ức",
+        "confidence": "high",
+        "search_keywords": [
+          "xương ức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xương ức; xương ức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21681,
+    "word": "胸三寸",
+    "kana": "むねさんずん",
+    "senses": [
+      {
+        "sense_id": 244864,
+        "meaning_vi": "trái tim; tâm trí; cảm xúc",
+        "confidence": "high",
+        "search_keywords": [
+          "trái tim",
+          "tâm trí",
+          "cảm xúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái tim; tâm trí; cảm xúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21682,
+    "word": "胸焼け",
+    "kana": "むねやけ",
+    "senses": [
+      {
+        "sense_id": 244865,
+        "meaning_vi": "ợ nóng; dạ dày chua",
+        "confidence": "high",
+        "search_keywords": [
+          "ợ nóng",
+          "dạ dày chua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ợ nóng; dạ dày chua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21683,
+    "word": "胸飾り",
+    "kana": "むねかざり",
+    "senses": [
+      {
+        "sense_id": 244866,
+        "meaning_vi": "trâm",
+        "confidence": "high",
+        "search_keywords": [
+          "trâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21684,
+    "word": "胸騒ぎ",
+    "kana": "むなさわぎ",
+    "senses": [
+      {
+        "sense_id": 244867,
+        "meaning_vi": "sự khó chịu; sự e ngại mơ hồ; điềm báo",
+        "confidence": "high",
+        "search_keywords": [
+          "sự khó chịu",
+          "sự e ngại mơ hồ",
+          "điềm báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự khó chịu; sự e ngại mơ hồ; điềm báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 21685,
+    "word": "胸像",
+    "kana": "きょうぞう",
+    "senses": [
+      {
+        "sense_id": 244868,
+        "meaning_vi": "tượng bán thân (điêu khắc); chân dung nửa chiều dài",
+        "confidence": "high",
+        "search_keywords": [
+          "tượng bán thân (điêu khắc)",
+          "chân dung nửa chiều dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tượng bán thân (điêu khắc); chân dung nửa chiều dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,603 @@
+[
+  {
+    "vocabulary_id": 37502,
+    "word": "走査線",
+    "kana": "そうさせん",
+    "senses": [
+      {
+        "sense_id": 266014,
+        "meaning_vi": "dòng quét (ví dụ: TV)",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng quét (ví dụ: TV)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng quét (ví dụ: TV)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37503,
+    "word": "走者",
+    "kana": "そうしゃ",
+    "senses": [
+      {
+        "sense_id": 266015,
+        "meaning_vi": "Á hậu",
+        "confidence": "high",
+        "search_keywords": [
+          "Á hậu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Á hậu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266016,
+        "meaning_vi": "Á hậu căn cứ",
+        "confidence": "high",
+        "search_keywords": [
+          "Á hậu căn cứ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Á hậu căn cứ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37504,
+    "word": "走路",
+    "kana": "そうろ",
+    "senses": [
+      {
+        "sense_id": 266017,
+        "meaning_vi": "đường đua; khóa học; đường cao tốc",
+        "confidence": "high",
+        "search_keywords": [
+          "đường đua",
+          "khóa học",
+          "đường cao tốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường đua; khóa học; đường cao tốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37505,
+    "word": "送り",
+    "kana": "おくり",
+    "senses": [
+      {
+        "sense_id": 266018,
+        "meaning_vi": "tiễn biệt; tiễn đi",
+        "confidence": "high",
+        "search_keywords": [
+          "tiễn biệt",
+          "tiễn đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiễn biệt; tiễn đi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266019,
+        "meaning_vi": "tang lễ",
+        "confidence": "high",
+        "search_keywords": [
+          "tang lễ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tang lễ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266020,
+        "meaning_vi": "sự thoát hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thoát hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thoát hiểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37506,
+    "word": "送り仮名",
+    "kana": "おくりがな",
+    "senses": [
+      {
+        "sense_id": 266021,
+        "meaning_vi": "kana được viết sau chữ kanji để hoàn thành cách đọc đầy đủ (thường là kun) của từ; kết thúc kana suy giảm",
+        "confidence": "high",
+        "search_keywords": [
+          "kana được viết sau chữ kanji để hoàn thành cách đọc đầy đủ (thường là kun) của từ",
+          "kết thúc kana suy giảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kana được viết sau chữ kanji để hoàn thành cách đọc đầy đủ (thường là kun) của từ; kết thúc kana suy giảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37507,
+    "word": "送り火",
+    "kana": "おくりび",
+    "senses": [
+      {
+        "sense_id": 266022,
+        "meaning_vi": "nghi lễ đốt lửa trại (đưa các linh hồn vào đêm cuối cùng của lễ Obon)",
+        "confidence": "high",
+        "search_keywords": [
+          "nghi lễ đốt lửa trại (đưa các linh hồn vào đêm cuối cùng của lễ Obon)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghi lễ đốt lửa trại (đưa các linh hồn vào đêm cuối cùng của lễ Obon)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37508,
+    "word": "送り穴",
+    "kana": "おくりあな",
+    "senses": [
+      {
+        "sense_id": 266023,
+        "meaning_vi": "đục lỗ (ví dụ: trong phim)",
+        "confidence": "high",
+        "search_keywords": [
+          "đục lỗ (ví dụ: trong phim)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đục lỗ (ví dụ: trong phim)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37509,
+    "word": "送り込む",
+    "kana": "おくりこむ",
+    "senses": [
+      {
+        "sense_id": 266024,
+        "meaning_vi": "gửi vào",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37510,
+    "word": "送り出す",
+    "kana": "おくりだす",
+    "senses": [
+      {
+        "sense_id": 266025,
+        "meaning_vi": "gửi đi; chuyển tiếp; để hiển thị (một người) ra ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi đi",
+          "chuyển tiếp",
+          "để hiển thị (một người) ra ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi đi; chuyển tiếp; để hiển thị (một người) ra ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37511,
+    "word": "送り先",
+    "kana": "おくりさき",
+    "senses": [
+      {
+        "sense_id": 266026,
+        "meaning_vi": "người nhận; người nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "người nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nhận; người nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37512,
+    "word": "増税",
+    "kana": "ぞうぜい",
+    "senses": [
+      {
+        "sense_id": 266105,
+        "meaning_vi": "tăng thuế",
+        "confidence": "high",
+        "search_keywords": [
+          "tăng thuế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tăng thuế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37513,
+    "word": "送り届ける",
+    "kana": "おくりとどける",
+    "senses": [
+      {
+        "sense_id": 266027,
+        "meaning_vi": "gửi (một người hoặc vật) đến; để giao hàng; hộ tống",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi (một người hoặc vật) đến",
+          "để giao hàng",
+          "hộ tống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi (một người hoặc vật) đến; để giao hàng; hộ tống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37514,
+    "word": "送り返す",
+    "kana": "おくりかえす",
+    "senses": [
+      {
+        "sense_id": 266028,
+        "meaning_vi": "gửi lại",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37515,
+    "word": "送り狼",
+    "kana": "おくりおおかみ",
+    "senses": [
+      {
+        "sense_id": 266029,
+        "meaning_vi": "người đàn ông hộ tống một người phụ nữ về nhà chỉ để qua mặt cô ấy",
+        "confidence": "high",
+        "search_keywords": [
+          "người đàn ông hộ tống một người phụ nữ về nhà chỉ để qua mặt cô ấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đàn ông hộ tống một người phụ nữ về nhà chỉ để qua mặt cô ấy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266030,
+        "meaning_vi": "con sói siêu nhiên rình rập con người trong rừng",
+        "confidence": "high",
+        "search_keywords": [
+          "con sói siêu nhiên rình rập con người trong rừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con sói siêu nhiên rình rập con người trong rừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37516,
+    "word": "送る",
+    "kana": "おくる",
+    "senses": [
+      {
+        "sense_id": 266031,
+        "meaning_vi": "gửi; gửi đi; chuyển tiếp; để truyền tải; gửi hàng; chuyển tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi",
+          "gửi đi",
+          "chuyển tiếp",
+          "để truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi; gửi đi; chuyển tiếp; để truyền tải; gửi hàng; chuyển tiền",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266032,
+        "meaning_vi": "tiễn (ai đó) đi; hộ tống; đi cùng; lấy",
+        "confidence": "high",
+        "search_keywords": [
+          "tiễn (ai đó) đi",
+          "hộ tống",
+          "đi cùng",
+          "lấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiễn (ai đó) đi; hộ tống; đi cùng; lấy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266033,
+        "meaning_vi": "từ biệt (người đã ra đi); để nói lời tạm biệt; chôn cất",
+        "confidence": "high",
+        "search_keywords": [
+          "từ biệt (người đã ra đi)",
+          "để nói lời tạm biệt",
+          "chôn cất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ biệt (người đã ra đi); để nói lời tạm biệt; chôn cất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266034,
+        "meaning_vi": "dành (thời gian); vượt qua; dẫn dắt (một cuộc sống); sống",
+        "confidence": "high",
+        "search_keywords": [
+          "dành (thời gian)",
+          "vượt qua",
+          "dẫn dắt (một cuộc sống)",
+          "sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dành (thời gian); vượt qua; dẫn dắt (một cuộc sống); sống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266035,
+        "meaning_vi": "vượt qua (trên, dọc theo); tiến lên (người chạy)",
+        "confidence": "high",
+        "search_keywords": [
+          "vượt qua (trên, dọc theo)",
+          "tiến lên (người chạy)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vượt qua (trên, dọc theo); tiến lên (người chạy)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266036,
+        "meaning_vi": "để gắn (okurigana)",
+        "confidence": "high",
+        "search_keywords": [
+          "để gắn (okurigana)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để gắn (okurigana)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37517,
+    "word": "送還",
+    "kana": "そうかん",
+    "senses": [
+      {
+        "sense_id": 266037,
+        "meaning_vi": "gửi về nhà; hồi hương; trục xuất",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi về nhà",
+          "hồi hương",
+          "trục xuất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi về nhà; hồi hương; trục xuất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37518,
+    "word": "送金",
+    "kana": "そうきん",
+    "senses": [
+      {
+        "sense_id": 266038,
+        "meaning_vi": "chuyển tiền; gửi tiền; chuyển tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển tiền",
+          "gửi tiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển tiền; gửi tiền; chuyển tiền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37519,
+    "word": "送金小切手",
+    "kana": "そうきんこぎって",
+    "senses": [
+      {
+        "sense_id": 266039,
+        "meaning_vi": "séc thủ quỹ; séc thủ quỹ; dự thảo nhu cầu; séc chuyển tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "séc thủ quỹ",
+          "dự thảo nhu cầu",
+          "séc chuyển tiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "séc thủ quỹ; séc thủ quỹ; dự thảo nhu cầu; séc chuyển tiền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37520,
+    "word": "送迎",
+    "kana": "そうげい",
+    "senses": [
+      {
+        "sense_id": 266040,
+        "meaning_vi": "tiễn đi và gặp lại",
+        "confidence": "high",
+        "search_keywords": [
+          "tiễn đi và gặp lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiễn đi và gặp lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37521,
+    "word": "送検",
+    "kana": "そうけん",
+    "senses": [
+      {
+        "sense_id": 266041,
+        "meaning_vi": "đưa nghi phạm ra xét xử; chuyển vụ án lên công tố viên",
+        "confidence": "high",
+        "search_keywords": [
+          "đưa nghi phạm ra xét xử",
+          "chuyển vụ án lên công tố viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đưa nghi phạm ra xét xử; chuyển vụ án lên công tố viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

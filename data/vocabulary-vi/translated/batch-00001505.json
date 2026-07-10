@@ -1,0 +1,587 @@
+[
+  {
+    "vocabulary_id": 38642,
+    "word": "大地",
+    "kana": "だいち",
+    "senses": [
+      {
+        "sense_id": 267566,
+        "meaning_vi": "trái đất; đất; đất rắn; vùng đất (rộng lớn)",
+        "confidence": "high",
+        "search_keywords": [
+          "trái đất",
+          "đất",
+          "đất rắn",
+          "vùng đất (rộng lớn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái đất; đất; đất rắn; vùng đất (rộng lớn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38643,
+    "word": "大地アース",
+    "kana": "だいちアース",
+    "senses": [
+      {
+        "sense_id": 267567,
+        "meaning_vi": "mặt đất",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt đất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38644,
+    "word": "大地震",
+    "kana": "おおじしん",
+    "senses": [
+      {
+        "sense_id": 267568,
+        "meaning_vi": "trận động đất lớn; trận động đất lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "trận động đất lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận động đất lớn; trận động đất lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38645,
+    "word": "大中小",
+    "kana": "だいちゅうしょう",
+    "senses": [
+      {
+        "sense_id": 267569,
+        "meaning_vi": "lớn, vừa và nhỏ (doanh nghiệp, phòng, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "lớn, vừa và nhỏ (doanh nghiệp, phòng, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớn, vừa và nhỏ (doanh nghiệp, phòng, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38646,
+    "word": "大腸",
+    "kana": "だいちょう",
+    "senses": [
+      {
+        "sense_id": 267570,
+        "meaning_vi": "ruột già; ruột già; dấu hai chấm",
+        "confidence": "high",
+        "search_keywords": [
+          "ruột già",
+          "dấu hai chấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ruột già; ruột già; dấu hai chấm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38647,
+    "word": "大通り",
+    "kana": "おおどおり",
+    "senses": [
+      {
+        "sense_id": 267571,
+        "meaning_vi": "đường phố chính; đại lộ; đại lộ",
+        "confidence": "high",
+        "search_keywords": [
+          "đường phố chính",
+          "đại lộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường phố chính; đại lộ; đại lộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38648,
+    "word": "大抵",
+    "kana": "たいてい",
+    "senses": [
+      {
+        "sense_id": 267572,
+        "meaning_vi": "hầu hết; thông thường; thường xuyên; nói chung",
+        "confidence": "high",
+        "search_keywords": [
+          "hầu hết",
+          "thông thường",
+          "thường xuyên",
+          "nói chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hầu hết; thông thường; thường xuyên; nói chung",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267573,
+        "meaning_vi": "có lẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "có lẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có lẽ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267574,
+        "meaning_vi": "hầu hết; gần như tất cả",
+        "confidence": "high",
+        "search_keywords": [
+          "hầu hết",
+          "gần như tất cả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hầu hết; gần như tất cả",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267575,
+        "meaning_vi": "bình thường",
+        "confidence": "high",
+        "search_keywords": [
+          "bình thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bình thường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267576,
+        "meaning_vi": "thích hợp; phù hợp; vừa phải",
+        "confidence": "high",
+        "search_keywords": [
+          "thích hợp",
+          "phù hợp",
+          "vừa phải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thích hợp; phù hợp; vừa phải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38649,
+    "word": "大敵",
+    "kana": "たいてき",
+    "senses": [
+      {
+        "sense_id": 267577,
+        "meaning_vi": "đối thủ lớn; kẻ thù mạnh mẽ; kẻ thù không đội trời chung",
+        "confidence": "high",
+        "search_keywords": [
+          "đối thủ lớn",
+          "kẻ thù mạnh mẽ",
+          "kẻ thù không đội trời chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối thủ lớn; kẻ thù mạnh mẽ; kẻ thù không đội trời chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38650,
+    "word": "大都会",
+    "kana": "だいとかい",
+    "senses": [
+      {
+        "sense_id": 267578,
+        "meaning_vi": "đô thị; thành phố lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "đô thị",
+          "thành phố lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đô thị; thành phố lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38651,
+    "word": "大都市",
+    "kana": "だいとし",
+    "senses": [
+      {
+        "sense_id": 267579,
+        "meaning_vi": "đô thị; thành phố lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "đô thị",
+          "thành phố lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đô thị; thành phố lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38652,
+    "word": "大東亜共栄圏",
+    "kana": "だいとうあきょうえいけん",
+    "senses": [
+      {
+        "sense_id": 267580,
+        "meaning_vi": "Khối thịnh vượng chung Đại Đông Á",
+        "confidence": "high",
+        "search_keywords": [
+          "Khối thịnh vượng chung Đại Đông Á"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Khối thịnh vượng chung Đại Đông Á",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38653,
+    "word": "大統一理論",
+    "kana": "だいとういつりろん",
+    "senses": [
+      {
+        "sense_id": 267581,
+        "meaning_vi": "lý thuyết thống nhất lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết thống nhất lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết thống nhất lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38654,
+    "word": "大統領",
+    "kana": "だいとうりょう",
+    "senses": [
+      {
+        "sense_id": 267582,
+        "meaning_vi": "tổng thống (của một nước)",
+        "confidence": "high",
+        "search_keywords": [
+          "tổng thống (của một nước)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổng thống (của một nước)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267583,
+        "meaning_vi": "ông lớn; ông chủ; bạn bè; bạn đời",
+        "confidence": "high",
+        "search_keywords": [
+          "ông lớn",
+          "ông chủ",
+          "bạn bè",
+          "bạn đời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ông lớn; ông chủ; bạn bè; bạn đời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38655,
+    "word": "大統領選",
+    "kana": "だいとうりょうせん",
+    "senses": [
+      {
+        "sense_id": 267584,
+        "meaning_vi": "bầu cử tổng thống",
+        "confidence": "high",
+        "search_keywords": [
+          "bầu cử tổng thống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bầu cử tổng thống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38656,
+    "word": "大統領選挙",
+    "kana": "だいとうりょうせんきょ",
+    "senses": [
+      {
+        "sense_id": 267585,
+        "meaning_vi": "bầu cử tổng thống",
+        "confidence": "high",
+        "search_keywords": [
+          "bầu cử tổng thống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bầu cử tổng thống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38657,
+    "word": "大豆",
+    "kana": "だいず",
+    "senses": [
+      {
+        "sense_id": 267586,
+        "meaning_vi": "đậu nành (Glycine max); đậu nành; đậu nành",
+        "confidence": "high",
+        "search_keywords": [
+          "đậu nành (Glycine max)",
+          "đậu nành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đậu nành (Glycine max); đậu nành; đậu nành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38658,
+    "word": "大同小異",
+    "kana": "だいどうしょうい",
+    "senses": [
+      {
+        "sense_id": 267587,
+        "meaning_vi": "về cơ bản giống nhau chỉ có những khác biệt nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "về cơ bản giống nhau chỉ có những khác biệt nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "về cơ bản giống nhau chỉ có những khác biệt nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38659,
+    "word": "大わらわ",
+    "kana": "おおわらわ",
+    "senses": [
+      {
+        "sense_id": 267588,
+        "meaning_vi": "làm việc hăng say; nỗ lực vất vả; sự cống hiến hết mình (cho một nhiệm vụ)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm việc hăng say",
+          "nỗ lực vất vả",
+          "sự cống hiến hết mình (cho một nhiệm vụ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm việc hăng say; nỗ lực vất vả; sự cống hiến hết mình (cho một nhiệm vụ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267589,
+        "meaning_vi": "có mái tóc bù xù; chiến đấu với mái tóc bù xù",
+        "confidence": "high",
+        "search_keywords": [
+          "có mái tóc bù xù",
+          "chiến đấu với mái tóc bù xù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có mái tóc bù xù; chiến đấu với mái tóc bù xù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38660,
+    "word": "大徳",
+    "kana": "だいとく",
+    "senses": [
+      {
+        "sense_id": 267590,
+        "meaning_vi": "đức hạnh lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "đức hạnh lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đức hạnh lớn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267591,
+        "meaning_vi": "linh mục nhân đức; linh mục",
+        "confidence": "high",
+        "search_keywords": [
+          "linh mục nhân đức",
+          "linh mục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "linh mục nhân đức; linh mục",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267592,
+        "meaning_vi": "người giàu",
+        "confidence": "high",
+        "search_keywords": [
+          "người giàu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người giàu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38661,
+    "word": "大日",
+    "kana": "だいにち",
+    "senses": [
+      {
+        "sense_id": 267593,
+        "meaning_vi": "Mahavairocana (Như Lai); Mặt trời lớn; Đức Phật tối cao của Phật giáo bí truyền Trung-Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "Mahavairocana (Như Lai)",
+          "Mặt trời lớn",
+          "Đức Phật tối cao của Phật giáo bí truyền Trung-Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mahavairocana (Như Lai); Mặt trời lớn; Đức Phật tối cao của Phật giáo bí truyền Trung-Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

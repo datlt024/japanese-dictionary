@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 120173,
+    "word": "トラフィック量",
+    "kana": "トラフィックりょう",
+    "senses": [
+      {
+        "sense_id": 363746,
+        "meaning_vi": "tải trọng giao thông; lưu lượng truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "tải trọng giao thông",
+          "lưu lượng truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tải trọng giao thông; lưu lượng truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120174,
+    "word": "トランキング",
+    "kana": "トランキング",
+    "senses": [
+      {
+        "sense_id": 363747,
+        "meaning_vi": "đường trục",
+        "confidence": "high",
+        "search_keywords": [
+          "đường trục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường trục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120175,
+    "word": "トランクタイプ",
+    "kana": "トランクタイプ",
+    "senses": [
+      {
+        "sense_id": 363748,
+        "meaning_vi": "loại thân cây",
+        "confidence": "high",
+        "search_keywords": [
+          "loại thân cây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại thân cây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120176,
+    "word": "トランク予備",
+    "kana": "トランクよび",
+    "senses": [
+      {
+        "sense_id": 363749,
+        "meaning_vi": "điều hòa cốp xe",
+        "confidence": "high",
+        "search_keywords": [
+          "điều hòa cốp xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều hòa cốp xe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120177,
+    "word": "トランザクションＩＤ",
+    "kana": "トランザクションアイディー",
+    "senses": [
+      {
+        "sense_id": 363750,
+        "meaning_vi": "ID giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "ID giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ID giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120178,
+    "word": "トランザクションコミットメント",
+    "kana": "トランザクションコミットメント",
+    "senses": [
+      {
+        "sense_id": 363751,
+        "meaning_vi": "cam kết giao dịch; cam kết",
+        "confidence": "high",
+        "search_keywords": [
+          "cam kết giao dịch",
+          "cam kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cam kết giao dịch; cam kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120179,
+    "word": "トランザクションコンテキスト",
+    "kana": "トランザクションコンテキスト",
+    "senses": [
+      {
+        "sense_id": 363752,
+        "meaning_vi": "bối cảnh giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "bối cảnh giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bối cảnh giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120180,
+    "word": "トランザクションテキスト",
+    "kana": "トランザクションテキスト",
+    "senses": [
+      {
+        "sense_id": 363753,
+        "meaning_vi": "văn bản giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "văn bản giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "văn bản giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120181,
+    "word": "トランザクションプログラム",
+    "kana": "トランザクションプログラム",
+    "senses": [
+      {
+        "sense_id": 363754,
+        "meaning_vi": "chương trình giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120182,
+    "word": "トランザクションロールバック",
+    "kana": "トランザクションロールバック",
+    "senses": [
+      {
+        "sense_id": 363755,
+        "meaning_vi": "khôi phục giao dịch; quay lại",
+        "confidence": "high",
+        "search_keywords": [
+          "khôi phục giao dịch",
+          "quay lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khôi phục giao dịch; quay lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120183,
+    "word": "トランザクションログファイル",
+    "kana": "トランザクションログファイル",
+    "senses": [
+      {
+        "sense_id": 363756,
+        "meaning_vi": "tập tin nhật ký giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin nhật ký giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin nhật ký giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120184,
+    "word": "トランザクション回復",
+    "kana": "トランザクションかいふく",
+    "senses": [
+      {
+        "sense_id": 363757,
+        "meaning_vi": "phục hồi giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "phục hồi giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục hồi giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120185,
+    "word": "トランザクション記録動作",
+    "kana": "トランザクションきろくどうさ",
+    "senses": [
+      {
+        "sense_id": 363758,
+        "meaning_vi": "ghi nhật ký giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi nhật ký giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi nhật ký giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120186,
+    "word": "トランザクション識別子",
+    "kana": "トランザクションしきべつし",
+    "senses": [
+      {
+        "sense_id": 363759,
+        "meaning_vi": "mã định danh giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "mã định danh giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã định danh giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120187,
+    "word": "トランザクション処理",
+    "kana": "トランザクションしょり",
+    "senses": [
+      {
+        "sense_id": 363760,
+        "meaning_vi": "xử lý giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120188,
+    "word": "トランザクション分枝",
+    "kana": "トランザクションぶんし",
+    "senses": [
+      {
+        "sense_id": 363761,
+        "meaning_vi": "chi nhánh giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "chi nhánh giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi nhánh giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120189,
+    "word": "トランジスタトランジスタロジック",
+    "kana": "トランジスタトランジスタロジック",
+    "senses": [
+      {
+        "sense_id": 363762,
+        "meaning_vi": "logic bóng bán dẫn-bóng bán dẫn; TTL",
+        "confidence": "high",
+        "search_keywords": [
+          "logic bóng bán dẫn-bóng bán dẫn",
+          "TTL"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "logic bóng bán dẫn-bóng bán dẫn; TTL",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120190,
+    "word": "トランスペアレント",
+    "kana": "トランスペアレント",
+    "senses": [
+      {
+        "sense_id": 363763,
+        "meaning_vi": "trong suốt",
+        "confidence": "high",
+        "search_keywords": [
+          "trong suốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong suốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120191,
+    "word": "トランスポート層",
+    "kana": "トランスポートそう",
+    "senses": [
+      {
+        "sense_id": 363764,
+        "meaning_vi": "lớp vận chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp vận chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp vận chuyển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120192,
+    "word": "トランズアクション",
+    "kana": "トランズアクション",
+    "senses": [
+      {
+        "sense_id": 363765,
+        "meaning_vi": "giao dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "giao dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,908 @@
+[
+  {
+    "vocabulary_id": 18268,
+    "word": "皆目",
+    "kana": "かいもく",
+    "senses": [
+      {
+        "sense_id": 240328,
+        "meaning_vi": "toàn bộ; (không) chút nào",
+        "confidence": "high",
+        "search_keywords": [
+          "toàn bộ",
+          "(không) chút nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toàn bộ; (không) chút nào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18269,
+    "word": "皆様",
+    "kana": "みなさま",
+    "senses": [
+      {
+        "sense_id": 240329,
+        "meaning_vi": "mọi người",
+        "confidence": "high",
+        "search_keywords": [
+          "mọi người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mọi người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18270,
+    "word": "絵",
+    "kana": "え",
+    "senses": [
+      {
+        "sense_id": 240330,
+        "meaning_vi": "hình ảnh; vẽ; bức vẽ; phác họa",
+        "confidence": "high",
+        "search_keywords": [
+          "hình ảnh",
+          "vẽ",
+          "bức vẽ",
+          "phác họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình ảnh; vẽ; bức vẽ; phác họa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240331,
+        "meaning_vi": "hình ảnh (TV, phim, v.v.); hình ảnh; cảnh quay",
+        "confidence": "high",
+        "search_keywords": [
+          "hình ảnh (TV, phim, v.v.)",
+          "hình ảnh",
+          "cảnh quay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình ảnh (TV, phim, v.v.); hình ảnh; cảnh quay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18271,
+    "word": "絵に描いた餅",
+    "kana": "えにかいたもち",
+    "senses": [
+      {
+        "sense_id": 240332,
+        "meaning_vi": "chiếc bánh trên bầu trời; lâu đài trên không; vẽ một chiếc bánh gạo",
+        "confidence": "high",
+        "search_keywords": [
+          "chiếc bánh trên bầu trời",
+          "lâu đài trên không",
+          "vẽ một chiếc bánh gạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiếc bánh trên bầu trời; lâu đài trên không; vẽ một chiếc bánh gạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18272,
+    "word": "絵の具",
+    "kana": "えのぐ",
+    "senses": [
+      {
+        "sense_id": 240333,
+        "meaning_vi": "sơn; vật liệu tạo màu; màu sắc; màu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "sơn",
+          "vật liệu tạo màu",
+          "màu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơn; vật liệu tạo màu; màu sắc; màu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18273,
+    "word": "絵画",
+    "kana": "かいが",
+    "senses": [
+      {
+        "sense_id": 240334,
+        "meaning_vi": "bức vẽ; bức tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "bức vẽ",
+          "bức tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bức vẽ; bức tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18274,
+    "word": "絵巻",
+    "kana": "えまき",
+    "senses": [
+      {
+        "sense_id": 240335,
+        "meaning_vi": "cuộn hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộn hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộn hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18275,
+    "word": "絵巻物",
+    "kana": "えまきもの",
+    "senses": [
+      {
+        "sense_id": 240336,
+        "meaning_vi": "cuộn hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộn hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộn hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18276,
+    "word": "絵図",
+    "kana": "えず",
+    "senses": [
+      {
+        "sense_id": 240337,
+        "meaning_vi": "hình minh họa; vẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "hình minh họa",
+          "vẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình minh họa; vẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18277,
+    "word": "絵日記",
+    "kana": "えにっき",
+    "senses": [
+      {
+        "sense_id": 240338,
+        "meaning_vi": "nhật ký minh họa; nhật ký hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "nhật ký minh họa",
+          "nhật ký hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhật ký minh họa; nhật ký hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18278,
+    "word": "絵かき",
+    "kana": "えかき",
+    "senses": [
+      {
+        "sense_id": 240339,
+        "meaning_vi": "họa sĩ; nghệ sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "họa sĩ",
+          "nghệ sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "họa sĩ; nghệ sĩ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240340,
+        "meaning_vi": "vẽ tranh; vẽ nguệch ngoạc; bức tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "vẽ tranh",
+          "vẽ nguệch ngoạc",
+          "bức tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vẽ tranh; vẽ nguệch ngoạc; bức tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18279,
+    "word": "絵文字",
+    "kana": "えもじ",
+    "senses": [
+      {
+        "sense_id": 240341,
+        "meaning_vi": "biểu tượng cảm xúc",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng cảm xúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng cảm xúc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240342,
+        "meaning_vi": "biểu tượng hình ảnh; chữ tượng hình; chữ tượng hình",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng hình ảnh",
+          "chữ tượng hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng hình ảnh; chữ tượng hình; chữ tượng hình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240343,
+        "meaning_vi": "nghệ thuật ASCII",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ thuật ASCII"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ thuật ASCII",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18280,
+    "word": "絵柄",
+    "kana": "えがら",
+    "senses": [
+      {
+        "sense_id": 240344,
+        "meaning_vi": "mẫu; thiết kế",
+        "confidence": "high",
+        "search_keywords": [
+          "mẫu",
+          "thiết kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẫu; thiết kế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18281,
+    "word": "絵本",
+    "kana": "えほん",
+    "senses": [
+      {
+        "sense_id": 240345,
+        "meaning_vi": "sách tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "sách tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sách tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18282,
+    "word": "辛子",
+    "kana": "からし",
+    "senses": [
+      {
+        "sense_id": 240346,
+        "meaning_vi": "mù tạt",
+        "confidence": "high",
+        "search_keywords": [
+          "mù tạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mù tạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18283,
+    "word": "蟹",
+    "kana": "かに",
+    "senses": [
+      {
+        "sense_id": 240347,
+        "meaning_vi": "cua",
+        "confidence": "high",
+        "search_keywords": [
+          "cua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18284,
+    "word": "かに座",
+    "kana": "かにざ",
+    "senses": [
+      {
+        "sense_id": 240348,
+        "meaning_vi": "Ung thư (chòm sao); con cua",
+        "confidence": "high",
+        "search_keywords": [
+          "Ung thư (chòm sao)",
+          "con cua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ung thư (chòm sao); con cua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18285,
+    "word": "開き直る",
+    "kana": "ひらきなおる",
+    "senses": [
+      {
+        "sense_id": 240349,
+        "meaning_vi": "trở nên thách thức; để chống trả; bật lên; để tấn công",
+        "confidence": "high",
+        "search_keywords": [
+          "trở nên thách thức",
+          "để chống trả",
+          "bật lên",
+          "để tấn công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở nên thách thức; để chống trả; bật lên; để tấn công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18286,
+    "word": "開く",
+    "kana": "ひらく",
+    "senses": [
+      {
+        "sense_id": 240350,
+        "meaning_vi": "để mở; hoàn tác; để mở niêm phong; giải nén",
+        "confidence": "high",
+        "search_keywords": [
+          "để mở",
+          "hoàn tác",
+          "để mở niêm phong",
+          "giải nén"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để mở; hoàn tác; để mở niêm phong; giải nén",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240351,
+        "meaning_vi": "nở hoa; mở ra; lan rộng ra",
+        "confidence": "high",
+        "search_keywords": [
+          "nở hoa",
+          "mở ra",
+          "lan rộng ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nở hoa; mở ra; lan rộng ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240352,
+        "meaning_vi": "mở cửa (để làm việc, ví dụ vào buổi sáng)",
+        "confidence": "high",
+        "search_keywords": [
+          "mở cửa (để làm việc, ví dụ vào buổi sáng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mở cửa (để làm việc, ví dụ vào buổi sáng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240353,
+        "meaning_vi": "rộng (khoảng cách, v.v.); mở rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "rộng (khoảng cách, v.v.)",
+          "mở rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rộng (khoảng cách, v.v.); mở rộng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240354,
+        "meaning_vi": "tổ chức (cuộc họp, bữa tiệc, v.v.); cho ; mở",
+        "confidence": "high",
+        "search_keywords": [
+          "tổ chức (cuộc họp, bữa tiệc, v.v.)",
+          "cho",
+          "mở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổ chức (cuộc họp, bữa tiệc, v.v.); cho ; mở",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240355,
+        "meaning_vi": "thành lập (quốc gia, triều đại, giáo phái, v.v.); mở (một doanh nghiệp mới); để thiết lập; thành lập; bắt đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "thành lập (quốc gia, triều đại, giáo phái, v.v.)",
+          "mở (một doanh nghiệp mới)",
+          "để thiết lập",
+          "thành lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành lập (quốc gia, triều đại, giáo phái, v.v.); mở (một doanh nghiệp mới); để thiết lập; thành lập; bắt đầu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240356,
+        "meaning_vi": "mở (cảng, biên giới...)",
+        "confidence": "high",
+        "search_keywords": [
+          "mở (cảng, biên giới...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mở (cảng, biên giới...)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240357,
+        "meaning_vi": "mở (một tài khoản)",
+        "confidence": "high",
+        "search_keywords": [
+          "mở (một tài khoản)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mở (một tài khoản)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240358,
+        "meaning_vi": "để mở ra (vùng đất mới, con đường, v.v.); để xóa ; để phát triển",
+        "confidence": "high",
+        "search_keywords": [
+          "để mở ra (vùng đất mới, con đường, v.v.)",
+          "để xóa",
+          "để phát triển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để mở ra (vùng đất mới, con đường, v.v.); để xóa ; để phát triển",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240359,
+        "meaning_vi": "để mở (một tập tin, vv)",
+        "confidence": "high",
+        "search_keywords": [
+          "để mở (một tập tin, vv)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để mở (một tập tin, vv)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240360,
+        "meaning_vi": "để giải nén (root); giảm (phương trình)",
+        "confidence": "high",
+        "search_keywords": [
+          "để giải nén (root)",
+          "giảm (phương trình)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để giải nén (root); giảm (phương trình)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240361,
+        "meaning_vi": "cắt mở (cá)",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt mở (cá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt mở (cá)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240362,
+        "meaning_vi": "để thay đổi (kanji thành hiragana)",
+        "confidence": "high",
+        "search_keywords": [
+          "để thay đổi (kanji thành hiragana)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thay đổi (kanji thành hiragana)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240363,
+        "meaning_vi": "bùng lên (ví dụ váy)",
+        "confidence": "high",
+        "search_keywords": [
+          "bùng lên (ví dụ váy)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bùng lên (ví dụ váy)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240364,
+        "meaning_vi": "thả lỏng (vào một tư thế xấu)",
+        "confidence": "high",
+        "search_keywords": [
+          "thả lỏng (vào một tư thế xấu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thả lỏng (vào một tư thế xấu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240365,
+        "meaning_vi": "mở rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "mở rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mở rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 18287,
+    "word": "開ける",
+    "kana": "あける",
+    "senses": [
+      {
+        "sense_id": 240366,
+        "meaning_vi": "mở (một cánh cửa, v.v.); để mở gói (ví dụ: bưu kiện, gói hàng); để mở khóa",
+        "confidence": "high",
+        "search_keywords": [
+          "mở (một cánh cửa, v.v.)",
+          "để mở gói (ví dụ: bưu kiện, gói hàng)",
+          "để mở khóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mở (một cánh cửa, v.v.); để mở gói (ví dụ: bưu kiện, gói hàng); để mở khóa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240367,
+        "meaning_vi": "mở (để kinh doanh, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "mở (để kinh doanh, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mở (để kinh doanh, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240368,
+        "meaning_vi": "để trống ; để loại bỏ; để tạo không gian; để nhường chỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "để trống",
+          "để loại bỏ",
+          "để tạo không gian",
+          "để nhường chỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trống ; để loại bỏ; để tạo không gian; để nhường chỗ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240369,
+        "meaning_vi": "dọn ra ngoài; để dọn dẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "dọn ra ngoài",
+          "để dọn dẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dọn ra ngoài; để dọn dẹp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240370,
+        "meaning_vi": "đi xa (ví dụ: nhà của một người); rời đi (tạm thời)",
+        "confidence": "high",
+        "search_keywords": [
+          "đi xa (ví dụ: nhà của một người)",
+          "rời đi (tạm thời)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi xa (ví dụ: nhà của một người); rời đi (tạm thời)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240371,
+        "meaning_vi": "đến bình minh; phát triển ánh sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "đến bình minh",
+          "phát triển ánh sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến bình minh; phát triển ánh sáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240372,
+        "meaning_vi": "kết thúc (của một giai đoạn, mùa)",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc (của một giai đoạn, mùa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc (của một giai đoạn, mùa)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240373,
+        "meaning_vi": "bắt đầu (của năm mới)",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu (của năm mới)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu (của năm mới)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240374,
+        "meaning_vi": "để trống (lịch trình của một người); dành thời gian (cho)",
+        "confidence": "high",
+        "search_keywords": [
+          "để trống (lịch trình của một người)",
+          "dành thời gian (cho)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trống (lịch trình của một người); dành thời gian (cho)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 240375,
+        "meaning_vi": "tạo ra (một cái lỗ); mở ra (một cái lỗ)",
+        "confidence": "high",
+        "search_keywords": [
+          "tạo ra (một cái lỗ)",
+          "mở ra (một cái lỗ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạo ra (một cái lỗ); mở ra (một cái lỗ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

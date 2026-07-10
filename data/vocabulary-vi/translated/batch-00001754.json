@@ -1,0 +1,557 @@
+[
+  {
+    "vocabulary_id": 45500,
+    "word": "微衷",
+    "kana": "びちゅう",
+    "senses": [
+      {
+        "sense_id": 276879,
+        "meaning_vi": "những suy nghĩ (cảm xúc) sâu thẳm nhất của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "những suy nghĩ (cảm xúc) sâu thẳm nhất của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "những suy nghĩ (cảm xúc) sâu thẳm nhất của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45501,
+    "word": "微調整",
+    "kana": "びちょうせい",
+    "senses": [
+      {
+        "sense_id": 276880,
+        "meaning_vi": "điều chỉnh phút; tinh chỉnh",
+        "confidence": "high",
+        "search_keywords": [
+          "điều chỉnh phút",
+          "tinh chỉnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều chỉnh phút; tinh chỉnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45502,
+    "word": "微熱",
+    "kana": "びねつ",
+    "senses": [
+      {
+        "sense_id": 276881,
+        "meaning_vi": "sốt nhẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "sốt nhẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sốt nhẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45503,
+    "word": "微分",
+    "kana": "びぶん",
+    "senses": [
+      {
+        "sense_id": 276882,
+        "meaning_vi": "sự khác biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "sự khác biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự khác biệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276883,
+        "meaning_vi": "sự khác biệt; phái sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "sự khác biệt",
+          "phái sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự khác biệt; phái sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45504,
+    "word": "微分断面積",
+    "kana": "びぶんだんめんせき",
+    "senses": [
+      {
+        "sense_id": 276884,
+        "meaning_vi": "mặt cắt vi phân",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt cắt vi phân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt cắt vi phân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45505,
+    "word": "微分方程式",
+    "kana": "びぶんほうていしき",
+    "senses": [
+      {
+        "sense_id": 276885,
+        "meaning_vi": "phương trình vi phân",
+        "confidence": "high",
+        "search_keywords": [
+          "phương trình vi phân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương trình vi phân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45506,
+    "word": "微妙",
+    "kana": "びみょう",
+    "senses": [
+      {
+        "sense_id": 276886,
+        "meaning_vi": "tinh tế; thanh tú; ổn",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh tế",
+          "thanh tú",
+          "ổn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh tế; thanh tú; ổn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276887,
+        "meaning_vi": "khó; tổ hợp; khôn lanh; tế nhị (tình huống, vị trí, v.v.); đóng (ví dụ: quyết định)",
+        "confidence": "high",
+        "search_keywords": [
+          "khó",
+          "tổ hợp",
+          "khôn lanh",
+          "tế nhị (tình huống, vị trí, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khó; tổ hợp; khôn lanh; tế nhị (tình huống, vị trí, v.v.); đóng (ví dụ: quyết định)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276888,
+        "meaning_vi": "nghi ngờ; có vấn đề; xúc xắc",
+        "confidence": "high",
+        "search_keywords": [
+          "nghi ngờ",
+          "có vấn đề",
+          "xúc xắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghi ngờ; có vấn đề; xúc xắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276889,
+        "meaning_vi": "không tuyệt vời; không tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "không tuyệt vời",
+          "không tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không tuyệt vời; không tốt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276890,
+        "meaning_vi": "nhẹ nhàng; phần nào; một chút",
+        "confidence": "high",
+        "search_keywords": [
+          "nhẹ nhàng",
+          "phần nào",
+          "một chút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhẹ nhàng; phần nào; một chút",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45507,
+    "word": "微粒子",
+    "kana": "びりゅうし",
+    "senses": [
+      {
+        "sense_id": 276891,
+        "meaning_vi": "tiểu thể; hạt nhỏ; hạt",
+        "confidence": "high",
+        "search_keywords": [
+          "tiểu thể",
+          "hạt nhỏ",
+          "hạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiểu thể; hạt nhỏ; hạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45508,
+    "word": "微量",
+    "kana": "びりょう",
+    "senses": [
+      {
+        "sense_id": 276892,
+        "meaning_vi": "số tiền rất nhỏ; số lượng cực nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "số tiền rất nhỏ",
+          "số lượng cực nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số tiền rất nhỏ; số lượng cực nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45509,
+    "word": "微力",
+    "kana": "びりょく",
+    "senses": [
+      {
+        "sense_id": 276893,
+        "meaning_vi": "ít quyền lực; ít ảnh hưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "ít quyền lực",
+          "ít ảnh hưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ít quyền lực; ít ảnh hưởng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276894,
+        "meaning_vi": "(của một người) khả năng kém; khả năng hạn chế; điều nhỏ bé có thể làm được",
+        "confidence": "high",
+        "search_keywords": [
+          "(của một người) khả năng kém",
+          "khả năng hạn chế",
+          "điều nhỏ bé có thể làm được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(của một người) khả năng kém; khả năng hạn chế; điều nhỏ bé có thể làm được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45510,
+    "word": "微禄",
+    "kana": "びろく",
+    "senses": [
+      {
+        "sense_id": 276895,
+        "meaning_vi": "khoản trợ cấp nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "khoản trợ cấp nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoản trợ cấp nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45511,
+    "word": "微賤",
+    "kana": "びせん",
+    "senses": [
+      {
+        "sense_id": 276896,
+        "meaning_vi": "thứ hạng thấp; trạm khiêm nhường; sự tối tăm",
+        "confidence": "high",
+        "search_keywords": [
+          "thứ hạng thấp",
+          "trạm khiêm nhường",
+          "sự tối tăm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thứ hạng thấp; trạm khiêm nhường; sự tối tăm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45512,
+    "word": "枇杷",
+    "kana": "びわ",
+    "senses": [
+      {
+        "sense_id": 276897,
+        "meaning_vi": "loquat (Eriobotrya japonica); sơn tra Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "loquat (Eriobotrya japonica)",
+          "sơn tra Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loquat (Eriobotrya japonica); sơn tra Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45513,
+    "word": "琵琶",
+    "kana": "びわ",
+    "senses": [
+      {
+        "sense_id": 276898,
+        "meaning_vi": "biwa (đàn luýt Nhật Bản)",
+        "confidence": "high",
+        "search_keywords": [
+          "biwa (đàn luýt Nhật Bản)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biwa (đàn luýt Nhật Bản)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45514,
+    "word": "琵琶行",
+    "kana": "びわこう",
+    "senses": [
+      {
+        "sense_id": 276899,
+        "meaning_vi": "bài hát biwa",
+        "confidence": "high",
+        "search_keywords": [
+          "bài hát biwa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài hát biwa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45515,
+    "word": "眉",
+    "kana": "まゆ",
+    "senses": [
+      {
+        "sense_id": 276900,
+        "meaning_vi": "lông mày; lông mày",
+        "confidence": "high",
+        "search_keywords": [
+          "lông mày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lông mày; lông mày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45516,
+    "word": "眉宇",
+    "kana": "びう",
+    "senses": [
+      {
+        "sense_id": 276901,
+        "meaning_vi": "trán; lông mày",
+        "confidence": "high",
+        "search_keywords": [
+          "trán",
+          "lông mày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trán; lông mày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45517,
+    "word": "眉間",
+    "kana": "みけん",
+    "senses": [
+      {
+        "sense_id": 276902,
+        "meaning_vi": "trán; nhãn cầu; trán giữa; vùng giữa lông mày",
+        "confidence": "high",
+        "search_keywords": [
+          "trán",
+          "nhãn cầu",
+          "trán giữa",
+          "vùng giữa lông mày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trán; nhãn cầu; trán giữa; vùng giữa lông mày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45518,
+    "word": "眉尻",
+    "kana": "まゆじり",
+    "senses": [
+      {
+        "sense_id": 276903,
+        "meaning_vi": "cuối lông mày",
+        "confidence": "high",
+        "search_keywords": [
+          "cuối lông mày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuối lông mày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45519,
+    "word": "眉雪",
+    "kana": "びせつ",
+    "senses": [
+      {
+        "sense_id": 276904,
+        "meaning_vi": "lông mày trắng như tuyết",
+        "confidence": "high",
+        "search_keywords": [
+          "lông mày trắng như tuyết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lông mày trắng như tuyết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

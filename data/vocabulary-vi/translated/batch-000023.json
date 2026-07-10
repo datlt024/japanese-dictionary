@@ -1,377 +1,766 @@
 [
-{
-"vocabulary_id": 441,
-"word": "させる",
-"kana": "させる",
-"senses": [
-{
-"sense_id": 217962,
-"meaning_vi": "bắt làm",
-"confidence": "high",
-"search_keywords": [
-"bắt làm",
-"khiến làm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bắt ai đó làm; khiến ai đó thực hiện hành động",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217963,
-"meaning_vi": "cho phép làm",
-"confidence": "high",
-"search_keywords": [
-"cho phép làm",
-"để cho làm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cho phép ai đó làm; để ai đó thực hiện hành động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 442,
-"word": "させ子",
-"kana": "させこ",
-"senses": [
-{
-"sense_id": 217964,
-"meaning_vi": "gái dễ dãi",
-"confidence": "high",
-"search_keywords": [
-"gái dễ dãi",
-"gái lẳng lơ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phụ nữ dễ dãi trong quan hệ nam nữ; tiếng khẩu ngữ mang sắc thái chê bai",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 443,
-"word": "先",
-"kana": "さっき",
-"senses": [
-{
-"sense_id": 217965,
-"meaning_vi": "lúc nãy",
-"confidence": "high",
-"search_keywords": [
-"lúc nãy",
-"vừa rồi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lúc nãy; vừa rồi; cách đây không lâu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 444,
-"word": "さっさと",
-"kana": "さっさと",
-"senses": [
-{
-"sense_id": 217966,
-"meaning_vi": "nhanh chóng",
-"confidence": "high",
-"search_keywords": [
-"nhanh chóng",
-"mau lẹ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhanh chóng; mau lẹ; không chần chừ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217967,
-"meaning_vi": "lạnh nhạt",
-"confidence": "high",
-"search_keywords": [
-"lạnh nhạt",
-"thờ ơ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "một cách lạnh nhạt; thờ ơ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 445,
-"word": "颯と",
-"kana": "さっと",
-"senses": [
-{
-"sense_id": 217968,
-"meaning_vi": "thoăn thoắt",
-"confidence": "high",
-"search_keywords": [
-"nhanh gọn",
-"thoăn thoắt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhanh gọn; chớp nhoáng trong hành động",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217969,
-"meaning_vi": "bất chợt",
-"confidence": "high",
-"search_keywords": [
-"bất chợt",
-"đột ngột"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đột ngột xảy ra như gió hoặc mưa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 446,
-"word": "さっぱり",
-"kana": "さっぱり",
-"senses": [
-{
-"sense_id": 217970,
-"meaning_vi": "sảng khoái",
-"confidence": "high",
-"search_keywords": [
-"sảng khoái",
-"nhẹ nhõm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm thấy sảng khoái; nhẹ nhõm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217971,
-"meaning_vi": "gọn gàng",
-"confidence": "high",
-"search_keywords": [
-"gọn gàng",
-"sạch sẽ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gọn gàng; sạch sẽ; ngăn nắp",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217972,
-"meaning_vi": "thẳng thắn",
-"confidence": "high",
-"search_keywords": [
-"thẳng thắn",
-"giản dị"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thẳng thắn; cởi mở; đơn giản, nhẹ nhàng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217973,
-"meaning_vi": "hoàn toàn",
-"confidence": "high",
-"search_keywords": [
-"hoàn toàn",
-"triệt để"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hoàn toàn; toàn bộ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217974,
-"meaning_vi": "không hề",
-"confidence": "high",
-"search_keywords": [
-"không hề",
-"không chút nào"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không hề; hoàn toàn không",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217975,
-"meaning_vi": "vô vọng",
-"confidence": "medium",
-"search_keywords": [
-"vô vọng",
-"hết thuốc chữa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không còn cách cứu vãn; hoàn toàn vô dụng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 447,
-"word": "さて置く",
-"kana": "さておく",
-"senses": [
-{
-"sense_id": 217976,
-"meaning_vi": "gác sang một bên",
-"confidence": "high",
-"search_keywords": [
-"gác sang một bên",
-"tạm bỏ qua"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "để sang một bên; tạm thời không xét đến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 448,
-"word": "さてさて",
-"kana": "さてさて",
-"senses": [
-{
-"sense_id": 217977,
-"meaning_vi": "nào nào",
-"confidence": "medium",
-"search_keywords": [
-"nào nào",
-"ôi chà"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thán từ biểu thị sự ngạc nhiên hoặc mở đầu câu chuyện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 449,
-"word": "サバサバ",
-"kana": "サバサバ",
-"senses": [
-{
-"sense_id": 217978,
-"meaning_vi": "nhẹ nhõm",
-"confidence": "high",
-"search_keywords": [
-"nhẹ nhõm",
-"sảng khoái"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm thấy nhẹ nhõm; sảng khoái",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217979,
-"meaning_vi": "thoải mái",
-"confidence": "high",
-"search_keywords": [
-"thoải mái",
-"thẳng tính",
-"cởi mở"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thẳng tính; cởi mở; không câu nệ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 450,
-"word": "さめざめ",
-"kana": "さめざめ",
-"senses": [
-{
-"sense_id": 217980,
-"meaning_vi": "nức nở",
-"confidence": "high",
-"search_keywords": [
-"nức nở",
-"khóc thầm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khóc lặng lẽ; khóc nức nở",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 441,
+    "word": "させる",
+    "kana": "させる",
+    "senses": [
+      {
+        "sense_id": 217962,
+        "meaning_vi": "bắt (ai) làm",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt (ai) làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt (ai) làm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217963,
+        "meaning_vi": "cho phép (ai đó) làm gì",
+        "confidence": "high",
+        "search_keywords": [
+          "cho phép (ai đó) làm gì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cho phép (ai đó) làm gì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 442,
+    "word": "させ子",
+    "kana": "させこ",
+    "senses": [
+      {
+        "sense_id": 217964,
+        "meaning_vi": "cô gái dễ dãi; mềm mại",
+        "confidence": "high",
+        "search_keywords": [
+          "cô gái dễ dãi",
+          "mềm mại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cô gái dễ dãi; mềm mại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 443,
+    "word": "先",
+    "kana": "さっき",
+    "senses": [
+      {
+        "sense_id": 217965,
+        "meaning_vi": "cách đây không lâu; một lúc trước; ngay bây giờ; cách đây một thời gian",
+        "confidence": "high",
+        "search_keywords": [
+          "cách đây không lâu",
+          "một lúc trước",
+          "ngay bây giờ",
+          "cách đây một thời gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách đây không lâu; một lúc trước; ngay bây giờ; cách đây một thời gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 444,
+    "word": "さっさと",
+    "kana": "さっさと",
+    "senses": [
+      {
+        "sense_id": 217966,
+        "meaning_vi": "nhanh chóng; kịp thời; ngay lập tức; không chậm trễ; không do dự; nhanh chóng; vội vã; vội vàng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhanh chóng",
+          "kịp thời",
+          "ngay lập tức",
+          "không chậm trễ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhanh chóng; kịp thời; ngay lập tức; không chậm trễ; không do dự; nhanh chóng; vội vã; vội vàng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217967,
+        "meaning_vi": "thờ ơ; lạnh lùng",
+        "confidence": "high",
+        "search_keywords": [
+          "thờ ơ",
+          "lạnh lùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thờ ơ; lạnh lùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 445,
+    "word": "颯と",
+    "kana": "さっと",
+    "senses": [
+      {
+        "sense_id": 217968,
+        "meaning_vi": "nhanh chóng (đặc biệt là hành động)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhanh chóng (đặc biệt là hành động)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhanh chóng (đặc biệt là hành động)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217969,
+        "meaning_vi": "đột ngột (đặc biệt là gió, mưa, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "đột ngột (đặc biệt là gió, mưa, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đột ngột (đặc biệt là gió, mưa, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 446,
+    "word": "さっぱり",
+    "kana": "さっぱり",
+    "senses": [
+      {
+        "sense_id": 217970,
+        "meaning_vi": "cảm giác sảng khoái; cảm thấy nhẹ nhõm",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm giác sảng khoái",
+          "cảm thấy nhẹ nhõm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm giác sảng khoái; cảm thấy nhẹ nhõm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217971,
+        "meaning_vi": "gọn gàng; ngăn nắp; sạch sẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "gọn gàng",
+          "ngăn nắp",
+          "sạch sẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọn gàng; ngăn nắp; sạch sẽ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217972,
+        "meaning_vi": "thẳng thắn; cởi mở; đơn giản; đơn giản; ánh sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "thẳng thắn",
+          "cởi mở",
+          "đơn giản",
+          "ánh sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẳng thắn; cởi mở; đơn giản; đơn giản; ánh sáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217973,
+        "meaning_vi": "hoàn toàn; hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoàn toàn; hoàn toàn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217974,
+        "meaning_vi": "ít nhất là không (với động từ phủ định); không hề",
+        "confidence": "high",
+        "search_keywords": [
+          "ít nhất là không (với động từ phủ định)",
+          "không hề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ít nhất là không (với động từ phủ định); không hề",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217975,
+        "meaning_vi": "không có gì cả; hoàn toàn vô dụng; vô vọng; khủng khiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "không có gì cả",
+          "hoàn toàn vô dụng",
+          "vô vọng",
+          "khủng khiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có gì cả; hoàn toàn vô dụng; vô vọng; khủng khiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 447,
+    "word": "さて置く",
+    "kana": "さておく",
+    "senses": [
+      {
+        "sense_id": 217976,
+        "meaning_vi": "để sang một bên",
+        "confidence": "high",
+        "search_keywords": [
+          "để sang một bên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để sang một bên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 448,
+    "word": "さてさて",
+    "kana": "さてさて",
+    "senses": [
+      {
+        "sense_id": 217977,
+        "meaning_vi": "Tốt!; hử; của tôi, của tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "Tốt!",
+          "hử",
+          "của tôi, của tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tốt!; hử; của tôi, của tôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 449,
+    "word": "サバサバ",
+    "kana": "サバサバ",
+    "senses": [
+      {
+        "sense_id": 217978,
+        "meaning_vi": "nhẹ nhõm; được làm mới",
+        "confidence": "high",
+        "search_keywords": [
+          "nhẹ nhõm",
+          "được làm mới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhẹ nhõm; được làm mới",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217979,
+        "meaning_vi": "thẳng thắn; thẳng thắn; dễ tính; thoải mái",
+        "confidence": "high",
+        "search_keywords": [
+          "thẳng thắn",
+          "dễ tính",
+          "thoải mái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẳng thắn; thẳng thắn; dễ tính; thoải mái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 450,
+    "word": "さめざめ",
+    "kana": "さめざめ",
+    "senses": [
+      {
+        "sense_id": 217980,
+        "meaning_vi": "(khóc) lặng lẽ; âm thầm; (khóc) cay đắng",
+        "confidence": "high",
+        "search_keywords": [
+          "(khóc) lặng lẽ",
+          "âm thầm",
+          "(khóc) cay đắng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(khóc) lặng lẽ; âm thầm; (khóc) cay đắng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 451,
+    "word": "さもしい",
+    "kana": "さもしい",
+    "senses": [
+      {
+        "sense_id": 217981,
+        "meaning_vi": "thấp; thô tục; căn cứ; hèn hạ; nghĩa là; ích kỷ; tư lợi",
+        "confidence": "high",
+        "search_keywords": [
+          "thấp",
+          "thô tục",
+          "căn cứ",
+          "hèn hạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thấp; thô tục; căn cứ; hèn hạ; nghĩa là; ích kỷ; tư lợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 452,
+    "word": "サヨナラホームラン",
+    "kana": "サヨナラホームラン",
+    "senses": [
+      {
+        "sense_id": 217982,
+        "meaning_vi": "trận đấu về nhà kết thúc",
+        "confidence": "high",
+        "search_keywords": [
+          "trận đấu về nhà kết thúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận đấu về nhà kết thúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 453,
+    "word": "さらけ出す",
+    "kana": "さらけだす",
+    "senses": [
+      {
+        "sense_id": 217983,
+        "meaning_vi": "để lộ; tiết lộ; nằm trần; thú nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "để lộ",
+          "tiết lộ",
+          "nằm trần",
+          "thú nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để lộ; tiết lộ; nằm trần; thú nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 454,
+    "word": "さらさら",
+    "kana": "さらさら",
+    "senses": [
+      {
+        "sense_id": 217984,
+        "meaning_vi": "với âm thanh xào xạc",
+        "confidence": "high",
+        "search_keywords": [
+          "với âm thanh xào xạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "với âm thanh xào xạc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217985,
+        "meaning_vi": "gợn sóng (của một dòng suối, v.v.); thì thầm; sự tẩy rửa",
+        "confidence": "high",
+        "search_keywords": [
+          "gợn sóng (của một dòng suối, v.v.)",
+          "thì thầm",
+          "sự tẩy rửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gợn sóng (của một dòng suối, v.v.); thì thầm; sự tẩy rửa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217986,
+        "meaning_vi": "húp xì xụp (ochazuke)",
+        "confidence": "high",
+        "search_keywords": [
+          "húp xì xụp (ochazuke)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "húp xì xụp (ochazuke)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217987,
+        "meaning_vi": "nhanh chóng và dễ dàng (ví dụ: viết một lá thư); một cách dễ dàng; suôn sẻ; trôi chảy",
+        "confidence": "high",
+        "search_keywords": [
+          "nhanh chóng và dễ dàng (ví dụ: viết một lá thư)",
+          "một cách dễ dàng",
+          "suôn sẻ",
+          "trôi chảy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhanh chóng và dễ dàng (ví dụ: viết một lá thư); một cách dễ dàng; suôn sẻ; trôi chảy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217988,
+        "meaning_vi": "mịn và khô (tóc, cát, v.v.); mượt; dạng bột (ví dụ: tuyết); chảy tự do (ví dụ như máu)",
+        "confidence": "high",
+        "search_keywords": [
+          "mịn và khô (tóc, cát, v.v.)",
+          "mượt",
+          "dạng bột (ví dụ: tuyết)",
+          "chảy tự do (ví dụ như máu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mịn và khô (tóc, cát, v.v.); mượt; dạng bột (ví dụ: tuyết); chảy tự do (ví dụ như máu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 455,
+    "word": "さり気ない",
+    "kana": "さりげない",
+    "senses": [
+      {
+        "sense_id": 217989,
+        "meaning_vi": "thờ ơ; không quan tâm; một cách bình thường",
+        "confidence": "high",
+        "search_keywords": [
+          "thờ ơ",
+          "không quan tâm",
+          "một cách bình thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thờ ơ; không quan tâm; một cách bình thường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 456,
+    "word": "さん",
+    "kana": "さん",
+    "senses": [
+      {
+        "sense_id": 217990,
+        "meaning_vi": "Ông; Bà; Cô; Bệnh đa xơ cứng; -san",
+        "confidence": "high",
+        "search_keywords": [
+          "Ông",
+          "Bà",
+          "Cô",
+          "Bệnh đa xơ cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ông; Bà; Cô; Bệnh đa xơ cứng; -san",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217991,
+        "meaning_vi": "dấu hiệu lịch sự",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu hiệu lịch sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu hiệu lịch sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 457,
+    "word": "ザクザク",
+    "kana": "ザクザク",
+    "senses": [
+      {
+        "sense_id": 217992,
+        "meaning_vi": "đi trên sương giá; lạo xạo (ví dụ: trên sỏi)",
+        "confidence": "high",
+        "search_keywords": [
+          "đi trên sương giá",
+          "lạo xạo (ví dụ: trên sỏi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi trên sương giá; lạo xạo (ví dụ: trên sỏi)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217993,
+        "meaning_vi": "rất nhiều tiền xu hoặc đồ trang sức",
+        "confidence": "high",
+        "search_keywords": [
+          "rất nhiều tiền xu hoặc đồ trang sức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất nhiều tiền xu hoặc đồ trang sức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217994,
+        "meaning_vi": "cắt thành miếng lớn; dệt lỏng lẻo",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt thành miếng lớn",
+          "dệt lỏng lẻo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt thành miếng lớn; dệt lỏng lẻo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217995,
+        "meaning_vi": "lớn (mảnh, mũi khâu, hạt cát, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "lớn (mảnh, mũi khâu, hạt cát, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớn (mảnh, mũi khâu, hạt cát, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 458,
+    "word": "ざっくばらん",
+    "kana": "ざっくばらん",
+    "senses": [
+      {
+        "sense_id": 217996,
+        "meaning_vi": "thẳng thắn; thẳng thắn; thẳng thắn; không được bảo lưu",
+        "confidence": "high",
+        "search_keywords": [
+          "thẳng thắn",
+          "không được bảo lưu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẳng thắn; thẳng thắn; thẳng thắn; không được bảo lưu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 459,
+    "word": "ざっと",
+    "kana": "ざっと",
+    "senses": [
+      {
+        "sense_id": 217997,
+        "meaning_vi": "đại khái ; khoảng; vòng quanh; nhiều hay ít",
+        "confidence": "high",
+        "search_keywords": [
+          "đại khái",
+          "khoảng",
+          "vòng quanh",
+          "nhiều hay ít"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại khái ; khoảng; vòng quanh; nhiều hay ít",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217998,
+        "meaning_vi": "lướt qua; ngắn gọn; nhanh chóng; nhẹ nhàng; đại khái",
+        "confidence": "high",
+        "search_keywords": [
+          "lướt qua",
+          "ngắn gọn",
+          "nhanh chóng",
+          "nhẹ nhàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lướt qua; ngắn gọn; nhanh chóng; nhẹ nhàng; đại khái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 460,
+    "word": "ざまを見ろ",
+    "kana": "ざまをみろ",
+    "senses": [
+      {
+        "sense_id": 217999,
+        "meaning_vi": "phục vụ bạn ngay!; xem điều gì sẽ xảy ra!",
+        "confidence": "high",
+        "search_keywords": [
+          "phục vụ bạn ngay!",
+          "xem điều gì sẽ xảy ra!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục vụ bạn ngay!; xem điều gì sẽ xảy ra!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]
