@@ -707,6 +707,44 @@ export type Database = {
           },
         ]
       }
+      vocabulary_examples: {
+        Row: {
+          example_order: number
+          id: number
+          japanese: string
+          ruby: Json
+          sense_index: number | null
+          translation_vi: string
+          vocabulary_id: number
+        }
+        Insert: {
+          example_order?: number
+          id?: number
+          japanese: string
+          ruby?: Json
+          sense_index?: number | null
+          translation_vi: string
+          vocabulary_id: number
+        }
+        Update: {
+          example_order?: number
+          id?: number
+          japanese?: string
+          ruby?: Json
+          sense_index?: number | null
+          translation_vi?: string
+          vocabulary_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "vocabulary_examples_vocabulary_id_fkey"
+            columns: ["vocabulary_id"]
+            isOneToOne: false
+            referencedRelation: "vocabularies"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       vocabulary_readings: {
         Row: {
           created_at: string | null

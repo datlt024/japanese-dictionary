@@ -1,6 +1,7 @@
 import type {
     Vocabulary,
     VocabularyCollocation,
+    VocabularyExample,
     VocabularyRelation,
     VocabularyRubyItem,
     VocabularySense,
@@ -9,6 +10,7 @@ import type {
 import {
     findKanjisByCharacters,
     findVocabularyBaseById,
+    findVocabularyExamplesByVocabularyId,
     findVocabularyReadingsByVocabularyId,
     findVocabularySensesByVocabularyId,
     findVocabularyWritingsByVocabularyId,
@@ -35,52 +37,30 @@ export type VocabularyKanjiDetail = {
     frequency: number | null
 }
 
-function isVocabularyRubyItem(
-    value: unknown
-): value is VocabularyRubyItem {
-    if (
-        typeof value !== "object" ||
-        value === null ||
-        !("text" in value) ||
-        !("reading" in value)
-    ) {
-        return false
-    }
+function toVocabularyRubyItem(value: unknown): VocabularyRubyItem | null {
+    if (typeof value !== "object" || value === null) return null
 
-    const item = value as {
-        text: unknown
-        reading: unknown
-    }
+    const item = value as Record<string, unknown>
+    const text = typeof item.text === "string" ? item.text
+        : typeof item.base === "string" ? item.base
+        : null
+    const reading = typeof item.reading === "string" ? item.reading : null
 
-    return (
-        typeof item.text === "string" &&
-        (typeof item.reading === "string" ||
-            item.reading === null)
-    )
+    if (!text) return null
+    return { text, reading }
 }
 
-function normalizeVocabularyRuby(
-    value: unknown
-): VocabularyRubyItem[] {
-    if (typeof value === "string") {
-        try {
-            const parsed = JSON.parse(value)
+function normalizeVocabularyRuby(value: unknown): VocabularyRubyItem[] {
+    const arr = typeof value === "string"
+        ? (() => { try { return JSON.parse(value) } catch { return [] } })()
+        : value
 
-            if (Array.isArray(parsed)) {
-                return parsed.filter(isVocabularyRubyItem)
-            }
-        } catch {
-            return []
-        }
+    if (!Array.isArray(arr)) return []
 
-        return []
-    }
-
-    if (!Array.isArray(value)) {
-        return []
-    }
-
-    return value.filter(isVocabularyRubyItem)
+    return arr.flatMap((item) => {
+        const parsed = toVocabularyRubyItem(item)
+        return parsed ? [parsed] : []
+    })
 }
 
 function extractUniqueKanjis(text: string) {
@@ -100,7 +80,6 @@ export async function getVocabularyById(
         return null
     }
 
-    // All 6 queries use only `id` — run fully in parallel, zero sequential steps
     const [
         baseResult,
         sensesResult,
@@ -108,6 +87,7 @@ export async function getVocabularyById(
         readingsResult,
         collocationsResult,
         relationsResult,
+        examplesResult,
     ] = await Promise.all([
         findVocabularyBaseById(id),
         findVocabularySensesByVocabularyId(id),
@@ -115,6 +95,7 @@ export async function getVocabularyById(
         findVocabularyReadingsByVocabularyId(id),
         findVocabularyCollocationsByVocabularyId(id),
         findVocabularyRelationsByVocabularyId(id),
+        findVocabularyExamplesByVocabularyId(id),
     ])
 
     if (baseResult.error) {
@@ -148,6 +129,15 @@ export async function getVocabularyById(
         console.error("Get vocabulary relations error:", relationsResult.error)
     }
 
+    const examples = (examplesResult.data ?? []).map(
+        (ex): VocabularyExample => ({
+            sense_index: ex.sense_index,
+            jp: ex.japanese,
+            vi: ex.translation_vi ?? "",
+            ruby: normalizeVocabularyRuby(ex.ruby),
+        })
+    )
+
     return {
         id: vocabulary.id,
         jmdict_id: vocabulary.jmdict_id,
@@ -166,6 +156,7 @@ export async function getVocabularyById(
         relations: relationsResult.error
             ? []
             : (relationsResult.data as VocabularyRelation[]) || [],
+        examples,
     }
 }
 

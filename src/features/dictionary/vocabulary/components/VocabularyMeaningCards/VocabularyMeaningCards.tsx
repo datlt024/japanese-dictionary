@@ -1,13 +1,21 @@
+"use client"
+
+import { useState } from "react"
+import Link from "next/link"
+import { Volume2 } from "lucide-react"
+
 import styles from "./VocabularyMeaningCards.module.css"
 
 import {
-    formatGlossMeaning,
+    createVocabularyHref,
     formatMeaningVi,
-    getSenseGlosses,
     getSenseMeaning,
 } from "@/features/dictionary/vocabulary/utils"
+import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
+import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
 
-import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
+import type { Vocabulary } from "@/domain/vocabulary"
+import type { RelatedVocabularySummary } from "@/domain/vocabulary/vocabulary-relation.type"
 
 type VocabularySense = Vocabulary["senses"][number]
 
@@ -17,118 +25,86 @@ type Props = {
     nounSenses: VocabularySense[]
     suruVerbSenses: VocabularySense[]
     hasSuruVerb: boolean
+    synonyms: RelatedVocabularySummary[]
 }
+
+const DEFAULT_SENSE_LIMIT = 1
 
 type MeaningListProps = {
     senses: VocabularySense[]
     language: "vi" | "en"
+    green?: boolean
 }
 
-function MeaningList({ senses, language }: MeaningListProps) {
+function MeaningList({ senses, language, green }: MeaningListProps) {
+    const [expanded, setExpanded] = useState(false)
+
     if (senses.length === 0) {
         return <p className={styles.emptyText}>Đang cập nhật</p>
     }
 
+    const visible = expanded ? senses : senses.slice(0, DEFAULT_SENSE_LIMIT)
+    const hidden = senses.length - DEFAULT_SENSE_LIMIT
+
     return (
-        <ul className={styles.meaningBulletList}>
-            {senses.map((sense) => {
-                const glosses = getSenseGlosses(
-                    sense.meaning_vi_glosses
-                )
+        <>
+            <ul className={styles.meaningBulletList}>
+                {visible.map((sense) => {
+                    const meaning = getSenseMeaning(sense, language)
 
-                const meaning = getSenseMeaning(sense, language)
+                    return (
+                        <li key={sense.id}>
+                            <span className={styles.meaningDot}>•</span>
 
-                return (
-                    <li key={sense.id}>
-                        <span className={styles.meaningDot}>•</span>
-
-                        <div>
                             <p className={styles.meaningText}>
-                                {language === "vi"
-                                    ? formatMeaningVi(meaning)
-                                    : meaning}
+                                {language === "vi" ? formatMeaningVi(meaning) : meaning}
                             </p>
+                        </li>
+                    )
+                })}
+            </ul>
 
-                            {language === "vi" &&
-                                glosses.length > 0 && (
-                                    <div
-                                        className={
-                                            styles.senseGlossList
-                                        }
-                                    >
-                                        {glosses.map((gloss) => (
-                                            <p
-                                                key={gloss.index}
-                                                className={
-                                                    styles.senseGlossItem
-                                                }
-                                            >
-                                                {formatGlossMeaning(
-                                                    gloss.meaning
-                                                )}
-                                            </p>
-                                        ))}
-                                    </div>
-                                )}
-                        </div>
-                    </li>
-                )
-            })}
-        </ul>
+            {senses.length > DEFAULT_SENSE_LIMIT && (
+                <button
+                    type="button"
+                    className={`${styles.expandSenses}${green ? ` ${styles.expandSensesGreen}` : ""}`}
+                    onClick={() => setExpanded((v) => !v)}
+                >
+                    {expanded ? "Thu gọn ↑" : `Xem thêm ${hidden} nghĩa khác ↓`}
+                </button>
+            )}
+        </>
     )
 }
 
-function InlineExampleList({
-    variant,
+function SynonymRow({
+    synonyms,
+    language,
+    green,
 }: {
-    variant: "noun" | "verb"
+    synonyms: RelatedVocabularySummary[]
+    language: "vi" | "en"
+    green?: boolean
 }) {
-    const examples =
-        variant === "noun"
-            ? [
-                {
-                    ruby: "べんきょう　たいへん",
-                    jp: "勉強は大変です。でも、頑張ります。",
-                    vi: "Việc học rất vất vả. Nhưng tôi sẽ cố gắng.",
-                },
-                {
-                    ruby: "かのじょ　べんきょう　いそが",
-                    jp: "彼女は勉強で忙しいです。",
-                    vi: "Cô ấy bận rộn với việc học.",
-                },
-            ]
-            : [
-                {
-                    ruby: "わたし　まいにち　べんきょう",
-                    jp: "私は毎日勉強します。",
-                    vi: "Tôi học mỗi ngày.",
-                },
-                {
-                    ruby: "しけん　まえ　べんきょう",
-                    jp: "試験の前に勉強します。",
-                    vi: "Tôi học trước khi thi.",
-                },
-            ]
+    if (synonyms.length === 0) return null
 
     return (
-        <div className={styles.inlineExampleBox}>
-            {examples.map((example) => (
-                <div
-                    key={example.jp}
-                    className={styles.inlineExampleItem}
-                >
-                    <p className={styles.inlineExampleRuby}>
-                        {example.ruby}
-                    </p>
+        <div className={`${styles.synonymRow}${green ? ` ${styles.synonymRowGreen}` : ""}`}>
+            <span className={styles.synonymLabel}>Đồng nghĩa:</span>
 
-                    <p className={styles.inlineExampleJp}>
-                        {example.jp}
-                    </p>
-
-                    <p className={styles.inlineExampleVi}>
-                        {example.vi}
-                    </p>
-                </div>
+            {synonyms.map((s, i) => (
+                <span key={s.id} className={styles.synonymItem}>
+                    {i > 0 && <span className={styles.synonymDot}> · </span>}
+                    <Link
+                        href={createVocabularyHref(s.id, language, false)}
+                        className={`${styles.synonymLink}${green ? ` ${styles.synonymLinkGreen}` : ""}`}
+                    >
+                        {s.primary_word || s.primary_kana}
+                        {s.primary_kana && s.primary_word && (
+                            <span className={styles.synonymKana}>（{s.primary_kana}）</span>
+                        )}
+                    </Link>
+                </span>
             ))}
         </div>
     )
@@ -140,6 +116,7 @@ export default function VocabularyMeaningCards({
     nounSenses,
     suruVerbSenses,
     hasSuruVerb,
+    synonyms,
 }: Props) {
     return (
         <div className={styles.meaningGrid}>
@@ -157,76 +134,46 @@ export default function VocabularyMeaningCards({
                         <span className={styles.posBadge}>n</span>
                     </div>
 
-                    <button
-                        type="button"
-                        className={styles.meaningSoundButton}
-                        aria-label="Phát âm nghĩa danh từ"
-                    >
-                        🔊
-                    </button>
+                    <ActionButtons
+                        items={[{
+                            key: "speak",
+                            label: "Phát âm từ",
+                            icon: <Volume2 />,
+                            onClick: () => speakJapanese(vocabulary.word),
+                        }]}
+                    />
                 </div>
 
-                <MeaningList
-                    senses={nounSenses}
-                    language={language}
-                />
+                <MeaningList senses={nounSenses} language={language} />
 
-                <InlineExampleList variant="noun" />
-
-                <button
-                    type="button"
-                    className={styles.moreInlineExample}
-                >
-                    Xem thêm ví dụ (15)⌄
-                </button>
+                <SynonymRow synonyms={synonyms} language={language} />
             </div>
 
             {hasSuruVerb && (
-                <div
-                    className={`${styles.meaningCard} ${styles.meaningCardGreen}`}
-                >
+                <div className={`${styles.meaningCard} ${styles.meaningCardGreen}`}>
                     <div className={styles.meaningCardHeader}>
                         <div className={styles.meaningTitleRow}>
-                            <span className={styles.meaningOrder}>
-                                2.
-                            </span>
+                            <span className={styles.meaningOrder}>2.</span>
                             <h2>ĐỘNG TỪ</h2>
-                            <span className={styles.posBadgeGreen}>
-                                vs
-                            </span>
-                            <span className={styles.posBadgeGreen}>
-                                vt
-                            </span>
+                            <span className={styles.posBadgeGreen}>vs</span>
+                            <span className={styles.posBadgeGreen}>vt</span>
                         </div>
 
-                        <button
-                            type="button"
-                            className={
-                                styles.meaningSoundButtonGreen
-                            }
-                            aria-label="Phát âm nghĩa động từ"
-                        >
-                            🔊
-                        </button>
+                        <ActionButtons
+                            items={[{
+                                key: "speak",
+                                label: "Phát âm từ",
+                                icon: <Volume2 />,
+                                onClick: () => speakJapanese(`${vocabulary.word}する`),
+                            }]}
+                        />
                     </div>
 
-                    <p className={styles.suruWordLabel}>
-                        （{vocabulary.word}する）
-                    </p>
+                    <p className={styles.suruWordLabel}>（{vocabulary.word}する）</p>
 
-                    <MeaningList
-                        senses={suruVerbSenses}
-                        language={language}
-                    />
+                    <MeaningList senses={suruVerbSenses} language={language} green />
 
-                    <InlineExampleList variant="verb" />
-
-                    <button
-                        type="button"
-                        className={styles.moreInlineExample}
-                    >
-                        Xem thêm ví dụ (8)⌄
-                    </button>
+                    <SynonymRow synonyms={synonyms} language={language} green />
                 </div>
             )}
         </div>

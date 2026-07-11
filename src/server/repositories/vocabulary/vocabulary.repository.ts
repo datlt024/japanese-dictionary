@@ -108,3 +108,24 @@ export function findVocabularyIdsByPrimaryWords(words: string[]) {
         .in("primary_word", words)
         .limit(words.length * 3)
 }
+
+const VOCABULARY_EXAMPLE_COLUMNS = `
+id,
+vocabulary_id,
+sense_index,
+japanese,
+translation_vi,
+example_order,
+ruby
+` as const
+
+export async function findVocabularyExamplesByVocabularyId(
+    vocabularyId: number
+) {
+    return supabaseServer
+        .from("vocabulary_examples")
+        .select(VOCABULARY_EXAMPLE_COLUMNS)
+        .eq("vocabulary_id", vocabularyId)
+        .order("example_order", { ascending: true })
+        .limit(50)
+}

@@ -49,6 +49,13 @@ export type VocabularyReading = Pick<
     | "pitch"
 >
 
+export type VocabularyExample = {
+    sense_index: number | null
+    jp: string
+    vi: string
+    ruby: VocabularyRubyItem[]
+}
+
 export type Vocabulary = {
     id: number
     jmdict_id: string | null
@@ -63,4 +70,5 @@ export type Vocabulary = {
     readings: VocabularyReading[]
     collocations: VocabularyCollocation[]
     relations: VocabularyRelation[]
+    examples: VocabularyExample[]
 }

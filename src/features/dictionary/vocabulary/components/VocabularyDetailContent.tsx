@@ -95,6 +95,7 @@ export default function VocabularyDetailContent({
                     }
                     suruVerbSenses={suruVerbSenses}
                     hasSuruVerb={hasSuruVerb}
+                    synonyms={getRelationVocabularyList(synonyms)}
                 />
 
                 {conjugations.length > 0 && (
@@ -156,7 +157,16 @@ export default function VocabularyDetailContent({
                     </div>
                 )}
 
-                <ExampleSection />
+                <ExampleSection
+                    examples={vocabulary.examples.map((ex) => ({
+                        jp: ex.jp,
+                        vi: ex.vi,
+                        ruby: ex.ruby.map((r) => ({
+                            base: r.text,
+                            reading: r.reading ?? "",
+                        })),
+                    }))}
+                />
             </section>
 
             <aside className={`${styles.detailSidebar} ${embedded ? styles.detailSidebarEmbedded : ""}`}>

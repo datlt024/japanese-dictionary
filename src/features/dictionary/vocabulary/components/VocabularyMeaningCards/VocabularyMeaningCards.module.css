@@ -92,38 +92,6 @@
     color: #ffffff;
 }
 
-.meaningSoundButton,
-.meaningSoundButtonGreen {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 36px;
-    height: 36px;
-
-    border: 1px solid var(--border-color);
-    border-radius: 999px;
-
-    background: #f6f9ff;
-    color: var(--primary);
-
-    cursor: pointer;
-
-    transition: all .2s ease;
-}
-
-.meaningSoundButton:hover {
-    background: var(--primary-soft);
-}
-
-.meaningSoundButtonGreen {
-    background: #eefaf5;
-    color: var(--success);
-}
-
-.meaningSoundButtonGreen:hover {
-    background: var(--success-soft);
-}
 
 .suruWordLabel {
     margin: -8px 0 12px;
@@ -170,111 +138,95 @@
     font-weight: 800;
 }
 
-.senseGlossList {
-    display: grid;
-    gap: 4px;
-
-    margin-top: 4px;
-}
-
-.senseGlossItem {
-    margin: 0;
-
-    color: var(--text-secondary);
-
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-.inlineExampleBox {
-    overflow: hidden;
-
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-
-    background: #ffffff;
-}
-
-.inlineExampleItem {
-    position: relative;
-
-    padding: 14px 44px 12px 16px;
-
-    border-bottom: 1px solid #f0f2f5;
-}
-
-.inlineExampleItem:last-child {
-    border-bottom: 0;
-}
-
-.inlineExampleItem::after {
-    content: "🔊";
-
-    position: absolute;
-    right: 16px;
-    top: 22px;
-
-    color: var(--primary);
-
-    font-size: 16px;
-}
-
-.meaningCardGreen .inlineExampleItem::after {
-    color: var(--success);
-}
-
-.inlineExampleRuby {
-    margin: 0 0 2px;
-
-    color: var(--text-muted);
-
-    font-family: "Noto Sans JP", sans-serif;
-    font-size: 10px;
-    letter-spacing: .24em;
-}
-
-.inlineExampleJp {
-    margin: 0;
-
-    color: var(--primary-dark);
-
-    font-family: "Noto Sans JP", sans-serif;
-    font-size: 16px;
-    line-height: 1.45;
-    font-weight: 800;
-}
-
-.inlineExampleVi {
-    margin: 4px 0 0;
-
-    color: var(--text-secondary);
-
-    font-size: 13px;
-    line-height: 1.5;
-}
-
-.moreInlineExample {
+.expandSenses {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
 
-    margin-top: 12px;
-    margin-left: auto;
+    margin-top: 6px;
+    margin-bottom: 2px;
 
     border: 0;
     background: transparent;
 
     color: var(--primary);
 
-    font-size: 14px;
-    font-weight: 800;
-    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
 
     cursor: pointer;
 }
 
-.meaningCardGreen .moreInlineExample {
+.expandSenses:hover {
+    text-decoration: underline;
+}
+
+.expandSensesGreen {
     color: var(--success);
+}
+
+.synonymRow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px 0;
+
+    padding-top: 10px;
+    margin-top: 4px;
+
+    border-top: 1px solid var(--border-color);
+}
+
+.synonymLabel {
+    margin-right: 6px;
+
+    color: var(--text-secondary);
+
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.synonymItem {
+    display: inline-flex;
+    align-items: center;
+
+    font-size: 13px;
+}
+
+.synonymDot {
+    color: var(--text-secondary);
+}
+
+.synonymLink {
+    color: var(--primary);
+
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.synonymLink:hover {
+    text-decoration: underline;
+}
+
+.synonymLinkGreen {
+    color: var(--success);
+}
+
+.synonymKana {
+    margin-left: 2px;
+
+    color: var(--text-secondary);
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.synonymRow + .synonymRow {
+    margin-top: 6px;
+}
+
+.synonymRowGreen {
+    border-top-color: #d7f7e6;
 }
 
 .emptyText {
