@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
+import { serverError } from "@/server/utils/api-error"
 import {
     addNotebookItem,
     listNotebookItems,
@@ -134,7 +135,7 @@ export async function GET(_request: NextRequest, { params }: Params) {
     const { data, error } = await listNotebookItems(supabase, id)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "GET /api/notebooks/[id]/items")
     }
 
     const enriched = await enrichItems((data ?? []) as NotebookItem[])
@@ -171,7 +172,7 @@ export async function POST(request: NextRequest, { params }: Params) {
         if (error.code === "23505") {
             return NextResponse.json({ error: "Mục này đã có trong sổ tay" }, { status: 409 })
         }
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "POST /api/notebooks/[id]/items")
     }
 
     return NextResponse.json(data, { status: 201 })
@@ -202,7 +203,7 @@ export async function DELETE(request: NextRequest, { params }: Params) {
     const { error } = await removeNotebookItem(supabase, id, itemType, itemId)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "DELETE /api/notebooks/[id]/items")
     }
 
     return new NextResponse(null, { status: 204 })

@@ -12,6 +12,8 @@ import { createSupabaseBrowserClient } from "@/shared/lib/supabase/auth-client"
 
 import styles from "./AuthModal.module.css"
 
+const RESEND_COOLDOWN = 60
+
 type Step = "email" | "otp"
 
 type AuthModalProps = {
@@ -26,6 +28,7 @@ export default function AuthModal({ open, onClose }: AuthModalProps) {
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState<string | null>(null)
     const [sent, setSent] = useState(false)
+    const [resendCooldown, setResendCooldown] = useState(0)
 
     useEffect(() => {
         if (!open) return
@@ -37,6 +40,12 @@ export default function AuthModal({ open, onClose }: AuthModalProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [open])
 
+    useEffect(() => {
+        if (resendCooldown <= 0) return
+        const timer = setTimeout(() => setResendCooldown((c) => c - 1), 1000)
+        return () => clearTimeout(timer)
+    }, [resendCooldown])
+
     function resetState() {
         setStep("email")
         setEmail("")
@@ -44,6 +53,7 @@ export default function AuthModal({ open, onClose }: AuthModalProps) {
         setError(null)
         setSent(false)
         setLoading(false)
+        setResendCooldown(0)
     }
 
     function handleClose() {
@@ -74,6 +84,31 @@ export default function AuthModal({ open, onClose }: AuthModalProps) {
 
         setSent(true)
         setStep("otp")
+        setResendCooldown(RESEND_COOLDOWN)
+    }
+
+    async function handleResendOtp() {
+        const trimmed = email.trim()
+        if (!trimmed || resendCooldown > 0) return
+
+        setLoading(true)
+        setError(null)
+
+        const supabase = createSupabaseBrowserClient()
+        const { error: err } = await supabase.auth.signInWithOtp({
+            email: trimmed,
+            options: { shouldCreateUser: true },
+        })
+
+        setLoading(false)
+
+        if (err) {
+            setError("Không thể gửi lại mã. Vui lòng thử lại.")
+            return
+        }
+
+        setSent(true)
+        setResendCooldown(RESEND_COOLDOWN)
     }
 
     async function handleVerifyOtp(e: FormEvent) {
@@ -215,6 +250,16 @@ export default function AuthModal({ open, onClose }: AuthModalProps) {
                                 disabled={loading || otp.trim().length < 6}
                             >
                                 {loading ? "Đang xác nhận..." : "Xác nhận"}
+                            </button>
+                            <button
+                                className={styles.textButton}
+                                type="button"
+                                onClick={handleResendOtp}
+                                disabled={loading || resendCooldown > 0}
+                            >
+                                {resendCooldown > 0
+                                    ? `Gửi lại mã (${resendCooldown}s)`
+                                    : "Gửi lại mã"}
                             </button>
                             <button
                                 className={styles.textButton}

@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 
 import styles from "./page.module.css"
@@ -20,6 +21,26 @@ type Props = {
         lang?: string
         embedded?: string
     }>
+}
+
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
+    const { id } = await params
+    const lang = searchParams ? (await searchParams).lang : undefined
+    const language = lang === "en" ? "en" : "vi"
+    const vocabularyId = Number(id)
+    const vocabulary = Number.isFinite(vocabularyId) ? await getVocabularyById(vocabularyId) : null
+    if (!vocabulary) return { title: "Từ vựng | Mazii" }
+    const sense = vocabulary.senses?.[0]
+    const meaning = language === "en"
+        ? (sense?.meaning_en || sense?.meaning_vi || "")
+        : (sense?.meaning_vi || sense?.meaning_en || "")
+    const kana = vocabulary.readings?.[0]?.reading ?? ""
+    return {
+        title: `${vocabulary.word} ${kana ? `(${kana})` : ""} — Từ vựng | Mazii`.trim(),
+        description: meaning
+            ? `${vocabulary.word}: ${meaning}. Tra cứu từ vựng tiếng Nhật với ví dụ và phiên âm đầy đủ.`
+            : `Tra cứu từ vựng ${vocabulary.word} trong từ điển Nhật Việt Mazii.`,
+    }
 }
 
 export default async function VocabularyDetailPage({

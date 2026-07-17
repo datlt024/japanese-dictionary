@@ -4,5 +4,319 @@
 
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
+
+    padding: 24px 0 48px;
+}
+
+/* ── Summary ── */
+.resultSummary {
+    margin: 0;
+
+    color: #6b7280;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.resultSummary strong {
+    color: #1f2937;
+    font-weight: 700;
+}
+
+/* ── Section ── */
+.resultSection {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin: 0;
+
+    color: #1f2937;
+
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.resultCount {
+    color: #9ca3af;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ── Shared badges ── */
+.jlptBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2px 8px;
+
+    border-radius: 999px;
+    border: 1px solid #dbeafe;
+
+    background: #eff6ff;
+    color: #2563eb;
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .02em;
+    white-space: nowrap;
+}
+
+.commonBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2px 8px;
+
+    border-radius: 999px;
+    border: 1px solid #d1fae5;
+
+    background: #ecfdf5;
+    color: #059669;
+
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* ── Vocabulary ── */
+.vocabList {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.vocabCard {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    padding: 14px 18px;
+
+    border: 1px solid #e5eaf2;
+    border-radius: 14px;
+
+    background: #ffffff;
+    color: inherit;
+    text-decoration: none;
+
+    transition: border-color .15s, box-shadow .15s;
+}
+
+.vocabCard:hover {
+    border-color: #c7d7f3;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, .07);
+}
+
+.vocabTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.vocabHeading {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.vocabWord {
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.vocabKana {
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.vocabBadges {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.vocabMeaning {
+    margin: 0;
+
+    color: #374151;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.55;
+}
+
+/* ── Kanji ── */
+.kanjiGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 10px;
+}
+
+.kanjiCard {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 14px 16px;
+
+    border: 1px solid #e5eaf2;
+    border-radius: 14px;
+
+    background: #ffffff;
+    color: inherit;
+    text-decoration: none;
+
+    transition: border-color .15s, box-shadow .15s;
+}
+
+.kanjiCard:hover {
+    border-color: #c7d7f3;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, .07);
+}
+
+.kanjiChar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 52px;
+    height: 52px;
+
+    border-radius: 12px;
+    border: 1.5px solid #e5eaf2;
+
+    background: #f7f8fa;
+    color: #1f2937;
+
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.kanjiInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.kanjiHanViet {
+    margin: 0;
+
+    color: #2563eb;
+
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .05em;
+}
+
+.kanjiMeaning {
+    margin: 0;
+
+    color: #374151;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.kanjiMeta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+.strokeBadge {
+    color: #9ca3af;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* ── Grammar ── */
+.grammarList {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.grammarCard {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    padding: 14px 18px;
+
+    border: 1px solid #e5eaf2;
+    border-radius: 14px;
+
+    background: #ffffff;
+    color: inherit;
+    text-decoration: none;
+
+    transition: border-color .15s, box-shadow .15s;
+}
+
+.grammarCard:hover {
+    border-color: #c7d7f3;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, .07);
+}
+
+.grammarTop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grammarPattern {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.grammarMeaning {
+    margin: 0;
+
+    color: #374151;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.55;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+    .kanjiGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .vocabCard,
+    .grammarCard {
+        padding: 12px 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .kanjiGrid {
+        grid-template-columns: 1fr;
+    }
 }

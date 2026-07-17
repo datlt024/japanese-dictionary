@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { deleteComment } from "@/server/repositories/community/community.repository"
+import { serverError } from "@/server/utils/api-error"
 
 export async function DELETE(
     _request: NextRequest,
@@ -17,7 +18,7 @@ export async function DELETE(
 
     const { error } = await deleteComment(supabase, id, user.id)
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "DELETE /api/comments/[id]")
     }
 
     return new NextResponse(null, { status: 204 })

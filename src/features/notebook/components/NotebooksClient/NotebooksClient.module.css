@@ -1716,3 +1716,27 @@
         padding: 20px;
     }
 }
+
+/* ── Explore widget ── */
+.exploreLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.exploreLink {
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: var(--bg2, #f7f8fa);
+    color: var(--text, #1f2937);
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+}
+
+.exploreLink:hover {
+    background: #eff6ff;
+    color: #2563eb;
+}

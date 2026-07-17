@@ -2,6 +2,7 @@ import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 
 import { getRelatedVocabulariesFromDatabase } from "@/server/services/vocabulary/related-vocabulary.service"
+import { serverError } from "@/server/utils/api-error"
 
 const cachedRelatedVocabularies = unstable_cache(
     (keyword: string) => getRelatedVocabulariesFromDatabase(keyword),
@@ -16,7 +17,7 @@ export async function GET(request: NextRequest) {
     const { results, error } = await cachedRelatedVocabularies(keyword)
 
     if (error) {
-        return NextResponse.json({ error }, { status: 500 })
+        return serverError(error, "GET /api/vocabulary/related")
     }
 
     return NextResponse.json(

@@ -2,6 +2,7 @@
 
 import {
     FormEvent,
+    startTransition,
     useEffect,
     useRef,
     useState,
@@ -56,15 +57,63 @@ const CARD_COLORS = [
 const CARD_ICONS = [Briefcase, BookOpen, Layers, Zap, Flame, CheckCircle2]
 
 
-const STREAK_DAYS = ["T2", "T3", "T4", "T5", "T6", "T7", "CN"]
+const WEEK_DAYS = ["T2", "T3", "T4", "T5", "T6", "T7", "CN"]
 
-const JLPT_LEVELS = [
-    { level: "N5", color: "#2563eb" },
-    { level: "N4", color: "#16a34a" },
-    { level: "N3", color: "#f59e0b" },
-    { level: "N2", color: "#7c3aed" },
-    { level: "N1", color: "#6b7280" },
-]
+// ISO weekday: Mon=1 … Sun=7 → index 0..6
+function isoWeekdayIndex(date: Date): number {
+    return (date.getDay() + 6) % 7
+}
+
+function toDateKey(date: Date): string {
+    return date.toISOString().slice(0, 10)
+}
+
+type StreakData = {
+    count: number
+    lastDate: string
+    activeDays: number[] // ISO weekday indices active this week
+}
+
+function loadStreak(): StreakData {
+    try {
+        const raw = localStorage.getItem("mazii_streak")
+        if (raw) return JSON.parse(raw) as StreakData
+    } catch {}
+    return { count: 0, lastDate: "", activeDays: [] }
+}
+
+function saveStreak(data: StreakData) {
+    try {
+        localStorage.setItem("mazii_streak", JSON.stringify(data))
+    } catch {}
+}
+
+function updateStreak(prev: StreakData): StreakData {
+    const today = new Date()
+    const todayKey = toDateKey(today)
+
+    if (prev.lastDate === todayKey) return prev // already visited today
+
+    const yesterday = new Date(today)
+    yesterday.setDate(yesterday.getDate() - 1)
+    const yesterdayKey = toDateKey(yesterday)
+
+    // Reset activeDays at the start of each week (Mon)
+    const todayWeekday = isoWeekdayIndex(today)
+    const prevDate = prev.lastDate ? new Date(prev.lastDate) : null
+    const prevWeekday = prevDate ? isoWeekdayIndex(prevDate) : -1
+
+    // If last visit was in a different week, reset activeDays
+    let activeDays = [...prev.activeDays]
+    if (!prevDate || (todayWeekday <= prevWeekday && todayKey !== prev.lastDate)) {
+        activeDays = []
+    }
+    if (!activeDays.includes(todayWeekday)) activeDays.push(todayWeekday)
+
+    const count = prev.lastDate === yesterdayKey ? prev.count + 1 : 1
+
+    return { count, lastDate: todayKey, activeDays }
+}
 
 export default function NotebooksClient() {
     const { user, loading: authLoading, signOut } = useAuth()
@@ -83,6 +132,16 @@ export default function NotebooksClient() {
     const [deletingNotebookId, setDeletingNotebookId] = useState<string | null>(null)
     const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null)
     const [practiceModalId, setPracticeModalId] = useState<string | null>(null)
+
+    const [streak, setStreak] = useState<StreakData>({ count: 0, lastDate: "", activeDays: [] })
+
+    useEffect(() => {
+        if (!user) return
+        const prev = loadStreak()
+        const next = updateStreak(prev)
+        saveStreak(next)
+        startTransition(() => setStreak(next))
+    }, [user])
 
     const createInputRef = useRef<HTMLInputElement>(null)
 
@@ -479,38 +538,48 @@ export default function NotebooksClient() {
                                     <span className={styles.widgetEmoji}>🔥</span>
                                     <h3 className={styles.widgetTitle}>Chuỗi học của bạn</h3>
                                 </div>
-                                <div className={styles.widgetBigNum}>0 ngày</div>
-                                <p className={styles.widgetSub}>Bắt đầu chuỗi học ngay!</p>
+                                <div className={styles.widgetBigNum}>
+                                    {streak.count > 0 ? `${streak.count} ngày` : "—"}
+                                </div>
+                                <p className={styles.widgetSub}>
+                                    {streak.count > 0
+                                        ? `Tuyệt vời! Tiếp tục duy trì nhé.`
+                                        : "Đăng nhập mỗi ngày để tăng chuỗi học!"}
+                                </p>
                                 <div className={styles.streakDays}>
-                                    {STREAK_DAYS.map((day) => (
+                                    {WEEK_DAYS.map((day, idx) => (
                                         <div key={day} className={styles.streakDayCol}>
-                                            <span className={styles.streakFire}>🔥</span>
+                                            <span
+                                                className={styles.streakFire}
+                                                style={{ opacity: streak.activeDays.includes(idx) ? 1 : 0.2 }}
+                                            >
+                                                🔥
+                                            </span>
                                             <span className={styles.streakDayLabel}>{day}</span>
                                         </div>
                                     ))}
                                 </div>
                             </div>
 
-                            {/* Tiến độ JLPT */}
+                            {/* Khám phá */}
                             <div className={styles.widget}>
-                                <h3 className={styles.widgetTitle}>Tiến độ theo cấp độ JLPT</h3>
-                                <div className={styles.jlptList}>
-                                    {JLPT_LEVELS.map((j) => (
-                                        <div key={j.level} className={styles.jlptRow}>
-                                            <span
-                                                className={styles.jlptDot}
-                                                style={{ background: j.color }}
-                                            />
-                                            <span className={styles.jlptLevel}>{j.level}</span>
-                                            <div className={styles.jlptBar}>
-                                                <div
-                                                    className={styles.jlptBarFill}
-                                                    style={{ width: "0%", background: j.color }}
-                                                />
-                                            </div>
-                                            <span className={styles.jlptCount}>0 từ</span>
-                                        </div>
-                                    ))}
+                                <div className={styles.widgetTitleRow}>
+                                    <span className={styles.widgetEmoji}>🗺️</span>
+                                    <h3 className={styles.widgetTitle}>Khám phá</h3>
+                                </div>
+                                <div className={styles.exploreLinks}>
+                                    <Link href="/search?tab=grammar&q=N5" className={styles.exploreLink}>
+                                        📘 Ngữ pháp N5
+                                    </Link>
+                                    <Link href="/search?tab=grammar&q=N4" className={styles.exploreLink}>
+                                        📗 Ngữ pháp N4
+                                    </Link>
+                                    <Link href="/kanji" className={styles.exploreLink}>
+                                        漢 Tra Hán tự theo cấp
+                                    </Link>
+                                    <Link href="/search?tab=vocabulary&q=日本語" className={styles.exploreLink}>
+                                        🔍 Tìm từ vựng
+                                    </Link>
                                 </div>
                             </div>
 

@@ -158,13 +158,9 @@ export default function Header({
                         <option value="en">{getDictionaryLanguageLabel("en")}</option>
                     </select>
 
-                    <button type="button" className={styles.iconButton} aria-label="Thông báo">
-                        🔔
-                    </button>
-
-                    <button type="button" className={styles.iconButton} aria-label="Chuỗi học">
+                    <Link href="/notebooks" className={styles.iconButton} aria-label="Sổ tay & Chuỗi học">
                         🔥
-                    </button>
+                    </Link>
                 </div>
             </header>
 

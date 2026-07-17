@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { serverError } from "@/server/utils/api-error"
 import {
     getProfile,
     upsertProfile,
@@ -40,7 +41,7 @@ export async function PATCH(request: NextRequest) {
 
     const { error } = await upsertProfile(supabase, user.id, newName, newLevel)
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "PATCH /api/profile")
     }
 
     return NextResponse.json({ display_name: newName, jlpt_level: newLevel })

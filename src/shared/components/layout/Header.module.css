@@ -251,6 +251,7 @@
 
     background: transparent;
     color: #6b7280;
+    text-decoration: none;
 
     cursor: pointer;
     transition: all .2s ease;

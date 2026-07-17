@@ -1,6 +1,8 @@
 import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 
+import { checkRateLimit, getClientIp } from "@/shared/utils/rate-limit"
+
 import {
     getVocabularyById,
     getVocabularyKanjis,
@@ -131,6 +133,19 @@ const cachedQuickLookup = unstable_cache(
 )
 
 export async function GET(request: NextRequest) {
+    const ip = getClientIp(request)
+    const { ok, resetAt } = checkRateLimit(`ql:${ip}`, 60, 60_000)
+
+    if (!ok) {
+        return NextResponse.json(
+            { type: "not_found", title: "", error: "Quá nhiều yêu cầu." },
+            {
+                status: 429,
+                headers: { "Retry-After": String(Math.ceil((resetAt - Date.now()) / 1000)) },
+            }
+        )
+    }
+
     const keyword =
         request.nextUrl.searchParams.get("q")?.trim() || ""
 

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { serverError } from "@/server/utils/api-error"
 import {
     createNotebook,
     listNotebooksWithItemCount,
@@ -17,7 +18,7 @@ export async function GET() {
     const { data, error } = await listNotebooksWithItemCount(supabase)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "GET /api/notebooks")
     }
 
     const transformed = (data as unknown as Array<{
@@ -61,7 +62,7 @@ export async function POST(request: NextRequest) {
     const { data, error } = await createNotebook(supabase, user.id, name, description ?? undefined)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "POST /api/notebooks")
     }
 
     return NextResponse.json(data, { status: 201 })

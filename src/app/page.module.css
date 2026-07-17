@@ -45,67 +45,76 @@
     font-weight: 800;
 }
 
-.sectionHeader button {
-    border: 0;
-    background: transparent;
-
+.sectionLink {
     color: #6b7280;
 
     font-size: 14px;
     font-weight: 700;
+    text-decoration: none;
 
-    cursor: pointer;
-
-    transition: all .2s ease;
+    transition: color .15s;
 }
 
-.sectionHeader button:hover {
+.sectionLink:hover {
     color: #2563eb;
 }
 
-.banner {
+/* ── JLPT quick links ── */
+.jlptGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.jlptCard {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+
+    padding: 16px 8px;
+
+    border: 1.5px solid #e5eaf2;
+    border-radius: 14px;
+
+    background: #ffffff;
+    color: inherit;
+    text-decoration: none;
+
+    transition: border-color .15s, transform .15s, box-shadow .15s;
+}
+
+.jlptCard:hover {
+    border-color: var(--accent, #2563eb);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .06);
+    transform: translateY(-1px);
+}
+
+.jlptBadge {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    min-height: 180px;
+    width: 40px;
+    height: 40px;
 
-    border-radius: 20px;
+    border-radius: 10px;
 
-    background: linear-gradient(
-        135deg,
-        #2563eb,
-        #3b82f6
-    );
+    background: color-mix(in srgb, var(--accent, #2563eb) 10%, transparent);
+    color: var(--accent, #2563eb);
 
-    color: #ffffff;
-
-    font-size: 32px;
-    line-height: 1.2;
+    font-size: 14px;
     font-weight: 900;
+}
+
+.jlptDesc {
+    color: #6b7280;
+
+    font-size: 11px;
+    font-weight: 600;
 
     text-align: center;
-}
-
-.communityGrid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
-}
-
-.communityCard {
-    padding: 16px;
-
-    border: 1px solid #eceef2;
-    border-radius: 16px;
-
-    background: #ffffff;
-
-    transition: all .2s ease;
-}
-
-.communityCard:hover {
-    background: #fafcff;
+    white-space: nowrap;
 }
 
 
@@ -209,8 +218,10 @@
     .rightColumn {
         display: none;
     }
+}
 
-    .communityGrid {
-        grid-template-columns: 1fr;
+@media (max-width: 640px) {
+    .jlptGrid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

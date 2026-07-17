@@ -1,10 +1,26 @@
+import type { Metadata } from "next"
 import { Suspense } from "react"
+import Link from "next/link"
 
 import styles from "./page.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import DailyVocabularySection from "@/features/home/components/DailyVocabularySection/DailyVocabularySection"
 import SearchHistorySection from "@/features/home/components/SearchHistorySection/SearchHistorySection"
+
+export const metadata: Metadata = {
+  title: "Mazii — Từ điển Nhật Việt",
+  description:
+    "Tra cứu từ vựng, Hán tự và ngữ pháp tiếng Nhật dành cho người học Việt Nam. Đầy đủ ví dụ, phiên âm và giải thích bằng tiếng Việt.",
+}
+
+const JLPT_QUICK_LINKS = [
+  { level: "N5", href: "/search?q=N5&tab=grammar", color: "#16a34a", desc: "Ngữ pháp cơ bản" },
+  { level: "N4", href: "/search?q=N4&tab=grammar", color: "#2563eb", desc: "Trung cấp sơ" },
+  { level: "N3", href: "/search?q=N3&tab=grammar", color: "#7c3aed", desc: "Trung cấp" },
+  { level: "N2", href: "/search?q=N2&tab=grammar", color: "#ea580c", desc: "Nâng cao" },
+  { level: "N1", href: "/search?q=N1&tab=grammar", color: "#dc2626", desc: "Thành thạo" },
+]
 
 function DailyVocabularySkeleton() {
   return (
@@ -36,39 +52,32 @@ export default function HomePage() {
               <DailyVocabularySection />
             </Suspense>
 
-            <section className={`${styles.cardSection} ${styles.banner}`}>
-              Mazii AI+ — Học tiếng Nhật thông minh hơn
-            </section>
-
             <section className={styles.cardSection}>
               <div className={styles.sectionHeader}>
-                <h2>Bài học đề xuất</h2>
-                <button type="button">Xem thêm</button>
+                <h2>Học theo cấp độ</h2>
+                <Link href="/kanji" className={styles.sectionLink}>
+                  Xem Hán tự →
+                </Link>
               </div>
 
-              <div className={styles.communityGrid}>
-                <div className={styles.communityCard}>
-                  <h3>JLPT N5</h3>
-                  <p>Từ vựng cơ bản cho người mới bắt đầu.</p>
-                </div>
-
-                <div className={styles.communityCard}>
-                  <h3>Kanji cơ bản</h3>
-                  <p>Học các chữ Hán thường gặp nhất.</p>
-                </div>
+              <div className={styles.jlptGrid}>
+                {JLPT_QUICK_LINKS.map(({ level, href, color, desc }) => (
+                  <Link
+                    key={level}
+                    href={href}
+                    className={styles.jlptCard}
+                    style={{ "--accent": color } as React.CSSProperties}
+                  >
+                    <span className={styles.jlptBadge}>{level}</span>
+                    <span className={styles.jlptDesc}>{desc}</span>
+                  </Link>
+                ))}
               </div>
             </section>
           </div>
 
           <aside className={styles.rightColumn}>
             <SearchHistorySection />
-
-            <section className={styles.cardSection}>
-              <h2>Góp ý</h2>
-              <p>若しも：giả sử</p>
-              <p>果たして：quả nhiên là</p>
-              <p>ポケット：túi</p>
-            </section>
           </aside>
         </div>
       </main>

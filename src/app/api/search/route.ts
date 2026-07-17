@@ -2,6 +2,7 @@ import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 
 import { searchDictionary } from "@/features/dictionary/search/services/search.service"
+import { checkRateLimit, getClientIp } from "@/shared/utils/rate-limit"
 
 import {
     normalizeSearchTab,
@@ -18,6 +19,23 @@ const cachedSearchDictionary = unstable_cache(
 )
 
 export async function GET(request: NextRequest) {
+    const ip = getClientIp(request)
+    const { ok, remaining, resetAt } = checkRateLimit(`search:${ip}`, 60, 60_000)
+
+    if (!ok) {
+        return NextResponse.json(
+            { error: "Quá nhiều yêu cầu. Vui lòng thử lại sau." },
+            {
+                status: 429,
+                headers: {
+                    "Retry-After": String(Math.ceil((resetAt - Date.now()) / 1000)),
+                    "X-RateLimit-Limit": "60",
+                    "X-RateLimit-Remaining": String(remaining),
+                },
+            }
+        )
+    }
+
     const keyword =
         request.nextUrl.searchParams
             .get("q")

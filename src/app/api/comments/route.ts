@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { serverError } from "@/server/utils/api-error"
 import {
     countComments,
     createComment,
@@ -40,7 +41,7 @@ export async function GET(request: NextRequest) {
     ])
 
     if (commentsResult.error) {
-        return NextResponse.json({ error: commentsResult.error.message }, { status: 500 })
+        return serverError(commentsResult.error, "GET /api/comments")
     }
 
     const comments = commentsResult.data ?? []
@@ -104,7 +105,7 @@ export async function POST(request: NextRequest) {
     const { data, error } = await createComment(supabase, user.id, entryType, entryId, content)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "POST /api/comments")
     }
 
     const profile = data.user_profiles as unknown as { display_name: string; jlpt_level: string | null } | null

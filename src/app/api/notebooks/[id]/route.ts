@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { serverError } from "@/server/utils/api-error"
 import {
     deleteNotebook,
     updateNotebook,
@@ -43,7 +44,7 @@ export async function PATCH(request: NextRequest, { params }: Params) {
     const { data, error } = await updateNotebook(supabase, id, fields)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "PATCH /api/notebooks/[id]")
     }
 
     return NextResponse.json(data)
@@ -62,7 +63,7 @@ export async function DELETE(_request: NextRequest, { params }: Params) {
     const { error } = await deleteNotebook(supabase, id)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "DELETE /api/notebooks/[id]")
     }
 
     return new NextResponse(null, { status: 204 })
