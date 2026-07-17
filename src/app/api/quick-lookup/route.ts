@@ -149,7 +149,7 @@ export async function GET(request: NextRequest) {
     const keyword =
         request.nextUrl.searchParams.get("q")?.trim() || ""
 
-    if (!keyword) {
+    if (!keyword || keyword.length > 200) {
         return NextResponse.json({
             type: "not_found",
             title: "",

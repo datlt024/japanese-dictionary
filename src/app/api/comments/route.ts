@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { serverError } from "@/server/utils/api-error"
+import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 import {
     countComments,
     createComment,
@@ -16,6 +17,10 @@ const SORT_ORDERS: SortOrder[] = ["likes", "newest"]
 const PAGE_SIZE = 10
 
 export async function GET(request: NextRequest) {
+    const ip = getClientIp(request)
+    const rl = rateLimit(`comments-get:${ip}`, 60, 60_000)
+    if (!rl.ok) return rl.response
+
     const { searchParams } = request.nextUrl
     const entryType = searchParams.get("type") as EntryType
     const entryIdRaw = searchParams.get("id")
@@ -79,6 +84,9 @@ export async function POST(request: NextRequest) {
     if (!user) {
         return NextResponse.json({ error: "Cần đăng nhập để bình luận" }, { status: 401 })
     }
+
+    const rl = rateLimit(`comments-post:${user.id}`, 20, 60_000)
+    if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)
     const entryType = body?.entry_type as EntryType

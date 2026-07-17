@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 import { getRelatedVocabulariesFromDatabase } from "@/server/services/vocabulary/related-vocabulary.service"
 import { serverError } from "@/server/utils/api-error"
+import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 
 const cachedRelatedVocabularies = unstable_cache(
     (keyword: string) => getRelatedVocabulariesFromDatabase(keyword),
@@ -11,8 +12,16 @@ const cachedRelatedVocabularies = unstable_cache(
 )
 
 export async function GET(request: NextRequest) {
+    const ip = getClientIp(request)
+    const rl = rateLimit(`vocab-rel:${ip}`, 60, 60_000)
+    if (!rl.ok) return rl.response
+
     const keyword =
         request.nextUrl.searchParams.get("q")?.trim() || ""
+
+    if (!keyword || keyword.length > 200) {
+        return NextResponse.json({ results: [] })
+    }
 
     const { results, error } = await cachedRelatedVocabularies(keyword)
 

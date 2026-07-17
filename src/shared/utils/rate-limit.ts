@@ -1,3 +1,5 @@
+import { NextResponse } from "next/server"
+
 type Entry = { count: number; resetAt: number }
 
 const store = new Map<string, Entry>()
@@ -37,4 +39,28 @@ export function getClientIp(request: Request): string {
         request.headers.get("x-real-ip") ??
         "unknown"
     )
+}
+
+/** Convenience wrapper — returns a ready-made 429 response when rate exceeded. */
+export function rateLimit(
+    key: string,
+    limit: number,
+    windowMs: number
+): { ok: true } | { ok: false; response: NextResponse } {
+    const result = checkRateLimit(key, limit, windowMs)
+    if (result.ok) return { ok: true }
+    return {
+        ok: false,
+        response: NextResponse.json(
+            { error: "Quá nhiều yêu cầu. Vui lòng thử lại sau." },
+            {
+                status: 429,
+                headers: {
+                    "Retry-After": String(Math.ceil((result.resetAt - Date.now()) / 1000)),
+                    "X-RateLimit-Limit": String(limit),
+                    "X-RateLimit-Remaining": String(result.remaining),
+                },
+            }
+        ),
+    }
 }

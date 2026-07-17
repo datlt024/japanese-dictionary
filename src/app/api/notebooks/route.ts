@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 import {
     createNotebook,
     listNotebooksWithItemCount,
@@ -15,7 +16,10 @@ export async function GET() {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const { data, error } = await listNotebooksWithItemCount(supabase)
+    const rl = rateLimit(`nb-get:${user.id}`, 60, 60_000)
+    if (!rl.ok) return rl.response
+
+    const { data, error } = await listNotebooksWithItemCount(supabase, user.id)
 
     if (error) {
         return serverError(error, "GET /api/notebooks")
@@ -47,6 +51,9 @@ export async function POST(request: NextRequest) {
     if (!user) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
+
+    const rl = rateLimit(`nb-post:${user.id}`, 10, 60_000)
+    if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)
     const name = typeof body?.name === "string" ? body.name.trim() : ""

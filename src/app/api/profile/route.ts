@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 import {
     getProfile,
     upsertProfile,
@@ -26,6 +27,9 @@ export async function PATCH(request: NextRequest) {
     if (!user) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
+
+    const rl = rateLimit(`profile-patch:${user.id}`, 10, 60_000)
+    if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)
     const displayName = typeof body?.display_name === "string" ? body.display_name.trim() : null

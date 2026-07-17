@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 import {
     deleteNotebook,
     updateNotebook,
@@ -18,6 +19,9 @@ export async function PATCH(request: NextRequest, { params }: Params) {
     if (!user) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
+
+    const rl = rateLimit(`nb-write:${user.id}`, 20, 60_000)
+    if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)
 
@@ -41,7 +45,7 @@ export async function PATCH(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Không có trường nào để cập nhật" }, { status: 400 })
     }
 
-    const { data, error } = await updateNotebook(supabase, id, fields)
+    const { data, error } = await updateNotebook(supabase, id, user.id, fields)
 
     if (error) {
         return serverError(error, "PATCH /api/notebooks/[id]")
@@ -60,7 +64,10 @@ export async function DELETE(_request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const { error } = await deleteNotebook(supabase, id)
+    const rl = rateLimit(`nb-write:${user.id}`, 20, 60_000)
+    if (!rl.ok) return rl.response
+
+    const { error } = await deleteNotebook(supabase, id, user.id)
 
     if (error) {
         return serverError(error, "DELETE /api/notebooks/[id]")

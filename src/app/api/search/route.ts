@@ -49,7 +49,7 @@ export async function GET(request: NextRequest) {
         request.nextUrl.searchParams.get("lang")
     )
 
-    if (!keyword) {
+    if (!keyword || keyword.length > 200) {
         return NextResponse.json({
             vocabularies: [],
             kanjis: [],

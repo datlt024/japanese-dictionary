@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 import {
     addNotebookItem,
     listNotebookItems,
@@ -132,7 +133,10 @@ export async function GET(_request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const { data, error } = await listNotebookItems(supabase, id)
+    const rl = rateLimit(`nb-items-get:${user.id}`, 60, 60_000)
+    if (!rl.ok) return rl.response
+
+    const { data, error } = await listNotebookItems(supabase, id, user.id)
 
     if (error) {
         return serverError(error, "GET /api/notebooks/[id]/items")
@@ -152,6 +156,9 @@ export async function POST(request: NextRequest, { params }: Params) {
     if (!user) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
+
+    const rl = rateLimit(`nb-items-write:${user.id}`, 30, 60_000)
+    if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)
     const itemType = body?.item_type
@@ -188,6 +195,9 @@ export async function DELETE(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
+    const rl = rateLimit(`nb-items-write:${user.id}`, 30, 60_000)
+    if (!rl.ok) return rl.response
+
     const body = await request.json().catch(() => null)
     const itemType = body?.item_type
     const itemId = typeof body?.item_id === "string" ? body.item_id.trim() : ""
@@ -200,7 +210,7 @@ export async function DELETE(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "item_id không được để trống" }, { status: 400 })
     }
 
-    const { error } = await removeNotebookItem(supabase, id, itemType, itemId)
+    const { error } = await removeNotebookItem(supabase, id, user.id, itemType, itemId)
 
     if (error) {
         return serverError(error, "DELETE /api/notebooks/[id]/items")

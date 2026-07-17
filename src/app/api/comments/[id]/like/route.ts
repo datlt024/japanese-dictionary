@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { addLike, getLike, removeLike } from "@/server/repositories/community/community.repository"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 
 export async function POST(
     _request: NextRequest,
@@ -15,6 +16,9 @@ export async function POST(
     if (!user) {
         return NextResponse.json({ error: "Cần đăng nhập" }, { status: 401 })
     }
+
+    const rl = rateLimit(`like:${user.id}`, 30, 60_000)
+    if (!rl.ok) return rl.response
 
     try {
         const existing = await getLike(supabase, user.id, commentId)
