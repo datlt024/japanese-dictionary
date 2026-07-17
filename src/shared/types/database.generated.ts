@@ -984,6 +984,75 @@ export type Database = {
           },
         ]
       }
+      user_profiles: {
+        Row: {
+          id: string
+          display_name: string
+          jlpt_level: string | null
+          created_at: string
+        }
+        Insert: {
+          id: string
+          display_name: string
+          jlpt_level?: string | null
+          created_at?: string
+        }
+        Update: {
+          id?: string
+          display_name?: string
+          jlpt_level?: string | null
+          created_at?: string
+        }
+        Relationships: []
+      }
+      word_comments: {
+        Row: {
+          id: string
+          user_id: string
+          entry_type: string
+          entry_id: number
+          content: string
+          likes_count: number
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          entry_type: string
+          entry_id: number
+          content: string
+          likes_count?: number
+          created_at?: string
+        }
+        Update: {
+          id?: string
+          user_id?: string
+          entry_type?: string
+          entry_id?: number
+          content?: string
+          likes_count?: number
+          created_at?: string
+        }
+        Relationships: []
+      }
+      word_comment_likes: {
+        Row: {
+          user_id: string
+          comment_id: string
+          created_at: string
+        }
+        Insert: {
+          user_id: string
+          comment_id: string
+          created_at?: string
+        }
+        Update: {
+          user_id?: string
+          comment_id?: string
+          created_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never

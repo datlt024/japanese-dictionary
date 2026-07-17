@@ -1,9 +1,12 @@
 "use client"
 
 import {
+    useEffect,
+    useRef,
     useState,
 } from "react"
 
+import Link from "next/link"
 import {
     usePathname,
     useRouter,
@@ -33,6 +36,8 @@ export default function Header({
     const searchParams = useSearchParams()
 
     const [authOpen, setAuthOpen] = useState(false)
+    const [dropdownOpen, setDropdownOpen] = useState(false)
+    const dropdownRef = useRef<HTMLDivElement>(null)
 
     const { user, loading, signOut } = useAuth()
 
@@ -40,19 +45,29 @@ export default function Header({
         searchParams.get("lang")
     )
 
+    useEffect(() => {
+        if (!dropdownOpen) return
+        function handleClickOutside(e: MouseEvent) {
+            if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+                setDropdownOpen(false)
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside)
+        return () => document.removeEventListener("mousedown", handleClickOutside)
+    }, [dropdownOpen])
+
     function handleLanguageChange(value: DictionaryLanguage) {
-        const params = new URLSearchParams(
-            searchParams.toString()
-        )
-
+        const params = new URLSearchParams(searchParams.toString())
         params.set("lang", value)
-
         router.replace(`${pathname}?${params.toString()}`)
     }
 
-    const userInitial = user?.email
-        ? user.email[0].toUpperCase()
-        : null
+    async function handleSignOut() {
+        setDropdownOpen(false)
+        await signOut()
+    }
+
+    const userInitial = user?.email ? user.email[0].toUpperCase() : null
 
     return (
         <>
@@ -68,21 +83,50 @@ export default function Header({
                 <div className={styles.appHeaderActions}>
                     {!loading && (
                         user ? (
-                            <>
-                                <div
-                                    className={styles.userAvatar}
-                                    title={user.email ?? ""}
-                                >
-                                    {userInitial}
-                                </div>
+                            <div className={styles.userMenu} ref={dropdownRef}>
                                 <button
                                     type="button"
-                                    className={styles.registerButton}
-                                    onClick={signOut}
+                                    className={styles.userAvatar}
+                                    onClick={() => setDropdownOpen((o) => !o)}
+                                    aria-label="Mở menu tài khoản"
+                                    aria-expanded={dropdownOpen}
                                 >
-                                    Đăng xuất
+                                    {userInitial}
                                 </button>
-                            </>
+
+                                {dropdownOpen && (
+                                    <div className={styles.dropdown}>
+                                        <div className={styles.dropdownHeader}>
+                                            <div className={styles.dropdownAvatar}>{userInitial}</div>
+                                            <div className={styles.dropdownInfo}>
+                                                <span className={styles.dropdownEmail}>{user.email}</span>
+                                            </div>
+                                        </div>
+
+                                        <div className={styles.dropdownDivider} />
+
+                                        <Link
+                                            href="/account"
+                                            className={styles.dropdownItem}
+                                            onClick={() => setDropdownOpen(false)}
+                                        >
+                                            <span className={styles.dropdownIcon}>👤</span>
+                                            Hồ sơ & Tài khoản
+                                        </Link>
+
+                                        <div className={styles.dropdownDivider} />
+
+                                        <button
+                                            type="button"
+                                            className={`${styles.dropdownItem} ${styles.dropdownItemDanger}`}
+                                            onClick={handleSignOut}
+                                        >
+                                            <span className={styles.dropdownIcon}>↩</span>
+                                            Đăng xuất
+                                        </button>
+                                    </div>
+                                )}
+                            </div>
                         ) : (
                             <>
                                 <button
@@ -107,19 +151,11 @@ export default function Header({
                         className={styles.languageSelect}
                         value={language}
                         onChange={(event) =>
-                            handleLanguageChange(
-                                event.target
-                                    .value as DictionaryLanguage
-                            )
+                            handleLanguageChange(event.target.value as DictionaryLanguage)
                         }
                     >
-                        <option value="vi">
-                            {getDictionaryLanguageLabel("vi")}
-                        </option>
-
-                        <option value="en">
-                            {getDictionaryLanguageLabel("en")}
-                        </option>
+                        <option value="vi">{getDictionaryLanguageLabel("vi")}</option>
+                        <option value="en">{getDictionaryLanguageLabel("en")}</option>
                     </select>
 
                     <button type="button" className={styles.iconButton} aria-label="Thông báo">

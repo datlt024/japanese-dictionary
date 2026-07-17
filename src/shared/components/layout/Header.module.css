@@ -97,6 +97,10 @@
     background: #f7f8fa;
 }
 
+.userMenu {
+    position: relative;
+}
+
 .userAvatar {
     display: inline-flex;
     align-items: center;
@@ -105,6 +109,7 @@
     width: 36px;
     height: 36px;
 
+    border: 2px solid transparent;
     border-radius: 999px;
 
     background: #2563eb;
@@ -113,7 +118,124 @@
     font-size: 14px;
     font-weight: 800;
 
+    cursor: pointer;
     user-select: none;
+    transition: border-color .15s;
+}
+.userAvatar:hover,
+.userAvatar[aria-expanded="true"] {
+    border-color: #93c5fd;
+}
+
+/* ── Dropdown ── */
+.dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 200;
+
+    min-width: 220px;
+
+    border: 1px solid #eceef2;
+    border-radius: 14px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 8px 32px rgba(15, 23, 42, .12),
+        0 2px 8px rgba(15, 23, 42, .06);
+
+    overflow: hidden;
+
+    animation: dropdownIn .14s ease;
+}
+
+@keyframes dropdownIn {
+    from { opacity: 0; transform: translateY(-6px) scale(.98); }
+    to   { opacity: 1; transform: translateY(0)   scale(1); }
+}
+
+.dropdownHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+}
+
+.dropdownAvatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+
+    border-radius: 999px;
+    background: #2563eb;
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.dropdownInfo {
+    min-width: 0;
+}
+
+.dropdownEmail {
+    display: block;
+
+    color: #1f2937;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dropdownDivider {
+    height: 1px;
+    background: #eceef2;
+}
+
+.dropdownItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    padding: 10px 16px;
+
+    border: none;
+    background: transparent;
+
+    color: #1f2937;
+
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: background .12s;
+}
+.dropdownItem:hover {
+    background: #f7f8fa;
+}
+
+.dropdownItemDanger {
+    color: #ef4444;
+}
+.dropdownItemDanger:hover {
+    background: #fff5f5;
+}
+
+.dropdownIcon {
+    font-size: 15px;
+    line-height: 1;
+    flex-shrink: 0;
 }
 
 .iconButton {

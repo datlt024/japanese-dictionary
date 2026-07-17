@@ -179,7 +179,7 @@ export default function VocabularyDetailContent({
                     />
                 )}
 
-                <DictionaryCommunityCard />
+                <DictionaryCommunityCard entryType="vocabulary" entryId={vocabulary.id} />
 
                 <VocabularyRelatedWords
                     language={language}
