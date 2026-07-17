@@ -133,6 +133,11 @@
     font-weight: 800;
 }
 
+.exampleJp rt {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
 .exampleVi {
     margin: 0;
 

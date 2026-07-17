@@ -1,0 +1,605 @@
+{
+  "batch_id": "manual-n5-batch2",
+  "results": [
+    {
+      "id": 1241,
+      "meaning_vi": "muốn làm",
+      "short_meaning_vi": "muốn làm",
+      "explanation_vi": "Chia động từ để diễn tả mong muốn của người nói (hoặc người được hỏi). Dùng bằng cách bỏ ます và thêm たい.",
+      "nuance_vi": "たい nói về mong muốn của bản thân. Khi nói về người khác dùng 〜たがっている (anh ấy muốn...).",
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "たい"}]}],
+      "variants": [{"pattern": "たくない", "type": "negative"}, {"pattern": "たかった", "type": "past"}, {"pattern": "たくなかった", "type": "past-negative"}],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Chia như tính từ い: たい → たくない (phủ định), たかった (quá khứ)."],
+      "similar_grammar": ["Nが欲しい", "ましょう"],
+      "differences": [{"pattern": "Nが欲しい", "difference_vi": "「たい」dùng với động từ (muốn làm gì); 「欲しい」dùng với danh từ (muốn có gì)."}],
+      "tags": ["verb", "desire", "N5"],
+      "examples": [
+        {"japanese": "日本に行きたいです。", "translation_vi": "Tôi muốn đi Nhật."},
+        {"japanese": "もっと日本語を勉強したいです。", "translation_vi": "Tôi muốn học tiếng Nhật nhiều hơn."},
+        {"japanese": "何を食べたいですか。", "translation_vi": "Bạn muốn ăn gì?"}
+      ]
+    },
+    {
+      "id": 1242,
+      "meaning_vi": "có muốn... không; ... nhé? (mời mọc)",
+      "short_meaning_vi": "cùng... không?",
+      "explanation_vi": "Dạng mời mọc lịch sự. Người nói mời người nghe tham gia cùng một hoạt động, tương đương 'Bạn có muốn... không?'.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "ませんか"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["ましょう", "ましょうか"],
+      "differences": [{"pattern": "ましょう", "difference_vi": "「ませんか」lịch sự hơn, mời người nghe; 「ましょう」đề nghị cùng làm, mang tính quyết định hơn."}],
+      "tags": ["verb", "invitation", "polite", "N5"],
+      "examples": [
+        {"japanese": "一緒に昼ご飯を食べませんか。", "translation_vi": "Cùng ăn trưa không?"},
+        {"japanese": "映画を見に行きませんか。", "translation_vi": "Đi xem phim không?"},
+        {"japanese": "コーヒーを飲みませんか。", "translation_vi": "Uống cà phê không?"}
+      ]
+    },
+    {
+      "id": 1243,
+      "meaning_vi": "hãy cùng; nào (đề nghị cùng làm)",
+      "short_meaning_vi": "cùng... nào",
+      "explanation_vi": "Dùng để đề nghị hoặc quyết định cùng làm điều gì đó. Mang tính quyết tâm hơn ませんか.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "ましょう"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["ませんか", "ましょうか"],
+      "differences": [{"pattern": "ませんか", "difference_vi": "「ましょう」người nói đề xuất cùng làm; 「ませんか」lịch sự hơn, hỏi ý kiến người nghe."}],
+      "tags": ["verb", "suggestion", "volitional", "N5"],
+      "examples": [
+        {"japanese": "一緒に行きましょう。", "translation_vi": "Cùng đi nào."},
+        {"japanese": "休みましょう。", "translation_vi": "Nghỉ ngơi nào."},
+        {"japanese": "日本語で話しましょう。", "translation_vi": "Hãy nói chuyện bằng tiếng Nhật nào."}
+      ]
+    },
+    {
+      "id": 1244,
+      "meaning_vi": "để tôi... nhé?; cùng... nhé?",
+      "short_meaning_vi": "nhé? / để tôi...?",
+      "explanation_vi": "Dùng để đề nghị giúp đỡ (Shall I do this?) hoặc đề nghị cùng làm (Shall we?). Nhẹ nhàng và lịch sự hơn ましょう.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "ましょうか"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Hai nghĩa: (1) Đề nghị giúp đỡ — Shall I?; (2) Đề nghị cùng làm — Shall we?"],
+      "similar_grammar": ["ましょう", "ませんか"],
+      "differences": [{"pattern": "ましょう", "difference_vi": "「ましょうか」hỏi ý kiến nhẹ nhàng hơn; 「ましょう」quyết định cùng làm không cần hỏi."}],
+      "tags": ["verb", "offer", "suggestion", "N5"],
+      "examples": [
+        {"japanese": "荷物を持ちましょうか。", "translation_vi": "Để tôi xách hành lý cho nhé?"},
+        {"japanese": "一緒に行きましょうか。", "translation_vi": "Cùng đi nhé?"},
+        {"japanese": "窓を開けましょうか。", "translation_vi": "Để tôi mở cửa sổ nhé?"}
+      ]
+    },
+    {
+      "id": 1245,
+      "meaning_vi": "hãy; xin hãy (yêu cầu lịch sự)",
+      "short_meaning_vi": "xin hãy",
+      "explanation_vi": "Dạng yêu cầu lịch sự. Nói với người nghe làm điều gì đó. Dùng dạng て của động từ + ください.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "Vて", "remove": null, "right": "ください"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Dạng thân mật hơn (không dùng với người trên): Vてくれ (ép buộc hơn)."],
+      "similar_grammar": ["ないでください", "てもいい"],
+      "differences": [{"pattern": "ないでください", "difference_vi": "「てください」yêu cầu làm; 「ないでください」yêu cầu không làm."}],
+      "tags": ["verb", "request", "polite", "N5"],
+      "examples": [
+        {"japanese": "ここに名前を書いてください。", "translation_vi": "Hãy viết tên vào đây."},
+        {"japanese": "ゆっくり話してください。", "translation_vi": "Hãy nói chậm thôi."},
+        {"japanese": "明日早く来てください。", "translation_vi": "Ngày mai hãy đến sớm."}
+      ]
+    },
+    {
+      "id": 1246,
+      "meaning_vi": "xin đừng (yêu cầu không làm)",
+      "short_meaning_vi": "xin đừng",
+      "explanation_vi": "Dạng yêu cầu lịch sự không làm điều gì đó. Dùng dạng ない của động từ + でください.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ない", "remove": null, "right": "でください"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["てください", "てはいけない"],
+      "differences": [{"pattern": "てはいけない", "difference_vi": "「ないでください」yêu cầu nhẹ nhàng hơn; 「てはいけない」cấm đoán có tính quy tắc hơn."}],
+      "tags": ["verb", "request", "negative", "N5"],
+      "examples": [
+        {"japanese": "ここで写真を撮らないでください。", "translation_vi": "Xin đừng chụp ảnh ở đây."},
+        {"japanese": "遅れないでください。", "translation_vi": "Xin đừng đến muộn."},
+        {"japanese": "大きな声で話さないでください。", "translation_vi": "Xin đừng nói to."}
+      ]
+    },
+    {
+      "id": 1247,
+      "meaning_vi": "có thể; được phép làm",
+      "short_meaning_vi": "được phép",
+      "explanation_vi": "Diễn tả sự cho phép. Dùng dạng て của động từ + もいいです. Dạng hỏi てもいいですか dùng để xin phép.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "Vて", "remove": null, "right": "もいい（です）"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Dạng hỏi: てもいいですか (Tôi có thể... không?). Dạng phủ định: てはいけない/なくてもいい."],
+      "similar_grammar": ["てはいけない", "なくてもいい"],
+      "differences": [{"pattern": "てはいけない", "difference_vi": "「てもいい」cho phép; 「てはいけない」cấm đoán."}],
+      "tags": ["verb", "permission", "N5"],
+      "examples": [
+        {"japanese": "ここで写真を撮ってもいいですか。", "translation_vi": "Tôi có thể chụp ảnh ở đây không?"},
+        {"japanese": "このコンピューターを使ってもいいですか。", "translation_vi": "Tôi có thể dùng máy tính này không?"},
+        {"japanese": "帰ってもいいです。", "translation_vi": "Bạn có thể về rồi."}
+      ]
+    },
+    {
+      "id": 1248,
+      "meaning_vi": "không được; cấm làm",
+      "short_meaning_vi": "không được",
+      "explanation_vi": "Diễn tả sự cấm đoán hoặc quy tắc không được phép làm. Mạnh hơn ないでください.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "Vて", "remove": null, "right": "はいけない（です/ません）"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["てもいい", "ないでください"],
+      "differences": [{"pattern": "ないでください", "difference_vi": "「てはいけない」cấm đoán mang tính quy tắc hoặc đạo đức; 「ないでください」yêu cầu cá nhân nhẹ nhàng hơn."}],
+      "tags": ["verb", "prohibition", "N5"],
+      "examples": [
+        {"japanese": "ここでたばこを吸ってはいけません。", "translation_vi": "Không được hút thuốc ở đây."},
+        {"japanese": "授業中に携帯を使ってはいけません。", "translation_vi": "Không được dùng điện thoại trong giờ học."},
+        {"japanese": "うそをついてはいけません。", "translation_vi": "Không được nói dối."}
+      ]
+    },
+    {
+      "id": 1249,
+      "meaning_vi": "không cần; không nhất thiết phải",
+      "short_meaning_vi": "không cần",
+      "explanation_vi": "Diễn tả việc không bắt buộc làm điều gì đó. Ngược nghĩa với なければならない.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ない", "remove": "い", "right": "くてもいい"}, {"left": "A-い", "remove": "い", "right": "くてもいい"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["V: Vなくてもいい (動詞ない形 + くてもいい). A-い: A-くてもいい."],
+      "similar_grammar": ["てもいい", "なければならない"],
+      "differences": [{"pattern": "なければならない", "difference_vi": "「なくてもいい」không bắt buộc; 「なければならない」bắt buộc phải làm."}],
+      "tags": ["verb", "no-obligation", "N5"],
+      "examples": [
+        {"japanese": "明日は来なくてもいいです。", "translation_vi": "Ngày mai bạn không cần đến cũng được."},
+        {"japanese": "全部食べなくてもいいです。", "translation_vi": "Bạn không cần ăn hết đâu."},
+        {"japanese": "今日は急がなくてもいいです。", "translation_vi": "Hôm nay bạn không cần vội."}
+      ]
+    },
+    {
+      "id": 1250,
+      "meaning_vi": "phải; bắt buộc phải làm",
+      "short_meaning_vi": "phải làm",
+      "explanation_vi": "Diễn tả nghĩa vụ hoặc bắt buộc phải làm điều gì đó. Tạo thành từ dạng ない của động từ.",
+      "nuance_vi": "Ngoài ra còn có: なければいけない、なくてはならない、なくてはいけない — đều có nghĩa tương tự.",
+      "formation": [{"patterns": [{"left": "V-ない", "remove": "い", "right": "ければならない"}]}],
+      "variants": [],
+      "short_forms": [{"pattern": "なきゃ"}, {"pattern": "なきゃならない"}],
+      "common_pairs": [],
+      "notes": ["なければならない → なきゃ (dạng thân mật rút gọn)."],
+      "similar_grammar": ["なくてもいい", "てください"],
+      "differences": [{"pattern": "なくてもいい", "difference_vi": "「なければならない」bắt buộc phải làm; 「なくてもいい」không cần làm."}],
+      "tags": ["verb", "obligation", "must", "N5"],
+      "examples": [
+        {"japanese": "宿題をしなければなりません。", "translation_vi": "Tôi phải làm bài tập về nhà."},
+        {"japanese": "薬を飲まなければならない。", "translation_vi": "Tôi phải uống thuốc."},
+        {"japanese": "早く起きなければなりません。", "translation_vi": "Tôi phải dậy sớm."}
+      ]
+    },
+    {
+      "id": 1251,
+      "meaning_vi": "đang; ở trạng thái; thường xuyên",
+      "short_meaning_vi": "đang; ở trạng thái",
+      "explanation_vi": "Dạng ている có ba nghĩa chính: (1) hành động đang diễn ra; (2) trạng thái kết quả của hành động đã hoàn thành; (3) hành động thường xuyên/lặp lại.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "Vて", "remove": null, "right": "いる/います"}]}],
+      "variants": [{"pattern": "てる", "type": "casual"}],
+      "short_forms": [{"pattern": "てる"}],
+      "common_pairs": [],
+      "notes": ["Dạng thân mật: ている → てる; ていない → てない.", "Nghĩa (2) phổ biến với: 結婚している、住んでいる、知っている."],
+      "similar_grammar": ["てある"],
+      "differences": [{"pattern": "てある", "difference_vi": "「ている」dùng với cả ngoại động và nội động; 「てある」chỉ dùng với ngoại động, ám chỉ ai đó đã chuẩn bị sẵn."}],
+      "tags": ["verb", "progressive", "stative", "N5"],
+      "examples": [
+        {"japanese": "今、ご飯を食べています。", "translation_vi": "Bây giờ tôi đang ăn cơm."},
+        {"japanese": "窓が開いています。", "translation_vi": "Cửa sổ đang mở."},
+        {"japanese": "毎日運動しています。", "translation_vi": "Tôi tập thể dục mỗi ngày."}
+      ]
+    },
+    {
+      "id": 1252,
+      "meaning_vi": "đã được làm sẵn (trạng thái chuẩn bị)",
+      "short_meaning_vi": "đã được làm sẵn",
+      "explanation_vi": "Diễn tả trạng thái kết quả của một hành động ai đó đã làm có chủ đích. Thường dùng với động từ ngoại động.",
+      "nuance_vi": "てある nhấn mạnh ai đó đã làm và trạng thái đó vẫn còn. Không quan trọng ai đã làm.",
+      "formation": [{"patterns": [{"left": "Vて (ngoại động)", "remove": null, "right": "ある"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["ている"],
+      "differences": [{"pattern": "ている", "difference_vi": "「てある」chỉ dùng với ngoại động, nhấn mạnh ai đó đã chuẩn bị; 「ている」dùng rộng hơn, không nhấn mạnh chủ đích."}],
+      "tags": ["verb", "resultant-state", "N5"],
+      "examples": [
+        {"japanese": "窓が開けてあります。", "translation_vi": "Cửa sổ đã được mở (ai đó đã mở)."},
+        {"japanese": "黒板に名前が書いてあります。", "translation_vi": "Trên bảng đã có tên được viết sẵn."},
+        {"japanese": "テーブルの上に料理が置いてあります。", "translation_vi": "Trên bàn đã có đồ ăn được đặt sẵn."}
+      ]
+    },
+    {
+      "id": 1253,
+      "meaning_vi": "sau khi (rồi mới)",
+      "short_meaning_vi": "sau khi",
+      "explanation_vi": "Dùng để chỉ hành động thứ hai xảy ra sau khi hoàn thành hành động thứ nhất. Hành động thứ nhất phải hoàn thành trước.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "Vて", "remove": null, "right": "から"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["後で", "前に"],
+      "differences": [{"pattern": "後で", "difference_vi": "「てから」nhấn mạnh trình tự bắt buộc (phải làm X trước rồi mới làm Y); 「後で」đơn thuần chỉ thứ tự thời gian, không nhất thiết bắt buộc."}],
+      "tags": ["verb", "sequence", "time", "N5"],
+      "examples": [
+        {"japanese": "手を洗ってから、ご飯を食べます。", "translation_vi": "Rửa tay xong rồi mới ăn cơm."},
+        {"japanese": "宿題をしてから、テレビを見ます。", "translation_vi": "Làm bài tập xong rồi mới xem TV."},
+        {"japanese": "大学を卒業してから、日本へ行きたいです。", "translation_vi": "Sau khi tốt nghiệp đại học, tôi muốn đi Nhật."}
+      ]
+    },
+    {
+      "id": 1254,
+      "meaning_vi": "sau đó; sau khi",
+      "short_meaning_vi": "sau đó",
+      "explanation_vi": "Chỉ hành động hoặc sự việc xảy ra sau một hành động khác. Linh hoạt hơn てから về khoảng thời gian giữa hai hành động.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-た", "remove": null, "right": "後で"}, {"left": "N", "remove": null, "right": "の後で"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["てから", "前に"],
+      "differences": [{"pattern": "てから", "difference_vi": "「後で」linh hoạt hơn về thứ tự và khoảng cách thời gian; 「てから」nhấn mạnh hành động thứ nhất phải hoàn thành trước."}],
+      "tags": ["time", "sequence", "N5"],
+      "examples": [
+        {"japanese": "仕事の後でコーヒーを飲みます。", "translation_vi": "Sau khi làm việc tôi uống cà phê."},
+        {"japanese": "食べた後でシャワーを浴びます。", "translation_vi": "Sau khi ăn tôi tắm."},
+        {"japanese": "後でまた電話します。", "translation_vi": "Tôi sẽ gọi lại sau."}
+      ]
+    },
+    {
+      "id": 1255,
+      "meaning_vi": "trước khi",
+      "short_meaning_vi": "trước khi",
+      "explanation_vi": "Chỉ hành động hoặc sự việc xảy ra trước một hành động khác. Động từ trước 前に dùng dạng từ điển (không chia theo thời gian).",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-dictionary", "remove": null, "right": "前に"}, {"left": "N", "remove": null, "right": "の前に"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Động từ trước 前に luôn dùng dạng từ điển, không phải dạng た."],
+      "similar_grammar": ["てから", "後で"],
+      "differences": [{"pattern": "後で", "difference_vi": "「前に」chỉ hành động xảy ra trước; 「後で」chỉ hành động xảy ra sau."}],
+      "tags": ["time", "sequence", "N5"],
+      "examples": [
+        {"japanese": "寝る前に歯を磨きます。", "translation_vi": "Trước khi ngủ tôi đánh răng."},
+        {"japanese": "食事の前に手を洗います。", "translation_vi": "Trước bữa ăn tôi rửa tay."},
+        {"japanese": "試験の前に復習します。", "translation_vi": "Trước kỳ thi tôi ôn bài."}
+      ]
+    },
+    {
+      "id": 1256,
+      "meaning_vi": "vừa... vừa... (cùng lúc)",
+      "short_meaning_vi": "vừa... vừa...",
+      "explanation_vi": "Diễn tả hai hành động xảy ra đồng thời bởi cùng một chủ thể. Hành động ở mệnh đề sau là hành động chính.",
+      "nuance_vi": "Cả hai hành động do cùng một người thực hiện. Không dùng khi hai người khác nhau thực hiện.",
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "ながら + V2"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Hành động phụ đứng trước ながら; hành động chính đứng sau."],
+      "similar_grammar": ["てから"],
+      "differences": [{"pattern": "てから", "difference_vi": "「ながら」hai hành động đồng thời; 「てから」một hành động xong rồi mới làm hành động kia."}],
+      "tags": ["verb", "simultaneous", "N5"],
+      "examples": [
+        {"japanese": "音楽を聞きながら勉強します。", "translation_vi": "Tôi vừa nghe nhạc vừa học."},
+        {"japanese": "テレビを見ながらご飯を食べます。", "translation_vi": "Tôi vừa xem TV vừa ăn cơm."},
+        {"japanese": "歩きながら電話します。", "translation_vi": "Tôi vừa đi vừa gọi điện."}
+      ]
+    },
+    {
+      "id": 1257,
+      "meaning_vi": "đi để làm; đến làm; về làm",
+      "short_meaning_vi": "đi để làm",
+      "explanation_vi": "Diễn tả mục đích của việc di chuyển. Dùng stem động từ (V-ます bỏ ます) + に + 行く/来る/帰る.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "に + 行く/来る/帰る"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["に", "ている"],
+      "differences": [],
+      "tags": ["verb", "purpose", "movement", "N5"],
+      "examples": [
+        {"japanese": "昼ご飯を食べに行きます。", "translation_vi": "Tôi đi ăn trưa."},
+        {"japanese": "本を借りに図書館へ行きました。", "translation_vi": "Tôi đã đến thư viện để mượn sách."},
+        {"japanese": "友達に会いに来ました。", "translation_vi": "Tôi đã đến để gặp bạn."}
+      ]
+    },
+    {
+      "id": 1258,
+      "meaning_vi": "có thể; biết làm",
+      "short_meaning_vi": "có thể; biết",
+      "explanation_vi": "Diễn tả khả năng hoặc kỹ năng. Cấu trúc N + ができる dùng với danh từ thay cho Vことができる.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "ができる"}, {"left": "V-dictionary", "remove": null, "right": "ことができる"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["N5 level chủ yếu học N + ができる: 日本語ができる、料理ができる."],
+      "similar_grammar": ["たい"],
+      "differences": [],
+      "tags": ["expression", "ability", "potential", "N5"],
+      "examples": [
+        {"japanese": "日本語ができます。", "translation_vi": "Tôi biết tiếng Nhật."},
+        {"japanese": "料理ができますか。", "translation_vi": "Bạn biết nấu ăn không?"},
+        {"japanese": "今日は来ることができません。", "translation_vi": "Hôm nay tôi không thể đến được."}
+      ]
+    },
+    {
+      "id": 1259,
+      "meaning_vi": "đôi khi; thỉnh thoảng",
+      "short_meaning_vi": "đôi khi",
+      "explanation_vi": "Diễn tả một hành động xảy ra đôi khi ở hiện tại hoặc trong thói quen. Khác với たことがある là về kinh nghiệm quá khứ.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-dictionary", "remove": null, "right": "ことがある/あります"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["たことがある"],
+      "differences": [{"pattern": "たことがある", "difference_vi": "「ことがある」diễn tả thỉnh thoảng trong hiện tại; 「たことがある」diễn tả kinh nghiệm đã có trong quá khứ."}],
+      "tags": ["expression", "habitual", "N5"],
+      "examples": [
+        {"japanese": "朝ご飯を食べないことがあります。", "translation_vi": "Đôi khi tôi không ăn sáng."},
+        {"japanese": "電車が遅れることがあります。", "translation_vi": "Tàu điện đôi khi bị trễ."},
+        {"japanese": "夜遅くまで勉強することがあります。", "translation_vi": "Đôi khi tôi học đến tận khuya."}
+      ]
+    },
+    {
+      "id": 1260,
+      "meaning_vi": "đã từng (kinh nghiệm)",
+      "short_meaning_vi": "đã từng",
+      "explanation_vi": "Diễn tả kinh nghiệm đã từng có trong quá khứ. Dùng dạng た của động từ + ことがある.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-た", "remove": null, "right": "ことがある/あります"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Phủ định: V-たことがない (chưa bao giờ)."],
+      "similar_grammar": ["ことがある"],
+      "differences": [{"pattern": "ことがある", "difference_vi": "「たことがある」nói về kinh nghiệm quá khứ (đã từng); 「ことがある」nói về thói quen hiện tại (đôi khi)."}],
+      "tags": ["expression", "experience", "past", "N5"],
+      "examples": [
+        {"japanese": "富士山に登ったことがあります。", "translation_vi": "Tôi đã từng leo núi Phú Sĩ."},
+        {"japanese": "日本料理を食べたことがありますか。", "translation_vi": "Bạn đã từng ăn món Nhật chưa?"},
+        {"japanese": "電車に乗ったことがありません。", "translation_vi": "Tôi chưa bao giờ đi tàu điện."}
+      ]
+    },
+    {
+      "id": 1261,
+      "meaning_vi": "nên (lời khuyên)",
+      "short_meaning_vi": "nên",
+      "explanation_vi": "Dùng để đưa ra lời khuyên. Dạng khẳng定 (V-た + ほうがいい) khuyên nên làm; dạng phủ định (V-ない + ほうがいい) khuyên không nên làm.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-た", "remove": null, "right": "ほうがいい"}, {"left": "V-ない", "remove": null, "right": "ほうがいい"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["てください", "なければならない"],
+      "differences": [{"pattern": "てください", "difference_vi": "「ほうがいい」là lời khuyên (nên); 「てください」là yêu cầu trực tiếp (hãy làm)."}],
+      "tags": ["expression", "advice", "N5"],
+      "examples": [
+        {"japanese": "もっと野菜を食べたほうがいいです。", "translation_vi": "Bạn nên ăn nhiều rau hơn."},
+        {"japanese": "タバコを吸わないほうがいいです。", "translation_vi": "Bạn không nên hút thuốc."},
+        {"japanese": "早く病院に行ったほうがいいですよ。", "translation_vi": "Bạn nên đến bệnh viện sớm đấy."}
+      ]
+    },
+    {
+      "id": 1262,
+      "meaning_vi": "nghĩ rằng",
+      "short_meaning_vi": "nghĩ rằng",
+      "explanation_vi": "Diễn tả ý kiến hoặc suy nghĩ của người nói. Mệnh đề trước と思う phải ở dạng thông thường (plain form).",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "S-plain", "remove": null, "right": "と思う/と思います"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["と思っている: đang nghĩ (ý kiến đang có); と思った: đã nghĩ lúc đó (quá khứ)."],
+      "similar_grammar": ["と言う", "でしょう／だろう"],
+      "differences": [{"pattern": "でしょう／だろう", "difference_vi": "「と思う」diễn tả ý kiến cá nhân; 「でしょう/だろう」phỏng đoán hoặc xác nhận với người nghe."}],
+      "tags": ["expression", "opinion", "N5"],
+      "examples": [
+        {"japanese": "明日は雨が降ると思います。", "translation_vi": "Tôi nghĩ ngày mai sẽ có mưa."},
+        {"japanese": "田中さんはいい人だと思います。", "translation_vi": "Tôi nghĩ anh Tanaka là người tốt."},
+        {"japanese": "この映画はおもしろいと思います。", "translation_vi": "Tôi nghĩ bộ phim này hay."}
+      ]
+    },
+    {
+      "id": 1263,
+      "meaning_vi": "nói rằng; gọi là",
+      "short_meaning_vi": "nói rằng; gọi là",
+      "explanation_vi": "Hai cách dùng: (1) trích dẫn lời nói của ai đó (say that...); (2) Nという = gọi là N, có tên là N.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "S-plain/N", "remove": null, "right": "と言う/と言います"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["という thường dùng để giới thiệu tên: 「さくら」という花 (loài hoa gọi là sakura)."],
+      "similar_grammar": ["と思う"],
+      "differences": [{"pattern": "と思う", "difference_vi": "「と言う」trích dẫn lời nói thực tế của ai đó; 「と思う」diễn tả suy nghĩ của người nói."}],
+      "tags": ["expression", "quotation", "N5"],
+      "examples": [
+        {"japanese": "先生は明日試験があると言いました。", "translation_vi": "Thầy giáo đã nói rằng ngày mai có kiểm tra."},
+        {"japanese": "彼は行かないと言っています。", "translation_vi": "Anh ấy đang nói rằng sẽ không đi."},
+        {"japanese": "「さくら」という花が好きです。", "translation_vi": "Tôi thích loài hoa gọi là sakura."}
+      ]
+    },
+    {
+      "id": 1264,
+      "meaning_vi": "có lẽ; chắc là (phỏng đoán)",
+      "short_meaning_vi": "có lẽ",
+      "explanation_vi": "Diễn tả phỏng đoán có cơ sở, hoặc xác nhận lại với người nghe. でしょう dùng trong văn lịch sự, だろう dùng trong văn thân mật.",
+      "nuance_vi": "Với ngữ điệu hỏi (↑), でしょう có nghĩa 'phải không?' — tìm kiếm xác nhận.",
+      "formation": [{"patterns": [{"left": "S-plain/A-な/N", "remove": null, "right": "でしょう/だろう"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["でしょう↑ (lên giọng) = phải không? (seeking confirmation)."],
+      "similar_grammar": ["だ／です", "と思う"],
+      "differences": [{"pattern": "だ／です", "difference_vi": "「だ/です」xác định chắc chắn; 「でしょう/だろう」phỏng đoán hoặc không hoàn toàn chắc chắn."}],
+      "tags": ["expression", "conjecture", "N5"],
+      "examples": [
+        {"japanese": "明日は晴れるでしょう。", "translation_vi": "Ngày mai có lẽ trời sẽ nắng."},
+        {"japanese": "彼女は今、家にいるだろう。", "translation_vi": "Cô ấy có lẽ đang ở nhà."},
+        {"japanese": "疲れたでしょう。", "translation_vi": "Chắc bạn mệt rồi phải không?"}
+      ]
+    },
+    {
+      "id": 1265,
+      "meaning_vi": "vì; do (nguyên nhân, trang trọng)",
+      "short_meaning_vi": "vì; nên",
+      "explanation_vi": "Nối hai mệnh đề, mệnh đề trước là lý do khách quan. Trang trọng và lịch sự hơn から. Trước ので, A-な và N dùng dạng な.",
+      "nuance_vi": "「ので」mang sắc thái khách quan, tự nhiên, nhẹ nhàng hơn から. Phù hợp khi giải thích lý do với cấp trên.",
+      "formation": [{"patterns": [{"left": "V-plain/A-い-plain", "remove": null, "right": "ので"}, {"left": "A-な", "remove": null, "right": "なので"}, {"left": "N", "remove": null, "right": "なので"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["A-な + なので: 元気なので (vì khỏe); N + なので: 学生なので (vì là sinh viên)."],
+      "similar_grammar": ["から"],
+      "differences": [{"pattern": "から", "difference_vi": "「ので」khách quan hơn, trang trọng hơn; 「から」chủ quan hơn, thường dùng trong hội thoại."}],
+      "tags": ["conjunction", "reason", "formal", "N5"],
+      "examples": [
+        {"japanese": "雨が降っているので、傘を持ちます。", "translation_vi": "Vì trời đang mưa nên tôi mang ô."},
+        {"japanese": "体が悪いので、病院に行きます。", "translation_vi": "Vì cơ thể không khỏe nên tôi đến bệnh viện."},
+        {"japanese": "電車が遅れたので、遅刻しました。", "translation_vi": "Vì tàu điện bị trễ nên tôi đến muộn."}
+      ]
+    },
+    {
+      "id": 1266,
+      "meaning_vi": "nhưng; mà (đối lập nhẹ)",
+      "short_meaning_vi": "nhưng",
+      "explanation_vi": "Nối hai mệnh đề có nội dung tương phản hoặc bổ sung. けど thân mật nhất, けれど trung tính, けれども trang trọng nhất.",
+      "nuance_vi": "Cũng dùng làm câu mở đầu lịch sự để giảm bớt tính trực tiếp: すみませんけど... (xin lỗi, nhưng mà...).",
+      "formation": [{"patterns": [{"left": "S-plain/polite", "remove": null, "right": "けど/けれども、S2"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Thứ tự trang trọng: けど (thân mật) < けれど < けれども (trang trọng)."],
+      "similar_grammar": ["が"],
+      "differences": [{"pattern": "が", "difference_vi": "「けど/けれども」thân mật hơn, phổ biến trong hội thoại; 「が」trang trọng hơn, phổ biến trong văn viết."}],
+      "tags": ["conjunction", "contrast", "N5"],
+      "examples": [
+        {"japanese": "日本語は難しいけど、楽しいです。", "translation_vi": "Tiếng Nhật khó nhưng vui."},
+        {"japanese": "行きたいけど、お金がありません。", "translation_vi": "Tôi muốn đi nhưng không có tiền."},
+        {"japanese": "すみませんけど、ちょっと教えてもらえますか。", "translation_vi": "Xin lỗi, nhưng bạn có thể chỉ cho tôi không?"}
+      ]
+    },
+    {
+      "id": 1267,
+      "meaning_vi": "khi thì... khi thì...; lúc A lúc B",
+      "short_meaning_vi": "khi thì... khi thì...",
+      "explanation_vi": "Liệt kê một số hành động tiêu biểu, ngụ ý còn có những hành động khác. Dùng dạng た của động từ + り.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-た", "remove": null, "right": "り + V-たり + する"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Cuối chuỗi たり phải có する hoặc します."],
+      "similar_grammar": ["ながら"],
+      "differences": [{"pattern": "ながら", "difference_vi": "「たりする」liệt kê các hành động khác nhau không nhất thiết đồng thời; 「ながら」hai hành động xảy ra đồng thời."}],
+      "tags": ["verb", "listing-actions", "N5"],
+      "examples": [
+        {"japanese": "週末はテレビを見たり、本を読んだりします。", "translation_vi": "Cuối tuần tôi xem TV, đọc sách, v.v."},
+        {"japanese": "休みの日は映画を見たり、友達と遊んだりします。", "translation_vi": "Ngày nghỉ tôi xem phim, chơi với bạn bè, v.v."},
+        {"japanese": "子どもたちは公園で走ったり、遊んだりしています。", "translation_vi": "Các bé đang chạy nhảy, vui chơi ở công viên."}
+      ]
+    },
+    {
+      "id": 1268,
+      "meaning_vi": "và; vì (nối tính từ)",
+      "short_meaning_vi": "và; vì",
+      "explanation_vi": "Dùng để nối hai tính từ hoặc danh từ liên tiếp. A-い dùng dạng くて; A-な và danh từ dùng で. Có thể diễn tả lý do hoặc đơn thuần nối.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "A-い", "remove": "い", "right": "くて + A/V"}, {"left": "A-な", "remove": null, "right": "で + A/V"}, {"left": "N", "remove": null, "right": "で + A/V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["から", "ので"],
+      "differences": [{"pattern": "から", "difference_vi": "「くて/で」nối hai tính từ hoặc biểu thị nguyên nhân gián tiếp; 「から/ので」nối hai mệnh đề nguyên nhân rõ ràng hơn."}],
+      "tags": ["adjective", "conjunction", "N5"],
+      "examples": [
+        {"japanese": "このケーキは甘くておいしいです。", "translation_vi": "Bánh này ngọt và ngon."},
+        {"japanese": "彼女は親切で頭がいいです。", "translation_vi": "Cô ấy thân thiện và thông minh."},
+        {"japanese": "昨日は忙しくて、疲れました。", "translation_vi": "Hôm qua tôi bận và mệt."}
+      ]
+    },
+    {
+      "id": 1269,
+      "meaning_vi": "trở nên; thành",
+      "short_meaning_vi": "trở nên",
+      "explanation_vi": "Diễn tả sự thay đổi trạng thái — 'trở nên X'. A-い dùng dạng くなる; A-な và danh từ dùng になる.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "A-い", "remove": "い", "right": "くなる"}, {"left": "A-な", "remove": null, "right": "になる"}, {"left": "N", "remove": null, "right": "になる"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["〜にする"],
+      "differences": [{"pattern": "〜にする", "difference_vi": "「なる」thay đổi tự nhiên; 「にする」thay đổi có chủ đích, quyết định."}],
+      "tags": ["verb", "change", "N5"],
+      "examples": [
+        {"japanese": "日本語が上手になりました。", "translation_vi": "Tiếng Nhật của tôi đã trở nên khá hơn."},
+        {"japanese": "春になると、花が咲きます。", "translation_vi": "Khi trở thành mùa xuân, hoa nở."},
+        {"japanese": "大きくなったら、医者になりたいです。", "translation_vi": "Khi lớn lên, tôi muốn trở thành bác sĩ."}
+      ]
+    },
+    {
+      "id": 1270,
+      "meaning_vi": "quyết định; chọn; biến thành",
+      "short_meaning_vi": "quyết định; chọn",
+      "explanation_vi": "Diễn tả sự quyết định có chủ ý làm cho cái gì đó trở thành một trạng thái. Tại nhà hàng: Aにします = Tôi chọn A.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "にする"}, {"left": "A-な", "remove": null, "right": "にする"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["〜なる"],
+      "differences": [{"pattern": "〜なる", "difference_vi": "「にする」chủ động quyết định/chọn; 「なる」sự thay đổi tự nhiên, không nhất thiết có chủ ý."}],
+      "tags": ["verb", "decision", "N5"],
+      "examples": [
+        {"japanese": "昼ご飯はラーメンにします。", "translation_vi": "Bữa trưa tôi chọn mì ramen."},
+        {"japanese": "部屋をきれいにしました。", "translation_vi": "Tôi đã dọn sạch phòng."},
+        {"japanese": "旅行先を日本にしました。", "translation_vi": "Tôi đã quyết định điểm du lịch là Nhật Bản."}
+      ]
+    }
+  ]
+}

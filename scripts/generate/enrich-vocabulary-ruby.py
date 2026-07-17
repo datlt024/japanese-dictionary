@@ -46,9 +46,9 @@ HEADERS = {
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-PAGE_SIZE  = 1000
+PAGE_SIZE    = 2000
 UPDATE_BATCH = 100
-LOG_EVERY    = 2000
+LOG_EVERY    = 4000
 
 _HAS_KANJI = re.compile(r"[一-龯㐀-䶿]")
 _IS_KANA   = re.compile(r"[ぁ-んァ-ン]")
@@ -107,8 +107,24 @@ def generate_ruby(sentence: str) -> list[dict]:
 
 # ── Supabase helpers ──────────────────────────────────────────────────────────
 
+def _request_with_retry(method: str, url: str, retries: int = 5, **kwargs):
+    delay = 2
+    for attempt in range(retries):
+        try:
+            r = requests.request(method, url, **kwargs)
+            r.raise_for_status()
+            return r
+        except Exception as e:
+            if attempt == retries - 1:
+                raise
+            print(f"  [retry {attempt+1}/{retries}] {e} — waiting {delay}s", flush=True)
+            time.sleep(delay)
+            delay = min(delay * 2, 30)
+
+
 def fetch_page(offset: int) -> list[dict]:
-    r = requests.get(
+    r = _request_with_retry(
+        "GET",
         f"{SUPABASE_URL}/rest/v1/vocabulary_examples",
         headers=HEADERS,
         params={
@@ -119,7 +135,6 @@ def fetch_page(offset: int) -> list[dict]:
         },
         timeout=30,
     )
-    r.raise_for_status()
     return r.json()
 
 
@@ -128,14 +143,16 @@ def update_batch(updates: list[dict], dry_run: bool) -> int:
     for item in updates:
         if dry_run:
             continue
-        r = requests.patch(
-            f"{SUPABASE_URL}/rest/v1/vocabulary_examples?id=eq.{item['id']}",
-            headers=HEADERS,
-            json={"ruby": item["ruby"]},
-            timeout=15,
-        )
-        if r.status_code not in (200, 204):
-            print(f"  [error] id={item['id']}: {r.status_code} {r.text[:80]}")
+        try:
+            _request_with_retry(
+                "PATCH",
+                f"{SUPABASE_URL}/rest/v1/vocabulary_examples?id=eq.{item['id']}",
+                headers=HEADERS,
+                json={"ruby": item["ruby"]},
+                timeout=15,
+            )
+        except Exception as e:
+            print(f"  [error] id={item['id']}: {e}", flush=True)
             errors += 1
     return errors
 
