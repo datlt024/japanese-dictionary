@@ -4,7 +4,7 @@ import styles from "@/features/dictionary/kanji/components/KanjiDetailContent.mo
 import AppLayout from "@/shared/components/layout/AppLayout"
 import KanjiDetailContent from "@/features/dictionary/kanji/components/KanjiDetailContent"
 
-import { uniqueArray } from "@/shared/utils/uniqueArray"
+import { uniqueArray } from "@/shared/utils/array"
 
 import {
     getKanjiByCharacter,

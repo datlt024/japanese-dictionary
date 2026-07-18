@@ -1,3 +1,6 @@
+import { redirect } from "next/navigation"
+
+import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import AppLayout from "@/shared/components/layout/AppLayout"
 import PracticeClient from "@/features/notebook/components/PracticeClient/PracticeClient"
 
@@ -9,6 +12,10 @@ type Props = {
 export const metadata = { title: "Luyện tập" }
 
 export default async function PracticePage({ params, searchParams }: Props) {
+    const supabase = await createSupabaseServerClient()
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) redirect("/")
+
     const { id } = await params
     const { mode } = await searchParams
     return (

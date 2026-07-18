@@ -17,7 +17,7 @@ import {
 
 import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
 import { extractKanjis } from "@/features/dictionary/kanji/utils"
-import { uniqueArray } from "@/shared/utils/uniqueArray"
+import { uniqueArray } from "@/shared/utils/array"
 
 // Direct function call with cache — avoids internal HTTP round-trip to /api/search
 const cachedSearchVocabularies = unstable_cache(

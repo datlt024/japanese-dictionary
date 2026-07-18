@@ -2,7 +2,6 @@
 
 import {
     FormEvent,
-    startTransition,
     useEffect,
     useRef,
     useState,
@@ -34,16 +33,13 @@ import { useAuth } from "@/features/auth/hooks/useAuth"
 import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
 import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
 import { useNotebookItems } from "@/features/notebook/hooks/useNotebookItems"
+import { useStreak, WEEK_DAYS } from "@/features/notebook/hooks/useStreak"
 import type { EnrichedNotebookItem, NotebookWithCount } from "@/domain/notebook/notebook.type"
 import Footer from "@/shared/components/layout/Footer"
 
-import styles from "./NotebooksClient.module.css"
+import { NOTEBOOK_ITEM_TYPE_LABELS } from "@/shared/constants/search-tabs"
 
-const TYPE_LABEL: Record<string, string> = {
-    vocabulary: "Từ vựng",
-    kanji: "Hán tự",
-    grammar: "Ngữ pháp",
-}
+import styles from "./NotebooksClient.module.css"
 
 const CARD_COLORS = [
     { bg: "#f5f3ff", text: "#7c3aed" },
@@ -56,64 +52,6 @@ const CARD_COLORS = [
 
 const CARD_ICONS = [Briefcase, BookOpen, Layers, Zap, Flame, CheckCircle2]
 
-
-const WEEK_DAYS = ["T2", "T3", "T4", "T5", "T6", "T7", "CN"]
-
-// ISO weekday: Mon=1 … Sun=7 → index 0..6
-function isoWeekdayIndex(date: Date): number {
-    return (date.getDay() + 6) % 7
-}
-
-function toDateKey(date: Date): string {
-    return date.toISOString().slice(0, 10)
-}
-
-type StreakData = {
-    count: number
-    lastDate: string
-    activeDays: number[] // ISO weekday indices active this week
-}
-
-function loadStreak(): StreakData {
-    try {
-        const raw = localStorage.getItem("mazii_streak")
-        if (raw) return JSON.parse(raw) as StreakData
-    } catch {}
-    return { count: 0, lastDate: "", activeDays: [] }
-}
-
-function saveStreak(data: StreakData) {
-    try {
-        localStorage.setItem("mazii_streak", JSON.stringify(data))
-    } catch {}
-}
-
-function updateStreak(prev: StreakData): StreakData {
-    const today = new Date()
-    const todayKey = toDateKey(today)
-
-    if (prev.lastDate === todayKey) return prev // already visited today
-
-    const yesterday = new Date(today)
-    yesterday.setDate(yesterday.getDate() - 1)
-    const yesterdayKey = toDateKey(yesterday)
-
-    // Reset activeDays at the start of each week (Mon)
-    const todayWeekday = isoWeekdayIndex(today)
-    const prevDate = prev.lastDate ? new Date(prev.lastDate) : null
-    const prevWeekday = prevDate ? isoWeekdayIndex(prevDate) : -1
-
-    // If last visit was in a different week, reset activeDays
-    let activeDays = [...prev.activeDays]
-    if (!prevDate || (todayWeekday <= prevWeekday && todayKey !== prev.lastDate)) {
-        activeDays = []
-    }
-    if (!activeDays.includes(todayWeekday)) activeDays.push(todayWeekday)
-
-    const count = prev.lastDate === yesterdayKey ? prev.count + 1 : 1
-
-    return { count, lastDate: todayKey, activeDays }
-}
 
 export default function NotebooksClient() {
     const { user, loading: authLoading, signOut } = useAuth()
@@ -133,15 +71,7 @@ export default function NotebooksClient() {
     const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null)
     const [practiceModalId, setPracticeModalId] = useState<string | null>(null)
 
-    const [streak, setStreak] = useState<StreakData>({ count: 0, lastDate: "", activeDays: [] })
-
-    useEffect(() => {
-        if (!user) return
-        const prev = loadStreak()
-        const next = updateStreak(prev)
-        saveStreak(next)
-        startTransition(() => setStreak(next))
-    }, [user])
+    const streak = useStreak(user?.id ?? null)
 
     const createInputRef = useRef<HTMLInputElement>(null)
 
@@ -828,7 +758,7 @@ function NotebookDetail({ notebook, onDelete, onPractice }: NotebookDetailProps)
                         >
                             <Link href={item.display.href} className={styles.itemLink}>
                                 <span className={`${styles.typeBadge} ${styles[item.item_type]}`}>
-                                    {TYPE_LABEL[item.item_type]}
+                                    {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}
                                 </span>
                                 <span className={styles.itemTitle}>{item.display.title}</span>
                                 {item.display.subtitle && (

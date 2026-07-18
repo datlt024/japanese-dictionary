@@ -96,21 +96,21 @@ export async function searchVocabulariesByKeyword(
     const meaningColumn =
         language === "en" ? "meaning_en" : "meaning_vi"
 
-    // Step 1a: exact matches (fast index scan)
-    const exactResult = await supabaseServer
-        .from("vocabulary_senses")
-        .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
-        .eq(meaningColumn, value)
-        .not(meaningColumn, "is", null)
-        .limit(200)
-
-    // Step 1b: broader ILIKE matches with a small limit to avoid timeout
-    const likeResult = await supabaseServer
-        .from("vocabulary_senses")
-        .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
-        .ilike(meaningColumn, `%${escapedValue}%`)
-        .not(meaningColumn, "is", null)
-        .limit(100)
+    // Step 1a+b: run exact-match and ILIKE in parallel
+    const [exactResult, likeResult] = await Promise.all([
+        supabaseServer
+            .from("vocabulary_senses")
+            .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
+            .eq(meaningColumn, value)
+            .not(meaningColumn, "is", null)
+            .limit(200),
+        supabaseServer
+            .from("vocabulary_senses")
+            .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
+            .ilike(meaningColumn, `%${escapedValue}%`)
+            .not(meaningColumn, "is", null)
+            .limit(100),
+    ])
 
     const senseError = exactResult.error ?? likeResult.error
     if (senseError) {

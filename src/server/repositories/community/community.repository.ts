@@ -118,7 +118,24 @@ export async function upsertProfile(
 export async function getProfile(supabase: Client, userId: string) {
     return supabase
         .from("user_profiles")
-        .select("display_name, jlpt_level")
+        .select("display_name, jlpt_level, streak_count, streak_last_date, streak_active_days")
         .eq("id", userId)
         .maybeSingle()
+}
+
+export type StreakUpdate = {
+    streak_count: number
+    streak_last_date: string | null  // ISO date string YYYY-MM-DD
+    streak_active_days: number[]
+}
+
+export async function upsertStreak(supabase: Client, userId: string, streak: StreakUpdate) {
+    return supabase
+        .from("user_profiles")
+        .update({
+            streak_count: streak.streak_count,
+            streak_last_date: streak.streak_last_date,
+            streak_active_days: streak.streak_active_days,
+        })
+        .eq("id", userId)
 }

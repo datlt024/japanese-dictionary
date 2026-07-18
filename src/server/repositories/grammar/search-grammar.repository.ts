@@ -1,11 +1,10 @@
 import { supabaseServer } from "@/server/supabase/server"
+import { escapeLikePattern } from "@/shared/utils/string"
 
 const SEARCH_GRAMMAR_LIMIT = 20
 
 const SEARCH_GRAMMAR_COLUMNS = `
     id,
-    source_id,
-    slug,
     pattern,
     display_pattern,
     reading,
@@ -13,16 +12,8 @@ const SEARCH_GRAMMAR_COLUMNS = `
     meaning_vi,
     meaning_en,
     short_meaning_vi,
-    explanation_vi,
-    nuance_vi,
-    frequency,
-    is_common,
-    sort_order
+    explanation_vi
 `
-
-function escapeLikePattern(value: string) {
-    return value.replace(/[%_]/g, "\\$&")
-}
 
 export async function searchGrammarsByKeyword(keyword: string) {
     const value = escapeLikePattern(keyword.trim())
