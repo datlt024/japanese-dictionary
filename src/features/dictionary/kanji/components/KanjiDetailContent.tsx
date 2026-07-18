@@ -96,7 +96,7 @@ export default function KanjiDetailContent({
                         embedded={embedded}
                     />
 
-                    <KanjiMemoryTipCard kanji={kanji} />
+                    <KanjiMemoryTipCard kanji={kanji} memoryTip={kanji.memory_tip} />
 
                     <DictionaryCommunityCard entryType="kanji" entryId={kanji?.id ?? 0} />
                 </aside>

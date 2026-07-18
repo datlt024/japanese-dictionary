@@ -17,11 +17,11 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { id } = await params
     const grammar = await getGrammarPointById(id)
-    if (!grammar) return { title: "Ngữ pháp | Mazii" }
+    if (!grammar) return { title: "Ngữ pháp | Yomi" }
     const pattern = grammar.display_pattern ?? grammar.pattern
     const meaning = grammar.meaning_vi || grammar.meaning_en || ""
     return {
-        title: `${pattern} — ${grammar.jlpt_level ?? "Ngữ pháp"} | Mazii`,
+        title: `${pattern} — ${grammar.jlpt_level ?? "Ngữ pháp"} | Yomi`,
         description: meaning
             ? `${pattern}: ${meaning}. Giải thích ngữ pháp tiếng Nhật bằng tiếng Việt.`
             : `Tra cứu ngữ pháp ${pattern} tiếng Nhật.`,

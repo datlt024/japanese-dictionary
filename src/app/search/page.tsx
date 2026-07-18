@@ -30,7 +30,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
     const resolved = await searchParams
     const keyword = resolved.q?.trim() || ""
     return {
-        title: keyword ? `"${keyword}" — Tra cứu | Mazii` : "Tra cứu | Mazii",
+        title: keyword ? `"${keyword}" — Tra cứu | Yomi` : "Tra cứu | Yomi",
         description: keyword
             ? `Kết quả tra cứu tiếng Nhật cho "${keyword}" — từ vựng, Hán tự, ngữ pháp`
             : "Tra cứu từ vựng, Hán tự và ngữ pháp tiếng Nhật cho người học Việt Nam",
@@ -41,7 +41,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
 
 function JlptBadge({ level }: { level: string | null | undefined }) {
     if (!level) return null
-    return <span className={styles.jlptBadge}>{level}</span>
+    return <span className={styles.jlptBadge} data-level={level}>{level}</span>
 }
 
 function VocabularyList({ items, language }: { items: VocabularyResult[]; language: DictionaryLanguage }) {
@@ -61,23 +61,22 @@ function VocabularyList({ items, language }: { items: VocabularyResult[]; langua
                             href={`/vocabulary/${item.id}?lang=${language}`}
                             className={styles.vocabCard}
                         >
-                            <div className={styles.vocabTop}>
-                                <div className={styles.vocabHeading}>
-                                    <span className={styles.vocabWord}>{item.word}</span>
-                                    {kana && kana !== item.word && (
-                                        <span className={styles.vocabKana}>{kana}</span>
-                                    )}
-                                </div>
-                                <div className={styles.vocabBadges}>
-                                    <JlptBadge level={item.jlpt} />
-                                    {item.is_common && (
-                                        <span className={styles.commonBadge}>Thông dụng</span>
-                                    )}
-                                </div>
+                            <div className={styles.vocabWordCol}>
+                                <span className={styles.vocabWord}>{item.word}</span>
+                                {kana && kana !== item.word && (
+                                    <span className={styles.vocabKana}>{kana}</span>
+                                )}
                             </div>
+                            <div className={styles.vocabDivider} />
                             <p className={styles.vocabMeaning}>
                                 {item.meaning || "Đang cập nhật"}
                             </p>
+                            <div className={styles.vocabBadges}>
+                                <JlptBadge level={item.jlpt} />
+                                {item.is_common && (
+                                    <span className={styles.commonBadge}>Thông dụng</span>
+                                )}
+                            </div>
                         </Link>
                     )
                 })}

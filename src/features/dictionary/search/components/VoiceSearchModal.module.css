@@ -20,10 +20,10 @@
 
     overflow: hidden;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 
     box-shadow:
         0 16px 48px rgba(15, 23, 42, 0.16),
@@ -41,13 +41,13 @@
 
     padding: 16px 20px;
 
-    border-bottom: 1px solid #eceef2;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .header h2 {
     margin: 0;
 
-    color: #15213a;
+    color: var(--color-text-primary);
 
     font-size: 18px;
     font-weight: 800;
@@ -61,11 +61,11 @@
     width: 36px;
     height: 36px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 999px;
 
-    background: #f6f9ff;
-    color: #6b7280;
+    background: var(--color-surface-muted);
+    color: var(--color-text-secondary);
 
     cursor: pointer;
 
@@ -73,8 +73,8 @@
 }
 
 .closeButton:hover {
-    background: #edf4ff;
-    color: #15213a;
+    background: var(--color-primary-soft);
+    color: var(--color-text-primary);
 }
 
 /* ── Body ── */
@@ -87,7 +87,7 @@
 
     padding: 14px 18px 10px;
 
-    border-bottom: 1px solid #eceef2;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .message {
@@ -97,7 +97,7 @@
     align-items: center;
     justify-content: center;
 
-    color: #9ca3af;
+    color: var(--color-text-muted);
 
     font-size: 16px;
     font-weight: 600;
@@ -127,7 +127,7 @@
     border-radius: 12px;
 
     background: transparent;
-    color: #15213a;
+    color: var(--color-text-primary);
 
     font-size: 16px;
     font-weight: 600;
@@ -139,13 +139,13 @@
 }
 
 .suggestionItem:hover {
-    background: #f4f7ff;
-    color: #2563eb;
+    background: var(--color-surface-muted);
+    color: var(--color-primary);
 }
 
 .suggestionItem svg {
     flex: 0 0 auto;
-    color: #9ca3af;
+    color: var(--color-text-muted);
 }
 
 .suggestionKana {
@@ -153,7 +153,7 @@
 
     margin-top: 2px;
 
-    color: #9ca3af;
+    color: var(--color-text-muted);
 
     font-size: 13px;
     font-weight: 500;
@@ -162,7 +162,7 @@
 .error {
     margin-top: 8px;
 
-    color: #dc2626;
+    color: var(--color-danger);
 
     font-size: 14px;
     text-align: center;
@@ -186,7 +186,7 @@
     height: 4px;
 
     border-radius: 999px;
-    background: #eceef2;
+    background: var(--color-border);
 }
 
 .waveBar {
@@ -194,7 +194,7 @@
     height: 8px;
 
     border-radius: 999px;
-    background: #2563eb;
+    background: var(--color-primary);
 
     animation: voice-wave 0.9s ease-in-out infinite;
 }
@@ -217,18 +217,18 @@
 }
 
 .language {
-    color: #9ca3af;
+    color: var(--color-text-muted);
 }
 
 .activeLanguage {
-    color: #2563eb;
+    color: var(--color-primary);
 }
 
 .switchButton {
     border: none;
     background: transparent;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 22px;
     font-weight: 800;
@@ -248,11 +248,11 @@
 
     margin: 0 auto 24px;
 
-    border: 1px solid #bfdbfe;
+    border: 1px solid var(--color-primary-soft);
     border-radius: 999px;
 
-    background: #edf4ff;
-    color: #2563eb;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     cursor: pointer;
 
@@ -260,7 +260,7 @@
 }
 
 .micButton:hover {
-    background: #dbeafe;
+    background: var(--color-primary-soft);
 }
 
 .micButton:disabled {
@@ -269,11 +269,11 @@
 }
 
 .listening {
-    background: #dbeafe;
-    color: #2563eb;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     box-shadow:
-        0 0 0 4px #ffffff,
+        0 0 0 4px var(--color-surface),
         0 0 0 7px rgba(37, 99, 235, 0.3);
 }
 
@@ -292,18 +292,18 @@
 .transcriptLabel {
     margin: 0;
 
-    color: #16a34a;
+    color: var(--color-success);
 
     font-size: 15px;
     font-weight: 800;
 }
 
 .transcriptButton {
-    border: 1px solid #bfdbfe;
+    border: 1px solid var(--color-primary-soft);
     border-radius: 12px;
 
-    background: #edf4ff;
-    color: #2563eb;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     padding: 10px 16px;
 
@@ -316,7 +316,7 @@
 }
 
 .transcriptButton:hover {
-    background: #dbeafe;
+    background: var(--color-primary-soft);
 }
 
 /* ── Animations ── */

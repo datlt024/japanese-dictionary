@@ -5,7 +5,7 @@ import AppLayout from "@/shared/components/layout/AppLayout"
 import styles from "./page.module.css"
 
 export const metadata: Metadata = {
-    title: "Dịch thuật | Mazii",
+    title: "Dịch thuật | Yomi",
     description: "Tính năng dịch thuật tiếng Nhật đang được phát triển.",
 }
 

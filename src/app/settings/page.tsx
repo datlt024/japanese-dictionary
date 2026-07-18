@@ -5,8 +5,8 @@ import AppLayout from "@/shared/components/layout/AppLayout"
 import styles from "./page.module.css"
 
 export const metadata: Metadata = {
-    title: "Cài đặt | Mazii",
-    description: "Tùy chỉnh cài đặt ứng dụng Mazii.",
+    title: "Cài đặt | Yomi",
+    description: "Tùy chỉnh cài đặt ứng dụng Yomi.",
 }
 
 export default function SettingsPage() {

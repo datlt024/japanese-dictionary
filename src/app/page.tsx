@@ -9,7 +9,7 @@ import DailyVocabularySection from "@/features/home/components/DailyVocabularySe
 import SearchHistorySection from "@/features/home/components/SearchHistorySection/SearchHistorySection"
 
 export const metadata: Metadata = {
-  title: "Mazii — Từ điển Nhật Việt",
+  title: "Yomi — Từ điển Nhật Việt",
   description:
     "Tra cứu từ vựng, Hán tự và ngữ pháp tiếng Nhật dành cho người học Việt Nam. Đầy đủ ví dụ, phiên âm và giải thích bằng tiếng Việt.",
 }

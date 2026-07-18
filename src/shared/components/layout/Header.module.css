@@ -1,62 +1,83 @@
+/* Hallmark · genre: modern-minimal · theme: indigo-cool · component: header */
+
 .appHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    height: 72px;
-    padding: 0 28px;
+    position: relative;
+    z-index: var(--z-header, 100);
 
-    border-bottom: 1px solid #eceef2;
-    background: #ffffff;
+    height: var(--header-height, 58px);
+    padding: 0 24px;
+
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-surface);
 }
 
 .appHeaderLeft {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 16px;
+    min-width: 0;
 }
 
 .headerLogo {
-    display: flex;
+    display: none;
     align-items: center;
+    gap: 8px;
 
-    color: #2563eb;
+    color: var(--color-text-primary);
 
-    font-size: 24px;
-    font-weight: 900;
-    letter-spacing: -.02em;
+    font-family: var(--font-display);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    flex-shrink: 0;
 }
 
-.headerLogo span {
+.headerLogoMark {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 
     width: 26px;
     height: 26px;
 
-    margin: 0 2px;
+    border-radius: 8px;
 
-    border-radius: 999px;
+    background: linear-gradient(135deg, var(--color-primary) 0%, oklch(55% 0.24 290) 100%);
+    color: oklch(100% 0 0);
 
-    background: #ffffff;
-    color: #ef4444;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Hiragino Mincho ProN', 'Yu Mincho', Georgia, serif;
 }
 
 .appHeaderLeft h1 {
     margin: 0;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
-    font-size: 22px;
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
     line-height: 1.2;
-    font-weight: 800;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
+/* ── Actions ── */
 .appHeaderActions {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    flex-shrink: 0;
 }
 
 .loginButton,
@@ -65,38 +86,50 @@
     align-items: center;
     justify-content: center;
 
-    height: 40px;
-    padding: 0 16px;
+    height: 36px;
+    padding: 0 14px;
 
     border: 1px solid transparent;
-    border-radius: 12px;
+    border-radius: var(--radius-sm);
 
-    font-size: 14px;
-    font-weight: 800;
+    font-family: var(--font-display);
+    font-size: 13.5px;
+    font-weight: 600;
 
     cursor: pointer;
-    transition: all .2s ease;
+    transition:
+        background var(--dur-fast) var(--ease-in-out),
+        border-color var(--dur-fast) var(--ease-in-out),
+        color var(--dur-fast) var(--ease-in-out);
 }
 
 .loginButton {
-    background: #2563eb;
-    color: #ffffff;
+    background: var(--color-primary);
+    color: oklch(100% 0 0);
 }
 
 .loginButton:hover {
-    background: #1d4ed8;
+    background: var(--color-primary-hover);
 }
 
 .registerButton {
-    border-color: #e5eaf2;
-    background: #ffffff;
-    color: #2563eb;
+    border-color: var(--color-border-strong);
+    background: transparent;
+    color: var(--color-text-primary);
 }
 
 .registerButton:hover {
-    background: #f7f8fa;
+    background: var(--color-surface-muted);
+    border-color: var(--color-text-muted);
 }
 
+.loginButton:focus-visible,
+.registerButton:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* ── User menu ── */
 .userMenu {
     position: relative;
 }
@@ -106,25 +139,36 @@
     align-items: center;
     justify-content: center;
 
-    width: 36px;
-    height: 36px;
+    width: 34px;
+    height: 34px;
 
     border: 2px solid transparent;
-    border-radius: 999px;
+    border-radius: var(--radius-pill);
 
-    background: #2563eb;
-    color: #ffffff;
+    background: var(--color-primary);
+    color: oklch(100% 0 0);
 
-    font-size: 14px;
-    font-weight: 800;
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 700;
 
     cursor: pointer;
     user-select: none;
-    transition: border-color .15s;
+
+    transition:
+        border-color var(--dur-fast) var(--ease-in-out),
+        box-shadow var(--dur-fast) var(--ease-in-out);
 }
+
 .userAvatar:hover,
 .userAvatar[aria-expanded="true"] {
-    border-color: #93c5fd;
+    border-color: var(--color-primary-soft);
+    box-shadow: 0 0 0 3px var(--color-primary-soft);
+}
+
+.userAvatar:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
 }
 
 /* ── Dropdown ── */
@@ -132,34 +176,36 @@
     position: absolute;
     top: calc(100% + 8px);
     right: 0;
-    z-index: 200;
+    z-index: var(--z-dropdown);
 
-    min-width: 220px;
+    min-width: 216px;
 
-    border: 1px solid #eceef2;
-    border-radius: 14px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
 
-    background: #ffffff;
+    background: var(--color-surface);
 
-    box-shadow:
-        0 8px 32px rgba(15, 23, 42, .12),
-        0 2px 8px rgba(15, 23, 42, .06);
+    box-shadow: var(--shadow-md);
 
     overflow: hidden;
 
-    animation: dropdownIn .14s ease;
+    animation: dropdownIn var(--dur-fast) var(--ease-out);
 }
 
 @keyframes dropdownIn {
-    from { opacity: 0; transform: translateY(-6px) scale(.98); }
+    from { opacity: 0; transform: translateY(-6px) scale(0.98); }
     to   { opacity: 1; transform: translateY(0)   scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dropdown { animation: none; }
 }
 
 .dropdownHeader {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 14px 16px;
+    padding: 12px 14px;
 }
 
 .dropdownAvatar {
@@ -167,16 +213,17 @@
     align-items: center;
     justify-content: center;
 
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
     flex-shrink: 0;
 
-    border-radius: 999px;
-    background: #2563eb;
-    color: #fff;
+    border-radius: var(--radius-pill);
+    background: var(--color-primary);
+    color: oklch(100% 0 0);
 
-    font-size: 14px;
-    font-weight: 800;
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .dropdownInfo {
@@ -186,10 +233,10 @@
 .dropdownEmail {
     display: block;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 600;
 
     overflow: hidden;
     text-overflow: ellipsis;
@@ -198,107 +245,125 @@
 
 .dropdownDivider {
     height: 1px;
-    background: #eceef2;
+    background: var(--color-border);
 }
 
 .dropdownItem {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 9px;
 
     width: 100%;
-    padding: 10px 16px;
+    padding: 9px 14px;
 
     border: none;
     background: transparent;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
-    font-size: 14px;
-    font-weight: 600;
+    font-family: var(--font-display);
+    font-size: 13.5px;
+    font-weight: 500;
     text-decoration: none;
 
     cursor: pointer;
-    transition: background .12s;
+    transition: background var(--dur-fast) var(--ease-in-out);
 }
+
 .dropdownItem:hover {
-    background: #f7f8fa;
+    background: var(--color-surface-muted);
 }
 
 .dropdownItemDanger {
-    color: #ef4444;
+    color: var(--color-danger);
 }
+
 .dropdownItemDanger:hover {
-    background: #fff5f5;
+    background: var(--color-danger-soft);
+}
+
+.dropdownItem:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: -2px;
 }
 
 .dropdownIcon {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1;
     flex-shrink: 0;
 }
 
+/* ── Language select ── */
+.languageSelect {
+    height: 36px;
+    padding: 0 12px;
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+
+    background: transparent;
+    color: var(--color-text-primary);
+
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        border-color var(--dur-fast) var(--ease-in-out),
+        background var(--dur-fast) var(--ease-in-out);
+}
+
+.languageSelect:hover {
+    border-color: var(--color-border-strong);
+    background: var(--color-surface-muted);
+}
+
+.languageSelect:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-soft);
+}
+
+/* ── Icon button ── */
 .iconButton {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
 
     border: 1px solid transparent;
-    border-radius: 12px;
+    border-radius: var(--radius-sm);
 
     background: transparent;
-    color: #6b7280;
+    color: var(--color-text-muted);
     text-decoration: none;
 
     cursor: pointer;
-    transition: all .2s ease;
+    transition:
+        border-color var(--dur-fast) var(--ease-in-out),
+        background var(--dur-fast) var(--ease-in-out),
+        color var(--dur-fast) var(--ease-in-out);
 }
 
 .iconButton:hover {
-    border-color: #e5eaf2;
-    background: #f7f8fa;
-    color: #2563eb;
+    border-color: var(--color-border);
+    background: var(--color-surface-muted);
+    color: var(--color-primary);
 }
 
-.languageSelect {
-    height: 40px;
-    padding: 0 14px;
-
-    border: 1px solid #e5eaf2;
-    border-radius: 12px;
-
-    background: #ffffff;
-    color: #1f2937;
-
-    font-size: 14px;
-    font-weight: 700;
-
-    cursor: pointer;
-
-    transition: all .2s ease;
-}
-
-.languageSelect:hover {
-    border-color: #d7deeb;
-}
-
-.languageSelect:focus {
-    outline: none;
-
-    border-color: #c7d7f3;
-
-    box-shadow:
-        0 1px 2px rgba(0,0,0,.03),
-        0 0 0 3px rgba(37,99,235,.08);
+.iconButton:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
 }
 
 @media (max-width: 700px) {
     .appHeader {
-        height: 64px;
-        padding: 0 18px;
+        height: 60px;
+        padding: 0 16px;
     }
 
     .headerLogo {
@@ -306,7 +371,7 @@
     }
 
     .appHeaderLeft h1 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .appHeaderActions {
@@ -315,6 +380,7 @@
 
     .loginButton,
     .registerButton {
-        padding: 0 12px;
+        padding: 0 10px;
+        font-size: 13px;
     }
 }

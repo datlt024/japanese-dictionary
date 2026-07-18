@@ -11,8 +11,8 @@
 
     overflow: hidden;
 
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 18px;
 
     box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
@@ -23,11 +23,11 @@
 }
 
 .meaningCardBlue {
-    border-color: #dbe7ff;
+    border-color: var(--color-primary-soft);
 }
 
 .meaningCardGreen {
-    border-color: #d7f7e6;
+    border-color: var(--color-success-soft);
 }
 
 .meaningCardHeader {
@@ -48,7 +48,7 @@
 .meaningTitleRow h2 {
     margin: 0;
 
-    color: var(--primary);
+    color: var(--color-primary);
 
     font-size: 15px;
     line-height: 1.3;
@@ -57,11 +57,11 @@
 
 .meaningCardGreen .meaningTitleRow h2,
 .meaningCardGreen .meaningOrder {
-    color: var(--success);
+    color: var(--color-success);
 }
 
 .meaningOrder {
-    color: var(--primary);
+    color: var(--color-primary);
 
     font-size: 15px;
     font-weight: 900;
@@ -83,20 +83,20 @@
 }
 
 .posBadge {
-    background: var(--primary);
-    color: #ffffff;
+    background: var(--color-primary);
+    color: var(--color-surface);
 }
 
 .posBadgeGreen {
-    background: #0f9968;
-    color: #ffffff;
+    background: var(--color-success);
+    color: var(--color-surface);
 }
 
 
 .suruWordLabel {
     margin: -8px 0 12px;
 
-    color: var(--success);
+    color: var(--color-success);
 
     font-family: "Noto Sans JP", sans-serif;
     font-size: 14px;
@@ -120,18 +120,18 @@
 }
 
 .meaningDot {
-    color: var(--primary);
+    color: var(--color-primary);
     font-weight: 900;
 }
 
 .meaningCardGreen .meaningDot {
-    color: var(--success);
+    color: var(--color-success);
 }
 
 .meaningText {
     margin: 0;
 
-    color: var(--primary-dark);
+    color: var(--color-primary-dark);
 
     font-size: 17px;
     line-height: 1.55;
@@ -148,7 +148,7 @@
     border: 0;
     background: transparent;
 
-    color: var(--primary);
+    color: var(--color-primary);
 
     font-size: 13px;
     font-weight: 700;
@@ -161,7 +161,7 @@
 }
 
 .expandSensesGreen {
-    color: var(--success);
+    color: var(--color-success);
 }
 
 .synonymRow {
@@ -173,13 +173,13 @@
     padding-top: 10px;
     margin-top: 4px;
 
-    border-top: 1px solid var(--border-color);
+    border-top: 1px solid var(--color-border);
 }
 
 .synonymLabel {
     margin-right: 6px;
 
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 
     font-size: 13px;
     font-weight: 600;
@@ -194,11 +194,11 @@
 }
 
 .synonymDot {
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 }
 
 .synonymLink {
-    color: var(--primary);
+    color: var(--color-primary);
 
     font-weight: 700;
     text-decoration: none;
@@ -209,13 +209,13 @@
 }
 
 .synonymLinkGreen {
-    color: var(--success);
+    color: var(--color-success);
 }
 
 .synonymKana {
     margin-left: 2px;
 
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 
     font-size: 12px;
     font-weight: 500;
@@ -226,13 +226,13 @@
 }
 
 .synonymRowGreen {
-    border-top-color: #d7f7e6;
+    border-top-color: var(--color-success-soft);
 }
 
 .emptyText {
     margin: 0;
 
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 
     font-size: 14px;
     line-height: 1.6;

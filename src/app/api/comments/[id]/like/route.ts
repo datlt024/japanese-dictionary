@@ -23,34 +23,27 @@ export async function POST(
     try {
         const existing = await getLike(supabase, user.id, commentId)
 
+        const liked = !existing.data
+
         if (existing.data) {
             await removeLike(supabase, user.id, commentId)
-            const { data: comment } = await supabase
-                .from("word_comments")
-                .select("likes_count")
-                .eq("id", commentId)
-                .single()
-            const newCount = Math.max(0, (comment?.likes_count ?? 1) - 1)
-            await supabase
-                .from("word_comments")
-                .update({ likes_count: newCount })
-                .eq("id", commentId)
-            return NextResponse.json({ liked: false, likes_count: newCount })
+        } else {
+            await addLike(supabase, user.id, commentId)
         }
 
-        await addLike(supabase, user.id, commentId)
-        const { data: comment } = await supabase
-            .from("word_comments")
-            .select("likes_count")
-            .eq("id", commentId)
-            .single()
-        const newCount = (comment?.likes_count ?? 0) + 1
+        // Recount from source of truth to avoid read-modify-write race conditions
+        const { count } = await supabase
+            .from("word_comment_likes")
+            .select("*", { count: "exact", head: true })
+            .eq("comment_id", commentId)
+
+        const newCount = count ?? 0
         await supabase
             .from("word_comments")
             .update({ likes_count: newCount })
             .eq("id", commentId)
 
-        return NextResponse.json({ liked: true, likes_count: newCount })
+        return NextResponse.json({ liked, likes_count: newCount })
     } catch (err) {
         return serverError(err, "POST /api/comments/[id]/like")
     }

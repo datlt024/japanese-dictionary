@@ -4,8 +4,6 @@ import styles from "./KanjiAnalysisCard.module.css"
 
 import type { Kanji } from "@/domain/kanji"
 
-import { DEFAULT_KANJI_ANALYSIS } from "@/features/dictionary/kanji/constants/kanji-detail.constants"
-
 type Props = {
     kanji: Kanji
     currentKanji: string
@@ -70,27 +68,29 @@ export default function KanjiAnalysisCard({
             )}
 
             <div className={styles.list}>
-                <div>
-                    <span>Số nét</span>
-                    <strong>{kanji.stroke_count || 10}</strong>
-                </div>
+                {kanji.stroke_count != null && (
+                    <div>
+                        <span>Số nét</span>
+                        <strong>{kanji.stroke_count}</strong>
+                    </div>
+                )}
 
-                <div>
-                    <span>Bộ thủ</span>
-                    <strong>{DEFAULT_KANJI_ANALYSIS.radical}</strong>
-                </div>
+                {kanji.radical && (
+                    <div>
+                        <span>Bộ thủ</span>
+                        <strong>
+                            {kanji.radical}
+                            {kanji.radical_name_vi ? ` (${kanji.radical_name_vi})` : ""}
+                        </strong>
+                    </div>
+                )}
 
-                <div>
-                    <span>Cấu tạo</span>
-                    <strong>{DEFAULT_KANJI_ANALYSIS.structure}</strong>
-                </div>
-
-                <div>
-                    <span>Ý nghĩa gốc</span>
-                    <strong>
-                        {DEFAULT_KANJI_ANALYSIS.originalMeaning}
-                    </strong>
-                </div>
+                {(kanji.meaning_vi || kanji.meaning_en) && (
+                    <div>
+                        <span>Ý nghĩa</span>
+                        <strong>{kanji.meaning_vi ?? kanji.meaning_en}</strong>
+                    </div>
+                )}
             </div>
         </section>
     )

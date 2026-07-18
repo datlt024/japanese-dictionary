@@ -80,7 +80,7 @@ function PitchGraph({ kana, pitch }: { kana: string; pitch: number }) {
                             key={`l${i}`}
                             x1={x1} y1={y1}
                             x2={x2} y2={y2}
-                            stroke="var(--primary)"
+                            stroke="var(--color-primary)"
                             strokeWidth="2"
                             strokeLinecap="round"
                         />
@@ -93,13 +93,13 @@ function PitchGraph({ kana, pitch }: { kana: string; pitch: number }) {
                     const y = pattern[i] ? HIGH_Y : LOW_Y
                     return (
                         <g key={`d${i}`}>
-                            <circle cx={x} cy={y} r={DOT_R} fill="var(--primary)" />
+                            <circle cx={x} cy={y} r={DOT_R} fill="var(--color-primary)" />
                             <text
                                 x={x}
                                 y={TEXT_Y}
                                 textAnchor="middle"
                                 fontSize="10"
-                                fill="var(--text-secondary)"
+                                fill="var(--color-text-secondary)"
                                 fontFamily="inherit"
                             >
                                 {mora}
@@ -187,7 +187,7 @@ export default function VocabularyWordHeader({
 
                     <div className={styles.badgeRow}>
                         {vocabulary.jlpt && (
-                            <span className={styles.levelBadge}>
+                            <span className={styles.levelBadge} data-level={vocabulary.jlpt}>
                                 {vocabulary.jlpt}
                             </span>
                         )}

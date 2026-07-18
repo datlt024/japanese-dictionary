@@ -1,16 +1,16 @@
 .section {
     padding: 24px;
 
-    border: 1px solid #e5eaf2;
+    border: 1px solid var(--color-border);
     border-radius: 18px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .title {
     margin: 0 0 18px;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-size: 17px;
     line-height: 1.35;
@@ -19,7 +19,7 @@
 
 .mutedText {
     margin: 0;
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 15px;
     line-height: 1.65;
@@ -34,10 +34,10 @@
 .vocabReadingBlock {
     overflow: hidden;
 
-    border: 1px solid #e5eaf2;
+    border: 1px solid var(--color-border);
     border-radius: 16px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .vocabReadingHeader {
@@ -47,9 +47,9 @@
 
     padding: 14px 16px;
 
-    border-bottom: 1px solid #e5eaf2;
+    border-bottom: 1px solid var(--color-border);
 
-    background: #f8fafc;
+    background: var(--color-bg);
 }
 
 .vocabReadingHeader span {
@@ -57,8 +57,8 @@
 
     border-radius: 999px;
 
-    background: #eff6ff;
-    color: #2563eb;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     font-size: 12px;
     line-height: 1;
@@ -66,7 +66,7 @@
 }
 
 .vocabReadingHeader strong {
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-family: "Noto Sans JP", sans-serif;
     font-size: 18px;
@@ -79,7 +79,7 @@
     table-layout: fixed;
     border-collapse: collapse;
 
-    color: #374151;
+    color: var(--color-text-primary);
 
     font-family: inherit;
     font-size: 15px;
@@ -90,7 +90,7 @@
 .vocabTable td {
     padding: 14px 16px;
 
-    border-bottom: 1px solid #eef2f7;
+    border-bottom: 1px solid var(--color-surface-muted);
 
     color: inherit;
 
@@ -102,8 +102,8 @@
 }
 
 .vocabTable th {
-    background: #fbfbfa;
-    color: #6b7280;
+    background: var(--color-surface-muted);
+    color: var(--color-text-secondary);
 
     font-size: 13px;
     line-height: 1.45;
@@ -139,21 +139,21 @@
 }
 
 .vocabTable td:nth-child(1) {
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 800;
 }
 
 .vocabTable td:nth-child(2) {
-    color: #374151;
+    color: var(--color-text-primary);
 
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 600;
 }
 
 .vocabTable td:nth-child(3) {
-    color: #374151;
+    color: var(--color-text-primary);
 
     font-weight: 500;
 }

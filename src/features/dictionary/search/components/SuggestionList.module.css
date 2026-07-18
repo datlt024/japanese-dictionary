@@ -1,9 +1,9 @@
 .suggestionList {
     overflow: hidden;
 
-    background: #ffffff;
+    background: var(--color-surface);
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
 
     box-shadow:
@@ -28,9 +28,9 @@
     padding: 18px 20px;
 
     border: 0;
-    border-bottom: 1px solid #f0f2f5;
+    border-bottom: 1px solid var(--color-surface-muted);
 
-    background: #ffffff;
+    background: var(--color-surface);
 
     cursor: pointer;
 
@@ -42,7 +42,7 @@
 }
 
 .suggestionItem:hover {
-    background: #fafcff;
+    background: var(--color-surface-muted);
 }
 
 .suggestionLeft {
@@ -50,7 +50,7 @@
 }
 
 .suggestionWord {
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-family: "Noto Serif JP", serif;
     font-size: 24px;
@@ -61,7 +61,7 @@
 .suggestionKana {
     margin-top: 6px;
 
-    color: #2563eb;
+    color: var(--color-primary);
 
     font-size: 14px;
     font-weight: 700;
@@ -70,7 +70,7 @@
 .suggestionMeaning {
     margin-top: 8px;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 14px;
     line-height: 1.6;
@@ -93,16 +93,16 @@
 
     border-radius: 999px;
 
-    background: #edf4ff;
-    color: #2563eb;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     font-size: 12px;
     font-weight: 800;
 }
 
 .suggestionCommonBadge {
-    background: #ecfdf3;
-    color: #16a34a;
+    background: var(--color-success-soft);
+    color: var(--color-success);
 }
 
 @media (max-width: 768px) {

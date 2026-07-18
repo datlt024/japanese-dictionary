@@ -1,16 +1,16 @@
 .section {
   padding: 24px;
 
-  border: 1px solid #e5eaf2;
+  border: 1px solid var(--color-border);
   border-radius: 18px;
 
-  background: #ffffff;
+  background: var(--color-surface);
 }
 
 .title {
     margin: 0 0 18px;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-size: 17px;
     line-height: 1.35;
@@ -21,17 +21,17 @@
   margin: 0;
   padding-left: 22px;
 
-  color: #1f2937;
+  color: var(--color-text-primary);
 }
 
 .meaningList li {
   margin-bottom: 12px;
 
-  color: #374151;
+  color: var(--color-text-primary);
   font-size: 16px;
   line-height: 1.8;
 }
 .mutedText {
     margin: 0;
-    color: #6b7280;
+    color: var(--color-text-secondary);
 }

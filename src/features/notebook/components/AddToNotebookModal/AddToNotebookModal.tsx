@@ -124,12 +124,18 @@ export default function AddToNotebookModal({
 
             const created = await res.json()
 
-            // Add item to new notebook immediately
-            await fetch(`/api/notebooks/${created.id}/items`, {
+            // Add item to new notebook immediately — ignore if already exists (409)
+            const addRes = await fetch(`/api/notebooks/${created.id}/items`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ item_type: itemType, item_id: itemId }),
             })
+
+            if (!addRes.ok && addRes.status !== 409) {
+                // Notebook was created but item wasn't added — still refresh and close
+                await mutateNotebooks()
+                return
+            }
 
             await Promise.all([
                 mutateNotebooks(),

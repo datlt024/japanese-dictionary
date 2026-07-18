@@ -42,7 +42,7 @@ function VocabCard({
             <div className={styles.cardTop}>
                 <span className={styles.word}>{item.word}</span>
                 {item.jlpt && (
-                    <span className={styles.jlptBadge}>{item.jlpt}</span>
+                    <span className={styles.jlptBadge} data-level={item.jlpt}>{item.jlpt}</span>
                 )}
             </div>
 
@@ -69,13 +69,15 @@ function SuggestionsModal({
     onSelectItem: (item: DailyVocabularyItem) => void
     onHoverItem: (item: DailyVocabularyItem) => void
 }) {
+    const onCloseRef = useRef(onClose)
+    useEffect(() => { onCloseRef.current = onClose }, [onClose])
+
     useEffect(() => {
         function handleKey(e: KeyboardEvent) {
-            if (e.key === "Escape") onClose()
+            if (e.key === "Escape") onCloseRef.current()
         }
         document.addEventListener("keydown", handleKey)
         return () => document.removeEventListener("keydown", handleKey)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const modal = (

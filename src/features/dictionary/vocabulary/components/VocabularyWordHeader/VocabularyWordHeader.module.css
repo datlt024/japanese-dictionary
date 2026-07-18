@@ -2,9 +2,9 @@
     padding: 32px;
     margin-bottom: 24px;
 
-    background: var(--bg-card);
+    background: var(--color-surface);
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 20px;
 
     box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
@@ -34,7 +34,7 @@
 
     margin: 0;
 
-    color: var(--primary-dark);
+    color: var(--color-primary-dark);
 
     font-family: "Noto Serif JP", serif;
     font-size: 64px;
@@ -61,7 +61,7 @@
     min-width: 100%;
     margin-bottom: 6px;
 
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 
     font-family: "Noto Sans JP", sans-serif;
     font-size: 16px;
@@ -99,29 +99,49 @@
 }
 
 .levelBadge {
-    background: #dff8ee;
-    color: var(--success);
+    background: var(--color-jlpt-n5-soft, var(--color-success-soft));
+    color: var(--color-jlpt-n5, var(--color-success));
+}
+.levelBadge[data-level="N5"] {
+    background: var(--color-jlpt-n5-soft);
+    color: var(--color-jlpt-n5);
+}
+.levelBadge[data-level="N4"] {
+    background: var(--color-jlpt-n4-soft);
+    color: var(--color-jlpt-n4);
+}
+.levelBadge[data-level="N3"] {
+    background: var(--color-jlpt-n3-soft);
+    color: var(--color-jlpt-n3);
+}
+.levelBadge[data-level="N2"] {
+    background: var(--color-jlpt-n2-soft);
+    color: var(--color-jlpt-n2);
+}
+.levelBadge[data-level="N1"] {
+    background: var(--color-jlpt-n1-soft);
+    color: var(--color-jlpt-n1);
 }
 
 .commonBadge {
-    background: var(--success-soft);
-    color: var(--success);
+    background: var(--color-success-soft);
+    color: var(--color-success);
 }
 
 .verbBadge {
-    background: #0f9968;
-    color: #ffffff;
+    background: var(--color-success);
+    color: var(--color-surface);
 }
 
 .neutralBadge {
-    background: var(--primary);
-    color: #ffffff;
+    background: var(--color-primary);
+    color: var(--color-surface);
 }
 
 .detailMeaning {
     margin-top: 24px;
 
-    color: var(--primary-dark);
+    color: var(--color-primary-dark);
 
     font-size: 22px;
     line-height: 1.6;
@@ -142,10 +162,10 @@
 
     padding: 14px 16px;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 16px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .pitchTopRow {
@@ -156,7 +176,7 @@
 }
 
 .pitchLabel {
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 
     font-size: 12px;
     font-weight: 700;
@@ -180,8 +200,8 @@
 
     border-radius: 999px;
 
-    background: #eff6ff;
-    color: var(--primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     font-size: 12px;
     font-weight: 800;

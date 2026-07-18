@@ -7,7 +7,7 @@ import AccountClient from "@/features/auth/components/AccountClient/AccountClien
 import Header from "@/shared/components/layout/Header"
 import layoutStyles from "@/shared/components/layout/AppLayout.module.css"
 
-export const metadata = { title: "Tài khoản — Mazii" }
+export const metadata = { title: "Tài khoản — Yomi" }
 
 export default async function AccountPage() {
     const supabase = await createSupabaseServerClient()

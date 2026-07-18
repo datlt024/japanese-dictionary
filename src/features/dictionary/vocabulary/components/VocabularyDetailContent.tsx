@@ -144,12 +144,8 @@ export default function VocabularyDetailContent({
                                         }
                                     >
                                         {language === "en"
-                                            ? item.meaning_en ||
-                                            item.meaning_vi ||
-                                            "Updating..."
-                                            : item.meaning_vi ||
-                                            item.meaning_en ||
-                                            "Đang cập nhật nghĩa tiếng Việt"}
+                                            ? item.meaning_en || item.meaning_vi || "Updating..."
+                                            : item.meaning_vi || "Đang cập nhật..."}
                                     </p>
                                 </div>
                             ))}

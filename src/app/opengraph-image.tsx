@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og"
 
 export const runtime = "edge"
-export const alt = "Mazii — Từ điển Nhật Việt"
+export const alt = "Yomi — Từ điển Nhật Việt"
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
 
@@ -46,7 +46,7 @@ export default function Image() {
                         marginBottom: 16,
                     }}
                 >
-                    Mazii
+                    Yomi
                 </div>
 
                 {/* Subtitle */}

@@ -15,6 +15,7 @@ export type Kanji = {
     radical_name_ja: string | null
 
     stroke_count: number | null
+    memory_tip: string | null
     jlpt: number | null
     grade: number | null
     frequency: number | null

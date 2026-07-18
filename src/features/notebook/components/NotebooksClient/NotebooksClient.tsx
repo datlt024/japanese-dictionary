@@ -121,7 +121,8 @@ export default function NotebooksClient() {
         if (deletingNotebookId) return
         setDeletingNotebookId(id)
         try {
-            await fetch(`/api/notebooks/${id}`, { method: "DELETE" })
+            const res = await fetch(`/api/notebooks/${id}`, { method: "DELETE" })
+            if (!res.ok) return
             await mutateNotebooks()
             if (selectedId === id) {
                 setSelectedId(null)

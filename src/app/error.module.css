@@ -6,7 +6,7 @@
     min-height: 100vh;
     padding: 48px 24px;
 
-    background: #f7f8fa;
+    background: var(--color-bg);
 }
 
 .inner {
@@ -28,7 +28,7 @@
 .title {
     margin: 0;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-size: 22px;
     font-weight: 900;
@@ -37,7 +37,7 @@
 .desc {
     margin: 0;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 15px;
     font-weight: 500;
@@ -59,11 +59,11 @@
     height: 42px;
     padding: 0 24px;
 
-    border: 1.5px solid #e5eaf2;
+    border: 1.5px solid var(--color-border);
     border-radius: 12px;
 
-    background: #ffffff;
-    color: #1f2937;
+    background: var(--color-surface);
+    color: var(--color-text-primary);
 
     font-size: 14px;
     font-weight: 700;
@@ -74,7 +74,7 @@
 }
 
 .retryBtn:hover {
-    border-color: #c7d7f3;
+    border-color: var(--color-primary-soft);
 }
 
 .homeBtn {
@@ -87,8 +87,8 @@
 
     border-radius: 12px;
 
-    background: #2563eb;
-    color: #ffffff;
+    background: var(--color-primary);
+    color: var(--color-surface);
     text-decoration: none;
 
     font-size: 14px;
@@ -98,5 +98,5 @@
 }
 
 .homeBtn:hover {
-    background: #1d4ed8;
+    background: var(--color-primary-hover);
 }

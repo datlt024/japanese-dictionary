@@ -6,7 +6,7 @@ import AppLayout from "@/shared/components/layout/AppLayout"
 import styles from "./page.module.css"
 
 export const metadata: Metadata = {
-    title: "Hán tự | Mazii",
+    title: "Hán tự | Yomi",
     description: "Tra cứu và học Hán tự tiếng Nhật theo trình độ JLPT.",
 }
 

@@ -19,7 +19,7 @@
 }
 
 .code {
-    color: #e5eaf2;
+    color: var(--color-border);
 
     font-size: 96px;
     font-weight: 900;
@@ -30,7 +30,7 @@
 .title {
     margin: 0;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-size: 22px;
     font-weight: 900;
@@ -39,7 +39,7 @@
 .desc {
     margin: 0;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 15px;
     font-weight: 500;
@@ -57,8 +57,8 @@
 
     border-radius: 12px;
 
-    background: #2563eb;
-    color: #ffffff;
+    background: var(--color-primary);
+    color: var(--color-surface);
     text-decoration: none;
 
     font-size: 14px;
@@ -68,5 +68,5 @@
 }
 
 .homeBtn:hover {
-    background: #1d4ed8;
+    background: var(--color-primary-hover);
 }

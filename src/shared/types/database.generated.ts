@@ -472,6 +472,7 @@ export type Database = {
           kunyomi: string | null
           meaning_en: string | null
           meaning_vi: string | null
+          memory_tip: string | null
           onyomi: string | null
           radical: string | null
           radical_name_ja: string | null
@@ -492,6 +493,7 @@ export type Database = {
           kunyomi?: string | null
           meaning_en?: string | null
           meaning_vi?: string | null
+          memory_tip?: string | null
           onyomi?: string | null
           radical?: string | null
           radical_name_ja?: string | null
@@ -512,6 +514,7 @@ export type Database = {
           kunyomi?: string | null
           meaning_en?: string | null
           meaning_vi?: string | null
+          memory_tip?: string | null
           onyomi?: string | null
           radical?: string | null
           radical_name_ja?: string | null

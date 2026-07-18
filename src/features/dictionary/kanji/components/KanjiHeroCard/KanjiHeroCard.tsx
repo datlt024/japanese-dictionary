@@ -84,7 +84,7 @@ export default function KanjiHeroCard({ kanji }: Props) {
                             {kanji.stroke_count || 10} nét
                         </span>
 
-                        <span className={styles.levelBadge}>
+                        <span className={styles.levelBadge} data-level={formatKanjiJlpt(kanji.jlpt)}>
                             {formatKanjiJlpt(kanji.jlpt)}
                         </span>
                     </div>

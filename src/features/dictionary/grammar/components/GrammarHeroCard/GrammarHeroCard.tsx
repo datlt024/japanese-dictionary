@@ -45,8 +45,8 @@ export default function GrammarHeroCard({ grammar }: Props) {
 
                     <div className={styles.badgeRow}>
                         {grammar.jlpt_level && (
-                            <span className={styles.jlptBadge}>
-                                JLPT {grammar.jlpt_level}
+                            <span className={styles.jlptBadge} data-level={grammar.jlpt_level}>
+                                {grammar.jlpt_level}
                             </span>
                         )}
 

@@ -1,6 +1,6 @@
 .detailSideCard {
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 18px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
     padding: 18px;
@@ -9,7 +9,7 @@
 .detailSideCard h3 {
     margin: 0 0 14px;
 
-    color: var(--text-primary);
+    color: var(--color-text-primary);
 
     font-size: 15px;
     line-height: 1.35;
@@ -31,11 +31,11 @@
     padding: 0 12px;
     margin-bottom: 12px;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
 
-    background: var(--bg-page, #F7F8FA);
-    color: var(--text-muted);
+    background: var(--color-bg);
+    color: var(--color-text-muted);
 
     font-size: 12px;
     text-align: left;
@@ -44,7 +44,7 @@
     transition: border-color .15s;
 }
 .communityInput:hover:not(:disabled) {
-    border-color: var(--primary, #2563EB);
+    border-color: var(--color-primary);
 }
 .communityInput:disabled {
     cursor: default;
@@ -67,16 +67,16 @@
 .nameInput,
 .levelSelect {
     padding: 6px 10px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 8px;
-    background: var(--bg-page, #F7F8FA);
-    color: var(--text-primary);
+    background: var(--color-bg);
+    color: var(--color-text-primary);
     font-size: 12px;
     outline: none;
 }
 .nameInput:focus,
 .levelSelect:focus {
-    border-color: var(--primary, #2563EB);
+    border-color: var(--color-primary);
 }
 
 .profileHint {
@@ -88,25 +88,25 @@
 .profileName {
     font-size: 12px;
     font-weight: 700;
-    color: var(--primary, #2563EB);
+    color: var(--color-primary);
 }
 .profileBadge {
     display: inline-flex;
     align-items: center;
     padding: 1px 7px;
     border-radius: 999px;
-    background: #EFF6FF;
-    color: var(--primary, #2563EB);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
     font-size: 10px;
     font-weight: 800;
 }
 
 .commentTextarea {
     padding: 8px 10px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
-    background: var(--bg-page, #F7F8FA);
-    color: var(--text-primary);
+    background: var(--color-bg);
+    color: var(--color-text-primary);
     font-size: 12px;
     line-height: 1.5;
     resize: none;
@@ -116,7 +116,7 @@
     font-family: inherit;
 }
 .commentTextarea:focus {
-    border-color: var(--primary, #2563EB);
+    border-color: var(--color-primary);
 }
 
 .formMeta {
@@ -126,7 +126,7 @@
 }
 
 .charCount {
-    color: var(--text-muted);
+    color: var(--color-text-muted);
     font-size: 11px;
 }
 
@@ -137,24 +137,24 @@
 
 .cancelBtn {
     padding: 5px 12px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 8px;
     background: transparent;
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
 }
 .cancelBtn:hover {
-    background: var(--bg-page, #F7F8FA);
+    background: var(--color-bg);
 }
 
 .submitBtn {
     padding: 5px 14px;
     border: 0;
     border-radius: 8px;
-    background: var(--primary, #2563EB);
-    color: #fff;
+    background: var(--color-primary);
+    color: var(--color-surface);
     font-size: 12px;
     font-weight: 700;
     cursor: pointer;
@@ -167,14 +167,14 @@
 
 .formError {
     margin: 0;
-    color: #EF4444;
+    color: var(--color-danger);
     font-size: 11px;
 }
 
 /* ── Sort ── */
 .commentSort {
     margin-bottom: 10px;
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
     font-size: 12px;
 }
 
@@ -187,10 +187,10 @@
     padding: 0;
 }
 .sortBtn {
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 }
 .sortActive {
-    color: var(--primary, #2563EB);
+    color: var(--color-primary);
     font-weight: 800;
 }
 
@@ -205,7 +205,7 @@
     grid-template-columns: 28px minmax(0, 1fr);
     gap: 10px;
     padding: 6px 0;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--color-border);
 }
 .commentItem:last-child {
     border-bottom: 0;
@@ -227,7 +227,7 @@
 
 .commentBody p {
     margin: 4px 0 0;
-    color: var(--text-primary);
+    color: var(--color-text-primary);
     font-size: 12px;
     line-height: 1.55;
     word-break: break-word;
@@ -240,7 +240,7 @@
 }
 
 .commentMeta strong {
-    color: var(--primary, #2563EB);
+    color: var(--color-primary);
     font-size: 12px;
     font-weight: 800;
 }
@@ -250,14 +250,14 @@
     align-items: center;
     padding: 1px 6px;
     border-radius: 999px;
-    background: #EFF6FF;
-    color: var(--primary, #2563EB);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
     font-size: 10px;
     font-weight: 800;
 }
 
 .commentMeta small {
-    color: var(--text-muted);
+    color: var(--color-text-muted);
     font-size: 10px;
     margin-left: auto;
 }
@@ -279,25 +279,25 @@
     transition: color .1s;
 }
 .likeBtn {
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 }
 .likeActive {
-    color: #EF4444;
+    color: var(--color-danger);
 }
 .likeBtn:hover {
-    color: #EF4444;
+    color: var(--color-danger);
 }
 
 .deleteBtn {
     border: 0;
     background: transparent;
-    color: var(--text-muted);
+    color: var(--color-text-muted);
     font-size: 11px;
     cursor: pointer;
     padding: 0;
 }
 .deleteBtn:hover {
-    color: #EF4444;
+    color: var(--color-danger);
 }
 
 /* ── Load more ── */
@@ -308,7 +308,7 @@
     margin-top: 10px;
     border: 0;
     background: transparent;
-    color: var(--primary, #2563EB);
+    color: var(--color-primary);
     font-size: 13px;
     font-weight: 800;
     cursor: pointer;
@@ -327,7 +327,7 @@
 .skeletonItem {
     height: 56px;
     border-radius: 10px;
-    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background: linear-gradient(90deg, var(--color-surface-muted) 25%, var(--color-border) 50%, var(--color-surface-muted) 75%);
     background-size: 200% 100%;
     animation: shimmer 1.2s infinite;
 }
@@ -340,7 +340,7 @@
 /* ── Empty state ── */
 .emptyState {
     margin: 8px 0 0;
-    color: var(--text-muted);
+    color: var(--color-text-muted);
     font-size: 12px;
     text-align: center;
 }

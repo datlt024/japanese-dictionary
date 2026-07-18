@@ -6,12 +6,12 @@ import AppLayout from "@/shared/components/layout/AppLayout"
 import styles from "./not-found.module.css"
 
 export const metadata: Metadata = {
-    title: "Không tìm thấy trang | Mazii",
+    title: "Không tìm thấy trang | Yomi",
 }
 
 export default function NotFound() {
     return (
-        <AppLayout title="Mazii" hideSearchTabs>
+        <AppLayout title="Yomi" hideSearchTabs>
             <main className={styles.page}>
                 <div className={styles.inner}>
                     <div className={styles.code}>404</div>

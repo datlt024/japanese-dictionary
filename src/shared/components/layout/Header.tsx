@@ -74,7 +74,8 @@ export default function Header({
             <header className={styles.appHeader}>
                 <div className={styles.appHeaderLeft}>
                     <span className={styles.headerLogo}>
-                        m<span>あ</span>zii
+                        <span className={styles.headerLogoMark}>読</span>
+                        Yomi
                     </span>
 
                     <h1>{title}</h1>
