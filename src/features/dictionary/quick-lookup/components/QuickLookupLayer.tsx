@@ -64,6 +64,11 @@ function isValidLookupText(text: string) {
         return false
     }
 
+    // Only trigger for text containing Japanese characters
+    if (!/[぀-ヿ㐀-鿿一-龯]/.test(normalized)) {
+        return false
+    }
+
     return true
 }
 

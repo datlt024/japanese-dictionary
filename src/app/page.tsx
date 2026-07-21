@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 }
 
 const JLPT_QUICK_LINKS = [
-  { level: "N5", href: "/search?q=N5&tab=grammar", color: "#16a34a", desc: "Ngữ pháp cơ bản" },
-  { level: "N4", href: "/search?q=N4&tab=grammar", color: "#2563eb", desc: "Trung cấp sơ" },
+  { level: "N5", href: "/search?q=N5&tab=grammar", color: "#16a34a", desc: "Cơ bản" },
+  { level: "N4", href: "/search?q=N4&tab=grammar", color: "#2563eb", desc: "Sơ trung cấp" },
   { level: "N3", href: "/search?q=N3&tab=grammar", color: "#7c3aed", desc: "Trung cấp" },
   { level: "N2", href: "/search?q=N2&tab=grammar", color: "#ea580c", desc: "Nâng cao" },
   { level: "N1", href: "/search?q=N1&tab=grammar", color: "#dc2626", desc: "Thành thạo" },

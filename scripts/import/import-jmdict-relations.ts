@@ -15,6 +15,8 @@ type JmdictGloss = {
 type JmdictSense = {
     gloss?: JmdictGloss[]
     partOfSpeech?: string[]
+    antonym?: (string | number)[][]
+    related?: (string | number)[][]
 }
 
 type JmdictKana = {
@@ -353,6 +355,62 @@ function buildSynonymRelations(
     return Array.from(relations.values())
 }
 
+function buildAntonymRelationsFromJmdict(
+    entries: JmdictEntry[],
+    vocabularyMap: Map<string, VocabularyRow>
+) {
+    const relations = new Map<string, VocabularyRelationInsert>()
+
+    for (const entry of entries) {
+        const primaryWord = getPrimaryWord(entry)
+        if (!primaryWord) continue
+
+        const sourceVocab = vocabularyMap.get(primaryWord)
+        if (!sourceVocab) continue
+
+        for (const sense of entry.sense || []) {
+            for (const antRef of sense.antonym || []) {
+                // antRef format: [word, ...senseQualifiers] — only first element is the word
+                const antWord = typeof antRef[0] === "string" ? antRef[0] : null
+                if (!antWord) continue
+
+                const targetVocab = vocabularyMap.get(antWord)
+                if (!targetVocab) continue
+                if (targetVocab.id === sourceVocab.id) continue
+
+                const key = `${sourceVocab.id}:${targetVocab.id}:antonym`
+                if (!relations.has(key)) {
+                    relations.set(key, {
+                        vocabulary_id: sourceVocab.id,
+                        related_vocabulary_id: targetVocab.id,
+                        relation_type: "antonym",
+                        note_vi: null,
+                        source: "jmdict_antonym",
+                        status: "auto",
+                        confidence: 90,
+                    })
+                }
+
+                // Bidirectional
+                const reverseKey = `${targetVocab.id}:${sourceVocab.id}:antonym`
+                if (!relations.has(reverseKey)) {
+                    relations.set(reverseKey, {
+                        vocabulary_id: targetVocab.id,
+                        related_vocabulary_id: sourceVocab.id,
+                        relation_type: "antonym",
+                        note_vi: null,
+                        source: "jmdict_antonym",
+                        status: "auto",
+                        confidence: 90,
+                    })
+                }
+            }
+        }
+    }
+
+    return Array.from(relations.values())
+}
+
 async function upsertRelations(
     supabase: Awaited<ReturnType<typeof getSupabaseClient>>,
     relations: VocabularyRelationInsert[]
@@ -397,25 +455,19 @@ async function main() {
 
     console.log("Vocabulary map:", vocabularyMap.size)
 
-    const relatedRelations = buildRelatedRelations(
-        entries,
-        vocabularyMap
-    )
-
+    const relatedRelations = buildRelatedRelations(entries, vocabularyMap)
     console.log("Related relations:", relatedRelations.length)
-    console.log(relatedRelations.slice(0, 10))
 
-    const synonymRelations = buildSynonymRelations(
-        entries,
-        vocabularyMap
-    )
-
+    const synonymRelations = buildSynonymRelations(entries, vocabularyMap)
     console.log("Synonym relations:", synonymRelations.length)
-    console.log(synonymRelations.slice(0, 10))
+
+    const antonymRelations = buildAntonymRelationsFromJmdict(entries, vocabularyMap)
+    console.log("Antonym relations (from JMDict):", antonymRelations.length)
 
     const allRelations = [
         ...relatedRelations,
         ...synonymRelations,
+        ...antonymRelations,
     ]
 
     console.log("All relations:", allRelations.length)

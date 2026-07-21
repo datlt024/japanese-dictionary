@@ -23,17 +23,9 @@ import type {
     VocabularyKanjiDetail,
 } from "@/server/services/vocabulary/vocabulary.service"
 
-type RelatedVocabularyItem = {
-    id: number
-    word: string
-    kana: string | null
-    meaning: string | null
-}
-
 type VocabularyDetailContentProps = {
     vocabulary: Vocabulary
     language: "vi" | "en"
-    relatedVocabularies: RelatedVocabularyItem[]
     kanjiDetails: VocabularyKanjiDetail[]
     embedded?: boolean
 }
@@ -41,7 +33,6 @@ type VocabularyDetailContentProps = {
 export default function VocabularyDetailContent({
     vocabulary,
     language,
-    relatedVocabularies,
     kanjiDetails,
     embedded = false,
 }: VocabularyDetailContentProps) {
@@ -54,11 +45,6 @@ export default function VocabularyDetailContent({
 
     const synonyms = getRelationsByType(vocabulary.relations, "synonym")
     const antonyms = getRelationsByType(vocabulary.relations, "antonym")
-
-    const relationVocabularyList = [
-        ...getRelationVocabularyList(synonyms),
-        ...getRelationVocabularyList(antonyms),
-    ]
 
     const nounSenses = vocabulary.senses.filter(
         (sense) => !hasPartOfSpeech(sense, "vs")
@@ -183,9 +169,8 @@ export default function VocabularyDetailContent({
                 <VocabularyRelatedWords
                     language={language}
                     embedded={embedded}
-                    relatedVocabularies={relatedVocabularies}
-                    relationVocabularyList={relationVocabularyList}
-                    currentVocabularyId={vocabulary.id}
+                    synonymList={getRelationVocabularyList(synonyms)}
+                    antonymList={getRelationVocabularyList(antonyms)}
                 />
             </aside>
         </div>

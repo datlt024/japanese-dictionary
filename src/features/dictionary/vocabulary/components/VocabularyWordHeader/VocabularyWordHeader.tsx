@@ -7,6 +7,8 @@ import styles from "./VocabularyWordHeader.module.css"
 import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
 import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
 import AddToNotebookModal from "@/features/notebook/components/AddToNotebookModal/AddToNotebookModal"
+import VocabularyNoteModal from "@/features/dictionary/vocabulary/components/VocabularyNoteModal/VocabularyNoteModal"
+import { useAuth } from "@/features/auth/hooks/useAuth"
 
 import {
     Star,
@@ -159,11 +161,22 @@ export default function VocabularyWordHeader({
 }: Props) {
     const ruby = vocabulary.ruby ?? []
 
+    const { user } = useAuth()
+
     const [notebookOpen, setNotebookOpen] = useState(false)
+    const [noteOpen, setNoteOpen] = useState(false)
     const [authOpen, setAuthOpen] = useState(false)
 
     function handleSpeak() {
         speakJapanese(vocabulary.kana || vocabulary.word)
+    }
+
+    function handleNoteClick() {
+        if (!user) {
+            setAuthOpen(true)
+        } else {
+            setNoteOpen(true)
+        }
     }
 
     function handleLoginRequired() {
@@ -221,6 +234,7 @@ export default function VocabularyWordHeader({
                                 key: "note",
                                 label: "Ghi chú",
                                 icon: <FilePenLine />,
+                                onClick: handleNoteClick,
                             },
                             {
                                 key: "bookmark",
@@ -247,6 +261,12 @@ export default function VocabularyWordHeader({
             itemType="vocabulary"
             itemId={String(vocabulary.id)}
             onLoginRequired={handleLoginRequired}
+        />
+
+        <VocabularyNoteModal
+            open={noteOpen}
+            onClose={() => setNoteOpen(false)}
+            vocabularyId={vocabulary.id}
         />
 
         <AuthModal

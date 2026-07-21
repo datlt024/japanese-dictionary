@@ -59,13 +59,18 @@ export async function searchVocabulariesByKeyword(
     if (isJapaneseKeyword(value)) {
         const keywords = getJapaneseSearchKeywords(value)
 
-        const results = await Promise.all(
-            keywords.map((searchKeyword) =>
-                supabaseServer.rpc("search_vocabularies_rpc", {
-                    search_keyword: searchKeyword,
-                })
+        let results
+        try {
+            results = await Promise.all(
+                keywords.map((searchKeyword) =>
+                    supabaseServer.rpc("search_vocabularies_rpc", {
+                        search_keyword: searchKeyword,
+                    })
+                )
             )
-        )
+        } catch (err) {
+            return { data: [], error: err as Error }
+        }
 
         const firstError = results.find(
             (result) => result.error

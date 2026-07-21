@@ -11,8 +11,6 @@ import {
     getVocabularyKanjis,
 } from "@/server/services/vocabulary/vocabulary.service"
 
-import { getRelatedVocabulariesFromDatabase } from "@/server/services/vocabulary/related-vocabulary.service"
-
 type Props = {
     params: Promise<{
         id: string
@@ -62,18 +60,9 @@ export default async function VocabularyDetailPage({
         ? await getVocabularyById(vocabularyId)
         : null
 
-    const relatedResult = vocabulary
-        ? await getRelatedVocabulariesFromDatabase(vocabulary.word)
-        : {
-            results: [],
-            error: null,
-        }
-
     const kanjiDetails = vocabulary
         ? await getVocabularyKanjis(vocabulary.word)
         : []
-
-    const relatedVocabularies = relatedResult.results
 
     const content = (
         <main
@@ -98,7 +87,6 @@ export default async function VocabularyDetailPage({
                 <VocabularyDetailContent
                     vocabulary={vocabulary}
                     language={language}
-                    relatedVocabularies={relatedVocabularies}
                     kanjiDetails={kanjiDetails}
                     embedded={isEmbedded}
                 />

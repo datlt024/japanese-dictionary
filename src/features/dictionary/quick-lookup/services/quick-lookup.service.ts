@@ -7,13 +7,6 @@ import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
 import type { VocabularyKanjiDetail } from "@/server/services/vocabulary/vocabulary.service"
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
-type RelatedVocabulary = {
-    id: number
-    word: string
-    kana: string | null
-    meaning: string | null
-}
-
 export type QuickLookupKanjiTarget = {
     type: "kanji"
     title: string
@@ -30,7 +23,6 @@ export type QuickLookupTarget =
         type: "vocabulary"
         title: string
         vocabulary: Vocabulary
-        relatedVocabularies: RelatedVocabulary[]
         kanjiDetails: VocabularyKanjiDetail[]
         kanjiTargets: QuickLookupKanjiTarget[]
     }

@@ -211,9 +211,6 @@ function QuickLookupModalInner({
                 <VocabularyDetailContent
                     vocabulary={currentTarget.vocabulary}
                     language="vi"
-                    relatedVocabularies={
-                        currentTarget.relatedVocabularies
-                    }
                     kanjiDetails={currentTarget.kanjiDetails}
                     embedded
                 />

@@ -8,8 +8,6 @@ import {
     getVocabularyKanjis,
 } from "@/server/services/vocabulary/vocabulary.service"
 
-import { getRelatedVocabulariesFromDatabase } from "@/server/services/vocabulary/related-vocabulary.service"
-
 import {
     getKanjiByCharacter,
     getWordsByReadingGroups,
@@ -86,9 +84,7 @@ async function getVocabularyTarget(keyword: string) {
 
     if (!vocabulary) return null
 
-    // Run all three in parallel — they only need vocabulary.word
-    const [relatedResult, kanjiDetails, kanjiTargets] = await Promise.all([
-        getRelatedVocabulariesFromDatabase(vocabulary.word),
+    const [kanjiDetails, kanjiTargets] = await Promise.all([
         getVocabularyKanjis(vocabulary.word),
         createKanjiTargets(vocabulary.word),
     ])
@@ -97,7 +93,6 @@ async function getVocabularyTarget(keyword: string) {
         type: "vocabulary" as const,
         title: vocabulary.word,
         vocabulary,
-        relatedVocabularies: relatedResult.results,
         kanjiDetails,
         kanjiTargets,
     }
@@ -146,15 +141,19 @@ export async function GET(request: NextRequest) {
         )
     }
 
-    const keyword =
-        request.nextUrl.searchParams.get("q")?.trim() || ""
+    const raw = request.nextUrl.searchParams.get("q")?.trim() || ""
 
-    if (!keyword || keyword.length > 200) {
+    if (!raw || raw.length > 200) {
         return NextResponse.json({
             type: "not_found",
             title: "",
         })
     }
+
+    // Normalize to NFC + lowercase so Vietnamese text ("TRÁI" → "trái") hits
+    // the same cache key and matches meaning_vi stored in lowercase.
+    // Japanese characters are unaffected by toLowerCase().
+    const keyword = raw.normalize("NFC").toLowerCase()
 
     const result = await cachedQuickLookup(keyword)
 

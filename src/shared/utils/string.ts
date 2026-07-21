@@ -1,5 +1,5 @@
 export function normalizeKeyword(keyword: string) {
-    return keyword.trim()
+    return keyword.trim().toLowerCase().normalize("NFC")
 }
 
 export function escapeLikePattern(keyword: string) {

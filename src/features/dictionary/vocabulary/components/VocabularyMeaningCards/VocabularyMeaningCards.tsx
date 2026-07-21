@@ -110,9 +110,17 @@ function SynonymRow({
     )
 }
 
+// JMDict suru-verb tags that are already handled as a separate card
+const SURU_VERB_TAGS = new Set(["vs", "vs-i", "vs-s", "vs-c"])
+
+function isNonSuruVerbPos(pos: string): boolean {
+    return pos.startsWith("v") && !SURU_VERB_TAGS.has(pos)
+}
+
 function getPrimaryCardLabel(senses: VocabularySense[]): string {
     if (senses.some((s) => s.part_of_speech?.includes("adj-i"))) return "TÍNH TỪ ĐUÔI い"
     if (senses.some((s) => s.part_of_speech?.includes("adj-na"))) return "TÍNH TỪ ĐUÔI な"
+    if (senses.some((s) => s.part_of_speech?.some(isNonSuruVerbPos))) return "ĐỘNG TỪ"
     return "DANH TỪ"
 }
 

@@ -1001,6 +1001,33 @@ export type Database = {
           },
         ]
       }
+      user_vocabulary_notes: {
+        Row: {
+          id: string
+          user_id: string
+          vocabulary_id: number
+          note_text: string
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          vocabulary_id: number
+          note_text?: string
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          user_id?: string
+          vocabulary_id?: number
+          note_text?: string
+          created_at?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       user_profiles: {
         Row: {
           id: string

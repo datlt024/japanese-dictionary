@@ -25,7 +25,9 @@
     "vocab:enrich-ruby": "python3 -u scripts/generate/enrich-vocabulary-ruby.py",
     "kanji:generate-memory-tips": "tsx --env-file=.env.local scripts/generate/generate-kanji-memory-tips.ts",
     "collocation:generate-vi": "tsx --env-file=.env.local scripts/generate/generate-collocation-vi.ts",
-    "collocation:translate-vi": "python3 -u scripts/generate/translate-collocation-vi.py"
+    "collocation:translate-vi": "python3 -u scripts/generate/translate-collocation-vi.py",
+    "import:relations": "tsx --env-file=.env.local scripts/import/import-jmdict-relations.ts",
+    "import:antonyms": "tsx --env-file=.env.local scripts/import/import-antonyms.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.105.0",

@@ -14,6 +14,7 @@ import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 import { getKanjisByCharacters, searchKanjiByKeyword } from "@/server/repositories/kanji/search-kanji.repository"
 import { searchGrammarsByKeyword } from "@/server/repositories/grammar/search-grammar.repository"
 import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
+import { tryRomajiToHiragana } from "@/shared/utils/japanese"
 
 function createEmptySearchResult(): SearchResult {
     return {
@@ -24,73 +25,103 @@ function createEmptySearchResult(): SearchResult {
     }
 }
 
-function normalizeSearchKeyword(keyword: string) {
-    return keyword.trim()
+function normalizeSearchKeyword(keyword: string): string {
+    const trimmed = keyword.trim()
+    // If input is pure ASCII (romaji), try converting to hiragana for Japanese search
+    if (!/[぀-ヿ一-龯]/.test(trimmed)) {
+        const hiragana = tryRomajiToHiragana(trimmed)
+        if (hiragana) return hiragana
+    }
+    return trimmed
+}
+
+function logSearchError(label: string, error: unknown) {
+    const e = error as Record<string, unknown>
+    console.error(label, e?.message ?? String(error), {
+        code: e?.code,
+        details: e?.details,
+        hint: e?.hint,
+    })
 }
 
 async function searchVocabularyResult(
     keyword: string,
     language: DictionaryLanguage
 ): Promise<VocabularyResult[]> {
-    const { data, error } = await searchVocabulariesByKeyword(
-        keyword,
-        language
-    )
+    try {
+        const { data, error } = await searchVocabulariesByKeyword(
+            keyword,
+            language
+        )
 
-    if (error) {
-        console.error("Vocabulary search error:", error)
+        if (error) {
+            logSearchError("Vocabulary search error:", error)
+            return []
+        }
+
+        return (data ?? []) as VocabularyResult[]
+    } catch (err) {
+        logSearchError("Vocabulary search exception:", err)
         return []
     }
-
-    return (data ?? []) as VocabularyResult[]
 }
 
 async function searchKanjiResult(
     keyword: string
 ): Promise<KanjiSearchItem[]> {
-    const { data, error } = await searchKanjiByKeyword(keyword)
+    try {
+        const { data, error } = await searchKanjiByKeyword(keyword)
 
-    if (error) {
-        console.error("Kanji search error:", error)
-        return []
-    }
+        if (error) {
+            logSearchError("Kanji search error:", error)
+            return []
+        }
 
-    if (data) {
-        return Array.isArray(data)
-            ? data as KanjiSearchItem[]
-            : [data] as KanjiSearchItem[]
-    }
+        if (data) {
+            return Array.isArray(data)
+                ? data as KanjiSearchItem[]
+                : [data] as KanjiSearchItem[]
+        }
 
-    // keyword is multi-char or single kanji not found — extract individual kanji and batch-lookup
-    const chars = Array.from(
-        new Set(
-            Array.from(keyword.matchAll(/[一-龯]/g)).map((m) => m[0])
+        // keyword is multi-char or single kanji not found — extract individual kanji and batch-lookup
+        const chars = Array.from(
+            new Set(
+                Array.from(keyword.matchAll(/[一-龯]/g)).map((m) => m[0])
+            )
         )
-    )
 
-    if (chars.length === 0) return []
+        if (chars.length === 0) return []
 
-    const { data: batchData, error: batchError } = await getKanjisByCharacters(chars)
+        const { data: batchData, error: batchError } = await getKanjisByCharacters(chars)
 
-    if (batchError) {
-        console.error("Kanji batch search error:", batchError)
+        if (batchError) {
+            logSearchError("Kanji batch search error:", batchError)
+            return []
+        }
+
+        return (batchData || []) as KanjiSearchItem[]
+    } catch (err) {
+        logSearchError("Kanji search exception:", err)
         return []
     }
-
-    return (batchData || []) as KanjiSearchItem[]
 }
 
 async function searchGrammarResult(
     keyword: string,
 ): Promise<GrammarSearchItem[]> {
-    const { data, error } = await searchGrammarsByKeyword(keyword)
+    try {
+        const { data, error } = await searchGrammarsByKeyword(keyword)
 
-    if (error) {
-        console.error("Grammar search error:", error)
+        if (error) {
+            logSearchError("Grammar search error:", error)
+            return []
+        }
+
+        return (data ?? []) as GrammarSearchItem[]
+    } catch (err) {
+        logSearchError("Grammar search exception:", err)
         return []
     }
-
-    return (data ?? []) as GrammarSearchItem[]
 }
 
 export async function searchDictionary(
