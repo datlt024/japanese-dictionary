@@ -107,7 +107,7 @@ const cachedFindVocabularyIds = unstable_cache(
         const { data } = await findVocabularyIdsByPrimaryWords(words)
         return data
     },
-    ["daily-vocabulary-ids-v2"],
+    ["daily-vocabulary-ids-v3"],
     { revalidate: 86400 }
 )
 

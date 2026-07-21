@@ -197,64 +197,64 @@ async function importJlptVocab() {
     const readingMap = await loadReadingMap()
     console.log(`Số reading entries: ${readingMap.size}`)
 
-    // Build level → Set<vocabulary_id> assignments
-    const levelIds = new Map<JlptLevel, Set<number>>()
-    for (const level of LEVELS) levelIds.set(level, new Set())
-
     console.log("\n=== Bước 5: Ghép từ JLPT với vocabulary ===")
 
-    // Pass 1: Kanji writing matches (highest priority).
-    // Tanos sometimes lists the same word in multiple levels — e.g. "うれしい" (N4) and
-    // "嬉しい" (N3) both resolve to the same vocab_id. The kanji/writing match is more
-    // authoritative, so we process it first and exclude those IDs from kana-only pass.
-    const writingMatchedIds = new Set<number>()
+    // Conflict-resolution rule: easiest level always wins.
+    //
+    // Tanos lists some words multiple times across levels, e.g.:
+    //   奇麗 (rare kanji form) → N1   vs   きれい (kana form) → N5   → assign N5
+    //   嬉しい (kanji form)    → N3   vs   うれしい (kana form) → N4  → assign N3 (N3 easier? no, N4 easier)
+    //
+    // The rule "easiest wins" correctly handles the 綺麗 case: N5 < N1 kanji level.
+    // For kana matches, they can never raise the level (make it harder);
+    // they can only lower it (make it easier). Writing matches work the same way.
+    //
+    // Implementation: single vocab_id → level map; update only if new match is easier.
+    const LEVEL_RANK: Record<JlptLevel, number> = { N5: 5, N4: 4, N3: 3, N2: 2, N1: 1 }
+    const vocabToLevel = new Map<number, JlptLevel>()
 
+    function assignLevel(id: number, level: JlptLevel) {
+        const current = vocabToLevel.get(id)
+        if (!current || LEVEL_RANK[level] > LEVEL_RANK[current]) {
+            vocabToLevel.set(id, level)
+        }
+    }
+
+    // Writing (kanji) matches — non-kana-only words only
+    let writingCount = 0
     for (const [word, level] of wordMap) {
-        const isKanaOnly = /^[぀-ゟ゠-ヿ]+$/.test(word)
-        if (isKanaOnly) continue
-
+        if (/^[぀-ゟ゠-ヿ]+$/.test(word)) continue
         const ids = writingMap.get(word)
         if (ids) {
             for (const id of ids) {
-                if (!slangIds.has(id)) {
-                    levelIds.get(level)!.add(id)
-                    writingMatchedIds.add(id)
-                }
+                if (!slangIds.has(id)) { assignLevel(id, level); writingCount++ }
             }
         }
     }
-    console.log(`  Pass 1 (kanji/writing): ${writingMatchedIds.size} vocab IDs khớp`)
+    console.log(`  Writing (kanji) matches: ${writingCount} hits, ${vocabToLevel.size} vocab IDs`)
 
-    // Pass 2: Kana-only or reading fallback (skip vocab IDs already matched via writing).
-    let kanaMatchCount = 0
+    // Reading (kana) matches — kana-only words only; can lower level further
+    let readingCount = 0
     for (const [word, level] of wordMap) {
-        const isKanaOnly = /^[぀-ゟ゠-ヿ]+$/.test(word)
-
-        if (!isKanaOnly) {
-            // Kanji words already handled via writing in pass 1
-            if (writingMap.has(word)) continue
-            // No writing entry → try reading fallback (rare, kanji key won't hit reading map)
-        }
-
+        if (!/^[぀-ゟ゠-ヿ]+$/.test(word)) continue
         const ids = readingMap.get(word)
         if (ids) {
             for (const id of ids) {
-                if (!slangIds.has(id) && !writingMatchedIds.has(id)) {
-                    levelIds.get(level)!.add(id)
-                    kanaMatchCount++
-                }
+                if (!slangIds.has(id)) { assignLevel(id, level); readingCount++ }
             }
         }
     }
-    console.log(`  Pass 2 (kana/reading): ${kanaMatchCount} vocab IDs khớp thêm`)
+    console.log(`  Reading (kana) matches: ${readingCount} hits, ${vocabToLevel.size} vocab IDs total`)
 
-    // If a word got assigned multiple levels (because of kana collisions),
-    // the set addition order ensures the last-written level wins.
-    // We process N1→N5, so N5 wins (easier level).
-    // But since we use separate Sets per level, a vocab_id can be in multiple.
-    // Resolve: N5 > N4 > N3 > N2 > N1 (easiest wins).
+    // Distribute into per-level sets
+    const levelIds = new Map<JlptLevel, Set<number>>()
+    for (const level of LEVELS) levelIds.set(level, new Set())
+    for (const [id, level] of vocabToLevel) levelIds.get(level)!.add(id)
+
+    // Easiest-wins conflict resolution already applied via assignLevel.
+    // finalLevelIds just converts sets to arrays for batch DB update.
     const finalLevelIds = new Map<JlptLevel, number[]>()
-    const assigned = new Set<number>()
+    const assigned = new Set<number>()  // kept for compatibility, all IDs are unique here
 
     for (const level of ["N5", "N4", "N3", "N2", "N1"] as JlptLevel[]) {
         const ids: number[] = []
