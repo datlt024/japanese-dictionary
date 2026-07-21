@@ -257,16 +257,18 @@ export default function HandwritingModal({
             return
         }
 
+        let timer: number | null = null
         try {
             window.KanjiCanvas.init(canvasId)
 
-            window.setTimeout(() => {
+            timer = window.setTimeout(() => {
                 window.KanjiCanvas?.erase(canvasId)
                 initializedRef.current = true
             }, 50)
         } catch {
             // ignore vendor canvas errors
         }
+        return () => { if (timer !== null) window.clearTimeout(timer) }
     }, [canvasId, open, scriptsReady])
 
     const modal = (
@@ -387,8 +389,10 @@ export default function HandwritingModal({
                         refPatternsLoadedRef.current = true
                         updateScriptsReady()
                     }
+                    script.onerror = () => { /* suppress window error event */ }
                     document.head.appendChild(script)
                 }}
+                onError={() => { /* suppress window error event */ }}
             />
 
             {mounted ? createPortal(modal, document.body) : null}

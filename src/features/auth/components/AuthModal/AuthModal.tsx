@@ -3,6 +3,8 @@
 import {
     FormEvent,
     useEffect,
+    useLayoutEffect,
+    useRef,
     useState,
 } from "react"
 
@@ -30,14 +32,15 @@ export default function AuthModal({ open, onClose }: AuthModalProps) {
     const [sent, setSent] = useState(false)
     const [resendCooldown, setResendCooldown] = useState(0)
 
+    const handleCloseRef = useRef<() => void>(null!)
+
     useEffect(() => {
         if (!open) return
         function handleKey(e: KeyboardEvent) {
-            if (e.key === "Escape") handleClose()
+            if (e.key === "Escape") handleCloseRef.current()
         }
         document.addEventListener("keydown", handleKey)
         return () => document.removeEventListener("keydown", handleKey)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [open])
 
     useEffect(() => {
@@ -60,6 +63,7 @@ export default function AuthModal({ open, onClose }: AuthModalProps) {
         resetState()
         onClose()
     }
+    useLayoutEffect(() => { handleCloseRef.current = handleClose })
 
     async function handleSendOtp(e: FormEvent) {
         e.preventDefault()

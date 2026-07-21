@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useRef, useEffect, useState } from "react"
+import { useMemo, useRef, useEffect, useLayoutEffect, useState } from "react"
 import { Timer } from "lucide-react"
 import type { ModeProps } from "./practice.types"
 import { MINI_TEST_TIME, MINI_TEST_COUNT } from "./practice.constants"
@@ -22,10 +22,17 @@ export default function MiniTestMode({ items, onFinish, onBack }: ModeProps) {
     const indexRef = useRef(0)
     const questionsRef = useRef(questions)
     const timeLeftRef = useRef(MINI_TEST_TIME)
+    const onFinishRef = useRef(onFinish)
+    const selectTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+    useLayoutEffect(() => { onFinishRef.current = onFinish })
 
     useEffect(() => { knownRef.current = known }, [known])
     useEffect(() => { unknownRef.current = unknown }, [unknown])
     useEffect(() => { indexRef.current = index }, [index])
+
+    useEffect(() => {
+        return () => { if (selectTimerRef.current) clearTimeout(selectTimerRef.current) }
+    }, [])
 
     useEffect(() => {
         const timer = setInterval(() => {
@@ -38,14 +45,13 @@ export default function MiniTestMode({ items, onFinish, onBack }: ModeProps) {
                     const remaining = questionsRef.current
                         .slice(indexRef.current)
                         .map((q) => q.id)
-                    onFinish(knownRef.current, [...unknownRef.current, ...remaining], MINI_TEST_TIME)
+                    onFinishRef.current(knownRef.current, [...unknownRef.current, ...remaining], MINI_TEST_TIME)
                     return 0
                 }
                 return next
             })
         }, 1000)
         return () => clearInterval(timer)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const current = questions[index]
@@ -66,11 +72,12 @@ export default function MiniTestMode({ items, onFinish, onBack }: ModeProps) {
         const newKnown = isKnown ? [...knownRef.current, current.id] : knownRef.current
         const newUnknown = isKnown ? unknownRef.current : [...unknownRef.current, current.id]
 
-        setTimeout(() => {
+        if (selectTimerRef.current) clearTimeout(selectTimerRef.current)
+        selectTimerRef.current = setTimeout(() => {
             if (index + 1 >= questions.length && !finishedRef.current) {
                 finishedRef.current = true
                 const timeTaken = MINI_TEST_TIME - timeLeftRef.current
-                onFinish(newKnown, newUnknown, timeTaken)
+                onFinishRef.current(newKnown, newUnknown, timeTaken)
             } else {
                 setKnown(newKnown)
                 setUnknown(newUnknown)

@@ -110,6 +110,12 @@ function SynonymRow({
     )
 }
 
+function getPrimaryCardLabel(senses: VocabularySense[]): string {
+    if (senses.some((s) => s.part_of_speech?.includes("adj-i"))) return "TÍNH TỪ ĐUÔI い"
+    if (senses.some((s) => s.part_of_speech?.includes("adj-na"))) return "TÍNH TỪ ĐUÔI な"
+    return "DANH TỪ"
+}
+
 export default function VocabularyMeaningCards({
     vocabulary,
     language,
@@ -118,20 +124,23 @@ export default function VocabularyMeaningCards({
     hasSuruVerb,
     synonyms,
 }: Props) {
+    const effectiveNounSenses = nounSenses.length > 0 ? nounSenses : suruVerbSenses
+    const showNumbers = hasSuruVerb
+    const primaryCardLabel = getPrimaryCardLabel(effectiveNounSenses)
+
     return (
         <div className={styles.meaningGrid}>
             <div
                 className={[
                     styles.meaningCard,
                     styles.meaningCardBlue,
-                    hasSuruVerb ? "" : styles.meaningCardFull,
+                    !hasSuruVerb ? styles.meaningCardFull : "",
                 ].join(" ")}
             >
                 <div className={styles.meaningCardHeader}>
                     <div className={styles.meaningTitleRow}>
-                        <span className={styles.meaningOrder}>1.</span>
-                        <h2>DANH TỪ</h2>
-                        <span className={styles.posBadge}>n</span>
+                        {showNumbers && <span className={styles.meaningOrder}>1.</span>}
+                        <h2>{primaryCardLabel}</h2>
                     </div>
 
                     <ActionButtons
@@ -144,7 +153,7 @@ export default function VocabularyMeaningCards({
                     />
                 </div>
 
-                <MeaningList senses={nounSenses} language={language} />
+                <MeaningList senses={effectiveNounSenses} language={language} />
 
                 <SynonymRow synonyms={synonyms} language={language} />
             </div>
@@ -155,8 +164,6 @@ export default function VocabularyMeaningCards({
                         <div className={styles.meaningTitleRow}>
                             <span className={styles.meaningOrder}>2.</span>
                             <h2>ĐỘNG TỪ</h2>
-                            <span className={styles.posBadgeGreen}>vs</span>
-                            <span className={styles.posBadgeGreen}>vt</span>
                         </div>
 
                         <ActionButtons

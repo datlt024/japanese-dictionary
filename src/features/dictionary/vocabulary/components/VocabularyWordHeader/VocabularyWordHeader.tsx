@@ -31,7 +31,6 @@ import type {
 type Props = {
     vocabulary: Vocabulary
     meaning: string
-    hasSuruVerb: boolean
     verbGroupLabel: string | null
     pitch?: number | null
 }
@@ -155,7 +154,6 @@ function WordWithFurigana({
 export default function VocabularyWordHeader({
     vocabulary,
     meaning,
-    hasSuruVerb,
     verbGroupLabel,
     pitch = null,
 }: Props) {
@@ -195,12 +193,6 @@ export default function VocabularyWordHeader({
                         {vocabulary.is_common && (
                             <span className={styles.commonBadge}>
                                 Từ thông dụng
-                            </span>
-                        )}
-
-                        {hasSuruVerb && (
-                            <span className={styles.verbBadge}>
-                                vs
                             </span>
                         )}
 

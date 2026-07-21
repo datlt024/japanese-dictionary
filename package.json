@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "import:jmdict": "tsx scripts/import/import-jmdict.ts",
+    "import:jlpt-vocab": "tsx --env-file=.env.local scripts/import/import-jlpt-vocab.ts",
     "import:kanjidic": "tsx scripts/import/import-kanjidic.ts",
     "import:grammars": "tsx scripts/import/import-grammars.ts",
     "build:kanji-links": "tsx scripts/build/build-kanji-links.ts",

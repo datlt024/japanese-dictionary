@@ -76,7 +76,6 @@ export default function VocabularyDetailContent({
                 <VocabularyWordHeader
                     vocabulary={vocabulary}
                     meaning={getHeaderMeaning(vocabulary, language)}
-                    hasSuruVerb={hasSuruVerb}
                     verbGroupLabel={verbGroupLabel}
                     pitch={
                         vocabulary.readings.find((r) => r.is_primary)?.pitch
@@ -85,18 +84,22 @@ export default function VocabularyDetailContent({
                     }
                 />
 
-                <VocabularyMeaningCards
-                    vocabulary={vocabulary}
-                    language={language}
-                    nounSenses={
-                        hasSuruVerb
-                            ? nounSenses
-                            : vocabulary.senses
-                    }
-                    suruVerbSenses={suruVerbSenses}
-                    hasSuruVerb={hasSuruVerb}
-                    synonyms={getRelationVocabularyList(synonyms)}
-                />
+                <div className={styles.detailSection}>
+                    <h2>Nghĩa</h2>
+
+                    <VocabularyMeaningCards
+                        vocabulary={vocabulary}
+                        language={language}
+                        nounSenses={
+                            hasSuruVerb
+                                ? nounSenses
+                                : vocabulary.senses
+                        }
+                        suruVerbSenses={suruVerbSenses}
+                        hasSuruVerb={hasSuruVerb}
+                        synonyms={getRelationVocabularyList(synonyms)}
+                    />
+                </div>
 
                 {conjugations.length > 0 && (
                     <div className={styles.detailSection}>

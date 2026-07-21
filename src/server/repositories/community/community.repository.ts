@@ -27,11 +27,27 @@ export async function listComments(
     const orderCol = sort === "likes" ? "likes_count" : "created_at"
     return supabase
         .from("word_comments")
-        .select("id, user_id, content, likes_count, created_at, user_profiles(display_name, jlpt_level)")
+        .select("id, user_id, content, likes_count, created_at")
         .eq("entry_type", entryType)
         .eq("entry_id", entryId)
         .order(orderCol, { ascending: false })
         .range(offset, offset + limit - 1)
+}
+
+export async function getProfilesByUserIds(
+    supabase: Client,
+    userIds: string[],
+): Promise<Record<string, { display_name: string; jlpt_level: string | null }>> {
+    if (userIds.length === 0) return {}
+    const { data } = await supabase
+        .from("user_profiles")
+        .select("id, display_name, jlpt_level")
+        .in("id", userIds)
+    const map: Record<string, { display_name: string; jlpt_level: string | null }> = {}
+    for (const row of data ?? []) {
+        map[row.id] = { display_name: row.display_name, jlpt_level: row.jlpt_level ?? null }
+    }
+    return map
 }
 
 export async function countComments(
@@ -56,7 +72,7 @@ export async function createComment(
     return supabase
         .from("word_comments")
         .insert({ user_id: userId, entry_type: entryType, entry_id: entryId, content })
-        .select("id, user_id, content, likes_count, created_at, user_profiles(display_name, jlpt_level)")
+        .select("id, user_id, content, likes_count, created_at")
         .single()
 }
 

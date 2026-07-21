@@ -140,6 +140,7 @@ export default function DailyVocabularySectionClient({ items }: Props) {
     const [loadingWord, setLoadingWord] = useState<string | null>(null)
     const cacheRef = useRef(new Map<string, QuickLookupTarget>())
     const pendingRef = useRef(new Map<string, Promise<QuickLookupTarget>>())
+    const activeWordRef = useRef<string | null>(null)
 
     const visible = items.slice(0, VISIBLE_COUNT)
 
@@ -176,13 +177,16 @@ export default function DailyVocabularySectionClient({ items }: Props) {
         }
 
         // Open modal immediately with loading state, reuse in-flight fetch
+        activeWordRef.current = item.word
         setLookupTarget(null)
         setLoadingWord(item.word)
         setLookupOpen(true)
 
         const target = await fetchAndCache(item.word)
-        setLookupTarget(target)
-        setLoadingWord(null)
+        if (activeWordRef.current === item.word) {
+            setLookupTarget(target)
+            setLoadingWord(null)
+        }
     }
 
     function handleCardHover(item: DailyVocabularyItem) {
@@ -190,6 +194,7 @@ export default function DailyVocabularySectionClient({ items }: Props) {
     }
 
     function handleClose() {
+        activeWordRef.current = null
         setLookupOpen(false)
         setLookupTarget(null)
         setLoadingWord(null)

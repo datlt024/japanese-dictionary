@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useRef, useEffect, useState } from "react"
+import { useMemo, useRef, useEffect, useLayoutEffect, useState } from "react"
 import type { ModeProps } from "./practice.types"
 import { shuffle, getAnswerText } from "./practice.utils"
 import { PracticeHeader, ProgressBar, TypeBadge } from "./PracticeShared"
@@ -15,8 +15,12 @@ export default function QuizMode({ items, onFinish, onBack }: ModeProps) {
 
     const knownRef = useRef<string[]>([])
     const unknownRef = useRef<string[]>([])
+    const onFinishRef = useRef(onFinish)
+    const selectTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+    useLayoutEffect(() => { onFinishRef.current = onFinish })
     useEffect(() => { knownRef.current = known }, [known])
     useEffect(() => { unknownRef.current = unknown }, [unknown])
+    useEffect(() => () => { if (selectTimerRef.current) clearTimeout(selectTimerRef.current) }, [])
 
     const current = shuffled[index]
     const correctAnswer = getAnswerText(current)
@@ -36,9 +40,10 @@ export default function QuizMode({ items, onFinish, onBack }: ModeProps) {
         const newKnown = isKnown ? [...knownRef.current, current.id] : knownRef.current
         const newUnknown = isKnown ? unknownRef.current : [...unknownRef.current, current.id]
 
-        setTimeout(() => {
+        if (selectTimerRef.current) clearTimeout(selectTimerRef.current)
+        selectTimerRef.current = setTimeout(() => {
             if (index + 1 >= shuffled.length) {
-                onFinish(newKnown, newUnknown)
+                onFinishRef.current(newKnown, newUnknown)
             } else {
                 setKnown(newKnown)
                 setUnknown(newUnknown)

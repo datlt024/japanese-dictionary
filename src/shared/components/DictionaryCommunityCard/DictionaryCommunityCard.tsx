@@ -110,15 +110,19 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
     useEffect(() => {
         if (!user || authLoading || profileFetched.current) return
         profileFetched.current = true
+        let cancelled = false
 
         fetch("/api/profile")
             .then((r) => r.json())
             .then((profile: { display_name: string; jlpt_level: string | null } | null) => {
+                if (cancelled) return
                 if (profile?.display_name) setDisplayName(profile.display_name)
                 if (profile?.jlpt_level) setJlptLevel(profile.jlpt_level)
                 setProfileLoaded(true)
             })
-            .catch(() => setProfileLoaded(true))
+            .catch(() => { if (!cancelled) setProfileLoaded(true) })
+
+        return () => { cancelled = true }
     }, [user, authLoading])
 
     function handleSortChange(sort: SortOrder) {
@@ -158,10 +162,14 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
 
     async function handleDelete(commentId: string) {
         if (!confirm("Xóa bình luận này?")) return
-        const res = await fetch(`/api/comments/${commentId}`, { method: "DELETE" })
-        if (res.ok) {
-            setComments((cur) => cur.filter((c) => c.id !== commentId))
-            setTotal((t) => t - 1)
+        try {
+            const res = await fetch(`/api/comments/${commentId}`, { method: "DELETE" })
+            if (res.ok) {
+                setComments((cur) => cur.filter((c) => c.id !== commentId))
+                setTotal((t) => t - 1)
+            }
+        } catch {
+            // network error — comment stays visible
         }
     }
 

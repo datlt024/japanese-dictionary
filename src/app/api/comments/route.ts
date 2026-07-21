@@ -6,6 +6,7 @@ import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 import {
     countComments,
     createComment,
+    getProfilesByUserIds,
     getUserLikedCommentIds,
     listComments,
     upsertProfile,
@@ -52,12 +53,14 @@ export async function GET(request: NextRequest) {
     const comments = commentsResult.data ?? []
     const total = countResult.count ?? 0
 
-    let likedIds: string[] = []
-    if (user && comments.length > 0) {
-        const commentIds = comments.map((c) => c.id)
-        const likesResult = await getUserLikedCommentIds(supabase, user.id, commentIds)
-        likedIds = (likesResult.data ?? []).map((r) => r.comment_id)
-    }
+    const userIds = [...new Set(comments.map((c) => c.user_id))]
+    const [profileMap, likedIds] = await Promise.all([
+        getProfilesByUserIds(supabase, userIds),
+        user && comments.length > 0
+            ? getUserLikedCommentIds(supabase, user.id, comments.map((c) => c.id))
+                .then((r) => (r.data ?? []).map((r) => r.comment_id))
+            : Promise.resolve([] as string[]),
+    ])
 
     return NextResponse.json({
         comments: comments.map((c) => ({
@@ -66,8 +69,8 @@ export async function GET(request: NextRequest) {
             content: c.content,
             likes_count: c.likes_count,
             created_at: c.created_at,
-            display_name: (c.user_profiles as unknown as { display_name: string; jlpt_level: string | null } | null)?.display_name ?? "Ẩn danh",
-            jlpt_level: (c.user_profiles as unknown as { display_name: string; jlpt_level: string | null } | null)?.jlpt_level ?? null,
+            display_name: profileMap[c.user_id]?.display_name ?? "Ẩn danh",
+            jlpt_level: profileMap[c.user_id]?.jlpt_level ?? null,
             liked_by_me: likedIds.includes(c.id),
             is_mine: user?.id === c.user_id,
         })),
@@ -116,16 +119,14 @@ export async function POST(request: NextRequest) {
         return serverError(error, "POST /api/comments")
     }
 
-    const profile = data.user_profiles as unknown as { display_name: string; jlpt_level: string | null } | null
-
     return NextResponse.json({
         id: data.id,
         user_id: data.user_id,
         content: data.content,
         likes_count: data.likes_count,
         created_at: data.created_at,
-        display_name: profile?.display_name ?? displayName,
-        jlpt_level: profile?.jlpt_level ?? jlptLevel,
+        display_name: displayName,
+        jlpt_level: jlptLevel,
         liked_by_me: false,
         is_mine: true,
     }, { status: 201 })

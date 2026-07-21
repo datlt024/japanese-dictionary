@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo, useEffect, useRef } from "react"
+import { useState, useMemo, useEffect, useLayoutEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 import {
     ArrowLeft,
@@ -75,16 +75,17 @@ export default function FlashCardMode({
         setFlipped(false)
     }
 
+    const keyHandlerRef = useRef<{ skip: () => void; prev: () => void }>(null!)
+
     useEffect(() => {
         function handleKey(e: KeyboardEvent) {
             if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
-            if (e.key === "ArrowRight") handleSkip()
-            else if (e.key === "ArrowLeft") goPrev()
+            if (e.key === "ArrowRight") keyHandlerRef.current.skip()
+            else if (e.key === "ArrowLeft") keyHandlerRef.current.prev()
         }
         document.addEventListener("keydown", handleKey)
         return () => document.removeEventListener("keydown", handleKey)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [index, shuffled.length, ratings])
+    }, [])
 
     const seen = Object.keys(ratings).length
     const correct = Object.values(ratings).filter((r) => r === "normal" || r === "easy").length
@@ -127,6 +128,7 @@ export default function FlashCardMode({
             setFlipped(false)
         }
     }
+    useLayoutEffect(() => { keyHandlerRef.current = { skip: handleSkip, prev: goPrev } })
 
     function handleEndSession() {
         const { known, unknown } = buildResult(ratings)

@@ -3,6 +3,7 @@
 import {
     FormEvent,
     useEffect,
+    useLayoutEffect,
     useRef,
     useState,
 } from "react"
@@ -47,6 +48,7 @@ export default function AddToNotebookModal({
     const [newName, setNewName] = useState("")
     const [createLoading, setCreateLoading] = useState(false)
     const createInputRef = useRef<HTMLInputElement>(null)
+    const handleCloseRef = useRef<() => void>(null!)
 
     useEffect(() => {
         if (creating) createInputRef.current?.focus()
@@ -55,11 +57,10 @@ export default function AddToNotebookModal({
     useEffect(() => {
         if (!open) return
         function handleKey(e: KeyboardEvent) {
-            if (e.key === "Escape") handleClose()
+            if (e.key === "Escape") handleCloseRef.current()
         }
         document.addEventListener("keydown", handleKey)
         return () => document.removeEventListener("keydown", handleKey)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [open])
 
     function handleClose() {
@@ -69,6 +70,7 @@ export default function AddToNotebookModal({
         setPendingIds(new Set())
         onClose()
     }
+    useLayoutEffect(() => { handleCloseRef.current = handleClose })
 
     async function toggleNotebook(notebookId: string) {
         if (pendingIds.has(notebookId)) return
