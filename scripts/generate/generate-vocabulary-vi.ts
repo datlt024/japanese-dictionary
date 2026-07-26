@@ -17,7 +17,10 @@ const anthropic = new Anthropic({
     apiKey: process.env.ANTHROPIC_API_KEY!,
 })
 
-const FETCH_LIMIT = parseInt(process.argv[2] ?? "10000", 10)
+const args = process.argv.slice(2)
+const JLPT_ONLY = args.includes("--jlpt")
+const limitArg = args.find((a) => /^\d+$/.test(a))
+const FETCH_LIMIT = limitArg ? parseInt(limitArg, 10) : 10000
 const SENSES_PER_REQUEST = 100
 const REQUESTS_PER_BATCH = 100  // max groups per Batch API call (~1MB payload)
 const MODEL = "claude-haiku-4-5-20251001"
@@ -64,18 +67,18 @@ function chunkArray<T>(arr: T[], size: number): T[][] {
     return chunks
 }
 
-async function fetchPendingSenses(limit: number): Promise<SenseRow[]> {
+async function fetchPendingSenses(limit: number, jlptOnly: boolean): Promise<SenseRow[]> {
     const PAGE_SIZE = 1000
     const allSenses: SenseRow[] = []
     let from = 0
 
-    console.log(`Fetching up to ${limit} pending senses...`)
+    console.log(`Fetching up to ${limit} senses${jlptOnly ? " (JLPT N5–N1 only, including re-translate)" : ""}...`)
 
     while (allSenses.length < limit) {
         const remaining = limit - allSenses.length
         const pageSize = Math.min(PAGE_SIZE, remaining)
 
-        const { data, error } = await supabase
+        let query = supabase
             .from("vocabulary_senses")
             .select(`
                 id,
@@ -89,12 +92,21 @@ async function fetchPendingSenses(limit: number): Promise<SenseRow[]> {
                     jlpt
                 )
             `)
-            .eq("meaning_vi_status", "pending")
             .not("meaning_en", "is", null)
             .order("is_common", { referencedTable: "vocabularies", ascending: false })
             .order("jlpt", { referencedTable: "vocabularies", ascending: false, nullsFirst: false })
             .order("id", { ascending: true })
             .range(from, from + pageSize - 1)
+
+        if (jlptOnly) {
+            query = query
+                .in("meaning_vi_status", ["pending", "machine"])
+                .not("vocabularies.jlpt", "is", null)
+        } else {
+            query = query.eq("meaning_vi_status", "pending")
+        }
+
+        const { data, error } = await query
 
         if (error) {
             console.warn(`  Fetch timeout at offset ${from} (fetched ${allSenses.length} so far): ${error.message}`)
@@ -245,7 +257,7 @@ async function main() {
     const promptPrefix = promptTemplate.slice(0, markerIndex + PROMPT_MARKER.length)
 
     // 1. Fetch pending senses
-    const senses = await fetchPendingSenses(FETCH_LIMIT)
+    const senses = await fetchPendingSenses(FETCH_LIMIT, JLPT_ONLY)
 
     if (senses.length === 0) {
         console.log("No pending senses found.")

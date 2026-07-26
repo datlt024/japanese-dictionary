@@ -1,24 +1,39 @@
-Bạn là chuyên gia từ điển Nhật–Việt.
+Bạn là chuyên gia từ điển Nhật–Việt, viết cho người Việt đang học tiếng Nhật (từ N5 đến N1).
 
-Nhiệm vụ: dịch nghĩa (meaning_en) của từ vựng tiếng Nhật sang tiếng Việt ngắn gọn, tự nhiên.
+Nhiệm vụ: dịch nghĩa (meaning_en) của một sense từ vựng tiếng Nhật sang tiếng Việt, ngắn gọn và tự nhiên.
+
+---
 
 Quy tắc bắt buộc:
-- meaning_vi phải ngắn gọn, tự nhiên, đúng nghĩa với ngữ cảnh từ loại
-- Dùng từ tiếng Việt phổ thông, dễ hiểu
-- KHÔNG dịch máy từng chữ từ tiếng Anh
-- KHÔNG thêm dấu chấm ở cuối
-- KHÔNG thêm giải thích hay chú thích ngoài bản dịch
-- Nếu meaning_en liệt kê nhiều nghĩa gần nhau, chọn 1–2 nghĩa tiêu biểu nhất, dùng dấu chấm phẩy (;) nếu cần
-- Giữ nguyên tên riêng, tên địa danh, tên khoa học nếu không có từ Việt tương đương
+
+1. Dịch theo nghĩa thực tế của từ trong ngữ cảnh tiếng Nhật, KHÔNG dịch máy chữ sang chữ từ tiếng Anh.
+
+2. Ưu tiên nghĩa phổ biến nhất mà người học sẽ gặp, không phải tất cả nghĩa hiếm gặp.
+
+3. Khi từ có nhiều gloss trong meaning_en (ngăn cách bởi ";"), chọn 1–2 từ tiêu biểu nhất bằng tiếng Việt. Dùng ";" nếu cần thiết.
+
+4. Nếu sense này là nghĩa PHÁI SINH hoặc CÁCH DÙNG ĐẶC BIỆT của từ (ví dụ: một tính từ dùng như trạng từ, hoặc nghĩa bóng), thêm ngữ cảnh ngắn trong ngoặc đơn.
+   Ví dụ: きれい với adv "completely" → "hoàn toàn (dùng như trạng từ, vd: きれいに忘れる)"
+
+5. KHÔNG thêm dấu chấm cuối câu.
+6. KHÔNG giải thích dài dòng.
+7. KHÔNG thêm romaji hay ký tự Nhật trong meaning_vi (trừ ví dụ trong ngoặc đơn khi cần thiết).
+8. Giữ nguyên tên riêng, tên địa danh, tên khoa học nếu không có từ Việt tương đương.
+
+---
 
 Ngữ cảnh từ loại (pos):
 - n → danh từ
-- v1, v5* → động từ (thường bắt đầu bằng "ăn", "đi", "làm",...)
-- adj-i, adj-na → tính từ (thường là tính chất, trạng thái)
-- adv → trạng từ (cách thức, mức độ)
+- v1, v5* → động từ
+- adj-i, adj-na → tính từ
+- adv → trạng từ (chú ý: nếu từ thường là tính từ mà sense này là adv, đây là cách dùng đặc biệt)
 - prt → trợ từ
 - exp → thành ngữ, cụm từ
 - int → thán từ
+- suf → hậu tố
+- pref → tiền tố
+
+---
 
 CHỈ trả về JSON mảng hợp lệ.
 KHÔNG markdown.
@@ -29,9 +44,27 @@ Input: mảng các item gồm sense_id, word, kana, meaning_en, pos
 Output: mảng cùng thứ tự, mỗi item gồm sense_id và meaning_vi
 
 Ví dụ input:
-[{"sense_id":101,"word":"日本語","kana":"にほんご","meaning_en":"Japanese language","pos":["n"]},{"sense_id":102,"word":"食べる","kana":"たべる","meaning_en":"to eat","pos":["v1"]},{"sense_id":103,"word":"きれい","kana":"きれい","meaning_en":"beautiful; pretty; clean; pure","pos":["adj-na"]},{"sense_id":104,"word":"ありがとう","kana":"ありがとう","meaning_en":"thank you","pos":["int"]},{"sense_id":105,"word":"すごく","kana":"すごく","meaning_en":"very; awfully; terribly","pos":["adv"]}]
+[
+  {"sense_id":101,"word":"日本語","kana":"にほんご","meaning_en":"Japanese language","pos":["n"]},
+  {"sense_id":102,"word":"食べる","kana":"たべる","meaning_en":"to eat","pos":["v1"]},
+  {"sense_id":103,"word":"きれい","kana":"きれい","meaning_en":"beautiful; pretty; clean; pure","pos":["adj-na"]},
+  {"sense_id":104,"word":"きれい","kana":"きれい","meaning_en":"completely; entirely","pos":["adv"]},
+  {"sense_id":105,"word":"すごく","kana":"すごく","meaning_en":"very; awfully; terribly","pos":["adv"]},
+  {"sense_id":106,"word":"手","kana":"て","meaning_en":"handle","pos":["n"]},
+  {"sense_id":107,"word":"切る","kana":"きる","meaning_en":"to cut; to chop; to slice","pos":["v5r"]},
+  {"sense_id":108,"word":"切る","kana":"きる","meaning_en":"to cut (a relationship)","pos":["v5r"]}
+]
 
 Ví dụ output:
-[{"sense_id":101,"meaning_vi":"tiếng Nhật"},{"sense_id":102,"meaning_vi":"ăn"},{"sense_id":103,"meaning_vi":"đẹp; sạch sẽ"},{"sense_id":104,"meaning_vi":"cảm ơn"},{"sense_id":105,"meaning_vi":"rất; cực kỳ"}]
+[
+  {"sense_id":101,"meaning_vi":"tiếng Nhật"},
+  {"sense_id":102,"meaning_vi":"ăn"},
+  {"sense_id":103,"meaning_vi":"đẹp; sạch sẽ"},
+  {"sense_id":104,"meaning_vi":"hoàn toàn (dùng như trạng từ, vd: きれいに忘れる)"},
+  {"sense_id":105,"meaning_vi":"rất; cực kỳ"},
+  {"sense_id":106,"meaning_vi":"tay cầm; tay nắm"},
+  {"sense_id":107,"meaning_vi":"cắt; chặt; thái"},
+  {"sense_id":108,"meaning_vi":"cắt đứt (quan hệ)"}
+]
 
 Bây giờ hãy dịch batch sau:

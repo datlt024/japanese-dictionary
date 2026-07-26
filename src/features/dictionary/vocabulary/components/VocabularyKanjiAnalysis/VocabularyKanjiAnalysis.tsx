@@ -6,6 +6,7 @@ import Link from "next/link"
 import styles from "./VocabularyKanjiAnalysis.module.css"
 
 import KanjiStrokeOrder from "@/features/dictionary/kanji/components/KanjiStrokeOrder/KanjiStrokeOrder"
+import KanjiStrokeSteps from "@/features/dictionary/kanji/components/KanjiStrokeSteps/KanjiStrokeSteps"
 
 import {
     createKanjiHref,
@@ -98,22 +99,12 @@ export default function VocabularyKanjiAnalysis({
 
                     <div className={styles.strokePreviewGrid}>
                         <KanjiStrokeOrder
-                            key={selectedKanji.kanji}
+                            key={`order-${selectedKanji.kanji}`}
                             kanji={selectedKanji.kanji}
                             className={styles.vocabularyKanjiStroke}
                         />
 
-                        <div className={styles.strokeStepGrid}>
-                            {[1, 2, 3, 4, 5, 6, 7].map((step) => (
-                                <div
-                                    key={`${selectedKanji.kanji}-${step}`}
-                                    className={styles.strokeStep}
-                                >
-                                    <small>{step}</small>
-                                    <span>{selectedKanji.kanji}</span>
-                                </div>
-                            ))}
-                        </div>
+                        <KanjiStrokeSteps key={`steps-${selectedKanji.kanji}`} kanji={selectedKanji.kanji} />
                     </div>
 
                     <div className={styles.kanjiInfoGrid}>
