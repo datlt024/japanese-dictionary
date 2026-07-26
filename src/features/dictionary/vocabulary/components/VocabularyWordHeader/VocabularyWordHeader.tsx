@@ -120,16 +120,19 @@ function WordWithFurigana({
     ruby: VocabularyRubyItem[]
     fallback: string
 }) {
+    const charCount = fallback.length
+    const style = { "--char-count": charCount } as React.CSSProperties
+
     if (ruby.length === 0) {
         return (
-            <h1 className={styles.detailWord}>
+            <h1 className={styles.detailWord} style={style}>
                 {fallback}
             </h1>
         )
     }
 
     return (
-        <h1 className={styles.detailWord}>
+        <h1 className={styles.detailWord} style={style}>
             {ruby.map((item, index) => {
                 if (!item.reading) {
                     return (

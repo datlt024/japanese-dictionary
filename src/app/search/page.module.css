@@ -335,3 +335,25 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* ── No results + Google Translate ── */
+.noResultsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 0 16px;
+    width: 100%;
+}
+
+.noResultsTitle {
+    margin: 0;
+    font-size: 15px;
+    color: var(--color-text-secondary);
+    text-align: center;
+}
+
+.noResultsTitle strong {
+    color: var(--color-text-primary);
+    font-weight: 700;
+}

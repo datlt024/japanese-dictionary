@@ -29,6 +29,7 @@ export async function GET() {
         id: string
         name: string
         description: string | null
+        group_id: string | null
         created_at: string
         updated_at: string
         notebook_items: { count: number }[]
@@ -36,6 +37,7 @@ export async function GET() {
         id: nb.id,
         name: nb.name,
         description: nb.description,
+        group_id: nb.group_id ?? null,
         created_at: nb.created_at,
         updated_at: nb.updated_at,
         item_count: nb.notebook_items?.[0]?.count ?? 0,
@@ -66,7 +68,9 @@ export async function POST(request: NextRequest) {
         ? body.description.trim() || null
         : null
 
-    const { data, error } = await createNotebook(supabase, user.id, name, description ?? undefined)
+    const groupId = typeof body?.group_id === "string" ? body.group_id : null
+
+    const { data, error } = await createNotebook(supabase, user.id, name, description ?? undefined, groupId)
 
     if (error) {
         return serverError(error, "POST /api/notebooks")

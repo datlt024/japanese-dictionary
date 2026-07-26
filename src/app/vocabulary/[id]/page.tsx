@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
-import Link from "next/link"
 
 import styles from "./page.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
+import EmptyState from "@/shared/components/EmptyState/EmptyState"
 import VocabularyDetailContent from "@/features/dictionary/vocabulary/components/VocabularyDetailContent"
 
 import {
@@ -18,6 +18,7 @@ type Props = {
     searchParams?: Promise<{
         lang?: string
         embedded?: string
+        q?: string
     }>
 }
 
@@ -54,6 +55,7 @@ export default async function VocabularyDetailPage({
         resolvedSearchParams.lang === "en" ? "en" : "vi"
 
     const isEmbedded = resolvedSearchParams.embedded === "1"
+    const searchKeyword = resolvedSearchParams.q?.trim() || ""
 
     const vocabularyId = Number(resolvedParams.id)
     const vocabulary = Number.isFinite(vocabularyId)
@@ -75,13 +77,20 @@ export default async function VocabularyDetailPage({
         >
             {!vocabulary ? (
                 <div className={styles.detailMain}>
-                    <h1>Không tìm thấy từ vựng</h1>
-
-                    {!isEmbedded && (
-                        <Link href="/" className={styles.backButton}>
-                            ← Quay lại
-                        </Link>
-                    )}
+                    <EmptyState
+                        title="Không tìm thấy từ vựng"
+                        description={
+                            searchKeyword
+                                ? `Không tìm thấy "${searchKeyword}" trong từ điển. Thử dịch bằng AI để xem ngữ nghĩa đầy đủ.`
+                                : "Từ vựng này không có trong từ điển."
+                        }
+                        backHref={
+                            searchKeyword
+                                ? `/translate?q=${encodeURIComponent(searchKeyword)}`
+                                : (isEmbedded ? undefined : "/")
+                        }
+                        backLabel={searchKeyword ? "Dịch bằng AI" : "Về trang chủ"}
+                    />
                 </div>
             ) : (
                 <VocabularyDetailContent

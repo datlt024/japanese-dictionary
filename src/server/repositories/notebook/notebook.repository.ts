@@ -14,7 +14,7 @@ export async function listNotebooks(supabase: Client) {
 export async function listNotebooksWithItemCount(supabase: Client, userId: string) {
     return supabase
         .from("notebooks")
-        .select("id, name, description, created_at, updated_at, notebook_items(count)")
+        .select("id, name, description, group_id, created_at, updated_at, notebook_items(count)")
         .eq("user_id", userId)
         .order("created_at", { ascending: false })
 }
@@ -22,7 +22,7 @@ export async function listNotebooksWithItemCount(supabase: Client, userId: strin
 export async function getNotebook(supabase: Client, notebookId: string) {
     return supabase
         .from("notebooks")
-        .select("id, name, description, created_at, updated_at")
+        .select("id, name, description, group_id, created_at, updated_at")
         .eq("id", notebookId)
         .single()
 }
@@ -31,12 +31,13 @@ export async function createNotebook(
     supabase: Client,
     userId: string,
     name: string,
-    description?: string
+    description?: string,
+    groupId?: string | null
 ) {
     return supabase
         .from("notebooks")
-        .insert({ user_id: userId, name, description: description ?? null })
-        .select("id, name, description, created_at, updated_at")
+        .insert({ user_id: userId, name, description: description ?? null, group_id: groupId ?? null })
+        .select("id, name, description, group_id, created_at, updated_at")
         .single()
 }
 
@@ -44,14 +45,14 @@ export async function updateNotebook(
     supabase: Client,
     notebookId: string,
     userId: string,
-    fields: { name?: string; description?: string | null }
+    fields: { name?: string; description?: string | null; group_id?: string | null }
 ) {
     return supabase
         .from("notebooks")
         .update(fields)
         .eq("id", notebookId)
         .eq("user_id", userId)
-        .select("id, name, description, created_at, updated_at")
+        .select("id, name, description, group_id, created_at, updated_at")
         .single()
 }
 

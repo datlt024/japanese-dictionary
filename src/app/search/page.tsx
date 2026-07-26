@@ -241,9 +241,9 @@ export default async function SearchPage({ searchParams }: Props) {
                     <EmptyState
                         title="Không tìm thấy kết quả"
                         keyword={keyword}
-                        description={`Không tìm thấy kết quả phù hợp với "${keyword}". Thử từ khóa khác hoặc kiểm tra chính tả.`}
-                        backHref="/"
-                        backLabel="Về trang chủ"
+                        description={`Không tìm thấy "${keyword}" trong từ điển. Thử dịch toàn câu hoặc tra ngữ cảnh khác.`}
+                        backHref={`/translate?q=${encodeURIComponent(keyword)}`}
+                        backLabel="Dịch bằng AI"
                     />
                 ) : (
                     <>

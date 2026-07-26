@@ -1,43 +1,222 @@
 .page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    min-height: 400px;
-    padding: 48px 0;
+    padding: 32px 0 64px;
 }
 
-.inner {
+/* ── Tab bar ─────────────────────────────────────────── */
+
+.tabBar {
+    display: flex;
+    gap: 2px;
+
+    margin-bottom: 28px;
+    padding-bottom: 0;
+
+    border-bottom: 1.5px solid var(--color-border);
+
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.tabBar::-webkit-scrollbar {
+    display: none;
+}
+
+.tabItem {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    padding: 10px 16px;
+    margin-bottom: -1.5px;
+
+    border-bottom: 2.5px solid transparent;
+    border-radius: 0;
+
+    color: var(--color-text-secondary);
+
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+
+    transition: color 0.15s;
+}
+
+.tabItem:hover {
+    color: var(--color-text-primary);
+}
+
+.tabItem[data-active] {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+}
+
+/* ── Tab content ─────────────────────────────────────── */
+
+.tabContent {
+    /* intentionally no padding — each section manages its own */
+}
+
+/* ── Khám phá section ────────────────────────────────── */
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.sectionTitle {
+    margin: 0 0 10px;
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--color-text-primary);
+}
+
+.sectionSubtitle {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+.levelGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+}
+
+.levelCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 20px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 18px;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.levelCard:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 4px 16px rgba(37, 99, 235, 0.1);
+    transform: translateY(-2px);
+}
+
+.levelBadge {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--color-primary);
+}
+
+.levelCard[data-level="N5"] .levelBadge { color: #16a34a; }
+.levelCard[data-level="N4"] .levelBadge { color: #2563eb; }
+.levelCard[data-level="N3"] .levelBadge { color: #7c3aed; }
+.levelCard[data-level="N2"] .levelBadge { color: #d97706; }
+.levelCard[data-level="N1"] .levelBadge { color: #ef4444; }
+
+.levelCard[data-level="N5"]:hover { border-color: #16a34a; box-shadow: 0 4px 16px rgba(22,163,74,0.1); }
+.levelCard[data-level="N4"]:hover { border-color: #2563eb; box-shadow: 0 4px 16px rgba(37,99,235,0.1); }
+.levelCard[data-level="N3"]:hover { border-color: #7c3aed; box-shadow: 0 4px 16px rgba(124,58,237,0.1); }
+.levelCard[data-level="N2"]:hover { border-color: #d97706; box-shadow: 0 4px 16px rgba(217,119,6,0.1); }
+.levelCard[data-level="N1"]:hover { border-color: #ef4444; box-shadow: 0 4px 16px rgba(239,68,68,0.1); }
+
+.levelDesc {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    line-height: 1.55;
+    flex: 1;
+}
+
+.levelMeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.wordCount {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+}
+
+.startLabel {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-primary);
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.levelCard[data-level="N5"] .startLabel { color: #16a34a; }
+.levelCard[data-level="N4"] .startLabel { color: #2563eb; }
+.levelCard[data-level="N3"] .startLabel { color: #7c3aed; }
+.levelCard[data-level="N2"] .startLabel { color: #d97706; }
+.levelCard[data-level="N1"] .startLabel { color: #ef4444; }
+
+.levelCard:hover .startLabel { opacity: 1; }
+
+/* ── Coming soon ─────────────────────────────────────── */
+
+.comingSoon {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
 
-    max-width: 380px;
+    padding: 80px 32px;
+
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 18px;
 
     text-align: center;
 }
 
-.icon {
-    font-size: 56px;
+.comingSoonIcon {
+    font-size: 36px;
+    margin-bottom: 16px;
     line-height: 1;
 }
 
-.title {
-    margin: 0;
-
+.comingSoonTitle {
+    margin: 0 0 8px;
+    font-size: 16px;
+    font-weight: 700;
     color: var(--color-text-primary);
-
-    font-size: 22px;
-    font-weight: 900;
 }
 
-.desc {
+.comingSoonDesc {
     margin: 0;
-
-    color: var(--color-text-secondary);
-
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 1.65;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+/* ── Responsive ──────────────────────────────────────── */
+
+@media (max-width: 900px) {
+    .levelGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 580px) {
+    .levelGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .levelCard[data-level="N1"] {
+        grid-column: span 2;
+    }
+
+    .tabItem {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
 }

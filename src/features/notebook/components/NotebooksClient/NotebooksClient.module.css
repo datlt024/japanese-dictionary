@@ -415,6 +415,324 @@
     background: var(--bg);
 }
 
+/* ── Section actions ── */
+.sectionActions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.addGroupBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    height: 32px;
+    padding: 0 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text2);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.12s, border-color 0.12s, color 0.12s;
+}
+
+.addGroupBtn:hover {
+    background: var(--bg);
+    border-color: var(--color-border-strong);
+    color: var(--text);
+}
+
+/* ── Lists wrap ── */
+.listsWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* ── Group section ── */
+.groupSection {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--card);
+    overflow: hidden;
+}
+
+.groupHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--color-border);
+    background: var(--bg);
+}
+
+.groupToggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    color: var(--text);
+    text-align: left;
+}
+
+.groupFolderIcon {
+    color: var(--color-primary);
+    flex-shrink: 0;
+}
+
+.groupName {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.groupCount {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text3);
+    flex-shrink: 0;
+    margin-left: 4px;
+}
+
+.groupActions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+.groupAddBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.groupAddBtn:hover {
+    background: var(--color-primary-soft);
+}
+
+.groupDeleteBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    color: var(--text3);
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+}
+
+.groupDeleteBtn:hover {
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
+}
+
+.groupDeleteBtn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.groupBody {
+    padding: 16px;
+    background: var(--bg);
+}
+
+/* ── Create form inline (inside group) ── */
+.createFormInline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.createFormIcon {
+    color: var(--text3);
+    flex-shrink: 0;
+}
+
+/* ── Ungrouped section ── */
+.ungroupedSection {
+    /* no special border, just spacing */
+}
+
+.ungroupedLabel {
+    margin: 0 0 12px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ── Card menu ── */
+.cardMenuWrap {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.cardMenuBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text3);
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+}
+
+.cardMenuBtn:hover {
+    background: var(--bg);
+    color: var(--text);
+}
+
+.cardMenuBtn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.cardMenu {
+    position: absolute;
+    bottom: calc(100% + 6px);
+    right: 0;
+    z-index: 100;
+    min-width: 180px;
+    padding: 6px;
+    background: var(--card);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.cardMenuGroup {
+    /* group inside menu */
+}
+
+.cardMenuLabel {
+    margin: 0 0 4px;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text3);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.cardMenuItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.cardMenuItem:hover {
+    background: var(--bg);
+}
+
+.cardMenuItemActive {
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+}
+
+.cardMenuItemDanger {
+    color: var(--color-danger);
+}
+
+.cardMenuItemDanger:hover {
+    background: var(--color-danger-soft);
+}
+
+.cardMenuCheck {
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+.cardMenuDivider {
+    height: 1px;
+    background: var(--color-border);
+    margin: 4px 0;
+}
+
+/* ── Move list (in modal) ── */
+.moveList {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.moveItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid var(--color-border);
+    border-radius: 10px;
+    background: transparent;
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+    transition: border-color 0.12s, background 0.12s;
+}
+
+.moveItem:hover {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+}
+
+.moveItemActive {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+}
+
+.moveCheck {
+    margin-left: auto;
+    font-weight: 800;
+}
+
 /* ── Cards grid ── */
 .cardsGrid {
     display: grid;
@@ -889,6 +1207,123 @@
 
 /* ── Detail view ── */
 .detailWrap { /* inherits from mainCol padding */ }
+
+.detailTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.detailEditBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text3);
+    cursor: pointer;
+    flex-shrink: 0;
+    opacity: 0;
+    transition: opacity 0.12s, background 0.12s, color 0.12s;
+}
+
+.detailLeft:hover .detailEditBtn {
+    opacity: 1;
+}
+
+.detailEditBtn:hover {
+    background: var(--bg);
+    color: var(--color-primary);
+}
+
+.renameTitleForm {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.renameTitleInput {
+    height: 40px;
+    padding: 0 12px;
+    border: 2px solid var(--color-primary);
+    border-radius: 10px;
+    background: var(--card);
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 800;
+    outline: none;
+    min-width: 200px;
+    max-width: 400px;
+    width: auto;
+}
+
+.renameTitleSave {
+    height: 36px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 9px;
+    background: var(--color-primary);
+    color: var(--color-surface);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.renameTitleSave:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.renameTitleSave:not(:disabled):hover {
+    background: var(--color-primary-hover);
+}
+
+.renameTitleCancel {
+    height: 36px;
+    padding: 0 14px;
+    border: 1px solid var(--color-border);
+    border-radius: 9px;
+    background: transparent;
+    color: var(--text2);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.renameTitleCancel:hover {
+    background: var(--bg);
+}
+
+/* ── Rename modal input ── */
+.renameModalInput {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 0 12px;
+    margin-bottom: 16px;
+    border: 1.5px solid var(--color-border);
+    border-radius: 10px;
+    background: var(--color-bg);
+    color: var(--color-text-primary);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.12s;
+}
+
+.renameModalInput:focus {
+    border-color: var(--color-primary);
+}
 
 .detailHeader {
     display: flex;

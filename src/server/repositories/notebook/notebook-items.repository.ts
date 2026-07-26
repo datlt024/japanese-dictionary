@@ -11,7 +11,7 @@ export async function listNotebookItems(supabase: Client, notebookId: string, us
         .select("id, notebook_id, item_type, item_id, added_at")
         .eq("notebook_id", notebookId)
         .eq("user_id", userId)
-        .order("added_at", { ascending: false })
+        .order("added_at", { ascending: true })
 }
 
 export async function addNotebookItem(

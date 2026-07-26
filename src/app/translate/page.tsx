@@ -1,25 +1,35 @@
 import type { Metadata } from "next"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
+import TranslatorClient from "@/features/dictionary/translator/components/TranslatorClient/TranslatorClient"
 
 import styles from "./page.module.css"
 
-export const metadata: Metadata = {
-    title: "Dịch thuật | Yomi",
-    description: "Tính năng dịch thuật tiếng Nhật đang được phát triển.",
+type Props = {
+    searchParams: Promise<{ q?: string }>
 }
 
-export default function TranslatePage() {
+export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
+    const { q } = await searchParams
+    return {
+        title: q ? `Dịch "${q}" | Yomi` : "Dịch Nhật – Việt | Yomi",
+        description: "Công cụ dịch tiếng Nhật sang tiếng Việt với AI, hỗ trợ từ đơn, cụm từ và câu hoàn chỉnh.",
+    }
+}
+
+export default async function TranslatePage({ searchParams }: Props) {
+    const { q } = await searchParams
+    const initialText = q?.trim() ?? ""
+
     return (
-        <AppLayout title="Dịch thuật" hideSearchTabs>
+        <AppLayout title="Dịch" hideSearchTabs>
             <main className={styles.page}>
-                <div className={styles.inner}>
-                    <div className={styles.icon}>🌐</div>
-                    <h1 className={styles.title}>Tính năng đang phát triển</h1>
-                    <p className={styles.desc}>
-                        Công cụ dịch thuật Nhật — Việt đang được xây dựng và sẽ sớm ra mắt.
-                    </p>
-                </div>
+                <header className={styles.header}>
+                    <h1 className={styles.title}>Dịch Nhật – Việt</h1>
+                    <p className={styles.subtitle}>Dịch từ đơn, cụm từ hoặc câu hoàn chỉnh</p>
+                </header>
+
+                <TranslatorClient initialText={initialText} />
             </main>
         </AppLayout>
     )

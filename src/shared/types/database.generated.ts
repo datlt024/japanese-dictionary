@@ -561,7 +561,7 @@ export type Database = {
           },
         ]
       }
-      notebooks: {
+      notebook_groups: {
         Row: {
           created_at: string
           description: string | null
@@ -587,6 +587,44 @@ export type Database = {
           user_id?: string
         }
         Relationships: []
+      }
+      notebooks: {
+        Row: {
+          created_at: string
+          description: string | null
+          group_id: string | null
+          id: string
+          name: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          group_id?: string | null
+          id?: string
+          name: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          group_id?: string | null
+          id?: string
+          name?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "notebooks_group_id_fkey"
+            columns: ["group_id"]
+            isOneToOne: false
+            referencedRelation: "notebook_groups"
+            referencedColumns: ["id"]
+          },
+        ]
       }
       vocabularies: {
         Row: {

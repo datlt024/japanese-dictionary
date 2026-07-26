@@ -8,6 +8,7 @@ type EmptyStateProps = {
     keyword?: string
     backHref?: string
     backLabel?: string
+    googleTranslateKeyword?: string
 }
 
 export default function EmptyState({
@@ -16,7 +17,12 @@ export default function EmptyState({
     keyword,
     backHref = "/",
     backLabel = "Quay lại trang chủ",
+    googleTranslateKeyword,
 }: EmptyStateProps) {
+    const googleTranslateUrl = googleTranslateKeyword
+        ? `https://translate.google.com/?sl=ja&tl=vi&text=${encodeURIComponent(googleTranslateKeyword)}&op=translate`
+        : null
+
     return (
         <div className={styles.emptyState}>
             <div className={styles.emptyStateIllustration}>
@@ -39,12 +45,25 @@ export default function EmptyState({
                     }.`}
             </p>
 
-            <Link
-                href={backHref}
-                className={styles.emptyStateButton}
-            >
-                {backLabel}
-            </Link>
+            <div className={styles.emptyStateActions}>
+                <Link
+                    href={backHref}
+                    className={styles.emptyStateButton}
+                >
+                    {backLabel}
+                </Link>
+
+                {googleTranslateUrl && (
+                    <a
+                        href={googleTranslateUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.googleTranslateButton}
+                    >
+                        Tra trên Google Dịch
+                    </a>
+                )}
+            </div>
         </div>
     )
 }
