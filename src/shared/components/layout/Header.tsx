@@ -39,7 +39,9 @@ export default function Header({
 
     const [authOpen, setAuthOpen] = useState(false)
     const [dropdownOpen, setDropdownOpen] = useState(false)
+    const [bellOpen, setBellOpen] = useState(false)
     const dropdownRef = useRef<HTMLDivElement>(null)
+    const bellRef = useRef<HTMLDivElement>(null)
 
     const { user, loading, signOut } = useAuth()
 
@@ -57,6 +59,17 @@ export default function Header({
         document.addEventListener("mousedown", handleClickOutside)
         return () => document.removeEventListener("mousedown", handleClickOutside)
     }, [dropdownOpen])
+
+    useEffect(() => {
+        if (!bellOpen) return
+        function handleClickOutside(e: MouseEvent) {
+            if (bellRef.current && !bellRef.current.contains(e.target as Node)) {
+                setBellOpen(false)
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside)
+        return () => document.removeEventListener("mousedown", handleClickOutside)
+    }, [bellOpen])
 
     function handleLanguageChange(value: DictionaryLanguage) {
         const params = new URLSearchParams(searchParams.toString())
@@ -161,13 +174,29 @@ export default function Header({
                         <option value="en">{getDictionaryLanguageLabel("en")}</option>
                     </select>
 
-                    <button
-                        type="button"
-                        className={styles.iconButton}
-                        aria-label="Thông báo"
-                    >
-                        <Bell size={17} strokeWidth={2} />
-                    </button>
+                    <div className={styles.bellWrap} ref={bellRef}>
+                        <button
+                            type="button"
+                            className={`${styles.iconButton} ${bellOpen ? styles.iconButtonActive : ""}`}
+                            aria-label="Thông báo"
+                            aria-expanded={bellOpen}
+                            onClick={() => setBellOpen((o) => !o)}
+                        >
+                            <Bell size={17} strokeWidth={2} />
+                        </button>
+
+                        {bellOpen && (
+                            <div className={styles.bellDropdown} role="dialog" aria-label="Thông báo">
+                                <div className={styles.bellDropdownHeader}>
+                                    <span className={styles.bellDropdownTitle}>Thông báo</span>
+                                </div>
+                                <div className={styles.bellEmpty}>
+                                    <Bell size={32} strokeWidth={1.5} className={styles.bellEmptyIcon} />
+                                    <p className={styles.bellEmptyText}>Chưa có thông báo nào</p>
+                                </div>
+                            </div>
+                        )}
+                    </div>
 
                     <Link href="/study?tab=so-tay" className={styles.iconButton} aria-label="Sổ tay & Chuỗi học">
                         🔥
