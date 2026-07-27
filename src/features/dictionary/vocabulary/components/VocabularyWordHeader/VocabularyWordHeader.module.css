@@ -78,6 +78,27 @@
     transform: translateX(.08em);
 }
 
+/* Furigana setting — hide ruby annotation */
+:root[data-furigana="false"] .rubyChar::before {
+    display: none;
+}
+:root[data-furigana="false"] .rubyChar {
+    flex-direction: row;
+    min-width: auto;
+}
+
+/* Romaji display */
+.romajiLine {
+    margin-top: 8px;
+
+    color: var(--color-text-secondary);
+
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--font-body);
+    letter-spacing: 0.04em;
+}
+
 .badgeRow {
     display: flex;
     flex-wrap: wrap;

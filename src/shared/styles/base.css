@@ -69,3 +69,16 @@ select {
     outline: 2px solid var(--color-primary);
     outline-offset: 2px;
 }
+
+/* ── Furigana setting — hides <ruby><rt> globally ── */
+:root[data-furigana="false"] ruby rt {
+    display: none;
+}
+
+/* ── Romaji setting — shows .romajiLine elements ── */
+.romajiLine {
+    display: none;
+}
+:root[data-romaji="true"] .romajiLine {
+    display: block;
+}

@@ -58,6 +58,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi" translate="no" suppressHydrationWarning data-scroll-behavior="smooth">
+      <head>
+        {/* Anti-flash: apply theme + settings before first paint */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{
+var d=document.documentElement;
+var dark=localStorage.getItem('yomi_setting_dark_mode')==='true';
+var fur=localStorage.getItem('yomi_setting_furigana');
+var rom=localStorage.getItem('yomi_setting_romaji')==='true';
+if(dark)d.setAttribute('data-theme','dark');
+else d.setAttribute('data-theme','light');
+if(fur==='false')d.setAttribute('data-furigana','false');
+if(rom)d.setAttribute('data-romaji','true');
+}catch(e){}})();`,
+          }}
+        />
+      </head>
       <body
         className={`${notoSansJP.variable} ${spaceGrotesk.variable}`}
         translate="no"

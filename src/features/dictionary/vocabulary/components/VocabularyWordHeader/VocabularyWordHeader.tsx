@@ -199,6 +199,12 @@ export default function VocabularyWordHeader({
                         />
                     </div>
 
+                    {vocabulary.readings[0]?.romaji && (
+                        <p className={`${styles.romajiLine} romajiLine`}>
+                            {vocabulary.readings[0].romaji}
+                        </p>
+                    )}
+
                     <div className={styles.badgeRow}>
                         {vocabulary.jlpt && (
                             <span className={styles.levelBadge} data-level={vocabulary.jlpt}>

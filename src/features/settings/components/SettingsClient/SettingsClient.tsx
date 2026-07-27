@@ -210,6 +210,19 @@ export default function SettingsClient() {
         pushNotif:  KEY_PUSH_NOTIF,
     }
 
+    function applyDomAttribute(key: keyof Settings, value: Settings[keyof Settings]) {
+        const el = document.documentElement
+        if (key === "darkMode") {
+            el.setAttribute("data-theme", value ? "dark" : "light")
+        } else if (key === "furigana") {
+            if (value) el.removeAttribute("data-furigana")
+            else el.setAttribute("data-furigana", "false")
+        } else if (key === "romaji") {
+            if (value) el.setAttribute("data-romaji", "true")
+            else el.removeAttribute("data-romaji")
+        }
+    }
+
     function update<K extends keyof Settings>(key: K, value: Settings[K]) {
         setSettings((prev) => prev ? { ...prev, [key]: value } : prev)
         if (typeof value === "boolean") {
@@ -218,11 +231,11 @@ export default function SettingsClient() {
         } else {
             localStorage.setItem(KEY_VOICE, String(value))
         }
+        applyDomAttribute(key, value)
     }
 
     function handleDarkMode(v: boolean) {
         update("darkMode", v)
-        document.documentElement.setAttribute("data-theme", v ? "dark" : "light")
     }
 
     function handleEmailNotif(v: boolean) {
