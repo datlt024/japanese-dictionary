@@ -159,7 +159,7 @@ export default function Header({
                         <option value="en">{getDictionaryLanguageLabel("en")}</option>
                     </select>
 
-                    <Link href="/notebooks" className={styles.iconButton} aria-label="Sổ tay & Chuỗi học">
+                    <Link href="/study?tab=so-tay" className={styles.iconButton} aria-label="Sổ tay & Chuỗi học">
                         🔥
                     </Link>
                 </div>

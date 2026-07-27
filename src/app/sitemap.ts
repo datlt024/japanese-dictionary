@@ -34,11 +34,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: "monthly",
             priority: 0.5,
         },
-        {
-            url: `${BASE_URL}/notebooks`,
-            lastModified: new Date(),
-            changeFrequency: "weekly",
-            priority: 0.6,
-        },
     ]
 }

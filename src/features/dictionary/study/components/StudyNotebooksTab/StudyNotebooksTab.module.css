@@ -194,6 +194,22 @@
 .widgetBtn:hover { opacity: 0.87; }
 .widgetBtn:disabled { opacity: 0.4; cursor: default; }
 
+.widgetLink {
+    display: block;
+    width: 100%;
+    padding: 10px 0 0;
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary);
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.12s;
+}
+
+.widgetLink:hover { color: var(--color-primary); }
+
 .streakDays {
     display: flex;
     gap: 6px;
@@ -214,6 +230,81 @@
     font-size: 11px;
     font-weight: 700;
     color: var(--color-text-secondary);
+}
+
+/* ── Group empty placeholder ──────────────────── */
+
+.groupAddPlaceholder {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    width: 100%;
+    padding: 10px 14px;
+
+    border: 1.5px dashed var(--color-border);
+    border-radius: 10px;
+    background: transparent;
+    color: var(--color-text-secondary);
+
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+}
+
+.groupAddPlaceholder:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+/* ── Mẹo nhỏ tip card ─────────────────────────── */
+
+.tipCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    padding: 18px 22px;
+
+    background: var(--color-warning-soft);
+    border: 1px solid var(--color-warning-soft);
+    border-radius: 16px;
+}
+
+.tipLeft {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.tipIcon {
+    color: var(--color-warning);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.tipTitle {
+    margin: 0 0 4px;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--color-warning);
+}
+
+.tipBody {
+    margin: 0;
+    font-size: 13px;
+    color: var(--color-warning);
+    line-height: 1.6;
+}
+
+.tipIllustration {
+    font-size: 44px;
+    flex-shrink: 0;
+    user-select: none;
+    opacity: 0.85;
 }
 
 /* Responsive: hide sidebar on narrow screens */

@@ -22,6 +22,7 @@ import {
     FolderOpen,
     HelpCircle,
     Layers,
+    Lightbulb,
     LogIn,
     MoreHorizontal,
     Pencil,
@@ -889,6 +890,16 @@ export default function StudyNotebooksTab() {
                                                         onMenuToggle={() => setMenuOpenId(menuOpenId === nb.id ? null : nb.id)}
                                                     />
                                                 ))}
+                                                {children.length === 0 && !(creating && createInGroupId === group.id) && (
+                                                    <button
+                                                        type="button"
+                                                        className={styles.groupAddPlaceholder}
+                                                        onClick={() => { setCreateInGroupId(group.id); setCreating(true); setNewName("") }}
+                                                    >
+                                                        <Plus size={14} />
+                                                        Thêm sổ tay
+                                                    </button>
+                                                )}
                                             </div>
                                         </div>
                                     )}
@@ -923,6 +934,18 @@ export default function StudyNotebooksTab() {
                         )}
                     </div>
                 )}
+
+                {/* ── Mẹo nhỏ ── */}
+                <div className={styles.tipCard}>
+                    <div className={styles.tipLeft}>
+                        <Lightbulb size={20} className={styles.tipIcon} />
+                        <div>
+                            <p className={styles.tipTitle}>Mẹo nhỏ</p>
+                            <p className={styles.tipBody}>Ôn tập đều mỗi ngày giúp bạn ghi nhớ lâu hơn đến 90%!</p>
+                        </div>
+                    </div>
+                    <div className={styles.tipIllustration} aria-hidden>📖</div>
+                </div>
                 </main>
 
                 <aside className={styles.sideCol}>
@@ -943,6 +966,15 @@ export default function StudyNotebooksTab() {
                             <BookOpen size={14} />
                             Bắt đầu ôn tập
                         </button>
+                        {notebooks.length > 0 && (
+                            <button
+                                type="button"
+                                className={styles.widgetLink}
+                                onClick={() => { setSelectedId(notebooks[0].id); setView("detail") }}
+                            >
+                                Xem chi tiết →
+                            </button>
+                        )}
                     </div>
 
                     {/* Chuỗi học */}

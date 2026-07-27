@@ -29,7 +29,7 @@ const menuItems: MenuItem[] = [
     { href: "/study",     kind: "icon", Icon: BookOpen,   label: "Học tập"  },
     { href: "/translate", kind: "icon", Icon: Languages,  label: "Dịch"     },
     { href: "/kanji",     kind: "char", char: "字",        label: "Hán tự"   },
-    { href: "/notebooks", kind: "icon", Icon: BookMarked, label: "Sổ tay"   },
+    { href: "/study",     kind: "icon", Icon: BookMarked, label: "Sổ tay"   },
     { href: "/settings",  kind: "icon", Icon: Settings,   label: "Cài đặt"  },
 ]
 
