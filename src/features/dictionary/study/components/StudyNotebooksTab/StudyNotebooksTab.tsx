@@ -42,6 +42,8 @@ import { useNotebookItems } from "@/features/notebook/hooks/useNotebookItems"
 import { useStreak, WEEK_DAYS } from "@/features/notebook/hooks/useStreak"
 import { NOTEBOOK_ITEM_TYPE_LABELS } from "@/shared/constants/search-tabs"
 import type { EnrichedNotebookItem, NotebookGroup, NotebookWithCount } from "@/domain/notebook/notebook.type"
+import QuickLookupModal from "@/features/dictionary/quick-lookup/components/QuickLookupModal"
+import { getQuickLookupTarget, type QuickLookupTarget } from "@/features/dictionary/quick-lookup/services/quick-lookup.service"
 import styles from "./StudyNotebooksTab.module.css"
 
 /* ── Constants ─────────────────────────────────────────────── */
@@ -199,6 +201,9 @@ function NotebookDetailView({
     const [editName, setEditName] = useState(notebook.name)
     const [saveLoading, setSaveLoading] = useState(false)
     const editInputRef = useRef<HTMLInputElement>(null)
+    const [modalOpen, setModalOpen] = useState(false)
+    const [modalTarget, setModalTarget] = useState<QuickLookupTarget | null>(null)
+    const [modalLoadingWord, setModalLoadingWord] = useState<string | null>(null)
 
     useEffect(() => {
         if (editingName) editInputRef.current?.focus()
@@ -230,6 +235,21 @@ function NotebookDetailView({
         } finally {
             setRemovingId(null)
         }
+    }
+
+    async function handleOpenItem(item: EnrichedNotebookItem) {
+        setModalTarget(null)
+        setModalLoadingWord(item.display.title)
+        setModalOpen(true)
+        const result = await getQuickLookupTarget(item.display.title, "vi")
+        setModalTarget(result)
+        setModalLoadingWord(null)
+    }
+
+    function handleCloseModal() {
+        setModalOpen(false)
+        setModalTarget(null)
+        setModalLoadingWord(null)
     }
 
     return (
@@ -308,21 +328,41 @@ function NotebookDetailView({
                     </p>
                 </div>
             ) : (
+                <>
                 <ul className={styles.itemGrid}>
                     {items.map((item) => (
                         <li key={item.id} className={styles.itemCard}>
-                            <Link href={item.display.href} className={styles.itemLink}>
-                                <span className={`${styles.typeBadge} ${styles[item.item_type]}`}>
-                                    {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}
-                                </span>
-                                <span className={styles.itemTitle}>{item.display.title}</span>
-                                {item.display.subtitle && (
-                                    <span className={styles.itemSubtitle}>{item.display.subtitle}</span>
-                                )}
-                                {item.display.meaning && (
-                                    <span className={styles.itemMeaning}>{item.display.meaning}</span>
-                                )}
-                            </Link>
+                            {item.item_type === "vocabulary" ? (
+                                <button
+                                    type="button"
+                                    className={styles.itemLink}
+                                    onClick={() => handleOpenItem(item)}
+                                >
+                                    <span className={`${styles.typeBadge} ${styles[item.item_type]}`}>
+                                        {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}
+                                    </span>
+                                    <span className={styles.itemTitle}>{item.display.title}</span>
+                                    {item.display.subtitle && (
+                                        <span className={styles.itemSubtitle}>{item.display.subtitle}</span>
+                                    )}
+                                    {item.display.meaning && (
+                                        <span className={styles.itemMeaning}>{item.display.meaning}</span>
+                                    )}
+                                </button>
+                            ) : (
+                                <Link href={item.display.href} className={styles.itemLink}>
+                                    <span className={`${styles.typeBadge} ${styles[item.item_type]}`}>
+                                        {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}
+                                    </span>
+                                    <span className={styles.itemTitle}>{item.display.title}</span>
+                                    {item.display.subtitle && (
+                                        <span className={styles.itemSubtitle}>{item.display.subtitle}</span>
+                                    )}
+                                    {item.display.meaning && (
+                                        <span className={styles.itemMeaning}>{item.display.meaning}</span>
+                                    )}
+                                </Link>
+                            )}
                             <button
                                 type="button"
                                 className={styles.removeItemBtn}
@@ -335,6 +375,14 @@ function NotebookDetailView({
                         </li>
                     ))}
                 </ul>
+
+                <QuickLookupModal
+                    open={modalOpen}
+                    target={modalTarget}
+                    loadingTitle={modalLoadingWord ?? undefined}
+                    onClose={handleCloseModal}
+                />
+                </>
             )}
         </div>
     )
