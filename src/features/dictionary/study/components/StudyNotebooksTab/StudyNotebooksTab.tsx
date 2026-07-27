@@ -241,7 +241,8 @@ function NotebookDetailView({
         setModalTarget(null)
         setModalLoadingWord(item.display.title)
         setModalOpen(true)
-        const result = await getQuickLookupTarget(item.display.title, "vi")
+        const vocabularyId = item.item_type === "vocabulary" ? parseInt(item.item_id, 10) : undefined
+        const result = await getQuickLookupTarget(item.display.title, "vi", vocabularyId)
         setModalTarget(result)
         setModalLoadingWord(null)
     }

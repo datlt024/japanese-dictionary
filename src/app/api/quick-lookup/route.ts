@@ -74,16 +74,7 @@ async function createKanjiTargets(keyword: string) {
     )
 }
 
-async function getVocabularyTarget(keyword: string) {
-    const { data, error } = await cachedSearchVocabularies(keyword)
-
-    if (error || !data?.length) return null
-
-    const firstVocabulary = data[0]
-    const vocabulary = await getVocabularyById(firstVocabulary.id)
-
-    if (!vocabulary) return null
-
+async function buildVocabularyTarget(vocabulary: NonNullable<Awaited<ReturnType<typeof getVocabularyById>>>) {
     const [kanjiDetails, kanjiTargets] = await Promise.all([
         getVocabularyKanjis(vocabulary.word),
         createKanjiTargets(vocabulary.word),
@@ -96,6 +87,24 @@ async function getVocabularyTarget(keyword: string) {
         kanjiDetails,
         kanjiTargets,
     }
+}
+
+async function getVocabularyTargetById(id: number) {
+    const vocabulary = await getVocabularyById(id)
+    if (!vocabulary) return null
+    return buildVocabularyTarget(vocabulary)
+}
+
+async function getVocabularyTarget(keyword: string) {
+    const { data, error } = await cachedSearchVocabularies(keyword)
+
+    if (error || !data?.length) return null
+
+    const vocabulary = await getVocabularyById(data[0].id)
+
+    if (!vocabulary) return null
+
+    return buildVocabularyTarget(vocabulary)
 }
 
 async function getKanjiTarget(keyword: string) {
@@ -139,6 +148,19 @@ export async function GET(request: NextRequest) {
                 headers: { "Retry-After": String(Math.ceil((resetAt - Date.now()) / 1000)) },
             }
         )
+    }
+
+    // Direct ID lookup — bypass text search entirely (used by notebook items)
+    const rawId = request.nextUrl.searchParams.get("id")?.trim()
+    if (rawId) {
+        const id = parseInt(rawId, 10)
+        if (!isNaN(id)) {
+            const result = await getVocabularyTargetById(id)
+            return NextResponse.json(
+                result ?? { type: "not_found" as const, title: rawId },
+                { headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" } }
+            )
+        }
     }
 
     const raw = request.nextUrl.searchParams.get("q")?.trim() || ""
