@@ -565,6 +565,10 @@ export default function StudyNotebooksTab() {
 
     const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set())
     const [menuOpenId, setMenuOpenId] = useState<string | null>(null)
+    const [editingGroupId, setEditingGroupId] = useState<string | null>(null)
+    const [editGroupName, setEditGroupName] = useState("")
+    const [renameGroupLoading, setRenameGroupLoading] = useState(false)
+    const editGroupInputRef = useRef<HTMLInputElement>(null)
 
     const SORT_KEY = "notebookSortOrder"
     const VALID_SORTS = ["newest", "oldest", "az", "za"] as const
@@ -687,6 +691,25 @@ export default function StudyNotebooksTab() {
             await Promise.all([mutateGroups(), mutateNotebooks()])
         } finally {
             setDeletingGroupId(null)
+        }
+    }
+
+    async function handleRenameGroup(e: FormEvent) {
+        e.preventDefault()
+        if (!editingGroupId) return
+        const name = editGroupName.trim()
+        if (!name) { setEditingGroupId(null); return }
+        setRenameGroupLoading(true)
+        try {
+            await fetch(`/api/notebook-groups/${editingGroupId}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ name }),
+            })
+            await mutateGroups()
+        } finally {
+            setRenameGroupLoading(false)
+            setEditingGroupId(null)
         }
     }
 
@@ -899,39 +922,70 @@ export default function StudyNotebooksTab() {
                             return (
                                 <div key={group.id} className={styles.groupSection}>
                                     <div className={styles.groupHeader}>
-                                        <button type="button" className={styles.groupToggle} onClick={() => toggleGroup(group.id)}>
-                                            {isExpanded
-                                                ? <ChevronDown size={14} />
-                                                : <ChevronRight size={14} />
-                                            }
-                                            <FolderOpen size={14} className={styles.groupFolderIcon} />
-                                            <span className={styles.groupName}>{group.name}</span>
-                                            <span className={styles.groupCount}>{children.length} sổ tay</span>
-                                        </button>
-                                        <div className={styles.groupActions}>
-                                            <button
-                                                type="button"
-                                                className={styles.groupAddBtn}
-                                                title="Thêm sổ tay vào nhóm"
-                                                onClick={() => {
-                                                    setCreateInGroupId(group.id)
-                                                    setCreating(true)
-                                                    setNewName("")
-                                                    if (!isExpanded) toggleGroup(group.id)
-                                                }}
-                                            >
-                                                <Plus size={13} />
+                                        {editingGroupId === group.id ? (
+                                            <form className={styles.editGroupForm} onSubmit={handleRenameGroup}>
+                                                <input
+                                                    ref={editGroupInputRef}
+                                                    className={styles.editGroupInput}
+                                                    value={editGroupName}
+                                                    onChange={(e) => setEditGroupName(e.target.value)}
+                                                    maxLength={80}
+                                                    disabled={renameGroupLoading}
+                                                    autoFocus
+                                                    onKeyDown={(e) => { if (e.key === "Escape") setEditingGroupId(null) }}
+                                                />
+                                                <button className={styles.createSubmit} type="submit" disabled={!editGroupName.trim() || renameGroupLoading}>
+                                                    {renameGroupLoading ? "..." : "Lưu"}
+                                                </button>
+                                                <button className={styles.createCancel} type="button" onClick={() => setEditingGroupId(null)}>
+                                                    Hủy
+                                                </button>
+                                            </form>
+                                        ) : (
+                                            <>
+                                            <button type="button" className={styles.groupToggle} onClick={() => toggleGroup(group.id)}>
+                                                {isExpanded
+                                                    ? <ChevronDown size={14} />
+                                                    : <ChevronRight size={14} />
+                                                }
+                                                <FolderOpen size={14} className={styles.groupFolderIcon} />
+                                                <span className={styles.groupName}>{group.name}</span>
+                                                <span className={styles.groupCount}>{children.length} sổ tay</span>
                                             </button>
-                                            <button
-                                                type="button"
-                                                className={styles.groupDeleteBtn}
-                                                title="Xóa nhóm"
-                                                onClick={() => setConfirmDeleteGroupId(group.id)}
-                                                disabled={deletingGroupId === group.id}
-                                            >
-                                                <Trash2 size={13} />
-                                            </button>
-                                        </div>
+                                            <div className={styles.groupActions}>
+                                                <button
+                                                    type="button"
+                                                    className={styles.groupAddBtn}
+                                                    title="Đổi tên nhóm"
+                                                    onClick={() => { setEditingGroupId(group.id); setEditGroupName(group.name) }}
+                                                >
+                                                    <Pencil size={13} />
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    className={styles.groupAddBtn}
+                                                    title="Thêm sổ tay vào nhóm"
+                                                    onClick={() => {
+                                                        setCreateInGroupId(group.id)
+                                                        setCreating(true)
+                                                        setNewName("")
+                                                        if (!isExpanded) toggleGroup(group.id)
+                                                    }}
+                                                >
+                                                    <Plus size={13} />
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    className={styles.groupDeleteBtn}
+                                                    title="Xóa nhóm"
+                                                    onClick={() => setConfirmDeleteGroupId(group.id)}
+                                                    disabled={deletingGroupId === group.id}
+                                                >
+                                                    <Trash2 size={13} />
+                                                </button>
+                                            </div>
+                                            </>
+                                        )}
                                     </div>
 
                                     {isExpanded && (

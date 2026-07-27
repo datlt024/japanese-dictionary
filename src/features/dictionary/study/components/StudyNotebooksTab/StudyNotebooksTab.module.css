@@ -599,6 +599,27 @@
 .groupDeleteBtn:hover { background: #fef2f2; color: var(--color-danger, #ef4444); }
 .groupDeleteBtn:disabled { opacity: 0.4; cursor: default; }
 
+.editGroupForm {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+    min-width: 0;
+}
+
+.editGroupInput {
+    flex: 1;
+    min-width: 0;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1.5px solid var(--color-primary);
+    border-radius: 8px;
+    background: var(--color-surface);
+    color: var(--color-text-primary);
+    outline: none;
+}
+
 .groupBody {
     display: flex;
     flex-direction: column;
