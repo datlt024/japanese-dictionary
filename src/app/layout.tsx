@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Script from "next/script"
 import "./globals.css"
 
 import { Noto_Sans_JP, Space_Grotesk } from "next/font/google"
@@ -58,28 +59,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi" translate="no" suppressHydrationWarning data-scroll-behavior="smooth">
-      <head>
-        {/* Anti-flash: apply theme + settings before first paint */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{
-var d=document.documentElement;
-var dark=localStorage.getItem('yomi_setting_dark_mode')==='true';
-var fur=localStorage.getItem('yomi_setting_furigana');
-var rom=localStorage.getItem('yomi_setting_romaji')==='true';
-if(dark)d.setAttribute('data-theme','dark');
-else d.setAttribute('data-theme','light');
-if(fur==='false')d.setAttribute('data-furigana','false');
-if(rom)d.setAttribute('data-romaji','true');
-}catch(e){}})();`,
-          }}
-        />
-      </head>
       <body
         className={`${notoSansJP.variable} ${spaceGrotesk.variable}`}
         translate="no"
         suppressHydrationWarning
       >
+        {/* Anti-flash: apply theme + settings before first paint */}
+        <Script
+          id="settings-init"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var d=document.documentElement,dark=localStorage.getItem('yomi_setting_dark_mode')==='true',fur=localStorage.getItem('yomi_setting_furigana'),rom=localStorage.getItem('yomi_setting_romaji')==='true';d.setAttribute('data-theme',dark?'dark':'light');if(fur==='false')d.setAttribute('data-furigana','false');if(rom)d.setAttribute('data-romaji','true');}catch(e){}})();`,
+          }}
+        />
         <div className={layoutStyles.appLayout}>
           <Sidebar />
           <div className={layoutStyles.appMain}>
