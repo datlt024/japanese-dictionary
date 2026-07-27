@@ -10,6 +10,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import React from "react"
 import {
+    ArrowUpDown,
     BookOpen,
     Briefcase,
     CheckCircle2,
@@ -516,6 +517,7 @@ export default function StudyNotebooksTab() {
 
     const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set())
     const [menuOpenId, setMenuOpenId] = useState<string | null>(null)
+    const [sortOrder, setSortOrder] = useState<"newest" | "oldest" | "az" | "za">("newest")
 
     const createInputRef = useRef<HTMLInputElement>(null)
     const createGroupInputRef = useRef<HTMLInputElement>(null)
@@ -533,9 +535,12 @@ export default function StudyNotebooksTab() {
 
     const selectedNotebook = notebooks.find((nb) => nb.id === selectedId) ?? null
 
-    const sorted = [...notebooks].sort((a, b) =>
-        a.name.localeCompare(b.name, "vi", { sensitivity: "base" })
-    )
+    const sorted = [...notebooks].sort((a, b) => {
+        if (sortOrder === "az") return a.name.localeCompare(b.name, "vi", { sensitivity: "base" })
+        if (sortOrder === "za") return b.name.localeCompare(a.name, "vi", { sensitivity: "base" })
+        if (sortOrder === "oldest") return new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
+        return new Date(b.created_at).getTime() - new Date(a.created_at).getTime() // newest
+    })
     const ungrouped = sorted.filter((nb) => !nb.group_id)
     const byGroup = (gid: string) => sorted.filter((nb) => nb.group_id === gid)
 
@@ -741,18 +746,34 @@ export default function StudyNotebooksTab() {
 
                 {/* ── Toolbar ── */}
                 <div className={styles.toolbar}>
-                    {!creatingGroup && (
-                        <button type="button" className={styles.toolbarBtn} onClick={() => setCreatingGroup(true)}>
-                            <FolderOpen size={13} />
-                            Tạo nhóm
-                        </button>
-                    )}
-                    {!creating && (
-                        <button type="button" className={styles.toolbarBtnPrimary} onClick={() => { setCreating(true); setCreateInGroupId(null) }}>
-                            <Plus size={13} />
-                            Tạo sổ tay
-                        </button>
-                    )}
+                    <div className={styles.sortWrap}>
+                        <ArrowUpDown size={13} className={styles.sortIcon} />
+                        <select
+                            className={styles.sortSelect}
+                            value={sortOrder}
+                            onChange={(e) => setSortOrder(e.target.value as typeof sortOrder)}
+                        >
+                            <option value="newest">Mới nhất</option>
+                            <option value="oldest">Cũ nhất</option>
+                            <option value="az">A → Z</option>
+                            <option value="za">Z → A</option>
+                        </select>
+                    </div>
+
+                    <div className={styles.toolbarRight}>
+                        {!creatingGroup && (
+                            <button type="button" className={styles.toolbarBtn} onClick={() => setCreatingGroup(true)}>
+                                <FolderOpen size={13} />
+                                Tạo nhóm
+                            </button>
+                        )}
+                        {!creating && (
+                            <button type="button" className={styles.toolbarBtnPrimary} onClick={() => { setCreating(true); setCreateInGroupId(null) }}>
+                                <Plus size={13} />
+                                Tạo sổ tay
+                            </button>
+                        )}
+                    </div>
                 </div>
 
                 {/* Form tạo nhóm */}
