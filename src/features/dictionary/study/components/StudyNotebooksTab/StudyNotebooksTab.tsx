@@ -517,7 +517,20 @@ export default function StudyNotebooksTab() {
 
     const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set())
     const [menuOpenId, setMenuOpenId] = useState<string | null>(null)
-    const [sortOrder, setSortOrder] = useState<"newest" | "oldest" | "az" | "za">("newest")
+
+    const SORT_KEY = "notebookSortOrder"
+    const VALID_SORTS = ["newest", "oldest", "az", "za"] as const
+    type SortOrder = typeof VALID_SORTS[number]
+    const [sortOrder, setSortOrder] = useState<SortOrder>(() => {
+        if (typeof window === "undefined") return "newest"
+        const saved = localStorage.getItem(SORT_KEY)
+        return (VALID_SORTS as readonly string[]).includes(saved ?? "") ? saved as SortOrder : "newest"
+    })
+
+    function handleSortChange(order: SortOrder) {
+        setSortOrder(order)
+        localStorage.setItem(SORT_KEY, order)
+    }
 
     const createInputRef = useRef<HTMLInputElement>(null)
     const createGroupInputRef = useRef<HTMLInputElement>(null)
@@ -751,7 +764,7 @@ export default function StudyNotebooksTab() {
                         <select
                             className={styles.sortSelect}
                             value={sortOrder}
-                            onChange={(e) => setSortOrder(e.target.value as typeof sortOrder)}
+                            onChange={(e) => handleSortChange(e.target.value as SortOrder)}
                         >
                             <option value="newest">Mới nhất</option>
                             <option value="oldest">Cũ nhất</option>
