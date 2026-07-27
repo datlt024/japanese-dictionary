@@ -18,6 +18,8 @@ import styles from "./Header.module.css"
 import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
 import { useAuth } from "@/features/auth/hooks/useAuth"
 
+import { Bell } from "lucide-react"
+
 import {
     DictionaryLanguage,
     getDictionaryLanguageLabel,
@@ -158,6 +160,14 @@ export default function Header({
                         <option value="vi">{getDictionaryLanguageLabel("vi")}</option>
                         <option value="en">{getDictionaryLanguageLabel("en")}</option>
                     </select>
+
+                    <button
+                        type="button"
+                        className={styles.iconButton}
+                        aria-label="Thông báo"
+                    >
+                        <Bell size={17} strokeWidth={2} />
+                    </button>
 
                     <Link href="/study?tab=so-tay" className={styles.iconButton} aria-label="Sổ tay & Chuỗi học">
                         🔥
