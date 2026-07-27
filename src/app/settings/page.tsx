@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function SettingsPage() {
     return (
-        <AppLayout title="Cài đặt" hideSearchTabs>
+        <AppLayout title="Cài đặt" hideSearch>
             <main className={styles.page}>
                 <SettingsClient />
             </main>
