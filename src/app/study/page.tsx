@@ -1,11 +1,15 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import dynamic from "next/dynamic"
 import { BookOpen, Compass, Library, ClipboardList } from "lucide-react"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
-import StudyNotebooksTab from "@/features/dictionary/study/components/StudyNotebooksTab/StudyNotebooksTab"
 import { getAllJlptCounts } from "@/server/services/study/jlpt-study.service"
 import styles from "./page.module.css"
+
+const StudyNotebooksTab = dynamic(
+    () => import("@/features/dictionary/study/components/StudyNotebooksTab/StudyNotebooksTab")
+)
 
 export const metadata: Metadata = {
     title: "Học tập | Yomi",

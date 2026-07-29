@@ -1,3 +1,6 @@
+import { cache } from "react"
+import { unstable_cache } from "next/cache"
+
 import type {
     Vocabulary,
     VocabularyCollocation,
@@ -6,8 +9,6 @@ import type {
     VocabularyRubyItem,
     VocabularySense,
 } from "@/domain/vocabulary"
-
-import { unstable_cache } from "next/cache"
 
 import {
     findKanjisByCharacters,
@@ -66,9 +67,9 @@ function extractUniqueKanjis(text: string) {
     )
 }
 
-export async function getVocabularyById(
+export const getVocabularyById = cache(async (
     id: number
-): Promise<Vocabulary | null> {
+): Promise<Vocabulary | null> => {
     if (!Number.isFinite(id)) {
         return null
     }
@@ -151,7 +152,7 @@ export async function getVocabularyById(
             : (relationsResult.data as VocabularyRelation[]) || [],
         examples,
     }
-}
+})
 
 export async function getVocabularyKanjis(
     word: string

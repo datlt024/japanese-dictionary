@@ -1,3 +1,5 @@
+import { cache } from "react"
+
 import type { Database } from "@/shared/types/database.generated"
 import { cleanReading } from "@/shared/utils/japanese"
 import { katakanaToHiragana } from "@/shared/utils/string"
@@ -165,9 +167,9 @@ function sortWordsByLinkOrder(
     )
 }
 
-export async function getKanjiByCharacter(
+export const getKanjiByCharacter = cache(async (
     character: string
-): Promise<Kanji | null> {
+): Promise<Kanji | null> => {
     const { data, error } = await findKanjiByCharacter(character)
 
     if (error) {
@@ -182,7 +184,7 @@ export async function getKanjiByCharacter(
     }
 
     return data
-}
+})
 
 export async function getWordsByKanji(
     character: string

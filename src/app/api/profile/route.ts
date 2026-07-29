@@ -16,6 +16,9 @@ export async function GET() {
         return NextResponse.json(null)
     }
 
+    const rl = rateLimit(`profile-get:${user.id}`, 60, 60_000)
+    if (!rl.ok) return rl.response
+
     const { data } = await getProfile(supabase, user.id)
     return NextResponse.json(data ?? null)
 }

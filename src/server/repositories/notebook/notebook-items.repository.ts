@@ -12,6 +12,7 @@ export async function listNotebookItems(supabase: Client, notebookId: string, us
         .eq("notebook_id", notebookId)
         .eq("user_id", userId)
         .order("added_at", { ascending: true })
+        .limit(500)
 }
 
 export async function addNotebookItem(
@@ -61,4 +62,5 @@ export async function checkItemInNotebooks(
         .eq("user_id", userId)
         .eq("item_type", itemType)
         .eq("item_id", itemId)
+        .limit(100)
 }

@@ -1,3 +1,5 @@
+import { cache } from "react"
+
 import type { GrammarPoint } from "@/domain/grammar"
 import type { GrammarSearchItem } from "@/domain/search"
 
@@ -23,9 +25,9 @@ export async function searchGrammarPoints(
     return (data ?? []) as GrammarSearchItem[]
 }
 
-export async function getGrammarPointById(
+export const getGrammarPointById = cache(async (
     id: string
-): Promise<GrammarPoint | null> {
+): Promise<GrammarPoint | null> => {
     const grammarId = Number(id)
 
     if (Number.isNaN(grammarId)) {
@@ -41,4 +43,4 @@ export async function getGrammarPointById(
     }
 
     return data as GrammarPoint | null
-}
+})

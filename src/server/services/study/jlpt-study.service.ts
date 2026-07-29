@@ -1,3 +1,5 @@
+import { unstable_cache } from "next/cache"
+
 import { supabaseServer } from "@/server/supabase/server"
 
 import type { JlptStudyItem, JlptLevel } from "@/domain/study"
@@ -10,13 +12,17 @@ export function isValidJlptLevel(value: string): value is JlptLevel {
     return JLPT_LEVELS.includes(value as JlptLevel)
 }
 
-export async function getJlptVocabCount(level: JlptLevel): Promise<number> {
-    const { count } = await supabaseServer
-        .from("vocabularies")
-        .select("id", { count: "exact", head: true })
-        .eq("jlpt", level)
-    return count ?? 0
-}
+export const getJlptVocabCount = unstable_cache(
+    async (level: JlptLevel): Promise<number> => {
+        const { count } = await supabaseServer
+            .from("vocabularies")
+            .select("id", { count: "exact", head: true })
+            .eq("jlpt", level)
+        return count ?? 0
+    },
+    ["jlpt-vocab-count"],
+    { revalidate: 86400 }
+)
 
 export async function getJlptStudyBatch(level: JlptLevel, limit = 20): Promise<JlptStudyItem[]> {
     const count = await getJlptVocabCount(level)
@@ -55,9 +61,13 @@ export function shuffleItems<T>(arr: T[]): T[] {
     return a
 }
 
-export async function getAllJlptCounts(): Promise<Record<JlptLevel, number>> {
-    const results = await Promise.all(
-        JLPT_LEVELS.map(async (level) => [level, await getJlptVocabCount(level)] as const)
-    )
-    return Object.fromEntries(results) as Record<JlptLevel, number>
-}
+export const getAllJlptCounts = unstable_cache(
+    async (): Promise<Record<JlptLevel, number>> => {
+        const results = await Promise.all(
+            JLPT_LEVELS.map(async (level) => [level, await getJlptVocabCount(level)] as const)
+        )
+        return Object.fromEntries(results) as Record<JlptLevel, number>
+    },
+    ["jlpt-all-counts"],
+    { revalidate: 86400 }
+)

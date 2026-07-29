@@ -12,7 +12,7 @@ function parseVocabularyId(id: string) {
 }
 
 export async function GET(
-    _request: NextRequest,
+    request: NextRequest,
     { params }: RouteContext
 ) {
     const { id } = await params
@@ -28,6 +28,10 @@ export async function GET(
     if (!user) {
         return NextResponse.json({ note: null })
     }
+
+    const ip = getClientIp(request)
+    const rl = rateLimit(`note-get:${user.id}:${ip}`, 60, 60_000)
+    if (!rl.ok) return rl.response
 
     const { data, error } = await supabase
         .from("user_vocabulary_notes")

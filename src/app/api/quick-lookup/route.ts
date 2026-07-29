@@ -89,11 +89,15 @@ async function buildVocabularyTarget(vocabulary: NonNullable<Awaited<ReturnType<
     }
 }
 
-async function getVocabularyTargetById(id: number) {
-    const vocabulary = await getVocabularyById(id)
-    if (!vocabulary) return null
-    return buildVocabularyTarget(vocabulary)
-}
+const cachedGetVocabularyTargetById = unstable_cache(
+    async (id: number) => {
+        const vocabulary = await getVocabularyById(id)
+        if (!vocabulary) return null
+        return buildVocabularyTarget(vocabulary)
+    },
+    ["quick-lookup-vocab-by-id"],
+    { revalidate: 3600 }
+)
 
 async function getVocabularyTarget(keyword: string) {
     const { data, error } = await cachedSearchVocabularies(keyword)
@@ -155,7 +159,7 @@ export async function GET(request: NextRequest) {
     if (rawId) {
         const id = parseInt(rawId, 10)
         if (!isNaN(id)) {
-            const result = await getVocabularyTargetById(id)
+            const result = await cachedGetVocabularyTargetById(id)
             return NextResponse.json(
                 result ?? { type: "not_found" as const, title: rawId },
                 { headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" } }
