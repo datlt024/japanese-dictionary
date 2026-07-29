@@ -14,9 +14,7 @@ import {
     getKanjiStrokeCount,
 } from "@/features/dictionary/vocabulary/utils"
 
-import type {
-    VocabularyKanjiDetail,
-} from "@/server/services/vocabulary/vocabulary.service"
+import type { VocabularyKanjiDetail } from "@/domain/vocabulary"
 
 type Props = {
     vocabularyWord: string

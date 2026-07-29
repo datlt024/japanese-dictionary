@@ -7,10 +7,13 @@ import type {
     VocabularySense,
 } from "@/domain/vocabulary"
 
+import { unstable_cache } from "next/cache"
+
 import {
     findKanjisByCharacters,
     findVocabularyBaseById,
     findVocabularyExamplesByVocabularyId,
+    findVocabularyIdsByPrimaryWords,
     findVocabularyReadingsByVocabularyId,
     findVocabularySensesByVocabularyId,
     findVocabularyWritingsByVocabularyId,
@@ -24,18 +27,8 @@ import {
     findVocabularyRelationsByVocabularyId,
 } from "@/server/repositories/vocabulary/vocabulary-relation.repository"
 
-export type VocabularyKanjiDetail = {
-    id: number
-    kanji: string
-    meaning_vi: string | null
-    meaning_en: string | null
-    onyomi: string | null
-    kunyomi: string | null
-    stroke_count: number | null
-    jlpt: number | null
-    grade: number | null
-    frequency: number | null
-}
+import type { VocabularyKanjiDetail } from "@/domain/vocabulary"
+export type { VocabularyKanjiDetail }
 
 function toVocabularyRubyItem(value: unknown): VocabularyRubyItem | null {
     if (typeof value !== "object" || value === null) return null
@@ -184,3 +177,12 @@ export async function getVocabularyKanjis(
         )
         .filter(Boolean) as VocabularyKanjiDetail[]
 }
+
+export const getDailyVocabularyIds = unstable_cache(
+    async (words: string[]) => {
+        const { data } = await findVocabularyIdsByPrimaryWords(words)
+        return data
+    },
+    ["daily-vocabulary-ids-v3"],
+    { revalidate: 86400 }
+)

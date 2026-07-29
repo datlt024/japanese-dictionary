@@ -4,7 +4,7 @@ import type {
 } from "@/domain/kanji"
 
 import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
-import type { VocabularyKanjiDetail } from "@/server/services/vocabulary/vocabulary.service"
+import type { VocabularyKanjiDetail } from "@/domain/vocabulary"
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
 export type QuickLookupKanjiTarget = {

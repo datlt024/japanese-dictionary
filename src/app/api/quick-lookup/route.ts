@@ -11,7 +11,7 @@ import {
 import {
     getKanjiByCharacter,
     getWordsByReadingGroups,
-} from "@/features/dictionary/kanji/services/kanji.service"
+} from "@/server/services/kanji/kanji.service"
 
 import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
 import { extractKanjis } from "@/features/dictionary/kanji/utils"

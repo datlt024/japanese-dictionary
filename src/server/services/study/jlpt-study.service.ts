@@ -1,14 +1,10 @@
 import { supabaseServer } from "@/server/supabase/server"
 
-export type JlptStudyItem = {
-    id: number
-    word: string
-    kana: string | null
-    meaning: string | null
-}
+import type { JlptStudyItem, JlptLevel } from "@/domain/study"
+import { JLPT_LEVELS } from "@/domain/study"
 
-export const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"] as const
-export type JlptLevel = (typeof JLPT_LEVELS)[number]
+export type { JlptStudyItem, JlptLevel }
+export { JLPT_LEVELS }
 
 export function isValidJlptLevel(value: string): value is JlptLevel {
     return JLPT_LEVELS.includes(value as JlptLevel)

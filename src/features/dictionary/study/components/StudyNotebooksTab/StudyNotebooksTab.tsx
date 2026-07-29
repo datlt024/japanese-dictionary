@@ -193,13 +193,14 @@ function NotebookDetailView({
     onBack: () => void
     onDelete: () => void
     onPractice: () => void
-    onRename: (newName: string) => Promise<void>
+    onRename: (newName: string) => Promise<string | null>
 }) {
     const { items, loading, mutate } = useNotebookItems(notebook.id)
     const [removingId, setRemovingId] = useState<string | null>(null)
     const [editingName, setEditingName] = useState(false)
     const [editName, setEditName] = useState(notebook.name)
     const [saveLoading, setSaveLoading] = useState(false)
+    const [renameError, setRenameError] = useState<string | null>(null)
     const editInputRef = useRef<HTMLInputElement>(null)
     const [modalOpen, setModalOpen] = useState(false)
     const [modalTarget, setModalTarget] = useState<QuickLookupTarget | null>(null)
@@ -214,11 +215,13 @@ function NotebookDetailView({
         const name = editName.trim()
         if (!name || name === notebook.name) { setEditingName(false); return }
         setSaveLoading(true)
+        setRenameError(null)
         try {
-            await onRename(name)
+            const err = await onRename(name)
+            if (err) { setRenameError(err); return }
+            setEditingName(false)
         } finally {
             setSaveLoading(false)
-            setEditingName(false)
         }
     }
 
@@ -266,19 +269,20 @@ function NotebookDetailView({
                         <form className={styles.renameTitleForm} onSubmit={handleSaveName}>
                             <input
                                 ref={editInputRef}
-                                className={styles.renameTitleInput}
+                                className={`${styles.renameTitleInput} ${renameError ? styles.renameTitleInputError : ""}`}
                                 value={editName}
-                                onChange={(e) => setEditName(e.target.value)}
+                                onChange={(e) => { setEditName(e.target.value); setRenameError(null) }}
                                 maxLength={80}
                                 disabled={saveLoading}
                                 onKeyDown={(e) => {
-                                    if (e.key === "Escape") { setEditingName(false); setEditName(notebook.name) }
+                                    if (e.key === "Escape") { setEditingName(false); setEditName(notebook.name); setRenameError(null) }
                                 }}
                             />
+                            {renameError && <span className={styles.renameTitleError}>{renameError}</span>}
                             <button type="submit" className={styles.renameTitleSave} disabled={!editName.trim() || saveLoading}>
                                 {saveLoading ? "..." : "Lưu"}
                             </button>
-                            <button type="button" className={styles.renameTitleCancel} onClick={() => { setEditingName(false); setEditName(notebook.name) }}>
+                            <button type="button" className={styles.renameTitleCancel} onClick={() => { setEditingName(false); setEditName(notebook.name); setRenameError(null) }}>
                                 Hủy
                             </button>
                         </form>
@@ -443,9 +447,11 @@ function RenameModal({
 }: {
     currentName: string
     onClose: () => void
-    onSave: (name: string) => void
+    onSave: (name: string) => Promise<string | null>
 }) {
     const [name, setName] = useState(currentName)
+    const [error, setError] = useState<string | null>(null)
+    const [saving, setSaving] = useState(false)
     const inputRef = useRef<HTMLInputElement>(null)
 
     useEffect(() => { inputRef.current?.focus(); inputRef.current?.select() }, [])
@@ -455,11 +461,19 @@ function RenameModal({
         return () => window.removeEventListener("keydown", onKey)
     }, [onClose])
 
-    function handleSubmit(e: FormEvent) {
+    async function handleSubmit(e: FormEvent) {
         e.preventDefault()
         const trimmed = name.trim()
         if (!trimmed || trimmed === currentName) { onClose(); return }
-        onSave(trimmed)
+        setSaving(true)
+        setError(null)
+        const err = await onSave(trimmed)
+        setSaving(false)
+        if (err) {
+            setError(err)
+        } else {
+            onClose()
+        }
     }
 
     return (
@@ -472,15 +486,19 @@ function RenameModal({
                 <form style={{ width: "100%" }} onSubmit={handleSubmit}>
                     <input
                         ref={inputRef}
-                        className={styles.renameModalInput}
+                        className={`${styles.renameModalInput} ${error ? styles.renameModalInputError : ""}`}
                         value={name}
-                        onChange={(e) => setName(e.target.value)}
+                        onChange={(e) => { setName(e.target.value); setError(null) }}
                         maxLength={80}
                         placeholder="Tên sổ tay..."
+                        disabled={saving}
                     />
+                    {error && <p className={styles.formError}>{error}</p>}
                     <div className={styles.confirmActions}>
                         <button type="button" className={styles.confirmCancel} onClick={onClose}>Hủy</button>
-                        <button type="submit" className={styles.confirmOk} disabled={!name.trim()}>Lưu</button>
+                        <button type="submit" className={styles.confirmOk} disabled={!name.trim() || saving}>
+                            {saving ? "..." : "Lưu"}
+                        </button>
                     </div>
                 </form>
             </div>
@@ -556,6 +574,8 @@ export default function StudyNotebooksTab() {
     const [newGroupName, setNewGroupName] = useState("")
     const [createGroupLoading, setCreateGroupLoading] = useState(false)
 
+    const [createError, setCreateError] = useState<string | null>(null)
+
     const [practiceId, setPracticeId] = useState<string | null>(null)
     const [renameId, setRenameId] = useState<string | null>(null)
     const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null)
@@ -601,14 +621,47 @@ export default function StudyNotebooksTab() {
 
     const selectedNotebook = notebooks.find((nb) => nb.id === selectedId) ?? null
 
+    function normalizeForSort(name: string): string {
+        const kanjiMap: Record<string, number> = {
+            "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4,
+            "五": 5, "六": 6, "七": 7, "八": 8, "九": 9,
+            "十": 10, "百": 100, "千": 1000,
+        }
+        return name.replace(/[〇一二三四五六七八九十百千]+/g, (match) => {
+            let value = 0
+            let current = 0
+            for (const ch of match) {
+                const v = kanjiMap[ch]
+                if (v === undefined) break
+                if (v >= 10) {
+                    value += (current === 0 ? 1 : current) * v
+                    current = 0
+                } else {
+                    current = v
+                }
+            }
+            return String(value + current)
+        })
+    }
+
+    function compareByName(a: string, b: string) {
+        return normalizeForSort(a).localeCompare(normalizeForSort(b), ["vi", "ja", "en"], { numeric: true, caseFirst: "lower" })
+    }
+
     const sorted = [...notebooks].sort((a, b) => {
-        if (sortOrder === "az") return a.name.localeCompare(b.name, "vi", { sensitivity: "base" })
-        if (sortOrder === "za") return b.name.localeCompare(a.name, "vi", { sensitivity: "base" })
+        if (sortOrder === "az") return compareByName(a.name, b.name)
+        if (sortOrder === "za") return compareByName(b.name, a.name)
         if (sortOrder === "oldest") return new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
-        return new Date(b.created_at).getTime() - new Date(a.created_at).getTime() // newest
+        return new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
     })
     const ungrouped = sorted.filter((nb) => !nb.group_id)
     const byGroup = (gid: string) => sorted.filter((nb) => nb.group_id === gid)
+
+    const sortedGroups = [...groups].sort((a, b) => {
+        if (sortOrder === "az") return compareByName(a.name, b.name)
+        if (sortOrder === "za") return compareByName(b.name, a.name)
+        return 0
+    })
 
     function toggleGroup(id: string) {
         setCollapsedGroups((prev) => {
@@ -629,6 +682,11 @@ export default function StudyNotebooksTab() {
         e.preventDefault()
         const name = newName.trim()
         if (!name || createLoading) return
+        if (notebooks.some((nb) => nb.name.toLowerCase() === name.toLowerCase())) {
+            setCreateError("Tên sổ tay đã tồn tại.")
+            return
+        }
+        setCreateError(null)
         setCreateLoading(true)
         try {
             const res = await fetch("/api/notebooks", {
@@ -714,14 +772,18 @@ export default function StudyNotebooksTab() {
         }
     }
 
-    async function handleRenameNotebook(notebookId: string, name: string) {
-        setRenameId(null)
+    async function handleRenameNotebook(notebookId: string, name: string): Promise<string | null> {
+        if (notebooks.some((nb) => nb.id !== notebookId && nb.name.toLowerCase() === name.toLowerCase())) {
+            return "Tên sổ tay đã tồn tại."
+        }
         await fetch(`/api/notebooks/${notebookId}`, {
             method: "PATCH",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name }),
         })
         await mutateNotebooks()
+        setRenameId(null)
+        return null
     }
 
     async function handleMoveNotebook(notebookId: string, groupId: string | null) {
@@ -885,23 +947,26 @@ export default function StudyNotebooksTab() {
 
                 {/* Form tạo sổ tay (không nhóm) */}
                 {creating && createInGroupId === null && (
-                    <form className={styles.createForm} onSubmit={(e) => handleCreate(e, null)}>
-                        <input
-                            ref={createInputRef}
-                            className={styles.createInput}
-                            placeholder="Tên sổ tay..."
-                            value={newName}
-                            onChange={(e) => setNewName(e.target.value)}
-                            maxLength={80}
-                            disabled={createLoading}
-                        />
-                        <button className={styles.createSubmit} type="submit" disabled={!newName.trim() || createLoading}>
-                            {createLoading ? "..." : "Tạo"}
-                        </button>
-                        <button className={styles.createCancel} type="button" onClick={() => { setCreating(false); setNewName("") }}>
-                            Hủy
-                        </button>
-                    </form>
+                    <div>
+                        <form className={styles.createForm} onSubmit={(e) => handleCreate(e, null)}>
+                            <input
+                                ref={createInputRef}
+                                className={`${styles.createInput} ${createError ? styles.createInputError : ""}`}
+                                placeholder="Tên sổ tay..."
+                                value={newName}
+                                onChange={(e) => { setNewName(e.target.value); setCreateError(null) }}
+                                maxLength={80}
+                                disabled={createLoading}
+                            />
+                            <button className={styles.createSubmit} type="submit" disabled={!newName.trim() || createLoading}>
+                                {createLoading ? "..." : "Tạo"}
+                            </button>
+                            <button className={styles.createCancel} type="button" onClick={() => { setCreating(false); setNewName(""); setCreateError(null) }}>
+                                Hủy
+                            </button>
+                        </form>
+                        {createError && <p className={styles.formError}>{createError}</p>}
+                    </div>
                 )}
 
                 {notebooks.length === 0 && !creating ? (
@@ -917,7 +982,7 @@ export default function StudyNotebooksTab() {
                 ) : (
                     <div className={styles.lists}>
                         {/* Nhóm */}
-                        {groups.map((group) => {
+                        {sortedGroups.map((group) => {
                             const children = byGroup(group.id)
                             const isExpanded = !collapsedGroups.has(group.id)
                             return (
@@ -992,24 +1057,27 @@ export default function StudyNotebooksTab() {
                                     {isExpanded && (
                                         <div className={styles.groupBody}>
                                             {creating && createInGroupId === group.id && (
-                                                <form className={styles.createFormInline} onSubmit={(e) => handleCreate(e, group.id)}>
-                                                    <input
-                                                        ref={createInputRef}
-                                                        className={styles.createInput}
-                                                        placeholder="Tên sổ tay..."
-                                                        value={newName}
-                                                        onChange={(e) => setNewName(e.target.value)}
-                                                        maxLength={80}
-                                                        disabled={createLoading}
-                                                        autoFocus
-                                                    />
-                                                    <button className={styles.createSubmit} type="submit" disabled={!newName.trim() || createLoading}>
-                                                        {createLoading ? "..." : "Tạo"}
-                                                    </button>
-                                                    <button className={styles.createCancel} type="button" onClick={() => { setCreating(false); setCreateInGroupId(null); setNewName("") }}>
-                                                        Hủy
-                                                    </button>
-                                                </form>
+                                                <div>
+                                                    <form className={styles.createFormInline} onSubmit={(e) => handleCreate(e, group.id)}>
+                                                        <input
+                                                            ref={createInputRef}
+                                                            className={`${styles.createInput} ${createError ? styles.createInputError : ""}`}
+                                                            placeholder="Tên sổ tay..."
+                                                            value={newName}
+                                                            onChange={(e) => { setNewName(e.target.value); setCreateError(null) }}
+                                                            maxLength={80}
+                                                            disabled={createLoading}
+                                                            autoFocus
+                                                        />
+                                                        <button className={styles.createSubmit} type="submit" disabled={!newName.trim() || createLoading}>
+                                                            {createLoading ? "..." : "Tạo"}
+                                                        </button>
+                                                        <button className={styles.createCancel} type="button" onClick={() => { setCreating(false); setCreateInGroupId(null); setNewName(""); setCreateError(null) }}>
+                                                            Hủy
+                                                        </button>
+                                                    </form>
+                                                    {createError && <p className={styles.formError}>{createError}</p>}
+                                                </div>
                                             )}
                                             <div className={styles.grid}>
                                                 {children.map((nb, i) => (
@@ -1163,6 +1231,7 @@ export default function StudyNotebooksTab() {
                     />
                 ) : null
             })()}
+
 
             {confirmDeleteId !== null && (
                 <ConfirmDialog

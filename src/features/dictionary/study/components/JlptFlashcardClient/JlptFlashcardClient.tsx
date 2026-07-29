@@ -4,7 +4,7 @@ import { useState, useCallback, useLayoutEffect, useRef } from "react"
 import Link from "next/link"
 import { ArrowLeft, Volume2, ChevronLeft, ChevronRight, RefreshCw } from "lucide-react"
 
-import type { JlptStudyItem, JlptLevel } from "@/server/services/study/jlpt-study.service"
+import type { JlptStudyItem, JlptLevel } from "@/domain/study"
 import { RATINGS, type Rating } from "@/features/notebook/components/PracticeClient/practice.constants"
 import styles from "./JlptFlashcardClient.module.css"
 

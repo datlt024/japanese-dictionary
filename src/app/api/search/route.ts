@@ -1,7 +1,7 @@
 import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 
-import { searchDictionary } from "@/features/dictionary/search/services/search.service"
+import { searchDictionary } from "@/server/services/search/search.service"
 import { checkRateLimit, getClientIp } from "@/shared/utils/rate-limit"
 
 import {

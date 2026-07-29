@@ -6,6 +6,7 @@ import { rateLimit } from "@/shared/utils/rate-limit"
 import {
     createNotebook,
     listNotebooksWithItemCount,
+    type NotebookWithCount,
 } from "@/server/repositories/notebook/notebook.repository"
 
 export async function GET() {
@@ -25,15 +26,7 @@ export async function GET() {
         return serverError(error, "GET /api/notebooks")
     }
 
-    const transformed = (data as unknown as Array<{
-        id: string
-        name: string
-        description: string | null
-        group_id: string | null
-        created_at: string
-        updated_at: string
-        notebook_items: { count: number }[]
-    }> ?? []).map((nb) => ({
+    const transformed = (data as unknown as NotebookWithCount[] ?? []).map((nb) => ({
         id: nb.id,
         name: nb.name,
         description: nb.description,

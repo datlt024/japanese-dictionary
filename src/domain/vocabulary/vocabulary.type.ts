@@ -72,3 +72,16 @@ export type Vocabulary = {
     relations: VocabularyRelation[]
     examples: VocabularyExample[]
 }
+
+export type VocabularyKanjiDetail = {
+    id: number
+    kanji: string
+    meaning_vi: string | null
+    meaning_en: string | null
+    onyomi: string | null
+    kunyomi: string | null
+    stroke_count: number | null
+    jlpt: number | null
+    grade: number | null
+    frequency: number | null
+}

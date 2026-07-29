@@ -4,6 +4,16 @@ import type { Database } from "@/shared/types/database.generated"
 
 type Client = SupabaseClient<Database>
 
+export type NotebookWithCount = {
+    id: string
+    name: string
+    description: string | null
+    group_id: string | null
+    created_at: string
+    updated_at: string
+    notebook_items: { count: number }[]
+}
+
 export async function listNotebooks(supabase: Client) {
     return supabase
         .from("notebooks")

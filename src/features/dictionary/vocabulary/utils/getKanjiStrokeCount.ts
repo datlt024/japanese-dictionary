@@ -1,11 +1,5 @@
-import type {
-    VocabularyKanjiDetail,
-} from "@/server/services/vocabulary/vocabulary.service"
+import type { VocabularyKanjiDetail } from "@/domain/vocabulary"
 
 export function getKanjiStrokeCount(kanji: VocabularyKanjiDetail) {
-    return (
-        (kanji as { stroke_count?: number | null }).stroke_count ||
-        (kanji as { strokes?: number | null }).strokes ||
-        null
-    )
+    return kanji.stroke_count ?? null
 }

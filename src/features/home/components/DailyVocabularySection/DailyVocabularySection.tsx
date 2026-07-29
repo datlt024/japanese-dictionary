@@ -1,6 +1,4 @@
-import { unstable_cache } from "next/cache"
-
-import { findVocabularyIdsByPrimaryWords } from "@/server/repositories/vocabulary/vocabulary.repository"
+import { getDailyVocabularyIds } from "@/server/services/vocabulary/vocabulary.service"
 
 import DailyVocabularySectionClient from "./DailyVocabularySectionClient"
 
@@ -102,19 +100,10 @@ function getDailyWords() {
     return result
 }
 
-const cachedFindVocabularyIds = unstable_cache(
-    async (words: string[]) => {
-        const { data } = await findVocabularyIdsByPrimaryWords(words)
-        return data
-    },
-    ["daily-vocabulary-ids-v3"],
-    { revalidate: 86400 }
-)
-
 export default async function DailyVocabularySection() {
     const WORD_CONFIGS = getDailyWords()
     const words = WORD_CONFIGS.map((w) => w.word)
-    const rows = await cachedFindVocabularyIds(words)
+    const rows = await getDailyVocabularyIds(words)
 
     const idMap = new Map<string, number>()
     const jlptMap = new Map<string, string | null>()

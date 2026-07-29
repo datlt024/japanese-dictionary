@@ -97,6 +97,45 @@ export default function Header({
                 </div>
 
                 <div className={styles.appHeaderActions}>
+                    <select
+                        className={styles.languageSelect}
+                        value={language}
+                        onChange={(event) =>
+                            handleLanguageChange(event.target.value as DictionaryLanguage)
+                        }
+                    >
+                        <option value="vi">{getDictionaryLanguageLabel("vi")}</option>
+                        <option value="en">{getDictionaryLanguageLabel("en")}</option>
+                    </select>
+
+                    <div className={styles.bellWrap} ref={bellRef}>
+                        <button
+                            type="button"
+                            className={`${styles.iconButton} ${bellOpen ? styles.iconButtonActive : ""}`}
+                            aria-label="Thông báo"
+                            aria-expanded={bellOpen}
+                            onClick={() => setBellOpen((o) => !o)}
+                        >
+                            <Bell size={17} strokeWidth={2} />
+                        </button>
+
+                        {bellOpen && (
+                            <div className={styles.bellDropdown} role="dialog" aria-label="Thông báo">
+                                <div className={styles.bellDropdownHeader}>
+                                    <span className={styles.bellDropdownTitle}>Thông báo</span>
+                                </div>
+                                <div className={styles.bellEmpty}>
+                                    <Bell size={32} strokeWidth={1.5} className={styles.bellEmptyIcon} />
+                                    <p className={styles.bellEmptyText}>Chưa có thông báo nào</p>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+
+                    <Link href="/study?tab=so-tay" className={styles.iconButton} aria-label="Sổ tay & Chuỗi học">
+                        🔥
+                    </Link>
+
                     {!loading && (
                         user ? (
                             <div className={styles.userMenu} ref={dropdownRef}>
@@ -162,45 +201,6 @@ export default function Header({
                             </>
                         )
                     )}
-
-                    <select
-                        className={styles.languageSelect}
-                        value={language}
-                        onChange={(event) =>
-                            handleLanguageChange(event.target.value as DictionaryLanguage)
-                        }
-                    >
-                        <option value="vi">{getDictionaryLanguageLabel("vi")}</option>
-                        <option value="en">{getDictionaryLanguageLabel("en")}</option>
-                    </select>
-
-                    <div className={styles.bellWrap} ref={bellRef}>
-                        <button
-                            type="button"
-                            className={`${styles.iconButton} ${bellOpen ? styles.iconButtonActive : ""}`}
-                            aria-label="Thông báo"
-                            aria-expanded={bellOpen}
-                            onClick={() => setBellOpen((o) => !o)}
-                        >
-                            <Bell size={17} strokeWidth={2} />
-                        </button>
-
-                        {bellOpen && (
-                            <div className={styles.bellDropdown} role="dialog" aria-label="Thông báo">
-                                <div className={styles.bellDropdownHeader}>
-                                    <span className={styles.bellDropdownTitle}>Thông báo</span>
-                                </div>
-                                <div className={styles.bellEmpty}>
-                                    <Bell size={32} strokeWidth={1.5} className={styles.bellEmptyIcon} />
-                                    <p className={styles.bellEmptyText}>Chưa có thông báo nào</p>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-
-                    <Link href="/study?tab=so-tay" className={styles.iconButton} aria-label="Sổ tay & Chuỗi học">
-                        🔥
-                    </Link>
                 </div>
             </header>
 

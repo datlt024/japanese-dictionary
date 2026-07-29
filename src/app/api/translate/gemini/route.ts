@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
+import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 
 const GEMINI_MODEL = "models/gemini-flash-lite-latest"
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/${GEMINI_MODEL}:generateContent`
@@ -32,6 +33,9 @@ Văn bản: ${text}`
 }
 
 export async function POST(request: NextRequest) {
+    const rl = rateLimit(`gemini:${getClientIp(request)}`, 10, 60_000)
+    if (!rl.ok) return rl.response
+
     const apiKey = process.env.GEMINI_API_KEY
     if (!apiKey) return new NextResponse(null, { status: 503 })
 

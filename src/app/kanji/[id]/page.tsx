@@ -9,7 +9,7 @@ import { uniqueArray } from "@/shared/utils/array"
 import {
     getKanjiByCharacter,
     getWordsByReadingGroups,
-} from "@/features/dictionary/kanji/services/kanji.service"
+} from "@/server/services/kanji/kanji.service"
 
 import { extractKanjis } from "@/features/dictionary/kanji/utils"
 

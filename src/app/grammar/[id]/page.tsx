@@ -7,7 +7,7 @@ import GrammarDetailContent from "@/features/dictionary/grammar/components/Gramm
 import {
     getGrammarPointById,
     searchGrammarPoints,
-} from "@/features/dictionary/grammar/services/grammar.service"
+} from "@/server/services/grammar/grammar.service"
 
 type Props = {
     params: Promise<{ id: string }>

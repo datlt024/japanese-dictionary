@@ -15,6 +15,8 @@ import {
     isJapaneseKeyword,
 } from "@/shared/utils/japanese"
 
+import { deinflectKeyword } from "@/shared/utils/deinflect"
+
 type VocabularySearchRow = {
     id: number
 }
@@ -26,7 +28,12 @@ function getJapaneseSearchKeywords(value: string) {
         keywords.push(value.slice(0, -2))
     }
 
-    return Array.from(new Set(keywords))
+    for (const candidate of deinflectKeyword(value)) {
+        keywords.push(candidate)
+    }
+
+    // Cap at 8 to avoid too many parallel Supabase RPC calls
+    return Array.from(new Set(keywords)).slice(0, 8)
 }
 
 function mergeSearchResults<T extends VocabularySearchRow>(

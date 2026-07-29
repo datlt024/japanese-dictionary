@@ -1002,6 +1002,18 @@
 
 .renameTitleSave:disabled { opacity: 0.5; cursor: default; }
 
+.renameTitleInputError {
+    border-color: var(--color-danger) !important;
+}
+
+.renameTitleError {
+    display: block;
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-danger);
+}
+
 .renameTitleCancel {
     padding: 6px 12px;
     border: none;
@@ -1352,6 +1364,22 @@
 }
 
 .renameModalInput:focus { border-color: var(--color-primary); }
+
+.renameModalInputError {
+    border-color: var(--color-danger) !important;
+    margin-bottom: 8px;
+}
+
+.createInputError {
+    border-color: var(--color-danger) !important;
+}
+
+.formError {
+    margin: 4px 0 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-danger);
+}
 
 /* ── Practice mode modal ──────────────────────────── */
 

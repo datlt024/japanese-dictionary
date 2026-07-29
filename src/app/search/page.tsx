@@ -4,7 +4,7 @@ import Link from "next/link"
 import AppLayout from "@/shared/components/layout/AppLayout"
 import EmptyState from "@/shared/components/EmptyState/EmptyState"
 
-import { searchDictionary } from "@/features/dictionary/search/services/search.service"
+import { searchDictionary } from "@/server/services/search/search.service"
 
 import {
     normalizeSearchTab,

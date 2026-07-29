@@ -18,10 +18,7 @@ import VocabularyMeaningCards from "./VocabularyMeaningCards/VocabularyMeaningCa
 import VocabularyRelatedWords from "./VocabularyRelatedWords/VocabularyRelatedWords"
 import VocabularyWordHeader from "./VocabularyWordHeader/VocabularyWordHeader"
 
-import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
-import type {
-    VocabularyKanjiDetail,
-} from "@/server/services/vocabulary/vocabulary.service"
+import type { Vocabulary, VocabularyKanjiDetail } from "@/domain/vocabulary"
 
 type VocabularyDetailContentProps = {
     vocabulary: Vocabulary
