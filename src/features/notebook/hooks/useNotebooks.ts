@@ -11,7 +11,7 @@ async function fetcher(url: string): Promise<NotebookWithCount[]> {
 }
 
 export function useNotebooks(enabled = true) {
-    const { data, isLoading, mutate } = useSWR<NotebookWithCount[]>(
+    const { data, isLoading, error, mutate } = useSWR<NotebookWithCount[]>(
         enabled ? "/api/notebooks" : null,
         fetcher,
         { revalidateOnFocus: false }
@@ -20,6 +20,7 @@ export function useNotebooks(enabled = true) {
     return {
         notebooks: data ?? [],
         loading: isLoading,
+        error: error as Error | undefined,
         mutate,
     }
 }

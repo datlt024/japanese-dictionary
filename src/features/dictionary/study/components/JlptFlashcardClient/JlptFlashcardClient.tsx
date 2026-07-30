@@ -24,6 +24,7 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
     const [phase, setPhase] = useState<Phase>("practice")
     const [slideDir, setSlideDir] = useState<"next" | "prev" | null>(null)
     const [loadingNew, setLoadingNew] = useState(false)
+    const [fetchError, setFetchError] = useState<string | null>(null)
 
     const current = items[index]
     const seen = Object.keys(ratings).length
@@ -78,8 +79,10 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
 
     async function handleNewSession() {
         setLoadingNew(true)
+        setFetchError(null)
         try {
             const res = await fetch(`/api/study/jlpt?level=${level}&limit=50`)
+            if (!res.ok) throw new Error("fetch failed")
             const data: JlptStudyItem[] = await res.json()
             setItems(data)
             setIndex(0)
@@ -87,6 +90,8 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
             setRatings({})
             setPhase("practice")
             setSlideDir(null)
+        } catch {
+            setFetchError("Không thể tải từ mới. Vui lòng thử lại.")
         } finally {
             setLoadingNew(false)
         }
@@ -147,6 +152,9 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                     )}
 
                     <div className={styles.summaryActions}>
+                        {fetchError && (
+                            <p style={{ color: "#ef4444", fontSize: "0.85rem", margin: "0 0 8px" }}>{fetchError}</p>
+                        )}
                         <button
                             className={styles.newSessionBtn}
                             onClick={handleNewSession}

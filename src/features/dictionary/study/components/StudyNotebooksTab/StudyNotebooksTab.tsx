@@ -560,8 +560,8 @@ function ConfirmDialog({
 export default function StudyNotebooksTab() {
     const router = useRouter()
     const { user, loading: authLoading } = useAuth()
-    const { notebooks, loading: notebooksLoading, mutate: mutateNotebooks } = useNotebooks(!!user)
-    const { groups, loading: groupsLoading, mutate: mutateGroups } = useNotebookGroups(!!user)
+    const { notebooks, loading: notebooksLoading, error: notebooksError, mutate: mutateNotebooks } = useNotebooks(!!user)
+    const { groups, loading: groupsLoading, error: groupsError, mutate: mutateGroups } = useNotebookGroups(!!user)
 
     const streak = useStreak(user?.id ?? null)
 
@@ -728,6 +728,8 @@ export default function StudyNotebooksTab() {
                 setCreating(false)
                 setCreateInGroupId(null)
                 setNewName("")
+            } else {
+                setCreateError("Không thể tạo sổ tay. Vui lòng thử lại.")
             }
         } finally {
             setCreateLoading(false)
@@ -751,6 +753,8 @@ export default function StudyNotebooksTab() {
                 setCollapsedGroups((prev) => { const next = new Set(prev); next.delete(created.id); return next })
                 setCreatingGroup(false)
                 setNewGroupName("")
+            } else {
+                setCreateError("Không thể tạo nhóm. Vui lòng thử lại.")
             }
         } finally {
             setCreateGroupLoading(false)
@@ -789,12 +793,12 @@ export default function StudyNotebooksTab() {
         if (!name) { setEditingGroupId(null); return }
         setRenameGroupLoading(true)
         try {
-            await fetch(`/api/notebook-groups/${editingGroupId}`, {
+            const res = await fetch(`/api/notebook-groups/${editingGroupId}`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ name }),
             })
-            await mutateGroups()
+            if (res.ok) await mutateGroups()
         } finally {
             setRenameGroupLoading(false)
             setEditingGroupId(null)
@@ -805,11 +809,12 @@ export default function StudyNotebooksTab() {
         if (notebooks.some((nb) => nb.id !== notebookId && nb.name.toLowerCase() === name.toLowerCase())) {
             return "Tên sổ tay đã tồn tại."
         }
-        await fetch(`/api/notebooks/${notebookId}`, {
+        const res = await fetch(`/api/notebooks/${notebookId}`, {
             method: "PATCH",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name }),
         })
+        if (!res.ok) return "Không thể đổi tên. Vui lòng thử lại."
         await mutateNotebooks()
         setRenameId(null)
         return null
@@ -821,21 +826,23 @@ export default function StudyNotebooksTab() {
             setConfirmUngroupId(notebookId)
             return
         }
-        await fetch(`/api/notebooks/${notebookId}`, {
+        const res = await fetch(`/api/notebooks/${notebookId}`, {
             method: "PATCH",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ group_id: groupId }),
         })
+        if (!res.ok) return
         await mutateNotebooks()
     }
 
     async function handleConfirmUngroup(notebookId: string) {
         setConfirmUngroupId(null)
-        await fetch(`/api/notebooks/${notebookId}`, {
+        const res = await fetch(`/api/notebooks/${notebookId}`, {
             method: "PATCH",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ group_id: null }),
         })
+        if (!res.ok) return
         await mutateNotebooks()
     }
 
@@ -858,6 +865,22 @@ export default function StudyNotebooksTab() {
     }
 
     if (notebooksLoading || groupsLoading) return <Skeleton />
+
+    if (notebooksError || groupsError) {
+        return (
+            <div className={styles.loginPrompt}>
+                <p className={styles.loginTitle}>Không thể tải dữ liệu</p>
+                <p className={styles.loginDesc}>Đã xảy ra lỗi khi kết nối. Vui lòng thử lại.</p>
+                <button
+                    type="button"
+                    className={styles.loginBtn}
+                    onClick={() => { mutateNotebooks(); mutateGroups() }}
+                >
+                    Thử lại
+                </button>
+            </div>
+        )
+    }
 
     /* ── Detail view ── */
 

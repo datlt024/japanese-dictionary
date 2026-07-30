@@ -21,14 +21,15 @@ type Step = "email" | "otp"
 type AuthModalProps = {
     open: boolean
     onClose: () => void
+    initialError?: string
 }
 
-export default function AuthModal({ open, onClose }: AuthModalProps) {
+export default function AuthModal({ open, onClose, initialError }: AuthModalProps) {
     const [step, setStep] = useState<Step>("email")
     const [email, setEmail] = useState("")
     const [otp, setOtp] = useState("")
     const [loading, setLoading] = useState(false)
-    const [error, setError] = useState<string | null>(null)
+    const [error, setError] = useState<string | null>(initialError ?? null)
     const [sent, setSent] = useState(false)
     const [resendCooldown, setResendCooldown] = useState(0)
 

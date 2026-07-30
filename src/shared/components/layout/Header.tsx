@@ -40,6 +40,10 @@ export default function Header({
     const [authOpen, setAuthOpen] = useState(false)
     const [dropdownOpen, setDropdownOpen] = useState(false)
     const [bellOpen, setBellOpen] = useState(false)
+
+    const authErrorFromUrl = searchParams.get("error") === "auth"
+        ? "Đăng nhập thất bại. Vui lòng thử lại."
+        : undefined
     const dropdownRef = useRef<HTMLDivElement>(null)
     const bellRef = useRef<HTMLDivElement>(null)
 
@@ -76,6 +80,14 @@ export default function Header({
         params.set("lang", value)
         router.replace(`${pathname}?${params.toString()}`)
     }
+
+    useEffect(() => {
+        if (!authErrorFromUrl) return
+        const params = new URLSearchParams(searchParams.toString())
+        params.delete("error")
+        const newUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname
+        router.replace(newUrl)
+    }, [authErrorFromUrl, searchParams, pathname, router])
 
     async function handleSignOut() {
         setDropdownOpen(false)
@@ -126,7 +138,7 @@ export default function Header({
                                 </div>
                                 <div className={styles.bellEmpty}>
                                     <Bell size={32} strokeWidth={1.5} className={styles.bellEmptyIcon} />
-                                    <p className={styles.bellEmptyText}>Chưa có thông báo nào</p>
+                                    <p className={styles.bellEmptyText}>Tính năng thông báo sắp ra mắt</p>
                                 </div>
                             </div>
                         )}
@@ -205,8 +217,10 @@ export default function Header({
             </header>
 
             <AuthModal
-                open={authOpen}
+                key={authErrorFromUrl ?? "noerror"}
+                open={authOpen || !!authErrorFromUrl}
                 onClose={() => setAuthOpen(false)}
+                initialError={authErrorFromUrl}
             />
         </>
     )

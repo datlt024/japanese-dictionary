@@ -11,7 +11,7 @@ async function fetcher(url: string): Promise<NotebookGroup[]> {
 }
 
 export function useNotebookGroups(enabled = true) {
-    const { data, isLoading, mutate } = useSWR<NotebookGroup[]>(
+    const { data, isLoading, error, mutate } = useSWR<NotebookGroup[]>(
         enabled ? "/api/notebook-groups" : null,
         fetcher,
         { revalidateOnFocus: false }
@@ -20,6 +20,7 @@ export function useNotebookGroups(enabled = true) {
     return {
         groups: data ?? [],
         loading: isLoading,
+        error: error as Error | undefined,
         mutate,
     }
 }

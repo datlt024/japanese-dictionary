@@ -313,7 +313,7 @@ export default function SettingsClient() {
             {/* Row 3 */}
             <SettingCard
                 title="Thông báo mail"
-                description="Nhận thông báo mới nhất qua email về các nội dung bạn quan tâm."
+                description="Nhận thông báo mới nhất qua email về các nội dung bạn quan tâm. (Sắp ra mắt)"
                 control={
                     <Toggle
                         id="setting-email-notif"
@@ -351,7 +351,7 @@ export default function SettingsClient() {
 
             <SettingCard
                 title="Thông báo"
-                description="Nhận thông báo để không bỏ lỡ thông tin quan trọng."
+                description="Nhận thông báo để không bỏ lỡ thông tin quan trọng. (Sắp ra mắt)"
                 control={
                     <Toggle
                         id="setting-push-notif"

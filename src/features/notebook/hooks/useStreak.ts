@@ -22,7 +22,7 @@ function toDateKey(date: Date): string {
 
 function loadStreak(): StreakData {
     try {
-        const raw = localStorage.getItem("mazii_streak")
+        const raw = localStorage.getItem("yomi_streak") ?? localStorage.getItem("mazii_streak")
         if (raw) return JSON.parse(raw) as StreakData
     } catch {}
     return { ...EMPTY }
@@ -30,7 +30,8 @@ function loadStreak(): StreakData {
 
 function saveStreak(data: StreakData) {
     try {
-        localStorage.setItem("mazii_streak", JSON.stringify(data))
+        localStorage.setItem("yomi_streak", JSON.stringify(data))
+        localStorage.removeItem("mazii_streak")
     } catch {}
 }
 
