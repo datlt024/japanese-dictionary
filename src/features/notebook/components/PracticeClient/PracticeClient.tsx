@@ -38,7 +38,7 @@ export default function PracticeClient({ notebookId, initialMode }: Props) {
                 <div className={styles.emptyState}>
                     <BookOpen size={40} className={styles.emptyIcon} />
                     <p>Sổ tay này chưa có mục nào để luyện tập.</p>
-                    <Link href="/notebooks" className={styles.backLink}>
+                    <Link href="/study?tab=so-tay" className={styles.backLink}>
                         <ArrowLeft size={15} />
                         Quay lại sổ tay
                     </Link>
@@ -55,7 +55,7 @@ export default function PracticeClient({ notebookId, initialMode }: Props) {
                 mode={mode}
                 notebookId={notebookId}
                 onRestart={() => setPhase("practice")}
-                onChangeMode={() => router.push("/notebooks")}
+                onChangeMode={() => router.push("/study?tab=so-tay")}
             />
         )
     }
@@ -63,7 +63,7 @@ export default function PracticeClient({ notebookId, initialMode }: Props) {
     const modeProps = {
         items,
         onFinish: finishPractice,
-        onBack: () => router.push("/notebooks"),
+        onBack: () => router.push("/study?tab=so-tay"),
     }
 
     if (mode === "flashcard") return <FlashCardMode {...modeProps} notebookId={notebookId} />

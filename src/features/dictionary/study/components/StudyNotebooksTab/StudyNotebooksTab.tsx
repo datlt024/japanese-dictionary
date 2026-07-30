@@ -3,12 +3,14 @@
 import {
     FormEvent,
     useEffect,
+    useMemo,
     useRef,
     useState,
 } from "react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import React from "react"
+import useSWR from "swr"
 import {
     ArrowUpDown,
     BookOpen,
@@ -36,6 +38,7 @@ import {
 } from "lucide-react"
 
 import { useAuth } from "@/features/auth/hooks/useAuth"
+import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
 import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
 import { useNotebookGroups } from "@/features/notebook/hooks/useNotebookGroups"
 import { useNotebookItems } from "@/features/notebook/hooks/useNotebookItems"
@@ -594,6 +597,32 @@ export default function StudyNotebooksTab() {
     const SORT_KEY = "notebookSortOrder"
     const VALID_SORTS = ["newest", "oldest", "az", "za"] as const
     type SortOrder = typeof VALID_SORTS[number]
+    const [authModalOpen, setAuthModalOpen] = useState(false)
+
+    const { data: practiceSessions } = useSWR<Array<{ known_ids: string[]; unknown_ids: string[]; total_items: number }>>(
+        user ? "/api/practice/sessions" : null,
+        (url: string) => fetch(url).then((r) => (r.ok ? r.json() : []))
+    )
+
+    const practiceStats = useMemo(() => {
+        if (!practiceSessions?.length) return { knownCount: 0, ratio: "—" }
+        const knownSet = new Set<string>()
+        const unknownSet = new Set<string>()
+        for (const s of practiceSessions) {
+            for (const id of s.known_ids) knownSet.add(id)
+        }
+        for (const s of practiceSessions) {
+            for (const id of s.unknown_ids) {
+                if (!knownSet.has(id)) unknownSet.add(id)
+            }
+        }
+        const total = knownSet.size + unknownSet.size
+        return {
+            knownCount: knownSet.size,
+            ratio: total > 0 ? `${Math.round((knownSet.size / total) * 100)}%` : "—",
+        }
+    }, [practiceSessions])
+
     const [sortOrder, setSortOrder] = useState<SortOrder>(() => {
         if (typeof window === "undefined") return "newest"
         const saved = localStorage.getItem(SORT_KEY)
@@ -816,12 +845,15 @@ export default function StudyNotebooksTab() {
 
     if (!user) {
         return (
-            <div className={styles.loginPrompt}>
-                <LogIn size={32} className={styles.loginIcon} />
-                <p className={styles.loginTitle}>Đăng nhập để xem sổ tay của bạn</p>
-                <p className={styles.loginDesc}>Lưu từ vựng, hán tự và ngữ pháp vào sổ tay để ôn luyện mọi lúc.</p>
-                <Link href="/login" className={styles.loginBtn}>Đăng nhập</Link>
-            </div>
+            <>
+                <div className={styles.loginPrompt}>
+                    <LogIn size={32} className={styles.loginIcon} />
+                    <p className={styles.loginTitle}>Đăng nhập để xem sổ tay của bạn</p>
+                    <p className={styles.loginDesc}>Lưu từ vựng, hán tự và ngữ pháp vào sổ tay để ôn luyện mọi lúc.</p>
+                    <button type="button" className={styles.loginBtn} onClick={() => setAuthModalOpen(true)}>Đăng nhập</button>
+                </div>
+                <AuthModal open={authModalOpen} onClose={() => setAuthModalOpen(false)} />
+            </>
         )
     }
 
@@ -867,8 +899,8 @@ export default function StudyNotebooksTab() {
     const STATS = [
         { icon: <Layers size={20} style={{ color: "#7c3aed" }} />, bg: "#f5f3ff", value: notebooks.length, label: "Số sổ tay" },
         { icon: <BookOpen size={20} style={{ color: "#2563eb" }} />, bg: "#eff6ff", value: totalItems, label: "Tổng số từ" },
-        { icon: <CheckCircle2 size={20} style={{ color: "#16a34a" }} />, bg: "#f0fdf4", value: "—", label: "Từ đã ghi nhớ" },
-        { icon: <Zap size={20} style={{ color: "#ea580c" }} />, bg: "#fff7ed", value: "—", label: "Tỷ lệ ghi nhớ" },
+        { icon: <CheckCircle2 size={20} style={{ color: "#16a34a" }} />, bg: "#f0fdf4", value: practiceStats.knownCount || "—", label: "Từ đã ghi nhớ" },
+        { icon: <Zap size={20} style={{ color: "#ea580c" }} />, bg: "#fff7ed", value: practiceStats.ratio, label: "Tỷ lệ ghi nhớ" },
     ]
 
     return (

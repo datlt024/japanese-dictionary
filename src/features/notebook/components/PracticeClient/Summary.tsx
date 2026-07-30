@@ -134,7 +134,7 @@ export default function Summary({
                         <ClipboardList size={15} />
                         Đổi chế độ
                     </button>
-                    <Link href="/notebooks" className={styles.backToNotebookBtn}>
+                    <Link href="/study?tab=so-tay" className={styles.backToNotebookBtn}>
                         <BookOpen size={15} />
                         Về sổ tay
                     </Link>

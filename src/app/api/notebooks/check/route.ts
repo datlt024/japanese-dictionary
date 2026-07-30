@@ -22,7 +22,7 @@ export async function GET(request: NextRequest) {
     }
 
     const rl = rateLimit(`nb-check:${user.id}`, 120, 60_000)
-    if (!rl.ok) return NextResponse.json({ notebookIds: [] })
+    if (!rl.ok) return rl.response
 
     const itemType = request.nextUrl.searchParams.get("type")
     const itemId = request.nextUrl.searchParams.get("id")?.trim() ?? ""

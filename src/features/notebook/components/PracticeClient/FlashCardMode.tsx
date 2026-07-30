@@ -10,7 +10,6 @@ import {
     ChevronLeft,
     ChevronDown,
     Volume2,
-    Star,
     MoreHorizontal,
 } from "lucide-react"
 
@@ -56,6 +55,7 @@ export default function FlashCardMode({
     const [quickLookupTarget, setQuickLookupTarget] = useState<QuickLookupTarget | null>(null)
     const [quickLookupOpen, setQuickLookupOpen] = useState(false)
     const [detailLoading, setDetailLoading] = useState(false)
+    const [showAllHistory, setShowAllHistory] = useState(false)
 
     useEffect(() => {
         if (!switcherOpen) return
@@ -227,10 +227,12 @@ export default function FlashCardMode({
                                                 {index + 1} / {shuffled.length}
                                             </span>
                                             <div className={styles.fcCardControls}>
-                                                <button type="button" className={styles.fcIconBtn}>
-                                                    <Star size={16} />
-                                                </button>
-                                                <button type="button" className={styles.fcIconBtn}>
+                                                <button
+                                                    type="button"
+                                                    className={styles.fcIconBtn}
+                                                    onClick={(e) => { e.stopPropagation(); handleOpenDetail(current.display.title) }}
+                                                    title="Xem chi tiết"
+                                                >
                                                     <MoreHorizontal size={16} />
                                                 </button>
                                             </div>
@@ -263,10 +265,12 @@ export default function FlashCardMode({
                                                 >
                                                     <Volume2 size={16} />
                                                 </button>
-                                                <button type="button" className={styles.fcIconBtn} onClick={(e) => e.stopPropagation()}>
-                                                    <Star size={16} />
-                                                </button>
-                                                <button type="button" className={styles.fcIconBtn} onClick={(e) => e.stopPropagation()}>
+                                                <button
+                                                    type="button"
+                                                    className={styles.fcIconBtn}
+                                                    onClick={(e) => { e.stopPropagation(); handleOpenDetail(current.display.title) }}
+                                                    title="Xem chi tiết"
+                                                >
                                                     <MoreHorizontal size={16} />
                                                 </button>
                                             </div>
@@ -397,7 +401,7 @@ export default function FlashCardMode({
                         ) : (
                             <>
                                 <ul className={styles.fcHistoryList}>
-                                    {history.slice(0, 5).map((entry, i) => (
+                                    {(showAllHistory ? history : history.slice(0, 5)).map((entry, i) => (
                                         <li key={i} className={styles.fcHistoryItem}>
                                             <span
                                                 className={`${styles.fcHistoryDot} ${
@@ -425,8 +429,8 @@ export default function FlashCardMode({
                                         </li>
                                     ))}
                                 </ul>
-                                {history.length > 5 && (
-                                    <button type="button" className={styles.fcSeeAllBtn}>Xem tất cả</button>
+                                {history.length > 5 && !showAllHistory && (
+                                    <button type="button" className={styles.fcSeeAllBtn} onClick={() => setShowAllHistory(true)}>Xem tất cả</button>
                                 )}
                             </>
                         )}

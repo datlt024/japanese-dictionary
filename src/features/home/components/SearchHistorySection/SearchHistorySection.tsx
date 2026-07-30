@@ -1,11 +1,14 @@
 "use client"
 
+import { useState } from "react"
 import { useRouter } from "next/navigation"
 
 import useSearchHistory from "@/features/user/search-history/hooks/useSearchHistory"
 import { getSearchTargetUrl } from "@/features/dictionary/search/utils/getSearchTargetUrl"
 
 import styles from "./SearchHistorySection.module.css"
+
+const MAX_VISIBLE = 5
 
 function getHistoryLabel(text: string) {
     return text.length > 18 ? `${text.slice(0, 18)}…` : text
@@ -14,24 +17,33 @@ function getHistoryLabel(text: string) {
 export default function SearchHistorySection() {
     const router = useRouter()
     const { histories } = useSearchHistory()
+    const [expanded, setExpanded] = useState(false)
 
     async function handleHistoryClick(keyword: string) {
         const url = await getSearchTargetUrl("vocabulary", keyword, "vi")
         if (url) router.push(url)
     }
 
+    const visible = expanded ? histories : histories.slice(0, MAX_VISIBLE)
+
     return (
         <section className={styles.section}>
             <div className={styles.header}>
                 <h2>Lịch sử</h2>
-                <button type="button" className={styles.viewMore}>
-                    Xem thêm
-                </button>
+                {histories.length > MAX_VISIBLE && (
+                    <button
+                        type="button"
+                        className={styles.viewMore}
+                        onClick={() => setExpanded((v) => !v)}
+                    >
+                        {expanded ? "Thu gọn" : "Xem thêm"}
+                    </button>
+                )}
             </div>
 
             <div className={styles.historyTags}>
                 {histories.length > 0 ? (
-                    histories.map((item) => (
+                    visible.map((item) => (
                         <button
                             key={item}
                             type="button"
