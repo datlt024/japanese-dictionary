@@ -9,7 +9,10 @@ type Props = {
     searchParams: Promise<{ mode?: string }>
 }
 
-export const metadata = { title: "Luyện tập" }
+export const metadata = {
+    title: "Luyện tập — Yomi",
+    description: "Ôn luyện từ vựng trong sổ tay bằng flashcard, trắc nghiệm hoặc luyện viết.",
+}
 
 export default async function PracticePage({ params, searchParams }: Props) {
     const supabase = await createSupabaseServerClient()

@@ -225,6 +225,7 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                                             type="button"
                                             className={styles.ttsBtn}
                                             onClick={(e) => { e.stopPropagation(); handleSpeak(current.kana ?? current.word) }}
+                                            aria-label="Phát âm"
                                         >
                                             <Volume2 size={14} />
                                         </button>

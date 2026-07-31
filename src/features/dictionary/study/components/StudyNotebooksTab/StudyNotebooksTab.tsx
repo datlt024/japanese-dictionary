@@ -417,11 +417,11 @@ function PracticeModeModal({
     if (!open) return null
 
     return (
-        <div className={styles.modalOverlay} onClick={onClose}>
-            <div className={styles.modalBox} onClick={(e) => e.stopPropagation()}>
+        <div className={styles.modalOverlay} onClick={onClose} role="presentation">
+            <div className={styles.modalBox} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label="Chọn chế độ ôn tập">
                 <div className={styles.modalHeader}>
                     <h2 className={styles.modalTitle}>Chọn chế độ ôn tập</h2>
-                    <button type="button" className={styles.modalClose} onClick={onClose}><X size={18} /></button>
+                    <button type="button" className={styles.modalClose} onClick={onClose} aria-label="Đóng"><X size={18} /></button>
                 </div>
                 <div className={styles.modalGrid}>
                     {PRACTICE_MODES.map(({ id, Icon, title, desc, color, bg }) => (
@@ -480,14 +480,16 @@ function RenameModal({
     }
 
     return (
-        <div className={styles.confirmOverlay} onClick={onClose}>
-            <div className={styles.confirmBox} onClick={(e) => e.stopPropagation()}>
+        <div className={styles.confirmOverlay} onClick={onClose} role="presentation">
+            <div className={styles.confirmBox} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label="Đổi tên sổ tay">
                 <div className={styles.confirmIcon} style={{ background: "var(--color-primary-soft)", color: "var(--color-primary)" }}>
                     <Pencil size={20} />
                 </div>
                 <h3 className={styles.confirmTitle}>Đổi tên sổ tay</h3>
                 <form style={{ width: "100%" }} onSubmit={handleSubmit}>
+                    <label htmlFor="rename-notebook-input" className="sr-only">Tên sổ tay</label>
                     <input
+                        id="rename-notebook-input"
                         ref={inputRef}
                         className={`${styles.renameModalInput} ${error ? styles.renameModalInputError : ""}`}
                         value={name}
@@ -539,8 +541,8 @@ function ConfirmDialog({
     }, [onCancel])
 
     return (
-        <div className={styles.confirmOverlay} onClick={onCancel}>
-            <div className={styles.confirmBox} onClick={(e) => e.stopPropagation()}>
+        <div className={styles.confirmOverlay} onClick={onCancel} role="presentation">
+            <div className={styles.confirmBox} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label={title}>
                 <div className={styles.confirmIcon} style={iconStyle}>{icon}</div>
                 <h3 className={styles.confirmTitle}>{title}</h3>
                 <p className={styles.confirmDesc}>{desc}</p>

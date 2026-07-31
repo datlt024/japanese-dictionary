@@ -172,6 +172,17 @@ export async function POST(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "item_id không được để trống" }, { status: 400 })
     }
 
+    const { data: nb } = await supabase
+        .from("notebooks")
+        .select("id")
+        .eq("id", id)
+        .eq("user_id", user.id)
+        .maybeSingle()
+
+    if (!nb) {
+        return NextResponse.json({ error: "Sổ tay không tồn tại" }, { status: 404 })
+    }
+
     const { data, error } = await addNotebookItem(supabase, id, user.id, itemType, itemId)
 
     if (error) {

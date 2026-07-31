@@ -47,6 +47,17 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Dữ liệu không hợp lệ" }, { status: 400 })
     }
 
+    const { data: nb } = await supabase
+        .from("notebooks")
+        .select("id")
+        .eq("id", notebook_id)
+        .eq("user_id", user.id)
+        .maybeSingle()
+
+    if (!nb) {
+        return NextResponse.json({ error: "Sổ tay không tồn tại" }, { status: 404 })
+    }
+
     const { data, error } = await createPracticeSession(supabase, user.id, {
         notebook_id,
         mode,

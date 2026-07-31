@@ -290,8 +290,14 @@ function QuickLookupModalInner({
     }
 
     return (
-        <div className={styles.overlay}>
-            <div className={styles.modal}>
+        <div className={styles.overlay} onClick={onClose} role="presentation">
+            <div
+                className={styles.modal}
+                onClick={(e) => e.stopPropagation()}
+                role="dialog"
+                aria-modal="true"
+                aria-label={`Chi tiết từ ${currentTarget.title}`}
+            >
                 <div
                     className={styles.header}
                     data-disable-quick-lookup="true"

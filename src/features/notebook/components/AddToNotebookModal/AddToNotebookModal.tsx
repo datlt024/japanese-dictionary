@@ -220,6 +220,7 @@ export default function AddToNotebookModal({
                                         ref={createInputRef}
                                         className={styles.createInput}
                                         type="text"
+                                        aria-label="Tên sổ tay mới"
                                         placeholder="Tên sổ tay..."
                                         value={newName}
                                         onChange={(e) => setNewName(e.target.value)}

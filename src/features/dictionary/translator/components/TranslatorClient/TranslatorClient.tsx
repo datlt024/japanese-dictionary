@@ -39,6 +39,7 @@ export default function TranslatorClient({
     const [copied, setCopied] = useState(false)
     const textareaRef = useRef<HTMLTextAreaElement>(null)
     const abortRef = useRef<AbortController | null>(null)
+    const copiedTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
     const { sl, tl } = directionParts(direction)
 
@@ -86,7 +87,10 @@ export default function TranslatorClient({
             .catch((err) => {
                 if ((err as Error).name !== "AbortError") setState({ status: "error" })
             })
-        return () => controller.abort()
+        return () => {
+            controller.abort()
+            if (copiedTimerRef.current) clearTimeout(copiedTimerRef.current)
+        }
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
@@ -130,7 +134,8 @@ export default function TranslatorClient({
         if (state.status !== "done") return
         await navigator.clipboard.writeText(state.translation)
         setCopied(true)
-        setTimeout(() => setCopied(false), 2000)
+        if (copiedTimerRef.current) clearTimeout(copiedTimerRef.current)
+        copiedTimerRef.current = setTimeout(() => setCopied(false), 2000)
     }
 
     function handleSpeakInput() {

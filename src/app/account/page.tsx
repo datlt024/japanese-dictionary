@@ -7,7 +7,10 @@ import AccountClient from "@/features/auth/components/AccountClient/AccountClien
 import Header from "@/shared/components/layout/Header"
 import layoutStyles from "@/shared/components/layout/AppLayout.module.css"
 
-export const metadata = { title: "Tài khoản — Yomi" }
+export const metadata = {
+    title: "Tài khoản — Yomi",
+    description: "Quản lý thông tin tài khoản, hồ sơ và cài đặt cá nhân của bạn trên Yomi.",
+}
 
 export default async function AccountPage() {
     const supabase = await createSupabaseServerClient()

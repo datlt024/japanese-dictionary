@@ -262,6 +262,7 @@ export default function FlashCardMode({
                                                         e.stopPropagation()
                                                         speakJapanese(current.display.subtitle ?? current.display.title)
                                                     }}
+                                                    aria-label="Phát âm"
                                                 >
                                                     <Volume2 size={16} />
                                                 </button>

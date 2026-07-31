@@ -236,6 +236,7 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
                             <input
                                 className={styles.nameInput}
                                 type="text"
+                                aria-label="Tên hiển thị"
                                 placeholder="Tên hiển thị"
                                 value={displayName}
                                 onChange={(e) => setDisplayName(e.target.value)}
@@ -244,6 +245,7 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
                             />
                             <select
                                 className={styles.levelSelect}
+                                aria-label="Trình độ JLPT"
                                 value={jlptLevel}
                                 onChange={(e) => setJlptLevel(e.target.value)}
                             >
@@ -262,6 +264,7 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
                     <textarea
                         ref={textareaRef}
                         className={styles.commentTextarea}
+                        aria-label="Nội dung bình luận"
                         placeholder="Chia sẻ mẹo nhớ, cách dùng, hoặc ý kiến của bạn..."
                         value={content}
                         onChange={(e) => setContent(e.target.value)}
