@@ -115,12 +115,14 @@ export async function searchVocabulariesByKeyword(
             .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
             .eq(meaningColumn, value)
             .not(meaningColumn, "is", null)
+            .eq("is_hidden", false)
             .limit(200),
         supabaseServer
             .from("vocabulary_senses")
             .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
             .ilike(meaningColumn, `%${escapedValue}%`)
             .not(meaningColumn, "is", null)
+            .eq("is_hidden", false)
             .limit(100),
     ])
 

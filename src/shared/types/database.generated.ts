@@ -901,6 +901,7 @@ export type Database = {
           field: string[] | null
           id: number
           info: string[] | null
+          is_hidden: boolean
           meaning_en: string | null
           meaning_vi: string | null
           meaning_vi_confidence: string | null
@@ -918,6 +919,7 @@ export type Database = {
           field?: string[] | null
           id?: number
           info?: string[] | null
+          is_hidden?: boolean
           meaning_en?: string | null
           meaning_vi?: string | null
           meaning_vi_confidence?: string | null
@@ -935,6 +937,7 @@ export type Database = {
           field?: string[] | null
           id?: number
           info?: string[] | null
+          is_hidden?: boolean
           meaning_en?: string | null
           meaning_vi?: string | null
           meaning_vi_confidence?: string | null

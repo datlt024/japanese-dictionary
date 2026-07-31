@@ -36,7 +36,8 @@ primary_kana
 const VOCABULARY_SENSE_COLUMNS = `
 vocabulary_id,
 meaning_en,
-meaning_vi
+meaning_vi,
+is_hidden
 ` as const
 
 export async function findKanjiByCharacter(character: string) {
@@ -91,6 +92,7 @@ export async function findVocabularySenses(
         .from("vocabulary_senses")
         .select(VOCABULARY_SENSE_COLUMNS)
         .in("vocabulary_id", vocabularyIds)
+        .eq("is_hidden", false)
         .order("sense_index", {
             ascending: true,
         })

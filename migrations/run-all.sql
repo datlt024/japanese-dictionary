@@ -1,6 +1,6 @@
 -- ============================================================
 -- Run this file in Supabase Dashboard > SQL Editor
--- Order: 001 → 002 → 003 (each section is idempotent)
+-- Order: 001 → 002 → 003 → 004 (each section is idempotent)
 -- ============================================================
 
 -- 001: practice_sessions table
