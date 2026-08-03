@@ -15,6 +15,7 @@ import { normalizeDictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
 import type { VocabularyResult, KanjiSearchItem, GrammarSearchItem } from "@/domain/search"
+import { kanjiJlptToLabel } from "@/features/dictionary/kanji/utils"
 
 import styles from "./page.module.css"
 
@@ -122,7 +123,7 @@ function KanjiList({
                                     {meaning || "Đang cập nhật"}
                                 </p>
                                 <div className={styles.kanjiMeta}>
-                                    <JlptBadge level={item.jlpt != null ? `N${item.jlpt}` : null} />
+                                    <JlptBadge level={kanjiJlptToLabel(item.jlpt)} />
                                     {item.stroke_count != null && (
                                         <span className={styles.strokeBadge}>
                                             {item.stroke_count} nét

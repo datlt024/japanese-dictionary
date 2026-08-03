@@ -1,9 +1,12 @@
 import { unstable_cache } from "next/cache"
 
 import { supabaseServer } from "@/server/supabase/server"
+import { getGrammarsByJlptLevel } from "@/server/repositories/grammar/search-grammar.repository"
+import { getKanjisByJlptLevelPaginated } from "@/server/repositories/kanji/search-kanji.repository"
 
 import type { JlptStudyItem, JlptLevel } from "@/domain/study"
 import { JLPT_LEVELS } from "@/domain/study"
+import type { GrammarSearchItem, KanjiSearchItem } from "@/domain/search"
 
 export type { JlptStudyItem, JlptLevel }
 export { JLPT_LEVELS }
@@ -20,7 +23,35 @@ export const getJlptVocabCount = unstable_cache(
             .eq("jlpt", level)
         return count ?? 0
     },
-    ["jlpt-vocab-count"],
+    ["jlpt-vocab-count-v2"],
+    { revalidate: 86400 }
+)
+
+type VocabRow = { id: number; primary_word: string; primary_kana: string | null; meaning_vi: string | null }
+
+export const getJlptVocabItems = unstable_cache(
+    async (level: JlptLevel, from: number, to: number) => {
+        // Single DB round trip via RPC — replaces two sequential queries.
+        // Run migrations/022_jlpt_vocab_rpc.sql in Supabase to create the function.
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const { data, error } = await (supabaseServer.rpc as any)(
+            "get_jlpt_vocab_page",
+            { p_level: level, p_from: from, p_to: to }
+        ) as { data: VocabRow[] | null; error: { message?: string; code?: string } | null }
+
+        if (error) {
+            console.error("getJlptVocabItems error:", error.message ?? error.code ?? JSON.stringify(error))
+            return []
+        }
+
+        return (data ?? []).map((v) => ({
+            id: v.id,
+            word: v.primary_word,
+            kana: v.primary_kana && v.primary_kana !== v.primary_word ? v.primary_kana : null,
+            meaning: v.meaning_vi ?? null,
+        }))
+    },
+    ["jlpt-vocab-items-v1"],
     { revalidate: 86400 }
 )
 
@@ -97,17 +128,22 @@ export const getJlptGrammarCount = unstable_cache(
     { revalidate: 86400 }
 )
 
+// KANJIDIC2 uses old 4-level JLPT (1=hardest, 4=easiest). Map new levels to old:
+// N5→4, N4→3, N3→2, N2→1, N1→1 (N1 and N2 share old level 1)
+const JLPT_KANJIDIC_LEVEL: Record<string, number> = {
+    N1: 1, N2: 1, N3: 2, N4: 3, N5: 4,
+}
+
 export const getJlptKanjiCount = unstable_cache(
     async (level: JlptLevel): Promise<number> => {
-        // kanjis.jlpt is integer: N5→5, N4→4, N3→3, N2→2, N1→1
-        const jlptNum = parseInt(level.replace(/^N/i, ""), 10)
+        const jlptNum = JLPT_KANJIDIC_LEVEL[level] ?? parseInt(level.replace(/^N/i, ""), 10)
         const { count } = await supabaseServer
             .from("kanjis")
             .select("id", { count: "exact", head: true })
             .eq("jlpt", jlptNum)
         return count ?? 0
     },
-    ["jlpt-kanji-count-v2"],
+    ["jlpt-kanji-count-v3"],
     { revalidate: 86400 }
 )
 
@@ -128,6 +164,34 @@ export const getAllStudyCounts = unstable_cache(
             kanji:   Object.fromEntries(kanjiRows)   as Record<JlptLevel, number>,
         }
     },
-    ["jlpt-all-study-counts-v2"],
+    ["jlpt-all-study-counts-v4"],
+    { revalidate: 86400 }
+)
+
+export const getJlptGrammarItems = unstable_cache(
+    async (level: string, from: number, to: number) => {
+        const { data, error } = await getGrammarsByJlptLevel(level, from, to)
+        if (error) {
+            const e = error as unknown as Record<string, unknown>
+            console.error("getJlptGrammarItems error:", e.message ?? JSON.stringify(error))
+            return []
+        }
+        return (data ?? []) as GrammarSearchItem[]
+    },
+    ["study-grammar-items-v1"],
+    { revalidate: 86400 }
+)
+
+export const getJlptKanjiItems = unstable_cache(
+    async (level: string, from: number, to: number) => {
+        const { data, error } = await getKanjisByJlptLevelPaginated(level, from, to)
+        if (error) {
+            const e = error as unknown as Record<string, unknown>
+            console.error("getJlptKanjiItems error:", e.message ?? JSON.stringify(error))
+            return []
+        }
+        return (data ?? []) as KanjiSearchItem[]
+    },
+    ["study-kanji-items-v1"],
     { revalidate: 86400 }
 )

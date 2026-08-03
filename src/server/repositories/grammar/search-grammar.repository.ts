@@ -17,6 +17,15 @@ const SEARCH_GRAMMAR_COLUMNS = `
 
 const JLPT_LEVEL_RE = /^N[1-5]$/i
 
+export function getGrammarsByJlptLevel(level: string, from: number, to: number) {
+    return supabaseServer
+        .from("grammars")
+        .select(SEARCH_GRAMMAR_COLUMNS, { count: "exact" })
+        .eq("jlpt_level", level.toUpperCase())
+        .order("sort_order", { ascending: true })
+        .range(from, to)
+}
+
 export async function searchGrammarsByKeyword(keyword: string) {
     const trimmed = keyword.trim()
     if (!trimmed) return { data: [], error: null }

@@ -32,6 +32,14 @@
     color: var(--color-primary);
 }
 
+.headerRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
 .headerTitle {
     display: flex;
     align-items: center;
@@ -94,6 +102,29 @@
 .jlptBadge[data-level="N3"] { background: var(--color-jlpt-n3-soft); color: var(--color-jlpt-n3); }
 .jlptBadge[data-level="N2"] { background: var(--color-jlpt-n2-soft); color: var(--color-jlpt-n2); }
 .jlptBadge[data-level="N1"] { background: var(--color-jlpt-n1-soft); color: var(--color-jlpt-n1); }
+
+/* ── Skeleton ── */
+.cardSkeleton {
+    height: 82px;
+    border-radius: 14px;
+    background: linear-gradient(
+        90deg,
+        var(--color-border) 25%,
+        var(--color-surface-hover, #f0f2f5) 50%,
+        var(--color-border) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .cardSkeleton { animation: none; }
+}
 
 /* ── Kanji grid ── */
 .grid {
@@ -184,6 +215,59 @@
     color: var(--color-text-muted);
     font-size: 11px;
     font-weight: 600;
+}
+
+/* ── Pagination ── */
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px 0 16px;
+}
+
+.pageBtn {
+    padding: 8px 16px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+
+    background: var(--color-surface);
+    color: var(--color-text-primary);
+
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: border-color .15s, box-shadow .15s;
+}
+
+.pageBtn:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, .08);
+}
+
+.pageBtnDisabled {
+    padding: 8px 16px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+
+    color: var(--color-text-muted);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    opacity: .45;
+    cursor: default;
+}
+
+.pageInfo {
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 96px;
+    text-align: center;
 }
 
 /* ── Empty ── */

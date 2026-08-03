@@ -51,6 +51,8 @@ import styles from "./StudyNotebooksTab.module.css"
 
 /* ── Constants ─────────────────────────────────────────────── */
 
+const PAGE_SIZE = 10
+
 const CARD_COLORS = [
     { bg: "#f5f3ff", text: "#7c3aed" },
     { bg: "#f0fdf4", text: "#16a34a" },
@@ -589,6 +591,7 @@ export default function StudyNotebooksTab() {
     const [deletingNbId, setDeletingNbId] = useState<string | null>(null)
     const [deletingGroupId, setDeletingGroupId] = useState<string | null>(null)
 
+    const [page, setPage] = useState(1)
     const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set())
     const [menuOpenId, setMenuOpenId] = useState<string | null>(null)
     const [editingGroupId, setEditingGroupId] = useState<string | null>(null)
@@ -634,6 +637,7 @@ export default function StudyNotebooksTab() {
     function handleSortChange(order: SortOrder) {
         setSortOrder(order)
         localStorage.setItem(SORT_KEY, order)
+        setPage(1)
     }
 
     const createInputRef = useRef<HTMLInputElement>(null)
@@ -685,14 +689,19 @@ export default function StudyNotebooksTab() {
         if (sortOrder === "oldest") return new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
         return new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
     })
-    const ungrouped = sorted.filter((nb) => !nb.group_id)
-    const byGroup = (gid: string) => sorted.filter((nb) => nb.group_id === gid)
+
+    const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE))
+    const safePage = Math.min(page, totalPages)
+    const pagedNotebooks = sorted.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
+
+    const ungrouped = pagedNotebooks.filter((nb) => !nb.group_id)
+    const byGroup = (gid: string) => pagedNotebooks.filter((nb) => nb.group_id === gid)
 
     const sortedGroups = [...groups].sort((a, b) => {
         if (sortOrder === "az") return compareByName(a.name, b.name)
         if (sortOrder === "za") return compareByName(b.name, a.name)
         return 0
-    })
+    }).filter((g) => pagedNotebooks.some((nb) => nb.group_id === g.id))
 
     function toggleGroup(id: string) {
         setCollapsedGroups((prev) => {
@@ -730,6 +739,7 @@ export default function StudyNotebooksTab() {
                 setCreating(false)
                 setCreateInGroupId(null)
                 setNewName("")
+                setPage(1)
             } else {
                 setCreateError("Không thể tạo sổ tay. Vui lòng thử lại.")
             }
@@ -1194,6 +1204,33 @@ export default function StudyNotebooksTab() {
                                 </div>
                             </div>
                         )}
+                    </div>
+                )}
+
+                {/* ── Phân trang ── */}
+                {totalPages > 1 && (
+                    <div className={styles.pagination}>
+                        <button
+                            type="button"
+                            className={styles.pageBtn}
+                            onClick={() => setPage((p) => Math.max(1, p - 1))}
+                            disabled={safePage === 1}
+                        >
+                            <ChevronLeft size={14} />
+                            Trước
+                        </button>
+                        <span className={styles.pageInfo}>
+                            {safePage} / {totalPages}
+                        </span>
+                        <button
+                            type="button"
+                            className={styles.pageBtn}
+                            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+                            disabled={safePage === totalPages}
+                        >
+                            Tiếp
+                            <ChevronRight size={14} />
+                        </button>
                     </div>
                 )}
 

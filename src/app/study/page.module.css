@@ -59,24 +59,13 @@
 
 /* ── Khám phá section ────────────────────────────────── */
 
-.sectionHeader {
-    text-align: center;
-    margin-bottom: 28px;
-}
-
-.sectionTitle {
-    margin: 0 0 10px;
-    font-size: 22px;
-    font-weight: 900;
-    color: var(--color-text-primary);
-}
-
-.sectionSubtitle {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 500;
+.sectionEyebrow {
+    margin: 0 0 16px;
+    font-size: 12px;
+    font-weight: 700;
     color: var(--color-text-secondary);
-    line-height: 1.6;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 
 .levelGrid {

@@ -4,7 +4,12 @@ import dynamic from "next/dynamic"
 import { BookOpen, Compass, Library, ClipboardList, FileText, PenLine } from "lucide-react"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
-import { getAllStudyCounts } from "@/server/services/study/jlpt-study.service"
+import {
+    getAllStudyCounts,
+    getJlptVocabItems,
+    getJlptGrammarItems,
+    getJlptKanjiItems,
+} from "@/server/services/study/jlpt-study.service"
 import type { JlptLevel } from "@/server/services/study/jlpt-study.service"
 import styles from "./page.module.css"
 
@@ -57,14 +62,16 @@ const LEVELS: JlptLevel[] = ["N1", "N2", "N3", "N4", "N5"]
 async function KhamPhaContent() {
     const counts = await getAllStudyCounts()
 
+    // Fire-and-forget: warm page-1 caches for all levels while the user reads the library.
+    for (const level of LEVELS) {
+        getJlptVocabItems(level as JlptLevel, 0, 49).catch(() => {})
+        getJlptGrammarItems(level, 0, 49).catch(() => {})
+        getJlptKanjiItems(level, 0, 99).catch(() => {})
+    }
+
     return (
         <>
-            <div className={styles.sectionHeader}>
-                <h2 className={styles.sectionTitle}>Học theo cấp độ</h2>
-                <p className={styles.sectionSubtitle}>
-                    Chọn loại nội dung và cấp độ JLPT để bắt đầu
-                </p>
-            </div>
+            <p className={styles.sectionEyebrow}>Học theo cấp độ</p>
 
             <div className={styles.categoryGrid}>
                 <div className={styles.categoryCard}>
@@ -75,7 +82,7 @@ async function KhamPhaContent() {
                     {LEVELS.map((level) => (
                         <Link
                             key={level}
-                            href={`/study/${level.toLowerCase()}`}
+                            href={`/study/vocabulary/${level.toLowerCase()}`}
                             className={styles.levelRow}
                             data-level={level}
                         >

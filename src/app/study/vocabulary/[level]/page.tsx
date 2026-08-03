@@ -2,17 +2,16 @@ import { Suspense } from "react"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft, Layers } from "lucide-react"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import {
     isValidJlptLevel,
-    getJlptKanjiCount,
-    getJlptKanjiItems,
+    getJlptVocabCount,
+    getJlptVocabItems,
     JLPT_LEVELS,
     type JlptLevel,
 } from "@/server/services/study/jlpt-study.service"
-import { kanjiJlptToLabel } from "@/features/dictionary/kanji/utils"
 
 import styles from "./page.module.css"
 
@@ -22,7 +21,7 @@ export async function generateStaticParams() {
     return JLPT_LEVELS.map((level) => ({ level: level.toLowerCase() }))
 }
 
-const PAGE_SIZE = 100
+const PAGE_SIZE = 50
 
 type Props = {
     params: Promise<{ level: string }>
@@ -33,14 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { level } = await params
     const upper = level.toUpperCase()
     return {
-        title: `Hán tự ${upper} | Yomi`,
-        description: `Danh sách Hán tự tiếng Nhật cấp độ ${upper} cho người học Việt Nam`,
+        title: `Từ vựng ${upper} | Yomi`,
+        description: `Danh sách từ vựng tiếng Nhật cấp độ ${upper} cho người học Việt Nam`,
     }
-}
-
-function JlptBadge({ level }: { level: string | null | undefined }) {
-    if (!level) return null
-    return <span className={styles.jlptBadge} data-level={level}>{level}</span>
 }
 
 function Pagination({ current, total, base }: { current: number; total: number; base: string }) {
@@ -48,13 +42,17 @@ function Pagination({ current, total, base }: { current: number; total: number; 
     return (
         <div className={styles.pagination}>
             {current > 1 ? (
-                <Link href={`${base}?page=${current - 1}`} className={styles.pageBtn}>← Trang trước</Link>
+                <Link href={`${base}?page=${current - 1}`} className={styles.pageBtn}>
+                    ← Trang trước
+                </Link>
             ) : (
                 <span className={styles.pageBtnDisabled}>← Trang trước</span>
             )}
             <span className={styles.pageInfo}>Trang {current} / {total}</span>
             {current < total ? (
-                <Link href={`${base}?page=${current + 1}`} className={styles.pageBtn}>Trang tiếp →</Link>
+                <Link href={`${base}?page=${current + 1}`} className={styles.pageBtn}>
+                    Trang tiếp →
+                </Link>
             ) : (
                 <span className={styles.pageBtnDisabled}>Trang tiếp →</span>
             )}
@@ -62,7 +60,7 @@ function Pagination({ current, total, base }: { current: number; total: number; 
     )
 }
 
-function KanjiSkeleton() {
+function GridSkeleton() {
     return (
         <div className={styles.grid}>
             {Array.from({ length: 20 }).map((_, i) => (
@@ -72,50 +70,46 @@ function KanjiSkeleton() {
     )
 }
 
-async function KanjiGrid({
-    level, from, to, page, totalPages, base,
+async function VocabGrid({
+    level,
+    from,
+    to,
+    page,
+    totalPages,
+    base,
 }: {
-    level: string; from: number; to: number; page: number; totalPages: number; base: string
+    level: JlptLevel
+    from: number
+    to: number
+    page: number
+    totalPages: number
+    base: string
 }) {
-    const items = await getJlptKanjiItems(level, from, to)
+    const items = await getJlptVocabItems(level, from, to)
 
     if (items.length === 0) {
-        return <p className={styles.empty}>Chưa có dữ liệu Hán tự cho cấp độ này.</p>
+        return <p className={styles.empty}>Chưa có dữ liệu từ vựng cho cấp độ này.</p>
     }
 
     return (
         <>
             <div className={styles.grid}>
-                {items.map((item) => {
-                    const meaning = item.meaning_vi || item.meaning_en
-                    const jlptLabel = kanjiJlptToLabel(item.jlpt)
-                    return (
-                        <Link
-                            key={item.kanji}
-                            href={`/kanji/${encodeURIComponent(item.kanji)}?q=${encodeURIComponent(level)}&lang=vi`}
-                            className={styles.card}
-                        >
-                            <div className={styles.kanjiChar}>{item.kanji}</div>
-                            <div className={styles.kanjiInfo}>
-                                {item.han_viet && <p className={styles.hanViet}>{item.han_viet}</p>}
-                                <p className={styles.meaning}>{meaning || "Đang cập nhật"}</p>
-                                <div className={styles.meta}>
-                                    <JlptBadge level={jlptLabel} />
-                                    {item.stroke_count != null && (
-                                        <span className={styles.stroke}>{item.stroke_count} nét</span>
-                                    )}
-                                </div>
-                            </div>
-                        </Link>
-                    )
-                })}
+                {items.map((item) => (
+                    <Link key={item.id} href={`/vocabulary/${item.id}`} className={styles.card}>
+                        <div className={styles.wordBlock}>
+                            <span className={styles.word}>{item.word}</span>
+                            {item.kana && <span className={styles.kana}>{item.kana}</span>}
+                        </div>
+                        <p className={styles.meaning}>{item.meaning ?? "Đang cập nhật"}</p>
+                    </Link>
+                ))}
             </div>
             <Pagination current={page} total={totalPages} base={base} />
         </>
     )
 }
 
-export default async function StudyKanjiLevelPage({ params, searchParams }: Props) {
+export default async function StudyVocabularyLevelPage({ params, searchParams }: Props) {
     const { level } = await params
     const { page: pageParam } = await searchParams
     const upper = level.toUpperCase()
@@ -125,14 +119,15 @@ export default async function StudyKanjiLevelPage({ params, searchParams }: Prop
     const page = Math.max(1, parseInt(pageParam ?? "1", 10))
     const from = (page - 1) * PAGE_SIZE
     const to = from + PAGE_SIZE - 1
-    const base = `/study/kanji/${level}`
+    const base = `/study/vocabulary/${level}`
 
-    const total = await getJlptKanjiCount(upper as JlptLevel)
+    // Count is fast (cached) — resolve before rendering so the header shows immediately.
+    const total = await getJlptVocabCount(upper as JlptLevel)
     const totalPages = Math.ceil(total / PAGE_SIZE)
     const safePage = Math.min(page, Math.max(1, totalPages))
 
     return (
-        <AppLayout title={`Hán tự ${upper}`} hideSearch>
+        <AppLayout title={`Từ vựng ${upper}`} hideSearch>
             <main className={styles.page}>
                 <div className={styles.header}>
                     <Link href="/study?tab=thu-vien" className={styles.backBtn}>
@@ -142,15 +137,20 @@ export default async function StudyKanjiLevelPage({ params, searchParams }: Prop
                     <div className={styles.headerRow}>
                         <div className={styles.headerTitle}>
                             <span className={styles.levelBadge} data-level={upper}>{upper}</span>
-                            <h1 className={styles.title}>Hán tự</h1>
-                            <span className={styles.count}>{total.toLocaleString("vi-VN")} chữ</span>
+                            <h1 className={styles.title}>Từ vựng</h1>
+                            <span className={styles.count}>{total.toLocaleString("vi-VN")} từ</span>
                         </div>
+                        <Link href={`/study/${level}`} className={styles.flashcardBtn}>
+                            <Layers size={14} />
+                            Học flashcard
+                        </Link>
                     </div>
                 </div>
 
-                <Suspense fallback={<KanjiSkeleton />}>
-                    <KanjiGrid
-                        level={upper}
+                {/* Grid suspends independently — header above is always shown immediately */}
+                <Suspense fallback={<GridSkeleton />}>
+                    <VocabGrid
+                        level={upper as JlptLevel}
                         from={from}
                         to={to}
                         page={safePage}
