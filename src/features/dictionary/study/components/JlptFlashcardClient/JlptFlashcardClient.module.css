@@ -433,6 +433,24 @@
 
 .backToStudyBtn:hover { color: var(--color-text-primary); }
 
+/* ── Empty state ── */
+
+.emptyState {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 80px 32px;
+    text-align: center;
+}
+
+.emptyTitle {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
 /* ── Mobile ── */
 @media (max-width: 520px) {
     .cardWord { font-size: 40px; }

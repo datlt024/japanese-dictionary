@@ -15,13 +15,23 @@ const SEARCH_GRAMMAR_COLUMNS = `
     explanation_vi
 `
 
-export async function searchGrammarsByKeyword(keyword: string) {
-    const value = escapeLikePattern(keyword.trim())
+const JLPT_LEVEL_RE = /^N[1-5]$/i
 
-    if (!value) {
-        return { data: [], error: null }
+export async function searchGrammarsByKeyword(keyword: string) {
+    const trimmed = keyword.trim()
+    if (!trimmed) return { data: [], error: null }
+
+    // When keyword is a JLPT level code (N1–N5), filter by level instead of text search
+    if (JLPT_LEVEL_RE.test(trimmed)) {
+        return supabaseServer
+            .from("grammars")
+            .select(SEARCH_GRAMMAR_COLUMNS)
+            .eq("jlpt_level", trimmed.toUpperCase())
+            .order("sort_order", { ascending: true })
+            .limit(100)
     }
 
+    const value = escapeLikePattern(trimmed)
     return supabaseServer
         .from("grammars")
         .select(SEARCH_GRAMMAR_COLUMNS)

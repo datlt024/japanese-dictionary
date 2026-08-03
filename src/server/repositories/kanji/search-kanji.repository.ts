@@ -30,3 +30,14 @@ export function getKanjisByCharacters(chars: string[]) {
         .select(SEARCH_KANJI_COLUMNS)
         .in("kanji", chars)
 }
+
+export function getKanjisByJlptLevel(level: string) {
+    // kanjis.jlpt is integer: N5→5, N4→4, N3→3, N2→2, N1→1
+    const jlptNum = parseInt(level.replace(/^N/i, ""), 10)
+    return supabaseServer
+        .from("kanjis")
+        .select(SEARCH_KANJI_COLUMNS)
+        .eq("jlpt", jlptNum)
+        .order("kanji", { ascending: true })
+        .limit(200)
+}

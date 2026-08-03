@@ -108,7 +108,12 @@ export async function searchVocabulariesByKeyword(
     const meaningColumn =
         language === "en" ? "meaning_en" : "meaning_vi"
 
-    // Step 1a+b: run exact-match and ILIKE in parallel
+    // ILIKE '%x%' is a full table scan without a trigram index.
+    // Skip it for very short keywords to avoid statement timeouts.
+    // Run migration 020 to add pg_trgm indexes and make ILIKE fast.
+    const useLike = value.length >= 2
+
+    // Step 1a+b: run exact-match and (if safe) ILIKE in parallel
     const [exactResult, likeResult] = await Promise.all([
         supabaseServer
             .from("vocabulary_senses")
@@ -117,13 +122,15 @@ export async function searchVocabulariesByKeyword(
             .not(meaningColumn, "is", null)
             .eq("is_hidden", false)
             .limit(200),
-        supabaseServer
-            .from("vocabulary_senses")
-            .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
-            .ilike(meaningColumn, `%${escapedValue}%`)
-            .not(meaningColumn, "is", null)
-            .eq("is_hidden", false)
-            .limit(100),
+        useLike
+            ? supabaseServer
+                .from("vocabulary_senses")
+                .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
+                .ilike(meaningColumn, `%${escapedValue}%`)
+                .not(meaningColumn, "is", null)
+                .eq("is_hidden", false)
+                .limit(100)
+            : Promise.resolve({ data: [], error: null }),
     ])
 
     const senseError = exactResult.error ?? likeResult.error

@@ -11,7 +11,7 @@ import type {
 
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
 
-import { getKanjisByCharacters, searchKanjiByKeyword } from "@/server/repositories/kanji/search-kanji.repository"
+import { getKanjisByCharacters, searchKanjiByKeyword, getKanjisByJlptLevel } from "@/server/repositories/kanji/search-kanji.repository"
 import { searchGrammarsByKeyword } from "@/server/repositories/grammar/search-grammar.repository"
 import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
 import { tryRomajiToHiragana } from "@/shared/utils/japanese"
@@ -66,10 +66,19 @@ async function searchVocabularyResult(
     }
 }
 
+const JLPT_LEVEL_RE = /^N[1-5]$/i
+
 async function searchKanjiResult(
     keyword: string
 ): Promise<KanjiSearchItem[]> {
     try {
+        // When keyword is a JLPT level code, return all kanji for that level
+        if (JLPT_LEVEL_RE.test(keyword.trim())) {
+            const { data, error } = await getKanjisByJlptLevel(keyword.trim())
+            if (error) { logSearchError("Kanji JLPT search error:", error); return [] }
+            return (data || []) as KanjiSearchItem[]
+        }
+
         const { data, error } = await searchKanjiByKeyword(keyword)
 
         if (error) {

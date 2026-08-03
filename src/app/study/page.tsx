@@ -1,15 +1,18 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import dynamic from "next/dynamic"
-import { BookOpen, Compass, Library, ClipboardList } from "lucide-react"
+import { BookOpen, Compass, Library, ClipboardList, FileText, PenLine } from "lucide-react"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
-import { getAllJlptCounts } from "@/server/services/study/jlpt-study.service"
+import { getAllStudyCounts } from "@/server/services/study/jlpt-study.service"
+import type { JlptLevel } from "@/server/services/study/jlpt-study.service"
 import styles from "./page.module.css"
 
 const StudyNotebooksTab = dynamic(
     () => import("@/features/dictionary/study/components/StudyNotebooksTab/StudyNotebooksTab")
 )
+
+import KanaTables from "@/features/dictionary/study/components/KanaTables/KanaTables"
 
 export const metadata: Metadata = {
     title: "Học tập | Yomi",
@@ -49,43 +52,83 @@ function StudyTabBar({ active }: { active: StudyTab }) {
     )
 }
 
-const LEVEL_DESCRIPTIONS: Record<string, string> = {
-    N5: "Cơ bản — giao tiếp đơn giản hằng ngày",
-    N4: "Sơ cấp — hiểu hội thoại quen thuộc",
-    N3: "Trung cấp — đọc hiểu văn bản thông dụng",
-    N2: "Cao cấp — đọc báo, tài liệu chuyên ngành",
-    N1: "Thành thạo — hiểu tiếng Nhật phức tạp",
-}
+const LEVELS: JlptLevel[] = ["N1", "N2", "N3", "N4", "N5"]
 
 async function KhamPhaContent() {
-    const counts = await getAllJlptCounts()
+    const counts = await getAllStudyCounts()
+
     return (
         <>
             <div className={styles.sectionHeader}>
                 <h2 className={styles.sectionTitle}>Học theo cấp độ</h2>
                 <p className={styles.sectionSubtitle}>
-                    Chọn cấp độ JLPT để bắt đầu ôn luyện từ vựng bằng flashcard
+                    Chọn loại nội dung và cấp độ JLPT để bắt đầu
                 </p>
             </div>
 
-            <div className={styles.levelGrid}>
-                {(["N5", "N4", "N3", "N2", "N1"] as const).map((level) => (
-                    <Link
-                        key={level}
-                        href={`/study/${level.toLowerCase()}`}
-                        className={styles.levelCard}
-                        data-level={level}
-                    >
-                        <div className={styles.levelBadge}>{level}</div>
-                        <p className={styles.levelDesc}>{LEVEL_DESCRIPTIONS[level]}</p>
-                        <div className={styles.levelMeta}>
-                            <span className={styles.wordCount}>
-                                {counts[level].toLocaleString("vi-VN")} từ
+            <div className={styles.categoryGrid}>
+                <div className={styles.categoryCard}>
+                    <div className={styles.categoryHeader}>
+                        <BookOpen size={15} />
+                        <span>Từ vựng</span>
+                    </div>
+                    {LEVELS.map((level) => (
+                        <Link
+                            key={level}
+                            href={`/study/${level.toLowerCase()}`}
+                            className={styles.levelRow}
+                            data-level={level}
+                        >
+                            <span className={styles.levelTag}>{level}</span>
+                            <span className={styles.levelRowCount}>
+                                {counts.vocab[level].toLocaleString("vi-VN")} từ
                             </span>
-                            <span className={styles.startLabel}>Bắt đầu →</span>
-                        </div>
-                    </Link>
-                ))}
+                            <span className={styles.levelRowArrow}>→</span>
+                        </Link>
+                    ))}
+                </div>
+
+                <div className={styles.categoryCard}>
+                    <div className={styles.categoryHeader}>
+                        <FileText size={15} />
+                        <span>Ngữ pháp</span>
+                    </div>
+                    {LEVELS.map((level) => (
+                        <Link
+                            key={level}
+                            href={`/study/grammar/${level.toLowerCase()}`}
+                            className={styles.levelRow}
+                            data-level={level}
+                        >
+                            <span className={styles.levelTag}>{level}</span>
+                            <span className={styles.levelRowCount}>
+                                {counts.grammar[level].toLocaleString("vi-VN")} mẫu
+                            </span>
+                            <span className={styles.levelRowArrow}>→</span>
+                        </Link>
+                    ))}
+                </div>
+
+                <div className={styles.categoryCard}>
+                    <div className={styles.categoryHeader}>
+                        <PenLine size={15} />
+                        <span>Hán tự</span>
+                    </div>
+                    {LEVELS.map((level) => (
+                        <Link
+                            key={level}
+                            href={`/study/kanji/${level.toLowerCase()}`}
+                            className={styles.levelRow}
+                            data-level={level}
+                        >
+                            <span className={styles.levelTag}>{level}</span>
+                            <span className={styles.levelRowCount}>
+                                {counts.kanji[level].toLocaleString("vi-VN")} chữ
+                            </span>
+                            <span className={styles.levelRowArrow}>→</span>
+                        </Link>
+                    ))}
+                </div>
             </div>
         </>
     )
@@ -114,8 +157,12 @@ export default async function StudyPage({ searchParams }: Props) {
 
                 <div className={styles.tabContent}>
                     {tab === "so-tay"   && <StudyNotebooksTab />}
-                    {tab === "kham-pha" && <KhamPhaContent />}
-                    {tab === "thu-vien" && <ComingSoonContent label="Thư viện" />}
+                    {tab === "kham-pha" && <ComingSoonContent label="Khám phá" />}
+                    {tab === "thu-vien" && (
+                        <KanaTables>
+                            <KhamPhaContent />
+                        </KanaTables>
+                    )}
                     {tab === "thi-thu"  && <ComingSoonContent label="Thi thử" />}
                 </div>
             </main>

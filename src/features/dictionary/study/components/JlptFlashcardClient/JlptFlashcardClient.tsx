@@ -84,6 +84,10 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
             const res = await fetch(`/api/study/jlpt?level=${level}&limit=50`)
             if (!res.ok) throw new Error("fetch failed")
             const data: JlptStudyItem[] = await res.json()
+            if (data.length === 0) {
+                setFetchError("Không tải được từ mới. Vui lòng thử lại.")
+                return
+            }
             setItems(data)
             setIndex(0)
             setFlipped(false)
@@ -163,11 +167,30 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                             <RefreshCw size={16} />
                             {loadingNew ? "Đang tải…" : "Học tiếp 50 từ mới"}
                         </button>
-                        <Link href="/study" className={styles.backToStudyBtn}>
+                        <Link href="/study?tab=thu-vien" className={styles.backToStudyBtn}>
                             <ArrowLeft size={15} />
                             Chọn cấp độ khác
                         </Link>
                     </div>
+                </div>
+            </div>
+        )
+    }
+
+    if (!current) {
+        return (
+            <div className={styles.root}>
+                <div className={styles.topBar}>
+                    <Link href="/study?tab=thu-vien" className={styles.backBtn}>
+                        <ArrowLeft size={15} />
+                        Chọn cấp độ
+                    </Link>
+                    <div className={styles.levelBadge}>{level}</div>
+                    <span />
+                </div>
+                <div className={styles.emptyState}>
+                    <p className={styles.emptyTitle}>Chưa có từ vựng cho cấp độ {level}</p>
+                    <Link href="/study?tab=thu-vien" className={styles.backToStudyBtn}>Quay lại</Link>
                 </div>
             </div>
         )
@@ -178,7 +201,7 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
     return (
         <div className={styles.root}>
             <div className={styles.topBar}>
-                <Link href="/study" className={styles.backBtn}>
+                <Link href="/study?tab=thu-vien" className={styles.backBtn}>
                     <ArrowLeft size={15} />
                     Chọn cấp độ
                 </Link>

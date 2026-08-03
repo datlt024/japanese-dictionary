@@ -1,0 +1,196 @@
+.page {
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 0 48px;
+}
+
+/* ── Header ── */
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.backBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    color: var(--color-text-secondary);
+
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: color .15s;
+}
+
+.backBtn:hover {
+    color: var(--color-primary);
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    margin: 0;
+
+    color: var(--color-text-primary);
+
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.count {
+    color: var(--color-text-muted);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ── JLPT badge ── */
+.levelBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3px 10px;
+
+    border-radius: 999px;
+
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .02em;
+}
+
+.levelBadge[data-level="N5"] { background: var(--color-jlpt-n5-soft); color: var(--color-jlpt-n5); }
+.levelBadge[data-level="N4"] { background: var(--color-jlpt-n4-soft); color: var(--color-jlpt-n4); }
+.levelBadge[data-level="N3"] { background: var(--color-jlpt-n3-soft); color: var(--color-jlpt-n3); }
+.levelBadge[data-level="N2"] { background: var(--color-jlpt-n2-soft); color: var(--color-jlpt-n2); }
+.levelBadge[data-level="N1"] { background: var(--color-jlpt-n1-soft); color: var(--color-jlpt-n1); }
+
+.jlptBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2px 8px;
+
+    border-radius: 999px;
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .02em;
+    white-space: nowrap;
+}
+
+.jlptBadge[data-level="N5"] { background: var(--color-jlpt-n5-soft); color: var(--color-jlpt-n5); }
+.jlptBadge[data-level="N4"] { background: var(--color-jlpt-n4-soft); color: var(--color-jlpt-n4); }
+.jlptBadge[data-level="N3"] { background: var(--color-jlpt-n3-soft); color: var(--color-jlpt-n3); }
+.jlptBadge[data-level="N2"] { background: var(--color-jlpt-n2-soft); color: var(--color-jlpt-n2); }
+.jlptBadge[data-level="N1"] { background: var(--color-jlpt-n1-soft); color: var(--color-jlpt-n1); }
+
+/* ── Kanji grid ── */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 14px 16px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+
+    background: var(--color-surface);
+    color: inherit;
+    text-decoration: none;
+
+    transition: border-color .15s, box-shadow .15s;
+}
+
+.card:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, .07);
+}
+
+.kanjiChar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 52px;
+    height: 52px;
+
+    border-radius: 12px;
+    border: 1.5px solid var(--color-border);
+
+    background: var(--color-bg);
+    color: var(--color-text-primary);
+
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.kanjiInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.hanViet {
+    margin: 0;
+
+    color: var(--color-primary);
+
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .05em;
+}
+
+.meaning {
+    margin: 0;
+
+    color: var(--color-text-primary);
+
+    font-size: 13px;
+    font-weight: 500;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+.stroke {
+    color: var(--color-text-muted);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* ── Empty ── */
+.empty {
+    color: var(--color-text-muted);
+    font-size: 14px;
+    margin: 0;
+    padding: 48px 0;
+    text-align: center;
+}

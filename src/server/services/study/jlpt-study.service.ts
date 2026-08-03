@@ -25,10 +25,16 @@ export const getJlptVocabCount = unstable_cache(
 )
 
 export async function getJlptStudyBatch(level: JlptLevel, limit = 20): Promise<JlptStudyItem[]> {
-    const count = await getJlptVocabCount(level)
-    if (!count) return []
+    // Query a fresh count (not cached) to avoid stale offset miscalculation
+    const { count: freshCount } = await supabaseServer
+        .from("vocabularies")
+        .select("id", { count: "exact", head: true })
+        .eq("jlpt", level)
 
-    const maxOffset = Math.max(0, count - limit)
+    const total = freshCount ?? 0
+    if (!total) return []
+
+    const maxOffset = Math.max(0, total - limit)
     const offset = Math.floor(Math.random() * (maxOffset + 1))
 
     const { data } = await supabaseServer
@@ -38,9 +44,16 @@ export async function getJlptStudyBatch(level: JlptLevel, limit = 20): Promise<J
         .range(offset, offset + limit - 1)
         .order("id")
 
-    if (!data) return []
+    // Fallback to offset 0 if random offset returned nothing (edge case)
+    const rows = (data && data.length > 0) ? data : await supabaseServer
+        .from("vocabularies")
+        .select("id, primary_word, primary_kana, vocabulary_senses(meaning_vi, sense_index)")
+        .eq("jlpt", level)
+        .range(0, limit - 1)
+        .order("id")
+        .then((r) => r.data ?? [])
 
-    return data.map((v) => {
+    return rows.map((v) => {
         const senses = (v.vocabulary_senses as { meaning_vi: string | null; sense_index: number }[]) ?? []
         const meaning = senses
             .sort((a, b) => a.sense_index - b.sense_index)
@@ -69,5 +82,52 @@ export const getAllJlptCounts = unstable_cache(
         return Object.fromEntries(results) as Record<JlptLevel, number>
     },
     ["jlpt-all-counts"],
+    { revalidate: 86400 }
+)
+
+export const getJlptGrammarCount = unstable_cache(
+    async (level: JlptLevel): Promise<number> => {
+        const { count } = await supabaseServer
+            .from("grammars")
+            .select("id", { count: "exact", head: true })
+            .eq("jlpt_level", level)
+        return count ?? 0
+    },
+    ["jlpt-grammar-count"],
+    { revalidate: 86400 }
+)
+
+export const getJlptKanjiCount = unstable_cache(
+    async (level: JlptLevel): Promise<number> => {
+        // kanjis.jlpt is integer: N5→5, N4→4, N3→3, N2→2, N1→1
+        const jlptNum = parseInt(level.replace(/^N/i, ""), 10)
+        const { count } = await supabaseServer
+            .from("kanjis")
+            .select("id", { count: "exact", head: true })
+            .eq("jlpt", jlptNum)
+        return count ?? 0
+    },
+    ["jlpt-kanji-count-v2"],
+    { revalidate: 86400 }
+)
+
+export const getAllStudyCounts = unstable_cache(
+    async (): Promise<{
+        vocab: Record<JlptLevel, number>
+        grammar: Record<JlptLevel, number>
+        kanji: Record<JlptLevel, number>
+    }> => {
+        const [vocabRows, grammarRows, kanjiRows] = await Promise.all([
+            Promise.all(JLPT_LEVELS.map(async (l) => [l, await getJlptVocabCount(l)] as const)),
+            Promise.all(JLPT_LEVELS.map(async (l) => [l, await getJlptGrammarCount(l)] as const)),
+            Promise.all(JLPT_LEVELS.map(async (l) => [l, await getJlptKanjiCount(l)] as const)),
+        ])
+        return {
+            vocab:   Object.fromEntries(vocabRows)   as Record<JlptLevel, number>,
+            grammar: Object.fromEntries(grammarRows) as Record<JlptLevel, number>,
+            kanji:   Object.fromEntries(kanjiRows)   as Record<JlptLevel, number>,
+        }
+    },
+    ["jlpt-all-study-counts-v2"],
     { revalidate: 86400 }
 )

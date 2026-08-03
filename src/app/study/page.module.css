@@ -160,6 +160,83 @@
 
 .levelCard:hover .startLabel { opacity: 1; }
 
+/* ── Category grid (3-column: từ vựng / ngữ pháp / hán tự) ── */
+
+.categoryGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.categoryCard {
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.categoryHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 20px;
+    border-bottom: 1.5px solid var(--color-border);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    background: var(--color-bg);
+}
+
+.levelRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-border);
+    transition: background 0.12s;
+}
+
+.levelRow:last-child {
+    border-bottom: none;
+}
+
+.levelRow:hover {
+    background: var(--color-bg);
+}
+
+.levelTag {
+    font-size: 13px;
+    font-weight: 800;
+    min-width: 28px;
+    color: var(--color-text-secondary);
+}
+
+.levelRow[data-level="N5"] .levelTag { color: #16a34a; }
+.levelRow[data-level="N4"] .levelTag { color: #2563eb; }
+.levelRow[data-level="N3"] .levelTag { color: #7c3aed; }
+.levelRow[data-level="N2"] .levelTag { color: #d97706; }
+.levelRow[data-level="N1"] .levelTag { color: #ef4444; }
+
+.levelRowCount {
+    flex: 1;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+.levelRowArrow {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    opacity: 0;
+    transition: opacity 0.12s;
+}
+
+.levelRow:hover .levelRowArrow {
+    opacity: 1;
+}
+
 /* ── Coming soon ─────────────────────────────────────── */
 
 .comingSoon {
@@ -203,6 +280,12 @@
 @media (max-width: 900px) {
     .levelGrid {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .categoryGrid {
+        grid-template-columns: 1fr;
     }
 }
 
