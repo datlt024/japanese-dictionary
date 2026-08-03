@@ -151,6 +151,40 @@ function ComingSoonContent({ label }: { label: string }) {
     )
 }
 
+const EXAM_CONFIGS = [
+    { level: "N5", desc: "Từ vựng và ngữ pháp cơ bản",   questions: 30, duration: 20 },
+    { level: "N4", desc: "Giao tiếp hằng ngày",            questions: 35, duration: 25 },
+    { level: "N3", desc: "Hiểu văn bản thông thường",      questions: 40, duration: 30 },
+    { level: "N2", desc: "Đọc hiểu văn bản phức tạp",      questions: 40, duration: 35 },
+    { level: "N1", desc: "Tiếng Nhật trình độ cao cấp",    questions: 40, duration: 40 },
+]
+
+function ThiThuContent() {
+    return (
+        <>
+            <p className={styles.sectionEyebrow}>Chọn cấp độ</p>
+            <div className={styles.examGrid}>
+                {EXAM_CONFIGS.map(({ level, desc, questions, duration }) => (
+                    <Link
+                        key={level}
+                        href={`/study/exam/${level.toLowerCase()}`}
+                        className={styles.examCard}
+                        data-level={level}
+                    >
+                        <span className={styles.examLevel}>{level}</span>
+                        <p className={styles.examDesc}>{desc}</p>
+                        <div className={styles.examMeta}>
+                            <span>{questions} câu</span>
+                            <span>{duration} phút</span>
+                        </div>
+                        <span className={styles.examStart}>Bắt đầu →</span>
+                    </Link>
+                ))}
+            </div>
+        </>
+    )
+}
+
 type Props = { searchParams: Promise<{ tab?: string }> }
 
 export default async function StudyPage({ searchParams }: Props) {
@@ -170,7 +204,7 @@ export default async function StudyPage({ searchParams }: Props) {
                             <KhamPhaContent />
                         </KanaTables>
                     )}
-                    {tab === "thi-thu"  && <ComingSoonContent label="Thi thử" />}
+                    {tab === "thi-thu"  && <ThiThuContent />}
                 </div>
             </main>
         </AppLayout>

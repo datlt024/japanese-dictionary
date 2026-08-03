@@ -226,6 +226,80 @@
     opacity: 1;
 }
 
+/* ── Exam grid (thi-thu tab) ─────────────────────────── */
+
+.examGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+}
+
+.examCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 20px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 18px;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.examCard:hover { transform: translateY(-2px); }
+
+.examCard[data-level="N5"]:hover { border-color: #16a34a; box-shadow: 0 4px 16px rgba(22,163,74,0.1); }
+.examCard[data-level="N4"]:hover { border-color: #2563eb; box-shadow: 0 4px 16px rgba(37,99,235,0.1); }
+.examCard[data-level="N3"]:hover { border-color: #7c3aed; box-shadow: 0 4px 16px rgba(124,58,237,0.1); }
+.examCard[data-level="N2"]:hover { border-color: #d97706; box-shadow: 0 4px 16px rgba(217,119,6,0.1); }
+.examCard[data-level="N1"]:hover { border-color: #ef4444; box-shadow: 0 4px 16px rgba(239,68,68,0.1); }
+
+.examLevel {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--color-primary);
+}
+
+.examCard[data-level="N5"] .examLevel { color: #16a34a; }
+.examCard[data-level="N4"] .examLevel { color: #2563eb; }
+.examCard[data-level="N3"] .examLevel { color: #7c3aed; }
+.examCard[data-level="N2"] .examLevel { color: #d97706; }
+.examCard[data-level="N1"] .examLevel { color: #ef4444; }
+
+.examDesc {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    flex: 1;
+    margin: 0;
+    line-height: 1.55;
+}
+
+.examMeta {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
+.examStart {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-primary);
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.examCard[data-level="N5"] .examStart { color: #16a34a; }
+.examCard[data-level="N4"] .examStart { color: #2563eb; }
+.examCard[data-level="N3"] .examStart { color: #7c3aed; }
+.examCard[data-level="N2"] .examStart { color: #d97706; }
+.examCard[data-level="N1"] .examStart { color: #ef4444; }
+
+.examCard:hover .examStart { opacity: 1; }
+
 /* ── Coming soon ─────────────────────────────────────── */
 
 .comingSoon {
@@ -270,11 +344,17 @@
     .levelGrid {
         grid-template-columns: repeat(3, 1fr);
     }
+    .examGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (max-width: 640px) {
     .categoryGrid {
         grid-template-columns: 1fr;
+    }
+    .examGrid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
