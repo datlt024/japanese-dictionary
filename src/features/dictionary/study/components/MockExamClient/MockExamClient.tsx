@@ -108,47 +108,47 @@ const EXAM: Record<string, {
         ],
     },
     N3: {
-        duration: 100 * 60,  // 30 + 70 min (聴解 40 min not tested)
+        duration: 140 * 60,  // 30 + 70 min tested + 40 min 聴解
         passingDisplay: "95",
         passing: { secMin: 19, total: 95 },
         infoRows: [
-            { title: "語彙",      count: 31 },
-            { title: "文法・読解", count: 34 },
-            { title: "聴解",      count: 37, skipped: true },
+            { title: "語彙",      count: 35 },
+            { title: "文法・読解", count: 39 },
+            { title: "聴解",      count: 28, skipped: true },
         ],
         sections: [
             {
                 id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 30,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",   type: "kanji_reading", count: 8 },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",   type: "orthography",   count: 6 },
-                    { id: "q3", label: "問題3", sublabel: "語彙形成",        type: "vocab_meaning", count: 5 },
-                    { id: "q4", label: "問題4", sublabel: "文脈規定",        type: "vocab_meaning", count: 7 },
-                    { id: "q5", label: "問題5", sublabel: "言い換え類義",    type: "vocab_meaning", count: 5 },
+                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",   type: "kanji_reading", count: 10 },
+                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",   type: "orthography",   count: 8  },
+                    { id: "q3", label: "問題3", sublabel: "語彙形成",        type: "vocab_meaning", count: 5  },
+                    { id: "q4", label: "問題4", sublabel: "文脈規定",        type: "vocab_meaning", count: 7  },
+                    { id: "q5", label: "問題5", sublabel: "言い換え類義",    type: "vocab_meaning", count: 5  },
                 ],
             },
             {
-                id: "grammar", title: "言語知識（文法）", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
+                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
                 groups: [
-                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 13 },
-                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 5  },
-                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 5  },
+                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 20 },
+                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 10 },
+                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 9  },
                 ],
             },
         ],
     },
     N2: {
-        duration: 105 * 60,
+        duration: 155 * 60,  // 105 min tested (gộp) + 50 min 聴解
         passingDisplay: "90",
         passing: { secMin: 19, total: 90 },
         infoRows: [
             { title: "語彙",       count: 27 },
-            { title: "文法・読解",  count: 46 },
-            { title: "聴解",        count: 35, skipped: true },
+            { title: "文法・読解",  count: 48 },
+            { title: "聴解",        count: 30, skipped: true },
         ],
         sections: [
             {
-                id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 40,
+                id: "vocab", title: "言語知識（語彙・文法）・読解", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 40,
                 groups: [
                     { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 5 },
                     { id: "q2", label: "問題2", sublabel: "語彙形成",      type: "vocab_meaning", count: 5 },
@@ -158,27 +158,27 @@ const EXAM: Record<string, {
                 ],
             },
             {
-                id: "grammar", title: "言語知識（文法）", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 65,
+                id: "grammar", title: "言語知識（語彙・文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 65,
                 groups: [
-                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 12 },
-                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 5  },
-                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 5  },
+                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 25 },
+                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 15 },
+                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 8  },
                 ],
             },
         ],
     },
     N1: {
-        duration: 110 * 60,
+        duration: 165 * 60,  // 110 min tested (gộp) + 55 min 聴解
         passingDisplay: "100",
         passing: { secMin: 19, total: 100 },
         infoRows: [
             { title: "語彙",       count: 24 },
             { title: "文法・読解",  count: 46 },
-            { title: "聴解",        count: 37, skipped: true },
+            { title: "聴解",        count: 35, skipped: true },
         ],
         sections: [
             {
-                id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 40,
+                id: "vocab", title: "言語知識（語彙・文法）・読解", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 40,
                 groups: [
                     { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 6 },
                     { id: "q2", label: "問題2", sublabel: "文脈規定",      type: "vocab_meaning", count: 7 },
@@ -187,11 +187,11 @@ const EXAM: Record<string, {
                 ],
             },
             {
-                id: "grammar", title: "言語知識（文法）", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
+                id: "grammar", title: "言語知識（語彙・文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
                 groups: [
-                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 10 },
-                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 5  },
-                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 5  },
+                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 25 },
+                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 15 },
+                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 6  },
                 ],
             },
         ],
