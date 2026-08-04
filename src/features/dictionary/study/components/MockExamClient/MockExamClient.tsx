@@ -767,24 +767,36 @@ export default function MockExamClient({ level }: { level: string }) {
                 </div>
                 <p className={styles.scoreNote}>Điểm từ vựng + ngữ pháp · Ngưỡng đạt {cfg.passingDisplay}/180</p>
 
-                {/* Per-section scores */}
+                {/* Per-section scores — all 3 sections including 聴解 */}
                 <div className={styles.sectionScores}>
-                    <div className={styles.sectionScore} data-passed={String(vocabPassed)}>
-                        <p className={styles.sectionScoreTitle}>語彙 · Từ vựng</p>
-                        <div className={styles.sectionScoreVal}>
-                            <span>{vocabScore}</span><small>/60</small>
-                        </div>
-                        <p className={styles.sectionScoreDetail}>{vocabCorrect}/{vocabQs.length} câu đúng</p>
-                        {!vocabPassed && <p className={styles.sectionFail}>Điểm liệt — dưới 19 điểm</p>}
-                    </div>
-                    <div className={styles.sectionScore} data-passed={String(grammarPassed)}>
-                        <p className={styles.sectionScoreTitle}>文法 · Ngữ pháp</p>
-                        <div className={styles.sectionScoreVal}>
-                            <span>{grammarScore}</span><small>/60</small>
-                        </div>
-                        <p className={styles.sectionScoreDetail}>{grammarCorrect}/{grammarQs.length} câu đúng</p>
-                        {!grammarPassed && <p className={styles.sectionFail}>Điểm liệt — dưới 19 điểm</p>}
-                    </div>
+                    {cfg.infoRows.map((row, rowIdx) => {
+                        const skipped   = !!row.skipped
+                        const testedIdx = cfg.infoRows.slice(0, rowIdx).filter(r => !r.skipped).length
+                        const score   = skipped ? null : testedIdx === 0 ? vocabScore   : grammarScore
+                        const correct = skipped ? null : testedIdx === 0 ? vocabCorrect : grammarCorrect
+                        const total   = skipped ? null : testedIdx === 0 ? vocabQs.length : grammarQs.length
+                        const passed  = skipped ? null : testedIdx === 0 ? vocabPassed  : grammarPassed
+                        return (
+                            <div key={row.title} className={styles.sectionScoreRow}
+                                data-skipped={skipped || undefined}
+                                data-passed={passed !== null ? String(passed) : undefined}>
+                                <div className={styles.sectionScoreInfo}>
+                                    <span className={styles.sectionScoreTitle}>{row.title}</span>
+                                    {!skipped && correct !== null && (
+                                        <span className={styles.sectionScoreDetail}>{correct}/{total} câu đúng</span>
+                                    )}
+                                    {passed === false && <span className={styles.sectionFail}>Điểm liệt</span>}
+                                </div>
+                                <div className={styles.sectionScoreVal}>
+                                    {skipped ? (
+                                        <span className={styles.sectionScoreSkipped}>Không thi</span>
+                                    ) : (
+                                        <><span>{score}</span><small>/60</small></>
+                                    )}
+                                </div>
+                            </div>
+                        )
+                    })}
                 </div>
 
                 {/* Stats row */}

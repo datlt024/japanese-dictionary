@@ -761,64 +761,94 @@
     color: var(--color-text-secondary);
 }
 
-/* per-section scores */
+/* per-section scores — row layout (3 sections) */
 .sectionScores {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1.5px solid var(--color-border);
+    border-radius: 14px;
+    overflow: hidden;
     margin-bottom: 24px;
 }
 
-.sectionScore {
-    background: var(--color-bg);
-    border: 1.5px solid var(--color-border);
-    border-radius: 14px;
-    padding: 16px;
+.sectionScoreRow {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 13px 16px;
+    border-bottom: 1px solid var(--color-border);
+    transition: background 0.1s;
 }
 
-.sectionScore[data-passed="true"]  { border-color: #bbf7d0; }
-.sectionScore[data-passed="false"] { border-color: #fecaca; }
+.sectionScoreRow:last-child { border-bottom: none; }
+
+.sectionScoreRow[data-passed="true"]  { background: #f0fdf4; }
+.sectionScoreRow[data-passed="false"] { background: #fef2f2; }
+.sectionScoreRow[data-skipped]        { background: var(--color-bg); }
+
+@media (prefers-color-scheme: dark) {
+    .sectionScoreRow[data-passed="true"]  { background: rgba(22,163,74,0.08); }
+    .sectionScoreRow[data-passed="false"] { background: rgba(239,68,68,0.08); }
+}
+:root[data-theme="dark"]  .sectionScoreRow[data-passed="true"]  { background: rgba(22,163,74,0.08); }
+:root[data-theme="dark"]  .sectionScoreRow[data-passed="false"] { background: rgba(239,68,68,0.08); }
+:root[data-theme="light"] .sectionScoreRow[data-passed="true"]  { background: #f0fdf4; }
+:root[data-theme="light"] .sectionScoreRow[data-passed="false"] { background: #fef2f2; }
+
+.sectionScoreInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
 
 .sectionScoreTitle {
-    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.sectionScoreRow[data-skipped] .sectionScoreTitle {
+    color: var(--color-text-secondary);
+}
+
+.sectionScoreDetail {
+    font-size: 11px;
+    color: var(--color-text-secondary);
+}
+
+.sectionFail {
     font-size: 11px;
     font-weight: 700;
-    color: var(--color-text-secondary);
+    color: #ef4444;
 }
 
 .sectionScoreVal {
     display: flex;
     align-items: baseline;
-    gap: 3px;
+    gap: 2px;
+    flex-shrink: 0;
 }
 
 .sectionScoreVal span {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 900;
     color: var(--color-text-primary);
     font-variant-numeric: tabular-nums;
 }
 
 .sectionScoreVal small {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     color: var(--color-text-secondary);
 }
 
-.sectionScoreDetail {
-    margin: 0;
-    font-size: 11px;
-    color: var(--color-text-secondary);
-}
-
-.sectionFail {
-    margin: 4px 0 0;
-    font-size: 11px;
+.sectionScoreSkipped {
+    font-size: 12px;
     font-weight: 600;
-    color: #ef4444;
+    color: var(--color-text-secondary);
+    font-style: italic;
 }
 
 /* stats row */
@@ -1056,5 +1086,5 @@
     .wordDisplay { font-size: 28px; }
     .wordBlock[data-type="kanji_reading"] .wordDisplay,
     .wordBlock[data-type="orthography"]   .wordDisplay { font-size: 32px; }
-    .sectionScores { grid-template-columns: 1fr; }
+
 }
