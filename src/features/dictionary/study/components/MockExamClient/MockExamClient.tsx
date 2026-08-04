@@ -52,9 +52,9 @@ const EXAM: Record<string, {
     sections: Section[]
 }> = {
     N5: {
-        duration: 90 * 60,
+        duration: 60 * 60,  // 20 + 40 min (聴解 30 min not tested)
         passingDisplay: "80",
-        passing: { secMin: 19, total: 53 }, // 19/60 per section, 53/120 (≈80/180 scaled, no listening)
+        passing: { secMin: 19, total: 53 },
         infoRows: [
             { title: "文字・語彙", count: 21 },
             { title: "文法・読解", count: 22 },
@@ -62,7 +62,7 @@ const EXAM: Record<string, {
         ],
         sections: [
             {
-                id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 25,
+                id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 20,
                 groups: [
                     { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 8 },
                     { id: "q2", label: "問題2", sublabel: "漢字の書き方", type: "orthography",   count: 6 },
@@ -70,7 +70,7 @@ const EXAM: Record<string, {
                 ],
             },
             {
-                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 65,
+                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 40,
                 groups: [
                     { id: "q4", label: "問題1", sublabel: "文の文法1", type: "grammar_meaning", count: 16 },
                     { id: "q5", label: "問題2", sublabel: "文の文法2", type: "grammar_meaning", count: 6  },
@@ -79,7 +79,7 @@ const EXAM: Record<string, {
         ],
     },
     N4: {
-        duration: 105 * 60,
+        duration: 80 * 60,  // 25 + 55 min (聴解 35 min not tested)
         passingDisplay: "90",
         passing: { secMin: 19, total: 60 },
         infoRows: [
@@ -98,7 +98,7 @@ const EXAM: Record<string, {
                 ],
             },
             {
-                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 80,
+                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 55,
                 groups: [
                     { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 15 },
                     { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 9  },
@@ -108,7 +108,7 @@ const EXAM: Record<string, {
         ],
     },
     N3: {
-        duration: 105 * 60,
+        duration: 100 * 60,  // 30 + 70 min (聴解 40 min not tested)
         passingDisplay: "95",
         passing: { secMin: 19, total: 63 },
         infoRows: [
@@ -546,7 +546,9 @@ export default function MockExamClient({ level }: { level: string }) {
 
                     <div className={styles.introFooter}>
                         <span className={styles.introTotal}>{secQCount} câu hỏi</span>
-                        {isFirst && <span className={styles.introTime}>Tổng thời gian: {formatTime(cfg.duration)}</span>}
+                        <span className={styles.introTime}>
+                            <Clock size={11} /> {sec.allocMin} phút
+                        </span>
                     </div>
 
                     <button className={styles.btnStart} onClick={handleStartSection}>
