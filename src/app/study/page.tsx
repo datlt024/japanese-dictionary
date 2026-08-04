@@ -152,11 +152,11 @@ function ComingSoonContent({ label }: { label: string }) {
 }
 
 const EXAM_CONFIGS = [
-    { level: "N5", desc: "Từ vựng và ngữ pháp cơ bản",   questions: 43, duration: 60  },
-    { level: "N4", desc: "Giao tiếp hằng ngày",            questions: 57, duration: 80  },
-    { level: "N3", desc: "Hiểu văn bản thông thường",      questions: 65, duration: 100 },
-    { level: "N2", desc: "Đọc hiểu văn bản phức tạp",      questions: 49, duration: 105 },
-    { level: "N1", desc: "Tiếng Nhật trình độ cao cấp",    questions: 44, duration: 110 },
+    { level: "N5", desc: "Từ vựng và ngữ pháp cơ bản",   questions: 55, duration: 90  },
+    { level: "N4", desc: "Giao tiếp hằng ngày",            questions: 60, duration: 115 },
+    { level: "N3", desc: "Hiểu văn bản thông thường",      questions: 65, duration: 140 },
+    { level: "N2", desc: "Đọc hiểu văn bản phức tạp",      questions: 73, duration: 155 },
+    { level: "N1", desc: "Tiếng Nhật trình độ cao cấp",    questions: 67, duration: 170 },
 ]
 
 function ThiThuContent() {

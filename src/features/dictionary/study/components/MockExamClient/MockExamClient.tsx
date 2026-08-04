@@ -52,57 +52,57 @@ const EXAM: Record<string, {
     sections: Section[]
 }> = {
     N5: {
-        duration: 60 * 60,  // 20 + 40 min (聴解 30 min not tested)
+        duration: 90 * 60,  // 20 + 40 min tested + 30 min 聴解
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
         infoRows: [
-            { title: "文字・語彙", count: 21 },
-            { title: "文法・読解", count: 22 },
+            { title: "文字・語彙", count: 25 },
+            { title: "文法・読解", count: 30 },
             { title: "聴解",       count: 24, skipped: true },
         ],
         sections: [
             {
                 id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 20,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 8 },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方", type: "orthography",   count: 6 },
-                    { id: "q3", label: "問題3", sublabel: "文脈規定",      type: "vocab_meaning", count: 7 },
+                    { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 10 },
+                    { id: "q2", label: "問題2", sublabel: "漢字の書き方", type: "orthography",   count: 8  },
+                    { id: "q3", label: "問題3", sublabel: "文脈規定",      type: "vocab_meaning", count: 7  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 40,
                 groups: [
-                    { id: "q4", label: "問題1", sublabel: "文の文法1", type: "grammar_meaning", count: 16 },
-                    { id: "q5", label: "問題2", sublabel: "文の文法2", type: "grammar_meaning", count: 6  },
+                    { id: "q4", label: "問題1", sublabel: "文の文法1", type: "grammar_meaning", count: 20 },
+                    { id: "q5", label: "問題2", sublabel: "文の文法2", type: "grammar_meaning", count: 10 },
                 ],
             },
         ],
     },
     N4: {
-        duration: 80 * 60,  // 25 + 55 min (聴解 35 min not tested)
+        duration: 115 * 60,  // 25 + 55 min tested + 35 min 聴解
         passingDisplay: "90",
         passing: { secMin: 19, total: 90 },
         infoRows: [
-            { title: "文字・語彙",  count: 28 },
-            { title: "文法・読解",  count: 29 },
+            { title: "文字・語彙",  count: 25 },
+            { title: "文法・読解",  count: 35 },
             { title: "聴解",        count: 28, skipped: true },
         ],
         sections: [
             {
                 id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 25,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",  type: "kanji_reading", count: 9  },
+                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",  type: "kanji_reading", count: 7  },
                     { id: "q2", label: "問題2", sublabel: "漢字の書き方",  type: "orthography",   count: 6  },
-                    { id: "q3", label: "問題3", sublabel: "（　　）に入れるのに最もよいものを選んでください", type: "vocab_meaning", count: 8  },
+                    { id: "q3", label: "問題3", sublabel: "（　　）に入れるのに最もよいものを選んでください", type: "vocab_meaning", count: 7  },
                     { id: "q4", label: "問題4", sublabel: "____に意味が最も近いものを選んでください",          type: "vocab_meaning", count: 5  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 55,
                 groups: [
-                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 15 },
+                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 20 },
                     { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 9  },
-                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 5  },
+                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 6  },
                 ],
             },
         ],
