@@ -40,35 +40,53 @@ interface Question {
 }
 
 // ── JLPT structure ─────────────────────────────────────────────────────
-// Source: Official JLPT syllabus — 語彙+文法 sections only (reading & listening excluded)
+// Source: Official JLPT syllabus
 
-const EXAM: Record<string, { duration: number; passing: { secMin: number; total: number }; sections: Section[] }> = {
+interface InfoRow { title: string; count: number; skipped?: boolean }
+
+const EXAM: Record<string, {
+    duration: number
+    passingDisplay: string
+    passing: { secMin: number; total: number }
+    infoRows: InfoRow[]
+    sections: Section[]
+}> = {
     N5: {
-        duration: 60 * 60,
-        passing: { secMin: 19, total: 53 }, // 19/60 per section, 53/120 total (≈80/180 scaled)
+        duration: 90 * 60,
+        passingDisplay: "80",
+        passing: { secMin: 19, total: 53 }, // 19/60 per section, 53/120 (≈80/180 scaled, no listening)
+        infoRows: [
+            { title: "文字・語彙", count: 21 },
+            { title: "文法・読解", count: 22 },
+            { title: "聴解",       count: 24, skipped: true },
+        ],
         sections: [
             {
-                id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 20,
+                id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 25,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 12 },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方", type: "orthography",    count: 8  },
-                    { id: "q3", label: "問題3", sublabel: "（　　）に入れるのに最もよいものを選んでください", type: "vocab_meaning", count: 10 },
-                    { id: "q4", label: "問題4", sublabel: "____に意味が最も近いものを選んでください",          type: "vocab_meaning", count: 5  },
+                    { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 8 },
+                    { id: "q2", label: "問題2", sublabel: "漢字の書き方", type: "orthography",   count: 6 },
+                    { id: "q3", label: "問題3", sublabel: "文脈規定",      type: "vocab_meaning", count: 7 },
                 ],
             },
             {
-                id: "grammar", title: "言語知識（文法）", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 40,
+                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 65,
                 groups: [
-                    { id: "q5", label: "問題1", sublabel: "文の文法1", type: "grammar_meaning", count: 16 },
-                    { id: "q6", label: "問題2", sublabel: "文の文法2", type: "grammar_meaning", count: 5  },
-                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 5  },
+                    { id: "q4", label: "問題1", sublabel: "文の文法1", type: "grammar_meaning", count: 16 },
+                    { id: "q5", label: "問題2", sublabel: "文の文法2", type: "grammar_meaning", count: 6  },
                 ],
             },
         ],
     },
     N4: {
-        duration: 80 * 60,
-        passing: { secMin: 19, total: 53 },
+        duration: 105 * 60,
+        passingDisplay: "90",
+        passing: { secMin: 19, total: 60 },
+        infoRows: [
+            { title: "文字・語彙",  count: 29 },
+            { title: "文法・読解",  count: 26 },
+            { title: "聴解",        count: 35, skipped: true },
+        ],
         sections: [
             {
                 id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 25,
@@ -90,8 +108,14 @@ const EXAM: Record<string, { duration: number; passing: { secMin: number; total:
         ],
     },
     N3: {
-        duration: 100 * 60,
-        passing: { secMin: 19, total: 63 }, // 95/180 scaled to 120
+        duration: 105 * 60,
+        passingDisplay: "95",
+        passing: { secMin: 19, total: 63 },
+        infoRows: [
+            { title: "語彙",      count: 31 },
+            { title: "文法・読解", count: 34 },
+            { title: "聴解",      count: 37, skipped: true },
+        ],
         sections: [
             {
                 id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 30,
@@ -115,7 +139,13 @@ const EXAM: Record<string, { duration: number; passing: { secMin: number; total:
     },
     N2: {
         duration: 105 * 60,
-        passing: { secMin: 19, total: 60 }, // 90/180 scaled to 120
+        passingDisplay: "90",
+        passing: { secMin: 19, total: 60 },
+        infoRows: [
+            { title: "語彙",       count: 27 },
+            { title: "文法・読解",  count: 46 },
+            { title: "聴解",        count: 35, skipped: true },
+        ],
         sections: [
             {
                 id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 40,
@@ -139,7 +169,13 @@ const EXAM: Record<string, { duration: number; passing: { secMin: number; total:
     },
     N1: {
         duration: 110 * 60,
-        passing: { secMin: 19, total: 67 }, // 100/180 scaled to 120
+        passingDisplay: "100",
+        passing: { secMin: 19, total: 67 },
+        infoRows: [
+            { title: "語彙",       count: 24 },
+            { title: "文法・読解",  count: 46 },
+            { title: "聴解",        count: 37, skipped: true },
+        ],
         sections: [
             {
                 id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 40,
@@ -391,7 +427,6 @@ export default function MockExamClient({ level }: { level: string }) {
     // ── Render: info ─────────────────────────────────────────────────
 
     if (phase === "info") {
-        const totalQ = cfg.sections.flatMap(s => s.groups).reduce((a, g) => a + g.count, 0)
         const durationMin = Math.round(cfg.duration / 60)
 
         return (
@@ -419,10 +454,10 @@ export default function MockExamClient({ level }: { level: string }) {
                             </tr>
                         </thead>
                         <tbody>
-                            {cfg.sections.map(sec => (
-                                <tr key={sec.id}>
-                                    <td>{sec.title}</td>
-                                    <td>{sec.groups.reduce((a, g) => a + g.count, 0)}</td>
+                            {cfg.infoRows.map(row => (
+                                <tr key={row.title} data-skipped={row.skipped || undefined}>
+                                    <td>{row.title}</td>
+                                    <td>{row.count}</td>
                                 </tr>
                             ))}
                         </tbody>
@@ -434,12 +469,8 @@ export default function MockExamClient({ level }: { level: string }) {
                             <span className={styles.infoStatVal} data-accent>{durationMin} Phút</span>
                         </div>
                         <div className={styles.infoStat}>
-                            <span className={styles.infoStatLabel}>Tổng số câu</span>
-                            <span className={styles.infoStatVal}>{totalQ} câu</span>
-                        </div>
-                        <div className={styles.infoStat}>
                             <span className={styles.infoStatLabel}>Điểm đạt</span>
-                            <span className={styles.infoStatVal} data-pass>{cfg.passing.total}/120 điểm</span>
+                            <span className={styles.infoStatVal} data-pass>{cfg.passingDisplay} điểm</span>
                         </div>
                     </div>
 
@@ -448,7 +479,7 @@ export default function MockExamClient({ level }: { level: string }) {
                     </button>
 
                     <p className={styles.infoNote}>
-                        * Bài thi bao gồm <strong>Ngôn ngữ</strong> (từ vựng + ngữ pháp). Không có phần nghe và đọc hiểu.
+                        * Đề thi thử bao gồm phần <strong>Ngôn ngữ</strong> (từ vựng + ngữ pháp). Không bao gồm phần 聴解.
                     </p>
                 </div>
             </div>

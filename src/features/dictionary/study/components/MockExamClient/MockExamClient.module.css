@@ -120,6 +120,17 @@
     color: var(--color-primary);
 }
 
+.infoTable tr[data-skipped] td {
+    color: var(--color-text-secondary);
+    opacity: 0.55;
+}
+
+.infoTable tr[data-skipped] td:first-child::after {
+    content: " (*)";
+    font-size: 10px;
+    font-weight: 600;
+}
+
 .infoStats {
     display: flex;
     flex-direction: column;
