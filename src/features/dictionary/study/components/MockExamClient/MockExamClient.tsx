@@ -1,14 +1,14 @@
 "use client"
 
-import { useState, useEffect, useRef, useCallback } from "react"
+import React, { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
-import { ArrowLeft, Clock, RotateCcw, ChevronRight } from "lucide-react"
+import { ArrowLeft, Clock, RotateCcw, ChevronRight, X } from "lucide-react"
 import styles from "./MockExamClient.module.css"
 
 // ── Types ──────────────────────────────────────────────────────────────
 
-type QType = "kanji_reading" | "orthography" | "vocab_meaning" | "grammar_meaning"
-type Phase = "info" | "loading" | "error" | "section_intro" | "question" | "break" | "summary"
+type QType = "kanji_reading" | "kanji_writing" | "context_vocab" | "grammar_blank"
+type Phase = "info" | "loading" | "error" | "question" | "break" | "summary"
 
 type VocabItem  = { id: number; word: string; kana: string | null; meaning: string | null }
 type GrammarItem = { id: number; pattern: string; meaning: string | null }
@@ -35,6 +35,7 @@ interface Question {
     type: QType
     display: string
     reading?: string
+    sentence?: string   // Japanese sentence with [target] marker for highlighted word
     options: string[]
     correctIndex: number
 }
@@ -57,23 +58,22 @@ const EXAM: Record<string, {
         passing: { secMin: 19, total: 80 },
         infoRows: [
             { title: "文字・語彙", count: 25 },
-            { title: "文法・読解", count: 30 },
+            { title: "文法・読解", count: 32 },
             { title: "聴解",       count: 24, skipped: true },
         ],
         sections: [
             {
                 id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 20,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 10 },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方", type: "orthography",   count: 8  },
-                    { id: "q3", label: "問題3", sublabel: "文脈規定",      type: "vocab_meaning", count: 7  },
+                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",     type: "kanji_reading", count: 12 },
+                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",     type: "kanji_writing", count: 8  },
+                    { id: "q3", label: "問題3", sublabel: "文脈規定",          type: "context_vocab", count: 5  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 40,
                 groups: [
-                    { id: "q4", label: "問題1", sublabel: "文の文法1", type: "grammar_meaning", count: 20 },
-                    { id: "q5", label: "問題2", sublabel: "文の文法2", type: "grammar_meaning", count: 10 },
+                    { id: "q4", label: "問題4", sublabel: "文の文法（文法形式の判断）", type: "grammar_blank", count: 16 },
                 ],
             },
         ],
@@ -92,17 +92,17 @@ const EXAM: Record<string, {
                 id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 25,
                 groups: [
                     { id: "q1", label: "問題1", sublabel: "漢字の読み方",  type: "kanji_reading", count: 7  },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",  type: "orthography",   count: 6  },
-                    { id: "q3", label: "問題3", sublabel: "（　　）に入れるのに最もよいものを選んでください", type: "vocab_meaning", count: 7  },
-                    { id: "q4", label: "問題4", sublabel: "____に意味が最も近いものを選んでください",          type: "vocab_meaning", count: 5  },
+                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",  type: "kanji_writing",   count: 6  },
+                    { id: "q3", label: "問題3", sublabel: "（　　）に入れるのに最もよいものを選んでください", type: "context_vocab", count: 7  },
+                    { id: "q4", label: "問題4", sublabel: "____に意味が最も近いものを選んでください",          type: "context_vocab", count: 5  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 55,
                 groups: [
-                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 20 },
-                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 9  },
-                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 6  },
+                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_blank", count: 20 },
+                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_blank", count: 9  },
+                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_blank", count: 6  },
                 ],
             },
         ],
@@ -121,18 +121,18 @@ const EXAM: Record<string, {
                 id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 30,
                 groups: [
                     { id: "q1", label: "問題1", sublabel: "漢字の読み方",   type: "kanji_reading", count: 10 },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",   type: "orthography",   count: 8  },
-                    { id: "q3", label: "問題3", sublabel: "語彙形成",        type: "vocab_meaning", count: 5  },
-                    { id: "q4", label: "問題4", sublabel: "文脈規定",        type: "vocab_meaning", count: 7  },
-                    { id: "q5", label: "問題5", sublabel: "言い換え類義",    type: "vocab_meaning", count: 5  },
+                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",   type: "kanji_writing",   count: 8  },
+                    { id: "q3", label: "問題3", sublabel: "語彙形成",        type: "context_vocab", count: 5  },
+                    { id: "q4", label: "問題4", sublabel: "文脈規定",        type: "context_vocab", count: 7  },
+                    { id: "q5", label: "問題5", sublabel: "言い換え類義",    type: "context_vocab", count: 5  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
                 groups: [
-                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 20 },
-                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 10 },
-                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 9  },
+                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_blank", count: 20 },
+                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_blank", count: 10 },
+                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_blank", count: 9  },
                 ],
             },
         ],
@@ -151,18 +151,18 @@ const EXAM: Record<string, {
                 id: "vocab", title: "言語知識（語彙・文法）・読解", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 40,
                 groups: [
                     { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 5 },
-                    { id: "q2", label: "問題2", sublabel: "語彙形成",      type: "vocab_meaning", count: 5 },
-                    { id: "q3", label: "問題3", sublabel: "文脈規定",      type: "vocab_meaning", count: 7 },
-                    { id: "q4", label: "問題4", sublabel: "言い換え類義",  type: "vocab_meaning", count: 5 },
-                    { id: "q5", label: "問題5", sublabel: "用法",          type: "vocab_meaning", count: 5 },
+                    { id: "q2", label: "問題2", sublabel: "語彙形成",      type: "context_vocab", count: 5 },
+                    { id: "q3", label: "問題3", sublabel: "文脈規定",      type: "context_vocab", count: 7 },
+                    { id: "q4", label: "問題4", sublabel: "言い換え類義",  type: "context_vocab", count: 5 },
+                    { id: "q5", label: "問題5", sublabel: "用法",          type: "context_vocab", count: 5 },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（語彙・文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 65,
                 groups: [
-                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 25 },
-                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 15 },
-                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 8  },
+                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_blank", count: 25 },
+                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_blank", count: 15 },
+                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_blank", count: 8  },
                 ],
             },
         ],
@@ -181,26 +181,67 @@ const EXAM: Record<string, {
                 id: "vocab", title: "言語知識（語彙・文法）・読解", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 40,
                 groups: [
                     { id: "q1", label: "問題1", sublabel: "漢字の読み方", type: "kanji_reading", count: 6 },
-                    { id: "q2", label: "問題2", sublabel: "文脈規定",      type: "vocab_meaning", count: 7 },
-                    { id: "q3", label: "問題3", sublabel: "言い換え類義",  type: "vocab_meaning", count: 6 },
-                    { id: "q4", label: "問題4", sublabel: "用法",          type: "vocab_meaning", count: 5 },
+                    { id: "q2", label: "問題2", sublabel: "文脈規定",      type: "context_vocab", count: 7 },
+                    { id: "q3", label: "問題3", sublabel: "言い換え類義",  type: "context_vocab", count: 6 },
+                    { id: "q4", label: "問題4", sublabel: "用法",          type: "context_vocab", count: 5 },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（語彙・文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
                 groups: [
-                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 25 },
-                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 15 },
-                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 6  },
+                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_blank", count: 25 },
+                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_blank", count: 15 },
+                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_blank", count: 6  },
                 ],
             },
         ],
     },
 }
 
-// ── Helpers ────────────────────────────────────────────────────────────
+// ── Question type metadata ─────────────────────────────────────────────
 
-const LABELS = ["A", "B", "C", "D"] as const
+const Q_TYPE_LABEL: Record<QType, string> = {
+    kanji_reading: "読み方",
+    kanji_writing: "書き方",
+    context_vocab: "語彙",
+    grammar_blank: "文法",
+}
+
+const Q_TYPE_INSTRUCTION: Record<QType, string> = {
+    kanji_reading: "の言葉の読み方として正しいものはどれですか。",
+    kanji_writing: "の言葉はどう書きますか。",
+    context_vocab: "の言葉の意味はどれですか。",
+    grammar_blank: "の文型の意味はどれですか。",
+}
+
+const SENTENCE_TEMPLATES: ((w: string) => string)[] = [
+    w => `毎日[${w}]を使います。`,
+    w => `あの[${w}]を見ました。`,
+    w => `[${w}]に行きましょう。`,
+    w => `これは[${w}]です。`,
+    w => `[${w}]が好きです。`,
+    w => `[${w}]をください。`,
+    w => `[${w}]はどこですか。`,
+    w => `[${w}]があります。`,
+    w => `[${w}]を勉強します。`,
+    w => `[${w}]は大切です。`,
+    w => `[${w}]で遊びます。`,
+    w => `あの[${w}]はきれいです。`,
+    w => `[${w}]はいくらですか。`,
+    w => `[${w}]を買いました。`,
+    w => `[${w}]を食べます。`,
+    w => `[${w}]が来ます。`,
+]
+
+function parseSentence(sentence: string): React.ReactNode {
+    const parts = sentence.split(/\[([^\]]+)\]/)
+    if (parts.length < 3) return <>{sentence}</>
+    return (
+        <>{parts[0]}<mark className={styles.qSentenceMark}>{parts[1]}</mark>{parts[2]}</>
+    )
+}
+
+// ── Helpers ────────────────────────────────────────────────────────────
 
 function formatTime(s: number) {
     return `${Math.floor(s / 60).toString().padStart(2, "0")}:${(s % 60).toString().padStart(2, "0")}`
@@ -243,27 +284,32 @@ function buildQuestions(vocab: VocabItem[], grammar: GrammarItem[], sections: Se
             for (let q = 0; q < grp.count; q++) {
                 if (grp.type === "kanji_reading") {
                     const item = kanjiItems[ki % Math.max(kanjiItems.length, 1)]
+                    const tmpl = SENTENCE_TEMPLATES[ki % SENTENCE_TEMPLATES.length]
                     ki++
                     if (!item) continue
                     const correct = item.kana!
                     const options = fisher([correct, ...pickOthers(allKana, correct)])
-                    questions.push({ groupId: grp.id, sectionId: sec.id, type: grp.type, display: item.word, options, correctIndex: options.indexOf(correct) })
+                    questions.push({ groupId: grp.id, sectionId: sec.id, type: grp.type,
+                        display: item.word, sentence: tmpl(item.word), options, correctIndex: options.indexOf(correct) })
 
-                } else if (grp.type === "orthography") {
+                } else if (grp.type === "kanji_writing") {
                     const item = kanjiItems[ki % Math.max(kanjiItems.length, 1)]
+                    const tmpl = SENTENCE_TEMPLATES[ki % SENTENCE_TEMPLATES.length]
                     ki++
                     if (!item) continue
                     const correct = item.word
                     const options = fisher([correct, ...pickOthers(allWords, correct)])
-                    questions.push({ groupId: grp.id, sectionId: sec.id, type: grp.type, display: item.kana!, options, correctIndex: options.indexOf(correct) })
+                    questions.push({ groupId: grp.id, sectionId: sec.id, type: grp.type,
+                        display: item.kana!, sentence: tmpl(item.kana!), options, correctIndex: options.indexOf(correct) })
 
-                } else if (grp.type === "vocab_meaning") {
+                } else if (grp.type === "context_vocab") {
                     const item = meaningItems[vi % Math.max(meaningItems.length, 1)]
                     vi++
                     if (!item || !item.meaning) continue
                     const correct = item.meaning
                     const options = fisher([correct, ...pickOthers(allMeanings, correct)])
-                    questions.push({ groupId: grp.id, sectionId: sec.id, type: grp.type, display: item.word, reading: item.kana ?? undefined, options, correctIndex: options.indexOf(correct) })
+                    questions.push({ groupId: grp.id, sectionId: sec.id, type: grp.type,
+                        display: item.word, reading: item.kana ?? undefined, options, correctIndex: options.indexOf(correct) })
 
                 } else {
                     const item = grammar[gi % Math.max(grammar.length, 1)]
@@ -271,7 +317,8 @@ function buildQuestions(vocab: VocabItem[], grammar: GrammarItem[], sections: Se
                     if (!item || !item.meaning) continue
                     const correct = item.meaning
                     const options = fisher([correct, ...pickOthers(allGrammar, correct)])
-                    questions.push({ groupId: grp.id, sectionId: sec.id, type: grp.type, display: item.pattern, options, correctIndex: options.indexOf(correct) })
+                    questions.push({ groupId: grp.id, sectionId: sec.id, type: grp.type,
+                        display: item.pattern, options, correctIndex: options.indexOf(correct) })
                 }
             }
         }
@@ -289,33 +336,21 @@ export default function MockExamClient({ level }: { level: string }) {
     const cfg = EXAM[level] ?? EXAM["N5"]
     const allGroups = cfg.sections.flatMap(s => s.groups)
 
-    const [phase,        setPhase]        = useState<Phase>("info")
-    const [questions,    setQuestions]    = useState<Question[]>([])
-    const [answers,      setAnswers]      = useState<(number | null)[]>([])
-    const [idx,          setIdx]          = useState(0)
-    const [selected,     setSelected]     = useState<number | null>(null)
-    const [sectionIdx,   setSectionIdx]   = useState(0)   // which section intro we're on
-    const [timeLeft,     setTimeLeft]     = useState(0)
-    const [carryover,    setCarryover]    = useState(0)   // time carried into next section
-    const [timeTaken,    setTimeTaken]    = useState(0)
+    const [phase,     setPhase]     = useState<Phase>("info")
+    const [questions, setQuestions] = useState<Question[]>([])
+    const [answers,   setAnswers]   = useState<(number | null)[]>([])
+    const [idx,       setIdx]       = useState(0)
+    const [timeLeft,  setTimeLeft]  = useState(0)
+    const [timeTaken, setTimeTaken] = useState(0)
 
-    const timerRef     = useRef<ReturnType<typeof setInterval> | null>(null)
-    const startRef     = useRef(0)
-    const advRef       = useRef(false)
-    const carryRef     = useRef(0)        // ref copy of carryover (readable in callbacks)
-    const timeLeftRef  = useRef(0)        // ref copy of timeLeft (readable in handleSelect)
-    const secIdxRef    = useRef(0)        // ref copy of sectionIdx
-    const questionsRef = useRef<Question[]>([])
-
-    // keep refs in sync
-    useEffect(() => { timeLeftRef.current  = timeLeft  }, [timeLeft])
-    useEffect(() => { secIdxRef.current    = sectionIdx }, [sectionIdx])
-    useEffect(() => { questionsRef.current = questions  }, [questions])
+    const timerRef      = useRef<ReturnType<typeof setInterval> | null>(null)
+    const startRef      = useRef(0)
+    const questionRefs  = useRef<(HTMLDivElement | null)[]>([])
 
     // ── Data loading ──────────────────────────────────────────────────
 
     const load = useCallback((mounted: { v: boolean }) => {
-        const grammarCount = cfg.sections.flatMap(s => s.groups).filter(g => g.type === "grammar_meaning").reduce((a, g) => a + g.count, 0)
+        const grammarCount = cfg.sections.flatMap(s => s.groups).filter(g => g.type === "grammar_blank").reduce((a, g) => a + g.count, 0)
         Promise.all([
             fetch(`/api/study/jlpt?level=${level}&limit=100`).then(r => r.json()),
             fetch(`/api/study/grammar?level=${level}&limit=${Math.min(grammarCount * 4, 100)}`).then(r => r.json()),
@@ -323,16 +358,22 @@ export default function MockExamClient({ level }: { level: string }) {
             if (!mounted.v) return
             const qs = buildQuestions(vocab as VocabItem[], grammar as GrammarItem[], cfg.sections)
             if (qs.length < 5) { setPhase("error"); return }
+            questionRefs.current = new Array(qs.length).fill(null)
             setQuestions(qs)
             setAnswers(new Array(qs.length).fill(null))
-            setIdx(0); setSectionIdx(0); setSelected(null)
-            setTimeLeft(0); carryRef.current = 0; setCarryover(0)
-            advRef.current = false
-            setPhase("section_intro")
+            setIdx(0)
+            const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
+            startRef.current = Date.now()
+            setTimeLeft(totalMin * 60)
+            if (timerRef.current) clearInterval(timerRef.current)
+            timerRef.current = setInterval(() => {
+                setTimeLeft(t => Math.max(0, t - 1))
+            }, 1000)
+            setPhase("question")
         }).catch(() => { if (mounted.v) setPhase("error") })
     }, [level, cfg])
 
-    // ── Timer (per-section with carryover) ───────────────────────────
+    // ── Timer ────────────────────────────────────────────────────────
 
     const stopTimer = useCallback(() => {
         if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null }
@@ -344,35 +385,9 @@ export default function MockExamClient({ level }: { level: string }) {
         setPhase("break")
     }, [stopTimer])
 
-    // Start a new section's timer: allocMin + any carry from previous section
-    const startSectionTimer = useCallback((allocMin: number) => {
-        stopTimer()
-        const total = allocMin * 60 + carryRef.current
-        carryRef.current = 0
-        setCarryover(0)
-        setTimeLeft(total)
-        timerRef.current = setInterval(() => {
-            setTimeLeft(t => Math.max(0, t - 1))
-        }, 1000)
-    }, [stopTimer])
-
-    // Auto-advance (or finish) when section time runs out
     useEffect(() => {
         if (phase !== "question" || timeLeft !== 0) return
-        stopTimer()
-        const nextIdx = secIdxRef.current + 1
-        if (nextIdx >= cfg.sections.length) { finish(); return }
-        carryRef.current = 0
-        setCarryover(0)
-        const nextSec = cfg.sections[nextIdx]
-        const qs = questionsRef.current
-        const nextFirstQ = qs.findIndex(q => q.sectionId === nextSec.id)
-        setIdx(nextFirstQ !== -1 ? nextFirstQ : qs.length)
-        setSectionIdx(nextIdx)
-        setSelected(null)
-        advRef.current = false
-        startSectionTimer(nextSec.allocMin)
-        setPhase("question")
+        finish()
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [timeLeft, phase])
 
@@ -380,60 +395,35 @@ export default function MockExamClient({ level }: { level: string }) {
 
     const startExam = useCallback(() => {
         stopTimer()
-        carryRef.current = 0; setCarryover(0)
         const mounted = { v: true }
         setPhase("loading")
         load(mounted)
     }, [load, stopTimer])
 
-    // ── Section intro handler ─────────────────────────────────────────
-
-    const handleStartSection = useCallback(() => {
-        if (secIdxRef.current === 0) startRef.current = Date.now()
-        const sec = cfg.sections[secIdxRef.current]
-        startSectionTimer(sec.allocMin)
-        setPhase("question")
-    }, [cfg.sections, startSectionTimer])
-
     // ── Answer handler ────────────────────────────────────────────────
 
-    const handleSelect = useCallback((optIdx: number) => {
-        if (selected !== null || advRef.current || phase !== "question") return
-        advRef.current = true
-        setSelected(optIdx)
-        setAnswers(prev => { const n = [...prev]; n[idx] = optIdx; return n })
+    const handleSelect = useCallback((qIdx: number, optIdx: number) => {
+        setAnswers(prev => { const n = [...prev]; n[qIdx] = optIdx; return n })
+        setIdx(qIdx)
+    }, [])
 
-        setTimeout(() => {
-            const next = idx + 1
-            if (next >= questions.length) { finish(); return }
+    const scrollToQuestion = useCallback((qIdx: number) => {
+        setIdx(qIdx)
+        questionRefs.current[qIdx]?.scrollIntoView({ behavior: "smooth", block: "center" })
+    }, [])
 
-            const nextSec = questions[next].sectionId
-            const currSec = questions[idx].sectionId
-            if (nextSec !== currSec) {
-                // User finished section early — carry remaining time to next section, start immediately
-                const carry = timeLeftRef.current
-                stopTimer()
-                carryRef.current = carry
-                const nextSecIdx = cfg.sections.findIndex(s => s.id === nextSec)
-                setIdx(next); setSectionIdx(nextSecIdx)
-                setSelected(null); advRef.current = false
-                startSectionTimer(cfg.sections[nextSecIdx].allocMin)
-                setPhase("question")
-            } else {
-                setIdx(next); setSelected(null); advRef.current = false
-            }
-        }, 900)
-    }, [selected, idx, questions, cfg.sections, phase, finish, stopTimer, startSectionTimer])
-
-    // ── Keyboard ──────────────────────────────────────────────────────
+    // ── Keyboard (1-4 / A-D for currently focused question) ──────────
 
     useEffect(() => {
         if (phase !== "question") return
         const map: Record<string, number> = { a: 0, b: 1, c: 2, d: 3, "1": 0, "2": 1, "3": 2, "4": 3 }
-        const fn = (e: KeyboardEvent) => { const i = map[e.key.toLowerCase()]; if (i !== undefined) handleSelect(i) }
+        const fn = (e: KeyboardEvent) => {
+            const i = map[e.key.toLowerCase()]
+            if (i !== undefined) setAnswers(prev => { const n = [...prev]; n[idx] = i; return n })
+        }
         window.addEventListener("keydown", fn)
         return () => window.removeEventListener("keydown", fn)
-    }, [phase, handleSelect])
+    }, [phase, idx])
 
     // ── Computed results ──────────────────────────────────────────────
 
@@ -550,154 +540,178 @@ export default function MockExamClient({ level }: { level: string }) {
         )
     }
 
-    // ── Render: section intro ─────────────────────────────────────────
+    // ── Render: question (two-column scroll layout) ───────────────────
 
-    if (phase === "section_intro") {
-        const sec = cfg.sections[sectionIdx]
-        const isFirst = sectionIdx === 0
-        const secQCount = questions.filter(q => q.sectionId === sec.id).length
+    if (phase === "question") {
+        const answeredCount = answers.filter(a => a !== null).length
+        const progress = questions.length > 0 ? (answeredCount / questions.length) * 100 : 0
+        const warn = timeLeft < 60
 
         return (
-            <div className={styles.introWrap}>
-                <Link href="/study?tab=thi-thu" className={styles.backBtn}>
-                    <ArrowLeft size={14} /> Danh sách đề thi
-                </Link>
-
-                <div className={styles.introCard}>
-                    <div className={styles.introMeta}>
-                        <span className={styles.introBadge} data-level={level}>{level}</span>
-                        <span className={styles.introPhaseTag}>Phần {sectionIdx + 1}/{cfg.sections.length}</span>
+            <div className={styles.examPage}>
+                {/* Top bar */}
+                <div className={styles.examTopBar}>
+                    <Link href="/study?tab=thi-thu" className={styles.examExitBtn}>
+                        <X size={14} /> Thoát
+                    </Link>
+                    <div className={styles.examBarCenter}>
+                        <span className={styles.examBarTitle}>JLPT {level}</span>
+                        <span className={styles.examBarTimer} data-warn={warn || undefined}>
+                            <Clock size={12} /> {formatTime(timeLeft)}
+                        </span>
                     </div>
-                    <h2 className={styles.introTitle}>{sec.title}</h2>
-                    <p className={styles.introTitleVi}>{sec.titleVi}</p>
-
-                    <div className={styles.introDivider} />
-
-                    <div className={styles.introGroups}>
-                        {sec.groups.map(g => (
-                            <div key={g.id} className={styles.introGroup}>
-                                <span className={styles.introGroupLabel}>{g.label}</span>
-                                <span className={styles.introGroupSub}>{g.sublabel}</span>
-                                <span className={styles.introGroupCount}>{g.count} câu</span>
-                            </div>
-                        ))}
-                    </div>
-
-                    <div className={styles.introDivider} />
-
-                    {/* Time breakdown */}
-                    <div className={styles.introTimeBox}>
-                        <div className={styles.introTimeRow}>
-                            <span>Thời gian phần này</span>
-                            <span>{sec.allocMin} phút</span>
-                        </div>
-                        {carryover > 0 && (
-                            <div className={styles.introTimeRow} data-bonus>
-                                <span>Dư từ phần trước</span>
-                                <span>+{Math.floor(carryover / 60)} phút {carryover % 60 > 0 ? `${carryover % 60}s` : ""}</span>
-                            </div>
-                        )}
-                        <div className={styles.introTimeTotal}>
-                            <span>Tổng thời gian</span>
-                            <span><Clock size={12} /> {formatTime(sec.allocMin * 60 + carryover)}</span>
-                        </div>
-                    </div>
-
-                    <div className={styles.introFooter}>
-                        <span className={styles.introTotal}>{secQCount} câu hỏi</span>
-                    </div>
-
-                    <button className={styles.btnStart} onClick={handleStartSection}>
-                        {isFirst ? "Bắt đầu thi" : "Tiếp tục phần " + (sectionIdx + 1)}
-                        <ChevronRight size={16} />
+                    <button className={styles.examSubmitBtn} onClick={finish}>
+                        Nộp bài
                     </button>
                 </div>
 
-                <p className={styles.introNote}>
-                    * Bài thi bao gồm phần <strong>Ngôn ngữ</strong> (từ vựng + ngữ pháp). Không có phần nghe và đọc hiểu.
-                </p>
-            </div>
-        )
-    }
-
-    // ── Render: question ──────────────────────────────────────────────
-
-    if (phase === "question") {
-        const q   = questions[idx]
-        if (!q) return null
-
-        const sec = cfg.sections.find(s => s.id === q.sectionId)!
-        const grp = sec.groups.find(g => g.id === q.groupId)!
-        const grpQs = questions.map((qq, i) => ({ qq, i })).filter(({ qq }) => qq.groupId === grp.id)
-        const posInGrp  = grpQs.findIndex(({ i }) => i === idx) + 1
-        const progress  = (idx / questions.length) * 100
-        const warn      = timeLeft < 60
-
-        return (
-            <div className={styles.exam}>
-                {/* Header */}
-                <div className={styles.examHeader}>
-                    <Link href="/study?tab=thi-thu" className={styles.exitBtn}>
-                        <ArrowLeft size={14} />
-                    </Link>
-                    <div className={styles.headerCenter}>
-                        <span className={styles.groupLabel} data-level={level}>{grp.label}</span>
-                        <span className={styles.groupSub}>{grp.sublabel}</span>
-                    </div>
-                    <div className={styles.headerRight}>
-                        <span className={styles.posText}>{posInGrp}/{grp.count}</span>
-                        <span className={styles.timer} data-warn={warn || undefined}>
-                            <Clock size={11} /> {formatTime(timeLeft)}
-                        </span>
-                    </div>
-                </div>
-
-                {/* Progress */}
+                {/* Answered progress */}
                 <div className={styles.progressBar}>
                     <div className={styles.progressFill} data-level={level} style={{ width: `${progress}%` }} />
                 </div>
 
-                {/* Body */}
-                <div className={styles.body}>
-                    <div className={styles.questionCard}>
-                        <div className={styles.wordBlock} data-type={q.type}>
-                            <span className={styles.wordDisplay}>{q.display}</span>
-                            {q.reading && q.reading !== q.display && (
-                                <span className={styles.wordReading}>{q.reading}</span>
-                            )}
-                        </div>
-                        <p className={styles.qNote}>
-                            {q.type === "kanji_reading"  && "この言葉の読み方は？"}
-                            {q.type === "orthography"    && "このひらがなの書き方は？"}
-                            {q.type === "vocab_meaning"  && "この言葉の意味は？"}
-                            {q.type === "grammar_meaning"&& "この文型の意味は？"}
-                        </p>
-                    </div>
+                {/* Body: left questions + right navigator */}
+                <div className={styles.examBody}>
 
-                    <div className={styles.options}>
-                        {q.options.map((opt, i) => {
-                            let state = "default"
-                            if (selected !== null) {
-                                if (i === q.correctIndex) state = "correct"
-                                else if (i === selected)  state = "wrong"
-                                else                      state = "dim"
-                            }
+                    {/* ── Left: scrollable question list ── */}
+                    <div className={styles.questionsPanel}>
+                        {cfg.sections.map(sec => {
+                            const secQs = questions
+                                .map((q, gi) => ({ q, gi }))
+                                .filter(({ q }) => q.sectionId === sec.id)
+                            if (secQs.length === 0) return null
+
+                            let secOffset = 0
                             return (
-                                <button
-                                    key={i}
-                                    className={styles.option}
-                                    data-state={state}
-                                    onClick={() => handleSelect(i)}
-                                    disabled={selected !== null}
-                                >
-                                    <span className={styles.optLabel}>{LABELS[i]}</span>
-                                    <span className={styles.optText}>{opt}</span>
-                                </button>
+                                <div key={sec.id} className={styles.qSectionBlock}>
+                                    <div className={styles.qSectionHeader}>
+                                        <span className={styles.qSectionTitle}>{sec.title}</span>
+                                        <span className={styles.qSectionCount}>{secQs.length} câu</span>
+                                    </div>
+
+                                    {sec.groups.map(grp => {
+                                        const grpQs = secQs.filter(({ q }) => q.groupId === grp.id)
+                                        if (grpQs.length === 0) return null
+                                        const grpOffset = secOffset
+                                        secOffset += grpQs.length
+
+                                        return (
+                                            <div key={grp.id} className={styles.qGroupBlock}>
+                                                <div className={styles.qGroupHeader}>
+                                                    <span className={styles.qGroupLabel}>{grp.label}</span>
+                                                    <span className={styles.qGroupSub}>{grp.sublabel}</span>
+                                                </div>
+
+                                                {grpQs.map(({ q, gi }, pos) => {
+                                                    const isKanjiType = q.type === "kanji_reading" || q.type === "kanji_writing"
+                                                    return (
+                                                        <div
+                                                            key={gi}
+                                                            id={`q-${gi}`}
+                                                            ref={el => { questionRefs.current[gi] = el }}
+                                                            className={styles.qItem}
+                                                            data-active={idx === gi || undefined}
+                                                            data-type={q.type}
+                                                            onClick={() => setIdx(gi)}
+                                                        >
+                                                            {/* ── Header row ── */}
+                                                            <div className={styles.qItemHead}>
+                                                                <span className={styles.qNum}>{grpOffset + pos + 1}</span>
+                                                                <span className={styles.qTypeTag} data-type={q.type}>
+                                                                    {Q_TYPE_LABEL[q.type]}
+                                                                </span>
+                                                            </div>
+
+                                                            {/* ── Question body ── */}
+                                                            <div className={styles.qBody}>
+                                                                <p className={styles.qInstruction}>
+                                                                    {q.type === "kanji_reading" || q.type === "kanji_writing"
+                                                                        ? <><mark className={styles.qSentenceMark}>{q.display}</mark>{Q_TYPE_INSTRUCTION[q.type]}</>
+                                                                        : Q_TYPE_INSTRUCTION[q.type]
+                                                                    }
+                                                                </p>
+
+                                                                <div className={styles.qWordCenter}>
+                                                                    {(q.type === "kanji_reading" || q.type === "kanji_writing") && (
+                                                                        <p className={styles.qSentence}>
+                                                                            {q.sentence ? parseSentence(q.sentence) : q.display}
+                                                                        </p>
+                                                                    )}
+                                                                    {q.type === "context_vocab" && (
+                                                                        <>
+                                                                            <span className={styles.qVocabWord}>{q.display}</span>
+                                                                            {q.reading && <span className={styles.qVocabReading}>{q.reading}</span>}
+                                                                        </>
+                                                                    )}
+                                                                    {q.type === "grammar_blank" && (
+                                                                        <span className={styles.qGrammarWord}>{q.display}</span>
+                                                                    )}
+                                                                </div>
+                                                            </div>
+
+                                                            {/* ── Options ── */}
+                                                            <div className={styles.qOptions} data-grid={isKanjiType || undefined}>
+                                                                {q.options.map((opt, oi) => {
+                                                                    const isSel = answers[gi] === oi
+                                                                    return (
+                                                                        <label
+                                                                            key={oi}
+                                                                            className={styles.qOption}
+                                                                            data-selected={isSel || undefined}
+                                                                            onClick={e => { e.stopPropagation(); handleSelect(gi, oi) }}
+                                                                        >
+                                                                            <span className={styles.qRadio} data-selected={isSel || undefined} />
+                                                                            <span className={styles.qOptNum}>{oi + 1}</span>
+                                                                            <span className={styles.qOptText}>{opt}</span>
+                                                                        </label>
+                                                                    )
+                                                                })}
+                                                            </div>
+                                                        </div>
+                                                    )
+                                                })}
+                                            </div>
+                                        )
+                                    })}
+                                </div>
                             )
                         })}
+                        <div style={{ height: 80 }} />
                     </div>
 
-                    <p className={styles.keyHint}>Nhấn A B C D hoặc 1 2 3 4 để chọn</p>
+                    {/* ── Right: navigator panel ── */}
+                    <div className={styles.navPanel}>
+                        <p className={styles.navStat}>
+                            <span data-done>{answeredCount}</span>/{questions.length} đã trả lời
+                        </p>
+                        {cfg.sections.map(sec => {
+                            const secQs = questions
+                                .map((q, gi) => ({ q, gi }))
+                                .filter(({ q }) => q.sectionId === sec.id)
+                            if (secQs.length === 0) return null
+                            return (
+                                <div key={sec.id} className={styles.navSection}>
+                                    <p className={styles.navSectionTitle}>{sec.title}</p>
+                                    <div className={styles.navGrid}>
+                                        {secQs.map(({ gi }, localIdx) => (
+                                            <button
+                                                key={gi}
+                                                className={styles.navBtn}
+                                                data-answered={answers[gi] !== null || undefined}
+                                                data-current={idx === gi || undefined}
+                                                data-level={answers[gi] !== null ? level : undefined}
+                                                onClick={() => scrollToQuestion(gi)}
+                                            >
+                                                {localIdx + 1}
+                                            </button>
+                                        ))}
+                                    </div>
+                                </div>
+                            )
+                        })}
+                        <p className={styles.navHint}>Nhấn 1 2 3 4 để chọn câu đang xem</p>
+                    </div>
+
                 </div>
             </div>
         )
