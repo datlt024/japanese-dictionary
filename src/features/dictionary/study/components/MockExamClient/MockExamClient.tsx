@@ -371,7 +371,8 @@ export default function MockExamClient({ level }: { level: string }) {
         setSectionIdx(nextIdx)
         setSelected(null)
         advRef.current = false
-        setPhase("section_intro")
+        startSectionTimer(nextSec.allocMin)
+        setPhase("question")
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [timeLeft, phase])
 
@@ -409,20 +410,20 @@ export default function MockExamClient({ level }: { level: string }) {
             const nextSec = questions[next].sectionId
             const currSec = questions[idx].sectionId
             if (nextSec !== currSec) {
-                // User finished section early — carry remaining time to next section
+                // User finished section early — carry remaining time to next section, start immediately
                 const carry = timeLeftRef.current
                 stopTimer()
                 carryRef.current = carry
-                setCarryover(carry)
                 const nextSecIdx = cfg.sections.findIndex(s => s.id === nextSec)
                 setIdx(next); setSectionIdx(nextSecIdx)
                 setSelected(null); advRef.current = false
-                setPhase("section_intro")
+                startSectionTimer(cfg.sections[nextSecIdx].allocMin)
+                setPhase("question")
             } else {
                 setIdx(next); setSelected(null); advRef.current = false
             }
         }, 900)
-    }, [selected, idx, questions, cfg.sections, phase, finish, stopTimer])
+    }, [selected, idx, questions, cfg.sections, phase, finish, stopTimer, startSectionTimer])
 
     // ── Keyboard ──────────────────────────────────────────────────────
 
