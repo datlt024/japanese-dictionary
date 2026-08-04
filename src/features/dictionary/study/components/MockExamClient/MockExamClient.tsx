@@ -295,12 +295,22 @@ export default function MockExamClient({ level }: { level: string }) {
     const [idx,          setIdx]          = useState(0)
     const [selected,     setSelected]     = useState<number | null>(null)
     const [sectionIdx,   setSectionIdx]   = useState(0)   // which section intro we're on
-    const [timeLeft,     setTimeLeft]     = useState(cfg.duration)
+    const [timeLeft,     setTimeLeft]     = useState(0)
+    const [carryover,    setCarryover]    = useState(0)   // time carried into next section
     const [timeTaken,    setTimeTaken]    = useState(0)
 
-    const timerRef  = useRef<ReturnType<typeof setInterval> | null>(null)
-    const startRef  = useRef(0)
-    const advRef    = useRef(false)
+    const timerRef     = useRef<ReturnType<typeof setInterval> | null>(null)
+    const startRef     = useRef(0)
+    const advRef       = useRef(false)
+    const carryRef     = useRef(0)        // ref copy of carryover (readable in callbacks)
+    const timeLeftRef  = useRef(0)        // ref copy of timeLeft (readable in handleSelect)
+    const secIdxRef    = useRef(0)        // ref copy of sectionIdx
+    const questionsRef = useRef<Question[]>([])
+
+    // keep refs in sync
+    useEffect(() => { timeLeftRef.current  = timeLeft  }, [timeLeft])
+    useEffect(() => { secIdxRef.current    = sectionIdx }, [sectionIdx])
+    useEffect(() => { questionsRef.current = questions  }, [questions])
 
     // ── Data loading ──────────────────────────────────────────────────
 
@@ -316,45 +326,73 @@ export default function MockExamClient({ level }: { level: string }) {
             setQuestions(qs)
             setAnswers(new Array(qs.length).fill(null))
             setIdx(0); setSectionIdx(0); setSelected(null)
-            setTimeLeft(cfg.duration)
+            setTimeLeft(0); carryRef.current = 0; setCarryover(0)
             advRef.current = false
             setPhase("section_intro")
         }).catch(() => { if (mounted.v) setPhase("error") })
     }, [level, cfg])
 
+    // ── Timer (per-section with carryover) ───────────────────────────
+
+    const stopTimer = useCallback(() => {
+        if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null }
+    }, [])
+
+    const finish = useCallback(() => {
+        stopTimer()
+        setTimeTaken(Math.round((Date.now() - startRef.current) / 1000))
+        setPhase("summary")
+    }, [stopTimer])
+
+    // Start a new section's timer: allocMin + any carry from previous section
+    const startSectionTimer = useCallback((allocMin: number) => {
+        stopTimer()
+        const total = allocMin * 60 + carryRef.current
+        carryRef.current = 0
+        setCarryover(0)
+        setTimeLeft(total)
+        timerRef.current = setInterval(() => {
+            setTimeLeft(t => Math.max(0, t - 1))
+        }, 1000)
+    }, [stopTimer])
+
+    // Auto-advance (or finish) when section time runs out
+    useEffect(() => {
+        if (phase !== "question" || timeLeft !== 0) return
+        stopTimer()
+        const nextIdx = secIdxRef.current + 1
+        if (nextIdx >= cfg.sections.length) { finish(); return }
+        carryRef.current = 0
+        setCarryover(0)
+        const nextSec = cfg.sections[nextIdx]
+        const qs = questionsRef.current
+        const nextFirstQ = qs.findIndex(q => q.sectionId === nextSec.id)
+        setIdx(nextFirstQ !== -1 ? nextFirstQ : qs.length)
+        setSectionIdx(nextIdx)
+        setSelected(null)
+        advRef.current = false
+        setPhase("section_intro")
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [timeLeft, phase])
+
+    useEffect(() => () => stopTimer(), [stopTimer])
+
     const startExam = useCallback(() => {
+        stopTimer()
+        carryRef.current = 0; setCarryover(0)
         const mounted = { v: true }
         setPhase("loading")
         load(mounted)
-    }, [load])
-
-    // ── Timer (single, starts on first "Bắt đầu", runs until summary) ──
-
-    const finish = useCallback(() => {
-        if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null }
-        setTimeTaken(Math.round((Date.now() - startRef.current) / 1000))
-        setPhase("summary")
-    }, [])
-
-    const startTimer = useCallback(() => {
-        if (timerRef.current) return
-        startRef.current = Date.now()
-        timerRef.current = setInterval(() => {
-            setTimeLeft(t => {
-                if (t <= 1) { finish(); return 0 }
-                return t - 1
-            })
-        }, 1000)
-    }, [finish])
-
-    useEffect(() => () => { if (timerRef.current) clearInterval(timerRef.current) }, [])
+    }, [load, stopTimer])
 
     // ── Section intro handler ─────────────────────────────────────────
 
     const handleStartSection = useCallback(() => {
-        startTimer()
+        if (secIdxRef.current === 0) startRef.current = Date.now()
+        const sec = cfg.sections[secIdxRef.current]
+        startSectionTimer(sec.allocMin)
         setPhase("question")
-    }, [startTimer])
+    }, [cfg.sections, startSectionTimer])
 
     // ── Answer handler ────────────────────────────────────────────────
 
@@ -371,6 +409,11 @@ export default function MockExamClient({ level }: { level: string }) {
             const nextSec = questions[next].sectionId
             const currSec = questions[idx].sectionId
             if (nextSec !== currSec) {
+                // User finished section early — carry remaining time to next section
+                const carry = timeLeftRef.current
+                stopTimer()
+                carryRef.current = carry
+                setCarryover(carry)
                 const nextSecIdx = cfg.sections.findIndex(s => s.id === nextSec)
                 setIdx(next); setSectionIdx(nextSecIdx)
                 setSelected(null); advRef.current = false
@@ -379,7 +422,7 @@ export default function MockExamClient({ level }: { level: string }) {
                 setIdx(next); setSelected(null); advRef.current = false
             }
         }, 900)
-    }, [selected, idx, questions, cfg.sections, phase, finish])
+    }, [selected, idx, questions, cfg.sections, phase, finish, stopTimer])
 
     // ── Keyboard ──────────────────────────────────────────────────────
 
@@ -522,13 +565,8 @@ export default function MockExamClient({ level }: { level: string }) {
                 <div className={styles.introCard}>
                     <div className={styles.introMeta}>
                         <span className={styles.introBadge} data-level={level}>{level}</span>
-                        {!isFirst && (
-                            <span className={styles.timerPill}>
-                                <Clock size={12} /> {formatTime(timeLeft)}
-                            </span>
-                        )}
+                        <span className={styles.introPhaseTag}>Phần {sectionIdx + 1}/{cfg.sections.length}</span>
                     </div>
-                    <p className={styles.introSection}>Phần {sectionIdx + 1} / {cfg.sections.length}</p>
                     <h2 className={styles.introTitle}>{sec.title}</h2>
                     <p className={styles.introTitleVi}>{sec.titleVi}</p>
 
@@ -544,15 +582,32 @@ export default function MockExamClient({ level }: { level: string }) {
                         ))}
                     </div>
 
+                    <div className={styles.introDivider} />
+
+                    {/* Time breakdown */}
+                    <div className={styles.introTimeBox}>
+                        <div className={styles.introTimeRow}>
+                            <span>Thời gian phần này</span>
+                            <span>{sec.allocMin} phút</span>
+                        </div>
+                        {carryover > 0 && (
+                            <div className={styles.introTimeRow} data-bonus>
+                                <span>Dư từ phần trước</span>
+                                <span>+{Math.floor(carryover / 60)} phút {carryover % 60 > 0 ? `${carryover % 60}s` : ""}</span>
+                            </div>
+                        )}
+                        <div className={styles.introTimeTotal}>
+                            <span>Tổng thời gian</span>
+                            <span><Clock size={12} /> {formatTime(sec.allocMin * 60 + carryover)}</span>
+                        </div>
+                    </div>
+
                     <div className={styles.introFooter}>
                         <span className={styles.introTotal}>{secQCount} câu hỏi</span>
-                        <span className={styles.introTime}>
-                            <Clock size={11} /> {sec.allocMin} phút
-                        </span>
                     </div>
 
                     <button className={styles.btnStart} onClick={handleStartSection}>
-                        {isFirst ? "Bắt đầu thi" : "Tiếp tục"}
+                        {isFirst ? "Bắt đầu thi" : "Tiếp tục phần " + (sectionIdx + 1)}
                         <ChevronRight size={16} />
                     </button>
                 </div>

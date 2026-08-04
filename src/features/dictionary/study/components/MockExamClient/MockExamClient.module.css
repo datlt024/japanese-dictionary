@@ -229,13 +229,60 @@
     padding: 3px 10px;
 }
 
-.introSection {
-    margin: 0;
-    font-size: 12px;
+.introPhaseTag {
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     color: var(--color-text-secondary);
+}
+
+.introTimeBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background: var(--color-bg);
+    border: 1.5px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.introTimeRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.introTimeRow[data-bonus] {
+    color: #16a34a;
+    background: #f0fdf4;
+}
+
+@media (prefers-color-scheme: dark) {
+    .introTimeRow[data-bonus] { background: rgba(22,163,74,0.08); }
+}
+:root[data-theme="dark"] .introTimeRow[data-bonus] { background: rgba(22,163,74,0.08); }
+:root[data-theme="light"] .introTimeRow[data-bonus] { background: #f0fdf4; }
+
+.introTimeTotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 14px;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--color-text-primary);
+}
+
+.introTimeTotal span:last-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .introTitle {
