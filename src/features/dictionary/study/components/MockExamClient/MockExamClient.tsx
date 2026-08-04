@@ -83,9 +83,9 @@ const EXAM: Record<string, {
         passingDisplay: "90",
         passing: { secMin: 19, total: 60 },
         infoRows: [
-            { title: "文字・語彙",  count: 29 },
-            { title: "文法・読解",  count: 26 },
-            { title: "聴解",        count: 35, skipped: true },
+            { title: "文字・語彙",  count: 28 },
+            { title: "文法・読解",  count: 29 },
+            { title: "聴解",        count: 28, skipped: true },
         ],
         sections: [
             {
@@ -93,15 +93,15 @@ const EXAM: Record<string, {
                 groups: [
                     { id: "q1", label: "問題1", sublabel: "漢字の読み方",  type: "kanji_reading", count: 9  },
                     { id: "q2", label: "問題2", sublabel: "漢字の書き方",  type: "orthography",   count: 6  },
-                    { id: "q3", label: "問題3", sublabel: "（　　）に入れるのに最もよいものを選んでください", type: "vocab_meaning", count: 10 },
+                    { id: "q3", label: "問題3", sublabel: "（　　）に入れるのに最もよいものを選んでください", type: "vocab_meaning", count: 8  },
                     { id: "q4", label: "問題4", sublabel: "____に意味が最も近いものを選んでください",          type: "vocab_meaning", count: 5  },
                 ],
             },
             {
-                id: "grammar", title: "言語知識（文法）", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 55,
+                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 80,
                 groups: [
                     { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_meaning", count: 15 },
-                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 5  },
+                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_meaning", count: 9  },
                     { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_meaning", count: 5  },
                 ],
             },
