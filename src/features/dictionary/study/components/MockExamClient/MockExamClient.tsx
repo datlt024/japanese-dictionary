@@ -54,7 +54,7 @@ const EXAM: Record<string, {
     N5: {
         duration: 60 * 60,  // 20 + 40 min (聴解 30 min not tested)
         passingDisplay: "80",
-        passing: { secMin: 19, total: 53 },
+        passing: { secMin: 19, total: 80 },
         infoRows: [
             { title: "文字・語彙", count: 21 },
             { title: "文法・読解", count: 22 },
@@ -81,7 +81,7 @@ const EXAM: Record<string, {
     N4: {
         duration: 80 * 60,  // 25 + 55 min (聴解 35 min not tested)
         passingDisplay: "90",
-        passing: { secMin: 19, total: 60 },
+        passing: { secMin: 19, total: 90 },
         infoRows: [
             { title: "文字・語彙",  count: 28 },
             { title: "文法・読解",  count: 29 },
@@ -110,7 +110,7 @@ const EXAM: Record<string, {
     N3: {
         duration: 100 * 60,  // 30 + 70 min (聴解 40 min not tested)
         passingDisplay: "95",
-        passing: { secMin: 19, total: 63 },
+        passing: { secMin: 19, total: 95 },
         infoRows: [
             { title: "語彙",      count: 31 },
             { title: "文法・読解", count: 34 },
@@ -140,7 +140,7 @@ const EXAM: Record<string, {
     N2: {
         duration: 105 * 60,
         passingDisplay: "90",
-        passing: { secMin: 19, total: 60 },
+        passing: { secMin: 19, total: 90 },
         infoRows: [
             { title: "語彙",       count: 27 },
             { title: "文法・読解",  count: 46 },
@@ -170,7 +170,7 @@ const EXAM: Record<string, {
     N1: {
         duration: 110 * 60,
         passingDisplay: "100",
-        passing: { secMin: 19, total: 67 },
+        passing: { secMin: 19, total: 100 },
         infoRows: [
             { title: "語彙",       count: 24 },
             { title: "文法・読解",  count: 46 },
@@ -763,9 +763,9 @@ export default function MockExamClient({ level }: { level: string }) {
 
                 <div className={styles.scoreMain}>
                     <span className={styles.scoreNum}>{total}</span>
-                    <span className={styles.scoreMax}>/120</span>
+                    <span className={styles.scoreMax}>/180</span>
                 </div>
-                <p className={styles.scoreNote}>Điểm tổng hợp (語彙 + 文法)</p>
+                <p className={styles.scoreNote}>Điểm từ vựng + ngữ pháp · Ngưỡng đạt {cfg.passingDisplay}/180</p>
 
                 {/* Per-section scores */}
                 <div className={styles.sectionScores}>
@@ -775,7 +775,7 @@ export default function MockExamClient({ level }: { level: string }) {
                             <span>{vocabScore}</span><small>/60</small>
                         </div>
                         <p className={styles.sectionScoreDetail}>{vocabCorrect}/{vocabQs.length} câu đúng</p>
-                        {!vocabPassed && <p className={styles.sectionFail}>Chưa đạt tối thiểu 19 điểm</p>}
+                        {!vocabPassed && <p className={styles.sectionFail}>Điểm liệt — dưới 19 điểm</p>}
                     </div>
                     <div className={styles.sectionScore} data-passed={String(grammarPassed)}>
                         <p className={styles.sectionScoreTitle}>文法 · Ngữ pháp</p>
@@ -783,7 +783,7 @@ export default function MockExamClient({ level }: { level: string }) {
                             <span>{grammarScore}</span><small>/60</small>
                         </div>
                         <p className={styles.sectionScoreDetail}>{grammarCorrect}/{grammarQs.length} câu đúng</p>
-                        {!grammarPassed && <p className={styles.sectionFail}>Chưa đạt tối thiểu 19 điểm</p>}
+                        {!grammarPassed && <p className={styles.sectionFail}>Điểm liệt — dưới 19 điểm</p>}
                     </div>
                 </div>
 
