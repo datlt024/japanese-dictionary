@@ -8,7 +8,7 @@ import styles from "./MockExamClient.module.css"
 // ── Types ──────────────────────────────────────────────────────────────
 
 type QType = "kanji_reading" | "orthography" | "vocab_meaning" | "grammar_meaning"
-type Phase = "info" | "loading" | "error" | "section_intro" | "question" | "summary"
+type Phase = "info" | "loading" | "error" | "section_intro" | "question" | "break" | "summary"
 
 type VocabItem  = { id: number; word: string; kana: string | null; meaning: string | null }
 type GrammarItem = { id: number; pattern: string; meaning: string | null }
@@ -341,7 +341,7 @@ export default function MockExamClient({ level }: { level: string }) {
     const finish = useCallback(() => {
         stopTimer()
         setTimeTaken(Math.round((Date.now() - startRef.current) / 1000))
-        setPhase("summary")
+        setPhase("break")
     }, [stopTimer])
 
     // Start a new section's timer: allocMin + any carry from previous section
@@ -699,6 +699,36 @@ export default function MockExamClient({ level }: { level: string }) {
 
                     <p className={styles.keyHint}>Nhấn A B C D hoặc 1 2 3 4 để chọn</p>
                 </div>
+            </div>
+        )
+    }
+
+    // ── Render: break (giải lao trước 聴解 trong thi thật) ───────────
+
+    if (phase === "break") {
+        return (
+            <div className={styles.introWrap}>
+                <Link href="/study?tab=thi-thu" className={styles.backBtn}>
+                    <ArrowLeft size={14} /> Danh sách đề thi
+                </Link>
+
+                <div className={styles.breakCard}>
+                    <div className={styles.breakIcon}>☕</div>
+                    <h2 className={styles.breakTitle}>Giải lao</h2>
+                    <p className={styles.breakDesc}>
+                        Trong kỳ thi JLPT thực tế, đây là thời gian nghỉ giữa phần <strong>言語知識・読解</strong> và phần <strong>聴解</strong> (Nghe hiểu).
+                    </p>
+                    <p className={styles.breakNote}>
+                        Bài thi thử này không bao gồm phần nghe. Bạn có thể xem kết quả ngay bây giờ.
+                    </p>
+                    <button className={styles.btnStart} onClick={() => setPhase("summary")}>
+                        Xem kết quả <ChevronRight size={16} />
+                    </button>
+                </div>
+
+                <p className={styles.introNote}>
+                    * Bài thi bao gồm phần <strong>Ngôn ngữ</strong> (từ vựng + ngữ pháp). Không có phần nghe và đọc hiểu.
+                </p>
             </div>
         )
     }
