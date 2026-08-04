@@ -8,7 +8,7 @@ import styles from "./MockExamClient.module.css"
 // ── Types ──────────────────────────────────────────────────────────────
 
 type QType = "kanji_reading" | "orthography" | "vocab_meaning" | "grammar_meaning"
-type Phase = "loading" | "error" | "section_intro" | "question" | "summary"
+type Phase = "info" | "loading" | "error" | "section_intro" | "question" | "summary"
 
 type VocabItem  = { id: number; word: string; kana: string | null; meaning: string | null }
 type GrammarItem = { id: number; pattern: string; meaning: string | null }
@@ -253,7 +253,7 @@ export default function MockExamClient({ level }: { level: string }) {
     const cfg = EXAM[level] ?? EXAM["N5"]
     const allGroups = cfg.sections.flatMap(s => s.groups)
 
-    const [phase,        setPhase]        = useState<Phase>("loading")
+    const [phase,        setPhase]        = useState<Phase>("info")
     const [questions,    setQuestions]    = useState<Question[]>([])
     const [answers,      setAnswers]      = useState<(number | null)[]>([])
     const [idx,          setIdx]          = useState(0)
@@ -285,13 +285,6 @@ export default function MockExamClient({ level }: { level: string }) {
             setPhase("section_intro")
         }).catch(() => { if (mounted.v) setPhase("error") })
     }, [level, cfg])
-
-    useEffect(() => {
-        const mounted = { v: true }
-        load(mounted)
-        return () => { mounted.v = false }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [level])
 
     const startExam = useCallback(() => {
         const mounted = { v: true }
@@ -393,6 +386,73 @@ export default function MockExamClient({ level }: { level: string }) {
         const totalQ       = questions.length
 
         return { vocabCorrect, grammarCorrect, vocabQs, grammarQs, vocabScore, grammarScore, total, vocabPassed, grammarPassed, passed, totalCorrect, totalQ, groupResults }
+    }
+
+    // ── Render: info ─────────────────────────────────────────────────
+
+    if (phase === "info") {
+        const totalQ = cfg.sections.flatMap(s => s.groups).reduce((a, g) => a + g.count, 0)
+        const durationMin = Math.round(cfg.duration / 60)
+
+        return (
+            <div className={styles.introWrap}>
+                <Link href="/study?tab=thi-thu" className={styles.backBtn}>
+                    <ArrowLeft size={14} /> Danh sách đề thi
+                </Link>
+
+                <div className={styles.infoCard}>
+                    <div className={styles.infoHeader}>
+                        <h2 className={styles.infoTitle}>Đề thi thử JLPT</h2>
+                        <span className={styles.introBadge} data-level={level}>{level}</span>
+                    </div>
+
+                    <div className={styles.infoMeta}>
+                        <span className={styles.infoMetaLabel}>Trình độ đề thi</span>
+                        <span className={styles.infoMetaVal} data-level={level}>{level}</span>
+                    </div>
+
+                    <table className={styles.infoTable}>
+                        <thead>
+                            <tr>
+                                <th>Nội dung</th>
+                                <th>Số câu</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {cfg.sections.map(sec => (
+                                <tr key={sec.id}>
+                                    <td>{sec.title}</td>
+                                    <td>{sec.groups.reduce((a, g) => a + g.count, 0)}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+
+                    <div className={styles.infoStats}>
+                        <div className={styles.infoStat}>
+                            <span className={styles.infoStatLabel}>Thời gian làm bài</span>
+                            <span className={styles.infoStatVal} data-accent>{durationMin} Phút</span>
+                        </div>
+                        <div className={styles.infoStat}>
+                            <span className={styles.infoStatLabel}>Tổng số câu</span>
+                            <span className={styles.infoStatVal}>{totalQ} câu</span>
+                        </div>
+                        <div className={styles.infoStat}>
+                            <span className={styles.infoStatLabel}>Điểm đạt</span>
+                            <span className={styles.infoStatVal} data-pass>{cfg.passing.total}/120 điểm</span>
+                        </div>
+                    </div>
+
+                    <button className={styles.btnStart} onClick={startExam}>
+                        Bắt đầu <ChevronRight size={16} />
+                    </button>
+
+                    <p className={styles.infoNote}>
+                        * Bài thi bao gồm <strong>Ngôn ngữ</strong> (từ vựng + ngữ pháp). Không có phần nghe và đọc hiểu.
+                    </p>
+                </div>
+            </div>
+        )
     }
 
     // ── Render: loading ───────────────────────────────────────────────
@@ -629,7 +689,7 @@ export default function MockExamClient({ level }: { level: string }) {
                 </div>
 
                 <div className={styles.scoreActions}>
-                    <button className={styles.btnPrimary} onClick={startExam}>
+                    <button className={styles.btnPrimary} onClick={() => setPhase("info")}>
                         <RotateCcw size={14} /> Thi lại
                     </button>
                     <Link href="/study?tab=thi-thu" className={styles.btnOutline}>Chọn đề khác</Link>
