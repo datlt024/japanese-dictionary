@@ -719,10 +719,10 @@ export default function MockExamClient({ level }: { level: string }) {
                         Trong kỳ thi JLPT thực tế, đây là thời gian nghỉ giữa phần <strong>言語知識・読解</strong> và phần <strong>聴解</strong> (Nghe hiểu).
                     </p>
                     <p className={styles.breakNote}>
-                        Bài thi thử này không bao gồm phần nghe. Bạn có thể xem kết quả ngay bây giờ.
+                        Bài thi thử này không bao gồm phần nghe. Nhấn <strong>Nộp bài</strong> khi bạn sẵn sàng để xem kết quả.
                     </p>
                     <button className={styles.btnStart} onClick={() => setPhase("summary")}>
-                        Xem kết quả <ChevronRight size={16} />
+                        Nộp bài <ChevronRight size={16} />
                     </button>
                 </div>
 
