@@ -539,6 +539,12 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     const startExam = useCallback(() => {
         stopTimer()
+        setAudioStarted(false)
+        setAudioEnded(false)
+        setAudioTime(0)
+        setAudioDuration(0)
+        setLanguageTimeTaken(0)
+        setTimeTaken(0)
         const mounted = { v: true }
         setPhase("loading")
         load(mounted)
