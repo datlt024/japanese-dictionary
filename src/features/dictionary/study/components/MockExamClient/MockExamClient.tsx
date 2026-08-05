@@ -50,7 +50,7 @@ interface Question {
 // ── JLPT structure ─────────────────────────────────────────────────────
 // Source: Official JLPT syllabus
 
-interface InfoRow { title: string; count: number; skipped?: boolean }
+interface InfoRow { title: string; count: number; skipped?: boolean; sectionId?: string }
 
 const EXAM: Record<string, {
     duration: number
@@ -58,6 +58,7 @@ const EXAM: Record<string, {
     passing: { secMin: number; total: number }
     subtitle?: string
     listeningAudio?: string
+    maxScore?: number
     infoRows: InfoRow[]
     sections: Section[]
 }> = {
@@ -104,14 +105,12 @@ const EXAM: Record<string, {
     },
     "N5-2021": {
         duration: 60 * 60,  // 20 + 40 min tested
-        subtitle: "2021年12月",
+        subtitle: "2021年12月 — Ngôn ngữ",
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
-        listeningAudio: "/exams/n5-2021/audio/listening.mp3",
         infoRows: [
             { title: "文字・語彙", count: 21 },
             { title: "文法・読解", count: 22 },
-            { title: "聴解",       count: 24, skipped: true },
         ],
         sections: [
             {
@@ -134,13 +133,26 @@ const EXAM: Record<string, {
                     { id: "q10", label: "問題6", sublabel: "もんだい６　右のページを見て、下のしつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 1  },
                 ],
             },
+        ],
+    },
+    "N5-2021-L": {
+        duration: 30 * 60,
+        subtitle: "2021年12月 — 聴解",
+        passingDisplay: "19",
+        passing: { secMin: 19, total: 19 },
+        maxScore: 60,
+        listeningAudio: "/exams/n5-2021/audio/listening.mp3",
+        infoRows: [
+            { title: "聴解", count: 24, sectionId: "listening" },
+        ],
+        sections: [
             {
                 id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 30,
                 groups: [
-                    { id: "lq1", label: "問題1", sublabel: "もんだい１　まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic", count: 7 },
-                    { id: "lq2", label: "問題2", sublabel: "もんだい２　では、まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic", count: 6 },
+                    { id: "lq1", label: "問題1", sublabel: "もんだい１　まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic",   count: 7 },
+                    { id: "lq2", label: "問題2", sublabel: "もんだい２　では、まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic",   count: 6 },
                     { id: "lq3", label: "問題3", sublabel: "もんだい３　では、えを　みながら　しつもんを　きいて　ください。やじるし（→）のひとは　なんと　いいますか。１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_scene", count: 5 },
-                    { id: "lq4", label: "問題4", sublabel: "もんだい４　では、えなどが　ありません。まず　ぶんを　きいて　ください。それから、その　へんじを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_text", count: 6 },
+                    { id: "lq4", label: "問題4", sublabel: "もんだい４　では、えなどが　ありません。まず　ぶんを　きいて　ください。それから、その　へんじを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_text",  count: 6 },
                 ],
             },
         ],
@@ -393,7 +405,9 @@ function score60(correct: number, total: number) {
 // ── Component ──────────────────────────────────────────────────────────
 
 export default function MockExamClient({ level, year }: { level: string; year?: string }) {
-    const examKey = level === "N5" && year === "2021" ? "N5-2021" : level
+    const examKey = level === "N5" && year === "2021"  ? "N5-2021"
+                  : level === "N5" && year === "2021L" ? "N5-2021-L"
+                  : level
     const cfg = EXAM[examKey] ?? EXAM["N5"]
     const allGroups = cfg.sections.flatMap(s => s.groups)
 
@@ -443,9 +457,22 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
         if (examKey === "N5-2021") {
             if (!mounted.v) return
-            questionRefs.current = new Array(N5_2021_QUESTIONS.length).fill(null)
-            setQuestions(N5_2021_QUESTIONS as Question[])
-            setAnswers(new Array(N5_2021_QUESTIONS.length).fill(null))
+            const qs = N5_2021_QUESTIONS.filter(q => q.sectionId !== "listening")
+            questionRefs.current = new Array(qs.length).fill(null)
+            setQuestions(qs as Question[])
+            setAnswers(new Array(qs.length).fill(null))
+            setIdx(0)
+            startTimer(totalMin)
+            setPhase("question")
+            return
+        }
+
+        if (examKey === "N5-2021-L") {
+            if (!mounted.v) return
+            const qs = N5_2021_QUESTIONS.filter(q => q.sectionId === "listening")
+            questionRefs.current = new Array(qs.length).fill(null)
+            setQuestions(qs as Question[])
+            setAnswers(new Array(qs.length).fill(null))
             setIdx(0)
             startTimer(totalMin)
             setPhase("question")
@@ -478,8 +505,8 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const finish = useCallback(() => {
         stopTimer()
         setTimeTaken(Math.round((Date.now() - startRef.current) / 1000))
-        setPhase("break")
-    }, [stopTimer])
+        setPhase(examKey === "N5-2021-L" ? "summary" : "break")
+    }, [stopTimer, examKey])
 
     useEffect(() => {
         if (phase !== "question" || timeLeft !== 0) return
@@ -524,16 +551,29 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     // ── Computed results ──────────────────────────────────────────────
 
     function getResults() {
-        const vocabQs   = questions.filter(q => q.sectionId === "vocab")
-        const grammarQs = questions.filter(q => q.sectionId === "grammar")
-        const vocabCorrect   = vocabQs.filter(q => {
-            const globalIdx = questions.indexOf(q)
-            return answers[globalIdx] === q.correctIndex
-        }).length
-        const grammarCorrect = grammarQs.filter(q => {
-            const globalIdx = questions.indexOf(q)
-            return answers[globalIdx] === q.correctIndex
-        }).length
+        const correctIn = (qs: Question[]) => qs.filter(q => answers[questions.indexOf(q)] === q.correctIndex).length
+
+        const vocabQs      = questions.filter(q => q.sectionId === "vocab")
+        const grammarQs    = questions.filter(q => q.sectionId === "grammar")
+        const listeningQs  = questions.filter(q => q.sectionId === "listening")
+
+        const vocabCorrect     = correctIn(vocabQs)
+        const grammarCorrect   = correctIn(grammarQs)
+        const listeningCorrect = correctIn(listeningQs)
+
+        const vocabScore     = score60(vocabCorrect,     vocabQs.length)
+        const grammarScore   = score60(grammarCorrect,   grammarQs.length)
+        const listeningScore = score60(listeningCorrect, listeningQs.length)
+
+        const total = vocabScore + grammarScore + listeningScore
+
+        const vocabPassed     = vocabQs.length     === 0 || vocabScore     >= cfg.passing.secMin
+        const grammarPassed   = grammarQs.length   === 0 || grammarScore   >= cfg.passing.secMin
+        const listeningPassed = listeningQs.length === 0 || listeningScore >= cfg.passing.secMin
+        const passed = total >= cfg.passing.total && vocabPassed && grammarPassed && listeningPassed
+
+        const totalCorrect = vocabCorrect + grammarCorrect + listeningCorrect
+        const totalQ       = questions.length
 
         // per-group results
         const groupResults = allGroups.map(grp => {
@@ -542,16 +582,9 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             return { ...grp, correct, total: grpQs.length }
         })
 
-        const vocabScore   = score60(vocabCorrect,   vocabQs.length)
-        const grammarScore = score60(grammarCorrect, grammarQs.length)
-        const total = vocabScore + grammarScore
-        const vocabPassed   = vocabScore   >= cfg.passing.secMin
-        const grammarPassed = grammarScore >= cfg.passing.secMin
-        const passed = total >= cfg.passing.total && vocabPassed && grammarPassed
-        const totalCorrect = vocabCorrect + grammarCorrect
-        const totalQ       = questions.length
-
-        return { vocabCorrect, grammarCorrect, vocabQs, grammarQs, vocabScore, grammarScore, total, vocabPassed, grammarPassed, passed, totalCorrect, totalQ, groupResults }
+        return { vocabCorrect, grammarCorrect, listeningCorrect, vocabQs, grammarQs, listeningQs,
+                 vocabScore, grammarScore, listeningScore, total, vocabPassed, grammarPassed,
+                 listeningPassed, passed, totalCorrect, totalQ, groupResults }
     }
 
     // ── Render: info ─────────────────────────────────────────────────
@@ -971,12 +1004,18 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     // ── Render: summary ───────────────────────────────────────────────
 
-    const { vocabCorrect, grammarCorrect, vocabQs, grammarQs, vocabScore, grammarScore, total,
-            vocabPassed, grammarPassed, passed, totalCorrect, totalQ, groupResults } = getResults()
+    const { vocabCorrect, grammarCorrect, listeningCorrect,
+            vocabQs, grammarQs, listeningQs,
+            vocabScore, grammarScore, listeningScore, total,
+            vocabPassed, grammarPassed, listeningPassed,
+            passed, totalCorrect, totalQ, groupResults } = getResults()
+
+    const maxScore = cfg.maxScore ?? 180
+    const scoreLabel = examKey === "N5-2021-L" ? "Điểm nghe hiểu" : "Điểm từ vựng + ngữ pháp"
 
     const wrongBySection: Record<string, { q: Question; ans: number | null; i: number }[]> = {}
     questions.forEach((q, i) => {
-        if (answers[i] !== q.correctIndex && q.sectionId !== "listening") {
+        if (answers[i] !== q.correctIndex) {
             wrongBySection[q.sectionId] ??= []
             wrongBySection[q.sectionId].push({ q, ans: answers[i], i })
         }
@@ -999,19 +1038,25 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
                 <div className={styles.scoreMain}>
                     <span className={styles.scoreNum}>{total}</span>
-                    <span className={styles.scoreMax}>/180</span>
+                    <span className={styles.scoreMax}>/{maxScore}</span>
                 </div>
-                <p className={styles.scoreNote}>Điểm từ vựng + ngữ pháp · Ngưỡng đạt {cfg.passingDisplay}/180</p>
+                <p className={styles.scoreNote}>{scoreLabel} · Ngưỡng đạt {cfg.passingDisplay}/{maxScore}</p>
 
-                {/* Per-section scores — all 3 sections including 聴解 */}
+                {/* Per-section scores */}
                 <div className={styles.sectionScores}>
                     {cfg.infoRows.map((row, rowIdx) => {
                         const skipped   = !!row.skipped
                         const testedIdx = cfg.infoRows.slice(0, rowIdx).filter(r => !r.skipped).length
-                        const score   = skipped ? null : testedIdx === 0 ? vocabScore   : grammarScore
-                        const correct = skipped ? null : testedIdx === 0 ? vocabCorrect : grammarCorrect
-                        const total   = skipped ? null : testedIdx === 0 ? vocabQs.length : grammarQs.length
-                        const passed  = skipped ? null : testedIdx === 0 ? vocabPassed  : grammarPassed
+                        const secId = row.sectionId
+                        const scoreMap  = [vocabScore,   grammarScore,   listeningScore]
+                        const correctMap= [vocabCorrect, grammarCorrect, listeningCorrect]
+                        const totalMap  = [vocabQs.length, grammarQs.length, listeningQs.length]
+                        const passedMap = [vocabPassed,  grammarPassed,  listeningPassed]
+                        const mapIdx = secId === "listening" ? 2 : testedIdx
+                        const score   = skipped ? null : scoreMap[mapIdx]  ?? 0
+                        const correct = skipped ? null : correctMap[mapIdx] ?? 0
+                        const total   = skipped ? null : totalMap[mapIdx]   ?? 0
+                        const passed  = skipped ? null : passedMap[mapIdx]  ?? true
                         return (
                             <div key={row.title} className={styles.sectionScoreRow}
                                 data-skipped={skipped || undefined}
