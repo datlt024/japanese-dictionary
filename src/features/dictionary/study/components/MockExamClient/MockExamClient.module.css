@@ -1464,13 +1464,19 @@
 
 .wrongItem {
     display: flex;
-    align-items: center;
-    gap: 16px;
+    flex-direction: column;
+    gap: 6px;
     padding: 12px 20px;
     border-bottom: 1px solid var(--color-border);
 }
 
 .wrongItem:last-child { border-bottom: none; }
+
+.wrongItemRow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 
 .wrongQ {
     display: flex;
@@ -1500,6 +1506,75 @@
 
 .wrongCorrect { color: #16a34a; }
 .wrongWrong   { color: #ef4444; }
+
+.wrongExplanation {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    padding: 8px 12px;
+    background: var(--color-bg);
+    border-radius: 8px;
+    border-left: 2.5px solid var(--color-border);
+}
+
+/* ── Listening review ────────────────────────────────────────── */
+
+.listeningReview {
+    width: 100%;
+    max-width: 560px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.listeningReviewTitle {
+    margin: 0;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    color: var(--color-text-secondary);
+    background: var(--color-bg);
+    border-bottom: 1.5px solid var(--color-border);
+}
+
+.listeningReviewItem {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.listeningReviewItem:last-child { border-bottom: none; }
+
+.listeningReviewHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.listeningReviewDisplay {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.listeningReviewResult[data-correct="true"]  { font-size: 12px; font-weight: 700; color: #16a34a; }
+.listeningReviewResult[data-correct="false"] { font-size: 12px; font-weight: 700; color: #ef4444; }
+
+.listeningReviewAnswers {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.listeningReviewSkipped { color: var(--color-text-secondary); }
 
 /* ── Shared buttons ──────────────────────────────────────────── */
 

@@ -46,6 +46,7 @@ interface Question {
     correctIndex: number
     audioSrc?: string
     imageSrc?: string   // full 2×2 grid image for listening_pic questions
+    explanation?: string
 }
 
 // ── JLPT structure ─────────────────────────────────────────────────────
@@ -1211,28 +1212,69 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                 ))}
             </div>
 
-            {/* Wrong items */}
-            {cfg.sections.map(sec => {
-                const wrongs = wrongBySection[sec.id] ?? []
-                if (wrongs.length === 0) return null
-                return (
-                    <div key={sec.id} className={styles.wrongSection}>
-                        <p className={styles.wrongTitle}>{sec.titleVi} — Câu sai ({wrongs.length})</p>
-                        {wrongs.map(({ q, ans, i }) => (
-                            <div key={i} className={styles.wrongItem}>
-                                <div className={styles.wrongQ}>
-                                    <span className={styles.wrongDisplay}>{q.display}</span>
-                                    {q.reading && <span className={styles.wrongReading}>{q.reading}</span>}
+            {/* Wrong items (language sections only; listening has its own review below) */}
+            {cfg.sections
+                .filter(sec => !(sec.id === "listening" && cfg.listeningAudio))
+                .map(sec => {
+                    const wrongs = wrongBySection[sec.id] ?? []
+                    if (wrongs.length === 0) return null
+                    return (
+                        <div key={sec.id} className={styles.wrongSection}>
+                            <p className={styles.wrongTitle}>{sec.titleVi} — Câu sai ({wrongs.length})</p>
+                            {wrongs.map(({ q, ans, i }) => (
+                                <div key={i} className={styles.wrongItem}>
+                                    <div className={styles.wrongItemRow}>
+                                        <div className={styles.wrongQ}>
+                                            <span className={styles.wrongDisplay}>{q.display}</span>
+                                            {q.reading && <span className={styles.wrongReading}>{q.reading}</span>}
+                                        </div>
+                                        <div className={styles.wrongAnswers}>
+                                            <span className={styles.wrongCorrect}>✓ {q.options[q.correctIndex]}</span>
+                                            {ans !== null && <span className={styles.wrongWrong}>✗ {q.options[ans]}</span>}
+                                        </div>
+                                    </div>
+                                    {q.explanation && (
+                                        <p className={styles.wrongExplanation}>{q.explanation}</p>
+                                    )}
                                 </div>
-                                <div className={styles.wrongAnswers}>
-                                    <span className={styles.wrongCorrect}>✓ {q.options[q.correctIndex]}</span>
-                                    {ans !== null && <span className={styles.wrongWrong}>✗ {q.options[ans]}</span>}
+                            ))}
+                        </div>
+                    )
+                })}
+
+            {/* Listening review — all questions, correct + wrong, with explanations */}
+            {listeningQs.length > 0 && cfg.listeningAudio && (
+                <div className={styles.listeningReview}>
+                    <p className={styles.listeningReviewTitle}>聴解 — Xem lại toàn bộ câu hỏi</p>
+                    {listeningQs.map(q => {
+                        const gi = questions.indexOf(q)
+                        const userAns = answers[gi]
+                        const isCorrect = userAns === q.correctIndex
+                        return (
+                            <div key={gi} className={styles.listeningReviewItem}>
+                                <div className={styles.listeningReviewHeader}>
+                                    <span className={styles.listeningReviewDisplay}>{q.display}</span>
+                                    <span className={styles.listeningReviewResult} data-correct={String(isCorrect)}>
+                                        {isCorrect ? "✓ Đúng" : "✗ Sai"}
+                                    </span>
                                 </div>
+                                <div className={styles.listeningReviewAnswers}>
+                                    <span className={styles.wrongCorrect}>Đáp án đúng: {q.options[q.correctIndex]}</span>
+                                    {!isCorrect && userAns !== null && (
+                                        <span className={styles.wrongWrong}>Bạn chọn: {q.options[userAns]}</span>
+                                    )}
+                                    {userAns === null && (
+                                        <span className={styles.listeningReviewSkipped}>Chưa trả lời</span>
+                                    )}
+                                </div>
+                                {q.explanation && (
+                                    <p className={styles.wrongExplanation}>{q.explanation}</p>
+                                )}
                             </div>
-                        ))}
-                    </div>
-                )
-            })}
+                        )
+                    })}
+                </div>
+            )}
         </div>
     )
 }
