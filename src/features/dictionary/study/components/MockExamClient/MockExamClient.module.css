@@ -858,47 +858,19 @@
     opacity: 0.6;
 }
 
-.qPic4ImgGrid {
-    position: relative;
+.qPicThumb {
+    max-width: 220px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
     border: 1.5px solid var(--color-border);
+    margin-bottom: 10px;
 }
 
 .qPic4ImgFull {
     width: 100% !important;
     height: auto !important;
     display: block;
-}
-
-.qPic4NumRow {
-    display: flex;
-    gap: 8px;
-    margin-top: 10px;
-}
-
-.qPic4NumBtn {
-    flex: 1;
-    padding: 10px 0;
-    border: 1.5px solid var(--color-border);
-    border-radius: 10px;
-    background: var(--color-surface);
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--color-text-secondary);
-    cursor: pointer;
-    transition: border-color 0.12s, color 0.12s, background 0.12s;
-    font-family: inherit;
-}
-.qPic4NumBtn:hover {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-}
-.qPic4NumBtn[data-selected] {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-    background: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface));
 }
 
 .qPic4Grid {

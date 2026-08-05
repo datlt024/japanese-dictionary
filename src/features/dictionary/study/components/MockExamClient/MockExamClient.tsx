@@ -773,9 +773,9 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
                                                             {/* ── Options ── */}
                                                             {q.type === "listening_pic" ? (
-                                                                q.imageSrc ? (
-                                                                    <>
-                                                                        <div className={styles.qPic4ImgGrid}>
+                                                                <>
+                                                                    {q.imageSrc ? (
+                                                                        <div className={styles.qPicThumb}>
                                                                             <Image
                                                                                 src={q.imageSrc}
                                                                                 alt={`Hình câu ${q.display}`}
@@ -784,37 +784,30 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                                 className={styles.qPic4ImgFull}
                                                                             />
                                                                         </div>
-                                                                        <div className={styles.qPic4NumRow}>
-                                                                            {q.options.map((_, oi) => (
-                                                                                <button
-                                                                                    key={oi}
-                                                                                    className={styles.qPic4NumBtn}
-                                                                                    data-selected={answers[gi] === oi || undefined}
-                                                                                    onClick={e => { e.stopPropagation(); handleSelect(gi, oi) }}
-                                                                                >
-                                                                                    {oi + 1}
-                                                                                </button>
+                                                                    ) : (
+                                                                        <div className={styles.qPic4Grid}>
+                                                                            {[0,1,2,3].map(oi => (
+                                                                                <div key={oi} className={styles.qPic4Placeholder} />
                                                                             ))}
                                                                         </div>
-                                                                    </>
-                                                                ) : (
-                                                                    <div className={styles.qPic4Grid}>
-                                                                        {q.options.map((_, oi) => {
+                                                                    )}
+                                                                    <div className={styles.qOptions}>
+                                                                        {[1,2,3,4].map((num, oi) => {
                                                                             const isSel = answers[gi] === oi
                                                                             return (
                                                                                 <label
                                                                                     key={oi}
-                                                                                    className={styles.qPic4Item}
+                                                                                    className={styles.qOption}
                                                                                     data-selected={isSel || undefined}
                                                                                     onClick={e => { e.stopPropagation(); handleSelect(gi, oi) }}
                                                                                 >
-                                                                                    <div className={styles.qPic4Placeholder} />
-                                                                                    <span className={styles.qPic4Num}>{oi + 1}</span>
+                                                                                    <span className={styles.qRadio} data-selected={isSel || undefined} />
+                                                                                    <span className={styles.qOptText}>{num}</span>
                                                                                 </label>
                                                                             )
                                                                         })}
                                                                     </div>
-                                                                )
+                                                                </>
                                                             ) : (
                                                                 <div className={styles.qOptions} data-grid={isKanjiType || undefined}>
                                                                     {q.options.map((opt, oi) => {
