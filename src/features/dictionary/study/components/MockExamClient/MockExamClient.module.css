@@ -812,6 +812,95 @@
     gap: 6px;
 }
 
+/* ── Listening UI ───────────────────────────────────────── */
+
+.qListenPlayBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 18px;
+    border-radius: 999px;
+    border: 1.5px solid var(--color-border);
+    background: var(--color-bg);
+    color: var(--color-text-secondary);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: not-allowed;
+    font-family: inherit;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.qListenPlayBtn[data-ready] {
+    cursor: pointer;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 6%, var(--color-surface));
+}
+.qListenPlayBtn[data-ready]:hover {
+    background: color-mix(in srgb, var(--color-primary) 12%, var(--color-surface));
+}
+
+.qSceneImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 140px;
+    background: var(--color-bg);
+    border: 1.5px dashed var(--color-border);
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.qSceneLabel {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    opacity: 0.6;
+}
+
+.qPic4Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.qPic4Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.12s;
+}
+.qPic4Item[data-selected] {
+    border-color: var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 5%, var(--color-surface));
+}
+
+.qPic4Placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: var(--color-bg);
+    border: 1.5px dashed var(--color-border);
+    border-radius: 7px;
+}
+.qPic4Item[data-selected] .qPic4Placeholder {
+    border-color: var(--color-primary);
+    border-style: solid;
+}
+
+.qPic4Num {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+}
+.qPic4Item[data-selected] .qPic4Num {
+    color: var(--color-primary);
+}
+
 .qOptions[data-grid] {
     display: grid;
     grid-template-columns: 1fr 1fr;

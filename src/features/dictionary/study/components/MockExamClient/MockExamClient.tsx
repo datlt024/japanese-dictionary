@@ -2,14 +2,14 @@
 
 import React, { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
-import { ArrowLeft, Clock, RotateCcw, ChevronRight, X } from "lucide-react"
+import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play } from "lucide-react"
 import styles from "./MockExamClient.module.css"
 import { N5_QUESTIONS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_QUESTIONS } from "@/features/dictionary/study/data/n5-2021-exam"
 
 // ── Types ──────────────────────────────────────────────────────────────
 
-type QType = "kanji_reading" | "kanji_writing" | "context_vocab" | "grammar_blank"
+type QType = "kanji_reading" | "kanji_writing" | "context_vocab" | "grammar_blank" | "listening_pic" | "listening_text" | "listening_scene"
 type Phase = "info" | "loading" | "error" | "question" | "break" | "summary"
 
 type VocabItem  = { id: number; word: string; kana: string | null; meaning: string | null }
@@ -42,6 +42,7 @@ interface Question {
     context?: string    // passage shown above the question (e.g. 問題7 reading)
     options: string[]
     correctIndex: number
+    audioSrc?: string
 }
 
 // ── JLPT structure ─────────────────────────────────────────────────────
@@ -132,10 +133,10 @@ const EXAM: Record<string, {
             {
                 id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 30,
                 groups: [
-                    { id: "lq1", label: "問題1", sublabel: "もんだいでは、はじめに　しつもんを　きいて　ください。　それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 7, skipped: true },
-                    { id: "lq2", label: "問題2", sublabel: "もんだい２では、まず しつもんを きいて ください。それから はなしを きいて、もんだいようしの １から４の なかから、いちばん いいものを ひとつ えらんで ください。", type: "grammar_blank", count: 6, skipped: true },
-                    { id: "lq3", label: "問題3", sublabel: "１から３の　ながから、いちばん　いい　ものを　ひとつ　えらんでください。", type: "grammar_blank", count: 5, skipped: true },
-                    { id: "lq4", label: "問題4", sublabel: "もんだい は、えなどが　ありません。ふんを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 6, skipped: true },
+                    { id: "lq1", label: "問題1", sublabel: "もんだい１　まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic", count: 7 },
+                    { id: "lq2", label: "問題2", sublabel: "もんだい２　では、まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic", count: 6 },
+                    { id: "lq3", label: "問題3", sublabel: "もんだい３　では、えを　みながら　しつもんを　きいて　ください。やじるし（→）のひとは　なんと　いいますか。１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_scene", count: 5 },
+                    { id: "lq4", label: "問題4", sublabel: "もんだい４　では、えなどが　ありません。まず　ぶんを　きいて　ください。それから、その　へんじを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_text", count: 6 },
                 ],
             },
         ],
@@ -706,6 +707,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
                                                 {grpQs.map(({ q, gi }, pos) => {
                                                     const isKanjiType = q.type === "kanji_reading" || q.type === "kanji_writing"
+                                                    const isListeningQ = q.type === "listening_pic" || q.type === "listening_text" || q.type === "listening_scene"
                                                     const prevContext = pos > 0 ? grpQs[pos - 1].q.context : undefined
                                                     const showContext = q.context != null && q.context !== prevContext
                                                     return (
@@ -727,12 +729,21 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                             <div className={styles.qItemHead}>
                                                                 <span className={styles.qNum}>{grpOffset + pos + 1}</span>
                                                                 <div className={styles.qWordInline}>
-                                                                    {(q.type === "kanji_reading" || q.type === "kanji_writing") && (
+                                                                    {isListeningQ ? (
+                                                                        <button
+                                                                            className={styles.qListenPlayBtn}
+                                                                            data-ready={!!q.audioSrc || undefined}
+                                                                            disabled={!q.audioSrc}
+                                                                            onClick={e => e.stopPropagation()}
+                                                                        >
+                                                                            <Play size={13} fill="currentColor" />
+                                                                            {q.audioSrc ? "Phát âm thanh" : "Chưa có âm thanh"}
+                                                                        </button>
+                                                                    ) : (q.type === "kanji_reading" || q.type === "kanji_writing") ? (
                                                                         <p className={styles.qSentence}>
                                                                             {q.sentence ? parseSentence(q.sentence) : q.display}
                                                                         </p>
-                                                                    )}
-                                                                    {q.type === "context_vocab" && (
+                                                                    ) : q.type === "context_vocab" ? (
                                                                         q.sentence ? (
                                                                             <p className={styles.qSentence}>{parseSentence(q.sentence)}</p>
                                                                         ) : (
@@ -741,8 +752,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                                 {q.reading && <span className={styles.qVocabReading}>{q.reading}</span>}
                                                                             </>
                                                                         )
-                                                                    )}
-                                                                    {q.type === "grammar_blank" && (
+                                                                    ) : (
                                                                         q.sentence ? (
                                                                             <p className={styles.qSentence}>{parseSentence(q.sentence)}</p>
                                                                         ) : (
@@ -752,24 +762,50 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                 </div>
                                                             </div>
 
+                                                            {/* ── Scene / reference image placeholder ── */}
+                                                            {q.type === "listening_scene" && (
+                                                                <div className={styles.qSceneImg}>
+                                                                    <span className={styles.qSceneLabel}>Hình minh họa</span>
+                                                                </div>
+                                                            )}
+
                                                             {/* ── Options ── */}
-                                                            <div className={styles.qOptions} data-grid={isKanjiType || undefined}>
-                                                                {q.options.map((opt, oi) => {
-                                                                    const isSel = answers[gi] === oi
-                                                                    return (
-                                                                        <label
-                                                                            key={oi}
-                                                                            className={styles.qOption}
-                                                                            data-selected={isSel || undefined}
-                                                                            onClick={e => { e.stopPropagation(); handleSelect(gi, oi) }}
-                                                                        >
-                                                                            <span className={styles.qRadio} data-selected={isSel || undefined} />
-                                                                            <span className={styles.qOptNum}>{oi + 1}</span>
-                                                                            <span className={styles.qOptText}>{opt}</span>
-                                                                        </label>
-                                                                    )
-                                                                })}
-                                                            </div>
+                                                            {q.type === "listening_pic" ? (
+                                                                <div className={styles.qPic4Grid}>
+                                                                    {q.options.map((_, oi) => {
+                                                                        const isSel = answers[gi] === oi
+                                                                        return (
+                                                                            <label
+                                                                                key={oi}
+                                                                                className={styles.qPic4Item}
+                                                                                data-selected={isSel || undefined}
+                                                                                onClick={e => { e.stopPropagation(); handleSelect(gi, oi) }}
+                                                                            >
+                                                                                <div className={styles.qPic4Placeholder} />
+                                                                                <span className={styles.qPic4Num}>{oi + 1}</span>
+                                                                            </label>
+                                                                        )
+                                                                    })}
+                                                                </div>
+                                                            ) : (
+                                                                <div className={styles.qOptions} data-grid={isKanjiType || undefined}>
+                                                                    {q.options.map((opt, oi) => {
+                                                                        const isSel = answers[gi] === oi
+                                                                        return (
+                                                                            <label
+                                                                                key={oi}
+                                                                                className={styles.qOption}
+                                                                                data-selected={isSel || undefined}
+                                                                                onClick={e => { e.stopPropagation(); handleSelect(gi, oi) }}
+                                                                            >
+                                                                                <span className={styles.qRadio} data-selected={isSel || undefined} />
+                                                                                <span className={styles.qOptNum}>{oi + 1}</span>
+                                                                                <span className={styles.qOptText}>{opt}</span>
+                                                                            </label>
+                                                                        )
+                                                                    })}
+                                                                </div>
+                                                            )}
                                                         </div>
                                                         </React.Fragment>
                                                     )
@@ -858,7 +894,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     const wrongBySection: Record<string, { q: Question; ans: number | null; i: number }[]> = {}
     questions.forEach((q, i) => {
-        if (answers[i] !== q.correctIndex) {
+        if (answers[i] !== q.correctIndex && q.sectionId !== "listening") {
             wrongBySection[q.sectionId] ??= []
             wrongBySection[q.sectionId].push({ q, ans: answers[i], i })
         }

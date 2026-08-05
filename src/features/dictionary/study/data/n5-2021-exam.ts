@@ -3,13 +3,14 @@
 interface StaticQuestion {
     groupId: string
     sectionId: string
-    type: "kanji_reading" | "kanji_writing" | "context_vocab" | "grammar_blank"
+    type: "kanji_reading" | "kanji_writing" | "context_vocab" | "grammar_blank" | "listening_pic" | "listening_text" | "listening_scene"
     display: string
     reading?: string
     sentence?: string
     context?: string
     options: string[]
     correctIndex: number
+    audioSrc?: string
 }
 
 // ─── もんだい3 (q7) passages ───────────────────────────────────────────────
@@ -381,4 +382,96 @@ export const N5_2021_QUESTIONS: StaticQuestion[] = [
       context: PASSAGE_Q10_2021,
       options: ["9日（水）", "9日（水）か 10日（木）か 11日（金）", "9日（水）か 12日（土）", "12日（土）"],
       correctIndex: 0 },
+
+    // ════════════════════════════════════════════════════════════════════════
+    // 聴解
+    // ════════════════════════════════════════════════════════════════════════
+
+    // ─── もんだい1 (lq1): 7問 — 絵4枚から正しいものを選ぶ ─────────────────
+
+    // 1ばん: 料理の場面（野菜を切る・混ぜる・焼くなど）
+    { groupId: "lq1", sectionId: "listening", type: "listening_pic",
+      display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // 2ばん: お店・人の場面
+    { groupId: "lq1", sectionId: "listening", type: "listening_pic",
+      display: "2ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // 3ばん: 部屋の中の家具の位置
+    { groupId: "lq1", sectionId: "listening", type: "listening_pic",
+      display: "3ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // 4ばん: 大学周辺の地図（カフェの場所）
+    { groupId: "lq1", sectionId: "listening", type: "listening_pic",
+      display: "4ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // 5ばん: 教室番号
+    { groupId: "lq1", sectionId: "listening", type: "listening_text",
+      display: "5ばん",
+      options: ["101きょうしつ", "102きょうしつ", "201きょうしつ", "202きょうしつ"], correctIndex: 0 },
+
+    // 6ばん: 色
+    { groupId: "lq1", sectionId: "listening", type: "listening_text",
+      display: "6ばん",
+      options: ["あか", "きいろ", "あお", "くろ"], correctIndex: 0 },
+
+    // 7ばん: 買うものの組み合わせ（ア=お金 イ=ジャケット ウ=ギフト）
+    { groupId: "lq1", sectionId: "listening", type: "listening_scene",
+      display: "7ばん",
+      options: ["アイ", "アウ", "イウ", "アイウ"], correctIndex: 0 },
+
+    // ─── もんだい2 (lq2): 6問 — 質問を聞いて絵から答えを選ぶ ──────────────
+
+    // 1ばん: 人物の行動（教室・図書館など）
+    { groupId: "lq2", sectionId: "listening", type: "listening_pic",
+      display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // 2ばん: 人物の行動（オフィス・カフェなど）
+    { groupId: "lq2", sectionId: "listening", type: "listening_pic",
+      display: "2ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // 3ばん: カレンダー（3月）から日付を選ぶ
+    { groupId: "lq2", sectionId: "listening", type: "listening_pic",
+      display: "3ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // 4ばん: 風景写真（花・海岸・山・橋）
+    { groupId: "lq2", sectionId: "listening", type: "listening_pic",
+      display: "4ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // 5ばん: 日付
+    { groupId: "lq2", sectionId: "listening", type: "listening_text",
+      display: "5ばん",
+      options: ["5がつ 28にち", "5がつ 29にち", "5がつ 30にち", "5がつ 31にち"], correctIndex: 0 },
+
+    // 6ばん: スポーツ（バスケット・水泳・テニス・サッカー）
+    { groupId: "lq2", sectionId: "listening", type: "listening_pic",
+      display: "6ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+
+    // ─── もんだい3 (lq3): 5問 — 絵を見て矢印の人のセリフを選ぶ ─────────────
+
+    { groupId: "lq3", sectionId: "listening", type: "listening_scene",
+      display: "1ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq3", sectionId: "listening", type: "listening_scene",
+      display: "2ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq3", sectionId: "listening", type: "listening_scene",
+      display: "3ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq3", sectionId: "listening", type: "listening_scene",
+      display: "4ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq3", sectionId: "listening", type: "listening_scene",
+      display: "5ばん", options: ["1", "2", "3"], correctIndex: 0 },
+
+    // ─── もんだい4 (lq4): 6問 — 絵なし、文を聞いて返事を選ぶ ───────────────
+
+    { groupId: "lq4", sectionId: "listening", type: "listening_text",
+      display: "1ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq4", sectionId: "listening", type: "listening_text",
+      display: "2ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq4", sectionId: "listening", type: "listening_text",
+      display: "3ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq4", sectionId: "listening", type: "listening_text",
+      display: "4ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq4", sectionId: "listening", type: "listening_text",
+      display: "5ばん", options: ["1", "2", "3"], correctIndex: 0 },
+    { groupId: "lq4", sectionId: "listening", type: "listening_text",
+      display: "6ばん", options: ["1", "2", "3"], correctIndex: 0 },
 ]
