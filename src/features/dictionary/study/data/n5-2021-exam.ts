@@ -11,6 +11,7 @@ interface StaticQuestion {
     options: string[]
     correctIndex: number
     audioSrc?: string
+    imageSrc?: string
 }
 
 // ─── もんだい3 (q7) passages ───────────────────────────────────────────────
@@ -391,7 +392,8 @@ export const N5_2021_QUESTIONS: StaticQuestion[] = [
 
     // 1ばん: 料理の場面（野菜を切る・混ぜる・焼くなど）
     { groupId: "lq1", sectionId: "listening", type: "listening_pic",
-      display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 0 },
+      display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
+      imageSrc: "/exams/n5-2021/listening/lq1_q1.png" },
 
     // 2ばん: お店・人の場面
     { groupId: "lq1", sectionId: "listening", type: "listening_pic",
