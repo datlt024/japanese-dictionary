@@ -7,7 +7,6 @@ import styles from "./page.module.css"
 
 type ExamVariant = {
     label: string
-    desc: string
     questions: number
     duration: number
     href: string
@@ -27,8 +26,8 @@ const LEVELS: LevelConfig[] = [
         level: "N5",
         desc: "Từ vựng và ngữ pháp cơ bản",
         exams: [
-            { label: "Đề tổng hợp",  desc: "Câu hỏi ngẫu nhiên từ kho từ vựng JLPT N5",  questions: 55, duration: 90, href: "/study/exam/n5"           },
-            { label: "2021年12月",    desc: "Đề thi thật tháng 12/2021",                    questions: 43, duration: 60, href: "/study/exam/n5?year=2021"  },
+            { label: "Test 1", questions: 55, duration: 90, href: "/study/exam/n5"           },
+            { label: "Test 2", questions: 43, duration: 60, href: "/study/exam/n5?year=2021"  },
         ],
     },
     { level: "N4", desc: "Giao tiếp hằng ngày",           href: "/study/exam/n4", questions: 60, duration: 115 },
@@ -58,7 +57,6 @@ export default function ThiThuContent() {
                             data-level={selected.level}
                         >
                             <span className={styles.examVariantLabel}>{exam.label}</span>
-                            <p className={styles.examDesc}>{exam.desc}</p>
                             <div className={styles.examMeta}>
                                 <span>{exam.questions} câu</span>
                                 <span>{exam.duration} phút</span>
