@@ -704,7 +704,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                         </span>
                     </div>
                     <button className={styles.examSubmitBtn} onClick={finish}>
-                        Nộp bài
+                        {cfg.listeningAudio && !isListeningPhase ? "Sang phần Nghe →" : "Nộp bài"}
                     </button>
                 </div>
 
