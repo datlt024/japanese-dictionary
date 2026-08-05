@@ -55,6 +55,13 @@
     color: var(--color-text-primary);
 }
 
+.infoSubtitle {
+    margin: -8px 0 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
 .infoMeta {
     display: flex;
     align-items: center;
@@ -575,6 +582,10 @@
     border-radius: 12px;
 }
 
+.qSectionHeader[data-skipped] {
+    opacity: 0.55;
+}
+
 .qSectionTitle {
     font-size: 13px;
     font-weight: 800;
@@ -587,6 +598,19 @@
     color: var(--color-text-secondary);
 }
 
+.qGroupSkipped {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    border: 1.5px dashed var(--color-border);
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    opacity: 0.7;
+}
+
 .qGroupBlock {
     display: flex;
     flex-direction: column;
@@ -595,11 +619,10 @@
 
 .qGroupHeader {
     display: flex;
-    align-items: baseline;
-    gap: 8px;
-    padding: 0 4px;
-    border-left: 3px solid var(--color-border);
+    flex-direction: column;
+    gap: 4px;
     padding-left: 12px;
+    border-left: 3px solid var(--color-border);
 }
 
 .qGroupLabel {
@@ -611,9 +634,10 @@
 }
 
 .qGroupSub {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
-    color: var(--color-text-secondary);
+    color: var(--color-text-primary);
+    line-height: 1.6;
 }
 
 .qItem {
@@ -642,8 +666,14 @@
 .qItemHead {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 8px;
+    gap: 12px;
+}
+
+.qWordInline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .qNum {
@@ -706,26 +736,35 @@
     line-height: 1.5;
 }
 
-.qWordCenter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    padding: 16px 12px;
+/* Reading passage / info-retrieval block */
+.qContext {
+    font-size: 14px;
+    line-height: 1.9;
+    color: var(--color-text-primary);
     background: var(--color-bg);
-    border-radius: 10px;
     border: 1px solid var(--color-border);
-    text-align: center;
+    border-radius: 10px;
+    padding: 16px 20px;
+    overflow-x: auto;
+}
+
+.qContext p {
+    margin: 0;
+    line-height: 1.9;
+}
+
+.qContext p + p {
+    margin-top: 0.6em;
 }
 
 /* Sentence display (問題1 / 問題2) */
 .qSentence {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: var(--color-text-primary);
-    line-height: 1.6;
-    text-align: center;
+    line-height: 1.7;
+    white-space: pre-line;
 }
 
 .qSentenceMark {

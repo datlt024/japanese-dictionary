@@ -4,6 +4,8 @@ import React, { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
 import { ArrowLeft, Clock, RotateCcw, ChevronRight, X } from "lucide-react"
 import styles from "./MockExamClient.module.css"
+import { N5_QUESTIONS } from "@/features/dictionary/study/data/n5-exam"
+import { N5_2021_QUESTIONS } from "@/features/dictionary/study/data/n5-2021-exam"
 
 // ── Types ──────────────────────────────────────────────────────────────
 
@@ -19,6 +21,7 @@ interface Group {
     sublabel: string   // 漢字の読み方
     type: QType
     count: number
+    skipped?: boolean  // true for 聴解 groups (no audio available)
 }
 
 interface Section {
@@ -36,6 +39,7 @@ interface Question {
     display: string
     reading?: string
     sentence?: string   // Japanese sentence with [target] marker for highlighted word
+    context?: string    // passage shown above the question (e.g. 問題7 reading)
     options: string[]
     correctIndex: number
 }
@@ -49,6 +53,7 @@ const EXAM: Record<string, {
     duration: number
     passingDisplay: string
     passing: { secMin: number; total: number }
+    subtitle?: string
     infoRows: InfoRow[]
     sections: Section[]
 }> = {
@@ -57,7 +62,7 @@ const EXAM: Record<string, {
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
         infoRows: [
-            { title: "文字・語彙", count: 25 },
+            { title: "文字・語彙", count: 35 },
             { title: "文法・読解", count: 32 },
             { title: "聴解",       count: 24, skipped: true },
         ],
@@ -65,15 +70,72 @@ const EXAM: Record<string, {
             {
                 id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 20,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",     type: "kanji_reading", count: 12 },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",     type: "kanji_writing", count: 8  },
-                    { id: "q3", label: "問題3", sublabel: "文脈規定",          type: "context_vocab", count: 5  },
+                    { id: "q1", label: "問題1", sublabel: "＿＿の　ことばは　ひらがなで　どう　かきますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "kanji_reading", count: 12 },
+                    { id: "q2", label: "問題2", sublabel: "もんだい＿＿＿の　ことばは　どう　かきますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "kanji_writing", count: 8  },
+                    { id: "q3", label: "問題3", sublabel: "もんだい（　　　）に　なにを　いれますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "context_vocab", count: 10 },
+                    { id: "q4", label: "問題4", sublabel: "もんだい４　＿＿の　ぶんと　だいたい　おなじ　いみの　ぶんが　あります。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "context_vocab", count: 5  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 40,
                 groups: [
-                    { id: "q4", label: "問題4", sublabel: "文の文法（文法形式の判断）", type: "grammar_blank", count: 16 },
+                    { id: "q5",  label: "問題1", sublabel: "もんだい（　　　）に何を入れますか。１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 16 },
+                    { id: "q6",  label: "問題2", sublabel: "もんだい（★）に入るものはどれですか。１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 5  },
+                    { id: "q7",  label: "問題3", sublabel: "もんだい３　つぎの（１）と（２）のぶんしょうを読んで、ぶんしょうのいみを考えて、（　）の中に入るものを、１・２・３・４から一つえらんでください。", type: "grammar_blank", count: 5  },
+                    { id: "q8",  label: "問題4", sublabel: "もんだい４　つぎの（１）から（３）のぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 3  },
+                    { id: "q9",  label: "問題5", sublabel: "もんだい５　つぎのぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 2  },
+                    { id: "q10", label: "問題6", sublabel: "もんだい６　右のページを見て、下のしつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 1  },
+                ],
+            },
+            {
+                id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 30,
+                groups: [
+                    { id: "lq1", label: "問題1", sublabel: "もんだいでは、はじめに　しつもんを　きいて　ください。　それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 7, skipped: true },
+                    { id: "lq2", label: "問題2", sublabel: "もんだい２では、まず しつもんを きいて ください。それから はなしを きいて、もんだいようしの １から４の なかから、いちばん いいものを ひとつ えらんで ください。", type: "grammar_blank", count: 6, skipped: true },
+                    { id: "lq3", label: "問題3", sublabel: "１から３の　ながから、いちばん　いい　ものを　ひとつ　えらんでください。", type: "grammar_blank", count: 5, skipped: true },
+                    { id: "lq4", label: "問題4", sublabel: "もんだい は、えなどが　ありません。ふんを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 6, skipped: true },
+                ],
+            },
+        ],
+    },
+    "N5-2021": {
+        duration: 60 * 60,  // 20 + 40 min tested
+        subtitle: "2021年12月",
+        passingDisplay: "80",
+        passing: { secMin: 19, total: 80 },
+        infoRows: [
+            { title: "文字・語彙", count: 21 },
+            { title: "文法・読解", count: 22 },
+            { title: "聴解",       count: 24, skipped: true },
+        ],
+        sections: [
+            {
+                id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 20,
+                groups: [
+                    { id: "q1", label: "問題1", sublabel: "＿＿の　ことばは　ひらがなで　どう　かきますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "kanji_reading", count: 7 },
+                    { id: "q2", label: "問題2", sublabel: "もんだい２　＿＿の　ことばは　どう　かきますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "kanji_writing", count: 5 },
+                    { id: "q3", label: "問題3", sublabel: "もんだい３　（　　　）に　なにを　いれますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "context_vocab", count: 6 },
+                    { id: "q4", label: "問題4", sublabel: "もんだい４　＿＿の　ぶんと　だいたい　おなじ　いみの　ぶんが　あります。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "context_vocab", count: 3 },
+                ],
+            },
+            {
+                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 40,
+                groups: [
+                    { id: "q5",  label: "問題1", sublabel: "もんだい１　（　　　）に　なにを　いれますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 9  },
+                    { id: "q6",  label: "問題2", sublabel: "もんだい２　★に　入る　ものは　どれですか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 4  },
+                    { id: "q7",  label: "問題3", sublabel: "もんだい３　つぎの（１）と（２）のぶんしょうを読んで、ぶんしょうのいみを考えて、（　）の中に入るものを、１・２・３・４から一つえらんでください。", type: "grammar_blank", count: 4  },
+                    { id: "q8",  label: "問題4", sublabel: "もんだい４　つぎの（１）から（２）のぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 2  },
+                    { id: "q9",  label: "問題5", sublabel: "もんだい５　つぎのぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 2  },
+                    { id: "q10", label: "問題6", sublabel: "もんだい６　右のページを見て、下のしつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 1  },
+                ],
+            },
+            {
+                id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 30,
+                groups: [
+                    { id: "lq1", label: "問題1", sublabel: "もんだいでは、はじめに　しつもんを　きいて　ください。　それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 7, skipped: true },
+                    { id: "lq2", label: "問題2", sublabel: "もんだい２では、まず しつもんを きいて ください。それから はなしを きいて、もんだいようしの １から４の なかから、いちばん いいものを ひとつ えらんで ください。", type: "grammar_blank", count: 6, skipped: true },
+                    { id: "lq3", label: "問題3", sublabel: "１から３の　ながから、いちばん　いい　ものを　ひとつ　えらんでください。", type: "grammar_blank", count: 5, skipped: true },
+                    { id: "lq4", label: "問題4", sublabel: "もんだい は、えなどが　ありません。ふんを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 6, skipped: true },
                 ],
             },
         ],
@@ -198,21 +260,6 @@ const EXAM: Record<string, {
     },
 }
 
-// ── Question type metadata ─────────────────────────────────────────────
-
-const Q_TYPE_LABEL: Record<QType, string> = {
-    kanji_reading: "読み方",
-    kanji_writing: "書き方",
-    context_vocab: "語彙",
-    grammar_blank: "文法",
-}
-
-const Q_TYPE_INSTRUCTION: Record<QType, string> = {
-    kanji_reading: "の言葉の読み方として正しいものはどれですか。",
-    kanji_writing: "の言葉はどう書きますか。",
-    context_vocab: "の言葉の意味はどれですか。",
-    grammar_blank: "の文型の意味はどれですか。",
-}
 
 const SENTENCE_TEMPLATES: ((w: string) => string)[] = [
     w => `毎日[${w}]を使います。`,
@@ -234,10 +281,18 @@ const SENTENCE_TEMPLATES: ((w: string) => string)[] = [
 ]
 
 function parseSentence(sentence: string): React.ReactNode {
-    const parts = sentence.split(/\[([^\]]+)\]/)
-    if (parts.length < 3) return <>{sentence}</>
+    const parts = sentence.split(/(\[[^\]]+\]|<u>[^<]*<\/u>)/)
+    if (parts.length === 1) return <>{sentence}</>
     return (
-        <>{parts[0]}<mark className={styles.qSentenceMark}>{parts[1]}</mark>{parts[2]}</>
+        <>
+            {parts.map((part, i) => {
+                if (part.startsWith("[") && part.endsWith("]"))
+                    return <mark key={i} className={styles.qSentenceMark}>{part.slice(1, -1)}</mark>
+                if (part.startsWith("<u>"))
+                    return <u key={i}>{part.slice(3, -4)}</u>
+                return part
+            })}
+        </>
     )
 }
 
@@ -332,8 +387,9 @@ function score60(correct: number, total: number) {
 
 // ── Component ──────────────────────────────────────────────────────────
 
-export default function MockExamClient({ level }: { level: string }) {
-    const cfg = EXAM[level] ?? EXAM["N5"]
+export default function MockExamClient({ level, year }: { level: string; year?: string }) {
+    const examKey = level === "N5" && year === "2021" ? "N5-2021" : level
+    const cfg = EXAM[examKey] ?? EXAM["N5"]
     const allGroups = cfg.sections.flatMap(s => s.groups)
 
     const [phase,     setPhase]     = useState<Phase>("info")
@@ -349,7 +405,38 @@ export default function MockExamClient({ level }: { level: string }) {
 
     // ── Data loading ──────────────────────────────────────────────────
 
+    const startTimer = useCallback((totalMin: number) => {
+        startRef.current = Date.now()
+        setTimeLeft(totalMin * 60)
+        if (timerRef.current) clearInterval(timerRef.current)
+        timerRef.current = setInterval(() => { setTimeLeft(t => Math.max(0, t - 1)) }, 1000)
+    }, [])
+
     const load = useCallback((mounted: { v: boolean }) => {
+        const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
+
+        if (examKey === "N5") {
+            if (!mounted.v) return
+            questionRefs.current = new Array(N5_QUESTIONS.length).fill(null)
+            setQuestions(N5_QUESTIONS as Question[])
+            setAnswers(new Array(N5_QUESTIONS.length).fill(null))
+            setIdx(0)
+            startTimer(totalMin)
+            setPhase("question")
+            return
+        }
+
+        if (examKey === "N5-2021") {
+            if (!mounted.v) return
+            questionRefs.current = new Array(N5_2021_QUESTIONS.length).fill(null)
+            setQuestions(N5_2021_QUESTIONS as Question[])
+            setAnswers(new Array(N5_2021_QUESTIONS.length).fill(null))
+            setIdx(0)
+            startTimer(totalMin)
+            setPhase("question")
+            return
+        }
+
         const grammarCount = cfg.sections.flatMap(s => s.groups).filter(g => g.type === "grammar_blank").reduce((a, g) => a + g.count, 0)
         Promise.all([
             fetch(`/api/study/jlpt?level=${level}&limit=100`).then(r => r.json()),
@@ -362,16 +449,10 @@ export default function MockExamClient({ level }: { level: string }) {
             setQuestions(qs)
             setAnswers(new Array(qs.length).fill(null))
             setIdx(0)
-            const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
-            startRef.current = Date.now()
-            setTimeLeft(totalMin * 60)
-            if (timerRef.current) clearInterval(timerRef.current)
-            timerRef.current = setInterval(() => {
-                setTimeLeft(t => Math.max(0, t - 1))
-            }, 1000)
+            startTimer(totalMin)
             setPhase("question")
         }).catch(() => { if (mounted.v) setPhase("error") })
-    }, [level, cfg])
+    }, [examKey, level, cfg, startTimer])
 
     // ── Timer ────────────────────────────────────────────────────────
 
@@ -474,6 +555,9 @@ export default function MockExamClient({ level }: { level: string }) {
                         <h2 className={styles.infoTitle}>Đề thi thử JLPT</h2>
                         <span className={styles.introBadge} data-level={level}>{level}</span>
                     </div>
+                    {cfg.subtitle && (
+                        <p className={styles.infoSubtitle}>{cfg.subtitle}</p>
+                    )}
 
                     <div className={styles.infoMeta}>
                         <span className={styles.infoMetaLabel}>Trình độ đề thi</span>
@@ -555,7 +639,7 @@ export default function MockExamClient({ level }: { level: string }) {
                         <X size={14} /> Thoát
                     </Link>
                     <div className={styles.examBarCenter}>
-                        <span className={styles.examBarTitle}>JLPT {level}</span>
+                        <span className={styles.examBarTitle}>JLPT {level}{cfg.subtitle ? ` · ${cfg.subtitle}` : ""}</span>
                         <span className={styles.examBarTimer} data-warn={warn || undefined}>
                             <Clock size={12} /> {formatTime(timeLeft)}
                         </span>
@@ -576,20 +660,38 @@ export default function MockExamClient({ level }: { level: string }) {
                     {/* ── Left: scrollable question list ── */}
                     <div className={styles.questionsPanel}>
                         {cfg.sections.map(sec => {
+                            const isSkippedSec = sec.groups.every(g => g.skipped)
                             const secQs = questions
                                 .map((q, gi) => ({ q, gi }))
                                 .filter(({ q }) => q.sectionId === sec.id)
-                            if (secQs.length === 0) return null
+                            if (!isSkippedSec && secQs.length === 0) return null
 
                             let secOffset = 0
                             return (
                                 <div key={sec.id} className={styles.qSectionBlock}>
-                                    <div className={styles.qSectionHeader}>
+                                    <div className={styles.qSectionHeader} data-skipped={isSkippedSec || undefined}>
                                         <span className={styles.qSectionTitle}>{sec.title}</span>
-                                        <span className={styles.qSectionCount}>{secQs.length} câu</span>
+                                        <span className={styles.qSectionCount}>
+                                            {isSkippedSec ? "Không thi" : `${secQs.length} câu`}
+                                        </span>
                                     </div>
 
                                     {sec.groups.map(grp => {
+                                        if (grp.skipped) {
+                                            return (
+                                                <div key={grp.id} className={styles.qGroupBlock}>
+                                                    <div className={styles.qGroupHeader}>
+                                                        <span className={styles.qGroupLabel}>{grp.label}</span>
+                                                        <span className={styles.qGroupSub}>{grp.sublabel}</span>
+                                                    </div>
+                                                    <div className={styles.qGroupSkipped}>
+                                                        <span>🔇</span>
+                                                        <span>Phần này yêu cầu audio — không có trong bài thi thử</span>
+                                                    </div>
+                                                </div>
+                                            )
+                                        }
+
                                         const grpQs = secQs.filter(({ q }) => q.groupId === grp.id)
                                         if (grpQs.length === 0) return null
                                         const grpOffset = secOffset
@@ -604,9 +706,15 @@ export default function MockExamClient({ level }: { level: string }) {
 
                                                 {grpQs.map(({ q, gi }, pos) => {
                                                     const isKanjiType = q.type === "kanji_reading" || q.type === "kanji_writing"
+                                                    const prevContext = pos > 0 ? grpQs[pos - 1].q.context : undefined
+                                                    const showContext = q.context != null && q.context !== prevContext
                                                     return (
+                                                        <React.Fragment key={gi}>
+                                                            {/* ── Context passage — shown only once per unique passage ── */}
+                                                            {showContext && (
+                                                                <div className={styles.qContext} dangerouslySetInnerHTML={{ __html: q.context! }} />
+                                                            )}
                                                         <div
-                                                            key={gi}
                                                             id={`q-${gi}`}
                                                             ref={el => { questionRefs.current[gi] = el }}
                                                             className={styles.qItem}
@@ -614,37 +722,32 @@ export default function MockExamClient({ level }: { level: string }) {
                                                             data-type={q.type}
                                                             onClick={() => setIdx(gi)}
                                                         >
-                                                            {/* ── Header row ── */}
+
+                                                            {/* ── Header + question inline ── */}
                                                             <div className={styles.qItemHead}>
                                                                 <span className={styles.qNum}>{grpOffset + pos + 1}</span>
-                                                                <span className={styles.qTypeTag} data-type={q.type}>
-                                                                    {Q_TYPE_LABEL[q.type]}
-                                                                </span>
-                                                            </div>
-
-                                                            {/* ── Question body ── */}
-                                                            <div className={styles.qBody}>
-                                                                <p className={styles.qInstruction}>
-                                                                    {q.type === "kanji_reading" || q.type === "kanji_writing"
-                                                                        ? <><mark className={styles.qSentenceMark}>{q.display}</mark>{Q_TYPE_INSTRUCTION[q.type]}</>
-                                                                        : Q_TYPE_INSTRUCTION[q.type]
-                                                                    }
-                                                                </p>
-
-                                                                <div className={styles.qWordCenter}>
+                                                                <div className={styles.qWordInline}>
                                                                     {(q.type === "kanji_reading" || q.type === "kanji_writing") && (
                                                                         <p className={styles.qSentence}>
                                                                             {q.sentence ? parseSentence(q.sentence) : q.display}
                                                                         </p>
                                                                     )}
                                                                     {q.type === "context_vocab" && (
-                                                                        <>
-                                                                            <span className={styles.qVocabWord}>{q.display}</span>
-                                                                            {q.reading && <span className={styles.qVocabReading}>{q.reading}</span>}
-                                                                        </>
+                                                                        q.sentence ? (
+                                                                            <p className={styles.qSentence}>{parseSentence(q.sentence)}</p>
+                                                                        ) : (
+                                                                            <>
+                                                                                <span className={styles.qVocabWord}>{q.display}</span>
+                                                                                {q.reading && <span className={styles.qVocabReading}>{q.reading}</span>}
+                                                                            </>
+                                                                        )
                                                                     )}
                                                                     {q.type === "grammar_blank" && (
-                                                                        <span className={styles.qGrammarWord}>{q.display}</span>
+                                                                        q.sentence ? (
+                                                                            <p className={styles.qSentence}>{parseSentence(q.sentence)}</p>
+                                                                        ) : (
+                                                                            <span className={styles.qGrammarWord}>{q.display}</span>
+                                                                        )
                                                                     )}
                                                                 </div>
                                                             </div>
@@ -668,6 +771,7 @@ export default function MockExamClient({ level }: { level: string }) {
                                                                 })}
                                                             </div>
                                                         </div>
+                                                        </React.Fragment>
                                                     )
                                                 })}
                                             </div>
