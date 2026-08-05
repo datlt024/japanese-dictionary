@@ -448,6 +448,8 @@
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .examTopBar {

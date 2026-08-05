@@ -512,6 +512,31 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     useEffect(() => () => stopTimer(), [stopTimer])
 
+    // Block copy, screenshot, right-click during exam
+    useEffect(() => {
+        if (phase !== "question" && phase !== "listening") return
+        const block = (e: Event) => e.preventDefault()
+        const blockKey = (e: KeyboardEvent) => {
+            if (e.key === "PrintScreen") {
+                e.preventDefault()
+                navigator.clipboard?.writeText("").catch(() => {})
+                return
+            }
+            if ((e.ctrlKey || e.metaKey) && ["c", "x", "a", "p"].includes(e.key.toLowerCase()))
+                e.preventDefault()
+        }
+        document.addEventListener("copy", block)
+        document.addEventListener("cut", block)
+        document.addEventListener("contextmenu", block)
+        document.addEventListener("keydown", blockKey)
+        return () => {
+            document.removeEventListener("copy", block)
+            document.removeEventListener("cut", block)
+            document.removeEventListener("contextmenu", block)
+            document.removeEventListener("keydown", blockKey)
+        }
+    }, [phase])
+
     const startExam = useCallback(() => {
         stopTimer()
         const mounted = { v: true }
