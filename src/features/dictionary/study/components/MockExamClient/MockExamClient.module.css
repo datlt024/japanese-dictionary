@@ -872,25 +872,33 @@
     display: block;
 }
 
-.qPic4Overlay {
-    position: absolute;
-    inset: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+.qPic4NumRow {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
 }
 
-.qPic4Zone {
+.qPic4NumBtn {
+    flex: 1;
+    padding: 10px 0;
+    border: 1.5px solid var(--color-border);
+    border-radius: 10px;
+    background: var(--color-surface);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
     cursor: pointer;
-    border: 3px solid transparent;
-    transition: background 0.12s, border-color 0.12s;
+    transition: border-color 0.12s, color 0.12s, background 0.12s;
+    font-family: inherit;
 }
-.qPic4Zone:hover {
-    background: rgba(37, 99, 235, 0.1);
-}
-.qPic4Zone[data-selected] {
-    background: color-mix(in srgb, var(--color-primary) 18%, transparent);
+.qPic4NumBtn:hover {
     border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+.qPic4NumBtn[data-selected] {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface));
 }
 
 .qPic4Grid {

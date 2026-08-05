@@ -774,25 +774,29 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                             {/* ── Options ── */}
                                                             {q.type === "listening_pic" ? (
                                                                 q.imageSrc ? (
-                                                                    <div className={styles.qPic4ImgGrid}>
-                                                                        <Image
-                                                                            src={q.imageSrc}
-                                                                            alt={`Hình câu ${q.display}`}
-                                                                            width={800}
-                                                                            height={600}
-                                                                            className={styles.qPic4ImgFull}
-                                                                        />
-                                                                        <div className={styles.qPic4Overlay}>
+                                                                    <>
+                                                                        <div className={styles.qPic4ImgGrid}>
+                                                                            <Image
+                                                                                src={q.imageSrc}
+                                                                                alt={`Hình câu ${q.display}`}
+                                                                                width={800}
+                                                                                height={600}
+                                                                                className={styles.qPic4ImgFull}
+                                                                            />
+                                                                        </div>
+                                                                        <div className={styles.qPic4NumRow}>
                                                                             {q.options.map((_, oi) => (
-                                                                                <div
+                                                                                <button
                                                                                     key={oi}
-                                                                                    className={styles.qPic4Zone}
+                                                                                    className={styles.qPic4NumBtn}
                                                                                     data-selected={answers[gi] === oi || undefined}
                                                                                     onClick={e => { e.stopPropagation(); handleSelect(gi, oi) }}
-                                                                                />
+                                                                                >
+                                                                                    {oi + 1}
+                                                                                </button>
                                                                             ))}
                                                                         </div>
-                                                                    </div>
+                                                                    </>
                                                                 ) : (
                                                                     <div className={styles.qPic4Grid}>
                                                                         {q.options.map((_, oi) => {
