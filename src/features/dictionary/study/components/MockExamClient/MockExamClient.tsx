@@ -11,7 +11,7 @@ import { N5_2021_QUESTIONS } from "@/features/dictionary/study/data/n5-2021-exam
 // ── Types ──────────────────────────────────────────────────────────────
 
 type QType = "kanji_reading" | "kanji_writing" | "context_vocab" | "grammar_blank" | "listening_pic" | "listening_text" | "listening_scene"
-type Phase = "info" | "loading" | "error" | "question" | "break" | "summary"
+type Phase = "info" | "loading" | "error" | "question" | "break" | "listening" | "summary"
 
 type VocabItem  = { id: number; word: string; kana: string | null; meaning: string | null }
 type GrammarItem = { id: number; pattern: string; meaning: string | null }
@@ -104,13 +104,15 @@ const EXAM: Record<string, {
         ],
     },
     "N5-2021": {
-        duration: 60 * 60,  // 20 + 40 min tested
-        subtitle: "2021年12月 — Ngôn ngữ",
+        duration: 90 * 60,  // 60 min language + 30 min listening
+        subtitle: "2021年12月",
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
+        listeningAudio: "/exams/n5-2021/audio/listening.mp3",
         infoRows: [
             { title: "文字・語彙", count: 21 },
             { title: "文法・読解", count: 22 },
+            { title: "聴解",       count: 24 },
         ],
         sections: [
             {
@@ -133,19 +135,6 @@ const EXAM: Record<string, {
                     { id: "q10", label: "問題6", sublabel: "もんだい６　右のページを見て、下のしつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 1  },
                 ],
             },
-        ],
-    },
-    "N5-2021-L": {
-        duration: 30 * 60,
-        subtitle: "2021年12月 — 聴解",
-        passingDisplay: "19",
-        passing: { secMin: 19, total: 19 },
-        maxScore: 60,
-        listeningAudio: "/exams/n5-2021/audio/listening.mp3",
-        infoRows: [
-            { title: "聴解", count: 24, sectionId: "listening" },
-        ],
-        sections: [
             {
                 id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 30,
                 groups: [
@@ -405,18 +394,17 @@ function score60(correct: number, total: number) {
 // ── Component ──────────────────────────────────────────────────────────
 
 export default function MockExamClient({ level, year }: { level: string; year?: string }) {
-    const examKey = level === "N5" && year === "2021"  ? "N5-2021"
-                  : level === "N5" && year === "2021L" ? "N5-2021-L"
-                  : level
+    const examKey = level === "N5" && year === "2021" ? "N5-2021" : level
     const cfg = EXAM[examKey] ?? EXAM["N5"]
     const allGroups = cfg.sections.flatMap(s => s.groups)
 
-    const [phase,     setPhase]     = useState<Phase>("info")
-    const [questions, setQuestions] = useState<Question[]>([])
-    const [answers,   setAnswers]   = useState<(number | null)[]>([])
-    const [idx,       setIdx]       = useState(0)
-    const [timeLeft,  setTimeLeft]  = useState(0)
-    const [timeTaken, setTimeTaken] = useState(0)
+    const [phase,              setPhase]              = useState<Phase>("info")
+    const [questions,          setQuestions]          = useState<Question[]>([])
+    const [answers,            setAnswers]            = useState<(number | null)[]>([])
+    const [idx,                setIdx]                = useState(0)
+    const [timeLeft,           setTimeLeft]           = useState(0)
+    const [timeTaken,          setTimeTaken]          = useState(0)
+    const [languageTimeTaken,  setLanguageTimeTaken]  = useState(0)
 
     const timerRef      = useRef<ReturnType<typeof setInterval> | null>(null)
     const startRef      = useRef(0)
@@ -442,10 +430,9 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     }, [])
 
     const load = useCallback((mounted: { v: boolean }) => {
-        const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
-
         if (examKey === "N5") {
             if (!mounted.v) return
+            const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
             questionRefs.current = new Array(N5_QUESTIONS.length).fill(null)
             setQuestions(N5_QUESTIONS as Question[])
             setAnswers(new Array(N5_QUESTIONS.length).fill(null))
@@ -457,28 +444,19 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
         if (examKey === "N5-2021") {
             if (!mounted.v) return
-            const qs = N5_2021_QUESTIONS.filter(q => q.sectionId !== "listening")
-            questionRefs.current = new Array(qs.length).fill(null)
-            setQuestions(qs as Question[])
-            setAnswers(new Array(qs.length).fill(null))
+            // Start with 60-min language timer; listening gets its own 30-min timer later
+            const languageMin = cfg.sections.filter(s => s.id !== "listening").reduce((acc, s) => acc + s.allocMin, 0)
+            questionRefs.current = new Array(N5_2021_QUESTIONS.length).fill(null)
+            setQuestions(N5_2021_QUESTIONS as Question[])
+            setAnswers(new Array(N5_2021_QUESTIONS.length).fill(null))
             setIdx(0)
-            startTimer(totalMin)
+            setLanguageTimeTaken(0)
+            startTimer(languageMin)
             setPhase("question")
             return
         }
 
-        if (examKey === "N5-2021-L") {
-            if (!mounted.v) return
-            const qs = N5_2021_QUESTIONS.filter(q => q.sectionId === "listening")
-            questionRefs.current = new Array(qs.length).fill(null)
-            setQuestions(qs as Question[])
-            setAnswers(new Array(qs.length).fill(null))
-            setIdx(0)
-            startTimer(totalMin)
-            setPhase("question")
-            return
-        }
-
+        const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
         const grammarCount = cfg.sections.flatMap(s => s.groups).filter(g => g.type === "grammar_blank").reduce((a, g) => a + g.count, 0)
         Promise.all([
             fetch(`/api/study/jlpt?level=${level}&limit=100`).then(r => r.json()),
@@ -504,12 +482,26 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     const finish = useCallback(() => {
         stopTimer()
-        setTimeTaken(Math.round((Date.now() - startRef.current) / 1000))
-        setPhase(examKey === "N5-2021-L" ? "summary" : "break")
-    }, [stopTimer, examKey])
+        if (cfg.listeningAudio && phase === "question") {
+            setLanguageTimeTaken(Math.round((Date.now() - startRef.current) / 1000))
+            setPhase("break")
+        } else {
+            setTimeTaken(Math.round((Date.now() - startRef.current) / 1000))
+            setPhase("summary")
+        }
+    }, [stopTimer, cfg.listeningAudio, phase])
+
+    const startListening = useCallback(() => {
+        const listeningMin = cfg.sections.find(s => s.id === "listening")?.allocMin ?? 30
+        startRef.current = Date.now()
+        startTimer(listeningMin)
+        const firstIdx = questions.findIndex(q => q.sectionId === "listening")
+        setIdx(Math.max(0, firstIdx))
+        setPhase("listening")
+    }, [cfg.sections, startTimer, questions])
 
     useEffect(() => {
-        if (phase !== "question" || timeLeft !== 0) return
+        if ((phase !== "question" && phase !== "listening") || timeLeft !== 0) return
         finish()
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [timeLeft, phase])
@@ -538,7 +530,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     // ── Keyboard (1-4 / A-D for currently focused question) ──────────
 
     useEffect(() => {
-        if (phase !== "question") return
+        if (phase !== "question" && phase !== "listening") return
         const map: Record<string, number> = { a: 0, b: 1, c: 2, d: 3, "1": 0, "2": 1, "3": 2, "4": 3 }
         const fn = (e: KeyboardEvent) => {
             const i = map[e.key.toLowerCase()]
@@ -644,9 +636,15 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                         Bắt đầu <ChevronRight size={16} />
                     </button>
 
-                    <p className={styles.infoNote}>
-                        * Đề thi thử bao gồm phần <strong>Ngôn ngữ</strong> (từ vựng + ngữ pháp). Không bao gồm phần 聴解.
-                    </p>
+                    {cfg.listeningAudio ? (
+                        <p className={styles.infoNote}>
+                            * Đề thi gồm 2 giai đoạn: <strong>Ngôn ngữ</strong> (60 phút) → <strong>Nghe hiểu</strong> (30 phút). Audio sẽ phát sau khi bắt đầu phần nghe.
+                        </p>
+                    ) : (
+                        <p className={styles.infoNote}>
+                            * Đề thi thử bao gồm phần <strong>Ngôn ngữ</strong> (từ vựng + ngữ pháp). Không bao gồm phần 聴解.
+                        </p>
+                    )}
                 </div>
             </div>
         )
@@ -672,11 +670,21 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         )
     }
 
-    // ── Render: question (two-column scroll layout) ───────────────────
+    // ── Render: question / listening (two-column scroll layout) ─────────
 
-    if (phase === "question") {
-        const answeredCount = answers.filter(a => a !== null).length
-        const progress = questions.length > 0 ? (answeredCount / questions.length) * 100 : 0
+    if (phase === "question" || phase === "listening") {
+        const isListeningPhase = phase === "listening"
+
+        const phaseSections = cfg.listeningAudio
+            ? cfg.sections.filter(s => isListeningPhase ? s.id === "listening" : s.id !== "listening")
+            : cfg.sections
+
+        const phaseQsWithIdx = questions
+            .map((q, gi) => ({ q, gi }))
+            .filter(({ q }) => !cfg.listeningAudio || (isListeningPhase === (q.sectionId === "listening")))
+
+        const answeredCount = phaseQsWithIdx.filter(({ gi }) => answers[gi] !== null).length
+        const progress = phaseQsWithIdx.length > 0 ? (answeredCount / phaseQsWithIdx.length) * 100 : 0
         const warn = timeLeft < 60
 
         return (
@@ -687,7 +695,10 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                         <X size={14} /> Thoát
                     </Link>
                     <div className={styles.examBarCenter}>
-                        <span className={styles.examBarTitle}>JLPT {level}{cfg.subtitle ? ` · ${cfg.subtitle}` : ""}</span>
+                        <span className={styles.examBarTitle}>
+                            JLPT {level}{cfg.subtitle ? ` · ${cfg.subtitle}` : ""}
+                            {isListeningPhase && " — 聴解"}
+                        </span>
                         <span className={styles.examBarTimer} data-warn={warn || undefined}>
                             <Clock size={12} /> {formatTime(timeLeft)}
                         </span>
@@ -707,7 +718,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
                     {/* ── Left: scrollable question list ── */}
                     <div className={styles.questionsPanel}>
-                        {cfg.sections.map(sec => {
+                        {phaseSections.map(sec => {
                             const isSkippedSec = sec.groups.every(g => g.skipped)
                             const secQs = questions
                                 .map((q, gi) => ({ q, gi }))
@@ -937,12 +948,10 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                     {/* ── Right: navigator panel ── */}
                     <div className={styles.navPanel}>
                         <p className={styles.navStat}>
-                            <span data-done>{answeredCount}</span>/{questions.length} đã trả lời
+                            <span data-done>{answeredCount}</span>/{phaseQsWithIdx.length} đã trả lời
                         </p>
-                        {cfg.sections.map(sec => {
-                            const secQs = questions
-                                .map((q, gi) => ({ q, gi }))
-                                .filter(({ q }) => q.sectionId === sec.id)
+                        {phaseSections.map(sec => {
+                            const secQs = phaseQsWithIdx.filter(({ q }) => q.sectionId === sec.id)
                             if (secQs.length === 0) return null
                             return (
                                 <div key={sec.id} className={styles.navSection}>
@@ -972,9 +981,33 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         )
     }
 
-    // ── Render: break (giải lao trước 聴解 trong thi thật) ───────────
+    // ── Render: break (transition between language and listening) ───────
 
     if (phase === "break") {
+        if (cfg.listeningAudio) {
+            return (
+                <div className={styles.introWrap}>
+                    <Link href="/study?tab=thi-thu" className={styles.backBtn}>
+                        <ArrowLeft size={14} /> Danh sách đề thi
+                    </Link>
+
+                    <div className={styles.breakCard}>
+                        <div className={styles.breakIcon}>👂</div>
+                        <h2 className={styles.breakTitle}>Phần Ngôn ngữ hoàn thành</h2>
+                        <p className={styles.breakDesc}>
+                            Tiếp theo là phần <strong>聴解 (Nghe hiểu)</strong> với 24 câu hỏi, thời gian <strong>30 phút</strong>.
+                        </p>
+                        <p className={styles.breakNote}>
+                            Audio sẽ phát sau khi bạn bắt đầu. Bạn không thể tạm dừng hoặc tua lại — giống kỳ thi thật.
+                        </p>
+                        <button className={styles.btnStart} onClick={startListening}>
+                            Bắt đầu phần Nghe <ChevronRight size={16} />
+                        </button>
+                    </div>
+                </div>
+            )
+        }
+
         return (
             <div className={styles.introWrap}>
                 <Link href="/study?tab=thi-thu" className={styles.backBtn}>
@@ -1011,7 +1044,12 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             passed, totalCorrect, totalQ, groupResults } = getResults()
 
     const maxScore = cfg.maxScore ?? 180
-    const scoreLabel = examKey === "N5-2021-L" ? "Điểm nghe hiểu" : "Điểm từ vựng + ngữ pháp"
+    const scoreLabel = listeningQs.length > 0 && vocabQs.length > 0
+        ? "Tổng điểm"
+        : listeningQs.length > 0
+        ? "Điểm nghe hiểu"
+        : "Điểm từ vựng + ngữ pháp"
+    const totalTimeTaken = languageTimeTaken + timeTaken
 
     const wrongBySection: Record<string, { q: Question; ans: number | null; i: number }[]> = {}
     questions.forEach((q, i) => {
@@ -1095,7 +1133,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                         <span className={styles.statL}>Chính xác</span>
                     </div>
                     <div className={styles.stat}>
-                        <span className={styles.statV}>{formatTime(timeTaken)}</span>
+                        <span className={styles.statV}>{formatTime(totalTimeTaken)}</span>
                         <span className={styles.statL}>Thời gian</span>
                     </div>
                 </div>

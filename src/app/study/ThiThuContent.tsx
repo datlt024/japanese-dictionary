@@ -26,9 +26,8 @@ const LEVELS: LevelConfig[] = [
         level: "N5",
         desc: "Từ vựng và ngữ pháp cơ bản",
         exams: [
-            { label: "Test 1",          questions: 55, duration: 90, href: "/study/exam/n5"            },
-            { label: "Test 2 — Ngôn ngữ", questions: 43, duration: 60, href: "/study/exam/n5?year=2021"  },
-            { label: "Test 2 — 聴解",     questions: 24, duration: 30, href: "/study/exam/n5?year=2021L" },
+            { label: "Test 1", questions: 55, duration: 90, href: "/study/exam/n5"           },
+            { label: "Test 2", questions: 67, duration: 90, href: "/study/exam/n5?year=2021" },
         ],
     },
     { level: "N4", desc: "Giao tiếp hằng ngày",           href: "/study/exam/n4", questions: 60, duration: 115 },
