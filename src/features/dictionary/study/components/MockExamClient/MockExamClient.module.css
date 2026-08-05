@@ -476,6 +476,8 @@
     padding: 6px 10px;
     border-radius: 8px;
     border: 1.5px solid var(--color-border);
+    background: none;
+    cursor: pointer;
     transition: color 0.12s, border-color 0.12s;
     white-space: nowrap;
 }

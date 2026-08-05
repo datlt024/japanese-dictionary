@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
 import Image from "next/image"
+import { useRouter } from "next/navigation"
 import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play } from "lucide-react"
 import styles from "./MockExamClient.module.css"
 import { N5_QUESTIONS } from "@/features/dictionary/study/data/n5-exam"
@@ -58,7 +59,6 @@ const EXAM: Record<string, {
     passing: { secMin: number; total: number }
     subtitle?: string
     listeningAudio?: string
-    maxScore?: number
     infoRows: InfoRow[]
     sections: Section[]
 }> = {
@@ -394,6 +394,7 @@ function score60(correct: number, total: number) {
 // ── Component ──────────────────────────────────────────────────────────
 
 export default function MockExamClient({ level, year }: { level: string; year?: string }) {
+    const router = useRouter()
     const examKey = level === "N5" && year === "2021" ? "N5-2021" : level
     const cfg = EXAM[examKey] ?? EXAM["N5"]
     const allGroups = cfg.sections.flatMap(s => s.groups)
@@ -411,7 +412,6 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const endTimeRef    = useRef(0)
     const questionRefs  = useRef<(HTMLDivElement | null)[]>([])
     const audioRef      = useRef<HTMLAudioElement>(null)
-    const [, setAudioPlaying]  = useState(false)
     const [audioStarted,  setAudioStarted]  = useState(false)
     const [audioEnded,    setAudioEnded]    = useState(false)
     const [audioTime,     setAudioTime]     = useState(0)
@@ -719,16 +719,27 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             .filter(({ q }) => !cfg.listeningAudio || (isListeningPhase === (q.sectionId === "listening")))
 
         const answeredCount = phaseQsWithIdx.filter(({ gi }) => answers[gi] !== null).length
+        const unanswered = phaseQsWithIdx.length - answeredCount
         const progress = phaseQsWithIdx.length > 0 ? (answeredCount / phaseQsWithIdx.length) * 100 : 0
         const warn = timeLeft < 60
+
+        const handleExit = () => {
+            if (!window.confirm("Thoát khỏi bài thi? Tiến trình sẽ không được lưu.")) return
+            router.push("/study?tab=thi-thu")
+        }
+
+        const handleFinish = () => {
+            if (unanswered > 0 && !window.confirm(`Còn ${unanswered} câu chưa trả lời. Xác nhận nộp bài?`)) return
+            finish()
+        }
 
         return (
             <div className={styles.examPage}>
                 {/* Top bar */}
                 <div className={styles.examTopBar}>
-                    <Link href="/study?tab=thi-thu" className={styles.examExitBtn}>
+                    <button className={styles.examExitBtn} onClick={handleExit}>
                         <X size={14} /> Thoát
-                    </Link>
+                    </button>
                     <div className={styles.examBarCenter}>
                         <span className={styles.examBarTitle}>
                             JLPT {level}{cfg.subtitle ? ` · ${cfg.subtitle}` : ""}
@@ -738,7 +749,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                             <Clock size={12} /> {formatTime(timeLeft)}
                         </span>
                     </div>
-                    <button className={styles.examSubmitBtn} onClick={finish}>
+                    <button className={styles.examSubmitBtn} onClick={handleFinish}>
                         {cfg.listeningAudio && !isListeningPhase ? "Sang phần Nghe →" : "Nộp bài"}
                     </button>
                 </div>
@@ -778,8 +789,8 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                 src={cfg.listeningAudio}
                                                 onTimeUpdate={() => setAudioTime(audioRef.current?.currentTime ?? 0)}
                                                 onDurationChange={() => setAudioDuration(audioRef.current?.duration ?? 0)}
-                                                onPlay={() => { setAudioPlaying(true); setAudioStarted(true) }}
-                                                onEnded={() => { setAudioPlaying(false); setAudioEnded(true) }}
+                                                onPlay={() => setAudioStarted(true)}
+                                                onEnded={() => setAudioEnded(true)}
                                             />
                                             {!audioStarted ? (
                                                 <button className={styles.audioPlayBtn} onClick={startAudio}>
@@ -1078,7 +1089,8 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             vocabPassed, grammarPassed, listeningPassed,
             passed, totalCorrect, totalQ, groupResults } = getResults()
 
-    const maxScore = cfg.maxScore ?? 180
+    // maxScore = 60 per section actually tested (questions present in the loaded set)
+    const maxScore = (vocabQs.length > 0 ? 60 : 0) + (grammarQs.length > 0 ? 60 : 0) + (listeningQs.length > 0 ? 60 : 0)
     const scoreLabel = listeningQs.length > 0 && vocabQs.length > 0
         ? "Tổng điểm"
         : listeningQs.length > 0
@@ -1113,7 +1125,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                     <span className={styles.scoreNum}>{total}</span>
                     <span className={styles.scoreMax}>/{maxScore}</span>
                 </div>
-                <p className={styles.scoreNote}>{scoreLabel} · Ngưỡng đạt {cfg.passingDisplay}/{maxScore}</p>
+                <p className={styles.scoreNote}>{scoreLabel} · Ngưỡng đạt {cfg.passingDisplay} điểm (mỗi phần ≥ {cfg.passing.secMin})</p>
 
                 {/* Per-section scores */}
                 <div className={styles.sectionScores}>
@@ -1164,7 +1176,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                         <span className={styles.statL}>Câu sai</span>
                     </div>
                     <div className={styles.stat}>
-                        <span className={styles.statV}>{Math.round(totalCorrect / totalQ * 100)}%</span>
+                        <span className={styles.statV}>{totalQ > 0 ? Math.round(totalCorrect / totalQ * 100) : 0}%</span>
                         <span className={styles.statL}>Chính xác</span>
                     </div>
                     <div className={styles.stat}>
