@@ -766,9 +766,21 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
                                                             {/* ── Scene / reference image placeholder ── */}
                                                             {q.type === "listening_scene" && (
-                                                                <div className={styles.qSceneImg}>
-                                                                    <span className={styles.qSceneLabel}>Hình minh họa</span>
-                                                                </div>
+                                                                q.imageSrc ? (
+                                                                    <div className={styles.qPicThumb}>
+                                                                        <Image
+                                                                            src={q.imageSrc}
+                                                                            alt={`Hình câu ${q.display}`}
+                                                                            width={800}
+                                                                            height={600}
+                                                                            className={styles.qPic4ImgFull}
+                                                                        />
+                                                                    </div>
+                                                                ) : (
+                                                                    <div className={styles.qSceneImg}>
+                                                                        <span className={styles.qSceneLabel}>Hình minh họa</span>
+                                                                    </div>
+                                                                )
                                                             )}
 
                                                             {/* ── Options ── */}
