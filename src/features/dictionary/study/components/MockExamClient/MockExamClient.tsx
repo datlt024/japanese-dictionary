@@ -508,22 +508,6 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     useEffect(() => () => stopTimer(), [stopTimer])
 
-    // Pause timer when tab is hidden, resume when visible again
-    useEffect(() => {
-        if (phase !== "question" && phase !== "listening") return
-        const onVisibility = () => {
-            if (document.hidden) {
-                if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null }
-            } else {
-                if (!timerRef.current) {
-                    timerRef.current = setInterval(() => { setTimeLeft(t => Math.max(0, t - 1)) }, 1000)
-                }
-            }
-        }
-        document.addEventListener("visibilitychange", onVisibility)
-        return () => document.removeEventListener("visibilitychange", onVisibility)
-    }, [phase])
-
     const startExam = useCallback(() => {
         stopTimer()
         const mounted = { v: true }
