@@ -13,6 +13,7 @@
     "import:grammars": "tsx scripts/import/import-grammars.ts",
     "build:kanji-links": "tsx scripts/build/build-kanji-links.ts",
     "build:kanji-readings": "tsx scripts/build/build-kanji-reading-examples.ts",
+    "exam:enrich": "tsx --env-file=.env.local scripts/generate/enrich-exam-explanations.ts",
     "grammar:enrich": "tsx scripts/grammar/enrich-grammars.ts",
     "grammar:apply": "tsx scripts/grammar/apply-grammar-results.ts",
     "import:pitch-accents": "tsx scripts/import/import-pitch-accents.ts",

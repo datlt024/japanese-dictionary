@@ -1,4 +1,8 @@
 // 2021年12月 日本語能力試験 N5 — 言語知識（文字・語彙）・読解
+// Explanations are stored in ./explanations/n5-2021.json and merged at export time.
+// Run `npm run exam:enrich n5-2021` to auto-generate explanations via Claude API.
+
+import _explanations from "./explanations/n5-2021.json"
 
 interface StaticQuestion {
     groupId: string
@@ -95,7 +99,9 @@ const PASSAGE_Q10_2021 =
 </div>
 </div>`
 
-export const N5_2021_QUESTIONS: StaticQuestion[] = [
+const _explanationsMap = _explanations as Record<string, string>
+
+const _RAW: StaticQuestion[] = [
 
     // ════════════════════════════════════════════════════════════════════════
     // 言語知識（文字・語彙）
@@ -516,3 +522,9 @@ export const N5_2021_QUESTIONS: StaticQuestion[] = [
       display: "6ばん", options: ["1", "2", "3"], correctIndex: 2,
       explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]" },
 ]
+
+export const N5_2021_QUESTIONS: StaticQuestion[] = _RAW.map(q => {
+    const key = `${q.groupId}:${q.display}`
+    const json = _explanationsMap[key]
+    return json ? { ...q, explanation: json } : q
+})
