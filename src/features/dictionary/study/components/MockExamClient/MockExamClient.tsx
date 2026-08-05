@@ -408,6 +408,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     const timerRef      = useRef<ReturnType<typeof setInterval> | null>(null)
     const startRef      = useRef(0)
+    const endTimeRef    = useRef(0)
     const questionRefs  = useRef<(HTMLDivElement | null)[]>([])
     const audioRef      = useRef<HTMLAudioElement>(null)
     const [, setAudioPlaying]  = useState(false)
@@ -424,9 +425,12 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     const startTimer = useCallback((totalMin: number) => {
         startRef.current = Date.now()
+        endTimeRef.current = Date.now() + totalMin * 60 * 1000
         setTimeLeft(totalMin * 60)
         if (timerRef.current) clearInterval(timerRef.current)
-        timerRef.current = setInterval(() => { setTimeLeft(t => Math.max(0, t - 1)) }, 1000)
+        timerRef.current = setInterval(() => {
+            setTimeLeft(Math.max(0, Math.round((endTimeRef.current - Date.now()) / 1000)))
+        }, 500)
     }, [])
 
     const load = useCallback((mounted: { v: boolean }) => {
