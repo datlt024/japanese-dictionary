@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play, Pause } from "lucide-react"
+import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play } from "lucide-react"
 import styles from "./MockExamClient.module.css"
 import { N5_QUESTIONS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_QUESTIONS } from "@/features/dictionary/study/data/n5-2021-exam"
@@ -408,16 +408,15 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const startRef      = useRef(0)
     const questionRefs  = useRef<(HTMLDivElement | null)[]>([])
     const audioRef      = useRef<HTMLAudioElement>(null)
-    const [audioPlaying,  setAudioPlaying]  = useState(false)
+    const [, setAudioPlaying]  = useState(false)
+    const [audioStarted,  setAudioStarted]  = useState(false)
+    const [audioEnded,    setAudioEnded]    = useState(false)
     const [audioTime,     setAudioTime]     = useState(0)
     const [audioDuration, setAudioDuration] = useState(0)
 
-    const toggleAudio = useCallback(() => {
-        const a = audioRef.current
-        if (!a) return
-        if (audioPlaying) a.pause()
-        else a.play()
-    }, [audioPlaying])
+    const startAudio = useCallback(() => {
+        audioRef.current?.play()
+    }, [])
 
     // ── Data loading ──────────────────────────────────────────────────
 
@@ -700,31 +699,28 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                 src={cfg.listeningAudio}
                                                 onTimeUpdate={() => setAudioTime(audioRef.current?.currentTime ?? 0)}
                                                 onDurationChange={() => setAudioDuration(audioRef.current?.duration ?? 0)}
-                                                onPlay={() => setAudioPlaying(true)}
-                                                onPause={() => setAudioPlaying(false)}
-                                                onEnded={() => setAudioPlaying(false)}
+                                                onPlay={() => { setAudioPlaying(true); setAudioStarted(true) }}
+                                                onEnded={() => { setAudioPlaying(false); setAudioEnded(true) }}
                                             />
-                                            <button className={styles.audioPlayBtn} onClick={toggleAudio} title={audioPlaying ? "Tạm dừng" : "Phát"}>
-                                                {audioPlaying
-                                                    ? <Pause size={15} fill="currentColor" />
-                                                    : <Play  size={15} fill="currentColor" />}
-                                            </button>
+                                            {!audioStarted ? (
+                                                <button className={styles.audioPlayBtn} onClick={startAudio}>
+                                                    <Play size={15} fill="currentColor" />
+                                                </button>
+                                            ) : (
+                                                <span className={styles.audioStatusDot} data-ended={audioEnded || undefined} />
+                                            )}
                                             <span className={styles.audioTimestamp}>
-                                                {formatTime(Math.floor(audioTime))}
+                                                {audioEnded ? "Đã kết thúc" : audioStarted ? "Đang phát..." : "Bắt đầu nghe"}
                                             </span>
-                                            <input
-                                                type="range"
-                                                className={styles.audioSeek}
-                                                min={0}
-                                                max={Math.floor(audioDuration) || 100}
-                                                value={Math.floor(audioTime)}
-                                                onChange={e => {
-                                                    const t = Number(e.target.value)
-                                                    if (audioRef.current) audioRef.current.currentTime = t
-                                                    setAudioTime(t)
-                                                }}
-                                            />
-                                            <span className={styles.audioTimestamp}>{formatTime(Math.floor(audioDuration))}</span>
+                                            <div className={styles.audioSeekTrack}>
+                                                <div
+                                                    className={styles.audioSeekFill}
+                                                    style={{ width: audioDuration > 0 ? `${(audioTime / audioDuration) * 100}%` : "0%" }}
+                                                />
+                                            </div>
+                                            <span className={styles.audioTimestamp}>
+                                                {formatTime(Math.floor(audioTime))} / {formatTime(Math.floor(audioDuration))}
+                                            </span>
                                         </div>
                                     )}
 

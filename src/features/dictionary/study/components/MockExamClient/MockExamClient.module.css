@@ -617,20 +617,44 @@
 }
 .audioPlayBtn:hover { opacity: 0.85; }
 
+.audioStatusDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    flex-shrink: 0;
+    animation: audioPulse 1.2s ease-in-out infinite;
+}
+.audioStatusDot[data-ended] {
+    background: var(--color-text-secondary);
+    animation: none;
+}
+@keyframes audioPulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.35; }
+}
+
 .audioTimestamp {
     font-size: 12px;
     font-weight: 600;
     font-variant-numeric: tabular-nums;
     color: var(--color-text-secondary);
     flex-shrink: 0;
-    min-width: 38px;
 }
 
-.audioSeek {
+.audioSeekTrack {
     flex: 1;
     height: 4px;
-    accent-color: var(--color-primary);
-    cursor: pointer;
+    background: var(--color-border);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.audioSeekFill {
+    height: 100%;
+    background: var(--color-primary);
+    border-radius: 999px;
+    transition: width 0.5s linear;
 }
 
 .qListenLabel {
