@@ -228,11 +228,59 @@
 
 /* ── Exam grid (thi-thu tab) ─────────────────────────── */
 
+.examBackBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    transition: color 0.15s;
+}
+.examBackBtn:hover { color: var(--color-text-primary); }
+
 .examGrid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 14px;
 }
+
+.examVariantGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    max-width: 560px;
+}
+
+.examVariantCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 28px 24px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 18px;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+.examVariantCard:hover { transform: translateY(-2px); }
+
+.examVariantCard[data-level="N5"]:hover { border-color: #16a34a; box-shadow: 0 4px 16px rgba(22,163,74,0.1); }
+
+.examVariantLabel {
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--color-primary);
+}
+.examVariantCard[data-level="N5"] .examVariantLabel { color: #16a34a; }
+.examVariantCard[data-level="N5"] .examStart       { color: #16a34a; }
+.examVariantCard:hover .examStart { opacity: 1; }
 
 .examCard {
     display: flex;
@@ -243,6 +291,9 @@
     border: 1.5px solid var(--color-border);
     border-radius: 18px;
     text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
     transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }

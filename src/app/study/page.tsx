@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import dynamic from "next/dynamic"
 import { BookOpen, Compass, Library, ClipboardList, FileText, PenLine } from "lucide-react"
+import ThiThuContent from "./ThiThuContent"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import {
@@ -151,40 +152,6 @@ function ComingSoonContent({ label }: { label: string }) {
     )
 }
 
-const EXAM_CONFIGS = [
-    { level: "N5", year: "2021", label: "N5 — 2021年12月", desc: "Đề thi thật tháng 12/2021", questions: 43, duration: 60  },
-    { level: "N5", label: "N5",                             desc: "Từ vựng và ngữ pháp cơ bản",   questions: 55, duration: 90  },
-    { level: "N4", label: "N4",                             desc: "Giao tiếp hằng ngày",            questions: 60, duration: 115 },
-    { level: "N3", label: "N3",                             desc: "Hiểu văn bản thông thường",      questions: 74, duration: 140 },
-    { level: "N2", label: "N2",                             desc: "Đọc hiểu văn bản phức tạp",      questions: 75, duration: 155 },
-    { level: "N1", label: "N1",                             desc: "Tiếng Nhật trình độ cao cấp",    questions: 70, duration: 165 },
-]
-
-function ThiThuContent() {
-    return (
-        <>
-            <p className={styles.sectionEyebrow}>Chọn cấp độ</p>
-            <div className={styles.examGrid}>
-                {EXAM_CONFIGS.map(({ level, year, label, desc, questions, duration }) => (
-                    <Link
-                        key={year ? `${level}-${year}` : level}
-                        href={year ? `/study/exam/${level.toLowerCase()}?year=${year}` : `/study/exam/${level.toLowerCase()}`}
-                        className={styles.examCard}
-                        data-level={level}
-                    >
-                        <span className={styles.examLevel}>{label}</span>
-                        <p className={styles.examDesc}>{desc}</p>
-                        <div className={styles.examMeta}>
-                            <span>{questions} câu</span>
-                            <span>{duration} phút</span>
-                        </div>
-                        <span className={styles.examStart}>Bắt đầu →</span>
-                    </Link>
-                ))}
-            </div>
-        </>
-    )
-}
 
 type Props = { searchParams: Promise<{ tab?: string }> }
 
