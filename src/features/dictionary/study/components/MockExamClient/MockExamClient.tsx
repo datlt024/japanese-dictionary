@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play } from "lucide-react"
+import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play, Pause } from "lucide-react"
 import styles from "./MockExamClient.module.css"
 import { N5_QUESTIONS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_QUESTIONS } from "@/features/dictionary/study/data/n5-2021-exam"
@@ -57,6 +57,7 @@ const EXAM: Record<string, {
     passingDisplay: string
     passing: { secMin: number; total: number }
     subtitle?: string
+    listeningAudio?: string
     infoRows: InfoRow[]
     sections: Section[]
 }> = {
@@ -106,6 +107,7 @@ const EXAM: Record<string, {
         subtitle: "2021年12月",
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
+        listeningAudio: "/exams/n5-2021/audio/listening.mp3",
         infoRows: [
             { title: "文字・語彙", count: 21 },
             { title: "文法・読解", count: 22 },
@@ -405,6 +407,17 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const timerRef      = useRef<ReturnType<typeof setInterval> | null>(null)
     const startRef      = useRef(0)
     const questionRefs  = useRef<(HTMLDivElement | null)[]>([])
+    const audioRef      = useRef<HTMLAudioElement>(null)
+    const [audioPlaying,  setAudioPlaying]  = useState(false)
+    const [audioTime,     setAudioTime]     = useState(0)
+    const [audioDuration, setAudioDuration] = useState(0)
+
+    const toggleAudio = useCallback(() => {
+        const a = audioRef.current
+        if (!a) return
+        if (audioPlaying) a.pause()
+        else a.play()
+    }, [audioPlaying])
 
     // ── Data loading ──────────────────────────────────────────────────
 
@@ -679,6 +692,42 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                         </span>
                                     </div>
 
+                                    {/* ── Section-level audio player for listening ── */}
+                                    {sec.id === "listening" && cfg.listeningAudio && (
+                                        <div className={styles.audioPlayer}>
+                                            <audio
+                                                ref={audioRef}
+                                                src={cfg.listeningAudio}
+                                                onTimeUpdate={() => setAudioTime(audioRef.current?.currentTime ?? 0)}
+                                                onDurationChange={() => setAudioDuration(audioRef.current?.duration ?? 0)}
+                                                onPlay={() => setAudioPlaying(true)}
+                                                onPause={() => setAudioPlaying(false)}
+                                                onEnded={() => setAudioPlaying(false)}
+                                            />
+                                            <button className={styles.audioPlayBtn} onClick={toggleAudio} title={audioPlaying ? "Tạm dừng" : "Phát"}>
+                                                {audioPlaying
+                                                    ? <Pause size={15} fill="currentColor" />
+                                                    : <Play  size={15} fill="currentColor" />}
+                                            </button>
+                                            <span className={styles.audioTimestamp}>
+                                                {formatTime(Math.floor(audioTime))}
+                                            </span>
+                                            <input
+                                                type="range"
+                                                className={styles.audioSeek}
+                                                min={0}
+                                                max={Math.floor(audioDuration) || 100}
+                                                value={Math.floor(audioTime)}
+                                                onChange={e => {
+                                                    const t = Number(e.target.value)
+                                                    if (audioRef.current) audioRef.current.currentTime = t
+                                                    setAudioTime(t)
+                                                }}
+                                            />
+                                            <span className={styles.audioTimestamp}>{formatTime(Math.floor(audioDuration))}</span>
+                                        </div>
+                                    )}
+
                                     {sec.groups.map(grp => {
                                         if (grp.skipped) {
                                             return (
@@ -732,15 +781,19 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                 <span className={styles.qNum}>{grpOffset + pos + 1}</span>
                                                                 <div className={styles.qWordInline}>
                                                                     {isListeningQ ? (
-                                                                        <button
-                                                                            className={styles.qListenPlayBtn}
-                                                                            data-ready={!!q.audioSrc || undefined}
-                                                                            disabled={!q.audioSrc}
-                                                                            onClick={e => e.stopPropagation()}
-                                                                        >
-                                                                            <Play size={13} fill="currentColor" />
-                                                                            {q.audioSrc ? "Phát âm thanh" : "Chưa có âm thanh"}
-                                                                        </button>
+                                                                        cfg.listeningAudio ? (
+                                                                            <span className={styles.qListenLabel}>{q.display}</span>
+                                                                        ) : (
+                                                                            <button
+                                                                                className={styles.qListenPlayBtn}
+                                                                                data-ready={!!q.audioSrc || undefined}
+                                                                                disabled={!q.audioSrc}
+                                                                                onClick={e => e.stopPropagation()}
+                                                                            >
+                                                                                <Play size={13} fill="currentColor" />
+                                                                                {q.audioSrc ? "Phát âm thanh" : "Chưa có âm thanh"}
+                                                                            </button>
+                                                                        )
                                                                     ) : (q.type === "kanji_reading" || q.type === "kanji_writing") ? (
                                                                         <p className={styles.qSentence}>
                                                                             {q.sentence ? parseSentence(q.sentence) : q.display}

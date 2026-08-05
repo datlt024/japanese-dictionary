@@ -586,6 +586,59 @@
     opacity: 0.55;
 }
 
+/* ── Section-level audio player ──────────────────────────────── */
+
+.audioPlayer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.audioPlayBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    background: var(--color-primary);
+    color: #fff;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: opacity 0.15s;
+}
+.audioPlayBtn:hover { opacity: 0.85; }
+
+.audioTimestamp {
+    font-size: 12px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text-secondary);
+    flex-shrink: 0;
+    min-width: 38px;
+}
+
+.audioSeek {
+    flex: 1;
+    height: 4px;
+    accent-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.qListenLabel {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+}
+
 .qSectionTitle {
     font-size: 13px;
     font-weight: 800;
