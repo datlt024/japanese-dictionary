@@ -6,8 +6,8 @@ import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play, Pause } from "lucide-react"
 import styles from "./MockExamClient.module.css"
-import { N5_QUESTIONS } from "@/features/dictionary/study/data/n5-exam"
-import { N5_2021_QUESTIONS } from "@/features/dictionary/study/data/n5-2021-exam"
+import { N5_QUESTIONS, N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
+import { N5_2021_QUESTIONS, N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
 
 // ── Types ──────────────────────────────────────────────────────────────
 
@@ -70,8 +70,8 @@ const EXAM: Record<string, {
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
         infoRows: [
-            { title: "文字・語彙", count: 35 },
-            { title: "文法・読解", count: 32 },
+            { title: "文字・語彙", count: N5_EXAM_COUNTS.vocab },
+            { title: "文法・読解", count: N5_EXAM_COUNTS.grammar },
             { title: "聴解",       count: 24, skipped: true },
         ],
         sections: [
@@ -113,9 +113,9 @@ const EXAM: Record<string, {
         passing: { secMin: 19, total: 80 },
         listeningAudio: "/exams/n5-2021/audio/listening.m4a",
         infoRows: [
-            { title: "文字・語彙", count: 21 },
-            { title: "文法・読解", count: 22 },
-            { title: "聴解",       count: 24 },
+            { title: "文字・語彙", count: N5_2021_COUNTS.vocab },
+            { title: "文法・読解", count: N5_2021_COUNTS.grammar },
+            { title: "聴解",       count: N5_2021_COUNTS.listening },
         ],
         sections: [
             {

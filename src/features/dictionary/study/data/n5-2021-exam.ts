@@ -692,3 +692,10 @@ export const N5_2021_QUESTIONS: StaticQuestion[] = _RAW.map(q => {
   const json = _explanationsMap[key]
   return json ? { ...q, explanation: json } : q
 })
+
+export const N5_2021_COUNTS = {
+    vocab:     N5_2021_QUESTIONS.filter(q => q.sectionId === "vocab").length,
+    grammar:   N5_2021_QUESTIONS.filter(q => q.sectionId === "grammar").length,
+    listening: N5_2021_QUESTIONS.filter(q => q.sectionId === "listening").length,
+    get total() { return this.vocab + this.grammar + this.listening },
+}

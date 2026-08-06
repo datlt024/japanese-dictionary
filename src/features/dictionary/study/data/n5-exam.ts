@@ -451,3 +451,9 @@ export const N5_QUESTIONS: StaticQuestion[] = [
       correctIndex: 3,
       difficulty: 4 },
 ]
+
+export const N5_EXAM_COUNTS = {
+    vocab:   N5_QUESTIONS.filter(q => q.sectionId === "vocab").length,
+    grammar: N5_QUESTIONS.filter(q => q.sectionId === "grammar").length,
+    get total() { return this.vocab + this.grammar },
+}

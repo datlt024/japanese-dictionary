@@ -4,6 +4,8 @@ import { useState } from "react"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import styles from "./page.module.css"
+import { N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
+import { N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
 
 type ExamVariant = {
     label: string
@@ -26,8 +28,8 @@ const LEVELS: LevelConfig[] = [
         level: "N5",
         desc: "Từ vựng và ngữ pháp cơ bản",
         exams: [
-            { label: "Test 1", questions: 55, duration: 90, href: "/study/exam/n5"           },
-            { label: "Test 2", questions: 67, duration: 90, href: "/study/exam/n5?year=2021" },
+            { label: "Test 1", questions: N5_EXAM_COUNTS.total,   duration: 90, href: "/study/exam/n5"           },
+            { label: "Test 2", questions: N5_2021_COUNTS.total, duration: 90, href: "/study/exam/n5?year=2021" },
         ],
     },
     { level: "N4", desc: "Giao tiếp hằng ngày",           href: "/study/exam/n4", questions: 60, duration: 115 },
