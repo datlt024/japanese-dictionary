@@ -652,37 +652,37 @@ const _RAW: StaticQuestion[] = [
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "1ばん", options: ["1", "2", "3"], correctIndex: 2,
-    audioStart: 1365, audioEnd: 1385,
+    audioStart: 1179, audioEnd: 1199,
     explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "2ばん", options: ["1", "2", "3"], correctIndex: 1,
-    audioStart: 1390, audioEnd: 1411,
+    audioStart: 1204, audioEnd: 1225,
     explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "3ばん", options: ["1", "2", "3"], correctIndex: 1,
-    audioStart: 1416, audioEnd: 1439,
+    audioStart: 1230, audioEnd: 1253,
     explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "4ばん", options: ["1", "2", "3"], correctIndex: 2,
-    audioStart: 1443, audioEnd: 1466,
+    audioStart: 1257, audioEnd: 1280,
     explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "5ばん", options: ["1", "2", "3"], correctIndex: 0,
-    audioStart: 1474, audioEnd: 1499,
+    audioStart: 1288, audioEnd: 1313,
     explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "6ばん", options: ["1", "2", "3"], correctIndex: 2,
-    audioStart: 1506, audioEnd: 1534,
+    audioStart: 1320, audioEnd: 1348,
     explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]"
   },
 ]
