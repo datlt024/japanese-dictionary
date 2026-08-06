@@ -1709,6 +1709,30 @@
 .reviewOptMark[data-correct] { color: #16a34a; }
 .reviewOptMark[data-wrong]   { color: #ef4444; }
 
+/* per-question audio replay button */
+.reviewPlayBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1.5px solid var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 6%, var(--color-surface));
+    color: var(--color-primary);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.12s, opacity 0.12s;
+    align-self: flex-start;
+}
+.reviewPlayBtn:hover {
+    background: color-mix(in srgb, var(--color-primary) 14%, var(--color-surface));
+}
+.reviewPlayBtn[data-playing] {
+    background: color-mix(in srgb, var(--color-primary) 12%, var(--color-surface));
+}
+
 /* explanation block */
 .reviewExplanation {
     margin: 0;

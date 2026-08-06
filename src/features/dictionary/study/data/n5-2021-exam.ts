@@ -16,6 +16,8 @@ interface StaticQuestion {
     correctIndex: number
     audioSrc?: string
     imageSrc?: string
+    audioStart?: number   // giây bắt đầu câu trong file listening.mp3 (dùng cho chức năng nghe lại)
+    audioEnd?: number     // giây kết thúc câu (tự dừng audio khi đến đây)
     explanation?: string  // giải thích đáp án, hiển thị trong màn hình kết quả
 }
 
@@ -394,6 +396,10 @@ const _RAW: StaticQuestion[] = [
     // ════════════════════════════════════════════════════════════════════════
     // 聴解
     // ════════════════════════════════════════════════════════════════════════
+    // audioStart / audioEnd: giây trong file /exams/n5-2021/audio/listening.mp3
+    // Cách xác định: mở file bằng audio editor (Audacity / QuickTime), nghe và
+    // ghi lại mốc bắt đầu câu hỏi (sau khi đọc số câu) và kết thúc (khi im lặng).
+    // Khi điền xong, nút "Nghe lại" sẽ xuất hiện trên từng câu trong trang Xem đáp án.
 
     // ─── もんだい1 (lq1): 7問 — 絵4枚から正しいものを選ぶ ─────────────────
 
@@ -401,36 +407,42 @@ const _RAW: StaticQuestion[] = [
     { groupId: "lq1", sectionId: "listening", type: "listening_pic",
       display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 2,
       imageSrc: "/exams/n5-2021/listening/lq1_q1.png",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]" },
 
     // 2ばん: お店・人の場面
     { groupId: "lq1", sectionId: "listening", type: "listening_pic",
       display: "2ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
       imageSrc: "/exams/n5-2021/listening/lq1_q2.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]" },
 
     // 3ばん: 部屋の中の家具の位置
     { groupId: "lq1", sectionId: "listening", type: "listening_pic",
       display: "3ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
       imageSrc: "/exams/n5-2021/listening/lq1_q3.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]" },
 
     // 4ばん: 大学周辺の地図（カフェの場所）
     { groupId: "lq1", sectionId: "listening", type: "listening_pic",
       display: "4ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
       imageSrc: "/exams/n5-2021/listening/lq1_q4.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]" },
 
     // 5ばん: 教室番号
     { groupId: "lq1", sectionId: "listening", type: "listening_text",
       display: "5ばん",
       options: ["101きょうしつ", "102きょうしつ", "201きょうしつ", "202きょうしつ"], correctIndex: 0,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án: 101きょうしつ. [Điền giải thích nội dung audio tại đây]" },
 
     // 6ばん: 色
     { groupId: "lq1", sectionId: "listening", type: "listening_text",
       display: "6ばん",
       options: ["あか", "きいろ", "あお", "くろ"], correctIndex: 1,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án: きいろ (màu vàng). [Điền giải thích nội dung audio tại đây]" },
 
     // 7ばん: 買うものの組み合わせ（ア=お金 イ=ジャケット ウ=ギフト）
@@ -438,6 +450,7 @@ const _RAW: StaticQuestion[] = [
       display: "7ばん",
       options: ["アイ", "アウ", "イウ", "アイウ"], correctIndex: 0,
       imageSrc: "/exams/n5-2021/listening/lq1_q7.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án: アイ. [Điền giải thích nội dung audio tại đây]" },
 
     // ─── もんだい2 (lq2): 6問 — 質問を聞いて絵から答えを選ぶ ──────────────
@@ -446,36 +459,42 @@ const _RAW: StaticQuestion[] = [
     { groupId: "lq2", sectionId: "listening", type: "listening_pic",
       display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 1,
       imageSrc: "/exams/n5-2021/listening/lq2_q1.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]" },
 
     // 2ばん: 人物の行動（オフィス・カフェなど）
     { groupId: "lq2", sectionId: "listening", type: "listening_pic",
       display: "2ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
       imageSrc: "/exams/n5-2021/listening/lq2_q2.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]" },
 
     // 3ばん: カレンダー（3月）から日付を選ぶ
     { groupId: "lq2", sectionId: "listening", type: "listening_pic",
       display: "3ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
       imageSrc: "/exams/n5-2021/listening/lq2_q3.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]" },
 
     // 4ばん: 風景写真（花・海岸・山・橋）
     { groupId: "lq2", sectionId: "listening", type: "listening_pic",
       display: "4ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
       imageSrc: "/exams/n5-2021/listening/lq2_q4.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]" },
 
     // 5ばん: 日付
     { groupId: "lq2", sectionId: "listening", type: "listening_text",
       display: "5ばん",
       options: ["5がつ 28にち", "5がつ 29にち", "5がつ 30にち", "5がつ 31にち"], correctIndex: 2,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án: 5がつ30にち (ngày 30 tháng 5). [Điền giải thích nội dung audio tại đây]" },
 
     // 6ばん: スポーツ（バスケット・水泳・テニス・サッカー）
     { groupId: "lq2", sectionId: "listening", type: "listening_pic",
       display: "6ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
       imageSrc: "/exams/n5-2021/listening/lq2_q6.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]" },
 
     // ─── もんだい3 (lq3): 5問 — 絵を見て矢印の人のセリフを選ぶ ─────────────
@@ -483,43 +502,54 @@ const _RAW: StaticQuestion[] = [
     { groupId: "lq3", sectionId: "listening", type: "listening_scene",
       display: "1ばん", options: ["1", "2", "3"], correctIndex: 0,
       imageSrc: "/exams/n5-2021/listening/lq3_q1.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq3", sectionId: "listening", type: "listening_scene",
       display: "2ばん", options: ["1", "2", "3"], correctIndex: 1,
       imageSrc: "/exams/n5-2021/listening/lq3_q2.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq3", sectionId: "listening", type: "listening_scene",
       display: "3ばん", options: ["1", "2", "3"], correctIndex: 1,
       imageSrc: "/exams/n5-2021/listening/lq3_q3.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq3", sectionId: "listening", type: "listening_scene",
       display: "4ばん", options: ["1", "2", "3"], correctIndex: 2,
       imageSrc: "/exams/n5-2021/listening/lq3_q4.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq3", sectionId: "listening", type: "listening_scene",
       display: "5ばん", options: ["1", "2", "3"], correctIndex: 1,
       imageSrc: "/exams/n5-2021/listening/lq3_q5.jpg",
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]" },
 
     // ─── もんだい4 (lq4): 6問 — 絵なし、文を聞いて返事を選ぶ ───────────────
 
     { groupId: "lq4", sectionId: "listening", type: "listening_text",
       display: "1ばん", options: ["1", "2", "3"], correctIndex: 2,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq4", sectionId: "listening", type: "listening_text",
       display: "2ばん", options: ["1", "2", "3"], correctIndex: 1,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq4", sectionId: "listening", type: "listening_text",
       display: "3ばん", options: ["1", "2", "3"], correctIndex: 1,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq4", sectionId: "listening", type: "listening_text",
       display: "4ばん", options: ["1", "2", "3"], correctIndex: 2,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq4", sectionId: "listening", type: "listening_text",
       display: "5ばん", options: ["1", "2", "3"], correctIndex: 0,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq4", sectionId: "listening", type: "listening_text",
       display: "6ばん", options: ["1", "2", "3"], correctIndex: 2,
+      audioStart: undefined, audioEnd: undefined,
       explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]" },
 ]
 

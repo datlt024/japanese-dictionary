@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef, useCallback } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
-import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play } from "lucide-react"
+import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play, Pause } from "lucide-react"
 import styles from "./MockExamClient.module.css"
 import { N5_QUESTIONS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_QUESTIONS } from "@/features/dictionary/study/data/n5-2021-exam"
@@ -46,6 +46,8 @@ interface Question {
     correctIndex: number
     audioSrc?: string
     imageSrc?: string   // full 2×2 grid image for listening_pic questions
+    audioStart?: number // seconds into cfg.listeningAudio where this question starts
+    audioEnd?: number   // seconds where this question ends (auto-pause)
     explanation?: string
 }
 
@@ -417,7 +419,8 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const [audioEnded,    setAudioEnded]    = useState(false)
     const [audioTime,     setAudioTime]     = useState(0)
     const [audioDuration, setAudioDuration] = useState(0)
-    const [showReview,    setShowReview]    = useState(false)
+    const [showReview,      setShowReview]      = useState(false)
+    const [reviewPlayingGi, setReviewPlayingGi] = useState<number | null>(null)
 
     const startAudio = useCallback(() => {
         audioRef.current?.play()
@@ -435,6 +438,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         }, 500)
     }, [])
 
+    // eslint-disable-next-line react-hooks/preserve-manual-memoization
     const load = useCallback((mounted: { v: boolean }) => {
         if (examKey === "N5") {
             if (!mounted.v) return
@@ -486,6 +490,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null }
     }, [])
 
+    // eslint-disable-next-line react-hooks/preserve-manual-memoization
     const finish = useCallback(() => {
         stopTimer()
         if (cfg.listeningAudio && phase === "question") {
@@ -497,6 +502,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         }
     }, [stopTimer, cfg.listeningAudio, phase])
 
+    // eslint-disable-next-line react-hooks/preserve-manual-memoization
     const startListening = useCallback(() => {
         const listeningMin = cfg.sections.find(s => s.id === "listening")?.allocMin ?? 30
         startRef.current = Date.now()
@@ -539,6 +545,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         }
     }, [phase])
 
+    // eslint-disable-next-line react-hooks/preserve-manual-memoization
     const startExam = useCallback(() => {
         stopTimer()
         setAudioStarted(false)
@@ -547,6 +554,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         setAudioDuration(0)
         setLanguageTimeTaken(0)
         setShowReview(false)
+        setReviewPlayingGi(null)
         setTimeTaken(0)
         const mounted = { v: true }
         setPhase("loading")
@@ -1103,11 +1111,27 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     // ── Review: full exam read-only with answer highlighting ────────────
 
     if (showReview) {
+        const handleReviewPlay = (gi: number, q: Question) => {
+            if (!audioRef.current || !cfg.listeningAudio) return
+            if (reviewPlayingGi === gi) {
+                audioRef.current.pause()
+                setReviewPlayingGi(null)
+                return
+            }
+            audioRef.current.currentTime = q.audioStart ?? 0
+            audioRef.current.play()
+            setReviewPlayingGi(gi)
+        }
+
         return (
             <div className={styles.examPage}>
                 {/* Top bar — same structure as exam */}
                 <div className={styles.examTopBar}>
-                    <button className={styles.examExitBtn} onClick={() => setShowReview(false)}>
+                    <button className={styles.examExitBtn} onClick={() => {
+                        audioRef.current?.pause()
+                        setReviewPlayingGi(null)
+                        setShowReview(false)
+                    }}>
                         <ArrowLeft size={14} /> Quay lại kết quả
                     </button>
                     <span className={styles.examBarTitle}>
@@ -1121,6 +1145,22 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
                     {/* Left: scrollable question list */}
                     <div className={styles.questionsPanel}>
+                        {/* Hidden audio element for per-question playback */}
+                        {cfg.listeningAudio && (
+                            <audio
+                                ref={audioRef}
+                                src={cfg.listeningAudio}
+                                onTimeUpdate={() => {
+                                    if (reviewPlayingGi === null || !audioRef.current) return
+                                    const pq = questions[reviewPlayingGi]
+                                    if (pq?.audioEnd !== undefined && audioRef.current.currentTime >= pq.audioEnd) {
+                                        audioRef.current.pause()
+                                        setReviewPlayingGi(null)
+                                    }
+                                }}
+                                onEnded={() => setReviewPlayingGi(null)}
+                            />
+                        )}
                         {cfg.sections.map(sec => {
                             const secQsWithIdx = questions
                                 .map((q, gi) => ({ q, gi }))
@@ -1201,6 +1241,20 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                         {isSkipped ? "Bỏ trống" : isCorrect ? "✓ Đúng" : "✗ Sai"}
                                                                     </span>
                                                                 </div>
+
+                                                                {/* Per-question audio replay (review only) */}
+                                                                {cfg.listeningAudio && q.audioStart !== undefined && q.audioEnd !== undefined && (
+                                                                    <button
+                                                                        className={styles.reviewPlayBtn}
+                                                                        data-playing={reviewPlayingGi === gi || undefined}
+                                                                        onClick={() => handleReviewPlay(gi, q)}
+                                                                    >
+                                                                        {reviewPlayingGi === gi
+                                                                            ? <><Pause size={12} fill="currentColor" /> Đang phát</>
+                                                                            : <><Play  size={12} fill="currentColor" /> Nghe lại</>
+                                                                        }
+                                                                    </button>
+                                                                )}
 
                                                                 {q.type === "listening_scene" && q.imageSrc && (
                                                                     <div className={styles.qPicThumb}>
