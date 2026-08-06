@@ -65,16 +65,14 @@ def apply():
         # Pattern: lines near groupId:"lq1" display:"1ばん" ... audioStart: 0, audioEnd: 0
         # We need to find the right block. Use a context-aware approach.
 
-        # Build a pattern that matches the question block with placeholder 0s
+        # Build a pattern that matches the question block (any existing timestamps)
         escaped_group   = re.escape(group_id)
         escaped_display = re.escape(display)
 
-        # Find occurrence of this groupId+display combo, then patch audioStart/audioEnd
-        # Strategy: split on the pattern, replace only the first matching placeholder
         pattern = (
             r'(groupId:\s*"' + escaped_group + r'"[^}]*?'
             r'display:\s*"' + escaped_display + r'"[^}]*?)'
-            r'audioStart:\s*0,\s*audioEnd:\s*0'
+            r'audioStart:\s*\d+,\s*audioEnd:\s*\d+'
         )
 
         def replacer(m):

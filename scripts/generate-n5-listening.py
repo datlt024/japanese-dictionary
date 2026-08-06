@@ -15,76 +15,89 @@ Outputs:
     scripts/_n5_timestamps.json
 """
 
-import subprocess, aifc, json, sys, os, time
+import subprocess, json, sys, os, time, wave
 from pathlib import Path
 
 # ── Config ───────────────────────────────────────────────────────────────
 VOICE     = "Kyoko"
-RATE      = 145
-SAY_TIMEOUT = 30        # seconds; kill say if it hangs after writing file
-SAMPLE_RATE = 22050
+RATE      = 115          # was 145; slower, clearer for N5 level
+SAY_TIMEOUT = 40
+SAMPLE_RATE = 44100      # was 22050; 44.1kHz avoids crackling artifacts
 CHANNELS    = 1
 SAMPWIDTH   = 2
 
 PROJECT = Path(__file__).parent.parent
-TMPDIR  = Path("/tmp/n5_gen2")
+TMPDIR  = Path("/tmp/n5_gen3")
 OUT_M4A = PROJECT / "public/exams/n5/audio/listening.m4a"
 OUT_TS  = Path(__file__).parent / "_n5_timestamps.json"
 
 # Pause durations (ms) encoded inside say text with [[slnc N]]
-P_BREATH = 350    # between dialogue lines
-P_Q      = 600    # before question text
+P_BREATH = 500    # between dialogue lines (was 350)
+P_Q      = 800    # before question text (was 600)
 P_ANS    = 5000   # after question / options (answer time)
-P_SECT   = 2000   # at end of section intro
+P_SECT   = 2500   # at end of section intro (was 2000)
 
 # ── Helpers ──────────────────────────────────────────────────────────────
 
-def say_to_aiff(text: str, name: str) -> Path:
-    """Generate AIFF from text using say, convert to uncompressed PCM."""
-    raw = TMPDIR / f"{name}_raw.aiff"
-    pcm = TMPDIR / f"{name}.aiff"
-    # Use Popen so we can kill if say hangs after writing
+def say_to_wav(text: str, name: str) -> Path:
+    """Generate speech as a standard PCM WAV file at SAMPLE_RATE.
+
+    Pipeline: say → AIFF (raw say output) → afconvert → WAV (LEI16 PCM)
+    Using WAV avoids the Python aifc module which produces AIFF-C format and
+    causes crackling when segment bytes are directly concatenated.
+    """
+    raw_aiff = TMPDIR / f"{name}_raw.aiff"
+    out_wav  = TMPDIR / f"{name}.wav"
     proc = subprocess.Popen(
-        ["say", "-v", VOICE, "-r", str(RATE), "-o", str(raw), text],
+        ["say", "-v", VOICE, "-r", str(RATE), "-o", str(raw_aiff), text],
         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
     )
     try:
         proc.wait(timeout=SAY_TIMEOUT)
     except subprocess.TimeoutExpired:
         proc.kill(); proc.wait()
-    if not raw.exists() or raw.stat().st_size < 100:
-        raise RuntimeError(f"say failed for: {text[:60]}")
+    if not raw_aiff.exists() or raw_aiff.stat().st_size < 100:
+        raise RuntimeError(f"say failed: {text[:60]}")
     subprocess.run(
-        ["afconvert", "-f", "AIFF", "-d", f"BEI16@{SAMPLE_RATE}", "-c", str(CHANNELS),
-         str(raw), str(pcm)],
+        ["afconvert", "-f", "WAVE", "-d", f"LEI16@{SAMPLE_RATE}", "-c", "1",
+         str(raw_aiff), str(out_wav)],
         check=True, capture_output=True
     )
-    return pcm
+    raw_aiff.unlink(missing_ok=True)
+    return out_wav
 
 def make_silence(name: str, secs: float) -> Path:
-    path = TMPDIR / f"{name}.aiff"
-    nf = int(secs * SAMPLE_RATE)
-    with aifc.open(str(path), 'w') as f:
-        f.setnchannels(CHANNELS); f.setsampwidth(SAMPWIDTH); f.setframerate(SAMPLE_RATE)
-        f.writeframes(b'\x00' * nf * SAMPWIDTH)
+    """Generate silence as a WAV file (same format as say_to_wav output)."""
+    path = TMPDIR / f"{name}.wav"
+    n_frames = int(secs * SAMPLE_RATE)
+    with wave.open(str(path), 'w') as wf:
+        wf.setnchannels(CHANNELS)
+        wf.setsampwidth(SAMPWIDTH)
+        wf.setframerate(SAMPLE_RATE)
+        wf.writeframes(b'\x00' * n_frames * SAMPWIDTH * CHANNELS)
     return path
 
 def dur(path: Path) -> float:
-    with aifc.open(str(path), 'r') as f:
-        return f.getnframes() / f.getframerate()
+    """Duration from WAV file metadata."""
+    with wave.open(str(path), 'r') as wf:
+        return wf.getnframes() / wf.getframerate()
 
 def concat_to_m4a(segs: list[Path], outpath: Path) -> None:
-    tmp = TMPDIR / "final.aiff"
+    """Concatenate WAV segments → single WAV → M4A (AAC)."""
     all_frames = b''
     for seg in segs:
-        with aifc.open(str(seg), 'r') as f:
-            all_frames += f.readframes(f.getnframes())
-    with aifc.open(str(tmp), 'w') as f:
-        f.setnchannels(CHANNELS); f.setsampwidth(SAMPWIDTH); f.setframerate(SAMPLE_RATE)
-        f.writeframes(all_frames)
+        with wave.open(str(seg), 'r') as wf:
+            all_frames += wf.readframes(wf.getnframes())
+    wav_path = TMPDIR / "final.wav"
+    with wave.open(str(wav_path), 'w') as wf:
+        wf.setnchannels(CHANNELS)
+        wf.setsampwidth(SAMPWIDTH)
+        wf.setframerate(SAMPLE_RATE)
+        wf.writeframes(all_frames)
     outpath.parent.mkdir(parents=True, exist_ok=True)
+    # Note: do NOT pass -b bitrate flag — causes '!dat' error on macOS afconvert
     subprocess.run(
-        ["afconvert", "-f", "m4af", "-d", "aac", "-b", "128000", str(tmp), str(outpath)],
+        ["afconvert", "-f", "m4af", "-d", "aac", str(wav_path), str(outpath)],
         check=True
     )
 
@@ -113,7 +126,7 @@ class Builder:
         sid = self._id()
         if label:
             print(f"  [{sid}] {label[:50]}")
-        path = say_to_aiff(text, sid)
+        path = say_to_wav(text, sid)
         d = dur(path)
         start = self._t
         self.segs.append(path)
@@ -179,7 +192,7 @@ def build(b: Builder) -> dict:
         "lq1 Q1 昼食"
     )
     ts["lq1_q1"] = {"start": qstart, "end": round(end), "correct": 1}
-    b.silence(5)
+    b.silence(7)
 
     # lq1 Q2 — 机の位置 [pics: 窓の近く・ドアの近く・真ん中・ベッドの横; correct=0]
     qstart = b.mark()
@@ -192,7 +205,7 @@ def build(b: Builder) -> dict:
         "lq1 Q2 机の位置"
     )
     ts["lq1_q2"] = {"start": qstart, "end": round(end), "correct": 0}
-    b.silence(5)
+    b.silence(7)
 
     # lq1 Q3 — 天気 [pics: はれ・くもり・あめ・ゆき; correct=3]
     qstart = b.mark()
@@ -207,7 +220,7 @@ def build(b: Builder) -> dict:
         "lq1 Q3 天気"
     )
     ts["lq1_q3"] = {"start": qstart, "end": round(end), "correct": 3}
-    b.silence(5)
+    b.silence(7)
 
     # lq1 Q4 — 地図 [pics: map 4 spots; correct=2(図書館)]
     qstart = b.mark()
@@ -221,7 +234,7 @@ def build(b: Builder) -> dict:
         "lq1 Q4 地図"
     )
     ts["lq1_q4"] = {"start": qstart, "end": round(end), "correct": 2}
-    b.silence(5)
+    b.silence(7)
 
     # lq1 Q5 — 時間 [text: ８じ・９じ・１０じ・１１じ; correct=1]
     qstart = b.mark()
@@ -235,7 +248,7 @@ def build(b: Builder) -> dict:
         "lq1 Q5 時間"
     )
     ts["lq1_q5"] = {"start": qstart, "end": round(end), "correct": 1}
-    b.silence(5)
+    b.silence(7)
 
     # lq1 Q6 — 曜日 [text: 月曜日・火曜日・水曜日・木曜日; correct=2]
     qstart = b.mark()
@@ -247,7 +260,7 @@ def build(b: Builder) -> dict:
         "lq1 Q6 曜日"
     )
     ts["lq1_q6"] = {"start": qstart, "end": round(end), "correct": 2}
-    b.silence(5)
+    b.silence(7)
 
     # lq1 Q7 — 持ち物 [scene: ア=かさ イ=おかね ウ=スマホ; options アイ/アウ/イウ/アイウ; correct=0]
     qstart = b.mark()
@@ -262,7 +275,7 @@ def build(b: Builder) -> dict:
         "lq1 Q7 持ち物"
     )
     ts["lq1_q7"] = {"start": qstart, "end": round(end), "correct": 0}
-    b.silence(5)
+    b.silence(7)
 
     # ════════════════════════════════════════════════════════════════════
     # もんだい２ — 6問
@@ -289,7 +302,7 @@ def build(b: Builder) -> dict:
         "lq2 Q1 スポーツ"
     )
     ts["lq2_q1"] = {"start": qstart, "end": round(end), "correct": 0}
-    b.silence(5)
+    b.silence(7)
 
     # lq2 Q2 — 移動手段 [pics: コンビニ・バス・でんしゃ・タクシー; correct=2]
     qstart = b.mark()
@@ -304,7 +317,7 @@ def build(b: Builder) -> dict:
         "lq2 Q2 移動手段"
     )
     ts["lq2_q2"] = {"start": qstart, "end": round(end), "correct": 2}
-    b.silence(5)
+    b.silence(7)
 
     # lq2 Q3 — カレンダー [pics: calendar 8日・10日・12日・15日; correct=3]
     qstart = b.mark()
@@ -318,7 +331,7 @@ def build(b: Builder) -> dict:
         "lq2 Q3 カレンダー"
     )
     ts["lq2_q3"] = {"start": qstart, "end": round(end), "correct": 3}
-    b.silence(5)
+    b.silence(7)
 
     # lq2 Q4 — ねこの数 [text: 1ひき・2ひき・3ひき・4ひき; correct=2]
     qstart = b.mark()
@@ -332,7 +345,7 @@ def build(b: Builder) -> dict:
         "lq2 Q4 ねこの数"
     )
     ts["lq2_q4"] = {"start": qstart, "end": round(end), "correct": 2}
-    b.silence(5)
+    b.silence(7)
 
     # lq2 Q5 — りんご [pics: 2つ・3つ・4つ・5つ; correct=3]
     qstart = b.mark()
@@ -344,7 +357,7 @@ def build(b: Builder) -> dict:
         "lq2 Q5 りんご"
     )
     ts["lq2_q5"] = {"start": qstart, "end": round(end), "correct": 3}
-    b.silence(5)
+    b.silence(7)
 
     # lq2 Q6 — 通学 [pics: バス・じてんしゃ・でんしゃ・くるま; correct=1]
     qstart = b.mark()
@@ -356,7 +369,7 @@ def build(b: Builder) -> dict:
         "lq2 Q6 通学"
     )
     ts["lq2_q6"] = {"start": qstart, "end": round(end), "correct": 1}
-    b.silence(5)
+    b.silence(7)
 
     # ════════════════════════════════════════════════════════════════════
     # もんだい３ — 5問 (options read aloud)
@@ -382,7 +395,7 @@ def build(b: Builder) -> dict:
         "lq3 Q1 コンビニ"
     )
     ts["lq3_q1"] = {"start": qstart, "end": round(end), "correct": 0}
-    b.silence(4)
+    b.silence(6)
 
     # lq3 Q2 — 友だちの家 [correct=1: おじゃまします]
     qstart = b.mark()
@@ -395,7 +408,7 @@ def build(b: Builder) -> dict:
         "lq3 Q2 友だちの家"
     )
     ts["lq3_q2"] = {"start": qstart, "end": round(end), "correct": 1}
-    b.silence(4)
+    b.silence(6)
 
     # lq3 Q3 — レストランで注文 [correct=1: これをひとつおねがいします]
     qstart = b.mark()
@@ -408,7 +421,7 @@ def build(b: Builder) -> dict:
         "lq3 Q3 レストラン"
     )
     ts["lq3_q3"] = {"start": qstart, "end": round(end), "correct": 1}
-    b.silence(4)
+    b.silence(6)
 
     # lq3 Q4 — 写真を撮ってもらう [correct=2: しゃしんをとっていただけますか]
     qstart = b.mark()
@@ -421,7 +434,7 @@ def build(b: Builder) -> dict:
         "lq3 Q4 写真"
     )
     ts["lq3_q4"] = {"start": qstart, "end": round(end), "correct": 2}
-    b.silence(4)
+    b.silence(6)
 
     # lq3 Q5 — 道を尋ねる [correct=0: えきはどこですか]
     qstart = b.mark()
@@ -434,7 +447,7 @@ def build(b: Builder) -> dict:
         "lq3 Q5 道を尋ねる"
     )
     ts["lq3_q5"] = {"start": qstart, "end": round(end), "correct": 0}
-    b.silence(4)
+    b.silence(6)
 
     # ════════════════════════════════════════════════════════════════════
     # もんだい４ — 6問 (options read aloud, no image)
@@ -460,7 +473,7 @@ def build(b: Builder) -> dict:
         "lq4 Q1"
     )
     ts["lq4_q1"] = {"start": qstart, "end": round(end), "correct": 1}
-    b.silence(4)
+    b.silence(6)
 
     # lq4 Q2 [correct=0: いいですね。いきましょう]
     qstart = b.mark()
@@ -473,7 +486,7 @@ def build(b: Builder) -> dict:
         "lq4 Q2"
     )
     ts["lq4_q2"] = {"start": qstart, "end": round(end), "correct": 0}
-    b.silence(4)
+    b.silence(6)
 
     # lq4 Q3 [correct=2: ありがとうございます。おねがいします]
     qstart = b.mark()
@@ -486,7 +499,7 @@ def build(b: Builder) -> dict:
         "lq4 Q3"
     )
     ts["lq4_q3"] = {"start": qstart, "end": round(end), "correct": 2}
-    b.silence(4)
+    b.silence(6)
 
     # lq4 Q4 [correct=1: ねつがあったので、いけませんでした]
     qstart = b.mark()
@@ -499,7 +512,7 @@ def build(b: Builder) -> dict:
         "lq4 Q4"
     )
     ts["lq4_q4"] = {"start": qstart, "end": round(end), "correct": 1}
-    b.silence(4)
+    b.silence(6)
 
     # lq4 Q5 [correct=0: おもしろかったですよ]
     qstart = b.mark()
@@ -512,7 +525,7 @@ def build(b: Builder) -> dict:
         "lq4 Q5"
     )
     ts["lq4_q5"] = {"start": qstart, "end": round(end), "correct": 0}
-    b.silence(4)
+    b.silence(6)
 
     # lq4 Q6 [correct=2: はい、でもおもしろいです]
     qstart = b.mark()
@@ -525,7 +538,7 @@ def build(b: Builder) -> dict:
         "lq4 Q6"
     )
     ts["lq4_q6"] = {"start": qstart, "end": round(end), "correct": 2}
-    b.silence(4)
+    b.silence(6)
 
     # ── Closing ──────────────────────────────────────────────────────────
     b.silence(2)
