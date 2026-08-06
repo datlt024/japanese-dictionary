@@ -20,36 +20,49 @@ from pathlib import Path
 
 # ── Config ───────────────────────────────────────────────────────────────
 VOICE     = "Kyoko"
-RATE      = 115          # was 145; slower, clearer for N5 level
-SAY_TIMEOUT = 40
-SAMPLE_RATE = 44100      # was 22050; 44.1kHz avoids crackling artifacts
+RATE      = 75           # 50% of original 145wpm — slow, clear N5 pace
+SAY_TIMEOUT = 60         # slower rate → longer audio → more time needed
+SAMPLE_RATE = 44100
 CHANNELS    = 1
 SAMPWIDTH   = 2
 
 PROJECT = Path(__file__).parent.parent
-TMPDIR  = Path("/tmp/n5_gen3")
+TMPDIR  = Path("/tmp/n5_gen4")
 OUT_M4A = PROJECT / "public/exams/n5/audio/listening.m4a"
 OUT_TS  = Path(__file__).parent / "_n5_timestamps.json"
 
 # Pause durations (ms) encoded inside say text with [[slnc N]]
-P_BREATH = 500    # between dialogue lines (was 350)
-P_Q      = 800    # before question text (was 600)
+P_BREATH = 600    # between dialogue lines
+P_Q      = 1000   # before question text
 P_ANS    = 5000   # after question / options (answer time)
-P_SECT   = 2500   # at end of section intro (was 2000)
+P_SECT   = 3000   # at end of section intro
 
 # ── Helpers ──────────────────────────────────────────────────────────────
+
+def jp_pause(text: str) -> str:
+    """Inject [[slnc N]] after Japanese punctuation for natural reading rhythm.
+
+    macOS `say` does not automatically pause at 。or 、— without these markers
+    the reading sounds rushed with no sentence breaks. Applied automatically
+    in say_to_wav so callers don't need to think about it.
+    """
+    text = text.replace("、", "、[[slnc 380]]")
+    text = text.replace("。", "。[[slnc 480]]")
+    text = text.replace("？", "？[[slnc 480]]")
+    text = text.replace("！", "！[[slnc 480]]")
+    return text
 
 def say_to_wav(text: str, name: str) -> Path:
     """Generate speech as a standard PCM WAV file at SAMPLE_RATE.
 
-    Pipeline: say → AIFF (raw say output) → afconvert → WAV (LEI16 PCM)
-    Using WAV avoids the Python aifc module which produces AIFF-C format and
-    causes crackling when segment bytes are directly concatenated.
+    Pipeline: say → AIFF → afconvert → WAV (LEI16 PCM)
+    jp_pause() is applied here so punctuation pauses are always present.
+    WAV avoids AIFF-C segment boundary artifacts from the aifc module.
     """
     raw_aiff = TMPDIR / f"{name}_raw.aiff"
     out_wav  = TMPDIR / f"{name}.wav"
     proc = subprocess.Popen(
-        ["say", "-v", VOICE, "-r", str(RATE), "-o", str(raw_aiff), text],
+        ["say", "-v", VOICE, "-r", str(RATE), "-o", str(raw_aiff), jp_pause(text)],
         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
     )
     try:
