@@ -1226,7 +1226,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                                         <span className={styles.reviewRadio} data-correct={isCor || undefined} data-wrong={isWrong || undefined} />
                                                                                         <span className={styles.qOptText}>{num}</span>
                                                                                         {isCor   && <span className={styles.reviewOptMark} data-correct>✓</span>}
-                                                                                        {isWrong && <span className={styles.reviewOptMark} data-wrong>✗ bạn chọn</span>}
+                                                                                        {isWrong && <span className={styles.reviewOptMark} data-wrong>✗</span>}
                                                                                     </div>
                                                                                 )
                                                                             })}
@@ -1245,7 +1245,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                                     <span className={styles.qOptNum}>{oi + 1}</span>
                                                                                     <span className={styles.qOptText}>{opt}</span>
                                                                                     {isCor   && <span className={styles.reviewOptMark} data-correct>✓</span>}
-                                                                                    {isWrong && <span className={styles.reviewOptMark} data-wrong>✗ bạn chọn</span>}
+                                                                                    {isWrong && <span className={styles.reviewOptMark} data-wrong>✗</span>}
                                                                                 </div>
                                                                             )
                                                                         })}

@@ -1620,6 +1620,29 @@
     border-color: var(--color-border);
     box-shadow: none;
 }
+.qItem[data-readonly] .qOption {
+    cursor: default;
+}
+.qItem[data-readonly] .qOption:hover {
+    border-color: var(--color-border);
+    background: var(--color-bg);
+}
+.qItem[data-readonly] .qOption[data-review-correct]:hover {
+    border-color: #16a34a;
+    background: #f0fdf4;
+}
+.qItem[data-readonly] .qOption[data-review-wrong]:hover {
+    border-color: #ef4444;
+    background: #fef2f2;
+}
+@media (prefers-color-scheme: dark) {
+    .qItem[data-readonly] .qOption[data-review-correct]:hover { background: rgba(22,163,74,0.1); }
+    .qItem[data-readonly] .qOption[data-review-wrong]:hover   { background: rgba(239,68,68,0.1); }
+}
+:root[data-theme="dark"]  .qItem[data-readonly] .qOption[data-review-correct]:hover { background: rgba(22,163,74,0.1); }
+:root[data-theme="dark"]  .qItem[data-readonly] .qOption[data-review-wrong]:hover   { background: rgba(239,68,68,0.1); }
+:root[data-theme="light"] .qItem[data-readonly] .qOption[data-review-correct]:hover { background: #f0fdf4; }
+:root[data-theme="light"] .qItem[data-readonly] .qOption[data-review-wrong]:hover   { background: #fef2f2; }
 
 /* review option states */
 .qOption[data-review-correct] {
