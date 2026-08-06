@@ -111,7 +111,7 @@ const EXAM: Record<string, {
         subtitle: "2021年12月",
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
-        listeningAudio: "/exams/n5-2021/audio/listening.mp3",
+        listeningAudio: "/exams/n5-2021/audio/listening.m4a",
         infoRows: [
             { title: "文字・語彙", count: 21 },
             { title: "文法・読解", count: 22 },
@@ -421,6 +421,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const [audioDuration, setAudioDuration] = useState(0)
     const [showReview,      setShowReview]      = useState(false)
     const [reviewPlayingGi, setReviewPlayingGi] = useState<number | null>(null)
+    const reviewPlayingGiRef = useRef<number | null>(null)
 
     const startAudio = useCallback(() => {
         audioRef.current?.play()
@@ -519,6 +520,12 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     }, [timeLeft, phase])
 
     useEffect(() => () => stopTimer(), [stopTimer])
+
+    // Force-load review audio so seeks are accurate on first click
+    useEffect(() => {
+        if (!showReview || !cfg.listeningAudio) return
+        audioRef.current?.load()
+    }, [showReview, cfg.listeningAudio])
 
     // Block copy, screenshot, right-click during exam
     useEffect(() => {
@@ -1112,15 +1119,23 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     if (showReview) {
         const handleReviewPlay = (gi: number, q: Question) => {
-            if (!audioRef.current || !cfg.listeningAudio) return
-            if (reviewPlayingGi === gi) {
-                audioRef.current.pause()
+            const el = audioRef.current
+            if (!el || !cfg.listeningAudio) return
+            if (reviewPlayingGiRef.current === gi) {
+                el.pause()
+                reviewPlayingGiRef.current = null
                 setReviewPlayingGi(null)
                 return
             }
-            audioRef.current.currentTime = q.audioStart ?? 0
-            audioRef.current.play()
+            el.pause()
+            reviewPlayingGiRef.current = gi
             setReviewPlayingGi(gi)
+            const start = q.audioStart ?? 0
+            // Register listener BEFORE setting currentTime — seeked can fire immediately
+            el.addEventListener('seeked', () => {
+                if (reviewPlayingGiRef.current === gi) el.play().catch(() => {})
+            }, { once: true })
+            el.currentTime = start
         }
 
         return (
@@ -1129,6 +1144,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                 <div className={styles.examTopBar}>
                     <button className={styles.examExitBtn} onClick={() => {
                         audioRef.current?.pause()
+                        reviewPlayingGiRef.current = null
                         setReviewPlayingGi(null)
                         setShowReview(false)
                     }}>
@@ -1150,15 +1166,23 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                             <audio
                                 ref={audioRef}
                                 src={cfg.listeningAudio}
+                                preload="auto"
                                 onTimeUpdate={() => {
-                                    if (reviewPlayingGi === null || !audioRef.current) return
-                                    const pq = questions[reviewPlayingGi]
-                                    if (pq?.audioEnd !== undefined && audioRef.current.currentTime >= pq.audioEnd) {
-                                        audioRef.current.pause()
+                                    const gi = reviewPlayingGiRef.current
+                                    if (gi === null || !audioRef.current) return
+                                    const pq = questions[gi]
+                                    const el = audioRef.current
+                                    if (pq?.audioStart !== undefined && el.currentTime < pq.audioStart) {
+                                        el.currentTime = pq.audioStart
+                                        return
+                                    }
+                                    if (pq?.audioEnd !== undefined && el.currentTime >= pq.audioEnd) {
+                                        el.pause()
+                                        reviewPlayingGiRef.current = null
                                         setReviewPlayingGi(null)
                                     }
                                 }}
-                                onEnded={() => setReviewPlayingGi(null)}
+                                onEnded={() => { reviewPlayingGiRef.current = null; setReviewPlayingGi(null) }}
                             />
                         )}
                         {cfg.sections.map(sec => {
