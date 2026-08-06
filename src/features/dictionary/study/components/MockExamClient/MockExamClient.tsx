@@ -6,7 +6,7 @@ import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play, Pause } from "lucide-react"
 import styles from "./MockExamClient.module.css"
-import { N5_QUESTIONS, N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
+import { N5_QUESTIONS_WITH_LISTENING, N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_QUESTIONS, N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
 
 // ── Types ──────────────────────────────────────────────────────────────
@@ -66,13 +66,14 @@ const EXAM: Record<string, {
     sections: Section[]
 }> = {
     N5: {
-        duration: 90 * 60,  // 20 + 40 min tested + 30 min 聴解
+        duration: 90 * 60,  // 20 + 40 min language + 30 min 聴解
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
+        listeningAudio: "/exams/n5/audio/listening.m4a",
         infoRows: [
             { title: "文字・語彙", count: N5_EXAM_COUNTS.vocab },
             { title: "文法・読解", count: N5_EXAM_COUNTS.grammar },
-            { title: "聴解",       count: 24, skipped: true },
+            { title: "聴解",       count: N5_EXAM_COUNTS.listening },
         ],
         sections: [
             {
@@ -98,10 +99,10 @@ const EXAM: Record<string, {
             {
                 id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 30,
                 groups: [
-                    { id: "lq1", label: "問題1", sublabel: "もんだいでは、はじめに　しつもんを　きいて　ください。　それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 7, skipped: true },
-                    { id: "lq2", label: "問題2", sublabel: "もんだい２では、まず しつもんを きいて ください。それから はなしを きいて、もんだいようしの １から４の なかから、いちばん いいものを ひとつ えらんで ください。", type: "grammar_blank", count: 6, skipped: true },
-                    { id: "lq3", label: "問題3", sublabel: "１から３の　ながから、いちばん　いい　ものを　ひとつ　えらんでください。", type: "grammar_blank", count: 5, skipped: true },
-                    { id: "lq4", label: "問題4", sublabel: "もんだい は、えなどが　ありません。ふんを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 6, skipped: true },
+                    { id: "lq1", label: "問題1", sublabel: "もんだい１では、はじめに　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic",  count: 7 },
+                    { id: "lq2", label: "問題2", sublabel: "もんだい２では、まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic",  count: 6 },
+                    { id: "lq3", label: "問題3", sublabel: "もんだい３では、えを　みながら　しつもんを　きいて　ください。やじるし（→）のひとは　なんと　いいますか。１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_scene", count: 5 },
+                    { id: "lq4", label: "問題4", sublabel: "もんだい４では、えなどが　ありません。まず　ぶんを　きいて　ください。それから、その　へんじを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_text",  count: 6 },
                 ],
             },
         ],
@@ -445,12 +446,13 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const load = useCallback((mounted: { v: boolean }) => {
         if (examKey === "N5") {
             if (!mounted.v) return
-            const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
-            questionRefs.current = new Array(N5_QUESTIONS.length).fill(null)
-            setQuestions(N5_QUESTIONS as Question[])
-            setAnswers(new Array(N5_QUESTIONS.length).fill(null))
+            // Start with language timer (vocab + grammar); listening gets its own 30-min timer
+            const languageMin = cfg.sections.filter(s => s.id !== "listening").reduce((acc, s) => acc + s.allocMin, 0)
+            questionRefs.current = new Array(N5_QUESTIONS_WITH_LISTENING.length).fill(null)
+            setQuestions(N5_QUESTIONS_WITH_LISTENING as Question[])
+            setAnswers(new Array(N5_QUESTIONS_WITH_LISTENING.length).fill(null))
             setIdx(0)
-            startTimer(totalMin)
+            startTimer(languageMin)
             setPhase("question")
             return
         }
