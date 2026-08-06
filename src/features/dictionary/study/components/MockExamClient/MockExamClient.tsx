@@ -417,6 +417,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const [audioEnded,    setAudioEnded]    = useState(false)
     const [audioTime,     setAudioTime]     = useState(0)
     const [audioDuration, setAudioDuration] = useState(0)
+    const [showReview,    setShowReview]    = useState(false)
 
     const startAudio = useCallback(() => {
         audioRef.current?.play()
@@ -545,6 +546,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         setAudioTime(0)
         setAudioDuration(0)
         setLanguageTimeTaken(0)
+        setShowReview(false)
         setTimeTaken(0)
         const mounted = { v: true }
         setPhase("loading")
@@ -1082,7 +1084,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         )
     }
 
-    // ── Render: summary ───────────────────────────────────────────────
+    // ── Render: summary + review ──────────────────────────────────────
 
     const { vocabCorrect, grammarCorrect, listeningCorrect,
             vocabQs, grammarQs, listeningQs,
@@ -1090,7 +1092,6 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             vocabPassed, grammarPassed, listeningPassed,
             passed, totalCorrect, totalQ, groupResults } = getResults()
 
-    // maxScore = 60 per section actually tested (questions present in the loaded set)
     const maxScore = (vocabQs.length > 0 ? 60 : 0) + (grammarQs.length > 0 ? 60 : 0) + (listeningQs.length > 0 ? 60 : 0)
     const scoreLabel = listeningQs.length > 0 && vocabQs.length > 0
         ? "Tổng điểm"
@@ -1099,13 +1100,184 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         : "Điểm từ vựng + ngữ pháp"
     const totalTimeTaken = languageTimeTaken + timeTaken
 
-    const wrongBySection: Record<string, { q: Question; ans: number | null; i: number }[]> = {}
-    questions.forEach((q, i) => {
-        if (answers[i] !== q.correctIndex) {
-            wrongBySection[q.sectionId] ??= []
-            wrongBySection[q.sectionId].push({ q, ans: answers[i], i })
-        }
-    })
+    // ── Review: full exam read-only with answer highlighting ────────────
+
+    if (showReview) {
+        return (
+            <div className={styles.reviewPage}>
+                <div className={styles.reviewTopBar}>
+                    <button className={styles.examExitBtn} onClick={() => setShowReview(false)}>
+                        <ArrowLeft size={14} /> Quay lại kết quả
+                    </button>
+                    <span className={styles.reviewTopTitle}>
+                        JLPT {level}{cfg.subtitle ? ` · ${cfg.subtitle}` : ""} — Đáp án
+                    </span>
+                    <div className={styles.reviewTopSpacer} />
+                </div>
+
+                <div className={styles.reviewBody}>
+                    {cfg.sections.map(sec => {
+                        const secQsWithIdx = questions
+                            .map((q, gi) => ({ q, gi }))
+                            .filter(({ q }) => q.sectionId === sec.id)
+                        if (secQsWithIdx.length === 0) return null
+
+                        let secOffset = 0
+                        return (
+                            <div key={sec.id} className={styles.qSectionBlock}>
+                                <div className={styles.qSectionHeader}>
+                                    <span className={styles.qSectionTitle}>{sec.title}</span>
+                                    <span className={styles.qSectionCount}>{secQsWithIdx.length} câu</span>
+                                </div>
+
+                                {sec.groups.map(grp => {
+                                    const grpQs = secQsWithIdx.filter(({ q }) => q.groupId === grp.id)
+                                    if (grpQs.length === 0) return null
+                                    const grpOffset = secOffset
+                                    secOffset += grpQs.length
+
+                                    return (
+                                        <div key={grp.id} className={styles.qGroupBlock}>
+                                            <div className={styles.qGroupHeader}>
+                                                <span className={styles.qGroupLabel}>{grp.label}</span>
+                                                <span className={styles.qGroupSub}>{grp.sublabel}</span>
+                                            </div>
+
+                                            {grpQs.map(({ q, gi }, pos) => {
+                                                const ans = answers[gi]
+                                                const isCorrect = ans === q.correctIndex
+                                                const isSkipped = ans === null
+                                                const isKanjiType = q.type === "kanji_reading" || q.type === "kanji_writing"
+                                                const prevContext = pos > 0 ? grpQs[pos - 1].q.context : undefined
+                                                const showContext = q.context != null && q.context !== prevContext
+
+                                                return (
+                                                    <React.Fragment key={gi}>
+                                                        {showContext && (
+                                                            <div className={styles.qContext} dangerouslySetInnerHTML={{ __html: q.context! }} />
+                                                        )}
+                                                        <div className={styles.qItem} data-readonly>
+                                                            <div className={styles.qItemHead}>
+                                                                <span className={styles.qNum}>{grpOffset + pos + 1}</span>
+                                                                <div className={styles.qWordInline}>
+                                                                    {(q.type === "listening_pic" || q.type === "listening_text" || q.type === "listening_scene") ? (
+                                                                        <span className={styles.qListenLabel}>{q.display}</span>
+                                                                    ) : (q.type === "kanji_reading" || q.type === "kanji_writing") ? (
+                                                                        <p className={styles.qSentence}>
+                                                                            {q.sentence ? parseSentence(q.sentence) : q.display}
+                                                                        </p>
+                                                                    ) : q.type === "context_vocab" ? (
+                                                                        q.sentence ? (
+                                                                            <p className={styles.qSentence}>{parseSentence(q.sentence)}</p>
+                                                                        ) : (
+                                                                            <>
+                                                                                <span className={styles.qVocabWord}>{q.display}</span>
+                                                                                {q.reading && <span className={styles.qVocabReading}>{q.reading}</span>}
+                                                                            </>
+                                                                        )
+                                                                    ) : (
+                                                                        q.sentence ? (
+                                                                            <p className={styles.qSentence}>{parseSentence(q.sentence)}</p>
+                                                                        ) : (
+                                                                            <span className={styles.qGrammarWord}>{q.display}</span>
+                                                                        )
+                                                                    )}
+                                                                </div>
+                                                                <span
+                                                                    className={styles.reviewResultTag}
+                                                                    data-correct={isSkipped ? undefined : String(isCorrect)}
+                                                                    data-skipped={isSkipped || undefined}
+                                                                >
+                                                                    {isSkipped ? "Bỏ trống" : isCorrect ? "✓ Đúng" : "✗ Sai"}
+                                                                </span>
+                                                            </div>
+
+                                                            {q.type === "listening_scene" && q.imageSrc && (
+                                                                <div className={styles.qPicThumb}>
+                                                                    <Image
+                                                                        src={q.imageSrc}
+                                                                        alt={`Hình câu ${q.display}`}
+                                                                        width={800}
+                                                                        height={600}
+                                                                        className={styles.qPic4ImgFull}
+                                                                    />
+                                                                </div>
+                                                            )}
+
+                                                            {q.type === "listening_pic" ? (
+                                                                <>
+                                                                    {q.imageSrc && (
+                                                                        <div className={styles.qPicThumb}>
+                                                                            <Image
+                                                                                src={q.imageSrc}
+                                                                                alt={`Hình câu ${q.display}`}
+                                                                                width={800}
+                                                                                height={600}
+                                                                                className={styles.qPic4ImgFull}
+                                                                            />
+                                                                        </div>
+                                                                    )}
+                                                                    <div className={styles.qOptions}>
+                                                                        {[1,2,3,4].map((num, oi) => {
+                                                                            const isCor  = oi === q.correctIndex
+                                                                            const isWrong = ans !== null && ans !== q.correctIndex && oi === ans
+                                                                            return (
+                                                                                <div key={oi} className={styles.qOption}
+                                                                                    data-review-correct={isCor || undefined}
+                                                                                    data-review-wrong={isWrong || undefined}>
+                                                                                    <span className={styles.reviewRadio}
+                                                                                        data-correct={isCor || undefined}
+                                                                                        data-wrong={isWrong || undefined} />
+                                                                                    <span className={styles.qOptText}>{num}</span>
+                                                                                    {isCor  && <span className={styles.reviewOptMark} data-correct>✓</span>}
+                                                                                    {isWrong && <span className={styles.reviewOptMark} data-wrong>✗ bạn chọn</span>}
+                                                                                </div>
+                                                                            )
+                                                                        })}
+                                                                    </div>
+                                                                </>
+                                                            ) : (
+                                                                <div className={styles.qOptions} data-grid={isKanjiType || undefined}>
+                                                                    {q.options.map((opt, oi) => {
+                                                                        const isCor   = oi === q.correctIndex
+                                                                        const isWrong = ans !== null && ans !== q.correctIndex && oi === ans
+                                                                        return (
+                                                                            <div key={oi} className={styles.qOption}
+                                                                                data-review-correct={isCor || undefined}
+                                                                                data-review-wrong={isWrong || undefined}>
+                                                                                <span className={styles.reviewRadio}
+                                                                                    data-correct={isCor || undefined}
+                                                                                    data-wrong={isWrong || undefined} />
+                                                                                <span className={styles.qOptNum}>{oi + 1}</span>
+                                                                                <span className={styles.qOptText}>{opt}</span>
+                                                                                {isCor   && <span className={styles.reviewOptMark} data-correct>✓</span>}
+                                                                                {isWrong && <span className={styles.reviewOptMark} data-wrong>✗ bạn chọn</span>}
+                                                                            </div>
+                                                                        )
+                                                                    })}
+                                                                </div>
+                                                            )}
+
+                                                            {q.explanation && (
+                                                                <p className={styles.reviewExplanation}>{q.explanation}</p>
+                                                            )}
+                                                        </div>
+                                                    </React.Fragment>
+                                                )
+                                            })}
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                        )
+                    })}
+                    <div style={{ height: 40 }} />
+                </div>
+            </div>
+        )
+    }
+
+    // ── Summary ──────────────────────────────────────────────────────────
 
     return (
         <div className={styles.summary}>
@@ -1190,7 +1362,10 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                     <button className={styles.btnPrimary} onClick={() => setPhase("info")}>
                         <RotateCcw size={14} /> Thi lại
                     </button>
-                    <Link href="/study?tab=thi-thu" className={styles.btnOutline}>Chọn đề khác</Link>
+                    <button className={styles.btnReview} onClick={() => setShowReview(true)}>
+                        Xem đáp án
+                    </button>
+                    <Link href="/study?tab=thi-thu" className={styles.btnOutline}>Đề khác</Link>
                 </div>
             </div>
 
@@ -1211,70 +1386,6 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                     </div>
                 ))}
             </div>
-
-            {/* Wrong items (language sections only; listening has its own review below) */}
-            {cfg.sections
-                .filter(sec => !(sec.id === "listening" && cfg.listeningAudio))
-                .map(sec => {
-                    const wrongs = wrongBySection[sec.id] ?? []
-                    if (wrongs.length === 0) return null
-                    return (
-                        <div key={sec.id} className={styles.wrongSection}>
-                            <p className={styles.wrongTitle}>{sec.titleVi} — Câu sai ({wrongs.length})</p>
-                            {wrongs.map(({ q, ans, i }) => (
-                                <div key={i} className={styles.wrongItem}>
-                                    <div className={styles.wrongItemRow}>
-                                        <div className={styles.wrongQ}>
-                                            <span className={styles.wrongDisplay}>{q.display}</span>
-                                            {q.reading && <span className={styles.wrongReading}>{q.reading}</span>}
-                                        </div>
-                                        <div className={styles.wrongAnswers}>
-                                            <span className={styles.wrongCorrect}>✓ {q.options[q.correctIndex]}</span>
-                                            {ans !== null && <span className={styles.wrongWrong}>✗ {q.options[ans]}</span>}
-                                        </div>
-                                    </div>
-                                    {q.explanation && (
-                                        <p className={styles.wrongExplanation}>{q.explanation}</p>
-                                    )}
-                                </div>
-                            ))}
-                        </div>
-                    )
-                })}
-
-            {/* Listening review — all questions, correct + wrong, with explanations */}
-            {listeningQs.length > 0 && cfg.listeningAudio && (
-                <div className={styles.listeningReview}>
-                    <p className={styles.listeningReviewTitle}>聴解 — Xem lại toàn bộ câu hỏi</p>
-                    {listeningQs.map(q => {
-                        const gi = questions.indexOf(q)
-                        const userAns = answers[gi]
-                        const isCorrect = userAns === q.correctIndex
-                        return (
-                            <div key={gi} className={styles.listeningReviewItem}>
-                                <div className={styles.listeningReviewHeader}>
-                                    <span className={styles.listeningReviewDisplay}>{q.display}</span>
-                                    <span className={styles.listeningReviewResult} data-correct={String(isCorrect)}>
-                                        {isCorrect ? "✓ Đúng" : "✗ Sai"}
-                                    </span>
-                                </div>
-                                <div className={styles.listeningReviewAnswers}>
-                                    <span className={styles.wrongCorrect}>Đáp án đúng: {q.options[q.correctIndex]}</span>
-                                    {!isCorrect && userAns !== null && (
-                                        <span className={styles.wrongWrong}>Bạn chọn: {q.options[userAns]}</span>
-                                    )}
-                                    {userAns === null && (
-                                        <span className={styles.listeningReviewSkipped}>Chưa trả lời</span>
-                                    )}
-                                </div>
-                                {q.explanation && (
-                                    <p className={styles.wrongExplanation}>{q.explanation}</p>
-                                )}
-                            </div>
-                        )
-                    })}
-                </div>
-            )}
         </div>
     )
 }
