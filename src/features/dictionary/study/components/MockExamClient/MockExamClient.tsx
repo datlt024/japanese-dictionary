@@ -1090,7 +1090,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             vocabQs, grammarQs, listeningQs,
             vocabScore, grammarScore, listeningScore, total,
             vocabPassed, grammarPassed, listeningPassed,
-            passed, totalCorrect, totalQ, groupResults } = getResults()
+            passed, totalCorrect, totalQ } = getResults()
 
     const maxScore = (vocabQs.length > 0 ? 60 : 0) + (grammarQs.length > 0 ? 60 : 0) + (listeningQs.length > 0 ? 60 : 0)
     const scoreLabel = listeningQs.length > 0 && vocabQs.length > 0
