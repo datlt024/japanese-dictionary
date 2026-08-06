@@ -1583,20 +1583,36 @@
     border-color: #16a34a;
     color: #16a34a;
 }
+.navBtn[data-nav-correct]:hover {
+    background: #dcfce7;
+    border-color: #15803d;
+    color: #15803d;
+}
 .navBtn[data-nav-wrong] {
     background: #fef2f2;
     border-color: #ef4444;
     color: #ef4444;
 }
+.navBtn[data-nav-wrong]:hover {
+    background: #fee2e2;
+    border-color: #dc2626;
+    color: #dc2626;
+}
 
 @media (prefers-color-scheme: dark) {
-    .navBtn[data-nav-correct] { background: rgba(22,163,74,0.12); }
-    .navBtn[data-nav-wrong]   { background: rgba(239,68,68,0.12); }
+    .navBtn[data-nav-correct]       { background: rgba(22,163,74,0.12); }
+    .navBtn[data-nav-correct]:hover { background: rgba(22,163,74,0.22); }
+    .navBtn[data-nav-wrong]         { background: rgba(239,68,68,0.12); }
+    .navBtn[data-nav-wrong]:hover   { background: rgba(239,68,68,0.22); }
 }
-:root[data-theme="dark"]  .navBtn[data-nav-correct] { background: rgba(22,163,74,0.12); }
-:root[data-theme="dark"]  .navBtn[data-nav-wrong]   { background: rgba(239,68,68,0.12); }
-:root[data-theme="light"] .navBtn[data-nav-correct] { background: #f0fdf4; }
-:root[data-theme="light"] .navBtn[data-nav-wrong]   { background: #fef2f2; }
+:root[data-theme="dark"]  .navBtn[data-nav-correct]       { background: rgba(22,163,74,0.12); }
+:root[data-theme="dark"]  .navBtn[data-nav-correct]:hover { background: rgba(22,163,74,0.22); }
+:root[data-theme="dark"]  .navBtn[data-nav-wrong]         { background: rgba(239,68,68,0.12); }
+:root[data-theme="dark"]  .navBtn[data-nav-wrong]:hover   { background: rgba(239,68,68,0.22); }
+:root[data-theme="light"] .navBtn[data-nav-correct]       { background: #f0fdf4; }
+:root[data-theme="light"] .navBtn[data-nav-correct]:hover { background: #dcfce7; }
+:root[data-theme="light"] .navBtn[data-nav-wrong]         { background: #fef2f2; }
+:root[data-theme="light"] .navBtn[data-nav-wrong]:hover   { background: #fee2e2; }
 
 .reviewNavLegend {
     display: flex;
