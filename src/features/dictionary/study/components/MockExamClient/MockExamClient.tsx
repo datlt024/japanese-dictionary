@@ -419,9 +419,10 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const [audioEnded,    setAudioEnded]    = useState(false)
     const [audioTime,     setAudioTime]     = useState(0)
     const [audioDuration, setAudioDuration] = useState(0)
-    const [showReview,      setShowReview]      = useState(false)
-    const [reviewPlayingGi, setReviewPlayingGi] = useState<number | null>(null)
-    const [reviewIsPaused,  setReviewIsPaused]  = useState(false)
+    const [showReview,        setShowReview]        = useState(false)
+    const [reviewPlayingGi,   setReviewPlayingGi]   = useState<number | null>(null)
+    const [reviewIsPaused,    setReviewIsPaused]    = useState(false)
+    const [reviewCurrentTime, setReviewCurrentTime] = useState(0)
     const reviewPlayingGiRef = useRef<number | null>(null)
 
     const startAudio = useCallback(() => {
@@ -1184,6 +1185,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                     if (gi === null || !audioRef.current) return
                                     const pq = questions[gi]
                                     const el = audioRef.current
+                                    setReviewCurrentTime(el.currentTime)
                                     if (pq?.audioStart !== undefined && el.currentTime < pq.audioStart) {
                                         el.currentTime = pq.audioStart
                                         return
@@ -1193,6 +1195,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                         reviewPlayingGiRef.current = null
                                         setReviewPlayingGi(null)
                                         setReviewIsPaused(false)
+                                        setReviewCurrentTime(0)
                                     }
                                 }}
                                 onEnded={() => { reviewPlayingGiRef.current = null; setReviewPlayingGi(null); setReviewIsPaused(false) }}
@@ -1284,6 +1287,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                     <button
                                                                         className={styles.reviewPlayBtn}
                                                                         data-playing={reviewPlayingGi === gi && !reviewIsPaused || undefined}
+                                                                        style={{ '--progress': reviewPlayingGi === gi && (q.audioEnd - q.audioStart) > 0 ? `${Math.min(100, Math.max(0, (reviewCurrentTime - q.audioStart) / (q.audioEnd - q.audioStart) * 100))}%` : '0%' } as React.CSSProperties}
                                                                         onClick={() => handleReviewPlay(gi, q)}
                                                                     >
                                                                         {reviewPlayingGi === gi && !reviewIsPaused

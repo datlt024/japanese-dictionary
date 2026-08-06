@@ -1711,6 +1711,8 @@
 
 /* per-question audio replay button */
 .reviewPlayBtn {
+    position: relative;
+    overflow: hidden;
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -1723,8 +1725,17 @@
     font-weight: 700;
     font-family: inherit;
     cursor: pointer;
-    transition: background 0.12s, opacity 0.12s;
+    transition: opacity 0.12s;
     align-self: flex-start;
+}
+.reviewPlayBtn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: color-mix(in srgb, var(--color-primary) 18%, transparent);
+    width: var(--progress, 0%);
+    transition: width 0.25s linear;
+    pointer-events: none;
 }
 .reviewPlayBtn:hover {
     background: color-mix(in srgb, var(--color-primary) 14%, var(--color-surface));
