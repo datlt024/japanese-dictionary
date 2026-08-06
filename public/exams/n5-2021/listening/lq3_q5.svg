@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 530">
+  <rect width="640" height="530" fill="#f8f5f0"/>
+
+  <!-- Floor -->
+  <line x1="0" y1="488" x2="640" y2="488" stroke="#888" stroke-width="2.5"/>
+
+  <!-- TABLE -->
+  <!-- Table top -->
+  <rect x="155" y="318" width="360" height="20" rx="4" fill="#c8951e" stroke="#a07815" stroke-width="2"/>
+  <!-- Table front face -->
+  <rect x="155" y="338" width="360" height="130" fill="#d4a826" stroke="#a07815" stroke-width="1.5"/>
+  <!-- Table legs -->
+  <rect x="168" y="468" width="18" height="22" fill="#b07810"/>
+  <rect x="484" y="468" width="18" height="22" fill="#b07810"/>
+
+  <!-- Food on table -->
+  <!-- Large bowl -->
+  <ellipse cx="338" cy="316" rx="62" ry="19" fill="#f0d878" stroke="#888" stroke-width="1.5"/>
+  <path d="M276 316 Q276 360 338 368 Q400 360 400 316 Z" fill="#f0d878" stroke="#888" stroke-width="1.5"/>
+  <!-- Broth / food inside -->
+  <ellipse cx="338" cy="316" rx="54" ry="14" fill="#d48a60"/>
+  <!-- Noodles -->
+  <path d="M308 312 Q319 306 330 312 Q341 318 352 312 Q363 306 374 312" fill="none" stroke="#b87040" stroke-width="1.5"/>
+  <path d="M304 320 Q316 314 328 320 Q340 326 352 320 Q364 314 374 320" fill="none" stroke="#b07838" stroke-width="1.2"/>
+  <!-- Chopsticks -->
+  <line x1="310" y1="348" x2="288" y2="300" stroke="#9a6030" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="318" y1="348" x2="296" y2="300" stroke="#9a6030" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Glass of water (left of bowl) -->
+  <rect x="224" y="286" width="33" height="38" rx="4" fill="#a8d8f8" stroke="#88b8d8" stroke-width="1.5" opacity="0.75"/>
+  <rect x="224" y="322" width="33" height="6" rx="2" fill="#78a8c8" opacity="0.8"/>
+
+  <!-- Condiment tray (right/back) -->
+  <rect x="386" y="298" width="62" height="26" rx="4" fill="#e8e4d8" stroke="#aaa" stroke-width="1.5"/>
+  <rect x="394" y="278" width="14" height="24" rx="5" fill="#ddd" stroke="#aaa" stroke-width="1.2"/>
+  <rect x="414" y="278" width="14" height="24" rx="5" fill="#ddd" stroke="#aaa" stroke-width="1.2"/>
+  <rect x="430" y="280" width="12" height="22" rx="5" fill="#ddd" stroke="#aaa" stroke-width="1.2"/>
+
+  <!-- SERVER / STAFF (left) -->
+  <!-- Head covering -->
+  <path d="M78 116 Q78 82 118 77 Q158 82 158 116 L155 130 Q118 118 81 130 Z" fill="#f4f2ec" stroke="#ccc" stroke-width="1.5"/>
+  <!-- Head -->
+  <ellipse cx="118" cy="150" rx="38" ry="42" fill="#f5d4a0" stroke="#ccc" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <ellipse cx="106" cy="147" rx="5" ry="6" fill="#333"/>
+  <ellipse cx="130" cy="147" rx="5" ry="6" fill="#333"/>
+  <!-- Eyebrows -->
+  <line x1="98" y1="134" x2="114" y2="132" stroke="#555" stroke-width="1.8"/>
+  <line x1="122" y1="132" x2="138" y2="134" stroke="#555" stroke-width="1.8"/>
+  <!-- Smile -->
+  <path d="M106 165 Q118 175 130 165" fill="none" stroke="#c07060" stroke-width="1.5"/>
+  <!-- Neck -->
+  <rect x="104" y="186" width="28" height="22" fill="#f5d4a0"/>
+  <!-- Body with apron -->
+  <path d="M72 336 L72 208 Q72 200 80 200 L156 200 Q164 200 164 208 L164 336 Z" fill="#d8d8d8" stroke="#bbb" stroke-width="1.5"/>
+  <!-- Apron -->
+  <path d="M86 202 L86 322 L150 322 L150 202 Z" fill="#f4f4ee" stroke="#ccc" stroke-width="1.2" opacity="0.9"/>
+  <!-- Apron waist band -->
+  <rect x="72" y="262" width="92" height="8" rx="2" fill="#e0dcd4" stroke="#bbb" stroke-width="1"/>
+  <!-- Apron bow/tie at side -->
+  <path d="M164 265 L188 256 L180 268 L196 262" fill="none" stroke="#ccc" stroke-width="2" stroke-linecap="round"/>
+  <!-- Arms (hands in front, holding order pad) -->
+  <path d="M72 238 L72 268 Q72 280 118 282 Q164 278 164 268 L164 248 Q118 255 72 238 Z" fill="#d0d0d0" stroke="#bbb" stroke-width="1.5"/>
+  <ellipse cx="118" cy="284" rx="30" ry="12" fill="#f5d4a0" stroke="#ccc" stroke-width="1"/>
+  <!-- Legs -->
+  <rect x="82" y="334" width="38" height="120" rx="5" fill="#555" stroke="#444" stroke-width="1.5"/>
+  <rect x="124" y="334" width="38" height="120" rx="5" fill="#555" stroke="#444" stroke-width="1.5"/>
+  <!-- Shoes -->
+  <ellipse cx="101" cy="456" rx="23" ry="9" fill="#444" stroke="#333" stroke-width="1"/>
+  <ellipse cx="143" cy="456" rx="23" ry="9" fill="#444" stroke="#333" stroke-width="1"/>
+
+  <!-- CUSTOMER (right, seated) -->
+  <!-- Chair back -->
+  <rect x="468" y="218" width="108" height="11" rx="5" fill="#888" stroke="#666" stroke-width="1.5"/>
+  <rect x="480" y="229" width="11" height="162" fill="#888" stroke="#666" stroke-width="1"/>
+  <rect x="554" y="229" width="11" height="162" fill="#888" stroke="#666" stroke-width="1"/>
+  <!-- Chair seat -->
+  <rect x="458" y="360" width="132" height="15" rx="4" fill="#888" stroke="#666" stroke-width="1.5"/>
+  <rect x="462" y="374" width="11" height="116" fill="#888" stroke="#666" stroke-width="1"/>
+  <rect x="575" y="374" width="11" height="116" fill="#888" stroke="#666" stroke-width="1"/>
+
+  <!-- Customer head -->
+  <ellipse cx="524" cy="148" rx="40" ry="44" fill="#f5d4a0" stroke="#ccc" stroke-width="1.5"/>
+  <!-- Hair (short, dark) -->
+  <path d="M484 136 Q486 104 524 97 Q562 104 564 136 L562 148 Q524 132 486 148 Z" fill="#2c1d10"/>
+  <!-- Eyes -->
+  <ellipse cx="511" cy="145" rx="5.5" ry="6.5" fill="#2c1d10"/>
+  <ellipse cx="537" cy="145" rx="5.5" ry="6.5" fill="#2c1d10"/>
+  <!-- Eyebrows -->
+  <line x1="502" y1="131" x2="520" y2="129" stroke="#2c1d10" stroke-width="1.8"/>
+  <line x1="528" y1="129" x2="546" y2="131" stroke="#2c1d10" stroke-width="1.8"/>
+  <!-- Smile -->
+  <path d="M511 165 Q524 175 537 165" fill="none" stroke="#c07060" stroke-width="1.5"/>
+  <!-- Neck -->
+  <rect x="510" y="186" width="28" height="26" fill="#f5d4a0"/>
+  <!-- Body (hoodie) -->
+  <path d="M470 360 L470 210 Q470 202 478 202 L570 202 Q578 202 578 210 L578 360 Z" fill="#b4b4c4" stroke="#9090a0" stroke-width="1.5"/>
+  <!-- Hoodie details -->
+  <path d="M478 207 Q524 190 570 207" fill="none" stroke="#9090a0" stroke-width="1.5"/>
+  <rect x="512" y="238" width="24" height="70" rx="3" fill="none" stroke="#9090a0" stroke-width="1.2"/>
+  <!-- Right arm (on table) -->
+  <path d="M470 266 L428 306 L444 316 L482 278 Z" fill="#b4b4c4" stroke="#9090a0" stroke-width="1.5"/>
+  <ellipse cx="436" cy="316" rx="17" ry="11" fill="#f5d4a0" stroke="#ccc" stroke-width="1"/>
+  <!-- Left arm -->
+  <path d="M578 266 L618 306 L602 316 L566 278 Z" fill="#b4b4c4" stroke="#9090a0" stroke-width="1.5"/>
+  <!-- Legs (seated, going under table) -->
+  <rect x="480" y="358" width="36" height="82" rx="5" fill="#4a4a7a" stroke="#333" stroke-width="1.5"/>
+  <rect x="528" y="358" width="36" height="82" rx="5" fill="#4a4a7a" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Arrow ↓ pointing to customer (top right) -->
+  <polygon points="500,16 532,16 532,50 548,50 516,84 484,50 500,50" fill="#111"/>
+</svg>

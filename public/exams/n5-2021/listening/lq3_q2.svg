@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520">
+  <rect width="600" height="520" fill="#f8f5f0"/>
+
+  <!-- Floor -->
+  <line x1="0" y1="468" x2="600" y2="468" stroke="#888" stroke-width="2.5"/>
+
+  <!-- Room interior (right side) -->
+  <rect x="272" y="0" width="328" height="468" fill="#edeae2"/>
+
+  <!-- Door frame -->
+  <rect x="257" y="36" width="15" height="435" fill="#c8951e"/>
+  <rect x="257" y="36" width="205" height="13" fill="#c8951e"/>
+  <rect x="462" y="36" width="14" height="435" fill="#c8951e"/>
+
+  <!-- Open door panel (perspective) -->
+  <path d="M272 468 L272 49 L332 74 L332 468 Z" fill="#d4a826" stroke="#a07815" stroke-width="1.5"/>
+  <path d="M280 64 L280 155 L326 168 L326 78 Z" fill="none" stroke="#a07815" stroke-width="1"/>
+  <path d="M280 172 L280 375 L326 383 L326 180 Z" fill="none" stroke="#a07815" stroke-width="1"/>
+  <!-- Door knob -->
+  <circle cx="328" cy="290" r="8" fill="#bbb" stroke="#888" stroke-width="1.5"/>
+
+  <!-- INTERIOR: Desk -->
+  <rect x="368" y="316" width="218" height="17" rx="3" fill="#c8951e" stroke="#888" stroke-width="1.5"/>
+  <rect x="376" y="333" width="13" height="88" fill="#a87810"/>
+  <rect x="567" y="333" width="13" height="88" fill="#a87810"/>
+
+  <!-- INTERIOR: Teacher -->
+  <!-- Chair back -->
+  <rect x="442" y="242" width="82" height="7" rx="3" fill="#777"/>
+  <rect x="479" y="249" width="10" height="72" fill="#777"/>
+  <!-- Body (dark suit) -->
+  <path d="M432 322 L432 264 Q432 257 439 257 L519 257 Q526 257 526 264 L526 322 Z" fill="#54556a" stroke="#333" stroke-width="1.5"/>
+  <!-- Shirt / collar -->
+  <path d="M470 257 L470 278 L478 268 L481 257 Z" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <path d="M492 257 L492 278 L484 268 L481 257 Z" fill="#ddd" stroke="#bbb" stroke-width="1"/>
+  <!-- Tie -->
+  <path d="M480 268 L483 300 L481 307 L479 300 Z" fill="#cc2222"/>
+  <!-- Head -->
+  <ellipse cx="479" cy="219" rx="34" ry="38" fill="#f5d4a0" stroke="#ccc" stroke-width="1.5"/>
+  <!-- Hair (receding) -->
+  <path d="M445 205 Q479 186 513 205 L511 218 Q479 200 447 218 Z" fill="#333"/>
+  <!-- Glasses left -->
+  <circle cx="465" cy="218" r="12" fill="none" stroke="#555" stroke-width="2.2"/>
+  <!-- Glasses right -->
+  <circle cx="493" cy="218" r="12" fill="none" stroke="#555" stroke-width="2.2"/>
+  <line x1="477" y1="218" x2="481" y2="218" stroke="#555" stroke-width="2.2"/>
+  <line x1="453" y1="218" x2="447" y2="216" stroke="#555" stroke-width="2"/>
+  <line x1="505" y1="218" x2="511" y2="216" stroke="#555" stroke-width="2"/>
+  <circle cx="465" cy="219" r="4.5" fill="#333"/>
+  <circle cx="493" cy="219" r="4.5" fill="#333"/>
+  <!-- Eyebrows -->
+  <line x1="455" y1="204" x2="474" y2="202" stroke="#444" stroke-width="2"/>
+  <line x1="483" y1="202" x2="502" y2="204" stroke="#444" stroke-width="2"/>
+  <!-- Smile -->
+  <path d="M466 240 Q479 250 492 240" fill="none" stroke="#998" stroke-width="1.8"/>
+
+  <!-- STUDENT (left, standing at door) -->
+  <!-- Long hair -->
+  <path d="M133 94 Q128 54 178 46 Q228 46 223 94 L228 175 Q207 163 178 167 Q149 163 128 175 Z" fill="#2c1d10"/>
+  <!-- Head -->
+  <ellipse cx="178" cy="148" rx="44" ry="50" fill="#f5d4a0" stroke="#ccc" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <ellipse cx="164" cy="144" rx="5.5" ry="6.5" fill="#2c1d10"/>
+  <ellipse cx="192" cy="144" rx="5.5" ry="6.5" fill="#2c1d10"/>
+  <!-- Eyebrows -->
+  <line x1="155" y1="131" x2="173" y2="129" stroke="#2c1d10" stroke-width="1.8"/>
+  <line x1="183" y1="129" x2="201" y2="131" stroke="#2c1d10" stroke-width="1.8"/>
+  <!-- Smile -->
+  <path d="M165 165 Q178 175 191 165" fill="none" stroke="#c07060" stroke-width="1.5"/>
+  <!-- Neck -->
+  <rect x="163" y="192" width="30" height="25" fill="#f5d4a0"/>
+  <!-- Body (light shirt) -->
+  <path d="M126 350 L126 215 Q126 208 134 208 L222 208 Q230 208 230 215 L230 350 Z" fill="#f2f2ef" stroke="#ccc" stroke-width="1.5"/>
+  <!-- Left arm (hanging) -->
+  <path d="M126 235 L90 348 L110 355 L140 242 Z" fill="#f2f2ef" stroke="#ccc" stroke-width="1.5"/>
+  <ellipse cx="100" cy="361" rx="14" ry="12" fill="#f5d4a0" stroke="#ccc" stroke-width="1"/>
+  <!-- Right arm (reaching to door knob) -->
+  <path d="M230 248 Q292 270 322 287" stroke="#f2f2ef" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <path d="M230 248 Q292 270 322 287" stroke="#ccc" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="330" cy="290" rx="13" ry="12" fill="#f5d4a0" stroke="#ccc" stroke-width="1"/>
+  <!-- Pants -->
+  <rect x="134" y="348" width="44" height="122" rx="6" fill="#4a4a7a" stroke="#333" stroke-width="1.5"/>
+  <rect x="182" y="348" width="44" height="122" rx="6" fill="#4a4a7a" stroke="#333" stroke-width="1.5"/>
+  <!-- Shoes -->
+  <ellipse cx="156" cy="472" rx="24" ry="9" fill="#555" stroke="#444" stroke-width="1"/>
+  <ellipse cx="204" cy="472" rx="22" ry="9" fill="#555" stroke="#444" stroke-width="1"/>
+
+  <!-- Arrow ↓ pointing to student (top left) -->
+  <polygon points="152,16 184,16 184,50 200,50 168,84 136,50 152,50" fill="#111"/>
+</svg>
