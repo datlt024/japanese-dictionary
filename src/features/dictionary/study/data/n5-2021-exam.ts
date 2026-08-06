@@ -586,7 +586,7 @@ const _RAW: StaticQuestion[] = [
   {
     groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "4ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
-    imageSrc: "/exams/n5-2021/listening/lq2_q4.jpg",
+    imageSrc: "/exams/n5-2021/listening/lq2_q6.jpg",
     audioStart: 696, audioEnd: 747,
     explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]"
   },
@@ -604,7 +604,7 @@ const _RAW: StaticQuestion[] = [
   {
     groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "6ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
-    imageSrc: "/exams/n5-2021/listening/lq2_q6.jpg",
+    imageSrc: "/exams/n5-2021/listening/lq2_q4.jpg",
     audioStart: 818, audioEnd: 880,
     explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]"
   },
