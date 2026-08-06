@@ -494,7 +494,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 2,
     imageSrc: "/exams/n5-2021/listening/lq1_q1.png",
-    audioStart: 30, audioEnd: 68,
+    audioStart: 30, audioEnd: 76,
     explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -503,7 +503,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "2ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
     imageSrc: "/exams/n5-2021/listening/lq1_q2.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 86, audioEnd: 142,
     explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -512,7 +512,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "3ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
     imageSrc: "/exams/n5-2021/listening/lq1_q3.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 153, audioEnd: 204,
     explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -521,7 +521,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "4ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
     imageSrc: "/exams/n5-2021/listening/lq1_q4.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 216, audioEnd: 265,
     explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -530,7 +530,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq1", sectionId: "listening", type: "listening_text",
     display: "5ばん",
     options: ["101きょうしつ", "102きょうしつ", "201きょうしつ", "202きょうしつ"], correctIndex: 0,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 276, audioEnd: 330,
     explanation: "Đáp án: 101きょうしつ. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -539,7 +539,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq1", sectionId: "listening", type: "listening_text",
     display: "6ばん",
     options: ["あか", "きいろ", "あお", "くろ"], correctIndex: 1,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 342, audioEnd: 407,
     explanation: "Đáp án: きいろ (màu vàng). [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -549,7 +549,7 @@ const _RAW: StaticQuestion[] = [
     display: "7ばん",
     options: ["アイ", "アウ", "イウ", "アイウ"], correctIndex: 0,
     imageSrc: "/exams/n5-2021/listening/lq1_q7.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 419, audioEnd: 477,
     explanation: "Đáp án: アイ. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -560,7 +560,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 1,
     imageSrc: "/exams/n5-2021/listening/lq2_q1.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 515, audioEnd: 573,
     explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -569,7 +569,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "2ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
     imageSrc: "/exams/n5-2021/listening/lq2_q2.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 585, audioEnd: 629,
     explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -578,7 +578,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "3ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
     imageSrc: "/exams/n5-2021/listening/lq2_q3.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 640, audioEnd: 685,
     explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -587,7 +587,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "4ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
     imageSrc: "/exams/n5-2021/listening/lq2_q4.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 696, audioEnd: 747,
     explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -596,7 +596,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq2", sectionId: "listening", type: "listening_text",
     display: "5ばん",
     options: ["5がつ 28にち", "5がつ 29にち", "5がつ 30にち", "5がつ 31にち"], correctIndex: 2,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 758, audioEnd: 807,
     explanation: "Đáp án: 5がつ30にち (ngày 30 tháng 5). [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -605,7 +605,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "6ばん", options: ["1", "2", "3", "4"], correctIndex: 3,
     imageSrc: "/exams/n5-2021/listening/lq2_q6.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 818, audioEnd: 880,
     explanation: "Đáp án 4. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -615,35 +615,35 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "1ばん", options: ["1", "2", "3"], correctIndex: 0,
     imageSrc: "/exams/n5-2021/listening/lq3_q1.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 914, audioEnd: 944,
     explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "2ばん", options: ["1", "2", "3"], correctIndex: 1,
     imageSrc: "/exams/n5-2021/listening/lq3_q2.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 953, audioEnd: 976,
     explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "3ばん", options: ["1", "2", "3"], correctIndex: 1,
     imageSrc: "/exams/n5-2021/listening/lq3_q3.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 985, audioEnd: 1008,
     explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "4ばん", options: ["1", "2", "3"], correctIndex: 2,
     imageSrc: "/exams/n5-2021/listening/lq3_q4.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 1017, audioEnd: 1046,
     explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "5ばん", options: ["1", "2", "3"], correctIndex: 1,
     imageSrc: "/exams/n5-2021/listening/lq3_q5.jpg",
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 1055, audioEnd: 1081,
     explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]"
   },
 
@@ -652,37 +652,37 @@ const _RAW: StaticQuestion[] = [
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "1ばん", options: ["1", "2", "3"], correctIndex: 2,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 1365, audioEnd: 1385,
     explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "2ばん", options: ["1", "2", "3"], correctIndex: 1,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 1390, audioEnd: 1411,
     explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "3ばん", options: ["1", "2", "3"], correctIndex: 1,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 1416, audioEnd: 1439,
     explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "4ばん", options: ["1", "2", "3"], correctIndex: 2,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 1443, audioEnd: 1466,
     explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "5ばん", options: ["1", "2", "3"], correctIndex: 0,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 1474, audioEnd: 1499,
     explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]"
   },
   {
     groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "6ばん", options: ["1", "2", "3"], correctIndex: 2,
-    audioStart: undefined, audioEnd: undefined,
+    audioStart: 1506, audioEnd: 1534,
     explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]"
   },
 ]
