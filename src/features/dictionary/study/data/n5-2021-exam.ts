@@ -437,7 +437,7 @@ const _RAW: StaticQuestion[] = [
     { groupId: "lq1", sectionId: "listening", type: "listening_scene",
       display: "7ばん",
       options: ["アイ", "アウ", "イウ", "アイウ"], correctIndex: 0,
-      imageSrc: "/exams/n5-2021/listening/lq1_q7.svg",
+      imageSrc: "/exams/n5-2021/listening/lq1_q7.jpg",
       explanation: "Đáp án: アイ. [Điền giải thích nội dung audio tại đây]" },
 
     // ─── もんだい2 (lq2): 6問 — 質問を聞いて絵から答えを選ぶ ──────────────
@@ -486,7 +486,7 @@ const _RAW: StaticQuestion[] = [
       explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq3", sectionId: "listening", type: "listening_scene",
       display: "2ばん", options: ["1", "2", "3"], correctIndex: 1,
-      imageSrc: "/exams/n5-2021/listening/lq3_q2.svg",
+      imageSrc: "/exams/n5-2021/listening/lq3_q2.jpg",
       explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq3", sectionId: "listening", type: "listening_scene",
       display: "3ばん", options: ["1", "2", "3"], correctIndex: 1,
@@ -498,7 +498,7 @@ const _RAW: StaticQuestion[] = [
       explanation: "Đáp án 3. [Điền giải thích nội dung audio tại đây]" },
     { groupId: "lq3", sectionId: "listening", type: "listening_scene",
       display: "5ばん", options: ["1", "2", "3"], correctIndex: 1,
-      imageSrc: "/exams/n5-2021/listening/lq3_q5.svg",
+      imageSrc: "/exams/n5-2021/listening/lq3_q5.jpg",
       explanation: "Đáp án 2. [Điền giải thích nội dung audio tại đây]" },
 
     // ─── もんだい4 (lq4): 6問 — 絵なし、文を聞いて返事を選ぶ ───────────────
