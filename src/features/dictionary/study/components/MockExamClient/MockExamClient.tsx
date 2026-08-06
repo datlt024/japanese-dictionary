@@ -1369,23 +1369,6 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                 </div>
             </div>
 
-            {/* Per-group breakdown */}
-            <div className={styles.breakdown}>
-                {cfg.sections.map(sec => (
-                    <div key={sec.id} className={styles.breakdownSection}>
-                        <p className={styles.breakdownSectionTitle}>{sec.title}</p>
-                        {groupResults.filter(g => sec.groups.some(sg => sg.id === g.id)).map(g => (
-                            <div key={g.id} className={styles.breakdownGroup}>
-                                <span className={styles.breakdownLabel}>{g.label}</span>
-                                <span className={styles.breakdownSub}>{g.sublabel}</span>
-                                <span className={styles.breakdownScore} data-ok={g.correct === g.total || undefined}>
-                                    {g.correct}/{g.total}
-                                </span>
-                            </div>
-                        ))}
-                    </div>
-                ))}
-            </div>
         </div>
     )
 }
