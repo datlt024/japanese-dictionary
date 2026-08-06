@@ -421,6 +421,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     const [audioDuration, setAudioDuration] = useState(0)
     const [showReview,      setShowReview]      = useState(false)
     const [reviewPlayingGi, setReviewPlayingGi] = useState<number | null>(null)
+    const [reviewIsPaused,  setReviewIsPaused]  = useState(false)
     const reviewPlayingGiRef = useRef<number | null>(null)
 
     const startAudio = useCallback(() => {
@@ -1121,15 +1122,25 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         const handleReviewPlay = (gi: number, q: Question) => {
             const el = audioRef.current
             if (!el || !cfg.listeningAudio) return
+
             if (reviewPlayingGiRef.current === gi) {
-                el.pause()
-                reviewPlayingGiRef.current = null
-                setReviewPlayingGi(null)
+                if (!el.paused) {
+                    // Đang phát → tạm dừng
+                    el.pause()
+                    setReviewIsPaused(true)
+                } else {
+                    // Đang pause → tiếp tục
+                    el.play().catch(() => {})
+                    setReviewIsPaused(false)
+                }
                 return
             }
+
+            // Câu mới — seek đến audioStart rồi phát
             el.pause()
             reviewPlayingGiRef.current = gi
             setReviewPlayingGi(gi)
+            setReviewIsPaused(false)
             const start = q.audioStart ?? 0
             // Register listener BEFORE setting currentTime — seeked can fire immediately
             el.addEventListener('seeked', () => {
@@ -1146,6 +1157,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                         audioRef.current?.pause()
                         reviewPlayingGiRef.current = null
                         setReviewPlayingGi(null)
+                        setReviewIsPaused(false)
                         setShowReview(false)
                     }}>
                         <ArrowLeft size={14} /> Quay lại kết quả
@@ -1180,9 +1192,10 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                         el.pause()
                                         reviewPlayingGiRef.current = null
                                         setReviewPlayingGi(null)
+                                        setReviewIsPaused(false)
                                     }
                                 }}
-                                onEnded={() => { reviewPlayingGiRef.current = null; setReviewPlayingGi(null) }}
+                                onEnded={() => { reviewPlayingGiRef.current = null; setReviewPlayingGi(null); setReviewIsPaused(false) }}
                             />
                         )}
                         {cfg.sections.map(sec => {
@@ -1270,11 +1283,13 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                 {cfg.listeningAudio && q.audioStart !== undefined && q.audioEnd !== undefined && (
                                                                     <button
                                                                         className={styles.reviewPlayBtn}
-                                                                        data-playing={reviewPlayingGi === gi || undefined}
+                                                                        data-playing={reviewPlayingGi === gi && !reviewIsPaused || undefined}
                                                                         onClick={() => handleReviewPlay(gi, q)}
                                                                     >
-                                                                        {reviewPlayingGi === gi
-                                                                            ? <><Pause size={12} fill="currentColor" /> Đang phát</>
+                                                                        {reviewPlayingGi === gi && !reviewIsPaused
+                                                                            ? <><Pause size={12} fill="currentColor" /> Tạm dừng</>
+                                                                            : reviewPlayingGi === gi && reviewIsPaused
+                                                                            ? <><Play  size={12} fill="currentColor" /> Tiếp tục</>
                                                                             : <><Play  size={12} fill="currentColor" /> Nghe lại</>
                                                                         }
                                                                     </button>
