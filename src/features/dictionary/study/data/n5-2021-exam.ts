@@ -615,7 +615,7 @@ const _RAW: StaticQuestion[] = [
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "1ばん", options: ["1", "2", "3"], correctIndex: 0,
     imageSrc: "/exams/n5-2021/listening/lq3_q1.jpg",
-    audioStart: 914, audioEnd: 944,
+    audioStart: 915, audioEnd: 944,
     explanation: "Đáp án 1. [Điền giải thích nội dung audio tại đây]"
   },
   {
