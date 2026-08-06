@@ -468,41 +468,41 @@ const N5_LISTENING: StaticQuestion[] = [
   { groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "1ばん", options: ["1","2","3","4"], correctIndex: 1,
     imageSrc: "/exams/n5/listening/lq1_q1.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 45, audioEnd: 68 },
 
   // 2ばん: 机の位置 [image: (1)窓の近く (2)ドアの近く (3)真ん中 (4)ベッドの横]
   { groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "2ばん", options: ["1","2","3","4"], correctIndex: 0,
     imageSrc: "/exams/n5/listening/lq1_q2.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 73, audioEnd: 90 },
 
   // 3ばん: 天気 [image: (1)はれ (2)くもり (3)あめ (4)ゆき]
   { groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "3ばん", options: ["1","2","3","4"], correctIndex: 3,
     imageSrc: "/exams/n5/listening/lq1_q3.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 95, audioEnd: 116 },
 
   // 4ばん: 地図（図書館の位置）[image: map with 4 positions]
   { groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "4ばん", options: ["1","2","3","4"], correctIndex: 2,
     imageSrc: "/exams/n5/listening/lq1_q4.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 121, audioEnd: 143 },
 
   // 5ばん: 会議の時間
   { groupId: "lq1", sectionId: "listening", type: "listening_text",
     display: "5ばん", options: ["８じ","９じ","１０じ","１１じ"], correctIndex: 1,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 148, audioEnd: 169 },
 
   // 6ばん: テストの曜日
   { groupId: "lq1", sectionId: "listening", type: "listening_text",
     display: "6ばん", options: ["月曜日","火曜日","水曜日","木曜日"], correctIndex: 2,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 174, audioEnd: 188 },
 
   // 7ばん: 持ち物の組み合わせ [image: ア=かさ　イ=おかね　ウ=スマートフォン]
   { groupId: "lq1", sectionId: "listening", type: "listening_scene",
     display: "7ばん", options: ["アイ","アウ","イウ","アイウ"], correctIndex: 0,
     imageSrc: "/exams/n5/listening/lq1_q7.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 193, audioEnd: 219 },
 
   // ── もんだい２ (lq2): 6問 ─────────────────────────────────────────────────
 
@@ -510,36 +510,36 @@ const N5_LISTENING: StaticQuestion[] = [
   { groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "1ばん", options: ["1","2","3","4"], correctIndex: 0,
     imageSrc: "/exams/n5/listening/lq2_q1.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 247, audioEnd: 269 },
 
   // 2ばん: 移動手段 [image: (1)コンビニ (2)バス (3)でんしゃ (4)タクシー]
   { groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "2ばん", options: ["1","2","3","4"], correctIndex: 2,
     imageSrc: "/exams/n5/listening/lq2_q2.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 274, audioEnd: 295 },
 
   // 3ばん: カレンダー [image: calendar with (1)8日 (2)10日 (3)12日 (4)15日]
   { groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "3ばん", options: ["1","2","3","4"], correctIndex: 3,
     imageSrc: "/exams/n5/listening/lq2_q3.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 300, audioEnd: 320 },
 
   // 4ばん: ねこの数
   { groupId: "lq2", sectionId: "listening", type: "listening_text",
     display: "4ばん", options: ["１ひき","２ひき","３ひき","４ひき"], correctIndex: 2,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 325, audioEnd: 347 },
 
   // 5ばん: りんごの数 [image: (1)2つ (2)3つ (3)4つ (4)5つ]
   { groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "5ばん", options: ["1","2","3","4"], correctIndex: 3,
     imageSrc: "/exams/n5/listening/lq2_q5.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 352, audioEnd: 366 },
 
   // 6ばん: 通学手段 [image: (1)バス (2)じてんしゃ (3)でんしゃ (4)くるま]
   { groupId: "lq2", sectionId: "listening", type: "listening_pic",
     display: "6ばん", options: ["1","2","3","4"], correctIndex: 1,
     imageSrc: "/exams/n5/listening/lq2_q6.png",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 371, audioEnd: 388 },
 
   // ── もんだい３ (lq3): 5問 ─────────────────────────────────────────────────
 
@@ -547,63 +547,63 @@ const N5_LISTENING: StaticQuestion[] = [
   { groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "1ばん", options: ["1","2","3"], correctIndex: 0,
     imageSrc: "/exams/n5/listening/lq3_q1.jpg",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 416, audioEnd: 434 },
 
   // 2ばん: 友だちの家に到着 [arrow→訪問者]
   { groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "2ばん", options: ["1","2","3"], correctIndex: 1,
     imageSrc: "/exams/n5/listening/lq3_q2.jpg",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 438, audioEnd: 452 },
 
   // 3ばん: レストランで注文 [arrow→客]
   { groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "3ばん", options: ["1","2","3"], correctIndex: 1,
     imageSrc: "/exams/n5/listening/lq3_q3.jpg",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 456, audioEnd: 472 },
 
   // 4ばん: 写真を撮ってもらう [arrow→通行人]
   { groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "4ばん", options: ["1","2","3"], correctIndex: 2,
     imageSrc: "/exams/n5/listening/lq3_q4.jpg",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 476, audioEnd: 495 },
 
   // 5ばん: 道を尋ねる [arrow→地図を持つ人]
   { groupId: "lq3", sectionId: "listening", type: "listening_scene",
     display: "5ばん", options: ["1","2","3"], correctIndex: 0,
     imageSrc: "/exams/n5/listening/lq3_q5.jpg",
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 499, audioEnd: 518 },
 
   // ── もんだい４ (lq4): 6問 ─────────────────────────────────────────────────
 
   // 1ばん: 授業の感想
   { groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "1ばん", options: ["1","2","3"], correctIndex: 1,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 546, audioEnd: 558 },
 
   // 2ばん: 映画の誘い
   { groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "2ばん", options: ["1","2","3"], correctIndex: 0,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 562, audioEnd: 575 },
 
   // 3ばん: 荷物を持つ申し出
   { groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "3ばん", options: ["1","2","3"], correctIndex: 2,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 579, audioEnd: 594 },
 
   // 4ばん: パーティー欠席
   { groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "4ばん", options: ["1","2","3"], correctIndex: 1,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 598, audioEnd: 614 },
 
   // 5ばん: 本を読んだか
   { groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "5ばん", options: ["1","2","3"], correctIndex: 0,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 618, audioEnd: 631 },
 
   // 6ばん: 日本語の難しさ
   { groupId: "lq4", sectionId: "listening", type: "listening_text",
     display: "6ばん", options: ["1","2","3"], correctIndex: 2,
-    audioStart: 0, audioEnd: 0 },
+    audioStart: 635, audioEnd: 648 },
 ]
 
 export const N5_QUESTIONS_WITH_LISTENING: StaticQuestion[] = [
