@@ -1,1 +1,81 @@
-{}
+{
+  "q1:出発": "Đáp án 3: しゅっぱつ. 出発（しゅっぱつ）= khởi hành, xuất phát. Chú ý: 出（しゅつ→しゅっ）ghép với phụ âm đầu biến thành しゅっ; 発（はつ→ぱつ）biến âm thành ぱつ.",
+  "q1:答えて": "Đáp án 4: こたえて. 答える（こたえる）= trả lời. Phân biệt: おぼえて（覚える）= ghi nhớ, おしえて（教える）= dạy, かんがえて（考える）= suy nghĩ.",
+  "q1:心": "Đáp án 4: こころ. 心（こころ）= tâm hồn, trái tim. Câu nghĩa: 'Người đó có tâm hồn đẹp.' Phân biệt với きもち（気持ち）= tâm trạng — đây là hai từ khác nhau.",
+  "q1:最後": "Đáp án 2: さいご. 最後（さいご）= cuối cùng, lần cuối. Đối nghịch: 最初（さいしょ）= đầu tiên. Chú ý: 最（さい）không đọc là せい.",
+  "q1:遠い": "Đáp án 3: とおい. 遠い（とおい）= xa. Phân biệt: おそい（遅い）= chậm, ちかい（近い）= gần, はやい（早い/速い）= sớm/nhanh.",
+  "q1:冬": "Đáp án 2: ふゆ. 冬（ふゆ）= mùa đông. Bốn mùa: 春（はる）xuân / 夏（なつ）hạ / 秋（あき）thu / 冬（ふゆ）đông.",
+  "q1:予習": "Đáp án 1: よしゅう. 予習（よしゅう）= tự học trước/chuẩn bị bài. Chú ý: 習（しゅう）— âm đúng. Đối nghịch: 復習（ふくしゅう）= ôn bài.",
+
+  "q2:えいが": "Đáp án 4: 映画（えいが）= phim ảnh. Phân biệt: 英語（えいご）= tiếng Anh. 映（うつ・す）= chiếu; 画（え）= hình ảnh. Hai chữ 英映 trông giống nhau nhưng nghĩa khác hoàn toàn.",
+  "q2:つくって": "Đáp án 3: 作って（つくって）= làm/chế tạo. Sai: 送って（おくる）= gửi, 使って（つかう）= sử dụng, 売って（うる）= bán.",
+  "q2:うんどう": "Đáp án 1: 運動（うんどう）= vận động, tập thể dục. 運（うん）= vận; 動（どう）= động. Các đáp án sai chứa chữ sai: 連（れん）hay 勤（きん）hay 働（どう）không phải 運（うん）.",
+  "q2:ふね": "Đáp án 2: 船（ふね）= tàu thuyền. Câu nghĩa: 'Nhìn thấy một chiếc tàu lớn ở đó.' Sai: 寺（てら）= chùa, 鳥（とり）= chim, 雲（くも）= mây.",
+
+  "q3:たくさん話したので（　）がいたいです。": "Đáp án 1: のど（喉）= cổ họng. Nói nhiều dẫn đến đau cổ họng là hợp lý nhất. Sai: ひげ = râu, ゆび = ngón tay, うで = cánh tay.",
+  "q3:のった電車はとても（　）いたので、すわれませんでした。": "Đáp án 2: こんで（混んで）= đông đúc (tàu điện). Tàu rất đông nên không thể ngồi. こむ（混む）= đông. Sai: あつまって = tập hợp lại, たりて = đủ, くりかえして = lặp đi lặp lại.",
+  "q3:日本に行ったとき、きものをきたり、まつりでおどったり、いろいろな（　）をしました。": "Đáp án 1: けいけん（経験）= trải nghiệm. Mặc kimono, nhảy lễ hội → đây là những trải nghiệm đáng nhớ. Sai: しゅうかん = thói quen, きょうみ = sở thích/quan tâm, けっか = kết quả.",
+  "q3:どんなまんががすきか、小学生に（　）をしました。": "Đáp án 3: アンケート = phiếu khảo sát. Hỏi học sinh tiểu học về loại manga yêu thích → phát phiếu điều tra. Sai: コンサート = buổi hòa nhạc, コンピューター = máy tính, アルコール = cồn.",
+  "q3:わたしがかりているアパートの（　）は1か月7万円です。": "Đáp án 4: やちん（家賃）= tiền thuê nhà/phòng. 7万円/tháng là tiền thuê apartment. Sai: ふりこみ = chuyển khoản ngân hàng, ちょきん = tiết kiệm, おつり = tiền thối lại.",
+  "q3:このしゃしんに（　）いるのはわたしのりょうしんです。": "Đáp án 3: うつって（写って）= xuất hiện/được chụp trong ảnh. うつる（写る）là động từ dùng khi người/vật xuất hiện trong ảnh/gương. Sai: かかって = treo/mắc vào, ついて = đi theo, とどいて = đến nơi.",
+  "q3:しんかんせんのきっぷは、かたみちなら1万円、（　）なら2万円です。": "Đáp án 2: おうふく（往復）= vé khứ hồi. Cặp từ: かたみち（片道）= một chiều / おうふく（往復）= khứ hồi. Sai: かいてん = quay vòng, うんてん = lái xe, あんない = hướng dẫn.",
+  "q3:ひっこしのとき、さらはかみで（　）はこに入れます。": "Đáp án 4: つつんで（包んで）= bọc lại. Khi chuyển nhà, bọc đĩa bằng giấy rồi cho vào hộp để tránh vỡ. Sai: ひろって = nhặt, かたづけて = dọn dẹp/cất gọn, つかまえて = bắt/giữ.",
+
+  "q4:この話はひみつつです。": "Đáp án 2: この話はだれにも言わないでください。 ひみつ（秘密）= bí mật → không được nói với ai. Sai: các lựa chọn khác đều ngụ ý chia sẻ hoặc nói cho mọi người biết.",
+  "q4:もりさんはにこにこしていました。": "Đáp án 4: もりさんはわらっていました。 にこにこ = biểu hiện mỉm cười vui vẻ → 笑う（わらう）= cười. Sai: やすんでいた = nghỉ ngơi, あそんでいた = vui chơi, うたっていた = hát.",
+  "q4:たなかさんはどくしんです。": "Đáp án 2: けっこんしていません。 どくしん（独身）= độc thân = chưa kết hôn. Sai: 1 = đã kết hôn (ngược nghĩa), 3 = sống một mình (không đồng nghĩa với độc thân), 4 = không làm việc.",
+  "q4:これはやわらかいですね。": "Đáp án 1: かたくないですね。 やわらかい（柔らかい）= mềm. Nghĩa tương đương: かたくない（硬くない）= không cứng. Đây là cặp từ đối nghịch: やわらかい ↔ かたい.",
+
+  "q5:れんらく": "Đáp án 4: あしたのかいぎの時間をはやしさんにれんらくしました。 れんらく（連絡）する = thông báo/liên lạc với người khác về thông tin cụ thể. Sai: 1 dùng おれい（lời cảm ơn）nên phải 送る/書く, 2 phải dùng 書く/メモする cho lịch, 3 phải dùng わたす/交換する với danh thiếp.",
+  "q5:むしあつい": "Đáp án 1: ゆうべはむしあつくて、あまりねられませんでした。 むしあつい（蒸し暑い）= nóng ẩm (thời tiết). Chỉ dùng để mô tả thời tiết, không dùng cho người (2), đồ ăn (3), hay quần áo (4 nên dùng あたたかい/きやすい).",
+  "q5:けいかく": "Đáp án 3: 来月行くりょこうのけいかくがまだきまっていません。 けいかく（計画）= kế hoạch (cụ thể, có chủ tâm). Sai: 1 dùng よやく（đặt chỗ）, 2 và 4 dùng よてい（dự kiến/lịch trình）— よてい là dự đoán/lịch, けいかく là kế hoạch hành động.",
+  "q5:そだてる": "Đáp án 1: 母がそだてた花がきれいにさきました。 そだてる（育てる）= nuôi/trồng/chăm sóc (sinh vật/cây). Sai: 2 phải dùng ためる（tiết kiệm tiền）, 3 phải dùng つくる（làm đồ ăn）, 4 phải dùng たてる（xây dựng công trình）.",
+
+  "q6:わたしもピアノを習うこと（　）しました。": "Đáp án 3: に. Cấu trúc「〜することにする」= quyết định làm gì. Ở đây: 「ピアノを習うことにしました」= đã quyết định học piano. Phân biệt: ことにする（quyết định/thói quen）vs ことになる（điều xảy ra như một kết quả）.",
+  "q6:山田「ジョンさんは日本にどのくらいいる予定ですか。」\nジョン「ざんねんですが、一週間（　）いられません。」": "Đáp án 2: しか. Cấu trúc「〜しか〜ない」= chỉ, không hơn. 「一週間しかいられません」= chỉ ở được 1 tuần. Phân biệt: だけ + khẳng định (だけいられます), しか + phủ định (しかいられません).",
+  "q6:今日は午後から雨が降る（　）聞いたので、かさを持ってきました。": "Đáp án 4: と. Cấu trúc「〜と聞く」= nghe nói rằng... Ở đây: 「雨が降ると聞いた」= nghe nói chiều nay sẽ có mưa. Phân biệt: のを聞く = nghe tiếng gì đó; と聞く = nghe thông tin.",
+  "q6:私の兄は、テニスもサッカー（　）上手です。": "Đáp án 2: も. 「テニスもサッカーも上手」= giỏi cả tennis lẫn bóng đá. も〜も = cả... lẫn..., dùng để liệt kê 2 thứ tương đương. が chỉ chủ ngữ, で là phương tiện, を là tân ngữ — đều không phù hợp ở đây.",
+  "q6:A「きのうの夜、（　）電話に出なかったんですか。」\nB「ごめんなさい。おふろに入っていました。」": "Đáp án 4: どうして = tại sao/vì sao. Câu hỏi lý do không nghe điện thoại, và B trả lời bằng lý do (đang tắm). Sai: どう = như thế nào, どやって = bằng cách nào, どんな = loại gì.",
+  "q6:父は朝ごはんの前に（　）新聞を読む。": "Đáp án 2: かならず = nhất định/luôn luôn. Câu nghĩa: 'Bố nhất định đọc báo trước bữa sáng.' Sai: もうすぐ = sắp (chỉ tương lai gần), なかなか + phủ định = khó mà..., だんだん = dần dần.",
+  "q6:このアニメは世界（　）の子どもたちに人気がある。": "Đáp án 4: 中（じゅう）. 「世界中（せかいじゅう）」= toàn thế giới. 〜中 ghép sau danh từ = toàn bộ, khắp. Sai: など = v.v./vân vân, ずつ = mỗi (phân chia đều), 間（あいだ）= trong khoảng thời gian.",
+  "q6:このパソコンは何回（　）またすぐこわれる。": "Đáp án 3: なおしても. Cấu trúc「〜ても」= dù... vẫn... 「何回なおしても、またすぐこわれる」= dù sửa bao nhiêu lần, lại hỏng ngay. Sai: まえ = trước khi, とき = khi, てから = sau khi (không diễn tả ý nhượng bộ).",
+  "q6:田中さんは先生に作文を（　）よろこんでいました。": "Đáp án 3: ほめられて. Dạng bị động của ほめる（khen）. 「先生にほめられて」= được thầy/cô khen → nên vui. Phân biệt: ほめて（chủ động khen）, ほめてしまって（lỡ khen）, ほめさせて（bắt khen）— đều không phù hợp về nghĩa.",
+  "q6:私は医者に（　）ためにいっしょうけんめい勉強しています。": "Đáp án 3: なれる. 「医者になれるために」= để có thể trở thành bác sĩ. なれる là dạng tiềm năng của なる. Cấu trúc「〜ために」cần dạng từ điển trước nó, nhưng なる→なれる(tiềm năng) biểu thị mục tiêu cụ thể hơn.",
+  "q6:A「すみません。山田さんのけいたい電話のばんごうを（　）。」\nB「いいですよ。090-11-1111です。」": "Đáp án 1: 教えてくれませんか. Xin ai đó cho mình thông tin dùng「〜てくれませんか」= bạn có thể... cho tôi không? B đồng ý và cung cấp số. Sai: 教えましょうか = tôi có nên dạy không? (chủ động — không phù hợp vì A đang xin thông tin).",
+  "q6:田中さんのけっこんパーティーが、今週の土曜日に（　）。": "Đáp án 4: 開かれます. Dạng bị động lịch sự của 開く（tổ chức）. 「パーティーが開かれます」= buổi tiệc được tổ chức. Sai: 開きます（chủ động — thường dùng khi người cụ thể tổ chức）, 開きましょう（đề nghị）, 開くでしょう（suy đoán）.",
+  "q6:（学校で）\n西山「森さんがアルバイトを始めたそうですよ。」\n中田「ああ、だから最近じゅぎょうのあと急いで（　）ね。」": "Đáp án 1: 帰っているんです. 「〜んです」giải thích nguyên nhân/bối cảnh, phù hợp sau 「だから」. 帰っている = đang có thói quen về sớm. Sai: 帰っていることです/帰っているからです（ngữ pháp không tự nhiên）, 帰っているところです（đúng lúc đó đang về）.",
+
+  "q7:A「すみません。山下さんが今 ___ ___ ★ ___ わかりますか。」\nB「となりのへやにいますよ。」": "Đáp án ★: いる (option 3). Câu hoàn chỉnh: 「山下さんが今どこにいるかわかりますか」= Bạn có biết bây giờ Yamashita ở đâu không? Cấu trúc「〜かわかりますか」với mệnh đề gián tiếp: どこ→に→いる→か. ★ vị trí là いる.",
+  "q7:来週、友だちがうちに ___ ___ ___ ★ になりました。": "Đáp án ★: こと (option 4). Câu hoàn chỉnh: 「友だちがうちにとまりに来ることになりました」= Đã xảy ra việc bạn sẽ đến nhà tôi ngủ. Thứ tự: とまり→に→来る→こと→になった. ★ là こと (cấu trúc〜ことになる).",
+  "q7:先生「日本語Aのじゅぎょうの日は、じしょを ___ ___ ★ ___ ようにしてください。」": "Đáp án ★: を (option 3). Câu hoàn chỉnh: 「じしょを持ってくるのを忘れないようにしてください」= Hãy đừng quên mang từ điển. Thứ tự: 持ってくる→の→を(★)→忘れない→ように. を là trợ từ tân ngữ cho 忘れる.",
+  "q7:私はいつもコーヒーは ___ ___ ___ ★ コーヒーも飲みたくなる。": "Đáp án ★: あまい (option 3). Câu hoàn chỉnh: 「さとうを入れないで飲むが、ときどきあまいコーヒーも飲みたくなる」= thường uống không đường, nhưng đôi khi muốn uống cà phê ngọt. Thứ tự: さとうを入れないで→飲むが→ときどき→あまい(★). ★ bổ nghĩa cho コーヒー phía sau.",
+
+  "q8:（18）": "Đáp án 2: ともだちが教えてくれた. Câu hoàn chỉnh: 「日本人のともだちが教えてくれたのです」= bạn người Nhật đã cho tôi biết. てくれる = ai đó làm gì cho mình (người nhận là tôi). Sai: てあげた = mình làm cho người khác, てあった/ておいた = dạng chuẩn bị.",
+  "q8:（19）": "Đáp án 3: それに. 「それに、ようふくのざっしや映画のざっしです」= Thêm vào đó có tạp chí thời trang và tạp chí phim. それに = hơn nữa/thêm vào đó. Phù hợp vì câu trước đã liệt kê một điểm đặc biệt, đây là điểm thêm. Sai: たとえば = ví dụ, ですから = vì vậy, しかし = nhưng.",
+  "q8:（20）": "Đáp án 3: 旅行したくなりました. Câu hoàn chỉnh: 「DVDを見たあと、京都を旅行したくなりました」= Sau khi xem DVD, tôi muốn đi du lịch Kyoto. Cấu trúc「〜たくなる」= nảy sinh mong muốn làm gì. Phù hợp vì trước đó chưa từng đến Kyoto và DVD rất đẹp.",
+  "q8:（21）": "Đáp án 4: 行ってみてください. Câu hoàn chỉnh: 「一度行ってみてください」= Hãy thử đến một lần. Đây là lời mời đọc giả/người nghe đến thư viện. 〜てみてください = hãy thử làm gì đó. Sai: そうです = nghe nói (không phải mời), かもしれません = có lẽ, 〜ほうがいいですか = loại câu hỏi.",
+
+  "q9:ユンさんと一緒にバスケットボールをしたい人は、まずどうしなければなりませんか。": "Đáp án 2: 今週中に、ユンさんのところに行ってクラスと名前を言います。 Theo thông báo: 「一緒にやりたい人は、今週中に私（ユン）のところに来て、クラスと名前を教えてください。」→ Phải đến gặp Yun và cho biết lớp và tên trong tuần này.",
+  "q9:なぜ「私」は妹をすごいと思っていますか。": "Đáp án 4: 妹はサッカーの練習のあとでも、宿題と予習をしてから寝るから。 Văn bản: 「私」dù mệt sau luyện tập vẫn ngủ không làm bài, còn 妹: 「宿題が全部終わるまで寝ません。予習もします。」→ Sau luyện tập vẫn làm hết bài và học trước.",
+  "q9:田中さんはリンさんに返事を書きたいと思っていますが、こまっています。どうしてですか。": "Đáp án 1: リンさんが東京にいつ来るかわからないから。 Email của Lin chỉ nói sẽ đến Tokyo và ở khách sạn Shin-Tokyo, nhờ ăn sushi cùng nhau, nhưng không nêu ngày cụ thể. Tanaka muốn trả lời nhưng không biết Lin đến ngày nào.",
+
+  "q10:娘は絵をかくとき、いつもどうしていましたか。": "Đáp án 1: 一人でかいていました。 Văn bản: 「私は絵が上手ではないので娘と一緒に絵をかいたことはありません。ですから、娘はいつも一人で絵をかいています。」→ Người mẹ không giỏi vẽ nên chưa từng vẽ cùng con gái, con gái vẫn vẽ một mình.",
+  "q10:テレビを見たあと、「私」はどうやって絵封筒を作りましたか。": "Đáp án 4: 封筒にはった犬の絵の切手の周りに、草や太陽の絵をかきました。 Văn bản: 「犬の絵の切手をはって、周りに草や太陽をかきました。」= Dán tem hình chó, rồi vẽ cỏ và mặt trời xung quanh. (Không phải tem hình chim hay hình kia).",
+  "q10:「娘はきっと喜んでくれるでしょう」とありますが、どうして「私」は娘が喜ぶと思っていますか。": "Đáp án 2: 「私」がきれいな封筒を作ったから。 Người mẹ đã thành công làm được 絵封筒 đẹp (「けっこううまくできました」) để gửi ảnh con gái cho bà ngoại. Con gái sẽ vui khi thấy mẹ làm được một điều đẹp như vậy.",
+
+  "q11:次の4人の中で、パソコン教室で勉強できる人はだれですか。": "Đáp án 1: ジェムさん. Điều kiện: ①日本語100時間以上 ②3回全部出られる. Kiểm tra: ジェム: 150h ✓, 교室に行けない日なし ✓ → Đủ điều kiện. マリオ: 50h ✗. ソニア: 200h ✓ nhưng 教室に行けない日=15日（9/15）✗. リナ: 120h ✓ nhưng 教室に行けない日=22日（9/22）✗.",
+  "q11:ジェーンさんは、パソコン教室で勉強したいと思っていますが、9月1日の説明会にジェーンさんは出られません。ジェーンさんは、いつまでにお金を払う必要がありますか。": "Đáp án 3: 9月7日. Theo thông báo: 「料金は説明会のときに集めます。説明会に出られない人は、9月7日（水）までに払ってください。」→ Ai không dự được buổi giải thích 9/1 thì phải nộp tiền trước 9/7.",
+
+  "lq1:1ばん": "Đáp án 2. Thứ tự cho nguyên liệu: 肉（thịt）→ 砂糖（đường）→ 野菜（rau）→ 水（nước）→ 醤油（xì dầu）. Người phụ nữ: 『その前に、砂糖を入れて、それから野菜。それで、次は水を入れて、最後は醤油ね。』→ Sau thịt là đường trước.",
+  "lq1:2ばん": "Đáp án 4. Người mẹ chọn dép màu đen（黒）cỡ L. Lý do: 『白い方が黒い線が入っていてかっこいいけど、汚れやすいから、黒にする。MとLがあるよ。大きいほうにして。そのサンダルは前に店ではいたら、Mは少し小さかったんだ。』→ Đen + Cỡ L.",
+  "lq1:3ばん": "Đáp án 1. Người phụ nữ mua đồ uống（飲み物）. 『食べ物はたくさんあるから、じゃ、飲み物をお願い。』→ Không cần giúp nấu (『料理は簡単なものだから』), không cần dọn phòng (『大丈夫』). Nhiệm vụ duy nhất: mua đồ uống.",
+  "lq1:4ばん": "Đáp án 1. Phòng chưa sẵn sàng (~1 tiếng). Nhân viên: 『隣の部屋に服がありますから、好きなのを選んで、着て行ってください。スキー教室はホテルの裏です。道具は教室で借りられます。』→ Người phụ nữ đến phòng bên chọn quần áo trước, rồi đi học trượt tuyết.",
+  "lq1:5ばん": "Đáp án 3. Nam sinh muốn mượn từ điển của 楊さん trước khi nộp bài văn. 『楊さんも同じのを持ってるから、借りられると思うよ。次の授業があるから、教室にいると思う。』→ Nam sinh đi đến 教室（lớp học）. Sau đó mới đến 事務所 nộp bài.",
+  "lq1:6ばん": "Đáp án 3. 花瓶（bình hoa）phải cất đi. Phân tích từng thứ: 灰皿 → 『置いたままでいいわ』(để nguyên); コップ → 『テーブルの上に並べて』(xếp lên bàn); 花瓶 → 『今日は花がいらないから』(hoa không cần, nên cất); パソコン → 『使うから、出しておいて』(để ra vì sẽ dùng).",
+  "lq1:7ばん": "Đáp án 2. Học sinh tự chuẩn bị 2 cuốn: ①1 cuốn chép bảng 『黒板をうつすのに一冊必要です』②1 cuốn bài văn 『作文のノートを一冊用意してください』. Vở kanji do trường phát 『学校が用意して皆さんに渡します』→ không tính vào số học sinh phải mua.",
+  "lq1:8ばん": "Đáp án 2. Nữ sinh Tanaka làm từ 6:00 đến 13:00. 山本さん đã nhận ca 6-10 giờ sáng. Cần người từ 10 giờ. 『昼から大学の授業があるんです。でも、一時までなら、大丈夫です。』→ Quản lý: 『田中さんに朝六時からお願いしたい。』→ Ca làm: 6:00～13:00.",
+
+  "lq2:1ばん": "Đáp án 4: のどがいたいから. Không phải: có việc bận（ううん）, ghét karaoke（ううん）, thi tuần này（試験は来週になった）. Lý do thực: 『昨日もカラオケ行ってね...それで喉が痛くて。』→ Hôm qua cũng đi karaoke nên hôm nay đau cổ họng.",
+  "lq2:2ばん": "Đáp án 1: かいじょうのじゅんびをすること. Thông báo trong lớp: 『来週の土曜日、大学の体育館で試合があります。前の日に体育館の準備を手伝ってくれる人はいませんか。金曜日は四時から借りられるので、四時に来て、手伝ってください。試合に出る人も出ない人もよろしく。』",
+  "lq2:3ばん": "Đáp án 3: ひるごはんがおそかったから. Loại trừ: không phải ghét sushi（ううん）, không phải không khỏe（ううん）. Lý do thực: 『今日時間がなくて、お昼ご飯二時ごろだったの。』→ Bữa trưa mới ăn lúc 2 giờ chiều nên chưa đói."
+}
