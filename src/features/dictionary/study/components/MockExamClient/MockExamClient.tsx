@@ -152,13 +152,15 @@ const EXAM: Record<string, {
         ],
     },
     "N5-2024": {
-        duration: 60 * 60,  // 60 min language only (no listening audio yet)
+        duration: 90 * 60,  // 60 min language + 30 min 聴解
         subtitle: "2024年7月",
         passingDisplay: "80",
         passing: { secMin: 19, total: 80 },
+        listeningAudio: "/exams/n5-2024/audio/listening.m4a",
         infoRows: [
             { title: "文字・語彙", count: N5_2024_COUNTS.vocab },
             { title: "文法・読解", count: N5_2024_COUNTS.grammar },
+            { title: "聴解",       count: N5_2024_COUNTS.listening },
         ],
         sections: [
             {
@@ -179,6 +181,15 @@ const EXAM: Record<string, {
                     { id: "q8",  label: "問題4", sublabel: "もんだい４　つぎの（１）から（２）のぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 2  },
                     { id: "q9",  label: "問題5", sublabel: "もんだい５　つぎのぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 2  },
                     { id: "q10", label: "問題6", sublabel: "もんだい６　右のページを見て、下のしつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 1  },
+                ],
+            },
+            {
+                id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 30,
+                groups: [
+                    { id: "lq1", label: "問題1", sublabel: "もんだい１　まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic",   count: 7 },
+                    { id: "lq2", label: "問題2", sublabel: "もんだい２　では、まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic",   count: 6 },
+                    { id: "lq3", label: "問題3", sublabel: "もんだい３　では、えを　みながら　しつもんを　きいて　ください。やじるし（→）のひとは　なんと　いいますか。１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_scene", count: 5 },
+                    { id: "lq4", label: "問題4", sublabel: "もんだい４　では、えなどが　ありません。まず　ぶんを　きいて　ください。それから、その　へんじを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_text",  count: 6 },
                 ],
             },
         ],
@@ -508,12 +519,14 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
         if (examKey === "N5-2024") {
             if (!mounted.v) return
-            const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
+            // Start with 60-min language timer; listening gets its own 30-min timer later
+            const languageMin = cfg.sections.filter(s => s.id !== "listening").reduce((acc, s) => acc + s.allocMin, 0)
             questionRefs.current = new Array(N5_2024_QUESTIONS.length).fill(null)
             setQuestions(N5_2024_QUESTIONS as Question[])
             setAnswers(new Array(N5_2024_QUESTIONS.length).fill(null))
             setIdx(0)
-            startTimer(totalMin)
+            setLanguageTimeTaken(0)
+            startTimer(languageMin)
             setPhase("question")
             return
         }

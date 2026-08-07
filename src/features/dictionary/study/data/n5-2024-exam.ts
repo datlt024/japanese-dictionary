@@ -469,6 +469,132 @@ const _RAW: StaticQuestion[] = [
     ], correctIndex: 0
   },
 
+  // ════════════════════════════════════════════════════════════════════════
+  // 聴解
+  // ════════════════════════════════════════════════════════════════════════
+  // audioStart / audioEnd: giây trong file /exams/n5-2024/audio/listening.m4a
+  // correctIndex: điền sau khi có audio
+
+  // ─── もんだい1 (lq1): 7問 — 絵4枚から正しいものを選ぶ ─────────────────
+
+  {
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
+    display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq1_q1.png",
+  },
+  {
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
+    display: "2ばん", options: ["みどり", "あお", "きいろ", "ちゃいろ"], correctIndex: 1,
+  },
+  {
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
+    display: "3ばん", options: ["かようび", "すいようび", "もくようび", "きんようび"], correctIndex: 0,
+  },
+  {
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
+    display: "4ばん", options: ["300えん", "500えん", "600えん", "800えん"], correctIndex: 0,
+  },
+  {
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
+    display: "5ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq1_q5.png",
+  },
+  {
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
+    display: "6ばん", options: ["ノートとペン", "ノートとひるごはん", "ペンとのみもの", "のみものとひるごはん"], correctIndex: 0,
+  },
+  {
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
+    display: "7ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq1_q7.png",
+  },
+
+  // ─── もんだい2 (lq2): 6問 — 絵4枚から正しいものを選ぶ ─────────────────
+
+  {
+    groupId: "lq2", sectionId: "listening", type: "listening_pic",
+    display: "1ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq2_q1.png",
+  },
+  {
+    groupId: "lq2", sectionId: "listening", type: "listening_pic",
+    display: "2ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq2_q2.png",
+  },
+  {
+    groupId: "lq2", sectionId: "listening", type: "listening_pic",
+    display: "3ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq2_q3.png",
+  },
+  {
+    groupId: "lq2", sectionId: "listening", type: "listening_pic",
+    display: "4ばん", options: ["かいしゃのしょくどう", "ラーメンや", "うどんや", "カレーや"], correctIndex: 0,
+  },
+  {
+    groupId: "lq2", sectionId: "listening", type: "listening_pic",
+    display: "5ばん", options: ["1", "2", "3", "4"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq2_q5.png",
+  },
+  {
+    groupId: "lq2", sectionId: "listening", type: "listening_pic",
+    display: "6ばん", options: ["だい4かい", "だい5かい", "だい6かい", "だい7かい"], correctIndex: 0,
+  },
+
+  // ─── もんだい3 (lq3): 5問 — 絵を見ながら答える ───────────────────────
+
+  {
+    groupId: "lq3", sectionId: "listening", type: "listening_scene",
+    display: "1ばん", options: ["1", "2", "3"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq3_q1.png",
+  },
+  {
+    groupId: "lq3", sectionId: "listening", type: "listening_scene",
+    display: "2ばん", options: ["1", "2", "3"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq3_q2.png",
+  },
+  {
+    groupId: "lq3", sectionId: "listening", type: "listening_scene",
+    display: "3ばん", options: ["1", "2", "3"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq3_q3.png",
+  },
+  {
+    groupId: "lq3", sectionId: "listening", type: "listening_scene",
+    display: "4ばん", options: ["1", "2", "3"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq3_q4.png",
+  },
+  {
+    groupId: "lq3", sectionId: "listening", type: "listening_scene",
+    display: "5ばん", options: ["1", "2", "3"], correctIndex: 0,
+    imageSrc: "/exams/n5-2024/listening/lq3_q5.png",
+  },
+
+  // ─── もんだい4 (lq4): 6問 — 絵なし、文を聞いて返事を選ぶ ───────────────
+
+  {
+    groupId: "lq4", sectionId: "listening", type: "listening_text",
+    display: "1ばん", options: ["1", "2", "3"], correctIndex: 0,
+  },
+  {
+    groupId: "lq4", sectionId: "listening", type: "listening_text",
+    display: "2ばん", options: ["1", "2", "3"], correctIndex: 0,
+  },
+  {
+    groupId: "lq4", sectionId: "listening", type: "listening_text",
+    display: "3ばん", options: ["1", "2", "3"], correctIndex: 0,
+  },
+  {
+    groupId: "lq4", sectionId: "listening", type: "listening_text",
+    display: "4ばん", options: ["1", "2", "3"], correctIndex: 0,
+  },
+  {
+    groupId: "lq4", sectionId: "listening", type: "listening_text",
+    display: "5ばん", options: ["1", "2", "3"], correctIndex: 0,
+  },
+  {
+    groupId: "lq4", sectionId: "listening", type: "listening_text",
+    display: "6ばん", options: ["1", "2", "3"], correctIndex: 0,
+  },
+
 ]
 
 export const N5_2024_QUESTIONS: StaticQuestion[] = _RAW.map(q => {
