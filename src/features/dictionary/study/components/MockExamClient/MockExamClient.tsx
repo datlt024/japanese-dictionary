@@ -730,6 +730,8 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
     if (phase === "info") {
         const durationMin = Math.round(cfg.duration / 60)
+        const languageMin  = cfg.sections.filter(s => s.id !== "listening").reduce((sum, s) => sum + s.allocMin, 0)
+        const listeningMin = cfg.sections.find(s => s.id === "listening")?.allocMin ?? 0
 
         return (
             <div className={styles.introWrap}>
@@ -785,7 +787,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
 
                     {cfg.listeningAudio ? (
                         <p className={styles.infoNote}>
-                            * Đề thi gồm 2 giai đoạn: <strong>Ngôn ngữ</strong> (60 phút) → <strong>Nghe hiểu</strong> (30 phút). Audio sẽ phát sau khi bắt đầu phần nghe.
+                            * Đề thi gồm 2 giai đoạn: <strong>Ngôn ngữ</strong> ({languageMin} phút) → <strong>Nghe hiểu</strong> ({listeningMin} phút). Audio sẽ phát sau khi bắt đầu phần nghe.
                         </p>
                     ) : (
                         <p className={styles.infoNote}>
@@ -1134,6 +1136,9 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
     // ── Render: break (transition between language and listening) ───────
 
     if (phase === "break") {
+        const breakListeningCount = cfg.infoRows.find(r => r.title === "聴解")?.count ?? 0
+        const breakListeningMin   = cfg.sections.find(s => s.id === "listening")?.allocMin ?? 0
+
         if (cfg.listeningAudio) {
             return (
                 <div className={styles.introWrap}>
@@ -1145,7 +1150,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                         <div className={styles.breakIcon}>👂</div>
                         <h2 className={styles.breakTitle}>Phần Ngôn ngữ hoàn thành</h2>
                         <p className={styles.breakDesc}>
-                            Tiếp theo là phần <strong>聴解 (Nghe hiểu)</strong> với 24 câu hỏi, thời gian <strong>30 phút</strong>.
+                            Tiếp theo là phần <strong>聴解 (Nghe hiểu)</strong> với {breakListeningCount} câu hỏi, thời gian <strong>{breakListeningMin} phút</strong>.
                         </p>
                         <p className={styles.breakNote}>
                             Audio sẽ phát sau khi bạn bắt đầu. Bạn không thể tạm dừng hoặc tua lại — giống kỳ thi thật.
