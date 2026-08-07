@@ -8,6 +8,7 @@ import { ArrowLeft, Clock, RotateCcw, ChevronRight, X, Play, Pause } from "lucid
 import styles from "./MockExamClient.module.css"
 import { N5_QUESTIONS_WITH_LISTENING, N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_QUESTIONS, N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
+import { N5_2024_QUESTIONS, N5_2024_COUNTS } from "@/features/dictionary/study/data/n5-2024-exam"
 
 // ── Types ──────────────────────────────────────────────────────────────
 
@@ -146,6 +147,38 @@ const EXAM: Record<string, {
                     { id: "lq2", label: "問題2", sublabel: "もんだい２　では、まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　１から４の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_pic",   count: 6 },
                     { id: "lq3", label: "問題3", sublabel: "もんだい３　では、えを　みながら　しつもんを　きいて　ください。やじるし（→）のひとは　なんと　いいますか。１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_scene", count: 5 },
                     { id: "lq4", label: "問題4", sublabel: "もんだい４　では、えなどが　ありません。まず　ぶんを　きいて　ください。それから、その　へんじを　きいて、１から３の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_text",  count: 6 },
+                ],
+            },
+        ],
+    },
+    "N5-2024": {
+        duration: 60 * 60,  // 60 min language only (no listening audio yet)
+        subtitle: "2024年7月",
+        passingDisplay: "80",
+        passing: { secMin: 19, total: 80 },
+        infoRows: [
+            { title: "文字・語彙", count: N5_2024_COUNTS.vocab },
+            { title: "文法・読解", count: N5_2024_COUNTS.grammar },
+        ],
+        sections: [
+            {
+                id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 20,
+                groups: [
+                    { id: "q1", label: "問題1", sublabel: "＿＿の　ことばは　ひらがなで　どう　かきますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "kanji_reading", count: 7 },
+                    { id: "q2", label: "問題2", sublabel: "もんだい２　＿＿の　ことばは　どう　かきますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "kanji_writing", count: 5 },
+                    { id: "q3", label: "問題3", sublabel: "もんだい３　（　　　）に　なにを　いれますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "context_vocab", count: 6 },
+                    { id: "q4", label: "問題4", sublabel: "もんだい４　＿＿の　ぶんと　だいたい　おなじ　いみの　ぶんが　あります。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "context_vocab", count: 3 },
+                ],
+            },
+            {
+                id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 40,
+                groups: [
+                    { id: "q5",  label: "問題1", sublabel: "もんだい１　（　　　）に　なにを　いれますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 9  },
+                    { id: "q6",  label: "問題2", sublabel: "もんだい２　★に　入る　ものは　どれですか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "grammar_blank", count: 4  },
+                    { id: "q7",  label: "問題3", sublabel: "もんだい３　つぎの（１）と（２）のぶんしょうを読んで、ぶんしょうのいみを考えて、（　）の中に入るものを、１・２・３・４から一つえらんでください。", type: "grammar_blank", count: 4  },
+                    { id: "q8",  label: "問題4", sublabel: "もんだい４　つぎの（１）から（２）のぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 2  },
+                    { id: "q9",  label: "問題5", sublabel: "もんだい５　つぎのぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 2  },
+                    { id: "q10", label: "問題6", sublabel: "もんだい６　右のページを見て、下のしつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 1  },
                 ],
             },
         ],
@@ -399,7 +432,9 @@ function score60(correct: number, total: number) {
 
 export default function MockExamClient({ level, year }: { level: string; year?: string }) {
     const router = useRouter()
-    const examKey = level === "N5" && year === "2021" ? "N5-2021" : level
+    const examKey = level === "N5" && year === "2021" ? "N5-2021"
+                  : level === "N5" && year === "2024" ? "N5-2024"
+                  : level
     const cfg = EXAM[examKey] ?? EXAM["N5"]
     const allGroups = cfg.sections.flatMap(s => s.groups)
 
@@ -467,6 +502,18 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             setIdx(0)
             setLanguageTimeTaken(0)
             startTimer(languageMin)
+            setPhase("question")
+            return
+        }
+
+        if (examKey === "N5-2024") {
+            if (!mounted.v) return
+            const totalMin = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
+            questionRefs.current = new Array(N5_2024_QUESTIONS.length).fill(null)
+            setQuestions(N5_2024_QUESTIONS as Question[])
+            setAnswers(new Array(N5_2024_QUESTIONS.length).fill(null))
+            setIdx(0)
+            startTimer(totalMin)
             setPhase("question")
             return
         }
