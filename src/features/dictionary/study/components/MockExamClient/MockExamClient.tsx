@@ -1005,25 +1005,17 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                             )}
 
                                                             {/* ── Options ── */}
-                                                            {q.type === "listening_pic" ? (
+                                                            {q.type === "listening_pic" && q.imageSrc ? (
                                                                 <>
-                                                                    {q.imageSrc ? (
-                                                                        <div className={styles.qPicThumb}>
-                                                                            <Image
-                                                                                src={q.imageSrc}
-                                                                                alt={`Hình câu ${q.display}`}
-                                                                                width={800}
-                                                                                height={600}
-                                                                                className={styles.qPic4ImgFull}
-                                                                            />
-                                                                        </div>
-                                                                    ) : (
-                                                                        <div className={styles.qPic4Grid}>
-                                                                            {[0,1,2,3].map(oi => (
-                                                                                <div key={oi} className={styles.qPic4Placeholder} />
-                                                                            ))}
-                                                                        </div>
-                                                                    )}
+                                                                    <div className={styles.qPicThumb}>
+                                                                        <Image
+                                                                            src={q.imageSrc}
+                                                                            alt={`Hình câu ${q.display}`}
+                                                                            width={800}
+                                                                            height={600}
+                                                                            className={styles.qPic4ImgFull}
+                                                                        />
+                                                                    </div>
                                                                     <div className={styles.qOptions}>
                                                                         {[1,2,3,4].map((num, oi) => {
                                                                             const isSel = answers[gi] === oi
@@ -1367,13 +1359,11 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                     </div>
                                                                 )}
 
-                                                                {q.type === "listening_pic" ? (
+                                                                {q.type === "listening_pic" && q.imageSrc ? (
                                                                     <>
-                                                                        {q.imageSrc && (
-                                                                            <div className={styles.qPicThumb}>
-                                                                                <Image src={q.imageSrc} alt={`Hình câu ${q.display}`} width={800} height={600} className={styles.qPic4ImgFull} />
-                                                                            </div>
-                                                                        )}
+                                                                        <div className={styles.qPicThumb}>
+                                                                            <Image src={q.imageSrc} alt={`Hình câu ${q.display}`} width={800} height={600} className={styles.qPic4ImgFull} />
+                                                                        </div>
                                                                         <div className={styles.qOptions}>
                                                                             {[1,2,3,4].map((num, oi) => {
                                                                                 const isCor   = oi === q.correctIndex
