@@ -7,6 +7,7 @@ import styles from "./page.module.css"
 import { N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
 import { N5_2024_COUNTS } from "@/features/dictionary/study/data/n5-2024-exam"
+import { N4_2021_COUNTS } from "@/features/dictionary/study/data/n4-2021-exam"
 
 type ExamVariant = {
     label: string
@@ -34,7 +35,7 @@ const LEVELS: LevelConfig[] = [
             { label: "Test 3", questions: N5_2024_COUNTS.total, duration: 90, href: "/study/exam/n5?year=2024" },
         ],
     },
-    { level: "N4", desc: "Giao tiếp hằng ngày",           href: "/study/exam/n4", questions: 60, duration: 115 },
+    { level: "N4", desc: "Giao tiếp hằng ngày",           href: "/study/exam/n4", questions: N4_2021_COUNTS.total, duration: 115 },
     { level: "N3", desc: "Hiểu văn bản thông thường",      href: "/study/exam/n3", questions: 74, duration: 140 },
     { level: "N2", desc: "Đọc hiểu văn bản phức tạp",      href: "/study/exam/n2", questions: 75, duration: 155 },
     { level: "N1", desc: "Tiếng Nhật trình độ cao cấp",    href: "/study/exam/n1", questions: 70, duration: 165 },

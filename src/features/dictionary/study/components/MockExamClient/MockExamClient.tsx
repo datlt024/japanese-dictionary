@@ -9,6 +9,7 @@ import styles from "./MockExamClient.module.css"
 import { N5_QUESTIONS_WITH_LISTENING, N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_QUESTIONS, N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
 import { N5_2024_QUESTIONS, N5_2024_COUNTS } from "@/features/dictionary/study/data/n5-2024-exam"
+import { N4_2021_QUESTIONS, N4_2021_COUNTS } from "@/features/dictionary/study/data/n4-2021-exam"
 
 // ── Types ──────────────────────────────────────────────────────────────
 
@@ -195,30 +196,45 @@ const EXAM: Record<string, {
         ],
     },
     N4: {
-        duration: 115 * 60,  // 25 + 55 min tested + 35 min 聴解
+        duration: 115 * 60,  // 25 + 55 min language + 35 min 聴解
+        subtitle: "2021年12月",
         passingDisplay: "90",
         passing: { secMin: 19, total: 90 },
+        listeningAudio: "/exams/n4/audio/listening.m4a",
         infoRows: [
-            { title: "文字・語彙",  count: 25 },
-            { title: "文法・読解",  count: 35 },
-            { title: "聴解",        count: 28, skipped: true },
+            { title: "文字・語彙",  count: N4_2021_COUNTS.vocab },
+            { title: "文法・読解",  count: N4_2021_COUNTS.grammar },
+            { title: "聴解",        count: N4_2021_COUNTS.listening },
         ],
         sections: [
             {
                 id: "vocab", title: "言語知識（文字・語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 25,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",  type: "kanji_reading", count: 7  },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",  type: "kanji_writing",   count: 6  },
-                    { id: "q3", label: "問題3", sublabel: "（　　）に入れるのに最もよいものを選んでください", type: "context_vocab", count: 7  },
-                    { id: "q4", label: "問題4", sublabel: "____に意味が最も近いものを選んでください",          type: "context_vocab", count: 5  },
+                    { id: "q1",  label: "問題1", sublabel: "＿＿の　ことばは　ひらがなで　どう　かきますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "kanji_reading", count: N4_2021_COUNTS.vocab > 0 ? 7 : 7 },
+                    { id: "q2",  label: "問題2", sublabel: "もんだい２　＿＿の　ことばは　どう　かきますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "kanji_writing",  count: 4  },
+                    { id: "q3",  label: "問題3", sublabel: "もんだい３　（　　　）に　なにを　いれますか。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "context_vocab", count: 8  },
+                    { id: "q4",  label: "問題4", sublabel: "もんだい４　＿＿の　ぶんと　だいたい　おなじ　いみの　ぶんが　あります。１・２・３・４から　いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "context_vocab", count: 4  },
+                    { id: "q5",  label: "問題5", sublabel: "もんだい５　つぎのことばのつかいかたで、いちばんいいものを１・２・３・４からひとつえらんでください。", type: "context_vocab", count: 4  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 55,
                 groups: [
-                    { id: "q5", label: "問題1", sublabel: "文の文法1",  type: "grammar_blank", count: 20 },
-                    { id: "q6", label: "問題2", sublabel: "文の文法2",  type: "grammar_blank", count: 9  },
-                    { id: "q7", label: "問題3", sublabel: "文章の文法", type: "grammar_blank", count: 6  },
+                    { id: "q6",  label: "問題1", sublabel: "もんだい１　（　　　）に何を入れますか。１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 13 },
+                    { id: "q7",  label: "問題2", sublabel: "もんだい２　つぎの文の　★　に入るものはどれですか。１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 4  },
+                    { id: "q8",  label: "問題3", sublabel: "もんだい３　（14）から（17）に何を入れますか。ぶんしょうのいみを考えて、１・２・３・４からいちばんいいものをひとつえらんでください。", type: "grammar_blank", count: 4  },
+                    { id: "q9",  label: "問題4", sublabel: "もんだい４　つぎのぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 3  },
+                    { id: "q10", label: "問題5", sublabel: "もんだい５　つぎのぶんしょうを読んで、しつもんにこたえてください。こたえは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 3  },
+                    { id: "q11", label: "問題6", sublabel: "もんだい６　右のページのパソコン教室の案内を見て、下の質問に答えてください。答えは、１・２・３・４からいちばんいいものを一つえらんでください。", type: "grammar_blank", count: 2  },
+                ],
+            },
+            {
+                id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 35,
+                groups: [
+                    { id: "lq1", label: "問題1", sublabel: "もんだい1: もんだい1では、まず　しつもんを　きいて　ください。それから　はなしを　きいて、もんだいようしの　1から4の　なかから、いちばん　いい　ものを　ひとつ　えらんで　ください。", type: "listening_text",  count: 8 },
+                    { id: "lq2", label: "問題2", sublabel: "もんだい2: もんだい2では、まず　しつもんを　きいてください。そのあと、もんだいようしを　見てください。読む　時間が　あります。それから　話を聞いて、もんだいようしの　1から4の中から、いちばん　いい　ものを　一つ　えらんで　ください。", type: "listening_text",  count: 7 },
+                    { id: "lq3", label: "問題3", sublabel: "もんだい3: もんだい3では、えをみながらしつもんをきいてください。やじるし(→)のひとはなんといいますか。1から3のなかから、いちばんいいものをひとつえらんでください。", type: "listening_scene", count: 5 },
+                    { id: "lq4", label: "問題4", sublabel: "もんだい4: もんだい4では、えなどがありません。まずぶんをきいてください。それから、そのへんじをきいて、1から3のなかから、いちばんいいものをひとつえらんでください。", type: "listening_text",  count: 8 },
                 ],
             },
         ],
@@ -524,6 +540,20 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             questionRefs.current = new Array(N5_2024_QUESTIONS.length).fill(null)
             setQuestions(N5_2024_QUESTIONS as Question[])
             setAnswers(new Array(N5_2024_QUESTIONS.length).fill(null))
+            setIdx(0)
+            setLanguageTimeTaken(0)
+            startTimer(languageMin)
+            setPhase("question")
+            return
+        }
+
+        if (examKey === "N4") {
+            if (!mounted.v) return
+            // Start with 80-min language timer (25+55); listening gets its own 35-min timer later
+            const languageMin = cfg.sections.filter(s => s.id !== "listening").reduce((acc, s) => acc + s.allocMin, 0)
+            questionRefs.current = new Array(N4_2021_QUESTIONS.length).fill(null)
+            setQuestions(N4_2021_QUESTIONS as Question[])
+            setAnswers(new Array(N4_2021_QUESTIONS.length).fill(null))
             setIdx(0)
             setLanguageTimeTaken(0)
             startTimer(languageMin)
