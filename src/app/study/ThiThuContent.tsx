@@ -8,6 +8,9 @@ import { N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
 import { N5_2024_COUNTS } from "@/features/dictionary/study/data/n5-2024-exam"
 import { N4_2021_COUNTS } from "@/features/dictionary/study/data/n4-2021-exam"
+import { N3_7_2021_COUNTS } from "@/features/dictionary/study/data/n3-7-2021-exam"
+import { N3_12_2021_COUNTS } from "@/features/dictionary/study/data/n3-12-2021-exam"
+import { N3_7_2022_COUNTS } from "@/features/dictionary/study/data/n3-7-2022-exam"
 
 type ExamVariant = {
     label: string
@@ -36,7 +39,18 @@ const LEVELS: LevelConfig[] = [
         ],
     },
     { level: "N4", desc: "Giao tiếp hằng ngày",           href: "/study/exam/n4", questions: N4_2021_COUNTS.total, duration: 115 },
-    { level: "N3", desc: "Hiểu văn bản thông thường",      href: "/study/exam/n3", questions: 74, duration: 140 },
+    {
+        level: "N3",
+        desc: "Hiểu văn bản thông thường",
+        exams: [
+            { label: "T7-2021",  questions: N3_7_2021_COUNTS.total,  duration: 140, href: "/study/exam/n3?year=7-2021"  },
+            { label: "T12-2021", questions: N3_12_2021_COUNTS.total, duration: 140, href: "/study/exam/n3?year=12-2021" },
+            { label: "T7-2022",  questions: N3_7_2022_COUNTS.total,  duration: 140, href: "/study/exam/n3?year=7-2022"  },
+            { label: "T12-2022", questions: 100,                      duration: 140, href: "/study/exam/n3?year=12-2022" },
+            { label: "T7-2023",  questions: 100,                      duration: 140, href: "/study/exam/n3?year=7-2023"  },
+            { label: "T12-2023", questions: 100,                      duration: 140, href: "/study/exam/n3?year=12-2023" },
+        ],
+    },
     { level: "N2", desc: "Đọc hiểu văn bản phức tạp",      href: "/study/exam/n2", questions: 75, duration: 155 },
     { level: "N1", desc: "Tiếng Nhật trình độ cao cấp",    href: "/study/exam/n1", questions: 70, duration: 165 },
 ]
