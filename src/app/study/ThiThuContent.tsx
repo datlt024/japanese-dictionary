@@ -11,6 +11,9 @@ import { N4_2021_COUNTS } from "@/features/dictionary/study/data/n4-2021-exam"
 import { N3_7_2021_COUNTS } from "@/features/dictionary/study/data/n3-7-2021-exam"
 import { N3_12_2021_COUNTS } from "@/features/dictionary/study/data/n3-12-2021-exam"
 import { N3_7_2022_COUNTS } from "@/features/dictionary/study/data/n3-7-2022-exam"
+import { N3_12_2022_COUNTS } from "@/features/dictionary/study/data/n3-12-2022-exam"
+import { N3_7_2023_COUNTS } from "@/features/dictionary/study/data/n3-7-2023-exam"
+import { N3_12_2023_COUNTS } from "@/features/dictionary/study/data/n3-12-2023-exam"
 
 type ExamVariant = {
     label: string
@@ -46,9 +49,9 @@ const LEVELS: LevelConfig[] = [
             { label: "T7-2021",  questions: N3_7_2021_COUNTS.total,  duration: 140, href: "/study/exam/n3?year=7-2021"  },
             { label: "T12-2021", questions: N3_12_2021_COUNTS.total, duration: 140, href: "/study/exam/n3?year=12-2021" },
             { label: "T7-2022",  questions: N3_7_2022_COUNTS.total,  duration: 140, href: "/study/exam/n3?year=7-2022"  },
-            { label: "T12-2022", questions: 100,                      duration: 140, href: "/study/exam/n3?year=12-2022" },
-            { label: "T7-2023",  questions: 100,                      duration: 140, href: "/study/exam/n3?year=7-2023"  },
-            { label: "T12-2023", questions: 100,                      duration: 140, href: "/study/exam/n3?year=12-2023" },
+            { label: "T12-2022", questions: N3_12_2022_COUNTS.total,  duration: 140, href: "/study/exam/n3?year=12-2022" },
+            { label: "T7-2023",  questions: N3_7_2023_COUNTS.total,   duration: 140, href: "/study/exam/n3?year=7-2023"  },
+            { label: "T12-2023", questions: N3_12_2023_COUNTS.total,  duration: 140, href: "/study/exam/n3?year=12-2023" },
         ],
     },
     { level: "N2", desc: "Đọc hiểu văn bản phức tạp",      href: "/study/exam/n2", questions: 75, duration: 155 },

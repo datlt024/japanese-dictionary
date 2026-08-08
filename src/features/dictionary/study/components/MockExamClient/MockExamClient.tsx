@@ -13,6 +13,9 @@ import { N4_2021_QUESTIONS, N4_2021_COUNTS } from "@/features/dictionary/study/d
 import { N3_7_2021_QUESTIONS, N3_7_2021_COUNTS } from "@/features/dictionary/study/data/n3-7-2021-exam"
 import { N3_12_2021_QUESTIONS, N3_12_2021_COUNTS } from "@/features/dictionary/study/data/n3-12-2021-exam"
 import { N3_7_2022_QUESTIONS, N3_7_2022_COUNTS } from "@/features/dictionary/study/data/n3-7-2022-exam"
+import { N3_12_2022_QUESTIONS, N3_12_2022_COUNTS } from "@/features/dictionary/study/data/n3-12-2022-exam"
+import { N3_7_2023_QUESTIONS, N3_7_2023_COUNTS } from "@/features/dictionary/study/data/n3-7-2023-exam"
+import { N3_12_2023_QUESTIONS, N3_12_2023_COUNTS } from "@/features/dictionary/study/data/n3-12-2023-exam"
 
 // ── Types ──────────────────────────────────────────────────────────────
 
@@ -370,27 +373,41 @@ const EXAM: Record<string, {
         passingDisplay: "95",
         passing: { secMin: 19, total: 95 },
         infoRows: [
-            { title: "語彙",       count: 34 },
-            { title: "文法・読解", count: 38 },
-            { title: "聴解",       count: 28, skipped: true },
+            { title: "語彙",       count: N3_12_2022_COUNTS.vocab },
+            { title: "文法・読解", count: N3_12_2022_COUNTS.grammar },
+            { title: "聴解",       count: N3_12_2022_COUNTS.listening, skipped: true },
         ],
         sections: [
             {
                 id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 30,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",   type: "kanji_reading", count: 8  },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",   type: "kanji_writing", count: 6  },
-                    { id: "q3", label: "問題3", sublabel: "文脈規定",        type: "context_vocab", count: 11 },
-                    { id: "q4", label: "問題4", sublabel: "言い換え類義",    type: "context_vocab", count: 5  },
-                    { id: "q5", label: "問題5", sublabel: "用法",            type: "context_vocab", count: 5  },
+                    { id: "q1",  label: "問題1", sublabel: "漢字の読み方",  type: "kanji_reading", count: 8  },
+                    { id: "q2",  label: "問題2", sublabel: "漢字の書き方",  type: "kanji_writing", count: 6  },
+                    { id: "q3",  label: "問題3", sublabel: "文脈規定",       type: "context_vocab", count: 11 },
+                    { id: "q4",  label: "問題4", sublabel: "言い換え類義",   type: "context_vocab", count: 5  },
+                    { id: "q5",  label: "問題5", sublabel: "用法",           type: "context_vocab", count: 5  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
                 groups: [
-                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_blank", count: 13 },
-                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_blank", count: 5  },
-                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_blank", count: 20 },
+                    { id: "q6",  label: "問題1", sublabel: "文の文法1",   type: "grammar_blank", count: 13 },
+                    { id: "q7",  label: "問題2", sublabel: "文の文法2",   type: "grammar_blank", count: 5  },
+                    { id: "q8",  label: "問題3", sublabel: "文章の文法",  type: "grammar_blank", count: 4  },
+                    { id: "q9",  label: "問題4", sublabel: "短文読解",    type: "grammar_blank", count: 4  },
+                    { id: "q10", label: "問題5", sublabel: "中文読解",    type: "grammar_blank", count: 6  },
+                    { id: "q11", label: "問題6", sublabel: "長文読解",    type: "grammar_blank", count: 4  },
+                    { id: "q12", label: "問題7", sublabel: "情報検索",    type: "grammar_blank", count: 2  },
+                ],
+            },
+            {
+                id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 40,
+                groups: [
+                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6, skipped: true },
+                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6, skipped: true },
+                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3, skipped: true },
+                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4, skipped: true },
+                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9, skipped: true },
                 ],
             },
         ],
@@ -401,27 +418,41 @@ const EXAM: Record<string, {
         passingDisplay: "95",
         passing: { secMin: 19, total: 95 },
         infoRows: [
-            { title: "語彙",       count: 34 },
-            { title: "文法・読解", count: 38 },
-            { title: "聴解",       count: 28, skipped: true },
+            { title: "語彙",       count: N3_7_2023_COUNTS.vocab },
+            { title: "文法・読解", count: N3_7_2023_COUNTS.grammar },
+            { title: "聴解",       count: N3_7_2023_COUNTS.listening, skipped: true },
         ],
         sections: [
             {
                 id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 30,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",   type: "kanji_reading", count: 8  },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",   type: "kanji_writing", count: 6  },
-                    { id: "q3", label: "問題3", sublabel: "文脈規定",        type: "context_vocab", count: 11 },
-                    { id: "q4", label: "問題4", sublabel: "言い換え類義",    type: "context_vocab", count: 5  },
-                    { id: "q5", label: "問題5", sublabel: "用法",            type: "context_vocab", count: 5  },
+                    { id: "q1",  label: "問題1", sublabel: "漢字の読み方",  type: "kanji_reading", count: 8  },
+                    { id: "q2",  label: "問題2", sublabel: "漢字の書き方",  type: "kanji_writing", count: 6  },
+                    { id: "q3",  label: "問題3", sublabel: "文脈規定",       type: "context_vocab", count: 11 },
+                    { id: "q4",  label: "問題4", sublabel: "言い換え類義",   type: "context_vocab", count: 5  },
+                    { id: "q5",  label: "問題5", sublabel: "用法",           type: "context_vocab", count: 5  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
                 groups: [
-                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_blank", count: 13 },
-                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_blank", count: 5  },
-                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_blank", count: 20 },
+                    { id: "q6",  label: "問題1", sublabel: "文の文法1",   type: "grammar_blank", count: 13 },
+                    { id: "q7",  label: "問題2", sublabel: "文の文法2",   type: "grammar_blank", count: 5  },
+                    { id: "q8",  label: "問題3", sublabel: "文章の文法",  type: "grammar_blank", count: 4  },
+                    { id: "q9",  label: "問題4", sublabel: "短文読解",    type: "grammar_blank", count: 4  },
+                    { id: "q10", label: "問題5", sublabel: "中文読解",    type: "grammar_blank", count: 6  },
+                    { id: "q11", label: "問題6", sublabel: "長文読解",    type: "grammar_blank", count: 4  },
+                    { id: "q12", label: "問題7", sublabel: "情報検索",    type: "grammar_blank", count: 2  },
+                ],
+            },
+            {
+                id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 40,
+                groups: [
+                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6, skipped: true },
+                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6, skipped: true },
+                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3, skipped: true },
+                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4, skipped: true },
+                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9, skipped: true },
                 ],
             },
         ],
@@ -432,27 +463,41 @@ const EXAM: Record<string, {
         passingDisplay: "95",
         passing: { secMin: 19, total: 95 },
         infoRows: [
-            { title: "語彙",       count: 34 },
-            { title: "文法・読解", count: 38 },
-            { title: "聴解",       count: 28, skipped: true },
+            { title: "語彙",       count: N3_12_2023_COUNTS.vocab },
+            { title: "文法・読解", count: N3_12_2023_COUNTS.grammar },
+            { title: "聴解",       count: N3_12_2023_COUNTS.listening, skipped: true },
         ],
         sections: [
             {
                 id: "vocab", title: "言語知識（語彙）", titleVi: "Ngôn ngữ — Từ vựng", allocMin: 30,
                 groups: [
-                    { id: "q1", label: "問題1", sublabel: "漢字の読み方",   type: "kanji_reading", count: 8  },
-                    { id: "q2", label: "問題2", sublabel: "漢字の書き方",   type: "kanji_writing", count: 6  },
-                    { id: "q3", label: "問題3", sublabel: "文脈規定",        type: "context_vocab", count: 11 },
-                    { id: "q4", label: "問題4", sublabel: "言い換え類義",    type: "context_vocab", count: 5  },
-                    { id: "q5", label: "問題5", sublabel: "用法",            type: "context_vocab", count: 5  },
+                    { id: "q1",  label: "問題1", sublabel: "漢字の読み方",  type: "kanji_reading", count: 8  },
+                    { id: "q2",  label: "問題2", sublabel: "漢字の書き方",  type: "kanji_writing", count: 6  },
+                    { id: "q3",  label: "問題3", sublabel: "文脈規定",       type: "context_vocab", count: 11 },
+                    { id: "q4",  label: "問題4", sublabel: "言い換え類義",   type: "context_vocab", count: 5  },
+                    { id: "q5",  label: "問題5", sublabel: "用法",           type: "context_vocab", count: 5  },
                 ],
             },
             {
                 id: "grammar", title: "言語知識（文法）・読解", titleVi: "Ngôn ngữ — Ngữ pháp", allocMin: 70,
                 groups: [
-                    { id: "q6", label: "問題1", sublabel: "文の文法1",  type: "grammar_blank", count: 13 },
-                    { id: "q7", label: "問題2", sublabel: "文の文法2",  type: "grammar_blank", count: 5  },
-                    { id: "q8", label: "問題3", sublabel: "文章の文法", type: "grammar_blank", count: 20 },
+                    { id: "q6",  label: "問題1", sublabel: "文の文法1",   type: "grammar_blank", count: 13 },
+                    { id: "q7",  label: "問題2", sublabel: "文の文法2",   type: "grammar_blank", count: 5  },
+                    { id: "q8",  label: "問題3", sublabel: "文章の文法",  type: "grammar_blank", count: 4  },
+                    { id: "q9",  label: "問題4", sublabel: "短文読解",    type: "grammar_blank", count: 4  },
+                    { id: "q10", label: "問題5", sublabel: "中文読解",    type: "grammar_blank", count: 6  },
+                    { id: "q11", label: "問題6", sublabel: "長文読解",    type: "grammar_blank", count: 4  },
+                    { id: "q12", label: "問題7", sublabel: "情報検索",    type: "grammar_blank", count: 2  },
+                ],
+            },
+            {
+                id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 40,
+                groups: [
+                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6, skipped: true },
+                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6, skipped: true },
+                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3, skipped: true },
+                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4, skipped: true },
+                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9, skipped: true },
                 ],
             },
         ],
@@ -833,6 +878,45 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
             questionRefs.current = new Array(N3_7_2022_QUESTIONS.length).fill(null)
             setQuestions(N3_7_2022_QUESTIONS as Question[])
             setAnswers(new Array(N3_7_2022_QUESTIONS.length).fill(null))
+            setIdx(0)
+            setLanguageTimeTaken(0)
+            startTimer(languageMin)
+            setPhase("question")
+            return
+        }
+
+        if (examKey === "N3-12-2022") {
+            if (!mounted.v) return
+            const languageMin = cfg.sections.filter(s => s.id !== "listening").reduce((acc, s) => acc + s.allocMin, 0)
+            questionRefs.current = new Array(N3_12_2022_QUESTIONS.length).fill(null)
+            setQuestions(N3_12_2022_QUESTIONS as Question[])
+            setAnswers(new Array(N3_12_2022_QUESTIONS.length).fill(null))
+            setIdx(0)
+            setLanguageTimeTaken(0)
+            startTimer(languageMin)
+            setPhase("question")
+            return
+        }
+
+        if (examKey === "N3-7-2023") {
+            if (!mounted.v) return
+            const languageMin = cfg.sections.filter(s => s.id !== "listening").reduce((acc, s) => acc + s.allocMin, 0)
+            questionRefs.current = new Array(N3_7_2023_QUESTIONS.length).fill(null)
+            setQuestions(N3_7_2023_QUESTIONS as Question[])
+            setAnswers(new Array(N3_7_2023_QUESTIONS.length).fill(null))
+            setIdx(0)
+            setLanguageTimeTaken(0)
+            startTimer(languageMin)
+            setPhase("question")
+            return
+        }
+
+        if (examKey === "N3-12-2023") {
+            if (!mounted.v) return
+            const languageMin = cfg.sections.filter(s => s.id !== "listening").reduce((acc, s) => acc + s.allocMin, 0)
+            questionRefs.current = new Array(N3_12_2023_QUESTIONS.length).fill(null)
+            setQuestions(N3_12_2023_QUESTIONS as Question[])
+            setAnswers(new Array(N3_12_2023_QUESTIONS.length).fill(null))
             setIdx(0)
             setLanguageTimeTaken(0)
             startTimer(languageMin)
