@@ -256,8 +256,8 @@ const _RAW: Omit<StaticQuestion, "explanation">[] = [
 
   // ── 文法 問題2 文の文法★（並べ替え）(q7, 5問) ─────────────────────────
   { groupId: "q7", sectionId: "grammar", type: "grammar_blank", display: "14",
-    sentence: "私は歌手の石川あかりが大好きだ。彼女　＿＿＿　＿＿＿　[★]　＿＿＿　いないと思う。",
-    options: ["声がきれいな","は","歌手","ほど"], correctIndex: 2 },
+    sentence: "私は歌手の石川あかりが大好きだ。彼女　[★]　＿＿＿　＿＿＿　＿＿＿　いないと思う。",
+    options: ["声がきれいな","は","歌手","ほど"], correctIndex: 3 },
   { groupId: "q7", sectionId: "grammar", type: "grammar_blank", display: "15",
     sentence: "最近は野菜や魚などの食料品も　＿＿＿　＿＿＿　[★]　＿＿＿　ニュースで知った。",
     options: ["人が","増えてきている","インターネットで買う","ということを"], correctIndex: 1 },
@@ -442,41 +442,41 @@ const _RAW: Omit<StaticQuestion, "explanation">[] = [
     ], correctIndex: 1 },
 
   // ── 聴解 問題1 課題理解 (lq1, 6問) ─────────────────────────────────────
-  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "1",  sentence: "聴解 問題1 — 第1問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題1 — 第2問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題1 — 第3問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "4",  sentence: "聴解 問題1 — 第4問", options: ["1","2","3","4"], correctIndex: 0 },
+  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "1",  sentence: "聴解 問題1 — 第1問", options: ["1","2","3","4"], correctIndex: 2 },
+  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題1 — 第2問", options: ["1","2","3","4"], correctIndex: 3 },
+  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題1 — 第3問", options: ["1","2","3","4"], correctIndex: 1 },
+  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "4",  sentence: "聴解 問題1 — 第4問", options: ["1","2","3","4"], correctIndex: 1 },
   { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "5",  sentence: "聴解 問題1 — 第5問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "6",  sentence: "聴解 問題1 — 第6問", options: ["1","2","3","4"], correctIndex: 0 },
+  { groupId: "lq1", sectionId: "listening", type: "listening_scene", display: "6",  sentence: "聴解 問題1 — 第6問", options: ["1","2","3","4"], correctIndex: 1 },
 
   // ── 聴解 問題2 ポイント理解 (lq2, 6問) ──────────────────────────────────
   { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "1",  sentence: "聴解 問題2 — 第1問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題2 — 第2問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題2 — 第3問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "4",  sentence: "聴解 問題2 — 第4問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "5",  sentence: "聴解 問題2 — 第5問", options: ["1","2","3","4"], correctIndex: 0 },
-  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "6",  sentence: "聴解 問題2 — 第6問", options: ["1","2","3","4"], correctIndex: 0 },
+  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題2 — 第2問", options: ["1","2","3","4"], correctIndex: 1 },
+  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題2 — 第3問", options: ["1","2","3","4"], correctIndex: 1 },
+  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "4",  sentence: "聴解 問題2 — 第4問", options: ["1","2","3","4"], correctIndex: 2 },
+  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "5",  sentence: "聴解 問題2 — 第5問", options: ["1","2","3","4"], correctIndex: 2 },
+  { groupId: "lq2", sectionId: "listening", type: "listening_scene", display: "6",  sentence: "聴解 問題2 — 第6問", options: ["1","2","3","4"], correctIndex: 3 },
 
   // ── 聴解 問題3 概要理解 (lq3, 3問) ──────────────────────────────────────
-  { groupId: "lq3", sectionId: "listening", type: "listening_scene", display: "1",  sentence: "聴解 問題3 — 第1問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq3", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題3 — 第2問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq3", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題3 — 第3問", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq3", sectionId: "listening", type: "listening_scene", display: "1",  sentence: "聴解 問題3 — 第1問", options: ["1","2","3","4"], correctIndex: 1 },
+  { groupId: "lq3", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題3 — 第2問", options: ["1","2","3","4"], correctIndex: 3 },
+  { groupId: "lq3", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題3 — 第3問", options: ["1","2","3","4"], correctIndex: 2 },
 
   // ── 聴解 問題4 発話表現 (lq4, 4問) ──────────────────────────────────────
-  { groupId: "lq4", sectionId: "listening", type: "listening_scene", display: "1",  sentence: "聴解 問題4 — 第1問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq4", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題4 — 第2問", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq4", sectionId: "listening", type: "listening_scene", display: "1",  sentence: "聴解 問題4 — 第1問", options: ["1","2","3"], correctIndex: 1 },
+  { groupId: "lq4", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題4 — 第2問", options: ["1","2","3"], correctIndex: 2 },
   { groupId: "lq4", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題4 — 第3問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq4", sectionId: "listening", type: "listening_scene", display: "4",  sentence: "聴解 問題4 — 第4問", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq4", sectionId: "listening", type: "listening_scene", display: "4",  sentence: "聴解 問題4 — 第4問", options: ["1","2","3"], correctIndex: 2 },
 
   // ── 聴解 問題5 即時応答 (lq5, 9問) ──────────────────────────────────────
   { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "1",  sentence: "聴解 問題5 — 第1問", options: ["1","2","3"], correctIndex: 0 },
   { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "2",  sentence: "聴解 問題5 — 第2問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題5 — 第3問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "4",  sentence: "聴解 問題5 — 第4問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "5",  sentence: "聴解 問題5 — 第5問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "6",  sentence: "聴解 問題5 — 第6問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "7",  sentence: "聴解 問題5 — 第7問", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "8",  sentence: "聴解 問題5 — 第8問", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "3",  sentence: "聴解 問題5 — 第3問", options: ["1","2","3"], correctIndex: 2 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "4",  sentence: "聴解 問題5 — 第4問", options: ["1","2","3"], correctIndex: 2 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "5",  sentence: "聴解 問題5 — 第5問", options: ["1","2","3"], correctIndex: 1 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "6",  sentence: "聴解 問題5 — 第6問", options: ["1","2","3"], correctIndex: 1 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "7",  sentence: "聴解 問題5 — 第7問", options: ["1","2","3"], correctIndex: 2 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "8",  sentence: "聴解 問題5 — 第8問", options: ["1","2","3"], correctIndex: 1 },
   { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "9",  sentence: "聴解 問題5 — 第9問", options: ["1","2","3"], correctIndex: 0 },
 ]
 

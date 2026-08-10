@@ -466,15 +466,15 @@ const _RAW: Omit<StaticQuestion, "explanation">[] = [
   { groupId: "lq4", sectionId: "listening", type: "listening_scene", display: "4ばん", options: ["1","2","3","4"], correctIndex: 1 },
 
   // ── 聴解 問題5 (lq5, 9問) ───────────────────────────────────────────────
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "1ばん", options: ["1","2","3"], correctIndex: 2 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "2ばん", options: ["1","2","3"], correctIndex: 1 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "3ばん", options: ["1","2","3"], correctIndex: 0 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "4ばん", options: ["1","2","3"], correctIndex: 1 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "5ばん", options: ["1","2","3"], correctIndex: 2 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "6ばん", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "1ばん", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "2ばん", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "3ばん", options: ["1","2","3"], correctIndex: 1 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "4ばん", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "5ばん", options: ["1","2","3"], correctIndex: 1 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "6ばん", options: ["1","2","3"], correctIndex: 2 },
   { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "7ばん", options: ["1","2","3"], correctIndex: 1 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "8ばん", options: ["1","2","3"], correctIndex: 2 },
-  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "9ばん", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "8ばん", options: ["1","2","3"], correctIndex: 0 },
+  { groupId: "lq5", sectionId: "listening", type: "listening_scene", display: "9ばん", options: ["1","2","3"], correctIndex: 2 },
 ]
 
 // ─── Exports ─────────────────────────────────────────────────────────────────
