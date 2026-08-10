@@ -372,10 +372,11 @@ const EXAM: Record<string, {
         subtitle: "2022年12月",
         passingDisplay: "95",
         passing: { secMin: 19, total: 95 },
+        listeningAudio: "/exams/n3-12-2022/audio/listening.mp3",
         infoRows: [
             { title: "語彙",       count: N3_12_2022_COUNTS.vocab },
             { title: "文法・読解", count: N3_12_2022_COUNTS.grammar },
-            { title: "聴解",       count: N3_12_2022_COUNTS.listening, skipped: true },
+            { title: "聴解",       count: N3_12_2022_COUNTS.listening },
         ],
         sections: [
             {
@@ -403,11 +404,11 @@ const EXAM: Record<string, {
             {
                 id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 40,
                 groups: [
-                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6, skipped: true },
-                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6, skipped: true },
-                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3, skipped: true },
-                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4, skipped: true },
-                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9, skipped: true },
+                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6 },
+                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6 },
+                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3 },
+                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4 },
+                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9 },
                 ],
             },
         ],
@@ -417,10 +418,11 @@ const EXAM: Record<string, {
         subtitle: "2023年7月",
         passingDisplay: "95",
         passing: { secMin: 19, total: 95 },
+        listeningAudio: "/exams/n3-7-2023/audio/listening.mp3",
         infoRows: [
             { title: "語彙",       count: N3_7_2023_COUNTS.vocab },
             { title: "文法・読解", count: N3_7_2023_COUNTS.grammar },
-            { title: "聴解",       count: N3_7_2023_COUNTS.listening, skipped: true },
+            { title: "聴解",       count: N3_7_2023_COUNTS.listening },
         ],
         sections: [
             {
@@ -448,11 +450,11 @@ const EXAM: Record<string, {
             {
                 id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 40,
                 groups: [
-                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6, skipped: true },
-                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6, skipped: true },
-                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3, skipped: true },
-                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4, skipped: true },
-                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9, skipped: true },
+                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6 },
+                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6 },
+                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3 },
+                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4 },
+                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9 },
                 ],
             },
         ],
@@ -462,10 +464,11 @@ const EXAM: Record<string, {
         subtitle: "2023年12月",
         passingDisplay: "95",
         passing: { secMin: 19, total: 95 },
+        listeningAudio: "/exams/n3-12-2023/audio/listening.mp3",
         infoRows: [
             { title: "語彙",       count: N3_12_2023_COUNTS.vocab },
             { title: "文法・読解", count: N3_12_2023_COUNTS.grammar },
-            { title: "聴解",       count: N3_12_2023_COUNTS.listening, skipped: true },
+            { title: "聴解",       count: N3_12_2023_COUNTS.listening },
         ],
         sections: [
             {
@@ -493,11 +496,11 @@ const EXAM: Record<string, {
             {
                 id: "listening", title: "聴解", titleVi: "Nghe hiểu", allocMin: 40,
                 groups: [
-                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6, skipped: true },
-                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6, skipped: true },
-                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3, skipped: true },
-                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4, skipped: true },
-                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9, skipped: true },
+                    { id: "lq1", label: "問題1", sublabel: "課題理解",     type: "listening_scene", count: 6 },
+                    { id: "lq2", label: "問題2", sublabel: "ポイント理解",  type: "listening_scene", count: 6 },
+                    { id: "lq3", label: "問題3", sublabel: "概要理解",     type: "listening_scene", count: 3 },
+                    { id: "lq4", label: "問題4", sublabel: "発話表現",     type: "listening_scene", count: 4 },
+                    { id: "lq5", label: "問題5", sublabel: "即時応答",     type: "listening_scene", count: 9 },
                 ],
             },
         ],
