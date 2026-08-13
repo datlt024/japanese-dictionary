@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560">
+  <rect width="560" height="560" fill="white"/>
+  <line x1="280" y1="0" x2="280" y2="560" stroke="#bbb" stroke-width="1.5"/>
+  <line x1="0" y1="280" x2="560" y2="280" stroke="#bbb" stroke-width="1.5"/>
+  <rect width="560" height="560" fill="none" stroke="#888" stroke-width="2"/>
+
+  <text x="14" y="36" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">①</text>
+  <text x="294" y="36" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">②</text>
+  <text x="14" y="316" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">③</text>
+  <text x="294" y="316" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">④</text>
+
+  <!-- ① コンビニ (convenience store) -->
+  <!-- Building -->
+  <rect x="60" y="80" width="150" height="130" fill="#fffbe6" stroke="#888866" stroke-width="2"/>
+  <!-- Roof -->
+  <polygon points="52,80 218,80 205,55 65,55" fill="#cc3333" stroke="#993333" stroke-width="2"/>
+  <!-- Sign -->
+  <rect x="70" y="88" width="130" height="28" fill="#cc3333" rx="2"/>
+  <text x="135" y="108" text-anchor="middle" font-family="sans-serif" font-size="14" fill="white" font-weight="bold">コンビニ</text>
+  <!-- Door -->
+  <rect x="108" y="154" width="44" height="56" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <line x1="130" y1="154" x2="130" y2="210" stroke="#668" stroke-width="1.5"/>
+  <!-- Windows -->
+  <rect x="68" y="122" width="36" height="28" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <rect x="156" y="122" width="36" height="28" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <text x="135" y="255" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">コンビニ</text>
+
+  <!-- ② バス (bus) -->
+  <!-- Bus body -->
+  <rect x="310" y="115" width="210" height="100" rx="10" fill="#ffeeaa" stroke="#888833" stroke-width="2.5"/>
+  <!-- Bus front -->
+  <rect x="310" y="130" width="22" height="66" rx="4" fill="#ddcc88" stroke="#888833" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="344" y="128" width="36" height="30" rx="3" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <rect x="388" y="128" width="36" height="30" rx="3" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <rect x="432" y="128" width="36" height="30" rx="3" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <!-- Wheels -->
+  <circle cx="350" cy="215" r="18" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="350" cy="215" r="8" fill="#999"/>
+  <circle cx="465" cy="215" r="18" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="465" cy="215" r="8" fill="#999"/>
+  <!-- Door line -->
+  <line x1="332" y1="166" x2="332" y2="215" stroke="#888833" stroke-width="1.5"/>
+  <text x="415" y="258" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">バス</text>
+
+  <!-- ③ でんしゃ (train) -->
+  <!-- Train body -->
+  <rect x="34" y="350" width="220" height="90" rx="12" fill="#6688cc" stroke="#334488" stroke-width="2.5"/>
+  <!-- Front curve -->
+  <ellipse cx="54" cy="395" rx="20" ry="38" fill="#7799dd" stroke="#334488" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="70" y="365" width="40" height="28" rx="4" fill="#aaccee" stroke="#aaddff" stroke-width="1.5"/>
+  <rect x="118" y="365" width="40" height="28" rx="4" fill="#aaccee" stroke="#aaddff" stroke-width="1.5"/>
+  <rect x="166" y="365" width="40" height="28" rx="4" fill="#aaccee" stroke="#aaddff" stroke-width="1.5"/>
+  <!-- Door line -->
+  <line x1="90" y1="394" x2="90" y2="440" stroke="#334488" stroke-width="1.5"/>
+  <!-- Stripe -->
+  <rect x="34" y="402" width="220" height="10" fill="#3355aa" rx="0"/>
+  <!-- Wheels/rail line -->
+  <line x1="20" y1="442" x2="268" y2="442" stroke="#888" stroke-width="3"/>
+  <rect x="55" y="440" width="20" height="8" rx="2" fill="#666"/>
+  <rect x="170" y="440" width="20" height="8" rx="2" fill="#666"/>
+  <text x="140" y="515" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">でんしゃ</text>
+
+  <!-- ④ タクシー (taxi) -->
+  <!-- Car body -->
+  <rect x="308" y="390" width="220" height="65" rx="6" fill="#ffee22" stroke="#887700" stroke-width="2.5"/>
+  <!-- Car roof -->
+  <path d="M350 390 Q360 350 500 350 L510 390 Z" fill="#ffee22" stroke="#887700" stroke-width="2.5"/>
+  <!-- Windows -->
+  <rect x="365" y="358" width="60" height="30" rx="4" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <rect x="440" y="358" width="56" height="30" rx="4" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <!-- Taxi sign on roof -->
+  <rect x="440" y="342" width="50" height="16" rx="3" fill="#cc3333"/>
+  <text x="465" y="354" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white" font-weight="bold">TAXI</text>
+  <!-- Wheels -->
+  <circle cx="360" cy="455" r="20" fill="#444" stroke="#222" stroke-width="2"/>
+  <circle cx="360" cy="455" r="9" fill="#888"/>
+  <circle cx="475" cy="455" r="20" fill="#444" stroke="#222" stroke-width="2"/>
+  <circle cx="475" cy="455" r="9" fill="#888"/>
+  <!-- Stripe -->
+  <rect x="308" y="418" width="220" height="8" fill="#cc8800"/>
+  <text x="420" y="515" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">タクシー</text>
+</svg>

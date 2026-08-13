@@ -1,0 +1,585 @@
+[
+  {
+    "vocabulary_id": 41345,
+    "word": "殿上人",
+    "kana": "てんじょうびと",
+    "senses": [
+      {
+        "sense_id": 271277,
+        "meaning_vi": "cận thần; quan chức tòa án",
+        "confidence": "high",
+        "search_keywords": [
+          "cận thần",
+          "quan chức tòa án"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cận thần; quan chức tòa án",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41346,
+    "word": "殿達",
+    "kana": "とのたち",
+    "senses": [
+      {
+        "sense_id": 271278,
+        "meaning_vi": "giới quý tộc",
+        "confidence": "high",
+        "search_keywords": [
+          "giới quý tộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giới quý tộc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271279,
+        "meaning_vi": "du khách",
+        "confidence": "high",
+        "search_keywords": [
+          "du khách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "du khách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41347,
+    "word": "殿中",
+    "kana": "でんちゅう",
+    "senses": [
+      {
+        "sense_id": 271280,
+        "meaning_vi": "trong cung điện",
+        "confidence": "high",
+        "search_keywords": [
+          "trong cung điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong cung điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41348,
+    "word": "殿堂",
+    "kana": "でんどう",
+    "senses": [
+      {
+        "sense_id": 271281,
+        "meaning_vi": "cung điện; đại sảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "cung điện",
+          "đại sảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cung điện; đại sảnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271282,
+        "meaning_vi": "đền thờ; ngôi đền; thánh đường",
+        "confidence": "high",
+        "search_keywords": [
+          "đền thờ",
+          "ngôi đền",
+          "thánh đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đền thờ; ngôi đền; thánh đường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271283,
+        "meaning_vi": "đại sảnh danh vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "đại sảnh danh vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại sảnh danh vọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41349,
+    "word": "殿方",
+    "kana": "とのがた",
+    "senses": [
+      {
+        "sense_id": 271284,
+        "meaning_vi": "quý ông; đàn ông",
+        "confidence": "high",
+        "search_keywords": [
+          "quý ông",
+          "đàn ông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quý ông; đàn ông",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271285,
+        "meaning_vi": "của nam giới (biển báo trên cửa nhà vệ sinh, phòng tắm, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "của nam giới (biển báo trên cửa nhà vệ sinh, phòng tắm, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "của nam giới (biển báo trên cửa nhà vệ sinh, phòng tắm, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41350,
+    "word": "殿様",
+    "kana": "とのさま",
+    "senses": [
+      {
+        "sense_id": 271286,
+        "meaning_vi": "nhà quý tộc; chức sắc; chúa tể",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà quý tộc",
+          "chức sắc",
+          "chúa tể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà quý tộc; chức sắc; chúa tể",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271287,
+        "meaning_vi": "lãnh chúa phong kiến ​​(thời Edo); daimyo",
+        "confidence": "high",
+        "search_keywords": [
+          "lãnh chúa phong kiến ​​(thời Edo)",
+          "daimyo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lãnh chúa phong kiến ​​(thời Edo); daimyo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271288,
+        "meaning_vi": "con người được đưa lên khỏi thế giới; người đàn ông kiêu ngạo với ít kiến thức về cách sống của thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "con người được đưa lên khỏi thế giới",
+          "người đàn ông kiêu ngạo với ít kiến thức về cách sống của thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con người được đưa lên khỏi thế giới; người đàn ông kiêu ngạo với ít kiến thức về cách sống của thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41351,
+    "word": "殿様育ち",
+    "kana": "とのさまそだち",
+    "senses": [
+      {
+        "sense_id": 271289,
+        "meaning_vi": "lớn lên trong sự sang trọng",
+        "confidence": "high",
+        "search_keywords": [
+          "lớn lên trong sự sang trọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớn lên trong sự sang trọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41352,
+    "word": "殿様蛙",
+    "kana": "とのさまがえる",
+    "senses": [
+      {
+        "sense_id": 271290,
+        "meaning_vi": "Ếch ao đốm đen (Rana nigromaculata)",
+        "confidence": "high",
+        "search_keywords": [
+          "Ếch ao đốm đen (Rana nigromaculata)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ếch ao đốm đen (Rana nigromaculata)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41353,
+    "word": "殿様芸",
+    "kana": "とのさまげい",
+    "senses": [
+      {
+        "sense_id": 271291,
+        "meaning_vi": "tính nghiệp dư; nghiệp dư (trong nghệ thuật)",
+        "confidence": "high",
+        "search_keywords": [
+          "tính nghiệp dư",
+          "nghiệp dư (trong nghệ thuật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính nghiệp dư; nghiệp dư (trong nghệ thuật)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41354,
+    "word": "殿様仕事",
+    "kana": "とのさましごと",
+    "senses": [
+      {
+        "sense_id": 271292,
+        "meaning_vi": "tác phẩm nghiệp dư (trong nghệ thuật); công việc được thực hiện với tâm trạng vô tư, không quan tâm đến thời gian hay chi phí",
+        "confidence": "high",
+        "search_keywords": [
+          "tác phẩm nghiệp dư (trong nghệ thuật)",
+          "công việc được thực hiện với tâm trạng vô tư, không quan tâm đến thời gian hay chi phí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tác phẩm nghiệp dư (trong nghệ thuật); công việc được thực hiện với tâm trạng vô tư, không quan tâm đến thời gian hay chi phí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41355,
+    "word": "殿様風",
+    "kana": "とのさまふう",
+    "senses": [
+      {
+        "sense_id": 271293,
+        "meaning_vi": "không khí chúa tể",
+        "confidence": "high",
+        "search_keywords": [
+          "không khí chúa tể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không khí chúa tể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41356,
+    "word": "澱粉",
+    "kana": "でんぷん",
+    "senses": [
+      {
+        "sense_id": 271294,
+        "meaning_vi": "tinh bột",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh bột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh bột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41357,
+    "word": "澱粉質",
+    "kana": "でんぷんしつ",
+    "senses": [
+      {
+        "sense_id": 271295,
+        "meaning_vi": "độ tinh bột; tinh bột; có mùi hôi",
+        "confidence": "high",
+        "search_keywords": [
+          "độ tinh bột",
+          "tinh bột",
+          "có mùi hôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ tinh bột; tinh bột; có mùi hôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41358,
+    "word": "田",
+    "kana": "た",
+    "senses": [
+      {
+        "sense_id": 271296,
+        "meaning_vi": "ruộng lúa",
+        "confidence": "high",
+        "search_keywords": [
+          "ruộng lúa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ruộng lúa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41359,
+    "word": "田園",
+    "kana": "でんえん",
+    "senses": [
+      {
+        "sense_id": 271297,
+        "meaning_vi": "đất nước; nông thôn; huyện nông thôn",
+        "confidence": "high",
+        "search_keywords": [
+          "đất nước",
+          "nông thôn",
+          "huyện nông thôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đất nước; nông thôn; huyện nông thôn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271298,
+        "meaning_vi": "đất canh tác; lĩnh vực",
+        "confidence": "high",
+        "search_keywords": [
+          "đất canh tác",
+          "lĩnh vực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đất canh tác; lĩnh vực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41360,
+    "word": "田舎",
+    "kana": "いなか",
+    "senses": [
+      {
+        "sense_id": 271299,
+        "meaning_vi": "khu vực nông thôn; nông thôn; những cây gậy",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực nông thôn",
+          "nông thôn",
+          "những cây gậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực nông thôn; nông thôn; những cây gậy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 271300,
+        "meaning_vi": "quê hương",
+        "confidence": "high",
+        "search_keywords": [
+          "quê hương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quê hương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41361,
+    "word": "田舎育ち",
+    "kana": "いなかそだち",
+    "senses": [
+      {
+        "sense_id": 271301,
+        "meaning_vi": "quê hương; lớn lên trong nước",
+        "confidence": "high",
+        "search_keywords": [
+          "quê hương",
+          "lớn lên trong nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quê hương; lớn lên trong nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41362,
+    "word": "田舎者",
+    "kana": "いなかもの",
+    "senses": [
+      {
+        "sense_id": 271302,
+        "meaning_vi": "người từ nông thôn; đồng hương; đồng quê; người tỉnh; thằng quê mùa; hic; đồi bại; người lỗ mãng",
+        "confidence": "high",
+        "search_keywords": [
+          "người từ nông thôn",
+          "đồng hương",
+          "đồng quê",
+          "người tỉnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người từ nông thôn; đồng hương; đồng quê; người tỉnh; thằng quê mùa; hic; đồi bại; người lỗ mãng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41363,
+    "word": "田舎道",
+    "kana": "いなかみち",
+    "senses": [
+      {
+        "sense_id": 271303,
+        "meaning_vi": "đường quê",
+        "confidence": "high",
+        "search_keywords": [
+          "đường quê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường quê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 41364,
+    "word": "田舎風",
+    "kana": "いなかふう",
+    "senses": [
+      {
+        "sense_id": 271304,
+        "meaning_vi": "mộc mạc; phong cách đồng quê",
+        "confidence": "high",
+        "search_keywords": [
+          "mộc mạc",
+          "phong cách đồng quê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mộc mạc; phong cách đồng quê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

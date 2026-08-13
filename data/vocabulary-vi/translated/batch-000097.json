@@ -1,520 +1,491 @@
 [
-{
-"vocabulary_id": 2582,
-"word": "エピタフ",
-"kana": "エピタフ",
-"senses": [
-{
-"sense_id": 220878,
-"meaning_vi": "văn bia mộ",
-"confidence": "medium",
-"search_keywords": [
-"văn bia mộ",
-"bia mộ",
-"epitaph"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "câu văn hoặc bài văn khắc trên bia mộ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2583,
-"word": "エピック",
-"kana": "エピック",
-"senses": [
-{
-"sense_id": 220879,
-"meaning_vi": "sử thi",
-"confidence": "high",
-"search_keywords": [
-"sử thi",
-"anh hùng ca",
-"epic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sử thi; tác phẩm mang tính anh hùng ca",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2584,
-"word": "数",
-"kana": "かず",
-"senses": [
-{
-"sense_id": 288822,
-"meaning_vi": "số lượng",
-"confidence": "high",
-"search_keywords": [
-"số lượng",
-"con số",
-"số"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "số; số lượng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2585,
-"word": "エピローグ",
-"kana": "エピローグ",
-"senses": [
-{
-"sense_id": 220880,
-"meaning_vi": "phần kết",
-"confidence": "high",
-"search_keywords": [
-"phần kết",
-"lời kết",
-"epilogue"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần kết của tác phẩm văn học hoặc sân khấu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2586,
-"word": "エフェクツ",
-"kana": "エフェクツ",
-"senses": [
-{
-"sense_id": 220881,
-"meaning_vi": "hiệu ứng",
-"confidence": "medium",
-"search_keywords": [
-"hiệu ứng",
-"effects"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "các hiệu ứng hoặc tác động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2587,
-"word": "エフェクティブ",
-"kana": "エフェクティブ",
-"senses": [
-{
-"sense_id": 220882,
-"meaning_vi": "hiệu quả",
-"confidence": "high",
-"search_keywords": [
-"hiệu quả",
-"hữu hiệu",
-"effective"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hiệu quả; có tác dụng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2588,
-"word": "エフェクト",
-"kana": "エフェクト",
-"senses": [
-{
-"sense_id": 220883,
-"meaning_vi": "hiệu ứng",
-"confidence": "high",
-"search_keywords": [
-"hiệu ứng",
-"tác dụng",
-"effect"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hiệu ứng; tác động tạo ra bởi một nguyên nhân",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2589,
-"word": "エフェドリン",
-"kana": "エフェドリン",
-"senses": [
-{
-"sense_id": 220884,
-"meaning_vi": "ephedrine",
-"confidence": "high",
-"search_keywords": [
-"ephedrine",
-"ephedrin"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hoạt chất ephedrine dùng trong dược phẩm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2590,
-"word": "ＦＭ",
-"kana": "エフ・エム",
-"senses": [
-{
-"sense_id": 220885,
-"meaning_vi": "FM",
-"confidence": "high",
-"search_keywords": [
-"FM",
-"điều tần",
-"frequency modulation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điều tần; sóng phát thanh FM",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2591,
-"word": "ＦＭチューナー",
-"kana": "エフエムチューナー",
-"senses": [
-{
-"sense_id": 220886,
-"meaning_vi": "bộ thu FM",
-"confidence": "high",
-"search_keywords": [
-"bộ thu FM",
-"FM tuner"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị thu sóng phát thanh FM",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2592,
-"word": "ＦＢＩ",
-"kana": "エフ・ビー・アイ",
-"senses": [
-{
-"sense_id": 220887,
-"meaning_vi": "FBI",
-"confidence": "high",
-"search_keywords": [
-"FBI",
-"Cục Điều tra Liên bang Mỹ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Cục Điều tra Liên bang Hoa Kỳ (Federal Bureau of Investigation)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2593,
-"word": "エプロン",
-"kana": "エプロン",
-"senses": [
-{
-"sense_id": 220888,
-"meaning_vi": "tạp dề",
-"confidence": "high",
-"search_keywords": [
-"tạp dề",
-"apron"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tạp dề dùng để bảo vệ quần áo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220889,
-"meaning_vi": "sân đỗ máy bay",
-"confidence": "high",
-"search_keywords": [
-"sân đỗ máy bay",
-"apron sân bay"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu vực đỗ, nạp nhiên liệu và phục vụ máy bay tại sân bay",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220890,
-"meaning_vi": "phần sân khấu nhô ra",
-"confidence": "medium",
-"search_keywords": [
-"phần sân khấu nhô ra",
-"apron stage"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần sân khấu nhô ra phía trước khán giả",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2594,
-"word": "エプロンステージ",
-"kana": "エプロンステージ",
-"senses": [
-{
-"sense_id": 220891,
-"meaning_vi": "sân khấu nhô ra",
-"confidence": "high",
-"search_keywords": [
-"sân khấu nhô ra",
-"apron stage"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu sân khấu có phần nhô ra phía trước khán giả",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2595,
-"word": "エペ",
-"kana": "エペ",
-"senses": [
-{
-"sense_id": 220892,
-"meaning_vi": "kiếm épée",
-"confidence": "high",
-"search_keywords": [
-"kiếm épée",
-"épée",
-"đấu kiếm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiếm épée dùng trong môn đấu kiếm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2596,
-"word": "エホバ",
-"kana": "エホバ",
-"senses": [
-{
-"sense_id": 220893,
-"meaning_vi": "Đức Giê-hô-va",
-"confidence": "high",
-"search_keywords": [
-"Giê-hô-va",
-"Jehovah"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tên gọi của Thiên Chúa trong một số truyền thống Kitô giáo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220894,
-"meaning_vi": "Nhân Chứng Giê-hô-va",
-"confidence": "high",
-"search_keywords": [
-"Nhân Chứng Giê-hô-va",
-"Jehovah's Witnesses"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tổ chức tôn giáo Nhân Chứng Giê-hô-va",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2597,
-"word": "エボナイト",
-"kana": "エボナイト",
-"senses": [
-{
-"sense_id": 220895,
-"meaning_vi": "ebonite",
-"confidence": "medium",
-"search_keywords": [
-"ebonite",
-"cao su cứng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cao su lưu hóa cứng màu đen",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2598,
-"word": "エポキシ",
-"kana": "エポキシ",
-"senses": [
-{
-"sense_id": 220896,
-"meaning_vi": "epoxy",
-"confidence": "high",
-"search_keywords": [
-"epoxy",
-"nhựa epoxy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhựa epoxy hoặc hợp chất epoxy",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2599,
-"word": "エポック",
-"kana": "エポック",
-"senses": [
-{
-"sense_id": 220897,
-"meaning_vi": "thời đại",
-"confidence": "high",
-"search_keywords": [
-"thời đại",
-"giai đoạn",
-"epoch"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thời đại; giai đoạn có ý nghĩa lịch sử",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2600,
-"word": "エポックメイキング",
-"kana": "エポックメイキング",
-"senses": [
-{
-"sense_id": 220898,
-"meaning_vi": "mang tính bước ngoặt",
-"confidence": "high",
-"search_keywords": [
-"mang tính bước ngoặt",
-"đột phá",
-"epoch-making"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có ý nghĩa lịch sử; tạo ra bước ngoặt lớn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2601,
-"word": "エポレット",
-"kana": "エポレット",
-"senses": [
-{
-"sense_id": 220899,
-"meaning_vi": "cầu vai",
-"confidence": "high",
-"search_keywords": [
-"cầu vai",
-"epaulette"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phù hiệu hoặc miếng trang trí trên vai quân phục",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2582,
+    "word": "エピタフ",
+    "kana": "エピタフ",
+    "senses": [
+      {
+        "sense_id": 220878,
+        "meaning_vi": "văn bia",
+        "confidence": "high",
+        "search_keywords": [
+          "văn bia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "văn bia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2583,
+    "word": "エピック",
+    "kana": "エピック",
+    "senses": [
+      {
+        "sense_id": 220879,
+        "meaning_vi": "sử thi",
+        "confidence": "high",
+        "search_keywords": [
+          "sử thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sử thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2584,
+    "word": "数",
+    "kana": "かず",
+    "senses": [
+      {
+        "sense_id": 288822,
+        "meaning_vi": "con số; số tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "con số",
+          "số tiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con số; số tiền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2585,
+    "word": "エピローグ",
+    "kana": "エピローグ",
+    "senses": [
+      {
+        "sense_id": 220880,
+        "meaning_vi": "phần kết",
+        "confidence": "high",
+        "search_keywords": [
+          "phần kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2586,
+    "word": "エフェクツ",
+    "kana": "エフェクツ",
+    "senses": [
+      {
+        "sense_id": 220881,
+        "meaning_vi": "hiệu ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệu ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệu ứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2587,
+    "word": "エフェクティブ",
+    "kana": "エフェクティブ",
+    "senses": [
+      {
+        "sense_id": 220882,
+        "meaning_vi": "hiệu quả",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệu quả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệu quả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2588,
+    "word": "エフェクト",
+    "kana": "エフェクト",
+    "senses": [
+      {
+        "sense_id": 220883,
+        "meaning_vi": "hiệu ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệu ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệu ứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2589,
+    "word": "エフェドリン",
+    "kana": "エフェドリン",
+    "senses": [
+      {
+        "sense_id": 220884,
+        "meaning_vi": "chất ma hoàng",
+        "confidence": "high",
+        "search_keywords": [
+          "chất ma hoàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất ma hoàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2590,
+    "word": "ＦＭ",
+    "kana": "エフ・エム",
+    "senses": [
+      {
+        "sense_id": 220885,
+        "meaning_vi": "FM; điều chế tần số",
+        "confidence": "high",
+        "search_keywords": [
+          "FM",
+          "điều chế tần số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "FM; điều chế tần số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2591,
+    "word": "ＦＭチューナー",
+    "kana": "エフエムチューナー",
+    "senses": [
+      {
+        "sense_id": 220886,
+        "meaning_vi": "Bộ dò đài FM",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ dò đài FM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ dò đài FM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2592,
+    "word": "ＦＢＩ",
+    "kana": "エフ・ビー・アイ",
+    "senses": [
+      {
+        "sense_id": 220887,
+        "meaning_vi": "Cục Điều tra Liên bang; FBI",
+        "confidence": "high",
+        "search_keywords": [
+          "Cục Điều tra Liên bang",
+          "FBI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cục Điều tra Liên bang; FBI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2593,
+    "word": "エプロン",
+    "kana": "エプロン",
+    "senses": [
+      {
+        "sense_id": 220888,
+        "meaning_vi": "tạp dề",
+        "confidence": "high",
+        "search_keywords": [
+          "tạp dề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạp dề",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220889,
+        "meaning_vi": "tạp dề (sân bay)",
+        "confidence": "high",
+        "search_keywords": [
+          "tạp dề (sân bay)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạp dề (sân bay)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220890,
+        "meaning_vi": "tạp dề (sân khấu)",
+        "confidence": "high",
+        "search_keywords": [
+          "tạp dề (sân khấu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạp dề (sân khấu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2594,
+    "word": "エプロンステージ",
+    "kana": "エプロンステージ",
+    "senses": [
+      {
+        "sense_id": 220891,
+        "meaning_vi": "sân khấu tạp dề",
+        "confidence": "high",
+        "search_keywords": [
+          "sân khấu tạp dề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sân khấu tạp dề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2595,
+    "word": "エペ",
+    "kana": "エペ",
+    "senses": [
+      {
+        "sense_id": 220892,
+        "meaning_vi": "épée (đấu kiếm)",
+        "confidence": "high",
+        "search_keywords": [
+          "épée (đấu kiếm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "épée (đấu kiếm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2596,
+    "word": "エホバ",
+    "kana": "エホバ",
+    "senses": [
+      {
+        "sense_id": 220893,
+        "meaning_vi": "Đức Giê-hô-va",
+        "confidence": "high",
+        "search_keywords": [
+          "Đức Giê-hô-va"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đức Giê-hô-va",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220894,
+        "meaning_vi": "Nhân Chứng Giê-hô-va",
+        "confidence": "high",
+        "search_keywords": [
+          "Nhân Chứng Giê-hô-va"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nhân Chứng Giê-hô-va",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2597,
+    "word": "エボナイト",
+    "kana": "エボナイト",
+    "senses": [
+      {
+        "sense_id": 220895,
+        "meaning_vi": "gỗ mun",
+        "confidence": "high",
+        "search_keywords": [
+          "gỗ mun"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gỗ mun",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2598,
+    "word": "エポキシ",
+    "kana": "エポキシ",
+    "senses": [
+      {
+        "sense_id": 220896,
+        "meaning_vi": "epoxy",
+        "confidence": "low",
+        "search_keywords": [
+          "epoxy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "epoxy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2599,
+    "word": "エポック",
+    "kana": "エポック",
+    "senses": [
+      {
+        "sense_id": 220897,
+        "meaning_vi": "kỷ nguyên",
+        "confidence": "high",
+        "search_keywords": [
+          "kỷ nguyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỷ nguyên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2600,
+    "word": "エポックメイキング",
+    "kana": "エポックメイキング",
+    "senses": [
+      {
+        "sense_id": 220898,
+        "meaning_vi": "tạo kỷ nguyên; then chốt",
+        "confidence": "high",
+        "search_keywords": [
+          "tạo kỷ nguyên",
+          "then chốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạo kỷ nguyên; then chốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2601,
+    "word": "エポレット",
+    "kana": "エポレット",
+    "senses": [
+      {
+        "sense_id": 220899,
+        "meaning_vi": "cầu vai; cầu vai",
+        "confidence": "high",
+        "search_keywords": [
+          "cầu vai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cầu vai; cầu vai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

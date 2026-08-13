@@ -1,0 +1,467 @@
+[
+  {
+    "vocabulary_id": 197250,
+    "word": "インタープリテーション",
+    "kana": "インタープリテーション",
+    "senses": [
+      {
+        "sense_id": 447239,
+        "meaning_vi": "sự thông giải",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thông giải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thông giải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197251,
+    "word": "センター揃え",
+    "kana": "センターぞろえ",
+    "senses": [
+      {
+        "sense_id": 447240,
+        "meaning_vi": "căn chỉnh trung tâm; biện minh trung tâm; định tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "căn chỉnh trung tâm",
+          "biện minh trung tâm",
+          "định tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn chỉnh trung tâm; biện minh trung tâm; định tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197252,
+    "word": "連続値",
+    "kana": "れんぞくち",
+    "senses": [
+      {
+        "sense_id": 447241,
+        "meaning_vi": "giá trị liên tục",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị liên tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị liên tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197253,
+    "word": "離散値",
+    "kana": "りさんち",
+    "senses": [
+      {
+        "sense_id": 447242,
+        "meaning_vi": "giá trị rời rạc",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị rời rạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị rời rạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197254,
+    "word": "完備性",
+    "kana": "かんびせい",
+    "senses": [
+      {
+        "sense_id": 447243,
+        "meaning_vi": "sự đầy đủ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự đầy đủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự đầy đủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197255,
+    "word": "鶏油",
+    "kana": "チーユ",
+    "senses": [
+      {
+        "sense_id": 447244,
+        "meaning_vi": "mỡ gà; dầu gà",
+        "confidence": "high",
+        "search_keywords": [
+          "mỡ gà",
+          "dầu gà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỡ gà; dầu gà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197256,
+    "word": "値型",
+    "kana": "あたいがた",
+    "senses": [
+      {
+        "sense_id": 447245,
+        "meaning_vi": "loại giá trị",
+        "confidence": "high",
+        "search_keywords": [
+          "loại giá trị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại giá trị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197257,
+    "word": "参照型",
+    "kana": "さんしょうがた",
+    "senses": [
+      {
+        "sense_id": 447246,
+        "meaning_vi": "kiểu tham chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu tham chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu tham chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197258,
+    "word": "ボックス化",
+    "kana": "ボックスか",
+    "senses": [
+      {
+        "sense_id": 447247,
+        "meaning_vi": "đấm bốc (đặt một giá trị vào loại trình bao bọc)",
+        "confidence": "high",
+        "search_keywords": [
+          "đấm bốc (đặt một giá trị vào loại trình bao bọc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đấm bốc (đặt một giá trị vào loại trình bao bọc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197259,
+    "word": "ガベージコレクタ",
+    "kana": "ガベージコレクタ",
+    "senses": [
+      {
+        "sense_id": 447248,
+        "meaning_vi": "người thu gom rác",
+        "confidence": "high",
+        "search_keywords": [
+          "người thu gom rác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thu gom rác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197260,
+    "word": "高すぎる",
+    "kana": "たかすぎる",
+    "senses": [
+      {
+        "sense_id": 447249,
+        "meaning_vi": "quá đắt; bị định giá quá cao; quá thân yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "quá đắt",
+          "bị định giá quá cao",
+          "quá thân yêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá đắt; bị định giá quá cao; quá thân yêu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 447250,
+        "meaning_vi": "quá cao; quá cao",
+        "confidence": "high",
+        "search_keywords": [
+          "quá cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá cao; quá cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197261,
+    "word": "列挙型",
+    "kana": "れっきょがた",
+    "senses": [
+      {
+        "sense_id": 447251,
+        "meaning_vi": "kiểu liệt kê; kiểu liệt kê; liệt kê",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu liệt kê",
+          "liệt kê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu liệt kê; kiểu liệt kê; liệt kê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197262,
+    "word": "あるようで無い",
+    "kana": "あるようでない",
+    "senses": [
+      {
+        "sense_id": 447252,
+        "meaning_vi": "không tồn tại mặc dù có vẻ như nó nên tồn tại",
+        "confidence": "high",
+        "search_keywords": [
+          "không tồn tại mặc dù có vẻ như nó nên tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không tồn tại mặc dù có vẻ như nó nên tồn tại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197263,
+    "word": "両端揃え",
+    "kana": "りょうたんぞろえ",
+    "senses": [
+      {
+        "sense_id": 447253,
+        "meaning_vi": "sự biện minh đầy đủ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự biện minh đầy đủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự biện minh đầy đủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197264,
+    "word": "咳が出る",
+    "kana": "せきがでる",
+    "senses": [
+      {
+        "sense_id": 447254,
+        "meaning_vi": "bị ho; ho",
+        "confidence": "high",
+        "search_keywords": [
+          "bị ho",
+          "ho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị ho; ho",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197265,
+    "word": "緋",
+    "kana": "ひ",
+    "senses": [
+      {
+        "sense_id": 447255,
+        "meaning_vi": "đỏ tươi; màu đỏ thẫm; hồng y màu đỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "đỏ tươi",
+          "màu đỏ thẫm",
+          "hồng y màu đỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỏ tươi; màu đỏ thẫm; hồng y màu đỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197266,
+    "word": "アンドリューサルクス",
+    "kana": "アンドリューサルクス",
+    "senses": [
+      {
+        "sense_id": 447256,
+        "meaning_vi": "Andrewsarchus (chi động vật có vú đã tuyệt chủng)",
+        "confidence": "high",
+        "search_keywords": [
+          "Andrewsarchus (chi động vật có vú đã tuyệt chủng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Andrewsarchus (chi động vật có vú đã tuyệt chủng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197267,
+    "word": "グレートアトラクター",
+    "kana": "グレートアトラクター",
+    "senses": [
+      {
+        "sense_id": 447257,
+        "meaning_vi": "Sức hút lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "Sức hút lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sức hút lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197268,
+    "word": "式変形",
+    "kana": "しきへんけい",
+    "senses": [
+      {
+        "sense_id": 447258,
+        "meaning_vi": "sự biến đổi (của một công thức hoặc biểu thức); biến dạng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự biến đổi (của một công thức hoặc biểu thức)",
+          "biến dạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự biến đổi (của một công thức hoặc biểu thức); biến dạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 197269,
+    "word": "無限次元",
+    "kana": "むげんじげん",
+    "senses": [
+      {
+        "sense_id": 447259,
+        "meaning_vi": "vô hạn chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "vô hạn chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô hạn chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

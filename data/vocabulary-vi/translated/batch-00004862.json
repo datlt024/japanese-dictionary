@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 117623,
+    "word": "アクセス許可",
+    "kana": "アクセスきょか",
+    "senses": [
+      {
+        "sense_id": 361137,
+        "meaning_vi": "quyền truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117624,
+    "word": "アクセス系",
+    "kana": "アクセスけい",
+    "senses": [
+      {
+        "sense_id": 361138,
+        "meaning_vi": "hệ thống truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117625,
+    "word": "アクセス権限",
+    "kana": "アクセスけんげん",
+    "senses": [
+      {
+        "sense_id": 361139,
+        "meaning_vi": "ủy quyền truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy quyền truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy quyền truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117626,
+    "word": "アクセス時間",
+    "kana": "アクセスじかん",
+    "senses": [
+      {
+        "sense_id": 361140,
+        "meaning_vi": "thời gian truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117627,
+    "word": "アクセス失敗率",
+    "kana": "アクセスしっぱいりつ",
+    "senses": [
+      {
+        "sense_id": 361141,
+        "meaning_vi": "tỷ lệ thất bại",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ thất bại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ thất bại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117628,
+    "word": "アクセス情報",
+    "kana": "アクセスじょうほう",
+    "senses": [
+      {
+        "sense_id": 361142,
+        "meaning_vi": "truy cập thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117629,
+    "word": "アクセス制御",
+    "kana": "アクセスせいぎょ",
+    "senses": [
+      {
+        "sense_id": 361143,
+        "meaning_vi": "kiểm soát truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117630,
+    "word": "アクセス制御フィールド",
+    "kana": "アクセスせいぎょフィールド",
+    "senses": [
+      {
+        "sense_id": 361144,
+        "meaning_vi": "trường kiểm soát truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "trường kiểm soát truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường kiểm soát truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117631,
+    "word": "アクセス制御一覧",
+    "kana": "アクセスせいぎょいちらん",
+    "senses": [
+      {
+        "sense_id": 361145,
+        "meaning_vi": "danh sách kiểm soát truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "danh sách kiểm soát truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh sách kiểm soát truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117632,
+    "word": "アクセス制御語",
+    "kana": "アクセスせいぎょご",
+    "senses": [
+      {
+        "sense_id": 361146,
+        "meaning_vi": "từ kiểm soát truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "từ kiểm soát truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ kiểm soát truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117633,
+    "word": "アクセス単位",
+    "kana": "アクセスたんい",
+    "senses": [
+      {
+        "sense_id": 361147,
+        "meaning_vi": "Đơn vị truy cập; AU",
+        "confidence": "high",
+        "search_keywords": [
+          "Đơn vị truy cập",
+          "AU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đơn vị truy cập; AU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117634,
+    "word": "アクセス点",
+    "kana": "アクセスてん",
+    "senses": [
+      {
+        "sense_id": 361148,
+        "meaning_vi": "điểm truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117635,
+    "word": "アクセス番号",
+    "kana": "アクセスばんごう",
+    "senses": [
+      {
+        "sense_id": 361149,
+        "meaning_vi": "số truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "số truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117636,
+    "word": "アクセス不能",
+    "kana": "アクセスふのう",
+    "senses": [
+      {
+        "sense_id": 361150,
+        "meaning_vi": "không thể truy cập được",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể truy cập được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể truy cập được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117637,
+    "word": "アクセス保護手続き",
+    "kana": "アクセスほごてつづき",
+    "senses": [
+      {
+        "sense_id": 361151,
+        "meaning_vi": "thủ tục bảo mật truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "thủ tục bảo mật truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ tục bảo mật truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117638,
+    "word": "アクセス方式",
+    "kana": "アクセスほうしき",
+    "senses": [
+      {
+        "sense_id": 361152,
+        "meaning_vi": "phương pháp truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117639,
+    "word": "アクセス法",
+    "kana": "アクセスほう",
+    "senses": [
+      {
+        "sense_id": 361153,
+        "meaning_vi": "phương pháp truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117640,
+    "word": "アクセス網",
+    "kana": "アクセスもう",
+    "senses": [
+      {
+        "sense_id": 361154,
+        "meaning_vi": "mạng truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117641,
+    "word": "アクセス料金",
+    "kana": "アクセスりょうきん",
+    "senses": [
+      {
+        "sense_id": 361155,
+        "meaning_vi": "phí truy cập; phí truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "phí truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phí truy cập; phí truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117642,
+    "word": "アクセス例外",
+    "kana": "アクセスれいがい",
+    "senses": [
+      {
+        "sense_id": 361156,
+        "meaning_vi": "truy cập ngoại lệ",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập ngoại lệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập ngoại lệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

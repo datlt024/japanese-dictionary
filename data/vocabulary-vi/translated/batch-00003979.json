@@ -1,0 +1,518 @@
+[
+  {
+    "vocabulary_id": 97718,
+    "word": "焙煎",
+    "kana": "ばいせん",
+    "senses": [
+      {
+        "sense_id": 338737,
+        "meaning_vi": "rang (ví dụ: cà phê)",
+        "confidence": "high",
+        "search_keywords": [
+          "rang (ví dụ: cà phê)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rang (ví dụ: cà phê)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97719,
+    "word": "位",
+    "kana": "い",
+    "senses": [
+      {
+        "sense_id": 338738,
+        "meaning_vi": "thứ hạng; địa điểm (ví dụ: vị trí đầu tiên)",
+        "confidence": "high",
+        "search_keywords": [
+          "thứ hạng",
+          "địa điểm (ví dụ: vị trí đầu tiên)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thứ hạng; địa điểm (ví dụ: vị trí đầu tiên)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 338739,
+        "meaning_vi": "chữ số thập phân",
+        "confidence": "high",
+        "search_keywords": [
+          "chữ số thập phân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chữ số thập phân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 338740,
+        "meaning_vi": "truy cập cho ma",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập cho ma"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập cho ma",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97720,
+    "word": "省略形",
+    "kana": "しょうりゃくけい",
+    "senses": [
+      {
+        "sense_id": 338741,
+        "meaning_vi": "viết tắt; phong cách viết tắt",
+        "confidence": "high",
+        "search_keywords": [
+          "viết tắt",
+          "phong cách viết tắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết tắt; phong cách viết tắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97721,
+    "word": "変化形",
+    "kana": "へんかけい",
+    "senses": [
+      {
+        "sense_id": 338742,
+        "meaning_vi": "biến thể; mẫu biến thể",
+        "confidence": "high",
+        "search_keywords": [
+          "biến thể",
+          "mẫu biến thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến thể; mẫu biến thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97722,
+    "word": "変異形",
+    "kana": "へんいけい",
+    "senses": [
+      {
+        "sense_id": 338743,
+        "meaning_vi": "biến thể; mẫu biến thể",
+        "confidence": "high",
+        "search_keywords": [
+          "biến thể",
+          "mẫu biến thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến thể; mẫu biến thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97723,
+    "word": "適潤",
+    "kana": "てきじゅん",
+    "senses": [
+      {
+        "sense_id": 338744,
+        "meaning_vi": "độ ẩm thích hợp; đủ ẩm (ví dụ đối với cây trồng)",
+        "confidence": "high",
+        "search_keywords": [
+          "độ ẩm thích hợp",
+          "đủ ẩm (ví dụ đối với cây trồng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ ẩm thích hợp; đủ ẩm (ví dụ đối với cây trồng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97724,
+    "word": "同じくらい",
+    "kana": "おなじくらい",
+    "senses": [
+      {
+        "sense_id": 338745,
+        "meaning_vi": "xấp xỉ như nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "xấp xỉ như nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xấp xỉ như nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97725,
+    "word": "形",
+    "kana": "かた",
+    "senses": [
+      {
+        "sense_id": 338746,
+        "meaning_vi": "hình dạng; hình thức; phong cách",
+        "confidence": "high",
+        "search_keywords": [
+          "hình dạng",
+          "hình thức",
+          "phong cách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình dạng; hình thức; phong cách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 338747,
+        "meaning_vi": "bảo vệ; tài sản thế chấp",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo vệ",
+          "tài sản thế chấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo vệ; tài sản thế chấp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 338748,
+        "meaning_vi": "mặt trái của đồng xu zeni cũ",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt trái của đồng xu zeni cũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt trái của đồng xu zeni cũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97726,
+    "word": "どれ位",
+    "kana": "どれくらい",
+    "senses": [
+      {
+        "sense_id": 338749,
+        "meaning_vi": "bao lâu; bao xa; bao nhiêu",
+        "confidence": "high",
+        "search_keywords": [
+          "bao lâu",
+          "bao xa",
+          "bao nhiêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bao lâu; bao xa; bao nhiêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97727,
+    "word": "閃緑岩",
+    "kana": "せんりょくがん",
+    "senses": [
+      {
+        "sense_id": 338750,
+        "meaning_vi": "diorit",
+        "confidence": "high",
+        "search_keywords": [
+          "diorit"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "diorit",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97728,
+    "word": "斑れい岩",
+    "kana": "はんれいがん",
+    "senses": [
+      {
+        "sense_id": 338751,
+        "meaning_vi": "gabro",
+        "confidence": "high",
+        "search_keywords": [
+          "gabro"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gabro",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97729,
+    "word": "酸性土",
+    "kana": "さんせいど",
+    "senses": [
+      {
+        "sense_id": 338752,
+        "meaning_vi": "đất chua",
+        "confidence": "high",
+        "search_keywords": [
+          "đất chua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đất chua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97730,
+    "word": "水ようかん",
+    "kana": "みずようかん",
+    "senses": [
+      {
+        "sense_id": 338753,
+        "meaning_vi": "mizu yōkan; thạch đậu adzuki mềm",
+        "confidence": "high",
+        "search_keywords": [
+          "mizu yōkan",
+          "thạch đậu adzuki mềm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mizu yōkan; thạch đậu adzuki mềm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97731,
+    "word": "敷居が高い",
+    "kana": "しきいがたかい",
+    "senses": [
+      {
+        "sense_id": 338754,
+        "meaning_vi": "có ngưỡng cao (để vào); khó tiếp cận; cảm thấy lúng túng khi đến (nhà ai đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "có ngưỡng cao (để vào)",
+          "khó tiếp cận",
+          "cảm thấy lúng túng khi đến (nhà ai đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có ngưỡng cao (để vào); khó tiếp cận; cảm thấy lúng túng khi đến (nhà ai đó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97732,
+    "word": "逆凪",
+    "kana": "さかなぎ",
+    "senses": [
+      {
+        "sense_id": 338755,
+        "meaning_vi": "phản tác dụng (của bùa chú, lời nguyền, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "phản tác dụng (của bùa chú, lời nguyền, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản tác dụng (của bùa chú, lời nguyền, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97733,
+    "word": "うっかりミス",
+    "kana": "うっかりミス",
+    "senses": [
+      {
+        "sense_id": 338756,
+        "meaning_vi": "sai lầm trung thực",
+        "confidence": "high",
+        "search_keywords": [
+          "sai lầm trung thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sai lầm trung thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97734,
+    "word": "ポカミス",
+    "kana": "ポカミス",
+    "senses": [
+      {
+        "sense_id": 338757,
+        "meaning_vi": "sai lầm bất cẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "sai lầm bất cẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sai lầm bất cẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97735,
+    "word": "勝手にしろ",
+    "kana": "かってにしろ",
+    "senses": [
+      {
+        "sense_id": 338758,
+        "meaning_vi": "hãy làm theo cách của bạn; chết tiệt với bạn!; được root!; làm phiền bạn quá!",
+        "confidence": "high",
+        "search_keywords": [
+          "hãy làm theo cách của bạn",
+          "chết tiệt với bạn!",
+          "được root!",
+          "làm phiền bạn quá!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hãy làm theo cách của bạn; chết tiệt với bạn!; được root!; làm phiền bạn quá!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97736,
+    "word": "骨董店",
+    "kana": "こっとうてん",
+    "senses": [
+      {
+        "sense_id": 338759,
+        "meaning_vi": "cửa hàng đồ cổ",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa hàng đồ cổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa hàng đồ cổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 97737,
+    "word": "嫉妬心",
+    "kana": "しっとしん",
+    "senses": [
+      {
+        "sense_id": 338760,
+        "meaning_vi": "cảm giác ghen tị; cảm giác ghen tị",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm giác ghen tị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm giác ghen tị; cảm giác ghen tị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

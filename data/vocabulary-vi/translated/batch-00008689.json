@@ -1,0 +1,448 @@
+[
+  {
+    "vocabulary_id": 200297,
+    "word": "薬さじ",
+    "kana": "やくさじ",
+    "senses": [
+      {
+        "sense_id": 450525,
+        "meaning_vi": "thìa pha chế; thìa phòng thí nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "thìa pha chế",
+          "thìa phòng thí nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thìa pha chế; thìa phòng thí nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200298,
+    "word": "麦わら帽",
+    "kana": "むぎわらぼう",
+    "senses": [
+      {
+        "sense_id": 450526,
+        "meaning_vi": "mũ rơm",
+        "confidence": "high",
+        "search_keywords": [
+          "mũ rơm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mũ rơm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200299,
+    "word": "スパテル",
+    "kana": "スパテル",
+    "senses": [
+      {
+        "sense_id": 450527,
+        "meaning_vi": "thìa",
+        "confidence": "high",
+        "search_keywords": [
+          "thìa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thìa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200300,
+    "word": "スパーテル",
+    "kana": "スパーテル",
+    "senses": [
+      {
+        "sense_id": 450528,
+        "meaning_vi": "(phòng thí nghiệm) cái thìa",
+        "confidence": "high",
+        "search_keywords": [
+          "(phòng thí nghiệm) cái thìa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(phòng thí nghiệm) cái thìa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200301,
+    "word": "ざり",
+    "kana": "ざり",
+    "senses": [
+      {
+        "sense_id": 450529,
+        "meaning_vi": "là; là",
+        "confidence": "high",
+        "search_keywords": [
+          "là"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là; là",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200302,
+    "word": "リピート率",
+    "kana": "リピートりつ",
+    "senses": [
+      {
+        "sense_id": 450530,
+        "meaning_vi": "tỷ lệ khách hàng lặp lại; tỷ lệ khách hàng quay lại",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ khách hàng lặp lại",
+          "tỷ lệ khách hàng quay lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ khách hàng lặp lại; tỷ lệ khách hàng quay lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200303,
+    "word": "１４時",
+    "kana": "じゅうよじ",
+    "senses": [
+      {
+        "sense_id": 450531,
+        "meaning_vi": "2 giờ chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "2 giờ chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "2 giờ chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200304,
+    "word": "１５時",
+    "kana": "じゅうごじ",
+    "senses": [
+      {
+        "sense_id": 450532,
+        "meaning_vi": "3 giờ chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "3 giờ chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "3 giờ chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200305,
+    "word": "１６時",
+    "kana": "じゅうろくじ",
+    "senses": [
+      {
+        "sense_id": 450533,
+        "meaning_vi": "4 giờ chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "4 giờ chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "4 giờ chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200306,
+    "word": "１７時",
+    "kana": "じゅうしちじ",
+    "senses": [
+      {
+        "sense_id": 450534,
+        "meaning_vi": "5 giờ chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "5 giờ chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "5 giờ chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200307,
+    "word": "１８時",
+    "kana": "じゅうはちじ",
+    "senses": [
+      {
+        "sense_id": 450535,
+        "meaning_vi": "6 giờ chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "6 giờ chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "6 giờ chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200308,
+    "word": "１９時",
+    "kana": "じゅうくじ",
+    "senses": [
+      {
+        "sense_id": 450536,
+        "meaning_vi": "7 giờ tối",
+        "confidence": "high",
+        "search_keywords": [
+          "7 giờ tối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "7 giờ tối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200309,
+    "word": "２０時",
+    "kana": "にじゅうじ",
+    "senses": [
+      {
+        "sense_id": 450537,
+        "meaning_vi": "8 giờ tối",
+        "confidence": "high",
+        "search_keywords": [
+          "8 giờ tối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "8 giờ tối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200310,
+    "word": "２１時",
+    "kana": "にじゅういちじ",
+    "senses": [
+      {
+        "sense_id": 450538,
+        "meaning_vi": "9 giờ tối",
+        "confidence": "high",
+        "search_keywords": [
+          "9 giờ tối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "9 giờ tối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200311,
+    "word": "２２時",
+    "kana": "にじゅうにじ",
+    "senses": [
+      {
+        "sense_id": 450539,
+        "meaning_vi": "10 giờ tối",
+        "confidence": "high",
+        "search_keywords": [
+          "10 giờ tối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "10 giờ tối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200312,
+    "word": "２３時",
+    "kana": "にじゅうさんじ",
+    "senses": [
+      {
+        "sense_id": 450540,
+        "meaning_vi": "11 giờ tối",
+        "confidence": "high",
+        "search_keywords": [
+          "11 giờ tối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "11 giờ tối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200313,
+    "word": "２４時",
+    "kana": "にじゅうよんじ",
+    "senses": [
+      {
+        "sense_id": 450541,
+        "meaning_vi": "12 giờ sáng; nửa đêm",
+        "confidence": "high",
+        "search_keywords": [
+          "12 giờ sáng",
+          "nửa đêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "12 giờ sáng; nửa đêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200314,
+    "word": "緑の週間",
+    "kana": "みどりのしゅうかん",
+    "senses": [
+      {
+        "sense_id": 450542,
+        "meaning_vi": "Tuần lễ trồng cây; Tuần lễ xanh",
+        "confidence": "high",
+        "search_keywords": [
+          "Tuần lễ trồng cây",
+          "Tuần lễ xanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tuần lễ trồng cây; Tuần lễ xanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200315,
+    "word": "健診",
+    "kana": "けんしん",
+    "senses": [
+      {
+        "sense_id": 450543,
+        "meaning_vi": "kiểm tra sức khỏe; (chung) khám bệnh; khám sức khoẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra sức khỏe",
+          "(chung) khám bệnh",
+          "khám sức khoẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra sức khỏe; (chung) khám bệnh; khám sức khoẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 200316,
+    "word": "代謝症候群",
+    "kana": "たいしゃしょうこうぐん",
+    "senses": [
+      {
+        "sense_id": 450544,
+        "meaning_vi": "hội chứng chuyển hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "hội chứng chuyển hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội chứng chuyển hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

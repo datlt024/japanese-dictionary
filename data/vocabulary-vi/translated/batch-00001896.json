@@ -1,0 +1,630 @@
+[
+  {
+    "vocabulary_id": 49242,
+    "word": "幕僚",
+    "kana": "ばくりょう",
+    "senses": [
+      {
+        "sense_id": 281736,
+        "meaning_vi": "nhân viên; nhân viên",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân viên; nhân viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49243,
+    "word": "幕僚長",
+    "kana": "ばくりょうちょう",
+    "senses": [
+      {
+        "sense_id": 281737,
+        "meaning_vi": "chánh văn phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "chánh văn phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chánh văn phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49244,
+    "word": "膜",
+    "kana": "まく",
+    "senses": [
+      {
+        "sense_id": 281738,
+        "meaning_vi": "màng; phim ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "màng",
+          "phim ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màng; phim ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49245,
+    "word": "枕",
+    "kana": "まくら",
+    "senses": [
+      {
+        "sense_id": 281739,
+        "meaning_vi": "cái gối; củng cố",
+        "confidence": "high",
+        "search_keywords": [
+          "cái gối",
+          "củng cố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái gối; củng cố",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281740,
+        "meaning_vi": "phần giới thiệu (ví dụ: về một câu chuyện rakugo); sự dẫn đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "phần giới thiệu (ví dụ: về một câu chuyện rakugo)",
+          "sự dẫn đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần giới thiệu (ví dụ: về một câu chuyện rakugo); sự dẫn đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49246,
+    "word": "枕辺",
+    "kana": "まくらべ",
+    "senses": [
+      {
+        "sense_id": 281741,
+        "meaning_vi": "đầu giường",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu giường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu giường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49247,
+    "word": "鮪",
+    "kana": "マグロ",
+    "senses": [
+      {
+        "sense_id": 281742,
+        "meaning_vi": "cá ngừ (Thunnus spp.; đặc biệt là cá ngừ vây xanh Thái Bình Dương)",
+        "confidence": "high",
+        "search_keywords": [
+          "cá ngừ (Thunnus spp.",
+          "đặc biệt là cá ngừ vây xanh Thái Bình Dương)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá ngừ (Thunnus spp.; đặc biệt là cá ngừ vây xanh Thái Bình Dương)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281743,
+        "meaning_vi": "cá chết (người không phản ứng hoặc thụ động khi quan hệ tình dục); sao biển",
+        "confidence": "high",
+        "search_keywords": [
+          "cá chết (người không phản ứng hoặc thụ động khi quan hệ tình dục)",
+          "sao biển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá chết (người không phản ứng hoặc thụ động khi quan hệ tình dục); sao biển",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281744,
+        "meaning_vi": "thi thể người bị tàu hỏa đâm",
+        "confidence": "high",
+        "search_keywords": [
+          "thi thể người bị tàu hỏa đâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thi thể người bị tàu hỏa đâm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281745,
+        "meaning_vi": "người bất tỉnh vì rượu",
+        "confidence": "high",
+        "search_keywords": [
+          "người bất tỉnh vì rượu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người bất tỉnh vì rượu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49248,
+    "word": "鮪釣り",
+    "kana": "まぐろつり",
+    "senses": [
+      {
+        "sense_id": 281746,
+        "meaning_vi": "câu cá ngừ",
+        "confidence": "high",
+        "search_keywords": [
+          "câu cá ngừ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu cá ngừ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49249,
+    "word": "鱒",
+    "kana": "ます",
+    "senses": [
+      {
+        "sense_id": 281747,
+        "meaning_vi": "cá hồi; cá hồi biển",
+        "confidence": "high",
+        "search_keywords": [
+          "cá hồi",
+          "cá hồi biển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá hồi; cá hồi biển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49250,
+    "word": "又",
+    "kana": "また",
+    "senses": [
+      {
+        "sense_id": 281748,
+        "meaning_vi": "lại; một lần nữa; một lần nữa; lúc khác; lúc khác",
+        "confidence": "high",
+        "search_keywords": [
+          "lại",
+          "một lần nữa",
+          "lúc khác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lại; một lần nữa; một lần nữa; lúc khác; lúc khác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281749,
+        "meaning_vi": "Mà còn; cũng vậy; cũng vậy; tương tự như vậy",
+        "confidence": "high",
+        "search_keywords": [
+          "Mà còn",
+          "cũng vậy",
+          "tương tự như vậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mà còn; cũng vậy; cũng vậy; tương tự như vậy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281750,
+        "meaning_vi": "mặt khác; trong khi",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt khác",
+          "trong khi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt khác; trong khi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281751,
+        "meaning_vi": "Và; Ngoài ra; bên cạnh đó; Hơn thế nữa; hơn nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "Và",
+          "Ngoài ra",
+          "bên cạnh đó",
+          "Hơn thế nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Và; Ngoài ra; bên cạnh đó; Hơn thế nữa; hơn nữa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281752,
+        "meaning_vi": "hoặc; mặt khác",
+        "confidence": "high",
+        "search_keywords": [
+          "hoặc",
+          "mặt khác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoặc; mặt khác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281753,
+        "meaning_vi": "Thực ra; Làm sao; (cái gì, tại sao) trên trái đất",
+        "confidence": "high",
+        "search_keywords": [
+          "Thực ra",
+          "Làm sao",
+          "(cái gì, tại sao) trên trái đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thực ra; Làm sao; (cái gì, tại sao) trên trái đất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281754,
+        "meaning_vi": "một lúc nào đó (trong tương lai)",
+        "confidence": "high",
+        "search_keywords": [
+          "một lúc nào đó (trong tương lai)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một lúc nào đó (trong tương lai)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 281755,
+        "meaning_vi": "gián tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "gián tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gián tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49251,
+    "word": "又しても",
+    "kana": "またしても",
+    "senses": [
+      {
+        "sense_id": 281756,
+        "meaning_vi": "lại; một lần nữa; một lần nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "lại",
+          "một lần nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lại; một lần nữa; một lần nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49252,
+    "word": "又と",
+    "kana": "またと",
+    "senses": [
+      {
+        "sense_id": 281757,
+        "meaning_vi": "(không bao giờ) nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "(không bao giờ) nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(không bao giờ) nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49253,
+    "word": "又とない",
+    "kana": "またとない",
+    "senses": [
+      {
+        "sense_id": 281758,
+        "meaning_vi": "độc nhất; vô song; vô song; vô song; không bao giờ nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "độc nhất",
+          "vô song",
+          "không bao giờ nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độc nhất; vô song; vô song; vô song; không bao giờ nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49254,
+    "word": "またの日",
+    "kana": "またのひ",
+    "senses": [
+      {
+        "sense_id": 281759,
+        "meaning_vi": "một ngày khác; ngày hôm sau",
+        "confidence": "high",
+        "search_keywords": [
+          "một ngày khác",
+          "ngày hôm sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một ngày khác; ngày hôm sau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49255,
+    "word": "またの名",
+    "kana": "またのな",
+    "senses": [
+      {
+        "sense_id": 281760,
+        "meaning_vi": "bí danh; tên khác",
+        "confidence": "high",
+        "search_keywords": [
+          "bí danh",
+          "tên khác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bí danh; tên khác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49256,
+    "word": "又は",
+    "kana": "または",
+    "senses": [
+      {
+        "sense_id": 281761,
+        "meaning_vi": "hoặc; hoặc ... hoặc ...",
+        "confidence": "high",
+        "search_keywords": [
+          "hoặc",
+          "hoặc ... hoặc ..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoặc; hoặc ... hoặc ...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49257,
+    "word": "又もや",
+    "kana": "またもや",
+    "senses": [
+      {
+        "sense_id": 281762,
+        "meaning_vi": "một lần nữa; một lần nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "một lần nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một lần nữa; một lần nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49258,
+    "word": "又家来",
+    "kana": "またげらい",
+    "senses": [
+      {
+        "sense_id": 281763,
+        "meaning_vi": "người giữ thứ cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "người giữ thứ cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người giữ thứ cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49259,
+    "word": "又写し",
+    "kana": "またうつし",
+    "senses": [
+      {
+        "sense_id": 281764,
+        "meaning_vi": "sao chép lại",
+        "confidence": "high",
+        "search_keywords": [
+          "sao chép lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sao chép lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49260,
+    "word": "又借り",
+    "kana": "またがり",
+    "senses": [
+      {
+        "sense_id": 281765,
+        "meaning_vi": "mượn cái gì đó đã mượn rồi",
+        "confidence": "high",
+        "search_keywords": [
+          "mượn cái gì đó đã mượn rồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mượn cái gì đó đã mượn rồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 49261,
+    "word": "又従兄弟",
+    "kana": "またいとこ",
+    "senses": [
+      {
+        "sense_id": 281766,
+        "meaning_vi": "anh họ thứ hai",
+        "confidence": "high",
+        "search_keywords": [
+          "anh họ thứ hai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anh họ thứ hai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

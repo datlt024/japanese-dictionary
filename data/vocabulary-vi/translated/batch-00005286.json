@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 126284,
+    "word": "部門名",
+    "kana": "ぶもんめい",
+    "senses": [
+      {
+        "sense_id": 369932,
+        "meaning_vi": "tên đơn vị tổ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "tên đơn vị tổ chức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên đơn vị tổ chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126285,
+    "word": "風景画書式",
+    "kana": "ふうけいがしょしき",
+    "senses": [
+      {
+        "sense_id": 369933,
+        "meaning_vi": "định dạng ngang",
+        "confidence": "high",
+        "search_keywords": [
+          "định dạng ngang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định dạng ngang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126286,
+    "word": "副プログラム",
+    "kana": "ふくプログラム",
+    "senses": [
+      {
+        "sense_id": 369934,
+        "meaning_vi": "chương trình con",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình con",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126287,
+    "word": "副ボリューム記述子",
+    "kana": "ふくボリュームきじゅつし",
+    "senses": [
+      {
+        "sense_id": 369935,
+        "meaning_vi": "SVD; Bộ mô tả tập bổ sung",
+        "confidence": "high",
+        "search_keywords": [
+          "SVD",
+          "Bộ mô tả tập bổ sung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "SVD; Bộ mô tả tập bổ sung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126288,
+    "word": "副レコードキー",
+    "kana": "ふくレコードキー",
+    "senses": [
+      {
+        "sense_id": 369936,
+        "meaning_vi": "khóa ghi thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "khóa ghi thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóa ghi thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126289,
+    "word": "副層",
+    "kana": "ふくそう",
+    "senses": [
+      {
+        "sense_id": 369937,
+        "meaning_vi": "lớp phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126290,
+    "word": "副待ち行列",
+    "kana": "ふくまちぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 369938,
+        "meaning_vi": "hàng đợi phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng đợi phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng đợi phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126291,
+    "word": "副電力",
+    "kana": "ふくでんりょく",
+    "senses": [
+      {
+        "sense_id": 369939,
+        "meaning_vi": "nguồn điện thứ cấp (cung cấp)",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn điện thứ cấp (cung cấp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn điện thứ cấp (cung cấp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126292,
+    "word": "副要求",
+    "kana": "ふくようきゅう",
+    "senses": [
+      {
+        "sense_id": 369940,
+        "meaning_vi": "yêu cầu phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "yêu cầu phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yêu cầu phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126293,
+    "word": "復帰アドレス",
+    "kana": "ふっきアドレス",
+    "senses": [
+      {
+        "sense_id": 369941,
+        "meaning_vi": "địa chỉ trả lại",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ trả lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ trả lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126294,
+    "word": "復帰コード",
+    "kana": "ふっきコード",
+    "senses": [
+      {
+        "sense_id": 369942,
+        "meaning_vi": "mã trả lại",
+        "confidence": "high",
+        "search_keywords": [
+          "mã trả lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã trả lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126295,
+    "word": "復帰文字",
+    "kana": "ふっきもじ",
+    "senses": [
+      {
+        "sense_id": 369943,
+        "meaning_vi": "vận chuyển trở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "vận chuyển trở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vận chuyển trở lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126296,
+    "word": "復旧手順",
+    "kana": "ふっきゅうてじゅん",
+    "senses": [
+      {
+        "sense_id": 369944,
+        "meaning_vi": "thủ tục phục hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "thủ tục phục hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ tục phục hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126297,
+    "word": "復号化",
+    "kana": "ふくごうか",
+    "senses": [
+      {
+        "sense_id": 369945,
+        "meaning_vi": "giải mã; giải mã; giải mã",
+        "confidence": "high",
+        "search_keywords": [
+          "giải mã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải mã; giải mã; giải mã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126298,
+    "word": "復号器",
+    "kana": "ふくごうき",
+    "senses": [
+      {
+        "sense_id": 369946,
+        "meaning_vi": "bộ giải mã",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ giải mã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ giải mã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126299,
+    "word": "復調機",
+    "kana": "ふくちょうき",
+    "senses": [
+      {
+        "sense_id": 369947,
+        "meaning_vi": "bộ giải điều chế",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ giải điều chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ giải điều chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126300,
+    "word": "復調装置",
+    "kana": "ふくちょうそうち",
+    "senses": [
+      {
+        "sense_id": 369948,
+        "meaning_vi": "bộ giải điều chế",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ giải điều chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ giải điều chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126301,
+    "word": "幅優先探索",
+    "kana": "はばゆうせんたんさく",
+    "senses": [
+      {
+        "sense_id": 369949,
+        "meaning_vi": "tìm kiếm theo chiều rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "tìm kiếm theo chiều rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tìm kiếm theo chiều rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126302,
+    "word": "複合割付け対象体",
+    "kana": "ふくごうわりつけたいしょうたい",
+    "senses": [
+      {
+        "sense_id": 369950,
+        "meaning_vi": "đối tượng bố trí tổng hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "đối tượng bố trí tổng hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối tượng bố trí tổng hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126303,
+    "word": "複合局",
+    "kana": "ふくごうきょく",
+    "senses": [
+      {
+        "sense_id": 369951,
+        "meaning_vi": "trạm kết hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "trạm kết hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạm kết hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

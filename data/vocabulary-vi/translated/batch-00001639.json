@@ -1,0 +1,708 @@
+[
+  {
+    "vocabulary_id": 42424,
+    "word": "瞳孔",
+    "kana": "どうこう",
+    "senses": [
+      {
+        "sense_id": 272746,
+        "meaning_vi": "đồng tử (của mắt)",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng tử (của mắt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng tử (của mắt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42425,
+    "word": "童",
+    "kana": "わらべ",
+    "senses": [
+      {
+        "sense_id": 272747,
+        "meaning_vi": "đứa trẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "đứa trẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứa trẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42426,
+    "word": "わらべ歌",
+    "kana": "わらべうた",
+    "senses": [
+      {
+        "sense_id": 272748,
+        "meaning_vi": "bài hát thiếu nhi; bài hát mẫu giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "bài hát thiếu nhi",
+          "bài hát mẫu giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài hát thiếu nhi; bài hát mẫu giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42427,
+    "word": "童画",
+    "kana": "どうが",
+    "senses": [
+      {
+        "sense_id": 272749,
+        "meaning_vi": "tranh do trẻ vẽ; hình ảnh cho trẻ em",
+        "confidence": "high",
+        "search_keywords": [
+          "tranh do trẻ vẽ",
+          "hình ảnh cho trẻ em"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tranh do trẻ vẽ; hình ảnh cho trẻ em",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42428,
+    "word": "童顔",
+    "kana": "どうがん",
+    "senses": [
+      {
+        "sense_id": 272750,
+        "meaning_vi": "khuôn mặt của đứa trẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "khuôn mặt của đứa trẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuôn mặt của đứa trẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272751,
+        "meaning_vi": "khuôn mặt trẻ con; khuôn mặt trẻ con; khuôn mặt trẻ thơ",
+        "confidence": "high",
+        "search_keywords": [
+          "khuôn mặt trẻ con",
+          "khuôn mặt trẻ thơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuôn mặt trẻ con; khuôn mặt trẻ con; khuôn mặt trẻ thơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42429,
+    "word": "童子",
+    "kana": "どうじ",
+    "senses": [
+      {
+        "sense_id": 272752,
+        "meaning_vi": "con trai; đứa trẻ; đứa trẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "con trai",
+          "đứa trẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con trai; đứa trẻ; đứa trẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42430,
+    "word": "童心",
+    "kana": "どうしん",
+    "senses": [
+      {
+        "sense_id": 272753,
+        "meaning_vi": "tâm trí của trẻ; sự ngây thơ như trẻ thơ; ngây thơ",
+        "confidence": "high",
+        "search_keywords": [
+          "tâm trí của trẻ",
+          "sự ngây thơ như trẻ thơ",
+          "ngây thơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tâm trí của trẻ; sự ngây thơ như trẻ thơ; ngây thơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42431,
+    "word": "童貞",
+    "kana": "どうてい",
+    "senses": [
+      {
+        "sense_id": 272754,
+        "meaning_vi": "trinh tiết (của nam giới); (nam) trinh nữ",
+        "confidence": "high",
+        "search_keywords": [
+          "trinh tiết (của nam giới)",
+          "(nam) trinh nữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trinh tiết (của nam giới); (nam) trinh nữ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272755,
+        "meaning_vi": "(Công giáo) nữ tu; chị gái",
+        "confidence": "high",
+        "search_keywords": [
+          "(Công giáo) nữ tu",
+          "chị gái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(Công giáo) nữ tu; chị gái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42432,
+    "word": "童謡",
+    "kana": "どうよう",
+    "senses": [
+      {
+        "sense_id": 272756,
+        "meaning_vi": "bài hát thiếu nhi; vần điệu trẻ thơ",
+        "confidence": "high",
+        "search_keywords": [
+          "bài hát thiếu nhi",
+          "vần điệu trẻ thơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài hát thiếu nhi; vần điệu trẻ thơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42433,
+    "word": "童話",
+    "kana": "どうわ",
+    "senses": [
+      {
+        "sense_id": 272757,
+        "meaning_vi": "truyện thiếu nhi; truyện cổ tích",
+        "confidence": "high",
+        "search_keywords": [
+          "truyện thiếu nhi",
+          "truyện cổ tích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truyện thiếu nhi; truyện cổ tích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42434,
+    "word": "胴",
+    "kana": "どう",
+    "senses": [
+      {
+        "sense_id": 272758,
+        "meaning_vi": "thân cây; thân; thân hình; bụng; eo",
+        "confidence": "high",
+        "search_keywords": [
+          "thân cây",
+          "thân",
+          "thân hình",
+          "bụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thân cây; thân; thân hình; bụng; eo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272759,
+        "meaning_vi": "plastron (trong kendo); chạm vào yếm (kimari-te trong kendo)",
+        "confidence": "high",
+        "search_keywords": [
+          "plastron (trong kendo)",
+          "chạm vào yếm (kimari-te trong kendo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "plastron (trong kendo); chạm vào yếm (kimari-te trong kendo)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272760,
+        "meaning_vi": "khung (của trống, v.v.); hộp âm thanh (của đàn shamisen, v.v.); thân tàu (của một con tàu)",
+        "confidence": "high",
+        "search_keywords": [
+          "khung (của trống, v.v.)",
+          "hộp âm thanh (của đàn shamisen, v.v.)",
+          "thân tàu (của một con tàu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khung (của trống, v.v.); hộp âm thanh (của đàn shamisen, v.v.); thân tàu (của một con tàu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272761,
+        "meaning_vi": "đại lý",
+        "confidence": "high",
+        "search_keywords": [
+          "đại lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42435,
+    "word": "胴が長い",
+    "kana": "どうがながい",
+    "senses": [
+      {
+        "sense_id": 272762,
+        "meaning_vi": "có thân hình dài; thân dài",
+        "confidence": "high",
+        "search_keywords": [
+          "có thân hình dài",
+          "thân dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thân hình dài; thân dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42436,
+    "word": "胴回り",
+    "kana": "どうまわり",
+    "senses": [
+      {
+        "sense_id": 272763,
+        "meaning_vi": "thắt lưng; chu vi; đo vòng eo",
+        "confidence": "high",
+        "search_keywords": [
+          "thắt lưng",
+          "chu vi",
+          "đo vòng eo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thắt lưng; chu vi; đo vòng eo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42437,
+    "word": "胴上げ",
+    "kana": "どうあげ",
+    "senses": [
+      {
+        "sense_id": 272764,
+        "meaning_vi": "tung (ai đó) lên không trung (để ăn mừng)",
+        "confidence": "high",
+        "search_keywords": [
+          "tung (ai đó) lên không trung (để ăn mừng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tung (ai đó) lên không trung (để ăn mừng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42438,
+    "word": "胴体",
+    "kana": "どうたい",
+    "senses": [
+      {
+        "sense_id": 272765,
+        "meaning_vi": "thân cây; thân; cơ thể",
+        "confidence": "high",
+        "search_keywords": [
+          "thân cây",
+          "thân",
+          "cơ thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thân cây; thân; cơ thể",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272766,
+        "meaning_vi": "thân (của máy bay); thân máy bay; thân tàu (của một con tàu)",
+        "confidence": "high",
+        "search_keywords": [
+          "thân (của máy bay)",
+          "thân máy bay",
+          "thân tàu (của một con tàu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thân (của máy bay); thân máy bay; thân tàu (của một con tàu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42439,
+    "word": "胴乱",
+    "kana": "どうらん",
+    "senses": [
+      {
+        "sense_id": 272767,
+        "meaning_vi": "mạch máu; hộp đựng mẫu vật thực vật",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch máu",
+          "hộp đựng mẫu vật thực vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch máu; hộp đựng mẫu vật thực vật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272768,
+        "meaning_vi": "cái túi; túi da nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "cái túi",
+          "túi da nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái túi; túi da nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42440,
+    "word": "道",
+    "kana": "みち",
+    "senses": [
+      {
+        "sense_id": 272769,
+        "meaning_vi": "đường; con đường; đường phố; làn đường; lối đi",
+        "confidence": "high",
+        "search_keywords": [
+          "đường",
+          "con đường",
+          "đường phố",
+          "làn đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường; con đường; đường phố; làn đường; lối đi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272770,
+        "meaning_vi": "tuyến đường; đường",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyến đường",
+          "đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyến đường; đường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272771,
+        "meaning_vi": "khoảng cách; cuộc hành trình",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng cách",
+          "cuộc hành trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng cách; cuộc hành trình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272772,
+        "meaning_vi": "con đường (ví dụ: đến chiến thắng); khóa học",
+        "confidence": "high",
+        "search_keywords": [
+          "con đường (ví dụ: đến chiến thắng)",
+          "khóa học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con đường (ví dụ: đến chiến thắng); khóa học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272773,
+        "meaning_vi": "cách (sống, ứng xử đúng mực, v.v.); nguyên tắc đạo đức",
+        "confidence": "high",
+        "search_keywords": [
+          "cách (sống, ứng xử đúng mực, v.v.)",
+          "nguyên tắc đạo đức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách (sống, ứng xử đúng mực, v.v.); nguyên tắc đạo đức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272774,
+        "meaning_vi": "giáo lý (đặc biệt là Nho giáo hoặc Phật giáo); giáo điều",
+        "confidence": "high",
+        "search_keywords": [
+          "giáo lý (đặc biệt là Nho giáo hoặc Phật giáo)",
+          "giáo điều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giáo lý (đặc biệt là Nho giáo hoặc Phật giáo); giáo điều",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272775,
+        "meaning_vi": "lĩnh vực (ví dụ: y học); chủ thể; đặc sản",
+        "confidence": "high",
+        "search_keywords": [
+          "lĩnh vực (ví dụ: y học)",
+          "chủ thể",
+          "đặc sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lĩnh vực (ví dụ: y học); chủ thể; đặc sản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272776,
+        "meaning_vi": "có nghĩa; đường; phương pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "có nghĩa",
+          "đường",
+          "phương pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có nghĩa; đường; phương pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42441,
+    "word": "道ならぬ",
+    "kana": "みちならぬ",
+    "senses": [
+      {
+        "sense_id": 272777,
+        "meaning_vi": "vô đạo đức",
+        "confidence": "high",
+        "search_keywords": [
+          "vô đạo đức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô đạo đức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42442,
+    "word": "道ならぬ恋",
+    "kana": "みちならぬこい",
+    "senses": [
+      {
+        "sense_id": 272778,
+        "meaning_vi": "mối tình trái phép",
+        "confidence": "high",
+        "search_keywords": [
+          "mối tình trái phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mối tình trái phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42443,
+    "word": "道のり",
+    "kana": "みちのり",
+    "senses": [
+      {
+        "sense_id": 272779,
+        "meaning_vi": "khoảng cách; hành trình; hành trình",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng cách",
+          "hành trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng cách; hành trình; hành trình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272780,
+        "meaning_vi": "con đường (ví dụ: đến mục tiêu của một người); đường; quá trình; tuyến đường; đường",
+        "confidence": "high",
+        "search_keywords": [
+          "con đường (ví dụ: đến mục tiêu của một người)",
+          "đường",
+          "quá trình",
+          "tuyến đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con đường (ví dụ: đến mục tiêu của một người); đường; quá trình; tuyến đường; đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -25,6 +25,7 @@ type Props = {
     currentKanji: string
     kanjiOptions: string[]
     searchKeyword: string
+    language?: "vi" | "en"
     embedded?: boolean
 }
 
@@ -37,9 +38,9 @@ export default function KanjiDetailContent({
     currentKanji,
     kanjiOptions,
     searchKeyword,
+    language = "vi",
     embedded = false,
 }: Props) {
-    const language: "vi" | "en" = "vi"
 
     if (loading) {
         return (
@@ -95,9 +96,9 @@ export default function KanjiDetailContent({
                         embedded={embedded}
                     />
 
-                    <KanjiMemoryTipCard kanji={kanji} />
+                    <KanjiMemoryTipCard kanji={kanji} memoryTip={kanji.memory_tip} />
 
-                    <DictionaryCommunityCard />
+                    <DictionaryCommunityCard entryType="kanji" entryId={kanji?.id ?? 0} />
                 </aside>
             )}
         </div>

@@ -1,545 +1,506 @@
 [
-{
-"vocabulary_id": 3461,
-"word": "カントリースクール",
-"kana": "カントリースクール",
-"senses": [
-{
-"sense_id": 221906,
-"meaning_vi": "trường học ngoài trời",
-"confidence": "medium",
-"search_keywords": [
-"trường học ngoài trời",
-"outdoor school"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trường học hoặc chương trình giáo dục ngoài trời",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3462,
-"word": "カントリーミュージック",
-"kana": "カントリーミュージック",
-"senses": [
-{
-"sense_id": 221907,
-"meaning_vi": "nhạc đồng quê",
-"confidence": "high",
-"search_keywords": [
-"nhạc đồng quê",
-"country music",
-"nhạc country"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thể loại nhạc đồng quê của Mỹ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3463,
-"word": "カントリーリスク",
-"kana": "カントリーリスク",
-"senses": [
-{
-"sense_id": 221908,
-"meaning_vi": "rủi ro quốc gia",
-"confidence": "high",
-"search_keywords": [
-"rủi ro quốc gia",
-"country risk",
-"rủi ro đầu tư"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rủi ro khi đầu tư hoặc cho vay tại một quốc gia",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3464,
-"word": "カンニング",
-"kana": "カンニング",
-"senses": [
-{
-"sense_id": 221909,
-"meaning_vi": "gian lận thi cử",
-"confidence": "high",
-"search_keywords": [
-"gian lận thi cử",
-"quay cóp",
-"cheating"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gian lận trong kỳ thi; quay cóp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3465,
-"word": "カンバセーション",
-"kana": "カンバセーション",
-"senses": [
-{
-"sense_id": 221910,
-"meaning_vi": "cuộc trò chuyện",
-"confidence": "high",
-"search_keywords": [
-"cuộc trò chuyện",
-"hội thoại",
-"conversation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cuộc trò chuyện; hội thoại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3466,
-"word": "カンパ",
-"kana": "カンパ",
-"senses": [
-{
-"sense_id": 221911,
-"meaning_vi": "chiến dịch gây quỹ",
-"confidence": "high",
-"search_keywords": [
-"chiến dịch gây quỹ",
-"gây quỹ",
-"fundraising"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chiến dịch vận động quyên góp tiền",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221912,
-"meaning_vi": "quyên góp",
-"confidence": "high",
-"search_keywords": [
-"quyên góp",
-"đóng góp",
-"ủng hộ tiền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khoản quyên góp hoặc hành động đóng góp cho gây quỹ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221913,
-"meaning_vi": "chiến dịch chính trị",
-"confidence": "medium",
-"search_keywords": [
-"chiến dịch chính trị",
-"campaign",
-"vận động chính trị"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chiến dịch vận động, đặc biệt trong chính trị; nghĩa gốc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3467,
-"word": "カンパニー",
-"kana": "カンパニー",
-"senses": [
-{
-"sense_id": 221914,
-"meaning_vi": "công ty",
-"confidence": "high",
-"search_keywords": [
-"công ty",
-"doanh nghiệp",
-"company"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "công ty; doanh nghiệp",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221915,
-"meaning_vi": "nhóm bạn",
-"confidence": "medium",
-"search_keywords": [
-"nhóm bạn",
-"bạn bè",
-"company"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhóm bạn hoặc những người cùng đi chung",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3468,
-"word": "カンパニーエコノミスト",
-"kana": "カンパニーエコノミスト",
-"senses": [
-{
-"sense_id": 221916,
-"meaning_vi": "nhà kinh tế doanh nghiệp",
-"confidence": "high",
-"search_keywords": [
-"nhà kinh tế doanh nghiệp",
-"company economist"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhà kinh tế làm việc cho doanh nghiệp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3469,
-"word": "カンパニーペーパー",
-"kana": "カンパニーペーパー",
-"senses": [
-{
-"sense_id": 221917,
-"meaning_vi": "báo nội bộ công ty",
-"confidence": "medium",
-"search_keywords": [
-"báo nội bộ công ty",
-"company paper",
-"bản tin công ty"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "báo hoặc bản tin do công ty phát hành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3470,
-"word": "カンパニーマガジン",
-"kana": "カンパニーマガジン",
-"senses": [
-{
-"sense_id": 221918,
-"meaning_vi": "tạp chí công ty",
-"confidence": "high",
-"search_keywords": [
-"tạp chí công ty",
-"company magazine",
-"tạp chí nội bộ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tạp chí hoặc ấn phẩm do công ty phát hành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3471,
-"word": "カンパニーユニオン",
-"kana": "カンパニーユニオン",
-"senses": [
-{
-"sense_id": 221919,
-"meaning_vi": "công đoàn công ty",
-"confidence": "high",
-"search_keywords": [
-"công đoàn công ty",
-"company union",
-"công đoàn nội bộ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "công đoàn do công ty kiểm soát hoặc tổ chức trong công ty",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3472,
-"word": "カンファー",
-"kana": "カンファー",
-"senses": [
-{
-"sense_id": 221920,
-"meaning_vi": "long não",
-"confidence": "high",
-"search_keywords": [
-"long não",
-"camphor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "long não; hợp chất có mùi hăng dùng trong y dược và chống côn trùng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3473,
-"word": "カンフル",
-"kana": "カンフル",
-"senses": [
-{
-"sense_id": 221921,
-"meaning_vi": "long não",
-"confidence": "high",
-"search_keywords": [
-"long não",
-"camphor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "long não; camphor",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221922,
-"meaning_vi": "cú hích",
-"confidence": "medium",
-"search_keywords": [
-"cú hích",
-"sự kích thích",
-"động lực"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự kích thích hoặc động lực làm vực dậy tình trạng trì trệ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3474,
-"word": "寒武利亜",
-"kana": "カンブリア",
-"senses": [
-{
-"sense_id": 221923,
-"meaning_vi": "Cambria",
-"confidence": "medium",
-"search_keywords": [
-"Cambria",
-"Wales cổ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Cambria; tên cũ chỉ xứ Wales trong lịch sử",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3475,
-"word": "柬埔寨",
-"kana": "カンボジア",
-"senses": [
-{
-"sense_id": 221924,
-"meaning_vi": "Campuchia",
-"confidence": "high",
-"search_keywords": [
-"Campuchia",
-"Cambodia",
-"Cam-pu-chia"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Vương quốc Campuchia",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3476,
-"word": "か行",
-"kana": "かぎょう",
-"senses": [
-{
-"sense_id": 221925,
-"meaning_vi": "hàng ka",
-"confidence": "high",
-"search_keywords": [
-"hàng ka",
-"cột ka",
-"ka ki ku ke ko"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hàng ka trong bảng âm tiết tiếng Nhật: ka, ki, ku, ke, ko",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3477,
-"word": "ガーゴイル",
-"kana": "ガーゴイル",
-"senses": [
-{
-"sense_id": 221926,
-"meaning_vi": "tượng gargoyle",
-"confidence": "high",
-"search_keywords": [
-"gargoyle",
-"tượng gargoyle",
-"tượng máng xối"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tượng quái thú trang trí, thường dùng làm máng xối trên công trình cổ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3478,
-"word": "ガーゼ",
-"kana": "ガーゼ",
-"senses": [
-{
-"sense_id": 221927,
-"meaning_vi": "gạc y tế",
-"confidence": "high",
-"search_keywords": [
-"gạc y tế",
-"gạc",
-"gauze"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vải gạc dùng trong y tế",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3479,
-"word": "ガーター",
-"kana": "ガーター",
-"senses": [
-{
-"sense_id": 221928,
-"meaning_vi": "dây nịt tất",
-"confidence": "high",
-"search_keywords": [
-"dây nịt tất",
-"garter",
-"đai giữ tất"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dây hoặc đai dùng để giữ tất",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3480,
-"word": "ガーデン",
-"kana": "ガーデン",
-"senses": [
-{
-"sense_id": 221929,
-"meaning_vi": "khu vườn",
-"confidence": "high",
-"search_keywords": [
-"khu vườn",
-"vườn",
-"garden"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu vườn; nơi trồng cây hoặc trang trí cảnh quan",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3461,
+    "word": "カントリースクール",
+    "kana": "カントリースクール",
+    "senses": [
+      {
+        "sense_id": 221906,
+        "meaning_vi": "trường học ngoài trời",
+        "confidence": "high",
+        "search_keywords": [
+          "trường học ngoài trời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường học ngoài trời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3462,
+    "word": "カントリーミュージック",
+    "kana": "カントリーミュージック",
+    "senses": [
+      {
+        "sense_id": 221907,
+        "meaning_vi": "nhạc đồng quê",
+        "confidence": "high",
+        "search_keywords": [
+          "nhạc đồng quê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhạc đồng quê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3463,
+    "word": "カントリーリスク",
+    "kana": "カントリーリスク",
+    "senses": [
+      {
+        "sense_id": 221908,
+        "meaning_vi": "rủi ro quốc gia (rủi ro đầu tư hoặc cho vay ở một quốc gia)",
+        "confidence": "high",
+        "search_keywords": [
+          "rủi ro quốc gia (rủi ro đầu tư hoặc cho vay ở một quốc gia)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rủi ro quốc gia (rủi ro đầu tư hoặc cho vay ở một quốc gia)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3464,
+    "word": "カンニング",
+    "kana": "カンニング",
+    "senses": [
+      {
+        "sense_id": 221909,
+        "meaning_vi": "gian lận (trong kỳ thi); nôi",
+        "confidence": "high",
+        "search_keywords": [
+          "gian lận (trong kỳ thi)",
+          "nôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gian lận (trong kỳ thi); nôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3465,
+    "word": "カンバセーション",
+    "kana": "カンバセーション",
+    "senses": [
+      {
+        "sense_id": 221910,
+        "meaning_vi": "cuộc trò chuyện",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc trò chuyện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc trò chuyện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3466,
+    "word": "カンパ",
+    "kana": "カンパ",
+    "senses": [
+      {
+        "sense_id": 221911,
+        "meaning_vi": "chiến dịch gây quỹ",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến dịch gây quỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến dịch gây quỹ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221912,
+        "meaning_vi": "quyên góp (cho một chiến dịch gây quỹ); đóng góp",
+        "confidence": "high",
+        "search_keywords": [
+          "quyên góp (cho một chiến dịch gây quỹ)",
+          "đóng góp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyên góp (cho một chiến dịch gây quỹ); đóng góp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221913,
+        "meaning_vi": "chiến dịch (chính trị)",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến dịch (chính trị)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến dịch (chính trị)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3467,
+    "word": "カンパニー",
+    "kana": "カンパニー",
+    "senses": [
+      {
+        "sense_id": 221914,
+        "meaning_vi": "công ty (tức là doanh nghiệp)",
+        "confidence": "high",
+        "search_keywords": [
+          "công ty (tức là doanh nghiệp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công ty (tức là doanh nghiệp)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221915,
+        "meaning_vi": "công ty (tức là nhóm bạn)",
+        "confidence": "high",
+        "search_keywords": [
+          "công ty (tức là nhóm bạn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công ty (tức là nhóm bạn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3468,
+    "word": "カンパニーエコノミスト",
+    "kana": "カンパニーエコノミスト",
+    "senses": [
+      {
+        "sense_id": 221916,
+        "meaning_vi": "kinh tế công ty",
+        "confidence": "high",
+        "search_keywords": [
+          "kinh tế công ty"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kinh tế công ty",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3469,
+    "word": "カンパニーペーパー",
+    "kana": "カンパニーペーパー",
+    "senses": [
+      {
+        "sense_id": 221917,
+        "meaning_vi": "giấy công ty",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy công ty"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy công ty",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3470,
+    "word": "カンパニーマガジン",
+    "kana": "カンパニーマガジン",
+    "senses": [
+      {
+        "sense_id": 221918,
+        "meaning_vi": "tạp chí công ty",
+        "confidence": "high",
+        "search_keywords": [
+          "tạp chí công ty"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạp chí công ty",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3471,
+    "word": "カンパニーユニオン",
+    "kana": "カンパニーユニオン",
+    "senses": [
+      {
+        "sense_id": 221919,
+        "meaning_vi": "công đoàn công ty",
+        "confidence": "high",
+        "search_keywords": [
+          "công đoàn công ty"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công đoàn công ty",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3472,
+    "word": "カンファー",
+    "kana": "カンファー",
+    "senses": [
+      {
+        "sense_id": 221920,
+        "meaning_vi": "long não",
+        "confidence": "high",
+        "search_keywords": [
+          "long não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "long não",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3473,
+    "word": "カンフル",
+    "kana": "カンフル",
+    "senses": [
+      {
+        "sense_id": 221921,
+        "meaning_vi": "long não",
+        "confidence": "high",
+        "search_keywords": [
+          "long não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "long não",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221922,
+        "meaning_vi": "bắn vào cánh tay; kích thích; sự thúc đẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "bắn vào cánh tay",
+          "kích thích",
+          "sự thúc đẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắn vào cánh tay; kích thích; sự thúc đẩy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3474,
+    "word": "寒武利亜",
+    "kana": "カンブリア",
+    "senses": [
+      {
+        "sense_id": 221923,
+        "meaning_vi": "Cambria (tên cũ của xứ Wales)",
+        "confidence": "high",
+        "search_keywords": [
+          "Cambria (tên cũ của xứ Wales)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cambria (tên cũ của xứ Wales)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3475,
+    "word": "柬埔寨",
+    "kana": "カンボジア",
+    "senses": [
+      {
+        "sense_id": 221924,
+        "meaning_vi": "Campuchia",
+        "confidence": "high",
+        "search_keywords": [
+          "Campuchia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Campuchia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3476,
+    "word": "か行",
+    "kana": "かぎょう",
+    "senses": [
+      {
+        "sense_id": 221925,
+        "meaning_vi": "cột \"ka\" trong bảng âm tiết tiếng Nhật (ka, ki, ku, ke, ko)",
+        "confidence": "high",
+        "search_keywords": [
+          "cột \"ka\" trong bảng âm tiết tiếng Nhật (ka, ki, ku, ke, ko)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cột \"ka\" trong bảng âm tiết tiếng Nhật (ka, ki, ku, ke, ko)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3477,
+    "word": "ガーゴイル",
+    "kana": "ガーゴイル",
+    "senses": [
+      {
+        "sense_id": 221926,
+        "meaning_vi": "tượng đầu thú",
+        "confidence": "high",
+        "search_keywords": [
+          "tượng đầu thú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tượng đầu thú",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3478,
+    "word": "ガーゼ",
+    "kana": "ガーゼ",
+    "senses": [
+      {
+        "sense_id": 221927,
+        "meaning_vi": "gạc",
+        "confidence": "high",
+        "search_keywords": [
+          "gạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3479,
+    "word": "ガーター",
+    "kana": "ガーター",
+    "senses": [
+      {
+        "sense_id": 221928,
+        "meaning_vi": "sọc",
+        "confidence": "high",
+        "search_keywords": [
+          "sọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3480,
+    "word": "ガーデン",
+    "kana": "ガーデン",
+    "senses": [
+      {
+        "sense_id": 221929,
+        "meaning_vi": "vườn",
+        "confidence": "high",
+        "search_keywords": [
+          "vườn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vườn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

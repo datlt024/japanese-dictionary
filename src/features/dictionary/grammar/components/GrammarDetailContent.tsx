@@ -49,7 +49,7 @@ export default function GrammarDetailContent({
 
                 <aside className={styles.sideColumn}>
                     <GrammarMemoryTipCard grammar={grammar} />
-                    <DictionaryCommunityCard />
+                    <DictionaryCommunityCard entryType="grammar" entryId={grammar.id} />
                 </aside>
             </div>
         </main>

@@ -1,0 +1,536 @@
+[
+  {
+    "vocabulary_id": 99014,
+    "word": "原子番号",
+    "kana": "げんしばんごう",
+    "senses": [
+      {
+        "sense_id": 340264,
+        "meaning_vi": "số nguyên tử",
+        "confidence": "high",
+        "search_keywords": [
+          "số nguyên tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số nguyên tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99015,
+    "word": "複合核過程",
+    "kana": "ふくごうかくかてい",
+    "senses": [
+      {
+        "sense_id": 340265,
+        "meaning_vi": "quá trình hạt nhân phức hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "quá trình hạt nhân phức hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình hạt nhân phức hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99016,
+    "word": "前平衡過程",
+    "kana": "ぜんへいこうかてい",
+    "senses": [
+      {
+        "sense_id": 340266,
+        "meaning_vi": "quá trình tiền cân bằng",
+        "confidence": "high",
+        "search_keywords": [
+          "quá trình tiền cân bằng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình tiền cân bằng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99017,
+    "word": "運動量空間",
+    "kana": "うんどうりょうくうかん",
+    "senses": [
+      {
+        "sense_id": 340267,
+        "meaning_vi": "không gian động lượng (cơ học lượng tử)",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian động lượng (cơ học lượng tử)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian động lượng (cơ học lượng tử)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99018,
+    "word": "実空間",
+    "kana": "じつくうかん",
+    "senses": [
+      {
+        "sense_id": 340268,
+        "meaning_vi": "không gian vị trí (cơ học lượng tử); không gian thực",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian vị trí (cơ học lượng tử)",
+          "không gian thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian vị trí (cơ học lượng tử); không gian thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99019,
+    "word": "結晶性",
+    "kana": "けっしょうせい",
+    "senses": [
+      {
+        "sense_id": 340269,
+        "meaning_vi": "kết tinh",
+        "confidence": "high",
+        "search_keywords": [
+          "kết tinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết tinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99020,
+    "word": "飛跡",
+    "kana": "ひせき",
+    "senses": [
+      {
+        "sense_id": 340270,
+        "meaning_vi": "theo dõi; đường bay",
+        "confidence": "high",
+        "search_keywords": [
+          "theo dõi",
+          "đường bay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo dõi; đường bay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99021,
+    "word": "大",
+    "kana": "だい",
+    "senses": [
+      {
+        "sense_id": 340271,
+        "meaning_vi": "lớn; to lớn; Tuyệt; to lớn; rộng lớn; lớn lao; quan trọng; nghiêm trọng; nghiêm trọng",
+        "confidence": "high",
+        "search_keywords": [
+          "lớn",
+          "to lớn",
+          "Tuyệt",
+          "rộng lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớn; to lớn; Tuyệt; to lớn; rộng lớn; lớn lao; quan trọng; nghiêm trọng; nghiêm trọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340272,
+        "meaning_vi": "Tuyệt; nổi bật; nổi tiếng; phân biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "Tuyệt",
+          "nổi bật",
+          "nổi tiếng",
+          "phân biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tuyệt; nổi bật; nổi tiếng; phân biệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340273,
+        "meaning_vi": "-có kích thước; lớn như; kích thước của",
+        "confidence": "high",
+        "search_keywords": [
+          "-có kích thước",
+          "lớn như",
+          "kích thước của"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "-có kích thước; lớn như; kích thước của",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340274,
+        "meaning_vi": "trường đại học",
+        "confidence": "high",
+        "search_keywords": [
+          "trường đại học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường đại học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340275,
+        "meaning_vi": "lớn (ví dụ: khẩu phần ăn); tùy chọn lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "lớn (ví dụ: khẩu phần ăn)",
+          "tùy chọn lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớn (ví dụ: khẩu phần ăn); tùy chọn lớn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340276,
+        "meaning_vi": "tháng dài (tức là có 31 ngày)",
+        "confidence": "high",
+        "search_keywords": [
+          "tháng dài (tức là có 31 ngày)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tháng dài (tức là có 31 ngày)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99022,
+    "word": "で御座る",
+    "kana": "でござる",
+    "senses": [
+      {
+        "sense_id": 340277,
+        "meaning_vi": "là; là",
+        "confidence": "high",
+        "search_keywords": [
+          "là"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là; là",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99023,
+    "word": "記念誌",
+    "kana": "きねんし",
+    "senses": [
+      {
+        "sense_id": 340278,
+        "meaning_vi": "ấn phẩm kỷ niệm",
+        "confidence": "high",
+        "search_keywords": [
+          "ấn phẩm kỷ niệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ấn phẩm kỷ niệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99024,
+    "word": "白兵主義",
+    "kana": "はくへいしゅぎ",
+    "senses": [
+      {
+        "sense_id": 340279,
+        "meaning_vi": "chiến lược đánh cận chiến",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến lược đánh cận chiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến lược đánh cận chiến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99025,
+    "word": "時空間情報科学",
+    "kana": "じくうかんじょうほうかがく",
+    "senses": [
+      {
+        "sense_id": 340280,
+        "meaning_vi": "khoa học thông tin không gian-thời gian; khoa học thông tin thời gian-không gian",
+        "confidence": "high",
+        "search_keywords": [
+          "khoa học thông tin không gian-thời gian",
+          "khoa học thông tin thời gian-không gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoa học thông tin không gian-thời gian; khoa học thông tin thời gian-không gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99026,
+    "word": "極域",
+    "kana": "きょくいき",
+    "senses": [
+      {
+        "sense_id": 340281,
+        "meaning_vi": "vùng cực",
+        "confidence": "high",
+        "search_keywords": [
+          "vùng cực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vùng cực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99027,
+    "word": "理科離れ",
+    "kana": "りかばなれ",
+    "senses": [
+      {
+        "sense_id": 340282,
+        "meaning_vi": "Sự quan tâm đến khoa học tự nhiên ngày càng giảm (trong giới trẻ)",
+        "confidence": "high",
+        "search_keywords": [
+          "Sự quan tâm đến khoa học tự nhiên ngày càng giảm (trong giới trẻ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sự quan tâm đến khoa học tự nhiên ngày càng giảm (trong giới trẻ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99028,
+    "word": "大型装置科学",
+    "kana": "おおがたそうちかがく",
+    "senses": [
+      {
+        "sense_id": 340283,
+        "meaning_vi": "khoa học lớn (máy gia tốc hạt, kính viễn vọng không gian, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "khoa học lớn (máy gia tốc hạt, kính viễn vọng không gian, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoa học lớn (máy gia tốc hạt, kính viễn vọng không gian, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99029,
+    "word": "宝飾品",
+    "kana": "ほうしょくひん",
+    "senses": [
+      {
+        "sense_id": 340284,
+        "meaning_vi": "trang sức; đồ trang sức",
+        "confidence": "high",
+        "search_keywords": [
+          "trang sức",
+          "đồ trang sức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang sức; đồ trang sức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99030,
+    "word": "羹に懲りて膾を吹く",
+    "kana": "あつものにこりてなますをふく",
+    "senses": [
+      {
+        "sense_id": 340285,
+        "meaning_vi": "đứa trẻ bị bỏng sợ lửa; một lần bị cắn hai lần ngượng ngùng; trở nên quá thận trọng sau một trải nghiệm tồi tệ",
+        "confidence": "high",
+        "search_keywords": [
+          "đứa trẻ bị bỏng sợ lửa",
+          "một lần bị cắn hai lần ngượng ngùng",
+          "trở nên quá thận trọng sau một trải nghiệm tồi tệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứa trẻ bị bỏng sợ lửa; một lần bị cắn hai lần ngượng ngùng; trở nên quá thận trọng sau một trải nghiệm tồi tệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99031,
+    "word": "マブ達",
+    "kana": "マブだち",
+    "senses": [
+      {
+        "sense_id": 340286,
+        "meaning_vi": "người bạn thật sự; bạn thân",
+        "confidence": "high",
+        "search_keywords": [
+          "người bạn thật sự",
+          "bạn thân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người bạn thật sự; bạn thân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99032,
+    "word": "吠え付く",
+    "kana": "ほえつく",
+    "senses": [
+      {
+        "sense_id": 340287,
+        "meaning_vi": "sủa và đuổi theo",
+        "confidence": "high",
+        "search_keywords": [
+          "sủa và đuổi theo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sủa và đuổi theo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99033,
+    "word": "部分肺静脈還流異常",
+    "kana": "ぶぶんはいじょうみゃくかんりゅういじょう",
+    "senses": [
+      {
+        "sense_id": 340288,
+        "meaning_vi": "kết nối tĩnh mạch phổi bất thường một phần; PAPVC; dẫn lưu tĩnh mạch phổi bất thường một phần; PAPVD; hồi lưu tĩnh mạch phổi bất thường một phần; PAPVR",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối tĩnh mạch phổi bất thường một phần",
+          "PAPVC",
+          "dẫn lưu tĩnh mạch phổi bất thường một phần",
+          "PAPVD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối tĩnh mạch phổi bất thường một phần; PAPVC; dẫn lưu tĩnh mạch phổi bất thường một phần; PAPVD; hồi lưu tĩnh mạch phổi bất thường một phần; PAPVR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

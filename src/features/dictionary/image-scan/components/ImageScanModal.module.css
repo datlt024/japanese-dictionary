@@ -20,10 +20,10 @@
 
     overflow: hidden;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 
     box-shadow:
         0 16px 48px rgba(15, 23, 42, 0.16),
@@ -41,13 +41,13 @@
 
     padding: 16px 20px;
 
-    border-bottom: 1px solid #eceef2;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .header h2 {
     margin: 0;
 
-    color: #15213a;
+    color: var(--color-text-primary);
 
     font-size: 18px;
     font-weight: 800;
@@ -61,11 +61,11 @@
     width: 36px;
     height: 36px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 999px;
 
-    background: #f6f9ff;
-    color: #6b7280;
+    background: var(--color-surface-muted);
+    color: var(--color-text-secondary);
 
     cursor: pointer;
 
@@ -73,8 +73,8 @@
 }
 
 .closeButton:hover {
-    background: #edf4ff;
-    color: #15213a;
+    background: var(--color-primary-soft);
+    color: var(--color-text-primary);
 }
 
 /* ── Body ── */
@@ -102,11 +102,11 @@
     justify-content: center;
     gap: 10px;
 
-    border: 2px dashed #bfdbfe;
+    border: 2px dashed var(--color-primary-soft);
     border-radius: 16px;
 
-    background: #edf4ff;
-    color: #2563eb;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     cursor: pointer;
 
@@ -114,8 +114,8 @@
 }
 
 .uploadBox:hover {
-    border-color: #93c5fd;
-    background: #dbeafe;
+    border-color: var(--color-text-muted);
+    background: var(--color-primary-soft);
 }
 
 .uploadBox span {
@@ -124,7 +124,7 @@
 }
 
 .uploadBox small {
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 13px;
     font-weight: 600;
@@ -142,10 +142,10 @@
 .resultBox {
     min-height: 320px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 14px;
 
-    background: #F7F8FA;
+    background: var(--color-bg);
 }
 
 .previewBox {
@@ -167,8 +167,8 @@
 
     padding: 8px 12px;
 
-    background: #ffffff;
-    color: #2563eb;
+    background: var(--color-surface);
+    color: var(--color-primary);
 
     font-size: 14px;
     font-weight: 800;
@@ -181,8 +181,8 @@
 }
 
 .changeImageButton:hover {
-    background: #edf4ff;
-    color: #1d4ed8;
+    background: var(--color-primary-soft);
+    color: var(--color-primary-hover);
 }
 
 .resultBox {
@@ -200,7 +200,7 @@
     align-items: center;
     justify-content: center;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-weight: 600;
     text-align: center;
@@ -220,14 +220,14 @@
     overflow: hidden;
 
     border-radius: 999px;
-    background: #eceef2;
+    background: var(--color-border);
 }
 
 .progressBar {
     height: 100%;
 
     border-radius: 999px;
-    background: #2563eb;
+    background: var(--color-primary);
 
     transition: width 0.2s ease;
 }
@@ -246,7 +246,7 @@
 .ocrHint {
     margin: 0;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 13px;
     font-weight: 700;
@@ -262,11 +262,11 @@
 
     padding: 14px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 12px;
 
-    background: #ffffff;
-    color: #15213a;
+    background: var(--color-surface);
+    color: var(--color-text-primary);
 
     font-size: 16px;
     font-weight: 600;
@@ -279,8 +279,8 @@
 }
 
 .ocrText::selection {
-    background: #bfdbfe;
-    color: #15213a;
+    background: var(--color-primary-soft);
+    color: var(--color-text-primary);
 }
 
 /* ── Selection bar ── */
@@ -294,10 +294,10 @@
     margin-top: 14px;
     padding: 12px 14px;
 
-    border: 1px solid #bfdbfe;
+    border: 1px solid var(--color-primary-soft);
     border-radius: 12px;
 
-    background: #edf4ff;
+    background: var(--color-primary-soft);
 }
 
 .selectedText {
@@ -309,14 +309,14 @@
 }
 
 .selectedText span {
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 13px;
     font-weight: 700;
 }
 
 .selectedText strong {
-    color: #15213a;
+    color: var(--color-text-primary);
 
     font-size: 16px;
     font-weight: 800;
@@ -355,21 +355,21 @@
 }
 
 .primaryButton {
-    background: #2563eb;
-    color: #ffffff;
+    background: var(--color-primary);
+    color: var(--color-surface);
 }
 
 .primaryButton:hover {
-    background: #1d4ed8;
+    background: var(--color-primary-hover);
 }
 
 .secondaryButton {
-    background: #ffffff;
-    color: #2563eb;
+    background: var(--color-surface);
+    color: var(--color-primary);
 }
 
 .secondaryButton:hover {
-    background: #edf4ff;
+    background: var(--color-primary-soft);
 }
 
 .rawTextBox {
@@ -381,16 +381,16 @@
     margin-top: 14px;
     padding: 12px 14px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 12px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .rawTextBox p {
     margin: 0;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 14px;
     font-weight: 600;
@@ -402,8 +402,8 @@
 
     padding: 8px 12px;
 
-    background: #edf4ff;
-    color: #2563eb;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     font-size: 14px;
     font-weight: 800;
@@ -414,14 +414,14 @@
 }
 
 .rawTextBox button:hover {
-    background: #dbeafe;
-    color: #1d4ed8;
+    background: var(--color-primary-soft);
+    color: var(--color-primary-hover);
 }
 
 .error {
     margin-top: 12px;
 
-    color: #dc2626;
+    color: var(--color-danger);
 
     font-size: 14px;
     font-weight: 700;

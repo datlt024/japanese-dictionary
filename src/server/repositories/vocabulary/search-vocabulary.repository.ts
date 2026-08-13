@@ -15,6 +15,8 @@ import {
     isJapaneseKeyword,
 } from "@/shared/utils/japanese"
 
+import { deinflectKeyword } from "@/shared/utils/deinflect"
+
 type VocabularySearchRow = {
     id: number
 }
@@ -26,7 +28,12 @@ function getJapaneseSearchKeywords(value: string) {
         keywords.push(value.slice(0, -2))
     }
 
-    return Array.from(new Set(keywords))
+    for (const candidate of deinflectKeyword(value)) {
+        keywords.push(candidate)
+    }
+
+    // Cap at 8 to avoid too many parallel Supabase RPC calls
+    return Array.from(new Set(keywords)).slice(0, 8)
 }
 
 function mergeSearchResults<T extends VocabularySearchRow>(
@@ -59,13 +66,18 @@ export async function searchVocabulariesByKeyword(
     if (isJapaneseKeyword(value)) {
         const keywords = getJapaneseSearchKeywords(value)
 
-        const results = await Promise.all(
-            keywords.map((searchKeyword) =>
-                supabaseServer.rpc("search_vocabularies_rpc", {
-                    search_keyword: searchKeyword,
-                })
+        let results
+        try {
+            results = await Promise.all(
+                keywords.map((searchKeyword) =>
+                    supabaseServer.rpc("search_vocabularies_rpc", {
+                        search_keyword: searchKeyword,
+                    })
+                )
             )
-        )
+        } catch (err) {
+            return { data: [], error: err as Error }
+        }
 
         const firstError = results.find(
             (result) => result.error
@@ -78,8 +90,12 @@ export async function searchVocabulariesByKeyword(
             }
         }
 
-        const data = mergeSearchResults(
+        const merged = mergeSearchResults(
             results.flatMap((result) => result.data || [])
+        )
+
+        const data = merged.sort(
+            (a, b) => (b.priority_score ?? 0) - (a.priority_score ?? 0)
         )
 
         return {
@@ -92,14 +108,72 @@ export async function searchVocabulariesByKeyword(
     const meaningColumn =
         language === "en" ? "meaning_en" : "meaning_vi"
 
-    const senseResult = await supabaseServer
-        .from("vocabulary_senses")
+    // ILIKE '%x%' is a full table scan without a trigram index.
+    // Skip it for very short keywords to avoid statement timeouts.
+    // Run migration 020 to add pg_trgm indexes and make ILIKE fast.
+    const useLike = value.length >= 2
+
+    // Step 1a+b: run exact-match and (if safe) ILIKE in parallel
+    const [exactResult, likeResult] = await Promise.all([
+        supabaseServer
+            .from("vocabulary_senses")
+            .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
+            .eq(meaningColumn, value)
+            .not(meaningColumn, "is", null)
+            .eq("is_hidden", false)
+            .limit(200),
+        useLike
+            ? supabaseServer
+                .from("vocabulary_senses")
+                .select("vocabulary_id, meaning_en, meaning_vi, part_of_speech")
+                .ilike(meaningColumn, `%${escapedValue}%`)
+                .not(meaningColumn, "is", null)
+                .eq("is_hidden", false)
+                .limit(100)
+            : Promise.resolve({ data: [], error: null }),
+    ])
+
+    const senseError = exactResult.error ?? likeResult.error
+    if (senseError) {
+        return {
+            data: [],
+            error: senseError,
+        }
+    }
+
+    const allSenses = [...(exactResult.data ?? []), ...(likeResult.data ?? [])]
+
+    // Keep the sense whose meaning most closely matches the keyword
+    const senseByVocabId = new Map<
+        number,
+        (typeof allSenses)[number] & { matchScore: number }
+    >()
+    for (const s of allSenses) {
+        if (s.vocabulary_id == null) continue
+        const m = (s[meaningColumn] ?? "").toLowerCase().trim()
+        const kw = value.toLowerCase()
+        const matchScore =
+            m === kw ? 3 :
+            m.startsWith(kw) ? 2 :
+            1
+        const existing = senseByVocabId.get(s.vocabulary_id)
+        if (!existing || matchScore > existing.matchScore) {
+            senseByVocabId.set(s.vocabulary_id, { ...s, matchScore })
+        }
+    }
+
+    const vocabIds = Array.from(senseByVocabId.keys())
+    if (vocabIds.length === 0) {
+        return { data: [], error: null }
+    }
+
+    // Step 2: fetch priority_score + vocabulary data for all matched vocab_ids
+    const indexResult = await supabaseServer
+        .from("vocabulary_search_index")
         .select(
             `
             vocabulary_id,
-            meaning_en,
-            meaning_vi,
-            part_of_speech,
+            priority_score,
             vocabularies (
                 id,
                 primary_word,
@@ -110,29 +184,60 @@ export async function searchVocabulariesByKeyword(
             )
         `
         )
-        .ilike(meaningColumn, `%${escapedValue}%`)
-        .not(meaningColumn, "is", null)
-        .limit(SEARCH_VOCABULARY_LIMIT)
+        .in("vocabulary_id", vocabIds)
 
-    if (senseResult.error) {
+    if (indexResult.error) {
         return {
             data: [],
-            error: senseResult.error,
+            error: indexResult.error,
         }
     }
 
-    const data =
-        senseResult.data?.flatMap((item) => {
-            const vocabulary = Array.isArray(item.vocabularies)
-                ? item.vocabularies[0]
-                : item.vocabularies
+    const jlptRank: Record<string, number> = {
+        N5: 5,
+        N4: 4,
+        N3: 3,
+        N2: 2,
+        N1: 1,
+    }
 
-            if (!vocabulary) {
-                return []
-            }
+    type RankedEntry = {
+        rank: number
+        entry: {
+            id: number
+            word: string
+            kana: string[]
+            meaning: string
+            meaning_en: string | null
+            meaning_vi: string | null
+            part_of_speech: string | null
+            jlpt: string | null
+            verb_group: string | null
+            is_common: boolean | null
+            priority_score: number | null
+        }
+    }
 
-            return [
-                {
+    const ranked = (indexResult.data ?? []).flatMap<RankedEntry>((item) => {
+        const vocabulary = Array.isArray(item.vocabularies)
+            ? item.vocabularies[0]
+            : item.vocabularies
+
+        if (!vocabulary) return []
+
+        const sense = senseByVocabId.get(item.vocabulary_id)
+        if (!sense) return []
+
+        const rank =
+            (item.priority_score ?? 0) * 1_000_000 +
+            sense.matchScore * 10_000 +
+            (jlptRank[vocabulary.jlpt ?? ""] ?? 0) * 100 -
+            (item.vocabulary_id % 100)
+
+        return [
+            {
+                rank,
+                entry: {
                     id: vocabulary.id,
                     word: vocabulary.primary_word,
                     kana: vocabulary.primary_kana
@@ -140,23 +245,25 @@ export async function searchVocabulariesByKeyword(
                         : [],
                     meaning:
                         language === "en"
-                            ? item.meaning_en ||
-                            item.meaning_vi ||
-                            ""
-                            : item.meaning_vi ||
-                            item.meaning_en ||
-                            "",
-                    meaning_en: item.meaning_en,
-                    meaning_vi: item.meaning_vi,
+                            ? sense.meaning_en || sense.meaning_vi || ""
+                            : sense.meaning_vi || sense.meaning_en || "",
+                    meaning_en: sense.meaning_en,
+                    meaning_vi: sense.meaning_vi,
                     part_of_speech:
-                        item.part_of_speech?.join(", ") || null,
+                        sense.part_of_speech?.join(", ") || null,
                     jlpt: vocabulary.jlpt,
                     verb_group: vocabulary.verb_group,
                     is_common: vocabulary.is_common,
-                    priority_score: null,
+                    priority_score: item.priority_score,
                 },
-            ]
-        }) || []
+            },
+        ]
+    })
+
+    const data = ranked
+        .sort((a, b) => b.rank - a.rank)
+        .slice(0, SEARCH_VOCABULARY_LIMIT)
+        .map((r) => r.entry)
 
     return {
         data,

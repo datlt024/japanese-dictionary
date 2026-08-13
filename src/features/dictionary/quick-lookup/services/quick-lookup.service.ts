@@ -4,15 +4,8 @@ import type {
 } from "@/domain/kanji"
 
 import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
-import type { VocabularyKanjiDetail } from "@/server/services/vocabulary/vocabulary.service"
+import type { VocabularyKanjiDetail } from "@/domain/vocabulary"
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"
-
-type RelatedVocabulary = {
-    id: number
-    word: string
-    kana: string | null
-    meaning: string | null
-}
 
 export type QuickLookupKanjiTarget = {
     type: "kanji"
@@ -30,7 +23,6 @@ export type QuickLookupTarget =
         type: "vocabulary"
         title: string
         vocabulary: Vocabulary
-        relatedVocabularies: RelatedVocabulary[]
         kanjiDetails: VocabularyKanjiDetail[]
         kanjiTargets: QuickLookupKanjiTarget[]
     }
@@ -42,16 +34,17 @@ export type QuickLookupTarget =
 
 export async function getQuickLookupTarget(
     text: string,
-    language: DictionaryLanguage
+    language: DictionaryLanguage,
+    vocabularyId?: number
 ): Promise<QuickLookupTarget> {
     const q = text.trim()
 
     try {
-        const response = await fetch(
-            `/api/quick-lookup?q=${encodeURIComponent(
-                q
-            )}&lang=${encodeURIComponent(language)}`
-        )
+        const url = vocabularyId
+            ? `/api/quick-lookup?id=${encodeURIComponent(vocabularyId)}&lang=${encodeURIComponent(language)}`
+            : `/api/quick-lookup?q=${encodeURIComponent(q)}&lang=${encodeURIComponent(language)}`
+
+        const response = await fetch(url)
 
         if (!response.ok) {
             return {

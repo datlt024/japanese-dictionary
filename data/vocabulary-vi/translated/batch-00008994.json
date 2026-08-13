@@ -1,0 +1,464 @@
+[
+  {
+    "vocabulary_id": 206842,
+    "word": "内部生",
+    "kana": "ないぶせい",
+    "senses": [
+      {
+        "sense_id": 457585,
+        "meaning_vi": "sinh viên đăng ký từ một trường cấp dưới trực thuộc",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh viên đăng ký từ một trường cấp dưới trực thuộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh viên đăng ký từ một trường cấp dưới trực thuộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206843,
+    "word": "外部生",
+    "kana": "がいぶせい",
+    "senses": [
+      {
+        "sense_id": 457586,
+        "meaning_vi": "học sinh ghi danh từ một trường cấp dưới không liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "học sinh ghi danh từ một trường cấp dưới không liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "học sinh ghi danh từ một trường cấp dưới không liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206844,
+    "word": "アクティベーションコード",
+    "kana": "アクティベーションコード",
+    "senses": [
+      {
+        "sense_id": 457587,
+        "meaning_vi": "mã kích hoạt",
+        "confidence": "high",
+        "search_keywords": [
+          "mã kích hoạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã kích hoạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206845,
+    "word": "心の理論",
+    "kana": "こころのりろん",
+    "senses": [
+      {
+        "sense_id": 457588,
+        "meaning_vi": "lý thuyết về tâm trí; ToM",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết về tâm trí",
+          "ToM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết về tâm trí; ToM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206846,
+    "word": "アクティベーションキー",
+    "kana": "アクティベーションキー",
+    "senses": [
+      {
+        "sense_id": 457589,
+        "meaning_vi": "khóa kích hoạt; mã kích hoạt",
+        "confidence": "high",
+        "search_keywords": [
+          "khóa kích hoạt",
+          "mã kích hoạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóa kích hoạt; mã kích hoạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206847,
+    "word": "ディアクティベーション",
+    "kana": "ディアクティベーション",
+    "senses": [
+      {
+        "sense_id": 457590,
+        "meaning_vi": "vô hiệu hóa (của giấy phép phần mềm)",
+        "confidence": "high",
+        "search_keywords": [
+          "vô hiệu hóa (của giấy phép phần mềm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô hiệu hóa (của giấy phép phần mềm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206848,
+    "word": "ディアクティベート",
+    "kana": "ディアクティベート",
+    "senses": [
+      {
+        "sense_id": 457591,
+        "meaning_vi": "vô hiệu hóa (của giấy phép phần mềm)",
+        "confidence": "high",
+        "search_keywords": [
+          "vô hiệu hóa (của giấy phép phần mềm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô hiệu hóa (của giấy phép phần mềm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206849,
+    "word": "縮み笹",
+    "kana": "チヂミザサ",
+    "senses": [
+      {
+        "sense_id": 457592,
+        "meaning_vi": "cỏ rổ lá lượn sóng (Oplismenus undulatifolius)",
+        "confidence": "high",
+        "search_keywords": [
+          "cỏ rổ lá lượn sóng (Oplismenus undulatifolius)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cỏ rổ lá lượn sóng (Oplismenus undulatifolius)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206850,
+    "word": "莪朮",
+    "kana": "ガジュツ",
+    "senses": [
+      {
+        "sense_id": 457593,
+        "meaning_vi": "nghệ trắng (Curcuma zedoaria)",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ trắng (Curcuma zedoaria)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ trắng (Curcuma zedoaria)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206851,
+    "word": "胡瓜草",
+    "kana": "キュウリグサ",
+    "senses": [
+      {
+        "sense_id": 457594,
+        "meaning_vi": "Trigonotis peduncularis (loài thảo mộc hoang dã)",
+        "confidence": "high",
+        "search_keywords": [
+          "Trigonotis peduncularis (loài thảo mộc hoang dã)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Trigonotis peduncularis (loài thảo mộc hoang dã)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206852,
+    "word": "顧客情報",
+    "kana": "こきゃくじょうほう",
+    "senses": [
+      {
+        "sense_id": 457595,
+        "meaning_vi": "thông tin khách hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin khách hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin khách hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206853,
+    "word": "細菌叢",
+    "kana": "さいきんそう",
+    "senses": [
+      {
+        "sense_id": 457596,
+        "meaning_vi": "hệ vi khuẩn; hệ vi sinh vật",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ vi khuẩn",
+          "hệ vi sinh vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ vi khuẩn; hệ vi sinh vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206854,
+    "word": "マイクロバイオーム",
+    "kana": "マイクロバイオーム",
+    "senses": [
+      {
+        "sense_id": 457597,
+        "meaning_vi": "hệ vi sinh vật",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ vi sinh vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ vi sinh vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206855,
+    "word": "マイクロバイオータ",
+    "kana": "マイクロバイオータ",
+    "senses": [
+      {
+        "sense_id": 457598,
+        "meaning_vi": "hệ vi sinh vật",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ vi sinh vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ vi sinh vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206856,
+    "word": "病理学的",
+    "kana": "びょうりがくてき",
+    "senses": [
+      {
+        "sense_id": 457599,
+        "meaning_vi": "bệnh lý; bệnh lý",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh lý; bệnh lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206857,
+    "word": "ディーゼル車",
+    "kana": "ディーゼルしゃ",
+    "senses": [
+      {
+        "sense_id": 457600,
+        "meaning_vi": "xe diesel",
+        "confidence": "high",
+        "search_keywords": [
+          "xe diesel"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe diesel",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206858,
+    "word": "大腸内視鏡検査",
+    "kana": "だいちょうないしきょうけんさ",
+    "senses": [
+      {
+        "sense_id": 457601,
+        "meaning_vi": "nội soi",
+        "confidence": "high",
+        "search_keywords": [
+          "nội soi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội soi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206859,
+    "word": "上部消化管内視鏡",
+    "kana": "じょうぶしょうかかんないしきょう",
+    "senses": [
+      {
+        "sense_id": 457602,
+        "meaning_vi": "nội soi đường tiêu hóa trên; phạm vi EGD",
+        "confidence": "high",
+        "search_keywords": [
+          "nội soi đường tiêu hóa trên",
+          "phạm vi EGD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội soi đường tiêu hóa trên; phạm vi EGD",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 457603,
+        "meaning_vi": "nội soi thực quản dạ dày tá tràng; nội soi thực quản – dạ dày tá tràng; nội soi GI trên",
+        "confidence": "high",
+        "search_keywords": [
+          "nội soi thực quản dạ dày tá tràng",
+          "nội soi thực quản – dạ dày tá tràng",
+          "nội soi GI trên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội soi thực quản dạ dày tá tràng; nội soi thực quản – dạ dày tá tràng; nội soi GI trên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206860,
+    "word": "胃カメラ検査",
+    "kana": "いカメラけんさ",
+    "senses": [
+      {
+        "sense_id": 457604,
+        "meaning_vi": "nội soi dạ dày; nội soi GI trên",
+        "confidence": "high",
+        "search_keywords": [
+          "nội soi dạ dày",
+          "nội soi GI trên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội soi dạ dày; nội soi GI trên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 206861,
+    "word": "動力分散方式",
+    "kana": "どうりょくぶんさんほうしき",
+    "senses": [
+      {
+        "sense_id": 457605,
+        "meaning_vi": "hệ thống nhiều đơn vị",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống nhiều đơn vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống nhiều đơn vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

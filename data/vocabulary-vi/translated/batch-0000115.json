@@ -1,470 +1,443 @@
 [
-{
-"vocabulary_id": 3081,
-"word": "オペコード",
-"kana": "オペコード",
-"senses": [
-{
-"sense_id": 221449,
-"meaning_vi": "mã lệnh",
-"confidence": "high",
-"search_keywords": [
-"mã lệnh",
-"opcode",
-"operation code"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mã xác định thao tác cần thực hiện trong lệnh máy",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3082,
-"word": "オペラ",
-"kana": "オペラ",
-"senses": [
-{
-"sense_id": 221450,
-"meaning_vi": "opera",
-"confidence": "high",
-"search_keywords": [
-"opera",
-"nhạc kịch",
-"ca kịch"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thể loại sân khấu âm nhạc kết hợp hát, diễn xuất và dàn nhạc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3083,
-"word": "オペラグラス",
-"kana": "オペラグラス",
-"senses": [
-{
-"sense_id": 221451,
-"meaning_vi": "ống nhòm xem kịch",
-"confidence": "high",
-"search_keywords": [
-"ống nhòm xem kịch",
-"opera glasses"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ống nhòm nhỏ dùng khi xem opera hoặc biểu diễn sân khấu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3084,
-"word": "オペラコミック",
-"kana": "オペラコミック",
-"senses": [
-{
-"sense_id": 221452,
-"meaning_vi": "opéra comique",
-"confidence": "medium",
-"search_keywords": [
-"opéra comique",
-"opera hài"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thể loại opera Pháp có lời thoại xen giữa các phần hát",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3085,
-"word": "オペラハウス",
-"kana": "オペラハウス",
-"senses": [
-{
-"sense_id": 221453,
-"meaning_vi": "nhà hát opera",
-"confidence": "high",
-"search_keywords": [
-"nhà hát opera",
-"opera house"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhà hát chuyên dùng cho opera và biểu diễn sân khấu âm nhạc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3086,
-"word": "オペランド",
-"kana": "オペランド",
-"senses": [
-{
-"sense_id": 221454,
-"meaning_vi": "toán hạng",
-"confidence": "high",
-"search_keywords": [
-"toán hạng",
-"operand"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đối tượng hoặc giá trị được toán tử xử lý",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3087,
-"word": "オペレーショナル",
-"kana": "オペレーショナル",
-"senses": [
-{
-"sense_id": 221455,
-"meaning_vi": "vận hành",
-"confidence": "high",
-"search_keywords": [
-"vận hành",
-"operational"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "liên quan đến việc vận hành hoặc hoạt động thực tế",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3088,
-"word": "オペレーション",
-"kana": "オペレーション",
-"senses": [
-{
-"sense_id": 221456,
-"meaning_vi": "vận hành",
-"confidence": "high",
-"search_keywords": [
-"vận hành",
-"hoạt động",
-"operation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "việc vận hành, thao tác hoặc thực hiện một hoạt động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3089,
-"word": "オペレーションズ",
-"kana": "オペレーションズ",
-"senses": [
-{
-"sense_id": 221457,
-"meaning_vi": "hoạt động vận hành",
-"confidence": "high",
-"search_keywords": [
-"hoạt động vận hành",
-"operations"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "các hoạt động vận hành hoặc tác nghiệp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3090,
-"word": "オペレーションズリサーチ",
-"kana": "オペレーションズリサーチ",
-"senses": [
-{
-"sense_id": 221458,
-"meaning_vi": "nghiên cứu vận trù",
-"confidence": "high",
-"search_keywords": [
-"nghiên cứu vận trù",
-"operations research",
-"OR"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lĩnh vực dùng mô hình toán học để tối ưu hóa quyết định và vận hành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3091,
-"word": "オペレーションセンター",
-"kana": "オペレーションセンター",
-"senses": [
-{
-"sense_id": 221459,
-"meaning_vi": "trung tâm vận hành",
-"confidence": "high",
-"search_keywords": [
-"trung tâm vận hành",
-"operation center"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trung tâm giám sát và điều phối hoạt động vận hành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3092,
-"word": "オペレーションリサーチ",
-"kana": "オペレーションリサーチ",
-"senses": [
-{
-"sense_id": 221460,
-"meaning_vi": "nghiên cứu vận trù",
-"confidence": "high",
-"search_keywords": [
-"nghiên cứu vận trù",
-"operations research",
-"OR"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương pháp phân tích định lượng để tối ưu hóa quyết định và vận hành",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3093,
-"word": "オペレーター",
-"kana": "オペレーター",
-"senses": [
-{
-"sense_id": 221461,
-"meaning_vi": "nhân viên vận hành",
-"confidence": "high",
-"search_keywords": [
-"nhân viên vận hành",
-"tổng đài viên",
-"operator"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người điều khiển thiết bị, hệ thống hoặc phụ trách tổng đài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3094,
-"word": "オペレーティング",
-"kana": "オペレーティング",
-"senses": [
-{
-"sense_id": 221462,
-"meaning_vi": "vận hành",
-"confidence": "high",
-"search_keywords": [
-"vận hành",
-"operating"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "liên quan đến việc điều khiển hoặc vận hành hệ thống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3095,
-"word": "オペレーティングシステム",
-"kana": "オペレーティングシステム",
-"senses": [
-{
-"sense_id": 221463,
-"meaning_vi": "hệ điều hành",
-"confidence": "high",
-"search_keywords": [
-"hệ điều hành",
-"OS",
-"operating system"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phần mềm nền tảng quản lý phần cứng và chương trình máy tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3096,
-"word": "オペレッタ",
-"kana": "オペレッタ",
-"senses": [
-{
-"sense_id": 221464,
-"meaning_vi": "operetta",
-"confidence": "high",
-"search_keywords": [
-"operetta",
-"nhạc kịch nhẹ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thể loại opera nhẹ, thường có tính hài và lời thoại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3097,
-"word": "オポジションパーティー",
-"kana": "オポジションパーティー",
-"senses": [
-{
-"sense_id": 221465,
-"meaning_vi": "đảng đối lập",
-"confidence": "high",
-"search_keywords": [
-"đảng đối lập",
-"opposition party"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đảng chính trị đối lập với đảng cầm quyền",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3098,
-"word": "オポチュニスト",
-"kana": "オポチュニスト",
-"senses": [
-{
-"sense_id": 221466,
-"meaning_vi": "kẻ cơ hội",
-"confidence": "high",
-"search_keywords": [
-"kẻ cơ hội",
-"người cơ hội",
-"opportunist"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người lợi dụng hoàn cảnh để mưu lợi cho bản thân",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3099,
-"word": "オポチュニズム",
-"kana": "オポチュニズム",
-"senses": [
-{
-"sense_id": 221467,
-"meaning_vi": "chủ nghĩa cơ hội",
-"confidence": "high",
-"search_keywords": [
-"chủ nghĩa cơ hội",
-"opportunism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khuynh hướng hành động theo lợi ích trước mắt, bất chấp nguyên tắc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3100,
-"word": "オポッサム",
-"kana": "オポッサム",
-"senses": [
-{
-"sense_id": 221468,
-"meaning_vi": "thú opossum",
-"confidence": "high",
-"search_keywords": [
-"thú opossum",
-"opossum"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loài thú có túi opossum sống chủ yếu ở châu Mỹ",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3081,
+    "word": "オペコード",
+    "kana": "オペコード",
+    "senses": [
+      {
+        "sense_id": 221449,
+        "meaning_vi": "mã hoạt động; mã hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "mã hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã hoạt động; mã hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3082,
+    "word": "オペラ",
+    "kana": "オペラ",
+    "senses": [
+      {
+        "sense_id": 221450,
+        "meaning_vi": "opera",
+        "confidence": "low",
+        "search_keywords": [
+          "opera"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "opera",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3083,
+    "word": "オペラグラス",
+    "kana": "オペラグラス",
+    "senses": [
+      {
+        "sense_id": 221451,
+        "meaning_vi": "kính opera",
+        "confidence": "high",
+        "search_keywords": [
+          "kính opera"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kính opera",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3084,
+    "word": "オペラコミック",
+    "kana": "オペラコミック",
+    "senses": [
+      {
+        "sense_id": 221452,
+        "meaning_vi": "vở opera hài hước",
+        "confidence": "high",
+        "search_keywords": [
+          "vở opera hài hước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vở opera hài hước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3085,
+    "word": "オペラハウス",
+    "kana": "オペラハウス",
+    "senses": [
+      {
+        "sense_id": 221453,
+        "meaning_vi": "nhà hát opera",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà hát opera"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà hát opera",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3086,
+    "word": "オペランド",
+    "kana": "オペランド",
+    "senses": [
+      {
+        "sense_id": 221454,
+        "meaning_vi": "toán hạng",
+        "confidence": "high",
+        "search_keywords": [
+          "toán hạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán hạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3087,
+    "word": "オペレーショナル",
+    "kana": "オペレーショナル",
+    "senses": [
+      {
+        "sense_id": 221455,
+        "meaning_vi": "hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3088,
+    "word": "オペレーション",
+    "kana": "オペレーション",
+    "senses": [
+      {
+        "sense_id": 221456,
+        "meaning_vi": "hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3089,
+    "word": "オペレーションズ",
+    "kana": "オペレーションズ",
+    "senses": [
+      {
+        "sense_id": 221457,
+        "meaning_vi": "hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3090,
+    "word": "オペレーションズリサーチ",
+    "kana": "オペレーションズリサーチ",
+    "senses": [
+      {
+        "sense_id": 221458,
+        "meaning_vi": "nghiên cứu hoạt động; HOẶC",
+        "confidence": "high",
+        "search_keywords": [
+          "nghiên cứu hoạt động",
+          "HOẶC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghiên cứu hoạt động; HOẶC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3091,
+    "word": "オペレーションセンター",
+    "kana": "オペレーションセンター",
+    "senses": [
+      {
+        "sense_id": 221459,
+        "meaning_vi": "trung tâm điều hành; trung tâm điều hành",
+        "confidence": "high",
+        "search_keywords": [
+          "trung tâm điều hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung tâm điều hành; trung tâm điều hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3092,
+    "word": "オペレーションリサーチ",
+    "kana": "オペレーションリサーチ",
+    "senses": [
+      {
+        "sense_id": 221460,
+        "meaning_vi": "nghiên cứu hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "nghiên cứu hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghiên cứu hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3093,
+    "word": "オペレーター",
+    "kana": "オペレーター",
+    "senses": [
+      {
+        "sense_id": 221461,
+        "meaning_vi": "toán tử",
+        "confidence": "high",
+        "search_keywords": [
+          "toán tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3094,
+    "word": "オペレーティング",
+    "kana": "オペレーティング",
+    "senses": [
+      {
+        "sense_id": 221462,
+        "meaning_vi": "điều hành",
+        "confidence": "high",
+        "search_keywords": [
+          "điều hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3095,
+    "word": "オペレーティングシステム",
+    "kana": "オペレーティングシステム",
+    "senses": [
+      {
+        "sense_id": 221463,
+        "meaning_vi": "hệ điều hành; hệ điều hành",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ điều hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ điều hành; hệ điều hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3096,
+    "word": "オペレッタ",
+    "kana": "オペレッタ",
+    "senses": [
+      {
+        "sense_id": 221464,
+        "meaning_vi": "vở opera",
+        "confidence": "high",
+        "search_keywords": [
+          "vở opera"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vở opera",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3097,
+    "word": "オポジションパーティー",
+    "kana": "オポジションパーティー",
+    "senses": [
+      {
+        "sense_id": 221465,
+        "meaning_vi": "đảng đối lập",
+        "confidence": "high",
+        "search_keywords": [
+          "đảng đối lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đảng đối lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3098,
+    "word": "オポチュニスト",
+    "kana": "オポチュニスト",
+    "senses": [
+      {
+        "sense_id": 221466,
+        "meaning_vi": "kẻ cơ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "kẻ cơ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẻ cơ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3099,
+    "word": "オポチュニズム",
+    "kana": "オポチュニズム",
+    "senses": [
+      {
+        "sense_id": 221467,
+        "meaning_vi": "chủ nghĩa cơ hội",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa cơ hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa cơ hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3100,
+    "word": "オポッサム",
+    "kana": "オポッサム",
+    "senses": [
+      {
+        "sense_id": 221468,
+        "meaning_vi": "thú có túi",
+        "confidence": "high",
+        "search_keywords": [
+          "thú có túi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thú có túi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

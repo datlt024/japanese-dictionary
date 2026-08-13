@@ -42,7 +42,7 @@ function VocabCard({
             <div className={styles.cardTop}>
                 <span className={styles.word}>{item.word}</span>
                 {item.jlpt && (
-                    <span className={styles.jlptBadge}>{item.jlpt}</span>
+                    <span className={styles.jlptBadge} data-level={item.jlpt}>{item.jlpt}</span>
                 )}
             </div>
 
@@ -69,13 +69,15 @@ function SuggestionsModal({
     onSelectItem: (item: DailyVocabularyItem) => void
     onHoverItem: (item: DailyVocabularyItem) => void
 }) {
+    const onCloseRef = useRef(onClose)
+    useEffect(() => { onCloseRef.current = onClose }, [onClose])
+
     useEffect(() => {
         function handleKey(e: KeyboardEvent) {
-            if (e.key === "Escape") onClose()
+            if (e.key === "Escape") onCloseRef.current()
         }
         document.addEventListener("keydown", handleKey)
         return () => document.removeEventListener("keydown", handleKey)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const modal = (
@@ -138,6 +140,7 @@ export default function DailyVocabularySectionClient({ items }: Props) {
     const [loadingWord, setLoadingWord] = useState<string | null>(null)
     const cacheRef = useRef(new Map<string, QuickLookupTarget>())
     const pendingRef = useRef(new Map<string, Promise<QuickLookupTarget>>())
+    const activeWordRef = useRef<string | null>(null)
 
     const visible = items.slice(0, VISIBLE_COUNT)
 
@@ -174,13 +177,16 @@ export default function DailyVocabularySectionClient({ items }: Props) {
         }
 
         // Open modal immediately with loading state, reuse in-flight fetch
+        activeWordRef.current = item.word
         setLookupTarget(null)
         setLoadingWord(item.word)
         setLookupOpen(true)
 
         const target = await fetchAndCache(item.word)
-        setLookupTarget(target)
-        setLoadingWord(null)
+        if (activeWordRef.current === item.word) {
+            setLookupTarget(target)
+            setLoadingWord(null)
+        }
     }
 
     function handleCardHover(item: DailyVocabularyItem) {
@@ -188,6 +194,7 @@ export default function DailyVocabularySectionClient({ items }: Props) {
     }
 
     function handleClose() {
+        activeWordRef.current = null
         setLookupOpen(false)
         setLookupTarget(null)
         setLoadingWord(null)

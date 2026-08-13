@@ -1,0 +1,551 @@
+[
+  {
+    "vocabulary_id": 84378,
+    "word": "文法性",
+    "kana": "ぶんぽうせい",
+    "senses": [
+      {
+        "sense_id": 324039,
+        "meaning_vi": "ngữ pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "ngữ pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngữ pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84379,
+    "word": "変形規則",
+    "kana": "へんけいきそく",
+    "senses": [
+      {
+        "sense_id": 324040,
+        "meaning_vi": "quy tắc chuyển đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "quy tắc chuyển đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy tắc chuyển đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84380,
+    "word": "変形生成統語論",
+    "kana": "へんけいせいせいとうごろん",
+    "senses": [
+      {
+        "sense_id": 324041,
+        "meaning_vi": "cú pháp sáng tạo chuyển đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "cú pháp sáng tạo chuyển đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cú pháp sáng tạo chuyển đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84381,
+    "word": "変形部門",
+    "kana": "へんけいぶもん",
+    "senses": [
+      {
+        "sense_id": 324042,
+        "meaning_vi": "thành phần biến đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần biến đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần biến đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84382,
+    "word": "弁別素性",
+    "kana": "べんべつそせい",
+    "senses": [
+      {
+        "sense_id": 324043,
+        "meaning_vi": "tính năng đặc biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "tính năng đặc biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính năng đặc biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84383,
+    "word": "母音性",
+    "kana": "ぼいんせい",
+    "senses": [
+      {
+        "sense_id": 324044,
+        "meaning_vi": "phát âm",
+        "confidence": "high",
+        "search_keywords": [
+          "phát âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84384,
+    "word": "母語話者",
+    "kana": "ぼごわしゃ",
+    "senses": [
+      {
+        "sense_id": 324045,
+        "meaning_vi": "người bản xứ",
+        "confidence": "high",
+        "search_keywords": [
+          "người bản xứ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người bản xứ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84385,
+    "word": "翻訳メモリ",
+    "kana": "ほんやくメモリ",
+    "senses": [
+      {
+        "sense_id": 324046,
+        "meaning_vi": "bộ nhớ dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84386,
+    "word": "ミニマリストプログラム",
+    "kana": "ミニマリストプログラム",
+    "senses": [
+      {
+        "sense_id": 324047,
+        "meaning_vi": "chương trình tối giản; chương trình tối giản",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình tối giản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình tối giản; chương trình tối giản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84387,
+    "word": "文字符号化法",
+    "kana": "もじふごうかほう",
+    "senses": [
+      {
+        "sense_id": 324048,
+        "meaning_vi": "sơ đồ mã hóa ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ đồ mã hóa ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ đồ mã hóa ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84388,
+    "word": "文字符号系",
+    "kana": "もじふごうけい",
+    "senses": [
+      {
+        "sense_id": 324049,
+        "meaning_vi": "hệ thống mã hóa ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống mã hóa ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống mã hóa ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84389,
+    "word": "有限状態文法",
+    "kana": "ゆうげんじょうたいぶんぽう",
+    "senses": [
+      {
+        "sense_id": 324050,
+        "meaning_vi": "ngữ pháp trạng thái hữu hạn",
+        "confidence": "high",
+        "search_keywords": [
+          "ngữ pháp trạng thái hữu hạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngữ pháp trạng thái hữu hạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84390,
+    "word": "論理形式",
+    "kana": "ろんりけいしき",
+    "senses": [
+      {
+        "sense_id": 324051,
+        "meaning_vi": "dạng logic",
+        "confidence": "high",
+        "search_keywords": [
+          "dạng logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dạng logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84391,
+    "word": "論理和",
+    "kana": "ろんりわ",
+    "senses": [
+      {
+        "sense_id": 324052,
+        "meaning_vi": "phân ly; tổng logic; thêm hợp lý; HOẶC hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "phân ly",
+          "tổng logic",
+          "thêm hợp lý",
+          "HOẶC hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân ly; tổng logic; thêm hợp lý; HOẶC hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84392,
+    "word": "右方高麗楽",
+    "kana": "うほうこまがく",
+    "senses": [
+      {
+        "sense_id": 324053,
+        "meaning_vi": "Âm nhạc cung đình cổ của Nhật Bản từ thời Nara",
+        "confidence": "high",
+        "search_keywords": [
+          "Âm nhạc cung đình cổ của Nhật Bản từ thời Nara"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Âm nhạc cung đình cổ của Nhật Bản từ thời Nara",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84393,
+    "word": "高麗楽",
+    "kana": "こまがく",
+    "senses": [
+      {
+        "sense_id": 324054,
+        "meaning_vi": "Âm nhạc cung đình cổ của Nhật Bản từ thời Nara",
+        "confidence": "high",
+        "search_keywords": [
+          "Âm nhạc cung đình cổ của Nhật Bản từ thời Nara"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Âm nhạc cung đình cổ của Nhật Bản từ thời Nara",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84394,
+    "word": "歩兵",
+    "kana": "ふひょう",
+    "senses": [
+      {
+        "sense_id": 324055,
+        "meaning_vi": "con tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "con tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con tốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84395,
+    "word": "桂",
+    "kana": "けい",
+    "senses": [
+      {
+        "sense_id": 324056,
+        "meaning_vi": "hiệp sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệp sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệp sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84396,
+    "word": "飛",
+    "kana": "ひ",
+    "senses": [
+      {
+        "sense_id": 324057,
+        "meaning_vi": "xe",
+        "confidence": "high",
+        "search_keywords": [
+          "xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 324058,
+        "meaning_vi": "bóng bay",
+        "confidence": "high",
+        "search_keywords": [
+          "bóng bay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bóng bay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84397,
+    "word": "玉",
+    "kana": "ぎょく",
+    "senses": [
+      {
+        "sense_id": 324059,
+        "meaning_vi": "đá quý (đặc biệt là ngọc bích)",
+        "confidence": "high",
+        "search_keywords": [
+          "đá quý (đặc biệt là ngọc bích)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đá quý (đặc biệt là ngọc bích)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 324060,
+        "meaning_vi": "trứng (đặc biệt dùng làm lớp phủ sushi)",
+        "confidence": "high",
+        "search_keywords": [
+          "trứng (đặc biệt dùng làm lớp phủ sushi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trứng (đặc biệt dùng làm lớp phủ sushi)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 324061,
+        "meaning_vi": "cổ phiếu hoặc chứng khoán đang được giao dịch; sản phẩm đang được mua hoặc bán",
+        "confidence": "high",
+        "search_keywords": [
+          "cổ phiếu hoặc chứng khoán đang được giao dịch",
+          "sản phẩm đang được mua hoặc bán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cổ phiếu hoặc chứng khoán đang được giao dịch; sản phẩm đang được mua hoặc bán",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 324062,
+        "meaning_vi": "vị thế (trong tài chính, số lượng chứng khoán được sở hữu hoặc nợ bởi nhà đầu tư hoặc đại lý)",
+        "confidence": "high",
+        "search_keywords": [
+          "vị thế (trong tài chính, số lượng chứng khoán được sở hữu hoặc nợ bởi nhà đầu tư hoặc đại lý)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị thế (trong tài chính, số lượng chứng khoán được sở hữu hoặc nợ bởi nhà đầu tư hoặc đại lý)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 324063,
+        "meaning_vi": "geisha",
+        "confidence": "low",
+        "search_keywords": [
+          "geisha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "geisha",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 324064,
+        "meaning_vi": "phí thời gian cho một geisha",
+        "confidence": "high",
+        "search_keywords": [
+          "phí thời gian cho một geisha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phí thời gian cho một geisha",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 324065,
+        "meaning_vi": "vua (của cầu thủ trẻ)",
+        "confidence": "high",
+        "search_keywords": [
+          "vua (của cầu thủ trẻ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vua (của cầu thủ trẻ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

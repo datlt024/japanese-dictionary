@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560">
+  <rect width="560" height="560" fill="white"/>
+  <line x1="280" y1="0" x2="280" y2="560" stroke="#bbb" stroke-width="1.5"/>
+  <line x1="0" y1="280" x2="560" y2="280" stroke="#bbb" stroke-width="1.5"/>
+  <rect width="560" height="560" fill="none" stroke="#888" stroke-width="2"/>
+
+  <text x="14" y="36" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">①</text>
+  <text x="294" y="36" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">②</text>
+  <text x="14" y="316" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">③</text>
+  <text x="294" y="316" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">④</text>
+
+  <!-- ① バス (bus) -->
+  <!-- Bus body -->
+  <rect x="30" y="125" width="225" height="95" rx="10" fill="#ffeeaa" stroke="#888833" stroke-width="2.5"/>
+  <rect x="30" y="138" width="22" height="64" rx="4" fill="#ddcc88" stroke="#888833" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="62" y="134" width="38" height="30" rx="3" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <rect x="108" y="134" width="38" height="30" rx="3" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <rect x="154" y="134" width="38" height="30" rx="3" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <rect x="200" y="134" width="38" height="30" rx="3" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <!-- Wheels -->
+  <circle cx="68" cy="220" r="18" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="68" cy="220" r="8" fill="#999"/>
+  <circle cx="196" cy="220" r="18" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="196" cy="220" r="8" fill="#999"/>
+  <text x="140" y="258" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">バス</text>
+
+  <!-- ② じてんしゃ (bicycle) -->
+  <!-- Two wheels -->
+  <circle cx="360" cy="190" r="52" fill="none" stroke="#555" stroke-width="3"/>
+  <circle cx="360" cy="190" r="8" fill="#555"/>
+  <circle cx="480" cy="190" r="52" fill="none" stroke="#555" stroke-width="3"/>
+  <circle cx="480" cy="190" r="8" fill="#555"/>
+  <!-- Frame -->
+  <line x1="360" y1="190" x2="420" y2="140" stroke="#555" stroke-width="3"/>
+  <line x1="420" y1="140" x2="480" y2="190" stroke="#555" stroke-width="3"/>
+  <line x1="360" y1="190" x2="420" y2="190" stroke="#555" stroke-width="3"/>
+  <line x1="420" y1="140" x2="420" y2="192" stroke="#555" stroke-width="3"/>
+  <!-- Handlebars -->
+  <line x1="420" y1="140" x2="408" y2="124" stroke="#444" stroke-width="2.5"/>
+  <line x1="400" y1="122" x2="416" y2="126" stroke="#444" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Seat -->
+  <line x1="420" y1="192" x2="404" y2="175" stroke="#664422" stroke-width="2.5"/>
+  <line x1="397" y1="173" x2="412" y2="177" stroke="#664422" stroke-width="3" stroke-linecap="round"/>
+  <!-- Pedals -->
+  <circle cx="420" cy="192" r="10" fill="none" stroke="#555" stroke-width="2"/>
+  <line x1="413" y1="200" x2="427" y2="184" stroke="#555" stroke-width="2"/>
+  <text x="420" y="268" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">じてんしゃ</text>
+
+  <!-- ③ でんしゃ (train) -->
+  <rect x="22" y="360" width="238" height="85" rx="12" fill="#6688cc" stroke="#334488" stroke-width="2.5"/>
+  <ellipse cx="38" cy="402" rx="18" ry="36" fill="#7799dd" stroke="#334488" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="54" y="372" width="42" height="28" rx="4" fill="#aaccee" stroke="#aaddff" stroke-width="1.5"/>
+  <rect x="104" y="372" width="42" height="28" rx="4" fill="#aaccee" stroke="#aaddff" stroke-width="1.5"/>
+  <rect x="154" y="372" width="42" height="28" rx="4" fill="#aaccee" stroke="#aaddff" stroke-width="1.5"/>
+  <rect x="22" y="400" width="238" height="10" fill="#3355aa"/>
+  <!-- Rail -->
+  <line x1="8" y1="447" x2="258" y2="447" stroke="#888" stroke-width="3"/>
+  <rect x="40" y="445" width="20" height="8" rx="2" fill="#666"/>
+  <rect x="160" y="445" width="20" height="8" rx="2" fill="#666"/>
+  <text x="140" y="510" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">でんしゃ</text>
+
+  <!-- ④ くるま (car) -->
+  <!-- Body -->
+  <rect x="300" y="410" width="240" height="60" rx="6" fill="#55aacc" stroke="#224466" stroke-width="2.5"/>
+  <!-- Roof/cabin -->
+  <path d="M335 410 Q352 365 520 365 L540 410 Z" fill="#55aacc" stroke="#224466" stroke-width="2.5"/>
+  <!-- Windows -->
+  <rect x="358" y="374" width="68" height="34" rx="4" fill="#aaddee" stroke="#668" stroke-width="1.5"/>
+  <rect x="440" y="374" width="72" height="34" rx="4" fill="#aaddee" stroke="#668" stroke-width="1.5"/>
+  <!-- Wheels -->
+  <circle cx="356" cy="470" r="22" fill="#444" stroke="#222" stroke-width="2"/>
+  <circle cx="356" cy="470" r="10" fill="#888"/>
+  <circle cx="488" cy="470" r="22" fill="#444" stroke="#222" stroke-width="2"/>
+  <circle cx="488" cy="470" r="10" fill="#888"/>
+  <!-- Headlight -->
+  <ellipse cx="540" cy="430" rx="10" ry="7" fill="#ffee88" stroke="#aa8800" stroke-width="1.5"/>
+  <text x="420" y="530" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">くるま</text>
+</svg>

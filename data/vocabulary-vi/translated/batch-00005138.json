@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 123303,
+    "word": "型パラメタ値",
+    "kana": "かたパラメタち",
+    "senses": [
+      {
+        "sense_id": 366926,
+        "meaning_vi": "giá trị tham số kiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị tham số kiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị tham số kiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123304,
+    "word": "型参照名",
+    "kana": "かたさんしょうめい",
+    "senses": [
+      {
+        "sense_id": 366927,
+        "meaning_vi": "gõ tên tham chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "gõ tên tham chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gõ tên tham chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123305,
+    "word": "型宣言文",
+    "kana": "かたせんげんぶん",
+    "senses": [
+      {
+        "sense_id": 366928,
+        "meaning_vi": "câu lệnh khai báo kiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "câu lệnh khai báo kiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu lệnh khai báo kiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123306,
+    "word": "型定義",
+    "kana": "かたていぎ",
+    "senses": [
+      {
+        "sense_id": 366929,
+        "meaning_vi": "định nghĩa kiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "định nghĩa kiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định nghĩa kiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123307,
+    "word": "型変換演算子",
+    "kana": "かたへんかんえんざんし",
+    "senses": [
+      {
+        "sense_id": 366930,
+        "meaning_vi": "toán tử chuyển đổi kiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "toán tử chuyển đổi kiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán tử chuyển đổi kiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123308,
+    "word": "契約者回線",
+    "kana": "けいやくしゃかいせん",
+    "senses": [
+      {
+        "sense_id": 366931,
+        "meaning_vi": "đường dây thuê bao",
+        "confidence": "high",
+        "search_keywords": [
+          "đường dây thuê bao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường dây thuê bao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123309,
+    "word": "形式関係",
+    "kana": "けいしきかんけい",
+    "senses": [
+      {
+        "sense_id": 366932,
+        "meaning_vi": "quan hệ chính thức",
+        "confidence": "high",
+        "search_keywords": [
+          "quan hệ chính thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan hệ chính thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123310,
+    "word": "形式仕様書",
+    "kana": "けいしきしようしょ",
+    "senses": [
+      {
+        "sense_id": 366933,
+        "meaning_vi": "đặc điểm kỹ thuật chính thức",
+        "confidence": "high",
+        "search_keywords": [
+          "đặc điểm kỹ thuật chính thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặc điểm kỹ thuật chính thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123311,
+    "word": "形式変換",
+    "kana": "けいしきへんかん",
+    "senses": [
+      {
+        "sense_id": 366934,
+        "meaning_vi": "chuyển đổi định dạng",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi định dạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi định dạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123312,
+    "word": "形状モデル",
+    "kana": "けいじょうモデル",
+    "senses": [
+      {
+        "sense_id": 366935,
+        "meaning_vi": "mô hình hình học",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình hình học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình hình học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123313,
+    "word": "形状定義スプライン",
+    "kana": "けいじょうていぎスプライン",
+    "senses": [
+      {
+        "sense_id": 366936,
+        "meaning_vi": "đường cong hình học",
+        "confidence": "high",
+        "search_keywords": [
+          "đường cong hình học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường cong hình học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123314,
+    "word": "形状適合",
+    "kana": "けいじょうてきごう",
+    "senses": [
+      {
+        "sense_id": 366937,
+        "meaning_vi": "phù hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "phù hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phù hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123315,
+    "word": "形状保存変換",
+    "kana": "けいじょうほぞんへんかん",
+    "senses": [
+      {
+        "sense_id": 366938,
+        "meaning_vi": "chuyển đổi cơ thể cứng nhắc",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi cơ thể cứng nhắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi cơ thể cứng nhắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123316,
+    "word": "形状明示配列",
+    "kana": "けいじょうめいじはいれつ",
+    "senses": [
+      {
+        "sense_id": 366939,
+        "meaning_vi": "mảng hình dạng rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "mảng hình dạng rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mảng hình dạng rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123317,
+    "word": "携帯可能",
+    "kana": "けいたいかのう",
+    "senses": [
+      {
+        "sense_id": 366940,
+        "meaning_vi": "xách tay",
+        "confidence": "high",
+        "search_keywords": [
+          "xách tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xách tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123318,
+    "word": "携帯端末",
+    "kana": "けいたいたんまつ",
+    "senses": [
+      {
+        "sense_id": 366941,
+        "meaning_vi": "thiết bị đầu cuối di động; thiết bị di động; thiết bị cầm tay",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối di động",
+          "thiết bị di động",
+          "thiết bị cầm tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối di động; thiết bị di động; thiết bị cầm tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123319,
+    "word": "携帯用",
+    "kana": "けいたいよう",
+    "senses": [
+      {
+        "sense_id": 366942,
+        "meaning_vi": "cầm tay; di động",
+        "confidence": "high",
+        "search_keywords": [
+          "cầm tay",
+          "di động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cầm tay; di động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123320,
+    "word": "経営情報システム",
+    "kana": "けいえいじょうほうシステム",
+    "senses": [
+      {
+        "sense_id": 366943,
+        "meaning_vi": "Hệ thống thông tin quản lý; MIS",
+        "confidence": "high",
+        "search_keywords": [
+          "Hệ thống thông tin quản lý",
+          "MIS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hệ thống thông tin quản lý; MIS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123321,
+    "word": "経過計時機構",
+    "kana": "けいかけいじきこう",
+    "senses": [
+      {
+        "sense_id": 366944,
+        "meaning_vi": "hẹn giờ đã trôi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "hẹn giờ đã trôi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hẹn giờ đã trôi qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123322,
+    "word": "経過時間",
+    "kana": "けいかじかん",
+    "senses": [
+      {
+        "sense_id": 366945,
+        "meaning_vi": "thời gian trôi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian trôi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian trôi qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

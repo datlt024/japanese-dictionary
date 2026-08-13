@@ -1,24 +1,4 @@
 .detailLayout {
-    --bg-card: #ffffff;
-    --bg-soft: #ffffff;
-
-    --border-color: #eceef2;
-    --border-strong: #e5eaf2;
-
-    --text-primary: #15213a;
-    --text-secondary: #6b7280;
-    --text-muted: #9ca3af;
-
-    --primary: #2563eb;
-    --primary-dark: #142957;
-    --primary-soft: #edf4ff;
-
-    --success: #16a34a;
-    --success-soft: #ecfdf3;
-
-    --danger: #ef4444;
-    --danger-soft: #ffe8e8;
-
     display: grid;
     grid-template-columns: minmax(0, 1fr) 430px;
     gap: 24px;
@@ -51,9 +31,9 @@
     padding: 20px 24px;
     margin-bottom: 16px;
 
-    background: var(--bg-card);
+    background: var(--color-surface);
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 18px;
 
     box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
@@ -62,7 +42,7 @@
 .detailSection h2 {
     margin: 0 0 16px;
 
-    color: var(--text-primary);
+    color: var(--color-text-primary);
 
     font-size: 17px;
     line-height: 1.35;
@@ -83,11 +63,11 @@
     height: 34px;
     padding: 0 14px;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 999px;
 
-    background: #ffffff;
-    color: var(--primary);
+    background: var(--color-surface);
+    color: var(--color-primary);
 
     font-size: 14px;
     font-weight: 700;
@@ -98,7 +78,7 @@
 .conjugationTable {
     overflow: hidden;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 14px;
 }
 
@@ -108,7 +88,7 @@
 
     padding: 14px 16px;
 
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .conjugationRow:last-child {
@@ -116,12 +96,12 @@
 }
 
 .conjugationRow span {
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
     font-weight: 700;
 }
 
 .conjugationRow strong {
-    color: var(--text-primary);
+    color: var(--color-text-primary);
     font-weight: 800;
 }
 
@@ -134,16 +114,16 @@
 .collocationItem {
     padding: 16px;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 14px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .collocationExpression {
     margin: 0 0 6px;
 
-    color: var(--primary-dark);
+    color: var(--color-primary-dark);
 
     font-family: "Noto Sans JP", sans-serif;
     font-size: 17px;
@@ -153,7 +133,7 @@
 .collocationMeaning {
     margin: 0;
 
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
     font-size: 14px;
     line-height: 1.6;
 }
@@ -161,7 +141,7 @@
 .emptyText {
     margin: 0;
 
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
     font-size: 14px;
     line-height: 1.6;
 }

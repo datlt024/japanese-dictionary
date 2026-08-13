@@ -3,30 +3,42 @@
 import { useLayoutEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import {
+    Search,
+    BookOpen,
+    Languages,
+    Settings,
+    PanelLeft,
+} from "lucide-react"
 
 import styles from "./Sidebar.module.css"
 
 const SIDEBAR_COLLAPSED_KEY = "sidebarCollapsed"
 
-const menuItems = [
-    { href: "/", icon: "🔎", label: "Tra cứu" },
-    { href: "/study", icon: "📘", label: "Học tập" },
-    { href: "/translate", icon: "🌐", label: "Dịch" },
-    { href: "/kanji", icon: "漢", label: "Hán tự" },
-    { href: "/notebooks", icon: "⭐", label: "Sổ tay" },
-    { href: "/settings", icon: "⚙️", label: "Cài đặt" },
+type MenuItem = {
+    href: string
+    label: string
+} & (
+    | { kind: "icon"; Icon: React.ElementType }
+    | { kind: "char"; char: string }
+)
+
+const menuItems: MenuItem[] = [
+    { href: "/",          kind: "icon", Icon: Search,     label: "Tra cứu"  },
+    { href: "/study",     kind: "icon", Icon: BookOpen,   label: "Học tập"  },
+    { href: "/translate", kind: "icon", Icon: Languages,  label: "Dịch"     },
+    { href: "/kanji",     kind: "char", char: "字",        label: "Hán tự"   },
+    { href: "/settings",  kind: "icon", Icon: Settings,   label: "Cài đặt"  },
 ]
 
 export default function Sidebar() {
     const pathname = usePathname()
-
     const [collapsed, setCollapsed] = useState(false)
 
     useLayoutEffect(() => {
-        const savedCollapsed =
-            localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
+        const saved = localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
         // eslint-disable-next-line react-hooks/set-state-in-effect
-        setCollapsed(savedCollapsed)
+        setCollapsed(saved)
     }, [])
 
     function toggleSidebar() {
@@ -46,26 +58,23 @@ export default function Sidebar() {
             }
         >
             <div className={styles.sidebarHeader}>
+                <Link href="/" className={styles.sidebarLogo} aria-label="Yomi — trang chủ">
+                    <span className={styles.logoMark}>読</span>
+                    <span className={styles.logoName}>Yomi</span>
+                </Link>
+
                 <button
                     type="button"
                     className={styles.sidebarToggle}
                     onClick={toggleSidebar}
-                    aria-label={
-                        collapsed
-                            ? "Mở rộng menu"
-                            : "Thu gọn menu"
-                    }
+                    aria-label={collapsed ? "Mở rộng menu" : "Thu gọn menu"}
                     aria-expanded={!collapsed}
                 >
-                    ☰
+                    <PanelLeft size={16} strokeWidth={2} />
                 </button>
-
-                <div className={styles.sidebarLogo}>
-                    m<span>あ</span>zii
-                </div>
             </div>
 
-            <nav className={styles.sidebarMenu}>
+            <nav className={styles.sidebarMenu} aria-label="Menu chính">
                 {menuItems.map((item) => {
                     const isActive =
                         item.href === "/"
@@ -83,8 +92,12 @@ export default function Sidebar() {
                             }
                             title={collapsed ? item.label : undefined}
                         >
-                            <span className={styles.sidebarIcon}>
-                                {item.icon}
+                            <span className={styles.sidebarIcon} aria-hidden="true">
+                                {item.kind === "icon" ? (
+                                    <item.Icon size={17} strokeWidth={2} />
+                                ) : (
+                                    <span className={styles.sidebarChar}>{item.char}</span>
+                                )}
                             </span>
 
                             <span className={styles.sidebarLabel}>

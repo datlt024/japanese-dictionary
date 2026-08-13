@@ -1,547 +1,507 @@
 [
-{
-"vocabulary_id": 2242,
-"word": "ウェイトレス",
-"kana": "ウェイトレス",
-"senses": [
-{
-"sense_id": 220471,
-"meaning_vi": "nữ phục vụ bàn",
-"confidence": "high",
-"search_keywords": [
-"nữ phục vụ bàn",
-"bồi bàn nữ",
-"waitress"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nữ nhân viên phục vụ khách tại nhà hàng, quán ăn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2243,
-"word": "ウェーバー",
-"kana": "ウェーバー",
-"senses": [
-{
-"sense_id": 220472,
-"meaning_vi": "sự từ bỏ quyền",
-"confidence": "medium",
-"search_keywords": [
-"sự từ bỏ quyền",
-"waiver",
-"miễn trừ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự từ bỏ quyền hoặc miễn trừ một yêu cầu, nghĩa vụ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2244,
-"word": "ウェールズ",
-"kana": "ウェールズ",
-"senses": [
-{
-"sense_id": 220473,
-"meaning_vi": "Wales",
-"confidence": "high",
-"search_keywords": [
-"Wales",
-"xứ Wales"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xứ Wales, một quốc gia thuộc Vương quốc Anh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2245,
-"word": "ウェア",
-"kana": "ウェア",
-"senses": [
-{
-"sense_id": 220474,
-"meaning_vi": "trang phục",
-"confidence": "high",
-"search_keywords": [
-"trang phục",
-"quần áo",
-"wear"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trang phục; quần áo dùng cho mục đích hoặc hoạt động nhất định",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2246,
-"word": "ウェイ",
-"kana": "ウェイ",
-"senses": [
-{
-"sense_id": 220475,
-"meaning_vi": "cách thức",
-"confidence": "medium",
-"search_keywords": [
-"cách thức",
-"con đường",
-"way"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách thức, đường lối hoặc con đường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2247,
-"word": "ウェストバージニア",
-"kana": "ウェストバージニア",
-"senses": [
-{
-"sense_id": 220476,
-"meaning_vi": "Tây Virginia",
-"confidence": "high",
-"search_keywords": [
-"Tây Virginia",
-"West Virginia",
-"bang Tây Virginia"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bang Tây Virginia của Hoa Kỳ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2248,
-"word": "ウェディング",
-"kana": "ウェディング",
-"senses": [
-{
-"sense_id": 220477,
-"meaning_vi": "đám cưới",
-"confidence": "high",
-"search_keywords": [
-"đám cưới",
-"lễ cưới",
-"wedding"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đám cưới hoặc lễ cưới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2249,
-"word": "ウェハ",
-"kana": "ウェハ",
-"senses": [
-{
-"sense_id": 220478,
-"meaning_vi": "đĩa wafer",
-"confidence": "high",
-"search_keywords": [
-"đĩa wafer",
-"wafer bán dẫn",
-"phiến bán dẫn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phiến vật liệu mỏng dùng làm nền chế tạo linh kiện bán dẫn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2250,
-"word": "ウェブ",
-"kana": "ウェブ",
-"senses": [
-{
-"sense_id": 220479,
-"meaning_vi": "web",
-"confidence": "high",
-"search_keywords": [
-"web",
-"trang web",
-"World Wide Web"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "World Wide Web; hệ thống trang web trên Internet",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2251,
-"word": "ウェルダン",
-"kana": "ウェルダン",
-"senses": [
-{
-"sense_id": 220480,
-"meaning_vi": "chín kỹ",
-"confidence": "high",
-"search_keywords": [
-"chín kỹ",
-"well-done",
-"thịt chín kỹ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mức thịt được nấu chín kỹ, không còn tái",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2252,
-"word": "ウェイティングサークル",
-"kana": "ウェイティングサークル",
-"senses": [
-{
-"sense_id": 220481,
-"meaning_vi": "vòng chờ đánh bóng",
-"confidence": "high",
-"search_keywords": [
-"vòng chờ đánh bóng",
-"on-deck circle",
-"bóng chày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu vực cầu thủ đánh bóng kế tiếp đứng chờ trong bóng chày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2253,
-"word": "ウェイティングルーム",
-"kana": "ウェイティングルーム",
-"senses": [
-{
-"sense_id": 220482,
-"meaning_vi": "phòng chờ",
-"confidence": "high",
-"search_keywords": [
-"phòng chờ",
-"waiting room"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phòng dành cho người ngồi chờ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2254,
-"word": "ウエイトトレーニング",
-"kana": "ウエイトトレーニング",
-"senses": [
-{
-"sense_id": 220483,
-"meaning_vi": "tập tạ",
-"confidence": "high",
-"search_keywords": [
-"tập tạ",
-"tập gym",
-"weight training"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương pháp luyện tập cơ bắp bằng tạ hoặc lực cản",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2255,
-"word": "ウエイトリフティング",
-"kana": "ウエイトリフティング",
-"senses": [
-{
-"sense_id": 220484,
-"meaning_vi": "cử tạ",
-"confidence": "high",
-"search_keywords": [
-"cử tạ",
-"weightlifting",
-"nâng tạ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "môn thể thao thi đấu nâng tạ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2256,
-"word": "ウェーブ",
-"kana": "ウェーブ",
-"senses": [
-{
-"sense_id": 220485,
-"meaning_vi": "sóng nước",
-"confidence": "high",
-"search_keywords": [
-"sóng nước",
-"sóng",
-"wave"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sóng trên mặt nước",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220486,
-"meaning_vi": "sóng",
-"confidence": "high",
-"search_keywords": [
-"sóng",
-"sóng âm",
-"sóng điện từ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sóng như sóng âm, sóng điện từ hoặc dao động lan truyền",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220487,
-"meaning_vi": "uốn tóc gợn sóng",
-"confidence": "high",
-"search_keywords": [
-"uốn tóc gợn sóng",
-"tóc xoăn sóng",
-"wave tóc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu tóc hoặc thao tác uốn tóc thành gợn sóng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220488,
-"meaning_vi": "làn sóng cổ vũ",
-"confidence": "high",
-"search_keywords": [
-"làn sóng cổ vũ",
-"Mexican wave",
-"wave khán giả"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "động tác khán giả lần lượt đứng lên tạo thành làn sóng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2257,
-"word": "ウェーブフロント",
-"kana": "ウェーブフロント",
-"senses": [
-{
-"sense_id": 220489,
-"meaning_vi": "mặt sóng",
-"confidence": "medium",
-"search_keywords": [
-"mặt sóng",
-"wavefront",
-"phẫu thuật mắt laser"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mặt sóng dùng trong phân tích quang học, đặc biệt phẫu thuật mắt laser",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2258,
-"word": "ウェアハウス",
-"kana": "ウェアハウス",
-"senses": [
-{
-"sense_id": 220490,
-"meaning_vi": "nhà kho",
-"confidence": "high",
-"search_keywords": [
-"nhà kho",
-"kho hàng",
-"warehouse"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhà kho hoặc kho lưu trữ hàng hóa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2259,
-"word": "ウェザー",
-"kana": "ウェザー",
-"senses": [
-{
-"sense_id": 220491,
-"meaning_vi": "thời tiết",
-"confidence": "high",
-"search_keywords": [
-"thời tiết",
-"weather"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thời tiết; trạng thái khí quyển trong một thời điểm, khu vực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2260,
-"word": "ウェザーコック",
-"kana": "ウェザーコック",
-"senses": [
-{
-"sense_id": 220492,
-"meaning_vi": "chong chóng gió",
-"confidence": "high",
-"search_keywords": [
-"chong chóng gió",
-"gà chỉ hướng gió",
-"weathercock"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vật chỉ hướng gió, thường gắn trên mái nhà",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2261,
-"word": "ウエスタン",
-"kana": "ウエスタン",
-"senses": [
-{
-"sense_id": 220493,
-"meaning_vi": "phim Viễn Tây",
-"confidence": "high",
-"search_keywords": [
-"phim Viễn Tây",
-"western",
-"phim cao bồi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thể loại phim Viễn Tây, thường về cao bồi miền Tây nước Mỹ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220494,
-"meaning_vi": "nhạc đồng quê",
-"confidence": "high",
-"search_keywords": [
-"nhạc đồng quê",
-"country western",
-"nhạc western"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhạc country and western của Mỹ",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2242,
+    "word": "ウェイトレス",
+    "kana": "ウェイトレス",
+    "senses": [
+      {
+        "sense_id": 220471,
+        "meaning_vi": "cô hầu bàn",
+        "confidence": "high",
+        "search_keywords": [
+          "cô hầu bàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cô hầu bàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2243,
+    "word": "ウェーバー",
+    "kana": "ウェーバー",
+    "senses": [
+      {
+        "sense_id": 220472,
+        "meaning_vi": "sự từ bỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự từ bỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự từ bỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2244,
+    "word": "ウェールズ",
+    "kana": "ウェールズ",
+    "senses": [
+      {
+        "sense_id": 220473,
+        "meaning_vi": "Xứ Wales",
+        "confidence": "high",
+        "search_keywords": [
+          "Xứ Wales"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Xứ Wales",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2245,
+    "word": "ウェア",
+    "kana": "ウェア",
+    "senses": [
+      {
+        "sense_id": 220474,
+        "meaning_vi": "mặc; quần áo; ăn mặc",
+        "confidence": "high",
+        "search_keywords": [
+          "mặc",
+          "quần áo",
+          "ăn mặc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặc; quần áo; ăn mặc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2246,
+    "word": "ウェイ",
+    "kana": "ウェイ",
+    "senses": [
+      {
+        "sense_id": 220475,
+        "meaning_vi": "đường",
+        "confidence": "high",
+        "search_keywords": [
+          "đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2247,
+    "word": "ウェストバージニア",
+    "kana": "ウェストバージニア",
+    "senses": [
+      {
+        "sense_id": 220476,
+        "meaning_vi": "Tây Virginia",
+        "confidence": "high",
+        "search_keywords": [
+          "Tây Virginia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tây Virginia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2248,
+    "word": "ウェディング",
+    "kana": "ウェディング",
+    "senses": [
+      {
+        "sense_id": 220477,
+        "meaning_vi": "lễ cưới",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ cưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ cưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2249,
+    "word": "ウェハ",
+    "kana": "ウェハ",
+    "senses": [
+      {
+        "sense_id": 220478,
+        "meaning_vi": "bánh xốp",
+        "confidence": "high",
+        "search_keywords": [
+          "bánh xốp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bánh xốp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2250,
+    "word": "ウェブ",
+    "kana": "ウェブ",
+    "senses": [
+      {
+        "sense_id": 220479,
+        "meaning_vi": "mạng; Mạng toàn cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng",
+          "Mạng toàn cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng; Mạng toàn cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2251,
+    "word": "ウェルダン",
+    "kana": "ウェルダン",
+    "senses": [
+      {
+        "sense_id": 220480,
+        "meaning_vi": "(thịt) chín kỹ",
+        "confidence": "high",
+        "search_keywords": [
+          "(thịt) chín kỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(thịt) chín kỹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2252,
+    "word": "ウェイティングサークル",
+    "kana": "ウェイティングサークル",
+    "senses": [
+      {
+        "sense_id": 220481,
+        "meaning_vi": "vòng tròn trên boong",
+        "confidence": "high",
+        "search_keywords": [
+          "vòng tròn trên boong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vòng tròn trên boong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2253,
+    "word": "ウェイティングルーム",
+    "kana": "ウェイティングルーム",
+    "senses": [
+      {
+        "sense_id": 220482,
+        "meaning_vi": "phòng chờ",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng chờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng chờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2254,
+    "word": "ウエイトトレーニング",
+    "kana": "ウエイトトレーニング",
+    "senses": [
+      {
+        "sense_id": 220483,
+        "meaning_vi": "tập tạ",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2255,
+    "word": "ウエイトリフティング",
+    "kana": "ウエイトリフティング",
+    "senses": [
+      {
+        "sense_id": 220484,
+        "meaning_vi": "cử tạ; nâng tạ",
+        "confidence": "high",
+        "search_keywords": [
+          "cử tạ",
+          "nâng tạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cử tạ; nâng tạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2256,
+    "word": "ウェーブ",
+    "kana": "ウェーブ",
+    "senses": [
+      {
+        "sense_id": 220485,
+        "meaning_vi": "sóng (trên mặt nước)",
+        "confidence": "high",
+        "search_keywords": [
+          "sóng (trên mặt nước)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sóng (trên mặt nước)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220486,
+        "meaning_vi": "sóng (điện từ, âm thanh...)",
+        "confidence": "high",
+        "search_keywords": [
+          "sóng (điện từ, âm thanh...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sóng (điện từ, âm thanh...)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220487,
+        "meaning_vi": "gợn sóng (trên tóc)",
+        "confidence": "high",
+        "search_keywords": [
+          "gợn sóng (trên tóc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gợn sóng (trên tóc)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220488,
+        "meaning_vi": "làn sóng (khán giả); làn sóng Mexico",
+        "confidence": "high",
+        "search_keywords": [
+          "làn sóng (khán giả)",
+          "làn sóng Mexico"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làn sóng (khán giả); làn sóng Mexico",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2257,
+    "word": "ウェーブフロント",
+    "kana": "ウェーブフロント",
+    "senses": [
+      {
+        "sense_id": 220489,
+        "meaning_vi": "mặt sóng (phẫu thuật mắt bằng laser)",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt sóng (phẫu thuật mắt bằng laser)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt sóng (phẫu thuật mắt bằng laser)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2258,
+    "word": "ウェアハウス",
+    "kana": "ウェアハウス",
+    "senses": [
+      {
+        "sense_id": 220490,
+        "meaning_vi": "nhà kho",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà kho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà kho",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2259,
+    "word": "ウェザー",
+    "kana": "ウェザー",
+    "senses": [
+      {
+        "sense_id": 220491,
+        "meaning_vi": "thời tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "thời tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2260,
+    "word": "ウェザーコック",
+    "kana": "ウェザーコック",
+    "senses": [
+      {
+        "sense_id": 220492,
+        "meaning_vi": "ống gió",
+        "confidence": "high",
+        "search_keywords": [
+          "ống gió"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ống gió",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2261,
+    "word": "ウエスタン",
+    "kana": "ウエスタン",
+    "senses": [
+      {
+        "sense_id": 220493,
+        "meaning_vi": "Miền Tây (thể loại phim)",
+        "confidence": "high",
+        "search_keywords": [
+          "Miền Tây (thể loại phim)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Miền Tây (thể loại phim)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220494,
+        "meaning_vi": "nhạc đồng quê và nhạc phương tây",
+        "confidence": "high",
+        "search_keywords": [
+          "nhạc đồng quê và nhạc phương tây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhạc đồng quê và nhạc phương tây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

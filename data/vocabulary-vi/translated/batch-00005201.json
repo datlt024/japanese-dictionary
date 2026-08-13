@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 124567,
+    "word": "条件付きコンパイル",
+    "kana": "じょうけんつきコンパイル",
+    "senses": [
+      {
+        "sense_id": 368200,
+        "meaning_vi": "biên dịch có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "biên dịch có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biên dịch có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124568,
+    "word": "条件付きジャンプ",
+    "kana": "じょうけんつきジャンプ",
+    "senses": [
+      {
+        "sense_id": 368201,
+        "meaning_vi": "nhảy có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nhảy có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhảy có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124569,
+    "word": "条件付き飛び越し",
+    "kana": "じょうけんつきとびこし",
+    "senses": [
+      {
+        "sense_id": 368202,
+        "meaning_vi": "nhảy có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nhảy có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhảy có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124570,
+    "word": "条件付き分岐",
+    "kana": "じょうけんつきぶんき",
+    "senses": [
+      {
+        "sense_id": 368203,
+        "meaning_vi": "nhánh có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nhánh có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhánh có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124571,
+    "word": "条件付きブランチ",
+    "kana": "じょうけんつきブランチ",
+    "senses": [
+      {
+        "sense_id": 368204,
+        "meaning_vi": "nhánh có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nhánh có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhánh có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124572,
+    "word": "条件付き構成要素",
+    "kana": "じょうけんつきこうせいようそ",
+    "senses": [
+      {
+        "sense_id": 368205,
+        "meaning_vi": "thành phần có điều kiện (C)",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần có điều kiện (C)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần có điều kiện (C)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124573,
+    "word": "条件付き最適化",
+    "kana": "じょうけんつきさいてきか",
+    "senses": [
+      {
+        "sense_id": 368206,
+        "meaning_vi": "tối ưu hóa hạn chế",
+        "confidence": "high",
+        "search_keywords": [
+          "tối ưu hóa hạn chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tối ưu hóa hạn chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124574,
+    "word": "条件付き情報量",
+    "kana": "じょうけんつきじょうほうりょう",
+    "senses": [
+      {
+        "sense_id": 368207,
+        "meaning_vi": "nội dung thông tin có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nội dung thông tin có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội dung thông tin có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124575,
+    "word": "条件付き飛越し命令",
+    "kana": "じょうけんつきとびこしめいれい",
+    "senses": [
+      {
+        "sense_id": 368208,
+        "meaning_vi": "Lệnh nhảy có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "Lệnh nhảy có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Lệnh nhảy có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124576,
+    "word": "条件付き平均情報量",
+    "kana": "じょうけんつきへいきんじょうほうりょう",
+    "senses": [
+      {
+        "sense_id": 368209,
+        "meaning_vi": "entropy có điều kiện; nghĩa là nội dung thông tin có điều kiện; nội dung thông tin có điều kiện trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "entropy có điều kiện",
+          "nghĩa là nội dung thông tin có điều kiện",
+          "nội dung thông tin có điều kiện trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "entropy có điều kiện; nghĩa là nội dung thông tin có điều kiện; nội dung thông tin có điều kiện trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124577,
+    "word": "条件分岐",
+    "kana": "じょうけんぶんき",
+    "senses": [
+      {
+        "sense_id": 368210,
+        "meaning_vi": "nhánh có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nhánh có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhánh có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124578,
+    "word": "条件分岐命令",
+    "kana": "じょうけんぶんきめいれい",
+    "senses": [
+      {
+        "sense_id": 368211,
+        "meaning_vi": "lệnh rẽ nhánh có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh rẽ nhánh có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh rẽ nhánh có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124579,
+    "word": "条件名",
+    "kana": "じょうけんめい",
+    "senses": [
+      {
+        "sense_id": 368212,
+        "meaning_vi": "tên điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "tên điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124580,
+    "word": "条件名条件",
+    "kana": "じょうけんめいじょうけん",
+    "senses": [
+      {
+        "sense_id": 368213,
+        "meaning_vi": "điều kiện tên điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện tên điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện tên điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124581,
+    "word": "条件命令",
+    "kana": "じょうけんめいれい",
+    "senses": [
+      {
+        "sense_id": 368214,
+        "meaning_vi": "câu lệnh có điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "câu lệnh có điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu lệnh có điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124582,
+    "word": "状態マシン",
+    "kana": "じょうたいマシン",
+    "senses": [
+      {
+        "sense_id": 368215,
+        "meaning_vi": "máy trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "máy trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy trạng thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124583,
+    "word": "状態空間",
+    "kana": "じょうたいくうかん",
+    "senses": [
+      {
+        "sense_id": 368216,
+        "meaning_vi": "không gian trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian trạng thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124584,
+    "word": "状態見出し語",
+    "kana": "じょうたいみだしご",
+    "senses": [
+      {
+        "sense_id": 368217,
+        "meaning_vi": "từ khóa trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "từ khóa trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ khóa trạng thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124585,
+    "word": "状態情報",
+    "kana": "じょうたいじょうほう",
+    "senses": [
+      {
+        "sense_id": 368218,
+        "meaning_vi": "thông tin trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin trạng thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124586,
+    "word": "状態遷移",
+    "kana": "じょうたいせんい",
+    "senses": [
+      {
+        "sense_id": 368219,
+        "meaning_vi": "thay đổi trạng thái; chuyển trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi trạng thái",
+          "chuyển trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi trạng thái; chuyển trạng thái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

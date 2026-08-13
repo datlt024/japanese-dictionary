@@ -1,0 +1,625 @@
+[
+  {
+    "vocabulary_id": 38282,
+    "word": "怠りがち",
+    "kana": "おこたりがち",
+    "senses": [
+      {
+        "sense_id": 267072,
+        "meaning_vi": "sự thờ ơ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thờ ơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thờ ơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38283,
+    "word": "怠る",
+    "kana": "おこたる",
+    "senses": [
+      {
+        "sense_id": 267073,
+        "meaning_vi": "bỏ bê; sơ suất trong; bị bỏ bê; không làm được; để lại hoàn tác; tránh (làm); trốn tránh; không quan tâm đến",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ bê",
+          "sơ suất trong",
+          "bị bỏ bê",
+          "không làm được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ bê; sơ suất trong; bị bỏ bê; không làm được; để lại hoàn tác; tránh (làm); trốn tránh; không quan tâm đến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267074,
+        "meaning_vi": "cải thiện (bệnh tật); để trở nên tốt hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "cải thiện (bệnh tật)",
+          "để trở nên tốt hơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cải thiện (bệnh tật); để trở nên tốt hơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38284,
+    "word": "怠業",
+    "kana": "たいぎょう",
+    "senses": [
+      {
+        "sense_id": 267075,
+        "meaning_vi": "sự phá hoại; chiến thuật giảm tốc độ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phá hoại",
+          "chiến thuật giảm tốc độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phá hoại; chiến thuật giảm tốc độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38285,
+    "word": "怠惰",
+    "kana": "たいだ",
+    "senses": [
+      {
+        "sense_id": 267076,
+        "meaning_vi": "lười; nhàn rỗi; không đau; lười biếng",
+        "confidence": "high",
+        "search_keywords": [
+          "lười",
+          "nhàn rỗi",
+          "không đau",
+          "lười biếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lười; nhàn rỗi; không đau; lười biếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38286,
+    "word": "怠慢",
+    "kana": "たいまん",
+    "senses": [
+      {
+        "sense_id": 267077,
+        "meaning_vi": "sơ suất; sao nhãng; bất cẩn; sự trì hoãn",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ suất",
+          "sao nhãng",
+          "bất cẩn",
+          "sự trì hoãn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ suất; sao nhãng; bất cẩn; sự trì hoãn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38287,
+    "word": "様",
+    "kana": "ざま",
+    "senses": [
+      {
+        "sense_id": 267078,
+        "meaning_vi": "sự lộn xộn; trạng thái xin lỗi; hoàn cảnh khó khăn; cảnh tượng buồn",
+        "confidence": "high",
+        "search_keywords": [
+          "sự lộn xộn",
+          "trạng thái xin lỗi",
+          "hoàn cảnh khó khăn",
+          "cảnh tượng buồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự lộn xộn; trạng thái xin lỗi; hoàn cảnh khó khăn; cảnh tượng buồn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267079,
+        "meaning_vi": "-cách; -phường",
+        "confidence": "high",
+        "search_keywords": [
+          "-cách",
+          "-phường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "-cách; -phường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267080,
+        "meaning_vi": "trong hành vi ...; cũng giống như một người...",
+        "confidence": "high",
+        "search_keywords": [
+          "trong hành vi ...",
+          "cũng giống như một người..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong hành vi ...; cũng giống như một người...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267081,
+        "meaning_vi": "cách ...; cách ...",
+        "confidence": "high",
+        "search_keywords": [
+          "cách ..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách ...; cách ...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38288,
+    "word": "態と",
+    "kana": "わざと",
+    "senses": [
+      {
+        "sense_id": 267082,
+        "meaning_vi": "có mục đích; cố ý; cố ý",
+        "confidence": "high",
+        "search_keywords": [
+          "có mục đích",
+          "cố ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có mục đích; cố ý; cố ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38289,
+    "word": "態勢",
+    "kana": "たいせい",
+    "senses": [
+      {
+        "sense_id": 267083,
+        "meaning_vi": "thái độ; tư thế; sự chuẩn bị; sẵn sàng",
+        "confidence": "high",
+        "search_keywords": [
+          "thái độ",
+          "tư thế",
+          "sự chuẩn bị",
+          "sẵn sàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thái độ; tư thế; sự chuẩn bị; sẵn sàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38290,
+    "word": "態度",
+    "kana": "たいど",
+    "senses": [
+      {
+        "sense_id": 267084,
+        "meaning_vi": "thái độ; thái độ; hành vi; thái độ; mang",
+        "confidence": "high",
+        "search_keywords": [
+          "thái độ",
+          "thái độ",
+          "hành vi",
+          "mang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thái độ; thái độ; hành vi; thái độ; mang",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267085,
+        "meaning_vi": "thái độ (đối với một vấn đề, v.v.); chức vụ; lập trường; đứng",
+        "confidence": "high",
+        "search_keywords": [
+          "thái độ (đối với một vấn đề, v.v.)",
+          "chức vụ",
+          "lập trường",
+          "đứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thái độ (đối với một vấn đề, v.v.); chức vụ; lập trường; đứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38291,
+    "word": "頂きます",
+    "kana": "いただきます",
+    "senses": [
+      {
+        "sense_id": 267086,
+        "meaning_vi": "cảm ơn bạn (vì bữa ăn vừa được phục vụ); Tôi nhận (bữa ăn này)",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm ơn bạn (vì bữa ăn vừa được phục vụ)",
+          "Tôi nhận (bữa ăn này)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm ơn bạn (vì bữa ăn vừa được phục vụ); Tôi nhận (bữa ăn này)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38292,
+    "word": "戴冠式",
+    "kana": "たいかんしき",
+    "senses": [
+      {
+        "sense_id": 267087,
+        "meaning_vi": "lễ đăng quang; đăng quang",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ đăng quang",
+          "đăng quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ đăng quang; đăng quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38293,
+    "word": "替え",
+    "kana": "かえ",
+    "senses": [
+      {
+        "sense_id": 267088,
+        "meaning_vi": "thay đổi; sự thay đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi",
+          "sự thay đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi; sự thay đổi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267089,
+        "meaning_vi": "thay thế; dự phòng; thay thế; thay đổi (ví dụ: quần áo)",
+        "confidence": "high",
+        "search_keywords": [
+          "thay thế",
+          "dự phòng",
+          "thay đổi (ví dụ: quần áo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay thế; dự phòng; thay thế; thay đổi (ví dụ: quần áo)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267090,
+        "meaning_vi": "tỷ giá hối đoái",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ giá hối đoái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ giá hối đoái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38294,
+    "word": "替え玉",
+    "kana": "かえだま",
+    "senses": [
+      {
+        "sense_id": 267091,
+        "meaning_vi": "đứng vào; ủy quyền; thay thế; gấp đôi; người rung chuông",
+        "confidence": "high",
+        "search_keywords": [
+          "đứng vào",
+          "ủy quyền",
+          "thay thế",
+          "gấp đôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứng vào; ủy quyền; thay thế; gấp đôi; người rung chuông",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267092,
+        "meaning_vi": "phần mì thứ hai (để thêm vào nước dùng ramen còn lại)",
+        "confidence": "high",
+        "search_keywords": [
+          "phần mì thứ hai (để thêm vào nước dùng ramen còn lại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần mì thứ hai (để thêm vào nước dùng ramen còn lại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38295,
+    "word": "泰西",
+    "kana": "たいせい",
+    "senses": [
+      {
+        "sense_id": 267093,
+        "meaning_vi": "phương Tây; phương Tây",
+        "confidence": "high",
+        "search_keywords": [
+          "phương Tây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương Tây; phương Tây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38296,
+    "word": "泰西名画",
+    "kana": "たいせいめいが",
+    "senses": [
+      {
+        "sense_id": 267094,
+        "meaning_vi": "bức tranh phương Tây nổi tiếng; kiệt tác hội họa phương Tây",
+        "confidence": "high",
+        "search_keywords": [
+          "bức tranh phương Tây nổi tiếng",
+          "kiệt tác hội họa phương Tây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bức tranh phương Tây nổi tiếng; kiệt tác hội họa phương Tây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38297,
+    "word": "泰然",
+    "kana": "たいぜん",
+    "senses": [
+      {
+        "sense_id": 267095,
+        "meaning_vi": "điềm tĩnh; sáng tác; tự chủ; chắc chắn",
+        "confidence": "high",
+        "search_keywords": [
+          "điềm tĩnh",
+          "sáng tác",
+          "tự chủ",
+          "chắc chắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điềm tĩnh; sáng tác; tự chủ; chắc chắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38298,
+    "word": "滞り",
+    "kana": "とどこおり",
+    "senses": [
+      {
+        "sense_id": 267097,
+        "meaning_vi": "trì trệ; trở ngại; sự chậm trễ",
+        "confidence": "high",
+        "search_keywords": [
+          "trì trệ",
+          "trở ngại",
+          "sự chậm trễ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trì trệ; trở ngại; sự chậm trễ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38299,
+    "word": "滞る",
+    "kana": "とどこおる",
+    "senses": [
+      {
+        "sense_id": 267098,
+        "meaning_vi": "trì trệ; bị trì hoãn; bị bỏ dở",
+        "confidence": "high",
+        "search_keywords": [
+          "trì trệ",
+          "bị trì hoãn",
+          "bị bỏ dở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trì trệ; bị trì hoãn; bị bỏ dở",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267099,
+        "meaning_vi": "quá hạn (thanh toán); rơi vào tình trạng nợ đọng; trở nên nổi bật",
+        "confidence": "high",
+        "search_keywords": [
+          "quá hạn (thanh toán)",
+          "rơi vào tình trạng nợ đọng",
+          "trở nên nổi bật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá hạn (thanh toán); rơi vào tình trạng nợ đọng; trở nên nổi bật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38300,
+    "word": "滞在",
+    "kana": "たいざい",
+    "senses": [
+      {
+        "sense_id": 267100,
+        "meaning_vi": "ở lại; tạm trú",
+        "confidence": "high",
+        "search_keywords": [
+          "ở lại",
+          "tạm trú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở lại; tạm trú",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38301,
+    "word": "滞納",
+    "kana": "たいのう",
+    "senses": [
+      {
+        "sense_id": 267101,
+        "meaning_vi": "tụt lại phía sau (với một khoản thanh toán); đang bị truy thu; không thanh toán; mặc định; sự phạm pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "tụt lại phía sau (với một khoản thanh toán)",
+          "đang bị truy thu",
+          "không thanh toán",
+          "mặc định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tụt lại phía sau (với một khoản thanh toán); đang bị truy thu; không thanh toán; mặc định; sự phạm pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

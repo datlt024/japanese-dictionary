@@ -1,21 +1,21 @@
 import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 
+import { checkRateLimit, getClientIp } from "@/shared/utils/rate-limit"
+
 import {
     getVocabularyById,
     getVocabularyKanjis,
 } from "@/server/services/vocabulary/vocabulary.service"
 
-import { getRelatedVocabulariesFromDatabase } from "@/server/services/vocabulary/related-vocabulary.service"
-
 import {
     getKanjiByCharacter,
     getWordsByReadingGroups,
-} from "@/features/dictionary/kanji/services/kanji.service"
+} from "@/server/services/kanji/kanji.service"
 
 import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
 import { extractKanjis } from "@/features/dictionary/kanji/utils"
-import { uniqueArray } from "@/shared/utils/uniqueArray"
+import { uniqueArray } from "@/shared/utils/array"
 
 // Direct function call with cache — avoids internal HTTP round-trip to /api/search
 const cachedSearchVocabularies = unstable_cache(
@@ -74,19 +74,8 @@ async function createKanjiTargets(keyword: string) {
     )
 }
 
-async function getVocabularyTarget(keyword: string) {
-    const { data, error } = await cachedSearchVocabularies(keyword)
-
-    if (error || !data?.length) return null
-
-    const firstVocabulary = data[0]
-    const vocabulary = await getVocabularyById(firstVocabulary.id)
-
-    if (!vocabulary) return null
-
-    // Run all three in parallel — they only need vocabulary.word
-    const [relatedResult, kanjiDetails, kanjiTargets] = await Promise.all([
-        getRelatedVocabulariesFromDatabase(vocabulary.word),
+async function buildVocabularyTarget(vocabulary: NonNullable<Awaited<ReturnType<typeof getVocabularyById>>>) {
+    const [kanjiDetails, kanjiTargets] = await Promise.all([
         getVocabularyKanjis(vocabulary.word),
         createKanjiTargets(vocabulary.word),
     ])
@@ -95,10 +84,31 @@ async function getVocabularyTarget(keyword: string) {
         type: "vocabulary" as const,
         title: vocabulary.word,
         vocabulary,
-        relatedVocabularies: relatedResult.results,
         kanjiDetails,
         kanjiTargets,
     }
+}
+
+const cachedGetVocabularyTargetById = unstable_cache(
+    async (id: number) => {
+        const vocabulary = await getVocabularyById(id)
+        if (!vocabulary) return null
+        return buildVocabularyTarget(vocabulary)
+    },
+    ["quick-lookup-vocab-by-id"],
+    { revalidate: 3600 }
+)
+
+async function getVocabularyTarget(keyword: string) {
+    const { data, error } = await cachedSearchVocabularies(keyword)
+
+    if (error || !data?.length) return null
+
+    const vocabulary = await getVocabularyById(data[0].id)
+
+    if (!vocabulary) return null
+
+    return buildVocabularyTarget(vocabulary)
 }
 
 async function getKanjiTarget(keyword: string) {
@@ -131,15 +141,45 @@ const cachedQuickLookup = unstable_cache(
 )
 
 export async function GET(request: NextRequest) {
-    const keyword =
-        request.nextUrl.searchParams.get("q")?.trim() || ""
+    const ip = getClientIp(request)
+    const { ok, resetAt } = checkRateLimit(`ql:${ip}`, 60, 60_000)
 
-    if (!keyword) {
+    if (!ok) {
+        return NextResponse.json(
+            { type: "not_found", title: "", error: "Quá nhiều yêu cầu." },
+            {
+                status: 429,
+                headers: { "Retry-After": String(Math.ceil((resetAt - Date.now()) / 1000)) },
+            }
+        )
+    }
+
+    // Direct ID lookup — bypass text search entirely (used by notebook items)
+    const rawId = request.nextUrl.searchParams.get("id")?.trim()
+    if (rawId) {
+        const id = parseInt(rawId, 10)
+        if (!isNaN(id)) {
+            const result = await cachedGetVocabularyTargetById(id)
+            return NextResponse.json(
+                result ?? { type: "not_found" as const, title: rawId },
+                { headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" } }
+            )
+        }
+    }
+
+    const raw = request.nextUrl.searchParams.get("q")?.trim() || ""
+
+    if (!raw || raw.length > 200) {
         return NextResponse.json({
             type: "not_found",
             title: "",
         })
     }
+
+    // Normalize to NFC + lowercase so Vietnamese text ("TRÁI" → "trái") hits
+    // the same cache key and matches meaning_vi stored in lowercase.
+    // Japanese characters are unaffected by toLowerCase().
+    const keyword = raw.normalize("NFC").toLowerCase()
 
     const result = await cachedQuickLookup(keyword)
 

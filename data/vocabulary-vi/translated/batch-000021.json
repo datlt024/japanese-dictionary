@@ -1,298 +1,776 @@
 [
-{
-"vocabulary_id": 401,
-"word": "この間",
-"kana": "このあいだ",
-"senses": [
-{
-"sense_id": 217884,
-"meaning_vi": "dạo gần đây",
-"confidence": "high",
-"search_keywords": [
-"dạo gần đây",
-"hôm nọ",
-"gần đây"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hôm nọ; dạo gần đây; thời gian gần đây",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217885,
-"meaning_vi": "trong lúc đó",
-"confidence": "high",
-"search_keywords": [
-"trong lúc đó",
-"trong thời gian đó"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trong lúc đó; trong thời gian chờ đợi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 402,
-"word": "この結果",
-"kana": "このけっか",
-"senses": [
-{
-"sense_id": 217886,
-"meaning_vi": "kết quả là",
-"confidence": "high",
-"search_keywords": [
-"kết quả là",
-"do đó"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kết quả là; do đó; vì vậy",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 403,
-"word": "この頃",
-"kana": "このごろ",
-"senses": [
-{
-"sense_id": 217887,
-"meaning_vi": "dạo này",
-"confidence": "high",
-"search_keywords": [
-"dạo này",
-"gần đây"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dạo này; gần đây; hiện nay",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 404,
-"word": "この場合",
-"kana": "このばあい",
-"senses": [
-{
-"sense_id": 217888,
-"meaning_vi": "trong trường hợp này",
-"confidence": "high",
-"search_keywords": [
-"trong trường hợp này",
-"trường hợp này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trong trường hợp này",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 405,
-"word": "この度",
-"kana": "このたび",
-"senses": [
-{
-"sense_id": 217889,
-"meaning_vi": "lần này",
-"confidence": "high",
-"search_keywords": [
-"lần này",
-"dịp này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lần này; dịp này; nhân dịp này",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 406,
-"word": "この辺",
-"kana": "このへん",
-"senses": [
-{
-"sense_id": 217890,
-"meaning_vi": "quanh đây",
-"confidence": "high",
-"search_keywords": [
-"quanh đây",
-"khu vực này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu vực này; quanh đây",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217891,
-"meaning_vi": "mức này",
-"confidence": "medium",
-"search_keywords": [
-"mức này",
-"đến mức này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điểm này; mức này; đến chừng này",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 407,
-"word": "こぼし話",
-"kana": "こぼしばなし",
-"senses": [
-{
-"sense_id": 217892,
-"meaning_vi": "lời than phiền",
-"confidence": "medium",
-"search_keywords": [
-"than phiền",
-"ca cẩm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lời than phiền; lời ca cẩm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 408,
-"word": "こら",
-"kana": "こら",
-"senses": [
-{
-"sense_id": 217893,
-"meaning_vi": "này!",
-"confidence": "high",
-"search_keywords": [
-"này",
-"ê"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "này!; dùng để quát mắng hoặc trách mắng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217894,
-"meaning_vi": "này!",
-"confidence": "high",
-"search_keywords": [
-"này",
-"ê"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "này!; dùng để gọi ai đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 409,
-"word": "此れから",
-"kana": "これから",
-"senses": [
-{
-"sense_id": 217895,
-"meaning_vi": "từ bây giờ",
-"confidence": "high",
-"search_keywords": [
-"từ bây giờ",
-"sau này",
-"về sau"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "từ bây giờ; về sau; trong tương lai",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217896,
-"meaning_vi": "từ đây",
-"confidence": "high",
-"search_keywords": [
-"từ đây",
-"từ điểm này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "từ đây; từ vị trí này",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 410,
-"word": "これで",
-"kana": "これで",
-"senses": [
-{
-"sense_id": 217897,
-"meaning_vi": "bằng cái này",
-"confidence": "medium",
-"search_keywords": [
-"bằng cái này",
-"với cái này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "với cái này; bằng cái này; đến đây",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 401,
+    "word": "この間",
+    "kana": "このあいだ",
+    "senses": [
+      {
+        "sense_id": 217884,
+        "meaning_vi": "ngày kia; gần đây; gần đây; trong thời gian này",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày kia",
+          "gần đây",
+          "trong thời gian này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày kia; gần đây; gần đây; trong thời gian này",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217885,
+        "meaning_vi": "trong khi đó; trong lúc đó",
+        "confidence": "high",
+        "search_keywords": [
+          "trong khi đó",
+          "trong lúc đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong khi đó; trong lúc đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 402,
+    "word": "この結果",
+    "kana": "このけっか",
+    "senses": [
+      {
+        "sense_id": 217886,
+        "meaning_vi": "do đó; kết quả là",
+        "confidence": "high",
+        "search_keywords": [
+          "do đó",
+          "kết quả là"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "do đó; kết quả là",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 403,
+    "word": "この頃",
+    "kana": "このごろ",
+    "senses": [
+      {
+        "sense_id": 217887,
+        "meaning_vi": "những ngày này; Ngày nay; Hiện nay; hiện tại; gần đây; gần đây",
+        "confidence": "high",
+        "search_keywords": [
+          "những ngày này",
+          "Ngày nay",
+          "Hiện nay",
+          "hiện tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "những ngày này; Ngày nay; Hiện nay; hiện tại; gần đây; gần đây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 404,
+    "word": "この場合",
+    "kana": "このばあい",
+    "senses": [
+      {
+        "sense_id": 217888,
+        "meaning_vi": "trong trường hợp này",
+        "confidence": "high",
+        "search_keywords": [
+          "trong trường hợp này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong trường hợp này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 405,
+    "word": "この度",
+    "kana": "このたび",
+    "senses": [
+      {
+        "sense_id": 217889,
+        "meaning_vi": "dịp này; vào lúc này; bây giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "dịp này",
+          "vào lúc này",
+          "bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịp này; vào lúc này; bây giờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 406,
+    "word": "この辺",
+    "kana": "このへん",
+    "senses": [
+      {
+        "sense_id": 217890,
+        "meaning_vi": "khu vực này; quanh đây",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực này",
+          "quanh đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực này; quanh đây",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217891,
+        "meaning_vi": "điểm này; chừng này; mức độ này",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm này",
+          "chừng này",
+          "mức độ này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm này; chừng này; mức độ này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 407,
+    "word": "こぼし話",
+    "kana": "こぼしばなし",
+    "senses": [
+      {
+        "sense_id": 217892,
+        "meaning_vi": "phàn nàn",
+        "confidence": "high",
+        "search_keywords": [
+          "phàn nàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phàn nàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 408,
+    "word": "こら",
+    "kana": "こら",
+    "senses": [
+      {
+        "sense_id": 217893,
+        "meaning_vi": "Chào!",
+        "confidence": "high",
+        "search_keywords": [
+          "Chào!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chào!",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217894,
+        "meaning_vi": "Chào!",
+        "confidence": "high",
+        "search_keywords": [
+          "Chào!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chào!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 409,
+    "word": "此れから",
+    "kana": "これから",
+    "senses": [
+      {
+        "sense_id": 217895,
+        "meaning_vi": "kể từ bây giờ; sau này; trong tương lai; trong tương lai",
+        "confidence": "high",
+        "search_keywords": [
+          "kể từ bây giờ",
+          "sau này",
+          "trong tương lai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kể từ bây giờ; sau này; trong tương lai; trong tương lai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217896,
+        "meaning_vi": "từ đây; từ thời điểm này",
+        "confidence": "high",
+        "search_keywords": [
+          "từ đây",
+          "từ thời điểm này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ đây; từ thời điểm này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 410,
+    "word": "これで",
+    "kana": "これで",
+    "senses": [
+      {
+        "sense_id": 217897,
+        "meaning_vi": "đây; với cái này",
+        "confidence": "high",
+        "search_keywords": [
+          "đây",
+          "với cái này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đây; với cái này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 411,
+    "word": "これと同じ",
+    "kana": "これとおなじ",
+    "senses": [
+      {
+        "sense_id": 217898,
+        "meaning_vi": "giống như thế này",
+        "confidence": "high",
+        "search_keywords": [
+          "giống như thế này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giống như thế này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 412,
+    "word": "これ迄",
+    "kana": "これまで",
+    "senses": [
+      {
+        "sense_id": 217899,
+        "meaning_vi": "cho đến nay; cho đến nay; cho đến nay",
+        "confidence": "high",
+        "search_keywords": [
+          "cho đến nay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cho đến nay; cho đến nay; cho đến nay",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217900,
+        "meaning_vi": "thế là đủ (hôm nay); nó kết thúc ở đây",
+        "confidence": "high",
+        "search_keywords": [
+          "thế là đủ (hôm nay)",
+          "nó kết thúc ở đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thế là đủ (hôm nay); nó kết thúc ở đây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 413,
+    "word": "これ等",
+    "kana": "これら",
+    "senses": [
+      {
+        "sense_id": 217901,
+        "meaning_vi": "những cái này",
+        "confidence": "high",
+        "search_keywords": [
+          "những cái này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "những cái này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 414,
+    "word": "コロコロ",
+    "kana": "コロコロ",
+    "senses": [
+      {
+        "sense_id": 217902,
+        "meaning_vi": "(lăn) dọc theo; (lăn) lăn đi lăn lại",
+        "confidence": "high",
+        "search_keywords": [
+          "(lăn) dọc theo",
+          "(lăn) lăn đi lăn lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(lăn) dọc theo; (lăn) lăn đi lăn lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217903,
+        "meaning_vi": "với âm thanh chói tai (ví dụ như tiếng chuông); (cười) với giọng điệu tươi sáng, the thé; vui vẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "với âm thanh chói tai (ví dụ như tiếng chuông)",
+          "(cười) với giọng điệu tươi sáng, the thé",
+          "vui vẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "với âm thanh chói tai (ví dụ như tiếng chuông); (cười) với giọng điệu tươi sáng, the thé; vui vẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217904,
+        "meaning_vi": "(thay đổi) thường xuyên (về ý kiến, chủ đề cuộc trò chuyện, v.v.); liên tục; thường; luôn luôn",
+        "confidence": "high",
+        "search_keywords": [
+          "(thay đổi) thường xuyên (về ý kiến, chủ đề cuộc trò chuyện, v.v.)",
+          "liên tục",
+          "thường",
+          "luôn luôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(thay đổi) thường xuyên (về ý kiến, chủ đề cuộc trò chuyện, v.v.); liên tục; thường; luôn luôn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217905,
+        "meaning_vi": "(thua) quá dễ dàng; (bị đánh bại) hết người này đến người khác; liên tiếp nhanh chóng",
+        "confidence": "high",
+        "search_keywords": [
+          "(thua) quá dễ dàng",
+          "(bị đánh bại) hết người này đến người khác",
+          "liên tiếp nhanh chóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(thua) quá dễ dàng; (bị đánh bại) hết người này đến người khác; liên tiếp nhanh chóng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217906,
+        "meaning_vi": "mũm mĩm (và dễ thương); đầy đặn; tròn",
+        "confidence": "high",
+        "search_keywords": [
+          "mũm mĩm (và dễ thương)",
+          "đầy đặn",
+          "tròn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mũm mĩm (và dễ thương); đầy đặn; tròn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217907,
+        "meaning_vi": "tiếng ríu rít (của côn trùng)",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng ríu rít (của côn trùng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng ríu rít (của côn trùng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217908,
+        "meaning_vi": "tiếng kêu (của ếch); ruy băng ruy băng",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng kêu (của ếch)",
+          "ruy băng ruy băng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng kêu (của ếch); ruy băng ruy băng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217909,
+        "meaning_vi": "con lăn; con lăn xơ vải; con lăn sơn",
+        "confidence": "high",
+        "search_keywords": [
+          "con lăn",
+          "con lăn xơ vải",
+          "con lăn sơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con lăn; con lăn xơ vải; con lăn sơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 415,
+    "word": "ころり",
+    "kana": "ころり",
+    "senses": [
+      {
+        "sense_id": 217910,
+        "meaning_vi": "một cách dễ dàng; dễ dàng; đột nhiên; hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "một cách dễ dàng",
+          "dễ dàng",
+          "đột nhiên",
+          "hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cách dễ dàng; dễ dàng; đột nhiên; hoàn toàn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217911,
+        "meaning_vi": "thay đổi hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi hoàn toàn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217912,
+        "meaning_vi": "plink (âm thanh của vật gì đó nhẹ rơi hoặc lăn)",
+        "confidence": "high",
+        "search_keywords": [
+          "plink (âm thanh của vật gì đó nhẹ rơi hoặc lăn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "plink (âm thanh của vật gì đó nhẹ rơi hoặc lăn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 416,
+    "word": "コンコン",
+    "kana": "コンコン",
+    "senses": [
+      {
+        "sense_id": 217913,
+        "meaning_vi": "tap-tap; gõ cửa; bang bang",
+        "confidence": "high",
+        "search_keywords": [
+          "tap-tap",
+          "gõ cửa",
+          "bang bang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tap-tap; gõ cửa; bang bang",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217914,
+        "meaning_vi": "khụ khụ",
+        "confidence": "high",
+        "search_keywords": [
+          "khụ khụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khụ khụ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217915,
+        "meaning_vi": "vỏ cây (của một con cáo); hét lên; khóc",
+        "confidence": "high",
+        "search_keywords": [
+          "vỏ cây (của một con cáo)",
+          "hét lên",
+          "khóc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vỏ cây (của một con cáo); hét lên; khóc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217916,
+        "meaning_vi": "nặng nề (ví dụ: tuyết rơi)",
+        "confidence": "high",
+        "search_keywords": [
+          "nặng nề (ví dụ: tuyết rơi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nặng nề (ví dụ: tuyết rơi)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217917,
+        "meaning_vi": "cáo",
+        "confidence": "high",
+        "search_keywords": [
+          "cáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 417,
+    "word": "こんな",
+    "kana": "こんな",
+    "senses": [
+      {
+        "sense_id": 217918,
+        "meaning_vi": "kiểu này; kiểu này; như thế này; như vậy",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu này",
+          "như thế này",
+          "như vậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu này; kiểu này; như thế này; như vậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 418,
+    "word": "こんなに",
+    "kana": "こんなに",
+    "senses": [
+      {
+        "sense_id": 217919,
+        "meaning_vi": "Vì thế; như thế này; theo cách này; chừng này; đến mức này",
+        "confidence": "high",
+        "search_keywords": [
+          "Vì thế",
+          "như thế này",
+          "theo cách này",
+          "chừng này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Vì thế; như thế này; theo cách này; chừng này; đến mức này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 419,
+    "word": "ごそごそ",
+    "kana": "ごそごそ",
+    "senses": [
+      {
+        "sense_id": 217920,
+        "meaning_vi": "với âm thanh xào xạc; (lục lọi) xung quanh",
+        "confidence": "high",
+        "search_keywords": [
+          "với âm thanh xào xạc",
+          "(lục lọi) xung quanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "với âm thanh xào xạc; (lục lọi) xung quanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 420,
+    "word": "ゴタゴタ",
+    "kana": "ゴタゴタ",
+    "senses": [
+      {
+        "sense_id": 217921,
+        "meaning_vi": "rắc rối; khó khăn; tranh luận; cãi nhau; bất hòa; sự bất đồng",
+        "confidence": "high",
+        "search_keywords": [
+          "rắc rối",
+          "khó khăn",
+          "tranh luận",
+          "cãi nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rắc rối; khó khăn; tranh luận; cãi nhau; bất hòa; sự bất đồng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217922,
+        "meaning_vi": "lú lẫn; rối loạn; sự lộn xộn; lộn xộn",
+        "confidence": "high",
+        "search_keywords": [
+          "lú lẫn",
+          "rối loạn",
+          "sự lộn xộn",
+          "lộn xộn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lú lẫn; rối loạn; sự lộn xộn; lộn xộn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
@@ -6,11 +7,25 @@ import GrammarDetailContent from "@/features/dictionary/grammar/components/Gramm
 import {
     getGrammarPointById,
     searchGrammarPoints,
-} from "@/features/dictionary/grammar/services/grammar.service"
+} from "@/server/services/grammar/grammar.service"
 
 type Props = {
     params: Promise<{ id: string }>
     searchParams: Promise<{ q?: string }>
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { id } = await params
+    const grammar = await getGrammarPointById(id)
+    if (!grammar) return { title: "Ngữ pháp | Yomi" }
+    const pattern = grammar.display_pattern ?? grammar.pattern
+    const meaning = grammar.meaning_vi || grammar.meaning_en || ""
+    return {
+        title: `${pattern} — ${grammar.jlpt_level ?? "Ngữ pháp"} | Yomi`,
+        description: meaning
+            ? `${pattern}: ${meaning}. Giải thích ngữ pháp tiếng Nhật bằng tiếng Việt.`
+            : `Tra cứu ngữ pháp ${pattern} tiếng Nhật.`,
+    }
 }
 
 export default async function GrammarDetailPage({ params, searchParams }: Props) {

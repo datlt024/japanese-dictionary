@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560">
+  <rect width="560" height="560" fill="white"/>
+  <line x1="280" y1="0" x2="280" y2="560" stroke="#bbb" stroke-width="1.5"/>
+  <line x1="0" y1="280" x2="560" y2="280" stroke="#bbb" stroke-width="1.5"/>
+  <rect width="560" height="560" fill="none" stroke="#888" stroke-width="2"/>
+
+  <!-- ① はれ (sunny) -->
+  <text x="14" y="36" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">①</text>
+  <circle cx="140" cy="148" r="44" fill="none" stroke="#444" stroke-width="3"/>
+  <line x1="140" y1="84" x2="140" y2="70" stroke="#444" stroke-width="2.5"/>
+  <line x1="140" y1="212" x2="140" y2="226" stroke="#444" stroke-width="2.5"/>
+  <line x1="76" y1="148" x2="62" y2="148" stroke="#444" stroke-width="2.5"/>
+  <line x1="204" y1="148" x2="218" y2="148" stroke="#444" stroke-width="2.5"/>
+  <line x1="95" y1="103" x2="85" y2="93" stroke="#444" stroke-width="2.5"/>
+  <line x1="185" y1="193" x2="195" y2="203" stroke="#444" stroke-width="2.5"/>
+  <line x1="185" y1="103" x2="195" y2="93" stroke="#444" stroke-width="2.5"/>
+  <line x1="95" y1="193" x2="85" y2="203" stroke="#444" stroke-width="2.5"/>
+  <text x="140" y="248" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">はれ</text>
+
+  <!-- ② くもり (cloudy) -->
+  <text x="294" y="36" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">②</text>
+  <ellipse cx="400" cy="152" rx="52" ry="34" fill="#f0f0f0" stroke="#555" stroke-width="2.5"/>
+  <ellipse cx="440" cy="158" rx="38" ry="26" fill="#f0f0f0" stroke="#555" stroke-width="2.5"/>
+  <ellipse cx="368" cy="162" rx="30" ry="22" fill="#f0f0f0" stroke="#555" stroke-width="2.5"/>
+  <text x="420" y="248" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">くもり</text>
+
+  <!-- ③ あめ (rainy) -->
+  <text x="14" y="316" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">③</text>
+  <ellipse cx="118" cy="388" rx="46" ry="30" fill="#e8e8e8" stroke="#555" stroke-width="2.5"/>
+  <ellipse cx="155" cy="394" rx="34" ry="23" fill="#e8e8e8" stroke="#555" stroke-width="2.5"/>
+  <ellipse cx="90" cy="396" rx="26" ry="19" fill="#e8e8e8" stroke="#555" stroke-width="2.5"/>
+  <line x1="96" y1="425" x2="86" y2="455" stroke="#4488cc" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="118" y1="425" x2="108" y2="455" stroke="#4488cc" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="140" y1="425" x2="130" y2="455" stroke="#4488cc" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="162" y1="425" x2="152" y2="455" stroke="#4488cc" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="140" y="528" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">あめ</text>
+
+  <!-- ④ ゆき (snowy) -->
+  <text x="294" y="316" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">④</text>
+  <ellipse cx="398" cy="374" rx="46" ry="30" fill="#e8e8e8" stroke="#555" stroke-width="2.5"/>
+  <ellipse cx="435" cy="380" rx="34" ry="23" fill="#e8e8e8" stroke="#555" stroke-width="2.5"/>
+  <ellipse cx="370" cy="382" rx="26" ry="19" fill="#e8e8e8" stroke="#555" stroke-width="2.5"/>
+  <!-- Snowflakes -->
+  <g stroke="#88aadd" stroke-width="2" stroke-linecap="round">
+    <line x1="385" y1="415" x2="385" y2="445"/><line x1="370" y1="430" x2="400" y2="430"/>
+    <line x1="372" y1="417" x2="398" y2="443"/><line x1="398" y1="417" x2="372" y2="443"/>
+  </g>
+  <g stroke="#88aadd" stroke-width="2" stroke-linecap="round">
+    <line x1="420" y1="420" x2="420" y2="448"/><line x1="406" y1="434" x2="434" y2="434"/>
+    <line x1="408" y1="422" x2="432" y2="446"/><line x1="432" y1="422" x2="408" y2="446"/>
+  </g>
+  <g stroke="#88aadd" stroke-width="2" stroke-linecap="round">
+    <line x1="452" y1="415" x2="452" y2="443"/><line x1="438" y1="429" x2="466" y2="429"/>
+    <line x1="440" y1="417" x2="464" y2="441"/><line x1="464" y1="417" x2="440" y2="441"/>
+  </g>
+  <text x="420" y="528" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">ゆき</text>
+</svg>

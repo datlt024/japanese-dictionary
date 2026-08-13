@@ -1,0 +1,602 @@
+[
+  {
+    "vocabulary_id": 14065,
+    "word": "移籍",
+    "kana": "いせき",
+    "senses": [
+      {
+        "sense_id": 234775,
+        "meaning_vi": "chuyển (tên của một người sang sổ đăng ký gia đình khác)",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển (tên của một người sang sổ đăng ký gia đình khác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển (tên của một người sang sổ đăng ký gia đình khác)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234776,
+        "meaning_vi": "chuyển (sang nhóm, công ty khác, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển (sang nhóm, công ty khác, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển (sang nhóm, công ty khác, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14066,
+    "word": "移設",
+    "kana": "いせつ",
+    "senses": [
+      {
+        "sense_id": 234777,
+        "meaning_vi": "di dời (cơ sở, cơ quan, nhà máy, v.v.); di chuyển (đến một địa điểm khác)",
+        "confidence": "high",
+        "search_keywords": [
+          "di dời (cơ sở, cơ quan, nhà máy, v.v.)",
+          "di chuyển (đến một địa điểm khác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di dời (cơ sở, cơ quan, nhà máy, v.v.); di chuyển (đến một địa điểm khác)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14067,
+    "word": "移送",
+    "kana": "いそう",
+    "senses": [
+      {
+        "sense_id": 234778,
+        "meaning_vi": "chuyển khoản; chuyên chở; vận chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển khoản",
+          "chuyên chở",
+          "vận chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển khoản; chuyên chở; vận chuyển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14068,
+    "word": "移着",
+    "kana": "いちゃく",
+    "senses": [
+      {
+        "sense_id": 234779,
+        "meaning_vi": "bám dính hoặc nhúng các mảnh vụn mài mòn vào bề mặt đối diện",
+        "confidence": "high",
+        "search_keywords": [
+          "bám dính hoặc nhúng các mảnh vụn mài mòn vào bề mặt đối diện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bám dính hoặc nhúng các mảnh vụn mài mòn vào bề mặt đối diện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14069,
+    "word": "移駐",
+    "kana": "いちゅう",
+    "senses": [
+      {
+        "sense_id": 234780,
+        "meaning_vi": "di chuyển; chuyển giao",
+        "confidence": "high",
+        "search_keywords": [
+          "di chuyển",
+          "chuyển giao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di chuyển; chuyển giao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14070,
+    "word": "移牒",
+    "kana": "いちょう",
+    "senses": [
+      {
+        "sense_id": 234781,
+        "meaning_vi": "thông báo cho cơ quan chức năng",
+        "confidence": "high",
+        "search_keywords": [
+          "thông báo cho cơ quan chức năng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông báo cho cơ quan chức năng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14071,
+    "word": "移転",
+    "kana": "いてん",
+    "senses": [
+      {
+        "sense_id": 234782,
+        "meaning_vi": "di chuyển; tái định cư; thay đổi địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "di chuyển",
+          "tái định cư",
+          "thay đổi địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di chuyển; tái định cư; thay đổi địa chỉ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234783,
+        "meaning_vi": "chuyển nhượng (chứng thư, tài sản, v.v.); sự tàn lụi",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển nhượng (chứng thư, tài sản, v.v.)",
+          "sự tàn lụi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển nhượng (chứng thư, tài sản, v.v.); sự tàn lụi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14072,
+    "word": "移動",
+    "kana": "いどう",
+    "senses": [
+      {
+        "sense_id": 234784,
+        "meaning_vi": "sự chuyển động; chuyển khoản; di cư; loại bỏ; du lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chuyển động",
+          "chuyển khoản",
+          "di cư",
+          "loại bỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chuyển động; chuyển khoản; di cư; loại bỏ; du lịch",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234785,
+        "meaning_vi": "di động; di chuyển; đi du lịch; đi du lịch; đi lang thang",
+        "confidence": "high",
+        "search_keywords": [
+          "di động",
+          "di chuyển",
+          "đi du lịch",
+          "đi lang thang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "di động; di chuyển; đi du lịch; đi du lịch; đi lang thang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14073,
+    "word": "移動図書館",
+    "kana": "いどうとしょかん",
+    "senses": [
+      {
+        "sense_id": 234786,
+        "meaning_vi": "thư viện di động; xe sách di động",
+        "confidence": "high",
+        "search_keywords": [
+          "thư viện di động",
+          "xe sách di động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư viện di động; xe sách di động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14074,
+    "word": "移動体",
+    "kana": "いどうたい",
+    "senses": [
+      {
+        "sense_id": 234787,
+        "meaning_vi": "cơ thể chuyển động",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ thể chuyển động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ thể chuyển động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14075,
+    "word": "移入",
+    "kana": "いにゅう",
+    "senses": [
+      {
+        "sense_id": 234788,
+        "meaning_vi": "giới thiệu (từ bên ngoài); nhập khẩu; đưa vào",
+        "confidence": "high",
+        "search_keywords": [
+          "giới thiệu (từ bên ngoài)",
+          "nhập khẩu",
+          "đưa vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giới thiệu (từ bên ngoài); nhập khẩu; đưa vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234789,
+        "meaning_vi": "vận chuyển đến (từ một vùng khác của đất nước); vận chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "vận chuyển đến (từ một vùng khác của đất nước)",
+          "vận chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vận chuyển đến (từ một vùng khác của đất nước); vận chuyển",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234790,
+        "meaning_vi": "đưa (ví dụ: cảm xúc của một người vào tác phẩm)",
+        "confidence": "high",
+        "search_keywords": [
+          "đưa (ví dụ: cảm xúc của một người vào tác phẩm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đưa (ví dụ: cảm xúc của một người vào tác phẩm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14076,
+    "word": "移民",
+    "kana": "いみん",
+    "senses": [
+      {
+        "sense_id": 234791,
+        "meaning_vi": "nhập cư; di cư",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập cư",
+          "di cư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập cư; di cư",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234792,
+        "meaning_vi": "người nhập cư; người di cư",
+        "confidence": "high",
+        "search_keywords": [
+          "người nhập cư",
+          "người di cư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nhập cư; người di cư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14077,
+    "word": "維持",
+    "kana": "いじ",
+    "senses": [
+      {
+        "sense_id": 234793,
+        "meaning_vi": "BẢO TRÌ; sự bảo tồn; cải tiến",
+        "confidence": "high",
+        "search_keywords": [
+          "BẢO TRÌ",
+          "sự bảo tồn",
+          "cải tiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "BẢO TRÌ; sự bảo tồn; cải tiến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14078,
+    "word": "維持費",
+    "kana": "いじひ",
+    "senses": [
+      {
+        "sense_id": 234794,
+        "meaning_vi": "chi phí bảo trì",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí bảo trì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí bảo trì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14079,
+    "word": "維新",
+    "kana": "いしん",
+    "senses": [
+      {
+        "sense_id": 234795,
+        "meaning_vi": "cải cách; cuộc cách mạng; đổi mới",
+        "confidence": "high",
+        "search_keywords": [
+          "cải cách",
+          "cuộc cách mạng",
+          "đổi mới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cải cách; cuộc cách mạng; đổi mới",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234796,
+        "meaning_vi": "Minh Trị Duy Tân",
+        "confidence": "high",
+        "search_keywords": [
+          "Minh Trị Duy Tân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Minh Trị Duy Tân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234797,
+        "meaning_vi": "Đảng Đổi mới Nhật Bản; Nippon Ishin no Kai",
+        "confidence": "high",
+        "search_keywords": [
+          "Đảng Đổi mới Nhật Bản",
+          "Nippon Ishin no Kai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đảng Đổi mới Nhật Bản; Nippon Ishin no Kai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14080,
+    "word": "緯線",
+    "kana": "いせん",
+    "senses": [
+      {
+        "sense_id": 234798,
+        "meaning_vi": "song song; đường vĩ độ",
+        "confidence": "high",
+        "search_keywords": [
+          "song song",
+          "đường vĩ độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "song song; đường vĩ độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14081,
+    "word": "緯度",
+    "kana": "いど",
+    "senses": [
+      {
+        "sense_id": 234799,
+        "meaning_vi": "vĩ độ",
+        "confidence": "high",
+        "search_keywords": [
+          "vĩ độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vĩ độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14082,
+    "word": "胃",
+    "kana": "い",
+    "senses": [
+      {
+        "sense_id": 234800,
+        "meaning_vi": "dạ dày",
+        "confidence": "high",
+        "search_keywords": [
+          "dạ dày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dạ dày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 234801,
+        "meaning_vi": "Chòm sao \"dạ dày\" Trung Quốc (một trong 28 dinh thự)",
+        "confidence": "high",
+        "search_keywords": [
+          "Chòm sao \"dạ dày\" Trung Quốc (một trong 28 dinh thự)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chòm sao \"dạ dày\" Trung Quốc (một trong 28 dinh thự)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14083,
+    "word": "胃液",
+    "kana": "いえき",
+    "senses": [
+      {
+        "sense_id": 234802,
+        "meaning_vi": "nước dạ dày",
+        "confidence": "high",
+        "search_keywords": [
+          "nước dạ dày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước dạ dày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 14084,
+    "word": "胃炎",
+    "kana": "いえん",
+    "senses": [
+      {
+        "sense_id": 234803,
+        "meaning_vi": "viêm dạ dày; viêm dạ dày",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm dạ dày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm dạ dày; viêm dạ dày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

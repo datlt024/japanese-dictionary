@@ -5,12 +5,12 @@
 .footerContainer {
     padding: 32px 40px;
 
-    border: 1px solid #eceef2;
-    border-radius: 20px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
 
-    background: #ffffff;
+    background: var(--color-surface);
 
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
+    box-shadow: var(--shadow-xs);
 }
 
 .footerTop {
@@ -18,12 +18,13 @@
 }
 
 .footerLogo {
-    color: #2563eb;
+    color: var(--color-primary);
 
-    font-size: 26px;
+    font-family: var(--font-display);
+    font-size: 24px;
     line-height: 1.2;
-    font-weight: 900;
-    letter-spacing: -.02em;
+    font-weight: 800;
+    letter-spacing: -0.03em;
 }
 
 .footerDescription {
@@ -31,7 +32,7 @@
 
     margin: 12px 0 0;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 15px;
     line-height: 1.7;
@@ -46,11 +47,13 @@
 .footerGrid h3 {
     margin: 0 0 14px;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
-    font-size: 15px;
-    line-height: 1.4;
-    font-weight: 800;
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
 }
 
 .footerGrid ul {
@@ -64,27 +67,27 @@
 }
 
 .footerGrid li {
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 14px;
     line-height: 1.5;
 
     cursor: pointer;
 
-    transition: all .2s ease;
+    transition: color var(--dur-fast) var(--ease-in-out);
 }
 
 .footerGrid li:hover {
-    color: #2563eb;
+    color: var(--color-primary);
 }
 
 .footerBottom {
     margin-top: 32px;
     padding-top: 20px;
 
-    border-top: 1px solid #eceef2;
+    border-top: 1px solid var(--color-border);
 
-    color: #9ca3af;
+    color: var(--color-text-muted);
 
     font-size: 14px;
     line-height: 1.6;

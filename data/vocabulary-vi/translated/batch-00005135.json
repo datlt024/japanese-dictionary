@@ -1,0 +1,448 @@
+[
+  {
+    "vocabulary_id": 123243,
+    "word": "局所変数",
+    "kana": "きょくしょへんすう",
+    "senses": [
+      {
+        "sense_id": 366865,
+        "meaning_vi": "biến cục bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "biến cục bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến cục bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123244,
+    "word": "局所名",
+    "kana": "きょくしょめい",
+    "senses": [
+      {
+        "sense_id": 366866,
+        "meaning_vi": "tên địa phương",
+        "confidence": "high",
+        "search_keywords": [
+          "tên địa phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên địa phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123245,
+    "word": "局所要素",
+    "kana": "きょくしょようそ",
+    "senses": [
+      {
+        "sense_id": 366867,
+        "meaning_vi": "thực thể địa phương",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể địa phương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể địa phương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123246,
+    "word": "局内クロストーク",
+    "kana": "きょくないクロストーク",
+    "senses": [
+      {
+        "sense_id": 366868,
+        "meaning_vi": "xuyên âm cục bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "xuyên âm cục bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuyên âm cục bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123247,
+    "word": "曲線近似圧縮",
+    "kana": "きょくせんきんじあっしゅく",
+    "senses": [
+      {
+        "sense_id": 366869,
+        "meaning_vi": "đầm chặt theo đường cong",
+        "confidence": "high",
+        "search_keywords": [
+          "đầm chặt theo đường cong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầm chặt theo đường cong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123248,
+    "word": "曲線発生器",
+    "kana": "きょくせんはっせいき",
+    "senses": [
+      {
+        "sense_id": 366870,
+        "meaning_vi": "máy tạo đường cong",
+        "confidence": "high",
+        "search_keywords": [
+          "máy tạo đường cong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy tạo đường cong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123249,
+    "word": "極性ゼロ復帰記録",
+    "kana": "きょくせいゼロふっききろく",
+    "senses": [
+      {
+        "sense_id": 366871,
+        "meaning_vi": "ghi âm trở về 0 phân cực; RZ(P)",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi âm trở về 0 phân cực",
+          "RZ(P)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi âm trở về 0 phân cực; RZ(P)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123250,
+    "word": "均等割り付け",
+    "kana": "きんとうわりつけ",
+    "senses": [
+      {
+        "sense_id": 366872,
+        "meaning_vi": "căn chỉnh đầy đủ với khoảng cách đều giữa các ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "căn chỉnh đầy đủ với khoảng cách đều giữa các ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn chỉnh đầy đủ với khoảng cách đều giữa các ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123251,
+    "word": "禁則処理",
+    "kana": "きんそくしょり",
+    "senses": [
+      {
+        "sense_id": 366873,
+        "meaning_vi": "chức năng xử lý văn bản xử lý các quy tắc ngắt dòng trong tiếng Nhật; kiểm soát ngắt dòng",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng xử lý văn bản xử lý các quy tắc ngắt dòng trong tiếng Nhật",
+          "kiểm soát ngắt dòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng xử lý văn bản xử lý các quy tắc ngắt dòng trong tiếng Nhật; kiểm soát ngắt dòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123252,
+    "word": "緊急度",
+    "kana": "きんきゅうど",
+    "senses": [
+      {
+        "sense_id": 366874,
+        "meaning_vi": "(mức độ) khẩn cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "(mức độ) khẩn cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(mức độ) khẩn cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123253,
+    "word": "近似ランダム",
+    "kana": "きんじランダム",
+    "senses": [
+      {
+        "sense_id": 366875,
+        "meaning_vi": "giả ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "giả ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123254,
+    "word": "近似ランダム系列",
+    "kana": "きんじランダムけいれつ",
+    "senses": [
+      {
+        "sense_id": 366876,
+        "meaning_vi": "chuỗi giả ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "chuỗi giả ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuỗi giả ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123255,
+    "word": "近似雑音",
+    "kana": "きんじざつおん",
+    "senses": [
+      {
+        "sense_id": 366877,
+        "meaning_vi": "giả tiếng; PN",
+        "confidence": "high",
+        "search_keywords": [
+          "giả tiếng",
+          "PN"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả tiếng; PN",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123256,
+    "word": "近似雑音系列",
+    "kana": "きんじざつおんけいれつ",
+    "senses": [
+      {
+        "sense_id": 366878,
+        "meaning_vi": "chuỗi giả tiếng ồn; trình tự pn",
+        "confidence": "high",
+        "search_keywords": [
+          "chuỗi giả tiếng ồn",
+          "trình tự pn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuỗi giả tiếng ồn; trình tự pn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123257,
+    "word": "金属酸化物半導体",
+    "kana": "きんぞくさんかぶつはんどうたい",
+    "senses": [
+      {
+        "sense_id": 366879,
+        "meaning_vi": "chất bán dẫn oxit kim loại; MOS",
+        "confidence": "high",
+        "search_keywords": [
+          "chất bán dẫn oxit kim loại",
+          "MOS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất bán dẫn oxit kim loại; MOS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123258,
+    "word": "金属酸化膜半導体",
+    "kana": "きんぞくさんかまくはんどうたい",
+    "senses": [
+      {
+        "sense_id": 366880,
+        "meaning_vi": "Chất bán dẫn oxit kim loại; MOS",
+        "confidence": "high",
+        "search_keywords": [
+          "Chất bán dẫn oxit kim loại",
+          "MOS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chất bán dẫn oxit kim loại; MOS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123259,
+    "word": "金属被膜加工",
+    "kana": "きんぞくひまくかこう",
+    "senses": [
+      {
+        "sense_id": 366881,
+        "meaning_vi": "kim loại hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "kim loại hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kim loại hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123260,
+    "word": "銀行ＡＮＳＥＲ",
+    "kana": "ぎんこうアンサー",
+    "senses": [
+      {
+        "sense_id": 366882,
+        "meaning_vi": "Hệ thống mạng trả lời tự động cho yêu cầu điện",
+        "confidence": "high",
+        "search_keywords": [
+          "Hệ thống mạng trả lời tự động cho yêu cầu điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hệ thống mạng trả lời tự động cho yêu cầu điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123261,
+    "word": "句読文字",
+    "kana": "くとうもじ",
+    "senses": [
+      {
+        "sense_id": 366883,
+        "meaning_vi": "ký tự dấu chấm câu",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự dấu chấm câu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự dấu chấm câu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123262,
+    "word": "区きり子",
+    "kana": "くきりし",
+    "senses": [
+      {
+        "sense_id": 366884,
+        "meaning_vi": "dấu phân cách",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu phân cách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu phân cách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,531 +1,509 @@
 [
-{
-"vocabulary_id": 3381,
-"word": "カラーコーディネーター",
-"kana": "カラーコーディネーター",
-"senses": [
-{
-"sense_id": 221812,
-"meaning_vi": "chuyên gia phối màu",
-"confidence": "high",
-"search_keywords": [
-"chuyên gia phối màu",
-"color coordinator"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người tư vấn và phối hợp màu sắc trong thiết kế",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3382,
-"word": "カラーコンディショニング",
-"kana": "カラーコンディショニング",
-"senses": [
-{
-"sense_id": 221813,
-"meaning_vi": "điều chỉnh màu sắc",
-"confidence": "medium",
-"search_keywords": [
-"điều chỉnh màu sắc",
-"color conditioning"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá trình điều chỉnh hoặc tối ưu màu sắc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3383,
-"word": "カラーコンビネーション",
-"kana": "カラーコンビネーション",
-"senses": [
-{
-"sense_id": 221814,
-"meaning_vi": "phối hợp màu sắc",
-"confidence": "high",
-"search_keywords": [
-"phối hợp màu sắc",
-"color combination"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự kết hợp giữa nhiều màu sắc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3384,
-"word": "カラースプレー",
-"kana": "カラースプレー",
-"senses": [
-{
-"sense_id": 221815,
-"meaning_vi": "sơn phun màu",
-"confidence": "high",
-"search_keywords": [
-"sơn phun màu",
-"spray paint"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sơn màu dạng xịt",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221816,
-"meaning_vi": "hạt cốm màu",
-"confidence": "high",
-"search_keywords": [
-"hạt cốm màu",
-"rainbow sprinkles"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hạt đường nhiều màu dùng trang trí bánh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3385,
-"word": "カラーダイナミックス",
-"kana": "カラーダイナミックス",
-"senses": [
-{
-"sense_id": 221817,
-"meaning_vi": "động học màu sắc",
-"confidence": "medium",
-"search_keywords": [
-"động học màu sắc",
-"color dynamics"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự thay đổi và tác động của màu sắc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3386,
-"word": "カラーディスプレー",
-"kana": "カラーディスプレー",
-"senses": [
-{
-"sense_id": 221818,
-"meaning_vi": "màn hình màu",
-"confidence": "high",
-"search_keywords": [
-"màn hình màu",
-"color display"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị hiển thị hình ảnh có màu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3387,
-"word": "カラートーン",
-"kana": "カラートーン",
-"senses": [
-{
-"sense_id": 221819,
-"meaning_vi": "màng màu screentone",
-"confidence": "medium",
-"search_keywords": [
-"màng màu screentone",
-"color screentone"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "miếng dán tạo màu dùng trong truyện tranh và minh họa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3388,
-"word": "カラード",
-"kana": "カラード",
-"senses": [
-{
-"sense_id": 221820,
-"meaning_vi": "người da màu",
-"confidence": "medium",
-"search_keywords": [
-"người da màu",
-"colored person"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi cũ chỉ người không phải da trắng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221821,
-"meaning_vi": "người Coloured Nam Phi",
-"confidence": "high",
-"search_keywords": [
-"người Coloured Nam Phi",
-"Coloureds"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhóm sắc tộc Coloured tại Nam Phi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3389,
-"word": "カラープランニング",
-"kana": "カラープランニング",
-"senses": [
-{
-"sense_id": 221822,
-"meaning_vi": "thiết kế màu sắc",
-"confidence": "high",
-"search_keywords": [
-"thiết kế màu sắc",
-"color planning"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lập kế hoạch sử dụng màu sắc trong thiết kế",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3390,
-"word": "カラーボックス",
-"kana": "カラーボックス",
-"senses": [
-{
-"sense_id": 221823,
-"meaning_vi": "kệ gỗ lắp ráp",
-"confidence": "high",
-"search_keywords": [
-"kệ gỗ lắp ráp",
-"tủ gỗ lắp ghép",
-"color box"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kệ hoặc tủ giá rẻ làm từ ván ép màu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3391,
-"word": "カラーマーカー",
-"kana": "カラーマーカー",
-"senses": [
-{
-"sense_id": 221824,
-"meaning_vi": "bút màu",
-"confidence": "high",
-"search_keywords": [
-"bút màu",
-"bút dạ màu",
-"color marker"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bút dùng để tô hoặc đánh dấu bằng màu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3392,
-"word": "カラーリンス",
-"kana": "カラーリンス",
-"senses": [
-{
-"sense_id": 221825,
-"meaning_vi": "dầu xả nhuộm màu",
-"confidence": "high",
-"search_keywords": [
-"dầu xả nhuộm màu",
-"color rinse"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dầu xả có tác dụng tạo màu cho tóc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3393,
-"word": "カラーレス",
-"kana": "カラーレス",
-"senses": [
-{
-"sense_id": 221826,
-"meaning_vi": "không cổ áo",
-"confidence": "high",
-"search_keywords": [
-"không cổ áo",
-"collarless"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết kế quần áo không có cổ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3394,
-"word": "空オケ",
-"kana": "カラオケ",
-"senses": [
-{
-"sense_id": 221827,
-"meaning_vi": "karaoke",
-"confidence": "high",
-"search_keywords": [
-"karaoke",
-"hát karaoke"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hình thức hát theo nhạc đệm không có giọng hát chính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3395,
-"word": "カラチ",
-"kana": "カラチ",
-"senses": [
-{
-"sense_id": 221828,
-"meaning_vi": "Karachi",
-"confidence": "high",
-"search_keywords": [
-"Karachi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thành phố Karachi của Pakistan",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3396,
-"word": "カラット",
-"kana": "カラット",
-"senses": [
-{
-"sense_id": 221829,
-"meaning_vi": "carat",
-"confidence": "high",
-"search_keywords": [
-"carat",
-"cara"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đơn vị khối lượng của đá quý và ngọc trai",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221830,
-"meaning_vi": "kara",
-"confidence": "high",
-"search_keywords": [
-"kara",
-"độ tinh khiết vàng",
-"karat"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đơn vị đo độ tinh khiết của vàng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3397,
-"word": "カラフル",
-"kana": "カラフル",
-"senses": [
-{
-"sense_id": 221831,
-"meaning_vi": "nhiều màu sắc",
-"confidence": "high",
-"search_keywords": [
-"nhiều màu sắc",
-"sặc sỡ",
-"colorful"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có nhiều màu sắc tươi sáng và nổi bật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3398,
-"word": "カラム",
-"kana": "カラム",
-"senses": [
-{
-"sense_id": 221832,
-"meaning_vi": "cột dữ liệu",
-"confidence": "high",
-"search_keywords": [
-"cột dữ liệu",
-"column"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cột trong bảng dữ liệu hoặc cơ sở dữ liệu",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221833,
-"meaning_vi": "cột phân tách",
-"confidence": "medium",
-"search_keywords": [
-"cột phân tách",
-"column chromatography"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ống hoặc cột dùng trong chưng cất và sắc ký",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3399,
-"word": "カラン",
-"kana": "カラン",
-"senses": [
-{
-"sense_id": 221834,
-"meaning_vi": "vòi nước",
-"confidence": "medium",
-"search_keywords": [
-"vòi nước",
-"vòi sen",
-"tap"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách gọi hiếm của vòi nước hoặc vòi máy",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3400,
-"word": "カリウム",
-"kana": "カリウム",
-"senses": [
-{
-"sense_id": 221835,
-"meaning_vi": "kali",
-"confidence": "high",
-"search_keywords": [
-"kali",
-"potassium",
-"K"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nguyên tố hóa học kali (K)",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3381,
+    "word": "カラーコーディネーター",
+    "kana": "カラーコーディネーター",
+    "senses": [
+      {
+        "sense_id": 221812,
+        "meaning_vi": "điều phối viên màu sắc; điều phối viên màu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "điều phối viên màu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều phối viên màu sắc; điều phối viên màu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3382,
+    "word": "カラーコンディショニング",
+    "kana": "カラーコンディショニング",
+    "senses": [
+      {
+        "sense_id": 221813,
+        "meaning_vi": "điều hòa màu sắc; điều hòa màu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "điều hòa màu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều hòa màu sắc; điều hòa màu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3383,
+    "word": "カラーコンビネーション",
+    "kana": "カラーコンビネーション",
+    "senses": [
+      {
+        "sense_id": 221814,
+        "meaning_vi": "sự kết hợp màu sắc; sự kết hợp màu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kết hợp màu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kết hợp màu sắc; sự kết hợp màu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3384,
+    "word": "カラースプレー",
+    "kana": "カラースプレー",
+    "senses": [
+      {
+        "sense_id": 221815,
+        "meaning_vi": "sơn phun màu; sơn phun màu",
+        "confidence": "high",
+        "search_keywords": [
+          "sơn phun màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơn phun màu; sơn phun màu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221816,
+        "meaning_vi": "rắc cầu vồng",
+        "confidence": "high",
+        "search_keywords": [
+          "rắc cầu vồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rắc cầu vồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3385,
+    "word": "カラーダイナミックス",
+    "kana": "カラーダイナミックス",
+    "senses": [
+      {
+        "sense_id": 221817,
+        "meaning_vi": "động lực màu sắc; động lực màu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "động lực màu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động lực màu sắc; động lực màu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3386,
+    "word": "カラーディスプレー",
+    "kana": "カラーディスプレー",
+    "senses": [
+      {
+        "sense_id": 221818,
+        "meaning_vi": "hiển thị màu sắc; màn hình màu",
+        "confidence": "high",
+        "search_keywords": [
+          "hiển thị màu sắc",
+          "màn hình màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiển thị màu sắc; màn hình màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3387,
+    "word": "カラートーン",
+    "kana": "カラートーン",
+    "senses": [
+      {
+        "sense_id": 221819,
+        "meaning_vi": "tông màu màn hình; tông màu màn hình; màu sắc cơ học; màu cơ khí",
+        "confidence": "high",
+        "search_keywords": [
+          "tông màu màn hình",
+          "màu sắc cơ học",
+          "màu cơ khí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tông màu màn hình; tông màu màn hình; màu sắc cơ học; màu cơ khí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3388,
+    "word": "カラード",
+    "kana": "カラード",
+    "senses": [
+      {
+        "sense_id": 221820,
+        "meaning_vi": "màu (người); màu",
+        "confidence": "high",
+        "search_keywords": [
+          "màu (người)",
+          "màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu (người); màu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221821,
+        "meaning_vi": "Người da màu (dân tộc Nam Phi)",
+        "confidence": "high",
+        "search_keywords": [
+          "Người da màu (dân tộc Nam Phi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Người da màu (dân tộc Nam Phi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3389,
+    "word": "カラープランニング",
+    "kana": "カラープランニング",
+    "senses": [
+      {
+        "sense_id": 221822,
+        "meaning_vi": "quy hoạch màu sắc; quy hoạch màu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "quy hoạch màu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy hoạch màu sắc; quy hoạch màu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3390,
+    "word": "カラーボックス",
+    "kana": "カラーボックス",
+    "senses": [
+      {
+        "sense_id": 221823,
+        "meaning_vi": "giá rẻ, dễ dàng lắp ráp tủ, tủ sách, kệ, tủ, v.v. làm bằng gỗ dán màu",
+        "confidence": "high",
+        "search_keywords": [
+          "giá rẻ, dễ dàng lắp ráp tủ, tủ sách, kệ, tủ, v.v. làm bằng gỗ dán màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá rẻ, dễ dàng lắp ráp tủ, tủ sách, kệ, tủ, v.v. làm bằng gỗ dán màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3391,
+    "word": "カラーマーカー",
+    "kana": "カラーマーカー",
+    "senses": [
+      {
+        "sense_id": 221824,
+        "meaning_vi": "bút đánh dấu màu; bút đánh dấu màu",
+        "confidence": "high",
+        "search_keywords": [
+          "bút đánh dấu màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bút đánh dấu màu; bút đánh dấu màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3392,
+    "word": "カラーリンス",
+    "kana": "カラーリンス",
+    "senses": [
+      {
+        "sense_id": 221825,
+        "meaning_vi": "rửa màu; rửa màu",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa màu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa màu; rửa màu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3393,
+    "word": "カラーレス",
+    "kana": "カラーレス",
+    "senses": [
+      {
+        "sense_id": 221826,
+        "meaning_vi": "không có cổ",
+        "confidence": "high",
+        "search_keywords": [
+          "không có cổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có cổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3394,
+    "word": "空オケ",
+    "kana": "カラオケ",
+    "senses": [
+      {
+        "sense_id": 221827,
+        "meaning_vi": "karaoke",
+        "confidence": "low",
+        "search_keywords": [
+          "karaoke"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "karaoke",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3395,
+    "word": "カラチ",
+    "kana": "カラチ",
+    "senses": [
+      {
+        "sense_id": 221828,
+        "meaning_vi": "Karachi",
+        "confidence": "low",
+        "search_keywords": [
+          "Karachi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Karachi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3396,
+    "word": "カラット",
+    "kana": "カラット",
+    "senses": [
+      {
+        "sense_id": 221829,
+        "meaning_vi": "carat (đơn vị đo trọng lượng của đá quý và ngọc trai)",
+        "confidence": "high",
+        "search_keywords": [
+          "carat (đơn vị đo trọng lượng của đá quý và ngọc trai)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "carat (đơn vị đo trọng lượng của đá quý và ngọc trai)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221830,
+        "meaning_vi": "karat (thước đo độ tinh khiết của vàng); ca-ra",
+        "confidence": "high",
+        "search_keywords": [
+          "karat (thước đo độ tinh khiết của vàng)",
+          "ca-ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "karat (thước đo độ tinh khiết của vàng); ca-ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3397,
+    "word": "カラフル",
+    "kana": "カラフル",
+    "senses": [
+      {
+        "sense_id": 221831,
+        "meaning_vi": "đầy màu sắc; đầy màu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "đầy màu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầy màu sắc; đầy màu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3398,
+    "word": "カラム",
+    "kana": "カラム",
+    "senses": [
+      {
+        "sense_id": 221832,
+        "meaning_vi": "cột (dữ liệu)",
+        "confidence": "high",
+        "search_keywords": [
+          "cột (dữ liệu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cột (dữ liệu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221833,
+        "meaning_vi": "cột (dùng trong chưng cất, sắc ký cột, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "cột (dùng trong chưng cất, sắc ký cột, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cột (dùng trong chưng cất, sắc ký cột, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3399,
+    "word": "カラン",
+    "kana": "カラン",
+    "senses": [
+      {
+        "sense_id": 221834,
+        "meaning_vi": "cửa xả nước; vỗ nhẹ; vòi nước",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa xả nước",
+          "vỗ nhẹ",
+          "vòi nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa xả nước; vỗ nhẹ; vòi nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3400,
+    "word": "カリウム",
+    "kana": "カリウム",
+    "senses": [
+      {
+        "sense_id": 221835,
+        "meaning_vi": "kali (K)",
+        "confidence": "high",
+        "search_keywords": [
+          "kali (K)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kali (K)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

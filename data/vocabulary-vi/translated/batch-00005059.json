@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 121700,
+    "word": "メジャーバージョンアップ",
+    "kana": "メジャーバージョンアップ",
+    "senses": [
+      {
+        "sense_id": 365309,
+        "meaning_vi": "nâng cấp lớn (đặc biệt là phần mềm); cập nhật lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "nâng cấp lớn (đặc biệt là phần mềm)",
+          "cập nhật lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nâng cấp lớn (đặc biệt là phần mềm); cập nhật lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121701,
+    "word": "メジャーバージョン番号",
+    "kana": "メジャーバージョンばんごう",
+    "senses": [
+      {
+        "sense_id": 365310,
+        "meaning_vi": "số phiên bản chính",
+        "confidence": "high",
+        "search_keywords": [
+          "số phiên bản chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số phiên bản chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121702,
+    "word": "メスコネクタ",
+    "kana": "メスコネクタ",
+    "senses": [
+      {
+        "sense_id": 365311,
+        "meaning_vi": "đầu nối nữ",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu nối nữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu nối nữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121703,
+    "word": "メタキャラクタ",
+    "kana": "メタキャラクタ",
+    "senses": [
+      {
+        "sense_id": 365312,
+        "meaning_vi": "siêu ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121704,
+    "word": "メタサーチ",
+    "kana": "メタサーチ",
+    "senses": [
+      {
+        "sense_id": 365313,
+        "meaning_vi": "siêu tìm kiếm",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu tìm kiếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu tìm kiếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121705,
+    "word": "メタシンタックス",
+    "kana": "メタシンタックス",
+    "senses": [
+      {
+        "sense_id": 365314,
+        "meaning_vi": "siêu cú pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu cú pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu cú pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121706,
+    "word": "メタタグ",
+    "kana": "メタタグ",
+    "senses": [
+      {
+        "sense_id": 365315,
+        "meaning_vi": "Thẻ META",
+        "confidence": "high",
+        "search_keywords": [
+          "Thẻ META"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thẻ META",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121707,
+    "word": "メタデータ",
+    "kana": "メタデータ",
+    "senses": [
+      {
+        "sense_id": 365316,
+        "meaning_vi": "siêu dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121708,
+    "word": "メタファイル",
+    "kana": "メタファイル",
+    "senses": [
+      {
+        "sense_id": 365317,
+        "meaning_vi": "siêu tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121709,
+    "word": "メタファイル解釈系",
+    "kana": "メタファイルかいしゃくけい",
+    "senses": [
+      {
+        "sense_id": 365318,
+        "meaning_vi": "thông dịch viên siêu dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "thông dịch viên siêu dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông dịch viên siêu dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121710,
+    "word": "メタファイル記述子",
+    "kana": "メタファイルきじゅつし",
+    "senses": [
+      {
+        "sense_id": 365319,
+        "meaning_vi": "bộ mô tả siêu tập tin; MD",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ mô tả siêu tập tin",
+          "MD"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ mô tả siêu tập tin; MD",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121711,
+    "word": "メタファイル生成系",
+    "kana": "メタファイルせいせいけい",
+    "senses": [
+      {
+        "sense_id": 365320,
+        "meaning_vi": "trình tạo siêu tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tạo siêu tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tạo siêu tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121712,
+    "word": "メタファイル要素",
+    "kana": "メタファイルようそ",
+    "senses": [
+      {
+        "sense_id": 365321,
+        "meaning_vi": "phần tử siêu tập tin",
+        "confidence": "high",
+        "search_keywords": [
+          "phần tử siêu tập tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần tử siêu tập tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121713,
+    "word": "メタボール",
+    "kana": "メタボール",
+    "senses": [
+      {
+        "sense_id": 365322,
+        "meaning_vi": "bóng đá",
+        "confidence": "high",
+        "search_keywords": [
+          "bóng đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bóng đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121714,
+    "word": "メタメディア",
+    "kana": "メタメディア",
+    "senses": [
+      {
+        "sense_id": 365323,
+        "meaning_vi": "metamedia",
+        "confidence": "low",
+        "search_keywords": [
+          "metamedia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "metamedia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121715,
+    "word": "メタライズ",
+    "kana": "メタライズ",
+    "senses": [
+      {
+        "sense_id": 365324,
+        "meaning_vi": "kim loại hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "kim loại hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kim loại hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121716,
+    "word": "メタリックケーブル",
+    "kana": "メタリックケーブル",
+    "senses": [
+      {
+        "sense_id": 365325,
+        "meaning_vi": "cáp kim loại",
+        "confidence": "high",
+        "search_keywords": [
+          "cáp kim loại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cáp kim loại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121717,
+    "word": "メタリックコネクション",
+    "kana": "メタリックコネクション",
+    "senses": [
+      {
+        "sense_id": 365326,
+        "meaning_vi": "kết nối kim loại",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối kim loại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối kim loại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121718,
+    "word": "メタリック回線",
+    "kana": "メタリックかいせん",
+    "senses": [
+      {
+        "sense_id": 365327,
+        "meaning_vi": "đường kim loại; mạch kim loại",
+        "confidence": "high",
+        "search_keywords": [
+          "đường kim loại",
+          "mạch kim loại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường kim loại; mạch kim loại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121719,
+    "word": "メタ文字",
+    "kana": "メタもじ",
+    "senses": [
+      {
+        "sense_id": 365328,
+        "meaning_vi": "siêu ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

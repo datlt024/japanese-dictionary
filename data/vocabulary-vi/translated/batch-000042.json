@@ -1,511 +1,476 @@
 [
-{
-"vocabulary_id": 1238,
-"word": "アイゼン",
-"kana": "アイゼン",
-"senses": [
-{
-"sense_id": 219315,
-"meaning_vi": "đinh leo băng",
-"confidence": "high",
-"search_keywords": [
-"đinh leo băng",
-"móng giày leo núi",
-"crampon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đinh kim loại gắn dưới giày để leo băng, tuyết hoặc núi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1239,
-"word": "アイソタイプ",
-"kana": "アイソタイプ",
-"senses": [
-{
-"sense_id": 219316,
-"meaning_vi": "isotype",
-"confidence": "medium",
-"search_keywords": [
-"isotype",
-"kiểu đồng dạng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "isotype; kiểu hoặc dạng đồng nhất trong phân loại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1240,
-"word": "アイソトープ",
-"kana": "アイソトープ",
-"senses": [
-{
-"sense_id": 219317,
-"meaning_vi": "đồng vị",
-"confidence": "high",
-"search_keywords": [
-"đồng vị",
-"isotope"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đồng vị; nguyên tử cùng nguyên tố nhưng khác số neutron",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1241,
-"word": "アイソトニック",
-"kana": "アイソトニック",
-"senses": [
-{
-"sense_id": 219318,
-"meaning_vi": "đẳng trương",
-"confidence": "high",
-"search_keywords": [
-"đẳng trương",
-"isotonic"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đẳng trương; có áp suất thẩm thấu tương đương",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1242,
-"word": "アイソパラメトリック",
-"kana": "アイソパラメトリック",
-"senses": [
-{
-"sense_id": 219319,
-"meaning_vi": "đẳng tham số",
-"confidence": "medium",
-"search_keywords": [
-"đẳng tham số",
-"isoparametric"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đẳng tham số; dùng cùng hệ tham số trong mô hình hoặc tính toán",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1243,
-"word": "アイソメトリック",
-"kana": "アイソメトリック",
-"senses": [
-{
-"sense_id": 219320,
-"meaning_vi": "đẳng cự",
-"confidence": "medium",
-"search_keywords": [
-"đẳng cự",
-"isometric",
-"hình chiếu đẳng cự"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đẳng cự; có cùng kích thước hoặc tỷ lệ theo các trục",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1244,
-"word": "アイソメトリックス",
-"kana": "アイソメトリックス",
-"senses": [
-{
-"sense_id": 219321,
-"meaning_vi": "bài tập đẳng trường",
-"confidence": "high",
-"search_keywords": [
-"bài tập đẳng trường",
-"isometrics",
-"tập cơ tĩnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bài tập co cơ tĩnh, không làm thay đổi chiều dài cơ rõ rệt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1245,
-"word": "アイソレーション",
-"kana": "アイソレーション",
-"senses": [
-{
-"sense_id": 219322,
-"meaning_vi": "cách ly",
-"confidence": "high",
-"search_keywords": [
-"cách ly",
-"cô lập",
-"isolation"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách ly; cô lập; tách riêng khỏi xung quanh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1246,
-"word": "アイソレーションシンドローム",
-"kana": "アイソレーションシンドローム",
-"senses": [
-{
-"sense_id": 219323,
-"meaning_vi": "hội chứng cô lập",
-"confidence": "medium",
-"search_keywords": [
-"hội chứng cô lập",
-"isolation syndrome"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hội chứng phát sinh do bị cô lập hoặc cách ly kéo dài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1247,
-"word": "アイソレータ",
-"kana": "アイソレータ",
-"senses": [
-{
-"sense_id": 219324,
-"meaning_vi": "bộ cách ly",
-"confidence": "high",
-"search_keywords": [
-"bộ cách ly",
-"thiết bị cách ly",
-"isolator"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị hoặc bộ phận dùng để cách ly hệ thống, tín hiệu hoặc môi trường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1248,
-"word": "アイテム",
-"kana": "アイテム",
-"senses": [
-{
-"sense_id": 219325,
-"meaning_vi": "món đồ",
-"confidence": "high",
-"search_keywords": [
-"món đồ",
-"vật phẩm",
-"item"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "món đồ; vật phẩm; một mục trong danh sách",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219326,
-"meaning_vi": "món phải có",
-"confidence": "high",
-"search_keywords": [
-"món phải có",
-"đồ cần có",
-"must-have"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "món đồ nên có hoặc không thể thiếu",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219327,
-"meaning_vi": "vật phẩm game",
-"confidence": "high",
-"search_keywords": [
-"vật phẩm game",
-"item game",
-"đồ nhặt được"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vật phẩm trong game; đồ nhặt hoặc mang theo trong kho đồ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1249,
-"word": "アイデア",
-"kana": "アイデア",
-"senses": [
-{
-"sense_id": 219328,
-"meaning_vi": "ý tưởng",
-"confidence": "high",
-"search_keywords": [
-"ý tưởng",
-"sáng kiến",
-"idea"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ý tưởng; sáng kiến; cách nghĩ mới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1250,
-"word": "アイデアマン",
-"kana": "アイデアマン",
-"senses": [
-{
-"sense_id": 219329,
-"meaning_vi": "người nhiều ý tưởng",
-"confidence": "high",
-"search_keywords": [
-"người nhiều ý tưởng",
-"người giàu sáng kiến",
-"idea man"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người có nhiều ý tưởng hoặc sáng kiến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1251,
-"word": "イデアリズム",
-"kana": "イデアリズム",
-"senses": [
-{
-"sense_id": 219330,
-"meaning_vi": "chủ nghĩa duy tâm",
-"confidence": "high",
-"search_keywords": [
-"chủ nghĩa duy tâm",
-"chủ nghĩa lý tưởng",
-"idealism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chủ nghĩa duy tâm; chủ nghĩa lý tưởng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1252,
-"word": "アイデアル",
-"kana": "アイデアル",
-"senses": [
-{
-"sense_id": 219331,
-"meaning_vi": "lý tưởng",
-"confidence": "high",
-"search_keywords": [
-"lý tưởng",
-"hoàn hảo",
-"ideal"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lý tưởng; đúng như mong muốn hoặc tiêu chuẩn tốt nhất",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1253,
-"word": "イデアリスト",
-"kana": "イデアリスト",
-"senses": [
-{
-"sense_id": 219332,
-"meaning_vi": "người duy tâm",
-"confidence": "high",
-"search_keywords": [
-"người duy tâm",
-"người lý tưởng",
-"idealist"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người theo chủ nghĩa duy tâm hoặc chủ nghĩa lý tưởng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1254,
-"word": "アイデンティティ",
-"kana": "アイデンティティ",
-"senses": [
-{
-"sense_id": 219333,
-"meaning_vi": "bản sắc",
-"confidence": "high",
-"search_keywords": [
-"bản sắc",
-"danh tính",
-"identity"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bản sắc; danh tính; cảm thức về chính mình",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1255,
-"word": "アイデンティティーカード",
-"kana": "アイデンティティーカード",
-"senses": [
-{
-"sense_id": 219334,
-"meaning_vi": "thẻ căn cước",
-"confidence": "high",
-"search_keywords": [
-"thẻ căn cước",
-"thẻ nhận dạng",
-"ID card"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thẻ căn cước; giấy tờ dùng để xác nhận danh tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1256,
-"word": "アイデンティファイ",
-"kana": "アイデンティファイ",
-"senses": [
-{
-"sense_id": 219335,
-"meaning_vi": "xác định danh tính",
-"confidence": "high",
-"search_keywords": [
-"xác định danh tính",
-"nhận diện",
-"identify"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xác định danh tính; nhận diện; đồng nhất với ai hoặc điều gì",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1257,
-"word": "アイデンティフィケーション",
-"kana": "アイデンティフィケーション",
-"senses": [
-{
-"sense_id": 219336,
-"meaning_vi": "nhận dạng",
-"confidence": "high",
-"search_keywords": [
-"nhận dạng",
-"xác minh danh tính",
-"identification"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự nhận dạng; việc xác minh hoặc chứng minh danh tính",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1238,
+    "word": "アイゼン",
+    "kana": "アイゼン",
+    "senses": [
+      {
+        "sense_id": 219315,
+        "meaning_vi": "ghim kim loại của giày leo núi; chuột rút; leo núi",
+        "confidence": "high",
+        "search_keywords": [
+          "ghim kim loại của giày leo núi",
+          "chuột rút",
+          "leo núi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghim kim loại của giày leo núi; chuột rút; leo núi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1239,
+    "word": "アイソタイプ",
+    "kana": "アイソタイプ",
+    "senses": [
+      {
+        "sense_id": 219316,
+        "meaning_vi": "kiểu mẫu",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu mẫu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu mẫu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1240,
+    "word": "アイソトープ",
+    "kana": "アイソトープ",
+    "senses": [
+      {
+        "sense_id": 219317,
+        "meaning_vi": "đồng vị",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1241,
+    "word": "アイソトニック",
+    "kana": "アイソトニック",
+    "senses": [
+      {
+        "sense_id": 219318,
+        "meaning_vi": "đẳng trương",
+        "confidence": "high",
+        "search_keywords": [
+          "đẳng trương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẳng trương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1242,
+    "word": "アイソパラメトリック",
+    "kana": "アイソパラメトリック",
+    "senses": [
+      {
+        "sense_id": 219319,
+        "meaning_vi": "đẳng tham số",
+        "confidence": "high",
+        "search_keywords": [
+          "đẳng tham số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẳng tham số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1243,
+    "word": "アイソメトリック",
+    "kana": "アイソメトリック",
+    "senses": [
+      {
+        "sense_id": 219320,
+        "meaning_vi": "đẳng cự",
+        "confidence": "high",
+        "search_keywords": [
+          "đẳng cự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẳng cự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1244,
+    "word": "アイソメトリックス",
+    "kana": "アイソメトリックス",
+    "senses": [
+      {
+        "sense_id": 219321,
+        "meaning_vi": "đẳng cự",
+        "confidence": "high",
+        "search_keywords": [
+          "đẳng cự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẳng cự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1245,
+    "word": "アイソレーション",
+    "kana": "アイソレーション",
+    "senses": [
+      {
+        "sense_id": 219322,
+        "meaning_vi": "sự cô lập",
+        "confidence": "high",
+        "search_keywords": [
+          "sự cô lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự cô lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1246,
+    "word": "アイソレーションシンドローム",
+    "kana": "アイソレーションシンドローム",
+    "senses": [
+      {
+        "sense_id": 219323,
+        "meaning_vi": "hội chứng cô lập",
+        "confidence": "high",
+        "search_keywords": [
+          "hội chứng cô lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội chứng cô lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1247,
+    "word": "アイソレータ",
+    "kana": "アイソレータ",
+    "senses": [
+      {
+        "sense_id": 219324,
+        "meaning_vi": "bộ cách ly",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ cách ly"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ cách ly",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1248,
+    "word": "アイテム",
+    "kana": "アイテム",
+    "senses": [
+      {
+        "sense_id": 219325,
+        "meaning_vi": "mục",
+        "confidence": "high",
+        "search_keywords": [
+          "mục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219326,
+        "meaning_vi": "phải có; món đồ bắt buộc phải có",
+        "confidence": "high",
+        "search_keywords": [
+          "phải có",
+          "món đồ bắt buộc phải có"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phải có; món đồ bắt buộc phải có",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219327,
+        "meaning_vi": "(hàng tồn kho) mặt hàng; đón",
+        "confidence": "high",
+        "search_keywords": [
+          "(hàng tồn kho) mặt hàng",
+          "đón"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(hàng tồn kho) mặt hàng; đón",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1249,
+    "word": "アイデア",
+    "kana": "アイデア",
+    "senses": [
+      {
+        "sense_id": 219328,
+        "meaning_vi": "ý tưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "ý tưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý tưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1250,
+    "word": "アイデアマン",
+    "kana": "アイデアマン",
+    "senses": [
+      {
+        "sense_id": 219329,
+        "meaning_vi": "người có ý tưởng; người có ý tưởng; người có ý tưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "người có ý tưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người có ý tưởng; người có ý tưởng; người có ý tưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1251,
+    "word": "イデアリズム",
+    "kana": "イデアリズム",
+    "senses": [
+      {
+        "sense_id": 219330,
+        "meaning_vi": "chủ nghĩa duy tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa duy tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa duy tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1252,
+    "word": "アイデアル",
+    "kana": "アイデアル",
+    "senses": [
+      {
+        "sense_id": 219331,
+        "meaning_vi": "lý tưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "lý tưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý tưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1253,
+    "word": "イデアリスト",
+    "kana": "イデアリスト",
+    "senses": [
+      {
+        "sense_id": 219332,
+        "meaning_vi": "người duy tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "người duy tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người duy tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1254,
+    "word": "アイデンティティ",
+    "kana": "アイデンティティ",
+    "senses": [
+      {
+        "sense_id": 219333,
+        "meaning_vi": "danh tính",
+        "confidence": "high",
+        "search_keywords": [
+          "danh tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1255,
+    "word": "アイデンティティーカード",
+    "kana": "アイデンティティーカード",
+    "senses": [
+      {
+        "sense_id": 219334,
+        "meaning_vi": "chứng minh nhân dân",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng minh nhân dân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng minh nhân dân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1256,
+    "word": "アイデンティファイ",
+    "kana": "アイデンティファイ",
+    "senses": [
+      {
+        "sense_id": 219335,
+        "meaning_vi": "xác định",
+        "confidence": "high",
+        "search_keywords": [
+          "xác định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xác định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1257,
+    "word": "アイデンティフィケーション",
+    "kana": "アイデンティフィケーション",
+    "senses": [
+      {
+        "sense_id": 219336,
+        "meaning_vi": "nhận dạng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận dạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận dạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,626 @@
+[
+  {
+    "vocabulary_id": 26555,
+    "word": "混み合う",
+    "kana": "こみあう",
+    "senses": [
+      {
+        "sense_id": 251311,
+        "meaning_vi": "trở nên đông đúc; được đóng gói; bị kẹt",
+        "confidence": "high",
+        "search_keywords": [
+          "trở nên đông đúc",
+          "được đóng gói",
+          "bị kẹt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở nên đông đúc; được đóng gói; bị kẹt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26556,
+    "word": "込み入る",
+    "kana": "こみいる",
+    "senses": [
+      {
+        "sense_id": 251312,
+        "meaning_vi": "trở nên phức tạp; phải tỉ mỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "trở nên phức tạp",
+          "phải tỉ mỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở nên phức tạp; phải tỉ mỉ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251313,
+        "meaning_vi": "đẩy vào; trở nên đông đúc",
+        "confidence": "high",
+        "search_keywords": [
+          "đẩy vào",
+          "trở nên đông đúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẩy vào; trở nên đông đúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26557,
+    "word": "込める",
+    "kana": "こめる",
+    "senses": [
+      {
+        "sense_id": 251314,
+        "meaning_vi": "nạp đạn (súng, v.v.); sạc",
+        "confidence": "high",
+        "search_keywords": [
+          "nạp đạn (súng, v.v.)",
+          "sạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nạp đạn (súng, v.v.); sạc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251315,
+        "meaning_vi": "đặt vào (ví dụ: cảm xúc, nỗ lực)",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt vào (ví dụ: cảm xúc, nỗ lực)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt vào (ví dụ: cảm xúc, nỗ lực)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251316,
+        "meaning_vi": "bao gồm (ví dụ: thuế trong giá bán)",
+        "confidence": "high",
+        "search_keywords": [
+          "bao gồm (ví dụ: thuế trong giá bán)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bao gồm (ví dụ: thuế trong giá bán)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251317,
+        "meaning_vi": "treo cổ; che đậy; để che đậy; để bao bọc; để sàng lọc",
+        "confidence": "high",
+        "search_keywords": [
+          "treo cổ",
+          "che đậy",
+          "để che đậy",
+          "để bao bọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "treo cổ; che đậy; để che đậy; để bao bọc; để sàng lọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26558,
+    "word": "これ程",
+    "kana": "これほど",
+    "senses": [
+      {
+        "sense_id": 251318,
+        "meaning_vi": "Vì thế; rất nhiều; nhiều thế này",
+        "confidence": "high",
+        "search_keywords": [
+          "Vì thế",
+          "rất nhiều",
+          "nhiều thế này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Vì thế; rất nhiều; nhiều thế này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26559,
+    "word": "此処",
+    "kana": "ここ",
+    "senses": [
+      {
+        "sense_id": 251319,
+        "meaning_vi": "đây; nơi này",
+        "confidence": "high",
+        "search_keywords": [
+          "đây",
+          "nơi này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đây; nơi này",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251320,
+        "meaning_vi": "điểm này; đây; bây giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm này",
+          "đây",
+          "bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm này; đây; bây giờ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251321,
+        "meaning_vi": "những quá khứ này ... (ví dụ: ba năm); những cái cuối cùng này...",
+        "confidence": "high",
+        "search_keywords": [
+          "những quá khứ này ... (ví dụ: ba năm)",
+          "những cái cuối cùng này..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "những quá khứ này ... (ví dụ: ba năm); những cái cuối cùng này...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251322,
+        "meaning_vi": "tiếp theo ... (ví dụ: vài ngày); những điều tiếp theo...",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp theo ... (ví dụ: vài ngày)",
+          "những điều tiếp theo..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp theo ... (ví dụ: vài ngày); những điều tiếp theo...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26560,
+    "word": "頃合",
+    "kana": "ころあい",
+    "senses": [
+      {
+        "sense_id": 251323,
+        "meaning_vi": "thời điểm thích hợp; thời gian vui vẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "thời điểm thích hợp",
+          "thời gian vui vẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời điểm thích hợp; thời gian vui vẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251324,
+        "meaning_vi": "sự đúng đắn; điều độ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự đúng đắn",
+          "điều độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự đúng đắn; điều độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26561,
+    "word": "頃刻",
+    "kana": "けいこく",
+    "senses": [
+      {
+        "sense_id": 251325,
+        "meaning_vi": "thời gian ngắn",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian ngắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian ngắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26562,
+    "word": "今",
+    "kana": "いま",
+    "senses": [
+      {
+        "sense_id": 251326,
+        "meaning_vi": "Hiện nay; thời điểm hiện tại; ngay bây giờ; sớm; ngay lập tức",
+        "confidence": "high",
+        "search_keywords": [
+          "Hiện nay",
+          "thời điểm hiện tại",
+          "ngay bây giờ",
+          "sớm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hiện nay; thời điểm hiện tại; ngay bây giờ; sớm; ngay lập tức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251327,
+        "meaning_vi": "khác; hơn thế nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "khác",
+          "hơn thế nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khác; hơn thế nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26563,
+    "word": "今",
+    "kana": "こん",
+    "senses": [
+      {
+        "sense_id": 251328,
+        "meaning_vi": "hiện tại ...; cái này",
+        "confidence": "high",
+        "search_keywords": [
+          "hiện tại ...",
+          "cái này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiện tại ...; cái này",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 251329,
+        "meaning_vi": "hôm nay...",
+        "confidence": "high",
+        "search_keywords": [
+          "hôm nay..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hôm nay...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26564,
+    "word": "今か今か",
+    "kana": "いまかいまか",
+    "senses": [
+      {
+        "sense_id": 251330,
+        "meaning_vi": "háo hức (chờ đợi); (chờ đợi) sốt ruột",
+        "confidence": "high",
+        "search_keywords": [
+          "háo hức (chờ đợi)",
+          "(chờ đợi) sốt ruột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "háo hức (chờ đợi); (chờ đợi) sốt ruột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26565,
+    "word": "今が今",
+    "kana": "いまがいま",
+    "senses": [
+      {
+        "sense_id": 251331,
+        "meaning_vi": "ngay bây giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "ngay bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngay bây giờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26566,
+    "word": "今が今まで",
+    "kana": "いまがいままで",
+    "senses": [
+      {
+        "sense_id": 251332,
+        "meaning_vi": "cho đến bây giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "cho đến bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cho đến bây giờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26567,
+    "word": "今しがた",
+    "kana": "いましがた",
+    "senses": [
+      {
+        "sense_id": 251333,
+        "meaning_vi": "một lúc trước; ngay bây giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "một lúc trước",
+          "ngay bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một lúc trước; ngay bây giờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26568,
+    "word": "今では",
+    "kana": "いまでは",
+    "senses": [
+      {
+        "sense_id": 251334,
+        "meaning_vi": "Hiện nay; ngày nay",
+        "confidence": "high",
+        "search_keywords": [
+          "Hiện nay",
+          "ngày nay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hiện nay; ngày nay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26569,
+    "word": "今でも",
+    "kana": "いまでも",
+    "senses": [
+      {
+        "sense_id": 251335,
+        "meaning_vi": "ngay cả bây giờ; vẫn; vẫn chưa",
+        "confidence": "high",
+        "search_keywords": [
+          "ngay cả bây giờ",
+          "vẫn",
+          "vẫn chưa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngay cả bây giờ; vẫn; vẫn chưa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26570,
+    "word": "今に",
+    "kana": "いまに",
+    "senses": [
+      {
+        "sense_id": 251336,
+        "meaning_vi": "chẳng bao lâu nữa; ngay cả bây giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "chẳng bao lâu nữa",
+          "ngay cả bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chẳng bao lâu nữa; ngay cả bây giờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26571,
+    "word": "今にも",
+    "kana": "いまにも",
+    "senses": [
+      {
+        "sense_id": 251337,
+        "meaning_vi": "bất cứ lúc nào (bây giờ); bất cứ lúc nào; sắp sửa (làm); sắp sửa",
+        "confidence": "high",
+        "search_keywords": [
+          "bất cứ lúc nào (bây giờ)",
+          "bất cứ lúc nào",
+          "sắp sửa (làm)",
+          "sắp sửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất cứ lúc nào (bây giờ); bất cứ lúc nào; sắp sửa (làm); sắp sửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26572,
+    "word": "今のところ",
+    "kana": "いまのところ",
+    "senses": [
+      {
+        "sense_id": 251338,
+        "meaning_vi": "hiện tại; Hiện nay; cho đến nay; bây giờ; hiện tại",
+        "confidence": "high",
+        "search_keywords": [
+          "hiện tại",
+          "Hiện nay",
+          "cho đến nay",
+          "bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiện tại; Hiện nay; cho đến nay; bây giờ; hiện tại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26573,
+    "word": "今めかしい",
+    "kana": "いまめかしい",
+    "senses": [
+      {
+        "sense_id": 251339,
+        "meaning_vi": "hợp thời trang",
+        "confidence": "high",
+        "search_keywords": [
+          "hợp thời trang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hợp thời trang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26574,
+    "word": "今めかす",
+    "kana": "いまめかす",
+    "senses": [
+      {
+        "sense_id": 251340,
+        "meaning_vi": "hiện đại hóa; hiện đại hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "hiện đại hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiện đại hóa; hiện đại hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "vocabulary_id": 170536,
+    "word": "パンチの効いた",
+    "kana": "パンチのきいた",
+    "senses": [
+      {
+        "sense_id": 418279,
+        "meaning_vi": "mạnh mẽ; mạnh mẽ; đánh mạnh; kích thích; có tác động",
+        "confidence": "high",
+        "search_keywords": [
+          "mạnh mẽ",
+          "đánh mạnh",
+          "kích thích",
+          "có tác động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạnh mẽ; mạnh mẽ; đánh mạnh; kích thích; có tác động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170537,
+    "word": "実部",
+    "kana": "じつぶ",
+    "senses": [
+      {
+        "sense_id": 418280,
+        "meaning_vi": "phần thực (của số phức)",
+        "confidence": "high",
+        "search_keywords": [
+          "phần thực (của số phức)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần thực (của số phức)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170538,
+    "word": "虚部",
+    "kana": "きょぶ",
+    "senses": [
+      {
+        "sense_id": 418281,
+        "meaning_vi": "phần ảo (của số phức)",
+        "confidence": "high",
+        "search_keywords": [
+          "phần ảo (của số phức)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần ảo (của số phức)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170539,
+    "word": "基本列",
+    "kana": "きほんれつ",
+    "senses": [
+      {
+        "sense_id": 418282,
+        "meaning_vi": "trình tự cơ bản; Trình tự Cauchy",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự cơ bản",
+          "Trình tự Cauchy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự cơ bản; Trình tự Cauchy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170540,
+    "word": "可換",
+    "kana": "かかん",
+    "senses": [
+      {
+        "sense_id": 418283,
+        "meaning_vi": "giao hoán",
+        "confidence": "high",
+        "search_keywords": [
+          "giao hoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao hoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170541,
+    "word": "コーシー列",
+    "kana": "コーシーれつ",
+    "senses": [
+      {
+        "sense_id": 418284,
+        "meaning_vi": "Trình tự Cauchy",
+        "confidence": "high",
+        "search_keywords": [
+          "Trình tự Cauchy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Trình tự Cauchy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170542,
+    "word": "可換性",
+    "kana": "かかんせい",
+    "senses": [
+      {
+        "sense_id": 418285,
+        "meaning_vi": "tính giao hoán",
+        "confidence": "high",
+        "search_keywords": [
+          "tính giao hoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính giao hoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170543,
+    "word": "非可換幾何",
+    "kana": "ひかかんきか",
+    "senses": [
+      {
+        "sense_id": 418286,
+        "meaning_vi": "hình học không giao hoán; NCG",
+        "confidence": "high",
+        "search_keywords": [
+          "hình học không giao hoán",
+          "NCG"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình học không giao hoán; NCG",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170544,
+    "word": "非可換",
+    "kana": "ひかかん",
+    "senses": [
+      {
+        "sense_id": 418287,
+        "meaning_vi": "không giao hoán",
+        "confidence": "high",
+        "search_keywords": [
+          "không giao hoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không giao hoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170545,
+    "word": "非可換環",
+    "kana": "ひかかんかん",
+    "senses": [
+      {
+        "sense_id": 418288,
+        "meaning_vi": "vành không giao hoán",
+        "confidence": "high",
+        "search_keywords": [
+          "vành không giao hoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vành không giao hoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170546,
+    "word": "お三方",
+    "kana": "おさんかた",
+    "senses": [
+      {
+        "sense_id": 418289,
+        "meaning_vi": "ba người",
+        "confidence": "high",
+        "search_keywords": [
+          "ba người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ba người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170547,
+    "word": "射影加群",
+    "kana": "しゃえいかぐん",
+    "senses": [
+      {
+        "sense_id": 418290,
+        "meaning_vi": "mô-đun chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "mô-đun chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô-đun chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170548,
+    "word": "入射加群",
+    "kana": "にゅうしゃかぐん",
+    "senses": [
+      {
+        "sense_id": 418291,
+        "meaning_vi": "mô-đun tiêm",
+        "confidence": "high",
+        "search_keywords": [
+          "mô-đun tiêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô-đun tiêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170549,
+    "word": "自由加群",
+    "kana": "じゆうかぐん",
+    "senses": [
+      {
+        "sense_id": 418292,
+        "meaning_vi": "mô-đun miễn phí",
+        "confidence": "high",
+        "search_keywords": [
+          "mô-đun miễn phí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô-đun miễn phí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170550,
+    "word": "口がきけない",
+    "kana": "くちがきけない",
+    "senses": [
+      {
+        "sense_id": 418293,
+        "meaning_vi": "không thể nói được; câm; tắt tiếng; không nói nên lời; bịt lưỡi",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể nói được",
+          "câm",
+          "tắt tiếng",
+          "không nói nên lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể nói được; câm; tắt tiếng; không nói nên lời; bịt lưỡi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170551,
+    "word": "口のきけない",
+    "kana": "くちのきけない",
+    "senses": [
+      {
+        "sense_id": 418294,
+        "meaning_vi": "không thể nói được; không nói rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể nói được",
+          "không nói rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể nói được; không nói rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170552,
+    "word": "疣井守",
+    "kana": "いぼいもり",
+    "senses": [
+      {
+        "sense_id": 418295,
+        "meaning_vi": "sa giông cá sấu Anderson (Echinotriton andersoni); sa giông Anderson; Sa giông gai Ryukyu; Sa giông Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "sa giông cá sấu Anderson (Echinotriton andersoni)",
+          "sa giông Anderson",
+          "Sa giông gai Ryukyu",
+          "Sa giông Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sa giông cá sấu Anderson (Echinotriton andersoni); sa giông Anderson; Sa giông gai Ryukyu; Sa giông Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170553,
+    "word": "ノーフォーク松",
+    "kana": "ノーフォークまつ",
+    "senses": [
+      {
+        "sense_id": 418296,
+        "meaning_vi": "Thông đảo Norfolk (Araucaria heterophylla)",
+        "confidence": "high",
+        "search_keywords": [
+          "Thông đảo Norfolk (Araucaria heterophylla)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thông đảo Norfolk (Araucaria heterophylla)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170554,
+    "word": "ラオス岩鼠",
+    "kana": "ラオスいわねずみ",
+    "senses": [
+      {
+        "sense_id": 418297,
+        "meaning_vi": "chuột đá Lào (Laonastes aenigmamus); kha-nyou; sóc chuột",
+        "confidence": "high",
+        "search_keywords": [
+          "chuột đá Lào (Laonastes aenigmamus)",
+          "kha-nyou",
+          "sóc chuột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuột đá Lào (Laonastes aenigmamus); kha-nyou; sóc chuột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 170555,
+    "word": "蚊母樹",
+    "kana": "いすのき",
+    "senses": [
+      {
+        "sense_id": 418298,
+        "meaning_vi": "Distylium racemosum (cây thường xanh thuộc chi cây phỉ mùa đông)",
+        "confidence": "high",
+        "search_keywords": [
+          "Distylium racemosum (cây thường xanh thuộc chi cây phỉ mùa đông)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Distylium racemosum (cây thường xanh thuộc chi cây phỉ mùa đông)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

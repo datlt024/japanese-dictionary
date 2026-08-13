@@ -1,0 +1,442 @@
+[
+  {
+    "vocabulary_id": 126564,
+    "word": "片面ディスク",
+    "kana": "かためんディスク",
+    "senses": [
+      {
+        "sense_id": 370211,
+        "meaning_vi": "đĩa một mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "đĩa một mặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đĩa một mặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126565,
+    "word": "編集モード",
+    "kana": "へんしゅうモード",
+    "senses": [
+      {
+        "sense_id": 370212,
+        "meaning_vi": "chế độ chỉnh sửa",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ chỉnh sửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ chỉnh sửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126566,
+    "word": "編集処理",
+    "kana": "へんしゅうしょり",
+    "senses": [
+      {
+        "sense_id": 370213,
+        "meaning_vi": "quá trình chỉnh sửa",
+        "confidence": "high",
+        "search_keywords": [
+          "quá trình chỉnh sửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình chỉnh sửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126567,
+    "word": "編集用文字",
+    "kana": "へんしゅうようもじ",
+    "senses": [
+      {
+        "sense_id": 370214,
+        "meaning_vi": "chỉnh sửa ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉnh sửa ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉnh sửa ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126568,
+    "word": "辺フラグ",
+    "kana": "へんフラグ",
+    "senses": [
+      {
+        "sense_id": 370215,
+        "meaning_vi": "cờ biên",
+        "confidence": "high",
+        "search_keywords": [
+          "cờ biên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cờ biên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126569,
+    "word": "辺可視フラグ",
+    "kana": "へんかしフラグ",
+    "senses": [
+      {
+        "sense_id": 370216,
+        "meaning_vi": "cờ hiển thị cạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "cờ hiển thị cạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cờ hiển thị cạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126570,
+    "word": "辺線種",
+    "kana": "へんせんしゅ",
+    "senses": [
+      {
+        "sense_id": 370217,
+        "meaning_vi": "kiểu cạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu cạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu cạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126571,
+    "word": "辺線幅倍率",
+    "kana": "へんせんぷくばいりつ",
+    "senses": [
+      {
+        "sense_id": 370218,
+        "meaning_vi": "hệ số tỷ lệ độ rộng cạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số tỷ lệ độ rộng cạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số tỷ lệ độ rộng cạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126572,
+    "word": "返信ＩＰメッセージ表示",
+    "kana": "へんしんアイピーメッセージひょうじ",
+    "senses": [
+      {
+        "sense_id": 370219,
+        "meaning_vi": "trả lời chỉ báo tin nhắn IP",
+        "confidence": "high",
+        "search_keywords": [
+          "trả lời chỉ báo tin nhắn IP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trả lời chỉ báo tin nhắn IP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126573,
+    "word": "返信要求表示",
+    "kana": "へんしんようきゅうひょうじ",
+    "senses": [
+      {
+        "sense_id": 370220,
+        "meaning_vi": "chỉ báo yêu cầu trả lời",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo yêu cầu trả lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo yêu cầu trả lời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126574,
+    "word": "返送照合",
+    "kana": "へんそうしょうごう",
+    "senses": [
+      {
+        "sense_id": 370221,
+        "meaning_vi": "kiểm tra tiếng vang",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra tiếng vang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra tiếng vang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126575,
+    "word": "返送内容エントリ",
+    "kana": "へんそうないようエントリ",
+    "senses": [
+      {
+        "sense_id": 370222,
+        "meaning_vi": "mục nhập nội dung trả về",
+        "confidence": "high",
+        "search_keywords": [
+          "mục nhập nội dung trả về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục nhập nội dung trả về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126576,
+    "word": "保管ファイル",
+    "kana": "ほかんファイル",
+    "senses": [
+      {
+        "sense_id": 370223,
+        "meaning_vi": "tập tin lưu trữ",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin lưu trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin lưu trữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126577,
+    "word": "保護キー",
+    "kana": "ほごキー",
+    "senses": [
+      {
+        "sense_id": 370224,
+        "meaning_vi": "chìa khóa bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "chìa khóa bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chìa khóa bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126578,
+    "word": "保護機能",
+    "kana": "ほごきのう",
+    "senses": [
+      {
+        "sense_id": 370225,
+        "meaning_vi": "bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126579,
+    "word": "保護装置",
+    "kana": "ほごそうち",
+    "senses": [
+      {
+        "sense_id": 370226,
+        "meaning_vi": "bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126580,
+    "word": "保護用スリーブ",
+    "kana": "ほごようスリーブ",
+    "senses": [
+      {
+        "sense_id": 370227,
+        "meaning_vi": "tay áo bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "tay áo bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tay áo bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126581,
+    "word": "保護領域",
+    "kana": "ほごりょういき",
+    "senses": [
+      {
+        "sense_id": 370228,
+        "meaning_vi": "khu vực được bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực được bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực được bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126582,
+    "word": "保守パネル",
+    "kana": "ほしゅパネル",
+    "senses": [
+      {
+        "sense_id": 370229,
+        "meaning_vi": "bảng bảo trì",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng bảo trì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng bảo trì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126583,
+    "word": "保守契約",
+    "kana": "ほしゅけいやく",
+    "senses": [
+      {
+        "sense_id": 370230,
+        "meaning_vi": "hợp đồng bảo trì",
+        "confidence": "high",
+        "search_keywords": [
+          "hợp đồng bảo trì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hợp đồng bảo trì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,572 @@
+[
+  {
+    "vocabulary_id": 35376,
+    "word": "聖堂",
+    "kana": "せいどう",
+    "senses": [
+      {
+        "sense_id": 263138,
+        "meaning_vi": "(Nho giáo) đền thờ; nhà thờ; thánh đường",
+        "confidence": "high",
+        "search_keywords": [
+          "(Nho giáo) đền thờ",
+          "nhà thờ",
+          "thánh đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(Nho giáo) đền thờ; nhà thờ; thánh đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35377,
+    "word": "聖母",
+    "kana": "せいぼ",
+    "senses": [
+      {
+        "sense_id": 263139,
+        "meaning_vi": "mẹ của một vị thánh",
+        "confidence": "high",
+        "search_keywords": [
+          "mẹ của một vị thánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẹ của một vị thánh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 263140,
+        "meaning_vi": "Thánh Mẫu; Đức Trinh Nữ Maria; Đức Mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "Thánh Mẫu",
+          "Đức Trinh Nữ Maria",
+          "Đức Mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thánh Mẫu; Đức Trinh Nữ Maria; Đức Mẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35378,
+    "word": "聖霊",
+    "kana": "せいれい",
+    "senses": [
+      {
+        "sense_id": 263141,
+        "meaning_vi": "Đức Thánh Linh; Chúa Thánh Thần",
+        "confidence": "high",
+        "search_keywords": [
+          "Đức Thánh Linh",
+          "Chúa Thánh Thần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đức Thánh Linh; Chúa Thánh Thần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35379,
+    "word": "声",
+    "kana": "こえ",
+    "senses": [
+      {
+        "sense_id": 263142,
+        "meaning_vi": "giọng nói",
+        "confidence": "high",
+        "search_keywords": [
+          "giọng nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giọng nói",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 263143,
+        "meaning_vi": "tiếng hót (của một con chim); tiếng hót líu lo (của côn trùng); kêu la",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng hót (của một con chim)",
+          "tiếng hót líu lo (của côn trùng)",
+          "kêu la"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng hót (của một con chim); tiếng hót líu lo (của côn trùng); kêu la",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 263144,
+        "meaning_vi": "tiếng nói; ý kiến ​​(được thể hiện bằng lời nói); xem; ước; thái độ; sẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng nói",
+          "ý kiến ​​(được thể hiện bằng lời nói)",
+          "xem",
+          "ước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng nói; ý kiến ​​(được thể hiện bằng lời nói); xem; ước; thái độ; sẽ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 263145,
+        "meaning_vi": "âm thanh",
+        "confidence": "high",
+        "search_keywords": [
+          "âm thanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm thanh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 263146,
+        "meaning_vi": "cảm giác (về sự xuất hiện của một cái gì đó); cảm giác",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm giác (về sự xuất hiện của một cái gì đó)",
+          "cảm giác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm giác (về sự xuất hiện của một cái gì đó); cảm giác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 263147,
+        "meaning_vi": "tiếng nói; âm thanh lồng tiếng",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng nói",
+          "âm thanh lồng tiếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng nói; âm thanh lồng tiếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35380,
+    "word": "声を立てる",
+    "kana": "こえをたてる",
+    "senses": [
+      {
+        "sense_id": 263148,
+        "meaning_vi": "bật ra một tiếng kêu; hét lên",
+        "confidence": "high",
+        "search_keywords": [
+          "bật ra một tiếng kêu",
+          "hét lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bật ra một tiếng kêu; hét lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35381,
+    "word": "声援",
+    "kana": "せいえん",
+    "senses": [
+      {
+        "sense_id": 263149,
+        "meaning_vi": "(hét lên) sự khích lệ; cổ vũ; root; hỗ trợ",
+        "confidence": "high",
+        "search_keywords": [
+          "(hét lên) sự khích lệ",
+          "cổ vũ",
+          "root",
+          "hỗ trợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(hét lên) sự khích lệ; cổ vũ; root; hỗ trợ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35382,
+    "word": "声楽",
+    "kana": "せいがく",
+    "senses": [
+      {
+        "sense_id": 263150,
+        "meaning_vi": "nhạc thanh nhạc",
+        "confidence": "high",
+        "search_keywords": [
+          "nhạc thanh nhạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhạc thanh nhạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35383,
+    "word": "声楽家",
+    "kana": "せいがくか",
+    "senses": [
+      {
+        "sense_id": 263151,
+        "meaning_vi": "ca sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "ca sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ca sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35384,
+    "word": "声高",
+    "kana": "こわだか",
+    "senses": [
+      {
+        "sense_id": 263152,
+        "meaning_vi": "to (của một giọng nói)",
+        "confidence": "high",
+        "search_keywords": [
+          "to (của một giọng nói)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "to (của một giọng nói)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35385,
+    "word": "声色",
+    "kana": "こわいろ",
+    "senses": [
+      {
+        "sense_id": 263153,
+        "meaning_vi": "giọng điệu",
+        "confidence": "high",
+        "search_keywords": [
+          "giọng điệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giọng điệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 263154,
+        "meaning_vi": "bắt chước; giọng nói bắt chước",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt chước",
+          "giọng nói bắt chước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt chước; giọng nói bắt chước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35386,
+    "word": "声帯",
+    "kana": "せいたい",
+    "senses": [
+      {
+        "sense_id": 263155,
+        "meaning_vi": "dây thanh âm; nếp gấp giọng hát",
+        "confidence": "high",
+        "search_keywords": [
+          "dây thanh âm",
+          "nếp gấp giọng hát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dây thanh âm; nếp gấp giọng hát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35387,
+    "word": "声変わり",
+    "kana": "こえがわり",
+    "senses": [
+      {
+        "sense_id": 263156,
+        "meaning_vi": "thay đổi giọng nói (ở tuổi dậy thì); vỡ giọng",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi giọng nói (ở tuổi dậy thì)",
+          "vỡ giọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi giọng nói (ở tuổi dậy thì); vỡ giọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35388,
+    "word": "声望",
+    "kana": "せいぼう",
+    "senses": [
+      {
+        "sense_id": 263157,
+        "meaning_vi": "danh tiếng; sự nổi tiếng; danh tiếng",
+        "confidence": "high",
+        "search_keywords": [
+          "danh tiếng",
+          "sự nổi tiếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh tiếng; sự nổi tiếng; danh tiếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35389,
+    "word": "声明",
+    "kana": "せいめい",
+    "senses": [
+      {
+        "sense_id": 263158,
+        "meaning_vi": "tuyên ngôn; tuyên bố; lời tuyên bố",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên ngôn",
+          "tuyên bố",
+          "lời tuyên bố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên ngôn; tuyên bố; lời tuyên bố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35390,
+    "word": "声紋",
+    "kana": "せいもん",
+    "senses": [
+      {
+        "sense_id": 263159,
+        "meaning_vi": "dấu giọng nói",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu giọng nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu giọng nói",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35391,
+    "word": "声門",
+    "kana": "せいもん",
+    "senses": [
+      {
+        "sense_id": 263160,
+        "meaning_vi": "thanh môn",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh môn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh môn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35392,
+    "word": "声優",
+    "kana": "せいゆう",
+    "senses": [
+      {
+        "sense_id": 263161,
+        "meaning_vi": "diễn viên lồng tiếng hoặc diễn viên lồng tiếng (đài phát thanh, hoạt hình, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "diễn viên lồng tiếng hoặc diễn viên lồng tiếng (đài phát thanh, hoạt hình, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "diễn viên lồng tiếng hoặc diễn viên lồng tiếng (đài phát thanh, hoạt hình, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35393,
+    "word": "製",
+    "kana": "せい",
+    "senses": [
+      {
+        "sense_id": 263162,
+        "meaning_vi": "làm; sản xuất; -làm ra; làm bằng ...; được làm ở...",
+        "confidence": "high",
+        "search_keywords": [
+          "làm",
+          "sản xuất",
+          "-làm ra",
+          "làm bằng ..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm; sản xuất; -làm ra; làm bằng ...; được làm ở...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35394,
+    "word": "製菓",
+    "kana": "せいか",
+    "senses": [
+      {
+        "sense_id": 263163,
+        "meaning_vi": "sản xuất bánh kẹo",
+        "confidence": "high",
+        "search_keywords": [
+          "sản xuất bánh kẹo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sản xuất bánh kẹo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35395,
+    "word": "製缶工場",
+    "kana": "せいかんこうじょう",
+    "senses": [
+      {
+        "sense_id": 263164,
+        "meaning_vi": "(thiếc) nhà máy sản xuất lon",
+        "confidence": "high",
+        "search_keywords": [
+          "(thiếc) nhà máy sản xuất lon"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(thiếc) nhà máy sản xuất lon",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,560 @@
+[
+  {
+    "vocabulary_id": 132647,
+    "word": "女将さん",
+    "kana": "おかみさん",
+    "senses": [
+      {
+        "sense_id": 376853,
+        "meaning_vi": "cô; quý cô",
+        "confidence": "high",
+        "search_keywords": [
+          "cô",
+          "quý cô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cô; quý cô",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 376854,
+        "meaning_vi": "bà chủ (của một cửa hàng, nhà hàng, v.v.); bà chủ nhà; bà chủ nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "bà chủ (của một cửa hàng, nhà hàng, v.v.)",
+          "bà chủ nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bà chủ (của một cửa hàng, nhà hàng, v.v.); bà chủ nhà; bà chủ nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132648,
+    "word": "おとり捜査",
+    "kana": "おとりそうさ",
+    "senses": [
+      {
+        "sense_id": 376855,
+        "meaning_vi": "hoạt động đốt; điều tra bí mật",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động đốt",
+          "điều tra bí mật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động đốt; điều tra bí mật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132649,
+    "word": "お荷物",
+    "kana": "おにもつ",
+    "senses": [
+      {
+        "sense_id": 376856,
+        "meaning_vi": "hành lý; hành lý",
+        "confidence": "high",
+        "search_keywords": [
+          "hành lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành lý; hành lý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 376857,
+        "meaning_vi": "gánh nặng; hải âu quanh cổ; hành lý quá cước",
+        "confidence": "high",
+        "search_keywords": [
+          "gánh nặng",
+          "hải âu quanh cổ",
+          "hành lý quá cước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gánh nặng; hải âu quanh cổ; hành lý quá cước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132650,
+    "word": "お楽しみ",
+    "kana": "おたのしみ",
+    "senses": [
+      {
+        "sense_id": 376858,
+        "meaning_vi": "hưởng thụ; vinh hạnh; vui chơi giải trí; vui thích; vui sướng; vui vẻ; chuyển hướng; sở thích",
+        "confidence": "high",
+        "search_keywords": [
+          "hưởng thụ",
+          "vinh hạnh",
+          "vui chơi giải trí",
+          "vui thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hưởng thụ; vinh hạnh; vui chơi giải trí; vui thích; vui sướng; vui vẻ; chuyển hướng; sở thích",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 376859,
+        "meaning_vi": "dự đoán; mong chờ ; một cái gì đó để mong chờ",
+        "confidence": "high",
+        "search_keywords": [
+          "dự đoán",
+          "mong chờ",
+          "một cái gì đó để mong chờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dự đoán; mong chờ ; một cái gì đó để mong chờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132651,
+    "word": "お決まり",
+    "kana": "おきまり",
+    "senses": [
+      {
+        "sense_id": 376860,
+        "meaning_vi": "tiêu chuẩn; bộ; lịch trình; thường xuyên; thường; thông thường; rập khuôn; vẫn cũ",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu chuẩn",
+          "bộ",
+          "lịch trình",
+          "thường xuyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu chuẩn; bộ; lịch trình; thường xuyên; thường; thông thường; rập khuôn; vẫn cũ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 376861,
+        "meaning_vi": "quyết định",
+        "confidence": "high",
+        "search_keywords": [
+          "quyết định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyết định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132652,
+    "word": "お呼び",
+    "kana": "および",
+    "senses": [
+      {
+        "sense_id": 376862,
+        "meaning_vi": "gọi; lời mời",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi",
+          "lời mời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi; lời mời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132653,
+    "word": "呼び",
+    "kana": "よび",
+    "senses": [
+      {
+        "sense_id": 376863,
+        "meaning_vi": "gọi; lời mời",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi",
+          "lời mời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi; lời mời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132654,
+    "word": "お情け",
+    "kana": "おなさけ",
+    "senses": [
+      {
+        "sense_id": 376864,
+        "meaning_vi": "lòng thương xót; sự đồng cảm; lòng trắc ẩn; lòng thương xót",
+        "confidence": "high",
+        "search_keywords": [
+          "lòng thương xót",
+          "sự đồng cảm",
+          "lòng trắc ẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lòng thương xót; sự đồng cảm; lòng trắc ẩn; lòng thương xót",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 376865,
+        "meaning_vi": "sự yêu mến; tình yêu",
+        "confidence": "high",
+        "search_keywords": [
+          "sự yêu mến",
+          "tình yêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự yêu mến; tình yêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132655,
+    "word": "お通じ",
+    "kana": "おつうじ",
+    "senses": [
+      {
+        "sense_id": 376866,
+        "meaning_vi": "(ruột) chuyển động; sơ tán; sự đại tiện",
+        "confidence": "high",
+        "search_keywords": [
+          "(ruột) chuyển động",
+          "sơ tán",
+          "sự đại tiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(ruột) chuyển động; sơ tán; sự đại tiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132656,
+    "word": "お通夜",
+    "kana": "おつや",
+    "senses": [
+      {
+        "sense_id": 376867,
+        "meaning_vi": "canh thức suốt đêm trên một thi thể; thức dậy",
+        "confidence": "high",
+        "search_keywords": [
+          "canh thức suốt đêm trên một thi thể",
+          "thức dậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "canh thức suốt đêm trên một thi thể; thức dậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132657,
+    "word": "お部屋",
+    "kana": "おへや",
+    "senses": [
+      {
+        "sense_id": 376868,
+        "meaning_vi": "phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 376869,
+        "meaning_vi": "căn hộ; bằng phẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "căn hộ",
+          "bằng phẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn hộ; bằng phẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132658,
+    "word": "お役目",
+    "kana": "おやくめ",
+    "senses": [
+      {
+        "sense_id": 376870,
+        "meaning_vi": "(công) nghĩa vụ",
+        "confidence": "high",
+        "search_keywords": [
+          "(công) nghĩa vụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(công) nghĩa vụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132659,
+    "word": "時間を守る",
+    "kana": "じかんをまもる",
+    "senses": [
+      {
+        "sense_id": 376871,
+        "meaning_vi": "đúng giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "đúng giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đúng giờ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132660,
+    "word": "鰡子",
+    "kana": "からすみ",
+    "senses": [
+      {
+        "sense_id": 376872,
+        "meaning_vi": "trứng cá đối khô",
+        "confidence": "high",
+        "search_keywords": [
+          "trứng cá đối khô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trứng cá đối khô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132661,
+    "word": "日経平均株価",
+    "kana": "にっけいへいきんかぶか",
+    "senses": [
+      {
+        "sense_id": 376873,
+        "meaning_vi": "Chỉ số trung bình chứng khoán Nikkei; Nikkei 225",
+        "confidence": "high",
+        "search_keywords": [
+          "Chỉ số trung bình chứng khoán Nikkei",
+          "Nikkei 225"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chỉ số trung bình chứng khoán Nikkei; Nikkei 225",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132662,
+    "word": "斧頭",
+    "kana": "ふとう",
+    "senses": [
+      {
+        "sense_id": 376874,
+        "meaning_vi": "đầu rìu; đầu rìu",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu rìu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu rìu; đầu rìu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132663,
+    "word": "紡錘車",
+    "kana": "ぼうすいしゃ",
+    "senses": [
+      {
+        "sense_id": 376875,
+        "meaning_vi": "đế trục chính",
+        "confidence": "high",
+        "search_keywords": [
+          "đế trục chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đế trục chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132664,
+    "word": "調べ出す",
+    "kana": "しらべだす",
+    "senses": [
+      {
+        "sense_id": 376876,
+        "meaning_vi": "để săn lùng; để xác định vị trí; để hỏi thăm",
+        "confidence": "high",
+        "search_keywords": [
+          "để săn lùng",
+          "để xác định vị trí",
+          "để hỏi thăm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để săn lùng; để xác định vị trí; để hỏi thăm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132665,
+    "word": "尋ね出す",
+    "kana": "たずねだす",
+    "senses": [
+      {
+        "sense_id": 376877,
+        "meaning_vi": "để xác định vị trí; để theo dõi; để tìm kiếm",
+        "confidence": "high",
+        "search_keywords": [
+          "để xác định vị trí",
+          "để theo dõi",
+          "để tìm kiếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để xác định vị trí; để theo dõi; để tìm kiếm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 132666,
+    "word": "石製品",
+    "kana": "せきせいひん",
+    "senses": [
+      {
+        "sense_id": 376878,
+        "meaning_vi": "hiện vật bằng đá; vật phẩm làm bằng đá",
+        "confidence": "high",
+        "search_keywords": [
+          "hiện vật bằng đá",
+          "vật phẩm làm bằng đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiện vật bằng đá; vật phẩm làm bằng đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

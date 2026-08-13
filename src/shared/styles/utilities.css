@@ -14,3 +14,41 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
 }
+
+/* ── JLPT color-coded badge ───────────────────
+   Usage: <span class="jlpt-badge" data-level="N3">N3</span>
+   Works in any component without CSS Modules import.
+─────────────────────────────────────────────── */
+.jlpt-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    padding: 0 9px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .2px;
+    background: var(--color-jlpt-n5-soft, #dcfce7);
+    color: var(--color-jlpt-n5, #16a34a);
+}
+.jlpt-badge[data-level="N5"] {
+    background: var(--color-jlpt-n5-soft);
+    color: var(--color-jlpt-n5);
+}
+.jlpt-badge[data-level="N4"] {
+    background: var(--color-jlpt-n4-soft);
+    color: var(--color-jlpt-n4);
+}
+.jlpt-badge[data-level="N3"] {
+    background: var(--color-jlpt-n3-soft);
+    color: var(--color-jlpt-n3);
+}
+.jlpt-badge[data-level="N2"] {
+    background: var(--color-jlpt-n2-soft);
+    color: var(--color-jlpt-n2);
+}
+.jlpt-badge[data-level="N1"] {
+    background: var(--color-jlpt-n1-soft);
+    color: var(--color-jlpt-n1);
+}

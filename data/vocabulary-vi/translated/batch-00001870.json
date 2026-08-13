@@ -1,0 +1,612 @@
+[
+  {
+    "vocabulary_id": 48493,
+    "word": "方式",
+    "kana": "ほうしき",
+    "senses": [
+      {
+        "sense_id": 280758,
+        "meaning_vi": "hình thức; phương pháp; hệ thống; công thức",
+        "confidence": "high",
+        "search_keywords": [
+          "hình thức",
+          "phương pháp",
+          "hệ thống",
+          "công thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình thức; phương pháp; hệ thống; công thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48494,
+    "word": "方針",
+    "kana": "ほうしん",
+    "senses": [
+      {
+        "sense_id": 280759,
+        "meaning_vi": "chính sách; khóa học; kế hoạch (hành động); nguyên tắc",
+        "confidence": "high",
+        "search_keywords": [
+          "chính sách",
+          "khóa học",
+          "kế hoạch (hành động)",
+          "nguyên tắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính sách; khóa học; kế hoạch (hành động); nguyên tắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280760,
+        "meaning_vi": "kim từ",
+        "confidence": "high",
+        "search_keywords": [
+          "kim từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kim từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48495,
+    "word": "方針決定",
+    "kana": "ほうしんけってい",
+    "senses": [
+      {
+        "sense_id": 280761,
+        "meaning_vi": "quyết định chính sách",
+        "confidence": "high",
+        "search_keywords": [
+          "quyết định chính sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyết định chính sách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48496,
+    "word": "方程式",
+    "kana": "ほうていしき",
+    "senses": [
+      {
+        "sense_id": 280762,
+        "meaning_vi": "phương trình; công thức",
+        "confidence": "high",
+        "search_keywords": [
+          "phương trình",
+          "công thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương trình; công thức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280763,
+        "meaning_vi": "phương pháp giải quyết vấn đề; đặt ra cách để đạt được một kết quả cụ thể",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp giải quyết vấn đề",
+          "đặt ra cách để đạt được một kết quả cụ thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp giải quyết vấn đề; đặt ra cách để đạt được một kết quả cụ thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48497,
+    "word": "方途",
+    "kana": "ほうと",
+    "senses": [
+      {
+        "sense_id": 280764,
+        "meaning_vi": "đường; nghĩa là",
+        "confidence": "high",
+        "search_keywords": [
+          "đường",
+          "nghĩa là"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường; nghĩa là",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48498,
+    "word": "方便",
+    "kana": "ほうべん",
+    "senses": [
+      {
+        "sense_id": 280765,
+        "meaning_vi": "có nghĩa; thiết thực; nhạc cụ",
+        "confidence": "high",
+        "search_keywords": [
+          "có nghĩa",
+          "thiết thực",
+          "nhạc cụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có nghĩa; thiết thực; nhạc cụ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280766,
+        "meaning_vi": "upaya (phương tiện thiện xảo, phương pháp giảng dạy)",
+        "confidence": "high",
+        "search_keywords": [
+          "upaya (phương tiện thiện xảo, phương pháp giảng dạy)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "upaya (phương tiện thiện xảo, phương pháp giảng dạy)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48499,
+    "word": "方法",
+    "kana": "ほうほう",
+    "senses": [
+      {
+        "sense_id": 280767,
+        "meaning_vi": "phương pháp; đường; thái độ; quá trình; thủ tục; có nghĩa; đo lường",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp",
+          "đường",
+          "thái độ",
+          "quá trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp; đường; thái độ; quá trình; thủ tục; có nghĩa; đo lường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48500,
+    "word": "方面",
+    "kana": "ほうめん",
+    "senses": [
+      {
+        "sense_id": 280768,
+        "meaning_vi": "phương hướng; huyện; khu vực",
+        "confidence": "high",
+        "search_keywords": [
+          "phương hướng",
+          "huyện",
+          "khu vực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương hướng; huyện; khu vực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280769,
+        "meaning_vi": "lĩnh vực (ví dụ: nghiên cứu); hình cầu; một phần tư; diện mạo; góc",
+        "confidence": "high",
+        "search_keywords": [
+          "lĩnh vực (ví dụ: nghiên cứu)",
+          "hình cầu",
+          "một phần tư",
+          "diện mạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lĩnh vực (ví dụ: nghiên cứu); hình cầu; một phần tư; diện mạo; góc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48501,
+    "word": "方面隊",
+    "kana": "ほうめんたい",
+    "senses": [
+      {
+        "sense_id": 280770,
+        "meaning_vi": "quân đội",
+        "confidence": "high",
+        "search_keywords": [
+          "quân đội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quân đội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48502,
+    "word": "朋党",
+    "kana": "ほうとう",
+    "senses": [
+      {
+        "sense_id": 280771,
+        "meaning_vi": "phe phái; bè phái",
+        "confidence": "high",
+        "search_keywords": [
+          "phe phái",
+          "bè phái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phe phái; bè phái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48503,
+    "word": "朋輩",
+    "kana": "ほうばい",
+    "senses": [
+      {
+        "sense_id": 280772,
+        "meaning_vi": "đồng chí; bạn bè; kết hợp; đồng nghiệp; bạn học; bạn học việc",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng chí",
+          "bạn bè",
+          "kết hợp",
+          "đồng nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng chí; bạn bè; kết hợp; đồng nghiệp; bạn học; bạn học việc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48504,
+    "word": "朋友",
+    "kana": "ほうゆう",
+    "senses": [
+      {
+        "sense_id": 280773,
+        "meaning_vi": "bạn bè; bạn đồng hành",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn bè",
+          "bạn đồng hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn bè; bạn đồng hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48505,
+    "word": "法",
+    "kana": "ほう",
+    "senses": [
+      {
+        "sense_id": 280774,
+        "meaning_vi": "pháp luật; hành động; nguyên tắc",
+        "confidence": "high",
+        "search_keywords": [
+          "pháp luật",
+          "hành động",
+          "nguyên tắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "pháp luật; hành động; nguyên tắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280775,
+        "meaning_vi": "phương pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280776,
+        "meaning_vi": "tâm trạng",
+        "confidence": "high",
+        "search_keywords": [
+          "tâm trạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tâm trạng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280777,
+        "meaning_vi": "pháp; pháp luật",
+        "confidence": "high",
+        "search_keywords": [
+          "pháp",
+          "pháp luật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "pháp; pháp luật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48506,
+    "word": "法案",
+    "kana": "ほうあん",
+    "senses": [
+      {
+        "sense_id": 280778,
+        "meaning_vi": "dự luật (luật); đo lường",
+        "confidence": "high",
+        "search_keywords": [
+          "dự luật (luật)",
+          "đo lường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dự luật (luật); đo lường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48507,
+    "word": "法案審議",
+    "kana": "ほうあんしんぎ",
+    "senses": [
+      {
+        "sense_id": 280779,
+        "meaning_vi": "cuộc thảo luận; tranh luận (về một điều luật)",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc thảo luận",
+          "tranh luận (về một điều luật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc thảo luận; tranh luận (về một điều luật)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48508,
+    "word": "法衣",
+    "kana": "ほうい",
+    "senses": [
+      {
+        "sense_id": 280780,
+        "meaning_vi": "lễ phục; áo choàng của linh mục",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ phục",
+          "áo choàng của linh mục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ phục; áo choàng của linh mục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48509,
+    "word": "法悦",
+    "kana": "ほうえつ",
+    "senses": [
+      {
+        "sense_id": 280781,
+        "meaning_vi": "thuốc lắc tôn giáo; niềm hân hoan tôn giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc lắc tôn giáo",
+          "niềm hân hoan tôn giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc lắc tôn giáo; niềm hân hoan tôn giáo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280782,
+        "meaning_vi": "thuốc lắc; sự sung sướng",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc lắc",
+          "sự sung sướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc lắc; sự sung sướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48510,
+    "word": "法王",
+    "kana": "ほうおう",
+    "senses": [
+      {
+        "sense_id": 280783,
+        "meaning_vi": "giáo hoàng",
+        "confidence": "high",
+        "search_keywords": [
+          "giáo hoàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giáo hoàng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280784,
+        "meaning_vi": "Phật",
+        "confidence": "high",
+        "search_keywords": [
+          "Phật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48511,
+    "word": "法王庁",
+    "kana": "ほうおうちょう",
+    "senses": [
+      {
+        "sense_id": 280785,
+        "meaning_vi": "Giáo triều",
+        "confidence": "high",
+        "search_keywords": [
+          "Giáo triều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giáo triều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48512,
+    "word": "法外",
+    "kana": "ほうがい",
+    "senses": [
+      {
+        "sense_id": 280786,
+        "meaning_vi": "cắt cổ; thái quá; lố bịch; vô lý; quá mức; quá mức; xa hoa; quá đáng",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt cổ",
+          "thái quá",
+          "lố bịch",
+          "vô lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt cổ; thái quá; lố bịch; vô lý; quá mức; quá mức; xa hoa; quá đáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

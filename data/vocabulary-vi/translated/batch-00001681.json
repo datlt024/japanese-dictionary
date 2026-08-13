@@ -1,0 +1,580 @@
+[
+  {
+    "vocabulary_id": 43534,
+    "word": "入れ違い",
+    "kana": "いれちがい",
+    "senses": [
+      {
+        "sense_id": 274234,
+        "meaning_vi": "đi ngang qua nhau (không gặp nhau); đi vào một nơi nào đó ngay sau khi ai đó vừa rời đi; bước vào đúng lúc có ai đó vừa đi ra ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "đi ngang qua nhau (không gặp nhau)",
+          "đi vào một nơi nào đó ngay sau khi ai đó vừa rời đi",
+          "bước vào đúng lúc có ai đó vừa đi ra ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi ngang qua nhau (không gặp nhau); đi vào một nơi nào đó ngay sau khi ai đó vừa rời đi; bước vào đúng lúc có ai đó vừa đi ra ngoài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274235,
+        "meaning_vi": "chèn sai thứ tự",
+        "confidence": "high",
+        "search_keywords": [
+          "chèn sai thứ tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chèn sai thứ tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43535,
+    "word": "入れ違える",
+    "kana": "いれちがえる",
+    "senses": [
+      {
+        "sense_id": 274236,
+        "meaning_vi": "đặt nhầm chỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt nhầm chỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt nhầm chỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43536,
+    "word": "入れ合わせる",
+    "kana": "いれあわせる",
+    "senses": [
+      {
+        "sense_id": 274237,
+        "meaning_vi": "để bù đắp cho",
+        "confidence": "high",
+        "search_keywords": [
+          "để bù đắp cho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bù đắp cho",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43537,
+    "word": "入れ込む",
+    "kana": "いれこむ",
+    "senses": [
+      {
+        "sense_id": 274238,
+        "meaning_vi": "đẩy vào; để nhét vào; để gói vào",
+        "confidence": "high",
+        "search_keywords": [
+          "đẩy vào",
+          "để nhét vào",
+          "để gói vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẩy vào; để nhét vào; để gói vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274239,
+        "meaning_vi": "nhiệt tình (về); điên (về); bị ám ảnh (với)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt tình (về)",
+          "điên (về)",
+          "bị ám ảnh (với)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt tình (về); điên (về); bị ám ảnh (với)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274240,
+        "meaning_vi": "để có được hứng thú; bị khuấy động",
+        "confidence": "high",
+        "search_keywords": [
+          "để có được hứng thú",
+          "bị khuấy động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để có được hứng thú; bị khuấy động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43538,
+    "word": "入れ子",
+    "kana": "いれこ",
+    "senses": [
+      {
+        "sense_id": 274241,
+        "meaning_vi": "tổ (của hộp); làm tổ",
+        "confidence": "high",
+        "search_keywords": [
+          "tổ (của hộp)",
+          "làm tổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổ (của hộp); làm tổ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274242,
+        "meaning_vi": "thông tin bị che giấu",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin bị che giấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin bị che giấu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274243,
+        "meaning_vi": "cấu trúc lồng nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc lồng nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc lồng nhau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274244,
+        "meaning_vi": "nhận nuôi một đứa trẻ sau khi đứa con của mình qua đời; đứa trẻ được nhận nuôi bởi cha mẹ của một đứa trẻ đã chết",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận nuôi một đứa trẻ sau khi đứa con của mình qua đời",
+          "đứa trẻ được nhận nuôi bởi cha mẹ của một đứa trẻ đã chết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận nuôi một đứa trẻ sau khi đứa con của mình qua đời; đứa trẻ được nhận nuôi bởi cha mẹ của một đứa trẻ đã chết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274245,
+        "meaning_vi": "khoang trong mái chèo (được lắp vào chốt như một phần của khóa mái chèo truyền thống)",
+        "confidence": "high",
+        "search_keywords": [
+          "khoang trong mái chèo (được lắp vào chốt như một phần của khóa mái chèo truyền thống)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoang trong mái chèo (được lắp vào chốt như một phần của khóa mái chèo truyền thống)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43539,
+    "word": "入れ知恵",
+    "kana": "いれぢえ",
+    "senses": [
+      {
+        "sense_id": 274246,
+        "meaning_vi": "đưa một ý tưởng vào đầu ai đó; gợi ý; gợi ý",
+        "confidence": "high",
+        "search_keywords": [
+          "đưa một ý tưởng vào đầu ai đó",
+          "gợi ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đưa một ý tưởng vào đầu ai đó; gợi ý; gợi ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43540,
+    "word": "入れ毛",
+    "kana": "いれげ",
+    "senses": [
+      {
+        "sense_id": 274247,
+        "meaning_vi": "tóc giả; chuyển đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "tóc giả",
+          "chuyển đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tóc giả; chuyển đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43541,
+    "word": "入れ木",
+    "kana": "いれき",
+    "senses": [
+      {
+        "sense_id": 274248,
+        "meaning_vi": "khảm gỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "khảm gỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khảm gỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43542,
+    "word": "入れ目",
+    "kana": "いれめ",
+    "senses": [
+      {
+        "sense_id": 274249,
+        "meaning_vi": "mắt nhân tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "mắt nhân tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mắt nhân tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43543,
+    "word": "入れ揚げる",
+    "kana": "いれあげる",
+    "senses": [
+      {
+        "sense_id": 274250,
+        "meaning_vi": "để tiêu tiền vào",
+        "confidence": "high",
+        "search_keywords": [
+          "để tiêu tiền vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tiêu tiền vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43544,
+    "word": "入院",
+    "kana": "にゅういん",
+    "senses": [
+      {
+        "sense_id": 274251,
+        "meaning_vi": "nhập viện; nhập viện",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập viện; nhập viện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43545,
+    "word": "入院患者",
+    "kana": "にゅういんかんじゃ",
+    "senses": [
+      {
+        "sense_id": 274252,
+        "meaning_vi": "bệnh nhân nội trú",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh nhân nội trú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh nhân nội trú",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43546,
+    "word": "入営",
+    "kana": "にゅうえい",
+    "senses": [
+      {
+        "sense_id": 274253,
+        "meaning_vi": "vào doanh trại; nhập ngũ",
+        "confidence": "high",
+        "search_keywords": [
+          "vào doanh trại",
+          "nhập ngũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vào doanh trại; nhập ngũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43547,
+    "word": "入園",
+    "kana": "にゅうえん",
+    "senses": [
+      {
+        "sense_id": 274254,
+        "meaning_vi": "tuyển sinh mẫu giáo; tuyển sinh vào trường mầm non",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyển sinh mẫu giáo",
+          "tuyển sinh vào trường mầm non"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyển sinh mẫu giáo; tuyển sinh vào trường mầm non",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274255,
+        "meaning_vi": "vào công viên, vườn, sở thú, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "vào công viên, vườn, sở thú, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vào công viên, vườn, sở thú, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43548,
+    "word": "入苑券",
+    "kana": "にゅうえんけん",
+    "senses": [
+      {
+        "sense_id": 274256,
+        "meaning_vi": "vé vào vườn",
+        "confidence": "high",
+        "search_keywords": [
+          "vé vào vườn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vé vào vườn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43549,
+    "word": "入荷",
+    "kana": "にゅうか",
+    "senses": [
+      {
+        "sense_id": 274257,
+        "meaning_vi": "hàng hóa đến; hàng hóa nhận được",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng hóa đến",
+          "hàng hóa nhận được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng hóa đến; hàng hóa nhận được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43550,
+    "word": "入会",
+    "kana": "にゅうかい",
+    "senses": [
+      {
+        "sense_id": 274258,
+        "meaning_vi": "sự gia nhập (vào một hội, câu lạc bộ, v.v.); tham gia; cổng vào; tuyển sinh; ghi danh; trở thành thành viên",
+        "confidence": "high",
+        "search_keywords": [
+          "sự gia nhập (vào một hội, câu lạc bộ, v.v.)",
+          "tham gia",
+          "cổng vào",
+          "tuyển sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự gia nhập (vào một hội, câu lạc bộ, v.v.); tham gia; cổng vào; tuyển sinh; ghi danh; trở thành thành viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43551,
+    "word": "入会金",
+    "kana": "にゅうかいきん",
+    "senses": [
+      {
+        "sense_id": 274259,
+        "meaning_vi": "phí khởi đầu; phí nhập học",
+        "confidence": "high",
+        "search_keywords": [
+          "phí khởi đầu",
+          "phí nhập học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phí khởi đầu; phí nhập học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43552,
+    "word": "入会権",
+    "kana": "いりあいけん",
+    "senses": [
+      {
+        "sense_id": 274260,
+        "meaning_vi": "quyền chung",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43553,
+    "word": "入会式",
+    "kana": "にゅうかいしき",
+    "senses": [
+      {
+        "sense_id": 274261,
+        "meaning_vi": "lễ nhập môn",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ nhập môn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ nhập môn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

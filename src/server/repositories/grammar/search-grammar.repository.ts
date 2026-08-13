@@ -1,11 +1,10 @@
 import { supabaseServer } from "@/server/supabase/server"
+import { escapeLikePattern } from "@/shared/utils/string"
 
 const SEARCH_GRAMMAR_LIMIT = 20
 
 const SEARCH_GRAMMAR_COLUMNS = `
     id,
-    source_id,
-    slug,
     pattern,
     display_pattern,
     reading,
@@ -13,24 +12,35 @@ const SEARCH_GRAMMAR_COLUMNS = `
     meaning_vi,
     meaning_en,
     short_meaning_vi,
-    explanation_vi,
-    nuance_vi,
-    frequency,
-    is_common,
-    sort_order
+    explanation_vi
 `
 
-function escapeLikePattern(value: string) {
-    return value.replace(/[%_]/g, "\\$&")
+const JLPT_LEVEL_RE = /^N[1-5]$/i
+
+export function getGrammarsByJlptLevel(level: string, from: number, to: number) {
+    return supabaseServer
+        .from("grammars")
+        .select(SEARCH_GRAMMAR_COLUMNS, { count: "exact" })
+        .eq("jlpt_level", level.toUpperCase())
+        .order("sort_order", { ascending: true })
+        .range(from, to)
 }
 
 export async function searchGrammarsByKeyword(keyword: string) {
-    const value = escapeLikePattern(keyword.trim())
+    const trimmed = keyword.trim()
+    if (!trimmed) return { data: [], error: null }
 
-    if (!value) {
-        return { data: [], error: null }
+    // When keyword is a JLPT level code (N1–N5), filter by level instead of text search
+    if (JLPT_LEVEL_RE.test(trimmed)) {
+        return supabaseServer
+            .from("grammars")
+            .select(SEARCH_GRAMMAR_COLUMNS)
+            .eq("jlpt_level", trimmed.toUpperCase())
+            .order("sort_order", { ascending: true })
+            .limit(100)
     }
 
+    const value = escapeLikePattern(trimmed)
     return supabaseServer
         .from("grammars")
         .select(SEARCH_GRAMMAR_COLUMNS)

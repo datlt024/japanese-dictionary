@@ -1,0 +1,539 @@
+[
+  {
+    "vocabulary_id": 209026,
+    "word": "道路使用許可証",
+    "kana": "どうろしようきょかしょう",
+    "senses": [
+      {
+        "sense_id": 459955,
+        "meaning_vi": "giấy phép sử dụng đường công cộng không để giao thông (ví dụ: xây dựng, quay phim hoặc lễ hội)",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy phép sử dụng đường công cộng không để giao thông (ví dụ: xây dựng, quay phim hoặc lễ hội)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy phép sử dụng đường công cộng không để giao thông (ví dụ: xây dựng, quay phim hoặc lễ hội)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209027,
+    "word": "お出でなすった",
+    "kana": "おいでなすった",
+    "senses": [
+      {
+        "sense_id": 459956,
+        "meaning_vi": "đã đến; đi; đã (ở đâu đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "đã đến",
+          "đi",
+          "đã (ở đâu đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đã đến; đi; đã (ở đâu đó)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 459957,
+        "meaning_vi": "nó đến rồi!; nó đây rồi!; như mong đợi!; vào nó một lần nữa!",
+        "confidence": "high",
+        "search_keywords": [
+          "nó đến rồi!",
+          "nó đây rồi!",
+          "như mong đợi!",
+          "vào nó một lần nữa!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nó đến rồi!; nó đây rồi!; như mong đợi!; vào nó một lần nữa!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209028,
+    "word": "断琴の交わり",
+    "kana": "だんきんのまじわり",
+    "senses": [
+      {
+        "sense_id": 459958,
+        "meaning_vi": "tình bạn rất thân thiết; mối quan hệ sâu sắc và thân mật",
+        "confidence": "high",
+        "search_keywords": [
+          "tình bạn rất thân thiết",
+          "mối quan hệ sâu sắc và thân mật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình bạn rất thân thiết; mối quan hệ sâu sắc và thân mật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209029,
+    "word": "あぶら取り",
+    "kana": "あぶらとり",
+    "senses": [
+      {
+        "sense_id": 459959,
+        "meaning_vi": "loại bỏ dầu (mặt); tẩy trang (trang điểm)",
+        "confidence": "high",
+        "search_keywords": [
+          "loại bỏ dầu (mặt)",
+          "tẩy trang (trang điểm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại bỏ dầu (mặt); tẩy trang (trang điểm)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 459960,
+        "meaning_vi": "giấy thấm dầu (như một loại mỹ phẩm hỗ trợ loại bỏ dầu và lớp trang điểm); giấy thấm",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy thấm dầu (như một loại mỹ phẩm hỗ trợ loại bỏ dầu và lớp trang điểm)",
+          "giấy thấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy thấm dầu (như một loại mỹ phẩm hỗ trợ loại bỏ dầu và lớp trang điểm); giấy thấm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209030,
+    "word": "徒情け",
+    "kana": "あだなさけ",
+    "senses": [
+      {
+        "sense_id": 459961,
+        "meaning_vi": "tình yêu thoáng qua; cảm xúc thoáng qua",
+        "confidence": "high",
+        "search_keywords": [
+          "tình yêu thoáng qua",
+          "cảm xúc thoáng qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình yêu thoáng qua; cảm xúc thoáng qua",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 459962,
+        "meaning_vi": "(a) gợi ý về lòng tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "(a) gợi ý về lòng tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(a) gợi ý về lòng tốt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 459963,
+        "meaning_vi": "lãng phí lòng trắc ẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "lãng phí lòng trắc ẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lãng phí lòng trắc ẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209031,
+    "word": "上げ窓",
+    "kana": "あげまど",
+    "senses": [
+      {
+        "sense_id": 459964,
+        "meaning_vi": "cửa sổ sash; cửa sổ đẩy lên",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa sổ sash",
+          "cửa sổ đẩy lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa sổ sash; cửa sổ đẩy lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209032,
+    "word": "断琴",
+    "kana": "だんきん",
+    "senses": [
+      {
+        "sense_id": 459965,
+        "meaning_vi": "cắt dây đàn koto",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt dây đàn koto"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt dây đàn koto",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209033,
+    "word": "焼肉奉行",
+    "kana": "やきにくぶぎょう",
+    "senses": [
+      {
+        "sense_id": 459966,
+        "meaning_vi": "người loay hoay tìm cách nướng và ăn thịt trong bữa ăn yakiniku; thẩm phán yakiniku",
+        "confidence": "high",
+        "search_keywords": [
+          "người loay hoay tìm cách nướng và ăn thịt trong bữa ăn yakiniku",
+          "thẩm phán yakiniku"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người loay hoay tìm cách nướng và ăn thịt trong bữa ăn yakiniku; thẩm phán yakiniku",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209034,
+    "word": "鉄板奉行",
+    "kana": "てっぱんぶぎょう",
+    "senses": [
+      {
+        "sense_id": 459967,
+        "meaning_vi": "người phụ trách nấu nướng trong bữa ăn teppanyaki tập thể; thẩm phán vỉ nướng",
+        "confidence": "high",
+        "search_keywords": [
+          "người phụ trách nấu nướng trong bữa ăn teppanyaki tập thể",
+          "thẩm phán vỉ nướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người phụ trách nấu nướng trong bữa ăn teppanyaki tập thể; thẩm phán vỉ nướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209035,
+    "word": "ご武運を",
+    "kana": "ごぶうんを",
+    "senses": [
+      {
+        "sense_id": 459968,
+        "meaning_vi": "chúc may mắn (trong trận chiến); may mắn có thể ở bên bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "chúc may mắn (trong trận chiến)",
+          "may mắn có thể ở bên bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chúc may mắn (trong trận chiến); may mắn có thể ở bên bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209036,
+    "word": "レペゼン",
+    "kana": "レペゼン",
+    "senses": [
+      {
+        "sense_id": 459969,
+        "meaning_vi": "đại diện (quê hương, vùng miền, v.v.; trong văn hóa hip-hop); lặp lại",
+        "confidence": "high",
+        "search_keywords": [
+          "đại diện (quê hương, vùng miền, v.v.",
+          "trong văn hóa hip-hop)",
+          "lặp lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại diện (quê hương, vùng miền, v.v.; trong văn hóa hip-hop); lặp lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209037,
+    "word": "呉下の阿蒙に非ず",
+    "kana": "ごかのあもうにあらず",
+    "senses": [
+      {
+        "sense_id": 459970,
+        "meaning_vi": "không còn là người cũ nữa; đã đạt được tiến bộ đáng chú ý; đã được cải thiện đáng kể (thông qua học tập)",
+        "confidence": "high",
+        "search_keywords": [
+          "không còn là người cũ nữa",
+          "đã đạt được tiến bộ đáng chú ý",
+          "đã được cải thiện đáng kể (thông qua học tập)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không còn là người cũ nữa; đã đạt được tiến bộ đáng chú ý; đã được cải thiện đáng kể (thông qua học tập)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209038,
+    "word": "呉下の阿蒙",
+    "kana": "ごかのあもう",
+    "senses": [
+      {
+        "sense_id": 459971,
+        "meaning_vi": "người không tiến bộ; một người vẫn ngu dốt như trước",
+        "confidence": "high",
+        "search_keywords": [
+          "người không tiến bộ",
+          "một người vẫn ngu dốt như trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người không tiến bộ; một người vẫn ngu dốt như trước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209039,
+    "word": "川揚げ",
+    "kana": "かわあげ",
+    "senses": [
+      {
+        "sense_id": 459972,
+        "meaning_vi": "dỡ hàng từ tàu lên đất liền",
+        "confidence": "high",
+        "search_keywords": [
+          "dỡ hàng từ tàu lên đất liền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dỡ hàng từ tàu lên đất liền",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 459973,
+        "meaning_vi": "bơm nước từ sông vào đất liền",
+        "confidence": "high",
+        "search_keywords": [
+          "bơm nước từ sông vào đất liền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bơm nước từ sông vào đất liền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209040,
+    "word": "飛箭",
+    "kana": "ひせん",
+    "senses": [
+      {
+        "sense_id": 459974,
+        "meaning_vi": "mũi tên bay; mũi tên đến",
+        "confidence": "high",
+        "search_keywords": [
+          "mũi tên bay",
+          "mũi tên đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mũi tên bay; mũi tên đến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209041,
+    "word": "網代駕籠",
+    "kana": "あじろかご",
+    "senses": [
+      {
+        "sense_id": 459975,
+        "meaning_vi": "kiệu làm bằng liễu gai",
+        "confidence": "high",
+        "search_keywords": [
+          "kiệu làm bằng liễu gai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiệu làm bằng liễu gai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209042,
+    "word": "網代車",
+    "kana": "あじろぐるま",
+    "senses": [
+      {
+        "sense_id": 459976,
+        "meaning_vi": "kiệu đan bằng liễu gai; xe bò đan liễu gai",
+        "confidence": "high",
+        "search_keywords": [
+          "kiệu đan bằng liễu gai",
+          "xe bò đan liễu gai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiệu đan bằng liễu gai; xe bò đan liễu gai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209043,
+    "word": "抑々揚格",
+    "kana": "よくよくようかく",
+    "senses": [
+      {
+        "sense_id": 459977,
+        "meaning_vi": "nhanh nhất; anapa nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "nhanh nhất",
+          "anapa nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhanh nhất; anapa nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209044,
+    "word": "アナパイストス",
+    "kana": "アナパイストス",
+    "senses": [
+      {
+        "sense_id": 459978,
+        "meaning_vi": "anapa nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "anapa nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anapa nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 209045,
+    "word": "イアンボス",
+    "kana": "イアンボス",
+    "senses": [
+      {
+        "sense_id": 459979,
+        "meaning_vi": "iamb; iambus",
+        "confidence": "low",
+        "search_keywords": [
+          "iamb",
+          "iambus"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "iamb; iambus",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

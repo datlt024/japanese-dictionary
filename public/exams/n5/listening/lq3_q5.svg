@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" width="560" height="380">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#cc2222"/>
+    </marker>
+  </defs>
+  <!-- Sky -->
+  <rect width="560" height="380" fill="#e8f4fb"/>
+  <!-- Ground/sidewalk -->
+  <rect x="0" y="290" width="560" height="90" fill="#d4d0c8"/>
+  <!-- Road -->
+  <rect x="0" y="290" width="560" height="30" fill="#bbb8b0"/>
+  <line x1="0" y1="305" x2="560" y2="305" stroke="#fff" stroke-width="2" stroke-dasharray="20,15"/>
+
+  <!-- Train station building (right side) -->
+  <rect x="340" y="90" width="200" height="200" fill="#f0ece4" stroke="#998877" stroke-width="2"/>
+  <!-- Station roof -->
+  <rect x="330" y="72" width="220" height="24" rx="2" fill="#665544" stroke="#443322" stroke-width="1.5"/>
+  <!-- Station sign -->
+  <rect x="360" y="78" width="160" height="30" fill="#3355aa" rx="3"/>
+  <text x="440" y="99" text-anchor="middle" font-family="sans-serif" font-size="16" fill="white" font-weight="bold">えき</text>
+  <!-- Windows -->
+  <rect x="360" y="120" width="60" height="50" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <rect x="440" y="120" width="60" height="50" fill="#aaccee" stroke="#668" stroke-width="1.5"/>
+  <!-- Entrance gate -->
+  <rect x="390" y="205" width="100" height="85" fill="#ddd" stroke="#998877" stroke-width="1.5"/>
+  <rect x="400" y="215" width="38" height="75" fill="#8899cc" stroke="#556699" stroke-width="1.5"/>
+  <rect x="452" y="215" width="28" height="75" fill="#8899cc" stroke="#556699" stroke-width="1.5"/>
+  <!-- Ticket gate beam -->
+  <line x1="400" y1="260" x2="480" y2="260" stroke="#cc2233" stroke-width="2"/>
+  <!-- Clock on building -->
+  <circle cx="440" cy="175" r="18" fill="white" stroke="#666" stroke-width="1.5"/>
+  <line x1="440" y1="160" x2="440" y2="174" stroke="#333" stroke-width="2"/>
+  <line x1="440" y1="175" x2="450" y2="175" stroke="#333" stroke-width="2"/>
+
+  <!-- Person with map (tourist asking directions) - left center -->
+  <circle cx="160" cy="195" r="21" fill="#ffddbb" stroke="#666" stroke-width="1.5"/>
+  <rect x="145" y="216" width="30" height="55" rx="4" fill="#dd8844" stroke="#aa6622" stroke-width="1.5"/>
+  <!-- Map held open in front -->
+  <rect x="105" y="220" width="50" height="38" rx="3" fill="#fff8e8" stroke="#aa9966" stroke-width="2"/>
+  <line x1="130" y1="220" x2="130" y2="258" stroke="#aa9966" stroke-width="1"/>
+  <!-- Map markings -->
+  <line x1="112" y1="232" x2="122" y2="232" stroke="#cc4444" stroke-width="1.5"/>
+  <circle cx="118" cy="240" r="3" fill="#3366cc"/>
+  <line x1="135" y1="228" x2="148" y2="234" stroke="#888" stroke-width="1"/>
+  <line x1="135" y1="245" x2="148" y2="240" stroke="#888" stroke-width="1"/>
+  <!-- arm holding map -->
+  <line x1="145" y1="228" x2="120" y2="238" stroke="#dd8844" stroke-width="7" stroke-linecap="round"/>
+  <line x1="175" y1="228" x2="196" y2="240" stroke="#dd8844" stroke-width="7" stroke-linecap="round"/>
+  <!-- legs -->
+  <line x1="152" y1="271" x2="148" y2="308" stroke="#aa6622" stroke-width="7" stroke-linecap="round"/>
+  <line x1="166" y1="271" x2="170" y2="308" stroke="#aa6622" stroke-width="7" stroke-linecap="round"/>
+  <!-- Backpack -->
+  <rect x="128" y="218" width="17" height="30" rx="4" fill="#6688cc" stroke="#446699" stroke-width="1.5"/>
+
+  <!-- Local person (right, being asked) -->
+  <circle cx="296" cy="200" r="20" fill="#ffddbb" stroke="#666" stroke-width="1.5"/>
+  <rect x="281" y="220" width="30" height="55" rx="4" fill="#889966" stroke="#667744" stroke-width="1.5"/>
+  <line x1="281" y1="228" x2="260" y2="248" stroke="#889966" stroke-width="7" stroke-linecap="round"/>
+  <line x1="311" y1="228" x2="330" y2="248" stroke="#889966" stroke-width="7" stroke-linecap="round"/>
+  <line x1="288" y1="275" x2="284" y2="312" stroke="#667744" stroke-width="7" stroke-linecap="round"/>
+  <line x1="300" y1="275" x2="304" y2="312" stroke="#667744" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Arrow pointing to tourist with map -->
+  <line x1="76" y1="195" x2="132" y2="195" stroke="#cc2222" stroke-width="3" marker-end="url(#arr)"/>
+
+  <!-- Caption -->
+  <text x="280" y="362" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555">駅の前で、道を聞きたいです。何と言いますか。</text>
+</svg>

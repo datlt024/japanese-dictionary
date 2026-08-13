@@ -1,0 +1,690 @@
+[
+  {
+    "vocabulary_id": 79790,
+    "word": "氏より育ち",
+    "kana": "うじよりそだち",
+    "senses": [
+      {
+        "sense_id": 319190,
+        "meaning_vi": "nuôi dưỡng thiên nhiên; việc một người được nuôi dưỡng như thế nào quan trọng hơn nguồn gốc của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "nuôi dưỡng thiên nhiên",
+          "việc một người được nuôi dưỡng như thế nào quan trọng hơn nguồn gốc của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nuôi dưỡng thiên nhiên; việc một người được nuôi dưỡng như thế nào quan trọng hơn nguồn gốc của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79791,
+    "word": "ウマが合う",
+    "kana": "うまがあう",
+    "senses": [
+      {
+        "sense_id": 319191,
+        "meaning_vi": "hòa thuận (với ai đó); để có thể sánh đôi với con ngựa của mình",
+        "confidence": "high",
+        "search_keywords": [
+          "hòa thuận (với ai đó)",
+          "để có thể sánh đôi với con ngựa của mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hòa thuận (với ai đó); để có thể sánh đôi với con ngựa của mình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79792,
+    "word": "生み",
+    "kana": "うみ",
+    "senses": [
+      {
+        "sense_id": 319192,
+        "meaning_vi": "sinh; sinh con",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh",
+          "sinh con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh; sinh con",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319193,
+        "meaning_vi": "tạo ra; đưa vào thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "tạo ra",
+          "đưa vào thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tạo ra; đưa vào thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79793,
+    "word": "運が向く",
+    "kana": "うんがむく",
+    "senses": [
+      {
+        "sense_id": 319194,
+        "meaning_vi": "được gặp may mắn; để có được may mắn",
+        "confidence": "high",
+        "search_keywords": [
+          "được gặp may mắn",
+          "để có được may mắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được gặp may mắn; để có được may mắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79794,
+    "word": "浦里",
+    "kana": "うらざと",
+    "senses": [
+      {
+        "sense_id": 319195,
+        "meaning_vi": "ngôi làng bên bờ biển",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôi làng bên bờ biển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôi làng bên bờ biển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79795,
+    "word": "売り",
+    "kana": "うり",
+    "senses": [
+      {
+        "sense_id": 319196,
+        "meaning_vi": "doanh thu; bán",
+        "confidence": "high",
+        "search_keywords": [
+          "doanh thu",
+          "bán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "doanh thu; bán",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319197,
+        "meaning_vi": "điểm bán hàng; mánh lới quảng cáo",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm bán hàng",
+          "mánh lới quảng cáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm bán hàng; mánh lới quảng cáo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319198,
+        "meaning_vi": "người bán; nhà cung cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "người bán",
+          "nhà cung cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người bán; nhà cung cấp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319199,
+        "meaning_vi": "mại dâm",
+        "confidence": "high",
+        "search_keywords": [
+          "mại dâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mại dâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79796,
+    "word": "憂さ",
+    "kana": "うさ",
+    "senses": [
+      {
+        "sense_id": 319200,
+        "meaning_vi": "u ám; nỗi buồn; u sầu; chán nản; quan tâm; lo lắng",
+        "confidence": "high",
+        "search_keywords": [
+          "u ám",
+          "nỗi buồn",
+          "u sầu",
+          "chán nản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "u ám; nỗi buồn; u sầu; chán nản; quan tâm; lo lắng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79797,
+    "word": "うたい文句",
+    "kana": "うたいもんく",
+    "senses": [
+      {
+        "sense_id": 319201,
+        "meaning_vi": "câu cửa miệng; dòng khuyến mại; khẩu hiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "câu cửa miệng",
+          "dòng khuyến mại",
+          "khẩu hiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu cửa miệng; dòng khuyến mại; khẩu hiệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79798,
+    "word": "写り",
+    "kana": "うつり",
+    "senses": [
+      {
+        "sense_id": 319202,
+        "meaning_vi": "phép chiếu; sự phản xạ; hình ảnh; tiếp nhận (ví dụ: TV); chất lượng hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "phép chiếu",
+          "sự phản xạ",
+          "hình ảnh",
+          "tiếp nhận (ví dụ: TV)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phép chiếu; sự phản xạ; hình ảnh; tiếp nhận (ví dụ: TV); chất lượng hình ảnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319203,
+        "meaning_vi": "cuộc thi đấu; sự hòa hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc thi đấu",
+          "sự hòa hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc thi đấu; sự hòa hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79799,
+    "word": "移り",
+    "kana": "うつり",
+    "senses": [
+      {
+        "sense_id": 319204,
+        "meaning_vi": "chuyển giao; chuyển tiếp; thay đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển giao",
+          "chuyển tiếp",
+          "thay đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển giao; chuyển tiếp; thay đổi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319205,
+        "meaning_vi": "món quà được đặt bên trong hộp đựng khi trả lại",
+        "confidence": "high",
+        "search_keywords": [
+          "món quà được đặt bên trong hộp đựng khi trả lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "món quà được đặt bên trong hộp đựng khi trả lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79800,
+    "word": "和独辞典",
+    "kana": "わどくじてん",
+    "senses": [
+      {
+        "sense_id": 319206,
+        "meaning_vi": "Từ điển Nhật-Đức",
+        "confidence": "high",
+        "search_keywords": [
+          "Từ điển Nhật-Đức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Từ điển Nhật-Đức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79801,
+    "word": "罠にかかる",
+    "kana": "わなにかかる",
+    "senses": [
+      {
+        "sense_id": 319207,
+        "meaning_vi": "bị mắc vào một cái bẫy (bẫy, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "bị mắc vào một cái bẫy (bẫy, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị mắc vào một cái bẫy (bẫy, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319208,
+        "meaning_vi": "mắc phải (một trò lừa, một cuộc phục kích, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "mắc phải (một trò lừa, một cuộc phục kích, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mắc phải (một trò lừa, một cuộc phục kích, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79802,
+    "word": "私ども",
+    "kana": "わたくしども",
+    "senses": [
+      {
+        "sense_id": 319209,
+        "meaning_vi": "chúng tôi; chúng tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "chúng tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chúng tôi; chúng tôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319210,
+        "meaning_vi": "TÔI; Tôi; cửa hàng của tôi (doanh nghiệp, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "TÔI",
+          "Tôi",
+          "cửa hàng của tôi (doanh nghiệp, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "TÔI; Tôi; cửa hàng của tôi (doanh nghiệp, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79803,
+    "word": "私する",
+    "kana": "わたくしする",
+    "senses": [
+      {
+        "sense_id": 319211,
+        "meaning_vi": "sử dụng (tài sản công) vào mục đích cá nhân; sử dụng (ví dụ: chính trị) cho mục đích riêng của mình; chiếm dụng (tiền công); cho phù hợp; tham ô",
+        "confidence": "high",
+        "search_keywords": [
+          "sử dụng (tài sản công) vào mục đích cá nhân",
+          "sử dụng (ví dụ: chính trị) cho mục đích riêng của mình",
+          "chiếm dụng (tiền công)",
+          "cho phù hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sử dụng (tài sản công) vào mục đích cá nhân; sử dụng (ví dụ: chính trị) cho mục đích riêng của mình; chiếm dụng (tiền công); cho phù hợp; tham ô",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319212,
+        "meaning_vi": "hành động ích kỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "hành động ích kỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành động ích kỷ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79804,
+    "word": "渡し",
+    "kana": "わたし",
+    "senses": [
+      {
+        "sense_id": 319213,
+        "meaning_vi": "phà (qua biển); phà (thuyền)",
+        "confidence": "high",
+        "search_keywords": [
+          "phà (qua biển)",
+          "phà (thuyền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phà (qua biển); phà (thuyền)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319214,
+        "meaning_vi": "giao hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "giao hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79805,
+    "word": "業師",
+    "kana": "わざし",
+    "senses": [
+      {
+        "sense_id": 319215,
+        "meaning_vi": "đô vật khôn lanh; anh chàng khôn ngoan",
+        "confidence": "high",
+        "search_keywords": [
+          "đô vật khôn lanh",
+          "anh chàng khôn ngoan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đô vật khôn lanh; anh chàng khôn ngoan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79806,
+    "word": "災いする",
+    "kana": "わざわいする",
+    "senses": [
+      {
+        "sense_id": 319216,
+        "meaning_vi": "trở thành sự hủy hoại của một người; làm hại; gây rắc rối; có hậu quả tiêu cực; mang lại một kết quả xấu",
+        "confidence": "high",
+        "search_keywords": [
+          "trở thành sự hủy hoại của một người",
+          "làm hại",
+          "gây rắc rối",
+          "có hậu quả tiêu cực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở thành sự hủy hoại của một người; làm hại; gây rắc rối; có hậu quả tiêu cực; mang lại một kết quả xấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79807,
+    "word": "煩い",
+    "kana": "わずらい",
+    "senses": [
+      {
+        "sense_id": 319217,
+        "meaning_vi": "lo lắng; rắc rối; lo lắng",
+        "confidence": "high",
+        "search_keywords": [
+          "lo lắng",
+          "rắc rối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lo lắng; rắc rối; lo lắng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319218,
+        "meaning_vi": "sự ốm yếu; bệnh tật",
+        "confidence": "high",
+        "search_keywords": [
+          "sự ốm yếu",
+          "bệnh tật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự ốm yếu; bệnh tật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79808,
+    "word": "宿り",
+    "kana": "やどり",
+    "senses": [
+      {
+        "sense_id": 319219,
+        "meaning_vi": "chỗ ở; nơi ở; nơi trú ẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "chỗ ở",
+          "nơi ở",
+          "nơi trú ẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỗ ở; nơi ở; nơi trú ẩn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 80001,
+    "word": "幾らでも",
+    "kana": "いくらでも",
+    "senses": [
+      {
+        "sense_id": 319426,
+        "meaning_vi": "bao nhiêu tùy thích; bao nhiêu tùy thích",
+        "confidence": "high",
+        "search_keywords": [
+          "bao nhiêu tùy thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bao nhiêu tùy thích; bao nhiêu tùy thích",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319427,
+        "meaning_vi": "rất nhiều; nhiều; ở bất kỳ mức độ nào; với số lượng không giới hạn; bất kỳ số tiền nào (của); bất kỳ số (của)",
+        "confidence": "high",
+        "search_keywords": [
+          "rất nhiều",
+          "nhiều",
+          "ở bất kỳ mức độ nào",
+          "với số lượng không giới hạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất nhiều; nhiều; ở bất kỳ mức độ nào; với số lượng không giới hạn; bất kỳ số tiền nào (của); bất kỳ số (của)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319428,
+        "meaning_vi": "gần như (không có); (không) nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "gần như (không có)",
+          "(không) nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gần như (không có); (không) nhiều",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 319429,
+        "meaning_vi": "bất kể bao nhiêu; dù lớn hay nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "bất kể bao nhiêu",
+          "dù lớn hay nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất kể bao nhiêu; dù lớn hay nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

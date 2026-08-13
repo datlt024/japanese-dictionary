@@ -9,27 +9,21 @@ export function splitKanjiReadings(value: string | null) {
         .filter(Boolean)
 }
 
+// KANJIDIC2 uses old 4-level system (1=hardest, 4=easiest/N5).
+// Reverse-map DB integer → new JLPT label: 4→N5, 3→N4, 2→N3, 1→N2
+const KANJIDIC_TO_JLPT: Record<number, string> = { 4: "N5", 3: "N4", 2: "N3", 1: "N2" }
+
+export function kanjiJlptToLabel(jlpt: number | null): string | null {
+    if (jlpt == null) return null
+    return KANJIDIC_TO_JLPT[jlpt] ?? `N${jlpt}`
+}
+
 export function formatKanjiJlpt(jlpt: number | null) {
-    return jlpt ? `JLPT N${jlpt}` : "JLPT N5"
+    const label = kanjiJlptToLabel(jlpt)
+    return label ? `JLPT ${label}` : "JLPT không xác định"
 }
 
-export function speakJapanese(text: string) {
-    if (typeof window === "undefined") {
-        return
-    }
-
-    if (!("speechSynthesis" in window)) {
-        return
-    }
-
-    window.speechSynthesis.cancel()
-
-    const utterance = new SpeechSynthesisUtterance(text)
-    utterance.lang = "ja-JP"
-    utterance.rate = 0.9
-
-    window.speechSynthesis.speak(utterance)
-}
+export { speakJapanese } from "@/shared/lib/tts/speakJapanese"
 
 export function splitMeaningText(value: string | null) {
     if (!value) {

@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 123603,
+    "word": "公衆メッセージ通信処理サービス",
+    "kana": "こうしゅうメッセージつうしんしょりサービス",
+    "senses": [
+      {
+        "sense_id": 367227,
+        "meaning_vi": "dịch vụ xử lý tin nhắn công cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ xử lý tin nhắn công cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ xử lý tin nhắn công cộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123604,
+    "word": "公衆回線",
+    "kana": "こうしゅうかいせん",
+    "senses": [
+      {
+        "sense_id": 367228,
+        "meaning_vi": "dòng công cộng (trái ngược với dòng riêng tư hoặc thuê)",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng công cộng (trái ngược với dòng riêng tư hoặc thuê)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng công cộng (trái ngược với dòng riêng tư hoặc thuê)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123605,
+    "word": "公衆回線網",
+    "kana": "こうしゅうかいせんもう",
+    "senses": [
+      {
+        "sense_id": 367229,
+        "meaning_vi": "mạng công cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng công cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng công cộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123606,
+    "word": "公衆電線網",
+    "kana": "こうしゅうでんせんもう",
+    "senses": [
+      {
+        "sense_id": 367230,
+        "meaning_vi": "mạng hữu tuyến công cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng hữu tuyến công cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng hữu tuyến công cộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123607,
+    "word": "公衆電話網",
+    "kana": "こうしゅうでんわもう",
+    "senses": [
+      {
+        "sense_id": 367231,
+        "meaning_vi": "mạng điện thoại công cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng điện thoại công cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng điện thoại công cộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123608,
+    "word": "公的公開識別子",
+    "kana": "こうてきこうかいしきべつし",
+    "senses": [
+      {
+        "sense_id": 367232,
+        "meaning_vi": "định danh công cộng chính thức",
+        "confidence": "high",
+        "search_keywords": [
+          "định danh công cộng chính thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định danh công cộng chính thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123609,
+    "word": "公的公開識別子誤り",
+    "kana": "こうてきこうかいしきべつしあやまり",
+    "senses": [
+      {
+        "sense_id": 367233,
+        "meaning_vi": "lỗi định danh công khai chính thức",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi định danh công khai chính thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi định danh công khai chính thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123610,
+    "word": "孔パターン",
+    "kana": "こうパターン",
+    "senses": [
+      {
+        "sense_id": 367234,
+        "meaning_vi": "mẫu lỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "mẫu lỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẫu lỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123611,
+    "word": "広域ＬＡＮ",
+    "kana": "こういきラン",
+    "senses": [
+      {
+        "sense_id": 367235,
+        "meaning_vi": "mạng LAN diện rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng LAN diện rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng LAN diện rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123612,
+    "word": "広域イーサネット",
+    "kana": "こういきイーサネット",
+    "senses": [
+      {
+        "sense_id": 367236,
+        "meaning_vi": "ethernet diện rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "ethernet diện rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ethernet diện rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123613,
+    "word": "広域ネットワーク",
+    "kana": "こういきネットワーク",
+    "senses": [
+      {
+        "sense_id": 367237,
+        "meaning_vi": "mạng diện rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng diện rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng diện rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123614,
+    "word": "広域網",
+    "kana": "こういきもう",
+    "senses": [
+      {
+        "sense_id": 367238,
+        "meaning_vi": "mạng diện rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng diện rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng diện rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123615,
+    "word": "広帯域",
+    "kana": "こうたいいき",
+    "senses": [
+      {
+        "sense_id": 367239,
+        "meaning_vi": "băng thông rộng; băng rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "băng thông rộng",
+          "băng rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "băng thông rộng; băng rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123616,
+    "word": "広帯域ネットワーク",
+    "kana": "こうたいいきネットワーク",
+    "senses": [
+      {
+        "sense_id": 367240,
+        "meaning_vi": "mạng băng thông rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng băng thông rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng băng thông rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123617,
+    "word": "広帯域総合ディジタル通信網",
+    "kana": "こうたいいきそうごうディジタルつうしんもう",
+    "senses": [
+      {
+        "sense_id": 367241,
+        "meaning_vi": "B-ISDN; Mạng kỹ thuật số dịch vụ tích hợp băng thông rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "B-ISDN",
+          "Mạng kỹ thuật số dịch vụ tích hợp băng thông rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "B-ISDN; Mạng kỹ thuật số dịch vụ tích hợp băng thông rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123618,
+    "word": "広帯域伝送",
+    "kana": "こうたいいきでんそう",
+    "senses": [
+      {
+        "sense_id": 367242,
+        "meaning_vi": "truyền dẫn băng thông rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "truyền dẫn băng thông rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truyền dẫn băng thông rộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123619,
+    "word": "構成データ",
+    "kana": "こうせいデータ",
+    "senses": [
+      {
+        "sense_id": 367243,
+        "meaning_vi": "dữ liệu cấu hình",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu cấu hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu cấu hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123620,
+    "word": "構成管理",
+    "kana": "こうせいかんり",
+    "senses": [
+      {
+        "sense_id": 367244,
+        "meaning_vi": "quản lý cấu hình",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý cấu hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý cấu hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123621,
+    "word": "構成機器",
+    "kana": "こうせいきき",
+    "senses": [
+      {
+        "sense_id": 367245,
+        "meaning_vi": "thành phần",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123622,
+    "word": "構成制御",
+    "kana": "こうせいせいぎょ",
+    "senses": [
+      {
+        "sense_id": 367246,
+        "meaning_vi": "kiểm soát cấu hình",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát cấu hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát cấu hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

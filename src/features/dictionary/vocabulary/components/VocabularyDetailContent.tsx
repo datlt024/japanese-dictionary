@@ -18,22 +18,11 @@ import VocabularyMeaningCards from "./VocabularyMeaningCards/VocabularyMeaningCa
 import VocabularyRelatedWords from "./VocabularyRelatedWords/VocabularyRelatedWords"
 import VocabularyWordHeader from "./VocabularyWordHeader/VocabularyWordHeader"
 
-import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
-import type {
-    VocabularyKanjiDetail,
-} from "@/server/services/vocabulary/vocabulary.service"
-
-type RelatedVocabularyItem = {
-    id: number
-    word: string
-    kana: string | null
-    meaning: string | null
-}
+import type { Vocabulary, VocabularyKanjiDetail } from "@/domain/vocabulary"
 
 type VocabularyDetailContentProps = {
     vocabulary: Vocabulary
     language: "vi" | "en"
-    relatedVocabularies: RelatedVocabularyItem[]
     kanjiDetails: VocabularyKanjiDetail[]
     embedded?: boolean
 }
@@ -41,7 +30,6 @@ type VocabularyDetailContentProps = {
 export default function VocabularyDetailContent({
     vocabulary,
     language,
-    relatedVocabularies,
     kanjiDetails,
     embedded = false,
 }: VocabularyDetailContentProps) {
@@ -54,11 +42,6 @@ export default function VocabularyDetailContent({
 
     const synonyms = getRelationsByType(vocabulary.relations, "synonym")
     const antonyms = getRelationsByType(vocabulary.relations, "antonym")
-
-    const relationVocabularyList = [
-        ...getRelationVocabularyList(synonyms),
-        ...getRelationVocabularyList(antonyms),
-    ]
 
     const nounSenses = vocabulary.senses.filter(
         (sense) => !hasPartOfSpeech(sense, "vs")
@@ -76,7 +59,6 @@ export default function VocabularyDetailContent({
                 <VocabularyWordHeader
                     vocabulary={vocabulary}
                     meaning={getHeaderMeaning(vocabulary, language)}
-                    hasSuruVerb={hasSuruVerb}
                     verbGroupLabel={verbGroupLabel}
                     pitch={
                         vocabulary.readings.find((r) => r.is_primary)?.pitch
@@ -85,17 +67,22 @@ export default function VocabularyDetailContent({
                     }
                 />
 
-                <VocabularyMeaningCards
-                    vocabulary={vocabulary}
-                    language={language}
-                    nounSenses={
-                        hasSuruVerb
-                            ? nounSenses
-                            : vocabulary.senses
-                    }
-                    suruVerbSenses={suruVerbSenses}
-                    hasSuruVerb={hasSuruVerb}
-                />
+                <div className={styles.detailSection}>
+                    <h2>Nghĩa</h2>
+
+                    <VocabularyMeaningCards
+                        vocabulary={vocabulary}
+                        language={language}
+                        nounSenses={
+                            hasSuruVerb
+                                ? nounSenses
+                                : vocabulary.senses
+                        }
+                        suruVerbSenses={suruVerbSenses}
+                        hasSuruVerb={hasSuruVerb}
+                        synonyms={getRelationVocabularyList(synonyms)}
+                    />
+                </div>
 
                 {conjugations.length > 0 && (
                     <div className={styles.detailSection}>
@@ -143,12 +130,8 @@ export default function VocabularyDetailContent({
                                         }
                                     >
                                         {language === "en"
-                                            ? item.meaning_en ||
-                                            item.meaning_vi ||
-                                            "Updating..."
-                                            : item.meaning_vi ||
-                                            item.meaning_en ||
-                                            "Đang cập nhật nghĩa tiếng Việt"}
+                                            ? item.meaning_en || item.meaning_vi || "Updating..."
+                                            : item.meaning_vi || "Đang cập nhật..."}
                                     </p>
                                 </div>
                             ))}
@@ -156,7 +139,16 @@ export default function VocabularyDetailContent({
                     </div>
                 )}
 
-                <ExampleSection />
+                <ExampleSection
+                    examples={vocabulary.examples.map((ex) => ({
+                        jp: ex.jp,
+                        vi: ex.vi,
+                        ruby: ex.ruby.map((r) => ({
+                            base: r.text,
+                            reading: r.reading ?? "",
+                        })),
+                    }))}
+                />
             </section>
 
             <aside className={`${styles.detailSidebar} ${embedded ? styles.detailSidebarEmbedded : ""}`}>
@@ -169,14 +161,13 @@ export default function VocabularyDetailContent({
                     />
                 )}
 
-                <DictionaryCommunityCard />
+                <DictionaryCommunityCard entryType="vocabulary" entryId={vocabulary.id} />
 
                 <VocabularyRelatedWords
                     language={language}
                     embedded={embedded}
-                    relatedVocabularies={relatedVocabularies}
-                    relationVocabularyList={relationVocabularyList}
-                    currentVocabularyId={vocabulary.id}
+                    synonymList={getRelationVocabularyList(synonyms)}
+                    antonymList={getRelationVocabularyList(antonyms)}
                 />
             </aside>
         </div>

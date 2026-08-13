@@ -1,0 +1,450 @@
+[
+  {
+    "vocabulary_id": 119869,
+    "word": "データ型",
+    "kana": "データがた",
+    "senses": [
+      {
+        "sense_id": 363436,
+        "meaning_vi": "kiểu dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119870,
+    "word": "データ欠損",
+    "kana": "データけっそん",
+    "senses": [
+      {
+        "sense_id": 363437,
+        "meaning_vi": "không có sẵn dữ liệu; thiếu dữ liệu; thiếu dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "không có sẵn dữ liệu",
+          "thiếu dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có sẵn dữ liệu; thiếu dữ liệu; thiếu dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119871,
+    "word": "データ交換機",
+    "kana": "データこうかんき",
+    "senses": [
+      {
+        "sense_id": 363438,
+        "meaning_vi": "chuyển đổi dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119872,
+    "word": "データ交換制御装置",
+    "kana": "データこうかんせいぎょそうち",
+    "senses": [
+      {
+        "sense_id": 363439,
+        "meaning_vi": "DXC; Bộ điều khiển trao đổi dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "DXC",
+          "Bộ điều khiển trao đổi dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "DXC; Bộ điều khiển trao đổi dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119873,
+    "word": "データ交換装置",
+    "kana": "データこうかんそうち",
+    "senses": [
+      {
+        "sense_id": 363440,
+        "meaning_vi": "trao đổi chuyển mạch dữ liệu; DSE",
+        "confidence": "high",
+        "search_keywords": [
+          "trao đổi chuyển mạch dữ liệu",
+          "DSE"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trao đổi chuyển mạch dữ liệu; DSE",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119874,
+    "word": "データ構造",
+    "kana": "データこうぞう",
+    "senses": [
+      {
+        "sense_id": 363441,
+        "meaning_vi": "cấu trúc dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119875,
+    "word": "データ項目",
+    "kana": "データこうもく",
+    "senses": [
+      {
+        "sense_id": 363442,
+        "meaning_vi": "mục; mục dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "mục",
+          "mục dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục; mục dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119876,
+    "word": "データ辞書",
+    "kana": "データじしょ",
+    "senses": [
+      {
+        "sense_id": 363443,
+        "meaning_vi": "từ điển dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "từ điển dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ điển dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119877,
+    "word": "データ実体",
+    "kana": "データじったい",
+    "senses": [
+      {
+        "sense_id": 363444,
+        "meaning_vi": "thực thể dữ liệu; đối tượng dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể dữ liệu",
+          "đối tượng dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể dữ liệu; đối tượng dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119878,
+    "word": "データ実体化",
+    "kana": "データじったいか",
+    "senses": [
+      {
+        "sense_id": 363445,
+        "meaning_vi": "hiện thực hóa dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "hiện thực hóa dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiện thực hóa dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119879,
+    "word": "データ写像",
+    "kana": "データしゃぞう",
+    "senses": [
+      {
+        "sense_id": 363446,
+        "meaning_vi": "ánh xạ dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh xạ dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh xạ dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119880,
+    "word": "データ取得",
+    "kana": "データしゅとく",
+    "senses": [
+      {
+        "sense_id": 363447,
+        "meaning_vi": "thu thập dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "thu thập dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thu thập dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119881,
+    "word": "データ受信装置",
+    "kana": "データじゅしんそうち",
+    "senses": [
+      {
+        "sense_id": 363448,
+        "meaning_vi": "chìm dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "chìm dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chìm dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119882,
+    "word": "データ収集",
+    "kana": "データしゅうしゅう",
+    "senses": [
+      {
+        "sense_id": 363449,
+        "meaning_vi": "thu thập dữ liệu; thu thập dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "thu thập dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thu thập dữ liệu; thu thập dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119883,
+    "word": "データ収集管理システム",
+    "kana": "データしゅうしゅうかんりシステム",
+    "senses": [
+      {
+        "sense_id": 363450,
+        "meaning_vi": "hệ thống thu thập và kiểm soát dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống thu thập và kiểm soát dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống thu thập và kiểm soát dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119884,
+    "word": "データ収集端末",
+    "kana": "データしゅうしゅうたんまつ",
+    "senses": [
+      {
+        "sense_id": 363451,
+        "meaning_vi": "trạm nhập dữ liệu; trạm thu thập dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "trạm nhập dữ liệu",
+          "trạm thu thập dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạm nhập dữ liệu; trạm thu thập dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119885,
+    "word": "データ集線装置",
+    "kana": "データしゅうせんそうち",
+    "senses": [
+      {
+        "sense_id": 363452,
+        "meaning_vi": "bộ tập trung dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ tập trung dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ tập trung dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119886,
+    "word": "データ処理システム",
+    "kana": "データしょりシステム",
+    "senses": [
+      {
+        "sense_id": 363453,
+        "meaning_vi": "hệ thống xử lý dữ liệu; hệ thống máy tính; hệ thống máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống xử lý dữ liệu",
+          "hệ thống máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống xử lý dữ liệu; hệ thống máy tính; hệ thống máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119887,
+    "word": "データ処理ステーション",
+    "kana": "データしょりステーション",
+    "senses": [
+      {
+        "sense_id": 363454,
+        "meaning_vi": "trạm xử lý dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "trạm xử lý dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạm xử lý dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119888,
+    "word": "データ処理センター",
+    "kana": "データしょりセンター",
+    "senses": [
+      {
+        "sense_id": 363455,
+        "meaning_vi": "Trung tâm xử lý dữ liệu; DPC",
+        "confidence": "high",
+        "search_keywords": [
+          "Trung tâm xử lý dữ liệu",
+          "DPC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Trung tâm xử lý dữ liệu; DPC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

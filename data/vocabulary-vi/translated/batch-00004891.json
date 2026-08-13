@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 118268,
+    "word": "オブジェクト指向プログラミング",
+    "kana": "オブジェクトしこうプログラミング",
+    "senses": [
+      {
+        "sense_id": 361813,
+        "meaning_vi": "lập trình hướng đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "lập trình hướng đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lập trình hướng đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118269,
+    "word": "オブジェクト指向型データベース",
+    "kana": "オブジェクトしこうがたデータベース",
+    "senses": [
+      {
+        "sense_id": 361814,
+        "meaning_vi": "cơ sở dữ liệu hướng đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở dữ liệu hướng đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở dữ liệu hướng đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118270,
+    "word": "オブジェクト識別子",
+    "kana": "オブジェクトしきべつし",
+    "senses": [
+      {
+        "sense_id": 361815,
+        "meaning_vi": "định danh đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "định danh đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định danh đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118271,
+    "word": "オブジェクト識別子型",
+    "kana": "オブジェクトしきべつしがた",
+    "senses": [
+      {
+        "sense_id": 361816,
+        "meaning_vi": "kiểu định danh đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu định danh đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu định danh đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118272,
+    "word": "オブジェクト修飾",
+    "kana": "オブジェクトしゅうしょく",
+    "senses": [
+      {
+        "sense_id": 361817,
+        "meaning_vi": "sửa đổi đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa đổi đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa đổi đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118273,
+    "word": "オプションキー",
+    "kana": "オプションキー",
+    "senses": [
+      {
+        "sense_id": 361818,
+        "meaning_vi": "Phím tùy chọn",
+        "confidence": "high",
+        "search_keywords": [
+          "Phím tùy chọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phím tùy chọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118274,
+    "word": "オプションスイッチ",
+    "kana": "オプションスイッチ",
+    "senses": [
+      {
+        "sense_id": 361819,
+        "meaning_vi": "công tắc tùy chọn",
+        "confidence": "high",
+        "search_keywords": [
+          "công tắc tùy chọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công tắc tùy chọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118275,
+    "word": "オプションボタン",
+    "kana": "オプションボタン",
+    "senses": [
+      {
+        "sense_id": 361820,
+        "meaning_vi": "nút tùy chọn",
+        "confidence": "high",
+        "search_keywords": [
+          "nút tùy chọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nút tùy chọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118276,
+    "word": "オプティカルスキャナ",
+    "kana": "オプティカルスキャナ",
+    "senses": [
+      {
+        "sense_id": 361821,
+        "meaning_vi": "máy quét quang học",
+        "confidence": "high",
+        "search_keywords": [
+          "máy quét quang học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy quét quang học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118277,
+    "word": "オプティカルプリンタ",
+    "kana": "オプティカルプリンタ",
+    "senses": [
+      {
+        "sense_id": 361822,
+        "meaning_vi": "máy in quang",
+        "confidence": "high",
+        "search_keywords": [
+          "máy in quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy in quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118278,
+    "word": "オプティカルマウス",
+    "kana": "オプティカルマウス",
+    "senses": [
+      {
+        "sense_id": 361823,
+        "meaning_vi": "chuột quang",
+        "confidence": "high",
+        "search_keywords": [
+          "chuột quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuột quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118279,
+    "word": "オプトメカニカルマウス",
+    "kana": "オプトメカニカルマウス",
+    "senses": [
+      {
+        "sense_id": 361824,
+        "meaning_vi": "chuột quang cơ",
+        "confidence": "high",
+        "search_keywords": [
+          "chuột quang cơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuột quang cơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118280,
+    "word": "オペレーションコード",
+    "kana": "オペレーションコード",
+    "senses": [
+      {
+        "sense_id": 361825,
+        "meaning_vi": "mã hoạt động; mã hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "mã hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã hoạt động; mã hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118281,
+    "word": "オペレーションマニュアル",
+    "kana": "オペレーションマニュアル",
+    "senses": [
+      {
+        "sense_id": 361826,
+        "meaning_vi": "hướng dẫn vận hành",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn vận hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn vận hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118282,
+    "word": "オペレーティング環境",
+    "kana": "オペレーティングかんきょう",
+    "senses": [
+      {
+        "sense_id": 361827,
+        "meaning_vi": "môi trường hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "môi trường hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môi trường hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118283,
+    "word": "Ａｌｔキー",
+    "kana": "オルトキー",
+    "senses": [
+      {
+        "sense_id": 361828,
+        "meaning_vi": "Phím Alt",
+        "confidence": "high",
+        "search_keywords": [
+          "Phím Alt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phím Alt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118284,
+    "word": "オンサイトサービス",
+    "kana": "オンサイトサービス",
+    "senses": [
+      {
+        "sense_id": 361829,
+        "meaning_vi": "dịch vụ tại chỗ; dịch vụ tận nơi",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch vụ tại chỗ",
+          "dịch vụ tận nơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ tại chỗ; dịch vụ tận nơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118285,
+    "word": "オンサイトサポート",
+    "kana": "オンサイトサポート",
+    "senses": [
+      {
+        "sense_id": 361830,
+        "meaning_vi": "hỗ trợ tại chỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "hỗ trợ tại chỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỗ trợ tại chỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118286,
+    "word": "オンザフライ",
+    "kana": "オンザフライ",
+    "senses": [
+      {
+        "sense_id": 361831,
+        "meaning_vi": "đang di chuyển; đang bay",
+        "confidence": "high",
+        "search_keywords": [
+          "đang di chuyển",
+          "đang bay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang di chuyển; đang bay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118287,
+    "word": "オンザフライ書き込み",
+    "kana": "オンザフライかきこみ",
+    "senses": [
+      {
+        "sense_id": 361832,
+        "meaning_vi": "ghi âm trực tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi âm trực tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi âm trực tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

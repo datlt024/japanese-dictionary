@@ -320,102 +320,72 @@ export type Database = {
       grammars: {
         Row: {
           ai_status: string | null
-          common_pairs: Json | null
           created_at: string | null
-          differences: Json | null
           display_pattern: string | null
-          examples: Json | null
           explanation_en: string | null
           explanation_vi: string | null
-          formation: Json | null
           frequency: string | null
           id: number
           is_common: boolean | null
           jlpt_level: string
           meaning_en: string | null
           meaning_vi: string
-          notes: Json | null
           nuance_vi: string | null
           pattern: string
           reading: string | null
-          reading_rules: Json | null
           register: string | null
-          short_forms: Json | null
           short_meaning_vi: string | null
-          similar_grammar: string[] | null
           slug: string
           sort_order: number | null
           source_id: string
           special_cases: Json
-          tags: string[] | null
           updated_at: string | null
-          variants: Json | null
         }
         Insert: {
           ai_status?: string | null
-          common_pairs?: Json | null
           created_at?: string | null
-          differences?: Json | null
           display_pattern?: string | null
-          examples?: Json | null
           explanation_en?: string | null
           explanation_vi?: string | null
-          formation?: Json | null
           frequency?: string | null
           id?: never
           is_common?: boolean | null
           jlpt_level: string
           meaning_en?: string | null
           meaning_vi: string
-          notes?: Json | null
           nuance_vi?: string | null
           pattern: string
           reading?: string | null
-          reading_rules?: Json | null
           register?: string | null
-          short_forms?: Json | null
           short_meaning_vi?: string | null
-          similar_grammar?: string[] | null
           slug: string
           sort_order?: number | null
           source_id: string
           special_cases?: Json
-          tags?: string[] | null
           updated_at?: string | null
-          variants?: Json | null
         }
         Update: {
           ai_status?: string | null
-          common_pairs?: Json | null
           created_at?: string | null
-          differences?: Json | null
           display_pattern?: string | null
-          examples?: Json | null
           explanation_en?: string | null
           explanation_vi?: string | null
-          formation?: Json | null
           frequency?: string | null
           id?: never
           is_common?: boolean | null
           jlpt_level?: string
           meaning_en?: string | null
           meaning_vi?: string
-          notes?: Json | null
           nuance_vi?: string | null
           pattern?: string
           reading?: string | null
-          reading_rules?: Json | null
           register?: string | null
-          short_forms?: Json | null
           short_meaning_vi?: string | null
-          similar_grammar?: string[] | null
           slug?: string
           sort_order?: number | null
           source_id?: string
           special_cases?: Json
-          tags?: string[] | null
           updated_at?: string | null
-          variants?: Json | null
         }
         Relationships: []
       }
@@ -502,6 +472,7 @@ export type Database = {
           kunyomi: string | null
           meaning_en: string | null
           meaning_vi: string | null
+          memory_tip: string | null
           onyomi: string | null
           radical: string | null
           radical_name_ja: string | null
@@ -522,6 +493,7 @@ export type Database = {
           kunyomi?: string | null
           meaning_en?: string | null
           meaning_vi?: string | null
+          memory_tip?: string | null
           onyomi?: string | null
           radical?: string | null
           radical_name_ja?: string | null
@@ -542,6 +514,7 @@ export type Database = {
           kunyomi?: string | null
           meaning_en?: string | null
           meaning_vi?: string | null
+          memory_tip?: string | null
           onyomi?: string | null
           radical?: string | null
           radical_name_ja?: string | null
@@ -588,7 +561,7 @@ export type Database = {
           },
         ]
       }
-      notebooks: {
+      notebook_groups: {
         Row: {
           created_at: string
           description: string | null
@@ -614,6 +587,44 @@ export type Database = {
           user_id?: string
         }
         Relationships: []
+      }
+      notebooks: {
+        Row: {
+          created_at: string
+          description: string | null
+          group_id: string | null
+          id: string
+          name: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          group_id?: string | null
+          id?: string
+          name: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          group_id?: string | null
+          id?: string
+          name?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "notebooks_group_id_fkey"
+            columns: ["group_id"]
+            isOneToOne: false
+            referencedRelation: "notebook_groups"
+            referencedColumns: ["id"]
+          },
+        ]
       }
       vocabularies: {
         Row: {
@@ -700,6 +711,44 @@ export type Database = {
         Relationships: [
           {
             foreignKeyName: "vocabulary_collocations_vocabulary_id_fkey"
+            columns: ["vocabulary_id"]
+            isOneToOne: false
+            referencedRelation: "vocabularies"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      vocabulary_examples: {
+        Row: {
+          example_order: number
+          id: number
+          japanese: string
+          ruby: Json
+          sense_index: number | null
+          translation_vi: string
+          vocabulary_id: number
+        }
+        Insert: {
+          example_order?: number
+          id?: number
+          japanese: string
+          ruby?: Json
+          sense_index?: number | null
+          translation_vi: string
+          vocabulary_id: number
+        }
+        Update: {
+          example_order?: number
+          id?: number
+          japanese?: string
+          ruby?: Json
+          sense_index?: number | null
+          translation_vi?: string
+          vocabulary_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "vocabulary_examples_vocabulary_id_fkey"
             columns: ["vocabulary_id"]
             isOneToOne: false
             referencedRelation: "vocabularies"
@@ -852,6 +901,7 @@ export type Database = {
           field: string[] | null
           id: number
           info: string[] | null
+          is_hidden: boolean
           meaning_en: string | null
           meaning_vi: string | null
           meaning_vi_confidence: string | null
@@ -869,6 +919,7 @@ export type Database = {
           field?: string[] | null
           id?: number
           info?: string[] | null
+          is_hidden?: boolean
           meaning_en?: string | null
           meaning_vi?: string | null
           meaning_vi_confidence?: string | null
@@ -886,6 +937,7 @@ export type Database = {
           field?: string[] | null
           id?: number
           info?: string[] | null
+          is_hidden?: boolean
           meaning_en?: string | null
           meaning_vi?: string | null
           meaning_vi_confidence?: string | null
@@ -945,6 +997,158 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      practice_sessions: {
+        Row: {
+          id: string
+          user_id: string
+          notebook_id: string
+          mode: string
+          known_ids: string[]
+          unknown_ids: string[]
+          total_items: number
+          time_taken: number | null
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          notebook_id: string
+          mode: string
+          known_ids?: string[]
+          unknown_ids?: string[]
+          total_items: number
+          time_taken?: number | null
+          created_at?: string
+        }
+        Update: {
+          id?: string
+          user_id?: string
+          notebook_id?: string
+          mode?: string
+          known_ids?: string[]
+          unknown_ids?: string[]
+          total_items?: number
+          time_taken?: number | null
+          created_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "practice_sessions_notebook_id_fkey"
+            columns: ["notebook_id"]
+            isOneToOne: false
+            referencedRelation: "notebooks"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      user_vocabulary_notes: {
+        Row: {
+          id: string
+          user_id: string
+          vocabulary_id: number
+          note_text: string
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          vocabulary_id: number
+          note_text?: string
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          user_id?: string
+          vocabulary_id?: number
+          note_text?: string
+          created_at?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      user_profiles: {
+        Row: {
+          id: string
+          display_name: string
+          jlpt_level: string | null
+          created_at: string
+          updated_at: string | null
+          streak_count: number
+          streak_last_date: string | null
+          streak_active_days: number[]
+        }
+        Insert: {
+          id: string
+          display_name: string
+          jlpt_level?: string | null
+          created_at?: string
+          updated_at?: string | null
+          streak_count?: number
+          streak_last_date?: string | null
+          streak_active_days?: number[]
+        }
+        Update: {
+          id?: string
+          display_name?: string
+          jlpt_level?: string | null
+          created_at?: string
+          updated_at?: string | null
+          streak_count?: number
+          streak_last_date?: string | null
+          streak_active_days?: number[]
+        }
+        Relationships: []
+      }
+      word_comments: {
+        Row: {
+          id: string
+          user_id: string
+          entry_type: string
+          entry_id: number
+          content: string
+          likes_count: number
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          user_id: string
+          entry_type: string
+          entry_id: number
+          content: string
+          likes_count?: number
+          created_at?: string
+        }
+        Update: {
+          id?: string
+          user_id?: string
+          entry_type?: string
+          entry_id?: number
+          content?: string
+          likes_count?: number
+          created_at?: string
+        }
+        Relationships: []
+      }
+      word_comment_likes: {
+        Row: {
+          user_id: string
+          comment_id: string
+          created_at: string
+        }
+        Insert: {
+          user_id: string
+          comment_id: string
+          created_at?: string
+        }
+        Update: {
+          user_id?: string
+          comment_id?: string
+          created_at?: string
+        }
+        Relationships: []
       }
     }
     Views: {

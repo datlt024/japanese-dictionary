@@ -1,0 +1,462 @@
+[
+  {
+    "vocabulary_id": 84098,
+    "word": "励磁損",
+    "kana": "れいじそん",
+    "senses": [
+      {
+        "sense_id": 323738,
+        "meaning_vi": "mất kích thích",
+        "confidence": "high",
+        "search_keywords": [
+          "mất kích thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất kích thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84099,
+    "word": "励磁機",
+    "kana": "れいじき",
+    "senses": [
+      {
+        "sense_id": 323739,
+        "meaning_vi": "máy kích thích",
+        "confidence": "high",
+        "search_keywords": [
+          "máy kích thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy kích thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84100,
+    "word": "励弧",
+    "kana": "れいこ",
+    "senses": [
+      {
+        "sense_id": 323740,
+        "meaning_vi": "sự kích thích",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kích thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kích thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84101,
+    "word": "陸上端局装置",
+    "kana": "りくじょうたんきょくそうち",
+    "senses": [
+      {
+        "sense_id": 323741,
+        "meaning_vi": "thiết bị đầu cuối mặt đất (của cáp ngầm)",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối mặt đất (của cáp ngầm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối mặt đất (của cáp ngầm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84102,
+    "word": "変調器",
+    "kana": "へんちょうき",
+    "senses": [
+      {
+        "sense_id": 323742,
+        "meaning_vi": "bộ điều biến",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ điều biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ điều biến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84103,
+    "word": "符号変換器",
+    "kana": "ふごうへんかんき",
+    "senses": [
+      {
+        "sense_id": 323743,
+        "meaning_vi": "bộ chuyển đổi tín hiệu; biến tần",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ chuyển đổi tín hiệu",
+          "biến tần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ chuyển đổi tín hiệu; biến tần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84104,
+    "word": "符号解読",
+    "kana": "ふごうかいどく",
+    "senses": [
+      {
+        "sense_id": 323744,
+        "meaning_vi": "giải mã",
+        "confidence": "high",
+        "search_keywords": [
+          "giải mã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải mã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84105,
+    "word": "符号ひずみ",
+    "kana": "ふごうひずみ",
+    "senses": [
+      {
+        "sense_id": 323745,
+        "meaning_vi": "méo tín hiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "méo tín hiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "méo tín hiệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84106,
+    "word": "符号づけ",
+    "kana": "ふごうづけ",
+    "senses": [
+      {
+        "sense_id": 323746,
+        "meaning_vi": "mã hóa (hành động mã hóa tín hiệu)",
+        "confidence": "high",
+        "search_keywords": [
+          "mã hóa (hành động mã hóa tín hiệu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã hóa (hành động mã hóa tín hiệu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84107,
+    "word": "搬送周波数",
+    "kana": "はんそうしゅうはすう",
+    "senses": [
+      {
+        "sense_id": 323747,
+        "meaning_vi": "tần số sóng mang",
+        "confidence": "high",
+        "search_keywords": [
+          "tần số sóng mang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tần số sóng mang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84108,
+    "word": "反転分布係数",
+    "kana": "はんてんぶんぷけいすう",
+    "senses": [
+      {
+        "sense_id": 323748,
+        "meaning_vi": "yếu tố đảo ngược dân số",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu tố đảo ngược dân số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu tố đảo ngược dân số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84109,
+    "word": "反射誤差",
+    "kana": "はんしゃごさ",
+    "senses": [
+      {
+        "sense_id": 323749,
+        "meaning_vi": "lỗi phản ánh",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi phản ánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi phản ánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84110,
+    "word": "反射減衰量",
+    "kana": "はんしゃげんすいりょう",
+    "senses": [
+      {
+        "sense_id": 323750,
+        "meaning_vi": "mất mát trở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "mất mát trở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất mát trở lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84111,
+    "word": "反射係数線図",
+    "kana": "はんしゃけいすうせんず",
+    "senses": [
+      {
+        "sense_id": 323751,
+        "meaning_vi": "biểu đồ hệ số phản xạ",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu đồ hệ số phản xạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu đồ hệ số phản xạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84112,
+    "word": "反射係数",
+    "kana": "はんしゃけいすう",
+    "senses": [
+      {
+        "sense_id": 323752,
+        "meaning_vi": "hệ số phản xạ",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số phản xạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số phản xạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84113,
+    "word": "抜去",
+    "kana": "ばっきょ",
+    "senses": [
+      {
+        "sense_id": 323753,
+        "meaning_vi": "khai thác; rút tiền; nôn ra; sự giật đứt",
+        "confidence": "high",
+        "search_keywords": [
+          "khai thác",
+          "rút tiền",
+          "nôn ra",
+          "sự giật đứt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai thác; rút tiền; nôn ra; sự giật đứt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84114,
+    "word": "導波管定数",
+    "kana": "どうはかんていすう",
+    "senses": [
+      {
+        "sense_id": 323754,
+        "meaning_vi": "hằng số ống dẫn sóng",
+        "confidence": "high",
+        "search_keywords": [
+          "hằng số ống dẫn sóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hằng số ống dẫn sóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84115,
+    "word": "導入部",
+    "kana": "どうにゅうぶ",
+    "senses": [
+      {
+        "sense_id": 323755,
+        "meaning_vi": "giới thiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "giới thiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giới thiệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 323756,
+        "meaning_vi": "phần giới thiệu; chì",
+        "confidence": "high",
+        "search_keywords": [
+          "phần giới thiệu",
+          "chì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần giới thiệu; chì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84116,
+    "word": "伝達特性",
+    "kana": "でんたつとくせい",
+    "senses": [
+      {
+        "sense_id": 323757,
+        "meaning_vi": "đặc tính chuyển giao",
+        "confidence": "high",
+        "search_keywords": [
+          "đặc tính chuyển giao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặc tính chuyển giao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84117,
+    "word": "伝達関数",
+    "kana": "でんたつかんすう",
+    "senses": [
+      {
+        "sense_id": 323758,
+        "meaning_vi": "hàm truyền",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm truyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm truyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

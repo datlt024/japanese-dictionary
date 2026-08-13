@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 122351,
+    "word": "一方向性関数",
+    "kana": "いちほうこうせいかんすう",
+    "senses": [
+      {
+        "sense_id": 365972,
+        "meaning_vi": "chức năng một chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng một chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng một chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122352,
+    "word": "一様参照",
+    "kana": "いちようさんしょう",
+    "senses": [
+      {
+        "sense_id": 365973,
+        "meaning_vi": "tham khảo thống nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "tham khảo thống nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham khảo thống nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122353,
+    "word": "一様乱数",
+    "kana": "いちようらんすう",
+    "senses": [
+      {
+        "sense_id": 365974,
+        "meaning_vi": "số ngẫu nhiên thống nhất; số ngẫu nhiên phân bố đều",
+        "confidence": "high",
+        "search_keywords": [
+          "số ngẫu nhiên thống nhất",
+          "số ngẫu nhiên phân bố đều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số ngẫu nhiên thống nhất; số ngẫu nhiên phân bố đều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122354,
+    "word": "一覧済み",
+    "kana": "いちらんずみ",
+    "senses": [
+      {
+        "sense_id": 365975,
+        "meaning_vi": "được liệt kê",
+        "confidence": "high",
+        "search_keywords": [
+          "được liệt kê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được liệt kê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122355,
+    "word": "一覧抽象操作",
+    "kana": "いちらんちゅうしょうそうさ",
+    "senses": [
+      {
+        "sense_id": 365976,
+        "meaning_vi": "liệt kê hoạt động trừu tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "liệt kê hoạt động trừu tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liệt kê hoạt động trừu tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122356,
+    "word": "溢れ検査",
+    "kana": "あふれけんさ",
+    "senses": [
+      {
+        "sense_id": 365977,
+        "meaning_vi": "kiểm tra tràn",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra tràn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra tràn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122357,
+    "word": "溢れ表示",
+    "kana": "あふれひょうじ",
+    "senses": [
+      {
+        "sense_id": 365978,
+        "meaning_vi": "chỉ báo tràn",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo tràn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo tràn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122358,
+    "word": "印刷スケジューラ",
+    "kana": "いんさつスケジューラ",
+    "senses": [
+      {
+        "sense_id": 365979,
+        "meaning_vi": "lịch in",
+        "confidence": "high",
+        "search_keywords": [
+          "lịch in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lịch in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122359,
+    "word": "印刷プレビュー",
+    "kana": "いんさつプレビュー",
+    "senses": [
+      {
+        "sense_id": 365980,
+        "meaning_vi": "xem trước bản in",
+        "confidence": "high",
+        "search_keywords": [
+          "xem trước bản in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem trước bản in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122360,
+    "word": "印刷装置",
+    "kana": "いんさつそうち",
+    "senses": [
+      {
+        "sense_id": 365981,
+        "meaning_vi": "máy in",
+        "confidence": "high",
+        "search_keywords": [
+          "máy in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122361,
+    "word": "印刷方式",
+    "kana": "いんさつほうしき",
+    "senses": [
+      {
+        "sense_id": 365982,
+        "meaning_vi": "phương pháp in ấn",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp in ấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp in ấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122362,
+    "word": "印字ドラム",
+    "kana": "いんじドラム",
+    "senses": [
+      {
+        "sense_id": 365983,
+        "meaning_vi": "trống in",
+        "confidence": "high",
+        "search_keywords": [
+          "trống in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trống in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122363,
+    "word": "印字バー",
+    "kana": "いんじバー",
+    "senses": [
+      {
+        "sense_id": 365984,
+        "meaning_vi": "thanh loại; thanh máy in",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh loại",
+          "thanh máy in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh loại; thanh máy in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122364,
+    "word": "印字ホイール",
+    "kana": "いんじホイール",
+    "senses": [
+      {
+        "sense_id": 365985,
+        "meaning_vi": "bánh xe in",
+        "confidence": "high",
+        "search_keywords": [
+          "bánh xe in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bánh xe in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122365,
+    "word": "印字位置",
+    "kana": "いんじいち",
+    "senses": [
+      {
+        "sense_id": 365986,
+        "meaning_vi": "cột",
+        "confidence": "high",
+        "search_keywords": [
+          "cột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122366,
+    "word": "印字解像度",
+    "kana": "いんじかいぞうど",
+    "senses": [
+      {
+        "sense_id": 365987,
+        "meaning_vi": "độ phân giải in",
+        "confidence": "high",
+        "search_keywords": [
+          "độ phân giải in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ phân giải in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122367,
+    "word": "印字後行送り",
+    "kana": "いんじごうこうおくり",
+    "senses": [
+      {
+        "sense_id": 365988,
+        "meaning_vi": "sau không gian",
+        "confidence": "high",
+        "search_keywords": [
+          "sau không gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau không gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122368,
+    "word": "印字項目",
+    "kana": "いんじこうもく",
+    "senses": [
+      {
+        "sense_id": 365989,
+        "meaning_vi": "mục có thể in",
+        "confidence": "high",
+        "search_keywords": [
+          "mục có thể in"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục có thể in",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122369,
+    "word": "印字式計算器",
+    "kana": "いんじしきけいさんき",
+    "senses": [
+      {
+        "sense_id": 365990,
+        "meaning_vi": "máy tính in ấn",
+        "confidence": "high",
+        "search_keywords": [
+          "máy tính in ấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy tính in ấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122370,
+    "word": "印字集団",
+    "kana": "いんじしゅうだん",
+    "senses": [
+      {
+        "sense_id": 365991,
+        "meaning_vi": "nhóm có thể in được",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm có thể in được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm có thể in được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

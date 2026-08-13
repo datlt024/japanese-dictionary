@@ -1,384 +1,630 @@
 [
-{
-"vocabulary_id": 1058,
-"word": "ポン引き",
-"kana": "ポンびき",
-"senses": [
-{
-"sense_id": 219044,
-"meaning_vi": "cò mồi lừa đảo",
-"confidence": "high",
-"search_keywords": [
-"cò mồi",
-"kẻ lừa đảo",
-"tay bịp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cò mồi; kẻ chuyên dụ dỗ hoặc lừa đảo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219045,
-"meaning_vi": "ma cô",
-"confidence": "high",
-"search_keywords": [
-"ma cô",
-"dắt gái mại dâm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kẻ môi giới mại dâm; ma cô",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1059,
-"word": "まあ",
-"kana": "まあ",
-"senses": [
-{
-"sense_id": 219046,
-"meaning_vi": "thôi nào",
-"confidence": "high",
-"search_keywords": [
-"thôi nào",
-"bình tĩnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thôi nào; bình tĩnh lại; cứ tạm như vậy đi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219047,
-"meaning_vi": "tàm tạm",
-"confidence": "high",
-"search_keywords": [
-"tàm tạm",
-"khá ổn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khá ổn; ở mức chấp nhận được",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219048,
-"meaning_vi": "ừ thì",
-"confidence": "high",
-"search_keywords": [
-"ừ thì",
-"chắc là"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ừ thì; có lẽ là vậy",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219049,
-"meaning_vi": "ôi chao",
-"confidence": "high",
-"search_keywords": [
-"ôi chao",
-"ôi trời"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ôi chao; trời ơi (cách nói của nữ giới)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1060,
-"word": "まあね",
-"kana": "まあね",
-"senses": [
-{
-"sense_id": 219050,
-"meaning_vi": "cũng đúng",
-"confidence": "high",
-"search_keywords": [
-"cũng đúng",
-"ừ nhỉ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ừ, cũng phải; cũng đúng thật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1061,
-"word": "もっこり",
-"kana": "もっこり",
-"senses": [
-{
-"sense_id": 219115,
-"meaning_vi": "lộ cộm",
-"confidence": "high",
-"search_keywords": [
-"lộ cộm",
-"phồng lên"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phồng lên rõ rệt, đặc biệt phần sinh dục nam dưới quần áo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1062,
-"word": "まあまあ",
-"kana": "まあまあ",
-"senses": [
-{
-"sense_id": 219051,
-"meaning_vi": "tàm tạm",
-"confidence": "high",
-"search_keywords": [
-"tàm tạm",
-"không tệ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không tệ; khá ổn",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219052,
-"meaning_vi": "thôi nào",
-"confidence": "high",
-"search_keywords": [
-"thôi nào",
-"bình tĩnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thôi nào; bình tĩnh lại",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219053,
-"meaning_vi": "ôi chà",
-"confidence": "high",
-"search_keywords": [
-"ôi chà",
-"ôi trời"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ôi chà; trời ơi (cách nói của nữ giới)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1063,
-"word": "まくり上げる",
-"kana": "まくりあげる",
-"senses": [
-{
-"sense_id": 219054,
-"meaning_vi": "xắn lên",
-"confidence": "high",
-"search_keywords": [
-"xắn tay",
-"cuộn lên"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xắn hoặc cuộn lên như tay áo, ống quần",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1064,
-"word": "間誤付く",
-"kana": "まごつく",
-"senses": [
-{
-"sense_id": 219055,
-"meaning_vi": "luống cuống",
-"confidence": "high",
-"search_keywords": [
-"luống cuống",
-"bối rối"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bối rối; không biết phải làm gì",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219056,
-"meaning_vi": "lảng vảng",
-"confidence": "high",
-"search_keywords": [
-"lảng vảng",
-"đi loanh quanh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đi loanh quanh; quanh quẩn một chỗ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1065,
-"word": "まごまご",
-"kana": "まごまご",
-"senses": [
-{
-"sense_id": 219057,
-"meaning_vi": "luống cuống",
-"confidence": "high",
-"search_keywords": [
-"luống cuống",
-"bối rối"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bối rối; lúng túng; không biết xử lý thế nào",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1066,
-"word": "まざまざ",
-"kana": "まざまざ",
-"senses": [
-{
-"sense_id": 219058,
-"meaning_vi": "rõ mồn một",
-"confidence": "high",
-"search_keywords": [
-"rõ ràng",
-"rõ mồn một"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rõ ràng; sống động; hiện rõ trước mắt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1067,
-"word": "まじまじと見る",
-"kana": "まじまじとみる",
-"senses": [
-{
-"sense_id": 219059,
-"meaning_vi": "nhìn chằm chằm",
-"confidence": "high",
-"search_keywords": [
-"nhìn chăm chú",
-"nhìn chằm chằm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhìn kỹ và chăm chú vào ai hoặc vật gì",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1068,
-"word": "先ず隗より始めよ",
-"kana": "まずかいよりはじめよ",
-"senses": [
-{
-"sense_id": 219060,
-"meaning_vi": "bắt đầu từ việc nhỏ",
-"confidence": "high",
-"search_keywords": [
-"bắt đầu từ việc nhỏ",
-"từng bước một"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "muốn làm việc lớn thì hãy bắt đầu từ những việc trước mắt",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219061,
-"meaning_vi": "người nói làm trước",
-"confidence": "high",
-"search_keywords": [
-"nói đi đôi với làm",
-"người đề xuất làm trước"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người đề xuất việc gì thì nên làm trước",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1058,
+    "word": "ポン引き",
+    "kana": "ポンびき",
+    "senses": [
+      {
+        "sense_id": 219044,
+        "meaning_vi": "chào hàng; kẻ lừa đảo; kẻ lừa đảo",
+        "confidence": "high",
+        "search_keywords": [
+          "chào hàng",
+          "kẻ lừa đảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chào hàng; kẻ lừa đảo; kẻ lừa đảo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219045,
+        "meaning_vi": "ma cô",
+        "confidence": "high",
+        "search_keywords": [
+          "ma cô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma cô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1059,
+    "word": "まあ",
+    "kana": "まあ",
+    "senses": [
+      {
+        "sense_id": 219046,
+        "meaning_vi": "chỉ (ví dụ: \"đợi ở đây\"); đến ngay bây giờ; bây giờ, bây giờ",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ (ví dụ: \"đợi ở đây\")",
+          "đến ngay bây giờ",
+          "bây giờ, bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ (ví dụ: \"đợi ở đây\"); đến ngay bây giờ; bây giờ, bây giờ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219047,
+        "meaning_vi": "có thể chấp nhận được ; khá ; vừa phải; hợp lý; công bằng; hơn là; phần nào",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể chấp nhận được",
+          "khá",
+          "vừa phải",
+          "hợp lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể chấp nhận được ; khá ; vừa phải; hợp lý; công bằng; hơn là; phần nào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219048,
+        "meaning_vi": "Tốt ...; tôi nghĩ ...; có vẻ như ...; bạn có thể nói ...; Ừm, tôi đoán vậy...",
+        "confidence": "high",
+        "search_keywords": [
+          "Tốt ...",
+          "tôi nghĩ ...",
+          "có vẻ như ...",
+          "bạn có thể nói ..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tốt ...; tôi nghĩ ...; có vẻ như ...; bạn có thể nói ...; Ừm, tôi đoán vậy...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219049,
+        "meaning_vi": "Ồ!; ôi trời ơi!; ôi chao!; Ồ!; trời ơi duyên dáng!; trời ơi!",
+        "confidence": "high",
+        "search_keywords": [
+          "Ồ!",
+          "ôi trời ơi!",
+          "ôi chao!",
+          "trời ơi duyên dáng!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ồ!; ôi trời ơi!; ôi chao!; Ồ!; trời ơi duyên dáng!; trời ơi!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1060,
+    "word": "まあね",
+    "kana": "まあね",
+    "senses": [
+      {
+        "sense_id": 219050,
+        "meaning_vi": "ừm, tôi phải thừa nhận...",
+        "confidence": "high",
+        "search_keywords": [
+          "ừm, tôi phải thừa nhận..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ừm, tôi phải thừa nhận...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1061,
+    "word": "もっこり",
+    "kana": "もっこり",
+    "senses": [
+      {
+        "sense_id": 219115,
+        "meaning_vi": "phồng lên (đặc biệt là bộ phận sinh dục nam dưới quần áo)",
+        "confidence": "high",
+        "search_keywords": [
+          "phồng lên (đặc biệt là bộ phận sinh dục nam dưới quần áo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phồng lên (đặc biệt là bộ phận sinh dục nam dưới quần áo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1062,
+    "word": "まあまあ",
+    "kana": "まあまあ",
+    "senses": [
+      {
+        "sense_id": 219051,
+        "meaning_vi": "như vậy; có thể qua được; không (quá) tệ; hợp lý",
+        "confidence": "high",
+        "search_keywords": [
+          "như vậy",
+          "có thể qua được",
+          "không (quá) tệ",
+          "hợp lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "như vậy; có thể qua được; không (quá) tệ; hợp lý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219052,
+        "meaning_vi": "bây giờ, bây giờ; đó, đó; bây giờ ở đó",
+        "confidence": "high",
+        "search_keywords": [
+          "bây giờ, bây giờ",
+          "đó, đó",
+          "bây giờ ở đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bây giờ, bây giờ; đó, đó; bây giờ ở đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219053,
+        "meaning_vi": "của tôi, của tôi; ôi trời!; tôi thân mến!",
+        "confidence": "high",
+        "search_keywords": [
+          "của tôi, của tôi",
+          "ôi trời!",
+          "tôi thân mến!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "của tôi, của tôi; ôi trời!; tôi thân mến!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1063,
+    "word": "まくり上げる",
+    "kana": "まくりあげる",
+    "senses": [
+      {
+        "sense_id": 219054,
+        "meaning_vi": "để nhét (ví dụ: tay áo); cuộn lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để nhét (ví dụ: tay áo)",
+          "cuộn lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nhét (ví dụ: tay áo); cuộn lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1064,
+    "word": "間誤付く",
+    "kana": "まごつく",
+    "senses": [
+      {
+        "sense_id": 219055,
+        "meaning_vi": "bị nhầm lẫn; bị bối rối; bị thua lỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "bị nhầm lẫn",
+          "bị bối rối",
+          "bị thua lỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị nhầm lẫn; bị bối rối; bị thua lỗ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219056,
+        "meaning_vi": "lảng vảng; đi loanh quanh; đi lang thang xung quanh; rình mò; đi lang thang",
+        "confidence": "high",
+        "search_keywords": [
+          "lảng vảng",
+          "đi loanh quanh",
+          "đi lang thang xung quanh",
+          "rình mò"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lảng vảng; đi loanh quanh; đi lang thang xung quanh; rình mò; đi lang thang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1065,
+    "word": "まごまご",
+    "kana": "まごまご",
+    "senses": [
+      {
+        "sense_id": 219057,
+        "meaning_vi": "bối rối; bối rối; thua lỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "bối rối",
+          "thua lỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bối rối; bối rối; thua lỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1066,
+    "word": "まざまざ",
+    "kana": "まざまざ",
+    "senses": [
+      {
+        "sense_id": 219058,
+        "meaning_vi": "một cách sống động; rõ ràng; rõ ràng ; sâu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "một cách sống động",
+          "rõ ràng",
+          "sâu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cách sống động; rõ ràng; rõ ràng ; sâu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1067,
+    "word": "まじまじと見る",
+    "kana": "まじまじとみる",
+    "senses": [
+      {
+        "sense_id": 219059,
+        "meaning_vi": "để có một cái nhìn chăm chỉ lâu dài; nhìn thẳng vào mặt (ai đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "để có một cái nhìn chăm chỉ lâu dài",
+          "nhìn thẳng vào mặt (ai đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để có một cái nhìn chăm chỉ lâu dài; nhìn thẳng vào mặt (ai đó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1068,
+    "word": "先ず隗より始めよ",
+    "kana": "まずかいよりはじめよ",
+    "senses": [
+      {
+        "sense_id": 219060,
+        "meaning_vi": "bắt đầu với bước đầu tiên; Khi bắt tay vào một dự án lớn, hãy bắt đầu bằng những bước ngay lập tức",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu với bước đầu tiên",
+          "Khi bắt tay vào một dự án lớn, hãy bắt đầu bằng những bước ngay lập tức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu với bước đầu tiên; Khi bắt tay vào một dự án lớn, hãy bắt đầu bằng những bước ngay lập tức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219061,
+        "meaning_vi": "người đầu tiên gợi ý nên là người đầu tiên làm điều đó",
+        "confidence": "high",
+        "search_keywords": [
+          "người đầu tiên gợi ý nên là người đầu tiên làm điều đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đầu tiên gợi ý nên là người đầu tiên làm điều đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1069,
+    "word": "まっ四角",
+    "kana": "まっしかく",
+    "senses": [
+      {
+        "sense_id": 219062,
+        "meaning_vi": "hình vuông",
+        "confidence": "high",
+        "search_keywords": [
+          "hình vuông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình vuông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1070,
+    "word": "迄に",
+    "kana": "までに",
+    "senses": [
+      {
+        "sense_id": 219063,
+        "meaning_vi": "qua; không muộn hơn; trước đây",
+        "confidence": "high",
+        "search_keywords": [
+          "qua",
+          "không muộn hơn",
+          "trước đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "qua; không muộn hơn; trước đây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1071,
+    "word": "儘ならぬ",
+    "kana": "ままならぬ",
+    "senses": [
+      {
+        "sense_id": 219064,
+        "meaning_vi": "không thể làm được (như ý muốn); chỉ có thể làm được với nỗ lực rất lớn; gần như không thể làm được; ngoài tầm kiểm soát của một người; không phải lúc nào cũng diễn ra như mong muốn; không đi theo cách người ta mong muốn",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể làm được (như ý muốn)",
+          "chỉ có thể làm được với nỗ lực rất lớn",
+          "gần như không thể làm được",
+          "ngoài tầm kiểm soát của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể làm được (như ý muốn); chỉ có thể làm được với nỗ lực rất lớn; gần như không thể làm được; ngoài tầm kiểm soát của một người; không phải lúc nào cũng diễn ra như mong muốn; không đi theo cách người ta mong muốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1072,
+    "word": "儘ならない",
+    "kana": "ままならない",
+    "senses": [
+      {
+        "sense_id": 219065,
+        "meaning_vi": "không thể làm được (như ý muốn); chỉ có thể làm được với nỗ lực rất lớn; gần như không thể làm được; ngoài tầm kiểm soát của một người; không phải lúc nào cũng diễn ra như mong muốn; không đi theo cách người ta mong muốn",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể làm được (như ý muốn)",
+          "chỉ có thể làm được với nỗ lực rất lớn",
+          "gần như không thể làm được",
+          "ngoài tầm kiểm soát của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể làm được (như ý muốn); chỉ có thể làm được với nỗ lực rất lớn; gần như không thể làm được; ngoài tầm kiểm soát của một người; không phải lúc nào cũng diễn ra như mong muốn; không đi theo cách người ta mong muốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1073,
+    "word": "忠実",
+    "kana": "ちゅうじつ",
+    "senses": [
+      {
+        "sense_id": 219066,
+        "meaning_vi": "trung thành; tận tâm; trung thành; trung thực; đúng",
+        "confidence": "high",
+        "search_keywords": [
+          "trung thành",
+          "tận tâm",
+          "trung thực",
+          "đúng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung thành; tận tâm; trung thành; trung thực; đúng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1074,
+    "word": "まやかし",
+    "kana": "まやかし",
+    "senses": [
+      {
+        "sense_id": 219067,
+        "meaning_vi": "lừa dối; giả vờ; giả mạo; giả mạo; giả tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "lừa dối",
+          "giả vờ",
+          "giả mạo",
+          "giả tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lừa dối; giả vờ; giả mạo; giả mạo; giả tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1075,
+    "word": "まやかす",
+    "kana": "まやかす",
+    "senses": [
+      {
+        "sense_id": 219068,
+        "meaning_vi": "gian lận; để lừa đảo; lừa dối",
+        "confidence": "high",
+        "search_keywords": [
+          "gian lận",
+          "để lừa đảo",
+          "lừa dối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gian lận; để lừa đảo; lừa dối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1076,
+    "word": "マンコ",
+    "kana": "マンコ",
+    "senses": [
+      {
+        "sense_id": 219069,
+        "meaning_vi": "âm hộ; lồn; âm môn; âm đạo",
+        "confidence": "high",
+        "search_keywords": [
+          "âm hộ",
+          "lồn",
+          "âm môn",
+          "âm đạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm hộ; lồn; âm môn; âm đạo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219070,
+        "meaning_vi": "chết tiệt; vặn vít",
+        "confidence": "high",
+        "search_keywords": [
+          "chết tiệt",
+          "vặn vít"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết tiệt; vặn vít",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1077,
+    "word": "まんまと",
+    "kana": "まんまと",
+    "senses": [
+      {
+        "sense_id": 219071,
+        "meaning_vi": "thành công; công bằng; một cách nghệ thuật; độc đáo; hoàn toàn; triệt để",
+        "confidence": "high",
+        "search_keywords": [
+          "thành công",
+          "công bằng",
+          "một cách nghệ thuật",
+          "độc đáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành công; công bằng; một cách nghệ thuật; độc đáo; hoàn toàn; triệt để",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,576 @@
+[
+  {
+    "vocabulary_id": 34740,
+    "word": "世界",
+    "kana": "せかい",
+    "senses": [
+      {
+        "sense_id": 262248,
+        "meaning_vi": "thế giới; xã hội; vũ trụ",
+        "confidence": "high",
+        "search_keywords": [
+          "thế giới",
+          "xã hội",
+          "vũ trụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thế giới; xã hội; vũ trụ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262249,
+        "meaning_vi": "hình cầu; vòng tròn; thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "hình cầu",
+          "vòng tròn",
+          "thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình cầu; vòng tròn; thế giới",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262250,
+        "meaning_vi": "nổi tiếng thế giới; nổi tiếng thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "nổi tiếng thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nổi tiếng thế giới; nổi tiếng thế giới",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262251,
+        "meaning_vi": "cõi do một vị Phật cai trị; không gian",
+        "confidence": "high",
+        "search_keywords": [
+          "cõi do một vị Phật cai trị",
+          "không gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cõi do một vị Phật cai trị; không gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34741,
+    "word": "世界チャンピオン",
+    "kana": "せかいチャンピオン",
+    "senses": [
+      {
+        "sense_id": 262252,
+        "meaning_vi": "nhà vô địch thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà vô địch thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà vô địch thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34742,
+    "word": "世界一",
+    "kana": "せかいいち",
+    "senses": [
+      {
+        "sense_id": 262253,
+        "meaning_vi": "tốt nhất trên thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "tốt nhất trên thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốt nhất trên thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34743,
+    "word": "世界一周",
+    "kana": "せかいいっしゅう",
+    "senses": [
+      {
+        "sense_id": 262254,
+        "meaning_vi": "chuyến đi vòng quanh thế giới; đi vòng quanh; chạy khắp thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyến đi vòng quanh thế giới",
+          "đi vòng quanh",
+          "chạy khắp thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyến đi vòng quanh thế giới; đi vòng quanh; chạy khắp thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34744,
+    "word": "世界最大",
+    "kana": "せかいさいだい",
+    "senses": [
+      {
+        "sense_id": 262255,
+        "meaning_vi": "lớn nhất thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "lớn nhất thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớn nhất thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34745,
+    "word": "世界史",
+    "kana": "せかいし",
+    "senses": [
+      {
+        "sense_id": 262256,
+        "meaning_vi": "lịch sử thế giới; lịch sử quốc tế",
+        "confidence": "high",
+        "search_keywords": [
+          "lịch sử thế giới",
+          "lịch sử quốc tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lịch sử thế giới; lịch sử quốc tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34746,
+    "word": "世界人",
+    "kana": "せかいじん",
+    "senses": [
+      {
+        "sense_id": 262257,
+        "meaning_vi": "quốc tế; công dân thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "quốc tế",
+          "công dân thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quốc tế; công dân thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34747,
+    "word": "世界大戦",
+    "kana": "せかいたいせん",
+    "senses": [
+      {
+        "sense_id": 262258,
+        "meaning_vi": "chiến tranh thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến tranh thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến tranh thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34748,
+    "word": "世界的",
+    "kana": "せかいてき",
+    "senses": [
+      {
+        "sense_id": 262259,
+        "meaning_vi": "trên toàn thế giới; toàn cầu; quốc tế; phổ quát",
+        "confidence": "high",
+        "search_keywords": [
+          "trên toàn thế giới",
+          "toàn cầu",
+          "quốc tế",
+          "phổ quát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trên toàn thế giới; toàn cầu; quốc tế; phổ quát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262260,
+        "meaning_vi": "nổi tiếng thế giới; đẳng cấp thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "nổi tiếng thế giới",
+          "đẳng cấp thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nổi tiếng thế giới; đẳng cấp thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34749,
+    "word": "世界保健機関",
+    "kana": "せかいほけんきかん",
+    "senses": [
+      {
+        "sense_id": 262261,
+        "meaning_vi": "Tổ chức Y tế Thế giới; AI",
+        "confidence": "high",
+        "search_keywords": [
+          "Tổ chức Y tế Thế giới",
+          "AI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tổ chức Y tế Thế giới; AI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34750,
+    "word": "世界貿易機関",
+    "kana": "せかいぼうえききかん",
+    "senses": [
+      {
+        "sense_id": 262262,
+        "meaning_vi": "Tổ chức Thương mại Thế giới (Tổ chức); WTO",
+        "confidence": "high",
+        "search_keywords": [
+          "Tổ chức Thương mại Thế giới (Tổ chức)",
+          "WTO"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tổ chức Thương mại Thế giới (Tổ chức); WTO",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34751,
+    "word": "世間",
+    "kana": "せけん",
+    "senses": [
+      {
+        "sense_id": 262263,
+        "meaning_vi": "thế giới; xã hội; mọi người; công chúng",
+        "confidence": "high",
+        "search_keywords": [
+          "thế giới",
+          "xã hội",
+          "mọi người",
+          "công chúng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thế giới; xã hội; mọi người; công chúng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34752,
+    "word": "世間話",
+    "kana": "せけんばなし",
+    "senses": [
+      {
+        "sense_id": 262264,
+        "meaning_vi": "nói chuyện nhỏ; trò chuyện; tin đồn",
+        "confidence": "high",
+        "search_keywords": [
+          "nói chuyện nhỏ",
+          "trò chuyện",
+          "tin đồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói chuyện nhỏ; trò chuyện; tin đồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34753,
+    "word": "世紀",
+    "kana": "せいき",
+    "senses": [
+      {
+        "sense_id": 262265,
+        "meaning_vi": "thế kỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "thế kỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thế kỷ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262266,
+        "meaning_vi": "thời đại",
+        "confidence": "high",
+        "search_keywords": [
+          "thời đại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời đại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262267,
+        "meaning_vi": "của thế kỷ (ví dụ: cuộc chiến của thế kỷ)",
+        "confidence": "high",
+        "search_keywords": [
+          "của thế kỷ (ví dụ: cuộc chiến của thế kỷ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "của thế kỷ (ví dụ: cuộc chiến của thế kỷ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34754,
+    "word": "世紀末",
+    "kana": "せいきまつ",
+    "senses": [
+      {
+        "sense_id": 262268,
+        "meaning_vi": "cuối một thế kỷ (đặc biệt là ngày 19); vây-de-siècle",
+        "confidence": "high",
+        "search_keywords": [
+          "cuối một thế kỷ (đặc biệt là ngày 19)",
+          "vây-de-siècle"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuối một thế kỷ (đặc biệt là ngày 19); vây-de-siècle",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262269,
+        "meaning_vi": "ngày tận thế (đặc biệt trong tiểu thuyết); ngày tận thế",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày tận thế (đặc biệt trong tiểu thuyết)",
+          "ngày tận thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày tận thế (đặc biệt trong tiểu thuyết); ngày tận thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34755,
+    "word": "世局",
+    "kana": "せいきょく",
+    "senses": [
+      {
+        "sense_id": 262270,
+        "meaning_vi": "diễn biến thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "diễn biến thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "diễn biến thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34756,
+    "word": "世才",
+    "kana": "せさい",
+    "senses": [
+      {
+        "sense_id": 262271,
+        "meaning_vi": "trí tuệ thế gian; trí tuệ thực tế; thận trọng; sự khôn ngoan",
+        "confidence": "high",
+        "search_keywords": [
+          "trí tuệ thế gian",
+          "trí tuệ thực tế",
+          "thận trọng",
+          "sự khôn ngoan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trí tuệ thế gian; trí tuệ thực tế; thận trọng; sự khôn ngoan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34757,
+    "word": "世子",
+    "kana": "せいし",
+    "senses": [
+      {
+        "sense_id": 262272,
+        "meaning_vi": "người thừa kế; người kế vị",
+        "confidence": "high",
+        "search_keywords": [
+          "người thừa kế",
+          "người kế vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thừa kế; người kế vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34758,
+    "word": "世事",
+    "kana": "せじ",
+    "senses": [
+      {
+        "sense_id": 262273,
+        "meaning_vi": "các vấn đề trần thế; cách của thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "các vấn đề trần thế",
+          "cách của thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "các vấn đề trần thế; cách của thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34759,
+    "word": "世事に疎い",
+    "kana": "せじにうとい",
+    "senses": [
+      {
+        "sense_id": 262274,
+        "meaning_vi": "thiếu kinh nghiệm; không thực tế; biết nhưng rất ít về thế giới",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu kinh nghiệm",
+          "không thực tế",
+          "biết nhưng rất ít về thế giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu kinh nghiệm; không thực tế; biết nhưng rất ít về thế giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

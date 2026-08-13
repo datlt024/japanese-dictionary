@@ -1,0 +1,502 @@
+[
+  {
+    "vocabulary_id": 187690,
+    "word": "データ中継衛星",
+    "kana": "データちゅうけいえいせい",
+    "senses": [
+      {
+        "sense_id": 436976,
+        "meaning_vi": "vệ tinh chuyển tiếp dữ liệu; DRS",
+        "confidence": "high",
+        "search_keywords": [
+          "vệ tinh chuyển tiếp dữ liệu",
+          "DRS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vệ tinh chuyển tiếp dữ liệu; DRS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187691,
+    "word": "図師",
+    "kana": "ずし",
+    "senses": [
+      {
+        "sense_id": 436977,
+        "meaning_vi": "người hướng dẫn; hướng dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "người hướng dẫn",
+          "hướng dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người hướng dẫn; hướng dẫn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 436978,
+        "meaning_vi": "chuyên gia vẽ sơ đồ, biểu đồ, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyên gia vẽ sơ đồ, biểu đồ, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyên gia vẽ sơ đồ, biểu đồ, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187692,
+    "word": "血の繋がった",
+    "kana": "ちのつながった",
+    "senses": [
+      {
+        "sense_id": 436979,
+        "meaning_vi": "liên quan (bằng máu); liên quan đến máu; cùng dòng máu",
+        "confidence": "high",
+        "search_keywords": [
+          "liên quan (bằng máu)",
+          "liên quan đến máu",
+          "cùng dòng máu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên quan (bằng máu); liên quan đến máu; cùng dòng máu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187693,
+    "word": "国際小包",
+    "kana": "こくさいこづつみ",
+    "senses": [
+      {
+        "sense_id": 436980,
+        "meaning_vi": "Bưu kiện quốc tế (Dịch vụ thư quốc tế của Bưu điện Nhật Bản cho các gói hàng có trọng lượng dưới 30 kg)",
+        "confidence": "high",
+        "search_keywords": [
+          "Bưu kiện quốc tế (Dịch vụ thư quốc tế của Bưu điện Nhật Bản cho các gói hàng có trọng lượng dưới 30 kg)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bưu kiện quốc tế (Dịch vụ thư quốc tế của Bưu điện Nhật Bản cho các gói hàng có trọng lượng dưới 30 kg)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187694,
+    "word": "小形包装物",
+    "kana": "こがたほうそうぶつ",
+    "senses": [
+      {
+        "sense_id": 436981,
+        "meaning_vi": "gói nhỏ (Dịch vụ thư quốc tế của Bưu điện Nhật Bản dành cho gói hàng có trọng lượng dưới 2 kg)",
+        "confidence": "high",
+        "search_keywords": [
+          "gói nhỏ (Dịch vụ thư quốc tế của Bưu điện Nhật Bản dành cho gói hàng có trọng lượng dưới 2 kg)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gói nhỏ (Dịch vụ thư quốc tế của Bưu điện Nhật Bản dành cho gói hàng có trọng lượng dưới 2 kg)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187695,
+    "word": "国際ｅパケット",
+    "kana": "こくさいイーパケット",
+    "senses": [
+      {
+        "sense_id": 436982,
+        "meaning_vi": "ePacket quốc tế (Dịch vụ bưu phẩm quốc tế của Japan Post dành cho các gói hàng có trọng lượng dưới 2 kg)",
+        "confidence": "high",
+        "search_keywords": [
+          "ePacket quốc tế (Dịch vụ bưu phẩm quốc tế của Japan Post dành cho các gói hàng có trọng lượng dưới 2 kg)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ePacket quốc tế (Dịch vụ bưu phẩm quốc tế của Japan Post dành cho các gói hàng có trọng lượng dưới 2 kg)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187696,
+    "word": "蜜漬け",
+    "kana": "みつづけ",
+    "senses": [
+      {
+        "sense_id": 436983,
+        "meaning_vi": "ngâm mật ong; ngâm trong xi-rô; các loại hạt, trái cây, v.v. ngâm trong mật ong hoặc xi-rô",
+        "confidence": "high",
+        "search_keywords": [
+          "ngâm mật ong",
+          "ngâm trong xi-rô",
+          "các loại hạt, trái cây, v.v. ngâm trong mật ong hoặc xi-rô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngâm mật ong; ngâm trong xi-rô; các loại hạt, trái cây, v.v. ngâm trong mật ong hoặc xi-rô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187697,
+    "word": "共同作業所",
+    "kana": "きょうどうさぎょうしょ",
+    "senses": [
+      {
+        "sense_id": 436984,
+        "meaning_vi": "xưởng phúc lợi; hội thảo hợp tác",
+        "confidence": "high",
+        "search_keywords": [
+          "xưởng phúc lợi",
+          "hội thảo hợp tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xưởng phúc lợi; hội thảo hợp tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187698,
+    "word": "飛び恥",
+    "kana": "とびはじ",
+    "senses": [
+      {
+        "sense_id": 436985,
+        "meaning_vi": "chuyến bay xấu hổ (phong trào chống bay); xấu hổ về chuyến bay; flygskam",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyến bay xấu hổ (phong trào chống bay)",
+          "xấu hổ về chuyến bay",
+          "flygskam"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyến bay xấu hổ (phong trào chống bay); xấu hổ về chuyến bay; flygskam",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187699,
+    "word": "吹き止む",
+    "kana": "ふきやむ",
+    "senses": [
+      {
+        "sense_id": 436986,
+        "meaning_vi": "ngừng thổi (gió); thổi bay; tự nổ tung; chết đi; lắng xuống; giảm bớt",
+        "confidence": "high",
+        "search_keywords": [
+          "ngừng thổi (gió)",
+          "thổi bay",
+          "tự nổ tung",
+          "chết đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngừng thổi (gió); thổi bay; tự nổ tung; chết đi; lắng xuống; giảm bớt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187700,
+    "word": "再生可能",
+    "kana": "さいせいかのう",
+    "senses": [
+      {
+        "sense_id": 436987,
+        "meaning_vi": "tái tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "tái tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tái tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187701,
+    "word": "クリーミングパウダー",
+    "kana": "クリーミングパウダー",
+    "senses": [
+      {
+        "sense_id": 436988,
+        "meaning_vi": "kem cà phê dạng bột",
+        "confidence": "high",
+        "search_keywords": [
+          "kem cà phê dạng bột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kem cà phê dạng bột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187702,
+    "word": "うわーん",
+    "kana": "うわーん",
+    "senses": [
+      {
+        "sense_id": 436989,
+        "meaning_vi": "ôi ôi; ôi ôi; waa waa",
+        "confidence": "high",
+        "search_keywords": [
+          "ôi ôi",
+          "waa waa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ôi ôi; ôi ôi; waa waa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187703,
+    "word": "水界",
+    "kana": "すいかい",
+    "senses": [
+      {
+        "sense_id": 436990,
+        "meaning_vi": "thủy quyển",
+        "confidence": "high",
+        "search_keywords": [
+          "thủy quyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủy quyển",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 436991,
+        "meaning_vi": "ranh giới nước và đất",
+        "confidence": "high",
+        "search_keywords": [
+          "ranh giới nước và đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ranh giới nước và đất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187704,
+    "word": "汗水流す",
+    "kana": "あせみずながす",
+    "senses": [
+      {
+        "sense_id": 436992,
+        "meaning_vi": "đổ mồ hôi và làm nô lệ; làm việc cực nhọc",
+        "confidence": "high",
+        "search_keywords": [
+          "đổ mồ hôi và làm nô lệ",
+          "làm việc cực nhọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đổ mồ hôi và làm nô lệ; làm việc cực nhọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187705,
+    "word": "球技場",
+    "kana": "きゅうぎじょう",
+    "senses": [
+      {
+        "sense_id": 436993,
+        "meaning_vi": "công viên bóng; sân chơi bóng",
+        "confidence": "high",
+        "search_keywords": [
+          "công viên bóng",
+          "sân chơi bóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công viên bóng; sân chơi bóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187706,
+    "word": "大袋",
+    "kana": "おおぶくろ",
+    "senses": [
+      {
+        "sense_id": 436994,
+        "meaning_vi": "túi lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "túi lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "túi lớn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 436995,
+        "meaning_vi": "tên trộm",
+        "confidence": "high",
+        "search_keywords": [
+          "tên trộm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên trộm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187707,
+    "word": "オールインクルーシブ",
+    "kana": "オールインクルーシブ",
+    "senses": [
+      {
+        "sense_id": 436996,
+        "meaning_vi": "bao gồm tất cả",
+        "confidence": "high",
+        "search_keywords": [
+          "bao gồm tất cả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bao gồm tất cả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187708,
+    "word": "重武装",
+    "kana": "じゅうぶそう",
+    "senses": [
+      {
+        "sense_id": 436997,
+        "meaning_vi": "vũ khí hạng nặng",
+        "confidence": "high",
+        "search_keywords": [
+          "vũ khí hạng nặng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vũ khí hạng nặng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 187709,
+    "word": "決疑論",
+    "kana": "けつぎろん",
+    "senses": [
+      {
+        "sense_id": 436998,
+        "meaning_vi": "lối ngụy biện",
+        "confidence": "high",
+        "search_keywords": [
+          "lối ngụy biện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lối ngụy biện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,10 +1,10 @@
 .heroCard {
     padding: 24px;
 
-    border: 1px solid #e5eaf2;
+    border: 1px solid var(--color-border);
     border-radius: 18px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .heroMain {
@@ -32,7 +32,7 @@
     max-width: 100%;
     margin: 0;
 
-    color: #2563eb;
+    color: var(--color-primary);
 
     font-size: clamp(28px, 3vw, 38px);
     line-height: 1.35;
@@ -48,9 +48,9 @@
     align-items: center;
     justify-content: center;
 
-    border: 1px solid #e5eaf2;
-    background: #ffffff;
-    color: #6b7280;
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
 
     cursor: pointer;
     transition:
@@ -61,9 +61,9 @@
 
 .iconButton:hover,
 .actionButton:hover {
-    border-color: #bfdbfe;
-    background: #eff6ff;
-    color: #2563eb;
+    border-color: var(--color-primary-soft);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 }
 
 .iconButton {
@@ -111,20 +111,40 @@
 }
 
 .jlptBadge {
-    background: #eff6ff;
-    color: #2563eb;
+    background: var(--color-jlpt-n5-soft, var(--color-success-soft));
+    color: var(--color-jlpt-n5, var(--color-success));
+}
+.jlptBadge[data-level="N5"] {
+    background: var(--color-jlpt-n5-soft);
+    color: var(--color-jlpt-n5);
+}
+.jlptBadge[data-level="N4"] {
+    background: var(--color-jlpt-n4-soft);
+    color: var(--color-jlpt-n4);
+}
+.jlptBadge[data-level="N3"] {
+    background: var(--color-jlpt-n3-soft);
+    color: var(--color-jlpt-n3);
+}
+.jlptBadge[data-level="N2"] {
+    background: var(--color-jlpt-n2-soft);
+    color: var(--color-jlpt-n2);
+}
+.jlptBadge[data-level="N1"] {
+    background: var(--color-jlpt-n1-soft);
+    color: var(--color-jlpt-n1);
 }
 
 .commonBadge {
-    background: #ecfdf3;
-    color: #16a34a;
+    background: var(--color-success-soft);
+    color: var(--color-success);
 }
 
 .heroMeaning {
     max-width: 720px;
     margin: 16px 0 0;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-size: 18px;
     line-height: 1.7;

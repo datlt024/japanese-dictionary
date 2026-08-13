@@ -1,628 +1,629 @@
 [
-{
-"vocabulary_id": 3641,
-"word": "キャッシャー",
-"kana": "キャッシャー",
-"senses": [
-{
-"sense_id": 222127,
-"meaning_vi": "thu ngân",
-"confidence": "high",
-"search_keywords": [
-"thu ngân",
-"cashier"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhân viên thu ngân",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3642,
-"word": "キャッシュ",
-"kana": "キャッシュ",
-"senses": [
-{
-"sense_id": 222128,
-"meaning_vi": "bộ nhớ đệm",
-"confidence": "high",
-"search_keywords": [
-"bộ nhớ đệm",
-"cache"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bộ nhớ đệm dùng để tăng tốc truy xuất dữ liệu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3643,
-"word": "キャッシュカード",
-"kana": "キャッシュカード",
-"senses": [
-{
-"sense_id": 222129,
-"meaning_vi": "thẻ ATM",
-"confidence": "high",
-"search_keywords": [
-"thẻ ATM",
-"thẻ rút tiền",
-"cash card"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thẻ dùng để rút tiền tại ATM",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3644,
-"word": "キャッシュサービスコーナー",
-"kana": "キャッシュサービスコーナー",
-"senses": [
-{
-"sense_id": 222130,
-"meaning_vi": "máy ATM",
-"confidence": "high",
-"search_keywords": [
-"ATM",
-"máy rút tiền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "máy giao dịch và rút tiền tự động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3645,
-"word": "キャッシュブック",
-"kana": "キャッシュブック",
-"senses": [
-{
-"sense_id": 222131,
-"meaning_vi": "sổ quỹ tiền mặt",
-"confidence": "high",
-"search_keywords": [
-"sổ quỹ",
-"sổ quỹ tiền mặt",
-"cashbook"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sổ ghi chép thu chi tiền mặt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3646,
-"word": "キャッシュボックス",
-"kana": "キャッシュボックス",
-"senses": [
-{
-"sense_id": 222132,
-"meaning_vi": "hộp đựng tiền",
-"confidence": "high",
-"search_keywords": [
-"hộp đựng tiền",
-"cash box"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hộp dùng để cất giữ tiền mặt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3647,
-"word": "キャッシュマシン",
-"kana": "キャッシュマシン",
-"senses": [
-{
-"sense_id": 222133,
-"meaning_vi": "máy ATM",
-"confidence": "high",
-"search_keywords": [
-"ATM",
-"máy rút tiền",
-"cash machine"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "máy rút tiền tự động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3648,
-"word": "キャッシュレス",
-"kana": "キャッシュレス",
-"senses": [
-{
-"sense_id": 222134,
-"meaning_vi": "không dùng tiền mặt",
-"confidence": "high",
-"search_keywords": [
-"không tiền mặt",
-"thanh toán điện tử",
-"cashless"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không sử dụng tiền mặt trong thanh toán",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3649,
-"word": "キャッシング",
-"kana": "キャッシング",
-"senses": [
-{
-"sense_id": 222135,
-"meaning_vi": "lưu bộ nhớ đệm",
-"confidence": "high",
-"search_keywords": [
-"caching",
-"lưu cache"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá trình lưu dữ liệu vào bộ nhớ đệm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3650,
-"word": "キャッスル",
-"kana": "キャッスル",
-"senses": [
-{
-"sense_id": 222136,
-"meaning_vi": "lâu đài",
-"confidence": "high",
-"search_keywords": [
-"lâu đài",
-"castle"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lâu đài hoặc thành trì",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3651,
-"word": "キャッチ",
-"kana": "キャッチ",
-"senses": [
-{
-"sense_id": 222137,
-"meaning_vi": "bắt; thu nhận",
-"confidence": "high",
-"search_keywords": [
-"bắt lấy",
-"thu nhận",
-"nhận tín hiệu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bắt lấy; tiếp nhận thông tin hoặc tín hiệu",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222138,
-"meaning_vi": "bắt bóng",
-"confidence": "high",
-"search_keywords": [
-"bắt bóng",
-"catch bóng chày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "động tác bắt bóng trong bóng chày",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222139,
-"meaning_vi": "người chèo kéo khách",
-"confidence": "high",
-"search_keywords": [
-"chèo kéo khách",
-"cò mồi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người đứng ngoài đường để lôi kéo khách vào cửa hàng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222140,
-"meaning_vi": "bắt nước",
-"confidence": "medium",
-"search_keywords": [
-"bắt nước",
-"catch trong bơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "động tác quạt và giữ nước khi bơi hoặc chèo thuyền",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222141,
-"meaning_vi": "người bắt bóng",
-"confidence": "high",
-"search_keywords": [
-"catcher",
-"người bắt bóng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vị trí catcher trong bóng chày",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222142,
-"meaning_vi": "cuộc gọi chờ",
-"confidence": "high",
-"search_keywords": [
-"cuộc gọi chờ",
-"call waiting"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chức năng báo có cuộc gọi khác trong lúc đang đàm thoại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3652,
-"word": "キャッチセールス",
-"kana": "キャッチセールス",
-"senses": [
-{
-"sense_id": 222143,
-"meaning_vi": "bán hàng chèo kéo",
-"confidence": "high",
-"search_keywords": [
-"bán hàng chèo kéo",
-"ép mua hàng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hình thức bán hàng lôi kéo và ép khách ký hợp đồng bất lợi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3653,
-"word": "キャッチバー",
-"kana": "キャッチバー",
-"senses": [
-{
-"sense_id": 222144,
-"meaning_vi": "quán lừa khách",
-"confidence": "medium",
-"search_keywords": [
-"quán lừa khách",
-"clip joint"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quán dùng cò mồi để dụ khách và tính phí quá cao",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3654,
-"word": "キャッチフレーズ",
-"kana": "キャッチフレーズ",
-"senses": [
-{
-"sense_id": 222145,
-"meaning_vi": "khẩu hiệu quảng cáo",
-"confidence": "high",
-"search_keywords": [
-"khẩu hiệu",
-"slogan",
-"catchphrase"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "câu khẩu hiệu ngắn gây ấn tượng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3655,
-"word": "キャッチホン",
-"kana": "キャッチホン",
-"senses": [
-{
-"sense_id": 222146,
-"meaning_vi": "cuộc gọi chờ",
-"confidence": "high",
-"search_keywords": [
-"cuộc gọi chờ",
-"call waiting"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dịch vụ thông báo cuộc gọi đến khi đang nói chuyện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3656,
-"word": "キャッチャー",
-"kana": "キャッチャー",
-"senses": [
-{
-"sense_id": 222147,
-"meaning_vi": "cầu thủ bắt bóng",
-"confidence": "high",
-"search_keywords": [
-"catcher",
-"bắt bóng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vị trí catcher trong bóng chày",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222148,
-"meaning_vi": "thiết bị hứng",
-"confidence": "high",
-"search_keywords": [
-"thiết bị hứng",
-"catcher"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người hoặc thiết bị dùng để giữ, hứng hoặc bắt vật gì đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3657,
-"word": "キャッチワード",
-"kana": "キャッチワード",
-"senses": [
-{
-"sense_id": 222149,
-"meaning_vi": "từ khóa nổi bật",
-"confidence": "high",
-"search_keywords": [
-"từ khóa",
-"catchword"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "từ hoặc cụm từ gây chú ý, mang tính biểu tượng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3658,
-"word": "キャッツアイ",
-"kana": "キャッツアイ",
-"senses": [
-{
-"sense_id": 222150,
-"meaning_vi": "đá mắt mèo",
-"confidence": "high",
-"search_keywords": [
-"đá mắt mèo",
-"cat's eye"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loại đá quý có hiệu ứng giống mắt mèo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222151,
-"meaning_vi": "đinh phản quang",
-"confidence": "high",
-"search_keywords": [
-"đinh phản quang",
-"mắt mèo đường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đinh phản quang gắn trên mặt đường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3659,
-"word": "キャットウォーク",
-"kana": "キャットウォーク",
-"senses": [
-{
-"sense_id": 222152,
-"meaning_vi": "lối đi hẹp trên cao",
-"confidence": "high",
-"search_keywords": [
-"catwalk kỹ thuật",
-"lối đi trên cao"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lối đi hẹp trên cao ở sân khấu hoặc công trình",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222153,
-"meaning_vi": "cầu đi cho mèo",
-"confidence": "high",
-"search_keywords": [
-"cầu cho mèo",
-"kệ cho mèo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lối đi hoặc giá leo trèo dành cho mèo trong nhà",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222154,
-"meaning_vi": "sàn diễn thời trang",
-"confidence": "high",
-"search_keywords": [
-"sàn catwalk",
-"sàn diễn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đường băng trình diễn thời trang",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3660,
-"word": "キャップ",
-"kana": "キャップ",
-"senses": [
-{
-"sense_id": 222155,
-"meaning_vi": "mũ lưỡi trai",
-"confidence": "high",
-"search_keywords": [
-"mũ lưỡi trai",
-"cap"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mũ lưỡi trai hoặc mũ mềm có vành",
-"examples": []
-}
-]
-},
-{
-"sense_id": 222156,
-"meaning_vi": "nắp đậy",
-"confidence": "high",
-"search_keywords": [
-"nắp chai",
-"nắp đậy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nắp của chai, bút hoặc vật chứa khác",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3641,
+    "word": "キャッシャー",
+    "kana": "キャッシャー",
+    "senses": [
+      {
+        "sense_id": 222127,
+        "meaning_vi": "thu ngân",
+        "confidence": "high",
+        "search_keywords": [
+          "thu ngân",
+          "cashier"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân viên thu ngân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3642,
+    "word": "キャッシュ",
+    "kana": "キャッシュ",
+    "senses": [
+      {
+        "sense_id": 222128,
+        "meaning_vi": "bộ nhớ đệm",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ đệm",
+          "cache"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ đệm dùng để tăng tốc truy xuất dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3643,
+    "word": "キャッシュカード",
+    "kana": "キャッシュカード",
+    "senses": [
+      {
+        "sense_id": 222129,
+        "meaning_vi": "thẻ ATM",
+        "confidence": "high",
+        "search_keywords": [
+          "thẻ ATM",
+          "thẻ rút tiền",
+          "cash card"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẻ dùng để rút tiền tại ATM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3644,
+    "word": "キャッシュサービスコーナー",
+    "kana": "キャッシュサービスコーナー",
+    "senses": [
+      {
+        "sense_id": 222130,
+        "meaning_vi": "khu vực ATM",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực ATM",
+          "góc ATM",
+          "khu máy rút tiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực đặt máy ATM để rút tiền và thực hiện giao dịch ngân hàng tự động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3645,
+    "word": "キャッシュブック",
+    "kana": "キャッシュブック",
+    "senses": [
+      {
+        "sense_id": 222131,
+        "meaning_vi": "sổ quỹ tiền mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "sổ quỹ",
+          "sổ quỹ tiền mặt",
+          "cashbook"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sổ ghi chép thu chi tiền mặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3646,
+    "word": "キャッシュボックス",
+    "kana": "キャッシュボックス",
+    "senses": [
+      {
+        "sense_id": 222132,
+        "meaning_vi": "hộp đựng tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp đựng tiền",
+          "cash box"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp dùng để cất giữ tiền mặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3647,
+    "word": "キャッシュマシン",
+    "kana": "キャッシュマシン",
+    "senses": [
+      {
+        "sense_id": 222133,
+        "meaning_vi": "máy ATM",
+        "confidence": "high",
+        "search_keywords": [
+          "ATM",
+          "máy rút tiền",
+          "cash machine"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy rút tiền tự động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3648,
+    "word": "キャッシュレス",
+    "kana": "キャッシュレス",
+    "senses": [
+      {
+        "sense_id": 222134,
+        "meaning_vi": "không dùng tiền mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "không tiền mặt",
+          "thanh toán điện tử",
+          "cashless"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không sử dụng tiền mặt trong thanh toán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3649,
+    "word": "キャッシング",
+    "kana": "キャッシング",
+    "senses": [
+      {
+        "sense_id": 222135,
+        "meaning_vi": "lưu bộ nhớ đệm",
+        "confidence": "high",
+        "search_keywords": [
+          "caching",
+          "lưu cache"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình lưu dữ liệu vào bộ nhớ đệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3650,
+    "word": "キャッスル",
+    "kana": "キャッスル",
+    "senses": [
+      {
+        "sense_id": 222136,
+        "meaning_vi": "lâu đài",
+        "confidence": "high",
+        "search_keywords": [
+          "lâu đài",
+          "castle"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lâu đài hoặc thành trì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3651,
+    "word": "キャッチ",
+    "kana": "キャッチ",
+    "senses": [
+      {
+        "sense_id": 222137,
+        "meaning_vi": "bắt; thu nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt lấy",
+          "thu nhận",
+          "nhận tín hiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt lấy; tiếp nhận thông tin hoặc tín hiệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222138,
+        "meaning_vi": "bắt bóng",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt bóng",
+          "catch bóng chày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động tác bắt bóng trong bóng chày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222139,
+        "meaning_vi": "người chèo kéo khách",
+        "confidence": "high",
+        "search_keywords": [
+          "chèo kéo khách",
+          "cò mồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đứng ngoài đường để lôi kéo khách vào cửa hàng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222140,
+        "meaning_vi": "bắt nước",
+        "confidence": "medium",
+        "search_keywords": [
+          "bắt nước",
+          "catch trong bơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động tác quạt và giữ nước khi bơi hoặc chèo thuyền",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222141,
+        "meaning_vi": "người bắt bóng",
+        "confidence": "high",
+        "search_keywords": [
+          "catcher",
+          "người bắt bóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí catcher trong bóng chày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222142,
+        "meaning_vi": "cuộc gọi chờ",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc gọi chờ",
+          "call waiting"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng báo có cuộc gọi khác trong lúc đang đàm thoại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3652,
+    "word": "キャッチセールス",
+    "kana": "キャッチセールス",
+    "senses": [
+      {
+        "sense_id": 222143,
+        "meaning_vi": "bán hàng chèo kéo",
+        "confidence": "high",
+        "search_keywords": [
+          "bán hàng chèo kéo",
+          "ép mua hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình thức bán hàng lôi kéo và ép khách ký hợp đồng bất lợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3653,
+    "word": "キャッチバー",
+    "kana": "キャッチバー",
+    "senses": [
+      {
+        "sense_id": 222144,
+        "meaning_vi": "quán lừa khách",
+        "confidence": "medium",
+        "search_keywords": [
+          "quán lừa khách",
+          "clip joint"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quán dùng cò mồi để dụ khách và tính phí quá cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3654,
+    "word": "キャッチフレーズ",
+    "kana": "キャッチフレーズ",
+    "senses": [
+      {
+        "sense_id": 222145,
+        "meaning_vi": "khẩu hiệu quảng cáo",
+        "confidence": "high",
+        "search_keywords": [
+          "khẩu hiệu",
+          "slogan",
+          "catchphrase"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu khẩu hiệu ngắn gây ấn tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3655,
+    "word": "キャッチホン",
+    "kana": "キャッチホン",
+    "senses": [
+      {
+        "sense_id": 222146,
+        "meaning_vi": "cuộc gọi chờ",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc gọi chờ",
+          "call waiting"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch vụ thông báo cuộc gọi đến khi đang nói chuyện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3656,
+    "word": "キャッチャー",
+    "kana": "キャッチャー",
+    "senses": [
+      {
+        "sense_id": 222147,
+        "meaning_vi": "cầu thủ bắt bóng",
+        "confidence": "high",
+        "search_keywords": [
+          "catcher",
+          "bắt bóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí catcher trong bóng chày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222148,
+        "meaning_vi": "thiết bị hứng",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị hứng",
+          "catcher"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người hoặc thiết bị dùng để giữ, hứng hoặc bắt vật gì đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3657,
+    "word": "キャッチワード",
+    "kana": "キャッチワード",
+    "senses": [
+      {
+        "sense_id": 222149,
+        "meaning_vi": "từ khóa nổi bật",
+        "confidence": "high",
+        "search_keywords": [
+          "từ khóa",
+          "catchword"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ hoặc cụm từ gây chú ý, mang tính biểu tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3658,
+    "word": "キャッツアイ",
+    "kana": "キャッツアイ",
+    "senses": [
+      {
+        "sense_id": 222150,
+        "meaning_vi": "đá mắt mèo",
+        "confidence": "high",
+        "search_keywords": [
+          "đá mắt mèo",
+          "cat's eye"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại đá quý có hiệu ứng giống mắt mèo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222151,
+        "meaning_vi": "đinh phản quang",
+        "confidence": "high",
+        "search_keywords": [
+          "đinh phản quang",
+          "mắt mèo đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đinh phản quang gắn trên mặt đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3659,
+    "word": "キャットウォーク",
+    "kana": "キャットウォーク",
+    "senses": [
+      {
+        "sense_id": 222152,
+        "meaning_vi": "lối đi hẹp trên cao",
+        "confidence": "high",
+        "search_keywords": [
+          "catwalk kỹ thuật",
+          "lối đi trên cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lối đi hẹp trên cao ở sân khấu hoặc công trình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222153,
+        "meaning_vi": "cầu đi cho mèo",
+        "confidence": "high",
+        "search_keywords": [
+          "cầu cho mèo",
+          "kệ cho mèo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lối đi hoặc giá leo trèo dành cho mèo trong nhà",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222154,
+        "meaning_vi": "sàn diễn thời trang",
+        "confidence": "high",
+        "search_keywords": [
+          "sàn catwalk",
+          "sàn diễn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường băng trình diễn thời trang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3660,
+    "word": "キャップ",
+    "kana": "キャップ",
+    "senses": [
+      {
+        "sense_id": 222155,
+        "meaning_vi": "mũ lưỡi trai",
+        "confidence": "high",
+        "search_keywords": [
+          "mũ lưỡi trai",
+          "cap"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mũ lưỡi trai hoặc mũ mềm có vành",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 222156,
+        "meaning_vi": "nắp đậy",
+        "confidence": "high",
+        "search_keywords": [
+          "nắp chai",
+          "nắp đậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nắp của chai, bút hoặc vật chứa khác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

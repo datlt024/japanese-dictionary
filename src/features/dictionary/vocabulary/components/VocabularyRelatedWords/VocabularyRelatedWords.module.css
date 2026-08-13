@@ -1,8 +1,8 @@
 .detailSideCard {
     padding: 18px;
 
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 18px;
 
     box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
@@ -11,7 +11,7 @@
 .detailSideCard h3 {
     margin: 0 0 16px;
 
-    color: var(--text-primary);
+    color: var(--color-text-primary);
 
     font-size: 15px;
     line-height: 1.35;
@@ -39,11 +39,11 @@
     height: 28px;
     padding: 0 10px;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 6px;
 
-    background: #ffffff;
-    color: var(--primary-dark);
+    background: var(--color-surface);
+    color: var(--color-primary-dark);
 
     font-size: 12px;
     font-weight: 800;
@@ -53,66 +53,28 @@
 }
 
 .relatedChip:hover {
-    border-color: #b9cdf7;
-    background: #fbfdff;
-    color: var(--primary);
+    border-color: var(--color-primary-soft);
+    background: var(--color-surface-muted);
+    color: var(--color-primary);
 }
 
-.vocabularyRelatedList {
+.wordGroup {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-
-    margin-top: 12px;
+    flex-direction: column;
+    gap: 0;
 }
 
-.vocabularyRelatedItem {
-    display: inline-flex;
-    align-items: center;
-
-    height: 28px;
-    padding: 0 10px;
-
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-
-    background: #ffffff;
-    color: var(--primary-dark);
-
-    font-size: 12px;
-    font-weight: 800;
-    text-decoration: none;
-
-    transition: all .2s ease;
+.wordGroup + .wordGroup {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--color-border);
 }
 
-.vocabularyRelatedItem:hover {
-    border-color: #b9cdf7;
-    background: #fbfdff;
-    color: var(--primary);
+.detailSideCard h3.titleSynonym {
+    color: #16a34a;
 }
 
-.vocabularyRelatedItem strong {
-    font-size: inherit;
-    font-weight: inherit;
+.detailSideCard h3.titleAntonym {
+    color: #dc2626;
 }
 
-.vocabularyRelatedItem span,
-.vocabularyRelatedItem p {
-    display: none;
-}
-
-.moreRelatedLink {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-top: 12px;
-    margin-left: auto;
-
-    color: var(--primary);
-
-    font-size: 14px;
-    font-weight: 800;
-    text-decoration: none;
-}

@@ -1,0 +1,667 @@
+[
+  {
+    "vocabulary_id": 40461,
+    "word": "通俗文学",
+    "kana": "つうぞくぶんがく",
+    "senses": [
+      {
+        "sense_id": 270072,
+        "meaning_vi": "trường viết phổ thông",
+        "confidence": "high",
+        "search_keywords": [
+          "trường viết phổ thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường viết phổ thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40462,
+    "word": "低順位",
+    "kana": "ていじゅんい",
+    "senses": [
+      {
+        "sense_id": 270245,
+        "meaning_vi": "mức độ ưu tiên thấp",
+        "confidence": "high",
+        "search_keywords": [
+          "mức độ ưu tiên thấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mức độ ưu tiên thấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40463,
+    "word": "通達",
+    "kana": "つうたつ",
+    "senses": [
+      {
+        "sense_id": 270073,
+        "meaning_vi": "thông báo; thông báo chính thức; chỉ thị (ví dụ: từ cấp quản lý cao hơn đến cấp thấp hơn)",
+        "confidence": "high",
+        "search_keywords": [
+          "thông báo",
+          "thông báo chính thức",
+          "chỉ thị (ví dụ: từ cấp quản lý cao hơn đến cấp thấp hơn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông báo; thông báo chính thức; chỉ thị (ví dụ: từ cấp quản lý cao hơn đến cấp thấp hơn)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270074,
+        "meaning_vi": "thành thạo (trong); thành thạo (trong)",
+        "confidence": "high",
+        "search_keywords": [
+          "thành thạo (trong)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành thạo (trong); thành thạo (trong)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40464,
+    "word": "通知",
+    "kana": "つうち",
+    "senses": [
+      {
+        "sense_id": 270075,
+        "meaning_vi": "để ý; thông báo; báo cáo; đăng bài",
+        "confidence": "high",
+        "search_keywords": [
+          "để ý",
+          "thông báo",
+          "báo cáo",
+          "đăng bài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để ý; thông báo; báo cáo; đăng bài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270076,
+        "meaning_vi": "thông báo (trên điện thoại thông minh, PC, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "thông báo (trên điện thoại thông minh, PC, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông báo (trên điện thoại thông minh, PC, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40465,
+    "word": "通知メッセージ",
+    "kana": "つうちメッセージ",
+    "senses": [
+      {
+        "sense_id": 270077,
+        "meaning_vi": "tin nhắn thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "tin nhắn thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tin nhắn thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40466,
+    "word": "通帳",
+    "kana": "つうちょう",
+    "senses": [
+      {
+        "sense_id": 270078,
+        "meaning_vi": "sổ tiết kiệm; sổ tiết kiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "sổ tiết kiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sổ tiết kiệm; sổ tiết kiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40467,
+    "word": "通念",
+    "kana": "つうねん",
+    "senses": [
+      {
+        "sense_id": 270079,
+        "meaning_vi": "ý tưởng chung; trí tuệ thông thường; ý tưởng được chấp nhận rộng rãi",
+        "confidence": "high",
+        "search_keywords": [
+          "ý tưởng chung",
+          "trí tuệ thông thường",
+          "ý tưởng được chấp nhận rộng rãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý tưởng chung; trí tuệ thông thường; ý tưởng được chấp nhận rộng rãi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40468,
+    "word": "通風",
+    "kana": "つうふう",
+    "senses": [
+      {
+        "sense_id": 270080,
+        "meaning_vi": "thông gió; bản nháp; phát sóng",
+        "confidence": "high",
+        "search_keywords": [
+          "thông gió",
+          "bản nháp",
+          "phát sóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông gió; bản nháp; phát sóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40469,
+    "word": "通分",
+    "kana": "つうぶん",
+    "senses": [
+      {
+        "sense_id": 270081,
+        "meaning_vi": "chuyển đổi (phân số) sang mẫu số chung; rút gọn về mẫu số chung",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi (phân số) sang mẫu số chung",
+          "rút gọn về mẫu số chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi (phân số) sang mẫu số chung; rút gọn về mẫu số chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40470,
+    "word": "通報",
+    "kana": "つうほう",
+    "senses": [
+      {
+        "sense_id": 270082,
+        "meaning_vi": "báo cáo; thông báo; mẹo; bản tin",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo",
+          "thông báo",
+          "mẹo",
+          "bản tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo; thông báo; mẹo; bản tin",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270083,
+        "meaning_vi": "thông điệp (trong lý thuyết thông tin và truyền thông)",
+        "confidence": "high",
+        "search_keywords": [
+          "thông điệp (trong lý thuyết thông tin và truyền thông)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông điệp (trong lý thuyết thông tin và truyền thông)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40471,
+    "word": "通り名",
+    "kana": "とおりな",
+    "senses": [
+      {
+        "sense_id": 270084,
+        "meaning_vi": "tên một đi theo; tên phổ biến; tên giả; bí danh; biệt hiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "tên một đi theo",
+          "tên phổ biến",
+          "tên giả",
+          "bí danh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên một đi theo; tên phổ biến; tên giả; bí danh; biệt hiệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270085,
+        "meaning_vi": "tên nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "tên nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên nhà",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270086,
+        "meaning_vi": "tên đường phố; tên đại lộ",
+        "confidence": "high",
+        "search_keywords": [
+          "tên đường phố",
+          "tên đại lộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên đường phố; tên đại lộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40472,
+    "word": "通夜",
+    "kana": "つや",
+    "senses": [
+      {
+        "sense_id": 270087,
+        "meaning_vi": "canh thức suốt đêm trên một thi thể; thức dậy",
+        "confidence": "high",
+        "search_keywords": [
+          "canh thức suốt đêm trên một thi thể",
+          "thức dậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "canh thức suốt đêm trên một thi thể; thức dậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40473,
+    "word": "通訳",
+    "kana": "つうやく",
+    "senses": [
+      {
+        "sense_id": 270088,
+        "meaning_vi": "giải thích (tức là dịch bằng miệng)",
+        "confidence": "high",
+        "search_keywords": [
+          "giải thích (tức là dịch bằng miệng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải thích (tức là dịch bằng miệng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270089,
+        "meaning_vi": "thông dịch viên",
+        "confidence": "high",
+        "search_keywords": [
+          "thông dịch viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông dịch viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40474,
+    "word": "通用",
+    "kana": "つうよう",
+    "senses": [
+      {
+        "sense_id": 270090,
+        "meaning_vi": "(phổ biến) việc sử dụng (ngôn ngữ, tiền tệ, v.v.); sử dụng hiện tại; lưu thông; tiền tệ; hiệu lực (ví dụ: một vé)",
+        "confidence": "high",
+        "search_keywords": [
+          "(phổ biến) việc sử dụng (ngôn ngữ, tiền tệ, v.v.)",
+          "sử dụng hiện tại",
+          "lưu thông",
+          "tiền tệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(phổ biến) việc sử dụng (ngôn ngữ, tiền tệ, v.v.); sử dụng hiện tại; lưu thông; tiền tệ; hiệu lực (ví dụ: một vé)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270091,
+        "meaning_vi": "được chấp nhận (ví dụ như một cách suy nghĩ); để làm việc (một cái cớ, thủ đoạn, v.v.); giữ đúng (ví dụ: một lý thuyết); áp dụng; có hiệu lực; để vượt qua (cho); làm tốt; để vượt qua",
+        "confidence": "high",
+        "search_keywords": [
+          "được chấp nhận (ví dụ như một cách suy nghĩ)",
+          "để làm việc (một cái cớ, thủ đoạn, v.v.)",
+          "giữ đúng (ví dụ: một lý thuyết)",
+          "áp dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được chấp nhận (ví dụ như một cách suy nghĩ); để làm việc (một cái cớ, thủ đoạn, v.v.); giữ đúng (ví dụ: một lý thuyết); áp dụng; có hiệu lực; để vượt qua (cho); làm tốt; để vượt qua",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270092,
+        "meaning_vi": "đi vào và đi ra; lối vào và lối ra",
+        "confidence": "high",
+        "search_keywords": [
+          "đi vào và đi ra",
+          "lối vào và lối ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi vào và đi ra; lối vào và lối ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40475,
+    "word": "通用期間",
+    "kana": "つうようきかん",
+    "senses": [
+      {
+        "sense_id": 270093,
+        "meaning_vi": "thời hạn hiệu lực",
+        "confidence": "high",
+        "search_keywords": [
+          "thời hạn hiệu lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời hạn hiệu lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40476,
+    "word": "通例",
+    "kana": "つうれい",
+    "senses": [
+      {
+        "sense_id": 270094,
+        "meaning_vi": "phong tục; quy tắc chung; quy ước",
+        "confidence": "high",
+        "search_keywords": [
+          "phong tục",
+          "quy tắc chung",
+          "quy ước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong tục; quy tắc chung; quy ước",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270095,
+        "meaning_vi": "thường xuyên; nói chung là; thông thường; như một quy luật",
+        "confidence": "high",
+        "search_keywords": [
+          "thường xuyên",
+          "nói chung là",
+          "thông thường",
+          "như một quy luật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thường xuyên; nói chung là; thông thường; như một quy luật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40477,
+    "word": "通路",
+    "kana": "つうろ",
+    "senses": [
+      {
+        "sense_id": 270096,
+        "meaning_vi": "đoạn văn; con đường; đường bộ; đại lộ; lối đi",
+        "confidence": "high",
+        "search_keywords": [
+          "đoạn văn",
+          "con đường",
+          "đường bộ",
+          "đại lộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đoạn văn; con đường; đường bộ; đại lộ; lối đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40478,
+    "word": "通話",
+    "kana": "つうわ",
+    "senses": [
+      {
+        "sense_id": 270097,
+        "meaning_vi": "gọi điện thoại; nói chuyện qua điện thoại; (Internet) cuộc gọi thoại; cuộc gọi hội nghị truyền hình",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi điện thoại",
+          "nói chuyện qua điện thoại",
+          "(Internet) cuộc gọi thoại",
+          "cuộc gọi hội nghị truyền hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi điện thoại; nói chuyện qua điện thoại; (Internet) cuộc gọi thoại; cuộc gọi hội nghị truyền hình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270098,
+        "meaning_vi": "bộ đếm các cuộc gọi điện thoại trong một khoảng thời gian nhất định",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đếm các cuộc gọi điện thoại trong một khoảng thời gian nhất định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đếm các cuộc gọi điện thoại trong một khoảng thời gian nhất định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40479,
+    "word": "塚",
+    "kana": "つか",
+    "senses": [
+      {
+        "sense_id": 270099,
+        "meaning_vi": "gò đất; đống; gò đồi",
+        "confidence": "high",
+        "search_keywords": [
+          "gò đất",
+          "đống",
+          "gò đồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gò đất; đống; gò đồi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270100,
+        "meaning_vi": "gò mộ; ngôi mộ; khối u; xe đẩy; khu mộ",
+        "confidence": "high",
+        "search_keywords": [
+          "gò mộ",
+          "ngôi mộ",
+          "khối u",
+          "xe đẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gò mộ; ngôi mộ; khối u; xe đẩy; khu mộ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270101,
+        "meaning_vi": "đá đứng; biển chỉ dẫn bằng đá; tượng đá ven đường",
+        "confidence": "high",
+        "search_keywords": [
+          "đá đứng",
+          "biển chỉ dẫn bằng đá",
+          "tượng đá ven đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đá đứng; biển chỉ dẫn bằng đá; tượng đá ven đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40480,
+    "word": "掴みかかる",
+    "kana": "つかみかかる",
+    "senses": [
+      {
+        "sense_id": 270102,
+        "meaning_vi": "nắm lấy; nắm bắt được ; để bám vào",
+        "confidence": "high",
+        "search_keywords": [
+          "nắm lấy",
+          "nắm bắt được",
+          "để bám vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nắm lấy; nắm bắt được ; để bám vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

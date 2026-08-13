@@ -1,0 +1,542 @@
+[
+  {
+    "vocabulary_id": 40061,
+    "word": "調理",
+    "kana": "ちょうり",
+    "senses": [
+      {
+        "sense_id": 269487,
+        "meaning_vi": "nấu ăn; chuẩn bị thức ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "nấu ăn",
+          "chuẩn bị thức ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nấu ăn; chuẩn bị thức ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40062,
+    "word": "調律",
+    "kana": "ちょうりつ",
+    "senses": [
+      {
+        "sense_id": 269488,
+        "meaning_vi": "điều chỉnh (một nhạc cụ); tính khí",
+        "confidence": "high",
+        "search_keywords": [
+          "điều chỉnh (một nhạc cụ)",
+          "tính khí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều chỉnh (một nhạc cụ); tính khí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40063,
+    "word": "調和",
+    "kana": "ちょうわ",
+    "senses": [
+      {
+        "sense_id": 269489,
+        "meaning_vi": "hòa hợp; thỏa thuận; hòa giải; thỏa thuận",
+        "confidence": "high",
+        "search_keywords": [
+          "hòa hợp",
+          "thỏa thuận",
+          "hòa giải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hòa hợp; thỏa thuận; hòa giải; thỏa thuận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40064,
+    "word": "超",
+    "kana": "ちょう",
+    "senses": [
+      {
+        "sense_id": 269490,
+        "meaning_vi": "siêu-; siêu-; siêu-; cực đoan",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu-",
+          "cực đoan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu-; siêu-; siêu-; cực đoan",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269491,
+        "meaning_vi": "vô cùng; Thực ra; hoàn toàn; tuyệt đối",
+        "confidence": "high",
+        "search_keywords": [
+          "vô cùng",
+          "Thực ra",
+          "hoàn toàn",
+          "tuyệt đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô cùng; Thực ra; hoàn toàn; tuyệt đối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269492,
+        "meaning_vi": "tất nhiên rồi; chắc chắn; tuyệt đối; chắc chắn ; hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "tất nhiên rồi",
+          "chắc chắn",
+          "tuyệt đối",
+          "hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tất nhiên rồi; chắc chắn; tuyệt đối; chắc chắn ; hoàn toàn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269493,
+        "meaning_vi": "qua; hơn ; vượt quá",
+        "confidence": "high",
+        "search_keywords": [
+          "qua",
+          "hơn",
+          "vượt quá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "qua; hơn ; vượt quá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40065,
+    "word": "超越",
+    "kana": "ちょうえつ",
+    "senses": [
+      {
+        "sense_id": 269494,
+        "meaning_vi": "siêu việt; sự siêu việt",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu việt",
+          "sự siêu việt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu việt; sự siêu việt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40066,
+    "word": "超越関数",
+    "kana": "ちょうえつかんすう",
+    "senses": [
+      {
+        "sense_id": 269495,
+        "meaning_vi": "hàm siêu việt",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm siêu việt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm siêu việt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40067,
+    "word": "超越交代",
+    "kana": "ちょうえつこうたい",
+    "senses": [
+      {
+        "sense_id": 269496,
+        "meaning_vi": "dòng đi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng đi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng đi qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40068,
+    "word": "超越点",
+    "kana": "ちょうえつてん",
+    "senses": [
+      {
+        "sense_id": 269497,
+        "meaning_vi": "điểm đi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm đi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm đi qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40069,
+    "word": "超音速",
+    "kana": "ちょうおんそく",
+    "senses": [
+      {
+        "sense_id": 269498,
+        "meaning_vi": "tốc độ siêu âm",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ siêu âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ siêu âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40070,
+    "word": "超過",
+    "kana": "ちょうか",
+    "senses": [
+      {
+        "sense_id": 269499,
+        "meaning_vi": "thặng dư; thặng dư; vượt quá (giới hạn, ước tính, v.v.); đi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "thặng dư",
+          "vượt quá (giới hạn, ước tính, v.v.)",
+          "đi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thặng dư; thặng dư; vượt quá (giới hạn, ước tính, v.v.); đi qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40071,
+    "word": "超格子",
+    "kana": "ちょうこうし",
+    "senses": [
+      {
+        "sense_id": 269500,
+        "meaning_vi": "siêu mạng",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu mạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu mạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40072,
+    "word": "超簡易",
+    "kana": "ちょうかんい",
+    "senses": [
+      {
+        "sense_id": 269501,
+        "meaning_vi": "cực kỳ đơn giản; rất dễ dàng",
+        "confidence": "high",
+        "search_keywords": [
+          "cực kỳ đơn giản",
+          "rất dễ dàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cực kỳ đơn giản; rất dễ dàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40073,
+    "word": "超合金",
+    "kana": "ちょうごうきん",
+    "senses": [
+      {
+        "sense_id": 269502,
+        "meaning_vi": "siêu hợp kim",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu hợp kim"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu hợp kim",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269503,
+        "meaning_vi": "Chogokin; dòng sản phẩm robot và đồ chơi nhân vật bằng kim loại đúc được bán bởi Popy",
+        "confidence": "high",
+        "search_keywords": [
+          "Chogokin",
+          "dòng sản phẩm robot và đồ chơi nhân vật bằng kim loại đúc được bán bởi Popy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chogokin; dòng sản phẩm robot và đồ chơi nhân vật bằng kim loại đúc được bán bởi Popy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40074,
+    "word": "超時空",
+    "kana": "ちょうじくう",
+    "senses": [
+      {
+        "sense_id": 269504,
+        "meaning_vi": "siêu chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40075,
+    "word": "超自然",
+    "kana": "ちょうしぜん",
+    "senses": [
+      {
+        "sense_id": 269505,
+        "meaning_vi": "huyền bí; siêu việt; tính siêu nhiên; chủ nghĩa siêu nhiên; tính siêu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "huyền bí",
+          "siêu việt",
+          "tính siêu nhiên",
+          "chủ nghĩa siêu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "huyền bí; siêu việt; tính siêu nhiên; chủ nghĩa siêu nhiên; tính siêu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40076,
+    "word": "超人",
+    "kana": "ちょうじん",
+    "senses": [
+      {
+        "sense_id": 269506,
+        "meaning_vi": "siêu nhân; nữ siêu nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu nhân",
+          "nữ siêu nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu nhân; nữ siêu nhân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 269507,
+        "meaning_vi": "Ubermensch (Người đàn ông lý tưởng trong tương lai của Nietzsche); người quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "Ubermensch (Người đàn ông lý tưởng trong tương lai của Nietzsche)",
+          "người quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ubermensch (Người đàn ông lý tưởng trong tương lai của Nietzsche); người quản lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40077,
+    "word": "超多段シフト",
+    "kana": "ちょうただんシフト",
+    "senses": [
+      {
+        "sense_id": 269508,
+        "meaning_vi": "siêu đa ca (một phương thức nhập chữ kanji)",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu đa ca (một phương thức nhập chữ kanji)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu đa ca (một phương thức nhập chữ kanji)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40078,
+    "word": "超大規模集積回路",
+    "kana": "ちょうだいきぼしゅうせきかいろ",
+    "senses": [
+      {
+        "sense_id": 269509,
+        "meaning_vi": "tích hợp quy mô rất lớn; VLSI",
+        "confidence": "high",
+        "search_keywords": [
+          "tích hợp quy mô rất lớn",
+          "VLSI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tích hợp quy mô rất lớn; VLSI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40079,
+    "word": "超大国",
+    "kana": "ちょうたいこく",
+    "senses": [
+      {
+        "sense_id": 269510,
+        "meaning_vi": "siêu cường; siêu quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu cường",
+          "siêu quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu cường; siêu quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40080,
+    "word": "超低価格",
+    "kana": "ちょうていかかく",
+    "senses": [
+      {
+        "sense_id": 269511,
+        "meaning_vi": "chi phí cực thấp",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí cực thấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí cực thấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

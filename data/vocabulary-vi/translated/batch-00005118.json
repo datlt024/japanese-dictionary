@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 122891,
+    "word": "環境モニタリング",
+    "kana": "かんきょうモニタリング",
+    "senses": [
+      {
+        "sense_id": 366514,
+        "meaning_vi": "quan trắc môi trường",
+        "confidence": "high",
+        "search_keywords": [
+          "quan trắc môi trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan trắc môi trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122892,
+    "word": "環境記述",
+    "kana": "かんきょうきじゅつ",
+    "senses": [
+      {
+        "sense_id": 366515,
+        "meaning_vi": "mô tả môi trường",
+        "confidence": "high",
+        "search_keywords": [
+          "mô tả môi trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô tả môi trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122893,
+    "word": "環境句",
+    "kana": "かんきょうく",
+    "senses": [
+      {
+        "sense_id": 366516,
+        "meaning_vi": "điều khoản môi trường",
+        "confidence": "high",
+        "search_keywords": [
+          "điều khoản môi trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều khoản môi trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122894,
+    "word": "環境光",
+    "kana": "かんきょうこう",
+    "senses": [
+      {
+        "sense_id": 366517,
+        "meaning_vi": "ánh sáng xung quanh",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh sáng xung quanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh sáng xung quanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122895,
+    "word": "環境光源",
+    "kana": "かんきょうこうげん",
+    "senses": [
+      {
+        "sense_id": 366518,
+        "meaning_vi": "nguồn ánh sáng xung quanh",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn ánh sáng xung quanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn ánh sáng xung quanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122896,
+    "word": "環境光反射係数",
+    "kana": "かんきょうこうはんしゃけいすう",
+    "senses": [
+      {
+        "sense_id": 366519,
+        "meaning_vi": "hệ số phản xạ môi trường xung quanh",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số phản xạ môi trường xung quanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số phản xạ môi trường xung quanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122897,
+    "word": "環境条件",
+    "kana": "かんきょうじょうけん",
+    "senses": [
+      {
+        "sense_id": 366520,
+        "meaning_vi": "điều kiện môi trường",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện môi trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện môi trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122898,
+    "word": "環境変数",
+    "kana": "かんきょうへんすう",
+    "senses": [
+      {
+        "sense_id": 366521,
+        "meaning_vi": "biến môi trường",
+        "confidence": "high",
+        "search_keywords": [
+          "biến môi trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến môi trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122899,
+    "word": "環状ネットワーク",
+    "kana": "かんじょうネットワーク",
+    "senses": [
+      {
+        "sense_id": 366522,
+        "meaning_vi": "mạng vòng; vòng lặp",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng vòng",
+          "vòng lặp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng vòng; vòng lặp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122900,
+    "word": "環状計数器",
+    "kana": "かんじょうけいすうき",
+    "senses": [
+      {
+        "sense_id": 366523,
+        "meaning_vi": "bộ đếm vòng",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đếm vòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đếm vòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122901,
+    "word": "環状網",
+    "kana": "かんじょうもう",
+    "senses": [
+      {
+        "sense_id": 366524,
+        "meaning_vi": "mạng vòng; vòng lặp",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng vòng",
+          "vòng lặp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng vòng; vòng lặp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122902,
+    "word": "監査検討ファイル",
+    "kana": "かんさけんとうファイル",
+    "senses": [
+      {
+        "sense_id": 366525,
+        "meaning_vi": "hồ sơ rà soát kiểm toán",
+        "confidence": "high",
+        "search_keywords": [
+          "hồ sơ rà soát kiểm toán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồ sơ rà soát kiểm toán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122903,
+    "word": "監視プログラム",
+    "kana": "かんしプログラム",
+    "senses": [
+      {
+        "sense_id": 366526,
+        "meaning_vi": "chương trình giám sát; người giám sát",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình giám sát",
+          "người giám sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình giám sát; người giám sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122904,
+    "word": "監視局",
+    "kana": "かんしきょく",
+    "senses": [
+      {
+        "sense_id": 366527,
+        "meaning_vi": "màn hình",
+        "confidence": "high",
+        "search_keywords": [
+          "màn hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màn hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122905,
+    "word": "監督機能",
+    "kana": "かんとくきのう",
+    "senses": [
+      {
+        "sense_id": 366528,
+        "meaning_vi": "chức năng giám sát",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng giám sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng giám sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122906,
+    "word": "管轄ポート",
+    "kana": "かんかつポート",
+    "senses": [
+      {
+        "sense_id": 366529,
+        "meaning_vi": "cổng hành chính",
+        "confidence": "high",
+        "search_keywords": [
+          "cổng hành chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cổng hành chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122907,
+    "word": "管理オブジェクトクラス",
+    "kana": "かんりオブジェクトクラス",
+    "senses": [
+      {
+        "sense_id": 366530,
+        "meaning_vi": "lớp đối tượng được quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp đối tượng được quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp đối tượng được quản lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122908,
+    "word": "管理システム",
+    "kana": "かんりシステム",
+    "senses": [
+      {
+        "sense_id": 366531,
+        "meaning_vi": "hệ thống quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống quản lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122909,
+    "word": "管理ツール",
+    "kana": "かんりツール",
+    "senses": [
+      {
+        "sense_id": 366532,
+        "meaning_vi": "công cụ quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "công cụ quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công cụ quản lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122910,
+    "word": "管理開放型システム",
+    "kana": "かんりかいほうがたシステム",
+    "senses": [
+      {
+        "sense_id": 366533,
+        "meaning_vi": "quản lý hệ thống mở",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý hệ thống mở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý hệ thống mở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

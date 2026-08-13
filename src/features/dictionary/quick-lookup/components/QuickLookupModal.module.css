@@ -20,10 +20,10 @@
 
     overflow: hidden;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 
     box-shadow:
         0 16px 48px rgba(15, 23, 42, 0.16),
@@ -43,20 +43,20 @@
 
     padding: 0 20px;
 
-    border-bottom: 1px solid #eceef2;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .header h2 {
     margin: 0;
 
-    color: #15213a;
+    color: var(--color-text-primary);
 
     font-size: 18px;
     font-weight: 800;
 }
 
 .header h2 span {
-    color: #2563eb;
+    color: var(--color-primary);
 }
 
 .closeButton {
@@ -67,11 +67,11 @@
     width: 36px;
     height: 36px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 999px;
 
-    background: #f6f9ff;
-    color: #6b7280;
+    background: var(--color-surface-muted);
+    color: var(--color-text-secondary);
 
     cursor: pointer;
 
@@ -79,8 +79,8 @@
 }
 
 .closeButton:hover {
-    background: #edf4ff;
-    color: #15213a;
+    background: var(--color-primary-soft);
+    color: var(--color-text-primary);
 }
 
 /* ── Main tabs ── */
@@ -94,8 +94,8 @@
 
     padding: 0 20px;
 
-    border-bottom: 1px solid #eceef2;
-    background: #ffffff;
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-surface);
 
     overflow-x: auto;
     scrollbar-width: none;
@@ -114,7 +114,7 @@
     padding: 8px 14px;
 
     background: transparent;
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 14px;
     font-weight: 700;
@@ -125,14 +125,14 @@
 }
 
 .tabButton:hover {
-    background: #f4f7ff;
-    color: #2563eb;
+    background: var(--color-surface-muted);
+    color: var(--color-primary);
 }
 
 .activeTab {
-    border-color: #eceef2;
-    background: #ffffff;
-    color: #15213a;
+    border-color: var(--color-border);
+    background: var(--color-surface);
+    color: var(--color-text-primary);
 
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
 }
@@ -146,13 +146,13 @@
 
     padding: 18px;
 
-    background: #F7F8FA;
+    background: var(--color-bg);
     box-sizing: border-box;
 }
 
 .kanjiContentScroll {
     padding: 0 18px 18px;
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .embeddedContentInner {
@@ -162,7 +162,7 @@
 .kanjiContentScroll .embeddedContentInner {
     width: 100%;
     min-width: 0;
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 /* ── Empty state ── */
@@ -177,8 +177,8 @@
 
     padding: 32px;
 
-    background: #ffffff;
-    color: #6b7280;
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
 
     text-align: center;
     box-sizing: border-box;
@@ -187,7 +187,7 @@
 .emptyTab h3 {
     margin: 0 0 8px;
 
-    color: #15213a;
+    color: var(--color-text-primary);
 
     font-size: 20px;
     font-weight: 800;
@@ -212,8 +212,8 @@
     margin: 0 -18px;
     padding: 0 18px;
 
-    border-bottom: 1px solid #eceef2;
-    background: #ffffff;
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-surface);
 
     overflow-x: auto;
     scrollbar-width: none;
@@ -231,7 +231,7 @@
     border: none;
 
     background: transparent;
-    color: #2563eb;
+    color: var(--color-primary);
 
     font-size: 18px;
     font-weight: 900;
@@ -250,7 +250,7 @@
     height: 3px;
 
     border-radius: 999px;
-    background: #2563eb;
+    background: var(--color-primary);
 }
 
 /* ── Loading skeleton ── */
@@ -263,13 +263,13 @@
     height: calc(100% - 62px);
     padding: 28px 24px;
 
-    background: #f7f8fa;
+    background: var(--color-bg);
     box-sizing: border-box;
 }
 
 .skeleton {
     border-radius: 8px;
-    background: linear-gradient(90deg, #e5eaf2 25%, #eef1f7 50%, #e5eaf2 75%);
+    background: linear-gradient(90deg, var(--color-border) 25%, var(--color-surface-muted) 50%, var(--color-border) 75%);
     background-size: 400% 100%;
     animation: skeletonShimmer 1.4s ease-in-out infinite;
 }

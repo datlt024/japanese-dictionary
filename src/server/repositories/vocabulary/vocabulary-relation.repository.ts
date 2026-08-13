@@ -28,4 +28,5 @@ export function findVocabularyRelationsByVocabularyId(
         .eq("vocabulary_id", vocabularyId)
         .order("confidence", { ascending: false })
         .order("id", { ascending: true })
+        .limit(50)
 }

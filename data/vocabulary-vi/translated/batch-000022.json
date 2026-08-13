@@ -1,354 +1,787 @@
 [
-{
-"vocabulary_id": 421,
-"word": "ごちゃごちゃ",
-"kana": "ごちゃごちゃ",
-"senses": [
-{
-"sense_id": 217923,
-"meaning_vi": "lộn xộn",
-"confidence": "high",
-"search_keywords": [
-"lộn xộn",
-"hỗn loạn",
-"bừa bộn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lộn xộn; hỗn loạn; bừa bộn; rối tung",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217924,
-"meaning_vi": "cằn nhằn",
-"confidence": "high",
-"search_keywords": [
-"cằn nhằn",
-"than phiền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cằn nhằn; phàn nàn đủ điều",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 422,
-"word": "ごっこ",
-"kana": "ごっこ",
-"senses": [
-{
-"sense_id": 217925,
-"meaning_vi": "trò đóng vai",
-"confidence": "high",
-"search_keywords": [
-"trò đóng vai",
-"chơi giả vờ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trò đóng vai; trò chơi giả vờ cùng nhau",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 423,
-"word": "ごった",
-"kana": "ごった",
-"senses": [
-{
-"sense_id": 217926,
-"meaning_vi": "hỗn độn",
-"confidence": "medium",
-"search_keywords": [
-"hỗn độn",
-"lộn xộn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự hỗn độn; tình trạng lộn xộn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 424,
-"word": "ごった返す",
-"kana": "ごったがえす",
-"senses": [
-{
-"sense_id": 217927,
-"meaning_vi": "đông nghịt",
-"confidence": "high",
-"search_keywords": [
-"đông nghịt",
-"chen chúc",
-"hỗn loạn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đông nghịt người; náo loạn; hỗn độn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 425,
-"word": "ゴボゴボ",
-"kana": "ゴボゴボ",
-"senses": [
-{
-"sense_id": 217928,
-"meaning_vi": "ọc ọc",
-"confidence": "high",
-"search_keywords": [
-"ọc ọc",
-"sủi bọt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiếng nước sủi bọt; tiếng ọc ọc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 426,
-"word": "誤魔化し",
-"kana": "ごまかし",
-"senses": [
-{
-"sense_id": 217929,
-"meaning_vi": "sự gian dối",
-"confidence": "high",
-"search_keywords": [
-"gian dối",
-"lừa dối",
-"ngụy tạo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự gian dối; lừa bịp; che mắt; làm qua loa để đối phó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 427,
-"word": "ゴミ入れ",
-"kana": "ごみいれ",
-"senses": [
-{
-"sense_id": 217930,
-"meaning_vi": "thùng rác",
-"confidence": "high",
-"search_keywords": [
-"thùng rác",
-"sọt rác"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thùng rác; sọt rác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 428,
-"word": "ゴミ箱",
-"kana": "ごみばこ",
-"senses": [
-{
-"sense_id": 217931,
-"meaning_vi": "thùng rác",
-"confidence": "high",
-"search_keywords": [
-"thùng rác",
-"sọt rác"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thùng rác; sọt rác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 429,
-"word": "ゴロゴロ",
-"kana": "ゴロゴロ",
-"senses": [
-{
-"sense_id": 217932,
-"meaning_vi": "ầm ầm",
-"confidence": "high",
-"search_keywords": [
-"ầm ầm",
-"gầm gừ",
-"rì rầm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiếng sấm; tiếng bụng réo; tiếng gầm gừ hoặc tiếng mèo rừ rừ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217933,
-"meaning_vi": "lăn lông lốc",
-"confidence": "high",
-"search_keywords": [
-"lăn",
-"lăn lông lốc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lăn qua lăn lại của vật lớn hoặc nặng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217934,
-"meaning_vi": "đầy rẫy",
-"confidence": "high",
-"search_keywords": [
-"đầy rẫy",
-"khắp nơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có ở khắp nơi; xuất hiện rất nhiều",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217935,
-"meaning_vi": "nằm không",
-"confidence": "high",
-"search_keywords": [
-"nằm không",
-"lười biếng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ở không; lười biếng; không làm gì",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217936,
-"meaning_vi": "cộm vướng",
-"confidence": "medium",
-"search_keywords": [
-"cộm",
-"vướng víu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm giác có vật lạ gây khó chịu trong mắt, bụng...",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217937,
-"meaning_vi": "sấm sét",
-"confidence": "medium",
-"search_keywords": [
-"sấm",
-"sấm sét"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sấm; tiếng sấm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 430,
-"word": "ご苦労様",
-"kana": "ごくろうさま",
-"senses": [
-{
-"sense_id": 217938,
-"meaning_vi": "vất vả rồi",
-"confidence": "high",
-"search_keywords": [
-"vất vả rồi",
-"cảm ơn vì đã vất vả"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm ơn vì đã vất vả; thường dùng với cấp dưới",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 431,
-"word": "ご苦労さん",
-"kana": "ごくろうさん",
-"senses": [
-{
-"sense_id": 217939,
-"meaning_vi": "vất vả rồi",
-"confidence": "high",
-"search_keywords": [
-"vất vả rồi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm ơn vì đã vất vả",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 421,
+    "word": "ごちゃごちゃ",
+    "kana": "ごちゃごちゃ",
+    "senses": [
+      {
+        "sense_id": 217923,
+        "meaning_vi": "lộn xộn; bối rối; hỗn loạn; mất trật tự; trộn lẫn; lộn xộn lên",
+        "confidence": "high",
+        "search_keywords": [
+          "lộn xộn",
+          "bối rối",
+          "hỗn loạn",
+          "mất trật tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lộn xộn; bối rối; hỗn loạn; mất trật tự; trộn lẫn; lộn xộn lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217924,
+        "meaning_vi": "một cách dai dẳng; (than phiền) về nhiều thứ khác nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "một cách dai dẳng",
+          "(than phiền) về nhiều thứ khác nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cách dai dẳng; (than phiền) về nhiều thứ khác nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 422,
+    "word": "ごっこ",
+    "kana": "ごっこ",
+    "senses": [
+      {
+        "sense_id": 217925,
+        "meaning_vi": "chơi ở (cái gì đó); trò chơi giả vờ; điều gì đó được thực hiện cùng nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "chơi ở (cái gì đó)",
+          "trò chơi giả vờ",
+          "điều gì đó được thực hiện cùng nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chơi ở (cái gì đó); trò chơi giả vờ; điều gì đó được thực hiện cùng nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 423,
+    "word": "ごった",
+    "kana": "ごった",
+    "senses": [
+      {
+        "sense_id": 217926,
+        "meaning_vi": "lú lẫn; sự lộn xộn; trộn; trò chuyện cùng nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "lú lẫn",
+          "sự lộn xộn",
+          "trộn",
+          "trò chuyện cùng nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lú lẫn; sự lộn xộn; trộn; trò chuyện cùng nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 424,
+    "word": "ごった返す",
+    "kana": "ごったがえす",
+    "senses": [
+      {
+        "sense_id": 217927,
+        "meaning_vi": "bị bối rối hoặc hỗn loạn; ở trong tình trạng hỗn loạn; trở nên đông đúc hoặc ùn tắc với mọi người",
+        "confidence": "high",
+        "search_keywords": [
+          "bị bối rối hoặc hỗn loạn",
+          "ở trong tình trạng hỗn loạn",
+          "trở nên đông đúc hoặc ùn tắc với mọi người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị bối rối hoặc hỗn loạn; ở trong tình trạng hỗn loạn; trở nên đông đúc hoặc ùn tắc với mọi người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 425,
+    "word": "ゴボゴボ",
+    "kana": "ゴボゴボ",
+    "senses": [
+      {
+        "sense_id": 217928,
+        "meaning_vi": "tiếng róc rách (ví dụ như tiếng nước); sủi bọt; sủi bọt; bám chặt",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng róc rách (ví dụ như tiếng nước)",
+          "sủi bọt",
+          "bám chặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng róc rách (ví dụ như tiếng nước); sủi bọt; sủi bọt; bám chặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 426,
+    "word": "誤魔化し",
+    "kana": "ごまかし",
+    "senses": [
+      {
+        "sense_id": 217929,
+        "meaning_vi": "gian lận; lừa dối; thủ đoạn; thao tác; tung hứng; giả mạo; giả tạo; ngụy trang; khói và gương; cắt góc",
+        "confidence": "high",
+        "search_keywords": [
+          "gian lận",
+          "lừa dối",
+          "thủ đoạn",
+          "thao tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gian lận; lừa dối; thủ đoạn; thao tác; tung hứng; giả mạo; giả tạo; ngụy trang; khói và gương; cắt góc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 427,
+    "word": "ゴミ入れ",
+    "kana": "ごみいれ",
+    "senses": [
+      {
+        "sense_id": 217930,
+        "meaning_vi": "thùng rác; thùng rác; thùng rác; thùng đựng tro",
+        "confidence": "high",
+        "search_keywords": [
+          "thùng rác",
+          "thùng đựng tro"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thùng rác; thùng rác; thùng rác; thùng đựng tro",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 428,
+    "word": "ゴミ箱",
+    "kana": "ごみばこ",
+    "senses": [
+      {
+        "sense_id": 217931,
+        "meaning_vi": "thùng rác; thùng rác; thùng rác; thùng rác",
+        "confidence": "high",
+        "search_keywords": [
+          "thùng rác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thùng rác; thùng rác; thùng rác; thùng rác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 429,
+    "word": "ゴロゴロ",
+    "kana": "ゴロゴロ",
+    "senses": [
+      {
+        "sense_id": 217932,
+        "meaning_vi": "ầm ầm (sấm sét, dạ dày của một người, v.v.); càu nhàu; gầm gừ; rừ rừ",
+        "confidence": "high",
+        "search_keywords": [
+          "ầm ầm (sấm sét, dạ dày của một người, v.v.)",
+          "càu nhàu",
+          "gầm gừ",
+          "rừ rừ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ầm ầm (sấm sét, dạ dày của một người, v.v.); càu nhàu; gầm gừ; rừ rừ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217933,
+        "meaning_vi": "lăn (của một cái gì đó lớn và nặng); nhào lộn",
+        "confidence": "high",
+        "search_keywords": [
+          "lăn (của một cái gì đó lớn và nặng)",
+          "nhào lộn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lăn (của một cái gì đó lớn và nặng); nhào lộn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217934,
+        "meaning_vi": "khắp nơi; ở khắp mọi nơi; thông thường; với số lượng lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "khắp nơi",
+          "ở khắp mọi nơi",
+          "thông thường",
+          "với số lượng lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khắp nơi; ở khắp mọi nơi; thông thường; với số lượng lớn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217935,
+        "meaning_vi": "nhàn rỗi; lười biếng; một cách lười biếng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhàn rỗi",
+          "lười biếng",
+          "một cách lười biếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhàn rỗi; lười biếng; một cách lười biếng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217936,
+        "meaning_vi": "(cảm giác khó chịu) có vật lạ trong mắt, dạ dày, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "(cảm giác khó chịu) có vật lạ trong mắt, dạ dày, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cảm giác khó chịu) có vật lạ trong mắt, dạ dày, v.v.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217937,
+        "meaning_vi": "sấm sét",
+        "confidence": "high",
+        "search_keywords": [
+          "sấm sét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sấm sét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 430,
+    "word": "ご苦労様",
+    "kana": "ごくろうさま",
+    "senses": [
+      {
+        "sense_id": 217938,
+        "meaning_vi": "cảm ơn bạn (vì đã làm việc chăm chỉ); Tôi đánh giá cao nỗ lực của bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm ơn bạn (vì đã làm việc chăm chỉ)",
+          "Tôi đánh giá cao nỗ lực của bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm ơn bạn (vì đã làm việc chăm chỉ); Tôi đánh giá cao nỗ lực của bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 431,
+    "word": "ご苦労さん",
+    "kana": "ごくろうさん",
+    "senses": [
+      {
+        "sense_id": 217939,
+        "meaning_vi": "Tôi đánh giá cao nỗ lực của bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "Tôi đánh giá cao nỗ lực của bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tôi đánh giá cao nỗ lực của bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 432,
+    "word": "ご兄弟",
+    "kana": "ごきょうだい",
+    "senses": [
+      {
+        "sense_id": 217940,
+        "meaning_vi": "anh chị em ruột; anh chị em",
+        "confidence": "high",
+        "search_keywords": [
+          "anh chị em ruột",
+          "anh chị em"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anh chị em ruột; anh chị em",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 433,
+    "word": "ご心配なく",
+    "kana": "ごしんぱいなく",
+    "senses": [
+      {
+        "sense_id": 217941,
+        "meaning_vi": "Đừng lo; đừng lo lắng; đừng bận tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "Đừng lo",
+          "đừng lo lắng",
+          "đừng bận tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đừng lo; đừng lo lắng; đừng bận tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 434,
+    "word": "ご馳走様でした",
+    "kana": "ごちそうさまでした",
+    "senses": [
+      {
+        "sense_id": 217942,
+        "meaning_vi": "cảm ơn vì bữa ăn; đó là một bữa ăn ngon; thật là một bữa ăn tuyệt vời",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm ơn vì bữa ăn",
+          "đó là một bữa ăn ngon",
+          "thật là một bữa ăn tuyệt vời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm ơn vì bữa ăn; đó là một bữa ăn ngon; thật là một bữa ăn tuyệt vời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 435,
+    "word": "ご注意",
+    "kana": "ごちゅうい",
+    "senses": [
+      {
+        "sense_id": 217943,
+        "meaning_vi": "chú ý; để ý; chú ý",
+        "confidence": "high",
+        "search_keywords": [
+          "chú ý",
+          "để ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chú ý; để ý; chú ý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217944,
+        "meaning_vi": "chăm sóc; thận trọng; đề phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "chăm sóc",
+          "thận trọng",
+          "đề phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chăm sóc; thận trọng; đề phòng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217945,
+        "meaning_vi": "khuyên bảo; cảnh báo; thận trọng",
+        "confidence": "high",
+        "search_keywords": [
+          "khuyên bảo",
+          "cảnh báo",
+          "thận trọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuyên bảo; cảnh báo; thận trọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 436,
+    "word": "ご覧ください",
+    "kana": "ごらんください",
+    "senses": [
+      {
+        "sense_id": 217946,
+        "meaning_vi": "xin vui lòng nhìn vào nó",
+        "confidence": "high",
+        "search_keywords": [
+          "xin vui lòng nhìn vào nó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xin vui lòng nhìn vào nó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 437,
+    "word": "さあ",
+    "kana": "さあ",
+    "senses": [
+      {
+        "sense_id": 217947,
+        "meaning_vi": "Thôi nào); đến ngay bây giờ; đi cùng ; ở đây",
+        "confidence": "high",
+        "search_keywords": [
+          "Thôi nào)",
+          "đến ngay bây giờ",
+          "đi cùng",
+          "ở đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thôi nào); đến ngay bây giờ; đi cùng ; ở đây",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217948,
+        "meaning_vi": "được rồi; Phải; được rồi; Hiện nay; đây rồi",
+        "confidence": "high",
+        "search_keywords": [
+          "được rồi",
+          "Phải",
+          "Hiện nay",
+          "đây rồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được rồi; Phải; được rồi; Hiện nay; đây rồi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217949,
+        "meaning_vi": "Tốt; ừm; ờ; hãy xem nào; tôi không chắc",
+        "confidence": "high",
+        "search_keywords": [
+          "Tốt",
+          "ừm",
+          "ờ",
+          "hãy xem nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tốt; ừm; ờ; hãy xem nào; tôi không chắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217950,
+        "meaning_vi": "đây; Hiện nay; đó (chúng tôi đi); à; ồ",
+        "confidence": "high",
+        "search_keywords": [
+          "đây",
+          "Hiện nay",
+          "đó (chúng tôi đi)",
+          "à"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đây; Hiện nay; đó (chúng tôi đi); à; ồ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217951,
+        "meaning_vi": "về điều đó, ...; thực ra,...",
+        "confidence": "high",
+        "search_keywords": [
+          "về điều đó, ...",
+          "thực ra,..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "về điều đó, ...; thực ra,...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 438,
+    "word": "さえ",
+    "kana": "さえ",
+    "senses": [
+      {
+        "sense_id": 217952,
+        "meaning_vi": "thậm chí",
+        "confidence": "high",
+        "search_keywords": [
+          "thậm chí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thậm chí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217953,
+        "meaning_vi": "(nếu) chỉ; chỉ; miễn là",
+        "confidence": "high",
+        "search_keywords": [
+          "(nếu) chỉ",
+          "chỉ",
+          "miễn là"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(nếu) chỉ; chỉ; miễn là",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217954,
+        "meaning_vi": "bên cạnh đó; trên hết; còn gì nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "bên cạnh đó",
+          "trên hết",
+          "còn gì nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên cạnh đó; trên hết; còn gì nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 439,
+    "word": "サクサク",
+    "kana": "サクサク",
+    "senses": [
+      {
+        "sense_id": 217955,
+        "meaning_vi": "giòn (không ẩm hoặc ngon ngọt); giòn; dễ vỡ (như trong bánh ngọt)",
+        "confidence": "high",
+        "search_keywords": [
+          "giòn (không ẩm hoặc ngon ngọt)",
+          "giòn",
+          "dễ vỡ (như trong bánh ngọt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giòn (không ẩm hoặc ngon ngọt); giòn; dễ vỡ (như trong bánh ngọt)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217956,
+        "meaning_vi": "tiếng lạo xạo (khi đi trên tuyết, sương giá, cát, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng lạo xạo (khi đi trên tuyết, sương giá, cát, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng lạo xạo (khi đi trên tuyết, sương giá, cát, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217957,
+        "meaning_vi": "làm khéo léo và hiệu quả; làm nhanh chóng; tiến hành suôn sẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "làm khéo léo và hiệu quả",
+          "làm nhanh chóng",
+          "tiến hành suôn sẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm khéo léo và hiệu quả; làm nhanh chóng; tiến hành suôn sẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217958,
+        "meaning_vi": "âm thanh đổ chất lỏng",
+        "confidence": "high",
+        "search_keywords": [
+          "âm thanh đổ chất lỏng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm thanh đổ chất lỏng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217959,
+        "meaning_vi": "nói rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "nói rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 440,
+    "word": "ささくれる",
+    "kana": "ささくれる",
+    "senses": [
+      {
+        "sense_id": 217960,
+        "meaning_vi": "để chia nhỏ; để vỡ vụn; bị sờn",
+        "confidence": "high",
+        "search_keywords": [
+          "để chia nhỏ",
+          "để vỡ vụn",
+          "bị sờn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để chia nhỏ; để vỡ vụn; bị sờn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217961,
+        "meaning_vi": "trở nên cáu kỉnh",
+        "confidence": "high",
+        "search_keywords": [
+          "trở nên cáu kỉnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở nên cáu kỉnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

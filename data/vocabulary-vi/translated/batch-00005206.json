@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 124667,
+    "word": "図形処理",
+    "kana": "ずけいしょり",
+    "senses": [
+      {
+        "sense_id": 368304,
+        "meaning_vi": "đồ họa máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "đồ họa máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồ họa máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124668,
+    "word": "図形表示装置",
+    "kana": "ずけいひょうじそうち",
+    "senses": [
+      {
+        "sense_id": 368305,
+        "meaning_vi": "màn hình đồ họa (thiết bị)",
+        "confidence": "high",
+        "search_keywords": [
+          "màn hình đồ họa (thiết bị)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màn hình đồ họa (thiết bị)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124669,
+    "word": "図形文字",
+    "kana": "ずけいもじ",
+    "senses": [
+      {
+        "sense_id": 368306,
+        "meaning_vi": "nhân vật đồ họa",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật đồ họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật đồ họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124670,
+    "word": "図形文字列",
+    "kana": "ずけいもじれつ",
+    "senses": [
+      {
+        "sense_id": 368307,
+        "meaning_vi": "chuỗi ký tự đồ họa",
+        "confidence": "high",
+        "search_keywords": [
+          "chuỗi ký tự đồ họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuỗi ký tự đồ họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124671,
+    "word": "図形要素",
+    "kana": "ずけいようそ",
+    "senses": [
+      {
+        "sense_id": 368308,
+        "meaning_vi": "yếu tố đồ họa",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu tố đồ họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu tố đồ họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124672,
+    "word": "図書館システム",
+    "kana": "としょかんシステム",
+    "senses": [
+      {
+        "sense_id": 368309,
+        "meaning_vi": "hệ thống thư viện",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống thư viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống thư viện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124673,
+    "word": "図書館ネットワーク",
+    "kana": "としょかんネットワーク",
+    "senses": [
+      {
+        "sense_id": 368310,
+        "meaning_vi": "mạng lưới thư viện",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng lưới thư viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng lưới thư viện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124674,
+    "word": "図表一覧",
+    "kana": "ずひょういちらん",
+    "senses": [
+      {
+        "sense_id": 368311,
+        "meaning_vi": "danh sách minh họa",
+        "confidence": "high",
+        "search_keywords": [
+          "danh sách minh họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh sách minh họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124675,
+    "word": "垂直パリティ",
+    "kana": "すいちょくパリティ",
+    "senses": [
+      {
+        "sense_id": 368312,
+        "meaning_vi": "sự ngang bằng bên",
+        "confidence": "high",
+        "search_keywords": [
+          "sự ngang bằng bên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự ngang bằng bên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124676,
+    "word": "垂直パリティチェック",
+    "kana": "すいちょくパリティチェック",
+    "senses": [
+      {
+        "sense_id": 368313,
+        "meaning_vi": "VRC; Kiểm tra dự phòng dọc",
+        "confidence": "high",
+        "search_keywords": [
+          "VRC",
+          "Kiểm tra dự phòng dọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "VRC; Kiểm tra dự phòng dọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124677,
+    "word": "垂直磁気記録",
+    "kana": "すいちょくじききろく",
+    "senses": [
+      {
+        "sense_id": 368314,
+        "meaning_vi": "ghi từ vuông góc; ghi từ dọc",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi từ vuông góc",
+          "ghi từ dọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi từ vuông góc; ghi từ dọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124678,
+    "word": "垂直冗長検査",
+    "kana": "すいちょくじょうちょうけんさ",
+    "senses": [
+      {
+        "sense_id": 368315,
+        "meaning_vi": "Kiểm tra dự phòng dọc; VRC",
+        "confidence": "high",
+        "search_keywords": [
+          "Kiểm tra dự phòng dọc",
+          "VRC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kiểm tra dự phòng dọc; VRC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124679,
+    "word": "垂直走査周波数",
+    "kana": "すいちょくそうさしゅうはすう",
+    "senses": [
+      {
+        "sense_id": 368316,
+        "meaning_vi": "tần số quét dọc",
+        "confidence": "high",
+        "search_keywords": [
+          "tần số quét dọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tần số quét dọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124680,
+    "word": "垂直同期信号",
+    "kana": "すいちょくどうきしんごう",
+    "senses": [
+      {
+        "sense_id": 368317,
+        "meaning_vi": "tín hiệu đồng bộ dọc; VSYNC",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu đồng bộ dọc",
+          "VSYNC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu đồng bộ dọc; VSYNC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124681,
+    "word": "垂直方向書式送り",
+    "kana": "すいちょくほうこうしょしきおくり",
+    "senses": [
+      {
+        "sense_id": 368318,
+        "meaning_vi": "lập bảng theo chiều dọc; VT",
+        "confidence": "high",
+        "search_keywords": [
+          "lập bảng theo chiều dọc",
+          "VT"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lập bảng theo chiều dọc; VT",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124682,
+    "word": "推定データ",
+    "kana": "すいていデータ",
+    "senses": [
+      {
+        "sense_id": 368319,
+        "meaning_vi": "dữ liệu ước tính",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu ước tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu ước tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124683,
+    "word": "推定値",
+    "kana": "すいていち",
+    "senses": [
+      {
+        "sense_id": 368320,
+        "meaning_vi": "giá trị ước tính",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị ước tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị ước tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124684,
+    "word": "推論エンジン",
+    "kana": "すいろんエンジン",
+    "senses": [
+      {
+        "sense_id": 368321,
+        "meaning_vi": "công cụ suy luận",
+        "confidence": "high",
+        "search_keywords": [
+          "công cụ suy luận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công cụ suy luận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124685,
+    "word": "水平ピッチ",
+    "kana": "すいへいピッチ",
+    "senses": [
+      {
+        "sense_id": 368322,
+        "meaning_vi": "sân ngang",
+        "confidence": "high",
+        "search_keywords": [
+          "sân ngang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sân ngang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124686,
+    "word": "水平ローディング",
+    "kana": "すいへいローディング",
+    "senses": [
+      {
+        "sense_id": 368323,
+        "meaning_vi": "tải ngang",
+        "confidence": "high",
+        "search_keywords": [
+          "tải ngang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tải ngang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

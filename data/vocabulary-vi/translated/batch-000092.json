@@ -1,542 +1,523 @@
 [
-{
-"vocabulary_id": 2482,
-"word": "ＳＯＳ",
-"kana": "エス・オー・エス",
-"senses": [
-{
-"sense_id": 220753,
-"meaning_vi": "tín hiệu SOS",
-"confidence": "high",
-"search_keywords": [
-"SOS",
-"tín hiệu cầu cứu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tín hiệu cấp cứu, cầu cứu khẩn cấp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2483,
-"word": "エスカルゴ",
-"kana": "エスカルゴ",
-"senses": [
-{
-"sense_id": 220754,
-"meaning_vi": "ốc sên ăn được",
-"confidence": "high",
-"search_keywords": [
-"ốc sên",
-"escargot"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ốc sên dùng làm thực phẩm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2484,
-"word": "エスカレーション",
-"kana": "エスカレーション",
-"senses": [
-{
-"sense_id": 220755,
-"meaning_vi": "leo thang",
-"confidence": "high",
-"search_keywords": [
-"leo thang",
-"gia tăng mức độ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự leo thang, gia tăng mức độ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2485,
-"word": "エスカレーター",
-"kana": "エスカレーター",
-"senses": [
-{
-"sense_id": 220756,
-"meaning_vi": "thang cuốn",
-"confidence": "high",
-"search_keywords": [
-"thang cuốn",
-"escalator"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thang cuốn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2486,
-"word": "エスカレート",
-"kana": "エスカレート",
-"senses": [
-{
-"sense_id": 220757,
-"meaning_vi": "leo thang",
-"confidence": "high",
-"search_keywords": [
-"leo thang",
-"trở nên nghiêm trọng hơn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "leo thang; trở nên ngày càng nghiêm trọng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2487,
-"word": "エスカロップ",
-"kana": "エスカロップ",
-"senses": [
-{
-"sense_id": 220758,
-"meaning_vi": "thịt cắt lát mỏng",
-"confidence": "medium",
-"search_keywords": [
-"escalope",
-"thịt cắt lát"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "món thịt cắt lát mỏng kiểu Âu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2488,
-"word": "エスキス",
-"kana": "エスキス",
-"senses": [
-{
-"sense_id": 220759,
-"meaning_vi": "phác thảo",
-"confidence": "high",
-"search_keywords": [
-"phác thảo",
-"bản nháp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bản phác thảo sơ bộ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2489,
-"word": "エスキモー",
-"kana": "エスキモー",
-"senses": [
-{
-"sense_id": 220760,
-"meaning_vi": "người Eskimo",
-"confidence": "medium",
-"search_keywords": [
-"Eskimo",
-"người Inuit"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người Eskimo ở vùng Bắc Cực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2490,
-"word": "エスクワイア",
-"kana": "エスクワイア",
-"senses": [
-{
-"sense_id": 220761,
-"meaning_vi": "ngài Esquire",
-"confidence": "medium",
-"search_keywords": [
-"Esquire",
-"tước hiệu Esquire"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "danh xưng Esquire dùng trong tiếng Anh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2491,
-"word": "エスケープ",
-"kana": "エスケープ",
-"senses": [
-{
-"sense_id": 220762,
-"meaning_vi": "trốn thoát",
-"confidence": "high",
-"search_keywords": [
-"trốn thoát",
-"thoát ra"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trốn thoát; thoát khỏi tình huống nào đó",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220763,
-"meaning_vi": "trốn học",
-"confidence": "medium",
-"search_keywords": [
-"trốn học",
-"cúp tiết"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cúp học, bỏ tiết (cách nói cũ)",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220764,
-"meaning_vi": "phím Esc",
-"confidence": "high",
-"search_keywords": [
-"phím Esc",
-"Escape key"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phím Escape trên bàn phím",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220765,
-"meaning_vi": "bộ thoát",
-"confidence": "low",
-"search_keywords": [
-"bộ thoát",
-"escapement"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơ cấu thoát trong đồng hồ cơ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2492,
-"word": "エスコート",
-"kana": "エスコート",
-"senses": [
-{
-"sense_id": 220766,
-"meaning_vi": "hộ tống",
-"confidence": "high",
-"search_keywords": [
-"hộ tống",
-"tháp tùng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hộ tống, tháp tùng ai đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2493,
-"word": "Ｓサイズ",
-"kana": "エスサイズ",
-"senses": [
-{
-"sense_id": 220767,
-"meaning_vi": "cỡ S",
-"confidence": "high",
-"search_keywords": [
-"cỡ S",
-"size nhỏ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kích cỡ nhỏ (size S)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2494,
-"word": "エスタブリッシュメント",
-"kana": "エスタブリッシュメント",
-"senses": [
-{
-"sense_id": 220768,
-"meaning_vi": "cơ cấu hiện hữu",
-"confidence": "medium",
-"search_keywords": [
-"establishment",
-"cơ cấu hiện hữu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hệ thống hoặc tổ chức đã được thiết lập",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220769,
-"meaning_vi": "giới cầm quyền",
-"confidence": "medium",
-"search_keywords": [
-"giới cầm quyền",
-"tầng lớp thống trị"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giới quyền lực, tầng lớp thống trị trong xã hội",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2495,
-"word": "エスツェット",
-"kana": "エスツェット",
-"senses": [
-{
-"sense_id": 220770,
-"meaning_vi": "chữ ß",
-"confidence": "medium",
-"search_keywords": [
-"chữ ß",
-"Eszett"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ký tự ß trong tiếng Đức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2496,
-"word": "エステート",
-"kana": "エステート",
-"senses": [
-{
-"sense_id": 220771,
-"meaning_vi": "bất động sản",
-"confidence": "high",
-"search_keywords": [
-"bất động sản",
-"estate"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tài sản, bất động sản",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2497,
-"word": "エステティシャン",
-"kana": "エステティシャン",
-"senses": [
-{
-"sense_id": 220772,
-"meaning_vi": "chuyên viên thẩm mỹ",
-"confidence": "high",
-"search_keywords": [
-"chuyên viên thẩm mỹ",
-"kỹ thuật viên spa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người làm công việc chăm sóc sắc đẹp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2498,
-"word": "エステティック",
-"kana": "エステティック",
-"senses": [
-{
-"sense_id": 220773,
-"meaning_vi": "thẩm mỹ",
-"confidence": "high",
-"search_keywords": [
-"thẩm mỹ",
-"chăm sóc sắc đẹp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dịch vụ chăm sóc sắc đẹp, thẩm mỹ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220774,
-"meaning_vi": "spa thẩm mỹ",
-"confidence": "high",
-"search_keywords": [
-"spa",
-"salon thẩm mỹ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiệm hoặc salon thẩm mỹ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2499,
-"word": "エステティックサロン",
-"kana": "エステティックサロン",
-"senses": [
-{
-"sense_id": 220775,
-"meaning_vi": "salon thẩm mỹ",
-"confidence": "high",
-"search_keywords": [
-"salon thẩm mỹ",
-"spa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cơ sở chăm sóc sắc đẹp và thẩm mỹ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2500,
-"word": "エステラーゼ",
-"kana": "エステラーゼ",
-"senses": [
-{
-"sense_id": 220776,
-"meaning_vi": "enzyme esterase",
-"confidence": "medium",
-"search_keywords": [
-"esterase",
-"enzyme esterase"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "enzyme xúc tác phân giải este",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2501,
-"word": "エステル",
-"kana": "エステル",
-"senses": [
-{
-"sense_id": 220777,
-"meaning_vi": "este",
-"confidence": "high",
-"search_keywords": [
-"este",
-"ester"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hợp chất este trong hóa học",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2482,
+    "word": "ＳＯＳ",
+    "kana": "エス・オー・エス",
+    "senses": [
+      {
+        "sense_id": 220753,
+        "meaning_vi": "SOS (tín hiệu cấp cứu)",
+        "confidence": "high",
+        "search_keywords": [
+          "SOS (tín hiệu cấp cứu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "SOS (tín hiệu cấp cứu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2483,
+    "word": "エスカルゴ",
+    "kana": "エスカルゴ",
+    "senses": [
+      {
+        "sense_id": 220754,
+        "meaning_vi": "(ăn được) ốc (đặc biệt là ốc La Mã, Helix pomatia)",
+        "confidence": "high",
+        "search_keywords": [
+          "(ăn được) ốc (đặc biệt là ốc La Mã, Helix pomatia)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(ăn được) ốc (đặc biệt là ốc La Mã, Helix pomatia)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2484,
+    "word": "エスカレーション",
+    "kana": "エスカレーション",
+    "senses": [
+      {
+        "sense_id": 220755,
+        "meaning_vi": "leo thang",
+        "confidence": "high",
+        "search_keywords": [
+          "leo thang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "leo thang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2485,
+    "word": "エスカレーター",
+    "kana": "エスカレーター",
+    "senses": [
+      {
+        "sense_id": 220756,
+        "meaning_vi": "thang cuốn",
+        "confidence": "high",
+        "search_keywords": [
+          "thang cuốn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thang cuốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2486,
+    "word": "エスカレート",
+    "kana": "エスカレート",
+    "senses": [
+      {
+        "sense_id": 220757,
+        "meaning_vi": "leo thang",
+        "confidence": "high",
+        "search_keywords": [
+          "leo thang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "leo thang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2487,
+    "word": "エスカロップ",
+    "kana": "エスカロップ",
+    "senses": [
+      {
+        "sense_id": 220758,
+        "meaning_vi": "thang cuốn",
+        "confidence": "high",
+        "search_keywords": [
+          "thang cuốn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thang cuốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2488,
+    "word": "エスキス",
+    "kana": "エスキス",
+    "senses": [
+      {
+        "sense_id": 220759,
+        "meaning_vi": "phác họa",
+        "confidence": "high",
+        "search_keywords": [
+          "phác họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phác họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2489,
+    "word": "エスキモー",
+    "kana": "エスキモー",
+    "senses": [
+      {
+        "sense_id": 220760,
+        "meaning_vi": "người Eskimo",
+        "confidence": "high",
+        "search_keywords": [
+          "người Eskimo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người Eskimo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2490,
+    "word": "エスクワイア",
+    "kana": "エスクワイア",
+    "senses": [
+      {
+        "sense_id": 220761,
+        "meaning_vi": "hỏi thăm",
+        "confidence": "high",
+        "search_keywords": [
+          "hỏi thăm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỏi thăm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2491,
+    "word": "エスケープ",
+    "kana": "エスケープ",
+    "senses": [
+      {
+        "sense_id": 220762,
+        "meaning_vi": "trốn thoát",
+        "confidence": "high",
+        "search_keywords": [
+          "trốn thoát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trốn thoát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220763,
+        "meaning_vi": "bỏ qua (một lớp học); lớp cắt; trường cắt; trốn học",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ qua (một lớp học)",
+          "lớp cắt",
+          "trường cắt",
+          "trốn học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ qua (một lớp học); lớp cắt; trường cắt; trốn học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220764,
+        "meaning_vi": "thoát (chìa khóa)",
+        "confidence": "high",
+        "search_keywords": [
+          "thoát (chìa khóa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thoát (chìa khóa)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220765,
+        "meaning_vi": "bộ thoát (cơ chế đồng hồ)",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ thoát (cơ chế đồng hồ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ thoát (cơ chế đồng hồ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2492,
+    "word": "エスコート",
+    "kana": "エスコート",
+    "senses": [
+      {
+        "sense_id": 220766,
+        "meaning_vi": "hộ tống",
+        "confidence": "high",
+        "search_keywords": [
+          "hộ tống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộ tống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2493,
+    "word": "Ｓサイズ",
+    "kana": "エスサイズ",
+    "senses": [
+      {
+        "sense_id": 220767,
+        "meaning_vi": "cỡ S; kích thước nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "cỡ S",
+          "kích thước nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cỡ S; kích thước nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2494,
+    "word": "エスタブリッシュメント",
+    "kana": "エスタブリッシュメント",
+    "senses": [
+      {
+        "sense_id": 220768,
+        "meaning_vi": "thành lập",
+        "confidence": "high",
+        "search_keywords": [
+          "thành lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành lập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220769,
+        "meaning_vi": "Cơ sở",
+        "confidence": "high",
+        "search_keywords": [
+          "Cơ sở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cơ sở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2495,
+    "word": "エスツェット",
+    "kana": "エスツェット",
+    "senses": [
+      {
+        "sense_id": 220770,
+        "meaning_vi": "eszett (chữ cái tiếng Đức)",
+        "confidence": "high",
+        "search_keywords": [
+          "eszett (chữ cái tiếng Đức)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "eszett (chữ cái tiếng Đức)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2496,
+    "word": "エステート",
+    "kana": "エステート",
+    "senses": [
+      {
+        "sense_id": 220771,
+        "meaning_vi": "bất động sản",
+        "confidence": "high",
+        "search_keywords": [
+          "bất động sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất động sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2497,
+    "word": "エステティシャン",
+    "kana": "エステティシャン",
+    "senses": [
+      {
+        "sense_id": 220772,
+        "meaning_vi": "chuyên gia thẩm mỹ",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyên gia thẩm mỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyên gia thẩm mỹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2498,
+    "word": "エステティック",
+    "kana": "エステティック",
+    "senses": [
+      {
+        "sense_id": 220773,
+        "meaning_vi": "điều trị sắc đẹp; thẩm mỹ",
+        "confidence": "high",
+        "search_keywords": [
+          "điều trị sắc đẹp",
+          "thẩm mỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều trị sắc đẹp; thẩm mỹ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220774,
+        "meaning_vi": "thẩm mỹ viện",
+        "confidence": "high",
+        "search_keywords": [
+          "thẩm mỹ viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẩm mỹ viện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2499,
+    "word": "エステティックサロン",
+    "kana": "エステティックサロン",
+    "senses": [
+      {
+        "sense_id": 220775,
+        "meaning_vi": "thẩm mỹ viện; phòng khám thẩm mỹ",
+        "confidence": "high",
+        "search_keywords": [
+          "thẩm mỹ viện",
+          "phòng khám thẩm mỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thẩm mỹ viện; phòng khám thẩm mỹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2500,
+    "word": "エステラーゼ",
+    "kana": "エステラーゼ",
+    "senses": [
+      {
+        "sense_id": 220776,
+        "meaning_vi": "esterase",
+        "confidence": "low",
+        "search_keywords": [
+          "esterase"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "esterase",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2501,
+    "word": "エステル",
+    "kana": "エステル",
+    "senses": [
+      {
+        "sense_id": 220777,
+        "meaning_vi": "este",
+        "confidence": "high",
+        "search_keywords": [
+          "este"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "este",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,9 +1,12 @@
 "use client"
 
 import {
+    useEffect,
+    useRef,
     useState,
 } from "react"
 
+import Link from "next/link"
 import {
     usePathname,
     useRouter,
@@ -14,6 +17,8 @@ import styles from "./Header.module.css"
 
 import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
 import { useAuth } from "@/features/auth/hooks/useAuth"
+
+import { Bell } from "lucide-react"
 
 import {
     DictionaryLanguage,
@@ -33,6 +38,14 @@ export default function Header({
     const searchParams = useSearchParams()
 
     const [authOpen, setAuthOpen] = useState(false)
+    const [dropdownOpen, setDropdownOpen] = useState(false)
+    const [bellOpen, setBellOpen] = useState(false)
+
+    const authErrorFromUrl = searchParams.get("error") === "auth"
+        ? "Đăng nhập thất bại. Vui lòng thử lại."
+        : undefined
+    const dropdownRef = useRef<HTMLDivElement>(null)
+    const bellRef = useRef<HTMLDivElement>(null)
 
     const { user, loading, signOut } = useAuth()
 
@@ -40,49 +53,147 @@ export default function Header({
         searchParams.get("lang")
     )
 
+    useEffect(() => {
+        if (!dropdownOpen) return
+        function handleClickOutside(e: MouseEvent) {
+            if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+                setDropdownOpen(false)
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside)
+        return () => document.removeEventListener("mousedown", handleClickOutside)
+    }, [dropdownOpen])
+
+    useEffect(() => {
+        if (!bellOpen) return
+        function handleClickOutside(e: MouseEvent) {
+            if (bellRef.current && !bellRef.current.contains(e.target as Node)) {
+                setBellOpen(false)
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside)
+        return () => document.removeEventListener("mousedown", handleClickOutside)
+    }, [bellOpen])
+
     function handleLanguageChange(value: DictionaryLanguage) {
-        const params = new URLSearchParams(
-            searchParams.toString()
-        )
-
+        const params = new URLSearchParams(searchParams.toString())
         params.set("lang", value)
-
         router.replace(`${pathname}?${params.toString()}`)
     }
 
-    const userInitial = user?.email
-        ? user.email[0].toUpperCase()
-        : null
+    useEffect(() => {
+        if (!authErrorFromUrl) return
+        const params = new URLSearchParams(searchParams.toString())
+        params.delete("error")
+        const newUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname
+        router.replace(newUrl)
+    }, [authErrorFromUrl, searchParams, pathname, router])
+
+    async function handleSignOut() {
+        setDropdownOpen(false)
+        await signOut()
+    }
+
+    const userInitial = user?.email ? user.email[0].toUpperCase() : null
 
     return (
         <>
             <header className={styles.appHeader}>
                 <div className={styles.appHeaderLeft}>
                     <span className={styles.headerLogo}>
-                        m<span>あ</span>zii
+                        <span className={styles.headerLogoMark}>読</span>
+                        Yomi
                     </span>
 
                     <h1>{title}</h1>
                 </div>
 
                 <div className={styles.appHeaderActions}>
+                    <select
+                        className={styles.languageSelect}
+                        value={language}
+                        onChange={(event) =>
+                            handleLanguageChange(event.target.value as DictionaryLanguage)
+                        }
+                    >
+                        <option value="vi">{getDictionaryLanguageLabel("vi")}</option>
+                        <option value="en">{getDictionaryLanguageLabel("en")}</option>
+                    </select>
+
+                    <div className={styles.bellWrap} ref={bellRef}>
+                        <button
+                            type="button"
+                            className={`${styles.iconButton} ${bellOpen ? styles.iconButtonActive : ""}`}
+                            aria-label="Thông báo"
+                            aria-expanded={bellOpen}
+                            onClick={() => setBellOpen((o) => !o)}
+                        >
+                            <Bell size={17} strokeWidth={2} />
+                        </button>
+
+                        {bellOpen && (
+                            <div className={styles.bellDropdown} role="dialog" aria-label="Thông báo">
+                                <div className={styles.bellDropdownHeader}>
+                                    <span className={styles.bellDropdownTitle}>Thông báo</span>
+                                </div>
+                                <div className={styles.bellEmpty}>
+                                    <Bell size={32} strokeWidth={1.5} className={styles.bellEmptyIcon} />
+                                    <p className={styles.bellEmptyText}>Tính năng thông báo sắp ra mắt</p>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+
+                    <Link href="/study?tab=so-tay" className={styles.iconButton} aria-label="Sổ tay & Chuỗi học">
+                        🔥
+                    </Link>
+
                     {!loading && (
                         user ? (
-                            <>
-                                <div
-                                    className={styles.userAvatar}
-                                    title={user.email ?? ""}
-                                >
-                                    {userInitial}
-                                </div>
+                            <div className={styles.userMenu} ref={dropdownRef}>
                                 <button
                                     type="button"
-                                    className={styles.registerButton}
-                                    onClick={signOut}
+                                    className={styles.userAvatar}
+                                    onClick={() => setDropdownOpen((o) => !o)}
+                                    aria-label="Mở menu tài khoản"
+                                    aria-expanded={dropdownOpen}
                                 >
-                                    Đăng xuất
+                                    {userInitial}
                                 </button>
-                            </>
+
+                                {dropdownOpen && (
+                                    <div className={styles.dropdown}>
+                                        <div className={styles.dropdownHeader}>
+                                            <div className={styles.dropdownAvatar}>{userInitial}</div>
+                                            <div className={styles.dropdownInfo}>
+                                                <span className={styles.dropdownEmail}>{user.email}</span>
+                                            </div>
+                                        </div>
+
+                                        <div className={styles.dropdownDivider} />
+
+                                        <Link
+                                            href="/account"
+                                            className={styles.dropdownItem}
+                                            onClick={() => setDropdownOpen(false)}
+                                        >
+                                            <span className={styles.dropdownIcon}>👤</span>
+                                            Hồ sơ & Tài khoản
+                                        </Link>
+
+                                        <div className={styles.dropdownDivider} />
+
+                                        <button
+                                            type="button"
+                                            className={`${styles.dropdownItem} ${styles.dropdownItemDanger}`}
+                                            onClick={handleSignOut}
+                                        >
+                                            <span className={styles.dropdownIcon}>↩</span>
+                                            Đăng xuất
+                                        </button>
+                                    </div>
+                                )}
+                            </div>
                         ) : (
                             <>
                                 <button
@@ -102,39 +213,14 @@ export default function Header({
                             </>
                         )
                     )}
-
-                    <select
-                        className={styles.languageSelect}
-                        value={language}
-                        onChange={(event) =>
-                            handleLanguageChange(
-                                event.target
-                                    .value as DictionaryLanguage
-                            )
-                        }
-                    >
-                        <option value="vi">
-                            {getDictionaryLanguageLabel("vi")}
-                        </option>
-
-                        <option value="en">
-                            {getDictionaryLanguageLabel("en")}
-                        </option>
-                    </select>
-
-                    <button type="button" className={styles.iconButton} aria-label="Thông báo">
-                        🔔
-                    </button>
-
-                    <button type="button" className={styles.iconButton} aria-label="Chuỗi học">
-                        🔥
-                    </button>
                 </div>
             </header>
 
             <AuthModal
-                open={authOpen}
+                key={authErrorFromUrl ?? "noerror"}
+                open={authOpen || !!authErrorFromUrl}
                 onClose={() => setAuthOpen(false)}
+                initialError={authErrorFromUrl}
             />
         </>
     )

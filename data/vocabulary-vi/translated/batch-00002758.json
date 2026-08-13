@@ -1,0 +1,510 @@
+[
+  {
+    "vocabulary_id": 70742,
+    "word": "顔つなぎ",
+    "kana": "かおつなぎ",
+    "senses": [
+      {
+        "sense_id": 308885,
+        "meaning_vi": "duy trì liên lạc (với); giữ liên lạc (với); giữ liên lạc (với); làm cho mình được nhìn thấy",
+        "confidence": "high",
+        "search_keywords": [
+          "duy trì liên lạc (với)",
+          "giữ liên lạc (với)",
+          "làm cho mình được nhìn thấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "duy trì liên lạc (với); giữ liên lạc (với); giữ liên lạc (với); làm cho mình được nhìn thấy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308886,
+        "meaning_vi": "giới thiệu (người chưa quen); làm quen (với nhau)",
+        "confidence": "high",
+        "search_keywords": [
+          "giới thiệu (người chưa quen)",
+          "làm quen (với nhau)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giới thiệu (người chưa quen); làm quen (với nhau)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70743,
+    "word": "言上",
+    "kana": "ごんじょう",
+    "senses": [
+      {
+        "sense_id": 308887,
+        "meaning_vi": "kể ; nêu rõ",
+        "confidence": "high",
+        "search_keywords": [
+          "kể",
+          "nêu rõ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kể ; nêu rõ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70744,
+    "word": "言下",
+    "kana": "げんか",
+    "senses": [
+      {
+        "sense_id": 308888,
+        "meaning_vi": "kịp thời",
+        "confidence": "high",
+        "search_keywords": [
+          "kịp thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kịp thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70745,
+    "word": "言文一致",
+    "kana": "げんぶんいっち",
+    "senses": [
+      {
+        "sense_id": 308889,
+        "meaning_vi": "sự thống nhất của các hình thức viết và nói của một ngôn ngữ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thống nhất của các hình thức viết và nói của một ngôn ngữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thống nhất của các hình thức viết và nói của một ngôn ngữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70746,
+    "word": "言い出しっぺ",
+    "kana": "いいだしっぺ",
+    "senses": [
+      {
+        "sense_id": 308890,
+        "meaning_vi": "người đầu tiên nói điều gì đó; người đầu tiên đề xuất điều gì đó; người nêu vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "người đầu tiên nói điều gì đó",
+          "người đầu tiên đề xuất điều gì đó",
+          "người nêu vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đầu tiên nói điều gì đó; người đầu tiên đề xuất điều gì đó; người nêu vấn đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70747,
+    "word": "言い甲斐",
+    "kana": "いいがい",
+    "senses": [
+      {
+        "sense_id": 308891,
+        "meaning_vi": "đáng nói",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng nói",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70748,
+    "word": "言い争い",
+    "kana": "いいあらそい",
+    "senses": [
+      {
+        "sense_id": 308892,
+        "meaning_vi": "một cuộc cãi vã; lý lẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "một cuộc cãi vã",
+          "lý lẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cuộc cãi vã; lý lẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70749,
+    "word": "言行録",
+    "kana": "げんこうろく",
+    "senses": [
+      {
+        "sense_id": 308893,
+        "meaning_vi": "ghi lại lời nói và việc làm của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi lại lời nói và việc làm của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi lại lời nói và việc làm của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70750,
+    "word": "言いなり放題",
+    "kana": "いいなりほうだい",
+    "senses": [
+      {
+        "sense_id": 308894,
+        "meaning_vi": "hoàn toàn phục tùng người khác",
+        "confidence": "high",
+        "search_keywords": [
+          "hoàn toàn phục tùng người khác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoàn toàn phục tùng người khác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70751,
+    "word": "言い抜け",
+    "kana": "いいぬけ",
+    "senses": [
+      {
+        "sense_id": 308895,
+        "meaning_vi": "trốn tránh; một cái cớ",
+        "confidence": "high",
+        "search_keywords": [
+          "trốn tránh",
+          "một cái cớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trốn tránh; một cái cớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70752,
+    "word": "言い条",
+    "kana": "いいじょう",
+    "senses": [
+      {
+        "sense_id": 308896,
+        "meaning_vi": "người ta nói; quan điểm của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "người ta nói",
+          "quan điểm của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ta nói; quan điểm của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308897,
+        "meaning_vi": "mặc dù; mặc dù",
+        "confidence": "high",
+        "search_keywords": [
+          "mặc dù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặc dù; mặc dù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70753,
+    "word": "言言",
+    "kana": "げんげん",
+    "senses": [
+      {
+        "sense_id": 308898,
+        "meaning_vi": "mỗi từ",
+        "confidence": "high",
+        "search_keywords": [
+          "mỗi từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỗi từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70754,
+    "word": "言い逃れ",
+    "kana": "いいのがれ",
+    "senses": [
+      {
+        "sense_id": 308899,
+        "meaning_vi": "trốn tránh; thứ lỗi; sự lẩn trốn; chạy vòng quanh",
+        "confidence": "high",
+        "search_keywords": [
+          "trốn tránh",
+          "thứ lỗi",
+          "sự lẩn trốn",
+          "chạy vòng quanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trốn tránh; thứ lỗi; sự lẩn trốn; chạy vòng quanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70755,
+    "word": "言い値",
+    "kana": "いいね",
+    "senses": [
+      {
+        "sense_id": 308900,
+        "meaning_vi": "hỏi giá",
+        "confidence": "high",
+        "search_keywords": [
+          "hỏi giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hỏi giá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70756,
+    "word": "言いぶり",
+    "kana": "いいぶり",
+    "senses": [
+      {
+        "sense_id": 308901,
+        "meaning_vi": "cách nói; cách diễn đạt",
+        "confidence": "high",
+        "search_keywords": [
+          "cách nói",
+          "cách diễn đạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách nói; cách diễn đạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70757,
+    "word": "言挙げ",
+    "kana": "ことあげ",
+    "senses": [
+      {
+        "sense_id": 308902,
+        "meaning_vi": "tuyên ngôn; tuyên bố; đề cập đến",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên ngôn",
+          "tuyên bố",
+          "đề cập đến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên ngôn; tuyên bố; đề cập đến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70758,
+    "word": "言い習わし",
+    "kana": "いいならわし",
+    "senses": [
+      {
+        "sense_id": 308903,
+        "meaning_vi": "thành ngữ; đặt cụm từ; thói quen ăn nói; nói",
+        "confidence": "high",
+        "search_keywords": [
+          "thành ngữ",
+          "đặt cụm từ",
+          "thói quen ăn nói",
+          "nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành ngữ; đặt cụm từ; thói quen ăn nói; nói",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70759,
+    "word": "言責",
+    "kana": "げんせき",
+    "senses": [
+      {
+        "sense_id": 308904,
+        "meaning_vi": "chịu trách nhiệm về lời nói của mình",
+        "confidence": "high",
+        "search_keywords": [
+          "chịu trách nhiệm về lời nói của mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chịu trách nhiệm về lời nói của mình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70760,
+    "word": "言葉付き",
+    "kana": "ことばつき",
+    "senses": [
+      {
+        "sense_id": 308905,
+        "meaning_vi": "lời nói; sự biểu lộ; cách diễn đạt; ngôn ngữ",
+        "confidence": "high",
+        "search_keywords": [
+          "lời nói",
+          "sự biểu lộ",
+          "cách diễn đạt",
+          "ngôn ngữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời nói; sự biểu lộ; cách diễn đạt; ngôn ngữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70761,
+    "word": "言葉尻",
+    "kana": "ことばじり",
+    "senses": [
+      {
+        "sense_id": 308906,
+        "meaning_vi": "kết thúc từ; cách kết thúc lời nói của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc từ",
+          "cách kết thúc lời nói của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc từ; cách kết thúc lời nói của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308907,
+        "meaning_vi": "trượt lưỡi; lỗi lời nói",
+        "confidence": "high",
+        "search_keywords": [
+          "trượt lưỡi",
+          "lỗi lời nói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trượt lưỡi; lỗi lời nói",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

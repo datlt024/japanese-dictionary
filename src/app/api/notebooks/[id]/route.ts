@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 import {
     deleteNotebook,
     updateNotebook,
@@ -18,9 +20,12 @@ export async function PATCH(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
+    const rl = rateLimit(`nb-write:${user.id}`, 20, 60_000)
+    if (!rl.ok) return rl.response
+
     const body = await request.json().catch(() => null)
 
-    const fields: { name?: string; description?: string | null } = {}
+    const fields: { name?: string; description?: string | null; group_id?: string | null } = {}
 
     if (typeof body?.name === "string") {
         const name = body.name.trim()
@@ -36,14 +41,18 @@ export async function PATCH(request: NextRequest, { params }: Params) {
             : null
     }
 
+    if ("group_id" in (body ?? {})) {
+        fields.group_id = typeof body.group_id === "string" ? body.group_id : null
+    }
+
     if (Object.keys(fields).length === 0) {
         return NextResponse.json({ error: "Không có trường nào để cập nhật" }, { status: 400 })
     }
 
-    const { data, error } = await updateNotebook(supabase, id, fields)
+    const { data, error } = await updateNotebook(supabase, id, user.id, fields)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "PATCH /api/notebooks/[id]")
     }
 
     return NextResponse.json(data)
@@ -59,10 +68,13 @@ export async function DELETE(_request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const { error } = await deleteNotebook(supabase, id)
+    const rl = rateLimit(`nb-write:${user.id}`, 20, 60_000)
+    if (!rl.ok) return rl.response
+
+    const { error } = await deleteNotebook(supabase, id, user.id)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "DELETE /api/notebooks/[id]")
     }
 
     return new NextResponse(null, { status: 204 })

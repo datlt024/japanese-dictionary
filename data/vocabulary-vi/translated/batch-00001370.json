@@ -1,0 +1,855 @@
+[
+  {
+    "vocabulary_id": 35176,
+    "word": "清濁",
+    "kana": "せいだく",
+    "senses": [
+      {
+        "sense_id": 262846,
+        "meaning_vi": "thiện và ác; độ tinh khiết và tạp chất",
+        "confidence": "high",
+        "search_keywords": [
+          "thiện và ác",
+          "độ tinh khiết và tạp chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiện và ác; độ tinh khiết và tạp chất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262847,
+        "meaning_vi": "phụ âm hữu thanh và vô thanh",
+        "confidence": "high",
+        "search_keywords": [
+          "phụ âm hữu thanh và vô thanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phụ âm hữu thanh và vô thanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35177,
+    "word": "清貧",
+    "kana": "せいひん",
+    "senses": [
+      {
+        "sense_id": 262848,
+        "meaning_vi": "nghèo khó không có ham muốn ích kỷ; sự nghèo khó danh dự (danh dự); nghèo mà lương thiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nghèo khó không có ham muốn ích kỷ",
+          "sự nghèo khó danh dự (danh dự)",
+          "nghèo mà lương thiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghèo khó không có ham muốn ích kỷ; sự nghèo khó danh dự (danh dự); nghèo mà lương thiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35178,
+    "word": "清明",
+    "kana": "せいめい",
+    "senses": [
+      {
+        "sense_id": 262849,
+        "meaning_vi": "tinh khiết và rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh khiết và rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh khiết và rõ ràng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262850,
+        "meaning_vi": "Thuật ngữ mặt trời \"rõ ràng và tươi sáng\" (khoảng ngày 5 tháng 4)",
+        "confidence": "high",
+        "search_keywords": [
+          "Thuật ngữ mặt trời \"rõ ràng và tươi sáng\" (khoảng ngày 5 tháng 4)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thuật ngữ mặt trời \"rõ ràng và tươi sáng\" (khoảng ngày 5 tháng 4)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35179,
+    "word": "清流",
+    "kana": "せいりゅう",
+    "senses": [
+      {
+        "sense_id": 262851,
+        "meaning_vi": "luồng rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "luồng rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luồng rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35180,
+    "word": "清涼",
+    "kana": "せいりょう",
+    "senses": [
+      {
+        "sense_id": 262852,
+        "meaning_vi": "mát mẻ; sảng khoái",
+        "confidence": "high",
+        "search_keywords": [
+          "mát mẻ",
+          "sảng khoái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mát mẻ; sảng khoái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35181,
+    "word": "清涼飲料",
+    "kana": "せいりょういんりょう",
+    "senses": [
+      {
+        "sense_id": 262853,
+        "meaning_vi": "nước ngọt; đồ uống giải khát",
+        "confidence": "high",
+        "search_keywords": [
+          "nước ngọt",
+          "đồ uống giải khát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước ngọt; đồ uống giải khát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35182,
+    "word": "清涼飲料水",
+    "kana": "せいりょういんりょうすい",
+    "senses": [
+      {
+        "sense_id": 262854,
+        "meaning_vi": "nước giải khát",
+        "confidence": "high",
+        "search_keywords": [
+          "nước giải khát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước giải khát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35183,
+    "word": "清廉",
+    "kana": "せいれん",
+    "senses": [
+      {
+        "sense_id": 262855,
+        "meaning_vi": "trung thực; thẳng đứng; sạch sẽ; không ích kỷ",
+        "confidence": "high",
+        "search_keywords": [
+          "trung thực",
+          "thẳng đứng",
+          "sạch sẽ",
+          "không ích kỷ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung thực; thẳng đứng; sạch sẽ; không ích kỷ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35184,
+    "word": "清廉潔白",
+    "kana": "せいれんけっぱく",
+    "senses": [
+      {
+        "sense_id": 262856,
+        "meaning_vi": "tính toàn vẹn không tì vết; trung thực tuyệt đối; sự ngay thẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "tính toàn vẹn không tì vết",
+          "trung thực tuyệt đối",
+          "sự ngay thẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính toàn vẹn không tì vết; trung thực tuyệt đối; sự ngay thẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35185,
+    "word": "生",
+    "kana": "き",
+    "senses": [
+      {
+        "sense_id": 262857,
+        "meaning_vi": "nguyên chất; không pha loãng; thô; thô",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên chất",
+          "không pha loãng",
+          "thô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên chất; không pha loãng; thô; thô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35186,
+    "word": "生",
+    "kana": "なま",
+    "senses": [
+      {
+        "sense_id": 262858,
+        "meaning_vi": "thô; chưa nấu chín; tươi",
+        "confidence": "high",
+        "search_keywords": [
+          "thô",
+          "chưa nấu chín",
+          "tươi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thô; chưa nấu chín; tươi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262859,
+        "meaning_vi": "tự nhiên; như nó vốn có; chưa được chỉnh sửa; chưa được xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "tự nhiên",
+          "như nó vốn có",
+          "chưa được chỉnh sửa",
+          "chưa được xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tự nhiên; như nó vốn có; chưa được chỉnh sửa; chưa được xử lý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262860,
+        "meaning_vi": "không được bảo vệ (quan hệ tình dục); thô; lưng trần",
+        "confidence": "high",
+        "search_keywords": [
+          "không được bảo vệ (quan hệ tình dục)",
+          "thô",
+          "lưng trần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không được bảo vệ (quan hệ tình dục); thô; lưng trần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262861,
+        "meaning_vi": "trực tiếp (tức là không được ghi lại)",
+        "confidence": "high",
+        "search_keywords": [
+          "trực tiếp (tức là không được ghi lại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trực tiếp (tức là không được ghi lại)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262862,
+        "meaning_vi": "thiếu kinh nghiệm; chưa được đánh bóng; màu xanh lá; thô",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu kinh nghiệm",
+          "chưa được đánh bóng",
+          "màu xanh lá",
+          "thô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu kinh nghiệm; chưa được đánh bóng; màu xanh lá; thô",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262863,
+        "meaning_vi": "sự bất lịch sự; xấc xược",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bất lịch sự",
+          "xấc xược"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bất lịch sự; xấc xược",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262864,
+        "meaning_vi": "bia chưa tiệt trùng; bia tươi; bia tươi",
+        "confidence": "high",
+        "search_keywords": [
+          "bia chưa tiệt trùng",
+          "bia tươi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bia chưa tiệt trùng; bia tươi; bia tươi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262865,
+        "meaning_vi": "trống (ví dụ: đĩa); chưa sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "trống (ví dụ: đĩa)",
+          "chưa sử dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trống (ví dụ: đĩa); chưa sử dụng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262866,
+        "meaning_vi": "chỉ một chút thôi; bằng cách nào đó; mơ hồ ; một phần; phần nào; một nửa-; bán",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ một chút thôi",
+          "bằng cách nào đó",
+          "mơ hồ",
+          "một phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ một chút thôi; bằng cách nào đó; mơ hồ ; một phần; phần nào; một nửa-; bán",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262867,
+        "meaning_vi": "không đủ; không đầy đủ; nướng một nửa; nửa vời; chiếu lệ",
+        "confidence": "high",
+        "search_keywords": [
+          "không đủ",
+          "không đầy đủ",
+          "nướng một nửa",
+          "nửa vời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không đủ; không đầy đủ; nướng một nửa; nửa vời; chiếu lệ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262868,
+        "meaning_vi": "tiền mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "tiền mặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiền mặt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262869,
+        "meaning_vi": "tình trạng say xỉn",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng say xỉn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng say xỉn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35187,
+    "word": "生い茂る",
+    "kana": "おいしげる",
+    "senses": [
+      {
+        "sense_id": 262870,
+        "meaning_vi": "phát triển dày đặc; bị phát triển quá mức; phát triển mạnh mẽ; phát triển dồi dào",
+        "confidence": "high",
+        "search_keywords": [
+          "phát triển dày đặc",
+          "bị phát triển quá mức",
+          "phát triển mạnh mẽ",
+          "phát triển dồi dào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát triển dày đặc; bị phát triển quá mức; phát triển mạnh mẽ; phát triển dồi dào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35188,
+    "word": "生い立ち",
+    "kana": "おいたち",
+    "senses": [
+      {
+        "sense_id": 262871,
+        "meaning_vi": "sự phát triển; phát triển",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phát triển",
+          "phát triển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phát triển; phát triển",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262872,
+        "meaning_vi": "cuộc sống ban đầu của một người; giáo dục; lịch sử cá nhân",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc sống ban đầu của một người",
+          "giáo dục",
+          "lịch sử cá nhân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc sống ban đầu của một người; giáo dục; lịch sử cá nhân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35189,
+    "word": "生う",
+    "kana": "おう",
+    "senses": [
+      {
+        "sense_id": 262873,
+        "meaning_vi": "phát triển (của thực vật); mọc lên",
+        "confidence": "high",
+        "search_keywords": [
+          "phát triển (của thực vật)",
+          "mọc lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát triển (của thực vật); mọc lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35190,
+    "word": "生える",
+    "kana": "はえる",
+    "senses": [
+      {
+        "sense_id": 262874,
+        "meaning_vi": "phát triển; mọc lên; nảy mầm",
+        "confidence": "high",
+        "search_keywords": [
+          "phát triển",
+          "mọc lên",
+          "nảy mầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát triển; mọc lên; nảy mầm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262875,
+        "meaning_vi": "cắt (răng)",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt (răng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt (răng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35191,
+    "word": "生き",
+    "kana": "いき",
+    "senses": [
+      {
+        "sense_id": 262876,
+        "meaning_vi": "cuộc sống; còn sống",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc sống",
+          "còn sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc sống; còn sống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262877,
+        "meaning_vi": "sự tươi mát; sự sống động; sức sống",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tươi mát",
+          "sự sống động",
+          "sức sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tươi mát; sự sống động; sức sống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262878,
+        "meaning_vi": "tình huống trong đó một nhóm đá không thể bắt được vì nó có hai hoặc nhiều khoảng trống",
+        "confidence": "high",
+        "search_keywords": [
+          "tình huống trong đó một nhóm đá không thể bắt được vì nó có hai hoặc nhiều khoảng trống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình huống trong đó một nhóm đá không thể bắt được vì nó có hai hoặc nhiều khoảng trống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262879,
+        "meaning_vi": "stet (hiệu đính); để nguyên như vậy",
+        "confidence": "high",
+        "search_keywords": [
+          "stet (hiệu đính)",
+          "để nguyên như vậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "stet (hiệu đính); để nguyên như vậy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262880,
+        "meaning_vi": "chết tiệt",
+        "confidence": "high",
+        "search_keywords": [
+          "chết tiệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết tiệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35192,
+    "word": "活きのいい",
+    "kana": "いきのいい",
+    "senses": [
+      {
+        "sense_id": 262881,
+        "meaning_vi": "tươi (ví dụ cá)",
+        "confidence": "high",
+        "search_keywords": [
+          "tươi (ví dụ cá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tươi (ví dụ cá)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262882,
+        "meaning_vi": "sống động; tinh thần; hoạt hình; tràn đầy năng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "sống động",
+          "tinh thần",
+          "hoạt hình",
+          "tràn đầy năng lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sống động; tinh thần; hoạt hình; tràn đầy năng lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35193,
+    "word": "生きる",
+    "kana": "いきる",
+    "senses": [
+      {
+        "sense_id": 262883,
+        "meaning_vi": "sống; tồn tại",
+        "confidence": "high",
+        "search_keywords": [
+          "sống",
+          "tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sống; tồn tại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262884,
+        "meaning_vi": "để kiếm sống; để tồn tại",
+        "confidence": "high",
+        "search_keywords": [
+          "để kiếm sống",
+          "để tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kiếm sống; để tồn tại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262885,
+        "meaning_vi": "có hiệu lực; được sử dụng; hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "có hiệu lực",
+          "được sử dụng",
+          "hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có hiệu lực; được sử dụng; hoạt động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262886,
+        "meaning_vi": "đi vào cuộc sống; được sống động",
+        "confidence": "high",
+        "search_keywords": [
+          "đi vào cuộc sống",
+          "được sống động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi vào cuộc sống; được sống động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262887,
+        "meaning_vi": "được an toàn (trong bóng chày, cờ vây, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "được an toàn (trong bóng chày, cờ vây, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được an toàn (trong bóng chày, cờ vây, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35194,
+    "word": "生き延びる",
+    "kana": "いきのびる",
+    "senses": [
+      {
+        "sense_id": 262888,
+        "meaning_vi": "để tồn tại; sống lâu",
+        "confidence": "high",
+        "search_keywords": [
+          "để tồn tại",
+          "sống lâu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tồn tại; sống lâu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 35195,
+    "word": "生き血",
+    "kana": "いきち",
+    "senses": [
+      {
+        "sense_id": 262889,
+        "meaning_vi": "huyết mạch",
+        "confidence": "high",
+        "search_keywords": [
+          "huyết mạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "huyết mạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,528 @@
+[
+  {
+    "vocabulary_id": 165314,
+    "word": "ウォークイン",
+    "kana": "ウォークイン",
+    "senses": [
+      {
+        "sense_id": 412597,
+        "meaning_vi": "walk-in (người đến khách sạn, nhà hàng, v.v. mà không đặt trước)",
+        "confidence": "high",
+        "search_keywords": [
+          "walk-in (người đến khách sạn, nhà hàng, v.v. mà không đặt trước)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "walk-in (người đến khách sạn, nhà hàng, v.v. mà không đặt trước)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 412598,
+        "meaning_vi": "tủ quần áo không cửa ngăn",
+        "confidence": "high",
+        "search_keywords": [
+          "tủ quần áo không cửa ngăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tủ quần áo không cửa ngăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165315,
+    "word": "背わた",
+    "kana": "せわた",
+    "senses": [
+      {
+        "sense_id": 412599,
+        "meaning_vi": "tĩnh mạch của tôm (tôm); đường tiêu hóa của tôm; tĩnh mạch cát",
+        "confidence": "high",
+        "search_keywords": [
+          "tĩnh mạch của tôm (tôm)",
+          "đường tiêu hóa của tôm",
+          "tĩnh mạch cát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tĩnh mạch của tôm (tôm); đường tiêu hóa của tôm; tĩnh mạch cát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165316,
+    "word": "テールストック",
+    "kana": "テールストック",
+    "senses": [
+      {
+        "sense_id": 412600,
+        "meaning_vi": "ụ sau",
+        "confidence": "high",
+        "search_keywords": [
+          "ụ sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ụ sau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165317,
+    "word": "蒙塵",
+    "kana": "もうじん",
+    "senses": [
+      {
+        "sense_id": 412601,
+        "meaning_vi": "hoàng gia tìm nơi ẩn náu bên ngoài cung điện hoặc thủ đô trong trường hợp khẩn cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "hoàng gia tìm nơi ẩn náu bên ngoài cung điện hoặc thủ đô trong trường hợp khẩn cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoàng gia tìm nơi ẩn náu bên ngoài cung điện hoặc thủ đô trong trường hợp khẩn cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165318,
+    "word": "司厨士",
+    "kana": "しちゅうし",
+    "senses": [
+      {
+        "sense_id": 412602,
+        "meaning_vi": "đầu bếp (ẩm thực phương Tây)",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu bếp (ẩm thực phương Tây)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu bếp (ẩm thực phương Tây)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 412603,
+        "meaning_vi": "đầu bếp hoặc bồi bàn trên tàu",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu bếp hoặc bồi bàn trên tàu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu bếp hoặc bồi bàn trên tàu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165319,
+    "word": "司厨長",
+    "kana": "しちゅうちょう",
+    "senses": [
+      {
+        "sense_id": 412604,
+        "meaning_vi": "người quản lý trưởng (ví dụ: trên một con tàu)",
+        "confidence": "high",
+        "search_keywords": [
+          "người quản lý trưởng (ví dụ: trên một con tàu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người quản lý trưởng (ví dụ: trên một con tàu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 412605,
+        "meaning_vi": "đầu bếp cung điện",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu bếp cung điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu bếp cung điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165320,
+    "word": "主厨長",
+    "kana": "しゅちゅうちょう",
+    "senses": [
+      {
+        "sense_id": 412606,
+        "meaning_vi": "đầu bếp cung điện",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu bếp cung điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu bếp cung điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165321,
+    "word": "復辟",
+    "kana": "ふくへき",
+    "senses": [
+      {
+        "sense_id": 412607,
+        "meaning_vi": "phục hồi (của một người cai trị thoái vị)",
+        "confidence": "high",
+        "search_keywords": [
+          "phục hồi (của một người cai trị thoái vị)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục hồi (của một người cai trị thoái vị)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165322,
+    "word": "実字",
+    "kana": "じつじ",
+    "senses": [
+      {
+        "sense_id": 412608,
+        "meaning_vi": "ký tự kanji có ý nghĩa cụ thể",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự kanji có ý nghĩa cụ thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự kanji có ý nghĩa cụ thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165323,
+    "word": "助字",
+    "kana": "じょじ",
+    "senses": [
+      {
+        "sense_id": 412609,
+        "meaning_vi": "ký tự phụ (trong kanbun)",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự phụ (trong kanbun)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự phụ (trong kanbun)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165324,
+    "word": "エンドーサー",
+    "kana": "エンドーサー",
+    "senses": [
+      {
+        "sense_id": 412610,
+        "meaning_vi": "người chứng thực (đặc biệt là người chứng thực một thương hiệu)",
+        "confidence": "high",
+        "search_keywords": [
+          "người chứng thực (đặc biệt là người chứng thực một thương hiệu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người chứng thực (đặc biệt là người chứng thực một thương hiệu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165325,
+    "word": "エンドース",
+    "kana": "エンドース",
+    "senses": [
+      {
+        "sense_id": 412611,
+        "meaning_vi": "chứng thực (sản phẩm, vé, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng thực (sản phẩm, vé, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng thực (sản phẩm, vé, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165326,
+    "word": "エンドースメント",
+    "kana": "エンドースメント",
+    "senses": [
+      {
+        "sense_id": 412612,
+        "meaning_vi": "sự chứng thực",
+        "confidence": "high",
+        "search_keywords": [
+          "sự chứng thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự chứng thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165327,
+    "word": "軍配団扇",
+    "kana": "ぐんばいうちわ",
+    "senses": [
+      {
+        "sense_id": 412613,
+        "meaning_vi": "quạt chiến hình quả bầu",
+        "confidence": "high",
+        "search_keywords": [
+          "quạt chiến hình quả bầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quạt chiến hình quả bầu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 412614,
+        "meaning_vi": "người hâm mộ trọng tài; fan của trọng tài",
+        "confidence": "high",
+        "search_keywords": [
+          "người hâm mộ trọng tài",
+          "fan của trọng tài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người hâm mộ trọng tài; fan của trọng tài",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 412615,
+        "meaning_vi": "biểu tượng hình quạt",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng hình quạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng hình quạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165328,
+    "word": "軍配者",
+    "kana": "ぐんばいしゃ",
+    "senses": [
+      {
+        "sense_id": 412616,
+        "meaning_vi": "chỉ huy (trong thời kỳ Sengoku); lãnh đạo quân sự; tổng quan; đô đốc; chiến lược gia quân sự",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ huy (trong thời kỳ Sengoku)",
+          "lãnh đạo quân sự",
+          "tổng quan",
+          "đô đốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ huy (trong thời kỳ Sengoku); lãnh đạo quân sự; tổng quan; đô đốc; chiến lược gia quân sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165329,
+    "word": "聞き慣れた",
+    "kana": "ききなれた",
+    "senses": [
+      {
+        "sense_id": 412617,
+        "meaning_vi": "quen thuộc",
+        "confidence": "high",
+        "search_keywords": [
+          "quen thuộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quen thuộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165330,
+    "word": "恒星間",
+    "kana": "こうせいかん",
+    "senses": [
+      {
+        "sense_id": 412618,
+        "meaning_vi": "giữa các vì sao",
+        "confidence": "high",
+        "search_keywords": [
+          "giữa các vì sao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giữa các vì sao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165331,
+    "word": "即ハメ",
+    "kana": "そくハメ",
+    "senses": [
+      {
+        "sense_id": 412619,
+        "meaning_vi": "chết tiệt ngay lập tức; quan hệ tình dục ngay (sau khi gặp); dễ dàng nằm",
+        "confidence": "high",
+        "search_keywords": [
+          "chết tiệt ngay lập tức",
+          "quan hệ tình dục ngay (sau khi gặp)",
+          "dễ dàng nằm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết tiệt ngay lập tức; quan hệ tình dục ngay (sau khi gặp); dễ dàng nằm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165332,
+    "word": "オーキャン",
+    "kana": "オーキャン",
+    "senses": [
+      {
+        "sense_id": 412620,
+        "meaning_vi": "ngày khai trương; mở nhà; ngày mà các sinh viên tương lai có thể đến thăm một trường đại học",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày khai trương",
+          "mở nhà",
+          "ngày mà các sinh viên tương lai có thể đến thăm một trường đại học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày khai trương; mở nhà; ngày mà các sinh viên tương lai có thể đến thăm một trường đại học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 165333,
+    "word": "ブーツサンダル",
+    "kana": "ブーツサンダル",
+    "senses": [
+      {
+        "sense_id": 412621,
+        "meaning_vi": "dép bốt; giày sandal",
+        "confidence": "high",
+        "search_keywords": [
+          "dép bốt",
+          "giày sandal"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dép bốt; giày sandal",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

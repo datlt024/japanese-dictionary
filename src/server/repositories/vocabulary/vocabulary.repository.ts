@@ -17,7 +17,8 @@ sense_index,
 meaning_en,
 meaning_vi,
 meaning_vi_glosses,
-part_of_speech
+part_of_speech,
+is_hidden
 ` as const
 
 const VOCABULARY_WRITING_COLUMNS = `
@@ -68,6 +69,7 @@ export async function findVocabularySensesByVocabularyId(
         .from("vocabulary_senses")
         .select(VOCABULARY_SENSE_COLUMNS)
         .eq("vocabulary_id", vocabularyId)
+        .eq("is_hidden", false)
         .order("sense_index", { ascending: true })
         .limit(VOCABULARY_CHILD_LIMIT)
 }
@@ -107,4 +109,25 @@ export function findVocabularyIdsByPrimaryWords(words: string[]) {
         .select("id, primary_word, primary_kana, jlpt")
         .in("primary_word", words)
         .limit(words.length * 3)
+}
+
+const VOCABULARY_EXAMPLE_COLUMNS = `
+id,
+vocabulary_id,
+sense_index,
+japanese,
+translation_vi,
+example_order,
+ruby
+` as const
+
+export async function findVocabularyExamplesByVocabularyId(
+    vocabularyId: number
+) {
+    return supabaseServer
+        .from("vocabulary_examples")
+        .select(VOCABULARY_EXAMPLE_COLUMNS)
+        .eq("vocabulary_id", vocabularyId)
+        .order("example_order", { ascending: true })
+        .limit(50)
 }

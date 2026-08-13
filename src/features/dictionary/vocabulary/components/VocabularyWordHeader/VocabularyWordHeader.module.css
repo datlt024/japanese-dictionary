@@ -2,9 +2,9 @@
     padding: 32px;
     margin-bottom: 24px;
 
-    background: var(--bg-card);
+    background: var(--color-surface);
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 20px;
 
     box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
@@ -25,19 +25,23 @@
     display: flex;
     align-items: center;
     gap: 16px;
+
+    container-type: inline-size;
 }
 
 .detailWord {
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
     gap: 4px;
 
     margin: 0;
 
-    color: var(--primary-dark);
+    color: var(--color-primary-dark);
 
     font-family: "Noto Serif JP", serif;
-    font-size: 64px;
+    /* Shrinks automatically so word fits in one line: 88% of container ÷ char count, capped at 64px */
+    font-size: clamp(24px, calc(88cqi / var(--char-count, 1)), 64px);
     line-height: 1.05;
     font-weight: 800;
 }
@@ -61,7 +65,7 @@
     min-width: 100%;
     margin-bottom: 6px;
 
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 
     font-family: "Noto Sans JP", sans-serif;
     font-size: 16px;
@@ -72,6 +76,27 @@
     letter-spacing: .16em;
 
     transform: translateX(.08em);
+}
+
+/* Furigana setting — hide ruby annotation */
+:root[data-furigana="false"] .rubyChar::before {
+    display: none;
+}
+:root[data-furigana="false"] .rubyChar {
+    flex-direction: row;
+    min-width: auto;
+}
+
+/* Romaji display */
+.romajiLine {
+    margin-top: 8px;
+
+    color: var(--color-text-secondary);
+
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--font-body);
+    letter-spacing: 0.04em;
 }
 
 .badgeRow {
@@ -99,29 +124,49 @@
 }
 
 .levelBadge {
-    background: #dff8ee;
-    color: var(--success);
+    background: var(--color-jlpt-n5-soft, var(--color-success-soft));
+    color: var(--color-jlpt-n5, var(--color-success));
+}
+.levelBadge[data-level="N5"] {
+    background: var(--color-jlpt-n5-soft);
+    color: var(--color-jlpt-n5);
+}
+.levelBadge[data-level="N4"] {
+    background: var(--color-jlpt-n4-soft);
+    color: var(--color-jlpt-n4);
+}
+.levelBadge[data-level="N3"] {
+    background: var(--color-jlpt-n3-soft);
+    color: var(--color-jlpt-n3);
+}
+.levelBadge[data-level="N2"] {
+    background: var(--color-jlpt-n2-soft);
+    color: var(--color-jlpt-n2);
+}
+.levelBadge[data-level="N1"] {
+    background: var(--color-jlpt-n1-soft);
+    color: var(--color-jlpt-n1);
 }
 
 .commonBadge {
-    background: var(--success-soft);
-    color: var(--success);
+    background: var(--color-success-soft);
+    color: var(--color-success);
 }
 
 .verbBadge {
-    background: #0f9968;
-    color: #ffffff;
+    background: var(--color-success);
+    color: var(--color-surface);
 }
 
 .neutralBadge {
-    background: var(--primary);
-    color: #ffffff;
+    background: var(--color-primary);
+    color: var(--color-surface);
 }
 
 .detailMeaning {
     margin-top: 24px;
 
-    color: var(--primary-dark);
+    color: var(--color-primary-dark);
 
     font-size: 22px;
     line-height: 1.6;
@@ -142,10 +187,10 @@
 
     padding: 14px 16px;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 16px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .pitchTopRow {
@@ -156,7 +201,7 @@
 }
 
 .pitchLabel {
-    color: var(--text-secondary);
+    color: var(--color-text-secondary);
 
     font-size: 12px;
     font-weight: 700;
@@ -180,8 +225,8 @@
 
     border-radius: 999px;
 
-    background: #eff6ff;
-    color: var(--primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     font-size: 12px;
     font-weight: 800;
@@ -197,6 +242,6 @@
     }
 
     .detailWord {
-        font-size: 48px;
+        font-size: clamp(20px, calc(88cqi / var(--char-count, 1)), 48px);
     }
 }

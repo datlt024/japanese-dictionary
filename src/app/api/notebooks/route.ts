@@ -1,9 +1,12 @@
 import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 import {
     createNotebook,
     listNotebooksWithItemCount,
+    type NotebookWithCount,
 } from "@/server/repositories/notebook/notebook.repository"
 
 export async function GET() {
@@ -14,23 +17,20 @@ export async function GET() {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const { data, error } = await listNotebooksWithItemCount(supabase)
+    const rl = rateLimit(`nb-get:${user.id}`, 60, 60_000)
+    if (!rl.ok) return rl.response
+
+    const { data, error } = await listNotebooksWithItemCount(supabase, user.id)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "GET /api/notebooks")
     }
 
-    const transformed = (data as unknown as Array<{
-        id: string
-        name: string
-        description: string | null
-        created_at: string
-        updated_at: string
-        notebook_items: { count: number }[]
-    }> ?? []).map((nb) => ({
+    const transformed = (data as unknown as NotebookWithCount[] ?? []).map((nb) => ({
         id: nb.id,
         name: nb.name,
         description: nb.description,
+        group_id: nb.group_id ?? null,
         created_at: nb.created_at,
         updated_at: nb.updated_at,
         item_count: nb.notebook_items?.[0]?.count ?? 0,
@@ -47,6 +47,9 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
+    const rl = rateLimit(`nb-post:${user.id}`, 10, 60_000)
+    if (!rl.ok) return rl.response
+
     const body = await request.json().catch(() => null)
     const name = typeof body?.name === "string" ? body.name.trim() : ""
 
@@ -58,10 +61,12 @@ export async function POST(request: NextRequest) {
         ? body.description.trim() || null
         : null
 
-    const { data, error } = await createNotebook(supabase, user.id, name, description ?? undefined)
+    const groupId = typeof body?.group_id === "string" ? body.group_id : null
+
+    const { data, error } = await createNotebook(supabase, user.id, name, description ?? undefined, groupId)
 
     if (error) {
-        return NextResponse.json({ error: error.message }, { status: 500 })
+        return serverError(error, "POST /api/notebooks")
     }
 
     return NextResponse.json(data, { status: 201 })

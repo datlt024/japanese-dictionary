@@ -1,769 +1,743 @@
 [
-{
-"vocabulary_id": 381,
-"word": "こだま",
-"kana": "こだま",
-"senses": [
-{
-"sense_id": 217847,
-"meaning_vi": "tàu Kodama",
-"confidence": "high",
-"search_keywords": [
-"Kodama",
-"tàu Kodama",
-"Shinkansen Kodama",
-"tàu siêu tốc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Kodama; dịch vụ Shinkansen dừng ở tất cả các ga trên tuyến Tōkaidō và Sanyō",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 382,
-"word": "拘り",
-"kana": "こだわり",
-"senses": [
-{
-"sense_id": 217848,
-"meaning_vi": "sự cầu toàn",
-"confidence": "high",
-"search_keywords": [
-"cầu toàn",
-"kén chọn",
-"chú trọng",
-"đặt nặng",
-"ám ảnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự cầu toàn; kén chọn; đặc biệt chú trọng đến chi tiết hoặc phong cách",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217849,
-"meaning_vi": "lời phàn nàn",
-"confidence": "medium",
-"search_keywords": [
-"phàn nàn",
-"chỉ trích",
-"than phiền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự phàn nàn hoặc chỉ trích",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217850,
-"meaning_vi": "điểm đặc trưng",
-"confidence": "high",
-"search_keywords": [
-"đặc sản",
-"điểm đặc trưng",
-"thế mạnh",
-"nét riêng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điểm nổi bật hoặc nét riêng tạo nên giá trị đặc biệt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 383,
-"word": "拘る",
-"kana": "こだわる",
-"senses": [
-{
-"sense_id": 217851,
-"meaning_vi": "quá câu nệ",
-"confidence": "high",
-"search_keywords": [
-"câu nệ",
-"quá bận tâm",
-"kén chọn",
-"ám ảnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá chú ý hoặc quá bận tâm đến điều gì đó",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217852,
-"meaning_vi": "chú trọng",
-"confidence": "high",
-"search_keywords": [
-"chú trọng",
-"cầu toàn",
-"đề cao",
-"kiên định"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đặc biệt chú trọng; kiên quyết giữ tiêu chuẩn hoặc nguyên tắc",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217853,
-"meaning_vi": "bị mắc kẹt",
-"confidence": "low",
-"search_keywords": [
-"mắc kẹt",
-"bị cản trở",
-"kẹt lại"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bị cản trở hoặc mắc lại giữa chừng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 384,
-"word": "此方",
-"kana": "こちら",
-"senses": [
-{
-"sense_id": 217854,
-"meaning_vi": "hướng này",
-"confidence": "high",
-"search_keywords": [
-"hướng này",
-"phía này",
-"lối này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hướng hoặc phía gần người nói",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217855,
-"meaning_vi": "ở đây",
-"confidence": "high",
-"search_keywords": [
-"ở đây",
-"chỗ này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "địa điểm gần người nói",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217856,
-"meaning_vi": "cái này",
-"confidence": "high",
-"search_keywords": [
-"cái này",
-"bên này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vật hoặc đối tượng ở gần người nói",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217857,
-"meaning_vi": "chúng tôi",
-"confidence": "high",
-"search_keywords": [
-"chúng tôi",
-"bên tôi",
-"phía chúng tôi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách nói khiêm nhường chỉ bản thân hoặc phía mình",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217858,
-"meaning_vi": "vị này",
-"confidence": "high",
-"search_keywords": [
-"vị này",
-"người này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người ở gần người nói, thường dùng lịch sự",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 385,
-"word": "此方",
-"kana": "こなた",
-"senses": [
-{
-"sense_id": 217859,
-"meaning_vi": "bên này",
-"confidence": "medium",
-"search_keywords": [
-"bên này",
-"ở đây"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phía này; nơi này",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217860,
-"meaning_vi": "người ấy",
-"confidence": "medium",
-"search_keywords": [
-"người ấy",
-"anh ấy",
-"cô ấy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người đang được nhắc đến",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217861,
-"meaning_vi": "kể từ",
-"confidence": "low",
-"search_keywords": [
-"kể từ",
-"từ đó"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kể từ một thời điểm hoặc trước một thời điểm nào đó",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217862,
-"meaning_vi": "tôi",
-"confidence": "medium",
-"search_keywords": [
-"tôi",
-"bản thân tôi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đại từ chỉ bản thân người nói",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217863,
-"meaning_vi": "bạn",
-"confidence": "medium",
-"search_keywords": [
-"bạn",
-"anh",
-"chị"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đại từ chỉ người đối thoại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 386,
-"word": "こちらこそ",
-"kana": "こちらこそ",
-"senses": [
-{
-"sense_id": 217864,
-"meaning_vi": "chính tôi mới phải",
-"confidence": "high",
-"search_keywords": [
-"chính tôi mới phải",
-"phía tôi mới phải",
-"cũng xin cảm ơn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "câu đáp lại lời cảm ơn hoặc xin lỗi với ý chính mình mới là người nên nói điều đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 387,
-"word": "こっそり",
-"kana": "こっそり",
-"senses": [
-{
-"sense_id": 217865,
-"meaning_vi": "lén lút",
-"confidence": "high",
-"search_keywords": [
-"lén lút",
-"bí mật",
-"âm thầm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "một cách kín đáo để không bị phát hiện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 388,
-"word": "コツコツ",
-"kana": "コツコツ",
-"senses": [
-{
-"sense_id": 217866,
-"meaning_vi": "chăm chỉ bền bỉ",
-"confidence": "high",
-"search_keywords": [
-"chăm chỉ",
-"bền bỉ",
-"cần cù"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiên trì làm việc đều đặn không ngừng nghỉ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217867,
-"meaning_vi": "cộc cộc",
-"confidence": "high",
-"search_keywords": [
-"cộc cộc",
-"gõ",
-"lóc cóc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "âm thanh gõ hoặc va chạm liên tiếp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 389,
-"word": "事がある",
-"kana": "ことがある",
-"senses": [
-{
-"sense_id": 217868,
-"meaning_vi": "đã từng",
-"confidence": "high",
-"search_keywords": [
-"đã từng",
-"có lần",
-"từng trải qua"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đã có kinh nghiệm hoặc từng xảy ra trong quá khứ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217869,
-"meaning_vi": "thỉnh thoảng",
-"confidence": "high",
-"search_keywords": [
-"thỉnh thoảng",
-"đôi khi",
-"có lúc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đôi khi xảy ra hoặc được thực hiện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 390,
-"word": "ことが出来る",
-"kana": "ことができる",
-"senses": [
-{
-"sense_id": 217870,
-"meaning_vi": "có thể",
-"confidence": "high",
-"search_keywords": [
-"có thể",
-"làm được",
-"có khả năng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có khả năng hoặc điều kiện để thực hiện việc gì",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 391,
-"word": "コトコト",
-"kana": "コトコト",
-"senses": [
-{
-"sense_id": 217871,
-"meaning_vi": "lóc cóc",
-"confidence": "high",
-"search_keywords": [
-"lóc cóc",
-"cộc cộc",
-"gõ cửa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "âm thanh va chạm nhẹ hoặc tiếng gõ cửa",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217872,
-"meaning_vi": "sôi liu riu",
-"confidence": "high",
-"search_keywords": [
-"sôi liu riu",
-"om nhỏ lửa",
-"sôi nhẹ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sôi hoặc hầm nhẹ ở lửa nhỏ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 392,
-"word": "悉く",
-"kana": "ことごとく",
-"senses": [
-{
-"sense_id": 217873,
-"meaning_vi": "toàn bộ",
-"confidence": "high",
-"search_keywords": [
-"toàn bộ",
-"tất cả",
-"hoàn toàn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tất cả không ngoại lệ; hoàn toàn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 393,
-"word": "事にすると",
-"kana": "ことにすると",
-"senses": [
-{
-"sense_id": 217874,
-"meaning_vi": "có lẽ",
-"confidence": "low",
-"search_keywords": [
-"có lẽ",
-"có thể",
-"biết đâu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có lẽ; có khả năng là",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 394,
-"word": "事になる",
-"kana": "ことになる",
-"senses": [
-{
-"sense_id": 217875,
-"meaning_vi": "được quyết định",
-"confidence": "high",
-"search_keywords": [
-"được quyết định",
-"được sắp xếp",
-"thành ra"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "được quyết định hoặc sắp xếp là sẽ như vậy",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217876,
-"meaning_vi": "dẫn đến",
-"confidence": "high",
-"search_keywords": [
-"dẫn đến",
-"kết quả là",
-"hóa ra"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trở thành kết quả hoặc hệ quả của việc gì",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217877,
-"meaning_vi": "là lý do",
-"confidence": "medium",
-"search_keywords": [
-"lý do",
-"nguyên nhân"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trở thành nguyên nhân của việc gì",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 395,
-"word": "事によって",
-"kana": "ことによって",
-"senses": [
-{
-"sense_id": 217878,
-"meaning_vi": "bằng cách",
-"confidence": "high",
-"search_keywords": [
-"bằng cách",
-"thông qua",
-"nhờ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thông qua hoặc bằng phương thức nào đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 396,
-"word": "此間",
-"kana": "こないだ",
-"senses": [
-{
-"sense_id": 217879,
-"meaning_vi": "hôm nọ",
-"confidence": "high",
-"search_keywords": [
-"hôm nọ",
-"dạo gần đây",
-"mới đây"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "một ngày gần đây; cách đây không lâu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 397,
-"word": "このおかげで",
-"kana": "このおかげで",
-"senses": [
-{
-"sense_id": 217880,
-"meaning_vi": "nhờ đó",
-"confidence": "high",
-"search_keywords": [
-"nhờ đó",
-"nhờ việc này",
-"nhờ vậy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhờ điều này mà có kết quả tốt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 398,
-"word": "このため",
-"kana": "このため",
-"senses": [
-{
-"sense_id": 217881,
-"meaning_vi": "vì vậy",
-"confidence": "high",
-"search_keywords": [
-"vì vậy",
-"do đó",
-"bởi vậy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "do điều này nên dẫn đến kết quả phía sau",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 399,
-"word": "この外",
-"kana": "このほか",
-"senses": [
-{
-"sense_id": 217882,
-"meaning_vi": "ngoài ra",
-"confidence": "high",
-"search_keywords": [
-"ngoài ra",
-"hơn nữa",
-"thêm vào đó"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ngoài những điều đã nêu; thêm vào đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 400,
-"word": "このような場合に",
-"kana": "このようなばあいに",
-"senses": [
-{
-"sense_id": 217883,
-"meaning_vi": "trong trường hợp này",
-"confidence": "high",
-"search_keywords": [
-"trong trường hợp này",
-"trong tình huống này"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trong loại tình huống như thế này",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 381,
+    "word": "こだま",
+    "kana": "こだま",
+    "senses": [
+      {
+        "sense_id": 217847,
+        "meaning_vi": "Kodama; dịch vụ tàu Shinkansen tuyến Tōkaidō và Sanyō-line chậm nhất (dừng ở tất cả các ga)",
+        "confidence": "high",
+        "search_keywords": [
+          "Kodama",
+          "dịch vụ tàu Shinkansen tuyến Tōkaidō và Sanyō-line chậm nhất (dừng ở tất cả các ga)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kodama; dịch vụ tàu Shinkansen tuyến Tōkaidō và Sanyō-line chậm nhất (dừng ở tất cả các ga)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 382,
+    "word": "拘り",
+    "kana": "こだわり",
+    "senses": [
+      {
+        "sense_id": 217848,
+        "meaning_vi": "nỗi ám ảnh; cố định; cúp máy; sự quyết tâm; sự khó tính; kén chọn về (đặc điểm, phong cách, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "nỗi ám ảnh",
+          "cố định",
+          "cúp máy",
+          "sự quyết tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nỗi ám ảnh; cố định; cúp máy; sự quyết tâm; sự khó tính; kén chọn về (đặc điểm, phong cách, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217849,
+        "meaning_vi": "phàn nàn; chỉ trích",
+        "confidence": "high",
+        "search_keywords": [
+          "phàn nàn",
+          "chỉ trích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phàn nàn; chỉ trích",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217850,
+        "meaning_vi": "đặc sản (ví dụ của một nhà hàng)",
+        "confidence": "high",
+        "search_keywords": [
+          "đặc sản (ví dụ của một nhà hàng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặc sản (ví dụ của một nhà hàng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 383,
+    "word": "拘る",
+    "kana": "こだわる",
+    "senses": [
+      {
+        "sense_id": 217851,
+        "meaning_vi": "bị ám ảnh (về); quan tâm quá mức (với); làm ầm ĩ (kết thúc); lo lắng quá nhiều (về); kén chọn (về); bị treo lên (bật); bám vào",
+        "confidence": "high",
+        "search_keywords": [
+          "bị ám ảnh (về)",
+          "quan tâm quá mức (với)",
+          "làm ầm ĩ (kết thúc)",
+          "lo lắng quá nhiều (về)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị ám ảnh (về); quan tâm quá mức (với); làm ầm ĩ (kết thúc); lo lắng quá nhiều (về); kén chọn (về); bị treo lên (bật); bám vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217852,
+        "meaning_vi": "cụ thể (về); đặc biệt chú ý (đến); khó tính (về); nhấn mạnh (vào); không khoan nhượng",
+        "confidence": "high",
+        "search_keywords": [
+          "cụ thể (về)",
+          "đặc biệt chú ý (đến)",
+          "khó tính (về)",
+          "nhấn mạnh (vào)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cụ thể (về); đặc biệt chú ý (đến); khó tính (về); nhấn mạnh (vào); không khoan nhượng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217853,
+        "meaning_vi": "bị mắc kẹt; bị cản trở",
+        "confidence": "high",
+        "search_keywords": [
+          "bị mắc kẹt",
+          "bị cản trở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị mắc kẹt; bị cản trở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 384,
+    "word": "此方",
+    "kana": "こちら",
+    "senses": [
+      {
+        "sense_id": 217854,
+        "meaning_vi": "theo cách này; hướng này",
+        "confidence": "high",
+        "search_keywords": [
+          "theo cách này",
+          "hướng này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo cách này; hướng này",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217855,
+        "meaning_vi": "ở đây",
+        "confidence": "high",
+        "search_keywords": [
+          "ở đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở đây",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217856,
+        "meaning_vi": "cái này (một)",
+        "confidence": "high",
+        "search_keywords": [
+          "cái này (một)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái này (một)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217857,
+        "meaning_vi": "TÔI; Tôi; chúng tôi; chúng tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "TÔI",
+          "Tôi",
+          "chúng tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "TÔI; Tôi; chúng tôi; chúng tôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217858,
+        "meaning_vi": "người này",
+        "confidence": "high",
+        "search_keywords": [
+          "người này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 385,
+    "word": "此方",
+    "kana": "こなた",
+    "senses": [
+      {
+        "sense_id": 217859,
+        "meaning_vi": "theo cách này; ở đây",
+        "confidence": "high",
+        "search_keywords": [
+          "theo cách này",
+          "ở đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo cách này; ở đây",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217860,
+        "meaning_vi": "người được đề cập; Anh ta; cô ấy; anh ta; cô ấy",
+        "confidence": "high",
+        "search_keywords": [
+          "người được đề cập",
+          "Anh ta",
+          "cô ấy",
+          "anh ta"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người được đề cập; Anh ta; cô ấy; anh ta; cô ấy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217861,
+        "meaning_vi": "kể từ (một thời điểm trong quá khứ); trước (một thời điểm trong tương lai)",
+        "confidence": "high",
+        "search_keywords": [
+          "kể từ (một thời điểm trong quá khứ)",
+          "trước (một thời điểm trong tương lai)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kể từ (một thời điểm trong quá khứ); trước (một thời điểm trong tương lai)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217862,
+        "meaning_vi": "tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217863,
+        "meaning_vi": "bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 386,
+    "word": "こちらこそ",
+    "kana": "こちらこそ",
+    "senses": [
+      {
+        "sense_id": 217864,
+        "meaning_vi": "chính tôi mới là người phải nói như vậy",
+        "confidence": "high",
+        "search_keywords": [
+          "chính tôi mới là người phải nói như vậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính tôi mới là người phải nói như vậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 387,
+    "word": "こっそり",
+    "kana": "こっそり",
+    "senses": [
+      {
+        "sense_id": 217865,
+        "meaning_vi": "lén lút; bí mật; trong bí mật",
+        "confidence": "high",
+        "search_keywords": [
+          "lén lút",
+          "bí mật",
+          "trong bí mật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lén lút; bí mật; trong bí mật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 388,
+    "word": "コツコツ",
+    "kana": "コツコツ",
+    "senses": [
+      {
+        "sense_id": 217866,
+        "meaning_vi": "đều đặn; không mệt mỏi; không mệt mỏi; một cách chăm chỉ; siêng năng",
+        "confidence": "high",
+        "search_keywords": [
+          "đều đặn",
+          "không mệt mỏi",
+          "một cách chăm chỉ",
+          "siêng năng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đều đặn; không mệt mỏi; không mệt mỏi; một cách chăm chỉ; siêng năng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217867,
+        "meaning_vi": "gõ cửa; khai thác; nhấp chuột; đánh trống",
+        "confidence": "high",
+        "search_keywords": [
+          "gõ cửa",
+          "khai thác",
+          "nhấp chuột",
+          "đánh trống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gõ cửa; khai thác; nhấp chuột; đánh trống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 389,
+    "word": "事がある",
+    "kana": "ことがある",
+    "senses": [
+      {
+        "sense_id": 217868,
+        "meaning_vi": "(cho cái gì đó) đã xảy ra; đã làm (điều gì đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "(cho cái gì đó) đã xảy ra",
+          "đã làm (điều gì đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cho cái gì đó) đã xảy ra; đã làm (điều gì đó)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217869,
+        "meaning_vi": "(cho cái gì đó) thỉnh thoảng xảy ra",
+        "confidence": "high",
+        "search_keywords": [
+          "(cho cái gì đó) thỉnh thoảng xảy ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cho cái gì đó) thỉnh thoảng xảy ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 390,
+    "word": "ことが出来る",
+    "kana": "ことができる",
+    "senses": [
+      {
+        "sense_id": 217870,
+        "meaning_vi": "có thể (để); có thể (để)",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể (để)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể (để); có thể (để)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 391,
+    "word": "コトコト",
+    "kana": "コトコト",
+    "senses": [
+      {
+        "sense_id": 217871,
+        "meaning_vi": "với âm thanh lạch cạch; với âm thanh leng keng (nhẹ nhàng); gõ nhẹ (vào cửa)",
+        "confidence": "high",
+        "search_keywords": [
+          "với âm thanh lạch cạch",
+          "với âm thanh leng keng (nhẹ nhàng)",
+          "gõ nhẹ (vào cửa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "với âm thanh lạch cạch; với âm thanh leng keng (nhẹ nhàng); gõ nhẹ (vào cửa)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217872,
+        "meaning_vi": "(nấu ăn) ở mức sôi; (sôi) nhẹ nhàng; (sủi bọt) nhẹ nhàng",
+        "confidence": "high",
+        "search_keywords": [
+          "(nấu ăn) ở mức sôi",
+          "(sôi) nhẹ nhàng",
+          "(sủi bọt) nhẹ nhàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(nấu ăn) ở mức sôi; (sôi) nhẹ nhàng; (sủi bọt) nhẹ nhàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 392,
+    "word": "悉く",
+    "kana": "ことごとく",
+    "senses": [
+      {
+        "sense_id": 217873,
+        "meaning_vi": "toàn bộ; hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "toàn bộ",
+          "hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toàn bộ; hoàn toàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 393,
+    "word": "事にすると",
+    "kana": "ことにすると",
+    "senses": [
+      {
+        "sense_id": 217874,
+        "meaning_vi": "có lẽ; Có lẽ; có thể",
+        "confidence": "high",
+        "search_keywords": [
+          "có lẽ",
+          "Có lẽ",
+          "có thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có lẽ; Có lẽ; có thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 394,
+    "word": "事になる",
+    "kana": "ことになる",
+    "senses": [
+      {
+        "sense_id": 217875,
+        "meaning_vi": "đã được quyết định (vì vậy) rằng; đã được sắp xếp (vì vậy) rằng",
+        "confidence": "high",
+        "search_keywords": [
+          "đã được quyết định (vì vậy) rằng",
+          "đã được sắp xếp (vì vậy) rằng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đã được quyết định (vì vậy) rằng; đã được sắp xếp (vì vậy) rằng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217876,
+        "meaning_vi": "là kết quả (của); là kết quả",
+        "confidence": "high",
+        "search_keywords": [
+          "là kết quả (của)",
+          "là kết quả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là kết quả (của); là kết quả",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217877,
+        "meaning_vi": "là lý do (cho)",
+        "confidence": "high",
+        "search_keywords": [
+          "là lý do (cho)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là lý do (cho)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 395,
+    "word": "事によって",
+    "kana": "ことによって",
+    "senses": [
+      {
+        "sense_id": 217878,
+        "meaning_vi": "thông qua; bởi vì; bằng cách làm ; bằng cách; sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "thông qua",
+          "bởi vì",
+          "bằng cách làm",
+          "bằng cách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông qua; bởi vì; bằng cách làm ; bằng cách; sử dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 396,
+    "word": "此間",
+    "kana": "こないだ",
+    "senses": [
+      {
+        "sense_id": 217879,
+        "meaning_vi": "ngày kia; gần đây; gần đây",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày kia",
+          "gần đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày kia; gần đây; gần đây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 397,
+    "word": "このおかげで",
+    "kana": "このおかげで",
+    "senses": [
+      {
+        "sense_id": 217880,
+        "meaning_vi": "vì điều này; nhờ điều này; do điều này",
+        "confidence": "high",
+        "search_keywords": [
+          "vì điều này",
+          "nhờ điều này",
+          "do điều này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vì điều này; nhờ điều này; do điều này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 398,
+    "word": "このため",
+    "kana": "このため",
+    "senses": [
+      {
+        "sense_id": 217881,
+        "meaning_vi": "vì điều này",
+        "confidence": "high",
+        "search_keywords": [
+          "vì điều này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vì điều này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 399,
+    "word": "この外",
+    "kana": "このほか",
+    "senses": [
+      {
+        "sense_id": 217882,
+        "meaning_vi": "bên cạnh đó; Hơn thế nữa; ngoài ra",
+        "confidence": "high",
+        "search_keywords": [
+          "bên cạnh đó",
+          "Hơn thế nữa",
+          "ngoài ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên cạnh đó; Hơn thế nữa; ngoài ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 400,
+    "word": "このような場合に",
+    "kana": "このようなばあいに",
+    "senses": [
+      {
+        "sense_id": 217883,
+        "meaning_vi": "trong tình huống này",
+        "confidence": "high",
+        "search_keywords": [
+          "trong tình huống này"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong tình huống này",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

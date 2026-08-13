@@ -1,8 +1,8 @@
 .section {
     padding: 24px;
-    border: 1px solid #e5eaf2;
+    border: 1px solid var(--color-border);
     border-radius: 18px;
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .sectionTitleRow {
@@ -19,15 +19,15 @@
     width: 28px;
     height: 28px;
     border-radius: 999px;
-    background: #eff6ff;
-    color: #2563eb;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
     font-size: 14px;
     font-weight: 900;
 }
 
 .sectionTitleRow h2 {
     margin: 0;
-    color: #1f2937;
+    color: var(--color-text-primary);
     font-size: 20px;
     font-weight: 900;
 }
@@ -39,17 +39,17 @@
 
 .differenceItem {
     padding: 16px;
-    border: 1px solid #e5eaf2;
+    border: 1px solid var(--color-border);
     border-radius: 16px;
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .differenceItem strong {
-    color: #2563eb;
+    color: var(--color-primary);
 }
 
 .differenceItem p {
     margin: 8px 0 0;
-    color: #6b7280;
+    color: var(--color-text-secondary);
     line-height: 1.7;
 }

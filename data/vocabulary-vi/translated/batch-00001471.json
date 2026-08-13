@@ -1,0 +1,814 @@
+[
+  {
+    "vocabulary_id": 37702,
+    "word": "足す",
+    "kana": "たす",
+    "senses": [
+      {
+        "sense_id": 266278,
+        "meaning_vi": "để thêm (số)",
+        "confidence": "high",
+        "search_keywords": [
+          "để thêm (số)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thêm (số)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266279,
+        "meaning_vi": "thêm (cái gì); nạp tiền (với cái gì đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "thêm (cái gì)",
+          "nạp tiền (với cái gì đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thêm (cái gì); nạp tiền (với cái gì đó)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266280,
+        "meaning_vi": "để chăm sóc (ví dụ như kinh doanh của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "để chăm sóc (ví dụ như kinh doanh của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để chăm sóc (ví dụ như kinh doanh của một người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37703,
+    "word": "足の甲",
+    "kana": "あしのこう",
+    "senses": [
+      {
+        "sense_id": 266281,
+        "meaning_vi": "đỉnh bàn chân; mu bàn chân; mu bàn chân; bàn chân sau",
+        "confidence": "high",
+        "search_keywords": [
+          "đỉnh bàn chân",
+          "mu bàn chân",
+          "bàn chân sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đỉnh bàn chân; mu bàn chân; mu bàn chân; bàn chân sau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37704,
+    "word": "足の指",
+    "kana": "あしのゆび",
+    "senses": [
+      {
+        "sense_id": 266282,
+        "meaning_vi": "ngón chân",
+        "confidence": "high",
+        "search_keywords": [
+          "ngón chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngón chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37705,
+    "word": "足らず",
+    "kana": "たらず",
+    "senses": [
+      {
+        "sense_id": 266283,
+        "meaning_vi": "ít hơn; dưới; thiếu ; thậm chí không",
+        "confidence": "high",
+        "search_keywords": [
+          "ít hơn",
+          "dưới",
+          "thiếu",
+          "thậm chí không"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ít hơn; dưới; thiếu ; thậm chí không",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266284,
+        "meaning_vi": "không đủ; thiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "không đủ",
+          "thiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không đủ; thiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37706,
+    "word": "足りる",
+    "kana": "たりる",
+    "senses": [
+      {
+        "sense_id": 266285,
+        "meaning_vi": "là đủ; là đủ",
+        "confidence": "high",
+        "search_keywords": [
+          "là đủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là đủ; là đủ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266286,
+        "meaning_vi": "đáng làm; xứng đáng với; xứng đáng",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng làm",
+          "xứng đáng với",
+          "xứng đáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng làm; xứng đáng với; xứng đáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266287,
+        "meaning_vi": "làm (công việc); để phục vụ; để trả lời",
+        "confidence": "high",
+        "search_keywords": [
+          "làm (công việc)",
+          "để phục vụ",
+          "để trả lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm (công việc); để phục vụ; để trả lời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37707,
+    "word": "足る",
+    "kana": "たる",
+    "senses": [
+      {
+        "sense_id": 266288,
+        "meaning_vi": "là đủ; là đủ",
+        "confidence": "high",
+        "search_keywords": [
+          "là đủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "là đủ; là đủ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266289,
+        "meaning_vi": "đáng làm; xứng đáng với; xứng đáng",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng làm",
+          "xứng đáng với",
+          "xứng đáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng làm; xứng đáng với; xứng đáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266290,
+        "meaning_vi": "làm (công việc); để phục vụ; để trả lời",
+        "confidence": "high",
+        "search_keywords": [
+          "làm (công việc)",
+          "để phục vụ",
+          "để trả lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm (công việc); để phục vụ; để trả lời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37708,
+    "word": "足を組む",
+    "kana": "あしをくむ",
+    "senses": [
+      {
+        "sense_id": 266291,
+        "meaning_vi": "bắt chéo chân",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt chéo chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt chéo chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37709,
+    "word": "足音",
+    "kana": "あしおと",
+    "senses": [
+      {
+        "sense_id": 266292,
+        "meaning_vi": "(tiếng) tiếng bước chân",
+        "confidence": "high",
+        "search_keywords": [
+          "(tiếng) tiếng bước chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tiếng) tiếng bước chân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266293,
+        "meaning_vi": "cảm nhận hoặc dấu hiệu rằng một cái gì đó đang đến gần",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm nhận hoặc dấu hiệu rằng một cái gì đó đang đến gần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm nhận hoặc dấu hiệu rằng một cái gì đó đang đến gần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37710,
+    "word": "足回り",
+    "kana": "あしまわり",
+    "senses": [
+      {
+        "sense_id": 266294,
+        "meaning_vi": "hệ thống treo (của xe); gầm xe",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống treo (của xe)",
+          "gầm xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống treo (của xe); gầm xe",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266295,
+        "meaning_vi": "khu vực xung quanh bàn chân của một người; giày dép",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực xung quanh bàn chân của một người",
+          "giày dép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực xung quanh bàn chân của một người; giày dép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37711,
+    "word": "足技",
+    "kana": "あしわざ",
+    "senses": [
+      {
+        "sense_id": 266296,
+        "meaning_vi": "kỹ thuật chân (trong judo, đấu vật sumo, v.v.); động tác bằng chân",
+        "confidence": "high",
+        "search_keywords": [
+          "kỹ thuật chân (trong judo, đấu vật sumo, v.v.)",
+          "động tác bằng chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỹ thuật chân (trong judo, đấu vật sumo, v.v.); động tác bằng chân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266297,
+        "meaning_vi": "thủ thuật được thực hiện bằng bàn chân",
+        "confidence": "high",
+        "search_keywords": [
+          "thủ thuật được thực hiện bằng bàn chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ thuật được thực hiện bằng bàn chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37712,
+    "word": "足固め",
+    "kana": "あしがため",
+    "senses": [
+      {
+        "sense_id": 266298,
+        "meaning_vi": "nền tảng; sự chuẩn bị",
+        "confidence": "high",
+        "search_keywords": [
+          "nền tảng",
+          "sự chuẩn bị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nền tảng; sự chuẩn bị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266299,
+        "meaning_vi": "tập đi bộ; tăng cường đôi chân của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "tập đi bộ",
+          "tăng cường đôi chân của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập đi bộ; tăng cường đôi chân của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266300,
+        "meaning_vi": "giữ chân (đấu vật, judo, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "giữ chân (đấu vật, judo, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giữ chân (đấu vật, judo, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266301,
+        "meaning_vi": "dầm gỗ nối các trụ dưới sàn",
+        "confidence": "high",
+        "search_keywords": [
+          "dầm gỗ nối các trụ dưới sàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dầm gỗ nối các trụ dưới sàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37713,
+    "word": "足腰",
+    "kana": "あしこし",
+    "senses": [
+      {
+        "sense_id": 266302,
+        "meaning_vi": "chân và thắt lưng; thân dưới",
+        "confidence": "high",
+        "search_keywords": [
+          "chân và thắt lưng",
+          "thân dưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chân và thắt lưng; thân dưới",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266303,
+        "meaning_vi": "nền móng; nền tảng",
+        "confidence": "high",
+        "search_keywords": [
+          "nền móng",
+          "nền tảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nền móng; nền tảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37714,
+    "word": "足止め",
+    "kana": "あしどめ",
+    "senses": [
+      {
+        "sense_id": 266304,
+        "meaning_vi": "ngăn cản (ai đó) rời đi; giam giữ; giữ trong nhà; thuyết phục ở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "ngăn cản (ai đó) rời đi",
+          "giam giữ",
+          "giữ trong nhà",
+          "thuyết phục ở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngăn cản (ai đó) rời đi; giam giữ; giữ trong nhà; thuyết phục ở lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266305,
+        "meaning_vi": "bị mắc kẹt; nối đất",
+        "confidence": "high",
+        "search_keywords": [
+          "bị mắc kẹt",
+          "nối đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị mắc kẹt; nối đất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266306,
+        "meaning_vi": "nhuộm cấp độ",
+        "confidence": "high",
+        "search_keywords": [
+          "nhuộm cấp độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhuộm cấp độ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37715,
+    "word": "足取り",
+    "kana": "あしどり",
+    "senses": [
+      {
+        "sense_id": 266307,
+        "meaning_vi": "dáng đi; đi bộ; sải bước; nhịp độ; bước chân; cách đi bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "dáng đi",
+          "đi bộ",
+          "sải bước",
+          "nhịp độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dáng đi; đi bộ; sải bước; nhịp độ; bước chân; cách đi bộ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266308,
+        "meaning_vi": "dấu vết (ví dụ: lộ trình mà tội phạm bị săn lùng đã đi); theo dõi; đường mòn; phong trào",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu vết (ví dụ: lộ trình mà tội phạm bị săn lùng đã đi)",
+          "theo dõi",
+          "đường mòn",
+          "phong trào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu vết (ví dụ: lộ trình mà tội phạm bị săn lùng đã đi); theo dõi; đường mòn; phong trào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37716,
+    "word": "足首",
+    "kana": "あしくび",
+    "senses": [
+      {
+        "sense_id": 266309,
+        "meaning_vi": "mắt cá chân",
+        "confidence": "high",
+        "search_keywords": [
+          "mắt cá chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mắt cá chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37717,
+    "word": "足蹴",
+    "kana": "あしげ",
+    "senses": [
+      {
+        "sense_id": 266310,
+        "meaning_vi": "cú đá",
+        "confidence": "high",
+        "search_keywords": [
+          "cú đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cú đá",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266311,
+        "meaning_vi": "đối xử tệ với (ai đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "đối xử tệ với (ai đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối xử tệ với (ai đó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37718,
+    "word": "足場",
+    "kana": "あしば",
+    "senses": [
+      {
+        "sense_id": 266312,
+        "meaning_vi": "giàn giáo; giàn giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "giàn giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giàn giáo; giàn giáo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266313,
+        "meaning_vi": "chỗ đứng; nền móng",
+        "confidence": "high",
+        "search_keywords": [
+          "chỗ đứng",
+          "nền móng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỗ đứng; nền móng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266314,
+        "meaning_vi": "chỗ đứng (ví dụ: trong kinh doanh); sự thành lập; cơ sở",
+        "confidence": "high",
+        "search_keywords": [
+          "chỗ đứng (ví dụ: trong kinh doanh)",
+          "sự thành lập",
+          "cơ sở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỗ đứng (ví dụ: trong kinh doanh); sự thành lập; cơ sở",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266315,
+        "meaning_vi": "thuận tiện cho việc vận chuyển; thuận tiện tiếp cận (bằng đường bộ hoặc đường sắt)",
+        "confidence": "high",
+        "search_keywords": [
+          "thuận tiện cho việc vận chuyển",
+          "thuận tiện tiếp cận (bằng đường bộ hoặc đường sắt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuận tiện cho việc vận chuyển; thuận tiện tiếp cận (bằng đường bộ hoặc đường sắt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37719,
+    "word": "足ずり",
+    "kana": "あしずり",
+    "senses": [
+      {
+        "sense_id": 266316,
+        "meaning_vi": "dậm chân (tức giận, thất vọng, v.v.); cào đất",
+        "confidence": "high",
+        "search_keywords": [
+          "dậm chân (tức giận, thất vọng, v.v.)",
+          "cào đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dậm chân (tức giận, thất vọng, v.v.); cào đất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37720,
+    "word": "足早",
+    "kana": "あしばや",
+    "senses": [
+      {
+        "sense_id": 266317,
+        "meaning_vi": "nhanh (đi bộ); nhanh; nhanh nhẹn",
+        "confidence": "high",
+        "search_keywords": [
+          "nhanh (đi bộ)",
+          "nhanh",
+          "nhanh nhẹn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhanh (đi bộ); nhanh; nhanh nhẹn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266318,
+        "meaning_vi": "nhanh chóng (thời gian trôi qua); nhanh; nhanh nhẹn",
+        "confidence": "high",
+        "search_keywords": [
+          "nhanh chóng (thời gian trôi qua)",
+          "nhanh",
+          "nhanh nhẹn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhanh chóng (thời gian trôi qua); nhanh; nhanh nhẹn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37721,
+    "word": "足早に",
+    "kana": "あしばやに",
+    "senses": [
+      {
+        "sense_id": 266319,
+        "meaning_vi": "nhanh nhẹn (đi bộ); với tốc độ nhanh chóng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhanh nhẹn (đi bộ)",
+          "với tốc độ nhanh chóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhanh nhẹn (đi bộ); với tốc độ nhanh chóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

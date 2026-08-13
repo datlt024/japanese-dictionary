@@ -55,3 +55,9 @@ export function normalizeAppSearchTab(
 
     return "vocabulary"
 }
+
+export const NOTEBOOK_ITEM_TYPE_LABELS: Record<string, string> = {
+    vocabulary: "Từ vựng",
+    kanji: "Hán tự",
+    grammar: "Ngữ pháp",
+}

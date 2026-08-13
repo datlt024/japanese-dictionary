@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 117743,
+    "word": "アドレス定数",
+    "kana": "アドレスていすう",
+    "senses": [
+      {
+        "sense_id": 361259,
+        "meaning_vi": "hằng số địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "hằng số địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hằng số địa chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117744,
+    "word": "アドレス部",
+    "kana": "アドレスぶ",
+    "senses": [
+      {
+        "sense_id": 361260,
+        "meaning_vi": "trường địa chỉ; phần địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "trường địa chỉ",
+          "phần địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường địa chỉ; phần địa chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117745,
+    "word": "アドレス部拡張",
+    "kana": "アドレスぶかくちょう",
+    "senses": [
+      {
+        "sense_id": 361261,
+        "meaning_vi": "phần mở rộng trường địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "phần mở rộng trường địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần mở rộng trường địa chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117746,
+    "word": "アドレス変換",
+    "kana": "アドレスへんかん",
+    "senses": [
+      {
+        "sense_id": 361262,
+        "meaning_vi": "dịch địa chỉ; ánh xạ địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch địa chỉ",
+          "ánh xạ địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch địa chỉ; ánh xạ địa chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117747,
+    "word": "アドレス変換機構",
+    "kana": "アドレスへんかんきこう",
+    "senses": [
+      {
+        "sense_id": 361263,
+        "meaning_vi": "người dịch địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "người dịch địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người dịch địa chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117748,
+    "word": "アドレス変換例外",
+    "kana": "アドレスへんかんれいがい",
+    "senses": [
+      {
+        "sense_id": 361264,
+        "meaning_vi": "(địa chỉ) ngoại lệ dịch thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "(địa chỉ) ngoại lệ dịch thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(địa chỉ) ngoại lệ dịch thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117749,
+    "word": "アドレス変更",
+    "kana": "アドレスへんこう",
+    "senses": [
+      {
+        "sense_id": 361265,
+        "meaning_vi": "sửa đổi địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa đổi địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa đổi địa chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117750,
+    "word": "アドレス変更子",
+    "kana": "アドレスへんこうし",
+    "senses": [
+      {
+        "sense_id": 361266,
+        "meaning_vi": "công cụ sửa đổi địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "công cụ sửa đổi địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công cụ sửa đổi địa chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117751,
+    "word": "アドレッシングモード",
+    "kana": "アドレッシングモード",
+    "senses": [
+      {
+        "sense_id": 361267,
+        "meaning_vi": "chế độ địa chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ địa chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ địa chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117752,
+    "word": "アナログＲＧＢ",
+    "kana": "アナログアールジービー",
+    "senses": [
+      {
+        "sense_id": 361268,
+        "meaning_vi": "RGB tương tự (đỏ xanh xanh)",
+        "confidence": "high",
+        "search_keywords": [
+          "RGB tương tự (đỏ xanh xanh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "RGB tương tự (đỏ xanh xanh)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117753,
+    "word": "アナログジョイスティック",
+    "kana": "アナログジョイスティック",
+    "senses": [
+      {
+        "sense_id": 361269,
+        "meaning_vi": "cần điều khiển analog",
+        "confidence": "high",
+        "search_keywords": [
+          "cần điều khiển analog"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cần điều khiển analog",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117754,
+    "word": "アナログスイッチ",
+    "kana": "アナログスイッチ",
+    "senses": [
+      {
+        "sense_id": 361270,
+        "meaning_vi": "công tắc analog",
+        "confidence": "high",
+        "search_keywords": [
+          "công tắc analog"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công tắc analog",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117755,
+    "word": "アナログデータ",
+    "kana": "アナログデータ",
+    "senses": [
+      {
+        "sense_id": 361271,
+        "meaning_vi": "dữ liệu tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu tương tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117756,
+    "word": "アナログディジタル変換器",
+    "kana": "アナログディジタルへんかんき",
+    "senses": [
+      {
+        "sense_id": 361272,
+        "meaning_vi": "bộ chuyển đổi tương tự sang số; Bộ chuyển đổi AD; ADC",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ chuyển đổi tương tự sang số",
+          "Bộ chuyển đổi AD",
+          "ADC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ chuyển đổi tương tự sang số; Bộ chuyển đổi AD; ADC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117757,
+    "word": "アナログディスプレイ",
+    "kana": "アナログディスプレイ",
+    "senses": [
+      {
+        "sense_id": 361273,
+        "meaning_vi": "màn hình tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "màn hình tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màn hình tương tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117758,
+    "word": "アナログボード",
+    "kana": "アナログボード",
+    "senses": [
+      {
+        "sense_id": 361274,
+        "meaning_vi": "bảng tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng tương tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117759,
+    "word": "アナログポート",
+    "kana": "アナログポート",
+    "senses": [
+      {
+        "sense_id": 361275,
+        "meaning_vi": "cổng analog",
+        "confidence": "high",
+        "search_keywords": [
+          "cổng analog"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cổng analog",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117760,
+    "word": "アナログモデム",
+    "kana": "アナログモデム",
+    "senses": [
+      {
+        "sense_id": 361276,
+        "meaning_vi": "modem tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "modem tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "modem tương tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117761,
+    "word": "アナログ加算器",
+    "kana": "アナログかさんき",
+    "senses": [
+      {
+        "sense_id": 361277,
+        "meaning_vi": "mùa hè; bộ cộng tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "mùa hè",
+          "bộ cộng tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mùa hè; bộ cộng tương tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117762,
+    "word": "アナログ回線",
+    "kana": "アナログかいせん",
+    "senses": [
+      {
+        "sense_id": 361278,
+        "meaning_vi": "đường dây tương tự (mạch)",
+        "confidence": "high",
+        "search_keywords": [
+          "đường dây tương tự (mạch)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường dây tương tự (mạch)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

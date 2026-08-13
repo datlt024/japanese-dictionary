@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 125279,
+    "word": "端末種別",
+    "kana": "たんまつしゅべつ",
+    "senses": [
+      {
+        "sense_id": 368918,
+        "meaning_vi": "loại thiết bị đầu cuối",
+        "confidence": "high",
+        "search_keywords": [
+          "loại thiết bị đầu cuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại thiết bị đầu cuối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125280,
+    "word": "端末入力",
+    "kana": "たんまつにゅうりょく",
+    "senses": [
+      {
+        "sense_id": 368919,
+        "meaning_vi": "đầu vào thiết bị đầu cuối",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu vào thiết bị đầu cuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu vào thiết bị đầu cuối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125281,
+    "word": "団体著者",
+    "kana": "だんたいちょしゃ",
+    "senses": [
+      {
+        "sense_id": 368920,
+        "meaning_vi": "tác giả công ty",
+        "confidence": "high",
+        "search_keywords": [
+          "tác giả công ty"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tác giả công ty",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125282,
+    "word": "断片化",
+    "kana": "だんぺんか",
+    "senses": [
+      {
+        "sense_id": 368921,
+        "meaning_vi": "sự phân mảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phân mảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phân mảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125283,
+    "word": "断面プロット",
+    "kana": "だんめんプロット",
+    "senses": [
+      {
+        "sense_id": 368922,
+        "meaning_vi": "cốt truyện lát cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "cốt truyện lát cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cốt truyện lát cắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125284,
+    "word": "段シフト",
+    "kana": "だんシフト",
+    "senses": [
+      {
+        "sense_id": 368923,
+        "meaning_vi": "trường hợp thay đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "trường hợp thay đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường hợp thay đổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125285,
+    "word": "段階的詳細化",
+    "kana": "だんかいてきしょうさいか",
+    "senses": [
+      {
+        "sense_id": 368924,
+        "meaning_vi": "sàng lọc từng bước",
+        "confidence": "high",
+        "search_keywords": [
+          "sàng lọc từng bước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sàng lọc từng bước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125286,
+    "word": "段組み",
+    "kana": "だんぐみ",
+    "senses": [
+      {
+        "sense_id": 368925,
+        "meaning_vi": "bố cục nhiều cột; thiết lập cột",
+        "confidence": "high",
+        "search_keywords": [
+          "bố cục nhiều cột",
+          "thiết lập cột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bố cục nhiều cột; thiết lập cột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125287,
+    "word": "値参照名",
+    "kana": "あたいさんしょうめい",
+    "senses": [
+      {
+        "sense_id": 368926,
+        "meaning_vi": "tên tham chiếu giá trị",
+        "confidence": "high",
+        "search_keywords": [
+          "tên tham chiếu giá trị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên tham chiếu giá trị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125288,
+    "word": "知識ベース",
+    "kana": "ちしきベース",
+    "senses": [
+      {
+        "sense_id": 368927,
+        "meaning_vi": "cơ sở tri thức",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở tri thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở tri thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125289,
+    "word": "知識参照",
+    "kana": "ちしきさんしょう",
+    "senses": [
+      {
+        "sense_id": 368928,
+        "meaning_vi": "tham khảo kiến thức",
+        "confidence": "high",
+        "search_keywords": [
+          "tham khảo kiến thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham khảo kiến thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125290,
+    "word": "知識情報",
+    "kana": "ちしきじょうほう",
+    "senses": [
+      {
+        "sense_id": 368929,
+        "meaning_vi": "thông tin kiến thức",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin kiến thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin kiến thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125291,
+    "word": "知識情報処理",
+    "kana": "ちしきじょうほうしょり",
+    "senses": [
+      {
+        "sense_id": 368930,
+        "meaning_vi": "xử lý thông tin thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý thông tin thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý thông tin thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125292,
+    "word": "知識情報処理システム",
+    "kana": "ちしきじょうほうしょりシステム",
+    "senses": [
+      {
+        "sense_id": 368931,
+        "meaning_vi": "hệ thống xử lý thông tin tri thức",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống xử lý thông tin tri thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống xử lý thông tin tri thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125293,
+    "word": "知識木",
+    "kana": "ちしきぎ",
+    "senses": [
+      {
+        "sense_id": 368932,
+        "meaning_vi": "cây tri thức",
+        "confidence": "high",
+        "search_keywords": [
+          "cây tri thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây tri thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125294,
+    "word": "知的財産権",
+    "kana": "ちてきざいさんけん",
+    "senses": [
+      {
+        "sense_id": 368933,
+        "meaning_vi": "quyền sở hữu trí tuệ; Quyền sở hữu trí tuệ",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền sở hữu trí tuệ",
+          "Quyền sở hữu trí tuệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền sở hữu trí tuệ; Quyền sở hữu trí tuệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125295,
+    "word": "知的端末",
+    "kana": "ちてきたんまつ",
+    "senses": [
+      {
+        "sense_id": 368934,
+        "meaning_vi": "thiết bị đầu cuối thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125296,
+    "word": "地域コード",
+    "kana": "ちいきコード",
+    "senses": [
+      {
+        "sense_id": 368935,
+        "meaning_vi": "mã địa phương; mã vùng",
+        "confidence": "high",
+        "search_keywords": [
+          "mã địa phương",
+          "mã vùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã địa phương; mã vùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125297,
+    "word": "地域ベルオペレーティング会社",
+    "kana": "ちいきベルオペレーティングがいしゃ",
+    "senses": [
+      {
+        "sense_id": 368936,
+        "meaning_vi": "Công ty Điều hành Bell khu vực (Mỹ); RBOC",
+        "confidence": "high",
+        "search_keywords": [
+          "Công ty Điều hành Bell khu vực (Mỹ)",
+          "RBOC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Công ty Điều hành Bell khu vực (Mỹ); RBOC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125298,
+    "word": "地域ベル電話会社",
+    "kana": "ちいきベルでんわがいしゃ",
+    "senses": [
+      {
+        "sense_id": 368937,
+        "meaning_vi": "công ty điều hành Bell khu vực; RBOC",
+        "confidence": "high",
+        "search_keywords": [
+          "công ty điều hành Bell khu vực",
+          "RBOC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công ty điều hành Bell khu vực; RBOC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

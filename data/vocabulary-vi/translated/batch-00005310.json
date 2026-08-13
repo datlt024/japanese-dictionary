@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 126764,
+    "word": "木状網",
+    "kana": "きじょうもう",
+    "senses": [
+      {
+        "sense_id": 370414,
+        "meaning_vi": "mạng lưới cây",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng lưới cây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng lưới cây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126765,
+    "word": "木探索",
+    "kana": "きたんさく",
+    "senses": [
+      {
+        "sense_id": 370415,
+        "meaning_vi": "tìm kiếm cây",
+        "confidence": "high",
+        "search_keywords": [
+          "tìm kiếm cây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tìm kiếm cây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126766,
+    "word": "黙示属性",
+    "kana": "もくしぞくせい",
+    "senses": [
+      {
+        "sense_id": 370416,
+        "meaning_vi": "thuộc tính có thể áp dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính có thể áp dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính có thể áp dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126767,
+    "word": "目的プログラム",
+    "kana": "もくてきプログラム",
+    "senses": [
+      {
+        "sense_id": 370417,
+        "meaning_vi": "chương trình đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126768,
+    "word": "目的モジュール",
+    "kana": "もくてきモジュール",
+    "senses": [
+      {
+        "sense_id": 370418,
+        "meaning_vi": "mô-đun đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "mô-đun đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô-đun đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126769,
+    "word": "目的言語",
+    "kana": "もくてきげんご",
+    "senses": [
+      {
+        "sense_id": 370419,
+        "meaning_vi": "ngôn ngữ đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126770,
+    "word": "目的要素",
+    "kana": "もくてきようそ",
+    "senses": [
+      {
+        "sense_id": 370420,
+        "meaning_vi": "phần tử mục tiêu",
+        "confidence": "high",
+        "search_keywords": [
+          "phần tử mục tiêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần tử mục tiêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126771,
+    "word": "目標シソーラス",
+    "kana": "もくひょうシソーラス",
+    "senses": [
+      {
+        "sense_id": 370421,
+        "meaning_vi": "mục tiêu từ điển đồng nghĩa",
+        "confidence": "high",
+        "search_keywords": [
+          "mục tiêu từ điển đồng nghĩa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục tiêu từ điển đồng nghĩa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126772,
+    "word": "目標デスクリプタ",
+    "kana": "もくひょうデスクリプタ",
+    "senses": [
+      {
+        "sense_id": 370422,
+        "meaning_vi": "mô tả mục tiêu",
+        "confidence": "high",
+        "search_keywords": [
+          "mô tả mục tiêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô tả mục tiêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126773,
+    "word": "目標プログラム",
+    "kana": "もくひょうプログラム",
+    "senses": [
+      {
+        "sense_id": 370423,
+        "meaning_vi": "chương trình mục tiêu",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình mục tiêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình mục tiêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126774,
+    "word": "戻り値",
+    "kana": "もどりち",
+    "senses": [
+      {
+        "sense_id": 370424,
+        "meaning_vi": "giá trị trả về; giá trị trả về",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị trả về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị trả về; giá trị trả về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126775,
+    "word": "問合せ関数",
+    "kana": "といあわせかんすう",
+    "senses": [
+      {
+        "sense_id": 370425,
+        "meaning_vi": "chức năng điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126776,
+    "word": "問合せ機能",
+    "kana": "といあわせきのう",
+    "senses": [
+      {
+        "sense_id": 370426,
+        "meaning_vi": "chức năng điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126777,
+    "word": "問い合わせ言語",
+    "kana": "といあわせげんご",
+    "senses": [
+      {
+        "sense_id": 370427,
+        "meaning_vi": "ngôn ngữ truy vấn",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ truy vấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ truy vấn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126778,
+    "word": "問合せ端末",
+    "kana": "といあわせたんまつ",
+    "senses": [
+      {
+        "sense_id": 370428,
+        "meaning_vi": "trạm điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "trạm điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạm điều tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126779,
+    "word": "問題記述",
+    "kana": "もんだいきじゅつ",
+    "senses": [
+      {
+        "sense_id": 370429,
+        "meaning_vi": "xác định vấn đề; mô tả vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "xác định vấn đề",
+          "mô tả vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xác định vấn đề; mô tả vấn đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126780,
+    "word": "問題向き言語",
+    "kana": "もんだいむきげんご",
+    "senses": [
+      {
+        "sense_id": 370430,
+        "meaning_vi": "ngôn ngữ định hướng vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ định hướng vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ định hướng vấn đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126781,
+    "word": "問題定義",
+    "kana": "もんだいていぎ",
+    "senses": [
+      {
+        "sense_id": 370431,
+        "meaning_vi": "xác định vấn đề; mô tả vấn đề",
+        "confidence": "high",
+        "search_keywords": [
+          "xác định vấn đề",
+          "mô tả vấn đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xác định vấn đề; mô tả vấn đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126782,
+    "word": "矢印キー",
+    "kana": "やじるしキー",
+    "senses": [
+      {
+        "sense_id": 370432,
+        "meaning_vi": "phím mũi tên",
+        "confidence": "high",
+        "search_keywords": [
+          "phím mũi tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phím mũi tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126783,
+    "word": "輸出権",
+    "kana": "ゆしゅつけん",
+    "senses": [
+      {
+        "sense_id": 370433,
+        "meaning_vi": "giấy phép xuất khẩu, giấy phép",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy phép xuất khẩu, giấy phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy phép xuất khẩu, giấy phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

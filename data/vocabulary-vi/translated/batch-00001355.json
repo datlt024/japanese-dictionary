@@ -1,0 +1,520 @@
+[
+  {
+    "vocabulary_id": 34660,
+    "word": "数奇",
+    "kana": "すうき",
+    "senses": [
+      {
+        "sense_id": 262133,
+        "meaning_vi": "bất hạnh; vận may bất lợi; số phận bất hạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "bất hạnh",
+          "vận may bất lợi",
+          "số phận bất hạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất hạnh; vận may bất lợi; số phận bất hạnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262134,
+        "meaning_vi": "rô (cuộc sống, sự nghiệp, v.v.); đa dạng; đầy sự kiện; kịch; đầy thăng trầm",
+        "confidence": "high",
+        "search_keywords": [
+          "rô (cuộc sống, sự nghiệp, v.v.)",
+          "đa dạng",
+          "đầy sự kiện",
+          "kịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rô (cuộc sống, sự nghiệp, v.v.); đa dạng; đầy sự kiện; kịch; đầy thăng trầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34661,
+    "word": "数寄",
+    "kana": "すき",
+    "senses": [
+      {
+        "sense_id": 262135,
+        "meaning_vi": "hương vị tinh tế; theo đuổi thanh lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "hương vị tinh tế",
+          "theo đuổi thanh lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hương vị tinh tế; theo đuổi thanh lịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34662,
+    "word": "数係数",
+    "kana": "すうけいすう",
+    "senses": [
+      {
+        "sense_id": 262136,
+        "meaning_vi": "hệ số",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34663,
+    "word": "数個",
+    "kana": "すうこ",
+    "senses": [
+      {
+        "sense_id": 262137,
+        "meaning_vi": "một số (đối tượng, thông thường từ hai đến sáu)",
+        "confidence": "high",
+        "search_keywords": [
+          "một số (đối tượng, thông thường từ hai đến sáu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một số (đối tượng, thông thường từ hai đến sáu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34664,
+    "word": "数冊",
+    "kana": "すうさつ",
+    "senses": [
+      {
+        "sense_id": 262138,
+        "meaning_vi": "nhiều tập (sách)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiều tập (sách)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiều tập (sách)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34665,
+    "word": "数詞",
+    "kana": "すうし",
+    "senses": [
+      {
+        "sense_id": 262139,
+        "meaning_vi": "chữ số",
+        "confidence": "high",
+        "search_keywords": [
+          "chữ số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chữ số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34666,
+    "word": "数字",
+    "kana": "すうじ",
+    "senses": [
+      {
+        "sense_id": 262140,
+        "meaning_vi": "chữ số; chữ số; ký tự số",
+        "confidence": "high",
+        "search_keywords": [
+          "chữ số",
+          "ký tự số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chữ số; chữ số; ký tự số",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262141,
+        "meaning_vi": "nhân vật; con số",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật",
+          "con số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật; con số",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262142,
+        "meaning_vi": "một vài nhân vật",
+        "confidence": "high",
+        "search_keywords": [
+          "một vài nhân vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một vài nhân vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34667,
+    "word": "数式",
+    "kana": "すうしき",
+    "senses": [
+      {
+        "sense_id": 262143,
+        "meaning_vi": "công thức số",
+        "confidence": "high",
+        "search_keywords": [
+          "công thức số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công thức số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34668,
+    "word": "数珠",
+    "kana": "じゅず",
+    "senses": [
+      {
+        "sense_id": 262144,
+        "meaning_vi": "tràng hạt; chuỗi hạt cầu nguyện",
+        "confidence": "high",
+        "search_keywords": [
+          "tràng hạt",
+          "chuỗi hạt cầu nguyện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tràng hạt; chuỗi hạt cầu nguyện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34669,
+    "word": "数人",
+    "kana": "すうにん",
+    "senses": [
+      {
+        "sense_id": 262145,
+        "meaning_vi": "vài người; một vài người",
+        "confidence": "high",
+        "search_keywords": [
+          "vài người",
+          "một vài người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vài người; một vài người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34670,
+    "word": "数隻",
+    "kana": "すうせき",
+    "senses": [
+      {
+        "sense_id": 262146,
+        "meaning_vi": "một số (thuyền)",
+        "confidence": "high",
+        "search_keywords": [
+          "một số (thuyền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một số (thuyền)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34671,
+    "word": "数千",
+    "kana": "すうせん",
+    "senses": [
+      {
+        "sense_id": 262147,
+        "meaning_vi": "hàng nghìn; vài nghìn",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng nghìn",
+          "vài nghìn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng nghìn; vài nghìn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34672,
+    "word": "数多",
+    "kana": "あまた",
+    "senses": [
+      {
+        "sense_id": 262148,
+        "meaning_vi": "nhiều; rất nhiều; một số lượng lớn; nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiều",
+          "rất nhiều",
+          "một số lượng lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiều; rất nhiều; một số lượng lớn; nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34673,
+    "word": "数多く",
+    "kana": "かずおおく",
+    "senses": [
+      {
+        "sense_id": 262149,
+        "meaning_vi": "với số lượng lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "với số lượng lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "với số lượng lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34674,
+    "word": "数値",
+    "kana": "すうち",
+    "senses": [
+      {
+        "sense_id": 262150,
+        "meaning_vi": "giá trị số",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị số",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 262151,
+        "meaning_vi": "nhân vật; kết quả; đọc (trên đồng hồ, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật",
+          "kết quả",
+          "đọc (trên đồng hồ, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật; kết quả; đọc (trên đồng hồ, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34675,
+    "word": "数値計算",
+    "kana": "すうちけいさん",
+    "senses": [
+      {
+        "sense_id": 262152,
+        "meaning_vi": "phép toán số; tính toán số",
+        "confidence": "high",
+        "search_keywords": [
+          "phép toán số",
+          "tính toán số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phép toán số; tính toán số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34676,
+    "word": "数値制御",
+    "kana": "すうちせいぎょ",
+    "senses": [
+      {
+        "sense_id": 262153,
+        "meaning_vi": "điều khiển số; NC",
+        "confidence": "high",
+        "search_keywords": [
+          "điều khiển số",
+          "NC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều khiển số; NC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34677,
+    "word": "数値目標",
+    "kana": "すうちもくひょう",
+    "senses": [
+      {
+        "sense_id": 262154,
+        "meaning_vi": "giá trị mục tiêu; số tiền mục tiêu",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị mục tiêu",
+          "số tiền mục tiêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị mục tiêu; số tiền mục tiêu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34678,
+    "word": "数日",
+    "kana": "すうじつ",
+    "senses": [
+      {
+        "sense_id": 262155,
+        "meaning_vi": "vài ngày",
+        "confidence": "high",
+        "search_keywords": [
+          "vài ngày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vài ngày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34679,
+    "word": "数日間",
+    "kana": "すうじつかん",
+    "senses": [
+      {
+        "sense_id": 262156,
+        "meaning_vi": "khoảng thời gian vài ngày",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng thời gian vài ngày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng thời gian vài ngày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

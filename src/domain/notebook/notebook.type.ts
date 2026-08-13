@@ -1,10 +1,20 @@
 export type NotebookItemType = "vocabulary" | "kanji" | "grammar"
 
+export type NotebookGroup = {
+    id: string
+    user_id: string
+    name: string
+    description: string | null
+    created_at: string
+    updated_at: string
+}
+
 export type Notebook = {
     id: string
     user_id: string
     name: string
     description: string | null
+    group_id: string | null
     created_at: string
     updated_at: string
 }

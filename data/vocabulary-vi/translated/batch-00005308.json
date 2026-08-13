@@ -1,0 +1,449 @@
+[
+  {
+    "vocabulary_id": 126724,
+    "word": "命名方法引数",
+    "kana": "めいめいほうほうひきすう",
+    "senses": [
+      {
+        "sense_id": 370374,
+        "meaning_vi": "tham số quy tắc đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "tham số quy tắc đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham số quy tắc đặt tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126725,
+    "word": "命名領域",
+    "kana": "めいめいりょういき",
+    "senses": [
+      {
+        "sense_id": 370375,
+        "meaning_vi": "đặt tên miền",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt tên miền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt tên miền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126726,
+    "word": "命令アドレスレジスタ",
+    "kana": "めいれいアドレスレジスタ",
+    "senses": [
+      {
+        "sense_id": 370376,
+        "meaning_vi": "thanh ghi địa chỉ lệnh; đăng ký chương trình; thanh ghi con trỏ lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh ghi địa chỉ lệnh",
+          "đăng ký chương trình",
+          "thanh ghi con trỏ lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh ghi địa chỉ lệnh; đăng ký chương trình; thanh ghi con trỏ lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126727,
+    "word": "命令コード",
+    "kana": "めいれいコード",
+    "senses": [
+      {
+        "sense_id": 370377,
+        "meaning_vi": "Mã hoạt động; mã lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "Mã hoạt động",
+          "mã lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mã hoạt động; mã lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126728,
+    "word": "命令サイクル",
+    "kana": "めいれいサイクル",
+    "senses": [
+      {
+        "sense_id": 370378,
+        "meaning_vi": "chu kỳ hướng dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "chu kỳ hướng dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chu kỳ hướng dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126729,
+    "word": "命令セット",
+    "kana": "めいれいセット",
+    "senses": [
+      {
+        "sense_id": 370379,
+        "meaning_vi": "tập lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "tập lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126730,
+    "word": "命令セットアーキテクチャ",
+    "kana": "めいれいセットアーキテクチャ",
+    "senses": [
+      {
+        "sense_id": 370380,
+        "meaning_vi": "kiến trúc tập lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "kiến trúc tập lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiến trúc tập lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126731,
+    "word": "命令ポインタレジスタ",
+    "kana": "めいれいポインタレジスタ",
+    "senses": [
+      {
+        "sense_id": 370381,
+        "meaning_vi": "thanh ghi địa chỉ lệnh; đăng ký chương trình; thanh ghi con trỏ lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh ghi địa chỉ lệnh",
+          "đăng ký chương trình",
+          "thanh ghi con trỏ lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh ghi địa chỉ lệnh; đăng ký chương trình; thanh ghi con trỏ lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126732,
+    "word": "命令レジスタ",
+    "kana": "めいれいレジスタ",
+    "senses": [
+      {
+        "sense_id": 370382,
+        "meaning_vi": "thanh ghi hướng dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh ghi hướng dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh ghi hướng dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126733,
+    "word": "命令形式",
+    "kana": "めいれいけいしき",
+    "senses": [
+      {
+        "sense_id": 370383,
+        "meaning_vi": "định dạng hướng dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "định dạng hướng dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định dạng hướng dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126734,
+    "word": "命令再試行",
+    "kana": "めいれいさいしこう",
+    "senses": [
+      {
+        "sense_id": 370384,
+        "meaning_vi": "thử lại thực hiện lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thử lại thực hiện lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thử lại thực hiện lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126735,
+    "word": "命令実行段階",
+    "kana": "めいれいじっこうだんかい",
+    "senses": [
+      {
+        "sense_id": 370385,
+        "meaning_vi": "chu kỳ thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "chu kỳ thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chu kỳ thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126736,
+    "word": "命令取り出しサイクル",
+    "kana": "めいれいとりだしサイクル",
+    "senses": [
+      {
+        "sense_id": 370386,
+        "meaning_vi": "chu kỳ tìm nạp",
+        "confidence": "high",
+        "search_keywords": [
+          "chu kỳ tìm nạp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chu kỳ tìm nạp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126737,
+    "word": "命令取出し段階",
+    "kana": "めいれいとりだしだんかい",
+    "senses": [
+      {
+        "sense_id": 370387,
+        "meaning_vi": "chu kỳ tìm nạp lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "chu kỳ tìm nạp lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chu kỳ tìm nạp lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126738,
+    "word": "命令制御ユニット",
+    "kana": "めいれいせいぎょユニット",
+    "senses": [
+      {
+        "sense_id": 370388,
+        "meaning_vi": "bộ điều khiển hướng dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ điều khiển hướng dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ điều khiển hướng dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126739,
+    "word": "明確化",
+    "kana": "めいかくか",
+    "senses": [
+      {
+        "sense_id": 370389,
+        "meaning_vi": "làm rõ; độ nét",
+        "confidence": "high",
+        "search_keywords": [
+          "làm rõ",
+          "độ nét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm rõ; độ nét",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126740,
+    "word": "明示アドレシング",
+    "kana": "めいじアドレシング",
+    "senses": [
+      {
+        "sense_id": 370390,
+        "meaning_vi": "địa chỉ rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126741,
+    "word": "明示アドレス指定",
+    "kana": "めいじアドレスしてい",
+    "senses": [
+      {
+        "sense_id": 370391,
+        "meaning_vi": "địa chỉ rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126742,
+    "word": "明示的引用仕様",
+    "kana": "めいじてきいんようしよう",
+    "senses": [
+      {
+        "sense_id": 370392,
+        "meaning_vi": "giao diện rõ ràng",
+        "confidence": "high",
+        "search_keywords": [
+          "giao diện rõ ràng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao diện rõ ràng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126743,
+    "word": "明示的並列命令コンピューティング技術",
+    "kana": "めいじてきへいれつめいれいコンピューティングぎじゅつ",
+    "senses": [
+      {
+        "sense_id": 370393,
+        "meaning_vi": "Tính toán lệnh song song rõ ràng; SỬ THI",
+        "confidence": "high",
+        "search_keywords": [
+          "Tính toán lệnh song song rõ ràng",
+          "SỬ THI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tính toán lệnh song song rõ ràng; SỬ THI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

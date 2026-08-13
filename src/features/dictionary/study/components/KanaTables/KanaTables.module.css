@@ -1,0 +1,413 @@
+/* ── Section wrapper ─────────────────────────────────── */
+
+.section {
+    margin-bottom: 48px;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.sectionTitle {
+    margin: 0 0 10px;
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--color-text-primary);
+}
+
+.sectionSubtitle {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+/* ── Back button ─────────────────────────────────────── */
+
+.backBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+    margin-bottom: 20px;
+    padding: 6px 12px 6px 8px;
+
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--color-text-secondary);
+
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+}
+
+.backBtn:hover {
+    background: var(--color-bg);
+    color: var(--color-text-primary);
+}
+
+/* ── Picker ──────────────────────────────────────────── */
+
+.pickerEyebrow {
+    margin: 0 0 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.picker {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 0;
+}
+
+.pickerBtn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 28px 24px 24px;
+    overflow: hidden;
+    text-align: left;
+
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-left: 4px solid var(--accent, var(--color-border));
+    border-radius: 16px;
+
+    cursor: pointer;
+    transition: box-shadow 0.15s, transform 0.12s, border-color 0.15s;
+}
+
+.pickerBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+}
+
+.pickerDeco {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: -1px;
+    color: var(--accent, #2563eb);
+    opacity: 0.07;
+    pointer-events: none;
+    user-select: none;
+    max-width: 55%;
+    word-break: break-all;
+}
+
+.pickerKana {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1;
+    color: var(--accent, var(--color-text-primary));
+    margin-bottom: 4px;
+}
+
+.pickerSub {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.pickerDesc {
+    margin: 14px 0 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    line-height: 1.55;
+}
+
+.pickerArrow {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent, var(--color-text-secondary));
+    opacity: 0.85;
+    transition: opacity 0.12s, gap 0.12s;
+}
+
+.pickerBtn:hover .pickerArrow {
+    opacity: 1;
+}
+
+/* ── Card ────────────────────────────────────────────── */
+
+.card {
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-top: 3px solid var(--card-accent, var(--color-border));
+    border-radius: 18px;
+    padding: 24px;
+    overflow: hidden;
+}
+
+.cardHeader {
+    margin-bottom: 18px;
+}
+
+.cardTitleRow {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.cardTitle {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1;
+    color: var(--card-accent, var(--color-text-primary));
+}
+
+.cardSubtitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/* ── Tab strip (segment control) ─────────────────────── */
+
+.tabStrip {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 18px;
+    background: var(--color-bg);
+    border-radius: 13px;
+    padding: 4px;
+}
+
+.tabBtn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+
+    padding: 10px 8px;
+
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.12s, box-shadow 0.12s;
+}
+
+.tabBtn:hover:not(.tabBtnActive) {
+    background: color-mix(in srgb, var(--card-accent, #2563eb) 6%, transparent);
+}
+
+.tabBtnActive {
+    background: var(--color-surface);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10), 0 0 0 1px rgba(0, 0, 0, 0.04);
+}
+
+.tabJp {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    transition: color 0.12s;
+    letter-spacing: 0.02em;
+}
+
+.tabBtnActive .tabJp {
+    color: var(--card-accent, var(--color-text-primary));
+}
+
+.tabVi {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    opacity: 0.75;
+}
+
+/* ── Table area (fade-in on tab switch) ──────────────── */
+
+.tableArea {
+    animation: tabFadeIn 0.18s ease;
+}
+
+@keyframes tabFadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Table ───────────────────────────────────────────── */
+
+.tableWrap {
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+/* ── Header cells ────────────────────────────────────── */
+
+.cornerCell {
+    width: 40px;
+    background: color-mix(in srgb, var(--card-accent, #2563eb) 6%, var(--color-bg));
+    border-bottom: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+}
+
+.colHeader {
+    padding: 10px 4px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--card-accent, var(--color-text-secondary));
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 0.06em;
+    background: color-mix(in srgb, var(--card-accent, #2563eb) 6%, var(--color-bg));
+    border-bottom: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+    opacity: 0.9;
+}
+
+.colHeader:last-child {
+    border-right: none;
+}
+
+.rowHeader {
+    padding: 0 8px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--card-accent, var(--color-text-secondary));
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 0.06em;
+    background: color-mix(in srgb, var(--card-accent, #2563eb) 4%, var(--color-bg));
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    white-space: nowrap;
+    opacity: 0.85;
+}
+
+.yoonRowLabel {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--card-accent, var(--color-text-primary));
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+/* ── Data cells ──────────────────────────────────────── */
+
+.cell {
+    padding: 10px 6px;
+    text-align: center;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: middle;
+    transition: background 0.1s;
+}
+
+.cell:last-child {
+    border-right: none;
+}
+
+tr:last-child .cell,
+tr:last-child .rowHeader {
+    border-bottom: none;
+}
+
+.cell:not(.empty) {
+    cursor: pointer;
+}
+
+.cell:not(.empty):hover {
+    background: color-mix(in srgb, var(--card-accent, #2563eb) 7%, transparent);
+}
+
+.cell:not(.empty):active {
+    background: color-mix(in srgb, var(--card-accent, #2563eb) 16%, transparent);
+    transform: scale(0.93);
+}
+
+.empty {
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 5px,
+        rgba(0, 0, 0, 0.025) 5px,
+        rgba(0, 0, 0, 0.025) 10px
+    );
+}
+
+.kana {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    line-height: 1.2;
+}
+
+.romaji {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-top: 3px;
+    font-variant-numeric: tabular-nums;
+}
+
+/* ── Responsive ──────────────────────────────────────── */
+
+@media (max-width: 640px) {
+    .picker {
+        grid-template-columns: 1fr;
+    }
+
+    .pickerDeco {
+        font-size: 40px;
+        opacity: 0.05;
+    }
+}
+
+@media (max-width: 580px) {
+    .card {
+        padding: 16px;
+    }
+
+    .kana {
+        font-size: 19px;
+    }
+
+    .romaji {
+        font-size: 10px;
+    }
+
+    .tabJp {
+        font-size: 12px;
+    }
+
+    .tabVi {
+        display: none;
+    }
+
+    .cell {
+        padding: 8px 4px;
+    }
+}

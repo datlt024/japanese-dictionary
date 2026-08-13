@@ -1,0 +1,589 @@
+[
+  {
+    "vocabulary_id": 15455,
+    "word": "運送会社",
+    "kana": "うんそうがいしゃ",
+    "senses": [
+      {
+        "sense_id": 236711,
+        "meaning_vi": "công ty vận chuyển; công ty vận tải hàng hóa; công ty vận tải",
+        "confidence": "high",
+        "search_keywords": [
+          "công ty vận chuyển",
+          "công ty vận tải hàng hóa",
+          "công ty vận tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công ty vận chuyển; công ty vận tải hàng hóa; công ty vận tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15456,
+    "word": "運賃",
+    "kana": "うんちん",
+    "senses": [
+      {
+        "sense_id": 236712,
+        "meaning_vi": "(hành khách) giá vé",
+        "confidence": "high",
+        "search_keywords": [
+          "(hành khách) giá vé"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(hành khách) giá vé",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236713,
+        "meaning_vi": "giá cước vận tải; chi phí vận chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "giá cước vận tải",
+          "chi phí vận chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá cước vận tải; chi phí vận chuyển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15457,
+    "word": "運転",
+    "kana": "うんてん",
+    "senses": [
+      {
+        "sense_id": 236714,
+        "meaning_vi": "sự vận hành (của một cái máy); đang chạy; đang làm việc",
+        "confidence": "high",
+        "search_keywords": [
+          "sự vận hành (của một cái máy)",
+          "đang chạy",
+          "đang làm việc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự vận hành (của một cái máy); đang chạy; đang làm việc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236715,
+        "meaning_vi": "lái xe (một phương tiện)",
+        "confidence": "high",
+        "search_keywords": [
+          "lái xe (một phương tiện)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lái xe (một phương tiện)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236716,
+        "meaning_vi": "sử dụng (vốn, quỹ, v.v.); sự quản lý; đầu tư",
+        "confidence": "high",
+        "search_keywords": [
+          "sử dụng (vốn, quỹ, v.v.)",
+          "sự quản lý",
+          "đầu tư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sử dụng (vốn, quỹ, v.v.); sự quản lý; đầu tư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15458,
+    "word": "運転士",
+    "kana": "うんてんし",
+    "senses": [
+      {
+        "sense_id": 236717,
+        "meaning_vi": "(chuyên nghiệp) người lái xe (taxi, xe lửa, v.v.); người lái xe máy",
+        "confidence": "high",
+        "search_keywords": [
+          "(chuyên nghiệp) người lái xe (taxi, xe lửa, v.v.)",
+          "người lái xe máy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(chuyên nghiệp) người lái xe (taxi, xe lửa, v.v.); người lái xe máy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236718,
+        "meaning_vi": "bạn đời (trên tàu); sĩ quan",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn đời (trên tàu)",
+          "sĩ quan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn đời (trên tàu); sĩ quan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15459,
+    "word": "運転資金",
+    "kana": "うんてんしきん",
+    "senses": [
+      {
+        "sense_id": 236719,
+        "meaning_vi": "vốn lưu động",
+        "confidence": "high",
+        "search_keywords": [
+          "vốn lưu động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vốn lưu động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15460,
+    "word": "運転者",
+    "kana": "うんてんしゃ",
+    "senses": [
+      {
+        "sense_id": 236720,
+        "meaning_vi": "người lái xe (của một phương tiện)",
+        "confidence": "high",
+        "search_keywords": [
+          "người lái xe (của một phương tiện)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lái xe (của một phương tiện)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15461,
+    "word": "運転手",
+    "kana": "うんてんしゅ",
+    "senses": [
+      {
+        "sense_id": 236721,
+        "meaning_vi": "tài xế; tài xế",
+        "confidence": "high",
+        "search_keywords": [
+          "tài xế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài xế; tài xế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15462,
+    "word": "運転席",
+    "kana": "うんてんせき",
+    "senses": [
+      {
+        "sense_id": 236722,
+        "meaning_vi": "ghế lái (trong ô tô)",
+        "confidence": "high",
+        "search_keywords": [
+          "ghế lái (trong ô tô)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghế lái (trong ô tô)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15463,
+    "word": "運転停止",
+    "kana": "うんてんていし",
+    "senses": [
+      {
+        "sense_id": 236723,
+        "meaning_vi": "đình chỉ hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "đình chỉ hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đình chỉ hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15464,
+    "word": "運転免許",
+    "kana": "うんてんめんきょ",
+    "senses": [
+      {
+        "sense_id": 236724,
+        "meaning_vi": "bằng lái xe; bằng lái xe; bằng lái xe",
+        "confidence": "high",
+        "search_keywords": [
+          "bằng lái xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bằng lái xe; bằng lái xe; bằng lái xe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15465,
+    "word": "運動",
+    "kana": "うんどう",
+    "senses": [
+      {
+        "sense_id": 236725,
+        "meaning_vi": "bài tập; rèn luyện thể chất; tập luyện; thể thao; điền kinh",
+        "confidence": "high",
+        "search_keywords": [
+          "bài tập",
+          "rèn luyện thể chất",
+          "tập luyện",
+          "thể thao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài tập; rèn luyện thể chất; tập luyện; thể thao; điền kinh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236726,
+        "meaning_vi": "bắt mắt; chiến dịch; lái xe; cuộc thập tự chinh; sự chuyển động; vận động hành lang",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt mắt",
+          "chiến dịch",
+          "lái xe",
+          "cuộc thập tự chinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt mắt; chiến dịch; lái xe; cuộc thập tự chinh; sự chuyển động; vận động hành lang",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236727,
+        "meaning_vi": "cử động; phong trào",
+        "confidence": "high",
+        "search_keywords": [
+          "cử động",
+          "phong trào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cử động; phong trào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15466,
+    "word": "運動員",
+    "kana": "うんどういん",
+    "senses": [
+      {
+        "sense_id": 236728,
+        "meaning_vi": "người vận động",
+        "confidence": "high",
+        "search_keywords": [
+          "người vận động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người vận động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15467,
+    "word": "運動会",
+    "kana": "うんどうかい",
+    "senses": [
+      {
+        "sense_id": 236729,
+        "meaning_vi": "cuộc gặp gỡ thể thao (đặc biệt là ở trường học); ngày thể thao; ngày thực địa; lễ hội thể thao",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc gặp gỡ thể thao (đặc biệt là ở trường học)",
+          "ngày thể thao",
+          "ngày thực địa",
+          "lễ hội thể thao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc gặp gỡ thể thao (đặc biệt là ở trường học); ngày thể thao; ngày thực địa; lễ hội thể thao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15468,
+    "word": "運動場",
+    "kana": "うんどうじょう",
+    "senses": [
+      {
+        "sense_id": 236730,
+        "meaning_vi": "sân thể thao; sân chơi; sân chơi",
+        "confidence": "high",
+        "search_keywords": [
+          "sân thể thao",
+          "sân chơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sân thể thao; sân chơi; sân chơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15469,
+    "word": "運動神経",
+    "kana": "うんどうしんけい",
+    "senses": [
+      {
+        "sense_id": 236731,
+        "meaning_vi": "dây thần kinh vận động",
+        "confidence": "high",
+        "search_keywords": [
+          "dây thần kinh vận động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dây thần kinh vận động",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236732,
+        "meaning_vi": "phản xạ; khả năng thể thao; phối hợp vận động",
+        "confidence": "high",
+        "search_keywords": [
+          "phản xạ",
+          "khả năng thể thao",
+          "phối hợp vận động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản xạ; khả năng thể thao; phối hợp vận động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15470,
+    "word": "運動費",
+    "kana": "うんどうひ",
+    "senses": [
+      {
+        "sense_id": 236733,
+        "meaning_vi": "quỹ vận động",
+        "confidence": "high",
+        "search_keywords": [
+          "quỹ vận động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quỹ vận động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15471,
+    "word": "運動不足",
+    "kana": "うんどうぶそく",
+    "senses": [
+      {
+        "sense_id": 236734,
+        "meaning_vi": "thiếu tập thể dục; tập thể dục không đủ; không hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu tập thể dục",
+          "tập thể dục không đủ",
+          "không hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu tập thể dục; tập thể dục không đủ; không hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15472,
+    "word": "運動量",
+    "kana": "うんどうりょう",
+    "senses": [
+      {
+        "sense_id": 236735,
+        "meaning_vi": "đà",
+        "confidence": "high",
+        "search_keywords": [
+          "đà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đà",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236736,
+        "meaning_vi": "số lượng bài tập",
+        "confidence": "high",
+        "search_keywords": [
+          "số lượng bài tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số lượng bài tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15473,
+    "word": "運動力",
+    "kana": "うんどうりょく",
+    "senses": [
+      {
+        "sense_id": 236737,
+        "meaning_vi": "sự thúc đẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thúc đẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thúc đẩy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15474,
+    "word": "運搬",
+    "kana": "うんぱん",
+    "senses": [
+      {
+        "sense_id": 236738,
+        "meaning_vi": "chuyên chở; vận tải; vận chuyển; xe",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyên chở",
+          "vận tải",
+          "vận chuyển",
+          "xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyên chở; vận tải; vận chuyển; xe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -21,6 +21,7 @@ type AppLayoutProps = {
     searchKeyword?: string
     activeSearchTab?: ActiveSearchTab
     hideSearchTabs?: boolean
+    hideSearch?: boolean
     disableQuickLookup?: boolean
 }
 
@@ -30,6 +31,7 @@ export default function AppLayout({
     searchKeyword,
     activeSearchTab,
     hideSearchTabs = false,
+    hideSearch = false,
     disableQuickLookup = false,
 }: AppLayoutProps) {
     return (
@@ -39,15 +41,17 @@ export default function AppLayout({
                     <Header title={title} />
                 </Suspense>
 
-                <section className={styles.appSearchArea}>
-                    <Suspense fallback={null}>
-                        <TopSearchBar
-                            searchKeyword={searchKeyword}
-                            activeSearchTab={activeSearchTab}
-                            hideTabs={hideSearchTabs}
-                        />
-                    </Suspense>
-                </section>
+                {!hideSearch && (
+                    <section className={styles.appSearchArea}>
+                        <Suspense fallback={null}>
+                            <TopSearchBar
+                                searchKeyword={searchKeyword}
+                                activeSearchTab={activeSearchTab}
+                                hideTabs={hideSearchTabs}
+                            />
+                        </Suspense>
+                    </section>
+                )}
 
                 <main
                     className={styles.appPageContent}

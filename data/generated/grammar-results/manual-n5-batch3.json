@@ -1,0 +1,365 @@
+{
+  "batch_id": "manual-n5-batch3",
+  "results": [
+    {
+      "id": 1271,
+      "meaning_vi": "có; tồn tại (sự vật)",
+      "short_meaning_vi": "có (vật)",
+      "explanation_vi": "Động từ ある dùng để diễn tả sự tồn tại của sự vật, đồ vật, thực vật. Cũng dùng để diễn tả 'có' sự kiện/lịch trình.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N (vật)", "remove": null, "right": "が + ある/あります"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["ある: sự vật, thực vật, sự kiện; いる: người, động vật."],
+      "similar_grammar": ["Nがいる", "場所にNがある／いる"],
+      "differences": [{"pattern": "Nがいる", "difference_vi": "「ある」dùng cho sự vật và thực vật; 「いる」dùng cho người và động vật."}],
+      "tags": ["verb", "existence", "inanimate", "N5"],
+      "examples": [
+        {"japanese": "机の上にコップがあります。", "translation_vi": "Trên bàn có cái cốc."},
+        {"japanese": "近くにコンビニがあります。", "translation_vi": "Gần đây có cửa hàng tiện lợi."},
+        {"japanese": "今日、予定がありますか。", "translation_vi": "Hôm nay bạn có kế hoạch gì không?"}
+      ]
+    },
+    {
+      "id": 1272,
+      "meaning_vi": "có; đang ở (người/động vật)",
+      "short_meaning_vi": "có (người/vật)",
+      "explanation_vi": "Động từ いる dùng để diễn tả sự tồn tại hoặc hiện diện của người và động vật.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N (người/động vật)", "remove": null, "right": "が + いる/います"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["いる: người và động vật; ある: sự vật."],
+      "similar_grammar": ["Nがある", "場所にNがある／いる"],
+      "differences": [{"pattern": "Nがある", "difference_vi": "「いる」dùng cho người và động vật; 「ある」dùng cho sự vật và thực vật."}],
+      "tags": ["verb", "existence", "animate", "N5"],
+      "examples": [
+        {"japanese": "公園に子どもたちがいます。", "translation_vi": "Ở công viên có các em nhỏ."},
+        {"japanese": "猫が二匹います。", "translation_vi": "Có hai con mèo."},
+        {"japanese": "弟が一人います。", "translation_vi": "Tôi có một người em trai."}
+      ]
+    },
+    {
+      "id": 1273,
+      "meaning_vi": "ở đâu có gì/ai",
+      "short_meaning_vi": "ở [nơi] có [vật/người]",
+      "explanation_vi": "Cấu trúc nhấn mạnh vào địa điểm, dùng khi nêu thông tin về vị trí của sự vật/người. Chủ đề của câu là địa điểm.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "場所", "remove": null, "right": "に + N + が + ある/いる"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["Nは場所にある／いる", "Nがある", "Nがいる"],
+      "differences": [{"pattern": "Nは場所にある／いる", "difference_vi": "「場所にNがある/いる」nhấn mạnh địa điểm ('ở X có Y'); 「Nは場所にある/いる」nhấn mạnh đối tượng ('Y ở X')."}],
+      "tags": ["expression", "existence", "location", "N5"],
+      "examples": [
+        {"japanese": "学校の前に本屋があります。", "translation_vi": "Trước trường có hiệu sách."},
+        {"japanese": "部屋の中に猫がいます。", "translation_vi": "Trong phòng có con mèo."},
+        {"japanese": "冷蔵庫の中に牛乳があります。", "translation_vi": "Trong tủ lạnh có sữa."}
+      ]
+    },
+    {
+      "id": 1274,
+      "meaning_vi": "cái gì/ai ở đâu",
+      "short_meaning_vi": "[vật/người] ở [nơi]",
+      "explanation_vi": "Cấu trúc nhấn mạnh vào đối tượng, dùng khi nói về vị trí của một thứ đã biết. Chủ đề của câu là đối tượng.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "は + 場所 + に + ある/いる"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["場所にNがある／いる"],
+      "differences": [{"pattern": "場所にNがある／いる", "difference_vi": "「Nは場所にある/いる」nhấn mạnh 'N ở đâu' (chủ đề là N); 「場所にNがある/いる」nhấn mạnh 'ở đâu có N' (chủ đề là địa điểm)."}],
+      "tags": ["expression", "existence", "location", "N5"],
+      "examples": [
+        {"japanese": "鍵はテーブルの上にあります。", "translation_vi": "Chìa khóa ở trên bàn."},
+        {"japanese": "先生は職員室にいます。", "translation_vi": "Thầy giáo ở phòng giáo viên."},
+        {"japanese": "財布はバッグの中にあります。", "translation_vi": "Ví tiền ở trong túi."}
+      ]
+    },
+    {
+      "id": 1275,
+      "meaning_vi": "thích",
+      "short_meaning_vi": "thích",
+      "explanation_vi": "Tính từ 好き diễn tả sự yêu thích. Đối tượng được thích dùng trợ từ が.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "が + 好きだ/好きです"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["大好き (rất thích), 好きじゃない (không thích)."],
+      "similar_grammar": ["Nが嫌い", "Nが欲しい"],
+      "differences": [{"pattern": "Nが嫌い", "difference_vi": "「好き」thích; 「嫌い」ghét, không thích."}],
+      "tags": ["adjective", "feeling", "N5"],
+      "examples": [
+        {"japanese": "私は音楽が好きです。", "translation_vi": "Tôi thích âm nhạc."},
+        {"japanese": "どんな食べ物が好きですか。", "translation_vi": "Bạn thích món ăn nào?"},
+        {"japanese": "犬より猫のほうが好きです。", "translation_vi": "Tôi thích mèo hơn chó."}
+      ]
+    },
+    {
+      "id": 1276,
+      "meaning_vi": "ghét; không thích",
+      "short_meaning_vi": "ghét",
+      "explanation_vi": "Tính từ 嫌い diễn tả sự không thích hoặc ghét bỏ. Đối tượng bị ghét dùng trợ từ が.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "が + 嫌いだ/嫌いです"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["大嫌い (rất ghét)."],
+      "similar_grammar": ["Nが好き"],
+      "differences": [{"pattern": "Nが好き", "difference_vi": "「嫌い」ghét, không thích; 「好き」thích."}],
+      "tags": ["adjective", "feeling", "N5"],
+      "examples": [
+        {"japanese": "虫が嫌いです。", "translation_vi": "Tôi ghét côn trùng."},
+        {"japanese": "辛い食べ物が嫌いです。", "translation_vi": "Tôi không thích đồ ăn cay."},
+        {"japanese": "うるさい場所が嫌いです。", "translation_vi": "Tôi ghét những nơi ồn ào."}
+      ]
+    },
+    {
+      "id": 1277,
+      "meaning_vi": "giỏi; thành thạo",
+      "short_meaning_vi": "giỏi",
+      "explanation_vi": "Tính từ 上手 diễn tả kỹ năng tốt. Thường dùng để nói về người khác. Đối tượng dùng が.",
+      "nuance_vi": "Nói về bản thân: thường dùng 得意 hơn 上手 (自分では上手とは言いにくい).",
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "が + 上手だ/上手です"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Thường nói về người khác; khi nói về mình dùng 得意 tự nhiên hơn."],
+      "similar_grammar": ["Nが下手"],
+      "differences": [{"pattern": "Nが下手", "difference_vi": "「上手」kỹ năng tốt; 「下手」kỹ năng kém."}],
+      "tags": ["adjective", "skill", "N5"],
+      "examples": [
+        {"japanese": "田中さんは料理が上手です。", "translation_vi": "Anh Tanaka giỏi nấu ăn."},
+        {"japanese": "彼女はピアノが上手です。", "translation_vi": "Cô ấy chơi đàn piano giỏi."},
+        {"japanese": "先生は日本語を教えるのが上手です。", "translation_vi": "Thầy giáo giỏi dạy tiếng Nhật."}
+      ]
+    },
+    {
+      "id": 1278,
+      "meaning_vi": "kém; không giỏi",
+      "short_meaning_vi": "kém; không giỏi",
+      "explanation_vi": "Tính từ 下手 diễn tả kỹ năng kém. Có thể nói về bản thân để khiêm tốn. Đối tượng dùng が.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "が + 下手だ/下手です"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Ngược với 上手; nói về mình để khiêm tốn: 私は料理が下手です."],
+      "similar_grammar": ["Nが上手"],
+      "differences": [{"pattern": "Nが上手", "difference_vi": "「下手」kỹ năng kém; 「上手」kỹ năng tốt."}],
+      "tags": ["adjective", "skill", "N5"],
+      "examples": [
+        {"japanese": "私は料理が下手です。", "translation_vi": "Tôi không giỏi nấu ăn."},
+        {"japanese": "私はスポーツが下手です。", "translation_vi": "Tôi không giỏi thể thao."},
+        {"japanese": "絵を描くのが下手です。", "translation_vi": "Tôi vẽ không giỏi."}
+      ]
+    },
+    {
+      "id": 1279,
+      "meaning_vi": "muốn có",
+      "short_meaning_vi": "muốn có",
+      "explanation_vi": "Tính từ 欲しい diễn tả mong muốn sở hữu một vật. Đối tượng muốn có dùng が. Chia như tính từ い.",
+      "nuance_vi": "欲しい nói về mong muốn của bản thân. Khi nói về người khác dùng 欲しがっている.",
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "が + 欲しい（です）"}]}],
+      "variants": [{"pattern": "欲しくない", "type": "negative"}, {"pattern": "欲しかった", "type": "past"}],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["たい"],
+      "differences": [{"pattern": "たい", "difference_vi": "「欲しい」muốn có đồ vật (N + が欲しい); 「たい」muốn làm hành động (V-ますたい)."}],
+      "tags": ["adjective", "desire", "N5"],
+      "examples": [
+        {"japanese": "新しいカメラが欲しいです。", "translation_vi": "Tôi muốn có máy ảnh mới."},
+        {"japanese": "何が欲しいですか。", "translation_vi": "Bạn muốn có gì?"},
+        {"japanese": "お金が欲しいです。", "translation_vi": "Tôi muốn có tiền."}
+      ]
+    },
+    {
+      "id": 1280,
+      "meaning_vi": "cho tôi; xin cho",
+      "short_meaning_vi": "cho tôi",
+      "explanation_vi": "Dùng để yêu cầu ai đó đưa cho mình một thứ gì đó. Thân mật hơn お願いします.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "を + ください"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["ください có thể dùng một mình: ください (xin hãy..., please)."],
+      "similar_grammar": ["Nをお願いします"],
+      "differences": [{"pattern": "Nをお願いします", "difference_vi": "「ください」trực tiếp hơn; 「お願いします」lịch sự và trang trọng hơn."}],
+      "tags": ["expression", "request", "N5"],
+      "examples": [
+        {"japanese": "水をください。", "translation_vi": "Cho tôi nước."},
+        {"japanese": "メニューをください。", "translation_vi": "Cho tôi thực đơn."},
+        {"japanese": "コーヒーを一杯ください。", "translation_vi": "Cho tôi một ly cà phê."}
+      ]
+    },
+    {
+      "id": 1281,
+      "meaning_vi": "xin cho; làm ơn (lịch sự)",
+      "short_meaning_vi": "xin cho (lịch sự)",
+      "explanation_vi": "Dùng để yêu cầu hoặc đặt hàng một cách lịch sự. Trang trọng hơn ください.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "を + お願いします"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["お願いします cũng dùng độc lập: よろしくお願いします (xin nhờ vào)."],
+      "similar_grammar": ["Nをください"],
+      "differences": [{"pattern": "Nをください", "difference_vi": "「お願いします」lịch sự và khiêm tốn hơn; 「ください」trực tiếp hơn."}],
+      "tags": ["expression", "request", "polite", "N5"],
+      "examples": [
+        {"japanese": "コーヒーをお願いします。", "translation_vi": "Cho tôi cà phê."},
+        {"japanese": "タクシーをお願いします。", "translation_vi": "Làm ơn gọi cho tôi taxi."},
+        {"japanese": "一番人気の料理をお願いします。", "translation_vi": "Cho tôi món phổ biến nhất."}
+      ]
+    },
+    {
+      "id": 1282,
+      "meaning_vi": "nếu; sau khi (điều kiện)",
+      "short_meaning_vi": "nếu; sau khi",
+      "explanation_vi": "Trợ từ điều kiện たら có hai nghĩa: (1) điều kiện giả định 'nếu X thì Y'; (2) sau khi hoàn thành 'X xong thì Y'.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-た", "remove": "た", "right": "たら"}, {"left": "A-い", "remove": "い", "right": "かったら"}, {"left": "A-な/N", "remove": null, "right": "だったら"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [{"expression": "もし〜たら"}],
+      "notes": ["Thường dùng với もし: もし〜たら (nếu mà...).", "Nghĩa 'sau khi': 家に帰ったら電話して (về nhà rồi gọi điện nhé)."],
+      "similar_grammar": ["と"],
+      "differences": [{"pattern": "と", "difference_vi": "「たら」dùng cho điều kiện cụ thể hoặc giả định, có thể dùng với câu mệnh lệnh/ý chí; 「と」chỉ kết quả tự nhiên/tất yếu, không dùng với câu mệnh lệnh."}],
+      "tags": ["conjunction", "conditional", "N5"],
+      "examples": [
+        {"japanese": "家に帰ったら、電話してください。", "translation_vi": "Về đến nhà rồi hãy gọi điện cho tôi."},
+        {"japanese": "お金があったら、旅行したいです。", "translation_vi": "Nếu có tiền tôi muốn đi du lịch."},
+        {"japanese": "春になったら、花見をしましょう。", "translation_vi": "Khi trở thành mùa xuân, hãy cùng đi ngắm hoa."}
+      ]
+    },
+    {
+      "id": 1283,
+      "meaning_vi": "nếu; hễ (kết quả tất yếu)",
+      "short_meaning_vi": "nếu; hễ",
+      "explanation_vi": "Trợ từ điều kiện と diễn tả kết quả tự nhiên, tất yếu. Khi điều kiện A xảy ra thì B luôn luôn xảy ra.",
+      "nuance_vi": "Không dùng với câu mệnh lệnh, mời mọc, hay ý chí ở vế sau.",
+      "formation": [{"patterns": [{"left": "V-dictionary/A-い/A-な/N", "remove": null, "right": "と + S2 (kết quả tất yếu)"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Không dùng: ～とください/～としましょう/～とたいです."],
+      "similar_grammar": ["たら"],
+      "differences": [{"pattern": "たら", "difference_vi": "「と」kết quả tự nhiên/tất yếu; 「たら」điều kiện linh hoạt hơn, dùng được với ý chí và mệnh lệnh."}],
+      "tags": ["conjunction", "conditional", "natural-consequence", "N5"],
+      "examples": [
+        {"japanese": "春になると、花が咲きます。", "translation_vi": "Khi trở thành mùa xuân, hoa nở."},
+        {"japanese": "右に曲がると、郵便局があります。", "translation_vi": "Rẽ phải thì có bưu điện."},
+        {"japanese": "電気をつけると、明るくなりました。", "translation_vi": "Bật đèn lên thì sáng ra."}
+      ]
+    },
+    {
+      "id": 1284,
+      "meaning_vi": "giống với; giống như",
+      "short_meaning_vi": "giống",
+      "explanation_vi": "Diễn tả hai sự vật giống nhau hoặc bằng nhau. Đối tượng so sánh dùng と.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N1", "remove": null, "right": "は + N2 + と同じ（だ/です）"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Ngược: N1はN2とちがう (khác với)."],
+      "similar_grammar": ["より", "のほうが"],
+      "differences": [],
+      "tags": ["expression", "comparison", "equality", "N5"],
+      "examples": [
+        {"japanese": "私の意見はあなたと同じです。", "translation_vi": "Ý kiến của tôi giống bạn."},
+        {"japanese": "このシャツはあのシャツと同じ値段です。", "translation_vi": "Chiếc áo này có giá giống chiếc kia."},
+        {"japanese": "私と同じ学校に通っています。", "translation_vi": "Chúng tôi học cùng trường."}
+      ]
+    },
+    {
+      "id": 1285,
+      "meaning_vi": "trong số; trong phạm vi",
+      "short_meaning_vi": "trong số",
+      "explanation_vi": "Dùng để xác định phạm vi khi so sánh. Thường kết hợp với いちばん để lập siêu cấp.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "の中で + いちばん + A"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [{"expression": "〜の中でいちばん"}],
+      "notes": [],
+      "similar_grammar": ["いちばん"],
+      "differences": [{"pattern": "いちばん", "difference_vi": "「いちばん」là phó từ so sánh nhất; 「の中で」xác định phạm vi của sự so sánh đó."}],
+      "tags": ["expression", "superlative", "scope", "N5"],
+      "examples": [
+        {"japanese": "果物の中で、りんごがいちばん好きです。", "translation_vi": "Trong các loại trái cây, tôi thích táo nhất."},
+        {"japanese": "クラスの中で田中さんがいちばん背が高いです。", "translation_vi": "Trong lớp, anh Tanaka cao nhất."},
+        {"japanese": "一年の中で夏がいちばん好きです。", "translation_vi": "Trong năm, tôi thích mùa hè nhất."}
+      ]
+    },
+    {
+      "id": 1286,
+      "meaning_vi": "gặp (ai đó)",
+      "short_meaning_vi": "gặp",
+      "explanation_vi": "Diễn tả việc gặp gỡ ai đó. Người được gặp dùng trợ từ に.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "人", "remove": null, "right": "に + 会う/会います"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["と会う cũng dùng được: 友達と会う (gặp bạn cùng nhau)."],
+      "similar_grammar": ["に"],
+      "differences": [],
+      "tags": ["verb", "meeting", "N5"],
+      "examples": [
+        {"japanese": "昨日、田中さんに会いました。", "translation_vi": "Hôm qua tôi đã gặp anh Tanaka."},
+        {"japanese": "駅で友達に会いました。", "translation_vi": "Tôi đã gặp bạn ở ga."},
+        {"japanese": "先生に会いに行きます。", "translation_vi": "Tôi đến để gặp thầy giáo."}
+      ]
+    },
+    {
+      "id": 1287,
+      "meaning_vi": "hiểu; biết",
+      "short_meaning_vi": "hiểu; biết",
+      "explanation_vi": "Động từ 分かる diễn tả sự hiểu biết hoặc nhận thức. Đối tượng được hiểu dùng が.",
+      "nuance_vi": "分かる là động từ nội động (kết quả); 理解する là ngoại động (hành động hiểu).",
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "が + 分かる/分かります"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["〜ができる"],
+      "differences": [{"pattern": "〜ができる", "difference_vi": "「分かる」hiểu, biết thông tin; 「できる」có khả năng làm được việc gì."}],
+      "tags": ["verb", "understanding", "N5"],
+      "examples": [
+        {"japanese": "日本語が少し分かります。", "translation_vi": "Tôi hiểu tiếng Nhật một chút."},
+        {"japanese": "この問題が分かりません。", "translation_vi": "Tôi không hiểu bài toán này."},
+        {"japanese": "意味が分かりますか。", "translation_vi": "Bạn có hiểu nghĩa không?"}
+      ]
+    },
+    {
+      "id": 1288,
+      "meaning_vi": "cần; cần có",
+      "short_meaning_vi": "cần",
+      "explanation_vi": "Động từ 要る diễn tả nhu cầu về sự vật. Đối tượng cần dùng が.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "が + 要る/要ります"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Chú ý phân biệt: 要る (cần/need) và いる (tồn tại/to be). Dạng chữ Hán 要る dễ nhận biết hơn."],
+      "similar_grammar": ["Nが欲しい"],
+      "differences": [{"pattern": "Nが欲しい", "difference_vi": "「要る」diễn tả nhu cầu khách quan (cần thiết); 「欲しい」diễn tả mong muốn chủ quan của người nói."}],
+      "tags": ["verb", "necessity", "N5"],
+      "examples": [
+        {"japanese": "ビザが要ります。", "translation_vi": "Cần phải có visa."},
+        {"japanese": "今日は傘が要るかもしれません。", "translation_vi": "Hôm nay có lẽ cần mang ô."},
+        {"japanese": "パスポートが要りますか。", "translation_vi": "Có cần hộ chiếu không?"}
+      ]
+    }
+  ]
+}

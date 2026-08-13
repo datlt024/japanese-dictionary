@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 120413,
+    "word": "ハードウェア構成",
+    "kana": "ハードウェアこうせい",
+    "senses": [
+      {
+        "sense_id": 363987,
+        "meaning_vi": "cấu hình phần cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu hình phần cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu hình phần cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120414,
+    "word": "ハードエラー",
+    "kana": "ハードエラー",
+    "senses": [
+      {
+        "sense_id": 363988,
+        "meaning_vi": "lỗi cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120415,
+    "word": "ハードセクター",
+    "kana": "ハードセクター",
+    "senses": [
+      {
+        "sense_id": 363989,
+        "meaning_vi": "lĩnh vực cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "lĩnh vực cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lĩnh vực cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120416,
+    "word": "ハードセクタ式ディスク",
+    "kana": "ハードセクタしきディスク",
+    "senses": [
+      {
+        "sense_id": 363990,
+        "meaning_vi": "đĩa cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "đĩa cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đĩa cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120417,
+    "word": "ハードセクタ方式",
+    "kana": "ハードセクタほうしき",
+    "senses": [
+      {
+        "sense_id": 363991,
+        "meaning_vi": "phân chia cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "phân chia cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân chia cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120418,
+    "word": "ハードディスクドライブ",
+    "kana": "ハードディスクドライブ",
+    "senses": [
+      {
+        "sense_id": 363992,
+        "meaning_vi": "ổ đĩa cứng; ổ cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "ổ đĩa cứng",
+          "ổ cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ổ đĩa cứng; ổ cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120419,
+    "word": "ハードディスクレコーディング",
+    "kana": "ハードディスクレコーディング",
+    "senses": [
+      {
+        "sense_id": 363993,
+        "meaning_vi": "ghi đĩa cứng; HDR",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi đĩa cứng",
+          "HDR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi đĩa cứng; HDR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120420,
+    "word": "ハードドライブ",
+    "kana": "ハードドライブ",
+    "senses": [
+      {
+        "sense_id": 363994,
+        "meaning_vi": "ổ cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "ổ cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ổ cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120421,
+    "word": "ハードハイフン",
+    "kana": "ハードハイフン",
+    "senses": [
+      {
+        "sense_id": 363995,
+        "meaning_vi": "dấu gạch nối cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu gạch nối cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu gạch nối cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120422,
+    "word": "ハードパッチ",
+    "kana": "ハードパッチ",
+    "senses": [
+      {
+        "sense_id": 363996,
+        "meaning_vi": "bản vá cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "bản vá cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản vá cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120423,
+    "word": "ハードワイヤード",
+    "kana": "ハードワイヤード",
+    "senses": [
+      {
+        "sense_id": 363997,
+        "meaning_vi": "cứng cáp",
+        "confidence": "high",
+        "search_keywords": [
+          "cứng cáp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cứng cáp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120424,
+    "word": "ハード行末",
+    "kana": "ハードぎょうまつ",
+    "senses": [
+      {
+        "sense_id": 363998,
+        "meaning_vi": "thiết bị đầu cuối dòng cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối dòng cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối dòng cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120425,
+    "word": "ハーフハイト",
+    "kana": "ハーフハイト",
+    "senses": [
+      {
+        "sense_id": 363999,
+        "meaning_vi": "một nửa chiều cao",
+        "confidence": "high",
+        "search_keywords": [
+          "một nửa chiều cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một nửa chiều cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120426,
+    "word": "ハーフライン",
+    "kana": "ハーフライン",
+    "senses": [
+      {
+        "sense_id": 364000,
+        "meaning_vi": "nửa đường",
+        "confidence": "high",
+        "search_keywords": [
+          "nửa đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nửa đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120427,
+    "word": "ハーフワード",
+    "kana": "ハーフワード",
+    "senses": [
+      {
+        "sense_id": 364001,
+        "meaning_vi": "nửa lời",
+        "confidence": "high",
+        "search_keywords": [
+          "nửa lời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nửa lời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120428,
+    "word": "ハイエンドマシン",
+    "kana": "ハイエンドマシン",
+    "senses": [
+      {
+        "sense_id": 364002,
+        "meaning_vi": "máy cao cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "máy cao cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy cao cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120429,
+    "word": "ハイエンドモデル",
+    "kana": "ハイエンドモデル",
+    "senses": [
+      {
+        "sense_id": 364003,
+        "meaning_vi": "mô hình cao cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình cao cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình cao cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120430,
+    "word": "ハイエンド機種",
+    "kana": "ハイエンドきしゅ",
+    "senses": [
+      {
+        "sense_id": 364004,
+        "meaning_vi": "máy cao cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "máy cao cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy cao cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120431,
+    "word": "ハイコスト",
+    "kana": "ハイコスト",
+    "senses": [
+      {
+        "sense_id": 364005,
+        "meaning_vi": "chi phí cao",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120432,
+    "word": "ハイコントラスト",
+    "kana": "ハイコントラスト",
+    "senses": [
+      {
+        "sense_id": 364006,
+        "meaning_vi": "độ tương phản cao",
+        "confidence": "high",
+        "search_keywords": [
+          "độ tương phản cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ tương phản cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

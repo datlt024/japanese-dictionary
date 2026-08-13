@@ -1,0 +1,491 @@
+[
+  {
+    "vocabulary_id": 93005,
+    "word": "やり過ぎ",
+    "kana": "やりすぎ",
+    "senses": [
+      {
+        "sense_id": 333414,
+        "meaning_vi": "làm quá mức (cái gì đó); làm quá nhiều; đi quá xa; quá mức cần thiết",
+        "confidence": "high",
+        "search_keywords": [
+          "làm quá mức (cái gì đó)",
+          "làm quá nhiều",
+          "đi quá xa",
+          "quá mức cần thiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm quá mức (cái gì đó); làm quá nhiều; đi quá xa; quá mức cần thiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93006,
+    "word": "間違え",
+    "kana": "まちがえ",
+    "senses": [
+      {
+        "sense_id": 333415,
+        "meaning_vi": "sai lầm; lỗi; sai lầm",
+        "confidence": "high",
+        "search_keywords": [
+          "sai lầm",
+          "lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sai lầm; lỗi; sai lầm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333416,
+        "meaning_vi": "tai nạn; sự cố; rắc rối",
+        "confidence": "high",
+        "search_keywords": [
+          "tai nạn",
+          "sự cố",
+          "rắc rối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tai nạn; sự cố; rắc rối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 333417,
+        "meaning_vi": "hành vi không đúng mực (ví dụ giữa nam và nữ); sự bừa bãi",
+        "confidence": "high",
+        "search_keywords": [
+          "hành vi không đúng mực (ví dụ giữa nam và nữ)",
+          "sự bừa bãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành vi không đúng mực (ví dụ giữa nam và nữ); sự bừa bãi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93007,
+    "word": "ゼッケン",
+    "kana": "ゼッケン",
+    "senses": [
+      {
+        "sense_id": 333418,
+        "meaning_vi": "yếm vải có in số của thí sinh; số vận động viên",
+        "confidence": "high",
+        "search_keywords": [
+          "yếm vải có in số của thí sinh",
+          "số vận động viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếm vải có in số của thí sinh; số vận động viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93008,
+    "word": "流行性",
+    "kana": "りゅうこうせい",
+    "senses": [
+      {
+        "sense_id": 333419,
+        "meaning_vi": "dịch bệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "dịch bệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dịch bệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93009,
+    "word": "サークル活動",
+    "kana": "サークルかつどう",
+    "senses": [
+      {
+        "sense_id": 333420,
+        "meaning_vi": "hoạt động câu lạc bộ; hoạt động nhóm",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động câu lạc bộ",
+          "hoạt động nhóm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động câu lạc bộ; hoạt động nhóm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93010,
+    "word": "二次コン",
+    "kana": "にじコン",
+    "senses": [
+      {
+        "sense_id": 333421,
+        "meaning_vi": "phức hợp hai chiều; mọi người quan tâm đến các cô gái hai chiều (tức là anime hoặc manga) hơn là người thật",
+        "confidence": "high",
+        "search_keywords": [
+          "phức hợp hai chiều",
+          "mọi người quan tâm đến các cô gái hai chiều (tức là anime hoặc manga) hơn là người thật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phức hợp hai chiều; mọi người quan tâm đến các cô gái hai chiều (tức là anime hoặc manga) hơn là người thật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93011,
+    "word": "連続画像",
+    "kana": "れんぞくがぞう",
+    "senses": [
+      {
+        "sense_id": 333422,
+        "meaning_vi": "nghệ thuật hoặc hình ảnh tuần tự (loại hình in, kể chuyện bằng đồ họa, khác với manga ở chỗ sử dụng không gian trang một cách thoải mái, thường chỉ có một khung trên mỗi trang và hạn chế sử dụng hội thoại)",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ thuật hoặc hình ảnh tuần tự (loại hình in, kể chuyện bằng đồ họa, khác với manga ở chỗ sử dụng không gian trang một cách thoải mái, thường chỉ có một khung trên mỗi trang và hạn chế sử dụng hội thoại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ thuật hoặc hình ảnh tuần tự (loại hình in, kể chuyện bằng đồ họa, khác với manga ở chỗ sử dụng không gian trang một cách thoải mái, thường chỉ có một khung trên mỗi trang và hạn chế sử dụng hội thoại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93012,
+    "word": "連画",
+    "kana": "れんが",
+    "senses": [
+      {
+        "sense_id": 333423,
+        "meaning_vi": "nghệ thuật hoặc hình ảnh tuần tự (loại hình in, kể chuyện bằng đồ họa, khác với manga ở chỗ sử dụng không gian trang một cách thoải mái, thường chỉ có một khung trên mỗi trang và hạn chế sử dụng hội thoại)",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ thuật hoặc hình ảnh tuần tự (loại hình in, kể chuyện bằng đồ họa, khác với manga ở chỗ sử dụng không gian trang một cách thoải mái, thường chỉ có một khung trên mỗi trang và hạn chế sử dụng hội thoại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ thuật hoặc hình ảnh tuần tự (loại hình in, kể chuyện bằng đồ họa, khác với manga ở chỗ sử dụng không gian trang một cách thoải mái, thường chỉ có một khung trên mỗi trang và hạn chế sử dụng hội thoại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93013,
+    "word": "やおい",
+    "kana": "やおい",
+    "senses": [
+      {
+        "sense_id": 333424,
+        "meaning_vi": "yaoi; thể loại truyền thông hư cấu kể về mối quan hệ đồng giới giữa các nhân vật nam",
+        "confidence": "high",
+        "search_keywords": [
+          "yaoi",
+          "thể loại truyền thông hư cấu kể về mối quan hệ đồng giới giữa các nhân vật nam"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yaoi; thể loại truyền thông hư cấu kể về mối quan hệ đồng giới giữa các nhân vật nam",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93014,
+    "word": "そうさ",
+    "kana": "そうさ",
+    "senses": [
+      {
+        "sense_id": 333425,
+        "meaning_vi": "vâng, đúng vậy; chuẩn rồi; điều chắc chắn",
+        "confidence": "high",
+        "search_keywords": [
+          "vâng, đúng vậy",
+          "chuẩn rồi",
+          "điều chắc chắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vâng, đúng vậy; chuẩn rồi; điều chắc chắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93015,
+    "word": "立ち続ける",
+    "kana": "たちつづける",
+    "senses": [
+      {
+        "sense_id": 333426,
+        "meaning_vi": "để tiếp tục đứng",
+        "confidence": "high",
+        "search_keywords": [
+          "để tiếp tục đứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tiếp tục đứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93016,
+    "word": "お礼の申し様",
+    "kana": "おれいのもうしよう",
+    "senses": [
+      {
+        "sense_id": 333427,
+        "meaning_vi": "bày tỏ lòng biết ơn",
+        "confidence": "high",
+        "search_keywords": [
+          "bày tỏ lòng biết ơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bày tỏ lòng biết ơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93017,
+    "word": "正相",
+    "kana": "せいそう",
+    "senses": [
+      {
+        "sense_id": 333428,
+        "meaning_vi": "trong giai đoạn; cùng pha; đồng pha",
+        "confidence": "high",
+        "search_keywords": [
+          "trong giai đoạn",
+          "cùng pha",
+          "đồng pha"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong giai đoạn; cùng pha; đồng pha",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93018,
+    "word": "逆相",
+    "kana": "ぎゃくそう",
+    "senses": [
+      {
+        "sense_id": 333429,
+        "meaning_vi": "phản pha; pha đảo ngược",
+        "confidence": "high",
+        "search_keywords": [
+          "phản pha",
+          "pha đảo ngược"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản pha; pha đảo ngược",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93019,
+    "word": "牡馬",
+    "kana": "ぼば",
+    "senses": [
+      {
+        "sense_id": 333430,
+        "meaning_vi": "ngựa đực",
+        "confidence": "high",
+        "search_keywords": [
+          "ngựa đực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngựa đực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93020,
+    "word": "ホッカイロ",
+    "kana": "ホッカイロ",
+    "senses": [
+      {
+        "sense_id": 333431,
+        "meaning_vi": "(hóa học) làm ấm cơ thể; đệm nhiệt; tay ấm hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "(hóa học) làm ấm cơ thể",
+          "đệm nhiệt",
+          "tay ấm hơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(hóa học) làm ấm cơ thể; đệm nhiệt; tay ấm hơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93021,
+    "word": "カンチレバー",
+    "kana": "カンチレバー",
+    "senses": [
+      {
+        "sense_id": 333432,
+        "meaning_vi": "công xôn",
+        "confidence": "high",
+        "search_keywords": [
+          "công xôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công xôn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93022,
+    "word": "農漁業",
+    "kana": "のうぎょぎょう",
+    "senses": [
+      {
+        "sense_id": 333433,
+        "meaning_vi": "ngành nông nghiệp và đánh cá",
+        "confidence": "high",
+        "search_keywords": [
+          "ngành nông nghiệp và đánh cá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngành nông nghiệp và đánh cá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93023,
+    "word": "のれん代",
+    "kana": "のれんだい",
+    "senses": [
+      {
+        "sense_id": 333434,
+        "meaning_vi": "thiện chí; tài sản vô hình (một phần giá mua lại doanh nghiệp được trả cho tên tuổi và danh tiếng của công ty chứ không phải tài sản hữu hình)",
+        "confidence": "high",
+        "search_keywords": [
+          "thiện chí",
+          "tài sản vô hình (một phần giá mua lại doanh nghiệp được trả cho tên tuổi và danh tiếng của công ty chứ không phải tài sản hữu hình)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiện chí; tài sản vô hình (một phần giá mua lại doanh nghiệp được trả cho tên tuổi và danh tiếng của công ty chứ không phải tài sản hữu hình)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 93024,
+    "word": "婦人靴",
+    "kana": "ふじんぐつ",
+    "senses": [
+      {
+        "sense_id": 333435,
+        "meaning_vi": "giày nữ",
+        "confidence": "high",
+        "search_keywords": [
+          "giày nữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giày nữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

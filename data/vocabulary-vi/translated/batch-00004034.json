@@ -1,0 +1,593 @@
+[
+  {
+    "vocabulary_id": 99074,
+    "word": "ラリる",
+    "kana": "ラリる",
+    "senses": [
+      {
+        "sense_id": 340330,
+        "meaning_vi": "phê thuốc (về ma túy); đi du lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "phê thuốc (về ma túy)",
+          "đi du lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phê thuốc (về ma túy); đi du lịch",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340331,
+        "meaning_vi": "nói lắp (do uống thuốc ngủ, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "nói lắp (do uống thuốc ngủ, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói lắp (do uống thuốc ngủ, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340332,
+        "meaning_vi": "mất trí thông minh (do thiếu ngủ, v.v.); để thoát ra ngoài; mất tập trung",
+        "confidence": "high",
+        "search_keywords": [
+          "mất trí thông minh (do thiếu ngủ, v.v.)",
+          "để thoát ra ngoài",
+          "mất tập trung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất trí thông minh (do thiếu ngủ, v.v.); để thoát ra ngoài; mất tập trung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99075,
+    "word": "通過点",
+    "kana": "つうかてん",
+    "senses": [
+      {
+        "sense_id": 340333,
+        "meaning_vi": "điểm tham chiếu (ví dụ: với GPS); trạm kiểm soát",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm tham chiếu (ví dụ: với GPS)",
+          "trạm kiểm soát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm tham chiếu (ví dụ: với GPS); trạm kiểm soát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99076,
+    "word": "健康診断書",
+    "kana": "けんこうしんだんしょ",
+    "senses": [
+      {
+        "sense_id": 340334,
+        "meaning_vi": "giấy chứng nhận sức khỏe",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy chứng nhận sức khỏe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy chứng nhận sức khỏe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99077,
+    "word": "友録",
+    "kana": "ともろく",
+    "senses": [
+      {
+        "sense_id": 340335,
+        "meaning_vi": "thêm ai đó vào danh sách bạn bè của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "thêm ai đó vào danh sách bạn bè của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thêm ai đó vào danh sách bạn bè của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99078,
+    "word": "確と",
+    "kana": "しかと",
+    "senses": [
+      {
+        "sense_id": 340336,
+        "meaning_vi": "chắc chắn; chắc chắn",
+        "confidence": "high",
+        "search_keywords": [
+          "chắc chắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chắc chắn; chắc chắn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340337,
+        "meaning_vi": "rõ ràng ; rõ ràng; chính xác",
+        "confidence": "high",
+        "search_keywords": [
+          "rõ ràng",
+          "chính xác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rõ ràng ; rõ ràng; chính xác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340338,
+        "meaning_vi": "vững chắc; chặt chẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "vững chắc",
+          "chặt chẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vững chắc; chặt chẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99079,
+    "word": "日",
+    "kana": "にち",
+    "senses": [
+      {
+        "sense_id": 340339,
+        "meaning_vi": "chủ nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nhật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340340,
+        "meaning_vi": "ngày thứ n (trong tháng)",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày thứ n (trong tháng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày thứ n (trong tháng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340341,
+        "meaning_vi": "truy cập trong ngày",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập trong ngày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập trong ngày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340342,
+        "meaning_vi": "Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99080,
+    "word": "日",
+    "kana": "か",
+    "senses": [
+      {
+        "sense_id": 340343,
+        "meaning_vi": "ngày trong tháng",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày trong tháng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày trong tháng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340344,
+        "meaning_vi": "truy cập trong ngày",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập trong ngày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập trong ngày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99081,
+    "word": "逆手打ち",
+    "kana": "ぎゃくてうち",
+    "senses": [
+      {
+        "sense_id": 340345,
+        "meaning_vi": "trái tay (quần vợt, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "trái tay (quần vợt, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái tay (quần vợt, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99082,
+    "word": "補論",
+    "kana": "ほろん",
+    "senses": [
+      {
+        "sense_id": 340346,
+        "meaning_vi": "phụ lục",
+        "confidence": "high",
+        "search_keywords": [
+          "phụ lục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phụ lục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99083,
+    "word": "どうでも良い",
+    "kana": "どうでもいい",
+    "senses": [
+      {
+        "sense_id": 340347,
+        "meaning_vi": "không quan trọng; vô tư; không đáng lo ngại; tầm thường",
+        "confidence": "high",
+        "search_keywords": [
+          "không quan trọng",
+          "vô tư",
+          "không đáng lo ngại",
+          "tầm thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không quan trọng; vô tư; không đáng lo ngại; tầm thường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 340348,
+        "meaning_vi": "bất cứ điều gì; cái nào cũng được; tôi không quan tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "bất cứ điều gì",
+          "cái nào cũng được",
+          "tôi không quan tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất cứ điều gì; cái nào cũng được; tôi không quan tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99084,
+    "word": "行ずる",
+    "kana": "ぎょうずる",
+    "senses": [
+      {
+        "sense_id": 340349,
+        "meaning_vi": "để thực hiện; làm ; luyện tập",
+        "confidence": "high",
+        "search_keywords": [
+          "để thực hiện",
+          "làm",
+          "luyện tập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thực hiện; làm ; luyện tập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99085,
+    "word": "郵便記号",
+    "kana": "ゆうびんきごう",
+    "senses": [
+      {
+        "sense_id": 340350,
+        "meaning_vi": "(tiếng Nhật) ký hiệu bưu chính",
+        "confidence": "high",
+        "search_keywords": [
+          "(tiếng Nhật) ký hiệu bưu chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tiếng Nhật) ký hiệu bưu chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99086,
+    "word": "コンバインドレース",
+    "kana": "コンバインドレース",
+    "senses": [
+      {
+        "sense_id": 340351,
+        "meaning_vi": "chủng tộc kết hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "chủng tộc kết hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủng tộc kết hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99087,
+    "word": "連翹",
+    "kana": "れんぎょう",
+    "senses": [
+      {
+        "sense_id": 340352,
+        "meaning_vi": "forsythia khóc lóc (Forsythia suspensa); chuông vàng khóc",
+        "confidence": "high",
+        "search_keywords": [
+          "forsythia khóc lóc (Forsythia suspensa)",
+          "chuông vàng khóc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "forsythia khóc lóc (Forsythia suspensa); chuông vàng khóc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99088,
+    "word": "脳力",
+    "kana": "のうりょく",
+    "senses": [
+      {
+        "sense_id": 340355,
+        "meaning_vi": "sức mạnh não bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "sức mạnh não bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức mạnh não bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99089,
+    "word": "乳間",
+    "kana": "にゅうかん",
+    "senses": [
+      {
+        "sense_id": 340356,
+        "meaning_vi": "khe hở (giữa hai vú)",
+        "confidence": "high",
+        "search_keywords": [
+          "khe hở (giữa hai vú)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khe hở (giữa hai vú)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99090,
+    "word": "胸の谷間",
+    "kana": "むねのたにま",
+    "senses": [
+      {
+        "sense_id": 340357,
+        "meaning_vi": "khe hở (giữa hai vú)",
+        "confidence": "high",
+        "search_keywords": [
+          "khe hở (giữa hai vú)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khe hở (giữa hai vú)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99091,
+    "word": "華流",
+    "kana": "ファーリュー",
+    "senses": [
+      {
+        "sense_id": 340358,
+        "meaning_vi": "làn sóng văn hóa đại chúng Trung Quốc (vào Nhật Bản)",
+        "confidence": "high",
+        "search_keywords": [
+          "làn sóng văn hóa đại chúng Trung Quốc (vào Nhật Bản)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làn sóng văn hóa đại chúng Trung Quốc (vào Nhật Bản)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99092,
+    "word": "ウォシュレット",
+    "kana": "ウォシュレット",
+    "senses": [
+      {
+        "sense_id": 340359,
+        "meaning_vi": "Washlet; chậu vệ sinh điện tử; bệ toilet có chức năng bidet",
+        "confidence": "high",
+        "search_keywords": [
+          "Washlet",
+          "chậu vệ sinh điện tử",
+          "bệ toilet có chức năng bidet"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Washlet; chậu vệ sinh điện tử; bệ toilet có chức năng bidet",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 99093,
+    "word": "マウスウォッシュ",
+    "kana": "マウスウォッシュ",
+    "senses": [
+      {
+        "sense_id": 340360,
+        "meaning_vi": "nước súc miệng",
+        "confidence": "high",
+        "search_keywords": [
+          "nước súc miệng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước súc miệng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

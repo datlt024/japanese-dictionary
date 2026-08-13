@@ -1,505 +1,475 @@
 [
-{
-"vocabulary_id": 3041,
-"word": "オフコース",
-"kana": "オフコース",
-"senses": [
-{
-"sense_id": 221404,
-"meaning_vi": "đương nhiên rồi",
-"confidence": "high",
-"search_keywords": [
-"đương nhiên rồi",
-"tất nhiên",
-"of course"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách nói biểu thị sự đồng ý hoặc khẳng định điều hiển nhiên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3042,
-"word": "オフコン",
-"kana": "オフコン",
-"senses": [
-{
-"sense_id": 221405,
-"meaning_vi": "máy tính văn phòng",
-"confidence": "high",
-"search_keywords": [
-"máy tính văn phòng",
-"office computer",
-"offcon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "máy tính chuyên dùng cho công việc văn phòng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3043,
-"word": "オフサイド",
-"kana": "オフサイド",
-"senses": [
-{
-"sense_id": 221406,
-"meaning_vi": "việt vị",
-"confidence": "high",
-"search_keywords": [
-"việt vị",
-"offside"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi việt vị trong bóng đá và một số môn thể thao khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3044,
-"word": "オフザレコード",
-"kana": "オフザレコード",
-"senses": [
-{
-"sense_id": 221407,
-"meaning_vi": "không công bố",
-"confidence": "high",
-"search_keywords": [
-"không công bố",
-"ngoài hồ sơ",
-"off the record"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thông tin không được phép công khai hoặc ghi nhận chính thức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3045,
-"word": "オフシーズン",
-"kana": "オフシーズン",
-"senses": [
-{
-"sense_id": 221408,
-"meaning_vi": "mùa thấp điểm",
-"confidence": "high",
-"search_keywords": [
-"mùa thấp điểm",
-"off season"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thời kỳ ít khách hoặc ít hoạt động nhất trong năm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3046,
-"word": "オフショアセンター",
-"kana": "オフショアセンター",
-"senses": [
-{
-"sense_id": 221409,
-"meaning_vi": "trung tâm offshore",
-"confidence": "medium",
-"search_keywords": [
-"trung tâm offshore",
-"offshore center"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trung tâm hoạt động hoặc tài chính đặt ở nước ngoài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3047,
-"word": "オフショアファンド",
-"kana": "オフショアファンド",
-"senses": [
-{
-"sense_id": 221410,
-"meaning_vi": "quỹ offshore",
-"confidence": "high",
-"search_keywords": [
-"quỹ offshore",
-"quỹ nước ngoài",
-"offshore fund"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quỹ đầu tư được thành lập tại nước ngoài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3048,
-"word": "オフセット",
-"kana": "オフセット",
-"senses": [
-{
-"sense_id": 221411,
-"meaning_vi": "độ lệch",
-"confidence": "high",
-"search_keywords": [
-"độ lệch",
-"offset"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự dịch chuyển hoặc bù trừ vị trí",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221412,
-"meaning_vi": "in offset",
-"confidence": "high",
-"search_keywords": [
-"in offset",
-"in offset công nghiệp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương pháp in offset dùng bản in trung gian",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3049,
-"word": "オフフック",
-"kana": "オフフック",
-"senses": [
-{
-"sense_id": 221413,
-"meaning_vi": "nhấc máy",
-"confidence": "high",
-"search_keywords": [
-"nhấc máy",
-"off hook"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trạng thái điện thoại đã được nhấc khỏi giá",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3050,
-"word": "オフマイク",
-"kana": "オフマイク",
-"senses": [
-{
-"sense_id": 221414,
-"meaning_vi": "ngoài micro",
-"confidence": "high",
-"search_keywords": [
-"ngoài micro",
-"off mike"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ở ngoài phạm vi thu âm của micro",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3051,
-"word": "オフライン",
-"kana": "オフライン",
-"senses": [
-{
-"sense_id": 221415,
-"meaning_vi": "ngoại tuyến",
-"confidence": "high",
-"search_keywords": [
-"ngoại tuyến",
-"offline"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không kết nối mạng hoặc không trực tuyến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3052,
-"word": "オフリミット",
-"kana": "オフリミット",
-"senses": [
-{
-"sense_id": 221416,
-"meaning_vi": "cấm vào",
-"confidence": "high",
-"search_keywords": [
-"cấm vào",
-"khu vực cấm",
-"off-limits"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu vực hoặc đối tượng không được phép tiếp cận",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3053,
-"word": "オフレコ",
-"kana": "オフレコ",
-"senses": [
-{
-"sense_id": 221417,
-"meaning_vi": "không công khai",
-"confidence": "high",
-"search_keywords": [
-"không công khai",
-"off the record",
-"off record"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thông tin không được phép công bố chính thức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3054,
-"word": "オフロード",
-"kana": "オフロード",
-"senses": [
-{
-"sense_id": 221418,
-"meaning_vi": "địa hình",
-"confidence": "high",
-"search_keywords": [
-"địa hình",
-"off-road"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đường hoặc hoạt động ngoài đường nhựa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3055,
-"word": "オブザーバー",
-"kana": "オブザーバー",
-"senses": [
-{
-"sense_id": 221419,
-"meaning_vi": "quan sát viên",
-"confidence": "high",
-"search_keywords": [
-"quan sát viên",
-"observer"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người tham dự với vai trò theo dõi hoặc giám sát",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3056,
-"word": "オブジェ",
-"kana": "オブジェ",
-"senses": [
-{
-"sense_id": 221420,
-"meaning_vi": "tác phẩm nghệ thuật",
-"confidence": "high",
-"search_keywords": [
-"tác phẩm nghệ thuật",
-"objet d'art",
-"đồ trang trí"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vật phẩm nghệ thuật dùng để trưng bày",
-"examples": []
-}
-]
-},
-{
-"sense_id": 221421,
-"meaning_vi": "vật trang trí",
-"confidence": "high",
-"search_keywords": [
-"vật trang trí",
-"đồ lưu niệm",
-"object"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đồ vật dùng để trang trí hoặc sưu tầm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3057,
-"word": "オブジェクション",
-"kana": "オブジェクション",
-"senses": [
-{
-"sense_id": 221422,
-"meaning_vi": "phản đối",
-"confidence": "high",
-"search_keywords": [
-"phản đối",
-"ý kiến phản đối",
-"objection"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự phản bác hoặc không đồng tình với một ý kiến",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3058,
-"word": "オブジェクト",
-"kana": "オブジェクト",
-"senses": [
-{
-"sense_id": 221423,
-"meaning_vi": "đối tượng",
-"confidence": "high",
-"search_keywords": [
-"đối tượng",
-"object"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vật thể hoặc thực thể được nhắm tới hay xử lý",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3059,
-"word": "オブジェクトオリエンテッド",
-"kana": "オブジェクトオリエンテッド",
-"senses": [
-{
-"sense_id": 221424,
-"meaning_vi": "hướng đối tượng",
-"confidence": "high",
-"search_keywords": [
-"hướng đối tượng",
-"object-oriented",
-"OOP"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương pháp thiết kế và lập trình hướng đối tượng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 3060,
-"word": "オブジェクト指向",
-"kana": "オブジェクトしこう",
-"senses": [
-{
-"sense_id": 221425,
-"meaning_vi": "hướng đối tượng",
-"confidence": "high",
-"search_keywords": [
-"hướng đối tượng",
-"lập trình hướng đối tượng",
-"OOP"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương pháp phát triển phần mềm dựa trên đối tượng",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 3041,
+    "word": "オフコース",
+    "kana": "オフコース",
+    "senses": [
+      {
+        "sense_id": 221404,
+        "meaning_vi": "tất nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "tất nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tất nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3042,
+    "word": "オフコン",
+    "kana": "オフコン",
+    "senses": [
+      {
+        "sense_id": 221405,
+        "meaning_vi": "máy tính văn phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "máy tính văn phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy tính văn phòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3043,
+    "word": "オフサイド",
+    "kana": "オフサイド",
+    "senses": [
+      {
+        "sense_id": 221406,
+        "meaning_vi": "việt vị",
+        "confidence": "high",
+        "search_keywords": [
+          "việt vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "việt vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3044,
+    "word": "オフザレコード",
+    "kana": "オフザレコード",
+    "senses": [
+      {
+        "sense_id": 221407,
+        "meaning_vi": "tắt hồ sơ",
+        "confidence": "high",
+        "search_keywords": [
+          "tắt hồ sơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tắt hồ sơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3045,
+    "word": "オフシーズン",
+    "kana": "オフシーズン",
+    "senses": [
+      {
+        "sense_id": 221408,
+        "meaning_vi": "trái mùa",
+        "confidence": "high",
+        "search_keywords": [
+          "trái mùa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái mùa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3046,
+    "word": "オフショアセンター",
+    "kana": "オフショアセンター",
+    "senses": [
+      {
+        "sense_id": 221409,
+        "meaning_vi": "trung tâm ngoài khơi; trung tâm ngoài khơi",
+        "confidence": "high",
+        "search_keywords": [
+          "trung tâm ngoài khơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung tâm ngoài khơi; trung tâm ngoài khơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3047,
+    "word": "オフショアファンド",
+    "kana": "オフショアファンド",
+    "senses": [
+      {
+        "sense_id": 221410,
+        "meaning_vi": "quỹ nước ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "quỹ nước ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quỹ nước ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3048,
+    "word": "オフセット",
+    "kana": "オフセット",
+    "senses": [
+      {
+        "sense_id": 221411,
+        "meaning_vi": "bù đắp",
+        "confidence": "high",
+        "search_keywords": [
+          "bù đắp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bù đắp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221412,
+        "meaning_vi": "in offset",
+        "confidence": "high",
+        "search_keywords": [
+          "in offset"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "in offset",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3049,
+    "word": "オフフック",
+    "kana": "オフフック",
+    "senses": [
+      {
+        "sense_id": 221413,
+        "meaning_vi": "tắt móc (dòng); ôi",
+        "confidence": "high",
+        "search_keywords": [
+          "tắt móc (dòng)",
+          "ôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tắt móc (dòng); ôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3050,
+    "word": "オフマイク",
+    "kana": "オフマイク",
+    "senses": [
+      {
+        "sense_id": 221414,
+        "meaning_vi": "tắt mic",
+        "confidence": "high",
+        "search_keywords": [
+          "tắt mic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tắt mic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3051,
+    "word": "オフライン",
+    "kana": "オフライン",
+    "senses": [
+      {
+        "sense_id": 221415,
+        "meaning_vi": "ngoại tuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoại tuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoại tuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3052,
+    "word": "オフリミット",
+    "kana": "オフリミット",
+    "senses": [
+      {
+        "sense_id": 221416,
+        "meaning_vi": "ngoài giới hạn",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoài giới hạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoài giới hạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3053,
+    "word": "オフレコ",
+    "kana": "オフレコ",
+    "senses": [
+      {
+        "sense_id": 221417,
+        "meaning_vi": "ngoài kỷ lục",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoài kỷ lục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoài kỷ lục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3054,
+    "word": "オフロード",
+    "kana": "オフロード",
+    "senses": [
+      {
+        "sense_id": 221418,
+        "meaning_vi": "địa hình",
+        "confidence": "high",
+        "search_keywords": [
+          "địa hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3055,
+    "word": "オブザーバー",
+    "kana": "オブザーバー",
+    "senses": [
+      {
+        "sense_id": 221419,
+        "meaning_vi": "người quan sát",
+        "confidence": "high",
+        "search_keywords": [
+          "người quan sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người quan sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3056,
+    "word": "オブジェ",
+    "kana": "オブジェ",
+    "senses": [
+      {
+        "sense_id": 221420,
+        "meaning_vi": "đối tượng nghệ thuật; hạng mục tác phẩm nghệ thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "đối tượng nghệ thuật",
+          "hạng mục tác phẩm nghệ thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối tượng nghệ thuật; hạng mục tác phẩm nghệ thuật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 221421,
+        "meaning_vi": "sự vật; đồ cổ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự vật",
+          "đồ cổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự vật; đồ cổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3057,
+    "word": "オブジェクション",
+    "kana": "オブジェクション",
+    "senses": [
+      {
+        "sense_id": 221422,
+        "meaning_vi": "phản đối",
+        "confidence": "high",
+        "search_keywords": [
+          "phản đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản đối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3058,
+    "word": "オブジェクト",
+    "kana": "オブジェクト",
+    "senses": [
+      {
+        "sense_id": 221423,
+        "meaning_vi": "vật thể",
+        "confidence": "high",
+        "search_keywords": [
+          "vật thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vật thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3059,
+    "word": "オブジェクトオリエンテッド",
+    "kana": "オブジェクトオリエンテッド",
+    "senses": [
+      {
+        "sense_id": 221424,
+        "meaning_vi": "hướng đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3060,
+    "word": "オブジェクト指向",
+    "kana": "オブジェクトしこう",
+    "senses": [
+      {
+        "sense_id": 221425,
+        "meaning_vi": "hướng đối tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng đối tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng đối tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

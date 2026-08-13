@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 125459,
+    "word": "通信ポート",
+    "kana": "つうしんポート",
+    "senses": [
+      {
+        "sense_id": 369101,
+        "meaning_vi": "cổng giao tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "cổng giao tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cổng giao tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125460,
+    "word": "通信回線",
+    "kana": "つうしんかいせん",
+    "senses": [
+      {
+        "sense_id": 369102,
+        "meaning_vi": "đường dây liên lạc",
+        "confidence": "high",
+        "search_keywords": [
+          "đường dây liên lạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường dây liên lạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125461,
+    "word": "通信管理システム",
+    "kana": "つうしんかんりシステム",
+    "senses": [
+      {
+        "sense_id": 369103,
+        "meaning_vi": "hệ thống kiểm soát tin nhắn; MCS",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống kiểm soát tin nhắn",
+          "MCS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống kiểm soát tin nhắn; MCS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125462,
+    "word": "通信機器",
+    "kana": "つうしんきき",
+    "senses": [
+      {
+        "sense_id": 369104,
+        "meaning_vi": "thiết bị viễn thông; thiết bị liên lạc",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị viễn thông",
+          "thiết bị liên lạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị viễn thông; thiết bị liên lạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125463,
+    "word": "通信規格",
+    "kana": "つうしんきかく",
+    "senses": [
+      {
+        "sense_id": 369105,
+        "meaning_vi": "tiêu chuẩn viễn thông",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu chuẩn viễn thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu chuẩn viễn thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125464,
+    "word": "通信規約",
+    "kana": "つうしんきやく",
+    "senses": [
+      {
+        "sense_id": 369106,
+        "meaning_vi": "giao thức",
+        "confidence": "high",
+        "search_keywords": [
+          "giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao thức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125465,
+    "word": "通信記述項",
+    "kana": "つうしんきじゅつこう",
+    "senses": [
+      {
+        "sense_id": 369107,
+        "meaning_vi": "mục mô tả giao tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "mục mô tả giao tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục mô tả giao tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125466,
+    "word": "通信記述名",
+    "kana": "つうしんきじゅつめい",
+    "senses": [
+      {
+        "sense_id": 369108,
+        "meaning_vi": "tên cd",
+        "confidence": "high",
+        "search_keywords": [
+          "tên cd"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên cd",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125467,
+    "word": "通信行",
+    "kana": "つうしんぎょう",
+    "senses": [
+      {
+        "sense_id": 369109,
+        "meaning_vi": "đoạn tin nhắn",
+        "confidence": "high",
+        "search_keywords": [
+          "đoạn tin nhắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đoạn tin nhắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125468,
+    "word": "通信事業者",
+    "kana": "つうしんじぎょうしゃ",
+    "senses": [
+      {
+        "sense_id": 369110,
+        "meaning_vi": "người chuyên chở",
+        "confidence": "high",
+        "search_keywords": [
+          "người chuyên chở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người chuyên chở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125469,
+    "word": "通信手順",
+    "kana": "つうしんてじゅん",
+    "senses": [
+      {
+        "sense_id": 369111,
+        "meaning_vi": "giao thức truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "giao thức truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao thức truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125470,
+    "word": "通信条件",
+    "kana": "つうしんじょうけん",
+    "senses": [
+      {
+        "sense_id": 369112,
+        "meaning_vi": "giao thức truyền thông",
+        "confidence": "high",
+        "search_keywords": [
+          "giao thức truyền thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao thức truyền thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125471,
+    "word": "通信制御機構",
+    "kana": "つうしんせいぎょきこう",
+    "senses": [
+      {
+        "sense_id": 369113,
+        "meaning_vi": "bộ điều khiển truyền thông",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ điều khiển truyền thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ điều khiển truyền thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125472,
+    "word": "通信制御処理装置",
+    "kana": "つうしんせいぎょしょりそうち",
+    "senses": [
+      {
+        "sense_id": 369114,
+        "meaning_vi": "ĐCSTQ; Bộ xử lý điều khiển truyền thông",
+        "confidence": "high",
+        "search_keywords": [
+          "ĐCSTQ",
+          "Bộ xử lý điều khiển truyền thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ĐCSTQ; Bộ xử lý điều khiển truyền thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125473,
+    "word": "通信制御装置",
+    "kana": "つうしんせいぎょそうち",
+    "senses": [
+      {
+        "sense_id": 369115,
+        "meaning_vi": "bộ điều khiển truyền thông",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ điều khiển truyền thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ điều khiển truyền thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125474,
+    "word": "通信設備",
+    "kana": "つうしんせつび",
+    "senses": [
+      {
+        "sense_id": 369116,
+        "meaning_vi": "thiết bị truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125475,
+    "word": "通信節",
+    "kana": "つうしんせつ",
+    "senses": [
+      {
+        "sense_id": 369117,
+        "meaning_vi": "phần giao tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "phần giao tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần giao tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125476,
+    "word": "通信相手",
+    "kana": "つうしんあいて",
+    "senses": [
+      {
+        "sense_id": 369118,
+        "meaning_vi": "đối tác truyền thông; thực thể ở cuối giao tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "đối tác truyền thông",
+          "thực thể ở cuối giao tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối tác truyền thông; thực thể ở cuối giao tiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125477,
+    "word": "通信端末",
+    "kana": "つうしんたんまつ",
+    "senses": [
+      {
+        "sense_id": 369119,
+        "meaning_vi": "thiết bị đầu cuối truyền thông",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối truyền thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối truyền thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125478,
+    "word": "通信品位法",
+    "kana": "つうしんひんいほう",
+    "senses": [
+      {
+        "sense_id": 369120,
+        "meaning_vi": "Đạo luật về khuôn phép trong giao tiếp; CDA",
+        "confidence": "high",
+        "search_keywords": [
+          "Đạo luật về khuôn phép trong giao tiếp",
+          "CDA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đạo luật về khuôn phép trong giao tiếp; CDA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,411 +1,811 @@
 [
-{
-"vocabulary_id": 1038,
-"word": "ぼっ手繰り",
-"kana": "ぼったくり",
-"senses": [
-{
-"sense_id": 219003,
-"meaning_vi": "chặt chém",
-"confidence": "high",
-"search_keywords": [
-"chặt chém",
-"lừa giá",
-"thu giá cắt cổ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thu giá cắt cổ; lừa lấy tiền",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1039,
-"word": "ぼつぼつ",
-"kana": "ぼつぼつ",
-"senses": [
-{
-"sense_id": 219004,
-"meaning_vi": "dần dần",
-"confidence": "high",
-"search_keywords": [
-"dần dần",
-"từ từ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "từng chút một; chậm rãi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219005,
-"meaning_vi": "sắp sửa",
-"confidence": "high",
-"search_keywords": [
-"sắp",
-"chẳng mấy chốc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không bao lâu nữa; sắp đến lúc",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219006,
-"meaning_vi": "lác đác",
-"confidence": "high",
-"search_keywords": [
-"lác đác",
-"rải rác"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xuất hiện rải rác ở đây đó",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219007,
-"meaning_vi": "nốt lấm tấm",
-"confidence": "high",
-"search_keywords": [
-"mụn",
-"phát ban",
-"đốm nhỏ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mụn; nốt đỏ; phát ban lấm tấm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1040,
-"word": "ぼやく",
-"kana": "ぼやく",
-"senses": [
-{
-"sense_id": 219008,
-"meaning_vi": "cằn nhằn",
-"confidence": "high",
-"search_keywords": [
-"cằn nhằn",
-"than phiền",
-"ca cẩm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "than vãn; cằn nhằn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1041,
-"word": "ぼやける",
-"kana": "ぼやける",
-"senses": [
-{
-"sense_id": 219009,
-"meaning_vi": "mờ đi",
-"confidence": "high",
-"search_keywords": [
-"mờ",
-"nhòe"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trở nên mờ hoặc nhòe",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1042,
-"word": "ボリボリ",
-"kana": "ボリボリ",
-"senses": [
-{
-"sense_id": 219010,
-"meaning_vi": "nhai rôm rốp",
-"confidence": "high",
-"search_keywords": [
-"nhai giòn",
-"rôm rốp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhai tạo tiếng rôm rốp",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219011,
-"meaning_vi": "gãi sồn sột",
-"confidence": "high",
-"search_keywords": [
-"gãi mạnh",
-"gãi ngứa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gãi liên tục tạo tiếng sột soạt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1043,
-"word": "ぼりぼり食べる",
-"kana": "ぼりぼりたべる",
-"senses": [
-{
-"sense_id": 219012,
-"meaning_vi": "nhai rôm rốp",
-"confidence": "high",
-"search_keywords": [
-"nhai rôm rốp",
-"ăn giòn rụm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ăn tạo tiếng nhai giòn rụm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1044,
-"word": "ぼろい",
-"kana": "ぼろい",
-"senses": [
-{
-"sense_id": 219013,
-"meaning_vi": "béo bở",
-"confidence": "high",
-"search_keywords": [
-"béo bở",
-"dễ kiếm tiền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mang lại nhiều tiền; ngon ăn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1045,
-"word": "ボロボロ",
-"kana": "ボロボロ",
-"senses": [
-{
-"sense_id": 219014,
-"meaning_vi": "rách nát",
-"confidence": "high",
-"search_keywords": [
-"rách nát",
-"tả tơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cũ nát; tả tơi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219015,
-"meaning_vi": "vỡ vụn",
-"confidence": "high",
-"search_keywords": [
-"vỡ vụn",
-"tơi ra"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vỡ thành từng mảnh nhỏ; tơi xốp",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219016,
-"meaning_vi": "rơi lả tả",
-"confidence": "high",
-"search_keywords": [
-"rơi lả tả",
-"rơi từng mảng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rơi xuống liên tiếp từng mảng hoặc giọt",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219017,
-"meaning_vi": "kiệt quệ",
-"confidence": "high",
-"search_keywords": [
-"kiệt sức",
-"tan nát"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiệt sức cả thể chất lẫn tinh thần",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219018,
-"meaning_vi": "lộ ra liên tiếp",
-"confidence": "medium",
-"search_keywords": [
-"liên tiếp xuất hiện",
-"lần lượt lộ ra"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự việc lần lượt bị phanh phui",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1046,
-"word": "ボロ布",
-"kana": "ぼろきれ",
-"senses": [
-{
-"sense_id": 219019,
-"meaning_vi": "giẻ rách",
-"confidence": "high",
-"search_keywords": [
-"giẻ rách",
-"vải vụn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mảnh vải cũ hoặc giẻ lau",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1047,
-"word": "ぼんやり",
-"kana": "ぼんやり",
-"senses": [
-{
-"sense_id": 219020,
-"meaning_vi": "mờ nhạt",
-"confidence": "high",
-"search_keywords": [
-"mờ",
-"không rõ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mờ nhạt; không rõ ràng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219021,
-"meaning_vi": "thẫn thờ",
-"confidence": "high",
-"search_keywords": [
-"thẫn thờ",
-"đờ đẫn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đầu óc để đâu đâu; lơ đãng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219022,
-"meaning_vi": "lang thang vô định",
-"confidence": "high",
-"search_keywords": [
-"vô định",
-"lững thững"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không mục đích; lững thững",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219023,
-"meaning_vi": "kẻ ngốc",
-"confidence": "high",
-"search_keywords": [
-"đần độn",
-"kẻ ngốc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người đầu óc chậm chạp; kẻ ngốc",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1038,
+    "word": "ぼっ手繰り",
+    "kana": "ぼったくり",
+    "senses": [
+      {
+        "sense_id": 219003,
+        "meaning_vi": "(cố ý) tính phí quá mức; gian lận; cướp đường cao tốc",
+        "confidence": "high",
+        "search_keywords": [
+          "(cố ý) tính phí quá mức",
+          "gian lận",
+          "cướp đường cao tốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cố ý) tính phí quá mức; gian lận; cướp đường cao tốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1039,
+    "word": "ぼつぼつ",
+    "kana": "ぼつぼつ",
+    "senses": [
+      {
+        "sense_id": 219004,
+        "meaning_vi": "dần dần; từng chút một; một cách sôi nổi",
+        "confidence": "high",
+        "search_keywords": [
+          "dần dần",
+          "từng chút một",
+          "một cách sôi nổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dần dần; từng chút một; một cách sôi nổi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219005,
+        "meaning_vi": "sớm; chẳng bao lâu nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "sớm",
+          "chẳng bao lâu nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sớm; chẳng bao lâu nữa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219006,
+        "meaning_vi": "ở đây và ở đó; rải rác",
+        "confidence": "high",
+        "search_keywords": [
+          "ở đây và ở đó",
+          "rải rác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở đây và ở đó; rải rác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219007,
+        "meaning_vi": "đốm; dấu chấm; nổi mụn; phát ban",
+        "confidence": "high",
+        "search_keywords": [
+          "đốm",
+          "dấu chấm",
+          "nổi mụn",
+          "phát ban"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đốm; dấu chấm; nổi mụn; phát ban",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1040,
+    "word": "ぼやく",
+    "kana": "ぼやく",
+    "senses": [
+      {
+        "sense_id": 219008,
+        "meaning_vi": "càu nhàu; phàn nàn",
+        "confidence": "high",
+        "search_keywords": [
+          "càu nhàu",
+          "phàn nàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "càu nhàu; phàn nàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1041,
+    "word": "ぼやける",
+    "kana": "ぼやける",
+    "senses": [
+      {
+        "sense_id": 219009,
+        "meaning_vi": "trở nên mờ nhạt; trở nên mờ nhạt",
+        "confidence": "high",
+        "search_keywords": [
+          "trở nên mờ nhạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở nên mờ nhạt; trở nên mờ nhạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1042,
+    "word": "ボリボリ",
+    "kana": "ボリボリ",
+    "senses": [
+      {
+        "sense_id": 219010,
+        "meaning_vi": "nhai; lạo xạo",
+        "confidence": "high",
+        "search_keywords": [
+          "nhai",
+          "lạo xạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhai; lạo xạo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219011,
+        "meaning_vi": "gãi (ngứa)",
+        "confidence": "high",
+        "search_keywords": [
+          "gãi (ngứa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gãi (ngứa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1043,
+    "word": "ぼりぼり食べる",
+    "kana": "ぼりぼりたべる",
+    "senses": [
+      {
+        "sense_id": 219012,
+        "meaning_vi": "ăn với âm thanh nhai hoặc lạo xạo",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn với âm thanh nhai hoặc lạo xạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn với âm thanh nhai hoặc lạo xạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1044,
+    "word": "ぼろい",
+    "kana": "ぼろい",
+    "senses": [
+      {
+        "sense_id": 219013,
+        "meaning_vi": "sinh lời; dễ kiếm tiền; số tiền lớn; êm ái",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh lời",
+          "dễ kiếm tiền",
+          "số tiền lớn",
+          "êm ái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh lời; dễ kiếm tiền; số tiền lớn; êm ái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1045,
+    "word": "ボロボロ",
+    "kana": "ボロボロ",
+    "senses": [
+      {
+        "sense_id": 219014,
+        "meaning_vi": "mòn mỏi; rách rưới; rách nát; bị đánh đập; nhếch nhác",
+        "confidence": "high",
+        "search_keywords": [
+          "mòn mỏi",
+          "rách rưới",
+          "rách nát",
+          "bị đánh đập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mòn mỏi; rách rưới; rách nát; bị đánh đập; nhếch nhác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219015,
+        "meaning_vi": "sụp đổ; khô và vụn",
+        "confidence": "high",
+        "search_keywords": [
+          "sụp đổ",
+          "khô và vụn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sụp đổ; khô và vụn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219016,
+        "meaning_vi": "rơi (theo giọt hoặc từng cục); sự tán xạ",
+        "confidence": "high",
+        "search_keywords": [
+          "rơi (theo giọt hoặc từng cục)",
+          "sự tán xạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rơi (theo giọt hoặc từng cục); sự tán xạ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219017,
+        "meaning_vi": "(về thể chất hoặc tinh thần) kiệt sức; kiệt sức",
+        "confidence": "high",
+        "search_keywords": [
+          "(về thể chất hoặc tinh thần) kiệt sức",
+          "kiệt sức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(về thể chất hoặc tinh thần) kiệt sức; kiệt sức",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219018,
+        "meaning_vi": "(ra ánh sáng) lần lượt",
+        "confidence": "high",
+        "search_keywords": [
+          "(ra ánh sáng) lần lượt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(ra ánh sáng) lần lượt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1046,
+    "word": "ボロ布",
+    "kana": "ぼろきれ",
+    "senses": [
+      {
+        "sense_id": 219019,
+        "meaning_vi": "vải cũ; giẻ rách",
+        "confidence": "high",
+        "search_keywords": [
+          "vải cũ",
+          "giẻ rách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vải cũ; giẻ rách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1047,
+    "word": "ぼんやり",
+    "kana": "ぼんやり",
+    "senses": [
+      {
+        "sense_id": 219020,
+        "meaning_vi": "lờ mờ; yếu ớt; không rõ ràng; mơ hồ",
+        "confidence": "high",
+        "search_keywords": [
+          "lờ mờ",
+          "yếu ớt",
+          "không rõ ràng",
+          "mơ hồ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lờ mờ; yếu ớt; không rõ ràng; mơ hồ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219021,
+        "meaning_vi": "lơ đãng; trống rỗng; bất cẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "lơ đãng",
+          "trống rỗng",
+          "bất cẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lơ đãng; trống rỗng; bất cẩn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219022,
+        "meaning_vi": "nhàn rỗi; không mục đích",
+        "confidence": "high",
+        "search_keywords": [
+          "nhàn rỗi",
+          "không mục đích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhàn rỗi; không mục đích",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219023,
+        "meaning_vi": "sự vắng mặt của tâm trí; ngu xuẩn; đầu đất; ngu ngốc",
+        "confidence": "high",
+        "search_keywords": [
+          "sự vắng mặt của tâm trí",
+          "ngu xuẩn",
+          "đầu đất",
+          "ngu ngốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự vắng mặt của tâm trí; ngu xuẩn; đầu đất; ngu ngốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1048,
+    "word": "ぽかぽか",
+    "kana": "ぽかぽか",
+    "senses": [
+      {
+        "sense_id": 219024,
+        "meaning_vi": "ấm áp dễ chịu; tốt đẹp và ấm áp",
+        "confidence": "high",
+        "search_keywords": [
+          "ấm áp dễ chịu",
+          "tốt đẹp và ấm áp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ấm áp dễ chịu; tốt đẹp và ấm áp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219025,
+        "meaning_vi": "liên tục (đánh ai đó); hết lần này đến lần khác; hơn và hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "liên tục (đánh ai đó)",
+          "hết lần này đến lần khác",
+          "hơn và hơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên tục (đánh ai đó); hết lần này đến lần khác; hơn và hơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1049,
+    "word": "ぽかん",
+    "kana": "ぽかん",
+    "senses": [
+      {
+        "sense_id": 219026,
+        "meaning_vi": "trống rỗng; trống rỗng; lơ đãng",
+        "confidence": "high",
+        "search_keywords": [
+          "trống rỗng",
+          "lơ đãng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trống rỗng; trống rỗng; lơ đãng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219027,
+        "meaning_vi": "cởi mở; với cái miệng há rộng; há hốc mồm; sửng sốt",
+        "confidence": "high",
+        "search_keywords": [
+          "cởi mở",
+          "với cái miệng há rộng",
+          "há hốc mồm",
+          "sửng sốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cởi mở; với cái miệng há rộng; há hốc mồm; sửng sốt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219028,
+        "meaning_vi": "bằng một cú đánh; với một cú đập",
+        "confidence": "high",
+        "search_keywords": [
+          "bằng một cú đánh",
+          "với một cú đập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bằng một cú đánh; với một cú đập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1050,
+    "word": "ポコチン",
+    "kana": "ポコチン",
+    "senses": [
+      {
+        "sense_id": 219029,
+        "meaning_vi": "ý chí; dương vật",
+        "confidence": "high",
+        "search_keywords": [
+          "ý chí",
+          "dương vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý chí; dương vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1051,
+    "word": "ポタポタ",
+    "kana": "ポタポタ",
+    "senses": [
+      {
+        "sense_id": 219030,
+        "meaning_vi": "nhỏ giọt; nhỏ giọt; từng giọt một; theo giọt",
+        "confidence": "high",
+        "search_keywords": [
+          "nhỏ giọt",
+          "từng giọt một",
+          "theo giọt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhỏ giọt; nhỏ giọt; từng giọt một; theo giọt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219031,
+        "meaning_vi": "ướt và nặng (tuyết, đất sét, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "ướt và nặng (tuyết, đất sét, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ướt và nặng (tuyết, đất sét, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219032,
+        "meaning_vi": "(di chuyển) chậm rãi",
+        "confidence": "high",
+        "search_keywords": [
+          "(di chuyển) chậm rãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(di chuyển) chậm rãi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1052,
+    "word": "ポタポタ落ちる",
+    "kana": "ポタポタおちる",
+    "senses": [
+      {
+        "sense_id": 219033,
+        "meaning_vi": "rơi thành từng giọt; nhỏ giọt xuống; nhỏ giọt xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "rơi thành từng giọt",
+          "nhỏ giọt xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rơi thành từng giọt; nhỏ giọt xuống; nhỏ giọt xuống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1053,
+    "word": "ぽちゃぽちゃ",
+    "kana": "ぽちゃぽちゃ",
+    "senses": [
+      {
+        "sense_id": 219034,
+        "meaning_vi": "bắn tung tóe (nước)",
+        "confidence": "high",
+        "search_keywords": [
+          "bắn tung tóe (nước)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắn tung tóe (nước)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219035,
+        "meaning_vi": "mũm mĩm (và dễ thương); đầy đặn",
+        "confidence": "high",
+        "search_keywords": [
+          "mũm mĩm (và dễ thương)",
+          "đầy đặn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mũm mĩm (và dễ thương); đầy đặn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1054,
+    "word": "ぽっきり",
+    "kana": "ぽっきり",
+    "senses": [
+      {
+        "sense_id": 219036,
+        "meaning_vi": "một cách nhanh chóng; chỉ trong tích tắc",
+        "confidence": "high",
+        "search_keywords": [
+          "một cách nhanh chóng",
+          "chỉ trong tích tắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cách nhanh chóng; chỉ trong tích tắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219037,
+        "meaning_vi": "không nhiều hơn hoặc ít hơn; chỉ là ...; chính xác...",
+        "confidence": "high",
+        "search_keywords": [
+          "không nhiều hơn hoặc ít hơn",
+          "chỉ là ...",
+          "chính xác..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không nhiều hơn hoặc ít hơn; chỉ là ...; chính xác...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1055,
+    "word": "ぽってり",
+    "kana": "ぽってり",
+    "senses": [
+      {
+        "sense_id": 219038,
+        "meaning_vi": "đầy đặn; mập; đặc (ví dụ: cà ri); đầy đủ (ví dụ như môi)",
+        "confidence": "high",
+        "search_keywords": [
+          "đầy đặn",
+          "mập",
+          "đặc (ví dụ: cà ri)",
+          "đầy đủ (ví dụ như môi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầy đặn; mập; đặc (ví dụ: cà ri); đầy đủ (ví dụ như môi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1056,
+    "word": "ポツポツ",
+    "kana": "ポツポツ",
+    "senses": [
+      {
+        "sense_id": 219039,
+        "meaning_vi": "dấu chấm; đốm",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu chấm",
+          "đốm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu chấm; đốm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219040,
+        "meaning_vi": "từng chút một; từng chút một; dần dần",
+        "confidence": "high",
+        "search_keywords": [
+          "từng chút một",
+          "dần dần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từng chút một; từng chút một; dần dần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219041,
+        "meaning_vi": "ở đây và ở đó; rải rác; chấm",
+        "confidence": "high",
+        "search_keywords": [
+          "ở đây và ở đó",
+          "rải rác",
+          "chấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở đây và ở đó; rải rác; chấm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219042,
+        "meaning_vi": "ở dạng giọt; (rơi) nhẹ nhàng",
+        "confidence": "high",
+        "search_keywords": [
+          "ở dạng giọt",
+          "(rơi) nhẹ nhàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở dạng giọt; (rơi) nhẹ nhàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1057,
+    "word": "ぽろぽろ",
+    "kana": "ぽろぽろ",
+    "senses": [
+      {
+        "sense_id": 219043,
+        "meaning_vi": "ở dạng giọt lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "ở dạng giọt lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở dạng giọt lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

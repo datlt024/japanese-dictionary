@@ -1,0 +1,836 @@
+[
+  {
+    "vocabulary_id": 40501,
+    "word": "坪数",
+    "kana": "つぼすう",
+    "senses": [
+      {
+        "sense_id": 270154,
+        "meaning_vi": "không gian sàn; khu vực (ở tsubo)",
+        "confidence": "high",
+        "search_keywords": [
+          "không gian sàn",
+          "khu vực (ở tsubo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không gian sàn; khu vực (ở tsubo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40502,
+    "word": "坪当たり",
+    "kana": "つぼあたり",
+    "senses": [
+      {
+        "sense_id": 270155,
+        "meaning_vi": "mỗi tsubo (khoảng 3,3 mét vuông)",
+        "confidence": "high",
+        "search_keywords": [
+          "mỗi tsubo (khoảng 3,3 mét vuông)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỗi tsubo (khoảng 3,3 mét vuông)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40503,
+    "word": "壺",
+    "kana": "つぼ",
+    "senses": [
+      {
+        "sense_id": 270156,
+        "meaning_vi": "nồi; cái lọ; bình hoa",
+        "confidence": "high",
+        "search_keywords": [
+          "nồi",
+          "cái lọ",
+          "bình hoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nồi; cái lọ; bình hoa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270157,
+        "meaning_vi": "cốc xúc xắc",
+        "confidence": "high",
+        "search_keywords": [
+          "cốc xúc xắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cốc xúc xắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270158,
+        "meaning_vi": "trầm cảm; lưu vực (ví dụ như thác nước)",
+        "confidence": "high",
+        "search_keywords": [
+          "trầm cảm",
+          "lưu vực (ví dụ như thác nước)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trầm cảm; lưu vực (ví dụ như thác nước)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270159,
+        "meaning_vi": "mục tiêu; những gì người ta muốn; dấu hiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "mục tiêu",
+          "những gì người ta muốn",
+          "dấu hiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục tiêu; những gì người ta muốn; dấu hiệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270160,
+        "meaning_vi": "điểm chính (của một cuộc trò chuyện, v.v.); bản chất",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm chính (của một cuộc trò chuyện, v.v.)",
+          "bản chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm chính (của một cuộc trò chuyện, v.v.); bản chất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270161,
+        "meaning_vi": "huyệt đạo; điểm đốt cháy; điểm áp lực",
+        "confidence": "high",
+        "search_keywords": [
+          "huyệt đạo",
+          "điểm đốt cháy",
+          "điểm áp lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "huyệt đạo; điểm đốt cháy; điểm áp lực",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270162,
+        "meaning_vi": "vị trí trên bàn phím (của đàn shamisen, đàn koto, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí trên bàn phím (của đàn shamisen, đàn koto, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí trên bàn phím (của đàn shamisen, đàn koto, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270163,
+        "meaning_vi": "mục tiêu (khi nhắm mũi tên)",
+        "confidence": "high",
+        "search_keywords": [
+          "mục tiêu (khi nhắm mũi tên)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục tiêu (khi nhắm mũi tên)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40504,
+    "word": "爪",
+    "kana": "つめ",
+    "senses": [
+      {
+        "sense_id": 270164,
+        "meaning_vi": "móng tay (ví dụ móng tay, móng chân); móng vuốt; móng vuốt; móng guốc",
+        "confidence": "high",
+        "search_keywords": [
+          "móng tay (ví dụ móng tay, móng chân)",
+          "móng vuốt",
+          "móng guốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "móng tay (ví dụ móng tay, móng chân); móng vuốt; móng vuốt; móng guốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270165,
+        "meaning_vi": "miếng gảy; chọn",
+        "confidence": "high",
+        "search_keywords": [
+          "miếng gảy",
+          "chọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "miếng gảy; chọn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270166,
+        "meaning_vi": "cái móc; cái móc",
+        "confidence": "high",
+        "search_keywords": [
+          "cái móc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái móc; cái móc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40505,
+    "word": "爪で拾って箕で零す",
+    "kana": "つめでひろってみでこぼす",
+    "senses": [
+      {
+        "sense_id": 270167,
+        "meaning_vi": "đồng xu khôn ngoan và bảng đồng xu ngu ngốc",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng xu khôn ngoan và bảng đồng xu ngu ngốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng xu khôn ngoan và bảng đồng xu ngu ngốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40506,
+    "word": "爪痕",
+    "kana": "つめあと",
+    "senses": [
+      {
+        "sense_id": 270168,
+        "meaning_vi": "dấu móng tay; gãi",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu móng tay",
+          "gãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu móng tay; gãi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270169,
+        "meaning_vi": "vết sẹo (ví dụ: chiến tranh); dấu vết (thiệt hại); sự tàn phá; hậu quả",
+        "confidence": "high",
+        "search_keywords": [
+          "vết sẹo (ví dụ: chiến tranh)",
+          "dấu vết (thiệt hại)",
+          "sự tàn phá",
+          "hậu quả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vết sẹo (ví dụ: chiến tranh); dấu vết (thiệt hại); sự tàn phá; hậu quả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40507,
+    "word": "つま先",
+    "kana": "つまさき",
+    "senses": [
+      {
+        "sense_id": 270170,
+        "meaning_vi": "ngón chân; đầu ngón chân; mũi giày, tất, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "ngón chân",
+          "đầu ngón chân",
+          "mũi giày, tất, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngón chân; đầu ngón chân; mũi giày, tất, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40508,
+    "word": "つま先で歩く",
+    "kana": "つまさきであるく",
+    "senses": [
+      {
+        "sense_id": 270171,
+        "meaning_vi": "nhón chân",
+        "confidence": "high",
+        "search_keywords": [
+          "nhón chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhón chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40509,
+    "word": "爪弾き",
+    "kana": "つまはじき",
+    "senses": [
+      {
+        "sense_id": 270172,
+        "meaning_vi": "trốn tránh; tẩy chay; loại trừ; từ chối; lạnh lùng; bỏ (ai đó) ra ngoài; đối xử lạnh lùng với (ai đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "trốn tránh",
+          "tẩy chay",
+          "loại trừ",
+          "từ chối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trốn tránh; tẩy chay; loại trừ; từ chối; lạnh lùng; bỏ (ai đó) ra ngoài; đối xử lạnh lùng với (ai đó)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270173,
+        "meaning_vi": "búng nhẹ (ngón tay; thể hiện sự ghê tởm, khinh bỉ, không đồng tình, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "búng nhẹ (ngón tay",
+          "thể hiện sự ghê tởm, khinh bỉ, không đồng tình, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "búng nhẹ (ngón tay; thể hiện sự ghê tởm, khinh bỉ, không đồng tình, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40510,
+    "word": "爪楊枝",
+    "kana": "つまようじ",
+    "senses": [
+      {
+        "sense_id": 270174,
+        "meaning_vi": "tăm",
+        "confidence": "high",
+        "search_keywords": [
+          "tăm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tăm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40511,
+    "word": "爪立ち",
+    "kana": "つまだち",
+    "senses": [
+      {
+        "sense_id": 270175,
+        "meaning_vi": "đứng nhón chân",
+        "confidence": "high",
+        "search_keywords": [
+          "đứng nhón chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứng nhón chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40512,
+    "word": "吊し",
+    "kana": "つるし",
+    "senses": [
+      {
+        "sense_id": 270176,
+        "meaning_vi": "quần áo may sẵn; quần áo mua sẵn; quần áo cũ; truyền tay lại",
+        "confidence": "high",
+        "search_keywords": [
+          "quần áo may sẵn",
+          "quần áo mua sẵn",
+          "quần áo cũ",
+          "truyền tay lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quần áo may sẵn; quần áo mua sẵn; quần áo cũ; truyền tay lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270177,
+        "meaning_vi": "treo",
+        "confidence": "high",
+        "search_keywords": [
+          "treo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "treo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40513,
+    "word": "吊るし上げる",
+    "kana": "つるしあげる",
+    "senses": [
+      {
+        "sense_id": 270178,
+        "meaning_vi": "để nâng; nâng lên",
+        "confidence": "high",
+        "search_keywords": [
+          "để nâng",
+          "nâng lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nâng; nâng lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270179,
+        "meaning_vi": "để (đám đông xung quanh và) quở trách; (tập hợp và) chỉ trích; khiển trách nặng nề; phải chịu tòa án kangaroo; dày vò với những câu hỏi thù địch",
+        "confidence": "high",
+        "search_keywords": [
+          "để (đám đông xung quanh và) quở trách",
+          "(tập hợp và) chỉ trích",
+          "khiển trách nặng nề",
+          "phải chịu tòa án kangaroo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để (đám đông xung quanh và) quở trách; (tập hợp và) chỉ trích; khiển trách nặng nề; phải chịu tòa án kangaroo; dày vò với những câu hỏi thù địch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40514,
+    "word": "吊るす",
+    "kana": "つるす",
+    "senses": [
+      {
+        "sense_id": 270180,
+        "meaning_vi": "treo; gác máy",
+        "confidence": "high",
+        "search_keywords": [
+          "treo",
+          "gác máy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "treo; gác máy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40515,
+    "word": "吊り出す",
+    "kana": "つりだす",
+    "senses": [
+      {
+        "sense_id": 270181,
+        "meaning_vi": "ôm (đối thủ) trong tay và bế anh ta ra khỏi võ đài",
+        "confidence": "high",
+        "search_keywords": [
+          "ôm (đối thủ) trong tay và bế anh ta ra khỏi võ đài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ôm (đối thủ) trong tay và bế anh ta ra khỏi võ đài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40516,
+    "word": "吊り上げる",
+    "kana": "つりあげる",
+    "senses": [
+      {
+        "sense_id": 270182,
+        "meaning_vi": "nâng (bằng cần cẩu, dây thừng, v.v.); nâng cao; nâng lên",
+        "confidence": "high",
+        "search_keywords": [
+          "nâng (bằng cần cẩu, dây thừng, v.v.)",
+          "nâng cao",
+          "nâng lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nâng (bằng cần cẩu, dây thừng, v.v.); nâng cao; nâng lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270183,
+        "meaning_vi": "thao túng (giá) lên trên; để (nhân tạo) nâng cao; đẩy lên; thổi phồng lên; để nâng lên",
+        "confidence": "high",
+        "search_keywords": [
+          "thao túng (giá) lên trên",
+          "để (nhân tạo) nâng cao",
+          "đẩy lên",
+          "thổi phồng lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thao túng (giá) lên trên; để (nhân tạo) nâng cao; đẩy lên; thổi phồng lên; để nâng lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40517,
+    "word": "吊る",
+    "kana": "つる",
+    "senses": [
+      {
+        "sense_id": 270184,
+        "meaning_vi": "treo; đình chỉ; để treo; đeo (ví dụ: một thanh kiếm); để đặt lên (ví dụ như một kệ)",
+        "confidence": "high",
+        "search_keywords": [
+          "treo",
+          "đình chỉ",
+          "để treo",
+          "đeo (ví dụ: một thanh kiếm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "treo; đình chỉ; để treo; đeo (ví dụ: một thanh kiếm); để đặt lên (ví dụ như một kệ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270185,
+        "meaning_vi": "treo cổ tự tử",
+        "confidence": "high",
+        "search_keywords": [
+          "treo cổ tự tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "treo cổ tự tử",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270186,
+        "meaning_vi": "dùng khố nâng đối thủ lên khỏi chân mình",
+        "confidence": "high",
+        "search_keywords": [
+          "dùng khố nâng đối thủ lên khỏi chân mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dùng khố nâng đối thủ lên khỏi chân mình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270187,
+        "meaning_vi": "hướng lên trên (như thể bị kéo); bị nghiêng (của mắt)",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng lên trên (như thể bị kéo)",
+          "bị nghiêng (của mắt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng lên trên (như thể bị kéo); bị nghiêng (của mắt)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270188,
+        "meaning_vi": "nhăn nheo (ví dụ như đường may); được kéo chặt",
+        "confidence": "high",
+        "search_keywords": [
+          "nhăn nheo (ví dụ như đường may)",
+          "được kéo chặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhăn nheo (ví dụ như đường may); được kéo chặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40518,
+    "word": "吊るし上げ",
+    "kana": "つるしあげ",
+    "senses": [
+      {
+        "sense_id": 270189,
+        "meaning_vi": "gác máy; tời",
+        "confidence": "high",
+        "search_keywords": [
+          "gác máy",
+          "tời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gác máy; tời",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270190,
+        "meaning_vi": "bị tố cáo; bị chỉ trích nặng nề; sân kangaroo",
+        "confidence": "high",
+        "search_keywords": [
+          "bị tố cáo",
+          "bị chỉ trích nặng nề",
+          "sân kangaroo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị tố cáo; bị chỉ trích nặng nề; sân kangaroo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40519,
+    "word": "釣り",
+    "kana": "つり",
+    "senses": [
+      {
+        "sense_id": 270191,
+        "meaning_vi": "câu cá; câu cá",
+        "confidence": "high",
+        "search_keywords": [
+          "câu cá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu cá; câu cá",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270192,
+        "meaning_vi": "thay đổi (để mua hàng)",
+        "confidence": "high",
+        "search_keywords": [
+          "thay đổi (để mua hàng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay đổi (để mua hàng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270193,
+        "meaning_vi": "dụ nhấp chuột",
+        "confidence": "high",
+        "search_keywords": [
+          "dụ nhấp chuột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dụ nhấp chuột",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270194,
+        "meaning_vi": "troll; mồi; cố tình đăng các bài viết kích động trực tuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "troll",
+          "mồi",
+          "cố tình đăng các bài viết kích động trực tuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "troll; mồi; cố tình đăng các bài viết kích động trực tuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40520,
+    "word": "釣り合う",
+    "kana": "つりあう",
+    "senses": [
+      {
+        "sense_id": 270195,
+        "meaning_vi": "để cân bằng; được hòa hợp; ở trạng thái cân bằng",
+        "confidence": "high",
+        "search_keywords": [
+          "để cân bằng",
+          "được hòa hợp",
+          "ở trạng thái cân bằng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để cân bằng; được hòa hợp; ở trạng thái cân bằng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270196,
+        "meaning_vi": "cho phù hợp; đi cùng nhau tốt đẹp; để có một trận đấu tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "cho phù hợp",
+          "đi cùng nhau tốt đẹp",
+          "để có một trận đấu tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cho phù hợp; đi cùng nhau tốt đẹp; để có một trận đấu tốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -2,22 +2,18 @@ import styles from "./KanjiMemoryTipCard.module.css"
 
 import type { Kanji } from "@/domain/kanji"
 
-import { DEFAULT_MEMORY_TIP_LINES } from "@/features/dictionary/kanji/constants/kanji-detail.constants"
-
 type Props = {
     kanji: Kanji
+    memoryTip?: string | null
 }
 
-export default function KanjiMemoryTipCard({ kanji }: Props) {
+export default function KanjiMemoryTipCard({ memoryTip }: Props) {
+    if (!memoryTip) return null
+
     return (
-        <section className={`${styles.card} ${styles.memoryCard}`}>
+        <section className={styles.card}>
             <h2>💡 MẸO GHI NHỚ CHỮ HÁN</h2>
-
-            {DEFAULT_MEMORY_TIP_LINES.map((line) => (
-                <p key={line}>{line}</p>
-            ))}
-
-            <strong>⇒ {kanji.kanji}</strong>
+            <p>{memoryTip}</p>
         </section>
     )
 }

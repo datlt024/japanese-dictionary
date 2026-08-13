@@ -19,10 +19,10 @@
 
     overflow: hidden;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 
     box-shadow:
         0 16px 48px rgba(15, 23, 42, 0.16),
@@ -40,13 +40,13 @@
 
     padding: 14px 18px;
 
-    border-bottom: 1px solid #eceef2;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .header h2 {
     margin: 0;
 
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-size: 16px;
     font-weight: 800;
@@ -60,11 +60,11 @@
     width: 32px;
     height: 32px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 999px;
 
-    background: #f7f8fa;
-    color: #6b7280;
+    background: var(--color-bg);
+    color: var(--color-text-secondary);
 
     cursor: pointer;
 
@@ -72,8 +72,8 @@
 }
 
 .closeButton:hover {
-    background: #edf4ff;
-    color: #1f2937;
+    background: var(--color-primary-soft);
+    color: var(--color-text-primary);
 }
 
 /* ── Body ── */
@@ -89,7 +89,7 @@
     margin: 0;
     padding: 12px 18px;
 
-    color: #9ca3af;
+    color: var(--color-text-muted);
 
     font-size: 14px;
     font-weight: 600;
@@ -118,7 +118,7 @@
     border-radius: 12px;
 
     background: transparent;
-    color: #1f2937;
+    color: var(--color-text-primary);
 
     font-size: 14px;
     font-weight: 700;
@@ -130,7 +130,7 @@
 }
 
 .notebookRow:hover:not(:disabled) {
-    background: #f4f7ff;
+    background: var(--color-surface-muted);
 }
 
 .notebookRow:disabled {
@@ -139,7 +139,7 @@
 }
 
 .notebookRow.checked {
-    color: #2563eb;
+    color: var(--color-primary);
 }
 
 .notebookName {
@@ -160,7 +160,7 @@
     width: 20px;
     height: 20px;
 
-    color: #2563eb;
+    color: var(--color-primary);
 }
 
 /* ── Divider ── */
@@ -168,7 +168,7 @@
 .divider {
     height: 1px;
     margin: 8px 18px;
-    background: #eceef2;
+    background: var(--color-border);
 }
 
 /* ── Add notebook button ── */
@@ -187,7 +187,7 @@
     border-radius: 12px;
 
     background: transparent;
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 14px;
     font-weight: 700;
@@ -199,8 +199,8 @@
 }
 
 .addNotebookButton:hover {
-    background: #f4f7ff;
-    color: #2563eb;
+    background: var(--color-surface-muted);
+    color: var(--color-primary);
 }
 
 /* ── Create form ── */
@@ -222,11 +222,11 @@
 
     padding: 0 10px;
 
-    border: 1.5px solid #e5eaf2;
+    border: 1.5px solid var(--color-border);
     border-radius: 10px;
 
-    background: #ffffff;
-    color: #1f2937;
+    background: var(--color-surface);
+    color: var(--color-text-primary);
 
     font-size: 14px;
     font-weight: 600;
@@ -237,7 +237,7 @@
 .createInput:focus {
     outline: none;
 
-    border-color: #c7d7f3;
+    border-color: var(--color-primary-soft);
 
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.08);
 }
@@ -249,8 +249,8 @@
     border: none;
     border-radius: 10px;
 
-    background: #2563eb;
-    color: #ffffff;
+    background: var(--color-primary);
+    color: var(--color-surface);
 
     font-size: 13px;
     font-weight: 800;
@@ -261,7 +261,7 @@
 }
 
 .createSubmit:hover:not(:disabled) {
-    background: #1d4ed8;
+    background: var(--color-primary-hover);
 }
 
 .createSubmit:disabled {
@@ -273,11 +273,11 @@
     height: 36px;
     padding: 0 10px;
 
-    border: 1px solid #e5eaf2;
+    border: 1px solid var(--color-border);
     border-radius: 10px;
 
-    background: #ffffff;
-    color: #6b7280;
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
 
     font-size: 13px;
     font-weight: 700;
@@ -288,7 +288,7 @@
 }
 
 .createCancel:hover {
-    background: #f7f8fa;
+    background: var(--color-bg);
 }
 
 /* ── Login prompt / empty state ── */
@@ -309,7 +309,7 @@
 .emptyState p {
     margin: 0;
 
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 14px;
     font-weight: 600;
@@ -327,8 +327,8 @@
     border: none;
     border-radius: 12px;
 
-    background: #2563eb;
-    color: #ffffff;
+    background: var(--color-primary);
+    color: var(--color-surface);
 
     font-size: 14px;
     font-weight: 800;
@@ -339,7 +339,7 @@
 }
 
 .loginButton:hover {
-    background: #1d4ed8;
+    background: var(--color-primary-hover);
 }
 
 /* ── Animations ── */

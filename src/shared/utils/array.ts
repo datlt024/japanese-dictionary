@@ -7,3 +7,7 @@ export function uniqueById<T extends { id: number }>(
         ).values()
     )
 }
+
+export function uniqueArray<T>(items: T[]): T[] {
+    return Array.from(new Set(items))
+}

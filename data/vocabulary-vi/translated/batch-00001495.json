@@ -1,0 +1,588 @@
+[
+  {
+    "vocabulary_id": 38442,
+    "word": "代用肉",
+    "kana": "だいようにく",
+    "senses": [
+      {
+        "sense_id": 267300,
+        "meaning_vi": "thịt thay thế; thịt tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "thịt thay thế",
+          "thịt tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thịt thay thế; thịt tương tự",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267301,
+        "meaning_vi": "thịt rẻ hơn được sử dụng thay cho thịt bò hoặc thịt lợn",
+        "confidence": "high",
+        "search_keywords": [
+          "thịt rẻ hơn được sử dụng thay cho thịt bò hoặc thịt lợn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thịt rẻ hơn được sử dụng thay cho thịt bò hoặc thịt lợn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38443,
+    "word": "代用品",
+    "kana": "だいようひん",
+    "senses": [
+      {
+        "sense_id": 267302,
+        "meaning_vi": "thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38444,
+    "word": "代理",
+    "kana": "だいり",
+    "senses": [
+      {
+        "sense_id": 267303,
+        "meaning_vi": "đại diện; hãng; người đại diện",
+        "confidence": "high",
+        "search_keywords": [
+          "đại diện",
+          "hãng",
+          "người đại diện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại diện; hãng; người đại diện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267304,
+        "meaning_vi": "ủy quyền; đại lý; tiêu biểu; phó; thay thế; người thay thế; thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy quyền",
+          "đại lý",
+          "tiêu biểu",
+          "phó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy quyền; đại lý; tiêu biểu; phó; thay thế; người thay thế; thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38445,
+    "word": "代理委任状",
+    "kana": "だいりいにんじょう",
+    "senses": [
+      {
+        "sense_id": 267305,
+        "meaning_vi": "giấy ủy quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy ủy quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy ủy quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38446,
+    "word": "代理業",
+    "kana": "だいりぎょう",
+    "senses": [
+      {
+        "sense_id": 267306,
+        "meaning_vi": "cơ quan",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ quan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ quan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38447,
+    "word": "代理業者",
+    "kana": "だいりぎょうしゃ",
+    "senses": [
+      {
+        "sense_id": 267307,
+        "meaning_vi": "đại lý",
+        "confidence": "high",
+        "search_keywords": [
+          "đại lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38448,
+    "word": "代理権",
+    "kana": "だいりけん",
+    "senses": [
+      {
+        "sense_id": 267308,
+        "meaning_vi": "hãng; (luật sư) quyền đại diện",
+        "confidence": "high",
+        "search_keywords": [
+          "hãng",
+          "(luật sư) quyền đại diện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hãng; (luật sư) quyền đại diện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38449,
+    "word": "代理公使",
+    "kana": "だいりこうし",
+    "senses": [
+      {
+        "sense_id": 267309,
+        "meaning_vi": "đại biện lâm thời; người phụ trách",
+        "confidence": "high",
+        "search_keywords": [
+          "đại biện lâm thời",
+          "người phụ trách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại biện lâm thời; người phụ trách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38450,
+    "word": "代理者",
+    "kana": "だいりしゃ",
+    "senses": [
+      {
+        "sense_id": 267310,
+        "meaning_vi": "ủy quyền; đại lý; thay thế; phó; luân phiên; tiêu biểu; luật sư",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy quyền",
+          "đại lý",
+          "thay thế",
+          "phó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy quyền; đại lý; thay thế; phó; luân phiên; tiêu biểu; luật sư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38451,
+    "word": "代理人",
+    "kana": "だいりにん",
+    "senses": [
+      {
+        "sense_id": 267311,
+        "meaning_vi": "ủy quyền; đại lý; thay thế; phó; luân phiên; tiêu biểu; luật sư",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy quyền",
+          "đại lý",
+          "thay thế",
+          "phó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy quyền; đại lý; thay thế; phó; luân phiên; tiêu biểu; luật sư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38452,
+    "word": "代理大使",
+    "kana": "だいりたいし",
+    "senses": [
+      {
+        "sense_id": 267312,
+        "meaning_vi": "đại biện của đại sứ quán",
+        "confidence": "high",
+        "search_keywords": [
+          "đại biện của đại sứ quán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại biện của đại sứ quán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38453,
+    "word": "代理店",
+    "kana": "だいりてん",
+    "senses": [
+      {
+        "sense_id": 267313,
+        "meaning_vi": "hãng; đại lý",
+        "confidence": "high",
+        "search_keywords": [
+          "hãng",
+          "đại lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hãng; đại lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38454,
+    "word": "代理投票",
+    "kana": "だいりとうひょう",
+    "senses": [
+      {
+        "sense_id": 267314,
+        "meaning_vi": "bỏ phiếu bằng proxy",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ phiếu bằng proxy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ phiếu bằng proxy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38455,
+    "word": "代理部",
+    "kana": "だいりぶ",
+    "senses": [
+      {
+        "sense_id": 267315,
+        "meaning_vi": "bộ phận đặt hàng qua thư; cửa hàng chi nhánh",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ phận đặt hàng qua thư",
+          "cửa hàng chi nhánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ phận đặt hàng qua thư; cửa hàng chi nhánh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38456,
+    "word": "代理牧師",
+    "kana": "だいりぼくし",
+    "senses": [
+      {
+        "sense_id": 267316,
+        "meaning_vi": "mục sư",
+        "confidence": "high",
+        "search_keywords": [
+          "mục sư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục sư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38457,
+    "word": "代理領事",
+    "kana": "だいりりょうじ",
+    "senses": [
+      {
+        "sense_id": 267317,
+        "meaning_vi": "quyền lãnh sự",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền lãnh sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền lãnh sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38458,
+    "word": "代赭",
+    "kana": "たいしゃ",
+    "senses": [
+      {
+        "sense_id": 267318,
+        "meaning_vi": "đất son đỏ (đất son)",
+        "confidence": "high",
+        "search_keywords": [
+          "đất son đỏ (đất son)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đất son đỏ (đất son)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38459,
+    "word": "代赭色",
+    "kana": "たいしゃいろ",
+    "senses": [
+      {
+        "sense_id": 267319,
+        "meaning_vi": "màu nâu vàng",
+        "confidence": "high",
+        "search_keywords": [
+          "màu nâu vàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu nâu vàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38460,
+    "word": "台",
+    "kana": "だい",
+    "senses": [
+      {
+        "sense_id": 267320,
+        "meaning_vi": "đứng; nghỉ ngơi; căn cứ; đôn; nền tảng; bàn; người giữ; ủng hộ; giá đỡ",
+        "confidence": "high",
+        "search_keywords": [
+          "đứng",
+          "nghỉ ngơi",
+          "căn cứ",
+          "đôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đứng; nghỉ ngơi; căn cứ; đôn; nền tảng; bàn; người giữ; ủng hộ; giá đỡ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267321,
+        "meaning_vi": "đính (của một viên ngọc); gắn",
+        "confidence": "high",
+        "search_keywords": [
+          "đính (của một viên ngọc)",
+          "gắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đính (của một viên ngọc); gắn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267322,
+        "meaning_vi": "gốc (trong quá trình ghép)",
+        "confidence": "high",
+        "search_keywords": [
+          "gốc (trong quá trình ghép)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gốc (trong quá trình ghép)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267323,
+        "meaning_vi": "quầy cho máy móc và xe cộ",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy cho máy móc và xe cộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy cho máy móc và xe cộ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267324,
+        "meaning_vi": "mức độ (ví dụ: mức giá); đánh dấu; phạm vi; thập kỷ (của cuộc đời)",
+        "confidence": "high",
+        "search_keywords": [
+          "mức độ (ví dụ: mức giá)",
+          "đánh dấu",
+          "phạm vi",
+          "thập kỷ (của cuộc đời)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mức độ (ví dụ: mức giá); đánh dấu; phạm vi; thập kỷ (của cuộc đời)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267325,
+        "meaning_vi": "nhà cao tầng (có tầm nhìn đẹp); nền tảng (quan sát)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà cao tầng (có tầm nhìn đẹp)",
+          "nền tảng (quan sát)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà cao tầng (có tầm nhìn đẹp); nền tảng (quan sát)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 267326,
+        "meaning_vi": "cao nguyên; độ cao",
+        "confidence": "high",
+        "search_keywords": [
+          "cao nguyên",
+          "độ cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cao nguyên; độ cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 38461,
+    "word": "台下",
+    "kana": "だいか",
+    "senses": [
+      {
+        "sense_id": 267327,
+        "meaning_vi": "danh dự của bạn (danh dự); danh dự (danh dự) của anh ấy (hoặc cô ấy)",
+        "confidence": "high",
+        "search_keywords": [
+          "danh dự của bạn (danh dự)",
+          "danh dự (danh dự) của anh ấy (hoặc cô ấy)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh dự của bạn (danh dự); danh dự (danh dự) của anh ấy (hoặc cô ấy)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

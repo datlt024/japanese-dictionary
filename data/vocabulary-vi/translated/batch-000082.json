@@ -1,481 +1,444 @@
 [
-{
-"vocabulary_id": 2282,
-"word": "ウエハース",
-"kana": "ウエハース",
-"senses": [
-{
-"sense_id": 220516,
-"meaning_vi": "bánh xốp wafer",
-"confidence": "high",
-"search_keywords": [
-"bánh xốp wafer",
-"bánh wafer",
-"bánh xốp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bánh xốp mỏng, giòn, thường có nhiều lớp nhân",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2283,
-"word": "ウェルカム",
-"kana": "ウェルカム",
-"senses": [
-{
-"sense_id": 220517,
-"meaning_vi": "chào mừng",
-"confidence": "high",
-"search_keywords": [
-"chào mừng",
-"hoan nghênh",
-"welcome"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự chào mừng hoặc hoan nghênh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2284,
-"word": "ウォーカソン",
-"kana": "ウォーカソン",
-"senses": [
-{
-"sense_id": 220518,
-"meaning_vi": "đi bộ gây quỹ",
-"confidence": "high",
-"search_keywords": [
-"đi bộ gây quỹ",
-"walkathon",
-"sự kiện đi bộ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự kiện đi bộ đường dài nhằm gây quỹ hoặc vận động cộng đồng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2285,
-"word": "ウォーキートーキー",
-"kana": "ウォーキートーキー",
-"senses": [
-{
-"sense_id": 220519,
-"meaning_vi": "bộ đàm",
-"confidence": "high",
-"search_keywords": [
-"bộ đàm",
-"máy bộ đàm",
-"walkie-talkie"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị liên lạc vô tuyến cầm tay hai chiều",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2286,
-"word": "ウォーキールッキー",
-"kana": "ウォーキールッキー",
-"senses": [
-{
-"sense_id": 220520,
-"meaning_vi": "thiết bị truyền hình cầm tay",
-"confidence": "medium",
-"search_keywords": [
-"thiết bị truyền hình cầm tay",
-"walkie-lookie",
-"bộ đàm hình ảnh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị liên lạc cầm tay có truyền hình ảnh hoặc video",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2287,
-"word": "ウォーキングシューズ",
-"kana": "ウォーキングシューズ",
-"senses": [
-{
-"sense_id": 220521,
-"meaning_vi": "giày đi bộ",
-"confidence": "high",
-"search_keywords": [
-"giày đi bộ",
-"walking shoes",
-"giày walking"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giày thiết kế để đi bộ thoải mái",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2288,
-"word": "ウォーキングディクショナリー",
-"kana": "ウォーキングディクショナリー",
-"senses": [
-{
-"sense_id": 220522,
-"meaning_vi": "từ điển sống",
-"confidence": "high",
-"search_keywords": [
-"từ điển sống",
-"người biết nhiều",
-"walking dictionary"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người có vốn kiến thức rất rộng, như một cuốn từ điển sống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2289,
-"word": "ウォークスルー",
-"kana": "ウォークスルー",
-"senses": [
-{
-"sense_id": 220523,
-"meaning_vi": "rà soát từng bước",
-"confidence": "high",
-"search_keywords": [
-"rà soát từng bước",
-"walkthrough",
-"duyệt từng bước"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phương pháp xem xét quy trình, thiết kế hoặc mã nguồn theo từng bước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2290,
-"word": "ウォークライ",
-"kana": "ウォークライ",
-"senses": [
-{
-"sense_id": 220524,
-"meaning_vi": "tiếng hô xung trận",
-"confidence": "high",
-"search_keywords": [
-"tiếng hô xung trận",
-"tiếng hô chiến đấu",
-"war cry"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiếng hô dùng để cổ vũ tinh thần trước hoặc trong chiến đấu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2291,
-"word": "ウォークラリー",
-"kana": "ウォークラリー",
-"senses": [
-{
-"sense_id": 220525,
-"meaning_vi": "đi bộ định hướng",
-"confidence": "medium",
-"search_keywords": [
-"đi bộ định hướng",
-"walk rally",
-"rally đi bộ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hoạt động đi bộ theo tuyến, thường có điểm kiểm tra hoặc nhiệm vụ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2292,
-"word": "ウォーゲーム",
-"kana": "ウォーゲーム",
-"senses": [
-{
-"sense_id": 220526,
-"meaning_vi": "trò chơi chiến tranh",
-"confidence": "high",
-"search_keywords": [
-"trò chơi chiến tranh",
-"war game",
-"mô phỏng chiến tranh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trò chơi hoặc mô phỏng chiến thuật chiến tranh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2293,
-"word": "ウォーターカラー",
-"kana": "ウォーターカラー",
-"senses": [
-{
-"sense_id": 220527,
-"meaning_vi": "màu nước",
-"confidence": "high",
-"search_keywords": [
-"màu nước",
-"tranh màu nước",
-"watercolor"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "màu nước hoặc tranh vẽ bằng màu nước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2294,
-"word": "ウォータークーラー",
-"kana": "ウォータークーラー",
-"senses": [
-{
-"sense_id": 220528,
-"meaning_vi": "máy làm mát nước",
-"confidence": "high",
-"search_keywords": [
-"máy làm mát nước",
-"cây nước lạnh",
-"water cooler"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị làm lạnh hoặc cung cấp nước uống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2295,
-"word": "ウォータークロゼット",
-"kana": "ウォータークロゼット",
-"senses": [
-{
-"sense_id": 220529,
-"meaning_vi": "nhà vệ sinh",
-"confidence": "high",
-"search_keywords": [
-"nhà vệ sinh",
-"bồn cầu",
-"water closet"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhà vệ sinh hoặc bồn cầu xả nước",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2296,
-"word": "ウォーターシュート",
-"kana": "ウォーターシュート",
-"senses": [
-{
-"sense_id": 220530,
-"meaning_vi": "máng trượt nước",
-"confidence": "high",
-"search_keywords": [
-"máng trượt nước",
-"đường trượt nước",
-"water chute"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trò chơi hoặc máng trượt dùng nước trong công viên giải trí",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2297,
-"word": "ウォータータイト",
-"kana": "ウォータータイト",
-"senses": [
-{
-"sense_id": 220531,
-"meaning_vi": "kín nước",
-"confidence": "high",
-"search_keywords": [
-"kín nước",
-"chống thấm nước",
-"watertight"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "được làm kín để nước không lọt qua",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2298,
-"word": "ウォーターハザード",
-"kana": "ウォーターハザード",
-"senses": [
-{
-"sense_id": 220532,
-"meaning_vi": "chướng ngại nước",
-"confidence": "high",
-"search_keywords": [
-"chướng ngại nước",
-"water hazard",
-"hồ nước sân golf"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chướng ngại nước như hồ, ao, suối trong sân golf",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2299,
-"word": "ウォーターフォール",
-"kana": "ウォーターフォール",
-"senses": [
-{
-"sense_id": 220533,
-"meaning_vi": "thác nước",
-"confidence": "high",
-"search_keywords": [
-"thác nước",
-"waterfall"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dòng nước đổ từ trên cao xuống",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2300,
-"word": "ウォーターフロント",
-"kana": "ウォーターフロント",
-"senses": [
-{
-"sense_id": 220534,
-"meaning_vi": "khu ven sông biển",
-"confidence": "high",
-"search_keywords": [
-"khu ven sông biển",
-"bờ nước",
-"waterfront"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khu vực nằm sát bờ sông, hồ hoặc biển",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2301,
-"word": "ウォータープルーフ",
-"kana": "ウォータープルーフ",
-"senses": [
-{
-"sense_id": 220535,
-"meaning_vi": "chống nước",
-"confidence": "high",
-"search_keywords": [
-"chống nước",
-"không thấm nước",
-"waterproof"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có khả năng không thấm nước hoặc chịu nước",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2282,
+    "word": "ウエハース",
+    "kana": "ウエハース",
+    "senses": [
+      {
+        "sense_id": 220516,
+        "meaning_vi": "bánh xốp",
+        "confidence": "high",
+        "search_keywords": [
+          "bánh xốp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bánh xốp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2283,
+    "word": "ウェルカム",
+    "kana": "ウェルカム",
+    "senses": [
+      {
+        "sense_id": 220517,
+        "meaning_vi": "chào mừng",
+        "confidence": "high",
+        "search_keywords": [
+          "chào mừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chào mừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2284,
+    "word": "ウォーカソン",
+    "kana": "ウォーカソン",
+    "senses": [
+      {
+        "sense_id": 220518,
+        "meaning_vi": "cuộc thi đi bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc thi đi bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc thi đi bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2285,
+    "word": "ウォーキートーキー",
+    "kana": "ウォーキートーキー",
+    "senses": [
+      {
+        "sense_id": 220519,
+        "meaning_vi": "máy bộ đàm",
+        "confidence": "high",
+        "search_keywords": [
+          "máy bộ đàm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy bộ đàm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2286,
+    "word": "ウォーキールッキー",
+    "kana": "ウォーキールッキー",
+    "senses": [
+      {
+        "sense_id": 220520,
+        "meaning_vi": "bộ đàm",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đàm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đàm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2287,
+    "word": "ウォーキングシューズ",
+    "kana": "ウォーキングシューズ",
+    "senses": [
+      {
+        "sense_id": 220521,
+        "meaning_vi": "giày đi bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "giày đi bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giày đi bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2288,
+    "word": "ウォーキングディクショナリー",
+    "kana": "ウォーキングディクショナリー",
+    "senses": [
+      {
+        "sense_id": 220522,
+        "meaning_vi": "từ điển đi bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "từ điển đi bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ điển đi bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2289,
+    "word": "ウォークスルー",
+    "kana": "ウォークスルー",
+    "senses": [
+      {
+        "sense_id": 220523,
+        "meaning_vi": "(có cấu trúc) đi qua",
+        "confidence": "high",
+        "search_keywords": [
+          "(có cấu trúc) đi qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(có cấu trúc) đi qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2290,
+    "word": "ウォークライ",
+    "kana": "ウォークライ",
+    "senses": [
+      {
+        "sense_id": 220524,
+        "meaning_vi": "tiếng kêu chiến tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng kêu chiến tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng kêu chiến tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2291,
+    "word": "ウォークラリー",
+    "kana": "ウォークラリー",
+    "senses": [
+      {
+        "sense_id": 220525,
+        "meaning_vi": "cuộc biểu tình đi bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc biểu tình đi bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc biểu tình đi bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2292,
+    "word": "ウォーゲーム",
+    "kana": "ウォーゲーム",
+    "senses": [
+      {
+        "sense_id": 220526,
+        "meaning_vi": "trò chơi chiến tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "trò chơi chiến tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trò chơi chiến tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2293,
+    "word": "ウォーターカラー",
+    "kana": "ウォーターカラー",
+    "senses": [
+      {
+        "sense_id": 220527,
+        "meaning_vi": "màu nước; màu nước",
+        "confidence": "high",
+        "search_keywords": [
+          "màu nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu nước; màu nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2294,
+    "word": "ウォータークーラー",
+    "kana": "ウォータークーラー",
+    "senses": [
+      {
+        "sense_id": 220528,
+        "meaning_vi": "máy làm mát nước; nước mát",
+        "confidence": "high",
+        "search_keywords": [
+          "máy làm mát nước",
+          "nước mát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy làm mát nước; nước mát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2295,
+    "word": "ウォータークロゼット",
+    "kana": "ウォータークロゼット",
+    "senses": [
+      {
+        "sense_id": 220529,
+        "meaning_vi": "tủ đựng nước",
+        "confidence": "high",
+        "search_keywords": [
+          "tủ đựng nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tủ đựng nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2296,
+    "word": "ウォーターシュート",
+    "kana": "ウォーターシュート",
+    "senses": [
+      {
+        "sense_id": 220530,
+        "meaning_vi": "bắn máng (đi nước); máng nước",
+        "confidence": "high",
+        "search_keywords": [
+          "bắn máng (đi nước)",
+          "máng nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắn máng (đi nước); máng nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2297,
+    "word": "ウォータータイト",
+    "kana": "ウォータータイト",
+    "senses": [
+      {
+        "sense_id": 220531,
+        "meaning_vi": "kín nước",
+        "confidence": "high",
+        "search_keywords": [
+          "kín nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kín nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2298,
+    "word": "ウォーターハザード",
+    "kana": "ウォーターハザード",
+    "senses": [
+      {
+        "sense_id": 220532,
+        "meaning_vi": "mối nguy hiểm về nước",
+        "confidence": "high",
+        "search_keywords": [
+          "mối nguy hiểm về nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mối nguy hiểm về nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2299,
+    "word": "ウォーターフォール",
+    "kana": "ウォーターフォール",
+    "senses": [
+      {
+        "sense_id": 220533,
+        "meaning_vi": "thác nước",
+        "confidence": "high",
+        "search_keywords": [
+          "thác nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thác nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2300,
+    "word": "ウォーターフロント",
+    "kana": "ウォーターフロント",
+    "senses": [
+      {
+        "sense_id": 220534,
+        "meaning_vi": "bờ sông",
+        "confidence": "high",
+        "search_keywords": [
+          "bờ sông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bờ sông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2301,
+    "word": "ウォータープルーフ",
+    "kana": "ウォータープルーフ",
+    "senses": [
+      {
+        "sense_id": 220535,
+        "meaning_vi": "không thấm nước",
+        "confidence": "high",
+        "search_keywords": [
+          "không thấm nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thấm nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

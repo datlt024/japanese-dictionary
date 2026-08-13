@@ -11,7 +11,7 @@ async function fetcher(url: string): Promise<EnrichedNotebookItem[]> {
 }
 
 export function useNotebookItems(notebookId: string | null) {
-    const { data, isLoading, mutate } = useSWR<EnrichedNotebookItem[]>(
+    const { data, isLoading, error, mutate } = useSWR<EnrichedNotebookItem[]>(
         notebookId ? `/api/notebooks/${notebookId}/items` : null,
         fetcher,
         { revalidateOnFocus: false }
@@ -20,6 +20,7 @@ export function useNotebookItems(notebookId: string | null) {
     return {
         items: data ?? [],
         loading: isLoading,
+        error: error as Error | undefined,
         mutate,
     }
 }

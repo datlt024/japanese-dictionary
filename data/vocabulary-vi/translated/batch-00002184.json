@@ -1,0 +1,554 @@
+[
+  {
+    "vocabulary_id": 57377,
+    "word": "お気に入り",
+    "kana": "おきにいり",
+    "senses": [
+      {
+        "sense_id": 293403,
+        "meaning_vi": "yêu thích; yêu thích; thú cưng (ví dụ: thú cưng của giáo viên)",
+        "confidence": "high",
+        "search_keywords": [
+          "yêu thích",
+          "thú cưng (ví dụ: thú cưng của giáo viên)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yêu thích; yêu thích; thú cưng (ví dụ: thú cưng của giáo viên)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 293404,
+        "meaning_vi": "dấu trang (trong trình duyệt web)",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu trang (trong trình duyệt web)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu trang (trong trình duyệt web)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57378,
+    "word": "思いがけない",
+    "kana": "おもいがけない",
+    "senses": [
+      {
+        "sense_id": 293405,
+        "meaning_vi": "không ngờ tới; trái với mong đợi; tình cờ; bình thường",
+        "confidence": "high",
+        "search_keywords": [
+          "không ngờ tới",
+          "trái với mong đợi",
+          "tình cờ",
+          "bình thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không ngờ tới; trái với mong đợi; tình cờ; bình thường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57379,
+    "word": "齧る",
+    "kana": "かじる",
+    "senses": [
+      {
+        "sense_id": 293406,
+        "meaning_vi": "gặm nhấm; nhấm nháp; cắn; nhai ; để giòn",
+        "confidence": "high",
+        "search_keywords": [
+          "gặm nhấm",
+          "nhấm nháp",
+          "cắn",
+          "nhai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gặm nhấm; nhấm nháp; cắn; nhai ; để giòn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 293407,
+        "meaning_vi": "để vọc vào; để biết một chút về; để tìm hiểu một chút; để có một ít",
+        "confidence": "high",
+        "search_keywords": [
+          "để vọc vào",
+          "để biết một chút về",
+          "để tìm hiểu một chút",
+          "để có một ít"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để vọc vào; để biết một chút về; để tìm hiểu một chút; để có một ít",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57380,
+    "word": "硬さ",
+    "kana": "かたさ",
+    "senses": [
+      {
+        "sense_id": 293408,
+        "meaning_vi": "độ cứng; độ cứng; độ cứng; trung thực",
+        "confidence": "high",
+        "search_keywords": [
+          "độ cứng",
+          "trung thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ cứng; độ cứng; độ cứng; trung thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57381,
+    "word": "口喧嘩",
+    "kana": "くちげんか",
+    "senses": [
+      {
+        "sense_id": 293409,
+        "meaning_vi": "cãi nhau; tranh luận; lý lẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "cãi nhau",
+          "tranh luận",
+          "lý lẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cãi nhau; tranh luận; lý lẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57382,
+    "word": "小売り店",
+    "kana": "こうりてん",
+    "senses": [
+      {
+        "sense_id": 293410,
+        "meaning_vi": "cửa hàng bán lẻ; cửa hàng bán lẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa hàng bán lẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa hàng bán lẻ; cửa hàng bán lẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57383,
+    "word": "診療所",
+    "kana": "しんりょうじょ",
+    "senses": [
+      {
+        "sense_id": 293411,
+        "meaning_vi": "phòng khám; văn phòng y tế; bệnh xá",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng khám",
+          "văn phòng y tế",
+          "bệnh xá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng khám; văn phòng y tế; bệnh xá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57384,
+    "word": "据え置き",
+    "kana": "すえおき",
+    "senses": [
+      {
+        "sense_id": 293412,
+        "meaning_vi": "hoãn lại (ví dụ như tiết kiệm); để lại (một vật) như nó đứng",
+        "confidence": "high",
+        "search_keywords": [
+          "hoãn lại (ví dụ như tiết kiệm)",
+          "để lại (một vật) như nó đứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoãn lại (ví dụ như tiết kiệm); để lại (một vật) như nó đứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 293413,
+        "meaning_vi": "không được cứu chuộc; không thể chuộc lại được; không thể tha thứ được; hoãn lại; văn phòng phẩm",
+        "confidence": "high",
+        "search_keywords": [
+          "không được cứu chuộc",
+          "không thể chuộc lại được",
+          "không thể tha thứ được",
+          "hoãn lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không được cứu chuộc; không thể chuộc lại được; không thể tha thứ được; hoãn lại; văn phòng phẩm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57385,
+    "word": "是非とも",
+    "kana": "ぜひとも",
+    "senses": [
+      {
+        "sense_id": 293414,
+        "meaning_vi": "bằng mọi cách; bằng mọi giá; tuyệt đối",
+        "confidence": "high",
+        "search_keywords": [
+          "bằng mọi cách",
+          "bằng mọi giá",
+          "tuyệt đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bằng mọi cách; bằng mọi giá; tuyệt đối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57386,
+    "word": "楯突く",
+    "kana": "たてつく",
+    "senses": [
+      {
+        "sense_id": 293415,
+        "meaning_vi": "thách thức; không vâng lời; nổi dậy chống lại; phản đối ; chống lại",
+        "confidence": "high",
+        "search_keywords": [
+          "thách thức",
+          "không vâng lời",
+          "nổi dậy chống lại",
+          "phản đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thách thức; không vâng lời; nổi dậy chống lại; phản đối ; chống lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57387,
+    "word": "立て直す",
+    "kana": "たてなおす",
+    "senses": [
+      {
+        "sense_id": 293416,
+        "meaning_vi": "để đưa trở lại; đứng dậy trở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để đưa trở lại",
+          "đứng dậy trở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đưa trở lại; đứng dậy trở lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 293417,
+        "meaning_vi": "để khôi phục (trở lại sức mạnh trước đây); để hồi sinh (ví dụ: nền kinh tế); tổ chức lại; sắp xếp lại; để đặt đúng; để phục hồi; để đặt lại trên đôi chân của mình",
+        "confidence": "high",
+        "search_keywords": [
+          "để khôi phục (trở lại sức mạnh trước đây)",
+          "để hồi sinh (ví dụ: nền kinh tế)",
+          "tổ chức lại",
+          "sắp xếp lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để khôi phục (trở lại sức mạnh trước đây); để hồi sinh (ví dụ: nền kinh tế); tổ chức lại; sắp xếp lại; để đặt đúng; để phục hồi; để đặt lại trên đôi chân của mình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 293418,
+        "meaning_vi": "thực hiện lại (một kế hoạch, chính sách, v.v.); cải cách; sửa lại",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện lại (một kế hoạch, chính sách, v.v.)",
+          "cải cách",
+          "sửa lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện lại (một kế hoạch, chính sách, v.v.); cải cách; sửa lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57388,
+    "word": "立て札",
+    "kana": "たてふだ",
+    "senses": [
+      {
+        "sense_id": 293419,
+        "meaning_vi": "ký tên trên một cột (thường bằng gỗ và có mái nhỏ, chứa thông tin về cảnh tượng, cảnh báo, lời chúc mừng, v.v.); thông báo công khai; bảng thông báo; bảng thông báo",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tên trên một cột (thường bằng gỗ và có mái nhỏ, chứa thông tin về cảnh tượng, cảnh báo, lời chúc mừng, v.v.)",
+          "thông báo công khai",
+          "bảng thông báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tên trên một cột (thường bằng gỗ và có mái nhỏ, chứa thông tin về cảnh tượng, cảnh báo, lời chúc mừng, v.v.); thông báo công khai; bảng thông báo; bảng thông báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57389,
+    "word": "違いない",
+    "kana": "ちがいない",
+    "senses": [
+      {
+        "sense_id": 293420,
+        "meaning_vi": "Chắc chắn; không nhầm đâu; chắc chắn; không còn nghi ngờ gì nữa",
+        "confidence": "high",
+        "search_keywords": [
+          "Chắc chắn",
+          "không nhầm đâu",
+          "chắc chắn",
+          "không còn nghi ngờ gì nữa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chắc chắn; không nhầm đâu; chắc chắn; không còn nghi ngờ gì nữa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57390,
+    "word": "爪切り",
+    "kana": "つめきり",
+    "senses": [
+      {
+        "sense_id": 293421,
+        "meaning_vi": "cắt móng tay",
+        "confidence": "high",
+        "search_keywords": [
+          "cắt móng tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cắt móng tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57391,
+    "word": "アイスコーヒー",
+    "kana": "アイスコーヒー",
+    "senses": [
+      {
+        "sense_id": 293422,
+        "meaning_vi": "cà phê đá",
+        "confidence": "high",
+        "search_keywords": [
+          "cà phê đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cà phê đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57392,
+    "word": "イスラム教",
+    "kana": "イスラムきょう",
+    "senses": [
+      {
+        "sense_id": 293423,
+        "meaning_vi": "Hồi giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "Hồi giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hồi giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57393,
+    "word": "ガラス戸",
+    "kana": "ガラスど",
+    "senses": [
+      {
+        "sense_id": 293424,
+        "meaning_vi": "cửa kính",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa kính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa kính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57394,
+    "word": "カレーライス",
+    "kana": "カレーライス",
+    "senses": [
+      {
+        "sense_id": 293425,
+        "meaning_vi": "cà ri và cơm; cơm và cà ri; cơm cà ri",
+        "confidence": "high",
+        "search_keywords": [
+          "cà ri và cơm",
+          "cơm và cà ri",
+          "cơm cà ri"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cà ri và cơm; cơm và cà ri; cơm cà ri",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57395,
+    "word": "シャンソン",
+    "kana": "シャンソン",
+    "senses": [
+      {
+        "sense_id": 293426,
+        "meaning_vi": "chanson",
+        "confidence": "low",
+        "search_keywords": [
+          "chanson"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chanson",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 57396,
+    "word": "セ氏",
+    "kana": "セし",
+    "senses": [
+      {
+        "sense_id": 293427,
+        "meaning_vi": "độ C; độ C",
+        "confidence": "high",
+        "search_keywords": [
+          "độ C"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ C; độ C",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

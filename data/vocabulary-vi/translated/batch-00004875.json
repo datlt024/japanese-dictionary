@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 117883,
+    "word": "イベントプロバイダ",
+    "kana": "イベントプロバイダ",
+    "senses": [
+      {
+        "sense_id": 361409,
+        "meaning_vi": "nhà cung cấp sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà cung cấp sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà cung cấp sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117884,
+    "word": "イベントプロパティ",
+    "kana": "イベントプロパティ",
+    "senses": [
+      {
+        "sense_id": 361410,
+        "meaning_vi": "thuộc tính sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117885,
+    "word": "イベントログ",
+    "kana": "イベントログ",
+    "senses": [
+      {
+        "sense_id": 361411,
+        "meaning_vi": "nhật ký sự kiện; ghi nhật ký sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "nhật ký sự kiện",
+          "ghi nhật ký sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhật ký sự kiện; ghi nhật ký sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117886,
+    "word": "イベントログエントリー",
+    "kana": "イベントログエントリー",
+    "senses": [
+      {
+        "sense_id": 361412,
+        "meaning_vi": "mục nhật ký sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "mục nhật ký sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục nhật ký sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117887,
+    "word": "イベント駆動",
+    "kana": "イベントくどう",
+    "senses": [
+      {
+        "sense_id": 361413,
+        "meaning_vi": "hướng sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117888,
+    "word": "イベント駆動型",
+    "kana": "イベントくどうがた",
+    "senses": [
+      {
+        "sense_id": 361414,
+        "meaning_vi": "hướng sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117889,
+    "word": "イベント指定子",
+    "kana": "イベントしていし",
+    "senses": [
+      {
+        "sense_id": 361415,
+        "meaning_vi": "mô tả sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "mô tả sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô tả sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117890,
+    "word": "イベント処理",
+    "kana": "イベントしょり",
+    "senses": [
+      {
+        "sense_id": 361416,
+        "meaning_vi": "xử lý sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117891,
+    "word": "イベント報告",
+    "kana": "イベントほうこく",
+    "senses": [
+      {
+        "sense_id": 361417,
+        "meaning_vi": "báo cáo sự kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo sự kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo sự kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117892,
+    "word": "イメージサイズ",
+    "kana": "イメージサイズ",
+    "senses": [
+      {
+        "sense_id": 361418,
+        "meaning_vi": "kích thước hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117893,
+    "word": "イメージセッター",
+    "kana": "イメージセッター",
+    "senses": [
+      {
+        "sense_id": 361419,
+        "meaning_vi": "người tạo hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "người tạo hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người tạo hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117894,
+    "word": "イメージデータ",
+    "kana": "イメージデータ",
+    "senses": [
+      {
+        "sense_id": 361420,
+        "meaning_vi": "dữ liệu hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117895,
+    "word": "イメージバッファ",
+    "kana": "イメージバッファ",
+    "senses": [
+      {
+        "sense_id": 361421,
+        "meaning_vi": "bộ đệm hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đệm hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đệm hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117896,
+    "word": "イメージマップ",
+    "kana": "イメージマップ",
+    "senses": [
+      {
+        "sense_id": 361422,
+        "meaning_vi": "bản đồ hình ảnh (hình ảnh trên trang web có các khu vực có thể nhấp vào)",
+        "confidence": "high",
+        "search_keywords": [
+          "bản đồ hình ảnh (hình ảnh trên trang web có các khu vực có thể nhấp vào)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản đồ hình ảnh (hình ảnh trên trang web có các khu vực có thể nhấp vào)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117897,
+    "word": "イメージング",
+    "kana": "イメージング",
+    "senses": [
+      {
+        "sense_id": 361423,
+        "meaning_vi": "hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117898,
+    "word": "イメージ処理",
+    "kana": "イメージしょり",
+    "senses": [
+      {
+        "sense_id": 361424,
+        "meaning_vi": "xử lý hình ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý hình ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý hình ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117899,
+    "word": "インアクティブウィンドウ",
+    "kana": "インアクティブウィンドウ",
+    "senses": [
+      {
+        "sense_id": 361425,
+        "meaning_vi": "cửa sổ không hoạt động; IAW",
+        "confidence": "high",
+        "search_keywords": [
+          "cửa sổ không hoạt động",
+          "IAW"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cửa sổ không hoạt động; IAW",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117900,
+    "word": "インキュナブラ",
+    "kana": "インキュナブラ",
+    "senses": [
+      {
+        "sense_id": 361426,
+        "meaning_vi": "không thể chữa khỏi; lời nguyền",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể chữa khỏi",
+          "lời nguyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể chữa khỏi; lời nguyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117901,
+    "word": "インキング",
+    "kana": "インキング",
+    "senses": [
+      {
+        "sense_id": 361427,
+        "meaning_vi": "mực",
+        "confidence": "high",
+        "search_keywords": [
+          "mực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117902,
+    "word": "インクカートリッジ",
+    "kana": "インクカートリッジ",
+    "senses": [
+      {
+        "sense_id": 361428,
+        "meaning_vi": "hộp mực",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp mực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp mực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

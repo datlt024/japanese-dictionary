@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 124967,
+    "word": "全米情報インフラストラクチャ",
+    "kana": "ぜんべいじょうほうインフラストラクチャ",
+    "senses": [
+      {
+        "sense_id": 368606,
+        "meaning_vi": "Cơ sở hạ tầng thông tin quốc gia; NII",
+        "confidence": "high",
+        "search_keywords": [
+          "Cơ sở hạ tầng thông tin quốc gia",
+          "NII"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cơ sở hạ tầng thông tin quốc gia; NII",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124968,
+    "word": "疎結合",
+    "kana": "そけつごう",
+    "senses": [
+      {
+        "sense_id": 368607,
+        "meaning_vi": "kết nối lỏng lẻo",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối lỏng lẻo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối lỏng lẻo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124969,
+    "word": "疎結合システム",
+    "kana": "そけつごうシステム",
+    "senses": [
+      {
+        "sense_id": 368608,
+        "meaning_vi": "hệ thống liên kết lỏng lẻo",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống liên kết lỏng lẻo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống liên kết lỏng lẻo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124970,
+    "word": "疎結合マルチプロセッサ",
+    "kana": "そけつごうマルチプロセッサ",
+    "senses": [
+      {
+        "sense_id": 368609,
+        "meaning_vi": "Bộ đa xử lý được ghép nối lỏng lẻo",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ đa xử lý được ghép nối lỏng lẻo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ đa xử lý được ghép nối lỏng lẻo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124971,
+    "word": "組み合わせ回路",
+    "kana": "くみあわせかいろ",
+    "senses": [
+      {
+        "sense_id": 368610,
+        "meaning_vi": "mạch tổ hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch tổ hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch tổ hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124972,
+    "word": "組み込みコマンド",
+    "kana": "くみこみコマンド",
+    "senses": [
+      {
+        "sense_id": 368611,
+        "meaning_vi": "lệnh tích hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh tích hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh tích hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124973,
+    "word": "組み込みプロセッサ",
+    "kana": "くみこみプロセッサ",
+    "senses": [
+      {
+        "sense_id": 368612,
+        "meaning_vi": "bộ xử lý nhúng",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ xử lý nhúng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ xử lý nhúng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124974,
+    "word": "組合せ条件",
+    "kana": "くみあわせじょうけん",
+    "senses": [
+      {
+        "sense_id": 368613,
+        "meaning_vi": "điều kiện kết hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện kết hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện kết hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124975,
+    "word": "組始端",
+    "kana": "くみしたん",
+    "senses": [
+      {
+        "sense_id": 368614,
+        "meaning_vi": "vị trí ký tự đầu tiên của dòng",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí ký tự đầu tiên của dòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí ký tự đầu tiên của dòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124976,
+    "word": "組終端",
+    "kana": "くみしゅうたん",
+    "senses": [
+      {
+        "sense_id": 368615,
+        "meaning_vi": "vị trí ký tự cuối cùng của dòng",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí ký tự cuối cùng của dòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí ký tự cuối cùng của dòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124977,
+    "word": "組上り濃度",
+    "kana": "くみあがりのうど",
+    "senses": [
+      {
+        "sense_id": 368616,
+        "meaning_vi": "màu sắc kiểu chữ",
+        "confidence": "high",
+        "search_keywords": [
+          "màu sắc kiểu chữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu sắc kiểu chữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124978,
+    "word": "遡及書誌",
+    "kana": "そきゅうしょし",
+    "senses": [
+      {
+        "sense_id": 368617,
+        "meaning_vi": "thư mục hồi tưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "thư mục hồi tưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư mục hồi tưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124979,
+    "word": "双安定",
+    "kana": "そうあんてい",
+    "senses": [
+      {
+        "sense_id": 368618,
+        "meaning_vi": "có thể ăn được",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể ăn được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể ăn được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124980,
+    "word": "双安定トリガー回路",
+    "kana": "そうあんていトリガーかいろ",
+    "senses": [
+      {
+        "sense_id": 368619,
+        "meaning_vi": "mạch kích hoạt ổn định được",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch kích hoạt ổn định được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch kích hoạt ổn định được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124981,
+    "word": "双安定トリガ回路",
+    "kana": "そうあんていトリガかいろ",
+    "senses": [
+      {
+        "sense_id": 368620,
+        "meaning_vi": "mạch kích hoạt ổn định; dép xỏ ngón",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch kích hoạt ổn định",
+          "dép xỏ ngón"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch kích hoạt ổn định; dép xỏ ngón",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124982,
+    "word": "双安定回路",
+    "kana": "そうあんていかいろ",
+    "senses": [
+      {
+        "sense_id": 368621,
+        "meaning_vi": "mạch có thể ổn định (kích hoạt); dép xỏ ngón",
+        "confidence": "high",
+        "search_keywords": [
+          "mạch có thể ổn định (kích hoạt)",
+          "dép xỏ ngón"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạch có thể ổn định (kích hoạt); dép xỏ ngón",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124983,
+    "word": "双対演算",
+    "kana": "そうついえんざん",
+    "senses": [
+      {
+        "sense_id": 368622,
+        "meaning_vi": "hoạt động kép",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động kép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động kép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124984,
+    "word": "双方向ＣＡＴＶ",
+    "kana": "そうほうこうシーエーティーブイ",
+    "senses": [
+      {
+        "sense_id": 368623,
+        "meaning_vi": "CATV hai chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "CATV hai chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "CATV hai chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124985,
+    "word": "双方向印刷",
+    "kana": "そうほうこういんさつ",
+    "senses": [
+      {
+        "sense_id": 368624,
+        "meaning_vi": "in hai chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "in hai chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "in hai chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124986,
+    "word": "双方向性",
+    "kana": "そうほうこうせい",
+    "senses": [
+      {
+        "sense_id": 368625,
+        "meaning_vi": "tính hai chiều; tính tương tác",
+        "confidence": "high",
+        "search_keywords": [
+          "tính hai chiều",
+          "tính tương tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính hai chiều; tính tương tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

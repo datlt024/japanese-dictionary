@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 126984,
+    "word": "論理レベル",
+    "kana": "ろんりレベル",
+    "senses": [
+      {
+        "sense_id": 370634,
+        "meaning_vi": "mức logic",
+        "confidence": "high",
+        "search_keywords": [
+          "mức logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mức logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126985,
+    "word": "論理演算機構",
+    "kana": "ろんりえんざんきこう",
+    "senses": [
+      {
+        "sense_id": 370635,
+        "meaning_vi": "đơn vị logic",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126986,
+    "word": "論理演算子",
+    "kana": "ろんりえんざんし",
+    "senses": [
+      {
+        "sense_id": 370636,
+        "meaning_vi": "toán tử logic",
+        "confidence": "high",
+        "search_keywords": [
+          "toán tử logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán tử logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126987,
+    "word": "論理演算装置",
+    "kana": "ろんりえんざんそうち",
+    "senses": [
+      {
+        "sense_id": 370637,
+        "meaning_vi": "đơn vị logic; đơn vị số học và logic; ALU",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị logic",
+          "đơn vị số học và logic",
+          "ALU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị logic; đơn vị số học và logic; ALU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126988,
+    "word": "論理機構",
+    "kana": "ろんりきこう",
+    "senses": [
+      {
+        "sense_id": 370638,
+        "meaning_vi": "thiết bị logic",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126989,
+    "word": "論理記号",
+    "kana": "ろんりきごう",
+    "senses": [
+      {
+        "sense_id": 370639,
+        "meaning_vi": "ký hiệu logic",
+        "confidence": "high",
+        "search_keywords": [
+          "ký hiệu logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký hiệu logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126990,
+    "word": "論理型",
+    "kana": "ろんりがた",
+    "senses": [
+      {
+        "sense_id": 370640,
+        "meaning_vi": "kiểu Boolean",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu Boolean"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu Boolean",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126991,
+    "word": "論理型言語",
+    "kana": "ろんりがたげんご",
+    "senses": [
+      {
+        "sense_id": 370641,
+        "meaning_vi": "ngôn ngữ lập trình logic",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ lập trình logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ lập trình logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126992,
+    "word": "論理構成",
+    "kana": "ろんりこうせい",
+    "senses": [
+      {
+        "sense_id": 370642,
+        "meaning_vi": "bố cục, tổ chức hợp lý",
+        "confidence": "high",
+        "search_keywords": [
+          "bố cục, tổ chức hợp lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bố cục, tổ chức hợp lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126993,
+    "word": "論理構造",
+    "kana": "ろんりこうぞう",
+    "senses": [
+      {
+        "sense_id": 370643,
+        "meaning_vi": "cấu trúc logic",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126994,
+    "word": "論理構造編集処理",
+    "kana": "ろんりこうぞうへんしゅうしょり",
+    "senses": [
+      {
+        "sense_id": 370644,
+        "meaning_vi": "quá trình chỉnh sửa cấu trúc logic",
+        "confidence": "high",
+        "search_keywords": [
+          "quá trình chỉnh sửa cấu trúc logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình chỉnh sửa cấu trúc logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127001,
+    "word": "論理装置",
+    "kana": "ろんりそうち",
+    "senses": [
+      {
+        "sense_id": 370651,
+        "meaning_vi": "đơn vị logic",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127002,
+    "word": "論理対象体",
+    "kana": "ろんりたいしょうたい",
+    "senses": [
+      {
+        "sense_id": 370652,
+        "meaning_vi": "đối tượng logic",
+        "confidence": "high",
+        "search_keywords": [
+          "đối tượng logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối tượng logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127003,
+    "word": "論理対象体クラス",
+    "kana": "ろんりたいしょうたいクラス",
+    "senses": [
+      {
+        "sense_id": 370653,
+        "meaning_vi": "lớp đối tượng logic",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp đối tượng logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp đối tượng logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127004,
+    "word": "論理的否定",
+    "kana": "ろんりてきひてい",
+    "senses": [
+      {
+        "sense_id": 370654,
+        "meaning_vi": "sự phủ định logic",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phủ định logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phủ định logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127005,
+    "word": "論理入力装置",
+    "kana": "ろんりにゅうりょくそうち",
+    "senses": [
+      {
+        "sense_id": 370655,
+        "meaning_vi": "thiết bị đầu vào logic; giá trị đầu vào logic",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu vào logic",
+          "giá trị đầu vào logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu vào logic; giá trị đầu vào logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127006,
+    "word": "論理爆弾",
+    "kana": "ろんりばくだん",
+    "senses": [
+      {
+        "sense_id": 370656,
+        "meaning_vi": "bom logic",
+        "confidence": "high",
+        "search_keywords": [
+          "bom logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bom logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127007,
+    "word": "論理番号",
+    "kana": "ろんりばんごう",
+    "senses": [
+      {
+        "sense_id": 370657,
+        "meaning_vi": "số logic",
+        "confidence": "high",
+        "search_keywords": [
+          "số logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127008,
+    "word": "論理否定演算",
+    "kana": "ろんりひていえんざん",
+    "senses": [
+      {
+        "sense_id": 370658,
+        "meaning_vi": "KHÔNG hoạt động",
+        "confidence": "high",
+        "search_keywords": [
+          "KHÔNG hoạt động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "KHÔNG hoạt động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 127009,
+    "word": "論理比較",
+    "kana": "ろんりひかく",
+    "senses": [
+      {
+        "sense_id": 370659,
+        "meaning_vi": "so sánh logic",
+        "confidence": "high",
+        "search_keywords": [
+          "so sánh logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "so sánh logic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

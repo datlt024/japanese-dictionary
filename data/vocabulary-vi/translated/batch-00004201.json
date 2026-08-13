@@ -1,0 +1,460 @@
+[
+  {
+    "vocabulary_id": 102801,
+    "word": "閉塞性動脈硬化症",
+    "kana": "へいそくせいどうみゃくこうかしょう",
+    "senses": [
+      {
+        "sense_id": 344567,
+        "meaning_vi": "xơ cứng động mạch tắc nghẽn",
+        "confidence": "high",
+        "search_keywords": [
+          "xơ cứng động mạch tắc nghẽn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xơ cứng động mạch tắc nghẽn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102802,
+    "word": "脳血管障害",
+    "kana": "のうけっかんしょうがい",
+    "senses": [
+      {
+        "sense_id": 344568,
+        "meaning_vi": "bệnh mạch máu não",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh mạch máu não"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh mạch máu não",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102803,
+    "word": "血行不足",
+    "kana": "けっこうぶそく",
+    "senses": [
+      {
+        "sense_id": 344569,
+        "meaning_vi": "thiếu lưu lượng máu; tuần hoàn kém",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu lưu lượng máu",
+          "tuần hoàn kém"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu lưu lượng máu; tuần hoàn kém",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102804,
+    "word": "介護認定",
+    "kana": "かいごにんてい",
+    "senses": [
+      {
+        "sense_id": 344570,
+        "meaning_vi": "ủy quyền chăm sóc điều dưỡng",
+        "confidence": "high",
+        "search_keywords": [
+          "ủy quyền chăm sóc điều dưỡng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủy quyền chăm sóc điều dưỡng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102805,
+    "word": "ステント",
+    "kana": "ステント",
+    "senses": [
+      {
+        "sense_id": 344571,
+        "meaning_vi": "stent (ống hỗ trợ tạm thời được đặt bên trong mạch máu, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "stent (ống hỗ trợ tạm thời được đặt bên trong mạch máu, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "stent (ống hỗ trợ tạm thời được đặt bên trong mạch máu, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102806,
+    "word": "血管内",
+    "kana": "けっかんない",
+    "senses": [
+      {
+        "sense_id": 344572,
+        "meaning_vi": "nội mạch",
+        "confidence": "high",
+        "search_keywords": [
+          "nội mạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nội mạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102807,
+    "word": "要介護度",
+    "kana": "ようかいごど",
+    "senses": [
+      {
+        "sense_id": 344573,
+        "meaning_vi": "mức độ chăm sóc điều dưỡng (từ 1 đến 5 dựa trên đánh giá yêu cầu chăm sóc)",
+        "confidence": "high",
+        "search_keywords": [
+          "mức độ chăm sóc điều dưỡng (từ 1 đến 5 dựa trên đánh giá yêu cầu chăm sóc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mức độ chăm sóc điều dưỡng (từ 1 đến 5 dựa trên đánh giá yêu cầu chăm sóc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102808,
+    "word": "救急搬送",
+    "kana": "きゅうきゅうはんそう",
+    "senses": [
+      {
+        "sense_id": 344574,
+        "meaning_vi": "vận chuyển khẩn cấp; vận chuyển xe cứu thương",
+        "confidence": "high",
+        "search_keywords": [
+          "vận chuyển khẩn cấp",
+          "vận chuyển xe cứu thương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vận chuyển khẩn cấp; vận chuyển xe cứu thương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102809,
+    "word": "抗加齢ドック",
+    "kana": "こうかれいドック",
+    "senses": [
+      {
+        "sense_id": 344575,
+        "meaning_vi": "kiểm tra y tế tập trung chủ yếu vào các vấn đề trở nên trầm trọng hơn theo tuổi tác",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra y tế tập trung chủ yếu vào các vấn đề trở nên trầm trọng hơn theo tuổi tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra y tế tập trung chủ yếu vào các vấn đề trở nên trầm trọng hơn theo tuổi tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102810,
+    "word": "進行度",
+    "kana": "しんこうど",
+    "senses": [
+      {
+        "sense_id": 344576,
+        "meaning_vi": "tốc độ tiến triển",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ tiến triển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ tiến triển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102811,
+    "word": "酸化ストレス",
+    "kana": "さんかストレス",
+    "senses": [
+      {
+        "sense_id": 344577,
+        "meaning_vi": "căng thẳng oxy hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng oxy hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng oxy hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102812,
+    "word": "進み具合",
+    "kana": "すすみぐあい",
+    "senses": [
+      {
+        "sense_id": 344578,
+        "meaning_vi": "tình trạng tiến bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng tiến bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng tiến bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102813,
+    "word": "頸動脈エコー",
+    "kana": "けいどうみゃくエコー",
+    "senses": [
+      {
+        "sense_id": 344579,
+        "meaning_vi": "siêu âm động mạch cảnh; song động mạch cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "siêu âm động mạch cảnh",
+          "song động mạch cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêu âm động mạch cảnh; song động mạch cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102814,
+    "word": "予防医療",
+    "kana": "よぼういりょう",
+    "senses": [
+      {
+        "sense_id": 344580,
+        "meaning_vi": "thuốc phòng ngừa",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc phòng ngừa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc phòng ngừa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102815,
+    "word": "ウイルス性肝炎",
+    "kana": "ウイルスせいかんえん",
+    "senses": [
+      {
+        "sense_id": 344581,
+        "meaning_vi": "viêm gan siêu vi",
+        "confidence": "high",
+        "search_keywords": [
+          "viêm gan siêu vi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viêm gan siêu vi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102816,
+    "word": "フィブリノーゲン",
+    "kana": "フィブリノーゲン",
+    "senses": [
+      {
+        "sense_id": 344582,
+        "meaning_vi": "fibrinogen",
+        "confidence": "low",
+        "search_keywords": [
+          "fibrinogen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "fibrinogen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102817,
+    "word": "非加熱血液製剤",
+    "kana": "ひかねつけつえきせいざい",
+    "senses": [
+      {
+        "sense_id": 344583,
+        "meaning_vi": "sản phẩm máu chưa được xử lý (không được làm nóng)",
+        "confidence": "high",
+        "search_keywords": [
+          "sản phẩm máu chưa được xử lý (không được làm nóng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sản phẩm máu chưa được xử lý (không được làm nóng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102818,
+    "word": "肝癌",
+    "kana": "かんがん",
+    "senses": [
+      {
+        "sense_id": 344584,
+        "meaning_vi": "ung thư gan (đặc biệt là ung thư gan)",
+        "confidence": "high",
+        "search_keywords": [
+          "ung thư gan (đặc biệt là ung thư gan)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ung thư gan (đặc biệt là ung thư gan)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102819,
+    "word": "抗ウイルス剤",
+    "kana": "こうウイルスざい",
+    "senses": [
+      {
+        "sense_id": 344585,
+        "meaning_vi": "thuốc kháng virus",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc kháng virus"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc kháng virus",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 102820,
+    "word": "改良型",
+    "kana": "かいりょうがた",
+    "senses": [
+      {
+        "sense_id": 344586,
+        "meaning_vi": "phiên bản cải tiến",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên bản cải tiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên bản cải tiến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 344587,
+        "meaning_vi": "biến thể (của mầm bệnh)",
+        "confidence": "high",
+        "search_keywords": [
+          "biến thể (của mầm bệnh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến thể (của mầm bệnh)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

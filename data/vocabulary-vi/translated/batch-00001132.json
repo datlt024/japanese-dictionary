@@ -1,0 +1,544 @@
+[
+  {
+    "vocabulary_id": 28584,
+    "word": "指図",
+    "kana": "さしず",
+    "senses": [
+      {
+        "sense_id": 254004,
+        "meaning_vi": "hướng dẫn; hướng dẫn; mệnh lệnh; lệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn",
+          "mệnh lệnh",
+          "lệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn; hướng dẫn; mệnh lệnh; lệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28585,
+    "word": "指数",
+    "kana": "しすう",
+    "senses": [
+      {
+        "sense_id": 254005,
+        "meaning_vi": "chỉ mục; số chỉ mục; chỉ báo",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ mục",
+          "số chỉ mục",
+          "chỉ báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ mục; số chỉ mục; chỉ báo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254006,
+        "meaning_vi": "số mũ",
+        "confidence": "high",
+        "search_keywords": [
+          "số mũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số mũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28586,
+    "word": "指数関数",
+    "kana": "しすうかんすう",
+    "senses": [
+      {
+        "sense_id": 254007,
+        "meaning_vi": "hàm số mũ",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm số mũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm số mũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28587,
+    "word": "指数部",
+    "kana": "しすうぶ",
+    "senses": [
+      {
+        "sense_id": 254008,
+        "meaning_vi": "phần số mũ; đặc tính (ví dụ: trong biểu diễn dấu phẩy động)",
+        "confidence": "high",
+        "search_keywords": [
+          "phần số mũ",
+          "đặc tính (ví dụ: trong biểu diễn dấu phẩy động)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần số mũ; đặc tính (ví dụ: trong biểu diễn dấu phẩy động)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28588,
+    "word": "指先",
+    "kana": "ゆびさき",
+    "senses": [
+      {
+        "sense_id": 254009,
+        "meaning_vi": "đầu ngón tay; ngón tay",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu ngón tay",
+          "ngón tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu ngón tay; ngón tay",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254010,
+        "meaning_vi": "đầu ngón chân; ngón chân",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu ngón chân",
+          "ngón chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu ngón chân; ngón chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28589,
+    "word": "指弾",
+    "kana": "しだん",
+    "senses": [
+      {
+        "sense_id": 254011,
+        "meaning_vi": "chỉ trích; đổ tội; từ chối; khinh thường; khinh miệt",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ trích",
+          "đổ tội",
+          "từ chối",
+          "khinh thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ trích; đổ tội; từ chối; khinh thường; khinh miệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254012,
+        "meaning_vi": "búng nhẹ (ngón tay)",
+        "confidence": "high",
+        "search_keywords": [
+          "búng nhẹ (ngón tay)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "búng nhẹ (ngón tay)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28590,
+    "word": "指定",
+    "kana": "してい",
+    "senses": [
+      {
+        "sense_id": 254013,
+        "meaning_vi": "chỉ định; đặc điểm kỹ thuật; phân công; cuộc hẹn; chỉ vào",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ định",
+          "đặc điểm kỹ thuật",
+          "phân công",
+          "cuộc hẹn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ định; đặc điểm kỹ thuật; phân công; cuộc hẹn; chỉ vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28591,
+    "word": "指定券",
+    "kana": "していけん",
+    "senses": [
+      {
+        "sense_id": 254014,
+        "meaning_vi": "vé (ghế đặt trước)",
+        "confidence": "high",
+        "search_keywords": [
+          "vé (ghế đặt trước)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vé (ghế đặt trước)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28592,
+    "word": "指定席",
+    "kana": "していせき",
+    "senses": [
+      {
+        "sense_id": 254015,
+        "meaning_vi": "chỗ ngồi dành riêng",
+        "confidence": "high",
+        "search_keywords": [
+          "chỗ ngồi dành riêng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỗ ngồi dành riêng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28593,
+    "word": "指摘",
+    "kana": "してき",
+    "senses": [
+      {
+        "sense_id": 254016,
+        "meaning_vi": "chỉ ra; nhận dạng",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ ra",
+          "nhận dạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ ra; nhận dạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28594,
+    "word": "指導",
+    "kana": "しどう",
+    "senses": [
+      {
+        "sense_id": 254017,
+        "meaning_vi": "hướng dẫn; Khả năng lãnh đạo; chỉ dẫn; phương hướng; huấn luyện",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn",
+          "Khả năng lãnh đạo",
+          "chỉ dẫn",
+          "phương hướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn; Khả năng lãnh đạo; chỉ dẫn; phương hướng; huấn luyện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254018,
+        "meaning_vi": "shido (hình phạt nhỏ trong judo)",
+        "confidence": "high",
+        "search_keywords": [
+          "shido (hình phạt nhỏ trong judo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "shido (hình phạt nhỏ trong judo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28595,
+    "word": "指導者",
+    "kana": "しどうしゃ",
+    "senses": [
+      {
+        "sense_id": 254019,
+        "meaning_vi": "lãnh đạo; hướng dẫn; người hướng dẫn; huấn luyện viên",
+        "confidence": "high",
+        "search_keywords": [
+          "lãnh đạo",
+          "hướng dẫn",
+          "người hướng dẫn",
+          "huấn luyện viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lãnh đạo; hướng dẫn; người hướng dẫn; huấn luyện viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28596,
+    "word": "指導部",
+    "kana": "しどうぶ",
+    "senses": [
+      {
+        "sense_id": 254020,
+        "meaning_vi": "sự lãnh đạo",
+        "confidence": "high",
+        "search_keywords": [
+          "sự lãnh đạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự lãnh đạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28597,
+    "word": "指南",
+    "kana": "しなん",
+    "senses": [
+      {
+        "sense_id": 254021,
+        "meaning_vi": "hướng dẫn (võ thuật, biểu diễn, v.v.); giảng dạy; huấn luyện",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn (võ thuật, biểu diễn, v.v.)",
+          "giảng dạy",
+          "huấn luyện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn (võ thuật, biểu diễn, v.v.); giảng dạy; huấn luyện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28598,
+    "word": "指標",
+    "kana": "しひょう",
+    "senses": [
+      {
+        "sense_id": 254022,
+        "meaning_vi": "chỉ mục; chỉ số; chỉ báo",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ mục",
+          "chỉ số",
+          "chỉ báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ mục; chỉ số; chỉ báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28599,
+    "word": "指名",
+    "kana": "しめい",
+    "senses": [
+      {
+        "sense_id": 254023,
+        "meaning_vi": "đặt tên; đề cử; chỉ định",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt tên",
+          "đề cử",
+          "chỉ định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt tên; đề cử; chỉ định",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254024,
+        "meaning_vi": "kêu gọi; yêu cầu ; yêu cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "kêu gọi",
+          "yêu cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kêu gọi; yêu cầu ; yêu cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28600,
+    "word": "指名試合",
+    "kana": "しめいじあい",
+    "senses": [
+      {
+        "sense_id": 254025,
+        "meaning_vi": "trận đấu tiêu đề",
+        "confidence": "high",
+        "search_keywords": [
+          "trận đấu tiêu đề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận đấu tiêu đề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28601,
+    "word": "指名手配",
+    "kana": "しめいてはい",
+    "senses": [
+      {
+        "sense_id": 254026,
+        "meaning_vi": "đưa (một nghi phạm có tên) vào danh sách truy nã",
+        "confidence": "high",
+        "search_keywords": [
+          "đưa (một nghi phạm có tên) vào danh sách truy nã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đưa (một nghi phạm có tên) vào danh sách truy nã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28602,
+    "word": "指名手配人",
+    "kana": "しめいてはいじん",
+    "senses": [
+      {
+        "sense_id": 254027,
+        "meaning_vi": "tội phạm truy nã",
+        "confidence": "high",
+        "search_keywords": [
+          "tội phạm truy nã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tội phạm truy nã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28603,
+    "word": "指紋",
+    "kana": "しもん",
+    "senses": [
+      {
+        "sense_id": 254028,
+        "meaning_vi": "dấu vân tay",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu vân tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu vân tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

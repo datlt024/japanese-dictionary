@@ -1,0 +1,508 @@
+[
+  {
+    "vocabulary_id": 107583,
+    "word": "診断検査",
+    "kana": "しんだんけんさ",
+    "senses": [
+      {
+        "sense_id": 349798,
+        "meaning_vi": "khám chẩn đoán; xét nghiệm chẩn đoán",
+        "confidence": "high",
+        "search_keywords": [
+          "khám chẩn đoán",
+          "xét nghiệm chẩn đoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khám chẩn đoán; xét nghiệm chẩn đoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107584,
+    "word": "若しや",
+    "kana": "もしや",
+    "senses": [
+      {
+        "sense_id": 349799,
+        "meaning_vi": "có lẽ; có thể; tình cờ nào đó; bằng một khả năng nào đó",
+        "confidence": "high",
+        "search_keywords": [
+          "có lẽ",
+          "có thể",
+          "tình cờ nào đó",
+          "bằng một khả năng nào đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có lẽ; có thể; tình cờ nào đó; bằng một khả năng nào đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107585,
+    "word": "国際警察",
+    "kana": "こくさいけいさつ",
+    "senses": [
+      {
+        "sense_id": 349800,
+        "meaning_vi": "cảnh sát quốc tế",
+        "confidence": "high",
+        "search_keywords": [
+          "cảnh sát quốc tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảnh sát quốc tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107586,
+    "word": "在るがまま",
+    "kana": "あるがまま",
+    "senses": [
+      {
+        "sense_id": 349801,
+        "meaning_vi": "như nó vốn có; đơn giản (sự thật); trần trụi; không ngụy trang; không sơn; không cường điệu; trung thực; ĐÚNG VẬY; thẳng thắn; thẳng thắn",
+        "confidence": "high",
+        "search_keywords": [
+          "như nó vốn có",
+          "đơn giản (sự thật)",
+          "trần trụi",
+          "không ngụy trang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "như nó vốn có; đơn giản (sự thật); trần trụi; không ngụy trang; không sơn; không cường điệu; trung thực; ĐÚNG VẬY; thẳng thắn; thẳng thắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107587,
+    "word": "迂生",
+    "kana": "うせい",
+    "senses": [
+      {
+        "sense_id": 349802,
+        "meaning_vi": "TÔI; Tôi; bản thân khiêm tốn của tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "TÔI",
+          "Tôi",
+          "bản thân khiêm tốn của tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "TÔI; Tôi; bản thân khiêm tốn của tôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107588,
+    "word": "虹彩異色症",
+    "kana": "こうさいいしょくしょう",
+    "senses": [
+      {
+        "sense_id": 349803,
+        "meaning_vi": "dị sắc mống mắt; mắt khác nhau về màu sắc (màu sắc)",
+        "confidence": "high",
+        "search_keywords": [
+          "dị sắc mống mắt",
+          "mắt khác nhau về màu sắc (màu sắc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dị sắc mống mắt; mắt khác nhau về màu sắc (màu sắc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107589,
+    "word": "オッドアイ",
+    "kana": "オッドアイ",
+    "senses": [
+      {
+        "sense_id": 349804,
+        "meaning_vi": "mắt không khớp về màu sắc (màu sắc)",
+        "confidence": "high",
+        "search_keywords": [
+          "mắt không khớp về màu sắc (màu sắc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mắt không khớp về màu sắc (màu sắc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107590,
+    "word": "初編",
+    "kana": "しょへん",
+    "senses": [
+      {
+        "sense_id": 349805,
+        "meaning_vi": "tập một; tập đầu tiên",
+        "confidence": "high",
+        "search_keywords": [
+          "tập một",
+          "tập đầu tiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập một; tập đầu tiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107591,
+    "word": "計器盤",
+    "kana": "けいきばん",
+    "senses": [
+      {
+        "sense_id": 349806,
+        "meaning_vi": "bảng điều khiển; bảng điều khiển",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng điều khiển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng điều khiển; bảng điều khiển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107592,
+    "word": "幌",
+    "kana": "ほろ",
+    "senses": [
+      {
+        "sense_id": 349807,
+        "meaning_vi": "tán (đặc biệt là vải hoặc vải bạt được sử dụng cho nó); mái hiên; mui (của xe mui trần); mui xe",
+        "confidence": "high",
+        "search_keywords": [
+          "tán (đặc biệt là vải hoặc vải bạt được sử dụng cho nó)",
+          "mái hiên",
+          "mui (của xe mui trần)",
+          "mui xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tán (đặc biệt là vải hoặc vải bạt được sử dụng cho nó); mái hiên; mui (của xe mui trần); mui xe",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107593,
+    "word": "増し締め",
+    "kana": "ましじめ",
+    "senses": [
+      {
+        "sense_id": 349808,
+        "meaning_vi": "siết chặt (bu lông, đai ốc, v.v.); vặn lại",
+        "confidence": "high",
+        "search_keywords": [
+          "siết chặt (bu lông, đai ốc, v.v.)",
+          "vặn lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siết chặt (bu lông, đai ốc, v.v.); vặn lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107594,
+    "word": "サビ",
+    "kana": "サビ",
+    "senses": [
+      {
+        "sense_id": 349809,
+        "meaning_vi": "hook (điểm cao của bài hát); điệp khúc",
+        "confidence": "high",
+        "search_keywords": [
+          "hook (điểm cao của bài hát)",
+          "điệp khúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hook (điểm cao của bài hát); điệp khúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107595,
+    "word": "汝自らを知れ",
+    "kana": "なんじみずからをしれ",
+    "senses": [
+      {
+        "sense_id": 349810,
+        "meaning_vi": "Biết chính mình",
+        "confidence": "high",
+        "search_keywords": [
+          "Biết chính mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Biết chính mình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107596,
+    "word": "難ずる",
+    "kana": "なんずる",
+    "senses": [
+      {
+        "sense_id": 349811,
+        "meaning_vi": "chỉ trích; chỉ ra lỗi lầm; nói xấu",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ trích",
+          "chỉ ra lỗi lầm",
+          "nói xấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ trích; chỉ ra lỗi lầm; nói xấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107597,
+    "word": "難じる",
+    "kana": "なんじる",
+    "senses": [
+      {
+        "sense_id": 349812,
+        "meaning_vi": "chỉ trích; chỉ ra lỗi lầm; nói xấu",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ trích",
+          "chỉ ra lỗi lầm",
+          "nói xấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ trích; chỉ ra lỗi lầm; nói xấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107598,
+    "word": "汝自身を知れ",
+    "kana": "なんじじしんをしれ",
+    "senses": [
+      {
+        "sense_id": 349813,
+        "meaning_vi": "Biết chính mình",
+        "confidence": "high",
+        "search_keywords": [
+          "Biết chính mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Biết chính mình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107599,
+    "word": "汝",
+    "kana": "い",
+    "senses": [
+      {
+        "sense_id": 349814,
+        "meaning_vi": "bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107600,
+    "word": "汝",
+    "kana": "いまし",
+    "senses": [
+      {
+        "sense_id": 349815,
+        "meaning_vi": "bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107601,
+    "word": "其",
+    "kana": "し",
+    "senses": [
+      {
+        "sense_id": 349816,
+        "meaning_vi": "đó",
+        "confidence": "high",
+        "search_keywords": [
+          "đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 349817,
+        "meaning_vi": "bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 349818,
+        "meaning_vi": "chính mình; chính họ",
+        "confidence": "high",
+        "search_keywords": [
+          "chính mình",
+          "chính họ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính mình; chính họ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 107602,
+    "word": "己",
+    "kana": "な",
+    "senses": [
+      {
+        "sense_id": 349819,
+        "meaning_vi": "tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 349820,
+        "meaning_vi": "Bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "Bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

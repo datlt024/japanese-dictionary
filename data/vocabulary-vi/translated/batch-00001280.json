@@ -1,0 +1,648 @@
+[
+  {
+    "vocabulary_id": 32562,
+    "word": "硝酸塩",
+    "kana": "しょうさんえん",
+    "senses": [
+      {
+        "sense_id": 259264,
+        "meaning_vi": "nitrat",
+        "confidence": "high",
+        "search_keywords": [
+          "nitrat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nitrat",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32563,
+    "word": "硝酸銀",
+    "kana": "しょうさんぎん",
+    "senses": [
+      {
+        "sense_id": 259265,
+        "meaning_vi": "bạc nitrat; AgNO3",
+        "confidence": "high",
+        "search_keywords": [
+          "bạc nitrat",
+          "AgNO3"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạc nitrat; AgNO3",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32564,
+    "word": "硝石",
+    "kana": "しょうせき",
+    "senses": [
+      {
+        "sense_id": 259266,
+        "meaning_vi": "diêm tiêu; diêm tiêu; ni-tơ; ni-tơ; kali nitrat",
+        "confidence": "high",
+        "search_keywords": [
+          "diêm tiêu",
+          "ni-tơ",
+          "kali nitrat"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "diêm tiêu; diêm tiêu; ni-tơ; ni-tơ; kali nitrat",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32565,
+    "word": "称",
+    "kana": "しょう",
+    "senses": [
+      {
+        "sense_id": 259267,
+        "meaning_vi": "tên; tiêu đề; sự chỉ định",
+        "confidence": "high",
+        "search_keywords": [
+          "tên",
+          "tiêu đề",
+          "sự chỉ định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên; tiêu đề; sự chỉ định",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259268,
+        "meaning_vi": "danh tiếng; danh tiếng",
+        "confidence": "high",
+        "search_keywords": [
+          "danh tiếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh tiếng; danh tiếng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32566,
+    "word": "称える",
+    "kana": "たたえる",
+    "senses": [
+      {
+        "sense_id": 259269,
+        "meaning_vi": "khen ngợi; ca ngợi; mưa đá ; ca ngợi; để ăn mừng",
+        "confidence": "high",
+        "search_keywords": [
+          "khen ngợi",
+          "ca ngợi",
+          "mưa đá",
+          "để ăn mừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khen ngợi; ca ngợi; mưa đá ; ca ngợi; để ăn mừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32567,
+    "word": "称える",
+    "kana": "となえる",
+    "senses": [
+      {
+        "sense_id": 259270,
+        "meaning_vi": "gọi (bằng tên); đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi (bằng tên)",
+          "đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi (bằng tên); đặt tên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32568,
+    "word": "称する",
+    "kana": "しょうする",
+    "senses": [
+      {
+        "sense_id": 259271,
+        "meaning_vi": "gọi điện; đặt tên",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi điện",
+          "đặt tên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi điện; đặt tên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259272,
+        "meaning_vi": "tự gọi mình ...; đi theo tên của...",
+        "confidence": "high",
+        "search_keywords": [
+          "tự gọi mình ...",
+          "đi theo tên của..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tự gọi mình ...; đi theo tên của...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259273,
+        "meaning_vi": "có ý định (được); tuyên xưng; yêu cầu bồi thường ; giả vờ ; giả vờ",
+        "confidence": "high",
+        "search_keywords": [
+          "có ý định (được)",
+          "tuyên xưng",
+          "yêu cầu bồi thường",
+          "giả vờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có ý định (được); tuyên xưng; yêu cầu bồi thường ; giả vờ ; giả vờ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259274,
+        "meaning_vi": "khen ngợi; vỗ tay",
+        "confidence": "high",
+        "search_keywords": [
+          "khen ngợi",
+          "vỗ tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khen ngợi; vỗ tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32569,
+    "word": "称号",
+    "kana": "しょうごう",
+    "senses": [
+      {
+        "sense_id": 259275,
+        "meaning_vi": "tiêu đề; tên; bằng cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu đề",
+          "tên",
+          "bằng cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu đề; tên; bằng cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32570,
+    "word": "章",
+    "kana": "しょう",
+    "senses": [
+      {
+        "sense_id": 259276,
+        "meaning_vi": "chương; phần",
+        "confidence": "high",
+        "search_keywords": [
+          "chương",
+          "phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương; phần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259277,
+        "meaning_vi": "huy chương; huy hiệu; phù hiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "huy chương",
+          "huy hiệu",
+          "phù hiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "huy chương; huy hiệu; phù hiệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32571,
+    "word": "笑い",
+    "kana": "わらい",
+    "senses": [
+      {
+        "sense_id": 259278,
+        "meaning_vi": "cười; tiếng cười",
+        "confidence": "high",
+        "search_keywords": [
+          "cười",
+          "tiếng cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cười; tiếng cười",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259279,
+        "meaning_vi": "mỉm cười",
+        "confidence": "high",
+        "search_keywords": [
+          "mỉm cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỉm cười",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259280,
+        "meaning_vi": "chế nhạo",
+        "confidence": "high",
+        "search_keywords": [
+          "chế nhạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế nhạo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259281,
+        "meaning_vi": "dụng cụ hỗ trợ tình dục (ví dụ: dương vật giả, sách khiêu dâm, tranh in khắc gỗ khiêu dâm, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "dụng cụ hỗ trợ tình dục (ví dụ: dương vật giả, sách khiêu dâm, tranh in khắc gỗ khiêu dâm, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dụng cụ hỗ trợ tình dục (ví dụ: dương vật giả, sách khiêu dâm, tranh in khắc gỗ khiêu dâm, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32572,
+    "word": "笑い事",
+    "kana": "わらいごと",
+    "senses": [
+      {
+        "sense_id": 259282,
+        "meaning_vi": "chuyện cười",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyện cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyện cười",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32573,
+    "word": "笑い上戸",
+    "kana": "わらいじょうご",
+    "senses": [
+      {
+        "sense_id": 259283,
+        "meaning_vi": "người uống rượu vui vẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "người uống rượu vui vẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người uống rượu vui vẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259284,
+        "meaning_vi": "người dễ cười",
+        "confidence": "high",
+        "search_keywords": [
+          "người dễ cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người dễ cười",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32574,
+    "word": "笑い声",
+    "kana": "わらいごえ",
+    "senses": [
+      {
+        "sense_id": 259285,
+        "meaning_vi": "(âm thanh) tiếng cười; giọng cười",
+        "confidence": "high",
+        "search_keywords": [
+          "(âm thanh) tiếng cười",
+          "giọng cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(âm thanh) tiếng cười; giọng cười",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32575,
+    "word": "笑い種",
+    "kana": "わらいぐさ",
+    "senses": [
+      {
+        "sense_id": 259286,
+        "meaning_vi": "trò cười",
+        "confidence": "high",
+        "search_keywords": [
+          "trò cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trò cười",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32576,
+    "word": "笑い茸",
+    "kana": "わらいたけ",
+    "senses": [
+      {
+        "sense_id": 259287,
+        "meaning_vi": "Panaeolus papilionaceus (loài nấm độc)",
+        "confidence": "high",
+        "search_keywords": [
+          "Panaeolus papilionaceus (loài nấm độc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Panaeolus papilionaceus (loài nấm độc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32577,
+    "word": "笑いこける",
+    "kana": "わらいこける",
+    "senses": [
+      {
+        "sense_id": 259288,
+        "meaning_vi": "lăn lộn với tiếng cười; cười thật lòng",
+        "confidence": "high",
+        "search_keywords": [
+          "lăn lộn với tiếng cười",
+          "cười thật lòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lăn lộn với tiếng cười; cười thật lòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32578,
+    "word": "笑い話",
+    "kana": "わらいばなし",
+    "senses": [
+      {
+        "sense_id": 259289,
+        "meaning_vi": "câu chuyện hài hước; giai thoại hài hước",
+        "confidence": "high",
+        "search_keywords": [
+          "câu chuyện hài hước",
+          "giai thoại hài hước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu chuyện hài hước; giai thoại hài hước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32579,
+    "word": "笑う",
+    "kana": "わらう",
+    "senses": [
+      {
+        "sense_id": 259290,
+        "meaning_vi": "cười",
+        "confidence": "high",
+        "search_keywords": [
+          "cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cười",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259291,
+        "meaning_vi": "mỉm cười",
+        "confidence": "high",
+        "search_keywords": [
+          "mỉm cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỉm cười",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259292,
+        "meaning_vi": "chế nhạo; chế giễu",
+        "confidence": "high",
+        "search_keywords": [
+          "chế nhạo",
+          "chế giễu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế nhạo; chế giễu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 259293,
+        "meaning_vi": "chết lặng; bị sửng sốt",
+        "confidence": "high",
+        "search_keywords": [
+          "chết lặng",
+          "bị sửng sốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết lặng; bị sửng sốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32580,
+    "word": "笑み",
+    "kana": "えみ",
+    "senses": [
+      {
+        "sense_id": 259294,
+        "meaning_vi": "mỉm cười",
+        "confidence": "high",
+        "search_keywords": [
+          "mỉm cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỉm cười",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 32581,
+    "word": "笑み割れる",
+    "kana": "えみわれる",
+    "senses": [
+      {
+        "sense_id": 259295,
+        "meaning_vi": "để nứt",
+        "confidence": "high",
+        "search_keywords": [
+          "để nứt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để nứt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

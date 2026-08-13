@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 125859,
+    "word": "入出力節",
+    "kana": "にゅうしゅつりょくせつ",
+    "senses": [
+      {
+        "sense_id": 369502,
+        "meaning_vi": "phần đầu vào-đầu ra",
+        "confidence": "high",
+        "search_keywords": [
+          "phần đầu vào-đầu ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần đầu vào-đầu ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125860,
+    "word": "入出力装置",
+    "kana": "にゅうしゅつりょくそうち",
+    "senses": [
+      {
+        "sense_id": 369503,
+        "meaning_vi": "đơn vị đầu vào-đầu ra; thiết bị đầu vào-đầu ra",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị đầu vào-đầu ra",
+          "thiết bị đầu vào-đầu ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị đầu vào-đầu ra; thiết bị đầu vào-đầu ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125861,
+    "word": "入出力文",
+    "kana": "にゅうしゅつりょくぶん",
+    "senses": [
+      {
+        "sense_id": 369504,
+        "meaning_vi": "câu lệnh đầu vào-đầu ra",
+        "confidence": "high",
+        "search_keywords": [
+          "câu lệnh đầu vào-đầu ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu lệnh đầu vào-đầu ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125862,
+    "word": "入出力両用ファイル",
+    "kana": "にゅうしゅつりょくりょうようファイル",
+    "senses": [
+      {
+        "sense_id": 369505,
+        "meaning_vi": "tập tin đầu vào-đầu ra",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin đầu vào-đầu ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin đầu vào-đầu ra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125863,
+    "word": "入力の流れ",
+    "kana": "にゅうりょくのながれ",
+    "senses": [
+      {
+        "sense_id": 369506,
+        "meaning_vi": "luồng công việc; chạy luồng; luồng đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "luồng công việc",
+          "chạy luồng",
+          "luồng đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luồng công việc; chạy luồng; luồng đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125864,
+    "word": "入力キー",
+    "kana": "にゅうりょくキー",
+    "senses": [
+      {
+        "sense_id": 369507,
+        "meaning_vi": "phím ENTER",
+        "confidence": "high",
+        "search_keywords": [
+          "phím ENTER"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phím ENTER",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125865,
+    "word": "入力キュー",
+    "kana": "にゅうりょくキュー",
+    "senses": [
+      {
+        "sense_id": 369508,
+        "meaning_vi": "hàng đợi đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "hàng đợi đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàng đợi đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125866,
+    "word": "入力クラス",
+    "kana": "にゅうりょくクラス",
+    "senses": [
+      {
+        "sense_id": 369509,
+        "meaning_vi": "lớp đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125867,
+    "word": "入力サブシステム",
+    "kana": "にゅうりょくサブシステム",
+    "senses": [
+      {
+        "sense_id": 369510,
+        "meaning_vi": "hệ thống con đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống con đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống con đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125868,
+    "word": "入力データ",
+    "kana": "にゅうりょくデータ",
+    "senses": [
+      {
+        "sense_id": 369511,
+        "meaning_vi": "dữ liệu đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125869,
+    "word": "入力デバイス",
+    "kana": "にゅうりょくデバイス",
+    "senses": [
+      {
+        "sense_id": 369512,
+        "meaning_vi": "thiết bị đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125870,
+    "word": "入力ファイル",
+    "kana": "にゅうりょくファイル",
+    "senses": [
+      {
+        "sense_id": 369513,
+        "meaning_vi": "tập tin đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125871,
+    "word": "入力ファイル名",
+    "kana": "にゅうりょくファイルめい",
+    "senses": [
+      {
+        "sense_id": 369514,
+        "meaning_vi": "tên tập tin đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "tên tập tin đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên tập tin đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125872,
+    "word": "入力フォーカス",
+    "kana": "にゅうりょくフォーカス",
+    "senses": [
+      {
+        "sense_id": 369515,
+        "meaning_vi": "tiêu điểm đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu điểm đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu điểm đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125873,
+    "word": "入力モード",
+    "kana": "にゅうりょくモード",
+    "senses": [
+      {
+        "sense_id": 369516,
+        "meaning_vi": "chế độ đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125874,
+    "word": "入力応答",
+    "kana": "にゅうりょくおうとう",
+    "senses": [
+      {
+        "sense_id": 369517,
+        "meaning_vi": "sự thừa nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thừa nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thừa nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125875,
+    "word": "入力画面",
+    "kana": "にゅうりょくがめん",
+    "senses": [
+      {
+        "sense_id": 369518,
+        "meaning_vi": "màn hình đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "màn hình đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màn hình đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125876,
+    "word": "入力基本要素",
+    "kana": "にゅうりょくきほんようそ",
+    "senses": [
+      {
+        "sense_id": 369519,
+        "meaning_vi": "đầu vào nguyên thủy",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu vào nguyên thủy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu vào nguyên thủy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125877,
+    "word": "入力機構",
+    "kana": "にゅうりょくきこう",
+    "senses": [
+      {
+        "sense_id": 369520,
+        "meaning_vi": "đơn vị đầu vào; thiết bị đầu vào",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị đầu vào",
+          "thiết bị đầu vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị đầu vào; thiết bị đầu vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125878,
+    "word": "入力誤り",
+    "kana": "にゅうりょくあやまり",
+    "senses": [
+      {
+        "sense_id": 369521,
+        "meaning_vi": "lỗi nhập bàn phím",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi nhập bàn phím"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi nhập bàn phím",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

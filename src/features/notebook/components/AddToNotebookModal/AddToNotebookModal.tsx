@@ -3,6 +3,7 @@
 import {
     FormEvent,
     useEffect,
+    useLayoutEffect,
     useRef,
     useState,
 } from "react"
@@ -47,6 +48,7 @@ export default function AddToNotebookModal({
     const [newName, setNewName] = useState("")
     const [createLoading, setCreateLoading] = useState(false)
     const createInputRef = useRef<HTMLInputElement>(null)
+    const handleCloseRef = useRef<() => void>(null!)
 
     useEffect(() => {
         if (creating) createInputRef.current?.focus()
@@ -55,11 +57,10 @@ export default function AddToNotebookModal({
     useEffect(() => {
         if (!open) return
         function handleKey(e: KeyboardEvent) {
-            if (e.key === "Escape") handleClose()
+            if (e.key === "Escape") handleCloseRef.current()
         }
         document.addEventListener("keydown", handleKey)
         return () => document.removeEventListener("keydown", handleKey)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [open])
 
     function handleClose() {
@@ -69,6 +70,7 @@ export default function AddToNotebookModal({
         setPendingIds(new Set())
         onClose()
     }
+    useLayoutEffect(() => { handleCloseRef.current = handleClose })
 
     async function toggleNotebook(notebookId: string) {
         if (pendingIds.has(notebookId)) return
@@ -124,12 +126,18 @@ export default function AddToNotebookModal({
 
             const created = await res.json()
 
-            // Add item to new notebook immediately
-            await fetch(`/api/notebooks/${created.id}/items`, {
+            // Add item to new notebook immediately — ignore if already exists (409)
+            const addRes = await fetch(`/api/notebooks/${created.id}/items`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ item_type: itemType, item_id: itemId }),
             })
+
+            if (!addRes.ok && addRes.status !== 409) {
+                // Notebook was created but item wasn't added — still refresh and close
+                await mutateNotebooks()
+                return
+            }
 
             await Promise.all([
                 mutateNotebooks(),
@@ -212,6 +220,7 @@ export default function AddToNotebookModal({
                                         ref={createInputRef}
                                         className={styles.createInput}
                                         type="text"
+                                        aria-label="Tên sổ tay mới"
                                         placeholder="Tên sổ tay..."
                                         value={newName}
                                         onChange={(e) => setNewName(e.target.value)}

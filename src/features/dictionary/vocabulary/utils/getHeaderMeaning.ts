@@ -8,6 +8,11 @@ import { getVocabularyMeaning } from "./getVocabularyMeaning"
 
 import type { Vocabulary } from "@/domain/vocabulary/vocabulary.type"
 
+// Strips trailing parenthetical explanations, e.g. "Vị kia (cách nói lịch sự của あの方)" → "Vị kia"
+function stripParentheticalExplanation(text: string): string {
+    return text.replace(/\s*\([^)]*\)\s*$/, "").trim()
+}
+
 export function getHeaderMeaning(
     vocabulary: Vocabulary,
     language: "vi" | "en"
@@ -22,9 +27,11 @@ export function getHeaderMeaning(
         )
     }
 
-    return formatMeaningVi(
-        vocabulary.senses?.[0]?.meaning_vi ||
-        displayMeaning ||
-        "Đang cập nhật"
+    return stripParentheticalExplanation(
+        formatMeaningVi(
+            vocabulary.senses?.[0]?.meaning_vi ||
+            displayMeaning ||
+            "Đang cập nhật"
+        )
     )
 }

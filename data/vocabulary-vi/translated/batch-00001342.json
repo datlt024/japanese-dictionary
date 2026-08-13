@@ -1,0 +1,553 @@
+[
+  {
+    "vocabulary_id": 34400,
+    "word": "図解",
+    "kana": "ずかい",
+    "senses": [
+      {
+        "sense_id": 261782,
+        "meaning_vi": "sơ đồ (giải thích); hình minh họa",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ đồ (giải thích)",
+          "hình minh họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ đồ (giải thích); hình minh họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34401,
+    "word": "図鑑",
+    "kana": "ずかん",
+    "senses": [
+      {
+        "sense_id": 261783,
+        "meaning_vi": "sách tranh ảnh; sách tranh; sách tham khảo minh họa; sổ tay nhận dạng; hướng dẫn thực địa",
+        "confidence": "high",
+        "search_keywords": [
+          "sách tranh ảnh",
+          "sách tranh",
+          "sách tham khảo minh họa",
+          "sổ tay nhận dạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sách tranh ảnh; sách tranh; sách tham khảo minh họa; sổ tay nhận dạng; hướng dẫn thực địa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34402,
+    "word": "図形",
+    "kana": "ずけい",
+    "senses": [
+      {
+        "sense_id": 261784,
+        "meaning_vi": "nhân vật; hình dạng; đồ họa",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật",
+          "hình dạng",
+          "đồ họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật; hình dạng; đồ họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34403,
+    "word": "図示",
+    "kana": "ずし",
+    "senses": [
+      {
+        "sense_id": 261785,
+        "meaning_vi": "thể hiện bằng sơ đồ; minh họa; thể hiện bằng đồ họa",
+        "confidence": "high",
+        "search_keywords": [
+          "thể hiện bằng sơ đồ",
+          "minh họa",
+          "thể hiện bằng đồ họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thể hiện bằng sơ đồ; minh họa; thể hiện bằng đồ họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34404,
+    "word": "図式",
+    "kana": "ずしき",
+    "senses": [
+      {
+        "sense_id": 261786,
+        "meaning_vi": "sơ đồ; đồ thị; lược đồ",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ đồ",
+          "đồ thị",
+          "lược đồ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ đồ; đồ thị; lược đồ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34405,
+    "word": "図書",
+    "kana": "としょ",
+    "senses": [
+      {
+        "sense_id": 261787,
+        "meaning_vi": "sách",
+        "confidence": "high",
+        "search_keywords": [
+          "sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34406,
+    "word": "図書館",
+    "kana": "としょかん",
+    "senses": [
+      {
+        "sense_id": 261788,
+        "meaning_vi": "thư viện",
+        "confidence": "high",
+        "search_keywords": [
+          "thư viện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư viện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34407,
+    "word": "図書館員",
+    "kana": "としょかんいん",
+    "senses": [
+      {
+        "sense_id": 261789,
+        "meaning_vi": "nhân viên thư viện; thủ thư",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân viên thư viện",
+          "thủ thư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân viên thư viện; thủ thư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34408,
+    "word": "図書室",
+    "kana": "としょしつ",
+    "senses": [
+      {
+        "sense_id": 261790,
+        "meaning_vi": "thư viện (thường là phòng đơn); thư viện nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "thư viện (thường là phòng đơn)",
+          "thư viện nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư viện (thường là phòng đơn); thư viện nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34409,
+    "word": "図星に当たる",
+    "kana": "ずぼしにあたる",
+    "senses": [
+      {
+        "sense_id": 261791,
+        "meaning_vi": "để đánh vào hồng tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "để đánh vào hồng tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đánh vào hồng tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34410,
+    "word": "図星を指す",
+    "kana": "ずぼしをさす",
+    "senses": [
+      {
+        "sense_id": 261792,
+        "meaning_vi": "đánh đinh vào đầu; đoán chính xác đúng",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh đinh vào đầu",
+          "đoán chính xác đúng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh đinh vào đầu; đoán chính xác đúng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34411,
+    "word": "図太い",
+    "kana": "ずぶとい",
+    "senses": [
+      {
+        "sense_id": 261793,
+        "meaning_vi": "in đậm; không biết xấu hổ; táo bạo; thô lỗ; trơ tráo",
+        "confidence": "high",
+        "search_keywords": [
+          "in đậm",
+          "không biết xấu hổ",
+          "táo bạo",
+          "thô lỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "in đậm; không biết xấu hổ; táo bạo; thô lỗ; trơ tráo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34412,
+    "word": "図版",
+    "kana": "ずはん",
+    "senses": [
+      {
+        "sense_id": 261794,
+        "meaning_vi": "đĩa; hình minh họa; hình",
+        "confidence": "high",
+        "search_keywords": [
+          "đĩa",
+          "hình minh họa",
+          "hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đĩa; hình minh họa; hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34413,
+    "word": "図表",
+    "kana": "ずひょう",
+    "senses": [
+      {
+        "sense_id": 261795,
+        "meaning_vi": "biểu đồ; sơ đồ; đồ thị; hình",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu đồ",
+          "sơ đồ",
+          "đồ thị",
+          "hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu đồ; sơ đồ; đồ thị; hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34414,
+    "word": "図柄",
+    "kana": "ずがら",
+    "senses": [
+      {
+        "sense_id": 261796,
+        "meaning_vi": "thiết kế; hoa văn",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết kế",
+          "hoa văn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết kế; hoa văn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34415,
+    "word": "図法",
+    "kana": "ずほう",
+    "senses": [
+      {
+        "sense_id": 261797,
+        "meaning_vi": "vẽ; kỹ năng soạn thảo; kỹ năng vẽ phác thảo; phép chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "vẽ",
+          "kỹ năng soạn thảo",
+          "kỹ năng vẽ phác thảo",
+          "phép chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vẽ; kỹ năng soạn thảo; kỹ năng vẽ phác thảo; phép chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34416,
+    "word": "図面",
+    "kana": "ずめん",
+    "senses": [
+      {
+        "sense_id": 261798,
+        "meaning_vi": "vẽ; sơ đồ; kế hoạch; bản thiết kế",
+        "confidence": "high",
+        "search_keywords": [
+          "vẽ",
+          "sơ đồ",
+          "kế hoạch",
+          "bản thiết kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vẽ; sơ đồ; kế hoạch; bản thiết kế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34417,
+    "word": "厨子",
+    "kana": "ずし",
+    "senses": [
+      {
+        "sense_id": 261800,
+        "meaning_vi": "Điện thờ thu nhỏ có cửa đôi (dùng để cất giữ những vật dụng quan trọng của Phật giáo như kinh, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "Điện thờ thu nhỏ có cửa đôi (dùng để cất giữ những vật dụng quan trọng của Phật giáo như kinh, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Điện thờ thu nhỏ có cửa đôi (dùng để cất giữ những vật dụng quan trọng của Phật giáo như kinh, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261801,
+        "meaning_vi": "tủ có cửa đôi (được giới quý tộc sử dụng để đựng sách, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "tủ có cửa đôi (được giới quý tộc sử dụng để đựng sách, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tủ có cửa đôi (được giới quý tộc sử dụng để đựng sách, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261802,
+        "meaning_vi": "Thùng đá được chạm khắc và trang trí để đựng xương cốt của tổ tiên (ở Okinawa)",
+        "confidence": "high",
+        "search_keywords": [
+          "Thùng đá được chạm khắc và trang trí để đựng xương cốt của tổ tiên (ở Okinawa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thùng đá được chạm khắc và trang trí để đựng xương cốt của tổ tiên (ở Okinawa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34418,
+    "word": "厨房",
+    "kana": "ちゅうぼう",
+    "senses": [
+      {
+        "sense_id": 261803,
+        "meaning_vi": "phòng bếp; nhà bếp",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng bếp",
+          "nhà bếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng bếp; nhà bếp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261804,
+        "meaning_vi": "(Internet) trò đùa",
+        "confidence": "high",
+        "search_keywords": [
+          "(Internet) trò đùa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(Internet) trò đùa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 34419,
+    "word": "吹きかける",
+    "kana": "ふきかける",
+    "senses": [
+      {
+        "sense_id": 261805,
+        "meaning_vi": "thổi (bật); thở (bật); phun (trên)",
+        "confidence": "high",
+        "search_keywords": [
+          "thổi (bật)",
+          "thở (bật)",
+          "phun (trên)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thổi (bật); thở (bật); phun (trên)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261806,
+        "meaning_vi": "chọn (một cuộc chiến); khiêu khích; ép buộc (điều khoản vô lý); yêu cầu (điều không thể)",
+        "confidence": "high",
+        "search_keywords": [
+          "chọn (một cuộc chiến)",
+          "khiêu khích",
+          "ép buộc (điều khoản vô lý)",
+          "yêu cầu (điều không thể)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chọn (một cuộc chiến); khiêu khích; ép buộc (điều khoản vô lý); yêu cầu (điều không thể)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 261807,
+        "meaning_vi": "phóng đại; hỏi (một mức giá không hợp lý); sạc quá mức",
+        "confidence": "high",
+        "search_keywords": [
+          "phóng đại",
+          "hỏi (một mức giá không hợp lý)",
+          "sạc quá mức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phóng đại; hỏi (một mức giá không hợp lý); sạc quá mức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

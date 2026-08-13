@@ -1,0 +1,505 @@
+[
+  {
+    "vocabulary_id": 22027,
+    "word": "禁漁",
+    "kana": "きんりょう",
+    "senses": [
+      {
+        "sense_id": 245344,
+        "meaning_vi": "cấm đánh cá",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm đánh cá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm đánh cá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22028,
+    "word": "禁句",
+    "kana": "きんく",
+    "senses": [
+      {
+        "sense_id": 245345,
+        "meaning_vi": "từ cấm kỵ; chủ đề bị cấm",
+        "confidence": "high",
+        "search_keywords": [
+          "từ cấm kỵ",
+          "chủ đề bị cấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ cấm kỵ; chủ đề bị cấm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245346,
+        "meaning_vi": "từ hoặc cụm từ không được phép (trong waka và haikai)",
+        "confidence": "high",
+        "search_keywords": [
+          "từ hoặc cụm từ không được phép (trong waka và haikai)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ hoặc cụm từ không được phép (trong waka và haikai)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22029,
+    "word": "禁錮",
+    "kana": "きんこ",
+    "senses": [
+      {
+        "sense_id": 245347,
+        "meaning_vi": "phạt tù (không bị cưỡng bức lao động); giam giữ; sự giam cầm",
+        "confidence": "high",
+        "search_keywords": [
+          "phạt tù (không bị cưỡng bức lao động)",
+          "giam giữ",
+          "sự giam cầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phạt tù (không bị cưỡng bức lao động); giam giữ; sự giam cầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22030,
+    "word": "禁止",
+    "kana": "きんし",
+    "senses": [
+      {
+        "sense_id": 245348,
+        "meaning_vi": "cấm; ức chế; lệnh cấm",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm",
+          "ức chế",
+          "lệnh cấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm; ức chế; lệnh cấm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22031,
+    "word": "禁止条約",
+    "kana": "きんしじょうやく",
+    "senses": [
+      {
+        "sense_id": 245349,
+        "meaning_vi": "lệnh cấm (hiệp ước)",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh cấm (hiệp ước)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh cấm (hiệp ước)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22032,
+    "word": "禁酒",
+    "kana": "きんしゅ",
+    "senses": [
+      {
+        "sense_id": 245350,
+        "meaning_vi": "kiêng rượu; sự ôn hòa",
+        "confidence": "high",
+        "search_keywords": [
+          "kiêng rượu",
+          "sự ôn hòa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiêng rượu; sự ôn hòa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245351,
+        "meaning_vi": "cấm uống rượu",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm uống rượu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm uống rượu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22033,
+    "word": "禁所",
+    "kana": "きんしょ",
+    "senses": [
+      {
+        "sense_id": 245352,
+        "meaning_vi": "nơi giam giữ",
+        "confidence": "high",
+        "search_keywords": [
+          "nơi giam giữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nơi giam giữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22034,
+    "word": "禁書",
+    "kana": "きんしょ",
+    "senses": [
+      {
+        "sense_id": 245353,
+        "meaning_vi": "cấm sách; sách bị cấm",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm sách",
+          "sách bị cấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm sách; sách bị cấm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22035,
+    "word": "禁制",
+    "kana": "きんせい",
+    "senses": [
+      {
+        "sense_id": 245354,
+        "meaning_vi": "cấm; cấm; lệnh cấm vận",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm",
+          "lệnh cấm vận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm; cấm; lệnh cấm vận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22036,
+    "word": "禁則",
+    "kana": "きんそく",
+    "senses": [
+      {
+        "sense_id": 245355,
+        "meaning_vi": "sự cấm đoán",
+        "confidence": "high",
+        "search_keywords": [
+          "sự cấm đoán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự cấm đoán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22037,
+    "word": "禁足",
+    "kana": "きんそく",
+    "senses": [
+      {
+        "sense_id": 245356,
+        "meaning_vi": "giam giữ (trong nhà, đến khu, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "giam giữ (trong nhà, đến khu, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giam giữ (trong nhà, đến khu, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22038,
+    "word": "禁断",
+    "kana": "きんだん",
+    "senses": [
+      {
+        "sense_id": 245357,
+        "meaning_vi": "cấm; sự ngăn cấm",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm",
+          "sự ngăn cấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm; sự ngăn cấm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245358,
+        "meaning_vi": "cấm; bị cấm",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm",
+          "bị cấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm; bị cấm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22039,
+    "word": "禁断症状",
+    "kana": "きんだんしょうじょう",
+    "senses": [
+      {
+        "sense_id": 245359,
+        "meaning_vi": "triệu chứng cai nghiện; hội chứng kiêng khem",
+        "confidence": "high",
+        "search_keywords": [
+          "triệu chứng cai nghiện",
+          "hội chứng kiêng khem"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triệu chứng cai nghiện; hội chứng kiêng khem",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22040,
+    "word": "禁反言",
+    "kana": "きんはんげん",
+    "senses": [
+      {
+        "sense_id": 245360,
+        "meaning_vi": "ngăn cản",
+        "confidence": "high",
+        "search_keywords": [
+          "ngăn cản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngăn cản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22041,
+    "word": "禁物",
+    "kana": "きんもつ",
+    "senses": [
+      {
+        "sense_id": 245361,
+        "meaning_vi": "điều nên tránh (cẩn thận); không-không; điều nhất định không được làm; điều gì đó bị cấm; điều cấm kỵ",
+        "confidence": "high",
+        "search_keywords": [
+          "điều nên tránh (cẩn thận)",
+          "không-không",
+          "điều nhất định không được làm",
+          "điều gì đó bị cấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều nên tránh (cẩn thận); không-không; điều nhất định không được làm; điều gì đó bị cấm; điều cấm kỵ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22042,
+    "word": "禁輸",
+    "kana": "きんゆ",
+    "senses": [
+      {
+        "sense_id": 245362,
+        "meaning_vi": "lệnh cấm vận",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh cấm vận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh cấm vận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22043,
+    "word": "禁欲",
+    "kana": "きんよく",
+    "senses": [
+      {
+        "sense_id": 245363,
+        "meaning_vi": "kiêng cữ; sự phủ nhận bản thân; độc thân; khổ hạnh; sự từ bỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "kiêng cữ",
+          "sự phủ nhận bản thân",
+          "độc thân",
+          "khổ hạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiêng cữ; sự phủ nhận bản thân; độc thân; khổ hạnh; sự từ bỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22044,
+    "word": "禁猟",
+    "kana": "きんりょう",
+    "senses": [
+      {
+        "sense_id": 245364,
+        "meaning_vi": "cấm săn bắn",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm săn bắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm săn bắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22045,
+    "word": "禁令",
+    "kana": "きんれい",
+    "senses": [
+      {
+        "sense_id": 245365,
+        "meaning_vi": "cấm; cấm; lệnh cấm vận",
+        "confidence": "high",
+        "search_keywords": [
+          "cấm",
+          "lệnh cấm vận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấm; cấm; lệnh cấm vận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22046,
+    "word": "禽舎",
+    "kana": "きんしゃ",
+    "senses": [
+      {
+        "sense_id": 245366,
+        "meaning_vi": "chuồng gia cầm",
+        "confidence": "high",
+        "search_keywords": [
+          "chuồng gia cầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuồng gia cầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,627 @@
+[
+  {
+    "vocabulary_id": 20247,
+    "word": "規制",
+    "kana": "きせい",
+    "senses": [
+      {
+        "sense_id": 243048,
+        "meaning_vi": "quy định; (giao thông) cảnh sát; điều khiển; hạn chế",
+        "confidence": "high",
+        "search_keywords": [
+          "quy định",
+          "(giao thông) cảnh sát",
+          "điều khiển",
+          "hạn chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy định; (giao thông) cảnh sát; điều khiển; hạn chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20248,
+    "word": "規則",
+    "kana": "きそく",
+    "senses": [
+      {
+        "sense_id": 243049,
+        "meaning_vi": "luật lệ; quy định",
+        "confidence": "high",
+        "search_keywords": [
+          "luật lệ",
+          "quy định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luật lệ; quy định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20249,
+    "word": "規則を破る",
+    "kana": "きそくをやぶる",
+    "senses": [
+      {
+        "sense_id": 243050,
+        "meaning_vi": "phá vỡ các quy tắc; vi phạm các quy tắc; vi phạm các quy tắc",
+        "confidence": "high",
+        "search_keywords": [
+          "phá vỡ các quy tắc",
+          "vi phạm các quy tắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phá vỡ các quy tắc; vi phạm các quy tắc; vi phạm các quy tắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20250,
+    "word": "規則正しい",
+    "kana": "きそくただしい",
+    "senses": [
+      {
+        "sense_id": 243051,
+        "meaning_vi": "thường xuyên; được quản lý tốt; có tính hệ thống; có trật tự",
+        "confidence": "high",
+        "search_keywords": [
+          "thường xuyên",
+          "được quản lý tốt",
+          "có tính hệ thống",
+          "có trật tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thường xuyên; được quản lý tốt; có tính hệ thống; có trật tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20251,
+    "word": "規則的",
+    "kana": "きそくてき",
+    "senses": [
+      {
+        "sense_id": 243052,
+        "meaning_vi": "có tính hệ thống; thường xuyên; thói quen",
+        "confidence": "high",
+        "search_keywords": [
+          "có tính hệ thống",
+          "thường xuyên",
+          "thói quen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có tính hệ thống; thường xuyên; thói quen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20252,
+    "word": "規定",
+    "kana": "きてい",
+    "senses": [
+      {
+        "sense_id": 243053,
+        "meaning_vi": "quy định; đơn thuốc; sự cung cấp; quy định; cai trị",
+        "confidence": "high",
+        "search_keywords": [
+          "quy định",
+          "đơn thuốc",
+          "sự cung cấp",
+          "cai trị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy định; đơn thuốc; sự cung cấp; quy định; cai trị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243054,
+        "meaning_vi": "bình thường (đơn vị bình thường)",
+        "confidence": "high",
+        "search_keywords": [
+          "bình thường (đơn vị bình thường)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bình thường (đơn vị bình thường)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243055,
+        "meaning_vi": "tập thể dục bắt buộc (thể dục dụng cụ); thói quen bắt buộc; khiêu vũ bắt buộc (trượt băng nghệ thuật); (a) bắt buộc",
+        "confidence": "high",
+        "search_keywords": [
+          "tập thể dục bắt buộc (thể dục dụng cụ)",
+          "thói quen bắt buộc",
+          "khiêu vũ bắt buộc (trượt băng nghệ thuật)",
+          "(a) bắt buộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập thể dục bắt buộc (thể dục dụng cụ); thói quen bắt buộc; khiêu vũ bắt buộc (trượt băng nghệ thuật); (a) bắt buộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20253,
+    "word": "規定値",
+    "kana": "きていち",
+    "senses": [
+      {
+        "sense_id": 243056,
+        "meaning_vi": "giá trị kiểm soát; giá trị yêu cầu tối thiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị kiểm soát",
+          "giá trị yêu cầu tối thiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị kiểm soát; giá trị yêu cầu tối thiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20254,
+    "word": "規程",
+    "kana": "きてい",
+    "senses": [
+      {
+        "sense_id": 243057,
+        "meaning_vi": "quy định chính thức; quy tắc bên trong",
+        "confidence": "high",
+        "search_keywords": [
+          "quy định chính thức",
+          "quy tắc bên trong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy định chính thức; quy tắc bên trong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20255,
+    "word": "規模",
+    "kana": "きぼ",
+    "senses": [
+      {
+        "sense_id": 243058,
+        "meaning_vi": "tỉ lệ; phạm vi; kế hoạch; cấu trúc",
+        "confidence": "high",
+        "search_keywords": [
+          "tỉ lệ",
+          "phạm vi",
+          "kế hoạch",
+          "cấu trúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỉ lệ; phạm vi; kế hoạch; cấu trúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20256,
+    "word": "規模の経済",
+    "kana": "きぼのけいざい",
+    "senses": [
+      {
+        "sense_id": 243059,
+        "meaning_vi": "tính kinh tế theo quy mô",
+        "confidence": "high",
+        "search_keywords": [
+          "tính kinh tế theo quy mô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính kinh tế theo quy mô",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20257,
+    "word": "規約",
+    "kana": "きやく",
+    "senses": [
+      {
+        "sense_id": 243060,
+        "meaning_vi": "hiệp định; quy tắc; mã số; giao thức; quy ước; quy định",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệp định",
+          "quy tắc",
+          "mã số",
+          "giao thức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệp định; quy tắc; mã số; giao thức; quy ước; quy định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20258,
+    "word": "規律",
+    "kana": "きりつ",
+    "senses": [
+      {
+        "sense_id": 243061,
+        "meaning_vi": "đặt hàng; tuân thủ; kỷ luật",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt hàng",
+          "tuân thủ",
+          "kỷ luật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt hàng; tuân thủ; kỷ luật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243062,
+        "meaning_vi": "quy tắc; pháp luật; quy định",
+        "confidence": "high",
+        "search_keywords": [
+          "quy tắc",
+          "pháp luật",
+          "quy định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy tắc; pháp luật; quy định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20259,
+    "word": "記",
+    "kana": "き",
+    "senses": [
+      {
+        "sense_id": 243063,
+        "meaning_vi": "tài khoản; lịch sử; biên niên sử; biên niên sử; ghi lại",
+        "confidence": "high",
+        "search_keywords": [
+          "tài khoản",
+          "lịch sử",
+          "biên niên sử",
+          "ghi lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài khoản; lịch sử; biên niên sử; biên niên sử; ghi lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243064,
+        "meaning_vi": "để ý; ghi chú; như sau",
+        "confidence": "high",
+        "search_keywords": [
+          "để ý",
+          "ghi chú",
+          "như sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để ý; ghi chú; như sau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243065,
+        "meaning_vi": "Kojiki (ghi chép lịch sử sớm nhất của Nhật Bản, biên soạn năm 712 CN); Ghi chép về những vấn đề cổ xưa",
+        "confidence": "high",
+        "search_keywords": [
+          "Kojiki (ghi chép lịch sử sớm nhất của Nhật Bản, biên soạn năm 712 CN)",
+          "Ghi chép về những vấn đề cổ xưa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kojiki (ghi chép lịch sử sớm nhất của Nhật Bản, biên soạn năm 712 CN); Ghi chép về những vấn đề cổ xưa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20260,
+    "word": "記す",
+    "kana": "しるす",
+    "senses": [
+      {
+        "sense_id": 243066,
+        "meaning_vi": "viết ra; ghi lại; để ghi lại; để ghi chú",
+        "confidence": "high",
+        "search_keywords": [
+          "viết ra",
+          "ghi lại",
+          "để ghi lại",
+          "để ghi chú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết ra; ghi lại; để ghi lại; để ghi chú",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243067,
+        "meaning_vi": "đề cập đến ; để mô tả ; để cung cấp một tài khoản",
+        "confidence": "high",
+        "search_keywords": [
+          "đề cập đến",
+          "để mô tả",
+          "để cung cấp một tài khoản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đề cập đến ; để mô tả ; để cung cấp một tài khoản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243068,
+        "meaning_vi": "để khắc ghi; đánh dấu; để xây dựng thương hiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "để khắc ghi",
+          "đánh dấu",
+          "để xây dựng thương hiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để khắc ghi; đánh dấu; để xây dựng thương hiệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243069,
+        "meaning_vi": "nhớ ; khắc sâu (trong tâm trí)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhớ",
+          "khắc sâu (trong tâm trí)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhớ ; khắc sâu (trong tâm trí)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20261,
+    "word": "記憶",
+    "kana": "きおく",
+    "senses": [
+      {
+        "sense_id": 243070,
+        "meaning_vi": "ký ức; hồi ức; sự tưởng nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "ký ức",
+          "hồi ức",
+          "sự tưởng nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký ức; hồi ức; sự tưởng nhớ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 243071,
+        "meaning_vi": "ký ức; lưu trữ",
+        "confidence": "high",
+        "search_keywords": [
+          "ký ức",
+          "lưu trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký ức; lưu trữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20262,
+    "word": "記憶装置",
+    "kana": "きおくそうち",
+    "senses": [
+      {
+        "sense_id": 243072,
+        "meaning_vi": "lưu trữ (thiết bị); trí nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ (thiết bị)",
+          "trí nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ (thiết bị); trí nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20263,
+    "word": "記憶媒体",
+    "kana": "きおくばいたい",
+    "senses": [
+      {
+        "sense_id": 243073,
+        "meaning_vi": "phương tiện lưu trữ; phương tiện ghi âm",
+        "confidence": "high",
+        "search_keywords": [
+          "phương tiện lưu trữ",
+          "phương tiện ghi âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương tiện lưu trữ; phương tiện ghi âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20264,
+    "word": "記憶法",
+    "kana": "きおくほう",
+    "senses": [
+      {
+        "sense_id": 243074,
+        "meaning_vi": "sự ghi nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự ghi nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự ghi nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20265,
+    "word": "記憶容量",
+    "kana": "きおくようりょう",
+    "senses": [
+      {
+        "sense_id": 243075,
+        "meaning_vi": "dung lượng lưu trữ; dung lượng bộ nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "dung lượng lưu trữ",
+          "dung lượng bộ nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dung lượng lưu trữ; dung lượng bộ nhớ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20266,
+    "word": "記号",
+    "kana": "きごう",
+    "senses": [
+      {
+        "sense_id": 243076,
+        "meaning_vi": "dấu hiệu; biểu tượng; đánh dấu",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu hiệu",
+          "biểu tượng",
+          "đánh dấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu hiệu; biểu tượng; đánh dấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

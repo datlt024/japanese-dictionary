@@ -1,0 +1,455 @@
+[
+  {
+    "vocabulary_id": 126504,
+    "word": "平均化",
+    "kana": "へいきんか",
+    "senses": [
+      {
+        "sense_id": 370151,
+        "meaning_vi": "tính trung bình; san lấp mặt bằng (tắt); cân bằng; tiêu chuẩn hóa; cân đối",
+        "confidence": "high",
+        "search_keywords": [
+          "tính trung bình",
+          "san lấp mặt bằng (tắt)",
+          "cân bằng",
+          "tiêu chuẩn hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính trung bình; san lấp mặt bằng (tắt); cân bằng; tiêu chuẩn hóa; cân đối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126505,
+    "word": "平均故障間隔",
+    "kana": "へいきんこしょうかんかく",
+    "senses": [
+      {
+        "sense_id": 370152,
+        "meaning_vi": "thời gian trung bình giữa các lần thất bại; MTBF",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian trung bình giữa các lần thất bại",
+          "MTBF"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian trung bình giữa các lần thất bại; MTBF",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126506,
+    "word": "平均故障時間",
+    "kana": "へいきんこしょうじかん",
+    "senses": [
+      {
+        "sense_id": 370153,
+        "meaning_vi": "thời gian trung bình để sửa chữa; MTTR",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian trung bình để sửa chữa",
+          "MTTR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian trung bình để sửa chữa; MTTR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126507,
+    "word": "平均光パワー",
+    "kana": "へいきんひかりパワー",
+    "senses": [
+      {
+        "sense_id": 370154,
+        "meaning_vi": "công suất trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "công suất trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công suất trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126508,
+    "word": "平均修復時間",
+    "kana": "へいきんしゅうふくじかん",
+    "senses": [
+      {
+        "sense_id": 370155,
+        "meaning_vi": "thời gian trung bình để sửa chữa; MTTR",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian trung bình để sửa chữa",
+          "MTTR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian trung bình để sửa chữa; MTTR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126509,
+    "word": "平均修理時間",
+    "kana": "へいきんしゅうりじかん",
+    "senses": [
+      {
+        "sense_id": 370156,
+        "meaning_vi": "thời gian trung bình để sửa chữa; MTTR",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian trung bình để sửa chữa",
+          "MTTR"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian trung bình để sửa chữa; MTTR",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126510,
+    "word": "平均情報量",
+    "kana": "へいきんじょうほうりょう",
+    "senses": [
+      {
+        "sense_id": 370157,
+        "meaning_vi": "entropy; nội dung thông tin ý nghĩa; nội dung thông tin trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "entropy",
+          "nội dung thông tin ý nghĩa",
+          "nội dung thông tin trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "entropy; nội dung thông tin ý nghĩa; nội dung thông tin trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126511,
+    "word": "平均伝達情報量",
+    "kana": "へいきんでんたつじょうほうりょう",
+    "senses": [
+      {
+        "sense_id": 370158,
+        "meaning_vi": "thông tin chuyển đổi trung bình (nội dung); thông tin truyền tải trung bình (nội dung)",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin chuyển đổi trung bình (nội dung)",
+          "thông tin truyền tải trung bình (nội dung)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin chuyển đổi trung bình (nội dung); thông tin truyền tải trung bình (nội dung)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126512,
+    "word": "平行光源",
+    "kana": "へいこうこうげん",
+    "senses": [
+      {
+        "sense_id": 370159,
+        "meaning_vi": "nguồn sáng định hướng",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn sáng định hướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn sáng định hướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126513,
+    "word": "平行変換",
+    "kana": "へいこうへんかん",
+    "senses": [
+      {
+        "sense_id": 370160,
+        "meaning_vi": "phép biến đổi song song",
+        "confidence": "high",
+        "search_keywords": [
+          "phép biến đổi song song"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phép biến đổi song song",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126514,
+    "word": "平衡誤差",
+    "kana": "へいこうごさ",
+    "senses": [
+      {
+        "sense_id": 370161,
+        "meaning_vi": "lỗi cân bằng",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi cân bằng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi cân bằng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126515,
+    "word": "平衡的誤差",
+    "kana": "へいこうてきごさ",
+    "senses": [
+      {
+        "sense_id": 370162,
+        "meaning_vi": "lỗi cân bằng",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi cân bằng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi cân bằng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126516,
+    "word": "平面プロッタ",
+    "kana": "へいめんプロッタ",
+    "senses": [
+      {
+        "sense_id": 370163,
+        "meaning_vi": "máy vẽ phẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "máy vẽ phẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy vẽ phẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126517,
+    "word": "平面作図装置",
+    "kana": "へいめんさくずそうち",
+    "senses": [
+      {
+        "sense_id": 370164,
+        "meaning_vi": "máy vẽ phẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "máy vẽ phẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy vẽ phẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126518,
+    "word": "柄様式",
+    "kana": "がらようしき",
+    "senses": [
+      {
+        "sense_id": 370165,
+        "meaning_vi": "phong cách hoa văn",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách hoa văn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách hoa văn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126519,
+    "word": "並び線",
+    "kana": "ならびせん",
+    "senses": [
+      {
+        "sense_id": 370166,
+        "meaning_vi": "đường căn chỉnh",
+        "confidence": "high",
+        "search_keywords": [
+          "đường căn chỉnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường căn chỉnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126520,
+    "word": "並べ替える",
+    "kana": "ならべかえる",
+    "senses": [
+      {
+        "sense_id": 370167,
+        "meaning_vi": "sắp xếp lại; sắp xếp lại; để di chuyển xung quanh; sắp xếp; đối chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "sắp xếp lại",
+          "để di chuyển xung quanh",
+          "sắp xếp",
+          "đối chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắp xếp lại; sắp xếp lại; để di chuyển xung quanh; sắp xếp; đối chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126521,
+    "word": "並行処理",
+    "kana": "へいこうしょり",
+    "senses": [
+      {
+        "sense_id": 370168,
+        "meaning_vi": "xử lý đồng thời",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý đồng thời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý đồng thời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126522,
+    "word": "並行注記",
+    "kana": "へいこうちゅうき",
+    "senses": [
+      {
+        "sense_id": 370169,
+        "meaning_vi": "chú thích song song",
+        "confidence": "high",
+        "search_keywords": [
+          "chú thích song song"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chú thích song song",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126523,
+    "word": "並行的",
+    "kana": "へいこうてき",
+    "senses": [
+      {
+        "sense_id": 370170,
+        "meaning_vi": "song song",
+        "confidence": "high",
+        "search_keywords": [
+          "song song"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "song song",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    padding: 24px 0 48px;
+}
+
+/* ── Header ── */
+.pageHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pageTitle {
+    margin: 0;
+
+    color: var(--color-text-primary);
+
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.pageDesc {
+    margin: 0;
+
+    color: var(--color-text-secondary);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.65;
+}
+
+/* ── Section ── */
+.sectionTitle {
+    margin: 0 0 12px;
+
+    color: var(--color-text-primary);
+
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* ── Level grid ── */
+.levelGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.levelCard {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 16px 18px;
+
+    border: 1.5px solid var(--color-border);
+    border-radius: 16px;
+
+    background: var(--color-surface);
+    color: inherit;
+    text-decoration: none;
+
+    transition: border-color .15s, box-shadow .15s, transform .15s;
+}
+
+.levelCard:hover {
+    border-color: var(--accent, var(--color-primary));
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .06);
+    transform: translateY(-1px);
+}
+
+.levelBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 12px;
+
+    background: color-mix(in srgb, var(--accent, var(--color-primary)) 10%, transparent);
+    color: var(--accent, var(--color-primary));
+
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.levelLabel {
+    margin: 0 0 2px;
+
+    color: var(--color-text-primary);
+
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.levelDesc {
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 12px;
+    font-weight: 500;
+}

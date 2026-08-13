@@ -1,0 +1,460 @@
+[
+  {
+    "vocabulary_id": 126264,
+    "word": "負荷軽減",
+    "kana": "ふかけいげん",
+    "senses": [
+      {
+        "sense_id": 369911,
+        "meaning_vi": "giảm tải",
+        "confidence": "high",
+        "search_keywords": [
+          "giảm tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giảm tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126265,
+    "word": "負荷分散装置",
+    "kana": "ふかぶんさんそうち",
+    "senses": [
+      {
+        "sense_id": 369912,
+        "meaning_vi": "cân bằng tải",
+        "confidence": "high",
+        "search_keywords": [
+          "cân bằng tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cân bằng tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126266,
+    "word": "負荷分散電源供給",
+    "kana": "ふかぶんさんでんげんきょうきゅう",
+    "senses": [
+      {
+        "sense_id": 369913,
+        "meaning_vi": "cung cấp điện chia sẻ tải",
+        "confidence": "high",
+        "search_keywords": [
+          "cung cấp điện chia sẻ tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cung cấp điện chia sẻ tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126267,
+    "word": "負荷平衡",
+    "kana": "ふかへいこう",
+    "senses": [
+      {
+        "sense_id": 369914,
+        "meaning_vi": "cân bằng tải",
+        "confidence": "high",
+        "search_keywords": [
+          "cân bằng tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cân bằng tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126268,
+    "word": "部の見出し",
+    "kana": "ぶのみだし",
+    "senses": [
+      {
+        "sense_id": 369915,
+        "meaning_vi": "tiêu đề phân chia",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu đề phân chia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu đề phân chia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126269,
+    "word": "部品表",
+    "kana": "ぶひんひょう",
+    "senses": [
+      {
+        "sense_id": 369916,
+        "meaning_vi": "hóa đơn vật liệu; BOM",
+        "confidence": "high",
+        "search_keywords": [
+          "hóa đơn vật liệu",
+          "BOM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hóa đơn vật liệu; BOM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126270,
+    "word": "部分回復",
+    "kana": "ぶぶんかいふく",
+    "senses": [
+      {
+        "sense_id": 369917,
+        "meaning_vi": "phục hồi một phần",
+        "confidence": "high",
+        "search_keywords": [
+          "phục hồi một phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục hồi một phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126271,
+    "word": "部分語",
+    "kana": "ぶぶんご",
+    "senses": [
+      {
+        "sense_id": 369918,
+        "meaning_vi": "thuật ngữ phân chia",
+        "confidence": "high",
+        "search_keywords": [
+          "thuật ngữ phân chia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuật ngữ phân chia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126272,
+    "word": "部分参照子",
+    "kana": "ぶぶんさんしょうし",
+    "senses": [
+      {
+        "sense_id": 369919,
+        "meaning_vi": "công cụ sửa đổi tham chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "công cụ sửa đổi tham chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công cụ sửa đổi tham chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126273,
+    "word": "部分実装",
+    "kana": "ぶぶんじっそう",
+    "senses": [
+      {
+        "sense_id": 369920,
+        "meaning_vi": "dân cư một phần",
+        "confidence": "high",
+        "search_keywords": [
+          "dân cư một phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dân cư một phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126274,
+    "word": "部分実体",
+    "kana": "ぶぶんじったい",
+    "senses": [
+      {
+        "sense_id": 369921,
+        "meaning_vi": "đối tượng phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "đối tượng phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối tượng phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126275,
+    "word": "部分全体関係",
+    "kana": "ぶぶんぜんたいかんけい",
+    "senses": [
+      {
+        "sense_id": 369922,
+        "meaning_vi": "mối quan hệ một phần-toàn bộ; quan hệ phân chia",
+        "confidence": "high",
+        "search_keywords": [
+          "mối quan hệ một phần-toàn bộ",
+          "quan hệ phân chia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mối quan hệ một phần-toàn bộ; quan hệ phân chia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126276,
+    "word": "部分属性要求",
+    "kana": "ぶぶんぞくせいようきゅう",
+    "senses": [
+      {
+        "sense_id": 369923,
+        "meaning_vi": "yêu cầu một phần thuộc tính",
+        "confidence": "high",
+        "search_keywords": [
+          "yêu cầu một phần thuộc tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yêu cầu một phần thuộc tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126277,
+    "word": "部分配列",
+    "kana": "ぶぶんはいれつ",
+    "senses": [
+      {
+        "sense_id": 369924,
+        "meaning_vi": "phần mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "phần mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126278,
+    "word": "部分配列添字",
+    "kana": "ぶぶんはいれつそえじ",
+    "senses": [
+      {
+        "sense_id": 369925,
+        "meaning_vi": "chỉ số mục",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ số mục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ số mục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126279,
+    "word": "部分文字列",
+    "kana": "ぶぶんもじれつ",
+    "senses": [
+      {
+        "sense_id": 369926,
+        "meaning_vi": "một phần chuỗi (ký tự); chuỗi con",
+        "confidence": "high",
+        "search_keywords": [
+          "một phần chuỗi (ký tự)",
+          "chuỗi con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một phần chuỗi (ký tự); chuỗi con",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126280,
+    "word": "部分木",
+    "kana": "ぶぶんき",
+    "senses": [
+      {
+        "sense_id": 369927,
+        "meaning_vi": "cây con",
+        "confidence": "high",
+        "search_keywords": [
+          "cây con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây con",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126281,
+    "word": "部分要素",
+    "kana": "ぶぶんようそ",
+    "senses": [
+      {
+        "sense_id": 369928,
+        "meaning_vi": "phần tử phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "phần tử phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần tử phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126282,
+    "word": "部分領域",
+    "kana": "ぶぶんりょういき",
+    "senses": [
+      {
+        "sense_id": 369929,
+        "meaning_vi": "phần",
+        "confidence": "high",
+        "search_keywords": [
+          "phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126283,
+    "word": "部分列",
+    "kana": "ぶぶんれつ",
+    "senses": [
+      {
+        "sense_id": 369930,
+        "meaning_vi": "chuỗi con",
+        "confidence": "high",
+        "search_keywords": [
+          "chuỗi con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuỗi con",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 369931,
+        "meaning_vi": "tiếp theo",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếp theo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếp theo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

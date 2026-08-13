@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 126924,
+    "word": "連係編集プログラム",
+    "kana": "れんけいへんしゅうプログラム",
+    "senses": [
+      {
+        "sense_id": 370574,
+        "meaning_vi": "người liên kết; chương trình liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "người liên kết",
+          "chương trình liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người liên kết; chương trình liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126925,
+    "word": "連結リスト",
+    "kana": "れんけつリスト",
+    "senses": [
+      {
+        "sense_id": 370575,
+        "meaning_vi": "danh sách xâu chuỗi; danh sách liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "danh sách xâu chuỗi",
+          "danh sách liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh sách xâu chuỗi; danh sách liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126926,
+    "word": "連結リスト探索",
+    "kana": "れんけつリストたんさく",
+    "senses": [
+      {
+        "sense_id": 370576,
+        "meaning_vi": "tìm kiếm danh sách chuỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "tìm kiếm danh sách chuỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tìm kiếm danh sách chuỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126927,
+    "word": "連結演算子",
+    "kana": "れんけつえんざんし",
+    "senses": [
+      {
+        "sense_id": 370577,
+        "meaning_vi": "toán tử nối",
+        "confidence": "high",
+        "search_keywords": [
+          "toán tử nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán tử nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126928,
+    "word": "連結型宣言",
+    "kana": "れんけつがたせんげん",
+    "senses": [
+      {
+        "sense_id": 370578,
+        "meaning_vi": "khai báo kiểu liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "khai báo kiểu liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai báo kiểu liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126929,
+    "word": "連結型宣言部分集合",
+    "kana": "れんけつがたせんげんぶぶんしゅうごう",
+    "senses": [
+      {
+        "sense_id": 370579,
+        "meaning_vi": "tập hợp con khai báo loại liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "tập hợp con khai báo loại liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập hợp con khai báo loại liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126930,
+    "word": "連結式",
+    "kana": "れんけつしき",
+    "senses": [
+      {
+        "sense_id": 370580,
+        "meaning_vi": "biểu thức nối",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu thức nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu thức nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126931,
+    "word": "連結集合",
+    "kana": "れんけつしゅうごう",
+    "senses": [
+      {
+        "sense_id": 370581,
+        "meaning_vi": "bộ liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126932,
+    "word": "連結集合宣言",
+    "kana": "れんけつしゅうごうせんげん",
+    "senses": [
+      {
+        "sense_id": 370582,
+        "meaning_vi": "khai báo bộ liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "khai báo bộ liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai báo bộ liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126933,
+    "word": "連結処理",
+    "kana": "れんけつしょり",
+    "senses": [
+      {
+        "sense_id": 370583,
+        "meaning_vi": "quá trình liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "quá trình liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quá trình liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126934,
+    "word": "連結処理定義",
+    "kana": "れんけつしょりていぎ",
+    "senses": [
+      {
+        "sense_id": 370584,
+        "meaning_vi": "định nghĩa quá trình liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "định nghĩa quá trình liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định nghĩa quá trình liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126935,
+    "word": "連結性",
+    "kana": "れんけつせい",
+    "senses": [
+      {
+        "sense_id": 370585,
+        "meaning_vi": "kết nối",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126936,
+    "word": "連結操作",
+    "kana": "れんけつそうさ",
+    "senses": [
+      {
+        "sense_id": 370586,
+        "meaning_vi": "hoạt động liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126937,
+    "word": "連結属性",
+    "kana": "れんけつぞくせい",
+    "senses": [
+      {
+        "sense_id": 370587,
+        "meaning_vi": "thuộc tính liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126938,
+    "word": "連結網",
+    "kana": "れんけつもう",
+    "senses": [
+      {
+        "sense_id": 370588,
+        "meaning_vi": "mạng lưới",
+        "confidence": "high",
+        "search_keywords": [
+          "mạng lưới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mạng lưới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126939,
+    "word": "連結網表示",
+    "kana": "れんけつもうひょうじ",
+    "senses": [
+      {
+        "sense_id": 370589,
+        "meaning_vi": "lượt xem",
+        "confidence": "high",
+        "search_keywords": [
+          "lượt xem"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lượt xem",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126940,
+    "word": "連言",
+    "kana": "れんげん",
+    "senses": [
+      {
+        "sense_id": 370590,
+        "meaning_vi": "sự kết hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kết hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kết hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126941,
+    "word": "連鎖シーケンス",
+    "kana": "れんさシーケンス",
+    "senses": [
+      {
+        "sense_id": 370591,
+        "meaning_vi": "trình tự xâu chuỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự xâu chuỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự xâu chuỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126942,
+    "word": "連鎖リスト",
+    "kana": "れんさリスト",
+    "senses": [
+      {
+        "sense_id": 370592,
+        "meaning_vi": "danh sách xâu chuỗi; danh sách liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "danh sách xâu chuỗi",
+          "danh sách liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh sách xâu chuỗi; danh sách liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126943,
+    "word": "連鎖リスト探索",
+    "kana": "れんさリストたんさく",
+    "senses": [
+      {
+        "sense_id": 370593,
+        "meaning_vi": "tìm kiếm danh sách chuỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "tìm kiếm danh sách chuỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tìm kiếm danh sách chuỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

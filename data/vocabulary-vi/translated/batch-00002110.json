@@ -1,0 +1,666 @@
+[
+  {
+    "vocabulary_id": 55086,
+    "word": "安全弁",
+    "kana": "あんぜんべん",
+    "senses": [
+      {
+        "sense_id": 289751,
+        "meaning_vi": "van an toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "van an toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "van an toàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55087,
+    "word": "塩梅",
+    "kana": "あんばい",
+    "senses": [
+      {
+        "sense_id": 289752,
+        "meaning_vi": "gia vị; hương vị; hương vị; hương vị",
+        "confidence": "high",
+        "search_keywords": [
+          "gia vị",
+          "hương vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gia vị; hương vị; hương vị; hương vị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289753,
+        "meaning_vi": "tình trạng; tình trạng; tình huống",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng",
+          "tình huống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng; tình trạng; tình huống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289754,
+        "meaning_vi": "(tình trạng) sức khỏe; tình trạng thể chất",
+        "confidence": "high",
+        "search_keywords": [
+          "(tình trạng) sức khỏe",
+          "tình trạng thể chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tình trạng) sức khỏe; tình trạng thể chất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289755,
+        "meaning_vi": "sắp xếp; phân công; điều chỉnh; xử lý; đối phó với",
+        "confidence": "high",
+        "search_keywords": [
+          "sắp xếp",
+          "phân công",
+          "điều chỉnh",
+          "xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắp xếp; phân công; điều chỉnh; xử lý; đối phó với",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55088,
+    "word": "案分",
+    "kana": "あんぶん",
+    "senses": [
+      {
+        "sense_id": 289756,
+        "meaning_vi": "phân chia tỷ lệ; phân phối theo tỷ lệ",
+        "confidence": "high",
+        "search_keywords": [
+          "phân chia tỷ lệ",
+          "phân phối theo tỷ lệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân chia tỷ lệ; phân phối theo tỷ lệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55089,
+    "word": "暗譜",
+    "kana": "あんぷ",
+    "senses": [
+      {
+        "sense_id": 289757,
+        "meaning_vi": "ghi nhớ một bản nhạc",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi nhớ một bản nhạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi nhớ một bản nhạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55090,
+    "word": "言い合い",
+    "kana": "いいあい",
+    "senses": [
+      {
+        "sense_id": 289758,
+        "meaning_vi": "cãi nhau; tranh chấp",
+        "confidence": "high",
+        "search_keywords": [
+          "cãi nhau",
+          "tranh chấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cãi nhau; tranh chấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55091,
+    "word": "言い合う",
+    "kana": "いいあう",
+    "senses": [
+      {
+        "sense_id": 289759,
+        "meaning_vi": "nói với nhau; để trao đổi (câu chuyện cười, bình luận, vv)",
+        "confidence": "high",
+        "search_keywords": [
+          "nói với nhau",
+          "để trao đổi (câu chuyện cười, bình luận, vv)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói với nhau; để trao đổi (câu chuyện cười, bình luận, vv)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289760,
+        "meaning_vi": "cãi nhau; tranh chấp",
+        "confidence": "high",
+        "search_keywords": [
+          "cãi nhau",
+          "tranh chấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cãi nhau; tranh chấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55092,
+    "word": "唯々諾々",
+    "kana": "いいだくだく",
+    "senses": [
+      {
+        "sense_id": 289761,
+        "meaning_vi": "nghe lời; phục tùng; thuần hóa; mù quáng",
+        "confidence": "high",
+        "search_keywords": [
+          "nghe lời",
+          "phục tùng",
+          "thuần hóa",
+          "mù quáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghe lời; phục tùng; thuần hóa; mù quáng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55093,
+    "word": "許嫁",
+    "kana": "いいなずけ",
+    "senses": [
+      {
+        "sense_id": 289762,
+        "meaning_vi": "hôn phu; hôn thê",
+        "confidence": "high",
+        "search_keywords": [
+          "hôn phu",
+          "hôn thê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hôn phu; hôn thê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55094,
+    "word": "言い訳",
+    "kana": "いいわけ",
+    "senses": [
+      {
+        "sense_id": 289763,
+        "meaning_vi": "xin lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "xin lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xin lỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289764,
+        "meaning_vi": "lời giải thích",
+        "confidence": "high",
+        "search_keywords": [
+          "lời giải thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời giải thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55095,
+    "word": "言う",
+    "kana": "いう",
+    "senses": [
+      {
+        "sense_id": 289765,
+        "meaning_vi": "nói ; thốt ra ; tuyên bố",
+        "confidence": "high",
+        "search_keywords": [
+          "nói",
+          "thốt ra",
+          "tuyên bố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói ; thốt ra ; tuyên bố",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289766,
+        "meaning_vi": "đặt tên; gọi",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt tên",
+          "gọi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt tên; gọi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289767,
+        "meaning_vi": "đi (ví dụ: \"chuông báo thức kêu\"); gây ồn ào",
+        "confidence": "high",
+        "search_keywords": [
+          "đi (ví dụ: \"chuông báo thức kêu\")",
+          "gây ồn ào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi (ví dụ: \"chuông báo thức kêu\"); gây ồn ào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55096,
+    "word": "家々",
+    "kana": "いえいえ",
+    "senses": [
+      {
+        "sense_id": 289768,
+        "meaning_vi": "từng ngôi nhà; mọi nhà; nhiều ngôi nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "từng ngôi nhà",
+          "mọi nhà",
+          "nhiều ngôi nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từng ngôi nhà; mọi nhà; nhiều ngôi nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55097,
+    "word": "家並み",
+    "kana": "いえなみ",
+    "senses": [
+      {
+        "sense_id": 289769,
+        "meaning_vi": "dãy nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "dãy nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dãy nhà",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289770,
+        "meaning_vi": "từng ngôi nhà; mọi nhà; mọi cánh cửa",
+        "confidence": "high",
+        "search_keywords": [
+          "từng ngôi nhà",
+          "mọi nhà",
+          "mọi cánh cửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từng ngôi nhà; mọi nhà; mọi cánh cửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55098,
+    "word": "生かす",
+    "kana": "いかす",
+    "senses": [
+      {
+        "sense_id": 289771,
+        "meaning_vi": "để sử dụng (tốt nhất); để sử dụng tốt; tận dụng (kỹ năng, thuộc tính, kinh nghiệm, v.v.); tận dụng (kinh nghiệm, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "để sử dụng (tốt nhất)",
+          "để sử dụng tốt",
+          "tận dụng (kỹ năng, thuộc tính, kinh nghiệm, v.v.)",
+          "tận dụng (kinh nghiệm, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để sử dụng (tốt nhất); để sử dụng tốt; tận dụng (kỹ năng, thuộc tính, kinh nghiệm, v.v.); tận dụng (kinh nghiệm, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289772,
+        "meaning_vi": "để cho sống; để tiếp tục sống",
+        "confidence": "high",
+        "search_keywords": [
+          "để cho sống",
+          "để tiếp tục sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để cho sống; để tiếp tục sống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289773,
+        "meaning_vi": "hồi sinh; hồi sức; để mang lại sự sống",
+        "confidence": "high",
+        "search_keywords": [
+          "hồi sinh",
+          "hồi sức",
+          "để mang lại sự sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồi sinh; hồi sức; để mang lại sự sống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289774,
+        "meaning_vi": "để khôi phục (một đoạn văn đã bị xóa; trong quá trình hiệu đính)",
+        "confidence": "high",
+        "search_keywords": [
+          "để khôi phục (một đoạn văn đã bị xóa",
+          "trong quá trình hiệu đính)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để khôi phục (một đoạn văn đã bị xóa; trong quá trình hiệu đính)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55099,
+    "word": "遺棄",
+    "kana": "いき",
+    "senses": [
+      {
+        "sense_id": 289775,
+        "meaning_vi": "sự bỏ rơi; sự đào ngũ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bỏ rơi",
+          "sự đào ngũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bỏ rơi; sự đào ngũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55100,
+    "word": "生き方",
+    "kana": "いきかた",
+    "senses": [
+      {
+        "sense_id": 289776,
+        "meaning_vi": "lối sống; làm thế nào để sống",
+        "confidence": "high",
+        "search_keywords": [
+          "lối sống",
+          "làm thế nào để sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lối sống; làm thế nào để sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55101,
+    "word": "生き字引",
+    "kana": "いきじびき",
+    "senses": [
+      {
+        "sense_id": 289777,
+        "meaning_vi": "bách khoa toàn thư đi bộ; từ điển đi bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "bách khoa toàn thư đi bộ",
+          "từ điển đi bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bách khoa toàn thư đi bộ; từ điển đi bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55102,
+    "word": "意気揚々",
+    "kana": "いきようよう",
+    "senses": [
+      {
+        "sense_id": 289778,
+        "meaning_vi": "chiến thắng; hân hoan; với tinh thần cao độ và kiêu hãnh",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến thắng",
+          "hân hoan",
+          "với tinh thần cao độ và kiêu hãnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến thắng; hân hoan; với tinh thần cao độ và kiêu hãnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55103,
+    "word": "行き渡る",
+    "kana": "いきわたる",
+    "senses": [
+      {
+        "sense_id": 289779,
+        "meaning_vi": "khuếch tán; lan rộng khắp; chiếm ưu thế; trở nên phổ biến; để tiếp cận mọi người",
+        "confidence": "high",
+        "search_keywords": [
+          "khuếch tán",
+          "lan rộng khắp",
+          "chiếm ưu thế",
+          "trở nên phổ biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuếch tán; lan rộng khắp; chiếm ưu thế; trở nên phổ biến; để tiếp cận mọi người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55104,
+    "word": "戦",
+    "kana": "いくさ",
+    "senses": [
+      {
+        "sense_id": 289780,
+        "meaning_vi": "chiến tranh; trận đánh; chiến dịch; chiến đấu",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến tranh",
+          "trận đánh",
+          "chiến dịch",
+          "chiến đấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến tranh; trận đánh; chiến dịch; chiến đấu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289781,
+        "meaning_vi": "quân đội; lực lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "quân đội",
+          "lực lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quân đội; lực lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55105,
+    "word": "育成",
+    "kana": "いくせい",
+    "senses": [
+      {
+        "sense_id": 289782,
+        "meaning_vi": "nuôi dưỡng; đào tạo; nuôi dưỡng; trồng trọt; khuyến mãi",
+        "confidence": "high",
+        "search_keywords": [
+          "nuôi dưỡng",
+          "đào tạo",
+          "trồng trọt",
+          "khuyến mãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nuôi dưỡng; đào tạo; nuôi dưỡng; trồng trọt; khuyến mãi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

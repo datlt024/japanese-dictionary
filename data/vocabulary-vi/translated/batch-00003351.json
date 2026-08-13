@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 84038,
+    "word": "上載圧",
+    "kana": "じょうさいあつ",
+    "senses": [
+      {
+        "sense_id": 323676,
+        "meaning_vi": "căng thẳng quá tải",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng quá tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng quá tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84039,
+    "word": "単位体積重量",
+    "kana": "たんいたいせきじゅうりょう",
+    "senses": [
+      {
+        "sense_id": 323677,
+        "meaning_vi": "đơn vị trọng lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị trọng lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị trọng lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84040,
+    "word": "拘束圧",
+    "kana": "こうそくあつ",
+    "senses": [
+      {
+        "sense_id": 323678,
+        "meaning_vi": "áp lực hạn chế",
+        "confidence": "high",
+        "search_keywords": [
+          "áp lực hạn chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áp lực hạn chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84041,
+    "word": "破砕性",
+    "kana": "はさいせい",
+    "senses": [
+      {
+        "sense_id": 323679,
+        "meaning_vi": "có thể nghiền nát; dễ vỡ; tính dễ vỡ",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể nghiền nát",
+          "dễ vỡ",
+          "tính dễ vỡ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể nghiền nát; dễ vỡ; tính dễ vỡ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84042,
+    "word": "実験値",
+    "kana": "じっけんち",
+    "senses": [
+      {
+        "sense_id": 323680,
+        "meaning_vi": "kết quả kiểm tra",
+        "confidence": "high",
+        "search_keywords": [
+          "kết quả kiểm tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết quả kiểm tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84043,
+    "word": "等方",
+    "kana": "とうほう",
+    "senses": [
+      {
+        "sense_id": 323681,
+        "meaning_vi": "đẳng hướng",
+        "confidence": "high",
+        "search_keywords": [
+          "đẳng hướng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẳng hướng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84044,
+    "word": "せん断抵抗角",
+    "kana": "せんだんていこうかく",
+    "senses": [
+      {
+        "sense_id": 323682,
+        "meaning_vi": "góc chống cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "góc chống cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "góc chống cắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84045,
+    "word": "せん断弾性係数",
+    "kana": "せんだんだんせいけいすう",
+    "senses": [
+      {
+        "sense_id": 323683,
+        "meaning_vi": "mô đun cắt đàn hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "mô đun cắt đàn hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô đun cắt đàn hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84046,
+    "word": "せん断剛性",
+    "kana": "せんだんごうせい",
+    "senses": [
+      {
+        "sense_id": 323684,
+        "meaning_vi": "mô đun cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "mô đun cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô đun cắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84047,
+    "word": "せん断強さ",
+    "kana": "せんだんつよさ",
+    "senses": [
+      {
+        "sense_id": 323685,
+        "meaning_vi": "sức mạnh cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "sức mạnh cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức mạnh cắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84048,
+    "word": "せん断強度",
+    "kana": "せんだんきょうど",
+    "senses": [
+      {
+        "sense_id": 323686,
+        "meaning_vi": "sức mạnh cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "sức mạnh cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức mạnh cắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84049,
+    "word": "せん断箱",
+    "kana": "せんだんばこ",
+    "senses": [
+      {
+        "sense_id": 323688,
+        "meaning_vi": "hộp cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp cắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84050,
+    "word": "主応力",
+    "kana": "しゅおうりょく",
+    "senses": [
+      {
+        "sense_id": 323689,
+        "meaning_vi": "căng thẳng chính",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84051,
+    "word": "非排水",
+    "kana": "ひはいすい",
+    "senses": [
+      {
+        "sense_id": 323690,
+        "meaning_vi": "không thoát nước",
+        "confidence": "high",
+        "search_keywords": [
+          "không thoát nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thoát nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84052,
+    "word": "排水条件",
+    "kana": "はいすいじょうけん",
+    "senses": [
+      {
+        "sense_id": 323691,
+        "meaning_vi": "điều kiện thoát nước",
+        "confidence": "high",
+        "search_keywords": [
+          "điều kiện thoát nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều kiện thoát nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84053,
+    "word": "捩じり",
+    "kana": "ねじり",
+    "senses": [
+      {
+        "sense_id": 323692,
+        "meaning_vi": "xoắn; áp dụng mô-men xoắn",
+        "confidence": "high",
+        "search_keywords": [
+          "xoắn",
+          "áp dụng mô-men xoắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xoắn; áp dụng mô-men xoắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84054,
+    "word": "試験機",
+    "kana": "しけんき",
+    "senses": [
+      {
+        "sense_id": 323693,
+        "meaning_vi": "bộ máy thử nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ máy thử nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ máy thử nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84055,
+    "word": "変位制御",
+    "kana": "へんいせいぎょ",
+    "senses": [
+      {
+        "sense_id": 323694,
+        "meaning_vi": "điều khiển chuyển vị",
+        "confidence": "high",
+        "search_keywords": [
+          "điều khiển chuyển vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều khiển chuyển vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84056,
+    "word": "液状化",
+    "kana": "えきじょうか",
+    "senses": [
+      {
+        "sense_id": 323695,
+        "meaning_vi": "hóa lỏng; hóa lỏng",
+        "confidence": "high",
+        "search_keywords": [
+          "hóa lỏng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hóa lỏng; hóa lỏng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 84057,
+    "word": "杭周面摩擦力",
+    "kana": "くいしゅうめんまさつりょく",
+    "senses": [
+      {
+        "sense_id": 323696,
+        "meaning_vi": "ma sát trục cọc",
+        "confidence": "high",
+        "search_keywords": [
+          "ma sát trục cọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ma sát trục cọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

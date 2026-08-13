@@ -1,0 +1,597 @@
+[
+  {
+    "vocabulary_id": 28304,
+    "word": "史略",
+    "kana": "しりゃく",
+    "senses": [
+      {
+        "sense_id": 253622,
+        "meaning_vi": "phác thảo lịch sử",
+        "confidence": "high",
+        "search_keywords": [
+          "phác thảo lịch sử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phác thảo lịch sử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28305,
+    "word": "史料",
+    "kana": "しりょう",
+    "senses": [
+      {
+        "sense_id": 253623,
+        "meaning_vi": "tài liệu lịch sử; ghi chép lịch sử; nguồn lịch sử; kho lưu trữ",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu lịch sử",
+          "ghi chép lịch sử",
+          "nguồn lịch sử",
+          "kho lưu trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu lịch sử; ghi chép lịch sử; nguồn lịch sử; kho lưu trữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28306,
+    "word": "史料館",
+    "kana": "しりょうかん",
+    "senses": [
+      {
+        "sense_id": 253624,
+        "meaning_vi": "kho lưu trữ (xây dựng); văn phòng ghi âm; viện bảo tàng",
+        "confidence": "high",
+        "search_keywords": [
+          "kho lưu trữ (xây dựng)",
+          "văn phòng ghi âm",
+          "viện bảo tàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kho lưu trữ (xây dựng); văn phòng ghi âm; viện bảo tàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28307,
+    "word": "史料編纂",
+    "kana": "しりょうへんさん",
+    "senses": [
+      {
+        "sense_id": 253625,
+        "meaning_vi": "sử học",
+        "confidence": "high",
+        "search_keywords": [
+          "sử học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sử học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28308,
+    "word": "史論",
+    "kana": "しろん",
+    "senses": [
+      {
+        "sense_id": 253626,
+        "meaning_vi": "chuyên luận lịch sử; thảo luận lịch sử",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyên luận lịch sử",
+          "thảo luận lịch sử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyên luận lịch sử; thảo luận lịch sử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28309,
+    "word": "嗣子",
+    "kana": "しし",
+    "senses": [
+      {
+        "sense_id": 253627,
+        "meaning_vi": "người thừa kế",
+        "confidence": "high",
+        "search_keywords": [
+          "người thừa kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thừa kế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28310,
+    "word": "四つ",
+    "kana": "よっつ",
+    "senses": [
+      {
+        "sense_id": 253628,
+        "meaning_vi": "bốn; 4",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn",
+          "4"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn; 4",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253629,
+        "meaning_vi": "bốn tuổi",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn tuổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn tuổi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253630,
+        "meaning_vi": "mười giờ (theo hệ thống thời gian cũ)",
+        "confidence": "high",
+        "search_keywords": [
+          "mười giờ (theo hệ thống thời gian cũ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mười giờ (theo hệ thống thời gian cũ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253631,
+        "meaning_vi": "burakumin",
+        "confidence": "low",
+        "search_keywords": [
+          "burakumin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "burakumin",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253632,
+        "meaning_vi": "tay cầm chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "tay cầm chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tay cầm chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28311,
+    "word": "四つん這い",
+    "kana": "よつんばい",
+    "senses": [
+      {
+        "sense_id": 253633,
+        "meaning_vi": "bò bằng bốn chân; đứng bằng bốn chân; quỳ gối",
+        "confidence": "high",
+        "search_keywords": [
+          "bò bằng bốn chân",
+          "đứng bằng bốn chân",
+          "quỳ gối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bò bằng bốn chân; đứng bằng bốn chân; quỳ gối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28312,
+    "word": "四つ角",
+    "kana": "よつかど",
+    "senses": [
+      {
+        "sense_id": 253634,
+        "meaning_vi": "bốn góc",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn góc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn góc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253635,
+        "meaning_vi": "ngã tư; đường giao nhau; góc phố",
+        "confidence": "high",
+        "search_keywords": [
+          "ngã tư",
+          "đường giao nhau",
+          "góc phố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngã tư; đường giao nhau; góc phố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28313,
+    "word": "四つ足",
+    "kana": "よつあし",
+    "senses": [
+      {
+        "sense_id": 253636,
+        "meaning_vi": "bốn chân; bốn chân",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn chân; bốn chân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253637,
+        "meaning_vi": "động vật (bốn chân); con thú",
+        "confidence": "high",
+        "search_keywords": [
+          "động vật (bốn chân)",
+          "con thú"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động vật (bốn chân); con thú",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28314,
+    "word": "四つ葉のクローバー",
+    "kana": "よつばのクローバー",
+    "senses": [
+      {
+        "sense_id": 253638,
+        "meaning_vi": "cỏ bốn lá",
+        "confidence": "high",
+        "search_keywords": [
+          "cỏ bốn lá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cỏ bốn lá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28315,
+    "word": "四角",
+    "kana": "しかく",
+    "senses": [
+      {
+        "sense_id": 253639,
+        "meaning_vi": "tứ giác; hình vuông",
+        "confidence": "high",
+        "search_keywords": [
+          "tứ giác",
+          "hình vuông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tứ giác; hình vuông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28316,
+    "word": "四角い",
+    "kana": "しかくい",
+    "senses": [
+      {
+        "sense_id": 253640,
+        "meaning_vi": "quảng trường; hình chữ nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "quảng trường",
+          "hình chữ nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quảng trường; hình chữ nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28317,
+    "word": "四角形",
+    "kana": "しかくけい",
+    "senses": [
+      {
+        "sense_id": 253641,
+        "meaning_vi": "tứ giác; hình tứ giác; tứ giác",
+        "confidence": "high",
+        "search_keywords": [
+          "tứ giác",
+          "hình tứ giác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tứ giác; hình tứ giác; tứ giác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28318,
+    "word": "四季",
+    "kana": "しき",
+    "senses": [
+      {
+        "sense_id": 253642,
+        "meaning_vi": "bốn mùa",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn mùa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn mùa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28319,
+    "word": "四球",
+    "kana": "しきゅう",
+    "senses": [
+      {
+        "sense_id": 253643,
+        "meaning_vi": "căn cứ vào quả bóng; đi bộ; vượt qua",
+        "confidence": "high",
+        "search_keywords": [
+          "căn cứ vào quả bóng",
+          "đi bộ",
+          "vượt qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn cứ vào quả bóng; đi bộ; vượt qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28320,
+    "word": "四苦八苦",
+    "kana": "しくはっく",
+    "senses": [
+      {
+        "sense_id": 253644,
+        "meaning_vi": "đang gặp nạn trầm trọng; khó thực hiện nó; bị ép (vì tiền)",
+        "confidence": "high",
+        "search_keywords": [
+          "đang gặp nạn trầm trọng",
+          "khó thực hiện nó",
+          "bị ép (vì tiền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang gặp nạn trầm trọng; khó thực hiện nó; bị ép (vì tiền)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253645,
+        "meaning_vi": "bốn và tám loại khổ (sinh, lão, bệnh, tử, ly thân, gặp kẻ ghét, không được điều mình mong muốn, nỗi đau của năm uẩn)",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn và tám loại khổ (sinh, lão, bệnh, tử, ly thân, gặp kẻ ghét, không được điều mình mong muốn, nỗi đau của năm uẩn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn và tám loại khổ (sinh, lão, bệnh, tử, ly thân, gặp kẻ ghét, không được điều mình mong muốn, nỗi đau của năm uẩn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28321,
+    "word": "四隅",
+    "kana": "よすみ",
+    "senses": [
+      {
+        "sense_id": 253646,
+        "meaning_vi": "bốn góc",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn góc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn góc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253647,
+        "meaning_vi": "bốn hướng thứ tự",
+        "confidence": "high",
+        "search_keywords": [
+          "bốn hướng thứ tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bốn hướng thứ tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28322,
+    "word": "四桁",
+    "kana": "よけた",
+    "senses": [
+      {
+        "sense_id": 253648,
+        "meaning_vi": "số có bốn chữ số; cột hàng nghìn",
+        "confidence": "high",
+        "search_keywords": [
+          "số có bốn chữ số",
+          "cột hàng nghìn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số có bốn chữ số; cột hàng nghìn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 28323,
+    "word": "４月",
+    "kana": "しがつ",
+    "senses": [
+      {
+        "sense_id": 253649,
+        "meaning_vi": "tháng tư",
+        "confidence": "high",
+        "search_keywords": [
+          "tháng tư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tháng tư",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 253650,
+        "meaning_vi": "tháng 4 âm lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "tháng 4 âm lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tháng 4 âm lịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

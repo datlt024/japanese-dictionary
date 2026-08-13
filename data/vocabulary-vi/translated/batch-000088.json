@@ -1,516 +1,483 @@
 [
-{
-"vocabulary_id": 2402,
-"word": "エイトビート",
-"kana": "エイトビート",
-"senses": [
-{
-"sense_id": 220648,
-"meaning_vi": "nhịp tám beat",
-"confidence": "high",
-"search_keywords": [
-"nhịp tám beat",
-"eight beat",
-"nhịp 8 beat"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu tiết tấu tám beat phổ biến trong nhạc rock, pop",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2403,
-"word": "エイリアス",
-"kana": "エイリアス",
-"senses": [
-{
-"sense_id": 220649,
-"meaning_vi": "bí danh",
-"confidence": "high",
-"search_keywords": [
-"bí danh",
-"tên thay thế",
-"alias"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bí danh hoặc tên thay thế dùng để tham chiếu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2404,
-"word": "エイリアン",
-"kana": "エイリアン",
-"senses": [
-{
-"sense_id": 220650,
-"meaning_vi": "người ngoài hành tinh",
-"confidence": "high",
-"search_keywords": [
-"người ngoài hành tinh",
-"sinh vật ngoài hành tinh",
-"alien"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sinh vật hoặc người ngoài hành tinh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2405,
-"word": "エオニズム",
-"kana": "エオニズム",
-"senses": [
-{
-"sense_id": 220651,
-"meaning_vi": "ái phục trang khác giới",
-"confidence": "medium",
-"search_keywords": [
-"ái phục trang khác giới",
-"mặc đồ khác giới",
-"transvestism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự mặc trang phục của giới khác; thuật ngữ hiếm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2406,
-"word": "エキサイティング",
-"kana": "エキサイティング",
-"senses": [
-{
-"sense_id": 220652,
-"meaning_vi": "hào hứng",
-"confidence": "high",
-"search_keywords": [
-"hào hứng",
-"kích thích",
-"sôi động"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gây hào hứng; làm phấn khích",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2407,
-"word": "エキサイト",
-"kana": "エキサイト",
-"senses": [
-{
-"sense_id": 220653,
-"meaning_vi": "phấn khích",
-"confidence": "high",
-"search_keywords": [
-"phấn khích",
-"hào hứng",
-"kích động"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự phấn khích; trở nên hào hứng hoặc kích động",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2408,
-"word": "エキササイズ",
-"kana": "エキササイズ",
-"senses": [
-{
-"sense_id": 220654,
-"meaning_vi": "bài tập thể dục",
-"confidence": "high",
-"search_keywords": [
-"bài tập thể dục",
-"tập luyện",
-"exercise"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bài tập hoặc hoạt động rèn luyện cơ thể",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2409,
-"word": "エキササイズウォーキング",
-"kana": "エキササイズウォーキング",
-"senses": [
-{
-"sense_id": 220655,
-"meaning_vi": "đi bộ tập luyện",
-"confidence": "high",
-"search_keywords": [
-"đi bộ tập luyện",
-"đi bộ thể dục",
-"exercise walking"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đi bộ với mục đích rèn luyện sức khỏe",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2410,
-"word": "エキシビション",
-"kana": "エキシビション",
-"senses": [
-{
-"sense_id": 220656,
-"meaning_vi": "triển lãm",
-"confidence": "high",
-"search_keywords": [
-"triển lãm",
-"trưng bày",
-"exhibition"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cuộc triển lãm hoặc trưng bày trước công chúng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220657,
-"meaning_vi": "trận giao hữu biểu diễn",
-"confidence": "high",
-"search_keywords": [
-"trận giao hữu biểu diễn",
-"trận biểu diễn",
-"exhibition match"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trận đấu biểu diễn, không tính vào giải chính thức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2411,
-"word": "エキシビションゲーム",
-"kana": "エキシビションゲーム",
-"senses": [
-{
-"sense_id": 220658,
-"meaning_vi": "trận giao hữu biểu diễn",
-"confidence": "high",
-"search_keywords": [
-"trận giao hữu biểu diễn",
-"trận biểu diễn",
-"exhibition game"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trận đấu biểu diễn, không tính vào thành tích chính thức",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2412,
-"word": "越幾斯",
-"kana": "エキス",
-"senses": [
-{
-"sense_id": 220659,
-"meaning_vi": "tinh chất",
-"confidence": "high",
-"search_keywords": [
-"tinh chất",
-"chiết xuất",
-"nước cốt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chiết xuất cô đặc từ thực vật, thịt hoặc nguyên liệu khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2413,
-"word": "エクストラ",
-"kana": "エクストラ",
-"senses": [
-{
-"sense_id": 220660,
-"meaning_vi": "diễn viên quần chúng",
-"confidence": "high",
-"search_keywords": [
-"diễn viên quần chúng",
-"vai phụ",
-"extra"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "diễn viên quần chúng hoặc người xuất hiện phụ trong phim",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220661,
-"meaning_vi": "thêm",
-"confidence": "high",
-"search_keywords": [
-"thêm",
-"đặc biệt",
-"dư"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thêm; dư; đặc biệt; vượt mức thông thường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2414,
-"word": "エキストライニング",
-"kana": "エキストライニング",
-"senses": [
-{
-"sense_id": 220662,
-"meaning_vi": "hiệp phụ",
-"confidence": "high",
-"search_keywords": [
-"hiệp phụ",
-"extra inning",
-"bóng chày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hiệp đấu phụ trong bóng chày khi trận chưa phân thắng bại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2415,
-"word": "エキストラホール",
-"kana": "エキストラホール",
-"senses": [
-{
-"sense_id": 220663,
-"meaning_vi": "hố phụ",
-"confidence": "high",
-"search_keywords": [
-"hố phụ",
-"extra hole",
-"golf"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hố đấu phụ trong golf dùng để phân định thắng thua",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2416,
-"word": "エキスパート",
-"kana": "エキスパート",
-"senses": [
-{
-"sense_id": 220664,
-"meaning_vi": "chuyên gia",
-"confidence": "high",
-"search_keywords": [
-"chuyên gia",
-"người thành thạo",
-"expert"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người có kiến thức hoặc kỹ năng chuyên sâu trong một lĩnh vực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2417,
-"word": "エキスパートシステム",
-"kana": "エキスパートシステム",
-"senses": [
-{
-"sense_id": 220665,
-"meaning_vi": "hệ chuyên gia",
-"confidence": "high",
-"search_keywords": [
-"hệ chuyên gia",
-"expert system",
-"AI"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hệ thống AI mô phỏng tri thức và suy luận của chuyên gia",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2418,
-"word": "エキスパンダー",
-"kana": "エキスパンダー",
-"senses": [
-{
-"sense_id": 220666,
-"meaning_vi": "dụng cụ giãn nở",
-"confidence": "medium",
-"search_keywords": [
-"dụng cụ giãn nở",
-"expander",
-"dây tập lực"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dụng cụ hoặc thiết bị dùng để mở rộng, giãn nở hoặc tập lực",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2419,
-"word": "エキスポ",
-"kana": "エキスポ",
-"senses": [
-{
-"sense_id": 220667,
-"meaning_vi": "triển lãm quốc tế",
-"confidence": "high",
-"search_keywords": [
-"triển lãm quốc tế",
-"expo",
-"hội chợ triển lãm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "expo; hội chợ hoặc triển lãm quy mô lớn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2420,
-"word": "エキセントリック",
-"kana": "エキセントリック",
-"senses": [
-{
-"sense_id": 220668,
-"meaning_vi": "lập dị",
-"confidence": "high",
-"search_keywords": [
-"lập dị",
-"khác thường",
-"eccentric"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lập dị; có cách nghĩ hoặc hành vi khác thường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2421,
-"word": "エキゾチシズム",
-"kana": "エキゾチシズム",
-"senses": [
-{
-"sense_id": 220669,
-"meaning_vi": "chủ nghĩa ngoại lai",
-"confidence": "medium",
-"search_keywords": [
-"chủ nghĩa ngoại lai",
-"tính ngoại lai",
-"exoticism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự yêu thích hoặc nhấn mạnh vẻ khác lạ, ngoại lai của văn hóa xa lạ",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2402,
+    "word": "エイトビート",
+    "kana": "エイトビート",
+    "senses": [
+      {
+        "sense_id": 220648,
+        "meaning_vi": "nhịp tám",
+        "confidence": "high",
+        "search_keywords": [
+          "nhịp tám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhịp tám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2403,
+    "word": "エイリアス",
+    "kana": "エイリアス",
+    "senses": [
+      {
+        "sense_id": 220649,
+        "meaning_vi": "bí danh",
+        "confidence": "high",
+        "search_keywords": [
+          "bí danh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bí danh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2404,
+    "word": "エイリアン",
+    "kana": "エイリアン",
+    "senses": [
+      {
+        "sense_id": 220650,
+        "meaning_vi": "người ngoài hành tinh",
+        "confidence": "high",
+        "search_keywords": [
+          "người ngoài hành tinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ngoài hành tinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2405,
+    "word": "エオニズム",
+    "kana": "エオニズム",
+    "senses": [
+      {
+        "sense_id": 220651,
+        "meaning_vi": "thuyết bản thể; chủ nghĩa chuyển giới",
+        "confidence": "high",
+        "search_keywords": [
+          "thuyết bản thể",
+          "chủ nghĩa chuyển giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuyết bản thể; chủ nghĩa chuyển giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2406,
+    "word": "エキサイティング",
+    "kana": "エキサイティング",
+    "senses": [
+      {
+        "sense_id": 220652,
+        "meaning_vi": "thú vị",
+        "confidence": "high",
+        "search_keywords": [
+          "thú vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thú vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2407,
+    "word": "エキサイト",
+    "kana": "エキサイト",
+    "senses": [
+      {
+        "sense_id": 220653,
+        "meaning_vi": "sự phấn khích",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phấn khích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phấn khích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2408,
+    "word": "エキササイズ",
+    "kana": "エキササイズ",
+    "senses": [
+      {
+        "sense_id": 220654,
+        "meaning_vi": "tập thể dục",
+        "confidence": "high",
+        "search_keywords": [
+          "tập thể dục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập thể dục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2409,
+    "word": "エキササイズウォーキング",
+    "kana": "エキササイズウォーキング",
+    "senses": [
+      {
+        "sense_id": 220655,
+        "meaning_vi": "đi bộ tập thể dục",
+        "confidence": "high",
+        "search_keywords": [
+          "đi bộ tập thể dục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi bộ tập thể dục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2410,
+    "word": "エキシビション",
+    "kana": "エキシビション",
+    "senses": [
+      {
+        "sense_id": 220656,
+        "meaning_vi": "triển lãm",
+        "confidence": "high",
+        "search_keywords": [
+          "triển lãm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triển lãm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220657,
+        "meaning_vi": "trò chơi triển lãm; trận đấu triển lãm",
+        "confidence": "high",
+        "search_keywords": [
+          "trò chơi triển lãm",
+          "trận đấu triển lãm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trò chơi triển lãm; trận đấu triển lãm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2411,
+    "word": "エキシビションゲーム",
+    "kana": "エキシビションゲーム",
+    "senses": [
+      {
+        "sense_id": 220658,
+        "meaning_vi": "trò chơi triển lãm; trận đấu triển lãm",
+        "confidence": "high",
+        "search_keywords": [
+          "trò chơi triển lãm",
+          "trận đấu triển lãm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trò chơi triển lãm; trận đấu triển lãm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2412,
+    "word": "越幾斯",
+    "kana": "エキス",
+    "senses": [
+      {
+        "sense_id": 220659,
+        "meaning_vi": "chiết xuất (từ thực vật, thịt, v.v.); nước hoa; tập trung; cổ phiếu tập trung",
+        "confidence": "high",
+        "search_keywords": [
+          "chiết xuất (từ thực vật, thịt, v.v.)",
+          "nước hoa",
+          "tập trung",
+          "cổ phiếu tập trung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiết xuất (từ thực vật, thịt, v.v.); nước hoa; tập trung; cổ phiếu tập trung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2413,
+    "word": "エクストラ",
+    "kana": "エクストラ",
+    "senses": [
+      {
+        "sense_id": 220660,
+        "meaning_vi": "thêm (ví dụ: trong một bộ phim); số thừa",
+        "confidence": "high",
+        "search_keywords": [
+          "thêm (ví dụ: trong một bộ phim)",
+          "số thừa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thêm (ví dụ: trong một bộ phim); số thừa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220661,
+        "meaning_vi": "thêm; thặng dư; thặng dư; thêm vào; đặc biệt; phi thường",
+        "confidence": "high",
+        "search_keywords": [
+          "thêm",
+          "thặng dư",
+          "thêm vào",
+          "đặc biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thêm; thặng dư; thặng dư; thêm vào; đặc biệt; phi thường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2414,
+    "word": "エキストライニング",
+    "kana": "エキストライニング",
+    "senses": [
+      {
+        "sense_id": 220662,
+        "meaning_vi": "hiệp phụ",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệp phụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệp phụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2415,
+    "word": "エキストラホール",
+    "kana": "エキストラホール",
+    "senses": [
+      {
+        "sense_id": 220663,
+        "meaning_vi": "lỗ bổ sung",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗ bổ sung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗ bổ sung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2416,
+    "word": "エキスパート",
+    "kana": "エキスパート",
+    "senses": [
+      {
+        "sense_id": 220664,
+        "meaning_vi": "chuyên gia",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyên gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyên gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2417,
+    "word": "エキスパートシステム",
+    "kana": "エキスパートシステム",
+    "senses": [
+      {
+        "sense_id": 220665,
+        "meaning_vi": "hệ thống chuyên gia",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống chuyên gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống chuyên gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2418,
+    "word": "エキスパンダー",
+    "kana": "エキスパンダー",
+    "senses": [
+      {
+        "sense_id": 220666,
+        "meaning_vi": "thiết bị giãn nở",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị giãn nở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị giãn nở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2419,
+    "word": "エキスポ",
+    "kana": "エキスポ",
+    "senses": [
+      {
+        "sense_id": 220667,
+        "meaning_vi": "triển lãm; sự trình bày",
+        "confidence": "high",
+        "search_keywords": [
+          "triển lãm",
+          "sự trình bày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "triển lãm; sự trình bày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2420,
+    "word": "エキセントリック",
+    "kana": "エキセントリック",
+    "senses": [
+      {
+        "sense_id": 220668,
+        "meaning_vi": "lập dị",
+        "confidence": "high",
+        "search_keywords": [
+          "lập dị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lập dị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2421,
+    "word": "エキゾチシズム",
+    "kana": "エキゾチシズム",
+    "senses": [
+      {
+        "sense_id": 220669,
+        "meaning_vi": "chủ nghĩa ngoại lai",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa ngoại lai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa ngoại lai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,601 @@
+[
+  {
+    "vocabulary_id": 48293,
+    "word": "暮らす",
+    "kana": "くらす",
+    "senses": [
+      {
+        "sense_id": 280470,
+        "meaning_vi": "sống (trên, bằng, v.v.); để sống một cuộc sống; để hòa đồng; để vượt qua",
+        "confidence": "high",
+        "search_keywords": [
+          "sống (trên, bằng, v.v.)",
+          "để sống một cuộc sống",
+          "để hòa đồng",
+          "để vượt qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sống (trên, bằng, v.v.); để sống một cuộc sống; để hòa đồng; để vượt qua",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280471,
+        "meaning_vi": "để kiếm sống; để kiếm kế sinh nhai",
+        "confidence": "high",
+        "search_keywords": [
+          "để kiếm sống",
+          "để kiếm kế sinh nhai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kiếm sống; để kiếm kế sinh nhai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280472,
+        "meaning_vi": "dành thời gian (làm); để vượt qua một ngày (làm); sống; bắt đầu (làm)",
+        "confidence": "high",
+        "search_keywords": [
+          "dành thời gian (làm)",
+          "để vượt qua một ngày (làm)",
+          "sống",
+          "bắt đầu (làm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dành thời gian (làm); để vượt qua một ngày (làm); sống; bắt đầu (làm)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280473,
+        "meaning_vi": "làm hàng ngày; làm cả ngày; tiếp tục làm",
+        "confidence": "high",
+        "search_keywords": [
+          "làm hàng ngày",
+          "làm cả ngày",
+          "tiếp tục làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm hàng ngày; làm cả ngày; tiếp tục làm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48294,
+    "word": "暮れ",
+    "kana": "くれ",
+    "senses": [
+      {
+        "sense_id": 280474,
+        "meaning_vi": "hoàng hôn; hoàng hôn; màn đêm buông xuống; hoàng hôn",
+        "confidence": "high",
+        "search_keywords": [
+          "hoàng hôn",
+          "màn đêm buông xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoàng hôn; hoàng hôn; màn đêm buông xuống; hoàng hôn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280475,
+        "meaning_vi": "kết thúc; đóng",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc",
+          "đóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc; đóng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280476,
+        "meaning_vi": "cuối năm; cuối năm",
+        "confidence": "high",
+        "search_keywords": [
+          "cuối năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuối năm; cuối năm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48295,
+    "word": "暮れる",
+    "kana": "くれる",
+    "senses": [
+      {
+        "sense_id": 280477,
+        "meaning_vi": "trở nên tối tăm; trở nên tối tăm",
+        "confidence": "high",
+        "search_keywords": [
+          "trở nên tối tăm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trở nên tối tăm; trở nên tối tăm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280478,
+        "meaning_vi": "kết thúc (của một ngày, năm, mùa, v.v.); đi đến kết thúc; đóng cửa",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc (của một ngày, năm, mùa, v.v.)",
+          "đi đến kết thúc",
+          "đóng cửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc (của một ngày, năm, mùa, v.v.); đi đến kết thúc; đóng cửa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280479,
+        "meaning_vi": "bị chìm đắm trong (ví dụ: tuyệt vọng); bị lạc vào (ví dụ: suy nghĩ); phải vượt qua với",
+        "confidence": "high",
+        "search_keywords": [
+          "bị chìm đắm trong (ví dụ: tuyệt vọng)",
+          "bị lạc vào (ví dụ: suy nghĩ)",
+          "phải vượt qua với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị chìm đắm trong (ví dụ: tuyệt vọng); bị lạc vào (ví dụ: suy nghĩ); phải vượt qua với",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48296,
+    "word": "暮春",
+    "kana": "ぼしゅん",
+    "senses": [
+      {
+        "sense_id": 280480,
+        "meaning_vi": "cuối xuân",
+        "confidence": "high",
+        "search_keywords": [
+          "cuối xuân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuối xuân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280481,
+        "meaning_vi": "tháng 3 âm lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "tháng 3 âm lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tháng 3 âm lịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48297,
+    "word": "暮色",
+    "kana": "ぼしょく",
+    "senses": [
+      {
+        "sense_id": 280482,
+        "meaning_vi": "chạng vạng; cảnh chạng vạng",
+        "confidence": "high",
+        "search_keywords": [
+          "chạng vạng",
+          "cảnh chạng vạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạng vạng; cảnh chạng vạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48298,
+    "word": "母",
+    "kana": "はは",
+    "senses": [
+      {
+        "sense_id": 280483,
+        "meaning_vi": "mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48299,
+    "word": "母の日",
+    "kana": "ははのひ",
+    "senses": [
+      {
+        "sense_id": 280484,
+        "meaning_vi": "Ngày của Mẹ (Chủ nhật thứ 2 của tháng 5)",
+        "confidence": "high",
+        "search_keywords": [
+          "Ngày của Mẹ (Chủ nhật thứ 2 của tháng 5)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ngày của Mẹ (Chủ nhật thứ 2 của tháng 5)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48300,
+    "word": "母印",
+    "kana": "ぼいん",
+    "senses": [
+      {
+        "sense_id": 280485,
+        "meaning_vi": "dấu vân tay",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu vân tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu vân tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48301,
+    "word": "母音",
+    "kana": "ぼいん",
+    "senses": [
+      {
+        "sense_id": 280486,
+        "meaning_vi": "nguyên âm",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48302,
+    "word": "母語",
+    "kana": "ぼご",
+    "senses": [
+      {
+        "sense_id": 280487,
+        "meaning_vi": "tiếng mẹ đẻ; ngôn ngữ mẹ đẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng mẹ đẻ",
+          "ngôn ngữ mẹ đẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng mẹ đẻ; ngôn ngữ mẹ đẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280488,
+        "meaning_vi": "ngôn ngữ nguyên thủy; ngôn ngữ mẹ đẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ nguyên thủy",
+          "ngôn ngữ mẹ đẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ nguyên thủy; ngôn ngữ mẹ đẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48303,
+    "word": "母校",
+    "kana": "ぼこう",
+    "senses": [
+      {
+        "sense_id": 280489,
+        "meaning_vi": "trường cũ",
+        "confidence": "high",
+        "search_keywords": [
+          "trường cũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường cũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48304,
+    "word": "母港",
+    "kana": "ぼこう",
+    "senses": [
+      {
+        "sense_id": 280490,
+        "meaning_vi": "cảng nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "cảng nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảng nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48305,
+    "word": "母国",
+    "kana": "ぼこく",
+    "senses": [
+      {
+        "sense_id": 280491,
+        "meaning_vi": "quê hương của một người; quê hương của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "quê hương của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quê hương của một người; quê hương của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48306,
+    "word": "母国語",
+    "kana": "ぼこくご",
+    "senses": [
+      {
+        "sense_id": 280492,
+        "meaning_vi": "ngôn ngữ của nước mình; tiếng mẹ đẻ; ngôn ngữ mẹ đẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ của nước mình",
+          "tiếng mẹ đẻ",
+          "ngôn ngữ mẹ đẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ của nước mình; tiếng mẹ đẻ; ngôn ngữ mẹ đẻ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48307,
+    "word": "母細胞",
+    "kana": "ぼさいぼう",
+    "senses": [
+      {
+        "sense_id": 280493,
+        "meaning_vi": "tế bào mẹ; tế bào trung gian",
+        "confidence": "high",
+        "search_keywords": [
+          "tế bào mẹ",
+          "tế bào trung gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tế bào mẹ; tế bào trung gian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48308,
+    "word": "母子",
+    "kana": "ぼし",
+    "senses": [
+      {
+        "sense_id": 280494,
+        "meaning_vi": "mẹ và con",
+        "confidence": "high",
+        "search_keywords": [
+          "mẹ và con"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẹ và con",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48309,
+    "word": "母集団",
+    "kana": "ぼしゅうだん",
+    "senses": [
+      {
+        "sense_id": 280495,
+        "meaning_vi": "dân số; vũ trụ; bộ cha mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "dân số",
+          "vũ trụ",
+          "bộ cha mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dân số; vũ trụ; bộ cha mẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48310,
+    "word": "母上",
+    "kana": "ははうえ",
+    "senses": [
+      {
+        "sense_id": 280496,
+        "meaning_vi": "mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48311,
+    "word": "母親",
+    "kana": "ははおや",
+    "senses": [
+      {
+        "sense_id": 280497,
+        "meaning_vi": "mẹ",
+        "confidence": "high",
+        "search_keywords": [
+          "mẹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48312,
+    "word": "母性",
+    "kana": "ぼせい",
+    "senses": [
+      {
+        "sense_id": 280498,
+        "meaning_vi": "làm mẹ; thai sản",
+        "confidence": "high",
+        "search_keywords": [
+          "làm mẹ",
+          "thai sản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm mẹ; thai sản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 126484,
+    "word": "文内要素",
+    "kana": "ぶんないようそ",
+    "senses": [
+      {
+        "sense_id": 370131,
+        "meaning_vi": "thực thể tuyên bố",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể tuyên bố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể tuyên bố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126485,
+    "word": "文番号",
+    "kana": "ぶんばんごう",
+    "senses": [
+      {
+        "sense_id": 370132,
+        "meaning_vi": "nhãn tuyên bố",
+        "confidence": "high",
+        "search_keywords": [
+          "nhãn tuyên bố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhãn tuyên bố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126486,
+    "word": "文法エラー",
+    "kana": "ぶんぽうエラー",
+    "senses": [
+      {
+        "sense_id": 370133,
+        "meaning_vi": "lỗi ngữ pháp; lỗi cú pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi ngữ pháp",
+          "lỗi cú pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi ngữ pháp; lỗi cú pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126487,
+    "word": "文法チェッカ",
+    "kana": "ぶんぽうチェッカ",
+    "senses": [
+      {
+        "sense_id": 370134,
+        "meaning_vi": "người kiểm tra ngữ pháp",
+        "confidence": "high",
+        "search_keywords": [
+          "người kiểm tra ngữ pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người kiểm tra ngữ pháp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126488,
+    "word": "文脈に敏感",
+    "kana": "ぶんみゃくにびんかん",
+    "senses": [
+      {
+        "sense_id": 370135,
+        "meaning_vi": "bối cảnh nhạy cảm",
+        "confidence": "high",
+        "search_keywords": [
+          "bối cảnh nhạy cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bối cảnh nhạy cảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126489,
+    "word": "文脈依存文法",
+    "kana": "ぶんみゃくいぞんぶんぽう",
+    "senses": [
+      {
+        "sense_id": 370136,
+        "meaning_vi": "ngữ pháp nhạy cảm với ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "ngữ pháp nhạy cảm với ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngữ pháp nhạy cảm với ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126490,
+    "word": "文脈自由",
+    "kana": "ぶんみゃくじゆう",
+    "senses": [
+      {
+        "sense_id": 370137,
+        "meaning_vi": "không có ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "không có ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126491,
+    "word": "文脈自由文法",
+    "kana": "ぶんみゃくじゆうぶんぽう",
+    "senses": [
+      {
+        "sense_id": 370138,
+        "meaning_vi": "ngữ pháp phi ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "ngữ pháp phi ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngữ pháp phi ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126492,
+    "word": "文脈上の区切り子",
+    "kana": "ぶんみゃくじょうのくぎりし",
+    "senses": [
+      {
+        "sense_id": 370139,
+        "meaning_vi": "dấu phân cách trong ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu phân cách trong ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu phân cách trong ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126493,
+    "word": "文脈上の選択字句",
+    "kana": "ぶんみゃくじょうのせんたくじく",
+    "senses": [
+      {
+        "sense_id": 370140,
+        "meaning_vi": "mã thông báo tùy chọn theo ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "mã thông báo tùy chọn theo ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã thông báo tùy chọn theo ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126494,
+    "word": "文脈上の選択要素",
+    "kana": "ぶんみゃくじょうのせんたくようそ",
+    "senses": [
+      {
+        "sense_id": 370141,
+        "meaning_vi": "phần tử tùy chọn theo ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "phần tử tùy chọn theo ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần tử tùy chọn theo ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126495,
+    "word": "文脈上の必す字句",
+    "kana": "ぶんみゃくじょうのひっすじく",
+    "senses": [
+      {
+        "sense_id": 370142,
+        "meaning_vi": "mã thông báo được yêu cầu theo ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "mã thông báo được yêu cầu theo ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã thông báo được yêu cầu theo ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126496,
+    "word": "文脈上の必す要素",
+    "kana": "ぶんみゃくじょうのひっすようそ",
+    "senses": [
+      {
+        "sense_id": 370143,
+        "meaning_vi": "yếu tố bắt buộc theo ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu tố bắt buộc theo ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu tố bắt buộc theo ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126497,
+    "word": "文脈宣言",
+    "kana": "ぶんみゃくせんげん",
+    "senses": [
+      {
+        "sense_id": 370144,
+        "meaning_vi": "khai báo theo ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "khai báo theo ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai báo theo ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126498,
+    "word": "文脈列",
+    "kana": "ぶんみゃくれつ",
+    "senses": [
+      {
+        "sense_id": 370145,
+        "meaning_vi": "trình tự ngữ cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự ngữ cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự ngữ cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126499,
+    "word": "平均アクセス時間",
+    "kana": "へいきんアクセスじかん",
+    "senses": [
+      {
+        "sense_id": 370146,
+        "meaning_vi": "thời gian truy cập trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian truy cập trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian truy cập trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126500,
+    "word": "平均シーク時間",
+    "kana": "へいきんシークじかん",
+    "senses": [
+      {
+        "sense_id": 370147,
+        "meaning_vi": "thời gian tìm kiếm trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian tìm kiếm trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian tìm kiếm trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126501,
+    "word": "平均トラヒック",
+    "kana": "へいきんトラヒック",
+    "senses": [
+      {
+        "sense_id": 370148,
+        "meaning_vi": "lưu lượng truy cập trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu lượng truy cập trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu lượng truy cập trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126502,
+    "word": "平均ビットレート",
+    "kana": "へいきんビットレート",
+    "senses": [
+      {
+        "sense_id": 370149,
+        "meaning_vi": "tốc độ bit trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ bit trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ bit trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126503,
+    "word": "平均レート",
+    "kana": "へいきんレート",
+    "senses": [
+      {
+        "sense_id": 370150,
+        "meaning_vi": "tỷ lệ trung bình",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ trung bình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ trung bình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

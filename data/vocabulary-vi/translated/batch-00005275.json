@@ -1,0 +1,466 @@
+[
+  {
+    "vocabulary_id": 126064,
+    "word": "非シールド",
+    "kana": "ひシールド",
+    "senses": [
+      {
+        "sense_id": 369707,
+        "meaning_vi": "không được che chắn",
+        "confidence": "high",
+        "search_keywords": [
+          "không được che chắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không được che chắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126065,
+    "word": "非シールドより対線",
+    "kana": "ひシールドよりついせん",
+    "senses": [
+      {
+        "sense_id": 369708,
+        "meaning_vi": "cặp xoắn không được che chắn; UTP",
+        "confidence": "high",
+        "search_keywords": [
+          "cặp xoắn không được che chắn",
+          "UTP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cặp xoắn không được che chắn; UTP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126066,
+    "word": "非ゼロ復帰マーク記録",
+    "kana": "ひゼロふっきマークきろく",
+    "senses": [
+      {
+        "sense_id": 369709,
+        "meaning_vi": "ghi lại những thay đổi không trở về 0; NRZ-1; ghi âm không trở về 0 (đánh dấu); NRZ(M)",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi lại những thay đổi không trở về 0",
+          "NRZ-1",
+          "ghi âm không trở về 0 (đánh dấu)",
+          "NRZ(M)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi lại những thay đổi không trở về 0; NRZ-1; ghi âm không trở về 0 (đánh dấu); NRZ(M)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126067,
+    "word": "非ゼロ復帰記録",
+    "kana": "ひゼロふっききろく",
+    "senses": [
+      {
+        "sense_id": 369710,
+        "meaning_vi": "ghi âm không trở về 0; NRZ; bản ghi không quay lại tham chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi âm không trở về 0",
+          "NRZ",
+          "bản ghi không quay lại tham chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi âm không trở về 0; NRZ; bản ghi không quay lại tham chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126068,
+    "word": "非ゼロ復帰変化記録",
+    "kana": "ひゼロふっきへんかきろく",
+    "senses": [
+      {
+        "sense_id": 369711,
+        "meaning_vi": "ghi âm không trở về 0 (thay đổi); NRZ(C)",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi âm không trở về 0 (thay đổi)",
+          "NRZ(C)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi âm không trở về 0 (thay đổi); NRZ(C)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126069,
+    "word": "非デスクリプタ",
+    "kana": "ひデスクリプタ",
+    "senses": [
+      {
+        "sense_id": 369712,
+        "meaning_vi": "không mô tả",
+        "confidence": "high",
+        "search_keywords": [
+          "không mô tả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không mô tả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126070,
+    "word": "非ノイマン型",
+    "kana": "ひノイマンがた",
+    "senses": [
+      {
+        "sense_id": 369713,
+        "meaning_vi": "kiến trúc phi von Neumann",
+        "confidence": "high",
+        "search_keywords": [
+          "kiến trúc phi von Neumann"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiến trúc phi von Neumann",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126071,
+    "word": "非フレーム形式",
+    "kana": "ひフレームけいしき",
+    "senses": [
+      {
+        "sense_id": 369714,
+        "meaning_vi": "không có khung (định dạng)",
+        "confidence": "high",
+        "search_keywords": [
+          "không có khung (định dạng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có khung (định dạng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126072,
+    "word": "非リアルタイム",
+    "kana": "ひリアルタイム",
+    "senses": [
+      {
+        "sense_id": 369715,
+        "meaning_vi": "không có thời gian thực",
+        "confidence": "high",
+        "search_keywords": [
+          "không có thời gian thực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có thời gian thực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126073,
+    "word": "非圧縮",
+    "kana": "ひあっしゅく",
+    "senses": [
+      {
+        "sense_id": 369716,
+        "meaning_vi": "không nén",
+        "confidence": "high",
+        "search_keywords": [
+          "không nén"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không nén",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 369717,
+        "meaning_vi": "không thể nén được",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể nén được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể nén được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126074,
+    "word": "非安定マルチバイブレータ",
+    "kana": "ひあんていマルチバイブレータ",
+    "senses": [
+      {
+        "sense_id": 369718,
+        "meaning_vi": "bộ dao động đa năng ổn định",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ dao động đa năng ổn định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ dao động đa năng ổn định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126075,
+    "word": "非一致演算",
+    "kana": "ひいっちえんざん",
+    "senses": [
+      {
+        "sense_id": 369719,
+        "meaning_vi": "hoạt động không nhận dạng",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động không nhận dạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động không nhận dạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126076,
+    "word": "非印刷文字",
+    "kana": "ひいんさつもじ",
+    "senses": [
+      {
+        "sense_id": 369720,
+        "meaning_vi": "ký tự không in được",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự không in được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự không in được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126077,
+    "word": "非加算機能",
+    "kana": "ひかさんきのう",
+    "senses": [
+      {
+        "sense_id": 369722,
+        "meaning_vi": "chức năng không thêm",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng không thêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng không thêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126078,
+    "word": "非可逆圧縮",
+    "kana": "ひかぎゃくあっしゅく",
+    "senses": [
+      {
+        "sense_id": 369723,
+        "meaning_vi": "nén có tổn thất",
+        "confidence": "high",
+        "search_keywords": [
+          "nén có tổn thất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nén có tổn thất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126079,
+    "word": "非基準復帰記録",
+    "kana": "ひきじゅんふっききろく",
+    "senses": [
+      {
+        "sense_id": 369724,
+        "meaning_vi": "ghi âm không trở về 0; NRZ; bản ghi không quay lại tham chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi âm không trở về 0",
+          "NRZ",
+          "bản ghi không quay lại tham chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi âm không trở về 0; NRZ; bản ghi không quay lại tham chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126080,
+    "word": "非空白文字",
+    "kana": "ひくうはくもじ",
+    "senses": [
+      {
+        "sense_id": 369725,
+        "meaning_vi": "nhân vật không phải người da trắng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân vật không phải người da trắng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân vật không phải người da trắng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126081,
+    "word": "非結晶質",
+    "kana": "ひけっしょうしつ",
+    "senses": [
+      {
+        "sense_id": 369726,
+        "meaning_vi": "vô định hình",
+        "confidence": "high",
+        "search_keywords": [
+          "vô định hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vô định hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126082,
+    "word": "非公開受信者表示",
+    "kana": "ひこうかいじゅしんしゃひょうじ",
+    "senses": [
+      {
+        "sense_id": 369727,
+        "meaning_vi": "chỉ báo người nhận bản sao mù",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo người nhận bản sao mù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo người nhận bản sao mù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126083,
+    "word": "非構造制約集合",
+    "kana": "ひこうぞうせいやくしゅうごう",
+    "senses": [
+      {
+        "sense_id": 369728,
+        "meaning_vi": "không có cấu trúc (bộ ràng buộc)",
+        "confidence": "high",
+        "search_keywords": [
+          "không có cấu trúc (bộ ràng buộc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có cấu trúc (bộ ràng buộc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

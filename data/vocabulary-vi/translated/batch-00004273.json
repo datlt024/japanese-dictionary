@@ -1,0 +1,518 @@
+[
+  {
+    "vocabulary_id": 104405,
+    "word": "お作り",
+    "kana": "おつくり",
+    "senses": [
+      {
+        "sense_id": 346310,
+        "meaning_vi": "sashimi",
+        "confidence": "low",
+        "search_keywords": [
+          "sashimi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sashimi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346311,
+        "meaning_vi": "trang điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "trang điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104406,
+    "word": "座学",
+    "kana": "ざがく",
+    "senses": [
+      {
+        "sense_id": 346312,
+        "meaning_vi": "học tập trên lớp (trái ngược với đào tạo thực tế); bài giảng trên lớp; bàn học",
+        "confidence": "high",
+        "search_keywords": [
+          "học tập trên lớp (trái ngược với đào tạo thực tế)",
+          "bài giảng trên lớp",
+          "bàn học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "học tập trên lớp (trái ngược với đào tạo thực tế); bài giảng trên lớp; bàn học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104407,
+    "word": "椀盛り",
+    "kana": "わんもり",
+    "senses": [
+      {
+        "sense_id": 346313,
+        "meaning_vi": "thức ăn được nấu bằng cách luộc hoặc hầm",
+        "confidence": "high",
+        "search_keywords": [
+          "thức ăn được nấu bằng cách luộc hoặc hầm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thức ăn được nấu bằng cách luộc hoặc hầm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104408,
+    "word": "お重",
+    "kana": "おじゅう",
+    "senses": [
+      {
+        "sense_id": 346314,
+        "meaning_vi": "hộp đựng thức ăn nhiều tầng",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp đựng thức ăn nhiều tầng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp đựng thức ăn nhiều tầng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104409,
+    "word": "おととい来やがれ",
+    "kana": "おとといきやがれ",
+    "senses": [
+      {
+        "sense_id": 346315,
+        "meaning_vi": "bạn đừng bao giờ đến đây nữa!; đến đây vào ngày hôm kia",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn đừng bao giờ đến đây nữa!",
+          "đến đây vào ngày hôm kia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn đừng bao giờ đến đây nữa!; đến đây vào ngày hôm kia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104410,
+    "word": "盛り付け",
+    "kana": "もりつけ",
+    "senses": [
+      {
+        "sense_id": 346316,
+        "meaning_vi": "sắp xếp thức ăn (trên đĩa); phục vụ thức ăn (sắp xếp)",
+        "confidence": "high",
+        "search_keywords": [
+          "sắp xếp thức ăn (trên đĩa)",
+          "phục vụ thức ăn (sắp xếp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắp xếp thức ăn (trên đĩa); phục vụ thức ăn (sắp xếp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104411,
+    "word": "完食",
+    "kana": "かんしょく",
+    "senses": [
+      {
+        "sense_id": 346317,
+        "meaning_vi": "ăn mọi thứ (trên đĩa của một người, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "ăn mọi thứ (trên đĩa của một người, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ăn mọi thứ (trên đĩa của một người, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104412,
+    "word": "完飲",
+    "kana": "かんいん",
+    "senses": [
+      {
+        "sense_id": 346318,
+        "meaning_vi": "uống mọi thứ (trong ly của một người, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "uống mọi thứ (trong ly của một người, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "uống mọi thứ (trong ly của một người, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104413,
+    "word": "自家移植",
+    "kana": "じかいしょく",
+    "senses": [
+      {
+        "sense_id": 346319,
+        "meaning_vi": "ghép tự thân",
+        "confidence": "high",
+        "search_keywords": [
+          "ghép tự thân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghép tự thân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104414,
+    "word": "自己移植",
+    "kana": "じこいしょく",
+    "senses": [
+      {
+        "sense_id": 346320,
+        "meaning_vi": "ghép tự thân",
+        "confidence": "high",
+        "search_keywords": [
+          "ghép tự thân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghép tự thân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104415,
+    "word": "同種移植",
+    "kana": "どうしゅいしょく",
+    "senses": [
+      {
+        "sense_id": 346321,
+        "meaning_vi": "ghép đồng loại",
+        "confidence": "high",
+        "search_keywords": [
+          "ghép đồng loại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghép đồng loại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104416,
+    "word": "カトラリー",
+    "kana": "カトラリー",
+    "senses": [
+      {
+        "sense_id": 346322,
+        "meaning_vi": "dao kéo; đồ dùng bằng bạc; đồ dùng phẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "dao kéo",
+          "đồ dùng bằng bạc",
+          "đồ dùng phẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dao kéo; đồ dùng bằng bạc; đồ dùng phẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104417,
+    "word": "中骨",
+    "kana": "なかぼね",
+    "senses": [
+      {
+        "sense_id": 346323,
+        "meaning_vi": "xương sống (của cá)",
+        "confidence": "high",
+        "search_keywords": [
+          "xương sống (của cá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xương sống (của cá)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104418,
+    "word": "外向き",
+    "kana": "そとむき",
+    "senses": [
+      {
+        "sense_id": 346324,
+        "meaning_vi": "hướng ra ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng ra ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng ra ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104419,
+    "word": "内向き",
+    "kana": "うちむき",
+    "senses": [
+      {
+        "sense_id": 346325,
+        "meaning_vi": "hướng vào trong",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng vào trong"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng vào trong",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104420,
+    "word": "くちゃくちゃ",
+    "kana": "くちゃくちゃ",
+    "senses": [
+      {
+        "sense_id": 346326,
+        "meaning_vi": "(ăn) ầm ĩ; (nhai) há miệng; trong khi đánh",
+        "confidence": "high",
+        "search_keywords": [
+          "(ăn) ầm ĩ",
+          "(nhai) há miệng",
+          "trong khi đánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(ăn) ầm ĩ; (nhai) há miệng; trong khi đánh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346327,
+        "meaning_vi": "nhàu nát; nhàu",
+        "confidence": "high",
+        "search_keywords": [
+          "nhàu nát",
+          "nhàu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhàu nát; nhàu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346328,
+        "meaning_vi": "lộn xộn; mất trật tự; bừa bộn",
+        "confidence": "high",
+        "search_keywords": [
+          "lộn xộn",
+          "mất trật tự",
+          "bừa bộn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lộn xộn; mất trật tự; bừa bộn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104421,
+    "word": "東京オリンピック",
+    "kana": "とうきょうオリンピック",
+    "senses": [
+      {
+        "sense_id": 346329,
+        "meaning_vi": "Thế vận hội Tokyo",
+        "confidence": "high",
+        "search_keywords": [
+          "Thế vận hội Tokyo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thế vận hội Tokyo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104422,
+    "word": "許可者",
+    "kana": "きょかしゃ",
+    "senses": [
+      {
+        "sense_id": 346330,
+        "meaning_vi": "người cho phép; người cấp phép",
+        "confidence": "high",
+        "search_keywords": [
+          "người cho phép",
+          "người cấp phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người cho phép; người cấp phép",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 346331,
+        "meaning_vi": "người giữ giấy phép; người được phép (làm điều gì đó); người được ủy quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "người giữ giấy phép",
+          "người được phép (làm điều gì đó)",
+          "người được ủy quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người giữ giấy phép; người được phép (làm điều gì đó); người được ủy quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104423,
+    "word": "許可された人",
+    "kana": "きょかされたひと",
+    "senses": [
+      {
+        "sense_id": 346332,
+        "meaning_vi": "người được thừa nhận; người được cấp phép",
+        "confidence": "high",
+        "search_keywords": [
+          "người được thừa nhận",
+          "người được cấp phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người được thừa nhận; người được cấp phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 104424,
+    "word": "色使い",
+    "kana": "いろづかい",
+    "senses": [
+      {
+        "sense_id": 346333,
+        "meaning_vi": "cách sử dụng màu sắc; cách sử dụng màu sắc; sử dụng màu sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "cách sử dụng màu sắc",
+          "sử dụng màu sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách sử dụng màu sắc; cách sử dụng màu sắc; sử dụng màu sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

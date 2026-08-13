@@ -1,0 +1,449 @@
+[
+  {
+    "vocabulary_id": 124707,
+    "word": "数値データ",
+    "kana": "すうちデータ",
+    "senses": [
+      {
+        "sense_id": 368344,
+        "meaning_vi": "dữ liệu số",
+        "confidence": "high",
+        "search_keywords": [
+          "dữ liệu số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dữ liệu số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124708,
+    "word": "数値演算コプロセッサ",
+    "kana": "すうちえんざんコプロセッサ",
+    "senses": [
+      {
+        "sense_id": 368345,
+        "meaning_vi": "bộ đồng xử lý số; bộ xử lý dữ liệu số",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đồng xử lý số",
+          "bộ xử lý dữ liệu số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đồng xử lý số; bộ xử lý dữ liệu số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124709,
+    "word": "数値演算プロセッサ",
+    "kana": "すうちえんざんプロセッサ",
+    "senses": [
+      {
+        "sense_id": 368346,
+        "meaning_vi": "bộ xử lý dữ liệu số",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ xử lý dữ liệu số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ xử lý dữ liệu số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124710,
+    "word": "数値型",
+    "kana": "すうちがた",
+    "senses": [
+      {
+        "sense_id": 368347,
+        "meaning_vi": "kiểu số",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124711,
+    "word": "数値形式",
+    "kana": "すうちけいしき",
+    "senses": [
+      {
+        "sense_id": 368348,
+        "meaning_vi": "định dạng số",
+        "confidence": "high",
+        "search_keywords": [
+          "định dạng số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định dạng số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124712,
+    "word": "数値語",
+    "kana": "すうちご",
+    "senses": [
+      {
+        "sense_id": 368349,
+        "meaning_vi": "từ số",
+        "confidence": "high",
+        "search_keywords": [
+          "từ số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124713,
+    "word": "数値指定文字参照",
+    "kana": "すうちしていもじさんしょう",
+    "senses": [
+      {
+        "sense_id": 368350,
+        "meaning_vi": "tham chiếu ký tự số",
+        "confidence": "high",
+        "search_keywords": [
+          "tham chiếu ký tự số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham chiếu ký tự số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124714,
+    "word": "数値的",
+    "kana": "すうちてき",
+    "senses": [
+      {
+        "sense_id": 368351,
+        "meaning_vi": "số; số",
+        "confidence": "high",
+        "search_keywords": [
+          "số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số; số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124715,
+    "word": "数値表現",
+    "kana": "すうちひょうげん",
+    "senses": [
+      {
+        "sense_id": 368352,
+        "meaning_vi": "biểu diễn số",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu diễn số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu diễn số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124716,
+    "word": "数値変数",
+    "kana": "すうちへんすう",
+    "senses": [
+      {
+        "sense_id": 368353,
+        "meaning_vi": "biến số",
+        "confidence": "high",
+        "search_keywords": [
+          "biến số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124717,
+    "word": "数表現",
+    "kana": "すうひょうげん",
+    "senses": [
+      {
+        "sense_id": 368354,
+        "meaning_vi": "đại diện số; sự đánh số",
+        "confidence": "high",
+        "search_keywords": [
+          "đại diện số",
+          "sự đánh số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đại diện số; sự đánh số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124718,
+    "word": "数理計画システム",
+    "kana": "すうりけいかくシステム",
+    "senses": [
+      {
+        "sense_id": 368355,
+        "meaning_vi": "MPS; Hệ thống lập trình toán học",
+        "confidence": "high",
+        "search_keywords": [
+          "MPS",
+          "Hệ thống lập trình toán học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "MPS; Hệ thống lập trình toán học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124719,
+    "word": "数量化理論",
+    "kana": "すうりょうかりろん",
+    "senses": [
+      {
+        "sense_id": 368356,
+        "meaning_vi": "lý thuyết định lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết định lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết định lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124720,
+    "word": "寸法記入",
+    "kana": "すんぽうきにゅう",
+    "senses": [
+      {
+        "sense_id": 368357,
+        "meaning_vi": "đo kích thước",
+        "confidence": "high",
+        "search_keywords": [
+          "đo kích thước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đo kích thước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124721,
+    "word": "世界規模",
+    "kana": "せかいきぼ",
+    "senses": [
+      {
+        "sense_id": 368358,
+        "meaning_vi": "quy mô toàn cầu; quy mô toàn cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "quy mô toàn cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy mô toàn cầu; quy mô toàn cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124722,
+    "word": "世界座標",
+    "kana": "せかいざひょう",
+    "senses": [
+      {
+        "sense_id": 368359,
+        "meaning_vi": "tọa độ thế giới; nhà vệ sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "tọa độ thế giới",
+          "nhà vệ sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tọa độ thế giới; nhà vệ sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124723,
+    "word": "世界座標系",
+    "kana": "せかいざひょうけい",
+    "senses": [
+      {
+        "sense_id": 368360,
+        "meaning_vi": "tọa độ thế giới; nhà vệ sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "tọa độ thế giới",
+          "nhà vệ sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tọa độ thế giới; nhà vệ sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124724,
+    "word": "世界情報インフラ",
+    "kana": "せかいじょうほうインフラ",
+    "senses": [
+      {
+        "sense_id": 368361,
+        "meaning_vi": "cơ sở hạ tầng thông tin toàn cầu; GII",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở hạ tầng thông tin toàn cầu",
+          "GII"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở hạ tầng thông tin toàn cầu; GII",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124725,
+    "word": "世代管理",
+    "kana": "せだいかんり",
+    "senses": [
+      {
+        "sense_id": 368362,
+        "meaning_vi": "quản lý thế hệ",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý thế hệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý thế hệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124726,
+    "word": "制限なし",
+    "kana": "せいげんなし",
+    "senses": [
+      {
+        "sense_id": 368363,
+        "meaning_vi": "không giới hạn; không hạn chế",
+        "confidence": "high",
+        "search_keywords": [
+          "không giới hạn",
+          "không hạn chế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không giới hạn; không hạn chế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

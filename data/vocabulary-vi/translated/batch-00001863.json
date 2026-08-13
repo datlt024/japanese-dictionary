@@ -1,0 +1,592 @@
+[
+  {
+    "vocabulary_id": 48353,
+    "word": "呆気",
+    "kana": "あっけ",
+    "senses": [
+      {
+        "sense_id": 280548,
+        "meaning_vi": "bị sửng sốt; trạng thái sốc; sự chết lặng",
+        "confidence": "high",
+        "search_keywords": [
+          "bị sửng sốt",
+          "trạng thái sốc",
+          "sự chết lặng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị sửng sốt; trạng thái sốc; sự chết lặng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48354,
+    "word": "呆気ない",
+    "kana": "あっけない",
+    "senses": [
+      {
+        "sense_id": 280549,
+        "meaning_vi": "không thỏa mãn; đáng thất vọng; đột ngột; không đủ; quá nhanh; quá ngắn; kết thúc quá sớm",
+        "confidence": "high",
+        "search_keywords": [
+          "không thỏa mãn",
+          "đáng thất vọng",
+          "đột ngột",
+          "không đủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thỏa mãn; đáng thất vọng; đột ngột; không đủ; quá nhanh; quá ngắn; kết thúc quá sớm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48355,
+    "word": "呆然",
+    "kana": "ぼうぜん",
+    "senses": [
+      {
+        "sense_id": 280550,
+        "meaning_vi": "chết lặng; vượt qua sự ngạc nhiên; trong sự kinh ngạc trống rỗng; trong sự bàng hoàng",
+        "confidence": "high",
+        "search_keywords": [
+          "chết lặng",
+          "vượt qua sự ngạc nhiên",
+          "trong sự kinh ngạc trống rỗng",
+          "trong sự bàng hoàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết lặng; vượt qua sự ngạc nhiên; trong sự kinh ngạc trống rỗng; trong sự bàng hoàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48356,
+    "word": "報",
+    "kana": "ほう",
+    "senses": [
+      {
+        "sense_id": 280551,
+        "meaning_vi": "thông tin; tin tức; báo cáo",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin",
+          "tin tức",
+          "báo cáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin; tin tức; báo cáo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280552,
+        "meaning_vi": "phần thưởng; quả báo",
+        "confidence": "high",
+        "search_keywords": [
+          "phần thưởng",
+          "quả báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần thưởng; quả báo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48357,
+    "word": "報いる",
+    "kana": "むくいる",
+    "senses": [
+      {
+        "sense_id": 280553,
+        "meaning_vi": "để thưởng; để đền bù; để trả nợ",
+        "confidence": "high",
+        "search_keywords": [
+          "để thưởng",
+          "để đền bù",
+          "để trả nợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thưởng; để đền bù; để trả nợ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280554,
+        "meaning_vi": "để trả đũa; để trả thù",
+        "confidence": "high",
+        "search_keywords": [
+          "để trả đũa",
+          "để trả thù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trả đũa; để trả thù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48358,
+    "word": "報じたように",
+    "kana": "ほうじたように",
+    "senses": [
+      {
+        "sense_id": 280555,
+        "meaning_vi": "như đã báo cáo",
+        "confidence": "high",
+        "search_keywords": [
+          "như đã báo cáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "như đã báo cáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48359,
+    "word": "報じる",
+    "kana": "ほうじる",
+    "senses": [
+      {
+        "sense_id": 280556,
+        "meaning_vi": "báo cáo; để thông báo",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo",
+          "để thông báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo; để thông báo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280557,
+        "meaning_vi": "để trả nợ; quay trở lại ; để đáp lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để trả nợ",
+          "quay trở lại",
+          "để đáp lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trả nợ; quay trở lại ; để đáp lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48360,
+    "word": "報ずる",
+    "kana": "ほうずる",
+    "senses": [
+      {
+        "sense_id": 280558,
+        "meaning_vi": "báo cáo; để thông báo",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo",
+          "để thông báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo; để thông báo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280559,
+        "meaning_vi": "để trả nợ; quay trở lại ; để đáp lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để trả nợ",
+          "quay trở lại",
+          "để đáp lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để trả nợ; quay trở lại ; để đáp lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48361,
+    "word": "報告",
+    "kana": "ほうこく",
+    "senses": [
+      {
+        "sense_id": 280560,
+        "meaning_vi": "báo cáo; thông tin",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo",
+          "thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo; thông tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48362,
+    "word": "報告者",
+    "kana": "ほうこくしゃ",
+    "senses": [
+      {
+        "sense_id": 280561,
+        "meaning_vi": "phóng viên; loa; người cung cấp thông tin; người dẫn chương trình; báo cáo viên",
+        "confidence": "high",
+        "search_keywords": [
+          "phóng viên",
+          "loa",
+          "người cung cấp thông tin",
+          "người dẫn chương trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phóng viên; loa; người cung cấp thông tin; người dẫn chương trình; báo cáo viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48363,
+    "word": "報告書",
+    "kana": "ほうこくしょ",
+    "senses": [
+      {
+        "sense_id": 280562,
+        "meaning_vi": "(bằng văn bản) báo cáo",
+        "confidence": "high",
+        "search_keywords": [
+          "(bằng văn bản) báo cáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(bằng văn bản) báo cáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48364,
+    "word": "報酬",
+    "kana": "ほうしゅう",
+    "senses": [
+      {
+        "sense_id": 280563,
+        "meaning_vi": "thù lao; bồi thường; phần thưởng; số điện thoại",
+        "confidence": "high",
+        "search_keywords": [
+          "thù lao",
+          "bồi thường",
+          "phần thưởng",
+          "số điện thoại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thù lao; bồi thường; phần thưởng; số điện thoại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48365,
+    "word": "報償",
+    "kana": "ほうしょう",
+    "senses": [
+      {
+        "sense_id": 280564,
+        "meaning_vi": "đền bù; bồi thường; sự đền bù",
+        "confidence": "high",
+        "search_keywords": [
+          "đền bù",
+          "bồi thường",
+          "sự đền bù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đền bù; bồi thường; sự đền bù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48366,
+    "word": "報知",
+    "kana": "ほうち",
+    "senses": [
+      {
+        "sense_id": 280565,
+        "meaning_vi": "thông tin; tin tức; trí thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin",
+          "tin tức",
+          "trí thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin; tin tức; trí thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48367,
+    "word": "報道",
+    "kana": "ほうどう",
+    "senses": [
+      {
+        "sense_id": 280566,
+        "meaning_vi": "báo cáo (tin tức); báo cáo; tin tức; thông tin; (phương tiện truyền thông) đưa tin",
+        "confidence": "high",
+        "search_keywords": [
+          "báo cáo (tin tức)",
+          "báo cáo",
+          "tin tức",
+          "thông tin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "báo cáo (tin tức); báo cáo; tin tức; thông tin; (phương tiện truyền thông) đưa tin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48368,
+    "word": "報道官",
+    "kana": "ほうどうかん",
+    "senses": [
+      {
+        "sense_id": 280567,
+        "meaning_vi": "nhân viên báo chí; thư ký báo chí",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân viên báo chí",
+          "thư ký báo chí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân viên báo chí; thư ký báo chí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48369,
+    "word": "報道機関",
+    "kana": "ほうどうきかん",
+    "senses": [
+      {
+        "sense_id": 280568,
+        "meaning_vi": "phương tiện thông tin; nhấn; cơ quan tin tức",
+        "confidence": "high",
+        "search_keywords": [
+          "phương tiện thông tin",
+          "nhấn",
+          "cơ quan tin tức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương tiện thông tin; nhấn; cơ quan tin tức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48370,
+    "word": "報復",
+    "kana": "ほうふく",
+    "senses": [
+      {
+        "sense_id": 280569,
+        "meaning_vi": "trả thù; sự trả thù; trả thù; quả báo",
+        "confidence": "high",
+        "search_keywords": [
+          "trả thù",
+          "sự trả thù",
+          "quả báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trả thù; sự trả thù; trả thù; quả báo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280570,
+        "meaning_vi": "sự vặn lại; sự đáp trả",
+        "confidence": "high",
+        "search_keywords": [
+          "sự vặn lại",
+          "sự đáp trả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự vặn lại; sự đáp trả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48371,
+    "word": "報復措置",
+    "kana": "ほうふくそち",
+    "senses": [
+      {
+        "sense_id": 280571,
+        "meaning_vi": "trả thù; biện pháp trả đũa",
+        "confidence": "high",
+        "search_keywords": [
+          "trả thù",
+          "biện pháp trả đũa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trả thù; biện pháp trả đũa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 48372,
+    "word": "奉じる",
+    "kana": "ほうじる",
+    "senses": [
+      {
+        "sense_id": 280572,
+        "meaning_vi": "trình bày; cống hiến",
+        "confidence": "high",
+        "search_keywords": [
+          "trình bày",
+          "cống hiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình bày; cống hiến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280573,
+        "meaning_vi": "tuân theo; đi theo; tin tưởng vào; để phục vụ",
+        "confidence": "high",
+        "search_keywords": [
+          "tuân theo",
+          "đi theo",
+          "tin tưởng vào",
+          "để phục vụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuân theo; đi theo; tin tưởng vào; để phục vụ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 280574,
+        "meaning_vi": "tự hào chịu đựng",
+        "confidence": "high",
+        "search_keywords": [
+          "tự hào chịu đựng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tự hào chịu đựng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

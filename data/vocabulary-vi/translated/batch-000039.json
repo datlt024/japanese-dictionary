@@ -1,526 +1,507 @@
 [
-{
-"vocabulary_id": 1178,
-"word": "アーギュメント",
-"kana": "アーギュメント",
-"senses": [
-{
-"sense_id": 219239,
-"meaning_vi": "tranh luận",
-"confidence": "high",
-"search_keywords": [
-"tranh luận",
-"thảo luận",
-"tranh cãi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tranh luận; thảo luận; tranh cãi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219240,
-"meaning_vi": "tham số hàm",
-"confidence": "high",
-"search_keywords": [
-"tham số hàm",
-"đối số hàm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tham số của hàm số; đối số hàm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1179,
-"word": "アーク",
-"kana": "アーク",
-"senses": [
-{
-"sense_id": 219241,
-"meaning_vi": "cung",
-"confidence": "high",
-"search_keywords": [
-"cung",
-"vòng cung"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cung; vòng cung",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219242,
-"meaning_vi": "hồ quang điện",
-"confidence": "high",
-"search_keywords": [
-"hồ quang điện",
-"tia hồ quang"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hồ quang điện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1180,
-"word": "アーク灯",
-"kana": "アークとう",
-"senses": [
-{
-"sense_id": 219243,
-"meaning_vi": "đèn hồ quang",
-"confidence": "high",
-"search_keywords": [
-"đèn hồ quang"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đèn hồ quang điện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1181,
-"word": "アーケード",
-"kana": "アーケード",
-"senses": [
-{
-"sense_id": 219244,
-"meaning_vi": "phố có mái che",
-"confidence": "high",
-"search_keywords": [
-"phố có mái che",
-"khu mua sắm có mái che"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phố thương mại có mái che",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1182,
-"word": "アーケイックスマイル",
-"kana": "アーケイックスマイル",
-"senses": [
-{
-"sense_id": 219245,
-"meaning_vi": "nụ cười cổ phong",
-"confidence": "medium",
-"search_keywords": [
-"nụ cười cổ phong",
-"archaic smile"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kiểu nụ cười đặc trưng trong nghệ thuật cổ đại",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1183,
-"word": "アース",
-"kana": "アース",
-"senses": [
-{
-"sense_id": 219246,
-"meaning_vi": "nối đất",
-"confidence": "high",
-"search_keywords": [
-"nối đất",
-"tiếp địa",
-"dây tiếp đất"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nối đất; tiếp địa; dây nối đất",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219247,
-"meaning_vi": "Trái Đất",
-"confidence": "high",
-"search_keywords": [
-"Trái Đất"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hành tinh Trái Đất",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1184,
-"word": "アースカラー",
-"kana": "アースカラー",
-"senses": [
-{
-"sense_id": 219248,
-"meaning_vi": "màu tông đất",
-"confidence": "high",
-"search_keywords": [
-"màu tông đất",
-"earth tone"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "các gam màu tự nhiên như nâu, be, xanh rêu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1185,
-"word": "アースデー",
-"kana": "アースデー",
-"senses": [
-{
-"sense_id": 219249,
-"meaning_vi": "Ngày Trái Đất",
-"confidence": "high",
-"search_keywords": [
-"Ngày Trái Đất",
-"Earth Day"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Ngày Trái Đất (22 tháng 4)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1186,
-"word": "アーチ",
-"kana": "アーチ",
-"senses": [
-{
-"sense_id": 219250,
-"meaning_vi": "vòm",
-"confidence": "high",
-"search_keywords": [
-"vòm",
-"mái vòm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vòm; kết cấu hình cung",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219251,
-"meaning_vi": "cú home run",
-"confidence": "high",
-"search_keywords": [
-"home run",
-"cú home run"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cú đánh ghi điểm home run trong bóng chày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1187,
-"word": "アーチェリー",
-"kana": "アーチェリー",
-"senses": [
-{
-"sense_id": 219252,
-"meaning_vi": "bắn cung",
-"confidence": "high",
-"search_keywords": [
-"bắn cung",
-"archery"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "môn thể thao bắn cung",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1188,
-"word": "アーティスト",
-"kana": "アーティスト",
-"senses": [
-{
-"sense_id": 219253,
-"meaning_vi": "nghệ sĩ",
-"confidence": "high",
-"search_keywords": [
-"nghệ sĩ",
-"ca sĩ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghệ sĩ; người hoạt động nghệ thuật; nhạc sĩ hoặc ca sĩ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1189,
-"word": "アーチダム",
-"kana": "アーチダム",
-"senses": [
-{
-"sense_id": 219254,
-"meaning_vi": "đập vòm",
-"confidence": "high",
-"search_keywords": [
-"đập vòm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đập nước có kết cấu dạng vòm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1190,
-"word": "アーティファクト",
-"kana": "アーティファクト",
-"senses": [
-{
-"sense_id": 219255,
-"meaning_vi": "hiện vật",
-"confidence": "medium",
-"search_keywords": [
-"hiện vật",
-"cổ vật",
-"artifact"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hiện vật; tạo vật do con người làm ra",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1191,
-"word": "アーティクル",
-"kana": "アーティクル",
-"senses": [
-{
-"sense_id": 219256,
-"meaning_vi": "bài viết",
-"confidence": "medium",
-"search_keywords": [
-"bài viết",
-"điều khoản",
-"article"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bài viết; điều khoản; mục từ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1192,
-"word": "アーティフィシャル",
-"kana": "アーティフィシャル",
-"senses": [
-{
-"sense_id": 219257,
-"meaning_vi": "nhân tạo",
-"confidence": "high",
-"search_keywords": [
-"nhân tạo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhân tạo; không tự nhiên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1193,
-"word": "アーティフィシャルインテリジェンス",
-"kana": "アーティフィシャルインテリジェンス",
-"senses": [
-{
-"sense_id": 219258,
-"meaning_vi": "trí tuệ nhân tạo",
-"confidence": "high",
-"search_keywords": [
-"trí tuệ nhân tạo",
-"AI"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trí tuệ nhân tạo (AI)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1194,
-"word": "アーデント",
-"kana": "アーデント",
-"senses": [
-{
-"sense_id": 219259,
-"meaning_vi": "nhiệt thành",
-"confidence": "medium",
-"search_keywords": [
-"nhiệt thành",
-"say mê"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhiệt thành; đầy đam mê",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1195,
-"word": "アート",
-"kana": "アート",
-"senses": [
-{
-"sense_id": 219260,
-"meaning_vi": "nghệ thuật",
-"confidence": "high",
-"search_keywords": [
-"nghệ thuật",
-"art"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghệ thuật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1196,
-"word": "アートディレクター",
-"kana": "アートディレクター",
-"senses": [
-{
-"sense_id": 219261,
-"meaning_vi": "giám đốc nghệ thuật",
-"confidence": "high",
-"search_keywords": [
-"giám đốc nghệ thuật",
-"art director"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người phụ trách định hướng nghệ thuật",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1197,
-"word": "アーバニティー",
-"kana": "アーバニティー",
-"senses": [
-{
-"sense_id": 219262,
-"meaning_vi": "phong nhã",
-"confidence": "medium",
-"search_keywords": [
-"phong nhã",
-"lịch thiệp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự lịch thiệp, phong nhã trong cách cư xử",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1178,
+    "word": "アーギュメント",
+    "kana": "アーギュメント",
+    "senses": [
+      {
+        "sense_id": 219239,
+        "meaning_vi": "lý lẽ; cuộc thảo luận; tranh chấp",
+        "confidence": "high",
+        "search_keywords": [
+          "lý lẽ",
+          "cuộc thảo luận",
+          "tranh chấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý lẽ; cuộc thảo luận; tranh chấp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219240,
+        "meaning_vi": "đối số (của một hàm)",
+        "confidence": "high",
+        "search_keywords": [
+          "đối số (của một hàm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối số (của một hàm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1179,
+    "word": "アーク",
+    "kana": "アーク",
+    "senses": [
+      {
+        "sense_id": 219241,
+        "meaning_vi": "vòng cung",
+        "confidence": "high",
+        "search_keywords": [
+          "vòng cung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vòng cung",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219242,
+        "meaning_vi": "(điện) hồ quang",
+        "confidence": "high",
+        "search_keywords": [
+          "(điện) hồ quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(điện) hồ quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1180,
+    "word": "アーク灯",
+    "kana": "アークとう",
+    "senses": [
+      {
+        "sense_id": 219243,
+        "meaning_vi": "ánh sáng hồ quang",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh sáng hồ quang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh sáng hồ quang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1181,
+    "word": "アーケード",
+    "kana": "アーケード",
+    "senses": [
+      {
+        "sense_id": 219244,
+        "meaning_vi": "mái vòm (đường phố)",
+        "confidence": "high",
+        "search_keywords": [
+          "mái vòm (đường phố)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mái vòm (đường phố)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1182,
+    "word": "アーケイックスマイル",
+    "kana": "アーケイックスマイル",
+    "senses": [
+      {
+        "sense_id": 219245,
+        "meaning_vi": "nụ cười cổ xưa",
+        "confidence": "high",
+        "search_keywords": [
+          "nụ cười cổ xưa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nụ cười cổ xưa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1183,
+    "word": "アース",
+    "kana": "アース",
+    "senses": [
+      {
+        "sense_id": 219246,
+        "meaning_vi": "trái đất; đất; nối đất; nối đất",
+        "confidence": "high",
+        "search_keywords": [
+          "trái đất",
+          "đất",
+          "nối đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái đất; đất; nối đất; nối đất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219247,
+        "meaning_vi": "trái đất",
+        "confidence": "high",
+        "search_keywords": [
+          "trái đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trái đất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1184,
+    "word": "アースカラー",
+    "kana": "アースカラー",
+    "senses": [
+      {
+        "sense_id": 219248,
+        "meaning_vi": "màu đất; màu đất",
+        "confidence": "high",
+        "search_keywords": [
+          "màu đất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màu đất; màu đất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1185,
+    "word": "アースデー",
+    "kana": "アースデー",
+    "senses": [
+      {
+        "sense_id": 219249,
+        "meaning_vi": "Ngày Trái đất (22 tháng 4)",
+        "confidence": "high",
+        "search_keywords": [
+          "Ngày Trái đất (22 tháng 4)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ngày Trái đất (22 tháng 4)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1186,
+    "word": "アーチ",
+    "kana": "アーチ",
+    "senses": [
+      {
+        "sense_id": 219250,
+        "meaning_vi": "vòm",
+        "confidence": "high",
+        "search_keywords": [
+          "vòm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vòm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219251,
+        "meaning_vi": "chạy về nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy về nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy về nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1187,
+    "word": "アーチェリー",
+    "kana": "アーチェリー",
+    "senses": [
+      {
+        "sense_id": 219252,
+        "meaning_vi": "bắn cung",
+        "confidence": "high",
+        "search_keywords": [
+          "bắn cung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắn cung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1188,
+    "word": "アーティスト",
+    "kana": "アーティスト",
+    "senses": [
+      {
+        "sense_id": 219253,
+        "meaning_vi": "nghệ sĩ; nhạc sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ sĩ",
+          "nhạc sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ sĩ; nhạc sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1189,
+    "word": "アーチダム",
+    "kana": "アーチダム",
+    "senses": [
+      {
+        "sense_id": 219254,
+        "meaning_vi": "Đập vòm",
+        "confidence": "high",
+        "search_keywords": [
+          "Đập vòm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đập vòm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1190,
+    "word": "アーティファクト",
+    "kana": "アーティファクト",
+    "senses": [
+      {
+        "sense_id": 219255,
+        "meaning_vi": "hiện vật; hiện vật",
+        "confidence": "high",
+        "search_keywords": [
+          "hiện vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiện vật; hiện vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1191,
+    "word": "アーティクル",
+    "kana": "アーティクル",
+    "senses": [
+      {
+        "sense_id": 219256,
+        "meaning_vi": "bài viết",
+        "confidence": "high",
+        "search_keywords": [
+          "bài viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1192,
+    "word": "アーティフィシャル",
+    "kana": "アーティフィシャル",
+    "senses": [
+      {
+        "sense_id": 219257,
+        "meaning_vi": "nhân tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "nhân tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhân tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1193,
+    "word": "アーティフィシャルインテリジェンス",
+    "kana": "アーティフィシャルインテリジェンス",
+    "senses": [
+      {
+        "sense_id": 219258,
+        "meaning_vi": "trí tuệ nhân tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "trí tuệ nhân tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trí tuệ nhân tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1194,
+    "word": "アーデント",
+    "kana": "アーデント",
+    "senses": [
+      {
+        "sense_id": 219259,
+        "meaning_vi": "hăng hái",
+        "confidence": "high",
+        "search_keywords": [
+          "hăng hái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hăng hái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1195,
+    "word": "アート",
+    "kana": "アート",
+    "senses": [
+      {
+        "sense_id": 219260,
+        "meaning_vi": "nghệ thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1196,
+    "word": "アートディレクター",
+    "kana": "アートディレクター",
+    "senses": [
+      {
+        "sense_id": 219261,
+        "meaning_vi": "giám đốc nghệ thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "giám đốc nghệ thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giám đốc nghệ thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1197,
+    "word": "アーバニティー",
+    "kana": "アーバニティー",
+    "senses": [
+      {
+        "sense_id": 219262,
+        "meaning_vi": "tính đô thị",
+        "confidence": "high",
+        "search_keywords": [
+          "tính đô thị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính đô thị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

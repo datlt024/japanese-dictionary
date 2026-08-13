@@ -1,0 +1,602 @@
+[
+  {
+    "vocabulary_id": 42224,
+    "word": "同意義",
+    "kana": "どういぎ",
+    "senses": [
+      {
+        "sense_id": 272500,
+        "meaning_vi": "ý nghĩa tương tự",
+        "confidence": "high",
+        "search_keywords": [
+          "ý nghĩa tương tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý nghĩa tương tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42225,
+    "word": "同意見",
+    "kana": "どういけん",
+    "senses": [
+      {
+        "sense_id": 272501,
+        "meaning_vi": "cùng quan điểm",
+        "confidence": "high",
+        "search_keywords": [
+          "cùng quan điểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cùng quan điểm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42226,
+    "word": "同意語",
+    "kana": "どういご",
+    "senses": [
+      {
+        "sense_id": 272502,
+        "meaning_vi": "từ đồng nghĩa",
+        "confidence": "high",
+        "search_keywords": [
+          "từ đồng nghĩa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ đồng nghĩa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42227,
+    "word": "同異",
+    "kana": "どうい",
+    "senses": [
+      {
+        "sense_id": 272503,
+        "meaning_vi": "điểm tương đồng và khác biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm tương đồng và khác biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm tương đồng và khác biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42228,
+    "word": "同一",
+    "kana": "どういつ",
+    "senses": [
+      {
+        "sense_id": 272504,
+        "meaning_vi": "giống hệt nhau; như nhau; một và giống nhau; bằng nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "giống hệt nhau",
+          "như nhau",
+          "một và giống nhau",
+          "bằng nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giống hệt nhau; như nhau; một và giống nhau; bằng nhau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272505,
+        "meaning_vi": "hội chợ; đối xử bình đẳng; không phân biệt đối xử",
+        "confidence": "high",
+        "search_keywords": [
+          "hội chợ",
+          "đối xử bình đẳng",
+          "không phân biệt đối xử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội chợ; đối xử bình đẳng; không phân biệt đối xử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42229,
+    "word": "同一視",
+    "kana": "どういつし",
+    "senses": [
+      {
+        "sense_id": 272506,
+        "meaning_vi": "xem và đối xử như một; xét như nhau; đánh đồng cái này với cái khác; nhận dạng",
+        "confidence": "high",
+        "search_keywords": [
+          "xem và đối xử như một",
+          "xét như nhau",
+          "đánh đồng cái này với cái khác",
+          "nhận dạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem và đối xử như một; xét như nhau; đánh đồng cái này với cái khác; nhận dạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42230,
+    "word": "同一人",
+    "kana": "どういつにん",
+    "senses": [
+      {
+        "sense_id": 272507,
+        "meaning_vi": "cùng một người",
+        "confidence": "high",
+        "search_keywords": [
+          "cùng một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cùng một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42231,
+    "word": "同音",
+    "kana": "どうおん",
+    "senses": [
+      {
+        "sense_id": 272508,
+        "meaning_vi": "đồng âm; cách phát âm giống nhau; âm thanh giống nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng âm",
+          "cách phát âm giống nhau",
+          "âm thanh giống nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng âm; cách phát âm giống nhau; âm thanh giống nhau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272509,
+        "meaning_vi": "đồng thanh; cùng một cao độ",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng thanh",
+          "cùng một cao độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng thanh; cùng một cao độ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272510,
+        "meaning_vi": "(bằng) một giọng nói; (nói đồng thanh) đồng thanh",
+        "confidence": "high",
+        "search_keywords": [
+          "(bằng) một giọng nói",
+          "(nói đồng thanh) đồng thanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(bằng) một giọng nói; (nói đồng thanh) đồng thanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42232,
+    "word": "同音異義語",
+    "kana": "どうおんいぎご",
+    "senses": [
+      {
+        "sense_id": 272511,
+        "meaning_vi": "đồng âm; từ đồng âm",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng âm",
+          "từ đồng âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng âm; từ đồng âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42233,
+    "word": "同音語",
+    "kana": "どうおんご",
+    "senses": [
+      {
+        "sense_id": 272512,
+        "meaning_vi": "từ đồng âm",
+        "confidence": "high",
+        "search_keywords": [
+          "từ đồng âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ đồng âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42234,
+    "word": "同化",
+    "kana": "どうか",
+    "senses": [
+      {
+        "sense_id": 272513,
+        "meaning_vi": "sự đồng hóa; sự hấp thụ",
+        "confidence": "high",
+        "search_keywords": [
+          "sự đồng hóa",
+          "sự hấp thụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự đồng hóa; sự hấp thụ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272514,
+        "meaning_vi": "sự thích ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thích ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thích ứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272515,
+        "meaning_vi": "sự đồng hóa; sự đồng hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "sự đồng hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự đồng hóa; sự đồng hóa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272516,
+        "meaning_vi": "sự đồng hóa (âm vị học)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự đồng hóa (âm vị học)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự đồng hóa (âm vị học)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42235,
+    "word": "同化作用",
+    "kana": "どうかさよう",
+    "senses": [
+      {
+        "sense_id": 272517,
+        "meaning_vi": "sự đồng hóa; trao đổi chất; sự đồng hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "sự đồng hóa",
+          "trao đổi chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự đồng hóa; trao đổi chất; sự đồng hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42236,
+    "word": "同価",
+    "kana": "どうか",
+    "senses": [
+      {
+        "sense_id": 272518,
+        "meaning_vi": "tương đương",
+        "confidence": "high",
+        "search_keywords": [
+          "tương đương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương đương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42237,
+    "word": "同家",
+    "kana": "どうけ",
+    "senses": [
+      {
+        "sense_id": 272519,
+        "meaning_vi": "gia đình nói trên; cùng một gia đình",
+        "confidence": "high",
+        "search_keywords": [
+          "gia đình nói trên",
+          "cùng một gia đình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gia đình nói trên; cùng một gia đình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42238,
+    "word": "同格",
+    "kana": "どうかく",
+    "senses": [
+      {
+        "sense_id": 272520,
+        "meaning_vi": "cùng cấp bậc; bình đẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "cùng cấp bậc",
+          "bình đẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cùng cấp bậc; bình đẳng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272521,
+        "meaning_vi": "sự bổ nhiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bổ nhiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bổ nhiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42239,
+    "word": "同学年",
+    "kana": "どうがくねん",
+    "senses": [
+      {
+        "sense_id": 272522,
+        "meaning_vi": "cùng năm học",
+        "confidence": "high",
+        "search_keywords": [
+          "cùng năm học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cùng năm học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42240,
+    "word": "同感",
+    "kana": "どうかん",
+    "senses": [
+      {
+        "sense_id": 272523,
+        "meaning_vi": "cảm giác tương tự; cùng một tình cảm; cùng quan điểm; sự đồng cảm; hiệp định; sự đồng tình",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm giác tương tự",
+          "cùng một tình cảm",
+          "cùng quan điểm",
+          "sự đồng cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm giác tương tự; cùng một tình cảm; cùng quan điểm; sự đồng cảm; hiệp định; sự đồng tình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42241,
+    "word": "同期",
+    "kana": "どうき",
+    "senses": [
+      {
+        "sense_id": 272524,
+        "meaning_vi": "cùng kỳ; kỳ tương ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "cùng kỳ",
+          "kỳ tương ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cùng kỳ; kỳ tương ứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272525,
+        "meaning_vi": "cùng năm (tốt nghiệp, vào công ty, v.v.); đồng thời; bạn cùng lớp",
+        "confidence": "high",
+        "search_keywords": [
+          "cùng năm (tốt nghiệp, vào công ty, v.v.)",
+          "đồng thời",
+          "bạn cùng lớp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cùng năm (tốt nghiệp, vào công ty, v.v.); đồng thời; bạn cùng lớp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 272526,
+        "meaning_vi": "đồng bộ hóa; sự đồng bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng bộ hóa",
+          "sự đồng bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng bộ hóa; sự đồng bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42242,
+    "word": "同期式",
+    "kana": "どうきしき",
+    "senses": [
+      {
+        "sense_id": 272527,
+        "meaning_vi": "đồng bộ hóa; đồng bộ hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "đồng bộ hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồng bộ hóa; đồng bộ hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42243,
+    "word": "同期信号",
+    "kana": "どうきしんごう",
+    "senses": [
+      {
+        "sense_id": 272528,
+        "meaning_vi": "nhàn rỗi đồng bộ; SYN",
+        "confidence": "high",
+        "search_keywords": [
+          "nhàn rỗi đồng bộ",
+          "SYN"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhàn rỗi đồng bộ; SYN",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

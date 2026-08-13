@@ -1,0 +1,805 @@
+{
+  "batch_id": "manual-n5-batch1",
+  "results": [
+    {
+      "id": 1201,
+      "meaning_vi": "là",
+      "short_meaning_vi": "là",
+      "explanation_vi": "Trợ từ cuối câu dùng để xác định hoặc mô tả danh từ. 「だ」là dạng thông thường (thân mật), 「です」là dạng lịch sự.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "だ"}, {"left": "N", "remove": null, "right": "です"}]}],
+      "variants": [{"pattern": "ではない", "type": "negative"}, {"pattern": "ではありません", "type": "negative-polite"}, {"pattern": "だった", "type": "past"}, {"pattern": "でした", "type": "past-polite"}],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Dạng phủ định: ではない / じゃない (thông thường), ではありません / じゃありません (lịch sự).", "Dạng quá khứ: だった (thông thường), でした (lịch sự)."],
+      "similar_grammar": ["でしょう／だろう"],
+      "differences": [{"pattern": "でしょう／だろう", "difference_vi": "「だ/です」xác định sự thật chắc chắn; 「でしょう/だろう」diễn tả phỏng đoán hoặc không chắc chắn."}],
+      "tags": ["copula", "N5"],
+      "examples": [
+        {"japanese": "これは本です。", "translation_vi": "Đây là sách."},
+        {"japanese": "田中さんは先生だ。", "translation_vi": "Anh Tanaka là giáo viên."},
+        {"japanese": "あの人は学生ではありません。", "translation_vi": "Người đó không phải là sinh viên."}
+      ]
+    },
+    {
+      "id": 1202,
+      "meaning_vi": "làm... (dạng lịch sự, hiện tại hoặc tương lai)",
+      "short_meaning_vi": "làm (lịch sự)",
+      "explanation_vi": "Dạng lịch sự của động từ ở thì hiện tại hoặc tương lai. Dùng trong giao tiếp trang trọng với người lạ, cấp trên.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ます", "remove": null, "right": null}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Phủ định hiện tại: ません. Quá khứ: ました. Phủ định quá khứ: ませんでした."],
+      "similar_grammar": ["ません", "ました", "ませんでした"],
+      "differences": [],
+      "tags": ["verb", "polite", "present", "future", "N5"],
+      "examples": [
+        {"japanese": "毎日日本語を勉強します。", "translation_vi": "Tôi học tiếng Nhật mỗi ngày."},
+        {"japanese": "明日友達に会います。", "translation_vi": "Ngày mai tôi gặp bạn."},
+        {"japanese": "週末に映画を見ます。", "translation_vi": "Cuối tuần tôi xem phim."}
+      ]
+    },
+    {
+      "id": 1203,
+      "meaning_vi": "không làm... (dạng lịch sự, phủ định hiện tại hoặc tương lai)",
+      "short_meaning_vi": "không làm (lịch sự)",
+      "explanation_vi": "Dạng lịch sự phủ định của động từ ở thì hiện tại hoặc tương lai. Tạo thành bằng cách bỏ ます và thêm ません.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "ません"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["ます", "ませんでした"],
+      "differences": [],
+      "tags": ["verb", "polite", "negative", "N5"],
+      "examples": [
+        {"japanese": "肉を食べません。", "translation_vi": "Tôi không ăn thịt."},
+        {"japanese": "お酒を飲みません。", "translation_vi": "Tôi không uống rượu."},
+        {"japanese": "日曜日は学校に行きません。", "translation_vi": "Chủ nhật tôi không đến trường."}
+      ]
+    },
+    {
+      "id": 1204,
+      "meaning_vi": "đã làm... (dạng lịch sự, quá khứ)",
+      "short_meaning_vi": "đã làm (lịch sự)",
+      "explanation_vi": "Dạng lịch sự của động từ ở thì quá khứ. Tạo thành bằng cách bỏ ます và thêm ました.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "ました"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["ます", "ませんでした"],
+      "differences": [],
+      "tags": ["verb", "polite", "past", "N5"],
+      "examples": [
+        {"japanese": "昨日日本語を勉強しました。", "translation_vi": "Hôm qua tôi đã học tiếng Nhật."},
+        {"japanese": "先週東京へ行きました。", "translation_vi": "Tuần trước tôi đã đi Tokyo."},
+        {"japanese": "朝ごはんを食べました。", "translation_vi": "Tôi đã ăn bữa sáng."}
+      ]
+    },
+    {
+      "id": 1205,
+      "meaning_vi": "đã không làm... (dạng lịch sự, phủ định quá khứ)",
+      "short_meaning_vi": "đã không làm (lịch sự)",
+      "explanation_vi": "Dạng lịch sự phủ định của động từ ở thì quá khứ. Tạo thành bằng cách bỏ ます và thêm ませんでした.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "V-ます", "remove": "ます", "right": "ませんでした"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["ました", "ません"],
+      "differences": [],
+      "tags": ["verb", "polite", "past", "negative", "N5"],
+      "examples": [
+        {"japanese": "昨日学校に行きませんでした。", "translation_vi": "Hôm qua tôi đã không đến trường."},
+        {"japanese": "宿題をしませんでした。", "translation_vi": "Tôi đã không làm bài tập về nhà."},
+        {"japanese": "ご飯を食べませんでした。", "translation_vi": "Tôi đã không ăn cơm."}
+      ]
+    },
+    {
+      "id": 1206,
+      "meaning_vi": "nêu chủ đề",
+      "short_meaning_vi": "chủ đề",
+      "explanation_vi": "Trợ từ đánh dấu chủ đề của câu. Chủ đề là điều người nói muốn nói đến, không nhất thiết phải là chủ ngữ thực hiện hành động.",
+      "nuance_vi": "Khi dùng は để đối chiếu hai sự vật: 肉は食べます、魚は食べません (Thịt thì ăn, còn cá thì không).",
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "は"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["は còn dùng để đối chiếu: AはBです、CはDです."],
+      "similar_grammar": ["が"],
+      "differences": [{"pattern": "が", "difference_vi": "「は」đánh dấu chủ đề (thông tin đã biết); 「が」đánh dấu chủ ngữ (thông tin mới, nhấn mạnh)."}],
+      "tags": ["particle", "topic", "N5"],
+      "examples": [
+        {"japanese": "私は学生です。", "translation_vi": "Tôi là sinh viên."},
+        {"japanese": "東京は大きい都市です。", "translation_vi": "Tokyo là thành phố lớn."},
+        {"japanese": "この映画はおもしろいです。", "translation_vi": "Bộ phim này thú vị."}
+      ]
+    },
+    {
+      "id": 1207,
+      "meaning_vi": "đánh dấu chủ ngữ",
+      "short_meaning_vi": "chủ ngữ",
+      "explanation_vi": "Trợ từ đánh dấu chủ ngữ của câu. Dùng khi giới thiệu thông tin mới, nhấn mạnh, hoặc với các tính từ cảm xúc và động từ tri giác.",
+      "nuance_vi": "Dùng bắt buộc với: 好き、嫌い、上手、下手、欲しい、分かる、できる.",
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "が"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Trong mệnh đề phụ, thường dùng が thay は: 彼が作った料理 (món ăn anh ấy làm)."],
+      "similar_grammar": ["は"],
+      "differences": [{"pattern": "は", "difference_vi": "「が」nhấn mạnh chủ ngữ hoặc giới thiệu thông tin mới; 「は」đánh dấu chủ đề đã biết."}],
+      "tags": ["particle", "subject", "N5"],
+      "examples": [
+        {"japanese": "雨が降っています。", "translation_vi": "Trời đang mưa."},
+        {"japanese": "犬が好きです。", "translation_vi": "Tôi thích chó."},
+        {"japanese": "空が青い。", "translation_vi": "Bầu trời xanh."}
+      ]
+    },
+    {
+      "id": 1208,
+      "meaning_vi": "nhưng",
+      "short_meaning_vi": "nhưng",
+      "explanation_vi": "Liên từ nối hai mệnh đề có nội dung đối lập hoặc tương phản. Đứng sau mệnh đề thứ nhất.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "S1-plain/polite", "remove": null, "right": "が、S2"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["が (nối câu) trang trọng hơn けど/けれども.", "Cũng dùng làm câu mở đầu lịch sự trước yêu cầu: すみませんが..."],
+      "similar_grammar": ["けど／けれども"],
+      "differences": [{"pattern": "けど／けれども", "difference_vi": "「が」trang trọng hơn, phổ biến trong văn viết; 「けど」thân mật hơn, thường dùng trong hội thoại."}],
+      "tags": ["conjunction", "contrast", "N5"],
+      "examples": [
+        {"japanese": "日本語は難しいですが、楽しいです。", "translation_vi": "Tiếng Nhật khó nhưng vui."},
+        {"japanese": "電話しましたが、出ませんでした。", "translation_vi": "Tôi đã gọi điện nhưng không ai bắt máy."},
+        {"japanese": "安いですが、品質が悪いです。", "translation_vi": "Giá rẻ nhưng chất lượng kém."}
+      ]
+    },
+    {
+      "id": 1209,
+      "meaning_vi": "đánh dấu tân ngữ",
+      "short_meaning_vi": "tân ngữ",
+      "explanation_vi": "Trợ từ đánh dấu tân ngữ trực tiếp của động từ ngoại động. Chỉ đối tượng bị tác động bởi hành động.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "を + V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["に", "で"],
+      "differences": [],
+      "tags": ["particle", "object", "N5"],
+      "examples": [
+        {"japanese": "ご飯を食べます。", "translation_vi": "Tôi ăn cơm."},
+        {"japanese": "本を読みます。", "translation_vi": "Tôi đọc sách."},
+        {"japanese": "音楽を聞きます。", "translation_vi": "Tôi nghe nhạc."}
+      ]
+    },
+    {
+      "id": 1210,
+      "meaning_vi": "đi qua; rời khỏi",
+      "short_meaning_vi": "qua; rời",
+      "explanation_vi": "Trợ từ を dùng với động từ di chuyển để chỉ không gian bị đi qua hoặc điểm xuất phát rời đi.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "場所", "remove": null, "right": "を + V(移動)"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Động từ đi kèm: 歩く、走る、渡る、飛ぶ、通る、出る, v.v."],
+      "similar_grammar": ["に", "で"],
+      "differences": [{"pattern": "で", "difference_vi": "「で」chỉ nơi thực hiện hành động; 「を」chỉ không gian bị đi qua hoặc nơi rời đi."}],
+      "tags": ["particle", "movement", "N5"],
+      "examples": [
+        {"japanese": "公園を散歩します。", "translation_vi": "Tôi đi dạo trong công viên."},
+        {"japanese": "橋を渡ります。", "translation_vi": "Tôi qua cầu."},
+        {"japanese": "家を出ます。", "translation_vi": "Tôi rời khỏi nhà."}
+      ]
+    },
+    {
+      "id": 1211,
+      "meaning_vi": "vào; lúc (thời gian)",
+      "short_meaning_vi": "vào lúc",
+      "explanation_vi": "Trợ từ に chỉ thời điểm cụ thể xảy ra hành động. Dùng với giờ, ngày, tháng, năm, thứ trong tuần, mùa.",
+      "nuance_vi": "Không dùng với: 今日、明日、昨日、今、今週、来週, v.v. (những từ thời gian tương đối).",
+      "formation": [{"patterns": [{"left": "時間/曜日/季節", "remove": null, "right": "に + V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Không dùng に với: 今日、明日、昨日、今週、来週、毎日, v.v."],
+      "similar_grammar": ["で", "に"],
+      "differences": [{"pattern": "で", "difference_vi": "「に」chỉ thời điểm hoặc địa điểm tồn tại; 「で」chỉ nơi thực hiện hành động."}],
+      "tags": ["particle", "time", "N5"],
+      "examples": [
+        {"japanese": "月曜日に学校に行きます。", "translation_vi": "Vào thứ Hai tôi đến trường."},
+        {"japanese": "七時に起きます。", "translation_vi": "Tôi thức dậy lúc 7 giờ."},
+        {"japanese": "夏に日本へ行きました。", "translation_vi": "Mùa hè tôi đã đến Nhật."}
+      ]
+    },
+    {
+      "id": 1212,
+      "meaning_vi": "đến (đích đến)",
+      "short_meaning_vi": "đến",
+      "explanation_vi": "Trợ từ に chỉ đích đến của sự di chuyển. Dùng với các động từ di chuyển như 行く、来る、帰る、入る.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "場所", "remove": null, "right": "に + 行く/来る/帰る/入る"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["へ", "で"],
+      "differences": [{"pattern": "へ", "difference_vi": "「に」nhấn mạnh điểm đến; 「へ」nhấn mạnh hướng di chuyển. Trong thực tế thường dùng thay thế nhau."}],
+      "tags": ["particle", "direction", "destination", "N5"],
+      "examples": [
+        {"japanese": "日本に来ました。", "translation_vi": "Tôi đã đến Nhật Bản."},
+        {"japanese": "図書館に行きます。", "translation_vi": "Tôi đến thư viện."},
+        {"japanese": "部屋に入ります。", "translation_vi": "Tôi vào phòng."}
+      ]
+    },
+    {
+      "id": 1213,
+      "meaning_vi": "ở; tại (tồn tại)",
+      "short_meaning_vi": "ở; tại",
+      "explanation_vi": "Trợ từ に chỉ vị trí tồn tại của sự vật hoặc con người. Dùng kết hợp với ある và いる.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "場所", "remove": null, "right": "に + ある/いる"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["ある: sự vật, đồ vật, thực vật; いる: người, động vật."],
+      "similar_grammar": ["で", "Nがある", "Nがいる"],
+      "differences": [{"pattern": "で", "difference_vi": "「に」chỉ nơi tồn tại (với ある/いる); 「で」chỉ nơi thực hiện hành động (với các động từ khác)."}],
+      "tags": ["particle", "location", "existence", "N5"],
+      "examples": [
+        {"japanese": "机の上に本があります。", "translation_vi": "Trên bàn có sách."},
+        {"japanese": "教室に学生がいます。", "translation_vi": "Trong lớp có học sinh."},
+        {"japanese": "公園に木があります。", "translation_vi": "Trong công viên có cây."}
+      ]
+    },
+    {
+      "id": 1214,
+      "meaning_vi": "cho; với; đến (đối tượng nhận)",
+      "short_meaning_vi": "cho; với",
+      "explanation_vi": "Trợ từ に chỉ đối tượng nhận hành động hoặc người mà hành động hướng đến. Dùng với các động từ như あげる、もらう、教える、言う、電話する.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "人", "remove": null, "right": "に + V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["に"],
+      "differences": [],
+      "tags": ["particle", "recipient", "N5"],
+      "examples": [
+        {"japanese": "友達にプレゼントをあげました。", "translation_vi": "Tôi đã tặng quà cho bạn."},
+        {"japanese": "先生に質問します。", "translation_vi": "Tôi hỏi thầy giáo."},
+        {"japanese": "母に電話します。", "translation_vi": "Tôi gọi điện cho mẹ."}
+      ]
+    },
+    {
+      "id": 1215,
+      "meaning_vi": "ở; tại (nơi thực hiện hành động)",
+      "short_meaning_vi": "ở; tại",
+      "explanation_vi": "Trợ từ で chỉ nơi thực hiện hành động. Khác với に (chỉ nơi tồn tại), で đi kèm với các động từ hành động.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "場所", "remove": null, "right": "で + V(行動)"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["に"],
+      "differences": [{"pattern": "に", "difference_vi": "「で」chỉ nơi thực hiện hành động; 「に」chỉ nơi tồn tại (với ある/いる) hoặc đích đến (với 行く/来る)."}],
+      "tags": ["particle", "location", "action", "N5"],
+      "examples": [
+        {"japanese": "図書館で勉強します。", "translation_vi": "Tôi học ở thư viện."},
+        {"japanese": "レストランで食べます。", "translation_vi": "Tôi ăn ở nhà hàng."},
+        {"japanese": "公園で遊びます。", "translation_vi": "Tôi chơi ở công viên."}
+      ]
+    },
+    {
+      "id": 1216,
+      "meaning_vi": "bằng; bằng cách (phương tiện)",
+      "short_meaning_vi": "bằng",
+      "explanation_vi": "Trợ từ で chỉ phương tiện, công cụ hoặc phương thức thực hiện hành động.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "手段/道具/言語", "remove": null, "right": "で + V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["で"],
+      "differences": [],
+      "tags": ["particle", "means", "instrument", "N5"],
+      "examples": [
+        {"japanese": "バスで学校に行きます。", "translation_vi": "Tôi đến trường bằng xe buýt."},
+        {"japanese": "箸でご飯を食べます。", "translation_vi": "Tôi ăn cơm bằng đũa."},
+        {"japanese": "日本語で話しましょう。", "translation_vi": "Hãy nói chuyện bằng tiếng Nhật."}
+      ]
+    },
+    {
+      "id": 1217,
+      "meaning_vi": "vì; do (nguyên nhân)",
+      "short_meaning_vi": "vì; do",
+      "explanation_vi": "Trợ từ で chỉ nguyên nhân hoặc lý do của sự việc. Thường dùng với danh từ chỉ tình trạng hoặc sự kiện.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N (nguyên nhân)", "remove": null, "right": "で + V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Cũng dùng で để chỉ chất liệu: 木で作る (làm bằng gỗ)."],
+      "similar_grammar": ["から", "ので"],
+      "differences": [{"pattern": "から", "difference_vi": "「N + で」chỉ nguyên nhân dạng danh từ; 「から」và「ので」nối mệnh đề nguyên nhân dạng câu đầy đủ."}],
+      "tags": ["particle", "reason", "cause", "N5"],
+      "examples": [
+        {"japanese": "病気で学校を休みました。", "translation_vi": "Tôi đã nghỉ học vì bệnh."},
+        {"japanese": "地震で家が壊れました。", "translation_vi": "Nhà bị phá hủy do động đất."},
+        {"japanese": "木で作った机です。", "translation_vi": "Đây là chiếc bàn làm bằng gỗ."}
+      ]
+    },
+    {
+      "id": 1218,
+      "meaning_vi": "đến; về phía (hướng)",
+      "short_meaning_vi": "hướng đến",
+      "explanation_vi": "Trợ từ へ chỉ hướng di chuyển. Dùng với các động từ di chuyển như 行く、来る、帰る. Trong thực tế thường dùng thay thế với に.",
+      "nuance_vi": "「へ」nhấn mạnh hướng; 「に」nhấn mạnh điểm đến. Trong hội thoại hằng ngày, cả hai đều chấp nhận được.",
+      "formation": [{"patterns": [{"left": "場所", "remove": null, "right": "へ + 行く/来る/帰る"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["に"],
+      "differences": [{"pattern": "に", "difference_vi": "「へ」nhấn mạnh hướng di chuyển; 「に」nhấn mạnh điểm đến. Cả hai đều dùng được trong hầu hết trường hợp."}],
+      "tags": ["particle", "direction", "N5"],
+      "examples": [
+        {"japanese": "東京へ行きます。", "translation_vi": "Tôi đi Tokyo."},
+        {"japanese": "日本へ来ました。", "translation_vi": "Tôi đã đến Nhật Bản."},
+        {"japanese": "家へ帰ります。", "translation_vi": "Tôi về nhà."}
+      ]
+    },
+    {
+      "id": 1219,
+      "meaning_vi": "và (liệt kê đầy đủ)",
+      "short_meaning_vi": "và",
+      "explanation_vi": "Trợ từ と nối các danh từ trong một danh sách đầy đủ. Ngụ ý liệt kê hết tất cả các phần tử.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "と + N"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["や", "など"],
+      "differences": [{"pattern": "や", "difference_vi": "「と」liệt kê đầy đủ tất cả các phần tử; 「や」liệt kê không đầy đủ, ngụ ý còn các thứ khác."}],
+      "tags": ["particle", "listing", "N5"],
+      "examples": [
+        {"japanese": "パンと牛乳を買いました。", "translation_vi": "Tôi đã mua bánh mì và sữa."},
+        {"japanese": "田中さんと山田さんが来ました。", "translation_vi": "Anh Tanaka và anh Yamada đã đến."},
+        {"japanese": "ペンと消しゴムを持っています。", "translation_vi": "Tôi có bút và tẩy."}
+      ]
+    },
+    {
+      "id": 1220,
+      "meaning_vi": "với; cùng với",
+      "short_meaning_vi": "cùng với",
+      "explanation_vi": "Trợ từ と chỉ người cùng thực hiện hành động. Dùng để diễn tả việc làm gì đó cùng với ai.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "人", "remove": null, "right": "と + V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["と"],
+      "differences": [],
+      "tags": ["particle", "accompaniment", "N5"],
+      "examples": [
+        {"japanese": "友達と映画を見ました。", "translation_vi": "Tôi đã xem phim cùng bạn."},
+        {"japanese": "家族と旅行します。", "translation_vi": "Tôi đi du lịch cùng gia đình."},
+        {"japanese": "田中さんと話しました。", "translation_vi": "Tôi đã nói chuyện với anh Tanaka."}
+      ]
+    },
+    {
+      "id": 1221,
+      "meaning_vi": "cũng; cũng vậy",
+      "short_meaning_vi": "cũng",
+      "explanation_vi": "Trợ từ も mang nghĩa 'cũng; tương tự'. Thay thế が hoặc は trong câu để thêm yếu tố có cùng tính chất.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "も + V/A"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["も thay thế は và が: 私も (tôi cũng).", "Khi dùng hai も: AもBも (cả A lẫn B đều...)."],
+      "similar_grammar": ["は", "が"],
+      "differences": [{"pattern": "は", "difference_vi": "「は」đánh dấu chủ đề; 「も」nhấn mạnh 'cũng' và thêm yếu tố tương tự."}],
+      "tags": ["particle", "addition", "N5"],
+      "examples": [
+        {"japanese": "私も日本語を勉強しています。", "translation_vi": "Tôi cũng đang học tiếng Nhật."},
+        {"japanese": "田中さんも来ました。", "translation_vi": "Anh Tanaka cũng đã đến."},
+        {"japanese": "猫も犬も好きです。", "translation_vi": "Tôi thích cả mèo lẫn chó."}
+      ]
+    },
+    {
+      "id": 1222,
+      "meaning_vi": "đến mức; tận; đến cả",
+      "short_meaning_vi": "đến cả; tận",
+      "explanation_vi": "Trợ từ も dùng với số lượng hoặc nhấn mạnh, diễn tả mức độ bất ngờ — 'nhiều đến mức', 'ít đến nỗi', hoặc 'thậm chí không'.",
+      "nuance_vi": "Với phủ định: 一度も～ない (không một lần nào). Với số lượng lớn: 三時間も (tận ba tiếng đồng hồ).",
+      "formation": [{"patterns": [{"left": "数量", "remove": null, "right": "も + V/negative"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["も", "しか～ない"],
+      "differences": [{"pattern": "しか～ない", "difference_vi": "「しか～ない」nhấn mạnh số lượng ít/không đủ; 「も + negative」nhấn mạnh 'thậm chí không có'."}],
+      "tags": ["particle", "emphasis", "degree", "N5"],
+      "examples": [
+        {"japanese": "百円も持っていません。", "translation_vi": "Tôi không có đến một trăm yên."},
+        {"japanese": "三時間も待ちました。", "translation_vi": "Tôi đã chờ tận ba tiếng đồng hồ."},
+        {"japanese": "一度も行ったことがありません。", "translation_vi": "Tôi chưa đi một lần nào cả."}
+      ]
+    },
+    {
+      "id": 1223,
+      "meaning_vi": "nhỉ; nhé (xác nhận cảm xúc chung)",
+      "short_meaning_vi": "nhỉ; nhé",
+      "explanation_vi": "Trợ từ cuối câu ね dùng khi người nói muốn chia sẻ cảm xúc hoặc xác nhận sự đồng ý từ người nghe. Tạo cảm giác thân thiện.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "S", "remove": null, "right": "ね"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["よ"],
+      "differences": [{"pattern": "よ", "difference_vi": "「ね」tìm kiếm sự đồng tình từ người nghe; 「よ」khẳng định thông tin với người nghe."}],
+      "tags": ["sentence-ending", "particle", "N5"],
+      "examples": [
+        {"japanese": "今日は暑いですね。", "translation_vi": "Hôm nay nóng nhỉ."},
+        {"japanese": "このケーキ、おいしいですね。", "translation_vi": "Bánh này ngon nhỉ."},
+        {"japanese": "明日は休みですね。", "translation_vi": "Ngày mai nghỉ nhỉ."}
+      ]
+    },
+    {
+      "id": 1224,
+      "meaning_vi": "đấy; đó (khẳng định với người nghe)",
+      "short_meaning_vi": "đấy nhé",
+      "explanation_vi": "Trợ từ cuối câu よ dùng khi người nói muốn thông báo hoặc khẳng định điều gì đó mà người nghe chưa biết.",
+      "nuance_vi": "よ thể hiện sự tự tin của người nói. Dùng quá nhiều có thể nghe áp đặt.",
+      "formation": [{"patterns": [{"left": "S", "remove": null, "right": "よ"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["ね"],
+      "differences": [{"pattern": "ね", "difference_vi": "「よ」thông báo thông tin người nghe chưa biết; 「ね」chia sẻ cảm xúc và tìm kiếm đồng tình."}],
+      "tags": ["sentence-ending", "particle", "N5"],
+      "examples": [
+        {"japanese": "このレストランはおいしいですよ。", "translation_vi": "Nhà hàng này ngon đấy."},
+        {"japanese": "明日テストがありますよ。", "translation_vi": "Ngày mai có kiểm tra đấy."},
+        {"japanese": "あそこに電話がありますよ。", "translation_vi": "Chỗ kia có điện thoại đấy."}
+      ]
+    },
+    {
+      "id": 1225,
+      "meaning_vi": "từ (không gian/thời gian)",
+      "short_meaning_vi": "từ",
+      "explanation_vi": "Trợ từ から chỉ điểm xuất phát về thời gian hoặc không gian. Thường dùng cùng まで để tạo cấu trúc 'từ ... đến ...'.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "場所/時間", "remove": null, "right": "から"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [{"expression": "から〜まで"}],
+      "notes": [],
+      "similar_grammar": ["まで", "から"],
+      "differences": [{"pattern": "まで", "difference_vi": "「から」chỉ điểm bắt đầu; 「まで」chỉ điểm kết thúc. Dùng kết hợp: から〜まで (từ...đến...)."}],
+      "tags": ["particle", "starting-point", "N5"],
+      "examples": [
+        {"japanese": "学校は九時から始まります。", "translation_vi": "Trường bắt đầu từ 9 giờ."},
+        {"japanese": "東京から大阪まで新幹線で行きます。", "translation_vi": "Tôi đi từ Tokyo đến Osaka bằng tàu cao tốc."},
+        {"japanese": "家から学校まで歩いて十分です。", "translation_vi": "Từ nhà đến trường đi bộ mất 10 phút."}
+      ]
+    },
+    {
+      "id": 1226,
+      "meaning_vi": "vì; do (nguyên nhân)",
+      "short_meaning_vi": "vì; bởi vì",
+      "explanation_vi": "Trợ từ から nối hai mệnh đề, trong đó mệnh đề trước là nguyên nhân/lý do cho mệnh đề sau.",
+      "nuance_vi": "「から」mang tính chủ quan hơn「ので」. Phù hợp trong hội thoại và giải thích lý do cá nhân.",
+      "formation": [{"patterns": [{"left": "S1-plain/polite", "remove": null, "right": "から、S2"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Dùng dạng lịch sự trước から khi câu chính cũng lịch sự."],
+      "similar_grammar": ["ので"],
+      "differences": [{"pattern": "ので", "difference_vi": "「から」mang tính chủ quan, thường dùng trong hội thoại; 「ので」khách quan hơn, trang trọng hơn, dùng cả trong văn viết."}],
+      "tags": ["conjunction", "reason", "cause", "N5"],
+      "examples": [
+        {"japanese": "雨が降っているから、傘を持っていきます。", "translation_vi": "Vì trời đang mưa nên tôi mang ô."},
+        {"japanese": "お腹が痛いから学校を休みます。", "translation_vi": "Vì đau bụng nên tôi nghỉ học."},
+        {"japanese": "安いから買いました。", "translation_vi": "Vì rẻ nên tôi đã mua."}
+      ]
+    },
+    {
+      "id": 1227,
+      "meaning_vi": "đến; cho đến (điểm kết thúc)",
+      "short_meaning_vi": "đến; cho đến",
+      "explanation_vi": "Trợ từ まで chỉ điểm kết thúc về thời gian hoặc không gian. Thường dùng kết hợp với から.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "場所/時間", "remove": null, "right": "まで"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [{"expression": "から〜まで"}],
+      "notes": [],
+      "similar_grammar": ["から"],
+      "differences": [{"pattern": "から", "difference_vi": "「まで」chỉ điểm kết thúc; 「から」chỉ điểm bắt đầu."}],
+      "tags": ["particle", "ending-point", "N5"],
+      "examples": [
+        {"japanese": "五時まで働きます。", "translation_vi": "Tôi làm việc đến 5 giờ."},
+        {"japanese": "東京まで電車で二時間かかります。", "translation_vi": "Đến Tokyo mất 2 tiếng đi tàu."},
+        {"japanese": "来週まで待ってください。", "translation_vi": "Hãy chờ đến tuần sau."}
+      ]
+    },
+    {
+      "id": 1228,
+      "meaning_vi": "hơn (so sánh)",
+      "short_meaning_vi": "hơn",
+      "explanation_vi": "Trợ từ より chỉ chuẩn so sánh. Dùng trong cấu trúc 'A は B より A more than B' hoặc 'B より A のほうが A is more than B'.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "より + A/V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [{"expression": "〜より〜のほうが"}],
+      "notes": ["Cấu trúc đầy đủ: AはBより～ (A ... hơn B) hoặc BよりAのほうが～ (A ... hơn B)."],
+      "similar_grammar": ["のほうが"],
+      "differences": [{"pattern": "のほうが", "difference_vi": "「より」là chuẩn so sánh (hơn cái gì); 「のほうが」chỉ phía được so sánh (phía nào hơn). Thường dùng cùng nhau."}],
+      "tags": ["particle", "comparison", "N5"],
+      "examples": [
+        {"japanese": "東京は大阪より大きいです。", "translation_vi": "Tokyo lớn hơn Osaka."},
+        {"japanese": "今日は昨日より暑いです。", "translation_vi": "Hôm nay nóng hơn hôm qua."},
+        {"japanese": "バスより電車のほうが速いです。", "translation_vi": "Tàu điện nhanh hơn xe buýt."}
+      ]
+    },
+    {
+      "id": 1229,
+      "meaning_vi": "... thì hơn",
+      "short_meaning_vi": "thì hơn",
+      "explanation_vi": "Cấu trúc Nのほうが chỉ phía được đánh giá là hơn trong so sánh. Thường kết hợp với より.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "のほうが + A"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [{"expression": "〜より〜のほうが"}],
+      "notes": [],
+      "similar_grammar": ["より", "〜と〜とどちらが"],
+      "differences": [{"pattern": "より", "difference_vi": "「のほうが」chỉ phía hơn; 「より」chỉ chuẩn so sánh. Dùng kết hợp: BよりAのほうが～."}],
+      "tags": ["expression", "comparison", "N5"],
+      "examples": [
+        {"japanese": "電車のほうがバスより速いです。", "translation_vi": "Tàu điện nhanh hơn xe buýt."},
+        {"japanese": "夏より冬のほうが好きです。", "translation_vi": "Tôi thích mùa đông hơn mùa hè."},
+        {"japanese": "肉より魚のほうが体にいいです。", "translation_vi": "Cá tốt cho sức khỏe hơn thịt."}
+      ]
+    },
+    {
+      "id": 1230,
+      "meaning_vi": "A và B thì cái nào... hơn?",
+      "short_meaning_vi": "cái nào hơn?",
+      "explanation_vi": "Cấu trúc hỏi so sánh giữa hai đối tượng. Hỏi người nghe chọn cái nào hoặc cái nào hơn.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N1 と N2", "remove": null, "right": "とどちらが + A/ですか"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Trả lời: A/Bのほうが～ (A/B... hơn); Dùng どちらも để nói cả hai đều..."],
+      "similar_grammar": ["のほうが", "より"],
+      "differences": [],
+      "tags": ["expression", "question", "comparison", "N5"],
+      "examples": [
+        {"japanese": "コーヒーと紅茶とどちらが好きですか。", "translation_vi": "Bạn thích cà phê hay trà hơn?"},
+        {"japanese": "電車とバスとどちらが便利ですか。", "translation_vi": "Tàu điện hay xe buýt tiện hơn?"},
+        {"japanese": "東京と大阪とどちらが大きいですか。", "translation_vi": "Tokyo hay Osaka lớn hơn?"}
+      ]
+    },
+    {
+      "id": 1231,
+      "meaning_vi": "nhất",
+      "short_meaning_vi": "nhất",
+      "explanation_vi": "Phó từ いちばん dùng trước tính từ hoặc động từ để diễn tả mức độ cao nhất trong một nhóm. Thường dùng với Nの中で.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "いちばん", "remove": null, "right": "+ A/V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [{"expression": "〜の中でいちばん"}],
+      "notes": [],
+      "similar_grammar": ["Nの中で", "より"],
+      "differences": [],
+      "tags": ["adverb", "superlative", "N5"],
+      "examples": [
+        {"japanese": "富士山は日本でいちばん高い山です。", "translation_vi": "Núi Phú Sĩ là ngọn núi cao nhất ở Nhật Bản."},
+        {"japanese": "私はりんごがいちばん好きです。", "translation_vi": "Tôi thích táo nhất."},
+        {"japanese": "春がいちばん好きな季節です。", "translation_vi": "Mùa xuân là mùa yêu thích nhất của tôi."}
+      ]
+    },
+    {
+      "id": 1232,
+      "meaning_vi": "chỉ; chỉ có",
+      "short_meaning_vi": "chỉ",
+      "explanation_vi": "Trợ từ だけ giới hạn ở một đối tượng hoặc mức độ nhất định. Có thể dùng trong câu khẳng định hoặc phủ định.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N/V-dictionary/V-た/数量", "remove": null, "right": "だけ"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["しか～ない"],
+      "differences": [{"pattern": "しか～ない", "difference_vi": "「だけ」dùng được với cả khẳng định và phủ định, không nhấn mạnh thiếu hụt; 「しか～ない」chỉ dùng với phủ định, nhấn mạnh 'chỉ bấy nhiêu thôi'."}],
+      "tags": ["particle", "limit", "N5"],
+      "examples": [
+        {"japanese": "少しだけ食べます。", "translation_vi": "Tôi chỉ ăn một chút thôi."},
+        {"japanese": "一人だけ来ました。", "translation_vi": "Chỉ có một người đến."},
+        {"japanese": "今日だけ特別です。", "translation_vi": "Chỉ hôm nay thôi là đặc biệt."}
+      ]
+    },
+    {
+      "id": 1233,
+      "meaning_vi": "chỉ; ngoài ra không (với phủ định)",
+      "short_meaning_vi": "chỉ... mà thôi",
+      "explanation_vi": "Trợ từ しか dùng với vị ngữ phủ định để nhấn mạnh 'chỉ bấy nhiêu đó và không có gì hơn'. Mang sắc thái tiếc nuối hoặc không đủ.",
+      "nuance_vi": "しか～ない mang sắc thái tiêu cực hơn だけ, ám chỉ rằng lượng/số đó là không đủ.",
+      "formation": [{"patterns": [{"left": "N/数量", "remove": null, "right": "しか + negative"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Luôn dùng vị ngữ phủ định sau しか."],
+      "similar_grammar": ["だけ"],
+      "differences": [{"pattern": "だけ", "difference_vi": "「しか～ない」bắt buộc phủ định và nhấn mạnh sự không đủ; 「だけ」trung tính hơn và không bắt buộc phủ định."}],
+      "tags": ["particle", "limit", "negative", "N5"],
+      "examples": [
+        {"japanese": "百円しかありません。", "translation_vi": "Tôi chỉ có một trăm yên thôi."},
+        {"japanese": "一つしか食べませんでした。", "translation_vi": "Tôi chỉ ăn một cái thôi."},
+        {"japanese": "日本語しか話せません。", "translation_vi": "Tôi chỉ nói được tiếng Nhật thôi."}
+      ]
+    },
+    {
+      "id": 1234,
+      "meaning_vi": "khoảng; cỡ; đến mức",
+      "short_meaning_vi": "khoảng",
+      "explanation_vi": "Trợ từ くらい（ぐらい）chỉ mức độ xấp xỉ về số lượng, thời gian, hoặc mức độ. ぐらい là biến thể thân mật hơn.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "数量/N", "remove": null, "right": "くらい/ぐらい"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": [],
+      "similar_grammar": ["ごろ"],
+      "differences": [{"pattern": "ごろ", "difference_vi": "「くらい/ぐらい」dùng cho số lượng, thời gian kéo dài, mức độ; 「ごろ」chỉ dùng cho thời điểm xấp xỉ."}],
+      "tags": ["particle", "approximation", "N5"],
+      "examples": [
+        {"japanese": "駅まで十分くらいかかります。", "translation_vi": "Mất khoảng 10 phút đến ga."},
+        {"japanese": "三千円ぐらい持っています。", "translation_vi": "Tôi có khoảng 3000 yên."},
+        {"japanese": "一時間ぐらい待ちました。", "translation_vi": "Tôi đã chờ khoảng một tiếng."}
+      ]
+    },
+    {
+      "id": 1235,
+      "meaning_vi": "vào khoảng (thời điểm)",
+      "short_meaning_vi": "vào khoảng",
+      "explanation_vi": "Trợ từ ごろ chỉ thời điểm xấp xỉ. Chỉ dùng với thời điểm, không dùng cho số lượng hay khoảng thời gian kéo dài.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "時間/時期", "remove": null, "right": "ごろ"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["ごろ không dùng với số lượng hoặc khoảng thời gian (dùng くらい cho trường hợp đó)."],
+      "similar_grammar": ["くらい／ぐらい"],
+      "differences": [{"pattern": "くらい／ぐらい", "difference_vi": "「ごろ」chỉ dùng cho thời điểm xấp xỉ; 「くらい/ぐらい」dùng cho số lượng, thời gian kéo dài, mức độ."}],
+      "tags": ["particle", "approximation", "time", "N5"],
+      "examples": [
+        {"japanese": "七時ごろ起きます。", "translation_vi": "Tôi thức dậy vào khoảng 7 giờ."},
+        {"japanese": "来週ごろ完成します。", "translation_vi": "Khoảng tuần sau sẽ hoàn thành."},
+        {"japanese": "三時ごろ来てください。", "translation_vi": "Hãy đến vào khoảng 3 giờ."}
+      ]
+    },
+    {
+      "id": 1236,
+      "meaning_vi": "nào là; như là (liệt kê không đầy đủ)",
+      "short_meaning_vi": "nào là",
+      "explanation_vi": "Trợ từ や nối các danh từ trong danh sách không đầy đủ, ngụ ý còn có những thứ khác không được đề cập.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "や + N (+ など)"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Thường kết hợp với など ở cuối để nhấn mạnh tính không đầy đủ."],
+      "similar_grammar": ["と", "など"],
+      "differences": [{"pattern": "と", "difference_vi": "「や」liệt kê một số ví dụ điển hình, ngụ ý còn nhiều hơn; 「と」liệt kê đầy đủ tất cả."}],
+      "tags": ["particle", "listing", "non-exhaustive", "N5"],
+      "examples": [
+        {"japanese": "スーパーでりんごやバナナを買いました。", "translation_vi": "Tôi đã mua táo, chuối (và những thứ khác) ở siêu thị."},
+        {"japanese": "犬や猫などのペットを飼っています。", "translation_vi": "Tôi nuôi thú cưng như chó, mèo, v.v."},
+        {"japanese": "野菜や肉や魚を食べます。", "translation_vi": "Tôi ăn rau, thịt, cá, v.v."}
+      ]
+    },
+    {
+      "id": 1237,
+      "meaning_vi": "vân vân; chẳng hạn như",
+      "short_meaning_vi": "vân vân",
+      "explanation_vi": "Trợ từ など đứng sau danh từ để chỉ ví dụ điển hình trong một nhóm, tương đương 'v.v.' hay 'chẳng hạn'.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N/Nや N", "remove": null, "right": "など"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Thường đặt sau や để kết thúc danh sách: N1やN2など."],
+      "similar_grammar": ["や"],
+      "differences": [{"pattern": "や", "difference_vi": "「など」thường đứng cuối câu liệt kê để tóm tắt 'v.v.'; 「や」dùng để nối giữa các phần tử trong danh sách."}],
+      "tags": ["particle", "listing", "N5"],
+      "examples": [
+        {"japanese": "日本語や英語などの言語を勉強しています。", "translation_vi": "Tôi đang học các ngôn ngữ như tiếng Nhật, tiếng Anh, v.v."},
+        {"japanese": "東京や大阪などの大きい都市に住んでいます。", "translation_vi": "Tôi sống ở những thành phố lớn như Tokyo, Osaka, v.v."},
+        {"japanese": "牛乳やジュースなどを飲みます。", "translation_vi": "Tôi uống sữa, nước ép, v.v."}
+      ]
+    },
+    {
+      "id": 1238,
+      "meaning_vi": "ngay cả; chẳng hạn như",
+      "short_meaning_vi": "ngay cả; ví dụ",
+      "explanation_vi": "Trợ từ でも có hai cách dùng chính: (1) 'ngay cả N cũng...' — nhấn mạnh trường hợp cực đoan; (2) 'N chẳng hạn nhé?' — đề nghị nhẹ nhàng.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "N", "remove": null, "right": "でも + V"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["誰でも (ai cũng), 何でも (gì cũng), どこでも (ở đâu cũng), いつでも (lúc nào cũng)."],
+      "similar_grammar": ["も"],
+      "differences": [{"pattern": "も", "difference_vi": "「でも」thêm nghĩa 'ngay cả' mạnh hơn; 「も」đơn giản là 'cũng'."}],
+      "tags": ["particle", "concession", "example", "N5"],
+      "examples": [
+        {"japanese": "子どもでもできます。", "translation_vi": "Ngay cả trẻ con cũng làm được."},
+        {"japanese": "コーヒーでも飲みませんか。", "translation_vi": "Uống cà phê chẳng hạn nhé?"},
+        {"japanese": "誰でも参加できます。", "translation_vi": "Ai cũng có thể tham gia."}
+      ]
+    },
+    {
+      "id": 1239,
+      "meaning_vi": "không... lắm",
+      "short_meaning_vi": "không... lắm",
+      "explanation_vi": "あまり dùng với vị ngữ phủ định để diễn tả mức độ 'không nhiều lắm', 'không lắm'. Không dùng với câu khẳng định.",
+      "nuance_vi": "あまり～ない yếu hơn 全然～ない. あまり～ない = không lắm; 全然～ない = hoàn toàn không.",
+      "formation": [{"patterns": [{"left": "あまり", "remove": null, "right": "+ A-negative / V-negative"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Chỉ dùng với vị ngữ phủ định."],
+      "similar_grammar": ["全然～ない"],
+      "differences": [{"pattern": "全然～ない", "difference_vi": "「あまり～ない」phủ định mức độ (không lắm); 「全然～ない」phủ định hoàn toàn (không chút nào)."}],
+      "tags": ["adverb", "degree", "negative", "N5"],
+      "examples": [
+        {"japanese": "私はあまり肉を食べません。", "translation_vi": "Tôi không ăn thịt nhiều lắm."},
+        {"japanese": "今日はあまり眠くないです。", "translation_vi": "Hôm nay tôi không buồn ngủ lắm."},
+        {"japanese": "このゲームはあまりおもしろくないです。", "translation_vi": "Game này không hay lắm."}
+      ]
+    },
+    {
+      "id": 1240,
+      "meaning_vi": "hoàn toàn không",
+      "short_meaning_vi": "hoàn toàn không",
+      "explanation_vi": "全然 dùng với vị ngữ phủ định để diễn tả sự phủ định hoàn toàn. Mạnh hơn あまり～ない.",
+      "nuance_vi": null,
+      "formation": [{"patterns": [{"left": "全然", "remove": null, "right": "+ A-negative / V-negative"}]}],
+      "variants": [],
+      "short_forms": [],
+      "common_pairs": [],
+      "notes": ["Trong văn nói thân mật hiện đại, 全然 đôi khi dùng với câu khẳng định (全然いい = hoàn toàn ổn), nhưng cách dùng truyền thống là với phủ định."],
+      "similar_grammar": ["あまり～ない"],
+      "differences": [{"pattern": "あまり～ない", "difference_vi": "「全然～ない」phủ định hoàn toàn (không chút nào); 「あまり～ない」phủ định nhẹ hơn (không lắm)."}],
+      "tags": ["adverb", "degree", "negative", "N5"],
+      "examples": [
+        {"japanese": "日本語が全然わかりません。", "translation_vi": "Tôi không hiểu tiếng Nhật chút nào."},
+        {"japanese": "全然眠くないです。", "translation_vi": "Tôi không buồn ngủ chút nào."},
+        {"japanese": "このゲームは全然面白くないです。", "translation_vi": "Game này không hay chút nào."}
+      ]
+    }
+  ]
+}

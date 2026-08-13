@@ -1,6 +1,4 @@
-import type {
-    VocabularyKanjiDetail,
-} from "@/server/services/vocabulary/vocabulary.service"
+import type { VocabularyKanjiDetail } from "@/domain/vocabulary"
 
 export function getKanjiDisplayMeaning(
     kanji: VocabularyKanjiDetail,

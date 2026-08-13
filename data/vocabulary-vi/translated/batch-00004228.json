@@ -1,0 +1,520 @@
+[
+  {
+    "vocabulary_id": 103445,
+    "word": "砕けた",
+    "kana": "くだけた",
+    "senses": [
+      {
+        "sense_id": 345246,
+        "meaning_vi": "dễ dàng (ví dụ: giải thích, mô tả); đơn giản; quen thuộc",
+        "confidence": "high",
+        "search_keywords": [
+          "dễ dàng (ví dụ: giải thích, mô tả)",
+          "đơn giản",
+          "quen thuộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dễ dàng (ví dụ: giải thích, mô tả); đơn giản; quen thuộc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 345247,
+        "meaning_vi": "không chính thức (ví dụ như lời chào, cách diễn đạt); thân thiện; niềm nở (ví dụ: người)",
+        "confidence": "high",
+        "search_keywords": [
+          "không chính thức (ví dụ như lời chào, cách diễn đạt)",
+          "thân thiện",
+          "niềm nở (ví dụ: người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không chính thức (ví dụ như lời chào, cách diễn đạt); thân thiện; niềm nở (ví dụ: người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103446,
+    "word": "口紐",
+    "kana": "くちひも",
+    "senses": [
+      {
+        "sense_id": 345248,
+        "meaning_vi": "dây rút (ví dụ: trên túi)",
+        "confidence": "high",
+        "search_keywords": [
+          "dây rút (ví dụ: trên túi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dây rút (ví dụ: trên túi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103447,
+    "word": "屈葬",
+    "kana": "くっそう",
+    "senses": [
+      {
+        "sense_id": 345249,
+        "meaning_vi": "cúi mình chôn cất",
+        "confidence": "high",
+        "search_keywords": [
+          "cúi mình chôn cất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cúi mình chôn cất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103448,
+    "word": "諄諄しい",
+    "kana": "くどくどしい",
+    "senses": [
+      {
+        "sense_id": 345250,
+        "meaning_vi": "dài dòng; dài dòng; prolix",
+        "confidence": "high",
+        "search_keywords": [
+          "dài dòng",
+          "prolix"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dài dòng; dài dòng; prolix",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103449,
+    "word": "クニャクニャ",
+    "kana": "クニャクニャ",
+    "senses": [
+      {
+        "sense_id": 345251,
+        "meaning_vi": "(ấn tượng về sự) mềm mại và linh hoạt",
+        "confidence": "high",
+        "search_keywords": [
+          "(ấn tượng về sự) mềm mại và linh hoạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(ấn tượng về sự) mềm mại và linh hoạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103450,
+    "word": "不等辺三角形",
+    "kana": "ふとうへんさんかっけい",
+    "senses": [
+      {
+        "sense_id": 345252,
+        "meaning_vi": "thang bậc (tam giác)",
+        "confidence": "high",
+        "search_keywords": [
+          "thang bậc (tam giác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thang bậc (tam giác)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103451,
+    "word": "右ハンドル",
+    "kana": "みぎハンドル",
+    "senses": [
+      {
+        "sense_id": 345253,
+        "meaning_vi": "tay lái bên phải (của ô tô, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "tay lái bên phải (của ô tô, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tay lái bên phải (của ô tô, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103452,
+    "word": "左ハンドル",
+    "kana": "ひだりハンドル",
+    "senses": [
+      {
+        "sense_id": 345254,
+        "meaning_vi": "tay lái bên trái (của ô tô, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "tay lái bên trái (của ô tô, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tay lái bên trái (của ô tô, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103453,
+    "word": "バンド名",
+    "kana": "バンドめい",
+    "senses": [
+      {
+        "sense_id": 345255,
+        "meaning_vi": "tên ban nhạc",
+        "confidence": "high",
+        "search_keywords": [
+          "tên ban nhạc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên ban nhạc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103454,
+    "word": "油断も隙もない",
+    "kana": "ゆだんもすきもない",
+    "senses": [
+      {
+        "sense_id": 345256,
+        "meaning_vi": "người ta phải thường xuyên cảnh giác với ...; người ta không thể quá cẩn thận với...",
+        "confidence": "high",
+        "search_keywords": [
+          "người ta phải thường xuyên cảnh giác với ...",
+          "người ta không thể quá cẩn thận với..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ta phải thường xuyên cảnh giác với ...; người ta không thể quá cẩn thận với...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103455,
+    "word": "夢枕に立つ",
+    "kana": "ゆめまくらにたつ",
+    "senses": [
+      {
+        "sense_id": 345257,
+        "meaning_vi": "xuất hiện trong giấc mơ của một người (của một vị thần hoặc người đã khuất; để khuyên răn, khuyên răn, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất hiện trong giấc mơ của một người (của một vị thần hoặc người đã khuất",
+          "để khuyên răn, khuyên răn, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất hiện trong giấc mơ của một người (của một vị thần hoặc người đã khuất; để khuyên răn, khuyên răn, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103456,
+    "word": "夢のまた夢",
+    "kana": "ゆめのまたゆめ",
+    "senses": [
+      {
+        "sense_id": 345258,
+        "meaning_vi": "giấc mơ trong giấc mơ; (ngoài) những giấc mơ điên rồ nhất của một người; giấc mơ hoàn toàn không thể thực hiện được; chiếc bánh trên bầu trời",
+        "confidence": "high",
+        "search_keywords": [
+          "giấc mơ trong giấc mơ",
+          "(ngoài) những giấc mơ điên rồ nhất của một người",
+          "giấc mơ hoàn toàn không thể thực hiện được",
+          "chiếc bánh trên bầu trời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấc mơ trong giấc mơ; (ngoài) những giấc mơ điên rồ nhất của một người; giấc mơ hoàn toàn không thể thực hiện được; chiếc bánh trên bầu trời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103457,
+    "word": "努",
+    "kana": "ゆめ",
+    "senses": [
+      {
+        "sense_id": 345259,
+        "meaning_vi": "không bao giờ; không có cách nào",
+        "confidence": "high",
+        "search_keywords": [
+          "không bao giờ",
+          "không có cách nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không bao giờ; không có cách nào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103458,
+    "word": "努努",
+    "kana": "ゆめゆめ",
+    "senses": [
+      {
+        "sense_id": 345260,
+        "meaning_vi": "chắc chắn; tuyệt đối",
+        "confidence": "high",
+        "search_keywords": [
+          "chắc chắn",
+          "tuyệt đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chắc chắn; tuyệt đối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 345261,
+        "meaning_vi": "(thậm chí không) một chút",
+        "confidence": "high",
+        "search_keywords": [
+          "(thậm chí không) một chút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(thậm chí không) một chút",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 345262,
+        "meaning_vi": "siêng năng",
+        "confidence": "high",
+        "search_keywords": [
+          "siêng năng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "siêng năng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 345263,
+        "meaning_vi": "những giấc mơ",
+        "confidence": "high",
+        "search_keywords": [
+          "những giấc mơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "những giấc mơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103459,
+    "word": "欲も得もない",
+    "kana": "よくもとくもない",
+    "senses": [
+      {
+        "sense_id": 345264,
+        "meaning_vi": "không nghĩ đến lợi ích và tham lam; chỉ muốn làm điều gì đó (không nghĩ đến điều gì khác)",
+        "confidence": "high",
+        "search_keywords": [
+          "không nghĩ đến lợi ích và tham lam",
+          "chỉ muốn làm điều gì đó (không nghĩ đến điều gì khác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không nghĩ đến lợi ích và tham lam; chỉ muốn làm điều gì đó (không nghĩ đến điều gì khác)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103460,
+    "word": "寄ってたかって",
+    "kana": "よってたかって",
+    "senses": [
+      {
+        "sense_id": 345265,
+        "meaning_vi": "trong một đám đông; tập hợp (trên); hợp lực",
+        "confidence": "high",
+        "search_keywords": [
+          "trong một đám đông",
+          "tập hợp (trên)",
+          "hợp lực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong một đám đông; tập hợp (trên); hợp lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103461,
+    "word": "輿望を担う",
+    "kana": "よぼうをになう",
+    "senses": [
+      {
+        "sense_id": 345266,
+        "meaning_vi": "để tận hưởng sự tin tưởng và tin cậy của",
+        "confidence": "high",
+        "search_keywords": [
+          "để tận hưởng sự tin tưởng và tin cậy của"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tận hưởng sự tin tưởng và tin cậy của",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103462,
+    "word": "四つに組む",
+    "kana": "よつにくむ",
+    "senses": [
+      {
+        "sense_id": 345267,
+        "meaning_vi": "phải vật lộn với",
+        "confidence": "high",
+        "search_keywords": [
+          "phải vật lộn với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phải vật lộn với",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103463,
+    "word": "宜しきを得る",
+    "kana": "よろしきをえる",
+    "senses": [
+      {
+        "sense_id": 345268,
+        "meaning_vi": "gần đúng; khá phù hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "gần đúng",
+          "khá phù hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gần đúng; khá phù hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 103464,
+    "word": "世を渡る",
+    "kana": "よをわたる",
+    "senses": [
+      {
+        "sense_id": 345269,
+        "meaning_vi": "để tạo dựng con đường của mình trên thế giới; để kiếm sống; sống",
+        "confidence": "high",
+        "search_keywords": [
+          "để tạo dựng con đường của mình trên thế giới",
+          "để kiếm sống",
+          "sống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tạo dựng con đường của mình trên thế giới; để kiếm sống; sống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

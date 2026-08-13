@@ -1,0 +1,545 @@
+[
+  {
+    "vocabulary_id": 78411,
+    "word": "旅がらす",
+    "kana": "たびがらす",
+    "senses": [
+      {
+        "sense_id": 317541,
+        "meaning_vi": "kẻ lang thang; người lạ; lang thang; kẻ lang thang",
+        "confidence": "high",
+        "search_keywords": [
+          "kẻ lang thang",
+          "người lạ",
+          "lang thang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẻ lang thang; người lạ; lang thang; kẻ lang thang",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317542,
+        "meaning_vi": "người ngoài cuộc; người lạ",
+        "confidence": "high",
+        "search_keywords": [
+          "người ngoài cuộc",
+          "người lạ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ngoài cuộc; người lạ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78412,
+    "word": "旅僧",
+    "kana": "たびそう",
+    "senses": [
+      {
+        "sense_id": 317543,
+        "meaning_vi": "linh mục du hành; linh mục du hành",
+        "confidence": "high",
+        "search_keywords": [
+          "linh mục du hành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "linh mục du hành; linh mục du hành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78413,
+    "word": "旅寝",
+    "kana": "たびね",
+    "senses": [
+      {
+        "sense_id": 317544,
+        "meaning_vi": "ngủ xa nhà; nghỉ qua đêm khi đi du lịch",
+        "confidence": "high",
+        "search_keywords": [
+          "ngủ xa nhà",
+          "nghỉ qua đêm khi đi du lịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngủ xa nhà; nghỉ qua đêm khi đi du lịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78414,
+    "word": "旅稼ぎ",
+    "kana": "たびかせぎ",
+    "senses": [
+      {
+        "sense_id": 317545,
+        "meaning_vi": "làm việc xa nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "làm việc xa nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm việc xa nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78415,
+    "word": "旅興行",
+    "kana": "たびこうぎょう",
+    "senses": [
+      {
+        "sense_id": 317546,
+        "meaning_vi": "chương trình lưu diễn",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình lưu diễn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình lưu diễn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78416,
+    "word": "旅館業",
+    "kana": "りょかんぎょう",
+    "senses": [
+      {
+        "sense_id": 317547,
+        "meaning_vi": "kinh doanh khách sạn",
+        "confidence": "high",
+        "search_keywords": [
+          "kinh doanh khách sạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kinh doanh khách sạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78417,
+    "word": "旅籠",
+    "kana": "はたご",
+    "senses": [
+      {
+        "sense_id": 317548,
+        "meaning_vi": "nhà trọ; quán rượu; hatago; Chỗ ở thời Edo dành cho du khách",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà trọ",
+          "quán rượu",
+          "hatago",
+          "Chỗ ở thời Edo dành cho du khách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà trọ; quán rượu; hatago; Chỗ ở thời Edo dành cho du khách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317549,
+        "meaning_vi": "giỏ được khách du lịch sử dụng để đựng thực phẩm và các vật dụng khác",
+        "confidence": "high",
+        "search_keywords": [
+          "giỏ được khách du lịch sử dụng để đựng thực phẩm và các vật dụng khác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giỏ được khách du lịch sử dụng để đựng thực phẩm và các vật dụng khác",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317550,
+        "meaning_vi": "chiếc giỏ được du khách dùng để chở thức ăn cho ngựa",
+        "confidence": "high",
+        "search_keywords": [
+          "chiếc giỏ được du khách dùng để chở thức ăn cho ngựa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiếc giỏ được du khách dùng để chở thức ăn cho ngựa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78418,
+    "word": "食人種",
+    "kana": "しょくじんしゅ",
+    "senses": [
+      {
+        "sense_id": 317551,
+        "meaning_vi": "kẻ ăn thịt người",
+        "confidence": "high",
+        "search_keywords": [
+          "kẻ ăn thịt người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẻ ăn thịt người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78419,
+    "word": "食い上げ",
+    "kana": "くいあげ",
+    "senses": [
+      {
+        "sense_id": 317552,
+        "meaning_vi": "mất phương tiện sinh kế",
+        "confidence": "high",
+        "search_keywords": [
+          "mất phương tiện sinh kế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất phương tiện sinh kế",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317553,
+        "meaning_vi": "đình chỉ trợ cấp gạo hàng năm của samurai",
+        "confidence": "high",
+        "search_keywords": [
+          "đình chỉ trợ cấp gạo hàng năm của samurai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đình chỉ trợ cấp gạo hàng năm của samurai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317554,
+        "meaning_vi": "cá bơi lên sau khi cắn lưỡi câu",
+        "confidence": "high",
+        "search_keywords": [
+          "cá bơi lên sau khi cắn lưỡi câu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cá bơi lên sau khi cắn lưỡi câu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78420,
+    "word": "食あたり",
+    "kana": "しょくあたり",
+    "senses": [
+      {
+        "sense_id": 317555,
+        "meaning_vi": "ngộ độc thực phẩm",
+        "confidence": "high",
+        "search_keywords": [
+          "ngộ độc thực phẩm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngộ độc thực phẩm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78421,
+    "word": "食い代",
+    "kana": "くいしろ",
+    "senses": [
+      {
+        "sense_id": 317556,
+        "meaning_vi": "chi phí ăn uống",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí ăn uống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí ăn uống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78422,
+    "word": "食用油",
+    "kana": "しょくようあぶら",
+    "senses": [
+      {
+        "sense_id": 317557,
+        "meaning_vi": "dầu ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "dầu ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dầu ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78423,
+    "word": "食休み",
+    "kana": "しょくやすみ",
+    "senses": [
+      {
+        "sense_id": 317558,
+        "meaning_vi": "nghỉ ngơi sau bữa ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "nghỉ ngơi sau bữa ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghỉ ngơi sau bữa ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78424,
+    "word": "食い合わせ",
+    "kana": "くいあわせ",
+    "senses": [
+      {
+        "sense_id": 317559,
+        "meaning_vi": "sự kết hợp của các loại thực phẩm (thông thường không kết hợp tốt với nhau)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự kết hợp của các loại thực phẩm (thông thường không kết hợp tốt với nhau)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự kết hợp của các loại thực phẩm (thông thường không kết hợp tốt với nhau)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 317560,
+        "meaning_vi": "khớp nối; khớp với nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "khớp nối",
+          "khớp với nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khớp nối; khớp với nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78425,
+    "word": "食肉植物",
+    "kana": "しょくにくしょくぶつ",
+    "senses": [
+      {
+        "sense_id": 317561,
+        "meaning_vi": "cây ăn thịt",
+        "confidence": "high",
+        "search_keywords": [
+          "cây ăn thịt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây ăn thịt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78426,
+    "word": "食虫",
+    "kana": "しょくちゅう",
+    "senses": [
+      {
+        "sense_id": 317562,
+        "meaning_vi": "động vật ăn côn trùng",
+        "confidence": "high",
+        "search_keywords": [
+          "động vật ăn côn trùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "động vật ăn côn trùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78427,
+    "word": "食虫植物",
+    "kana": "しょくちゅうしょくぶつ",
+    "senses": [
+      {
+        "sense_id": 317563,
+        "meaning_vi": "cây ăn côn trùng; cây ăn thịt",
+        "confidence": "high",
+        "search_keywords": [
+          "cây ăn côn trùng",
+          "cây ăn thịt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây ăn côn trùng; cây ăn thịt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78428,
+    "word": "食い扶持",
+    "kana": "くいぶち",
+    "senses": [
+      {
+        "sense_id": 317564,
+        "meaning_vi": "chi phí ăn uống; chi phí của hội đồng quản trị của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí ăn uống",
+          "chi phí của hội đồng quản trị của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí ăn uống; chi phí của hội đồng quản trị của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78429,
+    "word": "食い初め",
+    "kana": "くいぞめ",
+    "senses": [
+      {
+        "sense_id": 317565,
+        "meaning_vi": "okuizome; lễ cai sữa; Bữa cơm cúng cho trẻ sơ sinh 100 ngày tuổi",
+        "confidence": "high",
+        "search_keywords": [
+          "okuizome",
+          "lễ cai sữa",
+          "Bữa cơm cúng cho trẻ sơ sinh 100 ngày tuổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "okuizome; lễ cai sữa; Bữa cơm cúng cho trẻ sơ sinh 100 ngày tuổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78430,
+    "word": "食言",
+    "kana": "しょくげん",
+    "senses": [
+      {
+        "sense_id": 317566,
+        "meaning_vi": "nuốt lời; phá vỡ lời hứa của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "nuốt lời",
+          "phá vỡ lời hứa của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nuốt lời; phá vỡ lời hứa của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

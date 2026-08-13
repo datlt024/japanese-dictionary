@@ -1,0 +1,537 @@
+[
+  {
+    "vocabulary_id": 20007,
+    "word": "期限",
+    "kana": "きげん",
+    "senses": [
+      {
+        "sense_id": 242745,
+        "meaning_vi": "thuật ngữ; Giai đoạn; khung thời gian",
+        "confidence": "high",
+        "search_keywords": [
+          "thuật ngữ",
+          "Giai đoạn",
+          "khung thời gian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuật ngữ; Giai đoạn; khung thời gian",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 242746,
+        "meaning_vi": "thời hạn; thời hạn; điểm cắt (ngày)",
+        "confidence": "high",
+        "search_keywords": [
+          "thời hạn",
+          "điểm cắt (ngày)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời hạn; thời hạn; điểm cắt (ngày)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20008,
+    "word": "期待",
+    "kana": "きたい",
+    "senses": [
+      {
+        "sense_id": 242747,
+        "meaning_vi": "kỳ vọng; dự đoán; hy vọng",
+        "confidence": "high",
+        "search_keywords": [
+          "kỳ vọng",
+          "dự đoán",
+          "hy vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỳ vọng; dự đoán; hy vọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 242748,
+        "meaning_vi": "đầy hứa hẹn; tăng lên; sắp tới",
+        "confidence": "high",
+        "search_keywords": [
+          "đầy hứa hẹn",
+          "tăng lên",
+          "sắp tới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầy hứa hẹn; tăng lên; sắp tới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20009,
+    "word": "期待値",
+    "kana": "きたいち",
+    "senses": [
+      {
+        "sense_id": 242749,
+        "meaning_vi": "giá trị dự kiến; sự mong đợi",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị dự kiến",
+          "sự mong đợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị dự kiến; sự mong đợi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 242750,
+        "meaning_vi": "mong đợi",
+        "confidence": "high",
+        "search_keywords": [
+          "mong đợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mong đợi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 242751,
+        "meaning_vi": "giá trị kỳ vọng (trong cơ học lượng tử)",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị kỳ vọng (trong cơ học lượng tử)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị kỳ vọng (trong cơ học lượng tử)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20010,
+    "word": "期待通り",
+    "kana": "きたいどおり",
+    "senses": [
+      {
+        "sense_id": 242752,
+        "meaning_vi": "như mong đợi; như mong đợi",
+        "confidence": "high",
+        "search_keywords": [
+          "như mong đợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "như mong đợi; như mong đợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20011,
+    "word": "期内",
+    "kana": "きない",
+    "senses": [
+      {
+        "sense_id": 242753,
+        "meaning_vi": "trong một khoảng thời gian; trong khi",
+        "confidence": "high",
+        "search_keywords": [
+          "trong một khoảng thời gian",
+          "trong khi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong một khoảng thời gian; trong khi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20012,
+    "word": "期日",
+    "kana": "きじつ",
+    "senses": [
+      {
+        "sense_id": 242754,
+        "meaning_vi": "ngày cố định; ngày bổ nhiệm; ấn định ngày",
+        "confidence": "high",
+        "search_keywords": [
+          "ngày cố định",
+          "ngày bổ nhiệm",
+          "ấn định ngày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngày cố định; ngày bổ nhiệm; ấn định ngày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 242755,
+        "meaning_vi": "thời hạn; ngày đáo hạn",
+        "confidence": "high",
+        "search_keywords": [
+          "thời hạn",
+          "ngày đáo hạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời hạn; ngày đáo hạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20013,
+    "word": "期末",
+    "kana": "きまつ",
+    "senses": [
+      {
+        "sense_id": 242756,
+        "meaning_vi": "cuối kỳ",
+        "confidence": "high",
+        "search_keywords": [
+          "cuối kỳ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuối kỳ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20014,
+    "word": "期末試験",
+    "kana": "きまつしけん",
+    "senses": [
+      {
+        "sense_id": 242757,
+        "meaning_vi": "kỳ thi cuối kỳ; kiểm tra cuối học kỳ; kiểm tra cuối học kỳ",
+        "confidence": "high",
+        "search_keywords": [
+          "kỳ thi cuối kỳ",
+          "kiểm tra cuối học kỳ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỳ thi cuối kỳ; kiểm tra cuối học kỳ; kiểm tra cuối học kỳ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20015,
+    "word": "棋士",
+    "kana": "きし",
+    "senses": [
+      {
+        "sense_id": 242758,
+        "meaning_vi": "kỳ thủ shogi chuyên nghiệp; tuyển thủ cờ vây chuyên nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "kỳ thủ shogi chuyên nghiệp",
+          "tuyển thủ cờ vây chuyên nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỳ thủ shogi chuyên nghiệp; tuyển thủ cờ vây chuyên nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20016,
+    "word": "棋譜",
+    "kana": "きふ",
+    "senses": [
+      {
+        "sense_id": 242759,
+        "meaning_vi": "kỷ lục về một ván cờ vây, shogi, cờ vua, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "kỷ lục về một ván cờ vây, shogi, cờ vua, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỷ lục về một ván cờ vây, shogi, cờ vua, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20017,
+    "word": "棄却",
+    "kana": "ききゃく",
+    "senses": [
+      {
+        "sense_id": 242760,
+        "meaning_vi": "từ chối; sa thải; quay xuống; từ bỏ; sự từ bỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "từ chối",
+          "sa thải",
+          "quay xuống",
+          "từ bỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ chối; sa thải; quay xuống; từ bỏ; sự từ bỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20018,
+    "word": "棄権",
+    "kana": "きけん",
+    "senses": [
+      {
+        "sense_id": 242761,
+        "meaning_vi": "bỏ phiếu trắng (bỏ phiếu); từ bỏ (một quyền); rút lui (khỏi một cuộc thi)",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ phiếu trắng (bỏ phiếu)",
+          "từ bỏ (một quyền)",
+          "rút lui (khỏi một cuộc thi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ phiếu trắng (bỏ phiếu); từ bỏ (một quyền); rút lui (khỏi một cuộc thi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20019,
+    "word": "棄権者",
+    "kana": "きけんしゃ",
+    "senses": [
+      {
+        "sense_id": 242762,
+        "meaning_vi": "không có cử tri",
+        "confidence": "high",
+        "search_keywords": [
+          "không có cử tri"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có cử tri",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20020,
+    "word": "棄言葉",
+    "kana": "すてことば",
+    "senses": [
+      {
+        "sense_id": 242763,
+        "meaning_vi": "lời chia tay sắc bén",
+        "confidence": "high",
+        "search_keywords": [
+          "lời chia tay sắc bén"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời chia tay sắc bén",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20021,
+    "word": "棄市",
+    "kana": "きし",
+    "senses": [
+      {
+        "sense_id": 242764,
+        "meaning_vi": "hành quyết bằng cách chặt đầu, sau đó trưng bày thi thể trước công chúng (hình thức trừng phạt ở Trung Quốc cổ đại)",
+        "confidence": "high",
+        "search_keywords": [
+          "hành quyết bằng cách chặt đầu, sau đó trưng bày thi thể trước công chúng (hình thức trừng phạt ở Trung Quốc cổ đại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hành quyết bằng cách chặt đầu, sau đó trưng bày thi thể trước công chúng (hình thức trừng phạt ở Trung Quốc cổ đại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20022,
+    "word": "棄世",
+    "kana": "きせい",
+    "senses": [
+      {
+        "sense_id": 242765,
+        "meaning_vi": "cái chết",
+        "confidence": "high",
+        "search_keywords": [
+          "cái chết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái chết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20023,
+    "word": "棄背",
+    "kana": "きはい",
+    "senses": [
+      {
+        "sense_id": 242766,
+        "meaning_vi": "từ bỏ và quay trở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "từ bỏ và quay trở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ bỏ và quay trở lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20024,
+    "word": "棄約",
+    "kana": "きやく",
+    "senses": [
+      {
+        "sense_id": 242767,
+        "meaning_vi": "phá vỡ lời hứa",
+        "confidence": "high",
+        "search_keywords": [
+          "phá vỡ lời hứa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phá vỡ lời hứa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20025,
+    "word": "棄老",
+    "kana": "きろう",
+    "senses": [
+      {
+        "sense_id": 242768,
+        "meaning_vi": "tập tục lịch sử hoặc huyền thoại về việc bỏ rơi người già trên núi, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tục lịch sử hoặc huyền thoại về việc bỏ rơi người già trên núi, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tục lịch sử hoặc huyền thoại về việc bỏ rơi người già trên núi, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 20026,
+    "word": "棄捐",
+    "kana": "きえん",
+    "senses": [
+      {
+        "sense_id": 242769,
+        "meaning_vi": "quyên góp; sự bỏ rơi",
+        "confidence": "high",
+        "search_keywords": [
+          "quyên góp",
+          "sự bỏ rơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyên góp; sự bỏ rơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

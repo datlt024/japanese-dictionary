@@ -1,0 +1,654 @@
+[
+  {
+    "vocabulary_id": 43734,
+    "word": "猫舌",
+    "kana": "ねこじた",
+    "senses": [
+      {
+        "sense_id": 274494,
+        "meaning_vi": "không thích đồ ăn hoặc đồ uống quá nóng; không có khả năng ăn thức ăn nóng; lưỡi mèo",
+        "confidence": "high",
+        "search_keywords": [
+          "không thích đồ ăn hoặc đồ uống quá nóng",
+          "không có khả năng ăn thức ăn nóng",
+          "lưỡi mèo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thích đồ ăn hoặc đồ uống quá nóng; không có khả năng ăn thức ăn nóng; lưỡi mèo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43735,
+    "word": "猫背",
+    "kana": "ねこぜ",
+    "senses": [
+      {
+        "sense_id": 274495,
+        "meaning_vi": "cong lưng; gù lưng; cúi xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "cong lưng",
+          "gù lưng",
+          "cúi xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cong lưng; gù lưng; cúi xuống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43736,
+    "word": "猫かぶり",
+    "kana": "ねこかぶり",
+    "senses": [
+      {
+        "sense_id": 274496,
+        "meaning_vi": "giả vờ vô tội; sự dịu dàng giả tạo; khiêm tốn giả tạo; mặc; sói đội lốt cừu",
+        "confidence": "high",
+        "search_keywords": [
+          "giả vờ vô tội",
+          "sự dịu dàng giả tạo",
+          "khiêm tốn giả tạo",
+          "mặc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả vờ vô tội; sự dịu dàng giả tạo; khiêm tốn giả tạo; mặc; sói đội lốt cừu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274497,
+        "meaning_vi": "giả vờ không biết; chơi ngu",
+        "confidence": "high",
+        "search_keywords": [
+          "giả vờ không biết",
+          "chơi ngu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả vờ không biết; chơi ngu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43737,
+    "word": "猫目石",
+    "kana": "ねこめいし",
+    "senses": [
+      {
+        "sense_id": 274498,
+        "meaning_vi": "đá mắt mèo (đá bán quý)",
+        "confidence": "high",
+        "search_keywords": [
+          "đá mắt mèo (đá bán quý)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đá mắt mèo (đá bán quý)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43738,
+    "word": "熱",
+    "kana": "ねつ",
+    "senses": [
+      {
+        "sense_id": 274499,
+        "meaning_vi": "nhiệt",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274500,
+        "meaning_vi": "sốt; nhiệt độ",
+        "confidence": "high",
+        "search_keywords": [
+          "sốt",
+          "nhiệt độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sốt; nhiệt độ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274501,
+        "meaning_vi": "nhiệt tình; niềm đam mê; sự nhiệt tình; hưng cảm; cơn sốt; cơn thịnh nộ",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt tình",
+          "niềm đam mê",
+          "sự nhiệt tình",
+          "hưng cảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt tình; niềm đam mê; sự nhiệt tình; hưng cảm; cơn sốt; cơn thịnh nộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43739,
+    "word": "熱い",
+    "kana": "あつい",
+    "senses": [
+      {
+        "sense_id": 274502,
+        "meaning_vi": "nóng (khi chạm vào)",
+        "confidence": "high",
+        "search_keywords": [
+          "nóng (khi chạm vào)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nóng (khi chạm vào)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274503,
+        "meaning_vi": "đam mê (cảm xúc, v.v.); hăng hái; nóng (ví dụ: cái nhìn)",
+        "confidence": "high",
+        "search_keywords": [
+          "đam mê (cảm xúc, v.v.)",
+          "hăng hái",
+          "nóng (ví dụ: cái nhìn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đam mê (cảm xúc, v.v.); hăng hái; nóng (ví dụ: cái nhìn)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274504,
+        "meaning_vi": "nóng (ví dụ: nóng nảy)",
+        "confidence": "high",
+        "search_keywords": [
+          "nóng (ví dụ: nóng nảy)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nóng (ví dụ: nóng nảy)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274505,
+        "meaning_vi": "nhiệt tình; nhiệt tình; bùng nổ",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt tình",
+          "bùng nổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt tình; nhiệt tình; bùng nổ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274506,
+        "meaning_vi": "mãnh liệt; nghiêm trọng; cực đoan",
+        "confidence": "high",
+        "search_keywords": [
+          "mãnh liệt",
+          "nghiêm trọng",
+          "cực đoan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mãnh liệt; nghiêm trọng; cực đoan",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274507,
+        "meaning_vi": "nóng (chủ đề); quan tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "nóng (chủ đề)",
+          "quan tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nóng (chủ đề); quan tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43740,
+    "word": "熱する",
+    "kana": "ねっする",
+    "senses": [
+      {
+        "sense_id": 274508,
+        "meaning_vi": "sưởi ấm; làm nóng lên",
+        "confidence": "high",
+        "search_keywords": [
+          "sưởi ấm",
+          "làm nóng lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sưởi ấm; làm nóng lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274509,
+        "meaning_vi": "để có được hứng thú; để làm việc lên; để có được sự phấn khích",
+        "confidence": "high",
+        "search_keywords": [
+          "để có được hứng thú",
+          "để làm việc lên",
+          "để có được sự phấn khích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để có được hứng thú; để làm việc lên; để có được sự phấn khích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43741,
+    "word": "熱愛",
+    "kana": "ねつあい",
+    "senses": [
+      {
+        "sense_id": 274510,
+        "meaning_vi": "tình yêu nồng nàn; tình yêu nồng nàn; sự tận tâm",
+        "confidence": "high",
+        "search_keywords": [
+          "tình yêu nồng nàn",
+          "sự tận tâm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình yêu nồng nàn; tình yêu nồng nàn; sự tận tâm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43742,
+    "word": "熱愛者",
+    "kana": "ねつあいしゃ",
+    "senses": [
+      {
+        "sense_id": 274511,
+        "meaning_vi": "người yêu (ví dụ: điện ảnh); người sùng đạo",
+        "confidence": "high",
+        "search_keywords": [
+          "người yêu (ví dụ: điện ảnh)",
+          "người sùng đạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người yêu (ví dụ: điện ảnh); người sùng đạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43743,
+    "word": "熱意",
+    "kana": "ねつい",
+    "senses": [
+      {
+        "sense_id": 274512,
+        "meaning_vi": "nhiệt tình; sự nhiệt tình; nhiệt tình; nhiệt tình",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt tình",
+          "sự nhiệt tình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt tình; sự nhiệt tình; nhiệt tình; nhiệt tình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43744,
+    "word": "熱可塑",
+    "kana": "ねつかそ",
+    "senses": [
+      {
+        "sense_id": 274513,
+        "meaning_vi": "có thể đúc được khi đun nóng; nhựa nhiệt dẻo",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể đúc được khi đun nóng",
+          "nhựa nhiệt dẻo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể đúc được khi đun nóng; nhựa nhiệt dẻo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43745,
+    "word": "熱可塑樹脂",
+    "kana": "ねつかそじゅし",
+    "senses": [
+      {
+        "sense_id": 274514,
+        "meaning_vi": "nhựa nhiệt dẻo",
+        "confidence": "high",
+        "search_keywords": [
+          "nhựa nhiệt dẻo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhựa nhiệt dẻo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43746,
+    "word": "熱可塑性",
+    "kana": "ねつかそせい",
+    "senses": [
+      {
+        "sense_id": 274515,
+        "meaning_vi": "tính dẻo nhiệt",
+        "confidence": "high",
+        "search_keywords": [
+          "tính dẻo nhiệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính dẻo nhiệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43747,
+    "word": "熱拡散",
+    "kana": "ねつかくさん",
+    "senses": [
+      {
+        "sense_id": 274516,
+        "meaning_vi": "khuếch tán nhiệt",
+        "confidence": "high",
+        "search_keywords": [
+          "khuếch tán nhiệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuếch tán nhiệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43748,
+    "word": "熱気",
+    "kana": "ねっき",
+    "senses": [
+      {
+        "sense_id": 274517,
+        "meaning_vi": "nhiệt; không khí nóng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt",
+          "không khí nóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt; không khí nóng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274518,
+        "meaning_vi": "sự nhiệt tình; sự phấn khích; nhiệt tình; nhiệt tình; bầu không khí nóng lên",
+        "confidence": "high",
+        "search_keywords": [
+          "sự nhiệt tình",
+          "sự phấn khích",
+          "nhiệt tình",
+          "bầu không khí nóng lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự nhiệt tình; sự phấn khích; nhiệt tình; nhiệt tình; bầu không khí nóng lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274519,
+        "meaning_vi": "sốt",
+        "confidence": "high",
+        "search_keywords": [
+          "sốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43749,
+    "word": "熱狂",
+    "kana": "ねっきょう",
+    "senses": [
+      {
+        "sense_id": 274520,
+        "meaning_vi": "sự nhiệt tình hoang dã; phát điên vì",
+        "confidence": "high",
+        "search_keywords": [
+          "sự nhiệt tình hoang dã",
+          "phát điên vì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự nhiệt tình hoang dã; phát điên vì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43750,
+    "word": "熱狂者",
+    "kana": "ねっきょうしゃ",
+    "senses": [
+      {
+        "sense_id": 274521,
+        "meaning_vi": "người đam mê",
+        "confidence": "high",
+        "search_keywords": [
+          "người đam mê"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đam mê",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43751,
+    "word": "熱狂的信者",
+    "kana": "ねっきょうてきしんじゃ",
+    "senses": [
+      {
+        "sense_id": 274522,
+        "meaning_vi": "cuồng tín",
+        "confidence": "high",
+        "search_keywords": [
+          "cuồng tín"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuồng tín",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43752,
+    "word": "熱血",
+    "kana": "ねっけつ",
+    "senses": [
+      {
+        "sense_id": 274523,
+        "meaning_vi": "máu nóng; máu ấm",
+        "confidence": "high",
+        "search_keywords": [
+          "máu nóng",
+          "máu ấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máu nóng; máu ấm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 274524,
+        "meaning_vi": "nhiệt tình; nhiệt tình; nhiệt tình; nhiệt tình; nhiệt tình; sự nhiệt tình",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiệt tình",
+          "sự nhiệt tình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiệt tình; nhiệt tình; nhiệt tình; nhiệt tình; nhiệt tình; sự nhiệt tình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 43753,
+    "word": "熱血漢",
+    "kana": "ねっけつかん",
+    "senses": [
+      {
+        "sense_id": 274525,
+        "meaning_vi": "người đàn ông máu nóng",
+        "confidence": "high",
+        "search_keywords": [
+          "người đàn ông máu nóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đàn ông máu nóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

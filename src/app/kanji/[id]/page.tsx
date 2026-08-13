@@ -1,28 +1,44 @@
+import type { Metadata } from "next"
 import styles from "@/features/dictionary/kanji/components/KanjiDetailContent.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import KanjiDetailContent from "@/features/dictionary/kanji/components/KanjiDetailContent"
 
-import { uniqueArray } from "@/shared/utils/uniqueArray"
+import { uniqueArray } from "@/shared/utils/array"
 
 import {
     getKanjiByCharacter,
     getWordsByReadingGroups,
-} from "@/features/dictionary/kanji/services/kanji.service"
+} from "@/server/services/kanji/kanji.service"
 
 import { extractKanjis } from "@/features/dictionary/kanji/utils"
 
 type Props = {
     params: Promise<{ id: string }>
-    searchParams: Promise<{ q?: string }>
+    searchParams: Promise<{ q?: string; lang?: string }>
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { id } = await params
+    const char = decodeURIComponent(id).replace(/\0/g, "")
+    const kanji = await getKanjiByCharacter(char)
+    if (!kanji) return { title: `${char} — Hán tự | Yomi` }
+    const meaning = kanji.meaning_vi || kanji.meaning_en || ""
+    return {
+        title: `${char} ${kanji.han_viet ? `(${kanji.han_viet})` : ""} — Hán tự | Yomi`.trim(),
+        description: meaning
+            ? `Hán tự ${char} — ${kanji.han_viet ?? ""}: ${meaning}. Tra cứu âm On, âm Kun và từ vựng liên quan.`
+            : `Tra cứu Hán tự ${char} trong từ điển tiếng Nhật.`,
+    }
 }
 
 export default async function KanjiDetailPage({ params, searchParams }: Props) {
     const { id } = await params
-    const { q } = await searchParams
+    const { q, lang } = await searchParams
 
     const currentKanji = decodeURIComponent(id).replace(/\0/g, "")
     const searchKeyword = q || currentKanji
+    const language: "vi" | "en" = lang === "en" ? "en" : "vi"
 
     const kanjis = extractKanjis(searchKeyword)
     const kanjiOptions = uniqueArray(
@@ -57,6 +73,7 @@ export default async function KanjiDetailPage({ params, searchParams }: Props) {
                     currentKanji={currentKanji}
                     kanjiOptions={kanjiOptions}
                     searchKeyword={searchKeyword}
+                    language={language}
                 />
             </main>
         </AppLayout>

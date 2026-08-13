@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560">
+  <rect width="560" height="560" fill="white"/>
+  <line x1="280" y1="0" x2="280" y2="560" stroke="#bbb" stroke-width="1.5"/>
+  <line x1="0" y1="280" x2="560" y2="280" stroke="#bbb" stroke-width="1.5"/>
+  <rect width="560" height="560" fill="none" stroke="#888" stroke-width="2"/>
+
+  <text x="14" y="36" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">①</text>
+  <text x="294" y="36" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">②</text>
+  <text x="14" y="316" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">③</text>
+  <text x="294" y="316" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">④</text>
+
+  <!-- ① サッカー (soccer) -->
+  <!-- Soccer ball -->
+  <circle cx="140" cy="148" r="65" fill="white" stroke="#444" stroke-width="2.5"/>
+  <!-- Pentagon patches -->
+  <polygon points="140,88 168,108 158,140 122,140 112,108" fill="#333" stroke="white" stroke-width="2"/>
+  <polygon points="140,88 112,108 95,85 118,68 162,68" fill="none" stroke="#444" stroke-width="1.5"/>
+  <polygon points="168,108 185,85 208,95 205,125 180,135" fill="none" stroke="#444" stroke-width="1.5"/>
+  <polygon points="122,140 95,145 88,120 112,108 140,140" fill="none" stroke="#444" stroke-width="1.5"/>
+  <polygon points="158,140 180,135 192,160 172,175 148,160" fill="none" stroke="#444" stroke-width="1.5"/>
+  <polygon points="122,140 148,160 130,178 100,170 95,145" fill="none" stroke="#444" stroke-width="1.5"/>
+  <!-- Goal post hint -->
+  <line x1="90" y1="218" x2="190" y2="218" stroke="#888" stroke-width="2"/>
+  <line x1="90" y1="210" x2="90" y2="218" stroke="#888" stroke-width="2"/>
+  <line x1="190" y1="210" x2="190" y2="218" stroke="#888" stroke-width="2"/>
+  <text x="140" y="258" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">サッカー</text>
+
+  <!-- ② テニス (tennis) -->
+  <!-- Racket head oval -->
+  <ellipse cx="420" cy="130" rx="55" ry="65" fill="none" stroke="#555" stroke-width="2.5"/>
+  <!-- Strings horizontal -->
+  <line x1="368" y1="110" x2="472" y2="110" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="366" y1="125" x2="474" y2="125" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="366" y1="140" x2="474" y2="140" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="368" y1="155" x2="472" y2="155" stroke="#aaa" stroke-width="1.5"/>
+  <!-- Strings vertical -->
+  <line x1="400" y1="68" x2="400" y2="192" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="416" y1="66" x2="416" y2="194" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="432" y1="68" x2="432" y2="192" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="448" y1="72" x2="448" y2="188" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="384" y1="72" x2="384" y2="188" stroke="#aaa" stroke-width="1.5"/>
+  <!-- Handle -->
+  <rect x="410" y="193" width="20" height="55" rx="4" fill="#cc8844" stroke="#885522" stroke-width="2"/>
+  <!-- Ball -->
+  <circle cx="360" cy="190" r="16" fill="#ccee44" stroke="#888833" stroke-width="1.5"/>
+  <path d="M346 182 Q360 175 374 182" fill="none" stroke="#888" stroke-width="1.5"/>
+  <path d="M346 196 Q360 203 374 196" fill="none" stroke="#888" stroke-width="1.5"/>
+  <text x="420" y="268" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">テニス</text>
+
+  <!-- ③ すいえい (swimming) -->
+  <!-- Pool water -->
+  <rect x="40" y="380" width="200" height="80" rx="6" fill="#99ccee" stroke="#4488aa" stroke-width="2"/>
+  <!-- Wave lines -->
+  <path d="M50 405 Q75 395 100 405 Q125 415 150 405 Q175 395 200 405 Q225 415 230 408" fill="none" stroke="#aaddff" stroke-width="2"/>
+  <path d="M50 425 Q75 415 100 425 Q125 435 150 425 Q175 415 200 425 Q225 435 230 428" fill="none" stroke="#aaddff" stroke-width="2"/>
+  <!-- Swimmer (top view, horizontal) -->
+  <circle cx="140" cy="370" r="18" fill="#ffccaa" stroke="#888" stroke-width="2"/>
+  <!-- body -->
+  <rect x="122" y="380" width="36" height="14" rx="6" fill="#ffccaa" stroke="#888" stroke-width="1.5"/>
+  <!-- arms -->
+  <line x1="80" y1="368" x2="122" y2="376" stroke="#ffccaa" stroke-width="8" stroke-linecap="round"/>
+  <line x1="200" y1="368" x2="158" y2="376" stroke="#ffccaa" stroke-width="8" stroke-linecap="round"/>
+  <!-- swimming cap -->
+  <ellipse cx="140" cy="364" rx="18" ry="12" fill="#3366cc" stroke="#1144aa" stroke-width="1.5"/>
+  <!-- goggles -->
+  <line x1="128" y1="368" x2="152" y2="368" stroke="#222" stroke-width="2"/>
+  <text x="140" y="498" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">すいえい</text>
+
+  <!-- ④ バスケット (basketball) -->
+  <!-- Ball -->
+  <circle cx="400" cy="385" r="52" fill="#e87722" stroke="#993300" stroke-width="2.5"/>
+  <!-- Ball seam lines -->
+  <path d="M400 333 Q400 385 400 437" fill="none" stroke="#993300" stroke-width="2"/>
+  <path d="M350 360 Q400 385 450 360" fill="none" stroke="#993300" stroke-width="2"/>
+  <path d="M355 410 Q400 385 445 410" fill="none" stroke="#993300" stroke-width="2"/>
+  <!-- Hoop -->
+  <rect x="440" y="318" width="8" height="50" fill="#cc8833" stroke="#885522" stroke-width="1.5"/>
+  <ellipse cx="448" cy="320" rx="32" ry="8" fill="none" stroke="#cc4400" stroke-width="3"/>
+  <!-- Net hint -->
+  <line x1="420" y1="328" x2="425" y2="355" stroke="#888" stroke-width="1.5"/>
+  <line x1="432" y1="328" x2="434" y2="355" stroke="#888" stroke-width="1.5"/>
+  <line x1="444" y1="328" x2="443" y2="355" stroke="#888" stroke-width="1.5"/>
+  <line x1="456" y1="328" x2="452" y2="355" stroke="#888" stroke-width="1.5"/>
+  <line x1="468" y1="328" x2="461" y2="355" stroke="#888" stroke-width="1.5"/>
+  <line x1="423" y1="338" x2="462" y2="338" stroke="#888" stroke-width="1"/>
+  <line x1="421" y1="348" x2="462" y2="348" stroke="#888" stroke-width="1"/>
+  <text x="420" y="498" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333">バスケット</text>
+</svg>

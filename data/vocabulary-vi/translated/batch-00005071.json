@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 121940,
+    "word": "ランタイムホスト",
+    "kana": "ランタイムホスト",
+    "senses": [
+      {
+        "sense_id": 365550,
+        "meaning_vi": "máy chủ thời gian chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "máy chủ thời gian chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy chủ thời gian chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121941,
+    "word": "ランタイムライブラリ",
+    "kana": "ランタイムライブラリ",
+    "senses": [
+      {
+        "sense_id": 365551,
+        "meaning_vi": "thư viện thời gian chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "thư viện thời gian chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư viện thời gian chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121942,
+    "word": "ランタイムルーチン",
+    "kana": "ランタイムルーチン",
+    "senses": [
+      {
+        "sense_id": 365552,
+        "meaning_vi": "thói quen thời gian chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "thói quen thời gian chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thói quen thời gian chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121943,
+    "word": "ランダマイズ技法",
+    "kana": "ランダマイズぎほう",
+    "senses": [
+      {
+        "sense_id": 365553,
+        "meaning_vi": "kỹ thuật ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "kỹ thuật ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỹ thuật ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121944,
+    "word": "ランダムアクセス",
+    "kana": "ランダムアクセス",
+    "senses": [
+      {
+        "sense_id": 365554,
+        "meaning_vi": "truy cập ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121945,
+    "word": "ランダムアクセスメモリ",
+    "kana": "ランダムアクセスメモリ",
+    "senses": [
+      {
+        "sense_id": 365555,
+        "meaning_vi": "bộ nhớ truy cập ngẫu nhiên; RAM",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ truy cập ngẫu nhiên",
+          "RAM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ truy cập ngẫu nhiên; RAM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121946,
+    "word": "ランダムアクセスメモリキャッシュ",
+    "kana": "ランダムアクセスメモリキャッシュ",
+    "senses": [
+      {
+        "sense_id": 365556,
+        "meaning_vi": "bộ nhớ đệm truy cập ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ đệm truy cập ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ đệm truy cập ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121947,
+    "word": "ランダムジッタ",
+    "kana": "ランダムジッタ",
+    "senses": [
+      {
+        "sense_id": 365557,
+        "meaning_vi": "jitter ngẫu nhiên; RJ",
+        "confidence": "high",
+        "search_keywords": [
+          "jitter ngẫu nhiên",
+          "RJ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "jitter ngẫu nhiên; RJ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121948,
+    "word": "ランダムドットステレオグラム",
+    "kana": "ランダムドットステレオグラム",
+    "senses": [
+      {
+        "sense_id": 365558,
+        "meaning_vi": "ảnh lập thể chấm ngẫu nhiên; RDS",
+        "confidence": "high",
+        "search_keywords": [
+          "ảnh lập thể chấm ngẫu nhiên",
+          "RDS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảnh lập thể chấm ngẫu nhiên; RDS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121949,
+    "word": "ランダムファイル",
+    "kana": "ランダムファイル",
+    "senses": [
+      {
+        "sense_id": 365559,
+        "meaning_vi": "tập tin ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121950,
+    "word": "ランディングゾーン",
+    "kana": "ランディングゾーン",
+    "senses": [
+      {
+        "sense_id": 365560,
+        "meaning_vi": "bãi đáp; bãi đáp",
+        "confidence": "high",
+        "search_keywords": [
+          "bãi đáp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bãi đáp; bãi đáp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121951,
+    "word": "ランドスケープモード",
+    "kana": "ランドスケープモード",
+    "senses": [
+      {
+        "sense_id": 365561,
+        "meaning_vi": "chế độ phong cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ phong cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ phong cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121952,
+    "word": "ランニングヘッド",
+    "kana": "ランニングヘッド",
+    "senses": [
+      {
+        "sense_id": 365562,
+        "meaning_vi": "đầu chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121953,
+    "word": "ランプ点灯",
+    "kana": "ランプてんとう",
+    "senses": [
+      {
+        "sense_id": 365563,
+        "meaning_vi": "sự thắp sáng của một ngọn đèn",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thắp sáng của một ngọn đèn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thắp sáng của một ngọn đèn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121954,
+    "word": "ランマネージャー",
+    "kana": "ランマネージャー",
+    "senses": [
+      {
+        "sense_id": 365564,
+        "meaning_vi": "Trình quản lý mạng LAN",
+        "confidence": "high",
+        "search_keywords": [
+          "Trình quản lý mạng LAN"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Trình quản lý mạng LAN",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121955,
+    "word": "ランレングス法",
+    "kana": "ランレングスほう",
+    "senses": [
+      {
+        "sense_id": 365565,
+        "meaning_vi": "phương pháp chiều dài chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp chiều dài chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp chiều dài chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121956,
+    "word": "リーキーバケット",
+    "kana": "リーキーバケット",
+    "senses": [
+      {
+        "sense_id": 365566,
+        "meaning_vi": "xô bị rò rỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "xô bị rò rỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xô bị rò rỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121957,
+    "word": "リージョナルコード",
+    "kana": "リージョナルコード",
+    "senses": [
+      {
+        "sense_id": 365567,
+        "meaning_vi": "mã vùng",
+        "confidence": "high",
+        "search_keywords": [
+          "mã vùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã vùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121958,
+    "word": "リダイヤル",
+    "kana": "リダイヤル",
+    "senses": [
+      {
+        "sense_id": 365568,
+        "meaning_vi": "quay số lại; gọi lại; gọi lại",
+        "confidence": "high",
+        "search_keywords": [
+          "quay số lại",
+          "gọi lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quay số lại; gọi lại; gọi lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 121959,
+    "word": "リードアウト",
+    "kana": "リードアウト",
+    "senses": [
+      {
+        "sense_id": 365569,
+        "meaning_vi": "Dẫn đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "Dẫn đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Dẫn đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

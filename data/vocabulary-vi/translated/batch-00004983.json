@@ -1,0 +1,442 @@
+[
+  {
+    "vocabulary_id": 120153,
+    "word": "トラックパッド",
+    "kana": "トラックパッド",
+    "senses": [
+      {
+        "sense_id": 363726,
+        "meaning_vi": "bàn di chuột; bàn di chuột",
+        "confidence": "high",
+        "search_keywords": [
+          "bàn di chuột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bàn di chuột; bàn di chuột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120154,
+    "word": "トラックピッチ",
+    "kana": "トラックピッチ",
+    "senses": [
+      {
+        "sense_id": 363727,
+        "meaning_vi": "theo dõi sân",
+        "confidence": "high",
+        "search_keywords": [
+          "theo dõi sân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo dõi sân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120155,
+    "word": "トラック密度",
+    "kana": "トラックみつど",
+    "senses": [
+      {
+        "sense_id": 363728,
+        "meaning_vi": "mật độ theo dõi",
+        "confidence": "high",
+        "search_keywords": [
+          "mật độ theo dõi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mật độ theo dõi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120156,
+    "word": "トラップハンドラ",
+    "kana": "トラップハンドラ",
+    "senses": [
+      {
+        "sense_id": 363729,
+        "meaning_vi": "người xử lý bẫy",
+        "confidence": "high",
+        "search_keywords": [
+          "người xử lý bẫy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người xử lý bẫy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120157,
+    "word": "トラバーサル順序",
+    "kana": "トラバーサルじゅんじょ",
+    "senses": [
+      {
+        "sense_id": 363730,
+        "meaning_vi": "trình tự duyệt",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự duyệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự duyệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120158,
+    "word": "トラヒックエンジニアリング",
+    "kana": "トラヒックエンジニアリング",
+    "senses": [
+      {
+        "sense_id": 363731,
+        "meaning_vi": "kỹ thuật giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "kỹ thuật giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỹ thuật giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120159,
+    "word": "トラヒックサージ",
+    "kana": "トラヒックサージ",
+    "senses": [
+      {
+        "sense_id": 363732,
+        "meaning_vi": "lưu lượng truy cập tăng đột biến",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu lượng truy cập tăng đột biến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu lượng truy cập tăng đột biến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120160,
+    "word": "トラヒックタイプ",
+    "kana": "トラヒックタイプ",
+    "senses": [
+      {
+        "sense_id": 363733,
+        "meaning_vi": "loại giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "loại giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120161,
+    "word": "トラヒックディスクリプタ",
+    "kana": "トラヒックディスクリプタ",
+    "senses": [
+      {
+        "sense_id": 363734,
+        "meaning_vi": "mô tả giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "mô tả giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô tả giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120162,
+    "word": "トラヒックバースト",
+    "kana": "トラヒックバースト",
+    "senses": [
+      {
+        "sense_id": 363735,
+        "meaning_vi": "bùng nổ giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "bùng nổ giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bùng nổ giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120163,
+    "word": "トラフィックパターン",
+    "kana": "トラフィックパターン",
+    "senses": [
+      {
+        "sense_id": 363736,
+        "meaning_vi": "mô hình giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "mô hình giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô hình giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120164,
+    "word": "トラヒック記述子",
+    "kana": "トラヒックきじゅつし",
+    "senses": [
+      {
+        "sense_id": 363737,
+        "meaning_vi": "mô tả giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "mô tả giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô tả giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120165,
+    "word": "トラヒック契約",
+    "kana": "トラヒックけいやく",
+    "senses": [
+      {
+        "sense_id": 363738,
+        "meaning_vi": "hợp đồng giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "hợp đồng giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hợp đồng giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120166,
+    "word": "トラヒック全体",
+    "kana": "トラヒックぜんたい",
+    "senses": [
+      {
+        "sense_id": 363739,
+        "meaning_vi": "tổng lưu lượng truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "tổng lưu lượng truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổng lưu lượng truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120167,
+    "word": "トラヒック特性",
+    "kana": "トラヒックとくせい",
+    "senses": [
+      {
+        "sense_id": 363740,
+        "meaning_vi": "đặc điểm giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "đặc điểm giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặc điểm giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120168,
+    "word": "トラフィックシェーピング",
+    "kana": "トラフィックシェーピング",
+    "senses": [
+      {
+        "sense_id": 363741,
+        "meaning_vi": "định hình giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "định hình giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định hình giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120169,
+    "word": "トラフィックフロー",
+    "kana": "トラフィックフロー",
+    "senses": [
+      {
+        "sense_id": 363742,
+        "meaning_vi": "luồng giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "luồng giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luồng giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120170,
+    "word": "トラフィックフロー機密性",
+    "kana": "トラフィックフローきみつせい",
+    "senses": [
+      {
+        "sense_id": 363743,
+        "meaning_vi": "bảo mật luồng giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "bảo mật luồng giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảo mật luồng giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120171,
+    "word": "トラフィック解析",
+    "kana": "トラフィックかいせき",
+    "senses": [
+      {
+        "sense_id": 363744,
+        "meaning_vi": "phân tích lưu lượng truy cập",
+        "confidence": "high",
+        "search_keywords": [
+          "phân tích lưu lượng truy cập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân tích lưu lượng truy cập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120172,
+    "word": "トラフィック制御",
+    "kana": "トラフィックせいぎょ",
+    "senses": [
+      {
+        "sense_id": 363745,
+        "meaning_vi": "điều khiển giao thông",
+        "confidence": "high",
+        "search_keywords": [
+          "điều khiển giao thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều khiển giao thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

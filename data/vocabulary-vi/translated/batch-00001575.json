@@ -1,0 +1,511 @@
+[
+  {
+    "vocabulary_id": 40601,
+    "word": "停止",
+    "kana": "ていし",
+    "senses": [
+      {
+        "sense_id": 270290,
+        "meaning_vi": "dừng lại; sắp dừng lại; dừng lại; sự bế tắc",
+        "confidence": "high",
+        "search_keywords": [
+          "dừng lại",
+          "sắp dừng lại",
+          "sự bế tắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dừng lại; sắp dừng lại; dừng lại; sự bế tắc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270291,
+        "meaning_vi": "ngừng (chuyển động, hoạt động, v.v.); đình chỉ (hoạt động); gián đoạn (ví dụ như cung cấp điện); cắt đứt",
+        "confidence": "high",
+        "search_keywords": [
+          "ngừng (chuyển động, hoạt động, v.v.)",
+          "đình chỉ (hoạt động)",
+          "gián đoạn (ví dụ như cung cấp điện)",
+          "cắt đứt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngừng (chuyển động, hoạt động, v.v.); đình chỉ (hoạt động); gián đoạn (ví dụ như cung cấp điện); cắt đứt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270292,
+        "meaning_vi": "đình chỉ (thanh toán, giấy phép, v.v.); (tạm thời) cấm; lệnh cấm",
+        "confidence": "high",
+        "search_keywords": [
+          "đình chỉ (thanh toán, giấy phép, v.v.)",
+          "(tạm thời) cấm",
+          "lệnh cấm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đình chỉ (thanh toán, giấy phép, v.v.); (tạm thời) cấm; lệnh cấm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 270293,
+        "meaning_vi": "đình chỉ âm nhạc, khiêu vũ, v.v. như một dấu hiệu để tang một người nổi bật",
+        "confidence": "high",
+        "search_keywords": [
+          "đình chỉ âm nhạc, khiêu vũ, v.v. như một dấu hiệu để tang một người nổi bật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đình chỉ âm nhạc, khiêu vũ, v.v. như một dấu hiệu để tang một người nổi bật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40602,
+    "word": "停止価格",
+    "kana": "ていしかかく",
+    "senses": [
+      {
+        "sense_id": 270294,
+        "meaning_vi": "giá cố định",
+        "confidence": "high",
+        "search_keywords": [
+          "giá cố định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá cố định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40603,
+    "word": "停止時間",
+    "kana": "ていしじかん",
+    "senses": [
+      {
+        "sense_id": 270295,
+        "meaning_vi": "thời gian dừng lại",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian dừng lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian dừng lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40604,
+    "word": "停止線",
+    "kana": "ていしせん",
+    "senses": [
+      {
+        "sense_id": 270296,
+        "meaning_vi": "vạch dừng",
+        "confidence": "high",
+        "search_keywords": [
+          "vạch dừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vạch dừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40605,
+    "word": "停車",
+    "kana": "ていしゃ",
+    "senses": [
+      {
+        "sense_id": 270297,
+        "meaning_vi": "dừng (tàu, ô tô, v.v.); dừng lại",
+        "confidence": "high",
+        "search_keywords": [
+          "dừng (tàu, ô tô, v.v.)",
+          "dừng lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dừng (tàu, ô tô, v.v.); dừng lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40606,
+    "word": "停職",
+    "kana": "ていしょく",
+    "senses": [
+      {
+        "sense_id": 270298,
+        "meaning_vi": "đình chỉ chức vụ",
+        "confidence": "high",
+        "search_keywords": [
+          "đình chỉ chức vụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đình chỉ chức vụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40607,
+    "word": "停戦",
+    "kana": "ていせん",
+    "senses": [
+      {
+        "sense_id": 270299,
+        "meaning_vi": "đình chiến; ngừng bắn",
+        "confidence": "high",
+        "search_keywords": [
+          "đình chiến",
+          "ngừng bắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đình chiến; ngừng bắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40608,
+    "word": "停船",
+    "kana": "ていせん",
+    "senses": [
+      {
+        "sense_id": 270300,
+        "meaning_vi": "dừng tàu; giam giữ; cách ly",
+        "confidence": "high",
+        "search_keywords": [
+          "dừng tàu",
+          "giam giữ",
+          "cách ly"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dừng tàu; giam giữ; cách ly",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40609,
+    "word": "停船場",
+    "kana": "ていせんじょう",
+    "senses": [
+      {
+        "sense_id": 270301,
+        "meaning_vi": "bến phà",
+        "confidence": "high",
+        "search_keywords": [
+          "bến phà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bến phà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40610,
+    "word": "停滞",
+    "kana": "ていたい",
+    "senses": [
+      {
+        "sense_id": 270302,
+        "meaning_vi": "trì trệ; ràng buộc; bế tắc; sự tắc nghẽn; trì hoãn; tích lũy; rơi vào tình trạng nợ đọng",
+        "confidence": "high",
+        "search_keywords": [
+          "trì trệ",
+          "ràng buộc",
+          "bế tắc",
+          "sự tắc nghẽn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trì trệ; ràng buộc; bế tắc; sự tắc nghẽn; trì hoãn; tích lũy; rơi vào tình trạng nợ đọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40611,
+    "word": "停電",
+    "kana": "ていでん",
+    "senses": [
+      {
+        "sense_id": 270303,
+        "meaning_vi": "mất điện; mất điện; cắt điện; mất điện",
+        "confidence": "high",
+        "search_keywords": [
+          "mất điện",
+          "cắt điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất điện; mất điện; cắt điện; mất điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40612,
+    "word": "停頓",
+    "kana": "ていとん",
+    "senses": [
+      {
+        "sense_id": 270304,
+        "meaning_vi": "bế tắc; bế tắc; bế tắc; thụt lùi; sự trì hoãn",
+        "confidence": "high",
+        "search_keywords": [
+          "bế tắc",
+          "thụt lùi",
+          "sự trì hoãn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bế tắc; bế tắc; bế tắc; thụt lùi; sự trì hoãn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40613,
+    "word": "停泊",
+    "kana": "ていはく",
+    "senses": [
+      {
+        "sense_id": 270305,
+        "meaning_vi": "nơi neo đậu; neo đậu; neo đậu",
+        "confidence": "high",
+        "search_keywords": [
+          "nơi neo đậu",
+          "neo đậu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nơi neo đậu; neo đậu; neo đậu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40614,
+    "word": "停留",
+    "kana": "ていりゅう",
+    "senses": [
+      {
+        "sense_id": 270306,
+        "meaning_vi": "dừng lại; dừng lại",
+        "confidence": "high",
+        "search_keywords": [
+          "dừng lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dừng lại; dừng lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40615,
+    "word": "停留所",
+    "kana": "ていりゅうじょ",
+    "senses": [
+      {
+        "sense_id": 270307,
+        "meaning_vi": "dừng (xe buýt, xe điện, v.v.); ga tàu; nơi dừng chân",
+        "confidence": "high",
+        "search_keywords": [
+          "dừng (xe buýt, xe điện, v.v.)",
+          "ga tàu",
+          "nơi dừng chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dừng (xe buýt, xe điện, v.v.); ga tàu; nơi dừng chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40616,
+    "word": "偵察",
+    "kana": "ていさつ",
+    "senses": [
+      {
+        "sense_id": 270308,
+        "meaning_vi": "trinh sát; trinh sát",
+        "confidence": "high",
+        "search_keywords": [
+          "trinh sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trinh sát; trinh sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40617,
+    "word": "偵察衛星",
+    "kana": "ていさつえいせい",
+    "senses": [
+      {
+        "sense_id": 270309,
+        "meaning_vi": "vệ tinh trinh sát; vệ tinh gián điệp",
+        "confidence": "high",
+        "search_keywords": [
+          "vệ tinh trinh sát",
+          "vệ tinh gián điệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vệ tinh trinh sát; vệ tinh gián điệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40618,
+    "word": "偵察機",
+    "kana": "ていさつき",
+    "senses": [
+      {
+        "sense_id": 270310,
+        "meaning_vi": "máy bay trinh sát; máy bay do thám",
+        "confidence": "high",
+        "search_keywords": [
+          "máy bay trinh sát",
+          "máy bay do thám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy bay trinh sát; máy bay do thám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40619,
+    "word": "偵察隊",
+    "kana": "ていさつたい",
+    "senses": [
+      {
+        "sense_id": 270311,
+        "meaning_vi": "nhóm trinh sát; tuần tra",
+        "confidence": "high",
+        "search_keywords": [
+          "nhóm trinh sát",
+          "tuần tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhóm trinh sát; tuần tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 40620,
+    "word": "偵知",
+    "kana": "ていち",
+    "senses": [
+      {
+        "sense_id": 270312,
+        "meaning_vi": "do thám; khám phá (bằng cách điều tra bí mật)",
+        "confidence": "high",
+        "search_keywords": [
+          "do thám",
+          "khám phá (bằng cách điều tra bí mật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "do thám; khám phá (bằng cách điều tra bí mật)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

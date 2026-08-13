@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 118948,
+    "word": "コンピュータ依存言語",
+    "kana": "コンピュータいぞんげんご",
+    "senses": [
+      {
+        "sense_id": 362493,
+        "meaning_vi": "ngôn ngữ phụ thuộc vào máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ phụ thuộc vào máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ phụ thuộc vào máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118949,
+    "word": "コンピュータ緊急対応センター",
+    "kana": "コンピュータきんきゅうたいおうセンター",
+    "senses": [
+      {
+        "sense_id": 362494,
+        "meaning_vi": "Điều khoản ứng phó khẩn cấp máy tính JP; JPCERT-CC",
+        "confidence": "high",
+        "search_keywords": [
+          "Điều khoản ứng phó khẩn cấp máy tính JP",
+          "JPCERT-CC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Điều khoản ứng phó khẩn cấp máy tính JP; JPCERT-CC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118950,
+    "word": "コンピュータ資源",
+    "kana": "コンピュータしげん",
+    "senses": [
+      {
+        "sense_id": 362495,
+        "meaning_vi": "tài nguyên máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "tài nguyên máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài nguyên máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118951,
+    "word": "コンピュータ切り替え器",
+    "kana": "コンピュータきりかえき",
+    "senses": [
+      {
+        "sense_id": 362496,
+        "meaning_vi": "chuyển đổi máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118952,
+    "word": "コンピュータ端末",
+    "kana": "コンピュータたんまつ",
+    "senses": [
+      {
+        "sense_id": 362497,
+        "meaning_vi": "thiết bị đầu cuối máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118953,
+    "word": "コンピュータ統合生産",
+    "kana": "コンピュータとうごうせいさん",
+    "senses": [
+      {
+        "sense_id": 362498,
+        "meaning_vi": "CIM; Sản xuất tích hợp máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "CIM",
+          "Sản xuất tích hợp máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "CIM; Sản xuất tích hợp máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118954,
+    "word": "コンピュータ媒介言語",
+    "kana": "コンピュータばいかいげんご",
+    "senses": [
+      {
+        "sense_id": 362499,
+        "meaning_vi": "Truyền thông qua trung gian máy tính; CMC",
+        "confidence": "high",
+        "search_keywords": [
+          "Truyền thông qua trung gian máy tính",
+          "CMC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Truyền thông qua trung gian máy tính; CMC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118955,
+    "word": "コンピュータ犯罪",
+    "kana": "コンピュータはんざい",
+    "senses": [
+      {
+        "sense_id": 362500,
+        "meaning_vi": "tội phạm máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "tội phạm máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tội phạm máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118956,
+    "word": "コンピューティング環境",
+    "kana": "コンピューティングかんきょう",
+    "senses": [
+      {
+        "sense_id": 362501,
+        "meaning_vi": "môi trường tính toán",
+        "confidence": "high",
+        "search_keywords": [
+          "môi trường tính toán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môi trường tính toán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118957,
+    "word": "コンフィギュレーションコマンド",
+    "kana": "コンフィギュレーションコマンド",
+    "senses": [
+      {
+        "sense_id": 362502,
+        "meaning_vi": "lệnh cấu hình",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh cấu hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh cấu hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118958,
+    "word": "コンフィギュレーションメモリ",
+    "kana": "コンフィギュレーションメモリ",
+    "senses": [
+      {
+        "sense_id": 362503,
+        "meaning_vi": "bộ nhớ cấu hình",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ cấu hình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ cấu hình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118959,
+    "word": "ｃｏｎｆｉｇ．ｓｙｓ",
+    "kana": "コンフィグシス",
+    "senses": [
+      {
+        "sense_id": 362504,
+        "meaning_vi": "CONFIG.SYS (tệp cấu hình)",
+        "confidence": "high",
+        "search_keywords": [
+          "CONFIG.SYS (tệp cấu hình)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "CONFIG.SYS (tệp cấu hình)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118960,
+    "word": "コンプレッション",
+    "kana": "コンプレッション",
+    "senses": [
+      {
+        "sense_id": 362505,
+        "meaning_vi": "nén",
+        "confidence": "high",
+        "search_keywords": [
+          "nén"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nén",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118961,
+    "word": "コンベンショナルメモリー",
+    "kana": "コンベンショナルメモリー",
+    "senses": [
+      {
+        "sense_id": 362506,
+        "meaning_vi": "bộ nhớ thông thường",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ thông thường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ thông thường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118962,
+    "word": "コンボボックス",
+    "kana": "コンボボックス",
+    "senses": [
+      {
+        "sense_id": 362507,
+        "meaning_vi": "hộp tổ hợp (tiện ích giao diện người dùng đồ họa)",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp tổ hợp (tiện ích giao diện người dùng đồ họa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp tổ hợp (tiện ích giao diện người dùng đồ họa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118963,
+    "word": "コンボリューション",
+    "kana": "コンボリューション",
+    "senses": [
+      {
+        "sense_id": 362508,
+        "meaning_vi": "tích chập",
+        "confidence": "high",
+        "search_keywords": [
+          "tích chập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tích chập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118964,
+    "word": "コンポーネント信号",
+    "kana": "コンポーネントしんごう",
+    "senses": [
+      {
+        "sense_id": 362509,
+        "meaning_vi": "tín hiệu thành phần",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu thành phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu thành phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118965,
+    "word": "コンポジット信号",
+    "kana": "コンポジットしんごう",
+    "senses": [
+      {
+        "sense_id": 362510,
+        "meaning_vi": "tín hiệu tổng hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu tổng hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu tổng hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118966,
+    "word": "ゴーファー",
+    "kana": "ゴーファー",
+    "senses": [
+      {
+        "sense_id": 362511,
+        "meaning_vi": "Gopher (giao thức truyền thông)",
+        "confidence": "high",
+        "search_keywords": [
+          "Gopher (giao thức truyền thông)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Gopher (giao thức truyền thông)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 118967,
+    "word": "ゴシック体",
+    "kana": "ゴシックたい",
+    "senses": [
+      {
+        "sense_id": 362512,
+        "meaning_vi": "kiểu chữ sans-serif; kiểu chữ gothic",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu chữ sans-serif",
+          "kiểu chữ gothic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu chữ sans-serif; kiểu chữ gothic",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

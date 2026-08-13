@@ -1,0 +1,810 @@
+[
+  {
+    "vocabulary_id": 16180,
+    "word": "押し立てる",
+    "kana": "おしたてる",
+    "senses": [
+      {
+        "sense_id": 237656,
+        "meaning_vi": "để thiết lập; nâng cao",
+        "confidence": "high",
+        "search_keywords": [
+          "để thiết lập",
+          "nâng cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thiết lập; nâng cao",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237657,
+        "meaning_vi": "đề cử; chọn làm người đại diện",
+        "confidence": "high",
+        "search_keywords": [
+          "đề cử",
+          "chọn làm người đại diện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đề cử; chọn làm người đại diện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237658,
+        "meaning_vi": "đẩy; đẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "đẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẩy; đẩy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16181,
+    "word": "押し流す",
+    "kana": "おしながす",
+    "senses": [
+      {
+        "sense_id": 237659,
+        "meaning_vi": "rửa sạch; quét đi; mang đi",
+        "confidence": "high",
+        "search_keywords": [
+          "rửa sạch",
+          "quét đi",
+          "mang đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rửa sạch; quét đi; mang đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16182,
+    "word": "押す",
+    "kana": "おす",
+    "senses": [
+      {
+        "sense_id": 237660,
+        "meaning_vi": "đẩy; đẩy; đẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "đẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẩy; đẩy; đẩy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237661,
+        "meaning_vi": "nhấn (xuống); để nhấn (ví dụ: một nút); để gây áp lực lên",
+        "confidence": "high",
+        "search_keywords": [
+          "nhấn (xuống)",
+          "để nhấn (ví dụ: một nút)",
+          "để gây áp lực lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhấn (xuống); để nhấn (ví dụ: một nút); để gây áp lực lên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237662,
+        "meaning_vi": "đóng dấu (ví dụ: tên của một người); để đóng (một con dấu)",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng dấu (ví dụ: tên của một người)",
+          "để đóng (một con dấu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng dấu (ví dụ: tên của một người); để đóng (một con dấu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237663,
+        "meaning_vi": "để dán (ví dụ như lá vàng)",
+        "confidence": "high",
+        "search_keywords": [
+          "để dán (ví dụ như lá vàng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để dán (ví dụ như lá vàng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237664,
+        "meaning_vi": "đẩy (ai đó vì cái gì); nhấn; gây áp lực lên (ai đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "đẩy (ai đó vì cái gì)",
+          "nhấn",
+          "gây áp lực lên (ai đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẩy (ai đó vì cái gì); nhấn; gây áp lực lên (ai đó)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237665,
+        "meaning_vi": "áp đảo; để chế ngự; đặt (ai đó) dưới áp lực; vượt trội hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "áp đảo",
+          "để chế ngự",
+          "đặt (ai đó) dưới áp lực",
+          "vượt trội hơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "áp đảo; để chế ngự; đặt (ai đó) dưới áp lực; vượt trội hơn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237666,
+        "meaning_vi": "thúc đẩy (với một chính sách, kế hoạch, v.v.); tiến hành; bám vào",
+        "confidence": "high",
+        "search_keywords": [
+          "thúc đẩy (với một chính sách, kế hoạch, v.v.)",
+          "tiến hành",
+          "bám vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thúc đẩy (với một chính sách, kế hoạch, v.v.); tiến hành; bám vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237667,
+        "meaning_vi": "làm... bất chấp...; thách thức; dũng cảm; đẩy sang một bên",
+        "confidence": "high",
+        "search_keywords": [
+          "làm... bất chấp...",
+          "thách thức",
+          "dũng cảm",
+          "đẩy sang một bên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm... bất chấp...; thách thức; dũng cảm; đẩy sang một bên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237668,
+        "meaning_vi": "để đảm bảo",
+        "confidence": "high",
+        "search_keywords": [
+          "để đảm bảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đảm bảo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237669,
+        "meaning_vi": "tụt lại phía sau lịch trình",
+        "confidence": "high",
+        "search_keywords": [
+          "tụt lại phía sau lịch trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tụt lại phía sau lịch trình",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237670,
+        "meaning_vi": "đẩy; đẩy những viên đá của mình về phía trước bằng cách đẩy những viên đá của đối thủ",
+        "confidence": "high",
+        "search_keywords": [
+          "đẩy",
+          "đẩy những viên đá của mình về phía trước bằng cách đẩy những viên đá của đối thủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẩy; đẩy những viên đá của mình về phía trước bằng cách đẩy những viên đá của đối thủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16183,
+    "word": "押印",
+    "kana": "おういん",
+    "senses": [
+      {
+        "sense_id": 237671,
+        "meaning_vi": "đóng dấu (vào); đặt con dấu của một người (trên)",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng dấu (vào)",
+          "đặt con dấu của một người (trên)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng dấu (vào); đặt con dấu của một người (trên)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16184,
+    "word": "押韻",
+    "kana": "おういん",
+    "senses": [
+      {
+        "sense_id": 237672,
+        "meaning_vi": "có vần điệu",
+        "confidence": "high",
+        "search_keywords": [
+          "có vần điệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có vần điệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16185,
+    "word": "押下",
+    "kana": "おうか",
+    "senses": [
+      {
+        "sense_id": 237673,
+        "meaning_vi": "nhấn xuống (nút, bàn phím, v.v.); chán nản; buộc xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "nhấn xuống (nút, bàn phím, v.v.)",
+          "chán nản",
+          "buộc xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhấn xuống (nút, bàn phím, v.v.); chán nản; buộc xuống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16186,
+    "word": "押収",
+    "kana": "おうしゅう",
+    "senses": [
+      {
+        "sense_id": 237674,
+        "meaning_vi": "co giật; tịch thu",
+        "confidence": "high",
+        "search_keywords": [
+          "co giật",
+          "tịch thu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "co giật; tịch thu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16187,
+    "word": "押し切り",
+    "kana": "おしきり",
+    "senses": [
+      {
+        "sense_id": 237675,
+        "meaning_vi": "máy cắt rơm; bờm ngắn",
+        "confidence": "high",
+        "search_keywords": [
+          "máy cắt rơm",
+          "bờm ngắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy cắt rơm; bờm ngắn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237676,
+        "meaning_vi": "ép và cắt",
+        "confidence": "high",
+        "search_keywords": [
+          "ép và cắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ép và cắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16188,
+    "word": "押捺",
+    "kana": "おうなつ",
+    "senses": [
+      {
+        "sense_id": 237677,
+        "meaning_vi": "dập; gây ấn tượng; đóng dấu",
+        "confidence": "high",
+        "search_keywords": [
+          "dập",
+          "gây ấn tượng",
+          "đóng dấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dập; gây ấn tượng; đóng dấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16189,
+    "word": "押忍",
+    "kana": "おっす",
+    "senses": [
+      {
+        "sense_id": 237678,
+        "meaning_vi": "CHÀO!; yo!; này anh bạn!; này anh bạn!",
+        "confidence": "high",
+        "search_keywords": [
+          "CHÀO!",
+          "yo!",
+          "này anh bạn!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "CHÀO!; yo!; này anh bạn!; này anh bạn!",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237679,
+        "meaning_vi": "vâng thưa ngài!; đã hiểu!",
+        "confidence": "high",
+        "search_keywords": [
+          "vâng thưa ngài!",
+          "đã hiểu!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vâng thưa ngài!; đã hiểu!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16190,
+    "word": "旺盛",
+    "kana": "おうせい",
+    "senses": [
+      {
+        "sense_id": 237680,
+        "meaning_vi": "sống động; mạnh mẽ; mãnh liệt; khỏe mạnh; khao khát (ví dụ: ham muốn); phong phú (ví dụ: trí tưởng tượng)",
+        "confidence": "high",
+        "search_keywords": [
+          "sống động",
+          "mạnh mẽ",
+          "mãnh liệt",
+          "khỏe mạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sống động; mạnh mẽ; mãnh liệt; khỏe mạnh; khao khát (ví dụ: ham muốn); phong phú (ví dụ: trí tưởng tượng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237681,
+        "meaning_vi": "tràn đầy (năng lượng, sự thèm ăn, sự tò mò, v.v.); tràn ngập",
+        "confidence": "high",
+        "search_keywords": [
+          "tràn đầy (năng lượng, sự thèm ăn, sự tò mò, v.v.)",
+          "tràn ngập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tràn đầy (năng lượng, sự thèm ăn, sự tò mò, v.v.); tràn ngập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16191,
+    "word": "横",
+    "kana": "よこ",
+    "senses": [
+      {
+        "sense_id": 237682,
+        "meaning_vi": "ngang (trái ngược với chiều dọc)",
+        "confidence": "high",
+        "search_keywords": [
+          "ngang (trái ngược với chiều dọc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngang (trái ngược với chiều dọc)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237683,
+        "meaning_vi": "từ bên này sang bên kia (trái ngược với từ trước ra sau); chiều rộng; chiều rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "từ bên này sang bên kia (trái ngược với từ trước ra sau)",
+          "chiều rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ bên này sang bên kia (trái ngược với từ trước ra sau); chiều rộng; chiều rộng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237684,
+        "meaning_vi": "bên (của một cái hộp, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "bên (của một cái hộp, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên (của một cái hộp, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237685,
+        "meaning_vi": "bên cạnh; sang một bên ; bên cạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "bên cạnh",
+          "sang một bên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên cạnh; sang một bên ; bên cạnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237686,
+        "meaning_vi": "không được kết nối",
+        "confidence": "high",
+        "search_keywords": [
+          "không được kết nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không được kết nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16192,
+    "word": "横たえる",
+    "kana": "よこたえる",
+    "senses": [
+      {
+        "sense_id": 237687,
+        "meaning_vi": "nằm xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "nằm xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nằm xuống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237688,
+        "meaning_vi": "đeo (một thanh kiếm, v.v.) bên mình",
+        "confidence": "high",
+        "search_keywords": [
+          "đeo (một thanh kiếm, v.v.) bên mình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đeo (một thanh kiếm, v.v.) bên mình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16193,
+    "word": "横たわる",
+    "kana": "よこたわる",
+    "senses": [
+      {
+        "sense_id": 237689,
+        "meaning_vi": "nằm xuống; căng ra",
+        "confidence": "high",
+        "search_keywords": [
+          "nằm xuống",
+          "căng ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nằm xuống; căng ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237690,
+        "meaning_vi": "nằm ở phía trước (nguy hiểm, khó khăn, v.v.); nằm chờ đợi",
+        "confidence": "high",
+        "search_keywords": [
+          "nằm ở phía trước (nguy hiểm, khó khăn, v.v.)",
+          "nằm chờ đợi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nằm ở phía trước (nguy hiểm, khó khăn, v.v.); nằm chờ đợi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16194,
+    "word": "横っ腹",
+    "kana": "よこっぱら",
+    "senses": [
+      {
+        "sense_id": 237691,
+        "meaning_vi": "bên; sườn",
+        "confidence": "high",
+        "search_keywords": [
+          "bên",
+          "sườn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên; sườn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16195,
+    "word": "横っ面",
+    "kana": "よこっつら",
+    "senses": [
+      {
+        "sense_id": 237692,
+        "meaning_vi": "bên của khuôn mặt",
+        "confidence": "high",
+        "search_keywords": [
+          "bên của khuôn mặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên của khuôn mặt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 237693,
+        "meaning_vi": "bên",
+        "confidence": "high",
+        "search_keywords": [
+          "bên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16196,
+    "word": "横溢",
+    "kana": "おういつ",
+    "senses": [
+      {
+        "sense_id": 237694,
+        "meaning_vi": "tràn ngập; ngập lụt",
+        "confidence": "high",
+        "search_keywords": [
+          "tràn ngập",
+          "ngập lụt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tràn ngập; ngập lụt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16197,
+    "word": "横泳ぎ",
+    "kana": "よこおよぎ",
+    "senses": [
+      {
+        "sense_id": 237695,
+        "meaning_vi": "bơi nghiêng (bơi)",
+        "confidence": "high",
+        "search_keywords": [
+          "bơi nghiêng (bơi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bơi nghiêng (bơi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16198,
+    "word": "横臥",
+    "kana": "おうが",
+    "senses": [
+      {
+        "sense_id": 237696,
+        "meaning_vi": "nằm nghiêng một bên",
+        "confidence": "high",
+        "search_keywords": [
+          "nằm nghiêng một bên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nằm nghiêng một bên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 16199,
+    "word": "横隔膜",
+    "kana": "おうかくまく",
+    "senses": [
+      {
+        "sense_id": 237697,
+        "meaning_vi": "cơ hoành",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ hoành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ hoành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

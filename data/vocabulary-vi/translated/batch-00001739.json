@@ -1,0 +1,641 @@
+[
+  {
+    "vocabulary_id": 45200,
+    "word": "否定応答",
+    "kana": "ひていおうとう",
+    "senses": [
+      {
+        "sense_id": 276475,
+        "meaning_vi": "thừa nhận tiêu cực; NAK",
+        "confidence": "high",
+        "search_keywords": [
+          "thừa nhận tiêu cực",
+          "NAK"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thừa nhận tiêu cực; NAK",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45201,
+    "word": "否定語",
+    "kana": "ひていご",
+    "senses": [
+      {
+        "sense_id": 276476,
+        "meaning_vi": "từ tiêu cực",
+        "confidence": "high",
+        "search_keywords": [
+          "từ tiêu cực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ tiêu cực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45202,
+    "word": "否定的",
+    "kana": "ひていてき",
+    "senses": [
+      {
+        "sense_id": 276477,
+        "meaning_vi": "tiêu cực; mâu thuẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu cực",
+          "mâu thuẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu cực; mâu thuẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45203,
+    "word": "否定文",
+    "kana": "ひていぶん",
+    "senses": [
+      {
+        "sense_id": 276478,
+        "meaning_vi": "câu phủ định",
+        "confidence": "high",
+        "search_keywords": [
+          "câu phủ định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu phủ định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45204,
+    "word": "否認",
+    "kana": "ひにん",
+    "senses": [
+      {
+        "sense_id": 276479,
+        "meaning_vi": "phủ nhận; phủ định; bác bỏ; không tán thành",
+        "confidence": "high",
+        "search_keywords": [
+          "phủ nhận",
+          "phủ định",
+          "bác bỏ",
+          "không tán thành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phủ nhận; phủ định; bác bỏ; không tán thành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45205,
+    "word": "妃殿下",
+    "kana": "ひでんか",
+    "senses": [
+      {
+        "sense_id": 276480,
+        "meaning_vi": "công chúa; Hoàng thân của cô ấy",
+        "confidence": "high",
+        "search_keywords": [
+          "công chúa",
+          "Hoàng thân của cô ấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công chúa; Hoàng thân của cô ấy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45206,
+    "word": "庇う",
+    "kana": "かばう",
+    "senses": [
+      {
+        "sense_id": 276481,
+        "meaning_vi": "để bảo vệ (ai đó); để chăm sóc (ví dụ: một chân bị thương); để bảo vệ; để che đậy; đứng lên bảo vệ; để ủng hộ",
+        "confidence": "high",
+        "search_keywords": [
+          "để bảo vệ (ai đó)",
+          "để chăm sóc (ví dụ: một chân bị thương)",
+          "để bảo vệ",
+          "để che đậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bảo vệ (ai đó); để chăm sóc (ví dụ: một chân bị thương); để bảo vệ; để che đậy; đứng lên bảo vệ; để ủng hộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45207,
+    "word": "彼",
+    "kana": "かれ",
+    "senses": [
+      {
+        "sense_id": 276482,
+        "meaning_vi": "Anh ta; anh ấy",
+        "confidence": "high",
+        "search_keywords": [
+          "Anh ta",
+          "anh ấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Anh ta; anh ấy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276483,
+        "meaning_vi": "bạn trai",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn trai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn trai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45208,
+    "word": "彼ら",
+    "kana": "かれら",
+    "senses": [
+      {
+        "sense_id": 276484,
+        "meaning_vi": "họ; họ",
+        "confidence": "high",
+        "search_keywords": [
+          "họ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "họ; họ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45209,
+    "word": "彼岸",
+    "kana": "ひがん",
+    "senses": [
+      {
+        "sense_id": 276485,
+        "meaning_vi": "tuần lễ điểm phân (khi các buổi lễ Phật giáo được tổ chức)",
+        "confidence": "high",
+        "search_keywords": [
+          "tuần lễ điểm phân (khi các buổi lễ Phật giáo được tổ chức)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuần lễ điểm phân (khi các buổi lễ Phật giáo được tổ chức)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276486,
+        "meaning_vi": "Các buổi lễ Phật giáo trong tuần lễ điểm phân",
+        "confidence": "high",
+        "search_keywords": [
+          "Các buổi lễ Phật giáo trong tuần lễ điểm phân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Các buổi lễ Phật giáo trong tuần lễ điểm phân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276487,
+        "meaning_vi": "niết bàn",
+        "confidence": "high",
+        "search_keywords": [
+          "niết bàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "niết bàn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276488,
+        "meaning_vi": "ngân hàng đối diện; bờ đối diện; bờ bên kia",
+        "confidence": "high",
+        "search_keywords": [
+          "ngân hàng đối diện",
+          "bờ đối diện",
+          "bờ bên kia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngân hàng đối diện; bờ đối diện; bờ bên kia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45210,
+    "word": "彼岸花",
+    "kana": "ひがんばな",
+    "senses": [
+      {
+        "sense_id": 276489,
+        "meaning_vi": "hoa huệ nhện đỏ (Lycoris radiata); chùm amaryllis",
+        "confidence": "high",
+        "search_keywords": [
+          "hoa huệ nhện đỏ (Lycoris radiata)",
+          "chùm amaryllis"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoa huệ nhện đỏ (Lycoris radiata); chùm amaryllis",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45211,
+    "word": "彼岸会",
+    "kana": "ひがんえ",
+    "senses": [
+      {
+        "sense_id": 276490,
+        "meaning_vi": "Các buổi lễ Phật giáo trong tuần lễ điểm phân",
+        "confidence": "high",
+        "search_keywords": [
+          "Các buổi lễ Phật giáo trong tuần lễ điểm phân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Các buổi lễ Phật giáo trong tuần lễ điểm phân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45212,
+    "word": "彼氏",
+    "kana": "かれし",
+    "senses": [
+      {
+        "sense_id": 276491,
+        "meaning_vi": "bạn trai",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn trai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn trai",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276492,
+        "meaning_vi": "Anh ta; anh ấy",
+        "confidence": "high",
+        "search_keywords": [
+          "Anh ta",
+          "anh ấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Anh ta; anh ấy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45213,
+    "word": "彼女",
+    "kana": "かのじょ",
+    "senses": [
+      {
+        "sense_id": 276493,
+        "meaning_vi": "cô ấy; cô ấy",
+        "confidence": "high",
+        "search_keywords": [
+          "cô ấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cô ấy; cô ấy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276494,
+        "meaning_vi": "bạn gái",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn gái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn gái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45214,
+    "word": "彼奴",
+    "kana": "あいつ",
+    "senses": [
+      {
+        "sense_id": 276495,
+        "meaning_vi": "Anh ta; cô ấy; anh chàng đó",
+        "confidence": "high",
+        "search_keywords": [
+          "Anh ta",
+          "cô ấy",
+          "anh chàng đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Anh ta; cô ấy; anh chàng đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276496,
+        "meaning_vi": "cái đó; cái đó; thứ đó",
+        "confidence": "high",
+        "search_keywords": [
+          "cái đó",
+          "thứ đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái đó; cái đó; thứ đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45215,
+    "word": "彼方",
+    "kana": "かなた",
+    "senses": [
+      {
+        "sense_id": 276497,
+        "meaning_vi": "vượt ra; sang; phía bên kia; khoảng cách",
+        "confidence": "high",
+        "search_keywords": [
+          "vượt ra",
+          "sang",
+          "phía bên kia",
+          "khoảng cách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vượt ra; sang; phía bên kia; khoảng cách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45216,
+    "word": "彼方",
+    "kana": "あちら",
+    "senses": [
+      {
+        "sense_id": 276498,
+        "meaning_vi": "theo cách đó; hướng đó; ở đằng kia; đằng kia",
+        "confidence": "high",
+        "search_keywords": [
+          "theo cách đó",
+          "hướng đó",
+          "ở đằng kia",
+          "đằng kia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo cách đó; hướng đó; ở đằng kia; đằng kia",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276499,
+        "meaning_vi": "đó (một)",
+        "confidence": "high",
+        "search_keywords": [
+          "đó (một)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đó (một)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276500,
+        "meaning_vi": "người đó",
+        "confidence": "high",
+        "search_keywords": [
+          "người đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276501,
+        "meaning_vi": "ở đó; ở đằng kia; nước ngoài (đặc biệt là một quốc gia phương Tây)",
+        "confidence": "high",
+        "search_keywords": [
+          "ở đó",
+          "ở đằng kia",
+          "nước ngoài (đặc biệt là một quốc gia phương Tây)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở đó; ở đằng kia; nước ngoài (đặc biệt là một quốc gia phương Tây)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45217,
+    "word": "悲しい",
+    "kana": "かなしい",
+    "senses": [
+      {
+        "sense_id": 276502,
+        "meaning_vi": "buồn; khổ sở; không vui; buồn bã",
+        "confidence": "high",
+        "search_keywords": [
+          "buồn",
+          "khổ sở",
+          "không vui",
+          "buồn bã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buồn; khổ sở; không vui; buồn bã",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 276503,
+        "meaning_vi": "buồn; đáng tiếc; thương tâm; đau buồn",
+        "confidence": "high",
+        "search_keywords": [
+          "buồn",
+          "đáng tiếc",
+          "thương tâm",
+          "đau buồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buồn; đáng tiếc; thương tâm; đau buồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45218,
+    "word": "悲しむ",
+    "kana": "かなしむ",
+    "senses": [
+      {
+        "sense_id": 276504,
+        "meaning_vi": "buồn; than khóc cho; hối tiếc",
+        "confidence": "high",
+        "search_keywords": [
+          "buồn",
+          "than khóc cho",
+          "hối tiếc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buồn; than khóc cho; hối tiếc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 45219,
+    "word": "悲哀",
+    "kana": "ひあい",
+    "senses": [
+      {
+        "sense_id": 276505,
+        "meaning_vi": "nỗi buồn; đau buồn; nỗi buồn",
+        "confidence": "high",
+        "search_keywords": [
+          "nỗi buồn",
+          "đau buồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nỗi buồn; đau buồn; nỗi buồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

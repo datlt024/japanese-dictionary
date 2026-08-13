@@ -1,0 +1,722 @@
+[
+  {
+    "vocabulary_id": 42644,
+    "word": "読み込む",
+    "kana": "よみこむ",
+    "senses": [
+      {
+        "sense_id": 273032,
+        "meaning_vi": "đọc kỹ; đọc đi đọc lại nhiều lần",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc kỹ",
+          "đọc đi đọc lại nhiều lần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc kỹ; đọc đi đọc lại nhiều lần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273033,
+        "meaning_vi": "đọc (thêm ý nghĩa) vào (cái gì đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc (thêm ý nghĩa) vào (cái gì đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc (thêm ý nghĩa) vào (cái gì đó)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273034,
+        "meaning_vi": "xem xét (những thay đổi trong tương lai)",
+        "confidence": "high",
+        "search_keywords": [
+          "xem xét (những thay đổi trong tương lai)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xem xét (những thay đổi trong tương lai)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273035,
+        "meaning_vi": "để tải (dữ liệu); để đọc; để tìm nạp (ví dụ: lệnh CPU)",
+        "confidence": "high",
+        "search_keywords": [
+          "để tải (dữ liệu)",
+          "để đọc",
+          "để tìm nạp (ví dụ: lệnh CPU)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tải (dữ liệu); để đọc; để tìm nạp (ví dụ: lệnh CPU)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42645,
+    "word": "読み取る",
+    "kana": "よみとる",
+    "senses": [
+      {
+        "sense_id": 273036,
+        "meaning_vi": "để đọc và hiểu; để tham gia",
+        "confidence": "high",
+        "search_keywords": [
+          "để đọc và hiểu",
+          "để tham gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đọc và hiểu; để tham gia",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273037,
+        "meaning_vi": "để cảm nhận từ các tín hiệu bên ngoài; đọc được suy nghĩ của (ai đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "để cảm nhận từ các tín hiệu bên ngoài",
+          "đọc được suy nghĩ của (ai đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để cảm nhận từ các tín hiệu bên ngoài; đọc được suy nghĩ của (ai đó)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273038,
+        "meaning_vi": "để đọc (hiệu chuẩn, băng, v.v.); để quét (mã vạch); để đọc (ra)",
+        "confidence": "high",
+        "search_keywords": [
+          "để đọc (hiệu chuẩn, băng, v.v.)",
+          "để quét (mã vạch)",
+          "để đọc (ra)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đọc (hiệu chuẩn, băng, v.v.); để quét (mã vạch); để đọc (ra)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42646,
+    "word": "読み手",
+    "kana": "よみて",
+    "senses": [
+      {
+        "sense_id": 273039,
+        "meaning_vi": "người đọc (người)",
+        "confidence": "high",
+        "search_keywords": [
+          "người đọc (người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đọc (người)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273040,
+        "meaning_vi": "người đọc bài (trong trò chơi karuta)",
+        "confidence": "high",
+        "search_keywords": [
+          "người đọc bài (trong trò chơi karuta)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đọc bài (trong trò chơi karuta)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273041,
+        "meaning_vi": "người sáng tác (của một bài thơ)",
+        "confidence": "high",
+        "search_keywords": [
+          "người sáng tác (của một bài thơ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người sáng tác (của một bài thơ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42647,
+    "word": "読み出す",
+    "kana": "よみだす",
+    "senses": [
+      {
+        "sense_id": 273042,
+        "meaning_vi": "để đọc ra (ví dụ: dữ liệu từ máy tính hoặc quy trình); để lấy lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để đọc ra (ví dụ: dữ liệu từ máy tính hoặc quy trình)",
+          "để lấy lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đọc ra (ví dụ: dữ liệu từ máy tính hoặc quy trình); để lấy lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42648,
+    "word": "読み書き",
+    "kana": "よみかき",
+    "senses": [
+      {
+        "sense_id": 273043,
+        "meaning_vi": "đọc và viết",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc và viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc và viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42649,
+    "word": "読み上げる",
+    "kana": "よみあげる",
+    "senses": [
+      {
+        "sense_id": 273044,
+        "meaning_vi": "để đọc ra; đọc to; để gọi ra",
+        "confidence": "high",
+        "search_keywords": [
+          "để đọc ra",
+          "đọc to",
+          "để gọi ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đọc ra; đọc to; để gọi ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273045,
+        "meaning_vi": "để đọc xong; để đọc qua",
+        "confidence": "high",
+        "search_keywords": [
+          "để đọc xong",
+          "để đọc qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đọc xong; để đọc qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42650,
+    "word": "読みきる",
+    "kana": "よみきる",
+    "senses": [
+      {
+        "sense_id": 273046,
+        "meaning_vi": "để đọc xong; để đọc qua",
+        "confidence": "high",
+        "search_keywords": [
+          "để đọc xong",
+          "để đọc qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đọc xong; để đọc qua",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273047,
+        "meaning_vi": "để tìm ra ; dự đoán đầy đủ",
+        "confidence": "high",
+        "search_keywords": [
+          "để tìm ra",
+          "dự đoán đầy đủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tìm ra ; dự đoán đầy đủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42651,
+    "word": "読み損なう",
+    "kana": "よみそこなう",
+    "senses": [
+      {
+        "sense_id": 273048,
+        "meaning_vi": "đọc sai; phát âm sai",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc sai",
+          "phát âm sai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc sai; phát âm sai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42652,
+    "word": "読み直す",
+    "kana": "よみなおす",
+    "senses": [
+      {
+        "sense_id": 273049,
+        "meaning_vi": "đọc lại (một cuốn sách, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc lại (một cuốn sách, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc lại (một cuốn sách, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42653,
+    "word": "読み聞かす",
+    "kana": "よみきかす",
+    "senses": [
+      {
+        "sense_id": 273050,
+        "meaning_vi": "đọc cho (cho) ai đó",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc cho (cho) ai đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc cho (cho) ai đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42654,
+    "word": "読み返す",
+    "kana": "よみかえす",
+    "senses": [
+      {
+        "sense_id": 273051,
+        "meaning_vi": "để đọc lại; để đọc lại",
+        "confidence": "high",
+        "search_keywords": [
+          "để đọc lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đọc lại; để đọc lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42655,
+    "word": "読み方",
+    "kana": "よみかた",
+    "senses": [
+      {
+        "sense_id": 273052,
+        "meaning_vi": "cách phát âm; đọc (ví dụ: chữ kanji)",
+        "confidence": "high",
+        "search_keywords": [
+          "cách phát âm",
+          "đọc (ví dụ: chữ kanji)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách phát âm; đọc (ví dụ: chữ kanji)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273053,
+        "meaning_vi": "cách đọc (to)",
+        "confidence": "high",
+        "search_keywords": [
+          "cách đọc (to)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách đọc (to)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273054,
+        "meaning_vi": "diễn giải (ví dụ: một văn bản); đọc sách",
+        "confidence": "high",
+        "search_keywords": [
+          "diễn giải (ví dụ: một văn bản)",
+          "đọc sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "diễn giải (ví dụ: một văn bản); đọc sách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42656,
+    "word": "読み落とす",
+    "kana": "よみおとす",
+    "senses": [
+      {
+        "sense_id": 273055,
+        "meaning_vi": "bỏ qua khi đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ qua khi đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ qua khi đọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42657,
+    "word": "読む",
+    "kana": "よむ",
+    "senses": [
+      {
+        "sense_id": 273057,
+        "meaning_vi": "đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273058,
+        "meaning_vi": "đọc thuộc lòng (ví dụ: một cuốn kinh); tụng kinh",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc thuộc lòng (ví dụ: một cuốn kinh)",
+          "tụng kinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc thuộc lòng (ví dụ: một cuốn kinh); tụng kinh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273059,
+        "meaning_vi": "dự đoán; đoán ; để dự báo; để đọc (suy nghĩ của ai đó); để nhìn (ví dụ: vào trái tim của ai đó); thần thánh",
+        "confidence": "high",
+        "search_keywords": [
+          "dự đoán",
+          "đoán",
+          "để dự báo",
+          "để đọc (suy nghĩ của ai đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dự đoán; đoán ; để dự báo; để đọc (suy nghĩ của ai đó); để nhìn (ví dụ: vào trái tim của ai đó); thần thánh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273060,
+        "meaning_vi": "phát âm; để đọc (ví dụ: một chữ kanji)",
+        "confidence": "high",
+        "search_keywords": [
+          "phát âm",
+          "để đọc (ví dụ: một chữ kanji)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát âm; để đọc (ví dụ: một chữ kanji)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273061,
+        "meaning_vi": "để giải mã; để đọc (đồng hồ đo, đồ thị, âm nhạc, v.v.); để nói (thời gian)",
+        "confidence": "high",
+        "search_keywords": [
+          "để giải mã",
+          "để đọc (đồng hồ đo, đồ thị, âm nhạc, v.v.)",
+          "để nói (thời gian)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để giải mã; để đọc (đồng hồ đo, đồ thị, âm nhạc, v.v.); để nói (thời gian)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273062,
+        "meaning_vi": "đếm; để ước tính",
+        "confidence": "high",
+        "search_keywords": [
+          "đếm",
+          "để ước tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đếm; để ước tính",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 273063,
+        "meaning_vi": "đọc (một chữ kanji) với cách đọc tiếng Nhật bản địa của nó",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc (một chữ kanji) với cách đọc tiếng Nhật bản địa của nó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc (một chữ kanji) với cách đọc tiếng Nhật bản địa của nó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42658,
+    "word": "読解",
+    "kana": "どっかい",
+    "senses": [
+      {
+        "sense_id": 273064,
+        "meaning_vi": "đọc hiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc hiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc hiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42659,
+    "word": "読響",
+    "kana": "よみきょう",
+    "senses": [
+      {
+        "sense_id": 273065,
+        "meaning_vi": "Bản giao hưởng Yomiuri",
+        "confidence": "high",
+        "search_keywords": [
+          "Bản giao hưởng Yomiuri"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bản giao hưởng Yomiuri",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42660,
+    "word": "読経",
+    "kana": "どきょう",
+    "senses": [
+      {
+        "sense_id": 273066,
+        "meaning_vi": "tụng kinh",
+        "confidence": "high",
+        "search_keywords": [
+          "tụng kinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tụng kinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42661,
+    "word": "読者",
+    "kana": "どくしゃ",
+    "senses": [
+      {
+        "sense_id": 273067,
+        "meaning_vi": "người đọc",
+        "confidence": "high",
+        "search_keywords": [
+          "người đọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42662,
+    "word": "読者層",
+    "kana": "どくしゃそう",
+    "senses": [
+      {
+        "sense_id": 273068,
+        "meaning_vi": "độc giả; khán giả mục tiêu (của một tạp chí)",
+        "confidence": "high",
+        "search_keywords": [
+          "độc giả",
+          "khán giả mục tiêu (của một tạp chí)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độc giả; khán giả mục tiêu (của một tạp chí)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 42663,
+    "word": "読書",
+    "kana": "どくしょ",
+    "senses": [
+      {
+        "sense_id": 273069,
+        "meaning_vi": "đọc (sách)",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc (sách)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc (sách)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

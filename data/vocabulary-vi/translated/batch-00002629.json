@@ -1,0 +1,535 @@
+[
+  {
+    "vocabulary_id": 67829,
+    "word": "門戸開放政策",
+    "kana": "もんこかいほうせいさく",
+    "senses": [
+      {
+        "sense_id": 305633,
+        "meaning_vi": "chính sách mở cửa",
+        "confidence": "high",
+        "search_keywords": [
+          "chính sách mở cửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính sách mở cửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67830,
+    "word": "門付け",
+    "kana": "かどづけ",
+    "senses": [
+      {
+        "sense_id": 305634,
+        "meaning_vi": "giải trí tận nhà; người giải trí đến tận nhà; nhạc sĩ đi dạo; nhạc sĩ đường phố",
+        "confidence": "high",
+        "search_keywords": [
+          "giải trí tận nhà",
+          "người giải trí đến tận nhà",
+          "nhạc sĩ đi dạo",
+          "nhạc sĩ đường phố"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải trí tận nhà; người giải trí đến tận nhà; nhạc sĩ đi dạo; nhạc sĩ đường phố",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67831,
+    "word": "門外",
+    "kana": "もんがい",
+    "senses": [
+      {
+        "sense_id": 305635,
+        "meaning_vi": "bên ngoài cổng; ngoài lĩnh vực chuyên môn của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "bên ngoài cổng",
+          "ngoài lĩnh vực chuyên môn của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bên ngoài cổng; ngoài lĩnh vực chuyên môn của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67832,
+    "word": "門灯",
+    "kana": "もんとう",
+    "senses": [
+      {
+        "sense_id": 305636,
+        "meaning_vi": "đèn cổng",
+        "confidence": "high",
+        "search_keywords": [
+          "đèn cổng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đèn cổng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67833,
+    "word": "門並み",
+    "kana": "かどなみ",
+    "senses": [
+      {
+        "sense_id": 305637,
+        "meaning_vi": "dãy nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "dãy nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dãy nhà",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 305638,
+        "meaning_vi": "từng ngôi nhà; mọi nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "từng ngôi nhà",
+          "mọi nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từng ngôi nhà; mọi nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67834,
+    "word": "門前",
+    "kana": "もんぜん",
+    "senses": [
+      {
+        "sense_id": 305639,
+        "meaning_vi": "trước cổng; trước cổng",
+        "confidence": "high",
+        "search_keywords": [
+          "trước cổng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trước cổng; trước cổng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67835,
+    "word": "門前払い",
+    "kana": "もんぜんばらい",
+    "senses": [
+      {
+        "sense_id": 305640,
+        "meaning_vi": "đuổi ai đó đi (ở cửa trước); từ chối một vị khách; đóng cửa vào mặt ai đó; từ chối nhập học",
+        "confidence": "high",
+        "search_keywords": [
+          "đuổi ai đó đi (ở cửa trước)",
+          "từ chối một vị khách",
+          "đóng cửa vào mặt ai đó",
+          "từ chối nhập học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đuổi ai đó đi (ở cửa trước); từ chối một vị khách; đóng cửa vào mặt ai đó; từ chối nhập học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 305641,
+        "meaning_vi": "từ chối mà không cân nhắc; phủ nhận mà không cần điều tra đáng kể",
+        "confidence": "high",
+        "search_keywords": [
+          "từ chối mà không cân nhắc",
+          "phủ nhận mà không cần điều tra đáng kể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ chối mà không cân nhắc; phủ nhận mà không cần điều tra đáng kể",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 305642,
+        "meaning_vi": "bị đuổi khỏi cổng văn phòng quan tòa (hình phạt nhẹ nhất thời Edo)",
+        "confidence": "high",
+        "search_keywords": [
+          "bị đuổi khỏi cổng văn phòng quan tòa (hình phạt nhẹ nhất thời Edo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị đuổi khỏi cổng văn phòng quan tòa (hình phạt nhẹ nhất thời Edo)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67836,
+    "word": "門院",
+    "kana": "もんいん",
+    "senses": [
+      {
+        "sense_id": 305643,
+        "meaning_vi": "thái hậu",
+        "confidence": "high",
+        "search_keywords": [
+          "thái hậu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thái hậu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67837,
+    "word": "門構え",
+    "kana": "もんがまえ",
+    "senses": [
+      {
+        "sense_id": 305644,
+        "meaning_vi": "cổng (của một tài sản); (theo) kiểu cổng; trang bị cổng (nhà, cửa hàng, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "cổng (của một tài sản)",
+          "(theo) kiểu cổng",
+          "trang bị cổng (nhà, cửa hàng, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cổng (của một tài sản); (theo) kiểu cổng; trang bị cổng (nhà, cửa hàng, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 305645,
+        "meaning_vi": "kanji \"cổng\" gốc (căn 169)",
+        "confidence": "high",
+        "search_keywords": [
+          "kanji \"cổng\" gốc (căn 169)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kanji \"cổng\" gốc (căn 169)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67838,
+    "word": "門衛",
+    "kana": "もんえい",
+    "senses": [
+      {
+        "sense_id": 305646,
+        "meaning_vi": "người gác cổng; người gác cửa; người khuân vác",
+        "confidence": "high",
+        "search_keywords": [
+          "người gác cổng",
+          "người gác cửa",
+          "người khuân vác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người gác cổng; người gác cửa; người khuân vác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67839,
+    "word": "門鑑",
+    "kana": "もんかん",
+    "senses": [
+      {
+        "sense_id": 305647,
+        "meaning_vi": "một tấm thẻ cho phép một người đi qua cổng",
+        "confidence": "high",
+        "search_keywords": [
+          "một tấm thẻ cho phép một người đi qua cổng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một tấm thẻ cho phép một người đi qua cổng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67840,
+    "word": "美丈夫",
+    "kana": "びじょうふ",
+    "senses": [
+      {
+        "sense_id": 305648,
+        "meaning_vi": "người đàn ông đẹp trai; hình dáng đẹp của một người đàn ông",
+        "confidence": "high",
+        "search_keywords": [
+          "người đàn ông đẹp trai",
+          "hình dáng đẹp của một người đàn ông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người đàn ông đẹp trai; hình dáng đẹp của một người đàn ông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67841,
+    "word": "美女桜",
+    "kana": "びじょざくら",
+    "senses": [
+      {
+        "sense_id": 305649,
+        "meaning_vi": "cỏ roi ngựa",
+        "confidence": "high",
+        "search_keywords": [
+          "cỏ roi ngựa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cỏ roi ngựa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67842,
+    "word": "美化運動",
+    "kana": "びかうんどう",
+    "senses": [
+      {
+        "sense_id": 305650,
+        "meaning_vi": "chiến dịch dọn dẹp; lái xe làm đẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến dịch dọn dẹp",
+          "lái xe làm đẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến dịch dọn dẹp; lái xe làm đẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67843,
+    "word": "美文",
+    "kana": "びぶん",
+    "senses": [
+      {
+        "sense_id": 305651,
+        "meaning_vi": "văn xuôi hoa mỹ",
+        "confidence": "high",
+        "search_keywords": [
+          "văn xuôi hoa mỹ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "văn xuôi hoa mỹ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67844,
+    "word": "美文調",
+    "kana": "びぶんちょう",
+    "senses": [
+      {
+        "sense_id": 305652,
+        "meaning_vi": "một phong cách trang trí công phu",
+        "confidence": "high",
+        "search_keywords": [
+          "một phong cách trang trí công phu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một phong cách trang trí công phu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67845,
+    "word": "美本",
+    "kana": "びほん",
+    "senses": [
+      {
+        "sense_id": 305653,
+        "meaning_vi": "cuốn sách được đóng bìa hấp dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "cuốn sách được đóng bìa hấp dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuốn sách được đóng bìa hấp dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67846,
+    "word": "美田",
+    "kana": "びでん",
+    "senses": [
+      {
+        "sense_id": 305654,
+        "meaning_vi": "cánh đồng màu mỡ, năng suất",
+        "confidence": "high",
+        "search_keywords": [
+          "cánh đồng màu mỡ, năng suất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cánh đồng màu mỡ, năng suất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67847,
+    "word": "美妓",
+    "kana": "びぎ",
+    "senses": [
+      {
+        "sense_id": 305655,
+        "meaning_vi": "maiko hay geisha xinh đẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "maiko hay geisha xinh đẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "maiko hay geisha xinh đẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67848,
+    "word": "美形",
+    "kana": "びけい",
+    "senses": [
+      {
+        "sense_id": 305656,
+        "meaning_vi": "khuôn mặt xinh đẹp; ngoại hình đẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "khuôn mặt xinh đẹp",
+          "ngoại hình đẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuôn mặt xinh đẹp; ngoại hình đẹp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 305657,
+        "meaning_vi": "sắc đẹp; xinh đẹp; người đàn ông đẹp trai",
+        "confidence": "high",
+        "search_keywords": [
+          "sắc đẹp",
+          "xinh đẹp",
+          "người đàn ông đẹp trai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắc đẹp; xinh đẹp; người đàn ông đẹp trai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -13,10 +13,16 @@ import {
 
 import styles from "./TopSearchBar.module.css"
 
+import dynamic from "next/dynamic"
+
 import SearchBar from "@/features/dictionary/search/components/SearchBar"
 import SearchHubDropdown from "@/features/dictionary/search/components/SearchHubDropdown"
 import VoiceSearchModal from "@/features/dictionary/search/components/VoiceSearchModal"
-import ImageScanModal from "@/features/dictionary/image-scan/components/ImageScanModal"
+
+const ImageScanModal = dynamic(
+    () => import("@/features/dictionary/image-scan/components/ImageScanModal"),
+    { ssr: false }
+)
 
 import useSearchHistory from "@/features/user/search-history/hooks/useSearchHistory"
 import useSearchHub from "@/features/dictionary/search/hooks/useSearchHub"

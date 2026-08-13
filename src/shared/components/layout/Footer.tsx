@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className={styles.footerTop}>
                     <div>
                         <h2 className={styles.footerLogo}>
-                            Japanese Dictionary
+                            Yomi
                         </h2>
 
                         <p className={styles.footerDescription}>
@@ -67,7 +67,7 @@ export default function Footer() {
                 </div>
 
                 <div className={styles.footerBottom}>
-                    © 2026 Japanese Dictionary
+                    © 2026 Yomi
                 </div>
 
             </div>

@@ -1,0 +1,448 @@
+[
+  {
+    "vocabulary_id": 125559,
+    "word": "転送構文名",
+    "kana": "てんそうこうぶんめい",
+    "senses": [
+      {
+        "sense_id": 369201,
+        "meaning_vi": "tên cú pháp chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "tên cú pháp chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên cú pháp chuyển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125560,
+    "word": "転送時間",
+    "kana": "てんそうじかん",
+    "senses": [
+      {
+        "sense_id": 369202,
+        "meaning_vi": "thời gian chuyển giao; thời gian truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian chuyển giao",
+          "thời gian truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian chuyển giao; thời gian truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125561,
+    "word": "転送処理",
+    "kana": "てんそうしょり",
+    "senses": [
+      {
+        "sense_id": 369203,
+        "meaning_vi": "sự truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "sự truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125562,
+    "word": "転送穿孔翻訳機",
+    "kana": "てんそうせんこうほんやくき",
+    "senses": [
+      {
+        "sense_id": 369204,
+        "meaning_vi": "chuyển phiên dịch viên",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển phiên dịch viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển phiên dịch viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125563,
+    "word": "転置",
+    "kana": "てんち",
+    "senses": [
+      {
+        "sense_id": 369205,
+        "meaning_vi": "chuyển vị",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125564,
+    "word": "点オクテット",
+    "kana": "てんオクテット",
+    "senses": [
+      {
+        "sense_id": 369206,
+        "meaning_vi": "octet di động",
+        "confidence": "high",
+        "search_keywords": [
+          "octet di động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "octet di động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125565,
+    "word": "点列入力装置",
+    "kana": "てんれつにゅうりょくそうち",
+    "senses": [
+      {
+        "sense_id": 369207,
+        "meaning_vi": "thiết bị đột quỵ",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đột quỵ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đột quỵ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125566,
+    "word": "伝送スピード",
+    "kana": "でんそうスピード",
+    "senses": [
+      {
+        "sense_id": 369208,
+        "meaning_vi": "tốc độ truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125567,
+    "word": "伝送パス",
+    "kana": "でんそうパス",
+    "senses": [
+      {
+        "sense_id": 369209,
+        "meaning_vi": "đường truyền",
+        "confidence": "high",
+        "search_keywords": [
+          "đường truyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường truyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125568,
+    "word": "伝送経路遅延",
+    "kana": "でんそうけいろちえん",
+    "senses": [
+      {
+        "sense_id": 369210,
+        "meaning_vi": "độ trễ đường truyền; thời gian lan truyền một chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "độ trễ đường truyền",
+          "thời gian lan truyền một chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ trễ đường truyền; thời gian lan truyền một chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125569,
+    "word": "伝送故障",
+    "kana": "でんそうこしょう",
+    "senses": [
+      {
+        "sense_id": 369211,
+        "meaning_vi": "lỗi truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125570,
+    "word": "伝送制御プロトコル",
+    "kana": "でんそうせいぎょプロトコル",
+    "senses": [
+      {
+        "sense_id": 369212,
+        "meaning_vi": "Giao thức điều khiển truyền dẫn; TCP",
+        "confidence": "high",
+        "search_keywords": [
+          "Giao thức điều khiển truyền dẫn",
+          "TCP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Giao thức điều khiển truyền dẫn; TCP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125571,
+    "word": "伝送制御文字",
+    "kana": "でんそうせいぎょもじ",
+    "senses": [
+      {
+        "sense_id": 369213,
+        "meaning_vi": "ký tự điều khiển truyền",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự điều khiển truyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự điều khiển truyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125572,
+    "word": "伝送損失",
+    "kana": "でんそうそんしつ",
+    "senses": [
+      {
+        "sense_id": 369214,
+        "meaning_vi": "mất truyền",
+        "confidence": "high",
+        "search_keywords": [
+          "mất truyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất truyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125573,
+    "word": "伝送遅延",
+    "kana": "でんそうちえん",
+    "senses": [
+      {
+        "sense_id": 369215,
+        "meaning_vi": "độ trễ truyền",
+        "confidence": "high",
+        "search_keywords": [
+          "độ trễ truyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ trễ truyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125574,
+    "word": "伝送遅延変動",
+    "kana": "でんそうちえんへんどう",
+    "senses": [
+      {
+        "sense_id": 369216,
+        "meaning_vi": "biến đổi độ trễ truyền",
+        "confidence": "high",
+        "search_keywords": [
+          "biến đổi độ trễ truyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến đổi độ trễ truyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125575,
+    "word": "伝送品質",
+    "kana": "でんそうひんしつ",
+    "senses": [
+      {
+        "sense_id": 369217,
+        "meaning_vi": "chất lượng truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "chất lượng truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất lượng truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125576,
+    "word": "伝送路長",
+    "kana": "でんそうろちょう",
+    "senses": [
+      {
+        "sense_id": 369218,
+        "meaning_vi": "độ dài liên kết",
+        "confidence": "high",
+        "search_keywords": [
+          "độ dài liên kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ dài liên kết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125577,
+    "word": "伝達コスト",
+    "kana": "てんたつコスト",
+    "senses": [
+      {
+        "sense_id": 369219,
+        "meaning_vi": "chi phí truyền tải",
+        "confidence": "high",
+        "search_keywords": [
+          "chi phí truyền tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi phí truyền tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125578,
+    "word": "伝達情報量",
+    "kana": "でんたつじょうほうりょう",
+    "senses": [
+      {
+        "sense_id": 369220,
+        "meaning_vi": "thông tin chuyển tải (nội dung); thông tin được chuyển giao; thông tin được truyền đi; thông tin lẫn nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin chuyển tải (nội dung)",
+          "thông tin được chuyển giao",
+          "thông tin được truyền đi",
+          "thông tin lẫn nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin chuyển tải (nội dung); thông tin được chuyển giao; thông tin được truyền đi; thông tin lẫn nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

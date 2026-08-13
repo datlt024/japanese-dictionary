@@ -1,0 +1,535 @@
+[
+  {
+    "vocabulary_id": 15475,
+    "word": "運筆",
+    "kana": "うんぴつ",
+    "senses": [
+      {
+        "sense_id": 236739,
+        "meaning_vi": "nét cọ; cách sử dụng bàn chải; sử dụng bút; sự viết chữ",
+        "confidence": "high",
+        "search_keywords": [
+          "nét cọ",
+          "cách sử dụng bàn chải",
+          "sử dụng bút",
+          "sự viết chữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nét cọ; cách sử dụng bàn chải; sử dụng bút; sự viết chữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15476,
+    "word": "運命",
+    "kana": "うんめい",
+    "senses": [
+      {
+        "sense_id": 236740,
+        "meaning_vi": "định mệnh; định mệnh; rất nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "định mệnh",
+          "rất nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định mệnh; định mệnh; rất nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15477,
+    "word": "運命論",
+    "kana": "うんめいろん",
+    "senses": [
+      {
+        "sense_id": 236741,
+        "meaning_vi": "thuyết định mệnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thuyết định mệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuyết định mệnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15478,
+    "word": "運輸",
+    "kana": "うんゆ",
+    "senses": [
+      {
+        "sense_id": 236742,
+        "meaning_vi": "vận chuyển",
+        "confidence": "high",
+        "search_keywords": [
+          "vận chuyển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vận chuyển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15479,
+    "word": "運輸省",
+    "kana": "うんゆしょう",
+    "senses": [
+      {
+        "sense_id": 236743,
+        "meaning_vi": "Bộ Giao thông vận tải",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ Giao thông vận tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ Giao thông vận tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15480,
+    "word": "運輸相",
+    "kana": "うんゆしょう",
+    "senses": [
+      {
+        "sense_id": 236744,
+        "meaning_vi": "Bộ trưởng Giao thông vận tải",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Giao thông vận tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Giao thông vận tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15481,
+    "word": "運輸大臣",
+    "kana": "うんゆだいじん",
+    "senses": [
+      {
+        "sense_id": 236745,
+        "meaning_vi": "Bộ trưởng Bộ Giao thông vận tải",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ trưởng Bộ Giao thông vận tải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ trưởng Bộ Giao thông vận tải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15482,
+    "word": "運用",
+    "kana": "うんよう",
+    "senses": [
+      {
+        "sense_id": 236746,
+        "meaning_vi": "tận dụng; ứng dụng; sử dụng thực tế; quản lý hiệu quả (ví dụ: quỹ)",
+        "confidence": "high",
+        "search_keywords": [
+          "tận dụng",
+          "ứng dụng",
+          "sử dụng thực tế",
+          "quản lý hiệu quả (ví dụ: quỹ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tận dụng; ứng dụng; sử dụng thực tế; quản lý hiệu quả (ví dụ: quỹ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236747,
+        "meaning_vi": "hoạt động (đặc biệt là một chiếc thuyền); chỉ đạo",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động (đặc biệt là một chiếc thuyền)",
+          "chỉ đạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động (đặc biệt là một chiếc thuyền); chỉ đạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15483,
+    "word": "雲",
+    "kana": "くも",
+    "senses": [
+      {
+        "sense_id": 236748,
+        "meaning_vi": "đám mây",
+        "confidence": "high",
+        "search_keywords": [
+          "đám mây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đám mây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15484,
+    "word": "雲隠れ",
+    "kana": "くもがくれ",
+    "senses": [
+      {
+        "sense_id": 236749,
+        "meaning_vi": "biến mất sau những đám mây (ví dụ như mặt trăng)",
+        "confidence": "high",
+        "search_keywords": [
+          "biến mất sau những đám mây (ví dụ như mặt trăng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến mất sau những đám mây (ví dụ như mặt trăng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236750,
+        "meaning_vi": "biến mất; đột nhiên biến mất; đi trốn",
+        "confidence": "high",
+        "search_keywords": [
+          "biến mất",
+          "đột nhiên biến mất",
+          "đi trốn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biến mất; đột nhiên biến mất; đi trốn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15485,
+    "word": "雲影",
+    "kana": "うんえい",
+    "senses": [
+      {
+        "sense_id": 236751,
+        "meaning_vi": "hình đám mây",
+        "confidence": "high",
+        "search_keywords": [
+          "hình đám mây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình đám mây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15486,
+    "word": "雲海",
+    "kana": "うんかい",
+    "senses": [
+      {
+        "sense_id": 236752,
+        "meaning_vi": "biển mây",
+        "confidence": "high",
+        "search_keywords": [
+          "biển mây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biển mây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15487,
+    "word": "雲間",
+    "kana": "くもま",
+    "senses": [
+      {
+        "sense_id": 236753,
+        "meaning_vi": "vết nứt giữa các đám mây",
+        "confidence": "high",
+        "search_keywords": [
+          "vết nứt giữa các đám mây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vết nứt giữa các đám mây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15488,
+    "word": "雲形",
+    "kana": "うんけい",
+    "senses": [
+      {
+        "sense_id": 236754,
+        "meaning_vi": "sự hình thành đám mây",
+        "confidence": "high",
+        "search_keywords": [
+          "sự hình thành đám mây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự hình thành đám mây",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236755,
+        "meaning_vi": "hình đám mây",
+        "confidence": "high",
+        "search_keywords": [
+          "hình đám mây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình đám mây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15489,
+    "word": "雲行き",
+    "kana": "くもゆき",
+    "senses": [
+      {
+        "sense_id": 236756,
+        "meaning_vi": "thời tiết; nhìn bầu trời",
+        "confidence": "high",
+        "search_keywords": [
+          "thời tiết",
+          "nhìn bầu trời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời tiết; nhìn bầu trời",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236757,
+        "meaning_vi": "tình huống; chuyển biến của công việc; dấu hiệu; hướng gió thổi",
+        "confidence": "high",
+        "search_keywords": [
+          "tình huống",
+          "chuyển biến của công việc",
+          "dấu hiệu",
+          "hướng gió thổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình huống; chuyển biến của công việc; dấu hiệu; hướng gió thổi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15490,
+    "word": "雲高",
+    "kana": "うんこう",
+    "senses": [
+      {
+        "sense_id": 236758,
+        "meaning_vi": "độ cao của mây",
+        "confidence": "high",
+        "search_keywords": [
+          "độ cao của mây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độ cao của mây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15491,
+    "word": "雲合い",
+    "kana": "くもあい",
+    "senses": [
+      {
+        "sense_id": 236759,
+        "meaning_vi": "nhìn bầu trời",
+        "confidence": "high",
+        "search_keywords": [
+          "nhìn bầu trời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhìn bầu trời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15492,
+    "word": "雲散霧消",
+    "kana": "うんさんむしょう",
+    "senses": [
+      {
+        "sense_id": 236760,
+        "meaning_vi": "tan biến như sương mù",
+        "confidence": "high",
+        "search_keywords": [
+          "tan biến như sương mù"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tan biến như sương mù",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15493,
+    "word": "雲助",
+    "kana": "くもすけ",
+    "senses": [
+      {
+        "sense_id": 236761,
+        "meaning_vi": "Người khiêng kiệu côn đồ (thời Edo)",
+        "confidence": "high",
+        "search_keywords": [
+          "Người khiêng kiệu côn đồ (thời Edo)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Người khiêng kiệu côn đồ (thời Edo)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 236762,
+        "meaning_vi": "du côn; lưu manh; tên vô lại; kẻ bóc lột",
+        "confidence": "high",
+        "search_keywords": [
+          "du côn",
+          "lưu manh",
+          "tên vô lại",
+          "kẻ bóc lột"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "du côn; lưu manh; tên vô lại; kẻ bóc lột",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 15494,
+    "word": "雲上",
+    "kana": "うんじょう",
+    "senses": [
+      {
+        "sense_id": 236763,
+        "meaning_vi": "phía trên những đám mây; thiên đường",
+        "confidence": "high",
+        "search_keywords": [
+          "phía trên những đám mây",
+          "thiên đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phía trên những đám mây; thiên đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -11,12 +11,12 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-
-    // thêm dòng này
     "public/**",
-
-    // thêm luôn nếu muốn
     "node_modules/**",
+    "data/**",
+    "data-import/**",
+    "scripts/**",
+    "supabase/**",
   ]),
 ])
 

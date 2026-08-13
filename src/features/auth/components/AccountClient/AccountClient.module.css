@@ -1,0 +1,255 @@
+.page {
+    padding: 32px 0 64px;
+}
+
+.pageHeader {
+    margin-bottom: 32px;
+}
+
+.pageTitle {
+    margin: 0 0 6px;
+
+    color: var(--color-text-primary);
+
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.pageDesc {
+    margin: 0;
+
+    color: var(--color-text-secondary);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+/* ── Sections ── */
+.sections {
+    display: grid;
+    gap: 20px;
+}
+
+.section {
+    border: 1px solid var(--color-border);
+    border-radius: 18px;
+
+    background: var(--color-surface);
+
+    overflow: hidden;
+}
+
+.sectionHead {
+    padding: 22px 24px 18px;
+
+    border-bottom: 1px solid var(--color-surface-muted);
+}
+
+.sectionTitle {
+    margin: 0 0 4px;
+
+    color: var(--color-text-primary);
+
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.sectionDesc {
+    margin: 0;
+
+    color: var(--color-text-secondary);
+
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.55;
+}
+
+/* ── Form ── */
+.form {
+    padding: 20px 24px 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.avatarRow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    padding-bottom: 4px;
+}
+
+.avatarCircle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+
+    border-radius: 999px;
+
+    background: var(--color-primary);
+    color: var(--color-surface);
+
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.avatarHint {
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.fieldRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.label {
+    color: var(--color-text-primary);
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.input,
+.select {
+    height: 42px;
+    padding: 0 14px;
+    box-sizing: border-box;
+
+    border: 1.5px solid var(--color-border);
+    border-radius: 12px;
+
+    background: var(--color-surface);
+    color: var(--color-text-primary);
+
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+
+    transition: border-color .15s, box-shadow .15s;
+}
+
+.input:focus,
+.select:focus {
+    outline: none;
+    border-color: var(--color-primary-soft);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .08);
+}
+
+.input:disabled {
+    background: var(--color-surface-muted);
+    color: var(--color-text-muted);
+    cursor: not-allowed;
+}
+
+.inputReadonly {
+    background: var(--color-surface-muted);
+    color: var(--color-text-secondary);
+    cursor: default;
+}
+
+.fieldHint {
+    color: var(--color-text-muted);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* ── Status ── */
+.statusOk {
+    margin: 0;
+    padding: 10px 14px;
+
+    border-radius: 10px;
+
+    background: var(--color-success-soft);
+    color: var(--color-success);
+
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.statusErr {
+    margin: 0;
+    padding: 10px 14px;
+
+    border-radius: 10px;
+
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
+
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* ── Footer ── */
+.formFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.saveButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    padding: 0 20px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: var(--color-primary);
+    color: var(--color-surface);
+
+    font-size: 14px;
+    font-weight: 800;
+    font-family: inherit;
+
+    cursor: pointer;
+    transition: background .15s, opacity .15s;
+}
+
+.saveButton:hover:not(:disabled) {
+    background: var(--color-primary-hover);
+}
+
+.saveButton:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+    .fieldRow {
+        grid-template-columns: 1fr;
+    }
+
+    .form {
+        padding: 16px 18px 20px;
+    }
+
+    .sectionHead {
+        padding: 18px 18px 14px;
+    }
+}

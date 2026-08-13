@@ -1,435 +1,732 @@
 [
-{
-"vocabulary_id": 561,
-"word": "せこい",
-"kana": "せこい",
-"senses": [
-{
-"sense_id": 218160,
-"meaning_vi": "keo kiệt",
-"confidence": "high",
-"search_keywords": [
-"keo kiệt",
-"bủn xỉn",
-"nhỏ nhen",
-"xảo quyệt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "keo kiệt; nhỏ nhen; tính toán chi li; xảo quyệt",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218161,
-"meaning_vi": "kém cỏi",
-"confidence": "low",
-"search_keywords": [
-"kém cỏi",
-"dở"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kém; không có tay nghề (nghĩa cũ)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 562,
-"word": "せざるを得ない",
-"kana": "せざるをえない",
-"senses": [
-{
-"sense_id": 218162,
-"meaning_vi": "buộc phải",
-"confidence": "high",
-"search_keywords": [
-"buộc phải",
-"đành phải",
-"không thể không"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không thể không làm; buộc phải làm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 563,
-"word": "せしめる",
-"kana": "せしめる",
-"senses": [
-{
-"sense_id": 218163,
-"meaning_vi": "chiếm đoạt",
-"confidence": "high",
-"search_keywords": [
-"chiếm đoạt",
-"lừa lấy",
-"móc được"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lừa để lấy được; chiếm đoạt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 564,
-"word": "せず",
-"kana": "せず",
-"senses": [
-{
-"sense_id": 218164,
-"meaning_vi": "không làm",
-"confidence": "high",
-"search_keywords": [
-"không làm",
-"mà không"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không làm; mà không làm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 565,
-"word": "せずに",
-"kana": "せずに",
-"senses": [
-{
-"sense_id": 218165,
-"meaning_vi": "không làm mà",
-"confidence": "high",
-"search_keywords": [
-"không làm",
-"thay vì làm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không làm; thay vì làm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 566,
-"word": "せっかち",
-"kana": "せっかち",
-"senses": [
-{
-"sense_id": 218166,
-"meaning_vi": "nóng vội",
-"confidence": "high",
-"search_keywords": [
-"nóng vội",
-"thiếu kiên nhẫn",
-"vội vàng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nóng tính; thiếu kiên nhẫn; hấp tấp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 567,
-"word": "せびる",
-"kana": "せびる",
-"senses": [
-{
-"sense_id": 218167,
-"meaning_vi": "vòi vĩnh",
-"confidence": "high",
-"search_keywords": [
-"vòi vĩnh",
-"nài nỉ",
-"tống tiền"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đòi tiền dai dẳng; vòi vĩnh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 568,
-"word": "せめて",
-"kana": "せめて",
-"senses": [
-{
-"sense_id": 218168,
-"meaning_vi": "ít nhất",
-"confidence": "high",
-"search_keywords": [
-"ít nhất",
-"dù chỉ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ít nhất; dù chỉ là",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 569,
-"word": "其奴",
-"kana": "そいつ",
-"senses": [
-{
-"sense_id": 218169,
-"meaning_vi": "gã đó",
-"confidence": "high",
-"search_keywords": [
-"gã đó",
-"tên đó",
-"người đó"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gã đó; tên đó (sắc thái suồng sã hoặc coi thường)",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218170,
-"meaning_vi": "cái đó",
-"confidence": "high",
-"search_keywords": [
-"cái đó",
-"thứ đó"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cái đó; thứ đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 570,
-"word": "そう",
-"kana": "そう",
-"senses": [
-{
-"sense_id": 218171,
-"meaning_vi": "có vẻ",
-"confidence": "high",
-"search_keywords": [
-"có vẻ",
-"trông như"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "có vẻ như; trông có vẻ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 571,
-"word": "そうかと言って",
-"kana": "そうかといって",
-"senses": [
-{
-"sense_id": 218172,
-"meaning_vi": "nhưng mà",
-"confidence": "high",
-"search_keywords": [
-"nhưng mà",
-"tuy vậy",
-"thế nhưng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tuy vậy; thế nhưng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 572,
-"word": "そうすると",
-"kana": "そうすると",
-"senses": [
-{
-"sense_id": 218173,
-"meaning_vi": "sau đó",
-"confidence": "high",
-"search_keywords": [
-"sau đó",
-"nếu làm vậy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sau khi làm vậy; nếu làm như thế",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 573,
-"word": "然う然う",
-"kana": "そうそう",
-"senses": [
-{
-"sense_id": 218174,
-"meaning_vi": "không hẳn",
-"confidence": "medium",
-"search_keywords": [
-"không hẳn",
-"không đến mức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không đến mức như vậy (đi với phủ định)",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218175,
-"meaning_vi": "à đúng rồi",
-"confidence": "high",
-"search_keywords": [
-"à đúng rồi",
-"nhớ ra rồi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "à đúng rồi; nhớ ra rồi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218176,
-"meaning_vi": "đúng vậy",
-"confidence": "high",
-"search_keywords": [
-"đúng vậy",
-"chính xác"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đúng thế; chính xác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 574,
-"word": "そうだ",
-"kana": "そうだ",
-"senses": [
-{
-"sense_id": 218177,
-"meaning_vi": "đúng vậy",
-"confidence": "high",
-"search_keywords": [
-"đúng vậy",
-"ra là thế"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đúng vậy; ra là thế",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218178,
-"meaning_vi": "nghe nói",
-"confidence": "high",
-"search_keywords": [
-"nghe nói",
-"nghe bảo"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghe nói rằng; được cho là",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 575,
-"word": "そうでない場合は",
-"kana": "そうでないばあいは",
-"senses": [
-{
-"sense_id": 218179,
-"meaning_vi": "nếu không thì",
-"confidence": "high",
-"search_keywords": [
-"nếu không thì",
-"trường hợp ngược lại"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nếu không phải trường hợp đó",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 561,
+    "word": "せこい",
+    "kana": "せこい",
+    "senses": [
+      {
+        "sense_id": 218160,
+        "meaning_vi": "nhỏ mọn; nhỏ nhen; keo kiệt; rẻ; nghĩa là; xảo quyệt; ranh mãnh",
+        "confidence": "high",
+        "search_keywords": [
+          "nhỏ mọn",
+          "nhỏ nhen",
+          "keo kiệt",
+          "rẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhỏ mọn; nhỏ nhen; keo kiệt; rẻ; nghĩa là; xảo quyệt; ranh mãnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218161,
+        "meaning_vi": "kém (hiệu suất, v.v.); xấu; không có tay nghề",
+        "confidence": "high",
+        "search_keywords": [
+          "kém (hiệu suất, v.v.)",
+          "xấu",
+          "không có tay nghề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kém (hiệu suất, v.v.); xấu; không có tay nghề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 562,
+    "word": "せざるを得ない",
+    "kana": "せざるをえない",
+    "senses": [
+      {
+        "sense_id": 218162,
+        "meaning_vi": "không thể tránh làm; không thể không (làm); bị buộc phải làm; (cảm thấy) bắt buộc phải (làm); phải làm",
+        "confidence": "high",
+        "search_keywords": [
+          "không thể tránh làm",
+          "không thể không (làm)",
+          "bị buộc phải làm",
+          "(cảm thấy) bắt buộc phải (làm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thể tránh làm; không thể không (làm); bị buộc phải làm; (cảm thấy) bắt buộc phải (làm); phải làm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 563,
+    "word": "せしめる",
+    "kana": "せしめる",
+    "senses": [
+      {
+        "sense_id": 218163,
+        "meaning_vi": "lừa gạt (ai đó ra khỏi); để lừa đảo; lắc lư; để dỗ dành; để có được",
+        "confidence": "high",
+        "search_keywords": [
+          "lừa gạt (ai đó ra khỏi)",
+          "để lừa đảo",
+          "lắc lư",
+          "để dỗ dành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lừa gạt (ai đó ra khỏi); để lừa đảo; lắc lư; để dỗ dành; để có được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 564,
+    "word": "せず",
+    "kana": "せず",
+    "senses": [
+      {
+        "sense_id": 218164,
+        "meaning_vi": "không làm",
+        "confidence": "high",
+        "search_keywords": [
+          "không làm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không làm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 565,
+    "word": "せずに",
+    "kana": "せずに",
+    "senses": [
+      {
+        "sense_id": 218165,
+        "meaning_vi": "không có (làm); thay vì",
+        "confidence": "high",
+        "search_keywords": [
+          "không có (làm)",
+          "thay vì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không có (làm); thay vì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 566,
+    "word": "せっかち",
+    "kana": "せっかち",
+    "senses": [
+      {
+        "sense_id": 218166,
+        "meaning_vi": "vội vàng; thiếu kiên nhẫn; bồn chồn; phát ban",
+        "confidence": "high",
+        "search_keywords": [
+          "vội vàng",
+          "thiếu kiên nhẫn",
+          "bồn chồn",
+          "phát ban"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vội vàng; thiếu kiên nhẫn; bồn chồn; phát ban",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 567,
+    "word": "せびる",
+    "kana": "せびる",
+    "senses": [
+      {
+        "sense_id": 218167,
+        "meaning_vi": "đòi tiền; làm phiền; tống tiền",
+        "confidence": "high",
+        "search_keywords": [
+          "đòi tiền",
+          "làm phiền",
+          "tống tiền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đòi tiền; làm phiền; tống tiền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 568,
+    "word": "せめて",
+    "kana": "せめて",
+    "senses": [
+      {
+        "sense_id": 218168,
+        "meaning_vi": "ít nhất; nhiều nhất; (thậm chí) chỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "ít nhất",
+          "nhiều nhất",
+          "(thậm chí) chỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ít nhất; nhiều nhất; (thậm chí) chỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 569,
+    "word": "其奴",
+    "kana": "そいつ",
+    "senses": [
+      {
+        "sense_id": 218169,
+        "meaning_vi": "Anh ta; cô ấy; người đó; anh chàng đó; anh chàng đó",
+        "confidence": "high",
+        "search_keywords": [
+          "Anh ta",
+          "cô ấy",
+          "người đó",
+          "anh chàng đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Anh ta; cô ấy; người đó; anh chàng đó; anh chàng đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218170,
+        "meaning_vi": "cái đó; cái đó; thứ đó",
+        "confidence": "high",
+        "search_keywords": [
+          "cái đó",
+          "thứ đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái đó; cái đó; thứ đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 570,
+    "word": "そう",
+    "kana": "そう",
+    "senses": [
+      {
+        "sense_id": 218171,
+        "meaning_vi": "xuất hiện điều đó; có vẻ như vậy; trông giống như; có sự xuất hiện của",
+        "confidence": "high",
+        "search_keywords": [
+          "xuất hiện điều đó",
+          "có vẻ như vậy",
+          "trông giống như",
+          "có sự xuất hiện của"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xuất hiện điều đó; có vẻ như vậy; trông giống như; có sự xuất hiện của",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 571,
+    "word": "そうかと言って",
+    "kana": "そうかといって",
+    "senses": [
+      {
+        "sense_id": 218172,
+        "meaning_vi": "nhưng vẫn còn; Tuy nhiên; và chưa; tuy nhiên; vì tất cả điều đó",
+        "confidence": "high",
+        "search_keywords": [
+          "nhưng vẫn còn",
+          "Tuy nhiên",
+          "và chưa",
+          "tuy nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhưng vẫn còn; Tuy nhiên; và chưa; tuy nhiên; vì tất cả điều đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 572,
+    "word": "そうすると",
+    "kana": "そうすると",
+    "senses": [
+      {
+        "sense_id": 218173,
+        "meaning_vi": "đã làm điều đó; nếu điều đó được thực hiện; nếu nó được thực hiện theo cách đó",
+        "confidence": "high",
+        "search_keywords": [
+          "đã làm điều đó",
+          "nếu điều đó được thực hiện",
+          "nếu nó được thực hiện theo cách đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đã làm điều đó; nếu điều đó được thực hiện; nếu nó được thực hiện theo cách đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 573,
+    "word": "然う然う",
+    "kana": "そうそう",
+    "senses": [
+      {
+        "sense_id": 218174,
+        "meaning_vi": "rất nhiều; thường xuyên như vậy; quá lâu; rất nhiều; cụ thể; đặc biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "rất nhiều",
+          "thường xuyên như vậy",
+          "quá lâu",
+          "cụ thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất nhiều; thường xuyên như vậy; quá lâu; rất nhiều; cụ thể; đặc biệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218175,
+        "meaning_vi": "ồ, vâng!; thế thôi; tôi nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "ồ, vâng!",
+          "thế thôi",
+          "tôi nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ồ, vâng!; thế thôi; tôi nhớ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218176,
+        "meaning_vi": "đúng vậy; khá; thực sự",
+        "confidence": "high",
+        "search_keywords": [
+          "đúng vậy",
+          "khá",
+          "thực sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đúng vậy; khá; thực sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 574,
+    "word": "そうだ",
+    "kana": "そうだ",
+    "senses": [
+      {
+        "sense_id": 218177,
+        "meaning_vi": "đúng là như vậy; điều đó đúng; nó nhìn tôi; đó là ấn tượng của tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "đúng là như vậy",
+          "điều đó đúng",
+          "nó nhìn tôi",
+          "đó là ấn tượng của tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đúng là như vậy; điều đó đúng; nó nhìn tôi; đó là ấn tượng của tôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218178,
+        "meaning_vi": "người ta nói thế; người ta nói thế; tôi nghe thấy điều đó",
+        "confidence": "high",
+        "search_keywords": [
+          "người ta nói thế",
+          "tôi nghe thấy điều đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người ta nói thế; người ta nói thế; tôi nghe thấy điều đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 575,
+    "word": "そうでない場合は",
+    "kana": "そうでないばあいは",
+    "senses": [
+      {
+        "sense_id": 218179,
+        "meaning_vi": "nếu đây không phải là trường hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "nếu đây không phải là trường hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nếu đây không phải là trường hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 576,
+    "word": "其処",
+    "kana": "そこ",
+    "senses": [
+      {
+        "sense_id": 218180,
+        "meaning_vi": "kia (nơi tương đối gần người nghe)",
+        "confidence": "high",
+        "search_keywords": [
+          "kia (nơi tương đối gần người nghe)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kia (nơi tương đối gần người nghe)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218181,
+        "meaning_vi": "ở đó (nơi vừa được đề cập); nơi đó",
+        "confidence": "high",
+        "search_keywords": [
+          "ở đó (nơi vừa được đề cập)",
+          "nơi đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ở đó (nơi vừa được đề cập); nơi đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218182,
+        "meaning_vi": "rồi (về một sự việc nào đó vừa được nói tới); đó (về điểm vừa nêu)",
+        "confidence": "high",
+        "search_keywords": [
+          "rồi (về một sự việc nào đó vừa được nói tới)",
+          "đó (về điểm vừa nêu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rồi (về một sự việc nào đó vừa được nói tới); đó (về điểm vừa nêu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218183,
+        "meaning_vi": "bạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 577,
+    "word": "其処いら",
+    "kana": "そこいら",
+    "senses": [
+      {
+        "sense_id": 218184,
+        "meaning_vi": "quanh đó; khu vực đó",
+        "confidence": "high",
+        "search_keywords": [
+          "quanh đó",
+          "khu vực đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quanh đó; khu vực đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218185,
+        "meaning_vi": "cái đó; vấn đề đó; điểm đó",
+        "confidence": "high",
+        "search_keywords": [
+          "cái đó",
+          "vấn đề đó",
+          "điểm đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái đó; vấn đề đó; điểm đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218186,
+        "meaning_vi": "khoảng chừng đó; xấp xỉ số tiền đó; ở đó; (hoặc) vậy",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng chừng đó",
+          "xấp xỉ số tiền đó",
+          "ở đó",
+          "(hoặc) vậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng chừng đó; xấp xỉ số tiền đó; ở đó; (hoặc) vậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 578,
+    "word": "そこそこ",
+    "kana": "そこそこ",
+    "senses": [
+      {
+        "sense_id": 218187,
+        "meaning_vi": "hợp lý; công bằng; được rồi; vừa phải",
+        "confidence": "high",
+        "search_keywords": [
+          "hợp lý",
+          "công bằng",
+          "được rồi",
+          "vừa phải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hợp lý; công bằng; được rồi; vừa phải",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218188,
+        "meaning_vi": "vội vã; đang vội vàng; vừa mới hoàn thành",
+        "confidence": "high",
+        "search_keywords": [
+          "vội vã",
+          "đang vội vàng",
+          "vừa mới hoàn thành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vội vã; đang vội vàng; vừa mới hoàn thành",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218189,
+        "meaning_vi": "khoảng; Về; hoặc hơn thế",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng",
+          "Về",
+          "hoặc hơn thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng; Về; hoặc hơn thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 579,
+    "word": "其処まで",
+    "kana": "そこまで",
+    "senses": [
+      {
+        "sense_id": 218190,
+        "meaning_vi": "đến mức đó; cho đến nay; đến mức đó",
+        "confidence": "high",
+        "search_keywords": [
+          "đến mức đó",
+          "cho đến nay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến mức đó; cho đến nay; đến mức đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218191,
+        "meaning_vi": "dừng lại!; không tiến thêm một bước nào nữa!",
+        "confidence": "high",
+        "search_keywords": [
+          "dừng lại!",
+          "không tiến thêm một bước nào nữa!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dừng lại!; không tiến thêm một bước nào nữa!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 580,
+    "word": "其処ら",
+    "kana": "そこら",
+    "senses": [
+      {
+        "sense_id": 218192,
+        "meaning_vi": "quanh đó; khu vực đó",
+        "confidence": "high",
+        "search_keywords": [
+          "quanh đó",
+          "khu vực đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quanh đó; khu vực đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218193,
+        "meaning_vi": "cái đó; vấn đề đó; điểm đó",
+        "confidence": "high",
+        "search_keywords": [
+          "cái đó",
+          "vấn đề đó",
+          "điểm đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái đó; vấn đề đó; điểm đó",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218194,
+        "meaning_vi": "khoảng chừng đó; xấp xỉ số tiền đó; ở đó; (hoặc) vậy",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng chừng đó",
+          "xấp xỉ số tiền đó",
+          "ở đó",
+          "(hoặc) vậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng chừng đó; xấp xỉ số tiền đó; ở đó; (hoặc) vậy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

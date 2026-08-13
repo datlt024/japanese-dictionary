@@ -1,0 +1,571 @@
+[
+  {
+    "vocabulary_id": 37362,
+    "word": "相対売買",
+    "kana": "あいたいばいばい",
+    "senses": [
+      {
+        "sense_id": 265825,
+        "meaning_vi": "giao dịch thương lượng",
+        "confidence": "high",
+        "search_keywords": [
+          "giao dịch thương lượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao dịch thương lượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37363,
+    "word": "相対論",
+    "kana": "そうたいろん",
+    "senses": [
+      {
+        "sense_id": 265826,
+        "meaning_vi": "thuyết tương đối",
+        "confidence": "high",
+        "search_keywords": [
+          "thuyết tương đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuyết tương đối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265827,
+        "meaning_vi": "thuyết tương đối",
+        "confidence": "high",
+        "search_keywords": [
+          "thuyết tương đối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuyết tương đối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37364,
+    "word": "相談",
+    "kana": "そうだん",
+    "senses": [
+      {
+        "sense_id": 265828,
+        "meaning_vi": "tư vấn; cuộc thảo luận; thảo luận; hỏi (ai đó) lời khuyên",
+        "confidence": "high",
+        "search_keywords": [
+          "tư vấn",
+          "cuộc thảo luận",
+          "thảo luận",
+          "hỏi (ai đó) lời khuyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tư vấn; cuộc thảo luận; thảo luận; hỏi (ai đó) lời khuyên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37365,
+    "word": "相槌",
+    "kana": "あいづち",
+    "senses": [
+      {
+        "sense_id": 265829,
+        "meaning_vi": "aizuchi; kênh ngược; xen kẽ chỉ ra rằng một người đang chú ý",
+        "confidence": "high",
+        "search_keywords": [
+          "aizuchi",
+          "kênh ngược",
+          "xen kẽ chỉ ra rằng một người đang chú ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "aizuchi; kênh ngược; xen kẽ chỉ ra rằng một người đang chú ý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265830,
+        "meaning_vi": "hai người thợ rèn lần lượt đập vào một vật thể",
+        "confidence": "high",
+        "search_keywords": [
+          "hai người thợ rèn lần lượt đập vào một vật thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hai người thợ rèn lần lượt đập vào một vật thể",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37366,
+    "word": "相槌を打つ",
+    "kana": "あいづちをうつ",
+    "senses": [
+      {
+        "sense_id": 265831,
+        "meaning_vi": "sử dụng aizuchi; tới kênh ngược; đưa ra những lời cảm thán để cho thấy rằng một người đang chú ý",
+        "confidence": "high",
+        "search_keywords": [
+          "sử dụng aizuchi",
+          "tới kênh ngược",
+          "đưa ra những lời cảm thán để cho thấy rằng một người đang chú ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sử dụng aizuchi; tới kênh ngược; đưa ra những lời cảm thán để cho thấy rằng một người đang chú ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37367,
+    "word": "相当",
+    "kana": "そうとう",
+    "senses": [
+      {
+        "sense_id": 265832,
+        "meaning_vi": "tương ứng với (về ý nghĩa, chức năng, v.v.); tương đương với",
+        "confidence": "high",
+        "search_keywords": [
+          "tương ứng với (về ý nghĩa, chức năng, v.v.)",
+          "tương đương với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương ứng với (về ý nghĩa, chức năng, v.v.); tương đương với",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265833,
+        "meaning_vi": "phù hợp; thích hợp; phù hợp; tương xứng",
+        "confidence": "high",
+        "search_keywords": [
+          "phù hợp",
+          "thích hợp",
+          "tương xứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phù hợp; thích hợp; phù hợp; tương xứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265834,
+        "meaning_vi": "tương xứng với; để phù hợp với; xứng đáng với; xứng đáng với",
+        "confidence": "high",
+        "search_keywords": [
+          "tương xứng với",
+          "để phù hợp với",
+          "xứng đáng với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương xứng với; để phù hợp với; xứng đáng với; xứng đáng với",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265835,
+        "meaning_vi": "đáng kể; đáng kể",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng kể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng kể; đáng kể",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265836,
+        "meaning_vi": "đáng kể; hơn là; khá; công bằng; xinh đẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "đáng kể",
+          "hơn là",
+          "khá",
+          "công bằng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đáng kể; hơn là; khá; công bằng; xinh đẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37368,
+    "word": "相当数",
+    "kana": "そうとうすう",
+    "senses": [
+      {
+        "sense_id": 265837,
+        "meaning_vi": "một số lượng đáng kể; một con số hợp lý",
+        "confidence": "high",
+        "search_keywords": [
+          "một số lượng đáng kể",
+          "một con số hợp lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một số lượng đáng kể; một con số hợp lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37369,
+    "word": "相等しい",
+    "kana": "あいひとしい",
+    "senses": [
+      {
+        "sense_id": 265838,
+        "meaning_vi": "bằng nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "bằng nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bằng nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37370,
+    "word": "相伴う",
+    "kana": "あいともなう",
+    "senses": [
+      {
+        "sense_id": 265839,
+        "meaning_vi": "đi cùng",
+        "confidence": "high",
+        "search_keywords": [
+          "đi cùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi cùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37371,
+    "word": "相反性",
+    "kana": "そうはんせい",
+    "senses": [
+      {
+        "sense_id": 265840,
+        "meaning_vi": "tương hỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "tương hỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương hỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37372,
+    "word": "相反定理",
+    "kana": "そうはんていり",
+    "senses": [
+      {
+        "sense_id": 265841,
+        "meaning_vi": "định lý tương hỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "định lý tương hỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định lý tương hỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37373,
+    "word": "相反的",
+    "kana": "そうはんてき",
+    "senses": [
+      {
+        "sense_id": 265842,
+        "meaning_vi": "tương hỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "tương hỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương hỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37374,
+    "word": "相変わらず",
+    "kana": "あいかわらず",
+    "senses": [
+      {
+        "sense_id": 265843,
+        "meaning_vi": "như thường lệ; như mọi khi; như trước đây; như mọi khi; vẫn còn",
+        "confidence": "high",
+        "search_keywords": [
+          "như thường lệ",
+          "như mọi khi",
+          "như trước đây",
+          "vẫn còn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "như thường lệ; như mọi khi; như trước đây; như mọi khi; vẫn còn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37375,
+    "word": "相補",
+    "kana": "そうほ",
+    "senses": [
+      {
+        "sense_id": 265844,
+        "meaning_vi": "bổ sung",
+        "confidence": "high",
+        "search_keywords": [
+          "bổ sung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bổ sung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37376,
+    "word": "相補性",
+    "kana": "そうほせい",
+    "senses": [
+      {
+        "sense_id": 265845,
+        "meaning_vi": "sự bổ sung; sự bổ sung",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bổ sung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bổ sung; sự bổ sung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37377,
+    "word": "相補性原理",
+    "kana": "そうほせいげんり",
+    "senses": [
+      {
+        "sense_id": 265846,
+        "meaning_vi": "sự bổ sung",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bổ sung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bổ sung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37378,
+    "word": "相棒",
+    "kana": "あいぼう",
+    "senses": [
+      {
+        "sense_id": 265847,
+        "meaning_vi": "cộng sự; bạn thân; đồng lõa",
+        "confidence": "high",
+        "search_keywords": [
+          "cộng sự",
+          "bạn thân",
+          "đồng lõa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cộng sự; bạn thân; đồng lõa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37379,
+    "word": "相撲",
+    "kana": "すもう",
+    "senses": [
+      {
+        "sense_id": 265848,
+        "meaning_vi": "sumo (đấu vật)",
+        "confidence": "high",
+        "search_keywords": [
+          "sumo (đấu vật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sumo (đấu vật)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 265849,
+        "meaning_vi": "đô vật sumo; rikishi",
+        "confidence": "high",
+        "search_keywords": [
+          "đô vật sumo",
+          "rikishi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đô vật sumo; rikishi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37380,
+    "word": "相撲にならない",
+    "kana": "すもうにならない",
+    "senses": [
+      {
+        "sense_id": 265850,
+        "meaning_vi": "không phù hợp với; không thể cầm một ngọn nến",
+        "confidence": "high",
+        "search_keywords": [
+          "không phù hợp với",
+          "không thể cầm một ngọn nến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không phù hợp với; không thể cầm một ngọn nến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37381,
+    "word": "相撲取り",
+    "kana": "すもうとり",
+    "senses": [
+      {
+        "sense_id": 265851,
+        "meaning_vi": "đô vật sumo; rikishi",
+        "confidence": "high",
+        "search_keywords": [
+          "đô vật sumo",
+          "rikishi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đô vật sumo; rikishi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

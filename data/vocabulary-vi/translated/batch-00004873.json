@@ -1,0 +1,595 @@
+[
+  {
+    "vocabulary_id": 117843,
+    "word": "アンマネージコード",
+    "kana": "アンマネージコード",
+    "senses": [
+      {
+        "sense_id": 361360,
+        "meaning_vi": "mã không được quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "mã không được quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã không được quản lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117844,
+    "word": "アンロード",
+    "kana": "アンロード",
+    "senses": [
+      {
+        "sense_id": 361361,
+        "meaning_vi": "dỡ bỏ (từ bộ nhớ)",
+        "confidence": "high",
+        "search_keywords": [
+          "dỡ bỏ (từ bộ nhớ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dỡ bỏ (từ bộ nhớ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117845,
+    "word": "ＥＲＰ",
+    "kana": "イー・アール・ピー",
+    "senses": [
+      {
+        "sense_id": 361362,
+        "meaning_vi": "hoạch định nguồn lực doanh nghiệp; ERP",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạch định nguồn lực doanh nghiệp",
+          "ERP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạch định nguồn lực doanh nghiệp; ERP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117846,
+    "word": "ＥＩＡ",
+    "kana": "イー・アイ・エー",
+    "senses": [
+      {
+        "sense_id": 361363,
+        "meaning_vi": "đánh giá tác động môi trường; ĐTM",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh giá tác động môi trường",
+          "ĐTM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh giá tác động môi trường; ĐTM",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361364,
+        "meaning_vi": "thỏa thuận hội nhập kinh tế; ĐTM",
+        "confidence": "high",
+        "search_keywords": [
+          "thỏa thuận hội nhập kinh tế",
+          "ĐTM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thỏa thuận hội nhập kinh tế; ĐTM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117847,
+    "word": "ＥＥＰＲＯＭ",
+    "kana": "イー・イー・ピー・ロム",
+    "senses": [
+      {
+        "sense_id": 361365,
+        "meaning_vi": "EEPROM; ROM lập trình có thể xóa được bằng điện",
+        "confidence": "high",
+        "search_keywords": [
+          "EEPROM",
+          "ROM lập trình có thể xóa được bằng điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "EEPROM; ROM lập trình có thể xóa được bằng điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117848,
+    "word": "ＥＭＳ",
+    "kana": "イー・エム・エス",
+    "senses": [
+      {
+        "sense_id": 361366,
+        "meaning_vi": "Dịch vụ chuyển phát nhanh; EMS",
+        "confidence": "high",
+        "search_keywords": [
+          "Dịch vụ chuyển phát nhanh",
+          "EMS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Dịch vụ chuyển phát nhanh; EMS",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361367,
+        "meaning_vi": "Hệ thống tiền tệ châu Âu",
+        "confidence": "high",
+        "search_keywords": [
+          "Hệ thống tiền tệ châu Âu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hệ thống tiền tệ châu Âu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361368,
+        "meaning_vi": "Hệ thống quản lý động cơ",
+        "confidence": "high",
+        "search_keywords": [
+          "Hệ thống quản lý động cơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hệ thống quản lý động cơ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361369,
+        "meaning_vi": "Dịch vụ sản xuất điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "Dịch vụ sản xuất điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Dịch vụ sản xuất điện tử",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361370,
+        "meaning_vi": "Đặc tả bộ nhớ mở rộng (MS-DOS)",
+        "confidence": "high",
+        "search_keywords": [
+          "Đặc tả bộ nhớ mở rộng (MS-DOS)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đặc tả bộ nhớ mở rộng (MS-DOS)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361371,
+        "meaning_vi": "Hệ thống quản lý môi trường",
+        "confidence": "high",
+        "search_keywords": [
+          "Hệ thống quản lý môi trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Hệ thống quản lý môi trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117849,
+    "word": "ＥＭＣ",
+    "kana": "イー・エム・シー",
+    "senses": [
+      {
+        "sense_id": 361372,
+        "meaning_vi": "tương thích điện từ; EMC",
+        "confidence": "high",
+        "search_keywords": [
+          "tương thích điện từ",
+          "EMC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương thích điện từ; EMC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117850,
+    "word": "ＥＯＳ",
+    "kana": "イー・オー・エス",
+    "senses": [
+      {
+        "sense_id": 361373,
+        "meaning_vi": "hệ thống đặt hàng điện tử; EOS",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống đặt hàng điện tử",
+          "EOS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống đặt hàng điện tử; EOS",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361374,
+        "meaning_vi": "kết thúc bán hàng; EOS",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc bán hàng",
+          "EOS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc bán hàng; EOS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117851,
+    "word": "ＥＯＦ",
+    "kana": "イー・オー・エフ",
+    "senses": [
+      {
+        "sense_id": 361375,
+        "meaning_vi": "cuối tập tin; EOF",
+        "confidence": "high",
+        "search_keywords": [
+          "cuối tập tin",
+          "EOF"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuối tập tin; EOF",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117852,
+    "word": "イーサネットアドレス",
+    "kana": "イーサネットアドレス",
+    "senses": [
+      {
+        "sense_id": 361376,
+        "meaning_vi": "Địa chỉ Ethernet",
+        "confidence": "high",
+        "search_keywords": [
+          "Địa chỉ Ethernet"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Địa chỉ Ethernet",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117853,
+    "word": "ＥＣＭ",
+    "kana": "イー・シー・エム",
+    "senses": [
+      {
+        "sense_id": 361377,
+        "meaning_vi": "biện pháp đối phó điện tử; ECM",
+        "confidence": "high",
+        "search_keywords": [
+          "biện pháp đối phó điện tử",
+          "ECM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biện pháp đối phó điện tử; ECM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117854,
+    "word": "ＥＧＡ",
+    "kana": "イー・ジー・エー",
+    "senses": [
+      {
+        "sense_id": 361378,
+        "meaning_vi": "Bộ điều hợp đồ họa nâng cao; EGA",
+        "confidence": "high",
+        "search_keywords": [
+          "Bộ điều hợp đồ họa nâng cao",
+          "EGA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bộ điều hợp đồ họa nâng cao; EGA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117855,
+    "word": "ＥＷＳ",
+    "kana": "イー・ダブリュー・エス",
+    "senses": [
+      {
+        "sense_id": 361379,
+        "meaning_vi": "trạm kỹ thuật; EWS",
+        "confidence": "high",
+        "search_keywords": [
+          "trạm kỹ thuật",
+          "EWS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạm kỹ thuật; EWS",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361380,
+        "meaning_vi": "hệ thống cảnh báo khẩn cấp; EWS",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống cảnh báo khẩn cấp",
+          "EWS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống cảnh báo khẩn cấp; EWS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117856,
+    "word": "ＥＤＩ",
+    "kana": "イー・ディー・アイ",
+    "senses": [
+      {
+        "sense_id": 361381,
+        "meaning_vi": "trao đổi dữ liệu điện tử; EDI",
+        "confidence": "high",
+        "search_keywords": [
+          "trao đổi dữ liệu điện tử",
+          "EDI"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trao đổi dữ liệu điện tử; EDI",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117857,
+    "word": "ｅビジネス",
+    "kana": "イービジネス",
+    "senses": [
+      {
+        "sense_id": 361382,
+        "meaning_vi": "kinh doanh điện tử",
+        "confidence": "high",
+        "search_keywords": [
+          "kinh doanh điện tử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kinh doanh điện tử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117858,
+    "word": "ＥＰＷＩＮＧ",
+    "kana": "イーピーウィング",
+    "senses": [
+      {
+        "sense_id": 361383,
+        "meaning_vi": "EPWING (định dạng tệp cho từ điển điện tử)",
+        "confidence": "high",
+        "search_keywords": [
+          "EPWING (định dạng tệp cho từ điển điện tử)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "EPWING (định dạng tệp cho từ điển điện tử)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117859,
+    "word": "ＥＰＲＯＭ",
+    "kana": "イーピーロム",
+    "senses": [
+      {
+        "sense_id": 361384,
+        "meaning_vi": "bộ nhớ chỉ đọc có thể lập trình có thể xóa được; EPROM",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ chỉ đọc có thể lập trình có thể xóa được",
+          "EPROM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ chỉ đọc có thể lập trình có thể xóa được; EPROM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117860,
+    "word": "Ｅｍａｃｓ",
+    "kana": "イーマックス",
+    "senses": [
+      {
+        "sense_id": 361385,
+        "meaning_vi": "Emacs (trình soạn thảo văn bản)",
+        "confidence": "high",
+        "search_keywords": [
+          "Emacs (trình soạn thảo văn bản)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Emacs (trình soạn thảo văn bản)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117861,
+    "word": "ＥＵＣ",
+    "kana": "イー・ユー・シー",
+    "senses": [
+      {
+        "sense_id": 361386,
+        "meaning_vi": "EUC (mã hóa); mã UNIX mở rộng",
+        "confidence": "high",
+        "search_keywords": [
+          "EUC (mã hóa)",
+          "mã UNIX mở rộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "EUC (mã hóa); mã UNIX mở rộng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 361387,
+        "meaning_vi": "tính toán của người dùng cuối; EUC",
+        "confidence": "high",
+        "search_keywords": [
+          "tính toán của người dùng cuối",
+          "EUC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính toán của người dùng cuối; EUC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 117862,
+    "word": "イエローケーブル",
+    "kana": "イエローケーブル",
+    "senses": [
+      {
+        "sense_id": 361388,
+        "meaning_vi": "cáp đồng trục Ethernet 10BASE5; cáp màu vàng",
+        "confidence": "high",
+        "search_keywords": [
+          "cáp đồng trục Ethernet 10BASE5",
+          "cáp màu vàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cáp đồng trục Ethernet 10BASE5; cáp màu vàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

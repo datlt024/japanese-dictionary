@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 126644,
+    "word": "本来受信者",
+    "kana": "ほんらいじゅしんしゃ",
+    "senses": [
+      {
+        "sense_id": 370293,
+        "meaning_vi": "người nhận ưa thích",
+        "confidence": "high",
+        "search_keywords": [
+          "người nhận ưa thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nhận ưa thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126645,
+    "word": "翻音",
+    "kana": "ほんおん",
+    "senses": [
+      {
+        "sense_id": 370294,
+        "meaning_vi": "phiên âm",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126646,
+    "word": "翻訳アセンブラ指示文",
+    "kana": "ほんやくアセンブラしじぶん",
+    "senses": [
+      {
+        "sense_id": 370295,
+        "meaning_vi": "chỉ thị lắp ráp",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ thị lắp ráp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ thị lắp ráp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126647,
+    "word": "翻訳コンパイラ指示文",
+    "kana": "ほんやくコンパイラしじぶん",
+    "senses": [
+      {
+        "sense_id": 370296,
+        "meaning_vi": "chỉ thị trình biên dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ thị trình biên dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ thị trình biên dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126648,
+    "word": "翻訳ソフトウェア",
+    "kana": "ほんやくソフトウェア",
+    "senses": [
+      {
+        "sense_id": 370297,
+        "meaning_vi": "(tự động) phần mềm dịch thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "(tự động) phần mềm dịch thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tự động) phần mềm dịch thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126649,
+    "word": "翻訳テーブル",
+    "kana": "ほんやくテーブル",
+    "senses": [
+      {
+        "sense_id": 370298,
+        "meaning_vi": "bảng dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126650,
+    "word": "翻訳プログラム",
+    "kana": "ほんやくプログラム",
+    "senses": [
+      {
+        "sense_id": 370299,
+        "meaning_vi": "người phiên dịch; chương trình dịch thuật",
+        "confidence": "high",
+        "search_keywords": [
+          "người phiên dịch",
+          "chương trình dịch thuật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người phiên dịch; chương trình dịch thuật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126651,
+    "word": "翻訳プログラム指示文",
+    "kana": "ほんやくプログラムしじぶん",
+    "senses": [
+      {
+        "sense_id": 370300,
+        "meaning_vi": "chỉ thị phiên dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ thị phiên dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ thị phiên dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126652,
+    "word": "翻訳解釈実行プログラム指示文",
+    "kana": "ほんやくかいしゃくじっこうプログラムしじぶん",
+    "senses": [
+      {
+        "sense_id": 370302,
+        "meaning_vi": "chỉ thị thông dịch viên",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ thị thông dịch viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ thị thông dịch viên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126653,
+    "word": "翻訳指示文",
+    "kana": "ほんやくしじぶん",
+    "senses": [
+      {
+        "sense_id": 370303,
+        "meaning_vi": "tuyên bố chỉ đạo trình biên dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên bố chỉ đạo trình biên dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên bố chỉ đạo trình biên dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126654,
+    "word": "翻訳時",
+    "kana": "ほんやくじ",
+    "senses": [
+      {
+        "sense_id": 370304,
+        "meaning_vi": "thời gian dịch; thời gian biên dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian dịch",
+          "thời gian biên dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian dịch; thời gian biên dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126655,
+    "word": "翻訳時間",
+    "kana": "ほんやくじかん",
+    "senses": [
+      {
+        "sense_id": 370305,
+        "meaning_vi": "thời gian dịch",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian dịch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian dịch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126656,
+    "word": "翻訳単位のプログラム",
+    "kana": "ほんやくたんいのプログラム",
+    "senses": [
+      {
+        "sense_id": 370306,
+        "meaning_vi": "chương trình được biên soạn riêng",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình được biên soạn riêng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình được biên soạn riêng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126657,
+    "word": "翻訳用計算機",
+    "kana": "ほんやくようけいさんき",
+    "senses": [
+      {
+        "sense_id": 370307,
+        "meaning_vi": "nguồn máy tính",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn máy tính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn máy tính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126658,
+    "word": "翻訳用計算機記述項",
+    "kana": "ほんやくようけいさんききじゅつこう",
+    "senses": [
+      {
+        "sense_id": 370308,
+        "meaning_vi": "mục nhập máy tính nguồn",
+        "confidence": "high",
+        "search_keywords": [
+          "mục nhập máy tính nguồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mục nhập máy tính nguồn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126659,
+    "word": "摩擦送り",
+    "kana": "まさつおくり",
+    "senses": [
+      {
+        "sense_id": 370309,
+        "meaning_vi": "thức ăn ma sát",
+        "confidence": "high",
+        "search_keywords": [
+          "thức ăn ma sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thức ăn ma sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126660,
+    "word": "魔方陣行列",
+    "kana": "まほうじんぎょうれつ",
+    "senses": [
+      {
+        "sense_id": 370310,
+        "meaning_vi": "hình vuông ma thuật (ma trận)",
+        "confidence": "high",
+        "search_keywords": [
+          "hình vuông ma thuật (ma trận)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình vuông ma thuật (ma trận)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126661,
+    "word": "埋め込みプロセッサ",
+    "kana": "うめこみプロセッサ",
+    "senses": [
+      {
+        "sense_id": 370311,
+        "meaning_vi": "bộ xử lý nhúng",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ xử lý nhúng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ xử lý nhúng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126662,
+    "word": "埋め字",
+    "kana": "うめじ",
+    "senses": [
+      {
+        "sense_id": 370312,
+        "meaning_vi": "điền ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "điền ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điền ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126663,
+    "word": "埋め草文字",
+    "kana": "うめくさもじ",
+    "senses": [
+      {
+        "sense_id": 370313,
+        "meaning_vi": "ký tự đệm",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự đệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự đệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

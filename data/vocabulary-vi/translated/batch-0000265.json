@@ -1,0 +1,616 @@
+[
+  {
+    "vocabulary_id": 6535,
+    "word": "スポット",
+    "kana": "スポット",
+    "senses": [
+      {
+        "sense_id": 225528,
+        "meaning_vi": "điểm; dấu chấm; đánh dấu",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm",
+          "dấu chấm",
+          "đánh dấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm; dấu chấm; đánh dấu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225529,
+        "meaning_vi": "địa điểm; vị trí; trang web",
+        "confidence": "high",
+        "search_keywords": [
+          "địa điểm",
+          "vị trí",
+          "trang web"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa điểm; vị trí; trang web",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225530,
+        "meaning_vi": "(sân bay) tạp dề",
+        "confidence": "high",
+        "search_keywords": [
+          "(sân bay) tạp dề"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(sân bay) tạp dề",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225531,
+        "meaning_vi": "quảng cáo tại chỗ; quảng cáo tại chỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "quảng cáo tại chỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quảng cáo tại chỗ; quảng cáo tại chỗ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225532,
+        "meaning_vi": "tin tức tại chỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "tin tức tại chỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tin tức tại chỗ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225533,
+        "meaning_vi": "ánh đèn sân khấu",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh đèn sân khấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh đèn sân khấu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6536,
+    "word": "スポットアナウンス",
+    "kana": "スポットアナウンス",
+    "senses": [
+      {
+        "sense_id": 225534,
+        "meaning_vi": "thông báo tại chỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "thông báo tại chỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông báo tại chỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6537,
+    "word": "スポットキャンペーン",
+    "kana": "スポットキャンペーン",
+    "senses": [
+      {
+        "sense_id": 225535,
+        "meaning_vi": "chiến dịch giao ngay",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến dịch giao ngay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến dịch giao ngay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6538,
+    "word": "スポットコマーシャル",
+    "kana": "スポットコマーシャル",
+    "senses": [
+      {
+        "sense_id": 225536,
+        "meaning_vi": "giao ngay thương mại",
+        "confidence": "high",
+        "search_keywords": [
+          "giao ngay thương mại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao ngay thương mại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6539,
+    "word": "スポットチェック",
+    "kana": "スポットチェック",
+    "senses": [
+      {
+        "sense_id": 225537,
+        "meaning_vi": "kiểm tra tại chỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra tại chỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra tại chỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6540,
+    "word": "スポットニュース",
+    "kana": "スポットニュース",
+    "senses": [
+      {
+        "sense_id": 225538,
+        "meaning_vi": "tin tức tại chỗ",
+        "confidence": "high",
+        "search_keywords": [
+          "tin tức tại chỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tin tức tại chỗ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6541,
+    "word": "スポットライト",
+    "kana": "スポットライト",
+    "senses": [
+      {
+        "sense_id": 225539,
+        "meaning_vi": "ánh đèn sân khấu",
+        "confidence": "high",
+        "search_keywords": [
+          "ánh đèn sân khấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ánh đèn sân khấu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225540,
+        "meaning_vi": "quan sát chặt chẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "quan sát chặt chẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan sát chặt chẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6542,
+    "word": "スポンサー",
+    "kana": "スポンサー",
+    "senses": [
+      {
+        "sense_id": 225541,
+        "meaning_vi": "nhà tài trợ",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà tài trợ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà tài trợ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6543,
+    "word": "スポンジ",
+    "kana": "スポンジ",
+    "senses": [
+      {
+        "sense_id": 225542,
+        "meaning_vi": "miếng bọt biển",
+        "confidence": "high",
+        "search_keywords": [
+          "miếng bọt biển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "miếng bọt biển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6544,
+    "word": "スポンジケーキ",
+    "kana": "スポンジケーキ",
+    "senses": [
+      {
+        "sense_id": 225543,
+        "meaning_vi": "bánh xốp",
+        "confidence": "high",
+        "search_keywords": [
+          "bánh xốp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bánh xốp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6545,
+    "word": "スポンジラバー",
+    "kana": "スポンジラバー",
+    "senses": [
+      {
+        "sense_id": 225544,
+        "meaning_vi": "cao su xốp",
+        "confidence": "high",
+        "search_keywords": [
+          "cao su xốp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cao su xốp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6546,
+    "word": "スポ根",
+    "kana": "スポこん",
+    "senses": [
+      {
+        "sense_id": 225545,
+        "meaning_vi": "tinh thần chiến đấu (trong thể thao); sự kiên trì",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần chiến đấu (trong thể thao)",
+          "sự kiên trì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần chiến đấu (trong thể thao); sự kiên trì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6547,
+    "word": "スマート",
+    "kana": "スマート",
+    "senses": [
+      {
+        "sense_id": 225546,
+        "meaning_vi": "thông minh (quần áo, v.v.); sành điệu",
+        "confidence": "high",
+        "search_keywords": [
+          "thông minh (quần áo, v.v.)",
+          "sành điệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông minh (quần áo, v.v.); sành điệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225547,
+        "meaning_vi": "mảnh khảnh; mảnh khảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "mảnh khảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mảnh khảnh; mảnh khảnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225548,
+        "meaning_vi": "khéo léo; trơn bóng; thông minh; khéo léo",
+        "confidence": "high",
+        "search_keywords": [
+          "khéo léo",
+          "trơn bóng",
+          "thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khéo léo; trơn bóng; thông minh; khéo léo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6548,
+    "word": "スマートビル",
+    "kana": "スマートビル",
+    "senses": [
+      {
+        "sense_id": 225549,
+        "meaning_vi": "tòa nhà thông minh; tòa nhà thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "tòa nhà thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tòa nhà thông minh; tòa nhà thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6549,
+    "word": "スマイル",
+    "kana": "スマイル",
+    "senses": [
+      {
+        "sense_id": 225550,
+        "meaning_vi": "mỉm cười",
+        "confidence": "high",
+        "search_keywords": [
+          "mỉm cười"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỉm cười",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6550,
+    "word": "スマック",
+    "kana": "スマック",
+    "senses": [
+      {
+        "sense_id": 225551,
+        "meaning_vi": "kem phủ sô cô la trên que",
+        "confidence": "high",
+        "search_keywords": [
+          "kem phủ sô cô la trên que"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kem phủ sô cô la trên que",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225552,
+        "meaning_vi": "Smack (nước ngọt)",
+        "confidence": "high",
+        "search_keywords": [
+          "Smack (nước ngọt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Smack (nước ngọt)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225553,
+        "meaning_vi": "đập; heroin",
+        "confidence": "high",
+        "search_keywords": [
+          "đập",
+          "heroin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đập; heroin",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 225554,
+        "meaning_vi": "cây thù du",
+        "confidence": "high",
+        "search_keywords": [
+          "cây thù du"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cây thù du",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6551,
+    "word": "スマッシュ",
+    "kana": "スマッシュ",
+    "senses": [
+      {
+        "sense_id": 225555,
+        "meaning_vi": "đập vỡ",
+        "confidence": "high",
+        "search_keywords": [
+          "đập vỡ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đập vỡ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6552,
+    "word": "スミアー",
+    "kana": "スミアー",
+    "senses": [
+      {
+        "sense_id": 225556,
+        "meaning_vi": "bôi nhọ",
+        "confidence": "high",
+        "search_keywords": [
+          "bôi nhọ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bôi nhọ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6553,
+    "word": "スムージングオペレーション",
+    "kana": "スムージングオペレーション",
+    "senses": [
+      {
+        "sense_id": 225557,
+        "meaning_vi": "can thiệp tiền tệ (để ổn định biến động tỷ giá hối đoái)",
+        "confidence": "high",
+        "search_keywords": [
+          "can thiệp tiền tệ (để ổn định biến động tỷ giá hối đoái)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "can thiệp tiền tệ (để ổn định biến động tỷ giá hối đoái)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 6554,
+    "word": "スムーズ",
+    "kana": "スムーズ",
+    "senses": [
+      {
+        "sense_id": 225558,
+        "meaning_vi": "trơn tru (tức là không có vấn đề gì)",
+        "confidence": "high",
+        "search_keywords": [
+          "trơn tru (tức là không có vấn đề gì)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trơn tru (tức là không có vấn đề gì)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

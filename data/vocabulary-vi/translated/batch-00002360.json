@@ -1,0 +1,661 @@
+[
+  {
+    "vocabulary_id": 61749,
+    "word": "取締法",
+    "kana": "とりしまりほう",
+    "senses": [
+      {
+        "sense_id": 298754,
+        "meaning_vi": "luật điều khiển",
+        "confidence": "high",
+        "search_keywords": [
+          "luật điều khiển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luật điều khiển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61750,
+    "word": "守勢",
+    "kana": "しゅせい",
+    "senses": [
+      {
+        "sense_id": 298755,
+        "meaning_vi": "(đang) ở thế phòng thủ",
+        "confidence": "high",
+        "search_keywords": [
+          "(đang) ở thế phòng thủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đang) ở thế phòng thủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61751,
+    "word": "手の内",
+    "kana": "てのうち",
+    "senses": [
+      {
+        "sense_id": 298756,
+        "meaning_vi": "lòng bàn tay (của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "lòng bàn tay (của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lòng bàn tay (của một người)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298757,
+        "meaning_vi": "kỹ năng",
+        "confidence": "high",
+        "search_keywords": [
+          "kỹ năng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỹ năng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298758,
+        "meaning_vi": "(trong tay) của một người; (dưới sự) kiểm soát của một người; (trong) túi của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "(trong tay) của một người",
+          "(dưới sự) kiểm soát của một người",
+          "(trong) túi của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(trong tay) của một người; (dưới sự) kiểm soát của một người; (trong) túi của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298759,
+        "meaning_vi": "ý định (che giấu) của một người; thẻ của một người; kế hoạch của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "ý định (che giấu) của một người",
+          "thẻ của một người",
+          "kế hoạch của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ý định (che giấu) của một người; thẻ của một người; kế hoạch của một người",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298760,
+        "meaning_vi": "một bàn tay",
+        "confidence": "high",
+        "search_keywords": [
+          "một bàn tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một bàn tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61752,
+    "word": "手打ち",
+    "kana": "てうち",
+    "senses": [
+      {
+        "sense_id": 298761,
+        "meaning_vi": "đạt được một thỏa thuận; đi đến một thỏa thuận; hòa giải",
+        "confidence": "high",
+        "search_keywords": [
+          "đạt được một thỏa thuận",
+          "đi đến một thỏa thuận",
+          "hòa giải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đạt được một thỏa thuận; đi đến một thỏa thuận; hòa giải",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298762,
+        "meaning_vi": "làm mì bằng tay; làm mì thủ công",
+        "confidence": "high",
+        "search_keywords": [
+          "làm mì bằng tay",
+          "làm mì thủ công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm mì bằng tay; làm mì thủ công",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298763,
+        "meaning_vi": "nhập thủ công (trên máy tính, v.v.); nhập (văn bản) bằng tay; đánh máy",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập thủ công (trên máy tính, v.v.)",
+          "nhập (văn bản) bằng tay",
+          "đánh máy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập thủ công (trên máy tính, v.v.); nhập (văn bản) bằng tay; đánh máy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298764,
+        "meaning_vi": "vung (của vợt, gậy hoặc gậy) chỉ bằng cánh tay (tức là không có chuyển động cơ thể thích hợp)",
+        "confidence": "high",
+        "search_keywords": [
+          "vung (của vợt, gậy hoặc gậy) chỉ bằng cánh tay (tức là không có chuyển động cơ thể thích hợp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vung (của vợt, gậy hoặc gậy) chỉ bằng cánh tay (tức là không có chuyển động cơ thể thích hợp)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298765,
+        "meaning_vi": "giết chết (một thuộc hạ hoặc nông dân) bằng chính thanh kiếm của mình (của một samurai)",
+        "confidence": "high",
+        "search_keywords": [
+          "giết chết (một thuộc hạ hoặc nông dân) bằng chính thanh kiếm của mình (của một samurai)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giết chết (một thuộc hạ hoặc nông dân) bằng chính thanh kiếm của mình (của một samurai)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61753,
+    "word": "手中",
+    "kana": "しゅちゅう",
+    "senses": [
+      {
+        "sense_id": 298766,
+        "meaning_vi": "trong tay một người; trong tầm kiểm soát của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "trong tay một người",
+          "trong tầm kiểm soát của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong tay một người; trong tầm kiểm soát của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61754,
+    "word": "手放し",
+    "kana": "てばなし",
+    "senses": [
+      {
+        "sense_id": 298767,
+        "meaning_vi": "không giữ; không sử dụng tay; buông tay ra",
+        "confidence": "high",
+        "search_keywords": [
+          "không giữ",
+          "không sử dụng tay",
+          "buông tay ra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không giữ; không sử dụng tay; buông tay ra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298768,
+        "meaning_vi": "thiếu dự trữ (trong việc thể hiện cảm xúc của mình); thiếu kiềm chế; công khai (nói)",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu dự trữ (trong việc thể hiện cảm xúc của mình)",
+          "thiếu kiềm chế",
+          "công khai (nói)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu dự trữ (trong việc thể hiện cảm xúc của mình); thiếu kiềm chế; công khai (nói)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61755,
+    "word": "酒税",
+    "kana": "しゅぜい",
+    "senses": [
+      {
+        "sense_id": 298769,
+        "meaning_vi": "thuế rượu; thuế rượu",
+        "confidence": "high",
+        "search_keywords": [
+          "thuế rượu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuế rượu; thuế rượu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61756,
+    "word": "酒販",
+    "kana": "しゅはん",
+    "senses": [
+      {
+        "sense_id": 298770,
+        "meaning_vi": "buôn bán rượu",
+        "confidence": "high",
+        "search_keywords": [
+          "buôn bán rượu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buôn bán rượu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61757,
+    "word": "首脳部",
+    "kana": "しゅのうぶ",
+    "senses": [
+      {
+        "sense_id": 298771,
+        "meaning_vi": "giám đốc điều hành; quản lý cấp cao; cơ quan quản lý",
+        "confidence": "high",
+        "search_keywords": [
+          "giám đốc điều hành",
+          "quản lý cấp cao",
+          "cơ quan quản lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giám đốc điều hành; quản lý cấp cao; cơ quan quản lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61758,
+    "word": "受け",
+    "kana": "うけ",
+    "senses": [
+      {
+        "sense_id": 298772,
+        "meaning_vi": "sự nổi tiếng; ủng hộ; ưu ái; tiếp nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "sự nổi tiếng",
+          "ủng hộ",
+          "ưu ái",
+          "tiếp nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự nổi tiếng; ủng hộ; ưu ái; tiếp nhận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298773,
+        "meaning_vi": "phòng thủ; phòng thủ; danh tiếng",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng thủ",
+          "danh tiếng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng thủ; phòng thủ; danh tiếng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298774,
+        "meaning_vi": "thỏa thuận",
+        "confidence": "high",
+        "search_keywords": [
+          "thỏa thuận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thỏa thuận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298775,
+        "meaning_vi": "người tiếp nhận kỹ thuật (ví dụ: trong võ thuật)",
+        "confidence": "high",
+        "search_keywords": [
+          "người tiếp nhận kỹ thuật (ví dụ: trong võ thuật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người tiếp nhận kỹ thuật (ví dụ: trong võ thuật)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 298776,
+        "meaning_vi": "phía dưới (đối tác phục tùng của một mối quan hệ đồng giới)",
+        "confidence": "high",
+        "search_keywords": [
+          "phía dưới (đối tác phục tùng của một mối quan hệ đồng giới)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phía dưới (đối tác phục tùng của một mối quan hệ đồng giới)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61759,
+    "word": "受給",
+    "kana": "じゅきゅう",
+    "senses": [
+      {
+        "sense_id": 298777,
+        "meaning_vi": "nhận thanh toán (lương hưu, khẩu phần ăn)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận thanh toán (lương hưu, khẩu phần ăn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận thanh toán (lương hưu, khẩu phần ăn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61760,
+    "word": "受診",
+    "kana": "じゅしん",
+    "senses": [
+      {
+        "sense_id": 298778,
+        "meaning_vi": "được khám sức khỏe; gặp bác sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "được khám sức khỏe",
+          "gặp bác sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được khám sức khỏe; gặp bác sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61761,
+    "word": "授賞式",
+    "kana": "じゅしょうしき",
+    "senses": [
+      {
+        "sense_id": 298779,
+        "meaning_vi": "lễ trao giải; trao giải thưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ trao giải",
+          "trao giải thưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ trao giải; trao giải thưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61762,
+    "word": "州政府",
+    "kana": "しゅうせいふ",
+    "senses": [
+      {
+        "sense_id": 298780,
+        "meaning_vi": "chính quyền tiểu bang",
+        "confidence": "high",
+        "search_keywords": [
+          "chính quyền tiểu bang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính quyền tiểu bang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61763,
+    "word": "修士課程",
+    "kana": "しゅうしかてい",
+    "senses": [
+      {
+        "sense_id": 298781,
+        "meaning_vi": "khóa học thạc sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "khóa học thạc sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khóa học thạc sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61764,
+    "word": "秀作",
+    "kana": "しゅうさく",
+    "senses": [
+      {
+        "sense_id": 298782,
+        "meaning_vi": "tác phẩm (tác phẩm) xuất sắc",
+        "confidence": "high",
+        "search_keywords": [
+          "tác phẩm (tác phẩm) xuất sắc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tác phẩm (tác phẩm) xuất sắc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61765,
+    "word": "秋季",
+    "kana": "しゅうき",
+    "senses": [
+      {
+        "sense_id": 298783,
+        "meaning_vi": "mùa thu; mùa thu",
+        "confidence": "high",
+        "search_keywords": [
+          "mùa thu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mùa thu; mùa thu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61766,
+    "word": "終了後",
+    "kana": "しゅうりょうご",
+    "senses": [
+      {
+        "sense_id": 298784,
+        "meaning_vi": "sau khi kết thúc (của cái gì đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "sau khi kết thúc (của cái gì đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau khi kết thúc (của cái gì đó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61767,
+    "word": "週内",
+    "kana": "しゅうない",
+    "senses": [
+      {
+        "sense_id": 298785,
+        "meaning_vi": "vào cuối tuần này; trong tuần",
+        "confidence": "high",
+        "search_keywords": [
+          "vào cuối tuần này",
+          "trong tuần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vào cuối tuần này; trong tuần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 61768,
+    "word": "週明け",
+    "kana": "しゅうあけ",
+    "senses": [
+      {
+        "sense_id": 298786,
+        "meaning_vi": "đầu tuần tới (thông thường là Thứ Hai); đầu tuần tới",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu tuần tới (thông thường là Thứ Hai)",
+          "đầu tuần tới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu tuần tới (thông thường là Thứ Hai); đầu tuần tới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

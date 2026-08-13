@@ -209,13 +209,39 @@ short_meaning_vi:
 - tối đa khoảng 20 ký tự
 
 explanation_vi:
-- giải thích rõ dùng để làm gì
-- dễ hiểu cho người học
-- không lan man
+Viết giải thích chi tiết, rõ ràng theo phong cách sách giáo khoa tiếng Nhật dành cho người học Việt Nam.
+
+Yêu cầu bắt buộc:
+- Tối thiểu 3 câu, không giới hạn trên.
+- Câu đầu: nêu rõ chức năng chính — mẫu ngữ pháp này dùng để diễn đạt điều gì, khi nào dùng.
+- Tiếp theo: giải thích cách sử dụng cụ thể, ngữ cảnh phù hợp, và ý nghĩa thêm nếu có.
+- Nêu rõ các trường hợp đặc biệt hoặc hạn chế sử dụng nếu có.
+- Nếu có đặc điểm đọc/viết đặc biệt (ví dụ: chữ Hán, cách đọc thay đổi theo ngữ cảnh), ghi vào đây.
+- Viết tự nhiên như sách giáo khoa — không viết dạng gạch đầu dòng, viết thành đoạn văn liền mạch.
+- Dùng dấu 「」khi trích dẫn mẫu ngữ pháp hoặc ví dụ tiếng Nhật trong phần giải thích.
+
+Ví dụ explanation_vi tốt (cho mẫu 〜通り):
+「通り」diễn tả một sự việc xảy ra, hoặc một hành động được thực hiện theo đúng lời nói, suy nghĩ, nội dung, hướng dẫn... sẵn có nào đó. Cấu trúc này cũng được dùng khi muốn yêu cầu người nghe làm một việc gì đó theo đúng những gì họ nhìn thấy, nghe được, đọc được, học được...「通り」là chữ Hán của「とおり」, khi đi trực tiếp với danh từ (không có の) thì đọc là「どおり」.
+
+Ví dụ explanation_vi tốt (cho mẫu 〜たい):
+「〜たい」gắn vào dạng V-ます (bỏ ます) để diễn đạt mong muốn của người nói về việc muốn thực hiện hành động đó. Đây là dạng biểu đạt mong muốn cơ bản nhất trong tiếng Nhật, tương đương với "muốn làm..." trong tiếng Việt. Chủ ngữ thường là người nói hoặc người được hỏi trực tiếp; khi nói về mong muốn của người thứ ba cần dùng「〜たがっている」hoặc「〜たいと言っている」. 「〜たい」chia như tính từ đuôi い: たくない (phủ định), たかった (quá khứ), たくなかった (phủ định quá khứ).
+
+Ví dụ explanation_vi KHÔNG tốt:
+- "Dùng để diễn tả mong muốn." (quá ngắn)
+- "Gắn vào động từ để nói muốn làm gì." (thiếu chi tiết)
 
 nuance_vi:
-- ghi sắc thái, mức độ lịch sự, giới hạn sử dụng
-- nếu không có sắc thái đáng kể thì null
+- Nếu có mẫu ngữ pháp khác dễ nhầm lẫn, so sánh cụ thể sự khác biệt về nghĩa, sắc thái, ngữ cảnh dùng.
+- Ghi mức độ trang trọng nếu quan trọng (trang trọng/thân mật/văn viết/khẩu ngữ).
+- Ghi giới hạn sử dụng hoặc điều kiện đặc biệt nếu có.
+- Nếu thực sự không có sắc thái đáng kể thì null.
+- Không lặp lại nội dung explanation_vi.
+
+Ví dụ nuance_vi tốt (cho mẫu 〜通り):
+So sánh「〜通り」và「〜ように」: 「〜通り」yêu cầu sự việc/hành động ở vế sau phải diễn ra chính xác theo nội dung vế trước, không có sai khác. Còn「〜ように」chỉ yêu cầu diễn ra giống như nội dung vế trước và có thể chấp nhận chút sai khác nhỏ.
+
+Ví dụ nuance_vi tốt (cho mẫu 〜そうだ: nghe nói):
+Khác với「〜らしい」(suy luận dựa trên dấu hiệu gián tiếp) và「〜ようだ」(suy luận dựa trên quan sát trực tiếp),「〜そうだ」(truyền đạt) chỉ đơn thuần dẫn lại thông tin nghe được từ người khác mà không có suy luận thêm.
 
 ────────────────────
 5. EXAMPLES

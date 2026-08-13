@@ -1,0 +1,631 @@
+[
+  {
+    "vocabulary_id": 55066,
+    "word": "鮎",
+    "kana": "あゆ",
+    "senses": [
+      {
+        "sense_id": 289721,
+        "meaning_vi": "ayu (Plecoglossus altivelis); cá ngọt",
+        "confidence": "high",
+        "search_keywords": [
+          "ayu (Plecoglossus altivelis)",
+          "cá ngọt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ayu (Plecoglossus altivelis); cá ngọt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55067,
+    "word": "粗",
+    "kana": "あら",
+    "senses": [
+      {
+        "sense_id": 289722,
+        "meaning_vi": "phần xương còn lại (của cá sau khi phi lê)",
+        "confidence": "high",
+        "search_keywords": [
+          "phần xương còn lại (của cá sau khi phi lê)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần xương còn lại (của cá sau khi phi lê)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289723,
+        "meaning_vi": "khuyết điểm (đặc biệt là của một người); lỗi; khiếm khuyết",
+        "confidence": "high",
+        "search_keywords": [
+          "khuyết điểm (đặc biệt là của một người)",
+          "lỗi",
+          "khiếm khuyết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuyết điểm (đặc biệt là của một người); lỗi; khiếm khuyết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289724,
+        "meaning_vi": "trấu",
+        "confidence": "high",
+        "search_keywords": [
+          "trấu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trấu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289725,
+        "meaning_vi": "thô",
+        "confidence": "high",
+        "search_keywords": [
+          "thô"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thô",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289726,
+        "meaning_vi": "thô; thô; tự nhiên; hoang dã",
+        "confidence": "high",
+        "search_keywords": [
+          "thô",
+          "tự nhiên",
+          "hoang dã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thô; thô; tự nhiên; hoang dã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55068,
+    "word": "荒々しい",
+    "kana": "あらあらしい",
+    "senses": [
+      {
+        "sense_id": 289727,
+        "meaning_vi": "thô; hoang dã; bất lịch sự; thô ráp; cộc cằn; bạo lực",
+        "confidence": "high",
+        "search_keywords": [
+          "thô",
+          "hoang dã",
+          "bất lịch sự",
+          "thô ráp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thô; hoang dã; bất lịch sự; thô ráp; cộc cằn; bạo lực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55069,
+    "word": "洗い熊",
+    "kana": "あらいぐま",
+    "senses": [
+      {
+        "sense_id": 289728,
+        "meaning_vi": "gấu trúc thông thường (Procyon lotor)",
+        "confidence": "high",
+        "search_keywords": [
+          "gấu trúc thông thường (Procyon lotor)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gấu trúc thông thường (Procyon lotor)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55070,
+    "word": "荒削り",
+    "kana": "あらけずり",
+    "senses": [
+      {
+        "sense_id": 289729,
+        "meaning_vi": "đẽo thô; không đầy đủ; chưa tinh chế; vẫn đang trong quá trình hình thành",
+        "confidence": "high",
+        "search_keywords": [
+          "đẽo thô",
+          "không đầy đủ",
+          "chưa tinh chế",
+          "vẫn đang trong quá trình hình thành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đẽo thô; không đầy đủ; chưa tinh chế; vẫn đang trong quá trình hình thành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55071,
+    "word": "荒野",
+    "kana": "こうや",
+    "senses": [
+      {
+        "sense_id": 289730,
+        "meaning_vi": "đất hoang; hoang vu; đất hoang; thảo nguyên; đồng bằng rộng lớn; hoang dã; sa mạc; vùng đất hoang dã",
+        "confidence": "high",
+        "search_keywords": [
+          "đất hoang",
+          "hoang vu",
+          "thảo nguyên",
+          "đồng bằng rộng lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đất hoang; hoang vu; đất hoang; thảo nguyên; đồng bằng rộng lớn; hoang dã; sa mạc; vùng đất hoang dã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55072,
+    "word": "凡ゆる",
+    "kana": "あらゆる",
+    "senses": [
+      {
+        "sense_id": 289731,
+        "meaning_vi": "tất cả; mỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "tất cả",
+          "mỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tất cả; mỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55073,
+    "word": "あり方",
+    "kana": "ありかた",
+    "senses": [
+      {
+        "sense_id": 289732,
+        "meaning_vi": "cách (cái gì đó) phải như vậy",
+        "confidence": "high",
+        "search_keywords": [
+          "cách (cái gì đó) phải như vậy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cách (cái gì đó) phải như vậy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289733,
+        "meaning_vi": "(hiện tại) trạng thái (của); mọi chuyện thế nào",
+        "confidence": "high",
+        "search_keywords": [
+          "(hiện tại) trạng thái (của)",
+          "mọi chuyện thế nào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(hiện tại) trạng thái (của); mọi chuyện thế nào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55074,
+    "word": "有難う",
+    "kana": "ありがとう",
+    "senses": [
+      {
+        "sense_id": 289734,
+        "meaning_vi": "Cảm ơn; cảm ơn",
+        "confidence": "high",
+        "search_keywords": [
+          "Cảm ơn",
+          "cảm ơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cảm ơn; cảm ơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55075,
+    "word": "有田焼",
+    "kana": "ありたやき",
+    "senses": [
+      {
+        "sense_id": 289735,
+        "meaning_vi": "Đồ sứ Arita (sứ)",
+        "confidence": "high",
+        "search_keywords": [
+          "Đồ sứ Arita (sứ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Đồ sứ Arita (sứ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55076,
+    "word": "或",
+    "kana": "ある",
+    "senses": [
+      {
+        "sense_id": 289736,
+        "meaning_vi": "một cái gì đó ...; một số...",
+        "confidence": "high",
+        "search_keywords": [
+          "một cái gì đó ...",
+          "một số..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cái gì đó ...; một số...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55077,
+    "word": "或いは",
+    "kana": "あるいは",
+    "senses": [
+      {
+        "sense_id": 289737,
+        "meaning_vi": "hoặc; hoặc ... hoặc",
+        "confidence": "high",
+        "search_keywords": [
+          "hoặc",
+          "hoặc ... hoặc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoặc; hoặc ... hoặc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289738,
+        "meaning_vi": "Có lẽ; có lẽ; có thể",
+        "confidence": "high",
+        "search_keywords": [
+          "Có lẽ",
+          "có lẽ",
+          "có thể"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Có lẽ; có lẽ; có thể",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289739,
+        "meaning_vi": "một số ... và những người khác ...; đôi khi... và những lúc khác...",
+        "confidence": "high",
+        "search_keywords": [
+          "một số ... và những người khác ...",
+          "đôi khi... và những lúc khác..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một số ... và những người khác ...; đôi khi... và những lúc khác...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55078,
+    "word": "荒れ果てる",
+    "kana": "あれはてる",
+    "senses": [
+      {
+        "sense_id": 289740,
+        "meaning_vi": "rơi vào cảnh hoang tàn; trở nên đổ nát; trở nên suy sụp; trở nên hoang tàn; bị bỏ bê nặng nề",
+        "confidence": "high",
+        "search_keywords": [
+          "rơi vào cảnh hoang tàn",
+          "trở nên đổ nát",
+          "trở nên suy sụp",
+          "trở nên hoang tàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rơi vào cảnh hoang tàn; trở nên đổ nát; trở nên suy sụp; trở nên hoang tàn; bị bỏ bê nặng nề",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55079,
+    "word": "合わさる",
+    "kana": "あわさる",
+    "senses": [
+      {
+        "sense_id": 289741,
+        "meaning_vi": "tham gia; được tập hợp lại với nhau; kết hợp; đoàn kết; để phù hợp; để đóng lại (ví dụ như một vết thương)",
+        "confidence": "high",
+        "search_keywords": [
+          "tham gia",
+          "được tập hợp lại với nhau",
+          "kết hợp",
+          "đoàn kết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham gia; được tập hợp lại với nhau; kết hợp; đoàn kết; để phù hợp; để đóng lại (ví dụ như một vết thương)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55080,
+    "word": "鮑",
+    "kana": "あわび",
+    "senses": [
+      {
+        "sense_id": 289742,
+        "meaning_vi": "bào ngư; vỏ tai",
+        "confidence": "high",
+        "search_keywords": [
+          "bào ngư",
+          "vỏ tai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bào ngư; vỏ tai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55081,
+    "word": "暗影",
+    "kana": "あんえい",
+    "senses": [
+      {
+        "sense_id": 289743,
+        "meaning_vi": "bóng tối; sự u ám",
+        "confidence": "high",
+        "search_keywords": [
+          "bóng tối",
+          "sự u ám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bóng tối; sự u ám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55082,
+    "word": "暗記",
+    "kana": "あんき",
+    "senses": [
+      {
+        "sense_id": 289744,
+        "meaning_vi": "ghi nhớ; ghi nhớ; học thuộc lòng",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi nhớ",
+          "học thuộc lòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi nhớ; ghi nhớ; học thuộc lòng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55083,
+    "word": "暗黒",
+    "kana": "あんこく",
+    "senses": [
+      {
+        "sense_id": 289745,
+        "meaning_vi": "bóng tối",
+        "confidence": "high",
+        "search_keywords": [
+          "bóng tối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bóng tối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55084,
+    "word": "杏",
+    "kana": "あんず",
+    "senses": [
+      {
+        "sense_id": 289746,
+        "meaning_vi": "quả mơ (Prunus armeniaca)",
+        "confidence": "high",
+        "search_keywords": [
+          "quả mơ (Prunus armeniaca)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quả mơ (Prunus armeniaca)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55085,
+    "word": "案ずる",
+    "kana": "あんずる",
+    "senses": [
+      {
+        "sense_id": 289747,
+        "meaning_vi": "lo lắng (về); quan tâm (về); lo lắng (về); sợ hãi",
+        "confidence": "high",
+        "search_keywords": [
+          "lo lắng (về)",
+          "quan tâm (về)",
+          "sợ hãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lo lắng (về); quan tâm (về); lo lắng (về); sợ hãi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289748,
+        "meaning_vi": "nghĩ ra (ví dụ: một kế hoạch); để làm việc; nghĩ ra ; để xem xét ; suy ngẫm",
+        "confidence": "high",
+        "search_keywords": [
+          "nghĩ ra (ví dụ: một kế hoạch)",
+          "để làm việc",
+          "nghĩ ra",
+          "để xem xét"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghĩ ra (ví dụ: một kế hoạch); để làm việc; nghĩ ra ; để xem xét ; suy ngẫm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289749,
+        "meaning_vi": "để điều tra",
+        "confidence": "high",
+        "search_keywords": [
+          "để điều tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để điều tra",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289750,
+        "meaning_vi": "đột quỵ; chà xát; vỗ nhẹ; nắm lấy (chuôi kiếm của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "đột quỵ",
+          "chà xát",
+          "vỗ nhẹ",
+          "nắm lấy (chuôi kiếm của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đột quỵ; chà xát; vỗ nhẹ; nắm lấy (chuôi kiếm của một người)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

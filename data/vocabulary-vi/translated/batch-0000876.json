@@ -1,0 +1,963 @@
+[
+  {
+    "vocabulary_id": 22047,
+    "word": "禽獣",
+    "kana": "きんじゅう",
+    "senses": [
+      {
+        "sense_id": 245367,
+        "meaning_vi": "chim và thú; con thú; vũ phu; (ngu ngốc) con vật",
+        "confidence": "high",
+        "search_keywords": [
+          "chim và thú",
+          "con thú",
+          "vũ phu",
+          "(ngu ngốc) con vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chim và thú; con thú; vũ phu; (ngu ngốc) con vật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22048,
+    "word": "禽鳥",
+    "kana": "きんちょう",
+    "senses": [
+      {
+        "sense_id": 245368,
+        "meaning_vi": "chim",
+        "confidence": "high",
+        "search_keywords": [
+          "chim"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chim",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22049,
+    "word": "筋",
+    "kana": "すじ",
+    "senses": [
+      {
+        "sense_id": 245369,
+        "meaning_vi": "cơ bắp; gân; gân",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ bắp",
+          "gân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ bắp; gân; gân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245370,
+        "meaning_vi": "tĩnh mạch; động mạch",
+        "confidence": "high",
+        "search_keywords": [
+          "tĩnh mạch",
+          "động mạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tĩnh mạch; động mạch",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245371,
+        "meaning_vi": "chất xơ; chất xơ; chuỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "chất xơ",
+          "chuỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất xơ; chất xơ; chuỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245372,
+        "meaning_vi": "đường kẻ; sọc; vệt",
+        "confidence": "high",
+        "search_keywords": [
+          "đường kẻ",
+          "sọc",
+          "vệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường kẻ; sọc; vệt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245373,
+        "meaning_vi": "lý do; logic",
+        "confidence": "high",
+        "search_keywords": [
+          "lý do",
+          "logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý do; logic",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245374,
+        "meaning_vi": "kịch bản; cốt truyện",
+        "confidence": "high",
+        "search_keywords": [
+          "kịch bản",
+          "cốt truyện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kịch bản; cốt truyện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245375,
+        "meaning_vi": "dòng dõi; đi xuống",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng dõi",
+          "đi xuống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng dõi; đi xuống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245376,
+        "meaning_vi": "trường học (ví dụ: học bổng hoặc nghệ thuật)",
+        "confidence": "high",
+        "search_keywords": [
+          "trường học (ví dụ: học bổng hoặc nghệ thuật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường học (ví dụ: học bổng hoặc nghệ thuật)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245377,
+        "meaning_vi": "năng khiếu; tài năng",
+        "confidence": "high",
+        "search_keywords": [
+          "năng khiếu",
+          "tài năng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "năng khiếu; tài năng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245378,
+        "meaning_vi": "nguồn (thông tin, v.v.); vòng tròn; kênh",
+        "confidence": "high",
+        "search_keywords": [
+          "nguồn (thông tin, v.v.)",
+          "vòng tròn",
+          "kênh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguồn (thông tin, v.v.); vòng tròn; kênh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245379,
+        "meaning_vi": "người có đầy đủ thông tin (trong một giao dịch)",
+        "confidence": "high",
+        "search_keywords": [
+          "người có đầy đủ thông tin (trong một giao dịch)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người có đầy đủ thông tin (trong một giao dịch)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245380,
+        "meaning_vi": "nước đi hợp lý (trong cờ vây, shogi, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "nước đi hợp lý (trong cờ vây, shogi, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước đi hợp lý (trong cờ vây, shogi, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245381,
+        "meaning_vi": "đường thẳng thứ chín",
+        "confidence": "high",
+        "search_keywords": [
+          "đường thẳng thứ chín"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường thẳng thứ chín",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245382,
+        "meaning_vi": "đường may trên mũ bảo hiểm",
+        "confidence": "high",
+        "search_keywords": [
+          "đường may trên mũ bảo hiểm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường may trên mũ bảo hiểm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245383,
+        "meaning_vi": "chả cá có gai (làm bằng cơ, gân, da, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "chả cá có gai (làm bằng cơ, gân, da, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chả cá có gai (làm bằng cơ, gân, da, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245384,
+        "meaning_vi": "vị trí xã hội; trạng thái",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí xã hội",
+          "trạng thái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí xã hội; trạng thái",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245385,
+        "meaning_vi": "trên (sông, đường, v.v.); dọc theo",
+        "confidence": "high",
+        "search_keywords": [
+          "trên (sông, đường, v.v.)",
+          "dọc theo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trên (sông, đường, v.v.); dọc theo",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245386,
+        "meaning_vi": "quầy cho những thứ dài mỏng; bộ đếm đường hoặc khối khi chỉ đường",
+        "confidence": "high",
+        "search_keywords": [
+          "quầy cho những thứ dài mỏng",
+          "bộ đếm đường hoặc khối khi chỉ đường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quầy cho những thứ dài mỏng; bộ đếm đường hoặc khối khi chỉ đường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245387,
+        "meaning_vi": "đường phố (ở Osaka)",
+        "confidence": "high",
+        "search_keywords": [
+          "đường phố (ở Osaka)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường phố (ở Osaka)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245388,
+        "meaning_vi": "(Thời Edo) máy đếm hàng trăm mon (đơn vị tiền tệ lỗi thời)",
+        "confidence": "high",
+        "search_keywords": [
+          "(Thời Edo) máy đếm hàng trăm mon (đơn vị tiền tệ lỗi thời)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(Thời Edo) máy đếm hàng trăm mon (đơn vị tiền tệ lỗi thời)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22050,
+    "word": "筋違い",
+    "kana": "すじちがい",
+    "senses": [
+      {
+        "sense_id": 245389,
+        "meaning_vi": "chuột rút; bong gân; dếch; căng cơ (cơ bắp)",
+        "confidence": "high",
+        "search_keywords": [
+          "chuột rút",
+          "bong gân",
+          "dếch",
+          "căng cơ (cơ bắp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuột rút; bong gân; dếch; căng cơ (cơ bắp)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245390,
+        "meaning_vi": "sự vô lý; sự vô lý",
+        "confidence": "high",
+        "search_keywords": [
+          "sự vô lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự vô lý; sự vô lý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245391,
+        "meaning_vi": "phi logic; vô lý",
+        "confidence": "high",
+        "search_keywords": [
+          "phi logic",
+          "vô lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phi logic; vô lý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245392,
+        "meaning_vi": "bị định hướng sai; đặt nhầm chỗ; sai (ước tính, đoán)",
+        "confidence": "high",
+        "search_keywords": [
+          "bị định hướng sai",
+          "đặt nhầm chỗ",
+          "sai (ước tính, đoán)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị định hướng sai; đặt nhầm chỗ; sai (ước tính, đoán)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22051,
+    "word": "筋交い",
+    "kana": "すじかい",
+    "senses": [
+      {
+        "sense_id": 245393,
+        "meaning_vi": "đường chéo; xiên; cú đúp",
+        "confidence": "high",
+        "search_keywords": [
+          "đường chéo",
+          "xiên",
+          "cú đúp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường chéo; xiên; cú đúp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22052,
+    "word": "筋骨",
+    "kana": "きんこつ",
+    "senses": [
+      {
+        "sense_id": 245394,
+        "meaning_vi": "cơ và xương; xây dựng cơ thể; vóc dáng",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ và xương",
+          "xây dựng cơ thể",
+          "vóc dáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ và xương; xây dựng cơ thể; vóc dáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245395,
+        "meaning_vi": "sụn",
+        "confidence": "high",
+        "search_keywords": [
+          "sụn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sụn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22053,
+    "word": "筋書き",
+    "kana": "すじがき",
+    "senses": [
+      {
+        "sense_id": 245396,
+        "meaning_vi": "Tóm tắt; phác thảo; âm mưu",
+        "confidence": "high",
+        "search_keywords": [
+          "Tóm tắt",
+          "phác thảo",
+          "âm mưu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tóm tắt; phác thảo; âm mưu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22054,
+    "word": "筋道",
+    "kana": "すじみち",
+    "senses": [
+      {
+        "sense_id": 245397,
+        "meaning_vi": "lý do; logic",
+        "confidence": "high",
+        "search_keywords": [
+          "lý do",
+          "logic"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý do; logic",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245398,
+        "meaning_vi": "phương pháp; hệ thống; đặt hàng; chủ đề (ví dụ: của một đối số)",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp",
+          "hệ thống",
+          "đặt hàng",
+          "chủ đề (ví dụ: của một đối số)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp; hệ thống; đặt hàng; chủ đề (ví dụ: của một đối số)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22055,
+    "word": "筋肉",
+    "kana": "きんにく",
+    "senses": [
+      {
+        "sense_id": 245399,
+        "meaning_vi": "cơ bắp",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ bắp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ bắp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22056,
+    "word": "筋肉痛",
+    "kana": "きんにくつう",
+    "senses": [
+      {
+        "sense_id": 245400,
+        "meaning_vi": "đau cơ; đau cơ; đau cơ; đau cơ",
+        "confidence": "high",
+        "search_keywords": [
+          "đau cơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đau cơ; đau cơ; đau cơ; đau cơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22057,
+    "word": "筋目",
+    "kana": "すじめ",
+    "senses": [
+      {
+        "sense_id": 245401,
+        "meaning_vi": "nếp gấp; nếp nhăn",
+        "confidence": "high",
+        "search_keywords": [
+          "nếp gấp",
+          "nếp nhăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nếp gấp; nếp nhăn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245402,
+        "meaning_vi": "dòng dõi; phả hệ",
+        "confidence": "high",
+        "search_keywords": [
+          "dòng dõi",
+          "phả hệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dòng dõi; phả hệ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245403,
+        "meaning_vi": "lý do; logic; chủ đề; phương pháp; hệ thống",
+        "confidence": "high",
+        "search_keywords": [
+          "lý do",
+          "logic",
+          "chủ đề",
+          "phương pháp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý do; logic; chủ đề; phương pháp; hệ thống",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245404,
+        "meaning_vi": "mối quan hệ; kết nối",
+        "confidence": "high",
+        "search_keywords": [
+          "mối quan hệ",
+          "kết nối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mối quan hệ; kết nối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22058,
+    "word": "筋力",
+    "kana": "きんりょく",
+    "senses": [
+      {
+        "sense_id": 245405,
+        "meaning_vi": "sức mạnh thể chất; sức mạnh cơ bắp",
+        "confidence": "high",
+        "search_keywords": [
+          "sức mạnh thể chất",
+          "sức mạnh cơ bắp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sức mạnh thể chất; sức mạnh cơ bắp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22059,
+    "word": "緊急",
+    "kana": "きんきゅう",
+    "senses": [
+      {
+        "sense_id": 245406,
+        "meaning_vi": "khẩn cấp; trường hợp khẩn cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "khẩn cấp",
+          "trường hợp khẩn cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khẩn cấp; trường hợp khẩn cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22060,
+    "word": "緊急着陸",
+    "kana": "きんきゅうちゃくりく",
+    "senses": [
+      {
+        "sense_id": 245407,
+        "meaning_vi": "hạ cánh khẩn cấp",
+        "confidence": "high",
+        "search_keywords": [
+          "hạ cánh khẩn cấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hạ cánh khẩn cấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22061,
+    "word": "緊縮",
+    "kana": "きんしゅく",
+    "senses": [
+      {
+        "sense_id": 245408,
+        "meaning_vi": "thắt chặt; co ngót; co thắt; sự co thắt",
+        "confidence": "high",
+        "search_keywords": [
+          "thắt chặt",
+          "co ngót",
+          "co thắt",
+          "sự co thắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thắt chặt; co ngót; co thắt; sự co thắt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245409,
+        "meaning_vi": "(kinh tế) cắt giảm; thôi việc; thắt lưng buộc bụng; cắt giảm (chi tiêu)",
+        "confidence": "high",
+        "search_keywords": [
+          "(kinh tế) cắt giảm",
+          "thôi việc",
+          "thắt lưng buộc bụng",
+          "cắt giảm (chi tiêu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(kinh tế) cắt giảm; thôi việc; thắt lưng buộc bụng; cắt giảm (chi tiêu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22062,
+    "word": "緊張",
+    "kana": "きんちょう",
+    "senses": [
+      {
+        "sense_id": 245410,
+        "meaning_vi": "căng thẳng; sự căng thẳng; lo lắng; căng thẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng",
+          "sự căng thẳng",
+          "lo lắng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng; sự căng thẳng; lo lắng; căng thẳng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245411,
+        "meaning_vi": "căng thẳng (giữa các quốc gia, các nhóm, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng (giữa các quốc gia, các nhóm, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng (giữa các quốc gia, các nhóm, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245412,
+        "meaning_vi": "âm điệu; trương lực cơ",
+        "confidence": "high",
+        "search_keywords": [
+          "âm điệu",
+          "trương lực cơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm điệu; trương lực cơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22063,
+    "word": "緊迫",
+    "kana": "きんぱく",
+    "senses": [
+      {
+        "sense_id": 245413,
+        "meaning_vi": "căng thẳng; căng thẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "căng thẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căng thẳng; căng thẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22064,
+    "word": "緊縛",
+    "kana": "きんばく",
+    "senses": [
+      {
+        "sense_id": 245414,
+        "meaning_vi": "ràng buộc chặt chẽ; ràng buộc chặt chẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "ràng buộc chặt chẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ràng buộc chặt chẽ; ràng buộc chặt chẽ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245415,
+        "meaning_vi": "(tình dục) sự trói buộc",
+        "confidence": "high",
+        "search_keywords": [
+          "(tình dục) sự trói buộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(tình dục) sự trói buộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22065,
+    "word": "緊密",
+    "kana": "きんみつ",
+    "senses": [
+      {
+        "sense_id": 245416,
+        "meaning_vi": "sự nghiêm khắc; sự nghiêm khắc; sự gần gũi; sự nhỏ gọn; đan chặt",
+        "confidence": "high",
+        "search_keywords": [
+          "sự nghiêm khắc",
+          "sự gần gũi",
+          "sự nhỏ gọn",
+          "đan chặt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự nghiêm khắc; sự nghiêm khắc; sự gần gũi; sự nhỏ gọn; đan chặt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22066,
+    "word": "緊要",
+    "kana": "きんよう",
+    "senses": [
+      {
+        "sense_id": 245417,
+        "meaning_vi": "quan trọng; cấp thiết; cấp bách; quan trọng; thiết yếu",
+        "confidence": "high",
+        "search_keywords": [
+          "quan trọng",
+          "cấp thiết",
+          "cấp bách",
+          "thiết yếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan trọng; cấp thiết; cấp bách; quan trọng; thiết yếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

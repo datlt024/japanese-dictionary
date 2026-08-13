@@ -1,668 +1,614 @@
 [
-{
-"vocabulary_id": 1218,
-"word": "アーレ",
-"kana": "アーレ",
-"senses": [
-{
-"sense_id": 219284,
-"meaning_vi": "a",
-"confidence": "medium",
-"search_keywords": [
-"a",
-"đơn vị diện tích",
-"are"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "a; đơn vị diện tích bằng 100 mét vuông",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1219,
-"word": "アイアン",
-"kana": "アイアン",
-"senses": [
-{
-"sense_id": 219285,
-"meaning_vi": "gậy sắt",
-"confidence": "high",
-"search_keywords": [
-"gậy sắt",
-"gậy golf sắt",
-"iron"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gậy sắt trong golf",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219286,
-"meaning_vi": "sắt",
-"confidence": "high",
-"search_keywords": [
-"sắt",
-"nguyên tố sắt",
-"iron"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sắt; nguyên tố hóa học Fe",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1220,
-"word": "アイアンクラブ",
-"kana": "アイアンクラブ",
-"senses": [
-{
-"sense_id": 219287,
-"meaning_vi": "gậy sắt golf",
-"confidence": "high",
-"search_keywords": [
-"gậy sắt golf",
-"gậy golf sắt",
-"iron club"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gậy golf loại đầu sắt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1221,
-"word": "アイコニファイ",
-"kana": "アイコニファイ",
-"senses": [
-{
-"sense_id": 219288,
-"meaning_vi": "iconify",
-"confidence": "medium",
-"search_keywords": [
-"iconify",
-"biến thành biểu tượng",
-"thu nhỏ thành icon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "biến thành biểu tượng; thu nhỏ thành icon",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1222,
-"word": "アイコン",
-"kana": "アイコン",
-"senses": [
-{
-"sense_id": 219289,
-"meaning_vi": "biểu tượng",
-"confidence": "high",
-"search_keywords": [
-"biểu tượng",
-"icon"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "biểu tượng trên giao diện máy tính hoặc ứng dụng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1223,
-"word": "アイシェード",
-"kana": "アイシェード",
-"senses": [
-{
-"sense_id": 219290,
-"meaning_vi": "tấm che mắt",
-"confidence": "high",
-"search_keywords": [
-"tấm che mắt",
-"miếng che mắt",
-"eyeshade"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tấm che mắt hoặc che nắng cho mắt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1224,
-"word": "アイシャドウ",
-"kana": "アイシャドウ",
-"senses": [
-{
-"sense_id": 219291,
-"meaning_vi": "phấn mắt",
-"confidence": "high",
-"search_keywords": [
-"phấn mắt",
-"màu mắt",
-"eyeshadow"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phấn trang điểm dùng cho mí mắt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1225,
-"word": "アイシング",
-"kana": "アイシング",
-"senses": [
-{
-"sense_id": 219292,
-"meaning_vi": "lớp phủ đường",
-"confidence": "high",
-"search_keywords": [
-"lớp phủ đường",
-"kem phủ bánh",
-"icing"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lớp đường hoặc kem phủ trên bánh",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219293,
-"meaning_vi": "đóng băng",
-"confidence": "high",
-"search_keywords": [
-"đóng băng",
-"bám băng",
-"icing"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hiện tượng băng bám trên máy bay, tàu thuyền hoặc thiết bị",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219294,
-"meaning_vi": "lỗi icing",
-"confidence": "high",
-"search_keywords": [
-"lỗi icing",
-"icing hockey",
-"lỗi khúc côn cầu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi icing trong môn khúc côn cầu trên băng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219295,
-"meaning_vi": "chườm lạnh",
-"confidence": "high",
-"search_keywords": [
-"chườm lạnh",
-"liệu pháp lạnh",
-"cryotherapy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chườm lạnh; dùng lạnh để giảm đau hoặc điều trị",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1226,
-"word": "アイシングザパック",
-"kana": "アイシングザパック",
-"senses": [
-{
-"sense_id": 219296,
-"meaning_vi": "icing puck",
-"confidence": "medium",
-"search_keywords": [
-"icing puck",
-"icing the puck",
-"lỗi icing"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lỗi đánh puck vượt quá vạch trong khúc côn cầu trên băng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1227,
-"word": "アイス",
-"kana": "アイス",
-"senses": [
-{
-"sense_id": 219297,
-"meaning_vi": "đá lạnh",
-"confidence": "high",
-"search_keywords": [
-"đá lạnh",
-"băng",
-"ice"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đá lạnh; băng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219298,
-"meaning_vi": "kem",
-"confidence": "high",
-"search_keywords": [
-"kem",
-"kem lạnh",
-"ice cream"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kem lạnh; cách nói tắt của ice cream",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219299,
-"meaning_vi": "kem que",
-"confidence": "high",
-"search_keywords": [
-"kem que",
-"que kem",
-"popsicle"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kem que; nước đá đông lạnh có que cầm",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219300,
-"meaning_vi": "đá",
-"confidence": "high",
-"search_keywords": [
-"đá",
-"lạnh",
-"iced"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lạnh; có đá, như trà đá hoặc cà phê đá",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219301,
-"meaning_vi": "ma túy đá",
-"confidence": "high",
-"search_keywords": [
-"ma túy đá",
-"đá",
-"ice"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ma túy đá; chất kích thích dạng methamphetamine",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219302,
-"meaning_vi": "cho vay nặng lãi",
-"confidence": "low",
-"search_keywords": [
-"cho vay nặng lãi",
-"cho vay lãi cao",
-"chủ nợ nặng lãi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "người cho vay nặng lãi; cách nói cổ, khẩu ngữ thời Edo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1228,
-"word": "アイスクリーム",
-"kana": "アイスクリーム",
-"senses": [
-{
-"sense_id": 219303,
-"meaning_vi": "kem",
-"confidence": "high",
-"search_keywords": [
-"kem",
-"kem lạnh",
-"ice cream"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kem lạnh; món tráng miệng đông lạnh từ sữa hoặc kem",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1229,
-"word": "アイススマック",
-"kana": "アイススマック",
-"senses": [
-{
-"sense_id": 219304,
-"meaning_vi": "kem que phủ sô cô la",
-"confidence": "medium",
-"search_keywords": [
-"kem que phủ sô cô la",
-"kem phủ chocolate",
-"kem que"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kem que phủ sô cô la bên ngoài",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1230,
-"word": "アイスティ",
-"kana": "アイスティ",
-"senses": [
-{
-"sense_id": 219305,
-"meaning_vi": "trà đá",
-"confidence": "high",
-"search_keywords": [
-"trà đá",
-"trà lạnh",
-"iced tea"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trà lạnh uống với đá",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1231,
-"word": "アイストング",
-"kana": "アイストング",
-"senses": [
-{
-"sense_id": 219306,
-"meaning_vi": "kẹp gắp đá",
-"confidence": "high",
-"search_keywords": [
-"kẹp gắp đá",
-"kẹp đá",
-"ice tongs"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dụng cụ kẹp để gắp đá viên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1232,
-"word": "アイスハーケン",
-"kana": "アイスハーケン",
-"senses": [
-{
-"sense_id": 219307,
-"meaning_vi": "đinh băng",
-"confidence": "medium",
-"search_keywords": [
-"đinh băng",
-"vít băng",
-"ice screw"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đinh hoặc vít cắm vào băng khi leo núi",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1233,
-"word": "アイスバーン",
-"kana": "アイスバーン",
-"senses": [
-{
-"sense_id": 219308,
-"meaning_vi": "đường đóng băng",
-"confidence": "high",
-"search_keywords": [
-"đường đóng băng",
-"đường băng giá",
-"đường trơn băng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mặt đường bị đóng băng, trơn trượt",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219309,
-"meaning_vi": "mặt tuyết đóng băng",
-"confidence": "high",
-"search_keywords": [
-"mặt tuyết đóng băng",
-"bề mặt tuyết cứng",
-"dốc trượt băng giá"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bề mặt tuyết đóng băng, thường trên dốc trượt tuyết",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219310,
-"meaning_vi": "sân trượt băng",
-"confidence": "medium",
-"search_keywords": [
-"sân trượt băng",
-"rink trượt băng",
-"skating rink"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sân trượt băng; nghĩa gốc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1234,
-"word": "アイスピック",
-"kana": "アイスピック",
-"senses": [
-{
-"sense_id": 219311,
-"meaning_vi": "dùi phá đá",
-"confidence": "high",
-"search_keywords": [
-"dùi phá đá",
-"dụng cụ đập đá",
-"ice pick"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dụng cụ nhọn dùng để phá hoặc tách đá",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1235,
-"word": "アイスペール",
-"kana": "アイスペール",
-"senses": [
-{
-"sense_id": 219312,
-"meaning_vi": "xô đá",
-"confidence": "high",
-"search_keywords": [
-"xô đá",
-"thùng đá",
-"ice bucket"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xô hoặc thùng nhỏ dùng để đựng đá",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1236,
-"word": "アイスホッケー",
-"kana": "アイスホッケー",
-"senses": [
-{
-"sense_id": 219313,
-"meaning_vi": "khúc côn cầu trên băng",
-"confidence": "high",
-"search_keywords": [
-"khúc côn cầu trên băng",
-"ice hockey",
-"hockey trên băng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "môn khúc côn cầu chơi trên sân băng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1237,
-"word": "アイスボックス",
-"kana": "アイスボックス",
-"senses": [
-{
-"sense_id": 219314,
-"meaning_vi": "thùng đá",
-"confidence": "high",
-"search_keywords": [
-"thùng đá",
-"hộp giữ lạnh",
-"icebox"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thùng hoặc hộp dùng để giữ lạnh bằng đá",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1218,
+    "word": "アーレ",
+    "kana": "アーレ",
+    "senses": [
+      {
+        "sense_id": 219284,
+        "meaning_vi": "đo diện tích",
+        "confidence": "high",
+        "search_keywords": [
+          "đo diện tích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đo diện tích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1219,
+    "word": "アイアン",
+    "kana": "アイアン",
+    "senses": [
+      {
+        "sense_id": 219285,
+        "meaning_vi": "sắt",
+        "confidence": "high",
+        "search_keywords": [
+          "sắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219286,
+        "meaning_vi": "sắt (nguyên tố)",
+        "confidence": "high",
+        "search_keywords": [
+          "sắt (nguyên tố)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắt (nguyên tố)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1220,
+    "word": "アイアンクラブ",
+    "kana": "アイアンクラブ",
+    "senses": [
+      {
+        "sense_id": 219287,
+        "meaning_vi": "câu lạc bộ sắt",
+        "confidence": "high",
+        "search_keywords": [
+          "câu lạc bộ sắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu lạc bộ sắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1221,
+    "word": "アイコニファイ",
+    "kana": "アイコニファイ",
+    "senses": [
+      {
+        "sense_id": 219288,
+        "meaning_vi": "biểu tượng hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1222,
+    "word": "アイコン",
+    "kana": "アイコン",
+    "senses": [
+      {
+        "sense_id": 219289,
+        "meaning_vi": "biểu tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1223,
+    "word": "アイシェード",
+    "kana": "アイシェード",
+    "senses": [
+      {
+        "sense_id": 219290,
+        "meaning_vi": "tấm che mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "tấm che mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tấm che mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1224,
+    "word": "アイシャドウ",
+    "kana": "アイシャドウ",
+    "senses": [
+      {
+        "sense_id": 219291,
+        "meaning_vi": "phấn mắt",
+        "confidence": "high",
+        "search_keywords": [
+          "phấn mắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phấn mắt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1225,
+    "word": "アイシング",
+    "kana": "アイシング",
+    "senses": [
+      {
+        "sense_id": 219292,
+        "meaning_vi": "đóng băng; phủ sương giá",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng băng",
+          "phủ sương giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng băng; phủ sương giá",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219293,
+        "meaning_vi": "đóng băng (trên máy bay, tàu, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng băng (trên máy bay, tàu, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng băng (trên máy bay, tàu, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219294,
+        "meaning_vi": "đóng băng (vi phạm khúc côn cầu)",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng băng (vi phạm khúc côn cầu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng băng (vi phạm khúc côn cầu)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219295,
+        "meaning_vi": "liệu pháp áp lạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "liệu pháp áp lạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liệu pháp áp lạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1226,
+    "word": "アイシングザパック",
+    "kana": "アイシングザパック",
+    "senses": [
+      {
+        "sense_id": 219296,
+        "meaning_vi": "đóng băng quả bóng (khúc côn cầu trên băng)",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng băng quả bóng (khúc côn cầu trên băng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng băng quả bóng (khúc côn cầu trên băng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1227,
+    "word": "アイス",
+    "kana": "アイス",
+    "senses": [
+      {
+        "sense_id": 219297,
+        "meaning_vi": "băng",
+        "confidence": "high",
+        "search_keywords": [
+          "băng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "băng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219298,
+        "meaning_vi": "kem",
+        "confidence": "high",
+        "search_keywords": [
+          "kem"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kem",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219299,
+        "meaning_vi": "nước đá; kẹo đá; kem que",
+        "confidence": "high",
+        "search_keywords": [
+          "nước đá",
+          "kẹo đá",
+          "kem que"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước đá; kẹo đá; kem que",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219300,
+        "meaning_vi": "lạnh lẽo; đá (ví dụ: trà đá, cà phê đá)",
+        "confidence": "high",
+        "search_keywords": [
+          "lạnh lẽo",
+          "đá (ví dụ: trà đá, cà phê đá)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lạnh lẽo; đá (ví dụ: trà đá, cà phê đá)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219301,
+        "meaning_vi": "nước đá (thuốc kích thích)",
+        "confidence": "high",
+        "search_keywords": [
+          "nước đá (thuốc kích thích)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước đá (thuốc kích thích)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219302,
+        "meaning_vi": "người cho vay nặng lãi; cho vay nặng lãi; cho vay nặng lãi",
+        "confidence": "high",
+        "search_keywords": [
+          "người cho vay nặng lãi",
+          "cho vay nặng lãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người cho vay nặng lãi; cho vay nặng lãi; cho vay nặng lãi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1228,
+    "word": "アイスクリーム",
+    "kana": "アイスクリーム",
+    "senses": [
+      {
+        "sense_id": 219303,
+        "meaning_vi": "kem",
+        "confidence": "high",
+        "search_keywords": [
+          "kem"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kem",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1229,
+    "word": "アイススマック",
+    "kana": "アイススマック",
+    "senses": [
+      {
+        "sense_id": 219304,
+        "meaning_vi": "kem phủ sô cô la trên que",
+        "confidence": "high",
+        "search_keywords": [
+          "kem phủ sô cô la trên que"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kem phủ sô cô la trên que",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1230,
+    "word": "アイスティ",
+    "kana": "アイスティ",
+    "senses": [
+      {
+        "sense_id": 219305,
+        "meaning_vi": "trà đá; trà đá",
+        "confidence": "high",
+        "search_keywords": [
+          "trà đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trà đá; trà đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1231,
+    "word": "アイストング",
+    "kana": "アイストング",
+    "senses": [
+      {
+        "sense_id": 219306,
+        "meaning_vi": "kẹp đá",
+        "confidence": "high",
+        "search_keywords": [
+          "kẹp đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kẹp đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1232,
+    "word": "アイスハーケン",
+    "kana": "アイスハーケン",
+    "senses": [
+      {
+        "sense_id": 219307,
+        "meaning_vi": "piton băng; vít băng",
+        "confidence": "high",
+        "search_keywords": [
+          "piton băng",
+          "vít băng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "piton băng; vít băng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1233,
+    "word": "アイスバーン",
+    "kana": "アイスバーン",
+    "senses": [
+      {
+        "sense_id": 219308,
+        "meaning_vi": "con đường băng giá",
+        "confidence": "high",
+        "search_keywords": [
+          "con đường băng giá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con đường băng giá",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219309,
+        "meaning_vi": "bề mặt tuyết đóng băng (ví dụ: trên dốc trượt tuyết)",
+        "confidence": "high",
+        "search_keywords": [
+          "bề mặt tuyết đóng băng (ví dụ: trên dốc trượt tuyết)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bề mặt tuyết đóng băng (ví dụ: trên dốc trượt tuyết)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219310,
+        "meaning_vi": "sân trượt băng",
+        "confidence": "high",
+        "search_keywords": [
+          "sân trượt băng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sân trượt băng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1234,
+    "word": "アイスピック",
+    "kana": "アイスピック",
+    "senses": [
+      {
+        "sense_id": 219311,
+        "meaning_vi": "nhặt đá",
+        "confidence": "high",
+        "search_keywords": [
+          "nhặt đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhặt đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1235,
+    "word": "アイスペール",
+    "kana": "アイスペール",
+    "senses": [
+      {
+        "sense_id": 219312,
+        "meaning_vi": "xô đá; thùng đá",
+        "confidence": "high",
+        "search_keywords": [
+          "xô đá",
+          "thùng đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xô đá; thùng đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1236,
+    "word": "アイスホッケー",
+    "kana": "アイスホッケー",
+    "senses": [
+      {
+        "sense_id": 219313,
+        "meaning_vi": "khúc côn cầu trên băng",
+        "confidence": "high",
+        "search_keywords": [
+          "khúc côn cầu trên băng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khúc côn cầu trên băng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1237,
+    "word": "アイスボックス",
+    "kana": "アイスボックス",
+    "senses": [
+      {
+        "sense_id": 219314,
+        "meaning_vi": "thùng đá",
+        "confidence": "high",
+        "search_keywords": [
+          "thùng đá"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thùng đá",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

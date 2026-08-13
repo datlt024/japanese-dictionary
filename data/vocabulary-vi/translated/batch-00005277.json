@@ -1,0 +1,447 @@
+[
+  {
+    "vocabulary_id": 126104,
+    "word": "非同期手続き",
+    "kana": "ひどうきてつづき",
+    "senses": [
+      {
+        "sense_id": 369749,
+        "meaning_vi": "thủ tục không đồng bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "thủ tục không đồng bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ tục không đồng bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126105,
+    "word": "非同期通信アダプタ",
+    "kana": "ひどうきつうしんアダプタ",
+    "senses": [
+      {
+        "sense_id": 369750,
+        "meaning_vi": "bộ điều hợp truyền thông không đồng bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ điều hợp truyền thông không đồng bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ điều hợp truyền thông không đồng bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126106,
+    "word": "非同期転送モード",
+    "kana": "ひどうきてんそうモード",
+    "senses": [
+      {
+        "sense_id": 369751,
+        "meaning_vi": "chế độ truyền không đồng bộ; máy ATM",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ truyền không đồng bộ",
+          "máy ATM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ truyền không đồng bộ; máy ATM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126107,
+    "word": "非同期伝送",
+    "kana": "ひどうきでんそう",
+    "senses": [
+      {
+        "sense_id": 369752,
+        "meaning_vi": "truyền không đồng bộ",
+        "confidence": "high",
+        "search_keywords": [
+          "truyền không đồng bộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truyền không đồng bộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126108,
+    "word": "非破壊的",
+    "kana": "ひはかいてき",
+    "senses": [
+      {
+        "sense_id": 369753,
+        "meaning_vi": "không phá hủy",
+        "confidence": "high",
+        "search_keywords": [
+          "không phá hủy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không phá hủy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126109,
+    "word": "非破壊読取り",
+    "kana": "ひはかいよみとり",
+    "senses": [
+      {
+        "sense_id": 369754,
+        "meaning_vi": "đọc không phá hủy",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc không phá hủy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc không phá hủy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126110,
+    "word": "非番号制コマンド",
+    "kana": "ひばんごうせいコマンド",
+    "senses": [
+      {
+        "sense_id": 369755,
+        "meaning_vi": "lệnh không đánh số",
+        "confidence": "high",
+        "search_keywords": [
+          "lệnh không đánh số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lệnh không đánh số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126111,
+    "word": "非番号制レスポンス",
+    "kana": "ひばんごうせいレスポンス",
+    "senses": [
+      {
+        "sense_id": 369756,
+        "meaning_vi": "câu trả lời không được đánh số",
+        "confidence": "high",
+        "search_keywords": [
+          "câu trả lời không được đánh số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu trả lời không được đánh số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126112,
+    "word": "非負整数",
+    "kana": "ひふせいすう",
+    "senses": [
+      {
+        "sense_id": 369757,
+        "meaning_vi": "số nguyên không âm; toàn bộ số; số tự nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "số nguyên không âm",
+          "toàn bộ số",
+          "số tự nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số nguyên không âm; toàn bộ số; số tự nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126113,
+    "word": "非保護領域",
+    "kana": "ひほごりょういき",
+    "senses": [
+      {
+        "sense_id": 369758,
+        "meaning_vi": "khu vực không được bảo vệ",
+        "confidence": "high",
+        "search_keywords": [
+          "khu vực không được bảo vệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khu vực không được bảo vệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126114,
+    "word": "非優先語",
+    "kana": "ひゆうせんご",
+    "senses": [
+      {
+        "sense_id": 369759,
+        "meaning_vi": "thuật ngữ không được ưu tiên",
+        "confidence": "high",
+        "search_keywords": [
+          "thuật ngữ không được ưu tiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuật ngữ không được ưu tiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126115,
+    "word": "非連鎖シーケンス",
+    "kana": "ひれんさシーケンス",
+    "senses": [
+      {
+        "sense_id": 369760,
+        "meaning_vi": "trình tự không có chuỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự không có chuỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự không có chuỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126116,
+    "word": "飛び越し走査",
+    "kana": "とびこしそうさ",
+    "senses": [
+      {
+        "sense_id": 369761,
+        "meaning_vi": "xen kẽ (ví dụ trên màn hình CRT); quét xen kẽ",
+        "confidence": "high",
+        "search_keywords": [
+          "xen kẽ (ví dụ trên màn hình CRT)",
+          "quét xen kẽ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xen kẽ (ví dụ trên màn hình CRT); quét xen kẽ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126117,
+    "word": "飛び越し",
+    "kana": "とびこし",
+    "senses": [
+      {
+        "sense_id": 369762,
+        "meaning_vi": "nhảy; chuyển nhượng",
+        "confidence": "high",
+        "search_keywords": [
+          "nhảy",
+          "chuyển nhượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhảy; chuyển nhượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126118,
+    "word": "飛越し命令",
+    "kana": "とびこしめいれい",
+    "senses": [
+      {
+        "sense_id": 369763,
+        "meaning_vi": "hướng dẫn nhảy",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn nhảy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn nhảy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126119,
+    "word": "必須属性",
+    "kana": "ひっすぞくせい",
+    "senses": [
+      {
+        "sense_id": 369764,
+        "meaning_vi": "thuộc tính bắt buộc; thuộc tính bắt buộc",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính bắt buộc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính bắt buộc; thuộc tính bắt buộc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126120,
+    "word": "必要メモリ",
+    "kana": "ひつようメモリ",
+    "senses": [
+      {
+        "sense_id": 369765,
+        "meaning_vi": "kích thước bộ nhớ cần thiết",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước bộ nhớ cần thiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước bộ nhớ cần thiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126121,
+    "word": "必要語",
+    "kana": "ひつようご",
+    "senses": [
+      {
+        "sense_id": 369766,
+        "meaning_vi": "từ khóa",
+        "confidence": "high",
+        "search_keywords": [
+          "từ khóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ khóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126122,
+    "word": "百分率機能",
+    "kana": "ひゃくぶんりつきのう",
+    "senses": [
+      {
+        "sense_id": 369767,
+        "meaning_vi": "hàm phần trăm",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm phần trăm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm phần trăm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 126123,
+    "word": "標準の応答メッセージ",
+    "kana": "ひょうじゅんのおうとうメッセージ",
+    "senses": [
+      {
+        "sense_id": 369768,
+        "meaning_vi": "lời chào tích hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "lời chào tích hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời chào tích hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

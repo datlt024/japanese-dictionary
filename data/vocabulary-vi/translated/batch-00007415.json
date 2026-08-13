@@ -1,0 +1,483 @@
+[
+  {
+    "vocabulary_id": 172671,
+    "word": "会社帰り",
+    "kana": "かいしゃがえり",
+    "senses": [
+      {
+        "sense_id": 420568,
+        "meaning_vi": "trên đường đi làm về; đi làm về",
+        "confidence": "high",
+        "search_keywords": [
+          "trên đường đi làm về",
+          "đi làm về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trên đường đi làm về; đi làm về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172672,
+    "word": "確率微分方程式",
+    "kana": "かくりつびぶんほうていしき",
+    "senses": [
+      {
+        "sense_id": 420569,
+        "meaning_vi": "phương trình vi phân ngẫu nhiên",
+        "confidence": "high",
+        "search_keywords": [
+          "phương trình vi phân ngẫu nhiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương trình vi phân ngẫu nhiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172673,
+    "word": "非線形微分方程式",
+    "kana": "ひせんけいびぶんほうていしき",
+    "senses": [
+      {
+        "sense_id": 420570,
+        "meaning_vi": "phương trình vi phân phi tuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "phương trình vi phân phi tuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương trình vi phân phi tuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172674,
+    "word": "対合",
+    "kana": "たいごう",
+    "senses": [
+      {
+        "sense_id": 420571,
+        "meaning_vi": "khớp thần kinh",
+        "confidence": "high",
+        "search_keywords": [
+          "khớp thần kinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khớp thần kinh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 420572,
+        "meaning_vi": "sự thoái hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thoái hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thoái hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172675,
+    "word": "非線形光学",
+    "kana": "ひせんけいこうがく",
+    "senses": [
+      {
+        "sense_id": 420573,
+        "meaning_vi": "quang học phi tuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "quang học phi tuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quang học phi tuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172676,
+    "word": "非線形性",
+    "kana": "ひせんけいせい",
+    "senses": [
+      {
+        "sense_id": 420574,
+        "meaning_vi": "tính phi tuyến",
+        "confidence": "high",
+        "search_keywords": [
+          "tính phi tuyến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tính phi tuyến",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172677,
+    "word": "掛取引",
+    "kana": "かけとりひき",
+    "senses": [
+      {
+        "sense_id": 420575,
+        "meaning_vi": "bán hàng bằng tín dụng; giao dịch tín dụng; trên tài khoản",
+        "confidence": "high",
+        "search_keywords": [
+          "bán hàng bằng tín dụng",
+          "giao dịch tín dụng",
+          "trên tài khoản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bán hàng bằng tín dụng; giao dịch tín dụng; trên tài khoản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172678,
+    "word": "カーステ",
+    "kana": "カーステ",
+    "senses": [
+      {
+        "sense_id": 420576,
+        "meaning_vi": "dàn âm thanh xe hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "dàn âm thanh xe hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dàn âm thanh xe hơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172679,
+    "word": "無人ロボット",
+    "kana": "むじんロボット",
+    "senses": [
+      {
+        "sense_id": 420577,
+        "meaning_vi": "robot không người lái",
+        "confidence": "high",
+        "search_keywords": [
+          "robot không người lái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "robot không người lái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172680,
+    "word": "パサータ",
+    "kana": "パサータ",
+    "senses": [
+      {
+        "sense_id": 420578,
+        "meaning_vi": "mật khẩu",
+        "confidence": "high",
+        "search_keywords": [
+          "mật khẩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mật khẩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172681,
+    "word": "俺が俺が",
+    "kana": "おれがおれが",
+    "senses": [
+      {
+        "sense_id": 420579,
+        "meaning_vi": "tôi, tôi, tôi",
+        "confidence": "high",
+        "search_keywords": [
+          "tôi, tôi, tôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tôi, tôi, tôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 420580,
+        "meaning_vi": "tự cao tự đại; bị cái tôi điều khiển",
+        "confidence": "high",
+        "search_keywords": [
+          "tự cao tự đại",
+          "bị cái tôi điều khiển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tự cao tự đại; bị cái tôi điều khiển",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172682,
+    "word": "思考実験",
+    "kana": "しこうじっけん",
+    "senses": [
+      {
+        "sense_id": 420581,
+        "meaning_vi": "thí nghiệm tư duy; thí nghiệm gedanken",
+        "confidence": "high",
+        "search_keywords": [
+          "thí nghiệm tư duy",
+          "thí nghiệm gedanken"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thí nghiệm tư duy; thí nghiệm gedanken",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172683,
+    "word": "潜伏先",
+    "kana": "せんぷくさき",
+    "senses": [
+      {
+        "sense_id": 420582,
+        "meaning_vi": "nơi ẩn náu (ví dụ: kẻ chạy trốn công lý); nơi ẩn náu",
+        "confidence": "high",
+        "search_keywords": [
+          "nơi ẩn náu (ví dụ: kẻ chạy trốn công lý)",
+          "nơi ẩn náu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nơi ẩn náu (ví dụ: kẻ chạy trốn công lý); nơi ẩn náu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172684,
+    "word": "ボーダーコリー",
+    "kana": "ボーダーコリー",
+    "senses": [
+      {
+        "sense_id": 420583,
+        "meaning_vi": "Border collie (giống chó)",
+        "confidence": "high",
+        "search_keywords": [
+          "Border collie (giống chó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Border collie (giống chó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172685,
+    "word": "二重盲検試験",
+    "kana": "にじゅうもうけんしけん",
+    "senses": [
+      {
+        "sense_id": 420584,
+        "meaning_vi": "thử nghiệm mù đôi; thử nghiệm mù đôi",
+        "confidence": "high",
+        "search_keywords": [
+          "thử nghiệm mù đôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thử nghiệm mù đôi; thử nghiệm mù đôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172686,
+    "word": "利用規約",
+    "kana": "りようきやく",
+    "senses": [
+      {
+        "sense_id": 420585,
+        "meaning_vi": "điều khoản dịch vụ; điều khoản sử dụng; điều khoản và điều kiện",
+        "confidence": "high",
+        "search_keywords": [
+          "điều khoản dịch vụ",
+          "điều khoản sử dụng",
+          "điều khoản và điều kiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều khoản dịch vụ; điều khoản sử dụng; điều khoản và điều kiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172687,
+    "word": "滲みやすい",
+    "kana": "にじみやすい",
+    "senses": [
+      {
+        "sense_id": 420586,
+        "meaning_vi": "dễ chảy (mực, trang điểm, v.v.); dễ dàng lây lan",
+        "confidence": "high",
+        "search_keywords": [
+          "dễ chảy (mực, trang điểm, v.v.)",
+          "dễ dàng lây lan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dễ chảy (mực, trang điểm, v.v.); dễ dàng lây lan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172688,
+    "word": "針を含む",
+    "kana": "はりをふくむ",
+    "senses": [
+      {
+        "sense_id": 420587,
+        "meaning_vi": "làm tổn thương cảm xúc của ai đó",
+        "confidence": "high",
+        "search_keywords": [
+          "làm tổn thương cảm xúc của ai đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm tổn thương cảm xúc của ai đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172689,
+    "word": "バカ安",
+    "kana": "ばかやす",
+    "senses": [
+      {
+        "sense_id": 420588,
+        "meaning_vi": "giá hời",
+        "confidence": "high",
+        "search_keywords": [
+          "giá hời"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá hời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 172690,
+    "word": "派手派手しい",
+    "kana": "はではでしい",
+    "senses": [
+      {
+        "sense_id": 420589,
+        "meaning_vi": "hào nhoáng; xa hoa; lòe loẹt",
+        "confidence": "high",
+        "search_keywords": [
+          "hào nhoáng",
+          "xa hoa",
+          "lòe loẹt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hào nhoáng; xa hoa; lòe loẹt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

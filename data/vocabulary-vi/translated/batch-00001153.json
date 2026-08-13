@@ -1,0 +1,515 @@
+[
+  {
+    "vocabulary_id": 29259,
+    "word": "滋賀県",
+    "kana": "しがけん",
+    "senses": [
+      {
+        "sense_id": 254850,
+        "meaning_vi": "Tỉnh Shiga (khu vực Kinki)",
+        "confidence": "high",
+        "search_keywords": [
+          "Tỉnh Shiga (khu vực Kinki)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tỉnh Shiga (khu vực Kinki)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29260,
+    "word": "滋養",
+    "kana": "じよう",
+    "senses": [
+      {
+        "sense_id": 254851,
+        "meaning_vi": "nuôi dưỡng; dinh dưỡng",
+        "confidence": "high",
+        "search_keywords": [
+          "nuôi dưỡng",
+          "dinh dưỡng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nuôi dưỡng; dinh dưỡng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29261,
+    "word": "滋養分",
+    "kana": "じようぶん",
+    "senses": [
+      {
+        "sense_id": 254852,
+        "meaning_vi": "chất dinh dưỡng",
+        "confidence": "high",
+        "search_keywords": [
+          "chất dinh dưỡng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất dinh dưỡng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29262,
+    "word": "治まる",
+    "kana": "おさまる",
+    "senses": [
+      {
+        "sense_id": 254853,
+        "meaning_vi": "chết đi (bão tố, giận dữ, xung đột, v.v.); để bình tĩnh lại; để nguội đi; giảm bớt; được giải quyết; được đặt dưới sự kiểm soát",
+        "confidence": "high",
+        "search_keywords": [
+          "chết đi (bão tố, giận dữ, xung đột, v.v.)",
+          "để bình tĩnh lại",
+          "để nguội đi",
+          "giảm bớt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết đi (bão tố, giận dữ, xung đột, v.v.); để bình tĩnh lại; để nguội đi; giảm bớt; được giải quyết; được đặt dưới sự kiểm soát",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254854,
+        "meaning_vi": "được bình yên; được quản lý tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "được bình yên",
+          "được quản lý tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được bình yên; được quản lý tốt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254855,
+        "meaning_vi": "giảm bớt (cơn đau, triệu chứng, v.v.); được giảm nhẹ; để trở nên tốt hơn; để giảm bớt",
+        "confidence": "high",
+        "search_keywords": [
+          "giảm bớt (cơn đau, triệu chứng, v.v.)",
+          "được giảm nhẹ",
+          "để trở nên tốt hơn",
+          "để giảm bớt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giảm bớt (cơn đau, triệu chứng, v.v.); được giảm nhẹ; để trở nên tốt hơn; để giảm bớt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29263,
+    "word": "治める",
+    "kana": "おさめる",
+    "senses": [
+      {
+        "sense_id": 254856,
+        "meaning_vi": "cai trị; cai trị; trị vì; quản lý; để quản lý (ví dụ: một hộ gia đình)",
+        "confidence": "high",
+        "search_keywords": [
+          "cai trị",
+          "trị vì",
+          "quản lý",
+          "để quản lý (ví dụ: một hộ gia đình)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cai trị; cai trị; trị vì; quản lý; để quản lý (ví dụ: một hộ gia đình)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 254857,
+        "meaning_vi": "khuất phục; đàn áp; dập tắt; giải quyết (ví dụ: tranh chấp)",
+        "confidence": "high",
+        "search_keywords": [
+          "khuất phục",
+          "đàn áp",
+          "dập tắt",
+          "giải quyết (ví dụ: tranh chấp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuất phục; đàn áp; dập tắt; giải quyết (ví dụ: tranh chấp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29264,
+    "word": "治安",
+    "kana": "ちあん",
+    "senses": [
+      {
+        "sense_id": 254858,
+        "meaning_vi": "trật tự công cộng; hòa bình công cộng; an ninh công cộng; luật pháp và trật tự",
+        "confidence": "high",
+        "search_keywords": [
+          "trật tự công cộng",
+          "hòa bình công cộng",
+          "an ninh công cộng",
+          "luật pháp và trật tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trật tự công cộng; hòa bình công cộng; an ninh công cộng; luật pháp và trật tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29265,
+    "word": "治安部隊",
+    "kana": "ちあんぶたい",
+    "senses": [
+      {
+        "sense_id": 254859,
+        "meaning_vi": "lực lượng an ninh; lực lượng an toàn công cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "lực lượng an ninh",
+          "lực lượng an toàn công cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lực lượng an ninh; lực lượng an toàn công cộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29266,
+    "word": "治具",
+    "kana": "ジグ",
+    "senses": [
+      {
+        "sense_id": 254860,
+        "meaning_vi": "đồ gá (dụng cụ)",
+        "confidence": "high",
+        "search_keywords": [
+          "đồ gá (dụng cụ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồ gá (dụng cụ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29267,
+    "word": "治水",
+    "kana": "ちすい",
+    "senses": [
+      {
+        "sense_id": 254861,
+        "meaning_vi": "quản lý sông; cải tạo sông; kiểm soát lũ lụt",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý sông",
+          "cải tạo sông",
+          "kiểm soát lũ lụt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý sông; cải tạo sông; kiểm soát lũ lụt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29268,
+    "word": "治癒",
+    "kana": "ちゆ",
+    "senses": [
+      {
+        "sense_id": 254862,
+        "meaning_vi": "đang lành lại; sự chữa bệnh; phục hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "đang lành lại",
+          "sự chữa bệnh",
+          "phục hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang lành lại; sự chữa bệnh; phục hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29269,
+    "word": "治療",
+    "kana": "ちりょう",
+    "senses": [
+      {
+        "sense_id": 254863,
+        "meaning_vi": "(y tế) điều trị; chăm sóc; trị liệu; sự chữa bệnh; phương thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "(y tế) điều trị",
+          "chăm sóc",
+          "trị liệu",
+          "sự chữa bệnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(y tế) điều trị; chăm sóc; trị liệu; sự chữa bệnh; phương thuốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29270,
+    "word": "爾後",
+    "kana": "じご",
+    "senses": [
+      {
+        "sense_id": 254864,
+        "meaning_vi": "sau đó",
+        "confidence": "high",
+        "search_keywords": [
+          "sau đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sau đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29271,
+    "word": "爾来",
+    "kana": "じらい",
+    "senses": [
+      {
+        "sense_id": 254865,
+        "meaning_vi": "kể từ đó; sau đó",
+        "confidence": "high",
+        "search_keywords": [
+          "kể từ đó",
+          "sau đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kể từ đó; sau đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29272,
+    "word": "璽",
+    "kana": "じ",
+    "senses": [
+      {
+        "sense_id": 254866,
+        "meaning_vi": "con dấu của hoàng đế",
+        "confidence": "high",
+        "search_keywords": [
+          "con dấu của hoàng đế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con dấu của hoàng đế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29273,
+    "word": "璽書",
+    "kana": "じしょ",
+    "senses": [
+      {
+        "sense_id": 254867,
+        "meaning_vi": "tài liệu có con dấu của hoàng đế",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu có con dấu của hoàng đế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu có con dấu của hoàng đế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29274,
+    "word": "痔核",
+    "kana": "じかく",
+    "senses": [
+      {
+        "sense_id": 254868,
+        "meaning_vi": "bệnh trĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "bệnh trĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bệnh trĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29275,
+    "word": "痔ろう",
+    "kana": "じろう",
+    "senses": [
+      {
+        "sense_id": 254869,
+        "meaning_vi": "lỗ rò hậu môn",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗ rò hậu môn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗ rò hậu môn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29276,
+    "word": "磁化",
+    "kana": "じか",
+    "senses": [
+      {
+        "sense_id": 254870,
+        "meaning_vi": "từ hóa; từ hóa",
+        "confidence": "high",
+        "search_keywords": [
+          "từ hóa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ hóa; từ hóa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29277,
+    "word": "磁界",
+    "kana": "じかい",
+    "senses": [
+      {
+        "sense_id": 254871,
+        "meaning_vi": "từ trường",
+        "confidence": "high",
+        "search_keywords": [
+          "từ trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 29278,
+    "word": "磁器",
+    "kana": "じき",
+    "senses": [
+      {
+        "sense_id": 254872,
+        "meaning_vi": "sứ; Trung Quốc; đồ sứ",
+        "confidence": "high",
+        "search_keywords": [
+          "sứ",
+          "Trung Quốc",
+          "đồ sứ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sứ; Trung Quốc; đồ sứ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

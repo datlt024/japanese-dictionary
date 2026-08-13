@@ -1,0 +1,553 @@
+[
+  {
+    "vocabulary_id": 33098,
+    "word": "状況によって",
+    "kana": "じょうきょうによって",
+    "senses": [
+      {
+        "sense_id": 260065,
+        "meaning_vi": "tùy theo tình hình; tùy theo hoàn cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "tùy theo tình hình",
+          "tùy theo hoàn cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tùy theo tình hình; tùy theo hoàn cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33099,
+    "word": "状態",
+    "kana": "じょうたい",
+    "senses": [
+      {
+        "sense_id": 260066,
+        "meaning_vi": "tình trạng; tình trạng; tình huống; vẻ bề ngoài; hoàn cảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng",
+          "tình huống",
+          "vẻ bề ngoài",
+          "hoàn cảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng; tình trạng; tình huống; vẻ bề ngoài; hoàn cảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33100,
+    "word": "畳",
+    "kana": "じょう",
+    "senses": [
+      {
+        "sense_id": 260067,
+        "meaning_vi": "chiếu tatami (đặc biệt là thước đo kích thước phòng, 1,82 m2 hoặc 1,54 m2)",
+        "confidence": "high",
+        "search_keywords": [
+          "chiếu tatami (đặc biệt là thước đo kích thước phòng, 1,82 m2 hoặc 1,54 m2)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiếu tatami (đặc biệt là thước đo kích thước phòng, 1,82 m2 hoặc 1,54 m2)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33101,
+    "word": "畳",
+    "kana": "たたみ",
+    "senses": [
+      {
+        "sense_id": 260068,
+        "meaning_vi": "chiếu tatami; Thảm trải sàn rơm Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "chiếu tatami",
+          "Thảm trải sàn rơm Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiếu tatami; Thảm trải sàn rơm Nhật Bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33102,
+    "word": "畳み掛ける",
+    "kana": "たたみかける",
+    "senses": [
+      {
+        "sense_id": 260069,
+        "meaning_vi": "không cho phép mất nhiều thời gian; nhấn (để có câu trả lời, v.v.); đi tắm (câu hỏi về ai đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "không cho phép mất nhiều thời gian",
+          "nhấn (để có câu trả lời, v.v.)",
+          "đi tắm (câu hỏi về ai đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không cho phép mất nhiều thời gian; nhấn (để có câu trả lời, v.v.); đi tắm (câu hỏi về ai đó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33103,
+    "word": "畳み込む",
+    "kana": "たたみこむ",
+    "senses": [
+      {
+        "sense_id": 260070,
+        "meaning_vi": "gấp vào; gấp lại; gấp (cái gì) lại và cất vào (tủ, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "gấp vào",
+          "gấp lại",
+          "gấp (cái gì) lại và cất vào (tủ, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gấp vào; gấp lại; gấp (cái gì) lại và cất vào (tủ, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260071,
+        "meaning_vi": "cất giữ trong lòng; ghi nhớ; để ghi nhớ",
+        "confidence": "high",
+        "search_keywords": [
+          "cất giữ trong lòng",
+          "ghi nhớ",
+          "để ghi nhớ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cất giữ trong lòng; ghi nhớ; để ghi nhớ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260072,
+        "meaning_vi": "làm liên tiếp nhanh chóng; làm không ngừng nghỉ",
+        "confidence": "high",
+        "search_keywords": [
+          "làm liên tiếp nhanh chóng",
+          "làm không ngừng nghỉ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm liên tiếp nhanh chóng; làm không ngừng nghỉ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33104,
+    "word": "畳む",
+    "kana": "たたむ",
+    "senses": [
+      {
+        "sense_id": 260073,
+        "meaning_vi": "gấp (quần áo, ô)",
+        "confidence": "high",
+        "search_keywords": [
+          "gấp (quần áo, ô)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gấp (quần áo, ô)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260074,
+        "meaning_vi": "đóng cửa (cửa hàng, cơ sở kinh doanh)",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng cửa (cửa hàng, cơ sở kinh doanh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng cửa (cửa hàng, cơ sở kinh doanh)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260075,
+        "meaning_vi": "bỏ trống",
+        "confidence": "high",
+        "search_keywords": [
+          "bỏ trống"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bỏ trống",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33105,
+    "word": "畳屋",
+    "kana": "たたみや",
+    "senses": [
+      {
+        "sense_id": 260076,
+        "meaning_vi": "người làm thảm; đại lý chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "người làm thảm",
+          "đại lý chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người làm thảm; đại lý chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33106,
+    "word": "畳語",
+    "kana": "じょうご",
+    "senses": [
+      {
+        "sense_id": 260077,
+        "meaning_vi": "sự lặp lại âm tiết (biểu thị số nhiều)",
+        "confidence": "high",
+        "search_keywords": [
+          "sự lặp lại âm tiết (biểu thị số nhiều)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự lặp lại âm tiết (biểu thị số nhiều)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33107,
+    "word": "畳字",
+    "kana": "じょうじ",
+    "senses": [
+      {
+        "sense_id": 260078,
+        "meaning_vi": "dấu lặp (dùng để thể hiện sự lặp lại của ký tự trước đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu lặp (dùng để thể hiện sự lặp lại của ký tự trước đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu lặp (dùng để thể hiện sự lặp lại của ký tự trước đó)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33108,
+    "word": "畳針",
+    "kana": "たたみばり",
+    "senses": [
+      {
+        "sense_id": 260079,
+        "meaning_vi": "kim chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "kim chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kim chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33109,
+    "word": "畳替え",
+    "kana": "たたみがえ",
+    "senses": [
+      {
+        "sense_id": 260080,
+        "meaning_vi": "làm mới thảm; thảm trải sàn",
+        "confidence": "high",
+        "search_keywords": [
+          "làm mới thảm",
+          "thảm trải sàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm mới thảm; thảm trải sàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33110,
+    "word": "畳表",
+    "kana": "たたみおもて",
+    "senses": [
+      {
+        "sense_id": 260081,
+        "meaning_vi": "đối diện với tấm chiếu tatami",
+        "confidence": "high",
+        "search_keywords": [
+          "đối diện với tấm chiếu tatami"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối diện với tấm chiếu tatami",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33111,
+    "word": "蒸かす",
+    "kana": "ふかす",
+    "senses": [
+      {
+        "sense_id": 260082,
+        "meaning_vi": "hấp (thức ăn)",
+        "confidence": "high",
+        "search_keywords": [
+          "hấp (thức ăn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hấp (thức ăn)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33112,
+    "word": "蒸ける",
+    "kana": "ふける",
+    "senses": [
+      {
+        "sense_id": 260083,
+        "meaning_vi": "sẵn sàng để ăn (do hấp)",
+        "confidence": "high",
+        "search_keywords": [
+          "sẵn sàng để ăn (do hấp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sẵn sàng để ăn (do hấp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33113,
+    "word": "蒸し暑い",
+    "kana": "むしあつい",
+    "senses": [
+      {
+        "sense_id": 260084,
+        "meaning_vi": "ẩm ướt; oi bức",
+        "confidence": "high",
+        "search_keywords": [
+          "ẩm ướt",
+          "oi bức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ẩm ướt; oi bức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33114,
+    "word": "蒸し蒸し",
+    "kana": "むしむし",
+    "senses": [
+      {
+        "sense_id": 260085,
+        "meaning_vi": "nóng và ẩm; oi bức; oi bức",
+        "confidence": "high",
+        "search_keywords": [
+          "nóng và ẩm",
+          "oi bức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nóng và ẩm; oi bức; oi bức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33115,
+    "word": "蒸し返す",
+    "kana": "むしかえす",
+    "senses": [
+      {
+        "sense_id": 260086,
+        "meaning_vi": "hâm nóng lại; để hấp hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "hâm nóng lại",
+          "để hấp hơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hâm nóng lại; để hấp hơn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260087,
+        "meaning_vi": "nhắc lại (vấn đề đã được giải quyết); để tiếp tục một lần nữa; kéo lên; để luyện lại",
+        "confidence": "high",
+        "search_keywords": [
+          "nhắc lại (vấn đề đã được giải quyết)",
+          "để tiếp tục một lần nữa",
+          "kéo lên",
+          "để luyện lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhắc lại (vấn đề đã được giải quyết); để tiếp tục một lần nữa; kéo lên; để luyện lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33116,
+    "word": "蒸す",
+    "kana": "むす",
+    "senses": [
+      {
+        "sense_id": 260088,
+        "meaning_vi": "để hấp (thức ăn, khăn, vv)",
+        "confidence": "high",
+        "search_keywords": [
+          "để hấp (thức ăn, khăn, vv)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hấp (thức ăn, khăn, vv)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260089,
+        "meaning_vi": "nóng và ẩm; trở nên oi bức",
+        "confidence": "high",
+        "search_keywords": [
+          "nóng và ẩm",
+          "trở nên oi bức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nóng và ẩm; trở nên oi bức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33117,
+    "word": "蒸らす",
+    "kana": "むらす",
+    "senses": [
+      {
+        "sense_id": 260090,
+        "meaning_vi": "nấu bằng hơi nước",
+        "confidence": "high",
+        "search_keywords": [
+          "nấu bằng hơi nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nấu bằng hơi nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

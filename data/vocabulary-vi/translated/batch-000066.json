@@ -1,533 +1,495 @@
 [
-{
-"vocabulary_id": 1718,
-"word": "アルブミン",
-"kana": "アルブミン",
-"senses": [
-{
-"sense_id": 219878,
-"meaning_vi": "albumin",
-"confidence": "high",
-"search_keywords": [
-"albumin",
-"protein albumin",
-"anbumin"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "albumin, loại protein tan trong nước có trong máu, trứng...",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1719,
-"word": "アルプス",
-"kana": "アルプス",
-"senses": [
-{
-"sense_id": 219879,
-"meaning_vi": "dãy Alps",
-"confidence": "high",
-"search_keywords": [
-"dãy Alps",
-"Alps",
-"Anpơ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dãy Alps ở châu Âu",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219880,
-"meaning_vi": "dãy núi cao",
-"confidence": "high",
-"search_keywords": [
-"dãy núi cao",
-"núi cao",
-"Alps"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dãy núi cao, thường được gọi ví như Alps",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1720,
-"word": "アルペジオ",
-"kana": "アルペジオ",
-"senses": [
-{
-"sense_id": 219881,
-"meaning_vi": "hợp âm rải",
-"confidence": "high",
-"search_keywords": [
-"hợp âm rải",
-"arpeggio",
-"rải hợp âm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kỹ thuật chơi các nốt của hợp âm lần lượt thay vì cùng lúc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1721,
-"word": "アルマジロ",
-"kana": "アルマジロ",
-"senses": [
-{
-"sense_id": 219882,
-"meaning_vi": "tatu",
-"confidence": "high",
-"search_keywords": [
-"tatu",
-"armadillo",
-"con tatu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tatu; loài thú có mai giáp cứng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1722,
-"word": "アルマナック",
-"kana": "アルマナック",
-"senses": [
-{
-"sense_id": 219883,
-"meaning_vi": "niên giám",
-"confidence": "high",
-"search_keywords": [
-"niên giám",
-"lịch niên giám",
-"almanac"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sách niên giám chứa lịch, số liệu hoặc thông tin theo năm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1723,
-"word": "アルマニャック",
-"kana": "アルマニャック",
-"senses": [
-{
-"sense_id": 219884,
-"meaning_vi": "rượu Armagnac",
-"confidence": "high",
-"search_keywords": [
-"rượu Armagnac",
-"Armagnac",
-"brandy Pháp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Armagnac, loại brandy vùng Gascony của Pháp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1724,
-"word": "アルミ",
-"kana": "アルミ",
-"senses": [
-{
-"sense_id": 219885,
-"meaning_vi": "nhôm",
-"confidence": "high",
-"search_keywords": [
-"nhôm",
-"aluminum",
-"aluminium"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "viết tắt của aluminium; nhôm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1725,
-"word": "アルミサッシ",
-"kana": "アルミサッシ",
-"senses": [
-{
-"sense_id": 219886,
-"meaning_vi": "khung nhôm",
-"confidence": "high",
-"search_keywords": [
-"khung nhôm",
-"khung cửa nhôm",
-"aluminium sash"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khung cửa hoặc cánh cửa làm bằng nhôm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1726,
-"word": "アルミナ",
-"kana": "アルミナ",
-"senses": [
-{
-"sense_id": 219887,
-"meaning_vi": "alumina",
-"confidence": "high",
-"search_keywords": [
-"alumina",
-"nhôm oxit",
-"aluminum oxide"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "alumina; nhôm oxit",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1727,
-"word": "アルミニウム",
-"kana": "アルミニウム",
-"senses": [
-{
-"sense_id": 219888,
-"meaning_vi": "nhôm",
-"confidence": "high",
-"search_keywords": [
-"nhôm",
-"aluminium",
-"Al"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nguyên tố kim loại nhôm, ký hiệu Al",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1728,
-"word": "アルミホイル",
-"kana": "アルミホイル",
-"senses": [
-{
-"sense_id": 219889,
-"meaning_vi": "giấy bạc",
-"confidence": "high",
-"search_keywords": [
-"giấy bạc",
-"giấy nhôm",
-"aluminum foil"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "giấy nhôm mỏng dùng để bọc hoặc nướng thực phẩm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1729,
-"word": "アル中",
-"kana": "アルちゅう",
-"senses": [
-{
-"sense_id": 219890,
-"meaning_vi": "nghiện rượu",
-"confidence": "high",
-"search_keywords": [
-"nghiện rượu",
-"người nghiện rượu",
-"alcoholism"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "viết tắt của alcohol dependency; nghiện rượu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1730,
-"word": "アレイ",
-"kana": "アレイ",
-"senses": [
-{
-"sense_id": 219891,
-"meaning_vi": "mảng",
-"confidence": "high",
-"search_keywords": [
-"mảng",
-"array",
-"dãy"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mảng; tập hợp phần tử được sắp theo thứ tự",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1731,
-"word": "アレキサンドライト",
-"kana": "アレキサンドライト",
-"senses": [
-{
-"sense_id": 219892,
-"meaning_vi": "alexandrite",
-"confidence": "high",
-"search_keywords": [
-"alexandrite",
-"đá alexandrite",
-"kim lục bảo biến sắc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đá quý alexandrite có khả năng đổi màu theo ánh sáng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1732,
-"word": "アレグレット",
-"kana": "アレグレット",
-"senses": [
-{
-"sense_id": 219893,
-"meaning_vi": "allegretto",
-"confidence": "high",
-"search_keywords": [
-"allegretto",
-"nhịp hơi nhanh",
-"thuật ngữ âm nhạc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhịp độ hơi nhanh, chậm hơn allegro",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1733,
-"word": "アレグロ",
-"kana": "アレグロ",
-"senses": [
-{
-"sense_id": 219894,
-"meaning_vi": "allegro",
-"confidence": "high",
-"search_keywords": [
-"allegro",
-"nhịp nhanh",
-"thuật ngữ âm nhạc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhịp độ nhanh, vui tươi trong âm nhạc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1734,
-"word": "アレゴリー",
-"kana": "アレゴリー",
-"senses": [
-{
-"sense_id": 219895,
-"meaning_vi": "phúng dụ",
-"confidence": "high",
-"search_keywords": [
-"phúng dụ",
-"ẩn dụ kéo dài",
-"allegory"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hình thức biểu đạt dùng câu chuyện hoặc hình ảnh để ngụ ý ý nghĩa sâu xa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1735,
-"word": "アレルギー",
-"kana": "アレルギー",
-"senses": [
-{
-"sense_id": 219896,
-"meaning_vi": "dị ứng",
-"confidence": "high",
-"search_keywords": [
-"dị ứng",
-"allergy",
-"mẫn cảm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phản ứng dị ứng của cơ thể với tác nhân nhất định",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219897,
-"meaning_vi": "ác cảm",
-"confidence": "high",
-"search_keywords": [
-"ác cảm",
-"dị ứng với",
-"ghét cay ghét đắng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự ác cảm hoặc khó chịu mạnh đối với điều gì",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1736,
-"word": "アレンジ",
-"kana": "アレンジ",
-"senses": [
-{
-"sense_id": 219898,
-"meaning_vi": "biên soạn lại",
-"confidence": "high",
-"search_keywords": [
-"biên soạn lại",
-"chuyển soạn",
-"phóng tác"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chuyển soạn nhạc; phóng tác hoặc biến tấu tác phẩm, công thức...",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219899,
-"meaning_vi": "sắp xếp",
-"confidence": "high",
-"search_keywords": [
-"sắp xếp",
-"bố trí",
-"tổ chức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sắp xếp đồ vật, cuộc họp hoặc kế hoạch",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1737,
-"word": "アレンジメント",
-"kana": "アレンジメント",
-"senses": [
-{
-"sense_id": 219900,
-"meaning_vi": "sự sắp xếp",
-"confidence": "high",
-"search_keywords": [
-"sự sắp xếp",
-"bố trí",
-"arrangement"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sự sắp xếp, bố trí hoặc chuyển soạn",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1718,
+    "word": "アルブミン",
+    "kana": "アルブミン",
+    "senses": [
+      {
+        "sense_id": 219878,
+        "meaning_vi": "anbumin",
+        "confidence": "high",
+        "search_keywords": [
+          "anbumin"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anbumin",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1719,
+    "word": "アルプス",
+    "kana": "アルプス",
+    "senses": [
+      {
+        "sense_id": 219879,
+        "meaning_vi": "dãy Alps",
+        "confidence": "high",
+        "search_keywords": [
+          "dãy Alps"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dãy Alps",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219880,
+        "meaning_vi": "dãy núi cao",
+        "confidence": "high",
+        "search_keywords": [
+          "dãy núi cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dãy núi cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1720,
+    "word": "アルペジオ",
+    "kana": "アルペジオ",
+    "senses": [
+      {
+        "sense_id": 219881,
+        "meaning_vi": "hợp âm rải",
+        "confidence": "high",
+        "search_keywords": [
+          "hợp âm rải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hợp âm rải",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1721,
+    "word": "アルマジロ",
+    "kana": "アルマジロ",
+    "senses": [
+      {
+        "sense_id": 219882,
+        "meaning_vi": "Armadillo",
+        "confidence": "low",
+        "search_keywords": [
+          "Armadillo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Armadillo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1722,
+    "word": "アルマナック",
+    "kana": "アルマナック",
+    "senses": [
+      {
+        "sense_id": 219883,
+        "meaning_vi": "niên giám",
+        "confidence": "high",
+        "search_keywords": [
+          "niên giám"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "niên giám",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1723,
+    "word": "アルマニャック",
+    "kana": "アルマニャック",
+    "senses": [
+      {
+        "sense_id": 219884,
+        "meaning_vi": "rượu Armagnac",
+        "confidence": "high",
+        "search_keywords": [
+          "rượu Armagnac"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rượu Armagnac",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1724,
+    "word": "アルミ",
+    "kana": "アルミ",
+    "senses": [
+      {
+        "sense_id": 219885,
+        "meaning_vi": "nhôm; nhôm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhôm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhôm; nhôm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1725,
+    "word": "アルミサッシ",
+    "kana": "アルミサッシ",
+    "senses": [
+      {
+        "sense_id": 219886,
+        "meaning_vi": "khung nhôm; khung nhôm; khung cửa sổ nhôm",
+        "confidence": "high",
+        "search_keywords": [
+          "khung nhôm",
+          "khung cửa sổ nhôm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khung nhôm; khung nhôm; khung cửa sổ nhôm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1726,
+    "word": "アルミナ",
+    "kana": "アルミナ",
+    "senses": [
+      {
+        "sense_id": 219887,
+        "meaning_vi": "nhôm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhôm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhôm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1727,
+    "word": "アルミニウム",
+    "kana": "アルミニウム",
+    "senses": [
+      {
+        "sense_id": 219888,
+        "meaning_vi": "nhôm (Al); nhôm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhôm (Al)",
+          "nhôm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhôm (Al); nhôm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1728,
+    "word": "アルミホイル",
+    "kana": "アルミホイル",
+    "senses": [
+      {
+        "sense_id": 219889,
+        "meaning_vi": "lá nhôm; lá nhôm; lá thiếc",
+        "confidence": "high",
+        "search_keywords": [
+          "lá nhôm",
+          "lá thiếc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lá nhôm; lá nhôm; lá thiếc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1729,
+    "word": "アル中",
+    "kana": "アルちゅう",
+    "senses": [
+      {
+        "sense_id": 219890,
+        "meaning_vi": "chứng nghiện rượu",
+        "confidence": "high",
+        "search_keywords": [
+          "chứng nghiện rượu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chứng nghiện rượu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1730,
+    "word": "アレイ",
+    "kana": "アレイ",
+    "senses": [
+      {
+        "sense_id": 219891,
+        "meaning_vi": "mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1731,
+    "word": "アレキサンドライト",
+    "kana": "アレキサンドライト",
+    "senses": [
+      {
+        "sense_id": 219892,
+        "meaning_vi": "alexandrite",
+        "confidence": "low",
+        "search_keywords": [
+          "alexandrite"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "alexandrite",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1732,
+    "word": "アレグレット",
+    "kana": "アレグレット",
+    "senses": [
+      {
+        "sense_id": 219893,
+        "meaning_vi": "lời phàn nàn",
+        "confidence": "high",
+        "search_keywords": [
+          "lời phàn nàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời phàn nàn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1733,
+    "word": "アレグロ",
+    "kana": "アレグロ",
+    "senses": [
+      {
+        "sense_id": 219894,
+        "meaning_vi": "lời nói tục tĩu",
+        "confidence": "high",
+        "search_keywords": [
+          "lời nói tục tĩu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời nói tục tĩu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1734,
+    "word": "アレゴリー",
+    "kana": "アレゴリー",
+    "senses": [
+      {
+        "sense_id": 219895,
+        "meaning_vi": "câu chuyện ngụ ngôn",
+        "confidence": "high",
+        "search_keywords": [
+          "câu chuyện ngụ ngôn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu chuyện ngụ ngôn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1735,
+    "word": "アレルギー",
+    "kana": "アレルギー",
+    "senses": [
+      {
+        "sense_id": 219896,
+        "meaning_vi": "dị ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "dị ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dị ứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219897,
+        "meaning_vi": "ác cảm (với); sự chán ghét mạnh mẽ (đối với)",
+        "confidence": "high",
+        "search_keywords": [
+          "ác cảm (với)",
+          "sự chán ghét mạnh mẽ (đối với)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ác cảm (với); sự chán ghét mạnh mẽ (đối với)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1736,
+    "word": "アレンジ",
+    "kana": "アレンジ",
+    "senses": [
+      {
+        "sense_id": 219898,
+        "meaning_vi": "sự sắp xếp (của âm nhạc); chuyển thể (của một câu chuyện, công thức, v.v.); giải thích; lấy",
+        "confidence": "high",
+        "search_keywords": [
+          "sự sắp xếp (của âm nhạc)",
+          "chuyển thể (của một câu chuyện, công thức, v.v.)",
+          "giải thích",
+          "lấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự sắp xếp (của âm nhạc); chuyển thể (của một câu chuyện, công thức, v.v.); giải thích; lấy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219899,
+        "meaning_vi": "sắp xếp (đồ vật, cuộc họp, v.v.); tổ chức",
+        "confidence": "high",
+        "search_keywords": [
+          "sắp xếp (đồ vật, cuộc họp, v.v.)",
+          "tổ chức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắp xếp (đồ vật, cuộc họp, v.v.); tổ chức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1737,
+    "word": "アレンジメント",
+    "kana": "アレンジメント",
+    "senses": [
+      {
+        "sense_id": 219900,
+        "meaning_vi": "sắp xếp",
+        "confidence": "high",
+        "search_keywords": [
+          "sắp xếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sắp xếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

@@ -1,0 +1,562 @@
+[
+  {
+    "vocabulary_id": 151427,
+    "word": "適応的差分パルス符号変調",
+    "kana": "てきおうてきさぶんパルスふごうへんちょう",
+    "senses": [
+      {
+        "sense_id": 397293,
+        "meaning_vi": "điều chế mã xung vi phân thích ứng; DPCM thích ứng; ADPCM",
+        "confidence": "high",
+        "search_keywords": [
+          "điều chế mã xung vi phân thích ứng",
+          "DPCM thích ứng",
+          "ADPCM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều chế mã xung vi phân thích ứng; DPCM thích ứng; ADPCM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151428,
+    "word": "適応的期待",
+    "kana": "てきおうてききたい",
+    "senses": [
+      {
+        "sense_id": 397294,
+        "meaning_vi": "kỳ vọng thích ứng",
+        "confidence": "high",
+        "search_keywords": [
+          "kỳ vọng thích ứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỳ vọng thích ứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151429,
+    "word": "着れる",
+    "kana": "きれる",
+    "senses": [
+      {
+        "sense_id": 397295,
+        "meaning_vi": "có thể mặc được; để phù hợp với",
+        "confidence": "high",
+        "search_keywords": [
+          "có thể mặc được",
+          "để phù hợp với"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có thể mặc được; để phù hợp với",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151430,
+    "word": "中辛",
+    "kana": "ちゅうから",
+    "senses": [
+      {
+        "sense_id": 397296,
+        "meaning_vi": "cay vừa",
+        "confidence": "high",
+        "search_keywords": [
+          "cay vừa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cay vừa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151431,
+    "word": "息が切れる",
+    "kana": "いきがきれる",
+    "senses": [
+      {
+        "sense_id": 397297,
+        "meaning_vi": "hết hơi; khó thở; mất hơi thở",
+        "confidence": "high",
+        "search_keywords": [
+          "hết hơi",
+          "khó thở",
+          "mất hơi thở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hết hơi; khó thở; mất hơi thở",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 397298,
+        "meaning_vi": "hết hơi; không thể tiếp tục; sụp đổ",
+        "confidence": "high",
+        "search_keywords": [
+          "hết hơi",
+          "không thể tiếp tục",
+          "sụp đổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hết hơi; không thể tiếp tục; sụp đổ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 397299,
+        "meaning_vi": "chết",
+        "confidence": "high",
+        "search_keywords": [
+          "chết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151432,
+    "word": "し所",
+    "kana": "しどころ",
+    "senses": [
+      {
+        "sense_id": 397300,
+        "meaning_vi": "thời điểm thích hợp để làm (việc gì đó); dịp khi (điều gì đó) phải được thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "thời điểm thích hợp để làm (việc gì đó)",
+          "dịp khi (điều gì đó) phải được thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời điểm thích hợp để làm (việc gì đó); dịp khi (điều gì đó) phải được thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151433,
+    "word": "大辛",
+    "kana": "おおから",
+    "senses": [
+      {
+        "sense_id": 397301,
+        "meaning_vi": "rất cay",
+        "confidence": "high",
+        "search_keywords": [
+          "rất cay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất cay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151434,
+    "word": "小辛",
+    "kana": "こがら",
+    "senses": [
+      {
+        "sense_id": 397302,
+        "meaning_vi": "hơi cay",
+        "confidence": "high",
+        "search_keywords": [
+          "hơi cay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hơi cay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151435,
+    "word": "津液",
+    "kana": "しんえき",
+    "senses": [
+      {
+        "sense_id": 397303,
+        "meaning_vi": "nước bọt; nhổ; nước dãi",
+        "confidence": "high",
+        "search_keywords": [
+          "nước bọt",
+          "nhổ",
+          "nước dãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nước bọt; nhổ; nước dãi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 397304,
+        "meaning_vi": "chất lỏng (trong y học Trung Quốc, đặc biệt là chất lỏng không màu của cơ thể, ví dụ như nước mắt)",
+        "confidence": "high",
+        "search_keywords": [
+          "chất lỏng (trong y học Trung Quốc, đặc biệt là chất lỏng không màu của cơ thể, ví dụ như nước mắt)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất lỏng (trong y học Trung Quốc, đặc biệt là chất lỏng không màu của cơ thể, ví dụ như nước mắt)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151436,
+    "word": "気血水",
+    "kana": "きけっすい",
+    "senses": [
+      {
+        "sense_id": 397305,
+        "meaning_vi": "sinh lực, máu và dịch cơ thể không màu (ba yếu tố cấu thành nên cơ thể theo y học cổ truyền Trung Quốc)",
+        "confidence": "high",
+        "search_keywords": [
+          "sinh lực, máu và dịch cơ thể không màu (ba yếu tố cấu thành nên cơ thể theo y học cổ truyền Trung Quốc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sinh lực, máu và dịch cơ thể không màu (ba yếu tố cấu thành nên cơ thể theo y học cổ truyền Trung Quốc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151437,
+    "word": "四気",
+    "kana": "しき",
+    "senses": [
+      {
+        "sense_id": 397306,
+        "meaning_vi": "Thời tiết bốn mùa (ấm của mùa xuân, nóng của mùa hè, mát của mùa thu và lạnh của mùa đông)",
+        "confidence": "high",
+        "search_keywords": [
+          "Thời tiết bốn mùa (ấm của mùa xuân, nóng của mùa hè, mát của mùa thu và lạnh của mùa đông)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thời tiết bốn mùa (ấm của mùa xuân, nóng của mùa hè, mát của mùa thu và lạnh của mùa đông)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151438,
+    "word": "八端織り",
+    "kana": "はったんおり",
+    "senses": [
+      {
+        "sense_id": 397307,
+        "meaning_vi": "vải chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "vải chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vải chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151439,
+    "word": "七情",
+    "kana": "しちじょう",
+    "senses": [
+      {
+        "sense_id": 397308,
+        "meaning_vi": "bảy cảm xúc (trong Kinh Lễ: vui, giận, buồn, sợ, yêu, ghét, ham muốn); bảy cảm xúc (trong Phật giáo: vui, giận, buồn, vui, yêu, ghét, ham muốn)",
+        "confidence": "high",
+        "search_keywords": [
+          "bảy cảm xúc (trong Kinh Lễ: vui, giận, buồn, sợ, yêu, ghét, ham muốn)",
+          "bảy cảm xúc (trong Phật giáo: vui, giận, buồn, vui, yêu, ghét, ham muốn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảy cảm xúc (trong Kinh Lễ: vui, giận, buồn, sợ, yêu, ghét, ham muốn); bảy cảm xúc (trong Phật giáo: vui, giận, buồn, vui, yêu, ghét, ham muốn)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 397309,
+        "meaning_vi": "bảy tác dụng (của một loại thuốc cổ truyền Trung Quốc)",
+        "confidence": "high",
+        "search_keywords": [
+          "bảy tác dụng (của một loại thuốc cổ truyền Trung Quốc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảy tác dụng (của một loại thuốc cổ truyền Trung Quốc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151440,
+    "word": "陰",
+    "kana": "ほと",
+    "senses": [
+      {
+        "sense_id": 397310,
+        "meaning_vi": "bộ phận riêng tư của phụ nữ; bộ phận sinh dục nữ",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ phận riêng tư của phụ nữ",
+          "bộ phận sinh dục nữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ phận riêng tư của phụ nữ; bộ phận sinh dục nữ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151441,
+    "word": "六気",
+    "kana": "ろっき",
+    "senses": [
+      {
+        "sense_id": 397311,
+        "meaning_vi": "âm, dương, gió, mưa, bóng tối, ánh sáng",
+        "confidence": "high",
+        "search_keywords": [
+          "âm, dương, gió, mưa, bóng tối, ánh sáng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "âm, dương, gió, mưa, bóng tối, ánh sáng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 397312,
+        "meaning_vi": "lạnh, nhiệt, khô, ẩm ướt, gió, ngọn lửa",
+        "confidence": "high",
+        "search_keywords": [
+          "lạnh, nhiệt, khô, ẩm ướt, gió, ngọn lửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lạnh, nhiệt, khô, ẩm ướt, gió, ngọn lửa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 397313,
+        "meaning_vi": "sáu cảm xúc (vui, giận, buồn, vui, yêu, ghét)",
+        "confidence": "high",
+        "search_keywords": [
+          "sáu cảm xúc (vui, giận, buồn, vui, yêu, ghét)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sáu cảm xúc (vui, giận, buồn, vui, yêu, ghét)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151442,
+    "word": "六淫",
+    "kana": "ろくいん",
+    "senses": [
+      {
+        "sense_id": 397316,
+        "meaning_vi": "Sáu nguyên nhân bên ngoài gây bệnh trong y học cổ truyền Trung Quốc (gió, lạnh, lửa/nhiệt, ẩm ướt, khô ráo, nóng nực của mùa hè)",
+        "confidence": "high",
+        "search_keywords": [
+          "Sáu nguyên nhân bên ngoài gây bệnh trong y học cổ truyền Trung Quốc (gió, lạnh, lửa/nhiệt, ẩm ướt, khô ráo, nóng nực của mùa hè)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Sáu nguyên nhân bên ngoài gây bệnh trong y học cổ truyền Trung Quốc (gió, lạnh, lửa/nhiệt, ẩm ướt, khô ráo, nóng nực của mùa hè)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151443,
+    "word": "誇大宣伝",
+    "kana": "こだいせんでん",
+    "senses": [
+      {
+        "sense_id": 397317,
+        "meaning_vi": "quảng cáo phóng đại; quảng cáo thổi phồng quá mức; cường điệu",
+        "confidence": "high",
+        "search_keywords": [
+          "quảng cáo phóng đại",
+          "quảng cáo thổi phồng quá mức",
+          "cường điệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quảng cáo phóng đại; quảng cáo thổi phồng quá mức; cường điệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151444,
+    "word": "詩神",
+    "kana": "ししん",
+    "senses": [
+      {
+        "sense_id": 397318,
+        "meaning_vi": "các Muses; nhà thơ vĩ đại",
+        "confidence": "high",
+        "search_keywords": [
+          "các Muses",
+          "nhà thơ vĩ đại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "các Muses; nhà thơ vĩ đại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151445,
+    "word": "詩書",
+    "kana": "ししょ",
+    "senses": [
+      {
+        "sense_id": 397319,
+        "meaning_vi": "tập thơ",
+        "confidence": "high",
+        "search_keywords": [
+          "tập thơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập thơ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 397320,
+        "meaning_vi": "Kinh điển của thơ ca và Kinh điển của lịch sử (văn bản Trung Quốc)",
+        "confidence": "high",
+        "search_keywords": [
+          "Kinh điển của thơ ca và Kinh điển của lịch sử (văn bản Trung Quốc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kinh điển của thơ ca và Kinh điển của lịch sử (văn bản Trung Quốc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 151446,
+    "word": "試験片",
+    "kana": "しけんへん",
+    "senses": [
+      {
+        "sense_id": 397321,
+        "meaning_vi": "mẫu thử; mẫu thử",
+        "confidence": "high",
+        "search_keywords": [
+          "mẫu thử"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mẫu thử; mẫu thử",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

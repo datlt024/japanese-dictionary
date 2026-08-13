@@ -1,0 +1,449 @@
+[
+  {
+    "vocabulary_id": 123143,
+    "word": "逆方向通信路",
+    "kana": "ぎゃくほうこうつうしんろ",
+    "senses": [
+      {
+        "sense_id": 366766,
+        "meaning_vi": "kênh lạc hậu",
+        "confidence": "high",
+        "search_keywords": [
+          "kênh lạc hậu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kênh lạc hậu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123144,
+    "word": "逆方向読取り",
+    "kana": "ぎゃくほうこうよみとり",
+    "senses": [
+      {
+        "sense_id": 366767,
+        "meaning_vi": "đọc ngược",
+        "confidence": "high",
+        "search_keywords": [
+          "đọc ngược"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đọc ngược",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123145,
+    "word": "休止状態",
+    "kana": "きゅうしじょうたい",
+    "senses": [
+      {
+        "sense_id": 366768,
+        "meaning_vi": "ngủ đông",
+        "confidence": "high",
+        "search_keywords": [
+          "ngủ đông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngủ đông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123146,
+    "word": "急速充電",
+    "kana": "きゅうそくじゅうでん",
+    "senses": [
+      {
+        "sense_id": 366769,
+        "meaning_vi": "sạc nhanh",
+        "confidence": "high",
+        "search_keywords": [
+          "sạc nhanh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sạc nhanh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123147,
+    "word": "給送",
+    "kana": "きゅうそう",
+    "senses": [
+      {
+        "sense_id": 366770,
+        "meaning_vi": "thức ăn",
+        "confidence": "high",
+        "search_keywords": [
+          "thức ăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thức ăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123148,
+    "word": "旧ＪＩＳ漢字コード",
+    "kana": "きゅうジェーアイエスかんじコード",
+    "senses": [
+      {
+        "sense_id": 366771,
+        "meaning_vi": "mã ký tự kanji JIS cũ",
+        "confidence": "high",
+        "search_keywords": [
+          "mã ký tự kanji JIS cũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã ký tự kanji JIS cũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123149,
+    "word": "旧バージョン",
+    "kana": "きゅうバージョン",
+    "senses": [
+      {
+        "sense_id": 366772,
+        "meaning_vi": "phiên bản cũ; phiên bản trước",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên bản cũ",
+          "phiên bản trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên bản cũ; phiên bản trước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123150,
+    "word": "許可信号",
+    "kana": "きょかしんごう",
+    "senses": [
+      {
+        "sense_id": 366773,
+        "meaning_vi": "tín hiệu kích hoạt",
+        "confidence": "high",
+        "search_keywords": [
+          "tín hiệu kích hoạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tín hiệu kích hoạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123151,
+    "word": "許諾契約",
+    "kana": "きょだくけいやく",
+    "senses": [
+      {
+        "sense_id": 366774,
+        "meaning_vi": "thỏa thuận cấp phép",
+        "confidence": "high",
+        "search_keywords": [
+          "thỏa thuận cấp phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thỏa thuận cấp phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123152,
+    "word": "許容情報速度",
+    "kana": "きょようじょうほうそくど",
+    "senses": [
+      {
+        "sense_id": 366775,
+        "meaning_vi": "tốc độ thông tin cho phép",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ thông tin cho phép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ thông tin cho phép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123153,
+    "word": "供給停止",
+    "kana": "きょうきゅうていし",
+    "senses": [
+      {
+        "sense_id": 366776,
+        "meaning_vi": "mất điện",
+        "confidence": "high",
+        "search_keywords": [
+          "mất điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mất điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123154,
+    "word": "競合アクセス業者",
+    "kana": "きょうごうアクセスぎょうしゃ",
+    "senses": [
+      {
+        "sense_id": 366777,
+        "meaning_vi": "CAP; Nhà cung cấp quyền truy cập cạnh tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "CAP",
+          "Nhà cung cấp quyền truy cập cạnh tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "CAP; Nhà cung cấp quyền truy cập cạnh tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123155,
+    "word": "競合整理処理",
+    "kana": "きょうごうせいりしょり",
+    "senses": [
+      {
+        "sense_id": 366778,
+        "meaning_vi": "xử lý kiểm soát cạnh tranh",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý kiểm soát cạnh tranh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý kiểm soát cạnh tranh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123156,
+    "word": "共存するサービス要素",
+    "kana": "きょうぞんするサービスようそ",
+    "senses": [
+      {
+        "sense_id": 366779,
+        "meaning_vi": "yếu tố dịch vụ cộng sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu tố dịch vụ cộng sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu tố dịch vụ cộng sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123157,
+    "word": "共存セグメント",
+    "kana": "きょうぞんセグメント",
+    "senses": [
+      {
+        "sense_id": 366780,
+        "meaning_vi": "phân khúc cùng tồn tại",
+        "confidence": "high",
+        "search_keywords": [
+          "phân khúc cùng tồn tại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân khúc cùng tồn tại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123158,
+    "word": "共通アプリケーション環境",
+    "kana": "きょうつうアプリケーションかんきょう",
+    "senses": [
+      {
+        "sense_id": 366781,
+        "meaning_vi": "CAE; Môi trường ứng dụng chung",
+        "confidence": "high",
+        "search_keywords": [
+          "CAE",
+          "Môi trường ứng dụng chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "CAE; Môi trường ứng dụng chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123159,
+    "word": "共通オブジェクトリクエストブローカアーキテクチャ",
+    "kana": "きょうつうオブジェクトリクエストブローカアーキテクチャ",
+    "senses": [
+      {
+        "sense_id": 366782,
+        "meaning_vi": "Kiến trúc môi giới yêu cầu đối tượng chung; CORBA",
+        "confidence": "high",
+        "search_keywords": [
+          "Kiến trúc môi giới yêu cầu đối tượng chung",
+          "CORBA"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Kiến trúc môi giới yêu cầu đối tượng chung; CORBA",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123160,
+    "word": "共通システム領域",
+    "kana": "きょうつうシステムりょういき",
+    "senses": [
+      {
+        "sense_id": 366783,
+        "meaning_vi": "CSA; Khu vực dịch vụ chung; Khu vực hệ thống chung",
+        "confidence": "high",
+        "search_keywords": [
+          "CSA",
+          "Khu vực dịch vụ chung",
+          "Khu vực hệ thống chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "CSA; Khu vực dịch vụ chung; Khu vực hệ thống chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123161,
+    "word": "共通セグメント",
+    "kana": "きょうつうセグメント",
+    "senses": [
+      {
+        "sense_id": 366784,
+        "meaning_vi": "đoạn chung",
+        "confidence": "high",
+        "search_keywords": [
+          "đoạn chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đoạn chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123162,
+    "word": "共通デスクトップ環境",
+    "kana": "きょうつうデスクトップかんきょう",
+    "senses": [
+      {
+        "sense_id": 366785,
+        "meaning_vi": "CDE; Môi trường máy tính để bàn chung",
+        "confidence": "high",
+        "search_keywords": [
+          "CDE",
+          "Môi trường máy tính để bàn chung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "CDE; Môi trường máy tính để bàn chung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,495 @@
+[
+  {
+    "vocabulary_id": 120813,
+    "word": "ＰＤＦ",
+    "kana": "ピー・ディー・エフ",
+    "senses": [
+      {
+        "sense_id": 364408,
+        "meaning_vi": "PDF; Định dạng tài liệu di động",
+        "confidence": "high",
+        "search_keywords": [
+          "PDF",
+          "Định dạng tài liệu di động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "PDF; Định dạng tài liệu di động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120814,
+    "word": "ＰＤＭ",
+    "kana": "ピー・ディー・エム",
+    "senses": [
+      {
+        "sense_id": 364409,
+        "meaning_vi": "quản lý dữ liệu sản phẩm; PDM",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý dữ liệu sản phẩm",
+          "PDM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý dữ liệu sản phẩm; PDM",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364410,
+        "meaning_vi": "điều chế mật độ xung",
+        "confidence": "high",
+        "search_keywords": [
+          "điều chế mật độ xung"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điều chế mật độ xung",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120815,
+    "word": "ＰＰＰ",
+    "kana": "ピー・ピー・ピー",
+    "senses": [
+      {
+        "sense_id": 364411,
+        "meaning_vi": "hợp tác công tư; PPP",
+        "confidence": "high",
+        "search_keywords": [
+          "hợp tác công tư",
+          "PPP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hợp tác công tư; PPP",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364412,
+        "meaning_vi": "giao thức điểm-điểm; PPP",
+        "confidence": "high",
+        "search_keywords": [
+          "giao thức điểm-điểm",
+          "PPP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao thức điểm-điểm; PPP",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 364413,
+        "meaning_vi": "Nguyên tắc người gây ô nhiễm phải trả tiền; PPP",
+        "confidence": "high",
+        "search_keywords": [
+          "Nguyên tắc người gây ô nhiễm phải trả tiền",
+          "PPP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nguyên tắc người gây ô nhiễm phải trả tiền; PPP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120816,
+    "word": "ＰＲＯＭ",
+    "kana": "ピーロム",
+    "senses": [
+      {
+        "sense_id": 364414,
+        "meaning_vi": "KHUYẾN MÃI; bộ nhớ chỉ đọc có thể lập trình",
+        "confidence": "high",
+        "search_keywords": [
+          "KHUYẾN MÃI",
+          "bộ nhớ chỉ đọc có thể lập trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "KHUYẾN MÃI; bộ nhớ chỉ đọc có thể lập trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120817,
+    "word": "ピア",
+    "kana": "ピア",
+    "senses": [
+      {
+        "sense_id": 364415,
+        "meaning_vi": "ngang hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "ngang hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngang hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120818,
+    "word": "ピアアドレシッング",
+    "kana": "ピアアドレシッング",
+    "senses": [
+      {
+        "sense_id": 364416,
+        "meaning_vi": "địa chỉ ngang hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ ngang hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ ngang hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120819,
+    "word": "ピアキャッシュ",
+    "kana": "ピアキャッシュ",
+    "senses": [
+      {
+        "sense_id": 364417,
+        "meaning_vi": "bộ nhớ đệm ngang hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ đệm ngang hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ đệm ngang hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120820,
+    "word": "ピアグループリーダ",
+    "kana": "ピアグループリーダ",
+    "senses": [
+      {
+        "sense_id": 364418,
+        "meaning_vi": "trưởng nhóm đồng đẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "trưởng nhóm đồng đẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trưởng nhóm đồng đẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120821,
+    "word": "ピアシステム",
+    "kana": "ピアシステム",
+    "senses": [
+      {
+        "sense_id": 364419,
+        "meaning_vi": "hệ thống ngang hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống ngang hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống ngang hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120822,
+    "word": "ピアツーピア",
+    "kana": "ピアツーピア",
+    "senses": [
+      {
+        "sense_id": 364420,
+        "meaning_vi": "ngang hàng; P2P",
+        "confidence": "high",
+        "search_keywords": [
+          "ngang hàng",
+          "P2P"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngang hàng; P2P",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120823,
+    "word": "ピクセルシェーダ",
+    "kana": "ピクセルシェーダ",
+    "senses": [
+      {
+        "sense_id": 364421,
+        "meaning_vi": "trình đổ bóng pixel",
+        "confidence": "high",
+        "search_keywords": [
+          "trình đổ bóng pixel"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình đổ bóng pixel",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120824,
+    "word": "ピクチャーインピクチャー",
+    "kana": "ピクチャーインピクチャー",
+    "senses": [
+      {
+        "sense_id": 364422,
+        "meaning_vi": "hình ảnh trong hình; PiP",
+        "confidence": "high",
+        "search_keywords": [
+          "hình ảnh trong hình",
+          "PiP"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình ảnh trong hình; PiP",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120825,
+    "word": "ピコ秒",
+    "kana": "ピコびょう",
+    "senses": [
+      {
+        "sense_id": 364423,
+        "meaning_vi": "pico giây",
+        "confidence": "high",
+        "search_keywords": [
+          "pico giây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "pico giây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120826,
+    "word": "ピザボックス型",
+    "kana": "ピザボックスがた",
+    "senses": [
+      {
+        "sense_id": 364424,
+        "meaning_vi": "loại hộp pizza (khung máy tính vuông phẳng)",
+        "confidence": "high",
+        "search_keywords": [
+          "loại hộp pizza (khung máy tính vuông phẳng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại hộp pizza (khung máy tính vuông phẳng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120827,
+    "word": "ピッキングリスト",
+    "kana": "ピッキングリスト",
+    "senses": [
+      {
+        "sense_id": 364425,
+        "meaning_vi": "danh sách chọn",
+        "confidence": "high",
+        "search_keywords": [
+          "danh sách chọn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "danh sách chọn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120828,
+    "word": "ピックアップディレクトリ",
+    "kana": "ピックアップディレクトリ",
+    "senses": [
+      {
+        "sense_id": 364426,
+        "meaning_vi": "thư mục đón",
+        "confidence": "high",
+        "search_keywords": [
+          "thư mục đón"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư mục đón",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120829,
+    "word": "ピックスマップ",
+    "kana": "ピックスマップ",
+    "senses": [
+      {
+        "sense_id": 364427,
+        "meaning_vi": "bản đồ điểm ảnh",
+        "confidence": "high",
+        "search_keywords": [
+          "bản đồ điểm ảnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản đồ điểm ảnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120830,
+    "word": "ピックフィルタ",
+    "kana": "ピックフィルタ",
+    "senses": [
+      {
+        "sense_id": 364428,
+        "meaning_vi": "chọn bộ lọc",
+        "confidence": "high",
+        "search_keywords": [
+          "chọn bộ lọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chọn bộ lọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120831,
+    "word": "ピック経路",
+    "kana": "ピックけいろ",
+    "senses": [
+      {
+        "sense_id": 364429,
+        "meaning_vi": "chọn đường dẫn",
+        "confidence": "high",
+        "search_keywords": [
+          "chọn đường dẫn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chọn đường dẫn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 120832,
+    "word": "ピック識別子",
+    "kana": "ピックしきべつし",
+    "senses": [
+      {
+        "sense_id": 364430,
+        "meaning_vi": "chọn định danh",
+        "confidence": "high",
+        "search_keywords": [
+          "chọn định danh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chọn định danh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

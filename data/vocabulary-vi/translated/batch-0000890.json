@@ -1,0 +1,641 @@
+[
+  {
+    "vocabulary_id": 22327,
+    "word": "駆けっこ",
+    "kana": "かけっこ",
+    "senses": [
+      {
+        "sense_id": 245770,
+        "meaning_vi": "(chân) đua; chạy nước rút",
+        "confidence": "high",
+        "search_keywords": [
+          "(chân) đua",
+          "chạy nước rút"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(chân) đua; chạy nước rút",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22328,
+    "word": "駆ける",
+    "kana": "かける",
+    "senses": [
+      {
+        "sense_id": 245771,
+        "meaning_vi": "chạy ; lao tới; đua",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy",
+          "lao tới",
+          "đua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy ; lao tới; đua",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245772,
+        "meaning_vi": "phi nước đại (trên lưng ngựa); phi nước kiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "phi nước đại (trên lưng ngựa)",
+          "phi nước kiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phi nước đại (trên lưng ngựa); phi nước kiệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245773,
+        "meaning_vi": "tiến lên (chống lại kẻ thù); sạc (trên lưng ngựa)",
+        "confidence": "high",
+        "search_keywords": [
+          "tiến lên (chống lại kẻ thù)",
+          "sạc (trên lưng ngựa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiến lên (chống lại kẻ thù); sạc (trên lưng ngựa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22329,
+    "word": "駆け下りる",
+    "kana": "かけおりる",
+    "senses": [
+      {
+        "sense_id": 245774,
+        "meaning_vi": "chạy xuống (cầu thang, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy xuống (cầu thang, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy xuống (cầu thang, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22330,
+    "word": "駆け回る",
+    "kana": "かけまわる",
+    "senses": [
+      {
+        "sense_id": 245775,
+        "meaning_vi": "chạy xung quanh; nhộn nhịp về",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy xung quanh",
+          "nhộn nhịp về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy xung quanh; nhộn nhịp về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22331,
+    "word": "駆け寄る",
+    "kana": "かけよる",
+    "senses": [
+      {
+        "sense_id": 245776,
+        "meaning_vi": "chạy tới; lao tới",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy tới",
+          "lao tới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy tới; lao tới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22332,
+    "word": "駆け込み",
+    "kana": "かけこみ",
+    "senses": [
+      {
+        "sense_id": 245777,
+        "meaning_vi": "chạy vào; lao vào",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy vào",
+          "lao vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy vào; lao vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245778,
+        "meaning_vi": "vội vã vào phút cuối",
+        "confidence": "high",
+        "search_keywords": [
+          "vội vã vào phút cuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vội vã vào phút cuối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22333,
+    "word": "駆け込む",
+    "kana": "かけこむ",
+    "senses": [
+      {
+        "sense_id": 245780,
+        "meaning_vi": "chạy vào; lao vào",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy vào",
+          "lao vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy vào; lao vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245781,
+        "meaning_vi": "(chạy và) tìm nơi ẩn náu; trú ẩn ở",
+        "confidence": "high",
+        "search_keywords": [
+          "(chạy và) tìm nơi ẩn náu",
+          "trú ẩn ở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(chạy và) tìm nơi ẩn náu; trú ẩn ở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22334,
+    "word": "駆け上がる",
+    "kana": "かけあがる",
+    "senses": [
+      {
+        "sense_id": 245782,
+        "meaning_vi": "chạy lên (một ngọn đồi, cầu thang, v.v.); lao lên; vội vàng lên",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy lên (một ngọn đồi, cầu thang, v.v.)",
+          "lao lên",
+          "vội vàng lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy lên (một ngọn đồi, cầu thang, v.v.); lao lên; vội vàng lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22335,
+    "word": "駆け足",
+    "kana": "かけあし",
+    "senses": [
+      {
+        "sense_id": 245783,
+        "meaning_vi": "chạy nhanh; thời gian gấp đôi",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy nhanh",
+          "thời gian gấp đôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy nhanh; thời gian gấp đôi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245784,
+        "meaning_vi": "phi nước kiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "phi nước kiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phi nước kiệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245785,
+        "meaning_vi": "làm mọi việc một cách vội vàng",
+        "confidence": "high",
+        "search_keywords": [
+          "làm mọi việc một cách vội vàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm mọi việc một cách vội vàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22336,
+    "word": "駆け登る",
+    "kana": "かけのぼる",
+    "senses": [
+      {
+        "sense_id": 245786,
+        "meaning_vi": "chạy (lên đồi, cầu thang, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy (lên đồi, cầu thang, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy (lên đồi, cầu thang, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22337,
+    "word": "駆け抜ける",
+    "kana": "かけぬける",
+    "senses": [
+      {
+        "sense_id": 245787,
+        "meaning_vi": "chạy qua (đám đông, cổng, v.v.); quét qua (ví dụ: tin tức qua một thành phố)",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy qua (đám đông, cổng, v.v.)",
+          "quét qua (ví dụ: tin tức qua một thành phố)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy qua (đám đông, cổng, v.v.); quét qua (ví dụ: tin tức qua một thành phố)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245788,
+        "meaning_vi": "chạy qua (ai đó) từ phía sau; vượt qua",
+        "confidence": "high",
+        "search_keywords": [
+          "chạy qua (ai đó) từ phía sau",
+          "vượt qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chạy qua (ai đó) từ phía sau; vượt qua",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22338,
+    "word": "駆り立てる",
+    "kana": "かりたてる",
+    "senses": [
+      {
+        "sense_id": 245789,
+        "meaning_vi": "tuôn ra (thỏ rừng, cáo, v.v.); lái xe ra ngoài; để đánh bại; bắt đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "tuôn ra (thỏ rừng, cáo, v.v.)",
+          "lái xe ra ngoài",
+          "để đánh bại",
+          "bắt đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuôn ra (thỏ rừng, cáo, v.v.); lái xe ra ngoài; để đánh bại; bắt đầu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245790,
+        "meaning_vi": "lái xe (gia súc, cừu, v.v.); thúc giục ; thúc đẩy (ngựa)",
+        "confidence": "high",
+        "search_keywords": [
+          "lái xe (gia súc, cừu, v.v.)",
+          "thúc giục",
+          "thúc đẩy (ngựa)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lái xe (gia súc, cừu, v.v.); thúc giục ; thúc đẩy (ngựa)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245791,
+        "meaning_vi": "lái xe (làm); thúc giục ; thúc đẩy; đẩy; thúc đẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "lái xe (làm)",
+          "thúc giục",
+          "thúc đẩy",
+          "đẩy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lái xe (làm); thúc giục ; thúc đẩy; đẩy; thúc đẩy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22339,
+    "word": "駆る",
+    "kana": "かる",
+    "senses": [
+      {
+        "sense_id": 245792,
+        "meaning_vi": "thúc đẩy; thúc giục về phía trước; thúc đẩy",
+        "confidence": "high",
+        "search_keywords": [
+          "thúc đẩy",
+          "thúc giục về phía trước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thúc đẩy; thúc giục về phía trước; thúc đẩy",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245793,
+        "meaning_vi": "lái xe ở tốc độ cao (ví dụ: một chiếc ô tô)",
+        "confidence": "high",
+        "search_keywords": [
+          "lái xe ở tốc độ cao (ví dụ: một chiếc ô tô)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lái xe ở tốc độ cao (ví dụ: một chiếc ô tô)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22340,
+    "word": "駆使",
+    "kana": "くし",
+    "senses": [
+      {
+        "sense_id": 245794,
+        "meaning_vi": "sử dụng tự do; tận dụng triệt để; có khả năng chỉ huy tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "sử dụng tự do",
+          "tận dụng triệt để",
+          "có khả năng chỉ huy tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sử dụng tự do; tận dụng triệt để; có khả năng chỉ huy tốt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 245795,
+        "meaning_vi": "làm việc (ai đó) chăm chỉ; lái xe (ai đó) trên",
+        "confidence": "high",
+        "search_keywords": [
+          "làm việc (ai đó) chăm chỉ",
+          "lái xe (ai đó) trên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm việc (ai đó) chăm chỉ; lái xe (ai đó) trên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22341,
+    "word": "駆除",
+    "kana": "くじょ",
+    "senses": [
+      {
+        "sense_id": 245796,
+        "meaning_vi": "tiêu diệt (sâu bệnh); diệt trừ; dập tắt (ví dụ: một tệ nạn xã hội)",
+        "confidence": "high",
+        "search_keywords": [
+          "tiêu diệt (sâu bệnh)",
+          "diệt trừ",
+          "dập tắt (ví dụ: một tệ nạn xã hội)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiêu diệt (sâu bệnh); diệt trừ; dập tắt (ví dụ: một tệ nạn xã hội)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22342,
+    "word": "駆逐",
+    "kana": "くちく",
+    "senses": [
+      {
+        "sense_id": 245797,
+        "meaning_vi": "trục xuất; lái xe ra ngoài; lái xe đi; sự tiêu diệt",
+        "confidence": "high",
+        "search_keywords": [
+          "trục xuất",
+          "lái xe ra ngoài",
+          "lái xe đi",
+          "sự tiêu diệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trục xuất; lái xe ra ngoài; lái xe đi; sự tiêu diệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22343,
+    "word": "駆逐艦",
+    "kana": "くちくかん",
+    "senses": [
+      {
+        "sense_id": 245798,
+        "meaning_vi": "tàu khu trục (tàu)",
+        "confidence": "high",
+        "search_keywords": [
+          "tàu khu trục (tàu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tàu khu trục (tàu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22344,
+    "word": "駆虫剤",
+    "kana": "くちゅうざい",
+    "senses": [
+      {
+        "sense_id": 245799,
+        "meaning_vi": "thuốc trừ sâu; thuốc chống côn trùng",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc trừ sâu",
+          "thuốc chống côn trùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc trừ sâu; thuốc chống côn trùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22345,
+    "word": "駆動",
+    "kana": "くどう",
+    "senses": [
+      {
+        "sense_id": 245800,
+        "meaning_vi": "lái xe; lái xe (lực)",
+        "confidence": "high",
+        "search_keywords": [
+          "lái xe",
+          "lái xe (lực)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lái xe; lái xe (lực)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 22346,
+    "word": "駆動機",
+    "kana": "くどうき",
+    "senses": [
+      {
+        "sense_id": 245801,
+        "meaning_vi": "dẫn động (động cơ)",
+        "confidence": "high",
+        "search_keywords": [
+          "dẫn động (động cơ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dẫn động (động cơ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

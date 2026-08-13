@@ -1,0 +1,656 @@
+[
+  {
+    "vocabulary_id": 50508,
+    "word": "約数",
+    "kana": "やくすう",
+    "senses": [
+      {
+        "sense_id": 283443,
+        "meaning_vi": "số chia; nhân tố; đo lường",
+        "confidence": "high",
+        "search_keywords": [
+          "số chia",
+          "nhân tố",
+          "đo lường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số chia; nhân tố; đo lường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50509,
+    "word": "約束",
+    "kana": "やくそく",
+    "senses": [
+      {
+        "sense_id": 283444,
+        "meaning_vi": "hứa; hiệp định; sắp xếp; lời nói của một người; hợp đồng; hiệp ước",
+        "confidence": "high",
+        "search_keywords": [
+          "hứa",
+          "hiệp định",
+          "sắp xếp",
+          "lời nói của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hứa; hiệp định; sắp xếp; lời nói của một người; hợp đồng; hiệp ước",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283445,
+        "meaning_vi": "cuộc hẹn; hôn ước; ngày",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc hẹn",
+          "hôn ước",
+          "ngày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc hẹn; hôn ước; ngày",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283446,
+        "meaning_vi": "quy ước; cai trị",
+        "confidence": "high",
+        "search_keywords": [
+          "quy ước",
+          "cai trị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quy ước; cai trị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283447,
+        "meaning_vi": "định mệnh; số phận",
+        "confidence": "high",
+        "search_keywords": [
+          "định mệnh",
+          "số phận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "định mệnh; số phận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50510,
+    "word": "約定",
+    "kana": "やくじょう",
+    "senses": [
+      {
+        "sense_id": 283448,
+        "meaning_vi": "hiệp định; quy định; hợp đồng",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệp định",
+          "quy định",
+          "hợp đồng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệp định; quy định; hợp đồng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50511,
+    "word": "約半分",
+    "kana": "やくはんぶん",
+    "senses": [
+      {
+        "sense_id": 283449,
+        "meaning_vi": "khoảng một nửa",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng một nửa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng một nửa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50512,
+    "word": "薬",
+    "kana": "くすり",
+    "senses": [
+      {
+        "sense_id": 283450,
+        "meaning_vi": "thuốc; dược phẩm; (hợp pháp) ma túy; viên thuốc; thuốc mỡ; xoa dầu",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc",
+          "dược phẩm",
+          "(hợp pháp) ma túy",
+          "viên thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc; dược phẩm; (hợp pháp) ma túy; viên thuốc; thuốc mỡ; xoa dầu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283451,
+        "meaning_vi": "hóa chất hữu hiệu (thuốc súng, thuốc trừ sâu, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "hóa chất hữu hiệu (thuốc súng, thuốc trừ sâu, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hóa chất hữu hiệu (thuốc súng, thuốc trừ sâu, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283452,
+        "meaning_vi": "(đồ gốm) men",
+        "confidence": "high",
+        "search_keywords": [
+          "(đồ gốm) men"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đồ gốm) men",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283453,
+        "meaning_vi": "(bất hợp pháp) ma túy; ma tuý",
+        "confidence": "high",
+        "search_keywords": [
+          "(bất hợp pháp) ma túy",
+          "ma tuý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(bất hợp pháp) ma túy; ma tuý",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283454,
+        "meaning_vi": "hối lộ nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "hối lộ nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hối lộ nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50513,
+    "word": "薬屋",
+    "kana": "くすりや",
+    "senses": [
+      {
+        "sense_id": 283455,
+        "meaning_vi": "hiệu thuốc; nhà thuốc; nhà hóa học (cửa hàng); người bào chế thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệu thuốc",
+          "nhà thuốc",
+          "nhà hóa học (cửa hàng)",
+          "người bào chế thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệu thuốc; nhà thuốc; nhà hóa học (cửa hàng); người bào chế thuốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283456,
+        "meaning_vi": "dược sĩ; dược sĩ; nhà hóa học; người bào chế thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "dược sĩ",
+          "nhà hóa học",
+          "người bào chế thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dược sĩ; dược sĩ; nhà hóa học; người bào chế thuốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50514,
+    "word": "薬価",
+    "kana": "やっか",
+    "senses": [
+      {
+        "sense_id": 283457,
+        "meaning_vi": "giá thuốc; chi phí thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "giá thuốc",
+          "chi phí thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá thuốc; chi phí thuốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50515,
+    "word": "薬学",
+    "kana": "やくがく",
+    "senses": [
+      {
+        "sense_id": 283458,
+        "meaning_vi": "(nghiên cứu về) dược phẩm; dược phẩm",
+        "confidence": "high",
+        "search_keywords": [
+          "(nghiên cứu về) dược phẩm",
+          "dược phẩm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(nghiên cứu về) dược phẩm; dược phẩm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50516,
+    "word": "薬局",
+    "kana": "やっきょく",
+    "senses": [
+      {
+        "sense_id": 283459,
+        "meaning_vi": "hiệu thuốc; nhà thuốc; nhà hóa học (cửa hàng)",
+        "confidence": "high",
+        "search_keywords": [
+          "hiệu thuốc",
+          "nhà thuốc",
+          "nhà hóa học (cửa hàng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiệu thuốc; nhà thuốc; nhà hóa học (cửa hàng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283460,
+        "meaning_vi": "nhà thuốc bệnh viện; trạm y tế",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà thuốc bệnh viện",
+          "trạm y tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà thuốc bệnh viện; trạm y tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50517,
+    "word": "薬効物",
+    "kana": "やっこうぶつ",
+    "senses": [
+      {
+        "sense_id": 283461,
+        "meaning_vi": "thành phần có tác dụng y tế",
+        "confidence": "high",
+        "search_keywords": [
+          "thành phần có tác dụng y tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành phần có tác dụng y tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50518,
+    "word": "薬剤",
+    "kana": "やくざい",
+    "senses": [
+      {
+        "sense_id": 283462,
+        "meaning_vi": "thuốc; thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc; thuốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283463,
+        "meaning_vi": "tác nhân hóa học (ví dụ: thuốc trừ sâu, thuốc tẩy, chất bôi trơn); hóa chất",
+        "confidence": "high",
+        "search_keywords": [
+          "tác nhân hóa học (ví dụ: thuốc trừ sâu, thuốc tẩy, chất bôi trơn)",
+          "hóa chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tác nhân hóa học (ví dụ: thuốc trừ sâu, thuốc tẩy, chất bôi trơn); hóa chất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50519,
+    "word": "薬剤師",
+    "kana": "やくざいし",
+    "senses": [
+      {
+        "sense_id": 283464,
+        "meaning_vi": "dược sĩ; nhà hóa học",
+        "confidence": "high",
+        "search_keywords": [
+          "dược sĩ",
+          "nhà hóa học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dược sĩ; nhà hóa học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50520,
+    "word": "薬師",
+    "kana": "やくし",
+    "senses": [
+      {
+        "sense_id": 283465,
+        "meaning_vi": "Bhaisajyaguru; Pindola; Đức Phật chữa lành",
+        "confidence": "high",
+        "search_keywords": [
+          "Bhaisajyaguru",
+          "Pindola",
+          "Đức Phật chữa lành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Bhaisajyaguru; Pindola; Đức Phật chữa lành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50521,
+    "word": "薬指",
+    "kana": "くすりゆび",
+    "senses": [
+      {
+        "sense_id": 283466,
+        "meaning_vi": "ngón đeo nhẫn; ngón thứ ba; ngón thứ tư (đặc biệt khi chơi piano)",
+        "confidence": "high",
+        "search_keywords": [
+          "ngón đeo nhẫn",
+          "ngón thứ ba",
+          "ngón thứ tư (đặc biệt khi chơi piano)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngón đeo nhẫn; ngón thứ ba; ngón thứ tư (đặc biệt khi chơi piano)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283467,
+        "meaning_vi": "ngón chân thứ tư",
+        "confidence": "high",
+        "search_keywords": [
+          "ngón chân thứ tư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngón chân thứ tư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50522,
+    "word": "薬草",
+    "kana": "やくそう",
+    "senses": [
+      {
+        "sense_id": 283468,
+        "meaning_vi": "dược liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "dược liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dược liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50523,
+    "word": "薬箱",
+    "kana": "くすりばこ",
+    "senses": [
+      {
+        "sense_id": 283469,
+        "meaning_vi": "hộp thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "hộp thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hộp thuốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50524,
+    "word": "薬品",
+    "kana": "やくひん",
+    "senses": [
+      {
+        "sense_id": 283470,
+        "meaning_vi": "thuốc; thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc; thuốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 283471,
+        "meaning_vi": "hóa chất (đại lý); hóa chất",
+        "confidence": "high",
+        "search_keywords": [
+          "hóa chất (đại lý)",
+          "hóa chất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hóa chất (đại lý); hóa chất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50525,
+    "word": "薬品会社",
+    "kana": "やくひんがいしゃ",
+    "senses": [
+      {
+        "sense_id": 283472,
+        "meaning_vi": "công ty dược phẩm",
+        "confidence": "high",
+        "search_keywords": [
+          "công ty dược phẩm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công ty dược phẩm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50526,
+    "word": "薬物",
+    "kana": "やくぶつ",
+    "senses": [
+      {
+        "sense_id": 283473,
+        "meaning_vi": "thuốc; y học",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc",
+          "y học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc; y học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 50527,
+    "word": "薬味",
+    "kana": "やくみ",
+    "senses": [
+      {
+        "sense_id": 283474,
+        "meaning_vi": "gia vị (ví dụ: rắc lên trên bào hoặc cắt nhỏ như daikon, wasabi, gừng, hành lá, ớt đỏ); gia vị",
+        "confidence": "high",
+        "search_keywords": [
+          "gia vị (ví dụ: rắc lên trên bào hoặc cắt nhỏ như daikon, wasabi, gừng, hành lá, ớt đỏ)",
+          "gia vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gia vị (ví dụ: rắc lên trên bào hoặc cắt nhỏ như daikon, wasabi, gừng, hành lá, ớt đỏ); gia vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

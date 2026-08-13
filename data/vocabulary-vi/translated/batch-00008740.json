@@ -1,0 +1,466 @@
+[
+  {
+    "vocabulary_id": 201374,
+    "word": "固有表現抽出",
+    "kana": "こゆうひょうげんちゅうしゅつ",
+    "senses": [
+      {
+        "sense_id": 451668,
+        "meaning_vi": "công nhận thực thể được đặt tên; trích xuất thực thể được đặt tên; nhận dạng thực thể được đặt tên; NER",
+        "confidence": "high",
+        "search_keywords": [
+          "công nhận thực thể được đặt tên",
+          "trích xuất thực thể được đặt tên",
+          "nhận dạng thực thể được đặt tên",
+          "NER"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công nhận thực thể được đặt tên; trích xuất thực thể được đặt tên; nhận dạng thực thể được đặt tên; NER",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201375,
+    "word": "個人識別情報",
+    "kana": "こじんしきべつじょうほう",
+    "senses": [
+      {
+        "sense_id": 451669,
+        "meaning_vi": "thông tin nhận dạng cá nhân; thông tin nhận dạng cá nhân; PII",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin nhận dạng cá nhân",
+          "PII"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin nhận dạng cá nhân; thông tin nhận dạng cá nhân; PII",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201376,
+    "word": "イェール式",
+    "kana": "イェールしき",
+    "senses": [
+      {
+        "sense_id": 451670,
+        "meaning_vi": "Phiên âm Yale (của các ngôn ngữ Đông Á)",
+        "confidence": "high",
+        "search_keywords": [
+          "Phiên âm Yale (của các ngôn ngữ Đông Á)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phiên âm Yale (của các ngôn ngữ Đông Á)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201377,
+    "word": "ウェード式",
+    "kana": "ウェードしき",
+    "senses": [
+      {
+        "sense_id": 451671,
+        "meaning_vi": "Phiên âm Wade-Giles (tiếng Trung)",
+        "confidence": "high",
+        "search_keywords": [
+          "Phiên âm Wade-Giles (tiếng Trung)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phiên âm Wade-Giles (tiếng Trung)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201378,
+    "word": "アニマルスピリット",
+    "kana": "アニマルスピリット",
+    "senses": [
+      {
+        "sense_id": 451672,
+        "meaning_vi": "tinh thần động vật (cảm xúc và bản năng ảnh hưởng đến việc ra quyết định kinh tế)",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần động vật (cảm xúc và bản năng ảnh hưởng đến việc ra quyết định kinh tế)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần động vật (cảm xúc và bản năng ảnh hưởng đến việc ra quyết định kinh tế)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201379,
+    "word": "禾穀",
+    "kana": "かこく",
+    "senses": [
+      {
+        "sense_id": 451673,
+        "meaning_vi": "cơm",
+        "confidence": "high",
+        "search_keywords": [
+          "cơm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 451674,
+        "meaning_vi": "ngũ cốc; ngũ cốc",
+        "confidence": "high",
+        "search_keywords": [
+          "ngũ cốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngũ cốc; ngũ cốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201380,
+    "word": "禾穂",
+    "kana": "かすい",
+    "senses": [
+      {
+        "sense_id": 451675,
+        "meaning_vi": "tai của cây ngũ cốc",
+        "confidence": "high",
+        "search_keywords": [
+          "tai của cây ngũ cốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tai của cây ngũ cốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201381,
+    "word": "固有表現",
+    "kana": "こゆうひょうげん",
+    "senses": [
+      {
+        "sense_id": 451676,
+        "meaning_vi": "thực thể được đặt tên; ĐB",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể được đặt tên",
+          "ĐB"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể được đặt tên; ĐB",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201382,
+    "word": "真無盲腸目",
+    "kana": "しんむもうちょうもく",
+    "senses": [
+      {
+        "sense_id": 451677,
+        "meaning_vi": "Eulipotyphla (bộ động vật có vú)",
+        "confidence": "high",
+        "search_keywords": [
+          "Eulipotyphla (bộ động vật có vú)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Eulipotyphla (bộ động vật có vú)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201383,
+    "word": "アマウント",
+    "kana": "アマウント",
+    "senses": [
+      {
+        "sense_id": 451678,
+        "meaning_vi": "số lượng; tổng cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "số lượng",
+          "tổng cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số lượng; tổng cộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201384,
+    "word": "筋組織",
+    "kana": "きんそしき",
+    "senses": [
+      {
+        "sense_id": 451679,
+        "meaning_vi": "mô cơ",
+        "confidence": "high",
+        "search_keywords": [
+          "mô cơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô cơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201385,
+    "word": "エアーベッド",
+    "kana": "エアーベッド",
+    "senses": [
+      {
+        "sense_id": 451680,
+        "meaning_vi": "nệm hơi; giường hơi; nệm hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "nệm hơi",
+          "giường hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nệm hơi; giường hơi; nệm hơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201386,
+    "word": "ペイン",
+    "kana": "ペイン",
+    "senses": [
+      {
+        "sense_id": 451681,
+        "meaning_vi": "đau đớn",
+        "confidence": "high",
+        "search_keywords": [
+          "đau đớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đau đớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201387,
+    "word": "自主避難",
+    "kana": "じしゅひなん",
+    "senses": [
+      {
+        "sense_id": 451682,
+        "meaning_vi": "sơ tán tự nguyện",
+        "confidence": "high",
+        "search_keywords": [
+          "sơ tán tự nguyện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sơ tán tự nguyện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201388,
+    "word": "キッズ携帯",
+    "kana": "キッズケータイ",
+    "senses": [
+      {
+        "sense_id": 451683,
+        "meaning_vi": "điện thoại di động cho trẻ em",
+        "confidence": "high",
+        "search_keywords": [
+          "điện thoại di động cho trẻ em"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điện thoại di động cho trẻ em",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201389,
+    "word": "ライツ",
+    "kana": "ライツ",
+    "senses": [
+      {
+        "sense_id": 451684,
+        "meaning_vi": "quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201390,
+    "word": "緩衝領域",
+    "kana": "かんしょうりょういき",
+    "senses": [
+      {
+        "sense_id": 451685,
+        "meaning_vi": "vùng đệm; vùng đệm",
+        "confidence": "high",
+        "search_keywords": [
+          "vùng đệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vùng đệm; vùng đệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201391,
+    "word": "ハンディファン",
+    "kana": "ハンディファン",
+    "senses": [
+      {
+        "sense_id": 451686,
+        "meaning_vi": "quạt cầm tay chạy bằng pin; quạt cầm tay",
+        "confidence": "high",
+        "search_keywords": [
+          "quạt cầm tay chạy bằng pin",
+          "quạt cầm tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quạt cầm tay chạy bằng pin; quạt cầm tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201392,
+    "word": "床頭台",
+    "kana": "しょうとうだい",
+    "senses": [
+      {
+        "sense_id": 451687,
+        "meaning_vi": "tủ đầu giường (trong bệnh viện, viện dưỡng lão, v.v.); bàn cạnh giường ngủ",
+        "confidence": "high",
+        "search_keywords": [
+          "tủ đầu giường (trong bệnh viện, viện dưỡng lão, v.v.)",
+          "bàn cạnh giường ngủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tủ đầu giường (trong bệnh viện, viện dưỡng lão, v.v.); bàn cạnh giường ngủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 201393,
+    "word": "実験経済学",
+    "kana": "じっけんけいざいがく",
+    "senses": [
+      {
+        "sense_id": 451688,
+        "meaning_vi": "kinh tế thực nghiệm",
+        "confidence": "high",
+        "search_keywords": [
+          "kinh tế thực nghiệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kinh tế thực nghiệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

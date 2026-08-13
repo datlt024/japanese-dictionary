@@ -1,0 +1,552 @@
+[
+  {
+    "vocabulary_id": 47373,
+    "word": "文語",
+    "kana": "ぶんご",
+    "senses": [
+      {
+        "sense_id": 279314,
+        "meaning_vi": "ngôn ngữ viết; ngôn ngữ văn học",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ viết",
+          "ngôn ngữ văn học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ viết; ngôn ngữ văn học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 279315,
+        "meaning_vi": "phong cách viết cổ điển (hoặc trang trọng) dựa trên tiếng Nhật thời Heian",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách viết cổ điển (hoặc trang trọng) dựa trên tiếng Nhật thời Heian"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách viết cổ điển (hoặc trang trọng) dựa trên tiếng Nhật thời Heian",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47374,
+    "word": "文豪",
+    "kana": "ぶんごう",
+    "senses": [
+      {
+        "sense_id": 279316,
+        "meaning_vi": "bậc thầy văn chương",
+        "confidence": "high",
+        "search_keywords": [
+          "bậc thầy văn chương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bậc thầy văn chương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47375,
+    "word": "文字",
+    "kana": "もじ",
+    "senses": [
+      {
+        "sense_id": 279317,
+        "meaning_vi": "chữ cái (của bảng chữ cái); nhân vật",
+        "confidence": "high",
+        "search_keywords": [
+          "chữ cái (của bảng chữ cái)",
+          "nhân vật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chữ cái (của bảng chữ cái); nhân vật",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 279318,
+        "meaning_vi": "viết",
+        "confidence": "high",
+        "search_keywords": [
+          "viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47376,
+    "word": "文字化け",
+    "kana": "もじばけ",
+    "senses": [
+      {
+        "sense_id": 279319,
+        "meaning_vi": "sai sót (văn bản, ví dụ như trong email, do mã hóa không đúng); cắt xén; nhân vật bất hợp pháp; văn bản bị hỏng; văn bản bị cắt xén",
+        "confidence": "high",
+        "search_keywords": [
+          "sai sót (văn bản, ví dụ như trong email, do mã hóa không đúng)",
+          "cắt xén",
+          "nhân vật bất hợp pháp",
+          "văn bản bị hỏng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sai sót (văn bản, ví dụ như trong email, do mã hóa không đúng); cắt xén; nhân vật bất hợp pháp; văn bản bị hỏng; văn bản bị cắt xén",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47377,
+    "word": "文字情報",
+    "kana": "もじじょうほう",
+    "senses": [
+      {
+        "sense_id": 279320,
+        "meaning_vi": "thông tin nhân vật; dữ liệu ký tự; dữ liệu văn bản",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin nhân vật",
+          "dữ liệu ký tự",
+          "dữ liệu văn bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin nhân vật; dữ liệu ký tự; dữ liệu văn bản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47378,
+    "word": "文字通り",
+    "kana": "もじどおり",
+    "senses": [
+      {
+        "sense_id": 279321,
+        "meaning_vi": "theo đúng nghĩa đen; đến lá thư",
+        "confidence": "high",
+        "search_keywords": [
+          "theo đúng nghĩa đen",
+          "đến lá thư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo đúng nghĩa đen; đến lá thư",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 279322,
+        "meaning_vi": "theo nghĩa đen",
+        "confidence": "high",
+        "search_keywords": [
+          "theo nghĩa đen"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "theo nghĩa đen",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47379,
+    "word": "文字読取り装置",
+    "kana": "もじよみとりそうち",
+    "senses": [
+      {
+        "sense_id": 279323,
+        "meaning_vi": "đầu đọc ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "đầu đọc ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đầu đọc ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47380,
+    "word": "文字列",
+    "kana": "もじれつ",
+    "senses": [
+      {
+        "sense_id": 279324,
+        "meaning_vi": "chuỗi ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "chuỗi ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuỗi ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47381,
+    "word": "文殊",
+    "kana": "もんじゅ",
+    "senses": [
+      {
+        "sense_id": 279325,
+        "meaning_vi": "Văn Thù Sư Lợi; Văn Thù Sư Lợi; Bồ Tát tượng trưng cho trí tuệ siêu việt",
+        "confidence": "high",
+        "search_keywords": [
+          "Văn Thù Sư Lợi",
+          "Bồ Tát tượng trưng cho trí tuệ siêu việt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Văn Thù Sư Lợi; Văn Thù Sư Lợi; Bồ Tát tượng trưng cho trí tuệ siêu việt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47382,
+    "word": "文殊様",
+    "kana": "もんじゅさま",
+    "senses": [
+      {
+        "sense_id": 279326,
+        "meaning_vi": "Manjusri (Bồ Tát)",
+        "confidence": "high",
+        "search_keywords": [
+          "Manjusri (Bồ Tát)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Manjusri (Bồ Tát)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47383,
+    "word": "文章",
+    "kana": "ぶんしょう",
+    "senses": [
+      {
+        "sense_id": 279327,
+        "meaning_vi": "viết; thành phần; tiểu luận; bài báo; đoạn văn; văn xuôi; (viết) phong cách",
+        "confidence": "high",
+        "search_keywords": [
+          "viết",
+          "thành phần",
+          "tiểu luận",
+          "bài báo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viết; thành phần; tiểu luận; bài báo; đoạn văn; văn xuôi; (viết) phong cách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 279328,
+        "meaning_vi": "câu",
+        "confidence": "high",
+        "search_keywords": [
+          "câu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47384,
+    "word": "文責",
+    "kana": "ぶんせき",
+    "senses": [
+      {
+        "sense_id": 279329,
+        "meaning_vi": "chịu trách nhiệm về ngôn từ của bài viết",
+        "confidence": "high",
+        "search_keywords": [
+          "chịu trách nhiệm về ngôn từ của bài viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chịu trách nhiệm về ngôn từ của bài viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47385,
+    "word": "文節",
+    "kana": "ぶんせつ",
+    "senses": [
+      {
+        "sense_id": 279330,
+        "meaning_vi": "cụm từ; điều khoản; đơn vị ngôn ngữ cơ bản trong ngữ pháp tiếng Nhật",
+        "confidence": "high",
+        "search_keywords": [
+          "cụm từ",
+          "điều khoản",
+          "đơn vị ngôn ngữ cơ bản trong ngữ pháp tiếng Nhật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cụm từ; điều khoản; đơn vị ngôn ngữ cơ bản trong ngữ pháp tiếng Nhật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47386,
+    "word": "文節数",
+    "kana": "ぶんせつすう",
+    "senses": [
+      {
+        "sense_id": 279331,
+        "meaning_vi": "số lượng cụm từ",
+        "confidence": "high",
+        "search_keywords": [
+          "số lượng cụm từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "số lượng cụm từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47387,
+    "word": "文体",
+    "kana": "ぶんたい",
+    "senses": [
+      {
+        "sense_id": 279332,
+        "meaning_vi": "phong cách văn chương",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách văn chương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách văn chương",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 279333,
+        "meaning_vi": "hình thức ngôn ngữ (viết) (ví dụ: cổ điển, hiện đại)",
+        "confidence": "high",
+        "search_keywords": [
+          "hình thức ngôn ngữ (viết) (ví dụ: cổ điển, hiện đại)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình thức ngôn ngữ (viết) (ví dụ: cổ điển, hiện đại)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47388,
+    "word": "文壇",
+    "kana": "ぶんだん",
+    "senses": [
+      {
+        "sense_id": 279334,
+        "meaning_vi": "thế giới văn học; giới văn học",
+        "confidence": "high",
+        "search_keywords": [
+          "thế giới văn học",
+          "giới văn học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thế giới văn học; giới văn học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47389,
+    "word": "文中",
+    "kana": "ぶんちゅう",
+    "senses": [
+      {
+        "sense_id": 279335,
+        "meaning_vi": "trong câu; trong văn bản",
+        "confidence": "high",
+        "search_keywords": [
+          "trong câu",
+          "trong văn bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong câu; trong văn bản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 279336,
+        "meaning_vi": "Thời đại Bunchū (của Nam Triều; 1372.4.?-1375.5.27)",
+        "confidence": "high",
+        "search_keywords": [
+          "Thời đại Bunchū (của Nam Triều",
+          "1372.4.?-1375.5.27)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thời đại Bunchū (của Nam Triều; 1372.4.?-1375.5.27)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47390,
+    "word": "文調",
+    "kana": "ぶんちょう",
+    "senses": [
+      {
+        "sense_id": 279337,
+        "meaning_vi": "phong cách viết",
+        "confidence": "high",
+        "search_keywords": [
+          "phong cách viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phong cách viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47391,
+    "word": "文通",
+    "kana": "ぶんつう",
+    "senses": [
+      {
+        "sense_id": 279338,
+        "meaning_vi": "thư từ; trao đổi thư từ",
+        "confidence": "high",
+        "search_keywords": [
+          "thư từ",
+          "trao đổi thư từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư từ; trao đổi thư từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 47392,
+    "word": "文筆",
+    "kana": "ぶんぴつ",
+    "senses": [
+      {
+        "sense_id": 279339,
+        "meaning_vi": "nghệ thuật văn học; hoạt động văn học; viết",
+        "confidence": "high",
+        "search_keywords": [
+          "nghệ thuật văn học",
+          "hoạt động văn học",
+          "viết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghệ thuật văn học; hoạt động văn học; viết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 122451,
+    "word": "演算論理装置",
+    "kana": "えんざんろんりそうち",
+    "senses": [
+      {
+        "sense_id": 366072,
+        "meaning_vi": "đơn vị số học và logic; ALU",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị số học và logic",
+          "ALU"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị số học và logic; ALU",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122452,
+    "word": "遠隔アクセス",
+    "kana": "えんかくアクセス",
+    "senses": [
+      {
+        "sense_id": 366073,
+        "meaning_vi": "truy cập từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "truy cập từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "truy cập từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122453,
+    "word": "遠隔アクセスデータ処理",
+    "kana": "えんかくアクセスデータしょり",
+    "senses": [
+      {
+        "sense_id": 366074,
+        "meaning_vi": "xử lý dữ liệu truy cập từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý dữ liệu truy cập từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý dữ liệu truy cập từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122454,
+    "word": "遠隔サイト",
+    "kana": "えんかくサイト",
+    "senses": [
+      {
+        "sense_id": 366075,
+        "meaning_vi": "trang web từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "trang web từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang web từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122455,
+    "word": "遠隔ジョブ入力",
+    "kana": "えんかくジョブにゅうりょく",
+    "senses": [
+      {
+        "sense_id": 366076,
+        "meaning_vi": "nhập việc từ xa; RJE",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập việc từ xa",
+          "RJE"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập việc từ xa; RJE",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122456,
+    "word": "遠隔バッチ処理",
+    "kana": "えんかくバッチしょり",
+    "senses": [
+      {
+        "sense_id": 366077,
+        "meaning_vi": "xử lý hàng loạt từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý hàng loạt từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý hàng loạt từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122457,
+    "word": "遠隔バッチ入力",
+    "kana": "えんかくバッチにゅうりょく",
+    "senses": [
+      {
+        "sense_id": 366078,
+        "meaning_vi": "nhập hàng loạt từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập hàng loạt từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập hàng loạt từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122458,
+    "word": "遠隔マシン",
+    "kana": "えんかくマシン",
+    "senses": [
+      {
+        "sense_id": 366079,
+        "meaning_vi": "máy từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "máy từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122459,
+    "word": "遠隔医療",
+    "kana": "えんかくいりょう",
+    "senses": [
+      {
+        "sense_id": 366080,
+        "meaning_vi": "y học từ xa; y học từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "y học từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "y học từ xa; y học từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122460,
+    "word": "遠隔一括処理",
+    "kana": "えんかくいっかつしょり",
+    "senses": [
+      {
+        "sense_id": 366081,
+        "meaning_vi": "xử lý hàng loạt từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý hàng loạt từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý hàng loạt từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122461,
+    "word": "遠隔一括入力",
+    "kana": "えんかくいっかつにゅうりょく",
+    "senses": [
+      {
+        "sense_id": 366082,
+        "meaning_vi": "nhập hàng loạt từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập hàng loạt từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập hàng loạt từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122462,
+    "word": "遠隔監視",
+    "kana": "えんかくかんし",
+    "senses": [
+      {
+        "sense_id": 366083,
+        "meaning_vi": "giám sát từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "giám sát từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giám sát từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122463,
+    "word": "遠隔試験法",
+    "kana": "えんかくしけんほう",
+    "senses": [
+      {
+        "sense_id": 366084,
+        "meaning_vi": "phương pháp kiểm tra từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "phương pháp kiểm tra từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương pháp kiểm tra từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122464,
+    "word": "遠隔資源",
+    "kana": "えんかくしげん",
+    "senses": [
+      {
+        "sense_id": 366085,
+        "meaning_vi": "tài nguyên từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "tài nguyên từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài nguyên từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122465,
+    "word": "遠隔処理",
+    "kana": "えんかくしょり",
+    "senses": [
+      {
+        "sense_id": 366086,
+        "meaning_vi": "xử lý từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122466,
+    "word": "遠隔操作サービス要素",
+    "kana": "えんかくそうさサービスようそ",
+    "senses": [
+      {
+        "sense_id": 366087,
+        "meaning_vi": "Thành phần dịch vụ vận hành từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "Thành phần dịch vụ vận hành từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Thành phần dịch vụ vận hành từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122467,
+    "word": "遠隔操作プロトコル機械",
+    "kana": "えんかくそうさプロトコルきかい",
+    "senses": [
+      {
+        "sense_id": 366088,
+        "meaning_vi": "máy giao thức hoạt động từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "máy giao thức hoạt động từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy giao thức hoạt động từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122468,
+    "word": "遠隔測定",
+    "kana": "えんかくそくてい",
+    "senses": [
+      {
+        "sense_id": 366089,
+        "meaning_vi": "đo từ xa; đo từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "đo từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đo từ xa; đo từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122469,
+    "word": "遠隔端末装置",
+    "kana": "えんかくたんまつそうち",
+    "senses": [
+      {
+        "sense_id": 366090,
+        "meaning_vi": "thiết bị đầu cuối từ xa",
+        "confidence": "high",
+        "search_keywords": [
+          "thiết bị đầu cuối từ xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiết bị đầu cuối từ xa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 122470,
+    "word": "遠隔通信",
+    "kana": "えんかくつうしん",
+    "senses": [
+      {
+        "sense_id": 366091,
+        "meaning_vi": "viễn thông",
+        "confidence": "high",
+        "search_keywords": [
+          "viễn thông"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "viễn thông",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

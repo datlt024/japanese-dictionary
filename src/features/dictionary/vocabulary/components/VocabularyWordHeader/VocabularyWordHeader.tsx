@@ -7,6 +7,8 @@ import styles from "./VocabularyWordHeader.module.css"
 import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
 import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
 import AddToNotebookModal from "@/features/notebook/components/AddToNotebookModal/AddToNotebookModal"
+import VocabularyNoteModal from "@/features/dictionary/vocabulary/components/VocabularyNoteModal/VocabularyNoteModal"
+import { useAuth } from "@/features/auth/hooks/useAuth"
 
 import {
     Star,
@@ -31,7 +33,6 @@ import type {
 type Props = {
     vocabulary: Vocabulary
     meaning: string
-    hasSuruVerb: boolean
     verbGroupLabel: string | null
     pitch?: number | null
 }
@@ -80,7 +81,7 @@ function PitchGraph({ kana, pitch }: { kana: string; pitch: number }) {
                             key={`l${i}`}
                             x1={x1} y1={y1}
                             x2={x2} y2={y2}
-                            stroke="var(--primary)"
+                            stroke="var(--color-primary)"
                             strokeWidth="2"
                             strokeLinecap="round"
                         />
@@ -93,13 +94,13 @@ function PitchGraph({ kana, pitch }: { kana: string; pitch: number }) {
                     const y = pattern[i] ? HIGH_Y : LOW_Y
                     return (
                         <g key={`d${i}`}>
-                            <circle cx={x} cy={y} r={DOT_R} fill="var(--primary)" />
+                            <circle cx={x} cy={y} r={DOT_R} fill="var(--color-primary)" />
                             <text
                                 x={x}
                                 y={TEXT_Y}
                                 textAnchor="middle"
                                 fontSize="10"
-                                fill="var(--text-secondary)"
+                                fill="var(--color-text-secondary)"
                                 fontFamily="inherit"
                             >
                                 {mora}
@@ -119,16 +120,19 @@ function WordWithFurigana({
     ruby: VocabularyRubyItem[]
     fallback: string
 }) {
+    const charCount = fallback.length
+    const style = { "--char-count": charCount } as React.CSSProperties
+
     if (ruby.length === 0) {
         return (
-            <h1 className={styles.detailWord}>
+            <h1 className={styles.detailWord} style={style}>
                 {fallback}
             </h1>
         )
     }
 
     return (
-        <h1 className={styles.detailWord}>
+        <h1 className={styles.detailWord} style={style}>
             {ruby.map((item, index) => {
                 if (!item.reading) {
                     return (
@@ -155,17 +159,27 @@ function WordWithFurigana({
 export default function VocabularyWordHeader({
     vocabulary,
     meaning,
-    hasSuruVerb,
     verbGroupLabel,
     pitch = null,
 }: Props) {
     const ruby = vocabulary.ruby ?? []
 
+    const { user } = useAuth()
+
     const [notebookOpen, setNotebookOpen] = useState(false)
+    const [noteOpen, setNoteOpen] = useState(false)
     const [authOpen, setAuthOpen] = useState(false)
 
     function handleSpeak() {
         speakJapanese(vocabulary.kana || vocabulary.word)
+    }
+
+    function handleNoteClick() {
+        if (!user) {
+            setAuthOpen(true)
+        } else {
+            setNoteOpen(true)
+        }
     }
 
     function handleLoginRequired() {
@@ -185,9 +199,15 @@ export default function VocabularyWordHeader({
                         />
                     </div>
 
+                    {vocabulary.readings[0]?.romaji && (
+                        <p className={`${styles.romajiLine} romajiLine`}>
+                            {vocabulary.readings[0].romaji}
+                        </p>
+                    )}
+
                     <div className={styles.badgeRow}>
                         {vocabulary.jlpt && (
-                            <span className={styles.levelBadge}>
+                            <span className={styles.levelBadge} data-level={vocabulary.jlpt}>
                                 {vocabulary.jlpt}
                             </span>
                         )}
@@ -195,12 +215,6 @@ export default function VocabularyWordHeader({
                         {vocabulary.is_common && (
                             <span className={styles.commonBadge}>
                                 Từ thông dụng
-                            </span>
-                        )}
-
-                        {hasSuruVerb && (
-                            <span className={styles.verbBadge}>
-                                vs
                             </span>
                         )}
 
@@ -229,6 +243,7 @@ export default function VocabularyWordHeader({
                                 key: "note",
                                 label: "Ghi chú",
                                 icon: <FilePenLine />,
+                                onClick: handleNoteClick,
                             },
                             {
                                 key: "bookmark",
@@ -255,6 +270,12 @@ export default function VocabularyWordHeader({
             itemType="vocabulary"
             itemId={String(vocabulary.id)}
             onLoginRequired={handleLoginRequired}
+        />
+
+        <VocabularyNoteModal
+            open={noteOpen}
+            onClose={() => setNoteOpen(false)}
+            vocabularyId={vocabulary.id}
         />
 
         <AuthModal

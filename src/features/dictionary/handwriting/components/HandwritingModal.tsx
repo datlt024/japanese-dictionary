@@ -99,6 +99,7 @@ export default function HandwritingModal({
     const initializedRef = useRef(false)
     const kanjiCanvasLoadedRef = useRef(false)
     const refPatternsLoadedRef = useRef(false)
+    const recognizeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
     const [mounted, setMounted] = useState(false)
     const [canvasId, setCanvasId] = useState(DEFAULT_CANVAS_ID)
@@ -168,9 +169,8 @@ export default function HandwritingModal({
     }
 
     function handleEndDrawing() {
-        window.setTimeout(() => {
-            recognize()
-        }, 350)
+        if (recognizeTimerRef.current) clearTimeout(recognizeTimerRef.current)
+        recognizeTimerRef.current = setTimeout(() => { recognize() }, 350)
     }
 
     function handleClear() {
@@ -186,9 +186,8 @@ export default function HandwritingModal({
             window.KanjiCanvas.deleteLast(canvasId)
             setSuggestions([])
 
-            window.setTimeout(() => {
-                recognize()
-            }, 350)
+            if (recognizeTimerRef.current) clearTimeout(recognizeTimerRef.current)
+            recognizeTimerRef.current = setTimeout(() => { recognize() }, 350)
         } catch {
             // ignore vendor canvas errors
         }
@@ -211,6 +210,7 @@ export default function HandwritingModal({
 
         return () => {
             window.clearTimeout(timer)
+            if (recognizeTimerRef.current) window.clearTimeout(recognizeTimerRef.current)
         }
     }, [])
 
@@ -257,16 +257,18 @@ export default function HandwritingModal({
             return
         }
 
+        let timer: number | null = null
         try {
             window.KanjiCanvas.init(canvasId)
 
-            window.setTimeout(() => {
+            timer = window.setTimeout(() => {
                 window.KanjiCanvas?.erase(canvasId)
                 initializedRef.current = true
             }, 50)
         } catch {
             // ignore vendor canvas errors
         }
+        return () => { if (timer !== null) window.clearTimeout(timer) }
     }, [canvasId, open, scriptsReady])
 
     const modal = (
@@ -387,8 +389,10 @@ export default function HandwritingModal({
                         refPatternsLoadedRef.current = true
                         updateScriptsReady()
                     }
+                    script.onerror = () => { /* suppress window error event */ }
                     document.head.appendChild(script)
                 }}
+                onError={() => { /* suppress window error event */ }}
             />
 
             {mounted ? createPortal(modal, document.body) : null}

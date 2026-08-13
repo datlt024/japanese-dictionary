@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 124227,
+    "word": "取り出し抽象操作",
+    "kana": "とりだしちゅうしょうそうさ",
+    "senses": [
+      {
+        "sense_id": 367855,
+        "meaning_vi": "tìm nạp hoạt động trừu tượng",
+        "confidence": "high",
+        "search_keywords": [
+          "tìm nạp hoạt động trừu tượng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tìm nạp hoạt động trừu tượng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124228,
+    "word": "手順終了",
+    "kana": "てじゅんしゅうりょう",
+    "senses": [
+      {
+        "sense_id": 367856,
+        "meaning_vi": "kết thúc thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124229,
+    "word": "手順書",
+    "kana": "てじゅんしょ",
+    "senses": [
+      {
+        "sense_id": 367857,
+        "meaning_vi": "xử lý hồ sơ; hướng dẫn thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý hồ sơ",
+          "hướng dẫn thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý hồ sơ; hướng dẫn thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124230,
+    "word": "手順名",
+    "kana": "てじゅんめい",
+    "senses": [
+      {
+        "sense_id": 367858,
+        "meaning_vi": "tên thường trình",
+        "confidence": "high",
+        "search_keywords": [
+          "tên thường trình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên thường trình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124231,
+    "word": "手書き認識",
+    "kana": "てがきにんしき",
+    "senses": [
+      {
+        "sense_id": 367859,
+        "meaning_vi": "nhận dạng chữ viết tay",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận dạng chữ viết tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận dạng chữ viết tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124232,
+    "word": "手書き文字",
+    "kana": "てがきもじ",
+    "senses": [
+      {
+        "sense_id": 367860,
+        "meaning_vi": "thư viết tay; ký tự viết tay",
+        "confidence": "high",
+        "search_keywords": [
+          "thư viết tay",
+          "ký tự viết tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư viết tay; ký tự viết tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124233,
+    "word": "手書き文字認識",
+    "kana": "てがきもじにんしき",
+    "senses": [
+      {
+        "sense_id": 367861,
+        "meaning_vi": "nhận dạng chữ viết tay; nhận dạng văn bản viết tay",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận dạng chữ viết tay",
+          "nhận dạng văn bản viết tay"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận dạng chữ viết tay; nhận dạng văn bản viết tay",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124234,
+    "word": "手続きの入口",
+    "kana": "てつづきのいりぐち",
+    "senses": [
+      {
+        "sense_id": 367862,
+        "meaning_vi": "nhập thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "nhập thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhập thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124235,
+    "word": "手続き型言語",
+    "kana": "てつづきがたげんご",
+    "senses": [
+      {
+        "sense_id": 367863,
+        "meaning_vi": "ngôn ngữ thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124236,
+    "word": "手続き形言語",
+    "kana": "てつづきがたげんご",
+    "senses": [
+      {
+        "sense_id": 367864,
+        "meaning_vi": "ngôn ngữ thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124237,
+    "word": "手続き呼び出し",
+    "kana": "てつづきよびだし",
+    "senses": [
+      {
+        "sense_id": 367865,
+        "meaning_vi": "cuộc gọi thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "cuộc gọi thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuộc gọi thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124238,
+    "word": "手続き向き言語",
+    "kana": "てつづきむきげんご",
+    "senses": [
+      {
+        "sense_id": 367866,
+        "meaning_vi": "ngôn ngữ thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "ngôn ngữ thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngôn ngữ thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124239,
+    "word": "手続き集合",
+    "kana": "てつづきしゅうごう",
+    "senses": [
+      {
+        "sense_id": 367867,
+        "meaning_vi": "bộ thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124240,
+    "word": "手続き宣言",
+    "kana": "てつづきせんげん",
+    "senses": [
+      {
+        "sense_id": 367868,
+        "meaning_vi": "khai báo thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "khai báo thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khai báo thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124241,
+    "word": "手続き部の終わり",
+    "kana": "てつづきぶのおわり",
+    "senses": [
+      {
+        "sense_id": 367869,
+        "meaning_vi": "kết thúc phần thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc phần thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc phần thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124242,
+    "word": "手続き分岐文",
+    "kana": "てつづきぶんきぶん",
+    "senses": [
+      {
+        "sense_id": 367870,
+        "meaning_vi": "câu lệnh phân nhánh thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "câu lệnh phân nhánh thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "câu lệnh phân nhánh thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124243,
+    "word": "手続き名",
+    "kana": "てつづきめい",
+    "senses": [
+      {
+        "sense_id": 367871,
+        "meaning_vi": "tên thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "tên thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124244,
+    "word": "手続引用仕様",
+    "kana": "てつづきいんようしよう",
+    "senses": [
+      {
+        "sense_id": 367872,
+        "meaning_vi": "giao diện thủ tục",
+        "confidence": "high",
+        "search_keywords": [
+          "giao diện thủ tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao diện thủ tục",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124245,
+    "word": "手動による",
+    "kana": "しゅどうによる",
+    "senses": [
+      {
+        "sense_id": 367873,
+        "meaning_vi": "cấp nguồn bằng tay; hướng dẫn sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "cấp nguồn bằng tay",
+          "hướng dẫn sử dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấp nguồn bằng tay; hướng dẫn sử dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124246,
+    "word": "手動応答",
+    "kana": "しゅどうおうとう",
+    "senses": [
+      {
+        "sense_id": 367874,
+        "meaning_vi": "trả lời thủ công",
+        "confidence": "high",
+        "search_keywords": [
+          "trả lời thủ công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trả lời thủ công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

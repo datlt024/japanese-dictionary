@@ -1,0 +1,494 @@
+[
+  {
+    "vocabulary_id": 119489,
+    "word": "セキュリティホスト",
+    "kana": "セキュリティホスト",
+    "senses": [
+      {
+        "sense_id": 363044,
+        "meaning_vi": "máy chủ bảo mật",
+        "confidence": "high",
+        "search_keywords": [
+          "máy chủ bảo mật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy chủ bảo mật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119490,
+    "word": "セキュリティリスク",
+    "kana": "セキュリティリスク",
+    "senses": [
+      {
+        "sense_id": 363045,
+        "meaning_vi": "rủi ro bảo mật",
+        "confidence": "high",
+        "search_keywords": [
+          "rủi ro bảo mật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rủi ro bảo mật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119491,
+    "word": "セキュリティログ",
+    "kana": "セキュリティログ",
+    "senses": [
+      {
+        "sense_id": 363046,
+        "meaning_vi": "nhật ký bảo mật",
+        "confidence": "high",
+        "search_keywords": [
+          "nhật ký bảo mật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhật ký bảo mật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119492,
+    "word": "セキュリティ管理",
+    "kana": "セキュリティかんり",
+    "senses": [
+      {
+        "sense_id": 363047,
+        "meaning_vi": "quản lý an ninh",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý an ninh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý an ninh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119493,
+    "word": "セクション区画",
+    "kana": "セクションくかく",
+    "senses": [
+      {
+        "sense_id": 363048,
+        "meaning_vi": "phần",
+        "confidence": "high",
+        "search_keywords": [
+          "phần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119494,
+    "word": "セクタアンテナ",
+    "kana": "セクタアンテナ",
+    "senses": [
+      {
+        "sense_id": 363049,
+        "meaning_vi": "anten phân đoạn",
+        "confidence": "high",
+        "search_keywords": [
+          "anten phân đoạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anten phân đoạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119495,
+    "word": "セグメントテーブル",
+    "kana": "セグメントテーブル",
+    "senses": [
+      {
+        "sense_id": 363050,
+        "meaning_vi": "bảng phân đoạn",
+        "confidence": "high",
+        "search_keywords": [
+          "bảng phân đoạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bảng phân đoạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119496,
+    "word": "セグメント化",
+    "kana": "セグメントか",
+    "senses": [
+      {
+        "sense_id": 363051,
+        "meaning_vi": "sự phân chia",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phân chia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phân chia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119497,
+    "word": "セグメント属性",
+    "kana": "セグメントぞくせい",
+    "senses": [
+      {
+        "sense_id": 363052,
+        "meaning_vi": "thuộc tính phân đoạn",
+        "confidence": "high",
+        "search_keywords": [
+          "thuộc tính phân đoạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuộc tính phân đoạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119498,
+    "word": "セグメント変換",
+    "kana": "セグメントへんかん",
+    "senses": [
+      {
+        "sense_id": 363053,
+        "meaning_vi": "chuyển đổi phân đoạn",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi phân đoạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi phân đoạn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119499,
+    "word": "セグメント優先度",
+    "kana": "セグメントゆうせんど",
+    "senses": [
+      {
+        "sense_id": 363054,
+        "meaning_vi": "mức độ ưu tiên của phân khúc",
+        "confidence": "high",
+        "search_keywords": [
+          "mức độ ưu tiên của phân khúc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mức độ ưu tiên của phân khúc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119500,
+    "word": "セションプロトコル機械",
+    "kana": "セションプロトコルきかい",
+    "senses": [
+      {
+        "sense_id": 363055,
+        "meaning_vi": "máy giao thức phiên; SPM",
+        "confidence": "high",
+        "search_keywords": [
+          "máy giao thức phiên",
+          "SPM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy giao thức phiên; SPM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119501,
+    "word": "セッション層",
+    "kana": "セッションそう",
+    "senses": [
+      {
+        "sense_id": 363056,
+        "meaning_vi": "lớp phiên",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp phiên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp phiên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119502,
+    "word": "セットアップ時間",
+    "kana": "セットアップじかん",
+    "senses": [
+      {
+        "sense_id": 363057,
+        "meaning_vi": "thời gian thiết lập",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian thiết lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian thiết lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119503,
+    "word": "セットアップ手続き",
+    "kana": "セットアップてつづき",
+    "senses": [
+      {
+        "sense_id": 363058,
+        "meaning_vi": "(cuộc gọi) quy trình thiết lập",
+        "confidence": "high",
+        "search_keywords": [
+          "(cuộc gọi) quy trình thiết lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cuộc gọi) quy trình thiết lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119504,
+    "word": "セットトップ",
+    "kana": "セットトップ",
+    "senses": [
+      {
+        "sense_id": 363059,
+        "meaning_vi": "set-top (hộp, thiết bị)",
+        "confidence": "high",
+        "search_keywords": [
+          "set-top (hộp, thiết bị)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "set-top (hộp, thiết bị)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119505,
+    "word": "セット販売",
+    "kana": "セットはんばい",
+    "senses": [
+      {
+        "sense_id": 363060,
+        "meaning_vi": "đóng gói sản phẩm; bán hàng gắn liền; thỏa thuận trọn gói",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng gói sản phẩm",
+          "bán hàng gắn liền",
+          "thỏa thuận trọn gói"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng gói sản phẩm; bán hàng gắn liền; thỏa thuận trọn gói",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119506,
+    "word": "セパレータ",
+    "kana": "セパレータ",
+    "senses": [
+      {
+        "sense_id": 363061,
+        "meaning_vi": "dải phân cách; máy phân loại; máy vắt",
+        "confidence": "high",
+        "search_keywords": [
+          "dải phân cách",
+          "máy phân loại",
+          "máy vắt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dải phân cách; máy phân loại; máy vắt",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 363062,
+        "meaning_vi": "dấu phân cách; dải phân cách",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu phân cách",
+          "dải phân cách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu phân cách; dải phân cách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 363063,
+        "meaning_vi": "màng phân cách (màng)",
+        "confidence": "high",
+        "search_keywords": [
+          "màng phân cách (màng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màng phân cách (màng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 363064,
+        "meaning_vi": "giấy phát hành; phát hành lót",
+        "confidence": "high",
+        "search_keywords": [
+          "giấy phát hành",
+          "phát hành lót"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giấy phát hành; phát hành lót",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119507,
+    "word": "セパレートアドレッシング",
+    "kana": "セパレートアドレッシング",
+    "senses": [
+      {
+        "sense_id": 363065,
+        "meaning_vi": "địa chỉ riêng biệt",
+        "confidence": "high",
+        "search_keywords": [
+          "địa chỉ riêng biệt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa chỉ riêng biệt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 119508,
+    "word": "セマンティックエラー",
+    "kana": "セマンティックエラー",
+    "senses": [
+      {
+        "sense_id": 363066,
+        "meaning_vi": "lỗi ngữ nghĩa",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi ngữ nghĩa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi ngữ nghĩa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

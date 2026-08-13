@@ -1,0 +1,443 @@
+[
+  {
+    "vocabulary_id": 124147,
+    "word": "実効スループット",
+    "kana": "じっこうスループット",
+    "senses": [
+      {
+        "sense_id": 367775,
+        "meaning_vi": "thông lượng hiệu quả",
+        "confidence": "high",
+        "search_keywords": [
+          "thông lượng hiệu quả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông lượng hiệu quả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124148,
+    "word": "実効値",
+    "kana": "じっこうち",
+    "senses": [
+      {
+        "sense_id": 367776,
+        "meaning_vi": "giá trị bình phương trung bình gốc",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị bình phương trung bình gốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị bình phương trung bình gốc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124149,
+    "word": "実効長",
+    "kana": "じっこうちょう",
+    "senses": [
+      {
+        "sense_id": 367777,
+        "meaning_vi": "chiều dài hiệu quả",
+        "confidence": "high",
+        "search_keywords": [
+          "chiều dài hiệu quả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiều dài hiệu quả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124150,
+    "word": "実効転送速度",
+    "kana": "じっこうてんそうそくど",
+    "senses": [
+      {
+        "sense_id": 367778,
+        "meaning_vi": "tốc độ truyền tải hiệu quả",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ truyền tải hiệu quả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ truyền tải hiệu quả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124151,
+    "word": "実効命令",
+    "kana": "じっこうめいれい",
+    "senses": [
+      {
+        "sense_id": 367779,
+        "meaning_vi": "hướng dẫn thực tế",
+        "confidence": "high",
+        "search_keywords": [
+          "hướng dẫn thực tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hướng dẫn thực tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124152,
+    "word": "実効利用者ＩＤ",
+    "kana": "じっこうりようしゃアイディー",
+    "senses": [
+      {
+        "sense_id": 367780,
+        "meaning_vi": "ID người dùng hiệu quả",
+        "confidence": "high",
+        "search_keywords": [
+          "ID người dùng hiệu quả"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ID người dùng hiệu quả",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124153,
+    "word": "実効輻射電力",
+    "kana": "じっこうふくしゃでんりょく",
+    "senses": [
+      {
+        "sense_id": 367781,
+        "meaning_vi": "ERP; công suất bức xạ hiệu dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "ERP",
+          "công suất bức xạ hiệu dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ERP; công suất bức xạ hiệu dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124154,
+    "word": "実行サイクル",
+    "kana": "じっこうサイクル",
+    "senses": [
+      {
+        "sense_id": 367782,
+        "meaning_vi": "thực hiện chu kỳ",
+        "confidence": "high",
+        "search_keywords": [
+          "thực hiện chu kỳ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực hiện chu kỳ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124155,
+    "word": "実行ファイル",
+    "kana": "じっこうファイル",
+    "senses": [
+      {
+        "sense_id": 367783,
+        "meaning_vi": "tập tin thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124156,
+    "word": "実行プロファイル",
+    "kana": "じっこうプロファイル",
+    "senses": [
+      {
+        "sense_id": 367784,
+        "meaning_vi": "hồ sơ thực hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "hồ sơ thực hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hồ sơ thực hiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124157,
+    "word": "実行レベル",
+    "kana": "じっこうレベル",
+    "senses": [
+      {
+        "sense_id": 367785,
+        "meaning_vi": "cấp độ chạy",
+        "confidence": "high",
+        "search_keywords": [
+          "cấp độ chạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấp độ chạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124158,
+    "word": "実行可能プログラム",
+    "kana": "じっこうかのうプログラム",
+    "senses": [
+      {
+        "sense_id": 367786,
+        "meaning_vi": "chương trình thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124159,
+    "word": "実行可能モジュール",
+    "kana": "じっこうかのうモジュール",
+    "senses": [
+      {
+        "sense_id": 367787,
+        "meaning_vi": "mô-đun thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "mô-đun thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô-đun thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124160,
+    "word": "実行可能試験項目",
+    "kana": "じっこうかのうしけんこうもく",
+    "senses": [
+      {
+        "sense_id": 367788,
+        "meaning_vi": "trường hợp thử nghiệm thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "trường hợp thử nghiệm thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường hợp thử nghiệm thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124161,
+    "word": "実行可能試験項目群",
+    "kana": "じっこうかのうしけんこうもくぐん",
+    "senses": [
+      {
+        "sense_id": 367789,
+        "meaning_vi": "bộ thử nghiệm thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ thử nghiệm thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ thử nghiệm thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124162,
+    "word": "実行環境",
+    "kana": "じっこうかんきょう",
+    "senses": [
+      {
+        "sense_id": 367790,
+        "meaning_vi": "môi trường thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "môi trường thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môi trường thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124163,
+    "word": "実行許可",
+    "kana": "じっこうきょか",
+    "senses": [
+      {
+        "sense_id": 367791,
+        "meaning_vi": "thực thi quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thi quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thi quyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124164,
+    "word": "実行形式",
+    "kana": "じっこうけいしき",
+    "senses": [
+      {
+        "sense_id": 367792,
+        "meaning_vi": "biểu mẫu thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu mẫu thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu mẫu thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124165,
+    "word": "実行形式ライブラリ",
+    "kana": "じっこうけいしきライブラリ",
+    "senses": [
+      {
+        "sense_id": 367793,
+        "meaning_vi": "thư viện hình ảnh thực thi",
+        "confidence": "high",
+        "search_keywords": [
+          "thư viện hình ảnh thực thi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thư viện hình ảnh thực thi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124166,
+    "word": "実行構文",
+    "kana": "じっこうこうぶん",
+    "senses": [
+      {
+        "sense_id": 367794,
+        "meaning_vi": "cấu trúc thực thi được",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu trúc thực thi được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu trúc thực thi được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

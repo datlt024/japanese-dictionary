@@ -1,318 +1,753 @@
 [
-{
-"vocabulary_id": 581,
-"word": "而して",
-"kana": "そして",
-"senses": [
-{
-"sense_id": 218195,
-"meaning_vi": "và rồi",
-"confidence": "high",
-"search_keywords": [
-"và",
-"sau đó",
-"và rồi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "và; sau đó; cuối cùng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 582,
-"word": "そそっかしい",
-"kana": "そそっかしい",
-"senses": [
-{
-"sense_id": 218196,
-"meaning_vi": "hấp tấp",
-"confidence": "high",
-"search_keywords": [
-"hấp tấp",
-"bất cẩn",
-"vội vàng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bất cẩn; hấp tấp; thiếu suy nghĩ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 583,
-"word": "唆る",
-"kana": "そそる",
-"senses": [
-{
-"sense_id": 218197,
-"meaning_vi": "khơi gợi",
-"confidence": "high",
-"search_keywords": [
-"khơi gợi",
-"kích thích",
-"gợi hứng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "khơi dậy hứng thú; kích thích; cám dỗ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1001,
-"word": "ヘマ",
-"kana": "ヘマ",
-"senses": [
-{
-"sense_id": 218929,
-"meaning_vi": "sai lầm ngớ ngẩn",
-"confidence": "high",
-"search_keywords": [
-"sai lầm",
-"hớ hênh",
-"vụng về"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sai sót; lỗi ngớ ngẩn",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218930,
-"meaning_vi": "vụng về",
-"confidence": "high",
-"search_keywords": [
-"vụng về",
-"ngốc nghếch"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vụng về; thiếu khéo léo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1002,
-"word": "ヘラヘラ",
-"kana": "ヘラヘラ",
-"senses": [
-{
-"sense_id": 218931,
-"meaning_vi": "cười ngây ngô",
-"confidence": "high",
-"search_keywords": [
-"cười ngây ngô",
-"cười hề hề"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cười hề hề một cách thiếu suy nghĩ",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218932,
-"meaning_vi": "nói ba hoa",
-"confidence": "high",
-"search_keywords": [
-"nói ba hoa",
-"ăn nói hời hợt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nói năng hời hợt; thiếu thận trọng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218933,
-"meaning_vi": "mỏng manh",
-"confidence": "high",
-"search_keywords": [
-"mỏng",
-"mỏng manh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mỏng; yếu; dễ rách",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218934,
-"meaning_vi": "bùng cháy",
-"confidence": "low",
-"search_keywords": [
-"bốc cháy",
-"bùng lên"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bùng cháy dữ dội (nghĩa cổ)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1003,
-"word": "可き",
-"kana": "べき",
-"senses": [
-{
-"sense_id": 218935,
-"meaning_vi": "nên",
-"confidence": "high",
-"search_keywords": [
-"nên",
-"phải"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nên làm; cần phải làm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1004,
-"word": "ベタベタ",
-"kana": "ベタベタ",
-"senses": [
-{
-"sense_id": 218936,
-"meaning_vi": "dính nhớp",
-"confidence": "high",
-"search_keywords": [
-"dính",
-"nhớp nháp"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dính; nhớp nháp",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218937,
-"meaning_vi": "quét dày",
-"confidence": "high",
-"search_keywords": [
-"quét dày",
-"bôi nhiều"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phủ hoặc bôi một lớp dày",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218938,
-"meaning_vi": "dán đầy",
-"confidence": "high",
-"search_keywords": [
-"dán đầy",
-"khắp nơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phủ kín khắp nơi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218939,
-"meaning_vi": "bám lấy",
-"confidence": "high",
-"search_keywords": [
-"bám lấy",
-"quấn quýt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "dính lấy người khác; quấn quýt",
-"examples": []
-}
-]
-},
-{
-"sense_id": 218940,
-"meaning_vi": "sáo mòn",
-"confidence": "high",
-"search_keywords": [
-"sáo mòn",
-"cũ rích"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quá quen thuộc; thiếu sáng tạo",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1005,
-"word": "べたんこ",
-"kana": "べたんこ",
-"senses": [
-{
-"sense_id": 218941,
-"meaning_vi": "bẹp dí",
-"confidence": "high",
-"search_keywords": [
-"bẹp",
-"ép phẳng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "bị ép dẹp hoàn toàn",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 581,
+    "word": "而して",
+    "kana": "そして",
+    "senses": [
+      {
+        "sense_id": 218195,
+        "meaning_vi": "Và; và sau đó; do đó; và bây giờ; và cuối cùng",
+        "confidence": "high",
+        "search_keywords": [
+          "Và",
+          "và sau đó",
+          "do đó",
+          "và bây giờ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Và; và sau đó; do đó; và bây giờ; và cuối cùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 582,
+    "word": "そそっかしい",
+    "kana": "そそっかしい",
+    "senses": [
+      {
+        "sense_id": 218196,
+        "meaning_vi": "bất cẩn; thiếu suy nghĩ; vội vàng; phát ban",
+        "confidence": "high",
+        "search_keywords": [
+          "bất cẩn",
+          "thiếu suy nghĩ",
+          "vội vàng",
+          "phát ban"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất cẩn; thiếu suy nghĩ; vội vàng; phát ban",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 583,
+    "word": "唆る",
+    "kana": "そそる",
+    "senses": [
+      {
+        "sense_id": 218197,
+        "meaning_vi": "kích động; kích động; để kích thích; khơi dậy; để cám dỗ; khuấy động",
+        "confidence": "high",
+        "search_keywords": [
+          "kích động",
+          "để kích thích",
+          "khơi dậy",
+          "để cám dỗ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích động; kích động; để kích thích; khơi dậy; để cám dỗ; khuấy động",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1001,
+    "word": "ヘマ",
+    "kana": "ヘマ",
+    "senses": [
+      {
+        "sense_id": 218929,
+        "meaning_vi": "sai lầm; vụng về; hớ hênh; sai lầm",
+        "confidence": "high",
+        "search_keywords": [
+          "sai lầm",
+          "vụng về",
+          "hớ hênh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sai lầm; vụng về; hớ hênh; sai lầm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218930,
+        "meaning_vi": "vụng về; ngốc nghếch; không khéo léo; hậu đậu; vụng về",
+        "confidence": "high",
+        "search_keywords": [
+          "vụng về",
+          "ngốc nghếch",
+          "không khéo léo",
+          "hậu đậu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vụng về; ngốc nghếch; không khéo léo; hậu đậu; vụng về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1002,
+    "word": "ヘラヘラ",
+    "kana": "ヘラヘラ",
+    "senses": [
+      {
+        "sense_id": 218931,
+        "meaning_vi": "(cười) ngu ngốc; (cười) thiếu suy nghĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "(cười) ngu ngốc",
+          "(cười) thiếu suy nghĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cười) ngu ngốc; (cười) thiếu suy nghĩ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218932,
+        "meaning_vi": "bừa bãi (nói chuyện); bất cẩn (nói); một cách phù phiếm; một cách khinh suất",
+        "confidence": "high",
+        "search_keywords": [
+          "bừa bãi (nói chuyện)",
+          "bất cẩn (nói)",
+          "một cách phù phiếm",
+          "một cách khinh suất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bừa bãi (nói chuyện); bất cẩn (nói); một cách phù phiếm; một cách khinh suất",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218933,
+        "meaning_vi": "mỏng (giấy, vải, v.v.); mỏng manh",
+        "confidence": "high",
+        "search_keywords": [
+          "mỏng (giấy, vải, v.v.)",
+          "mỏng manh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỏng (giấy, vải, v.v.); mỏng manh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218934,
+        "meaning_vi": "bùng lên; bùng cháy",
+        "confidence": "high",
+        "search_keywords": [
+          "bùng lên",
+          "bùng cháy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bùng lên; bùng cháy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1003,
+    "word": "可き",
+    "kana": "べき",
+    "senses": [
+      {
+        "sense_id": 218935,
+        "meaning_vi": "nên; phải; nên",
+        "confidence": "high",
+        "search_keywords": [
+          "nên",
+          "phải"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nên; phải; nên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1004,
+    "word": "ベタベタ",
+    "kana": "ベタベタ",
+    "senses": [
+      {
+        "sense_id": 218936,
+        "meaning_vi": "dính",
+        "confidence": "high",
+        "search_keywords": [
+          "dính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dính",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218937,
+        "meaning_vi": "dày (ví dụ: sơn); nặng nề (áp dụng)",
+        "confidence": "high",
+        "search_keywords": [
+          "dày (ví dụ: sơn)",
+          "nặng nề (áp dụng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dày (ví dụ: sơn); nặng nề (áp dụng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218938,
+        "meaning_vi": "khắp nơi (dán, dán tem, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "khắp nơi (dán, dán tem, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khắp nơi (dán, dán tem, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218939,
+        "meaning_vi": "bám víu (ví dụ: của một người); đi theo xung quanh; ở bên nhau (của nhau); tán tỉnh",
+        "confidence": "high",
+        "search_keywords": [
+          "bám víu (ví dụ: của một người)",
+          "đi theo xung quanh",
+          "ở bên nhau (của nhau)",
+          "tán tỉnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bám víu (ví dụ: của một người); đi theo xung quanh; ở bên nhau (của nhau); tán tỉnh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218940,
+        "meaning_vi": "sáo rỗng; bị lừa",
+        "confidence": "high",
+        "search_keywords": [
+          "sáo rỗng",
+          "bị lừa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sáo rỗng; bị lừa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1005,
+    "word": "べたんこ",
+    "kana": "べたんこ",
+    "senses": [
+      {
+        "sense_id": 218941,
+        "meaning_vi": "ép phẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "ép phẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ép phẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1006,
+    "word": "べちゃべちゃ",
+    "kana": "べちゃべちゃ",
+    "senses": [
+      {
+        "sense_id": 218942,
+        "meaning_vi": "huyên thuyên; lảm nhảm; nhớp nháp; lộn xộn (từ bùn, mực, v.v.); lấm lem (ví dụ: tuyết)",
+        "confidence": "high",
+        "search_keywords": [
+          "huyên thuyên",
+          "lảm nhảm",
+          "nhớp nháp",
+          "lộn xộn (từ bùn, mực, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "huyên thuyên; lảm nhảm; nhớp nháp; lộn xộn (từ bùn, mực, v.v.); lấm lem (ví dụ: tuyết)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1007,
+    "word": "べちゃんこ",
+    "kana": "べちゃんこ",
+    "senses": [
+      {
+        "sense_id": 218943,
+        "meaning_vi": "ép phẳng",
+        "confidence": "high",
+        "search_keywords": [
+          "ép phẳng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ép phẳng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1008,
+    "word": "べったり",
+    "kana": "べったり",
+    "senses": [
+      {
+        "sense_id": 218944,
+        "meaning_vi": "dính vào; bám víu",
+        "confidence": "high",
+        "search_keywords": [
+          "dính vào",
+          "bám víu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dính vào; bám víu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218945,
+        "meaning_vi": "bằng một cú tát (ví dụ: ngồi xuống); cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "bằng một cú tát (ví dụ: ngồi xuống)",
+          "cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bằng một cú tát (ví dụ: ngồi xuống); cứng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218946,
+        "meaning_vi": "khắp nơi ; dày đặc",
+        "confidence": "high",
+        "search_keywords": [
+          "khắp nơi",
+          "dày đặc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khắp nơi ; dày đặc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1009,
+    "word": "ベトベト",
+    "kana": "ベトベト",
+    "senses": [
+      {
+        "sense_id": 218947,
+        "meaning_vi": "dính",
+        "confidence": "high",
+        "search_keywords": [
+          "dính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1010,
+    "word": "べらべら",
+    "kana": "べらべら",
+    "senses": [
+      {
+        "sense_id": 218948,
+        "meaning_vi": "nói không ngừng; nói một cách thiếu thận trọng; huyên thuyên",
+        "confidence": "high",
+        "search_keywords": [
+          "nói không ngừng",
+          "nói một cách thiếu thận trọng",
+          "huyên thuyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nói không ngừng; nói một cách thiếu thận trọng; huyên thuyên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218949,
+        "meaning_vi": "gầy; mỏng manh",
+        "confidence": "high",
+        "search_keywords": [
+          "gầy",
+          "mỏng manh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gầy; mỏng manh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1011,
+    "word": "べらんめえ",
+    "kana": "べらんめえ",
+    "senses": [
+      {
+        "sense_id": 218950,
+        "meaning_vi": "ngu ngốc chết tiệt!; đồ ngốc!",
+        "confidence": "high",
+        "search_keywords": [
+          "ngu ngốc chết tiệt!",
+          "đồ ngốc!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngu ngốc chết tiệt!; đồ ngốc!",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218951,
+        "meaning_vi": "(đúng) Tokyoite; Edoit; Người gốc Tokyo",
+        "confidence": "high",
+        "search_keywords": [
+          "(đúng) Tokyoite",
+          "Edoit",
+          "Người gốc Tokyo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(đúng) Tokyoite; Edoit; Người gốc Tokyo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1012,
+    "word": "ベロベロ舐める",
+    "kana": "ベロベロなめる",
+    "senses": [
+      {
+        "sense_id": 218952,
+        "meaning_vi": "liếm cái gì đó; để lap một cái gì đó lên",
+        "confidence": "high",
+        "search_keywords": [
+          "liếm cái gì đó",
+          "để lap một cái gì đó lên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liếm cái gì đó; để lap một cái gì đó lên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1013,
+    "word": "ぺこぺこ",
+    "kana": "ぺこぺこ",
+    "senses": [
+      {
+        "sense_id": 218953,
+        "meaning_vi": "rất đói; chết đói; đói bụng",
+        "confidence": "high",
+        "search_keywords": [
+          "rất đói",
+          "chết đói",
+          "đói bụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất đói; chết đói; đói bụng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218954,
+        "meaning_vi": "cúi lạy nhiều lần; quỳ lạy; cúi đầu và cạo; ngoan ngoãn; trở thành nô lệ",
+        "confidence": "high",
+        "search_keywords": [
+          "cúi lạy nhiều lần",
+          "quỳ lạy",
+          "cúi đầu và cạo",
+          "ngoan ngoãn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cúi lạy nhiều lần; quỳ lạy; cúi đầu và cạo; ngoan ngoãn; trở thành nô lệ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218955,
+        "meaning_vi": "làm răng sứt mẻ; oằn; cho (vào)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm răng sứt mẻ",
+          "oằn",
+          "cho (vào)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm răng sứt mẻ; oằn; cho (vào)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1014,
+    "word": "ペチャパイ",
+    "kana": "ペチャパイ",
+    "senses": [
+      {
+        "sense_id": 218956,
+        "meaning_vi": "ngực phẳng; ngực nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "ngực phẳng",
+          "ngực nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngực phẳng; ngực nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1015,
+    "word": "ぺてん",
+    "kana": "ぺてん",
+    "senses": [
+      {
+        "sense_id": 218957,
+        "meaning_vi": "gian lận; lừa đảo",
+        "confidence": "high",
+        "search_keywords": [
+          "gian lận",
+          "lừa đảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gian lận; lừa đảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1016,
+    "word": "ぺらぺら",
+    "kana": "ぺらぺら",
+    "senses": [
+      {
+        "sense_id": 218959,
+        "meaning_vi": "trôi chảy (nói tiếng nước ngoài)",
+        "confidence": "high",
+        "search_keywords": [
+          "trôi chảy (nói tiếng nước ngoài)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trôi chảy (nói tiếng nước ngoài)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218960,
+        "meaning_vi": "không ngừng (nói); một cách trôi chảy; ba hoa ; nói to",
+        "confidence": "high",
+        "search_keywords": [
+          "không ngừng (nói)",
+          "một cách trôi chảy",
+          "ba hoa",
+          "nói to"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không ngừng (nói); một cách trôi chảy; ba hoa ; nói to",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218961,
+        "meaning_vi": "lần lượt (lướt qua các trang)",
+        "confidence": "high",
+        "search_keywords": [
+          "lần lượt (lướt qua các trang)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lần lượt (lướt qua các trang)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 218962,
+        "meaning_vi": "mỏng (giấy, vải, v.v.); mỏng manh; yếu đuối",
+        "confidence": "high",
+        "search_keywords": [
+          "mỏng (giấy, vải, v.v.)",
+          "mỏng manh",
+          "yếu đuối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mỏng (giấy, vải, v.v.); mỏng manh; yếu đuối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1017,
+    "word": "ほかほか",
+    "kana": "ほかほか",
+    "senses": [
+      {
+        "sense_id": 218963,
+        "meaning_vi": "ấm áp thoải mái; hấp nóng (thức ăn); đường ống nóng; rực rỡ (với sự ấm áp)",
+        "confidence": "high",
+        "search_keywords": [
+          "ấm áp thoải mái",
+          "hấp nóng (thức ăn)",
+          "đường ống nóng",
+          "rực rỡ (với sự ấm áp)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ấm áp thoải mái; hấp nóng (thức ăn); đường ống nóng; rực rỡ (với sự ấm áp)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

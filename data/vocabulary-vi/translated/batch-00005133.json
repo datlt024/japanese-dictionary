@@ -1,0 +1,446 @@
+[
+  {
+    "vocabulary_id": 123203,
+    "word": "協調試験法",
+    "kana": "きょうちょうしけんほう",
+    "senses": [
+      {
+        "sense_id": 366826,
+        "meaning_vi": "Phương pháp thử nghiệm phối hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "Phương pháp thử nghiệm phối hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Phương pháp thử nghiệm phối hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123204,
+    "word": "協同収集",
+    "kana": "きょうどうしゅうしゅう",
+    "senses": [
+      {
+        "sense_id": 366827,
+        "meaning_vi": "hợp tác mua lại",
+        "confidence": "high",
+        "search_keywords": [
+          "hợp tác mua lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hợp tác mua lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123205,
+    "word": "境界合わせ",
+    "kana": "きょうかいあわせ",
+    "senses": [
+      {
+        "sense_id": 366828,
+        "meaning_vi": "căn chỉnh ranh giới",
+        "confidence": "high",
+        "search_keywords": [
+          "căn chỉnh ranh giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "căn chỉnh ranh giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123206,
+    "word": "境界内オブジェクト集合",
+    "kana": "きょうかいないオブジェクトしゅうごう",
+    "senses": [
+      {
+        "sense_id": 366829,
+        "meaning_vi": "tập đối tượng bị chặn; BOS",
+        "confidence": "high",
+        "search_keywords": [
+          "tập đối tượng bị chặn",
+          "BOS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập đối tượng bị chặn; BOS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123207,
+    "word": "境界表現",
+    "kana": "きょうかいひょうげん",
+    "senses": [
+      {
+        "sense_id": 366830,
+        "meaning_vi": "biểu diễn ranh giới",
+        "confidence": "high",
+        "search_keywords": [
+          "biểu diễn ranh giới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biểu diễn ranh giới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123208,
+    "word": "強制ページ区切り",
+    "kana": "きょうせいページくぎり",
+    "senses": [
+      {
+        "sense_id": 366831,
+        "meaning_vi": "buộc phải ngắt trang",
+        "confidence": "high",
+        "search_keywords": [
+          "buộc phải ngắt trang"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buộc phải ngắt trang",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123209,
+    "word": "強制モード",
+    "kana": "きょうせいモード",
+    "senses": [
+      {
+        "sense_id": 366832,
+        "meaning_vi": "chế độ đóng",
+        "confidence": "high",
+        "search_keywords": [
+          "chế độ đóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chế độ đóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123210,
+    "word": "強制改行",
+    "kana": "きょうせいかいぎょう",
+    "senses": [
+      {
+        "sense_id": 366833,
+        "meaning_vi": "ngắt dòng cứng; hoàn trả khó khăn",
+        "confidence": "high",
+        "search_keywords": [
+          "ngắt dòng cứng",
+          "hoàn trả khó khăn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngắt dòng cứng; hoàn trả khó khăn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123211,
+    "word": "強制終了",
+    "kana": "きょうせいしゅうりょう",
+    "senses": [
+      {
+        "sense_id": 366834,
+        "meaning_vi": "buộc chấm dứt",
+        "confidence": "high",
+        "search_keywords": [
+          "buộc chấm dứt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "buộc chấm dứt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123212,
+    "word": "強制衝突",
+    "kana": "きょうせいしょうとつ",
+    "senses": [
+      {
+        "sense_id": 366835,
+        "meaning_vi": "thực thi va chạm",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thi va chạm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thi va chạm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123213,
+    "word": "強調表示",
+    "kana": "きょうちょうひょうじ",
+    "senses": [
+      {
+        "sense_id": 366836,
+        "meaning_vi": "làm nổi bật",
+        "confidence": "high",
+        "search_keywords": [
+          "làm nổi bật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm nổi bật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123214,
+    "word": "強調表示フィルタ",
+    "kana": "きょうちょうひょうじフィルタ",
+    "senses": [
+      {
+        "sense_id": 366837,
+        "meaning_vi": "bộ lọc nổi bật",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ lọc nổi bật"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ lọc nổi bật",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123215,
+    "word": "強誘電体メモリ",
+    "kana": "きょうゆうでんたいメモリ",
+    "senses": [
+      {
+        "sense_id": 366838,
+        "meaning_vi": "bộ nhớ sắt điện",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ nhớ sắt điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ nhớ sắt điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123216,
+    "word": "教材センタ",
+    "kana": "きょうざいセンタ",
+    "senses": [
+      {
+        "sense_id": 366839,
+        "meaning_vi": "trung tâm tài nguyên truyền thông; trung tâm tài nguyên",
+        "confidence": "high",
+        "search_keywords": [
+          "trung tâm tài nguyên truyền thông",
+          "trung tâm tài nguyên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trung tâm tài nguyên truyền thông; trung tâm tài nguyên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123217,
+    "word": "区分ファイル",
+    "kana": "くぶんファイル",
+    "senses": [
+      {
+        "sense_id": 366896,
+        "meaning_vi": "tập tin được phân vùng",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin được phân vùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin được phân vùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123218,
+    "word": "教材プログラム",
+    "kana": "きょうざいプログラム",
+    "senses": [
+      {
+        "sense_id": 366840,
+        "meaning_vi": "chương trình học; chương trình giảng dạy",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình học",
+          "chương trình giảng dạy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình học; chương trình giảng dạy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123219,
+    "word": "狭帯域",
+    "kana": "きょうたいいき",
+    "senses": [
+      {
+        "sense_id": 366841,
+        "meaning_vi": "băng thông hẹp",
+        "confidence": "high",
+        "search_keywords": [
+          "băng thông hẹp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "băng thông hẹp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123220,
+    "word": "鏡映",
+    "kana": "きょうえい",
+    "senses": [
+      {
+        "sense_id": 366842,
+        "meaning_vi": "sự phản chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phản chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phản chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123221,
+    "word": "鏡面反射",
+    "kana": "きょうめんはんしゃ",
+    "senses": [
+      {
+        "sense_id": 366843,
+        "meaning_vi": "sự phản chiếu gương",
+        "confidence": "high",
+        "search_keywords": [
+          "sự phản chiếu gương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự phản chiếu gương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123222,
+    "word": "鏡面反射係数",
+    "kana": "きょうめんはんしゃけいすう",
+    "senses": [
+      {
+        "sense_id": 366844,
+        "meaning_vi": "hệ số phản xạ gương",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ số phản xạ gương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ số phản xạ gương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

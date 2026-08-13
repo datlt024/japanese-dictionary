@@ -1,0 +1,256 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background: rgba(15, 23, 42, 0.45);
+
+    animation: fadeIn 0.18s ease;
+}
+
+.modal {
+    width: min(480px, calc(100vw - 40px));
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+
+    background: var(--color-surface);
+
+    box-shadow:
+        0 16px 48px rgba(15, 23, 42, 0.16),
+        0 4px 16px rgba(15, 23, 42, 0.06);
+
+    animation: popupIn 0.2s ease;
+}
+
+/* ── Header ── */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 14px 18px;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.header h2 {
+    margin: 0;
+
+    color: var(--color-text-primary);
+
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+}
+
+.closeButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+
+    background: var(--color-bg);
+    color: var(--color-text-secondary);
+
+    cursor: pointer;
+
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.closeButton:hover {
+    background: var(--color-surface-muted);
+    color: var(--color-text-primary);
+}
+
+/* ── Body ── */
+
+.body {
+    padding: 16px 18px 18px;
+}
+
+.hint {
+    margin: 0;
+    padding: 8px 0;
+    color: var(--color-text-muted);
+    font-size: 14px;
+}
+
+.textarea {
+    width: 100%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+
+    background: var(--color-bg);
+    color: var(--color-text-primary);
+
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 1.6;
+    resize: vertical;
+
+    outline: none;
+    transition: border-color 0.15s ease;
+}
+
+.textarea:focus {
+    border-color: var(--color-primary-soft);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.07);
+}
+
+.textarea::placeholder {
+    color: var(--color-text-muted);
+}
+
+/* ── Footer ── */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.charCount {
+    color: var(--color-text-muted);
+    font-size: 11px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.deleteButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+
+    background: transparent;
+    color: var(--color-text-muted);
+
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.deleteButton:hover:not(:disabled) {
+    border-color: #fca5a5;
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.deleteButton:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.cancelButton {
+    height: 34px;
+    padding: 0 14px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+
+    background: transparent;
+    color: var(--color-text-secondary);
+
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.cancelButton:hover:not(:disabled) {
+    background: var(--color-surface-muted);
+}
+
+.cancelButton:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.saveButton {
+    height: 34px;
+    padding: 0 16px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: var(--color-primary);
+    color: #fff;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+}
+
+.saveButton:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+.errorText {
+    margin: 8px 0 0;
+    color: var(--color-danger);
+    font-size: 12px;
+}
+
+/* ── Animations ── */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes popupIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay {
+        align-items: flex-end;
+        padding: 12px;
+    }
+
+    .modal {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        border-bottom: none;
+    }
+}

@@ -1,0 +1,741 @@
+[
+  {
+    "vocabulary_id": 30493,
+    "word": "儒道",
+    "kana": "じゅどう",
+    "senses": [
+      {
+        "sense_id": 256510,
+        "meaning_vi": "Nho giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "Nho giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nho giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30494,
+    "word": "儒仏",
+    "kana": "じゅぶつ",
+    "senses": [
+      {
+        "sense_id": 256511,
+        "meaning_vi": "Nho giáo và Phật giáo",
+        "confidence": "high",
+        "search_keywords": [
+          "Nho giáo và Phật giáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Nho giáo và Phật giáo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30495,
+    "word": "受かる",
+    "kana": "うかる",
+    "senses": [
+      {
+        "sense_id": 256512,
+        "meaning_vi": "đậu (kỳ thi)",
+        "confidence": "high",
+        "search_keywords": [
+          "đậu (kỳ thi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đậu (kỳ thi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30496,
+    "word": "受ける",
+    "kana": "うける",
+    "senses": [
+      {
+        "sense_id": 256513,
+        "meaning_vi": "nhận được; để có được",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận được",
+          "để có được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận được; để có được",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256514,
+        "meaning_vi": "để bắt (ví dụ như một quả bóng)",
+        "confidence": "high",
+        "search_keywords": [
+          "để bắt (ví dụ như một quả bóng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bắt (ví dụ như một quả bóng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256515,
+        "meaning_vi": "bị tấn công bởi (gió, sóng, ánh sáng mặt trời, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "bị tấn công bởi (gió, sóng, ánh sáng mặt trời, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị tấn công bởi (gió, sóng, ánh sáng mặt trời, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256516,
+        "meaning_vi": "để duy trì (thiệt hại); phải gánh chịu (tổn thất); bị (chấn thương); cảm nhận (ảnh hưởng)",
+        "confidence": "high",
+        "search_keywords": [
+          "để duy trì (thiệt hại)",
+          "phải gánh chịu (tổn thất)",
+          "bị (chấn thương)",
+          "cảm nhận (ảnh hưởng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để duy trì (thiệt hại); phải gánh chịu (tổn thất); bị (chấn thương); cảm nhận (ảnh hưởng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256517,
+        "meaning_vi": "phải trải qua (ví dụ: phẫu thuật); làm (một bài kiểm tra); chấp nhận (một thử thách)",
+        "confidence": "high",
+        "search_keywords": [
+          "phải trải qua (ví dụ: phẫu thuật)",
+          "làm (một bài kiểm tra)",
+          "chấp nhận (một thử thách)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phải trải qua (ví dụ: phẫu thuật); làm (một bài kiểm tra); chấp nhận (một thử thách)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256518,
+        "meaning_vi": "được trao (ví dụ như cuộc sống, tài năng)",
+        "confidence": "high",
+        "search_keywords": [
+          "được trao (ví dụ như cuộc sống, tài năng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được trao (ví dụ như cuộc sống, tài năng)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256519,
+        "meaning_vi": "thấy buồn cười; để tìm sự hài hước; được thích thú (bởi)",
+        "confidence": "high",
+        "search_keywords": [
+          "thấy buồn cười",
+          "để tìm sự hài hước",
+          "được thích thú (bởi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thấy buồn cười; để tìm sự hài hước; được thích thú (bởi)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256520,
+        "meaning_vi": "đi theo; để thành công; có nguồn gốc từ",
+        "confidence": "high",
+        "search_keywords": [
+          "đi theo",
+          "để thành công",
+          "có nguồn gốc từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đi theo; để thành công; có nguồn gốc từ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256521,
+        "meaning_vi": "đối mặt (phía nam, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "đối mặt (phía nam, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối mặt (phía nam, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256522,
+        "meaning_vi": "được sửa đổi bởi",
+        "confidence": "high",
+        "search_keywords": [
+          "được sửa đổi bởi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được sửa đổi bởi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256523,
+        "meaning_vi": "để có được (một món đồ cầm đồ, v.v.) bằng cách trả một khoản phí",
+        "confidence": "high",
+        "search_keywords": [
+          "để có được (một món đồ cầm đồ, v.v.) bằng cách trả một khoản phí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để có được (một món đồ cầm đồ, v.v.) bằng cách trả một khoản phí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256524,
+        "meaning_vi": "được đón nhận nồng nhiệt; trở nên phổ biến; đi xuống tốt",
+        "confidence": "high",
+        "search_keywords": [
+          "được đón nhận nồng nhiệt",
+          "trở nên phổ biến",
+          "đi xuống tốt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được đón nhận nồng nhiệt; trở nên phổ biến; đi xuống tốt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30497,
+    "word": "受け継ぐ",
+    "kana": "うけつぐ",
+    "senses": [
+      {
+        "sense_id": 256525,
+        "meaning_vi": "kế thừa; để thành công; tiếp quản",
+        "confidence": "high",
+        "search_keywords": [
+          "kế thừa",
+          "để thành công",
+          "tiếp quản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kế thừa; để thành công; tiếp quản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30498,
+    "word": "受け皿",
+    "kana": "うけざら",
+    "senses": [
+      {
+        "sense_id": 256526,
+        "meaning_vi": "cái đĩa",
+        "confidence": "high",
+        "search_keywords": [
+          "cái đĩa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái đĩa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256527,
+        "meaning_vi": "người (nhóm, cơ quan, v.v.) đảm nhận một vị trí hoặc công việc; thùng chứa (ví dụ: tiền); người nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "người (nhóm, cơ quan, v.v.) đảm nhận một vị trí hoặc công việc",
+          "thùng chứa (ví dụ: tiền)",
+          "người nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người (nhóm, cơ quan, v.v.) đảm nhận một vị trí hoặc công việc; thùng chứa (ví dụ: tiền); người nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30499,
+    "word": "受け止める",
+    "kana": "うけとめる",
+    "senses": [
+      {
+        "sense_id": 256528,
+        "meaning_vi": "để bắt ; để ngăn chặn cú đánh",
+        "confidence": "high",
+        "search_keywords": [
+          "để bắt",
+          "để ngăn chặn cú đánh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bắt ; để ngăn chặn cú đánh",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256529,
+        "meaning_vi": "phản ứng lại; nhận (lời khuyên, v.v.); chấp nhận; để nắm bắt được",
+        "confidence": "high",
+        "search_keywords": [
+          "phản ứng lại",
+          "nhận (lời khuyên, v.v.)",
+          "chấp nhận",
+          "để nắm bắt được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phản ứng lại; nhận (lời khuyên, v.v.); chấp nhận; để nắm bắt được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30500,
+    "word": "受け持つ",
+    "kana": "うけもつ",
+    "senses": [
+      {
+        "sense_id": 256530,
+        "meaning_vi": "chịu trách nhiệm về",
+        "confidence": "high",
+        "search_keywords": [
+          "chịu trách nhiệm về"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chịu trách nhiệm về",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30501,
+    "word": "受け取る",
+    "kana": "うけとる",
+    "senses": [
+      {
+        "sense_id": 256531,
+        "meaning_vi": "nhận được; để có được ; chấp nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận được",
+          "để có được",
+          "chấp nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận được; để có được ; chấp nhận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256532,
+        "meaning_vi": "nhận (lời nói hoặc hành vi của ai đó); để giải thích; để hiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận (lời nói hoặc hành vi của ai đó)",
+          "để giải thích",
+          "để hiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận (lời nói hoặc hành vi của ai đó); để giải thích; để hiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30502,
+    "word": "受け入れ",
+    "kana": "うけいれ",
+    "senses": [
+      {
+        "sense_id": 256533,
+        "meaning_vi": "nhận; chấp nhận; thu nhận; nhập học",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận",
+          "chấp nhận",
+          "thu nhận",
+          "nhập học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận; chấp nhận; thu nhận; nhập học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30503,
+    "word": "受け入れる",
+    "kana": "うけいれる",
+    "senses": [
+      {
+        "sense_id": 256534,
+        "meaning_vi": "chấp nhận; nhận được; đồng ý",
+        "confidence": "high",
+        "search_keywords": [
+          "chấp nhận",
+          "nhận được",
+          "đồng ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấp nhận; nhận được; đồng ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30504,
+    "word": "受け売り",
+    "kana": "うけうり",
+    "senses": [
+      {
+        "sense_id": 256535,
+        "meaning_vi": "bán lẻ",
+        "confidence": "high",
+        "search_keywords": [
+          "bán lẻ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bán lẻ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256536,
+        "meaning_vi": "lặp lại (lời nói, ý kiến ​​​​của người khác, v.v.); vẹt; vang vọng; kể lại bằng tay thứ hai",
+        "confidence": "high",
+        "search_keywords": [
+          "lặp lại (lời nói, ý kiến ​​​​của người khác, v.v.)",
+          "vẹt",
+          "vang vọng",
+          "kể lại bằng tay thứ hai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lặp lại (lời nói, ý kiến ​​​​của người khác, v.v.); vẹt; vang vọng; kể lại bằng tay thứ hai",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30505,
+    "word": "受け付ける",
+    "kana": "うけつける",
+    "senses": [
+      {
+        "sense_id": 256537,
+        "meaning_vi": "chấp nhận; để nhận (một ứng dụng); để chiếm",
+        "confidence": "high",
+        "search_keywords": [
+          "chấp nhận",
+          "để nhận (một ứng dụng)",
+          "để chiếm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấp nhận; để nhận (một ứng dụng); để chiếm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256538,
+        "meaning_vi": "(có thể) dùng (thức ăn, thuốc, v.v.); chịu đựng ; chịu đựng được; chịu đựng",
+        "confidence": "high",
+        "search_keywords": [
+          "(có thể) dùng (thức ăn, thuốc, v.v.)",
+          "chịu đựng",
+          "chịu đựng được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(có thể) dùng (thức ăn, thuốc, v.v.); chịu đựng ; chịu đựng được; chịu đựng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 256539,
+        "meaning_vi": "bị ảnh hưởng bởi; nhận thiệt hại từ",
+        "confidence": "high",
+        "search_keywords": [
+          "bị ảnh hưởng bởi",
+          "nhận thiệt hại từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị ảnh hưởng bởi; nhận thiệt hại từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30506,
+    "word": "受け流す",
+    "kana": "うけながす",
+    "senses": [
+      {
+        "sense_id": 256540,
+        "meaning_vi": "để tránh (ví dụ: một cuộc tấn công); để chống đỡ (ví dụ: một câu hỏi); để trốn tránh; trốn tránh; né tránh; quay sang một bên (ví dụ: một trò đùa)",
+        "confidence": "high",
+        "search_keywords": [
+          "để tránh (ví dụ: một cuộc tấn công)",
+          "để chống đỡ (ví dụ: một câu hỏi)",
+          "để trốn tránh",
+          "trốn tránh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để tránh (ví dụ: một cuộc tấn công); để chống đỡ (ví dụ: một câu hỏi); để trốn tránh; trốn tránh; né tránh; quay sang một bên (ví dụ: một trò đùa)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30507,
+    "word": "受益者",
+    "kana": "じゅえきしゃ",
+    "senses": [
+      {
+        "sense_id": 256541,
+        "meaning_vi": "người thụ hưởng",
+        "confidence": "high",
+        "search_keywords": [
+          "người thụ hưởng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người thụ hưởng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30508,
+    "word": "受刑",
+    "kana": "じゅけい",
+    "senses": [
+      {
+        "sense_id": 256542,
+        "meaning_vi": "hình phạt",
+        "confidence": "high",
+        "search_keywords": [
+          "hình phạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình phạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30509,
+    "word": "受検",
+    "kana": "じゅけん",
+    "senses": [
+      {
+        "sense_id": 256543,
+        "meaning_vi": "đang trong quá trình kiểm tra; trải qua một cuộc kiểm tra; trải qua một bài kiểm tra; đang kiểm tra",
+        "confidence": "high",
+        "search_keywords": [
+          "đang trong quá trình kiểm tra",
+          "trải qua một cuộc kiểm tra",
+          "trải qua một bài kiểm tra",
+          "đang kiểm tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang trong quá trình kiểm tra; trải qua một cuộc kiểm tra; trải qua một bài kiểm tra; đang kiểm tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30510,
+    "word": "拾得物",
+    "kana": "しゅうとくぶつ",
+    "senses": [
+      {
+        "sense_id": 256904,
+        "meaning_vi": "bài viết được tìm thấy",
+        "confidence": "high",
+        "search_keywords": [
+          "bài viết được tìm thấy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bài viết được tìm thấy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30511,
+    "word": "受験",
+    "kana": "じゅけん",
+    "senses": [
+      {
+        "sense_id": 256544,
+        "meaning_vi": "tham gia một kỳ thi (đặc biệt là để vào trường học hoặc đại học)",
+        "confidence": "high",
+        "search_keywords": [
+          "tham gia một kỳ thi (đặc biệt là để vào trường học hoặc đại học)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tham gia một kỳ thi (đặc biệt là để vào trường học hoặc đại học)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 30512,
+    "word": "受験地獄",
+    "kana": "じゅけんじごく",
+    "senses": [
+      {
+        "sense_id": 256545,
+        "meaning_vi": "thi địa ngục; thử thách của kỳ thi tuyển sinh",
+        "confidence": "high",
+        "search_keywords": [
+          "thi địa ngục",
+          "thử thách của kỳ thi tuyển sinh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thi địa ngục; thử thách của kỳ thi tuyển sinh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

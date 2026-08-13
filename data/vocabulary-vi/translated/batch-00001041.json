@@ -1,0 +1,509 @@
+[
+  {
+    "vocabulary_id": 26295,
+    "word": "国営",
+    "kana": "こくえい",
+    "senses": [
+      {
+        "sense_id": 250982,
+        "meaning_vi": "quản lý chính phủ; quản lý nhà nước",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý chính phủ",
+          "quản lý nhà nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý chính phủ; quản lý nhà nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26296,
+    "word": "国営企業",
+    "kana": "こくえいきぎょう",
+    "senses": [
+      {
+        "sense_id": 250983,
+        "meaning_vi": "doanh nghiệp nhà nước; doanh nghiệp nhà nước; doanh nghiệp quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "doanh nghiệp nhà nước",
+          "doanh nghiệp quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "doanh nghiệp nhà nước; doanh nghiệp nhà nước; doanh nghiệp quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26297,
+    "word": "国営通信",
+    "kana": "こくえいつうしん",
+    "senses": [
+      {
+        "sense_id": 250984,
+        "meaning_vi": "tin tức chính phủ; tin tức nhà nước",
+        "confidence": "high",
+        "search_keywords": [
+          "tin tức chính phủ",
+          "tin tức nhà nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tin tức chính phủ; tin tức nhà nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26298,
+    "word": "国益",
+    "kana": "こくえき",
+    "senses": [
+      {
+        "sense_id": 250985,
+        "meaning_vi": "lợi ích quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "lợi ích quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lợi ích quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26299,
+    "word": "国王",
+    "kana": "こくおう",
+    "senses": [
+      {
+        "sense_id": 250986,
+        "meaning_vi": "nhà vua; nữ hoàng; vua; có chủ quyền",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà vua",
+          "nữ hoàng",
+          "vua",
+          "có chủ quyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà vua; nữ hoàng; vua; có chủ quyền",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250987,
+        "meaning_vi": "Vương miện (là trung tâm quyền lực ở Vương quốc Anh, v.v.); ngai vàng",
+        "confidence": "high",
+        "search_keywords": [
+          "Vương miện (là trung tâm quyền lực ở Vương quốc Anh, v.v.)",
+          "ngai vàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Vương miện (là trung tâm quyền lực ở Vương quốc Anh, v.v.); ngai vàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26300,
+    "word": "国家",
+    "kana": "こっか",
+    "senses": [
+      {
+        "sense_id": 250988,
+        "meaning_vi": "tình trạng; quốc gia; quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng",
+          "quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng; quốc gia; quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26301,
+    "word": "国家テロ",
+    "kana": "こっかテロ",
+    "senses": [
+      {
+        "sense_id": 250989,
+        "meaning_vi": "khủng bố nhà nước (được tài trợ)",
+        "confidence": "high",
+        "search_keywords": [
+          "khủng bố nhà nước (được tài trợ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khủng bố nhà nước (được tài trợ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26302,
+    "word": "国家主席",
+    "kana": "こっかしゅせき",
+    "senses": [
+      {
+        "sense_id": 250990,
+        "meaning_vi": "nguyên thủ quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "nguyên thủ quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nguyên thủ quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26303,
+    "word": "国家独占",
+    "kana": "こっかどくせん",
+    "senses": [
+      {
+        "sense_id": 250991,
+        "meaning_vi": "độc quyền nhà nước",
+        "confidence": "high",
+        "search_keywords": [
+          "độc quyền nhà nước"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "độc quyền nhà nước",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26304,
+    "word": "国歌",
+    "kana": "こっか",
+    "senses": [
+      {
+        "sense_id": 250992,
+        "meaning_vi": "quốc ca",
+        "confidence": "high",
+        "search_keywords": [
+          "quốc ca"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quốc ca",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26305,
+    "word": "国花",
+    "kana": "こっか",
+    "senses": [
+      {
+        "sense_id": 250993,
+        "meaning_vi": "quốc hoa",
+        "confidence": "high",
+        "search_keywords": [
+          "quốc hoa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quốc hoa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26306,
+    "word": "国会",
+    "kana": "こっかい",
+    "senses": [
+      {
+        "sense_id": 250994,
+        "meaning_vi": "Chế độ ăn uống quốc gia; hội đồng lập pháp của Nhật Bản (1947-)",
+        "confidence": "high",
+        "search_keywords": [
+          "Chế độ ăn uống quốc gia",
+          "hội đồng lập pháp của Nhật Bản (1947-)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chế độ ăn uống quốc gia; hội đồng lập pháp của Nhật Bản (1947-)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250995,
+        "meaning_vi": "Chế độ ăn kiêng của Hoàng gia; hội đồng lập pháp Nhật Bản (1889-1947)",
+        "confidence": "high",
+        "search_keywords": [
+          "Chế độ ăn kiêng của Hoàng gia",
+          "hội đồng lập pháp Nhật Bản (1889-1947)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Chế độ ăn kiêng của Hoàng gia; hội đồng lập pháp Nhật Bản (1889-1947)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 250996,
+        "meaning_vi": "hội đồng lập pháp; quốc hội; đại hội",
+        "confidence": "high",
+        "search_keywords": [
+          "hội đồng lập pháp",
+          "quốc hội",
+          "đại hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội đồng lập pháp; quốc hội; đại hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26307,
+    "word": "国会議員",
+    "kana": "こっかいぎいん",
+    "senses": [
+      {
+        "sense_id": 250997,
+        "meaning_vi": "thành viên của Quốc hội; Thành viên ăn kiêng; thành viên quốc hội; nghị sĩ",
+        "confidence": "high",
+        "search_keywords": [
+          "thành viên của Quốc hội",
+          "Thành viên ăn kiêng",
+          "thành viên quốc hội",
+          "nghị sĩ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thành viên của Quốc hội; Thành viên ăn kiêng; thành viên quốc hội; nghị sĩ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26308,
+    "word": "国会議事堂",
+    "kana": "こっかいぎじどう",
+    "senses": [
+      {
+        "sense_id": 250998,
+        "meaning_vi": "tòa nhà quốc hội; nhà quốc hội; Tòa nhà Quốc hội (Nhật Bản); (Mỹ) Điện Capitol; Nhà Quốc hội; Tòa nhà Quốc hội",
+        "confidence": "high",
+        "search_keywords": [
+          "tòa nhà quốc hội",
+          "nhà quốc hội",
+          "Tòa nhà Quốc hội (Nhật Bản)",
+          "(Mỹ) Điện Capitol"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tòa nhà quốc hội; nhà quốc hội; Tòa nhà Quốc hội (Nhật Bản); (Mỹ) Điện Capitol; Nhà Quốc hội; Tòa nhà Quốc hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26309,
+    "word": "国外",
+    "kana": "こくがい",
+    "senses": [
+      {
+        "sense_id": 250999,
+        "meaning_vi": "ngoài nước; ở nước ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "ngoài nước",
+          "ở nước ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngoài nước; ở nước ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26310,
+    "word": "国外脱出",
+    "kana": "こくがいだっしゅつ",
+    "senses": [
+      {
+        "sense_id": 251000,
+        "meaning_vi": "trốn ra nước ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "trốn ra nước ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trốn ra nước ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26311,
+    "word": "国旗",
+    "kana": "こっき",
+    "senses": [
+      {
+        "sense_id": 251001,
+        "meaning_vi": "cờ quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "cờ quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cờ quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26312,
+    "word": "国技",
+    "kana": "こくぎ",
+    "senses": [
+      {
+        "sense_id": 251002,
+        "meaning_vi": "môn thể thao quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "môn thể thao quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "môn thể thao quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26313,
+    "word": "国境",
+    "kana": "こっきょう",
+    "senses": [
+      {
+        "sense_id": 251003,
+        "meaning_vi": "biên giới (giữa các nước); biên giới quốc gia",
+        "confidence": "high",
+        "search_keywords": [
+          "biên giới (giữa các nước)",
+          "biên giới quốc gia"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "biên giới (giữa các nước); biên giới quốc gia",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 26314,
+    "word": "国教",
+    "kana": "こっきょう",
+    "senses": [
+      {
+        "sense_id": 251004,
+        "meaning_vi": "tôn giáo nhà nước; tôn giáo chính thức; tôn giáo được thành lập",
+        "confidence": "high",
+        "search_keywords": [
+          "tôn giáo nhà nước",
+          "tôn giáo chính thức",
+          "tôn giáo được thành lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tôn giáo nhà nước; tôn giáo chính thức; tôn giáo được thành lập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+  <rect width="500" height="380" fill="none" stroke="#888" stroke-width="2"/>
+  <text x="250" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#555">もって行くものを選んでください</text>
+
+  <!-- ア — かさ (umbrella) -->
+  <text x="48" y="98" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">ア</text>
+  <!-- umbrella -->
+  <path d="M170 60 Q230 22 290 60" fill="#aac8ee" stroke="#445" stroke-width="2.5"/>
+  <path d="M170 60 Q188 78 170 98" fill="#aac8ee" stroke="#445" stroke-width="2"/>
+  <path d="M230 60 Q230 82 230 98" fill="#aac8ee" stroke="#445" stroke-width="2"/>
+  <path d="M290 60 Q272 78 290 98" fill="#aac8ee" stroke="#445" stroke-width="2"/>
+  <line x1="230" y1="60" x2="230" y2="118" stroke="#445" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M230 118 Q225 132 216 132" fill="none" stroke="#445" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="230" y="158" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">かさ</text>
+  <line x1="0" y1="170" x2="500" y2="170" stroke="#ddd" stroke-width="1"/>
+
+  <!-- イ — おかね (money) -->
+  <text x="48" y="228" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">イ</text>
+  <!-- coin -->
+  <ellipse cx="195" cy="230" rx="35" ry="35" fill="#f0dd44" stroke="#aa8800" stroke-width="2.5"/>
+  <ellipse cx="195" cy="230" rx="26" ry="26" fill="none" stroke="#aa8800" stroke-width="1.5"/>
+  <text x="195" y="236" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#886600">￥</text>
+  <!-- paper bill -->
+  <rect x="242" y="210" width="80" height="45" rx="4" fill="#ddeecc" stroke="#668833" stroke-width="2"/>
+  <line x1="256" y1="225" x2="308" y2="225" stroke="#668833" stroke-width="1.5"/>
+  <line x1="256" y1="237" x2="308" y2="237" stroke="#668833" stroke-width="1.5"/>
+  <text x="280" y="228" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#558833">¥1000</text>
+  <text x="230" y="285" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#333">おかね</text>
+  <line x1="0" y1="300" x2="500" y2="300" stroke="#ddd" stroke-width="1"/>
+
+  <!-- ウ — スマートフォン (smartphone) -->
+  <text x="48" y="355" font-family="sans-serif" font-size="26" font-weight="bold" fill="#222">ウ</text>
+  <!-- smartphone -->
+  <rect x="196" y="308" width="68" height="58" rx="8" fill="#333" stroke="#111" stroke-width="2"/>
+  <rect x="200" y="314" width="60" height="42" rx="4" fill="#aacfee" stroke="#555" stroke-width="1"/>
+  <circle cx="230" cy="360" r="4" fill="#666"/>
+  <text x="230" y="345" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#2255aa">📶</text>
+  <text x="270" y="360" font-family="sans-serif" font-size="16" fill="#333">スマホ</text>
+</svg>

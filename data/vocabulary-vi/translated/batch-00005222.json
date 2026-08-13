@@ -1,0 +1,454 @@
+[
+  {
+    "vocabulary_id": 124987,
+    "word": "双方向通信",
+    "kana": "そうほうこうつうしん",
+    "senses": [
+      {
+        "sense_id": 368626,
+        "meaning_vi": "giao tiếp hai chiều; giao tiếp hai chiều",
+        "confidence": "high",
+        "search_keywords": [
+          "giao tiếp hai chiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao tiếp hai chiều; giao tiếp hai chiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124988,
+    "word": "層管理",
+    "kana": "そうかんり",
+    "senses": [
+      {
+        "sense_id": 368627,
+        "meaning_vi": "quản lý lớp",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý lớp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý lớp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125001,
+    "word": "相互互換性",
+    "kana": "そうごごかんせい",
+    "senses": [
+      {
+        "sense_id": 368640,
+        "meaning_vi": "khả năng thay thế cho nhau; khả năng tương tác",
+        "confidence": "high",
+        "search_keywords": [
+          "khả năng thay thế cho nhau",
+          "khả năng tương tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khả năng thay thế cho nhau; khả năng tương tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125002,
+    "word": "相互参照表示",
+    "kana": "そうごさんしょうひょうじ",
+    "senses": [
+      {
+        "sense_id": 368641,
+        "meaning_vi": "dấu hiệu tham khảo chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu hiệu tham khảo chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu hiệu tham khảo chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125003,
+    "word": "相互情報量",
+    "kana": "そうごじょうほうりょう",
+    "senses": [
+      {
+        "sense_id": 368642,
+        "meaning_vi": "thông tin chuyển tải (nội dung); thông tin được chuyển giao; thông tin được truyền đi; thông tin lẫn nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "thông tin chuyển tải (nội dung)",
+          "thông tin được chuyển giao",
+          "thông tin được truyền đi",
+          "thông tin lẫn nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông tin chuyển tải (nội dung); thông tin được chuyển giao; thông tin được truyền đi; thông tin lẫn nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125004,
+    "word": "相互接続",
+    "kana": "そうごせつぞく",
+    "senses": [
+      {
+        "sense_id": 368643,
+        "meaning_vi": "kết nối chéo; kết nối; liên mạng",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối chéo",
+          "kết nối",
+          "liên mạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối chéo; kết nối; liên mạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125005,
+    "word": "相互接続性",
+    "kana": "そうごせつぞくせい",
+    "senses": [
+      {
+        "sense_id": 368644,
+        "meaning_vi": "kết nối; khả năng tương tác",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối",
+          "khả năng tương tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối; khả năng tương tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125006,
+    "word": "相互接続性試験",
+    "kana": "そうごせつぞくせいじけん",
+    "senses": [
+      {
+        "sense_id": 368645,
+        "meaning_vi": "kiểm tra kết nối; kiểm tra khả năng tương tác",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra kết nối",
+          "kiểm tra khả năng tương tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra kết nối; kiểm tra khả năng tương tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125007,
+    "word": "相互接続地点",
+    "kana": "そうごせつぞくちてん",
+    "senses": [
+      {
+        "sense_id": 368646,
+        "meaning_vi": "điểm kết nối chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm kết nối chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm kết nối chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125008,
+    "word": "相互相関",
+    "kana": "そうごそうかん",
+    "senses": [
+      {
+        "sense_id": 368647,
+        "meaning_vi": "tương quan chéo",
+        "confidence": "high",
+        "search_keywords": [
+          "tương quan chéo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tương quan chéo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125009,
+    "word": "相互動作管理",
+    "kana": "そうごどうさかんり",
+    "senses": [
+      {
+        "sense_id": 368648,
+        "meaning_vi": "quản lý tương tác",
+        "confidence": "high",
+        "search_keywords": [
+          "quản lý tương tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quản lý tương tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125010,
+    "word": "相互動作性",
+    "kana": "そうごどうさせい",
+    "senses": [
+      {
+        "sense_id": 368649,
+        "meaning_vi": "khả năng tương tác",
+        "confidence": "high",
+        "search_keywords": [
+          "khả năng tương tác"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khả năng tương tác",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125011,
+    "word": "相互動作性試験",
+    "kana": "そうごどうさせいしけん",
+    "senses": [
+      {
+        "sense_id": 368650,
+        "meaning_vi": "kiểm tra khả năng tương tác, nghiên cứu",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra khả năng tương tác, nghiên cứu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra khả năng tương tác, nghiên cứu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125012,
+    "word": "相互排除",
+    "kana": "そうごはいじょ",
+    "senses": [
+      {
+        "sense_id": 368651,
+        "meaning_vi": "loại trừ lẫn nhau",
+        "confidence": "high",
+        "search_keywords": [
+          "loại trừ lẫn nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loại trừ lẫn nhau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125013,
+    "word": "相手固定接続",
+    "kana": "あいてこていせつぞく",
+    "senses": [
+      {
+        "sense_id": 368652,
+        "meaning_vi": "kết nối ảo vĩnh viễn; PVC",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối ảo vĩnh viễn",
+          "PVC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối ảo vĩnh viễn; PVC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125014,
+    "word": "相手先固定接続",
+    "kana": "あいてさきこていせつぞく",
+    "senses": [
+      {
+        "sense_id": 368653,
+        "meaning_vi": "Mạch ảo vĩnh viễn; PVC",
+        "confidence": "high",
+        "search_keywords": [
+          "Mạch ảo vĩnh viễn",
+          "PVC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mạch ảo vĩnh viễn; PVC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125015,
+    "word": "相手先選択接続",
+    "kana": "あいてさきせんたくせつぞく",
+    "senses": [
+      {
+        "sense_id": 368654,
+        "meaning_vi": "Mạch ảo chuyển mạch; SVC",
+        "confidence": "high",
+        "search_keywords": [
+          "Mạch ảo chuyển mạch",
+          "SVC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Mạch ảo chuyển mạch; SVC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125016,
+    "word": "相手選択接続",
+    "kana": "あいてせんたくせつぞく",
+    "senses": [
+      {
+        "sense_id": 368655,
+        "meaning_vi": "chuyển kết nối ảo; SVC",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển kết nối ảo",
+          "SVC"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển kết nối ảo; SVC",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125017,
+    "word": "相手選択接続機能",
+    "kana": "あいてせんたくせつぞくきのう",
+    "senses": [
+      {
+        "sense_id": 368656,
+        "meaning_vi": "cơ sở cuộc gọi ảo",
+        "confidence": "high",
+        "search_keywords": [
+          "cơ sở cuộc gọi ảo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơ sở cuộc gọi ảo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125018,
+    "word": "相性問題",
+    "kana": "あいしょうもんだい",
+    "senses": [
+      {
+        "sense_id": 368657,
+        "meaning_vi": "vấn đề tương thích",
+        "confidence": "high",
+        "search_keywords": [
+          "vấn đề tương thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vấn đề tương thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

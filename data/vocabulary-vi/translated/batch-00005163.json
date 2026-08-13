@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 123803,
+    "word": "再配置可能プログラム",
+    "kana": "さいはいちかのうプログラム",
+    "senses": [
+      {
+        "sense_id": 367426,
+        "meaning_vi": "chương trình có thể định vị lại",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình có thể định vị lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình có thể định vị lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123804,
+    "word": "再表示制御",
+    "kana": "さいひょうじせいぎょ",
+    "senses": [
+      {
+        "sense_id": 367427,
+        "meaning_vi": "hiển thị kiểm soát thu hồi",
+        "confidence": "high",
+        "search_keywords": [
+          "hiển thị kiểm soát thu hồi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hiển thị kiểm soát thu hồi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123805,
+    "word": "再描画",
+    "kana": "さいびょうが",
+    "senses": [
+      {
+        "sense_id": 367428,
+        "meaning_vi": "vẽ lại",
+        "confidence": "high",
+        "search_keywords": [
+          "vẽ lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vẽ lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123806,
+    "word": "再利用率",
+    "kana": "さいりようりつ",
+    "senses": [
+      {
+        "sense_id": 367429,
+        "meaning_vi": "yếu tố tái sử dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "yếu tố tái sử dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "yếu tố tái sử dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123807,
+    "word": "最悪の場合",
+    "kana": "さいあくのばあい",
+    "senses": [
+      {
+        "sense_id": 367430,
+        "meaning_vi": "trường hợp xấu nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "trường hợp xấu nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường hợp xấu nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123808,
+    "word": "最右端",
+    "kana": "さいうたん",
+    "senses": [
+      {
+        "sense_id": 367431,
+        "meaning_vi": "kết thúc thứ tự thấp",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc thứ tự thấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc thứ tự thấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123809,
+    "word": "最下位ビット",
+    "kana": "さいかいビット",
+    "senses": [
+      {
+        "sense_id": 367432,
+        "meaning_vi": "bit ít quan trọng nhất; LSB",
+        "confidence": "high",
+        "search_keywords": [
+          "bit ít quan trọng nhất",
+          "LSB"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bit ít quan trọng nhất; LSB",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123810,
+    "word": "最近稼働",
+    "kana": "さいきんかどう",
+    "senses": [
+      {
+        "sense_id": 367433,
+        "meaning_vi": "hoạt động gần đây",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạt động gần đây"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động gần đây",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123811,
+    "word": "最左端",
+    "kana": "さいさたん",
+    "senses": [
+      {
+        "sense_id": 367434,
+        "meaning_vi": "kết thúc thứ tự cao",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc thứ tự cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc thứ tự cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123812,
+    "word": "最終バージョン",
+    "kana": "さいしゅうバージョン",
+    "senses": [
+      {
+        "sense_id": 367435,
+        "meaning_vi": "phiên bản mới nhất",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên bản mới nhất"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên bản mới nhất",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123813,
+    "word": "最終値",
+    "kana": "さいしゅうち",
+    "senses": [
+      {
+        "sense_id": 367436,
+        "meaning_vi": "giá trị cuối cùng",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị cuối cùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị cuối cùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123814,
+    "word": "最終認可",
+    "kana": "さいしゅうにんか",
+    "senses": [
+      {
+        "sense_id": 367437,
+        "meaning_vi": "phê duyệt cuối cùng",
+        "confidence": "high",
+        "search_keywords": [
+          "phê duyệt cuối cùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phê duyệt cuối cùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123815,
+    "word": "最終版",
+    "kana": "さいしゅうばん",
+    "senses": [
+      {
+        "sense_id": 367438,
+        "meaning_vi": "phiên bản cuối cùng; ấn bản cuối cùng",
+        "confidence": "high",
+        "search_keywords": [
+          "phiên bản cuối cùng",
+          "ấn bản cuối cùng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phiên bản cuối cùng; ấn bản cuối cùng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123816,
+    "word": "最初のアクティビティ識別子",
+    "kana": "さいしょのアクティビティしきべつし",
+    "senses": [
+      {
+        "sense_id": 367439,
+        "meaning_vi": "mã định danh hoạt động ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "mã định danh hoạt động ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã định danh hoạt động ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123817,
+    "word": "最初の値",
+    "kana": "さいしょのあたい",
+    "senses": [
+      {
+        "sense_id": 367440,
+        "meaning_vi": "giá trị ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "giá trị ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giá trị ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123818,
+    "word": "最小ＳＧＭＬ文書",
+    "kana": "さいしょうエスジーエムエルぶんしょ",
+    "senses": [
+      {
+        "sense_id": 367441,
+        "meaning_vi": "tài liệu SGML tối thiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "tài liệu SGML tối thiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài liệu SGML tối thiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123819,
+    "word": "最小化ボタン",
+    "kana": "さいしょうかボタン",
+    "senses": [
+      {
+        "sense_id": 367442,
+        "meaning_vi": "nút thu nhỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "nút thu nhỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nút thu nhỏ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123820,
+    "word": "最小構成",
+    "kana": "さいしょうこうせい",
+    "senses": [
+      {
+        "sense_id": 367443,
+        "meaning_vi": "cấu hình tối thiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "cấu hình tối thiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cấu hình tối thiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123821,
+    "word": "最小動作",
+    "kana": "さいしょうどうさ",
+    "senses": [
+      {
+        "sense_id": 367444,
+        "meaning_vi": "mô phỏng tối thiểu",
+        "confidence": "high",
+        "search_keywords": [
+          "mô phỏng tối thiểu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô phỏng tối thiểu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123822,
+    "word": "最小有効ビット",
+    "kana": "さいしょうゆうこうビット",
+    "senses": [
+      {
+        "sense_id": 367445,
+        "meaning_vi": "bit ít quan trọng nhất; LSB",
+        "confidence": "high",
+        "search_keywords": [
+          "bit ít quan trọng nhất",
+          "LSB"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bit ít quan trọng nhất; LSB",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

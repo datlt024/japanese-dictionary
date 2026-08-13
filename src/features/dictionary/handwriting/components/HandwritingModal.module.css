@@ -23,10 +23,10 @@
 
     overflow: hidden;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 
     box-shadow:
         0 16px 48px rgba(15, 23, 42, 0.16),
@@ -46,13 +46,13 @@
     align-items: center;
     justify-content: space-between;
 
-    border-bottom: 1px solid #eceef2;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .header h2 {
     margin: 0;
 
-    color: #15213a;
+    color: var(--color-text-primary);
 
     font-size: 18px;
     font-weight: 800;
@@ -66,11 +66,11 @@
     width: 36px;
     height: 36px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 999px;
 
-    background: #f6f9ff;
-    color: #6b7280;
+    background: var(--color-surface-muted);
+    color: var(--color-text-secondary);
 
     cursor: pointer;
 
@@ -78,8 +78,8 @@
 }
 
 .closeButton:hover {
-    background: #edf4ff;
-    color: #15213a;
+    background: var(--color-primary-soft);
+    color: var(--color-text-primary);
 }
 
 /* ── Body layout ── */
@@ -95,7 +95,7 @@
 .drawArea {
     padding: 20px 22px;
 
-    border-right: 1px solid #eceef2;
+    border-right: 1px solid var(--color-border);
 
     display: flex;
     flex-direction: column;
@@ -110,13 +110,13 @@
 
     overflow: hidden;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 12px;
 
     background:
-        linear-gradient(to right, transparent 49.8%, #eceef2 50%, transparent 50.2%),
-        linear-gradient(to bottom, transparent 49.8%, #eceef2 50%, transparent 50.2%),
-        #ffffff;
+        linear-gradient(to right, transparent 49.8%, var(--color-border) 50%, transparent 50.2%),
+        linear-gradient(to bottom, transparent 49.8%, var(--color-border) 50%, transparent 50.2%),
+        var(--color-surface);
 }
 
 .canvas {
@@ -150,11 +150,11 @@
     justify-content: center;
     gap: 6px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 12px;
 
-    background: #ffffff;
-    color: #15213a;
+    background: var(--color-surface);
+    color: var(--color-text-primary);
 
     font-size: 14px;
     font-weight: 700;
@@ -172,13 +172,13 @@
 }
 
 .actions button:hover {
-    background: #f4f7ff;
-    border-color: #bfdbfe;
-    color: #2563eb;
+    background: var(--color-surface-muted);
+    border-color: var(--color-primary-soft);
+    color: var(--color-primary);
 }
 
 .actions button:active {
-    background: #edf4ff;
+    background: var(--color-primary-soft);
 }
 
 .actions button:disabled {
@@ -187,28 +187,28 @@
 }
 
 .actions button:disabled:hover {
-    background: #ffffff;
-    border-color: #eceef2;
-    color: #15213a;
+    background: var(--color-surface);
+    border-color: var(--color-border);
+    color: var(--color-text-primary);
 }
 
 .searchButton {
-    background: #2563eb !important;
-    border-color: #2563eb !important;
-    color: #ffffff !important;
+    background: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    color: var(--color-surface) !important;
 }
 
 .searchButton:hover {
-    background: #1d4ed8 !important;
-    border-color: #1d4ed8 !important;
-    color: #ffffff !important;
+    background: var(--color-primary-hover) !important;
+    border-color: var(--color-primary-hover) !important;
+    color: var(--color-surface) !important;
 }
 
 .searchButton:disabled,
 .searchButton:disabled:hover {
-    background: #93c5fd !important;
-    border-color: #93c5fd !important;
-    color: #ffffff !important;
+    background: var(--color-text-muted) !important;
+    border-color: var(--color-text-muted) !important;
+    color: var(--color-surface) !important;
 }
 
 /* ── Result area ── */
@@ -220,7 +220,7 @@
 .resultArea h3 {
     margin: 0 0 16px;
 
-    color: #15213a;
+    color: var(--color-text-primary);
 
     font-size: 15px;
     font-weight: 800;
@@ -238,12 +238,12 @@
 
     padding: 0 14px;
 
-    border: 1px solid #eceef2;
+    border: 1px solid var(--color-border);
     border-radius: 12px;
 
-    background: #ffffff;
+    background: var(--color-surface);
 
-    color: #142957;
+    color: var(--color-primary-dark);
 
     font-size: 24px;
     font-weight: 700;
@@ -254,13 +254,13 @@
 }
 
 .suggestions button:hover {
-    background: #f4f7ff;
-    border-color: #bfdbfe;
-    color: #2563eb;
+    background: var(--color-surface-muted);
+    border-color: var(--color-primary-soft);
+    color: var(--color-primary);
 }
 
 .emptyHint {
-    color: #6b7280;
+    color: var(--color-text-secondary);
 
     font-size: 14px;
     line-height: 1.6;
@@ -301,7 +301,7 @@
 
     .drawArea {
         border-right: none;
-        border-bottom: 1px solid #eceef2;
+        border-bottom: 1px solid var(--color-border);
     }
 
     .canvasWrap,

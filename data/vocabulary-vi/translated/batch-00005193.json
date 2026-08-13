@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 124407,
+    "word": "処理指令実体",
+    "kana": "しょりしれいじったい",
+    "senses": [
+      {
+        "sense_id": 368037,
+        "meaning_vi": "thực thể hướng dẫn xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể hướng dẫn xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể hướng dẫn xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124408,
+    "word": "処理装置",
+    "kana": "しょりそうち",
+    "senses": [
+      {
+        "sense_id": 368038,
+        "meaning_vi": "đơn vị xử lý; bộ xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị xử lý",
+          "bộ xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị xử lý; bộ xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124409,
+    "word": "処理速度",
+    "kana": "しょりそくど",
+    "senses": [
+      {
+        "sense_id": 368039,
+        "meaning_vi": "tốc độ xử lý; tốc độ xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ xử lý; tốc độ xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124410,
+    "word": "処理対象",
+    "kana": "しょりたいしょう",
+    "senses": [
+      {
+        "sense_id": 368040,
+        "meaning_vi": "đối tượng xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "đối tượng xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đối tượng xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124411,
+    "word": "処理内容",
+    "kana": "しょりないよう",
+    "senses": [
+      {
+        "sense_id": 368041,
+        "meaning_vi": "xử lý chi tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "xử lý chi tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xử lý chi tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124412,
+    "word": "処理能力",
+    "kana": "しょりのうりょく",
+    "senses": [
+      {
+        "sense_id": 368042,
+        "meaning_vi": "thông lượng; sức mạnh xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "thông lượng",
+          "sức mạnh xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thông lượng; sức mạnh xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124413,
+    "word": "処理利得",
+    "kana": "しょりりとく",
+    "senses": [
+      {
+        "sense_id": 368043,
+        "meaning_vi": "tăng xử lý",
+        "confidence": "high",
+        "search_keywords": [
+          "tăng xử lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tăng xử lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124414,
+    "word": "初期デフォルト",
+    "kana": "しょきデフォルト",
+    "senses": [
+      {
+        "sense_id": 368044,
+        "meaning_vi": "mặc định ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "mặc định ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặc định ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124415,
+    "word": "初期化コード",
+    "kana": "しょきかコード",
+    "senses": [
+      {
+        "sense_id": 368045,
+        "meaning_vi": "mã khởi tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "mã khởi tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã khởi tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124416,
+    "word": "初期化プログラム",
+    "kana": "しょきかプログラム",
+    "senses": [
+      {
+        "sense_id": 368046,
+        "meaning_vi": "chương trình ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "chương trình ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chương trình ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124417,
+    "word": "初期化子",
+    "kana": "しょきかし",
+    "senses": [
+      {
+        "sense_id": 368047,
+        "meaning_vi": "trình khởi tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "trình khởi tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình khởi tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124418,
+    "word": "初期化部",
+    "kana": "しょきかぶ",
+    "senses": [
+      {
+        "sense_id": 368048,
+        "meaning_vi": "phần khởi tạo",
+        "confidence": "high",
+        "search_keywords": [
+          "phần khởi tạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần khởi tạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124419,
+    "word": "初期画面",
+    "kana": "しょきがめん",
+    "senses": [
+      {
+        "sense_id": 368049,
+        "meaning_vi": "màn mở đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "màn mở đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màn mở đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124420,
+    "word": "初期刊本",
+    "kana": "しょきかんぼん",
+    "senses": [
+      {
+        "sense_id": 368050,
+        "meaning_vi": "lời nguyền",
+        "confidence": "high",
+        "search_keywords": [
+          "lời nguyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lời nguyền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124421,
+    "word": "初期故障",
+    "kana": "しょきこしょう",
+    "senses": [
+      {
+        "sense_id": 368051,
+        "meaning_vi": "thất bại ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "thất bại ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thất bại ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124422,
+    "word": "初期状態",
+    "kana": "しょきじょうたい",
+    "senses": [
+      {
+        "sense_id": 368052,
+        "meaning_vi": "trạng thái ban đầu; điều kiện ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "trạng thái ban đầu",
+          "điều kiện ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạng thái ban đầu; điều kiện ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124423,
+    "word": "初期値設定プログラム単位",
+    "kana": "しょきちせっていプログラムたんい",
+    "senses": [
+      {
+        "sense_id": 368053,
+        "meaning_vi": "khối chương trình dữ liệu",
+        "confidence": "high",
+        "search_keywords": [
+          "khối chương trình dữ liệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khối chương trình dữ liệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124424,
+    "word": "初期点",
+    "kana": "しょきてん",
+    "senses": [
+      {
+        "sense_id": 368054,
+        "meaning_vi": "điểm ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "điểm ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "điểm ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124425,
+    "word": "初期不良",
+    "kana": "しょきふりょう",
+    "senses": [
+      {
+        "sense_id": 368055,
+        "meaning_vi": "khiếm khuyết ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "khiếm khuyết ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khiếm khuyết ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124426,
+    "word": "初期連結集合",
+    "kana": "しょきれんけつしゅうごう",
+    "senses": [
+      {
+        "sense_id": 368056,
+        "meaning_vi": "bộ liên kết ban đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ liên kết ban đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ liên kết ban đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

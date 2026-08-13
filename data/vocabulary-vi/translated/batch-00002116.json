@@ -1,0 +1,634 @@
+[
+  {
+    "vocabulary_id": 55206,
+    "word": "打ち傷",
+    "kana": "うちきず",
+    "senses": [
+      {
+        "sense_id": 289923,
+        "meaning_vi": "vết bầm tím",
+        "confidence": "high",
+        "search_keywords": [
+          "vết bầm tím"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vết bầm tím",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55207,
+    "word": "打ち消し",
+    "kana": "うちけし",
+    "senses": [
+      {
+        "sense_id": 289924,
+        "meaning_vi": "phủ định; phủ nhận; tiêu cực",
+        "confidence": "high",
+        "search_keywords": [
+          "phủ định",
+          "phủ nhận",
+          "tiêu cực"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phủ định; phủ nhận; tiêu cực",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55208,
+    "word": "撃ち殺す",
+    "kana": "うちころす",
+    "senses": [
+      {
+        "sense_id": 289925,
+        "meaning_vi": "bắn chết; bắn chết",
+        "confidence": "high",
+        "search_keywords": [
+          "bắn chết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắn chết; bắn chết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55209,
+    "word": "討ち死に",
+    "kana": "うちじに",
+    "senses": [
+      {
+        "sense_id": 289926,
+        "meaning_vi": "cái chết trong trận chiến; cái chết trên chiến trường",
+        "confidence": "high",
+        "search_keywords": [
+          "cái chết trong trận chiến",
+          "cái chết trên chiến trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cái chết trong trận chiến; cái chết trên chiến trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55210,
+    "word": "打ち止める",
+    "kana": "うちとめる",
+    "senses": [
+      {
+        "sense_id": 289927,
+        "meaning_vi": "đóng búa vào đúng vị trí",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng búa vào đúng vị trí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng búa vào đúng vị trí",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289928,
+        "meaning_vi": "kết thúc (một buổi biểu diễn)",
+        "confidence": "high",
+        "search_keywords": [
+          "kết thúc (một buổi biểu diễn)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết thúc (một buổi biểu diễn)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289929,
+        "meaning_vi": "giết (bằng súng, kiếm, v.v.); giết; bắn chết; cắt giảm",
+        "confidence": "high",
+        "search_keywords": [
+          "giết (bằng súng, kiếm, v.v.)",
+          "giết",
+          "bắn chết",
+          "cắt giảm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giết (bằng súng, kiếm, v.v.); giết; bắn chết; cắt giảm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55211,
+    "word": "希図",
+    "kana": "きと",
+    "senses": [
+      {
+        "sense_id": 290451,
+        "meaning_vi": "hy vọng lập kế hoạch",
+        "confidence": "high",
+        "search_keywords": [
+          "hy vọng lập kế hoạch"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hy vọng lập kế hoạch",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55212,
+    "word": "打ち取る",
+    "kana": "うちとる",
+    "senses": [
+      {
+        "sense_id": 289930,
+        "meaning_vi": "giết (bằng vũ khí); giết",
+        "confidence": "high",
+        "search_keywords": [
+          "giết (bằng vũ khí)",
+          "giết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giết (bằng vũ khí); giết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289931,
+        "meaning_vi": "đánh bại (đối thủ); đánh bại",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh bại (đối thủ)",
+          "đánh bại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh bại (đối thủ); đánh bại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289932,
+        "meaning_vi": "để đưa (một người đánh bóng) ra ngoài",
+        "confidence": "high",
+        "search_keywords": [
+          "để đưa (một người đánh bóng) ra ngoài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để đưa (một người đánh bóng) ra ngoài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55213,
+    "word": "内堀",
+    "kana": "うちぼり",
+    "senses": [
+      {
+        "sense_id": 289933,
+        "meaning_vi": "hào bên trong; hào trong các bức tường lâu đài",
+        "confidence": "high",
+        "search_keywords": [
+          "hào bên trong",
+          "hào trong các bức tường lâu đài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hào bên trong; hào trong các bức tường lâu đài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55214,
+    "word": "打ちまくる",
+    "kana": "うちまくる",
+    "senses": [
+      {
+        "sense_id": 289934,
+        "meaning_vi": "đánh liên tục; đánh hết quả này đến quả khác (ví dụ: trong bóng chày); tung ra một loạt đòn đánh; đập mạnh (trên bàn phím); đập búa đi; đánh đập",
+        "confidence": "high",
+        "search_keywords": [
+          "đánh liên tục",
+          "đánh hết quả này đến quả khác (ví dụ: trong bóng chày)",
+          "tung ra một loạt đòn đánh",
+          "đập mạnh (trên bàn phím)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đánh liên tục; đánh hết quả này đến quả khác (ví dụ: trong bóng chày); tung ra một loạt đòn đánh; đập mạnh (trên bàn phím); đập búa đi; đánh đập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55215,
+    "word": "うっ血",
+    "kana": "うっけつ",
+    "senses": [
+      {
+        "sense_id": 289935,
+        "meaning_vi": "tắc nghẽn (máu); sự cương cứng",
+        "confidence": "high",
+        "search_keywords": [
+          "tắc nghẽn (máu)",
+          "sự cương cứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tắc nghẽn (máu); sự cương cứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55216,
+    "word": "鬱蒼",
+    "kana": "うっそう",
+    "senses": [
+      {
+        "sense_id": 289936,
+        "meaning_vi": "dày; dày đặc; um tùm",
+        "confidence": "high",
+        "search_keywords": [
+          "dày",
+          "dày đặc",
+          "um tùm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dày; dày đặc; um tùm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55217,
+    "word": "うっ滞",
+    "kana": "うったい",
+    "senses": [
+      {
+        "sense_id": 289937,
+        "meaning_vi": "sự tắc nghẽn; trì trệ; ứ đọng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự tắc nghẽn",
+          "trì trệ",
+          "ứ đọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự tắc nghẽn; trì trệ; ứ đọng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289938,
+        "meaning_vi": "cảm xúc dồn nén",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm xúc dồn nén"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm xúc dồn nén",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55218,
+    "word": "鬱憤",
+    "kana": "うっぷん",
+    "senses": [
+      {
+        "sense_id": 289939,
+        "meaning_vi": "oán giận; mối hận thù; sự tức giận dồn nén; thất vọng; sự cay đắng",
+        "confidence": "high",
+        "search_keywords": [
+          "oán giận",
+          "mối hận thù",
+          "sự tức giận dồn nén",
+          "thất vọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "oán giận; mối hận thù; sự tức giận dồn nén; thất vọng; sự cay đắng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55219,
+    "word": "鬱々",
+    "kana": "うつうつ",
+    "senses": [
+      {
+        "sense_id": 289940,
+        "meaning_vi": "ảm đạm; u sầu; bi quan",
+        "confidence": "high",
+        "search_keywords": [
+          "ảm đạm",
+          "u sầu",
+          "bi quan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ảm đạm; u sầu; bi quan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55220,
+    "word": "写す",
+    "kana": "うつす",
+    "senses": [
+      {
+        "sense_id": 289941,
+        "meaning_vi": "sao chép; nhân đôi; để sinh sản; để theo dõi; để phiên âm",
+        "confidence": "high",
+        "search_keywords": [
+          "sao chép",
+          "nhân đôi",
+          "để sinh sản",
+          "để theo dõi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sao chép; nhân đôi; để sinh sản; để theo dõi; để phiên âm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289942,
+        "meaning_vi": "để mô tả ; để miêu tả; để miêu tả; để bày tỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "để mô tả",
+          "để miêu tả",
+          "để bày tỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để mô tả ; để miêu tả; để miêu tả; để bày tỏ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289943,
+        "meaning_vi": "bắt chước; làm mẫu sau",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt chước",
+          "làm mẫu sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt chước; làm mẫu sau",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289944,
+        "meaning_vi": "chụp (một bức ảnh); để chụp ảnh; quay phim; bắn",
+        "confidence": "high",
+        "search_keywords": [
+          "chụp (một bức ảnh)",
+          "để chụp ảnh",
+          "quay phim",
+          "bắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chụp (một bức ảnh); để chụp ảnh; quay phim; bắn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55221,
+    "word": "映す",
+    "kana": "うつす",
+    "senses": [
+      {
+        "sense_id": 289945,
+        "meaning_vi": "để dự án; để phản ánh; đổ (bóng)",
+        "confidence": "high",
+        "search_keywords": [
+          "để dự án",
+          "để phản ánh",
+          "đổ (bóng)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để dự án; để phản ánh; đổ (bóng)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55222,
+    "word": "虚ろ",
+    "kana": "うつろ",
+    "senses": [
+      {
+        "sense_id": 289946,
+        "meaning_vi": "khoang; rỗng; trống rỗng",
+        "confidence": "high",
+        "search_keywords": [
+          "khoang",
+          "rỗng",
+          "trống rỗng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoang; rỗng; trống rỗng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289947,
+        "meaning_vi": "trống rỗng (giọng nói, nụ cười, v.v.); trống (mắt, cái nhìn, v.v.); trống rỗng (biểu hiện, cái nhìn chằm chằm, v.v.); trống rỗng (lời nói, trái tim, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "trống rỗng (giọng nói, nụ cười, v.v.)",
+          "trống (mắt, cái nhìn, v.v.)",
+          "trống rỗng (biểu hiện, cái nhìn chằm chằm, v.v.)",
+          "trống rỗng (lời nói, trái tim, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trống rỗng (giọng nói, nụ cười, v.v.); trống (mắt, cái nhìn, v.v.); trống rỗng (biểu hiện, cái nhìn chằm chằm, v.v.); trống rỗng (lời nói, trái tim, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55223,
+    "word": "疎々しい",
+    "kana": "うとうとしい",
+    "senses": [
+      {
+        "sense_id": 289948,
+        "meaning_vi": "không thân thiện; xa xôi; lạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "không thân thiện",
+          "xa xôi",
+          "lạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "không thân thiện; xa xôi; lạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55224,
+    "word": "うなぎ登り",
+    "kana": "うなぎのぼり",
+    "senses": [
+      {
+        "sense_id": 289949,
+        "meaning_vi": "tăng nhanh (ví dụ: giá cả, mức độ phổ biến); tăng vọt; tăng vọt; đi qua mái nhà",
+        "confidence": "high",
+        "search_keywords": [
+          "tăng nhanh (ví dụ: giá cả, mức độ phổ biến)",
+          "tăng vọt",
+          "đi qua mái nhà"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tăng nhanh (ví dụ: giá cả, mức độ phổ biến); tăng vọt; tăng vọt; đi qua mái nhà",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 55225,
+    "word": "海胆",
+    "kana": "うに",
+    "senses": [
+      {
+        "sense_id": 289950,
+        "meaning_vi": "nhím biển",
+        "confidence": "high",
+        "search_keywords": [
+          "nhím biển"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhím biển",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 289951,
+        "meaning_vi": "trứng nhím biển tẩm gia vị",
+        "confidence": "high",
+        "search_keywords": [
+          "trứng nhím biển tẩm gia vị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trứng nhím biển tẩm gia vị",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

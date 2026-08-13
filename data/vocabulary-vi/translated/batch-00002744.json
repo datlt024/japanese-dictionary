@@ -1,0 +1,627 @@
+[
+  {
+    "vocabulary_id": 70462,
+    "word": "売り掛け",
+    "kana": "うりかけ",
+    "senses": [
+      {
+        "sense_id": 308554,
+        "meaning_vi": "bán hàng tín dụng",
+        "confidence": "high",
+        "search_keywords": [
+          "bán hàng tín dụng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bán hàng tín dụng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70463,
+    "word": "売掛勘定",
+    "kana": "うりかけかんじょう",
+    "senses": [
+      {
+        "sense_id": 308555,
+        "meaning_vi": "tài khoản tín dụng; tài khoản phí",
+        "confidence": "high",
+        "search_keywords": [
+          "tài khoản tín dụng",
+          "tài khoản phí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tài khoản tín dụng; tài khoản phí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70464,
+    "word": "売り渡し",
+    "kana": "うりわたし",
+    "senses": [
+      {
+        "sense_id": 308556,
+        "meaning_vi": "doanh thu; bán",
+        "confidence": "high",
+        "search_keywords": [
+          "doanh thu",
+          "bán"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "doanh thu; bán",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70465,
+    "word": "売渡証",
+    "kana": "うりわたししょう",
+    "senses": [
+      {
+        "sense_id": 308557,
+        "meaning_vi": "hóa đơn bán hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "hóa đơn bán hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hóa đơn bán hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70466,
+    "word": "売薬",
+    "kana": "ばいやく",
+    "senses": [
+      {
+        "sense_id": 308558,
+        "meaning_vi": "thuốc được cấp bằng sáng chế; thuốc không kê đơn",
+        "confidence": "high",
+        "search_keywords": [
+          "thuốc được cấp bằng sáng chế",
+          "thuốc không kê đơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thuốc được cấp bằng sáng chế; thuốc không kê đơn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70467,
+    "word": "冥加",
+    "kana": "みょうが",
+    "senses": [
+      {
+        "sense_id": 308559,
+        "meaning_vi": "sự bảo vệ thiêng liêng; phước lành thiêng liêng; sự quan phòng",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bảo vệ thiêng liêng",
+          "phước lành thiêng liêng",
+          "sự quan phòng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bảo vệ thiêng liêng; phước lành thiêng liêng; sự quan phòng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308560,
+        "meaning_vi": "được phước; may mắn; may mắn",
+        "confidence": "high",
+        "search_keywords": [
+          "được phước",
+          "may mắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được phước; may mắn; may mắn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308561,
+        "meaning_vi": "cúng dường tiền tệ (đến chùa hoặc đền thờ)",
+        "confidence": "high",
+        "search_keywords": [
+          "cúng dường tiền tệ (đến chùa hoặc đền thờ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cúng dường tiền tệ (đến chùa hoặc đền thờ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308562,
+        "meaning_vi": "hình thức thuế kinh doanh thời Edo",
+        "confidence": "high",
+        "search_keywords": [
+          "hình thức thuế kinh doanh thời Edo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình thức thuế kinh doanh thời Edo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70468,
+    "word": "冥加金",
+    "kana": "みょうがきん",
+    "senses": [
+      {
+        "sense_id": 308563,
+        "meaning_vi": "cúng dường tiền tệ (đến chùa hoặc đền thờ)",
+        "confidence": "high",
+        "search_keywords": [
+          "cúng dường tiền tệ (đến chùa hoặc đền thờ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cúng dường tiền tệ (đến chùa hoặc đền thờ)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308564,
+        "meaning_vi": "hình thức thuế kinh doanh thời Edo",
+        "confidence": "high",
+        "search_keywords": [
+          "hình thức thuế kinh doanh thời Edo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hình thức thuế kinh doanh thời Edo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70469,
+    "word": "瞑目",
+    "kana": "めいもく",
+    "senses": [
+      {
+        "sense_id": 308565,
+        "meaning_vi": "nhắm mắt lại",
+        "confidence": "high",
+        "search_keywords": [
+          "nhắm mắt lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhắm mắt lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308566,
+        "meaning_vi": "qua đời; chết một cách thanh thản",
+        "confidence": "high",
+        "search_keywords": [
+          "qua đời",
+          "chết một cách thanh thản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "qua đời; chết một cách thanh thản",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70470,
+    "word": "命名式",
+    "kana": "めいめいしき",
+    "senses": [
+      {
+        "sense_id": 308567,
+        "meaning_vi": "lễ rửa tội (lễ)",
+        "confidence": "high",
+        "search_keywords": [
+          "lễ rửa tội (lễ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lễ rửa tội (lễ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70471,
+    "word": "脈所",
+    "kana": "みゃくどころ",
+    "senses": [
+      {
+        "sense_id": 308568,
+        "meaning_vi": "vị trí có thể bắt mạch; điểm quan trọng",
+        "confidence": "high",
+        "search_keywords": [
+          "vị trí có thể bắt mạch",
+          "điểm quan trọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vị trí có thể bắt mạch; điểm quan trọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70472,
+    "word": "脈々",
+    "kana": "みゃくみゃく",
+    "senses": [
+      {
+        "sense_id": 308569,
+        "meaning_vi": "liên tục; không gián đoạn; không ngừng",
+        "confidence": "high",
+        "search_keywords": [
+          "liên tục",
+          "không gián đoạn",
+          "không ngừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên tục; không gián đoạn; không ngừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70473,
+    "word": "鳴子",
+    "kana": "なるこ",
+    "senses": [
+      {
+        "sense_id": 308570,
+        "meaning_vi": "tiếng vỗ tay; máy tạo tiếng ồn; tiếng chim kêu",
+        "confidence": "high",
+        "search_keywords": [
+          "tiếng vỗ tay",
+          "máy tạo tiếng ồn",
+          "tiếng chim kêu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiếng vỗ tay; máy tạo tiếng ồn; tiếng chim kêu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308571,
+        "meaning_vi": "naruko; cái kẹp bằng gỗ (cầm bằng cả hai tay và lắc)",
+        "confidence": "high",
+        "search_keywords": [
+          "naruko",
+          "cái kẹp bằng gỗ (cầm bằng cả hai tay và lắc)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "naruko; cái kẹp bằng gỗ (cầm bằng cả hai tay và lắc)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70474,
+    "word": "鳴門",
+    "kana": "なると",
+    "senses": [
+      {
+        "sense_id": 308572,
+        "meaning_vi": "eo biển có thủy triều lên xuống ầm ầm; xoáy nước; tình trạng rối loạn",
+        "confidence": "high",
+        "search_keywords": [
+          "eo biển có thủy triều lên xuống ầm ầm",
+          "xoáy nước",
+          "tình trạng rối loạn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "eo biển có thủy triều lên xuống ầm ầm; xoáy nước; tình trạng rối loạn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308573,
+        "meaning_vi": "kamaboko có hoa văn giống xoáy nước xoắn ốc",
+        "confidence": "high",
+        "search_keywords": [
+          "kamaboko có hoa văn giống xoáy nước xoắn ốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kamaboko có hoa văn giống xoáy nước xoắn ốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308574,
+        "meaning_vi": "kỹ thuật nấu ăn trong đó nguyên liệu được cắt theo hình xoắn ốc",
+        "confidence": "high",
+        "search_keywords": [
+          "kỹ thuật nấu ăn trong đó nguyên liệu được cắt theo hình xoắn ốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kỹ thuật nấu ăn trong đó nguyên liệu được cắt theo hình xoắn ốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308575,
+        "meaning_vi": "Naruto (thành phố ở Tokushima)",
+        "confidence": "high",
+        "search_keywords": [
+          "Naruto (thành phố ở Tokushima)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Naruto (thành phố ở Tokushima)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308576,
+        "meaning_vi": "eo biển Naruto",
+        "confidence": "high",
+        "search_keywords": [
+          "eo biển Naruto"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "eo biển Naruto",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 308577,
+        "meaning_vi": "Naruto wakame",
+        "confidence": "low",
+        "search_keywords": [
+          "Naruto wakame"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Naruto wakame",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70475,
+    "word": "鳴禽",
+    "kana": "めいきん",
+    "senses": [
+      {
+        "sense_id": 308578,
+        "meaning_vi": "chim sơn ca; chim ưng",
+        "confidence": "high",
+        "search_keywords": [
+          "chim sơn ca",
+          "chim ưng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chim sơn ca; chim ưng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70476,
+    "word": "鳴禽類",
+    "kana": "めいきんるい",
+    "senses": [
+      {
+        "sense_id": 308579,
+        "meaning_vi": "oscines (chim thuộc phân bộ Oscines); chim biết hót",
+        "confidence": "high",
+        "search_keywords": [
+          "oscines (chim thuộc phân bộ Oscines)",
+          "chim biết hót"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "oscines (chim thuộc phân bộ Oscines); chim biết hót",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70477,
+    "word": "施米",
+    "kana": "せまい",
+    "senses": [
+      {
+        "sense_id": 308580,
+        "meaning_vi": "cơm từ thiện; tặng gạo",
+        "confidence": "high",
+        "search_keywords": [
+          "cơm từ thiện",
+          "tặng gạo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cơm từ thiện; tặng gạo",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70478,
+    "word": "施物",
+    "kana": "せもつ",
+    "senses": [
+      {
+        "sense_id": 308581,
+        "meaning_vi": "bố thí",
+        "confidence": "high",
+        "search_keywords": [
+          "bố thí"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bố thí",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70479,
+    "word": "施政方針",
+    "kana": "しせいほうしん",
+    "senses": [
+      {
+        "sense_id": 308582,
+        "meaning_vi": "chính sách hành chính",
+        "confidence": "high",
+        "search_keywords": [
+          "chính sách hành chính"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính sách hành chính",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70480,
+    "word": "施餓鬼",
+    "kana": "せがき",
+    "senses": [
+      {
+        "sense_id": 308583,
+        "meaning_vi": "phục vụ lợi ích của các linh hồn đau khổ",
+        "confidence": "high",
+        "search_keywords": [
+          "phục vụ lợi ích của các linh hồn đau khổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục vụ lợi ích của các linh hồn đau khổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70481,
+    "word": "舵手",
+    "kana": "だしゅ",
+    "senses": [
+      {
+        "sense_id": 308584,
+        "meaning_vi": "người lái tàu; người lái tàu; đồng nghiệp; đồng xu",
+        "confidence": "high",
+        "search_keywords": [
+          "người lái tàu",
+          "đồng nghiệp",
+          "đồng xu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người lái tàu; người lái tàu; đồng nghiệp; đồng xu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

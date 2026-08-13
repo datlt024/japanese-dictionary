@@ -1,0 +1,448 @@
+[
+  {
+    "vocabulary_id": 123523,
+    "word": "後入れ先出し記憶装置",
+    "kana": "あといれさきだしきおくそうち",
+    "senses": [
+      {
+        "sense_id": 367147,
+        "meaning_vi": "lưu trữ đẩy xuống; ngăn xếp (lưu trữ)",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ đẩy xuống",
+          "ngăn xếp (lưu trữ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ đẩy xuống; ngăn xếp (lưu trữ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123524,
+    "word": "後方一致",
+    "kana": "こうほういっち",
+    "senses": [
+      {
+        "sense_id": 367148,
+        "meaning_vi": "trận đấu bên phải; kết thúc bằng trận đấu; trận đấu ngược; khớp chuỗi con với phần cuối của trường",
+        "confidence": "high",
+        "search_keywords": [
+          "trận đấu bên phải",
+          "kết thúc bằng trận đấu",
+          "trận đấu ngược",
+          "khớp chuỗi con với phần cuối của trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trận đấu bên phải; kết thúc bằng trận đấu; trận đấu ngược; khớp chuỗi con với phần cuối của trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123525,
+    "word": "後方境界面",
+    "kana": "こうほうきょうかいめん",
+    "senses": [
+      {
+        "sense_id": 367149,
+        "meaning_vi": "mặt phẳng trở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "mặt phẳng trở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mặt phẳng trở lại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123526,
+    "word": "後方推論",
+    "kana": "こうほうすいろん",
+    "senses": [
+      {
+        "sense_id": 367150,
+        "meaning_vi": "lý luận ngược (AI)",
+        "confidence": "high",
+        "search_keywords": [
+          "lý luận ngược (AI)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý luận ngược (AI)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123527,
+    "word": "後方端",
+    "kana": "こうほうたん",
+    "senses": [
+      {
+        "sense_id": 367151,
+        "meaning_vi": "cạnh sau",
+        "confidence": "high",
+        "search_keywords": [
+          "cạnh sau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cạnh sau",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123528,
+    "word": "語構成記憶装置",
+    "kana": "ごこうせいきおくそうち",
+    "senses": [
+      {
+        "sense_id": 367152,
+        "meaning_vi": "lưu trữ có tổ chức từ",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ có tổ chức từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ có tổ chức từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123529,
+    "word": "バースト誤り",
+    "kana": "バーストあやまり",
+    "senses": [
+      {
+        "sense_id": 367153,
+        "meaning_vi": "lỗi nổ; lỗi bùng nổ",
+        "confidence": "high",
+        "search_keywords": [
+          "lỗi nổ",
+          "lỗi bùng nổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lỗi nổ; lỗi bùng nổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123530,
+    "word": "誤り回復",
+    "kana": "あやまりかいふく",
+    "senses": [
+      {
+        "sense_id": 367154,
+        "meaning_vi": "phục hồi lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "phục hồi lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phục hồi lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123531,
+    "word": "誤り検出",
+    "kana": "あやまりけんしゅつ",
+    "senses": [
+      {
+        "sense_id": 367155,
+        "meaning_vi": "phát hiện lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "phát hiện lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phát hiện lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123532,
+    "word": "誤り検出符号",
+    "kana": "あやまりけんしゅつふごう",
+    "senses": [
+      {
+        "sense_id": 367156,
+        "meaning_vi": "mã phát hiện lỗi; mã tự kiểm tra",
+        "confidence": "high",
+        "search_keywords": [
+          "mã phát hiện lỗi",
+          "mã tự kiểm tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã phát hiện lỗi; mã tự kiểm tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123533,
+    "word": "誤り状態",
+    "kana": "あやまりじょうたい",
+    "senses": [
+      {
+        "sense_id": 367157,
+        "meaning_vi": "tình trạng lỗi (trong máy tính)",
+        "confidence": "high",
+        "search_keywords": [
+          "tình trạng lỗi (trong máy tính)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tình trạng lỗi (trong máy tính)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123534,
+    "word": "誤り制御",
+    "kana": "あやまりせいぎょ",
+    "senses": [
+      {
+        "sense_id": 367158,
+        "meaning_vi": "kiểm soát lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm soát lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm soát lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123535,
+    "word": "誤り制御ソフトウェア",
+    "kana": "あやまりせいぎょソフトウェア",
+    "senses": [
+      {
+        "sense_id": 367159,
+        "meaning_vi": "phần mềm kiểm soát lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "phần mềm kiểm soát lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần mềm kiểm soát lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123536,
+    "word": "誤り通知",
+    "kana": "あやまりつうち",
+    "senses": [
+      {
+        "sense_id": 367160,
+        "meaning_vi": "chỉ báo lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123537,
+    "word": "誤り訂正",
+    "kana": "あやまりていせい",
+    "senses": [
+      {
+        "sense_id": 367161,
+        "meaning_vi": "sửa lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123538,
+    "word": "誤り訂正符号",
+    "kana": "あやまりていせいふごう",
+    "senses": [
+      {
+        "sense_id": 367162,
+        "meaning_vi": "mã sửa lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "mã sửa lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mã sửa lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123539,
+    "word": "誤り表示",
+    "kana": "あやまりひょうじ",
+    "senses": [
+      {
+        "sense_id": 367163,
+        "meaning_vi": "chỉ báo lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123540,
+    "word": "誤り率",
+    "kana": "あやまりりつ",
+    "senses": [
+      {
+        "sense_id": 367164,
+        "meaning_vi": "tỷ lệ lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "tỷ lệ lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tỷ lệ lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123541,
+    "word": "誤差範囲",
+    "kana": "ごさはんい",
+    "senses": [
+      {
+        "sense_id": 367165,
+        "meaning_vi": "phạm vi lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "phạm vi lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phạm vi lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 123542,
+    "word": "誤差幅",
+    "kana": "ごさはば",
+    "senses": [
+      {
+        "sense_id": 367166,
+        "meaning_vi": "khoảng lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "khoảng lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khoảng lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

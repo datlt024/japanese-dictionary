@@ -1,0 +1,463 @@
+[
+  {
+    "vocabulary_id": 125939,
+    "word": "配線盤",
+    "kana": "はいせんばん",
+    "senses": [
+      {
+        "sense_id": 369582,
+        "meaning_vi": "khung phân phối; bảng ổ cắm",
+        "confidence": "high",
+        "search_keywords": [
+          "khung phân phối",
+          "bảng ổ cắm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khung phân phối; bảng ổ cắm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125940,
+    "word": "配電器",
+    "kana": "はいでんき",
+    "senses": [
+      {
+        "sense_id": 369583,
+        "meaning_vi": "đơn vị phân phối điện",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị phân phối điện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị phân phối điện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125941,
+    "word": "配布先表",
+    "kana": "はいふさきひょう",
+    "senses": [
+      {
+        "sense_id": 369584,
+        "meaning_vi": "Danh sách phân phối; DL",
+        "confidence": "high",
+        "search_keywords": [
+          "Danh sách phân phối",
+          "DL"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Danh sách phân phối; DL",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125942,
+    "word": "配布先表展開",
+    "kana": "はいふさきひょうてんかい",
+    "senses": [
+      {
+        "sense_id": 369585,
+        "meaning_vi": "mở rộng danh sách phân phối",
+        "confidence": "high",
+        "search_keywords": [
+          "mở rộng danh sách phân phối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mở rộng danh sách phân phối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125943,
+    "word": "配布先表名",
+    "kana": "はいふさきひょうめい",
+    "senses": [
+      {
+        "sense_id": 369586,
+        "meaning_vi": "tên danh sách phân phối",
+        "confidence": "high",
+        "search_keywords": [
+          "tên danh sách phân phối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên danh sách phân phối",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125944,
+    "word": "配列ポインタ",
+    "kana": "はいれつポインタ",
+    "senses": [
+      {
+        "sense_id": 369587,
+        "meaning_vi": "con trỏ mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "con trỏ mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con trỏ mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125945,
+    "word": "配列値",
+    "kana": "はいれつち",
+    "senses": [
+      {
+        "sense_id": 369588,
+        "meaning_vi": "có giá trị mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "có giá trị mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có giá trị mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125946,
+    "word": "配列分割",
+    "kana": "はいれつぶんかつ",
+    "senses": [
+      {
+        "sense_id": 369589,
+        "meaning_vi": "phân vùng mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "phân vùng mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phân vùng mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125947,
+    "word": "配列名",
+    "kana": "はいれつめい",
+    "senses": [
+      {
+        "sense_id": 369590,
+        "meaning_vi": "tên mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "tên mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125948,
+    "word": "配列要素",
+    "kana": "はいれつようそ",
+    "senses": [
+      {
+        "sense_id": 369591,
+        "meaning_vi": "phần tử mảng",
+        "confidence": "high",
+        "search_keywords": [
+          "phần tử mảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần tử mảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125949,
+    "word": "倍クロック技術",
+    "kana": "ばいクロックぎじゅつ",
+    "senses": [
+      {
+        "sense_id": 369592,
+        "meaning_vi": "công nghệ tăng gấp đôi đồng hồ",
+        "confidence": "high",
+        "search_keywords": [
+          "công nghệ tăng gấp đôi đồng hồ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công nghệ tăng gấp đôi đồng hồ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125950,
+    "word": "倍パルス記録",
+    "kana": "ばいパルスきろく",
+    "senses": [
+      {
+        "sense_id": 369593,
+        "meaning_vi": "ghi xung kép",
+        "confidence": "high",
+        "search_keywords": [
+          "ghi xung kép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ghi xung kép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125951,
+    "word": "倍角",
+    "kana": "ばいかく",
+    "senses": [
+      {
+        "sense_id": 369594,
+        "meaning_vi": "kích thước gấp đôi của ký tự",
+        "confidence": "high",
+        "search_keywords": [
+          "kích thước gấp đôi của ký tự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kích thước gấp đôi của ký tự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125952,
+    "word": "倍精度浮動小数点",
+    "kana": "ばいせいどふどうしょうすうてん",
+    "senses": [
+      {
+        "sense_id": 369595,
+        "meaning_vi": "dấu phẩy động có độ chính xác kép",
+        "confidence": "high",
+        "search_keywords": [
+          "dấu phẩy động có độ chính xác kép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dấu phẩy động có độ chính xác kép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125953,
+    "word": "倍速",
+    "kana": "ばいそく",
+    "senses": [
+      {
+        "sense_id": 369596,
+        "meaning_vi": "tốc độ gấp đôi (truyền dữ liệu, phát lại video, v.v.); Tốc độ gấp 2 lần",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ gấp đôi (truyền dữ liệu, phát lại video, v.v.)",
+          "Tốc độ gấp 2 lần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ gấp đôi (truyền dữ liệu, phát lại video, v.v.); Tốc độ gấp 2 lần",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 369597,
+        "meaning_vi": "-lần tốc độ; ...tốc độ X",
+        "confidence": "high",
+        "search_keywords": [
+          "-lần tốc độ",
+          "...tốc độ X"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "-lần tốc độ; ...tốc độ X",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125954,
+    "word": "倍長レジスタ",
+    "kana": "ばいちょうレジスタ",
+    "senses": [
+      {
+        "sense_id": 369598,
+        "meaning_vi": "thanh ghi có chiều dài gấp đôi; đăng ký kép",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh ghi có chiều dài gấp đôi",
+          "đăng ký kép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh ghi có chiều dài gấp đôi; đăng ký kép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125955,
+    "word": "倍長語",
+    "kana": "ばいちょうご",
+    "senses": [
+      {
+        "sense_id": 369599,
+        "meaning_vi": "từ kép",
+        "confidence": "high",
+        "search_keywords": [
+          "từ kép"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "từ kép",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125956,
+    "word": "倍幅文字",
+    "kana": "ばいはばもじ",
+    "senses": [
+      {
+        "sense_id": 369600,
+        "meaning_vi": "ký tự có chiều rộng gấp đôi",
+        "confidence": "high",
+        "search_keywords": [
+          "ký tự có chiều rộng gấp đôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ký tự có chiều rộng gấp đôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125957,
+    "word": "倍密度",
+    "kana": "ばいみつど",
+    "senses": [
+      {
+        "sense_id": 369601,
+        "meaning_vi": "mật độ gấp đôi",
+        "confidence": "high",
+        "search_keywords": [
+          "mật độ gấp đôi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mật độ gấp đôi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125958,
+    "word": "媒体アクセス制御",
+    "kana": "ばいたいアクセスせいぎょ",
+    "senses": [
+      {
+        "sense_id": 369602,
+        "meaning_vi": "MAC; Kiểm soát truy cập phương tiện",
+        "confidence": "high",
+        "search_keywords": [
+          "MAC",
+          "Kiểm soát truy cập phương tiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "MAC; Kiểm soát truy cập phương tiện",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

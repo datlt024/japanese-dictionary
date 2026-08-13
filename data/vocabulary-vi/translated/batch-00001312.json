@@ -1,0 +1,703 @@
+[
+  {
+    "vocabulary_id": 33518,
+    "word": "心理学",
+    "kana": "しんりがく",
+    "senses": [
+      {
+        "sense_id": 260651,
+        "meaning_vi": "tâm lý học",
+        "confidence": "high",
+        "search_keywords": [
+          "tâm lý học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tâm lý học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33519,
+    "word": "心理学者",
+    "kana": "しんりがくしゃ",
+    "senses": [
+      {
+        "sense_id": 260652,
+        "meaning_vi": "nhà tâm lý học",
+        "confidence": "high",
+        "search_keywords": [
+          "nhà tâm lý học"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhà tâm lý học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33520,
+    "word": "心理学的",
+    "kana": "しんりがくてき",
+    "senses": [
+      {
+        "sense_id": 260653,
+        "meaning_vi": "tâm lý",
+        "confidence": "high",
+        "search_keywords": [
+          "tâm lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tâm lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33521,
+    "word": "心理戦",
+    "kana": "しんりせん",
+    "senses": [
+      {
+        "sense_id": 260654,
+        "meaning_vi": "chiến tranh tâm lý",
+        "confidence": "high",
+        "search_keywords": [
+          "chiến tranh tâm lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến tranh tâm lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33522,
+    "word": "心理描写",
+    "kana": "しんりびょうしゃ",
+    "senses": [
+      {
+        "sense_id": 260655,
+        "meaning_vi": "mô tả tâm lý",
+        "confidence": "high",
+        "search_keywords": [
+          "mô tả tâm lý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mô tả tâm lý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33523,
+    "word": "心霊",
+    "kana": "しんれい",
+    "senses": [
+      {
+        "sense_id": 260656,
+        "meaning_vi": "tinh thần (ví dụ: tinh thần con người); linh hồn",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần (ví dụ: tinh thần con người)",
+          "linh hồn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần (ví dụ: tinh thần con người); linh hồn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260657,
+        "meaning_vi": "tinh thần; bóng ma; sinh vật thanh tao",
+        "confidence": "high",
+        "search_keywords": [
+          "tinh thần",
+          "bóng ma",
+          "sinh vật thanh tao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tinh thần; bóng ma; sinh vật thanh tao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33524,
+    "word": "心霊手術",
+    "kana": "しんれいしゅじゅつ",
+    "senses": [
+      {
+        "sense_id": 260658,
+        "meaning_vi": "phẫu thuật tâm linh",
+        "confidence": "high",
+        "search_keywords": [
+          "phẫu thuật tâm linh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phẫu thuật tâm linh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33525,
+    "word": "心労",
+    "kana": "しんろう",
+    "senses": [
+      {
+        "sense_id": 260659,
+        "meaning_vi": "sự lo lắng; lo lắng; nỗi sợ hãi",
+        "confidence": "high",
+        "search_keywords": [
+          "sự lo lắng",
+          "lo lắng",
+          "nỗi sợ hãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự lo lắng; lo lắng; nỗi sợ hãi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33526,
+    "word": "慎み",
+    "kana": "つつしみ",
+    "senses": [
+      {
+        "sense_id": 260660,
+        "meaning_vi": "khiêm tốn; tự chủ; tùy ý",
+        "confidence": "high",
+        "search_keywords": [
+          "khiêm tốn",
+          "tự chủ",
+          "tùy ý"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khiêm tốn; tự chủ; tùy ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33527,
+    "word": "慎み深い",
+    "kana": "つつしみぶかい",
+    "senses": [
+      {
+        "sense_id": 260661,
+        "meaning_vi": "kín đáo; khiêm tốn; thận trọng",
+        "confidence": "high",
+        "search_keywords": [
+          "kín đáo",
+          "khiêm tốn",
+          "thận trọng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kín đáo; khiêm tốn; thận trọng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33528,
+    "word": "慎重",
+    "kana": "しんちょう",
+    "senses": [
+      {
+        "sense_id": 260662,
+        "meaning_vi": "cẩn thận; thận trọng; khôn ngoan; kín đáo; có chủ ý",
+        "confidence": "high",
+        "search_keywords": [
+          "cẩn thận",
+          "thận trọng",
+          "khôn ngoan",
+          "kín đáo"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cẩn thận; thận trọng; khôn ngoan; kín đáo; có chủ ý",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33529,
+    "word": "振られる",
+    "kana": "ふられる",
+    "senses": [
+      {
+        "sense_id": 260663,
+        "meaning_vi": "bị coi thường; bị bỏ rơi; bị từ chối; bị đổ",
+        "confidence": "high",
+        "search_keywords": [
+          "bị coi thường",
+          "bị bỏ rơi",
+          "bị từ chối",
+          "bị đổ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị coi thường; bị bỏ rơi; bị từ chối; bị đổ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33530,
+    "word": "振り",
+    "kana": "ふり",
+    "senses": [
+      {
+        "sense_id": 260664,
+        "meaning_vi": "xích đu; lắc; quét; sóng; vẫy tay",
+        "confidence": "high",
+        "search_keywords": [
+          "xích đu",
+          "lắc",
+          "quét",
+          "sóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xích đu; lắc; quét; sóng; vẫy tay",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260665,
+        "meaning_vi": "vẻ bề ngoài; hành vi; hành vi",
+        "confidence": "high",
+        "search_keywords": [
+          "vẻ bề ngoài",
+          "hành vi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vẻ bề ngoài; hành vi; hành vi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260666,
+        "meaning_vi": "giả vờ; giả vờ; (sai) hiển thị; giả vờ",
+        "confidence": "high",
+        "search_keywords": [
+          "giả vờ",
+          "(sai) hiển thị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giả vờ; giả vờ; (sai) hiển thị; giả vờ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260667,
+        "meaning_vi": "(khách hàng) đến nhà hàng, ryokan, v.v. mà không đặt trước hoặc giới thiệu",
+        "confidence": "high",
+        "search_keywords": [
+          "(khách hàng) đến nhà hàng, ryokan, v.v. mà không đặt trước hoặc giới thiệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(khách hàng) đến nhà hàng, ryokan, v.v. mà không đặt trước hoặc giới thiệu",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260668,
+        "meaning_vi": "các tư thế (của một điệu nhảy)",
+        "confidence": "high",
+        "search_keywords": [
+          "các tư thế (của một điệu nhảy)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "các tư thế (của một điệu nhảy)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260669,
+        "meaning_vi": "dẫn vào (một câu đùa, một câu hỏi, v.v.); thiết lập",
+        "confidence": "high",
+        "search_keywords": [
+          "dẫn vào (một câu đùa, một câu hỏi, v.v.)",
+          "thiết lập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dẫn vào (một câu đùa, một câu hỏi, v.v.); thiết lập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260670,
+        "meaning_vi": "phần chưa được khâu của tay áo treo trên trang phục truyền thống của phụ nữ Nhật Bản",
+        "confidence": "high",
+        "search_keywords": [
+          "phần chưa được khâu của tay áo treo trên trang phục truyền thống của phụ nữ Nhật Bản"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phần chưa được khâu của tay áo treo trên trang phục truyền thống của phụ nữ Nhật Bản",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260671,
+        "meaning_vi": "bộ đếm cho kiếm, lưỡi kiếm, v.v.",
+        "confidence": "high",
+        "search_keywords": [
+          "bộ đếm cho kiếm, lưỡi kiếm, v.v."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bộ đếm cho kiếm, lưỡi kiếm, v.v.",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33531,
+    "word": "振り",
+    "kana": "ぶり",
+    "senses": [
+      {
+        "sense_id": 260672,
+        "meaning_vi": "đường; thái độ; phong cách",
+        "confidence": "high",
+        "search_keywords": [
+          "đường",
+          "thái độ",
+          "phong cách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường; thái độ; phong cách",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260673,
+        "meaning_vi": "(cho) lần đầu tiên sau (ví dụ: mười năm); sau ...",
+        "confidence": "high",
+        "search_keywords": [
+          "(cho) lần đầu tiên sau (ví dụ: mười năm)",
+          "sau ..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "(cho) lần đầu tiên sau (ví dụ: mười năm); sau ...",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260674,
+        "meaning_vi": "...-có kích thước; số lượng (tương đương với...)",
+        "confidence": "high",
+        "search_keywords": [
+          "...-có kích thước",
+          "số lượng (tương đương với...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "...-có kích thước; số lượng (tương đương với...)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260675,
+        "meaning_vi": "giai điệu; giai điệu",
+        "confidence": "high",
+        "search_keywords": [
+          "giai điệu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giai điệu; giai điệu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33532,
+    "word": "振り仮名",
+    "kana": "ふりがな",
+    "senses": [
+      {
+        "sense_id": 260676,
+        "meaning_vi": "furigana; kana in phía trên hoặc bên cạnh chữ kanji để biểu thị cách phát âm",
+        "confidence": "high",
+        "search_keywords": [
+          "furigana",
+          "kana in phía trên hoặc bên cạnh chữ kanji để biểu thị cách phát âm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "furigana; kana in phía trên hoặc bên cạnh chữ kanji để biểu thị cách phát âm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33533,
+    "word": "振りほどく",
+    "kana": "ふりほどく",
+    "senses": [
+      {
+        "sense_id": 260677,
+        "meaning_vi": "lắc và gỡ rối; để thoát khỏi",
+        "confidence": "high",
+        "search_keywords": [
+          "lắc và gỡ rối",
+          "để thoát khỏi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lắc và gỡ rối; để thoát khỏi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33534,
+    "word": "振り回す",
+    "kana": "ふりまわす",
+    "senses": [
+      {
+        "sense_id": 260678,
+        "meaning_vi": "sử dụng; vung vẩy; phát triển mạnh mẽ; vẫy tay (về); đu đưa",
+        "confidence": "high",
+        "search_keywords": [
+          "sử dụng",
+          "vung vẩy",
+          "phát triển mạnh mẽ",
+          "vẫy tay (về)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sử dụng; vung vẩy; phát triển mạnh mẽ; vẫy tay (về); đu đưa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260679,
+        "meaning_vi": "để hiển thị (kiến thức của một người); để thể hiện",
+        "confidence": "high",
+        "search_keywords": [
+          "để hiển thị (kiến thức của một người)",
+          "để thể hiện"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để hiển thị (kiến thức của một người); để thể hiện",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260680,
+        "meaning_vi": "lạm dụng (sức mạnh của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "lạm dụng (sức mạnh của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lạm dụng (sức mạnh của một người)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260681,
+        "meaning_vi": "thao túng ai đó",
+        "confidence": "high",
+        "search_keywords": [
+          "thao túng ai đó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thao túng ai đó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33535,
+    "word": "振りかける",
+    "kana": "ふりかける",
+    "senses": [
+      {
+        "sense_id": 260682,
+        "meaning_vi": "rắc lên (ví dụ: muối, hạt tiêu, v.v. lên thực phẩm)",
+        "confidence": "high",
+        "search_keywords": [
+          "rắc lên (ví dụ: muối, hạt tiêu, v.v. lên thực phẩm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rắc lên (ví dụ: muối, hạt tiêu, v.v. lên thực phẩm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33536,
+    "word": "振り向く",
+    "kana": "ふりむく",
+    "senses": [
+      {
+        "sense_id": 260683,
+        "meaning_vi": "quay mặt lại; quay lại; nhìn qua vai của một người",
+        "confidence": "high",
+        "search_keywords": [
+          "quay mặt lại",
+          "quay lại",
+          "nhìn qua vai của một người"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quay mặt lại; quay lại; nhìn qua vai của một người",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 33537,
+    "word": "振り向ける",
+    "kana": "ふりむける",
+    "senses": [
+      {
+        "sense_id": 260684,
+        "meaning_vi": "quay lại (xung quanh)",
+        "confidence": "high",
+        "search_keywords": [
+          "quay lại (xung quanh)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quay lại (xung quanh)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 260685,
+        "meaning_vi": "cho phù hợp; đặt sang một bên; phân bổ; chuyển nhượng (cho mục đích khác hoặc mục đích sử dụng khác)",
+        "confidence": "high",
+        "search_keywords": [
+          "cho phù hợp",
+          "đặt sang một bên",
+          "phân bổ",
+          "chuyển nhượng (cho mục đích khác hoặc mục đích sử dụng khác)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cho phù hợp; đặt sang một bên; phân bổ; chuyển nhượng (cho mục đích khác hoặc mục đích sử dụng khác)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

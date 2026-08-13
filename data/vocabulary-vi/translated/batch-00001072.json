@@ -1,0 +1,658 @@
+[
+  {
+    "vocabulary_id": 27148,
+    "word": "栽培種",
+    "kana": "さいばいしゅ",
+    "senses": [
+      {
+        "sense_id": 252083,
+        "meaning_vi": "loài nông nghiệp",
+        "confidence": "high",
+        "search_keywords": [
+          "loài nông nghiệp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loài nông nghiệp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27149,
+    "word": "栽培所",
+    "kana": "さいばいじょ",
+    "senses": [
+      {
+        "sense_id": 252084,
+        "meaning_vi": "đồn điền",
+        "confidence": "high",
+        "search_keywords": [
+          "đồn điền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đồn điền",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27150,
+    "word": "歳",
+    "kana": "さい",
+    "senses": [
+      {
+        "sense_id": 252085,
+        "meaning_vi": "... tuổi; tuổi (của)...",
+        "confidence": "high",
+        "search_keywords": [
+          "... tuổi",
+          "tuổi (của)..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "... tuổi; tuổi (của)...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27151,
+    "word": "歳月",
+    "kana": "さいげつ",
+    "senses": [
+      {
+        "sense_id": 252086,
+        "meaning_vi": "thời gian; năm",
+        "confidence": "high",
+        "search_keywords": [
+          "thời gian",
+          "năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thời gian; năm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27152,
+    "word": "歳出",
+    "kana": "さいしゅつ",
+    "senses": [
+      {
+        "sense_id": 252087,
+        "meaning_vi": "chi tiêu hàng năm (của một nhà nước, tổ chức, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "chi tiêu hàng năm (của một nhà nước, tổ chức, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi tiêu hàng năm (của một nhà nước, tổ chức, v.v.)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27153,
+    "word": "歳入",
+    "kana": "さいにゅう",
+    "senses": [
+      {
+        "sense_id": 252088,
+        "meaning_vi": "doanh thu hàng năm (chính phủ); thu nhập hàng năm (chính phủ); thu ngân sách",
+        "confidence": "high",
+        "search_keywords": [
+          "doanh thu hàng năm (chính phủ)",
+          "thu nhập hàng năm (chính phủ)",
+          "thu ngân sách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "doanh thu hàng năm (chính phủ); thu nhập hàng năm (chính phủ); thu ngân sách",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27154,
+    "word": "歳入歳出",
+    "kana": "さいにゅうさいしゅつ",
+    "senses": [
+      {
+        "sense_id": 252089,
+        "meaning_vi": "thu nhập và chi tiêu hàng năm",
+        "confidence": "high",
+        "search_keywords": [
+          "thu nhập và chi tiêu hàng năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thu nhập và chi tiêu hàng năm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27155,
+    "word": "歳費",
+    "kana": "さいひ",
+    "senses": [
+      {
+        "sense_id": 252090,
+        "meaning_vi": "chi tiêu hàng năm",
+        "confidence": "high",
+        "search_keywords": [
+          "chi tiêu hàng năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chi tiêu hàng năm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252091,
+        "meaning_vi": "lương hàng năm trả cho thành viên Quốc hội",
+        "confidence": "high",
+        "search_keywords": [
+          "lương hàng năm trả cho thành viên Quốc hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lương hàng năm trả cho thành viên Quốc hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27156,
+    "word": "歳暮",
+    "kana": "せいぼ",
+    "senses": [
+      {
+        "sense_id": 252092,
+        "meaning_vi": "quà tặng cuối năm",
+        "confidence": "high",
+        "search_keywords": [
+          "quà tặng cuối năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quà tặng cuối năm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252093,
+        "meaning_vi": "cuối năm; cuối năm",
+        "confidence": "high",
+        "search_keywords": [
+          "cuối năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuối năm; cuối năm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27157,
+    "word": "歳末",
+    "kana": "さいまつ",
+    "senses": [
+      {
+        "sense_id": 252094,
+        "meaning_vi": "cuối năm",
+        "confidence": "high",
+        "search_keywords": [
+          "cuối năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cuối năm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27158,
+    "word": "なし崩し",
+    "kana": "なしくずし",
+    "senses": [
+      {
+        "sense_id": 252095,
+        "meaning_vi": "trả dần (trả góp); kế hoạch khấu hao (khấu hao)",
+        "confidence": "high",
+        "search_keywords": [
+          "trả dần (trả góp)",
+          "kế hoạch khấu hao (khấu hao)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trả dần (trả góp); kế hoạch khấu hao (khấu hao)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252096,
+        "meaning_vi": "tiến triển dần dần (thường dẫn đến trạng thái không mong muốn); làm từng chút một; phát triển ổn định; thăng tiến liên tục",
+        "confidence": "high",
+        "search_keywords": [
+          "tiến triển dần dần (thường dẫn đến trạng thái không mong muốn)",
+          "làm từng chút một",
+          "phát triển ổn định",
+          "thăng tiến liên tục"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiến triển dần dần (thường dẫn đến trạng thái không mong muốn); làm từng chút một; phát triển ổn định; thăng tiến liên tục",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252097,
+        "meaning_vi": "tiến hành một cách liên tục và mơ hồ; dần bị che khuất; lặng lẽ phai nhạt",
+        "confidence": "high",
+        "search_keywords": [
+          "tiến hành một cách liên tục và mơ hồ",
+          "dần bị che khuất",
+          "lặng lẽ phai nhạt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiến hành một cách liên tục và mơ hồ; dần bị che khuất; lặng lẽ phai nhạt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27159,
+    "word": "済ます",
+    "kana": "すます",
+    "senses": [
+      {
+        "sense_id": 252098,
+        "meaning_vi": "để kết thúc; để vượt qua nó; để kết luận",
+        "confidence": "high",
+        "search_keywords": [
+          "để kết thúc",
+          "để vượt qua nó",
+          "để kết luận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kết thúc; để vượt qua nó; để kết luận",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252099,
+        "meaning_vi": "giải quyết; trả lại",
+        "confidence": "high",
+        "search_keywords": [
+          "giải quyết",
+          "trả lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giải quyết; trả lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252100,
+        "meaning_vi": "hòa đồng (không có cái gì đó); làm gì với (không có)",
+        "confidence": "high",
+        "search_keywords": [
+          "hòa đồng (không có cái gì đó)",
+          "làm gì với (không có)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hòa đồng (không có cái gì đó); làm gì với (không có)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27160,
+    "word": "済ませる",
+    "kana": "すませる",
+    "senses": [
+      {
+        "sense_id": 252101,
+        "meaning_vi": "để kết thúc; để kết thúc; để vượt qua; để kết thúc",
+        "confidence": "high",
+        "search_keywords": [
+          "để kết thúc",
+          "để vượt qua"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kết thúc; để kết thúc; để vượt qua; để kết thúc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252102,
+        "meaning_vi": "làm gì (với); để quản lý (với)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm gì (với)",
+          "để quản lý (với)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm gì (với); để quản lý (với)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252103,
+        "meaning_vi": "để giải quyết; giải quyết; để đưa ra kết luận",
+        "confidence": "high",
+        "search_keywords": [
+          "để giải quyết",
+          "giải quyết",
+          "để đưa ra kết luận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để giải quyết; giải quyết; để đưa ra kết luận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27161,
+    "word": "済みません",
+    "kana": "すみません",
+    "senses": [
+      {
+        "sense_id": 252104,
+        "meaning_vi": "xin lỗi; xin lỗi tôi; Tôi xin lỗi; tôi xin lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "xin lỗi",
+          "xin lỗi tôi",
+          "Tôi xin lỗi",
+          "tôi xin lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xin lỗi; xin lỗi tôi; Tôi xin lỗi; tôi xin lỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252105,
+        "meaning_vi": "Cảm ơn; bạn không nên có; nó quá nhiều",
+        "confidence": "high",
+        "search_keywords": [
+          "Cảm ơn",
+          "bạn không nên có",
+          "nó quá nhiều"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Cảm ơn; bạn không nên có; nó quá nhiều",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27162,
+    "word": "済む",
+    "kana": "すむ",
+    "senses": [
+      {
+        "sense_id": 252106,
+        "meaning_vi": "để kết thúc; kết thúc ; được hoàn thành; được giải quyết",
+        "confidence": "high",
+        "search_keywords": [
+          "để kết thúc",
+          "kết thúc",
+          "được hoàn thành",
+          "được giải quyết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để kết thúc; kết thúc ; được hoàn thành; được giải quyết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252107,
+        "meaning_vi": "để có một kết quả ít nghiêm trọng hơn dự kiến",
+        "confidence": "high",
+        "search_keywords": [
+          "để có một kết quả ít nghiêm trọng hơn dự kiến"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để có một kết quả ít nghiêm trọng hơn dự kiến",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252108,
+        "meaning_vi": "để cảm thấy thoải mái",
+        "confidence": "high",
+        "search_keywords": [
+          "để cảm thấy thoải mái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để cảm thấy thoải mái",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 252109,
+        "meaning_vi": "cảm thấy khó chịu hoặc tội lỗi khi làm phiền ai đó; xin lỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "cảm thấy khó chịu hoặc tội lỗi khi làm phiền ai đó",
+          "xin lỗi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "cảm thấy khó chịu hoặc tội lỗi khi làm phiền ai đó; xin lỗi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27163,
+    "word": "災い",
+    "kana": "わざわい",
+    "senses": [
+      {
+        "sense_id": 252110,
+        "meaning_vi": "thảm họa; thiên tai; bất hạnh; rắc rối; tai ương",
+        "confidence": "high",
+        "search_keywords": [
+          "thảm họa",
+          "thiên tai",
+          "bất hạnh",
+          "rắc rối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thảm họa; thiên tai; bất hạnh; rắc rối; tai ương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27164,
+    "word": "災禍",
+    "kana": "さいか",
+    "senses": [
+      {
+        "sense_id": 252111,
+        "meaning_vi": "thảm họa; tai nạn; thiên tai; thảm họa",
+        "confidence": "high",
+        "search_keywords": [
+          "thảm họa",
+          "tai nạn",
+          "thiên tai"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thảm họa; tai nạn; thiên tai; thảm họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27165,
+    "word": "災害",
+    "kana": "さいがい",
+    "senses": [
+      {
+        "sense_id": 252112,
+        "meaning_vi": "thiên tai; thảm họa; bất hạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "thiên tai",
+          "thảm họa",
+          "bất hạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiên tai; thảm họa; bất hạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27166,
+    "word": "災難",
+    "kana": "さいなん",
+    "senses": [
+      {
+        "sense_id": 252113,
+        "meaning_vi": "thiên tai; bất hạnh; thảm họa",
+        "confidence": "high",
+        "search_keywords": [
+          "thiên tai",
+          "bất hạnh",
+          "thảm họa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiên tai; bất hạnh; thảm họa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 27167,
+    "word": "災難に遭う",
+    "kana": "さいなんにあう",
+    "senses": [
+      {
+        "sense_id": 252114,
+        "meaning_vi": "gặp bất hạnh",
+        "confidence": "high",
+        "search_keywords": [
+          "gặp bất hạnh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gặp bất hạnh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,548 +1,520 @@
 [
-{
-"vocabulary_id": 2002,
-"word": "インスペクター",
-"kana": "インスペクター",
-"senses": [
-{
-"sense_id": 220207,
-"meaning_vi": "thanh tra viên",
-"confidence": "high",
-"search_keywords": [
-"thanh tra viên",
-"kiểm tra viên",
-"giám sát viên"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thanh tra viên; kiểm tra viên",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2003,
-"word": "インセキュリティ",
-"kana": "インセキュリティ",
-"senses": [
-{
-"sense_id": 220208,
-"meaning_vi": "cảm giác bất an",
-"confidence": "medium",
-"search_keywords": [
-"cảm giác bất an",
-"bất an",
-"thiếu tự tin"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm giác bất an; thiếu cảm giác an toàn; thiếu tự tin",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2004,
-"word": "インセスト",
-"kana": "インセスト",
-"senses": [
-{
-"sense_id": 220209,
-"meaning_vi": "loạn luân",
-"confidence": "high",
-"search_keywords": [
-"loạn luân",
-"quan hệ loạn luân"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "loạn luân; quan hệ tình dục giữa người có quan hệ huyết thống gần",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2005,
-"word": "インセンス",
-"kana": "インセンス",
-"senses": [
-{
-"sense_id": 220210,
-"meaning_vi": "hương trầm",
-"confidence": "high",
-"search_keywords": [
-"hương trầm",
-"nhang",
-"hương"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hương trầm; nhang thơm",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2006,
-"word": "インセンティブ",
-"kana": "インセンティブ",
-"senses": [
-{
-"sense_id": 220211,
-"meaning_vi": "khuyến khích",
-"confidence": "high",
-"search_keywords": [
-"khuyến khích",
-"ưu đãi",
-"động lực"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "động lực khuyến khích; ưu đãi nhằm thúc đẩy",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2007,
-"word": "インセンティブセール",
-"kana": "インセンティブセール",
-"senses": [
-{
-"sense_id": 220212,
-"meaning_vi": "chương trình khuyến mại",
-"confidence": "medium",
-"search_keywords": [
-"chương trình khuyến mại",
-"khuyến mại",
-"ưu đãi bán hàng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chương trình bán hàng kèm ưu đãi khuyến khích",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2008,
-"word": "インソール",
-"kana": "インソール",
-"senses": [
-{
-"sense_id": 220213,
-"meaning_vi": "lót giày",
-"confidence": "high",
-"search_keywords": [
-"lót giày",
-"miếng lót giày"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "miếng lót bên trong giày",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2009,
-"word": "インター",
-"kana": "インター",
-"senses": [
-{
-"sense_id": 220214,
-"meaning_vi": "nút giao cao tốc",
-"confidence": "high",
-"search_keywords": [
-"nút giao cao tốc",
-"interchange"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nút giao thông cao tốc; lối ra vào đường cao tốc",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220215,
-"meaning_vi": "quốc tế",
-"confidence": "high",
-"search_keywords": [
-"quốc tế",
-"international"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quốc tế",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220216,
-"meaning_vi": "phỏng vấn",
-"confidence": "high",
-"search_keywords": [
-"phỏng vấn",
-"interview"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách nói khẩu ngữ rút gọn của 'interview'",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220217,
-"meaning_vi": "trường quốc tế",
-"confidence": "high",
-"search_keywords": [
-"trường quốc tế",
-"international school"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trường quốc tế",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220218,
-"meaning_vi": "liên-",
-"confidence": "high",
-"search_keywords": [
-"liên",
-"inter"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tiền tố mang nghĩa 'giữa các'; 'liên-'",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2010,
-"word": "インターカット",
-"kana": "インターカット",
-"senses": [
-{
-"sense_id": 220219,
-"meaning_vi": "cắt xen kẽ",
-"confidence": "high",
-"search_keywords": [
-"cắt xen kẽ",
-"intercut"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kỹ thuật dựng xen kẽ các cảnh",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2011,
-"word": "インターカレッジ",
-"kana": "インターカレッジ",
-"senses": [
-{
-"sense_id": 220220,
-"meaning_vi": "liên trường",
-"confidence": "high",
-"search_keywords": [
-"liên trường",
-"giữa các trường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mang tính liên trường",
-"examples": []
-}
-]
-},
-{
-"sense_id": 220221,
-"meaning_vi": "thi đấu liên trường",
-"confidence": "high",
-"search_keywords": [
-"thi đấu liên trường",
-"giải liên trường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trận đấu hoặc cuộc thi giữa các trường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2012,
-"word": "インターコース",
-"kana": "インターコース",
-"senses": [
-{
-"sense_id": 220222,
-"meaning_vi": "giao hợp",
-"confidence": "high",
-"search_keywords": [
-"giao hợp",
-"quan hệ tình dục"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quan hệ tình dục; giao hợp",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2013,
-"word": "インターセプター",
-"kana": "インターセプター",
-"senses": [
-{
-"sense_id": 220223,
-"meaning_vi": "thiết bị đánh chặn",
-"confidence": "medium",
-"search_keywords": [
-"thiết bị đánh chặn",
-"đánh chặn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thiết bị hoặc phương tiện dùng để đánh chặn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2014,
-"word": "インターゼミ",
-"kana": "インターゼミ",
-"senses": [
-{
-"sense_id": 220224,
-"meaning_vi": "seminar liên trường",
-"confidence": "high",
-"search_keywords": [
-"seminar liên trường",
-"hội thảo liên trường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách viết rút gọn của seminar liên trường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2015,
-"word": "インターゼミナール",
-"kana": "インターゼミナール",
-"senses": [
-{
-"sense_id": 220225,
-"meaning_vi": "seminar liên trường",
-"confidence": "high",
-"search_keywords": [
-"seminar liên trường",
-"hội thảo liên trường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "buổi seminar giữa nhiều trường hoặc nhiều nhóm nghiên cứu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2016,
-"word": "インターチェンジ",
-"kana": "インターチェンジ",
-"senses": [
-{
-"sense_id": 220226,
-"meaning_vi": "nút giao cao tốc",
-"confidence": "high",
-"search_keywords": [
-"nút giao cao tốc",
-"interchange"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nút giao thông; lối kết nối đường cao tốc",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2017,
-"word": "インターナショナル",
-"kana": "インターナショナル",
-"senses": [
-{
-"sense_id": 220227,
-"meaning_vi": "quốc tế",
-"confidence": "high",
-"search_keywords": [
-"quốc tế",
-"international"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mang tính quốc tế; quốc tế",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2018,
-"word": "インターナショナルバカロレア",
-"kana": "インターナショナルバカロレア",
-"senses": [
-{
-"sense_id": 220228,
-"meaning_vi": "Tú tài Quốc tế",
-"confidence": "high",
-"search_keywords": [
-"Tú tài Quốc tế",
-"IB"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "Chương trình Tú tài Quốc tế (IB)",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2019,
-"word": "インターナショナリズム",
-"kana": "インターナショナリズム",
-"senses": [
-{
-"sense_id": 220229,
-"meaning_vi": "chủ nghĩa quốc tế",
-"confidence": "high",
-"search_keywords": [
-"chủ nghĩa quốc tế",
-"quốc tế chủ nghĩa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tư tưởng hoặc chủ nghĩa đề cao hợp tác quốc tế",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2020,
-"word": "インターネット",
-"kana": "インターネット",
-"senses": [
-{
-"sense_id": 220230,
-"meaning_vi": "Internet",
-"confidence": "high",
-"search_keywords": [
-"Internet",
-"mạng Internet"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "mạng Internet",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 2021,
-"word": "インターネットワーキング",
-"kana": "インターネットワーキング",
-"senses": [
-{
-"sense_id": 220231,
-"meaning_vi": "liên kết mạng",
-"confidence": "high",
-"search_keywords": [
-"liên kết mạng",
-"internetworking",
-"kết nối mạng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kỹ thuật kết nối nhiều mạng máy tính với nhau",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 2002,
+    "word": "インスペクター",
+    "kana": "インスペクター",
+    "senses": [
+      {
+        "sense_id": 220207,
+        "meaning_vi": "thanh tra",
+        "confidence": "high",
+        "search_keywords": [
+          "thanh tra"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thanh tra",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2003,
+    "word": "インセキュリティ",
+    "kana": "インセキュリティ",
+    "senses": [
+      {
+        "sense_id": 220208,
+        "meaning_vi": "sự bất an",
+        "confidence": "high",
+        "search_keywords": [
+          "sự bất an"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự bất an",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2004,
+    "word": "インセスト",
+    "kana": "インセスト",
+    "senses": [
+      {
+        "sense_id": 220209,
+        "meaning_vi": "loạn luân",
+        "confidence": "high",
+        "search_keywords": [
+          "loạn luân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "loạn luân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2005,
+    "word": "インセンス",
+    "kana": "インセンス",
+    "senses": [
+      {
+        "sense_id": 220210,
+        "meaning_vi": "hương",
+        "confidence": "high",
+        "search_keywords": [
+          "hương"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hương",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2006,
+    "word": "インセンティブ",
+    "kana": "インセンティブ",
+    "senses": [
+      {
+        "sense_id": 220211,
+        "meaning_vi": "khuyến khích",
+        "confidence": "high",
+        "search_keywords": [
+          "khuyến khích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuyến khích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2007,
+    "word": "インセンティブセール",
+    "kana": "インセンティブセール",
+    "senses": [
+      {
+        "sense_id": 220212,
+        "meaning_vi": "bán ưu đãi",
+        "confidence": "high",
+        "search_keywords": [
+          "bán ưu đãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bán ưu đãi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2008,
+    "word": "インソール",
+    "kana": "インソール",
+    "senses": [
+      {
+        "sense_id": 220213,
+        "meaning_vi": "đế giày",
+        "confidence": "high",
+        "search_keywords": [
+          "đế giày"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đế giày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2009,
+    "word": "インター",
+    "kana": "インター",
+    "senses": [
+      {
+        "sense_id": 220214,
+        "meaning_vi": "trao đổi",
+        "confidence": "high",
+        "search_keywords": [
+          "trao đổi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trao đổi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220215,
+        "meaning_vi": "quốc tế",
+        "confidence": "high",
+        "search_keywords": [
+          "quốc tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quốc tế",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220216,
+        "meaning_vi": "phỏng vấn",
+        "confidence": "high",
+        "search_keywords": [
+          "phỏng vấn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phỏng vấn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220217,
+        "meaning_vi": "trường quốc tế",
+        "confidence": "high",
+        "search_keywords": [
+          "trường quốc tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trường quốc tế",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220218,
+        "meaning_vi": "liên",
+        "confidence": "high",
+        "search_keywords": [
+          "liên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2010,
+    "word": "インターカット",
+    "kana": "インターカット",
+    "senses": [
+      {
+        "sense_id": 220219,
+        "meaning_vi": "xen vào",
+        "confidence": "high",
+        "search_keywords": [
+          "xen vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xen vào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2011,
+    "word": "インターカレッジ",
+    "kana": "インターカレッジ",
+    "senses": [
+      {
+        "sense_id": 220220,
+        "meaning_vi": "liên trường",
+        "confidence": "high",
+        "search_keywords": [
+          "liên trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên trường",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 220221,
+        "meaning_vi": "trò chơi liên trường; cuộc thi liên trường",
+        "confidence": "high",
+        "search_keywords": [
+          "trò chơi liên trường",
+          "cuộc thi liên trường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trò chơi liên trường; cuộc thi liên trường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2012,
+    "word": "インターコース",
+    "kana": "インターコース",
+    "senses": [
+      {
+        "sense_id": 220222,
+        "meaning_vi": "giao hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "giao hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giao hợp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2013,
+    "word": "インターセプター",
+    "kana": "インターセプター",
+    "senses": [
+      {
+        "sense_id": 220223,
+        "meaning_vi": "máy bay đánh chặn",
+        "confidence": "high",
+        "search_keywords": [
+          "máy bay đánh chặn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy bay đánh chặn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2014,
+    "word": "インターゼミ",
+    "kana": "インターゼミ",
+    "senses": [
+      {
+        "sense_id": 220224,
+        "meaning_vi": "hội thảo liên ngành",
+        "confidence": "high",
+        "search_keywords": [
+          "hội thảo liên ngành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội thảo liên ngành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2015,
+    "word": "インターゼミナール",
+    "kana": "インターゼミナール",
+    "senses": [
+      {
+        "sense_id": 220225,
+        "meaning_vi": "hội thảo liên ngành",
+        "confidence": "high",
+        "search_keywords": [
+          "hội thảo liên ngành"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hội thảo liên ngành",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2016,
+    "word": "インターチェンジ",
+    "kana": "インターチェンジ",
+    "senses": [
+      {
+        "sense_id": 220226,
+        "meaning_vi": "trao đổi; trao đổi dịch vụ",
+        "confidence": "high",
+        "search_keywords": [
+          "trao đổi",
+          "trao đổi dịch vụ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trao đổi; trao đổi dịch vụ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2017,
+    "word": "インターナショナル",
+    "kana": "インターナショナル",
+    "senses": [
+      {
+        "sense_id": 220227,
+        "meaning_vi": "quốc tế",
+        "confidence": "high",
+        "search_keywords": [
+          "quốc tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quốc tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2018,
+    "word": "インターナショナルバカロレア",
+    "kana": "インターナショナルバカロレア",
+    "senses": [
+      {
+        "sense_id": 220228,
+        "meaning_vi": "Tú tài quốc tế; IB",
+        "confidence": "high",
+        "search_keywords": [
+          "Tú tài quốc tế",
+          "IB"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tú tài quốc tế; IB",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2019,
+    "word": "インターナショナリズム",
+    "kana": "インターナショナリズム",
+    "senses": [
+      {
+        "sense_id": 220229,
+        "meaning_vi": "chủ nghĩa quốc tế",
+        "confidence": "high",
+        "search_keywords": [
+          "chủ nghĩa quốc tế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chủ nghĩa quốc tế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2020,
+    "word": "インターネット",
+    "kana": "インターネット",
+    "senses": [
+      {
+        "sense_id": 220230,
+        "meaning_vi": "Internet",
+        "confidence": "low",
+        "search_keywords": [
+          "Internet"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Internet",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 2021,
+    "word": "インターネットワーキング",
+    "kana": "インターネットワーキング",
+    "senses": [
+      {
+        "sense_id": 220231,
+        "meaning_vi": "liên mạng",
+        "confidence": "high",
+        "search_keywords": [
+          "liên mạng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "liên mạng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

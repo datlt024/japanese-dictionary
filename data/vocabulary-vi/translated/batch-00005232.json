@@ -1,0 +1,445 @@
+[
+  {
+    "vocabulary_id": 125199,
+    "word": "代数理論",
+    "kana": "だいすうりろん",
+    "senses": [
+      {
+        "sense_id": 368838,
+        "meaning_vi": "lý thuyết đại số",
+        "confidence": "high",
+        "search_keywords": [
+          "lý thuyết đại số"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lý thuyết đại số",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125200,
+    "word": "代替クラス",
+    "kana": "だいたいクラス",
+    "senses": [
+      {
+        "sense_id": 368839,
+        "meaning_vi": "lớp thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "lớp thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lớp thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125201,
+    "word": "代替トラック",
+    "kana": "だいたいトラック",
+    "senses": [
+      {
+        "sense_id": 368840,
+        "meaning_vi": "đường đua thay thế; đường đua thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "đường đua thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đường đua thay thế; đường đua thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125202,
+    "word": "代替パス",
+    "kana": "だいたいパス",
+    "senses": [
+      {
+        "sense_id": 368841,
+        "meaning_vi": "con đường thay thế; con đường thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "con đường thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con đường thay thế; con đường thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125203,
+    "word": "代入演算子",
+    "kana": "だいにゅうえんざんし",
+    "senses": [
+      {
+        "sense_id": 368842,
+        "meaning_vi": "toán tử gán; toán tử thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "toán tử gán",
+          "toán tử thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toán tử gán; toán tử thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125204,
+    "word": "代入文",
+    "kana": "だいにゅうぶん",
+    "senses": [
+      {
+        "sense_id": 368843,
+        "meaning_vi": "tuyên bố phân công",
+        "confidence": "high",
+        "search_keywords": [
+          "tuyên bố phân công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tuyên bố phân công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125205,
+    "word": "代理サーバー",
+    "kana": "だいりサーバー",
+    "senses": [
+      {
+        "sense_id": 368844,
+        "meaning_vi": "máy chủ proxy",
+        "confidence": "high",
+        "search_keywords": [
+          "máy chủ proxy"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy chủ proxy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125206,
+    "word": "代理受信者",
+    "kana": "だいりじゅしんしゃ",
+    "senses": [
+      {
+        "sense_id": 368845,
+        "meaning_vi": "người nhận thay thế",
+        "confidence": "high",
+        "search_keywords": [
+          "người nhận thay thế"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nhận thay thế",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125207,
+    "word": "大きさ引継ぎ配列",
+    "kana": "おおきさひきつぎはいれつ",
+    "senses": [
+      {
+        "sense_id": 368846,
+        "meaning_vi": "mảng kích thước giả định",
+        "confidence": "high",
+        "search_keywords": [
+          "mảng kích thước giả định"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "mảng kích thước giả định",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125208,
+    "word": "大域モデリング変換",
+    "kana": "だいいきモデリングへんかん",
+    "senses": [
+      {
+        "sense_id": 368847,
+        "meaning_vi": "chuyển đổi mô hình toàn cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "chuyển đổi mô hình toàn cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chuyển đổi mô hình toàn cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125209,
+    "word": "大域的",
+    "kana": "たいいきてき",
+    "senses": [
+      {
+        "sense_id": 368848,
+        "meaning_vi": "toàn cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "toàn cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "toàn cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125210,
+    "word": "大域名",
+    "kana": "たいいきめい",
+    "senses": [
+      {
+        "sense_id": 368849,
+        "meaning_vi": "tên toàn cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "tên toàn cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tên toàn cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125211,
+    "word": "大域要素",
+    "kana": "だいいきようそ",
+    "senses": [
+      {
+        "sense_id": 368850,
+        "meaning_vi": "thực thể toàn cầu",
+        "confidence": "high",
+        "search_keywords": [
+          "thực thể toàn cầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thực thể toàn cầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125212,
+    "word": "大改訂",
+    "kana": "だいかいてい",
+    "senses": [
+      {
+        "sense_id": 368851,
+        "meaning_vi": "sửa đổi lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "sửa đổi lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sửa đổi lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125213,
+    "word": "大記憶",
+    "kana": "だいきおく",
+    "senses": [
+      {
+        "sense_id": 368852,
+        "meaning_vi": "lưu trữ lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125214,
+    "word": "大記憶ファイル",
+    "kana": "だいきおくファイル",
+    "senses": [
+      {
+        "sense_id": 368853,
+        "meaning_vi": "tập tin lưu trữ lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "tập tin lưu trữ lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tập tin lưu trữ lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125215,
+    "word": "大記憶管理システム",
+    "kana": "だいきおくかんりシステム",
+    "senses": [
+      {
+        "sense_id": 368854,
+        "meaning_vi": "hệ thống kiểm soát lưu trữ lớn; MSCS",
+        "confidence": "high",
+        "search_keywords": [
+          "hệ thống kiểm soát lưu trữ lớn",
+          "MSCS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hệ thống kiểm soát lưu trữ lớn; MSCS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125216,
+    "word": "大小順序",
+    "kana": "だいしょうじゅんじょ",
+    "senses": [
+      {
+        "sense_id": 368855,
+        "meaning_vi": "trình tự đối chiếu",
+        "confidence": "high",
+        "search_keywords": [
+          "trình tự đối chiếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trình tự đối chiếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125217,
+    "word": "大容量",
+    "kana": "だいようりょう",
+    "senses": [
+      {
+        "sense_id": 368856,
+        "meaning_vi": "công suất cao; âm lượng lớn",
+        "confidence": "high",
+        "search_keywords": [
+          "công suất cao",
+          "âm lượng lớn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "công suất cao; âm lượng lớn",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 125218,
+    "word": "大容量データストレージ",
+    "kana": "だいようりょうデータストレージ",
+    "senses": [
+      {
+        "sense_id": 368857,
+        "meaning_vi": "lưu trữ dữ liệu dung lượng cao",
+        "confidence": "high",
+        "search_keywords": [
+          "lưu trữ dữ liệu dung lượng cao"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lưu trữ dữ liệu dung lượng cao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

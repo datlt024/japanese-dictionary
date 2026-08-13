@@ -1,0 +1,611 @@
+[
+  {
+    "vocabulary_id": 37682,
+    "word": "つかの間",
+    "kana": "つかのま",
+    "senses": [
+      {
+        "sense_id": 266248,
+        "meaning_vi": "chốc lát; khoảng thời gian ngắn ngủi",
+        "confidence": "high",
+        "search_keywords": [
+          "chốc lát",
+          "khoảng thời gian ngắn ngủi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chốc lát; khoảng thời gian ngắn ngủi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37683,
+    "word": "束帯",
+    "kana": "そくたい",
+    "senses": [
+      {
+        "sense_id": 266249,
+        "meaning_vi": "trang phục nghi lễ cũ",
+        "confidence": "high",
+        "search_keywords": [
+          "trang phục nghi lễ cũ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trang phục nghi lễ cũ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37684,
+    "word": "束縛",
+    "kana": "そくばく",
+    "senses": [
+      {
+        "sense_id": 266250,
+        "meaning_vi": "kiềm chế; sự hạn chế; xiềng xích; ách; xiềng xích",
+        "confidence": "high",
+        "search_keywords": [
+          "kiềm chế",
+          "sự hạn chế",
+          "xiềng xích",
+          "ách"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiềm chế; sự hạn chế; xiềng xích; ách; xiềng xích",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266251,
+        "meaning_vi": "ràng buộc; giam cầm bằng dây thừng",
+        "confidence": "high",
+        "search_keywords": [
+          "ràng buộc",
+          "giam cầm bằng dây thừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ràng buộc; giam cầm bằng dây thừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37685,
+    "word": "束髪",
+    "kana": "そくはつ",
+    "senses": [
+      {
+        "sense_id": 266252,
+        "meaning_vi": "kiểu tóc được giới thiệu vào thời Meiji bao gồm búi tóc hoặc búi tóc buộc ở phía sau đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểu tóc được giới thiệu vào thời Meiji bao gồm búi tóc hoặc búi tóc buộc ở phía sau đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểu tóc được giới thiệu vào thời Meiji bao gồm búi tóc hoặc búi tóc buộc ở phía sau đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37686,
+    "word": "束脩",
+    "kana": "そくしゅう",
+    "senses": [
+      {
+        "sense_id": 266253,
+        "meaning_vi": "phí vào cửa; phí khởi đầu; phí đăng ký; trình bày với giáo viên",
+        "confidence": "high",
+        "search_keywords": [
+          "phí vào cửa",
+          "phí khởi đầu",
+          "phí đăng ký",
+          "trình bày với giáo viên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phí vào cửa; phí khởi đầu; phí đăng ký; trình bày với giáo viên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266254,
+        "meaning_vi": "món quà thịt khô từ một chư hầu hoặc học trò mới",
+        "confidence": "high",
+        "search_keywords": [
+          "món quà thịt khô từ một chư hầu hoặc học trò mới"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "món quà thịt khô từ một chư hầu hoặc học trò mới",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37687,
+    "word": "測候所",
+    "kana": "そっこうじょ",
+    "senses": [
+      {
+        "sense_id": 266255,
+        "meaning_vi": "trạm đo thời tiết",
+        "confidence": "high",
+        "search_keywords": [
+          "trạm đo thời tiết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trạm đo thời tiết",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37688,
+    "word": "測地",
+    "kana": "そくち",
+    "senses": [
+      {
+        "sense_id": 266256,
+        "meaning_vi": "khảo sát trắc địa",
+        "confidence": "high",
+        "search_keywords": [
+          "khảo sát trắc địa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khảo sát trắc địa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37689,
+    "word": "測長機",
+    "kana": "そくちょうき",
+    "senses": [
+      {
+        "sense_id": 266257,
+        "meaning_vi": "máy đo chiều dài",
+        "confidence": "high",
+        "search_keywords": [
+          "máy đo chiều dài"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "máy đo chiều dài",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37690,
+    "word": "測定",
+    "kana": "そくてい",
+    "senses": [
+      {
+        "sense_id": 266258,
+        "meaning_vi": "đo lường",
+        "confidence": "high",
+        "search_keywords": [
+          "đo lường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đo lường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37691,
+    "word": "測度",
+    "kana": "そくど",
+    "senses": [
+      {
+        "sense_id": 266259,
+        "meaning_vi": "đo lường",
+        "confidence": "high",
+        "search_keywords": [
+          "đo lường"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đo lường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37692,
+    "word": "測量",
+    "kana": "そくりょう",
+    "senses": [
+      {
+        "sense_id": 266260,
+        "meaning_vi": "đo lường; khảo sát",
+        "confidence": "high",
+        "search_keywords": [
+          "đo lường",
+          "khảo sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đo lường; khảo sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37693,
+    "word": "測量機械",
+    "kana": "そくりょうきかい",
+    "senses": [
+      {
+        "sense_id": 266261,
+        "meaning_vi": "dụng cụ khảo sát; trình độ của người khảo sát",
+        "confidence": "high",
+        "search_keywords": [
+          "dụng cụ khảo sát",
+          "trình độ của người khảo sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dụng cụ khảo sát; trình độ của người khảo sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37694,
+    "word": "測量技師",
+    "kana": "そくりょうぎし",
+    "senses": [
+      {
+        "sense_id": 266262,
+        "meaning_vi": "người khảo sát; kỹ sư khảo sát",
+        "confidence": "high",
+        "search_keywords": [
+          "người khảo sát",
+          "kỹ sư khảo sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người khảo sát; kỹ sư khảo sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37695,
+    "word": "測量図",
+    "kana": "そくりょうず",
+    "senses": [
+      {
+        "sense_id": 266263,
+        "meaning_vi": "bản đồ khảo sát",
+        "confidence": "high",
+        "search_keywords": [
+          "bản đồ khảo sát"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bản đồ khảo sát",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37696,
+    "word": "足",
+    "kana": "あし",
+    "senses": [
+      {
+        "sense_id": 266264,
+        "meaning_vi": "chân; chân; cánh tay (bạch tuộc, mực...)",
+        "confidence": "high",
+        "search_keywords": [
+          "chân",
+          "cánh tay (bạch tuộc, mực...)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chân; chân; cánh tay (bạch tuộc, mực...)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266265,
+        "meaning_vi": "chân",
+        "confidence": "high",
+        "search_keywords": [
+          "chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chân",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266266,
+        "meaning_vi": "dáng đi",
+        "confidence": "high",
+        "search_keywords": [
+          "dáng đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dáng đi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266267,
+        "meaning_vi": "tốc độ",
+        "confidence": "high",
+        "search_keywords": [
+          "tốc độ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốc độ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266268,
+        "meaning_vi": "gốc dưới của chữ kanji",
+        "confidence": "high",
+        "search_keywords": [
+          "gốc dưới của chữ kanji"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gốc dưới của chữ kanji",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266269,
+        "meaning_vi": "phương tiện vận tải; (của một người) đi xe",
+        "confidence": "high",
+        "search_keywords": [
+          "phương tiện vận tải",
+          "(của một người) đi xe"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phương tiện vận tải; (của một người) đi xe",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266270,
+        "meaning_vi": "tiền bạc; đồng xu",
+        "confidence": "high",
+        "search_keywords": [
+          "tiền bạc",
+          "đồng xu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tiền bạc; đồng xu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37697,
+    "word": "足が出る",
+    "kana": "あしがでる",
+    "senses": [
+      {
+        "sense_id": 266271,
+        "meaning_vi": "vượt quá ngân sách; vượt quá ngân sách; bị thâm hụt; đi vào màu đỏ",
+        "confidence": "high",
+        "search_keywords": [
+          "vượt quá ngân sách",
+          "bị thâm hụt",
+          "đi vào màu đỏ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vượt quá ngân sách; vượt quá ngân sách; bị thâm hụt; đi vào màu đỏ",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266272,
+        "meaning_vi": "có một bí mật được tiết lộ",
+        "confidence": "high",
+        "search_keywords": [
+          "có một bí mật được tiết lộ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có một bí mật được tiết lộ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37698,
+    "word": "足が遅い",
+    "kana": "あしがおそい",
+    "senses": [
+      {
+        "sense_id": 266273,
+        "meaning_vi": "phải chậm chân",
+        "confidence": "high",
+        "search_keywords": [
+          "phải chậm chân"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phải chậm chân",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37699,
+    "word": "足がつく",
+    "kana": "あしがつく",
+    "senses": [
+      {
+        "sense_id": 266274,
+        "meaning_vi": "được truy tìm (của một tên tội phạm); được theo dõi",
+        "confidence": "high",
+        "search_keywords": [
+          "được truy tìm (của một tên tội phạm)",
+          "được theo dõi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được truy tìm (của một tên tội phạm); được theo dõi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 266275,
+        "meaning_vi": "có người yêu (nam)",
+        "confidence": "high",
+        "search_keywords": [
+          "có người yêu (nam)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có người yêu (nam)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37700,
+    "word": "足しになる",
+    "kana": "たしになる",
+    "senses": [
+      {
+        "sense_id": 266276,
+        "meaning_vi": "được giúp đỡ; trở nên hữu ích; đi về phía",
+        "confidence": "high",
+        "search_keywords": [
+          "được giúp đỡ",
+          "trở nên hữu ích",
+          "đi về phía"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được giúp đỡ; trở nên hữu ích; đi về phía",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 37701,
+    "word": "足し算",
+    "kana": "たしざん",
+    "senses": [
+      {
+        "sense_id": 266277,
+        "meaning_vi": "phép cộng",
+        "confidence": "high",
+        "search_keywords": [
+          "phép cộng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phép cộng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

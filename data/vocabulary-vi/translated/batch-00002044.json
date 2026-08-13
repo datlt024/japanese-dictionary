@@ -1,0 +1,606 @@
+[
+  {
+    "vocabulary_id": 53159,
+    "word": "孵す",
+    "kana": "かえす",
+    "senses": [
+      {
+        "sense_id": 286921,
+        "meaning_vi": "nở; để ủ",
+        "confidence": "high",
+        "search_keywords": [
+          "nở",
+          "để ủ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nở; để ủ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53160,
+    "word": "孵化",
+    "kana": "ふか",
+    "senses": [
+      {
+        "sense_id": 286923,
+        "meaning_vi": "ủ bệnh; nở",
+        "confidence": "high",
+        "search_keywords": [
+          "ủ bệnh",
+          "nở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủ bệnh; nở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53161,
+    "word": "孵化器",
+    "kana": "ふかき",
+    "senses": [
+      {
+        "sense_id": 286924,
+        "meaning_vi": "lồng ấp",
+        "confidence": "high",
+        "search_keywords": [
+          "lồng ấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lồng ấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53162,
+    "word": "孵卵",
+    "kana": "ふらん",
+    "senses": [
+      {
+        "sense_id": 286925,
+        "meaning_vi": "ủ bệnh; nở",
+        "confidence": "high",
+        "search_keywords": [
+          "ủ bệnh",
+          "nở"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ủ bệnh; nở",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53163,
+    "word": "孵卵器",
+    "kana": "ふらんき",
+    "senses": [
+      {
+        "sense_id": 286926,
+        "meaning_vi": "lồng ấp",
+        "confidence": "high",
+        "search_keywords": [
+          "lồng ấp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lồng ấp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53164,
+    "word": "宦官",
+    "kana": "かんがん",
+    "senses": [
+      {
+        "sense_id": 286927,
+        "meaning_vi": "hoạn quan",
+        "confidence": "high",
+        "search_keywords": [
+          "hoạn quan"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạn quan",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53165,
+    "word": "尨",
+    "kana": "むく",
+    "senses": [
+      {
+        "sense_id": 286928,
+        "meaning_vi": "tóc xù xì",
+        "confidence": "high",
+        "search_keywords": [
+          "tóc xù xì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tóc xù xì",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286929,
+        "meaning_vi": "con chó xù xì",
+        "confidence": "high",
+        "search_keywords": [
+          "con chó xù xì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con chó xù xì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53166,
+    "word": "むく犬",
+    "kana": "むくいぬ",
+    "senses": [
+      {
+        "sense_id": 286930,
+        "meaning_vi": "con chó xù xì",
+        "confidence": "high",
+        "search_keywords": [
+          "con chó xù xì"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "con chó xù xì",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53167,
+    "word": "むく毛",
+    "kana": "むくげ",
+    "senses": [
+      {
+        "sense_id": 286931,
+        "meaning_vi": "lông bờm xờm (của động vật)",
+        "confidence": "high",
+        "search_keywords": [
+          "lông bờm xờm (của động vật)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lông bờm xờm (của động vật)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286932,
+        "meaning_vi": "tóc tơ; lông tơ",
+        "confidence": "high",
+        "search_keywords": [
+          "tóc tơ",
+          "lông tơ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tóc tơ; lông tơ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53168,
+    "word": "尹",
+    "kana": "いん",
+    "senses": [
+      {
+        "sense_id": 286933,
+        "meaning_vi": "giám đốc (của Văn phòng điều tra và truy tố hoàng gia thời ritsuryō)",
+        "confidence": "high",
+        "search_keywords": [
+          "giám đốc (của Văn phòng điều tra và truy tố hoàng gia thời ritsuryō)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giám đốc (của Văn phòng điều tra và truy tố hoàng gia thời ritsuryō)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53169,
+    "word": "屁と火事はもとから騒ぐ",
+    "kana": "へとかじはもとからさわぐ",
+    "senses": [
+      {
+        "sense_id": 286934,
+        "meaning_vi": "chính người gây ra vấn đề thường là người gây ồn ào hoặc phàn nàn lớn tiếng nhất; người ngửi thấy nó đã xử lý nó",
+        "confidence": "high",
+        "search_keywords": [
+          "chính người gây ra vấn đề thường là người gây ồn ào hoặc phàn nàn lớn tiếng nhất",
+          "người ngửi thấy nó đã xử lý nó"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chính người gây ra vấn đề thường là người gây ồn ào hoặc phàn nàn lớn tiếng nhất; người ngửi thấy nó đã xử lý nó",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53170,
+    "word": "屁をひって尻窄め",
+    "kana": "へをひってしりつぼめ",
+    "senses": [
+      {
+        "sense_id": 286935,
+        "meaning_vi": "đóng cửa chuồng ngựa sau khi ngựa đã chốt cũng vô ích; bóp mông sau khi xì hơi",
+        "confidence": "high",
+        "search_keywords": [
+          "đóng cửa chuồng ngựa sau khi ngựa đã chốt cũng vô ích",
+          "bóp mông sau khi xì hơi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đóng cửa chuồng ngựa sau khi ngựa đã chốt cũng vô ích; bóp mông sau khi xì hơi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53171,
+    "word": "屁理屈",
+    "kana": "へりくつ",
+    "senses": [
+      {
+        "sense_id": 286936,
+        "meaning_vi": "ngụy biện; logic chặt chẽ; lập luận xa vời; không phân minh; cavil; tranh luận vì lý do tranh luận",
+        "confidence": "high",
+        "search_keywords": [
+          "ngụy biện",
+          "logic chặt chẽ",
+          "lập luận xa vời",
+          "không phân minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngụy biện; logic chặt chẽ; lập luận xa vời; không phân minh; cavil; tranh luận vì lý do tranh luận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53172,
+    "word": "し尿",
+    "kana": "しにょう",
+    "senses": [
+      {
+        "sense_id": 286937,
+        "meaning_vi": "chất bài tiết; nước thải thô; chất thải của con người; đất đêm",
+        "confidence": "high",
+        "search_keywords": [
+          "chất bài tiết",
+          "nước thải thô",
+          "chất thải của con người",
+          "đất đêm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chất bài tiết; nước thải thô; chất thải của con người; đất đêm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53173,
+    "word": "屏居",
+    "kana": "へいきょ",
+    "senses": [
+      {
+        "sense_id": 286938,
+        "meaning_vi": "sống khi về hưu",
+        "confidence": "high",
+        "search_keywords": [
+          "sống khi về hưu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sống khi về hưu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53174,
+    "word": "屏息",
+    "kana": "へいそく",
+    "senses": [
+      {
+        "sense_id": 286939,
+        "meaning_vi": "hơi thở dồn dập; bị thu hút vào im lặng",
+        "confidence": "high",
+        "search_keywords": [
+          "hơi thở dồn dập",
+          "bị thu hút vào im lặng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hơi thở dồn dập; bị thu hút vào im lặng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53175,
+    "word": "屏風",
+    "kana": "びょうぶ",
+    "senses": [
+      {
+        "sense_id": 286940,
+        "meaning_vi": "màn hình gập",
+        "confidence": "high",
+        "search_keywords": [
+          "màn hình gập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "màn hình gập",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53176,
+    "word": "屏風岩",
+    "kana": "びょうぶいわ",
+    "senses": [
+      {
+        "sense_id": 286941,
+        "meaning_vi": "vách đá dựng đứng",
+        "confidence": "high",
+        "search_keywords": [
+          "vách đá dựng đứng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vách đá dựng đứng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53177,
+    "word": "嵌める",
+    "kana": "はめる",
+    "senses": [
+      {
+        "sense_id": 286942,
+        "meaning_vi": "để vừa khít (ví dụ: một khung vào một khung); để chèn (ví dụ: nút chai); buộc chặt (một cái nút)",
+        "confidence": "high",
+        "search_keywords": [
+          "để vừa khít (ví dụ: một khung vào một khung)",
+          "để chèn (ví dụ: nút chai)",
+          "buộc chặt (một cái nút)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để vừa khít (ví dụ: một khung vào một khung); để chèn (ví dụ: nút chai); buộc chặt (một cái nút)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286943,
+        "meaning_vi": "đeo vào (thứ gì đó bao bọc, ví dụ: nhẫn, găng tay); đặt (một cái vòng) xung quanh; để gắn (ví dụ: một ống vào một vòi)",
+        "confidence": "high",
+        "search_keywords": [
+          "đeo vào (thứ gì đó bao bọc, ví dụ: nhẫn, găng tay)",
+          "đặt (một cái vòng) xung quanh",
+          "để gắn (ví dụ: một ống vào một vòi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đeo vào (thứ gì đó bao bọc, ví dụ: nhẫn, găng tay); đặt (một cái vòng) xung quanh; để gắn (ví dụ: một ống vào một vòi)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286944,
+        "meaning_vi": "vào chuồng bồ câu (vào một danh mục cụ thể); ép (vào khuôn); đặt ra (hạn chế) trên",
+        "confidence": "high",
+        "search_keywords": [
+          "vào chuồng bồ câu (vào một danh mục cụ thể)",
+          "ép (vào khuôn)",
+          "đặt ra (hạn chế) trên"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vào chuồng bồ câu (vào một danh mục cụ thể); ép (vào khuôn); đặt ra (hạn chế) trên",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286945,
+        "meaning_vi": "để bẫy; đưa (ai đó) vào; để thiết lập (ai đó) lên; lừa dối",
+        "confidence": "high",
+        "search_keywords": [
+          "để bẫy",
+          "đưa (ai đó) vào",
+          "để thiết lập (ai đó) lên",
+          "lừa dối"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bẫy; đưa (ai đó) vào; để thiết lập (ai đó) lên; lừa dối",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286946,
+        "meaning_vi": "ném vào",
+        "confidence": "high",
+        "search_keywords": [
+          "ném vào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ném vào",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286947,
+        "meaning_vi": "quan hệ tình dục; làm tình",
+        "confidence": "high",
+        "search_keywords": [
+          "quan hệ tình dục",
+          "làm tình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan hệ tình dục; làm tình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 53178,
+    "word": "はめ込む",
+    "kana": "はめこむ",
+    "senses": [
+      {
+        "sense_id": 286948,
+        "meaning_vi": "để vừa khít (ví dụ: một khung vào một khung); để đặt (ví dụ: một viên kim cương); khảm; để chèn",
+        "confidence": "high",
+        "search_keywords": [
+          "để vừa khít (ví dụ: một khung vào một khung)",
+          "để đặt (ví dụ: một viên kim cương)",
+          "khảm",
+          "để chèn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để vừa khít (ví dụ: một khung vào một khung); để đặt (ví dụ: một viên kim cương); khảm; để chèn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286949,
+        "meaning_vi": "để cắm vào (vào một công thức)",
+        "confidence": "high",
+        "search_keywords": [
+          "để cắm vào (vào một công thức)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để cắm vào (vào một công thức)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 286950,
+        "meaning_vi": "để bẫy; đưa (ai đó) vào; lừa dối; lừa",
+        "confidence": "high",
+        "search_keywords": [
+          "để bẫy",
+          "đưa (ai đó) vào",
+          "lừa dối",
+          "lừa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bẫy; đưa (ai đó) vào; lừa dối; lừa",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

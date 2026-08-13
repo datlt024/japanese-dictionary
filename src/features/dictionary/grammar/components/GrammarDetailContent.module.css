@@ -4,26 +4,6 @@
 }
 
 .grammarDetailLayout {
-    --bg-card: #ffffff;
-    --bg-soft: #ffffff;
-
-    --border-color: #eceef2;
-    --border-strong: #e5eaf2;
-
-    --text-primary: #15213a;
-    --text-secondary: #6b7280;
-    --text-muted: #9ca3af;
-
-    --primary: #2563eb;
-    --primary-dark: #142957;
-    --primary-soft: #edf4ff;
-
-    --success: #16a34a;
-    --success-soft: #ecfdf3;
-
-    --danger: #ef4444;
-    --danger-soft: #ffe8e8;
-
     display: grid;
     grid-template-columns: minmax(0, 1fr) 430px;
     gap: 24px;
@@ -57,10 +37,10 @@
 .section {
     padding: 20px 24px;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 18px;
 
-    background: var(--bg-card);
+    background: var(--color-surface);
 
     box-shadow: 0 1px 2px rgba(0, 0, 0, .03);
 }
@@ -83,8 +63,8 @@
 
     border-radius: 999px;
 
-    background: var(--primary-soft);
-    color: var(--primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
 
     font-size: 14px;
     font-weight: 900;
@@ -93,7 +73,7 @@
 .sectionTitleRow h2 {
     margin: 0;
 
-    color: var(--text-primary);
+    color: var(--color-text-primary);
 
     font-size: 20px;
     line-height: 1.35;
@@ -103,11 +83,11 @@
 .stateCard {
     padding: 32px;
 
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--color-border);
     border-radius: 18px;
 
-    background: var(--bg-card);
-    color: var(--text-secondary);
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
 
     text-align: center;
 }

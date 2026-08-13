@@ -1,386 +1,879 @@
 [
-{
-"vocabulary_id": 1138,
-"word": "遣る",
-"kana": "やる",
-"senses": [
-{
-"sense_id": 219166,
-"meaning_vi": "làm",
-"confidence": "high",
-"search_keywords": [
-"làm",
-"thực hiện",
-"chơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làm; thực hiện; chơi; học",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219167,
-"meaning_vi": "gửi đi",
-"confidence": "high",
-"search_keywords": [
-"gửi",
-"phái đi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "gửi đi; điều động",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219168,
-"meaning_vi": "dịch chuyển",
-"confidence": "high",
-"search_keywords": [
-"di chuyển",
-"xoay sang"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đặt; di chuyển; hướng sang",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219169,
-"meaning_vi": "cho",
-"confidence": "high",
-"search_keywords": [
-"cho",
-"tặng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cho; tặng người ngang hàng hoặc bề dưới",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219170,
-"meaning_vi": "tăng tốc",
-"confidence": "high",
-"search_keywords": [
-"tăng tốc",
-"chạy nhanh hơn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làm cho xe chạy nhanh hơn",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219171,
-"meaning_vi": "điều hành",
-"confidence": "high",
-"search_keywords": [
-"điều hành",
-"kinh doanh"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "điều hành công việc; hành nghề",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219172,
-"meaning_vi": "dùng",
-"confidence": "high",
-"search_keywords": [
-"ăn",
-"uống",
-"hút thuốc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ăn; uống; hút thuốc",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219173,
-"meaning_vi": "biểu diễn",
-"confidence": "high",
-"search_keywords": [
-"biểu diễn",
-"tổ chức"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "tổ chức hoặc biểu diễn tiết mục",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219174,
-"meaning_vi": "giải khuây",
-"confidence": "high",
-"search_keywords": [
-"giải tỏa",
-"giải khuây"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làm dịu hoặc giải tỏa tâm trạng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219175,
-"meaning_vi": "hạ gục",
-"confidence": "high",
-"search_keywords": [
-"giết",
-"làm hại",
-"hạ gục"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làm hại; giết; hạ gục (khẩu ngữ)",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219176,
-"meaning_vi": "quan hệ tình dục",
-"confidence": "high",
-"search_keywords": [
-"quan hệ tình dục",
-"địt",
-"làm tình"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "quan hệ tình dục (thô tục, tiếng lóng)",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219177,
-"meaning_vi": "sống qua ngày",
-"confidence": "high",
-"search_keywords": [
-"sống",
-"xoay xở"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "sống; xoay xở để tồn tại",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219178,
-"meaning_vi": "làm hết",
-"confidence": "high",
-"search_keywords": [
-"làm xong",
-"làm hết"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làm hoàn toàn; làm cho xong",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219179,
-"meaning_vi": "làm rộng khắp",
-"confidence": "medium",
-"search_keywords": [
-"lan rộng",
-"làm xa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thực hiện trên phạm vi rộng hoặc xa",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219180,
-"meaning_vi": "làm cho",
-"confidence": "high",
-"search_keywords": [
-"làm giúp",
-"làm cho"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "làm cho hoặc làm giúp người ngang hàng hay bề dưới",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219181,
-"meaning_vi": "cố gắng làm",
-"confidence": "high",
-"search_keywords": [
-"nỗ lực",
-"cố làm"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "chủ động cố gắng thực hiện",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1139,
-"word": "やれ",
-"kana": "やれ",
-"senses": [
-{
-"sense_id": 219182,
-"meaning_vi": "ôi chao",
-"confidence": "high",
-"search_keywords": [
-"ôi chao",
-"trời ơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ôi chao; trời ơi; may quá",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1140,
-"word": "やれやれ",
-"kana": "やれやれ",
-"senses": [
-{
-"sense_id": 219183,
-"meaning_vi": "ôi trời",
-"confidence": "high",
-"search_keywords": [
-"ôi trời",
-"may quá"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ôi trời; trời đất ơi; cuối cùng cũng xong",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 1141,
-"word": "やんちゃ",
-"kana": "やんちゃ",
-"senses": [
-{
-"sense_id": 219184,
-"meaning_vi": "nghịch ngợm",
-"confidence": "high",
-"search_keywords": [
-"nghịch ngợm",
-"quậy phá"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nghịch ngợm; bướng bỉnh; hoang dã",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219185,
-"meaning_vi": "đứa trẻ quậy phá",
-"confidence": "high",
-"search_keywords": [
-"trẻ hư",
-"quỷ nhỏ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "đứa trẻ nghịch ngợm hoặc khó bảo",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219186,
-"meaning_vi": "hư hỏng",
-"confidence": "high",
-"search_keywords": [
-"sa ngã",
-"hư hỏng"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "hành vi lệch lạc; quậy phá (khẩu ngữ)",
-"examples": []
-}
-]
-},
-{
-"sense_id": 219187,
-"meaning_vi": "nổi bật táo bạo",
-"confidence": "high",
-"search_keywords": [
-"táo bạo",
-"sành điệu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phong cách nổi bật, táo bạo",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 1138,
+    "word": "遣る",
+    "kana": "やる",
+    "senses": [
+      {
+        "sense_id": 219166,
+        "meaning_vi": "làm ; đảm nhận; để thực hiện; chơi (một trò chơi); học",
+        "confidence": "high",
+        "search_keywords": [
+          "làm",
+          "đảm nhận",
+          "để thực hiện",
+          "chơi (một trò chơi)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ; đảm nhận; để thực hiện; chơi (một trò chơi); học",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219167,
+        "meaning_vi": "gửi; gửi đi; gửi đi",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi",
+          "gửi đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi; gửi đi; gửi đi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219168,
+        "meaning_vi": "đặt ; di chuyển; quay lại (đầu, liếc nhìn, v.v.)",
+        "confidence": "high",
+        "search_keywords": [
+          "đặt",
+          "di chuyển",
+          "quay lại (đầu, liếc nhìn, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đặt ; di chuyển; quay lại (đầu, liếc nhìn, v.v.)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219169,
+        "meaning_vi": "đưa (đặc biệt cho người có địa vị ngang bằng hoặc thấp hơn); để có; trình bày; ban cho ; trao tặng",
+        "confidence": "high",
+        "search_keywords": [
+          "đưa (đặc biệt cho người có địa vị ngang bằng hoặc thấp hơn)",
+          "để có",
+          "trình bày",
+          "ban cho"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đưa (đặc biệt cho người có địa vị ngang bằng hoặc thấp hơn); để có; trình bày; ban cho ; trao tặng",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219170,
+        "meaning_vi": "làm cho (một phương tiện) đi nhanh hơn",
+        "confidence": "high",
+        "search_keywords": [
+          "làm cho (một phương tiện) đi nhanh hơn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm cho (một phương tiện) đi nhanh hơn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219171,
+        "meaning_vi": "để điều hành (một doanh nghiệp); giữ ; được tham gia vào; để hành nghề (luật, y học, v.v.); luyện tập",
+        "confidence": "high",
+        "search_keywords": [
+          "để điều hành (một doanh nghiệp)",
+          "giữ",
+          "được tham gia vào",
+          "để hành nghề (luật, y học, v.v.)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để điều hành (một doanh nghiệp); giữ ; được tham gia vào; để hành nghề (luật, y học, v.v.); luyện tập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219172,
+        "meaning_vi": "có (thức ăn, đồ uống, v.v.); ăn; uống; hút thuốc",
+        "confidence": "high",
+        "search_keywords": [
+          "có (thức ăn, đồ uống, v.v.)",
+          "ăn",
+          "uống",
+          "hút thuốc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "có (thức ăn, đồ uống, v.v.); ăn; uống; hút thuốc",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219173,
+        "meaning_vi": "tổ chức (một buổi biểu diễn); để thực hiện; để hiển thị",
+        "confidence": "high",
+        "search_keywords": [
+          "tổ chức (một buổi biểu diễn)",
+          "để thực hiện",
+          "để hiển thị"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tổ chức (một buổi biểu diễn); để thực hiện; để hiển thị",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219174,
+        "meaning_vi": "làm dịu (tâm trí của một người)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm dịu (tâm trí của một người)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm dịu (tâm trí của một người)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219175,
+        "meaning_vi": "làm hại ; làm bị thương; giết",
+        "confidence": "high",
+        "search_keywords": [
+          "làm hại",
+          "làm bị thương",
+          "giết"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm hại ; làm bị thương; giết",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219176,
+        "meaning_vi": "quan hệ tình dục; làm tình; đập",
+        "confidence": "high",
+        "search_keywords": [
+          "quan hệ tình dục",
+          "làm tình",
+          "đập"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "quan hệ tình dục; làm tình; đập",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219177,
+        "meaning_vi": "sống; để vượt qua; để hòa hợp",
+        "confidence": "high",
+        "search_keywords": [
+          "sống",
+          "để vượt qua",
+          "để hòa hợp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sống; để vượt qua; để hòa hợp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219178,
+        "meaning_vi": "làm... hoàn toàn",
+        "confidence": "high",
+        "search_keywords": [
+          "làm... hoàn toàn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm... hoàn toàn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219179,
+        "meaning_vi": "làm... rộng rãi; làm ... đến một khoảng cách rất xa",
+        "confidence": "high",
+        "search_keywords": [
+          "làm... rộng rãi",
+          "làm ... đến một khoảng cách rất xa"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm... rộng rãi; làm ... đến một khoảng cách rất xa",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219180,
+        "meaning_vi": "làm... cho (người có địa vị ngang bằng hoặc thấp hơn); làm ... để",
+        "confidence": "high",
+        "search_keywords": [
+          "làm... cho (người có địa vị ngang bằng hoặc thấp hơn)",
+          "làm ... để"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm... cho (người có địa vị ngang bằng hoặc thấp hơn); làm ... để",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219181,
+        "meaning_vi": "nỗ lực tích cực để...",
+        "confidence": "high",
+        "search_keywords": [
+          "nỗ lực tích cực để..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nỗ lực tích cực để...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1139,
+    "word": "やれ",
+    "kana": "やれ",
+    "senses": [
+      {
+        "sense_id": 219182,
+        "meaning_vi": "Ồ!; à!; ôi trời ơi!; thân yêu của tôi!; cảm ơn Chúa!",
+        "confidence": "high",
+        "search_keywords": [
+          "Ồ!",
+          "à!",
+          "ôi trời ơi!",
+          "thân yêu của tôi!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ồ!; à!; ôi trời ơi!; thân yêu của tôi!; cảm ơn Chúa!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1140,
+    "word": "やれやれ",
+    "kana": "やれやれ",
+    "senses": [
+      {
+        "sense_id": 219183,
+        "meaning_vi": "Ồ!; à!; ôi trời ơi!; thật đau buồn!; thân yêu của tôi!; cảm ơn Chúa!",
+        "confidence": "high",
+        "search_keywords": [
+          "Ồ!",
+          "à!",
+          "ôi trời ơi!",
+          "thật đau buồn!"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Ồ!; à!; ôi trời ơi!; thật đau buồn!; thân yêu của tôi!; cảm ơn Chúa!",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1141,
+    "word": "やんちゃ",
+    "kana": "やんちゃ",
+    "senses": [
+      {
+        "sense_id": 219184,
+        "meaning_vi": "nghịch ngợm; tinh nghịch; ngỗ ngược; hoang dã",
+        "confidence": "high",
+        "search_keywords": [
+          "nghịch ngợm",
+          "tinh nghịch",
+          "ngỗ ngược",
+          "hoang dã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nghịch ngợm; tinh nghịch; ngỗ ngược; hoang dã",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219185,
+        "meaning_vi": "bất lương; đứa trẻ nghịch ngợm",
+        "confidence": "high",
+        "search_keywords": [
+          "bất lương",
+          "đứa trẻ nghịch ngợm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất lương; đứa trẻ nghịch ngợm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219186,
+        "meaning_vi": "phạm pháp; hành vi sai trái; đi chệch khỏi con đường đúng đắn",
+        "confidence": "high",
+        "search_keywords": [
+          "phạm pháp",
+          "hành vi sai trái",
+          "đi chệch khỏi con đường đúng đắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phạm pháp; hành vi sai trái; đi chệch khỏi con đường đúng đắn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219187,
+        "meaning_vi": "đậm (ví dụ: một bộ trang phục); táo bạo; táo bạo; lòe loẹt",
+        "confidence": "high",
+        "search_keywords": [
+          "đậm (ví dụ: một bộ trang phục)",
+          "táo bạo",
+          "lòe loẹt"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đậm (ví dụ: một bộ trang phục); táo bạo; táo bạo; lòe loẹt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1142,
+    "word": "柔んわり",
+    "kana": "やんわり",
+    "senses": [
+      {
+        "sense_id": 219188,
+        "meaning_vi": "nhẹ nhàng; nhẹ nhàng; nhẹ nhàng; lịch sự",
+        "confidence": "high",
+        "search_keywords": [
+          "nhẹ nhàng",
+          "lịch sự"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhẹ nhàng; nhẹ nhàng; nhẹ nhàng; lịch sự",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1143,
+    "word": "縁",
+    "kana": "ゆかり",
+    "senses": [
+      {
+        "sense_id": 219189,
+        "meaning_vi": "kết nối (với một người, địa điểm, v.v.); mối quan hệ; mối quan hệ",
+        "confidence": "high",
+        "search_keywords": [
+          "kết nối (với một người, địa điểm, v.v.)",
+          "mối quan hệ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kết nối (với một người, địa điểm, v.v.); mối quan hệ; mối quan hệ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1144,
+    "word": "ゆさゆさ",
+    "kana": "ゆさゆさ",
+    "senses": [
+      {
+        "sense_id": 219190,
+        "meaning_vi": "lắc lư (với chuyển động chậm lớn); lắc lư",
+        "confidence": "high",
+        "search_keywords": [
+          "lắc lư (với chuyển động chậm lớn)",
+          "lắc lư"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lắc lư (với chuyển động chậm lớn); lắc lư",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1145,
+    "word": "ゆっくり",
+    "kana": "ゆっくり",
+    "senses": [
+      {
+        "sense_id": 219191,
+        "meaning_vi": "chậm; một cách nhàn nhã; không vội vàng; nhàn nhã; lúc rảnh rỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "chậm",
+          "một cách nhàn nhã",
+          "không vội vàng",
+          "nhàn nhã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chậm; một cách nhàn nhã; không vội vàng; nhàn nhã; lúc rảnh rỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219192,
+        "meaning_vi": "dễ dàng (ví dụ: kịp thời); Tốt; đủ; bộ khuếch đại; với thời gian rảnh rỗi",
+        "confidence": "high",
+        "search_keywords": [
+          "dễ dàng (ví dụ: kịp thời)",
+          "Tốt",
+          "đủ",
+          "bộ khuếch đại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dễ dàng (ví dụ: kịp thời); Tốt; đủ; bộ khuếch đại; với thời gian rảnh rỗi",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219193,
+        "meaning_vi": "tốt (ví dụ: ngủ); thoải mái",
+        "confidence": "high",
+        "search_keywords": [
+          "tốt (ví dụ: ngủ)",
+          "thoải mái"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "tốt (ví dụ: ngủ); thoải mái",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1146,
+    "word": "ゆとり",
+    "kana": "ゆとり",
+    "senses": [
+      {
+        "sense_id": 219194,
+        "meaning_vi": "phòng khuỷu tay; mất thời gian; phòng; dự trữ; lề; trợ cấp; vĩ độ; thời gian (rảnh rỗi)",
+        "confidence": "high",
+        "search_keywords": [
+          "phòng khuỷu tay",
+          "mất thời gian",
+          "phòng",
+          "dự trữ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "phòng khuỷu tay; mất thời gian; phòng; dự trữ; lề; trợ cấp; vĩ độ; thời gian (rảnh rỗi)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1147,
+    "word": "揺ら揺ら",
+    "kana": "ゆらゆら",
+    "senses": [
+      {
+        "sense_id": 219195,
+        "meaning_vi": "lắc lư; đu đưa; lắc lư; rung chuyển; dao động; nhấp nháy",
+        "confidence": "high",
+        "search_keywords": [
+          "lắc lư",
+          "đu đưa",
+          "rung chuyển",
+          "dao động"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lắc lư; đu đưa; lắc lư; rung chuyển; dao động; nhấp nháy",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1148,
+    "word": "緩々",
+    "kana": "ゆるゆる",
+    "senses": [
+      {
+        "sense_id": 219196,
+        "meaning_vi": "rất lỏng lẻo; chậm; nhàn nhã",
+        "confidence": "high",
+        "search_keywords": [
+          "rất lỏng lẻo",
+          "chậm",
+          "nhàn nhã"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất lỏng lẻo; chậm; nhàn nhã",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1149,
+    "word": "ようこそ",
+    "kana": "ようこそ",
+    "senses": [
+      {
+        "sense_id": 219197,
+        "meaning_vi": "chào mừng",
+        "confidence": "high",
+        "search_keywords": [
+          "chào mừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chào mừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1150,
+    "word": "様に",
+    "kana": "ように",
+    "senses": [
+      {
+        "sense_id": 219198,
+        "meaning_vi": "giống; như",
+        "confidence": "high",
+        "search_keywords": [
+          "giống",
+          "như"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giống; như",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219199,
+        "meaning_vi": "để có thể; để mà; vậy là ; để",
+        "confidence": "high",
+        "search_keywords": [
+          "để có thể",
+          "để mà",
+          "vậy là",
+          "để"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để có thể; để mà; vậy là ; để",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219200,
+        "meaning_vi": "hãy chắc chắn",
+        "confidence": "high",
+        "search_keywords": [
+          "hãy chắc chắn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hãy chắc chắn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219201,
+        "meaning_vi": "Tôi hy vọng (điều đó); tôi cầu nguyện (rằng); tháng năm",
+        "confidence": "high",
+        "search_keywords": [
+          "Tôi hy vọng (điều đó)",
+          "tôi cầu nguyện (rằng)",
+          "tháng năm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "Tôi hy vọng (điều đó); tôi cầu nguyện (rằng); tháng năm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1151,
+    "word": "様にする",
+    "kana": "ようにする",
+    "senses": [
+      {
+        "sense_id": 219202,
+        "meaning_vi": "để thấy điều đó ...; để đảm bảo rằng ...; cố gắng ...; để nỗ lực...",
+        "confidence": "high",
+        "search_keywords": [
+          "để thấy điều đó ...",
+          "để đảm bảo rằng ...",
+          "cố gắng ...",
+          "để nỗ lực..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để thấy điều đó ...; để đảm bảo rằng ...; cố gắng ...; để nỗ lực...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1152,
+    "word": "様になる",
+    "kana": "ようになる",
+    "senses": [
+      {
+        "sense_id": 219203,
+        "meaning_vi": "đạt đến điểm ...; đến ...; trở thành cái đó...; để bắt đầu ...; để bắt đầu...",
+        "confidence": "high",
+        "search_keywords": [
+          "đạt đến điểm ...",
+          "đến ...",
+          "trở thành cái đó...",
+          "để bắt đầu ..."
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đạt đến điểm ...; đến ...; trở thành cái đó...; để bắt đầu ...; để bắt đầu...",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1153,
+    "word": "寄越す",
+    "kana": "よこす",
+    "senses": [
+      {
+        "sense_id": 219204,
+        "meaning_vi": "gửi; chuyển tiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "gửi",
+          "chuyển tiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gửi; chuyển tiếp",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 219205,
+        "meaning_vi": "để bàn giao (ví dụ: tiền)",
+        "confidence": "high",
+        "search_keywords": [
+          "để bàn giao (ví dụ: tiền)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để bàn giao (ví dụ: tiền)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1154,
+    "word": "縦しんば",
+    "kana": "よしんば",
+    "senses": [
+      {
+        "sense_id": 219206,
+        "meaning_vi": "ngay cả khi; mặc dù; nếu",
+        "confidence": "high",
+        "search_keywords": [
+          "ngay cả khi",
+          "mặc dù",
+          "nếu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngay cả khi; mặc dù; nếu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1155,
+    "word": "涎",
+    "kana": "よだれ",
+    "senses": [
+      {
+        "sense_id": 219207,
+        "meaning_vi": "chảy dãi",
+        "confidence": "high",
+        "search_keywords": [
+          "chảy dãi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chảy dãi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1156,
+    "word": "よちよち",
+    "kana": "よちよち",
+    "senses": [
+      {
+        "sense_id": 219208,
+        "meaning_vi": "chao đảo ; với những bước đi loạng choạng; trẻ mới biết đi",
+        "confidence": "high",
+        "search_keywords": [
+          "chao đảo",
+          "với những bước đi loạng choạng",
+          "trẻ mới biết đi"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chao đảo ; với những bước đi loạng choạng; trẻ mới biết đi",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 1157,
+    "word": "よぼよぼ",
+    "kana": "よぼよぼ",
+    "senses": [
+      {
+        "sense_id": 219209,
+        "meaning_vi": "lung lay; lung lay; không ổn định; run; suy sụp; ốm yếu; yếu đuối; yếu ớt",
+        "confidence": "high",
+        "search_keywords": [
+          "lung lay",
+          "không ổn định",
+          "run",
+          "suy sụp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lung lay; lung lay; không ổn định; run; suy sụp; ốm yếu; yếu đuối; yếu ớt",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]

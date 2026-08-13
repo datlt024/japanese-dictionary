@@ -1,0 +1,444 @@
+[
+  {
+    "vocabulary_id": 124247,
+    "word": "手動機能",
+    "kana": "しゅどうきのう",
+    "senses": [
+      {
+        "sense_id": 367875,
+        "meaning_vi": "chức năng thủ công",
+        "confidence": "high",
+        "search_keywords": [
+          "chức năng thủ công"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chức năng thủ công",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124248,
+    "word": "手動呼出し",
+    "kana": "しゅどうよびだし",
+    "senses": [
+      {
+        "sense_id": 367876,
+        "meaning_vi": "gọi thủ công (ví dụ: trong mạng dữ liệu)",
+        "confidence": "high",
+        "search_keywords": [
+          "gọi thủ công (ví dụ: trong mạng dữ liệu)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "gọi thủ công (ví dụ: trong mạng dữ liệu)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124249,
+    "word": "受け側ドライブ",
+    "kana": "うけがわドライブ",
+    "senses": [
+      {
+        "sense_id": 367877,
+        "meaning_vi": "ổ đĩa đích",
+        "confidence": "high",
+        "search_keywords": [
+          "ổ đĩa đích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ổ đĩa đích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124250,
+    "word": "受け入れ機能",
+    "kana": "うけいれきのう",
+    "senses": [
+      {
+        "sense_id": 367878,
+        "meaning_vi": "hàm chấp nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "hàm chấp nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hàm chấp nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124251,
+    "word": "受け入れ検査",
+    "kana": "うけいれけんさ",
+    "senses": [
+      {
+        "sense_id": 367879,
+        "meaning_vi": "kiểm tra chấp nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra chấp nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra chấp nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124252,
+    "word": "受信アンテナ",
+    "kana": "じゅしんアンテナ",
+    "senses": [
+      {
+        "sense_id": 367880,
+        "meaning_vi": "anten thu",
+        "confidence": "high",
+        "search_keywords": [
+          "anten thu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "anten thu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124253,
+    "word": "受信バッファ",
+    "kana": "じゅしんバッファ",
+    "senses": [
+      {
+        "sense_id": 367881,
+        "meaning_vi": "nhận bộ đệm",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận bộ đệm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận bộ đệm",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124254,
+    "word": "受信相手",
+    "kana": "じゅしんあいて",
+    "senses": [
+      {
+        "sense_id": 367882,
+        "meaning_vi": "người nhận (của email, ví dụ)",
+        "confidence": "high",
+        "search_keywords": [
+          "người nhận (của email, ví dụ)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người nhận (của email, ví dụ)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124255,
+    "word": "受信側ＳＰＭ",
+    "kana": "じゅしんがわエスピーエム",
+    "senses": [
+      {
+        "sense_id": 367883,
+        "meaning_vi": "nhận SPM",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận SPM"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận SPM",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124256,
+    "word": "受信側ＳＳ利用者",
+    "kana": "じゅしんがわエスエスりようしゃ",
+    "senses": [
+      {
+        "sense_id": 367884,
+        "meaning_vi": "nhận người dùng SS",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận người dùng SS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận người dùng SS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124257,
+    "word": "受信側ＴＳ利用者",
+    "kana": "じゅしんがわティーエスりようしゃ",
+    "senses": [
+      {
+        "sense_id": 367885,
+        "meaning_vi": "nhận người dùng TS",
+        "confidence": "high",
+        "search_keywords": [
+          "nhận người dùng TS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhận người dùng TS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124258,
+    "word": "受信側エンティティ",
+    "kana": "じゅしんがわエンティティ",
+    "senses": [
+      {
+        "sense_id": 367886,
+        "meaning_vi": "đơn vị tiếp nhận; người nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị tiếp nhận",
+          "người nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị tiếp nhận; người nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124259,
+    "word": "受信側トランスポートエンティティ",
+    "kana": "じゅしんがわトランスポートエンティティ",
+    "senses": [
+      {
+        "sense_id": 367887,
+        "meaning_vi": "đơn vị vận tải tiếp nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "đơn vị vận tải tiếp nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đơn vị vận tải tiếp nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124260,
+    "word": "受信通知",
+    "kana": "じゅしんつうち",
+    "senses": [
+      {
+        "sense_id": 367888,
+        "meaning_vi": "sự thừa nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "sự thừa nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "sự thừa nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124261,
+    "word": "受信通知要求表示",
+    "kana": "じゅしんつうちようきゅうひょうじ",
+    "senses": [
+      {
+        "sense_id": 367889,
+        "meaning_vi": "chỉ báo yêu cầu thông báo nhận",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo yêu cầu thông báo nhận"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo yêu cầu thông báo nhận",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124262,
+    "word": "受信不能通知要求表示",
+    "kana": "じゅしんふのうつうちようきゅうひょうじ",
+    "senses": [
+      {
+        "sense_id": 367890,
+        "meaning_vi": "chỉ báo yêu cầu thông báo không nhận được",
+        "confidence": "high",
+        "search_keywords": [
+          "chỉ báo yêu cầu thông báo không nhận được"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chỉ báo yêu cầu thông báo không nhận được",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124263,
+    "word": "受諾側",
+    "kana": "じゅだくがわ",
+    "senses": [
+      {
+        "sense_id": 367891,
+        "meaning_vi": "người chấp nhận; chấp nhận người dùng SS",
+        "confidence": "high",
+        "search_keywords": [
+          "người chấp nhận",
+          "chấp nhận người dùng SS"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người chấp nhận; chấp nhận người dùng SS",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124264,
+    "word": "受諾側アソシエーション制御プロトコル機械",
+    "kana": "じゅだくがわアソシエーションせいぎょプロトコルきかい",
+    "senses": [
+      {
+        "sense_id": 367892,
+        "meaning_vi": "chấp nhận Máy giao thức điều khiển hiệp hội",
+        "confidence": "high",
+        "search_keywords": [
+          "chấp nhận Máy giao thức điều khiển hiệp hội"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chấp nhận Máy giao thức điều khiển hiệp hội",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124265,
+    "word": "受渡し検査",
+    "kana": "うけわたしけんさ",
+    "senses": [
+      {
+        "sense_id": 367893,
+        "meaning_vi": "kiểm tra giao hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra giao hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra giao hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 124266,
+    "word": "受渡し試験",
+    "kana": "うけわたししけん",
+    "senses": [
+      {
+        "sense_id": 367894,
+        "meaning_vi": "kiểm tra giao hàng",
+        "confidence": "high",
+        "search_keywords": [
+          "kiểm tra giao hàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "kiểm tra giao hàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,425 @@
+.page {
+    padding: 32px 0 64px;
+}
+
+/* ── Tab bar ─────────────────────────────────────────── */
+
+.tabBar {
+    display: flex;
+    gap: 2px;
+
+    margin-bottom: 28px;
+    padding-bottom: 0;
+
+    border-bottom: 1.5px solid var(--color-border);
+
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.tabBar::-webkit-scrollbar {
+    display: none;
+}
+
+.tabItem {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    padding: 10px 16px;
+    margin-bottom: -1.5px;
+
+    border-bottom: 2.5px solid transparent;
+    border-radius: 0;
+
+    color: var(--color-text-secondary);
+
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+
+    transition: color 0.15s;
+}
+
+.tabItem:hover {
+    color: var(--color-text-primary);
+}
+
+.tabItem[data-active] {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+}
+
+/* ── Tab content ─────────────────────────────────────── */
+
+.tabContent {
+    /* intentionally no padding — each section manages its own */
+}
+
+/* ── Khám phá section ────────────────────────────────── */
+
+.sectionEyebrow {
+    margin: 0 0 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.levelGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+}
+
+.levelCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 20px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 18px;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.levelCard:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 4px 16px rgba(37, 99, 235, 0.1);
+    transform: translateY(-2px);
+}
+
+.levelBadge {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--color-primary);
+}
+
+.levelCard[data-level="N5"] .levelBadge { color: #16a34a; }
+.levelCard[data-level="N4"] .levelBadge { color: #2563eb; }
+.levelCard[data-level="N3"] .levelBadge { color: #7c3aed; }
+.levelCard[data-level="N2"] .levelBadge { color: #d97706; }
+.levelCard[data-level="N1"] .levelBadge { color: #ef4444; }
+
+.levelCard[data-level="N5"]:hover { border-color: #16a34a; box-shadow: 0 4px 16px rgba(22,163,74,0.1); }
+.levelCard[data-level="N4"]:hover { border-color: #2563eb; box-shadow: 0 4px 16px rgba(37,99,235,0.1); }
+.levelCard[data-level="N3"]:hover { border-color: #7c3aed; box-shadow: 0 4px 16px rgba(124,58,237,0.1); }
+.levelCard[data-level="N2"]:hover { border-color: #d97706; box-shadow: 0 4px 16px rgba(217,119,6,0.1); }
+.levelCard[data-level="N1"]:hover { border-color: #ef4444; box-shadow: 0 4px 16px rgba(239,68,68,0.1); }
+
+.levelDesc {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    line-height: 1.55;
+    flex: 1;
+}
+
+.levelMeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.wordCount {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+}
+
+.startLabel {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-primary);
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.levelCard[data-level="N5"] .startLabel { color: #16a34a; }
+.levelCard[data-level="N4"] .startLabel { color: #2563eb; }
+.levelCard[data-level="N3"] .startLabel { color: #7c3aed; }
+.levelCard[data-level="N2"] .startLabel { color: #d97706; }
+.levelCard[data-level="N1"] .startLabel { color: #ef4444; }
+
+.levelCard:hover .startLabel { opacity: 1; }
+
+/* ── Category grid (3-column: từ vựng / ngữ pháp / hán tự) ── */
+
+.categoryGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.categoryCard {
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.categoryHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 20px;
+    border-bottom: 1.5px solid var(--color-border);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    background: var(--color-bg);
+}
+
+.levelRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-border);
+    transition: background 0.12s;
+}
+
+.levelRow:last-child {
+    border-bottom: none;
+}
+
+.levelRow:hover {
+    background: var(--color-bg);
+}
+
+.levelTag {
+    font-size: 13px;
+    font-weight: 800;
+    min-width: 28px;
+    color: var(--color-text-secondary);
+}
+
+.levelRow[data-level="N5"] .levelTag { color: #16a34a; }
+.levelRow[data-level="N4"] .levelTag { color: #2563eb; }
+.levelRow[data-level="N3"] .levelTag { color: #7c3aed; }
+.levelRow[data-level="N2"] .levelTag { color: #d97706; }
+.levelRow[data-level="N1"] .levelTag { color: #ef4444; }
+
+.levelRowCount {
+    flex: 1;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+.levelRowArrow {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    opacity: 0;
+    transition: opacity 0.12s;
+}
+
+.levelRow:hover .levelRowArrow {
+    opacity: 1;
+}
+
+/* ── Exam grid (thi-thu tab) ─────────────────────────── */
+
+.examBackBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    transition: color 0.15s;
+}
+.examBackBtn:hover { color: var(--color-text-primary); }
+
+.examGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+}
+
+.examVariantGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    max-width: 560px;
+}
+
+.examVariantCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 28px 24px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 18px;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+.examVariantCard:hover { transform: translateY(-2px); }
+
+.examVariantCard[data-level="N5"]:hover { border-color: #16a34a; box-shadow: 0 4px 16px rgba(22,163,74,0.1); }
+
+.examVariantLabel {
+    font-size: 22px;
+    font-weight: 900;
+    color: var(--color-primary);
+}
+.examVariantCard[data-level="N5"] .examVariantLabel { color: #16a34a; }
+.examVariantCard[data-level="N5"] .examStart       { color: #16a34a; }
+.examVariantCard:hover .examStart { opacity: 1; }
+
+.examCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 20px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.examCard:hover { transform: translateY(-2px); }
+
+.examCard[data-level="N5"]:hover { border-color: #16a34a; box-shadow: 0 4px 16px rgba(22,163,74,0.1); }
+.examCard[data-level="N4"]:hover { border-color: #2563eb; box-shadow: 0 4px 16px rgba(37,99,235,0.1); }
+.examCard[data-level="N3"]:hover { border-color: #7c3aed; box-shadow: 0 4px 16px rgba(124,58,237,0.1); }
+.examCard[data-level="N2"]:hover { border-color: #d97706; box-shadow: 0 4px 16px rgba(217,119,6,0.1); }
+.examCard[data-level="N1"]:hover { border-color: #ef4444; box-shadow: 0 4px 16px rgba(239,68,68,0.1); }
+
+.examLevel {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--color-primary);
+}
+
+.examCard[data-level="N5"] .examLevel { color: #16a34a; }
+.examCard[data-level="N4"] .examLevel { color: #2563eb; }
+.examCard[data-level="N3"] .examLevel { color: #7c3aed; }
+.examCard[data-level="N2"] .examLevel { color: #d97706; }
+.examCard[data-level="N1"] .examLevel { color: #ef4444; }
+
+.examDesc {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    flex: 1;
+    margin: 0;
+    line-height: 1.55;
+}
+
+.examMeta {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
+.examStart {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-primary);
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.examCard[data-level="N5"] .examStart { color: #16a34a; }
+.examCard[data-level="N4"] .examStart { color: #2563eb; }
+.examCard[data-level="N3"] .examStart { color: #7c3aed; }
+.examCard[data-level="N2"] .examStart { color: #d97706; }
+.examCard[data-level="N1"] .examStart { color: #ef4444; }
+
+.examCard:hover .examStart { opacity: 1; }
+
+/* ── Coming soon ─────────────────────────────────────── */
+
+.comingSoon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 80px 32px;
+
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 18px;
+
+    text-align: center;
+}
+
+.comingSoonIcon {
+    font-size: 36px;
+    margin-bottom: 16px;
+    line-height: 1;
+}
+
+.comingSoonTitle {
+    margin: 0 0 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.comingSoonDesc {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+/* ── Responsive ──────────────────────────────────────── */
+
+@media (max-width: 900px) {
+    .levelGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .examGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .categoryGrid {
+        grid-template-columns: 1fr;
+    }
+    .examGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 580px) {
+    .levelGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .levelCard[data-level="N1"] {
+        grid-column: span 2;
+    }
+
+    .tabItem {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+}

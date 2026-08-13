@@ -1,565 +1,535 @@
 [
-{
-"vocabulary_id": 61,
-"word": "いそいそ",
-"kana": "いそいそ",
-"senses": [
-{
-"sense_id": 217295,
-"meaning_vi": "hớn hở",
-"confidence": "high",
-"search_keywords": [
-"hớn hở",
-"vui vẻ",
-"háo hức",
-"phấn khởi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "vui vẻ, phấn khởi và đầy mong đợi khi làm việc gì đó",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 62,
-"word": "イチャイチャ",
-"kana": "イチャイチャ",
-"senses": [
-{
-"sense_id": 217296,
-"meaning_vi": "âu yếm tình tứ",
-"confidence": "high",
-"search_keywords": [
-"âu yếm",
-"tình tứ",
-"quấn quýt",
-"mùi mẫn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "thể hiện tình cảm yêu đương một cách thân mật, quấn quýt",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 63,
-"word": "いちゃつく",
-"kana": "いちゃつく",
-"senses": [
-{
-"sense_id": 217297,
-"meaning_vi": "tình tứ",
-"confidence": "high",
-"search_keywords": [
-"tình tứ",
-"âu yếm",
-"ve vãn",
-"quấn quýt"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cư xử thân mật hoặc âu yếm như người yêu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 64,
-"word": "何時もより",
-"kana": "いつもより",
-"senses": [
-{
-"sense_id": 217298,
-"meaning_vi": "hơn thường lệ",
-"confidence": "high",
-"search_keywords": [
-"hơn thường lệ",
-"hơn bình thường",
-"nhiều hơn mọi khi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nhiều hơn hoặc lâu hơn so với bình thường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 65,
-"word": "いとも簡単に",
-"kana": "いともかんたんに",
-"senses": [
-{
-"sense_id": 217299,
-"meaning_vi": "cực kỳ dễ dàng",
-"confidence": "high",
-"search_keywords": [
-"cực kỳ dễ dàng",
-"rất dễ",
-"dễ như chơi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "một cách vô cùng dễ dàng, không gặp khó khăn",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 66,
-"word": "鯔背",
-"kana": "いなせ",
-"senses": [
-{
-"sense_id": 217300,
-"meaning_vi": "phong độ",
-"confidence": "medium",
-"search_keywords": [
-"phong độ",
-"bảnh bao",
-"hào hoa",
-"sành điệu"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lịch lãm, mạnh mẽ và cuốn hút theo kiểu nam tính",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 67,
-"word": "嘶く",
-"kana": "いななく",
-"senses": [
-{
-"sense_id": 217301,
-"meaning_vi": "hí vang",
-"confidence": "high",
-"search_keywords": [
-"hí vang",
-"ngựa hí",
-"hý"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "phát ra tiếng hí của ngựa",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 68,
-"word": "嘶き",
-"kana": "いななき",
-"senses": [
-{
-"sense_id": 217302,
-"meaning_vi": "tiếng hí",
-"confidence": "high",
-"search_keywords": [
-"tiếng hí",
-"tiếng ngựa hí",
-"tiếng hý"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "âm thanh do ngựa hoặc động vật tương tự phát ra",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 69,
-"word": "いびる",
-"kana": "いびる",
-"senses": [
-{
-"sense_id": 217303,
-"meaning_vi": "bắt nạt",
-"confidence": "high",
-"search_keywords": [
-"bắt nạt",
-"ức hiếp",
-"trêu chọc",
-"hành hạ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cố tình gây khó dễ hoặc hành hạ người khác",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 70,
-"word": "嫌に",
-"kana": "いやに",
-"senses": [
-{
-"sense_id": 217304,
-"meaning_vi": "cực kỳ",
-"confidence": "high",
-"search_keywords": [
-"cực kỳ",
-"vô cùng",
-"quá mức",
-"lạ thường"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "ở mức độ rất cao, thường mang cảm giác bất thường",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 71,
-"word": "いらっしゃい",
-"kana": "いらっしゃい",
-"senses": [
-{
-"sense_id": 217305,
-"meaning_vi": "xin mời",
-"confidence": "high",
-"search_keywords": [
-"xin mời",
-"mời vào",
-"mời đến"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cách nói kính ngữ mang nghĩa hãy đến, hãy vào hoặc hãy ở lại",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217306,
-"meaning_vi": "chào mừng",
-"confidence": "high",
-"search_keywords": [
-"chào mừng",
-"hoan nghênh",
-"xin chào quý khách"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lời chào đón khách",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 72,
-"word": "いらっしゃいませ",
-"kana": "いらっしゃいませ",
-"senses": [
-{
-"sense_id": 217307,
-"meaning_vi": "xin chào quý khách",
-"confidence": "high",
-"search_keywords": [
-"xin chào quý khách",
-"chào mừng quý khách",
-"welcome"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lời chào đón khách hàng trong cửa hàng, nhà hàng",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 73,
-"word": "居らっしゃる",
-"kana": "いらっしゃる",
-"senses": [
-{
-"sense_id": 217308,
-"meaning_vi": "đến / đi / ở",
-"confidence": "high",
-"search_keywords": [
-"đến",
-"đi",
-"ở",
-"kính ngữ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kính ngữ của 来る, 行く và いる",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217309,
-"meaning_vi": "đang làm",
-"confidence": "high",
-"search_keywords": [
-"đang làm",
-"đang",
-"kính ngữ"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "kính ngữ dùng để diễn tả trạng thái hoặc hành động đang diễn ra",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 74,
-"word": "うじうじ",
-"kana": "うじうじ",
-"senses": [
-{
-"sense_id": 217310,
-"meaning_vi": "do dự",
-"confidence": "high",
-"search_keywords": [
-"do dự",
-"lưỡng lự",
-"thiếu quyết đoán",
-"rụt rè"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "không dứt khoát, chần chừ trong hành động hoặc quyết định",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 75,
-"word": "うじゃうじゃ",
-"kana": "うじゃうじゃ",
-"senses": [
-{
-"sense_id": 217311,
-"meaning_vi": "nhung nhúc",
-"confidence": "high",
-"search_keywords": [
-"nhung nhúc",
-"đông nghịt",
-"từng đàn",
-"lúc nhúc"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "xuất hiện với số lượng rất lớn, chen chúc khắp nơi",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217312,
-"meaning_vi": "lề mề",
-"confidence": "low",
-"search_keywords": [
-"lề mề",
-"chậm chạp",
-"dây dưa"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "một cách chậm chạp, kéo dài gây khó chịu",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 76,
-"word": "うずうず",
-"kana": "うずうず",
-"senses": [
-{
-"sense_id": 217313,
-"meaning_vi": "nôn nóng",
-"confidence": "high",
-"search_keywords": [
-"nôn nóng",
-"háo hức",
-"ngứa ngáy muốn làm",
-"sốt ruột"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "rất muốn làm điều gì đó đến mức khó kiềm chế",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 77,
-"word": "うぞうぞ",
-"kana": "うぞうぞ",
-"senses": [
-{
-"sense_id": 217314,
-"meaning_vi": "ham muốn dâng trào",
-"confidence": "medium",
-"search_keywords": [
-"ham muốn",
-"kích thích",
-"hưng phấn",
-"khêu gợi"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "cảm xúc hoặc ham muốn, đặc biệt là tình dục, trỗi dậy mạnh mẽ",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 78,
-"word": "うだうだ",
-"kana": "うだうだ",
-"senses": [
-{
-"sense_id": 217315,
-"meaning_vi": "cằn nhằn dai dẳng",
-"confidence": "high",
-"search_keywords": [
-"cằn nhằn",
-"lải nhải",
-"nói dai",
-"than vãn"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "nói đi nói lại những chuyện không quan trọng",
-"examples": []
-}
-]
-},
-{
-"sense_id": 217316,
-"meaning_vi": "la cà",
-"confidence": "high",
-"search_keywords": [
-"la cà",
-"lêu lổng",
-"câu giờ",
-"lang thang"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "lãng phí thời gian mà không làm việc gì hữu ích",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 79,
-"word": "うっかり",
-"kana": "うっかり",
-"senses": [
-{
-"sense_id": 217317,
-"meaning_vi": "lỡ tay",
-"confidence": "high",
-"search_keywords": [
-"lỡ tay",
-"vô ý",
-"bất cẩn",
-"sơ ý"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "do bất cẩn hoặc không chú ý mà xảy ra sai sót",
-"examples": []
-}
-]
-}
-]
-},
-{
-"vocabulary_id": 80,
-"word": "うとうと",
-"kana": "うとうと",
-"senses": [
-{
-"sense_id": 217318,
-"meaning_vi": "thiu thiu ngủ",
-"confidence": "high",
-"search_keywords": [
-"thiu thiu ngủ",
-"gà gật",
-"ngủ gật",
-"lim dim"
-],
-"meaning_vi_glosses": [
-{
-"index": 1,
-"meaning": "trạng thái lơ mơ, sắp ngủ hoặc ngủ chập chờn",
-"examples": []
-}
-]
-}
-]
-}
+  {
+    "vocabulary_id": 61,
+    "word": "いそいそ",
+    "kana": "いそいそ",
+    "senses": [
+      {
+        "sense_id": 217295,
+        "meaning_vi": "vui vẻ; vui vẻ; hân hoan; hạnh phúc; một cách nhẹ nhàng; hào hứng; háo hức",
+        "confidence": "high",
+        "search_keywords": [
+          "vui vẻ",
+          "hân hoan",
+          "hạnh phúc",
+          "một cách nhẹ nhàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "vui vẻ; vui vẻ; hân hoan; hạnh phúc; một cách nhẹ nhàng; hào hứng; háo hức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 62,
+    "word": "イチャイチャ",
+    "kana": "イチャイチャ",
+    "senses": [
+      {
+        "sense_id": 217296,
+        "meaning_vi": "làm ra ; thắt cổ; trở nên đẹp trai; chèo thuyền; được yêu thương; có tình cảm (với nhau); trò chơi lãng mạn; vuốt ve",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ra",
+          "thắt cổ",
+          "trở nên đẹp trai",
+          "chèo thuyền"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ra ; thắt cổ; trở nên đẹp trai; chèo thuyền; được yêu thương; có tình cảm (với nhau); trò chơi lãng mạn; vuốt ve",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 63,
+    "word": "いちゃつく",
+    "kana": "いちゃつく",
+    "senses": [
+      {
+        "sense_id": 217297,
+        "meaning_vi": "làm ra ; đến cổ; để canoodle; vuốt ve nhau; tán tỉnh (với)",
+        "confidence": "high",
+        "search_keywords": [
+          "làm ra",
+          "đến cổ",
+          "để canoodle",
+          "vuốt ve nhau"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "làm ra ; đến cổ; để canoodle; vuốt ve nhau; tán tỉnh (với)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 64,
+    "word": "何時もより",
+    "kana": "いつもより",
+    "senses": [
+      {
+        "sense_id": 217298,
+        "meaning_vi": "nhiều hơn bình thường (usu. time)",
+        "confidence": "high",
+        "search_keywords": [
+          "nhiều hơn bình thường (usu. time)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "nhiều hơn bình thường (usu. time)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 65,
+    "word": "いとも簡単に",
+    "kana": "いともかんたんに",
+    "senses": [
+      {
+        "sense_id": 217299,
+        "meaning_vi": "rất dễ dàng",
+        "confidence": "high",
+        "search_keywords": [
+          "rất dễ dàng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rất dễ dàng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 66,
+    "word": "鯔背",
+    "kana": "いなせ",
+    "senses": [
+      {
+        "sense_id": 217300,
+        "meaning_vi": "dũng cảm; rạng ngời; thông minh",
+        "confidence": "high",
+        "search_keywords": [
+          "dũng cảm",
+          "rạng ngời",
+          "thông minh"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "dũng cảm; rạng ngời; thông minh",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 67,
+    "word": "嘶く",
+    "kana": "いななく",
+    "senses": [
+      {
+        "sense_id": 217301,
+        "meaning_vi": "đến gần",
+        "confidence": "high",
+        "search_keywords": [
+          "đến gần"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến gần",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 68,
+    "word": "嘶き",
+    "kana": "いななき",
+    "senses": [
+      {
+        "sense_id": 217302,
+        "meaning_vi": "lân cận; rên rỉ; tiếng ồn ào",
+        "confidence": "high",
+        "search_keywords": [
+          "lân cận",
+          "rên rỉ",
+          "tiếng ồn ào"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lân cận; rên rỉ; tiếng ồn ào",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 69,
+    "word": "いびる",
+    "kana": "いびる",
+    "senses": [
+      {
+        "sense_id": 217303,
+        "meaning_vi": "để chọn trên; trêu chọc",
+        "confidence": "high",
+        "search_keywords": [
+          "để chọn trên",
+          "trêu chọc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "để chọn trên; trêu chọc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 70,
+    "word": "嫌に",
+    "kana": "いやに",
+    "senses": [
+      {
+        "sense_id": 217304,
+        "meaning_vi": "khủng khiếp ; khủng khiếp",
+        "confidence": "high",
+        "search_keywords": [
+          "khủng khiếp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khủng khiếp ; khủng khiếp",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 71,
+    "word": "いらっしゃい",
+    "kana": "いらっしゃい",
+    "senses": [
+      {
+        "sense_id": 217305,
+        "meaning_vi": "đến; đi; ở lại",
+        "confidence": "high",
+        "search_keywords": [
+          "đến",
+          "đi",
+          "ở lại"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến; đi; ở lại",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217306,
+        "meaning_vi": "chào mừng",
+        "confidence": "high",
+        "search_keywords": [
+          "chào mừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chào mừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 72,
+    "word": "いらっしゃいませ",
+    "kana": "いらっしゃいませ",
+    "senses": [
+      {
+        "sense_id": 217307,
+        "meaning_vi": "chào mừng",
+        "confidence": "high",
+        "search_keywords": [
+          "chào mừng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chào mừng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 73,
+    "word": "居らっしゃる",
+    "kana": "いらっしゃる",
+    "senses": [
+      {
+        "sense_id": 217308,
+        "meaning_vi": "đến ; đi ; ở (ở đâu đó)",
+        "confidence": "high",
+        "search_keywords": [
+          "đến",
+          "đi",
+          "ở (ở đâu đó)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đến ; đi ; ở (ở đâu đó)",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217309,
+        "meaning_vi": "được (làm)",
+        "confidence": "high",
+        "search_keywords": [
+          "được (làm)"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "được (làm)",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 74,
+    "word": "うじうじ",
+    "kana": "うじうじ",
+    "senses": [
+      {
+        "sense_id": 217310,
+        "meaning_vi": "thiếu quyết đoán; ngập ngừng; một cách thiếu kiên quyết; mơ màng",
+        "confidence": "high",
+        "search_keywords": [
+          "thiếu quyết đoán",
+          "ngập ngừng",
+          "một cách thiếu kiên quyết",
+          "mơ màng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thiếu quyết đoán; ngập ngừng; một cách thiếu kiên quyết; mơ màng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 75,
+    "word": "うじゃうじゃ",
+    "kana": "うじゃうじゃ",
+    "senses": [
+      {
+        "sense_id": 217311,
+        "meaning_vi": "trong bầy đàn; theo cụm",
+        "confidence": "high",
+        "search_keywords": [
+          "trong bầy đàn",
+          "theo cụm"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trong bầy đàn; theo cụm",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217312,
+        "meaning_vi": "một cách tẻ nhạt; từ từ",
+        "confidence": "high",
+        "search_keywords": [
+          "một cách tẻ nhạt",
+          "từ từ"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "một cách tẻ nhạt; từ từ",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 76,
+    "word": "うずうず",
+    "kana": "うずうず",
+    "senses": [
+      {
+        "sense_id": 217313,
+        "meaning_vi": "ngứa ngáy muốn làm điều gì đó; thiếu kiên nhẫn; bị cám dỗ vô cùng; háo hức",
+        "confidence": "high",
+        "search_keywords": [
+          "ngứa ngáy muốn làm điều gì đó",
+          "thiếu kiên nhẫn",
+          "bị cám dỗ vô cùng",
+          "háo hức"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "ngứa ngáy muốn làm điều gì đó; thiếu kiên nhẫn; bị cám dỗ vô cùng; háo hức",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 77,
+    "word": "うぞうぞ",
+    "kana": "うぞうぞ",
+    "senses": [
+      {
+        "sense_id": 217314,
+        "meaning_vi": "bị kích thích không thể kìm nén được (đặc biệt là về mặt tình dục); bị kích thích",
+        "confidence": "high",
+        "search_keywords": [
+          "bị kích thích không thể kìm nén được (đặc biệt là về mặt tình dục)",
+          "bị kích thích"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bị kích thích không thể kìm nén được (đặc biệt là về mặt tình dục); bị kích thích",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 78,
+    "word": "うだうだ",
+    "kana": "うだうだ",
+    "senses": [
+      {
+        "sense_id": 217315,
+        "meaning_vi": "đang diễn ra (về những điều vụn vặt); nói chuyện vớ vẩn",
+        "confidence": "high",
+        "search_keywords": [
+          "đang diễn ra (về những điều vụn vặt)",
+          "nói chuyện vớ vẩn"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đang diễn ra (về những điều vụn vặt); nói chuyện vớ vẩn",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "sense_id": 217316,
+        "meaning_vi": "lãng phí thời gian; lảng vảng",
+        "confidence": "high",
+        "search_keywords": [
+          "lãng phí thời gian",
+          "lảng vảng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "lãng phí thời gian; lảng vảng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 79,
+    "word": "うっかり",
+    "kana": "うっかり",
+    "senses": [
+      {
+        "sense_id": 217317,
+        "meaning_vi": "bất cẩn ; thiếu suy nghĩ; vô tình",
+        "confidence": "high",
+        "search_keywords": [
+          "bất cẩn",
+          "thiếu suy nghĩ",
+          "vô tình"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bất cẩn ; thiếu suy nghĩ; vô tình",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 80,
+    "word": "うとうと",
+    "kana": "うとうと",
+    "senses": [
+      {
+        "sense_id": 217318,
+        "meaning_vi": "rơi vào trạng thái buồn ngủ; ngủ gật; gật đầu",
+        "confidence": "high",
+        "search_keywords": [
+          "rơi vào trạng thái buồn ngủ",
+          "ngủ gật",
+          "gật đầu"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "rơi vào trạng thái buồn ngủ; ngủ gật; gật đầu",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  }
 ]
