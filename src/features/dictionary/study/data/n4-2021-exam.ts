@@ -618,21 +618,21 @@ const _RAW: StaticQuestion[] = [
   },
   // 2ばん: 絵選択 — サンダルの絵 (M/L, 白/黒)
   {
-    groupId: "lq1", sectionId: "listening", type: "listening_text",
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "2ばん",
     imageSrc: "/exams/n4/images/lq1-2.png",
     options: ["1", "2", "3", "4"], correctIndex: 3,
   },
   // 3ばん: 絵選択 — 女性の行動 (買い物/掃除機/料理/洗い物)
   {
-    groupId: "lq1", sectionId: "listening", type: "listening_text",
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "3ばん",
     imageSrc: "/exams/n4/images/lq1-3.png",
     options: ["1", "2", "3", "4"], correctIndex: 0,
   },
   // 4ばん: 絵選択 — 店でのやりとり (洋服/靴/レジ無バッグ/レジ有バッグ)
   {
-    groupId: "lq1", sectionId: "listening", type: "listening_text",
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "4ばん",
     imageSrc: "/exams/n4/images/lq1-4.png",
     options: ["1", "2", "3", "4"], correctIndex: 0,
@@ -645,7 +645,7 @@ const _RAW: StaticQuestion[] = [
   },
   // 6ばん: 絵選択 — 机の上の物の位置 (1〜4番)
   {
-    groupId: "lq1", sectionId: "listening", type: "listening_text",
+    groupId: "lq1", sectionId: "listening", type: "listening_pic",
     display: "6ばん",
     imageSrc: "/exams/n4/images/lq1-6.png",
     options: ["1", "2", "3", "4"], correctIndex: 2,
