@@ -1,20 +1,21 @@
 [
   {
-    "vocabulary_id": 3741,
-    "word": "基督",
-    "kana": "キリスト",
+    "vocabulary_id": 3701,
+    "word": "キャンドル",
+    "kana": "キャンドル",
     "senses": [
       {
-        "sense_id": 222251,
-        "meaning_vi": "Chúa Kitô",
+        "sense_id": 222206,
+        "meaning_vi": "nến",
         "confidence": "high",
         "search_keywords": [
-          "Chúa Kitô"
+          "nến",
+          "candle"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Chúa Kitô",
+            "meaning": "nến; đèn cầy",
             "examples": []
           }
         ]
@@ -22,127 +23,38 @@
     ]
   },
   {
-    "vocabulary_id": 3742,
-    "word": "キリスト教",
-    "kana": "キリストきょう",
+    "vocabulary_id": 3702,
+    "word": "キャンドルサービス",
+    "kana": "キャンドルサービス",
     "senses": [
       {
-        "sense_id": 222252,
-        "meaning_vi": "Kitô giáo",
+        "sense_id": 222207,
+        "meaning_vi": "lễ thắp nến",
         "confidence": "high",
         "search_keywords": [
-          "Kitô giáo"
+          "lễ thắp nến",
+          "candlelight service"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Kitô giáo",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3743,
-    "word": "キリスト教徒",
-    "kana": "キリストきょうと",
-    "senses": [
-      {
-        "sense_id": 222253,
-        "meaning_vi": "Cơ Đốc giáo",
-        "confidence": "high",
-        "search_keywords": [
-          "Cơ Đốc giáo"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "Cơ Đốc giáo",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3744,
-    "word": "キリル",
-    "kana": "キリル",
-    "senses": [
-      {
-        "sense_id": 222254,
-        "meaning_vi": "chữ cái Cyrillic",
-        "confidence": "high",
-        "search_keywords": [
-          "chữ cái Cyrillic"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "chữ cái Cyrillic",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3745,
-    "word": "キリル文字",
-    "kana": "キリルもじ",
-    "senses": [
-      {
-        "sense_id": 222255,
-        "meaning_vi": "bảng chữ cái Cyrillic; chữ cái Cyrillic",
-        "confidence": "high",
-        "search_keywords": [
-          "bảng chữ cái Cyrillic",
-          "chữ cái Cyrillic"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "bảng chữ cái Cyrillic; chữ cái Cyrillic",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3746,
-    "word": "キル",
-    "kana": "キル",
-    "senses": [
-      {
-        "sense_id": 222256,
-        "meaning_vi": "giết",
-        "confidence": "high",
-        "search_keywords": [
-          "giết"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "giết",
+            "meaning": "buổi lễ thắp nến, thường trong nhà thờ",
             "examples": []
           }
         ]
       },
       {
-        "sense_id": 222257,
-        "meaning_vi": "giết (bắn); đập vỡ; mũi nhọn (trong bóng chuyền)",
+        "sense_id": 222208,
+        "meaning_vi": "nghi thức thắp nến cưới",
         "confidence": "high",
         "search_keywords": [
-          "giết (bắn)",
-          "đập vỡ",
-          "mũi nhọn (trong bóng chuyền)"
+          "nghi thức thắp nến",
+          "lễ cưới"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "giết (bắn); đập vỡ; mũi nhọn (trong bóng chuyền)",
+            "meaning": "nghi thức cô dâu chú rể đi thắp nến tại từng bàn tiệc cưới",
             "examples": []
           }
         ]
@@ -150,21 +62,22 @@
     ]
   },
   {
-    "vocabulary_id": 3747,
-    "word": "キルティング",
-    "kana": "キルティング",
+    "vocabulary_id": 3703,
+    "word": "キャンドルスティック",
+    "kana": "キャンドルスティック",
     "senses": [
       {
-        "sense_id": 222258,
-        "meaning_vi": "sự chần bông",
+        "sense_id": 222209,
+        "meaning_vi": "chân nến",
         "confidence": "high",
         "search_keywords": [
-          "sự chần bông"
+          "chân nến",
+          "candlestick"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sự chần bông",
+            "meaning": "giá hoặc chân dùng để cắm nến",
             "examples": []
           }
         ]
@@ -172,116 +85,353 @@
     ]
   },
   {
-    "vocabulary_id": 3748,
-    "word": "キルビメーター",
-    "kana": "キルビメーター",
+    "vocabulary_id": 3704,
+    "word": "キャンバス",
+    "kana": "キャンバス",
     "senses": [
       {
-        "sense_id": 222259,
-        "meaning_vi": "máy đo độ cong",
+        "sense_id": 222210,
+        "meaning_vi": "vải canvas",
         "confidence": "high",
         "search_keywords": [
-          "máy đo độ cong"
+          "vải canvas",
+          "toan vẽ",
+          "canvas"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "máy đo độ cong",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3749,
-    "word": "キロ",
-    "kana": "キロ",
-    "senses": [
-      {
-        "sense_id": 222260,
-        "meaning_vi": "kilo-; 1000",
-        "confidence": "low",
-        "search_keywords": [
-          "kilo-",
-          "1000"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "kilo-; 1000",
+            "meaning": "vải bố; toan dùng để vẽ tranh",
             "examples": []
           }
         ]
       },
       {
-        "sense_id": 222261,
-        "meaning_vi": "kilôgam; kg",
+        "sense_id": 222211,
+        "meaning_vi": "gôn; chốt (bóng chày)",
         "confidence": "high",
         "search_keywords": [
-          "kilôgam",
-          "kg"
+          "gôn bóng chày",
+          "chốt bóng chày",
+          "base bóng chày"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kilôgam; kg",
+            "meaning": "gôn (chốt/base) trong môn bóng chày",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3705,
+    "word": "キャンパー",
+    "kana": "キャンパー",
+    "senses": [
+      {
+        "sense_id": 222212,
+        "meaning_vi": "người cắm trại",
+        "confidence": "high",
+        "search_keywords": [
+          "người cắm trại",
+          "camper"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "người tham gia cắm trại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3706,
+    "word": "キャンパス",
+    "kana": "キャンパス",
+    "senses": [
+      {
+        "sense_id": 222213,
+        "meaning_vi": "khuôn viên trường",
+        "confidence": "high",
+        "search_keywords": [
+          "khuôn viên trường",
+          "campus"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "khuôn viên trường học hoặc đại học",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3707,
+    "word": "キャンパスシューズ",
+    "kana": "キャンパスシューズ",
+    "senses": [
+      {
+        "sense_id": 222214,
+        "meaning_vi": "giày học sinh",
+        "confidence": "medium",
+        "search_keywords": [
+          "giày học sinh",
+          "campus shoes"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "giày thường dùng trong môi trường học đường",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3708,
+    "word": "キャンピング",
+    "kana": "キャンピング",
+    "senses": [
+      {
+        "sense_id": 222215,
+        "meaning_vi": "cắm trại",
+        "confidence": "high",
+        "search_keywords": [
+          "cắm trại",
+          "camping"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "hoạt động cắm trại ngoài trời",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3709,
+    "word": "キャンピングカー",
+    "kana": "キャンピングカー",
+    "senses": [
+      {
+        "sense_id": 222216,
+        "meaning_vi": "xe cắm trại",
+        "confidence": "high",
+        "search_keywords": [
+          "xe cắm trại",
+          "RV",
+          "camper van"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "xe có trang bị chỗ ở dùng cho du lịch và cắm trại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3710,
+    "word": "キャンプ",
+    "kana": "キャンプ",
+    "senses": [
+      {
+        "sense_id": 222217,
+        "meaning_vi": "trại; cắm trại",
+        "confidence": "high",
+        "search_keywords": [
+          "trại",
+          "cắm trại",
+          "đi cắm trại",
+          "camp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "trại; việc cắm trại hoặc đi cắm trại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3711,
+    "word": "熱風",
+    "kana": "ねっぷう",
+    "senses": [
+      {
+        "sense_id": 316784,
+        "meaning_vi": "gió nóng",
+        "confidence": "high",
+        "search_keywords": [
+          "gió nóng",
+          "luồng khí nóng"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "luồng gió hoặc khí nóng",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3712,
+    "word": "キャンプイン",
+    "kana": "キャンプイン",
+    "senses": [
+      {
+        "sense_id": 222218,
+        "meaning_vi": "bắt đầu tập huấn",
+        "confidence": "high",
+        "search_keywords": [
+          "bắt đầu tập huấn",
+          "training camp"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "bắt đầu đợt tập huấn của đội thể thao",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3713,
+    "word": "キャンプサイト",
+    "kana": "キャンプサイト",
+    "senses": [
+      {
+        "sense_id": 222219,
+        "meaning_vi": "khu cắm trại",
+        "confidence": "high",
+        "search_keywords": [
+          "khu cắm trại",
+          "camp site"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "địa điểm hoặc khu vực dành cho cắm trại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3714,
+    "word": "キャンプファイヤー",
+    "kana": "キャンプファイヤー",
+    "senses": [
+      {
+        "sense_id": 222220,
+        "meaning_vi": "lửa trại",
+        "confidence": "high",
+        "search_keywords": [
+          "lửa trại",
+          "campfire"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "đống lửa dùng trong sinh hoạt cắm trại",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3715,
+    "word": "キャンベラ",
+    "kana": "キャンベラ",
+    "senses": [
+      {
+        "sense_id": 222221,
+        "meaning_vi": "Canberra",
+        "confidence": "high",
+        "search_keywords": [
+          "Canberra",
+          "thủ đô Úc"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "thủ đô của Úc",
+            "examples": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocabulary_id": 3716,
+    "word": "キャンペーン",
+    "kana": "キャンペーン",
+    "senses": [
+      {
+        "sense_id": 222222,
+        "meaning_vi": "chiến dịch khuyến mãi",
+        "confidence": "high",
+        "search_keywords": [
+          "khuyến mãi",
+          "chiến dịch quảng cáo",
+          "campaign"
+        ],
+        "meaning_vi_glosses": [
+          {
+            "index": 1,
+            "meaning": "chiến dịch quảng cáo hoặc khuyến mãi bán hàng",
             "examples": []
           }
         ]
       },
       {
-        "sense_id": 222262,
-        "meaning_vi": "km; cây số",
+        "sense_id": 222223,
+        "meaning_vi": "chiến dịch vận động",
         "confidence": "high",
         "search_keywords": [
-          "km",
-          "cây số"
+          "chiến dịch",
+          "vận động",
+          "phong trào"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "km; cây số",
+            "meaning": "chiến dịch tranh cử, vận động xã hội hoặc gây quỹ",
             "examples": []
           }
         ]
       },
       {
-        "sense_id": 222263,
-        "meaning_vi": "kilo-; 1024; 2^10",
-        "confidence": "low",
-        "search_keywords": [
-          "kilo-",
-          "1024",
-          "2^10"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "kilo-; 1024; 2^10",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3750,
-    "word": "瓩",
-    "kana": "キログラム",
-    "senses": [
-      {
-        "sense_id": 222264,
-        "meaning_vi": "kilôgam; kg",
+        "sense_id": 222224,
+        "meaning_vi": "chiến dịch quân sự",
         "confidence": "high",
         "search_keywords": [
-          "kilôgam",
-          "kg"
+          "chiến dịch quân sự",
+          "quân sự"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kilôgam; kg",
+            "meaning": "chiến dịch quân sự",
             "examples": []
           }
         ]
@@ -289,45 +439,22 @@
     ]
   },
   {
-    "vocabulary_id": 3751,
-    "word": "キロバイト",
-    "kana": "キロバイト",
+    "vocabulary_id": 3717,
+    "word": "キャンペーンセール",
+    "kana": "キャンペーンセール",
     "senses": [
       {
-        "sense_id": 222265,
-        "meaning_vi": "kilobyte; kB",
-        "confidence": "low",
-        "search_keywords": [
-          "kilobyte",
-          "kB"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "kilobyte; kB",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3752,
-    "word": "粁",
-    "kana": "キロメートル",
-    "senses": [
-      {
-        "sense_id": 222266,
-        "meaning_vi": "km; cây số",
+        "sense_id": 222225,
+        "meaning_vi": "đợt khuyến mãi",
         "confidence": "high",
         "search_keywords": [
-          "km",
-          "cây số"
+          "đợt khuyến mãi",
+          "sale khuyến mãi"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "km; cây số",
+            "meaning": "chương trình bán hàng khuyến mãi",
             "examples": []
           }
         ]
@@ -335,96 +462,40 @@
     ]
   },
   {
-    "vocabulary_id": 3753,
-    "word": "キロワット",
-    "kana": "キロワット",
+    "vocabulary_id": 3718,
+    "word": "キュー",
+    "kana": "キュー",
     "senses": [
       {
-        "sense_id": 222267,
-        "meaning_vi": "kilowatt; kW",
-        "confidence": "low",
-        "search_keywords": [
-          "kilowatt",
-          "kW"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "kilowatt; kW",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3754,
-    "word": "キンキールック",
-    "kana": "キンキールック",
-    "senses": [
-      {
-        "sense_id": 222268,
-        "meaning_vi": "cái nhìn lập dị",
+        "sense_id": 222226,
+        "meaning_vi": "cơ bi-a",
         "confidence": "high",
         "search_keywords": [
-          "cái nhìn lập dị"
+          "cơ bi-a",
+          "gậy bi-a",
+          "cue"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cái nhìn lập dị",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3755,
-    "word": "キング",
-    "kana": "キング",
-    "senses": [
-      {
-        "sense_id": 222269,
-        "meaning_vi": "vua",
-        "confidence": "high",
-        "search_keywords": [
-          "vua"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "vua",
+            "meaning": "cây cơ dùng trong bi-a",
             "examples": []
           }
         ]
       },
       {
-        "sense_id": 222270,
-        "meaning_vi": "vua",
+        "sense_id": 222227,
+        "meaning_vi": "tín hiệu; hiệu lệnh",
         "confidence": "high",
         "search_keywords": [
-          "vua"
+          "tín hiệu",
+          "hiệu lệnh",
+          "cue sân khấu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "vua",
-            "examples": []
-          }
-        ]
-      },
-      {
-        "sense_id": 222271,
-        "meaning_vi": "vua (quân cờ)",
-        "confidence": "high",
-        "search_keywords": [
-          "vua (quân cờ)"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "vua (quân cờ)",
+            "meaning": "tín hiệu hoặc hiệu lệnh để bắt đầu trong âm nhạc, sân khấu, phát thanh, v.v.",
             "examples": []
           }
         ]
@@ -432,21 +503,22 @@
     ]
   },
   {
-    "vocabulary_id": 3756,
-    "word": "キングサーモン",
-    "kana": "キングサーモン",
+    "vocabulary_id": 3719,
+    "word": "キューティー",
+    "kana": "キューティー",
     "senses": [
       {
-        "sense_id": 222272,
-        "meaning_vi": "cá hồi vua",
+        "sense_id": 222228,
+        "meaning_vi": "người dễ thương",
         "confidence": "high",
         "search_keywords": [
-          "cá hồi vua"
+          "người dễ thương",
+          "cutie"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cá hồi vua",
+            "meaning": "người hoặc vật đáng yêu, dễ thương",
             "examples": []
           }
         ]
@@ -454,87 +526,23 @@
     ]
   },
   {
-    "vocabulary_id": 3757,
-    "word": "キングサイズ",
-    "kana": "キングサイズ",
+    "vocabulary_id": 3720,
+    "word": "キューティクル",
+    "kana": "キューティクル",
     "senses": [
       {
-        "sense_id": 222273,
-        "meaning_vi": "cỡ lớn",
+        "sense_id": 222229,
+        "meaning_vi": "lớp biểu bì",
         "confidence": "high",
         "search_keywords": [
-          "cỡ lớn"
+          "biểu bì tóc",
+          "cuticle",
+          "lớp biểu bì"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cỡ lớn",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3758,
-    "word": "キングズイングリッシュ",
-    "kana": "キングズイングリッシュ",
-    "senses": [
-      {
-        "sense_id": 222274,
-        "meaning_vi": "Tiếng Anh của vua",
-        "confidence": "high",
-        "search_keywords": [
-          "Tiếng Anh của vua"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "Tiếng Anh của vua",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3759,
-    "word": "キングメーカー",
-    "kana": "キングメーカー",
-    "senses": [
-      {
-        "sense_id": 222275,
-        "meaning_vi": "người làm vua",
-        "confidence": "high",
-        "search_keywords": [
-          "người làm vua"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "người làm vua",
-            "examples": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "vocabulary_id": 3760,
-    "word": "ギア",
-    "kana": "ギア",
-    "senses": [
-      {
-        "sense_id": 222276,
-        "meaning_vi": "bánh răng",
-        "confidence": "high",
-        "search_keywords": [
-          "bánh răng"
-        ],
-        "meaning_vi_glosses": [
-          {
-            "index": 1,
-            "meaning": "bánh răng",
+            "meaning": "lớp biểu bì bảo vệ bên ngoài của tóc hoặc móng",
             "examples": []
           }
         ]

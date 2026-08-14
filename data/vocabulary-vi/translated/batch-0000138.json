@@ -6,16 +6,17 @@
     "senses": [
       {
         "sense_id": 222000,
-        "meaning_vi": "gatou; bánh ngọt",
+        "meaning_vi": "bánh gato",
         "confidence": "high",
         "search_keywords": [
-          "gatou",
-          "bánh ngọt"
+          "bánh gato",
+          "bánh ngọt",
+          "cake"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gatou; bánh ngọt",
+            "meaning": "bánh gato; bánh ngọt kiểu Âu",
             "examples": []
           }
         ]
@@ -29,15 +30,17 @@
     "senses": [
       {
         "sense_id": 222001,
-        "meaning_vi": "gadolinium (Gd)",
-        "confidence": "low",
+        "meaning_vi": "gadolini",
+        "confidence": "high",
         "search_keywords": [
-          "gadolinium (Gd)"
+          "gadolini",
+          "gadolinium",
+          "Gd"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gadolinium (Gd)",
+            "meaning": "gadolini; nguyên tố hóa học ký hiệu Gd",
             "examples": []
           }
         ]
@@ -51,15 +54,17 @@
     "senses": [
       {
         "sense_id": 222002,
-        "meaning_vi": "khả năng quản lý",
-        "confidence": "high",
+        "meaning_vi": "khả năng quản trị",
+        "confidence": "medium",
         "search_keywords": [
-          "khả năng quản lý"
+          "khả năng quản trị",
+          "khả năng cai quản",
+          "governability"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "khả năng quản lý",
+            "meaning": "khả năng quản trị; khả năng được cai quản",
             "examples": []
           }
         ]
@@ -73,15 +78,16 @@
     "senses": [
       {
         "sense_id": 222003,
-        "meaning_vi": "gavotte",
-        "confidence": "low",
+        "meaning_vi": "điệu gavotte",
+        "confidence": "high",
         "search_keywords": [
+          "điệu gavotte",
           "gavotte"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gavotte",
+            "meaning": "điệu gavotte; một điệu múa cổ của Pháp",
             "examples": []
           }
         ]
@@ -95,31 +101,33 @@
     "senses": [
       {
         "sense_id": 222004,
-        "meaning_vi": "nhai kẹo cao su",
+        "meaning_vi": "kẹo cao su",
         "confidence": "high",
         "search_keywords": [
-          "nhai kẹo cao su"
+          "kẹo cao su",
+          "kẹo gum"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhai kẹo cao su",
+            "meaning": "kẹo cao su",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222005,
-        "meaning_vi": "kẹo cao su; cao su",
+        "meaning_vi": "cao su",
         "confidence": "high",
         "search_keywords": [
-          "kẹo cao su",
-          "cao su"
+          "cao su",
+          "gum",
+          "rubber"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kẹo cao su; cao su",
+            "meaning": "nhựa cây dạng keo; cao su",
             "examples": []
           }
         ]
@@ -133,15 +141,17 @@
     "senses": [
       {
         "sense_id": 222006,
-        "meaning_vi": "băng đóng gói",
+        "meaning_vi": "băng keo đóng gói",
         "confidence": "high",
         "search_keywords": [
-          "băng đóng gói"
+          "băng keo",
+          "băng dính",
+          "băng keo đóng gói"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "băng đóng gói",
+            "meaning": "băng keo dùng để đóng gói",
             "examples": []
           }
         ]
@@ -155,15 +165,17 @@
     "senses": [
       {
         "sense_id": 222007,
-        "meaning_vi": "gamelan (ban nhạc truyền thống Indonesia)",
+        "meaning_vi": "nhạc gamelan",
         "confidence": "high",
         "search_keywords": [
-          "gamelan (ban nhạc truyền thống Indonesia)"
+          "nhạc gamelan",
+          "gamelan",
+          "dàn nhạc Indonesia"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gamelan (ban nhạc truyền thống Indonesia)",
+            "meaning": "gamelan; dàn nhạc truyền thống Indonesia",
             "examples": []
           }
         ]
@@ -177,16 +189,17 @@
     "senses": [
       {
         "sense_id": 222008,
-        "meaning_vi": "thủy tinh; ngăn",
+        "meaning_vi": "kính",
         "confidence": "high",
         "search_keywords": [
+          "kính",
           "thủy tinh",
-          "ngăn"
+          "tấm kính"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "thủy tinh; ngăn",
+            "meaning": "kính; thủy tinh; tấm kính",
             "examples": []
           }
         ]
@@ -200,15 +213,16 @@
     "senses": [
       {
         "sense_id": 222009,
-        "meaning_vi": "khối thủy tinh",
+        "meaning_vi": "gạch kính",
         "confidence": "high",
         "search_keywords": [
-          "khối thủy tinh"
+          "gạch kính",
+          "glass block"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "khối thủy tinh",
+            "meaning": "gạch kính; khối kính xây dựng",
             "examples": []
           }
         ]
@@ -222,34 +236,34 @@
     "senses": [
       {
         "sense_id": 222010,
-        "meaning_vi": "kính; lắp với kính",
+        "meaning_vi": "lắp kính",
         "confidence": "high",
         "search_keywords": [
-          "kính",
-          "lắp với kính"
+          "lắp kính",
+          "ốp kính",
+          "kính bao quanh"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kính; lắp với kính",
+            "meaning": "việc lắp kính; được phủ hoặc bao bằng kính",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222011,
-        "meaning_vi": "minh bạch; sự cởi mở; thiếu bí mật; sự cởi mở để giám sát",
+        "meaning_vi": "minh bạch",
         "confidence": "high",
         "search_keywords": [
           "minh bạch",
-          "sự cởi mở",
-          "thiếu bí mật",
-          "sự cởi mở để giám sát"
+          "công khai",
+          "không giấu giếm"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "minh bạch; sự cởi mở; thiếu bí mật; sự cởi mở để giám sát",
+            "meaning": "minh bạch; công khai; không che giấu",
             "examples": []
           }
         ]
@@ -266,12 +280,13 @@
         "meaning_vi": "bông thủy tinh",
         "confidence": "high",
         "search_keywords": [
-          "bông thủy tinh"
+          "bông thủy tinh",
+          "glass wool"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bông thủy tinh",
+            "meaning": "bông thủy tinh; vật liệu cách nhiệt bằng sợi thủy tinh",
             "examples": []
           }
         ]
@@ -285,15 +300,17 @@
     "senses": [
       {
         "sense_id": 222013,
-        "meaning_vi": "rãnh nước",
-        "confidence": "high",
+        "meaning_vi": "khe xói",
+        "confidence": "medium",
         "search_keywords": [
-          "rãnh nước"
+          "khe xói",
+          "rãnh xói",
+          "gully"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "rãnh nước",
+            "meaning": "rãnh sâu do nước xói mòn tạo thành",
             "examples": []
           }
         ]
@@ -307,15 +324,17 @@
     "senses": [
       {
         "sense_id": 222014,
-        "meaning_vi": "Gaul (vùng)",
+        "meaning_vi": "xứ Gaul",
         "confidence": "high",
         "search_keywords": [
-          "Gaul (vùng)"
+          "xứ Gaul",
+          "Gaul",
+          "Gallia"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Gaul (vùng)",
+            "meaning": "xứ Gaul; vùng lịch sử ở Tây Âu thời cổ",
             "examples": []
           }
         ]
@@ -329,15 +348,17 @@
     "senses": [
       {
         "sense_id": 222015,
-        "meaning_vi": "gali (Ga)",
+        "meaning_vi": "gali",
         "confidence": "high",
         "search_keywords": [
-          "gali (Ga)"
+          "gali",
+          "gallium",
+          "Ga"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gali (Ga)",
+            "meaning": "gali; nguyên tố hóa học ký hiệu Ga",
             "examples": []
           }
         ]
@@ -352,29 +373,32 @@
       {
         "sense_id": 222016,
         "meaning_vi": "Gulliver",
-        "confidence": "low",
+        "confidence": "high",
         "search_keywords": [
-          "Gulliver"
+          "Gulliver",
+          "Gali-vơ"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Gulliver",
+            "meaning": "Gulliver; nhân vật trong Gulliver du ký",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222017,
-        "meaning_vi": "ví dụ điển hình của loại hình này",
-        "confidence": "high",
+        "meaning_vi": "người khổng lồ",
+        "confidence": "medium",
         "search_keywords": [
-          "ví dụ điển hình của loại hình này"
+          "người khổng lồ",
+          "đại diện tiêu biểu",
+          "hàng đầu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "ví dụ điển hình của loại hình này",
+            "meaning": "người hoặc vật nổi trội, tiêu biểu hàng đầu trong cùng loại",
             "examples": []
           }
         ]
@@ -389,14 +413,16 @@
       {
         "sense_id": 222018,
         "meaning_vi": "Galileo",
-        "confidence": "low",
+        "confidence": "high",
         "search_keywords": [
-          "Galileo"
+          "Galileo",
+          "Galileo Galilei",
+          "Ga-li-lê"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Galileo",
+            "meaning": "Galileo; nhà thiên văn học và vật lý học người Ý",
             "examples": []
           }
         ]
@@ -410,15 +436,17 @@
     "senses": [
       {
         "sense_id": 222019,
-        "meaning_vi": "cô gái trẻ con",
-        "confidence": "high",
+        "meaning_vi": "cô gái nam tính",
+        "confidence": "medium",
         "search_keywords": [
-          "cô gái trẻ con"
+          "cô gái nam tính",
+          "tomboy",
+          "garçonne"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cô gái trẻ con",
+            "meaning": "cô gái có phong cách nam tính",
             "examples": []
           }
         ]
@@ -432,15 +460,17 @@
     "senses": [
       {
         "sense_id": 222020,
-        "meaning_vi": "đồ trang trí",
-        "confidence": "high",
+        "meaning_vi": "đồ trang trí món ăn",
+        "confidence": "medium",
         "search_keywords": [
-          "đồ trang trí"
+          "đồ trang trí món ăn",
+          "garniture",
+          "garnish"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đồ trang trí",
+            "meaning": "đồ trang trí hoặc món ăn kèm để trình bày món ăn",
             "examples": []
           }
         ]
@@ -454,15 +484,17 @@
     "senses": [
       {
         "sense_id": 222021,
-        "meaning_vi": "đồ trang trí",
-        "confidence": "high",
+        "meaning_vi": "đồ trang trí món ăn",
+        "confidence": "medium",
         "search_keywords": [
-          "đồ trang trí"
+          "đồ trang trí món ăn",
+          "garniture",
+          "garnish"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đồ trang trí",
+            "meaning": "đồ trang trí hoặc món ăn kèm để trình bày món ăn",
             "examples": []
           }
         ]
@@ -476,30 +508,34 @@
     "senses": [
       {
         "sense_id": 222022,
-        "meaning_vi": "bếp (tàu)",
+        "meaning_vi": "thuyền galley",
         "confidence": "high",
         "search_keywords": [
-          "bếp (tàu)"
+          "thuyền galley",
+          "tàu chèo cổ",
+          "galley"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bếp (tàu)",
+            "meaning": "thuyền galley; tàu cổ chạy bằng mái chèo",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222023,
-        "meaning_vi": "galley (nhà bếp trên tàu thủy, máy bay)",
+        "meaning_vi": "bếp trên tàu",
         "confidence": "high",
         "search_keywords": [
-          "galley (nhà bếp trên tàu thủy, máy bay)"
+          "bếp trên tàu",
+          "bếp máy bay",
+          "galley"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "galley (nhà bếp trên tàu thủy, máy bay)",
+            "meaning": "khu bếp trên tàu thủy hoặc máy bay",
             "examples": []
           }
         ]

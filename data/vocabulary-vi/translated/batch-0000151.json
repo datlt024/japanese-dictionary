@@ -9,12 +9,14 @@
         "meaning_vi": "máy chém",
         "confidence": "high",
         "search_keywords": [
-          "máy chém"
+          "máy chém",
+          "girochin",
+          "guillotine"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "máy chém",
+            "meaning": "máy chém; dụng cụ hành hình bằng cách chặt đầu",
             "examples": []
           }
         ]
@@ -28,15 +30,17 @@
     "senses": [
       {
         "sense_id": 222329,
-        "meaning_vi": "kẻ sọc",
+        "meaning_vi": "vải gingham",
         "confidence": "high",
         "search_keywords": [
-          "kẻ sọc"
+          "vải gingham",
+          "vải kẻ caro",
+          "gingham"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kẻ sọc",
+            "meaning": "vải gingham; vải dệt từ sợi nhuộm màu kẻ caro hoặc kẻ sọc",
             "examples": []
           }
         ]
@@ -50,31 +54,35 @@
     "senses": [
       {
         "sense_id": 222330,
-        "meaning_vi": "kỳ lạ; kỳ lạ",
+        "meaning_vi": "kỳ quặc",
         "confidence": "high",
         "search_keywords": [
-          "kỳ lạ"
+          "kỳ quặc",
+          "lập dị",
+          "quái đản",
+          "kooky"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kỳ lạ; kỳ lạ",
+            "meaning": "kỳ quặc; lập dị; quái đản",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222331,
-        "meaning_vi": "bánh quy; nấu nướng",
+        "meaning_vi": "bánh quy",
         "confidence": "high",
         "search_keywords": [
           "bánh quy",
-          "nấu nướng"
+          "bánh bích quy",
+          "cookie"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bánh quy; nấu nướng",
+            "meaning": "bánh quy; bánh bích quy (thường viết là クッキー)",
             "examples": []
           }
         ]
@@ -88,15 +96,17 @@
     "senses": [
       {
         "sense_id": 222332,
-        "meaning_vi": "cuộc đảo chính; cuộc đảo chính",
+        "meaning_vi": "đảo chính",
         "confidence": "high",
         "search_keywords": [
-          "cuộc đảo chính"
+          "đảo chính",
+          "cuộc đảo chính",
+          "bạo loạn chính trị"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cuộc đảo chính; cuộc đảo chính",
+            "meaning": "cuộc đảo chính; đảo chính",
             "examples": []
           }
         ]
@@ -110,15 +120,18 @@
     "senses": [
       {
         "sense_id": 222333,
-        "meaning_vi": "chiếc coupe; chiếc coupe",
+        "meaning_vi": "xe coupe",
         "confidence": "high",
         "search_keywords": [
-          "chiếc coupe"
+          "xe coupe",
+          "xe hai cửa",
+          "xe thể thao 2 cửa",
+          "coupe"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chiếc coupe; chiếc coupe",
+            "meaning": "xe coupe; kiểu xe ô tô thể thao hai cửa mui kín",
             "examples": []
           }
         ]
@@ -132,16 +145,18 @@
     "senses": [
       {
         "sense_id": 222334,
-        "meaning_vi": "phiếu giảm giá; chứng từ",
+        "meaning_vi": "phiếu giảm giá",
         "confidence": "high",
         "search_keywords": [
           "phiếu giảm giá",
-          "chứng từ"
+          "mã giảm giá",
+          "voucher",
+          "coupon"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phiếu giảm giá; chứng từ",
+            "meaning": "phiếu giảm giá; voucher; cuống phiếu quà tặng",
             "examples": []
           }
         ]
@@ -155,15 +170,18 @@
     "senses": [
       {
         "sense_id": 222335,
-        "meaning_vi": "phiếu giảm giá (vé)",
+        "meaning_vi": "vé giảm giá",
         "confidence": "high",
         "search_keywords": [
-          "phiếu giảm giá (vé)"
+          "vé giảm giá",
+          "phiếu mua hàng",
+          "phiếu giảm giá",
+          "voucher"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phiếu giảm giá (vé)",
+            "meaning": "vé giảm giá; phiếu giảm giá; phiếu mua hàng tích hợp",
             "examples": []
           }
         ]
@@ -177,30 +195,34 @@
     "senses": [
       {
         "sense_id": 222336,
-        "meaning_vi": "điều hòa không khí",
+        "meaning_vi": "máy điều hòa không khí",
         "confidence": "high",
         "search_keywords": [
-          "điều hòa không khí"
+          "máy điều hòa không khí",
+          "máy lạnh",
+          "điều hòa nhiệt độ"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "điều hòa không khí",
+            "meaning": "máy điều hòa không khí; máy lạnh; điều hòa nhiệt độ",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222337,
-        "meaning_vi": "mát hơn",
+        "meaning_vi": "thùng giữ lạnh",
         "confidence": "high",
         "search_keywords": [
-          "mát hơn"
+          "thùng giữ lạnh",
+          "bình giữ nhiệt",
+          "thiết bị làm mát"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mát hơn",
+            "meaning": "thùng giữ lạnh; hộp làm mát; thiết bị làm lạnh nói chung",
             "examples": []
           }
         ]
@@ -214,17 +236,18 @@
     "senses": [
       {
         "sense_id": 222338,
-        "meaning_vi": "hộp làm mát; mát hơn; hộp mát",
+        "meaning_vi": "thùng đá giữ nhiệt",
         "confidence": "high",
         "search_keywords": [
-          "hộp làm mát",
-          "mát hơn",
-          "hộp mát"
+          "thùng đá giữ nhiệt",
+          "thùng giữ lạnh",
+          "thùng đá dã ngoại",
+          "cooler box"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hộp làm mát; mát hơn; hộp mát",
+            "meaning": "thùng giữ lạnh di động; thùng đá giữ nhiệt dã ngoại; hộp mát",
             "examples": []
           }
         ]
@@ -238,15 +261,19 @@
     "senses": [
       {
         "sense_id": 222339,
-        "meaning_vi": "cu li",
+        "meaning_vi": "phu khuân vác",
         "confidence": "high",
         "search_keywords": [
-          "cu li"
+          "phu khuân vác",
+          "khu-li",
+          "người làm thuê",
+          "lao dịch",
+          "coolie"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cu li",
+            "meaning": "phu khuân vác; lao công người gốc Á (thuật ngữ lịch sử, phu khu-li)",
             "examples": []
           }
         ]
@@ -263,12 +290,15 @@
         "meaning_vi": "dịch vụ chuyển phát nhanh",
         "confidence": "high",
         "search_keywords": [
-          "dịch vụ chuyển phát nhanh"
+          "dịch vụ chuyển phát nhanh",
+          "chuyển phát quốc tế",
+          "chuyển phát courier",
+          "courier service"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "dịch vụ chuyển phát nhanh",
+            "meaning": "dịch vụ chuyển phát nhanh hàng hóa tận nơi (thường là quốc tế)",
             "examples": []
           }
         ]
@@ -282,15 +312,18 @@
     "senses": [
       {
         "sense_id": 222341,
-        "meaning_vi": "hạ nhiệt (thời kỳ)",
+        "meaning_vi": "thời gian suy nghĩ lại",
         "confidence": "high",
         "search_keywords": [
-          "hạ nhiệt (thời kỳ)"
+          "thời gian suy nghĩ lại",
+          "hủy hợp đồng vô điều kiện",
+          "quyền hủy hợp đồng",
+          "cooling off"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hạ nhiệt (thời kỳ)",
+            "meaning": "chế độ cooling-off; thời hạn người mua được quyền hủy bỏ hợp đồng mua bán vô điều kiện",
             "examples": []
           }
         ]
@@ -307,12 +340,14 @@
         "meaning_vi": "tháp giải nhiệt",
         "confidence": "high",
         "search_keywords": [
-          "tháp giải nhiệt"
+          "tháp giải nhiệt",
+          "tháp làm mát",
+          "cooling tower"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tháp giải nhiệt",
+            "meaning": "tháp giải nhiệt; tháp làm mát nước trong hệ thống công nghiệp hoặc điều hòa lớn",
             "examples": []
           }
         ]
@@ -326,15 +361,18 @@
     "senses": [
       {
         "sense_id": 222343,
-        "meaning_vi": "hạ nhiệt",
+        "meaning_vi": "thả lỏng cơ thể",
         "confidence": "high",
         "search_keywords": [
-          "hạ nhiệt"
+          "thả lỏng cơ thể",
+          "hạ nhiệt",
+          "làm mát",
+          "cooling down"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hạ nhiệt",
+            "meaning": "thả lỏng cơ thể sau khi tập thể dục; các động tác điều hòa làm giảm dần nhịp tim; làm mát",
             "examples": []
           }
         ]
@@ -348,46 +386,54 @@
     "senses": [
       {
         "sense_id": 222344,
-        "meaning_vi": "mát mẻ (nhiệt độ, màu sắc, v.v.)",
+        "meaning_vi": "mát mẻ",
         "confidence": "high",
         "search_keywords": [
-          "mát mẻ (nhiệt độ, màu sắc, v.v.)"
+          "mát mẻ",
+          "màu lạnh",
+          "mát dịu",
+          "cool"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mát mẻ (nhiệt độ, màu sắc, v.v.)",
+            "meaning": "mát mẻ (nhiệt độ); dịu mát (màu sắc, cảm giác)",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222345,
-        "meaning_vi": "mát mẻ (tức là bình tĩnh và tự chủ); lạnh lùng; lạnh lùng",
+        "meaning_vi": "điềm tĩnh",
         "confidence": "high",
         "search_keywords": [
-          "mát mẻ (tức là bình tĩnh và tự chủ)",
-          "lạnh lùng"
+          "điềm tĩnh",
+          "lạnh lùng",
+          "bình tĩnh",
+          "tỉnh táo"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mát mẻ (tức là bình tĩnh và tự chủ); lạnh lùng; lạnh lùng",
+            "meaning": "điềm tĩnh; giữ cái đầu lạnh; lạnh lùng; tỉnh táo",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222346,
-        "meaning_vi": "mát mẻ (tức là thời trang hoặc phong cách)",
+        "meaning_vi": "ngầu",
         "confidence": "high",
         "search_keywords": [
-          "mát mẻ (tức là thời trang hoặc phong cách)"
+          "ngầu",
+          "phong cách",
+          "thời thượng",
+          "cool ngầu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mát mẻ (tức là thời trang hoặc phong cách)",
+            "meaning": "ngầu; phong cách; thời thượng; thu hút",
             "examples": []
           }
         ]
@@ -401,15 +447,17 @@
     "senses": [
       {
         "sense_id": 222347,
-        "meaning_vi": "nhạc jazz hay",
+        "meaning_vi": "nhạc cool jazz",
         "confidence": "high",
         "search_keywords": [
-          "nhạc jazz hay"
+          "nhạc cool jazz",
+          "cool jazz",
+          "nhạc jazz điềm tĩnh"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhạc jazz hay",
+            "meaning": "nhạc cool jazz; một thể loại nhạc jazz ra đời cuối thập niên 1940 với phong cách nhẹ nhàng, điềm tĩnh",
             "examples": []
           }
         ]
@@ -423,15 +471,18 @@
     "senses": [
       {
         "sense_id": 222348,
-        "meaning_vi": "hạ nhiệt",
+        "meaning_vi": "làm dịu đi",
         "confidence": "high",
         "search_keywords": [
-          "hạ nhiệt"
+          "làm dịu đi",
+          "bớt nóng giận",
+          "thả lỏng thể chất",
+          "cool down"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hạ nhiệt",
+            "meaning": "làm dịu đi; nguôi ngoai cơn giận; thả lỏng và hạ nhiệt cơ thể sau khi vận động",
             "examples": []
           }
         ]
@@ -445,15 +496,17 @@
     "senses": [
       {
         "sense_id": 222349,
-        "meaning_vi": "hộp mát",
+        "meaning_vi": "thùng giữ lạnh",
         "confidence": "high",
         "search_keywords": [
-          "hộp mát"
+          "thùng giữ lạnh",
+          "thùng đá dã ngoại",
+          "hộp giữ lạnh"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hộp mát",
+            "meaning": "thùng giữ lạnh di động; hộp bảo quản lạnh thực phẩm",
             "examples": []
           }
         ]
@@ -467,30 +520,35 @@
     "senses": [
       {
         "sense_id": 222350,
-        "meaning_vi": "coulomb",
-        "confidence": "low",
+        "meaning_vi": "culông",
+        "confidence": "high",
         "search_keywords": [
-          "coulomb"
+          "culông",
+          "coulomb",
+          "đơn vị điện tích"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "coulomb",
+            "meaning": "cu-lông (đơn vị đo điện tích trong hệ SI)",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222351,
-        "meaning_vi": "cron (công việc máy tính chạy vào thời điểm cụ thể)",
+        "meaning_vi": "cron",
         "confidence": "high",
         "search_keywords": [
-          "cron (công việc máy tính chạy vào thời điểm cụ thể)"
+          "cron",
+          "cron job",
+          "lập lịch hệ thống",
+          "đặt lịch chạy tự động"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cron (công việc máy tính chạy vào thời điểm cụ thể)",
+            "meaning": "cron; trình quản lý tác vụ chạy tự động theo thời gian định sẵn trong hệ điều hành máy tính",
             "examples": []
           }
         ]
@@ -504,16 +562,18 @@
     "senses": [
       {
         "sense_id": 222580,
-        "meaning_vi": "chất tẩy rửa; bột cọ rửa; chất tẩy rửa",
+        "meaning_vi": "bột tẩy rửa bếp",
         "confidence": "high",
         "search_keywords": [
-          "chất tẩy rửa",
-          "bột cọ rửa"
+          "bột tẩy rửa bếp",
+          "chất tẩy rửa cọ rửa",
+          "bột cọ sàn nhà",
+          "cleanser"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chất tẩy rửa; bột cọ rửa; chất tẩy rửa",
+            "meaning": "bột tẩy rửa dạng mài mòn; chất tẩy rửa cọ rửa vết bẩn nhà bếp hoặc bồn cầu",
             "examples": []
           }
         ]

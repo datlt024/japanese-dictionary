@@ -9,12 +9,13 @@
         "meaning_vi": "đội trưởng",
         "confidence": "high",
         "search_keywords": [
-          "đội trưởng"
+          "đội trưởng",
+          "captain"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đội trưởng",
+            "meaning": "đội trưởng; người chỉ huy hoặc lãnh đạo một nhóm",
             "examples": []
           }
         ]
@@ -28,16 +29,16 @@
     "senses": [
       {
         "sense_id": 222181,
-        "meaning_vi": "Hệ thống thông tin truy cập điện thoại kiểu và ký tự; Hệ thống CAPTAIN",
-        "confidence": "high",
+        "meaning_vi": "hệ thống CAPTAIN",
+        "confidence": "medium",
         "search_keywords": [
-          "Hệ thống thông tin truy cập điện thoại kiểu và ký tự",
-          "Hệ thống CAPTAIN"
+          "CAPTAIN System",
+          "hệ thống CAPTAIN"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Hệ thống thông tin truy cập điện thoại kiểu và ký tự; Hệ thống CAPTAIN",
+            "meaning": "Hệ thống truy cập thông tin qua điện thoại CAPTAIN của Nhật Bản",
             "examples": []
           }
         ]
@@ -51,15 +52,17 @@
     "senses": [
       {
         "sense_id": 222182,
-        "meaning_vi": "bắp cải (Brassica oleracea)",
+        "meaning_vi": "bắp cải",
         "confidence": "high",
         "search_keywords": [
-          "bắp cải (Brassica oleracea)"
+          "bắp cải",
+          "cải bắp",
+          "cabbage"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bắp cải (Brassica oleracea)",
+            "meaning": "bắp cải",
             "examples": []
           }
         ]
@@ -73,15 +76,16 @@
     "senses": [
       {
         "sense_id": 222183,
-        "meaning_vi": "áo yếm",
+        "meaning_vi": "áo hai dây",
         "confidence": "high",
         "search_keywords": [
-          "áo yếm"
+          "áo hai dây",
+          "camisole"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "áo yếm",
+            "meaning": "áo lót hoặc áo mặc ngoài có dây vai mảnh",
             "examples": []
           }
         ]
@@ -98,7 +102,8 @@
         "meaning_vi": "lạc đà",
         "confidence": "high",
         "search_keywords": [
-          "lạc đà"
+          "lạc đà",
+          "camel"
         ],
         "meaning_vi_glosses": [
           {
@@ -117,15 +122,17 @@
     "senses": [
       {
         "sense_id": 222185,
-        "meaning_vi": "thì là caraway (Carum carvi)",
-        "confidence": "high",
+        "meaning_vi": "thì là caraway",
+        "confidence": "medium",
         "search_keywords": [
-          "thì là caraway (Carum carvi)"
+          "thì là caraway",
+          "caraway",
+          "Carum carvi"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "thì là caraway (Carum carvi)",
+            "meaning": "cây caraway (Carum carvi), có hạt dùng làm gia vị",
             "examples": []
           }
         ]
@@ -139,47 +146,50 @@
     "senses": [
       {
         "sense_id": 222186,
-        "meaning_vi": "tính cách; nhân cách; bố trí",
+        "meaning_vi": "tính cách",
         "confidence": "high",
         "search_keywords": [
           "tính cách",
-          "nhân cách",
-          "bố trí"
+          "cá tính",
+          "character"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tính cách; nhân cách; bố trí",
+            "meaning": "tính cách; cá tính; phẩm chất riêng",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222187,
-        "meaning_vi": "(hư cấu) nhân vật",
+        "meaning_vi": "nhân vật",
         "confidence": "high",
         "search_keywords": [
-          "(hư cấu) nhân vật"
+          "nhân vật",
+          "nhân vật hư cấu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "(hư cấu) nhân vật",
+            "meaning": "nhân vật trong truyện, phim hoặc trò chơi",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222188,
-        "meaning_vi": "nhân vật",
+        "meaning_vi": "ký tự",
         "confidence": "high",
         "search_keywords": [
-          "nhân vật"
+          "ký tự",
+          "character",
+          "chữ cái"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhân vật",
+            "meaning": "ký tự trong máy tính hoặc xử lý văn bản",
             "examples": []
           }
         ]
@@ -193,15 +203,16 @@
     "senses": [
       {
         "sense_id": 222189,
-        "meaning_vi": "hiển thị ký tự",
+        "meaning_vi": "màn hình ký tự",
         "confidence": "high",
         "search_keywords": [
-          "hiển thị ký tự"
+          "màn hình ký tự",
+          "character display"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hiển thị ký tự",
+            "meaning": "thiết bị hiển thị dữ liệu dưới dạng ký tự",
             "examples": []
           }
         ]
@@ -218,27 +229,29 @@
         "meaning_vi": "đoàn lữ hành",
         "confidence": "high",
         "search_keywords": [
-          "đoàn lữ hành"
+          "đoàn lữ hành",
+          "caravan"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đoàn lữ hành",
+            "meaning": "đoàn người hoặc xe cùng di chuyển đường dài",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222191,
-        "meaning_vi": "nhóm người đi du lịch để bán hàng, điều tra, v.v.",
+        "meaning_vi": "đoàn lưu động",
         "confidence": "high",
         "search_keywords": [
-          "nhóm người đi du lịch để bán hàng, điều tra, v.v."
+          "đoàn lưu động",
+          "đoàn quảng bá"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhóm người đi du lịch để bán hàng, điều tra, v.v.",
+            "meaning": "nhóm người đi nhiều nơi để bán hàng hoặc quảng bá",
             "examples": []
           }
         ]
@@ -255,12 +268,13 @@
         "meaning_vi": "giày leo núi nhẹ",
         "confidence": "high",
         "search_keywords": [
-          "giày leo núi nhẹ"
+          "giày leo núi",
+          "giày trekking"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "giày leo núi nhẹ",
+            "meaning": "giày leo núi nhẹ dùng cho trekking",
             "examples": []
           }
         ]
@@ -274,16 +288,16 @@
     "senses": [
       {
         "sense_id": 222193,
-        "meaning_vi": "mang; mang theo",
+        "meaning_vi": "mang theo",
         "confidence": "high",
         "search_keywords": [
-          "mang",
-          "mang theo"
+          "mang theo",
+          "carry"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mang; mang theo",
+            "meaning": "việc mang hoặc vận chuyển thứ gì đó",
             "examples": []
           }
         ]
@@ -297,11 +311,12 @@
     "senses": [
       {
         "sense_id": 222194,
-        "meaning_vi": "sự nghiệp; nghề nghiệp",
+        "meaning_vi": "sự nghiệp",
         "confidence": "high",
         "search_keywords": [
           "sự nghiệp",
-          "nghề nghiệp"
+          "nghề nghiệp",
+          "career"
         ],
         "meaning_vi_glosses": [
           {
@@ -313,31 +328,32 @@
       },
       {
         "sense_id": 222195,
-        "meaning_vi": "lịch sử cá nhân; kinh nghiệm chuyên môn",
+        "meaning_vi": "kinh nghiệm nghề nghiệp",
         "confidence": "high",
         "search_keywords": [
-          "lịch sử cá nhân",
-          "kinh nghiệm chuyên môn"
+          "kinh nghiệm",
+          "quá trình công tác"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "lịch sử cá nhân; kinh nghiệm chuyên môn",
+            "meaning": "lịch sử và kinh nghiệm làm việc của một người",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222196,
-        "meaning_vi": "nhân viên chính phủ đã vượt qua kỳ thi công chức quốc gia cao nhất",
-        "confidence": "high",
+        "meaning_vi": "công chức cao cấp",
+        "confidence": "medium",
         "search_keywords": [
-          "nhân viên chính phủ đã vượt qua kỳ thi công chức quốc gia cao nhất"
+          "công chức cao cấp",
+          "career bureaucrat"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhân viên chính phủ đã vượt qua kỳ thi công chức quốc gia cao nhất",
+            "meaning": "công chức đỗ kỳ thi quốc gia cao cấp của Nhật Bản",
             "examples": []
           }
         ]
@@ -351,15 +367,16 @@
     "senses": [
       {
         "sense_id": 222197,
-        "meaning_vi": "người phụ nữ sự nghiệp",
+        "meaning_vi": "phụ nữ sự nghiệp",
         "confidence": "high",
         "search_keywords": [
-          "người phụ nữ sự nghiệp"
+          "phụ nữ sự nghiệp",
+          "career woman"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người phụ nữ sự nghiệp",
+            "meaning": "người phụ nữ chú trọng phát triển sự nghiệp",
             "examples": []
           }
         ]
@@ -373,15 +390,17 @@
     "senses": [
       {
         "sense_id": 222198,
-        "meaning_vi": "vận chuyển",
-        "confidence": "high",
+        "meaning_vi": "bộ phận chuyển động; giá trượt",
+        "confidence": "medium",
         "search_keywords": [
-          "vận chuyển"
+          "carriage",
+          "giá trượt",
+          "bộ phận chuyển động"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "vận chuyển",
+            "meaning": "bộ phận chuyển động hoặc giá trượt của máy móc, thiết bị",
             "examples": []
           }
         ]
@@ -398,12 +417,13 @@
         "meaning_vi": "hiệu chuẩn",
         "confidence": "high",
         "search_keywords": [
-          "hiệu chuẩn"
+          "hiệu chuẩn",
+          "calibration"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hiệu chuẩn",
+            "meaning": "quá trình điều chỉnh thiết bị để đạt độ chính xác",
             "examples": []
           }
         ]
@@ -417,15 +437,16 @@
     "senses": [
       {
         "sense_id": 222200,
-        "meaning_vi": "bài hát mừng",
+        "meaning_vi": "thánh ca Giáng sinh",
         "confidence": "high",
         "search_keywords": [
-          "bài hát mừng"
+          "thánh ca Giáng sinh",
+          "carol"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bài hát mừng",
+            "meaning": "bài hát mừng Giáng sinh",
             "examples": []
           }
         ]
@@ -442,12 +463,13 @@
         "meaning_vi": "ung thư",
         "confidence": "high",
         "search_keywords": [
-          "ung thư"
+          "ung thư",
+          "cancer"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "ung thư",
+            "meaning": "bệnh ung thư",
             "examples": []
           }
         ]
@@ -464,28 +486,30 @@
         "meaning_vi": "hủy bỏ",
         "confidence": "high",
         "search_keywords": [
-          "hủy bỏ"
+          "hủy bỏ",
+          "hủy đặt chỗ",
+          "cancel"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hủy bỏ",
+            "meaning": "hủy bỏ hoặc vô hiệu hóa một kế hoạch, đơn hàng, đặt chỗ",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222203,
-        "meaning_vi": "hủy bỏ (một người, ví dụ: đối với một nhận xét mang tính kích động); hủy bỏ văn hóa",
+        "meaning_vi": "tẩy chay",
         "confidence": "high",
         "search_keywords": [
-          "hủy bỏ (một người, ví dụ: đối với một nhận xét mang tính kích động)",
-          "hủy bỏ văn hóa"
+          "tẩy chay",
+          "cancel culture"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hủy bỏ (một người, ví dụ: đối với một nhận xét mang tính kích động); hủy bỏ văn hóa",
+            "meaning": "tẩy chay một cá nhân vì phát ngôn hoặc hành động gây tranh cãi",
             "examples": []
           }
         ]
@@ -499,15 +523,16 @@
     "senses": [
       {
         "sense_id": 222204,
-        "meaning_vi": "phi nước kiệu",
-        "confidence": "high",
+        "meaning_vi": "nước kiệu",
+        "confidence": "medium",
         "search_keywords": [
-          "phi nước kiệu"
+          "nước kiệu",
+          "canter"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phi nước kiệu",
+            "meaning": "dáng chạy nước kiệu của ngựa",
             "examples": []
           }
         ]
@@ -521,11 +546,12 @@
     "senses": [
       {
         "sense_id": 222205,
-        "meaning_vi": "kẹo; đồ ngọt",
+        "meaning_vi": "kẹo",
         "confidence": "high",
         "search_keywords": [
           "kẹo",
-          "đồ ngọt"
+          "kẹo ngọt",
+          "candy"
         ],
         "meaning_vi_glosses": [
           {

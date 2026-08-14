@@ -6,10 +6,11 @@
     "senses": [
       {
         "sense_id": 222127,
-        "meaning_vi": "nhân viên thu ngân",
+        "meaning_vi": "thu ngân",
         "confidence": "high",
         "search_keywords": [
-          "nhân viên thu ngân"
+          "thu ngân",
+          "cashier"
         ],
         "meaning_vi_glosses": [
           {
@@ -31,12 +32,13 @@
         "meaning_vi": "bộ nhớ đệm",
         "confidence": "high",
         "search_keywords": [
-          "bộ nhớ đệm"
+          "bộ nhớ đệm",
+          "cache"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bộ nhớ đệm",
+            "meaning": "bộ nhớ đệm dùng để tăng tốc truy xuất dữ liệu",
             "examples": []
           }
         ]
@@ -50,16 +52,17 @@
     "senses": [
       {
         "sense_id": 222129,
-        "meaning_vi": "thẻ rút tiền mặt; thẻ ATM",
+        "meaning_vi": "thẻ ATM",
         "confidence": "high",
         "search_keywords": [
-          "thẻ rút tiền mặt",
-          "thẻ ATM"
+          "thẻ ATM",
+          "thẻ rút tiền",
+          "cash card"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "thẻ rút tiền mặt; thẻ ATM",
+            "meaning": "thẻ dùng để rút tiền tại ATM",
             "examples": []
           }
         ]
@@ -73,18 +76,17 @@
     "senses": [
       {
         "sense_id": 222130,
-        "meaning_vi": "máy rút tiền tự động; ATM; người giao dịch linh hoạt; lỗ trên tường",
+        "meaning_vi": "khu vực ATM",
         "confidence": "high",
         "search_keywords": [
-          "máy rút tiền tự động",
-          "ATM",
-          "người giao dịch linh hoạt",
-          "lỗ trên tường"
+          "khu vực ATM",
+          "góc ATM",
+          "khu máy rút tiền"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "máy rút tiền tự động; ATM; người giao dịch linh hoạt; lỗ trên tường",
+            "meaning": "khu vực đặt máy ATM để rút tiền và thực hiện giao dịch ngân hàng tự động",
             "examples": []
           }
         ]
@@ -101,12 +103,14 @@
         "meaning_vi": "sổ quỹ tiền mặt",
         "confidence": "high",
         "search_keywords": [
-          "sổ quỹ tiền mặt"
+          "sổ quỹ",
+          "sổ quỹ tiền mặt",
+          "cashbook"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sổ quỹ tiền mặt",
+            "meaning": "sổ ghi chép thu chi tiền mặt",
             "examples": []
           }
         ]
@@ -120,15 +124,16 @@
     "senses": [
       {
         "sense_id": 222132,
-        "meaning_vi": "hòm đựng tiền",
+        "meaning_vi": "hộp đựng tiền",
         "confidence": "high",
         "search_keywords": [
-          "hòm đựng tiền"
+          "hộp đựng tiền",
+          "cash box"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hòm đựng tiền",
+            "meaning": "hộp dùng để cất giữ tiền mặt",
             "examples": []
           }
         ]
@@ -142,16 +147,17 @@
     "senses": [
       {
         "sense_id": 222133,
-        "meaning_vi": "máy rút tiền; máy rút tiền tự động",
+        "meaning_vi": "máy ATM",
         "confidence": "high",
         "search_keywords": [
+          "ATM",
           "máy rút tiền",
-          "máy rút tiền tự động"
+          "cash machine"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "máy rút tiền; máy rút tiền tự động",
+            "meaning": "máy rút tiền tự động",
             "examples": []
           }
         ]
@@ -168,12 +174,14 @@
         "meaning_vi": "không dùng tiền mặt",
         "confidence": "high",
         "search_keywords": [
-          "không dùng tiền mặt"
+          "không tiền mặt",
+          "thanh toán điện tử",
+          "cashless"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "không dùng tiền mặt",
+            "meaning": "không sử dụng tiền mặt trong thanh toán",
             "examples": []
           }
         ]
@@ -187,15 +195,16 @@
     "senses": [
       {
         "sense_id": 222135,
-        "meaning_vi": "bộ nhớ đệm",
+        "meaning_vi": "lưu bộ nhớ đệm",
         "confidence": "high",
         "search_keywords": [
-          "bộ nhớ đệm"
+          "caching",
+          "lưu cache"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bộ nhớ đệm",
+            "meaning": "quá trình lưu dữ liệu vào bộ nhớ đệm",
             "examples": []
           }
         ]
@@ -212,12 +221,13 @@
         "meaning_vi": "lâu đài",
         "confidence": "high",
         "search_keywords": [
-          "lâu đài"
+          "lâu đài",
+          "castle"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "lâu đài",
+            "meaning": "lâu đài hoặc thành trì",
             "examples": []
           }
         ]
@@ -231,65 +241,65 @@
     "senses": [
       {
         "sense_id": 222137,
-        "meaning_vi": "nắm lấy; đánh bắt; thu thập (ví dụ: thông tin); nhận (ví dụ: truyền sóng vô tuyến hoặc cuộc gọi điện thoại)",
+        "meaning_vi": "bắt; thu nhận",
         "confidence": "high",
         "search_keywords": [
-          "nắm lấy",
-          "đánh bắt",
-          "thu thập (ví dụ: thông tin)",
-          "nhận (ví dụ: truyền sóng vô tuyến hoặc cuộc gọi điện thoại)"
+          "bắt lấy",
+          "thu nhận",
+          "nhận tín hiệu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nắm lấy; đánh bắt; thu thập (ví dụ: thông tin); nhận (ví dụ: truyền sóng vô tuyến hoặc cuộc gọi điện thoại)",
+            "meaning": "bắt lấy; tiếp nhận thông tin hoặc tín hiệu",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222138,
-        "meaning_vi": "bắt",
+        "meaning_vi": "bắt bóng",
         "confidence": "high",
         "search_keywords": [
-          "bắt"
+          "bắt bóng",
+          "catch bóng chày"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bắt",
+            "meaning": "động tác bắt bóng trong bóng chày",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222139,
-        "meaning_vi": "chào hàng; người kéo vào",
+        "meaning_vi": "người chèo kéo khách",
         "confidence": "high",
         "search_keywords": [
-          "chào hàng",
-          "người kéo vào"
+          "chèo kéo khách",
+          "cò mồi"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chào hàng; người kéo vào",
+            "meaning": "người đứng ngoài đường để lôi kéo khách vào cửa hàng",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222140,
-        "meaning_vi": "đánh bắt (trong bơi lội và chèo thuyền); bắt nước",
-        "confidence": "high",
+        "meaning_vi": "bắt nước",
+        "confidence": "medium",
         "search_keywords": [
-          "đánh bắt (trong bơi lội và chèo thuyền)",
-          "bắt nước"
+          "bắt nước",
+          "catch trong bơi"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đánh bắt (trong bơi lội và chèo thuyền); bắt nước",
+            "meaning": "động tác quạt và giữ nước khi bơi hoặc chèo thuyền",
             "examples": []
           }
         ]
@@ -299,27 +309,29 @@
         "meaning_vi": "người bắt bóng",
         "confidence": "high",
         "search_keywords": [
+          "catcher",
           "người bắt bóng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người bắt bóng",
+            "meaning": "vị trí catcher trong bóng chày",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222142,
-        "meaning_vi": "chờ cuộc gọi",
+        "meaning_vi": "cuộc gọi chờ",
         "confidence": "high",
         "search_keywords": [
-          "chờ cuộc gọi"
+          "cuộc gọi chờ",
+          "call waiting"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chờ cuộc gọi",
+            "meaning": "chức năng báo có cuộc gọi khác trong lúc đang đàm thoại",
             "examples": []
           }
         ]
@@ -333,15 +345,16 @@
     "senses": [
       {
         "sense_id": 222143,
-        "meaning_vi": "hành vi bán hàng vô đạo đức liên quan đến các hợp đồng đắt tiền khó phá vỡ",
+        "meaning_vi": "bán hàng chèo kéo",
         "confidence": "high",
         "search_keywords": [
-          "hành vi bán hàng vô đạo đức liên quan đến các hợp đồng đắt tiền khó phá vỡ"
+          "bán hàng chèo kéo",
+          "ép mua hàng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hành vi bán hàng vô đạo đức liên quan đến các hợp đồng đắt tiền khó phá vỡ",
+            "meaning": "hình thức bán hàng lôi kéo và ép khách ký hợp đồng bất lợi",
             "examples": []
           }
         ]
@@ -355,15 +368,16 @@
     "senses": [
       {
         "sense_id": 222144,
-        "meaning_vi": "kẹp khớp",
-        "confidence": "high",
+        "meaning_vi": "quán lừa khách",
+        "confidence": "medium",
         "search_keywords": [
-          "kẹp khớp"
+          "quán lừa khách",
+          "clip joint"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kẹp khớp",
+            "meaning": "quán dùng cò mồi để dụ khách và tính phí quá cao",
             "examples": []
           }
         ]
@@ -377,15 +391,17 @@
     "senses": [
       {
         "sense_id": 222145,
-        "meaning_vi": "khẩu hiệu",
+        "meaning_vi": "khẩu hiệu quảng cáo",
         "confidence": "high",
         "search_keywords": [
-          "khẩu hiệu"
+          "khẩu hiệu",
+          "slogan",
+          "catchphrase"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "khẩu hiệu",
+            "meaning": "câu khẩu hiệu ngắn gây ấn tượng",
             "examples": []
           }
         ]
@@ -399,15 +415,16 @@
     "senses": [
       {
         "sense_id": 222146,
-        "meaning_vi": "chờ cuộc gọi",
+        "meaning_vi": "cuộc gọi chờ",
         "confidence": "high",
         "search_keywords": [
-          "chờ cuộc gọi"
+          "cuộc gọi chờ",
+          "call waiting"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chờ cuộc gọi",
+            "meaning": "dịch vụ thông báo cuộc gọi đến khi đang nói chuyện",
             "examples": []
           }
         ]
@@ -421,30 +438,32 @@
     "senses": [
       {
         "sense_id": 222147,
-        "meaning_vi": "người bắt bóng",
+        "meaning_vi": "cầu thủ bắt bóng",
         "confidence": "high",
         "search_keywords": [
-          "người bắt bóng"
+          "catcher",
+          "bắt bóng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người bắt bóng",
+            "meaning": "vị trí catcher trong bóng chày",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222148,
-        "meaning_vi": "người bắt (người hoặc thiết bị)",
+        "meaning_vi": "thiết bị hứng",
         "confidence": "high",
         "search_keywords": [
-          "người bắt (người hoặc thiết bị)"
+          "thiết bị hứng",
+          "catcher"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người bắt (người hoặc thiết bị)",
+            "meaning": "người hoặc thiết bị dùng để giữ, hứng hoặc bắt vật gì đó",
             "examples": []
           }
         ]
@@ -458,15 +477,16 @@
     "senses": [
       {
         "sense_id": 222149,
-        "meaning_vi": "khẩu hiệu",
+        "meaning_vi": "từ khóa nổi bật",
         "confidence": "high",
         "search_keywords": [
-          "khẩu hiệu"
+          "từ khóa",
+          "catchword"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "khẩu hiệu",
+            "meaning": "từ hoặc cụm từ gây chú ý, mang tính biểu tượng",
             "examples": []
           }
         ]
@@ -480,30 +500,32 @@
     "senses": [
       {
         "sense_id": 222150,
-        "meaning_vi": "đá mắt mèo (đá bán quý)",
+        "meaning_vi": "đá mắt mèo",
         "confidence": "high",
         "search_keywords": [
-          "đá mắt mèo (đá bán quý)"
+          "đá mắt mèo",
+          "cat's eye"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đá mắt mèo (đá bán quý)",
+            "meaning": "loại đá quý có hiệu ứng giống mắt mèo",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222151,
-        "meaning_vi": "mắt mèo (đinh đường phản chiếu ánh sáng)",
+        "meaning_vi": "đinh phản quang",
         "confidence": "high",
         "search_keywords": [
-          "mắt mèo (đinh đường phản chiếu ánh sáng)"
+          "đinh phản quang",
+          "mắt mèo đường"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mắt mèo (đinh đường phản chiếu ánh sáng)",
+            "meaning": "đinh phản quang gắn trên mặt đường",
             "examples": []
           }
         ]
@@ -517,48 +539,48 @@
     "senses": [
       {
         "sense_id": 222152,
-        "meaning_vi": "sàn catwalk (lối đi hẹp phía trên sân khấu, dọc theo thành cầu, v.v.)",
+        "meaning_vi": "lối đi hẹp trên cao",
         "confidence": "high",
         "search_keywords": [
-          "sàn catwalk (lối đi hẹp phía trên sân khấu, dọc theo thành cầu, v.v.)"
+          "catwalk kỹ thuật",
+          "lối đi trên cao"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sàn catwalk (lối đi hẹp phía trên sân khấu, dọc theo thành cầu, v.v.)",
+            "meaning": "lối đi hẹp trên cao ở sân khấu hoặc công trình",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222153,
-        "meaning_vi": "(trong nhà) sân chơi cho mèo; kệ mèo; cầu mèo",
+        "meaning_vi": "cầu đi cho mèo",
         "confidence": "high",
         "search_keywords": [
-          "(trong nhà) sân chơi cho mèo",
-          "kệ mèo",
-          "cầu mèo"
+          "cầu cho mèo",
+          "kệ cho mèo"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "(trong nhà) sân chơi cho mèo; kệ mèo; cầu mèo",
+            "meaning": "lối đi hoặc giá leo trèo dành cho mèo trong nhà",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222154,
-        "meaning_vi": "sàn catwalk (tại một buổi trình diễn thời trang); đường băng",
+        "meaning_vi": "sàn diễn thời trang",
         "confidence": "high",
         "search_keywords": [
-          "sàn catwalk (tại một buổi trình diễn thời trang)",
-          "đường băng"
+          "sàn catwalk",
+          "sàn diễn"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sàn catwalk (tại một buổi trình diễn thời trang); đường băng",
+            "meaning": "đường băng trình diễn thời trang",
             "examples": []
           }
         ]
@@ -572,30 +594,32 @@
     "senses": [
       {
         "sense_id": 222155,
-        "meaning_vi": "mũ (mũ)",
+        "meaning_vi": "mũ lưỡi trai",
         "confidence": "high",
         "search_keywords": [
-          "mũ (mũ)"
+          "mũ lưỡi trai",
+          "cap"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mũ (mũ)",
+            "meaning": "mũ lưỡi trai hoặc mũ mềm có vành",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222156,
-        "meaning_vi": "nắp (của chai, bút, v.v.)",
+        "meaning_vi": "nắp đậy",
         "confidence": "high",
         "search_keywords": [
-          "nắp (của chai, bút, v.v.)"
+          "nắp chai",
+          "nắp đậy"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nắp (của chai, bút, v.v.)",
+            "meaning": "nắp của chai, bút hoặc vật chứa khác",
             "examples": []
           }
         ]

@@ -6,15 +6,17 @@
     "senses": [
       {
         "sense_id": 222024,
-        "meaning_vi": "gara",
+        "meaning_vi": "ga ra",
         "confidence": "high",
         "search_keywords": [
-          "gara"
+          "ga ra",
+          "nhà để xe",
+          "garage"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gara",
+            "meaning": "ga ra; nhà để xe",
             "examples": []
           }
         ]
@@ -28,15 +30,17 @@
     "senses": [
       {
         "sense_id": 222025,
-        "meaning_vi": "bán gara",
+        "meaning_vi": "bán đồ cũ tại nhà",
         "confidence": "high",
         "search_keywords": [
-          "bán gara"
+          "bán đồ cũ",
+          "garage sale",
+          "bán đồ tại nhà"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bán gara",
+            "meaning": "buổi bán đồ cũ tại nhà hoặc trước ga ra",
             "examples": []
           }
         ]
@@ -51,14 +55,15 @@
       {
         "sense_id": 222026,
         "meaning_vi": "gallon",
-        "confidence": "low",
+        "confidence": "high",
         "search_keywords": [
-          "gallon"
+          "gallon",
+          "đơn vị gallon"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gallon",
+            "meaning": "gallon; đơn vị đo dung tích",
             "examples": []
           }
         ]
@@ -75,7 +80,8 @@
         "meaning_vi": "súng",
         "confidence": "high",
         "search_keywords": [
-          "súng"
+          "súng",
+          "gun"
         ],
         "meaning_vi_glosses": [
           {
@@ -94,53 +100,51 @@
     "senses": [
       {
         "sense_id": 222028,
-        "meaning_vi": "kêu vang; đập; đang bùng nổ; lớn tiếng",
+        "meaning_vi": "ầm ầm",
         "confidence": "high",
         "search_keywords": [
-          "kêu vang",
-          "đập",
-          "đang bùng nổ",
-          "lớn tiếng"
+          "ầm ầm",
+          "vang dội",
+          "đinh tai"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kêu vang; đập; đang bùng nổ; lớn tiếng",
+            "meaning": "tiếng vang lớn, ầm ầm hoặc chói tai",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222029,
-        "meaning_vi": "đau nhói (đau đầu); đập mạnh; chia tách",
+        "meaning_vi": "đau nhói",
         "confidence": "high",
         "search_keywords": [
-          "đau nhói (đau đầu)",
-          "đập mạnh",
-          "chia tách"
+          "đau nhói",
+          "đau như búa bổ",
+          "đau đầu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đau nhói (đau đầu); đập mạnh; chia tách",
+            "meaning": "đau đầu dữ dội, nhức như búa bổ",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222030,
-        "meaning_vi": "đầy đủ; mạnh mẽ; chăm chỉ (ví dụ: làm việc); thẳng thừng",
+        "meaning_vi": "hết sức",
         "confidence": "high",
         "search_keywords": [
-          "đầy đủ",
-          "mạnh mẽ",
-          "chăm chỉ (ví dụ: làm việc)",
-          "thẳng thừng"
+          "hết sức",
+          "hăng hái",
+          "làm hết mình"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đầy đủ; mạnh mẽ; chăm chỉ (ví dụ: làm việc); thẳng thừng",
+            "meaning": "hết sức; rất hăng; làm mạnh mẽ, liên tục",
             "examples": []
           }
         ]
@@ -157,12 +161,13 @@
         "meaning_vi": "cửa hàng súng",
         "confidence": "high",
         "search_keywords": [
-          "cửa hàng súng"
+          "cửa hàng súng",
+          "gun shop"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cửa hàng súng",
+            "meaning": "cửa hàng bán súng",
             "examples": []
           }
         ]
@@ -177,14 +182,16 @@
       {
         "sense_id": 222032,
         "meaning_vi": "Gandhi",
-        "confidence": "low",
+        "confidence": "high",
         "search_keywords": [
-          "Gandhi"
+          "Gandhi",
+          "Mahatma Gandhi",
+          "Gan-đi"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Gandhi",
+            "meaning": "Gandhi; tên người Ấn Độ, thường chỉ Mahatma Gandhi",
             "examples": []
           }
         ]
@@ -201,12 +208,14 @@
         "meaning_vi": "tay súng",
         "confidence": "high",
         "search_keywords": [
-          "tay súng"
+          "tay súng",
+          "đấu súng",
+          "gunfighter"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tay súng",
+            "meaning": "tay súng; người chuyên đấu súng",
             "examples": []
           }
         ]
@@ -223,12 +232,14 @@
         "meaning_vi": "cuộc đấu súng",
         "confidence": "high",
         "search_keywords": [
-          "cuộc đấu súng"
+          "đấu súng",
+          "cuộc đấu súng",
+          "gunfight"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cuộc đấu súng",
+            "meaning": "cuộc đấu súng; trận giao tranh bằng súng",
             "examples": []
           }
         ]
@@ -242,15 +253,17 @@
     "senses": [
       {
         "sense_id": 222035,
-        "meaning_vi": "đai súng",
+        "meaning_vi": "đai đeo súng",
         "confidence": "high",
         "search_keywords": [
-          "đai súng"
+          "đai đeo súng",
+          "thắt lưng súng",
+          "gun belt"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đai súng",
+            "meaning": "đai hoặc thắt lưng dùng để đeo súng",
             "examples": []
           }
         ]
@@ -264,16 +277,22 @@
     "senses": [
       {
         "sense_id": 222036,
-        "meaning_vi": "kẹo cao su; đậu bắp",
-        "confidence": "high",
+        "meaning_vi": "gumbo",
+        "confidence": "medium",
         "search_keywords": [
-          "kẹo cao su",
-          "đậu bắp"
+          "gumbo",
+          "đậu bắp",
+          "món súp gumbo"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kẹo cao su; đậu bắp",
+            "meaning": "gumbo; món súp hầm kiểu Mỹ",
+            "examples": []
+          },
+          {
+            "index": 2,
+            "meaning": "đậu bắp",
             "examples": []
           }
         ]
@@ -288,14 +307,16 @@
       {
         "sense_id": 222037,
         "meaning_vi": "gamma",
-        "confidence": "low",
+        "confidence": "high",
         "search_keywords": [
-          "gamma"
+          "gamma",
+          "chữ gamma",
+          "Γ"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gamma",
+            "meaning": "gamma; chữ cái thứ ba trong bảng chữ cái Hy Lạp",
             "examples": []
           }
         ]
@@ -309,16 +330,17 @@
     "senses": [
       {
         "sense_id": 222038,
-        "meaning_vi": "tay súng (đặc biệt ở miền Tây nước Mỹ cũ); tay súng; tay súng",
+        "meaning_vi": "tay súng miền Tây",
         "confidence": "high",
         "search_keywords": [
-          "tay súng (đặc biệt ở miền Tây nước Mỹ cũ)",
-          "tay súng"
+          "tay súng",
+          "cao bồi đấu súng",
+          "gunman"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tay súng (đặc biệt ở miền Tây nước Mỹ cũ); tay súng; tay súng",
+            "meaning": "tay súng, nhất là trong miền Tây nước Mỹ xưa",
             "examples": []
           }
         ]
@@ -332,16 +354,22 @@
     "senses": [
       {
         "sense_id": 222039,
-        "meaning_vi": "phân loại động từ tiếng Nhật có dạng từ điển kết thúc bằng “gu”; cột hoặc hàng \"ga\" của âm tiết kana",
+        "meaning_vi": "hàng ga",
         "confidence": "high",
         "search_keywords": [
-          "phân loại động từ tiếng Nhật có dạng từ điển kết thúc bằng “gu”",
-          "cột hoặc hàng \"ga\" của âm tiết kana"
+          "hàng ga",
+          "hàng ガ",
+          "động từ đuôi gu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phân loại động từ tiếng Nhật có dạng từ điển kết thúc bằng “gu”; cột hoặc hàng \"ga\" của âm tiết kana",
+            "meaning": "hàng ガ trong bảng kana",
+            "examples": []
+          },
+          {
+            "index": 2,
+            "meaning": "nhóm động từ tiếng Nhật có dạng từ điển kết thúc bằng ぐ",
             "examples": []
           }
         ]
@@ -355,77 +383,85 @@
     "senses": [
       {
         "sense_id": 222040,
-        "meaning_vi": "chìa khóa (để mở khóa)",
+        "meaning_vi": "chìa khóa",
         "confidence": "high",
         "search_keywords": [
-          "chìa khóa (để mở khóa)"
+          "chìa khóa",
+          "khóa",
+          "key"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chìa khóa (để mở khóa)",
+            "meaning": "chìa khóa dùng để mở ổ khóa",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222041,
-        "meaning_vi": "phím (của piano, organ, bàn phím máy tính, v.v.)",
+        "meaning_vi": "phím",
         "confidence": "high",
         "search_keywords": [
-          "phím (của piano, organ, bàn phím máy tính, v.v.)"
+          "phím",
+          "phím đàn",
+          "phím máy tính"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phím (của piano, organ, bàn phím máy tính, v.v.)",
+            "meaning": "phím trên đàn piano, đàn organ hoặc bàn phím máy tính",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222042,
-        "meaning_vi": "chìa khóa",
+        "meaning_vi": "giọng",
         "confidence": "high",
         "search_keywords": [
-          "chìa khóa"
+          "giọng",
+          "tông nhạc",
+          "key nhạc"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chìa khóa",
+            "meaning": "giọng; tông trong âm nhạc",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222043,
-        "meaning_vi": "chìa khóa (để giải quyết điều gì đó); đầu mối",
+        "meaning_vi": "manh mối",
         "confidence": "high",
         "search_keywords": [
-          "chìa khóa (để giải quyết điều gì đó)",
-          "đầu mối"
+          "manh mối",
+          "chìa khóa giải quyết",
+          "gợi ý"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chìa khóa (để giải quyết điều gì đó); đầu mối",
+            "meaning": "manh mối; chìa khóa để giải quyết vấn đề",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222044,
-        "meaning_vi": "chìa khóa (người, điểm, v.v.); quan trọng nhất",
+        "meaning_vi": "chủ chốt",
         "confidence": "high",
         "search_keywords": [
-          "chìa khóa (người, điểm, v.v.)",
+          "chủ chốt",
+          "then chốt",
           "quan trọng nhất"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chìa khóa (người, điểm, v.v.); quan trọng nhất",
+            "meaning": "chủ chốt; then chốt; quan trọng nhất",
             "examples": []
           }
         ]
@@ -439,15 +475,17 @@
     "senses": [
       {
         "sense_id": 222045,
-        "meaning_vi": "cố vấn chủ chốt; cố vấn chủ chốt",
+        "meaning_vi": "cố vấn chủ chốt",
         "confidence": "high",
         "search_keywords": [
-          "cố vấn chủ chốt"
+          "cố vấn chủ chốt",
+          "cố vấn chính",
+          "key advisor"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cố vấn chủ chốt; cố vấn chủ chốt",
+            "meaning": "cố vấn chủ chốt; cố vấn quan trọng",
             "examples": []
           }
         ]
@@ -461,15 +499,17 @@
     "senses": [
       {
         "sense_id": 222046,
-        "meaning_vi": "ngành công nghiệp trọng điểm",
+        "meaning_vi": "ngành công nghiệp chủ chốt",
         "confidence": "high",
         "search_keywords": [
-          "ngành công nghiệp trọng điểm"
+          "ngành chủ chốt",
+          "ngành công nghiệp trọng điểm",
+          "key industry"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "ngành công nghiệp trọng điểm",
+            "meaning": "ngành công nghiệp chủ chốt; ngành trọng điểm",
             "examples": []
           }
         ]
@@ -486,12 +526,14 @@
         "meaning_vi": "đồng tiền chủ chốt",
         "confidence": "high",
         "search_keywords": [
-          "đồng tiền chủ chốt"
+          "đồng tiền chủ chốt",
+          "đồng tiền dự trữ",
+          "key currency"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đồng tiền chủ chốt",
+            "meaning": "đồng tiền chủ chốt trong giao dịch và dự trữ quốc tế",
             "examples": []
           }
         ]
@@ -505,15 +547,17 @@
     "senses": [
       {
         "sense_id": 222048,
-        "meaning_vi": "hộp đêm chỉ dành cho thành viên",
-        "confidence": "high",
+        "meaning_vi": "câu lạc bộ hội viên",
+        "confidence": "medium",
         "search_keywords": [
-          "hộp đêm chỉ dành cho thành viên"
+          "câu lạc bộ hội viên",
+          "hộp đêm hội viên",
+          "members-only nightclub"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hộp đêm chỉ dành cho thành viên",
+            "meaning": "hộp đêm hoặc câu lạc bộ chỉ dành cho hội viên",
             "examples": []
           }
         ]
@@ -527,16 +571,17 @@
     "senses": [
       {
         "sense_id": 222049,
-        "meaning_vi": "keysym; biểu tượng phím",
-        "confidence": "high",
+        "meaning_vi": "ký hiệu phím",
+        "confidence": "medium",
         "search_keywords": [
           "keysym",
-          "biểu tượng phím"
+          "ký hiệu phím",
+          "key symbol"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "keysym; biểu tượng phím",
+            "meaning": "ký hiệu phím trong hệ thống máy tính",
             "examples": []
           }
         ]

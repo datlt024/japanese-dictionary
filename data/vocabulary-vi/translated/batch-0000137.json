@@ -6,15 +6,16 @@
     "senses": [
       {
         "sense_id": 221981,
-        "meaning_vi": "tua bin khí",
+        "meaning_vi": "tuabin khí",
         "confidence": "high",
         "search_keywords": [
-          "tua bin khí"
+          "tuabin khí",
+          "gas turbine"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tua bin khí",
+            "meaning": "tuabin khí",
             "examples": []
           }
         ]
@@ -28,15 +29,16 @@
     "senses": [
       {
         "sense_id": 221982,
-        "meaning_vi": "công nhân nước ngoài",
+        "meaning_vi": "lao động nước ngoài",
         "confidence": "high",
         "search_keywords": [
+          "lao động nước ngoài",
           "công nhân nước ngoài"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "công nhân nước ngoài",
+            "meaning": "người lao động nước ngoài",
             "examples": []
           }
         ]
@@ -50,15 +52,16 @@
     "senses": [
       {
         "sense_id": 221983,
-        "meaning_vi": "máy chụp dạ dày",
+        "meaning_vi": "máy nội soi dạ dày",
         "confidence": "high",
         "search_keywords": [
-          "máy chụp dạ dày"
+          "máy nội soi dạ dày",
+          "gastrocamera"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "máy chụp dạ dày",
+            "meaning": "máy nội soi dạ dày",
             "examples": []
           }
         ]
@@ -72,15 +75,16 @@
     "senses": [
       {
         "sense_id": 221984,
-        "meaning_vi": "ẩm thực",
+        "meaning_vi": "ẩm thực học",
         "confidence": "high",
         "search_keywords": [
-          "ẩm thực"
+          "ẩm thực học",
+          "gastronomy"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "ẩm thực",
+            "meaning": "nghệ thuật và khoa học ẩm thực",
             "examples": []
           }
         ]
@@ -94,15 +98,16 @@
     "senses": [
       {
         "sense_id": 221985,
-        "meaning_vi": "nhà ẩm thực",
+        "meaning_vi": "chuyên gia ẩm thực",
         "confidence": "high",
         "search_keywords": [
-          "nhà ẩm thực"
+          "chuyên gia ẩm thực",
+          "gastronomist"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhà ẩm thực",
+            "meaning": "nhà nghiên cứu hoặc chuyên gia về ẩm thực",
             "examples": []
           }
         ]
@@ -116,15 +121,16 @@
     "senses": [
       {
         "sense_id": 221986,
-        "meaning_vi": "ẩm thực",
+        "meaning_vi": "thuộc ẩm thực",
         "confidence": "high",
         "search_keywords": [
-          "ẩm thực"
+          "thuộc ẩm thực",
+          "gastronomic"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "ẩm thực",
+            "meaning": "thuộc nghệ thuật hoặc văn hóa ẩm thực",
             "examples": []
           }
         ]
@@ -141,12 +147,13 @@
         "meaning_vi": "bình gas",
         "confidence": "high",
         "search_keywords": [
-          "bình gas"
+          "bình gas",
+          "bình khí gas"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bình gas",
+            "meaning": "bình chứa khí gas",
             "examples": []
           }
         ]
@@ -163,12 +170,13 @@
         "meaning_vi": "mặt nạ phòng độc",
         "confidence": "high",
         "search_keywords": [
-          "mặt nạ phòng độc"
+          "mặt nạ phòng độc",
+          "gas mask"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mặt nạ phòng độc",
+            "meaning": "mặt nạ bảo vệ khỏi khí độc",
             "examples": []
           }
         ]
@@ -182,15 +190,16 @@
     "senses": [
       {
         "sense_id": 221989,
-        "meaning_vi": "lớp lót đầu đốt bằng lá nhôm",
+        "meaning_vi": "tấm lót bếp gas",
         "confidence": "high",
         "search_keywords": [
-          "lớp lót đầu đốt bằng lá nhôm"
+          "tấm lót bếp gas",
+          "miếng lót bếp"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "lớp lót đầu đốt bằng lá nhôm",
+            "meaning": "tấm lót bằng nhôm dùng cho bếp gas",
             "examples": []
           }
         ]
@@ -204,15 +213,16 @@
     "senses": [
       {
         "sense_id": 221990,
-        "meaning_vi": "hết xăng (xăng)",
+        "meaning_vi": "hết xăng",
         "confidence": "high",
         "search_keywords": [
-          "hết xăng (xăng)"
+          "hết xăng",
+          "cạn xăng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hết xăng (xăng)",
+            "meaning": "xe bị cạn xăng, không còn nhiên liệu",
             "examples": []
           }
         ]
@@ -226,16 +236,16 @@
     "senses": [
       {
         "sense_id": 221991,
-        "meaning_vi": "vòi ga; vòi xăng",
+        "meaning_vi": "van gas",
         "confidence": "high",
         "search_keywords": [
-          "vòi ga",
-          "vòi xăng"
+          "van gas",
+          "khóa gas"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "vòi ga; vòi xăng",
+            "meaning": "van khóa đường dẫn khí gas",
             "examples": []
           }
         ]
@@ -250,14 +260,15 @@
       {
         "sense_id": 221992,
         "meaning_vi": "công báo",
-        "confidence": "high",
+        "confidence": "medium",
         "search_keywords": [
-          "công báo"
+          "công báo",
+          "gazette"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "công báo",
+            "meaning": "công báo; báo chính thức",
             "examples": []
           }
         ]
@@ -271,15 +282,16 @@
     "senses": [
       {
         "sense_id": 221993,
-        "meaning_vi": "xăng dầu",
+        "meaning_vi": "gasohol",
         "confidence": "high",
         "search_keywords": [
-          "xăng dầu"
+          "gasohol",
+          "xăng pha cồn"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "xăng dầu",
+            "meaning": "nhiên liệu xăng pha cồn sinh học",
             "examples": []
           }
         ]
@@ -293,15 +305,16 @@
     "senses": [
       {
         "sense_id": 221994,
-        "meaning_vi": "xăng dầu",
+        "meaning_vi": "gasohol",
         "confidence": "high",
         "search_keywords": [
-          "xăng dầu"
+          "gasohol",
+          "xăng pha cồn"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "xăng dầu",
+            "meaning": "nhiên liệu xăng pha cồn sinh học",
             "examples": []
           }
         ]
@@ -315,16 +328,17 @@
     "senses": [
       {
         "sense_id": 221995,
-        "meaning_vi": "xăng; xăng dầu",
+        "meaning_vi": "xăng",
         "confidence": "high",
         "search_keywords": [
           "xăng",
-          "xăng dầu"
+          "gasoline",
+          "petrol"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "xăng; xăng dầu",
+            "meaning": "xăng; nhiên liệu cho động cơ",
             "examples": []
           }
         ]
@@ -338,15 +352,17 @@
     "senses": [
       {
         "sense_id": 223210,
-        "meaning_vi": "Hàn Quốc",
-        "confidence": "high",
+        "meaning_vi": "Triều Tiên; Hàn Quốc",
+        "confidence": "medium",
         "search_keywords": [
+          "Korea",
+          "Triều Tiên",
           "Hàn Quốc"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Hàn Quốc",
+            "meaning": "bán đảo Triều Tiên; Hàn Quốc hoặc Triều Tiên tùy ngữ cảnh",
             "examples": []
           }
         ]
@@ -360,16 +376,16 @@
     "senses": [
       {
         "sense_id": 221996,
-        "meaning_vi": "trạm xăng; trạm xăng; trạm đổ xăng",
+        "meaning_vi": "trạm xăng",
         "confidence": "high",
         "search_keywords": [
           "trạm xăng",
-          "trạm đổ xăng"
+          "cây xăng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "trạm xăng; trạm xăng; trạm đổ xăng",
+            "meaning": "trạm cung cấp xăng dầu",
             "examples": []
           }
         ]
@@ -383,15 +399,17 @@
     "senses": [
       {
         "sense_id": 221997,
-        "meaning_vi": "can đảm",
+        "meaning_vi": "ý chí chiến đấu",
         "confidence": "high",
         "search_keywords": [
-          "can đảm"
+          "ý chí",
+          "quyết tâm",
+          "tinh thần chiến đấu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "can đảm",
+            "meaning": "ý chí; nghị lực; tinh thần không bỏ cuộc",
             "examples": []
           }
         ]
@@ -405,15 +423,16 @@
     "senses": [
       {
         "sense_id": 221998,
-        "meaning_vi": "tư thế chiến thắng (của một vận động viên, v.v.)",
+        "meaning_vi": "tư thế ăn mừng",
         "confidence": "high",
         "search_keywords": [
-          "tư thế chiến thắng (của một vận động viên, v.v.)"
+          "tư thế ăn mừng",
+          "pose chiến thắng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tư thế chiến thắng (của một vận động viên, v.v.)",
+            "meaning": "động tác ăn mừng chiến thắng của vận động viên",
             "examples": []
           }
         ]
@@ -427,16 +446,17 @@
     "senses": [
       {
         "sense_id": 221999,
-        "meaning_vi": "ruột (dùng làm vợt tennis, dây đàn violin...); ruột mèo",
-        "confidence": "high",
+        "meaning_vi": "dây ruột động vật",
+        "confidence": "medium",
         "search_keywords": [
-          "ruột (dùng làm vợt tennis, dây đàn violin...)",
-          "ruột mèo"
+          "catgut",
+          "dây vợt",
+          "dây đàn"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "ruột (dùng làm vợt tennis, dây đàn violin...); ruột mèo",
+            "meaning": "dây làm từ ruột động vật dùng cho vợt hoặc nhạc cụ",
             "examples": []
           }
         ]

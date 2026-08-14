@@ -6,15 +6,17 @@
     "senses": [
       {
         "sense_id": 222100,
-        "meaning_vi": "bộ đồ",
+        "meaning_vi": "bộ dụng cụ",
         "confidence": "high",
         "search_keywords": [
-          "bộ đồ"
+          "bộ dụng cụ",
+          "kit",
+          "bộ lắp ráp"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bộ đồ",
+            "meaning": "bộ dụng cụ hoặc bộ linh kiện đi kèm",
             "examples": []
           }
         ]
@@ -31,12 +33,14 @@
         "meaning_vi": "đứa trẻ",
         "confidence": "high",
         "search_keywords": [
-          "đứa trẻ"
+          "đứa trẻ",
+          "trẻ con",
+          "kid"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đứa trẻ",
+            "meaning": "trẻ em; đứa trẻ",
             "examples": []
           }
         ]
@@ -50,15 +54,17 @@
     "senses": [
       {
         "sense_id": 222102,
-        "meaning_vi": "kip (tiền Lào)",
+        "meaning_vi": "kip Lào",
         "confidence": "high",
         "search_keywords": [
-          "kip (tiền Lào)"
+          "kip Lào",
+          "kip",
+          "tiền Lào"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kip (tiền Lào)",
+            "meaning": "đơn vị tiền tệ của Lào",
             "examples": []
           }
         ]
@@ -72,15 +78,17 @@
     "senses": [
       {
         "sense_id": 222103,
-        "meaning_vi": "nhóc con; nhóc con",
+        "meaning_vi": "trẻ nhỏ",
         "confidence": "high",
         "search_keywords": [
-          "nhóc con"
+          "trẻ nhỏ",
+          "trẻ em",
+          "kiddie"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhóc con; nhóc con",
+            "meaning": "trẻ nhỏ; dành cho trẻ em",
             "examples": []
           }
         ]
@@ -94,15 +102,17 @@
     "senses": [
       {
         "sense_id": 222104,
-        "meaning_vi": "ký ninh",
+        "meaning_vi": "ký ninh (quinin)",
         "confidence": "high",
         "search_keywords": [
-          "ký ninh"
+          "ký ninh",
+          "quinin",
+          "quinine"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "ký ninh",
+            "meaning": "ký ninh (quinin); thuốc dùng điều trị sốt rét",
             "examples": []
           }
         ]
@@ -119,12 +129,13 @@
         "meaning_vi": "vận động học",
         "confidence": "high",
         "search_keywords": [
-          "vận động học"
+          "vận động học",
+          "kinesiology"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "vận động học",
+            "meaning": "ngành nghiên cứu chuyển động cơ thể",
             "examples": []
           }
         ]
@@ -138,15 +149,16 @@
     "senses": [
       {
         "sense_id": 222106,
-        "meaning_vi": "động học",
-        "confidence": "high",
+        "meaning_vi": "ngôn ngữ cơ thể học",
+        "confidence": "medium",
         "search_keywords": [
-          "động học"
+          "ngôn ngữ cơ thể",
+          "kinesics"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "động học",
+            "meaning": "nghiên cứu giao tiếp phi ngôn ngữ qua cử chỉ",
             "examples": []
           }
         ]
@@ -160,15 +172,16 @@
     "senses": [
       {
         "sense_id": 222107,
-        "meaning_vi": "nghệ thuật động học",
+        "meaning_vi": "nghệ thuật động",
         "confidence": "high",
         "search_keywords": [
-          "nghệ thuật động học"
+          "nghệ thuật động",
+          "kinetic art"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nghệ thuật động học",
+            "meaning": "loại hình nghệ thuật sử dụng chuyển động",
             "examples": []
           }
         ]
@@ -182,16 +195,16 @@
     "senses": [
       {
         "sense_id": 222108,
-        "meaning_vi": "chinoform; quinoform",
-        "confidence": "low",
+        "meaning_vi": "clioquinol",
+        "confidence": "medium",
         "search_keywords": [
-          "chinoform",
-          "quinoform"
+          "clioquinol",
+          "chinoform"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chinoform; quinoform",
+            "meaning": "thuốc kháng khuẩn clioquinol",
             "examples": []
           }
         ]
@@ -206,14 +219,15 @@
       {
         "sense_id": 222109,
         "meaning_vi": "kibbutz",
-        "confidence": "low",
+        "confidence": "high",
         "search_keywords": [
-          "kibbutz"
+          "kibbutz",
+          "công xã Israel"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kibbutz",
+            "meaning": "cộng đồng nông nghiệp tập thể ở Israel",
             "examples": []
           }
         ]
@@ -227,15 +241,16 @@
     "senses": [
       {
         "sense_id": 222110,
-        "meaning_vi": "kim chi; kim chi",
+        "meaning_vi": "kim chi",
         "confidence": "high",
         "search_keywords": [
-          "kim chi"
+          "kim chi",
+          "kimchi"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kim chi; kim chi",
+            "meaning": "món rau củ muối cay của Hàn Quốc",
             "examples": []
           }
         ]
@@ -249,32 +264,32 @@
     "senses": [
       {
         "sense_id": 222111,
-        "meaning_vi": "chimera; chimaera",
-        "confidence": "low",
+        "meaning_vi": "Chimera",
+        "confidence": "high",
         "search_keywords": [
-          "chimera",
-          "chimaera"
+          "Chimera",
+          "quái vật Chimera"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chimera; chimaera",
+            "meaning": "quái vật Chimera trong thần thoại Hy Lạp",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222112,
-        "meaning_vi": "chimera; chimaera",
-        "confidence": "low",
+        "meaning_vi": "thể khảm",
+        "confidence": "high",
         "search_keywords": [
-          "chimera",
-          "chimaera"
+          "thể khảm",
+          "chimera sinh học"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chimera; chimaera",
+            "meaning": "cá thể chứa tế bào từ nhiều nguồn di truyền khác nhau",
             "examples": []
           }
         ]
@@ -288,15 +303,16 @@
     "senses": [
       {
         "sense_id": 222113,
-        "meaning_vi": "kymograph",
-        "confidence": "low",
+        "meaning_vi": "máy ghi dao động",
+        "confidence": "medium",
         "search_keywords": [
+          "máy ghi dao động",
           "kymograph"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kymograph",
+            "meaning": "thiết bị ghi lại các biến đổi theo thời gian",
             "examples": []
           }
         ]
@@ -310,33 +326,33 @@
     "senses": [
       {
         "sense_id": 222114,
-        "meaning_vi": "người đẩy xe",
-        "confidence": "high",
+        "meaning_vi": "bánh xe xoay",
+        "confidence": "medium",
         "search_keywords": [
-          "người đẩy xe"
+          "bánh xe xoay",
+          "caster"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người đẩy xe",
+            "meaning": "bánh xe nhỏ gắn vào đồ nội thất hoặc thiết bị",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222115,
-        "meaning_vi": "phát thanh viên; người đưa tin; người neo đậu; người dẫn chương trình",
+        "meaning_vi": "người dẫn chương trình tin tức",
         "confidence": "high",
         "search_keywords": [
-          "phát thanh viên",
-          "người đưa tin",
-          "người neo đậu",
-          "người dẫn chương trình"
+          "MC tin tức",
+          "người dẫn bản tin",
+          "newscaster"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phát thanh viên; người đưa tin; người neo đậu; người dẫn chương trình",
+            "meaning": "người dẫn hoặc biên tập chương trình thời sự",
             "examples": []
           }
         ]
@@ -350,30 +366,32 @@
     "senses": [
       {
         "sense_id": 222116,
-        "meaning_vi": "phân vai (đóng vai)",
+        "meaning_vi": "phân vai",
         "confidence": "high",
         "search_keywords": [
-          "phân vai (đóng vai)"
+          "phân vai",
+          "casting"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phân vai (đóng vai)",
+            "meaning": "việc lựa chọn diễn viên cho vai diễn",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222117,
-        "meaning_vi": "vật đúc",
+        "meaning_vi": "quăng cần câu",
         "confidence": "high",
         "search_keywords": [
-          "vật đúc"
+          "quăng câu",
+          "casting câu cá"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "vật đúc",
+            "meaning": "động tác ném dây câu khi câu cá",
             "examples": []
           }
         ]
@@ -387,30 +405,32 @@
     "senses": [
       {
         "sense_id": 222118,
-        "meaning_vi": "bỏ phiếu",
+        "meaning_vi": "lá phiếu quyết định",
         "confidence": "high",
         "search_keywords": [
-          "bỏ phiếu"
+          "lá phiếu quyết định",
+          "casting vote"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bỏ phiếu",
+            "meaning": "lá phiếu mang tính quyết định kết quả",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222119,
-        "meaning_vi": "cân bằng quyền lực (do một đảng thiểu số nắm giữ)",
-        "confidence": "high",
+        "meaning_vi": "thế cân bằng quyền lực",
+        "confidence": "medium",
         "search_keywords": [
-          "cân bằng quyền lực (do một đảng thiểu số nắm giữ)"
+          "cân bằng quyền lực",
+          "đảng thiểu số then chốt"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cân bằng quyền lực (do một đảng thiểu số nắm giữ)",
+            "meaning": "vị thế nắm quyền quyết định của phe thiểu số",
             "examples": []
           }
         ]
@@ -424,15 +444,16 @@
     "senses": [
       {
         "sense_id": 222120,
-        "meaning_vi": "Castilian",
-        "confidence": "low",
+        "meaning_vi": "Castilia",
+        "confidence": "medium",
         "search_keywords": [
+          "Castilia",
           "Castilian"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Castilian",
+            "meaning": "người hoặc ngôn ngữ Castilia của Tây Ban Nha",
             "examples": []
           }
         ]
@@ -446,62 +467,64 @@
     "senses": [
       {
         "sense_id": 222121,
-        "meaning_vi": "dàn diễn viên (của một bộ phim, vở kịch, v.v.); diễn viên; vai trò",
+        "meaning_vi": "dàn diễn viên",
         "confidence": "high",
         "search_keywords": [
-          "dàn diễn viên (của một bộ phim, vở kịch, v.v.)",
-          "diễn viên",
-          "vai trò"
+          "dàn diễn viên",
+          "cast"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "dàn diễn viên (của một bộ phim, vở kịch, v.v.); diễn viên; vai trò",
+            "meaning": "dàn diễn viên hoặc vai diễn trong tác phẩm",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222122,
-        "meaning_vi": "truyền (một dòng)",
+        "meaning_vi": "quăng câu",
         "confidence": "high",
         "search_keywords": [
-          "truyền (một dòng)"
+          "quăng câu",
+          "cast câu cá"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "truyền (một dòng)",
+            "meaning": "ném dây câu khi câu cá",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222123,
-        "meaning_vi": "truyền (video, âm thanh, v.v.)",
+        "meaning_vi": "truyền phát",
         "confidence": "high",
         "search_keywords": [
-          "truyền (video, âm thanh, v.v.)"
+          "cast màn hình",
+          "truyền phát"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "truyền (video, âm thanh, v.v.)",
+            "meaning": "truyền hình ảnh hoặc âm thanh sang thiết bị khác",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222124,
-        "meaning_vi": "(loại) sự đúc",
+        "meaning_vi": "ép kiểu dữ liệu",
         "confidence": "high",
         "search_keywords": [
-          "(loại) sự đúc"
+          "ép kiểu dữ liệu",
+          "type casting"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "(loại) sự đúc",
+            "meaning": "chuyển đổi kiểu dữ liệu trong lập trình",
             "examples": []
           }
         ]
@@ -515,15 +538,16 @@
     "senses": [
       {
         "sense_id": 222125,
-        "meaning_vi": "món thịt hầm",
+        "meaning_vi": "nồi casserole",
         "confidence": "high",
         "search_keywords": [
-          "món thịt hầm"
+          "nồi casserole",
+          "casserole"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "món thịt hầm",
+            "meaning": "nồi chịu nhiệt hoặc món hầm kiểu casserole",
             "examples": []
           }
         ]
@@ -537,16 +561,17 @@
     "senses": [
       {
         "sense_id": 222126,
-        "meaning_vi": "đường ray sâu bướm; theo dõi liên tục",
+        "meaning_vi": "bánh xích",
         "confidence": "high",
         "search_keywords": [
-          "đường ray sâu bướm",
-          "theo dõi liên tục"
+          "bánh xích",
+          "xích xe tăng",
+          "caterpillar track"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đường ray sâu bướm; theo dõi liên tục",
+            "meaning": "hệ thống xích liên tục của xe tăng hoặc máy công trình",
             "examples": []
           }
         ]

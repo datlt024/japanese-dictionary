@@ -9,12 +9,14 @@
         "meaning_vi": "hướng dẫn",
         "confidence": "high",
         "search_keywords": [
-          "hướng dẫn"
+          "hướng dẫn",
+          "chỉ dẫn",
+          "orientation"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hướng dẫn",
+            "meaning": "hướng dẫn; chỉ dẫn; buổi định hướng",
             "examples": []
           }
         ]
@@ -28,18 +30,22 @@
     "senses": [
       {
         "sense_id": 221951,
-        "meaning_vi": "hướng dẫn; hướng dẫn viên du lịch; nhạc trưởng; hướng dẫn; dẫn đầu",
+        "meaning_vi": "hướng dẫn viên",
         "confidence": "high",
         "search_keywords": [
-          "hướng dẫn",
-          "hướng dẫn viên du lịch",
-          "nhạc trưởng",
-          "dẫn đầu"
+          "hướng dẫn viên",
+          "người dẫn đường",
+          "hướng dẫn"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hướng dẫn; hướng dẫn viên du lịch; nhạc trưởng; hướng dẫn; dẫn đầu",
+            "meaning": "hướng dẫn viên; người dẫn đường",
+            "examples": []
+          },
+          {
+            "index": 2,
+            "meaning": "hướng dẫn; dẫn dắt",
             "examples": []
           }
         ]
@@ -49,28 +55,29 @@
         "meaning_vi": "sách hướng dẫn",
         "confidence": "high",
         "search_keywords": [
-          "sách hướng dẫn"
+          "sách hướng dẫn",
+          "guidebook"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sách hướng dẫn",
+            "meaning": "sách hướng dẫn; cẩm nang",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 221953,
-        "meaning_vi": "hướng dẫn (trên cần câu); vòng dẫn hướng",
-        "confidence": "high",
+        "meaning_vi": "khoen dẫn dây",
+        "confidence": "medium",
         "search_keywords": [
-          "hướng dẫn (trên cần câu)",
-          "vòng dẫn hướng"
+          "khoen dẫn dây",
+          "guide ring"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hướng dẫn (trên cần câu); vòng dẫn hướng",
+            "meaning": "khoen dẫn dây câu; vòng dẫn dây cần câu",
             "examples": []
           }
         ]
@@ -84,15 +91,16 @@
     "senses": [
       {
         "sense_id": 221954,
-        "meaning_vi": "số hướng dẫn",
-        "confidence": "high",
+        "meaning_vi": "chỉ số GN",
+        "confidence": "medium",
         "search_keywords": [
-          "số hướng dẫn"
+          "guide number",
+          "chỉ số GN"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "số hướng dẫn",
+            "meaning": "guide number; chỉ số công suất đèn flash",
             "examples": []
           }
         ]
@@ -109,12 +117,14 @@
         "meaning_vi": "sách hướng dẫn",
         "confidence": "high",
         "search_keywords": [
-          "sách hướng dẫn"
+          "sách hướng dẫn",
+          "cẩm nang",
+          "guidebook"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sách hướng dẫn",
+            "meaning": "sách hướng dẫn; cẩm nang",
             "examples": []
           }
         ]
@@ -128,15 +138,16 @@
     "senses": [
       {
         "sense_id": 221956,
-        "meaning_vi": "cột hướng dẫn",
+        "meaning_vi": "cột chỉ đường",
         "confidence": "high",
         "search_keywords": [
-          "cột hướng dẫn"
+          "cột chỉ đường",
+          "biển chỉ dẫn"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cột hướng dẫn",
+            "meaning": "cột chỉ đường; biển chỉ dẫn",
             "examples": []
           }
         ]
@@ -153,12 +164,14 @@
         "meaning_vi": "hướng dẫn",
         "confidence": "high",
         "search_keywords": [
-          "hướng dẫn"
+          "hướng dẫn",
+          "quy chuẩn",
+          "guideline"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hướng dẫn",
+            "meaning": "hướng dẫn; nguyên tắc chỉ đạo; quy chuẩn",
             "examples": []
           }
         ]
@@ -173,14 +186,15 @@
       {
         "sense_id": 221958,
         "meaning_vi": "Gaussian",
-        "confidence": "low",
+        "confidence": "medium",
         "search_keywords": [
-          "Gaussian"
+          "Gaussian",
+          "phân bố Gauss"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Gaussian",
+            "meaning": "Gaussian; liên quan đến phân bố Gauss",
             "examples": []
           }
         ]
@@ -195,14 +209,15 @@
       {
         "sense_id": 221959,
         "meaning_vi": "gauss",
-        "confidence": "low",
+        "confidence": "high",
         "search_keywords": [
-          "gauss"
+          "gauss",
+          "đơn vị gauss"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gauss",
+            "meaning": "gauss; đơn vị đo cảm ứng từ",
             "examples": []
           }
         ]
@@ -216,15 +231,16 @@
     "senses": [
       {
         "sense_id": 221960,
-        "meaning_vi": "cao bồi",
-        "confidence": "high",
+        "meaning_vi": "cao bồi Nam Mỹ",
+        "confidence": "medium",
         "search_keywords": [
-          "cao bồi"
+          "gaucho",
+          "cao bồi Nam Mỹ"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cao bồi",
+            "meaning": "gaucho; người chăn gia súc vùng Nam Mỹ",
             "examples": []
           }
         ]
@@ -234,12 +250,13 @@
         "meaning_vi": "quần gaucho",
         "confidence": "high",
         "search_keywords": [
-          "quần gaucho"
+          "quần gaucho",
+          "quần ống rộng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "quần gaucho",
+            "meaning": "quần gaucho; quần ống rộng lửng",
             "examples": []
           }
         ]
@@ -261,7 +278,7 @@
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mũ gaucho",
+            "meaning": "mũ kiểu gaucho",
             "examples": []
           }
         ]
@@ -278,12 +295,13 @@
         "meaning_vi": "quần gaucho",
         "confidence": "high",
         "search_keywords": [
-          "quần gaucho"
+          "quần gaucho",
+          "quần ống rộng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "quần gaucho",
+            "meaning": "quần gaucho; quần ống rộng lửng",
             "examples": []
           }
         ]
@@ -297,15 +315,15 @@
     "senses": [
       {
         "sense_id": 221964,
-        "meaning_vi": "nhìn gaucho",
+        "meaning_vi": "phong cách gaucho",
         "confidence": "high",
         "search_keywords": [
-          "nhìn gaucho"
+          "phong cách gaucho"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhìn gaucho",
+            "meaning": "phong cách thời trang kiểu gaucho",
             "examples": []
           }
         ]
@@ -319,31 +337,32 @@
     "senses": [
       {
         "sense_id": 221965,
-        "meaning_vi": "áo choàng; váy thanh lịch",
+        "meaning_vi": "váy dạ hội",
         "confidence": "high",
         "search_keywords": [
-          "áo choàng",
-          "váy thanh lịch"
+          "váy dạ hội",
+          "gown"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "áo choàng; váy thanh lịch",
+            "meaning": "váy dạ hội; lễ phục nữ",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 221966,
-        "meaning_vi": "áo choàng tắm; áo choàng tắm",
+        "meaning_vi": "áo choàng tắm",
         "confidence": "high",
         "search_keywords": [
-          "áo choàng tắm"
+          "áo choàng tắm",
+          "áo ngủ"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "áo choàng tắm; áo choàng tắm",
+            "meaning": "áo choàng tắm; áo choàng mặc ở nhà",
             "examples": []
           }
         ]

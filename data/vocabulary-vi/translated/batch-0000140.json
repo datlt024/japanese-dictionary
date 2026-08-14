@@ -6,17 +6,17 @@
     "senses": [
       {
         "sense_id": 222050,
-        "meaning_vi": "trạm trọng điểm; trạm hàng đầu; đài dẫn đầu của mạng phát thanh truyền hình",
+        "meaning_vi": "đài chủ chốt",
         "confidence": "high",
         "search_keywords": [
-          "trạm trọng điểm",
-          "trạm hàng đầu",
-          "đài dẫn đầu của mạng phát thanh truyền hình"
+          "đài chủ chốt",
+          "đài trung tâm",
+          "key station"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "trạm trọng điểm; trạm hàng đầu; đài dẫn đầu của mạng phát thanh truyền hình",
+            "meaning": "đài phát thanh hoặc truyền hình trung tâm của một mạng lưới",
             "examples": []
           }
         ]
@@ -30,15 +30,17 @@
     "senses": [
       {
         "sense_id": 222051,
-        "meaning_vi": "đá đỉnh vòm",
+        "meaning_vi": "yếu tố then chốt",
         "confidence": "high",
         "search_keywords": [
-          "đá đỉnh vòm"
+          "yếu tố then chốt",
+          "viên đá khóa",
+          "keystone"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đá đỉnh vòm",
+            "meaning": "yếu tố quan trọng nhất; viên đá khóa trong kiến trúc vòm",
             "examples": []
           }
         ]
@@ -52,15 +54,16 @@
     "senses": [
       {
         "sense_id": 222052,
-        "meaning_vi": "sự kết hợp keystone",
-        "confidence": "high",
+        "meaning_vi": "cặp keystone",
+        "confidence": "medium",
         "search_keywords": [
-          "sự kết hợp keystone"
+          "cặp keystone",
+          "keystone combination"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sự kết hợp keystone",
+            "meaning": "cặp cầu thủ phối hợp ở khu vực trung tâm nội sân bóng chày",
             "examples": []
           }
         ]
@@ -74,15 +77,16 @@
     "senses": [
       {
         "sense_id": 222053,
-        "meaning_vi": "sự kết hợp keystone",
-        "confidence": "high",
+        "meaning_vi": "cặp keystone",
+        "confidence": "medium",
         "search_keywords": [
-          "sự kết hợp keystone"
+          "cặp keystone",
+          "keystone combination"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sự kết hợp keystone",
+            "meaning": "cặp cầu thủ phối hợp ở khu vực trung tâm nội sân bóng chày",
             "examples": []
           }
         ]
@@ -96,15 +100,17 @@
     "senses": [
       {
         "sense_id": 222054,
-        "meaning_vi": "nhấn phím",
+        "meaning_vi": "lần nhấn phím",
         "confidence": "high",
         "search_keywords": [
-          "nhấn phím"
+          "lần nhấn phím",
+          "keystroke",
+          "gõ phím"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhấn phím",
+            "meaning": "một thao tác nhấn phím trên bàn phím",
             "examples": []
           }
         ]
@@ -118,15 +124,17 @@
     "senses": [
       {
         "sense_id": 222055,
-        "meaning_vi": "bấm phím",
-        "confidence": "high",
+        "meaning_vi": "độ nảy phím",
+        "confidence": "medium",
         "search_keywords": [
-          "bấm phím"
+          "độ nảy phím",
+          "cảm giác gõ phím",
+          "key touch"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bấm phím",
+            "meaning": "cảm giác và độ phản hồi khi nhấn phím",
             "examples": []
           }
         ]
@@ -140,15 +148,17 @@
     "senses": [
       {
         "sense_id": 222056,
-        "meaning_vi": "bài phát biểu quan trọng",
+        "meaning_vi": "chủ đề chính",
         "confidence": "high",
         "search_keywords": [
-          "bài phát biểu quan trọng"
+          "chủ đề chính",
+          "bài phát biểu chính",
+          "keynote"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bài phát biểu quan trọng",
+            "meaning": "chủ đề trọng tâm; bài phát biểu chính",
             "examples": []
           }
         ]
@@ -162,16 +172,17 @@
     "senses": [
       {
         "sense_id": 222057,
-        "meaning_vi": "thủ môn; người giữ; thủ môn",
+        "meaning_vi": "thủ môn",
         "confidence": "high",
         "search_keywords": [
           "thủ môn",
-          "người giữ"
+          "goalkeeper",
+          "goalie"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "thủ môn; người giữ; thủ môn",
+            "meaning": "thủ môn trong các môn thể thao",
             "examples": []
           }
         ]
@@ -185,15 +196,16 @@
     "senses": [
       {
         "sense_id": 222058,
-        "meaning_vi": "bàn phím",
+        "meaning_vi": "bàn phím số",
         "confidence": "high",
         "search_keywords": [
-          "bàn phím"
+          "bàn phím số",
+          "keypad"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bàn phím",
+            "meaning": "cụm phím hoặc bàn phím số",
             "examples": []
           }
         ]
@@ -207,16 +219,16 @@
     "senses": [
       {
         "sense_id": 222059,
-        "meaning_vi": "cú bấm phím; máy đục lỗ thẻ",
-        "confidence": "high",
+        "meaning_vi": "máy đục thẻ",
+        "confidence": "medium",
         "search_keywords": [
-          "cú bấm phím",
-          "máy đục lỗ thẻ"
+          "máy đục thẻ",
+          "keypunch"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cú bấm phím; máy đục lỗ thẻ",
+            "meaning": "máy đục lỗ trên thẻ dữ liệu",
             "examples": []
           }
         ]
@@ -230,79 +242,83 @@
     "senses": [
       {
         "sense_id": 222060,
-        "meaning_vi": "để giữ (ví dụ: khách hàng tiềm năng); để duy trì (một tiêu chuẩn, tình hình, vv)",
+        "meaning_vi": "duy trì",
         "confidence": "high",
         "search_keywords": [
-          "để giữ (ví dụ: khách hàng tiềm năng)",
-          "để duy trì (một tiêu chuẩn, tình hình, vv)"
+          "duy trì",
+          "giữ vững",
+          "keep"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "để giữ (ví dụ: khách hàng tiềm năng); để duy trì (một tiêu chuẩn, tình hình, vv)",
+            "meaning": "giữ nguyên; duy trì trạng thái hoặc thành tích",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222061,
-        "meaning_vi": "đặt sang một bên (đối với ai đó); để tiết kiệm (ví dụ: một chỗ ngồi)",
+        "meaning_vi": "giữ chỗ",
         "confidence": "high",
         "search_keywords": [
-          "đặt sang một bên (đối với ai đó)",
-          "để tiết kiệm (ví dụ: một chỗ ngồi)"
+          "giữ chỗ",
+          "để dành",
+          "giữ lại"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đặt sang một bên (đối với ai đó); để tiết kiệm (ví dụ: một chỗ ngồi)",
+            "meaning": "để dành hoặc giữ lại cho ai đó",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222062,
-        "meaning_vi": "giữ (quả bóng; trong bóng đá, bóng bầu dục, v.v.); để giữ quyền sở hữu",
+        "meaning_vi": "giữ bóng",
         "confidence": "high",
         "search_keywords": [
-          "giữ (quả bóng",
-          "trong bóng đá, bóng bầu dục, v.v.)",
-          "để giữ quyền sở hữu"
+          "giữ bóng",
+          "kiểm soát bóng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "giữ (quả bóng; trong bóng đá, bóng bầu dục, v.v.); để giữ quyền sở hữu",
+            "meaning": "giữ quyền kiểm soát bóng trong thể thao",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222063,
-        "meaning_vi": "thực hiện giao bóng (trong quần vợt)",
-        "confidence": "high",
+        "meaning_vi": "giữ game giao bóng",
+        "confidence": "medium",
         "search_keywords": [
-          "thực hiện giao bóng (trong quần vợt)"
+          "giữ game giao bóng",
+          "hold serve"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "thực hiện giao bóng (trong quần vợt)",
+            "meaning": "thắng game cầm giao bóng trong quần vợt",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222064,
-        "meaning_vi": "người đang hẹn hò trong khi hy vọng tìm được ai đó tốt hơn",
-        "confidence": "high",
+        "meaning_vi": "phương án dự phòng",
+        "confidence": "medium",
         "search_keywords": [
-          "người đang hẹn hò trong khi hy vọng tìm được ai đó tốt hơn"
+          "người dự phòng",
+          "phương án dự phòng",
+          "mối quan hệ dự phòng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người đang hẹn hò trong khi hy vọng tìm được ai đó tốt hơn",
+            "meaning": "người được hẹn hò tạm thời trong lúc chờ đối tượng tốt hơn",
             "examples": []
           }
         ]
@@ -319,12 +335,13 @@
         "meaning_vi": "lỗ khóa",
         "confidence": "high",
         "search_keywords": [
-          "lỗ khóa"
+          "lỗ khóa",
+          "keyhole"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "lỗ khóa",
+            "meaning": "lỗ tra chìa khóa",
             "examples": []
           }
         ]
@@ -338,15 +355,17 @@
     "senses": [
       {
         "sense_id": 222066,
-        "meaning_vi": "báo chí lỗ khóa",
+        "meaning_vi": "báo chí soi mói",
         "confidence": "high",
         "search_keywords": [
-          "báo chí lỗ khóa"
+          "báo lá cải",
+          "báo chí soi mói",
+          "keyhole journalism"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "báo chí lỗ khóa",
+            "meaning": "kiểu báo chí khai thác đời tư và chuyện giật gân",
             "examples": []
           }
         ]
@@ -360,31 +379,32 @@
     "senses": [
       {
         "sense_id": 222067,
-        "meaning_vi": "móc khóa; móc chìa khóa",
+        "meaning_vi": "móc khóa",
         "confidence": "high",
         "search_keywords": [
           "móc khóa",
-          "móc chìa khóa"
+          "keychain"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "móc khóa; móc chìa khóa",
+            "meaning": "móc hoặc vòng dùng để giữ chìa khóa",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222068,
-        "meaning_vi": "vòng chìa khóa (mã hóa)",
-        "confidence": "high",
+        "meaning_vi": "bộ khóa mã hóa",
+        "confidence": "medium",
         "search_keywords": [
-          "vòng chìa khóa (mã hóa)"
+          "key ring",
+          "bộ khóa mã hóa"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "vòng chìa khóa (mã hóa)",
+            "meaning": "tập hợp khóa dùng trong mã hóa dữ liệu",
             "examples": []
           }
         ]
@@ -401,12 +421,13 @@
         "meaning_vi": "bàn phím",
         "confidence": "high",
         "search_keywords": [
-          "bàn phím"
+          "bàn phím",
+          "keyboard"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bàn phím",
+            "meaning": "bàn phím máy tính hoặc nhạc cụ",
             "examples": []
           }
         ]
@@ -420,16 +441,17 @@
     "senses": [
       {
         "sense_id": 222070,
-        "meaning_vi": "điểm mấu chốt; chìa khóa",
+        "meaning_vi": "điểm then chốt",
         "confidence": "high",
         "search_keywords": [
-          "điểm mấu chốt",
-          "chìa khóa"
+          "điểm then chốt",
+          "điểm quan trọng",
+          "key point"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "điểm mấu chốt; chìa khóa",
+            "meaning": "điểm quan trọng nhất; mấu chốt",
             "examples": []
           }
         ]
@@ -446,12 +468,13 @@
         "meaning_vi": "thị trường trọng điểm",
         "confidence": "high",
         "search_keywords": [
-          "thị trường trọng điểm"
+          "thị trường trọng điểm",
+          "key market"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "thị trường trọng điểm",
+            "meaning": "thị trường quan trọng đối với doanh nghiệp hoặc ngành",
             "examples": []
           }
         ]
@@ -465,15 +488,16 @@
     "senses": [
       {
         "sense_id": 222072,
-        "meaning_vi": "sơ đồ phím",
+        "meaning_vi": "sơ đồ bàn phím",
         "confidence": "high",
         "search_keywords": [
-          "sơ đồ phím"
+          "sơ đồ bàn phím",
+          "key map"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sơ đồ phím",
+            "meaning": "sơ đồ bố trí các phím",
             "examples": []
           }
         ]
@@ -487,16 +511,17 @@
     "senses": [
       {
         "sense_id": 222073,
-        "meaning_vi": "người chủ chốt; người chủ chốt (ví dụ: của một công ty)",
+        "meaning_vi": "nhân vật chủ chốt",
         "confidence": "high",
         "search_keywords": [
-          "người chủ chốt",
-          "người chủ chốt (ví dụ: của một công ty)"
+          "nhân vật chủ chốt",
+          "người then chốt",
+          "key person"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người chủ chốt; người chủ chốt (ví dụ: của một công ty)",
+            "meaning": "người giữ vai trò quan trọng nhất",
             "examples": []
           }
         ]
@@ -513,12 +538,13 @@
         "meaning_vi": "sống tàu",
         "confidence": "high",
         "search_keywords": [
-          "sống tàu"
+          "sống tàu",
+          "keel"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sống tàu",
+            "meaning": "bộ phận sống chính chạy dọc đáy tàu",
             "examples": []
           }
         ]

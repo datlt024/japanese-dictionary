@@ -6,34 +6,34 @@
     "senses": [
       {
         "sense_id": 222075,
-        "meaning_vi": "từ khóa; cụm từ khóa; đầu mối",
+        "meaning_vi": "từ khóa",
         "confidence": "high",
         "search_keywords": [
           "từ khóa",
-          "cụm từ khóa",
-          "đầu mối"
+          "từ then chốt",
+          "manh mối"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "từ khóa; cụm từ khóa; đầu mối",
+            "meaning": "từ hoặc cụm từ then chốt; manh mối quan trọng",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222076,
-        "meaning_vi": "từ khóa; thuật ngữ tìm kiếm; thuật ngữ chỉ mục",
+        "meaning_vi": "từ khóa tìm kiếm",
         "confidence": "high",
         "search_keywords": [
-          "từ khóa",
-          "thuật ngữ tìm kiếm",
-          "thuật ngữ chỉ mục"
+          "từ khóa tìm kiếm",
+          "keyword",
+          "search term"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "từ khóa; thuật ngữ tìm kiếm; thuật ngữ chỉ mục",
+            "meaning": "từ khóa dùng để tìm kiếm hoặc lập chỉ mục",
             "examples": []
           }
         ]
@@ -47,15 +47,16 @@
     "senses": [
       {
         "sense_id": 222077,
-        "meaning_vi": "phím (đầu vào)",
+        "meaning_vi": "nhập bằng bàn phím",
         "confidence": "high",
         "search_keywords": [
-          "phím (đầu vào)"
+          "nhập bàn phím",
+          "key input"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phím (đầu vào)",
+            "meaning": "thao tác nhập dữ liệu bằng bàn phím",
             "examples": []
           }
         ]
@@ -69,30 +70,32 @@
     "senses": [
       {
         "sense_id": 222078,
-        "meaning_vi": "quả kiwi; quả kiwi; quả kiwi",
+        "meaning_vi": "kiwi",
         "confidence": "high",
         "search_keywords": [
+          "kiwi",
           "quả kiwi"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "quả kiwi; quả kiwi; quả kiwi",
+            "meaning": "quả kiwi",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222079,
-        "meaning_vi": "kiwi (chim)",
+        "meaning_vi": "chim kiwi",
         "confidence": "high",
         "search_keywords": [
-          "kiwi (chim)"
+          "chim kiwi",
+          "kiwi bird"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kiwi (chim)",
+            "meaning": "chim kiwi của New Zealand",
             "examples": []
           }
         ]
@@ -106,15 +109,16 @@
     "senses": [
       {
         "sense_id": 222080,
-        "meaning_vi": "quả kiwi; quả kiwi; quả kiwi",
+        "meaning_vi": "quả kiwi",
         "confidence": "high",
         "search_keywords": [
-          "quả kiwi"
+          "quả kiwi",
+          "kiwi fruit"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "quả kiwi; quả kiwi; quả kiwi",
+            "meaning": "quả kiwi",
             "examples": []
           }
         ]
@@ -128,15 +132,17 @@
     "senses": [
       {
         "sense_id": 222081,
-        "meaning_vi": "ki-ốt",
+        "meaning_vi": "quầy bán hàng",
         "confidence": "high",
         "search_keywords": [
-          "ki-ốt"
+          "quầy bán hàng",
+          "ki-ốt",
+          "kiosk"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "ki-ốt",
+            "meaning": "ki-ốt hoặc quầy bán hàng nhỏ",
             "examples": []
           }
         ]
@@ -153,12 +159,13 @@
         "meaning_vi": "hôn",
         "confidence": "high",
         "search_keywords": [
-          "hôn"
+          "hôn",
+          "kiss"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hôn",
+            "meaning": "nụ hôn; hôn ai đó",
             "examples": []
           }
         ]
@@ -172,16 +179,16 @@
     "senses": [
       {
         "sense_id": 222083,
-        "meaning_vi": "hôn và cưỡi ngựa; thả một thành viên trong gia đình xuống ga",
-        "confidence": "high",
+        "meaning_vi": "đưa đón tại ga",
+        "confidence": "medium",
         "search_keywords": [
-          "hôn và cưỡi ngựa",
-          "thả một thành viên trong gia đình xuống ga"
+          "đưa đón tại ga",
+          "kiss and ride"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "hôn và cưỡi ngựa; thả một thành viên trong gia đình xuống ga",
+            "meaning": "việc đưa người thân đến ga rồi rời đi bằng xe",
             "examples": []
           }
         ]
@@ -195,34 +202,33 @@
     "senses": [
       {
         "sense_id": 222084,
-        "meaning_vi": "dấu hôn; hickey; vết cắn yêu; dấu đam mê",
+        "meaning_vi": "vết hickey",
         "confidence": "high",
         "search_keywords": [
-          "dấu hôn",
           "hickey",
-          "vết cắn yêu",
-          "dấu đam mê"
+          "dấu hôn",
+          "love bite"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "dấu hôn; hickey; vết cắn yêu; dấu đam mê",
+            "meaning": "vết bầm do hôn hoặc mút mạnh trên da",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222085,
-        "meaning_vi": "dấu hôn; vết son môi",
+        "meaning_vi": "dấu son môi",
         "confidence": "high",
         "search_keywords": [
-          "dấu hôn",
-          "vết son môi"
+          "dấu son môi",
+          "dấu hôn"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "dấu hôn; vết son môi",
+            "meaning": "dấu son hoặc dấu môi để lại sau khi hôn",
             "examples": []
           }
         ]
@@ -236,15 +242,16 @@
     "senses": [
       {
         "sense_id": 222086,
-        "meaning_vi": "xenon (Xe)",
-        "confidence": "low",
+        "meaning_vi": "xenon",
+        "confidence": "high",
         "search_keywords": [
-          "xenon (Xe)"
+          "xenon",
+          "Xe"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "xenon (Xe)",
+            "meaning": "nguyên tố hóa học xenon, ký hiệu Xe",
             "examples": []
           }
         ]
@@ -258,15 +265,16 @@
     "senses": [
       {
         "sense_id": 222087,
-        "meaning_vi": "Chu trình Kitchin",
-        "confidence": "high",
+        "meaning_vi": "chu kỳ Kitchin",
+        "confidence": "medium",
         "search_keywords": [
-          "Chu trình Kitchin"
+          "chu kỳ Kitchin",
+          "Kitchin cycle"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Chu trình Kitchin",
+            "meaning": "chu kỳ kinh tế ngắn hạn Kitchin",
             "examples": []
           }
         ]
@@ -280,15 +288,17 @@
     "senses": [
       {
         "sense_id": 222088,
-        "meaning_vi": "cú đá",
+        "meaning_vi": "đá",
         "confidence": "high",
         "search_keywords": [
-          "cú đá"
+          "đá",
+          "sút",
+          "kick"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cú đá",
+            "meaning": "cú đá; hành động đá",
             "examples": []
           }
         ]
@@ -302,15 +312,17 @@
     "senses": [
       {
         "sense_id": 222089,
-        "meaning_vi": "sự khởi đầu",
+        "meaning_vi": "khai cuộc",
         "confidence": "high",
         "search_keywords": [
-          "sự khởi đầu"
+          "khai cuộc",
+          "kickoff",
+          "khởi động"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sự khởi đầu",
+            "meaning": "cú giao bóng mở đầu; sự khởi động một dự án",
             "examples": []
           }
         ]
@@ -324,30 +336,33 @@
     "senses": [
       {
         "sense_id": 222090,
-        "meaning_vi": "lại quả (thanh toán để tạo thuận lợi cho một giao dịch, cuộc hẹn, v.v.)",
+        "meaning_vi": "hoa hồng ngầm",
         "confidence": "high",
         "search_keywords": [
-          "lại quả (thanh toán để tạo thuận lợi cho một giao dịch, cuộc hẹn, v.v.)"
+          "hoa hồng ngầm",
+          "lại quả",
+          "kickback"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "lại quả (thanh toán để tạo thuận lợi cho một giao dịch, cuộc hẹn, v.v.)",
+            "meaning": "khoản tiền lại quả hoặc hoa hồng bất chính",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222091,
-        "meaning_vi": "giật lại (độ giật mạnh đột ngột)",
+        "meaning_vi": "độ giật ngược",
         "confidence": "high",
         "search_keywords": [
-          "giật lại (độ giật mạnh đột ngột)"
+          "độ giật ngược",
+          "phản lực"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "giật lại (độ giật mạnh đột ngột)",
+            "meaning": "lực phản hồi mạnh và đột ngột",
             "examples": []
           }
         ]
@@ -361,15 +376,16 @@
     "senses": [
       {
         "sense_id": 222092,
-        "meaning_vi": "đấm bốc; đấm bốc",
+        "meaning_vi": "kickboxing",
         "confidence": "high",
         "search_keywords": [
-          "đấm bốc"
+          "kickboxing",
+          "quyền Thái hiện đại"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đấm bốc; đấm bốc",
+            "meaning": "môn võ kickboxing",
             "examples": []
           }
         ]
@@ -383,15 +399,16 @@
     "senses": [
       {
         "sense_id": 222093,
-        "meaning_vi": "kinh doanh trẻ em",
+        "meaning_vi": "ngành kinh doanh trẻ em",
         "confidence": "high",
         "search_keywords": [
-          "kinh doanh trẻ em"
+          "kinh doanh trẻ em",
+          "kids business"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "kinh doanh trẻ em",
+            "meaning": "lĩnh vực kinh doanh sản phẩm và dịch vụ dành cho trẻ em",
             "examples": []
           }
         ]
@@ -405,15 +422,17 @@
     "senses": [
       {
         "sense_id": 222094,
-        "meaning_vi": "đồ hào nhoáng",
+        "meaning_vi": "sến sẩm",
         "confidence": "high",
         "search_keywords": [
-          "đồ hào nhoáng"
+          "sến sẩm",
+          "kitsch",
+          "lòe loẹt"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đồ hào nhoáng",
+            "meaning": "mang tính phô trương, sến hoặc lòe loẹt",
             "examples": []
           }
         ]
@@ -427,30 +446,33 @@
     "senses": [
       {
         "sense_id": 222095,
-        "meaning_vi": "phòng bếp",
+        "meaning_vi": "nhà bếp",
         "confidence": "high",
         "search_keywords": [
-          "phòng bếp"
+          "nhà bếp",
+          "bếp",
+          "kitchen"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phòng bếp",
+            "meaning": "nhà bếp; khu vực nấu ăn",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222096,
-        "meaning_vi": "chitin",
-        "confidence": "low",
+        "meaning_vi": "kitin",
+        "confidence": "medium",
         "search_keywords": [
+          "kitin",
           "chitin"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chitin",
+            "meaning": "chất kitin cấu tạo vỏ ngoài của côn trùng và giáp xác",
             "examples": []
           }
         ]
@@ -467,12 +489,13 @@
         "meaning_vi": "đồ dùng nhà bếp",
         "confidence": "high",
         "search_keywords": [
-          "đồ dùng nhà bếp"
+          "đồ dùng nhà bếp",
+          "kitchenware"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đồ dùng nhà bếp",
+            "meaning": "dụng cụ và vật dụng dùng trong nhà bếp",
             "examples": []
           }
         ]
@@ -489,12 +512,13 @@
         "meaning_vi": "tủ bếp",
         "confidence": "high",
         "search_keywords": [
-          "tủ bếp"
+          "tủ bếp",
+          "kitchen cabinet"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tủ bếp",
+            "meaning": "tủ dùng để chứa đồ trong nhà bếp",
             "examples": []
           }
         ]
@@ -508,15 +532,16 @@
     "senses": [
       {
         "sense_id": 222099,
-        "meaning_vi": "bà nội trợ nghiện rượu",
-        "confidence": "high",
+        "meaning_vi": "người nghiện rượu nội trợ",
+        "confidence": "medium",
         "search_keywords": [
-          "bà nội trợ nghiện rượu"
+          "nghiện rượu nội trợ",
+          "alcoholic housewife"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bà nội trợ nghiện rượu",
+            "meaning": "người nội trợ nghiện rượu và thường uống khi làm việc nhà",
             "examples": []
           }
         ]

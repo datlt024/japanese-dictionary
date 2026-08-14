@@ -9,12 +9,13 @@
         "meaning_vi": "nến",
         "confidence": "high",
         "search_keywords": [
-          "nến"
+          "nến",
+          "candle"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nến",
+            "meaning": "nến; đèn cầy",
             "examples": []
           }
         ]
@@ -28,30 +29,32 @@
     "senses": [
       {
         "sense_id": 222207,
-        "meaning_vi": "dịch vụ dưới ánh nến (ví dụ: trong nhà thờ)",
+        "meaning_vi": "lễ thắp nến",
         "confidence": "high",
         "search_keywords": [
-          "dịch vụ dưới ánh nến (ví dụ: trong nhà thờ)"
+          "lễ thắp nến",
+          "candlelight service"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "dịch vụ dưới ánh nến (ví dụ: trong nhà thờ)",
+            "meaning": "buổi lễ thắp nến, thường trong nhà thờ",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222208,
-        "meaning_vi": "buổi lễ trong tiệc cưới, trong đó cô dâu và chú rể đi từ bàn này sang bàn khác thắp nến cho mỗi người",
+        "meaning_vi": "nghi thức thắp nến cưới",
         "confidence": "high",
         "search_keywords": [
-          "buổi lễ trong tiệc cưới, trong đó cô dâu và chú rể đi từ bàn này sang bàn khác thắp nến cho mỗi người"
+          "nghi thức thắp nến",
+          "lễ cưới"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "buổi lễ trong tiệc cưới, trong đó cô dâu và chú rể đi từ bàn này sang bàn khác thắp nến cho mỗi người",
+            "meaning": "nghi thức cô dâu chú rể đi thắp nến tại từng bàn tiệc cưới",
             "examples": []
           }
         ]
@@ -65,15 +68,16 @@
     "senses": [
       {
         "sense_id": 222209,
-        "meaning_vi": "nến",
+        "meaning_vi": "chân nến",
         "confidence": "high",
         "search_keywords": [
-          "nến"
+          "chân nến",
+          "candlestick"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nến",
+            "meaning": "giá hoặc chân dùng để cắm nến",
             "examples": []
           }
         ]
@@ -87,30 +91,34 @@
     "senses": [
       {
         "sense_id": 222210,
-        "meaning_vi": "vải vẽ",
+        "meaning_vi": "vải canvas",
         "confidence": "high",
         "search_keywords": [
-          "vải vẽ"
+          "vải canvas",
+          "toan vẽ",
+          "canvas"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "vải vẽ",
+            "meaning": "vải bố; toan dùng để vẽ tranh",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222211,
-        "meaning_vi": "cơ sở",
+        "meaning_vi": "gôn; chốt (bóng chày)",
         "confidence": "high",
         "search_keywords": [
-          "cơ sở"
+          "gôn bóng chày",
+          "chốt bóng chày",
+          "base bóng chày"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cơ sở",
+            "meaning": "gôn (chốt/base) trong môn bóng chày",
             "examples": []
           }
         ]
@@ -127,12 +135,13 @@
         "meaning_vi": "người cắm trại",
         "confidence": "high",
         "search_keywords": [
-          "người cắm trại"
+          "người cắm trại",
+          "camper"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người cắm trại",
+            "meaning": "người tham gia cắm trại",
             "examples": []
           }
         ]
@@ -149,12 +158,13 @@
         "meaning_vi": "khuôn viên trường",
         "confidence": "high",
         "search_keywords": [
-          "khuôn viên trường"
+          "khuôn viên trường",
+          "campus"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "khuôn viên trường",
+            "meaning": "khuôn viên trường học hoặc đại học",
             "examples": []
           }
         ]
@@ -168,15 +178,16 @@
     "senses": [
       {
         "sense_id": 222214,
-        "meaning_vi": "giày trường",
-        "confidence": "high",
+        "meaning_vi": "giày học sinh",
+        "confidence": "medium",
         "search_keywords": [
-          "giày trường"
+          "giày học sinh",
+          "campus shoes"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "giày trường",
+            "meaning": "giày thường dùng trong môi trường học đường",
             "examples": []
           }
         ]
@@ -193,12 +204,13 @@
         "meaning_vi": "cắm trại",
         "confidence": "high",
         "search_keywords": [
-          "cắm trại"
+          "cắm trại",
+          "camping"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cắm trại",
+            "meaning": "hoạt động cắm trại ngoài trời",
             "examples": []
           }
         ]
@@ -212,17 +224,17 @@
     "senses": [
       {
         "sense_id": 222216,
-        "meaning_vi": "nhà di động; xe cắm trại; RV",
+        "meaning_vi": "xe cắm trại",
         "confidence": "high",
         "search_keywords": [
-          "nhà di động",
           "xe cắm trại",
-          "RV"
+          "RV",
+          "camper van"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "nhà di động; xe cắm trại; RV",
+            "meaning": "xe có trang bị chỗ ở dùng cho du lịch và cắm trại",
             "examples": []
           }
         ]
@@ -240,12 +252,14 @@
         "confidence": "high",
         "search_keywords": [
           "trại",
-          "cắm trại"
+          "cắm trại",
+          "đi cắm trại",
+          "camp"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "trại; cắm trại",
+            "meaning": "trại; việc cắm trại hoặc đi cắm trại",
             "examples": []
           }
         ]
@@ -262,12 +276,13 @@
         "meaning_vi": "gió nóng",
         "confidence": "high",
         "search_keywords": [
-          "gió nóng"
+          "gió nóng",
+          "luồng khí nóng"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gió nóng",
+            "meaning": "luồng gió hoặc khí nóng",
             "examples": []
           }
         ]
@@ -281,15 +296,16 @@
     "senses": [
       {
         "sense_id": 222218,
-        "meaning_vi": "trại huấn luyện bắt đầu",
+        "meaning_vi": "bắt đầu tập huấn",
         "confidence": "high",
         "search_keywords": [
-          "trại huấn luyện bắt đầu"
+          "bắt đầu tập huấn",
+          "training camp"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "trại huấn luyện bắt đầu",
+            "meaning": "bắt đầu đợt tập huấn của đội thể thao",
             "examples": []
           }
         ]
@@ -303,15 +319,16 @@
     "senses": [
       {
         "sense_id": 222219,
-        "meaning_vi": "địa điểm cắm trại",
+        "meaning_vi": "khu cắm trại",
         "confidence": "high",
         "search_keywords": [
-          "địa điểm cắm trại"
+          "khu cắm trại",
+          "camp site"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "địa điểm cắm trại",
+            "meaning": "địa điểm hoặc khu vực dành cho cắm trại",
             "examples": []
           }
         ]
@@ -328,12 +345,13 @@
         "meaning_vi": "lửa trại",
         "confidence": "high",
         "search_keywords": [
-          "lửa trại"
+          "lửa trại",
+          "campfire"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "lửa trại",
+            "meaning": "đống lửa dùng trong sinh hoạt cắm trại",
             "examples": []
           }
         ]
@@ -347,15 +365,16 @@
     "senses": [
       {
         "sense_id": 222221,
-        "meaning_vi": "Canberra (Úc)",
+        "meaning_vi": "Canberra",
         "confidence": "high",
         "search_keywords": [
-          "Canberra (Úc)"
+          "Canberra",
+          "thủ đô Úc"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Canberra (Úc)",
+            "meaning": "thủ đô của Úc",
             "examples": []
           }
         ]
@@ -369,48 +388,50 @@
     "senses": [
       {
         "sense_id": 222222,
-        "meaning_vi": "(bán hàng) khuyến mại; (bán hàng, quảng cáo) chiến dịch",
+        "meaning_vi": "chiến dịch khuyến mãi",
         "confidence": "high",
         "search_keywords": [
-          "(bán hàng) khuyến mại",
-          "(bán hàng, quảng cáo) chiến dịch"
+          "khuyến mãi",
+          "chiến dịch quảng cáo",
+          "campaign"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "(bán hàng) khuyến mại; (bán hàng, quảng cáo) chiến dịch",
+            "meaning": "chiến dịch quảng cáo hoặc khuyến mãi bán hàng",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222223,
-        "meaning_vi": "chiến dịch (cho một cuộc bầu cử, thay đổi xã hội, v.v.); sự chuyển động; thúc đẩy (gây quỹ, tuyển dụng, v.v.)",
+        "meaning_vi": "chiến dịch vận động",
         "confidence": "high",
         "search_keywords": [
-          "chiến dịch (cho một cuộc bầu cử, thay đổi xã hội, v.v.)",
-          "sự chuyển động",
-          "thúc đẩy (gây quỹ, tuyển dụng, v.v.)"
+          "chiến dịch",
+          "vận động",
+          "phong trào"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chiến dịch (cho một cuộc bầu cử, thay đổi xã hội, v.v.); sự chuyển động; thúc đẩy (gây quỹ, tuyển dụng, v.v.)",
+            "meaning": "chiến dịch tranh cử, vận động xã hội hoặc gây quỹ",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222224,
-        "meaning_vi": "(quân sự) chiến dịch",
+        "meaning_vi": "chiến dịch quân sự",
         "confidence": "high",
         "search_keywords": [
-          "(quân sự) chiến dịch"
+          "chiến dịch quân sự",
+          "quân sự"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "(quân sự) chiến dịch",
+            "meaning": "chiến dịch quân sự",
             "examples": []
           }
         ]
@@ -424,15 +445,16 @@
     "senses": [
       {
         "sense_id": 222225,
-        "meaning_vi": "chiến dịch bán hàng",
+        "meaning_vi": "đợt khuyến mãi",
         "confidence": "high",
         "search_keywords": [
-          "chiến dịch bán hàng"
+          "đợt khuyến mãi",
+          "sale khuyến mãi"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chiến dịch bán hàng",
+            "meaning": "chương trình bán hàng khuyến mãi",
             "examples": []
           }
         ]
@@ -446,31 +468,34 @@
     "senses": [
       {
         "sense_id": 222226,
-        "meaning_vi": "cái cơ (bi-a, bida); cây gậy",
+        "meaning_vi": "cơ bi-a",
         "confidence": "high",
         "search_keywords": [
-          "cái cơ (bi-a, bida)",
-          "cây gậy"
+          "cơ bi-a",
+          "gậy bi-a",
+          "cue"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cái cơ (bi-a, bida); cây gậy",
+            "meaning": "cây cơ dùng trong bi-a",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222227,
-        "meaning_vi": "gợi ý (âm nhạc, sân khấu, v.v.)",
+        "meaning_vi": "tín hiệu; hiệu lệnh",
         "confidence": "high",
         "search_keywords": [
-          "gợi ý (âm nhạc, sân khấu, v.v.)"
+          "tín hiệu",
+          "hiệu lệnh",
+          "cue sân khấu"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gợi ý (âm nhạc, sân khấu, v.v.)",
+            "meaning": "tín hiệu hoặc hiệu lệnh để bắt đầu trong âm nhạc, sân khấu, phát thanh, v.v.",
             "examples": []
           }
         ]
@@ -484,15 +509,16 @@
     "senses": [
       {
         "sense_id": 222228,
-        "meaning_vi": "dễ thương",
+        "meaning_vi": "người dễ thương",
         "confidence": "high",
         "search_keywords": [
-          "dễ thương"
+          "người dễ thương",
+          "cutie"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "dễ thương",
+            "meaning": "người hoặc vật đáng yêu, dễ thương",
             "examples": []
           }
         ]
@@ -506,15 +532,17 @@
     "senses": [
       {
         "sense_id": 222229,
-        "meaning_vi": "biểu bì",
+        "meaning_vi": "lớp biểu bì",
         "confidence": "high",
         "search_keywords": [
-          "biểu bì"
+          "biểu bì tóc",
+          "cuticle",
+          "lớp biểu bì"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "biểu bì",
+            "meaning": "lớp biểu bì bảo vệ bên ngoài của tóc hoặc móng",
             "examples": []
           }
         ]

@@ -6,15 +6,17 @@
     "senses": [
       {
         "sense_id": 222300,
-        "meaning_vi": "mánh lới quảng cáo",
+        "meaning_vi": "mánh lới",
         "confidence": "high",
         "search_keywords": [
-          "mánh lới quảng cáo"
+          "mánh lới",
+          "chiêu trò",
+          "gimmick"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "mánh lới quảng cáo",
+            "meaning": "mánh lới; chiêu trò thu hút sự chú ý",
             "examples": []
           }
         ]
@@ -28,15 +30,17 @@
     "senses": [
       {
         "sense_id": 222301,
-        "meaning_vi": "gymnema (thảo mộc Ấn Độ)",
-        "confidence": "high",
+        "meaning_vi": "cây gymnema",
+        "confidence": "medium",
         "search_keywords": [
-          "gymnema (thảo mộc Ấn Độ)"
+          "gymnema",
+          "cây gymnema",
+          "thảo dược Ấn Độ"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gymnema (thảo mộc Ấn Độ)",
+            "meaning": "cây gymnema, một loại thảo dược Ấn Độ",
             "examples": []
           }
         ]
@@ -50,16 +54,17 @@
     "senses": [
       {
         "sense_id": 222302,
-        "meaning_vi": "câu nói đùa; bịt miệng",
+        "meaning_vi": "trò đùa",
         "confidence": "high",
         "search_keywords": [
-          "câu nói đùa",
-          "bịt miệng"
+          "trò đùa",
+          "câu đùa",
+          "gag"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "câu nói đùa; bịt miệng",
+            "meaning": "câu đùa; trò gây cười",
             "examples": []
           }
         ]
@@ -73,15 +78,17 @@
     "senses": [
       {
         "sense_id": 222303,
-        "meaning_vi": "tập hợp (may quần áo)",
+        "meaning_vi": "nếp nhún",
         "confidence": "high",
         "search_keywords": [
-          "tập hợp (may quần áo)"
+          "nếp nhún",
+          "đường nhún",
+          "gather"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tập hợp (may quần áo)",
+            "meaning": "nếp nhún hoặc phần vải được rút nhăn trong may mặc",
             "examples": []
           }
         ]
@@ -95,15 +102,17 @@
     "senses": [
       {
         "sense_id": 222304,
-        "meaning_vi": "váy tập hợp",
+        "meaning_vi": "váy nhún",
         "confidence": "high",
         "search_keywords": [
-          "váy tập hợp"
+          "váy nhún",
+          "váy xếp nhún",
+          "gathered skirt"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "váy tập hợp",
+            "meaning": "váy có phần vải được rút nhún ở eo",
             "examples": []
           }
         ]
@@ -117,32 +126,34 @@
     "senses": [
       {
         "sense_id": 222305,
-        "meaning_vi": "khoảng trống",
+        "meaning_vi": "khoảng cách",
         "confidence": "high",
         "search_keywords": [
-          "khoảng trống"
+          "khoảng cách",
+          "khe hở",
+          "gap"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "khoảng trống",
+            "meaning": "khoảng cách; khe hở",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222306,
-        "meaning_vi": "sự khác biệt; sự chênh lệch; sự khác biệt; ngắt kết nối",
+        "meaning_vi": "sự chênh lệch",
         "confidence": "high",
         "search_keywords": [
-          "sự khác biệt",
-          "sự chênh lệch",
-          "ngắt kết nối"
+          "chênh lệch",
+          "khác biệt",
+          "discrepancy"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "sự khác biệt; sự chênh lệch; sự khác biệt; ngắt kết nối",
+            "meaning": "sự chênh lệch; khác biệt; không ăn khớp",
             "examples": []
           }
         ]
@@ -156,15 +167,17 @@
     "senses": [
       {
         "sense_id": 222307,
-        "meaning_vi": "gammon",
-        "confidence": "low",
+        "meaning_vi": "thịt đùi lợn muối",
+        "confidence": "medium",
         "search_keywords": [
-          "gammon"
+          "gammon",
+          "thịt đùi lợn muối",
+          "ham"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gammon",
+            "meaning": "thịt đùi lợn muối hoặc xông khói",
             "examples": []
           }
         ]
@@ -178,16 +191,17 @@
     "senses": [
       {
         "sense_id": 222308,
-        "meaning_vi": "phí trả cho nghệ sĩ biểu diễn, v.v.; phí xuất hiện",
+        "meaning_vi": "cát-xê",
         "confidence": "high",
         "search_keywords": [
-          "phí trả cho nghệ sĩ biểu diễn, v.v.",
-          "phí xuất hiện"
+          "cát-xê",
+          "thù lao biểu diễn",
+          "appearance fee"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phí trả cho nghệ sĩ biểu diễn, v.v.; phí xuất hiện",
+            "meaning": "cát-xê; thù lao trả cho nghệ sĩ hoặc người biểu diễn",
             "examples": []
           }
         ]
@@ -201,61 +215,67 @@
     "senses": [
       {
         "sense_id": 222309,
-        "meaning_vi": "phòng trưng bày; hành lang",
-        "confidence": "high",
+        "meaning_vi": "hành lang; phòng trưng bày",
+        "confidence": "medium",
         "search_keywords": [
+          "hành lang",
           "phòng trưng bày",
-          "hành lang"
+          "gallery"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phòng trưng bày; hành lang",
+            "meaning": "hành lang; phòng hoặc khu vực trưng bày",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222310,
-        "meaning_vi": "phòng trưng bày nghệ thuật",
+        "meaning_vi": "phòng tranh",
         "confidence": "high",
         "search_keywords": [
-          "phòng trưng bày nghệ thuật"
+          "phòng tranh",
+          "phòng triển lãm",
+          "art gallery"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phòng trưng bày nghệ thuật",
+            "meaning": "phòng tranh; phòng triển lãm nghệ thuật",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222311,
-        "meaning_vi": "phòng trưng bày phía trên (trong rạp hát)",
-        "confidence": "high",
+        "meaning_vi": "tầng ghế trên",
+        "confidence": "medium",
         "search_keywords": [
-          "phòng trưng bày phía trên (trong rạp hát)"
+          "tầng ghế trên",
+          "gallery nhà hát"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phòng trưng bày phía trên (trong rạp hát)",
+            "meaning": "khu ghế tầng trên trong nhà hát",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222312,
-        "meaning_vi": "khán giả (đặc biệt tại một giải đấu golf)",
+        "meaning_vi": "khán giả",
         "confidence": "high",
         "search_keywords": [
-          "khán giả (đặc biệt tại một giải đấu golf)"
+          "khán giả",
+          "người xem",
+          "spectators"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "khán giả (đặc biệt tại một giải đấu golf)",
+            "meaning": "khán giả, nhất là người xem giải golf",
             "examples": []
           }
         ]
@@ -269,33 +289,34 @@
     "senses": [
       {
         "sense_id": 222313,
-        "meaning_vi": "gyaru; người phụ nữ (trẻ) tuân theo phong cách thời trang thường có đặc điểm là tóc nhuộm và quần áo lòe loẹt",
+        "meaning_vi": "gyaru",
         "confidence": "high",
         "search_keywords": [
           "gyaru",
-          "người phụ nữ (trẻ) tuân theo phong cách thời trang thường có đặc điểm là tóc nhuộm và quần áo lòe loẹt"
+          "gái gyaru",
+          "phong cách gyaru"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "gyaru; người phụ nữ (trẻ) tuân theo phong cách thời trang thường có đặc điểm là tóc nhuộm và quần áo lòe loẹt",
+            "meaning": "phụ nữ trẻ theo phong cách gyaru, thường tóc nhuộm và trang phục nổi bật",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222314,
-        "meaning_vi": "cô gái; con gái; người phụ nữ trẻ",
+        "meaning_vi": "cô gái trẻ",
         "confidence": "high",
         "search_keywords": [
-          "cô gái",
-          "con gái",
-          "người phụ nữ trẻ"
+          "cô gái trẻ",
+          "gái trẻ",
+          "gal"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cô gái; con gái; người phụ nữ trẻ",
+            "meaning": "cô gái; phụ nữ trẻ, cách nói khẩu ngữ",
             "examples": []
           }
         ]
@@ -309,30 +330,35 @@
     "senses": [
       {
         "sense_id": 222315,
-        "meaning_vi": "(nam) bồi bàn",
+        "meaning_vi": "bồi bàn nam",
         "confidence": "high",
         "search_keywords": [
-          "(nam) bồi bàn"
+          "bồi bàn nam",
+          "nam phục vụ",
+          "waiter",
+          "garçon"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "(nam) bồi bàn",
+            "meaning": "bồi bàn nam; nam nhân viên phục vụ bàn",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222316,
-        "meaning_vi": "người phục vụ",
-        "confidence": "high",
+        "meaning_vi": "nhân viên phục vụ khách sạn",
+        "confidence": "medium",
         "search_keywords": [
-          "người phục vụ"
+          "nhân viên phục vụ khách sạn",
+          "bellboy",
+          "nhân viên hành lý"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "người phục vụ",
+            "meaning": "nhân viên phục vụ tại khách sạn, như bellboy",
             "examples": []
           }
         ]
@@ -349,12 +375,13 @@
         "meaning_vi": "lạm phát phi mã",
         "confidence": "high",
         "search_keywords": [
-          "lạm phát phi mã"
+          "lạm phát phi mã",
+          "galloping inflation"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "lạm phát phi mã",
+            "meaning": "lạm phát tăng nhanh và khó kiểm soát",
             "examples": []
           }
         ]
@@ -371,27 +398,29 @@
         "meaning_vi": "phi nước đại",
         "confidence": "high",
         "search_keywords": [
-          "phi nước đại"
+          "phi nước đại",
+          "gallop"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phi nước đại",
+            "meaning": "dáng chạy phi nước đại của ngựa",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222319,
-        "meaning_vi": "galop (khiêu vũ)",
-        "confidence": "high",
+        "meaning_vi": "điệu galop",
+        "confidence": "medium",
         "search_keywords": [
-          "galop (khiêu vũ)"
+          "điệu galop",
+          "galop dance"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "galop (khiêu vũ)",
+            "meaning": "điệu nhảy galop có tiết tấu nhanh",
             "examples": []
           }
         ]
@@ -405,30 +434,34 @@
     "senses": [
       {
         "sense_id": 222320,
-        "meaning_vi": "băng nhóm",
+        "meaning_vi": "băng đảng",
         "confidence": "high",
         "search_keywords": [
-          "băng nhóm"
+          "băng đảng",
+          "gang",
+          "nhóm tội phạm"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "băng nhóm",
+            "meaning": "băng đảng; nhóm tội phạm có tổ chức",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222321,
-        "meaning_vi": "xã hội đen",
+        "meaning_vi": "thành viên băng đảng",
         "confidence": "high",
         "search_keywords": [
+          "thành viên băng đảng",
+          "gangster",
           "xã hội đen"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "xã hội đen",
+            "meaning": "thành viên của một băng đảng; gangster",
             "examples": []
           }
         ]
@@ -442,15 +475,17 @@
     "senses": [
       {
         "sense_id": 222322,
-        "meaning_vi": "tay cờ bạc",
+        "meaning_vi": "con bạc",
         "confidence": "high",
         "search_keywords": [
-          "tay cờ bạc"
+          "con bạc",
+          "người đánh bạc",
+          "gambler"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tay cờ bạc",
+            "meaning": "người đánh bạc; con bạc",
             "examples": []
           }
         ]
@@ -467,12 +502,14 @@
         "meaning_vi": "cờ bạc",
         "confidence": "high",
         "search_keywords": [
-          "cờ bạc"
+          "cờ bạc",
+          "đánh bạc",
+          "gambling"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cờ bạc",
+            "meaning": "cờ bạc; việc đánh bạc",
             "examples": []
           }
         ]
@@ -489,12 +526,14 @@
         "meaning_vi": "Hy Lạp",
         "confidence": "high",
         "search_keywords": [
-          "Hy Lạp"
+          "Hy Lạp",
+          "Greece",
+          "Hi Lạp"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "Hy Lạp",
+            "meaning": "Hy Lạp; quốc gia ở Đông Nam Âu",
             "examples": []
           }
         ]
@@ -511,12 +550,13 @@
         "meaning_vi": "thần thoại Hy Lạp",
         "confidence": "high",
         "search_keywords": [
-          "thần thoại Hy Lạp"
+          "thần thoại Hy Lạp",
+          "Greek mythology"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "thần thoại Hy Lạp",
+            "meaning": "hệ thống thần thoại của Hy Lạp cổ đại",
             "examples": []
           }
         ]
@@ -530,16 +570,17 @@
     "senses": [
       {
         "sense_id": 222326,
-        "meaning_vi": "chữ cái Hy Lạp; bảng chữ cái Hy Lạp",
+        "meaning_vi": "chữ Hy Lạp",
         "confidence": "high",
         "search_keywords": [
-          "chữ cái Hy Lạp",
-          "bảng chữ cái Hy Lạp"
+          "chữ Hy Lạp",
+          "bảng chữ cái Hy Lạp",
+          "Greek alphabet"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chữ cái Hy Lạp; bảng chữ cái Hy Lạp",
+            "meaning": "chữ cái hoặc bảng chữ cái Hy Lạp",
             "examples": []
           }
         ]
@@ -553,15 +594,17 @@
     "senses": [
       {
         "sense_id": 222327,
-        "meaning_vi": "bang hội",
+        "meaning_vi": "phường hội",
         "confidence": "high",
         "search_keywords": [
-          "bang hội"
+          "phường hội",
+          "guild",
+          "hội nghề"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bang hội",
+            "meaning": "phường hội; tổ chức nghề nghiệp hoặc cộng đồng trong trò chơi",
             "examples": []
           }
         ]

@@ -6,15 +6,17 @@
     "senses": [
       {
         "sense_id": 222157,
-        "meaning_vi": "không có nắp (ví dụ: bút máy)",
+        "meaning_vi": "không nắp",
         "confidence": "high",
         "search_keywords": [
-          "không có nắp (ví dụ: bút máy)"
+          "không nắp",
+          "capless",
+          "bút không nắp"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "không có nắp (ví dụ: bút máy)",
+            "meaning": "không có nắp, như bút máy không nắp",
             "examples": []
           }
         ]
@@ -28,30 +30,34 @@
     "senses": [
       {
         "sense_id": 222158,
-        "meaning_vi": "caddie; caddie",
+        "meaning_vi": "caddie golf",
         "confidence": "high",
         "search_keywords": [
-          "caddie"
+          "caddie",
+          "người vác gậy golf",
+          "trợ lý golf"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "caddie; caddie",
+            "meaning": "người hỗ trợ và mang gậy cho người chơi golf",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222159,
-        "meaning_vi": "(CD-ROM) hộp đựng",
-        "confidence": "high",
+        "meaning_vi": "khay CD-ROM",
+        "confidence": "medium",
         "search_keywords": [
-          "(CD-ROM) hộp đựng"
+          "khay CD-ROM",
+          "caddy CD",
+          "hộp đĩa CD"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "(CD-ROM) hộp đựng",
+            "meaning": "khay hoặc hộp đựng đĩa CD-ROM trong thiết bị đọc",
             "examples": []
           }
         ]
@@ -65,15 +71,17 @@
     "senses": [
       {
         "sense_id": 222160,
-        "meaning_vi": "túi caddie; túi caddie",
+        "meaning_vi": "túi gậy golf",
         "confidence": "high",
         "search_keywords": [
-          "túi caddie"
+          "túi gậy golf",
+          "caddie bag",
+          "túi golf"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "túi caddie; túi caddie",
+            "meaning": "túi dùng để đựng và mang gậy golf",
             "examples": []
           }
         ]
@@ -87,31 +95,34 @@
     "senses": [
       {
         "sense_id": 222161,
-        "meaning_vi": "pháo",
+        "meaning_vi": "đại bác",
         "confidence": "high",
         "search_keywords": [
-          "pháo"
+          "đại bác",
+          "pháo",
+          "cannon"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "pháo",
+            "meaning": "đại bác; pháo cỡ lớn",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222162,
-        "meaning_vi": "carom (bi-a); pháo",
-        "confidence": "high",
+        "meaning_vi": "cú carom",
+        "confidence": "medium",
         "search_keywords": [
-          "carom (bi-a)",
-          "pháo"
+          "carom",
+          "cú carom",
+          "bida"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "carom (bi-a); pháo",
+            "meaning": "cú đánh carom trong bi-a",
             "examples": []
           }
         ]
@@ -125,15 +136,17 @@
     "senses": [
       {
         "sense_id": 222163,
-        "meaning_vi": "súng thần công",
+        "meaning_vi": "đạn đại bác",
         "confidence": "high",
         "search_keywords": [
-          "súng thần công"
+          "đạn đại bác",
+          "cannonball",
+          "đạn pháo"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "súng thần công",
+            "meaning": "viên đạn bắn từ đại bác",
             "examples": []
           }
         ]
@@ -147,16 +160,17 @@
     "senses": [
       {
         "sense_id": 222164,
-        "meaning_vi": "quán bar tiếp viên; quán bar có bạn nữ dành cho khách hàng nam",
+        "meaning_vi": "quán hostess",
         "confidence": "high",
         "search_keywords": [
-          "quán bar tiếp viên",
-          "quán bar có bạn nữ dành cho khách hàng nam"
+          "quán hostess",
+          "cabaret club",
+          "quán tiếp viên nữ"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "quán bar tiếp viên; quán bar có bạn nữ dành cho khách hàng nam",
+            "meaning": "quán bar có tiếp viên nữ trò chuyện, phục vụ khách nam",
             "examples": []
           }
         ]
@@ -170,15 +184,17 @@
     "senses": [
       {
         "sense_id": 222165,
-        "meaning_vi": "quán rượu",
+        "meaning_vi": "cabaret",
         "confidence": "high",
         "search_keywords": [
-          "quán rượu"
+          "cabaret",
+          "quán biểu diễn",
+          "vũ trường"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "quán rượu",
+            "meaning": "quán giải trí có biểu diễn, âm nhạc và phục vụ đồ uống",
             "examples": []
           }
         ]
@@ -195,12 +211,14 @@
         "meaning_vi": "điện dung",
         "confidence": "high",
         "search_keywords": [
-          "điện dung"
+          "điện dung",
+          "capacitance",
+          "tụ điện"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "điện dung",
+            "meaning": "điện dung; khả năng tích điện của vật dẫn hoặc tụ điện",
             "examples": []
           }
         ]
@@ -214,15 +232,17 @@
     "senses": [
       {
         "sense_id": 222167,
-        "meaning_vi": "công suất",
+        "meaning_vi": "sức chứa",
         "confidence": "high",
         "search_keywords": [
-          "công suất"
+          "sức chứa",
+          "năng lực",
+          "capacity"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "công suất",
+            "meaning": "sức chứa; năng lực tiếp nhận hoặc xử lý",
             "examples": []
           }
         ]
@@ -236,15 +256,17 @@
     "senses": [
       {
         "sense_id": 222168,
-        "meaning_vi": "trứng cá muối; trứng cá muối",
+        "meaning_vi": "trứng cá muối",
         "confidence": "high",
         "search_keywords": [
-          "trứng cá muối"
+          "trứng cá muối",
+          "caviar",
+          "trứng cá tầm"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "trứng cá muối; trứng cá muối",
+            "meaning": "trứng cá muối, thường là trứng cá tầm",
             "examples": []
           }
         ]
@@ -258,15 +280,17 @@
     "senses": [
       {
         "sense_id": 222169,
-        "meaning_vi": "tủ",
-        "confidence": "high",
+        "meaning_vi": "tủ cabinet",
+        "confidence": "medium",
         "search_keywords": [
-          "tủ"
+          "tủ cabinet",
+          "tủ",
+          "cabinet"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tủ",
+            "meaning": "tủ cabinet; tủ nhỏ có ngăn chứa",
             "examples": []
           }
         ]
@@ -280,16 +304,17 @@
     "senses": [
       {
         "sense_id": 222170,
-        "meaning_vi": "tủ; nhà ở (cho thiết bị)",
+        "meaning_vi": "tủ cabinet",
         "confidence": "high",
         "search_keywords": [
-          "tủ",
-          "nhà ở (cho thiết bị)"
+          "tủ cabinet",
+          "tủ đựng đồ",
+          "vỏ thiết bị"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tủ; nhà ở (cho thiết bị)",
+            "meaning": "tủ đựng đồ; vỏ hoặc khung chứa thiết bị",
             "examples": []
           }
         ]
@@ -303,15 +328,17 @@
     "senses": [
       {
         "sense_id": 222171,
-        "meaning_vi": "cabin",
-        "confidence": "low",
+        "meaning_vi": "khoang cabin",
+        "confidence": "high",
         "search_keywords": [
-          "cabin"
+          "cabin",
+          "khoang cabin",
+          "buồng lái"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "cabin",
+            "meaning": "cabin; khoang hoặc buồng nhỏ trên tàu, máy bay, xe",
             "examples": []
           }
         ]
@@ -328,7 +355,8 @@
         "meaning_vi": "chủ nghĩa tư bản",
         "confidence": "high",
         "search_keywords": [
-          "chủ nghĩa tư bản"
+          "chủ nghĩa tư bản",
+          "capitalism"
         ],
         "meaning_vi_glosses": [
           {
@@ -347,15 +375,17 @@
     "senses": [
       {
         "sense_id": 222173,
-        "meaning_vi": "tăng vốn",
+        "meaning_vi": "lãi vốn",
         "confidence": "high",
         "search_keywords": [
-          "tăng vốn"
+          "lãi vốn",
+          "capital gain",
+          "lợi nhuận vốn"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "tăng vốn",
+            "meaning": "lợi nhuận thu được từ việc tăng giá tài sản đầu tư",
             "examples": []
           }
         ]
@@ -372,12 +402,14 @@
         "meaning_vi": "chữ in hoa",
         "confidence": "high",
         "search_keywords": [
-          "chữ in hoa"
+          "chữ in hoa",
+          "chữ hoa",
+          "capital letter"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "chữ in hoa",
+            "meaning": "chữ cái viết hoa",
             "examples": []
           }
         ]
@@ -394,12 +426,14 @@
         "meaning_vi": "lỗ vốn",
         "confidence": "high",
         "search_keywords": [
-          "lỗ vốn"
+          "lỗ vốn",
+          "capital loss",
+          "lỗ đầu tư"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "lỗ vốn",
+            "meaning": "khoản lỗ do tài sản đầu tư giảm giá",
             "examples": []
           }
         ]
@@ -413,15 +447,17 @@
     "senses": [
       {
         "sense_id": 222176,
-        "meaning_vi": "bộ chế hòa khí; bộ chế hòa khí; bộ chế hòa khí; bộ chế hòa khí",
+        "meaning_vi": "bộ chế hòa khí",
         "confidence": "high",
         "search_keywords": [
-          "bộ chế hòa khí"
+          "bộ chế hòa khí",
+          "carburetor",
+          "bình xăng con"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "bộ chế hòa khí; bộ chế hòa khí; bộ chế hòa khí; bộ chế hòa khí",
+            "meaning": "bộ phận hòa trộn nhiên liệu và không khí trong động cơ",
             "examples": []
           }
         ]
@@ -435,33 +471,34 @@
     "senses": [
       {
         "sense_id": 222177,
-        "meaning_vi": "đầu đề; tiêu đề; huyền thoại; đường cắt",
+        "meaning_vi": "chú thích",
         "confidence": "high",
         "search_keywords": [
-          "đầu đề",
-          "tiêu đề",
-          "huyền thoại",
-          "đường cắt"
+          "chú thích",
+          "caption",
+          "tiêu đề ảnh"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "đầu đề; tiêu đề; huyền thoại; đường cắt",
+            "meaning": "chú thích hoặc tiêu đề ngắn cho ảnh, hình, bài viết",
             "examples": []
           }
         ]
       },
       {
         "sense_id": 222178,
-        "meaning_vi": "phụ đề (trên một bộ phim hoặc chương trình truyền hình)",
+        "meaning_vi": "phụ đề",
         "confidence": "high",
         "search_keywords": [
-          "phụ đề (trên một bộ phim hoặc chương trình truyền hình)"
+          "phụ đề",
+          "subtitle",
+          "caption phim"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "phụ đề (trên một bộ phim hoặc chương trình truyền hình)",
+            "meaning": "phụ đề hiển thị trong phim hoặc chương trình truyền hình",
             "examples": []
           }
         ]
@@ -475,16 +512,17 @@
     "senses": [
       {
         "sense_id": 222179,
-        "meaning_vi": "thu thập (dữ liệu nghe nhìn); ảnh chụp màn hình",
+        "meaning_vi": "chụp màn hình",
         "confidence": "high",
         "search_keywords": [
-          "thu thập (dữ liệu nghe nhìn)",
-          "ảnh chụp màn hình"
+          "chụp màn hình",
+          "capture",
+          "screenshot"
         ],
         "meaning_vi_glosses": [
           {
             "index": 1,
-            "meaning": "thu thập (dữ liệu nghe nhìn); ảnh chụp màn hình",
+            "meaning": "ghi lại dữ liệu hình ảnh hoặc âm thanh; ảnh chụp màn hình",
             "examples": []
           }
         ]
