@@ -620,18 +620,21 @@ const _RAW: StaticQuestion[] = [
   {
     groupId: "lq1", sectionId: "listening", type: "listening_text",
     display: "2ばん",
+    imageSrc: "/exams/n4/images/lq1-2.png",
     options: ["1", "2", "3", "4"], correctIndex: 3,
   },
   // 3ばん: 絵選択 — 女性の行動 (買い物/掃除機/料理/洗い物)
   {
     groupId: "lq1", sectionId: "listening", type: "listening_text",
     display: "3ばん",
+    imageSrc: "/exams/n4/images/lq1-3.png",
     options: ["1", "2", "3", "4"], correctIndex: 0,
   },
   // 4ばん: 絵選択 — 店でのやりとり (洋服/靴/レジ無バッグ/レジ有バッグ)
   {
     groupId: "lq1", sectionId: "listening", type: "listening_text",
     display: "4ばん",
+    imageSrc: "/exams/n4/images/lq1-4.png",
     options: ["1", "2", "3", "4"], correctIndex: 0,
   },
   // 5ばん: テキスト選択 — 場所
@@ -644,6 +647,7 @@ const _RAW: StaticQuestion[] = [
   {
     groupId: "lq1", sectionId: "listening", type: "listening_text",
     display: "6ばん",
+    imageSrc: "/exams/n4/images/lq1-6.png",
     options: ["1", "2", "3", "4"], correctIndex: 2,
   },
   // 7ばん: テキスト選択 — 冊数
@@ -748,23 +752,28 @@ const _RAW: StaticQuestion[] = [
 
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
-    display: "1ばん", options: ["1", "2", "3"], correctIndex: 1,
+    display: "1ばん", imageSrc: "/exams/n4/images/lq3-1.png",
+    options: ["1", "2", "3"], correctIndex: 1,
   },
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
-    display: "2ばん", options: ["1", "2", "3"], correctIndex: 2,
+    display: "2ばん", imageSrc: "/exams/n4/images/lq3-2.png",
+    options: ["1", "2", "3"], correctIndex: 2,
   },
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
-    display: "3ばん", options: ["1", "2", "3"], correctIndex: 0,
+    display: "3ばん", imageSrc: "/exams/n4/images/lq3-3.png",
+    options: ["1", "2", "3"], correctIndex: 0,
   },
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
-    display: "4ばん", options: ["1", "2", "3"], correctIndex: 0,
+    display: "4ばん", imageSrc: "/exams/n4/images/lq3-4.png",
+    options: ["1", "2", "3"], correctIndex: 0,
   },
   {
     groupId: "lq3", sectionId: "listening", type: "listening_scene",
-    display: "5ばん", options: ["1", "2", "3"], correctIndex: 2,
+    display: "5ばん", imageSrc: "/exams/n4/images/lq3-5.png",
+    options: ["1", "2", "3"], correctIndex: 2,
   },
 
   // ─── もんだい4 (lq4): 8問 — 絵なし、文を聞いて返事を選ぶ ───────────────────

@@ -99,7 +99,7 @@ const PASSAGE_R7 =
 <p style="margin:0 0 8px;">春とともにやって来る「山中さくらまつり」。毎年たくさんの人が集まるこの「さくらまつり」に、協力者として参加してみませんか。</p>
 <p style="margin:0 0 8px;text-align:center;">——山中さくらまつり——<br>日時：4月4日(土)午前10時〜午後8時　4月5日(日)午前10時〜午後7時</p>
 <table style="width:100%;border-collapse:collapse;font-size:12px;margin:6px 0;">
-<tr><th style="border:1px solid #9ca3af;padding:5px 8px;background:#f3f4f6;text-align:left;white-space:nowrap;">係の名前と仕事内容</th><td style="border:1px solid #9ca3af;padding:5px 8px;">1.案内係：会場の案内と各プログラムに参加する人を集めます。<br>2.会場係：場内の整備・免簡りを行います。</td></tr>
+<tr><th style="border:1px solid #9ca3af;padding:5px 8px;background:#f3f4f6;text-align:left;white-space:nowrap;">係の名前と仕事内容</th><td style="border:1px solid #9ca3af;padding:5px 8px;">1.案内係：会場の案内と各プログラムに参加する人を集めます。<br>2.会場係：場内の整備・見回りを行います。</td></tr>
 <tr><th style="border:1px solid #9ca3af;padding:5px 8px;background:#f3f4f6;text-align:left;">場所（会場）</th><td style="border:1px solid #9ca3af;padding:5px 8px;">山中公園</td></tr>
 <tr><th style="border:1px solid #9ca3af;padding:5px 8px;background:#f3f4f6;text-align:left;">時間</th><td style="border:1px solid #9ca3af;padding:5px 8px;">①4月4日(土)午前9時〜午後1時<br>②　〃　午後1時〜午後6時<br>③　〃　午後6時〜午後9時<br>④4月5日(日)午前9時〜午後1時<br>⑤　〃　午後1時〜午後6時<br>⑥　〃　午後6時〜午後8時</td></tr>
 <tr><th style="border:1px solid #9ca3af;padding:5px 8px;background:#f3f4f6;text-align:left;">応募資格</th><td style="border:1px solid #9ca3af;padding:5px 8px;">市内に住んでいる16歳以上で、2回以上参加が可能な方。<br><small>（③と⑥は20歳以上の方だけです）</small></td></tr>

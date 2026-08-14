@@ -23,12 +23,12 @@ interface StaticQuestion {
 // ─── Passages ────────────────────────────────────────────────────────────────
 
 const PASSAGE_G3 =
-  `<p style="font-size:13px;margin:0 0 6px;color:#374151;">いかは、留学生の作文である。</p>
+  `<p style="font-size:13px;margin:0 0 6px;color:#374151;">以下は、留学生の作文である。</p>
 <div style="border:1.5px solid #6b7280;border-radius:6px;padding:14px 16px;font-size:14px;line-height:2;">
 <p style="text-align:center;font-weight:700;margin:0 0 4px;">工場見学</p>
 <p style="text-align:right;font-size:13px;color:#6b7280;margin:0 0 12px;">コルホネン　アーロン</p>
 <p style="margin:0 0 10px;">　日本に来る前に、日本には無料で工場見学ができるところがあると聞いて、面白そうだと思いました。日本に行ったら絶対に行こうと思っていたのですが、先月ついに行くことができました。</p>
-<p style="margin:0 0 10px;">　<span style="display:inline-block;border:1.5px solid #374151;border-radius:3px;padding:0 5px;font-weight:700;">19</span>のはアイスクリームの会社の工場です。工場では、機会を使って、材料を混ぜたり型に入れたり凍らせたりしていました。工場の人の説明は丁寧で、機械や商品の説明が書かれた資料もくれたので、よくわかりました。できたばかりのアイスも食べさせてくれました。工場見学は本当に楽しかったです。<span style="display:inline-block;border:1.5px solid #374151;border-radius:3px;padding:0 5px;font-weight:700;">20</span>、どうして無料で見学をさせてくれるのかわかりませんでした。</p>
+<p style="margin:0 0 10px;">　<span style="display:inline-block;border:1.5px solid #374151;border-radius:3px;padding:0 5px;font-weight:700;">19</span>のはアイスクリームの会社の工場です。工場では、機械を使って、材料を混ぜたり型に入れたり凍らせたりしていました。工場の人の説明は丁寧で、機械や商品の説明が書かれた資料もくれたので、よくわかりました。できたばかりのアイスも食べさせてくれました。工場見学は本当に楽しかったです。<span style="display:inline-block;border:1.5px solid #374151;border-radius:3px;padding:0 5px;font-weight:700;">20</span>、どうして無料で見学をさせてくれるのかわかりませんでした。</p>
 <p style="margin:0 0 10px;">　調べてみたら、工場見学は、会社側にもいいことがあるとわかりました。ある新聞の調査によると、工場見学をした人の大部分が、<span style="display:inline-block;border:1.5px solid #374151;border-radius:3px;padding:0 5px;font-weight:700;">21</span>で作られている商品を好きになり、会社に対するイメージもよくなったそうです。実際に、私も工場見学をした会社の印象が前よりよくなりました。</p>
 <p style="margin:0;">　日本には、他にも同じような工場見学ができるところがたくさんあるそうです。今、次に見学に行く工場を探しています。日本にいる間にいろいろな工場に見学に<span style="display:inline-block;border:1.5px solid #374151;border-radius:3px;padding:0 5px;font-weight:700;">22</span>。</p>
 </div>`
