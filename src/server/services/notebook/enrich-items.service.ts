@@ -1,4 +1,4 @@
-import { supabaseServer } from "@/server/supabase/server"
+import { supabaseAdmin } from "@/server/supabase/admin"
 import type { EnrichedNotebookItem, NotebookItem } from "@/domain/notebook/notebook.type"
 
 function isKanji(ch: string) {
@@ -15,19 +15,19 @@ export async function enrichItems(items: NotebookItem[]): Promise<EnrichedNotebo
 
     const [vocabResult, kanjiResult, grammarResult] = await Promise.all([
         vocabItems.length > 0
-            ? supabaseServer
+            ? supabaseAdmin
                 .from("vocabularies")
                 .select("id, primary_word, primary_kana, vocabulary_senses(meaning_vi, sense_index)")
                 .in("id", vocabItems.map((i) => Number(i.item_id)))
             : { data: [] },
         kanjiItems.length > 0
-            ? supabaseServer
+            ? supabaseAdmin
                 .from("kanjis")
                 .select("kanji, han_viet, meaning_vi")
                 .in("kanji", kanjiItems.map((i) => i.item_id))
             : { data: [] },
         grammarItems.length > 0
-            ? supabaseServer
+            ? supabaseAdmin
                 .from("grammars")
                 .select("id, pattern, display_pattern, short_meaning_vi, jlpt_level")
                 .in("id", grammarItems.map((i) => Number(i.item_id)))
@@ -42,7 +42,7 @@ export async function enrichItems(items: NotebookItem[]): Promise<EnrichedNotebo
         (vocabResult.data ?? []).flatMap((v) => [...v.primary_word].filter(isKanji))
     )]
     const vocabKanjiResult = vocabKanjiChars.length > 0
-        ? await supabaseServer
+        ? await supabaseAdmin
             .from("kanjis")
             .select("kanji, han_viet")
             .in("kanji", vocabKanjiChars)

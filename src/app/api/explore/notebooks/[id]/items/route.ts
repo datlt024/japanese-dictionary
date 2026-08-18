@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
-import { supabaseServer } from "@/server/supabase/server"
+import { supabaseAdmin } from "@/server/supabase/admin"
 import { enrichItems } from "@/server/services/notebook/enrich-items.service"
 import { serverError } from "@/server/utils/api-error"
 import type { NotebookItem } from "@/domain/notebook/notebook.type"
@@ -8,7 +8,7 @@ type Params = { params: Promise<{ id: string }> }
 
 async function isNotebookAccessible(notebookId: string): Promise<boolean> {
     // Accessible if individually public
-    const { data: directPublic } = await supabaseServer
+    const { data: directPublic } = await supabaseAdmin
         .from("notebooks")
         .select("id")
         .eq("id", notebookId)
@@ -18,7 +18,7 @@ async function isNotebookAccessible(notebookId: string): Promise<boolean> {
     if (directPublic) return true
 
     // Or if it belongs to a public group
-    const { data: nb } = await supabaseServer
+    const { data: nb } = await supabaseAdmin
         .from("notebooks")
         .select("group_id")
         .eq("id", notebookId)
@@ -26,7 +26,7 @@ async function isNotebookAccessible(notebookId: string): Promise<boolean> {
 
     if (!nb?.group_id) return false
 
-    const { data: group } = await supabaseServer
+    const { data: group } = await supabaseAdmin
         .from("notebook_groups")
         .select("id")
         .eq("id", nb.group_id)
@@ -47,7 +47,7 @@ export async function GET(_req: NextRequest, { params }: Params) {
         )
     }
 
-    const { data, error } = await supabaseServer
+    const { data, error } = await supabaseAdmin
         .from("notebook_items")
         .select("*")
         .eq("notebook_id", id)

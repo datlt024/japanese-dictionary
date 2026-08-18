@@ -13,7 +13,7 @@ export async function GET() {
 
     const { data, error } = await supabase
         .from("notebooks")
-        .select("id, name, description, is_public, public_category, public_description, display_order, created_at, updated_at")
+        .select("id, name, description, group_id, is_public, public_category, public_description, display_order, created_at, updated_at")
         .eq("user_id", user.id)
         .order("display_order", { ascending: true })
         .order("name", { ascending: true })
