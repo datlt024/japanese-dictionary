@@ -2,10 +2,14 @@
 
 import {
     FormEvent,
+    useEffect,
     useState,
 } from "react"
 
+import { useRouter } from "next/navigation"
+
 import { createSupabaseBrowserClient } from "@/shared/lib/supabase/auth-client"
+import { useAuth } from "@/features/auth/hooks/useAuth"
 
 import styles from "./AccountClient.module.css"
 
@@ -21,6 +25,15 @@ type Props = {
 type SectionStatus = { ok: string } | { err: string } | null
 
 export default function AccountClient({ email, initialDisplayName, initialJlptLevel, hasPassword }: Props) {
+    const router = useRouter()
+    const { user, loading } = useAuth()
+
+    useEffect(() => {
+        if (!loading && !user) {
+            router.replace("/")
+        }
+    }, [loading, user, router])
+
     // ── Profile section ──
     const [displayName, setDisplayName] = useState(initialDisplayName)
     const [jlptLevel, setJlptLevel] = useState(initialJlptLevel ?? "")
