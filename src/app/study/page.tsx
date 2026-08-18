@@ -1,24 +1,20 @@
+import { Suspense } from "react"
 import type { Metadata } from "next"
 import Link from "next/link"
 import dynamic from "next/dynamic"
 import { BookOpen, Compass, Library, ClipboardList, FileText, PenLine } from "lucide-react"
-import ThiThuContent from "./ThiThuContent"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
-import {
-    getAllStudyCounts,
-    getJlptVocabItems,
-    getJlptGrammarItems,
-    getJlptKanjiItems,
-} from "@/server/services/study/jlpt-study.service"
+import { getAllStudyCounts } from "@/server/services/study/jlpt-study.service"
 import type { JlptLevel } from "@/server/services/study/jlpt-study.service"
+import KanaTables from "@/features/dictionary/study/components/KanaTables/KanaTables"
 import styles from "./page.module.css"
 
 const StudyNotebooksTab = dynamic(
     () => import("@/features/dictionary/study/components/StudyNotebooksTab/StudyNotebooksTab")
 )
 
-import KanaTables from "@/features/dictionary/study/components/KanaTables/KanaTables"
+const ExamContent = dynamic(() => import("./ExamContent"))
 
 export const metadata: Metadata = {
     title: "Học tập | Yomi",
@@ -29,10 +25,10 @@ const TABS = ["so-tay", "kham-pha", "thu-vien", "thi-thu"] as const
 type StudyTab = (typeof TABS)[number]
 
 const TAB_LIST: { id: StudyTab; label: string; Icon: React.FC<{ size?: number }> }[] = [
-    { id: "so-tay",    label: "Sổ tay của tôi", Icon: BookOpen },
-    { id: "kham-pha",  label: "Khám phá",        Icon: Compass },
-    { id: "thu-vien",  label: "Thư viện",         Icon: Library },
-    { id: "thi-thu",   label: "Thi thử",          Icon: ClipboardList },
+    { id: "so-tay",   label: "Sổ tay của tôi", Icon: BookOpen     },
+    { id: "kham-pha", label: "Khám phá",        Icon: Compass      },
+    { id: "thu-vien", label: "Thư viện",         Icon: Library      },
+    { id: "thi-thu",  label: "Thi thử",          Icon: ClipboardList },
 ]
 
 function normalizeTab(tab: string | undefined): StudyTab {
@@ -40,7 +36,7 @@ function normalizeTab(tab: string | undefined): StudyTab {
     return "so-tay"
 }
 
-function StudyTabBar({ active }: { active: StudyTab }) {
+function TabBar({ active }: { active: StudyTab }) {
     return (
         <div className={styles.tabBar}>
             {TAB_LIST.map(({ id, label, Icon }) => (
@@ -58,17 +54,10 @@ function StudyTabBar({ active }: { active: StudyTab }) {
     )
 }
 
-const LEVELS: JlptLevel[] = ["N1", "N2", "N3", "N4", "N5"]
+const JLPT_LEVELS: JlptLevel[] = ["N1", "N2", "N3", "N4", "N5"]
 
-async function KhamPhaContent() {
+async function StudyByLevelSection() {
     const counts = await getAllStudyCounts()
-
-    // Fire-and-forget: warm page-1 caches for all levels while the user reads the library.
-    for (const level of LEVELS) {
-        getJlptVocabItems(level as JlptLevel, 0, 49).catch(() => {})
-        getJlptGrammarItems(level, 0, 49).catch(() => {})
-        getJlptKanjiItems(level, 0, 99).catch(() => {})
-    }
 
     return (
         <>
@@ -80,7 +69,7 @@ async function KhamPhaContent() {
                         <BookOpen size={15} />
                         <span>Từ vựng</span>
                     </div>
-                    {LEVELS.map((level) => (
+                    {JLPT_LEVELS.map((level) => (
                         <Link
                             key={level}
                             href={`/study/vocabulary/${level.toLowerCase()}`}
@@ -101,7 +90,7 @@ async function KhamPhaContent() {
                         <FileText size={15} />
                         <span>Ngữ pháp</span>
                     </div>
-                    {LEVELS.map((level) => (
+                    {JLPT_LEVELS.map((level) => (
                         <Link
                             key={level}
                             href={`/study/grammar/${level.toLowerCase()}`}
@@ -122,7 +111,7 @@ async function KhamPhaContent() {
                         <PenLine size={15} />
                         <span>Hán tự</span>
                     </div>
-                    {LEVELS.map((level) => (
+                    {JLPT_LEVELS.map((level) => (
                         <Link
                             key={level}
                             href={`/study/kanji/${level.toLowerCase()}`}
@@ -142,7 +131,30 @@ async function KhamPhaContent() {
     )
 }
 
-function ComingSoonContent({ label }: { label: string }) {
+function StudyByLevelSkeleton() {
+    return (
+        <>
+            <p className={styles.sectionEyebrow}>Học theo cấp độ</p>
+            <div className={styles.categoryGrid}>
+                {[0, 1, 2].map((i) => (
+                    <div key={i} className={styles.categoryCard}>
+                        <div className={styles.categoryHeader}>
+                            <div className={styles.skeletonInline} style={{ width: 80, height: 14 }} />
+                        </div>
+                        {[0, 1, 2, 3, 4].map((j) => (
+                            <div key={j} className={styles.levelRow} style={{ pointerEvents: "none" }}>
+                                <div className={styles.skeletonInline} style={{ width: 28, height: 18 }} />
+                                <div className={styles.skeletonInline} style={{ width: 60, height: 14, marginLeft: "auto" }} />
+                            </div>
+                        ))}
+                    </div>
+                ))}
+            </div>
+        </>
+    )
+}
+
+function ComingSoon({ label }: { label: string }) {
     return (
         <div className={styles.comingSoon}>
             <span className={styles.comingSoonIcon}>🚧</span>
@@ -151,7 +163,6 @@ function ComingSoonContent({ label }: { label: string }) {
         </div>
     )
 }
-
 
 type Props = { searchParams: Promise<{ tab?: string }> }
 
@@ -162,17 +173,19 @@ export default async function StudyPage({ searchParams }: Props) {
     return (
         <AppLayout title="Học tập" hideSearch>
             <main className={styles.page}>
-                <StudyTabBar active={tab} />
+                <TabBar active={tab} />
 
                 <div className={styles.tabContent}>
                     {tab === "so-tay"   && <StudyNotebooksTab />}
-                    {tab === "kham-pha" && <ComingSoonContent label="Khám phá" />}
+                    {tab === "kham-pha" && <ComingSoon label="Khám phá" />}
                     {tab === "thu-vien" && (
                         <KanaTables>
-                            <KhamPhaContent />
+                            <Suspense fallback={<StudyByLevelSkeleton />}>
+                                <StudyByLevelSection />
+                            </Suspense>
                         </KanaTables>
                     )}
-                    {tab === "thi-thu"  && <ThiThuContent />}
+                    {tab === "thi-thu"  && <ExamContent />}
                 </div>
             </main>
         </AppLayout>

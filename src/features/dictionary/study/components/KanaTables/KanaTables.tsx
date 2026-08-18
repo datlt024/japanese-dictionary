@@ -175,10 +175,10 @@ function YoonTable({ rows }: { rows: YoonRow[] }) {
     )
 }
 
-const SECTION_TABS: { id: KanaSection; jp: string; vi: string }[] = [
-    { id: "seion",   jp: "Âm cơ bản", vi: "清音"       },
-    { id: "dakuten", jp: "Biến âm",   vi: "濁音・半濁音" },
-    { id: "yoon",    jp: "Âm ghép",   vi: "拗音"       },
+const SECTION_TABS: { id: KanaSection; label: string; jpLabel: string }[] = [
+    { id: "seion",   label: "Âm cơ bản", jpLabel: "清音"       },
+    { id: "dakuten", label: "Biến âm",   jpLabel: "濁音・半濁音" },
+    { id: "yoon",    label: "Âm ghép",   jpLabel: "拗音"       },
 ]
 
 function KanaCard({
@@ -217,8 +217,8 @@ function KanaCard({
                         className={`${styles.tabBtn} ${section === t.id ? styles.tabBtnActive : ""}`}
                         onClick={() => setSection(t.id)}
                     >
-                        <span className={styles.tabJp}>{t.jp}</span>
-                        <span className={styles.tabVi}>{t.vi}</span>
+                        <span className={styles.tabJp}>{t.label}</span>
+                        <span className={styles.tabVi}>{t.jpLabel}</span>
                     </button>
                 ))}
             </div>
