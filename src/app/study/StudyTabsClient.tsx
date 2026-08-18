@@ -9,7 +9,9 @@ import styles from "./page.module.css"
 const StudyNotebooksTab = dynamic(
     () => import("@/features/dictionary/study/components/StudyNotebooksTab/StudyNotebooksTab")
 )
-
+const ExploreTab = dynamic(
+    () => import("@/features/dictionary/study/components/ExploreTab/ExploreTab")
+)
 const ExamContent = dynamic(() => import("./ExamContent"))
 
 const TABS = ["so-tay", "kham-pha", "thu-vien", "thi-thu"] as const
@@ -25,16 +27,6 @@ const TAB_LIST: { id: StudyTab; label: string; Icon: React.FC<{ size?: number }>
 function normalizeTab(tab: string | null): StudyTab {
     if (tab && (TABS as readonly string[]).includes(tab)) return tab as StudyTab
     return "so-tay"
-}
-
-function ComingSoon({ label }: { label: string }) {
-    return (
-        <div className={styles.comingSoon}>
-            <span className={styles.comingSoonIcon}>🚧</span>
-            <p className={styles.comingSoonTitle}>{label} đang được phát triển</p>
-            <p className={styles.comingSoonDesc}>Tính năng này sẽ sớm ra mắt. Hãy theo dõi nhé!</p>
-        </div>
-    )
 }
 
 interface Props {
@@ -63,7 +55,7 @@ export default function StudyTabsClient({ libraryContent }: Props) {
 
             <div className={styles.tabContent}>
                 {tab === "so-tay"   && <StudyNotebooksTab />}
-                {tab === "kham-pha" && <ComingSoon label="Khám phá" />}
+                {tab === "kham-pha" && <ExploreTab />}
                 {tab === "thu-vien" && libraryContent}
                 {tab === "thi-thu"  && <ExamContent />}
             </div>

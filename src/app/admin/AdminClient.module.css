@@ -1,0 +1,437 @@
+.page {
+    padding: 24px 0 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 720px;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.pageTitle {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0 0 4px;
+}
+
+.pageMeta {
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+/* ── Notebook rows ─────────────────────────────── */
+
+.notebookList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rowWrap {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: border-color 0.15s;
+}
+
+.rowWrap[data-public] {
+    border-color: oklch(0.78 0.1 145);
+}
+
+.rowMain {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 16px;
+}
+
+.rowHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 16px 0;
+}
+
+.rowIcon {
+    color: var(--color-text-secondary);
+    flex-shrink: 0;
+}
+
+.rowInfo {
+    flex: 1;
+    min-width: 0;
+}
+
+.rowName {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rowMeta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 3px;
+}
+
+.catTag {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: oklch(0.55 0.18 264);
+    background: oklch(0.96 0.02 264);
+    border-radius: 999px;
+    padding: 1px 8px;
+}
+
+.rowDesc {
+    font-size: 0.78rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 220px;
+}
+
+.itemCount {
+    font-size: 0.78rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+}
+
+.rowActions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+/* ── Edit row ──────────────────────────────────── */
+
+.editRow {
+    padding: 12px 16px 16px;
+    border-top: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.editGrid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+}
+
+.editField {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.editActions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* ── Form elements ─────────────────────────────── */
+
+.label {
+    font-size: 0.775rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+.input {
+    padding: 7px 10px;
+    font-size: 0.875rem;
+    color: var(--color-text);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+}
+
+.input:focus {
+    border-color: oklch(0.6 0.16 264);
+}
+
+.dropWrap {
+    position: relative;
+}
+
+.dropList {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    list-style: none;
+    margin: 0;
+    padding: 4px;
+}
+
+.dropItem {
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    text-align: left;
+    font-size: 0.85rem;
+    color: var(--color-text);
+    background: none;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.dropItem:hover {
+    background: var(--color-bg);
+}
+
+.errorMsg {
+    font-size: 0.8rem;
+    color: oklch(0.55 0.2 25);
+    margin: 0;
+}
+
+/* ── Buttons ───────────────────────────────────── */
+
+.btnPrimary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    background: oklch(0.5 0.2 264);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+}
+
+.btnPrimary:hover {
+    background: oklch(0.45 0.2 264);
+}
+
+.btnPrimary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btnSecondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    background: var(--color-surface);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 0.15s;
+}
+
+.btnSecondary:hover {
+    border-color: oklch(0.6 0.1 264);
+}
+
+.btnDanger {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 12px;
+    background: none;
+    color: oklch(0.55 0.2 25);
+    border: 1px solid oklch(0.88 0.05 25);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.btnDanger:hover {
+    background: oklch(0.97 0.01 25);
+}
+
+.btnPublic {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 11px;
+    background: oklch(0.95 0.04 145);
+    color: oklch(0.4 0.18 145);
+    border: 1px solid oklch(0.82 0.08 145);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+}
+
+.btnPublic:hover {
+    background: oklch(0.9 0.06 145);
+}
+
+.btnPrivate {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 11px;
+    background: var(--color-bg);
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 0.15s;
+}
+
+.btnPrivate:hover {
+    border-color: oklch(0.7 0.1 264);
+}
+
+.iconBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    text-decoration: none;
+    transition: border-color 0.15s;
+    flex-shrink: 0;
+}
+
+.iconBtn:hover {
+    border-color: oklch(0.6 0.1 264);
+    color: var(--color-text);
+}
+
+/* ── Modal ─────────────────────────────────────── */
+
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background: var(--overlay-bg, rgba(0, 0, 0, 0.35));
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 18px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 20px 0;
+}
+
+.modalTitle {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.modalBody {
+    padding: 14px 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.modalFooter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 14px 20px 18px;
+}
+
+/* ── States ─────────────────────────────────────── */
+
+.skeletonList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skeletonRow {
+    height: 60px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.emptyState,
+.errorState {
+    padding: 32px 0;
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+}
+
+/* ── Toast ─────────────────────────────────────── */
+
+.toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: oklch(0.4 0.18 145);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    z-index: 1100;
+}
