@@ -1,66 +1,31 @@
 import { Suspense } from "react"
 import type { Metadata } from "next"
 import Link from "next/link"
-import dynamic from "next/dynamic"
-import { BookOpen, Compass, Library, ClipboardList, FileText, PenLine } from "lucide-react"
+import { BookOpen, FileText, PenLine } from "lucide-react"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
 import { getAllStudyCounts } from "@/server/services/study/jlpt-study.service"
 import type { JlptLevel } from "@/server/services/study/jlpt-study.service"
 import KanaTables from "@/features/dictionary/study/components/KanaTables/KanaTables"
+import StudyTabsClient from "./StudyTabsClient"
 import styles from "./page.module.css"
 
-const StudyNotebooksTab = dynamic(
-    () => import("@/features/dictionary/study/components/StudyNotebooksTab/StudyNotebooksTab")
-)
-
-const ExamContent = dynamic(() => import("./ExamContent"))
+// Revalidate once per day — page is served from CDN, tab switching is client-side
+export const revalidate = 86400
 
 export const metadata: Metadata = {
     title: "Học tập | Yomi",
     description: "Ôn luyện từ vựng tiếng Nhật theo cấp độ JLPT với flashcard.",
 }
 
-const TABS = ["so-tay", "kham-pha", "thu-vien", "thi-thu"] as const
-type StudyTab = (typeof TABS)[number]
-
-const TAB_LIST: { id: StudyTab; label: string; Icon: React.FC<{ size?: number }> }[] = [
-    { id: "so-tay",   label: "Sổ tay của tôi", Icon: BookOpen     },
-    { id: "kham-pha", label: "Khám phá",        Icon: Compass      },
-    { id: "thu-vien", label: "Thư viện",         Icon: Library      },
-    { id: "thi-thu",  label: "Thi thử",          Icon: ClipboardList },
-]
-
-function normalizeTab(tab: string | undefined): StudyTab {
-    if (tab && (TABS as readonly string[]).includes(tab)) return tab as StudyTab
-    return "so-tay"
-}
-
-function TabBar({ active }: { active: StudyTab }) {
-    return (
-        <div className={styles.tabBar}>
-            {TAB_LIST.map(({ id, label, Icon }) => (
-                <Link
-                    key={id}
-                    href={`/study?tab=${id}`}
-                    className={styles.tabItem}
-                    data-active={active === id || undefined}
-                >
-                    <Icon size={15} />
-                    <span>{label}</span>
-                </Link>
-            ))}
-        </div>
-    )
-}
-
 const JLPT_LEVELS: JlptLevel[] = ["N1", "N2", "N3", "N4", "N5"]
 
-async function StudyByLevelSection() {
+// Server component — renders once per ISR cycle with pre-fetched counts
+async function LibraryTabContent() {
     const counts = await getAllStudyCounts()
 
     return (
-        <>
+        <KanaTables>
             <p className={styles.sectionEyebrow}>Học theo cấp độ</p>
 
             <div className={styles.categoryGrid}>
@@ -127,66 +92,37 @@ async function StudyByLevelSection() {
                     ))}
                 </div>
             </div>
-        </>
+        </KanaTables>
     )
 }
 
-function StudyByLevelSkeleton() {
+function TabSkeleton() {
     return (
-        <>
-            <p className={styles.sectionEyebrow}>Học theo cấp độ</p>
-            <div className={styles.categoryGrid}>
-                {[0, 1, 2].map((i) => (
-                    <div key={i} className={styles.categoryCard}>
-                        <div className={styles.categoryHeader}>
-                            <div className={styles.skeletonInline} style={{ width: 80, height: 14 }} />
-                        </div>
-                        {[0, 1, 2, 3, 4].map((j) => (
-                            <div key={j} className={styles.levelRow} style={{ pointerEvents: "none" }}>
-                                <div className={styles.skeletonInline} style={{ width: 28, height: 18 }} />
-                                <div className={styles.skeletonInline} style={{ width: 60, height: 14, marginLeft: "auto" }} />
-                            </div>
-                        ))}
-                    </div>
-                ))}
-            </div>
-        </>
-    )
-}
-
-function ComingSoon({ label }: { label: string }) {
-    return (
-        <div className={styles.comingSoon}>
-            <span className={styles.comingSoonIcon}>🚧</span>
-            <p className={styles.comingSoonTitle}>{label} đang được phát triển</p>
-            <p className={styles.comingSoonDesc}>Tính năng này sẽ sớm ra mắt. Hãy theo dõi nhé!</p>
+        <div className={styles.tabBar} style={{ pointerEvents: "none" }}>
+            {[1, 2, 3, 4].map((i) => (
+                <div key={i} className={styles.tabItem}>
+                    <div className={styles.skeletonInline} style={{ width: 14, height: 14 }} />
+                    <div className={styles.skeletonInline} style={{ width: 60, height: 14 }} />
+                </div>
+            ))}
         </div>
     )
 }
 
-type Props = { searchParams: Promise<{ tab?: string }> }
-
-export default async function StudyPage({ searchParams }: Props) {
-    const { tab: tabParam } = await searchParams
-    const tab = normalizeTab(tabParam)
-
+export default async function StudyPage() {
     return (
         <AppLayout title="Học tập" hideSearch>
             <main className={styles.page}>
-                <TabBar active={tab} />
-
-                <div className={styles.tabContent}>
-                    {tab === "so-tay"   && <StudyNotebooksTab />}
-                    {tab === "kham-pha" && <ComingSoon label="Khám phá" />}
-                    {tab === "thu-vien" && (
-                        <KanaTables>
-                            <Suspense fallback={<StudyByLevelSkeleton />}>
-                                <StudyByLevelSection />
-                            </Suspense>
-                        </KanaTables>
-                    )}
-                    {tab === "thi-thu"  && <ExamContent />}
-                </div>
+                {/*
+                  * Suspense is required because StudyTabsClient uses useSearchParams().
+                  * The library content is pre-rendered server-side and embedded in the
+                  * RSC payload, so switching to that tab costs zero additional requests.
+                  */}
+                <Suspense fallback={<TabSkeleton />}>
+                    <StudyTabsClient
+                        libraryContent={<LibraryTabContent />}
+                    />
+                </Suspense>
             </main>
         </AppLayout>
     )
