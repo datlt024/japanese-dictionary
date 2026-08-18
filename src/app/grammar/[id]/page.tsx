@@ -10,6 +10,12 @@ import {
     getGrammarPointById,
     searchGrammarPoints,
 } from "@/server/services/grammar/grammar.service"
+import { supabaseServer } from "@/server/supabase/server"
+
+export async function generateStaticParams() {
+    const { data } = await supabaseServer.from("grammars").select("id")
+    return (data ?? []).map((g) => ({ id: String(g.id) }))
+}
 
 type Props = {
     params: Promise<{ id: string }>
@@ -34,12 +40,15 @@ export default async function GrammarDetailPage({ params, searchParams }: Props)
     const { id } = await params
     const { q: keyword = "" } = await searchParams
 
-    const grammar = await getGrammarPointById(id)
+    const [grammar, keywordRelated] = await Promise.all([
+        getGrammarPointById(id),
+        keyword ? searchGrammarPoints(keyword) : Promise.resolve(null),
+    ])
 
     if (!grammar) notFound()
 
     const relatedGrammars = (
-        await searchGrammarPoints(keyword || grammar.pattern)
+        keywordRelated ?? await searchGrammarPoints(grammar.pattern)
     ).filter((g) => g.id !== grammar.id)
 
     return (

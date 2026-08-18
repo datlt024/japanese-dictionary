@@ -14,6 +14,12 @@ import {
 } from "@/server/services/kanji/kanji.service"
 
 import { extractKanjis } from "@/features/dictionary/kanji/utils"
+import { supabaseServer } from "@/server/supabase/server"
+
+export async function generateStaticParams() {
+    const { data } = await supabaseServer.from("kanjis").select("kanji")
+    return (data ?? []).map((k) => ({ id: encodeURIComponent(k.kanji) }))
+}
 
 type Props = {
     params: Promise<{ id: string }>

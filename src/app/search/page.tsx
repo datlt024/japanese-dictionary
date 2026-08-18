@@ -4,7 +4,15 @@ import Link from "next/link"
 import AppLayout from "@/shared/components/layout/AppLayout"
 import EmptyState from "@/shared/components/EmptyState/EmptyState"
 
+import { unstable_cache } from "next/cache"
 import { searchDictionary } from "@/server/services/search/search.service"
+
+const cachedSearchDictionary = unstable_cache(
+    (keyword: string, tab: string, language: string) =>
+        searchDictionary(keyword, tab as Parameters<typeof searchDictionary>[1], language as Parameters<typeof searchDictionary>[2]),
+    ["search-page"],
+    { revalidate: 300 }
+)
 
 import {
     normalizeSearchTab,
@@ -219,7 +227,7 @@ export default async function SearchPage({ searchParams }: Props) {
     }
 
     const result = keyword
-        ? await searchDictionary(keyword, tab, language)
+        ? await cachedSearchDictionary(keyword, tab, language)
         : null
 
     const hasResults = result && (

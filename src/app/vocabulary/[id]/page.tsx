@@ -10,8 +10,18 @@ import {
     getVocabularyById,
     getVocabularyKanjis,
 } from "@/server/services/vocabulary/vocabulary.service"
+import { supabaseServer } from "@/server/supabase/server"
 
 export const revalidate = 86400
+
+export async function generateStaticParams() {
+    const { data } = await supabaseServer
+        .from("vocabularies")
+        .select("id")
+        .in("jlpt", ["N5", "N4", "N3"])
+        .limit(5000)
+    return (data ?? []).map((v) => ({ id: String(v.id) }))
+}
 
 type Props = {
     params: Promise<{
