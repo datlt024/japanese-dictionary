@@ -565,24 +565,33 @@ export type Database = {
         Row: {
           created_at: string
           description: string | null
+          display_order: number
           id: string
+          is_public: boolean
           name: string
+          public_description: string | null
           updated_at: string
           user_id: string
         }
         Insert: {
           created_at?: string
           description?: string | null
+          display_order?: number
           id?: string
+          is_public?: boolean
           name: string
+          public_description?: string | null
           updated_at?: string
           user_id: string
         }
         Update: {
           created_at?: string
           description?: string | null
+          display_order?: number
           id?: string
+          is_public?: boolean
           name?: string
+          public_description?: string | null
           updated_at?: string
           user_id?: string
         }

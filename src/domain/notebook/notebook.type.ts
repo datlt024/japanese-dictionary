@@ -10,6 +10,16 @@ export type PublicNotebook = {
     item_count: number
 }
 
+// A section in the Khám phá tab: either a public group or a category of standalone notebooks
+export type ExploreSection = {
+    type: "group" | "category"
+    id: string        // group uuid or category name
+    name: string
+    description: string | null
+    display_order: number
+    notebooks: PublicNotebook[]
+}
+
 export type NotebookGroup = {
     id: string
     user_id: string

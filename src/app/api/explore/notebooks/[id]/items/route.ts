@@ -6,19 +6,46 @@ import type { NotebookItem } from "@/domain/notebook/notebook.type"
 
 type Params = { params: Promise<{ id: string }> }
 
-export async function GET(_req: NextRequest, { params }: Params) {
-    const { id } = await params
-
-    // Verify notebook is public (service role can read all, but we enforce is_public check)
-    const { data: nb, error: nbError } = await supabaseServer
+async function isNotebookAccessible(notebookId: string): Promise<boolean> {
+    // Accessible if individually public
+    const { data: directPublic } = await supabaseServer
         .from("notebooks")
         .select("id")
-        .eq("id", id)
+        .eq("id", notebookId)
         .eq("is_public", true)
         .maybeSingle()
 
-    if (nbError) return serverError(nbError, "GET /api/explore/notebooks/[id]/items")
-    if (!nb) return NextResponse.json({ error: "Sổ tay không tồn tại hoặc không công khai" }, { status: 404 })
+    if (directPublic) return true
+
+    // Or if it belongs to a public group
+    const { data: nb } = await supabaseServer
+        .from("notebooks")
+        .select("group_id")
+        .eq("id", notebookId)
+        .maybeSingle()
+
+    if (!nb?.group_id) return false
+
+    const { data: group } = await supabaseServer
+        .from("notebook_groups")
+        .select("id")
+        .eq("id", nb.group_id)
+        .eq("is_public", true)
+        .maybeSingle()
+
+    return !!group
+}
+
+export async function GET(_req: NextRequest, { params }: Params) {
+    const { id } = await params
+
+    const accessible = await isNotebookAccessible(id)
+    if (!accessible) {
+        return NextResponse.json(
+            { error: "Sổ tay không tồn tại hoặc không công khai" },
+            { status: 404 }
+        )
+    }
 
     const { data, error } = await supabaseServer
         .from("notebook_items")

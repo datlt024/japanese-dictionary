@@ -26,6 +26,148 @@
     margin: 0;
 }
 
+/* ── Admin sections ────────────────────────────── */
+
+.adminSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adminSectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.adminSectionDesc {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* ── Group rows ────────────────────────────────── */
+
+.groupWrap {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: border-color 0.15s;
+}
+
+.groupWrap[data-public] {
+    border-color: oklch(0.78 0.1 145);
+}
+
+.groupHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 14px;
+}
+
+.expandBtn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-align: left;
+    color: var(--color-text);
+    min-width: 0;
+}
+
+.groupName {
+    font-size: 0.9rem;
+    font-weight: 600;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nbCount {
+    font-size: 0.78rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+}
+
+.expandChevron {
+    color: var(--color-text-secondary);
+    flex-shrink: 0;
+    transition: transform 0.2s;
+}
+
+.expandChevron[data-open] {
+    transform: rotate(90deg);
+}
+
+.groupNotebooks {
+    border-top: 1px solid var(--color-border);
+    padding: 8px 14px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.subRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+.subRow:hover {
+    background: var(--color-bg);
+}
+
+.subRowName {
+    flex: 1;
+    font-size: 0.85rem;
+    color: var(--color-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.emptyGroupMsg {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    padding: 4px 8px;
+    margin: 0;
+}
+
+.addNbBtn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: 1px dashed var(--color-border);
+    border-radius: 8px;
+    padding: 7px 10px;
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    width: 100%;
+    transition: border-color 0.15s;
+    margin-top: 4px;
+}
+
+.addNbBtn:hover {
+    border-color: oklch(0.6 0.16 264);
+    color: var(--color-text);
+}
+
 /* ── Notebook rows ─────────────────────────────── */
 
 .notebookList {

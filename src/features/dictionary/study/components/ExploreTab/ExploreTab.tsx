@@ -18,12 +18,12 @@ import {
 } from "lucide-react"
 import { useAuth } from "@/features/auth/hooks/useAuth"
 import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
-import type { EnrichedNotebookItem, NotebookWithCount, PublicNotebook } from "@/domain/notebook/notebook.type"
+import type { EnrichedNotebookItem, ExploreSection, NotebookWithCount, PublicNotebook } from "@/domain/notebook/notebook.type"
 import styles from "./ExploreTab.module.css"
 
 // ── Fetchers ──────────────────────────────────────
 
-async function fetchPublicNotebooks(): Promise<PublicNotebook[]> {
+async function fetchExploreSections(): Promise<ExploreSection[]> {
     const res = await fetch("/api/explore/notebooks")
     if (!res.ok) throw new Error("fetch failed")
     return res.json()
@@ -358,19 +358,11 @@ function NotebookCard({
 }
 
 function ListView({ onSelect }: { onSelect: (nb: PublicNotebook) => void }) {
-    const { data, isLoading, error } = useSWR<PublicNotebook[]>(
+    const { data: sections, isLoading, error } = useSWR<ExploreSection[]>(
         "/explore/notebooks",
-        fetchPublicNotebooks,
+        fetchExploreSections,
         { revalidateOnFocus: false }
     )
-
-    // Group notebooks by category
-    const grouped = new Map<string, PublicNotebook[]>()
-    for (const nb of data ?? []) {
-        const cat = nb.public_category ?? "Khác"
-        if (!grouped.has(cat)) grouped.set(cat, [])
-        grouped.get(cat)!.push(nb)
-    }
 
     return (
         <div className={styles.listView}>
@@ -389,21 +381,26 @@ function ListView({ onSelect }: { onSelect: (nb: PublicNotebook) => void }) {
                 </div>
             )}
 
-            {!isLoading && !error && grouped.size === 0 && (
+            {!isLoading && !error && (!sections || sections.length === 0) && (
                 <div className={styles.emptyState}>
                     <Library size={32} />
                     <p>Chưa có sổ tay nào được công khai.</p>
                 </div>
             )}
 
-            {[...grouped.entries()].map(([category, notebooks]) => (
-                <section key={category} className={styles.categorySection}>
-                    <h2 className={styles.sectionTitle}>
-                        <CategoryIcon category={category} size={16} />
-                        {category}
-                    </h2>
+            {(sections ?? []).map((section) => (
+                <section key={section.id} className={styles.categorySection}>
+                    <div className={styles.sectionHeader}>
+                        <h2 className={styles.sectionTitle}>
+                            <CategoryIcon category={section.type === "group" ? "Theo đầu sách" : section.name} size={16} />
+                            {section.name}
+                        </h2>
+                        {section.description && (
+                            <p className={styles.sectionDesc}>{section.description}</p>
+                        )}
+                    </div>
                     <div className={styles.notebookGrid}>
-                        {notebooks.map((nb) => (
+                        {section.notebooks.map((nb) => (
                             <NotebookCard key={nb.id} notebook={nb} onClick={() => onSelect(nb)} />
                         ))}
                     </div>

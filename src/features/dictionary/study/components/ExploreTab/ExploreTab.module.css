@@ -10,7 +10,13 @@
 .categorySection {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
+}
+
+.sectionHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .sectionTitle {

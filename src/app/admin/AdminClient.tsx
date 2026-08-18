@@ -6,16 +6,27 @@ import Link from "next/link"
 import {
     BookOpen,
     Check,
-    ChevronDown,
+    ChevronRight,
     Eye,
     EyeOff,
+    Folder,
+    FolderOpen,
     Pencil,
     Plus,
     Save,
-    Trash2,
     X,
 } from "lucide-react"
 import styles from "./AdminClient.module.css"
+
+interface AdminGroup {
+    id: string
+    name: string
+    description: string | null
+    is_public: boolean
+    public_description: string | null
+    display_order: number
+    notebook_count: number
+}
 
 interface AdminNotebook {
     id: string
@@ -26,22 +37,20 @@ interface AdminNotebook {
     public_description: string | null
     display_order: number
     item_count: number
-    created_at: string
+    group_id: string | null
 }
 
-async function fetchAdminNotebooks(): Promise<AdminNotebook[]> {
-    const res = await fetch("/api/admin/notebooks")
+async function fetchGroups(): Promise<AdminGroup[]> {
+    const res = await fetch("/api/admin/groups")
     if (!res.ok) throw new Error("fetch failed")
     return res.json()
 }
 
-const PRESET_CATEGORIES = [
-    "Theo đầu sách",
-    "Mẹo thi",
-    "Ngữ pháp",
-    "Từ vựng theo chủ đề",
-    "Khác",
-]
+async function fetchNotebooks(): Promise<AdminNotebook[]> {
+    const res = await fetch("/api/admin/notebooks")
+    if (!res.ok) throw new Error("fetch failed")
+    return res.json()
+}
 
 // ── Create notebook modal ─────────────────────────
 
@@ -87,7 +96,7 @@ function CreateModal({ onClose, onCreated }: { onClose: () => void; onCreated: (
                         type="text"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        placeholder="Ví dụ: みんなの日本語 N5"
+                        placeholder="Ví dụ: Bài 1–10"
                         autoFocus
                         onKeyDown={(e) => e.key === "Enter" && handleCreate()}
                     />
@@ -104,133 +113,145 @@ function CreateModal({ onClose, onCreated }: { onClose: () => void; onCreated: (
     )
 }
 
-// ── Edit row ──────────────────────────────────────
+// ── Group row ─────────────────────────────────────
 
-interface EditRowProps {
-    nb: AdminNotebook
-    onSave: (updates: Partial<AdminNotebook>) => Promise<void>
-    onDelete: () => void
-    onCancel: () => void
+interface GroupRowProps {
+    group: AdminGroup
+    notebooks: AdminNotebook[]
+    onTogglePublic: (id: string, value: boolean) => Promise<void>
+    onSaveGroup: (id: string, updates: Partial<AdminGroup>) => Promise<void>
+    onCreateNotebook: () => void
 }
 
-function EditRow({ nb, onSave, onDelete, onCancel }: EditRowProps) {
-    const [category, setCategory] = useState(nb.public_category ?? "")
-    const [desc, setDesc] = useState(nb.public_description ?? "")
-    const [order, setOrder] = useState(String(nb.display_order))
-    const [loading, setLoading] = useState(false)
-    const [showCategoryDrop, setShowCategoryDrop] = useState(false)
+function GroupRow({ group, notebooks, onTogglePublic, onSaveGroup, onCreateNotebook }: GroupRowProps) {
+    const [expanded, setExpanded] = useState(false)
+    const [editing, setEditing] = useState(false)
+    const [desc, setDesc] = useState(group.public_description ?? "")
+    const [order, setOrder] = useState(String(group.display_order))
+    const [toggling, setToggling] = useState(false)
+    const [saving, setSaving] = useState(false)
+
+    const groupNotebooks = notebooks.filter((nb) => nb.group_id === group.id)
+
+    async function handleToggle() {
+        setToggling(true)
+        await onTogglePublic(group.id, !group.is_public)
+        setToggling(false)
+    }
 
     async function handleSave() {
-        setLoading(true)
-        await onSave({
-            public_category: category.trim() || null,
+        setSaving(true)
+        await onSaveGroup(group.id, {
             public_description: desc.trim() || null,
             display_order: parseInt(order, 10) || 0,
         })
-        setLoading(false)
+        setSaving(false)
+        setEditing(false)
     }
 
     return (
-        <div className={styles.editRow}>
-            <div className={styles.editGrid}>
-                <div className={styles.editField}>
-                    <label className={styles.label}>Danh mục</label>
-                    <div className={styles.dropWrap}>
-                        <input
-                            className={styles.input}
-                            value={category}
-                            onChange={(e) => setCategory(e.target.value)}
-                            placeholder="Ví dụ: Theo đầu sách"
-                            onFocus={() => setShowCategoryDrop(true)}
-                            onBlur={() => setTimeout(() => setShowCategoryDrop(false), 150)}
-                        />
-                        {showCategoryDrop && (
-                            <ul className={styles.dropList}>
-                                {PRESET_CATEGORIES.map((c) => (
-                                    <li key={c}>
-                                        <button
-                                            type="button"
-                                            className={styles.dropItem}
-                                            onMouseDown={() => { setCategory(c); setShowCategoryDrop(false) }}
-                                        >
-                                            {c}
-                                        </button>
-                                    </li>
-                                ))}
-                            </ul>
-                        )}
+        <div className={styles.groupWrap} data-public={group.is_public || undefined}>
+            <div className={styles.groupHeader}>
+                <button type="button" className={styles.expandBtn} onClick={() => setExpanded(!expanded)}>
+                    {expanded ? <FolderOpen size={15} /> : <Folder size={15} />}
+                    <span className={styles.groupName}>{group.name}</span>
+                    <span className={styles.nbCount}>{groupNotebooks.length} sổ tay</span>
+                    <ChevronRight size={13} className={styles.expandChevron} data-open={expanded || undefined} />
+                </button>
+
+                <div className={styles.rowActions}>
+                    <button type="button" className={styles.iconBtn} onClick={() => setEditing(!editing)} title="Chỉnh sửa">
+                        <Pencil size={13} />
+                    </button>
+                    <button
+                        type="button"
+                        className={group.is_public ? styles.btnPublic : styles.btnPrivate}
+                        onClick={handleToggle}
+                        disabled={toggling}
+                        title={group.is_public ? "Đang công khai — nhấn để ẩn cả nhóm" : "Nhấn để công khai cả nhóm"}
+                    >
+                        {group.is_public ? <Eye size={13} /> : <EyeOff size={13} />}
+                        {group.is_public ? "Công khai" : "Riêng tư"}
+                    </button>
+                </div>
+            </div>
+
+            {editing && (
+                <div className={styles.editRow}>
+                    <div className={styles.editGrid}>
+                        <div className={styles.editField}>
+                            <label className={styles.label}>Mô tả công khai</label>
+                            <input
+                                className={styles.input}
+                                value={desc}
+                                onChange={(e) => setDesc(e.target.value)}
+                                placeholder="Mô tả hiển thị trong tab Khám phá"
+                            />
+                        </div>
+                        <div className={styles.editField}>
+                            <label className={styles.label}>Thứ tự</label>
+                            <input
+                                className={styles.input}
+                                type="number"
+                                min={0}
+                                value={order}
+                                onChange={(e) => setOrder(e.target.value)}
+                                style={{ width: 80 }}
+                            />
+                        </div>
+                    </div>
+                    <div className={styles.editActions}>
+                        <div style={{ flex: 1 }} />
+                        <button type="button" className={styles.btnSecondary} onClick={() => setEditing(false)}>Hủy</button>
+                        <button type="button" className={styles.btnPrimary} onClick={handleSave} disabled={saving}>
+                            <Save size={13} />
+                            {saving ? "Đang lưu…" : "Lưu"}
+                        </button>
                     </div>
                 </div>
-                <div className={styles.editField}>
-                    <label className={styles.label}>Thứ tự hiển thị</label>
-                    <input
-                        className={styles.input}
-                        type="number"
-                        min={0}
-                        value={order}
-                        onChange={(e) => setOrder(e.target.value)}
-                    />
+            )}
+
+            {expanded && (
+                <div className={styles.groupNotebooks}>
+                    {groupNotebooks.length === 0 ? (
+                        <p className={styles.emptyGroupMsg}>Nhóm này chưa có sổ tay nào.</p>
+                    ) : (
+                        groupNotebooks.map((nb) => (
+                            <div key={nb.id} className={styles.subRow}>
+                                <BookOpen size={13} className={styles.rowIcon} />
+                                <span className={styles.subRowName}>{nb.name}</span>
+                                <span className={styles.itemCount}>{nb.item_count} mục</span>
+                                <Link href={`/notebooks/${nb.id}`} className={styles.iconBtn} target="_blank" title="Xem">
+                                    <ChevronRight size={13} />
+                                </Link>
+                            </div>
+                        ))
+                    )}
+                    <button type="button" className={styles.addNbBtn} onClick={onCreateNotebook}>
+                        <Plus size={13} />
+                        Thêm sổ tay vào nhóm
+                    </button>
                 </div>
-            </div>
-            <div className={styles.editField}>
-                <label className={styles.label}>Mô tả công khai</label>
-                <input
-                    className={styles.input}
-                    value={desc}
-                    onChange={(e) => setDesc(e.target.value)}
-                    placeholder="Mô tả ngắn hiển thị cho người dùng"
-                />
-            </div>
-            <div className={styles.editActions}>
-                <button type="button" className={styles.btnDanger} onClick={onDelete}>
-                    <Trash2 size={13} /> Xóa
-                </button>
-                <div style={{ flex: 1 }} />
-                <button type="button" className={styles.btnSecondary} onClick={onCancel}>Hủy</button>
-                <button type="button" className={styles.btnPrimary} onClick={handleSave} disabled={loading}>
-                    <Save size={13} />
-                    {loading ? "Đang lưu…" : "Lưu"}
-                </button>
-            </div>
+            )}
         </div>
     )
 }
 
-// ── Main notebook row ─────────────────────────────
+// ── Standalone notebook row ───────────────────────
 
-interface RowProps {
+function NotebookRow({
+    nb,
+    onTogglePublic,
+}: {
     nb: AdminNotebook
     onTogglePublic: (id: string, value: boolean) => Promise<void>
-    onSave: (id: string, updates: Partial<AdminNotebook>) => Promise<void>
-    onDelete: (id: string) => Promise<void>
-}
-
-function NotebookRow({ nb, onTogglePublic, onSave, onDelete }: RowProps) {
-    const [editing, setEditing] = useState(false)
+}) {
     const [toggling, setToggling] = useState(false)
 
     async function handleToggle() {
         setToggling(true)
         await onTogglePublic(nb.id, !nb.is_public)
         setToggling(false)
-    }
-
-    if (editing) {
-        return (
-            <div className={styles.rowWrap}>
-                <div className={styles.rowHeader}>
-                    <BookOpen size={14} className={styles.rowIcon} />
-                    <span className={styles.rowName}>{nb.name}</span>
-                    <span className={styles.itemCount}>{nb.item_count} mục</span>
-                </div>
-                <EditRow
-                    nb={nb}
-                    onSave={async (updates) => { await onSave(nb.id, updates); setEditing(false) }}
-                    onDelete={async () => { await onDelete(nb.id) }}
-                    onCancel={() => setEditing(false)}
-                />
-            </div>
-        )
     }
 
     return (
@@ -241,35 +262,18 @@ function NotebookRow({ nb, onTogglePublic, onSave, onDelete }: RowProps) {
                     <span className={styles.rowName}>{nb.name}</span>
                     <div className={styles.rowMeta}>
                         {nb.public_category && <span className={styles.catTag}>{nb.public_category}</span>}
-                        {nb.public_description && (
-                            <span className={styles.rowDesc}>{nb.public_description}</span>
-                        )}
                         <span className={styles.itemCount}>{nb.item_count} mục</span>
                     </div>
                 </div>
                 <div className={styles.rowActions}>
-                    <Link
-                        href={`/notebooks/${nb.id}`}
-                        className={styles.iconBtn}
-                        title="Xem sổ tay"
-                        target="_blank"
-                    >
-                        <ChevronDown size={14} style={{ transform: "rotate(-90deg)" }} />
+                    <Link href={`/notebooks/${nb.id}`} className={styles.iconBtn} target="_blank" title="Xem">
+                        <ChevronRight size={14} />
                     </Link>
-                    <button
-                        type="button"
-                        className={styles.iconBtn}
-                        onClick={() => setEditing(true)}
-                        title="Chỉnh sửa"
-                    >
-                        <Pencil size={14} />
-                    </button>
                     <button
                         type="button"
                         className={nb.is_public ? styles.btnPublic : styles.btnPrivate}
                         onClick={handleToggle}
                         disabled={toggling}
-                        title={nb.is_public ? "Đang công khai — nhấn để ẩn" : "Nhấn để công khai"}
                     >
                         {nb.is_public ? <Eye size={13} /> : <EyeOff size={13} />}
                         {nb.is_public ? "Công khai" : "Riêng tư"}
@@ -280,62 +284,70 @@ function NotebookRow({ nb, onTogglePublic, onSave, onDelete }: RowProps) {
     )
 }
 
-// ── Main admin client ─────────────────────────────
+// ── Main ──────────────────────────────────────────
 
 export default function AdminClient() {
-    const { data, isLoading, error, mutate } = useSWR<AdminNotebook[]>(
-        "/api/admin/notebooks",
-        fetchAdminNotebooks,
-        { revalidateOnFocus: false }
+    const { data: groups, isLoading: groupsLoading, mutate: mutateGroups } = useSWR<AdminGroup[]>(
+        "/api/admin/groups", fetchGroups, { revalidateOnFocus: false }
     )
-    const [showCreate, setShowCreate] = useState(false)
-    const [saved, setSaved] = useState<string | null>(null)
+    const { data: notebooks, isLoading: nbsLoading, mutate: mutateNbs } = useSWR<AdminNotebook[]>(
+        "/api/admin/notebooks", fetchNotebooks, { revalidateOnFocus: false }
+    )
 
-    async function togglePublic(id: string, value: boolean) {
+    const [showCreate, setShowCreate] = useState(false)
+    const [saved, setSaved] = useState(false)
+
+    const allGroups = groups ?? []
+    const allNbs = notebooks ?? []
+    // standalone = notebooks not in any group
+    const standaloneNbs = allNbs.filter((nb) => !nb.group_id)
+
+    const isLoading = groupsLoading || nbsLoading
+
+    async function toggleGroupPublic(id: string, value: boolean) {
+        await fetch(`/api/admin/groups/${id}`, {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ is_public: value }),
+        })
+        mutateGroups()
+    }
+
+    async function saveGroup(id: string, updates: Partial<AdminGroup>) {
+        await fetch(`/api/admin/groups/${id}`, {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(updates),
+        })
+        setSaved(true)
+        setTimeout(() => setSaved(false), 2000)
+        mutateGroups()
+    }
+
+    async function toggleNbPublic(id: string, value: boolean) {
         await fetch(`/api/admin/notebooks/${id}`, {
             method: "PATCH",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ is_public: value }),
         })
-        mutate()
+        mutateNbs()
     }
 
-    async function saveNotebook(id: string, updates: Partial<AdminNotebook>) {
-        await fetch(`/api/admin/notebooks/${id}`, {
-            method: "PATCH",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(updates),
-        })
-        setSaved(id)
-        setTimeout(() => setSaved(null), 2000)
-        mutate()
-    }
-
-    async function deleteNotebook(id: string) {
-        if (!confirm("Xóa sổ tay này? Hành động không thể hoàn tác.")) return
-        await fetch(`/api/admin/notebooks/${id}`, { method: "DELETE" })
-        mutate()
-    }
-
-    const notebooks = data ?? []
-    const publicCount = notebooks.filter((nb) => nb.is_public).length
+    const publicGroupCount = allGroups.filter((g) => g.is_public).length
+    const publicNbCount = allNbs.filter((nb) => nb.is_public).length
 
     return (
         <main className={styles.page}>
             <div className={styles.header}>
                 <div>
-                    <h1 className={styles.pageTitle}>Quản lý sổ tay</h1>
+                    <h1 className={styles.pageTitle}>Quản lý nội dung Khám phá</h1>
                     <p className={styles.pageMeta}>
-                        {notebooks.length} sổ tay — {publicCount} công khai
+                        {allGroups.length} nhóm ({publicGroupCount} công khai) ·{" "}
+                        {allNbs.length} sổ tay ({publicNbCount} công khai)
                     </p>
                 </div>
-                <button
-                    type="button"
-                    className={styles.btnPrimary}
-                    onClick={() => setShowCreate(true)}
-                >
-                    <Plus size={14} />
-                    Tạo sổ tay
+                <button type="button" className={styles.btnPrimary} onClick={() => setShowCreate(true)}>
+                    <Plus size={14} /> Tạo sổ tay
                 </button>
             </div>
 
@@ -347,40 +359,60 @@ export default function AdminClient() {
 
             {isLoading && (
                 <div className={styles.skeletonList}>
-                    {[1, 2, 3].map((i) => (
-                        <div key={i} className={styles.skeletonRow} />
-                    ))}
+                    {[1, 2, 3].map((i) => <div key={i} className={styles.skeletonRow} />)}
                 </div>
             )}
 
-            {error && (
-                <div className={styles.errorState}>
-                    Không thể tải danh sách sổ tay.
-                </div>
+            {!isLoading && allGroups.length > 0 && (
+                <section className={styles.adminSection}>
+                    <h2 className={styles.adminSectionTitle}>
+                        <Folder size={14} /> Nhóm sổ tay
+                    </h2>
+                    <p className={styles.adminSectionDesc}>
+                        Bật &ldquo;Công khai&rdquo; cho một nhóm để toàn bộ sổ tay trong nhóm đó hiện trong tab Khám phá.
+                    </p>
+                    <div className={styles.notebookList}>
+                        {allGroups.map((g) => (
+                            <GroupRow
+                                key={g.id}
+                                group={g}
+                                notebooks={allNbs}
+                                onTogglePublic={toggleGroupPublic}
+                                onSaveGroup={saveGroup}
+                                onCreateNotebook={() => setShowCreate(true)}
+
+                            />
+                        ))}
+                    </div>
+                </section>
             )}
 
-            {!isLoading && notebooks.length === 0 && (
+            {!isLoading && standaloneNbs.length > 0 && (
+                <section className={styles.adminSection}>
+                    <h2 className={styles.adminSectionTitle}>
+                        <BookOpen size={14} /> Sổ tay riêng lẻ
+                    </h2>
+                    <p className={styles.adminSectionDesc}>
+                        Bật &ldquo;Công khai&rdquo; để hiện từng sổ tay riêng lẻ trong tab Khám phá.
+                    </p>
+                    <div className={styles.notebookList}>
+                        {standaloneNbs.map((nb) => (
+                            <NotebookRow key={nb.id} nb={nb} onTogglePublic={toggleNbPublic} />
+                        ))}
+                    </div>
+                </section>
+            )}
+
+            {!isLoading && allGroups.length === 0 && standaloneNbs.length === 0 && (
                 <div className={styles.emptyState}>
-                    <p>Chưa có sổ tay nào. Tạo sổ tay đầu tiên để bắt đầu.</p>
+                    <p>Chưa có nhóm hay sổ tay nào. Hãy tạo sổ tay đầu tiên.</p>
                 </div>
             )}
-
-            <div className={styles.notebookList}>
-                {notebooks.map((nb) => (
-                    <NotebookRow
-                        key={nb.id}
-                        nb={nb}
-                        onTogglePublic={togglePublic}
-                        onSave={saveNotebook}
-                        onDelete={deleteNotebook}
-                    />
-                ))}
-            </div>
 
             {showCreate && (
                 <CreateModal
                     onClose={() => setShowCreate(false)}
-                    onCreated={() => mutate()}
+                    onCreated={() => mutateNbs()}
                 />
             )}
         </main>
