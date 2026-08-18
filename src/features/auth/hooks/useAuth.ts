@@ -16,14 +16,17 @@ export function useAuth() {
     useEffect(() => {
         const supabase = createSupabaseBrowserClient()
 
-        supabase.auth.getUser().then(({ data }) => {
-            setUser(data.user)
+        // getSession() reads from localStorage — no network call, resolves in ~5ms.
+        // API routes still call getUser() server-side for proper JWT verification.
+        supabase.auth.getSession().then(({ data }) => {
+            setUser(data.session?.user ?? null)
             setLoading(false)
         })
 
         const { data: { subscription } } =
             supabase.auth.onAuthStateChange((_event, session) => {
                 setUser(session?.user ?? null)
+                setLoading(false)
             })
 
         return () => subscription.unsubscribe()
