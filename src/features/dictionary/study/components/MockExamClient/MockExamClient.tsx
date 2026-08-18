@@ -56,6 +56,7 @@ interface Question {
     imageSrc?: string   // full 2×2 grid image for listening_pic questions
     audioStart?: number // seconds into cfg.listeningAudio where this question starts
     audioEnd?: number   // seconds where this question ends (auto-pause)
+    script?: string     // dialogue/conversation transcript shown before explanation
     explanation?: string
 }
 
@@ -1802,6 +1803,12 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
                                                                     </div>
                                                                 )}
 
+                                                                {q.script && (
+                                                                    <div className={styles.reviewScript}>
+                                                                        <span className={styles.reviewScriptLabel}>スクリプト</span>
+                                                                        <p className={styles.reviewScriptText}>{q.script}</p>
+                                                                    </div>
+                                                                )}
                                                                 {q.explanation && (
                                                                     <p className={styles.reviewExplanation}>{q.explanation}</p>
                                                                 )}

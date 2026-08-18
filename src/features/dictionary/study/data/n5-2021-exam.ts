@@ -19,6 +19,7 @@ interface StaticQuestion {
   audioStart?: number   // giây bắt đầu câu trong file listening.mp3 (dùng cho chức năng nghe lại)
   audioEnd?: number     // giây kết thúc câu (tự dừng audio khi đến đây)
   explanation?: string  // giải thích đáp án, hiển thị trong màn hình kết quả
+  script?: string       // script hội thoại, hiển thị trước giải thích
 }
 
 // ─── もんだい3 (q7) passages ───────────────────────────────────────────────
@@ -689,8 +690,7 @@ const _RAW: StaticQuestion[] = [
 
 export const N5_2021_QUESTIONS: StaticQuestion[] = _RAW.map(q => {
   const key = `${q.groupId}:${q.display}`
-  const json = _explanationsMap[key]
-  return json ? { ...q, explanation: json } : q
+  return { ...q, explanation: _explanationsMap[key] ?? undefined, script: _explanationsMap[`${key}:script`] ?? undefined }
 })
 
 export const N5_2021_COUNTS = {

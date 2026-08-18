@@ -16,6 +16,7 @@ export interface StaticQuestion {
     audioStart?: number
     audioEnd?: number
     explanation?: string
+    script?: string
 }
 
 // ─── もんだい3: 文章の文法 — 2つのさくぶん ─────────────────────────────────

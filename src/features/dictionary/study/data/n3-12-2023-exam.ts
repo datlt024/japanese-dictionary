@@ -18,6 +18,7 @@ interface StaticQuestion {
   audioStart?: number
   audioEnd?: number
   explanation?: string
+  script?: string
 }
 
 // ─── Passages ────────────────────────────────────────────────────────────────
@@ -137,7 +138,7 @@ const PASSAGE_R7 =
 
 // ─── Questions ───────────────────────────────────────────────────────────────
 
-const _RAW: Omit<StaticQuestion, "explanation">[] = [
+const _RAW: Omit<StaticQuestion, "explanation" | "script">[] = [
   // ── 問題1 漢字の読み方 (q1, 8問) ────────────────────────────────────────
   { groupId: "q1", sectionId: "vocab", type: "kanji_reading", display: "1",  sentence: "すみません、[汚して]しまいました。",       options: ["こわして","おこして","よごして","のこして"],         correctIndex: 2 },
   { groupId: "q1", sectionId: "vocab", type: "kanji_reading", display: "2",  sentence: "体育館に[選手]が入ってきました。",          options: ["ぜんしゅ","せんしゅう","せんしゅ","ぜんしゅう"],     correctIndex: 2 },
@@ -482,7 +483,8 @@ const _RAW: Omit<StaticQuestion, "explanation">[] = [
 
 export const N3_12_2023_COUNTS = { vocab: 35, grammar: 38, listening: 28, total: 101 }
 
+const explanations = _explanations as Record<string, string>
 export const N3_12_2023_QUESTIONS: StaticQuestion[] = _RAW.map(q => {
-  const ex = (_explanations as Record<string, string>)[q.display]
-  return ex ? { ...q, explanation: ex } : q
+  const key = `${q.groupId}:${q.display}`
+  return { ...q, explanation: explanations[key] ?? undefined, script: explanations[`${key}:script`] ?? undefined }
 })

@@ -1745,6 +1745,44 @@
 }
 
 /* explanation block */
+.reviewScript {
+    margin: 0 0 8px;
+    padding: 10px 14px;
+    background: var(--color-bg);
+    border-radius: 10px;
+    border-left: 3px solid #8b5cf6;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.reviewScriptLabel {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #8b5cf6;
+    text-transform: uppercase;
+}
+
+.reviewScriptText {
+    margin: 0;
+    font-size: 13px;
+    color: var(--color-text);
+    line-height: 1.75;
+    white-space: pre-wrap;
+    font-family: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+    .reviewScript { border-color: #a78bfa; }
+    .reviewScriptLabel { color: #a78bfa; }
+}
+
+:root[data-theme="dark"]  .reviewScript { border-color: #a78bfa; }
+:root[data-theme="dark"]  .reviewScriptLabel { color: #a78bfa; }
+:root[data-theme="light"] .reviewScript { border-color: #8b5cf6; }
+:root[data-theme="light"] .reviewScriptLabel { color: #8b5cf6; }
+
 .reviewExplanation {
     margin: 0;
     font-size: 13px;

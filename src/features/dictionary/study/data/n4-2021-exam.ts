@@ -18,6 +18,7 @@ interface StaticQuestion {
   audioStart?: number
   audioEnd?: number
   explanation?: string
+  script?: string
 }
 
 // ─── もんだい3 (q8): 文章の文法 ─────────────────────────────────────────────
@@ -814,8 +815,7 @@ const _RAW: StaticQuestion[] = [
 
 export const N4_2021_QUESTIONS: StaticQuestion[] = _RAW.map(q => {
   const key = `${q.groupId}:${q.display}`
-  const json = _explanationsMap[key]
-  return json ? { ...q, explanation: json } : q
+  return { ...q, explanation: _explanationsMap[key] ?? undefined, script: _explanationsMap[`${key}:script`] ?? undefined }
 })
 
 export const N4_2021_COUNTS = {

@@ -18,6 +18,7 @@ interface StaticQuestion {
   audioStart?: number
   audioEnd?: number
   explanation?: string
+  script?: string
 }
 
 // ─── Passages ────────────────────────────────────────────────────────────────
@@ -119,7 +120,7 @@ const PASSAGE_R7 =
 
 // ─── Questions ───────────────────────────────────────────────────────────────
 
-const _RAW: Omit<StaticQuestion, "explanation">[] = [
+const _RAW: Omit<StaticQuestion, "explanation" | "script">[] = [
   // ── 問題1 漢字の読み方 (q1, 7問) ────────────────────────────────────────
   { groupId: "q1", sectionId: "vocab", type: "kanji_reading", display: "情報",  sentence: "その会社の[情報]は、インターネットで見ました。",       options: ["じょうほう","ちょうほう","じょうぼう","ちょうぼう"], correctIndex: 0 },
   { groupId: "q1", sectionId: "vocab", type: "kanji_reading", display: "現在",  sentence: "兄は、[現在]は海外で働いています。",                  options: ["けんさい","げんさい","けんざい","げんざい"],         correctIndex: 3 },
@@ -465,7 +466,7 @@ const explanations = _explanations as Record<string, string>
 
 export const N3_7_2022_QUESTIONS: StaticQuestion[] = _RAW.map(q => {
   const key = `${q.groupId}:${q.display}`
-  return { ...q, explanation: explanations[key] ?? undefined }
+  return { ...q, explanation: explanations[key] ?? undefined, script: explanations[`${key}:script`] ?? undefined }
 })
 
 export const N3_7_2022_COUNTS = { vocab: 34, grammar: 38, listening: 28, total: 100 }
