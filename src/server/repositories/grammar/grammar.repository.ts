@@ -14,7 +14,6 @@ type GrammarTagRow = Database["public"]["Tables"]["grammar_tags"]["Row"]
 type GrammarCommonPairRow = Database["public"]["Tables"]["grammar_common_pairs"]["Row"]
 type GrammarShortFormRow = Database["public"]["Tables"]["grammar_short_forms"]["Row"]
 type GrammarDifferenceRow = Database["public"]["Tables"]["grammar_differences"]["Row"]
-type GrammarSimilarRow = Database["public"]["Tables"]["grammar_similar"]["Row"]
 
 type GrammarDetailRow = GrammarRow & {
     grammar_formations: GrammarFormationRow[]
@@ -101,21 +100,20 @@ const GRAMMAR_DETAIL_COLUMNS = `
 
 
 async function fetchSimilarGrammarPatterns(grammarId: number): Promise<string[]> {
-    const { data: links } = await supabaseServer
+    // Single JOIN query instead of 2 sequential round-trips
+    const { data } = await supabaseServer
         .from("grammar_similar")
-        .select("similar_grammar_id")
+        .select("grammars!similar_grammar_id(pattern)")
         .eq("grammar_id", grammarId)
 
-    if (!links?.length) return []
+    if (!data?.length) return []
 
-    const ids = (links as GrammarSimilarRow[]).map((l) => l.similar_grammar_id)
-
-    const { data: grammars } = await supabaseServer
-        .from("grammars")
-        .select("pattern")
-        .in("id", ids)
-
-    return (grammars ?? []).map((g) => g.pattern)
+    return data
+        .map((row) => {
+            const g = row.grammars as { pattern: string } | null
+            return g?.pattern ?? ""
+        })
+        .filter(Boolean)
 }
 
 function mapGrammarDetail(row: GrammarDetailRow | null, similar_grammar: string[] = []) {

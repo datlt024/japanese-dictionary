@@ -21,5 +21,7 @@ export async function GET(req: NextRequest) {
         id: g.id,
         pattern: (g.display_pattern ?? g.pattern) as string,
         meaning: (g.short_meaning_vi || g.meaning_vi || null) as string | null,
-    })))
+    })), {
+        headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" },
+    })
 }

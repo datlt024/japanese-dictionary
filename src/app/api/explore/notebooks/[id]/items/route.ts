@@ -7,28 +7,20 @@ import type { NotebookItem } from "@/domain/notebook/notebook.type"
 type Params = { params: Promise<{ id: string }> }
 
 async function isNotebookAccessible(notebookId: string): Promise<boolean> {
-    // Accessible if individually public
-    const { data: directPublic } = await supabaseAdmin
-        .from("notebooks")
-        .select("id")
-        .eq("id", notebookId)
-        .eq("is_public", true)
-        .maybeSingle()
-
-    if (directPublic) return true
-
-    // Or if it belongs to a public group
+    // Single query: check is_public and group_id together
     const { data: nb } = await supabaseAdmin
         .from("notebooks")
-        .select("group_id")
+        .select("is_public, group_id")
         .eq("id", notebookId)
         .maybeSingle()
 
-    if (!nb?.group_id) return false
+    if (!nb) return false
+    if (nb.is_public) return true
+    if (!nb.group_id) return false
 
     const { data: group } = await supabaseAdmin
         .from("notebook_groups")
-        .select("id")
+        .select("is_public")
         .eq("id", nb.group_id)
         .eq("is_public", true)
         .maybeSingle()
@@ -49,12 +41,14 @@ export async function GET(_req: NextRequest, { params }: Params) {
 
     const { data, error } = await supabaseAdmin
         .from("notebook_items")
-        .select("*")
+        .select("id, notebook_id, item_type, item_id, added_at")
         .eq("notebook_id", id)
         .order("added_at", { ascending: true })
 
     if (error) return serverError(error, "GET /api/explore/notebooks/[id]/items")
 
     const enriched = await enrichItems((data ?? []) as NotebookItem[])
-    return NextResponse.json(enriched)
+    return NextResponse.json(enriched, {
+        headers: { "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600" },
+    })
 }
