@@ -15,6 +15,7 @@ import { getKanjisByCharacters, searchKanjiByKeyword, getKanjisByJlptLevel } fro
 import { searchGrammarsByKeyword } from "@/server/repositories/grammar/search-grammar.repository"
 import { searchVocabulariesByKeyword } from "@/server/repositories/vocabulary/search-vocabulary.repository"
 import { tryRomajiToHiragana } from "@/shared/utils/japanese"
+import { logger } from "@/server/utils/logger"
 
 function createEmptySearchResult(): SearchResult {
     return {
@@ -37,7 +38,8 @@ function normalizeSearchKeyword(keyword: string): string {
 
 function logSearchError(label: string, error: unknown) {
     const e = error as Record<string, unknown>
-    console.error(label, e?.message ?? String(error), {
+    logger.error("search.service", label, {
+        message: e?.message ?? String(error),
         code: e?.code,
         details: e?.details,
         hint: e?.hint,

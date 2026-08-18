@@ -4,16 +4,18 @@ import { useState } from "react"
 import Link from "next/link"
 import { ArrowLeft, ArrowRight } from "lucide-react"
 import styles from "./page.module.css"
-import { N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
-import { N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
-import { N5_2024_COUNTS } from "@/features/dictionary/study/data/n5-2024-exam"
-import { N4_2021_COUNTS } from "@/features/dictionary/study/data/n4-2021-exam"
-import { N3_7_2021_COUNTS } from "@/features/dictionary/study/data/n3-7-2021-exam"
-import { N3_12_2021_COUNTS } from "@/features/dictionary/study/data/n3-12-2021-exam"
-import { N3_7_2022_COUNTS } from "@/features/dictionary/study/data/n3-7-2022-exam"
-import { N3_12_2022_COUNTS } from "@/features/dictionary/study/data/n3-12-2022-exam"
-import { N3_7_2023_COUNTS } from "@/features/dictionary/study/data/n3-7-2023-exam"
-import { N3_12_2023_COUNTS } from "@/features/dictionary/study/data/n3-12-2023-exam"
+import {
+    N5_EXAM_COUNTS,
+    N5_2021_COUNTS,
+    N5_2024_COUNTS,
+    N4_2021_COUNTS,
+    N3_7_2021_COUNTS,
+    N3_12_2021_COUNTS,
+    N3_7_2022_COUNTS,
+    N3_12_2022_COUNTS,
+    N3_7_2023_COUNTS,
+    N3_12_2023_COUNTS,
+} from "@/features/dictionary/study/data/exam-counts"
 
 type ExamVariant = {
     label: string

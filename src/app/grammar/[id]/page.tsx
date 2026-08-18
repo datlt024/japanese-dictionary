@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 
+export const revalidate = 86400
+
 import AppLayout from "@/shared/components/layout/AppLayout"
 
 import GrammarDetailContent from "@/features/dictionary/grammar/components/GrammarDetailContent"

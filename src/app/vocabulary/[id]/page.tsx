@@ -11,6 +11,8 @@ import {
     getVocabularyKanjis,
 } from "@/server/services/vocabulary/vocabulary.service"
 
+export const revalidate = 86400
+
 type Props = {
     params: Promise<{
         id: string

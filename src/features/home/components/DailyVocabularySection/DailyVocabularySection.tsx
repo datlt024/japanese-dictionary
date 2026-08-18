@@ -1,5 +1,3 @@
-import { getDailyVocabularyIds } from "@/server/services/vocabulary/vocabulary.service"
-
 import DailyVocabularySectionClient from "./DailyVocabularySectionClient"
 
 export type DailyVocabularyItem = {
@@ -10,6 +8,8 @@ export type DailyVocabularyItem = {
     jlpt: string | null
     vocabularyId: number | undefined
 }
+
+type VocabRow = { primary_word: string; id: number; jlpt: string | null }
 
 const WORD_POOL = [
     // ── Nhóm 1 ──
@@ -100,11 +100,8 @@ function getDailyWords() {
     return result
 }
 
-export default async function DailyVocabularySection() {
+export function buildDailyItems(rows: VocabRow[] | null | undefined): DailyVocabularyItem[] {
     const WORD_CONFIGS = getDailyWords()
-    const words = WORD_CONFIGS.map((w) => w.word)
-    const rows = await getDailyVocabularyIds(words)
-
     const idMap = new Map<string, number>()
     const jlptMap = new Map<string, string | null>()
 
@@ -115,11 +112,17 @@ export default async function DailyVocabularySection() {
         }
     }
 
-    const items: DailyVocabularyItem[] = WORD_CONFIGS.map((config) => ({
+    return WORD_CONFIGS.map((config) => ({
         ...config,
         jlpt: jlptMap.get(config.word) ?? null,
         vocabularyId: idMap.get(config.word),
     }))
+}
 
+export function getDailyWordList(): string[] {
+    return getDailyWords().map((w) => w.word)
+}
+
+export default function DailyVocabularySection({ items }: { items: DailyVocabularyItem[] }) {
     return <DailyVocabularySectionClient items={items} />
 }

@@ -98,6 +98,9 @@
     --content-padding-x:         32px;
     --content-padding-y:         24px;
 
+    /* ── Overlay ── */
+    --color-overlay: rgba(15, 23, 42, 0.45);
+
     /* ── Z-index ── */
     --z-dropdown: 50;
     --z-header:   100;

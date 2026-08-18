@@ -596,7 +596,7 @@
 .groupAddBtn:hover { background: var(--color-primary-soft); color: var(--color-primary); }
 
 .groupDeleteBtn { color: var(--color-text-secondary); }
-.groupDeleteBtn:hover { background: #fef2f2; color: var(--color-danger, #ef4444); }
+.groupDeleteBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, #ef4444); }
 .groupDeleteBtn:disabled { opacity: 0.4; cursor: default; }
 
 .editGroupForm {
@@ -799,7 +799,7 @@
 .cardMenuItemActive { color: var(--color-primary); }
 
 .cardMenuItemDanger { color: var(--color-danger, #ef4444); }
-.cardMenuItemDanger:hover { background: #fef2f2; }
+.cardMenuItemDanger:hover { background: var(--color-danger-soft); }
 
 .cardMenuCheck {
     margin-left: auto;
@@ -1087,7 +1087,7 @@
     transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
-.deleteNbBtn:hover { background: #fef2f2; color: var(--color-danger, #ef4444); border-color: var(--color-danger, #ef4444); }
+.deleteNbBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, #ef4444); border-color: var(--color-danger, #ef4444); }
 
 /* ── Items list ───────────────────────────────────── */
 
@@ -1151,18 +1151,18 @@
 }
 
 .typeBadge.vocabulary {
-    background: #eff6ff;
-    color: #2563eb;
+    background: var(--color-jlpt-n4-soft);
+    color: var(--color-primary);
 }
 
 .typeBadge.kanji {
-    background: #f5f3ff;
-    color: #7c3aed;
+    background: var(--color-jlpt-n3-soft);
+    color: var(--color-jlpt-n3);
 }
 
 .typeBadge.grammar {
-    background: #f0fdf4;
-    color: #16a34a;
+    background: var(--color-success-soft);
+    color: var(--color-success);
 }
 
 .itemTitle {
@@ -1214,7 +1214,7 @@
 }
 
 .itemCard:hover .removeItemBtn { opacity: 1; }
-.removeItemBtn:hover { background: #fef2f2; color: var(--color-danger, #ef4444); }
+.removeItemBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, #ef4444); }
 .removeItemBtn:disabled { opacity: 0.3; cursor: default; }
 
 .emptyItems {
@@ -1256,7 +1256,7 @@
 
     padding: 20px;
 
-    background: rgba(15, 23, 42, 0.45);
+    background: var(--color-overlay);
     animation: fadeIn 0.15s ease;
 }
 
@@ -1292,7 +1292,7 @@
     border-radius: 14px;
     margin-bottom: 16px;
 
-    background: #fef2f2;
+    background: var(--color-danger-soft);
     color: var(--color-danger, #ef4444);
 }
 
@@ -1394,7 +1394,7 @@
 
     padding: 20px;
 
-    background: rgba(15, 23, 42, 0.45);
+    background: var(--color-overlay);
     animation: fadeIn 0.15s ease;
 }
 

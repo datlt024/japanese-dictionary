@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import styles from "@/features/dictionary/kanji/components/KanjiDetailContent.module.css"
 
+export const revalidate = 86400
+
 import AppLayout from "@/shared/components/layout/AppLayout"
 import KanjiDetailContent from "@/features/dictionary/kanji/components/KanjiDetailContent"
 

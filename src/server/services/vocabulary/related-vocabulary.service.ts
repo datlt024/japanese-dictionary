@@ -1,4 +1,5 @@
 import { findRelatedVocabulariesByKeyword } from "@/server/repositories/vocabulary/related-vocabulary.repository"
+import { logger } from "@/server/utils/logger"
 
 import type {
     RelatedVocabulary,
@@ -25,10 +26,7 @@ export async function getRelatedVocabulariesFromDatabase(
         )
 
     if (error) {
-        console.error(
-            "Get related vocabularies error:",
-            error
-        )
+        logger.error("vocabulary.service", "related-vocabulary failed", { error })
 
         return {
             results: [],

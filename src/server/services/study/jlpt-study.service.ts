@@ -1,6 +1,7 @@
 import { unstable_cache } from "next/cache"
 
 import { supabaseServer } from "@/server/supabase/server"
+import { logger } from "@/server/utils/logger"
 import { getGrammarsByJlptLevel } from "@/server/repositories/grammar/search-grammar.repository"
 import { getKanjisByJlptLevelPaginated } from "@/server/repositories/kanji/search-kanji.repository"
 
@@ -40,7 +41,7 @@ export const getJlptVocabItems = unstable_cache(
         ) as { data: VocabRow[] | null; error: { message?: string; code?: string } | null }
 
         if (error) {
-            console.error("getJlptVocabItems error:", error.message ?? error.code ?? JSON.stringify(error))
+            logger.error("jlpt-study.service", "getJlptVocabItems failed", { message: error.message, code: error.code })
             return []
         }
 
@@ -173,7 +174,7 @@ export const getJlptGrammarItems = unstable_cache(
         const { data, error } = await getGrammarsByJlptLevel(level, from, to)
         if (error) {
             const e = error as unknown as Record<string, unknown>
-            console.error("getJlptGrammarItems error:", e.message ?? JSON.stringify(error))
+            logger.error("jlpt-study.service", "getJlptGrammarItems failed", { message: e.message })
             return []
         }
         return (data ?? []) as GrammarSearchItem[]
@@ -187,7 +188,7 @@ export const getJlptKanjiItems = unstable_cache(
         const { data, error } = await getKanjisByJlptLevelPaginated(level, from, to)
         if (error) {
             const e = error as unknown as Record<string, unknown>
-            console.error("getJlptKanjiItems error:", e.message ?? JSON.stringify(error))
+            logger.error("jlpt-study.service", "getJlptKanjiItems failed", { message: e.message })
             return []
         }
         return (data ?? []) as KanjiSearchItem[]

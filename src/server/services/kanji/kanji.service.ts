@@ -13,6 +13,7 @@ import {
 } from "@/server/repositories/kanji/kanji.repository"
 
 import type { Kanji } from "@/domain/kanji/kanji.type"
+import { logger } from "@/server/utils/logger"
 import type { KanjiRelatedWord } from "@/domain/kanji/kanji-related-word.type"
 import type { KanjiReadingGroup } from "@/domain/kanji/kanji-reading-group.type"
 
@@ -58,7 +59,7 @@ async function attachMeanings(
         const { data: senses, error } = await findVocabularySenses(ids)
 
         if (error) {
-            console.error("findVocabularySenses error", {
+            logger.error("kanji.service", "findVocabularySenses failed", {
                 message: error.message,
                 details: error.details,
                 hint: error.hint,
@@ -99,7 +100,7 @@ async function getVocabularyIdsByKanji(
         await findKanjiByCharacter(character)
 
     if (kanjiError) {
-        console.error("findKanjiByCharacter error", {
+        logger.error("kanji.service", "findKanjiByCharacter failed", {
             message: kanjiError.message,
             details: kanjiError.details,
             hint: kanjiError.hint,
@@ -116,7 +117,7 @@ async function getVocabularyIdsByKanji(
     const { data, error } = await findKanjiLinks(kanji.id, limit)
 
     if (error) {
-        console.error("findKanjiLinks error", {
+        logger.error("kanji.service", "findKanjiLinks failed", {
             message: error.message,
             details: error.details,
             hint: error.hint,
@@ -139,7 +140,7 @@ async function getVocabulariesByIds(
     const { data, error } = await findVocabulariesByIds(vocabularyIds)
 
     if (error) {
-        console.error("findVocabulariesByIds error", {
+        logger.error("kanji.service", "findVocabulariesByIds failed", {
             message: error.message,
             details: error.details,
             hint: error.hint,
@@ -173,7 +174,7 @@ export const getKanjiByCharacter = cache(async (
     const { data, error } = await findKanjiByCharacter(character)
 
     if (error) {
-        console.error("findKanjiByCharacter error", {
+        logger.error("kanji.service", "findKanjiByCharacter failed", {
             message: error.message,
             details: error.details,
             hint: error.hint,
@@ -275,7 +276,7 @@ export async function getWordsByReadingGroups(
             if (error?.code === "42P01") return null
 
             if (error) {
-                console.error("findReadingExamples error", error.message, error.code)
+                logger.error("kanji.service", "findReadingExamples failed", { message: error.message, code: error.code })
                 return null
             }
 

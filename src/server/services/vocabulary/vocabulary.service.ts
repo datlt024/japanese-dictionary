@@ -31,6 +31,8 @@ import {
 import type { VocabularyKanjiDetail } from "@/domain/vocabulary"
 export type { VocabularyKanjiDetail }
 
+import { logger } from "@/server/utils/logger"
+
 function toVocabularyRubyItem(value: unknown): VocabularyRubyItem | null {
     if (typeof value !== "object" || value === null) return null
 
@@ -93,7 +95,7 @@ export const getVocabularyById = cache(async (
     ])
 
     if (baseResult.error) {
-        console.error("Get vocabulary error:", baseResult.error)
+        logger.error("vocabulary.service", "getVocabularyById base failed", { error: baseResult.error })
         return null
     }
 
@@ -101,26 +103,26 @@ export const getVocabularyById = cache(async (
     if (!vocabulary) return null
 
     if (sensesResult.error) {
-        console.error("Get vocabulary senses error:", sensesResult.error)
+        logger.error("vocabulary.service", "getVocabularyById senses failed", { error: sensesResult.error })
         return null
     }
 
     if (writingsResult.error) {
-        console.error("Get vocabulary writings error:", writingsResult.error)
+        logger.error("vocabulary.service", "getVocabularyById writings failed", { error: writingsResult.error })
         return null
     }
 
     if (readingsResult.error) {
-        console.error("Get vocabulary readings error:", readingsResult.error)
+        logger.error("vocabulary.service", "getVocabularyById readings failed", { error: readingsResult.error })
         return null
     }
 
     if (collocationsResult.error) {
-        console.error("Get vocabulary collocations error:", collocationsResult.error)
+        logger.error("vocabulary.service", "getVocabularyById collocations failed", { error: collocationsResult.error })
     }
 
     if (relationsResult.error) {
-        console.error("Get vocabulary relations error:", relationsResult.error)
+        logger.error("vocabulary.service", "getVocabularyById relations failed", { error: relationsResult.error })
     }
 
     const examples = (examplesResult.data ?? []).map(
@@ -166,7 +168,7 @@ export async function getVocabularyKanjis(
     const { data, error } = await findKanjisByCharacters(kanjis)
 
     if (error) {
-        console.error("Get vocabulary kanjis error:", error)
+        logger.error("vocabulary.service", "getVocabularyKanjis failed", { error })
         return []
     }
 

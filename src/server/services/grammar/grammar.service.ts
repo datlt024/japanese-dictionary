@@ -5,6 +5,7 @@ import type { GrammarSearchItem } from "@/domain/search"
 
 import { findGrammarPointById } from "@/server/repositories/grammar/grammar.repository"
 import { searchGrammarsByKeyword } from "@/server/repositories/grammar/search-grammar.repository"
+import { logger } from "@/server/utils/logger"
 
 export async function searchGrammarPoints(
     keyword: string
@@ -18,7 +19,7 @@ export async function searchGrammarPoints(
     const { data, error } = await searchGrammarsByKeyword(value)
 
     if (error) {
-        console.error("Supabase grammar search error:", error)
+        logger.error("grammar.service", "searchGrammarPoints failed", { error })
         return []
     }
 
@@ -38,7 +39,7 @@ export const getGrammarPointById = cache(async (
         await findGrammarPointById(grammarId)
 
     if (error) {
-        console.error("Supabase grammar detail error:", error)
+        logger.error("grammar.service", "getGrammarPointById failed", { error })
         return null
     }
 

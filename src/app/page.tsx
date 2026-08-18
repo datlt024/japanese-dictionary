@@ -5,8 +5,12 @@ import Link from "next/link"
 import styles from "./page.module.css"
 
 import AppLayout from "@/shared/components/layout/AppLayout"
-import DailyVocabularySection from "@/features/home/components/DailyVocabularySection/DailyVocabularySection"
+import DailyVocabularySection, {
+    buildDailyItems,
+    getDailyWordList,
+} from "@/features/home/components/DailyVocabularySection/DailyVocabularySection"
 import SearchHistorySection from "@/features/home/components/SearchHistorySection/SearchHistorySection"
+import { getDailyVocabularyIds } from "@/server/services/vocabulary/vocabulary.service"
 
 export const metadata: Metadata = {
   title: "Yomi — Từ điển Nhật Việt",
@@ -21,6 +25,13 @@ const JLPT_QUICK_LINKS = [
   { level: "N2", href: "/study/n2", color: "#ea580c", desc: "Nâng cao" },
   { level: "N1", href: "/study/n1", color: "#dc2626", desc: "Thành thạo" },
 ]
+
+async function DailyVocabularySectionAsync() {
+    const words = getDailyWordList()
+    const rows = await getDailyVocabularyIds(words)
+    const items = buildDailyItems(rows)
+    return <DailyVocabularySection items={items} />
+}
 
 function DailyVocabularySkeleton() {
   return (
@@ -49,7 +60,7 @@ export default function HomePage() {
         <div className={styles.homeGrid}>
           <div className={styles.mainColumn}>
             <Suspense fallback={<DailyVocabularySkeleton />}>
-              <DailyVocabularySection />
+              <DailyVocabularySectionAsync />
             </Suspense>
 
             <section className={styles.cardSection}>
