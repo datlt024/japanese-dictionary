@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft, ArrowRight } from "lucide-react"
 import styles from "./page.module.css"
 import { N5_EXAM_COUNTS } from "@/features/dictionary/study/data/n5-exam"
 import { N5_2021_COUNTS } from "@/features/dictionary/study/data/n5-2021-exam"
@@ -67,9 +67,20 @@ export default function ThiThuContent() {
                 <button className={styles.examBackBtn} onClick={() => setSelected(null)}>
                     <ArrowLeft size={13} /> Chọn cấp độ
                 </button>
-                <p className={styles.sectionEyebrow}>
-                    JLPT {selected.level} — Chọn đề thi
-                </p>
+                <div className={styles.examVariantHeader}>
+                    <div className={styles.examVariantHeaderLeft}>
+                        <span
+                            className={styles.examVariantHeaderLevel}
+                            data-level={selected.level}
+                        >
+                            JLPT {selected.level}
+                        </span>
+                        <p className={styles.examVariantHeaderDesc}>{selected.desc}</p>
+                    </div>
+                    <span className={styles.examVariantHeaderBadge}>
+                        {selected.exams.length} đề thi
+                    </span>
+                </div>
                 <div className={styles.examVariantGrid}>
                     {selected.exams.map(exam => (
                         <Link
@@ -78,12 +89,22 @@ export default function ThiThuContent() {
                             className={styles.examVariantCard}
                             data-level={selected.level}
                         >
-                            <span className={styles.examVariantLabel}>{exam.label}</span>
-                            <div className={styles.examMeta}>
-                                <span>{exam.questions} câu</span>
-                                <span>{exam.duration} phút</span>
+                            <div className={styles.examVariantCardBody}>
+                                <span className={styles.examVariantLabel}>{exam.label}</span>
+                                <div className={styles.examMeta}>
+                                    <span>{exam.questions} câu</span>
+                                    <span>·</span>
+                                    <span>{exam.duration} phút</span>
+                                </div>
                             </div>
-                            <span className={styles.examStart}>Bắt đầu →</span>
+                            <div className={styles.examVariantCardFooter}>
+                                <div className={styles.examMeta}>
+                                    <span>Thi thử</span>
+                                </div>
+                                <span className={styles.examVariantStart}>
+                                    Bắt đầu <ArrowRight size={12} />
+                                </span>
+                            </div>
                         </Link>
                     ))}
                 </div>
