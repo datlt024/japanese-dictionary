@@ -84,6 +84,11 @@
     text-align: left;
     color: var(--color-text);
     min-width: 0;
+    transition: opacity 0.15s;
+}
+
+.expandBtn:hover {
+    opacity: 0.75;
 }
 
 .groupName {

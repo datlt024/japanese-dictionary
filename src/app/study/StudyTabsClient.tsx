@@ -10,7 +10,8 @@ const StudyNotebooksTab = dynamic(
     () => import("@/features/dictionary/study/components/StudyNotebooksTab/StudyNotebooksTab")
 )
 const ExploreTab = dynamic(
-    () => import("@/features/dictionary/study/components/ExploreTab/ExploreTab")
+    () => import("@/features/dictionary/study/components/ExploreTab/ExploreTab"),
+    { ssr: false }
 )
 const ExamContent = dynamic(() => import("./ExamContent"))
 

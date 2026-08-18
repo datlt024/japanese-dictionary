@@ -103,7 +103,8 @@ export default function StudyNotebooksTab() {
 
     const { data: practiceSessions } = useSWR<Array<{ known_ids: string[]; unknown_ids: string[]; total_items: number }>>(
         user ? "/api/practice/sessions" : null,
-        (url: string) => fetch(url).then((r) => (r.ok ? r.json() : []))
+        (url: string) => fetch(url).then((r) => (r.ok ? r.json() : [])),
+        { revalidateOnFocus: false, dedupingInterval: 60_000 }
     )
 
     const practiceStats = useMemo(() => {

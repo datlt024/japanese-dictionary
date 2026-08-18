@@ -15,7 +15,8 @@ import {
 
 import styles from "./Header.module.css"
 
-import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
+import dynamic from "next/dynamic"
+const AuthModal = dynamic(() => import("@/features/auth/components/AuthModal/AuthModal"), { ssr: false })
 import { useAuth } from "@/features/auth/hooks/useAuth"
 
 import { Bell } from "lucide-react"
@@ -216,12 +217,14 @@ export default function Header({
                 </div>
             </header>
 
-            <AuthModal
-                key={authErrorFromUrl ?? "noerror"}
-                open={authOpen || !!authErrorFromUrl}
-                onClose={() => setAuthOpen(false)}
-                initialError={authErrorFromUrl}
-            />
+            {(authOpen || !!authErrorFromUrl) && (
+                <AuthModal
+                    key={authErrorFromUrl ?? "noerror"}
+                    open={authOpen || !!authErrorFromUrl}
+                    onClose={() => setAuthOpen(false)}
+                    initialError={authErrorFromUrl}
+                />
+            )}
         </>
     )
 }

@@ -1,6 +1,6 @@
 "use client"
 
-import { useLayoutEffect, useState } from "react"
+import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import {
@@ -33,13 +33,9 @@ const menuItems: MenuItem[] = [
 
 export default function Sidebar() {
     const pathname = usePathname()
-    const [collapsed, setCollapsed] = useState(false)
-
-    useLayoutEffect(() => {
-        const saved = localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
-        // eslint-disable-next-line react-hooks/set-state-in-effect
-        setCollapsed(saved)
-    }, [])
+    const [collapsed, setCollapsed] = useState(
+        () => typeof window !== "undefined" && localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
+    )
 
     function toggleSidebar() {
         setCollapsed((current) => {
@@ -56,6 +52,7 @@ export default function Sidebar() {
                     ? `${styles.sidebar} ${styles.sidebarCollapsed}`
                     : styles.sidebar
             }
+            suppressHydrationWarning
         >
             <div className={styles.sidebarHeader}>
                 <Link href="/" className={styles.sidebarLogo} aria-label="Yomi — trang chủ">
