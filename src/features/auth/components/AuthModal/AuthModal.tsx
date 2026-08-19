@@ -80,27 +80,31 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
         setLoading(true)
         setError(null)
 
-        const supabase = createSupabaseBrowserClient()
-        const { error: err } = await supabase.auth.signInWithPassword({
-            email: email.trim(),
-            password,
-        })
+        try {
+            const supabase = createSupabaseBrowserClient()
+            const { error: err } = await supabase.auth.signInWithPassword({
+                email: email.trim(),
+                password,
+            })
 
-        setLoading(false)
-
-        if (err) {
-            const msg = err.message.toLowerCase()
-            if (msg.includes("invalid") || msg.includes("credentials")) {
-                setError("Email hoặc mật khẩu không đúng.")
-            } else if (msg.includes("not confirmed")) {
-                setError("Email chưa được xác nhận. Vui lòng kiểm tra hộp thư.")
-            } else {
-                setError("Đăng nhập thất bại. Vui lòng thử lại.")
+            if (err) {
+                const msg = err.message.toLowerCase()
+                if (msg.includes("invalid") || msg.includes("credentials")) {
+                    setError("Email hoặc mật khẩu không đúng.")
+                } else if (msg.includes("not confirmed")) {
+                    setError("Email chưa được xác nhận. Vui lòng kiểm tra hộp thư.")
+                } else {
+                    setError("Đăng nhập thất bại. Vui lòng thử lại.")
+                }
+                return
             }
-            return
-        }
 
-        handleClose()
+            handleClose()
+        } catch {
+            setError("Đã xảy ra lỗi. Vui lòng thử lại.")
+        } finally {
+            setLoading(false)
+        }
     }
 
     async function handleSignUp(e: FormEvent) {
@@ -119,29 +123,33 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
         setLoading(true)
         setError(null)
 
-        const supabase = createSupabaseBrowserClient()
-        const { data, error: err } = await supabase.auth.signUp({
-            email: email.trim(),
-            password,
-        })
+        try {
+            const supabase = createSupabaseBrowserClient()
+            const { data, error: err } = await supabase.auth.signUp({
+                email: email.trim(),
+                password,
+            })
 
-        setLoading(false)
-
-        if (err) {
-            const msg = err.message.toLowerCase()
-            if (msg.includes("already") || msg.includes("registered")) {
-                setError("Email này đã được đăng ký. Vui lòng đăng nhập.")
-            } else {
-                setError("Đăng ký thất bại. Vui lòng thử lại.")
+            if (err) {
+                const msg = err.message.toLowerCase()
+                if (msg.includes("already") || msg.includes("registered")) {
+                    setError("Email này đã được đăng ký. Vui lòng đăng nhập.")
+                } else {
+                    setError("Đăng ký thất bại. Vui lòng thử lại.")
+                }
+                return
             }
-            return
-        }
 
-        if (data.session) {
-            handleClose()
-        } else {
-            setSentContext("signup")
-            setStep("sent")
+            if (data.session) {
+                handleClose()
+            } else {
+                setSentContext("signup")
+                setStep("sent")
+            }
+        } catch {
+            setError("Đã xảy ra lỗi. Vui lòng thử lại.")
+        } finally {
+            setLoading(false)
         }
     }
 
@@ -151,35 +159,45 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
         setLoading(true)
         setError(null)
 
-        const supabase = createSupabaseBrowserClient()
-        const { error: err } = await supabase.auth.resetPasswordForEmail(email.trim(), {
-            redirectTo: `${window.location.origin}/auth/callback`,
-        })
+        try {
+            const supabase = createSupabaseBrowserClient()
+            const { error: err } = await supabase.auth.resetPasswordForEmail(email.trim(), {
+                redirectTo: `${window.location.origin}/auth/callback`,
+            })
 
-        setLoading(false)
+            if (err) {
+                setError("Không thể gửi email đặt lại. Vui lòng thử lại.")
+                return
+            }
 
-        if (err) {
-            setError("Không thể gửi email đặt lại. Vui lòng thử lại.")
-            return
+            setSentContext("forgot")
+            setStep("sent")
+        } catch {
+            setError("Đã xảy ra lỗi. Vui lòng thử lại.")
+        } finally {
+            setLoading(false)
         }
-
-        setSentContext("forgot")
-        setStep("sent")
     }
 
     async function handleGoogleSignIn() {
         setLoading(true)
         setError(null)
 
-        const supabase = createSupabaseBrowserClient()
-        const { error: err } = await supabase.auth.signInWithOAuth({
-            provider: "google",
-            options: { redirectTo: `${window.location.origin}/auth/callback` },
-        })
+        try {
+            const supabase = createSupabaseBrowserClient()
+            const { error: err } = await supabase.auth.signInWithOAuth({
+                provider: "google",
+                options: { redirectTo: `${window.location.origin}/auth/callback` },
+            })
 
-        if (err) {
+            if (err) {
+                setError("Không thể đăng nhập bằng Google. Vui lòng thử lại.")
+                setLoading(false)
+            }
+            // Don't setLoading(false) on success — page will redirect
+        } catch {
+            setError("Đã xảy ra lỗi. Vui lòng thử lại.")
             setLoading(false)
-            setError("Không thể đăng nhập bằng Google. Vui lòng thử lại.")
         }
     }
 
