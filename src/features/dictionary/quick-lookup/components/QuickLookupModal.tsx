@@ -94,6 +94,7 @@ export default function QuickLookupModal({
                     onClick={(e) => e.stopPropagation()}
                     role="dialog"
                     aria-modal="true"
+                    aria-label={loadingTitle ? `Chi tiết từ ${loadingTitle}` : "Đang tải..."}
                 >
                     <div className={styles.header} data-disable-quick-lookup="true">
                         <h2>

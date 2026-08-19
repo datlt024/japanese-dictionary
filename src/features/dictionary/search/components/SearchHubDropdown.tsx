@@ -266,8 +266,8 @@ export default function SearchHubDropdown({
     }
 
     return (
-        <div className={styles.searchHubDropdown}>
-            <div className={styles.searchHubContent}>
+        <div className={styles.searchHubDropdown} role="listbox" aria-label="Gợi ý tìm kiếm">
+            <div className={styles.searchHubContent} aria-live="polite" aria-atomic="false">
                 {activeTab === "vocabulary" && (
                     <>
                         {loading && sortedVocabularies.length === 0 ? (
