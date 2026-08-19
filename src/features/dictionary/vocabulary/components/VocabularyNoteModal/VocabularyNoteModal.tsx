@@ -126,7 +126,7 @@ export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Pro
     if (!open) return null
 
     return (
-        <div className={styles.overlay} onClick={onClose}>
+        <div className={styles.overlay} role="presentation" onClick={onClose}>
             <div
                 className={styles.modal}
                 ref={modalRef}

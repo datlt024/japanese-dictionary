@@ -84,7 +84,7 @@ function CreateModal({ onClose, onCreated }: { onClose: () => void; onCreated: (
     }
 
     return (
-        <div className={styles.modalOverlay} onClick={onClose}>
+        <div className={styles.modalOverlay} role="presentation" onClick={onClose}>
             <div ref={modalRef} className={styles.modal} role="dialog" aria-modal="true" aria-label="Tạo sổ tay mới" onClick={(e) => e.stopPropagation()}>
                 <div className={styles.modalHeader}>
                     <p className={styles.modalTitle}>Tạo sổ tay mới</p>
@@ -313,20 +313,22 @@ export default function AdminClient() {
     const isLoading = groupsLoading || nbsLoading
 
     async function toggleGroupPublic(id: string, value: boolean) {
-        await fetch(`/api/admin/groups/${id}`, {
+        const res = await fetch(`/api/admin/groups/${id}`, {
             method: "PATCH",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ is_public: value }),
         })
+        if (!res.ok) return
         mutateGroups()
     }
 
     async function saveGroup(id: string, updates: Partial<AdminGroup>) {
-        await fetch(`/api/admin/groups/${id}`, {
+        const res = await fetch(`/api/admin/groups/${id}`, {
             method: "PATCH",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updates),
         })
+        if (!res.ok) return
         setSaved(true)
         clearTimeout(savedTimerRef.current)
         savedTimerRef.current = setTimeout(() => setSaved(false), 2000)
@@ -334,11 +336,12 @@ export default function AdminClient() {
     }
 
     async function toggleNbPublic(id: string, value: boolean) {
-        await fetch(`/api/admin/notebooks/${id}`, {
+        const res = await fetch(`/api/admin/notebooks/${id}`, {
             method: "PATCH",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ is_public: value }),
         })
+        if (!res.ok) return
         mutateNbs()
     }
 

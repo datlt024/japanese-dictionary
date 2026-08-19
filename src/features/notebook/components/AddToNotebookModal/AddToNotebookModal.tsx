@@ -159,7 +159,7 @@ export default function AddToNotebookModal({
     if (!open) return null
 
     return (
-        <div className={styles.overlay} onClick={handleClose}>
+        <div className={styles.overlay} role="presentation" onClick={handleClose}>
             <div
                 className={styles.modal}
                 ref={modalRef}
