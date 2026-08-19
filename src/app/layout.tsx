@@ -6,6 +6,8 @@ import { Noto_Sans_JP, Space_Grotesk } from "next/font/google"
 import layoutStyles from "@/shared/components/layout/AppLayout.module.css"
 import Sidebar from "@/shared/components/layout/Sidebar"
 import QuickLookupLayer from "@/features/dictionary/quick-lookup/components/QuickLookupLayer"
+import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { isAdminUserId } from "@/server/utils/admin"
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ["latin", "latin-ext", "vietnamese"],
@@ -51,11 +53,15 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const supabase = await createSupabaseServerClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  const isAdmin = user ? isAdminUserId(user.id) : false
+
   return (
     <html lang="vi" translate="no" suppressHydrationWarning data-scroll-behavior="smooth">
       <body
@@ -71,7 +77,7 @@ export default function RootLayout({
           }}
         />
         <div className={layoutStyles.appLayout}>
-          <Sidebar />
+          <Sidebar isAdmin={isAdmin} />
           <div className={layoutStyles.appMain}>
             {children}
           </div>

@@ -9,6 +9,7 @@ import {
     Languages,
     Settings,
     PanelLeft,
+    ShieldCheck,
 } from "lucide-react"
 
 import styles from "./Sidebar.module.css"
@@ -38,7 +39,7 @@ const menuItems: MenuItem[] = [
     { href: "/settings",  kind: "icon", Icon: Settings,   label: "Cài đặt"  },
 ]
 
-export default function Sidebar() {
+export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
     const pathname = usePathname()
     const collapsed = useSyncExternalStore(subscribeSidebar, getSnapshot, getServerSnapshot)
 
@@ -74,7 +75,7 @@ export default function Sidebar() {
             </div>
 
             <nav className={styles.sidebarMenu} aria-label="Menu chính">
-                {menuItems.map((item) => {
+                {[...menuItems, ...(isAdmin ? [{ href: "/admin", kind: "icon" as const, Icon: ShieldCheck, label: "Quản trị" }] : [])].map((item) => {
                     const isActive =
                         item.href === "/"
                             ? pathname === "/"
