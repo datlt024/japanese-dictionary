@@ -1,6 +1,7 @@
 import Link from "next/link"
+import { Button, Space, Typography } from "antd"
 
-import styles from "./EmptyState.module.css"
+const { Title, Text } = Typography
 
 type EmptyStateProps = {
     title: string
@@ -24,46 +25,29 @@ export default function EmptyState({
         : null
 
     return (
-        <div className={styles.emptyState}>
-            <div className={styles.emptyStateIllustration}>
-                <div className={styles.emptyStateCat}>
-                    🐱
-                </div>
-
-                <div className={styles.emptyStateBox}>
-                    📦
-                </div>
+        <div style={{ textAlign: "center", padding: "48px 24px" }}>
+            <div style={{ fontSize: 48, lineHeight: 1, marginBottom: 8 }}>
+                <span>🐱</span>
+                <span style={{ marginLeft: -12, fontSize: 32 }}>📦</span>
             </div>
 
-            <h2>{title}</h2>
+            <Title level={4} style={{ marginTop: 16, marginBottom: 8 }}>{title}</Title>
 
-            <p>
-                {description ||
-                    `Không có dữ liệu${keyword
-                        ? ` cho "${keyword}"`
-                        : ""
-                    }.`}
-            </p>
+            <Text type="secondary" style={{ display: "block", marginBottom: 24, fontSize: 14 }}>
+                {description || `Không có dữ liệu${keyword ? ` cho "${keyword}"` : ""}.`}
+            </Text>
 
-            <div className={styles.emptyStateActions}>
-                <Link
-                    href={backHref}
-                    className={styles.emptyStateButton}
-                >
-                    {backLabel}
+            <Space>
+                <Link href={backHref}>
+                    <Button type="primary">{backLabel}</Button>
                 </Link>
 
                 {googleTranslateUrl && (
-                    <a
-                        href={googleTranslateUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={styles.googleTranslateButton}
-                    >
-                        Tra trên Google Dịch
+                    <a href={googleTranslateUrl} target="_blank" rel="noopener noreferrer">
+                        <Button>Tra trên Google Dịch</Button>
                     </a>
                 )}
-            </div>
+            </Space>
         </div>
     )
 }
