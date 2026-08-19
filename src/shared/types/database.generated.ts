@@ -1202,6 +1202,15 @@ export type Database = {
           word: string
         }[]
       }
+      get_jlpt_vocab_page: {
+        Args: { p_level: string; p_from: number; p_to: number }
+        Returns: {
+          id: number
+          primary_word: string
+          primary_kana: string
+          meaning_vi: string
+        }[]
+      }
       get_related_vocabularies_rpc: {
         Args: { search_keyword: string }
         Returns: {

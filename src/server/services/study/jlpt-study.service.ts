@@ -33,13 +33,10 @@ type VocabRow = { id: number; primary_word: string; primary_kana: string | null;
 
 export const getJlptVocabItems = unstable_cache(
     async (level: JlptLevel, from: number, to: number) => {
-        // Single DB round trip via RPC — replaces two sequential queries.
-        // Run migrations/022_jlpt_vocab_rpc.sql in Supabase to create the function.
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const { data, error } = await (supabaseServer.rpc as any)(
+        const { data, error } = await supabaseServer.rpc(
             "get_jlpt_vocab_page",
             { p_level: level, p_from: from, p_to: to }
-        ) as { data: VocabRow[] | null; error: { message?: string; code?: string } | null }
+        )
 
         if (error) {
             logger.error("jlpt-study.service", "getJlptVocabItems failed", { message: error.message, code: error.code })
