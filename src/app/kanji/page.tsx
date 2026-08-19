@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 }
 
 const JLPT_LEVELS = [
-    { level: "N5", desc: "80 Hán tự cơ bản nhất", color: "#16a34a" },
-    { level: "N4", desc: "170 Hán tự thường gặp", color: "#2563eb" },
-    { level: "N3", desc: "370 Hán tự trung cấp", color: "#7c3aed" },
-    { level: "N2", desc: "380 Hán tự nâng cao", color: "#ea580c" },
-    { level: "N1", desc: "600+ Hán tự cấp cao", color: "#dc2626" },
+    { level: "N5", desc: "80 Hán tự cơ bản nhất", color: "var(--color-jlpt-n5)" },
+    { level: "N4", desc: "170 Hán tự thường gặp", color: "var(--color-jlpt-n4)" },
+    { level: "N3", desc: "370 Hán tự trung cấp", color: "var(--color-jlpt-n3)" },
+    { level: "N2", desc: "380 Hán tự nâng cao", color: "var(--color-jlpt-n2)" },
+    { level: "N1", desc: "600+ Hán tự cấp cao", color: "var(--color-jlpt-n1)" },
 ]
 
 export default function KanjiListPage() {

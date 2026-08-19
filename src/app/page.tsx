@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 }
 
 const JLPT_QUICK_LINKS = [
-  { level: "N5", href: "/study/n5", color: "#16a34a", desc: "Cơ bản" },
-  { level: "N4", href: "/study/n4", color: "#2563eb", desc: "Sơ trung cấp" },
-  { level: "N3", href: "/study/n3", color: "#7c3aed", desc: "Trung cấp" },
-  { level: "N2", href: "/study/n2", color: "#ea580c", desc: "Nâng cao" },
-  { level: "N1", href: "/study/n1", color: "#dc2626", desc: "Thành thạo" },
+  { level: "N5", href: "/study/n5", color: "var(--color-jlpt-n5)", desc: "Cơ bản" },
+  { level: "N4", href: "/study/n4", color: "var(--color-jlpt-n4)", desc: "Sơ trung cấp" },
+  { level: "N3", href: "/study/n3", color: "var(--color-jlpt-n3)", desc: "Trung cấp" },
+  { level: "N2", href: "/study/n2", color: "var(--color-jlpt-n2)", desc: "Nâng cao" },
+  { level: "N1", href: "/study/n1", color: "var(--color-jlpt-n1)", desc: "Thành thạo" },
 ]
 
 async function DailyVocabularySectionAsync() {

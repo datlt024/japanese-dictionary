@@ -3,12 +3,12 @@ import type { NotebookGroup, NotebookWithCount } from "@/domain/notebook/noteboo
 import styles from "./StudyNotebooksTab.module.css"
 
 const CARD_COLORS = [
-    { bg: "#f5f3ff", text: "#7c3aed" },
-    { bg: "#f0fdf4", text: "#16a34a" },
-    { bg: "#fff7ed", text: "#ea580c" },
-    { bg: "#eff6ff", text: "#2563eb" },
-    { bg: "#fdf2f8", text: "#db2777" },
-    { bg: "#f0fdfa", text: "#0d9488" },
+    { bg: "var(--color-jlpt-n3-soft)", text: "var(--color-jlpt-n3)" },
+    { bg: "var(--color-success-soft)",  text: "var(--color-success)"  },
+    { bg: "var(--color-warning-soft)",  text: "var(--color-warning)"  },
+    { bg: "var(--color-primary-soft)",  text: "var(--color-primary)"  },
+    { bg: "var(--color-danger-soft)",   text: "var(--color-danger)"   },
+    { bg: "var(--color-jlpt-n2-soft)", text: "var(--color-jlpt-n2)" },
 ]
 const CARD_ICONS = [Briefcase, BookOpen, Layers, Zap, Flame, CheckCircle2]
 
