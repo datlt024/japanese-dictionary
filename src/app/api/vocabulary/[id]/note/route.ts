@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from "next/server"
-
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { serverError } from "@/server/utils/api-error"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
+
+export const dynamic = "force-dynamic"
 
 type RouteContext = { params: Promise<{ id: string }> }
 
@@ -30,7 +31,7 @@ export async function GET(
     }
 
     const ip = getClientIp(request)
-    const rl = rateLimit(`note-get:${user.id}:${ip}`, 60, 60_000)
+    const rl = await rateLimit(`note-get:${user.id}:${ip}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const { data, error } = await supabase
@@ -59,7 +60,7 @@ export async function PUT(
     }
 
     const ip = getClientIp(request)
-    const rl = rateLimit(`note-put:${user.id}:${ip}`, 30, 60_000)
+    const rl = await rateLimit(`note-put:${user.id}:${ip}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const { id } = await params

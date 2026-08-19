@@ -33,7 +33,7 @@ Văn bản: ${text}`
 }
 
 export async function POST(request: NextRequest) {
-    const rl = rateLimit(`gemini:${getClientIp(request)}`, 10, 60_000)
+    const rl = await rateLimit(`gemini:${getClientIp(request)}`, 10, 60_000)
     if (!rl.ok) return rl.response
 
     const apiKey = process.env.GEMINI_API_KEY

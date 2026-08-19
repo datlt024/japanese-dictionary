@@ -1,3 +1,4 @@
+import "server-only"
 export * from "./vocabulary.repository"
 export * from "./related-vocabulary.repository"
 export * from "./search-vocabulary.repository"

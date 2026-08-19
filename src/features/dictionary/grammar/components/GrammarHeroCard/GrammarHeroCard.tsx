@@ -8,8 +8,8 @@ import type { GrammarPoint } from "@/domain/grammar"
 
 import { getShortMeaning } from "@/features/dictionary/grammar/utils"
 import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
-import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
-import AddToNotebookModal from "@/features/notebook/components/AddToNotebookModal/AddToNotebookModal"
+import AuthModal from "@/shared/components/AuthModal"
+import AddToNotebookModal from "@/shared/components/AddToNotebookModal"
 
 import styles from "./GrammarHeroCard.module.css"
 

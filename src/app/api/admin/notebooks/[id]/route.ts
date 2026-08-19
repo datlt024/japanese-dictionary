@@ -16,7 +16,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
-    const rl = rateLimit(`admin-nb-patch:${user.id}`, 30, 60_000)
+    const rl = await rateLimit(`admin-nb-patch:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const body = await req.json().catch(() => null)
@@ -64,7 +64,7 @@ export async function DELETE(_req: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
-    const rl = rateLimit(`admin-nb-del:${user.id}`, 20, 60_000)
+    const rl = await rateLimit(`admin-nb-del:${user.id}`, 20, 60_000)
     if (!rl.ok) return rl.response
 
     const { error } = await supabase

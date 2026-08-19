@@ -25,7 +25,7 @@ const cachedTranslate = unstable_cache(
 )
 
 export async function GET(request: NextRequest) {
-    const rl = rateLimit(`translate:${getClientIp(request)}`, 30, 60_000)
+    const rl = await rateLimit(`translate:${getClientIp(request)}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const { searchParams } = new URL(request.url)

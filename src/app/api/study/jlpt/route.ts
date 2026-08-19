@@ -4,7 +4,7 @@ import { getJlptStudyBatch, isValidJlptLevel, shuffleItems } from "@/server/serv
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 
 export async function GET(request: NextRequest) {
-    const rl = rateLimit(`jlpt:${getClientIp(request)}`, 30, 60_000)
+    const rl = await rateLimit(`jlpt:${getClientIp(request)}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const level = request.nextUrl.searchParams.get("level") ?? ""

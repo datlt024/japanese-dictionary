@@ -17,7 +17,7 @@ export async function POST(
         return NextResponse.json({ error: "Cần đăng nhập" }, { status: 401 })
     }
 
-    const rl = rateLimit(`like:${user.id}`, 30, 60_000)
+    const rl = await rateLimit(`like:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     try {
@@ -33,7 +33,12 @@ export async function POST(
             if (addError) return serverError(addError, "POST /api/comments/[id]/like")
         }
 
-        // Recount from source of truth to avoid read-modify-write race conditions
+        // Recount from source of truth to avoid read-modify-write race conditions.
+        // This is safer than reading likes_count and incrementing/decrementing it,
+        // but a narrow race still exists between the COUNT query and the UPDATE.
+        // The ideal fix is a database trigger that keeps likes_count in sync automatically:
+        //   CREATE TRIGGER sync_likes_count AFTER INSERT OR DELETE ON word_comment_likes
+        //   FOR EACH ROW EXECUTE FUNCTION update_comment_likes_count();
         const { count } = await supabase
             .from("word_comment_likes")
             .select("*", { count: "exact", head: true })

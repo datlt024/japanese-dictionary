@@ -51,6 +51,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
         description: meaning
             ? `${vocabulary.word}: ${meaning}. Tra cứu từ vựng tiếng Nhật với ví dụ và phiên âm đầy đủ.`
             : `Tra cứu từ vựng ${vocabulary.word} trong từ điển Nhật Việt Yomi.`,
+        alternates: { canonical: `/vocabulary/${id}` },
     }
 }
 

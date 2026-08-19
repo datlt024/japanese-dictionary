@@ -18,6 +18,8 @@ import type { NotebookItemType } from "@/domain/notebook/notebook.type"
 
 import styles from "./AddToNotebookModal.module.css"
 
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+
 type AddToNotebookModalProps = {
     open: boolean
     onClose: () => void
@@ -49,6 +51,7 @@ export default function AddToNotebookModal({
     const [createLoading, setCreateLoading] = useState(false)
     const createInputRef = useRef<HTMLInputElement>(null)
     const handleCloseRef = useRef<() => void>(null!)
+    const modalRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
         if (creating) createInputRef.current?.focus()
@@ -71,6 +74,8 @@ export default function AddToNotebookModal({
         onClose()
     }
     useLayoutEffect(() => { handleCloseRef.current = handleClose })
+
+    useFocusTrap(modalRef, open, handleClose)
 
     async function toggleNotebook(notebookId: string) {
         if (pendingIds.has(notebookId)) return
@@ -157,6 +162,7 @@ export default function AddToNotebookModal({
         <div className={styles.overlay} onClick={handleClose}>
             <div
                 className={styles.modal}
+                ref={modalRef}
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
                 aria-modal="true"

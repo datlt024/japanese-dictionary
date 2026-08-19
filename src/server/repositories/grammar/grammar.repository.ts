@@ -1,3 +1,4 @@
+import "server-only"
 import type { Database } from "@/shared/types/database.generated"
 
 import type { GrammarRubyItem, GrammarSpecialCase } from "@/domain/grammar"

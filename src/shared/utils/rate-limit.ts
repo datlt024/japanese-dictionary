@@ -1,10 +1,22 @@
 import { NextResponse } from "next/server"
 
+/**
+ * Rate limiting store — currently in-memory (process-local, not shared across serverless instances).
+ *
+ * To enable shared rate limiting in production, install Upstash:
+ *   npm install @upstash/ratelimit @upstash/redis
+ * Then set environment variables:
+ *   UPSTASH_REDIS_REST_URL=...
+ *   UPSTASH_REDIS_REST_TOKEN=...
+ * And replace the in-memory store below with the Upstash Ratelimit client.
+ * See: https://github.com/upstash/ratelimit
+ */
+
 type Entry = { count: number; resetAt: number }
 
 // NOTE: process-local store — each serverless Lambda instance has its own Map;
 // rate limits are not enforced across instances. For production-grade limiting,
-// replace this with an external store such as Upstash Redis.
+// replace this with an external store such as Upstash Redis (see comment above).
 const store = new Map<string, Entry>()
 
 // Cleanup timer only runs in long-lived Node.js processes; setInterval
@@ -49,12 +61,15 @@ export function getClientIp(request: Request): string {
     )
 }
 
-/** Convenience wrapper — returns a ready-made 429 response when rate exceeded. */
-export function rateLimit(
+/** Convenience wrapper — returns a ready-made 429 response when rate exceeded.
+ *  Async to allow swapping the in-memory store for an external store (e.g. Upstash)
+ *  without changing call sites. Callers must `await` this function.
+ */
+export async function rateLimit(
     key: string,
     limit: number,
     windowMs: number
-): { ok: true } | { ok: false; response: NextResponse } {
+): Promise<{ ok: true } | { ok: false; response: NextResponse }> {
     const result = checkRateLimit(key, limit, windowMs)
     if (result.ok) return { ok: true }
     return {

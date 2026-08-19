@@ -2,6 +2,8 @@ import { FormEvent, useEffect, useRef, useState } from "react"
 import { Pencil } from "lucide-react"
 import styles from "./StudyNotebooksTab.module.css"
 
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+
 interface Props {
     currentName: string
     onClose: () => void
@@ -13,6 +15,9 @@ export default function RenameModal({ currentName, onClose, onSave }: Props) {
     const [error, setError] = useState<string | null>(null)
     const [saving, setSaving] = useState(false)
     const inputRef = useRef<HTMLInputElement>(null)
+    const modalRef = useRef<HTMLDivElement>(null)
+
+    useFocusTrap(modalRef, true, onClose)
 
     useEffect(() => { inputRef.current?.focus(); inputRef.current?.select() }, [])
     useEffect(() => {
@@ -34,7 +39,7 @@ export default function RenameModal({ currentName, onClose, onSave }: Props) {
 
     return (
         <div className={styles.confirmOverlay} onClick={onClose} role="presentation">
-            <div className={styles.confirmBox} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label="Đổi tên sổ tay">
+            <div className={styles.confirmBox} ref={modalRef} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label="Đổi tên sổ tay">
                 <div className={styles.confirmIcon} style={{ background: "var(--color-primary-soft)", color: "var(--color-primary)" }}>
                     <Pencil size={20} />
                 </div>

@@ -5,10 +5,10 @@ import { useState } from "react"
 import styles from "./VocabularyWordHeader.module.css"
 
 import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
-import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
-import AddToNotebookModal from "@/features/notebook/components/AddToNotebookModal/AddToNotebookModal"
+import AuthModal from "@/shared/components/AuthModal"
+import AddToNotebookModal from "@/shared/components/AddToNotebookModal"
 import VocabularyNoteModal from "@/features/dictionary/vocabulary/components/VocabularyNoteModal/VocabularyNoteModal"
-import { useAuth } from "@/features/auth/hooks/useAuth"
+import { useAuth } from "@/shared/hooks/useAuth"
 
 import {
     Star,

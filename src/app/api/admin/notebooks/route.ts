@@ -13,7 +13,7 @@ export async function GET() {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
-    const rl = rateLimit(`admin-nb:${user.id}`, 30, 60_000)
+    const rl = await rateLimit(`admin-nb:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const { data, error } = await supabase
@@ -25,17 +25,18 @@ export async function GET() {
 
     if (error) return serverError(error, "GET /api/admin/notebooks")
 
-    // Fetch item counts
-    const counts = await Promise.all(
-        (data ?? []).map((nb) =>
-            supabase
-                .from("notebook_items")
-                .select("*", { count: "exact", head: true })
-                .eq("notebook_id", nb.id)
-                .then(({ count }) => ({ id: nb.id, count: count ?? 0 }))
-        )
-    )
-    const countMap = new Map(counts.map((c) => [c.id, c.count]))
+    // Fetch all item counts in a single query and group by notebook_id in JS
+    const notebookIds = (data ?? []).map((nb) => nb.id)
+    const countMap = new Map<string, number>()
+    if (notebookIds.length > 0) {
+        const { data: allCounts } = await supabase
+            .from("notebook_items")
+            .select("notebook_id")
+            .in("notebook_id", notebookIds)
+        for (const row of allCounts ?? []) {
+            countMap.set(row.notebook_id, (countMap.get(row.notebook_id) ?? 0) + 1)
+        }
+    }
 
     const result = (data ?? []).map((nb) => ({
         ...nb,
@@ -54,7 +55,7 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
-    const rl = rateLimit(`admin-nb-post:${user.id}`, 20, 60_000)
+    const rl = await rateLimit(`admin-nb-post:${user.id}`, 20, 60_000)
     if (!rl.ok) return rl.response
 
     const body = await req.json().catch(() => null)

@@ -12,6 +12,8 @@ import { X } from "lucide-react"
 
 import styles from "./HandwritingModal.module.css"
 
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+
 type Props = {
     open: boolean
     onClose: () => void
@@ -100,6 +102,7 @@ export default function HandwritingModal({
     const kanjiCanvasLoadedRef = useRef(false)
     const refPatternsLoadedRef = useRef(false)
     const recognizeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+    const modalRef = useRef<HTMLDivElement>(null)
 
     const [mounted, setMounted] = useState(false)
     const [canvasId, setCanvasId] = useState(DEFAULT_CANVAS_ID)
@@ -144,6 +147,8 @@ export default function HandwritingModal({
         resetWritingArea()
         onClose()
     }, [onClose, resetWritingArea])
+
+    useFocusTrap(modalRef, open, handleClose)
 
     const recognize = useCallback(() => {
         if (!window.KanjiCanvas || !hasDrawing) {
@@ -280,7 +285,13 @@ export default function HandwritingModal({
             }
             aria-hidden={!open}
         >
-            <div className={styles.modal}>
+            <div
+                className={styles.modal}
+                ref={modalRef}
+                role="dialog"
+                aria-modal="true"
+                aria-label="Nhập chữ tay"
+            >
                 <div className={styles.header}>
                     <h2>Nhận dạng nét vẽ</h2>
 

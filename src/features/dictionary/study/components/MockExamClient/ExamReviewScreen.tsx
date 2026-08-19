@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react"
 import Image from "next/image"
 import { ArrowLeft, Pause, Play } from "lucide-react"
+import DOMPurify from "dompurify"
 import styles from "./MockExamClient.module.css"
 import { parseSentence } from "./exam-utils"
 import type { ExamConfig, Question } from "./exam-types"
@@ -131,7 +132,12 @@ export default function ExamReviewScreen({ level, cfg, questions, answers, secti
                                                 return (
                                                     <React.Fragment key={gi}>
                                                         {showContext && (
-                                                            <div className={styles.qContext} dangerouslySetInnerHTML={{ __html: q.context! }} />
+                                                            <div
+                                                                className={styles.qContext}
+                                                                dangerouslySetInnerHTML={{
+                                                                    __html: typeof window !== "undefined" ? DOMPurify.sanitize(q.context!) : ""
+                                                                }}
+                                                            />
                                                         )}
                                                         <div id={`rev-${gi}`} ref={el => { questionRefs.current[gi] = el }}
                                                             className={styles.qItem} data-readonly>

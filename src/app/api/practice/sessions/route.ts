@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server"
-
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
@@ -8,13 +7,15 @@ import {
     listPracticeSessions,
 } from "@/server/repositories/practice/practice-session.repository"
 
+export const dynamic = "force-dynamic"
+
 export async function GET() {
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
     if (!user) return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
 
-    const rl = rateLimit(`practice-sessions-get:${user.id}`, 30, 60_000)
+    const rl = await rateLimit(`practice-sessions-get:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const { data, error } = await listPracticeSessions(supabase, user.id)
@@ -29,7 +30,7 @@ export async function POST(request: NextRequest) {
 
     if (!user) return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
 
-    const rl = rateLimit(`practice-sessions-post:${user.id}`, 60, 60_000)
+    const rl = await rateLimit(`practice-sessions-post:${user.id}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)

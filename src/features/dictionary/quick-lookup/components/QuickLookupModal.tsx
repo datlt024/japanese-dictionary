@@ -2,11 +2,14 @@
 
 import {
     useMemo,
+    useRef,
     useState,
 } from "react"
 import { X } from "lucide-react"
 
 import styles from "./QuickLookupModal.module.css"
+
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
 
 import KanjiDetailContent from "@/features/dictionary/kanji/components/KanjiDetailContent"
 import VocabularyDetailContent from "@/features/dictionary/vocabulary/components/VocabularyDetailContent"
@@ -84,6 +87,9 @@ export default function QuickLookupModal({
         [target]
     )
 
+    const loadingModalRef = useRef<HTMLDivElement>(null)
+    useFocusTrap(loadingModalRef, !!(open && !target), onClose)
+
     if (!open) return null
 
     if (!target) {
@@ -91,6 +97,7 @@ export default function QuickLookupModal({
             <div className={styles.overlay} onClick={onClose} role="presentation">
                 <div
                     className={styles.modal}
+                    ref={loadingModalRef}
                     onClick={(e) => e.stopPropagation()}
                     role="dialog"
                     aria-modal="true"
@@ -147,6 +154,9 @@ function QuickLookupModalInner({
 
     const [activeKanjiIndex, setActiveKanjiIndex] =
         useState(0)
+
+    const modalRef = useRef<HTMLDivElement>(null)
+    useFocusTrap(modalRef, !!(open && target), onClose)
 
     if (!open || !target) {
         return null
@@ -294,6 +304,7 @@ function QuickLookupModalInner({
         <div className={styles.overlay} onClick={onClose} role="presentation">
             <div
                 className={styles.modal}
+                ref={modalRef}
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
                 aria-modal="true"

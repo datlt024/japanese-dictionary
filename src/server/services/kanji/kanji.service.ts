@@ -1,3 +1,4 @@
+import "server-only"
 import { cache } from "react"
 
 import type { Database } from "@/shared/types/database.generated"

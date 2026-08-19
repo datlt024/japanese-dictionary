@@ -38,7 +38,13 @@ type LoadConfig = {
 }
 
 const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"]
-const AVATAR_COLORS = ["#e8f3ff", "#f0fdf4", "#fff7ed", "#fdf4ff", "#fef2f2"]
+const AVATAR_COLORS = [
+    "var(--color-primary-soft)",
+    "var(--color-success-soft)",
+    "var(--color-warning-soft)",
+    "var(--color-jlpt-n3-soft)",
+    "var(--color-danger-soft)",
+]
 const AVATAR_EMOJIS = ["🌸", "🧑‍🎓", "🧑‍💻", "🎌", "📚", "✏️", "🗾", "⛩️"]
 
 function avatarEmoji(name: string) {

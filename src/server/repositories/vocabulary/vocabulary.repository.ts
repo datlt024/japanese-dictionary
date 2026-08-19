@@ -1,3 +1,4 @@
+import "server-only"
 import { supabaseServer } from "@/server/supabase/server"
 
 const VOCABULARY_BASE_COLUMNS = `

@@ -14,7 +14,7 @@ export async function GET() {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
-    const rl = rateLimit(`admin-grp:${user.id}`, 30, 60_000)
+    const rl = await rateLimit(`admin-grp:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const { data: groups, error } = await supabase
@@ -26,17 +26,20 @@ export async function GET() {
 
     if (error) return serverError(error, "GET /api/admin/groups")
 
-    // Fetch notebook counts per group in parallel
-    const counts = await Promise.all(
-        (groups ?? []).map(async (g) => {
-            const { count } = await supabase
-                .from("notebooks")
-                .select("*", { count: "exact", head: true })
-                .eq("group_id", g.id)
-            return { id: g.id, count: count ?? 0 }
-        })
-    )
-    const countMap = new Map(counts.map((c) => [c.id, c.count]))
+    // Fetch all notebook counts in a single query and group by group_id in JS
+    const groupIds = (groups ?? []).map((g) => g.id)
+    const countMap = new Map<string, number>()
+    if (groupIds.length > 0) {
+        const { data: allCounts } = await supabase
+            .from("notebooks")
+            .select("group_id")
+            .in("group_id", groupIds)
+        for (const row of allCounts ?? []) {
+            if (row.group_id) {
+                countMap.set(row.group_id, (countMap.get(row.group_id) ?? 0) + 1)
+            }
+        }
+    }
 
     const result = (groups ?? []).map((g) => ({
         ...g,

@@ -1,3 +1,4 @@
+import "server-only"
 import type { SupabaseClient } from "@supabase/supabase-js"
 
 import type { Database } from "@/shared/types/database.generated"
@@ -20,6 +21,7 @@ export async function listNotebooksWithItemCount(supabase: Client, userId: strin
         .select("id, name, description, group_id, created_at, updated_at, notebook_items(count)")
         .eq("user_id", userId)
         .order("created_at", { ascending: false })
+        .limit(200)
 }
 
 export async function getNotebook(supabase: Client, notebookId: string) {

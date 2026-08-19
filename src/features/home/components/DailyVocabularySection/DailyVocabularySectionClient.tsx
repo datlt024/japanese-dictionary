@@ -15,6 +15,8 @@ import QuickLookupModal from "@/features/dictionary/quick-lookup/components/Quic
 import styles from "./DailyVocabularySection.module.css"
 import modalStyles from "./DailyVocabularyModal.module.css"
 
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+
 const VISIBLE_COUNT = 4
 
 type Props = {
@@ -70,6 +72,9 @@ function SuggestionsModal({
     onHoverItem: (item: DailyVocabularyItem) => void
 }) {
     const onCloseRef = useRef(onClose)
+    const modalRef = useRef<HTMLDivElement>(null)
+    useFocusTrap(modalRef, true, onClose)
+
     useEffect(() => { onCloseRef.current = onClose }, [onClose])
 
     useEffect(() => {
@@ -88,6 +93,7 @@ function SuggestionsModal({
         >
             <div
                 className={modalStyles.modal}
+                ref={modalRef}
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
                 aria-modal="true"

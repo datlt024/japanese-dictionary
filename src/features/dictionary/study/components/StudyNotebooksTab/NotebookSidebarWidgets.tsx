@@ -1,7 +1,7 @@
 "use client"
 
 import { BookOpen } from "lucide-react"
-import { useStreak, WEEK_DAYS } from "@/features/notebook/hooks/useStreak"
+import { useStreak, WEEK_DAYS } from "@/shared/hooks/useStreak"
 import styles from "./StudyNotebooksTab.module.css"
 
 interface Props {

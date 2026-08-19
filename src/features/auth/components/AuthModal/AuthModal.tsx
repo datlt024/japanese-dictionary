@@ -14,6 +14,8 @@ import { createSupabaseBrowserClient } from "@/shared/lib/supabase/auth-client"
 
 import styles from "./AuthModal.module.css"
 
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+
 const RESEND_COOLDOWN = 60
 
 type Step = "email" | "otp"
@@ -34,6 +36,7 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
     const [resendCooldown, setResendCooldown] = useState(0)
 
     const handleCloseRef = useRef<() => void>(null!)
+    const modalRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
         if (!open) return
@@ -65,6 +68,8 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
         onClose()
     }
     useLayoutEffect(() => { handleCloseRef.current = handleClose })
+
+    useFocusTrap(modalRef, open, handleClose)
 
     async function handleSendOtp(e: FormEvent) {
         e.preventDefault()
@@ -165,6 +170,7 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
         <div className={styles.overlay} onClick={handleClose}>
             <div
                 className={styles.modal}
+                ref={modalRef}
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
                 aria-modal="true"

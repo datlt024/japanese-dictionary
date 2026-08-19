@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server"
-
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
@@ -14,6 +13,8 @@ import type {
     NotebookItem,
     NotebookItemType,
 } from "@/domain/notebook/notebook.type"
+
+export const dynamic = "force-dynamic"
 
 const VALID_ITEM_TYPES: NotebookItemType[] = ["vocabulary", "kanji", "grammar"]
 
@@ -133,7 +134,7 @@ export async function GET(_request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const rl = rateLimit(`nb-items-get:${user.id}`, 60, 60_000)
+    const rl = await rateLimit(`nb-items-get:${user.id}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const { data, error } = await listNotebookItems(supabase, id, user.id)
@@ -157,7 +158,7 @@ export async function POST(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const rl = rateLimit(`nb-items-write:${user.id}`, 30, 60_000)
+    const rl = await rateLimit(`nb-items-write:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)
@@ -206,7 +207,7 @@ export async function DELETE(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const rl = rateLimit(`nb-items-write:${user.id}`, 30, 60_000)
+    const rl = await rateLimit(`nb-items-write:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)

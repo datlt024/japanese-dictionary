@@ -30,7 +30,7 @@ async function isNotebookAccessible(notebookId: string): Promise<boolean> {
 }
 
 export async function GET(req: NextRequest, { params }: Params) {
-    const rl = rateLimit(`explore-items:${getClientIp(req)}`, 60, 60_000)
+    const rl = await rateLimit(`explore-items:${getClientIp(req)}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const { id } = await params

@@ -5,7 +5,7 @@ import Link from "next/link"
 import { ArrowLeft, Volume2, ChevronLeft, ChevronRight, RefreshCw } from "lucide-react"
 
 import type { JlptStudyItem, JlptLevel } from "@/domain/study"
-import { RATINGS, type Rating } from "@/features/notebook/components/PracticeClient/practice.constants"
+import { RATINGS, type Rating } from "@/shared/constants/practice"
 import styles from "./JlptFlashcardClient.module.css"
 
 type Phase = "practice" | "summary"

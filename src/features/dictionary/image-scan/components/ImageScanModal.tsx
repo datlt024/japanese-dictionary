@@ -12,6 +12,8 @@ import { ImageIcon, X } from "lucide-react"
 
 import styles from "./ImageScanModal.module.css"
 
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+
 import useImageScan from "../hooks/useImageScan"
 
 type ImageScanModalProps = {
@@ -50,11 +52,14 @@ export default function ImageScanModal({
     onClose,
 }: ImageScanModalProps) {
     const inputRef = useRef<HTMLInputElement | null>(null)
+    const modalRef = useRef<HTMLDivElement>(null)
 
     const [imageUrl, setImageUrl] = useState<string | null>(null)
     const [recognizedText, setRecognizedText] = useState("")
 
     const { loading, progress, error, recognizeImage } = useImageScan()
+
+    useFocusTrap(modalRef, open, handleClose)
 
     useEffect(() => {
         return () => {
@@ -107,6 +112,7 @@ export default function ImageScanModal({
         >
             <div
                 className={styles.modal}
+                ref={modalRef}
                 data-quick-lookup-root="true"
                 onClick={(event) => event.stopPropagation()}
                 role="dialog"

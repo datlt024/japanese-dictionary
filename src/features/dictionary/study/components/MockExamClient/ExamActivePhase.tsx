@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { Clock, Play, X } from "lucide-react"
+import DOMPurify from "dompurify"
 import styles from "./MockExamClient.module.css"
 import { formatTime, parseSentence } from "./exam-utils"
 import type { ExamConfig } from "./exam-types"
@@ -170,7 +171,12 @@ export default function ExamActivePhase({
                                                 return (
                                                     <React.Fragment key={gi}>
                                                         {showContext && (
-                                                            <div className={styles.qContext} dangerouslySetInnerHTML={{ __html: q.context! }} />
+                                                            <div
+                                                                className={styles.qContext}
+                                                                dangerouslySetInnerHTML={{
+                                                                    __html: typeof window !== "undefined" ? DOMPurify.sanitize(q.context!) : ""
+                                                                }}
+                                                            />
                                                         )}
                                                         <div
                                                             id={`q-${gi}`}

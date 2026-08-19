@@ -1,3 +1,4 @@
+import "server-only"
 import { findRelatedVocabulariesByKeyword } from "@/server/repositories/vocabulary/related-vocabulary.repository"
 import { logger } from "@/server/utils/logger"
 

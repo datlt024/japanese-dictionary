@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
 
     if (!user) return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
 
-    const rl = rateLimit(`streak-post:${user.id}`, 60, 60_000)
+    const rl = await rateLimit(`streak-post:${user.id}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)
@@ -28,6 +28,10 @@ export async function POST(request: NextRequest) {
         !streak_active_days.every((d: unknown) => typeof d === "number")
     ) {
         return NextResponse.json({ error: "Dữ liệu không hợp lệ" }, { status: 400 })
+    }
+
+    if (streak_last_date !== null && !/^\d{4}-\d{2}-\d{2}$/.test(streak_last_date)) {
+        return NextResponse.json({ error: "Định dạng ngày không hợp lệ" }, { status: 400 })
     }
 
     const { error } = await upsertStreak(supabase, user.id, {

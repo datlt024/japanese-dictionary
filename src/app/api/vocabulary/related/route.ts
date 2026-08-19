@@ -13,7 +13,7 @@ const cachedRelatedVocabularies = unstable_cache(
 
 export async function GET(request: NextRequest) {
     const ip = getClientIp(request)
-    const rl = rateLimit(`vocab-rel:${ip}`, 60, 60_000)
+    const rl = await rateLimit(`vocab-rel:${ip}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const keyword =

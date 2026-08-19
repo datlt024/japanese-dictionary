@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from "next/server"
-
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { checkItemInNotebooks } from "@/server/repositories/notebook/notebook-items.repository"
 import { rateLimit } from "@/shared/utils/rate-limit"
 import type { NotebookItemType } from "@/domain/notebook/notebook.type"
+
+export const dynamic = "force-dynamic"
 
 const VALID_ITEM_TYPES: NotebookItemType[] = ["vocabulary", "kanji", "grammar"]
 
@@ -21,7 +22,7 @@ export async function GET(request: NextRequest) {
         return NextResponse.json({ notebookIds: [] })
     }
 
-    const rl = rateLimit(`nb-check:${user.id}`, 120, 60_000)
+    const rl = await rateLimit(`nb-check:${user.id}`, 120, 60_000)
     if (!rl.ok) return rl.response
 
     const itemType = request.nextUrl.searchParams.get("type")

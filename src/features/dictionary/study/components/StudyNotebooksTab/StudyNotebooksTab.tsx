@@ -11,30 +11,28 @@ import { useRouter } from "next/navigation"
 import React from "react"
 import useSWR from "swr"
 import {
-    ArrowUpDown,
     BookOpen,
-    CheckCircle2,
     ChevronDown,
     ChevronLeft,
     ChevronRight,
     FolderOpen,
-    Layers,
     Lightbulb,
     LogIn,
     Pencil,
     Plus,
     PlusCircle,
     Trash2,
-    Zap,
 } from "lucide-react"
 
-import { useAuth } from "@/features/auth/hooks/useAuth"
-import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
-import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
-import { useNotebookGroups } from "@/features/notebook/hooks/useNotebookGroups"
+import { useAuth } from "@/shared/hooks/useAuth"
+import AuthModal from "@/shared/components/AuthModal"
+import { useNotebooks } from "@/shared/hooks/useNotebooks"
+import { useNotebookGroups } from "@/shared/hooks/useNotebookGroups"
 import NotebookListCard from "./NotebookListCard"
 import NotebookDetailView from "./NotebookDetailView"
 import NotebookSidebarWidgets from "./NotebookSidebarWidgets"
+import NotebookOverviewStats from "./NotebookOverviewStats"
+import NotebookToolbar from "./NotebookToolbar"
 import PracticeModeModal from "./PracticeModeModal"
 import RenameModal from "./RenameModal"
 import ConfirmDialog from "./ConfirmDialog"
@@ -292,59 +290,27 @@ export default function StudyNotebooksTab() {
 
     const totalItems = notebooks.reduce((sum, nb) => sum + nb.item_count, 0)
 
-    const STATS = [
-        { icon: <Layers size={20} style={{ color: "var(--color-jlpt-n3)" }} />, bg: "var(--color-jlpt-n3-soft)", value: notebooks.length,        label: "Số sổ tay" },
-        { icon: <BookOpen size={20} style={{ color: "var(--color-jlpt-n4)" }} />, bg: "var(--color-jlpt-n4-soft)", value: totalItems,             label: "Tổng số từ" },
-        { icon: <CheckCircle2 size={20} style={{ color: "var(--color-success)" }} />, bg: "var(--color-success-soft)", value: practiceStats.knownCount || "—", label: "Từ đã ghi nhớ" },
-        { icon: <Zap size={20} style={{ color: "var(--color-warning)" }} />, bg: "var(--color-warning-soft)", value: practiceStats.ratio,        label: "Tỷ lệ ghi nhớ" },
-    ]
-
     return (
         <>
             <div className={styles.layout}>
                 <main className={styles.mainCol}>
                 {/* ── Tổng quan ── */}
-                <section className={styles.overviewSection}>
-                    <h2 className={styles.overviewTitle}>Tổng quan</h2>
-                    <div className={styles.statsRow}>
-                        {STATS.map(({ icon, bg, value, label }) => (
-                            <div key={label} className={styles.statItem}>
-                                <div className={styles.statIcon} style={{ background: bg }}>{icon}</div>
-                                <div>
-                                    <div className={styles.statNum}>{value}</div>
-                                    <div className={styles.statLabel}>{label}</div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </section>
+                <NotebookOverviewStats
+                    notebookCount={notebooks.length}
+                    totalItems={totalItems}
+                    knownCount={practiceStats.knownCount}
+                    ratio={practiceStats.ratio}
+                />
 
                 {/* ── Toolbar ── */}
-                <div className={styles.toolbar}>
-                    <div className={styles.sortWrap}>
-                        <ArrowUpDown size={13} className={styles.sortIcon} />
-                        <select className={styles.sortSelect} value={sortOrder}
-                            onChange={e => handleSortChange(e.target.value as SortOrder)}>
-                            <option value="newest">Mới nhất</option>
-                            <option value="oldest">Cũ nhất</option>
-                            <option value="az">A → Z</option>
-                            <option value="za">Z → A</option>
-                        </select>
-                    </div>
-                    <div className={styles.toolbarRight}>
-                        {!creatingGroup && (
-                            <button type="button" className={styles.toolbarBtn} onClick={() => setCreatingGroup(true)}>
-                                <FolderOpen size={13} /> Tạo nhóm
-                            </button>
-                        )}
-                        {!creating && (
-                            <button type="button" className={styles.toolbarBtnPrimary}
-                                onClick={() => { setCreating(true); setCreateInGroupId(null) }}>
-                                <Plus size={13} /> Tạo sổ tay
-                            </button>
-                        )}
-                    </div>
-                </div>
+                <NotebookToolbar
+                    sortOrder={sortOrder}
+                    onSortChange={handleSortChange}
+                    creatingGroup={creatingGroup}
+                    creating={creating}
+                    onCreateGroup={() => setCreatingGroup(true)}
+                    onCreate={() => { setCreating(true); setCreateInGroupId(null) }}
+                />
 
                 {/* Form tạo nhóm */}
                 {creatingGroup && (

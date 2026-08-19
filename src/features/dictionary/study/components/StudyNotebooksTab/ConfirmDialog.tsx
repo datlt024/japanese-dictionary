@@ -1,5 +1,7 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useRef } from "react"
 import styles from "./StudyNotebooksTab.module.css"
+
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
 
 interface Props {
     icon: React.ReactNode
@@ -14,6 +16,9 @@ interface Props {
 }
 
 export default function ConfirmDialog({ icon, iconStyle, title, desc, okLabel, okStyle, loading, onCancel, onOk }: Props) {
+    const modalRef = useRef<HTMLDivElement>(null)
+    useFocusTrap(modalRef, true, onCancel)
+
     useEffect(() => {
         function onKey(e: KeyboardEvent) { if (e.key === "Escape") onCancel() }
         window.addEventListener("keydown", onKey)
@@ -22,7 +27,7 @@ export default function ConfirmDialog({ icon, iconStyle, title, desc, okLabel, o
 
     return (
         <div className={styles.confirmOverlay} onClick={onCancel} role="presentation">
-            <div className={styles.confirmBox} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label={title}>
+            <div className={styles.confirmBox} ref={modalRef} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label={title}>
                 <div className={styles.confirmIcon} style={iconStyle}>{icon}</div>
                 <h3 className={styles.confirmTitle}>{title}</h3>
                 <p className={styles.confirmDesc}>{desc}</p>

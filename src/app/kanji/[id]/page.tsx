@@ -37,6 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: meaning
             ? `Hán tự ${char} — ${kanji.han_viet ?? ""}: ${meaning}. Tra cứu âm On, âm Kun và từ vựng liên quan.`
             : `Tra cứu Hán tự ${char} trong từ điển tiếng Nhật.`,
+        alternates: { canonical: `/kanji/${id}` },
     }
 }
 

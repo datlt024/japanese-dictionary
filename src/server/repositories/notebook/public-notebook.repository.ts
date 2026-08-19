@@ -1,3 +1,4 @@
+import "server-only"
 import type { SupabaseClient } from "@supabase/supabase-js"
 import type { ExploreSection, PublicNotebook } from "@/domain/notebook/notebook.type"
 import type { Database } from "@/shared/types/database.generated"
@@ -84,19 +85,24 @@ export async function listExploreSections(
         })
     )
 
-    // 4. Fetch item counts for all notebooks in one query instead of N separate COUNTs
+    // 4. Fetch item counts per notebook using aggregate COUNT queries (avoids transferring all rows)
     const allNbIds = [
         ...groupNotebooksResults.flatMap((r) => r.notebooks.map((nb) => nb.id)),
         ...(standaloneNbs ?? []).map((nb) => nb.id),
     ]
     const countMap = new Map<string, number>()
     if (allNbIds.length > 0) {
-        const { data: itemRows } = await supabase
-            .from("notebook_items")
-            .select("notebook_id")
-            .in("notebook_id", allNbIds)
-        for (const row of itemRows ?? []) {
-            countMap.set(row.notebook_id, (countMap.get(row.notebook_id) ?? 0) + 1)
+        const counts = await Promise.all(
+            allNbIds.map(async (id) => {
+                const { count } = await supabase
+                    .from("notebook_items")
+                    .select("*", { count: "exact", head: true })
+                    .eq("notebook_id", id)
+                return { id, count: count ?? 0 }
+            })
+        )
+        for (const { id, count } of counts) {
+            countMap.set(id, count)
         }
     }
 
@@ -160,23 +166,50 @@ export async function getPublicNotebook(
     supabase: SupabaseClient<Database>,
     notebookId: string
 ): Promise<{ data: PublicNotebook | null; error: unknown }> {
-    // notebook is accessible if it's individually public OR in a public group
+    // Only return notebooks that are individually public OR belong to a public group
     const { data, error } = await supabase
         .from("notebooks")
         .select("id, name, description, public_category, public_description, display_order, group_id")
         .eq("id", notebookId)
+        .eq("is_public", true)
         .maybeSingle()
 
-    if (error || !data) return { data: null, error: error ?? "not found" }
+    if (error || !data) {
+        // If not individually public, check if it belongs to a public group
+        if (!error) {
+            const { data: nb } = await supabase
+                .from("notebooks")
+                .select("id, name, description, public_category, public_description, display_order, group_id")
+                .eq("id", notebookId)
+                .maybeSingle()
 
-    // verify it's actually accessible (public or in public group)
-    const { data: nb } = await supabase
-        .from("notebooks")
-        .select("id")
-        .eq("id", notebookId)
-        .maybeSingle()
+            if (!nb || !nb.group_id) return { data: null, error: "not found" }
 
-    if (!nb) return { data: null, error: "not accessible" }
+            const { data: group } = await supabase
+                .from("notebook_groups")
+                .select("id")
+                .eq("id", nb.group_id)
+                .eq("is_public", true)
+                .maybeSingle()
+
+            if (!group) return { data: null, error: "not accessible" }
+
+            const count = await fetchItemCount(supabase, notebookId)
+            return {
+                data: {
+                    id: nb.id,
+                    name: nb.name,
+                    description: nb.description,
+                    public_category: nb.public_category ?? null,
+                    public_description: nb.public_description ?? null,
+                    display_order: nb.display_order,
+                    item_count: count,
+                },
+                error: null,
+            }
+        }
+        return { data: null, error: error ?? "not found" }
+    }
 
     const count = await fetchItemCount(supabase, notebookId)
 
@@ -185,8 +218,8 @@ export async function getPublicNotebook(
             id: data.id,
             name: data.name,
             description: data.description,
-            public_category: data.public_category,
-            public_description: data.public_description,
+            public_category: data.public_category ?? null,
+            public_description: data.public_description ?? null,
             display_order: data.display_order,
             item_count: count,
         },

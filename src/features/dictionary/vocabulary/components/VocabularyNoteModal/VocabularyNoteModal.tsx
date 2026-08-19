@@ -6,6 +6,8 @@ import { Trash2, X } from "lucide-react"
 
 import styles from "./VocabularyNoteModal.module.css"
 
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+
 type Props = {
     open: boolean
     onClose: () => void
@@ -31,7 +33,10 @@ export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Pro
 
     const textareaRef = useRef<HTMLTextAreaElement>(null)
     const onCloseRef = useRef(onClose)
+    const modalRef = useRef<HTMLDivElement>(null)
     useLayoutEffect(() => { onCloseRef.current = onClose })
+
+    useFocusTrap(modalRef, open, onClose)
 
     // Fetch note when modal opens; cleanup resets to loading state for next open
     useEffect(() => {
@@ -120,6 +125,7 @@ export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Pro
         <div className={styles.overlay} onClick={onClose}>
             <div
                 className={styles.modal}
+                ref={modalRef}
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
                 aria-modal="true"

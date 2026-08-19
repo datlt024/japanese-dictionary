@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 
 export async function GET(request: NextRequest) {
-    const rl = rateLimit(`tts:${getClientIp(request)}`, 30, 60_000)
+    const rl = await rateLimit(`tts:${getClientIp(request)}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const { searchParams } = new URL(request.url)

@@ -1,3 +1,4 @@
+import "server-only"
 import { supabaseAdmin } from "@/server/supabase/admin"
 import type { EnrichedNotebookItem, NotebookItem } from "@/domain/notebook/notebook.type"
 

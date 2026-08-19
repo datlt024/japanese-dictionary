@@ -12,7 +12,7 @@ const getCachedExploreSections = unstable_cache(
 )
 
 export async function GET(req: NextRequest) {
-    const rl = rateLimit(`explore:${getClientIp(req)}`, 60, 60_000)
+    const rl = await rateLimit(`explore:${getClientIp(req)}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const { data, error } = await getCachedExploreSections()

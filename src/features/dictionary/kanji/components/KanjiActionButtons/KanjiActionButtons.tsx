@@ -4,8 +4,8 @@ import { useState } from "react"
 
 import { BookOpen, FilePenLine, Star } from "lucide-react"
 
-import AuthModal from "@/features/auth/components/AuthModal/AuthModal"
-import AddToNotebookModal from "@/features/notebook/components/AddToNotebookModal/AddToNotebookModal"
+import AuthModal from "@/shared/components/AuthModal"
+import AddToNotebookModal from "@/shared/components/AddToNotebookModal"
 import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
 
 type Props = {

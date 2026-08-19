@@ -6,6 +6,8 @@ import { AlertCircle, BookOpen, Check, ExternalLink, X } from "lucide-react"
 import type { EnrichedNotebookItem, NotebookWithCount } from "@/domain/notebook/notebook.type"
 import styles from "./ExploreTab.module.css"
 
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+
 interface Props {
     items: EnrichedNotebookItem[]
     notebooks: NotebookWithCount[]
@@ -19,6 +21,9 @@ export default function AddToNotebookModal({ items, notebooks, onClose }: Props)
     const [addedCount,  setAddedCount]  = useState(0)
     const titleId  = "add-notebook-modal-title"
     const firstRef = useRef<HTMLButtonElement>(null)
+    const modalRef = useRef<HTMLDivElement>(null)
+
+    useFocusTrap(modalRef, true, onClose)
 
     useEffect(() => { firstRef.current?.focus() }, [])
     useEffect(() => {
@@ -51,6 +56,7 @@ export default function AddToNotebookModal({ items, notebooks, onClose }: Props)
         <div className={styles.modalOverlay} onClick={onClose} role="presentation">
             <div
                 className={styles.modal}
+                ref={modalRef}
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
                 aria-modal="true"

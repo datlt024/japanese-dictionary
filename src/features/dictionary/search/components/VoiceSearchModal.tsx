@@ -3,12 +3,15 @@
 import {
     useCallback,
     useMemo,
+    useRef,
     useState,
 } from "react"
 import { createPortal } from "react-dom"
 import { Mic, Pause, Search } from "lucide-react"
 
 import styles from "./VoiceSearchModal.module.css"
+
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
 
 import useSearchHub, {
     SearchGrammar,
@@ -113,6 +116,9 @@ export default function VoiceSearchModal({
 }: VoiceSearchModalProps) {
     const [voiceLanguage, setVoiceLanguage] =
         useState<VoiceSearchLanguage>("ja-JP")
+
+    const modalRef = useRef<HTMLDivElement>(null)
+    useFocusTrap(modalRef, open, onClose)
 
     const handleFinalResult = useCallback(() => {
         // Không tự động tra.
@@ -223,6 +229,7 @@ export default function VoiceSearchModal({
         >
             <div
                 className={styles.modal}
+                ref={modalRef}
                 onClick={(event) => event.stopPropagation()}
                 role="dialog"
                 aria-modal="true"

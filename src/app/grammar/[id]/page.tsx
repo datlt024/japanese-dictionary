@@ -13,7 +13,7 @@ import {
 import { supabaseServer } from "@/server/supabase/server"
 
 export async function generateStaticParams() {
-    const { data } = await supabaseServer.from("grammars").select("id")
+    const { data } = await supabaseServer.from("grammars").select("id").limit(5000)
     return (data ?? []).map((g) => ({ id: String(g.id) }))
 }
 
@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: meaning
             ? `${pattern}: ${meaning}. Giải thích ngữ pháp tiếng Nhật bằng tiếng Việt.`
             : `Tra cứu ngữ pháp ${pattern} tiếng Nhật.`,
+        alternates: { canonical: `/grammar/${id}` },
     }
 }
 

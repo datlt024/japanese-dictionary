@@ -1,3 +1,4 @@
+import "server-only"
 type Level = "error" | "warn" | "info"
 
 interface LogMeta {

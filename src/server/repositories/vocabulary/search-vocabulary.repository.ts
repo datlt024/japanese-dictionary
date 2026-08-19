@@ -1,3 +1,4 @@
+import "server-only"
 import { supabaseServer } from "@/server/supabase/server"
 
 import type { DictionaryLanguage } from "@/shared/types/dictionaryLanguage"

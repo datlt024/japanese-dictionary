@@ -10,7 +10,11 @@ export default function GrammarDetailError({
     error: Error & { digest?: string }
     reset: () => void
 }) {
-    useEffect(() => { console.error(error) }, [error])
+    useEffect(() => {
+        if (process.env.NODE_ENV !== "production") {
+            console.error(error)
+        }
+    }, [error])
 
     return (
         <AppLayout title="Ngữ pháp">
@@ -36,7 +40,7 @@ export default function GrammarDetailError({
                         marginTop: 8,
                         padding: "10px 24px",
                         background: "var(--color-primary)",
-                        color: "#fff",
+                        color: "var(--color-surface)",
                         border: "none",
                         borderRadius: 10,
                         fontWeight: 600,

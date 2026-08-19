@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server"
-
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { serverError } from "@/server/utils/api-error"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
@@ -13,13 +12,15 @@ import {
 } from "@/server/repositories/community/community.repository"
 import type { EntryType, SortOrder } from "@/server/repositories/community/community.repository"
 
+export const dynamic = "force-dynamic"
+
 const ENTRY_TYPES: EntryType[] = ["vocabulary", "kanji", "grammar"]
 const SORT_ORDERS: SortOrder[] = ["likes", "newest"]
 const PAGE_SIZE = 10
 
 export async function GET(request: NextRequest) {
     const ip = getClientIp(request)
-    const rl = rateLimit(`comments-get:${ip}`, 60, 60_000)
+    const rl = await rateLimit(`comments-get:${ip}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const { searchParams } = request.nextUrl
@@ -88,7 +89,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Cần đăng nhập để bình luận" }, { status: 401 })
     }
 
-    const rl = rateLimit(`comments-post:${user.id}`, 20, 60_000)
+    const rl = await rateLimit(`comments-post:${user.id}`, 20, 60_000)
     if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)

@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       "Tra cứu từ vựng, Hán tự và ngữ pháp tiếng Nhật dành cho người học Việt Nam.",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Yomi — Từ điển Nhật Việt",
     description:
       "Tra cứu từ vựng, Hán tự và ngữ pháp tiếng Nhật dành cho người học Việt Nam.",

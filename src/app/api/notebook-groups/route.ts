@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server"
-
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
@@ -7,6 +6,8 @@ import {
     listNotebookGroups,
     createNotebookGroup,
 } from "@/server/repositories/notebook/notebook-groups.repository"
+
+export const dynamic = "force-dynamic"
 
 export async function GET() {
     const supabase = await createSupabaseServerClient()
@@ -16,7 +17,7 @@ export async function GET() {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const rl = rateLimit(`nbg-get:${user.id}`, 60, 60_000)
+    const rl = await rateLimit(`nbg-get:${user.id}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
     const { data, error } = await listNotebookGroups(supabase, user.id)
@@ -36,7 +37,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Chưa đăng nhập" }, { status: 401 })
     }
 
-    const rl = rateLimit(`nbg-post:${user.id}`, 10, 60_000)
+    const rl = await rateLimit(`nbg-post:${user.id}`, 10, 60_000)
     if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)

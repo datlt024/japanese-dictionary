@@ -1,10 +1,12 @@
 "use client"
 
-import {
+import React, {
     useEffect,
     useRef,
     useState,
 } from "react"
+
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
 
 import Link from "next/link"
 import {
@@ -48,6 +50,8 @@ export default function Header({
 
     const dropdownRef = useRef<HTMLDivElement>(null)
     const bellRef = useRef<HTMLDivElement>(null)
+    const bellDropdownRef = useRef<HTMLDivElement>(null)
+    const menuRef = useRef<HTMLDivElement>(null)
 
     const { user, loading, signOut } = useAuth()
 
@@ -76,6 +80,34 @@ export default function Header({
         document.addEventListener("mousedown", handleClickOutside)
         return () => document.removeEventListener("mousedown", handleClickOutside)
     }, [bellOpen])
+
+    useEffect(() => {
+        if (!bellOpen) return
+        function handleEscape(e: KeyboardEvent) {
+            if (e.key === "Escape") setBellOpen(false)
+        }
+        document.addEventListener("keydown", handleEscape)
+        return () => document.removeEventListener("keydown", handleEscape)
+    }, [bellOpen])
+
+    useFocusTrap(bellDropdownRef, bellOpen, () => setBellOpen(false))
+    useFocusTrap(menuRef, dropdownOpen, () => setDropdownOpen(false))
+
+    function handleDropdownKeyDown(e: React.KeyboardEvent) {
+        const items = menuRef.current?.querySelectorAll<HTMLElement>('[role="menuitem"]')
+        if (!items || items.length === 0) return
+        const currentIndex = Array.from(items).indexOf(document.activeElement as HTMLElement)
+
+        if (e.key === "ArrowDown") {
+            e.preventDefault()
+            items[(currentIndex + 1) % items.length].focus()
+        } else if (e.key === "ArrowUp") {
+            e.preventDefault()
+            items[(currentIndex - 1 + items.length) % items.length].focus()
+        } else if (e.key === "Escape") {
+            setDropdownOpen(false)
+        }
+    }
 
     function handleLanguageChange(value: DictionaryLanguage) {
         const params = new URLSearchParams(searchParams.toString())
@@ -135,7 +167,12 @@ export default function Header({
                         </button>
 
                         {bellOpen && (
-                            <div className={styles.bellDropdown} role="dialog" aria-label="Thông báo">
+                            <div
+                                className={styles.bellDropdown}
+                                ref={bellDropdownRef}
+                                role="dialog"
+                                aria-label="Thông báo"
+                            >
                                 <div className={styles.bellDropdownHeader}>
                                     <span className={styles.bellDropdownTitle}>Thông báo</span>
                                 </div>
@@ -165,7 +202,12 @@ export default function Header({
                                 </button>
 
                                 {dropdownOpen && (
-                                    <div className={styles.dropdown}>
+                                    <div
+                                        className={styles.dropdown}
+                                        ref={menuRef}
+                                        role="menu"
+                                        onKeyDown={handleDropdownKeyDown}
+                                    >
                                         <div className={styles.dropdownHeader}>
                                             <div className={styles.dropdownAvatar}>{userInitial}</div>
                                             <div className={styles.dropdownInfo}>
@@ -178,6 +220,7 @@ export default function Header({
                                         <Link
                                             href="/account"
                                             className={styles.dropdownItem}
+                                            role="menuitem"
                                             onClick={() => setDropdownOpen(false)}
                                         >
                                             <span className={styles.dropdownIcon}>👤</span>
@@ -189,6 +232,7 @@ export default function Header({
                                         <button
                                             type="button"
                                             className={`${styles.dropdownItem} ${styles.dropdownItemDanger}`}
+                                            role="menuitem"
                                             onClick={handleSignOut}
                                         >
                                             <span className={styles.dropdownIcon}>↩</span>

@@ -3,7 +3,7 @@ import { isValidJlptLevel, getJlptGrammarItems } from "@/server/services/study/j
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 
 export async function GET(req: NextRequest) {
-    const rl = rateLimit(`grammar:${getClientIp(req)}`, 30, 60_000)
+    const rl = await rateLimit(`grammar:${getClientIp(req)}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
     const params = new URL(req.url).searchParams
