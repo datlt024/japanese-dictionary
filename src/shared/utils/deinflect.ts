@@ -200,8 +200,6 @@ const RULES: readonly [string, readonly string[]][] = [
     ["た", ["る"]],
 ]
 
-const MAX_CANDIDATES = 6
-
 export function deinflectKeyword(input: string): string[] {
     const normalized = katakanaToHiragana(input)
     const candidates = new Set<string>()
@@ -219,7 +217,6 @@ export function deinflectKeyword(input: string): string[] {
             const candidate = stem + replacement
             if (candidate !== normalized && candidate.length >= 2) {
                 candidates.add(candidate)
-                if (candidates.size >= MAX_CANDIDATES) return Array.from(candidates)
             }
         }
     }

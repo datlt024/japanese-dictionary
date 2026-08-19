@@ -26,9 +26,11 @@ export async function POST(
         const liked = !existing.data
 
         if (existing.data) {
-            await removeLike(supabase, user.id, commentId)
+            const { error: removeError } = await removeLike(supabase, user.id, commentId)
+            if (removeError) return serverError(removeError, "POST /api/comments/[id]/like")
         } else {
-            await addLike(supabase, user.id, commentId)
+            const { error: addError } = await addLike(supabase, user.id, commentId)
+            if (addError) return serverError(addError, "POST /api/comments/[id]/like")
         }
 
         // Recount from source of truth to avoid read-modify-write race conditions

@@ -42,7 +42,19 @@ export async function PATCH(request: NextRequest, { params }: Params) {
     }
 
     if ("group_id" in (body ?? {})) {
-        fields.group_id = typeof body.group_id === "string" ? body.group_id : null
+        const gid = typeof body.group_id === "string" ? body.group_id : null
+        if (gid) {
+            const { data: grp } = await supabase
+                .from("notebook_groups")
+                .select("id")
+                .eq("id", gid)
+                .eq("user_id", user.id)
+                .maybeSingle()
+            if (!grp) {
+                return NextResponse.json({ error: "Nhóm không tồn tại" }, { status: 400 })
+            }
+        }
+        fields.group_id = gid
     }
 
     if (Object.keys(fields).length === 0) {

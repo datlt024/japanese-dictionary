@@ -63,6 +63,18 @@ export async function POST(request: NextRequest) {
 
     const groupId = typeof body?.group_id === "string" ? body.group_id : null
 
+    if (groupId) {
+        const { data: grp } = await supabase
+            .from("notebook_groups")
+            .select("id")
+            .eq("id", groupId)
+            .eq("user_id", user.id)
+            .maybeSingle()
+        if (!grp) {
+            return NextResponse.json({ error: "Nhóm không tồn tại" }, { status: 400 })
+        }
+    }
+
     const { data, error } = await createNotebook(supabase, user.id, name, description ?? undefined, groupId)
 
     if (error) {

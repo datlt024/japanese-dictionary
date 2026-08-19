@@ -39,14 +39,18 @@ export async function POST(request: NextRequest) {
     const apiKey = process.env.GEMINI_API_KEY
     if (!apiKey) return new NextResponse(null, { status: 503 })
 
+    const ALLOWED_LANGS = new Set(["ja", "vi", "en", "zh", "ko", "fr", "de", "es", "th", "id"])
+
     let text: string
     let sl: string
     let tl: string
     try {
         const body = await request.json()
         text = String(body.text ?? "").trim().slice(0, 1000)
-        sl = String(body.sl ?? "ja")
-        tl = String(body.tl ?? "vi")
+        const slRaw = String(body.sl ?? "ja")
+        const tlRaw = String(body.tl ?? "vi")
+        sl = ALLOWED_LANGS.has(slRaw) ? slRaw : "ja"
+        tl = ALLOWED_LANGS.has(tlRaw) ? tlRaw : "vi"
     } catch {
         return new NextResponse(null, { status: 400 })
     }
@@ -78,7 +82,7 @@ export async function POST(request: NextRequest) {
 
     // Fallback: Google Translate unofficial API
     try {
-        const gtUrl = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=${tl}&dt=t&q=${encodeURIComponent(text)}`
+        const gtUrl = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${encodeURIComponent(sl)}&tl=${encodeURIComponent(tl)}&dt=t&q=${encodeURIComponent(text)}`
         const gtRes = await fetch(gtUrl, {
             headers: { "User-Agent": "Mozilla/5.0" },
             signal: AbortSignal.timeout(8_000),

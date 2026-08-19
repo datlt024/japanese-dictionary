@@ -55,7 +55,10 @@ export function romajiToHiragana(input: string): string {
             const next = s[i + 1]
             if (next === "n") {
                 result += "ん"
-                i += 2
+                // If the char after "nn" is a vowel/y, advance by 1 so the second n
+                // gets processed as "na"/"ni"/etc. (e.g. "sonna" → そんな not そんあ)
+                const afterNN = s[i + 2]
+                i += (afterNN && (ROMAJI_VOWELS.has(afterNN) || afterNN === "y")) ? 1 : 2
                 continue
             }
             if (!next || (!ROMAJI_VOWELS.has(next) && next !== "y")) {

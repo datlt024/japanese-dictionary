@@ -41,19 +41,22 @@ export async function POST(request: NextRequest) {
         typeof mode !== "string" ||
         !["flashcard", "quiz", "writing", "minitest"].includes(mode) ||
         !Array.isArray(known_ids) ||
+        !known_ids.every((id: unknown) => typeof id === "string") ||
         !Array.isArray(unknown_ids) ||
+        !unknown_ids.every((id: unknown) => typeof id === "string") ||
         typeof total_items !== "number"
     ) {
         return NextResponse.json({ error: "Dữ liệu không hợp lệ" }, { status: 400 })
     }
 
-    const { data: nb } = await supabase
+    const { data: nb, error: nbError } = await supabase
         .from("notebooks")
         .select("id")
         .eq("id", notebook_id)
         .eq("user_id", user.id)
         .maybeSingle()
 
+    if (nbError) return serverError(nbError, "POST /api/practice/sessions")
     if (!nb) {
         return NextResponse.json({ error: "Sổ tay không tồn tại" }, { status: 404 })
     }

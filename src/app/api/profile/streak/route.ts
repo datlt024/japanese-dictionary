@@ -19,8 +19,13 @@ export async function POST(request: NextRequest) {
 
     if (
         typeof streak_count !== "number" ||
+        !Number.isInteger(streak_count) ||
+        streak_count < 0 ||
+        streak_count > 3650 ||
         (streak_last_date !== null && typeof streak_last_date !== "string") ||
-        !Array.isArray(streak_active_days)
+        !Array.isArray(streak_active_days) ||
+        streak_active_days.length > 7 ||
+        !streak_active_days.every((d: unknown) => typeof d === "number")
     ) {
         return NextResponse.json({ error: "Dữ liệu không hợp lệ" }, { status: 400 })
     }

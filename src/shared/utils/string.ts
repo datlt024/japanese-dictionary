@@ -3,7 +3,7 @@ export function normalizeKeyword(keyword: string) {
 }
 
 export function escapeLikePattern(keyword: string) {
-    return keyword.replace(/[%_]/g, "\\$&")
+    return keyword.replace(/[\\%_]/g, "\\$&")
 }
 
 export function katakanaToHiragana(text: string) {

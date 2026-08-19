@@ -96,7 +96,10 @@ export async function POST(request: NextRequest) {
     const entryId = Number(body?.entry_id)
     const content = typeof body?.content === "string" ? body.content.trim() : ""
     const displayName = typeof body?.display_name === "string" ? body.display_name.trim() : ""
-    const jlptLevel = typeof body?.jlpt_level === "string" ? body.jlpt_level || null : null
+    const VALID_JLPT = new Set(["N1", "N2", "N3", "N4", "N5"])
+    const jlptLevel = typeof body?.jlpt_level === "string" && VALID_JLPT.has(body.jlpt_level)
+        ? body.jlpt_level
+        : null
 
     if (!ENTRY_TYPES.includes(entryType)) {
         return NextResponse.json({ error: "entry_type không hợp lệ" }, { status: 400 })

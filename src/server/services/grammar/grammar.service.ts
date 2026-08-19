@@ -31,7 +31,7 @@ export const getGrammarPointById = cache(async (
 ): Promise<GrammarPoint | null> => {
     const grammarId = Number(id)
 
-    if (Number.isNaN(grammarId)) {
+    if (!Number.isInteger(grammarId) || grammarId <= 0) {
         return null
     }
 

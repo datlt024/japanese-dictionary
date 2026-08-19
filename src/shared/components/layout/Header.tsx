@@ -38,13 +38,14 @@ export default function Header({
     const pathname = usePathname()
     const searchParams = useSearchParams()
 
-    const [authOpen, setAuthOpen] = useState(false)
+    // Capture error from URL on first render so modal stays open after the param is stripped
+    const [authOpen,    setAuthOpen]    = useState(() => searchParams.get("error") === "auth")
+    const [authError,   setAuthError]   = useState<string | undefined>(() =>
+        searchParams.get("error") === "auth" ? "Đăng nhập thất bại. Vui lòng thử lại." : undefined
+    )
     const [dropdownOpen, setDropdownOpen] = useState(false)
     const [bellOpen, setBellOpen] = useState(false)
 
-    const authErrorFromUrl = searchParams.get("error") === "auth"
-        ? "Đăng nhập thất bại. Vui lòng thử lại."
-        : undefined
     const dropdownRef = useRef<HTMLDivElement>(null)
     const bellRef = useRef<HTMLDivElement>(null)
 
@@ -82,13 +83,14 @@ export default function Header({
         router.replace(`${pathname}?${params.toString()}`)
     }
 
+    // Strip ?error=auth from the URL after we've captured it into state above
     useEffect(() => {
-        if (!authErrorFromUrl) return
+        if (searchParams.get("error") !== "auth") return
         const params = new URLSearchParams(searchParams.toString())
         params.delete("error")
         const newUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname
         router.replace(newUrl)
-    }, [authErrorFromUrl, searchParams, pathname, router])
+    }, [searchParams, pathname, router])
 
     async function handleSignOut() {
         setDropdownOpen(false)
@@ -217,12 +219,11 @@ export default function Header({
                 </div>
             </header>
 
-            {(authOpen || !!authErrorFromUrl) && (
+            {(authOpen || !!authError) && (
                 <AuthModal
-                    key={authErrorFromUrl ?? "noerror"}
-                    open={authOpen || !!authErrorFromUrl}
-                    onClose={() => setAuthOpen(false)}
-                    initialError={authErrorFromUrl}
+                    open={authOpen || !!authError}
+                    onClose={() => { setAuthOpen(false); setAuthError(undefined) }}
+                    initialError={authError}
                 />
             )}
         </>

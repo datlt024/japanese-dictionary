@@ -2,9 +2,11 @@ import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 
+const ALLOWED_LANGS = new Set(["ja", "vi", "en", "zh", "ko", "fr", "de", "es", "th", "id"])
+
 const cachedTranslate = unstable_cache(
     async (text: string, sl: string, tl: string): Promise<string | null> => {
-        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sl}&tl=${tl}&dt=t&q=${encodeURIComponent(text)}`
+        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${encodeURIComponent(sl)}&tl=${encodeURIComponent(tl)}&dt=t&q=${encodeURIComponent(text)}`
         try {
             const res = await fetch(url, {
                 headers: {
@@ -28,8 +30,10 @@ export async function GET(request: NextRequest) {
 
     const { searchParams } = new URL(request.url)
     const text = searchParams.get("text")?.trim().slice(0, 500)
-    const sl = searchParams.get("sl") || "ja"
-    const tl = searchParams.get("tl") || "vi"
+    const slRaw = searchParams.get("sl") ?? "ja"
+    const tlRaw = searchParams.get("tl") ?? "vi"
+    const sl = ALLOWED_LANGS.has(slRaw) ? slRaw : "ja"
+    const tl = ALLOWED_LANGS.has(tlRaw) ? tlRaw : "vi"
 
     if (!text) return new NextResponse(null, { status: 400 })
 
