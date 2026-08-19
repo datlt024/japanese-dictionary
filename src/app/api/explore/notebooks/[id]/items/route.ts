@@ -48,6 +48,7 @@ export async function GET(req: NextRequest, { params }: Params) {
         .select("id, notebook_id, item_type, item_id, added_at")
         .eq("notebook_id", id)
         .order("added_at", { ascending: true })
+        .limit(200)
 
     if (error) return serverError(error, "GET /api/explore/notebooks/[id]/items")
 

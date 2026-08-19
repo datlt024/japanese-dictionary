@@ -231,7 +231,14 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                     >
                         <div className={`${styles.card} ${flipped ? styles.cardFlipped : ""}`}>
                             {/* Front */}
-                            <div className={styles.cardFront} onClick={() => setFlipped(true)}>
+                            <div
+                                className={styles.cardFront}
+                                role="button"
+                                tabIndex={0}
+                                aria-label="Nhấn để xem nghĩa"
+                                onClick={() => setFlipped(true)}
+                                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setFlipped(true) } }}
+                            >
                                 <div className={styles.cardWord}>{current.word}</div>
                                 {current.kana && (
                                     <div className={styles.cardKana}>{current.kana}</div>
@@ -240,7 +247,14 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                             </div>
 
                             {/* Back */}
-                            <div className={styles.cardBack} onClick={() => setFlipped(false)}>
+                            <div
+                                className={styles.cardBack}
+                                role="button"
+                                tabIndex={0}
+                                aria-label="Nhấn để lật lại"
+                                onClick={() => setFlipped(false)}
+                                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setFlipped(false) } }}
+                            >
                                 <div className={styles.cardBackWord}>{current.word}</div>
                                 {current.kana && (
                                     <div className={styles.cardBackKana}>

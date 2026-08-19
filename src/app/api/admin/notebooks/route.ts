@@ -29,12 +29,18 @@ export async function GET() {
     const notebookIds = (data ?? []).map((nb) => nb.id)
     const countMap = new Map<string, number>()
     if (notebookIds.length > 0) {
-        const { data: allCounts } = await supabase
-            .from("notebook_items")
-            .select("notebook_id")
-            .in("notebook_id", notebookIds)
-        for (const row of allCounts ?? []) {
-            countMap.set(row.notebook_id, (countMap.get(row.notebook_id) ?? 0) + 1)
+        // HEAD requests: zero row transfer, one round-trip per notebook
+        const counts = await Promise.all(
+            notebookIds.map(async (id) => {
+                const { count } = await supabase
+                    .from("notebook_items")
+                    .select("*", { count: "exact", head: true })
+                    .eq("notebook_id", id)
+                return [id, count ?? 0] as const
+            })
+        )
+        for (const [id, count] of counts) {
+            countMap.set(id, count)
         }
     }
 

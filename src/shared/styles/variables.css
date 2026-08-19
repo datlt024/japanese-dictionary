@@ -28,10 +28,14 @@
     /* ── Semantic ── */
     --color-success:        oklch(51% 0.170 152);
     --color-success-soft:   oklch(96.5% 0.046 152);
+    --color-success-border: oklch(82% 0.100 152);
     --color-danger:         oklch(57% 0.220 28);
     --color-danger-soft:    oklch(96.5% 0.058 28);
+    --color-danger-border:  oklch(78% 0.110 28);
     --color-warning:        oklch(72% 0.180 76);
     --color-warning-soft:   oklch(98% 0.048 76);
+    --color-warning-border: oklch(86% 0.115 76);
+    --color-primary-border: oklch(77% 0.110 268);
 
     /* ── JLPT ── */
     --color-jlpt-n5:        oklch(51% 0.170 152);
@@ -137,10 +141,14 @@
 
         --color-success:        oklch(57%   0.160 152);
         --color-success-soft:   oklch(18%   0.055 152);
+        --color-success-border: oklch(42%   0.130 152);
         --color-danger:         oklch(63%   0.210 28);
         --color-danger-soft:    oklch(18%   0.060 28);
+        --color-danger-border:  oklch(48%   0.150 28);
         --color-warning:        oklch(74%   0.175 76);
         --color-warning-soft:   oklch(19%   0.050 76);
+        --color-warning-border: oklch(56%   0.145 76);
+        --color-primary-border: oklch(46%   0.160 268);
 
         --color-jlpt-n5-soft:   oklch(19%   0.055 152);
         --color-jlpt-n4-soft:   oklch(19%   0.055 252);
@@ -176,10 +184,14 @@
 
     --color-success:        oklch(57%   0.160 152);
     --color-success-soft:   oklch(18%   0.055 152);
+    --color-success-border: oklch(42%   0.130 152);
     --color-danger:         oklch(63%   0.210 28);
     --color-danger-soft:    oklch(18%   0.060 28);
+    --color-danger-border:  oklch(48%   0.150 28);
     --color-warning:        oklch(74%   0.175 76);
     --color-warning-soft:   oklch(19%   0.050 76);
+    --color-warning-border: oklch(56%   0.145 76);
+    --color-primary-border: oklch(46%   0.160 268);
 
     --color-jlpt-n5-soft:   oklch(19%   0.055 152);
     --color-jlpt-n4-soft:   oklch(19%   0.055 252);

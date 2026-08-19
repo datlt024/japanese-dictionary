@@ -2,7 +2,14 @@ import React, { useState, useCallback } from "react"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { Clock, Play, X } from "lucide-react"
-import DOMPurify from "dompurify"
+import DOMPurify from "isomorphic-dompurify"
+
+function sanitizeExamContext(html: string): string {
+    const sanitized = DOMPurify.sanitize(html)
+    return sanitized
+        .replace(/\bcolor\s*:\s*[^;}"]+;?\s*/gi, "")
+        .replace(/\bbackground(?:-color)?\s*:\s*[^;}"]+;?\s*/gi, "")
+}
 import styles from "./MockExamClient.module.css"
 import { formatTime, parseSentence } from "./exam-utils"
 import type { ExamConfig } from "./exam-types"
@@ -174,7 +181,7 @@ export default function ExamActivePhase({
                                                             <div
                                                                 className={styles.qContext}
                                                                 dangerouslySetInnerHTML={{
-                                                                    __html: typeof window !== "undefined" ? DOMPurify.sanitize(q.context!) : ""
+                                                                    __html: sanitizeExamContext(q.context!)
                                                                 }}
                                                             />
                                                         )}

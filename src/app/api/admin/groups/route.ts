@@ -30,14 +30,18 @@ export async function GET() {
     const groupIds = (groups ?? []).map((g) => g.id)
     const countMap = new Map<string, number>()
     if (groupIds.length > 0) {
-        const { data: allCounts } = await supabase
-            .from("notebooks")
-            .select("group_id")
-            .in("group_id", groupIds)
-        for (const row of allCounts ?? []) {
-            if (row.group_id) {
-                countMap.set(row.group_id, (countMap.get(row.group_id) ?? 0) + 1)
-            }
+        // HEAD requests: zero row transfer, one round-trip per group
+        const counts = await Promise.all(
+            groupIds.map(async (id) => {
+                const { count } = await supabase
+                    .from("notebooks")
+                    .select("*", { count: "exact", head: true })
+                    .eq("group_id", id)
+                return [id, count ?? 0] as const
+            })
+        )
+        for (const [id, count] of counts) {
+            countMap.set(id, count)
         }
     }
 

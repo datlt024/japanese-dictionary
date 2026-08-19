@@ -8,7 +8,7 @@ export const RATINGS = [
         emoji: "😟",
         color: "var(--color-danger)",
         bg: "var(--color-danger-soft)",
-        border: "#fca5a5",
+        border: "var(--color-danger-border)",
     },
     {
         id: "hard" as Rating,
@@ -17,7 +17,7 @@ export const RATINGS = [
         emoji: "😕",
         color: "var(--color-warning)",
         bg: "var(--color-warning-soft)",
-        border: "#fcd34d",
+        border: "var(--color-warning-border)",
     },
     {
         id: "normal" as Rating,
@@ -26,7 +26,7 @@ export const RATINGS = [
         emoji: "😊",
         color: "var(--color-success)",
         bg: "var(--color-success-soft)",
-        border: "#86efac",
+        border: "var(--color-success-border)",
     },
     {
         id: "easy" as Rating,
@@ -35,6 +35,6 @@ export const RATINGS = [
         emoji: "😄",
         color: "var(--color-primary)",
         bg: "var(--color-primary-soft)",
-        border: "#93c5fd",
+        border: "var(--color-primary-border)",
     },
 ] as const

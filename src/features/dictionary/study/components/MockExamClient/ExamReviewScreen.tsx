@@ -1,7 +1,14 @@
 import React, { useRef, useState } from "react"
 import Image from "next/image"
 import { ArrowLeft, Pause, Play } from "lucide-react"
-import DOMPurify from "dompurify"
+import DOMPurify from "isomorphic-dompurify"
+
+function sanitizeExamContext(html: string): string {
+    const sanitized = DOMPurify.sanitize(html)
+    return sanitized
+        .replace(/\bcolor\s*:\s*[^;}"]+;?\s*/gi, "")
+        .replace(/\bbackground(?:-color)?\s*:\s*[^;}"]+;?\s*/gi, "")
+}
 import styles from "./MockExamClient.module.css"
 import { parseSentence } from "./exam-utils"
 import type { ExamConfig, Question } from "./exam-types"
@@ -135,7 +142,7 @@ export default function ExamReviewScreen({ level, cfg, questions, answers, secti
                                                             <div
                                                                 className={styles.qContext}
                                                                 dangerouslySetInnerHTML={{
-                                                                    __html: typeof window !== "undefined" ? DOMPurify.sanitize(q.context!) : ""
+                                                                    __html: sanitizeExamContext(q.context!)
                                                                 }}
                                                             />
                                                         )}
