@@ -596,7 +596,7 @@
 .groupAddBtn:hover { background: var(--color-primary-soft); color: var(--color-primary); }
 
 .groupDeleteBtn { color: var(--color-text-secondary); }
-.groupDeleteBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, #ef4444); }
+.groupDeleteBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, var(--color-danger)); }
 .groupDeleteBtn:disabled { opacity: 0.4; cursor: default; }
 
 .editGroupForm {
@@ -744,7 +744,7 @@
     transition: background 0.15s;
 }
 
-.cardMenuBtn:hover { background: var(--color-surface-muted, #f5f5f5); }
+.cardMenuBtn:hover { background: var(--color-surface-muted); }
 
 .cardMenu {
     position: absolute;
@@ -798,7 +798,7 @@
 
 .cardMenuItemActive { color: var(--color-primary); }
 
-.cardMenuItemDanger { color: var(--color-danger, #ef4444); }
+.cardMenuItemDanger { color: var(--color-danger, var(--color-danger)); }
 .cardMenuItemDanger:hover { background: var(--color-danger-soft); }
 
 .cardMenuCheck {
@@ -1087,7 +1087,7 @@
     transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
-.deleteNbBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, #ef4444); border-color: var(--color-danger, #ef4444); }
+.deleteNbBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, var(--color-danger)); border-color: var(--color-danger, var(--color-danger)); }
 
 /* ── Items list ───────────────────────────────────── */
 
@@ -1214,7 +1214,7 @@
 }
 
 .itemCard:hover .removeItemBtn { opacity: 1; }
-.removeItemBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, #ef4444); }
+.removeItemBtn:hover { background: var(--color-danger-soft); color: var(--color-danger, var(--color-danger)); }
 .removeItemBtn:disabled { opacity: 0.3; cursor: default; }
 
 .emptyItems {
@@ -1293,7 +1293,7 @@
     margin-bottom: 16px;
 
     background: var(--color-danger-soft);
-    color: var(--color-danger, #ef4444);
+    color: var(--color-danger, var(--color-danger));
 }
 
 .confirmTitle {
@@ -1337,7 +1337,7 @@
     padding: 10px;
     border: none;
     border-radius: 12px;
-    background: var(--color-danger, #ef4444);
+    background: var(--color-danger, var(--color-danger));
     color: #fff;
     font-size: 14px;
     font-weight: 700;

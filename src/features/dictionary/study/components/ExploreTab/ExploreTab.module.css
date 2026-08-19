@@ -141,13 +141,13 @@
 }
 
 .sectionLikeBtn:hover {
-    background: #fef2f2;
-    color: #ef4444;
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
     opacity: 1;
 }
 
 .sectionLikeBtn[data-liked] {
-    color: #ef4444;
+    color: var(--color-danger);
     opacity: 1;
 }
 
@@ -298,12 +298,12 @@
 }
 
 .nbCardLike:hover {
-    background: #fef2f2;
-    color: #ef4444;
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
 }
 
 .nbCardLike[data-liked] {
-    color: #ef4444;
+    color: var(--color-danger);
 }
 
 .nbCardLike[data-liked] svg {
@@ -387,12 +387,12 @@
 }
 
 .gridCardLike:hover {
-    background: #fef2f2;
-    color: #ef4444;
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
 }
 
 .gridCardLike[data-liked] {
-    color: #ef4444;
+    color: var(--color-danger);
 }
 
 .gridCardLike[data-liked] svg {

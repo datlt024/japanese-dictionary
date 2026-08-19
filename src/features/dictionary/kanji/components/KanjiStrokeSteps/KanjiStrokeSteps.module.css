@@ -35,7 +35,7 @@
 
 .prev {
     fill: none;
-    stroke: #CBD5E1;
+    stroke: var(--color-border-strong);
     stroke-width: 3;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -43,7 +43,7 @@
 
 .curr {
     fill: none;
-    stroke: #2563EB;
+    stroke: var(--color-primary);
     stroke-width: 3.5;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -51,14 +51,14 @@
 
 @media (prefers-color-scheme: dark) {
     .prev {
-        stroke: #374151;
+        stroke: var(--color-text-secondary);
     }
 }
 
 :root[data-theme="dark"] .prev {
-    stroke: #374151;
+    stroke: var(--color-text-secondary);
 }
 
 :root[data-theme="light"] .prev {
-    stroke: #CBD5E1;
+    stroke: var(--color-border-strong);
 }

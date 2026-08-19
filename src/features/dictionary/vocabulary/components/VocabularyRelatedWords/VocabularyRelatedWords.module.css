@@ -71,10 +71,10 @@
 }
 
 .detailSideCard h3.titleSynonym {
-    color: #16a34a;
+    color: var(--color-success);
 }
 
 .detailSideCard h3.titleAntonym {
-    color: #dc2626;
+    color: var(--color-danger);
 }
 

@@ -160,9 +160,9 @@
 }
 
 .deleteButton:hover:not(:disabled) {
-    border-color: #fca5a5;
-    background: #fef2f2;
-    color: #dc2626;
+    border-color: var(--color-danger-soft);
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
 }
 
 .deleteButton:disabled {

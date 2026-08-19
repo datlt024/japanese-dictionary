@@ -342,9 +342,9 @@
     color: var(--color-text-secondary);
 }
 
-.statGreen .statNum { color: #16a34a; }
-.statRed .statNum { color: #ef4444; }
-.statBlue .statNum { color: #2563eb; }
+.statGreen .statNum { color: var(--color-jlpt-n5); }
+.statRed .statNum { color: var(--color-jlpt-n1); }
+.statBlue .statNum { color: var(--color-jlpt-n4); }
 
 .unknownSection {
     width: 100%;
