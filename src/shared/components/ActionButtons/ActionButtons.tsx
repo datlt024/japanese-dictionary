@@ -1,5 +1,4 @@
-import styles from "./ActionButtons.module.css"
-
+import { Button, Tooltip } from "antd"
 import type { ReactNode } from "react"
 
 export type DetailActionItem = {
@@ -14,27 +13,25 @@ type Props = {
     align?: "start" | "end" | "center"
 }
 
-export default function ActionButtons({
-    items,
-    align = "end",
-}: Props) {
+export default function ActionButtons({ items, align = "end" }: Props) {
     return (
-        <div
-            className={`${styles.actionButtons} ${styles[align]}`}
-        >
+        <div style={{
+            display: "flex",
+            gap: 6,
+            justifyContent: align === "start" ? "flex-start" : align === "center" ? "center" : "flex-end",
+            flexWrap: "wrap",
+        }}>
             {items.map((item) => (
-                <button
-                    key={item.key}
-                    type="button"
-                    className={styles.actionButton}
-                    onClick={item.onClick}
-                    aria-label={item.label}
-                    title={item.label}
-                >
-                    <span className={styles.icon}>
-                        {item.icon}
-                    </span>
-                </button>
+                <Tooltip key={item.key} title={item.label}>
+                    <Button
+                        type="text"
+                        size="small"
+                        icon={item.icon}
+                        onClick={item.onClick}
+                        aria-label={item.label}
+                        style={{ color: "#6B7280", padding: "0 8px", height: 32 }}
+                    />
+                </Tooltip>
             ))}
         </div>
     )

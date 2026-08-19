@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { ChevronRight } from "lucide-react"
+import { Card, Checkbox, Select, Switch, Typography } from "antd"
 
-import styles from "./SettingsClient.module.css"
+const { Text } = Typography
 
 // ── Storage keys ──────────────────────────────────────────────────────
 const KEY_FURIGANA     = "yomi_setting_furigana"
@@ -18,11 +18,11 @@ const KEY_PUSH_NOTIF   = "yomi_setting_push_notif"
 
 type VoiceType = "robot" | "male" | "female"
 
-const VOICE_LABELS: Record<VoiceType, string> = {
-    robot:  "Robot",
-    male:   "Nam",
-    female: "Nữ",
-}
+const VOICE_OPTIONS = [
+    { value: "robot",  label: "Robot" },
+    { value: "male",   label: "Nam" },
+    { value: "female", label: "Nữ" },
+]
 
 function loadBool(key: string, fallback: boolean): boolean {
     if (typeof window === "undefined") return fallback
@@ -32,136 +32,6 @@ function loadBool(key: string, fallback: boolean): boolean {
 
 function saveBool(key: string, value: boolean) {
     localStorage.setItem(key, String(value))
-}
-
-// ── Toggle component ──────────────────────────────────────────────────
-function Toggle({
-    checked,
-    onChange,
-    id,
-}: {
-    checked: boolean
-    onChange: (v: boolean) => void
-    id: string
-}) {
-    return (
-        <label htmlFor={id} className={styles.toggle}>
-            <input
-                id={id}
-                type="checkbox"
-                role="switch"
-                aria-checked={checked}
-                checked={checked}
-                onChange={(e) => onChange(e.target.checked)}
-                className={styles.toggleInput}
-            />
-            <span className={styles.toggleTrack}>
-                <span className={styles.toggleThumb} />
-            </span>
-        </label>
-    )
-}
-
-// ── Checkbox component ─────────────────────────────────────────────────
-function Checkbox({
-    checked,
-    onChange,
-    id,
-    label,
-    description,
-}: {
-    checked: boolean
-    onChange: (v: boolean) => void
-    id: string
-    label: string
-    description: string
-}) {
-    return (
-        <label htmlFor={id} className={styles.checkboxRow}>
-            <input
-                id={id}
-                type="checkbox"
-                checked={checked}
-                onChange={(e) => onChange(e.target.checked)}
-                className={styles.checkboxInput}
-            />
-            <span className={styles.checkboxBox} aria-hidden="true" />
-            <span className={styles.checkboxText}>
-                <span className={styles.checkboxLabel}>{label}</span>
-                <span className={styles.checkboxDesc}>{description}</span>
-            </span>
-        </label>
-    )
-}
-
-// ── Setting card ───────────────────────────────────────────────────────
-function SettingCard({
-    title,
-    description,
-    control,
-    children,
-}: {
-    title: string
-    description: string
-    control: React.ReactNode
-    children?: React.ReactNode
-}) {
-    return (
-        <div className={styles.card}>
-            <div className={styles.cardHeader}>
-                <div className={styles.cardText}>
-                    <p className={styles.cardTitle}>{title}</p>
-                    <p className={styles.cardDesc}>{description}</p>
-                </div>
-                <div className={styles.cardControl}>{control}</div>
-            </div>
-            {children && <div className={styles.cardBody}>{children}</div>}
-        </div>
-    )
-}
-
-// ── Voice picker modal ─────────────────────────────────────────────────
-function VoicePicker({
-    value,
-    onChange,
-}: {
-    value: VoiceType
-    onChange: (v: VoiceType) => void
-}) {
-    const [open, setOpen] = useState(false)
-
-    return (
-        <div className={styles.voicePickerWrap}>
-            <button
-                type="button"
-                className={styles.voiceBtn}
-                onClick={() => setOpen((o) => !o)}
-                aria-expanded={open}
-            >
-                <span>{VOICE_LABELS[value]}</span>
-                <ChevronRight size={16} strokeWidth={2} className={open ? styles.chevronOpen : ""} />
-            </button>
-            {open && (
-                <div className={styles.voiceMenu} role="listbox">
-                    {(Object.keys(VOICE_LABELS) as VoiceType[]).map((v) => (
-                        <button
-                            key={v}
-                            type="button"
-                            role="option"
-                            aria-selected={value === v}
-                            className={`${styles.voiceOption} ${value === v ? styles.voiceOptionActive : ""}`}
-                            onClick={() => {
-                                onChange(v)
-                                setOpen(false)
-                            }}
-                        >
-                            {VOICE_LABELS[v]}
-                        </button>
-                    ))}
-                </div>
-            )}
-        </div>
-    )
 }
 
 type Settings = {
@@ -190,7 +60,26 @@ function loadSettings(): Settings {
     }
 }
 
-// ── Main component ─────────────────────────────────────────────────────
+function SettingRow({
+    title,
+    description,
+    control,
+}: {
+    title: string
+    description: string
+    control: React.ReactNode
+}) {
+    return (
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24, padding: "14px 0", borderBottom: "1px solid #F3F4F6" }}>
+            <div>
+                <Text style={{ fontWeight: 500, fontSize: 14, display: "block" }}>{title}</Text>
+                <Text type="secondary" style={{ fontSize: 12, marginTop: 2, display: "block" }}>{description}</Text>
+            </div>
+            <div style={{ flexShrink: 0 }}>{control}</div>
+        </div>
+    )
+}
+
 export default function SettingsClient() {
     const [settings, setSettings] = useState<Settings | null>(null)
 
@@ -234,10 +123,6 @@ export default function SettingsClient() {
         applyDomAttribute(key, value)
     }
 
-    function handleDarkMode(v: boolean) {
-        update("darkMode", v)
-    }
-
     function handleEmailNotif(v: boolean) {
         setSettings((prev) => prev ? {
             ...prev,
@@ -254,112 +139,100 @@ export default function SettingsClient() {
         }
     }
 
-    // Prevent hydration mismatch — show placeholder until localStorage is read
-    if (!settings) {
-        return <div className={styles.grid} />
-    }
+    if (!settings) return <div style={{ minHeight: 400 }} />
 
     const { furigana, romaji, darkMode, voice, emailNotif, emailLearn, emailDisc, emailJob, pushNotif } = settings
 
+    const cardStyle = { borderColor: "#E5EAF2", marginBottom: 16 }
+    const cardBodyStyle = { padding: "0 24px" }
+
     return (
-        <div className={styles.grid}>
-            {/* Row 1 */}
-            <SettingCard
-                title="Hiện furigana (cách đọc của kanji)"
-                description="Hiển thị cách đọc từng chữ Kanji bằng Hiragana để dễ học và ghi nhớ."
-                control={
-                    <Toggle
-                        id="setting-furigana"
-                        checked={furigana}
-                        onChange={(v) => update("furigana", v)}
-                    />
-                }
-            />
-            <SettingCard
-                title="Hiện romaji (cách đọc latin)"
-                description="Hiển thị cách đọc từng chữ Kanji bằng Romaji để dễ học và ghi nhớ."
-                control={
-                    <Toggle
-                        id="setting-romaji"
-                        checked={romaji}
-                        onChange={(v) => update("romaji", v)}
-                    />
-                }
-            />
+        <div style={{ maxWidth: 720, margin: "0 auto", padding: "32px 24px 64px" }}>
 
-            {/* Row 2 */}
-            <SettingCard
-                title="Chế độ ban đêm"
-                description="Cài đặt chế độ hiển thị để phù hợp trong lúc dùng ứng dụng."
-                control={
-                    <Toggle
-                        id="setting-dark-mode"
-                        checked={darkMode}
-                        onChange={handleDarkMode}
+            <Card title="Hiển thị" style={cardStyle} styles={{ body: cardBodyStyle }}>
+                <SettingRow
+                    title="Hiện furigana (cách đọc của kanji)"
+                    description="Hiển thị cách đọc từng chữ Kanji bằng Hiragana để dễ học và ghi nhớ."
+                    control={<Switch checked={furigana} onChange={(v) => update("furigana", v)} />}
+                />
+                <SettingRow
+                    title="Hiện romaji (cách đọc latin)"
+                    description="Hiển thị cách đọc từng chữ Kanji bằng Romaji để dễ học và ghi nhớ."
+                    control={<Switch checked={romaji} onChange={(v) => update("romaji", v)} />}
+                />
+                <div style={{ padding: "14px 0" }}>
+                    <SettingRow
+                        title="Chế độ ban đêm"
+                        description="Cài đặt chế độ hiển thị để phù hợp trong lúc dùng ứng dụng."
+                        control={<Switch checked={darkMode} onChange={(v) => update("darkMode", v)} />}
                     />
-                }
-            />
-            <SettingCard
-                title="Giọng đọc"
-                description="Chọn giọng đọc phát âm cho từ vựng."
-                control={
-                    <VoicePicker
-                        value={voice}
-                        onChange={(v) => update("voice", v)}
-                    />
-                }
-            />
+                </div>
+            </Card>
 
-            {/* Row 3 */}
-            <SettingCard
-                title="Thông báo mail"
-                description="Nhận thông báo mới nhất qua email về các nội dung bạn quan tâm. (Sắp ra mắt)"
-                control={
-                    <Toggle
-                        id="setting-email-notif"
-                        checked={emailNotif}
-                        onChange={handleEmailNotif}
+            <Card title="Âm thanh" style={cardStyle} styles={{ body: cardBodyStyle }}>
+                <div style={{ padding: "14px 0" }}>
+                    <SettingRow
+                        title="Giọng đọc"
+                        description="Chọn giọng đọc phát âm cho từ vựng."
+                        control={
+                            <Select
+                                value={voice}
+                                onChange={(v) => update("voice", v as VoiceType)}
+                                options={VOICE_OPTIONS}
+                                style={{ width: 100 }}
+                                size="small"
+                            />
+                        }
                     />
-                }
-            >
+                </div>
+            </Card>
+
+            <Card title="Thông báo" style={cardStyle} styles={{ body: cardBodyStyle }}>
+                <SettingRow
+                    title="Thông báo mail"
+                    description="Nhận thông báo mới nhất qua email về các nội dung bạn quan tâm. (Sắp ra mắt)"
+                    control={<Switch checked={emailNotif} onChange={handleEmailNotif} />}
+                />
                 {emailNotif && (
-                    <div className={styles.checkboxGroup}>
+                    <div style={{ padding: "12px 0 4px 16px", display: "flex", flexDirection: "column", gap: 12 }}>
                         <Checkbox
-                            id="setting-email-learn"
-                            label="Học tập"
-                            description="Cập nhật tài liệu, khóa học và mẹo học hiệu quả."
                             checked={emailLearn}
-                            onChange={(v) => update("emailLearn", v)}
-                        />
+                            onChange={(e) => update("emailLearn", e.target.checked)}
+                        >
+                            <div>
+                                <Text style={{ fontSize: 13, fontWeight: 500 }}>Học tập</Text>
+                                <Text type="secondary" style={{ fontSize: 12, display: "block" }}>Cập nhật tài liệu, khóa học và mẹo học hiệu quả.</Text>
+                            </div>
+                        </Checkbox>
                         <Checkbox
-                            id="setting-email-disc"
-                            label="Giảm giá"
-                            description="Thông tin ưu đãi và mã khuyến mãi mới nhất."
                             checked={emailDisc}
-                            onChange={(v) => update("emailDisc", v)}
-                        />
+                            onChange={(e) => update("emailDisc", e.target.checked)}
+                        >
+                            <div>
+                                <Text style={{ fontSize: 13, fontWeight: 500 }}>Giảm giá</Text>
+                                <Text type="secondary" style={{ fontSize: 12, display: "block" }}>Thông tin ưu đãi và mã khuyến mãi mới nhất.</Text>
+                            </div>
+                        </Checkbox>
                         <Checkbox
-                            id="setting-email-job"
-                            label="Việc làm"
-                            description="Cơ hội nghề nghiệp phù hợp với bạn được gửi trực tiếp qua email."
                             checked={emailJob}
-                            onChange={(v) => update("emailJob", v)}
-                        />
+                            onChange={(e) => update("emailJob", e.target.checked)}
+                        >
+                            <div>
+                                <Text style={{ fontSize: 13, fontWeight: 500 }}>Việc làm</Text>
+                                <Text type="secondary" style={{ fontSize: 12, display: "block" }}>Cơ hội nghề nghiệp phù hợp với bạn được gửi trực tiếp qua email.</Text>
+                            </div>
+                        </Checkbox>
                     </div>
                 )}
-            </SettingCard>
-
-            <SettingCard
-                title="Thông báo"
-                description="Nhận thông báo để không bỏ lỡ thông tin quan trọng. (Sắp ra mắt)"
-                control={
-                    <Toggle
-                        id="setting-push-notif"
-                        checked={pushNotif}
-                        onChange={(v) => update("pushNotif", v)}
+                <div style={{ padding: "14px 0" }}>
+                    <SettingRow
+                        title="Thông báo"
+                        description="Nhận thông báo để không bỏ lỡ thông tin quan trọng. (Sắp ra mắt)"
+                        control={<Switch checked={pushNotif} onChange={(v) => update("pushNotif", v)} />}
                     />
-                }
-            />
+                </div>
+            </Card>
+
         </div>
     )
 }

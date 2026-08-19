@@ -1,14 +1,9 @@
 "use client"
 
-import {
-    FormEvent,
-    useEffect,
-    useLayoutEffect,
-    useRef,
-    useState,
-} from "react"
-
-import { Check, Plus, X } from "lucide-react"
+import { useEffect, useRef, useState } from "react"
+import { Button, Input, Modal, Skeleton, Space, Typography } from "antd"
+import type { InputRef } from "antd"
+import { CheckOutlined, PlusOutlined } from "@ant-design/icons"
 
 import { useAuth } from "@/features/auth/hooks/useAuth"
 import { useNotebookCheck } from "@/features/notebook/hooks/useNotebookCheck"
@@ -16,9 +11,7 @@ import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
 
 import type { NotebookItemType } from "@/domain/notebook/notebook.type"
 
-import styles from "./AddToNotebookModal.module.css"
-
-import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+const { Text } = Typography
 
 type AddToNotebookModalProps = {
     open: boolean
@@ -36,7 +29,6 @@ export default function AddToNotebookModal({
     onLoginRequired,
 }: AddToNotebookModalProps) {
     const { user, loading: authLoading } = useAuth()
-
     const isLoggedIn = !authLoading && Boolean(user)
 
     const { notebooks, loading: notebooksLoading, mutate: mutateNotebooks } =
@@ -49,22 +41,11 @@ export default function AddToNotebookModal({
     const [creating, setCreating] = useState(false)
     const [newName, setNewName] = useState("")
     const [createLoading, setCreateLoading] = useState(false)
-    const createInputRef = useRef<HTMLInputElement>(null)
-    const handleCloseRef = useRef<() => void>(null!)
-    const modalRef = useRef<HTMLDivElement>(null)
+    const createInputRef = useRef<InputRef | null>(null)
 
     useEffect(() => {
         if (creating) createInputRef.current?.focus()
-    }, [creating])
-
-    useEffect(() => {
-        if (!open) return
-        function handleKey(e: KeyboardEvent) {
-            if (e.key === "Escape") handleCloseRef.current()
-        }
-        document.addEventListener("keydown", handleKey)
-        return () => document.removeEventListener("keydown", handleKey)
-    }, [open])
+    }, [creating])  // eslint-disable-line react-hooks/exhaustive-deps
 
     function handleClose() {
         setCreating(false)
@@ -73,17 +54,12 @@ export default function AddToNotebookModal({
         setPendingIds(new Set())
         onClose()
     }
-    useLayoutEffect(() => { handleCloseRef.current = handleClose })
-
-    useFocusTrap(modalRef, open, handleClose)
 
     async function toggleNotebook(notebookId: string) {
         if (pendingIds.has(notebookId)) return
 
         const alreadyIn = notebookIds.includes(notebookId)
         const method = alreadyIn ? "DELETE" : "POST"
-
-        // Optimistic update
         const nextIds = alreadyIn
             ? notebookIds.filter((id) => id !== notebookId)
             : [...notebookIds, notebookId]
@@ -97,9 +73,7 @@ export default function AddToNotebookModal({
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ item_type: itemType, item_id: itemId }),
             })
-
             if (!res.ok && res.status !== 409) {
-                // Revert on error
                 await mutateCheck({ notebookIds }, false)
             }
         } catch {
@@ -113,25 +87,20 @@ export default function AddToNotebookModal({
         }
     }
 
-    async function handleCreate(e: FormEvent) {
-        e.preventDefault()
+    async function handleCreate() {
         const name = newName.trim()
         if (!name || createLoading) return
 
         setCreateLoading(true)
-
         try {
             const res = await fetch("/api/notebooks", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ name }),
             })
-
             if (!res.ok) return
 
             const created = await res.json()
-
-            // Add item to new notebook immediately — ignore if already exists (409)
             const addRes = await fetch(`/api/notebooks/${created.id}/items`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -139,16 +108,11 @@ export default function AddToNotebookModal({
             })
 
             if (!addRes.ok && addRes.status !== 409) {
-                // Notebook was created but item wasn't added — still refresh and close
                 await mutateNotebooks()
                 return
             }
 
-            await Promise.all([
-                mutateNotebooks(),
-                mutateCheck(),
-            ])
-
+            await Promise.all([mutateNotebooks(), mutateCheck()])
             setNewName("")
             setCreating(false)
         } finally {
@@ -156,138 +120,110 @@ export default function AddToNotebookModal({
         }
     }
 
-    if (!open) return null
+    const renderBody = () => {
+        if (authLoading) return <Skeleton active paragraph={{ rows: 3 }} />
 
-    return (
-        <div className={styles.overlay} role="presentation" onClick={handleClose}>
-            <div
-                className={styles.modal}
-                ref={modalRef}
-                onClick={(e) => e.stopPropagation()}
-                role="dialog"
-                aria-modal="true"
-                aria-label="Thêm vào sổ tay"
-            >
-                <div className={styles.header}>
-                    <h2>Thêm vào sổ tay</h2>
-                    <button
-                        type="button"
-                        className={styles.closeButton}
-                        onClick={handleClose}
-                        aria-label="Đóng"
-                    >
-                        <X size={16} />
-                    </button>
+        if (!isLoggedIn) {
+            return (
+                <div style={{ textAlign: "center", padding: "16px 0" }}>
+                    <Text type="secondary" style={{ display: "block", marginBottom: 16 }}>
+                        Đăng nhập để lưu từ vựng, hán tự và ngữ pháp vào sổ tay cá nhân.
+                    </Text>
+                    <Button type="primary" onClick={onLoginRequired}>Đăng nhập</Button>
+                </div>
+            )
+        }
+
+        if (notebooksLoading) return <Skeleton active paragraph={{ rows: 3 }} />
+
+        if (notebooks.length === 0 && !creating) {
+            return (
+                <div style={{ textAlign: "center", padding: "16px 0" }}>
+                    <Text type="secondary" style={{ display: "block", marginBottom: 16 }}>Bạn chưa có sổ tay nào.</Text>
+                    <Button type="primary" icon={<PlusOutlined />} onClick={() => setCreating(true)}>
+                        Tạo sổ tay đầu tiên
+                    </Button>
+                </div>
+            )
+        }
+
+        return (
+            <div>
+                <div style={{ display: "flex", flexDirection: "column", gap: 2, marginBottom: 12 }}>
+                    {notebooks.map((nb) => {
+                        const checked = notebookIds.includes(nb.id)
+                        const pending = pendingIds.has(nb.id)
+                        return (
+                            <button
+                                key={nb.id}
+                                type="button"
+                                onClick={() => toggleNotebook(nb.id)}
+                                disabled={pending}
+                                style={{
+                                    display: "flex", alignItems: "center", justifyContent: "space-between",
+                                    padding: "9px 12px", borderRadius: 8, cursor: "pointer",
+                                    border: checked ? "1px solid #BFDBFE" : "1px solid transparent",
+                                    background: checked ? "#EFF6FF" : "transparent",
+                                    color: checked ? "#1D4ED8" : "#374151",
+                                    fontWeight: checked ? 600 : 400, fontSize: 13,
+                                    transition: "all 0.1s",
+                                }}
+                            >
+                                <span>{nb.name}</span>
+                                {checked && <CheckOutlined style={{ fontSize: 12, color: "#2563EB" }} />}
+                            </button>
+                        )
+                    })}
                 </div>
 
-                <div className={styles.body}>
-                    {authLoading ? (
-                        <p className={styles.hint}>Đang tải...</p>
-                    ) : !isLoggedIn ? (
-                        <LoginPrompt onLogin={onLoginRequired} />
-                    ) : notebooksLoading ? (
-                        <p className={styles.hint}>Đang tải sổ tay...</p>
-                    ) : notebooks.length === 0 && !creating ? (
-                        <EmptyState onCreateClick={() => setCreating(true)} />
+                <div style={{ borderTop: "1px solid #F3F4F6", paddingTop: 12 }}>
+                    {creating ? (
+                        <Space.Compact style={{ width: "100%" }}>
+                            <Input
+                                ref={createInputRef}
+                                placeholder="Tên sổ tay..."
+                                value={newName}
+                                onChange={(e) => setNewName(e.target.value)}
+                                maxLength={80}
+                                disabled={createLoading}
+                                onPressEnter={handleCreate}
+                                autoFocus
+                            />
+                            <Button
+                                type="primary"
+                                loading={createLoading}
+                                disabled={!newName.trim()}
+                                onClick={handleCreate}
+                            >
+                                Tạo
+                            </Button>
+                            <Button onClick={() => { setCreating(false); setNewName("") }}>Hủy</Button>
+                        </Space.Compact>
                     ) : (
-                        <>
-                            <ul className={styles.notebookList}>
-                                {notebooks.map((nb) => {
-                                    const checked = notebookIds.includes(nb.id)
-                                    const pending = pendingIds.has(nb.id)
-                                    return (
-                                        <li key={nb.id}>
-                                            <button
-                                                type="button"
-                                                className={`${styles.notebookRow} ${checked ? styles.checked : ""}`}
-                                                onClick={() => toggleNotebook(nb.id)}
-                                                disabled={pending}
-                                            >
-                                                <span className={styles.notebookName}>
-                                                    {nb.name}
-                                                </span>
-                                                <span className={styles.checkIcon}>
-                                                    {checked && <Check size={15} />}
-                                                </span>
-                                            </button>
-                                        </li>
-                                    )
-                                })}
-                            </ul>
-
-                            <div className={styles.divider} />
-
-                            {creating ? (
-                                <form
-                                    className={styles.createForm}
-                                    onSubmit={handleCreate}
-                                >
-                                    <input
-                                        ref={createInputRef}
-                                        className={styles.createInput}
-                                        type="text"
-                                        aria-label="Tên sổ tay mới"
-                                        placeholder="Tên sổ tay..."
-                                        value={newName}
-                                        onChange={(e) => setNewName(e.target.value)}
-                                        maxLength={80}
-                                        disabled={createLoading}
-                                    />
-                                    <button
-                                        className={styles.createSubmit}
-                                        type="submit"
-                                        disabled={!newName.trim() || createLoading}
-                                    >
-                                        {createLoading ? "..." : "Tạo"}
-                                    </button>
-                                    <button
-                                        className={styles.createCancel}
-                                        type="button"
-                                        onClick={() => {
-                                            setCreating(false)
-                                            setNewName("")
-                                        }}
-                                    >
-                                        Hủy
-                                    </button>
-                                </form>
-                            ) : (
-                                <button
-                                    type="button"
-                                    className={styles.addNotebookButton}
-                                    onClick={() => setCreating(true)}
-                                >
-                                    <Plus size={15} />
-                                    Tạo sổ tay mới
-                                </button>
-                            )}
-                        </>
+                        <Button
+                            type="dashed"
+                            icon={<PlusOutlined />}
+                            block
+                            onClick={() => setCreating(true)}
+                        >
+                            Tạo sổ tay mới
+                        </Button>
                     )}
                 </div>
             </div>
-        </div>
-    )
-}
+        )
+    }
 
-function LoginPrompt({ onLogin }: { onLogin: () => void }) {
     return (
-        <div className={styles.loginPrompt}>
-            <p>Đăng nhập để lưu từ vựng, hán tự và ngữ pháp vào sổ tay cá nhân.</p>
-            <button type="button" className={styles.loginButton} onClick={onLogin}>
-                Đăng nhập
-            </button>
-        </div>
-    )
-}
-
-function EmptyState({ onCreateClick }: { onCreateClick: () => void }) {
-    return (
-        <div className={styles.emptyState}>
-            <p>Bạn chưa có sổ tay nào.</p>
-            <button type="button" className={styles.loginButton} onClick={onCreateClick}>
-                <Plus size={15} />
-                Tạo sổ tay đầu tiên
-            </button>
-        </div>
+        <Modal
+            open={open}
+            onCancel={handleClose}
+            title="Thêm vào sổ tay"
+            footer={null}
+            width={360}
+            destroyOnHidden
+        >
+            {renderBody()}
+        </Modal>
     )
 }

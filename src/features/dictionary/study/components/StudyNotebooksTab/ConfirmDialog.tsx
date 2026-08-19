@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react"
-import styles from "./StudyNotebooksTab.module.css"
+import React from "react"
+import { Modal, Button, Typography, Space } from "antd"
 
-import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+const { Text } = Typography
 
 interface Props {
     icon: React.ReactNode
@@ -16,28 +16,39 @@ interface Props {
 }
 
 export default function ConfirmDialog({ icon, iconStyle, title, desc, okLabel, okStyle, loading, onCancel, onOk }: Props) {
-    const modalRef = useRef<HTMLDivElement>(null)
-    useFocusTrap(modalRef, true, onCancel)
-
-    useEffect(() => {
-        function onKey(e: KeyboardEvent) { if (e.key === "Escape") onCancel() }
-        window.addEventListener("keydown", onKey)
-        return () => window.removeEventListener("keydown", onKey)
-    }, [onCancel])
-
     return (
-        <div className={styles.confirmOverlay} onClick={onCancel} role="presentation">
-            <div className={styles.confirmBox} ref={modalRef} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-label={title}>
-                <div className={styles.confirmIcon} style={iconStyle}>{icon}</div>
-                <h3 className={styles.confirmTitle}>{title}</h3>
-                <p className={styles.confirmDesc}>{desc}</p>
-                <div className={styles.confirmActions}>
-                    <button type="button" className={styles.confirmCancel} onClick={onCancel}>Hủy</button>
-                    <button type="button" className={styles.confirmOk} style={okStyle} onClick={onOk} disabled={loading}>
-                        {loading ? "Đang xử lý..." : okLabel}
-                    </button>
+        <Modal
+            open
+            onCancel={onCancel}
+            footer={null}
+            width={400}
+            centered
+            destroyOnHidden
+        >
+            <Space direction="vertical" align="center" style={{ width: "100%", padding: "12px 0 4px", textAlign: "center" }}>
+                <div style={{
+                    width: 48, height: 48, borderRadius: "50%",
+                    display: "flex", alignItems: "center", justifyContent: "center",
+                    fontSize: 20, marginBottom: 4,
+                    ...iconStyle,
+                }}>
+                    {icon}
                 </div>
-            </div>
-        </div>
+                <Text strong style={{ fontSize: 16 }}>{title}</Text>
+                <Text type="secondary" style={{ fontSize: 13 }}>{desc}</Text>
+            </Space>
+            <Space style={{ justifyContent: "flex-end", width: "100%", marginTop: 24 }}>
+                <Button onClick={onCancel}>Hủy</Button>
+                <Button
+                    type="primary"
+                    danger={okStyle?.color === "var(--color-danger)" || (typeof okStyle?.background === "string" && okStyle.background.includes("danger"))}
+                    onClick={onOk}
+                    loading={loading}
+                    style={okStyle}
+                >
+                    {okLabel}
+                </Button>
+            </Space>
+        </Modal>
     )
 }

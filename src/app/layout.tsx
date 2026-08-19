@@ -6,6 +6,7 @@ import { Noto_Sans_JP, Space_Grotesk } from "next/font/google"
 
 import layoutStyles from "@/shared/components/layout/AppLayout.module.css"
 import Sidebar from "@/shared/components/layout/Sidebar"
+import AntdProvider from "@/shared/components/AntdProvider"
 import QuickLookupLayer from "@/features/dictionary/quick-lookup/components/QuickLookupLayer"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { isAdminUserId } from "@/server/utils/admin"
@@ -78,14 +79,16 @@ export default async function RootLayout({
           }}
         />
         <AntdRegistry>
-          <div className={layoutStyles.appLayout}>
-            <Sidebar isAdmin={isAdmin} />
-            <div className={layoutStyles.appMain}>
-              {children}
+          <AntdProvider>
+            <div className={layoutStyles.appLayout}>
+              <Sidebar isAdmin={isAdmin} />
+              <div className={layoutStyles.appMain}>
+                {children}
+              </div>
             </div>
-          </div>
-          <div id="portal-root" />
-          <QuickLookupLayer />
+            <div id="portal-root" />
+            <QuickLookupLayer />
+          </AntdProvider>
         </AntdRegistry>
       </body>
     </html>

@@ -3,6 +3,7 @@
 import { useCallback, useSyncExternalStore } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { Button } from "antd"
 import {
     Search,
     BookOpen,
@@ -63,15 +64,14 @@ export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
                     <span className={styles.logoName}>Yomi</span>
                 </Link>
 
-                <button
-                    type="button"
+                <Button
+                    type="text"
                     className={styles.sidebarToggle}
                     onClick={toggleSidebar}
                     aria-label={collapsed ? "Mở rộng menu" : "Thu gọn menu"}
                     aria-expanded={!collapsed}
-                >
-                    <PanelLeft size={16} strokeWidth={2} />
-                </button>
+                    icon={<PanelLeft size={16} strokeWidth={2} />}
+                />
             </div>
 
             <nav className={styles.sidebarMenu} aria-label="Menu chính">
