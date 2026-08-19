@@ -1,12 +1,12 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useState } from "react"
 import Link from "next/link"
-import { AlertCircle, BookOpen, Check, ExternalLink, X } from "lucide-react"
+import { BookOutlined, CheckCircleFilled, ExportOutlined } from "@ant-design/icons"
+import { Alert, Button, Modal, Radio, Space, Typography } from "antd"
 import type { EnrichedNotebookItem, NotebookWithCount } from "@/domain/notebook/notebook.type"
-import styles from "./ExploreTab.module.css"
 
-import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
+const { Text } = Typography
 
 interface Props {
     items: EnrichedNotebookItem[]
@@ -15,22 +15,10 @@ interface Props {
 }
 
 export default function AddToNotebookModal({ items, notebooks, onClose }: Props) {
-    const [selected,    setSelected]    = useState<string | null>(null)
-    const [loading,     setLoading]     = useState(false)
-    const [done,        setDone]        = useState(false)
-    const [addedCount,  setAddedCount]  = useState(0)
-    const titleId  = "add-notebook-modal-title"
-    const firstRef = useRef<HTMLButtonElement>(null)
-    const modalRef = useRef<HTMLDivElement>(null)
-
-    useFocusTrap(modalRef, true, onClose)
-
-    useEffect(() => { firstRef.current?.focus() }, [])
-    useEffect(() => {
-        function onKey(e: KeyboardEvent) { if (e.key === "Escape") onClose() }
-        window.addEventListener("keydown", onKey)
-        return () => window.removeEventListener("keydown", onKey)
-    }, [onClose])
+    const [selected, setSelected] = useState<string | null>(null)
+    const [loading, setLoading] = useState(false)
+    const [done, setDone] = useState(false)
+    const [addedCount, setAddedCount] = useState(0)
 
     async function handleAdd() {
         if (!selected) return
@@ -53,73 +41,85 @@ export default function AddToNotebookModal({ items, notebooks, onClose }: Props)
     const selectedNb = notebooks.find((nb) => nb.id === selected)
 
     return (
-        <div className={styles.modalOverlay} onClick={onClose} role="presentation">
-            <div
-                className={styles.modal}
-                ref={modalRef}
-                onClick={(e) => e.stopPropagation()}
-                role="dialog"
-                aria-modal="true"
-                aria-labelledby={titleId}
-            >
-                <div className={styles.modalHeader}>
-                    <p id={titleId} className={styles.modalTitle}>Thêm vào sổ tay</p>
-                    <button ref={firstRef} type="button" className={styles.modalClose} onClick={onClose} aria-label="Đóng">
-                        <X size={16} />
-                    </button>
+        <Modal
+            open
+            onCancel={onClose}
+            title="Thêm vào sổ tay"
+            footer={null}
+            width={400}
+            destroyOnHidden
+        >
+            {done ? (
+                <div style={{ textAlign: "center", padding: "16px 0" }}>
+                    <CheckCircleFilled style={{ fontSize: 36, color: "#16A34A", marginBottom: 12, display: "block" }} />
+                    <Text strong style={{ display: "block", marginBottom: 8 }}>
+                        Đã thêm {addedCount}/{items.length} mục
+                    </Text>
+                    {selectedNb && (
+                        <Link href={`/notebooks/${selected}`} onClick={onClose} style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 13, marginBottom: 16 }}>
+                            Xem sổ tay &ldquo;{selectedNb.name}&rdquo;
+                            <ExportOutlined style={{ fontSize: 11 }} />
+                        </Link>
+                    )}
+                    <br />
+                    <Button onClick={onClose}>Đóng</Button>
                 </div>
+            ) : (
+                <>
+                    <Text type="secondary" style={{ display: "block", marginBottom: 16, fontSize: 13 }}>
+                        Chọn sổ tay cá nhân để thêm {items.length} mục từ bộ sưu tập này.
+                    </Text>
 
-                {done ? (
-                    <div className={styles.modalDone}>
-                        <Check size={28} className={styles.modalDoneIcon} />
-                        <p className={styles.modalDoneTitle}>Đã thêm {addedCount}/{items.length} mục</p>
-                        {selectedNb && (
-                            <Link href={`/notebooks/${selected}`} className={styles.modalDoneLink} onClick={onClose}>
-                                Xem sổ tay &ldquo;{selectedNb.name}&rdquo;
-                                <ExternalLink size={12} />
+                    {notebooks.length === 0 ? (
+                        <div style={{ textAlign: "center", padding: "16px 0" }}>
+                            <Alert
+                                type="info"
+                                message="Bạn chưa có sổ tay nào. Hãy tạo sổ tay trước."
+                                style={{ marginBottom: 12 }}
+                            />
+                            <Link href="/study?tab=so-tay" onClick={onClose}>
+                                <Button type="primary">Tạo sổ tay</Button>
                             </Link>
-                        )}
-                        <button type="button" className={styles.btnSecondary} onClick={onClose}>Đóng</button>
-                    </div>
-                ) : (
-                    <>
-                        <p className={styles.modalDesc}>
-                            Chọn sổ tay cá nhân để thêm {items.length} mục từ bộ sưu tập này.
-                        </p>
-                        {notebooks.length === 0 ? (
-                            <div className={styles.modalEmpty}>
-                                <AlertCircle size={18} />
-                                <p>Bạn chưa có sổ tay nào. Hãy tạo sổ tay trước.</p>
-                                <Link href="/study?tab=so-tay" className={styles.btnPrimary} onClick={onClose}>
-                                    Tạo sổ tay
-                                </Link>
-                            </div>
-                        ) : (
-                            <div className={styles.nbList}>
-                                {notebooks.map((nb) => (
-                                    <button
-                                        key={nb.id}
-                                        type="button"
-                                        className={styles.nbOption}
-                                        data-selected={selected === nb.id || undefined}
-                                        onClick={() => setSelected(nb.id)}
-                                    >
-                                        <BookOpen size={14} />
-                                        <span className={styles.nbOptionName}>{nb.name}</span>
-                                        <span className={styles.nbOptionCount}>{nb.item_count} mục</span>
-                                    </button>
-                                ))}
-                            </div>
-                        )}
-                        <div className={styles.modalFooter}>
-                            <button type="button" className={styles.btnSecondary} onClick={onClose}>Hủy</button>
-                            <button type="button" className={styles.btnPrimary} disabled={!selected || loading} onClick={handleAdd}>
-                                {loading ? "Đang thêm…" : "Thêm vào sổ tay"}
-                            </button>
                         </div>
-                    </>
-                )}
-            </div>
-        </div>
+                    ) : (
+                        <>
+                            <Radio.Group
+                                value={selected}
+                                onChange={(e) => setSelected(e.target.value)}
+                                style={{ width: "100%", display: "flex", flexDirection: "column", gap: 6, marginBottom: 16 }}
+                            >
+                                {notebooks.map((nb) => (
+                                    <Radio
+                                        key={nb.id}
+                                        value={nb.id}
+                                        style={{
+                                            border: `1px solid ${selected === nb.id ? "#BFDBFE" : "#E5EAF2"}`,
+                                            borderRadius: 8,
+                                            padding: "8px 12px",
+                                            background: selected === nb.id ? "#EFF6FF" : "#fff",
+                                            transition: "all 0.1s",
+                                            margin: 0,
+                                            width: "100%",
+                                        }}
+                                    >
+                                        <Space>
+                                            <BookOutlined style={{ color: "#9CA3AF" }} />
+                                            <Text style={{ fontSize: 13 }}>{nb.name}</Text>
+                                            <Text type="secondary" style={{ fontSize: 12 }}>{nb.item_count} mục</Text>
+                                        </Space>
+                                    </Radio>
+                                ))}
+                            </Radio.Group>
+                            <Space style={{ justifyContent: "flex-end", width: "100%" }}>
+                                <Button onClick={onClose}>Hủy</Button>
+                                <Button type="primary" disabled={!selected} loading={loading} onClick={handleAdd}>
+                                    Thêm vào sổ tay
+                                </Button>
+                            </Space>
+                        </>
+                    )}
+                </>
+            )}
+        </Modal>
     )
 }

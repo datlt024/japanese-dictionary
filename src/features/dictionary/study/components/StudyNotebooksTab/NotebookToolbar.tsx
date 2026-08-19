@@ -1,7 +1,7 @@
 "use client"
 
-import { ArrowUpDown, FolderOpen, Plus } from "lucide-react"
-import styles from "./StudyNotebooksTab.module.css"
+import { Button, Select, Space } from "antd"
+import { FolderOpenOutlined, PlusOutlined, SortAscendingOutlined } from "@ant-design/icons"
 
 type SortOrder = "newest" | "oldest" | "az" | "za"
 
@@ -23,32 +23,32 @@ export default function NotebookToolbar({
     onCreate,
 }: Props) {
     return (
-        <div className={styles.toolbar}>
-            <div className={styles.sortWrap}>
-                <ArrowUpDown size={13} className={styles.sortIcon} />
-                <select
-                    className={styles.sortSelect}
-                    value={sortOrder}
-                    onChange={e => onSortChange(e.target.value as SortOrder)}
-                >
-                    <option value="newest">Mới nhất</option>
-                    <option value="oldest">Cũ nhất</option>
-                    <option value="az">A → Z</option>
-                    <option value="za">Z → A</option>
-                </select>
-            </div>
-            <div className={styles.toolbarRight}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16, gap: 8 }}>
+            <Select
+                value={sortOrder}
+                onChange={onSortChange}
+                size="small"
+                style={{ width: 130 }}
+                suffixIcon={<SortAscendingOutlined />}
+                options={[
+                    { value: "newest", label: "Mới nhất" },
+                    { value: "oldest", label: "Cũ nhất" },
+                    { value: "az",     label: "A → Z" },
+                    { value: "za",     label: "Z → A" },
+                ]}
+            />
+            <Space size={6}>
                 {!creatingGroup && (
-                    <button type="button" className={styles.toolbarBtn} onClick={onCreateGroup}>
-                        <FolderOpen size={13} /> Tạo nhóm
-                    </button>
+                    <Button size="small" icon={<FolderOpenOutlined />} onClick={onCreateGroup}>
+                        Tạo nhóm
+                    </Button>
                 )}
                 {!creating && (
-                    <button type="button" className={styles.toolbarBtnPrimary} onClick={onCreate}>
-                        <Plus size={13} /> Tạo sổ tay
-                    </button>
+                    <Button size="small" type="primary" icon={<PlusOutlined />} onClick={onCreate}>
+                        Tạo sổ tay
+                    </Button>
                 )}
-            </div>
+            </Space>
         </div>
     )
 }

@@ -45,7 +45,7 @@ export default function AddToNotebookModal({
 
     useEffect(() => {
         if (creating) createInputRef.current?.focus()
-    }, [creating])  // eslint-disable-line react-hooks/exhaustive-deps
+    }, [creating])
 
     function handleClose() {
         setCreating(false)
