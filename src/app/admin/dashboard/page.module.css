@@ -74,7 +74,7 @@
     color: var(--color-text-muted);
 }
 
-/* ── KPI Grid ── */
+/* ── KPI Grid (month-over-month) ── */
 
 .kpiGrid {
     display: grid;
@@ -84,12 +84,11 @@
 
 .kpiCard {
     position: relative;
-    padding: 20px 20px 18px;
+    padding: 18px 20px 16px;
     border: 1px solid var(--color-border);
     border-radius: 16px;
     background: var(--color-surface);
     overflow: hidden;
-    transition: box-shadow 0.15s;
 }
 
 .kpiCard::before {
@@ -98,7 +97,7 @@
     top: 0; left: 0; right: 0;
     height: 3px;
     border-radius: 16px 16px 0 0;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .accent_blue::before    { background: #2563EB; }
@@ -109,23 +108,49 @@
 .accent_rose::before    { background: #E11D48; }
 .accent_sky::before     { background: #0284C7; }
 
+.kpiIconRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
 .kpiIcon {
     display: flex;
     align-items: center;
-    margin-bottom: 14px;
     color: var(--color-text-muted);
 }
 
-.kanjiChar {
-    font-size: 18px;
-    line-height: 1;
-    font-weight: 900;
+/* ── Change badge ── */
+
+.kpiBadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.badge_up {
+    background: #ECFDF3;
+    color: #059669;
+}
+
+.badge_down {
+    background: #FFF1F2;
+    color: #E11D48;
+}
+
+.badge_flat {
+    background: var(--color-surface-muted, #F3F4F6);
     color: var(--color-text-muted);
 }
 
 .kpiValue {
-    margin: 0 0 4px;
-    font-size: 30px;
+    margin: 0 0 3px;
+    font-size: 32px;
     font-weight: 900;
     font-variant-numeric: tabular-nums;
     color: var(--color-text-primary);
@@ -134,13 +159,26 @@
 }
 
 .kpiLabel {
-    margin: 0;
-    font-size: 12px;
-    font-weight: 600;
+    margin: 0 0 6px;
+    font-size: 13px;
+    font-weight: 700;
     color: var(--color-text-secondary);
 }
 
-/* ── JLPT Chart ── */
+.kpiCompare {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--color-text-muted);
+}
+
+.kanjiChar {
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--color-text-muted);
+}
+
+/* ── Card wrapper ── */
 
 .card {
     padding: 20px 24px;
@@ -149,74 +187,129 @@
     background: var(--color-surface);
 }
 
-.jlptChart {
+/* ── Trend bar chart ── */
+
+.trendChart {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    align-items: end;
+    height: 140px;
+}
+
+.trendCol {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-}
-
-.jlptRow {
-    display: grid;
-    grid-template-columns: 32px 1fr 80px;
     align-items: center;
-    gap: 14px;
-}
-
-.jlptLevel {
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: 0.03em;
-}
-
-.jlptBarTrack {
-    height: 10px;
-    border-radius: 999px;
-    background: var(--color-border);
-    overflow: hidden;
-}
-
-.jlptBar {
+    gap: 6px;
     height: 100%;
-    border-radius: 999px;
-    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-    min-width: 4px;
 }
 
-.jlptCount {
-    font-size: 13px;
+.trendCount {
+    font-size: 11px;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
     color: var(--color-text-secondary);
-    text-align: right;
+    text-align: center;
+    line-height: 1;
 }
 
-/* ── Tool Grid ── */
+.trendBarTrack {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--color-border);
+}
+
+.trendBar {
+    width: 100%;
+    background: var(--color-primary);
+    border-radius: 6px;
+    min-height: 4px;
+    transition: height 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.trendLabel {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    text-align: center;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
+
+/* ── Content totals ── */
+
+.totalsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.totalCard {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    background: var(--color-surface);
+}
+
+.totalIcon {
+    display: flex;
+    align-items: center;
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+}
+
+.totalValue {
+    margin: 0 0 1px;
+    font-size: 18px;
+    font-weight: 900;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text-primary);
+    letter-spacing: -0.01em;
+    line-height: 1;
+}
+
+.totalLabel {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+}
+
+/* ── Tool links ── */
 
 .toolGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
 }
 
 .toolCard {
     display: flex;
     align-items: center;
-    gap: 14px;
-    padding: 16px 18px;
+    gap: 12px;
+    padding: 14px 16px;
 
     border: 1px solid var(--color-border);
-    border-radius: 14px;
+    border-radius: 12px;
 
     background: var(--color-surface);
     text-decoration: none;
 
-    transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+    transition: border-color 0.15s, background 0.15s;
 }
 
 .toolCard:hover {
     border-color: var(--color-primary);
     background: var(--color-primary-soft);
-    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
 }
 
 .toolIcon {
@@ -225,7 +318,7 @@
 }
 
 .toolKanji {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     color: var(--color-primary);
     flex-shrink: 0;
@@ -264,6 +357,10 @@
     .kpiGrid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .totalsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 600px) {
@@ -276,16 +373,24 @@
         gap: 10px;
     }
 
+    .totalsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .toolGrid {
         grid-template-columns: 1fr;
     }
 
     .kpiValue {
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .pageHeader {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .trendChart {
+        height: 110px;
     }
 }
