@@ -340,7 +340,7 @@ export function ListView({
                     {[1, 2, 3, 4].map((i) => <div key={i} className={styles.skeletonCard} />)}
                 </div>
             )}
-            {error && (
+            {!!error && (
                 <div className={styles.errorState}>
                     <p>Không thể tải sổ tay. Vui lòng thử lại.</p>
                 </div>
