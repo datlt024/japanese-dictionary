@@ -3,10 +3,10 @@ import { CreditCard, HelpCircle, PenLine, ClipboardList, X } from "lucide-react"
 import styles from "./StudyNotebooksTab.module.css"
 
 const PRACTICE_MODES = [
-    { id: "flashcard", Icon: CreditCard,    title: "FlashCard",    desc: "Ôn tập từ vựng bằng thẻ lật",             color: "#2563eb", bg: "#eff6ff" },
-    { id: "quiz",      Icon: HelpCircle,    title: "Trắc nghiệm",  desc: "Chọn đáp án đúng trong 4 lựa chọn",       color: "#7c3aed", bg: "#f5f3ff" },
-    { id: "writing",   Icon: PenLine,       title: "Luyện viết",   desc: "Nhìn nghĩa, gõ lại từ tiếng Nhật",        color: "#0891b2", bg: "#ecfeff" },
-    { id: "minitest",  Icon: ClipboardList, title: "Mini Test",    desc: "Bài kiểm tra ngắn có tính giờ",           color: "#b45309", bg: "#fffbeb" },
+    { id: "flashcard", Icon: CreditCard,    title: "FlashCard",    desc: "Ôn tập từ vựng bằng thẻ lật",       color: "var(--color-primary)",   bg: "var(--color-primary-soft)"   },
+    { id: "quiz",      Icon: HelpCircle,    title: "Trắc nghiệm",  desc: "Chọn đáp án đúng trong 4 lựa chọn", color: "var(--color-jlpt-n3)",   bg: "var(--color-jlpt-n3-soft)"  },
+    { id: "writing",   Icon: PenLine,       title: "Luyện viết",   desc: "Nhìn nghĩa, gõ lại từ tiếng Nhật",  color: "var(--color-jlpt-n4)",   bg: "var(--color-jlpt-n4-soft)"  },
+    { id: "minitest",  Icon: ClipboardList, title: "Mini Test",    desc: "Bài kiểm tra ngắn có tính giờ",     color: "var(--color-jlpt-n2)",   bg: "var(--color-jlpt-n2-soft)"  },
 ]
 
 interface Props {

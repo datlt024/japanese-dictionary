@@ -327,6 +327,33 @@
     .statItem:nth-last-child(-n+2) { border-bottom: none; }
 }
 
+@media (max-width: 640px) {
+    .statsRow {
+        grid-template-columns: 1fr 1fr;
+    }
+    .overviewSection { padding: 16px; }
+    .toolbar {
+        flex-wrap: wrap;
+    }
+    .toolbarRight {
+        flex-wrap: wrap;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .confirmBox,
+    .modalBox {
+        border-radius: 16px;
+    }
+    .pagination {
+        justify-content: center;
+    }
+    .tipCard {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
 /* ── Toolbar ──────────────────────────────────────── */
 
 .toolbar {
