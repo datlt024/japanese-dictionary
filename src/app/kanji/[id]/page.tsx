@@ -17,7 +17,7 @@ import { extractKanjis } from "@/features/dictionary/kanji/utils"
 import { supabaseServer } from "@/server/supabase/server"
 
 export async function generateStaticParams() {
-    const { data } = await supabaseServer.from("kanjis").select("kanji")
+    const { data } = await supabaseServer.from("kanjis").select("kanji").limit(10000)
     return (data ?? []).map((k) => ({ id: encodeURIComponent(k.kanji) }))
 }
 

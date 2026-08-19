@@ -189,9 +189,12 @@ export default function ExamActivePhase({
                                                             id={`q-${gi}`}
                                                             ref={el => { questionRefs.current[gi] = el }}
                                                             className={styles.qItem}
+                                                            role="button"
+                                                            tabIndex={0}
                                                             data-active={idx === gi || undefined}
                                                             data-type={q.type}
                                                             onClick={() => onSetIdx(gi)}
+                                                            onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), onSetIdx(gi))}
                                                         >
                                                             <div className={styles.qItemHead}>
                                                                 <span className={styles.qNum}>{grpOffset + pos + 1}</span>

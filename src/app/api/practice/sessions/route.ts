@@ -42,10 +42,14 @@ export async function POST(request: NextRequest) {
         typeof mode !== "string" ||
         !["flashcard", "quiz", "writing", "minitest"].includes(mode) ||
         !Array.isArray(known_ids) ||
+        known_ids.length > 500 ||
         !known_ids.every((id: unknown) => typeof id === "string") ||
         !Array.isArray(unknown_ids) ||
+        unknown_ids.length > 500 ||
         !unknown_ids.every((id: unknown) => typeof id === "string") ||
-        typeof total_items !== "number"
+        !Number.isInteger(total_items) ||
+        total_items < 0 ||
+        total_items > 1000
     ) {
         return NextResponse.json({ error: "Dữ liệu không hợp lệ" }, { status: 400 })
     }

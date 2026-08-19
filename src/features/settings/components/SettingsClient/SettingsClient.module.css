@@ -176,8 +176,8 @@
 }
 
 .checkboxInput:checked ~ .checkboxBox::after {
-    border-left-color: white;
-    border-bottom-color: white;
+    border-left-color: var(--color-text-invert);
+    border-bottom-color: var(--color-text-invert);
 }
 
 .checkboxText {

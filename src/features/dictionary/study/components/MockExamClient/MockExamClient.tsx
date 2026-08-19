@@ -121,8 +121,8 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         const totalMin     = cfg.sections.reduce((acc, s) => acc + s.allocMin, 0)
         const grammarCount = cfg.sections.flatMap(s => s.groups).filter(g => g.type === "grammar_blank").reduce((a, g) => a + g.count, 0)
         Promise.all([
-            fetch(`/api/study/jlpt?level=${level}&limit=100`).then(r => r.json()),
-            fetch(`/api/study/grammar?level=${level}&limit=${Math.min(grammarCount * 4, 100)}`).then(r => r.json()),
+            fetch(`/api/study/jlpt?level=${level}&limit=100`).then(r => { if (!r.ok) throw new Error(r.status.toString()); return r.json() }),
+            fetch(`/api/study/grammar?level=${level}&limit=${Math.min(grammarCount * 4, 100)}`).then(r => { if (!r.ok) throw new Error(r.status.toString()); return r.json() }),
         ]).then(([vocab, grammar]) => {
             if (!mounted.v) return
             const built = buildQuestions(vocab as VocabItem[], grammar as GrammarItem[], cfg.sections)

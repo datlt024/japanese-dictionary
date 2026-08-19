@@ -24,10 +24,7 @@ export async function getRelatedVocabularies(
         )
 
         if (!response.ok) {
-            console.error(
-                "Fetch related vocabularies failed:",
-                response.status
-            )
+            if (process.env.NODE_ENV !== "production") console.error("Fetch related vocabularies failed:", response.status)
 
             return []
         }
@@ -37,11 +34,7 @@ export async function getRelatedVocabularies(
 
         return result.results || []
     } catch (error) {
-        console.error(
-            "Fetch related vocabularies error:",
-            error
-        )
-
+        if (process.env.NODE_ENV !== "production") console.error("Fetch related vocabularies error:", error)
         return []
     }
 }

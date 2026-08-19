@@ -123,7 +123,7 @@ export default function useSearchHub(
         }
     )
 
-    if (error) {
+    if (error && process.env.NODE_ENV !== "production") {
         console.error("Search hub error:", error)
     }
 

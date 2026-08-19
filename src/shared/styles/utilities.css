@@ -29,8 +29,8 @@
     font-size: 12px;
     font-weight: 800;
     letter-spacing: .2px;
-    background: var(--color-jlpt-n5-soft, #dcfce7);
-    color: var(--color-jlpt-n5, #16a34a);
+    background: var(--color-jlpt-n5-soft);
+    color: var(--color-jlpt-n5);
 }
 .jlpt-badge[data-level="N5"] {
     background: var(--color-jlpt-n5-soft);

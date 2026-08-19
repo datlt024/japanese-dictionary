@@ -1,6 +1,7 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef, useEffect } from "react"
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
 import useSWR from "swr"
 import Link from "next/link"
 import {
@@ -58,6 +59,8 @@ function CreateModal({ onClose, onCreated }: { onClose: () => void; onCreated: (
     const [name, setName] = useState("")
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState<string | null>(null)
+    const modalRef = useRef<HTMLDivElement>(null)
+    useFocusTrap(modalRef, true, onClose)
 
     async function handleCreate() {
         const trimmed = name.trim()
@@ -82,7 +85,7 @@ function CreateModal({ onClose, onCreated }: { onClose: () => void; onCreated: (
 
     return (
         <div className={styles.modalOverlay} onClick={onClose}>
-            <div className={styles.modal} role="dialog" aria-modal="true" aria-label="Tạo sổ tay mới" onClick={(e) => e.stopPropagation()}>
+            <div ref={modalRef} className={styles.modal} role="dialog" aria-modal="true" aria-label="Tạo sổ tay mới" onClick={(e) => e.stopPropagation()}>
                 <div className={styles.modalHeader}>
                     <p className={styles.modalTitle}>Tạo sổ tay mới</p>
                     <button type="button" className={styles.iconBtn} onClick={onClose}>
@@ -299,6 +302,8 @@ export default function AdminClient() {
 
     const [showCreate, setShowCreate] = useState(false)
     const [saved, setSaved] = useState(false)
+    const savedTimerRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined)
+    useEffect(() => () => clearTimeout(savedTimerRef.current), [])
 
     const allGroups = groups ?? []
     const allNbs = notebooks ?? []
@@ -323,7 +328,8 @@ export default function AdminClient() {
             body: JSON.stringify(updates),
         })
         setSaved(true)
-        setTimeout(() => setSaved(false), 2000)
+        clearTimeout(savedTimerRef.current)
+        savedTimerRef.current = setTimeout(() => setSaved(false), 2000)
         mutateGroups()
     }
 

@@ -194,7 +194,7 @@ export default function KanjiStrokeOrder({
                     setReplayKey((value) => value + 1)
                 }
             } catch (error) {
-                console.error(error)
+                if (process.env.NODE_ENV !== "production") console.error(error)
 
                 if (!cancelled) {
                     setPaths([])

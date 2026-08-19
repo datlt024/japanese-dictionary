@@ -110,7 +110,11 @@ export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Pro
         setSaving(true)
 
         try {
-            await fetch(`/api/vocabulary/${vocabularyId}/note`, { method: "DELETE" })
+            const res = await fetch(`/api/vocabulary/${vocabularyId}/note`, { method: "DELETE" })
+            if (!res.ok) {
+                setNoteLoaded((prev) => prev ? { ...prev, error: "Có lỗi xảy ra, thử lại sau" } : prev)
+                return
+            }
             onCloseRef.current()
         } catch {
             setNoteLoaded((prev) => prev ? { ...prev, error: "Có lỗi xảy ra, thử lại sau" } : prev)

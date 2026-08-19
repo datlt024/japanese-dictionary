@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
         (streak_last_date !== null && typeof streak_last_date !== "string") ||
         !Array.isArray(streak_active_days) ||
         streak_active_days.length > 7 ||
-        !streak_active_days.every((d: unknown) => typeof d === "number")
+        !streak_active_days.every((d: unknown) => Number.isInteger(d))
     ) {
         return NextResponse.json({ error: "Dữ liệu không hợp lệ" }, { status: 400 })
     }
