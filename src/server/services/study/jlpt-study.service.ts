@@ -29,8 +29,6 @@ export const getJlptVocabCount = unstable_cache(
     { revalidate: 86400 }
 )
 
-type VocabRow = { id: number; primary_word: string; primary_kana: string | null; meaning_vi: string | null }
-
 export const getJlptVocabItems = unstable_cache(
     async (level: JlptLevel, from: number, to: number) => {
         const { data, error } = await supabaseServer.rpc(

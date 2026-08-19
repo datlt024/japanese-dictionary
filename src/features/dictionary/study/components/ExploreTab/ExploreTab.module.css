@@ -64,6 +64,11 @@
     line-height: 1;
 }
 
+.tabLock {
+    opacity: 0.45;
+    flex-shrink: 0;
+}
+
 .viewToggle {
     display: flex;
     align-items: center;

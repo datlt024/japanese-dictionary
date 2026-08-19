@@ -1,7 +1,7 @@
 "use client"
 
 import { useMemo, useState } from "react"
-import { Eye, Heart, LayoutGrid, List } from "lucide-react"
+import { Eye, Heart, LayoutGrid, List, Lock } from "lucide-react"
 import useSWR from "swr"
 import type { ExploreSection, PublicNotebook } from "@/domain/notebook/notebook.type"
 import {
@@ -19,9 +19,13 @@ import {
     ListView,
     SectionDetailGrid,
 } from "./ExploreCards"
+import { useAuth } from "@/shared/hooks/useAuth"
+import AuthModal from "@/shared/components/AuthModal"
 import styles from "./ExploreTab.module.css"
 
 export default function ExploreTab() {
+    const { user } = useAuth()
+    const [authModalOpen,   setAuthModalOpen]   = useState(false)
     const [subTab,          setSubTab]          = useState<SubTab>("explore")
     const [viewMode,        setViewMode]        = useState<ViewMode>("list")
     const [selected,        setSelected]        = useState<PublicNotebook | null>(null)
@@ -72,6 +76,14 @@ export default function ExploreTab() {
         setViewMode(mode); setSelectedSection(null)
     }
 
+    function handleSubTabClick(tab: SubTab) {
+        if ((tab === "favorites" || tab === "history") && !user) {
+            setAuthModalOpen(true)
+            return
+        }
+        setSubTab(tab)
+    }
+
     // ── Detail views ──────────────────────────────
 
     if (selected) {
@@ -100,7 +112,7 @@ export default function ExploreTab() {
                         type="button"
                         className={styles.subTab}
                         data-active={subTab === "explore" || undefined}
-                        onClick={() => setSubTab("explore")}
+                        onClick={() => handleSubTabClick("explore")}
                     >
                         Khám phá sổ tay
                     </button>
@@ -108,21 +120,23 @@ export default function ExploreTab() {
                         type="button"
                         className={styles.subTab}
                         data-active={subTab === "favorites" || undefined}
-                        onClick={() => setSubTab("favorites")}
+                        onClick={() => handleSubTabClick("favorites")}
                     >
                         <Heart size={13} />
                         Yêu thích
-                        {totalLiked > 0 && <span className={styles.tabBadge}>{totalLiked}</span>}
+                        {user && totalLiked > 0 && <span className={styles.tabBadge}>{totalLiked}</span>}
+                        {!user && <Lock size={11} className={styles.tabLock} />}
                     </button>
                     <button
                         type="button"
                         className={styles.subTab}
                         data-active={subTab === "history" || undefined}
-                        onClick={() => setSubTab("history")}
+                        onClick={() => handleSubTabClick("history")}
                     >
                         <Eye size={13} />
                         Đã xem
-                        {viewedIds.length > 0 && <span className={styles.tabBadge}>{viewedIds.length}</span>}
+                        {user && viewedIds.length > 0 && <span className={styles.tabBadge}>{viewedIds.length}</span>}
+                        {!user && <Lock size={11} className={styles.tabLock} />}
                     </button>
                 </div>
                 <div className={styles.viewToggle}>
@@ -196,6 +210,7 @@ export default function ExploreTab() {
                     isLoading={isLoading}
                 />
             )}
+            <AuthModal open={authModalOpen} onClose={() => setAuthModalOpen(false)} />
         </div>
     )
 }
