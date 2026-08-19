@@ -34,7 +34,11 @@ export async function PATCH(req: NextRequest, { params }: Params) {
     if ("is_public" in body && typeof body.is_public === "boolean") updates.is_public = body.is_public
     if ("public_description" in body) updates.public_description = typeof body.public_description === "string" ? body.public_description : null
     if ("display_order" in body && typeof body.display_order === "number") updates.display_order = body.display_order
-    if ("name" in body && typeof body.name === "string") updates.name = body.name
+    if ("name" in body && typeof body.name === "string") {
+        const name = body.name.trim()
+        if (!name || name.length > 200) return NextResponse.json({ error: "Tên nhóm không được để trống hoặc quá dài" }, { status: 400 })
+        updates.name = name
+    }
     if ("description" in body) updates.description = typeof body.description === "string" ? body.description : null
 
     const { data, error } = await supabase

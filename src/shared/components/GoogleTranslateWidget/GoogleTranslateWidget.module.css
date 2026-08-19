@@ -100,7 +100,7 @@
 }
 
 .speakBtn:hover {
-    background: rgba(66, 133, 244, 0.1);
+    background: var(--color-primary-soft);
 }
 
 .outputText {

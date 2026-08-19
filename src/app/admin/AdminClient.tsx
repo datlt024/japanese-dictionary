@@ -88,7 +88,7 @@ function CreateModal({ onClose, onCreated }: { onClose: () => void; onCreated: (
             <div ref={modalRef} className={styles.modal} role="dialog" aria-modal="true" aria-label="Tạo sổ tay mới" onClick={(e) => e.stopPropagation()}>
                 <div className={styles.modalHeader}>
                     <p className={styles.modalTitle}>Tạo sổ tay mới</p>
-                    <button type="button" className={styles.iconBtn} onClick={onClose}>
+                    <button type="button" className={styles.iconBtn} onClick={onClose} aria-label="Đóng">
                         <X size={16} />
                     </button>
                 </div>

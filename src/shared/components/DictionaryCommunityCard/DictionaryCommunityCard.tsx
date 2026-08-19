@@ -119,7 +119,7 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
         let cancelled = false
 
         fetch("/api/profile")
-            .then((r) => r.json())
+            .then((r) => (r.ok ? r.json() : Promise.reject()))
             .then((profile: { display_name: string; jlpt_level: string | null } | null) => {
                 if (cancelled) return
                 if (profile?.display_name) setDisplayName(profile.display_name)

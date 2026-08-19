@@ -29,8 +29,8 @@ export async function PATCH(request: NextRequest, { params }: Params) {
 
     if (typeof body?.name === "string") {
         const name = body.name.trim()
-        if (!name) {
-            return NextResponse.json({ error: "Tên nhóm không được để trống" }, { status: 400 })
+        if (!name || name.length > 200) {
+            return NextResponse.json({ error: "Tên nhóm không được để trống hoặc quá dài" }, { status: 400 })
         }
         fields.name = name
     }
