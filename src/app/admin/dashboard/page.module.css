@@ -1,8 +1,8 @@
 .page {
-    padding: 28px 0 64px;
+    padding: 24px 0 64px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 20px;
 }
 
 /* ── Header ── */
@@ -16,248 +16,204 @@
 
 .pageTitle {
     margin: 0 0 4px;
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
     color: var(--color-text-primary);
-    text-wrap: balance;
 }
 
 .pageSubtitle {
     margin: 0;
     font-size: 13px;
-    font-weight: 500;
     color: var(--color-text-muted);
 }
 
 .refreshBtn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    flex-shrink: 0;
-
-    height: 34px;
-    padding: 0 14px;
-
-    border: 1.5px solid var(--color-border);
-    border-radius: 10px;
-
+    gap: 5px;
+    height: 30px;
+    padding: 0 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
     background: var(--color-surface);
     color: var(--color-text-secondary);
-
     font-size: 13px;
-    font-weight: 700;
-
+    font-weight: 600;
     text-decoration: none;
-    transition: border-color 0.15s, color 0.15s, background 0.15s;
+    flex-shrink: 0;
+    transition: border-color 0.15s, color 0.15s;
 }
 
 .refreshBtn:hover {
     border-color: var(--color-primary);
     color: var(--color-primary);
-    background: var(--color-primary-soft);
 }
 
-/* ── Sections ── */
+/* ── KPI row — cards separated by 1px dividers ── */
 
-.section {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.sectionLabel {
-    margin: 0;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: var(--color-text-muted);
-}
-
-/* ── KPI Grid (month-over-month) ── */
-
-.kpiGrid {
+.kpiRow {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 14px;
+    gap: 1px;
+    background: var(--color-border);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 .kpiCard {
-    position: relative;
-    padding: 18px 20px 16px;
-    border: 1px solid var(--color-border);
-    border-radius: 16px;
     background: var(--color-surface);
-    overflow: hidden;
+    padding: 22px 24px 18px;
+    display: flex;
+    flex-direction: column;
 }
 
-.kpiCard::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
-    border-radius: 16px 16px 0 0;
-    opacity: 0.9;
-}
-
-.accent_blue::before    { background: #2563EB; }
-.accent_indigo::before  { background: #4F46E5; }
-.accent_violet::before  { background: #7C3AED; }
-.accent_emerald::before { background: #059669; }
-.accent_amber::before   { background: #D97706; }
-.accent_rose::before    { background: #E11D48; }
-.accent_sky::before     { background: #0284C7; }
-
-.kpiIconRow {
+.kpiHead {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
-.kpiIcon {
+.kpiLabel {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+.kpiHeadIcon {
     display: flex;
-    align-items: center;
     color: var(--color-text-muted);
 }
 
-/* ── Change badge ── */
-
-.kpiBadge {
-    display: inline-flex;
-    align-items: center;
-    gap: 3px;
-    padding: 2px 7px;
-    border-radius: 999px;
-    font-size: 11px;
-    font-weight: 800;
-}
-
-.badge_up {
-    background: #ECFDF3;
-    color: #059669;
-}
-
-.badge_down {
-    background: #FFF1F2;
-    color: #E11D48;
-}
-
-.badge_flat {
-    background: var(--color-surface-muted, #F3F4F6);
-    color: var(--color-text-muted);
+.kpiMid {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 20px;
 }
 
 .kpiValue {
-    margin: 0 0 3px;
-    font-size: 32px;
-    font-weight: 900;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
     font-variant-numeric: tabular-nums;
     color: var(--color-text-primary);
     letter-spacing: -0.02em;
     line-height: 1;
 }
 
-.kpiLabel {
-    margin: 0 0 6px;
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--color-text-secondary);
+.kpiSparkWrap {
+    flex-shrink: 0;
+    line-height: 0;
 }
 
-.kpiCompare {
-    margin: 0;
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--color-text-muted);
-}
-
-.kanjiChar {
-    font-size: 16px;
-    font-weight: 900;
-    color: var(--color-text-muted);
-}
-
-/* ── Card wrapper ── */
-
-.card {
-    padding: 20px 24px;
-    border: 1px solid var(--color-border);
-    border-radius: 16px;
-    background: var(--color-surface);
-}
-
-/* ── Trend bar chart ── */
-
-.trendChart {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 8px;
-    align-items: end;
-    height: 140px;
-}
-
-.trendCol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    height: 100%;
-}
-
-.trendCount {
-    font-size: 11px;
-    font-weight: 700;
-    font-variant-numeric: tabular-nums;
-    color: var(--color-text-secondary);
-    text-align: center;
-    line-height: 1;
-}
-
-.trendBarTrack {
-    flex: 1;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    border-radius: 6px;
-    overflow: hidden;
+.kpiDivider {
+    height: 1px;
     background: var(--color-border);
+    margin-bottom: 14px;
 }
 
-.trendBar {
-    width: 100%;
-    background: var(--color-primary);
-    border-radius: 6px;
-    min-height: 4px;
-    transition: height 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+.kpiFoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
 }
 
-.trendLabel {
-    font-size: 10px;
-    font-weight: 700;
+.kpiFootLabel {
+    font-size: 12px;
     color: var(--color-text-muted);
-    text-align: center;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
 }
 
-/* ── Content totals ── */
+.kpiChange {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 12px;
+    font-weight: 700;
+}
 
-.totalsGrid {
+.dir_up   { color: #059669; }
+.dir_down { color: #DC2626; }
+.dir_flat { color: var(--color-text-muted); }
+
+.kpiNote {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-text-muted);
+}
+
+/* ── Chart card ── */
+
+.chartCard {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    overflow: hidden;
+}
+
+.tabBar {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid var(--color-border);
+    padding: 0 20px;
+}
+
+.tab {
+    display: inline-flex;
+    align-items: center;
+    padding: 13px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color 0.15s;
+}
+
+.tab:hover {
+    color: var(--color-text-primary);
+}
+
+.tabActive {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+    font-weight: 700;
+}
+
+.chartBody {
+    padding: 20px 24px 12px;
+}
+
+.chartSvg {
+    display: block;
+    overflow: visible;
+}
+
+/* ── Totals row ── */
+
+.totalsRow {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 1px;
+    background: var(--color-border);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 .totalCard {
+    background: var(--color-surface);
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 14px 16px;
-    border: 1px solid var(--color-border);
-    border-radius: 12px;
-    background: var(--color-surface);
+    gap: 14px;
+    padding: 18px 24px;
 }
 
 .totalIcon {
@@ -267,10 +223,17 @@
     flex-shrink: 0;
 }
 
-.totalValue {
-    margin: 0 0 1px;
-    font-size: 18px;
+.kanjiGlyph {
+    font-size: 17px;
     font-weight: 900;
+    color: var(--color-text-muted);
+    line-height: 1;
+}
+
+.totalValue {
+    margin: 0 0 3px;
+    font-size: 20px;
+    font-weight: 700;
     font-variant-numeric: tabular-nums;
     color: var(--color-text-primary);
     letter-spacing: -0.01em;
@@ -279,118 +242,20 @@
 
 .totalLabel {
     margin: 0;
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--color-text-muted);
-}
-
-/* ── Tool links ── */
-
-.toolGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
-.toolCard {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 14px 16px;
-
-    border: 1px solid var(--color-border);
-    border-radius: 12px;
-
-    background: var(--color-surface);
-    text-decoration: none;
-
-    transition: border-color 0.15s, background 0.15s;
-}
-
-.toolCard:hover {
-    border-color: var(--color-primary);
-    background: var(--color-primary-soft);
-}
-
-.toolIcon {
-    color: var(--color-primary);
-    flex-shrink: 0;
-}
-
-.toolKanji {
-    font-size: 18px;
-    font-weight: 900;
-    color: var(--color-primary);
-    flex-shrink: 0;
-    line-height: 1;
-}
-
-.toolName {
-    margin: 0 0 2px;
-    font-size: 14px;
-    font-weight: 800;
-    color: var(--color-text-primary);
-}
-
-.toolDesc {
-    margin: 0;
     font-size: 12px;
-    font-weight: 500;
-    color: var(--color-text-secondary);
-}
-
-.toolArrow {
-    margin-left: auto;
-    flex-shrink: 0;
     color: var(--color-text-muted);
-    transition: transform 0.15s, color 0.15s;
-}
-
-.toolCard:hover .toolArrow {
-    transform: translateX(3px);
-    color: var(--color-primary);
 }
 
 /* ── Responsive ── */
 
 @media (max-width: 900px) {
-    .kpiGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .totalsGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    .kpiRow    { grid-template-columns: repeat(2, 1fr); }
+    .totalsRow { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 600px) {
-    .page {
-        gap: 24px;
-    }
-
-    .kpiGrid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-
-    .totalsGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .toolGrid {
-        grid-template-columns: 1fr;
-    }
-
-    .kpiValue {
-        font-size: 26px;
-    }
-
-    .pageHeader {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .trendChart {
-        height: 110px;
-    }
+    .kpiRow    { grid-template-columns: 1fr; }
+    .totalsRow { grid-template-columns: repeat(2, 1fr); }
+    .kpiValue  { font-size: 26px; }
+    .pageHeader { flex-direction: column; }
 }
