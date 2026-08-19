@@ -2,10 +2,14 @@ import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { isAdminUserId } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 
 type Params = { params: Promise<{ id: string }> }
 
 export async function PATCH(req: NextRequest, { params }: Params) {
+    const rl = rateLimit(`admin-grp-patch:${req.headers.get("x-forwarded-for") ?? "local"}`, 30, 60_000)
+    if (!rl.ok) return rl.response
+
     const { id } = await params
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 import { supabaseAdmin } from "@/server/supabase/admin"
 import { enrichItems } from "@/server/services/notebook/enrich-items.service"
 import { serverError } from "@/server/utils/api-error"
+import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 import type { NotebookItem } from "@/domain/notebook/notebook.type"
 
 type Params = { params: Promise<{ id: string }> }
@@ -28,7 +29,10 @@ async function isNotebookAccessible(notebookId: string): Promise<boolean> {
     return !!group
 }
 
-export async function GET(_req: NextRequest, { params }: Params) {
+export async function GET(req: NextRequest, { params }: Params) {
+    const rl = rateLimit(`explore-items:${getClientIp(req)}`, 60, 60_000)
+    if (!rl.ok) return rl.response
+
     const { id } = await params
 
     const accessible = await isNotebookAccessible(id)

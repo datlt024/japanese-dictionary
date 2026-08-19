@@ -2,8 +2,12 @@ import { type NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { isAdminUserId } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+    const rl = rateLimit(`admin-nb:${req.headers.get("x-forwarded-for") ?? "local"}`, 30, 60_000)
+    if (!rl.ok) return rl.response
+
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
