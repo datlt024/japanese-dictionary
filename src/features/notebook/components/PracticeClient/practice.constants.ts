@@ -8,8 +8,8 @@ export const RATINGS = [
         label: "Không nhớ",
         sublabel: "Ôn lại ngay",
         emoji: "😟",
-        color: "#ef4444",
-        bg: "#fef2f2",
+        color: "var(--color-danger)",
+        bg: "var(--color-danger-soft)",
         border: "#fca5a5",
     },
     {
@@ -17,8 +17,8 @@ export const RATINGS = [
         label: "Khó nhớ",
         sublabel: "Ôn lại sau",
         emoji: "😕",
-        color: "#d97706",
-        bg: "#fffbeb",
+        color: "var(--color-warning)",
+        bg: "var(--color-warning-soft)",
         border: "#fcd34d",
     },
     {
@@ -26,8 +26,8 @@ export const RATINGS = [
         label: "Bình thường",
         sublabel: "Ôn lại sau 3 ngày",
         emoji: "😊",
-        color: "#16a34a",
-        bg: "#f0fdf4",
+        color: "var(--color-success)",
+        bg: "var(--color-success-soft)",
         border: "#86efac",
     },
     {
@@ -35,8 +35,8 @@ export const RATINGS = [
         label: "Dễ nhớ",
         sublabel: "Ôn lại sau 7 ngày",
         emoji: "😄",
-        color: "#2563eb",
-        bg: "#eff6ff",
+        color: "var(--color-primary)",
+        bg: "var(--color-primary-soft)",
         border: "#93c5fd",
     },
 ] as const

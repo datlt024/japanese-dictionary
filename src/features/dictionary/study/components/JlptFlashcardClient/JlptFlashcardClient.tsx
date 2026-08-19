@@ -157,7 +157,7 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
 
                     <div className={styles.summaryActions}>
                         {fetchError && (
-                            <p style={{ color: "#ef4444", fontSize: "0.85rem", margin: "0 0 8px" }}>{fetchError}</p>
+                            <p style={{ color: "var(--color-danger)", fontSize: "0.85rem", margin: "0 0 8px" }}>{fetchError}</p>
                         )}
                         <button
                             className={styles.newSessionBtn}

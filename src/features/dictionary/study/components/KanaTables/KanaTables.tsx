@@ -242,7 +242,7 @@ const OPTIONS = [
         desc: "Bảng chữ cơ bản — dùng trong văn bản tiếng Nhật thông thường",
         deco: "あいうえおかきくさしすたちつなにぬはひふ",
         seion: HIRA_SEION, dakuten: HIRA_DAKUTEN, yoon: HIRA_YOON,
-        accentColor: "#2563eb",
+        accentColor: "var(--color-primary)",
     },
     {
         id: "katakana",
@@ -251,7 +251,7 @@ const OPTIONS = [
         desc: "Bảng chữ phiên âm — dùng cho từ ngoại lai và tên riêng",
         deco: "アイウエオカキクサシスタチツナニヌハヒフ",
         seion: KATA_SEION, dakuten: KATA_DAKUTEN, yoon: KATA_YOON,
-        accentColor: "#7c3aed",
+        accentColor: "var(--color-jlpt-n3)",
     },
 ] as const
 
