@@ -2,9 +2,13 @@ import { NextResponse } from "next/server"
 
 type Entry = { count: number; resetAt: number }
 
+// NOTE: process-local store — each serverless Lambda instance has its own Map;
+// rate limits are not enforced across instances. For production-grade limiting,
+// replace this with an external store such as Upstash Redis.
 const store = new Map<string, Entry>()
 
-// Periodically clean up expired entries to avoid memory leak
+// Cleanup timer only runs in long-lived Node.js processes; setInterval
+// callbacks never fire between serverless invocations (each is stateless).
 if (typeof setInterval !== "undefined") {
     setInterval(() => {
         const now = Date.now()
@@ -28,15 +32,19 @@ export function checkRateLimit(
         return { ok: true, remaining: limit - 1, resetAt }
     }
 
-    entry.count++
+    // Cap at limit + 1 to avoid integer overflow on sustained hammering
+    entry.count = Math.min(entry.count + 1, limit + 1)
     const remaining = Math.max(0, limit - entry.count)
     return { ok: entry.count <= limit, remaining, resetAt: entry.resetAt }
 }
 
 export function getClientIp(request: Request): string {
+    // x-real-ip is set by Vercel's edge network and cannot be spoofed by clients.
+    // Fall back to the last x-forwarded-for entry (appended by the trusted proxy),
+    // not the first entry which clients can freely prepend arbitrary IPs to.
     return (
-        request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
         request.headers.get("x-real-ip") ??
+        request.headers.get("x-forwarded-for")?.split(",").pop()?.trim() ??
         "unknown"
     )
 }

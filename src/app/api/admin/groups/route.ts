@@ -1,19 +1,21 @@
-import { NextRequest, NextResponse } from "next/server"
+import { NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { isAdminUserId } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 
-export async function GET(req: NextRequest) {
-    const rl = rateLimit(`admin-grp:${req.headers.get("x-forwarded-for") ?? "local"}`, 30, 60_000)
-    if (!rl.ok) return rl.response
-
+export async function GET() {
+    // Auth before rate limit so we key by user ID (not IP), preventing
+    // unauthenticated callers from exhausting the admin bucket
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
     if (!user || !isAdminUserId(user.id)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
+
+    const rl = rateLimit(`admin-grp:${user.id}`, 30, 60_000)
+    if (!rl.ok) return rl.response
 
     const { data: groups, error } = await supabase
         .from("notebook_groups")

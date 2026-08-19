@@ -4,16 +4,17 @@ import { isAdminUserId } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 
-export async function GET(req: NextRequest) {
-    const rl = rateLimit(`admin-nb:${req.headers.get("x-forwarded-for") ?? "local"}`, 30, 60_000)
-    if (!rl.ok) return rl.response
-
+export async function GET() {
+    // Auth before rate limit so we key by user ID, not spoofable IP
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
     if (!user || !isAdminUserId(user.id)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
+
+    const rl = rateLimit(`admin-nb:${user.id}`, 30, 60_000)
+    if (!rl.ok) return rl.response
 
     const { data, error } = await supabase
         .from("notebooks")
@@ -45,12 +46,16 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
+    // Auth before rate limit so we key by user ID, not spoofable IP
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
     if (!user || !isAdminUserId(user.id)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
+
+    const rl = rateLimit(`admin-nb-post:${user.id}`, 20, 60_000)
+    if (!rl.ok) return rl.response
 
     const body = await req.json().catch(() => null)
     const name = typeof body?.name === "string" ? body.name.trim() : ""
