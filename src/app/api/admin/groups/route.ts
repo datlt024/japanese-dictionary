@@ -19,36 +19,17 @@ export async function GET() {
 
     const { data: groups, error } = await supabase
         .from("notebook_groups")
-        .select("id, name, description, is_public, public_description, display_order, created_at")
+        .select("id, name, description, is_public, public_description, display_order, created_at, notebooks(count)")
         .eq("user_id", user.id)
         .order("display_order", { ascending: true })
         .order("name", { ascending: true })
 
     if (error) return serverError(error, "GET /api/admin/groups")
 
-    // Fetch all notebook counts in a single query and group by group_id in JS
-    const groupIds = (groups ?? []).map((g) => g.id)
-    const countMap = new Map<string, number>()
-    if (groupIds.length > 0) {
-        // HEAD requests: zero row transfer, one round-trip per group
-        const counts = await Promise.all(
-            groupIds.map(async (id) => {
-                const { count } = await supabase
-                    .from("notebooks")
-                    .select("*", { count: "exact", head: true })
-                    .eq("group_id", id)
-                return [id, count ?? 0] as const
-            })
-        )
-        for (const [id, count] of counts) {
-            countMap.set(id, count)
-        }
-    }
-
-    const result = (groups ?? []).map((g) => ({
-        ...g,
-        notebook_count: countMap.get(g.id) ?? 0,
-    }))
+    const result = (groups ?? []).map((g) => {
+        const { notebooks, ...rest } = g as typeof g & { notebooks: { count: number }[] }
+        return { ...rest, notebook_count: notebooks?.[0]?.count ?? 0 }
+    })
 
     return NextResponse.json(result)
 }

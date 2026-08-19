@@ -182,7 +182,7 @@
     border: none;
     border-radius: 10px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
 
     font-size: 13px;
     font-weight: 700;
@@ -431,7 +431,7 @@
     border: none;
     border-radius: 10px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
 
     font-size: 13px;
     font-weight: 700;
@@ -496,7 +496,7 @@
     border: none;
     border-radius: 8px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
 
     font-size: 13px;
     font-weight: 700;
@@ -892,7 +892,7 @@
     padding: 10px 20px;
 
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
 
     border: none;
     border-radius: 12px;
@@ -1020,7 +1020,7 @@
     border: none;
     border-radius: 8px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
     font-size: 13px;
     font-weight: 700;
     cursor: pointer;
@@ -1085,7 +1085,7 @@
     border: none;
     border-radius: 10px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
 
     font-size: 13px;
     font-weight: 700;
@@ -1365,7 +1365,7 @@
     border: none;
     border-radius: 12px;
     background: var(--color-danger, var(--color-danger));
-    color: #fff;
+    color: var(--color-text-invert);
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;

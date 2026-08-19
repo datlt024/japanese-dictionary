@@ -82,7 +82,7 @@ function CreateModal({ onClose, onCreated }: { onClose: () => void; onCreated: (
 
     return (
         <div className={styles.modalOverlay} onClick={onClose}>
-            <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+            <div className={styles.modal} role="dialog" aria-modal="true" aria-label="Tạo sổ tay mới" onClick={(e) => e.stopPropagation()}>
                 <div className={styles.modalHeader}>
                     <p className={styles.modalTitle}>Tạo sổ tay mới</p>
                     <button type="button" className={styles.iconBtn} onClick={onClose}>
@@ -90,8 +90,9 @@ function CreateModal({ onClose, onCreated }: { onClose: () => void; onCreated: (
                     </button>
                 </div>
                 <div className={styles.modalBody}>
-                    <label className={styles.label}>Tên sổ tay</label>
+                    <label className={styles.label} htmlFor="create-notebook-name">Tên sổ tay</label>
                     <input
+                        id="create-notebook-name"
                         className={styles.input}
                         type="text"
                         value={name}
@@ -180,8 +181,9 @@ function GroupRow({ group, notebooks, onTogglePublic, onSaveGroup, onCreateNoteb
                 <div className={styles.editRow}>
                     <div className={styles.editGrid}>
                         <div className={styles.editField}>
-                            <label className={styles.label}>Mô tả công khai</label>
+                            <label className={styles.label} htmlFor={`group-desc-${group.id}`}>Mô tả công khai</label>
                             <input
+                                id={`group-desc-${group.id}`}
                                 className={styles.input}
                                 value={desc}
                                 onChange={(e) => setDesc(e.target.value)}
@@ -189,8 +191,9 @@ function GroupRow({ group, notebooks, onTogglePublic, onSaveGroup, onCreateNoteb
                             />
                         </div>
                         <div className={styles.editField}>
-                            <label className={styles.label}>Thứ tự</label>
+                            <label className={styles.label} htmlFor={`group-order-${group.id}`}>Thứ tự</label>
                             <input
+                                id={`group-order-${group.id}`}
                                 className={styles.input}
                                 type="number"
                                 min={0}

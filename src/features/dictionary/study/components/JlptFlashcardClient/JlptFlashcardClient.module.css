@@ -407,7 +407,7 @@
     width: 100%;
     padding: 12px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
     border: none;
     border-radius: 12px;
     font-size: 14px;

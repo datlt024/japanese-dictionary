@@ -254,11 +254,12 @@ export default function ExamActivePhase({
                                                                         {[1,2,3,4].map((num, oi) => {
                                                                             const isSel = answers[gi] === oi
                                                                             return (
-                                                                                <label key={oi} className={styles.qOption} data-selected={isSel || undefined}
+                                                                                <button key={oi} type="button" className={styles.qOption} data-selected={isSel || undefined}
+                                                                                    aria-pressed={isSel}
                                                                                     onClick={e => { e.stopPropagation(); onSelect(gi, oi) }}>
                                                                                     <span className={styles.qRadio} data-selected={isSel || undefined} />
                                                                                     <span className={styles.qOptText}>{num}</span>
-                                                                                </label>
+                                                                                </button>
                                                                             )
                                                                         })}
                                                                     </div>
@@ -268,12 +269,13 @@ export default function ExamActivePhase({
                                                                     {q.options.map((opt, oi) => {
                                                                         const isSel = answers[gi] === oi
                                                                         return (
-                                                                            <label key={oi} className={styles.qOption} data-selected={isSel || undefined}
+                                                                            <button key={oi} type="button" className={styles.qOption} data-selected={isSel || undefined}
+                                                                                aria-pressed={isSel}
                                                                                 onClick={e => { e.stopPropagation(); onSelect(gi, oi) }}>
                                                                                 <span className={styles.qRadio} data-selected={isSel || undefined} />
                                                                                 <span className={styles.qOptNum}>{oi + 1}</span>
                                                                                 <span className={styles.qOptText}>{opt}</span>
-                                                                            </label>
+                                                                            </button>
                                                                         )
                                                                     })}
                                                                 </div>

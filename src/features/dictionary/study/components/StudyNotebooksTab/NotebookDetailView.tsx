@@ -53,11 +53,12 @@ export default function NotebookDetailView({ notebook, onBack, onDelete, onPract
         if (removingId) return
         setRemovingId(item.id)
         try {
-            await fetch(`/api/notebooks/${notebook.id}/items`, {
+            const res = await fetch(`/api/notebooks/${notebook.id}/items`, {
                 method: "DELETE",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ item_type: item.item_type, item_id: item.item_id }),
             })
+            if (!res.ok) return
             await mutate()
         } finally {
             setRemovingId(null)

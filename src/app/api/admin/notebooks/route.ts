@@ -18,36 +18,17 @@ export async function GET() {
 
     const { data, error } = await supabase
         .from("notebooks")
-        .select("id, name, description, group_id, is_public, public_category, public_description, display_order, created_at, updated_at")
+        .select("id, name, description, group_id, is_public, public_category, public_description, display_order, created_at, updated_at, notebook_items(count)")
         .eq("user_id", user.id)
         .order("display_order", { ascending: true })
         .order("name", { ascending: true })
 
     if (error) return serverError(error, "GET /api/admin/notebooks")
 
-    // Fetch all item counts in a single query and group by notebook_id in JS
-    const notebookIds = (data ?? []).map((nb) => nb.id)
-    const countMap = new Map<string, number>()
-    if (notebookIds.length > 0) {
-        // HEAD requests: zero row transfer, one round-trip per notebook
-        const counts = await Promise.all(
-            notebookIds.map(async (id) => {
-                const { count } = await supabase
-                    .from("notebook_items")
-                    .select("*", { count: "exact", head: true })
-                    .eq("notebook_id", id)
-                return [id, count ?? 0] as const
-            })
-        )
-        for (const [id, count] of counts) {
-            countMap.set(id, count)
-        }
-    }
-
-    const result = (data ?? []).map((nb) => ({
-        ...nb,
-        item_count: countMap.get(nb.id) ?? 0,
-    }))
+    const result = (data ?? []).map((nb) => {
+        const { notebook_items, ...rest } = nb as typeof nb & { notebook_items: { count: number }[] }
+        return { ...rest, item_count: notebook_items?.[0]?.count ?? 0 }
+    })
 
     return NextResponse.json(result)
 }

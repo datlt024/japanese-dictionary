@@ -370,7 +370,7 @@
     width: 100%;
     padding: 14px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
     border: none;
     border-radius: 14px;
     font-size: 15px;
@@ -520,7 +520,7 @@
 .examSubmitBtn {
     padding: 7px 16px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
     border: none;
     border-radius: 10px;
     font-size: 13px;
@@ -614,7 +614,7 @@
     border-radius: 50%;
     border: none;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
     cursor: pointer;
     flex-shrink: 0;
     transition: opacity 0.15s;
@@ -1841,7 +1841,7 @@
     flex: 1;
     padding: 12px 20px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
     border: none;
     border-radius: 12px;
     font-size: 14px;

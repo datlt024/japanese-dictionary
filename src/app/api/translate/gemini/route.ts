@@ -4,32 +4,25 @@ import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 const GEMINI_MODEL = "models/gemini-flash-lite-latest"
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/${GEMINI_MODEL}:generateContent`
 
-function buildPrompt(text: string, sl: string, tl: string): string {
+function buildSystemInstruction(sl: string, tl: string): string {
     if (sl === "ja" && tl === "vi") {
         return `Bạn là chuyên gia dịch thuật Nhật-Việt cho người Việt đang học tiếng Nhật.
-
-Dịch văn bản tiếng Nhật sau sang tiếng Việt:
+Dịch văn bản tiếng Nhật sang tiếng Việt:
 - Nếu là từ đơn hoặc cụm từ: dịch nghĩa chính xác, tự nhiên, có thể thêm ngữ cảnh ngắn trong ngoặc nếu cần
 - Nếu là câu hoàn chỉnh hoặc đoạn văn: dịch nguyên văn, giữ ý nghĩa và giọng điệu gốc
-- Chỉ trả về bản dịch tiếng Việt, không giải thích ngữ pháp
-
-Văn bản: ${text}`
+- Chỉ trả về bản dịch tiếng Việt, không giải thích ngữ pháp`
     }
 
     if (sl === "vi" && tl === "ja") {
         return `Bạn là chuyên gia dịch thuật Việt-Nhật.
-
-Dịch văn bản tiếng Việt sau sang tiếng Nhật:
+Dịch văn bản tiếng Việt sang tiếng Nhật:
 - Sử dụng chữ Hán (kanji) và kana phù hợp
 - Giữ mức độ lịch sự trung bình (丁寧語) nếu không có chỉ định rõ ràng
 - Nếu là câu hoàn chỉnh, dịch nguyên văn, giữ ý nghĩa gốc
-- Chỉ trả về bản dịch tiếng Nhật, không giải thích thêm, không thêm romaji
-
-Văn bản: ${text}`
+- Chỉ trả về bản dịch tiếng Nhật, không giải thích thêm, không thêm romaji`
     }
 
-    // Generic fallback
-    return `Translate the following text from ${sl} to ${tl}. Return only the translation.\n\nText: ${text}`
+    return `Translate the following text from ${sl} to ${tl}. Return only the translation.`
 }
 
 export async function POST(request: NextRequest) {
@@ -63,7 +56,8 @@ export async function POST(request: NextRequest) {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-                contents: [{ parts: [{ text: buildPrompt(text, sl, tl) }] }],
+                systemInstruction: { parts: [{ text: buildSystemInstruction(sl, tl) }] },
+                contents: [{ role: "user", parts: [{ text }] }],
                 generationConfig: { temperature: 0.1 },
             }),
             signal: AbortSignal.timeout(10_000),

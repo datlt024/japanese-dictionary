@@ -204,7 +204,7 @@
     border-radius: 10px;
 
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-text-invert);
 
     font-size: 13px;
     font-weight: 700;
