@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useCallback, useSyncExternalStore } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import {
@@ -14,6 +14,13 @@ import {
 import styles from "./Sidebar.module.css"
 
 const SIDEBAR_COLLAPSED_KEY = "sidebarCollapsed"
+
+function subscribeSidebar(cb: () => void) {
+    window.addEventListener("storage", cb)
+    return () => window.removeEventListener("storage", cb)
+}
+const getSnapshot = () => localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
+const getServerSnapshot = () => false
 
 type MenuItem = {
     href: string
@@ -33,17 +40,13 @@ const menuItems: MenuItem[] = [
 
 export default function Sidebar() {
     const pathname = usePathname()
-    const [collapsed, setCollapsed] = useState(
-        () => typeof window !== "undefined" && localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true"
-    )
+    const collapsed = useSyncExternalStore(subscribeSidebar, getSnapshot, getServerSnapshot)
 
-    function toggleSidebar() {
-        setCollapsed((current) => {
-            const next = !current
-            localStorage.setItem(SIDEBAR_COLLAPSED_KEY, String(next))
-            return next
-        })
-    }
+    const toggleSidebar = useCallback(() => {
+        const next = !(localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true")
+        localStorage.setItem(SIDEBAR_COLLAPSED_KEY, String(next))
+        window.dispatchEvent(new StorageEvent("storage", { key: SIDEBAR_COLLAPSED_KEY }))
+    }, [])
 
     return (
         <aside
@@ -52,7 +55,6 @@ export default function Sidebar() {
                     ? `${styles.sidebar} ${styles.sidebarCollapsed}`
                     : styles.sidebar
             }
-            suppressHydrationWarning
         >
             <div className={styles.sidebarHeader}>
                 <Link href="/" className={styles.sidebarLogo} aria-label="Yomi — trang chủ">
