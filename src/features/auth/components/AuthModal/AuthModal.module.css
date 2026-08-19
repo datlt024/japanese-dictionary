@@ -160,11 +160,74 @@
     gap: 10px;
 }
 
+.labelRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .label {
     color: var(--color-text-primary);
 
     font-size: 13px;
     font-weight: 800;
+}
+
+.forgotLink {
+    border: none;
+    padding: 0;
+    background: transparent;
+
+    color: var(--color-primary);
+
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: opacity 0.15s ease;
+}
+
+.forgotLink:hover {
+    opacity: 0.7;
+}
+
+/* ── Input ── */
+
+.inputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputWrapper > .input {
+    padding-right: 44px;
+}
+
+.eyeButton {
+    position: absolute;
+    right: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28px;
+    height: 28px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: transparent;
+    color: var(--color-text-secondary);
+
+    cursor: pointer;
+
+    transition: color 0.15s ease;
+}
+
+.eyeButton:hover {
+    color: var(--color-text-primary);
 }
 
 .input {
@@ -199,25 +262,6 @@
 .input:disabled {
     background: var(--color-bg);
     opacity: 0.7;
-}
-
-.sentNote {
-    margin: 0;
-
-    padding: 10px 12px;
-
-    border-radius: 10px;
-
-    background: var(--color-success-soft);
-    color: var(--color-success);
-
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1.5;
-}
-
-.sentNote strong {
-    font-weight: 800;
 }
 
 .error {
@@ -279,6 +323,76 @@
 
 .textButton:hover {
     color: var(--color-primary);
+}
+
+/* ── Switch step ── */
+
+.switchNote {
+    margin: 0;
+
+    text-align: center;
+
+    color: var(--color-text-secondary);
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.switchLink {
+    border: none;
+    padding: 0;
+    background: transparent;
+
+    color: var(--color-primary);
+
+    font-size: 13px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: opacity 0.15s ease;
+}
+
+.switchLink:hover {
+    opacity: 0.7;
+}
+
+/* ── Sent box ── */
+
+.sentBox {
+    padding: 14px 16px;
+
+    border-radius: 12px;
+
+    background: var(--color-success-soft);
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.sentTitle {
+    margin: 0;
+
+    color: var(--color-success);
+
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.sentDesc {
+    margin: 0;
+
+    color: var(--color-text-secondary);
+
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.sentDesc strong {
+    color: var(--color-text-primary);
+    font-weight: 700;
 }
 
 /* ── Animations ── */

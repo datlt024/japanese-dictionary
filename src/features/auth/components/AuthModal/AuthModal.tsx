@@ -8,17 +8,14 @@ import {
     useState,
 } from "react"
 
-import { X } from "lucide-react"
+import { Eye, EyeOff, X } from "lucide-react"
 
 import { createSupabaseBrowserClient } from "@/shared/lib/supabase/auth-client"
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
 
 import styles from "./AuthModal.module.css"
 
-import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
-
-const RESEND_COOLDOWN = 60
-
-type Step = "email" | "otp"
+type Step = "signin" | "signup" | "forgot" | "sent"
 
 type AuthModalProps = {
     open: boolean
@@ -27,13 +24,15 @@ type AuthModalProps = {
 }
 
 export default function AuthModal({ open, onClose, initialError }: AuthModalProps) {
-    const [step, setStep] = useState<Step>("email")
+    const [step, setStep] = useState<Step>("signin")
     const [email, setEmail] = useState("")
-    const [otp, setOtp] = useState("")
+    const [password, setPassword] = useState("")
+    const [confirmPassword, setConfirmPassword] = useState("")
+    const [showPassword, setShowPassword] = useState(false)
+    const [showConfirmPassword, setShowConfirmPassword] = useState(false)
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState<string | null>(initialError ?? null)
-    const [sent, setSent] = useState(false)
-    const [resendCooldown, setResendCooldown] = useState(0)
+    const [sentContext, setSentContext] = useState<"signup" | "forgot">("forgot")
 
     const handleCloseRef = useRef<() => void>(null!)
     const modalRef = useRef<HTMLDivElement>(null)
@@ -47,20 +46,15 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
         return () => document.removeEventListener("keydown", handleKey)
     }, [open])
 
-    useEffect(() => {
-        if (resendCooldown <= 0) return
-        const timer = setTimeout(() => setResendCooldown((c) => c - 1), 1000)
-        return () => clearTimeout(timer)
-    }, [resendCooldown])
-
     function resetState() {
-        setStep("email")
+        setStep("signin")
         setEmail("")
-        setOtp("")
+        setPassword("")
+        setConfirmPassword("")
+        setShowPassword(false)
+        setShowConfirmPassword(false)
         setError(null)
-        setSent(false)
         setLoading(false)
-        setResendCooldown(0)
     }
 
     function handleClose() {
@@ -71,79 +65,106 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
 
     useFocusTrap(modalRef, open, handleClose)
 
-    async function handleSendOtp(e: FormEvent) {
-        e.preventDefault()
-        const trimmed = email.trim()
-        if (!trimmed) return
-
-        setLoading(true)
+    function goTo(s: Step) {
         setError(null)
-
-        const supabase = createSupabaseBrowserClient()
-        const { error: err } = await supabase.auth.signInWithOtp({
-            email: trimmed,
-            options: { shouldCreateUser: true },
-        })
-
-        setLoading(false)
-
-        if (err) {
-            setError("Không thể gửi mã. Vui lòng thử lại.")
-            return
-        }
-
-        setSent(true)
-        setStep("otp")
-        setResendCooldown(RESEND_COOLDOWN)
+        setPassword("")
+        setConfirmPassword("")
+        setShowPassword(false)
+        setShowConfirmPassword(false)
+        setStep(s)
     }
 
-    async function handleResendOtp() {
-        const trimmed = email.trim()
-        if (!trimmed || resendCooldown > 0) return
-
-        setLoading(true)
-        setError(null)
-
-        const supabase = createSupabaseBrowserClient()
-        const { error: err } = await supabase.auth.signInWithOtp({
-            email: trimmed,
-            options: { shouldCreateUser: true },
-        })
-
-        setLoading(false)
-
-        if (err) {
-            setError("Không thể gửi lại mã. Vui lòng thử lại.")
-            return
-        }
-
-        setSent(true)
-        setResendCooldown(RESEND_COOLDOWN)
-    }
-
-    async function handleVerifyOtp(e: FormEvent) {
+    async function handleSignIn(e: FormEvent) {
         e.preventDefault()
-        const trimmed = otp.trim()
-        if (!trimmed) return
-
+        if (!email.trim() || !password) return
         setLoading(true)
         setError(null)
 
         const supabase = createSupabaseBrowserClient()
-        const { error: err } = await supabase.auth.verifyOtp({
+        const { error: err } = await supabase.auth.signInWithPassword({
             email: email.trim(),
-            token: trimmed,
-            type: "email",
+            password,
         })
 
         setLoading(false)
 
         if (err) {
-            setError("Mã không đúng hoặc đã hết hạn. Vui lòng thử lại.")
+            const msg = err.message.toLowerCase()
+            if (msg.includes("invalid") || msg.includes("credentials")) {
+                setError("Email hoặc mật khẩu không đúng.")
+            } else if (msg.includes("not confirmed")) {
+                setError("Email chưa được xác nhận. Vui lòng kiểm tra hộp thư.")
+            } else {
+                setError("Đăng nhập thất bại. Vui lòng thử lại.")
+            }
             return
         }
 
         handleClose()
+    }
+
+    async function handleSignUp(e: FormEvent) {
+        e.preventDefault()
+        if (!email.trim() || !password || !confirmPassword) return
+
+        if (password.length < 6) {
+            setError("Mật khẩu phải có ít nhất 6 ký tự.")
+            return
+        }
+        if (password !== confirmPassword) {
+            setError("Mật khẩu xác nhận không khớp.")
+            return
+        }
+
+        setLoading(true)
+        setError(null)
+
+        const supabase = createSupabaseBrowserClient()
+        const { data, error: err } = await supabase.auth.signUp({
+            email: email.trim(),
+            password,
+        })
+
+        setLoading(false)
+
+        if (err) {
+            const msg = err.message.toLowerCase()
+            if (msg.includes("already") || msg.includes("registered")) {
+                setError("Email này đã được đăng ký. Vui lòng đăng nhập.")
+            } else {
+                setError("Đăng ký thất bại. Vui lòng thử lại.")
+            }
+            return
+        }
+
+        if (data.session) {
+            handleClose()
+        } else {
+            setSentContext("signup")
+            setStep("sent")
+        }
+    }
+
+    async function handleForgotPassword(e: FormEvent) {
+        e.preventDefault()
+        if (!email.trim()) return
+        setLoading(true)
+        setError(null)
+
+        const supabase = createSupabaseBrowserClient()
+        const { error: err } = await supabase.auth.resetPasswordForEmail(email.trim(), {
+            redirectTo: `${window.location.origin}/auth/callback`,
+        })
+
+        setLoading(false)
+
+        if (err) {
+            setError("Không thể gửi email đặt lại. Vui lòng thử lại.")
+            return
+        }
+
+        setSentContext("forgot")
+        setStep("sent")
     }
 
     async function handleGoogleSignIn() {
@@ -153,9 +174,7 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
         const supabase = createSupabaseBrowserClient()
         const { error: err } = await supabase.auth.signInWithOAuth({
             provider: "google",
-            options: {
-                redirectTo: `${window.location.origin}/auth/callback`,
-            },
+            options: { redirectTo: `${window.location.origin}/auth/callback` },
         })
 
         if (err) {
@@ -166,6 +185,13 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
 
     if (!open) return null
 
+    const titles: Record<Step, string> = {
+        signin: "Đăng nhập",
+        signup: "Đăng ký",
+        forgot: "Quên mật khẩu",
+        sent: sentContext === "signup" ? "Xác nhận email" : "Kiểm tra email",
+    }
+
     return (
         <div className={styles.overlay} role="presentation" onClick={handleClose}>
             <div
@@ -174,117 +200,265 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
                 aria-modal="true"
-                aria-label="Đăng nhập"
+                aria-label={titles[step]}
             >
                 <div className={styles.header}>
-                    <h2>Đăng nhập</h2>
+                    <h2>{titles[step]}</h2>
                     <button
                         className={styles.closeButton}
                         onClick={handleClose}
                         aria-label="Đóng"
+                        type="button"
                     >
                         <X size={16} />
                     </button>
                 </div>
 
                 <div className={styles.body}>
-                    <p className={styles.description}>
-                        Đăng nhập để lưu từ vựng, hán tự và ngữ pháp vào sổ tay cá nhân.
-                    </p>
 
-                    <button
-                        className={styles.googleButton}
-                        onClick={handleGoogleSignIn}
-                        disabled={loading}
-                        type="button"
-                    >
-                        <GoogleIcon />
-                        Đăng nhập bằng Google
-                    </button>
-
-                    <div className={styles.divider}>
-                        <span>hoặc</span>
-                    </div>
-
-                    {step === "email" ? (
-                        <form onSubmit={handleSendOtp} className={styles.form}>
-                            <label className={styles.label} htmlFor="auth-email">
-                                Email
-                            </label>
-                            <input
-                                id="auth-email"
-                                className={styles.input}
-                                type="email"
-                                placeholder="ban@example.com"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                                autoFocus
-                                required
+                    {/* ── Sign In ── */}
+                    {step === "signin" && (
+                        <>
+                            <button
+                                className={styles.googleButton}
+                                onClick={handleGoogleSignIn}
                                 disabled={loading}
-                            />
-                            {error && <p className={styles.error}>{error}</p>}
-                            <button
-                                className={styles.primaryButton}
-                                type="submit"
-                                disabled={loading || !email.trim()}
-                            >
-                                {loading ? "Đang gửi..." : "Gửi mã xác nhận"}
-                            </button>
-                        </form>
-                    ) : (
-                        <form onSubmit={handleVerifyOtp} className={styles.form}>
-                            {sent && (
-                                <p className={styles.sentNote}>
-                                    Mã xác nhận đã gửi đến <strong>{email}</strong>
-                                </p>
-                            )}
-                            <label className={styles.label} htmlFor="auth-otp">
-                                Mã xác nhận
-                            </label>
-                            <input
-                                id="auth-otp"
-                                className={styles.input}
-                                type="text"
-                                inputMode="numeric"
-                                placeholder="000000"
-                                value={otp}
-                                onChange={(e) => setOtp(e.target.value)}
-                                autoFocus
-                                maxLength={6}
-                                required
-                                disabled={loading}
-                            />
-                            {error && <p className={styles.error}>{error}</p>}
-                            <button
-                                className={styles.primaryButton}
-                                type="submit"
-                                disabled={loading || otp.trim().length < 6}
-                            >
-                                {loading ? "Đang xác nhận..." : "Xác nhận"}
-                            </button>
-                            <button
-                                className={styles.textButton}
                                 type="button"
-                                onClick={handleResendOtp}
-                                disabled={loading || resendCooldown > 0}
                             >
-                                {resendCooldown > 0
-                                    ? `Gửi lại mã (${resendCooldown}s)`
-                                    : "Gửi lại mã"}
+                                <GoogleIcon />
+                                Đăng nhập bằng Google
                             </button>
-                            <button
-                                className={styles.textButton}
-                                type="button"
-                                onClick={() => {
-                                    setStep("email")
-                                    setOtp("")
-                                    setError(null)
-                                }}
-                            >
-                                Đổi email khác
-                            </button>
-                        </form>
+
+                            <div className={styles.divider}><span>hoặc</span></div>
+
+                            <form onSubmit={handleSignIn} className={styles.form}>
+                                <label className={styles.label} htmlFor="auth-email">Email</label>
+                                <input
+                                    id="auth-email"
+                                    className={styles.input}
+                                    type="email"
+                                    placeholder="ban@example.com"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    autoFocus
+                                    required
+                                    disabled={loading}
+                                    autoComplete="email"
+                                />
+
+                                <div className={styles.labelRow}>
+                                    <label className={styles.label} htmlFor="auth-password">Mật khẩu</label>
+                                    <button
+                                        type="button"
+                                        className={styles.forgotLink}
+                                        onClick={() => goTo("forgot")}
+                                    >
+                                        Quên mật khẩu?
+                                    </button>
+                                </div>
+                                <div className={styles.inputWrapper}>
+                                    <input
+                                        id="auth-password"
+                                        className={styles.input}
+                                        type={showPassword ? "text" : "password"}
+                                        placeholder="••••••••"
+                                        value={password}
+                                        onChange={(e) => setPassword(e.target.value)}
+                                        required
+                                        disabled={loading}
+                                        autoComplete="current-password"
+                                    />
+                                    <button
+                                        type="button"
+                                        className={styles.eyeButton}
+                                        onClick={() => setShowPassword((v) => !v)}
+                                        tabIndex={-1}
+                                        aria-label={showPassword ? "Ẩn mật khẩu" : "Hiện mật khẩu"}
+                                    >
+                                        {showPassword ? <EyeOff size={15} /> : <Eye size={15} />}
+                                    </button>
+                                </div>
+
+                                {error && <p className={styles.error}>{error}</p>}
+
+                                <button
+                                    className={styles.primaryButton}
+                                    type="submit"
+                                    disabled={loading || !email.trim() || !password}
+                                >
+                                    {loading ? "Đang đăng nhập..." : "Đăng nhập"}
+                                </button>
+                            </form>
+
+                            <p className={styles.switchNote}>
+                                Chưa có tài khoản?{" "}
+                                <button type="button" className={styles.switchLink} onClick={() => goTo("signup")}>
+                                    Đăng ký ngay
+                                </button>
+                            </p>
+                        </>
                     )}
+
+                    {/* ── Sign Up ── */}
+                    {step === "signup" && (
+                        <>
+                            <button
+                                className={styles.googleButton}
+                                onClick={handleGoogleSignIn}
+                                disabled={loading}
+                                type="button"
+                            >
+                                <GoogleIcon />
+                                Đăng ký bằng Google
+                            </button>
+
+                            <div className={styles.divider}><span>hoặc</span></div>
+
+                            <form onSubmit={handleSignUp} className={styles.form}>
+                                <label className={styles.label} htmlFor="signup-email">Email</label>
+                                <input
+                                    id="signup-email"
+                                    className={styles.input}
+                                    type="email"
+                                    placeholder="ban@example.com"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    autoFocus
+                                    required
+                                    disabled={loading}
+                                    autoComplete="email"
+                                />
+
+                                <label className={styles.label} htmlFor="signup-password">Mật khẩu</label>
+                                <div className={styles.inputWrapper}>
+                                    <input
+                                        id="signup-password"
+                                        className={styles.input}
+                                        type={showPassword ? "text" : "password"}
+                                        placeholder="Ít nhất 6 ký tự"
+                                        value={password}
+                                        onChange={(e) => setPassword(e.target.value)}
+                                        required
+                                        disabled={loading}
+                                        autoComplete="new-password"
+                                    />
+                                    <button
+                                        type="button"
+                                        className={styles.eyeButton}
+                                        onClick={() => setShowPassword((v) => !v)}
+                                        tabIndex={-1}
+                                        aria-label={showPassword ? "Ẩn mật khẩu" : "Hiện mật khẩu"}
+                                    >
+                                        {showPassword ? <EyeOff size={15} /> : <Eye size={15} />}
+                                    </button>
+                                </div>
+
+                                <label className={styles.label} htmlFor="signup-confirm">Xác nhận mật khẩu</label>
+                                <div className={styles.inputWrapper}>
+                                    <input
+                                        id="signup-confirm"
+                                        className={styles.input}
+                                        type={showConfirmPassword ? "text" : "password"}
+                                        placeholder="Nhập lại mật khẩu"
+                                        value={confirmPassword}
+                                        onChange={(e) => setConfirmPassword(e.target.value)}
+                                        required
+                                        disabled={loading}
+                                        autoComplete="new-password"
+                                    />
+                                    <button
+                                        type="button"
+                                        className={styles.eyeButton}
+                                        onClick={() => setShowConfirmPassword((v) => !v)}
+                                        tabIndex={-1}
+                                        aria-label={showConfirmPassword ? "Ẩn mật khẩu" : "Hiện mật khẩu"}
+                                    >
+                                        {showConfirmPassword ? <EyeOff size={15} /> : <Eye size={15} />}
+                                    </button>
+                                </div>
+
+                                {error && <p className={styles.error}>{error}</p>}
+
+                                <button
+                                    className={styles.primaryButton}
+                                    type="submit"
+                                    disabled={loading || !email.trim() || !password || !confirmPassword}
+                                >
+                                    {loading ? "Đang đăng ký..." : "Đăng ký"}
+                                </button>
+                            </form>
+
+                            <p className={styles.switchNote}>
+                                Đã có tài khoản?{" "}
+                                <button type="button" className={styles.switchLink} onClick={() => goTo("signin")}>
+                                    Đăng nhập
+                                </button>
+                            </p>
+                        </>
+                    )}
+
+                    {/* ── Forgot Password ── */}
+                    {step === "forgot" && (
+                        <>
+                            <p className={styles.description}>
+                                Nhập email của bạn để nhận liên kết đặt lại mật khẩu.
+                            </p>
+
+                            <form onSubmit={handleForgotPassword} className={styles.form}>
+                                <label className={styles.label} htmlFor="forgot-email">Email</label>
+                                <input
+                                    id="forgot-email"
+                                    className={styles.input}
+                                    type="email"
+                                    placeholder="ban@example.com"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    autoFocus
+                                    required
+                                    disabled={loading}
+                                    autoComplete="email"
+                                />
+
+                                {error && <p className={styles.error}>{error}</p>}
+
+                                <button
+                                    className={styles.primaryButton}
+                                    type="submit"
+                                    disabled={loading || !email.trim()}
+                                >
+                                    {loading ? "Đang gửi..." : "Gửi liên kết đặt lại"}
+                                </button>
+                            </form>
+
+                            <button type="button" className={styles.textButton} onClick={() => goTo("signin")}>
+                                ← Quay lại đăng nhập
+                            </button>
+                        </>
+                    )}
+
+                    {/* ── Sent ── */}
+                    {step === "sent" && (
+                        <>
+                            <div className={styles.sentBox}>
+                                <p className={styles.sentTitle}>
+                                    {sentContext === "signup" ? "Xác nhận tài khoản" : "Email đã được gửi"}
+                                </p>
+                                <p className={styles.sentDesc}>
+                                    {sentContext === "signup"
+                                        ? "Chúng tôi đã gửi email xác nhận đến "
+                                        : "Chúng tôi đã gửi liên kết đặt lại mật khẩu đến "
+                                    }
+                                    <strong>{email}</strong>
+                                    {". Vui lòng kiểm tra hộp thư và làm theo hướng dẫn."}
+                                </p>
+                            </div>
+
+                            <button type="button" className={styles.textButton} onClick={() => goTo("signin")}>
+                                ← Quay lại đăng nhập
+                            </button>
+                        </>
+                    )}
+
                 </div>
             </div>
         </div>
