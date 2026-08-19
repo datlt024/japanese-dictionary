@@ -8,7 +8,8 @@ export async function GET(request: NextRequest) {
     if (!rl.ok) return rl.response
 
     const level = request.nextUrl.searchParams.get("level") ?? ""
-    const limit = Math.min(Number(request.nextUrl.searchParams.get("limit") ?? "50"), 100)
+    const limitRaw = parseInt(request.nextUrl.searchParams.get("limit") ?? "50", 10)
+    const limit = Math.min(Number.isFinite(limitRaw) && limitRaw > 0 ? limitRaw : 50, 100)
 
     if (!isValidJlptLevel(level)) {
         return NextResponse.json({ error: "Cấp độ không hợp lệ" }, { status: 400 })

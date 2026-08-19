@@ -7,9 +7,7 @@ import { rateLimit } from "@/shared/utils/rate-limit"
 type Params = { params: Promise<{ id: string }> }
 
 export async function PATCH(req: NextRequest, { params }: Params) {
-    const rl = rateLimit(`admin-grp-patch:${req.headers.get("x-forwarded-for") ?? "local"}`, 30, 60_000)
-    if (!rl.ok) return rl.response
-
+    // Auth before rate limit so we key by user ID, not spoofable IP
     const { id } = await params
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
@@ -17,6 +15,9 @@ export async function PATCH(req: NextRequest, { params }: Params) {
     if (!user || !isAdminUserId(user.id)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
+
+    const rl = rateLimit(`admin-grp-patch:${user.id}`, 30, 60_000)
+    if (!rl.ok) return rl.response
 
     const body = await req.json().catch(() => null)
     if (!body) return NextResponse.json({ error: "Dữ liệu không hợp lệ" }, { status: 400 })
