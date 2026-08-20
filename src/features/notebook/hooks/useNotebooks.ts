@@ -1,26 +1,2 @@
-"use client"
-
-import useSWR from "swr"
-
-import type { NotebookWithCount } from "@/domain/notebook/notebook.type"
-
-async function fetcher(url: string): Promise<NotebookWithCount[]> {
-    const res = await fetch(url)
-    if (!res.ok) throw new Error("fetch failed")
-    return res.json()
-}
-
-export function useNotebooks(enabled = true) {
-    const { data, isLoading, error, mutate } = useSWR<NotebookWithCount[]>(
-        enabled ? "/api/notebooks" : null,
-        fetcher,
-        { revalidateOnFocus: false }
-    )
-
-    return {
-        notebooks: data ?? [],
-        loading: isLoading,
-        error: error as Error | undefined,
-        mutate,
-    }
-}
+// Re-export from shared canonical location
+export { useNotebooks } from "@/shared/hooks/useNotebooks"

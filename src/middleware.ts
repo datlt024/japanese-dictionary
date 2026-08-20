@@ -26,7 +26,16 @@ export async function middleware(request: NextRequest) {
     )
 
     // Refresh session — do not remove; required for SSR auth to work
-    await supabase.auth.getUser()
+    const { data: { user } } = await supabase.auth.getUser()
+
+    // Guard all /api/admin/* routes at the edge — must be authenticated
+    if (request.nextUrl.pathname.startsWith("/api/admin")) {
+        if (!user) {
+            return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 401 })
+        }
+        // Note: admin role check (app_metadata.role === "admin") is done in each route handler
+        // Middleware only ensures a session exists, avoiding service-role calls at the edge
+    }
 
     return supabaseResponse
 }

@@ -12,7 +12,7 @@ import { Check, Plus, X } from "lucide-react"
 
 import { useAuth } from "@/shared/hooks/useAuth"
 import { useNotebookCheck } from "@/features/notebook/hooks/useNotebookCheck"
-import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
+import { useNotebooks } from "@/shared/hooks/useNotebooks"
 
 import type { NotebookItemType } from "@/domain/notebook/notebook.type"
 

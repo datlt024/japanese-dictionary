@@ -143,8 +143,7 @@ export const getJlptGrammarItems = unstable_cache(
     async (level: string, from: number, to: number) => {
         const { data, error } = await getGrammarsByJlptLevel(level, from, to)
         if (error) {
-            const e = error as unknown as Record<string, unknown>
-            logger.error("jlpt-study.service", "getJlptGrammarItems failed", { message: e.message })
+            logger.error("jlpt-study.service", "getJlptGrammarItems failed", { message: String((error as { message?: unknown }).message) })
             return []
         }
         return (data ?? []) as GrammarSearchItem[]
@@ -157,8 +156,7 @@ export const getJlptKanjiItems = unstable_cache(
     async (level: string, from: number, to: number) => {
         const { data, error } = await getKanjisByJlptLevelPaginated(level, from, to)
         if (error) {
-            const e = error as unknown as Record<string, unknown>
-            logger.error("jlpt-study.service", "getJlptKanjiItems failed", { message: e.message })
+            logger.error("jlpt-study.service", "getJlptKanjiItems failed", { message: String((error as { message?: unknown }).message) })
             return []
         }
         return (data ?? []) as KanjiSearchItem[]

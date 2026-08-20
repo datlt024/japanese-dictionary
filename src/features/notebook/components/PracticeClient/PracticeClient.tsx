@@ -5,7 +5,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { ArrowLeft, BookOpen } from "lucide-react"
 
-import { useNotebookItems } from "@/features/notebook/hooks/useNotebookItems"
+import { useNotebookItems } from "@/shared/hooks/useNotebookItems"
 
 import type { PracticeMode, SummaryData } from "./practice.types"
 import { toValidMode } from "./practice.utils"

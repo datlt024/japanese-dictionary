@@ -1,0 +1,133 @@
+.page {
+    padding: 32px 0 64px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.headerIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: var(--color-primary-subtle, oklch(96% 0.02 250));
+    color: var(--color-primary);
+    flex-shrink: 0;
+}
+
+.title {
+    margin: 0 0 4px;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--color-text-primary);
+    letter-spacing: -0.02em;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-text-secondary);
+}
+
+.levelGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+}
+
+.levelCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 20px;
+    background: var(--color-surface);
+    border: 1.5px solid var(--color-border);
+    border-radius: 18px;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.levelCard:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 4px 16px rgba(37, 99, 235, 0.1);
+    transform: translateY(-2px);
+}
+
+.levelBadge {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--color-primary);
+}
+
+.levelCard[data-level="N5"] .levelBadge { color: var(--color-jlpt-n5); }
+.levelCard[data-level="N4"] .levelBadge { color: var(--color-jlpt-n4); }
+.levelCard[data-level="N3"] .levelBadge { color: var(--color-jlpt-n3); }
+.levelCard[data-level="N2"] .levelBadge { color: var(--color-jlpt-n2); }
+.levelCard[data-level="N1"] .levelBadge { color: var(--color-jlpt-n1); }
+
+.levelCard[data-level="N5"]:hover { border-color: var(--color-jlpt-n5); box-shadow: 0 4px 16px rgba(22,163,74,0.1); }
+.levelCard[data-level="N4"]:hover { border-color: var(--color-jlpt-n4); box-shadow: 0 4px 16px rgba(37,99,235,0.1); }
+.levelCard[data-level="N3"]:hover { border-color: var(--color-jlpt-n3); box-shadow: 0 4px 16px rgba(124,58,237,0.1); }
+.levelCard[data-level="N2"]:hover { border-color: var(--color-jlpt-n2); box-shadow: 0 4px 16px rgba(217,119,6,0.1); }
+.levelCard[data-level="N1"]:hover { border-color: var(--color-jlpt-n1); box-shadow: 0 4px 16px rgba(239,68,68,0.1); }
+
+.levelDesc {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    line-height: 1.55;
+    flex: 1;
+}
+
+.levelMeta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.wordCount {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+}
+
+.startLabel {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-primary);
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.levelCard[data-level="N5"] .startLabel { color: var(--color-jlpt-n5); }
+.levelCard[data-level="N4"] .startLabel { color: var(--color-jlpt-n4); }
+.levelCard[data-level="N3"] .startLabel { color: var(--color-jlpt-n3); }
+.levelCard[data-level="N2"] .startLabel { color: var(--color-jlpt-n2); }
+.levelCard[data-level="N1"] .startLabel { color: var(--color-jlpt-n1); }
+
+.levelCard:hover .startLabel { opacity: 1; }
+
+@media (max-width: 1024px) {
+    .levelGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .levelGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .levelCard {
+        padding: 18px 16px;
+    }
+}

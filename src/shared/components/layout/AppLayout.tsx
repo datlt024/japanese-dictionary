@@ -37,13 +37,13 @@ export default function AppLayout({
     return (
         <>
             <div className={styles.appShell}>
-                <Suspense fallback={null}>
+                <Suspense fallback={<div className={styles.headerSkeleton} aria-hidden="true" />}>
                     <Header title={title} />
                 </Suspense>
 
                 {!hideSearch && (
                     <section className={styles.appSearchArea}>
-                        <Suspense fallback={null}>
+                        <Suspense fallback={<div className={styles.searchSkeleton} aria-hidden="true" />}>
                             <TopSearchBar
                                 searchKeyword={searchKeyword}
                                 activeSearchTab={activeSearchTab}

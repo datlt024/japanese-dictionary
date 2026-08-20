@@ -13,7 +13,7 @@ import {
     MoreHorizontal,
 } from "lucide-react"
 
-import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
+import { useNotebooks } from "@/shared/hooks/useNotebooks"
 import type { EnrichedNotebookItem } from "@/domain/notebook/notebook.type"
 import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
 import QuickLookupModal from "@/features/dictionary/quick-lookup/components/QuickLookupModal"
