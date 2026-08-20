@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { BookOutlined, CheckCircleFilled, ExportOutlined } from "@ant-design/icons"
+import { BookOpen, CheckCircle2, ExternalLink } from "lucide-react"
 import { Alert, Button, Modal, Radio, Space, Typography } from "antd"
 import type { EnrichedNotebookItem, NotebookWithCount } from "@/domain/notebook/notebook.type"
 
@@ -51,14 +51,14 @@ export default function AddToNotebookModal({ items, notebooks, onClose }: Props)
         >
             {done ? (
                 <div style={{ textAlign: "center", padding: "16px 0" }}>
-                    <CheckCircleFilled style={{ fontSize: 36, color: "#16A34A", marginBottom: 12, display: "block" }} />
+                    <CheckCircle2 size={36} style={{ color: "#16A34A", marginBottom: 12, display: "block" }} />
                     <Text strong style={{ display: "block", marginBottom: 8 }}>
                         Đã thêm {addedCount}/{items.length} mục
                     </Text>
                     {selectedNb && (
                         <Link href={`/notebooks/${selected}`} onClick={onClose} style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 13, marginBottom: 16 }}>
                             Xem sổ tay &ldquo;{selectedNb.name}&rdquo;
-                            <ExportOutlined style={{ fontSize: 11 }} />
+                            <ExternalLink size={11} />
                         </Link>
                     )}
                     <br />
@@ -103,7 +103,7 @@ export default function AddToNotebookModal({ items, notebooks, onClose }: Props)
                                         }}
                                     >
                                         <Space>
-                                            <BookOutlined style={{ color: "#9CA3AF" }} />
+                                            <BookOpen size={14} style={{ color: "#9CA3AF" }} />
                                             <Text style={{ fontSize: 13 }}>{nb.name}</Text>
                                             <Text type="secondary" style={{ fontSize: 12 }}>{nb.item_count} mục</Text>
                                         </Space>

@@ -24,7 +24,11 @@ const nextConfig: NextConfig = {
         // Tree-shake antd and icons so each route only compiles the components
         // it actually uses — cuts module count from 11000+ to ~2000-3000 per route.
         // Works with both webpack (dev) and Turbopack.
-        optimizePackageImports: ["antd", "@ant-design/icons", "@ant-design/cssinjs"],
+        // antd is in Next.js's auto-optimize default list; @ant-design/icons and
+        // @ant-design/cssinjs are also auto-optimized by default — explicit entries
+        // here caused Turbopack chunk-load failures, so only add what isn't already
+        // handled automatically.
+        optimizePackageImports: ["antd"],
     },
 
     images: {
