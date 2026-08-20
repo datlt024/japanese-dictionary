@@ -250,6 +250,14 @@ export default async function AdminDashboardPage() {
                             </div>
                             <ArrowRight size={16} className={styles.toolArrow} />
                         </Link>
+                        <Link href="/admin/comments" className={styles.toolCard}>
+                            <MessageSquare size={20} className={styles.toolIcon} />
+                            <div>
+                                <p className={styles.toolName}>Bình luận</p>
+                                <p className={styles.toolDesc}>Kiểm duyệt bình luận của người dùng</p>
+                            </div>
+                            <ArrowRight size={16} className={styles.toolArrow} />
+                        </Link>
                         <Link href="/admin" className={styles.toolCard}>
                             <BookOpen size={20} className={styles.toolIcon} />
                             <div>

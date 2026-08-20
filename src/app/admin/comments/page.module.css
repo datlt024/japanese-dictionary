@@ -1,0 +1,260 @@
+.page {
+    padding: 28px 0 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ── Header ── */
+
+.pageHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.pageTitle {
+    margin: 0 0 4px;
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--color-text-primary);
+}
+
+.pageSubtitle {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-muted);
+}
+
+/* ── Filter bar ── */
+
+.filterBar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.filterLabel {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+}
+
+.filterBtn {
+    height: 32px;
+    padding: 0 14px;
+    border: 1.5px solid var(--color-border);
+    border-radius: 999px;
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+
+.filterBtn:hover { border-color: var(--color-primary); color: var(--color-primary); }
+
+.filterBtnActive {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+}
+
+/* ── Table ── */
+
+.tableWrap {
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    overflow: hidden;
+    background: var(--color-surface);
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+.th {
+    padding: 11px 16px;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    background: var(--color-surface-muted);
+    border-bottom: 1px solid var(--color-border);
+    white-space: nowrap;
+}
+
+.thCenter { text-align: center; }
+
+.tr {
+    transition: background 0.1s;
+}
+
+.tr:hover { background: var(--color-surface-soft); }
+
+.tr:not(:last-child) td { border-bottom: 1px solid var(--color-border); }
+
+.td {
+    padding: 11px 16px;
+    font-size: 13px;
+    color: var(--color-text-primary);
+    vertical-align: middle;
+}
+
+.tdCenter { text-align: center; }
+
+.emptyRow {
+    padding: 48px 16px;
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ── Content cells ── */
+
+.userName {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.contentCell {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 360px;
+    line-height: 1.45;
+    color: var(--color-text-secondary);
+}
+
+.dateCell {
+    font-size: 12px;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+.likeCount {
+    font-size: 13px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text-secondary);
+}
+
+/* ── Entry badge ── */
+
+.entryLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.entryLink:hover .entryBadge { opacity: 0.8; }
+
+.entryBadge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.entry_vocabulary { background: var(--color-primary-soft); color: var(--color-primary); }
+.entry_kanji      { background: var(--color-jlpt-n2-soft); color: var(--color-jlpt-n2); }
+.entry_grammar    { background: var(--color-success-soft); color: var(--color-success); }
+
+.entryId {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    font-variant-numeric: tabular-nums;
+}
+
+/* ── Delete button ── */
+
+.deleteBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1.5px solid transparent;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--color-text-muted);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.deleteBtn:hover:not(:disabled) {
+    border-color: var(--color-danger-border);
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
+}
+
+.deleteBtn:disabled { opacity: 0.4; cursor: default; }
+
+.deleteBtnConfirm {
+    border-color: var(--color-danger);
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
+}
+
+/* ── Pagination ── */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.pageBtn {
+    height: 34px;
+    padding: 0 14px;
+    border: 1.5px solid var(--color-border);
+    border-radius: 10px;
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+}
+
+.pageBtn:hover:not(:disabled) { border-color: var(--color-primary); color: var(--color-primary); }
+.pageBtn:disabled { opacity: 0.4; cursor: default; }
+
+.pageInfo {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 700px) {
+    .filterBar { flex-wrap: wrap; }
+    .pageHeader { flex-direction: column; align-items: flex-start; }
+}
