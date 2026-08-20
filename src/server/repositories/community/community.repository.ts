@@ -17,52 +17,6 @@ export type CommentRow = {
     user_profiles: { display_name: string; jlpt_level: string | null } | null
 }
 
-export async function listComments(
-    supabase: Client,
-    entryType: EntryType,
-    entryId: number,
-    sort: SortOrder = "likes",
-    limit = 10,
-    offset = 0,
-) {
-    const orderCol = sort === "likes" ? "likes_count" : "created_at"
-    return supabase
-        .from("word_comments")
-        .select("id, user_id, content, likes_count, created_at")
-        .eq("entry_type", entryType)
-        .eq("entry_id", entryId)
-        .order(orderCol, { ascending: false })
-        .range(offset, offset + limit - 1)
-}
-
-export async function getProfilesByUserIds(
-    supabase: Client,
-    userIds: string[],
-): Promise<Record<string, { display_name: string; jlpt_level: string | null }>> {
-    if (userIds.length === 0) return {}
-    const { data } = await supabase
-        .from("user_profiles")
-        .select("id, display_name, jlpt_level")
-        .in("id", userIds)
-    const map: Record<string, { display_name: string; jlpt_level: string | null }> = {}
-    for (const row of data ?? []) {
-        map[row.id] = { display_name: row.display_name, jlpt_level: row.jlpt_level ?? null }
-    }
-    return map
-}
-
-export async function countComments(
-    supabase: Client,
-    entryType: EntryType,
-    entryId: number,
-) {
-    return supabase
-        .from("word_comments")
-        .select("id", { count: "exact", head: true })
-        .eq("entry_type", entryType)
-        .eq("entry_id", entryId)
-}
-
 export async function createComment(
     supabase: Client,
     userId: string,
@@ -83,6 +37,7 @@ export async function deleteComment(supabase: Client, commentId: string, userId:
         .delete()
         .eq("id", commentId)
         .eq("user_id", userId)
+        .select("id")
 }
 
 export async function getLike(supabase: Client, userId: string, commentId: string) {

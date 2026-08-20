@@ -24,14 +24,6 @@ export async function listNotebooksWithItemCount(supabase: Client, userId: strin
         .limit(200)
 }
 
-export async function getNotebook(supabase: Client, notebookId: string) {
-    return supabase
-        .from("notebooks")
-        .select("id, name, description, group_id, created_at, updated_at")
-        .eq("id", notebookId)
-        .single()
-}
-
 export async function createNotebook(
     supabase: Client,
     userId: string,

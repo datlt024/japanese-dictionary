@@ -22,9 +22,10 @@ export async function DELETE(
     const rl = await rateLimit(`comments-del:${user.id}`, 20, 60_000)
     if (!rl.ok) return rl.response
 
-    const { error } = await deleteComment(supabaseServer, id, user.id)
-    if (error) {
-        return serverError(error, "DELETE /api/comments/[id]")
+    const { data, error } = await deleteComment(supabaseServer, id, user.id)
+    if (error) return serverError(error, "DELETE /api/comments/[id]")
+    if (!data || (Array.isArray(data) && data.length === 0)) {
+        return NextResponse.json({ error: "Bình luận không tồn tại" }, { status: 404 })
     }
 
     return new NextResponse(null, { status: 204 })

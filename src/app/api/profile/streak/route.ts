@@ -35,6 +35,17 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Định dạng ngày không hợp lệ" }, { status: 400 })
     }
 
+    // Prevent arbitrary streak inflation: new count must not exceed current + 1
+    const { data: existing } = await supabaseServer
+        .from("user_profiles")
+        .select("streak_count")
+        .eq("id", user.id)
+        .maybeSingle()
+    const currentCount = existing?.streak_count ?? 0
+    if (streak_count > currentCount + 1) {
+        return NextResponse.json({ error: "Streak không hợp lệ" }, { status: 400 })
+    }
+
     const { error } = await upsertStreak(supabaseServer, user.id, {
         streak_count,
         streak_last_date: streak_last_date ?? null,

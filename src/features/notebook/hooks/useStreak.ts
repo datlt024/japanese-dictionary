@@ -20,10 +20,26 @@ function toDateKey(date: Date): string {
     return date.toISOString().slice(0, 10)
 }
 
+function isValidStreakData(v: unknown): v is StreakData {
+    if (!v || typeof v !== "object") return false
+    const d = v as Record<string, unknown>
+    return (
+        typeof d.count === "number" &&
+        Number.isFinite(d.count) &&
+        d.count >= 0 &&
+        typeof d.lastDate === "string" &&
+        Array.isArray(d.activeDays) &&
+        (d.activeDays as unknown[]).every((x) => typeof x === "number")
+    )
+}
+
 function loadStreak(): StreakData {
     try {
         const raw = localStorage.getItem("yomi_streak") ?? localStorage.getItem("mazii_streak")
-        if (raw) return JSON.parse(raw) as StreakData
+        if (raw) {
+            const parsed: unknown = JSON.parse(raw)
+            if (isValidStreakData(parsed)) return parsed
+        }
     } catch {}
     return { ...EMPTY }
 }

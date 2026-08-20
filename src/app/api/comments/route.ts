@@ -18,33 +18,31 @@ const SORT_ORDERS: SortOrder[] = ["likes", "newest"]
 const PAGE_SIZE = 10
 
 // Fetch public comments + count in one round-trip, with profiles inlined via FK join.
-// Result is cached per (entryType, entryId, sort, page) for 60 seconds so rapid
-// re-renders and React Strict Mode double-invocations hit memory instead of Supabase.
-function getPublicCommentPage(entryType: EntryType, entryId: number, sort: SortOrder, page: number) {
-    const orderCol = sort === "likes" ? "likes_count" : "created_at"
-    const offset = page * PAGE_SIZE
-    return unstable_cache(
-        async () => {
-            const [commentsResult, countResult] = await Promise.all([
-                supabaseServer
-                    .from("word_comments")
-                    .select("id, user_id, content, likes_count, created_at, user_profiles(display_name, jlpt_level)")
-                    .eq("entry_type", entryType)
-                    .eq("entry_id", entryId)
-                    .order(orderCol, { ascending: false })
-                    .range(offset, offset + PAGE_SIZE - 1),
-                supabaseServer
-                    .from("word_comments")
-                    .select("id", { count: "exact", head: true })
-                    .eq("entry_type", entryType)
-                    .eq("entry_id", entryId),
-            ])
-            return { commentsResult, countResult }
-        },
-        [`comments-${entryType}-${entryId}-${sort}-${page}`],
-        { revalidate: 60 }
-    )()
-}
+// Declared at module scope so Next.js can deduplicate concurrent requests by stable
+// function reference. Arguments are passed through to the inner async fn.
+const getPublicCommentPage = unstable_cache(
+    async (entryType: EntryType, entryId: number, sort: SortOrder, page: number) => {
+        const orderCol = sort === "likes" ? "likes_count" : "created_at"
+        const offset = page * PAGE_SIZE
+        const [commentsResult, countResult] = await Promise.all([
+            supabaseServer
+                .from("word_comments")
+                .select("id, user_id, content, likes_count, created_at, user_profiles(display_name, jlpt_level)")
+                .eq("entry_type", entryType)
+                .eq("entry_id", entryId)
+                .order(orderCol, { ascending: false })
+                .range(offset, offset + PAGE_SIZE - 1),
+            supabaseServer
+                .from("word_comments")
+                .select("id", { count: "exact", head: true })
+                .eq("entry_type", entryType)
+                .eq("entry_id", entryId),
+        ])
+        return { commentsResult, countResult }
+    },
+    ["public-comments"],
+    { revalidate: 60 }
+)
 
 export async function GET(request: NextRequest) {
     const ip = getClientIp(request)

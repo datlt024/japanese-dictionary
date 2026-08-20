@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation"
 import type { Metadata } from "next"
+import type { User } from "@supabase/supabase-js"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
@@ -32,16 +33,22 @@ export default async function AdminUsersPage() {
     const { data: { user } } = await authClient.auth.getUser()
     if (!user || !isAdminUser(user)) redirect("/")
 
-    const [authResult, profileResult] = await Promise.all([
-        supabaseServer.auth.admin.listUsers({ perPage: 1000 }),
-        supabaseServer
-            .from("user_profiles")
-            .select("id, display_name, jlpt_level, streak_count, created_at"),
-    ])
+    const allAuthUsers: User[] = []
+    let page = 1
+    while (true) {
+        const { data } = await supabaseServer.auth.admin.listUsers({ perPage: 1000, page })
+        allAuthUsers.push(...(data?.users ?? []))
+        if ((data?.users ?? []).length < 1000) break
+        page++
+    }
+
+    const profileResult = await supabaseServer
+        .from("user_profiles")
+        .select("id, display_name, jlpt_level, streak_count, created_at")
 
     const profileMap = new Map((profileResult.data ?? []).map(p => [p.id, p]))
 
-    const users: AdminUserRecord[] = (authResult.data?.users ?? [])
+    const users: AdminUserRecord[] = allAuthUsers
         .map(au => {
             const profile = profileMap.get(au.id)
             return {

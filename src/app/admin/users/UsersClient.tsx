@@ -256,7 +256,7 @@ function UserModal({ user, onClose, onSaved, onDeleted }: ModalProps) {
 }
 
 /* ── Create account modal ── */
-function CreateUserModal({ onClose, onCreated }: { onClose: () => void; onCreated: () => void }) {
+function CreateUserModal({ onClose, onCreated }: { onClose: () => void; onCreated: (user: AdminUserRecord) => void }) {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [showPwd, setShowPwd] = useState(false)
@@ -282,12 +282,23 @@ function CreateUserModal({ onClose, onCreated }: { onClose: () => void; onCreate
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ email, password, role }),
             })
-            if (!res.ok) {
-                const json = await res.json().catch(() => ({}))
-                throw new Error(json.error ?? "Lỗi không xác định")
+            const json = await res.json().catch(() => ({}))
+            if (!res.ok) throw new Error(json.error ?? "Lỗi không xác định")
+            const newUser: AdminUserRecord = {
+                id: json.id ?? "",
+                email,
+                phone: null,
+                display_name: "—",
+                jlpt_level: null,
+                streak_count: 0,
+                created_at: new Date().toISOString(),
+                last_sign_in_at: null,
+                email_confirmed_at: new Date().toISOString(),
+                role,
+                subscription_until: null,
             }
             setDone(true)
-            setTimeout(() => { onCreated(); onClose() }, 1200)
+            setTimeout(() => { onCreated(newUser); onClose() }, 1200)
         } catch (err) {
             setError(err instanceof Error ? err.message : "Lỗi không xác định")
         } finally {
@@ -510,7 +521,7 @@ export default function UsersClient({ initialUsers }: { initialUsers: AdminUserR
                     <tbody>
                         {paged.length === 0 ? (
                             <tr>
-                                <td colSpan={7} className={styles.emptyRow}>
+                                <td colSpan={8} className={styles.emptyRow}>
                                     Không tìm thấy người dùng nào
                                 </td>
                             </tr>
@@ -596,7 +607,7 @@ export default function UsersClient({ initialUsers }: { initialUsers: AdminUserR
             {showCreate && (
                 <CreateUserModal
                     onClose={() => setShowCreate(false)}
-                    onCreated={() => window.location.reload()}
+                    onCreated={(newUser) => { setUsers(prev => [newUser, ...prev]); setShowCreate(false) }}
                 />
             )}
         </div>

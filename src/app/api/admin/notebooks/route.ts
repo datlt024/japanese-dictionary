@@ -49,9 +49,11 @@ export async function POST(req: NextRequest) {
     const name = typeof body?.name === "string" ? body.name.trim() : ""
     if (!name || name.length > 200) return NextResponse.json({ error: "Tên sổ tay không được để trống hoặc quá dài" }, { status: 400 })
 
+    const groupId = typeof body?.group_id === "string" ? body.group_id : null
+
     const { data, error } = await supabaseServer
         .from("notebooks")
-        .insert({ user_id: user.id, name, description: body?.description ?? null })
+        .insert({ user_id: user.id, name, description: body?.description ?? null, group_id: groupId })
         .select()
         .single()
 

@@ -11,8 +11,9 @@ export default function useImageScan() {
         setProgress(0)
         setError(null)
 
+        let worker: Awaited<ReturnType<typeof createWorker>> | null = null
         try {
-            const worker = await createWorker("jpn", 1, {
+            worker = await createWorker("jpn", 1, {
                 logger: (message) => {
                     if (message.status === "recognizing text") {
                         setProgress(message.progress)
@@ -21,15 +22,13 @@ export default function useImageScan() {
             })
 
             const result = await worker.recognize(file)
-
-            await worker.terminate()
-
             return result.data.text.trim()
         } catch {
             setError("Không thể nhận diện chữ trong ảnh.")
             return ""
         } finally {
             setLoading(false)
+            await worker?.terminate()
         }
     }
 
