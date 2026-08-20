@@ -6,7 +6,7 @@ import {
     useState,
 } from "react"
 
-import { useAuth } from "@/features/auth/hooks/useAuth"
+import { useAuth } from "@/shared/hooks/useAuth"
 
 import styles from "./DictionaryCommunityCard.module.css"
 

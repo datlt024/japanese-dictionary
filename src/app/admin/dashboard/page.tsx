@@ -4,12 +4,14 @@ import Link from "next/link"
 import {
     BookText, Pen, GraduationCap,
     BookOpen, Layers, Dumbbell, MessageSquare,
-    ArrowRight, RefreshCw,
+    ArrowRight, RefreshCw, Users,
 } from "lucide-react"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
-import { isAdminUserId } from "@/server/utils/admin"
+import { supabaseServer } from "@/server/supabase/server"
+import { isAdminUser } from "@/server/utils/admin"
 import AppLayout from "@/shared/components/layout/AppLayout"
+import DashboardCharts from "./DashboardCharts"
 
 import styles from "./page.module.css"
 
@@ -24,10 +26,37 @@ function fmt(n: number | null): string {
     return n.toLocaleString("vi-VN")
 }
 
+function groupByDay(
+    records: { created_at: string }[] | null,
+    days = 30,
+): { date: string; count: number }[] {
+    const map: Record<string, number> = {}
+    for (const r of records ?? []) {
+        const day = r.created_at.slice(0, 10)
+        map[day] = (map[day] ?? 0) + 1
+    }
+    const now = new Date()
+    const result: { date: string; count: number }[] = []
+    for (let i = days - 1; i >= 0; i--) {
+        const d = new Date(now.getTime() - i * 24 * 60 * 60 * 1000)
+        const key = [
+            d.getFullYear(),
+            String(d.getMonth() + 1).padStart(2, "0"),
+            String(d.getDate()).padStart(2, "0"),
+        ].join("-")
+        result.push({ date: key, count: map[key] ?? 0 })
+    }
+    return result
+}
+
 export default async function AdminDashboardPage() {
-    const supabase = await createSupabaseServerClient()
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user || !isAdminUserId(user.id)) redirect("/")
+    const authClient = await createSupabaseServerClient()
+    const { data: { user } } = await authClient.auth.getUser()
+    if (!user || !isAdminUser(user)) redirect("/")
+
+    const cutoff = new Date()
+    cutoff.setDate(cutoff.getDate() - 30)
+    const thirtyDaysAgo = cutoff.toISOString()
 
     const [
         { count: vocabTotal },
@@ -43,20 +72,26 @@ export default async function AdminDashboardPage() {
         { count: n3 },
         { count: n2 },
         { count: n1 },
+        { data: userHistory },
+        { data: practiceHistory },
+        { data: commentHistory },
     ] = await Promise.all([
-        supabase.from("vocabularies").select("id", { count: "exact", head: true }),
-        supabase.from("kanjis").select("id", { count: "exact", head: true }),
-        supabase.from("grammars").select("id", { count: "exact", head: true }),
-        supabase.from("user_profiles").select("id", { count: "exact", head: true }),
-        supabase.from("notebooks").select("id", { count: "exact", head: true }),
-        supabase.from("notebook_items").select("id", { count: "exact", head: true }),
-        supabase.from("practice_sessions").select("id", { count: "exact", head: true }),
-        supabase.from("word_comments").select("id", { count: "exact", head: true }),
-        supabase.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N5"),
-        supabase.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N4"),
-        supabase.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N3"),
-        supabase.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N2"),
-        supabase.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N1"),
+        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }),
+        supabaseServer.from("kanjis").select("id", { count: "exact", head: true }),
+        supabaseServer.from("grammars").select("id", { count: "exact", head: true }),
+        supabaseServer.from("user_profiles").select("id", { count: "exact", head: true }),
+        supabaseServer.from("notebooks").select("id", { count: "exact", head: true }),
+        supabaseServer.from("notebook_items").select("id", { count: "exact", head: true }),
+        supabaseServer.from("practice_sessions").select("id", { count: "exact", head: true }),
+        supabaseServer.from("word_comments").select("id", { count: "exact", head: true }),
+        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N5"),
+        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N4"),
+        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N3"),
+        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N2"),
+        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N1"),
+        supabaseServer.from("user_profiles").select("created_at").gte("created_at", thirtyDaysAgo),
+        supabaseServer.from("practice_sessions").select("created_at").gte("created_at", thirtyDaysAgo),
+        supabaseServer.from("word_comments").select("created_at").gte("created_at", thirtyDaysAgo),
     ])
 
     const jlpt = [
@@ -66,7 +101,18 @@ export default async function AdminDashboardPage() {
         { level: "N2", count: n2 ?? 0, color: "var(--color-jlpt-n2)" },
         { level: "N1", count: n1 ?? 0, color: "var(--color-jlpt-n1)" },
     ]
-    const maxJlpt = Math.max(...jlpt.map((j) => j.count), 1)
+    const maxJlpt = Math.max(...jlpt.map(j => j.count), 1)
+
+    const contentBreakdown = [
+        { label: "Từ vựng", count: vocabTotal ?? 0, color: "var(--color-primary)" },
+        { label: "Hán tự", count: kanjiTotal ?? 0, color: "var(--color-jlpt-n4)" },
+        { label: "Ngữ pháp", count: grammarTotal ?? 0, color: "var(--color-jlpt-n3)" },
+    ]
+    const contentTotal = (vocabTotal ?? 0) + (kanjiTotal ?? 0) + (grammarTotal ?? 0)
+
+    const userDays = groupByDay(userHistory)
+    const practiceDays = groupByDay(practiceHistory)
+    const commentDays = groupByDay(commentHistory)
 
     const updatedAt = new Date().toLocaleString("vi-VN", {
         timeZone: "Asia/Ho_Chi_Minh",
@@ -115,27 +161,80 @@ export default async function AdminDashboardPage() {
                     </div>
                 </section>
 
-                {/* ── Section: JLPT ── */}
+                {/* ── Section: 30-day sparklines (client) ── */}
                 <section className={styles.section}>
-                    <h3 className={styles.sectionLabel}>Từ vựng theo cấp độ JLPT</h3>
-                    <div className={styles.card}>
-                        <div className={styles.jlptChart}>
-                            {jlpt.map(({ level, count, color }) => (
-                                <div key={level} className={styles.jlptRow}>
-                                    <span className={styles.jlptLevel} style={{ color }}>{level}</span>
-                                    <div className={styles.jlptBarTrack}>
-                                        <div
-                                            className={styles.jlptBar}
-                                            style={{
-                                                width: `${(count / maxJlpt) * 100}%`,
-                                                background: color,
-                                            }}
-                                        />
+                    <h3 className={styles.sectionLabel}>Hoạt động 30 ngày qua</h3>
+                    <div className={styles.sparkGrid}>
+                        <DashboardCharts
+                            userDays={userDays}
+                            practiceDays={practiceDays}
+                            commentDays={commentDays}
+                        />
+                    </div>
+                </section>
+
+                {/* ── Section: Phân tích nội dung ── */}
+                <section className={styles.section}>
+                    <h3 className={styles.sectionLabel}>Phân tích nội dung</h3>
+                    <div className={styles.analyticsRow}>
+
+                        {/* JLPT chart */}
+                        <div className={`${styles.card} ${styles.jlptCard}`}>
+                            <p className={styles.cardTitle}>Từ vựng theo cấp độ JLPT</p>
+                            <div className={styles.jlptChart}>
+                                {jlpt.map(({ level, count, color }) => (
+                                    <div key={level} className={styles.jlptRow}>
+                                        <span className={styles.jlptLevel} style={{ color }}>{level}</span>
+                                        <div className={styles.jlptBarTrack}>
+                                            <div
+                                                className={styles.jlptBar}
+                                                style={{ width: `${(count / maxJlpt) * 100}%`, background: color }}
+                                            />
+                                        </div>
+                                        <span className={styles.jlptCount}>{fmt(count)}</span>
                                     </div>
-                                    <span className={styles.jlptCount}>{fmt(count)}</span>
-                                </div>
-                            ))}
+                                ))}
+                            </div>
                         </div>
+
+                        {/* Content breakdown */}
+                        <div className={`${styles.card} ${styles.contentCard}`}>
+                            <p className={styles.cardTitle}>Cơ cấu nội dung</p>
+
+                            {/* Stacked bar */}
+                            <div className={styles.stackedTrack}>
+                                {contentBreakdown.map(({ label, count, color }) => (
+                                    <div
+                                        key={label}
+                                        className={styles.stackedSeg}
+                                        style={{
+                                            width: `${contentTotal > 0 ? (count / contentTotal) * 100 : 0}%`,
+                                            background: color,
+                                        }}
+                                        title={`${label}: ${fmt(count)}`}
+                                    />
+                                ))}
+                            </div>
+
+                            {/* Legend rows */}
+                            <div className={styles.contentRows}>
+                                {contentBreakdown.map(({ label, count, color }) => (
+                                    <div key={label} className={styles.contentRow}>
+                                        <span className={styles.contentDot} style={{ background: color }} />
+                                        <span className={styles.contentLabel}>{label}</span>
+                                        <span className={styles.contentPct}>
+                                            {contentTotal > 0 ? `${Math.round((count / contentTotal) * 100)}%` : "—"}
+                                        </span>
+                                        <span className={styles.contentCount}>{fmt(count)}</span>
+                                    </div>
+                                ))}
+                                <div className={styles.contentTotal}>
+                                    <span className={styles.contentTotalLabel}>Tổng cộng</span>
+                                    <span className={styles.contentTotalVal}>{fmt(contentTotal)}</span>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </section>
 
@@ -143,6 +242,14 @@ export default async function AdminDashboardPage() {
                 <section className={styles.section}>
                     <h3 className={styles.sectionLabel}>Công cụ quản trị</h3>
                     <div className={styles.toolGrid}>
+                        <Link href="/admin/users" className={styles.toolCard}>
+                            <Users size={20} className={styles.toolIcon} />
+                            <div>
+                                <p className={styles.toolName}>Người dùng</p>
+                                <p className={styles.toolDesc}>Quản lý tài khoản và thuê bao</p>
+                            </div>
+                            <ArrowRight size={16} className={styles.toolArrow} />
+                        </Link>
                         <Link href="/admin" className={styles.toolCard}>
                             <BookOpen size={20} className={styles.toolIcon} />
                             <div>

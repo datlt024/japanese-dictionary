@@ -27,9 +27,8 @@
 
     padding: 16px 32px 8px;
 
-    background: oklch(100% 0 0 / 0.94);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .appPageContent {

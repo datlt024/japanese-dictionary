@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, type RefObject } from "react"
+import { useEffect, useLayoutEffect, useRef, type RefObject } from "react"
 
 const FOCUSABLE_SELECTORS = [
   'a[href]:not([tabindex="-1"])',
@@ -16,6 +16,10 @@ export function useFocusTrap(
   active: boolean,
   onEscape?: () => void
 ) {
+  // Store callback in a ref so it never invalidates the effect
+  const onEscapeRef = useRef(onEscape)
+  useLayoutEffect(() => { onEscapeRef.current = onEscape })
+
   useEffect(() => {
     if (!active || !ref.current) return
 
@@ -27,19 +31,22 @@ export function useFocusTrap(
         (el) => !el.closest("[inert]") && el.offsetParent !== null
       )
 
-    // Focus first focusable element on open
+    // Focus first focusable element on open, unless autoFocus already claimed it
     const focusable = getFocusable()
-    if (focusable.length > 0) {
-      focusable[0].focus()
-    } else {
-      container.setAttribute("tabindex", "-1")
-      container.focus()
+    const alreadyFocusedInside = container.contains(document.activeElement)
+    if (!alreadyFocusedInside) {
+      if (focusable.length > 0) {
+        focusable[0].focus()
+      } else {
+        container.setAttribute("tabindex", "-1")
+        container.focus()
+      }
     }
 
     function handleKeyDown(e: KeyboardEvent) {
       if (e.key === "Escape") {
         e.preventDefault()
-        onEscape?.()
+        onEscapeRef.current?.()
         return
       }
 
@@ -71,5 +78,5 @@ export function useFocusTrap(
         previouslyFocused?.focus()
       }
     }
-  }, [active, ref, onEscape])
+  }, [active, ref]) // onEscape removed — stored in ref above
 }

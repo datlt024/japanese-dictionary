@@ -19,7 +19,7 @@ import styles from "./Header.module.css"
 
 import dynamic from "next/dynamic"
 const AuthModal = dynamic(() => import("@/features/auth/components/AuthModal/AuthModal"), { ssr: false })
-import { useAuth } from "@/features/auth/hooks/useAuth"
+import { useAuth } from "@/shared/hooks/useAuth"
 
 import { Bell } from "lucide-react"
 
@@ -127,6 +127,7 @@ export default function Header({
     async function handleSignOut() {
         setDropdownOpen(false)
         await signOut()
+        router.refresh()
     }
 
     const userInitial = user?.email ? user.email[0].toUpperCase() : null

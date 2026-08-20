@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { unstable_cache } from "next/cache"
-import { supabaseAdmin } from "@/server/supabase/admin"
+import { supabaseAdmin } from "@/server/supabase/server"
 import { enrichItems } from "@/server/services/notebook/enrich-items.service"
 import { serverError } from "@/server/utils/api-error"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"

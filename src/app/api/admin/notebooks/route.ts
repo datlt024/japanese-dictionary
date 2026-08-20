@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
-import { isAdminUserId } from "@/server/utils/admin"
+import { isAdminUser } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 
@@ -10,7 +10,7 @@ export async function GET() {
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
-    if (!user || !isAdminUserId(user.id)) {
+    if (!user || !isAdminUser(user)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
@@ -20,7 +20,6 @@ export async function GET() {
     const { data, error } = await supabaseServer
         .from("notebooks")
         .select("id, name, description, group_id, is_public, public_category, public_description, display_order, created_at, updated_at, notebook_items(count)")
-        .eq("user_id", user.id)
         .order("display_order", { ascending: true })
         .order("name", { ascending: true })
 
@@ -39,7 +38,7 @@ export async function POST(req: NextRequest) {
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
-    if (!user || !isAdminUserId(user.id)) {
+    if (!user || !isAdminUser(user)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 

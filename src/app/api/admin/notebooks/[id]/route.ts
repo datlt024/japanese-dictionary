@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
-import { isAdminUserId } from "@/server/utils/admin"
+import { isAdminUser } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 
@@ -13,7 +13,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
-    if (!user || !isAdminUserId(user.id)) {
+    if (!user || !isAdminUser(user)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
@@ -30,6 +30,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
         display_order?: number
         name?: string
         description?: string | null
+        group_id?: string | null
         updated_at?: string
     }
     const updates: NotebookUpdate = { updated_at: new Date().toISOString() }
@@ -37,6 +38,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
     if ("public_category" in body) updates.public_category = typeof body.public_category === "string" ? body.public_category : null
     if ("public_description" in body) updates.public_description = typeof body.public_description === "string" ? body.public_description : null
     if ("display_order" in body && typeof body.display_order === "number") updates.display_order = body.display_order
+    if ("group_id" in body) updates.group_id = typeof body.group_id === "string" ? body.group_id : null
     if ("name" in body && typeof body.name === "string") {
         const name = body.name.trim()
         if (!name || name.length > 200) return NextResponse.json({ error: "Tên sổ tay không được để trống hoặc quá dài" }, { status: 400 })
@@ -52,7 +54,6 @@ export async function PATCH(req: NextRequest, { params }: Params) {
         .from("notebooks")
         .update(updates)
         .eq("id", id)
-        .eq("user_id", user.id)
         .select()
         .single()
 
@@ -65,7 +66,7 @@ export async function DELETE(_req: NextRequest, { params }: Params) {
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
-    if (!user || !isAdminUserId(user.id)) {
+    if (!user || !isAdminUser(user)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
@@ -76,7 +77,6 @@ export async function DELETE(_req: NextRequest, { params }: Params) {
         .from("notebooks")
         .delete()
         .eq("id", id)
-        .eq("user_id", user.id)
 
     if (error) return serverError(error, "DELETE /api/admin/notebooks/[id]")
     return new NextResponse(null, { status: 204 })

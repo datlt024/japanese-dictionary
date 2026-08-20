@@ -10,7 +10,7 @@ import {
 
 import { Check, Plus, X } from "lucide-react"
 
-import { useAuth } from "@/features/auth/hooks/useAuth"
+import { useAuth } from "@/shared/hooks/useAuth"
 import { useNotebookCheck } from "@/features/notebook/hooks/useNotebookCheck"
 import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
 

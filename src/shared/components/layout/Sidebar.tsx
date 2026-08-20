@@ -75,11 +75,11 @@ export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
             </div>
 
             <nav className={styles.sidebarMenu} aria-label="Menu chính">
-                {[...menuItems, ...(isAdmin ? [{ href: "/admin", kind: "icon" as const, Icon: ShieldCheck, label: "Quản trị" }] : [])].map((item) => {
+                {[...menuItems, ...(isAdmin ? [{ href: "/admin/dashboard", kind: "icon" as const, Icon: ShieldCheck, label: "Quản trị", activePrefix: "/admin" }] : [])].map((item) => {
                     const isActive =
                         item.href === "/"
                             ? pathname === "/"
-                            : pathname.startsWith(item.href)
+                            : pathname.startsWith("activePrefix" in item && item.activePrefix ? item.activePrefix : item.href)
 
                     return (
                         <Link

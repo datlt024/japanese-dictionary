@@ -7,7 +7,7 @@ import layoutStyles from "@/shared/components/layout/AppLayout.module.css"
 import Sidebar from "@/shared/components/layout/Sidebar"
 import QuickLookupLayer from "@/features/dictionary/quick-lookup/components/QuickLookupLayer"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
-import { isAdminUserId } from "@/server/utils/admin"
+import { isAdminUser } from "@/server/utils/admin"
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ["latin", "latin-ext", "vietnamese"],
@@ -63,7 +63,7 @@ export default async function RootLayout({
   // local decode is sufficient for showing/hiding the sidebar admin link.
   const supabase = await createSupabaseServerClient()
   const { data: { session } } = await supabase.auth.getSession()
-  const isAdmin = session?.user ? isAdminUserId(session.user.id) : false
+  const isAdmin = session?.user ? isAdminUser(session.user) : false
 
   return (
     <html lang="vi" translate="no" suppressHydrationWarning data-scroll-behavior="smooth">

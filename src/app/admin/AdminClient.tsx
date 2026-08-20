@@ -41,6 +41,26 @@ interface AdminNotebook {
     group_id: string | null
 }
 
+const KANJI_MAP: Record<string, number> = {
+    "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4,
+    "五": 5, "六": 6, "七": 7, "八": 8, "九": 9,
+    "十": 10, "百": 100, "千": 1000,
+}
+
+function normalizeForSort(name: string): string {
+    return name.replace(/[〇一二三四五六七八九十百千]+/g, (match) => {
+        let value = 0
+        let current = 0
+        for (const ch of match) {
+            const v = KANJI_MAP[ch]
+            if (v === undefined) break
+            if (v >= 10) { value += (current === 0 ? 1 : current) * v; current = 0 }
+            else { current = v }
+        }
+        return String(value + current)
+    })
+}
+
 async function fetchGroups(): Promise<AdminGroup[]> {
     const res = await fetch("/api/admin/groups")
     if (!res.ok) throw new Error("fetch failed")
@@ -128,14 +148,17 @@ interface GroupRowProps {
 }
 
 function GroupRow({ group, notebooks, onTogglePublic, onSaveGroup, onCreateNotebook }: GroupRowProps) {
-    const [expanded, setExpanded] = useState(false)
+    const [expanded, setExpanded] = useState(true)
     const [editing, setEditing] = useState(false)
     const [desc, setDesc] = useState(group.public_description ?? "")
     const [order, setOrder] = useState(String(group.display_order))
     const [toggling, setToggling] = useState(false)
     const [saving, setSaving] = useState(false)
 
-    const groupNotebooks = notebooks.filter((nb) => nb.group_id === group.id)
+    const groupNotebooks = notebooks
+        .filter((nb) => nb.group_id === group.id)
+        .sort((a, b) => normalizeForSort(a.name).localeCompare(normalizeForSort(b.name), ["vi", "ja", "en"], { numeric: true }))
+    const totalItems = groupNotebooks.reduce((s, nb) => s + nb.item_count, 0)
 
     async function handleToggle() {
         setToggling(true)
@@ -154,17 +177,22 @@ function GroupRow({ group, notebooks, onTogglePublic, onSaveGroup, onCreateNoteb
     }
 
     return (
-        <div className={styles.groupWrap} data-public={group.is_public || undefined}>
+        <div className={styles.groupCard} data-public={group.is_public || undefined}>
+            {/* ── Group header ── */}
             <div className={styles.groupHeader}>
                 <button type="button" className={styles.expandBtn} onClick={() => setExpanded(!expanded)}>
-                    {expanded ? <FolderOpen size={15} /> : <Folder size={15} />}
+                    <ChevronRight size={14} className={styles.expandChevron} data-open={expanded || undefined} />
+                    {expanded ? <FolderOpen size={16} /> : <Folder size={16} />}
                     <span className={styles.groupName}>{group.name}</span>
-                    <span className={styles.nbCount}>{groupNotebooks.length} sổ tay</span>
-                    <ChevronRight size={13} className={styles.expandChevron} data-open={expanded || undefined} />
                 </button>
 
-                <div className={styles.rowActions}>
-                    <button type="button" className={styles.iconBtn} onClick={() => setEditing(!editing)} title="Chỉnh sửa">
+                <div className={styles.groupMeta}>
+                    <span className={styles.metaPill}>{groupNotebooks.length} sổ tay</span>
+                    <span className={styles.metaPill}>{totalItems.toLocaleString()} mục</span>
+                </div>
+
+                <div className={styles.groupActions}>
+                    <button type="button" className={styles.iconBtn} onClick={() => setEditing(!editing)} title="Chỉnh sửa nhóm">
                         <Pencil size={13} />
                     </button>
                     <button
@@ -172,7 +200,7 @@ function GroupRow({ group, notebooks, onTogglePublic, onSaveGroup, onCreateNoteb
                         className={group.is_public ? styles.btnPublic : styles.btnPrivate}
                         onClick={handleToggle}
                         disabled={toggling}
-                        title={group.is_public ? "Đang công khai — nhấn để ẩn cả nhóm" : "Nhấn để công khai cả nhóm"}
+                        title={group.is_public ? "Đang công khai — nhấn để ẩn" : "Nhấn để công khai cả nhóm"}
                     >
                         {group.is_public ? <Eye size={13} /> : <EyeOff size={13} />}
                         {group.is_public ? "Công khai" : "Riêng tư"}
@@ -180,6 +208,7 @@ function GroupRow({ group, notebooks, onTogglePublic, onSaveGroup, onCreateNoteb
                 </div>
             </div>
 
+            {/* ── Edit form ── */}
             {editing && (
                 <div className={styles.editRow}>
                     <div className={styles.editGrid}>
@@ -217,25 +246,22 @@ function GroupRow({ group, notebooks, onTogglePublic, onSaveGroup, onCreateNoteb
                 </div>
             )}
 
+            {/* ── Notebook grid ── */}
             {expanded && (
-                <div className={styles.groupNotebooks}>
+                <div className={styles.nbGrid}>
                     {groupNotebooks.length === 0 ? (
                         <p className={styles.emptyGroupMsg}>Nhóm này chưa có sổ tay nào.</p>
                     ) : (
                         groupNotebooks.map((nb) => (
-                            <div key={nb.id} className={styles.subRow}>
-                                <BookOpen size={13} className={styles.rowIcon} />
-                                <span className={styles.subRowName}>{nb.name}</span>
-                                <span className={styles.itemCount}>{nb.item_count} mục</span>
-                                <Link href={`/notebooks/${nb.id}`} className={styles.iconBtn} target="_blank" title="Xem">
-                                    <ChevronRight size={13} />
-                                </Link>
-                            </div>
+                            <Link key={nb.id} href={`/notebooks/${nb.id}`} target="_blank" className={styles.nbChip}>
+                                <span className={styles.nbChipName}>{nb.name}</span>
+                                <span className={styles.nbChipCount}>{nb.item_count} mục</span>
+                            </Link>
                         ))
                     )}
-                    <button type="button" className={styles.addNbBtn} onClick={onCreateNotebook}>
+                    <button type="button" className={styles.nbChipAdd} onClick={onCreateNotebook}>
                         <Plus size={13} />
-                        Thêm sổ tay vào nhóm
+                        Thêm sổ tay
                     </button>
                 </div>
             )}
@@ -346,21 +372,45 @@ export default function AdminClient() {
     }
 
     const publicGroupCount = allGroups.filter((g) => g.is_public).length
-    const publicNbCount = allNbs.filter((nb) => nb.is_public).length
+    const publicGroupIds = new Set(allGroups.filter((g) => g.is_public).map((g) => g.id))
+    const publicNbCount = allNbs.filter((nb) => nb.is_public || (nb.group_id !== null && publicGroupIds.has(nb.group_id))).length
+
+    const totalItems = allNbs.reduce((s, nb) => s + nb.item_count, 0)
 
     return (
         <main className={styles.page}>
             <div className={styles.header}>
-                <div>
-                    <h1 className={styles.pageTitle}>Quản lý nội dung Khám phá</h1>
-                    <p className={styles.pageMeta}>
-                        {allGroups.length} nhóm ({publicGroupCount} công khai) ·{" "}
-                        {allNbs.length} sổ tay ({publicNbCount} công khai)
-                    </p>
-                </div>
+                <h1 className={styles.pageTitle}>Quản lý nội dung Khám phá</h1>
                 <button type="button" className={styles.btnPrimary} onClick={() => setShowCreate(true)}>
                     <Plus size={14} /> Tạo sổ tay
                 </button>
+            </div>
+
+            <div className={styles.statsBar}>
+                <div className={styles.statCard}>
+                    <span className={styles.statValue}>{allGroups.length}</span>
+                    <span className={styles.statLabel}>Nhóm</span>
+                </div>
+                <div className={styles.statDivider} />
+                <div className={styles.statCard}>
+                    <span className={styles.statValue}>{publicGroupCount}</span>
+                    <span className={styles.statLabel}>Nhóm công khai</span>
+                </div>
+                <div className={styles.statDivider} />
+                <div className={styles.statCard}>
+                    <span className={styles.statValue}>{allNbs.length}</span>
+                    <span className={styles.statLabel}>Sổ tay</span>
+                </div>
+                <div className={styles.statDivider} />
+                <div className={styles.statCard}>
+                    <span className={styles.statValue}>{publicNbCount}</span>
+                    <span className={styles.statLabel}>Sổ tay hiển thị</span>
+                </div>
+                <div className={styles.statDivider} />
+                <div className={styles.statCard}>
+                    <span className={styles.statValue}>{totalItems.toLocaleString()}</span>
+                    <span className={styles.statLabel}>Tổng mục từ</span>
+                </div>
             </div>
 
             {saved && (

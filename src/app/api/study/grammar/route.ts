@@ -23,6 +23,7 @@ export async function GET(req: NextRequest) {
         pattern: (g.display_pattern ?? g.pattern) as string,
         meaning: (g.short_meaning_vi || g.meaning_vi || null) as string | null,
     })), {
-        headers: { "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400" },
+        // no-store: shuffle is per-request; public caching would serve the same order to everyone
+        headers: { "Cache-Control": "no-store" },
     })
 }

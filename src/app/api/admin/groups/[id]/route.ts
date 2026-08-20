@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
-import { isAdminUserId } from "@/server/utils/admin"
+import { isAdminUser } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 
@@ -13,7 +13,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
-    if (!user || !isAdminUserId(user.id)) {
+    if (!user || !isAdminUser(user)) {
         return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
     }
 
@@ -46,10 +46,30 @@ export async function PATCH(req: NextRequest, { params }: Params) {
         .from("notebook_groups")
         .update(updates)
         .eq("id", id)
-        .eq("user_id", user.id)
         .select()
         .single()
 
     if (error) return serverError(error, "PATCH /api/admin/groups/[id]")
     return NextResponse.json(data)
+}
+
+export async function DELETE(_req: NextRequest, { params }: Params) {
+    const { id } = await params
+    const supabase = await createSupabaseServerClient()
+    const { data: { user } } = await supabase.auth.getUser()
+
+    if (!user || !isAdminUser(user)) {
+        return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
+    }
+
+    const rl = await rateLimit(`admin-grp-del:${user.id}`, 20, 60_000)
+    if (!rl.ok) return rl.response
+
+    const { error } = await supabaseServer
+        .from("notebook_groups")
+        .delete()
+        .eq("id", id)
+
+    if (error) return serverError(error, "DELETE /api/admin/groups/[id]")
+    return new NextResponse(null, { status: 204 })
 }

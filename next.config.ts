@@ -12,6 +12,7 @@ const cspDirectives = [
     "font-src 'self' https://fonts.gstatic.com data:",
     "img-src 'self' data: blob: https:",
     `connect-src 'self' https://${supabaseHost} wss://${supabaseHost}`,
+    "worker-src 'self' blob:",
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self'",

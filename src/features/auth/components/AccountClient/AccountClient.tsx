@@ -9,7 +9,7 @@ import {
 import { useRouter } from "next/navigation"
 
 import { createSupabaseBrowserClient } from "@/shared/lib/supabase/auth-client"
-import { useAuth } from "@/features/auth/hooks/useAuth"
+import { useAuth } from "@/shared/hooks/useAuth"
 
 import styles from "./AccountClient.module.css"
 

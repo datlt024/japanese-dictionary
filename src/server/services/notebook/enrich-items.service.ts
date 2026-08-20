@@ -1,5 +1,5 @@
 import "server-only"
-import { supabaseAdmin } from "@/server/supabase/admin"
+import { supabaseAdmin } from "@/server/supabase/server"
 import type { EnrichedNotebookItem, NotebookItem } from "@/domain/notebook/notebook.type"
 
 function isKanji(ch: string) {

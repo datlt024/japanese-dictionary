@@ -9,6 +9,7 @@ import {
 } from "react"
 
 import { Eye, EyeOff, X } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 import { createSupabaseBrowserClient } from "@/shared/lib/supabase/auth-client"
 import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
@@ -24,6 +25,7 @@ type AuthModalProps = {
 }
 
 export default function AuthModal({ open, onClose, initialError }: AuthModalProps) {
+    const router = useRouter()
     const [step, setStep] = useState<Step>("signin")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
@@ -100,6 +102,7 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
             }
 
             handleClose()
+            router.refresh()
         } catch {
             setError("Đã xảy ra lỗi. Vui lòng thử lại.")
         } finally {
@@ -142,6 +145,7 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
 
             if (data.session) {
                 handleClose()
+                router.refresh()
             } else {
                 setSentContext("signup")
                 setStep("sent")
