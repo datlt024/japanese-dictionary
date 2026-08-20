@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { deleteComment } from "@/server/repositories/community/community.repository"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
@@ -21,7 +22,7 @@ export async function DELETE(
     const rl = await rateLimit(`comments-del:${user.id}`, 20, 60_000)
     if (!rl.ok) return rl.response
 
-    const { error } = await deleteComment(supabase, id, user.id)
+    const { error } = await deleteComment(supabaseServer, id, user.id)
     if (error) {
         return serverError(error, "DELETE /api/comments/[id]")
     }

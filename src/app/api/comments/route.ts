@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 import {
@@ -43,8 +44,8 @@ export async function GET(request: NextRequest) {
     const { data: { user } } = await supabase.auth.getUser()
 
     const [commentsResult, countResult] = await Promise.all([
-        listComments(supabase, entryType, entryId, resolvedSort, PAGE_SIZE, page * PAGE_SIZE),
-        countComments(supabase, entryType, entryId),
+        listComments(supabaseServer, entryType, entryId, resolvedSort, PAGE_SIZE, page * PAGE_SIZE),
+        countComments(supabaseServer, entryType, entryId),
     ])
 
     if (commentsResult.error) {
@@ -56,9 +57,9 @@ export async function GET(request: NextRequest) {
 
     const userIds = [...new Set(comments.map((c) => c.user_id))]
     const [profileMap, likedIds] = await Promise.all([
-        getProfilesByUserIds(supabase, userIds),
+        getProfilesByUserIds(supabaseServer, userIds),
         user && comments.length > 0
-            ? getUserLikedCommentIds(supabase, user.id, comments.map((c) => c.id))
+            ? getUserLikedCommentIds(supabaseServer, user.id, comments.map((c) => c.id))
                 .then((r) => (r.data ?? []).map((r) => r.comment_id))
             : Promise.resolve([] as string[]),
     ])
@@ -115,9 +116,9 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Tên hiển thị từ 1–30 ký tự" }, { status: 400 })
     }
 
-    await upsertProfile(supabase, user.id, displayName, jlptLevel)
+    await upsertProfile(supabaseServer, user.id, displayName, jlptLevel)
 
-    const { data, error } = await createComment(supabase, user.id, entryType, entryId, content)
+    const { data, error } = await createComment(supabaseServer, user.id, entryType, entryId, content)
 
     if (error) {
         return serverError(error, "POST /api/comments")

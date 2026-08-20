@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { addLike, getLike, removeLike } from "@/server/repositories/community/community.repository"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
@@ -21,15 +22,15 @@ export async function POST(
     if (!rl.ok) return rl.response
 
     try {
-        const existing = await getLike(supabase, user.id, commentId)
+        const existing = await getLike(supabaseServer, user.id, commentId)
 
         const liked = !existing.data
 
         if (existing.data) {
-            const { error: removeError } = await removeLike(supabase, user.id, commentId)
+            const { error: removeError } = await removeLike(supabaseServer, user.id, commentId)
             if (removeError) return serverError(removeError, "POST /api/comments/[id]/like")
         } else {
-            const { error: addError } = await addLike(supabase, user.id, commentId)
+            const { error: addError } = await addLike(supabaseServer, user.id, commentId)
             if (addError) return serverError(addError, "POST /api/comments/[id]/like")
         }
 
@@ -39,13 +40,13 @@ export async function POST(
         // The ideal fix is a database trigger that keeps likes_count in sync automatically:
         //   CREATE TRIGGER sync_likes_count AFTER INSERT OR DELETE ON word_comment_likes
         //   FOR EACH ROW EXECUTE FUNCTION update_comment_likes_count();
-        const { count } = await supabase
+        const { count } = await supabaseServer
             .from("word_comment_likes")
             .select("*", { count: "exact", head: true })
             .eq("comment_id", commentId)
 
         const newCount = count ?? 0
-        await supabase
+        await supabaseServer
             .from("word_comments")
             .update({ likes_count: newCount })
             .eq("id", commentId)

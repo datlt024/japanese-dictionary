@@ -137,7 +137,7 @@ export async function GET(_request: NextRequest, { params }: Params) {
     const rl = await rateLimit(`nb-items-get:${user.id}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
-    const { data, error } = await listNotebookItems(supabase, id, user.id)
+    const { data, error } = await listNotebookItems(supabaseServer, id, user.id)
 
     if (error) {
         return serverError(error, "GET /api/notebooks/[id]/items")
@@ -173,7 +173,7 @@ export async function POST(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "item_id không được để trống" }, { status: 400 })
     }
 
-    const { data: nb } = await supabase
+    const { data: nb } = await supabaseServer
         .from("notebooks")
         .select("id")
         .eq("id", id)
@@ -184,7 +184,7 @@ export async function POST(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Sổ tay không tồn tại" }, { status: 404 })
     }
 
-    const { data, error } = await addNotebookItem(supabase, id, user.id, itemType, itemId)
+    const { data, error } = await addNotebookItem(supabaseServer, id, user.id, itemType, itemId)
 
     if (error) {
         // Unique constraint violation = item đã tồn tại
@@ -222,7 +222,7 @@ export async function DELETE(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "item_id không được để trống" }, { status: 400 })
     }
 
-    const { error } = await removeNotebookItem(supabase, id, user.id, itemType, itemId)
+    const { error } = await removeNotebookItem(supabaseServer, id, user.id, itemType, itemId)
 
     if (error) {
         return serverError(error, "DELETE /api/notebooks/[id]/items")

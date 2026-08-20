@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 
-import { getJlptStudyBatch, isValidJlptLevel, shuffleItems } from "@/server/services/study/jlpt-study.service"
+import { getJlptStudyBatch, isValidJlptLevel } from "@/server/services/study/jlpt-study.service"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 
 export async function GET(request: NextRequest) {
@@ -15,6 +15,8 @@ export async function GET(request: NextRequest) {
         return NextResponse.json({ error: "Cấp độ không hợp lệ" }, { status: 400 })
     }
 
-    const items = shuffleItems(await getJlptStudyBatch(level, limit))
-    return NextResponse.json(items)
+    const items = await getJlptStudyBatch(level, limit)
+    return NextResponse.json(items, {
+        headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300" },
+    })
 }

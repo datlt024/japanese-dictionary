@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { isAdminUserId } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
@@ -47,7 +48,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Không có trường nào để cập nhật" }, { status: 400 })
     }
 
-    const { data, error } = await supabase
+    const { data, error } = await supabaseServer
         .from("notebooks")
         .update(updates)
         .eq("id", id)
@@ -71,7 +72,7 @@ export async function DELETE(_req: NextRequest, { params }: Params) {
     const rl = await rateLimit(`admin-nb-del:${user.id}`, 20, 60_000)
     if (!rl.ok) return rl.response
 
-    const { error } = await supabase
+    const { error } = await supabaseServer
         .from("notebooks")
         .delete()
         .eq("id", id)

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { isAdminUserId } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
@@ -41,7 +42,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
     }
     if ("description" in body) updates.description = typeof body.description === "string" ? body.description : null
 
-    const { data, error } = await supabase
+    const { data, error } = await supabaseServer
         .from("notebook_groups")
         .update(updates)
         .eq("id", id)

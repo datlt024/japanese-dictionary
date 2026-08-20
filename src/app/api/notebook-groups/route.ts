@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 import {
@@ -20,7 +21,7 @@ export async function GET() {
     const rl = await rateLimit(`nbg-get:${user.id}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
-    const { data, error } = await listNotebookGroups(supabase, user.id)
+    const { data, error } = await listNotebookGroups(supabaseServer, user.id)
 
     if (error) {
         return serverError(error, "GET /api/notebook-groups")
@@ -51,7 +52,7 @@ export async function POST(request: NextRequest) {
         ? body.description.trim() || null
         : null
 
-    const { data, error } = await createNotebookGroup(supabase, user.id, name, description ?? undefined)
+    const { data, error } = await createNotebookGroup(supabaseServer, user.id, name, description ?? undefined)
 
     if (error) {
         return serverError(error, "POST /api/notebook-groups")

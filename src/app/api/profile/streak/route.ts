@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 import { upsertStreak } from "@/server/repositories/community/community.repository"
@@ -34,7 +35,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Định dạng ngày không hợp lệ" }, { status: 400 })
     }
 
-    const { error } = await upsertStreak(supabase, user.id, {
+    const { error } = await upsertStreak(supabaseServer, user.id, {
         streak_count,
         streak_last_date: streak_last_date ?? null,
         streak_active_days: streak_active_days.filter((d) => typeof d === "number"),

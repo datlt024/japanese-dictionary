@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 
@@ -34,7 +35,7 @@ export async function GET(
     const rl = await rateLimit(`note-get:${user.id}:${ip}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
-    const { data, error } = await supabase
+    const { data, error } = await supabaseServer
         .from("user_vocabulary_notes")
         .select("note_text, updated_at")
         .eq("user_id", user.id)
@@ -77,7 +78,7 @@ export async function PUT(
         return NextResponse.json({ error: "Ghi chú tối đa 2000 ký tự" }, { status: 400 })
     }
 
-    const { data, error } = await supabase
+    const { data, error } = await supabaseServer
         .from("user_vocabulary_notes")
         .upsert(
             {
@@ -116,7 +117,7 @@ export async function DELETE(
         return NextResponse.json({ error: "id không hợp lệ" }, { status: 400 })
     }
 
-    const { error } = await supabase
+    const { error } = await supabaseServer
         .from("user_vocabulary_notes")
         .delete()
         .eq("user_id", user.id)

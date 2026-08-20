@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 import {
@@ -45,7 +46,7 @@ export async function PATCH(request: NextRequest, { params }: Params) {
         return NextResponse.json({ error: "Không có trường nào để cập nhật" }, { status: 400 })
     }
 
-    const { data, error } = await updateNotebookGroup(supabase, id, user.id, fields)
+    const { data, error } = await updateNotebookGroup(supabaseServer, id, user.id, fields)
 
     if (error) {
         return serverError(error, "PATCH /api/notebook-groups/[id]")
@@ -67,7 +68,7 @@ export async function DELETE(_request: NextRequest, { params }: Params) {
     const rl = await rateLimit(`nbg-write:${user.id}`, 20, 60_000)
     if (!rl.ok) return rl.response
 
-    const { error } = await deleteNotebookGroup(supabase, id, user.id)
+    const { error } = await deleteNotebookGroup(supabaseServer, id, user.id)
 
     if (error) {
         return serverError(error, "DELETE /api/notebook-groups/[id]")

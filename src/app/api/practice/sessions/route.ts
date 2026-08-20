@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 import {
@@ -18,7 +19,7 @@ export async function GET() {
     const rl = await rateLimit(`practice-sessions-get:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
-    const { data, error } = await listPracticeSessions(supabase, user.id)
+    const { data, error } = await listPracticeSessions(supabaseServer, user.id)
     if (error) return serverError(error, "GET /api/practice/sessions")
 
     return NextResponse.json(data ?? [])
@@ -54,7 +55,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Dữ liệu không hợp lệ" }, { status: 400 })
     }
 
-    const { data: nb, error: nbError } = await supabase
+    const { data: nb, error: nbError } = await supabaseServer
         .from("notebooks")
         .select("id")
         .eq("id", notebook_id)
@@ -66,7 +67,7 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Sổ tay không tồn tại" }, { status: 404 })
     }
 
-    const { data, error } = await createPracticeSession(supabase, user.id, {
+    const { data, error } = await createPracticeSession(supabaseServer, user.id, {
         notebook_id,
         mode,
         known_ids: known_ids.map(String),

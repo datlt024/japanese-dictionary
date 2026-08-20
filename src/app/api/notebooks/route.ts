@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
 import {
@@ -21,7 +22,7 @@ export async function GET() {
     const rl = await rateLimit(`nb-get:${user.id}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
-    const { data, error } = await listNotebooksWithItemCount(supabase, user.id)
+    const { data, error } = await listNotebooksWithItemCount(supabaseServer, user.id)
 
     if (error) {
         return serverError(error, "GET /api/notebooks")
@@ -65,7 +66,7 @@ export async function POST(request: NextRequest) {
     const groupId = typeof body?.group_id === "string" ? body.group_id : null
 
     if (groupId) {
-        const { data: grp } = await supabase
+        const { data: grp } = await supabaseServer
             .from("notebook_groups")
             .select("id")
             .eq("id", groupId)
@@ -76,7 +77,7 @@ export async function POST(request: NextRequest) {
         }
     }
 
-    const { data, error } = await createNotebook(supabase, user.id, name, description ?? undefined, groupId)
+    const { data, error } = await createNotebook(supabaseServer, user.id, name, description ?? undefined, groupId)
 
     if (error) {
         return serverError(error, "POST /api/notebooks")

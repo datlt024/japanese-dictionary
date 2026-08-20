@@ -6,8 +6,16 @@ import JlptFlashcardClient from "@/features/dictionary/study/components/JlptFlas
 import {
     getJlptStudyBatch,
     isValidJlptLevel,
-    shuffleItems,
+    JLPT_LEVELS,
 } from "@/server/services/study/jlpt-study.service"
+
+// Pre-build one page per JLPT level at deploy time; refresh initial cards every hour.
+// Users can always fetch a fresh batch client-side without reloading the page.
+export const revalidate = 3600
+
+export function generateStaticParams() {
+    return JLPT_LEVELS.map((level) => ({ level: level.toLowerCase() }))
+}
 
 type Props = { params: Promise<{ level: string }> }
 
@@ -27,7 +35,7 @@ export default async function StudyLevelPage({ params }: Props) {
 
     if (!isValidJlptLevel(upperLevel)) notFound()
 
-    const items = shuffleItems(await getJlptStudyBatch(upperLevel, 50))
+    const items = await getJlptStudyBatch(upperLevel, 50)
 
     return (
         <AppLayout title={`Flashcard ${upperLevel}`} hideSearchTabs>

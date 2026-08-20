@@ -228,15 +228,22 @@ export async function findGrammarPointById(id: number) {
 }
 
 export async function findGrammarPointBySourceId(sourceId: string) {
-    const { data: rawData, error } = await supabaseServer
+    // Lightweight lookup for the numeric id first so we can then parallelize
+    // the heavy detail query with the similar-grammar fetch (same pattern as findGrammarPointById).
+    const { data: idRow } = await supabaseServer
         .from("grammars")
-        .select(GRAMMAR_DETAIL_COLUMNS)
+        .select("id")
         .eq("source_id", sourceId)
         .maybeSingle()
 
-    const similar_grammar = rawData
-        ? await fetchSimilarGrammarPatterns((rawData as { id: number }).id)
-        : []
+    if (!idRow) {
+        return { data: null, error: null }
+    }
+
+    const [{ data: rawData, error }, similar_grammar] = await Promise.all([
+        supabaseServer.from("grammars").select(GRAMMAR_DETAIL_COLUMNS).eq("id", idRow.id).maybeSingle(),
+        fetchSimilarGrammarPatterns(idRow.id),
+    ])
 
     return {
         data: mapGrammarDetail(rawData as unknown as GrammarDetailRow | null, similar_grammar),

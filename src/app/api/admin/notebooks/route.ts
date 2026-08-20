@@ -1,5 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { isAdminUserId } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
 import { rateLimit } from "@/shared/utils/rate-limit"
@@ -16,7 +17,7 @@ export async function GET() {
     const rl = await rateLimit(`admin-nb:${user.id}`, 30, 60_000)
     if (!rl.ok) return rl.response
 
-    const { data, error } = await supabase
+    const { data, error } = await supabaseServer
         .from("notebooks")
         .select("id, name, description, group_id, is_public, public_category, public_description, display_order, created_at, updated_at, notebook_items(count)")
         .eq("user_id", user.id)
@@ -49,7 +50,7 @@ export async function POST(req: NextRequest) {
     const name = typeof body?.name === "string" ? body.name.trim() : ""
     if (!name || name.length > 200) return NextResponse.json({ error: "Tên sổ tay không được để trống hoặc quá dài" }, { status: 400 })
 
-    const { data, error } = await supabase
+    const { data, error } = await supabaseServer
         .from("notebooks")
         .insert({ user_id: user.id, name, description: body?.description ?? null })
         .select()

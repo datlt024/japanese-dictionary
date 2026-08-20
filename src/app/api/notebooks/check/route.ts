@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
+import { supabaseServer } from "@/server/supabase/server"
 import { checkItemInNotebooks } from "@/server/repositories/notebook/notebook-items.repository"
 import { rateLimit } from "@/shared/utils/rate-limit"
 import type { NotebookItemType } from "@/domain/notebook/notebook.type"
@@ -32,7 +33,7 @@ export async function GET(request: NextRequest) {
         return NextResponse.json({ notebookIds: [] })
     }
 
-    const { data, error } = await checkItemInNotebooks(supabase, user.id, itemType, itemId)
+    const { data, error } = await checkItemInNotebooks(supabaseServer, user.id, itemType, itemId)
 
     if (error || !data) {
         return NextResponse.json({ notebookIds: [] })
