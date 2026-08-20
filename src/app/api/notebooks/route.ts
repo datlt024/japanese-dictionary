@@ -11,7 +11,9 @@ import {
 
 export const dynamic = "force-dynamic"
 
-export async function GET() {
+const PAGE_SIZE = 50
+
+export async function GET(request: NextRequest) {
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
@@ -22,13 +24,19 @@ export async function GET() {
     const rl = await rateLimit(`nb-get:${user.id}`, 60, 60_000)
     if (!rl.ok) return rl.response
 
-    const { data, error } = await listNotebooksWithItemCount(supabaseServer, user.id)
+    const { searchParams } = new URL(request.url)
+    const cursor = searchParams.get("cursor") ?? undefined
+    const limitParam = parseInt(searchParams.get("limit") ?? "", 10)
+    const limit = isNaN(limitParam) || limitParam <= 0 ? PAGE_SIZE : Math.min(limitParam, 200)
+
+    const { data, error } = await listNotebooksWithItemCount(supabaseServer, user.id, { cursor, limit })
 
     if (error) {
         return serverError(error, "GET /api/notebooks")
     }
 
-    const transformed = (data as unknown as NotebookWithCount[] ?? []).map((nb) => ({
+    const rows = data as unknown as NotebookWithCount[] ?? []
+    const transformed = rows.map((nb) => ({
         id: nb.id,
         name: nb.name,
         description: nb.description,
@@ -38,9 +46,15 @@ export async function GET() {
         item_count: nb.notebook_items?.[0]?.count ?? 0,
     }))
 
-    return NextResponse.json(transformed, {
-        headers: { "Cache-Control": "private, max-age=30, stale-while-revalidate=60" },
-    })
+    const headers: Record<string, string> = {
+        "Cache-Control": "private, max-age=30, stale-while-revalidate=60",
+    }
+    if (rows.length === limit) {
+        const nextCursor = rows[rows.length - 1].created_at
+        headers["X-Next-Cursor"] = nextCursor
+    }
+
+    return NextResponse.json(transformed, { headers })
 }
 
 export async function POST(request: NextRequest) {

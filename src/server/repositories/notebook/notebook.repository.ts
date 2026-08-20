@@ -15,13 +15,24 @@ export type NotebookWithCount = {
     notebook_items: { count: number }[]
 }
 
-export async function listNotebooksWithItemCount(supabase: Client, userId: string) {
-    return supabase
+export async function listNotebooksWithItemCount(
+    supabase: Client,
+    userId: string,
+    opts: { cursor?: string; limit?: number } = {}
+) {
+    const limit = Math.min(opts.limit ?? 50, 200)
+    let q = supabase
         .from("notebooks")
         .select("id, name, description, group_id, created_at, updated_at, notebook_items(count)")
         .eq("user_id", userId)
         .order("created_at", { ascending: false })
-        .limit(200)
+        .limit(limit)
+
+    if (opts.cursor) {
+        q = q.lt("created_at", opts.cursor)
+    }
+
+    return q
 }
 
 export async function createNotebook(
