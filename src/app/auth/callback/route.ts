@@ -3,6 +3,7 @@ import { cookies } from "next/headers"
 import { NextRequest, NextResponse } from "next/server"
 
 import type { Database } from "@/shared/types/database.generated"
+import { SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY } from "@/shared/utils/publicEnv"
 
 export async function GET(request: NextRequest) {
     const { searchParams, origin } = new URL(request.url)
@@ -23,8 +24,8 @@ export async function GET(request: NextRequest) {
         const cookieStore = await cookies()
 
         const supabase = createServerClient<Database>(
-            process.env.NEXT_PUBLIC_SUPABASE_URL!,
-            process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
+            SUPABASE_URL,
+            SUPABASE_PUBLISHABLE_KEY,
             {
                 cookies: {
                     getAll() {
