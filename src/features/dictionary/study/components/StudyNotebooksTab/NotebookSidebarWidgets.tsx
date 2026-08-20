@@ -1,10 +1,8 @@
 "use client"
 
-import { Button, Card, Statistic, Typography } from "antd"
-import { BookOutlined } from "@ant-design/icons"
+import { BookOpen } from "lucide-react"
 import { useStreak, WEEK_DAYS } from "@/shared/hooks/useStreak"
-
-const { Text } = Typography
+import styles from "./StudyNotebooksTab.module.css"
 
 interface Props {
     userId: string | null
@@ -18,64 +16,56 @@ export default function NotebookSidebarWidgets({ userId, totalItems, firstNotebo
     const streak = useStreak(userId)
 
     return (
-        <aside style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-            <Card
-                size="small"
-                style={{ borderColor: "#E5EAF2" }}
-                styles={{ body: { padding: 20 } }}
-            >
-                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 12 }}>
-                    <span style={{ fontSize: 16 }}>📅</span>
-                    <Text strong style={{ fontSize: 13 }}>Ôn tập hôm nay</Text>
+        <aside className={styles.sideCol}>
+            {/* Ôn tập hôm nay */}
+            <div className={styles.widget}>
+                <div className={styles.widgetTitleRow}>
+                    <span className={styles.widgetEmoji}>📅</span>
+                    <h3 className={styles.widgetTitle}>Ôn tập hôm nay</h3>
                 </div>
-                <Statistic
-                    value={totalItems}
-                    suffix={<Text type="secondary" style={{ fontSize: 14 }}> từ cần ôn</Text>}
-                    valueStyle={{ fontSize: 28, fontWeight: 700, color: "#1F2937" }}
-                />
-                <Button
-                    type="primary"
-                    block
-                    icon={<BookOutlined />}
+                <div className={styles.widgetBigNum}>{totalItems}</div>
+                <p className={styles.widgetSub}>từ cần ôn</p>
+                <button
+                    type="button"
+                    className={styles.widgetBtn}
                     onClick={onStartPractice}
                     disabled={!firstNotebookId}
-                    style={{ marginTop: 12 }}
                 >
+                    <BookOpen size={14} />
                     Bắt đầu ôn tập
-                </Button>
+                </button>
                 {firstNotebookId && (
-                    <Button type="link" block onClick={onViewFirst} style={{ marginTop: 4, fontSize: 12 }}>
+                    <button type="button" className={styles.widgetLink} onClick={onViewFirst}>
                         Xem chi tiết →
-                    </Button>
+                    </button>
                 )}
-            </Card>
+            </div>
 
-            <Card
-                size="small"
-                style={{ borderColor: "#E5EAF2" }}
-                styles={{ body: { padding: 20 } }}
-            >
-                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 12 }}>
-                    <span style={{ fontSize: 16 }}>🔥</span>
-                    <Text strong style={{ fontSize: 13 }}>Chuỗi học của bạn</Text>
+            {/* Chuỗi học */}
+            <div className={styles.widget}>
+                <div className={styles.widgetTitleRow}>
+                    <span className={styles.widgetEmoji}>🔥</span>
+                    <h3 className={styles.widgetTitle}>Chuỗi học của bạn</h3>
                 </div>
-                <div style={{ fontSize: 28, fontWeight: 700, color: "#1F2937", marginBottom: 4 }}>
+                <div className={styles.widgetBigNum}>
                     {streak.count > 0 ? `${streak.count} ngày` : "—"}
                 </div>
-                <Text type="secondary" style={{ fontSize: 12, display: "block", marginBottom: 12 }}>
+                <p className={styles.widgetSub}>
                     {streak.count > 0
                         ? "Tuyệt vời! Tiếp tục duy trì nhé."
                         : "Đăng nhập mỗi ngày để tăng chuỗi học!"}
-                </Text>
-                <div style={{ display: "flex", gap: 4, justifyContent: "space-between" }}>
+                </p>
+                <div className={styles.streakDays}>
                     {WEEK_DAYS.map((day, i) => (
-                        <div key={day} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2 }}>
-                            <span style={{ fontSize: 14, opacity: streak.activeDays.includes(i) ? 1 : 0.18 }}>🔥</span>
-                            <Text type="secondary" style={{ fontSize: 10 }}>{day}</Text>
+                        <div key={day} className={styles.streakDayCol}>
+                            <span className={styles.streakFire} style={{ opacity: streak.activeDays.includes(i) ? 1 : 0.18 }}>
+                                🔥
+                            </span>
+                            <span className={styles.streakDayLabel}>{day}</span>
                         </div>
                     ))}
                 </div>
-            </Card>
+            </div>
         </aside>
     )
 }

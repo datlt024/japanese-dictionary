@@ -1,10 +1,8 @@
 "use client"
 
-import { Button, Progress, Tag, Typography } from "antd"
-import { ArrowLeftOutlined } from "@ant-design/icons"
+import { ArrowLeft } from "lucide-react"
 import { NOTEBOOK_ITEM_TYPE_LABELS } from "@/shared/constants/search-tabs"
-
-const { Text } = Typography
+import styles from "./PracticeClient.module.css"
 
 export function PracticeHeader({
     onBack,
@@ -18,20 +16,16 @@ export function PracticeHeader({
     extra?: React.ReactNode
 }) {
     return (
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
-            <Button
-                type="text"
-                icon={<ArrowLeftOutlined />}
-                onClick={onBack}
-                style={{ color: "#6B7280", fontSize: 13 }}
-            >
+        <div className={styles.practiceHeader}>
+            <button type="button" className={styles.backBtn} onClick={onBack}>
+                <ArrowLeft size={16} />
                 Đổi chế độ
-            </Button>
-            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            </button>
+            <div className={styles.practiceHeaderRight}>
                 {extra}
-                <Text type="secondary" style={{ fontSize: 13 }}>
+                <span className={styles.progressText}>
                     {index + 1} / {total}
-                </Text>
+                </span>
             </div>
         </div>
     )
@@ -39,26 +33,19 @@ export function PracticeHeader({
 
 export function ProgressBar({ index, total }: { index: number; total: number }) {
     return (
-        <Progress
-            percent={Math.round(((index + 1) / total) * 100)}
-            showInfo={false}
-            strokeColor="#2563EB"
-            trailColor="#E5EAF2"
-            style={{ marginBottom: 20 }}
-        />
+        <div className={styles.progressBar}>
+            <div
+                className={styles.progressFill}
+                style={{ width: `${((index + 1) / total) * 100}%` }}
+            />
+        </div>
     )
-}
-
-const TYPE_COLORS: Record<string, string> = {
-    vocabulary: "blue",
-    kanji: "purple",
-    grammar: "green",
 }
 
 export function TypeBadge({ type }: { type: string }) {
     return (
-        <Tag color={TYPE_COLORS[type] ?? "default"} style={{ margin: 0 }}>
+        <span className={`${styles.typeBadge} ${styles[type]}`}>
             {NOTEBOOK_ITEM_TYPE_LABELS[type]}
-        </Tag>
+        </span>
     )
 }

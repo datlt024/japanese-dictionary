@@ -1,8 +1,12 @@
 "use client"
 
 import { useEffect, useLayoutEffect, useRef, useState } from "react"
-import { Alert, Button, Input, Modal, Skeleton, Space } from "antd"
-import { DeleteOutlined } from "@ant-design/icons"
+
+import { Trash2, X } from "lucide-react"
+
+import styles from "./VocabularyNoteModal.module.css"
+
+import { useFocusTrap } from "@/shared/hooks/useFocusTrap"
 
 type Props = {
     open: boolean
@@ -17,6 +21,7 @@ type NoteLoaded = {
 }
 
 export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Props) {
+    // null = not yet fetched (loading); populated = ready
     const [noteLoaded, setNoteLoaded] = useState<NoteLoaded | null>(null)
     const [text, setText] = useState("")
     const [saving, setSaving] = useState(false)
@@ -26,11 +31,17 @@ export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Pro
     const error = noteLoaded?.error ?? null
     const isDirty = text !== saved
 
+    const textareaRef = useRef<HTMLTextAreaElement>(null)
     const onCloseRef = useRef(onClose)
+    const modalRef = useRef<HTMLDivElement>(null)
     useLayoutEffect(() => { onCloseRef.current = onClose })
 
+    useFocusTrap(modalRef, open, onClose)
+
+    // Fetch note when modal opens; cleanup resets to loading state for next open
     useEffect(() => {
         if (!open) return
+
         let cancelled = false
 
         fetch(`/api/vocabulary/${vocabularyId}/note`)
@@ -52,20 +63,40 @@ export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Pro
         }
     }, [open, vocabularyId])
 
+    // Auto-focus textarea once loaded
+    useEffect(() => {
+        if (!loading && open) {
+            setTimeout(() => textareaRef.current?.focus(), 60)
+        }
+    }, [loading, open])
+
+    useEffect(() => {
+        if (!open) return
+        function handleKey(e: KeyboardEvent) {
+            if (e.key === "Escape") onCloseRef.current()
+        }
+        document.addEventListener("keydown", handleKey)
+        return () => document.removeEventListener("keydown", handleKey)
+    }, [open])
+
     async function handleSave() {
         if (saving) return
         setSaving(true)
+
         try {
             const res = await fetch(`/api/vocabulary/${vocabularyId}/note`, {
                 method: "PUT",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ note_text: text }),
             })
+
             const json = await res.json()
+
             if (!res.ok) {
                 setNoteLoaded((prev) => prev ? { ...prev, error: json.error ?? "Có lỗi xảy ra" } : prev)
                 return
             }
+
             onCloseRef.current()
         } catch {
             setNoteLoaded((prev) => prev ? { ...prev, error: "Có lỗi xảy ra, thử lại sau" } : prev)
@@ -77,6 +108,7 @@ export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Pro
     async function handleDelete() {
         if (!confirm("Xóa ghi chú này?")) return
         setSaving(true)
+
         try {
             const res = await fetch(`/api/vocabulary/${vocabularyId}/note`, { method: "DELETE" })
             if (!res.ok) {
@@ -91,63 +123,84 @@ export default function VocabularyNoteModal({ open, onClose, vocabularyId }: Pro
         }
     }
 
+    if (!open) return null
+
     return (
-        <Modal
-            open={open}
-            onCancel={onClose}
-            title="GHI CHÚ"
-            footer={null}
-            width={480}
-            destroyOnHidden
-        >
-            {loading ? (
-                <Skeleton active paragraph={{ rows: 4 }} />
-            ) : (
-                <div>
-                    {error && (
-                        <Alert message={error} type="error" showIcon style={{ marginBottom: 12 }} />
-                    )}
-
-                    <Input.TextArea
-                        value={text}
-                        onChange={(e) => setText(e.target.value)}
-                        placeholder="Viết ghi chú cho từ này... (mẹo nhớ, cách dùng, ví dụ riêng...)"
-                        maxLength={2000}
-                        showCount
-                        rows={6}
-                        autoFocus
-                        style={{ marginBottom: 16 }}
-                    />
-
-                    <Space style={{ justifyContent: "space-between", width: "100%" }}>
-                        <div>
-                            {saved && (
-                                <Button
-                                    danger
-                                    type="text"
-                                    icon={<DeleteOutlined />}
-                                    onClick={handleDelete}
-                                    disabled={saving}
-                                    size="small"
-                                >
-                                    Xóa ghi chú
-                                </Button>
-                            )}
-                        </div>
-                        <Space>
-                            <Button onClick={onClose} disabled={saving}>Hủy</Button>
-                            <Button
-                                type="primary"
-                                onClick={handleSave}
-                                loading={saving}
-                                disabled={!isDirty || !text.trim()}
-                            >
-                                Lưu
-                            </Button>
-                        </Space>
-                    </Space>
+        <div className={styles.overlay} role="presentation" onClick={onClose}>
+            <div
+                className={styles.modal}
+                ref={modalRef}
+                onClick={(e) => e.stopPropagation()}
+                role="dialog"
+                aria-modal="true"
+                aria-label="Ghi chú cá nhân"
+            >
+                <div className={styles.header}>
+                    <h2>GHI CHÚ</h2>
+                    <button
+                        type="button"
+                        className={styles.closeButton}
+                        onClick={onClose}
+                        aria-label="Đóng"
+                    >
+                        <X size={16} />
+                    </button>
                 </div>
-            )}
-        </Modal>
+
+                <div className={styles.body}>
+                    {loading ? (
+                        <p className={styles.hint}>Đang tải...</p>
+                    ) : (
+                        <>
+                            <textarea
+                                ref={textareaRef}
+                                className={styles.textarea}
+                                placeholder="Viết ghi chú cho từ này... (mẹo nhớ, cách dùng, ví dụ riêng...)"
+                                value={text}
+                                onChange={(e) => setText(e.target.value)}
+                                maxLength={2000}
+                                rows={6}
+                            />
+
+                            <div className={styles.footer}>
+                                <span className={styles.charCount}>{text.length}/2000</span>
+
+                                <div className={styles.actions}>
+                                    {saved && (
+                                        <button
+                                            type="button"
+                                            className={styles.deleteButton}
+                                            onClick={handleDelete}
+                                            disabled={saving}
+                                            title="Xóa ghi chú"
+                                        >
+                                            <Trash2 size={14} />
+                                        </button>
+                                    )}
+                                    <button
+                                        type="button"
+                                        className={styles.cancelButton}
+                                        onClick={onClose}
+                                        disabled={saving}
+                                    >
+                                        Hủy
+                                    </button>
+                                    <button
+                                        type="button"
+                                        className={styles.saveButton}
+                                        onClick={handleSave}
+                                        disabled={saving || !isDirty || !text.trim()}
+                                    >
+                                        {saving ? "Đang lưu..." : "Lưu"}
+                                    </button>
+                                </div>
+                            </div>
+
+                            {error && <p className={styles.errorText}>{error}</p>}
+                        </>
+                    )}
+                </div>
+            </div>
+        </div>
     )
 }

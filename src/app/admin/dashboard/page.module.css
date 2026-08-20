@@ -1,0 +1,291 @@
+.page {
+    padding: 28px 0 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* ── Header ── */
+
+.pageHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.pageTitle {
+    margin: 0 0 4px;
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--color-text-primary);
+    text-wrap: balance;
+}
+
+.pageSubtitle {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-muted);
+}
+
+.refreshBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+
+    height: 34px;
+    padding: 0 14px;
+
+    border: 1.5px solid var(--color-border);
+    border-radius: 10px;
+
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
+
+    font-size: 13px;
+    font-weight: 700;
+
+    text-decoration: none;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.refreshBtn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-primary-soft);
+}
+
+/* ── Sections ── */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sectionLabel {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+}
+
+/* ── KPI Grid ── */
+
+.kpiGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.kpiCard {
+    position: relative;
+    padding: 20px 20px 18px;
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    background: var(--color-surface);
+    overflow: hidden;
+    transition: box-shadow 0.15s;
+}
+
+.kpiCard::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    border-radius: 16px 16px 0 0;
+    opacity: 0.85;
+}
+
+.accent_blue::before    { background: #2563EB; }
+.accent_indigo::before  { background: #4F46E5; }
+.accent_violet::before  { background: #7C3AED; }
+.accent_emerald::before { background: #059669; }
+.accent_amber::before   { background: #D97706; }
+.accent_rose::before    { background: #E11D48; }
+.accent_sky::before     { background: #0284C7; }
+
+.kpiIcon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    color: var(--color-text-muted);
+}
+
+.kanjiChar {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 900;
+    color: var(--color-text-muted);
+}
+
+.kpiValue {
+    margin: 0 0 4px;
+    font-size: 30px;
+    font-weight: 900;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text-primary);
+    letter-spacing: -0.02em;
+    line-height: 1;
+}
+
+.kpiLabel {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+}
+
+/* ── JLPT Chart ── */
+
+.card {
+    padding: 20px 24px;
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    background: var(--color-surface);
+}
+
+.jlptChart {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.jlptRow {
+    display: grid;
+    grid-template-columns: 32px 1fr 80px;
+    align-items: center;
+    gap: 14px;
+}
+
+.jlptLevel {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+}
+
+.jlptBarTrack {
+    height: 10px;
+    border-radius: 999px;
+    background: var(--color-border);
+    overflow: hidden;
+}
+
+.jlptBar {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    min-width: 4px;
+}
+
+.jlptCount {
+    font-size: 13px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text-secondary);
+    text-align: right;
+}
+
+/* ── Tool Grid ── */
+
+.toolGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.toolCard {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 18px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+
+    background: var(--color-surface);
+    text-decoration: none;
+
+    transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+}
+
+.toolCard:hover {
+    border-color: var(--color-primary);
+    background: var(--color-primary-soft);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+}
+
+.toolIcon {
+    color: var(--color-primary);
+    flex-shrink: 0;
+}
+
+.toolKanji {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--color-primary);
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.toolName {
+    margin: 0 0 2px;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--color-text-primary);
+}
+
+.toolDesc {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
+.toolArrow {
+    margin-left: auto;
+    flex-shrink: 0;
+    color: var(--color-text-muted);
+    transition: transform 0.15s, color 0.15s;
+}
+
+.toolCard:hover .toolArrow {
+    transform: translateX(3px);
+    color: var(--color-primary);
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 900px) {
+    .kpiGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .page {
+        gap: 24px;
+    }
+
+    .kpiGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .toolGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .kpiValue {
+        font-size: 24px;
+    }
+
+    .pageHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,7 +1,7 @@
 "use client"
 
 import { Search } from "lucide-react"
-import { Button } from "antd"
+
 import styles from "./QuickLookupFloatingButton.module.css"
 
 type QuickLookupFloatingButtonProps = {
@@ -16,18 +16,19 @@ export default function QuickLookupFloatingButton({
     onClick,
 }: QuickLookupFloatingButtonProps) {
     return (
-        <Button
-            type="text"
+        <button
+            type="button"
             data-quick-lookup="true"
             className={styles.button}
-            style={{ top, left, width: 38, height: 38, borderRadius: 999 }}
+            style={{ top, left }}
             onMouseDown={(event) => {
                 event.preventDefault()
                 event.stopPropagation()
                 onClick()
             }}
             aria-label="Tra từ đã chọn"
-            icon={<Search size={20} />}
-        />
+        >
+            <Search size={20} />
+        </button>
     )
 }

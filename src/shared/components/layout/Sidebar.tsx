@@ -3,7 +3,6 @@
 import { useCallback, useSyncExternalStore } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Button } from "antd"
 import {
     Search,
     BookOpen,
@@ -64,18 +63,19 @@ export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
                     <span className={styles.logoName}>Yomi</span>
                 </Link>
 
-                <Button
-                    type="text"
+                <button
+                    type="button"
                     className={styles.sidebarToggle}
                     onClick={toggleSidebar}
                     aria-label={collapsed ? "Mở rộng menu" : "Thu gọn menu"}
                     aria-expanded={!collapsed}
-                    icon={<PanelLeft size={16} strokeWidth={2} />}
-                />
+                >
+                    <PanelLeft size={16} strokeWidth={2} />
+                </button>
             </div>
 
             <nav className={styles.sidebarMenu} aria-label="Menu chính">
-                {[...menuItems, ...(isAdmin ? [{ href: "/admin/dashboard", kind: "icon" as const, Icon: ShieldCheck, label: "Quản trị" }] : [])].map((item) => {
+                {[...menuItems, ...(isAdmin ? [{ href: "/admin", kind: "icon" as const, Icon: ShieldCheck, label: "Quản trị" }] : [])].map((item) => {
                     const isActive =
                         item.href === "/"
                             ? pathname === "/"

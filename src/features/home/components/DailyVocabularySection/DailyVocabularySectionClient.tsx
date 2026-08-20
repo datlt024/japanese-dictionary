@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react"
 import { createPortal } from "react-dom"
 import { X } from "lucide-react"
-import { Button } from "antd"
 
 import type { DailyVocabularyItem } from "./DailyVocabularySection"
 
@@ -36,12 +35,11 @@ function VocabCard({
     onMouseEnter?: () => void
 }) {
     return (
-        <Button
-            type="text"
+        <button
+            type="button"
             className={className}
             onClick={onClick}
             onMouseEnter={onMouseEnter}
-            style={{ display: "flex", flexDirection: "column", alignItems: "stretch", height: "auto", width: "100%", padding: "18px 20px", textAlign: "left", gap: 8 }}
         >
             <div className={styles.cardTop}>
                 <span className={styles.word}>{item.word}</span>
@@ -58,7 +56,7 @@ function VocabCard({
                 <span className={styles.type}>{item.type}</span>
                 <span className={styles.meaning}>{item.meaning}</span>
             </div>
-        </Button>
+        </button>
     )
 }
 
@@ -103,13 +101,14 @@ function SuggestionsModal({
             >
                 <div className={modalStyles.header}>
                     <h2>Từ vựng đề xuất</h2>
-                    <Button
-                        type="text"
-                        icon={<X size={15} />}
+                    <button
+                        type="button"
+                        className={modalStyles.closeButton}
                         onClick={onClose}
                         aria-label="Đóng"
-                        className={modalStyles.closeButton}
-                    />
+                    >
+                        <X size={15} />
+                    </button>
                 </div>
 
                 <div className={modalStyles.body}>
@@ -211,13 +210,13 @@ export default function DailyVocabularySectionClient({ items }: Props) {
         <section className={styles.section}>
             <div className={styles.header}>
                 <h2 className={styles.title}>Từ vựng trong ngày</h2>
-                <Button
-                    type="link"
+                <button
+                    type="button"
                     className={styles.viewMore}
                     onClick={() => setSuggestionsOpen(true)}
                 >
                     Xem thêm
-                </Button>
+                </button>
             </div>
 
             <div className={styles.grid}>

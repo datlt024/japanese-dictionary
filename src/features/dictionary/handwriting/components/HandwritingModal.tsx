@@ -9,7 +9,6 @@ import {
 import { createPortal } from "react-dom"
 import Script from "next/script"
 import { X } from "lucide-react"
-import { Button } from "antd"
 
 import styles from "./HandwritingModal.module.css"
 
@@ -296,14 +295,14 @@ export default function HandwritingModal({
                 <div className={styles.header}>
                     <h2>Nhận dạng nét vẽ</h2>
 
-                    <Button
-                        type="text"
-                        icon={<X size={20} />}
+                    <button
+                        type="button"
+                        className={styles.closeButton}
                         onClick={handleClose}
                         aria-label="Đóng"
-                        className={styles.closeButton}
-                        style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: 36, height: 36, padding: 0, borderRadius: 999, border: "1px solid var(--color-border)", background: "var(--color-surface-muted)" }}
-                    />
+                    >
+                        <X size={20} />
+                    </button>
                 </div>
 
                 <div className={styles.body}>
@@ -324,26 +323,26 @@ export default function HandwritingModal({
                         </div>
 
                         <div className={styles.actions}>
-                            <Button
-                                type="default"
+                            <button
+                                type="button"
                                 onClick={handleClear}
                                 disabled={!hasDrawing}
                             >
                                 <span>🗑</span>
                                 <span>Xóa tất cả</span>
-                            </Button>
+                            </button>
 
-                            <Button
-                                type="default"
+                            <button
+                                type="button"
                                 onClick={handleUndo}
                                 disabled={!hasDrawing}
                             >
                                 <span>↩</span>
                                 <span>Hoàn tác</span>
-                            </Button>
+                            </button>
 
-                            <Button
-                                type="primary"
+                            <button
+                                type="button"
                                 className={styles.searchButton}
                                 onClick={handleSearch}
                                 disabled={!scriptsReady}
@@ -354,7 +353,7 @@ export default function HandwritingModal({
                                         ? "Đang nhận dạng..."
                                         : "Tra cứu"}
                                 </span>
-                            </Button>
+                            </button>
                         </div>
                     </div>
 
@@ -364,15 +363,15 @@ export default function HandwritingModal({
                         {suggestions.length > 0 ? (
                             <div className={styles.suggestions}>
                                 {suggestions.map((item) => (
-                                    <Button
+                                    <button
                                         key={item}
-                                        type="default"
+                                        type="button"
                                         onClick={() =>
                                             handleSelect(item)
                                         }
                                     >
                                         {item}
-                                    </Button>
+                                    </button>
                                 ))}
                             </div>
                         ) : (

@@ -3,7 +3,6 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Volume2 } from "lucide-react"
-import { Button } from "antd"
 
 import styles from "./VocabularyMeaningCards.module.css"
 
@@ -66,13 +65,13 @@ function MeaningList({ senses, language, green }: MeaningListProps) {
             </ul>
 
             {senses.length > DEFAULT_SENSE_LIMIT && (
-                <Button
-                    type="link"
+                <button
+                    type="button"
                     className={`${styles.expandSenses}${green ? ` ${styles.expandSensesGreen}` : ""}`}
                     onClick={() => setExpanded((v) => !v)}
                 >
                     {expanded ? "Thu gọn ↑" : `Xem thêm ${hidden} nghĩa khác ↓`}
-                </Button>
+                </button>
             )}
         </>
     )

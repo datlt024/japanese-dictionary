@@ -1,13 +1,17 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import {
+    FormEvent,
+    useEffect,
+    useState,
+} from "react"
+
 import { useRouter } from "next/navigation"
-import { Alert, Avatar, Button, Card, Form, Input, Select, Typography } from "antd"
 
 import { createSupabaseBrowserClient } from "@/shared/lib/supabase/auth-client"
 import { useAuth } from "@/features/auth/hooks/useAuth"
 
-const { Title, Text } = Typography
+import styles from "./AccountClient.module.css"
 
 const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"]
 
@@ -25,31 +29,41 @@ export default function AccountClient({ email, initialDisplayName, initialJlptLe
     const { user, loading } = useAuth()
 
     useEffect(() => {
-        if (!loading && !user) router.replace("/")
+        if (!loading && !user) {
+            router.replace("/")
+        }
     }, [loading, user, router])
 
+    // ── Profile section ──
+    const [displayName, setDisplayName] = useState(initialDisplayName)
+    const [jlptLevel, setJlptLevel] = useState(initialJlptLevel ?? "")
     const [profileStatus, setProfileStatus] = useState<SectionStatus>(null)
     const [profileSaving, setProfileSaving] = useState(false)
+
+    // ── Email section ──
+    const [newEmail, setNewEmail] = useState("")
     const [emailStatus, setEmailStatus] = useState<SectionStatus>(null)
     const [emailSaving, setEmailSaving] = useState(false)
+
+    // ── Password section ──
+    const [newPassword, setNewPassword] = useState("")
+    const [confirmPassword, setConfirmPassword] = useState("")
     const [passwordStatus, setPasswordStatus] = useState<SectionStatus>(null)
     const [passwordSaving, setPasswordSaving] = useState(false)
 
-    const [profileForm] = Form.useForm()
-    const [emailForm] = Form.useForm()
-    const [passwordForm] = Form.useForm()
-
-    async function handleProfileSave(values: { displayName: string; jlptLevel?: string }) {
+    async function handleProfileSave(e: FormEvent) {
+        e.preventDefault()
         if (profileSaving) return
         setProfileSaving(true)
         setProfileStatus(null)
+
         try {
             const res = await fetch("/api/profile", {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
-                    display_name: values.displayName.trim(),
-                    jlpt_level: values.jlptLevel || null,
+                    display_name: displayName.trim(),
+                    jlpt_level: jlptLevel || null,
                 }),
             })
             const json = await res.json()
@@ -65,15 +79,18 @@ export default function AccountClient({ email, initialDisplayName, initialJlptLe
         }
     }
 
-    async function handleEmailChange(values: { newEmail: string }) {
+    async function handleEmailChange(e: FormEvent) {
+        e.preventDefault()
         if (emailSaving) return
-        const trimmed = values.newEmail.trim()
+        const trimmed = newEmail.trim()
+        if (!trimmed) return
         if (trimmed === email) {
             setEmailStatus({ err: "Email mới phải khác email hiện tại" })
             return
         }
         setEmailSaving(true)
         setEmailStatus(null)
+
         try {
             const supabase = createSupabaseBrowserClient()
             const { error } = await supabase.auth.updateUser({ email: trimmed })
@@ -81,7 +98,7 @@ export default function AccountClient({ email, initialDisplayName, initialJlptLe
                 setEmailStatus({ err: error.message })
             } else {
                 setEmailStatus({ ok: `Email xác nhận đã gửi đến ${trimmed}. Kiểm tra hộp thư để hoàn tất.` })
-                emailForm.resetFields(["newEmail"])
+                setNewEmail("")
             }
         } catch {
             setEmailStatus({ err: "Có lỗi xảy ra, thử lại sau" })
@@ -90,22 +107,29 @@ export default function AccountClient({ email, initialDisplayName, initialJlptLe
         }
     }
 
-    async function handlePasswordChange(values: { newPassword: string; confirmPassword: string }) {
+    async function handlePasswordChange(e: FormEvent) {
+        e.preventDefault()
         if (passwordSaving) return
-        if (values.newPassword !== values.confirmPassword) {
+        if (newPassword.length < 8) {
+            setPasswordStatus({ err: "Mật khẩu phải có ít nhất 8 ký tự" })
+            return
+        }
+        if (newPassword !== confirmPassword) {
             setPasswordStatus({ err: "Mật khẩu xác nhận không khớp" })
             return
         }
         setPasswordSaving(true)
         setPasswordStatus(null)
+
         try {
             const supabase = createSupabaseBrowserClient()
-            const { error } = await supabase.auth.updateUser({ password: values.newPassword })
+            const { error } = await supabase.auth.updateUser({ password: newPassword })
             if (error) {
                 setPasswordStatus({ err: error.message })
             } else {
                 setPasswordStatus({ ok: "Mật khẩu đã được cập nhật thành công" })
-                passwordForm.resetFields()
+                setNewPassword("")
+                setConfirmPassword("")
             }
         } catch {
             setPasswordStatus({ err: "Có lỗi xảy ra, thử lại sau" })
@@ -114,184 +138,204 @@ export default function AccountClient({ email, initialDisplayName, initialJlptLe
         }
     }
 
-    const initial = initialDisplayName ? initialDisplayName[0].toUpperCase() : email[0].toUpperCase()
-
     return (
-        <div style={{ maxWidth: 720, margin: "32px auto", padding: "0 24px 64px" }}>
-            <div style={{ marginBottom: 32 }}>
-                <Title level={3} style={{ margin: "0 0 4px" }}>Hồ sơ &amp; Tài khoản</Title>
-                <Text type="secondary">Quản lý thông tin cá nhân và bảo mật tài khoản của bạn</Text>
+        <div className={styles.page}>
+            <div className={styles.pageHeader}>
+                <h2 className={styles.pageTitle}>Hồ sơ &amp; Tài khoản</h2>
+                <p className={styles.pageDesc}>Quản lý thông tin cá nhân và bảo mật tài khoản của bạn</p>
             </div>
 
-            {/* ── Hồ sơ công khai ── */}
-            <Card
-                title="Hồ sơ công khai"
-                style={{ marginBottom: 20, borderColor: "#E5EAF2" }}
-                styles={{ header: { borderBottomColor: "#E5EAF2" } }}
-            >
-                <Text type="secondary" style={{ display: "block", marginBottom: 20, fontSize: 13 }}>
-                    Tên và trình độ hiển thị khi bạn bình luận trong cộng đồng
-                </Text>
-
-                <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 24 }}>
-                    <Avatar size={48} style={{ background: "#2563EB", fontSize: 18, fontWeight: 700 }}>
-                        {initial}
-                    </Avatar>
-                    <Text type="secondary" style={{ fontSize: 13 }}>
-                        Ảnh đại diện được tạo tự động từ tên hiển thị
-                    </Text>
-                </div>
-
-                <Form
-                    form={profileForm}
-                    layout="vertical"
-                    onFinish={handleProfileSave}
-                    initialValues={{
-                        displayName: initialDisplayName,
-                        jlptLevel: initialJlptLevel ?? undefined,
-                    }}
-                    requiredMark={false}
-                >
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 16px" }}>
-                        <Form.Item
-                            label="Tên hiển thị"
-                            name="displayName"
-                            rules={[{ required: true, message: "Vui lòng nhập tên hiển thị" }]}
-                        >
-                            <Input placeholder="Nhập tên hiển thị" maxLength={30} showCount />
-                        </Form.Item>
-
-                        <Form.Item label="Trình độ JLPT" name="jlptLevel">
-                            <Select
-                                placeholder="Chưa xác định"
-                                allowClear
-                                options={JLPT_LEVELS.map(l => ({ value: l, label: l }))}
-                            />
-                        </Form.Item>
+            <div className={styles.sections}>
+                {/* ── Hồ sơ công khai ── */}
+                <section className={styles.section}>
+                    <div className={styles.sectionHead}>
+                        <h3 className={styles.sectionTitle}>Hồ sơ công khai</h3>
+                        <p className={styles.sectionDesc}>
+                            Tên và trình độ hiển thị khi bạn bình luận trong cộng đồng
+                        </p>
                     </div>
 
-                    {profileStatus && (
-                        <Alert
-                            message={"ok" in profileStatus ? profileStatus.ok : profileStatus.err}
-                            type={"ok" in profileStatus ? "success" : "error"}
-                            showIcon
-                            style={{ marginBottom: 16 }}
-                        />
-                    )}
+                    <form className={styles.form} onSubmit={handleProfileSave}>
+                        <div className={styles.avatarRow}>
+                            <div className={styles.avatarCircle}>
+                                {displayName ? displayName[0].toUpperCase() : email[0].toUpperCase()}
+                            </div>
+                            <div>
+                                <p className={styles.avatarHint}>Ảnh đại diện được tạo tự động từ tên hiển thị</p>
+                            </div>
+                        </div>
 
-                    <Form.Item style={{ marginBottom: 0 }}>
-                        <Button type="primary" htmlType="submit" loading={profileSaving}>
-                            Lưu hồ sơ
-                        </Button>
-                    </Form.Item>
-                </Form>
-            </Card>
+                        <div className={styles.fieldRow}>
+                            <div className={styles.field}>
+                                <label className={styles.label} htmlFor="display-name">
+                                    Tên hiển thị
+                                </label>
+                                <input
+                                    id="display-name"
+                                    className={styles.input}
+                                    type="text"
+                                    placeholder="Nhập tên hiển thị"
+                                    value={displayName}
+                                    onChange={(e) => setDisplayName(e.target.value)}
+                                    maxLength={30}
+                                    required
+                                />
+                                <span className={styles.fieldHint}>{displayName.length}/30 ký tự</span>
+                            </div>
 
-            {/* ── Địa chỉ email ── */}
-            <Card
-                title="Địa chỉ email"
-                style={{ marginBottom: 20, borderColor: "#E5EAF2" }}
-                styles={{ header: { borderBottomColor: "#E5EAF2" } }}
-            >
-                <Text type="secondary" style={{ display: "block", marginBottom: 20, fontSize: 13 }}>
-                    Đổi email đăng nhập — Supabase sẽ gửi xác nhận đến địa chỉ mới
-                </Text>
+                            <div className={styles.field}>
+                                <label className={styles.label} htmlFor="jlpt-level">
+                                    Trình độ JLPT
+                                </label>
+                                <select
+                                    id="jlpt-level"
+                                    className={styles.select}
+                                    value={jlptLevel}
+                                    onChange={(e) => setJlptLevel(e.target.value)}
+                                >
+                                    <option value="">Chưa xác định</option>
+                                    {JLPT_LEVELS.map((l) => (
+                                        <option key={l} value={l}>{l}</option>
+                                    ))}
+                                </select>
+                            </div>
+                        </div>
 
-                <Form
-                    form={emailForm}
-                    layout="vertical"
-                    onFinish={handleEmailChange}
-                    requiredMark={false}
-                >
-                    <Form.Item label="Email hiện tại">
-                        <Input value={email} readOnly disabled style={{ color: "#9CA3AF" }} />
-                    </Form.Item>
+                        <StatusMessage status={profileStatus} />
 
-                    <Form.Item
-                        label="Email mới"
-                        name="newEmail"
-                        rules={[{ required: true, type: "email", message: "Vui lòng nhập email hợp lệ" }]}
-                    >
-                        <Input placeholder="email-moi@example.com" disabled={emailSaving} />
-                    </Form.Item>
+                        <div className={styles.formFooter}>
+                            <button
+                                type="submit"
+                                className={styles.saveButton}
+                                disabled={profileSaving || !displayName.trim()}
+                            >
+                                {profileSaving ? "Đang lưu..." : "Lưu hồ sơ"}
+                            </button>
+                        </div>
+                    </form>
+                </section>
 
-                    {emailStatus && (
-                        <Alert
-                            message={"ok" in emailStatus ? emailStatus.ok : emailStatus.err}
-                            type={"ok" in emailStatus ? "success" : "error"}
-                            showIcon
-                            style={{ marginBottom: 16 }}
-                        />
-                    )}
-
-                    <Form.Item style={{ marginBottom: 0 }}>
-                        <Button type="primary" htmlType="submit" loading={emailSaving}>
-                            Gửi xác nhận đổi email
-                        </Button>
-                    </Form.Item>
-                </Form>
-            </Card>
-
-            {/* ── Mật khẩu ── */}
-            <Card
-                title="Mật khẩu"
-                style={{ borderColor: "#E5EAF2" }}
-                styles={{ header: { borderBottomColor: "#E5EAF2" } }}
-            >
-                <Text type="secondary" style={{ display: "block", marginBottom: 20, fontSize: 13 }}>
-                    {hasPassword
-                        ? "Đổi mật khẩu đăng nhập hiện tại của bạn"
-                        : "Đặt mật khẩu để có thêm phương thức đăng nhập"}
-                </Text>
-
-                <Form
-                    form={passwordForm}
-                    layout="vertical"
-                    onFinish={handlePasswordChange}
-                    requiredMark={false}
-                >
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 16px" }}>
-                        <Form.Item
-                            label={hasPassword ? "Mật khẩu mới" : "Đặt mật khẩu"}
-                            name="newPassword"
-                            rules={[{ required: true, min: 8, message: "Mật khẩu phải có ít nhất 8 ký tự" }]}
-                        >
-                            <Input.Password
-                                placeholder="Ít nhất 8 ký tự"
-                                disabled={passwordSaving}
-                                autoComplete="new-password"
-                            />
-                        </Form.Item>
-
-                        <Form.Item
-                            label="Xác nhận mật khẩu"
-                            name="confirmPassword"
-                            rules={[{ required: true, message: "Vui lòng xác nhận mật khẩu" }]}
-                        >
-                            <Input.Password
-                                placeholder="Nhập lại mật khẩu"
-                                disabled={passwordSaving}
-                                autoComplete="new-password"
-                            />
-                        </Form.Item>
+                {/* ── Thông tin tài khoản ── */}
+                <section className={styles.section}>
+                    <div className={styles.sectionHead}>
+                        <h3 className={styles.sectionTitle}>Địa chỉ email</h3>
+                        <p className={styles.sectionDesc}>
+                            Đổi email đăng nhập — Supabase sẽ gửi xác nhận đến địa chỉ mới
+                        </p>
                     </div>
 
-                    {passwordStatus && (
-                        <Alert
-                            message={"ok" in passwordStatus ? passwordStatus.ok : passwordStatus.err}
-                            type={"ok" in passwordStatus ? "success" : "error"}
-                            showIcon
-                            style={{ marginBottom: 16 }}
-                        />
-                    )}
+                    <form className={styles.form} onSubmit={handleEmailChange}>
+                        <div className={styles.field}>
+                            <label className={styles.label}>Email hiện tại</label>
+                            <input
+                                className={`${styles.input} ${styles.inputReadonly}`}
+                                type="email"
+                                value={email}
+                                readOnly
+                            />
+                        </div>
 
-                    <Form.Item style={{ marginBottom: 0 }}>
-                        <Button type="primary" htmlType="submit" loading={passwordSaving}>
-                            {hasPassword ? "Đổi mật khẩu" : "Đặt mật khẩu"}
-                        </Button>
-                    </Form.Item>
-                </Form>
-            </Card>
+                        <div className={styles.field}>
+                            <label className={styles.label} htmlFor="new-email">
+                                Email mới
+                            </label>
+                            <input
+                                id="new-email"
+                                className={styles.input}
+                                type="email"
+                                placeholder="email-moi@example.com"
+                                value={newEmail}
+                                onChange={(e) => setNewEmail(e.target.value)}
+                                required
+                                disabled={emailSaving}
+                            />
+                        </div>
+
+                        <StatusMessage status={emailStatus} />
+
+                        <div className={styles.formFooter}>
+                            <button
+                                type="submit"
+                                className={styles.saveButton}
+                                disabled={emailSaving || !newEmail.trim()}
+                            >
+                                {emailSaving ? "Đang gửi..." : "Gửi xác nhận đổi email"}
+                            </button>
+                        </div>
+                    </form>
+                </section>
+
+                {/* ── Bảo mật ── */}
+                <section className={styles.section}>
+                    <div className={styles.sectionHead}>
+                        <h3 className={styles.sectionTitle}>Mật khẩu</h3>
+                        <p className={styles.sectionDesc}>
+                            {hasPassword
+                                ? "Đổi mật khẩu đăng nhập hiện tại của bạn"
+                                : "Đặt mật khẩu để có thêm phương thức đăng nhập"}
+                        </p>
+                    </div>
+
+                    <form className={styles.form} onSubmit={handlePasswordChange}>
+                        <div className={styles.fieldRow}>
+                            <div className={styles.field}>
+                                <label className={styles.label} htmlFor="new-password">
+                                    {hasPassword ? "Mật khẩu mới" : "Đặt mật khẩu"}
+                                </label>
+                                <input
+                                    id="new-password"
+                                    className={styles.input}
+                                    type="password"
+                                    placeholder="Ít nhất 8 ký tự"
+                                    value={newPassword}
+                                    onChange={(e) => setNewPassword(e.target.value)}
+                                    minLength={8}
+                                    required
+                                    disabled={passwordSaving}
+                                    autoComplete="new-password"
+                                />
+                            </div>
+
+                            <div className={styles.field}>
+                                <label className={styles.label} htmlFor="confirm-password">
+                                    Xác nhận mật khẩu
+                                </label>
+                                <input
+                                    id="confirm-password"
+                                    className={styles.input}
+                                    type="password"
+                                    placeholder="Nhập lại mật khẩu"
+                                    value={confirmPassword}
+                                    onChange={(e) => setConfirmPassword(e.target.value)}
+                                    required
+                                    disabled={passwordSaving}
+                                    autoComplete="new-password"
+                                />
+                            </div>
+                        </div>
+
+                        <StatusMessage status={passwordStatus} />
+
+                        <div className={styles.formFooter}>
+                            <button
+                                type="submit"
+                                className={styles.saveButton}
+                                disabled={passwordSaving || !newPassword || !confirmPassword}
+                            >
+                                {passwordSaving ? "Đang cập nhật..." : hasPassword ? "Đổi mật khẩu" : "Đặt mật khẩu"}
+                            </button>
+                        </div>
+                    </form>
+                </section>
+            </div>
         </div>
     )
+}
+
+function StatusMessage({ status }: { status: SectionStatus }) {
+    if (!status) return null
+    if ("ok" in status) {
+        return <p className={styles.statusOk}>{status.ok}</p>
+    }
+    return <p className={styles.statusErr}>{status.err}</p>
 }

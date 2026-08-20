@@ -1,14 +1,14 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
-import { Alert, Avatar, Button, Input, Select, Skeleton, Space, Tag, Typography } from "antd"
-import { HeartFilled, HeartOutlined, DeleteOutlined } from "@ant-design/icons"
+import {
+    useEffect,
+    useRef,
+    useState,
+} from "react"
 
 import { useAuth } from "@/features/auth/hooks/useAuth"
 
 import styles from "./DictionaryCommunityCard.module.css"
-
-const { Text, Title } = Typography
 
 type EntryType = "vocabulary" | "kanji" | "grammar"
 type SortOrder = "likes" | "newest"
@@ -38,7 +38,13 @@ type LoadConfig = {
 }
 
 const JLPT_LEVELS = ["N5", "N4", "N3", "N2", "N1"]
-const AVATAR_COLORS = ["#EFF6FF", "#ECFDF5", "#FFFBEB", "#F5F3FF", "#FEF2F2"]
+const AVATAR_COLORS = [
+    "var(--color-primary-soft)",
+    "var(--color-success-soft)",
+    "var(--color-warning-soft)",
+    "var(--color-jlpt-n3-soft)",
+    "var(--color-danger-soft)",
+]
 const AVATAR_EMOJIS = ["🌸", "🧑‍🎓", "🧑‍💻", "🎌", "📚", "✏️", "🗾", "⛩️"]
 
 function avatarEmoji(name: string) {
@@ -66,6 +72,7 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
     const [total, setTotal] = useState(0)
     const [hasMore, setHasMore] = useState(false)
 
+    // Derive loading from whether the last completed seq matches the requested seq
     const [loadConfig, setLoadConfig] = useState<LoadConfig>({ sort: "likes", page: 0, mode: "replace", seq: 0 })
     const [loadedSeq, setLoadedSeq] = useState(-1)
     const fetching = loadConfig.mode === "replace" && loadedSeq < loadConfig.seq
@@ -172,7 +179,8 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
         }
     }
 
-    async function handleSubmit() {
+    async function handleSubmit(e: React.FormEvent) {
+        e.preventDefault()
         if (!user || submitting) return
         setSubmitError(null)
         setSubmitting(true)
@@ -205,172 +213,181 @@ export default function DictionaryCommunityCard({ entryType, entryId }: Props) {
         }
     }
 
+    function handleInputClick() {
+        if (!user) return
+        setShowForm(true)
+        setTimeout(() => textareaRef.current?.focus(), 50)
+    }
+
     const { sort } = loadConfig
 
     return (
         <div className={`${styles.detailSideCard} ${styles.communityCard}`}>
-            <Title level={5} style={{ margin: "0 0 16px", fontSize: 12, letterSpacing: "0.07em", color: "#9CA3AF", fontWeight: 700, textTransform: "uppercase" }}>
-                Ý KIẾN CỘNG ĐỒNG
-            </Title>
+            <h3>Ý KIẾN CỘNG ĐỒNG</h3>
 
             {!showForm ? (
-                <Button
-                    block
-                    type="dashed"
-                    onClick={() => { if (user) setShowForm(true) }}
+                <button
+                    type="button"
+                    className={styles.communityInput}
+                    onClick={handleInputClick}
                     disabled={!user}
                     title={!user ? "Đăng nhập để bình luận" : undefined}
-                    style={{ marginBottom: 16, textAlign: "left", justifyContent: "flex-start" }}
                 >
                     ✏️ {user ? "Chia sẻ ý kiến của bạn..." : "Đăng nhập để bình luận"}
-                </Button>
+                </button>
             ) : (
-                <div style={{ marginBottom: 16 }}>
-                    {!profileLoaded && (
-                        <Space style={{ marginBottom: 8, width: "100%" }}>
-                            <Input
-                                size="small"
+                <form className={styles.commentForm} onSubmit={handleSubmit}>
+                    {!profileLoaded ? (
+                        <div className={styles.profileFields}>
+                            <input
+                                className={styles.nameInput}
+                                type="text"
+                                aria-label="Tên hiển thị"
                                 placeholder="Tên hiển thị"
                                 value={displayName}
                                 onChange={(e) => setDisplayName(e.target.value)}
                                 maxLength={30}
-                                style={{ flex: 1 }}
+                                required
                             />
-                            <Select
-                                size="small"
-                                placeholder="Trình độ"
-                                value={jlptLevel || undefined}
-                                onChange={(v) => setJlptLevel(v ?? "")}
-                                allowClear
-                                style={{ width: 90 }}
-                                options={JLPT_LEVELS.map(l => ({ value: l, label: l }))}
-                            />
-                        </Space>
-                    )}
-                    {profileLoaded && (
-                        <div style={{ marginBottom: 8, display: "flex", alignItems: "center", gap: 6 }}>
-                            <Text strong style={{ fontSize: 13 }}>{displayName || "Ẩn danh"}</Text>
-                            {jlptLevel && <Tag color="blue" style={{ margin: 0 }}>{jlptLevel}</Tag>}
+                            <select
+                                className={styles.levelSelect}
+                                aria-label="Trình độ JLPT"
+                                value={jlptLevel}
+                                onChange={(e) => setJlptLevel(e.target.value)}
+                            >
+                                <option value="">Trình độ</option>
+                                {JLPT_LEVELS.map((l) => (
+                                    <option key={l} value={l}>{l}</option>
+                                ))}
+                            </select>
+                        </div>
+                    ) : (
+                        <div className={styles.profileHint}>
+                            <span className={styles.profileName}>{displayName || "Ẩn danh"}</span>
+                            {jlptLevel && <span className={styles.profileBadge}>{jlptLevel}</span>}
                         </div>
                     )}
-                    <Input.TextArea
-                        ref={textareaRef as React.RefObject<HTMLTextAreaElement>}
+                    <textarea
+                        ref={textareaRef}
+                        className={styles.commentTextarea}
+                        aria-label="Nội dung bình luận"
                         placeholder="Chia sẻ mẹo nhớ, cách dùng, hoặc ý kiến của bạn..."
                         value={content}
                         onChange={(e) => setContent(e.target.value)}
                         maxLength={500}
-                        showCount
                         rows={3}
-                        style={{ marginBottom: 8 }}
+                        required
                     />
-                    {submitError && <Alert message={submitError} type="error" showIcon style={{ marginBottom: 8 }} />}
-                    <Space style={{ justifyContent: "flex-end", width: "100%" }}>
-                        <Button size="small" onClick={() => { setShowForm(false); setSubmitError(null) }}>Hủy</Button>
-                        <Button
-                            size="small"
-                            type="primary"
-                            loading={submitting}
-                            disabled={!content.trim() || (!profileLoaded && !displayName.trim())}
-                            onClick={handleSubmit}
-                        >
-                            Gửi
-                        </Button>
-                    </Space>
-                </div>
+                    <div className={styles.formMeta}>
+                        <span className={styles.charCount}>{content.length}/500</span>
+                        <div className={styles.formActions}>
+                            <button
+                                type="button"
+                                className={styles.cancelBtn}
+                                onClick={() => { setShowForm(false); setSubmitError(null) }}
+                            >
+                                Hủy
+                            </button>
+                            <button
+                                type="submit"
+                                className={styles.submitBtn}
+                                disabled={submitting || !content.trim() || (!profileLoaded && !displayName.trim())}
+                            >
+                                {submitting ? "Đang gửi..." : "Gửi"}
+                            </button>
+                        </div>
+                    </div>
+                    {submitError && <p className={styles.formError}>{submitError}</p>}
+                </form>
             )}
 
             {!fetching && total > 0 && (
-                <div style={{ display: "flex", alignItems: "center", gap: 4, marginBottom: 12, fontSize: 12 }}>
-                    <Text type="secondary" style={{ fontSize: 12 }}>Sắp xếp:</Text>
-                    <Button
-                        type={sort === "likes" ? "link" : "text"}
-                        size="small"
+                <div className={styles.commentSort}>
+                    Sắp xếp:{" "}
+                    <button
+                        type="button"
+                        className={sort === "likes" ? styles.sortActive : styles.sortBtn}
                         onClick={() => handleSortChange("likes")}
-                        style={{ fontSize: 12, padding: "0 4px", height: "auto", fontWeight: sort === "likes" ? 600 : 400 }}
                     >
                         ♡ Nhiều like
-                    </Button>
-                    <Text type="secondary" style={{ fontSize: 12 }}>·</Text>
-                    <Button
-                        type={sort === "newest" ? "link" : "text"}
-                        size="small"
+                    </button>
+                    {" · "}
+                    <button
+                        type="button"
+                        className={sort === "newest" ? styles.sortActive : styles.sortBtn}
                         onClick={() => handleSortChange("newest")}
-                        style={{ fontSize: 12, padding: "0 4px", height: "auto", fontWeight: sort === "newest" ? 600 : 400 }}
                     >
                         Mới nhất
-                    </Button>
+                    </button>
                 </div>
             )}
 
             {fetching ? (
-                <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-                    <Skeleton active avatar paragraph={{ rows: 1 }} />
-                    <Skeleton active avatar paragraph={{ rows: 1 }} />
+                <div className={styles.skeleton}>
+                    <div className={styles.skeletonItem} />
+                    <div className={styles.skeletonItem} />
                 </div>
             ) : (
-                <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+                <div className={styles.commentList}>
                     {comments.map((comment) => (
-                        <div key={comment.id} style={{ display: "flex", gap: 10 }}>
-                            <Avatar
-                                size={32}
-                                style={{ background: avatarColor(comment.display_name), flexShrink: 0, fontSize: 16 }}
+                        <div key={comment.id} className={styles.commentItem}>
+                            <div
+                                className={styles.commentAvatar}
+                                style={{ background: avatarColor(comment.display_name) }}
                             >
                                 {avatarEmoji(comment.display_name)}
-                            </Avatar>
-                            <div style={{ flex: 1, minWidth: 0 }}>
-                                <Space size={6} align="center" style={{ marginBottom: 4 }}>
-                                    <Text strong style={{ fontSize: 13 }}>{comment.display_name}</Text>
-                                    {comment.jlpt_level && <Tag color="blue" style={{ margin: 0, fontSize: 11 }}>{comment.jlpt_level}</Tag>}
-                                    <Text type="secondary" style={{ fontSize: 11 }}>{relativeTime(comment.created_at)}</Text>
-                                </Space>
-                                <Text style={{ fontSize: 13, display: "block", whiteSpace: "pre-wrap", marginBottom: 6 }}>
-                                    {comment.content}
-                                </Text>
-                                <Space size={4}>
-                                    <Button
-                                        type="text"
-                                        size="small"
-                                        icon={comment.liked_by_me ? <HeartFilled style={{ color: "#EF4444" }} /> : <HeartOutlined />}
+                            </div>
+
+                            <div className={styles.commentBody}>
+                                <div className={styles.commentMeta}>
+                                    <strong>{comment.display_name}</strong>
+                                    {comment.jlpt_level && (
+                                        <span className={styles.jlptBadge}>{comment.jlpt_level}</span>
+                                    )}
+                                    <small>{relativeTime(comment.created_at)}</small>
+                                </div>
+
+                                <p>{comment.content}</p>
+
+                                <div className={styles.commentActions}>
+                                    <button
+                                        type="button"
+                                        className={comment.liked_by_me ? styles.likeActive : styles.likeBtn}
                                         onClick={() => handleLike(comment)}
-                                        style={{ fontSize: 12, color: comment.liked_by_me ? "#EF4444" : "#9CA3AF", padding: "0 4px", height: "auto" }}
                                     >
-                                        {comment.likes_count}
-                                    </Button>
+                                        {comment.liked_by_me ? "♥" : "♡"} {comment.likes_count}
+                                    </button>
                                     {comment.is_mine && (
-                                        <Button
-                                            type="text"
-                                            size="small"
-                                            danger
-                                            icon={<DeleteOutlined />}
+                                        <button
+                                            type="button"
+                                            className={styles.deleteBtn}
                                             onClick={() => handleDelete(comment.id)}
-                                            style={{ fontSize: 12, padding: "0 4px", height: "auto" }}
                                         >
                                             Xóa
-                                        </Button>
+                                        </button>
                                     )}
-                                </Space>
+                                </div>
                             </div>
                         </div>
                     ))}
 
                     {comments.length === 0 && (
-                        <Text type="secondary" style={{ fontSize: 13, textAlign: "center", display: "block", padding: "16px 0" }}>
+                        <p className={styles.emptyState}>
                             Chưa có bình luận nào. Hãy là người đầu tiên! 🌱
-                        </Text>
+                        </p>
                     )}
                 </div>
             )}
 
             {hasMore && !fetching && (
-                <Button
-                    type="link"
-                    block
-                    loading={loadingMore}
+                <button
+                    type="button"
+                    className={styles.allCommentButton}
                     onClick={handleLoadMore}
-                    style={{ marginTop: 12, fontSize: 13 }}
+                    disabled={loadingMore}
                 >
                     {loadingMore ? "Đang tải..." : `Xem thêm (${total - comments.length} bình luận) →`}
-                </Button>
+                </button>
             )}
         </div>
     )

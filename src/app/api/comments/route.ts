@@ -86,7 +86,7 @@ export async function GET(request: NextRequest) {
         created_at: string
         user_profiles: { display_name: string; jlpt_level: string | null } | null
     }
-    const comments = (commentsResult.data ?? []) as CommentWithProfile[]
+    const comments = (commentsResult.data ?? []) as unknown as CommentWithProfile[]
     const total = countResult.count ?? 0
 
     const likedIds = user && comments.length > 0

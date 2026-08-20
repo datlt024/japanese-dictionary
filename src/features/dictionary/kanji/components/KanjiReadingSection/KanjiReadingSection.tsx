@@ -1,5 +1,4 @@
 import styles from "./KanjiReadingSection.module.css"
-import { Button } from "antd"
 
 import type { Kanji } from "@/domain/kanji"
 
@@ -39,16 +38,15 @@ export default function KanjiReadingSection({ kanji }: Props) {
 
                     <div className={styles.readingPillList}>
                         {displayOnyomi.map((reading) => (
-                            <Button
+                            <button
                                 key={reading}
-                                type="default"
+                                type="button"
                                 className={styles.readingPill}
                                 onClick={() => speakJapanese(reading)}
-                                style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 38, padding: "8px 12px", borderRadius: 999, background: "var(--color-primary-soft)", borderColor: "var(--color-primary-soft)", color: "var(--color-primary)", fontWeight: 800, fontSize: 15, height: "auto" }}
                             >
                                 {reading}
                                 <span>🔊</span>
-                            </Button>
+                            </button>
                         ))}
                     </div>
                 </div>
@@ -60,16 +58,15 @@ export default function KanjiReadingSection({ kanji }: Props) {
 
                     <div className={styles.readingPillList}>
                         {displayKunyomi.map((reading) => (
-                            <Button
+                            <button
                                 key={reading}
-                                type="default"
+                                type="button"
                                 className={styles.readingPill}
                                 onClick={() => speakJapanese(reading)}
-                                style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 38, padding: "8px 12px", borderRadius: 999, background: "var(--color-primary-soft)", borderColor: "var(--color-primary-soft)", color: "var(--color-primary)", fontWeight: 800, fontSize: 15, height: "auto" }}
                             >
                                 {reading}
                                 <span>🔊</span>
-                            </Button>
+                            </button>
                         ))}
                     </div>
                 </div>

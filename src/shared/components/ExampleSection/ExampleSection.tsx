@@ -1,21 +1,24 @@
 "use client"
 
 import { useState } from "react"
+
 import { Volume2 } from "lucide-react"
-import { Space, Switch, Typography } from "antd"
+
 import type { GrammarExample, GrammarRubyItem } from "@/domain/grammar"
+
 import ActionButtons from "@/shared/components/ActionButtons/ActionButtons"
 import { speakJapanese } from "@/shared/lib/tts/speakJapanese"
-import styles from "./ExampleSection.module.css"
 
-const { Text } = Typography
+import styles from "./ExampleSection.module.css"
 
 type Props = {
     examples?: GrammarExample[]
 }
 
 function renderWithRuby(text: string, ruby: GrammarRubyItem[]) {
-    if (!ruby || ruby.length === 0) return text
+    if (!ruby || ruby.length === 0) {
+        return text
+    }
 
     const result: React.ReactNode[] = []
     let remaining = text
@@ -23,6 +26,7 @@ function renderWithRuby(text: string, ruby: GrammarRubyItem[]) {
 
     while (remaining.length > 0) {
         const match = ruby.find((item) => remaining.startsWith(item.base))
+
         if (match) {
             result.push(
                 <ruby key={key++}>
@@ -51,19 +55,25 @@ export default function ExampleSection({ examples = [] }: Props) {
             <div className={styles.sectionHeaderRow}>
                 <h2>Ví dụ</h2>
 
-                <Space align="center">
-                    <Text style={{ fontSize: 13, color: "#6B7280" }}>Hiện dịch nghĩa</Text>
-                    <Switch
-                        size="small"
+                <label
+                    className={`${styles.translationToggle}${showTranslation ? "" : ` ${styles.translationToggleOff}`}`}
+                >
+                    <span>Hiện dịch nghĩa</span>
+                    <input
+                        type="checkbox"
                         checked={showTranslation}
-                        onChange={setShowTranslation}
+                        onChange={(e) => setShowTranslation(e.target.checked)}
                     />
-                </Space>
+                    <i />
+                </label>
             </div>
 
             <div className={styles.exampleList}>
                 {examples.map((example, index) => (
-                    <div key={index} className={styles.exampleRow}>
+                    <div
+                        key={index}
+                        className={styles.exampleRow}
+                    >
                         <span className={styles.exampleIndex}>
                             {String(index + 1).padStart(2, "0")}
                         </span>
@@ -74,7 +84,9 @@ export default function ExampleSection({ examples = [] }: Props) {
                             </p>
 
                             {showTranslation && (
-                                <p className={styles.exampleVi}>{example.vi}</p>
+                                <p className={styles.exampleVi}>
+                                    {example.vi}
+                                </p>
                             )}
                         </div>
 
@@ -85,7 +97,8 @@ export default function ExampleSection({ examples = [] }: Props) {
                                         key: "speak",
                                         label: "Phát âm ví dụ",
                                         icon: <Volume2 />,
-                                        onClick: () => speakJapanese(example.jp),
+                                        onClick: () =>
+                                            speakJapanese(example.jp),
                                     },
                                 ]}
                                 align="end"

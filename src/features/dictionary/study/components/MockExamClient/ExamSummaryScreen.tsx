@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { ArrowLeft, RotateCcw } from "lucide-react"
-import { Button, Space } from "antd"
 import styles from "./MockExamClient.module.css"
 import { formatTime } from "./exam-utils"
 import type { ExamConfig } from "./exam-types"
@@ -127,11 +126,15 @@ export default function ExamSummaryScreen({ level, cfg, results, languageTimeTak
                     </div>
                 </div>
 
-                <Space className={styles.scoreActions} style={{ justifyContent: "center", width: "100%", flexWrap: "wrap" }}>
-                    <Button type="primary" icon={<RotateCcw size={14} />} onClick={onRetry}>Thi lại</Button>
-                    <Button onClick={onShowReview}>Xem đáp án</Button>
-                    <Link href="/study?tab=thi-thu"><Button>Đề khác</Button></Link>
-                </Space>
+                <div className={styles.scoreActions}>
+                    <button className={styles.btnPrimary} onClick={onRetry}>
+                        <RotateCcw size={14} /> Thi lại
+                    </button>
+                    <button className={styles.btnReview} onClick={onShowReview}>
+                        Xem đáp án
+                    </button>
+                    <Link href="/study?tab=thi-thu" className={styles.btnOutline}>Đề khác</Link>
+                </div>
             </div>
         </div>
     )

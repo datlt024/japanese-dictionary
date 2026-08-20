@@ -1,7 +1,6 @@
 "use client"
 
 import { useCallback, useEffect, useRef, useState } from "react"
-import { Button } from "antd"
 import styles from "./TranslatorClient.module.css"
 
 const MAX_CHARS = 1000
@@ -163,14 +162,15 @@ export default function TranslatorClient({
             {/* ── Language bar ── */}
             <div className={styles.langBar}>
                 <span className={styles.langName}>{LANG_LABELS[sl]}</span>
-                <Button
-                    type="text"
+                <button
+                    type="button"
                     className={styles.swapBtn}
                     onClick={handleSwap}
                     title="Đổi chiều dịch"
                     aria-label="Đổi chiều dịch"
-                    icon={<SwapIcon />}
-                />
+                >
+                    <SwapIcon />
+                </button>
                 <span className={styles.langName}>{LANG_LABELS[tl]}</span>
             </div>
 
@@ -191,31 +191,32 @@ export default function TranslatorClient({
                         <span className={styles.charCount}>{input.length}/{MAX_CHARS}</span>
                         <div className={styles.footerActions}>
                             {input && sl === "ja" && (
-                                <Button
-                                    type="text"
+                                <button
+                                    type="button"
                                     className={styles.iconBtn}
                                     onClick={handleSpeakInput}
                                     title="Nghe phát âm"
-                                    icon={<SpeakerIcon />}
-                                />
+                                >
+                                    <SpeakerIcon />
+                                </button>
                             )}
                             {input && (
-                                <Button
-                                    type="text"
+                                <button
+                                    type="button"
                                     className={styles.iconBtn}
                                     onClick={handleClear}
                                     title="Xóa"
-                                    icon={<ClearIcon />}
-                                />
+                                >
+                                    <ClearIcon />
+                                </button>
                             )}
-                            <Button
-                                htmlType="submit"
-                                type="primary"
+                            <button
+                                type="submit"
                                 className={styles.translateBtn}
                                 disabled={!input.trim() || state.status === "loading"}
                             >
                                 {state.status === "loading" ? "Đang dịch…" : "Dịch"}
-                            </Button>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -252,21 +253,22 @@ export default function TranslatorClient({
                                 <span className={styles.sourceLabel}>{engineLabel}</span>
                                 <div className={styles.footerActions}>
                                     {tl === "ja" && (
-                                        <Button
-                                            type="text"
+                                        <button
+                                            type="button"
                                             className={styles.iconBtn}
                                             onClick={handleSpeakOutput}
                                             title="Nghe phát âm"
-                                            icon={<SpeakerIcon />}
-                                        />
+                                        >
+                                            <SpeakerIcon />
+                                        </button>
                                     )}
-                                    <Button
-                                        type="default"
+                                    <button
+                                        type="button"
                                         className={styles.copyBtn}
                                         onClick={handleCopy}
                                     >
                                         {copied ? "Đã sao chép" : "Sao chép"}
-                                    </Button>
+                                    </button>
                                     <a
                                         href={googleTranslateUrl}
                                         target="_blank"

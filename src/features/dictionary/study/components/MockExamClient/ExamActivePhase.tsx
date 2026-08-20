@@ -2,7 +2,6 @@ import React, { useState, useCallback } from "react"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { Clock, Play, X } from "lucide-react"
-import { Button } from "antd"
 import DOMPurify from "isomorphic-dompurify"
 
 function sanitizeExamContext(html: string): string {
@@ -72,9 +71,9 @@ export default function ExamActivePhase({
     return (
         <div className={styles.examPage}>
             <div className={styles.examTopBar}>
-                <Button type="text" danger icon={<X size={14} />} onClick={handleExit} className={styles.examExitBtn}>
-                    Thoát
-                </Button>
+                <button className={styles.examExitBtn} onClick={handleExit}>
+                    <X size={14} /> Thoát
+                </button>
                 <div className={styles.examBarCenter}>
                     <span className={styles.examBarTitle}>
                         JLPT {level}{cfg.subtitle ? ` · ${cfg.subtitle}` : ""}
@@ -84,9 +83,9 @@ export default function ExamActivePhase({
                         <Clock size={12} /> {formatTime(timeLeft)}
                     </span>
                 </div>
-                <Button type="primary" onClick={handleFinish} className={styles.examSubmitBtn}>
+                <button className={styles.examSubmitBtn} onClick={handleFinish}>
                     {cfg.listeningAudio && !isListeningPhase ? "Sang phần Nghe →" : "Nộp bài"}
-                </Button>
+                </button>
             </div>
 
             <div className={styles.progressBar}>
@@ -122,13 +121,9 @@ export default function ExamActivePhase({
                                             onEnded={() => setAudioEnded(true)}
                                         />
                                         {!audioStarted ? (
-                                            <Button
-                                                type="primary"
-                                                shape="circle"
-                                                icon={<Play size={15} fill="currentColor" />}
-                                                onClick={startAudio}
-                                                className={styles.audioPlayBtn}
-                                            />
+                                            <button className={styles.audioPlayBtn} onClick={startAudio}>
+                                                <Play size={15} fill="currentColor" />
+                                            </button>
                                         ) : (
                                             <span className={styles.audioStatusDot} data-ended={audioEnded || undefined} />
                                         )}

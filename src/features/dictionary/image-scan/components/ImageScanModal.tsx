@@ -9,7 +9,6 @@ import {
 import { createPortal } from "react-dom"
 import NextImage from "next/image"
 import { ImageIcon, X } from "lucide-react"
-import { Button } from "antd"
 
 import styles from "./ImageScanModal.module.css"
 
@@ -126,13 +125,14 @@ export default function ImageScanModal({
                 >
                     <h2>Dịch ảnh</h2>
 
-                    <Button
-                        type="text"
-                        icon={<X size={20} />}
+                    <button
+                        type="button"
+                        className={styles.closeButton}
                         onClick={handleClose}
                         aria-label="Đóng"
-                        className={styles.closeButton}
-                    />
+                    >
+                        <X size={20} />
+                    </button>
                 </div>
 
                 <div className={styles.body}>
@@ -145,8 +145,8 @@ export default function ImageScanModal({
                     />
 
                     {!imageUrl && (
-                        <Button
-                            type="default"
+                        <button
+                            type="button"
                             className={styles.uploadBox}
                             onClick={() => inputRef.current?.click()}
                         >
@@ -159,7 +159,7 @@ export default function ImageScanModal({
                             <small>
                                 Nên chọn ảnh rõ chữ hoặc crop gần vùng cần tra
                             </small>
-                        </Button>
+                        </button>
                     )}
 
                     {imageUrl && (
@@ -176,15 +176,15 @@ export default function ImageScanModal({
                                     className={styles.previewImage}
                                 />
 
-                                <Button
-                                    type="default"
+                                <button
+                                    type="button"
                                     className={styles.changeImageButton}
                                     onClick={() =>
                                         inputRef.current?.click()
                                     }
                                 >
                                     Chọn ảnh khác
-                                </Button>
+                                </button>
                             </div>
 
                             <div className={styles.resultBox}>

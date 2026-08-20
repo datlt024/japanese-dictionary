@@ -3,7 +3,6 @@
 import { useState } from "react"
 import Link from "next/link"
 import { ArrowLeft, ArrowRight } from "lucide-react"
-import { Button } from "antd"
 import styles from "./page.module.css"
 import {
     N5_EXAM_COUNTS,
@@ -67,9 +66,9 @@ export default function ExamContent() {
     if (selected?.exams) {
         return (
             <>
-                <Button type="text" className={styles.examBackBtn} icon={<ArrowLeft size={13} />} onClick={() => setSelected(null)}>
-                    Chọn cấp độ
-                </Button>
+                <button className={styles.examBackBtn} onClick={() => setSelected(null)}>
+                    <ArrowLeft size={13} /> Chọn cấp độ
+                </button>
                 <div className={styles.examVariantHeader}>
                     <div className={styles.examVariantHeaderLeft}>
                         <span

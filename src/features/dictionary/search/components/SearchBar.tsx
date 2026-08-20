@@ -1,11 +1,19 @@
 "use client"
 
-import { useRef } from "react"
-import { ImageIcon, Mic, PenLine, Search } from "lucide-react"
-import { Button, Input, Tooltip } from "antd"
-import type { InputRef } from "antd"
+import {
+  useRef,
+  type ChangeEvent,
+  type ReactNode,
+} from "react"
+import {
+  ImageIcon,
+  Mic,
+  PenLine,
+  Search,
+} from "lucide-react"
 
 import styles from "./SearchBar.module.css"
+
 import HandwritingModal from "@/features/dictionary/handwriting/components/HandwritingModal"
 
 type SearchBarProps = {
@@ -18,6 +26,30 @@ type SearchBarProps = {
   onImageScanOpen?: () => void
 }
 
+type ActionButtonProps = {
+  label: string
+  onClick: () => void
+  children: ReactNode
+}
+
+function ActionButton({
+  label,
+  onClick,
+  children,
+}: ActionButtonProps) {
+  return (
+    <button
+      type="button"
+      className={styles.actionButton}
+      onClick={onClick}
+      aria-label={label}
+    >
+      {children}
+      <span className={styles.tooltip}>{label}</span>
+    </button>
+  )
+}
+
 export default function SearchBar({
   value,
   onChange,
@@ -27,7 +59,11 @@ export default function SearchBar({
   onVoiceSearchOpen,
   onImageScanOpen,
 }: SearchBarProps) {
-  const inputRef = useRef<InputRef | null>(null)
+  const inputRef = useRef<HTMLInputElement | null>(null)
+
+  function handleChange(event: ChangeEvent<HTMLInputElement>) {
+    onChange(event.target.value)
+  }
 
   function handleOpenHandwriting() {
     inputRef.current?.blur()
@@ -43,51 +79,54 @@ export default function SearchBar({
     onChange(`${value}${text}`)
   }
 
+  function handleOpenVoiceSearch() {
+    inputRef.current?.blur()
+    onVoiceSearchOpen?.()
+  }
+
+  function handleOpenImageScan() {
+    inputRef.current?.blur()
+    onImageScanOpen?.()
+  }
+
   return (
     <>
       <div className={styles.searchContainer}>
-        <Search size={20} className={styles.searchIcon} />
+        <Search
+          size={20}
+          className={styles.searchIcon}
+        />
 
-        <Input
+        <input
           ref={inputRef}
-          variant="borderless"
           type="text"
           value={value}
           placeholder={placeholder}
-          onChange={(e) => onChange(e.target.value)}
+          onChange={handleChange}
           className={styles.searchInput}
         />
 
         <div className={styles.actions}>
-          <Tooltip title="Dịch ảnh">
-            <Button
-              type="text"
-              size="small"
-              icon={<ImageIcon size={18} />}
-              onClick={() => { inputRef.current?.blur(); onImageScanOpen?.() }}
-              className={styles.actionButton}
-            />
-          </Tooltip>
+          <ActionButton
+            label="Dịch ảnh"
+            onClick={handleOpenImageScan}
+          >
+            <ImageIcon size={18} />
+          </ActionButton>
 
-          <Tooltip title="Viết tay">
-            <Button
-              type="text"
-              size="small"
-              icon={<PenLine size={18} />}
-              onClick={handleOpenHandwriting}
-              className={styles.actionButton}
-            />
-          </Tooltip>
+          <ActionButton
+            label="Viết tay"
+            onClick={handleOpenHandwriting}
+          >
+            <PenLine size={18} />
+          </ActionButton>
 
-          <Tooltip title="Thu âm">
-            <Button
-              type="text"
-              size="small"
-              icon={<Mic size={18} />}
-              onClick={() => { inputRef.current?.blur(); onVoiceSearchOpen?.() }}
-              className={styles.actionButton}
-            />
-          </Tooltip>
+          <ActionButton
+            label="Thu âm"
+            onClick={handleOpenVoiceSearch}
+          >
+            <Mic size={18} />
+          </ActionButton>
         </div>
       </div>
 
@@ -96,7 +135,7 @@ export default function SearchBar({
         onClose={handleCloseHandwriting}
         onSelect={handleSelectHandwriting}
         onSearch={() => {
-          inputRef.current?.input?.form?.requestSubmit()
+          inputRef.current?.form?.requestSubmit()
         }}
       />
     </>

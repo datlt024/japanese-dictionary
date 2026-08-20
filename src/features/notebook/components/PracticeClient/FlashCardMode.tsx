@@ -3,15 +3,15 @@
 import { useState, useMemo, useEffect, useLayoutEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 import {
+    ArrowLeft,
     BookOpen,
+    Timer,
     ChevronRight,
     ChevronLeft,
     ChevronDown,
     Volume2,
     MoreHorizontal,
 } from "lucide-react"
-import { Button, Progress, Typography } from "antd"
-import { ArrowLeftOutlined } from "@ant-design/icons"
 
 import { useNotebooks } from "@/features/notebook/hooks/useNotebooks"
 import type { EnrichedNotebookItem } from "@/domain/notebook/notebook.type"
@@ -27,8 +27,6 @@ import type { Rating } from "./practice.constants"
 import { RATINGS, RATING_MAP } from "./practice.constants"
 import { shuffle } from "./practice.utils"
 import styles from "./PracticeClient.module.css"
-
-const { Text } = Typography
 
 type HistoryEntry = {
     item: EnrichedNotebookItem
@@ -154,22 +152,17 @@ export default function FlashCardMode({
     return (
         <div className={styles.fcLayout}>
             <div className={styles.fcTopBar}>
-                <Button
-                    type="text"
-                    icon={<ArrowLeftOutlined />}
-                    onClick={onBack}
-                    style={{ color: "#6B7280", fontSize: 13 }}
-                >
+                <button type="button" className={styles.fcBackBtn} onClick={onBack}>
+                    <ArrowLeft size={15} />
                     Quay lại
-                </Button>
+                </button>
 
                 <div className={styles.fcTitleArea} ref={switcherRef}>
                     <BookOpen size={15} className={styles.fcTitleIcon} />
-                    <Button
-                        type="text"
+                    <button
+                        type="button"
                         className={styles.fcNotebookBtn}
                         onClick={() => setSwitcherOpen((v) => !v)}
-                        style={{ display: "inline-flex", alignItems: "center", height: "auto", padding: "6px 10px", gap: 6, border: "1px solid var(--color-border)", borderRadius: 10 }}
                     >
                         <span className={styles.fcNotebookName}>
                             {currentNotebook?.name ?? "Sổ tay"}
@@ -179,48 +172,45 @@ export default function FlashCardMode({
                             size={13}
                             className={`${styles.fcSwitcherChevron} ${switcherOpen ? styles.fcSwitcherChevronOpen : ""}`}
                         />
-                    </Button>
+                    </button>
 
                     {switcherOpen && notebooks.length > 0 && (
                         <div className={styles.fcNotebookDropdown}>
                             {notebooks.map((nb) => (
-                                <Button
+                                <button
                                     key={nb.id}
-                                    type="text"
+                                    type="button"
                                     className={`${styles.fcNotebookDropdownItem} ${nb.id === notebookId ? styles.fcNotebookDropdownItemActive : ""}`}
                                     onClick={() => {
                                         setSwitcherOpen(false)
                                         router.push(`/notebooks/${nb.id}/practice`)
                                     }}
-                                    style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "auto", width: "100%", padding: "10px 12px", gap: 12, textAlign: "left", borderRadius: 10 }}
                                 >
                                     <span className={styles.fcDropdownName}>{nb.name}</span>
                                     <span className={styles.fcDropdownCount}>{nb.item_count} từ</span>
-                                </Button>
+                                </button>
                             ))}
                         </div>
                     )}
                 </div>
 
-                <Button
-                    danger
-                    onClick={handleEndSession}
-                    style={{ fontSize: 13 }}
-                >
+                <button type="button" className={styles.fcEndBtn} onClick={handleEndSession}>
+                    <Timer size={14} />
                     Kết thúc ôn tập
-                </Button>
+                </button>
             </div>
 
             <div className={styles.fcBody}>
                 <div className={styles.fcMain}>
                     <div className={styles.fcCardRow}>
-                        <Button
-                            type="text"
-                            icon={<ChevronLeft size={20} />}
+                        <button
+                            type="button"
+                            className={styles.fcNavArrow}
                             onClick={goPrev}
                             disabled={index === 0}
-                            className={styles.fcNavArrow}
-                        />
+                        >
+                            <ChevronLeft size={20} />
+                        </button>
 
                         <div className={styles.fcCardWrapper}>
                             <div
@@ -237,14 +227,14 @@ export default function FlashCardMode({
                                                 {index + 1} / {shuffled.length}
                                             </span>
                                             <div className={styles.fcCardControls}>
-                                                <Button
-                                                    type="text"
-                                                    size="small"
-                                                    icon={<MoreHorizontal size={16} />}
+                                                <button
+                                                    type="button"
+                                                    className={styles.fcIconBtn}
                                                     onClick={(e) => { e.stopPropagation(); handleOpenDetail(current.display.title) }}
                                                     title="Xem chi tiết"
-                                                    className={styles.fcIconBtn}
-                                                />
+                                                >
+                                                    <MoreHorizontal size={16} />
+                                                </button>
                                             </div>
                                         </div>
                                         <div className={styles.fcCardContent}>
@@ -265,25 +255,25 @@ export default function FlashCardMode({
                                                 {index + 1} / {shuffled.length}
                                             </span>
                                             <div className={styles.fcCardControls}>
-                                                <Button
-                                                    type="text"
-                                                    size="small"
-                                                    icon={<Volume2 size={16} />}
+                                                <button
+                                                    type="button"
+                                                    className={styles.fcIconBtn}
                                                     onClick={(e) => {
                                                         e.stopPropagation()
                                                         speakJapanese(current.display.subtitle ?? current.display.title)
                                                     }}
                                                     aria-label="Phát âm"
+                                                >
+                                                    <Volume2 size={16} />
+                                                </button>
+                                                <button
+                                                    type="button"
                                                     className={styles.fcIconBtn}
-                                                />
-                                                <Button
-                                                    type="text"
-                                                    size="small"
-                                                    icon={<MoreHorizontal size={16} />}
                                                     onClick={(e) => { e.stopPropagation(); handleOpenDetail(current.display.title) }}
                                                     title="Xem chi tiết"
-                                                    className={styles.fcIconBtn}
-                                                />
+                                                >
+                                                    <MoreHorizontal size={16} />
+                                                </button>
                                             </div>
                                         </div>
                                         <div className={styles.fcCardContent}>
@@ -303,30 +293,29 @@ export default function FlashCardMode({
                                                     {current.display.meaning}
                                                 </div>
                                             )}
-                                            <Button
-                                                type="link"
-                                                size="small"
+                                            <button
+                                                className={styles.fcDetailLink}
                                                 onClick={(e) => {
                                                     e.stopPropagation()
                                                     handleOpenDetail(current.display.title)
                                                 }}
-                                                loading={detailLoading}
-                                                className={styles.fcDetailLink}
+                                                disabled={detailLoading}
                                             >
                                                 {detailLoading ? "Đang tải..." : "Xem chi tiết"}
-                                            </Button>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <Button
-                            type="text"
-                            icon={<ChevronRight size={20} />}
-                            onClick={handleSkip}
+                        <button
+                            type="button"
                             className={styles.fcNavArrow}
-                        />
+                            onClick={handleSkip}
+                        >
+                            <ChevronRight size={20} />
+                        </button>
                     </div>
 
                     <div className={styles.fcRatingGrid}>
@@ -353,28 +342,28 @@ export default function FlashCardMode({
                         ))}
                     </div>
 
-                    <Button type="link" onClick={handleSkip} style={{ display: "block", margin: "0 auto", color: "#9CA3AF", fontSize: 13 }}>
+                    <button type="button" className={styles.fcSkipBtn} onClick={handleSkip}>
                         ▷ Bỏ qua từ này
-                    </Button>
+                    </button>
                 </div>
 
                 <div className={styles.fcSidebar}>
                     <div className={styles.fcSidebarSection}>
                         <div className={styles.fcSidebarTitle}>Tiến độ ôn tập</div>
-                        <Progress
-                            percent={Math.round((seen / shuffled.length) * 100)}
-                            showInfo={false}
-                            strokeColor="#2563EB"
-                            trailColor="#E5EAF2"
-                            style={{ marginBottom: 4 }}
-                        />
+                        <div className={styles.fcSbProgressBar}>
+                            <div
+                                className={styles.fcSbProgressFill}
+                                style={{ width: `${(seen / shuffled.length) * 100}%` }}
+                            />
+                        </div>
                         <div className={styles.fcSbProgressRow}>
-                            <Text type="secondary" style={{ fontSize: 12 }}>
-                                Còn lại: <strong>{shuffled.length - seen} từ</strong>
-                            </Text>
-                            <Text type="secondary" style={{ fontSize: 12 }}>
+                            <span className={styles.fcSbProgressSub}>
+                                Còn lại hôm nay:{" "}
+                                <strong>{shuffled.length - seen} từ</strong>
+                            </span>
+                            <span className={styles.fcSbProgressNum}>
                                 {seen} / {shuffled.length}
-                            </Text>
+                            </span>
                         </div>
                     </div>
 
@@ -386,15 +375,21 @@ export default function FlashCardMode({
                                 <span className={styles.fcStatLabel}>Đã học</span>
                             </div>
                             <div className={`${styles.fcStatCell} ${styles.fcStatRight}`}>
-                                <span className={`${styles.fcStatNum} ${styles.fcStatGreen}`}>{correct}</span>
+                                <span className={`${styles.fcStatNum} ${styles.fcStatGreen}`}>
+                                    {correct}
+                                </span>
                                 <span className={styles.fcStatLabel}>Đúng</span>
                             </div>
                             <div className={`${styles.fcStatCell} ${styles.fcStatBottom}`}>
-                                <span className={`${styles.fcStatNum} ${styles.fcStatRed}`}>{wrong}</span>
+                                <span className={`${styles.fcStatNum} ${styles.fcStatRed}`}>
+                                    {wrong}
+                                </span>
                                 <span className={styles.fcStatLabel}>Sai</span>
                             </div>
                             <div className={`${styles.fcStatCell} ${styles.fcStatRight} ${styles.fcStatBottom}`}>
-                                <span className={`${styles.fcStatNum} ${styles.fcStatBlue}`}>{accuracy}%</span>
+                                <span className={`${styles.fcStatNum} ${styles.fcStatBlue}`}>
+                                    {accuracy}%
+                                </span>
                                 <span className={styles.fcStatLabel}>Tỷ lệ đúng</span>
                             </div>
                         </div>
@@ -403,7 +398,7 @@ export default function FlashCardMode({
                     <div className={styles.fcSidebarSection}>
                         <div className={styles.fcSidebarTitle}>Lịch sử gần đây</div>
                         {history.length === 0 ? (
-                            <Text type="secondary" style={{ fontSize: 13 }}>Chưa có từ nào được ôn tập</Text>
+                            <p className={styles.fcHistoryEmpty}>Chưa có từ nào được ôn tập</p>
                         ) : (
                             <>
                                 <ul className={styles.fcHistoryList}>
@@ -436,9 +431,7 @@ export default function FlashCardMode({
                                     ))}
                                 </ul>
                                 {history.length > 5 && !showAllHistory && (
-                                    <Button type="link" size="small" onClick={() => setShowAllHistory(true)} style={{ padding: 0, fontSize: 12 }}>
-                                        Xem tất cả
-                                    </Button>
+                                    <button type="button" className={styles.fcSeeAllBtn} onClick={() => setShowAllHistory(true)}>Xem tất cả</button>
                                 )}
                             </>
                         )}

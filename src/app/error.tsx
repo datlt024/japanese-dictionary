@@ -1,7 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { Button, Result } from "antd"
+
+import styles from "./error.module.css"
 
 export default function GlobalError({
     reset,
@@ -10,20 +11,22 @@ export default function GlobalError({
     reset: () => void
 }) {
     return (
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "60vh", padding: 24 }}>
-            <Result
-                status="error"
-                title="Đã xảy ra lỗi"
-                subTitle="Có lỗi không mong muốn xảy ra. Vui lòng thử lại hoặc quay về trang chủ."
-                extra={[
-                    <Button key="retry" type="primary" onClick={() => reset()}>
+        <div className={styles.page}>
+            <div className={styles.inner}>
+                <div className={styles.icon}>⚠️</div>
+                <h2 className={styles.title}>Đã xảy ra lỗi</h2>
+                <p className={styles.desc}>
+                    Có lỗi không mong muốn xảy ra. Vui lòng thử lại hoặc quay về trang chủ.
+                </p>
+                <div className={styles.actions}>
+                    <button type="button" className={styles.retryBtn} onClick={() => reset()}>
                         Thử lại
-                    </Button>,
-                    <Link key="home" href="/">
-                        <Button>Về trang chủ</Button>
-                    </Link>,
-                ]}
-            />
+                    </button>
+                    <Link href="/" className={styles.homeBtn}>
+                        Về trang chủ
+                    </Link>
+                </div>
+            </div>
         </div>
     )
 }
