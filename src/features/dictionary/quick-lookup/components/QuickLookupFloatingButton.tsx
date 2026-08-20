@@ -20,7 +20,7 @@ export default function QuickLookupFloatingButton({
             type="text"
             data-quick-lookup="true"
             className={styles.button}
-            style={{ top, left }}
+            style={{ top, left, width: 38, height: 38, borderRadius: 999 }}
             onMouseDown={(event) => {
                 event.preventDefault()
                 event.stopPropagation()

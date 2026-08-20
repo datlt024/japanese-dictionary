@@ -65,16 +65,16 @@ export default function GrammarHeroCard({ grammar }: Props) {
 
                 <div className={styles.heroActions}>
                     <Tooltip title="Phát âm">
-                        <Button type="text" icon={<Volume2 size={18} />} onClick={handleSpeak} className={styles.actionButton} />
+                        <Button type="text" icon={<Volume2 size={18} />} onClick={handleSpeak} className={styles.actionButton} style={{ width: 38, height: 38 }} />
                     </Tooltip>
                     <Tooltip title="Lưu ngữ pháp">
-                        <Button type="text" icon={<Bookmark size={18} />} className={styles.actionButton} />
+                        <Button type="text" icon={<Bookmark size={18} />} className={styles.actionButton} style={{ width: 38, height: 38 }} />
                     </Tooltip>
                     <Tooltip title="Thêm vào sổ tay">
-                        <Button type="text" icon={<Plus size={18} />} onClick={() => setNotebookOpen(true)} className={styles.actionButton} />
+                        <Button type="text" icon={<Plus size={18} />} onClick={() => setNotebookOpen(true)} className={styles.actionButton} style={{ width: 38, height: 38 }} />
                     </Tooltip>
                     <Tooltip title="Mở thêm tuỳ chọn">
-                        <Button type="text" icon={<MoreHorizontal size={18} />} className={styles.actionButton} />
+                        <Button type="text" icon={<MoreHorizontal size={18} />} className={styles.actionButton} style={{ width: 38, height: 38 }} />
                     </Tooltip>
                 </div>
             </div>
