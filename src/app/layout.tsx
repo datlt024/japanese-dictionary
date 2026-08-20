@@ -60,9 +60,12 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  // getSession() reads the JWT from the cookie without a network round-trip.
+  // Full getUser() verification happens inside each admin API route, so this
+  // local decode is sufficient for showing/hiding the sidebar admin link.
   const supabase = await createSupabaseServerClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  const isAdmin = user ? isAdminUserId(user.id) : false
+  const { data: { session } } = await supabase.auth.getSession()
+  const isAdmin = session?.user ? isAdminUserId(session.user.id) : false
 
   return (
     <html lang="vi" translate="no" suppressHydrationWarning data-scroll-behavior="smooth">

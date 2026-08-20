@@ -20,6 +20,13 @@ const cspDirectives = [
 const nextConfig: NextConfig = {
     poweredByHeader: false,
 
+    experimental: {
+        // Tree-shake antd and icons so each route only compiles the components
+        // it actually uses — cuts module count from 11000+ to ~2000-3000 per route.
+        // Works with both webpack (dev) and Turbopack.
+        optimizePackageImports: ["antd", "@ant-design/icons", "@ant-design/cssinjs"],
+    },
+
     images: {
         formats: ["image/avif", "image/webp"],
         dangerouslyAllowSVG: true,
