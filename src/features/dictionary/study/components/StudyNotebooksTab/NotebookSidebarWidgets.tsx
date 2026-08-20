@@ -6,13 +6,13 @@ import styles from "./StudyNotebooksTab.module.css"
 
 interface Props {
     userId: string | null
-    totalItems: number
+    dueCount: number
     firstNotebookId: string | null
     onStartPractice: () => void
     onViewFirst: () => void
 }
 
-export default function NotebookSidebarWidgets({ userId, totalItems, firstNotebookId, onStartPractice, onViewFirst }: Props) {
+export default function NotebookSidebarWidgets({ userId, dueCount, firstNotebookId, onStartPractice, onViewFirst }: Props) {
     const streak = useStreak(userId)
 
     return (
@@ -23,7 +23,7 @@ export default function NotebookSidebarWidgets({ userId, totalItems, firstNotebo
                     <span className={styles.widgetEmoji}>📅</span>
                     <h3 className={styles.widgetTitle}>Ôn tập hôm nay</h3>
                 </div>
-                <div className={styles.widgetBigNum}>{totalItems}</div>
+                <div className={styles.widgetBigNum}>{dueCount}</div>
                 <p className={styles.widgetSub}>từ cần ôn</p>
                 <button
                     type="button"

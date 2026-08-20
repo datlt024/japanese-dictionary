@@ -6,7 +6,7 @@ import styles from "./StudyNotebooksTab.module.css"
 interface Props {
     notebookCount: number
     totalItems: number
-    knownCount: number | string
+    knownCount: number | null
     ratio: string
 }
 
@@ -14,7 +14,7 @@ export default function NotebookOverviewStats({ notebookCount, totalItems, known
     const STATS = [
         { icon: <Layers size={20} style={{ color: "var(--color-jlpt-n3)" }} />, bg: "var(--color-jlpt-n3-soft)", value: notebookCount, label: "Số sổ tay" },
         { icon: <BookOpen size={20} style={{ color: "var(--color-jlpt-n4)" }} />, bg: "var(--color-jlpt-n4-soft)", value: totalItems, label: "Tổng số từ" },
-        { icon: <CheckCircle2 size={20} style={{ color: "var(--color-success)" }} />, bg: "var(--color-success-soft)", value: knownCount || "—", label: "Từ đã ghi nhớ" },
+        { icon: <CheckCircle2 size={20} style={{ color: "var(--color-success)" }} />, bg: "var(--color-success-soft)", value: knownCount ?? "—", label: "Từ đã ghi nhớ" },
         { icon: <Zap size={20} style={{ color: "var(--color-warning)" }} />, bg: "var(--color-warning-soft)", value: ratio, label: "Tỷ lệ ghi nhớ" },
     ]
 

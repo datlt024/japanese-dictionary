@@ -131,12 +131,17 @@ export default function StudyNotebooksTab() {
     )
 
     const practiceStats = useMemo(() => {
-        if (!practiceSessions?.length) return { knownCount: 0, ratio: "—" }
-        const knownSet = new Set<string>(); const unknownSet = new Set<string>()
-        for (const s of practiceSessions) for (const id of s.known_ids) knownSet.add(id)
-        for (const s of practiceSessions) for (const id of s.unknown_ids) { if (!knownSet.has(id)) unknownSet.add(id) }
-        const total = knownSet.size + unknownSet.size
-        return { knownCount: knownSet.size, ratio: total > 0 ? `${Math.round(knownSet.size / total * 100)}%` : "—" }
+        if (!practiceSessions?.length) return { knownCount: null as number | null, ratio: "—", dueCount: null as number | null }
+        // Sessions arrive newest-first from the API; first-seen result per item is the most recent one.
+        const itemResult = new Map<string, "known" | "unknown">()
+        for (const s of practiceSessions) {
+            for (const id of s.known_ids)   if (!itemResult.has(id)) itemResult.set(id, "known")
+            for (const id of s.unknown_ids) if (!itemResult.has(id)) itemResult.set(id, "unknown")
+        }
+        const knownCount = [...itemResult.values()].filter(v => v === "known").length
+        const total = itemResult.size
+        const ratio = total > 0 ? `${Math.round(knownCount / total * 100)}%` : "—"
+        return { knownCount, ratio, dueCount: null as number | null }
     }, [practiceSessions])
 
     const createInputRef      = useRef<HTMLInputElement>(null)
@@ -170,7 +175,10 @@ export default function StudyNotebooksTab() {
     const totalPages     = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE))
     const safePage       = Math.min(page, totalPages)
     const pagedNotebooks = sorted.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
-    const ungrouped      = pagedNotebooks.filter(nb => !nb.group_id)
+    const knownGroupIds  = new Set(groups.map(g => g.id))
+    // Notebooks whose group_id doesn't match any loaded group are treated as ungrouped
+    // so they're never invisible (e.g. when the groups API returns empty).
+    const ungrouped      = pagedNotebooks.filter(nb => !nb.group_id || !knownGroupIds.has(nb.group_id))
     const byGroup        = (gid: string) => pagedNotebooks.filter(nb => nb.group_id === gid)
     const sortedGroups   = [...groups].sort((a, b) => {
         if (sortOrder === "az") return compareByName(a.name, b.name)
@@ -289,6 +297,10 @@ export default function StudyNotebooksTab() {
     /* ── List view ── */
 
     const totalItems = notebooks.reduce((sum, nb) => sum + nb.item_count, 0)
+    // Items due = total - last-known; if no session data yet, show total (all need review)
+    const dueCount = practiceStats.knownCount !== null
+        ? Math.max(0, totalItems - practiceStats.knownCount)
+        : totalItems
 
     return (
         <>
@@ -504,7 +516,7 @@ export default function StudyNotebooksTab() {
 
                 <NotebookSidebarWidgets
                     userId={user.id}
-                    totalItems={totalItems}
+                    dueCount={dueCount}
                     firstNotebookId={notebooks[0]?.id ?? null}
                     onStartPractice={() => notebooks.length > 0 && setPracticeId(notebooks[0].id)}
                     onViewFirst={() => { setSelectedId(notebooks[0].id); setView("detail") }}
