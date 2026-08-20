@@ -38,7 +38,9 @@ export async function GET() {
         item_count: nb.notebook_items?.[0]?.count ?? 0,
     }))
 
-    return NextResponse.json(transformed)
+    return NextResponse.json(transformed, {
+        headers: { "Cache-Control": "private, max-age=30, stale-while-revalidate=60" },
+    })
 }
 
 export async function POST(request: NextRequest) {

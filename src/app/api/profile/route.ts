@@ -25,7 +25,9 @@ export async function GET() {
     if (!rl.ok) return rl.response
 
     const { data } = await getProfile(supabaseServer, user.id)
-    return NextResponse.json(data ?? null)
+    return NextResponse.json(data ?? null, {
+        headers: { "Cache-Control": "private, max-age=30, stale-while-revalidate=60" },
+    })
 }
 
 export async function PATCH(request: NextRequest) {

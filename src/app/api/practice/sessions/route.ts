@@ -22,7 +22,9 @@ export async function GET() {
     const { data, error } = await listPracticeSessions(supabaseServer, user.id)
     if (error) return serverError(error, "GET /api/practice/sessions")
 
-    return NextResponse.json(data ?? [])
+    return NextResponse.json(data ?? [], {
+        headers: { "Cache-Control": "private, max-age=30, stale-while-revalidate=60" },
+    })
 }
 
 export async function POST(request: NextRequest) {

@@ -1,14 +1,12 @@
+import { unstable_cache } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 import {
-    countComments,
     createComment,
-    getProfilesByUserIds,
     getUserLikedCommentIds,
-    listComments,
     upsertProfile,
 } from "@/server/repositories/community/community.repository"
 import type { EntryType, SortOrder } from "@/server/repositories/community/community.repository"
@@ -18,6 +16,35 @@ export const dynamic = "force-dynamic"
 const ENTRY_TYPES: EntryType[] = ["vocabulary", "kanji", "grammar"]
 const SORT_ORDERS: SortOrder[] = ["likes", "newest"]
 const PAGE_SIZE = 10
+
+// Fetch public comments + count in one round-trip, with profiles inlined via FK join.
+// Result is cached per (entryType, entryId, sort, page) for 60 seconds so rapid
+// re-renders and React Strict Mode double-invocations hit memory instead of Supabase.
+function getPublicCommentPage(entryType: EntryType, entryId: number, sort: SortOrder, page: number) {
+    const orderCol = sort === "likes" ? "likes_count" : "created_at"
+    const offset = page * PAGE_SIZE
+    return unstable_cache(
+        async () => {
+            const [commentsResult, countResult] = await Promise.all([
+                supabaseServer
+                    .from("word_comments")
+                    .select("id, user_id, content, likes_count, created_at, user_profiles(display_name, jlpt_level)")
+                    .eq("entry_type", entryType)
+                    .eq("entry_id", entryId)
+                    .order(orderCol, { ascending: false })
+                    .range(offset, offset + PAGE_SIZE - 1),
+                supabaseServer
+                    .from("word_comments")
+                    .select("id", { count: "exact", head: true })
+                    .eq("entry_type", entryType)
+                    .eq("entry_id", entryId),
+            ])
+            return { commentsResult, countResult }
+        },
+        [`comments-${entryType}-${entryId}-${sort}-${page}`],
+        { revalidate: 60 }
+    )()
+}
 
 export async function GET(request: NextRequest) {
     const ip = getClientIp(request)
@@ -40,29 +67,32 @@ export async function GET(request: NextRequest) {
     const page = Math.max(0, Number(pageRaw) || 0)
     const resolvedSort = SORT_ORDERS.includes(sort) ? sort : "likes"
 
-    const supabase = await createSupabaseServerClient()
-    const { data: { user } } = await supabase.auth.getUser()
-
-    const [commentsResult, countResult] = await Promise.all([
-        listComments(supabaseServer, entryType, entryId, resolvedSort, PAGE_SIZE, page * PAGE_SIZE),
-        countComments(supabaseServer, entryType, entryId),
+    // Run auth check and comment page fetch in parallel — auth result is only needed
+    // to personalize liked_by_me/is_mine, which we apply after both complete.
+    const [{ data: { user } }, { commentsResult, countResult }] = await Promise.all([
+        createSupabaseServerClient().then((s) => s.auth.getUser()),
+        getPublicCommentPage(entryType, entryId, resolvedSort, page),
     ])
 
     if (commentsResult.error) {
         return serverError(commentsResult.error, "GET /api/comments")
     }
 
-    const comments = commentsResult.data ?? []
+    type CommentWithProfile = {
+        id: string
+        user_id: string
+        content: string
+        likes_count: number
+        created_at: string
+        user_profiles: { display_name: string; jlpt_level: string | null } | null
+    }
+    const comments = (commentsResult.data ?? []) as CommentWithProfile[]
     const total = countResult.count ?? 0
 
-    const userIds = [...new Set(comments.map((c) => c.user_id))]
-    const [profileMap, likedIds] = await Promise.all([
-        getProfilesByUserIds(supabaseServer, userIds),
-        user && comments.length > 0
-            ? getUserLikedCommentIds(supabaseServer, user.id, comments.map((c) => c.id))
-                .then((r) => (r.data ?? []).map((r) => r.comment_id))
-            : Promise.resolve([] as string[]),
-    ])
+    const likedIds = user && comments.length > 0
+        ? await getUserLikedCommentIds(supabaseServer, user.id, comments.map((c) => c.id))
+            .then((r) => (r.data ?? []).map((row) => row.comment_id))
+        : []
 
     return NextResponse.json({
         comments: comments.map((c) => ({
@@ -71,8 +101,8 @@ export async function GET(request: NextRequest) {
             content: c.content,
             likes_count: c.likes_count,
             created_at: c.created_at,
-            display_name: profileMap[c.user_id]?.display_name ?? "Ẩn danh",
-            jlpt_level: profileMap[c.user_id]?.jlpt_level ?? null,
+            display_name: c.user_profiles?.display_name ?? "Ẩn danh",
+            jlpt_level: c.user_profiles?.jlpt_level ?? null,
             liked_by_me: likedIds.includes(c.id),
             is_mine: user?.id === c.user_id,
         })),
