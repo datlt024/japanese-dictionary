@@ -2,6 +2,7 @@
 
 import {
     FormEvent,
+    KeyboardEvent,
     useCallback,
     useRef,
     useState,
@@ -79,6 +80,8 @@ function TopSearchBarContent({
 }) {
     const router = useRouter()
     const wrapperRef = useRef<HTMLDivElement>(null)
+    const dropdownRef = useRef<HTMLDivElement>(null)
+    const inputRef = useRef<HTMLInputElement>(null)
 
     const [keyword, setKeyword] = useState(searchKeyword)
     const [activeTab, setActiveTab] =
@@ -187,12 +190,50 @@ function TopSearchBarContent({
         setImageScanOpen(false)
     }
 
+    function getFocusableDropdownItems(): HTMLAnchorElement[] {
+        if (!dropdownRef.current) return []
+        return Array.from(dropdownRef.current.querySelectorAll("a[href]"))
+    }
+
+    function handleWrapperKeyDown(e: KeyboardEvent<HTMLDivElement>) {
+        if (e.key === "Escape") {
+            setIsDropdownOpen(false)
+            inputRef.current?.focus()
+            return
+        }
+
+        const items = getFocusableDropdownItems()
+        if (items.length === 0) return
+
+        const active = document.activeElement
+        const idx = items.indexOf(active as HTMLAnchorElement)
+
+        if (e.key === "ArrowDown") {
+            e.preventDefault()
+            if (idx === -1) {
+                items[0]?.focus()
+            } else {
+                items[Math.min(idx + 1, items.length - 1)]?.focus()
+            }
+        } else if (e.key === "ArrowUp") {
+            e.preventDefault()
+            if (idx <= 0) {
+                inputRef.current?.focus()
+            } else {
+                items[idx - 1]?.focus()
+            }
+        }
+    }
+
     return (
         <>
             <div className={styles.topSearch} ref={wrapperRef}>
                 <div className={styles.topSearchInner}>
                     <form onSubmit={handleSubmit}>
-                        <div className={styles.searchDropdownWrapper}>
+                        <div
+                            className={styles.searchDropdownWrapper}
+                            onKeyDown={handleWrapperKeyDown}
+                        >
                             <SearchBar
                                 value={keyword}
                                 onChange={handleChange}
@@ -204,10 +245,12 @@ function TopSearchBarContent({
                                     setVoiceSearchOpen(true)
                                 }
                                 onImageScanOpen={handleImageScanOpen}
+                                inputRef={inputRef}
                             />
 
                             {isDropdownOpen && keyword.trim() && (
                                 <SearchHubDropdown
+                                    ref={dropdownRef}
                                     result={result}
                                     keyword={debouncedKeyword}
                                     loading={isSearchLoading}

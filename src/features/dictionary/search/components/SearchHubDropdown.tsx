@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo } from "react"
+import { useMemo, forwardRef } from "react"
 import Link from "next/link"
 
 import styles from "./SearchHubDropdown.module.css"
@@ -156,14 +156,14 @@ function extractKanjis(text: string) {
     ).map((match) => match[0])
 }
 
-export default function SearchHubDropdown({
+const SearchHubDropdown = forwardRef<HTMLDivElement, Props>(function SearchHubDropdown({
     result,
     keyword,
     loading,
     activeTab,
     language,
     disabled = false,
-}: Props) {
+}, ref) {
     const cleanKeyword = keyword.trim()
 
     const shouldShowDropdown =
@@ -266,7 +266,7 @@ export default function SearchHubDropdown({
     }
 
     return (
-        <div className={styles.searchHubDropdown} role="listbox" aria-label="Gợi ý tìm kiếm">
+        <div ref={ref} className={styles.searchHubDropdown} role="listbox" aria-label="Gợi ý tìm kiếm">
             <div className={styles.searchHubContent} aria-live="polite" aria-atomic="false">
                 {activeTab === "vocabulary" && (
                     <>
@@ -419,4 +419,6 @@ export default function SearchHubDropdown({
             </div>
         </div>
     )
-}
+})
+
+export default SearchHubDropdown

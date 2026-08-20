@@ -4,6 +4,7 @@ import {
   useRef,
   type ChangeEvent,
   type ReactNode,
+  type RefObject,
 } from "react"
 import {
   ImageIcon,
@@ -24,6 +25,7 @@ type SearchBarProps = {
   onHandwritingOpenChange: (open: boolean) => void
   onVoiceSearchOpen?: () => void
   onImageScanOpen?: () => void
+  inputRef?: RefObject<HTMLInputElement | null>
 }
 
 type ActionButtonProps = {
@@ -58,8 +60,10 @@ export default function SearchBar({
   onHandwritingOpenChange,
   onVoiceSearchOpen,
   onImageScanOpen,
+  inputRef: externalInputRef,
 }: SearchBarProps) {
-  const inputRef = useRef<HTMLInputElement | null>(null)
+  const localInputRef = useRef<HTMLInputElement | null>(null)
+  const inputRef = externalInputRef ?? localInputRef
 
   function handleChange(event: ChangeEvent<HTMLInputElement>) {
     onChange(event.target.value)
