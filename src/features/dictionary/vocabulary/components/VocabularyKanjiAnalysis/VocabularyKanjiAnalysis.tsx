@@ -69,6 +69,7 @@ export default function VocabularyKanjiAnalysis({
                                 ? `${styles.kanjiTile} ${styles.kanjiTileActive}`
                                 : styles.kanjiTile
                         }
+                        style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: 92, padding: 0, lineHeight: "normal" }}
                     >
                         <span className={styles.kanjiTileChar}>
                             {item.kanji}

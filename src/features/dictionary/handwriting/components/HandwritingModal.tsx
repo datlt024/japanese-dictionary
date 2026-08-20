@@ -302,6 +302,7 @@ export default function HandwritingModal({
                         onClick={handleClose}
                         aria-label="Đóng"
                         className={styles.closeButton}
+                        style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: 36, height: 36, padding: 0, borderRadius: 999, border: "1px solid var(--color-border)", background: "var(--color-surface-muted)" }}
                     />
                 </div>
 

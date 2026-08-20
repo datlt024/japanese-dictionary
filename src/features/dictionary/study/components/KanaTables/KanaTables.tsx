@@ -289,7 +289,7 @@ export default function KanaTables({ children }: { children?: React.ReactNode })
                             key={opt.id}
                             type="default"
                             className={styles.pickerBtn}
-                            style={{ "--accent": opt.accentColor } as React.CSSProperties}
+                            style={{ "--accent": opt.accentColor, display: "flex", flexDirection: "column", alignItems: "flex-start", height: "auto", width: "100%", padding: "28px 24px 24px", textAlign: "left", overflow: "hidden" } as React.CSSProperties}
                             onClick={() => setSelected(opt.id)}
                         >
                             <span className={styles.pickerDeco} aria-hidden="true">{opt.deco}</span>

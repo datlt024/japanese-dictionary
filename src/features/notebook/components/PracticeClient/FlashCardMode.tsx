@@ -169,6 +169,7 @@ export default function FlashCardMode({
                         type="text"
                         className={styles.fcNotebookBtn}
                         onClick={() => setSwitcherOpen((v) => !v)}
+                        style={{ display: "inline-flex", alignItems: "center", height: "auto", padding: "6px 10px", gap: 6, border: "1px solid var(--color-border)", borderRadius: 10 }}
                     >
                         <span className={styles.fcNotebookName}>
                             {currentNotebook?.name ?? "Sổ tay"}
@@ -191,6 +192,7 @@ export default function FlashCardMode({
                                         setSwitcherOpen(false)
                                         router.push(`/notebooks/${nb.id}/practice`)
                                     }}
+                                    style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "auto", width: "100%", padding: "10px 12px", gap: 12, textAlign: "left", borderRadius: 10 }}
                                 >
                                     <span className={styles.fcDropdownName}>{nb.name}</span>
                                     <span className={styles.fcDropdownCount}>{nb.item_count} từ</span>

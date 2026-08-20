@@ -41,6 +41,7 @@ function VocabCard({
             className={className}
             onClick={onClick}
             onMouseEnter={onMouseEnter}
+            style={{ display: "flex", flexDirection: "column", alignItems: "stretch", height: "auto", width: "100%", padding: "18px 20px", textAlign: "left", gap: 8 }}
         >
             <div className={styles.cardTop}>
                 <span className={styles.word}>{item.word}</span>

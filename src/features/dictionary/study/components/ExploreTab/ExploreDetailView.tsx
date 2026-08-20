@@ -93,7 +93,7 @@ export default function ExploreDetailView({ notebook, onBack }: Props) {
                     {items.map((item) => (
                         <li key={item.id} className={styles.exploreItemCard}>
                             {item.item_type === "vocabulary" ? (
-                                <Button type="text" className={styles.exploreItemLink} onClick={() => handleOpenItem(item)}>
+                                <Button type="text" className={styles.exploreItemLink} onClick={() => handleOpenItem(item)} style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", height: "auto", flex: 1, gap: 6, padding: 0, textAlign: "left" }}>
                                     <span className={styles.exploreTypeBadge} data-type={item.item_type}>
                                         {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}
                                     </span>

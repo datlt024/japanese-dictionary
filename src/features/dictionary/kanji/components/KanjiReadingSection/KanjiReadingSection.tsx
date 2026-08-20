@@ -44,6 +44,7 @@ export default function KanjiReadingSection({ kanji }: Props) {
                                 type="default"
                                 className={styles.readingPill}
                                 onClick={() => speakJapanese(reading)}
+                                style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 38, padding: "8px 12px", borderRadius: 999, background: "var(--color-primary-soft)", borderColor: "var(--color-primary-soft)", color: "var(--color-primary)", fontWeight: 800, fontSize: 15, height: "auto" }}
                             >
                                 {reading}
                                 <span>🔊</span>
@@ -64,6 +65,7 @@ export default function KanjiReadingSection({ kanji }: Props) {
                                 type="default"
                                 className={styles.readingPill}
                                 onClick={() => speakJapanese(reading)}
+                                style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 38, padding: "8px 12px", borderRadius: 999, background: "var(--color-primary-soft)", borderColor: "var(--color-primary-soft)", color: "var(--color-primary)", fontWeight: 800, fontSize: 15, height: "auto" }}
                             >
                                 {reading}
                                 <span>🔊</span>

@@ -325,6 +325,7 @@ function QuickLookupModalInner({
                         onClick={onClose}
                         aria-label="Đóng"
                         className={styles.closeButton}
+                        style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: 36, height: 36, padding: 0, borderRadius: 999, border: "1px solid var(--color-border)", background: "var(--color-surface-muted)" }}
                     />
                 </div>
 
@@ -342,6 +343,7 @@ function QuickLookupModalInner({
                                     : styles.tabButton
                             }
                             onClick={() => setActiveTab(tab.key)}
+                            style={{ height: "auto", padding: "8px 14px", borderRadius: 10, fontSize: 14, fontWeight: 700, flexShrink: 0 }}
                         >
                             {tab.label}
                         </Button>

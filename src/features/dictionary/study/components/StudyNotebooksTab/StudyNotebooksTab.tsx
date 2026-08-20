@@ -395,7 +395,7 @@ export default function StudyNotebooksTab() {
                                             </form>
                                         ) : (
                                             <>
-                                            <Button type="text" className={styles.groupToggle} onClick={() => toggleGroup(group.id)}>
+                                            <Button type="text" className={styles.groupToggle} onClick={() => toggleGroup(group.id)} style={{ display: "flex", alignItems: "center", height: "auto", flex: 1, minWidth: 0, padding: "4px 2px", gap: 7, textAlign: "left" }}>
                                                 {isExpanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
                                                 <FolderOpen size={14} className={styles.groupFolderIcon} />
                                                 <span className={styles.groupName}>{group.name}</span>

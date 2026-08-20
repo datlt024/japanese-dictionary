@@ -62,6 +62,7 @@ export default function ExamTipsSection() {
                             type="text"
                             className={styles.accordionHeader}
                             onClick={() => setOpen(open === i ? null : i)}
+                            style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "auto", width: "100%", padding: "12px 16px", gap: 8, textAlign: "left" }}
                         >
                             <span>{tip.title}</span>
                             <ChevronRight size={15} className={styles.accordionChevron} />

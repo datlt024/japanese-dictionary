@@ -51,6 +51,7 @@ export default function SearchHistorySection() {
                             title={item}
                             className={styles.historyTag}
                             onClick={() => handleHistoryClick(item)}
+                            style={{ display: "inline-flex", alignItems: "center", height: 34, padding: "0 14px", borderRadius: 999, background: "var(--color-surface)", borderColor: "var(--color-border)", color: "var(--color-primary)", fontWeight: 700, fontSize: 14 }}
                         >
                             {getHistoryLabel(item)}
                         </Button>

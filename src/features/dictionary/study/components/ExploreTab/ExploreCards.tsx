@@ -36,7 +36,7 @@ export function NotebookCard({ notebook, index, liked, onToggleLike, onClick }: 
 
     return (
         <div className={styles.nbCard}>
-            <Button type="text" className={styles.nbCardMain} onClick={onClick}>
+            <Button type="text" className={styles.nbCardMain} onClick={onClick} style={{ display: "flex", alignItems: "center", height: "auto", flex: 1, minWidth: 0, padding: "14px 0 14px 14px", gap: 14, textAlign: "left" }}>
                 <div className={styles.nbCardIcon} style={{ background: color.bg }}>
                     <Icon size={20} style={{ color: color.text }} />
                 </div>
@@ -175,6 +175,7 @@ export function SectionBlock({
                     className={styles.sectionToggle}
                     onClick={() => setOpen((v) => !v)}
                     aria-expanded={open}
+                    style={{ display: "flex", alignItems: "center", height: "auto", flex: 1, minWidth: 0, padding: "4px 2px", gap: 7, textAlign: "left" }}
                 >
                     {open ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
                     <CategoryIcon category={section.type === "group" ? "Theo đầu sách" : section.name} size={14} />
@@ -494,7 +495,7 @@ export function FavoritesView({
                                 const Icon  = CARD_ICONS[i  % CARD_ICONS.length]
                                 return (
                                     <div key={section.id} className={styles.nbCard}>
-                                        <Button type="text" className={styles.nbCardMain} onClick={() => onSelectSection(section)}>
+                                        <Button type="text" className={styles.nbCardMain} onClick={() => onSelectSection(section)} style={{ display: "flex", alignItems: "center", height: "auto", flex: 1, minWidth: 0, padding: "14px 0 14px 14px", gap: 14, textAlign: "left" }}>
                                             <div className={styles.nbCardIcon} style={{ background: color.bg }}>
                                                 <Icon size={20} style={{ color: color.text }} />
                                             </div>

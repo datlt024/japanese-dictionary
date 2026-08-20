@@ -183,6 +183,7 @@ export default function NotebookDetailView({ notebook, onBack, onDelete, onPract
                                         type="text"
                                         className={styles.itemLink}
                                         onClick={() => handleOpenItem(item)}
+                                        style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", height: "auto", flex: 1, gap: 6, padding: 0, textAlign: "left", font: "inherit" }}
                                     >
                                         <Tag color={TYPE_COLORS[item.item_type] ?? "default"} style={{ margin: 0 }}>
                                             {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}

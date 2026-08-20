@@ -244,6 +244,7 @@ export default function VoiceSearchModal({
                         className={styles.closeButton}
                         onClick={onClose}
                         aria-label="Đóng"
+                        style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: 36, height: 36, padding: 0, borderRadius: 999, border: "1px solid var(--color-border)", background: "var(--color-surface-muted)" }}
                     >
                         ×
                     </Button>
@@ -262,6 +263,7 @@ export default function VoiceSearchModal({
                                             suggestion.text
                                         )
                                     }
+                                    style={{ display: "flex", alignItems: "center", height: "auto", width: "100%", padding: "10px 12px", textAlign: "left", gap: 12, borderRadius: 12 }}
                                 >
                                     <Search size={20} />
 
@@ -297,6 +299,7 @@ export default function VoiceSearchModal({
                                         normalizedTranscript
                                     )
                                 }
+                                style={{ height: "auto", padding: "10px 16px", borderRadius: 12, fontSize: 16, fontWeight: 800, border: "1px solid var(--color-primary-soft)", background: "var(--color-primary-soft)", color: "var(--color-primary)" }}
                             >
                                 {`Tra "${normalizedTranscript}"`}
                             </Button>
@@ -384,6 +387,7 @@ export default function VoiceSearchModal({
                     ) : (
                         <Mic size={22} />
                     )}
+                    style={{ display: "flex", alignItems: "center", justifyContent: "center", width: 52, height: 52, margin: "0 auto 24px", borderRadius: 999, background: "var(--color-primary-soft)", borderColor: "var(--color-primary-soft)", color: "var(--color-primary)" }}
                 />
             </div>
         </div>
