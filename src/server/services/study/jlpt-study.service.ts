@@ -52,45 +52,19 @@ export const getJlptVocabItems = unstable_cache(
     { revalidate: 86400 }
 )
 
-export async function getJlptStudyBatch(level: JlptLevel, limit = 20): Promise<JlptStudyItem[]> {
-    // Query a fresh count (not cached) to avoid stale offset miscalculation
-    const { count: freshCount } = await supabaseServer
-        .from("vocabularies")
-        .select("id", { count: "exact", head: true })
-        .eq("jlpt", level)
-
-    const total = freshCount ?? 0
+export async function getJlptStudyBatch(level: JlptLevel, limit = 50): Promise<JlptStudyItem[]> {
+    // Both getJlptVocabCount and getJlptVocabItems are wrapped in unstable_cache,
+    // so this function is fast after the first request for any given chunk.
+    const total = await getJlptVocabCount(level)
     if (!total) return []
 
-    const maxOffset = Math.max(0, total - limit)
-    const offset = Math.floor(Math.random() * (maxOffset + 1))
+    // Pick a random chunk from the cached pages so users see variety over time.
+    const numChunks = Math.max(1, Math.ceil(total / limit))
+    const chunkIndex = Math.floor(Math.random() * numChunks)
+    const from = chunkIndex * limit
 
-    const { data } = await supabaseServer
-        .from("vocabularies")
-        .select("id, primary_word, primary_kana, vocabulary_senses(meaning_vi, sense_index)")
-        .eq("jlpt", level)
-        .range(offset, offset + limit - 1)
-        .order("id")
-
-    // Fallback to offset 0 if random offset returned nothing (edge case)
-    const rows = (data && data.length > 0) ? data : await supabaseServer
-        .from("vocabularies")
-        .select("id, primary_word, primary_kana, vocabulary_senses(meaning_vi, sense_index)")
-        .eq("jlpt", level)
-        .range(0, limit - 1)
-        .order("id")
-        .then((r) => r.data ?? [])
-
-    return rows.map((v) => {
-        const senses = (v.vocabulary_senses as { meaning_vi: string | null; sense_index: number }[]) ?? []
-        const meaning = senses
-            .sort((a, b) => a.sense_index - b.sense_index)
-            .find((s) => s.meaning_vi)?.meaning_vi ?? null
-
-        const kana = v.primary_kana && v.primary_kana !== v.primary_word ? v.primary_kana : null
-
-        return { id: v.id, word: v.primary_word, kana, meaning }
-    })
+    const items = await getJlptVocabItems(level, from, from + limit - 1)
+    return shuffleItems(items)
 }
 
 export function shuffleItems<T>(arr: T[]): T[] {
