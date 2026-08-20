@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { ArrowLeft, BookOpen, Plus } from "lucide-react"
+import { Button } from "antd"
 import useSWR from "swr"
 import { useAuth } from "@/shared/hooks/useAuth"
 import { useNotebooks } from "@/shared/hooks/useNotebooks"
@@ -50,10 +51,9 @@ export default function ExploreDetailView({ notebook, onBack }: Props) {
 
     return (
         <div className={styles.detailView}>
-            <button type="button" className={styles.backBtn} onClick={onBack}>
-                <ArrowLeft size={15} />
+            <Button type="text" className={styles.backBtn} icon={<ArrowLeft size={15} />} onClick={onBack}>
                 Quay lại
-            </button>
+            </Button>
 
             <div className={styles.detailHeader}>
                 <div>
@@ -67,15 +67,15 @@ export default function ExploreDetailView({ notebook, onBack }: Props) {
                     <p className={styles.detailCount}>{notebook.item_count.toLocaleString("vi-VN")} mục</p>
                 </div>
                 {user && (
-                    <button
-                        type="button"
+                    <Button
+                        type="primary"
                         className={styles.btnPrimary}
                         onClick={() => setShowModal(true)}
                         disabled={!items || items.length === 0}
+                        icon={<Plus size={14} />}
                     >
-                        <Plus size={14} />
                         Thêm vào sổ tay của tôi
-                    </button>
+                    </Button>
                 )}
             </div>
 
@@ -93,7 +93,7 @@ export default function ExploreDetailView({ notebook, onBack }: Props) {
                     {items.map((item) => (
                         <li key={item.id} className={styles.exploreItemCard}>
                             {item.item_type === "vocabulary" ? (
-                                <button type="button" className={styles.exploreItemLink} onClick={() => handleOpenItem(item)}>
+                                <Button type="text" className={styles.exploreItemLink} onClick={() => handleOpenItem(item)}>
                                     <span className={styles.exploreTypeBadge} data-type={item.item_type}>
                                         {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}
                                     </span>
@@ -104,7 +104,7 @@ export default function ExploreDetailView({ notebook, onBack }: Props) {
                                     {item.display.meaning && (
                                         <span className={styles.exploreItemMeaning}>{item.display.meaning}</span>
                                     )}
-                                </button>
+                                </Button>
                             ) : (
                                 <Link href={item.display.href} className={styles.exploreItemLink}>
                                     <span className={styles.exploreTypeBadge} data-type={item.item_type}>

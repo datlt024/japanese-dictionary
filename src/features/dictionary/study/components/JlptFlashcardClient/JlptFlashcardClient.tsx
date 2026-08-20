@@ -3,6 +3,7 @@
 import { useState, useCallback, useLayoutEffect, useRef } from "react"
 import Link from "next/link"
 import { ArrowLeft, Volume2, ChevronLeft, ChevronRight, RefreshCw } from "lucide-react"
+import { Button } from "antd"
 
 import type { JlptStudyItem, JlptLevel } from "@/domain/study"
 import { RATINGS, type Rating } from "@/shared/constants/practice"
@@ -159,14 +160,15 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                         {fetchError && (
                             <p style={{ color: "var(--color-danger)", fontSize: "0.85rem", margin: "0 0 8px" }}>{fetchError}</p>
                         )}
-                        <button
-                            className={styles.newSessionBtn}
+                        <Button
+                            type="primary"
+                            icon={<RefreshCw size={16} />}
                             onClick={handleNewSession}
-                            disabled={loadingNew}
+                            loading={loadingNew}
+                            className={styles.newSessionBtn}
                         >
-                            <RefreshCw size={16} />
                             {loadingNew ? "Đang tải…" : "Học tiếp 50 từ mới"}
-                        </button>
+                        </Button>
                         <Link href="/study?tab=thu-vien" className={styles.backToStudyBtn}>
                             <ArrowLeft size={15} />
                             Chọn cấp độ khác
@@ -214,15 +216,14 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
             </div>
 
             <div className={styles.cardArea}>
-                <button
-                    type="button"
-                    className={styles.navArrow}
+                <Button
+                    type="text"
+                    icon={<ChevronLeft size={22} />}
                     onClick={goPrev}
                     disabled={index === 0}
                     aria-label="Từ trước"
-                >
-                    <ChevronLeft size={22} />
-                </button>
+                    className={styles.navArrow}
+                />
 
                 <div className={styles.cardWrapper}>
                     <div
@@ -258,14 +259,14 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                                 <div className={styles.cardBackWord}>{current.word}</div>
                                 {current.kana && (
                                     <div className={styles.cardBackKana}>
-                                        <button
-                                            type="button"
-                                            className={styles.ttsBtn}
+                                        <Button
+                                            type="text"
+                                            size="small"
+                                            icon={<Volume2 size={14} />}
                                             onClick={(e) => { e.stopPropagation(); handleSpeak(current.kana ?? current.word) }}
                                             aria-label="Phát âm"
-                                        >
-                                            <Volume2 size={14} />
-                                        </button>
+                                            className={styles.ttsBtn}
+                                        />
                                         {current.kana}
                                     </div>
                                 )}
@@ -283,14 +284,13 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                     </div>
                 </div>
 
-                <button
-                    type="button"
-                    className={styles.navArrow}
+                <Button
+                    type="text"
+                    icon={<ChevronRight size={22} />}
                     onClick={handleSkip}
                     aria-label="Từ tiếp theo"
-                >
-                    <ChevronRight size={22} />
-                </button>
+                    className={styles.navArrow}
+                />
             </div>
 
             <div className={styles.ratingGrid}>
@@ -315,9 +315,9 @@ export default function JlptFlashcardClient({ level, initialItems }: Props) {
                 ))}
             </div>
 
-            <button type="button" className={styles.skipBtn} onClick={handleSkip}>
+            <Button type="link" onClick={handleSkip} className={styles.skipBtn}>
                 Bỏ qua →
-            </button>
+            </Button>
         </div>
     )
 }

@@ -2,13 +2,20 @@
 
 import { FormEvent, useEffect, useRef, useState } from "react"
 import Link from "next/link"
-import { BookOpen, ChevronLeft, Pencil, Trash2, X, Zap } from "lucide-react"
+import { BookOpen, Zap, X } from "lucide-react"
+import { Button, Input, Skeleton, Space, Tag, Typography } from "antd"
+import { ArrowLeftOutlined, DeleteOutlined, EditOutlined } from "@ant-design/icons"
+import type { InputRef } from "antd"
 import { NOTEBOOK_ITEM_TYPE_LABELS } from "@/shared/constants/search-tabs"
 import type { EnrichedNotebookItem, NotebookWithCount } from "@/domain/notebook/notebook.type"
 import { useNotebookItems } from "@/shared/hooks/useNotebookItems"
 import QuickLookupModal from "@/features/dictionary/quick-lookup/components/QuickLookupModal"
 import { getQuickLookupTarget, type QuickLookupTarget } from "@/features/dictionary/quick-lookup/services/quick-lookup.service"
 import styles from "./StudyNotebooksTab.module.css"
+
+const { Text } = Typography
+
+const TYPE_COLORS: Record<string, string> = { vocabulary: "blue", kanji: "purple", grammar: "green" }
 
 interface Props {
     notebook: NotebookWithCount
@@ -25,7 +32,7 @@ export default function NotebookDetailView({ notebook, onBack, onDelete, onPract
     const [editName, setEditName] = useState(notebook.name)
     const [saveLoading, setSaveLoading] = useState(false)
     const [renameError, setRenameError] = useState<string | null>(null)
-    const editInputRef = useRef<HTMLInputElement>(null)
+    const editInputRef = useRef<InputRef | null>(null)
     const [modalOpen, setModalOpen] = useState(false)
     const [modalTarget, setModalTarget] = useState<QuickLookupTarget | null>(null)
     const [modalLoadingWord, setModalLoadingWord] = useState<string | null>(null)
@@ -83,71 +90,80 @@ export default function NotebookDetailView({ notebook, onBack, onDelete, onPract
 
     return (
         <div className={styles.detailWrap}>
-            <button type="button" className={styles.backBtn} onClick={onBack}>
-                <ChevronLeft size={15} />
+            <Button
+                type="text"
+                icon={<ArrowLeftOutlined />}
+                onClick={onBack}
+                style={{ color: "#6B7280", fontSize: 13, marginBottom: 16, padding: "4px 8px" }}
+            >
                 Tất cả sổ tay
-            </button>
+            </Button>
 
             <div className={styles.detailHeader}>
                 <div className={styles.detailLeft}>
                     {editingName ? (
-                        <form className={styles.renameTitleForm} onSubmit={handleSaveName}>
-                            <input
+                        <form onSubmit={handleSaveName} style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+                            <Input
                                 ref={editInputRef}
-                                className={`${styles.renameTitleInput} ${renameError ? styles.renameTitleInputError : ""}`}
                                 value={editName}
                                 onChange={(e) => { setEditName(e.target.value); setRenameError(null) }}
                                 maxLength={80}
                                 disabled={saveLoading}
+                                status={renameError ? "error" : undefined}
                                 onKeyDown={(e) => {
                                     if (e.key === "Escape") { setEditingName(false); setEditName(notebook.name); setRenameError(null) }
                                 }}
+                                style={{ width: 240 }}
                             />
-                            {renameError && <span className={styles.renameTitleError}>{renameError}</span>}
-                            <button type="submit" className={styles.renameTitleSave} disabled={!editName.trim() || saveLoading}>
-                                {saveLoading ? "..." : "Lưu"}
-                            </button>
-                            <button type="button" className={styles.renameTitleCancel} onClick={() => { setEditingName(false); setEditName(notebook.name); setRenameError(null) }}>
-                                Hủy
-                            </button>
+                            {renameError && <Text type="danger" style={{ fontSize: 12, width: "100%" }}>{renameError}</Text>}
+                            <Space>
+                                <Button type="primary" htmlType="submit" size="small" loading={saveLoading} disabled={!editName.trim()}>
+                                    Lưu
+                                </Button>
+                                <Button size="small" onClick={() => { setEditingName(false); setEditName(notebook.name); setRenameError(null) }}>
+                                    Hủy
+                                </Button>
+                            </Space>
                         </form>
                     ) : (
                         <div className={styles.detailTitleRow}>
                             <h2 className={styles.detailTitle}>{notebook.name}</h2>
-                            <button
-                                type="button"
-                                className={styles.detailEditBtn}
+                            <Button
+                                type="text"
+                                size="small"
+                                icon={<EditOutlined />}
                                 onClick={() => { setEditName(notebook.name); setEditingName(true) }}
                                 title="Đổi tên"
-                            >
-                                <Pencil size={13} />
-                            </button>
+                                style={{ color: "#9CA3AF" }}
+                            />
                         </div>
                     )}
                     {!loading && items.length > 0 && (
-                        <span className={styles.countBadge}>{items.length} mục</span>
+                        <Tag style={{ marginTop: 4 }}>{items.length} mục</Tag>
                     )}
                 </div>
 
                 <div className={styles.detailRight}>
-                    <button
-                        type="button"
-                        className={styles.practiceBtn}
+                    <Button
+                        type="primary"
+                        icon={<Zap size={14} />}
                         onClick={onPractice}
                         disabled={items.length === 0}
                     >
-                        <Zap size={14} />
                         Luyện tập
-                    </button>
-                    <button type="button" className={styles.deleteNbBtn} onClick={onDelete}>
-                        <Trash2 size={14} />
-                    </button>
+                    </Button>
+                    <Button
+                        danger
+                        icon={<DeleteOutlined />}
+                        onClick={onDelete}
+                        title="Xóa sổ tay"
+                    />
                 </div>
             </div>
 
             {loading ? (
                 <div className={styles.skeletonWrap}>
-                    {Array.from({ length: 3 }).map((_, i) => <div key={i} className={styles.skeleton} />)}
+                    {Array.from({ length: 3 }).map((_, i) => <Skeleton key={i} active paragraph={{ rows: 1 }} />)}
                 </div>
             ) : items.length === 0 ? (
                 <div className={styles.emptyItems}>
@@ -163,14 +179,14 @@ export default function NotebookDetailView({ notebook, onBack, onDelete, onPract
                         {items.map((item) => (
                             <li key={item.id} className={styles.itemCard}>
                                 {item.item_type === "vocabulary" ? (
-                                    <button
-                                        type="button"
+                                    <Button
+                                        type="text"
                                         className={styles.itemLink}
                                         onClick={() => handleOpenItem(item)}
                                     >
-                                        <span className={`${styles.typeBadge} ${styles[item.item_type]}`}>
+                                        <Tag color={TYPE_COLORS[item.item_type] ?? "default"} style={{ margin: 0 }}>
                                             {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}
-                                        </span>
+                                        </Tag>
                                         <span className={styles.itemTitle}>{item.display.title}</span>
                                         {item.display.subtitle && (
                                             <span className={styles.itemSubtitle}>{item.display.subtitle}</span>
@@ -178,12 +194,12 @@ export default function NotebookDetailView({ notebook, onBack, onDelete, onPract
                                         {item.display.meaning && (
                                             <span className={styles.itemMeaning}>{item.display.meaning}</span>
                                         )}
-                                    </button>
+                                    </Button>
                                 ) : (
                                     <Link href={item.display.href} className={styles.itemLink}>
-                                        <span className={`${styles.typeBadge} ${styles[item.item_type]}`}>
+                                        <Tag color={TYPE_COLORS[item.item_type] ?? "default"} style={{ margin: 0 }}>
                                             {NOTEBOOK_ITEM_TYPE_LABELS[item.item_type]}
-                                        </span>
+                                        </Tag>
                                         <span className={styles.itemTitle}>{item.display.title}</span>
                                         {item.display.subtitle && (
                                             <span className={styles.itemSubtitle}>{item.display.subtitle}</span>
@@ -193,15 +209,16 @@ export default function NotebookDetailView({ notebook, onBack, onDelete, onPract
                                         )}
                                     </Link>
                                 )}
-                                <button
-                                    type="button"
-                                    className={styles.removeItemBtn}
+                                <Button
+                                    type="text"
+                                    size="small"
+                                    danger
+                                    icon={<X size={12} />}
                                     onClick={() => handleRemoveItem(item)}
-                                    disabled={removingId === item.id}
+                                    loading={removingId === item.id}
                                     title="Xóa khỏi sổ tay"
-                                >
-                                    <X size={12} />
-                                </button>
+                                    className={styles.removeItemBtn}
+                                />
                             </li>
                         ))}
                     </ul>

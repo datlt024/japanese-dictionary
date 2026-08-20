@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 
 import useSearchHistory from "@/features/user/search-history/hooks/useSearchHistory"
 import { getSearchTargetUrl } from "@/features/dictionary/search/utils/getSearchTargetUrl"
+import { Button } from "antd"
 
 import styles from "./SearchHistorySection.module.css"
 
@@ -31,28 +32,28 @@ export default function SearchHistorySection() {
             <div className={styles.header}>
                 <h2>Lịch sử</h2>
                 {histories.length > MAX_VISIBLE && (
-                    <button
-                        type="button"
+                    <Button
+                        type="link"
                         className={styles.viewMore}
                         onClick={() => setExpanded((v) => !v)}
                     >
                         {expanded ? "Thu gọn" : "Xem thêm"}
-                    </button>
+                    </Button>
                 )}
             </div>
 
             <div className={styles.historyTags}>
                 {histories.length > 0 ? (
                     visible.map((item) => (
-                        <button
+                        <Button
                             key={item}
-                            type="button"
+                            type="default"
                             title={item}
                             className={styles.historyTag}
                             onClick={() => handleHistoryClick(item)}
                         >
                             {getHistoryLabel(item)}
-                        </button>
+                        </Button>
                     ))
                 ) : (
                     <span className={styles.historyEmpty}>

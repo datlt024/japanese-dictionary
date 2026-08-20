@@ -1,6 +1,7 @@
 "use client"
 
 import { useMemo, useRef, useEffect, useLayoutEffect, useState } from "react"
+import { Button } from "antd"
 import type { ModeProps } from "./practice.types"
 import { shuffle, getAnswerText } from "./practice.utils"
 import { PracticeHeader, ProgressBar, TypeBadge } from "./PracticeShared"
@@ -53,6 +54,13 @@ export default function QuizMode({ items, onFinish, onBack }: ModeProps) {
         }, 1000)
     }
 
+    function getOptionStyle(opt: string): React.CSSProperties {
+        if (selected === null) return {}
+        if (opt === correctAnswer) return { background: "#ECFDF3", borderColor: "#16A34A", color: "#16A34A" }
+        if (opt === selected) return { background: "#FEF2F2", borderColor: "#EF4444", color: "#EF4444" }
+        return { opacity: 0.4 }
+    }
+
     return (
         <div className={styles.practiceContainer}>
             <PracticeHeader onBack={onBack} index={index} total={shuffled.length} />
@@ -68,22 +76,30 @@ export default function QuizMode({ items, onFinish, onBack }: ModeProps) {
             </div>
 
             <div className={styles.optionsList}>
-                {options.map((opt, i) => {
-                    let cls = styles.optionBtn
-                    if (selected !== null) {
-                        if (opt === correctAnswer) cls += ` ${styles.optionCorrect}`
-                        else if (opt === selected) cls += ` ${styles.optionWrong}`
-                        else cls += ` ${styles.optionDimmed}`
-                    }
-                    return (
-                        <button key={i} type="button" className={cls} onClick={() => handleSelect(opt)}>
-                            <span className={styles.optionLabel}>
-                                {String.fromCharCode(65 + i)}
-                            </span>
-                            {opt}
-                        </button>
-                    )
-                })}
+                {options.map((opt, i) => (
+                    <Button
+                        key={i}
+                        block
+                        size="large"
+                        onClick={() => handleSelect(opt)}
+                        style={{
+                            textAlign: "left",
+                            height: "auto",
+                            padding: "12px 16px",
+                            fontWeight: 500,
+                            display: "flex",
+                            alignItems: "center",
+                            gap: 10,
+                            transition: "all 0.2s",
+                            ...getOptionStyle(opt),
+                        }}
+                    >
+                        <span style={{ fontWeight: 700, minWidth: 20, color: "#9CA3AF" }}>
+                            {String.fromCharCode(65 + i)}
+                        </span>
+                        {opt}
+                    </Button>
+                ))}
             </div>
         </div>
     )

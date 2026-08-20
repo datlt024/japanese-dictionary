@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ArrowLeft, ChevronRight } from "lucide-react"
+import { Button } from "antd"
 import type { ExamConfig } from "./exam-types"
 import styles from "./MockExamClient.module.css"
 
@@ -62,9 +63,17 @@ export default function ExamInfoScreen({ level, cfg, startExam }: Props) {
                     </div>
                 </div>
 
-                <button className={styles.btnStart} onClick={startExam}>
-                    Bắt đầu <ChevronRight size={16} />
-                </button>
+                <Button
+                    type="primary"
+                    size="large"
+                    block
+                    icon={<ChevronRight size={16} />}
+                    iconPosition="end"
+                    onClick={startExam}
+                    style={{ marginTop: 8 }}
+                >
+                    Bắt đầu
+                </Button>
 
                 {cfg.listeningAudio ? (
                     <p className={styles.infoNote}>

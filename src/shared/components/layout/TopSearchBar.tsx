@@ -37,6 +37,8 @@ import {
     type DictionaryLanguage,
 } from "@/shared/types/dictionaryLanguage"
 
+import { Button } from "antd"
+
 import {
     SEARCH_TAB_LABELS,
 } from "@/shared/constants/search-tabs"
@@ -220,9 +222,9 @@ function TopSearchBarContent({
                         {!hideTabs && (
                             <div className={styles.topSearchTabs}>
                                 {SEARCH_TABS.map((tab) => (
-                                    <button
+                                    <Button
                                         key={tab}
-                                        type="button"
+                                        type="text"
                                         className={getTabButtonClass(
                                             activeTab,
                                             tab
@@ -232,7 +234,7 @@ function TopSearchBarContent({
                                         }
                                     >
                                         {SEARCH_TAB_LABELS[tab]}
-                                    </button>
+                                    </Button>
                                 ))}
                             </div>
                         )}

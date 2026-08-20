@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { ChevronLeft } from "lucide-react"
+import { Button } from "antd"
 import styles from "./KanaTables.module.css"
 
 type Cell     = [string, string] | null // [kana, romaji]
@@ -209,9 +210,9 @@ function KanaCard({
 
             <div className={styles.tabStrip} role="tablist">
                 {SECTION_TABS.map((t) => (
-                    <button
+                    <Button
                         key={t.id}
-                        type="button"
+                        type="text"
                         role="tab"
                         aria-selected={section === t.id}
                         className={`${styles.tabBtn} ${section === t.id ? styles.tabBtnActive : ""}`}
@@ -219,7 +220,7 @@ function KanaCard({
                     >
                         <span className={styles.tabJp}>{t.label}</span>
                         <span className={styles.tabVi}>{t.jpLabel}</span>
-                    </button>
+                    </Button>
                 ))}
             </div>
 
@@ -262,10 +263,9 @@ export default function KanaTables({ children }: { children?: React.ReactNode })
     if (active) {
         return (
             <section className={styles.section}>
-                <button type="button" className={styles.backBtn} onClick={() => setSelected(null)}>
-                    <ChevronLeft size={15} />
+                <Button type="text" className={styles.backBtn} icon={<ChevronLeft size={15} />} onClick={() => setSelected(null)}>
                     Bảng chữ cái
-                </button>
+                </Button>
                 <KanaCard
                     title={active.label}
                     subtitle={active.labelSub}
@@ -285,9 +285,9 @@ export default function KanaTables({ children }: { children?: React.ReactNode })
 
                 <div className={styles.picker}>
                     {OPTIONS.map((opt) => (
-                        <button
+                        <Button
                             key={opt.id}
-                            type="button"
+                            type="default"
                             className={styles.pickerBtn}
                             style={{ "--accent": opt.accentColor } as React.CSSProperties}
                             onClick={() => setSelected(opt.id)}
@@ -297,7 +297,7 @@ export default function KanaTables({ children }: { children?: React.ReactNode })
                             <span className={styles.pickerSub}>{opt.labelSub}</span>
                             <p className={styles.pickerDesc}>{opt.desc}</p>
                             <span className={styles.pickerArrow}>Xem bảng chữ →</span>
-                        </button>
+                        </Button>
                     ))}
                 </div>
             </section>

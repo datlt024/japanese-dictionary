@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { BookOpen, ChevronDown, ChevronRight, Heart, Library, Zap, Layers } from "lucide-react"
+import { Button } from "antd"
 import type { ExploreSection, PublicNotebook } from "@/domain/notebook/notebook.type"
 import { CARD_COLORS, CARD_ICONS } from "./explore-utils"
 import ExamTipsSection from "./ExamTipsSection"
@@ -35,7 +36,7 @@ export function NotebookCard({ notebook, index, liked, onToggleLike, onClick }: 
 
     return (
         <div className={styles.nbCard}>
-            <button type="button" className={styles.nbCardMain} onClick={onClick}>
+            <Button type="text" className={styles.nbCardMain} onClick={onClick}>
                 <div className={styles.nbCardIcon} style={{ background: color.bg }}>
                     <Icon size={20} style={{ color: color.text }} />
                 </div>
@@ -44,16 +45,15 @@ export function NotebookCard({ notebook, index, liked, onToggleLike, onClick }: 
                     <p className={styles.nbCardCount}>{notebook.item_count.toLocaleString("vi-VN")} mục</p>
                 </div>
                 <ChevronRight size={15} className={styles.nbCardChevron} />
-            </button>
-            <button
-                type="button"
+            </Button>
+            <Button
+                type="text"
                 className={styles.nbCardLike}
                 onClick={onToggleLike}
                 data-liked={liked || undefined}
                 title={liked ? "Bỏ yêu thích" : "Thêm vào yêu thích"}
-            >
-                <Heart size={14} />
-            </button>
+                icon={<Heart size={14} />}
+            />
         </div>
     )
 }
@@ -76,15 +76,14 @@ export function GridCard({ notebook, index, liked, onToggleLike, onClick }: Card
                 <div className={styles.gridCardIcon} style={{ background: color.bg }}>
                     <Icon size={22} style={{ color: color.text }} />
                 </div>
-                <button
-                    type="button"
+                <Button
+                    type="text"
                     className={styles.gridCardLike}
                     onClick={(e) => { e.stopPropagation(); onToggleLike(e) }}
                     data-liked={liked || undefined}
                     title={liked ? "Bỏ yêu thích" : "Thêm vào yêu thích"}
-                >
-                    <Heart size={15} />
-                </button>
+                    icon={<Heart size={15} />}
+                />
             </div>
             <p className={styles.gridCardTitle}>{notebook.name}</p>
             <div className={styles.gridCardFooter}>
@@ -127,15 +126,14 @@ export function SectionCard({
                 <div className={styles.gridCardIcon} style={{ background: color.bg }}>
                     <Icon size={22} style={{ color: color.text }} />
                 </div>
-                <button
-                    type="button"
+                <Button
+                    type="text"
                     className={styles.gridCardLike}
                     onClick={(e) => { e.stopPropagation(); onToggleLike(e) }}
                     data-liked={liked || undefined}
                     title={liked ? "Bỏ yêu thích" : "Thêm vào yêu thích"}
-                >
-                    <Heart size={15} />
-                </button>
+                    icon={<Heart size={15} />}
+                />
             </div>
             <p className={styles.gridCardTitle}>{section.name}</p>
             {section.description && (
@@ -172,8 +170,8 @@ export function SectionBlock({
     return (
         <section className={styles.categorySection}>
             <div className={styles.sectionHeader}>
-                <button
-                    type="button"
+                <Button
+                    type="text"
                     className={styles.sectionToggle}
                     onClick={() => setOpen((v) => !v)}
                     aria-expanded={open}
@@ -182,16 +180,15 @@ export function SectionBlock({
                     <CategoryIcon category={section.type === "group" ? "Theo đầu sách" : section.name} size={14} />
                     <span className={styles.sectionTitle}>{section.name}</span>
                     <span className={styles.sectionCount}>{nb.length} sổ tay</span>
-                </button>
-                <button
-                    type="button"
+                </Button>
+                <Button
+                    type="text"
                     className={styles.sectionLikeBtn}
                     onClick={(e) => onToggleLikeSection(section.id, e)}
                     data-liked={sectionLiked || undefined}
                     title={sectionLiked ? "Bỏ yêu thích mục" : "Yêu thích mục này"}
-                >
-                    <Heart size={14} />
-                </button>
+                    icon={<Heart size={14} />}
+                />
             </div>
             {section.description && (
                 <p className={styles.sectionDesc}>{section.description}</p>
@@ -231,10 +228,9 @@ export function SectionDetailGrid({
 }) {
     return (
         <div className={styles.detailView}>
-            <button type="button" className={styles.backBtn} onClick={onBack}>
-                <ChevronRight size={15} style={{ transform: "rotate(180deg)" }} />
+            <Button type="text" className={styles.backBtn} icon={<ChevronRight size={15} style={{ transform: "rotate(180deg)" }} />} onClick={onBack}>
                 Quay lại
-            </button>
+            </Button>
             <div>
                 <h2 className={styles.detailTitle}>{section.name}</h2>
                 {section.description && (
@@ -498,7 +494,7 @@ export function FavoritesView({
                                 const Icon  = CARD_ICONS[i  % CARD_ICONS.length]
                                 return (
                                     <div key={section.id} className={styles.nbCard}>
-                                        <button type="button" className={styles.nbCardMain} onClick={() => onSelectSection(section)}>
+                                        <Button type="text" className={styles.nbCardMain} onClick={() => onSelectSection(section)}>
                                             <div className={styles.nbCardIcon} style={{ background: color.bg }}>
                                                 <Icon size={20} style={{ color: color.text }} />
                                             </div>
@@ -507,16 +503,15 @@ export function FavoritesView({
                                                 <p className={styles.nbCardCount}>{section.notebooks.length} sổ tay</p>
                                             </div>
                                             <ChevronRight size={15} className={styles.nbCardChevron} />
-                                        </button>
-                                        <button
-                                            type="button"
+                                        </Button>
+                                        <Button
+                                            type="text"
                                             className={styles.nbCardLike}
                                             onClick={(e) => onToggleLikeSection(section.id, e)}
                                             data-liked
                                             title="Bỏ yêu thích"
-                                        >
-                                            <Heart size={14} />
-                                        </button>
+                                            icon={<Heart size={14} />}
+                                        />
                                     </div>
                                 )
                             })}

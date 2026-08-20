@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect } from "react"
+import { Button } from "antd"
 import AppLayout from "@/shared/components/layout/AppLayout"
 
 export default function VocabularyDetailError({
@@ -33,23 +34,9 @@ export default function VocabularyDetailError({
                 <p style={{ fontSize: 14, color: "var(--color-text-secondary)" }}>
                     Đã xảy ra lỗi khi tải dữ liệu. Vui lòng thử lại.
                 </p>
-                <button
-                    type="button"
-                    onClick={reset}
-                    style={{
-                        marginTop: 8,
-                        padding: "10px 24px",
-                        background: "var(--color-primary)",
-                        color: "var(--color-surface)",
-                        border: "none",
-                        borderRadius: 10,
-                        fontWeight: 600,
-                        fontSize: 14,
-                        cursor: "pointer",
-                    }}
-                >
+                <Button type="primary" onClick={reset} style={{ marginTop: 8 }}>
                     Thử lại
-                </button>
+                </Button>
             </div>
         </AppLayout>
     )

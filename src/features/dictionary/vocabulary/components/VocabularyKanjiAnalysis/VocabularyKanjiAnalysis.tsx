@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import { Button } from "antd"
 
 import styles from "./VocabularyKanjiAnalysis.module.css"
 
@@ -59,9 +60,9 @@ export default function VocabularyKanjiAnalysis({
                 )}
             >
                 {kanjiDetails.map((item, index) => (
-                    <button
+                    <Button
                         key={item.kanji}
-                        type="button"
+                        type="default"
                         onClick={() => setSelectedIndex(index)}
                         className={
                             index === selectedIndex
@@ -78,7 +79,7 @@ export default function VocabularyKanjiAnalysis({
                                 ? `${getKanjiStrokeCount(item)} nét`
                                 : "— nét"}
                         </small>
-                    </button>
+                    </Button>
                 ))}
             </div>
 

@@ -154,24 +154,25 @@ export default function AddToNotebookModal({
                         const checked = notebookIds.includes(nb.id)
                         const pending = pendingIds.has(nb.id)
                         return (
-                            <button
+                            <Button
                                 key={nb.id}
-                                type="button"
+                                type="text"
                                 onClick={() => toggleNotebook(nb.id)}
                                 disabled={pending}
                                 style={{
                                     display: "flex", alignItems: "center", justifyContent: "space-between",
-                                    padding: "9px 12px", borderRadius: 8, cursor: "pointer",
+                                    padding: "9px 12px", borderRadius: 8,
                                     border: checked ? "1px solid #BFDBFE" : "1px solid transparent",
                                     background: checked ? "#EFF6FF" : "transparent",
                                     color: checked ? "#1D4ED8" : "#374151",
                                     fontWeight: checked ? 600 : 400, fontSize: 13,
+                                    width: "100%", height: "auto",
                                     transition: "all 0.1s",
                                 }}
                             >
                                 <span>{nb.name}</span>
                                 {checked && <CheckOutlined style={{ fontSize: 12, color: "#2563EB" }} />}
-                            </button>
+                            </Button>
                         )
                     })}
                 </div>

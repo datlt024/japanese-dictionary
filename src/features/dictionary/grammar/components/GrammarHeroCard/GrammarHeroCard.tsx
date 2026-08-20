@@ -3,6 +3,7 @@
 import { useState } from "react"
 
 import { Bookmark, MoreHorizontal, Plus, Volume2 } from "lucide-react"
+import { Button, Tooltip } from "antd"
 
 import type { GrammarPoint } from "@/domain/grammar"
 
@@ -63,39 +64,18 @@ export default function GrammarHeroCard({ grammar }: Props) {
                 </div>
 
                 <div className={styles.heroActions}>
-                    <button
-                        type="button"
-                        className={styles.actionButton}
-                        aria-label="Phát âm"
-                        onClick={handleSpeak}
-                    >
-                        <Volume2 size={18} aria-hidden="true" />
-                    </button>
-
-                    <button
-                        type="button"
-                        className={styles.actionButton}
-                        aria-label="Lưu ngữ pháp"
-                    >
-                        <Bookmark size={18} aria-hidden="true" />
-                    </button>
-
-                    <button
-                        type="button"
-                        className={styles.actionButton}
-                        aria-label="Thêm vào sổ tay"
-                        onClick={() => setNotebookOpen(true)}
-                    >
-                        <Plus size={18} aria-hidden="true" />
-                    </button>
-
-                    <button
-                        type="button"
-                        className={styles.actionButton}
-                        aria-label="Mở thêm tuỳ chọn"
-                    >
-                        <MoreHorizontal size={18} aria-hidden="true" />
-                    </button>
+                    <Tooltip title="Phát âm">
+                        <Button type="text" icon={<Volume2 size={18} />} onClick={handleSpeak} className={styles.actionButton} />
+                    </Tooltip>
+                    <Tooltip title="Lưu ngữ pháp">
+                        <Button type="text" icon={<Bookmark size={18} />} className={styles.actionButton} />
+                    </Tooltip>
+                    <Tooltip title="Thêm vào sổ tay">
+                        <Button type="text" icon={<Plus size={18} />} onClick={() => setNotebookOpen(true)} className={styles.actionButton} />
+                    </Tooltip>
+                    <Tooltip title="Mở thêm tuỳ chọn">
+                        <Button type="text" icon={<MoreHorizontal size={18} />} className={styles.actionButton} />
+                    </Tooltip>
                 </div>
             </div>
         </section>

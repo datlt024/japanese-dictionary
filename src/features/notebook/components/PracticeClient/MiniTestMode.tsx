@@ -2,11 +2,14 @@
 
 import { useMemo, useRef, useEffect, useLayoutEffect, useState } from "react"
 import { Timer } from "lucide-react"
+import { Button, Typography } from "antd"
 import type { ModeProps } from "./practice.types"
 import { MINI_TEST_TIME, MINI_TEST_COUNT } from "./practice.constants"
 import { shuffle, getAnswerText, formatTime } from "./practice.utils"
 import { PracticeHeader, ProgressBar, TypeBadge } from "./PracticeShared"
 import styles from "./PracticeClient.module.css"
+
+const { Text } = Typography
 
 export default function MiniTestMode({ items, onFinish, onBack }: ModeProps) {
     const questions = useMemo(() => shuffle(items).slice(0, MINI_TEST_COUNT), [items])
@@ -89,18 +92,33 @@ export default function MiniTestMode({ items, onFinish, onBack }: ModeProps) {
 
     const timerWarning = timeLeft <= 60
 
+    function getOptionStyle(opt: string): React.CSSProperties {
+        if (selected === null) return {}
+        if (opt === correctAnswer) return { background: "#ECFDF3", borderColor: "#16A34A", color: "#16A34A" }
+        if (opt === selected) return { background: "#FEF2F2", borderColor: "#EF4444", color: "#EF4444" }
+        return { opacity: 0.4 }
+    }
+
+    const timerEl = (
+        <Text style={{
+            display: "inline-flex", alignItems: "center", gap: 4,
+            fontSize: 13, fontWeight: 600,
+            color: timerWarning ? "#EF4444" : "#6B7280",
+            background: timerWarning ? "#FEF2F2" : "#F3F4F6",
+            padding: "2px 10px", borderRadius: 999,
+        }}>
+            <Timer size={14} />
+            {formatTime(timeLeft)}
+        </Text>
+    )
+
     return (
         <div className={styles.practiceContainer}>
             <PracticeHeader
                 onBack={onBack}
                 index={index}
                 total={questions.length}
-                extra={
-                    <div className={`${styles.timer} ${timerWarning ? styles.timerWarning : ""}`}>
-                        <Timer size={14} />
-                        {formatTime(timeLeft)}
-                    </div>
-                }
+                extra={timerEl}
             />
             <ProgressBar index={index} total={questions.length} />
 
@@ -114,22 +132,30 @@ export default function MiniTestMode({ items, onFinish, onBack }: ModeProps) {
             </div>
 
             <div className={styles.optionsList}>
-                {options.map((opt, i) => {
-                    let cls = styles.optionBtn
-                    if (selected !== null) {
-                        if (opt === correctAnswer) cls += ` ${styles.optionCorrect}`
-                        else if (opt === selected) cls += ` ${styles.optionWrong}`
-                        else cls += ` ${styles.optionDimmed}`
-                    }
-                    return (
-                        <button key={i} type="button" className={cls} onClick={() => handleSelect(opt)}>
-                            <span className={styles.optionLabel}>
-                                {String.fromCharCode(65 + i)}
-                            </span>
-                            {opt}
-                        </button>
-                    )
-                })}
+                {options.map((opt, i) => (
+                    <Button
+                        key={i}
+                        block
+                        size="large"
+                        onClick={() => handleSelect(opt)}
+                        style={{
+                            textAlign: "left",
+                            height: "auto",
+                            padding: "12px 16px",
+                            fontWeight: 500,
+                            display: "flex",
+                            alignItems: "center",
+                            gap: 10,
+                            transition: "all 0.2s",
+                            ...getOptionStyle(opt),
+                        }}
+                    >
+                        <span style={{ fontWeight: 700, minWidth: 20, color: "#9CA3AF" }}>
+                            {String.fromCharCode(65 + i)}
+                        </span>
+                        {opt}
+                    </Button>
+                ))}
             </div>
         </div>
     )

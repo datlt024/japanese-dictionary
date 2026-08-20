@@ -1,4 +1,4 @@
-import { Modal, Typography } from "antd"
+import { Button, Modal, Typography } from "antd"
 import { CreditCard, HelpCircle, PenLine, ClipboardList } from "lucide-react"
 
 const { Text } = Typography
@@ -29,31 +29,21 @@ export default function PracticeModeModal({ open, onClose, onSelect }: Props) {
         >
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, padding: "8px 0" }}>
                 {PRACTICE_MODES.map(({ id, Icon, title, desc, color, bg }) => (
-                    <button
+                    <Button
                         key={id}
-                        type="button"
+                        type="default"
                         onClick={() => onSelect(id)}
                         style={{
                             display: "flex",
                             alignItems: "center",
                             gap: 12,
+                            height: "auto",
                             padding: "14px 16px",
-                            border: "1px solid #E5EAF2",
+                            borderColor: "#E5EAF2",
                             borderRadius: 10,
                             background: "#fff",
-                            cursor: "pointer",
                             textAlign: "left",
                             transition: "border-color 0.15s, box-shadow 0.15s",
-                        }}
-                        onMouseEnter={(e) => {
-                            const el = e.currentTarget
-                            el.style.borderColor = "#2563EB"
-                            el.style.boxShadow = "0 0 0 2px rgba(37,99,235,0.08)"
-                        }}
-                        onMouseLeave={(e) => {
-                            const el = e.currentTarget
-                            el.style.borderColor = "#E5EAF2"
-                            el.style.boxShadow = "none"
                         }}
                     >
                         <div style={{
@@ -67,7 +57,7 @@ export default function PracticeModeModal({ open, onClose, onSelect }: Props) {
                             <Text strong style={{ fontSize: 13, display: "block" }}>{title}</Text>
                             <Text type="secondary" style={{ fontSize: 11 }}>{desc}</Text>
                         </div>
-                    </button>
+                    </Button>
                 ))}
             </div>
         </Modal>

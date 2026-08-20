@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ArrowLeft, ChevronRight } from "lucide-react"
+import { Button } from "antd"
 import type { ExamConfig } from "./exam-types"
 import styles from "./MockExamClient.module.css"
 
@@ -29,9 +30,9 @@ export default function ExamBreakScreen({ cfg, startListening, goToSummary }: Pr
                     <p className={styles.breakNote}>
                         Audio sẽ phát sau khi bạn bắt đầu. Bạn không thể tạm dừng hoặc tua lại — giống kỳ thi thật.
                     </p>
-                    <button className={styles.btnStart} onClick={startListening}>
-                        Bắt đầu phần Nghe <ChevronRight size={16} />
-                    </button>
+                    <Button type="primary" size="large" icon={<ChevronRight size={16} />} iconPosition="end" onClick={startListening}>
+                        Bắt đầu phần Nghe
+                    </Button>
                 </div>
             </div>
         )
@@ -52,9 +53,9 @@ export default function ExamBreakScreen({ cfg, startListening, goToSummary }: Pr
                 <p className={styles.breakNote}>
                     Bài thi thử này không bao gồm phần nghe. Nhấn <strong>Nộp bài</strong> khi bạn sẵn sàng để xem kết quả.
                 </p>
-                <button className={styles.btnStart} onClick={goToSummary}>
-                    Nộp bài <ChevronRight size={16} />
-                </button>
+                <Button type="primary" size="large" icon={<ChevronRight size={16} />} iconPosition="end" onClick={goToSummary}>
+                    Nộp bài
+                </Button>
             </div>
 
             <p className={styles.introNote}>

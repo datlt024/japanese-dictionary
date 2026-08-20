@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react"
 import Image from "next/image"
 import { ArrowLeft, Pause, Play } from "lucide-react"
+import { Button } from "antd"
 import DOMPurify from "isomorphic-dompurify"
 
 function sanitizeExamContext(html: string): string {
@@ -64,13 +65,13 @@ export default function ExamReviewScreen({ level, cfg, questions, answers, secti
     return (
         <div className={styles.examPage}>
             <div className={styles.examTopBar}>
-                <button className={styles.examExitBtn} onClick={() => {
+                <Button type="text" className={styles.examExitBtn} icon={<ArrowLeft size={14} />} onClick={() => {
                     audioRef.current?.pause()
                     reviewPlayingGiRef.current = null
                     setReviewPlayingGi(null); setReviewIsPaused(false); onBack()
                 }}>
-                    <ArrowLeft size={14} /> Quay lại kết quả
-                </button>
+                    Quay lại kết quả
+                </Button>
                 <span className={styles.examBarTitle}>
                     JLPT {level}{cfg.subtitle ? ` · ${cfg.subtitle}` : ""} — Xem đáp án
                 </span>

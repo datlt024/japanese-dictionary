@@ -8,6 +8,7 @@ import {
 } from "react"
 import { createPortal } from "react-dom"
 import { Mic, Pause, Search } from "lucide-react"
+import { Button } from "antd"
 
 import styles from "./VoiceSearchModal.module.css"
 
@@ -238,23 +239,23 @@ export default function VoiceSearchModal({
                 <div className={styles.header}>
                     <h2>Tra cứu bằng giọng nói</h2>
 
-                    <button
-                        type="button"
+                    <Button
+                        type="text"
                         className={styles.closeButton}
                         onClick={onClose}
                         aria-label="Đóng"
                     >
                         ×
-                    </button>
+                    </Button>
                 </div>
 
                 <div className={styles.body}>
                     {shouldShowSuggestions ? (
                         <div className={styles.suggestions}>
                             {suggestions.map((suggestion) => (
-                                <button
+                                <Button
                                     key={suggestion.text}
-                                    type="button"
+                                    type="text"
                                     className={styles.suggestionItem}
                                     onClick={() =>
                                         handleSuggestionClick(
@@ -279,7 +280,7 @@ export default function VoiceSearchModal({
                                             </span>
                                         )}
                                     </span>
-                                </button>
+                                </Button>
                             ))}
                         </div>
                     ) : shouldShowTranscriptOnly ? (
@@ -288,8 +289,8 @@ export default function VoiceSearchModal({
                                 Đã nhận diện
                             </p>
 
-                            <button
-                                type="button"
+                            <Button
+                                type="primary"
                                 className={styles.transcriptButton}
                                 onClick={() =>
                                     handleSuggestionClick(
@@ -297,8 +298,8 @@ export default function VoiceSearchModal({
                                     )
                                 }
                             >
-                                Tra “{normalizedTranscript}”
-                            </button>
+                                {`Tra "${normalizedTranscript}"`}
+                            </Button>
                         </div>
                     ) : (
                         <div className={styles.message}>
@@ -348,13 +349,13 @@ export default function VoiceSearchModal({
                         Tiếng Nhật
                     </span>
 
-                    <button
-                        type="button"
+                    <Button
+                        type="text"
                         className={styles.switchButton}
                         onClick={toggleLanguage}
                     >
                         ↔
-                    </button>
+                    </Button>
 
                     <span
                         className={
@@ -367,8 +368,9 @@ export default function VoiceSearchModal({
                     </span>
                 </div>
 
-                <button
-                    type="button"
+                <Button
+                    type="primary"
+                    shape="circle"
                     className={
                         listening
                             ? `${styles.micButton} ${styles.listening}`
@@ -377,13 +379,12 @@ export default function VoiceSearchModal({
                     onClick={handleMicClick}
                     disabled={!supported}
                     aria-label={`Ghi âm bằng ${LANGUAGE_LABELS[voiceLanguage]}`}
-                >
-                    {listening ? (
+                    icon={listening ? (
                         <Pause size={24} fill="currentColor" />
                     ) : (
                         <Mic size={22} />
                     )}
-                </button>
+                />
             </div>
         </div>
     )

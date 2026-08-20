@@ -20,9 +20,11 @@ import {
     LogIn,
     Pencil,
     Plus,
-    PlusCircle,
     Trash2,
 } from "lucide-react"
+import { Button, Input, Skeleton, Typography } from "antd"
+import type { InputRef } from "antd"
+import { PlusOutlined } from "@ant-design/icons"
 
 import { useAuth } from "@/shared/hooks/useAuth"
 import AuthModal from "@/shared/components/AuthModal"
@@ -39,6 +41,8 @@ import ConfirmDialog from "./ConfirmDialog"
 import { useNotebookCrud } from "./useNotebookCrud"
 import styles from "./StudyNotebooksTab.module.css"
 
+const { Text } = Typography
+
 /* ── Constants ─────────────────────────────────────────────── */
 
 const PAGE_SIZE = 10
@@ -48,11 +52,11 @@ type SortOrder = typeof VALID_SORTS[number]
 
 /* ── Helpers ───────────────────────────────────────────────── */
 
-function Skeleton() {
+function LoadingSkeleton() {
     return (
         <div className={styles.skeletonWrap}>
             {Array.from({ length: 4 }).map((_, i) => (
-                <div key={i} className={styles.skeleton} />
+                <Skeleton key={i} active paragraph={{ rows: 1 }} />
             ))}
         </div>
     )
@@ -139,9 +143,9 @@ export default function StudyNotebooksTab() {
         return { knownCount: knownSet.size, ratio: total > 0 ? `${Math.round(knownSet.size / total * 100)}%` : "—" }
     }, [practiceSessions])
 
-    const createInputRef      = useRef<HTMLInputElement>(null)
-    const createGroupInputRef = useRef<HTMLInputElement>(null)
-    const editGroupInputRef   = useRef<HTMLInputElement>(null)
+    const createInputRef      = useRef<InputRef | null>(null)
+    const createGroupInputRef = useRef<InputRef | null>(null)
+    const editGroupInputRef   = useRef<InputRef | null>(null)
 
     useEffect(() => { if (creating)      createInputRef.current?.focus()      }, [creating])
     useEffect(() => { if (creatingGroup) createGroupInputRef.current?.focus() }, [creatingGroup])
@@ -226,7 +230,7 @@ export default function StudyNotebooksTab() {
 
     /* ── Render guards ── */
 
-    if (authLoading) return <Skeleton />
+    if (authLoading) return <LoadingSkeleton />
 
     if (!user) {
         return (
@@ -235,24 +239,23 @@ export default function StudyNotebooksTab() {
                     <LogIn size={32} className={styles.loginIcon} />
                     <p className={styles.loginTitle}>Đăng nhập để xem sổ tay của bạn</p>
                     <p className={styles.loginDesc}>Lưu từ vựng, hán tự và ngữ pháp vào sổ tay để ôn luyện mọi lúc.</p>
-                    <button type="button" className={styles.loginBtn} onClick={() => setAuthModalOpen(true)}>Đăng nhập</button>
+                    <Button type="primary" onClick={() => setAuthModalOpen(true)}>Đăng nhập</Button>
                 </div>
                 <AuthModal open={authModalOpen} onClose={() => setAuthModalOpen(false)} />
             </>
         )
     }
 
-    if (notebooksLoading || groupsLoading) return <Skeleton />
+    if (notebooksLoading || groupsLoading) return <LoadingSkeleton />
 
     if (notebooksError || groupsError) {
         return (
             <div className={styles.loginPrompt}>
                 <p className={styles.loginTitle}>Không thể tải dữ liệu</p>
                 <p className={styles.loginDesc}>Đã xảy ra lỗi khi kết nối. Vui lòng thử lại.</p>
-                <button type="button" className={styles.loginBtn}
-                    onClick={() => { mutateNotebooks(); mutateGroups() }}>
+                <Button type="primary" onClick={() => { mutateNotebooks(); mutateGroups() }}>
                     Thử lại
-                </button>
+                </Button>
             </div>
         )
     }
@@ -316,17 +319,19 @@ export default function StudyNotebooksTab() {
                 {creatingGroup && (
                     <form className={styles.createForm} onSubmit={handleCreateGroup}>
                         <FolderOpen size={15} className={styles.createFormIcon} />
-                        <input ref={createGroupInputRef} className={styles.createInput}
-                            placeholder="Tên nhóm..." value={newGroupName}
+                        <Input
+                            ref={createGroupInputRef}
+                            placeholder="Tên nhóm..."
+                            value={newGroupName}
                             onChange={e => setNewGroupName(e.target.value)}
-                            maxLength={80} disabled={crud.createGroupLoading} />
-                        <button className={styles.createSubmit} type="submit" disabled={!newGroupName.trim() || crud.createGroupLoading}>
-                            {crud.createGroupLoading ? "..." : "Tạo"}
-                        </button>
-                        <button className={styles.createCancel} type="button"
-                            onClick={() => { setCreatingGroup(false); setNewGroupName("") }}>
-                            Hủy
-                        </button>
+                            maxLength={80}
+                            disabled={crud.createGroupLoading}
+                            style={{ flex: 1 }}
+                        />
+                        <Button type="primary" htmlType="submit" loading={crud.createGroupLoading} disabled={!newGroupName.trim()}>
+                            Tạo
+                        </Button>
+                        <Button onClick={() => { setCreatingGroup(false); setNewGroupName("") }}>Hủy</Button>
                     </form>
                 )}
 
@@ -334,20 +339,22 @@ export default function StudyNotebooksTab() {
                 {creating && createInGroupId === null && (
                     <div>
                         <form className={styles.createForm} onSubmit={e => handleCreate(e, null)}>
-                            <input ref={createInputRef}
-                                className={`${styles.createInput} ${crud.createError ? styles.createInputError : ""}`}
-                                placeholder="Tên sổ tay..." value={newName}
+                            <Input
+                                ref={createInputRef}
+                                placeholder="Tên sổ tay..."
+                                value={newName}
                                 onChange={e => { setNewName(e.target.value); crud.setCreateError(null) }}
-                                maxLength={80} disabled={crud.createLoading} />
-                            <button className={styles.createSubmit} type="submit" disabled={!newName.trim() || crud.createLoading}>
-                                {crud.createLoading ? "..." : "Tạo"}
-                            </button>
-                            <button className={styles.createCancel} type="button"
-                                onClick={() => { setCreating(false); setNewName(""); crud.setCreateError(null) }}>
-                                Hủy
-                            </button>
+                                maxLength={80}
+                                disabled={crud.createLoading}
+                                status={crud.createError ? "error" : undefined}
+                                style={{ flex: 1 }}
+                            />
+                            <Button type="primary" htmlType="submit" loading={crud.createLoading} disabled={!newName.trim()}>
+                                Tạo
+                            </Button>
+                            <Button onClick={() => { setCreating(false); setNewName(""); crud.setCreateError(null) }}>Hủy</Button>
                         </form>
-                        {crud.createError && <p className={styles.formError}>{crud.createError}</p>}
+                        {crud.createError && <Text type="danger" style={{ fontSize: 12 }}>{crud.createError}</Text>}
                     </div>
                 )}
 
@@ -356,9 +363,9 @@ export default function StudyNotebooksTab() {
                         <BookOpen size={36} className={styles.emptyIcon} />
                         <p className={styles.emptyTitle}>Bạn chưa có sổ tay nào</p>
                         <p className={styles.emptyDesc}>Hãy tạo sổ tay và thêm từ để bắt đầu ôn luyện.</p>
-                        <button type="button" className={styles.createBtn} onClick={() => setCreating(true)}>
-                            <PlusCircle size={15} /> Tạo sổ tay
-                        </button>
+                        <Button type="primary" icon={<PlusOutlined />} onClick={() => setCreating(true)}>
+                            Tạo sổ tay
+                        </Button>
                     </div>
                 ) : (
                     <div className={styles.lists}>
@@ -371,38 +378,43 @@ export default function StudyNotebooksTab() {
                                     <div className={styles.groupHeader}>
                                         {editingGroupId === group.id ? (
                                             <form className={styles.editGroupForm} onSubmit={handleRenameGroup}>
-                                                <input ref={editGroupInputRef} className={styles.editGroupInput}
+                                                <Input
+                                                    ref={editGroupInputRef}
                                                     value={editGroupName}
                                                     onChange={e => setEditGroupName(e.target.value)}
-                                                    maxLength={80} disabled={crud.renameGroupLoading} autoFocus
-                                                    onKeyDown={e => { if (e.key === "Escape") setEditingGroupId(null) }} />
-                                                <button className={styles.createSubmit} type="submit" disabled={!editGroupName.trim() || crud.renameGroupLoading}>
+                                                    maxLength={80}
+                                                    disabled={crud.renameGroupLoading}
+                                                    autoFocus
+                                                    onKeyDown={e => { if (e.key === "Escape") setEditingGroupId(null) }}
+                                                    style={{ width: 200 }}
+                                                />
+                                                <Button type="primary" htmlType="submit" size="small" loading={crud.renameGroupLoading} disabled={!editGroupName.trim()}>
                                                     {crud.renameGroupLoading ? "..." : "Lưu"}
-                                                </button>
-                                                <button className={styles.createCancel} type="button" onClick={() => setEditingGroupId(null)}>Hủy</button>
+                                                </Button>
+                                                <Button size="small" onClick={() => setEditingGroupId(null)}>Hủy</Button>
                                             </form>
                                         ) : (
                                             <>
-                                            <button type="button" className={styles.groupToggle} onClick={() => toggleGroup(group.id)}>
+                                            <Button type="text" className={styles.groupToggle} onClick={() => toggleGroup(group.id)}>
                                                 {isExpanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
                                                 <FolderOpen size={14} className={styles.groupFolderIcon} />
                                                 <span className={styles.groupName}>{group.name}</span>
                                                 <span className={styles.groupCount}>{children.length} sổ tay</span>
-                                            </button>
+                                            </Button>
                                             <div className={styles.groupActions}>
-                                                <button type="button" className={styles.groupAddBtn} title="Đổi tên nhóm"
-                                                    onClick={() => { setEditingGroupId(group.id); setEditGroupName(group.name) }}>
-                                                    <Pencil size={13} />
-                                                </button>
-                                                <button type="button" className={styles.groupAddBtn} title="Thêm sổ tay vào nhóm"
-                                                    onClick={() => { setCreateInGroupId(group.id); setCreating(true); setNewName(""); if (!isExpanded) toggleGroup(group.id) }}>
-                                                    <Plus size={13} />
-                                                </button>
-                                                <button type="button" className={styles.groupDeleteBtn} title="Xóa nhóm"
+                                                <Button type="text" size="small" icon={<Pencil size={13} />} title="Đổi tên nhóm"
+                                                    onClick={() => { setEditingGroupId(group.id); setEditGroupName(group.name) }}
+                                                    className={styles.groupAddBtn}
+                                                />
+                                                <Button type="text" size="small" icon={<Plus size={13} />} title="Thêm sổ tay vào nhóm"
+                                                    onClick={() => { setCreateInGroupId(group.id); setCreating(true); setNewName(""); if (!isExpanded) toggleGroup(group.id) }}
+                                                    className={styles.groupAddBtn}
+                                                />
+                                                <Button type="text" size="small" danger icon={<Trash2 size={13} />} title="Xóa nhóm"
                                                     onClick={() => setConfirmDeleteGroupId(group.id)}
-                                                    disabled={crud.deletingGroupId === group.id}>
-                                                    <Trash2 size={13} />
-                                                </button>
+                                                    loading={crud.deletingGroupId === group.id}
+                                                    className={styles.groupDeleteBtn}
+                                                />
                                             </div>
                                             </>
                                         )}
@@ -413,20 +425,25 @@ export default function StudyNotebooksTab() {
                                             {creating && createInGroupId === group.id && (
                                                 <div>
                                                     <form className={styles.createFormInline} onSubmit={e => handleCreate(e, group.id)}>
-                                                        <input ref={createInputRef}
-                                                            className={`${styles.createInput} ${crud.createError ? styles.createInputError : ""}`}
-                                                            placeholder="Tên sổ tay..." value={newName}
+                                                        <Input
+                                                            ref={createInputRef}
+                                                            placeholder="Tên sổ tay..."
+                                                            value={newName}
                                                             onChange={e => { setNewName(e.target.value); crud.setCreateError(null) }}
-                                                            maxLength={80} disabled={crud.createLoading} autoFocus />
-                                                        <button className={styles.createSubmit} type="submit" disabled={!newName.trim() || crud.createLoading}>
-                                                            {crud.createLoading ? "..." : "Tạo"}
-                                                        </button>
-                                                        <button className={styles.createCancel} type="button"
-                                                            onClick={() => { setCreating(false); setCreateInGroupId(null); setNewName(""); crud.setCreateError(null) }}>
+                                                            maxLength={80}
+                                                            disabled={crud.createLoading}
+                                                            status={crud.createError ? "error" : undefined}
+                                                            autoFocus
+                                                            style={{ flex: 1 }}
+                                                        />
+                                                        <Button type="primary" htmlType="submit" size="small" loading={crud.createLoading} disabled={!newName.trim()}>
+                                                            Tạo
+                                                        </Button>
+                                                        <Button size="small" onClick={() => { setCreating(false); setCreateInGroupId(null); setNewName(""); crud.setCreateError(null) }}>
                                                             Hủy
-                                                        </button>
+                                                        </Button>
                                                     </form>
-                                                    {crud.createError && <p className={styles.formError}>{crud.createError}</p>}
+                                                    {crud.createError && <Text type="danger" style={{ fontSize: 12 }}>{crud.createError}</Text>}
                                                 </div>
                                             )}
                                             <div className={styles.grid}>
@@ -441,10 +458,14 @@ export default function StudyNotebooksTab() {
                                                         onMenuToggle={() => setMenuOpenId(menuOpenId === nb.id ? null : nb.id)} />
                                                 ))}
                                                 {children.length === 0 && !(creating && createInGroupId === group.id) && (
-                                                    <button type="button" className={styles.groupAddPlaceholder}
-                                                        onClick={() => { setCreateInGroupId(group.id); setCreating(true); setNewName("") }}>
-                                                        <Plus size={14} /> Thêm sổ tay
-                                                    </button>
+                                                    <Button
+                                                        type="dashed"
+                                                        icon={<Plus size={14} />}
+                                                        onClick={() => { setCreateInGroupId(group.id); setCreating(true); setNewName("") }}
+                                                        className={styles.groupAddPlaceholder}
+                                                    >
+                                                        Thêm sổ tay
+                                                    </Button>
                                                 )}
                                             </div>
                                         </div>
@@ -477,15 +498,24 @@ export default function StudyNotebooksTab() {
                 {/* ── Phân trang ── */}
                 {totalPages > 1 && (
                     <div className={styles.pagination}>
-                        <button type="button" className={styles.pageBtn}
-                            onClick={() => setPage(p => Math.max(1, p - 1))} disabled={safePage === 1}>
-                            <ChevronLeft size={14} /> Trước
-                        </button>
+                        <Button
+                            icon={<ChevronLeft size={14} />}
+                            onClick={() => setPage(p => Math.max(1, p - 1))}
+                            disabled={safePage === 1}
+                            className={styles.pageBtn}
+                        >
+                            Trước
+                        </Button>
                         <span className={styles.pageInfo}>{safePage} / {totalPages}</span>
-                        <button type="button" className={styles.pageBtn}
-                            onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={safePage === totalPages}>
-                            Tiếp <ChevronRight size={14} />
-                        </button>
+                        <Button
+                            iconPosition="end"
+                            icon={<ChevronRight size={14} />}
+                            onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+                            disabled={safePage === totalPages}
+                            className={styles.pageBtn}
+                        >
+                            Tiếp
+                        </Button>
                     </div>
                 )}
 

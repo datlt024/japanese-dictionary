@@ -1,4 +1,5 @@
 import styles from "./KanjiReadingSection.module.css"
+import { Button } from "antd"
 
 import type { Kanji } from "@/domain/kanji"
 
@@ -38,15 +39,15 @@ export default function KanjiReadingSection({ kanji }: Props) {
 
                     <div className={styles.readingPillList}>
                         {displayOnyomi.map((reading) => (
-                            <button
+                            <Button
                                 key={reading}
-                                type="button"
+                                type="default"
                                 className={styles.readingPill}
                                 onClick={() => speakJapanese(reading)}
                             >
                                 {reading}
                                 <span>🔊</span>
-                            </button>
+                            </Button>
                         ))}
                     </div>
                 </div>
@@ -58,15 +59,15 @@ export default function KanjiReadingSection({ kanji }: Props) {
 
                     <div className={styles.readingPillList}>
                         {displayKunyomi.map((reading) => (
-                            <button
+                            <Button
                                 key={reading}
-                                type="button"
+                                type="default"
                                 className={styles.readingPill}
                                 onClick={() => speakJapanese(reading)}
                             >
                                 {reading}
                                 <span>🔊</span>
-                            </button>
+                            </Button>
                         ))}
                     </div>
                 </div>

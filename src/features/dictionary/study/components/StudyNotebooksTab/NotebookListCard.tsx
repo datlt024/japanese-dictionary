@@ -90,14 +90,13 @@ export default function NotebookListCard({ nb, index, groups, onOpen, onPractice
             overflow: "hidden", background: "#fff",
             marginBottom: 6,
         }}>
-            <button
-                type="button"
+            <Button
+                type="text"
                 onClick={onOpen}
                 style={{
                     display: "flex", alignItems: "center", gap: 12,
-                    flex: 1, padding: "12px 14px", cursor: "pointer",
-                    border: "none", background: "transparent",
-                    textAlign: "left",
+                    flex: 1, padding: "12px 14px",
+                    height: "auto", textAlign: "left",
                 }}
             >
                 <div style={{
@@ -112,7 +111,7 @@ export default function NotebookListCard({ nb, index, groups, onOpen, onPractice
                     <Text type="secondary" style={{ fontSize: 12 }}>{nb.item_count.toLocaleString("vi-VN")} mục</Text>
                 </div>
                 <ChevronRight size={14} style={{ color: "#D1D5DB", flexShrink: 0 }} />
-            </button>
+            </Button>
 
             <Dropdown menu={{ items: menuItems }} trigger={["click"]} placement="bottomRight">
                 <Button

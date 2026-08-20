@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { Button } from "antd"
 import styles from "./GoogleTranslateWidget.module.css"
 
 type Props = {
@@ -65,7 +66,8 @@ export default function GoogleTranslateWidget({
                     <div className={styles.langLabel}>Tiếng Nhật</div>
                     <div className={styles.inputText}>
                         {text}
-                        <button
+                        <Button
+                            type="text"
                             className={styles.speakBtn}
                             onClick={() => {
                                 import("@/shared/lib/tts/speakJapanese").then(({ speakJapanese }) =>
@@ -73,10 +75,8 @@ export default function GoogleTranslateWidget({
                                 )
                             }}
                             title="Nghe phát âm"
-                            type="button"
-                        >
-                            <SpeakerIcon />
-                        </button>
+                            icon={<SpeakerIcon />}
+                        />
                     </div>
                 </div>
 

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef, useCallback } from "react"
+import { Button } from "antd"
 import styles from "./MockExamClient.module.css"
 
 import { N5_QUESTIONS_WITH_LISTENING } from "@/features/dictionary/study/data/n5-exam"
@@ -258,7 +259,7 @@ export default function MockExamClient({ level, year }: { level: string; year?: 
         return (
             <div className={styles.center}>
                 <p className={styles.hint}>Không thể tải đề thi. Vui lòng thử lại.</p>
-                <button className={styles.btnPrimary} onClick={startExam}>Thử lại</button>
+                <Button type="primary" onClick={startExam}>Thử lại</Button>
             </div>
         )
     }

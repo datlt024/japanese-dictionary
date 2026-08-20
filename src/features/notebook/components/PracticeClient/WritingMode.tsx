@@ -2,10 +2,14 @@
 
 import { useMemo, useRef, useEffect, useState } from "react"
 import { ChevronRight } from "lucide-react"
+import { Button, Input, Space, Typography } from "antd"
+import type { InputRef } from "antd"
 import type { ModeProps } from "./practice.types"
 import { shuffle } from "./practice.utils"
 import { PracticeHeader, ProgressBar, TypeBadge } from "./PracticeShared"
 import styles from "./PracticeClient.module.css"
+
+const { Text } = Typography
 
 export default function WritingMode({ items, onFinish, onBack }: ModeProps) {
     const shuffled = useMemo(() => shuffle(items), [items])
@@ -15,7 +19,7 @@ export default function WritingMode({ items, onFinish, onBack }: ModeProps) {
     const [isCorrect, setIsCorrect] = useState(false)
     const [known, setKnown] = useState<string[]>([])
     const [unknown, setUnknown] = useState<string[]>([])
-    const inputRef = useRef<HTMLInputElement>(null)
+    const inputRef = useRef<InputRef | null>(null)
 
     useEffect(() => {
         inputRef.current?.focus()
@@ -51,6 +55,13 @@ export default function WritingMode({ items, onFinish, onBack }: ModeProps) {
         advance(newUnknown)
     }
 
+    const inputStatus = submitted ? (isCorrect ? undefined : "error") : undefined
+    const inputStyle = submitted && isCorrect
+        ? { borderColor: "#16A34A", background: "#ECFDF3" }
+        : submitted && !isCorrect
+        ? { background: "#FEF2F2" }
+        : {}
+
     return (
         <div className={styles.practiceContainer}>
             <PracticeHeader onBack={onBack} index={index} total={shuffled.length} />
@@ -68,15 +79,11 @@ export default function WritingMode({ items, onFinish, onBack }: ModeProps) {
             </div>
 
             <div className={styles.writingInputWrap}>
-                <input
+                <Input
                     ref={inputRef}
-                    className={`${styles.writingInput} ${
-                        submitted
-                            ? isCorrect
-                                ? styles.writingInputCorrect
-                                : styles.writingInputWrong
-                            : ""
-                    }`}
+                    size="large"
+                    status={inputStatus}
+                    style={{ fontSize: 18, textAlign: "center", ...inputStyle }}
                     value={input}
                     onChange={(e) => !submitted && setInput(e.target.value)}
                     onKeyDown={(e) => {
@@ -92,35 +99,29 @@ export default function WritingMode({ items, onFinish, onBack }: ModeProps) {
                 />
 
                 {submitted && !isCorrect && (
-                    <div className={styles.writingFeedbackWrong}>
+                    <Text style={{ display: "block", marginTop: 8, color: "#EF4444", textAlign: "center" }}>
                         Đáp án đúng: <strong>{current.display.title}</strong>
-                    </div>
+                    </Text>
                 )}
                 {submitted && isCorrect && (
-                    <div className={styles.writingFeedbackCorrect}>Chính xác!</div>
+                    <Text style={{ display: "block", marginTop: 8, color: "#16A34A", textAlign: "center", fontWeight: 600 }}>
+                        Chính xác!
+                    </Text>
                 )}
             </div>
 
             <div className={styles.actions}>
                 {!submitted ? (
-                    <div className={styles.writingActions}>
-                        <button type="button" className={styles.skipBtn} onClick={handleSkip}>
-                            Bỏ qua
-                        </button>
-                        <button
-                            type="button"
-                            className={styles.submitBtn}
-                            onClick={handleSubmit}
-                            disabled={!input.trim()}
-                        >
+                    <Space>
+                        <Button onClick={handleSkip}>Bỏ qua</Button>
+                        <Button type="primary" onClick={handleSubmit} disabled={!input.trim()}>
                             Kiểm tra
-                        </button>
-                    </div>
+                        </Button>
+                    </Space>
                 ) : (
-                    <button type="button" className={styles.nextBtn} onClick={() => advance()}>
+                    <Button type="primary" icon={<ChevronRight size={16} />} iconPosition="end" onClick={() => advance()}>
                         {index + 1 >= shuffled.length ? "Xem kết quả" : "Tiếp theo"}
-                        <ChevronRight size={16} />
-                    </button>
+                    </Button>
                 )}
             </div>
         </div>

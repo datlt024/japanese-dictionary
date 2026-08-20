@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Check, ChevronRight, Zap } from "lucide-react"
+import { Button } from "antd"
 import styles from "./ExploreTab.module.css"
 
 const EXAM_TIPS = [
@@ -57,14 +58,14 @@ export default function ExamTipsSection() {
             <div className={styles.accordionList}>
                 {EXAM_TIPS.map((tip, i) => (
                     <div key={i} className={styles.accordionItem} data-open={open === i || undefined}>
-                        <button
-                            type="button"
+                        <Button
+                            type="text"
                             className={styles.accordionHeader}
                             onClick={() => setOpen(open === i ? null : i)}
                         >
                             <span>{tip.title}</span>
                             <ChevronRight size={15} className={styles.accordionChevron} />
-                        </button>
+                        </Button>
                         {open === i && (
                             <ul className={styles.accordionBody}>
                                 {tip.tips.map((t, j) => (

@@ -6,6 +6,7 @@ import {
     useState,
 } from "react"
 import { X } from "lucide-react"
+import { Button } from "antd"
 
 import styles from "./QuickLookupModal.module.css"
 
@@ -108,14 +109,13 @@ export default function QuickLookupModal({
                             Chi tiết từ{" "}
                             {loadingTitle && <span>{loadingTitle}</span>}
                         </h2>
-                        <button
-                            type="button"
-                            className={styles.closeButton}
+                        <Button
+                            type="text"
+                            icon={<X size={20} />}
                             onClick={onClose}
                             aria-label="Đóng"
-                        >
-                            <X size={20} />
-                        </button>
+                            className={styles.closeButton}
+                        />
                     </div>
                     <div className={styles.loadingContent}>
                         <div className={`${styles.skeleton} ${styles.skeletonHeading}`} />
@@ -249,9 +249,9 @@ function QuickLookupModalInner({
                         data-disable-quick-lookup="true"
                     >
                         {kanjiTargets.map((item, index) => (
-                            <button
+                            <Button
                                 key={item.currentKanji}
-                                type="button"
+                                type="text"
                                 className={
                                     index === activeKanjiIndex
                                         ? `${styles.kanjiTabButton} ${styles.activeKanjiTab}`
@@ -262,7 +262,7 @@ function QuickLookupModalInner({
                                 }
                             >
                                 {item.currentKanji}
-                            </button>
+                            </Button>
                         ))}
                     </div>
                 )}
@@ -319,14 +319,13 @@ function QuickLookupModalInner({
                         <span>{currentTarget.title}</span>
                     </h2>
 
-                    <button
-                        type="button"
-                        className={styles.closeButton}
+                    <Button
+                        type="text"
+                        icon={<X size={20} />}
                         onClick={onClose}
                         aria-label="Đóng"
-                    >
-                        <X size={20} />
-                    </button>
+                        className={styles.closeButton}
+                    />
                 </div>
 
                 <div
@@ -334,9 +333,9 @@ function QuickLookupModalInner({
                     data-disable-quick-lookup="true"
                 >
                     {TABS.map((tab) => (
-                        <button
+                        <Button
                             key={tab.key}
-                            type="button"
+                            type="text"
                             className={
                                 activeTab === tab.key
                                     ? `${styles.tabButton} ${styles.activeTab}`
@@ -345,7 +344,7 @@ function QuickLookupModalInner({
                             onClick={() => setActiveTab(tab.key)}
                         >
                             {tab.label}
-                        </button>
+                        </Button>
                     ))}
                 </div>
 

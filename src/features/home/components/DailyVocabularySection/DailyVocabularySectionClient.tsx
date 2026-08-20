@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react"
 import { createPortal } from "react-dom"
 import { X } from "lucide-react"
+import { Button } from "antd"
 
 import type { DailyVocabularyItem } from "./DailyVocabularySection"
 
@@ -35,8 +36,8 @@ function VocabCard({
     onMouseEnter?: () => void
 }) {
     return (
-        <button
-            type="button"
+        <Button
+            type="text"
             className={className}
             onClick={onClick}
             onMouseEnter={onMouseEnter}
@@ -56,7 +57,7 @@ function VocabCard({
                 <span className={styles.type}>{item.type}</span>
                 <span className={styles.meaning}>{item.meaning}</span>
             </div>
-        </button>
+        </Button>
     )
 }
 
@@ -101,14 +102,13 @@ function SuggestionsModal({
             >
                 <div className={modalStyles.header}>
                     <h2>Từ vựng đề xuất</h2>
-                    <button
-                        type="button"
-                        className={modalStyles.closeButton}
+                    <Button
+                        type="text"
+                        icon={<X size={15} />}
                         onClick={onClose}
                         aria-label="Đóng"
-                    >
-                        <X size={15} />
-                    </button>
+                        className={modalStyles.closeButton}
+                    />
                 </div>
 
                 <div className={modalStyles.body}>
@@ -210,13 +210,13 @@ export default function DailyVocabularySectionClient({ items }: Props) {
         <section className={styles.section}>
             <div className={styles.header}>
                 <h2 className={styles.title}>Từ vựng trong ngày</h2>
-                <button
-                    type="button"
+                <Button
+                    type="link"
                     className={styles.viewMore}
                     onClick={() => setSuggestionsOpen(true)}
                 >
                     Xem thêm
-                </button>
+                </Button>
             </div>
 
             <div className={styles.grid}>
