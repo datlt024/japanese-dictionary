@@ -222,7 +222,7 @@ export async function findGrammarPointById(id: number) {
     ])
 
     return {
-        data: mapGrammarDetail(rawData as unknown as GrammarDetailRow | null, similar_grammar),
+        data: mapGrammarDetail(rawData as GrammarDetailRow | null, similar_grammar),
         error,
     }
 }
@@ -246,7 +246,7 @@ export async function findGrammarPointBySourceId(sourceId: string) {
     ])
 
     return {
-        data: mapGrammarDetail(rawData as unknown as GrammarDetailRow | null, similar_grammar),
+        data: mapGrammarDetail(rawData as GrammarDetailRow | null, similar_grammar),
         error,
     }
 }

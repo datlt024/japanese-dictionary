@@ -36,7 +36,7 @@ export async function GET(request: NextRequest) {
         return serverError(error, "GET /api/notebooks")
     }
 
-    const rows = data as unknown as NotebookWithCount[] ?? []
+    const rows = (data ?? []) as NotebookWithCount[]
     const transformed = rows.map((nb) => ({
         id: nb.id,
         name: nb.name,

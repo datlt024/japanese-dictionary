@@ -85,7 +85,7 @@ export async function GET(request: NextRequest) {
         created_at: string
         user_profiles: { display_name: string; jlpt_level: string | null } | null
     }
-    const comments = (commentsResult.data ?? []) as unknown as CommentWithProfile[]
+    const comments = (commentsResult.data ?? []) as CommentWithProfile[]
     const total = countResult.count ?? 0
 
     const likedIds = user && comments.length > 0
@@ -124,7 +124,7 @@ export async function POST(request: NextRequest) {
 
     const raw = await request.json().catch(() => null)
     const parsed = parseBody(raw, {
-        entry_type: { type: "enum", values: ENTRY_TYPES as unknown as string[] },
+        entry_type: { type: "enum", values: ENTRY_TYPES as string[] },
         entry_id: { type: "integer", min: 1 },
         content: { type: "string", min: 1, max: 500 },
         display_name: { type: "string", min: 1, max: 30 },
