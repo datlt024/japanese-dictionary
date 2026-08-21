@@ -51,7 +51,6 @@ export default function CommentsClient({ comments: initial, page, totalPages, cu
     const router = useRouter()
 
     async function handleDelete(id: string) {
-        if (confirmId !== id) { setConfirmId(id); return }
         setDeleting(id)
         setConfirmId(null)
         try {
@@ -110,46 +109,71 @@ export default function CommentsClient({ comments: initial, page, totalPages, cu
                                 </td>
                             </tr>
                         ) : comments.map((c) => (
-                            <tr key={c.id} className={styles.tr}>
-                                <td className={styles.td}>
-                                    <span className={styles.userName}>{c.display_name}</span>
-                                </td>
-                                <td className={styles.td}>
-                                    <a
-                                        href={`${ENTRY_TYPE_HREF[c.entry_type] ?? ""}/${c.entry_id}`}
-                                        className={styles.entryLink}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <span className={`${styles.entryBadge} ${styles[`entry_${c.entry_type}`]}`}>
-                                            {ENTRY_TYPE_LABEL[c.entry_type] ?? c.entry_type}
+                            confirmId === c.id ? (
+                                <tr key={c.id} className={`${styles.tr} ${styles.trConfirm}`}>
+                                    <td colSpan={6} className={`${styles.td} ${styles.confirmCell}`}>
+                                        <Trash2 size={14} className={styles.confirmIcon} />
+                                        <span className={styles.confirmText}>
+                                            Xóa bình luận của <strong>{c.display_name}</strong>? Không thể hoàn tác.
                                         </span>
-                                        <span className={styles.entryId}>#{c.entry_id}</span>
-                                    </a>
-                                </td>
-                                <td className={styles.td}>
-                                    <span className={styles.contentCell}>{c.content}</span>
-                                </td>
-                                <td className={`${styles.td} ${styles.tdCenter}`}>
-                                    <span className={styles.likeCount}>{c.likes_count}</span>
-                                </td>
-                                <td className={styles.td}>
-                                    <span className={styles.dateCell}>{fmtDate(c.created_at)}</span>
-                                </td>
-                                <td className={`${styles.td} ${styles.tdCenter}`}>
-                                    <button
-                                        type="button"
-                                        className={`${styles.deleteBtn} ${confirmId === c.id ? styles.deleteBtnConfirm : ""}`}
-                                        onClick={() => handleDelete(c.id)}
-                                        disabled={deleting === c.id}
-                                        aria-label={confirmId === c.id ? "Xác nhận xóa" : "Xóa bình luận"}
-                                        title={confirmId === c.id ? "Nhấn lại để xác nhận" : "Xóa"}
-                                    >
-                                        <Trash2 size={14} />
-                                        {confirmId === c.id && <span>Xác nhận?</span>}
-                                    </button>
-                                </td>
-                            </tr>
+                                        <button
+                                            type="button"
+                                            className={styles.confirmCancelBtn}
+                                            onClick={() => setConfirmId(null)}
+                                        >
+                                            Hủy
+                                        </button>
+                                        <button
+                                            type="button"
+                                            className={styles.confirmDeleteBtn}
+                                            onClick={() => handleDelete(c.id)}
+                                            disabled={deleting === c.id}
+                                        >
+                                            {deleting === c.id ? "Đang xóa…" : "Xác nhận xóa"}
+                                        </button>
+                                    </td>
+                                </tr>
+                            ) : (
+                                <tr key={c.id} className={styles.tr}>
+                                    <td className={styles.td}>
+                                        <span className={styles.userName}>{c.display_name}</span>
+                                    </td>
+                                    <td className={styles.td}>
+                                        <a
+                                            href={`${ENTRY_TYPE_HREF[c.entry_type] ?? ""}/${c.entry_id}`}
+                                            className={styles.entryLink}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <span className={`${styles.entryBadge} ${styles[`entry_${c.entry_type}`]}`}>
+                                                {ENTRY_TYPE_LABEL[c.entry_type] ?? c.entry_type}
+                                            </span>
+                                            <span className={styles.entryId}>#{c.entry_id}</span>
+                                        </a>
+                                    </td>
+                                    <td className={styles.td}>
+                                        <span className={styles.contentCell}>{c.content}</span>
+                                    </td>
+                                    <td className={`${styles.td} ${styles.tdCenter}`}>
+                                        <span className={styles.likeCount}>{c.likes_count}</span>
+                                    </td>
+                                    <td className={styles.td}>
+                                        <span className={styles.dateCell}>{fmtDate(c.created_at)}</span>
+                                    </td>
+                                    <td className={`${styles.td} ${styles.tdCenter}`}>
+                                        <button
+                                            type="button"
+                                            className={styles.deleteBtn}
+                                            onClick={() => setConfirmId(c.id)}
+                                            disabled={deleting === c.id}
+                                            aria-label="Xóa bình luận"
+                                            title="Xóa"
+                                        >
+                                            <Trash2 size={14} />
+                                        </button>
+                                    </td>
+                                </tr>
+                            )
                         ))}
                     </tbody>
                 </table>

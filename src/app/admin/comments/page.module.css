@@ -221,6 +221,60 @@
     color: var(--color-danger);
 }
 
+/* ── Inline delete confirm row ── */
+.trConfirm { background: var(--color-danger-soft) !important; }
+
+.confirmCell {
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px !important;
+    flex-wrap: wrap;
+}
+
+.confirmIcon {
+    flex-shrink: 0;
+    color: var(--color-danger);
+}
+
+.confirmText {
+    flex: 1;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-danger);
+    min-width: 200px;
+}
+
+.confirmCancelBtn {
+    height: 30px;
+    padding: 0 14px;
+    border-radius: 8px;
+    border: 1.5px solid var(--color-border);
+    background: var(--color-surface);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 0.15s;
+}
+.confirmCancelBtn:hover { border-color: var(--color-text-muted); }
+
+.confirmDeleteBtn {
+    height: 30px;
+    padding: 0 14px;
+    border-radius: 8px;
+    border: none;
+    background: var(--color-danger);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: opacity 0.15s;
+}
+.confirmDeleteBtn:disabled { opacity: 0.6; cursor: default; }
+
 /* ── Pagination ── */
 
 .pagination {
