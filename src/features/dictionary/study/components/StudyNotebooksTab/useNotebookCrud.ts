@@ -39,6 +39,9 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
             }
             setCreateError("Không thể tạo sổ tay. Vui lòng thử lại.")
             return "Không thể tạo sổ tay. Vui lòng thử lại."
+        } catch {
+            setCreateError("Không thể tạo sổ tay. Vui lòng thử lại.")
+            return "Không thể tạo sổ tay. Vui lòng thử lại."
         } finally {
             setCreateLoading(false)
         }
@@ -60,6 +63,9 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
             }
             setCreateError("Không thể tạo nhóm. Vui lòng thử lại.")
             return null
+        } catch {
+            setCreateError("Không thể tạo nhóm. Vui lòng thử lại.")
+            return null
         } finally {
             setCreateGroupLoading(false)
         }
@@ -73,6 +79,8 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
             if (!res.ok) return
             await mutateNotebooks()
             onSelectClear(id)
+        } catch {
+            // Network error — dialog caller will still close via its own handler
         } finally {
             setDeletingNbId(null)
         }
@@ -85,6 +93,8 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
             const res = await fetch(`/api/notebook-groups/${id}`, { method: "DELETE" })
             if (!res.ok) return
             await Promise.all([mutateGroups(), mutateNotebooks()])
+        } catch {
+            // Network error — dialog caller will still close via its own handler
         } finally {
             setDeletingGroupId(null)
         }
@@ -101,6 +111,8 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
             })
             if (res.ok) await mutateGroups()
             return res.ok
+        } catch {
+            return false
         } finally {
             setRenameGroupLoading(false)
         }
@@ -109,32 +121,44 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
     async function handleRenameNotebook(notebookId: string, name: string): Promise<string | null> {
         if (notebooks.some(nb => nb.id !== notebookId && nb.name.toLowerCase() === name.toLowerCase()))
             return "Tên sổ tay đã tồn tại."
-        const res = await fetch(`/api/notebooks/${notebookId}`, {
-            method: "PATCH",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ name }),
-        })
-        if (!res.ok) return "Không thể đổi tên. Vui lòng thử lại."
-        await mutateNotebooks()
-        return null
+        try {
+            const res = await fetch(`/api/notebooks/${notebookId}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ name }),
+            })
+            if (!res.ok) return "Không thể đổi tên. Vui lòng thử lại."
+            await mutateNotebooks()
+            return null
+        } catch {
+            return "Không thể đổi tên. Vui lòng thử lại."
+        }
     }
 
     async function handleMoveNotebook(notebookId: string, groupId: string): Promise<void> {
-        const res = await fetch(`/api/notebooks/${notebookId}`, {
-            method: "PATCH",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ group_id: groupId }),
-        })
-        if (res.ok) await mutateNotebooks()
+        try {
+            const res = await fetch(`/api/notebooks/${notebookId}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ group_id: groupId }),
+            })
+            if (res.ok) await mutateNotebooks()
+        } catch {
+            // Network error — UI stays consistent via SWR revalidation on next focus
+        }
     }
 
     async function handleUngroup(notebookId: string): Promise<void> {
-        const res = await fetch(`/api/notebooks/${notebookId}`, {
-            method: "PATCH",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ group_id: null }),
-        })
-        if (res.ok) await mutateNotebooks()
+        try {
+            const res = await fetch(`/api/notebooks/${notebookId}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ group_id: null }),
+            })
+            if (res.ok) await mutateNotebooks()
+        } catch {
+            // Network error — UI stays consistent via SWR revalidation on next focus
+        }
     }
 
     return {

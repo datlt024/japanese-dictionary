@@ -60,6 +60,8 @@ export default function NotebookDetailView({ notebook, onBack, onDelete, onPract
             })
             if (!res.ok) return
             await mutate()
+        } catch {
+            // Network error — item stays in list; SWR revalidates on next focus
         } finally {
             setRemovingId(null)
         }
