@@ -15,43 +15,43 @@ export async function fetchPublicItems(notebookId: string): Promise<EnrichedNote
     return res.json()
 }
 
-// ── LocalStorage helpers ──────────────────────────
+// ── LocalStorage helpers (namespaced by userId to isolate per-account data) ──
 
-const LIKED_KEY          = "yomi_explore_liked"
-const LIKED_SECTIONS_KEY = "yomi_explore_liked_sections"
-const VIEWED_KEY         = "yomi_explore_viewed"
+function likedKey(userId: string | undefined)         { return userId ? `yomi_explore_liked:${userId}` : "yomi_explore_liked:guest" }
+function likedSectionsKey(userId: string | undefined) { return userId ? `yomi_explore_liked_sections:${userId}` : "yomi_explore_liked_sections:guest" }
+function viewedKey(userId: string | undefined)        { return userId ? `yomi_explore_viewed:${userId}` : "yomi_explore_viewed:guest" }
 
-export function loadLiked(): Set<string> {
+export function loadLiked(userId: string | undefined): Set<string> {
     try {
-        const v = localStorage.getItem(LIKED_KEY)
+        const v = localStorage.getItem(likedKey(userId))
         return new Set(v ? (JSON.parse(v) as string[]) : [])
     } catch { return new Set() }
 }
 
-export function saveLiked(ids: Set<string>) {
-    try { localStorage.setItem(LIKED_KEY, JSON.stringify([...ids])) } catch {}
+export function saveLiked(ids: Set<string>, userId: string | undefined) {
+    try { localStorage.setItem(likedKey(userId), JSON.stringify([...ids])) } catch {}
 }
 
-export function loadLikedSections(): Set<string> {
+export function loadLikedSections(userId: string | undefined): Set<string> {
     try {
-        const v = localStorage.getItem(LIKED_SECTIONS_KEY)
+        const v = localStorage.getItem(likedSectionsKey(userId))
         return new Set(v ? (JSON.parse(v) as string[]) : [])
     } catch { return new Set() }
 }
 
-export function saveLikedSections(ids: Set<string>) {
-    try { localStorage.setItem(LIKED_SECTIONS_KEY, JSON.stringify([...ids])) } catch {}
+export function saveLikedSections(ids: Set<string>, userId: string | undefined) {
+    try { localStorage.setItem(likedSectionsKey(userId), JSON.stringify([...ids])) } catch {}
 }
 
-export function loadViewed(): string[] {
+export function loadViewed(userId: string | undefined): string[] {
     try {
-        const v = localStorage.getItem(VIEWED_KEY)
+        const v = localStorage.getItem(viewedKey(userId))
         return v ? (JSON.parse(v) as string[]) : []
     } catch { return [] }
 }
 
-export function saveViewed(ids: string[]) {
-    try { localStorage.setItem(VIEWED_KEY, JSON.stringify(ids)) } catch {}
+export function saveViewed(ids: string[], userId: string | undefined) {
+    try { localStorage.setItem(viewedKey(userId), JSON.stringify(ids)) } catch {}
 }
 
 // ── Card colors / icons (uses design tokens) ──────

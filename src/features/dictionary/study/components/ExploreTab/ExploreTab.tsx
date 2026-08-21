@@ -25,24 +25,33 @@ import styles from "./ExploreTab.module.css"
 
 export default function ExploreTab() {
     const { user } = useAuth()
+    const userId = user?.id
     const [authModalOpen,   setAuthModalOpen]   = useState(false)
     const [subTab,          setSubTab]          = useState<SubTab>("explore")
     const [viewMode,        setViewMode]        = useState<ViewMode>("list")
     const [selected,        setSelected]        = useState<PublicNotebook | null>(null)
     const [selectedSection, setSelectedSection] = useState<ExploreSection | null>(null)
 
-    const [likedIds, setLikedIds] = useState<Set<string>>(() => {
-        if (typeof window === "undefined") return new Set()
-        return loadLiked()
-    })
-    const [likedSectionIds, setLikedSectionIds] = useState<Set<string>>(() => {
-        if (typeof window === "undefined") return new Set()
-        return loadLikedSections()
-    })
-    const [viewedIds, setViewedIds] = useState<string[]>(() => {
-        if (typeof window === "undefined") return []
-        return loadViewed()
-    })
+    const [trackedUserId, setTrackedUserId] = useState<string | undefined>(userId)
+    const [exploreData, setExploreData] = useState<{
+        likedIds: Set<string>
+        likedSectionIds: Set<string>
+        viewedIds: string[]
+    }>({ likedIds: new Set(), likedSectionIds: new Set(), viewedIds: [] })
+
+    // Reload per-account data from localStorage when the user changes.
+    // Calling setState during render (with a guard) is the React-recommended
+    // pattern for resetting derived state when an upstream value changes.
+    if (trackedUserId !== userId) {
+        setTrackedUserId(userId)
+        setExploreData({
+            likedIds: typeof window !== "undefined" ? loadLiked(userId) : new Set(),
+            likedSectionIds: typeof window !== "undefined" ? loadLikedSections(userId) : new Set(),
+            viewedIds: typeof window !== "undefined" ? loadViewed(userId) : [],
+        })
+    }
+
+    const { likedIds, likedSectionIds, viewedIds } = exploreData
 
     // Single SWR call — all sub-views read from this cache
     const { data: sections, isLoading, error } = useSWR<ExploreSection[]>(
@@ -57,19 +66,23 @@ export default function ExploreTab() {
         e.stopPropagation()
         const next = new Set(likedIds)
         if (next.has(id)) next.delete(id); else next.add(id)
-        saveLiked(next); setLikedIds(next)
+        saveLiked(next, userId)
+        setExploreData((prev) => ({ ...prev, likedIds: next }))
     }
 
     function toggleLikeSection(id: string, e: React.MouseEvent) {
         e.stopPropagation()
         const next = new Set(likedSectionIds)
         if (next.has(id)) next.delete(id); else next.add(id)
-        saveLikedSections(next); setLikedSectionIds(next)
+        saveLikedSections(next, userId)
+        setExploreData((prev) => ({ ...prev, likedSectionIds: next }))
     }
 
     function handleSelect(nb: PublicNotebook) {
         const next = [nb.id, ...viewedIds.filter((i) => i !== nb.id)].slice(0, 50)
-        saveViewed(next); setViewedIds(next); setSelected(nb)
+        saveViewed(next, userId)
+        setExploreData((prev) => ({ ...prev, viewedIds: next }))
+        setSelected(nb)
     }
 
     function handleViewMode(mode: ViewMode) {
