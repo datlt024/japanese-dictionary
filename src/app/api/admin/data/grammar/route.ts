@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
 
     let query = supabaseServer
         .from("grammars")
-        .select("id, pattern, display_pattern, jlpt_level, meaning_vi, short_meaning_vi, is_common, ai_status, slug, created_at", { count: "exact" })
+        .select("id, pattern, display_pattern, jlpt_level, meaning_vi, short_meaning_vi, explanation_vi, nuance_vi, is_common, ai_status, slug, created_at", { count: "exact" })
         .order("jlpt_level", { ascending: true })
         .order("id", { ascending: true })
         .range(offset, offset + PAGE_SIZE - 1)
@@ -72,12 +72,14 @@ export async function POST(request: NextRequest) {
             jlpt_level: jlptLevel,
             meaning_vi: meaningVi,
             short_meaning_vi: typeof body.short_meaning_vi === "string" ? body.short_meaning_vi.trim() || null : null,
+            explanation_vi: typeof body.explanation_vi === "string" ? body.explanation_vi.trim() || null : null,
+            nuance_vi: typeof body.nuance_vi === "string" ? body.nuance_vi.trim() || null : null,
             is_common: typeof body.is_common === "boolean" ? body.is_common : false,
             slug,
             source_id: sourceId,
             special_cases: [],
         })
-        .select("id, pattern, display_pattern, jlpt_level, meaning_vi, short_meaning_vi, is_common, ai_status, slug, created_at")
+        .select("id, pattern, display_pattern, jlpt_level, meaning_vi, short_meaning_vi, explanation_vi, nuance_vi, is_common, ai_status, slug, created_at")
         .single()
 
     if (error) return serverError(error, "POST /api/admin/data/grammar")

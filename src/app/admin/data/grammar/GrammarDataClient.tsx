@@ -11,6 +11,8 @@ export type GrammarRow = {
     jlpt_level: string
     meaning_vi: string
     short_meaning_vi: string | null
+    explanation_vi: string | null
+    nuance_vi: string | null
     is_common: boolean | null
     ai_status: string | null
     slug: string
@@ -37,6 +39,8 @@ function GrammarModal({
     const [jlptLevel, setJlptLevel] = useState(row?.jlpt_level ?? "N5")
     const [meaningVi, setMeaningVi] = useState(row?.meaning_vi ?? "")
     const [shortMeaning, setShortMeaning] = useState(row?.short_meaning_vi ?? "")
+    const [explanationVi, setExplanationVi] = useState(row?.explanation_vi ?? "")
+    const [nuanceVi, setNuanceVi] = useState(row?.nuance_vi ?? "")
     const [slug, setSlug] = useState(row?.slug ?? "")
     const [isCommon, setIsCommon] = useState(row?.is_common ?? false)
     const [saving, setSaving] = useState(false)
@@ -61,7 +65,7 @@ function GrammarModal({
     async function save() {
         setSaving(true); setError(null)
         try {
-            const body = { pattern, display_pattern: displayPattern || null, jlpt_level: jlptLevel, meaning_vi: meaningVi, short_meaning_vi: shortMeaning || null, slug, is_common: isCommon }
+            const body = { pattern, display_pattern: displayPattern || null, jlpt_level: jlptLevel, meaning_vi: meaningVi, short_meaning_vi: shortMeaning || null, explanation_vi: explanationVi || null, nuance_vi: nuanceVi || null, slug, is_common: isCommon }
             const url  = isNew ? "/api/admin/data/grammar" : `/api/admin/data/grammar/${row!.id}`
             const res  = await fetch(url, { method: isNew ? "POST" : "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
             const json = await res.json().catch(() => ({}))
@@ -120,6 +124,14 @@ function GrammarModal({
                     <div className={styles.fieldRow}>
                         <label className={styles.fieldLabel}>Nghĩa ngắn</label>
                         <input className={styles.fieldInput} value={shortMeaning} onChange={e => setShortMeaning(e.target.value)} placeholder="lỡ làm" />
+                    </div>
+                    <div className={styles.fieldRow}>
+                        <label className={styles.fieldLabel}>Giải thích (VI)</label>
+                        <textarea className={styles.fieldTextarea} value={explanationVi} onChange={e => setExplanationVi(e.target.value)} placeholder="Giải thích cách dùng, ngữ cảnh…" rows={4} />
+                    </div>
+                    <div className={styles.fieldRow}>
+                        <label className={styles.fieldLabel}>Sắc thái / Lưu ý</label>
+                        <textarea className={styles.fieldTextarea} value={nuanceVi} onChange={e => setNuanceVi(e.target.value)} placeholder="Điểm lưu ý, sắc thái khác biệt…" rows={3} />
                     </div>
                     <label className={styles.checkRow}>
                         <input type="checkbox" checked={isCommon} onChange={e => setIsCommon(e.target.checked)} />

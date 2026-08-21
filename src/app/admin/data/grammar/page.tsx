@@ -16,7 +16,7 @@ export default async function GrammarDataPage() {
 
     const { data, count } = await supabaseServer
         .from("grammars")
-        .select("id, pattern, display_pattern, jlpt_level, meaning_vi, short_meaning_vi, is_common, ai_status, slug, created_at", { count: "exact" })
+        .select("id, pattern, display_pattern, jlpt_level, meaning_vi, short_meaning_vi, explanation_vi, nuance_vi, is_common, ai_status, slug, created_at", { count: "exact" })
         .order("jlpt_level", { ascending: true })
         .order("id", { ascending: true })
         .range(0, 49)

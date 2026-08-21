@@ -46,6 +46,8 @@ export async function PATCH(request: NextRequest, { params }: Params) {
         patch.meaning_vi = v
     }
     if ("short_meaning_vi" in body) patch.short_meaning_vi = typeof body.short_meaning_vi === "string" ? body.short_meaning_vi.trim() || null : null
+    if ("explanation_vi" in body) patch.explanation_vi = typeof body.explanation_vi === "string" ? body.explanation_vi.trim() || null : null
+    if ("nuance_vi" in body) patch.nuance_vi = typeof body.nuance_vi === "string" ? body.nuance_vi.trim() || null : null
     if ("is_common" in body) patch.is_common = typeof body.is_common === "boolean" ? body.is_common : false
     if ("slug" in body) {
         const v = typeof body.slug === "string" ? body.slug.trim() : ""
@@ -59,7 +61,7 @@ export async function PATCH(request: NextRequest, { params }: Params) {
         .from("grammars")
         .update(patch)
         .eq("id", grammarId)
-        .select("id, pattern, display_pattern, jlpt_level, meaning_vi, short_meaning_vi, is_common, ai_status, slug, created_at")
+        .select("id, pattern, display_pattern, jlpt_level, meaning_vi, short_meaning_vi, explanation_vi, nuance_vi, is_common, ai_status, slug, created_at")
         .single()
 
     if (error) return serverError(error, `PATCH /api/admin/data/grammar/${id}`)
