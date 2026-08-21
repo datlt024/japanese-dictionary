@@ -102,6 +102,16 @@ export default function AuthModal({ open, onClose, initialError }: AuthModalProp
             }
 
             handleClose()
+            try {
+                const res = await fetch("/api/me/is-admin")
+                if (res.ok) {
+                    const { isAdmin } = await res.json() as { isAdmin: boolean }
+                    if (isAdmin) {
+                        router.push("/admin/dashboard")
+                        return
+                    }
+                }
+            } catch {}
             router.refresh()
         } catch {
             setError("Đã xảy ra lỗi. Vui lòng thử lại.")

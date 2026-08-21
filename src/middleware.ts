@@ -29,13 +29,27 @@ export async function middleware(request: NextRequest) {
     // Refresh session — do not remove; required for SSR auth to work
     const { data: { user } } = await supabase.auth.getUser()
 
-    // Guard all /api/admin/* routes at the edge — must be authenticated
-    if (request.nextUrl.pathname.startsWith("/api/admin")) {
+    const pathname = request.nextUrl.pathname
+
+    // Guard /api/admin/* routes — must be authenticated
+    if (pathname.startsWith("/api/admin")) {
         if (!user) {
             return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 401 })
         }
-        // Note: admin role check (app_metadata.role === "admin") is done in each route handler
-        // Middleware only ensures a session exists, avoiding service-role calls at the edge
+        // Admin role check (app_metadata.role === "admin") is done in each route handler
+    }
+
+    // Guard /admin/* pages — must be authenticated and have admin role
+    if (pathname.startsWith("/admin")) {
+        if (!user) {
+            return NextResponse.redirect(new URL("/", request.url))
+        }
+        const adminIds = (process.env.ADMIN_USER_IDS ?? "")
+            .split(",").map(s => s.trim()).filter(Boolean)
+        const isAdmin = adminIds.includes(user.id) || user.app_metadata?.role === "admin"
+        if (!isAdmin) {
+            return NextResponse.redirect(new URL("/", request.url))
+        }
     }
 
     return supabaseResponse
