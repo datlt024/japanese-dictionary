@@ -439,6 +439,33 @@
     justify-content: flex-end;
 }
 
+/* ── Inline error banner (toggle/op errors) ── */
+.toggleError {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 12px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: var(--color-danger-soft);
+    border: 1px solid #FECACA;
+    color: var(--color-danger);
+    font-size: 13px;
+    font-weight: 500;
+}
+.toggleErrorClose {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-danger);
+    font-size: 12px;
+    padding: 0 2px;
+    line-height: 1;
+    opacity: 0.7;
+}
+
 /* ── Error ── */
 .modalError {
     margin: 0 20px 16px;

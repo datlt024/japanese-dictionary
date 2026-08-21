@@ -337,6 +337,7 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
     const [selectedNotebook, setSelectedNotebook] = useState<NotebookRow | null>(null)
     const [togglingGroup, setTogglingGroup] = useState<string | null>(null)
     const [togglingNb, setTogglingNb] = useState<string | null>(null)
+    const [toggleError, setToggleError] = useState<string | null>(null)
 
     const q = search.toLowerCase()
 
@@ -382,27 +383,34 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
         const allPublic = children.every(n => n.is_public)
         const nextPublic = !allPublic
         setTogglingGroup(group.id)
+        setToggleError(null)
         try {
-            await Promise.all(children.map(child =>
+            const results = await Promise.all(children.map(child =>
                 fetch(`/api/admin/notebooks/${child.id}`, {
                     method: "PATCH", headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ is_public: nextPublic }),
                 })
             ))
+            if (results.some(r => !r.ok)) { setToggleError("Một số sổ tay không thể cập nhật."); return }
             setNotebooks(prev => prev.map(n => n.group_id === group.id ? { ...n, is_public: nextPublic } : n))
+        } catch {
+            setToggleError("Lỗi kết nối. Vui lòng thử lại.")
         } finally { setTogglingGroup(null) }
     }
 
     async function toggleNotebookPublic(row: NotebookRow) {
         const nextPublic = !row.is_public
         setTogglingNb(row.id)
+        setToggleError(null)
         try {
             const res = await fetch(`/api/admin/notebooks/${row.id}`, {
                 method: "PATCH", headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ is_public: nextPublic }),
             })
-            if (!res.ok) return
+            if (!res.ok) { setToggleError("Không thể cập nhật trạng thái. Vui lòng thử lại."); return }
             setNotebooks(prev => prev.map(n => n.id === row.id ? { ...n, is_public: nextPublic } : n))
+        } catch {
+            setToggleError("Lỗi kết nối. Vui lòng thử lại.")
         } finally { setTogglingNb(null) }
     }
 
@@ -419,6 +427,13 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
                         <p className={styles.pageSubtitle}>{totalGroups} nhóm · {totalNotebooks} sổ tay</p>
                     </div>
                 </div>
+
+                {toggleError && (
+                    <div className={styles.toggleError} role="alert">
+                        {toggleError}
+                        <button type="button" className={styles.toggleErrorClose} onClick={() => setToggleError(null)}>✕</button>
+                    </div>
+                )}
 
                 {/* Search */}
                 <div className={styles.filterBar}>
