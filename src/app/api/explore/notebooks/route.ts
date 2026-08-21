@@ -8,7 +8,7 @@ import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 const getCachedExploreSections = unstable_cache(
     () => listExploreSections(supabaseAdmin),
     ["explore-sections"],
-    { revalidate: 300 }
+    { revalidate: 300, tags: ["explore-sections"] }
 )
 
 export async function GET(req: NextRequest) {
@@ -21,7 +21,5 @@ export async function GET(req: NextRequest) {
         return serverError(error, "GET /api/explore/notebooks")
     }
 
-    return NextResponse.json(data ?? [], {
-        headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=3600" },
-    })
+    return NextResponse.json(data ?? [])
 }
