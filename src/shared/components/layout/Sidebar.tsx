@@ -120,7 +120,7 @@ export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
                     {/* Sections */}
                     {adminSections.map(section => (
                         <div key={section.label} className={styles.navSection}>
-                            <span className={styles.navSectionLabel}>{section.label}</span>
+                            {!collapsed && <span className={styles.navSectionLabel}>{section.label}</span>}
                             {section.items.map(item => (
                                 <NavLink key={item.href} href={item.href} label={item.label} Icon={item.Icon} collapsed={collapsed} pathname={pathname} child />
                             ))}
