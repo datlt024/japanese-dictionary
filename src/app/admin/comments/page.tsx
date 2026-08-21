@@ -32,17 +32,17 @@ export default async function AdminCommentsPage({ searchParams }: Props) {
 
     const offset = page * PAGE_SIZE
 
-    let query = supabaseServer
+    let baseQuery = supabaseServer
         .from("word_comments")
-        .select("id, user_id, entry_type, entry_id, content, likes_count, created_at, user_profiles(display_name)", { count: "exact" })
+        .select("id, user_id, entry_type, entry_id, content, likes_count, created_at", { count: "exact" })
         .order("created_at", { ascending: false })
         .range(offset, offset + PAGE_SIZE - 1)
 
     if (entryType && ["vocabulary", "kanji", "grammar"].includes(entryType)) {
-        query = query.eq("entry_type", entryType)
+        baseQuery = baseQuery.eq("entry_type", entryType)
     }
 
-    const { data: comments, count, error } = await query
+    const { data: comments, count, error } = await baseQuery
 
     if (error) {
         return (
@@ -57,12 +57,17 @@ export default async function AdminCommentsPage({ searchParams }: Props) {
     const total = count ?? 0
     const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE))
 
-    type CommentRow = typeof comments extends (infer T)[] | null ? T : never
-    type CommentWithProfile = CommentRow & {
-        user_profiles: { display_name: string } | null
+    const userIds = [...new Set((comments ?? []).map((c) => c.user_id).filter(Boolean))]
+    const profileMap: Record<string, string> = {}
+    if (userIds.length > 0) {
+        const { data: profiles } = await supabaseServer
+            .from("user_profiles")
+            .select("user_id, display_name")
+            .in("user_id", userIds)
+        for (const p of profiles ?? []) {
+            if (p.user_id) profileMap[p.user_id] = p.display_name
+        }
     }
-
-    const rows = (comments ?? []) as unknown as CommentWithProfile[]
 
     return (
         <AppLayout title="Bình luận" hideSearch>
@@ -75,10 +80,10 @@ export default async function AdminCommentsPage({ searchParams }: Props) {
                 </div>
 
                 <CommentsClient
-                    comments={rows.map((c) => ({
+                    comments={(comments ?? []).map((c) => ({
                         id: c.id,
                         user_id: c.user_id,
-                        display_name: c.user_profiles?.display_name ?? "Ẩn danh",
+                        display_name: profileMap[c.user_id] ?? "Ẩn danh",
                         entry_type: c.entry_type,
                         entry_id: c.entry_id,
                         content: c.content,
