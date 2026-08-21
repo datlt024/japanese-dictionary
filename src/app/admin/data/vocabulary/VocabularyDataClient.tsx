@@ -13,6 +13,7 @@ export type VocabRow = {
     is_common: boolean | null
     verb_group: string | null
     created_at: string | null
+    vocabulary_senses?: { meaning_vi: string | null; meaning_en: string | null }[] | null
 }
 
 const JLPT_OPTIONS = ["N5", "N4", "N3", "N2", "N1"]
@@ -244,7 +245,7 @@ export default function VocabularyDataClient({ initialRows, initialTotal }: { in
                             <th className={styles.th}>ID</th>
                             <th className={styles.th}>Từ</th>
                             <th className={styles.th}>Kana</th>
-                            <th className={styles.th}>Romaji</th>
+                            <th className={styles.th}>Nghĩa</th>
                             <th className={`${styles.th} ${styles.thCenter}`}>JLPT</th>
                             <th className={`${styles.th} ${styles.thCenter}`}>Phổ biến</th>
                             <th className={styles.th}>Nhóm ĐT</th>
@@ -260,7 +261,9 @@ export default function VocabularyDataClient({ initialRows, initialTotal }: { in
                                 <td className={`${styles.td} ${styles.idCell}`}>#{r.id}</td>
                                 <td className={`${styles.td} ${styles.monoCell}`}>{r.primary_word}</td>
                                 <td className={styles.td}>{r.primary_kana ?? "—"}</td>
-                                <td className={styles.td}>{r.romaji ?? "—"}</td>
+                                <td className={`${styles.td} ${styles.meaningCell}`}>
+                                    {r.vocabulary_senses?.map(s => s.meaning_vi ?? s.meaning_en).filter(Boolean).join("; ") || "—"}
+                                </td>
                                 <td className={`${styles.td} ${styles.tdCenter}`}><JlptBadge level={r.jlpt} /></td>
                                 <td className={`${styles.td} ${styles.tdCenter}`}>
                                     {r.is_common ? <span className={styles.commonBadge}>Phổ biến</span> : "—"}

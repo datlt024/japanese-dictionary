@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
 
     let query = supabaseServer
         .from("vocabularies")
-        .select("id, primary_word, primary_kana, romaji, jlpt, is_common, verb_group, created_at", { count: "exact" })
+        .select("id, primary_word, primary_kana, romaji, jlpt, is_common, verb_group, created_at, vocabulary_senses(meaning_vi, meaning_en)", { count: "exact" })
         .order("id", { ascending: true })
         .range(offset, offset + PAGE_SIZE - 1)
 
