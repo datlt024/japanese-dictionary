@@ -641,6 +641,50 @@
 }
 .removeSenseBtn:hover { color: var(--color-danger); background: var(--color-danger-soft); }
 
+/* ── Kanji readonly display in edit modal ── */
+.kanjiReadonlyRow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 16px;
+    background: var(--color-bg-subtle, #F7F8FA);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+}
+
+.kanjiReadonlyChar {
+    font-size: 42px;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    flex-shrink: 0;
+    width: 52px;
+    text-align: center;
+}
+
+.kanjiReadonlyMeta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+}
+
+.kanjiMetaItem {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    font-size: 13px;
+    color: var(--color-text-secondary);
+}
+
+.kanjiMetaLabel {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+}
+
 .senseConfirm {
     display: flex;
     align-items: center;

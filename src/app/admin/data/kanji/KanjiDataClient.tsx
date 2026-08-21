@@ -58,17 +58,24 @@ function KanjiModal({
     async function save() {
         setSaving(true); setError(null)
         try {
-            const body = {
-                kanji,
-                meaning_vi: meaningVi || null,
-                meaning_en: meaningEn || null,
-                onyomi: onyomi || null,
-                kunyomi: kunyomi || null,
-                han_viet: hanViet || null,
-                jlpt: jlpt ? Number(jlpt) : null,
-                stroke_count: strokeCount ? Number(strokeCount) : null,
-                memory_tip: memoryTip || null,
-            }
+            const body = isNew
+                ? {
+                    kanji,
+                    meaning_vi: meaningVi || null,
+                    meaning_en: meaningEn || null,
+                    onyomi: onyomi || null,
+                    kunyomi: kunyomi || null,
+                    han_viet: hanViet || null,
+                    jlpt: jlpt ? Number(jlpt) : null,
+                    stroke_count: strokeCount ? Number(strokeCount) : null,
+                    memory_tip: memoryTip || null,
+                }
+                : {
+                    jlpt: jlpt ? Number(jlpt) : null,
+                    meaning_vi: meaningVi || null,
+                    meaning_en: meaningEn || null,
+                    han_viet: hanViet || null,
+                }
             const url  = isNew ? "/api/admin/data/kanji" : `/api/admin/data/kanji/${row!.id}`
             const res  = await fetch(url, { method: isNew ? "POST" : "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
             const json = await res.json().catch(() => ({}))
@@ -96,58 +103,96 @@ function KanjiModal({
                 </div>
 
                 <div className={styles.modalForm}>
-                    <div className={styles.fieldRow2}>
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>Kanji *</label>
-                            <input className={styles.fieldInput} value={kanji} onChange={e => setKanji(e.target.value)} placeholder="食" style={{ fontSize: 22, textAlign: "center" }} />
-                        </div>
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>JLPT (1–5)</label>
-                            <select className={styles.fieldSelect} value={jlpt} onChange={e => setJlpt(e.target.value)}>
-                                <option value="">— Chưa xác định —</option>
-                                <option value="5">N5</option>
-                                <option value="4">N4</option>
-                                <option value="3">N3</option>
-                                <option value="2">N2</option>
-                                <option value="1">N1</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div className={styles.fieldRow2}>
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>Nghĩa (VI)</label>
-                            <input className={styles.fieldInput} value={meaningVi} onChange={e => setMeaningVi(e.target.value)} placeholder="ăn, thực phẩm" />
-                        </div>
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>Nghĩa (EN)</label>
-                            <input className={styles.fieldInput} value={meaningEn} onChange={e => setMeaningEn(e.target.value)} placeholder="eat, food" />
-                        </div>
-                    </div>
-                    <div className={styles.fieldRow2}>
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>Âm on</label>
-                            <input className={styles.fieldInput} value={onyomi} onChange={e => setOnyomi(e.target.value)} placeholder="ショク、ジキ" />
-                        </div>
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>Âm kun</label>
-                            <input className={styles.fieldInput} value={kunyomi} onChange={e => setKunyomi(e.target.value)} placeholder="た.べる、く.う" />
-                        </div>
-                    </div>
-                    <div className={styles.fieldRow2}>
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>Hán Việt</label>
-                            <input className={styles.fieldInput} value={hanViet} onChange={e => setHanViet(e.target.value)} placeholder="THỰC" />
-                        </div>
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>Số nét</label>
-                            <input className={styles.fieldInput} type="number" min={1} max={64} value={strokeCount} onChange={e => setStrokeCount(e.target.value)} placeholder="9" />
-                        </div>
-                    </div>
-                    {isNew && (
-                        <div className={styles.fieldRow}>
-                            <label className={styles.fieldLabel}>Gợi nhớ</label>
-                            <textarea className={styles.fieldTextarea} value={memoryTip} onChange={e => setMemoryTip(e.target.value)} placeholder="Mẹo ghi nhớ…" />
-                        </div>
+                    {isNew ? (
+                        <>
+                            <div className={styles.fieldRow2}>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Kanji *</label>
+                                    <input className={styles.fieldInput} value={kanji} onChange={e => setKanji(e.target.value)} placeholder="食" style={{ fontSize: 22, textAlign: "center" }} />
+                                </div>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>JLPT (1–5)</label>
+                                    <select className={styles.fieldSelect} value={jlpt} onChange={e => setJlpt(e.target.value)}>
+                                        <option value="">— Chưa xác định —</option>
+                                        <option value="5">N5</option>
+                                        <option value="4">N4</option>
+                                        <option value="3">N3</option>
+                                        <option value="2">N2</option>
+                                        <option value="1">N1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div className={styles.fieldRow2}>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Nghĩa (VI)</label>
+                                    <input className={styles.fieldInput} value={meaningVi} onChange={e => setMeaningVi(e.target.value)} placeholder="ăn, thực phẩm" />
+                                </div>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Nghĩa (EN)</label>
+                                    <input className={styles.fieldInput} value={meaningEn} onChange={e => setMeaningEn(e.target.value)} placeholder="eat, food" />
+                                </div>
+                            </div>
+                            <div className={styles.fieldRow2}>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Âm on</label>
+                                    <input className={styles.fieldInput} value={onyomi} onChange={e => setOnyomi(e.target.value)} placeholder="ショク、ジキ" />
+                                </div>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Âm kun</label>
+                                    <input className={styles.fieldInput} value={kunyomi} onChange={e => setKunyomi(e.target.value)} placeholder="た.べる、く.う" />
+                                </div>
+                            </div>
+                            <div className={styles.fieldRow2}>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Hán Việt</label>
+                                    <input className={styles.fieldInput} value={hanViet} onChange={e => setHanViet(e.target.value)} placeholder="THỰC" />
+                                </div>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Số nét</label>
+                                    <input className={styles.fieldInput} type="number" min={1} max={64} value={strokeCount} onChange={e => setStrokeCount(e.target.value)} placeholder="9" />
+                                </div>
+                            </div>
+                            <div className={styles.fieldRow}>
+                                <label className={styles.fieldLabel}>Gợi nhớ</label>
+                                <textarea className={styles.fieldTextarea} value={memoryTip} onChange={e => setMemoryTip(e.target.value)} placeholder="Mẹo ghi nhớ…" />
+                            </div>
+                        </>
+                    ) : (
+                        <>
+                            <div className={styles.kanjiReadonlyRow}>
+                                <span className={styles.kanjiReadonlyChar}>{row!.kanji}</span>
+                                <div className={styles.kanjiReadonlyMeta}>
+                                    {row!.onyomi && <span className={styles.kanjiMetaItem}><span className={styles.kanjiMetaLabel}>On</span>{row!.onyomi}</span>}
+                                    {row!.kunyomi && <span className={styles.kanjiMetaItem}><span className={styles.kanjiMetaLabel}>Kun</span>{row!.kunyomi}</span>}
+                                    {row!.stroke_count && <span className={styles.kanjiMetaItem}><span className={styles.kanjiMetaLabel}>Nét</span>{row!.stroke_count}</span>}
+                                </div>
+                            </div>
+                            <div className={styles.fieldRow}>
+                                <label className={styles.fieldLabel}>JLPT</label>
+                                <select className={styles.fieldSelect} value={jlpt} onChange={e => setJlpt(e.target.value)}>
+                                    <option value="">— Chưa xác định —</option>
+                                    <option value="5">N5</option>
+                                    <option value="4">N4</option>
+                                    <option value="3">N3</option>
+                                    <option value="2">N2</option>
+                                    <option value="1">N1</option>
+                                </select>
+                            </div>
+                            <div className={styles.fieldRow2}>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Nghĩa (VI)</label>
+                                    <input className={styles.fieldInput} value={meaningVi} onChange={e => setMeaningVi(e.target.value)} placeholder="ăn, thực phẩm" />
+                                </div>
+                                <div className={styles.fieldRow}>
+                                    <label className={styles.fieldLabel}>Nghĩa (EN)</label>
+                                    <input className={styles.fieldInput} value={meaningEn} onChange={e => setMeaningEn(e.target.value)} placeholder="eat, food" />
+                                </div>
+                            </div>
+                            <div className={styles.fieldRow}>
+                                <label className={styles.fieldLabel}>Hán Việt</label>
+                                <input className={styles.fieldInput} value={hanViet} onChange={e => setHanViet(e.target.value)} placeholder="THỰC" />
+                            </div>
+                        </>
                     )}
                 </div>
 
