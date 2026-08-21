@@ -31,7 +31,7 @@ export async function GET(request: NextRequest) {
         .order("id", { ascending: true })
         .range(offset, offset + PAGE_SIZE - 1)
 
-    if (q) query = query.or(`pattern.ilike.%${q}%,display_pattern.ilike.%${q}%,meaning_vi.ilike.%${q}%`)
+    if (q && q.length >= 2) query = query.or(`pattern.ilike.%${q}%,display_pattern.ilike.%${q}%,meaning_vi.ilike.%${q}%`)
     if (jlpt && JLPT_VALUES.includes(jlpt)) query = query.eq("jlpt_level", jlpt)
 
     const { data, error, count } = await query

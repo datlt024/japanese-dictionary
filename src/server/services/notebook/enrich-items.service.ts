@@ -51,7 +51,8 @@ export async function enrichItems(items: NotebookItem[]): Promise<EnrichedNotebo
             .from("kanjis")
             .select("kanji, han_viet")
             .in("kanji", vocabKanjiChars)
-        : { data: [] }
+        : { data: [], error: null }
+    if (vocabKanjiResult.error) throw vocabKanjiResult.error
     const hanVietMap = new Map((vocabKanjiResult.data ?? []).map((k) => [k.kanji, k.han_viet]))
 
     return items.map((item): EnrichedNotebookItem => {
