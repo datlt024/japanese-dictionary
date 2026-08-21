@@ -2,6 +2,8 @@ import { defineConfig } from "vitest/config"
 import react from "@vitejs/plugin-react"
 import path from "path"
 
+const root = import.meta.dirname
+
 export default defineConfig({
     plugins: [react()],
     test: {
@@ -21,9 +23,9 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            "@": path.resolve(__dirname, "./src"),
+            "@": path.resolve(root, "./src"),
             // Allow testing server-only modules in vitest (no browser runtime guard needed)
-            "server-only": path.resolve(__dirname, "./src/test-server-only.ts"),
+            "server-only": path.resolve(root, "./src/test-server-only.ts"),
         },
     },
 })
