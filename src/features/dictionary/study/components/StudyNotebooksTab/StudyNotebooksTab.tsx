@@ -113,6 +113,7 @@ export default function StudyNotebooksTab() {
 
     const [page,           setPage]           = useState(1)
     const [collapsedGroups,setCollapsedGroups]= useState<Set<string>>(new Set())
+    const groupsInitialized = useRef(false)
     const [menuOpenId,     setMenuOpenId]     = useState<string | null>(null)
     const [editingGroupId, setEditingGroupId] = useState<string | null>(null)
     const [editGroupName,  setEditGroupName]  = useState("")
@@ -158,6 +159,14 @@ export default function StudyNotebooksTab() {
         document.addEventListener("click", handler)
         return () => document.removeEventListener("click", handler)
     }, [menuOpenId])
+
+    // Collapse all groups by default on first load
+    useEffect(() => {
+        if (!groupsInitialized.current && groups.length > 0) {
+            groupsInitialized.current = true
+            setCollapsedGroups(new Set(groups.map(g => g.id)))
+        }
+    }, [groups])
 
     const selectedNotebook = notebooks.find(nb => nb.id === selectedId) ?? null
 
