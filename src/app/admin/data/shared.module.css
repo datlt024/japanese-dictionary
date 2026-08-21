@@ -539,6 +539,108 @@
     font-size: 13px;
 }
 
+/* ── Senses section in vocab modal ── */
+.sensesSection {
+    border-top: 1px solid var(--color-border);
+    padding-top: 14px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sensesHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sensesLabel {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+}
+
+.addSenseBtn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--color-border);
+    background: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.addSenseBtn:hover { background: var(--color-primary-soft, #EFF6FF); }
+
+.sensesHint {
+    font-size: 13px;
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+.sensesList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.senseRow {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.senseIdx {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--color-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    margin-top: 10px;
+}
+
+.senseInputs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.senseEnInput {
+    font-size: 12px !important;
+    color: var(--color-text-secondary) !important;
+}
+
+.removeSenseBtn {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    transition: color 0.15s, background 0.15s;
+}
+.removeSenseBtn:hover { color: var(--color-danger); background: var(--color-danger-soft); }
+
 @media (max-width: 700px) {
     .pageHeader { flex-direction: column; align-items: flex-start; }
     .filterBar  { flex-direction: column; align-items: stretch; }

@@ -4,6 +4,13 @@ import { useState, useEffect, useCallback, useRef } from "react"
 import { Plus, Search, X, Trash2 } from "lucide-react"
 import styles from "../shared.module.css"
 
+export type VocabSense = {
+    id: number
+    meaning_vi: string | null
+    meaning_en: string | null
+    sense_index: number
+}
+
 export type VocabRow = {
     id: number
     primary_word: string
@@ -13,7 +20,7 @@ export type VocabRow = {
     is_common: boolean | null
     verb_group: string | null
     created_at: string | null
-    vocabulary_senses?: { meaning_vi: string | null; meaning_en: string | null }[] | null
+    vocabulary_senses?: VocabSense[] | null
 }
 
 const JLPT_OPTIONS = ["N5", "N4", "N3", "N2", "N1"]
@@ -22,6 +29,11 @@ function JlptBadge({ level }: { level: string | null }) {
     if (!level) return <span style={{ color: "var(--color-text-muted)" }}>—</span>
     return <span className={`${styles.jlptBadge} ${styles[`jlpt${level}`]}`}>{level}</span>
 }
+
+type DraftSense = { key: string; id?: number; meaning_vi: string; meaning_en: string }
+
+let _senseKey = 0
+function newKey() { return `s${++_senseKey}` }
 
 /* ── Edit / Create Modal ── */
 function VocabModal({
@@ -39,6 +51,12 @@ function VocabModal({
     const [jlpt, setJlpt] = useState(row?.jlpt ?? "")
     const [isCommon, setIsCommon] = useState(row?.is_common ?? false)
     const [verbGroup, setVerbGroup] = useState(row?.verb_group ?? "")
+    const [senses, setSenses] = useState<DraftSense[]>(() =>
+        (row?.vocabulary_senses ?? []).map(s => ({
+            key: newKey(), id: s.id, meaning_vi: s.meaning_vi ?? "", meaning_en: s.meaning_en ?? "",
+        }))
+    )
+    const [deletedIds, setDeletedIds] = useState<number[]>([])
     const [saving, setSaving] = useState(false)
     const [deleting, setDeleting] = useState(false)
     const [confirmDelete, setConfirmDelete] = useState(false)
@@ -52,12 +70,32 @@ function VocabModal({
         return () => document.removeEventListener("keydown", h)
     }, [onClose])
 
+    function addSense() { setSenses(prev => [...prev, { key: newKey(), meaning_vi: "", meaning_en: "" }]) }
+    function updateSense(key: string, field: "meaning_vi" | "meaning_en", val: string) {
+        setSenses(prev => prev.map(s => s.key === key ? { ...s, [field]: val } : s))
+    }
+    function removeSense(key: string) {
+        setSenses(prev => {
+            const target = prev.find(s => s.key === key)
+            if (target?.id) setDeletedIds(d => [...d, target.id!])
+            return prev.filter(s => s.key !== key)
+        })
+    }
+
     async function save() {
         setSaving(true); setError(null)
         try {
-            const body = {
+            const body: Record<string, unknown> = {
                 primary_word: primaryWord, primary_kana: primaryKana || null, romaji: romaji || null,
                 jlpt: jlpt || null, is_common: isCommon, verb_group: verbGroup || null,
+            }
+            if (!isNew) {
+                body.senses_upsert = senses.filter(s => s.meaning_vi.trim()).map(s => ({
+                    ...(s.id ? { id: s.id } : {}),
+                    meaning_vi: s.meaning_vi,
+                    meaning_en: s.meaning_en || null,
+                }))
+                body.senses_delete = deletedIds
             }
             const url  = isNew ? "/api/admin/data/vocabulary" : `/api/admin/data/vocabulary/${row!.id}`
             const res  = await fetch(url, { method: isNew ? "POST" : "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
@@ -81,7 +119,7 @@ function VocabModal({
         <div className={styles.modalOverlay} onClick={e => { if (e.target === e.currentTarget) onClose() }}>
             <div className={styles.modal} role="dialog" aria-modal="true">
                 <div className={styles.modalHeader}>
-                    <p className={styles.modalTitle}>{isNew ? "Thêm từ vựng" : `Sửa #${row!.id}`}</p>
+                    <p className={styles.modalTitle}>{isNew ? "Thêm từ vựng" : `Sửa #${row!.id} — ${row!.primary_word}`}</p>
                     <button className={styles.modalClose} onClick={onClose}><X size={16} /></button>
                 </div>
 
@@ -123,6 +161,48 @@ function VocabModal({
                         <input type="checkbox" checked={isCommon} onChange={e => setIsCommon(e.target.checked)} />
                         <span className={styles.checkLabel}>Từ phổ biến</span>
                     </label>
+
+                    {/* ── Senses section ── */}
+                    <div className={styles.sensesSection}>
+                        <div className={styles.sensesHeader}>
+                            <span className={styles.sensesLabel}>Ý nghĩa</span>
+                            {!isNew && (
+                                <button type="button" className={styles.addSenseBtn} onClick={addSense}>
+                                    <Plus size={12} /> Thêm nghĩa
+                                </button>
+                            )}
+                        </div>
+                        {isNew ? (
+                            <p className={styles.sensesHint}>Lưu từ trước, sau đó mở lại để thêm nghĩa.</p>
+                        ) : senses.length === 0 ? (
+                            <p className={styles.sensesHint}>Chưa có nghĩa nào. Nhấn &ldquo;Thêm nghĩa&rdquo; để thêm.</p>
+                        ) : (
+                            <div className={styles.sensesList}>
+                                {senses.map((s, i) => (
+                                    <div key={s.key} className={styles.senseRow}>
+                                        <span className={styles.senseIdx}>{i + 1}</span>
+                                        <div className={styles.senseInputs}>
+                                            <input
+                                                className={styles.fieldInput}
+                                                value={s.meaning_vi}
+                                                onChange={e => updateSense(s.key, "meaning_vi", e.target.value)}
+                                                placeholder="Nghĩa tiếng Việt"
+                                            />
+                                            <input
+                                                className={`${styles.fieldInput} ${styles.senseEnInput}`}
+                                                value={s.meaning_en}
+                                                onChange={e => updateSense(s.key, "meaning_en", e.target.value)}
+                                                placeholder="Nghĩa tiếng Anh (tuỳ chọn)"
+                                            />
+                                        </div>
+                                        <button type="button" className={styles.removeSenseBtn} onClick={() => removeSense(s.key)} title="Xóa nghĩa này">
+                                            <X size={13} />
+                                        </button>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
                 </div>
 
                 {confirmDelete && (

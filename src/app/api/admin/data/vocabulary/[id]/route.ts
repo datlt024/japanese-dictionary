@@ -39,17 +39,84 @@ export async function PATCH(request: NextRequest, { params }: Params) {
     if ("is_common" in body) patch.is_common = typeof body.is_common === "boolean" ? body.is_common : false
     if ("verb_group" in body) patch.verb_group = typeof body.verb_group === "string" ? body.verb_group.trim() || null : null
 
-    if (Object.keys(patch).length === 0) return NextResponse.json({ error: "Không có trường nào để cập nhật" }, { status: 400 })
+    const sensesUpsert = Array.isArray(body.senses_upsert) ? body.senses_upsert as { id?: number; meaning_vi: string; meaning_en?: string | null }[] : null
+    const sensesDelete = Array.isArray(body.senses_delete) ? (body.senses_delete as unknown[]).filter(x => typeof x === "number") as number[] : null
 
-    const { data, error } = await supabaseServer
-        .from("vocabularies")
-        .update(patch)
-        .eq("id", vocabId)
-        .select("id, primary_word, primary_kana, romaji, jlpt, is_common, verb_group, created_at")
-        .single()
+    if (Object.keys(patch).length === 0 && !sensesUpsert && !sensesDelete) {
+        return NextResponse.json({ error: "Không có trường nào để cập nhật" }, { status: 400 })
+    }
 
-    if (error) return serverError(error, `PATCH /api/admin/data/vocabulary/${id}`)
-    return NextResponse.json(data)
+    let vocabData = null
+    if (Object.keys(patch).length > 0) {
+        const { data, error } = await supabaseServer
+            .from("vocabularies")
+            .update(patch)
+            .eq("id", vocabId)
+            .select("id, primary_word, primary_kana, romaji, jlpt, is_common, verb_group, created_at")
+            .single()
+        if (error) return serverError(error, `PATCH /api/admin/data/vocabulary/${id}`)
+        vocabData = data
+    } else {
+        const { data, error } = await supabaseServer
+            .from("vocabularies")
+            .select("id, primary_word, primary_kana, romaji, jlpt, is_common, verb_group, created_at")
+            .eq("id", vocabId)
+            .single()
+        if (error) return serverError(error, `PATCH /api/admin/data/vocabulary/${id}`)
+        vocabData = data
+    }
+
+    if (sensesDelete && sensesDelete.length > 0) {
+        const { error } = await supabaseServer
+            .from("vocabulary_senses")
+            .delete()
+            .in("id", sensesDelete)
+            .eq("vocabulary_id", vocabId)
+        if (error) return serverError(error, `PATCH /api/admin/data/vocabulary/${id} senses_delete`)
+    }
+
+    if (sensesUpsert && sensesUpsert.length > 0) {
+        const toInsert = sensesUpsert.filter(s => !s.id)
+        const toUpdate = sensesUpsert.filter(s => s.id)
+
+        if (toInsert.length > 0) {
+            const maxIdx = await supabaseServer
+                .from("vocabulary_senses")
+                .select("sense_index")
+                .eq("vocabulary_id", vocabId)
+                .order("sense_index", { ascending: false })
+                .limit(1)
+                .single()
+            const nextIdx = (maxIdx.data?.sense_index ?? -1) + 1
+
+            const { error } = await supabaseServer.from("vocabulary_senses").insert(
+                toInsert.map((s, i) => ({
+                    vocabulary_id: vocabId,
+                    meaning_vi: s.meaning_vi.trim() || null,
+                    meaning_en: s.meaning_en?.trim() || null,
+                    sense_index: nextIdx + i,
+                }))
+            )
+            if (error) return serverError(error, `PATCH /api/admin/data/vocabulary/${id} senses_insert`)
+        }
+
+        for (const s of toUpdate) {
+            const { error } = await supabaseServer
+                .from("vocabulary_senses")
+                .update({ meaning_vi: s.meaning_vi.trim() || null, meaning_en: s.meaning_en?.trim() || null })
+                .eq("id", s.id!)
+                .eq("vocabulary_id", vocabId)
+            if (error) return serverError(error, `PATCH /api/admin/data/vocabulary/${id} senses_update`)
+        }
+    }
+
+    const { data: senses } = await supabaseServer
+        .from("vocabulary_senses")
+        .select("id, meaning_vi, meaning_en, sense_index")
+        .eq("vocabulary_id", vocabId)
+        .order("sense_index", { ascending: true })
+
+    return NextResponse.json({ ...vocabData, vocabulary_senses: senses ?? [] })
 }
 
 export async function DELETE(_request: NextRequest, { params }: Params) {
