@@ -4,7 +4,7 @@ import Link from "next/link"
 import {
     BookText, Pen, GraduationCap,
     BookOpen, Layers, Dumbbell, MessageSquare,
-    ArrowRight, RefreshCw, Users,
+    ArrowRight, RefreshCw, Users, Database,
 } from "lucide-react"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
@@ -274,19 +274,34 @@ export default async function AdminDashboardPage() {
                             </div>
                             <ArrowRight size={16} className={styles.toolArrow} />
                         </Link>
-                        <Link href="/grammar" className={styles.toolCard}>
-                            <Pen size={20} className={styles.toolIcon} />
+                    </div>
+                </section>
+
+                {/* ── Section: Quản lý dữ liệu ── */}
+                <section className={styles.section}>
+                    <h3 className={styles.sectionLabel}>Quản lý dữ liệu</h3>
+                    <div className={styles.toolGrid}>
+                        <Link href="/admin/data/vocabulary" className={styles.toolCard}>
+                            <BookText size={20} className={styles.toolIcon} />
                             <div>
-                                <p className={styles.toolName}>Ngữ pháp</p>
-                                <p className={styles.toolDesc}>Duyệt toàn bộ ngữ pháp trong DB</p>
+                                <p className={styles.toolName}>Từ vựng</p>
+                                <p className={styles.toolDesc}>Thêm, sửa, xóa từ vựng trong DB</p>
                             </div>
                             <ArrowRight size={16} className={styles.toolArrow} />
                         </Link>
-                        <Link href="/kanji" className={styles.toolCard}>
-                            <span className={styles.toolKanji}>字</span>
+                        <Link href="/admin/data/grammar" className={styles.toolCard}>
+                            <Pen size={20} className={styles.toolIcon} />
+                            <div>
+                                <p className={styles.toolName}>Ngữ pháp</p>
+                                <p className={styles.toolDesc}>Thêm, sửa, xóa mẫu ngữ pháp</p>
+                            </div>
+                            <ArrowRight size={16} className={styles.toolArrow} />
+                        </Link>
+                        <Link href="/admin/data/kanji" className={styles.toolCard}>
+                            <Database size={20} className={styles.toolIcon} />
                             <div>
                                 <p className={styles.toolName}>Hán tự</p>
-                                <p className={styles.toolDesc}>Tra cứu và kiểm tra dữ liệu hán tự</p>
+                                <p className={styles.toolDesc}>Thêm, sửa, xóa dữ liệu hán tự</p>
                             </div>
                             <ArrowRight size={16} className={styles.toolArrow} />
                         </Link>
