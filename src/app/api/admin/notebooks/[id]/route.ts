@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
+import { revalidateTag } from "next/cache"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
 import { isAdminUser } from "@/server/utils/admin"
@@ -58,6 +59,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
         .single()
 
     if (error) return serverError(error, "PATCH /api/admin/notebooks/[id]")
+    revalidateTag("explore-sections")
     return NextResponse.json(data)
 }
 
@@ -79,5 +81,6 @@ export async function DELETE(_req: NextRequest, { params }: Params) {
         .eq("id", id)
 
     if (error) return serverError(error, "DELETE /api/admin/notebooks/[id]")
+    revalidateTag("explore-sections")
     return new NextResponse(null, { status: 204 })
 }
