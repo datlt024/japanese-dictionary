@@ -172,15 +172,14 @@ export default function StudyNotebooksTab() {
         return new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
     })
 
-    const totalPages     = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE))
-    const safePage       = Math.min(page, totalPages)
-    const pagedNotebooks = sorted.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
     const knownGroupIds  = new Set(groups.map(g => g.id))
-    // Notebooks whose group_id doesn't match any loaded group are treated as ungrouped
-    // so they're never invisible (e.g. when the groups API returns empty).
-    const ungrouped      = pagedNotebooks.filter(nb => !nb.group_id || !knownGroupIds.has(nb.group_id))
-    // byGroup uses sorted (not paged) so count is accurate and sort order is respected
+    // byGroup shows ALL notebooks in a group — groups are never paginated
     const byGroup        = (gid: string) => sorted.filter(nb => nb.group_id === gid)
+    // Pagination applies only to ungrouped notebooks
+    const ungroupedAll   = sorted.filter(nb => !nb.group_id || !knownGroupIds.has(nb.group_id))
+    const totalPages     = Math.max(1, Math.ceil(ungroupedAll.length / PAGE_SIZE))
+    const safePage       = Math.min(page, totalPages)
+    const ungrouped      = ungroupedAll.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE)
     const sortedGroups   = [...groups].sort((a, b) => {
         if (sortOrder === "az") return compareByName(a.name, b.name)
         if (sortOrder === "za") return compareByName(b.name, a.name)
