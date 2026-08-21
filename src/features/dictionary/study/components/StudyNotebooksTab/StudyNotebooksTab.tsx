@@ -279,7 +279,7 @@ export default function StudyNotebooksTab() {
                         okStyle={{ background: "var(--color-danger)" }}
                         loading={crud.deletingNbId === confirmDeleteId}
                         onCancel={() => setConfirmDeleteId(null)}
-                        onOk={async () => { await crud.handleDeleteNotebook(confirmDeleteId); setConfirmDeleteId(null) }}
+                        onOk={async () => { const ok = await crud.handleDeleteNotebook(confirmDeleteId); if (ok) { setConfirmDeleteId(null); setView("list") } }}
                     />
                 )}
             </>
@@ -315,6 +315,14 @@ export default function StudyNotebooksTab() {
                     onCreateGroup={() => setCreatingGroup(true)}
                     onCreate={() => { setCreating(true); setCreateInGroupId(null) }}
                 />
+
+                {/* Lỗi thao tác (xóa, di chuyển, bỏ nhóm) */}
+                {crud.opError && (
+                    <div className={styles.opError} role="alert">
+                        {crud.opError}
+                        <button type="button" className={styles.opErrorClose} onClick={() => crud.setOpError(null)}>✕</button>
+                    </div>
+                )}
 
                 {/* Form tạo nhóm */}
                 {creatingGroup && (
@@ -535,7 +543,7 @@ export default function StudyNotebooksTab() {
                     okLabel="Xóa" okStyle={{ background: "var(--color-danger)" }}
                     loading={crud.deletingNbId === confirmDeleteId}
                     onCancel={() => setConfirmDeleteId(null)}
-                    onOk={async () => { await crud.handleDeleteNotebook(confirmDeleteId); setConfirmDeleteId(null) }} />
+                    onOk={async () => { const ok = await crud.handleDeleteNotebook(confirmDeleteId); if (ok) setConfirmDeleteId(null) }} />
             )}
 
             {confirmDeleteGroupId !== null && (
@@ -545,7 +553,7 @@ export default function StudyNotebooksTab() {
                     okLabel="Xóa nhóm" okStyle={{ background: "var(--color-danger)" }}
                     loading={crud.deletingGroupId === confirmDeleteGroupId}
                     onCancel={() => setConfirmDeleteGroupId(null)}
-                    onOk={async () => { await crud.handleDeleteGroup(confirmDeleteGroupId); setConfirmDeleteGroupId(null) }} />
+                    onOk={async () => { const ok = await crud.handleDeleteGroup(confirmDeleteGroupId); if (ok) setConfirmDeleteGroupId(null) }} />
             )}
 
             {confirmUngroupId !== null && (() => {
@@ -557,7 +565,7 @@ export default function StudyNotebooksTab() {
                         desc={nb ? <><strong>{nb.name}</strong> sẽ được chuyển về danh sách không có nhóm.</> : "Sổ tay sẽ được chuyển về danh sách không có nhóm."}
                         okLabel="Bỏ khỏi nhóm" okStyle={{ background: "var(--color-primary)" }}
                         onCancel={() => setConfirmUngroupId(null)}
-                        onOk={() => crud.handleUngroup(confirmUngroupId).then(() => setConfirmUngroupId(null))} />
+                        onOk={() => crud.handleUngroup(confirmUngroupId).then(ok => { if (ok) setConfirmUngroupId(null) })} />
                 )
             })()}
         </>

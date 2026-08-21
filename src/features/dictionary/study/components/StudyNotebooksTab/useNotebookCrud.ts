@@ -15,6 +15,7 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
     const [createLoading,      setCreateLoading]      = useState(false)
     const [createGroupLoading, setCreateGroupLoading] = useState(false)
     const [createError,        setCreateError]        = useState<string | null>(null)
+    const [opError,            setOpError]            = useState<string | null>(null)
     const [deletingNbId,       setDeletingNbId]       = useState<string | null>(null)
     const [deletingGroupId,    setDeletingGroupId]    = useState<string | null>(null)
     const [renameGroupLoading, setRenameGroupLoading] = useState(false)
@@ -71,30 +72,34 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
         }
     }
 
-    async function handleDeleteNotebook(id: string) {
-        if (deletingNbId) return
+    async function handleDeleteNotebook(id: string): Promise<boolean> {
+        if (deletingNbId) return false
         setDeletingNbId(id)
         try {
             const res = await fetch(`/api/notebooks/${id}`, { method: "DELETE" })
-            if (!res.ok) return
+            if (!res.ok) { setOpError("Không thể xóa sổ tay. Vui lòng thử lại."); return false }
             await mutateNotebooks()
             onSelectClear(id)
+            return true
         } catch {
-            // Network error — dialog caller will still close via its own handler
+            setOpError("Không thể xóa sổ tay. Vui lòng thử lại.")
+            return false
         } finally {
             setDeletingNbId(null)
         }
     }
 
-    async function handleDeleteGroup(id: string) {
-        if (deletingGroupId) return
+    async function handleDeleteGroup(id: string): Promise<boolean> {
+        if (deletingGroupId) return false
         setDeletingGroupId(id)
         try {
             const res = await fetch(`/api/notebook-groups/${id}`, { method: "DELETE" })
-            if (!res.ok) return
+            if (!res.ok) { setOpError("Không thể xóa nhóm. Vui lòng thử lại."); return false }
             await Promise.all([mutateGroups(), mutateNotebooks()])
+            return true
         } catch {
-            // Network error — dialog caller will still close via its own handler
+            setOpError("Không thể xóa nhóm. Vui lòng thử lại.")
+            return false
         } finally {
             setDeletingGroupId(null)
         }
@@ -135,34 +140,41 @@ export function useNotebookCrud({ notebooks, mutateNotebooks, mutateGroups, onSe
         }
     }
 
-    async function handleMoveNotebook(notebookId: string, groupId: string): Promise<void> {
+    async function handleMoveNotebook(notebookId: string, groupId: string): Promise<boolean> {
         try {
             const res = await fetch(`/api/notebooks/${notebookId}`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ group_id: groupId }),
             })
-            if (res.ok) await mutateNotebooks()
+            if (!res.ok) { setOpError("Không thể di chuyển sổ tay. Vui lòng thử lại."); return false }
+            await mutateNotebooks()
+            return true
         } catch {
-            // Network error — UI stays consistent via SWR revalidation on next focus
+            setOpError("Không thể di chuyển sổ tay. Vui lòng thử lại.")
+            return false
         }
     }
 
-    async function handleUngroup(notebookId: string): Promise<void> {
+    async function handleUngroup(notebookId: string): Promise<boolean> {
         try {
             const res = await fetch(`/api/notebooks/${notebookId}`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ group_id: null }),
             })
-            if (res.ok) await mutateNotebooks()
+            if (!res.ok) { setOpError("Không thể bỏ nhóm sổ tay. Vui lòng thử lại."); return false }
+            await mutateNotebooks()
+            return true
         } catch {
-            // Network error — UI stays consistent via SWR revalidation on next focus
+            setOpError("Không thể bỏ nhóm sổ tay. Vui lòng thử lại.")
+            return false
         }
     }
 
     return {
         createLoading, createGroupLoading, createError, setCreateError,
+        opError, setOpError,
         deletingNbId, deletingGroupId, renameGroupLoading,
         handleCreate, handleCreateGroup, handleDeleteNotebook, handleDeleteGroup,
         handleRenameGroup, handleRenameNotebook, handleMoveNotebook, handleUngroup,
