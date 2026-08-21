@@ -57,6 +57,7 @@ function VocabModal({
         }))
     )
     const [deletedIds, setDeletedIds] = useState<number[]>([])
+    const [pendingDeleteSenseKey, setPendingDeleteSenseKey] = useState<string | null>(null)
     const [saving, setSaving] = useState(false)
     const [deleting, setDeleting] = useState(false)
     const [confirmDelete, setConfirmDelete] = useState(false)
@@ -74,12 +75,17 @@ function VocabModal({
     function updateSense(key: string, field: "meaning_vi" | "meaning_en", val: string) {
         setSenses(prev => prev.map(s => s.key === key ? { ...s, [field]: val } : s))
     }
-    function removeSense(key: string) {
+    function confirmRemoveSense(key: string) { setPendingDeleteSenseKey(key) }
+    function cancelRemoveSense() { setPendingDeleteSenseKey(null) }
+    function doRemoveSense() {
+        if (!pendingDeleteSenseKey) return
+        const key = pendingDeleteSenseKey
         setSenses(prev => {
             const target = prev.find(s => s.key === key)
             if (target?.id) setDeletedIds(d => [...d, target.id!])
             return prev.filter(s => s.key !== key)
         })
+        setPendingDeleteSenseKey(null)
     }
 
     async function save() {
@@ -182,22 +188,34 @@ function VocabModal({
                                     <div key={s.key} className={styles.senseRow}>
                                         <span className={styles.senseIdx}>{i + 1}</span>
                                         <div className={styles.senseInputs}>
-                                            <input
-                                                className={styles.fieldInput}
-                                                value={s.meaning_vi}
-                                                onChange={e => updateSense(s.key, "meaning_vi", e.target.value)}
-                                                placeholder="Nghĩa tiếng Việt"
-                                            />
-                                            <input
-                                                className={`${styles.fieldInput} ${styles.senseEnInput}`}
-                                                value={s.meaning_en}
-                                                onChange={e => updateSense(s.key, "meaning_en", e.target.value)}
-                                                placeholder="Nghĩa tiếng Anh (tuỳ chọn)"
-                                            />
+                                            {pendingDeleteSenseKey === s.key ? (
+                                                <div className={styles.senseConfirm}>
+                                                    <span className={styles.senseConfirmText}>Xóa nghĩa &ldquo;{s.meaning_vi || s.meaning_en || "…"}&rdquo;?</span>
+                                                    <button type="button" className={styles.btnGhost} onClick={cancelRemoveSense}>Hủy</button>
+                                                    <button type="button" className={styles.btnDanger} onClick={doRemoveSense}>Xóa</button>
+                                                </div>
+                                            ) : (
+                                                <>
+                                                    <input
+                                                        className={styles.fieldInput}
+                                                        value={s.meaning_vi}
+                                                        onChange={e => updateSense(s.key, "meaning_vi", e.target.value)}
+                                                        placeholder="Nghĩa tiếng Việt"
+                                                    />
+                                                    <input
+                                                        className={`${styles.fieldInput} ${styles.senseEnInput}`}
+                                                        value={s.meaning_en}
+                                                        onChange={e => updateSense(s.key, "meaning_en", e.target.value)}
+                                                        placeholder="Nghĩa tiếng Anh (tuỳ chọn)"
+                                                    />
+                                                </>
+                                            )}
                                         </div>
-                                        <button type="button" className={styles.removeSenseBtn} onClick={() => removeSense(s.key)} title="Xóa nghĩa này">
-                                            <X size={13} />
-                                        </button>
+                                        {pendingDeleteSenseKey !== s.key && (
+                                            <button type="button" className={styles.removeSenseBtn} onClick={() => confirmRemoveSense(s.key)} title="Xóa nghĩa này">
+                                                <X size={13} />
+                                            </button>
+                                        )}
                                     </div>
                                 ))}
                             </div>
