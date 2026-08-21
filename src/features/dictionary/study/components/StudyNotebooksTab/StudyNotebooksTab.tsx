@@ -179,12 +179,13 @@ export default function StudyNotebooksTab() {
     // Notebooks whose group_id doesn't match any loaded group are treated as ungrouped
     // so they're never invisible (e.g. when the groups API returns empty).
     const ungrouped      = pagedNotebooks.filter(nb => !nb.group_id || !knownGroupIds.has(nb.group_id))
-    const byGroup        = (gid: string) => pagedNotebooks.filter(nb => nb.group_id === gid)
+    // byGroup uses all notebooks (not just paged) so count and membership are always accurate
+    const byGroup        = (gid: string) => notebooks.filter(nb => nb.group_id === gid)
     const sortedGroups   = [...groups].sort((a, b) => {
         if (sortOrder === "az") return compareByName(a.name, b.name)
         if (sortOrder === "za") return compareByName(b.name, a.name)
         return 0
-    }).filter(g => pagedNotebooks.some(nb => nb.group_id === g.id))
+    })
 
     function toggleGroup(id: string) {
         setCollapsedGroups(prev => {
@@ -363,7 +364,7 @@ export default function StudyNotebooksTab() {
                     </div>
                 )}
 
-                {notebooks.length === 0 && !creating ? (
+                {notebooks.length === 0 && groups.length === 0 && !creating ? (
                     <div className={styles.emptyWrap}>
                         <BookOpen size={36} className={styles.emptyIcon} />
                         <p className={styles.emptyTitle}>Bạn chưa có sổ tay nào</p>
