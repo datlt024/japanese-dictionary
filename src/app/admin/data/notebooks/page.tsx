@@ -44,9 +44,7 @@ export default async function NotebooksDataPage() {
         <AppLayout title="Sổ tay" hideSearch>
             <NotebooksDataClient
                 initialGroups={groups}
-                initialGroupTotal={groupsResult.count ?? 0}
                 initialNotebooks={notebooks}
-                initialNotebookTotal={notebooksResult.count ?? 0}
             />
         </AppLayout>
     )

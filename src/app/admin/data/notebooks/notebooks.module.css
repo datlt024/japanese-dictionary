@@ -1,0 +1,287 @@
+/* Tree layout for notebook admin */
+
+.tree {
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    overflow: hidden;
+    background: var(--color-surface);
+}
+
+/* ── Column header ── */
+.treeHeader {
+    display: grid;
+    grid-template-columns: 1fr 200px 120px 40px;
+    align-items: center;
+    padding: 9px 14px;
+    background: var(--color-surface-muted);
+    border-bottom: 1px solid var(--color-border);
+    gap: 8px;
+}
+
+.colName {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+}
+
+.colMeta {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.colStatus {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+}
+
+.colAction {
+    /* edit button column */
+}
+
+/* ── Group block ── */
+.groupBlock {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.groupBlock:last-child {
+    border-bottom: none;
+}
+
+.groupRow {
+    display: grid;
+    grid-template-columns: 20px 18px 1fr auto 200px 120px 40px;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 14px;
+    background: var(--color-surface-muted);
+    transition: background 0.1s;
+}
+
+.groupRow:hover { background: oklch(from var(--color-surface-muted) calc(l - 0.02) c h); }
+
+.collapseBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: none;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    border-radius: 4px;
+    flex-shrink: 0;
+    transition: background 0.1s, color 0.1s;
+}
+
+.collapseBtn:hover { background: var(--color-border); color: var(--color-text-primary); }
+
+.groupIcon {
+    color: var(--color-primary);
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
+.nbIcon {
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+}
+
+.groupName {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.groupCount {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    margin-left: 6px;
+}
+
+/* ── Children ── */
+.children {
+    background: var(--color-surface);
+}
+
+.emptyChildren {
+    padding: 10px 14px 10px 52px;
+    font-size: 12px;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+/* ── Notebook row ── */
+.notebookRow {
+    display: grid;
+    grid-template-columns: 28px 18px 1fr 200px 120px 40px;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px 8px 28px;
+    border-top: 1px solid var(--color-border);
+    transition: background 0.1s;
+}
+
+.notebookRow:hover { background: var(--color-surface-soft); }
+
+.treeConnector {
+    display: block;
+    width: 12px;
+    height: 100%;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.nbName {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ── Meta badges ── */
+.itemCount {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+.orderBadge {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.catBadge {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+    background: var(--color-primary-soft);
+    color: var(--color-primary);
+    white-space: nowrap;
+}
+
+/* ── Public/private badges ── */
+.badgePublic {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    height: 26px;
+    padding: 0 9px;
+    border-radius: 7px;
+    border: 1.5px solid var(--color-success);
+    background: var(--color-success-soft);
+    color: var(--color-success);
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: opacity 0.15s;
+}
+
+.badgePrivate {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    height: 26px;
+    padding: 0 9px;
+    border-radius: 7px;
+    border: 1.5px solid var(--color-border);
+    background: transparent;
+    color: var(--color-text-muted);
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 0.15s, color 0.15s;
+}
+
+.badgePublic:disabled,
+.badgePrivate:disabled { opacity: 0.5; cursor: default; }
+
+.badgePrivate:hover:not(:disabled) { border-color: var(--color-text-muted); color: var(--color-text-secondary); }
+
+/* ── Edit button ── */
+.editBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 1.5px solid transparent;
+    border-radius: 7px;
+    background: transparent;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    transition: border-color 0.12s, background 0.12s, color 0.12s;
+}
+
+.editBtn:hover {
+    border-color: var(--color-border);
+    background: var(--color-surface-muted);
+    color: var(--color-text-primary);
+}
+
+/* ── Standalone section ── */
+.standaloneBlock {
+    border-top: 2px solid var(--color-border);
+}
+
+.standaloneHeader {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 14px;
+    background: var(--color-surface-muted);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.standaloneTitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.standaloneBlock .notebookRow {
+    padding-left: 14px;
+    grid-template-columns: 0px 18px 1fr 200px 120px 40px;
+}
+
+.standaloneBlock .treeConnector {
+    display: none;
+}
+
+/* ── Empty ── */
+.emptyTree {
+    padding: 48px 16px;
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 14px;
+}
