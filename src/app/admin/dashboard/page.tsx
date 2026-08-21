@@ -4,7 +4,7 @@ import Link from "next/link"
 import {
     BookText, Pen, GraduationCap,
     BookOpen, Layers, Dumbbell, MessageSquare,
-    ArrowRight, RefreshCw, Users, Database,
+    RefreshCw,
 } from "lucide-react"
 
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
@@ -235,76 +235,6 @@ export default async function AdminDashboardPage() {
                             </div>
                         </div>
 
-                    </div>
-                </section>
-
-                {/* ── Section: Công cụ ── */}
-                <section className={styles.section}>
-                    <h3 className={styles.sectionLabel}>Công cụ quản trị</h3>
-                    <div className={styles.toolGrid}>
-                        <Link href="/admin/users" className={styles.toolCard}>
-                            <Users size={20} className={styles.toolIcon} />
-                            <div>
-                                <p className={styles.toolName}>Người dùng</p>
-                                <p className={styles.toolDesc}>Quản lý tài khoản và thuê bao</p>
-                            </div>
-                            <ArrowRight size={16} className={styles.toolArrow} />
-                        </Link>
-                        <Link href="/admin/comments" className={styles.toolCard}>
-                            <MessageSquare size={20} className={styles.toolIcon} />
-                            <div>
-                                <p className={styles.toolName}>Bình luận</p>
-                                <p className={styles.toolDesc}>Kiểm duyệt bình luận của người dùng</p>
-                            </div>
-                            <ArrowRight size={16} className={styles.toolArrow} />
-                        </Link>
-                        <Link href="/admin" className={styles.toolCard}>
-                            <BookOpen size={20} className={styles.toolIcon} />
-                            <div>
-                                <p className={styles.toolName}>Sổ tay cộng đồng</p>
-                                <p className={styles.toolDesc}>Quản lý sổ tay và nhóm công khai</p>
-                            </div>
-                            <ArrowRight size={16} className={styles.toolArrow} />
-                        </Link>
-                        <Link href="/study" className={styles.toolCard}>
-                            <GraduationCap size={20} className={styles.toolIcon} />
-                            <div>
-                                <p className={styles.toolName}>Khu vực học tập</p>
-                                <p className={styles.toolDesc}>Xem giao diện người dùng</p>
-                            </div>
-                            <ArrowRight size={16} className={styles.toolArrow} />
-                        </Link>
-                    </div>
-                </section>
-
-                {/* ── Section: Quản lý dữ liệu ── */}
-                <section className={styles.section}>
-                    <h3 className={styles.sectionLabel}>Quản lý dữ liệu</h3>
-                    <div className={styles.toolGrid}>
-                        <Link href="/admin/data/vocabulary" className={styles.toolCard}>
-                            <BookText size={20} className={styles.toolIcon} />
-                            <div>
-                                <p className={styles.toolName}>Từ vựng</p>
-                                <p className={styles.toolDesc}>Thêm, sửa, xóa từ vựng trong DB</p>
-                            </div>
-                            <ArrowRight size={16} className={styles.toolArrow} />
-                        </Link>
-                        <Link href="/admin/data/grammar" className={styles.toolCard}>
-                            <Pen size={20} className={styles.toolIcon} />
-                            <div>
-                                <p className={styles.toolName}>Ngữ pháp</p>
-                                <p className={styles.toolDesc}>Thêm, sửa, xóa mẫu ngữ pháp</p>
-                            </div>
-                            <ArrowRight size={16} className={styles.toolArrow} />
-                        </Link>
-                        <Link href="/admin/data/kanji" className={styles.toolCard}>
-                            <Database size={20} className={styles.toolIcon} />
-                            <div>
-                                <p className={styles.toolName}>Hán tự</p>
-                                <p className={styles.toolDesc}>Thêm, sửa, xóa dữ liệu hán tự</p>
-                            </div>
-                            <ArrowRight size={16} className={styles.toolArrow} />
-                        </Link>
                     </div>
                 </section>
 

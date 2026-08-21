@@ -4,12 +4,9 @@ import { useCallback, useSyncExternalStore } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import {
-    Search,
-    BookOpen,
-    Languages,
-    Settings,
-    PanelLeft,
-    ShieldCheck,
+    Search, BookOpen, Languages, Settings, PanelLeft, ShieldCheck,
+    Users, MessageSquare, GraduationCap, BookText, Pen, Database,
+    LayoutDashboard, ArrowLeft,
 } from "lucide-react"
 
 import styles from "./Sidebar.module.css"
@@ -39,9 +36,57 @@ const menuItems: MenuItem[] = [
     { href: "/settings",  kind: "icon", Icon: Settings,   label: "Cài đặt"  },
 ]
 
+type AdminSection = {
+    label: string
+    items: { href: string; label: string; Icon: React.ElementType }[]
+}
+
+const adminSections: AdminSection[] = [
+    {
+        label: "Công cụ quản trị",
+        items: [
+            { href: "/admin/users",    label: "Người dùng",       Icon: Users           },
+            { href: "/admin/comments", label: "Bình luận",         Icon: MessageSquare   },
+            { href: "/study",          label: "Khu vực học tập",   Icon: GraduationCap   },
+        ],
+    },
+    {
+        label: "Quản lý dữ liệu",
+        items: [
+            { href: "/admin/data/vocabulary", label: "Từ vựng",  Icon: BookText  },
+            { href: "/admin/data/grammar",    label: "Ngữ pháp", Icon: Pen       },
+            { href: "/admin/data/kanji",      label: "Hán tự",   Icon: Database  },
+        ],
+    },
+]
+
+function NavLink({ href, label, Icon, collapsed, pathname, child = false }: {
+    href: string; label: string; Icon: React.ElementType
+    collapsed: boolean; pathname: string; child?: boolean
+}) {
+    const isActive = pathname === href || (href !== "/" && pathname.startsWith(href))
+    return (
+        <Link
+            href={href}
+            className={[
+                styles.sidebarLink,
+                isActive ? styles.active : "",
+                child ? styles.childLink : "",
+            ].filter(Boolean).join(" ")}
+            title={collapsed ? label : undefined}
+        >
+            <span className={styles.sidebarIcon} aria-hidden="true">
+                <Icon size={17} strokeWidth={2} />
+            </span>
+            <span className={styles.sidebarLabel}>{label}</span>
+        </Link>
+    )
+}
+
 export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
     const pathname = usePathname()
     const collapsed = useSyncExternalStore(subscribeSidebar, getSnapshot, getServerSnapshot)
+    const inAdmin = pathname.startsWith("/admin")
 
     const toggleSidebar = useCallback(() => {
         const next = !(localStorage.getItem(SIDEBAR_COLLAPSED_KEY) === "true")
@@ -50,19 +95,12 @@ export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
     }, [])
 
     return (
-        <aside
-            className={
-                collapsed
-                    ? `${styles.sidebar} ${styles.sidebarCollapsed}`
-                    : styles.sidebar
-            }
-        >
+        <aside className={collapsed ? `${styles.sidebar} ${styles.sidebarCollapsed}` : styles.sidebar}>
             <div className={styles.sidebarHeader}>
                 <Link href="/" className={styles.sidebarLogo} aria-label="Yomi — trang chủ">
                     <span className={styles.logoMark}>読</span>
                     <span className={styles.logoName}>Yomi</span>
                 </Link>
-
                 <button
                     type="button"
                     className={styles.sidebarToggle}
@@ -74,39 +112,49 @@ export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
                 </button>
             </div>
 
-            <nav className={styles.sidebarMenu} aria-label="Menu chính">
-                {[...menuItems, ...(isAdmin ? [{ href: "/admin/dashboard", kind: "icon" as const, Icon: ShieldCheck, label: "Quản trị", activePrefix: "/admin" }] : [])].map((item) => {
-                    const isActive =
-                        item.href === "/"
-                            ? pathname === "/"
-                            : pathname.startsWith("activePrefix" in item && item.activePrefix ? item.activePrefix : item.href)
+            {inAdmin && isAdmin ? (
+                <nav className={styles.sidebarMenu} aria-label="Menu quản trị">
+                    {/* Dashboard */}
+                    <NavLink href="/admin/dashboard" label="Dashboard" Icon={LayoutDashboard} collapsed={collapsed} pathname={pathname} />
 
-                    return (
-                        <Link
-                            key={item.href}
-                            href={item.href}
-                            className={
-                                isActive
-                                    ? `${styles.sidebarLink} ${styles.active}`
-                                    : styles.sidebarLink
-                            }
-                            title={collapsed ? item.label : undefined}
-                        >
-                            <span className={styles.sidebarIcon} aria-hidden="true">
-                                {item.kind === "icon" ? (
-                                    <item.Icon size={17} strokeWidth={2} />
-                                ) : (
-                                    <span className={styles.sidebarChar}>{item.char}</span>
-                                )}
-                            </span>
+                    {/* Sections */}
+                    {adminSections.map(section => (
+                        <div key={section.label} className={styles.navSection}>
+                            <span className={styles.navSectionLabel}>{section.label}</span>
+                            {section.items.map(item => (
+                                <NavLink key={item.href} href={item.href} label={item.label} Icon={item.Icon} collapsed={collapsed} pathname={pathname} child />
+                            ))}
+                        </div>
+                    ))}
 
-                            <span className={styles.sidebarLabel}>
-                                {item.label}
-                            </span>
-                        </Link>
-                    )
-                })}
-            </nav>
+                    {/* Back to app */}
+                    <div className={styles.navDivider} />
+                    <NavLink href="/" label="Quay lại ứng dụng" Icon={ArrowLeft} collapsed={collapsed} pathname={pathname} />
+                </nav>
+            ) : (
+                <nav className={styles.sidebarMenu} aria-label="Menu chính">
+                    {[...menuItems, ...(isAdmin ? [{ href: "/admin/dashboard", kind: "icon" as const, Icon: ShieldCheck, label: "Quản trị" }] : [])].map((item) => {
+                        const isActive = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href)
+                        return (
+                            <Link
+                                key={item.href}
+                                href={item.href}
+                                className={isActive ? `${styles.sidebarLink} ${styles.active}` : styles.sidebarLink}
+                                title={collapsed ? item.label : undefined}
+                            >
+                                <span className={styles.sidebarIcon} aria-hidden="true">
+                                    {item.kind === "icon" ? (
+                                        <item.Icon size={17} strokeWidth={2} />
+                                    ) : (
+                                        <span className={styles.sidebarChar}>{item.char}</span>
+                                    )}
+                                </span>
+                                <span className={styles.sidebarLabel}>{item.label}</span>
+                            </Link>
+                        )
+                    })}
+                </nav>
+            )}
         </aside>
     )
 }
