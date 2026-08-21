@@ -22,6 +22,8 @@ export default defineConfig({
     resolve: {
         alias: {
             "@": path.resolve(__dirname, "./src"),
+            // Allow testing server-only modules in vitest (no browser runtime guard needed)
+            "server-only": path.resolve(__dirname, "./src/test-server-only.ts"),
         },
     },
 })
