@@ -3,14 +3,24 @@ import { NextResponse } from "next/server"
 type FieldSpec =
     | { type: "string"; min?: number; max?: number; optional?: boolean }
     | { type: "number"; min?: number; max?: number; optional?: boolean }
+    | { type: "integer"; min?: number; max?: number; optional?: boolean }
     | { type: "boolean"; optional?: boolean }
+    | { type: "enum"; values: readonly string[]; optional?: boolean }
+
+type InferType<F extends FieldSpec> =
+    F extends { type: "string" } ? string :
+    F extends { type: "number" } ? number :
+    F extends { type: "integer" } ? number :
+    F extends { type: "boolean" } ? boolean :
+    F extends { type: "enum"; values: infer V extends readonly string[] } ? V[number] :
+    never
 
 type Schema = Record<string, FieldSpec>
 
 type InferShape<S extends Schema> = {
     [K in keyof S]: S[K] extends { optional: true }
-        ? (S[K]["type"] extends "string" ? string : S[K]["type"] extends "number" ? number : boolean) | undefined
-        : S[K]["type"] extends "string" ? string : S[K]["type"] extends "number" ? number : boolean
+        ? InferType<S[K]> | undefined
+        : InferType<S[K]>
 }
 
 export function parseBody<S extends Schema>(
@@ -56,9 +66,25 @@ export function parseBody<S extends Schema>(
                 return { ok: false, response: NextResponse.json({ error: `${key} tối đa ${spec.max}` }, { status: 400 }) }
             }
             out[key] = val
+        } else if (spec.type === "integer") {
+            if (typeof val !== "number" || !Number.isInteger(val)) {
+                return { ok: false, response: NextResponse.json({ error: `${key} phải là số nguyên` }, { status: 400 }) }
+            }
+            if (spec.min !== undefined && val < spec.min) {
+                return { ok: false, response: NextResponse.json({ error: `${key} tối thiểu ${spec.min}` }, { status: 400 }) }
+            }
+            if (spec.max !== undefined && val > spec.max) {
+                return { ok: false, response: NextResponse.json({ error: `${key} tối đa ${spec.max}` }, { status: 400 }) }
+            }
+            out[key] = val
         } else if (spec.type === "boolean") {
             if (typeof val !== "boolean") {
                 return { ok: false, response: NextResponse.json({ error: `${key} phải là boolean` }, { status: 400 }) }
+            }
+            out[key] = val
+        } else if (spec.type === "enum") {
+            if (typeof val !== "string" || !spec.values.includes(val)) {
+                return { ok: false, response: NextResponse.json({ error: `${key} không hợp lệ` }, { status: 400 }) }
             }
             out[key] = val
         }

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
+import { parseBody } from "@/server/utils/validate"
 import { rateLimit } from "@/shared/utils/rate-limit"
 import {
     createNotebook,
@@ -68,18 +69,16 @@ export async function POST(request: NextRequest) {
     const rl = await rateLimit(`nb-post:${user.id}`, 10, 60_000)
     if (!rl.ok) return rl.response
 
-    const body = await request.json().catch(() => null)
-    const name = typeof body?.name === "string" ? body.name.trim() : ""
+    const raw = await request.json().catch(() => null)
+    const parsed = parseBody(raw, {
+        name: { type: "string", min: 1, max: 200 },
+        description: { type: "string", max: 500, optional: true },
+        group_id: { type: "string", optional: true },
+    })
+    if (!parsed.ok) return parsed.response
 
-    if (!name || name.length > 200) {
-        return NextResponse.json({ error: "Tên sổ tay không được để trống hoặc quá dài" }, { status: 400 })
-    }
-
-    const description = typeof body?.description === "string"
-        ? body.description.trim() || null
-        : null
-
-    const groupId = typeof body?.group_id === "string" ? body.group_id : null
+    const { name, group_id: groupId = null } = parsed.data
+    const description = parsed.data.description?.trim() || null
 
     if (groupId) {
         const { data: grp } = await supabaseServer

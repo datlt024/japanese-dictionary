@@ -110,6 +110,68 @@ describe("parseBody", () => {
         })
     })
 
+    describe("integer field", () => {
+        const schema = { id: { type: "integer" as const, min: 1 } }
+
+        it("accepts positive integer", () => {
+            const result = parseBody({ id: 42 }, schema)
+            expect(result.ok).toBe(true)
+            if (result.ok) expect(result.data.id).toBe(42)
+        })
+
+        it("rejects float", () => {
+            const result = parseBody({ id: 3.14 }, schema)
+            expect(result.ok).toBe(false)
+        })
+
+        it("rejects string integer", () => {
+            const result = parseBody({ id: "5" }, schema)
+            expect(result.ok).toBe(false)
+        })
+
+        it("rejects below min", () => {
+            const result = parseBody({ id: 0 }, schema)
+            expect(result.ok).toBe(false)
+        })
+
+        it("accepts optional missing integer", () => {
+            const s = { id: { type: "integer" as const, optional: true } }
+            const result = parseBody({}, s)
+            expect(result.ok).toBe(true)
+        })
+    })
+
+    describe("enum field", () => {
+        const schema = { type: { type: "enum" as const, values: ["vocabulary", "kanji", "grammar"] as const } }
+
+        it("accepts valid enum value", () => {
+            const result = parseBody({ type: "kanji" }, schema)
+            expect(result.ok).toBe(true)
+            if (result.ok) expect(result.data.type).toBe("kanji")
+        })
+
+        it("rejects value not in enum", () => {
+            const result = parseBody({ type: "invalid" }, schema)
+            expect(result.ok).toBe(false)
+        })
+
+        it("rejects non-string value", () => {
+            const result = parseBody({ type: 123 }, schema)
+            expect(result.ok).toBe(false)
+        })
+
+        it("is case-sensitive", () => {
+            const result = parseBody({ type: "Vocabulary" }, schema)
+            expect(result.ok).toBe(false)
+        })
+
+        it("accepts optional missing enum", () => {
+            const s = { type: { type: "enum" as const, values: ["a", "b"] as const, optional: true } }
+            const result = parseBody({}, s)
+            expect(result.ok).toBe(true)
+        })
+    })
+
     describe("invalid body types", () => {
         const schema = { name: { type: "string" as const } }
 

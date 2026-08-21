@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
 import { serverError } from "@/server/utils/api-error"
+import { parseBody } from "@/server/utils/validate"
 import { getClientIp, rateLimit } from "@/shared/utils/rate-limit"
 import {
     createComment,
@@ -121,28 +122,21 @@ export async function POST(request: NextRequest) {
     const rl = await rateLimit(`comments-post:${user.id}`, 20, 60_000)
     if (!rl.ok) return rl.response
 
-    const body = await request.json().catch(() => null)
-    const entryType = body?.entry_type as EntryType
-    const entryId = Number(body?.entry_id)
-    const content = typeof body?.content === "string" ? body.content.trim() : ""
-    const displayName = typeof body?.display_name === "string" ? body.display_name.trim() : ""
-    const VALID_JLPT = new Set(["N1", "N2", "N3", "N4", "N5"])
-    const jlptLevel = typeof body?.jlpt_level === "string" && VALID_JLPT.has(body.jlpt_level)
-        ? body.jlpt_level
-        : null
+    const raw = await request.json().catch(() => null)
+    const parsed = parseBody(raw, {
+        entry_type: { type: "enum", values: ENTRY_TYPES as unknown as string[] },
+        entry_id: { type: "integer", min: 1 },
+        content: { type: "string", min: 1, max: 500 },
+        display_name: { type: "string", min: 1, max: 30 },
+        jlpt_level: { type: "enum", values: ["N1", "N2", "N3", "N4", "N5"] as const, optional: true },
+    } as const)
+    if (!parsed.ok) return parsed.response
 
-    if (!ENTRY_TYPES.includes(entryType)) {
-        return NextResponse.json({ error: "entry_type không hợp lệ" }, { status: 400 })
-    }
-    if (!Number.isInteger(entryId) || entryId <= 0) {
-        return NextResponse.json({ error: "entry_id không hợp lệ" }, { status: 400 })
-    }
-    if (!content || content.length > 500) {
-        return NextResponse.json({ error: "Nội dung bình luận từ 1–500 ký tự" }, { status: 400 })
-    }
-    if (!displayName || displayName.length > 30) {
-        return NextResponse.json({ error: "Tên hiển thị từ 1–30 ký tự" }, { status: 400 })
-    }
+    const entryType = parsed.data.entry_type as EntryType
+    const entryId = parsed.data.entry_id
+    const content = parsed.data.content
+    const displayName = parsed.data.display_name
+    const jlptLevel = parsed.data.jlpt_level ?? null
 
     await upsertProfile(supabaseServer, user.id, displayName, jlptLevel)
 
