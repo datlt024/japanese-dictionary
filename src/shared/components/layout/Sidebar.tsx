@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation"
 import {
     Search, BookOpen, Languages, Settings, PanelLeft, ShieldCheck,
     Users, MessageSquare, GraduationCap, BookText, Pen, Database,
-    LayoutDashboard, ArrowLeft, Notebook,
+    LayoutDashboard, Notebook,
 } from "lucide-react"
 
 import styles from "./Sidebar.module.css"
@@ -128,9 +128,6 @@ export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
                         </div>
                     ))}
 
-                    {/* Back to app */}
-                    <div className={styles.navDivider} />
-                    <NavLink href="/" label="Quay lại ứng dụng" Icon={ArrowLeft} collapsed={collapsed} pathname={pathname} />
                 </nav>
             ) : (
                 <nav className={styles.sidebarMenu} aria-label="Menu chính">
