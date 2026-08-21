@@ -209,16 +209,17 @@ function NotebookModal({ row, groups, groupIsPublic, onClose, onSaved, onDeleted
                     <button type="button" className={styles.modalClose} onClick={onClose}><X size={16} /></button>
                 </div>
                 <div className={styles.modalForm}>
-                    {groupIsPublic ? (
-                        <p style={{ margin: 0, padding: "8px 12px", borderRadius: 10, background: "var(--color-success-soft)", color: "var(--color-success)", fontSize: 13, fontWeight: 600 }}>
-                            Sổ tay này đang công khai do nhóm cha đang công khai. Để ẩn riêng sổ tay này, hãy ẩn cả nhóm cha trước.
-                        </p>
-                    ) : (
-                        <label className={styles.checkRow}>
-                            <input type="checkbox" checked={isPublic} onChange={e => setIsPublic(e.target.checked)} />
-                            <span className={styles.checkLabel}>Hiển thị công khai trong tab Khám phá</span>
-                        </label>
-                    )}
+                    <label className={styles.checkRow}>
+                        <input type="checkbox" checked={isPublic} onChange={e => setIsPublic(e.target.checked)} />
+                        <span className={styles.checkLabel}>
+                            Hiển thị công khai trong tab Khám phá
+                            {groupIsPublic && !isPublic && (
+                                <span style={{ marginLeft: 6, fontSize: 11, color: "var(--color-text-muted)", fontWeight: 500 }}>
+                                    (nhóm cha đang công khai nhưng sổ này sẽ bị ẩn)
+                                </span>
+                            )}
+                        </span>
+                    </label>
                     <div className={styles.fieldRow}>
                         <span className={styles.fieldLabel}>Tên sổ tay</span>
                         <input className={styles.fieldInput} value={name} onChange={e => setName(e.target.value)} />
@@ -442,8 +443,10 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
 
                     {/* ── Groups ── */}
                     {visibleGroups.map(group => {
-                        const children = (notebooksByGroup.get(group.id) ?? []).filter(nbMatches)
+                        const allChildren = notebooksByGroup.get(group.id) ?? []
+                        const children = allChildren.filter(nbMatches)
                         const isOpen = !collapsed.has(group.id)
+                        const publicChildCount = allChildren.filter(n => n.is_public).length
 
                         return (
                             <div key={group.id} className={nb.groupBlock}>
@@ -459,7 +462,11 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
                                     </button>
                                     <Layers size={14} className={nb.groupIcon} />
                                     <span className={nb.groupName}>{group.name}</span>
-                                    <span className={nb.groupCount}>{group.notebook_count} sổ</span>
+                                    <span className={nb.groupCount}>
+                                        {group.is_public
+                                            ? `${publicChildCount}/${group.notebook_count} công khai`
+                                            : `${group.notebook_count} sổ`}
+                                    </span>
                                     <span className={nb.colMeta}>
                                         <span className={nb.orderBadge}>#{group.display_order}</span>
                                     </span>
@@ -492,21 +499,11 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
                                                     <span className={nb.orderBadge}>#{n.display_order}</span>
                                                 </span>
                                                 <span className={nb.colStatus}>
-                                                    {group.is_public ? (
-                                                        /* Inherited: group is public → child is always public */
-                                                        <span
-                                                            className={nb.badgeInherited}
-                                                            title="Công khai do nhóm cha đang công khai"
-                                                        >
-                                                            <Eye size={11} /> Qua nhóm
-                                                        </span>
-                                                    ) : (
-                                                        <PublicBadge
-                                                            isPublic={n.is_public}
-                                                            loading={togglingNb === n.id}
-                                                            onToggle={() => toggleNotebookPublic(n)}
-                                                        />
-                                                    )}
+                                                    <PublicBadge
+                                                        isPublic={n.is_public}
+                                                        loading={togglingNb === n.id}
+                                                        onToggle={() => toggleNotebookPublic(n)}
+                                                    />
                                                 </span>
                                                 <span className={nb.colAction}>
                                                     <button type="button" className={nb.editBtn} onClick={() => setSelectedNotebook(n)}>

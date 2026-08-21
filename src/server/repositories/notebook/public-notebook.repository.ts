@@ -68,11 +68,12 @@ export async function listExploreSections(
     let groupNotebooksResults: { groupId: string; notebooks: GroupNotebook[] }[] = (groups ?? []).map((g) => ({ groupId: g.id, notebooks: [] }))
 
     if (groupIds.length > 0) {
-        // Single query for all group notebooks + item count via PostgREST aggregate
+        // Only public notebooks within public groups — is_public=false notebooks are hidden from explore
         const { data: allGroupNbs } = await supabase
             .from("notebooks")
             .select("id, name, description, public_category, public_description, display_order, group_id, notebook_items(count)")
             .in("group_id", groupIds)
+            .eq("is_public", true)
             .order("display_order", { ascending: true })
             .order("name", { ascending: true })
 
