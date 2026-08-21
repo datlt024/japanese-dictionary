@@ -179,8 +179,8 @@ export default function StudyNotebooksTab() {
     // Notebooks whose group_id doesn't match any loaded group are treated as ungrouped
     // so they're never invisible (e.g. when the groups API returns empty).
     const ungrouped      = pagedNotebooks.filter(nb => !nb.group_id || !knownGroupIds.has(nb.group_id))
-    // byGroup uses all notebooks (not just paged) so count and membership are always accurate
-    const byGroup        = (gid: string) => notebooks.filter(nb => nb.group_id === gid)
+    // byGroup uses sorted (not paged) so count is accurate and sort order is respected
+    const byGroup        = (gid: string) => sorted.filter(nb => nb.group_id === gid)
     const sortedGroups   = [...groups].sort((a, b) => {
         if (sortOrder === "az") return compareByName(a.name, b.name)
         if (sortOrder === "za") return compareByName(b.name, a.name)
