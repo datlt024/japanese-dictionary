@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation"
 import {
     Search, BookOpen, Languages, Settings, PanelLeft, ShieldCheck,
     Users, MessageSquare, GraduationCap, BookText, Pen, Database,
-    LayoutDashboard, ArrowLeft,
+    LayoutDashboard, ArrowLeft, Notebook,
 } from "lucide-react"
 
 import styles from "./Sidebar.module.css"
@@ -53,9 +53,10 @@ const adminSections: AdminSection[] = [
     {
         label: "Quản lý dữ liệu",
         items: [
-            { href: "/admin/data/vocabulary", label: "Từ vựng",  Icon: BookText  },
-            { href: "/admin/data/grammar",    label: "Ngữ pháp", Icon: Pen       },
-            { href: "/admin/data/kanji",      label: "Hán tự",   Icon: Database  },
+            { href: "/admin/data/vocabulary", label: "Từ vựng",   Icon: BookText  },
+            { href: "/admin/data/grammar",    label: "Ngữ pháp",  Icon: Pen       },
+            { href: "/admin/data/kanji",      label: "Hán tự",    Icon: Database  },
+            { href: "/admin/data/notebooks",  label: "Sổ tay",    Icon: Notebook  },
         ],
     },
 ]
