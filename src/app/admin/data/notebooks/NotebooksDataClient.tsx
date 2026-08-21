@@ -150,9 +150,10 @@ function GroupModal({ row, onClose, onSaved, onDeleted }: {
     )
 }
 
-function NotebookModal({ row, groups, onClose, onSaved, onDeleted }: {
+function NotebookModal({ row, groups, groupIsPublic, onClose, onSaved, onDeleted }: {
     row: NotebookRow
     groups: GroupRow[]
+    groupIsPublic: boolean
     onClose: () => void
     onSaved: (nb: NotebookRow) => void
     onDeleted: (id: string) => void
@@ -208,10 +209,16 @@ function NotebookModal({ row, groups, onClose, onSaved, onDeleted }: {
                     <button type="button" className={styles.modalClose} onClick={onClose}><X size={16} /></button>
                 </div>
                 <div className={styles.modalForm}>
-                    <label className={styles.checkRow}>
-                        <input type="checkbox" checked={isPublic} onChange={e => setIsPublic(e.target.checked)} />
-                        <span className={styles.checkLabel}>Hiển thị công khai trong tab Khám phá</span>
-                    </label>
+                    {groupIsPublic ? (
+                        <p style={{ margin: 0, padding: "8px 12px", borderRadius: 10, background: "var(--color-success-soft)", color: "var(--color-success)", fontSize: 13, fontWeight: 600 }}>
+                            Sổ tay này đang công khai do nhóm cha đang công khai. Để ẩn riêng sổ tay này, hãy ẩn cả nhóm cha trước.
+                        </p>
+                    ) : (
+                        <label className={styles.checkRow}>
+                            <input type="checkbox" checked={isPublic} onChange={e => setIsPublic(e.target.checked)} />
+                            <span className={styles.checkLabel}>Hiển thị công khai trong tab Khám phá</span>
+                        </label>
+                    )}
                     <div className={styles.fieldRow}>
                         <span className={styles.fieldLabel}>Tên sổ tay</span>
                         <input className={styles.fieldInput} value={name} onChange={e => setName(e.target.value)} />
@@ -358,13 +365,35 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
     }
 
     async function toggleNotebookPublic(row: NotebookRow) {
+        const nextPublic = !row.is_public
         setTogglingNb(row.id)
         try {
             const res = await fetch(`/api/admin/notebooks/${row.id}`, {
                 method: "PATCH", headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ is_public: !row.is_public }),
+                body: JSON.stringify({ is_public: nextPublic }),
             })
-            if (res.ok) setNotebooks(prev => prev.map(n => n.id === row.id ? { ...n, is_public: !n.is_public } : n))
+            if (!res.ok) return
+
+            const updatedNotebooks = notebooks.map(n => n.id === row.id ? { ...n, is_public: nextPublic } : n)
+            setNotebooks(updatedNotebooks)
+
+            // Auto-set group to public when ALL siblings become public
+            if (nextPublic && row.group_id) {
+                const group = groups.find(g => g.id === row.group_id)
+                if (group && !group.is_public) {
+                    const siblings = updatedNotebooks.filter(n => n.group_id === row.group_id)
+                    const allPublic = siblings.length > 0 && siblings.every(n => n.is_public)
+                    if (allPublic) {
+                        const gRes = await fetch(`/api/admin/groups/${row.group_id}`, {
+                            method: "PATCH", headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ is_public: true }),
+                        })
+                        if (gRes.ok) {
+                            setGroups(prev => prev.map(g => g.id === row.group_id ? { ...g, is_public: true } : g))
+                        }
+                    }
+                }
+            }
         } finally { setTogglingNb(null) }
     }
 
@@ -463,11 +492,21 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
                                                     <span className={nb.orderBadge}>#{n.display_order}</span>
                                                 </span>
                                                 <span className={nb.colStatus}>
-                                                    <PublicBadge
-                                                        isPublic={n.is_public}
-                                                        loading={togglingNb === n.id}
-                                                        onToggle={() => toggleNotebookPublic(n)}
-                                                    />
+                                                    {group.is_public ? (
+                                                        /* Inherited: group is public → child is always public */
+                                                        <span
+                                                            className={nb.badgeInherited}
+                                                            title="Công khai do nhóm cha đang công khai"
+                                                        >
+                                                            <Eye size={11} /> Qua nhóm
+                                                        </span>
+                                                    ) : (
+                                                        <PublicBadge
+                                                            isPublic={n.is_public}
+                                                            loading={togglingNb === n.id}
+                                                            onToggle={() => toggleNotebookPublic(n)}
+                                                        />
+                                                    )}
                                                 </span>
                                                 <span className={nb.colAction}>
                                                     <button type="button" className={nb.editBtn} onClick={() => setSelectedNotebook(n)}>
@@ -539,6 +578,9 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
                 <NotebookModal
                     row={selectedNotebook}
                     groups={groups}
+                    groupIsPublic={selectedNotebook.group_id
+                        ? (groups.find(g => g.id === selectedNotebook.group_id)?.is_public ?? false)
+                        : false}
                     onClose={() => setSelectedNotebook(null)}
                     onSaved={updated => { setNotebooks(prev => prev.map(n => n.id === updated.id ? updated : n)); setSelectedNotebook(null) }}
                     onDeleted={id => { setNotebooks(prev => prev.filter(n => n.id !== id)); setSelectedNotebook(null) }}
