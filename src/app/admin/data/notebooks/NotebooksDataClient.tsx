@@ -54,7 +54,6 @@ function GroupModal({ row, onClose, onSaved, onDeleted }: {
     const [name, setName] = useState(row.name)
     const [publicDesc, setPublicDesc] = useState(row.public_description ?? "")
     const [displayOrder, setDisplayOrder] = useState(String(row.display_order))
-    const [isPublic, setIsPublic] = useState(row.is_public)
     const [saving, setSaving] = useState(false)
     const [confirmDelete, setConfirmDelete] = useState(false)
     const [deleting, setDeleting] = useState(false)
@@ -68,7 +67,7 @@ function GroupModal({ row, onClose, onSaved, onDeleted }: {
             const res = await fetch(`/api/admin/groups/${row.id}`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ name: trimName, is_public: isPublic, public_description: publicDesc.trim() || null, display_order: Number(displayOrder) || 0 }),
+                body: JSON.stringify({ name: trimName, public_description: publicDesc.trim() || null, display_order: Number(displayOrder) || 0 }),
             })
             if (!res.ok) { setError("Lưu thất bại."); return }
             onSaved({ ...(await res.json() as GroupRow), notebook_count: row.notebook_count })
@@ -94,10 +93,6 @@ function GroupModal({ row, onClose, onSaved, onDeleted }: {
                     <button type="button" className={styles.modalClose} onClick={onClose}><X size={16} /></button>
                 </div>
                 <div className={styles.modalForm}>
-                    <label className={styles.checkRow}>
-                        <input type="checkbox" checked={isPublic} onChange={e => setIsPublic(e.target.checked)} />
-                        <span className={styles.checkLabel}>Hiển thị công khai trong tab Khám phá</span>
-                    </label>
                     <div className={styles.fieldRow}>
                         <span className={styles.fieldLabel}>Tên nhóm</span>
                         <input className={styles.fieldInput} value={name} onChange={e => setName(e.target.value)} />
@@ -213,9 +208,9 @@ function NotebookModal({ row, groups, groupIsPublic, onClose, onSaved, onDeleted
                         <input type="checkbox" checked={isPublic} onChange={e => setIsPublic(e.target.checked)} />
                         <span className={styles.checkLabel}>
                             Hiển thị công khai trong tab Khám phá
-                            {groupIsPublic && !isPublic && (
+                            {groupIsPublic && isPublic && (
                                 <span style={{ marginLeft: 6, fontSize: 11, color: "var(--color-text-muted)", fontWeight: 500 }}>
-                                    (nhóm cha đang công khai nhưng sổ này sẽ bị ẩn)
+                                    (hiện dưới tên nhóm cha)
                                 </span>
                             )}
                         </span>
@@ -304,6 +299,25 @@ function PublicBadge({ isPublic, loading, onToggle }: { isPublic: boolean; loadi
     )
 }
 
+function GroupBadge({ publicCount, total, loading, onToggle }: {
+    publicCount: number; total: number; loading: boolean; onToggle: () => void
+}) {
+    const allPublic = total > 0 && publicCount === total
+    const somePublic = publicCount > 0 && !allPublic
+    return (
+        <button
+            type="button"
+            onClick={e => { e.stopPropagation(); onToggle() }}
+            disabled={loading || total === 0}
+            className={allPublic ? nb.badgePublic : somePublic ? nb.badgePartial : nb.badgePrivate}
+            title={allPublic ? "Ẩn tất cả sổ con" : "Công khai tất cả sổ con"}
+        >
+            {allPublic ? <Eye size={11} /> : somePublic ? <Eye size={11} /> : <EyeOff size={11} />}
+            {total === 0 ? "Trống" : `${publicCount}/${total}`}
+        </button>
+    )
+}
+
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 export default function NotebooksDataClient({ initialGroups, initialNotebooks }: Props) {
@@ -354,14 +368,20 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
         })
     }
 
-    async function toggleGroupPublic(row: GroupRow) {
-        setTogglingGroup(row.id)
+    async function bulkToggleGroupChildren(group: GroupRow) {
+        const children = notebooksByGroup.get(group.id) ?? []
+        if (children.length === 0) return
+        const allPublic = children.every(n => n.is_public)
+        const nextPublic = !allPublic
+        setTogglingGroup(group.id)
         try {
-            const res = await fetch(`/api/admin/groups/${row.id}`, {
-                method: "PATCH", headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ is_public: !row.is_public }),
-            })
-            if (res.ok) setGroups(prev => prev.map(g => g.id === row.id ? { ...g, is_public: !g.is_public } : g))
+            await Promise.all(children.map(child =>
+                fetch(`/api/admin/notebooks/${child.id}`, {
+                    method: "PATCH", headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ is_public: nextPublic }),
+                })
+            ))
+            setNotebooks(prev => prev.map(n => n.group_id === group.id ? { ...n, is_public: nextPublic } : n))
         } finally { setTogglingGroup(null) }
     }
 
@@ -374,27 +394,7 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
                 body: JSON.stringify({ is_public: nextPublic }),
             })
             if (!res.ok) return
-
-            const updatedNotebooks = notebooks.map(n => n.id === row.id ? { ...n, is_public: nextPublic } : n)
-            setNotebooks(updatedNotebooks)
-
-            // Auto-set group to public when ALL siblings become public
-            if (nextPublic && row.group_id) {
-                const group = groups.find(g => g.id === row.group_id)
-                if (group && !group.is_public) {
-                    const siblings = updatedNotebooks.filter(n => n.group_id === row.group_id)
-                    const allPublic = siblings.length > 0 && siblings.every(n => n.is_public)
-                    if (allPublic) {
-                        const gRes = await fetch(`/api/admin/groups/${row.group_id}`, {
-                            method: "PATCH", headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify({ is_public: true }),
-                        })
-                        if (gRes.ok) {
-                            setGroups(prev => prev.map(g => g.id === row.group_id ? { ...g, is_public: true } : g))
-                        }
-                    }
-                }
-            }
+            setNotebooks(prev => prev.map(n => n.id === row.id ? { ...n, is_public: nextPublic } : n))
         } finally { setTogglingNb(null) }
     }
 
@@ -462,19 +462,16 @@ export default function NotebooksDataClient({ initialGroups, initialNotebooks }:
                                     </button>
                                     <Layers size={14} className={nb.groupIcon} />
                                     <span className={nb.groupName}>{group.name}</span>
-                                    <span className={nb.groupCount}>
-                                        {group.is_public
-                                            ? `${publicChildCount}/${group.notebook_count} công khai`
-                                            : `${group.notebook_count} sổ`}
-                                    </span>
+                                    <span className={nb.groupCount}>{group.notebook_count} sổ</span>
                                     <span className={nb.colMeta}>
                                         <span className={nb.orderBadge}>#{group.display_order}</span>
                                     </span>
                                     <span className={nb.colStatus}>
-                                        <PublicBadge
-                                            isPublic={group.is_public}
+                                        <GroupBadge
+                                            publicCount={publicChildCount}
+                                            total={allChildren.length}
                                             loading={togglingGroup === group.id}
-                                            onToggle={() => toggleGroupPublic(group)}
+                                            onToggle={() => bulkToggleGroupChildren(group)}
                                         />
                                     </span>
                                     <span className={nb.colAction}>

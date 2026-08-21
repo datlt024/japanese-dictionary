@@ -30,135 +30,83 @@ function sortNotebooks(nbs: PublicNotebook[]): PublicNotebook[] {
     })
 }
 
+type GroupMeta = { id: string; name: string; description: string | null; display_order: number; notebooks: PublicNotebook[] }
 
 export async function listExploreSections(
     supabase: SupabaseClient<Database>
 ): Promise<{ data: ExploreSection[] | null; error: unknown }> {
-    // 1. Public groups with their notebooks
-    const { data: groups, error: groupErr } = await supabase
-        .from("notebook_groups")
-        .select("id, name, public_description, display_order")
-        .eq("is_public", true)
-        .order("display_order", { ascending: true })
-        .order("name", { ascending: true })
-
-    if (groupErr) return { data: null, error: groupErr }
-
-    // 2. Standalone public notebooks (not in a public group)
-    const publicGroupIds = (groups ?? []).map((g) => g.id)
-
-    let standaloneQuery = supabase
+    // Single query: all public notebooks with their group info (if any)
+    const { data: allNbs, error } = await supabase
         .from("notebooks")
-        .select("id, name, description, public_category, public_description, display_order, group_id")
+        .select("id, name, description, public_category, public_description, display_order, group_id, notebook_items(count), notebook_groups(id, name, public_description, display_order)")
         .eq("is_public", true)
         .order("display_order", { ascending: true })
         .order("name", { ascending: true })
 
-    // exclude notebooks that belong to a public group (already shown under the group)
-    if (publicGroupIds.length > 0) {
-        standaloneQuery = standaloneQuery.not("group_id", "in", `(${publicGroupIds.join(",")})`)
-    }
+    if (error) return { data: null, error }
 
-    const { data: standaloneNbs, error: nbErr } = await standaloneQuery
-    if (nbErr) return { data: null, error: nbErr }
+    type RawNb = typeof allNbs extends (infer T)[] ? T & {
+        notebook_items?: { count: number }[]
+        notebook_groups?: { id: string; name: string; public_description: string | null; display_order: number } | null
+    } : never
 
-    // 3. Fetch ALL notebooks for public groups in one query (avoids N queries per group)
-    const groupIds = (groups ?? []).map((g) => g.id)
-    type GroupNotebook = { id: string; name: string; description: string | null; public_category: string | null; public_description: string | null; display_order: number; item_count: number }
-    let groupNotebooksResults: { groupId: string; notebooks: GroupNotebook[] }[] = (groups ?? []).map((g) => ({ groupId: g.id, notebooks: [] }))
+    // Separate into group notebooks and standalone notebooks
+    const groupMap = new Map<string, GroupMeta>()
+    const categoryMap = new Map<string, { notebooks: PublicNotebook[]; order: number }>()
+    let catOrder = 0
 
-    if (groupIds.length > 0) {
-        // Only public notebooks within public groups — is_public=false notebooks are hidden from explore
-        const { data: allGroupNbs } = await supabase
-            .from("notebooks")
-            .select("id, name, description, public_category, public_description, display_order, group_id, notebook_items(count)")
-            .in("group_id", groupIds)
-            .eq("is_public", true)
-            .order("display_order", { ascending: true })
-            .order("name", { ascending: true })
+    for (const rawNb of allNbs ?? []) {
+        const row = rawNb as RawNb
+        const itemCount = row.notebook_items?.[0]?.count ?? 0
+        const publicNb: PublicNotebook = {
+            id: row.id,
+            name: row.name,
+            description: row.description,
+            public_category: row.public_category ?? null,
+            public_description: row.public_description ?? null,
+            display_order: row.display_order,
+            item_count: itemCount,
+        }
 
-        const byGroup = new Map<string, GroupNotebook[]>()
-        for (const nb of allGroupNbs ?? []) {
-            const counts = (nb as typeof nb & { notebook_items?: { count: number }[] }).notebook_items
-            const row: GroupNotebook = {
-                id: nb.id,
-                name: nb.name,
-                description: nb.description,
-                public_category: nb.public_category ?? null,
-                public_description: nb.public_description ?? null,
-                display_order: nb.display_order,
-                item_count: counts?.[0]?.count ?? 0,
+        if (row.group_id && row.notebook_groups) {
+            const g = row.notebook_groups
+            if (!groupMap.has(row.group_id)) {
+                groupMap.set(row.group_id, {
+                    id: g.id,
+                    name: g.name,
+                    description: g.public_description,
+                    display_order: g.display_order ?? 0,
+                    notebooks: [],
+                })
             }
-            if (!byGroup.has(nb.group_id!)) byGroup.set(nb.group_id!, [])
-            byGroup.get(nb.group_id!)!.push(row)
-        }
-        groupNotebooksResults = (groups ?? []).map((g) => ({ groupId: g.id, notebooks: byGroup.get(g.id) ?? [] }))
-    }
-
-    // 4. Fetch item counts for standalone notebooks in one aggregate query
-    const standaloneList = standaloneNbs ?? []
-    const standaloneCountMap = new Map<string, number>()
-    if (standaloneList.length > 0) {
-        const standaloneIds = standaloneList.map((nb) => nb.id)
-        const { data: nbsWithCount } = await supabase
-            .from("notebooks")
-            .select("id, notebook_items(count)")
-            .in("id", standaloneIds)
-        for (const nb of nbsWithCount ?? []) {
-            const nbAny = nb as typeof nb & { notebook_items: { count: number }[] }
-            standaloneCountMap.set(nb.id, nbAny.notebook_items?.[0]?.count ?? 0)
+            groupMap.get(row.group_id)!.notebooks.push(publicNb)
+        } else {
+            const cat = row.public_category ?? "Khác"
+            if (!categoryMap.has(cat)) {
+                categoryMap.set(cat, { notebooks: [], order: catOrder++ })
+            }
+            categoryMap.get(cat)!.notebooks.push(publicNb)
         }
     }
 
-    // 5. Build group sections — notebooks already have item_count from the aggregate query
-    const groupSections: ExploreSection[] = (groups ?? []).map((g, i) => {
-        const result = groupNotebooksResults.find((r) => r.groupId === g.id)
-        const nbs: PublicNotebook[] = (result?.notebooks ?? []).map((nb) => ({
-            id: nb.id,
-            name: nb.name,
-            description: nb.description,
-            public_category: nb.public_category ?? null,
-            public_description: nb.public_description ?? null,
-            display_order: nb.display_order,
-            item_count: nb.item_count,
-        }))
-        return {
-            type: "group",
-            id: g.id,
-            name: g.name,
-            description: g.public_description,
-            display_order: g.display_order ?? i,
-            notebooks: sortNotebooks(nbs),
-        }
-    })
+    const groupSections: ExploreSection[] = [...groupMap.values()].map(g => ({
+        type: "group",
+        id: g.id,
+        name: g.name,
+        description: g.description,
+        display_order: g.display_order,
+        notebooks: sortNotebooks(g.notebooks),
+    }))
 
-    // 6. Group standalone notebooks by public_category
-    const categoryMap = new Map<string, PublicNotebook[]>()
-    let categoryOrder = 0
-    for (const nb of standaloneList) {
-        const cat = nb.public_category ?? "Khác"
-        if (!categoryMap.has(cat)) categoryMap.set(cat, [])
-        categoryMap.get(cat)!.push({
-            id: nb.id,
-            name: nb.name,
-            description: nb.description,
-            public_category: nb.public_category ?? null,
-            public_description: nb.public_description ?? null,
-            display_order: nb.display_order,
-            item_count: standaloneCountMap.get(nb.id) ?? 0,
-        })
-        categoryOrder++
-    }
-    const categorySections: ExploreSection[] = [...categoryMap.entries()].map(([cat, nbs]) => ({
+    const categorySections: ExploreSection[] = [...categoryMap.entries()].map(([cat, { notebooks, order }]) => ({
         type: "category",
         id: `cat:${cat}`,
         name: cat,
         description: null,
-        display_order: 1000 + categoryOrder,
-        notebooks: sortNotebooks(nbs),
+        display_order: 1000 + order,
+        notebooks: sortNotebooks(notebooks),
     }))
 
-    // 7. Merge and sort
     const sections = [...groupSections, ...categorySections].sort(
         (a, b) => a.display_order - b.display_order
     )
@@ -170,22 +118,18 @@ export async function getPublicNotebook(
     supabase: SupabaseClient<Database>,
     notebookId: string
 ): Promise<{ data: PublicNotebook | null; error: unknown }> {
-    // Single query: fetch notebook + its group's public status + item count
     const { data: nb, error } = await supabase
         .from("notebooks")
-        .select("id, name, description, public_category, public_description, display_order, is_public, group_id, notebook_groups(is_public), notebook_items(count)")
+        .select("id, name, description, public_category, public_description, display_order, is_public, group_id, notebook_items(count)")
         .eq("id", notebookId)
         .maybeSingle()
 
     if (error) return { data: null, error }
     if (!nb) return { data: null, error: "not found" }
+    if (!nb.is_public) return { data: null, error: "not accessible" }
 
-    type NbRow = typeof nb & { notebook_groups?: { is_public: boolean } | null; notebook_items?: { count: number }[] }
+    type NbRow = typeof nb & { notebook_items?: { count: number }[] }
     const row = nb as NbRow
-
-    // Visible if individually public OR belongs to a public group
-    const groupIsPublic = row.notebook_groups?.is_public === true
-    if (!nb.is_public && !groupIsPublic) return { data: null, error: "not accessible" }
 
     return {
         data: {
