@@ -95,7 +95,7 @@ function TopSearchBarContent({
 
     const { addHistory } = useSearchHistory()
 
-    const { result, loading } = useSearchHub(
+    const { result, loading, error: searchError } = useSearchHub(
         debouncedKeyword,
         activeTab,
         language
@@ -254,6 +254,7 @@ function TopSearchBarContent({
                                     result={result}
                                     keyword={debouncedKeyword}
                                     loading={isSearchLoading}
+                                    error={searchError}
                                     activeTab={activeTab}
                                     language={language}
                                 />

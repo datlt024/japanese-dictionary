@@ -18,6 +18,7 @@ type Props = {
     result: SearchHubResult
     keyword: string
     loading: boolean
+    error?: unknown
     activeTab: SearchTab
     language: DictionaryLanguage
     disabled?: boolean
@@ -160,6 +161,7 @@ const SearchHubDropdown = forwardRef<HTMLDivElement, Props>(function SearchHubDr
     result,
     keyword,
     loading,
+    error,
     activeTab,
     language,
     disabled = false,
@@ -268,6 +270,11 @@ const SearchHubDropdown = forwardRef<HTMLDivElement, Props>(function SearchHubDr
     return (
         <div ref={ref} className={styles.searchHubDropdown} role="listbox" aria-label="Gợi ý tìm kiếm">
             <div className={styles.searchHubContent} aria-live="polite" aria-atomic="false">
+                {error && !loading && (
+                    <p className={styles.searchHubError} role="alert">
+                        Không thể tìm kiếm. Vui lòng thử lại.
+                    </p>
+                )}
                 {activeTab === "vocabulary" && (
                     <>
                         {loading && sortedVocabularies.length === 0 ? (

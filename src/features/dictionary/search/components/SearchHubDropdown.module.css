@@ -121,3 +121,10 @@
 
     font-size: 14px;
 }
+
+.searchHubError {
+    padding: 12px 20px;
+    color: var(--color-danger);
+    font-size: 13px;
+    font-weight: 500;
+}
