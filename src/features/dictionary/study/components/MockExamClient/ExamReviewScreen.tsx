@@ -1,16 +1,8 @@
 import React, { useRef, useState } from "react"
 import Image from "next/image"
 import { ArrowLeft, Pause, Play } from "lucide-react"
-import DOMPurify from "isomorphic-dompurify"
-
-function sanitizeExamContext(html: string): string {
-    const sanitized = DOMPurify.sanitize(html)
-    return sanitized
-        .replace(/\bcolor\s*:\s*[^;}"]+;?\s*/gi, "")
-        .replace(/\bbackground(?:-color)?\s*:\s*[^;}"]+;?\s*/gi, "")
-}
 import styles from "./MockExamClient.module.css"
-import { parseSentence } from "./exam-utils"
+import { parseSentence, sanitizeExamContext } from "./exam-utils"
 import type { ExamConfig, Question } from "./exam-types"
 
 interface SectionCounts {

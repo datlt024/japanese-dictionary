@@ -60,6 +60,7 @@ export async function PATCH(req: NextRequest, { params }: Params) {
 
     if (error) return serverError(error, "PATCH /api/admin/notebooks/[id]")
     revalidateTag("explore-sections")
+    revalidateTag(`explore-notebook-items-${id}`)
     return NextResponse.json(data)
 }
 
@@ -82,5 +83,6 @@ export async function DELETE(_req: NextRequest, { params }: Params) {
 
     if (error) return serverError(error, "DELETE /api/admin/notebooks/[id]")
     revalidateTag("explore-sections")
+    revalidateTag(`explore-notebook-items-${id}`)
     return new NextResponse(null, { status: 204 })
 }

@@ -4,6 +4,7 @@ import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
 import { isAdminUser } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 
 async function requireAdmin() {
     const authClient = await createSupabaseServerClient()
@@ -16,22 +17,28 @@ export async function GET() {
     const admin = await requireAdmin()
     if (!admin) return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
 
-    // Fetch all auth users across pages (Supabase caps perPage at 1000)
-    const allAuthUsers: User[] = []
-    let page = 1
-    while (true) {
-        const { data, error } = await supabaseServer.auth.admin.listUsers({ perPage: 1000, page })
-        if (error) return serverError(error, "GET /api/admin/users auth")
-        allAuthUsers.push(...(data.users ?? []))
-        if ((data.users ?? []).length < 1000) break
-        page++
-    }
+    const rl = await rateLimit(`admin-users-get:${admin.id}`, 10, 60_000)
+    if (!rl.ok) return rl.response
 
-    const profileResult = await supabaseServer
-        .from("user_profiles")
-        .select("id, display_name, jlpt_level, streak_count, created_at")
-
+    // Fetch first page of auth users + all profiles in parallel
+    const [{ data: firstPage, error: firstError }, profileResult] = await Promise.all([
+        supabaseServer.auth.admin.listUsers({ perPage: 1000, page: 1 }),
+        supabaseServer.from("user_profiles").select("id, display_name, jlpt_level, streak_count, created_at"),
+    ])
+    if (firstError) return serverError(firstError, "GET /api/admin/users auth")
     if (profileResult.error) return serverError(profileResult.error, "GET /api/admin/users profiles")
+
+    const allAuthUsers: User[] = [...(firstPage?.users ?? [])]
+    if ((firstPage?.users ?? []).length === 1000) {
+        let page = 2
+        while (true) {
+            const { data, error } = await supabaseServer.auth.admin.listUsers({ perPage: 1000, page })
+            if (error) return serverError(error, "GET /api/admin/users auth")
+            allAuthUsers.push(...(data.users ?? []))
+            if ((data.users ?? []).length < 1000) break
+            page++
+        }
+    }
 
     const profileMap = new Map((profileResult.data ?? []).map(p => [p.id, p]))
 
@@ -58,6 +65,9 @@ export async function GET() {
 export async function POST(request: NextRequest) {
     const admin = await requireAdmin()
     if (!admin) return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
+
+    const rl = await rateLimit(`admin-users-post:${admin.id}`, 10, 60_000)
+    if (!rl.ok) return rl.response
 
     const body = await request.json().catch(() => null)
     const email = typeof body?.email === "string" ? body.email.trim() : ""

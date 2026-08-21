@@ -100,14 +100,15 @@ export async function PATCH(request: NextRequest, { params }: Params) {
             if (error) return serverError(error, `PATCH /api/admin/data/vocabulary/${id} senses_insert`)
         }
 
-        for (const s of toUpdate) {
-            const { error } = await supabaseServer
+        const updateResults = await Promise.all(toUpdate.map((s) =>
+            supabaseServer
                 .from("vocabulary_senses")
                 .update({ meaning_vi: s.meaning_vi.trim() || null, meaning_en: s.meaning_en?.trim() || null })
                 .eq("id", s.id!)
                 .eq("vocabulary_id", vocabId)
-            if (error) return serverError(error, `PATCH /api/admin/data/vocabulary/${id} senses_update`)
-        }
+        ))
+        const updateError = updateResults.find((r) => r.error)?.error
+        if (updateError) return serverError(updateError, `PATCH /api/admin/data/vocabulary/${id} senses_update`)
     }
 
     const { data: senses } = await supabaseServer

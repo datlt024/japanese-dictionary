@@ -3,6 +3,7 @@ import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
 import { isAdminUser } from "@/server/utils/admin"
 import { serverError } from "@/server/utils/api-error"
+import { rateLimit } from "@/shared/utils/rate-limit"
 import type { TablesUpdate } from "@/shared/types/database.generated"
 
 async function requireAdmin() {
@@ -17,6 +18,9 @@ type Params = { params: Promise<{ id: string }> }
 export async function PATCH(request: NextRequest, { params }: Params) {
     const admin = await requireAdmin()
     if (!admin) return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
+
+    const rl = await rateLimit(`admin-user-patch:${admin.id}`, 30, 60_000)
+    if (!rl.ok) return rl.response
 
     const { id } = await params
     const body = await request.json().catch(() => ({}))
@@ -54,6 +58,9 @@ export async function PATCH(request: NextRequest, { params }: Params) {
 export async function DELETE(_: NextRequest, { params }: Params) {
     const admin = await requireAdmin()
     if (!admin) return NextResponse.json({ error: "Không có quyền truy cập" }, { status: 403 })
+
+    const rl = await rateLimit(`admin-user-delete:${admin.id}`, 10, 60_000)
+    if (!rl.ok) return rl.response
 
     const { id } = await params
 

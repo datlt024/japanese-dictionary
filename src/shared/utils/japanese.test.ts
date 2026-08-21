@@ -6,6 +6,7 @@ import {
     isSingleKanji,
     extractKanjis,
     cleanReading,
+    normalizeKanjiNumbers,
 } from "./japanese"
 
 describe("romajiToHiragana", () => {
@@ -131,5 +132,28 @@ describe("cleanReading", () => {
 
     it("removes dashes from reading", () => {
         expect(cleanReading("カタカ-ナ")).toBe("かたかな")
+    })
+})
+
+describe("normalizeKanjiNumbers", () => {
+    it("converts single-digit kanji numerals", () => {
+        expect(normalizeKanjiNumbers("第一課")).toBe("第1課")
+        expect(normalizeKanjiNumbers("第二課")).toBe("第2課")
+        expect(normalizeKanjiNumbers("第九課")).toBe("第9課")
+    })
+
+    it("converts compound kanji numerals", () => {
+        expect(normalizeKanjiNumbers("第十一課")).toBe("第11課")
+        expect(normalizeKanjiNumbers("第二十三課")).toBe("第23課")
+    })
+
+    it("leaves ASCII numbers unchanged", () => {
+        expect(normalizeKanjiNumbers("第11課")).toBe("第11課")
+        expect(normalizeKanjiNumbers("Chapter 3")).toBe("Chapter 3")
+    })
+
+    it("passes through strings without kanji numerals", () => {
+        expect(normalizeKanjiNumbers("日本語")).toBe("日本語")
+        expect(normalizeKanjiNumbers("はじめに")).toBe("はじめに")
     })
 })

@@ -28,6 +28,7 @@ import { useAuth } from "@/shared/hooks/useAuth"
 import AuthModal from "@/shared/components/AuthModal"
 import { useNotebooks } from "@/shared/hooks/useNotebooks"
 import { useNotebookGroups } from "@/shared/hooks/useNotebookGroups"
+import { normalizeKanjiNumbers } from "@/shared/utils/japanese"
 import NotebookListCard from "./NotebookListCard"
 import NotebookDetailView from "./NotebookDetailView"
 import NotebookSidebarWidgets from "./NotebookSidebarWidgets"
@@ -58,26 +59,8 @@ function Skeleton() {
     )
 }
 
-function normalizeForSort(name: string): string {
-    const kanjiMap: Record<string, number> = {
-        "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4,
-        "五": 5, "六": 6, "七": 7, "八": 8, "九": 9,
-        "十": 10, "百": 100, "千": 1000,
-    }
-    return name.replace(/[〇一二三四五六七八九十百千]+/g, (match) => {
-        let value = 0; let current = 0
-        for (const ch of match) {
-            const v = kanjiMap[ch]
-            if (v === undefined) break
-            if (v >= 10) { value += (current === 0 ? 1 : current) * v; current = 0 }
-            else { current = v }
-        }
-        return String(value + current)
-    })
-}
-
 function compareByName(a: string, b: string) {
-    return normalizeForSort(a).localeCompare(normalizeForSort(b), ["vi", "ja", "en"], { numeric: true, caseFirst: "lower" })
+    return normalizeKanjiNumbers(a).localeCompare(normalizeKanjiNumbers(b), ["vi", "ja", "en"], { numeric: true, caseFirst: "lower" })
 }
 
 /* ── Main component ─────────────────────────────────────────── */

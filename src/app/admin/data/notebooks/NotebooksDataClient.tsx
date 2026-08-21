@@ -7,6 +7,7 @@ import {
 } from "lucide-react"
 import styles from "@/app/admin/data/shared.module.css"
 import nb from "./notebooks.module.css"
+import { normalizeKanjiNumbers } from "@/shared/utils/japanese"
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -43,29 +44,10 @@ type Props = {
 
 const CATEGORIES = ["N5", "N4", "N3", "N2", "N1", "Tổng hợp", "Chủ đề", "Khác"]
 
-const KANJI_NUM: Record<string, number> = {
-    "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4,
-    "五": 5, "六": 6, "七": 7, "八": 8, "九": 9,
-    "十": 10, "百": 100, "千": 1000,
-}
-
-function normalizeForSort(name: string): string {
-    return name.replace(/[〇一二三四五六七八九十百千]+/g, (match) => {
-        let value = 0; let current = 0
-        for (const ch of match) {
-            const v = KANJI_NUM[ch]
-            if (v === undefined) break
-            if (v >= 10) { value += (current === 0 ? 1 : current) * v; current = 0 }
-            else { current = v }
-        }
-        return String(value + current)
-    })
-}
-
 function sortByName<T extends { display_order: number; name: string }>(items: T[]): T[] {
     return [...items].sort((a, b) => {
         if (a.display_order !== b.display_order) return a.display_order - b.display_order
-        return normalizeForSort(a.name).localeCompare(normalizeForSort(b.name), ["vi", "ja", "en"], { numeric: true })
+        return normalizeKanjiNumbers(a.name).localeCompare(normalizeKanjiNumbers(b.name), ["vi", "ja", "en"], { numeric: true })
     })
 }
 

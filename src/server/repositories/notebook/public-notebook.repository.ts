@@ -2,31 +2,12 @@ import "server-only"
 import type { SupabaseClient } from "@supabase/supabase-js"
 import type { ExploreSection, PublicNotebook } from "@/domain/notebook/notebook.type"
 import type { Database } from "@/shared/types/database.generated"
-
-const KANJI_MAP: Record<string, number> = {
-    "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4,
-    "五": 5, "六": 6, "七": 7, "八": 8, "九": 9,
-    "十": 10, "百": 100, "千": 1000,
-}
-
-function normalizeForSort(name: string): string {
-    return name.replace(/[〇一二三四五六七八九十百千]+/g, (match) => {
-        let value = 0
-        let current = 0
-        for (const ch of match) {
-            const v = KANJI_MAP[ch]
-            if (v === undefined) break
-            if (v >= 10) { value += (current === 0 ? 1 : current) * v; current = 0 }
-            else { current = v }
-        }
-        return String(value + current)
-    })
-}
+import { normalizeKanjiNumbers } from "@/shared/utils/japanese"
 
 function sortNotebooks(nbs: PublicNotebook[]): PublicNotebook[] {
     return [...nbs].sort((a, b) => {
         if (a.display_order !== b.display_order) return a.display_order - b.display_order
-        return normalizeForSort(a.name).localeCompare(normalizeForSort(b.name), ["vi", "ja", "en"], { numeric: true })
+        return normalizeKanjiNumbers(a.name).localeCompare(normalizeKanjiNumbers(b.name), ["vi", "ja", "en"], { numeric: true })
     })
 }
 

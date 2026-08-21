@@ -1,6 +1,14 @@
 import React from "react"
+import DOMPurify from "isomorphic-dompurify"
 import type { VocabItem, GrammarItem, Section, Question } from "./exam-types"
 import styles from "./MockExamClient.module.css"
+
+export function sanitizeExamContext(html: string): string {
+    const sanitized = DOMPurify.sanitize(html)
+    return sanitized
+        .replace(/\bcolor\s*:\s*[^;}"]+;?\s*/gi, "")
+        .replace(/\bbackground(?:-color)?\s*:\s*[^;}"]+;?\s*/gi, "")
+}
 
 export function formatTime(s: number) {
     return `${Math.floor(s / 60).toString().padStart(2, "0")}:${(s % 60).toString().padStart(2, "0")}`

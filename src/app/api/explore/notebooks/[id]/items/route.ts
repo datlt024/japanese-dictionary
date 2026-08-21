@@ -10,27 +10,17 @@ type Params = { params: Promise<{ id: string }> }
 
 // Cache the full response (access check + items + enrichment) per notebook id.
 // Public notebook content changes infrequently; 10-minute cache with 1-hour SWR is safe.
+// Tags allow per-notebook cache invalidation when visibility is toggled via admin.
 function getCachedNotebookItems(notebookId: string) {
     return unstable_cache(
         async () => {
-            // Check visibility (may take 1–2 queries for group-owned notebooks)
             const { data: nb } = await supabaseAdmin
                 .from("notebooks")
-                .select("is_public, group_id")
+                .select("is_public")
                 .eq("id", notebookId)
                 .maybeSingle()
 
-            if (!nb) return null
-            if (!nb.is_public) {
-                if (!nb.group_id) return null
-                const { data: group } = await supabaseAdmin
-                    .from("notebook_groups")
-                    .select("is_public")
-                    .eq("id", nb.group_id)
-                    .eq("is_public", true)
-                    .maybeSingle()
-                if (!group) return null
-            }
+            if (!nb?.is_public) return null
 
             const { data, error } = await supabaseAdmin
                 .from("notebook_items")
@@ -44,7 +34,7 @@ function getCachedNotebookItems(notebookId: string) {
             return enrichItems((data ?? []) as NotebookItem[])
         },
         [`explore-notebook-items-${notebookId}`],
-        { revalidate: 600 }
+        { revalidate: 600, tags: [`explore-notebook-items-${notebookId}`] }
     )
 }
 
