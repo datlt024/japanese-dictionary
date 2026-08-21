@@ -57,7 +57,7 @@ export default function ExploreTab() {
     const { data: sections, isLoading, error } = useSWR<ExploreSection[]>(
         "/explore/notebooks",
         fetchExploreSections,
-        { revalidateOnFocus: false, dedupingInterval: 300_000 }
+        { revalidateOnFocus: true, dedupingInterval: 10_000 }
     )
 
     const totalLiked = useMemo(() => likedIds.size + likedSectionIds.size, [likedIds, likedSectionIds])
