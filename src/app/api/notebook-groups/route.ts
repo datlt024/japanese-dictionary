@@ -28,9 +28,7 @@ export async function GET() {
         return serverError(error, "GET /api/notebook-groups")
     }
 
-    return NextResponse.json(data ?? [], {
-        headers: { "Cache-Control": "private, max-age=30, stale-while-revalidate=60" },
-    })
+    return NextResponse.json(data ?? [])
 }
 
 export async function POST(request: NextRequest) {

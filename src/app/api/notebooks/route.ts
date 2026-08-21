@@ -47,15 +47,12 @@ export async function GET(request: NextRequest) {
         item_count: nb.notebook_items?.[0]?.count ?? 0,
     }))
 
-    const headers: Record<string, string> = {
-        "Cache-Control": "private, max-age=30, stale-while-revalidate=60",
-    }
+    const headers: Record<string, string> = {}
     if (rows.length === limit) {
-        const nextCursor = rows[rows.length - 1].created_at
-        headers["X-Next-Cursor"] = nextCursor
+        headers["X-Next-Cursor"] = rows[rows.length - 1].created_at
     }
 
-    return NextResponse.json(transformed, { headers })
+    return NextResponse.json(transformed, { headers: Object.keys(headers).length ? headers : undefined })
 }
 
 export async function POST(request: NextRequest) {

@@ -14,7 +14,7 @@ export function useNotebookGroups(enabled = true) {
     const { data, isLoading, error, mutate } = useSWR<NotebookGroup[]>(
         enabled ? "/api/notebook-groups" : null,
         fetcher,
-        { revalidateOnFocus: false }
+        { revalidateOnFocus: true, dedupingInterval: 10_000 }
     )
 
     return {

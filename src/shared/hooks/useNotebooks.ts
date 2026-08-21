@@ -19,7 +19,7 @@ export function useNotebooks(enabled = true) {
             setExtraPages([])
             return res.json()
         },
-        { revalidateOnFocus: false }
+        { revalidateOnFocus: true, dedupingInterval: 10_000 }
     )
 
     const loadMore = useCallback(async () => {
