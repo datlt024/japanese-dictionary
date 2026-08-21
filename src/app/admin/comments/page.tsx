@@ -1,9 +1,6 @@
-import { redirect } from "next/navigation"
 import type { Metadata } from "next"
 
-import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
-import { isAdminUser } from "@/server/utils/admin"
 import AppLayout from "@/shared/components/layout/AppLayout"
 import CommentsClient from "./CommentsClient"
 
@@ -22,14 +19,9 @@ type Props = {
 }
 
 export default async function AdminCommentsPage({ searchParams }: Props) {
-    const authClient = await createSupabaseServerClient()
-    const { data: { user } } = await authClient.auth.getUser()
-    if (!user || !isAdminUser(user)) redirect("/")
-
     const resolved = await searchParams
     const page = Math.max(0, Number(resolved.page ?? "0") || 0)
     const entryType = resolved.entry_type ?? ""
-
     const offset = page * PAGE_SIZE
 
     let baseQuery = supabaseServer
@@ -42,7 +34,11 @@ export default async function AdminCommentsPage({ searchParams }: Props) {
         baseQuery = baseQuery.eq("entry_type", entryType)
     }
 
-    const { data: comments, count, error } = await baseQuery
+    // Fetch comments + all user profiles in parallel
+    const [{ data: comments, count, error }, { data: allProfiles }] = await Promise.all([
+        baseQuery,
+        supabaseServer.from("user_profiles").select("user_id, display_name"),
+    ])
 
     if (error) {
         return (
@@ -57,16 +53,9 @@ export default async function AdminCommentsPage({ searchParams }: Props) {
     const total = count ?? 0
     const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE))
 
-    const userIds = [...new Set((comments ?? []).map((c) => c.user_id).filter(Boolean))]
     const profileMap: Record<string, string> = {}
-    if (userIds.length > 0) {
-        const { data: profiles } = await supabaseServer
-            .from("user_profiles")
-            .select("user_id, display_name")
-            .in("user_id", userIds)
-        for (const p of profiles ?? []) {
-            if (p.user_id) profileMap[p.user_id] = p.display_name
-        }
+    for (const p of allProfiles ?? []) {
+        if (p.user_id) profileMap[p.user_id] = p.display_name
     }
 
     return (

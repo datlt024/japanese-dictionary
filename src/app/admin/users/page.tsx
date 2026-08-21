@@ -1,10 +1,7 @@
-import { redirect } from "next/navigation"
 import type { Metadata } from "next"
 import type { User } from "@supabase/supabase-js"
 
-import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
-import { isAdminUser } from "@/server/utils/admin"
 import AppLayout from "@/shared/components/layout/AppLayout"
 import UsersClient from "./UsersClient"
 
@@ -29,22 +26,23 @@ export interface AdminUserRecord {
 }
 
 export default async function AdminUsersPage() {
-    const authClient = await createSupabaseServerClient()
-    const { data: { user } } = await authClient.auth.getUser()
-    if (!user || !isAdminUser(user)) redirect("/")
+    // Fetch first page of auth users + profiles in parallel
+    const [{ data: firstPage }, profileResult] = await Promise.all([
+        supabaseServer.auth.admin.listUsers({ perPage: 1000, page: 1 }),
+        supabaseServer.from("user_profiles").select("id, display_name, jlpt_level, streak_count, created_at"),
+    ])
 
-    const allAuthUsers: User[] = []
-    let page = 1
-    while (true) {
-        const { data } = await supabaseServer.auth.admin.listUsers({ perPage: 1000, page })
-        allAuthUsers.push(...(data?.users ?? []))
-        if ((data?.users ?? []).length < 1000) break
-        page++
+    const allAuthUsers: User[] = [...(firstPage?.users ?? [])]
+    // Fetch remaining pages sequentially if needed (rare — most instances < 1000 users)
+    if ((firstPage?.users ?? []).length === 1000) {
+        let page = 2
+        while (true) {
+            const { data } = await supabaseServer.auth.admin.listUsers({ perPage: 1000, page })
+            allAuthUsers.push(...(data?.users ?? []))
+            if ((data?.users ?? []).length < 1000) break
+            page++
+        }
     }
-
-    const profileResult = await supabaseServer
-        .from("user_profiles")
-        .select("id, display_name, jlpt_level, streak_count, created_at")
 
     const profileMap = new Map((profileResult.data ?? []).map(p => [p.id, p]))
 

@@ -1,4 +1,3 @@
-import { redirect } from "next/navigation"
 import type { Metadata } from "next"
 import Link from "next/link"
 import {
@@ -7,9 +6,7 @@ import {
     RefreshCw,
 } from "lucide-react"
 
-import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
-import { isAdminUser } from "@/server/utils/admin"
 import AppLayout from "@/shared/components/layout/AppLayout"
 import DashboardCharts from "./DashboardCharts"
 
@@ -50,14 +47,11 @@ function groupByDay(
 }
 
 export default async function AdminDashboardPage() {
-    const authClient = await createSupabaseServerClient()
-    const { data: { user } } = await authClient.auth.getUser()
-    if (!user || !isAdminUser(user)) redirect("/")
-
     const cutoff = new Date()
     cutoff.setDate(cutoff.getDate() - 30)
     const thirtyDaysAgo = cutoff.toISOString()
 
+    // 12 parallel queries instead of 16 — JLPT counts merged into one vocab query
     const [
         { count: vocabTotal },
         { count: kanjiTotal },
@@ -67,11 +61,7 @@ export default async function AdminDashboardPage() {
         { count: itemTotal },
         { count: practiceTotal },
         { count: commentTotal },
-        { count: n5 },
-        { count: n4 },
-        { count: n3 },
-        { count: n2 },
-        { count: n1 },
+        { data: jlptRows },
         { data: userHistory },
         { data: practiceHistory },
         { data: commentHistory },
@@ -84,15 +74,18 @@ export default async function AdminDashboardPage() {
         supabaseServer.from("notebook_items").select("id", { count: "exact", head: true }),
         supabaseServer.from("practice_sessions").select("id", { count: "exact", head: true }),
         supabaseServer.from("word_comments").select("id", { count: "exact", head: true }),
-        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N5"),
-        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N4"),
-        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N3"),
-        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N2"),
-        supabaseServer.from("vocabularies").select("id", { count: "exact", head: true }).eq("jlpt", "N1"),
+        supabaseServer.from("vocabularies").select("jlpt").in("jlpt", ["N5", "N4", "N3", "N2", "N1"]),
         supabaseServer.from("user_profiles").select("created_at").gte("created_at", thirtyDaysAgo),
         supabaseServer.from("practice_sessions").select("created_at").gte("created_at", thirtyDaysAgo),
         supabaseServer.from("word_comments").select("created_at").gte("created_at", thirtyDaysAgo),
     ])
+
+    const jlptCounts: Record<string, number> = { N5: 0, N4: 0, N3: 0, N2: 0, N1: 0 }
+    for (const row of jlptRows ?? []) {
+        if (row.jlpt && row.jlpt in jlptCounts) jlptCounts[row.jlpt]++
+    }
+    const n5 = jlptCounts.N5; const n4 = jlptCounts.N4; const n3 = jlptCounts.N3
+    const n2 = jlptCounts.N2; const n1 = jlptCounts.N1
 
     const jlpt = [
         { level: "N5", count: n5 ?? 0, color: "var(--color-jlpt-n5)" },

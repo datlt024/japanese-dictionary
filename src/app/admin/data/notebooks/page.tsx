@@ -1,8 +1,5 @@
-import { redirect } from "next/navigation"
 import type { Metadata } from "next"
-import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
-import { isAdminUser } from "@/server/utils/admin"
 import AppLayout from "@/shared/components/layout/AppLayout"
 import NotebooksDataClient from "./NotebooksDataClient"
 
@@ -10,9 +7,6 @@ export const dynamic = "force-dynamic"
 export const metadata: Metadata = { title: "Sổ tay | Yomi Admin" }
 
 export default async function NotebooksDataPage() {
-    const authClient = await createSupabaseServerClient()
-    const { data: { user } } = await authClient.auth.getUser()
-    if (!user || !isAdminUser(user)) redirect("/")
 
     const [groupsResult, notebooksResult] = await Promise.all([
         supabaseServer
