@@ -349,7 +349,7 @@ function GroupBadge({ publicCount, total, loading, onToggle }: {
 export default function NotebooksDataClient({ initialGroups, initialNotebooks }: Props) {
     const [groups, setGroups] = useState(initialGroups)
     const [notebooks, setNotebooks] = useState(initialNotebooks)
-    const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
+    const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set(initialGroups.map(g => g.id)))
     const [search, setSearch] = useState("")
     const [selectedGroup, setSelectedGroup] = useState<GroupRow | null>(null)
     const [selectedNotebook, setSelectedNotebook] = useState<NotebookRow | null>(null)
