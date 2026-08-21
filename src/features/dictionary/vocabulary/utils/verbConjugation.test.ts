@@ -90,6 +90,48 @@ describe("conjugateVerb — group 3 (irregular)", () => {
     })
 })
 
+describe("conjugateVerb — godan gu-ending verbs", () => {
+    it("conjugates 泳ぐ (gu-verb) て form correctly", () => {
+        const result = conjugateVerb("泳ぐ", "group_1")
+        const forms = Object.fromEntries(result.map(r => [r.label, r.form]))
+        expect(forms["Dạng て"]).toBe("泳いで")
+        expect(forms["Dạng quá khứ"]).toBe("泳いだ")
+    })
+
+    it("conjugates 急ぐ (gu-verb) correctly", () => {
+        const result = conjugateVerb("急ぐ", "group_1")
+        const forms = Object.fromEntries(result.map(r => [r.label, r.form]))
+        expect(forms["Dạng ます"]).toBe("急ぎます")
+        expect(forms["Dạng phủ định"]).toBe("急がない")
+        expect(forms["Dạng て"]).toBe("急いで")
+        expect(forms["Dạng quá khứ"]).toBe("急いだ")
+    })
+})
+
+describe("conjugateVerb — godan nu/bu/ru endings", () => {
+    it("conjugates 死ぬ (nu-verb) て form correctly", () => {
+        const result = conjugateVerb("死ぬ", "group_1")
+        const forms = Object.fromEntries(result.map(r => [r.label, r.form]))
+        expect(forms["Dạng て"]).toBe("死んで")
+        expect(forms["Dạng quá khứ"]).toBe("死んだ")
+    })
+
+    it("conjugates 遊ぶ (bu-verb) て form correctly", () => {
+        const result = conjugateVerb("遊ぶ", "group_1")
+        const forms = Object.fromEntries(result.map(r => [r.label, r.form]))
+        expect(forms["Dạng て"]).toBe("遊んで")
+        expect(forms["Dạng quá khứ"]).toBe("遊んだ")
+    })
+
+    it("conjugates 切る (ru-godan-verb) correctly", () => {
+        const result = conjugateVerb("切る", "group_1")
+        const forms = Object.fromEntries(result.map(r => [r.label, r.form]))
+        expect(forms["Dạng ます"]).toBe("切ります")
+        expect(forms["Dạng て"]).toBe("切って")
+        expect(forms["Dạng quá khứ"]).toBe("切った")
+    })
+})
+
 describe("conjugateVerb — edge cases", () => {
     it("returns empty array when verb is empty", () => {
         expect(conjugateVerb("", "group_1")).toEqual([])
