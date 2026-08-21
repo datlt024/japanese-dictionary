@@ -1,3 +1,4 @@
+import { revalidateTag } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
@@ -28,5 +29,6 @@ export async function DELETE(
         return NextResponse.json({ error: "Bình luận không tồn tại" }, { status: 404 })
     }
 
+    revalidateTag("public-comments")
     return new NextResponse(null, { status: 204 })
 }

@@ -104,10 +104,10 @@ export type StreakUpdate = {
 export async function upsertStreak(supabase: Client, userId: string, streak: StreakUpdate) {
     return supabase
         .from("user_profiles")
-        .update({
+        .upsert({
+            id: userId,
             streak_count: streak.streak_count,
             streak_last_date: streak.streak_last_date,
             streak_active_days: streak.streak_active_days,
         })
-        .eq("id", userId)
 }

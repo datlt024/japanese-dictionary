@@ -1,4 +1,4 @@
-import { unstable_cache } from "next/cache"
+import { unstable_cache, revalidateTag } from "next/cache"
 import { NextRequest, NextResponse } from "next/server"
 import { createSupabaseServerClient } from "@/server/supabase/auth-server"
 import { supabaseServer } from "@/server/supabase/server"
@@ -138,13 +138,16 @@ export async function POST(request: NextRequest) {
     const displayName = parsed.data.display_name
     const jlptLevel = parsed.data.jlpt_level ?? null
 
-    await upsertProfile(supabaseServer, user.id, displayName, jlptLevel)
+    const { error: profileError } = await upsertProfile(supabaseServer, user.id, displayName, jlptLevel)
+    if (profileError) return serverError(profileError, "POST /api/comments (upsertProfile)")
 
     const { data, error } = await createComment(supabaseServer, user.id, entryType, entryId, content)
 
     if (error) {
         return serverError(error, "POST /api/comments")
     }
+
+    revalidateTag("public-comments")
 
     return NextResponse.json({
         id: data.id,

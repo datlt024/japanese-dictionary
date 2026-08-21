@@ -39,7 +39,12 @@ export async function PATCH(request: NextRequest, { params }: Params) {
     if ("is_common" in body) patch.is_common = typeof body.is_common === "boolean" ? body.is_common : false
     if ("verb_group" in body) patch.verb_group = typeof body.verb_group === "string" ? body.verb_group.trim() || null : null
 
-    const sensesUpsert = Array.isArray(body.senses_upsert) ? body.senses_upsert as { id?: number; meaning_vi: string; meaning_en?: string | null }[] : null
+    type SenseUpsert = { id?: number; meaning_vi: string; meaning_en?: string | null }
+    const rawSenses = Array.isArray(body.senses_upsert) ? body.senses_upsert : null
+    if (rawSenses && !rawSenses.every((s) => s !== null && typeof s === "object" && typeof s.meaning_vi === "string")) {
+        return NextResponse.json({ error: "senses_upsert: mỗi mục phải có meaning_vi" }, { status: 400 })
+    }
+    const sensesUpsert = rawSenses as SenseUpsert[] | null
     const sensesDelete = Array.isArray(body.senses_delete) ? (body.senses_delete as unknown[]).filter(x => typeof x === "number") as number[] : null
 
     if (Object.keys(patch).length === 0 && !sensesUpsert && !sensesDelete) {

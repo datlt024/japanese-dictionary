@@ -268,7 +268,7 @@ const SearchHubDropdown = forwardRef<HTMLDivElement, Props>(function SearchHubDr
     }
 
     return (
-        <div ref={ref} className={styles.searchHubDropdown} role="listbox" aria-label="Gợi ý tìm kiếm">
+        <div ref={ref} className={styles.searchHubDropdown} role="menu" aria-label="Gợi ý tìm kiếm">
             <div className={styles.searchHubContent} aria-live="polite" aria-atomic="false">
                 {error && !loading && (
                     <p className={styles.searchHubError} role="alert">
@@ -292,6 +292,7 @@ const SearchHubDropdown = forwardRef<HTMLDivElement, Props>(function SearchHubDr
                                     href={`/vocabulary/${item.id}?lang=${encodeURIComponent(
                                         language
                                     )}`}
+                                    role="menuitem"
                                     className={styles.searchHubItem}
                                 >
                                     <div>
@@ -402,6 +403,7 @@ const SearchHubDropdown = forwardRef<HTMLDivElement, Props>(function SearchHubDr
                                     )}&lang=${encodeURIComponent(
                                         language
                                     )}`}
+                                    role="menuitem"
                                     className={styles.searchHubItem}
                                 >
                                     <div>

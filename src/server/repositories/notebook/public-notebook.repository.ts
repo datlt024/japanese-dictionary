@@ -60,13 +60,13 @@ export async function listExploreSections(
                     notebooks: [],
                 })
             }
-            groupMap.get(row.group_id)!.notebooks.push(publicNb)
+            groupMap.get(row.group_id)?.notebooks.push(publicNb)
         } else {
             const cat = row.public_category ?? "Khác"
             if (!categoryMap.has(cat)) {
                 categoryMap.set(cat, { notebooks: [], order: catOrder++ })
             }
-            categoryMap.get(cat)!.notebooks.push(publicNb)
+            categoryMap.get(cat)?.notebooks.push(publicNb)
         }
     }
 

@@ -24,16 +24,16 @@ export async function GET(
         return NextResponse.json({ error: "id không hợp lệ" }, { status: 400 })
     }
 
+    const ip = getClientIp(request)
+    const rl = await rateLimit(`note-get:${ip}`, 120, 60_000)
+    if (!rl.ok) return rl.response
+
     const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
 
     if (!user) {
         return NextResponse.json({ note: null })
     }
-
-    const ip = getClientIp(request)
-    const rl = await rateLimit(`note-get:${user.id}:${ip}`, 60, 60_000)
-    if (!rl.ok) return rl.response
 
     const { data, error } = await supabaseServer
         .from("user_vocabulary_notes")

@@ -20,20 +20,24 @@ export async function enrichItems(items: NotebookItem[]): Promise<EnrichedNotebo
                 .from("vocabularies")
                 .select("id, primary_word, primary_kana, vocabulary_senses(meaning_vi, sense_index)")
                 .in("id", vocabItems.map((i) => Number(i.item_id)))
-            : { data: [] },
+            : { data: [], error: null },
         kanjiItems.length > 0
             ? supabaseAdmin
                 .from("kanjis")
                 .select("kanji, han_viet, meaning_vi")
                 .in("kanji", kanjiItems.map((i) => i.item_id))
-            : { data: [] },
+            : { data: [], error: null },
         grammarItems.length > 0
             ? supabaseAdmin
                 .from("grammars")
                 .select("id, pattern, display_pattern, short_meaning_vi, jlpt_level")
                 .in("id", grammarItems.map((i) => Number(i.item_id)))
-            : { data: [] },
+            : { data: [], error: null },
     ])
+
+    if (vocabResult.error) throw vocabResult.error
+    if (kanjiResult.error) throw kanjiResult.error
+    if (grammarResult.error) throw grammarResult.error
 
     const vocabMap = new Map((vocabResult.data ?? []).map((v) => [String(v.id), v]))
     const kanjiMap = new Map((kanjiResult.data ?? []).map((k) => [k.kanji, k]))
