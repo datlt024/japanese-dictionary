@@ -259,7 +259,11 @@
     white-space: nowrap;
     overflow: hidden;
     opacity: 1;
-    transition: opacity var(--dur-fast) var(--ease-in-out);
+    max-height: 32px;
+    transition:
+        opacity var(--dur-fast) var(--ease-in-out),
+        max-height var(--dur-med) var(--ease-in-out),
+        padding var(--dur-med) var(--ease-in-out);
 }
 
 .childLink {
@@ -275,9 +279,14 @@
 
 .sidebarCollapsed .navSectionLabel {
     opacity: 0;
-    height: 0;
+    max-height: 0;
     padding: 0;
     pointer-events: none;
+    overflow: hidden;
+}
+
+.sidebarCollapsed .navSection {
+    margin-top: 2px;
 }
 
 .sidebarCollapsed .childLink {
